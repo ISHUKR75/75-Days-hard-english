@@ -1,0 +1,48 @@
+{
+  "name": "75 Days Hard English",
+  "short_name": "75DHE",
+  "description": "Master English in 75 Days — Structured, Gamified, Professional",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#6366f1",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/icons/icon-72x72.png",
+      "sizes": "72x72",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["education", "utilities"],
+  "lang": "en-IN",
+  "shortcuts": [
+    {
+      "name": "Continue Learning",
+      "short_name": "Learn",
+      "description": "Continue your 75-day challenge",
+      "url": "/75-days-challenge",
+      "icons": [{ "src": "/icons/icon-72x72.png", "sizes": "72x72" }]
+    },
+    {
+      "name": "Practice Quiz",
+      "short_name": "Quiz",
+      "description": "Start a practice quiz",
+      "url": "/assessment",
+      "icons": [{ "src": "/icons/icon-72x72.png", "sizes": "72x72" }]
+    }
+  ]
+}
