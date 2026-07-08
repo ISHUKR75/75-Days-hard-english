@@ -1,576 +1,337 @@
 'use client';
 // ============================================================
-// WRITING HUB PAGE — Complete writing practice center
-// Features: Writing types, templates, editor preview,
-// email templates, writing tips, skill categories
+// WRITING PRACTICE PAGE — Emails, Letters, Essays, Applications
 // ============================================================
 
 import { useState } from 'react';
-import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import {
-  PenTool, Mail, FileText, Briefcase, BookOpen, Star,
-  ChevronRight, ArrowRight, Target, Brain, CheckCircle2,
-  Zap, Clock, Users, MessageSquare, TrendingUp, Edit3,
-  Download, Send, Award, Globe, BarChart2, Lock, Play,
-} from 'lucide-react';
+import { PenTool, ChevronRight, Check, Sparkles, Copy, RotateCcw } from 'lucide-react';
+import useUserStore from '@/store/userStore';
 
-const fadeUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } };
-const stagger = { hidden: {}, visible: { transition: { staggerChildren: 0.07 } } };
+const WRITING_TEMPLATES = [
+  {
+    id:'email-formal', category:'email', level:'B1',
+    title:'Formal Business Email',
+    icon:'📧',
+    situation:'Write a formal email to your manager requesting a day off',
+    hints:['Start with a formal salutation','State purpose clearly in first line','Be polite and professional','End with formal closing'],
+    template:`Subject: Request for Leave on [Date]
 
-// ── Writing types/categories ─────────────────────────────────
-const WRITING_TYPES = [
-  {
-    id: 'email-formal',
-    icon: Mail,
-    emoji: '📧',
-    title: 'Formal Email',
-    hindi: 'औपचारिक ईमेल',
-    desc: 'Professional emails to managers, clients, and colleagues — format, tone, opening, closing.',
-    level: 'A2',
-    templates: 12,
-    color: 'from-indigo-500 to-blue-500',
-    bg: 'bg-indigo-500/10',
-    border: 'border-indigo-500/25',
-    tags: ['office', 'professional'],
-    popular: true,
-    href: '/writing-lab/emails',
-  },
-  {
-    id: 'letter-formal',
-    icon: FileText,
-    emoji: '📝',
-    title: 'Formal Letter',
-    hindi: 'औपचारिक पत्र',
-    desc: 'Job applications, complaint letters, request letters, leave applications — all formats.',
-    level: 'B1',
-    templates: 8,
-    color: 'from-violet-500 to-purple-500',
-    bg: 'bg-violet-500/10',
-    border: 'border-violet-500/25',
-    tags: ['formal', 'job'],
-    popular: true,
-    href: '/writing-lab/letters',
-  },
-  {
-    id: 'resume',
-    icon: Briefcase,
-    emoji: '📄',
-    title: 'Resume / CV',
-    hindi: 'बायोडेटा / सीवी',
-    desc: 'Professional resume writing — ATS-friendly formats, action verbs, skill highlights.',
-    level: 'B1',
-    templates: 5,
-    color: 'from-emerald-500 to-teal-500',
-    bg: 'bg-emerald-500/10',
-    border: 'border-emerald-500/25',
-    tags: ['job', 'career'],
-    popular: true,
-    href: '/writing-lab/resume',
-  },
-  {
-    id: 'essay',
-    icon: BookOpen,
-    emoji: '📃',
-    title: 'Essay Writing',
-    hindi: 'निबंध लेखन',
-    desc: 'Argumentative, descriptive, narrative, analytical essays with proper structure.',
-    level: 'B2',
-    templates: 10,
-    color: 'from-amber-500 to-orange-500',
-    bg: 'bg-amber-500/10',
-    border: 'border-amber-500/25',
-    tags: ['academic'],
-    popular: false,
-    href: '/writing-lab/essays',
-  },
-  {
-    id: 'email-informal',
-    icon: MessageSquare,
-    emoji: '💬',
-    title: 'Informal Email',
-    hindi: 'अनौपचारिक ईमेल',
-    desc: 'Friendly emails to colleagues and friends — casual tone, expressions, greetings.',
-    level: 'A1',
-    templates: 8,
-    color: 'from-pink-500 to-rose-500',
-    bg: 'bg-pink-500/10',
-    border: 'border-pink-500/25',
-    tags: ['casual', 'social'],
-    popular: false,
-    href: '/writing-lab/emails',
-  },
-  {
-    id: 'report',
-    icon: BarChart2,
-    emoji: '📊',
-    title: 'Business Report',
-    hindi: 'व्यावसायिक रिपोर्ट',
-    desc: 'Monthly reports, project status updates, sales reports — professional format.',
-    level: 'B2',
-    templates: 6,
-    color: 'from-cyan-500 to-sky-500',
-    bg: 'bg-cyan-500/10',
-    border: 'border-cyan-500/25',
-    tags: ['office', 'business'],
-    popular: false,
-    href: '/writing-lab/emails',
-  },
-  {
-    id: 'linkedin',
-    icon: Globe,
-    emoji: '💼',
-    title: 'LinkedIn Post',
-    hindi: 'लिंक्डइन पोस्ट',
-    desc: 'Professional LinkedIn posts, profile summaries, and network messages.',
-    level: 'B1',
-    templates: 7,
-    color: 'from-blue-600 to-indigo-500',
-    bg: 'bg-blue-500/10',
-    border: 'border-blue-500/25',
-    tags: ['social', 'professional'],
-    popular: false,
-    href: '/writing-lab/emails',
-  },
-  {
-    id: 'complaint',
-    icon: Target,
-    emoji: '📢',
-    title: 'Complaint Letter',
-    hindi: 'शिकायत पत्र',
-    desc: 'How to write a polite but firm complaint — consumer, service, workplace.',
-    level: 'B1',
-    templates: 5,
-    color: 'from-rose-500 to-red-500',
-    bg: 'bg-rose-500/10',
-    border: 'border-rose-500/25',
-    tags: ['formal'],
-    popular: false,
-    href: '/writing-lab/letters',
-  },
-];
-
-// ── Email templates ──────────────────────────────────────────
-const EMAIL_TEMPLATES = [
-  {
-    id: 1,
-    type: 'Request for Leave',
-    subject: 'Request for 2-Day Casual Leave',
-    body: `Dear [Manager's Name],
+Dear [Manager's Name],
 
 I hope this email finds you well.
 
-I am writing to request 2 days of casual leave on [dates], as I have a family function to attend.
+I am writing to request a day off on [Date] due to [reason - personal/medical/family]. I have ensured that all my pending work will be completed before that date and I will coordinate with my team to manage any urgent tasks in my absence.
 
-I have ensured that all pending tasks will be completed before my leave. In case of urgency, please feel free to contact me on my mobile.
+I would be grateful if you could consider and approve my leave request at your earliest convenience.
 
-I would be grateful if you could approve this request.
+Please let me know if you need any further information.
 
-Thanking you,
+Warm regards,
 [Your Name]
 [Designation]`,
-    level: 'A2',
-    tags: ['office', 'request'],
+    sample:`Subject: Request for Leave on 15th July
+
+Dear Mr. Sharma,
+
+I hope this email finds you well.
+
+I am writing to request a day off on 15th July due to a medical appointment. I have ensured that all my pending tasks for the Sprint will be completed by 14th July, and I have informed my colleague Priya to handle any urgent matters in my absence.
+
+I would be grateful if you could consider and approve my leave request at your earliest convenience.
+
+Please let me know if you need any further information.
+
+Warm regards,
+Rahul Kumar
+Software Engineer`
   },
   {
-    id: 2,
-    type: 'Job Application',
-    subject: 'Application for Software Engineer Position',
-    body: `Dear Hiring Manager,
+    id:'email-complaint', category:'email', level:'B2',
+    title:'Complaint Email',
+    icon:'📩',
+    situation:'Write a complaint email to customer service about a defective product',
+    hints:['State the problem clearly','Include order/reference number','Be firm but polite','Request specific action'],
+    template:`Subject: Complaint Regarding Defective Product — Order #[NUMBER]
 
-I am writing to express my interest in the Software Engineer position advertised on your website.
+Dear Customer Service Team,
 
-I hold a B.Tech in Computer Science with 3 years of experience in web development. I am proficient in React.js, Node.js, and database management.
+I am writing to bring to your attention an issue with my recent purchase.
 
-I am confident that my technical skills and problem-solving abilities make me a strong candidate for this role. I have attached my resume for your review.
+I ordered [product name] on [date] (Order Number: [order number]) and received it on [delivery date]. However, upon using the product, I discovered that [describe the defect/problem clearly].
 
-I would welcome the opportunity to discuss how I can contribute to your team.
+I am disappointed with this experience as I expected a product of much higher quality. I kindly request that you either [replacement/refund/repair] at the earliest.
+
+I have attached photographs of the defect for your reference.
+
+I hope this matter will be resolved promptly. I look forward to your response within the next 3 working days.
 
 Yours sincerely,
 [Your Name]
-[Phone Number]`,
-    level: 'B1',
-    tags: ['job', 'application'],
+Contact: [Phone/Email]`,
+    sample:`Subject: Complaint Regarding Defective Product — Order #ABC12345
+
+Dear Customer Service Team,
+
+I am writing to bring to your attention an issue with my recent purchase.
+
+I ordered a Bluetooth Earphone on 5th July (Order Number: ABC12345) and received it on 8th July. However, upon using the product, I discovered that the right earpiece produces no sound, making the product completely unusable.
+
+I am disappointed with this experience as I expected a product of much higher quality. I kindly request a full replacement or refund at the earliest.
+
+I have attached photographs of the defect for your reference.
+
+I hope this matter will be resolved promptly. I look forward to your response within the next 3 working days.
+
+Yours sincerely,
+Priya Sharma
+Contact: 9876543210`
   },
   {
-    id: 3,
-    type: 'Meeting Request',
-    subject: 'Request for a Brief Meeting',
-    body: `Hi [Name],
+    id:'application', category:'application', level:'B1',
+    title:'Job Application Letter',
+    icon:'📝',
+    situation:'Write an application letter for a Software Engineer position',
+    hints:['Address to the hiring manager','Mention the position you are applying for','Highlight relevant skills/experience','Express enthusiasm for the role'],
+    template:`[Your Name]
+[Your Address]
+[Date]
 
-I hope you're doing well.
+The HR Manager,
+[Company Name],
+[Company Address]
 
-I would like to schedule a 30-minute meeting at your convenience to discuss [topic/project update].
+Subject: Application for the Position of [Job Title]
 
-Please let me know your availability this week or early next week, and I will send a calendar invite accordingly.
+Dear Sir/Madam,
 
-Looking forward to speaking with you.
+I am writing to apply for the position of [Job Title] as advertised on [source/platform].
 
-Best regards,
-[Your Name]`,
-    level: 'A2',
-    tags: ['office', 'meeting'],
+I hold a [degree] in [field] from [university] and have [X years] of experience in [relevant field]. During my time at [previous company], I have developed strong skills in [relevant skills], which I believe align well with the requirements of this role.
+
+Some of my key accomplishments include:
+• [Achievement 1]
+• [Achievement 2]
+• [Achievement 3]
+
+I am confident that my skills and experience make me a strong candidate for this position. I am enthusiastic about the opportunity to contribute to [Company Name]'s growth and success.
+
+I have enclosed my CV for your consideration. I would welcome the opportunity to discuss how my background could benefit your team.
+
+Thank you for considering my application.
+
+Yours sincerely,
+[Your Name]
+Contact: [Phone] | [Email]`,
+    sample:`Rahul Kumar
+42, Sector 5, New Delhi — 110001
+8th July 2025
+
+The HR Manager,
+Tech Solutions Pvt. Ltd.,
+Connaught Place, New Delhi
+
+Subject: Application for the Position of Software Engineer
+
+Dear Sir/Madam,
+
+I am writing to apply for the position of Software Engineer as advertised on LinkedIn.
+
+I hold a B.Tech in Computer Science from Delhi University and have 3 years of experience in full-stack web development. During my time at ABC Technologies, I have developed strong skills in React.js, Node.js, and PostgreSQL, which I believe align well with the requirements of this role.
+
+Some of my key accomplishments include:
+• Developed a customer dashboard that reduced support tickets by 40%
+• Led a team of 4 developers to deliver the mobile app 2 weeks ahead of schedule
+• Received "Best Employee" award for Q2 2024
+
+I am confident that my skills and experience make me a strong candidate for this position. I am enthusiastic about the opportunity to contribute to Tech Solutions' continued growth.
+
+I have enclosed my CV for your consideration. I would welcome the opportunity to discuss further at your convenience.
+
+Thank you for considering my application.
+
+Yours sincerely,
+Rahul Kumar
+Contact: 9876543210 | rahul@email.com`
   },
   {
-    id: 4,
-    type: 'Thank You Email',
-    subject: 'Thank You for the Interview Opportunity',
-    body: `Dear [Interviewer's Name],
+    id:'paragraph-daily', category:'paragraph', level:'A2',
+    title:'Paragraph: My Daily Routine',
+    icon:'📄',
+    situation:'Write a paragraph about your daily routine using simple present tense',
+    hints:['Use simple present tense throughout','Include time expressions (at 7 AM, in the evening)','Use sequence words (first, then, after that, finally)','Write 80–120 words'],
+    template:`My Daily Routine
 
-Thank you so much for taking the time to interview me for the [Position] role on [Date].
+Every day, I wake up at [time]. First, I [activity]. Then, I [activity]. After getting ready, I [activity].
 
-I thoroughly enjoyed our conversation and I am very excited about the opportunity to join [Company Name]. The discussion about [specific topic from interview] was particularly interesting.
+I reach [workplace/school] at [time]. At work/school, I [activities]. I usually take a lunch break at [time] and eat [food].
 
-I remain very enthusiastic about this position and am confident that my skills in [skill] would be a great fit for your team.
+In the evening, I [activity]. After dinner, I [activity]. I usually go to bed at [time].
 
-Thank you once again for your time and consideration.
+I find my routine [adjective] because [reason]. On weekends, my routine is [different/similar] as I [activity].`,
+    sample:`My Daily Routine
 
-Kind regards,
-[Your Name]`,
-    level: 'B1',
-    tags: ['job', 'thank-you'],
+Every day, I wake up at 6:30 AM. First, I brush my teeth and take a shower. Then, I have breakfast with my family. After getting ready, I commute to the office.
+
+I reach the office at 9 AM. At work, I attend meetings, write code, and review team updates. I usually take a lunch break at 1 PM and eat home-cooked food that I bring from home.
+
+In the evening, I return home at 7 PM and spend time with my family. After dinner, I either read a book or practice English for 30 minutes. I usually go to bed at 11 PM.
+
+I find my routine productive because it helps me balance work and personal life. On weekends, I sleep a bit longer and spend quality time with friends.`
+  },
+  {
+    id:'essay-english', category:'essay', level:'B2',
+    title:'Essay: Importance of English',
+    icon:'📰',
+    situation:'Write a short essay on "The Importance of Learning English" (200–250 words)',
+    hints:['Start with an introduction','Write 2–3 body paragraphs with examples','Add conclusion','Use formal vocabulary'],
+    template:`The Importance of Learning English
+
+Introduction:
+[Write 2-3 sentences about why English is important in today's world]
+
+Body Paragraph 1 — Career Benefits:
+[Write about job opportunities, global business, professional communication]
+
+Body Paragraph 2 — Communication & Knowledge:
+[Write about connecting with people worldwide, accessing information, education]
+
+Conclusion:
+[Summarize and give a strong closing statement]`,
+    sample:`The Importance of Learning English
+
+In today's globalized world, English has become the most widely spoken and important language. Whether in business, education, or daily communication, the ability to speak English fluently opens countless doors.
+
+From a career perspective, English proficiency is one of the most sought-after skills by employers. International companies, IT firms, and multinational corporations all require employees who can communicate effectively in English. A person who speaks fluent English has a significant advantage over others in job interviews and professional settings.
+
+Beyond careers, English enables us to connect with people from different countries and cultures. It is the primary language of the internet, science, and academics. Students who can read English have access to the world's best textbooks, research papers, and online resources.
+
+Furthermore, English builds confidence. When we can express our thoughts clearly, we feel more capable and self-assured in social and professional situations.
+
+In conclusion, learning English is not merely about speaking a foreign language — it is about gaining access to opportunities, knowledge, and global connections. In today's world, English is no longer optional; it is essential for personal and professional growth.`
   },
 ];
 
-// ── Writing tips ─────────────────────────────────────────────
-const WRITING_TIPS = [
-  { icon: '✅', tip: 'Always use a clear Subject line — it is the first thing the reader sees.' },
-  { icon: '✅', tip: 'Start with a polite greeting: "Dear Sir/Madam", "Hello [Name]", "Hi [Name]"' },
-  { icon: '✅', tip: 'Keep paragraphs short — 3-4 sentences maximum for professional emails.' },
-  { icon: '✅', tip: 'Use active voice: "I will complete it" instead of "It will be completed by me."' },
-  { icon: '✅', tip: 'End with a clear call to action: "Please confirm", "I look forward to your reply."' },
-  { icon: '✅', tip: 'Close formally: "Regards", "Best regards", "Yours sincerely", "Warm regards"' },
-  { icon: '✅', tip: 'Proofread before sending — check spelling, grammar, and tone.' },
-  { icon: '✅', tip: 'Avoid abbreviations (u, r, ur) in professional emails — always spell fully.' },
-];
-
-// ── Writing stat card ─────────────────────────────────────────
-function StatBadge({ value, label, icon, color }) {
-  return (
-    <div className={`flex items-center gap-2 px-4 py-3 rounded-xl bg-white/4 border border-white/8`}>
-      <span className="text-xl">{icon}</span>
-      <div>
-        <p className={`text-lg font-black ${color}`}>{value}</p>
-        <p className="text-xs text-slate-500">{label}</p>
-      </div>
-    </div>
-  );
-}
-
-// ── Writing Type Card ────────────────────────────────────────
-function WritingTypeCard({ type }) {
-  const Icon = type.icon;
-  const levelColors = { A1:'text-emerald-400', A2:'text-sky-400', B1:'text-violet-400', B2:'text-amber-400', C1:'text-rose-400' };
-
-  return (
-    <motion.div variants={fadeUp} whileHover={{ y: -4 }}>
-      <Link href={type.href}
-        className={`block card p-5 h-full border ${type.border} ${type.bg.replace('/10', '/5')} hover:${type.bg} group transition-all relative overflow-hidden`}
-      >
-        {type.popular && (
-          <span className="absolute top-3 right-3 text-[10px] font-bold px-2 py-0.5 rounded-full bg-yellow-500/20 text-yellow-400 border border-yellow-500/30">Popular</span>
-        )}
-        <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${type.color} flex items-center justify-center mb-4 text-xl shadow-lg group-hover:scale-110 transition-transform`}>
-          {type.emoji}
-        </div>
-        <h3 className="font-bold text-white mb-0.5">{type.title}</h3>
-        <p className="text-xs text-slate-500 mb-3">{type.hindi}</p>
-        <p className="text-xs text-slate-400 leading-relaxed mb-4 line-clamp-2">{type.desc}</p>
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
-            <span className={`text-xs font-semibold ${levelColors[type.level] || 'text-slate-400'}`}>{type.level}</span>
-            <span className="text-xs text-slate-600">·</span>
-            <span className="text-xs text-slate-500">{type.templates} templates</span>
-          </div>
-          <ChevronRight size={14} className="text-slate-600 group-hover:text-white group-hover:translate-x-1 transition-all" />
-        </div>
-      </Link>
-    </motion.div>
-  );
-}
-
-// ── Email Preview Card ────────────────────────────────────────
-function EmailCard({ template, isSelected, onClick }) {
-  return (
-    <motion.button
-      whileHover={{ scale: 1.01 }}
-      onClick={() => onClick(template)}
-      className={`w-full text-left p-4 rounded-xl border transition-all ${
-        isSelected ? 'border-primary-500/40 bg-primary-500/8' : 'border-white/8 bg-white/3 hover:bg-white/5 hover:border-white/15'
-      }`}
-    >
-      <div className="flex items-center gap-2 mb-1.5">
-        <Mail size={13} className="text-indigo-400 shrink-0" />
-        <p className="text-sm font-semibold text-white">{template.type}</p>
-        <span className={`ml-auto text-[10px] font-bold px-1.5 py-0.5 rounded-full ${
-          template.level === 'A2' ? 'bg-sky-500/10 text-sky-400' : 'bg-violet-500/10 text-violet-400'
-        }`}>{template.level}</span>
-      </div>
-      <p className="text-xs text-slate-500 line-clamp-1">Subject: {template.subject}</p>
-    </motion.button>
-  );
-}
-
-// ── Main Page ─────────────────────────────────────────────────
 export default function WritingPage() {
-  const [selectedTemplate, setSelectedTemplate] = useState(EMAIL_TEMPLATES[0]);
-  const [editorText, setEditorText] = useState('');
-  const [activeTab, setActiveTab] = useState('types'); // types | templates | tips | editor
+  const [activeCategory, setActiveCategory] = useState('all');
+  const [activeTemplate, setActiveTemplate] = useState(null);
+  const [userText, setUserText]             = useState('');
+  const [showSample, setShowSample]         = useState(false);
+  const [copied, setCopied]                 = useState(false);
 
-  const wordCount = editorText.trim().split(/\s+/).filter(Boolean).length;
-  const charCount = editorText.length;
+  const { addXP } = useUserStore();
+
+  const CATEGORIES = ['all','email','application','paragraph','essay'];
+  const filtered = activeCategory === 'all' ? WRITING_TEMPLATES : WRITING_TEMPLATES.filter(t => t.category === activeCategory);
+
+  const handleCopy = (text) => {
+    navigator.clipboard.writeText(text);
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
 
   return (
-    <div className="min-h-screen pb-12">
-      {/* ── Header ──────────────────────────────────────── */}
-      <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
-        <div className="flex items-start justify-between flex-wrap gap-4">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-rose-500 to-pink-500 flex items-center justify-center">
-              <PenTool size={20} className="text-white" />
-            </div>
-            <div>
-              <h1 className="text-3xl md:text-4xl font-black text-white">Writing Hub</h1>
-              <p className="text-slate-400 text-sm">Master professional English writing — emails, letters, resumes, essays.</p>
-            </div>
-          </div>
-          <Link href="/ai-tutor/writing-checker" className="btn-primary flex items-center gap-2 text-sm px-5 py-2.5">
-            <Brain size={14} /> AI Writing Check
-          </Link>
-        </div>
+    <div className="space-y-6 pb-8">
+      <motion.div initial={{opacity:0,y:-16}} animate={{opacity:1,y:0}}>
+        <h1 className="text-4xl font-black text-white mb-1">✍️ Writing Practice</h1>
+        <p className="text-slate-400">Emails, letters, essays, paragraphs — professional writing mastery</p>
       </motion.div>
 
-      {/* ── Stats ───────────────────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        className="flex flex-wrap gap-3 mb-8"
-      >
-        <StatBadge value="8+"   label="Writing Types"  icon="📝" color="text-rose-400"    />
-        <StatBadge value="48+"  label="Templates"      icon="📄" color="text-violet-400"  />
-        <StatBadge value="A1–C1" label="All Levels"   icon="📊" color="text-indigo-400"  />
-        <StatBadge value="AI"   label="Writing Check"  icon="🤖" color="text-emerald-400" />
-      </motion.div>
-
-      {/* ── Tabs ────────────────────────────────────────── */}
-      <div className="flex flex-wrap gap-2 mb-8">
-        {[
-          { id: 'types',     label: 'Writing Types',    icon: FileText },
-          { id: 'templates', label: 'Email Templates',  icon: Mail     },
-          { id: 'tips',      label: 'Writing Tips',     icon: Star     },
-          { id: 'editor',    label: 'Practice Editor',  icon: Edit3    },
-        ].map(({ id, label, icon: Icon }) => (
-          <button
-            key={id}
-            onClick={() => setActiveTab(id)}
-            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-semibold transition-all border ${
-              activeTab === id
-                ? 'bg-primary-500/20 text-primary-300 border-primary-500/30'
-                : 'bg-white/4 text-slate-500 border-white/6 hover:text-white hover:bg-white/8'
-            }`}
-          >
-            <Icon size={14} /> {label}
+      {/* Category Tabs */}
+      <div className="flex flex-wrap gap-2">
+        {CATEGORIES.map(cat => (
+          <button key={cat} onClick={() => setActiveCategory(cat)}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold border capitalize transition-all ${
+              activeCategory === cat ? 'bg-primary-500/20 text-primary-300 border-primary-500/30' : 'bg-white/4 text-slate-500 border-white/6 hover:text-slate-300'
+            }`}>
+            {cat}
           </button>
         ))}
       </div>
 
-      {/* ── Tab: Writing Types ──────────────────────────── */}
-      {activeTab === 'types' && (
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          animate="visible"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
-        >
-          {WRITING_TYPES.map(type => <WritingTypeCard key={type.id} type={type} />)}
-        </motion.div>
-      )}
-
-      {/* ── Tab: Email Templates ────────────────────────── */}
-      {activeTab === 'templates' && (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="grid grid-cols-1 lg:grid-cols-3 gap-6">
-          {/* Template List */}
-          <div className="space-y-2">
-            <h3 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Select Template</h3>
-            {EMAIL_TEMPLATES.map(t => (
-              <EmailCard key={t.id} template={t} isSelected={selectedTemplate?.id === t.id} onClick={setSelectedTemplate} />
-            ))}
+      {/* Template Cards / Active Template */}
+      {!activeTemplate ? (
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+          {filtered.map((tpl) => (
+            <motion.div key={tpl.id} initial={{opacity:0,y:12}} animate={{opacity:1,y:0}}
+              whileHover={{y:-3}} className="card p-5 cursor-pointer group"
+              onClick={() => { setActiveTemplate(tpl); setUserText(tpl.template); setShowSample(false); addXP(5); }}>
+              <div className="flex items-start gap-4">
+                <div className="text-3xl">{tpl.icon}</div>
+                <div className="flex-1">
+                  <div className="flex items-center gap-2 mb-1">
+                    <span className="badge-primary text-[10px] capitalize">{tpl.category}</span>
+                    <span className="text-[10px] text-slate-500">CEFR {tpl.level}</span>
+                  </div>
+                  <h3 className="font-bold text-white mb-1">{tpl.title}</h3>
+                  <p className="text-xs text-slate-500 line-clamp-2">{tpl.situation}</p>
+                </div>
+                <ChevronRight size={16} className="text-slate-600 group-hover:text-white transition-colors mt-1 shrink-0" />
+              </div>
+            </motion.div>
+          ))}
+        </div>
+      ) : (
+        <motion.div initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} className="space-y-5">
+          {/* Back + Title */}
+          <div className="flex items-center gap-3">
+            <button onClick={() => { setActiveTemplate(null); setShowSample(false); }}
+              className="text-sm text-slate-400 hover:text-white transition-colors flex items-center gap-1">
+              ← Back
+            </button>
+            <span className="text-white font-bold">{activeTemplate.title}</span>
           </div>
 
-          {/* Template Preview */}
-          <div className="lg:col-span-2">
-            <AnimatePresence mode="wait">
-              {selectedTemplate && (
-                <motion.div
-                  key={selectedTemplate.id}
-                  initial={{ opacity: 0, x: 20 }}
-                  animate={{ opacity: 1, x: 0 }}
-                  exit={{ opacity: 0, x: -20 }}
-                  className="card p-6 h-full"
-                >
-                  <div className="flex items-center justify-between mb-4">
-                    <div>
-                      <p className="text-xs text-slate-500 uppercase tracking-wider mb-1">Template: {selectedTemplate.type}</p>
-                      <p className="text-sm font-semibold text-slate-300">Subject: {selectedTemplate.subject}</p>
-                    </div>
-                    <button className="flex items-center gap-1.5 text-xs text-slate-400 hover:text-white border border-white/10 hover:border-white/20 px-3 py-1.5 rounded-lg transition-all">
-                      <Download size={12} /> Copy
-                    </button>
-                  </div>
-                  <div className="bg-white/4 rounded-xl p-5 border border-white/8">
-                    <pre className="text-sm text-slate-300 whitespace-pre-wrap font-sans leading-relaxed">
-                      {selectedTemplate.body}
-                    </pre>
-                  </div>
-                  <div className="mt-4 flex flex-wrap gap-2">
-                    {selectedTemplate.tags.map(tag => (
-                      <span key={tag} className="text-xs px-2 py-0.5 rounded-full bg-white/5 text-slate-500 border border-white/8">{tag}</span>
-                    ))}
-                  </div>
+          {/* Situation */}
+          <div className="card p-4 bg-amber-500/5 border-amber-500/20">
+            <p className="text-sm font-semibold text-amber-300 mb-1">📌 Task:</p>
+            <p className="text-slate-300 text-sm">{activeTemplate.situation}</p>
+          </div>
+
+          {/* Hints */}
+          <div className="card p-4">
+            <p className="text-sm font-semibold text-white mb-2 flex items-center gap-2"><Sparkles size={14} className="text-violet-400"/>Writing Tips</p>
+            <ul className="space-y-1">{activeTemplate.hints.map((h,i) => <li key={i} className="text-xs text-slate-400">• {h}</li>)}</ul>
+          </div>
+
+          {/* Editor */}
+          <div>
+            <div className="flex items-center justify-between mb-2">
+              <label className="text-sm font-semibold text-white">Your Writing:</label>
+              <div className="flex gap-2">
+                <button onClick={() => handleCopy(userText)} className="text-xs flex items-center gap-1 text-slate-400 hover:text-white transition-colors">
+                  {copied ? <Check size={12} className="text-emerald-400" /> : <Copy size={12} />}
+                  {copied ? 'Copied!' : 'Copy'}
+                </button>
+                <button onClick={() => setUserText(activeTemplate.template)} className="text-xs flex items-center gap-1 text-slate-400 hover:text-white transition-colors">
+                  <RotateCcw size={12} /> Reset
+                </button>
+              </div>
+            </div>
+            <textarea
+              value={userText}
+              onChange={e => setUserText(e.target.value)}
+              rows={18}
+              className="input w-full text-sm font-mono resize-none"
+              placeholder="Write your response here..."
+            />
+            <p className="text-xs text-slate-600 mt-1">{userText.split(/\s+/).filter(Boolean).length} words</p>
+          </div>
+
+          {/* Sample Answer */}
+          <div>
+            <button onClick={() => setShowSample(v => !v)}
+              className="flex items-center gap-2 text-sm font-semibold text-primary-400 hover:text-primary-300">
+              {showSample ? '🙈 Hide Sample' : '👁️ Show Sample Answer'}
+            </button>
+            <AnimatePresence>
+              {showSample && (
+                <motion.div initial={{opacity:0,height:0}} animate={{opacity:1,height:'auto'}} exit={{opacity:0,height:0}}
+                  className="mt-3 p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20">
+                  <pre className="text-xs text-emerald-200 whitespace-pre-wrap font-sans leading-relaxed">{activeTemplate.sample}</pre>
                 </motion.div>
               )}
             </AnimatePresence>
-          </div>
-        </motion.div>
-      )}
-
-      {/* ── Tab: Writing Tips ───────────────────────────── */}
-      {activeTab === 'tips' && (
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          animate="visible"
-          className="max-w-3xl"
-        >
-          <div className="card p-6 mb-6 border-emerald-500/20 bg-emerald-500/5">
-            <h3 className="font-bold text-white mb-4 flex items-center gap-2">
-              <Star size={16} className="text-yellow-400" /> Professional Email Writing Rules
-            </h3>
-            <div className="space-y-3">
-              {WRITING_TIPS.map((tip, i) => (
-                <motion.div key={i} variants={fadeUp} className="flex items-start gap-3 p-3 bg-white/4 rounded-xl">
-                  <span className="text-lg shrink-0">{tip.icon}</span>
-                  <p className="text-sm text-slate-300">{tip.tip}</p>
-                </motion.div>
-              ))}
-            </div>
-          </div>
-
-          {/* Common Mistakes */}
-          <div className="card p-6 border-rose-500/20 bg-rose-500/5">
-            <h3 className="font-bold text-white mb-4 flex items-center gap-2">
-              <Target size={16} className="text-rose-400" /> Common Writing Mistakes to Avoid
-            </h3>
-            <div className="space-y-3">
-              {[
-                { wrong: '"Please do the needful"',   right: '"Please take the necessary action"' },
-                { wrong: '"Myself Rahul Kumar"',      right: '"I am Rahul Kumar" or "My name is Rahul"' },
-                { wrong: '"Kindly revert"',           right: '"Please reply" or "Kindly respond"' },
-                { wrong: '"Prepone the meeting"',     right: '"Reschedule the meeting to an earlier time"' },
-                { wrong: '"I am having a doubt"',     right: '"I have a question" or "I am unclear about..."' },
-                { wrong: '"Please do the needful and revert asap"', right: '"Please take action and respond at your earliest convenience."' },
-              ].map(({ wrong, right }, i) => (
-                <div key={i} className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                  <div className="bg-rose-500/10 border border-rose-500/20 rounded-xl p-3">
-                    <p className="text-xs text-rose-400 font-bold mb-1">❌ Incorrect</p>
-                    <p className="text-sm text-white italic">{wrong}</p>
-                  </div>
-                  <div className="bg-emerald-500/10 border border-emerald-500/20 rounded-xl p-3">
-                    <p className="text-xs text-emerald-400 font-bold mb-1">✅ Correct</p>
-                    <p className="text-sm text-white italic">{right}</p>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </motion.div>
-      )}
-
-      {/* ── Tab: Practice Editor ────────────────────────── */}
-      {activeTab === 'editor' && (
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="max-w-3xl">
-          <div className="card p-6">
-            <div className="flex items-center justify-between mb-4">
-              <h3 className="font-bold text-white flex items-center gap-2">
-                <Edit3 size={16} className="text-rose-400" /> Writing Practice Editor
-              </h3>
-              <div className="flex items-center gap-3 text-xs text-slate-500">
-                <span>{wordCount} words</span>
-                <span>{charCount} chars</span>
-              </div>
-            </div>
-
-            {/* Prompt */}
-            <div className="bg-amber-500/8 border border-amber-500/20 rounded-xl p-4 mb-4">
-              <p className="text-xs text-amber-400 font-bold mb-1">✍️ Today's Prompt</p>
-              <p className="text-sm text-slate-300">Write a formal email to your manager requesting 2 days of leave for a family event. Include: reason, dates, work coverage plan, and a polite closing.</p>
-            </div>
-
-            <textarea
-              value={editorText}
-              onChange={e => setEditorText(e.target.value)}
-              placeholder="Start writing your email here… (Use templates above as reference)"
-              className="w-full h-64 p-4 bg-white/4 border border-white/10 rounded-xl text-slate-200 text-sm placeholder:text-slate-600 focus:outline-none focus:border-primary-500/40 resize-none leading-relaxed"
-            />
-
-            <div className="flex items-center justify-between mt-4 flex-wrap gap-3">
-              <div className="flex items-center gap-3 text-xs">
-                {wordCount > 0 && wordCount < 50 && <span className="text-amber-400">💡 Try to write at least 50 words</span>}
-                {wordCount >= 50 && wordCount < 100 && <span className="text-blue-400">👍 Good start! Aim for 100+ words</span>}
-                {wordCount >= 100 && <span className="text-emerald-400">✅ Excellent length!</span>}
-              </div>
-              <div className="flex gap-2">
-                <button onClick={() => setEditorText('')} className="text-sm text-slate-500 hover:text-white border border-white/10 px-3 py-1.5 rounded-lg transition-all">
-                  Clear
-                </button>
-                <Link href="/ai-tutor/writing-checker" className="flex items-center gap-1.5 text-sm btn-primary px-4 py-2">
-                  <Brain size={13} /> Check with AI
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          {/* Checklist */}
-          <div className="card p-5 mt-4">
-            <p className="text-sm font-bold text-white mb-3">Email Checklist</p>
-            <div className="grid grid-cols-2 gap-2 text-xs text-slate-400">
-              {['Subject line written', 'Proper greeting used', 'Purpose stated clearly', 'Dates/details included', 'Professional tone used', 'Formal closing added', 'Name and designation added', 'Proofread for errors'].map(item => (
-                <div key={item} className="flex items-center gap-2">
-                  <div className="w-3.5 h-3.5 rounded border border-white/20 shrink-0" />
-                  {item}
-                </div>
-              ))}
-            </div>
-          </div>
-        </motion.div>
-      )}
-
-      {/* ── Quick Links ─────────────────────────────────── */}
-      {activeTab === 'types' && (
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          className="mt-10 card p-6 border-primary-500/20 bg-primary-500/5"
-        >
-          <h3 className="font-bold text-white mb-4">More Writing Resources</h3>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            {[
-              { href: '/ai-tutor/writing-checker', icon: Brain,   title: 'AI Grammar Checker',   desc: 'Get instant feedback on your writing', color: 'from-violet-500 to-purple-500' },
-              { href: '/writing-lab/page',         icon: PenTool, title: 'Writing Lab',           desc: 'Advanced writing exercises and prompts', color: 'from-rose-500 to-pink-500' },
-              { href: '/professional-english',     icon: Briefcase, title: 'Professional English', desc: 'Business writing and communication', color: 'from-teal-500 to-cyan-500' },
-            ].map(({ href, icon: Icon, title, desc, color }) => (
-              <Link key={href} href={href} className="flex items-center gap-3 p-4 bg-white/4 rounded-xl border border-white/8 hover:bg-white/7 hover:border-white/15 transition-all group">
-                <div className={`w-9 h-9 rounded-xl bg-gradient-to-br ${color} flex items-center justify-center shrink-0 group-hover:scale-110 transition-transform`}>
-                  <Icon size={16} className="text-white" />
-                </div>
-                <div>
-                  <p className="text-sm font-semibold text-white">{title}</p>
-                  <p className="text-xs text-slate-500">{desc}</p>
-                </div>
-              </Link>
-            ))}
           </div>
         </motion.div>
       )}

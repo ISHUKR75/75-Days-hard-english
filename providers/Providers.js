@@ -1,24 +1,26 @@
 'use client';
-// Providers - Wraps the entire app with all required context providers
-// Theme, Toast, and any other global providers go here
+// ============================================================
+// PROVIDERS — Global providers: Theme, Toast, Sound
+// All context providers are wrapped here for clean setup
+// ============================================================
 
 import { ThemeProvider } from 'next-themes';
 import { Toaster }       from 'react-hot-toast';
+import SoundProvider     from './SoundProvider';
 
-// ============================================================
 // Root Providers Component
-// ============================================================
 export default function Providers({ children }) {
   return (
-    // ThemeProvider enables dark/light mode switching
     <ThemeProvider
       attribute="class"
       defaultTheme="dark"
       enableSystem={false}
       disableTransitionOnChange={false}
     >
-      {/* Main app content */}
-      {children}
+      {/* Sound system listens to play-sound events globally */}
+      <SoundProvider>
+        {children}
+      </SoundProvider>
 
       {/* Global toast notifications */}
       <Toaster

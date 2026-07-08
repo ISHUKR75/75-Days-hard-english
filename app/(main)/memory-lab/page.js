@@ -1,164 +1,208 @@
 'use client';
-// Memory Lab — Spaced Repetition Flashcards + Active Recall System
-// Inspired by Anki, Duolingo, and the Leitner System
+// ============================================================
+// MEMORY LAB — Spaced repetition flashcards, Leitner system
+// Features: Flashcard decks, spaced repetition, retention score
+// ============================================================
 
-import { useState, useEffect, useRef } from 'react';
-import Link from 'next/link';
+import { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Brain, ArrowLeft, ArrowRight, CheckCircle2, XCircle,
-  RotateCcw, Zap, Calendar, Star, Trophy, Clock,
-  BookOpen, Target, TrendingUp, Flame, Play, Pause,
+  Brain, RotateCcw, CheckCircle2, XCircle, Clock,
+  Zap, BookOpen, TrendingUp, Play, Star, ChevronRight,
 } from 'lucide-react';
-import useUserStore    from '@/store/userStore';
-import useProgressStore from '@/store/progressStore';
+import useUserStore from '@/store/userStore';
 
-// ── Flashcard data ─────────────────────────────────────────
+// ── Leitner Box system: 5 boxes, each reviewed less frequently ──
+const LEITNER_BOXES = [
+  { box: 1, label: 'Daily',     interval: 1,  color: 'text-rose-400',    bg: 'bg-rose-500/10' },
+  { box: 2, label: 'Every 2d',  interval: 2,  color: 'text-amber-400',   bg: 'bg-amber-500/10' },
+  { box: 3, label: 'Every 4d',  interval: 4,  color: 'text-yellow-400',  bg: 'bg-yellow-500/10' },
+  { box: 4, label: 'Weekly',    interval: 7,  color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
+  { box: 5, label: 'Mastered',  interval: 14, color: 'text-primary-400', bg: 'bg-primary-500/10' },
+];
+
+// ── Real grammar flashcard data ──
 const FLASHCARD_DECKS = [
   {
-    id: 'imperatives',
-    title: 'Imperative Sentences',
-    emoji: '⚡',
-    color: 'from-indigo-500 to-blue-600',
-    count: 50,
-    cards: [
-      { front: 'दरवाज़ा बंद करो।',          back: 'Close the door.',          level: 0 },
-      { front: 'यहाँ बैठो।',                back: 'Sit here.',                level: 0 },
-      { front: 'मुझे बताओ।',               back: 'Tell me.',                 level: 0 },
-      { front: 'खाना खाओ।',                back: 'Eat food.',                level: 0 },
-      { front: 'सावधान रहो।',              back: 'Be careful.',              level: 0 },
-      { front: 'कृपया यहाँ sign करें।',    back: 'Please sign here.',        level: 0 },
-      { front: 'जल्दी आओ।',               back: 'Come quickly.',            level: 0 },
-      { front: 'शांत रहो।',               back: 'Stay calm.',               level: 0 },
-      { front: 'रिपोर्ट submit करो।',      back: 'Submit the report.',       level: 0 },
-      { front: 'मेरी बात सुनो।',           back: 'Listen to me.',            level: 0 },
-    ],
-  },
-  {
     id: 'be-verb',
-    title: 'Be Verb (Am/Is/Are)',
+    title: 'Be Verb (am/is/are)',
     emoji: '🔤',
-    color: 'from-purple-500 to-pink-600',
-    count: 60,
+    totalCards: 20,
+    color: 'from-indigo-500 to-blue-500',
     cards: [
-      { front: 'मैं एक छात्र हूँ।',         back: 'I am a student.',          level: 0 },
-      { front: 'वह डॉक्टर है।',             back: 'He is a doctor.',          level: 0 },
-      { front: 'हम खुश हैं।',              back: 'We are happy.',            level: 0 },
-      { front: 'क्या तुम ठीक हो?',          back: 'Are you okay?',            level: 0 },
-      { front: 'वह थकी हुई है।',            back: 'She is tired.',            level: 0 },
-      { front: 'मैं तैयार हूँ।',             back: 'I am ready.',             level: 0 },
-      { front: 'वे लोग बाहर हैं।',          back: 'They are outside.',        level: 0 },
-      { front: 'यह किताब मेरी है।',         back: 'This book is mine.',       level: 0 },
-    ],
+      { id: 1, front: 'मैं खुश हूँ।',          back: 'I am happy.',           hint: 'I → am', box: 1 },
+      { id: 2, front: 'वह डॉक्टर है।',         back: 'He is a doctor.',       hint: 'He → is', box: 1 },
+      { id: 3, front: 'हम भारतीय हैं।',        back: 'We are Indians.',       hint: 'We → are', box: 2 },
+      { id: 4, front: 'क्या वह तैयार है?',     back: 'Is he ready?',          hint: 'Question with "is"', box: 1 },
+      { id: 5, front: 'मैं थका हुआ था।',       back: 'I was tired.',          hint: 'Past: I → was', box: 1 },
+      { id: 6, front: 'वे खुश थे।',            back: 'They were happy.',      hint: 'Past plural → were', box: 2 },
+      { id: 7, front: 'यह किताब अच्छी है।',    back: 'This book is good.',    hint: 'This → is', box: 3 },
+      { id: 8, front: 'वह स्कूल में नहीं है।', back: "He is not in school.",  hint: 'Negative: is not', box: 1 },
+    ]
   },
   {
     id: 'modals',
-    title: 'Modal Verbs (Can/Should/Must)',
+    title: 'Modal Verbs',
     emoji: '🔑',
-    color: 'from-emerald-500 to-teal-600',
-    count: 80,
+    totalCards: 30,
+    color: 'from-violet-500 to-purple-500',
     cards: [
-      { front: 'मैं English बोल सकता हूँ।', back: 'I can speak English.',      level: 0 },
-      { front: 'तुम्हें डॉक्टर के पास जाना चाहिए।', back: 'You should see a doctor.', level: 0 },
-      { front: 'उसे समय से आना चाहिए।',    back: 'He must come on time.',    level: 0 },
-      { front: 'क्या मैं जा सकता हूँ?',    back: 'Can I go?',               level: 0 },
-      { front: 'शायद वह आए।',              back: 'He may come.',             level: 0 },
-      { front: 'मुझे काम करना चाहिए।',     back: 'I should work.',           level: 0 },
-      { front: 'क्या आप मुझे help कर सकते हैं?', back: 'Can you help me?',  level: 0 },
-      { front: 'तुम्हें यह ज़रूर करना चाहिए।', back: 'You must do this.',   level: 0 },
-    ],
+      { id: 1, front: 'मैं English बोल सकता हूँ।',     back: 'I can speak English.',       hint: 'Ability → can', box: 1 },
+      { id: 2, front: 'तुम्हें रोज़ practice करनी चाहिए।', back: 'You should practice daily.', hint: 'Advice → should', box: 1 },
+      { id: 3, front: 'उसे समय पर आना होगा।',          back: 'He must come on time.',      hint: 'Obligation → must', box: 2 },
+      { id: 4, front: 'क्या मैं अंदर आ सकता हूँ?',     back: 'May I come in?',              hint: 'Formal permission → may', box: 1 },
+      { id: 5, front: 'वह देर से आ सकती है।',          back: 'She might be late.',          hint: 'Possibility → might', box: 1 },
+      { id: 6, front: 'मुझे पानी चाहिए।',              back: 'I would like some water.',    hint: 'Polite request → would like', box: 2 },
+      { id: 7, front: 'क्या आप मेरी मदद कर सकते हैं?', back: 'Could you help me, please?',  hint: 'Polite request → could', box: 3 },
+      { id: 8, front: 'हमें जाना चाहिए।',             back: 'We ought to go.',             hint: 'Duty → ought to', box: 2 },
+    ]
   },
   {
-    id: 'vocabulary-daily',
-    title: 'Daily Vocabulary',
-    emoji: '📖',
-    color: 'from-amber-500 to-orange-600',
-    count: 100,
+    id: 'tenses',
+    title: 'All 12 Tenses',
+    emoji: '⏰',
+    totalCards: 48,
+    color: 'from-amber-500 to-orange-500',
     cards: [
-      { front: 'आमतौर पर (usually)',        back: 'I usually wake up at 7.',  level: 0 },
-      { front: 'ध्यान से (carefully)',      back: 'Read carefully.',          level: 0 },
-      { front: 'तुरंत (immediately)',       back: 'Come immediately.',        level: 0 },
-      { front: 'हमेशा (always)',           back: 'Always be honest.',        level: 0 },
-      { front: 'शायद (probably)',          back: 'He probably knows.',       level: 0 },
-      { front: 'स्पष्ट रूप से (clearly)',  back: 'Speak clearly.',          level: 0 },
-      { front: 'जल्दी (quickly)',          back: 'Do it quickly.',           level: 0 },
-      { front: 'ध्यान दो (pay attention)', back: 'Pay attention please.',    level: 0 },
-    ],
+      { id: 1, front: 'मैं रोज़ खाना खाता हूँ।',          back: 'I eat food every day.',               hint: 'Simple Present: V1/V1+s', box: 1 },
+      { id: 2, front: 'वह अभी पढ़ रही है।',               back: 'She is studying right now.',          hint: 'Present Continuous: is/am/are + V4', box: 1 },
+      { id: 3, front: 'मैंने पत्र लिखा।',                 back: 'I wrote a letter.',                   hint: 'Simple Past: V2', box: 1 },
+      { id: 4, front: 'जब मैं आया, वह सो रही थी।',        back: 'When I came, she was sleeping.',     hint: 'Past Continuous: was/were + V4', box: 2 },
+      { id: 5, front: 'कल तक मैं काम पूरा कर लूँगा।',     back: 'I will have finished the work by tomorrow.', hint: 'Future Perfect: will have + V3', box: 2 },
+      { id: 6, front: 'उसने खाना खा लिया है।',            back: 'She has eaten food.',                 hint: 'Present Perfect: have/has + V3', box: 1 },
+      { id: 7, front: 'मैं घर जाऊँगा।',                   back: 'I will go home.',                     hint: 'Simple Future: will + V1', box: 1 },
+      { id: 8, front: 'जब से आया हूँ, पढ़ रहा हूँ।',       back: 'I have been studying since I came.', hint: 'Present Perfect Continuous: have been + V4', box: 3 },
+    ]
+  },
+  {
+    id: 'vocabulary',
+    title: 'Office Vocabulary',
+    emoji: '💼',
+    totalCards: 50,
+    color: 'from-emerald-500 to-teal-500',
+    cards: [
+      { id: 1, front: 'Deadline',      back: 'समय सीमा — The final date for completing a task',    hint: 'Work context', box: 1 },
+      { id: 2, front: 'Collaborate',   back: 'सहयोग करना — To work together on a project',         hint: 'Team work', box: 1 },
+      { id: 3, front: 'Priority',      back: 'प्राथमिकता — Most important task to do first',        hint: 'Time management', box: 2 },
+      { id: 4, front: 'Feedback',      back: 'प्रतिक्रिया — Comments on someone\'s work',           hint: 'Office communication', box: 1 },
+      { id: 5, front: 'Negotiate',     back: 'बातचीत करना — To discuss to reach an agreement',     hint: 'Business context', box: 2 },
+      { id: 6, front: 'Implement',     back: 'लागू करना — To put a plan or system into action',    hint: 'Strategy', box: 3 },
+      { id: 7, front: 'Agenda',        back: 'कार्यसूची — List of topics for a meeting',            hint: 'Meetings', box: 2 },
+      { id: 8, front: 'Stakeholder',   back: 'हितधारक — Person with interest in a project',        hint: 'Business term', box: 4 },
+    ]
   },
 ];
 
-// ── Leitner Box labels ─────────────────────────────────────
-const LEITNER_BOXES = [
-  { box: 0, label: 'New',        color: 'bg-slate-500',   review: 'Daily'    },
-  { box: 1, label: 'Learning',   color: 'bg-red-500',     review: 'Daily'    },
-  { box: 2, label: 'Reviewing',  color: 'bg-amber-500',   review: 'Every 2d' },
-  { box: 3, label: 'Practiced',  color: 'bg-blue-500',    review: 'Every 4d' },
-  { box: 4, label: 'Known',      color: 'bg-emerald-500', review: 'Weekly'   },
-];
+// ── Stats ──
+const DECK_STATS = {
+  'be-verb':   { learned: 6, review: 2, total: 20 },
+  'modals':    { learned: 5, review: 3, total: 30 },
+  'tenses':    { learned: 4, review: 4, total: 48 },
+  'vocabulary':{ learned: 3, review: 5, total: 50 },
+};
 
-// ── Flip Card component ───────────────────────────────────
-function FlipCard({ card, onResult }) {
-  const [flipped, setFlipped] = useState(false);
+// ── Active Flashcard Session ──
+function FlashcardSession({ deck, onEnd }) {
+  const [cardIndex, setCardIndex] = useState(0);
+  const [flipped, setFlipped]     = useState(false);
+  const [results, setResults]     = useState([]);    // {id, correct}
+  const [done, setDone]           = useState(false);
+  const { addXP, addCoins } = useUserStore();
+
+  const cards  = deck.cards;
+  const card   = cards[cardIndex];
+  const total  = cards.length;
+  const correct = results.filter(r => r.correct).length;
+
+  const handleResult = (isCorrect) => {
+    const newResults = [...results, { id: card.id, correct: isCorrect }];
+    setResults(newResults);
+    if (isCorrect) { addXP(5); addCoins(1); }
+
+    if (cardIndex < total - 1) {
+      setCardIndex(i => i + 1);
+      setFlipped(false);
+    } else {
+      setDone(true);
+    }
+  };
+
+  if (done) {
+    const pct = Math.round((correct / total) * 100);
+    return (
+      <motion.div initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }}
+        className="text-center p-8">
+        <div className="text-6xl mb-4">{pct >= 80 ? '🏆' : pct >= 60 ? '⭐' : '💪'}</div>
+        <h3 className="text-2xl font-black text-white mb-2">{correct}/{total} Correct</h3>
+        <p className="text-slate-400 mb-6">{pct}% accuracy</p>
+        <div className="flex gap-3 justify-center">
+          <button onClick={onEnd} className="btn-secondary px-6 py-3 flex items-center gap-2 text-sm">
+            <RotateCcw size={16} /> Try Again
+          </button>
+          <button onClick={onEnd} className="btn-gradient px-6 py-3 flex items-center gap-2 text-sm">
+            <Zap size={16} /> Done
+          </button>
+        </div>
+      </motion.div>
+    );
+  }
 
   return (
-    <div className="flex flex-col items-center gap-6 w-full max-w-lg mx-auto">
+    <div className="max-w-xl mx-auto space-y-5">
+      {/* Progress */}
+      <div>
+        <div className="flex justify-between text-xs text-slate-500 mb-1.5">
+          <span>Card {cardIndex + 1} of {total}</span>
+          <span className="text-emerald-400">{correct} correct so far</span>
+        </div>
+        <div className="h-2 rounded-full bg-white/8 overflow-hidden">
+          <motion.div className="h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500"
+            animate={{ width: `${((cardIndex) / total) * 100}%` }} transition={{ duration: 0.3 }} />
+        </div>
+      </div>
+
       {/* Card */}
-      <div
-        className="w-full cursor-pointer"
-        style={{ perspective: '1000px' }}
-        onClick={() => setFlipped(v => !v)}
-      >
+      <div className="relative cursor-pointer" style={{ perspective: 1000, height: 280 }}
+        onClick={() => setFlipped(f => !f)}>
         <motion.div
           animate={{ rotateY: flipped ? 180 : 0 }}
-          transition={{ duration: 0.5, ease: 'easeInOut' }}
-          style={{ transformStyle: 'preserve-3d' }}
-          className="relative w-full h-52"
+          transition={{ duration: 0.5 }}
+          style={{ transformStyle: 'preserve-3d', position: 'absolute', inset: 0 }}
         >
           {/* Front */}
-          <div
-            className="absolute inset-0 rounded-2xl border border-white/10 bg-white/5 flex flex-col items-center justify-center p-8 text-center"
-            style={{ backfaceVisibility: 'hidden' }}
-          >
-            <p className="text-xs text-slate-500 mb-3 uppercase tracking-widest">Hindi — Click to reveal</p>
-            <p className="text-2xl font-bold text-white">{card.front}</p>
-            <p className="text-xs text-slate-600 mt-4">👆 Click to see English</p>
+          <div className="absolute inset-0 card flex flex-col items-center justify-center p-8 text-center"
+            style={{ backfaceVisibility: 'hidden' }}>
+            <p className="text-xs text-primary-400 font-semibold mb-4 uppercase tracking-wide">
+              {deck.title} — Translate / Recall
+            </p>
+            <p className="text-3xl font-bold text-amber-200 hindi-text leading-relaxed">{card.front}</p>
+            <p className="text-xs text-slate-600 mt-6">Tap to reveal answer</p>
           </div>
           {/* Back */}
-          <div
-            className="absolute inset-0 rounded-2xl border border-emerald-500/30 bg-emerald-500/5 flex flex-col items-center justify-center p-8 text-center"
-            style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
-          >
-            <p className="text-xs text-emerald-400 mb-3 uppercase tracking-widest">English ✅</p>
-            <p className="text-2xl font-bold text-emerald-300">{card.back}</p>
+          <div className="absolute inset-0 card flex flex-col items-center justify-center p-8 text-center bg-primary-500/5 border-primary-500/20"
+            style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
+            <p className="text-xs text-emerald-400 font-semibold mb-2 uppercase tracking-wide">Answer</p>
+            <p className="text-2xl font-bold text-white leading-relaxed">{card.back}</p>
+            <p className="text-xs text-slate-500 mt-2">{card.hint}</p>
           </div>
         </motion.div>
       </div>
 
-      {/* Hint */}
-      {!flipped && (
-        <p className="text-xs text-slate-600 animate-pulse">Click the card to flip it</p>
-      )}
-
-      {/* Result buttons — show after flip */}
+      {/* Action buttons (show only when flipped) */}
       <AnimatePresence>
         {flipped && (
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            className="flex gap-4 w-full"
-          >
-            <button
-              onClick={() => onResult(false)}
-              className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl bg-red-500/10 border border-red-500/20 text-red-300 font-semibold text-sm hover:bg-red-500/20 transition-all"
-            >
-              <XCircle size={18} /> Didn't know
-            </button>
-            <button
-              onClick={() => onResult(true)}
-              className="flex-1 flex items-center justify-center gap-2 py-3 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 font-semibold text-sm hover:bg-emerald-500/20 transition-all"
-            >
-              <CheckCircle2 size={18} /> Got it! ✅
-            </button>
+          <motion.div initial={{ opacity: 0, y: 12 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}
+            className="flex gap-4">
+            <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+              onClick={() => handleResult(false)}
+              className="flex-1 py-4 rounded-2xl bg-rose-500/15 border border-rose-500/30 text-rose-300 font-bold flex items-center justify-center gap-2">
+              <XCircle size={20} /> Didn't Know
+            </motion.button>
+            <motion.button whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+              onClick={() => handleResult(true)}
+              className="flex-1 py-4 rounded-2xl bg-emerald-500/15 border border-emerald-500/30 text-emerald-300 font-bold flex items-center justify-center gap-2">
+              <CheckCircle2 size={20} /> I Knew It!
+            </motion.button>
           </motion.div>
         )}
       </AnimatePresence>
@@ -166,281 +210,117 @@ function FlipCard({ card, onResult }) {
   );
 }
 
-// ── Study Session ──────────────────────────────────────────
-function StudySession({ deck, onComplete }) {
-  const cards       = [...deck.cards];
-  const [index,     setIndex]     = useState(0);
-  const [results,   setResults]   = useState([]);
-  const [startTime] = useState(Date.now());
-  const { recordAnswer } = useUserStore();
-
-  const handleResult = (correct) => {
-    const newResults = [...results, correct];
-    setResults(newResults);
-    recordAnswer(correct); // recordAnswer internally awards XP+coins on correct
-
-    if (index + 1 >= cards.length) {
-      const correctCount = newResults.filter(Boolean).length;
-      const timeMin      = Math.round((Date.now() - startTime) / 60000);
-      onComplete({ correct: correctCount, total: cards.length, time: timeMin });
-    } else {
-      setIndex(i => i + 1);
-    }
-  };
-
-  const progress = Math.round(((index) / cards.length) * 100);
-  const current  = cards[index];
-
-  return (
-    <div className="space-y-6">
-      {/* Progress bar */}
-      <div>
-        <div className="flex justify-between text-xs text-slate-500 mb-1.5">
-          <span>{index + 1} / {cards.length} cards</span>
-          <span>{results.filter(Boolean).length} correct</span>
-        </div>
-        <div className="h-2 rounded-full bg-white/8 overflow-hidden">
-          <motion.div
-            animate={{ width: `${progress}%` }}
-            className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500"
-          />
-        </div>
-      </div>
-
-      {/* Card */}
-      <AnimatePresence mode="wait">
-        <motion.div
-          key={index}
-          initial={{ opacity: 0, x: 50 }}
-          animate={{ opacity: 1, x: 0 }}
-          exit={{ opacity: 0, x: -50 }}
-          transition={{ duration: 0.3 }}
-        >
-          <FlipCard card={current} onResult={handleResult} />
-        </motion.div>
-      </AnimatePresence>
-
-      {/* Quit */}
-      <div className="text-center">
-        <button
-          onClick={() => onComplete({ correct: results.filter(Boolean).length, total: results.length, time: 0 })}
-          className="text-xs text-slate-600 hover:text-slate-400 transition-colors"
-        >
-          End session early
-        </button>
-      </div>
-    </div>
-  );
-}
-
-// ── Session complete ───────────────────────────────────────
-function SessionComplete({ result, onRestart, onBack }) {
-  const accuracy = result.total > 0 ? Math.round((result.correct / result.total) * 100) : 0;
-
-  return (
-    <motion.div
-      initial={{ opacity: 0, scale: 0.9 }}
-      animate={{ opacity: 1, scale: 1 }}
-      className="text-center space-y-6 py-8"
-    >
-      <motion.div
-        animate={{ scale: [1, 1.1, 1], rotate: [0, 5, -5, 0] }}
-        transition={{ duration: 0.6 }}
-        className="text-6xl"
-      >
-        {accuracy >= 80 ? '🎉' : accuracy >= 50 ? '👍' : '💪'}
-      </motion.div>
-      <div>
-        <h3 className="text-2xl font-black text-white mb-2">Session Complete!</h3>
-        <p className="text-slate-400 text-sm">
-          {accuracy >= 80 ? 'Excellent work! You\'re getting stronger!' : 'Keep practicing — you\'ll get there!'}
-        </p>
-      </div>
-
-      <div className="grid grid-cols-3 gap-4 max-w-sm mx-auto">
-        {[
-          { label: 'Correct',  value: result.correct, color: 'text-emerald-400' },
-          { label: 'Accuracy', value: `${accuracy}%`, color: 'text-indigo-400' },
-          { label: 'Time',     value: `${result.time}m`,  color: 'text-amber-400' },
-        ].map(({ label, value, color }) => (
-          <div key={label} className="card p-4 text-center">
-            <p className={`text-2xl font-black ${color}`}>{value}</p>
-            <p className="text-xs text-slate-500 mt-1">{label}</p>
-          </div>
-        ))}
-      </div>
-
-      <div className="flex gap-3 justify-center">
-        <button onClick={onRestart} className="btn-primary flex items-center gap-2 px-6 py-3">
-          <RotateCcw size={16} /> Study Again
-        </button>
-        <button onClick={onBack} className="flex items-center gap-2 px-6 py-3 rounded-xl border border-white/10 text-slate-300 hover:bg-white/5 text-sm font-semibold">
-          <ArrowLeft size={16} /> Back to Decks
-        </button>
-      </div>
-    </motion.div>
-  );
-}
-
-// ── Main Page ─────────────────────────────────────────────
 export default function MemoryLabPage() {
-  const [selectedDeck, setSelectedDeck]   = useState(null);
-  const [sessionMode,  setSessionMode]    = useState(false); // false=overview, true=studying
-  const [sessionResult, setSessionResult] = useState(null);
-  const { streak, xp } = useUserStore();
-
-  const handleStartDeck = (deck) => {
-    setSelectedDeck(deck);
-    setSessionMode(true);
-    setSessionResult(null);
-  };
-
-  const handleComplete = (result) => {
-    setSessionResult(result);
-    setSessionMode(false);
-  };
-
-  const handleBack = () => {
-    setSelectedDeck(null);
-    setSessionResult(null);
-    setSessionMode(false);
-  };
-
-  // If in session
-  if (sessionMode && selectedDeck) {
-    return (
-      <div className="max-w-lg mx-auto space-y-5">
-        <div className="flex items-center justify-between">
-          <button onClick={handleBack} className="flex items-center gap-2 text-sm text-slate-500 hover:text-white transition-colors">
-            <ArrowLeft size={14} /> Exit
-          </button>
-          <span className="text-sm font-bold text-white">{selectedDeck.title}</span>
-          <span className="text-sm">{selectedDeck.emoji}</span>
-        </div>
-        <StudySession deck={selectedDeck} onComplete={handleComplete} />
-      </div>
-    );
-  }
-
-  // If session complete
-  if (sessionResult) {
-    return (
-      <div className="max-w-lg mx-auto">
-        <SessionComplete result={sessionResult} onRestart={() => handleStartDeck(selectedDeck)} onBack={handleBack} />
-      </div>
-    );
-  }
+  const [activeDeck, setActiveDeck] = useState(null);
+  const [sessionDeck, setSessionDeck] = useState(null);
 
   return (
-    <div className="space-y-6">
+    <div className="space-y-6 pb-8">
+      <motion.div initial={{ opacity: 0, y: -16 }} animate={{ opacity: 1, y: 0 }}>
+        <h1 className="text-4xl font-black text-white mb-1">🧠 Memory Lab</h1>
+        <p className="text-slate-400">Spaced repetition flashcards — remember English forever</p>
+      </motion.div>
 
-      {/* ── Header ──────────────────────────────────────── */}
-      <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4">
-        <div>
-          <h1 className="text-2xl font-black text-white flex items-center gap-3">
-            <span>🧠</span> Memory Lab
-          </h1>
-          <p className="text-slate-500 text-sm mt-0.5">Spaced repetition, flashcards, and active recall</p>
-        </div>
-        <Link href="/memory-lab/spaced-repetition"
-          className="btn-primary text-sm px-4 py-2 flex items-center gap-2 shrink-0">
-          <Zap size={14} /> Smart Review
-        </Link>
-      </div>
-
-      {/* ── Stats ────────────────────────────────────────── */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        {[
-          { icon: BookOpen,   label: 'Total Cards',    value: '298',   color: 'text-indigo-400',  bg: 'bg-indigo-500/10' },
-          { icon: Brain,      label: 'Mastered',       value: '0',     color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
-          { icon: Flame,      label: 'Day Streak',     value: streak,  color: 'text-orange-400',  bg: 'bg-orange-500/10' },
-          { icon: Zap,        label: 'Total XP',       value: xp,      color: 'text-violet-400',  bg: 'bg-violet-500/10' },
-        ].map(({ icon: Icon, label, value, color, bg }) => (
-          <div key={label} className="card p-4">
-            <div className={`w-8 h-8 rounded-lg ${bg} flex items-center justify-center mb-2`}>
-              <Icon size={16} className={color} />
-            </div>
-            <p className={`text-xl font-black ${color}`}>{value}</p>
-            <p className="text-xs text-slate-500 mt-0.5">{label}</p>
-          </div>
-        ))}
-      </div>
-
-      {/* ── Leitner Box visualization ────────────────────── */}
+      {/* Leitner Box Visual */}
       <div className="card p-5">
-        <h3 className="font-bold text-white mb-4 flex items-center gap-2">
-          <Trophy size={16} className="text-amber-400" /> Leitner Learning System
-        </h3>
-        <div className="grid grid-cols-5 gap-2">
-          {LEITNER_BOXES.map(({ box, label, color, review }) => (
-            <div key={box} className="text-center">
-              <div className={`${color} rounded-lg h-16 flex items-center justify-center text-white font-black text-lg mb-1.5`}>
-                {box === 0 ? '∞' : box}
-              </div>
-              <p className="text-xs font-semibold text-slate-300">{label}</p>
-              <p className="text-[10px] text-slate-600">{review}</p>
+        <h2 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+          <Brain size={18} className="text-primary-400" /> Leitner Box System
+        </h2>
+        <div className="flex items-end gap-2 overflow-x-auto pb-2">
+          {LEITNER_BOXES.map((box, i) => (
+            <div key={box.box} className="flex flex-col items-center gap-2 min-w-0 flex-1">
+              <motion.div
+                className={`w-full rounded-xl border ${box.bg} flex items-center justify-center`}
+                style={{ height: `${40 + i * 15}px` }}
+                initial={{ scaleY: 0 }} animate={{ scaleY: 1 }} transition={{ delay: i * 0.1 }}>
+                <span className="text-xs font-bold text-slate-300">{8 - i * 1}</span>
+              </motion.div>
+              <p className={`text-[10px] font-semibold ${box.color} text-center`}>{box.label}</p>
+              <p className="text-[9px] text-slate-600">Box {box.box}</p>
             </div>
           ))}
         </div>
-        <p className="text-xs text-slate-600 mt-3 text-center">
-          Sahi answer → card moves right | Galat → card goes back to box 1
-        </p>
+        <p className="text-xs text-slate-500 mt-3">Cards move up when you know them, back to box 1 if you forget.</p>
       </div>
 
-      {/* ── Flashcard Decks ──────────────────────────────── */}
-      <div>
-        <h2 className="text-lg font-bold text-white mb-4">Flashcard Decks</h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-          {FLASHCARD_DECKS.map((deck) => (
-            <motion.div
-              key={deck.id}
-              whileHover={{ y: -3 }}
-              className="card p-5 group hover:border-white/15 cursor-pointer relative overflow-hidden"
-              onClick={() => handleStartDeck(deck)}
-            >
-              <div className={`absolute inset-0 bg-gradient-to-br ${deck.color} opacity-0 group-hover:opacity-5 transition-opacity`} />
-              <div className="flex items-start gap-4 relative">
-                <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${deck.color} flex items-center justify-center text-2xl shadow-lg shrink-0`}>
-                  {deck.emoji}
-                </div>
-                <div className="flex-1 min-w-0">
-                  <h3 className="font-bold text-white text-sm mb-1 group-hover:text-indigo-300 transition-colors">
-                    {deck.title}
-                  </h3>
-                  <p className="text-xs text-slate-500">{deck.count} cards • Hindi → English</p>
-
-                  {/* Mini progress */}
-                  <div className="mt-2 h-1.5 rounded-full bg-white/8 overflow-hidden">
-                    <div className="h-full w-0 rounded-full bg-gradient-to-r from-indigo-500 to-purple-500" />
+      {/* Active Session */}
+      {sessionDeck ? (
+        <div className="card p-6">
+          <div className="flex items-center justify-between mb-6">
+            <h2 className="text-xl font-bold text-white">{sessionDeck.emoji} {sessionDeck.title}</h2>
+            <button onClick={() => setSessionDeck(null)} className="text-sm text-slate-400 hover:text-white transition-colors">
+              ← Back to Decks
+            </button>
+          </div>
+          <FlashcardSession deck={sessionDeck} onEnd={() => setSessionDeck(null)} />
+        </div>
+      ) : (
+        // Deck Grid
+        <div>
+          <h2 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
+            <BookOpen size={18} className="text-amber-400" /> Flashcard Decks
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+            {FLASHCARD_DECKS.map((deck, i) => {
+              const stats = DECK_STATS[deck.id] || { learned: 0, review: 0, total: deck.totalCards };
+              const pct = Math.round((stats.learned / stats.total) * 100);
+              return (
+                <motion.div key={deck.id}
+                  initial={{ opacity: 0, y: 16 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.1 }}
+                  whileHover={{ y: -4 }}
+                  className="card p-5 cursor-pointer group"
+                  onClick={() => setSessionDeck(deck)}>
+                  <div className="flex items-start justify-between mb-4">
+                    <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${deck.color} flex items-center justify-center text-2xl group-hover:scale-110 transition-transform`}>
+                      {deck.emoji}
+                    </div>
+                    {stats.review > 0 && (
+                      <span className="text-xs font-bold px-2 py-1 rounded-full bg-rose-500/20 text-rose-300 border border-rose-500/30">
+                        {stats.review} to review
+                      </span>
+                    )}
                   </div>
-                  <p className="text-[10px] text-slate-600 mt-1">0% mastered</p>
-                </div>
-                <Play size={16} className="text-slate-600 group-hover:text-indigo-400 transition-colors shrink-0" fill="currentColor" />
-              </div>
-            </motion.div>
+                  <h3 className="font-bold text-white mb-1">{deck.title}</h3>
+                  <p className="text-xs text-slate-500 mb-4">{deck.totalCards} cards · {deck.cards.length} in session</p>
+                  {/* Progress */}
+                  <div className="flex items-center justify-between text-xs mb-1.5">
+                    <span className="text-slate-500">{stats.learned} mastered</span>
+                    <span className="text-white font-semibold">{pct}%</span>
+                  </div>
+                  <div className="h-1.5 rounded-full bg-white/8 overflow-hidden">
+                    <motion.div className={`h-full rounded-full bg-gradient-to-r ${deck.color}`}
+                      initial={{ width: 0 }} animate={{ width: `${pct}%` }} transition={{ duration: 0.8, delay: 0.2 + i * 0.1 }} />
+                  </div>
+                  <div className="flex items-center justify-between mt-4">
+                    <span className="text-xs text-slate-500">{stats.total - stats.learned} remaining</span>
+                    <span className="text-xs text-primary-400 font-semibold flex items-center gap-1 group-hover:translate-x-1 transition-transform">
+                      Start <ChevronRight size={12} />
+                    </span>
+                  </div>
+                </motion.div>
+              );
+            })}
+          </div>
+        </div>
+      )}
+
+      {/* Tips */}
+      <div className="card p-5 bg-primary-500/5 border-primary-500/15">
+        <h3 className="font-bold text-white mb-3 flex items-center gap-2">
+          <TrendingUp size={16} className="text-primary-400" /> How Spaced Repetition Works
+        </h3>
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm text-slate-400">
+          {[
+            '🧠 Review cards just before you forget — optimal timing',
+            '📈 Cards you know move to higher boxes (less frequent review)',
+            '📉 Cards you forget go back to Box 1 (daily review)',
+            '⚡ 15 min/day of flashcards beats 2 hours/week',
+            '🔄 5 boxes = 5 levels of memory consolidation',
+            '🎯 Goal: Move all cards to Box 5 (Mastered)',
+          ].map((tip, i) => (
+            <p key={i} className="flex items-start gap-2">{tip}</p>
           ))}
         </div>
-      </div>
-
-      {/* ── Sub-sections ─────────────────────────────────── */}
-      <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
-        {[
-          { icon: '🔄', title: 'Spaced Repetition', desc: 'AI-optimized review schedule', href: '/memory-lab/spaced-repetition', badge: 'SRS' },
-          { icon: '📊', title: 'Progress Stats',    desc: 'Track your memory curve',       href: '/memory-lab/flashcards',        badge: null },
-          { icon: '🧩', title: 'All Flashcards',    desc: 'Browse all cards by topic',     href: '/memory-lab/flashcards',        badge: null },
-        ].map(({ icon, title, desc, href, badge }) => (
-          <Link key={title} href={href} className="card p-4 hover:border-white/15 group flex items-center gap-3">
-            <span className="text-2xl">{icon}</span>
-            <div className="flex-1 min-w-0">
-              <div className="flex items-center gap-2">
-                <p className="font-semibold text-white text-sm">{title}</p>
-                {badge && <span className="text-[10px] bg-indigo-500/15 text-indigo-300 px-1.5 py-0.5 rounded-md font-bold">{badge}</span>}
-              </div>
-              <p className="text-xs text-slate-500">{desc}</p>
-            </div>
-            <ArrowRight size={14} className="text-slate-600 group-hover:text-white transition-colors shrink-0" />
-          </Link>
-        ))}
       </div>
     </div>
   );

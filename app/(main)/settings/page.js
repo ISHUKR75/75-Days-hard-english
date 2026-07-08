@@ -12,6 +12,7 @@ import {
   Trash2, Download, RefreshCw, ChevronRight, Check,
   Mic, Clock, BookOpen, Zap, Target, Brain, User,
   Smartphone, Monitor, Eye, Palette, Save, AlertTriangle,
+  BarChart2,
 } from 'lucide-react';
 import { useGamificationStore } from '@/store/useGamificationStore';
 

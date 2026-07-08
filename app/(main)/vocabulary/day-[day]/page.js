@@ -1,20 +1,17 @@
 'use client';
-// ============================================================
-// VOCABULARY PAGE — 10,000+ words, flashcards, search, filter
-// Features: Flashcard flip, IPA, examples, search, categories
-// ============================================================
+// Vocabulary Day Page — Interactive flashcard session for a specific day's vocabulary
+// Features: flippable cards, TTS text-to-speech pronunciation, mastered state tracking, confetti
 
 import { useState, useMemo } from 'react';
+import { useParams } from 'next/navigation';
+import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Search, BookOpen, Star, Volume2, RotateCcw, Filter, X, Sparkles } from 'lucide-react';
+import { ArrowLeft, BookOpen, Star, Volume2, CheckCircle2, ChevronRight, ChevronLeft, Sparkles } from 'lucide-react';
+import confetti from 'canvas-confetti';
 import useUserStore from '@/store/userStore';
+import { getTopicByDay } from '@/lib/topics';
 
-// ── Vocabulary data (built from grammarContent words + extra 500+)
-const VOCAB_CATEGORIES = [
-  'All','Daily Life','Office','Business','Grammar','Modals','Speaking','Writing','Professional','Pronunciation',
-];
-
-// 500+ vocabulary words with full details
+// Direct data matching VOCABULARY_DATA in app/(main)/vocabulary/page.js
 const VOCABULARY_DATA = [
   { word:'usually', hindi:'आमतौर पर', ipa:'/ˈjuːʒuəli/', meaning:'most of the time', example:'I usually wake up at 7 AM.', officeEx:'We usually have a morning standup.', category:'Daily Life', day:1, difficulty:'easy' },
   { word:'always',  hindi:'हमेशा',     ipa:'/ˈɔːlweɪz/', meaning:'at all times',     example:'She always smiles.',           officeEx:'Always send a confirmation email.', category:'Daily Life', day:1, difficulty:'easy' },
@@ -81,153 +78,242 @@ const VOCABULARY_DATA = [
   { word:'resolution',hindi:'संकल्प',    ipa:'/ˌrɛzəˈluːʃ(ə)n/',meaning:'firm decision or solution',example:'A resolution was reached.',officeEx:'The conflict needs a swift resolution.',category:'Business',day:1,difficulty:'hard'},
 ];
 
-export default function VocabularyPage() {
-  const [search, setSearch]         = useState('');
-  const [category, setCategory]     = useState('All');
-  const [flipped, setFlipped]       = useState({});
-  const [starred, setStarred]       = useState({});
-  const [showIPA, setShowIPA]       = useState(true);
-  const [viewMode, setViewMode]     = useState('cards'); // cards | list
+// Fallback vocabulary generator for day matching to keep content active
+function getVocabForDay(dayNum) {
+  const dayWords = VOCABULARY_DATA.filter((w) => w.day === dayNum);
+  if (dayWords.length > 0) return dayWords;
+  
+  return [
+    { word: 'explore', hindi: 'खोजना / घूमना', ipa: '/ɪkˈsplɔː/', meaning: 'to travel to search or learn', example: 'Let\'s explore the grammar rules.', category: 'Daily Life', day: dayNum },
+    { word: 'understand', hindi: 'समझना', ipa: '/ˌʌndəˈstænd/', meaning: 'to perceive the significance of', example: 'Do you understand this day\'s topic?', category: 'Grammar', day: dayNum },
+    { word: 'practice', hindi: 'अभ्यास करना', ipa: '/ˈpraktɪs/', meaning: 'to perform repeatedly to acquire skill', example: 'Practice makes you a perfect speaker.', category: 'Speaking', day: dayNum },
+    { word: 'improve', hindi: 'सुधारना', ipa: '/ɪmˈpruːv/', meaning: 'to make or become better', example: 'I want to improve my accent.', category: 'Speaking', day: dayNum },
+    { word: 'fluent', hindi: 'धाराप्रवाह', ipa: '/ˈfluːənt/', meaning: 'able to express oneself easily', example: 'Our goal is to speak fluently.', category: 'Speaking', day: dayNum },
+  ];
+}
+
+export default function VocabularyDayPage() {
+  const params  = useParams();
+  const dayNum  = parseInt(params?.day || '1', 10);
+  const topic   = getTopicByDay(dayNum);
+  
+  const words = useMemo(() => getVocabForDay(dayNum), [dayNum]);
+  const [index, setIndex] = useState(0);
+  const [flipped, setFlipped] = useState(false);
+  const [mastered, setMastered] = useState({});
+  const [sessionDone, setSessionDone] = useState(false);
 
   const { addXP, addWordsLearned } = useUserStore();
 
-  const filtered = useMemo(() => {
-    return VOCABULARY_DATA.filter((w) => {
-      const matchCat  = category === 'All' || w.category === category;
-      const matchSrch = !search || w.word.toLowerCase().includes(search.toLowerCase()) || w.hindi.includes(search);
-      return matchCat && matchSrch;
-    });
-  }, [search, category]);
+  const currentWord = words[index];
+  const totalWords = words.length;
+  const masteredCount = Object.values(mastered).filter(Boolean).length;
+  const progressPercent = Math.round((masteredCount / totalWords) * 100);
 
-  const toggleFlip = (i) => {
-    setFlipped((p) => {
-      const next = { ...p, [i]: !p[i] };
-      if (!p[i]) { addXP(2); addWordsLearned(1); }
+  const speak = (txt) => {
+    if (typeof window === 'undefined' || !window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(txt);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.9;
+    window.speechSynthesis.speak(utterance);
+    // Dispatch sound event for UI feedback
+    window.dispatchEvent(new CustomEvent('play-sound', { detail: { sound: 'correct' } }));
+  };
+
+  const handleNext = () => {
+    setFlipped(false);
+    if (index < totalWords - 1) {
+      setIndex(i => i + 1);
+    } else {
+      // Completed session
+      confetti({ particleCount: 150, spread: 80, origin: { y: 0.6 } });
+      addXP(50); // Completed session XP bonus
+      addWordsLearned(totalWords);
+      setSessionDone(true);
+    }
+  };
+
+  const toggleMastered = (idx) => {
+    setMastered(p => {
+      const next = { ...p, [idx]: !p[idx] };
+      if (!p[idx]) {
+        addXP(5);
+      }
       return next;
     });
   };
 
-  return (
-    <div className="space-y-6">
-      {/* Header */}
-      <motion.div initial={{ opacity:0, y:-16 }} animate={{ opacity:1, y:0 }}>
-        <h1 className="text-4xl font-black text-white mb-1">📚 Vocabulary Bank</h1>
-        <p className="text-slate-400">10,000+ words with Hindi meanings, IPA, and real-life examples</p>
-      </motion.div>
+  if (!topic) {
+    return (
+      <div className="text-center py-20">
+        <div className="text-4xl mb-3">❓</div>
+        <h2 className="text-xl font-bold text-white mb-2">Day not found</h2>
+        <Link href="/75-days-challenge" className="btn-primary">← Back to Challenge</Link>
+      </div>
+    );
+  }
 
-      {/* Search + Filters */}
-      <div className="space-y-3">
-        <div className="relative">
-          <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500" />
-          <input type="text" value={search} onChange={e => setSearch(e.target.value)}
-            placeholder="Search word or Hindi meaning…"
-            className="w-full pl-10 pr-4 py-3 rounded-xl bg-white/5 border border-white/8 text-slate-200 placeholder:text-slate-600 focus:outline-none focus:border-primary-500/50 text-sm" />
-          {search && <button onClick={() => setSearch('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white"><X size={15}/></button>}
+  if (sessionDone) {
+    return (
+      <div className="max-w-md mx-auto card p-8 text-center space-y-6">
+        <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-emerald-500 to-green-500 flex items-center justify-center text-4xl mx-auto mb-4">
+          🏆
         </div>
-        <div className="flex flex-wrap gap-2">
-          {VOCAB_CATEGORIES.map(cat => (
-            <button key={cat} onClick={() => setCategory(cat)}
-              className={`px-3 py-1.5 rounded-xl text-xs font-semibold border transition-all ${
-                category === cat ? 'bg-primary-500/20 text-primary-300 border-primary-500/30' : 'bg-white/4 text-slate-500 border-white/6 hover:text-slate-300'
-              }`}>
-              {cat}
-            </button>
-          ))}
+        <h2 className="text-3xl font-black text-white">Daily Vocabulary Complete!</h2>
+        <p className="text-slate-400">
+          Superb! You studied all {totalWords} words for today and mastered them.
+        </p>
+        <div className="p-4 rounded-xl bg-emerald-500/10 border border-emerald-500/20 text-emerald-300 font-bold text-sm">
+          +50 XP Study Reward claimed! ⚡
         </div>
-        <div className="flex items-center justify-between text-xs text-slate-500">
-          <span>Showing <strong className="text-white">{filtered.length}</strong> words</span>
-          <div className="flex gap-2">
-            <button onClick={() => setViewMode(v => v === 'cards' ? 'list' : 'cards')}
-              className="px-3 py-1 rounded-lg bg-white/5 border border-white/8 text-slate-400 hover:text-white">
-              {viewMode === 'cards' ? '☰ List' : '⊞ Cards'}
-            </button>
-            <button onClick={() => setShowIPA(v => !v)}
-              className={`px-3 py-1 rounded-lg border text-xs ${showIPA ? 'bg-primary-500/20 text-primary-300 border-primary-500/30' : 'bg-white/5 text-slate-500 border-white/8'}`}>
-              IPA {showIPA ? 'ON' : 'OFF'}
-            </button>
-          </div>
+        <div className="grid grid-cols-2 gap-3">
+          <button onClick={() => { setIndex(0); setSessionDone(false); setMastered({}); }}
+            className="btn-secondary py-3 text-sm font-bold">
+            Review Again
+          </button>
+          <Link href={`/75-days-challenge/${dayNum}`} className="btn-gradient py-3 text-sm font-bold flex items-center justify-center">
+            Continue Lesson
+          </Link>
+        </div>
+      </div>
+    );
+  }
+
+  return (
+    <div className="max-w-xl mx-auto space-y-6">
+      {/* Breadcrumb */}
+      <div className="flex items-center gap-2 text-sm text-slate-500">
+        <Link href="/75-days-challenge" className="hover:text-white transition-colors flex items-center gap-1">
+          <ArrowLeft size={14} /> 75 Days
+        </Link>
+        <span>/</span>
+        <Link href={`/75-days-challenge/${dayNum}`} className="hover:text-white transition-colors">
+          Day {dayNum}
+        </Link>
+        <span>/</span>
+        <span className="text-slate-300">Vocabulary</span>
+      </div>
+
+      {/* Header bar */}
+      <div className="flex items-center justify-between">
+        <div>
+          <span className="badge-primary text-xs">Day {dayNum} Vocabulary</span>
+          <h2 className="text-2xl font-black text-white mt-1">{topic.title}</h2>
+        </div>
+        <Link href={`/75-days-challenge/${dayNum}`} className="btn-secondary text-xs px-3 py-1.5 flex items-center gap-1.5">
+          <BookOpen size={13} /> Lesson
+        </Link>
+      </div>
+
+      {/* Progress meter */}
+      <div className="card p-4 flex items-center justify-between bg-white/3 border-white/6">
+        <div className="space-y-1">
+          <p className="text-xs text-slate-500">Practice Session Progress</p>
+          <p className="text-sm font-bold text-white">{masteredCount} of {totalWords} words mastered</p>
+        </div>
+        <div className="w-24 h-2 bg-white/10 rounded-full overflow-hidden">
+          <div className="h-full bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full" style={{ width: `${progressPercent}%` }} />
         </div>
       </div>
 
-      {/* Vocabulary Grid / List */}
-      {viewMode === 'cards' ? (
-        <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4"
-          variants={{ visible: { transition: { staggerChildren: 0.03 } } }} initial="hidden" animate="visible">
-          {filtered.map((word, i) => (
-            <VocabCard key={word.word+i} word={word} i={i}
-              isFlipped={!!flipped[i]} toggleFlip={() => toggleFlip(i)}
-              isStarred={!!starred[i]} toggleStar={() => setStarred(p => ({...p,[i]:!p[i]}))}
-              showIPA={showIPA} />
-          ))}
-        </motion.div>
-      ) : (
-        <div className="space-y-2">
-          {filtered.map((word, i) => (
-            <VocabListRow key={word.word+i} word={word} showIPA={showIPA}
-              isStarred={!!starred[i]} toggleStar={() => setStarred(p => ({...p,[i]:!p[i]}))} />
-          ))}
-        </div>
-      )}
-    </div>
-  );
-}
-
-function VocabCard({ word, i, isFlipped, toggleFlip, isStarred, toggleStar, showIPA }) {
-  return (
-    <motion.div variants={{ hidden:{opacity:0,scale:0.9}, visible:{opacity:1,scale:1,transition:{duration:0.3}} }}>
-      <div className="relative" style={{ perspective: 1000, height: 200 }}
-        onClick={toggleFlip}>
+      {/* Interactive Flippable Card */}
+      <div className="relative" style={{ perspective: 1000, height: 260 }}>
         <motion.div
-          animate={{ rotateY: isFlipped ? 180 : 0 }}
+          animate={{ rotateY: flipped ? 180 : 0 }}
           transition={{ duration: 0.5, type: 'spring', stiffness: 120 }}
           style={{ transformStyle: 'preserve-3d', position: 'absolute', inset: 0 }}
         >
-          {/* Front */}
-          <div className="absolute inset-0 card p-4 cursor-pointer backface-hidden flex flex-col justify-between"
-            style={{ backfaceVisibility: 'hidden' }}>
-            <div className="flex justify-between items-start">
-              <span className="badge bg-primary-500/20 text-primary-300 border border-primary-500/30 text-[10px]">{word.category}</span>
-              <button onClick={e => { e.stopPropagation(); toggleStar(); }}
-                className={isStarred ? 'text-amber-400' : 'text-slate-600 hover:text-amber-400 transition-colors'}>
-                <Star size={14} fill={isStarred ? 'currentColor' : 'none'} />
+          {/* Front Side */}
+          <div 
+            onClick={() => setFlipped(true)}
+            className="absolute inset-0 card p-6 cursor-pointer backface-hidden flex flex-col justify-between"
+            style={{ backfaceVisibility: 'hidden' }}
+          >
+            <div className="flex justify-between items-center text-xs text-slate-500">
+              <span>Word {index + 1} of {totalWords}</span>
+              <span className="badge-primary bg-primary-500/10 border border-primary-500/20 text-primary-300 text-[10px] uppercase font-bold tracking-wider">{currentWord.category || 'Vocabulary'}</span>
+            </div>
+            
+            <div className="text-center space-y-2">
+              <h3 className="text-4xl font-black text-white tracking-tight">{currentWord.word}</h3>
+              {currentWord.ipa && <p className="text-sm text-slate-400 font-mono select-none">{currentWord.ipa}</p>}
+            </div>
+
+            <div className="flex justify-center gap-4">
+              <button 
+                onClick={(e) => { e.stopPropagation(); speak(currentWord.word); }}
+                className="btn-secondary rounded-full w-10 h-10 flex items-center justify-center p-0 text-primary-400 hover:text-white"
+                title="Hear Pronunciation"
+              >
+                <Volume2 size={16} />
               </button>
             </div>
-            <div className="text-center">
-              <p className="text-2xl font-black text-white mb-1">{word.word}</p>
-              {showIPA && <p className="text-xs text-slate-500 font-mono">{word.ipa}</p>}
-              <p className="text-sm hindi-text mt-1">{word.hindi}</p>
-            </div>
-            <p className="text-[10px] text-slate-600 text-center">Tap to see example</p>
+            <p className="text-center text-xs text-slate-500 select-none">Tap to flip & view Hindi translation & meaning</p>
           </div>
-          {/* Back */}
-          <div className="absolute inset-0 card p-4 cursor-pointer bg-primary-500/10 border-primary-500/25 flex flex-col justify-center gap-2"
-            style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}>
-            <p className="text-xs font-semibold text-primary-400 uppercase tracking-wide">Meaning</p>
-            <p className="text-sm text-white">{word.meaning}</p>
-            <p className="text-[11px] text-emerald-400 italic">e.g. {word.example}</p>
-            {word.officeEx && <p className="text-[11px] text-sky-400 italic">💼 {word.officeEx}</p>}
+
+          {/* Back Side */}
+          <div 
+            onClick={() => setFlipped(false)}
+            className="absolute inset-0 card p-6 cursor-pointer bg-primary-500/5 border-primary-500/25 flex flex-col justify-between"
+            style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)' }}
+          >
+            <div className="flex justify-between items-center text-xs">
+              <span className="text-primary-300 font-bold uppercase tracking-wider">Meaning & Example</span>
+              <button 
+                onClick={(e) => { e.stopPropagation(); toggleMastered(index); }}
+                className={`flex items-center gap-1 text-xs px-2.5 py-1 rounded-lg border font-bold transition-all ${
+                  mastered[index] 
+                    ? 'bg-emerald-500/20 border-emerald-500/30 text-emerald-300' 
+                    : 'bg-white/5 border-white/10 text-slate-400 hover:text-white'
+                }`}
+              >
+                <CheckCircle2 size={12} />
+                {mastered[index] ? 'Mastered!' : 'Mark Mastered'}
+              </button>
+            </div>
+
+            <div className="space-y-3">
+              <div>
+                <p className="text-[10px] text-slate-500 uppercase font-semibold">Hindi Translation</p>
+                <p className="text-xl font-bold text-amber-200">{currentWord.hindi}</p>
+              </div>
+              <div>
+                <p className="text-[10px] text-slate-500 uppercase font-semibold">Definition</p>
+                <p className="text-sm text-slate-200">{currentWord.meaning}</p>
+              </div>
+              <div>
+                <p className="text-[10px] text-slate-500 uppercase font-semibold">Example Sentence</p>
+                <p className="text-xs text-emerald-300 italic">" {currentWord.example} "</p>
+                {currentWord.officeEx && (
+                  <p className="text-xs text-sky-300 italic mt-1">💼 " {currentWord.officeEx} "</p>
+                )}
+              </div>
+            </div>
+
+            <p className="text-center text-xs text-slate-500 select-none">Tap to flip back</p>
           </div>
         </motion.div>
       </div>
-    </motion.div>
-  );
-}
 
-function VocabListRow({ word, showIPA, isStarred, toggleStar }) {
-  return (
-    <motion.div initial={{opacity:0,x:-12}} whileInView={{opacity:1,x:0}} viewport={{once:true}}
-      className="flex items-center gap-4 p-4 rounded-xl bg-white/3 border border-white/6 hover:bg-white/5 transition-all group">
-      <div className="w-28 shrink-0">
-        <p className="font-bold text-white">{word.word}</p>
-        {showIPA && <p className="text-[10px] text-slate-500 font-mono">{word.ipa}</p>}
+      {/* Nav Controls */}
+      <div className="flex justify-between items-center gap-4">
+        <button 
+          onClick={() => { if (index > 0) { setIndex(i => i - 1); setFlipped(false); } }}
+          disabled={index === 0}
+          className="btn-secondary py-3 flex-1 flex items-center justify-center gap-2 disabled:opacity-40"
+        >
+          <ChevronLeft size={16} /> Prev Word
+        </button>
+
+        <button 
+          onClick={handleNext}
+          className="btn-gradient py-3 flex-1 flex items-center justify-center gap-2"
+        >
+          {index === totalWords - 1 ? 'Finish & Claim' : 'Next Word'}
+          <ChevronRight size={16} />
+        </button>
       </div>
-      <p className="text-sm hindi-text text-amber-300 w-28 shrink-0">{word.hindi}</p>
-      <p className="text-xs text-slate-400 flex-1 hidden sm:block">{word.meaning}</p>
-      <p className="text-xs text-emerald-400 italic flex-1 hidden lg:block">{word.example}</p>
-      <button onClick={toggleStar}
-        className={`shrink-0 ${isStarred ? 'text-amber-400' : 'text-slate-600 hover:text-amber-400 transition-colors'}`}>
-        <Star size={14} fill={isStarred ? 'currentColor' : 'none'} />
-      </button>
-    </motion.div>
+    </div>
   );
 }

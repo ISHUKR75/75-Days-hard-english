@@ -1,0 +1,42 @@
+{
+  "grammar": [
+    {
+      "id": "g1-parts-of-speech",
+      "title": "Parts of Speech (Overview)",
+      "description": "Understanding the fundamental building blocks of English sentences.",
+      "lessons": [
+        {
+          "id": "noun-basics",
+          "title": "Nouns",
+          "theory": "A noun is a word that represents a person, place, thing, or idea.",
+          "hindiExplanation": "Noun (संज्ञा) किसी व्यक्ति, स्थान, वस्तु या विचार के नाम को कहते हैं।",
+          "examples": [
+            {
+              "english": "The book is on the table.",
+              "hindi": "किताब मेज पर है।"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g2-articles",
+      "title": "Articles (A, An, The)",
+      "description": "Learn when and how to use definite and indefinite articles.",
+      "lessons": [
+        {
+          "id": "indefinite-articles",
+          "title": "A vs An",
+          "theory": "Use 'a' before consonant sounds and 'an' before vowel sounds.",
+          "hindiExplanation": "'A' का प्रयोग व्यंजन ध्वनि (consonant sound) से पहले और 'an' का प्रयोग स्वर ध्वनि (vowel sound) से पहले होता है।",
+          "examples": [
+            {
+              "english": "I have an apple and a banana.",
+              "hindi": "मेरे पास एक सेब और एक केला है।"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

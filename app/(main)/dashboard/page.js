@@ -22,10 +22,8 @@ import {
 } from 'recharts';
 import confetti from 'canvas-confetti';
 
-// Import custom hooks and stores
-import { useProgressStore } from '@/store/useProgressStore';
-import { useGamificationStore } from '@/store/useGamificationStore';
-import { useStreakStore } from '@/store/useStreakStore';
+// Import user store (the main working store)
+import useUserStore from '@/store/userStore';
 
 // ============================================================
 // Animation Variants
@@ -111,20 +109,15 @@ export default function DashboardPage() {
   const [heatmapData, setHeatmapData] = useState([]);
   const [selectedPeriod, setSelectedPeriod] = useState('week'); // week, month, year
 
-  // Zustand stores (will be implemented)
-  // const { totalXP, level, coins } = useGamificationStore();
-  // const { streak, lastActiveDate } = useStreakStore();
-  // const { topics, accuracy, questionsAttempted } = useProgressStore();
-
-  // Mock data for now
-  const totalXP = 1250;
-  const level = 8;
-  const coins = 540;
-  const streak = 12;
-  const questionsAttempted = 487;
-  const questionsCorrect = 425;
-  const accuracy = Math.round((questionsCorrect / questionsAttempted) * 100);
-  const topicsCompleted = 15;
+  // Real data from Zustand store (persisted to localStorage)
+  const {
+    xp: totalXP, level, coins, streak,
+    totalQuestionsAttempted: questionsAttempted,
+    totalCorrectAnswers: questionsCorrect,
+    totalTopicsCompleted: topicsCompleted,
+    getAccuracy, getLevelProgress,
+  } = useUserStore();
+  const accuracy = getAccuracy();
   const totalTopics = 75;
 
   useEffect(() => {

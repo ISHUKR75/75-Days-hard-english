@@ -4,6 +4,8 @@
 // Each topic follows the EXACT same structure for consistency
 // ============================================================
 
+import { day2SelfIntroduction } from './day2-self-introduction';
+
 /**
  * Topic Structure (MANDATORY for EVERY topic):
  * - id: unique identifier
@@ -46,6 +48,11 @@
 // DAY 1: BASICS OF ENGLISH
 // ============================================================
 export const day1BasicsOfEnglish = {
+
+// ============================================================
+// DAY 2: SELF INTRODUCTION
+// ============================================================
+export const day2SelfIntroduction = {
   id: 'basics-of-english',
   day: 1,
   title: 'Basics of English',
@@ -598,7 +605,8 @@ export const day1BasicsOfEnglish = {
 // ============================================================
 export const allTopicsData = {
   day1BasicsOfEnglish,
-  // We'll add day2, day3... day75 following the EXACT same structure
+  day2SelfIntroduction,
+  // We'll add day3... day75 following the EXACT same structure
 };
 
 export default allTopicsData;

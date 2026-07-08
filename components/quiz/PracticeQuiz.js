@@ -1,603 +1,759 @@
 'use client';
-// PracticeQuiz — Universal Hindi→English Quiz Engine
+// ============================================================
+// PracticeQuiz — The universal practice quiz component
+// Used by: /practice/day-[day], /test/day-[day], /assessment, /daily-practice
 // Features:
-//   • Hindi questions displayed prominently
-//   • Text input for English answer (case-insensitive)
-//   • "Reveal Answer" button
-//   • Sound effects (correct.mp3 / wrong.mp3 from /sounds/)
-//   • XP and coins awarded per correct answer
-//   • Real-time score, accuracy, and streak tracking
-//   • Beautiful animated feedback (green ✅ / red ❌)
-//   • Progress bar and session stats
-//   • Skip button to go to next question
-//   • End-of-session summary with graphs
+//   • Hindi → English translation
+//   • Case-insensitive + punctuation-tolerant checking
+//   • Sound effects (correct / wrong / perfect)
+//   • XP + coin rewards via userStore
+//   • Session summary with wrong-answer review
+//   • Keyboard shortcuts (Enter = submit, Arrow keys = navigate)
+//   • Timed test support (isTest prop) with countdown, hidden hints, and post-grading
+//   • Fully animated with Framer Motion
+// ============================================================
 
 import { useState, useEffect, useRef, useCallback } from 'react';
-import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
 import {
-  CheckCircle2, XCircle, ArrowRight, RotateCcw, Trophy,
-  Target, Zap, Eye, SkipForward, Volume2, VolumeX,
-  BarChart2, Home, BookOpen, Flame,
+  CheckCircle2, XCircle, Eye, EyeOff, Lightbulb, ArrowRight,
+  RotateCcw, Trophy, Target, Clock, Zap, Star, BarChart2,
+  BookOpen, Play, Sparkles, Volume2, ChevronDown, Award,
 } from 'lucide-react';
-import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer, Cell } from 'recharts';
+import confetti from 'canvas-confetti';
 import useUserStore from '@/store/userStore';
-import useProgressStore from '@/store/progressStore';
+
+// ── Helpers ──────────────────────────────────────────────────
+// Normalize an answer string for comparison:
+// lowercase, trim, strip leading/trailing punctuation
+const normalize = (str) =>
+  str
+    .toLowerCase()
+    .trim()
+    .replace(/^[\s.,!?;:'"]+|[\s.,!?;:'"]+$/g, '') // strip edge punctuation
+    .replace(/\s+/g, ' '); // collapse whitespace
+
+// Compare user answer to correct (and alternatives)
+const isMatch = (userAnswer, correct, alternatives = []) => {
+  const u = normalize(userAnswer);
+  if (u === normalize(correct)) return true;
+  return (alternatives || []).some((alt) => u === normalize(alt));
+};
+
+// ── Session states ────────────────────────────────────────────
+const STATES = { READY: 'ready', ACTIVE: 'active', SUMMARY: 'summary' };
+
+// ── Sound dispatcher ──────────────────────────────────────────
+const playSound = (name) => {
+  if (typeof window === 'undefined') return;
+  window.dispatchEvent(new CustomEvent('play-sound', { detail: { sound: name } }));
+};
+
+// ── Animation variants ────────────────────────────────────────
+const fadeUp = { hidden: { opacity: 0, y: 18 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } };
+const slideIn = { hidden: { opacity: 0, x: 40 }, visible: { opacity: 1, x: 0, transition: { duration: 0.3 } } };
 
 // ============================================================
-// Sound helper — plays a file from /sounds/
-// ============================================================
-function playSound(file, volume = 0.7) {
-  try {
-    const audio = new Audio(`/sounds/${file}`);
-    audio.volume = volume;
-    audio.play().catch(() => {}); // Ignore autoplay errors
-  } catch (e) {
-    // Silence errors on unsupported browsers
-  }
-}
-
-// ============================================================
-// Normalize answer — lowercase, trim, remove trailing punctuation
-// ============================================================
-function normalizeAnswer(str) {
-  // This function cleans up the user's input so we can check it fairly.
-  return str
-    .toLowerCase()            // Convert all letters to lowercase so capital letters do not cause errors.
-    .trim()                   // Remove extra spaces from the beginning and the end.
-    .replace(/[.!?]+$/, '')   // Remove trailing periods, exclamation marks, or question marks.
-    .replace(/\s+/g, ' ');    // Replace multiple spaces in the middle with a single space.
-}
-
-// ============================================================
-// Check if user's answer matches correct answer (or alternatives)
-// ============================================================
-function isCorrectAnswer(userAnswer, question) {
-  // Normalize the user's answer
-  const norm = normalizeAnswer(userAnswer);
-  // If the user's answer is empty, it is wrong
-  if (!norm) return false;
-  // Normalize the correct English answer
-  const correct = normalizeAnswer(question.english);
-  // If the normalized answers are exactly equal, return true
-  if (norm === correct) return true;
-  // Check if there are other alternative correct answers
-  if (question.alternatives) {
-    // If any of the alternative answers match the normalized user answer, return true
-    return question.alternatives.some(alt => normalizeAnswer(alt) === norm);
-  }
-  // Otherwise return false
-  return false;
-}
-
-// ============================================================
-// Session Summary Component
-// ============================================================
-function SessionSummary({ session, questions, onRestart, backHref }) {
-  const { correct, wrong, skipped, xpEarned, coinsEarned, answers } = session;
-  const total    = correct + wrong + skipped;
-  const accuracy = total > 0 ? Math.round((correct / (correct + wrong || 1)) * 100) : 0;
-
-  // Build bar chart data (first 10 questions for visualization)
-  const chartData = answers.slice(0, 15).map((a, i) => ({
-    q: `Q${i + 1}`,
-    result: a.correct ? 1 : 0,
-    label: a.correct ? 'Correct' : 'Wrong',
-  }));
-
-  return (
-    <div className="space-y-6 max-w-xl mx-auto">
-      {/* Header */}
-      <div className="text-center">
-        <div className="text-5xl mb-3">
-          {accuracy >= 90 ? '🏆' : accuracy >= 70 ? '🌟' : accuracy >= 50 ? '💪' : '📚'}
-        </div>
-        <h2 className="text-3xl font-black text-white mb-1">Session Complete!</h2>
-        <p className="text-slate-400">
-          {accuracy >= 90 ? 'Excellent work! Outstanding performance!' :
-           accuracy >= 70 ? 'Great job! Keep it up!' :
-           accuracy >= 50 ? 'Good effort! Practice more.' :
-           'Keep going — consistency is key!'}
-        </p>
-      </div>
-
-      {/* Stats grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        {[
-          { label: 'Correct',  value: correct,    emoji: '✅', color: 'text-accent-400' },
-          { label: 'Wrong',    value: wrong,       emoji: '❌', color: 'text-danger-400' },
-          { label: 'Skipped',  value: skipped,     emoji: '⏭️', color: 'text-slate-400' },
-          { label: 'Accuracy', value: `${accuracy}%`, emoji: '🎯', color: 'text-primary-400' },
-        ].map(({ label, value, emoji, color }) => (
-          <div key={label} className="card p-4 text-center">
-            <div className="text-2xl mb-1">{emoji}</div>
-            <p className={`text-2xl font-black ${color}`}>{value}</p>
-            <p className="text-xs text-slate-500">{label}</p>
-          </div>
-        ))}
-      </div>
-
-      {/* XP & Coins earned */}
-      <div className="card p-5 border-primary-500/20 bg-primary-500/5 flex items-center justify-around gap-4">
-        <div className="text-center">
-          <p className="text-3xl font-black text-violet-300">+{xpEarned}</p>
-          <p className="text-sm text-slate-500">XP Earned</p>
-        </div>
-        <div className="w-px h-10 bg-white/10" />
-        <div className="text-center">
-          <p className="text-3xl font-black text-yellow-300">+{coinsEarned}</p>
-          <p className="text-sm text-slate-500">Coins Earned</p>
-        </div>
-        <div className="w-px h-10 bg-white/10" />
-        <div className="text-center">
-          <p className="text-3xl font-black text-orange-300">{session.streak}</p>
-          <p className="text-sm text-slate-500">Best Streak</p>
-        </div>
-      </div>
-
-      {/* Performance bar chart */}
-      {chartData.length > 0 && (
-        <div className="card p-5">
-          <h3 className="font-bold text-white mb-4 flex items-center gap-2">
-            <BarChart2 size={16} className="text-primary-400" /> Performance Chart
-          </h3>
-          <ResponsiveContainer width="100%" height={100}>
-            <BarChart data={chartData} margin={{ top: 0, right: 0, left: -20, bottom: 0 }}>
-              <XAxis dataKey="q" tick={{ fill: '#475569', fontSize: 10 }} axisLine={false} tickLine={false} />
-              <YAxis hide />
-              <Tooltip
-                formatter={(v) => [v === 1 ? 'Correct ✅' : 'Wrong ❌', '']}
-                contentStyle={{ background: '#1e293b', border: '1px solid rgba(255,255,255,0.08)', borderRadius: 8, fontSize: 11 }}
-                labelStyle={{ color: '#94a3b8' }}
-              />
-              <Bar dataKey="result" radius={[4, 4, 0, 0]}>
-                {chartData.map((entry, i) => (
-                  <Cell key={i} fill={entry.result === 1 ? '#10b981' : '#f43f5e'} />
-                ))}
-              </Bar>
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
-      )}
-
-      {/* Action buttons */}
-      <div className="flex flex-col sm:flex-row gap-3">
-        <button
-          onClick={onRestart}
-          className="btn-primary flex-1 flex items-center justify-center gap-2">
-          <RotateCcw size={16} /> Practice Again
-        </button>
-        <Link href={backHref} className="btn-secondary flex-1 flex items-center justify-center gap-2">
-          <Home size={16} /> Back to Lesson
-        </Link>
-      </div>
-    </div>
-  );
-}
-
-// ============================================================
-// Hint Display Component
-// ============================================================
-function HintBadge({ hint }) {
-  const [show, setShow] = useState(false);
-  if (!hint) return null;
-  return (
-    <button
-      onClick={() => setShow(v => !v)}
-      className="text-xs text-amber-400 hover:text-amber-300 flex items-center gap-1 transition-colors">
-      💡 {show ? hint : 'Show hint'}
-    </button>
-  );
-}
-
-// ============================================================
-// Main PracticeQuiz Component
+// MAIN EXPORT
 // ============================================================
 export default function PracticeQuiz({
-  questions = [],          // Array of { id, hindi, english, alternatives, hint, type }
-  title = 'Practice Quiz', // Page/quiz title
-  backHref = '/dashboard', // Where "back" button goes
-  onComplete,              // Callback when session ends
+  questions = [],          // Array of question objects from practiceData
+  title = 'Practice',      // Display title
+  backHref = '/',          // Back button href
   questionsPerSession = 20,// How many questions per session
-  shuffleMode = true,      // Randomize question order
+  shuffleMode = true,      // Randomise question order
+  isTest = false,          // Timed test mode
 }) {
-  const { addXP, addCoins, recordAnswer } = useUserStore();
-  const { recordQuestionResult } = useProgressStore();
+  // ── State ────────────────────────────────────────────────
+  const [sessionState, setSessionState] = useState(STATES.READY);
+  const [sessionQs, setSessionQs]       = useState([]);
+  const [qIndex, setQIndex]             = useState(0);
+  const [userAnswer, setUserAnswer]     = useState('');
+  const [submitted, setSubmitted]       = useState(false);
+  const [correct, setCorrect]           = useState(null);
+  const [showAnswer, setShowAnswer]     = useState(false);
+  const [showHint, setShowHint]         = useState(false);
+  const [results, setResults]           = useState([]);   // {q, isCorrect, userAnswer}
+  const [elapsedSeconds, setElapsedSeconds] = useState(0);
+  const [shakeTrigger, setShakeTrigger] = useState(0);
 
-  // Sound preference
-  const [soundOn, setSoundOn] = useState(true);
+  // ── Refs ─────────────────────────────────────────────────
+  const inputRef    = useRef(null);
+  const timerRef    = useRef(null);
+  const startTimeRef = useRef(null);
 
-  // Quiz state
-  const [sessionQuestions, setSessionQuestions] = useState([]);
-  const [currentIdx,        setCurrentIdx]       = useState(0);
-  const [userAnswer,        setUserAnswer]        = useState('');
-  const [feedback,          setFeedback]          = useState(null); // null | 'correct' | 'wrong' | 'revealed'
-  const [revealed,          setRevealed]          = useState(false);
-  const [sessionDone,       setSessionDone]       = useState(false);
+  // ── Store ────────────────────────────────────────────────
+  const { addXP, addCoins, recordAnswer, settings } = useUserStore();
+  const soundEnabled = settings?.soundEnabled !== false;
 
-  // Session stats
-  const [correct,           setCorrect]           = useState(0);
-  const [wrong,             setWrong]             = useState(0);
-  const [skipped,           setSkipped]           = useState(0);
-  const [xpEarned,          setXpEarned]          = useState(0);
-  const [coinsEarned,       setCoinsEarned]       = useState(0);
-  const [currentStreak,     setCurrentStreak]     = useState(0);
-  const [bestStreak,        setBestStreak]        = useState(0);
-  const [answers,           setAnswers]           = useState([]); // history
+  // ── Derived ──────────────────────────────────────────────
+  const currentQ   = sessionQs[qIndex];
+  const totalQ     = sessionQs.length;
+  const progress   = totalQ > 0 ? Math.round((qIndex / totalQ) * 100) : 0;
+  const correctCount  = results.filter((r) => r.isCorrect).length;
+  const accuracy   = results.length > 0 ? Math.round((correctCount / results.length) * 100) : 0;
 
-  const inputRef = useRef(null);
+  // ── Timer ────────────────────────────────────────────────
+  const startTimer = () => {
+    startTimeRef.current = Date.now();
+    timerRef.current = setInterval(() => {
+      if (isTest) {
+        setElapsedSeconds((prev) => {
+          if (prev <= 1) {
+            stopTimer();
+            // Automatically submit and go to summary when timer runs out
+            setSessionState(STATES.SUMMARY);
+            return 0;
+          }
+          return prev - 1;
+        });
+      } else {
+        setElapsedSeconds(Math.floor((Date.now() - startTimeRef.current) / 1000));
+      }
+    }, 1000);
+  };
 
-  // ── Initialize / Shuffle questions ──────────────────────
-  const initSession = useCallback(() => {
-    let pool = [...questions];
-    if (shuffleMode) pool = pool.sort(() => Math.random() - 0.5);
-    setSessionQuestions(pool.slice(0, questionsPerSession));
-    setCurrentIdx(0);
+  const stopTimer = () => {
+    if (timerRef.current) { clearInterval(timerRef.current); timerRef.current = null; }
+  };
+
+  useEffect(() => () => stopTimer(), []);
+
+  const formatTime = (s) => `${Math.floor(s / 60)}:${String(s % 60).padStart(2, '0')}`;
+
+  // ── Start session ─────────────────────────────────────────
+  const startSession = useCallback(() => {
+    let qs = [...questions];
+    if (shuffleMode) qs = qs.sort(() => Math.random() - 0.5);
+    qs = qs.slice(0, Math.min(questionsPerSession, qs.length));
+    setSessionQs(qs);
+    setQIndex(0);
+    setResults([]);
     setUserAnswer('');
-    setFeedback(null);
-    setRevealed(false);
-    setSessionDone(false);
-    setCorrect(0);
-    setWrong(0);
-    setSkipped(0);
-    setXpEarned(0);
-    setCoinsEarned(0);
-    setCurrentStreak(0);
-    setBestStreak(0);
-    setAnswers([]);
-  }, [questions, questionsPerSession, shuffleMode]);
+    setSubmitted(false);
+    setCorrect(null);
+    setShowAnswer(false);
+    setShowHint(false);
+    // 30 seconds per question for test, or clean incremental timer for practice
+    setElapsedSeconds(isTest ? qs.length * 30 : 0);
+    setSessionState(STATES.ACTIVE);
+    startTimer();
+    setTimeout(() => inputRef.current?.focus(), 100);
+  }, [questions, questionsPerSession, shuffleMode, isTest]);
 
-  useEffect(() => { initSession(); }, [initSession]);
+  // ── Submit answer ─────────────────────────────────────────
+  const handleSubmit = useCallback(() => {
+    if (!userAnswer.trim()) return;
 
-  // Auto-focus input on new question
-  useEffect(() => {
-    if (!sessionDone && inputRef.current) {
-      setTimeout(() => inputRef.current?.focus(), 100);
-    }
-  }, [currentIdx, sessionDone]);
+    const isCorrect = isMatch(userAnswer, currentQ.english, currentQ.alternatives);
 
-  const currentQuestion = sessionQuestions[currentIdx];
-  const progress = sessionQuestions.length > 0
-    ? Math.round((currentIdx / sessionQuestions.length) * 100)
-    : 0;
-
-  // ── Submit answer ────────────────────────────────────────
-  const submitAnswer = useCallback(() => {
-    if (!currentQuestion || feedback !== null) return;
-    const isCorrect = isCorrectAnswer(userAnswer, currentQuestion);
-
-    if (isCorrect) {
-      setFeedback('correct');
-      setCorrect(c => c + 1);
-      const newStreak = currentStreak + 1;
-      setCurrentStreak(newStreak);
-      if (newStreak > bestStreak) setBestStreak(newStreak);
-      // XP: 10 base + 5 streak bonus (max 50 bonus)
-      const xp = 10 + Math.min(newStreak * 2, 10);
-      const coins = newStreak >= 3 ? 2 : 1;
-      setXpEarned(x => x + xp);
-      setCoinsEarned(c => c + coins);
-      addXP(xp);
-      addCoins(coins);
-      if (soundOn) playSound('correct.mp3');
-    } else {
-      setFeedback('wrong');
-      setWrong(w => w + 1);
-      setCurrentStreak(0);
-      if (soundOn) playSound('wrong.mp3');
-    }
-
-    setAnswers(a => [...a, {
-      id: currentQuestion.id,
-      hindi: currentQuestion.hindi,
-      english: currentQuestion.english,
-      userAnswer,
-      correct: isCorrect,
-    }]);
-
-    // Track in both stores
-    if (recordQuestionResult) {
-      recordQuestionResult(currentQuestion.id, isCorrect);
-    }
-    // Update userStore counters (totalQuestionsAttempted, totalCorrectAnswers, etc.)
-    if (recordAnswer) {
-      recordAnswer(isCorrect);
-    }
-  }, [currentQuestion, feedback, userAnswer, currentStreak, bestStreak, addXP, addCoins, recordAnswer, soundOn, recordQuestionResult]);
-
-  // ── Enter key submits or advances ───────────────────────
-  const handleKeyDown = useCallback((e) => {
-    if (e.key === 'Enter') {
-      if (feedback === null) submitAnswer();
-      else advanceQuestion();
-    }
-  }, [feedback, submitAnswer]);
-
-  // ── Advance to next question ─────────────────────────────
-  const advanceQuestion = useCallback(() => {
-    const next = currentIdx + 1;
-    if (next >= sessionQuestions.length) {
-      if (soundOn) playSound('complete.mp3', 0.5);
-      setSessionDone(true);
-      if (onComplete) onComplete({ correct, wrong, skipped, xpEarned, coinsEarned });
-    } else {
-      setCurrentIdx(next);
+    if (isTest) {
+      // Save results silently without intermediate green/red screen
+      const nextResults = [...results, { q: currentQ, isCorrect, userAnswer }];
+      setResults(nextResults);
       setUserAnswer('');
-      setFeedback(null);
-      setRevealed(false);
+
+      if (qIndex < totalQ - 1) {
+        setQIndex((i) => i + 1);
+        setTimeout(() => inputRef.current?.focus(), 80);
+      } else {
+        // Last question answered, finish test
+        stopTimer();
+        const finalCorrect = nextResults.filter((r) => r.isCorrect).length;
+        const pct = Math.round((finalCorrect / totalQ) * 100);
+
+        // Timed Test Rewards:
+        // 10 XP per correct + 50 XP passing bonus (>=70% accuracy) + 100 XP perfect score bonus
+        const earnedXP = (finalCorrect * 10) + (pct >= 70 ? 50 : 0) + (pct === 100 ? 100 : 0);
+        const earnedCoins = (finalCorrect * 1) + (pct >= 70 ? 10 : 0);
+
+        addXP(earnedXP);
+        addCoins(earnedCoins);
+        recordAnswer(finalCorrect >= (totalQ * 0.7)); // Record as passed if >= 70%
+
+        if (pct === 100) { if (soundEnabled) playSound('perfectScore'); }
+        else if (pct >= 70) { if (soundEnabled) playSound('levelUp'); }
+        else { if (soundEnabled) playSound('wrong'); }
+
+        if (pct >= 70) {
+          confetti({ particleCount: pct === 100 ? 200 : 80, spread: 70, origin: { y: 0.5 } });
+        }
+
+        setSessionState(STATES.SUMMARY);
+      }
+    } else {
+      // Practice mode flow
+      if (submitted) return;
+      setCorrect(isCorrect);
+      setSubmitted(true);
+      recordAnswer(isCorrect);
+      if (isCorrect) {
+        addXP(10);
+        addCoins(1);
+        if (soundEnabled) playSound('correct');
+      } else {
+        if (soundEnabled) playSound('wrong');
+        setShakeTrigger((n) => n + 1);
+      }
+      setResults((prev) => [...prev, { q: currentQ, isCorrect, userAnswer }]);
     }
-  }, [currentIdx, sessionQuestions.length, soundOn, correct, wrong, skipped, xpEarned, coinsEarned, onComplete]);
+  }, [submitted, userAnswer, currentQ, qIndex, totalQ, results, isTest, addXP, addCoins, recordAnswer, soundEnabled]);
 
-  // ── Reveal answer ────────────────────────────────────────
-  const handleReveal = () => {
-    if (feedback !== null) return;
-    setRevealed(true);
-    setFeedback('revealed');
-    setSkipped(s => s + 1);
-    setCurrentStreak(0);
-    setAnswers(a => [...a, {
-      id: currentQuestion.id,
-      hindi: currentQuestion.hindi,
-      english: currentQuestion.english,
-      userAnswer: '',
-      correct: false,
-    }]);
-  };
+  // ── Next question (Practice mode only) ──────────────────────
+  const handleNext = useCallback(() => {
+    if (qIndex < totalQ - 1) {
+      setQIndex((i) => i + 1);
+      setUserAnswer('');
+      setSubmitted(false);
+      setCorrect(null);
+      setShowAnswer(false);
+      setShowHint(false);
+      setTimeout(() => inputRef.current?.focus(), 80);
+    } else {
+      // Practice session complete
+      stopTimer();
+      const finalCorrect = results.filter((r) => r.isCorrect).length;
+      const pct = Math.round((finalCorrect / totalQ) * 100);
+      if (pct === 100) { if (soundEnabled) playSound('perfectScore'); }
+      else if (pct >= 80) { if (soundEnabled) playSound('levelUp'); }
 
-  // ── Skip question ────────────────────────────────────────
-  const handleSkip = () => {
-    if (feedback !== null) { advanceQuestion(); return; }
-    setFeedback('revealed');
-    setSkipped(s => s + 1);
-    setCurrentStreak(0);
-    setAnswers(a => [...a, {
-      id: currentQuestion?.id,
-      hindi: currentQuestion?.hindi,
-      english: currentQuestion?.english,
-      userAnswer: '',
-      correct: false,
-    }]);
-  };
+      if (pct >= 70) {
+        confetti({ particleCount: pct === 100 ? 200 : 80, spread: 70, origin: { y: 0.5 } });
+      }
+      setSessionState(STATES.SUMMARY);
+    }
+  }, [qIndex, totalQ, results, soundEnabled]);
 
-  // ── Session done screen ──────────────────────────────────
-  if (sessionDone) {
+  // ── Keyboard shortcuts ────────────────────────────────────
+  useEffect(() => {
+    const onKey = (e) => {
+      if (sessionState !== STATES.ACTIVE) return;
+      if (e.key === 'Enter') {
+        if (isTest) {
+          handleSubmit();
+        } else {
+          if (!submitted) handleSubmit();
+          else handleNext();
+        }
+      }
+    };
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [sessionState, submitted, handleSubmit, handleNext, isTest]);
+
+  // ─────────────────────────────────────────────────────────
+  // RENDER: READY
+  // ─────────────────────────────────────────────────────────
+  if (sessionState === STATES.READY) {
     return (
-      <SessionSummary
-        session={{ correct, wrong, skipped, xpEarned, coinsEarned, streak: bestStreak, answers }}
-        questions={sessionQuestions}
-        onRestart={initSession}
-        backHref={backHref}
+      <ReadyScreen
+        title={title}
+        totalQ={Math.min(questionsPerSession, questions.length)}
+        onStart={startSession}
+        isTest={isTest}
       />
     );
   }
 
-  if (!currentQuestion) {
+  // ─────────────────────────────────────────────────────────
+  // RENDER: SUMMARY
+  // ─────────────────────────────────────────────────────────
+  if (sessionState === STATES.SUMMARY) {
     return (
-      <div className="text-center py-20">
-        <div className="text-4xl mb-3">📚</div>
-        <p className="text-slate-400">Loading questions...</p>
-      </div>
+      <SummaryScreen
+        results={results}
+        elapsedSeconds={elapsedSeconds}
+        onRetry={startSession}
+        backHref={backHref}
+        isTest={isTest}
+        totalQ={totalQ}
+      />
     );
   }
 
-  // Accuracy so far
-  const attempted  = correct + wrong;
-  const accuracy   = attempted > 0 ? Math.round((correct / attempted) * 100) : 0;
-
+  // ─────────────────────────────────────────────────────────
+  // RENDER: ACTIVE QUIZ
+  // ─────────────────────────────────────────────────────────
   return (
-    <div className="space-y-5 max-w-2xl mx-auto">
-
-      {/* ── Quiz Header ──────────────────────────────────── */}
-      <div className="flex items-center justify-between gap-4">
-        <div>
-          <h1 className="text-xl font-black text-white flex items-center gap-2">
-            <Target size={20} className="text-primary-400" /> {title}
-          </h1>
-          <p className="text-xs text-slate-500">
-            Question {currentIdx + 1} of {sessionQuestions.length}
-          </p>
-        </div>
+    <div className="space-y-4">
+      {/* ── Header bar ────────────────────────────────────── */}
+      <div className="flex items-center justify-between text-sm">
         <div className="flex items-center gap-3">
-          {/* Sound toggle */}
-          <button
-            onClick={() => setSoundOn(v => !v)}
-            className="w-9 h-9 rounded-xl bg-white/5 border border-white/8 flex items-center justify-center hover:bg-white/10 transition-all"
-            title={soundOn ? 'Mute sounds' : 'Enable sounds'}
-          >
-            {soundOn
-              ? <Volume2 size={15} className="text-slate-400" />
-              : <VolumeX size={15} className="text-slate-600" />
-            }
-          </button>
-          {/* Live stats */}
-          <div className="hidden sm:flex items-center gap-1 text-xs bg-white/5 border border-white/8 rounded-xl px-3 py-2">
-            <span className="text-accent-400 font-bold">{correct}</span>
-            <span className="text-slate-600">✅</span>
-            <span className="mx-1 text-slate-700">|</span>
-            <span className="text-danger-400 font-bold">{wrong}</span>
-            <span className="text-slate-600">❌</span>
-            <span className="mx-1 text-slate-700">|</span>
-            <span className="text-orange-400 font-bold">{currentStreak}🔥</span>
-          </div>
+          {/* Practice-only feedback count */}
+          {!isTest && (
+            <>
+              <div className="flex items-center gap-1.5 text-emerald-400 font-semibold">
+                <CheckCircle2 size={15} />
+                {correctCount}
+              </div>
+              <div className="flex items-center gap-1.5 text-rose-400 font-semibold">
+                <XCircle size={15} />
+                {results.filter((r) => !r.isCorrect).length}
+              </div>
+            </>
+          )}
+          {isTest && (
+            <span className="text-xs font-bold text-rose-400 bg-rose-500/10 border border-rose-500/20 px-2 py-0.5 rounded-lg">
+              TEST MODE
+            </span>
+          )}
+        </div>
+        {/* Timer */}
+        <div className="flex items-center gap-1.5 text-slate-500 font-mono text-xs">
+          <Clock size={13} />
+          {formatTime(elapsedSeconds)}
         </div>
       </div>
 
-      {/* ── Progress Bar ─────────────────────────────────── */}
-      <div className="space-y-1">
-        <div className="flex justify-between text-xs text-slate-500">
-          <span>Progress</span>
-          <span>{accuracy}% accuracy</span>
+      {/* ── Progress bar ──────────────────────────────────── */}
+      <div>
+        <div className="flex justify-between text-xs text-slate-500 mb-1">
+          <span>Question {qIndex + 1} of {totalQ}</span>
+          <span>{progress}%</span>
         </div>
         <div className="h-2 rounded-full bg-white/8 overflow-hidden">
-          <div
-            className="h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500 transition-all duration-500"
-            style={{ width: `${progress}%` }}
+          <motion.div
+            className="h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500"
+            animate={{ width: `${progress}%` }}
+            transition={{ duration: 0.4 }}
           />
         </div>
       </div>
 
-      {/* ── Question Card ─────────────────────────────────── */}
-      <div className={`card p-6 border-2 transition-all duration-300 ${
-        feedback === 'correct'  ? 'border-accent-500/60 bg-accent-500/8' :
-        feedback === 'wrong'    ? 'border-danger-400/60 bg-danger-400/8' :
-        feedback === 'revealed' ? 'border-amber-500/40 bg-amber-500/5'   :
-        'border-white/8 hover:border-white/12'
-      }`}>
-        {/* Question type badge */}
-        <div className="flex items-center justify-between mb-4">
-          <span className="badge-primary text-xs capitalize">{currentQuestion.type || 'translation'}</span>
-          <span className="text-xs text-slate-500">#{currentIdx + 1}</span>
-        </div>
-
-        {/* Instructions */}
-        <p className="text-xs text-slate-500 mb-2">
-          🇮🇳 Hindi mein padho — English mein likhkar answer karo:
-        </p>
-
-        {/* Hindi Question — Large and prominent */}
-        <div className="p-5 rounded-2xl bg-white/4 border border-white/8 mb-5">
-          <p className="hindi-text text-xl sm:text-2xl text-white font-semibold leading-relaxed text-center">
-            {currentQuestion.hindi}
-          </p>
-        </div>
-
-        {/* Answer Input */}
-        {feedback === null && (
-          <div className="space-y-3">
-            <input
-              ref={inputRef}
-              type="text"
-              value={userAnswer}
-              onChange={e => setUserAnswer(e.target.value)}
-              onKeyDown={handleKeyDown}
-              placeholder="Type the English translation here..."
-              className="input w-full text-base py-3.5 px-4 placeholder:text-slate-600"
-              autoComplete="off"
-              spellCheck="false"
-            />
-            <div className="flex gap-2">
-              <button
-                onClick={submitAnswer}
-                disabled={!userAnswer.trim()}
-                className="btn-primary flex-1 flex items-center justify-center gap-2 disabled:opacity-40 disabled:cursor-not-allowed"
-              >
-                <CheckCircle2 size={16} /> Check Answer
-              </button>
-              <button
-                onClick={handleReveal}
-                className="btn-secondary flex items-center gap-2 px-4"
-                title="Show answer"
-              >
-                <Eye size={16} />
-                <span className="hidden sm:inline">Reveal</span>
-              </button>
-              <button
-                onClick={handleSkip}
-                className="btn-secondary flex items-center gap-2 px-4"
-                title="Skip"
-              >
-                <SkipForward size={16} />
-                <span className="hidden sm:inline">Skip</span>
-              </button>
-            </div>
-          </div>
-        )}
-
-        {/* Feedback — Correct */}
-        {feedback === 'correct' && (
-          <div className="space-y-3">
-            <div className="flex items-center gap-3 p-4 rounded-xl bg-accent-500/15 border border-accent-500/30">
-              <CheckCircle2 size={24} className="text-accent-400 shrink-0" />
-              <div className="flex-1">
-                <p className="font-bold text-accent-300">Sahi Jawab! ✅</p>
-                <p className="text-sm text-slate-300 mt-0.5">
-                  <span className="text-white font-semibold">{currentQuestion.english}</span>
-                </p>
-              </div>
-              <div className="text-right shrink-0">
-                <p className="text-xs text-violet-300 font-bold">+{10 + Math.min((currentStreak) * 2, 10)} XP</p>
-                {currentStreak >= 3 && (
-                  <p className="text-xs text-orange-400">🔥 Streak x{currentStreak}!</p>
-                )}
-              </div>
-            </div>
-            {/* Your answer */}
-            <p className="text-xs text-slate-500">
-              Your answer: <span className="text-accent-300">{userAnswer}</span>
-            </p>
-            <button onClick={advanceQuestion} className="btn-primary w-full flex items-center justify-center gap-2">
-              Next Question <ArrowRight size={16} />
-            </button>
-          </div>
-        )}
-
-        {/* Feedback — Wrong */}
-        {feedback === 'wrong' && (
-          <div className="space-y-3">
-            <div className="flex items-start gap-3 p-4 rounded-xl bg-danger-400/10 border border-danger-400/30">
-              <XCircle size={24} className="text-danger-400 shrink-0 mt-0.5" />
-              <div className="flex-1">
-                <p className="font-bold text-danger-300">Galat Jawab ❌</p>
-                <p className="text-xs text-slate-400 mt-1">Your answer:</p>
-                <p className="text-sm text-danger-300 line-through">{userAnswer || '(empty)'}</p>
-                <p className="text-xs text-slate-400 mt-2">Correct answer:</p>
-                <p className="text-sm text-white font-semibold">{currentQuestion.english}</p>
-                {currentQuestion.alternatives && currentQuestion.alternatives.length > 1 && (
-                  <p className="text-xs text-slate-500 mt-1">
-                    Also accepted: {currentQuestion.alternatives.join(' / ')}
-                  </p>
-                )}
-              </div>
-            </div>
-            <HintBadge hint={currentQuestion.hint} />
-            <button onClick={advanceQuestion} className="btn-primary w-full flex items-center justify-center gap-2">
-              Next Question <ArrowRight size={16} />
-            </button>
-          </div>
-        )}
-
-        {/* Feedback — Revealed */}
-        {feedback === 'revealed' && (
-          <div className="space-y-3">
-            <div className="flex items-center gap-3 p-4 rounded-xl bg-amber-500/10 border border-amber-500/30">
-              <Eye size={24} className="text-amber-400 shrink-0" />
-              <div>
-                <p className="font-bold text-amber-300">Answer Revealed 👁️</p>
-                <p className="text-sm text-white font-semibold mt-1">{currentQuestion.english}</p>
-              </div>
-            </div>
-            <HintBadge hint={currentQuestion.hint} />
-            <button onClick={advanceQuestion} className="btn-primary w-full flex items-center justify-center gap-2">
-              Next Question <ArrowRight size={16} />
-            </button>
-          </div>
-        )}
-      </div>
-
-      {/* ── Mini Stats Bar ─────────────────────────────────── */}
-      <div className="card p-4 flex items-center justify-between text-sm">
-        <div className="flex items-center gap-4">
-          <div className="flex items-center gap-1.5">
-            <div className="w-2.5 h-2.5 rounded-full bg-accent-500" />
-            <span className="text-slate-400">{correct} correct</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <div className="w-2.5 h-2.5 rounded-full bg-danger-400" />
-            <span className="text-slate-400">{wrong} wrong</span>
-          </div>
-          <div className="flex items-center gap-1.5">
-            <div className="w-2.5 h-2.5 rounded-full bg-slate-600" />
-            <span className="text-slate-400">{skipped} skipped</span>
-          </div>
-        </div>
-        <div className="flex items-center gap-1.5 text-violet-300 font-bold">
-          <Zap size={14} /> +{xpEarned} XP
-        </div>
-      </div>
-
-      {/* ── Hint ─────────────────────────────────────────── */}
-      {feedback === null && currentQuestion.hint && (
-        <HintBadge hint={currentQuestion.hint} />
-      )}
+      {/* ── Question card ─────────────────────────────────── */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={qIndex}
+          variants={slideIn}
+          initial="hidden"
+          animate="visible"
+          exit={{ opacity: 0, x: -30, transition: { duration: 0.2 } }}
+        >
+          <QuestionCard
+            q={currentQ}
+            userAnswer={userAnswer}
+            setUserAnswer={setUserAnswer}
+            submitted={submitted}
+            correct={correct}
+            showAnswer={showAnswer}
+            setShowAnswer={setShowAnswer}
+            showHint={showHint}
+            setShowHint={setShowHint}
+            inputRef={inputRef}
+            onSubmit={handleSubmit}
+            onNext={handleNext}
+            shakeTrigger={shakeTrigger}
+            isTest={isTest}
+          />
+        </motion.div>
+      </AnimatePresence>
     </div>
+  );
+}
+
+// ============================================================
+// READY SCREEN
+// ============================================================
+function ReadyScreen({ title, totalQ, onStart, isTest }) {
+  return (
+    <motion.div
+      variants={{ hidden: { opacity: 0, scale: 0.96 }, visible: { opacity: 1, scale: 1, transition: { duration: 0.4 } } }}
+      initial="hidden"
+      animate="visible"
+      className="card p-8 text-center"
+    >
+      <div className="w-20 h-20 rounded-3xl bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center text-4xl mx-auto mb-5">
+        {isTest ? '📝' : '🎯'}
+      </div>
+      <h2 className="text-2xl font-black text-white mb-2">{title}</h2>
+      <p className="text-slate-400 mb-1">
+        {isTest 
+          ? 'Timed Test: Complete all questions under the timer. No hints/reveals allowed!'
+          : 'Hindi sentences padhkar unka English translation type karo'
+        }
+      </p>
+      <p className="text-slate-500 text-sm mb-6">
+        {totalQ} questions • {isTest ? '30 seconds per question limit' : 'Case-insensitive • Instant feedback'}
+      </p>
+
+      <div className="grid grid-cols-3 gap-3 mb-8 text-sm">
+        {isTest ? (
+          <>
+            <div className="p-3 rounded-xl bg-white/5 border border-white/8">
+              <div className="text-2xl mb-1">⏱️</div>
+              <p className="text-slate-400 text-xs">Timed Test</p>
+            </div>
+            <div className="p-3 rounded-xl bg-white/5 border border-white/8">
+              <div className="text-2xl mb-1">🔒</div>
+              <p className="text-slate-400 text-xs">No Hints</p>
+            </div>
+            <div className="p-3 rounded-xl bg-white/5 border border-white/8">
+              <div className="text-2xl mb-1">🏆</div>
+              <p className="text-slate-400 text-xs">Earn Bonus XP</p>
+            </div>
+          </>
+        ) : (
+          <>
+            <div className="p-3 rounded-xl bg-white/5 border border-white/8">
+              <div className="text-2xl mb-1">✍️</div>
+              <p className="text-slate-400 text-xs">Type answer</p>
+            </div>
+            <div className="p-3 rounded-xl bg-white/5 border border-white/8">
+              <div className="text-2xl mb-1">🔊</div>
+              <p className="text-slate-400 text-xs">Hear feedback</p>
+            </div>
+            <div className="p-3 rounded-xl bg-white/5 border border-white/8">
+              <div className="text-2xl mb-1">⚡</div>
+              <p className="text-slate-400 text-xs">Earn XP</p>
+            </div>
+          </>
+        )}
+      </div>
+
+      <motion.button
+        whileHover={{ scale: 1.03, y: -2 }}
+        whileTap={{ scale: 0.97 }}
+        onClick={onStart}
+        className="btn-gradient w-full py-4 text-lg font-bold rounded-2xl flex items-center justify-center gap-2"
+      >
+        <Play size={20} fill="currentColor" />
+        {isTest ? 'Start Test' : 'Start Practice'}
+      </motion.button>
+
+      <p className="text-xs text-slate-600 mt-4">
+        Press <kbd className="px-1.5 py-0.5 rounded bg-white/5 border border-white/10 font-mono">Enter</kbd> to submit answer
+      </p>
+    </motion.div>
+  );
+}
+
+// ============================================================
+// QUESTION CARD
+// ============================================================
+function QuestionCard({
+  q, userAnswer, setUserAnswer, submitted, correct,
+  showAnswer, setShowAnswer, showHint, setShowHint,
+  inputRef, onSubmit, onNext, shakeTrigger, isTest
+}) {
+  const [shakeClass, setShakeClass] = useState('');
+  useEffect(() => {
+    if (shakeTrigger > 0) {
+      setShakeClass('shake');
+      const t = setTimeout(() => setShakeClass(''), 500);
+      return () => clearTimeout(t);
+    }
+  }, [shakeTrigger]);
+
+  return (
+    <div className={`card p-6 space-y-5 ${shakeClass}`}>
+      {/* Question type badge */}
+      <div className="flex items-center justify-between">
+        <span className="badge-primary text-xs capitalize">{q?.type || 'translation'}</span>
+        {!isTest && q?.hint && (
+          <button
+            onClick={() => setShowHint((v) => !v)}
+            className="flex items-center gap-1.5 text-xs text-amber-400 hover:text-amber-300 transition-colors"
+          >
+            <Lightbulb size={13} />
+            {showHint ? 'Hide hint' : 'Hint'}
+          </button>
+        )}
+      </div>
+
+      {/* Hint (Practice only) */}
+      <AnimatePresence>
+        {!isTest && showHint && q?.hint && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            className="p-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-sm text-amber-300"
+          >
+            💡 {q.hint}
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Hindi sentence */}
+      <div className="p-5 rounded-2xl bg-gradient-to-br from-amber-500/10 to-orange-500/5 border border-amber-500/20">
+        <p className="text-xs text-amber-400 font-semibold mb-2 uppercase tracking-wide">🇮🇳 Translate to English:</p>
+        <p className="text-2xl font-bold text-amber-100 leading-snug">{q?.hindi}</p>
+      </div>
+
+      {/* Input */}
+      <div>
+        <label className="text-xs font-semibold text-slate-400 mb-2 block">
+          Your Answer:
+        </label>
+        <input
+          ref={inputRef}
+          type="text"
+          value={userAnswer}
+          onChange={(e) => !(submitted && !isTest) && setUserAnswer(e.target.value)}
+          disabled={submitted && !isTest}
+          placeholder="Type the English sentence here…"
+          className={`input w-full text-base ${
+            !isTest && submitted
+              ? correct
+                ? 'border-emerald-500/60 bg-emerald-500/10 text-emerald-100'
+                : 'border-rose-500/60 bg-rose-500/10 text-rose-200'
+              : ''
+          }`}
+        />
+      </div>
+
+      {/* Result section (Practice mode after submit) */}
+      <AnimatePresence>
+        {!isTest && submitted && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            className={`rounded-2xl p-4 border ${
+              correct
+                ? 'bg-emerald-500/10 border-emerald-500/25'
+                : 'bg-rose-500/10 border-rose-500/25'
+            }`}
+          >
+            <div className="flex items-start gap-3">
+              {correct
+                ? <CheckCircle2 size={22} className="text-emerald-400 shrink-0 mt-0.5" />
+                : <XCircle     size={22} className="text-rose-400 shrink-0 mt-0.5" />
+              }
+              <div className="flex-1">
+                <p className={`font-bold ${correct ? 'text-emerald-300' : 'text-rose-300'}`}>
+                  {correct ? '🎉 Perfect! +10 XP' : '❌ Not quite right'}
+                </p>
+                {!correct && (
+                  <div className="mt-3 space-y-1">
+                    <button
+                      onClick={() => setShowAnswer((v) => !v)}
+                      className="flex items-center gap-1.5 text-xs font-semibold text-primary-400 hover:text-primary-300"
+                    >
+                      {showAnswer ? <EyeOff size={13} /> : <Eye size={13} />}
+                      {showAnswer ? 'Hide answer' : 'Show correct answer'}
+                    </button>
+                    <AnimatePresence>
+                      {showAnswer && (
+                        <motion.div
+                          initial={{ opacity: 0, y: -8 }}
+                          animate={{ opacity: 1, y: 0 }}
+                          exit={{ opacity: 0 }}
+                          className="mt-2 p-3 rounded-xl bg-white/5 border border-white/10"
+                        >
+                          <p className="text-xs text-slate-400 mb-1">Correct answer:</p>
+                          <p className="text-base font-semibold text-emerald-300">{q?.english}</p>
+                          {q?.alternatives?.length > 0 && (
+                            <div className="mt-2">
+                              <p className="text-[10px] text-slate-500 mb-1">Also accepted:</p>
+                              {q.alternatives.map((a, i) => (
+                                <p key={i} className="text-xs text-slate-400">• {a}</p>
+                              ))}
+                            </div>
+                          )}
+                        </motion.div>
+                      )}
+                    </AnimatePresence>
+                  </div>
+                )}
+              </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* Action buttons */}
+      <div className="flex gap-3">
+        {isTest ? (
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.97 }}
+            onClick={onSubmit}
+            disabled={!userAnswer.trim()}
+            className="btn-gradient flex-1 py-3 text-base font-semibold"
+          >
+            Submit & Next
+          </motion.button>
+        ) : !submitted ? (
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.97 }}
+            onClick={onSubmit}
+            disabled={!userAnswer.trim()}
+            className="btn-primary flex-1 py-3 text-base font-semibold disabled:opacity-40 disabled:cursor-not-allowed"
+          >
+            Check Answer
+          </motion.button>
+        ) : (
+          <motion.button
+            whileHover={{ scale: 1.02 }}
+            whileTap={{ scale: 0.97 }}
+            onClick={onNext}
+            className="btn-gradient flex-1 py-3 text-base font-semibold flex items-center justify-center gap-2"
+          >
+            {correct ? 'Continue' : 'Next Question'}
+            <ArrowRight size={17} />
+          </motion.button>
+        )}
+      </div>
+
+      <p className="text-center text-xs text-slate-600">
+        Press <kbd className="px-1.5 py-0.5 rounded bg-white/5 border border-white/10 font-mono text-[10px]">Enter</kbd> to {isTest ? 'submit' : (submitted ? 'continue' : 'submit')}
+      </p>
+    </div>
+  );
+}
+
+// ============================================================
+// SUMMARY SCREEN
+// ============================================================
+function SummaryScreen({ results, elapsedSeconds, onRetry, backHref, isTest, totalQ }) {
+  const total     = results.length;
+  const correct   = results.filter((r) => r.isCorrect).length;
+  const wrong     = total - correct;
+  const accuracy  = total > 0 ? Math.round((correct / total) * 100) : 0;
+  const avgTime   = total > 0
+    ? Math.round((isTest ? (totalQ * 30 - elapsedSeconds) : elapsedSeconds) / total)
+    : 0;
+  const wrongItems = results.filter((r) => !r.isCorrect);
+  const [showWrong, setShowWrong] = useState(false);
+
+  const pass       = accuracy >= 70;
+  const perfEmoji  = isTest 
+    ? (pass ? '🏆' : '😢')
+    : (accuracy === 100 ? '🏆' : accuracy >= 80 ? '⭐' : accuracy >= 60 ? '👍' : '💪');
+
+  const perfMsg    = isTest
+    ? (pass ? 'Congratulations! You passed the test!' : 'You did not pass the test. Try reviewing your mistakes and try again.')
+    : (accuracy === 100 ? 'Perfect Score! Outstanding!' :
+       accuracy >= 80   ? 'Great job! Keep it up!'      :
+       accuracy >= 60   ? 'Good effort! Practice more!' :
+                          'Keep going — you\'ll improve!');
+
+  const getGrade = (pct) => {
+    if (pct === 100) return { label: 'A+', color: 'text-amber-400 border-amber-400/30 bg-amber-500/5' };
+    if (pct >= 90) return { label: 'A', color: 'text-emerald-400 border-emerald-400/30 bg-emerald-500/5' };
+    if (pct >= 80) return { label: 'B', color: 'text-sky-400 border-sky-400/30 bg-sky-500/5' };
+    if (pct >= 70) return { label: 'C', color: 'text-violet-400 border-violet-400/30 bg-violet-500/5' };
+    if (pct >= 60) return { label: 'D', color: 'text-orange-400 border-orange-400/30 bg-orange-500/5' };
+    return { label: 'F', color: 'text-rose-400 border-rose-400/30 bg-rose-500/5' };
+  };
+
+  const grade = getGrade(accuracy);
+
+  return (
+    <motion.div
+      initial={{ opacity: 0, scale: 0.95 }}
+      animate={{ opacity: 1, scale: 1 }}
+      className="space-y-5"
+    >
+      {/* Hero */}
+      <div className="card p-8 text-center flex flex-col items-center">
+        <motion.div
+          initial={{ scale: 0 }}
+          animate={{ scale: 1 }}
+          transition={{ type: 'spring', stiffness: 200, delay: 0.15 }}
+          className="text-6xl mb-3"
+        >
+          {perfEmoji}
+        </motion.div>
+        <h2 className="text-3xl font-black text-white mb-1">
+          {isTest ? 'Test Complete!' : 'Session Complete!'}
+        </h2>
+        <p className="text-slate-400 max-w-md">{perfMsg}</p>
+
+        {isTest && (
+          <div className="flex justify-center mt-5">
+            <div className={`px-6 py-3 rounded-2xl border ${grade.color} flex items-center gap-3 shadow-lg`}>
+              <span className="text-xs font-bold uppercase tracking-wider text-slate-400">Grade:</span>
+              <span className="text-3xl font-black">{grade.label}</span>
+            </div>
+          </div>
+        )}
+      </div>
+
+      {/* Stats grid */}
+      <div className="grid grid-cols-2 gap-3">
+        {[
+          { icon: CheckCircle2, label: 'Correct',  value: correct, color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
+          { icon: XCircle,      label: 'Wrong',    value: wrong,   color: 'text-rose-400',    bg: 'bg-rose-500/10'    },
+          { icon: Target,       label: 'Accuracy', value: `${accuracy}%`, color: 'text-primary-400', bg: 'bg-primary-500/10' },
+          { icon: Clock,        label: 'Avg Time', value: `${avgTime}s`, color: 'text-amber-400', bg: 'bg-amber-500/10'   },
+        ].map(({ icon: Icon, label, value, color, bg }) => (
+          <motion.div
+            key={label}
+            initial={{ opacity: 0, y: 12 }}
+            animate={{ opacity: 1, y: 0 }}
+            className={`card p-4 flex items-center gap-3 ${bg}`}
+          >
+            <Icon size={22} className={color} />
+            <div>
+              <p className={`text-2xl font-black ${color}`}>{value}</p>
+              <p className="text-xs text-slate-500">{label}</p>
+            </div>
+          </motion.div>
+        ))}
+      </div>
+
+      {/* Wrong answers review */}
+      {wrongItems.length > 0 && (
+        <div className="card overflow-hidden">
+          <button
+            onClick={() => setShowWrong((v) => !v)}
+            className="w-full flex items-center justify-between p-4 hover:bg-white/3 transition-colors"
+          >
+            <div className="flex items-center gap-2 font-semibold text-white text-sm">
+              <XCircle size={15} className="text-rose-400" />
+              Review {wrongItems.length} wrong answer{wrongItems.length !== 1 ? 's' : ''}
+            </div>
+            <ChevronDown size={15} className={`text-slate-500 transition-transform ${showWrong ? 'rotate-180' : ''}`} />
+          </button>
+          <AnimatePresence>
+            {showWrong && (
+              <motion.div
+                initial={{ height: 0 }}
+                animate={{ height: 'auto' }}
+                exit={{ height: 0 }}
+                className="overflow-hidden"
+              >
+                <div className="px-4 pb-4 space-y-3 max-h-72 overflow-y-auto">
+                  {wrongItems.map(({ q, userAnswer }, i) => (
+                    <div key={i} className="p-3 rounded-xl bg-white/3 border border-white/6 space-y-1.5">
+                      <p className="text-sm text-amber-200 font-medium">{q.hindi}</p>
+                      <div className="flex items-start gap-2 text-xs">
+                        <span className="text-rose-400 font-semibold shrink-0 w-14">You wrote:</span>
+                        <span className="text-rose-300">{userAnswer || '(blank)'}</span>
+                      </div>
+                      <div className="flex items-start gap-2 text-xs">
+                        <span className="text-emerald-400 font-semibold shrink-0 w-14">Correct:</span>
+                        <span className="text-emerald-300">{q.english}</span>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </motion.div>
+            )}
+          </AnimatePresence>
+        </div>
+      )}
+
+      {/* CTA buttons */}
+      <div className="grid grid-cols-2 gap-3">
+        <motion.button
+          whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+          onClick={onRetry}
+          className="btn-secondary py-3.5 font-semibold flex items-center justify-center gap-2"
+        >
+          <RotateCcw size={16} /> Try Again
+        </motion.button>
+        <motion.button
+          whileHover={{ scale: 1.02 }} whileTap={{ scale: 0.97 }}
+          onClick={() => window.history.back()}
+          className="btn-gradient py-3.5 font-semibold flex items-center justify-center gap-2"
+        >
+          <Sparkles size={16} /> Continue
+        </motion.button>
+      </div>
+    </motion.div>
   );
 }

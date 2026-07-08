@@ -1,443 +1,183 @@
 'use client';
 // ============================================================
-// CERTIFICATES PAGE — Course completion certificates
-// Features: earned certificates, in-progress milestones,
-// printable/shareable certificate previews, download, share
+// CERTIFICATES PAGE — Course certificates with download
 // ============================================================
 
-import { useState } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
-import Link from 'next/link';
-import {
-  Award, Download, Share2, Eye, Lock, CheckCircle2,
-  Star, Trophy, Zap, Target, Calendar, ArrowRight,
-  X, GraduationCap, Shield, Medal,
-} from 'lucide-react';
-import { useGamificationStore } from '@/store/useGamificationStore';
+import { motion } from 'framer-motion';
+import { GraduationCap, Download, Star, Trophy, Lock, CheckCircle2 } from 'lucide-react';
+import useUserStore from '@/store/userStore';
 
-const fadeUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } };
-const stagger = { hidden: {}, visible: { transition: { staggerChildren: 0.07 } } };
-
-const CERT_COLORS = {
-  gold:     { from: '#f59e0b', to: '#d97706', badge: 'text-amber-400 bg-amber-500/15 border-amber-500/30', ring: 'ring-amber-400/40' },
-  platinum: { from: '#94a3b8', to: '#64748b', badge: 'text-slate-300 bg-slate-500/15 border-slate-500/30', ring: 'ring-slate-400/40' },
-  blue:     { from: '#6366f1', to: '#4f46e5', badge: 'text-indigo-400 bg-indigo-500/15 border-indigo-500/30', ring: 'ring-indigo-400/40' },
-  green:    { from: '#10b981', to: '#059669', badge: 'text-emerald-400 bg-emerald-500/15 border-emerald-500/30', ring: 'ring-emerald-400/40' },
-  purple:   { from: '#8b5cf6', to: '#7c3aed', badge: 'text-violet-400 bg-violet-500/15 border-violet-500/30', ring: 'ring-violet-400/40' },
-};
-
-const ALL_CERTS = [
+const CERTIFICATES = [
   {
-    id: 'beginner-complete',
-    title: '75 Days Hard English',
-    subtitle: 'Complete Course Certificate',
-    desc: 'Awarded upon completing all 75 days of the challenge.',
-    tier: 'gold',
-    icon: '🏆',
-    requirement: 75,
-    requirementLabel: 'Complete all 75 days',
-    category: 'Challenge',
-    issuer: '75 Days Hard English',
-    earned: false,
-    progress: 0,
-    earnedDate: null,
-    skills: ['Grammar Mastery', 'Vocabulary B2', 'Speaking Fluency', 'Writing Skills', 'Pronunciation'],
+    id: 'week1',
+    title: 'Week 1 Completion',
+    subtitle: 'Basics, Be Verb, Has/Have, There is/are',
+    emoji: '🎓',
+    requirement: 10,
+    color: 'from-emerald-500 to-teal-500',
+    bgColor: 'bg-emerald-500/5',
+    borderColor: 'border-emerald-500/25',
+    badge: '🏅',
   },
   {
-    id: 'days-7',
-    title: 'Week 1 Warrior',
-    subtitle: '7-Day Streak Certificate',
-    desc: 'Awarded for completing the first 7 days of the challenge.',
-    tier: 'green',
-    icon: '🌱',
-    requirement: 7,
-    requirementLabel: 'Complete Days 1–7',
-    category: 'Milestone',
-    issuer: '75 Days Hard English',
-    earned: false,
-    progress: 0,
-    earnedDate: null,
-    skills: ['Basic Grammar', 'Foundational Vocabulary', 'Daily Consistency'],
+    id: 'week2',
+    title: 'Week 2 — Modals',
+    subtitle: 'Want, Let, Can, Should, May, Must',
+    emoji: '🏆',
+    requirement: 20,
+    color: 'from-sky-500 to-blue-500',
+    bgColor: 'bg-sky-500/5',
+    borderColor: 'border-sky-500/25',
+    badge: '🏅',
   },
   {
-    id: 'days-15',
-    title: 'Two-Week Champion',
-    subtitle: '15-Day Streak Certificate',
-    desc: 'Awarded for completing 15 consecutive days of learning.',
-    tier: 'blue',
-    icon: '⚡',
-    requirement: 15,
-    requirementLabel: 'Complete Days 1–15',
-    category: 'Milestone',
-    issuer: '75 Days Hard English',
-    earned: false,
-    progress: 0,
-    earnedDate: null,
-    skills: ['Present & Past Tenses', 'Intermediate Vocabulary', 'Sentence Structure'],
-  },
-  {
-    id: 'days-30',
-    title: 'Monthly Master',
-    subtitle: '30-Day Dedication Certificate',
-    desc: 'Awarded for 30 days of consistent English practice.',
-    tier: 'blue',
-    icon: '🎯',
+    id: 'week5',
+    title: 'Week 5 — Advanced Modals',
+    subtitle: 'Should have, Must have, Could have, Would have',
+    emoji: '⭐',
     requirement: 30,
-    requirementLabel: 'Complete Days 1–30',
-    category: 'Milestone',
-    issuer: '75 Days Hard English',
-    earned: false,
-    progress: 0,
-    earnedDate: null,
-    skills: ['All Tenses', 'Modal Verbs', 'Spoken English A2–B1'],
+    color: 'from-violet-500 to-purple-500',
+    bgColor: 'bg-violet-500/5',
+    borderColor: 'border-violet-500/25',
+    badge: '🎖️',
   },
   {
-    id: 'days-50',
-    title: 'Halfway Hero',
-    subtitle: '50-Day Excellence Certificate',
-    desc: 'You made it past the halfway mark — a true dedication to English.',
-    tier: 'purple',
-    icon: '🚀',
-    requirement: 50,
-    requirementLabel: 'Complete Days 1–50',
-    category: 'Milestone',
-    issuer: '75 Days Hard English',
-    earned: false,
-    progress: 0,
-    earnedDate: null,
-    skills: ['Advanced Grammar', 'Professional Vocabulary', 'Writing B1–B2'],
+    id: 'tenses',
+    title: 'Tenses Master',
+    subtitle: 'All 12 tenses with correct usage',
+    emoji: '⏰',
+    requirement: 40,
+    color: 'from-amber-500 to-orange-500',
+    bgColor: 'bg-amber-500/5',
+    borderColor: 'border-amber-500/25',
+    badge: '🥇',
   },
   {
-    id: 'grammar-ace',
-    title: 'Grammar Ace',
-    subtitle: 'Grammar Proficiency Certificate',
-    desc: 'Awarded for scoring 90%+ on the Grammar Assessment.',
-    tier: 'purple',
-    icon: '📖',
-    requirement: 90,
-    requirementLabel: 'Score 90%+ in Grammar Assessment',
-    category: 'Assessment',
-    issuer: '75 Days Hard English',
-    earned: false,
-    progress: 0,
-    earnedDate: null,
-    skills: ['All 12 Tenses', 'Modal Verbs', 'Active & Passive Voice', 'Conditionals'],
-  },
-  {
-    id: 'vocab-master',
+    id: 'vocabulary',
     title: 'Vocabulary Master',
-    subtitle: 'Vocabulary Excellence Certificate',
-    desc: 'Awarded for mastering 500+ words in the Vocabulary Bank.',
-    tier: 'gold',
-    icon: '🔤',
-    requirement: 500,
-    requirementLabel: 'Master 500+ vocabulary words',
-    category: 'Vocabulary',
-    issuer: '75 Days Hard English',
-    earned: false,
-    progress: 0,
-    earnedDate: null,
-    skills: ['B2 Vocabulary Range', 'Word Forms', 'Contextual Usage', 'Idiomatic English'],
+    subtitle: '10,000+ words — beginner to advanced',
+    emoji: '📚',
+    requirement: 55,
+    color: 'from-pink-500 to-rose-500',
+    bgColor: 'bg-pink-500/5',
+    borderColor: 'border-pink-500/25',
+    badge: '💎',
   },
   {
-    id: 'streak-21',
-    title: '21-Day Habit',
-    subtitle: 'Consistency Achievement Certificate',
-    desc: 'Science says it takes 21 days to build a habit. You did it!',
-    tier: 'green',
-    icon: '🔥',
-    requirement: 21,
-    requirementLabel: '21-day learning streak',
-    category: 'Achievement',
-    issuer: '75 Days Hard English',
-    earned: false,
-    progress: 0,
-    earnedDate: null,
-    skills: ['Daily Discipline', 'Learning Consistency', 'Time Management'],
+    id: 'final',
+    title: '75 Days Graduate',
+    subtitle: 'Complete 75-Day Hard English Course',
+    emoji: '👑',
+    requirement: 75,
+    color: 'from-yellow-400 to-amber-500',
+    bgColor: 'bg-yellow-500/5',
+    borderColor: 'border-yellow-500/25',
+    badge: '🏆',
+    featured: true,
   },
 ];
 
-// ── Certificate Preview Modal ──────────────────────────────────
-function CertificateModal({ cert, onClose }) {
-  const color = CERT_COLORS[cert.tier];
-  return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }}
-      className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
-      <motion.div
-        initial={{ scale: 0.85, opacity: 0 }}
-        animate={{ scale: 1, opacity: 1 }}
-        exit={{ scale: 0.85, opacity: 0 }}
-        className="w-full max-w-2xl"
-      >
-        {/* Certificate Design */}
-        <div className={`relative rounded-3xl overflow-hidden bg-gradient-to-br from-slate-900 to-slate-800 border-2 ring-4 ${color.ring} mb-4`}
-          style={{ borderColor: color.from }}>
-          {/* Decorative border pattern */}
-          <div className="absolute inset-2 rounded-2xl border opacity-20" style={{ borderColor: color.from }} />
-          <div className="absolute inset-4 rounded-xl border opacity-10" style={{ borderColor: color.from }} />
-
-          {/* Header */}
-          <div className="relative text-center pt-10 pb-6 px-10">
-            <div className="flex justify-center mb-4">
-              <div className="w-20 h-20 rounded-full flex items-center justify-center text-4xl shadow-2xl"
-                style={{ background: `linear-gradient(135deg, ${color.from}, ${color.to})` }}>
-                {cert.icon}
-              </div>
-            </div>
-            <p className="text-xs uppercase tracking-[0.3em] mb-1" style={{ color: color.from }}>Certificate of Achievement</p>
-            <h2 className="text-3xl font-black text-white mb-1">{cert.title}</h2>
-            <p className="text-slate-400 text-sm">{cert.subtitle}</p>
-          </div>
-
-          {/* Body */}
-          <div className="text-center px-10 pb-6">
-            <p className="text-slate-400 text-sm mb-6">This certifies that</p>
-            <div className="inline-block px-10 py-2 rounded-xl border mb-4" style={{ borderColor: color.from + '60', background: color.from + '10' }}>
-              <p className="text-2xl font-black text-white">Your Name</p>
-            </div>
-            <p className="text-slate-400 text-sm max-w-md mx-auto mb-6">{cert.desc}</p>
-
-            {/* Skills */}
-            <div className="flex flex-wrap justify-center gap-2 mb-6">
-              {cert.skills.map(skill => (
-                <span key={skill} className="text-xs px-3 py-1 rounded-full border" style={{ borderColor: color.from + '50', color: color.from, background: color.from + '15' }}>
-                  {skill}
-                </span>
-              ))}
-            </div>
-
-            <div className="flex items-center justify-center gap-6 pt-4 border-t border-white/8">
-              <div className="text-center">
-                <p className="text-xs text-slate-600 mb-1">Date Issued</p>
-                <p className="text-sm font-bold text-white">{cert.earned ? cert.earnedDate : 'Not yet earned'}</p>
-              </div>
-              <div className="text-center">
-                <p className="text-xs text-slate-600 mb-1">Issued by</p>
-                <p className="text-sm font-bold text-white">{cert.issuer}</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Actions */}
-        <div className="flex items-center justify-between gap-3 flex-wrap">
-          <button onClick={onClose} className="text-sm text-slate-400 hover:text-white border border-white/10 px-4 py-2 rounded-xl transition-all flex items-center gap-2">
-            <X size={14} /> Close
-          </button>
-          {cert.earned ? (
-            <div className="flex gap-2">
-              <button className="btn-secondary text-sm flex items-center gap-2 px-5 py-2.5">
-                <Download size={14} /> Download PDF
-              </button>
-              <button className="btn-primary text-sm flex items-center gap-2 px-5 py-2.5">
-                <Share2 size={14} /> Share
-              </button>
-            </div>
-          ) : (
-            <p className="text-sm text-slate-500 italic">Complete the requirement to unlock this certificate.</p>
-          )}
-        </div>
-      </motion.div>
-    </motion.div>
-  );
-}
-
-// ── Certificate Card ──────────────────────────────────────────
-function CertCard({ cert, onPreview }) {
-  const color = CERT_COLORS[cert.tier];
-
-  return (
-    <motion.div
-      variants={fadeUp}
-      whileHover={cert.earned ? { y: -4 } : { scale: 1.01 }}
-      className={`relative rounded-2xl border overflow-hidden transition-all ${cert.earned ? `bg-gradient-to-br from-white/6 to-white/2 ring-1 ${color.ring}` : 'bg-white/2 border-white/6 opacity-80'}`}
-      style={{ borderColor: cert.earned ? color.from + '50' : undefined }}
-    >
-      {/* Tier ribbon */}
-      <div className="absolute top-4 right-4">
-        {cert.earned ? (
-          <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full border capitalize ${color.badge}`}>
-            {cert.tier}
-          </span>
-        ) : (
-          <Lock size={14} className="text-slate-600" />
-        )}
-      </div>
-
-      <div className="p-6">
-        {/* Icon */}
-        <div className={`w-14 h-14 rounded-2xl flex items-center justify-center text-2xl mb-4 shadow-lg ${cert.earned ? '' : 'grayscale opacity-50'}`}
-          style={cert.earned ? { background: `linear-gradient(135deg, ${color.from}, ${color.to})` } : { background: '#ffffff15' }}>
-          {cert.icon}
-        </div>
-
-        <h3 className={`font-bold mb-1 ${cert.earned ? 'text-white' : 'text-slate-500'}`}>{cert.title}</h3>
-        <p className="text-xs text-slate-500 mb-3">{cert.subtitle}</p>
-        <p className="text-xs text-slate-600 leading-relaxed mb-4">{cert.desc}</p>
-
-        {/* Progress or earned */}
-        {cert.earned ? (
-          <div className="flex items-center gap-2 text-xs text-emerald-400 mb-4">
-            <CheckCircle2 size={13} />
-            <span>Earned · {cert.earnedDate}</span>
-          </div>
-        ) : (
-          <div className="mb-4">
-            <div className="flex items-center justify-between text-xs mb-1.5">
-              <span className="text-slate-600">{cert.requirementLabel}</span>
-              <span className="text-slate-500">{cert.progress}%</span>
-            </div>
-            <div className="h-1.5 bg-white/8 rounded-full overflow-hidden">
-              <motion.div
-                initial={{ width: 0 }}
-                whileInView={{ width: `${cert.progress}%` }}
-                transition={{ duration: 0.8, ease: 'easeOut' }}
-                viewport={{ once: true }}
-                className="h-full rounded-full"
-                style={{ background: `linear-gradient(90deg, ${color.from}, ${color.to})` }}
-              />
-            </div>
-          </div>
-        )}
-
-        {/* CTA */}
-        <button
-          onClick={() => onPreview(cert)}
-          className={`w-full flex items-center justify-center gap-2 text-xs py-2.5 rounded-xl border transition-all ${cert.earned ? 'hover:bg-white/8 text-slate-300 border-white/10' : 'text-slate-600 border-white/6 hover:text-slate-400'}`}
-        >
-          <Eye size={12} />
-          {cert.earned ? 'View & Download' : 'Preview Certificate'}
-        </button>
-      </div>
-    </motion.div>
-  );
-}
-
-// ── Main Page ─────────────────────────────────────────────────
 export default function CertificatesPage() {
-  const { xp = 0, topicsCompleted = 0 } = useGamificationStore();
-  const [preview, setPreview]   = useState(null);
-  const [catFilter, setCatFilter] = useState('All');
+  const { totalTopicsCompleted } = useUserStore();
+  const daysCompleted = totalTopicsCompleted || 0;
 
-  const categories = ['All', ...Array.from(new Set(ALL_CERTS.map(c => c.category)))];
-  const filtered   = catFilter === 'All' ? ALL_CERTS : ALL_CERTS.filter(c => c.category === catFilter);
-  const earned     = ALL_CERTS.filter(c => c.earned);
+  const handleDownload = (cert) => {
+    // Create SVG certificate
+    const svgContent = `
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="560" viewBox="0 0 800 560">
+  <defs>
+    <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#312e81;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="800" height="560" fill="url(#grad)"/>
+  <rect x="20" y="20" width="760" height="520" rx="16" fill="none" stroke="#6366f1" stroke-width="2" opacity="0.4"/>
+  <text x="400" y="80" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#a5b4fc" font-weight="600" letter-spacing="3">75 DAYS HARD ENGLISH COURSE</text>
+  <text x="400" y="130" text-anchor="middle" font-family="Arial,sans-serif" font-size="40" fill="white" font-weight="900">${cert.emoji} Certificate</text>
+  <text x="400" y="180" text-anchor="middle" font-family="Arial,sans-serif" font-size="18" fill="#d1d5db">of Completion</text>
+  <text x="400" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#9ca3af">This certifies that</text>
+  <text x="400" y="290" text-anchor="middle" font-family="Arial,sans-serif" font-size="32" fill="#818cf8" font-weight="700">English Student</text>
+  <text x="400" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#9ca3af">has successfully completed</text>
+  <text x="400" y="385" text-anchor="middle" font-family="Arial,sans-serif" font-size="24" fill="white" font-weight="700">${cert.title}</text>
+  <text x="400" y="420" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" fill="#9ca3af">${cert.subtitle}</text>
+  <text x="400" y="480" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" fill="#6b7280">${new Date().toLocaleDateString('en-IN', { year: 'numeric', month: 'long', day: 'numeric' })}</text>
+  <text x="400" y="520" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" fill="#4b5563">75daysenglish.com</text>
+</svg>`;
+    const blob = new Blob([svgContent], { type: 'image/svg+xml' });
+    const url  = URL.createObjectURL(blob);
+    const a    = document.createElement('a');
+    a.href = url; a.download = `certificate-${cert.id}.svg`; a.click();
+    URL.revokeObjectURL(url);
+  };
 
   return (
-    <div className="min-h-screen pb-12">
-      {/* ── Header ──────────────────────────────────────── */}
-      <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
-        <div className="flex items-center gap-3 mb-2">
-          <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-yellow-400 to-amber-500 flex items-center justify-center shadow-lg shadow-amber-500/30">
-            <Award size={20} className="text-white" />
-          </div>
-          <div>
-            <h1 className="text-3xl md:text-4xl font-black text-white">Certificates</h1>
-            <p className="text-slate-400 text-sm">{earned.length} earned · {ALL_CERTS.length - earned.length} remaining</p>
-          </div>
-        </div>
+    <div className="space-y-6 pb-8">
+      <motion.div initial={{ opacity: 0, y: -16 }} animate={{ opacity: 1, y: 0 }}>
+        <h1 className="text-4xl font-black text-white mb-1">🎓 Certificates</h1>
+        <p className="text-slate-400">Complete milestones to earn downloadable certificates</p>
       </motion.div>
 
-      {/* ── Progress Card ────────────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.1 }}
-        className="card p-6 mb-8 border-amber-500/20 bg-amber-500/5"
-      >
-        <div className="flex items-center gap-5 flex-wrap">
-          <div className="flex items-center gap-4">
-            <div className="relative">
-              <div className="w-16 h-16 rounded-full bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-lg shadow-amber-500/30 text-2xl">
-                🏆
-              </div>
-              <div className="absolute -bottom-1 -right-1 w-5 h-5 rounded-full bg-slate-800 border-2 border-amber-500 flex items-center justify-center">
-                <span className="text-[9px] font-black text-amber-400">{earned.length}</span>
-              </div>
-            </div>
-            <div>
-              <p className="font-bold text-white">{earned.length === 0 ? 'Start Your Journey' : `${earned.length} Certificate${earned.length > 1 ? 's' : ''} Earned`}</p>
-              <p className="text-sm text-slate-400">{topicsCompleted} days completed · {xp.toLocaleString()} XP</p>
-            </div>
-          </div>
-          <div className="ml-auto">
-            <Link href="/75-days-challenge" className="btn-primary flex items-center gap-2 text-sm px-5 py-2.5">
-              Continue Learning <ArrowRight size={14} />
-            </Link>
-          </div>
+      {/* Progress */}
+      <div className="card p-5">
+        <div className="flex items-center justify-between mb-3">
+          <span className="font-semibold text-white">Overall Progress</span>
+          <span className="gradient-text font-black text-xl">{daysCompleted}/75 Days</span>
         </div>
-
-        {/* Path to next certificate */}
-        <div className="mt-5 pt-4 border-t border-amber-500/15">
-          <p className="text-xs text-amber-400 font-bold mb-3">🎯 Next Certificate to Earn</p>
-          <div className="flex items-center gap-3">
-            <span className="text-xl">🌱</span>
-            <div className="flex-1">
-              <div className="flex items-center justify-between text-xs mb-1">
-                <p className="text-white font-semibold">Week 1 Warrior</p>
-                <span className="text-slate-500">{Math.min(topicsCompleted, 7)}/7 days</span>
-              </div>
-              <div className="h-2 bg-white/8 rounded-full overflow-hidden">
-                <motion.div
-                  initial={{ width: 0 }}
-                  animate={{ width: `${Math.min((topicsCompleted / 7) * 100, 100)}%` }}
-                  transition={{ duration: 1, delay: 0.3, ease: 'easeOut' }}
-                  className="h-full bg-gradient-to-r from-emerald-500 to-teal-500 rounded-full"
-                />
-              </div>
-            </div>
-          </div>
+        <div className="h-2.5 rounded-full bg-white/8 overflow-hidden">
+          <motion.div className="h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500"
+            initial={{ width: 0 }} animate={{ width: `${(daysCompleted / 75) * 100}%` }} transition={{ duration: 1.2 }} />
         </div>
-      </motion.div>
-
-      {/* ── How to Earn ──────────────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.15 }}
-        className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-8"
-      >
-        {[
-          { icon: '📅', title: 'Complete Days', desc: 'Finish Days 1–75 to unlock milestone certificates' },
-          { icon: '✅', title: 'Pass Assessments', desc: 'Score 90%+ in grammar and vocabulary tests' },
-          { icon: '🔥', title: 'Maintain Streaks', desc: 'Keep a 21-day+ daily learning streak' },
-        ].map(({ icon, title, desc }) => (
-          <div key={title} className="card p-4 flex items-start gap-3">
-            <span className="text-2xl">{icon}</span>
-            <div>
-              <p className="text-sm font-bold text-white">{title}</p>
-              <p className="text-xs text-slate-500 mt-0.5">{desc}</p>
-            </div>
-          </div>
-        ))}
-      </motion.div>
-
-      {/* ── Filter ───────────────────────────────────────── */}
-      <div className="flex flex-wrap gap-1.5 mb-6">
-        {categories.map(cat => (
-          <button key={cat} onClick={() => setCatFilter(cat)}
-            className={`px-3 py-1.5 rounded-xl text-xs font-semibold transition-all border ${catFilter === cat ? 'bg-primary-500/20 text-primary-300 border-primary-500/30' : 'bg-white/4 text-slate-500 border-white/6 hover:text-white'}`}>
-            {cat}
-          </button>
-        ))}
       </div>
 
-      {/* ── Certificate Grid ─────────────────────────────── */}
-      <motion.div
-        variants={stagger}
-        initial="hidden"
-        animate="visible"
-        className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5"
-      >
-        {filtered.map(cert => (
-          <CertCard key={cert.id} cert={cert} onPreview={setPreview} />
-        ))}
-      </motion.div>
-
-      {/* ── Certificate Preview Modal ────────────────────── */}
-      <AnimatePresence>
-        {preview && <CertificateModal cert={preview} onClose={() => setPreview(null)} />}
-      </AnimatePresence>
+      {/* Certificates */}
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
+        {CERTIFICATES.map((cert, i) => {
+          const isEarned = daysCompleted >= cert.requirement;
+          return (
+            <motion.div key={cert.id}
+              initial={{ opacity: 0, scale: 0.93 }} animate={{ opacity: 1, scale: 1 }} transition={{ delay: i * 0.08 }}
+              className={`card p-6 relative overflow-hidden ${cert.featured ? 'md:col-span-2' : ''} ${
+                isEarned ? `${cert.borderColor} ${cert.bgColor}` : 'opacity-60'
+              }`}>
+              {cert.featured && isEarned && (
+                <div className={`absolute inset-0 bg-gradient-to-br ${cert.color} opacity-5`} />
+              )}
+              <div className="relative z-10">
+                <div className="flex items-start justify-between mb-4">
+                  <div className="flex items-center gap-3">
+                    <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${cert.color} flex items-center justify-center text-3xl shadow-lg ${isEarned ? '' : 'filter grayscale'}`}>
+                      {cert.emoji}
+                    </div>
+                    <div>
+                      <h3 className={`font-bold ${isEarned ? 'text-white' : 'text-slate-500'} text-lg`}>{cert.title}</h3>
+                      <p className="text-xs text-slate-500">{cert.subtitle}</p>
+                    </div>
+                  </div>
+                  {isEarned
+                    ? <CheckCircle2 size={22} className="text-emerald-400 shrink-0" />
+                    : <Lock size={18} className="text-slate-600 shrink-0" />
+                  }
+                </div>
+                <div className="flex items-center justify-between">
+                  <p className="text-sm text-slate-400">
+                    Requires: <span className={`font-bold ${isEarned ? 'text-emerald-400' : 'text-slate-500'}`}>
+                      {cert.requirement} days {isEarned ? '✅' : `(${cert.requirement - daysCompleted} more)`}
+                    </span>
+                  </p>
+                  {isEarned && (
+                    <motion.button whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}
+                      onClick={() => handleDownload(cert)}
+                      className={`flex items-center gap-2 text-sm font-semibold px-4 py-2 rounded-xl bg-gradient-to-r ${cert.color} text-white`}>
+                      <Download size={14} /> Download
+                    </motion.button>
+                  )}
+                </div>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
     </div>
   );
 }
