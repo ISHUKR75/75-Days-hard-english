@@ -40,25 +40,32 @@ function playSound(file, volume = 0.7) {
 // Normalize answer — lowercase, trim, remove trailing punctuation
 // ============================================================
 function normalizeAnswer(str) {
+  // This function cleans up the user's input so we can check it fairly.
   return str
-    .toLowerCase()
-    .trim()
-    .replace(/[.!?]+$/, '') // remove trailing punctuation
-    .replace(/\s+/g, ' ');   // collapse whitespace
+    .toLowerCase()            // Convert all letters to lowercase so capital letters do not cause errors.
+    .trim()                   // Remove extra spaces from the beginning and the end.
+    .replace(/[.!?]+$/, '')   // Remove trailing periods, exclamation marks, or question marks.
+    .replace(/\s+/g, ' ');    // Replace multiple spaces in the middle with a single space.
 }
 
 // ============================================================
 // Check if user's answer matches correct answer (or alternatives)
 // ============================================================
 function isCorrectAnswer(userAnswer, question) {
+  // Normalize the user's answer
   const norm = normalizeAnswer(userAnswer);
+  // If the user's answer is empty, it is wrong
   if (!norm) return false;
+  // Normalize the correct English answer
   const correct = normalizeAnswer(question.english);
+  // If the normalized answers are exactly equal, return true
   if (norm === correct) return true;
-  // Check alternatives
+  // Check if there are other alternative correct answers
   if (question.alternatives) {
+    // If any of the alternative answers match the normalized user answer, return true
     return question.alternatives.some(alt => normalizeAnswer(alt) === norm);
   }
+  // Otherwise return false
   return false;
 }
 

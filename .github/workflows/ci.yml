@@ -1,0 +1,39 @@
+# Simple English: This file defines a GitHub Actions workflow to test and build the website on every push or pull request.
+name: CI build
+
+# Simple English: Trigger the workflow on pushes or pull requests to the main branch.
+on:
+  push:
+    branches: [ main, master ]
+  pull_request:
+    branches: [ main, master ]
+
+# Simple English: Define the jobs to run.
+jobs:
+  build:
+    # Simple English: Run on the latest Ubuntu runner.
+    runs-on: ubuntu-latest
+
+    steps:
+      # Simple English: Check out the repository code.
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      # Simple English: Set up Node.js environment.
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+          cache: 'npm'
+
+      # Simple English: Install npm dependencies.
+      - name: Install Dependencies
+        run: npm ci
+
+      # Simple English: Run lint rules to check code style.
+      - name: Run Linter
+        run: npm run lint --if-present
+
+      # Simple English: Build the production application bundle.
+      - name: Build Next.js App
+        run: npm run build

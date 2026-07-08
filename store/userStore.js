@@ -76,6 +76,8 @@ const useUserStore = create(
       // Update user profile
       // --------------------------------------------------------
       updateProfile: (profileData) => {
+        // This function changes the user profile.
+        // It takes the new profile details and merges them with the old user details.
         set((state) => ({
           user: { ...state.user, ...profileData },
         }));
@@ -85,21 +87,33 @@ const useUserStore = create(
       // Add XP and handle level up
       // --------------------------------------------------------
       addXP: (amount) => {
+        // This function adds XP points to the user.
+        // It also checks if the user has enough XP to level up.
         set((state) => {
+          // Calculate the new total XP
           let newXP = state.xp + amount;
+          // Calculate the new level XP
           let newLevelXP = state.levelXP + amount;
+          // Set the current level
           let newLevel = state.level;
+          // Set the XP required to reach the next level
           let newLevelXPRequired = state.levelXPRequired;
+          // Keep track of how many levels the user gained
           let levelsGained = 0;
 
-          // Check for level up
+          // While the level XP is more than or equal to the required XP for the next level:
           while (newLevelXP >= newLevelXPRequired) {
+            // Subtract the required XP from the current level XP
             newLevelXP -= newLevelXPRequired;
+            // Increase the level by one
             newLevel++;
+            // Calculate the new required XP for the new level
             newLevelXPRequired = getXPForLevel(newLevel);
+            // Increment the levels gained counter
             levelsGained++;
           }
 
+          // Return the updated state values
           return {
             xp: newXP,
             level: newLevel,
@@ -116,6 +130,7 @@ const useUserStore = create(
       // Add coins
       // --------------------------------------------------------
       addCoins: (amount) => {
+        // This function adds coins to the user's total balance.
         set((state) => ({ coins: state.coins + amount }));
       },
 
@@ -123,6 +138,8 @@ const useUserStore = create(
       // Spend coins
       // --------------------------------------------------------
       spendCoins: (amount) => {
+        // This function subtracts coins when a user buys something.
+        // It makes sure the coins balance never goes below zero.
         set((state) => ({
           coins: Math.max(0, state.coins - amount),
         }));
@@ -132,6 +149,7 @@ const useUserStore = create(
       // Add diamonds
       // --------------------------------------------------------
       addDiamonds: (amount) => {
+        // This function adds diamonds to the user's balance.
         set((state) => ({ diamonds: state.diamonds + amount }));
       },
 
@@ -139,24 +157,29 @@ const useUserStore = create(
       // Update daily streak
       // --------------------------------------------------------
       updateStreak: () => {
+        // This function updates the study day streak.
         set((state) => {
+          // Get today's date string
           const today = new Date().toDateString();
+          // Get the last studied date string
           const lastStudied = state.lastStudiedDate
             ? new Date(state.lastStudiedDate).toDateString()
             : null;
 
-          // If already studied today, don't update
+          // If the user already studied today, do not update anything
           if (lastStudied === today) return {};
 
+          // Calculate yesterday's date
           const yesterday = new Date();
           yesterday.setDate(yesterday.getDate() - 1);
           const yesterdayStr = yesterday.toDateString();
 
-          // Check if studied yesterday (maintain streak)
+          // If the user studied yesterday, increase streak by 1. Otherwise reset streak to 1.
           const newStreak = lastStudied === yesterdayStr
             ? state.streak + 1
-            : 1; // Reset streak if missed a day
+            : 1;
 
+          // Return the updated streak, longest streak, and last studied date
           return {
             streak: newStreak,
             longestStreak: Math.max(newStreak, state.longestStreak),
@@ -169,11 +192,15 @@ const useUserStore = create(
       // Record question answer
       // --------------------------------------------------------
       recordAnswer: (isCorrect) => {
+        // This function tracks user answers to questions.
         set((state) => ({
+          // Increment the total number of questions answered
           totalQuestionsAttempted: state.totalQuestionsAttempted + 1,
+          // If the answer was correct, increment the correct count
           totalCorrectAnswers: isCorrect
             ? state.totalCorrectAnswers + 1
             : state.totalCorrectAnswers,
+          // If the answer was wrong, increment the wrong count
           totalWrongAnswers: !isCorrect
             ? state.totalWrongAnswers + 1
             : state.totalWrongAnswers,
@@ -181,7 +208,9 @@ const useUserStore = create(
 
         // Award XP and coins for correct answers
         if (isCorrect) {
+          // Give 5 XP for a correct answer
           get().addXP(5);
+          // Give 1 coin for a correct answer
           get().addCoins(1);
         }
       },
