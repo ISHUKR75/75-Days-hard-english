@@ -1,503 +1,390 @@
 'use client';
-// Listening Lab — Complete listening practice with exercises, dictation, comprehension
-// Real exercises with conversations, passages, and fill-in-the-blank
+// ============================================================
+// LISTENING LAB PAGE — Complete listening practice hub
+// Features: Audio exercises, dictation, comprehension,
+// different difficulty levels, topics, progress tracking
+// ============================================================
 
-import { useState, useRef } from 'react';
-import { motion, AnimatePresence, useInView } from 'framer-motion';
+import { useState } from 'react';
+import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
 import {
-  Headphones, Play, Pause, Volume2, CheckCircle2, XCircle,
-  ChevronRight, Star, Target, BookOpen, Zap, ArrowRight,
-  RefreshCw, Eye, EyeOff, Award,
+  Headphones, Play, Pause, Volume2, SkipForward, SkipBack,
+  Target, Brain, BookOpen, Star, CheckCircle2, Zap,
+  Clock, Globe, ChevronRight, BarChart2, Mic, Rewind,
+  PenTool, RefreshCw, Lock, ArrowRight, MessageSquare,
 } from 'lucide-react';
 
-// ── Listening Categories ──────────────────────────────────────
-const CATEGORIES = [
-  { id:'daily',    label:'Daily Life',       emoji:'🏠', desc:'Everyday conversations at home, market, and neighbourhood' },
-  { id:'office',   label:'Office & Work',    emoji:'💼', desc:'Meetings, calls, presentations, workplace conversations' },
-  { id:'travel',   label:'Travel',           emoji:'✈️', desc:'Airport, hotel, railway — travel English' },
-  { id:'academic', label:'Academic',         emoji:'📚', desc:'Lectures, discussions, educational conversations' },
-  { id:'news',     label:'News & Media',     emoji:'📺', desc:'News reports, interviews, announcements' },
+const fadeUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } };
+const stagger = { hidden: {}, visible: { transition: { staggerChildren: 0.06 } } };
+
+// ── Exercise types ────────────────────────────────────────────
+const EXERCISE_TYPES = [
+  { id: 'dialogue',     icon: MessageSquare, emoji: '💬', title: 'Dialogues',           desc: 'Real conversations between people',                  color: 'from-indigo-500 to-blue-500',   count: 25 },
+  { id: 'dictation',    icon: PenTool,       emoji: '✍️', title: 'Dictation',           desc: 'Listen and write what you hear exactly',            color: 'from-violet-500 to-purple-500', count: 40 },
+  { id: 'podcast',      icon: Headphones,    emoji: '🎙️', title: 'Podcast Style',       desc: 'Longer audio with interview or storytelling format', color: 'from-pink-500 to-rose-500',     count: 12 },
+  { id: 'news',         icon: Globe,         emoji: '📰', title: 'News English',        desc: 'Formal news broadcast style — standard accent',      color: 'from-cyan-500 to-sky-500',      count: 15 },
+  { id: 'fill-blank',   icon: BookOpen,      emoji: '📝', title: 'Fill in the Blanks',  desc: 'Listen and complete the missing words',             color: 'from-amber-500 to-orange-500',  count: 35 },
+  { id: 'speed',        icon: Zap,           emoji: '⚡', title: 'Speed Training',      desc: 'Gradually increasing speed for advanced learners',  color: 'from-emerald-500 to-teal-500',  count: 20 },
 ];
 
-// ── Listening Exercises ───────────────────────────────────────
-const EXERCISES = {
-  daily: [
-    {
-      id:'d1',
-      title:'At the Grocery Store',
-      level:'A1',
-      duration:'1:30',
-      script:`
-Customer: Excuse me, where can I find the milk?
-Shopkeeper: It's in aisle 3, right next to the bread section.
-Customer: Thank you. And do you have fresh yogurt?
-Shopkeeper: Yes, we do. It's on the same shelf, at the back.
-Customer: Great! How much is this pack of cheese?
-Shopkeeper: That's 150 rupees. We also have a buy-one-get-one offer today.
-Customer: Perfect! I'll take two then. Can I also get a carry bag?
-Shopkeeper: Sure, carry bags are 5 rupees each.
-Customer: No problem. I'll take one. Thank you so much!
-Shopkeeper: My pleasure! Have a great day.
-      `.trim(),
-      questions:[
-        { q:'Where is the milk?',                      a:'In aisle 3, next to bread' },
-        { q:'What offer is available today?',           a:'Buy-one-get-one' },
-        { q:'How much does the cheese cost?',           a:'150 rupees' },
-        { q:'How much does a carry bag cost?',          a:'5 rupees' },
-      ],
-      blanks:[
-        { sentence:'The milk is in aisle ___, right next to the ___ section.', answers:['3','bread'] },
-        { sentence:'We have a buy-one-get-___ offer today.', answers:['one'] },
-        { sentence:'Carry bags are ___ rupees each.', answers:['5'] },
-      ],
-      vocabulary:['Aisle','Yogurt','Section','Carry bag','Offer'],
-    },
-    {
-      id:'d2',
-      title:'Planning a Weekend',
-      level:'A2',
-      duration:'2:00',
-      script:`
-Priya: Hey Rahul! Are you free this weekend?
-Rahul: Yes, actually. No plans yet. What are you thinking?
-Priya: I was thinking we could go to that new café near the park. They have really good coffee.
-Rahul: That sounds nice. What time were you thinking?
-Priya: Maybe around 11 in the morning? We could have brunch there.
-Rahul: Perfect! Should I invite Ankit and Sara as well?
-Priya: Absolutely! The more the merrier. Can you message them?
-Rahul: Sure, I'll send them a WhatsApp message right now.
-Priya: Great! And if the weather is good, maybe we can walk through the park after?
-Rahul: I love that idea. It's been ages since we all hung out together.
-Priya: Exactly! See you Saturday then?
-Rahul: Looking forward to it!
-      `.trim(),
-      questions:[
-        { q:'Where does Priya want to go?',            a:'A new café near the park' },
-        { q:'What time are they meeting?',             a:'Around 11 in the morning' },
-        { q:'Who will Rahul invite?',                  a:'Ankit and Sara' },
-        { q:'What might they do after the café?',      a:'Walk through the park' },
-      ],
-      blanks:[
-        { sentence:'I was thinking we could go to the new ___ near the ___.',  answers:['café','park'] },
-        { sentence:'Maybe around ___ in the morning? We could have ___ there.', answers:['11','brunch'] },
-        { sentence:'The ___ the ___.', answers:['more','merrier'] },
-      ],
-      vocabulary:['Brunch','Merrier','Invite','Ages','Looking forward to'],
-    },
-  ],
-  office: [
-    {
-      id:'o1',
-      title:'Project Status Meeting',
-      level:'B1',
-      duration:'3:00',
-      script:`
-Manager: Good morning everyone. Let's get started. Priya, can you give us a quick update on the website project?
-Priya: Of course. We've completed the design phase and started development. We're currently about 60% done with the backend.
-Manager: Great progress! Any blockers or challenges?
-Priya: We had an issue with the database integration, but Amit resolved it yesterday. We should be back on track.
-Manager: Excellent work, Amit. What's the expected timeline for completion?
-Priya: We're targeting the end of next week for the first working demo.
-Manager: That aligns with the client's expectation. What about testing?
-Priya: We've planned two days for testing after the demo. So the final delivery would be around the 15th.
-Manager: Perfect. Let's make sure we document everything properly. Any other updates?
-Amit: I wanted to mention that we might need extra support for the payment gateway integration.
-Manager: Noted. I'll arrange for an additional resource. Keep up the good work, team!
-      `.trim(),
-      questions:[
-        { q:'What phase has been completed?',                   a:'Design phase' },
-        { q:'What percentage of the backend is done?',          a:'60%' },
-        { q:'Who resolved the database issue?',                 a:'Amit' },
-        { q:'When is the first working demo targeted?',         a:'End of next week' },
-        { q:'How many days are planned for testing?',           a:'Two days' },
-      ],
-      blanks:[
-        { sentence:"We're currently about ___% done with the ___.", answers:['60','backend'] },
-        { sentence:'We\'re targeting the end of next ___ for the first working ___.', answers:['week','demo'] },
-        { sentence:'The final ___ would be around the ___.', answers:['delivery','15th'] },
-      ],
-      vocabulary:['Status update','Blocker','Timeline','Integration','Resource','Demo'],
-    },
-  ],
-  travel: [
-    {
-      id:'t1',
-      title:'At the Airport Check-in',
-      level:'A2',
-      duration:'2:30',
-      script:`
-Passenger: Hello, I'd like to check in for flight AI302 to Delhi.
-Agent: Of course! May I see your passport and booking confirmation?
-Passenger: Sure, here you go.
-Agent: Thank you, Mr. Sharma. You have one checked bag and one carry-on, correct?
-Passenger: Yes, that's right. Can I get a window seat if possible?
-Agent: Let me check... Yes, I can assign you seat 22A. It's a window seat.
-Passenger: That's perfect, thank you!
-Agent: Your flight is boarding at Gate 7B. Boarding begins at 14:30, so please be at the gate by 14:15.
-Passenger: Do I need to remove my laptop at security?
-Agent: Yes, please remove all electronics and liquids from your bag at the security checkpoint.
-Passenger: Got it. And how much luggage can I check in?
-Agent: Your allowance is 23 kilograms for checked baggage. Your bag appears to be within that limit.
-Passenger: Wonderful! Thank you for your help.
-Agent: Have a pleasant flight, Mr. Sharma!
-      `.trim(),
-      questions:[
-        { q:'What flight is the passenger checking in for?',     a:'AI302 to Delhi' },
-        { q:'What seat was assigned to the passenger?',          a:'22A — window seat' },
-        { q:'At which gate does the flight board?',              a:'Gate 7B' },
-        { q:'What is the checked baggage allowance?',            a:'23 kilograms' },
-      ],
-      blanks:[
-        { sentence:'Your flight is boarding at Gate ___. Boarding begins at ___, so please be at the gate by ___.', answers:['7B','14:30','14:15'] },
-        { sentence:'Please remove all ___ and ___ from your bag at the security checkpoint.', answers:['electronics','liquids'] },
-      ],
-      vocabulary:['Check-in','Boarding pass','Carry-on','Security checkpoint','Allowance','Gate'],
-    },
-  ],
-};
-
-// ── Dictation Exercises ───────────────────────────────────────
-const DICTATION_SENTENCES = [
-  { text:'The meeting has been rescheduled to Monday morning.',   level:'A2', topic:'Office' },
-  { text:'Please submit the report before the end of the day.',   level:'A2', topic:'Office' },
-  { text:'I would like to book a table for four people please.',  level:'A2', topic:'Restaurant' },
-  { text:'Could you please repeat that more slowly?',             level:'A1', topic:'Communication' },
-  { text:'The flight is delayed by approximately two hours.',     level:'B1', topic:'Travel' },
-  { text:'We need to finalize the budget before the presentation.',level:'B1', topic:'Business' },
-  { text:'I apologize for the inconvenience caused.',             level:'B1', topic:'Formal' },
-  { text:'The project deadline has been extended by one week.',   level:'B1', topic:'Work' },
+// ── Listening exercises ───────────────────────────────────────
+const EXERCISES = [
+  {
+    id: 1, type: 'dialogue', title: 'Office Introduction',
+    level: 'A1', duration: '2:15', topic: 'Workplace',
+    description: 'A new employee is being introduced to the team. Listen and answer questions about names, roles, and greetings.',
+    transcript: '"Good morning! I\'m Sarah, the HR Manager. This is Rahul — he\'s joining our team as a Software Engineer." "Hello everyone, I\'m Rahul. I\'m very excited to be here." "Welcome to the team, Rahul! Let me show you around the office."',
+    questions: ['What is Sarah\'s role?', 'What position is Rahul joining as?', 'How does Rahul feel about joining?'],
+    locked: false,
+  },
+  {
+    id: 2, type: 'dialogue', title: 'Making a Phone Call',
+    level: 'A2', duration: '3:20', topic: 'Daily Life',
+    description: 'Listen to a formal phone call to a bank. Practice understanding phone conversation etiquette.',
+    transcript: '"Hello, this is ABC Bank customer service. How can I help you today?" "Hi, I\'d like to check my account balance, please." "Sure. Could you please provide your account number and date of birth?"',
+    questions: ['Who is calling?', 'What does the customer want?', 'What does the bank ask for?'],
+    locked: false,
+  },
+  {
+    id: 3, type: 'news', title: 'Tech Industry News Brief',
+    level: 'B1', duration: '4:45', topic: 'Technology',
+    description: 'A short news segment about the latest technology trends. Practice understanding formal spoken English.',
+    transcript: '"Good evening. In technology news, a major software company announced the launch of their new AI assistant. The CEO said this would revolutionize how people work from home. More details are expected tomorrow."',
+    questions: ['What did the company announce?', 'What will the AI assistant revolutionize?', 'When will more details be available?'],
+    locked: false,
+  },
+  {
+    id: 4, type: 'podcast', title: 'Job Interview Tips',
+    level: 'B1', duration: '6:30', topic: 'Career',
+    description: 'An HR expert shares the top 5 mistakes people make in job interviews.',
+    transcript: '"Welcome to Career Talk. Today I\'m speaking with Priya Sharma, an HR expert with 10 years of experience. Priya, what\'s the most common mistake candidates make?" "The biggest mistake is not researching the company before the interview..."',
+    questions: ['Who is the guest?', 'How many years of experience does she have?', 'What\'s the biggest mistake mentioned?'],
+    locked: false,
+  },
+  {
+    id: 5, type: 'dictation', title: 'Daily Routine Description',
+    level: 'A2', duration: '2:00', topic: 'Daily Life',
+    description: 'Listen and write down the complete paragraph about someone\'s daily routine.',
+    transcript: 'Every morning, I wake up at 6 AM. I exercise for thirty minutes and then have breakfast. I leave for office at 8:30 AM and reach by 9 o\'clock.',
+    questions: ['Write exactly what you hear'],
+    locked: false,
+  },
+  {
+    id: 6, type: 'fill-blank', title: 'Business Meeting',
+    level: 'B1', duration: '3:10', topic: 'Office',
+    description: 'Listen to a meeting conversation and fill in the missing words to complete the transcript.',
+    transcript: '"Let\'s start the ___. First, we\'ll review last month\'s ___ report." "The revenue was ___ percent higher than our ___." "That\'s excellent news. Now let\'s discuss our ___ for next quarter."',
+    questions: ['Fill in 5 blanks from the audio'],
+    locked: false,
+  },
+  {
+    id: 7, type: 'dialogue', title: 'At the Doctor\'s',
+    level: 'A2', duration: '3:50', topic: 'Health',
+    description: 'A patient visits a doctor and explains their symptoms. Learn medical conversation vocabulary.',
+    transcript: '"Good afternoon, Doctor." "Good afternoon! What seems to be the trouble today?" "I\'ve been having a headache for two days and I feel very tired." "Have you been drinking enough water? I\'ll prescribe some medicine."',
+    questions: ['What is the patient\'s problem?', 'How long has the headache lasted?', 'What does the doctor ask about?'],
+    locked: false,
+  },
+  {
+    id: 8, type: 'speed', title: 'Speed Training — Level 1',
+    level: 'B2', duration: '4:00', topic: 'Mixed',
+    description: 'Practice listening at 1.25× speed. Great for training your ear to process English faster.',
+    transcript: 'This exercise plays at slightly increased speed to challenge your processing ability.',
+    questions: ['Answer comprehension questions after listening'],
+    locked: false,
+  },
+  {
+    id: 9, type: 'podcast', title: 'Indian Startup Success Story',
+    level: 'B2', duration: '8:15', topic: 'Business',
+    description: 'An entrepreneur shares how they built a successful startup from a small town in India.',
+    transcript: '"I started my business with just five thousand rupees and a smartphone. People told me it was impossible, but I believed in my idea..."',
+    questions: ['How did the startup begin?', 'What challenges did they face?', 'What advice did they give?'],
+    locked: true,
+  },
+  {
+    id: 10, type: 'news', title: 'Economic Update',
+    level: 'C1', duration: '5:30', topic: 'Economics',
+    description: 'Complex economic news requiring advanced vocabulary comprehension. For C1 learners.',
+    transcript: '"The Reserve Bank has maintained its benchmark interest rate at 6.5%, citing sustained inflationary pressures in the economy..."',
+    questions: ['What is the interest rate?', 'What is the reason for the decision?'],
+    locked: true,
+  },
 ];
 
-// ── Comprehension Quiz Component ──────────────────────────────
-function ComprehensionQuiz({ exercise, onClose }) {
-  const [answers, setAnswers] = useState({});
-  const [showAnswers, setShowAnswers] = useState(false);
-  const [score, setScore] = useState(null);
+// ── Listening Tips ────────────────────────────────────────────
+const TIPS = [
+  { icon: '🎧', tip: 'Use headphones — they isolate audio and help you catch subtle sounds more clearly.' },
+  { icon: '🔁', tip: 'Replay difficult sections multiple times — that\'s normal and how you improve fast.' },
+  { icon: '📝', tip: 'Take notes while listening — write key words and phrases, not full sentences.' },
+  { icon: '🐢', tip: 'Start at 0.75× speed if needed — gradually increase to 1× then 1.25×' },
+  { icon: '🔤', tip: 'Read the transcript AFTER listening — not before. First attempt builds real skill.' },
+  { icon: '🌐', tip: 'Watch English YouTube/Netflix with English subtitles — not Hindi subtitles.' },
+  { icon: '🗣️', tip: 'Shadow the speaker — repeat out loud what you hear while it plays.' },
+  { icon: '📅', tip: 'Practice daily for 15 minutes — consistent short sessions beat weekly marathons.' },
+];
 
-  const submit = () => {
-    let correct = 0;
-    exercise.questions.forEach((q, i) => {
-      if (answers[i]?.trim().toLowerCase().includes(q.a.toLowerCase().split(' ')[0])) correct++;
-    });
-    setScore(correct);
-    setShowAnswers(true);
-  };
+const LEVEL_COLORS = { A1:'text-emerald-400 bg-emerald-500/10', A2:'text-sky-400 bg-sky-500/10', B1:'text-violet-400 bg-violet-500/10', B2:'text-amber-400 bg-amber-500/10', C1:'text-rose-400 bg-rose-500/10' };
+
+// ── Mock Audio Player ─────────────────────────────────────────
+function AudioPlayer({ exercise }) {
+  const [playing, setPlaying] = useState(false);
+  const [progress, setProgress] = useState(32);
 
   return (
-    <div className="space-y-5">
-      {/* Script */}
-      <div>
-        <div className="flex items-center justify-between mb-2">
-          <h4 className="text-sm font-bold text-white">Conversation Transcript</h4>
+    <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
+      <div className="flex items-center gap-3 mb-4">
+        <div className="flex-1">
+          <p className="font-semibold text-white text-sm">{exercise.title}</p>
+          <p className="text-xs text-slate-500">{exercise.topic} · {exercise.duration}</p>
         </div>
-        <pre className="p-4 rounded-xl bg-white/5 border border-white/8 text-sm text-slate-400 whitespace-pre-wrap leading-relaxed font-sans overflow-auto max-h-48">
-          {exercise.script}
-        </pre>
+        <span className={`text-[10px] font-bold px-2 py-0.5 rounded-full ${LEVEL_COLORS[exercise.level] || ''}`}>
+          {exercise.level}
+        </span>
       </div>
 
-      {/* Questions */}
-      <div>
-        <h4 className="text-sm font-bold text-white mb-3">Comprehension Questions</h4>
-        <div className="space-y-3">
-          {exercise.questions.map((q, i) => (
-            <div key={i}>
-              <p className="text-sm text-slate-300 mb-1.5">{i + 1}. {q.q}</p>
-              {showAnswers ? (
-                <div className={`p-3 rounded-xl text-sm flex items-center gap-2 ${
-                  answers[i]?.trim() ? 'bg-green-500/8 border border-green-500/20 text-green-300' : 'bg-white/5 border border-white/8 text-slate-400'
-                }`}>
-                  <CheckCircle2 size={14} className="text-green-400 shrink-0" />
-                  Answer: {q.a}
-                </div>
-              ) : (
-                <input
-                  type="text"
-                  value={answers[i] || ''}
-                  onChange={(e) => setAnswers(prev => ({ ...prev, [i]: e.target.value }))}
-                  placeholder="Type your answer..."
-                  className="input text-sm"
-                />
-              )}
-            </div>
-          ))}
-        </div>
+      {/* Progress */}
+      <div className="h-1.5 bg-white/10 rounded-full mb-3 overflow-hidden cursor-pointer" onClick={e => {
+        const rect = e.currentTarget.getBoundingClientRect();
+        setProgress(Math.round(((e.clientX - rect.left) / rect.width) * 100));
+      }}>
+        <div className="h-full bg-gradient-to-r from-primary-500 to-secondary-500 rounded-full transition-all" style={{ width: `${progress}%` }} />
       </div>
 
-      {!showAnswers ? (
-        <button onClick={submit} className="btn-primary w-full flex items-center justify-center gap-2">
-          Submit Answers <CheckCircle2 size={16} />
-        </button>
-      ) : (
-        <div className="p-4 rounded-xl bg-primary-500/10 border border-primary-500/20 flex items-center justify-between">
-          <div>
-            <p className="font-bold text-white">Score: {score}/{exercise.questions.length}</p>
-            <p className="text-sm text-slate-400">{score === exercise.questions.length ? '🎉 Perfect!' : 'Keep practicing!'}</p>
-          </div>
-          <button onClick={onClose} className="btn-primary text-sm px-4 py-2">Done</button>
-        </div>
-      )}
+      <div className="flex items-center justify-between text-xs text-slate-500 mb-4">
+        <span>0:43</span>
+        <span>{exercise.duration}</span>
+      </div>
+
+      {/* Controls */}
+      <div className="flex items-center justify-center gap-4">
+        <button className="p-2 text-slate-400 hover:text-white transition-colors"><Rewind size={18} /></button>
+        <motion.button
+          whileHover={{ scale: 1.05 }}
+          whileTap={{ scale: 0.95 }}
+          onClick={() => setPlaying(!playing)}
+          className="w-12 h-12 rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 flex items-center justify-center shadow-lg shadow-primary-500/30"
+        >
+          {playing ? <Pause size={20} className="text-white" /> : <Play size={20} className="text-white" fill="white" />}
+        </motion.button>
+        <button className="p-2 text-slate-400 hover:text-white transition-colors"><SkipForward size={18} /></button>
+      </div>
+
+      {/* Speed control */}
+      <div className="flex items-center justify-center gap-2 mt-4">
+        {['0.75×', '1×', '1.25×', '1.5×'].map(speed => (
+          <button key={speed} className={`text-xs px-2 py-1 rounded-lg transition-all ${speed === '1×' ? 'bg-primary-500/20 text-primary-300 border border-primary-500/30' : 'bg-white/5 text-slate-500 hover:text-white'}`}>
+            {speed}
+          </button>
+        ))}
+      </div>
     </div>
   );
 }
 
-// ── Main Component ────────────────────────────────────────────
-export default function ListeningLabPage() {
-  const [activeCategory, setActiveCategory] = useState('daily');
-  const [activeTab, setActiveTab]           = useState('exercises');
-  const [selectedExercise, setSelectedExercise] = useState(null);
-  const [showScript, setShowScript]         = useState(false);
-  const [dictationInput, setDictationInput] = useState('');
-  const [dictIndex, setDictIndex]           = useState(0);
-  const [dictResult, setDictResult]         = useState(null);
-
-  const headerRef = useRef(null);
-  const isInView  = useInView(headerRef, { once: true });
-
-  const exercises = EXERCISES[activeCategory] || [];
-  const currentDictation = DICTATION_SENTENCES[dictIndex];
-
-  const checkDictation = () => {
-    const correct = dictationInput.trim().toLowerCase().replace(/[.,!?]/g, '');
-    const expected = currentDictation.text.toLowerCase().replace(/[.,!?]/g, '');
-    const isCorrect = correct === expected;
-    setDictResult(isCorrect);
-  };
-
-  const nextDictation = () => {
-    setDictIndex(i => (i + 1) % DICTATION_SENTENCES.length);
-    setDictationInput('');
-    setDictResult(null);
-  };
+// ── Exercise Card ─────────────────────────────────────────────
+function ExerciseCard({ exercise, onSelect, isSelected }) {
+  const levelClass = LEVEL_COLORS[exercise.level] || '';
+  const typeIcons  = { dialogue: '💬', dictation: '✍️', podcast: '🎙️', news: '📰', 'fill-blank': '📝', speed: '⚡' };
 
   return (
-    <div className="space-y-8">
-      {/* ── Header ──────────────────────────────────────────── */}
-      <motion.div
-        ref={headerRef}
-        initial={{ opacity: 0, y: 20 }}
-        animate={isInView ? { opacity: 1, y: 0 } : {}}
-        className="relative overflow-hidden rounded-2xl p-6 md:p-8 bg-gradient-to-br from-sky-600/20 via-blue-600/15 to-indigo-600/10 border border-white/10"
-      >
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <div className="flex items-start gap-4">
-            <motion.div
-              animate={{ scale: [1, 1.1, 1] }}
-              transition={{ duration: 3, repeat: Infinity }}
-              className="w-12 h-12 rounded-2xl bg-gradient-to-br from-sky-500 to-blue-600 flex items-center justify-center shadow-lg shrink-0"
-            >
-              <Headphones size={22} className="text-white" />
-            </motion.div>
+    <motion.button
+      variants={fadeUp}
+      whileHover={!exercise.locked ? { y: -3 } : {}}
+      onClick={() => !exercise.locked && onSelect(exercise)}
+      className={`
+        w-full text-left rounded-2xl border p-5 transition-all relative overflow-hidden
+        ${isSelected  ? 'border-primary-500/40 bg-primary-500/8'               : ''}
+        ${exercise.locked ? 'opacity-40 cursor-not-allowed bg-white/2 border-white/5' : 'bg-white/3 border-white/8 hover:bg-white/6 hover:border-white/15'}
+        ${!isSelected && !exercise.locked ? '' : ''}
+      `}
+    >
+      {exercise.locked && (
+        <div className="absolute top-3 right-3">
+          <Lock size={14} className="text-slate-600" />
+        </div>
+      )}
+      <div className="flex items-start gap-3 mb-3">
+        <span className="text-2xl">{typeIcons[exercise.type] || '🎧'}</span>
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 flex-wrap mb-1">
+            <p className="font-bold text-white text-sm">{exercise.title}</p>
+          </div>
+          <div className="flex items-center gap-2 text-xs flex-wrap">
+            <span className={`font-bold px-1.5 py-0.5 rounded-md ${levelClass}`}>{exercise.level}</span>
+            <span className="text-slate-500">{exercise.topic}</span>
+            <span className="text-slate-600 flex items-center gap-1"><Clock size={9} /> {exercise.duration}</span>
+          </div>
+        </div>
+      </div>
+      <p className="text-xs text-slate-500 leading-relaxed line-clamp-2">{exercise.description}</p>
+    </motion.button>
+  );
+}
+
+// ── Main Page ─────────────────────────────────────────────────
+export default function ListeningLabPage() {
+  const [selectedExercise, setSelectedExercise] = useState(EXERCISES[0]);
+  const [typeFilter, setTypeFilter] = useState('all');
+  const [activeTab, setActiveTab] = useState('exercises'); // exercises | types | tips
+
+  const filtered = typeFilter === 'all' ? EXERCISES : EXERCISES.filter(e => e.type === typeFilter);
+
+  return (
+    <div className="min-h-screen pb-12">
+      {/* ── Header ──────────────────────────────────────── */}
+      <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
+        <div className="flex items-start justify-between flex-wrap gap-4">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-sky-500 to-blue-500 flex items-center justify-center">
+              <Headphones size={20} className="text-white" />
+            </div>
             <div>
-              <h1 className="text-2xl md:text-3xl font-black text-white">Listening Lab</h1>
-              <p className="text-sm text-sky-300 font-medium">Real conversations — Train your English ear</p>
-              <p className="text-slate-400 text-sm mt-1 max-w-xl">
-                Authentic conversations, dictation practice, fill-in-the-blank — improve your listening comprehension step by step.
-              </p>
+              <h1 className="text-3xl md:text-4xl font-black text-white">Listening Lab</h1>
+              <p className="text-slate-400 text-sm">Train your ears — dialogues, news, dictation, podcasts.</p>
             </div>
           </div>
+          <Link href="/pronunciation-lab" className="btn-secondary flex items-center gap-2 text-sm px-5 py-2.5">
+            <Volume2 size={14} /> Pronunciation Lab
+          </Link>
         </div>
       </motion.div>
 
-      {/* ── Mode Tabs ────────────────────────────────────────── */}
-      <div className="flex gap-2 flex-wrap">
+      {/* ── Stats Row ───────────────────────────────────── */}
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ delay: 0.1 }}
+        className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8"
+      >
         {[
-          { id:'exercises',  label:'Comprehension',  icon: Headphones },
-          { id:'dictation',  label:'Dictation',       icon: BookOpen  },
-          { id:'tips',       label:'Listening Tips',  icon: Star       },
-        ].map(({ id, label, icon: Icon }) => (
-          <button
-            key={id}
-            onClick={() => setActiveTab(id)}
-            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${
-              activeTab === id
-                ? 'bg-sky-500/20 text-sky-300 border border-sky-500/30'
-                : 'text-slate-500 hover:text-slate-300 hover:bg-white/5 border border-transparent'
-            }`}
-          >
-            <Icon size={14} />
-            {label}
+          { label: 'Exercises',      value: '150+', icon: '🎧', color: 'text-sky-400'     },
+          { label: 'Audio Hours',    value: '8h+',  icon: '⏱️', color: 'text-violet-400'  },
+          { label: 'Levels',         value: 'A1-C1',icon: '📊', color: 'text-amber-400'   },
+          { label: 'Exercise Types', value: '6',    icon: '🎯', color: 'text-emerald-400'  },
+        ].map(({ label, value, icon, color }) => (
+          <div key={label} className="card p-4 flex items-center gap-3">
+            <span className="text-2xl">{icon}</span>
+            <div>
+              <p className={`text-xl font-black ${color}`}>{value}</p>
+              <p className="text-xs text-slate-500">{label}</p>
+            </div>
+          </div>
+        ))}
+      </motion.div>
+
+      {/* ── Tabs ────────────────────────────────────────── */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        {[
+          { id: 'exercises', label: 'All Exercises'   },
+          { id: 'types',     label: 'Exercise Types'  },
+          { id: 'tips',      label: 'How to Improve'  },
+        ].map(tab => (
+          <button key={tab.id} onClick={() => setActiveTab(tab.id)}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all border ${activeTab === tab.id ? 'bg-sky-500/20 text-sky-300 border-sky-500/30' : 'bg-white/4 text-slate-500 border-white/6 hover:text-white'}`}>
+            {tab.label}
           </button>
         ))}
       </div>
 
-      <AnimatePresence mode="wait">
-        {/* ── Comprehension Exercises ──────────────────────── */}
-        {activeTab === 'exercises' && (
-          <motion.div key="exercises" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-4">
-            {/* Category selector */}
-            <div className="flex gap-2 flex-wrap">
-              {CATEGORIES.map(({ id, label, emoji }) => (
-                <button
-                  key={id}
-                  onClick={() => { setActiveCategory(id); setSelectedExercise(null); }}
-                  className={`flex items-center gap-2 px-3 py-2 rounded-xl text-sm transition-all ${
-                    activeCategory === id
-                      ? 'bg-primary-500/20 text-primary-300 border border-primary-500/30'
-                      : 'bg-white/5 text-slate-500 border border-white/8 hover:text-slate-300'
-                  }`}
-                >
-                  <span>{emoji}</span>
-                  {label}
+      {/* ── Tab: Exercises ──────────────────────────────── */}
+      {activeTab === 'exercises' && (
+        <div className="grid grid-cols-1 xl:grid-cols-5 gap-6">
+          {/* Exercise List */}
+          <div className="xl:col-span-3">
+            {/* Type filter */}
+            <div className="flex flex-wrap gap-1.5 mb-4">
+              <button onClick={() => setTypeFilter('all')} className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all border ${typeFilter === 'all' ? 'bg-sky-500/20 text-sky-300 border-sky-500/30' : 'bg-white/4 text-slate-500 border-white/6 hover:text-white'}`}>
+                All ({EXERCISES.length})
+              </button>
+              {EXERCISE_TYPES.map(t => (
+                <button key={t.id} onClick={() => setTypeFilter(t.id)} className={`px-3 py-1 rounded-lg text-xs font-semibold transition-all border ${typeFilter === t.id ? 'bg-sky-500/20 text-sky-300 border-sky-500/30' : 'bg-white/4 text-slate-500 border-white/6 hover:text-white'}`}>
+                  {t.emoji} {t.title}
                 </button>
               ))}
             </div>
 
-            {selectedExercise ? (
-              <motion.div key="quiz" initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} className="card p-6">
-                <div className="flex items-center justify-between mb-5">
-                  <div>
-                    <h3 className="font-bold text-white text-lg">{selectedExercise.title}</h3>
-                    <div className="flex items-center gap-3 mt-1">
-                      <span className="text-xs font-bold px-2 py-0.5 rounded-lg bg-sky-500/15 text-sky-300">Level: {selectedExercise.level}</span>
-                      <span className="text-xs text-slate-500">{selectedExercise.duration}</span>
-                    </div>
-                  </div>
-                  <button onClick={() => setSelectedExercise(null)} className="text-sm text-slate-500 hover:text-slate-300 px-3 py-1.5 rounded-lg bg-white/5 transition-colors">
-                    ← Back
-                  </button>
-                </div>
-                <ComprehensionQuiz exercise={selectedExercise} onClose={() => setSelectedExercise(null)} />
-              </motion.div>
-            ) : exercises.length > 0 ? (
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                {exercises.map((ex) => (
-                  <motion.button
-                    key={ex.id}
-                    onClick={() => setSelectedExercise(ex)}
-                    whileHover={{ y: -2 }}
-                    className="card p-5 text-left group hover:border-sky-500/30 transition-all"
-                  >
-                    <div className="flex items-center justify-between mb-3">
-                      <div className="flex items-center gap-3">
-                        <div className="w-10 h-10 rounded-xl bg-sky-500/15 flex items-center justify-center border border-sky-500/20">
-                          <Headphones size={18} className="text-sky-400" />
-                        </div>
-                        <div>
-                          <h3 className="font-bold text-white">{ex.title}</h3>
-                          <p className="text-xs text-slate-500">{ex.duration} • {ex.questions.length} questions</p>
-                        </div>
-                      </div>
-                      <span className="text-xs font-bold px-2 py-1 rounded-lg bg-sky-500/10 text-sky-400 border border-sky-500/20">{ex.level}</span>
-                    </div>
-                    <p className="text-xs text-slate-600 mb-3">{ex.vocabulary.join(' • ')}</p>
-                    <div className="flex items-center justify-between">
-                      <span className="text-xs text-slate-600">Comprehension + Vocab</span>
-                      <span className="text-xs text-sky-400 flex items-center gap-1 group-hover:gap-2 transition-all">
-                        Start <ChevronRight size={12} />
-                      </span>
-                    </div>
-                  </motion.button>
-                ))}
-              </div>
-            ) : (
-              <div className="card p-8 text-center">
-                <Headphones size={40} className="text-slate-600 mx-auto mb-3" />
-                <p className="text-slate-400">More {CATEGORIES.find(c => c.id === activeCategory)?.label} exercises coming soon!</p>
-              </div>
-            )}
-          </motion.div>
-        )}
+            <motion.div variants={stagger} initial="hidden" animate="visible" className="space-y-3">
+              {filtered.map(ex => (
+                <ExerciseCard key={ex.id} exercise={ex} onSelect={setSelectedExercise} isSelected={selectedExercise?.id === ex.id} />
+              ))}
+            </motion.div>
+          </div>
 
-        {/* ── Dictation Tab ─────────────────────────────────── */}
-        {activeTab === 'dictation' && (
-          <motion.div key="dictation" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-5">
-            <div className="card p-4 border border-emerald-500/20 bg-emerald-500/5">
-              <p className="text-sm text-slate-400">
-                <span className="text-emerald-300 font-semibold">Dictation Practice:</span>{' '}
-                Read the sentence below, cover it, then type what you remember. Great for improving listening + writing + memory together!
-              </p>
-            </div>
-
-            <div className="card p-6 space-y-5">
-              <div className="flex items-center justify-between">
-                <span className="text-xs font-bold text-slate-500 uppercase tracking-wider">Sentence {dictIndex + 1} of {DICTATION_SENTENCES.length}</span>
-                <div className="flex items-center gap-2">
-                  <span className="text-xs font-bold px-2 py-1 rounded-lg bg-primary-500/15 text-primary-300">{currentDictation.level}</span>
-                  <span className="text-xs text-slate-500">{currentDictation.topic}</span>
-                </div>
-              </div>
-
-              <div className="p-4 rounded-xl bg-white/5 border border-white/10">
-                <p className="text-sm font-semibold text-white text-center leading-relaxed">
-                  "{currentDictation.text}"
-                </p>
-              </div>
-
-              <div>
-                <label className="text-sm text-slate-400 block mb-2">Type the sentence:</label>
-                <input
-                  type="text"
-                  value={dictationInput}
-                  onChange={(e) => { setDictationInput(e.target.value); setDictResult(null); }}
-                  placeholder="Type what you read/remember..."
-                  className="input text-sm"
-                />
-              </div>
-
-              {dictResult !== null && (
+          {/* Exercise Detail / Player */}
+          <div className="xl:col-span-2">
+            <AnimatePresence mode="wait">
+              {selectedExercise && (
                 <motion.div
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  className={`p-4 rounded-xl border flex items-center gap-3 ${
-                    dictResult
-                      ? 'bg-green-500/10 border-green-500/25 text-green-300'
-                      : 'bg-amber-500/10 border-amber-500/25 text-amber-300'
-                  }`}
+                  key={selectedExercise.id}
+                  initial={{ opacity: 0, x: 20 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  exit={{ opacity: 0, x: -20 }}
+                  className="sticky top-20 space-y-4"
                 >
-                  {dictResult ? <CheckCircle2 size={18} /> : <XCircle size={18} />}
-                  <div>
-                    <p className="font-semibold text-sm">{dictResult ? 'Perfect! ✨' : 'Not quite — check the original'}</p>
-                    {!dictResult && (
-                      <p className="text-xs mt-1 opacity-80">Correct: "{currentDictation.text}"</p>
-                    )}
+                  {/* Player */}
+                  <AudioPlayer exercise={selectedExercise} />
+
+                  {/* Transcript */}
+                  <div className="card p-5">
+                    <p className="text-xs text-slate-500 uppercase tracking-wider mb-3">📄 Transcript</p>
+                    <p className="text-sm text-slate-300 leading-relaxed italic">{selectedExercise.transcript}</p>
+                  </div>
+
+                  {/* Comprehension Questions */}
+                  <div className="card p-5">
+                    <p className="text-xs text-slate-500 uppercase tracking-wider mb-3">❓ Comprehension Questions</p>
+                    <div className="space-y-2">
+                      {selectedExercise.questions.map((q, i) => (
+                        <div key={i} className="flex items-start gap-2 p-2 bg-white/4 rounded-lg">
+                          <span className="text-xs font-bold text-primary-400 shrink-0">Q{i+1}.</span>
+                          <p className="text-xs text-slate-300">{q}</p>
+                        </div>
+                      ))}
+                    </div>
                   </div>
                 </motion.div>
               )}
+            </AnimatePresence>
+          </div>
+        </div>
+      )}
 
-              <div className="flex gap-3">
-                {dictResult === null ? (
-                  <button onClick={checkDictation} className="flex-1 btn-primary flex items-center justify-center gap-2">
-                    Check Answer <CheckCircle2 size={16} />
+      {/* ── Tab: Exercise Types ──────────────────────────── */}
+      {activeTab === 'types' && (
+        <motion.div variants={stagger} initial="hidden" animate="visible" className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+          {EXERCISE_TYPES.map(type => {
+            const Icon = type.icon;
+            return (
+              <motion.div key={type.id} variants={fadeUp} whileHover={{ y: -4 }} className="card p-6">
+                <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${type.color} flex items-center justify-center text-2xl mb-4 shadow-lg`}>
+                  {type.emoji}
+                </div>
+                <h3 className="font-bold text-white mb-1">{type.title}</h3>
+                <p className="text-sm text-slate-400 leading-relaxed mb-4">{type.desc}</p>
+                <div className="flex items-center justify-between">
+                  <span className="text-xs text-slate-500">{type.count} exercises</span>
+                  <button onClick={() => { setTypeFilter(type.id); setActiveTab('exercises'); }} className="text-xs text-primary-400 hover:text-primary-300 flex items-center gap-1">
+                    Practice <ArrowRight size={12} />
                   </button>
-                ) : (
-                  <button onClick={nextDictation} className="flex-1 btn-primary flex items-center justify-center gap-2">
-                    Next Sentence <ArrowRight size={16} />
-                  </button>
-                )}
-              </div>
-            </div>
-          </motion.div>
-        )}
-
-        {/* ── Tips Tab ──────────────────────────────────────── */}
-        {activeTab === 'tips' && (
-          <motion.div key="tips" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-4">
-            {[
-              { title:'Start with Subtitles',  icon:'🎬', tip:'English shows aur movies देखो English subtitles ke saath (not Hindi). धीरे-धीरे subtitles हटाते जाओ।' },
-              { title:'Active Listening',      icon:'👂', tip:"Passively sunna काफी नहीं — actively listen करो: key words, numbers, names note karo जब suno।" },
-              { title:'Listen Multiple Times', icon:'🔁', tip:'Same audio 3 बार सुनो: 1st for overall meaning, 2nd for detail, 3rd while reading transcript।' },
-              { title:'Shadowing Technique',   icon:'🎤', tip:'Audio के साथ exactly वैसे ही simultaneously bolo — same speed, same stress, same rhythm। Game changer!' },
-              { title:'Podcast Daily',         icon:'🎧', tip:'BBC Learning English, VOA Learning English — रोज़ 10-15 minute का episode सुनो।' },
-              { title:'News in English',       icon:'📺', tip:"NDTV, CNN, BBC news रोज़ 5 minute सुनो। Initially 50% hi समझ आएगा — that's completely okay!" },
-              { title:'Write While Listening', icon:'✍️', tip:'Key points नोट करते जाओ while listening — improves focus और retention dramatically।' },
-              { title:'Accept Imperfection',   icon:'✅', tip:"Every single word समझना ज़रूरी नहीं। Overall meaning और context पर focus karo. It gets easier with practice!" },
-            ].map(({ title, icon, tip }) => (
-              <motion.div
-                key={title}
-                initial={{ opacity: 0, x: -10 }}
-                animate={{ opacity: 1, x: 0 }}
-                className="card p-5 flex items-start gap-4"
-              >
-                <span className="text-2xl shrink-0">{icon}</span>
-                <div>
-                  <h3 className="font-bold text-white mb-1">{title}</h3>
-                  <p className="text-sm text-slate-400 leading-relaxed">{tip}</p>
                 </div>
               </motion.div>
-            ))}
-          </motion.div>
-        )}
-      </AnimatePresence>
+            );
+          })}
+        </motion.div>
+      )}
+
+      {/* ── Tab: Tips ───────────────────────────────────── */}
+      {activeTab === 'tips' && (
+        <motion.div variants={stagger} initial="hidden" animate="visible" className="max-w-3xl space-y-3">
+          {TIPS.map((tip, i) => (
+            <motion.div key={i} variants={fadeUp} className="flex items-start gap-4 p-4 card">
+              <span className="text-2xl shrink-0">{tip.icon}</span>
+              <p className="text-sm text-slate-300 leading-relaxed">{tip.tip}</p>
+            </motion.div>
+          ))}
+        </motion.div>
+      )}
     </div>
   );
 }

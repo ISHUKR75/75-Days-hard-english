@@ -1,359 +1,320 @@
 'use client';
-// Pronunciation Lab — IPA, minimal pairs, word stress, connected speech
-// Complete pronunciation training with real examples
+// ============================================================
+// PRONUNCIATION LAB PAGE — Complete pronunciation practice
+// Features: IPA chart, stress patterns, minimal pairs,
+// mouth positions, common mistakes, Indian English guide
+// ============================================================
 
-import { useState, useRef } from 'react';
-import { motion, AnimatePresence, useInView } from 'framer-motion';
-import { Volume2, ChevronRight, CheckCircle2, Zap, Target, BookOpen, Star, Copy, Check, ArrowRight } from 'lucide-react';
+import { useState } from 'react';
+import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
+import {
+  Volume2, Mic, Brain, Target, ChevronRight, Play,
+  ArrowRight, BookOpen, Star, CheckCircle2, Zap, BarChart2,
+  Globe, MessageSquare, Headphones, Award,
+} from 'lucide-react';
 
-// ── Vowel Sounds ─────────────────────────────────────────────
-const VOWEL_SOUNDS = [
-  { ipa:'/iː/', word:'Meet, Feet, See',     hindi:'मीत, सी',    tip:'Lips spread wide — smile while saying it' },
-  { ipa:'/ɪ/',  word:'Sit, Hit, Big',       hindi:'सिट, बिग',   tip:'Shorter than /iː/ — relax your lips' },
-  { ipa:'/e/',  word:'Bed, Red, Said',      hindi:'बेड, रेड',   tip:'Open your mouth slightly' },
-  { ipa:'/æ/',  word:'Cat, Hat, Bat',       hindi:'कैट, हैट',   tip:'Open wide — lower jaw drops' },
-  { ipa:'/ɑː/', word:'Car, Farm, Heart',    hindi:'कार, फार्म', tip:'Long ah sound — like saying "aah" at doctor' },
-  { ipa:'/ɒ/',  word:'Hot, Dog, Stop',      hindi:'हॉट, डॉग',  tip:'Rounded lips, open mouth' },
-  { ipa:'/ɔː/', word:'Law, Ball, Call',     hindi:'लॉ, बॉल',   tip:'Very rounded lips, long sound' },
-  { ipa:'/ʊ/',  word:'Book, Look, Cook',    hindi:'बुक, कुक',   tip:'Short — lips slightly rounded' },
-  { ipa:'/uː/', word:'Food, Moon, True',    hindi:'फूड, मून',   tip:'Long — lips very rounded and forward' },
-  { ipa:'/ʌ/',  word:'Cup, But, Love',      hindi:'कप, लव',     tip:'Central mouth — like a short "ah"' },
-  { ipa:'/ɜː/', word:'Bird, Word, Girl',    hindi:'बर्ड, गर्ल', tip:'Tongue in middle — "er" sound, no R rolling' },
-  { ipa:'/ə/',  word:'About, Teacher, The', hindi:'अबाउट',      tip:'Most common English sound — unstressed, relaxed' },
+const fadeUp = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.4 } } };
+const stagger = { hidden: {}, visible: { transition: { staggerChildren: 0.06 } } };
+
+// ── IPA Symbols grouped ──────────────────────────────────────
+const IPA_VOWELS = [
+  { symbol: '/iː/', word: 'see', hindi: 'सी', example: 'team, lead, seem' },
+  { symbol: '/ɪ/',  word: 'sit', hindi: 'सिट', example: 'bit, hit, miss' },
+  { symbol: '/e/',  word: 'bed', hindi: 'बेड', example: 'set, ten, help' },
+  { symbol: '/æ/',  word: 'cat', hindi: 'कैट', example: 'bad, man, hand' },
+  { symbol: '/ɑː/', word: 'car', hindi: 'कार', example: 'far, park, dark' },
+  { symbol: '/ɒ/',  word: 'hot', hindi: 'हॉट', example: 'pot, box, top' },
+  { symbol: '/ɔː/', word: 'law', hindi: 'लॉ',  example: 'call, ball, all' },
+  { symbol: '/ʊ/',  word: 'book', hindi: 'बुक', example: 'put, good, look' },
+  { symbol: '/uː/', word: 'food', hindi: 'फूड', example: 'blue, move, boot' },
+  { symbol: '/ʌ/',  word: 'cup', hindi: 'कप',  example: 'but, fun, sun' },
+  { symbol: '/ɜː/', word: 'bird', hindi: 'बर्ड', example: 'word, her, turn' },
+  { symbol: '/ə/',  word: 'about', hindi: 'अबाउट', example: 'ago, better, teacher' },
 ];
 
-// ── Consonant Sounds (Common Indian Difficulties) ────────────
-const CONSONANT_CHALLENGES = [
-  { sound:'V vs W',   v_word:'Vine/Wine', issue:"Indians often say 'W' for both 'V' and 'W'",
-    tip:"For V: bite your upper teeth on lower lip. For W: round lips without tooth contact",
-    examples:[['Very', 'Wary'],['Vest', 'West'],['Vet', 'Wet'],['Vine', 'Wine']] },
-  { sound:'TH sounds', v_word:'This/Thin', issue:"'TH' does not exist in Hindi — often replaced by D or T",
-    tip:'Tongue between teeth or touching upper teeth from inside. Try to push air over tongue',
-    examples:[['This (ð)', 'Dis ❌'],['Think (θ)', 'Tink ❌'],['The (ð)', 'De ❌'],['Three (θ)', 'Tree ❌']] },
-  { sound:'Final Consonants', v_word:'Worked/Asked', issue:'Indians often add an extra vowel at the end',
-    tip:"Silent ending — 'worked' = /wɜːkt/ not /wɜːkɪd/. Train your mouth to stop cleanly.",
-    examples:[['Worked = /wɜːkt/', 'Workid ❌'],['Stopped = /stɒpt/', 'Stoppid ❌'],['Asked = /ɑːskt/', 'Askid ❌'],['Finished = /fɪnɪʃt/', 'Finishid ❌']] },
-  { sound:'R sound', v_word:'Red/Read', issue:'Indian R is often rolled — English R is different',
-    tip:"English R: tongue curls back slightly, doesn't touch roof of mouth, lips slightly rounded",
-    examples:[['Right', 'Raight ❌'],['Read', 'Rread ❌'],['Around', 'Arround ❌'],['Work', 'Wark ❌']] },
-  { sound:'L vs R', v_word:'Light/Right', issue:'Light and right sound similar to many Indians',
-    tip:"L: tongue tip touches back of upper teeth. R: tongue curls up without touching.",
-    examples:[['Light', 'Right'],['Lock', 'Rock'],['Lead', 'Read'],['Lamp', 'Ramp']] },
+const IPA_CONSONANTS = [
+  { symbol: '/p/',  word: 'pen',   hindi: 'पेन',   example: 'pin, map, open' },
+  { symbol: '/b/',  word: 'bad',   hindi: 'बैड',   example: 'bit, cab, job' },
+  { symbol: '/t/',  word: 'ten',   hindi: 'टेन',   example: 'tip, bit, out' },
+  { symbol: '/d/',  word: 'did',   hindi: 'डिड',   example: 'day, odd, bad' },
+  { symbol: '/k/',  word: 'cat',   hindi: 'कैट',   example: 'key, back, act' },
+  { symbol: '/g/',  word: 'go',    hindi: 'गो',    example: 'get, bag, fog' },
+  { symbol: '/f/',  word: 'fat',   hindi: 'फैट',   example: 'fit, off, wife' },
+  { symbol: '/v/',  word: 'van',   hindi: 'वैन',   example: 'very, live, have' },
+  { symbol: '/θ/',  word: 'thin',  hindi: 'थिन',   example: 'think, bath, month' },
+  { symbol: '/ð/',  word: 'this',  hindi: 'दिस',   example: 'the, other, smooth' },
+  { symbol: '/s/',  word: 'see',   hindi: 'सी',    example: 'sit, yes, case' },
+  { symbol: '/z/',  word: 'zoo',   hindi: 'ज़ू',   example: 'zero, quiz, is' },
+  { symbol: '/ʃ/',  word: 'she',   hindi: 'शी',    example: 'shop, wish, cash' },
+  { symbol: '/ʒ/',  word: 'vision',hindi: 'विज़न', example: 'pleasure, genre' },
+  { symbol: '/h/',  word: 'how',   hindi: 'हाउ',   example: 'hat, behind' },
+  { symbol: '/m/',  word: 'man',   hindi: 'मैन',   example: 'met, him, some' },
+  { symbol: '/n/',  word: 'no',    hindi: 'नो',    example: 'not, fun, ten' },
+  { symbol: '/ŋ/',  word: 'sing',  hindi: 'सिंग',  example: 'ring, long, young' },
+  { symbol: '/l/',  word: 'let',   hindi: 'लेट',   example: 'lip, bell, feel' },
+  { symbol: '/r/',  word: 'red',   hindi: 'रेड',   example: 'run, carry, four' },
+  { symbol: '/j/',  word: 'yes',   hindi: 'येस',   example: 'year, beyond, you' },
+  { symbol: '/w/',  word: 'wet',   hindi: 'वेट',   example: 'way, twin, how' },
+  { symbol: '/tʃ/', word: 'chin',  hindi: 'चिन',   example: 'child, watch, teach' },
+  { symbol: '/dʒ/', word: 'June',  hindi: 'जून',   example: 'jet, badge, age' },
 ];
 
-// ── Word Stress Rules ─────────────────────────────────────────
-const WORD_STRESS_RULES = [
-  {
-    rule:'2-syllable NOUNS → stress on 1st syllable',
-    examples:[
-      { word:'PREsent (n)', wrong:'preSENT', right:'PREsent — "Here is a PREsent for you"' },
-      { word:'REcord (n)',  wrong:'reCORD',  right:'REcord — "I broke the REcord"' },
-      { word:'CONtest (n)', wrong:'conTEST', right:'CONtest — "Enter the CONtest"' },
-    ],
-  },
-  {
-    rule:'2-syllable VERBS → stress on 2nd syllable',
-    examples:[
-      { word:'preSENT (v)', wrong:'PREsent', right:'preSENT — "Let me preSENT my idea"' },
-      { word:'reCORD (v)',  wrong:'REcord',  right:'reCORD — "Please reCORD this meeting"' },
-      { word:'conTEST (v)', wrong:'CONtest', right:'conTEST — "We conTEST this decision"' },
-    ],
-  },
-  {
-    rule:'Words ending in -ion → stress on 2nd-to-last syllable',
-    examples:[
-      { word:'educaAtion',   wrong:'EDucation',  right:'eduCAtion — edu-CA-tion' },
-      { word:'communicaAtion',wrong:'COMMunication',right:'communicAtion — communi-CA-tion' },
-      { word:'presenTAtion', wrong:'PRESentation',right:'presentAtion — presen-TA-tion' },
-    ],
-  },
-];
-
-// ── Connected Speech Patterns ─────────────────────────────────
-const CONNECTED_SPEECH = [
-  {
-    name:'Linking',
-    desc:'When a word ends in a consonant and the next starts with a vowel — they link together',
-    examples:[
-      { written:'Turn it off',  spoken:'Tur-nit-off (one smooth flow)' },
-      { written:'Come on in',   spoken:'Co-mo-nin' },
-      { written:'Pick it up',   spoken:'Pi-ki-tup' },
-      { written:'Not at all',   spoken:'No-ta-tall' },
-    ],
-  },
-  {
-    name:'Reduction (Weak Forms)',
-    desc:'Common words get "reduced" in natural fast speech',
-    examples:[
-      { written:'I want to go',       spoken:"I wanna go (wanna = want to)" },
-      { written:'Are you going to?',  spoken:"Are you gonna? (gonna = going to)" },
-      { written:'I have to leave',    spoken:"I hafta leave (hafta = have to)" },
-      { written:'Give him the book',  spoken:"Give 'im the book (him → 'im)" },
-    ],
-  },
-  {
-    name:'Elision',
-    desc:'Some sounds disappear in fast speech',
-    examples:[
-      { written:'Next door',       spoken:"Nex' door (T disappears)" },
-      { written:'Exactly',         spoken:"Exac'ly (T disappears)" },
-      { written:'Interesting',     spoken:"In'resting (te disappears)" },
-      { written:'Government',      spoken:"Gov'nment (ern disappears)" },
-    ],
-  },
-];
-
-// ── Minimal Pairs Practice ────────────────────────────────────
+// ── Minimal Pairs ─────────────────────────────────────────────
 const MINIMAL_PAIRS = [
-  { pair:['Ship', 'Sheep'],   focus:'Short /ɪ/ vs Long /iː/',   tip:'/ɪ/ = short and relaxed, /iː/ = long and tense' },
-  { pair:['Live', 'Leave'],   focus:'Short /ɪ/ vs Long /iː/',   tip:'I live here (short). I will leave now (long).' },
-  { pair:['Pull', 'Pool'],    focus:'Short /ʊ/ vs Long /uː/',   tip:'Pull = short. Pool = long with rounded lips.' },
-  { pair:['Bit', 'Beat'],     focus:'/ɪ/ vs /iː/',              tip:'Bit is very short. Beat is stretched out.' },
-  { pair:['Fool', 'Full'],    focus:'Long /uː/ vs Short /ʊ/',   tip:'Fool = stretched. Full = quick and relaxed.' },
-  { pair:['Think', 'Sink'],   focus:'/θ/ vs /s/',               tip:'Think: tongue between teeth. Sink: no tongue.' },
-  { pair:['Vine', 'Wine'],    focus:'/v/ vs /w/',               tip:'V: upper teeth on lower lip. W: just rounded lips.' },
-  { pair:['Cat', 'Cut'],      focus:'/æ/ vs /ʌ/',               tip:'Cat: wide open mouth. Cut: shorter, neutral.' },
+  { word1: 'ship',   word2: 'sheep', sound1: '/ɪ/',  sound2: '/iː/', tip: 'ship = short sound, sheep = long held sound' },
+  { word1: 'bit',    word2: 'beat',  sound1: '/ɪ/',  sound2: '/iː/', tip: '"bit" is quick, "beat" is stretched' },
+  { word1: 'cat',    word2: 'cut',   sound1: '/æ/',  sound2: '/ʌ/',  tip: '"cat" mouth wide, "cut" small O shape' },
+  { word1: 'bad',    word2: 'bed',   sound1: '/æ/',  sound2: '/e/',  tip: '"bad" stretches jaw, "bed" is neutral' },
+  { word1: 'thin',   word2: 'sin',   sound1: '/θ/',  sound2: '/s/',  tip: 'Put tongue BETWEEN teeth for /θ/' },
+  { word1: 'think',  word2: 'sink',  sound1: '/θ/',  sound2: '/s/',  tip: 'Indian English often replaces /θ/ with /s/ or /t/' },
+  { word1: 'van',    word2: 'ban',   sound1: '/v/',  sound2: '/b/',  tip: '/v/ = teeth on lower lip; /b/ = lips together' },
+  { word1: 'very',   word2: 'berry', sound1: '/v/',  sound2: '/b/',  tip: 'Common Indian mistake: "wery" or "bery" for "very"' },
+  { word1: 'walk',   word2: 'work',  sound1: '/ɔː/', sound2: '/ɜː/', tip: '"walk" = AW sound, "work" = ER sound' },
+  { word1: 'world',  word2: 'word',  sound1: '/ɜːl/', sound2: '/ɜːd/', tip: 'Both use /ɜː/ — the "ER" sound' },
 ];
 
-// ── Component ─────────────────────────────────────────────────
+// ── Common Indian English Mistakes ───────────────────────────
+const INDIAN_CORRECTIONS = [
+  { wrong: '"Wery good"',      right: '"Very good"',         rule: '/v/ sound — put upper teeth on lower lip, not like /w/' },
+  { wrong: '"Tank you"',       right: '"Thank you"',         rule: '/θ/ sound — tongue between teeth, not /t/' },
+  { wrong: '"I am knowing"',   right: '"I know"',            rule: 'Stative verbs (know, want, like) don\'t use -ing form' },
+  { wrong: '"She is having car"', right: '"She has a car"',  rule: '"Have" for possession = simple present, not continuous' },
+  { wrong: '"Where you are going?"', right: '"Where are you going?"', rule: 'Question word order: WH + auxiliary + subject + verb' },
+  { wrong: '"What is your good name?"', right: '"What is your name?"', rule: '"Good name" is a literal Hindi translation — just say "name"' },
+  { wrong: '"I am a software"', right: '"I am a software engineer"', rule: 'Always use full job title, not just field name' },
+  { wrong: '"Myself Rahul"',   right: '"I am Rahul" / "My name is Rahul"', rule: '"Myself" is reflexive — only used as emphasis' },
+];
+
+// ── Stress Patterns ───────────────────────────────────────────
+const STRESS_EXAMPLES = [
+  { word: 'PREsent',   meaning: 'noun/adjective — a gift or being here',  stress: 'First syllable', sentence: 'This is a present for you.' },
+  { word: 'preSENT',   meaning: 'verb — to show or introduce',            stress: 'Second syllable', sentence: 'Please present your findings.' },
+  { word: 'REcord',    meaning: 'noun — a recording',                     stress: 'First syllable', sentence: 'This is a world record.' },
+  { word: 'reCORD',    meaning: 'verb — to record something',             stress: 'Second syllable', sentence: 'Can you record this video?' },
+  { word: 'PROtest',   meaning: 'noun — a demonstration',                 stress: 'First syllable', sentence: 'They organized a protest.' },
+  { word: 'proTEST',   meaning: 'verb — to object',                       stress: 'Second syllable', sentence: 'She protests this decision.' },
+  { word: 'INcrease',  meaning: 'noun — a rise',                          stress: 'First syllable', sentence: 'There was an increase in sales.' },
+  { word: 'inCREASE',  meaning: 'verb — to grow',                         stress: 'Second syllable', sentence: 'Sales will increase next month.' },
+];
+
+// ── Sub-pages ─────────────────────────────────────────────────
+const SUB_PAGES = [
+  { href: '/pronunciation-lab/ipa-chart',      icon: BookOpen,     title: 'IPA Chart',          desc: 'Complete guide to all 44 English phonemes', emoji: '🔤', color: 'from-indigo-500 to-blue-500' },
+  { href: '/pronunciation-lab/minimal-pairs',  icon: Target,       title: 'Minimal Pairs',      desc: 'Ear training for similar-sounding words',    emoji: '🎯', color: 'from-violet-500 to-purple-500' },
+  { href: '/pronunciation-lab/stress-patterns',icon: BarChart2,    title: 'Stress Patterns',    desc: 'Word & sentence stress for natural flow',    emoji: '📊', color: 'from-amber-500 to-orange-500' },
+  { href: '/pronunciation-lab/intonation',     icon: Zap,          title: 'Intonation',         desc: 'Rising & falling tones for clarity',         emoji: '🎵', color: 'from-emerald-500 to-teal-500' },
+  { href: '/pronunciation-lab/record-compare', icon: Mic,          title: 'Record & Compare',   desc: 'Record yourself and compare with native',    emoji: '🎤', color: 'from-pink-500 to-rose-500' },
+];
+
+const TABS = ['ipa', 'minimal-pairs', 'stress', 'corrections'];
+
+// ── IPA Symbol Card ───────────────────────────────────────────
+function IPACard({ item }) {
+  return (
+    <motion.div
+      variants={fadeUp}
+      whileHover={{ scale: 1.05, y: -3 }}
+      className="card p-3 text-center group cursor-default hover:border-primary-500/30 transition-all"
+    >
+      <p className="text-2xl font-black text-primary-300 font-mono mb-1">{item.symbol}</p>
+      <p className="text-xs font-bold text-white">{item.word}</p>
+      <p className="text-xs text-slate-500 mt-0.5">{item.hindi}</p>
+      <p className="text-[10px] text-slate-600 mt-1 line-clamp-1">{item.example}</p>
+    </motion.div>
+  );
+}
+
+// ── Main Page ─────────────────────────────────────────────────
 export default function PronunciationLabPage() {
-  const [activeTab, setActiveTab] = useState('vowels');
-  const [expandedPair, setExpandedPair] = useState(null);
-  const [expandedStress, setExpandedStress] = useState(null);
-
-  const headerRef = useRef(null);
-  const isInView = useInView(headerRef, { once: true });
-
-  const TABS = [
-    { id:'vowels',     label:'Vowel Sounds',     icon: Volume2  },
-    { id:'consonants', label:'Common Mistakes',  icon: Target   },
-    { id:'stress',     label:'Word Stress',       icon: Zap      },
-    { id:'connected',  label:'Connected Speech',  icon: BookOpen },
-    { id:'minimal',    label:'Minimal Pairs',     icon: Star     },
-  ];
+  const [activeTab, setActiveTab] = useState('ipa');
 
   return (
-    <div className="space-y-8">
-      {/* ── Header ──────────────────────────────────────────── */}
-      <motion.div
-        ref={headerRef}
-        initial={{ opacity: 0, y: 20 }}
-        animate={isInView ? { opacity: 1, y: 0 } : {}}
-        className="relative overflow-hidden rounded-2xl p-6 md:p-8 bg-gradient-to-br from-cyan-600/20 via-sky-600/15 to-blue-600/10 border border-white/10"
-      >
-        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
-          <div>
-            <div className="flex items-center gap-3 mb-2">
-              <motion.div
-                animate={{ scale: [1, 1.15, 1] }}
-                transition={{ duration: 2.5, repeat: Infinity }}
-                className="w-12 h-12 rounded-2xl bg-gradient-to-br from-cyan-500 to-sky-600 flex items-center justify-center shadow-lg"
-              >
-                <Volume2 size={22} className="text-white" />
-              </motion.div>
-              <div>
-                <h1 className="text-2xl md:text-3xl font-black text-white">Pronunciation Lab</h1>
-                <p className="text-sm text-cyan-300 font-medium">Native-like pronunciation — scientifically</p>
-              </div>
+    <div className="min-h-screen pb-12">
+      {/* ── Header ──────────────────────────────────────── */}
+      <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="mb-8">
+        <div className="flex items-start justify-between flex-wrap gap-4">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-cyan-500 to-sky-500 flex items-center justify-center">
+              <Volume2 size={20} className="text-white" />
             </div>
-            <p className="text-slate-400 text-sm max-w-xl">
-              IPA sounds, common Indian English mistakes, word stress, connected speech — 
-              sound like a native speaker with targeted practice.
-            </p>
-          </div>
-          <div className="flex gap-3">
-            <div className="text-center px-4 py-3 rounded-xl bg-white/5 border border-white/10">
-              <p className="text-xl font-black text-cyan-300">44</p>
-              <p className="text-[10px] text-slate-500 uppercase tracking-wider">English Sounds</p>
-            </div>
-            <div className="text-center px-4 py-3 rounded-xl bg-white/5 border border-white/10">
-              <p className="text-xl font-black text-sky-300">5</p>
-              <p className="text-[10px] text-slate-500 uppercase tracking-wider">Modules</p>
+            <div>
+              <h1 className="text-3xl md:text-4xl font-black text-white">Pronunciation Lab</h1>
+              <p className="text-slate-400 text-sm">Master English sounds — IPA, stress, intonation, connected speech.</p>
             </div>
           </div>
+          <Link href="/pronunciation-lab/record-compare" className="btn-primary flex items-center gap-2 text-sm px-5 py-2.5">
+            <Mic size={14} /> Record My Voice
+          </Link>
         </div>
       </motion.div>
 
-      {/* ── Tabs ────────────────────────────────────────────── */}
-      <div className="flex gap-2 flex-wrap">
-        {TABS.map(({ id, label, icon: Icon }) => (
+      {/* ── Sub-page Cards ──────────────────────────────── */}
+      <motion.div
+        variants={stagger}
+        initial="hidden"
+        animate="visible"
+        className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 mb-8"
+      >
+        {SUB_PAGES.map(page => {
+          const Icon = page.icon;
+          return (
+            <motion.div key={page.href} variants={fadeUp}>
+              <Link href={page.href} className="block card p-4 text-center hover:border-white/20 group transition-all">
+                <div className={`w-12 h-12 rounded-2xl bg-gradient-to-br ${page.color} flex items-center justify-center text-2xl mx-auto mb-3 shadow-lg group-hover:scale-110 transition-transform`}>
+                  {page.emoji}
+                </div>
+                <p className="text-xs font-bold text-white mb-1">{page.title}</p>
+                <p className="text-[10px] text-slate-500 line-clamp-2">{page.desc}</p>
+              </Link>
+            </motion.div>
+          );
+        })}
+      </motion.div>
+
+      {/* ── Tab Navigation ──────────────────────────────── */}
+      <div className="flex flex-wrap gap-2 mb-6">
+        {[
+          { id: 'ipa',          label: 'IPA Chart'         },
+          { id: 'minimal-pairs', label: 'Minimal Pairs'   },
+          { id: 'stress',        label: 'Word Stress'     },
+          { id: 'corrections',   label: 'Indian English'  },
+        ].map(tab => (
           <button
-            key={id}
-            onClick={() => setActiveTab(id)}
-            className={`flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-medium transition-all ${
-              activeTab === id
-                ? 'bg-cyan-500/20 text-cyan-300 border border-cyan-500/30'
-                : 'text-slate-500 hover:text-slate-300 hover:bg-white/5 border border-transparent'
+            key={tab.id}
+            onClick={() => setActiveTab(tab.id)}
+            className={`px-4 py-2 rounded-xl text-sm font-semibold transition-all border ${
+              activeTab === tab.id
+                ? 'bg-cyan-500/20 text-cyan-300 border-cyan-500/30'
+                : 'bg-white/4 text-slate-500 border-white/6 hover:text-white'
             }`}
           >
-            <Icon size={14} />
-            {label}
+            {tab.label}
           </button>
         ))}
       </div>
 
-      <AnimatePresence mode="wait">
-        {/* ── Vowel Sounds ─────────────────────────────────── */}
-        {activeTab === 'vowels' && (
-          <motion.div key="vowels" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-4">
-            <div className="card p-4 border border-cyan-500/20 bg-cyan-500/5">
-              <p className="text-sm text-slate-400">
-                <span className="text-cyan-300 font-semibold">English में 12 vowel sounds हैं</span> — Hindi में सिर्फ़ 5-6 vowels हैं। 
-                इसीलिए Indians को English pronunciation difficult लगती है। 
-                हर sound को IPA (International Phonetic Alphabet) symbol के साथ practice karo।
-              </p>
-            </div>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
-              {VOWEL_SOUNDS.map(({ ipa, word, hindi, tip }) => (
-                <motion.div
-                  key={ipa}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  className="card p-4 hover:border-cyan-500/20 transition-all"
-                >
-                  <div className="flex items-center gap-3 mb-2">
-                    <span className="text-2xl font-black text-cyan-400 font-mono w-12 shrink-0">{ipa}</span>
-                    <div>
-                      <p className="text-sm font-semibold text-white">{word}</p>
-                      <p className="text-xs text-slate-500">{hindi}</p>
+      {/* ── IPA Chart Tab ───────────────────────────────── */}
+      {activeTab === 'ipa' && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+          <div className="card p-6 mb-6 border-cyan-500/20 bg-cyan-500/5">
+            <p className="text-sm text-cyan-300 font-semibold mb-2">🔤 What is IPA?</p>
+            <p className="text-sm text-slate-400">The <strong className="text-white">International Phonetic Alphabet (IPA)</strong> is a system that shows exactly how to pronounce any word. Each symbol = one specific sound. Learning IPA helps you read pronunciation guides in any dictionary.</p>
+          </div>
+
+          <h3 className="text-base font-bold text-white mb-4">Vowel Sounds (12 short/long vowels)</h3>
+          <motion.div variants={stagger} initial="hidden" animate="visible" className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2 mb-8">
+            {IPA_VOWELS.map(v => <IPACard key={v.symbol} item={v} />)}
+          </motion.div>
+
+          <h3 className="text-base font-bold text-white mb-4">Consonant Sounds (24 consonants)</h3>
+          <motion.div variants={stagger} initial="hidden" animate="visible" className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-2">
+            {IPA_CONSONANTS.map(c => <IPACard key={c.symbol} item={c} />)}
+          </motion.div>
+        </motion.div>
+      )}
+
+      {/* ── Minimal Pairs Tab ───────────────────────────── */}
+      {activeTab === 'minimal-pairs' && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+          <div className="card p-5 mb-6 border-violet-500/20 bg-violet-500/5">
+            <p className="text-sm text-violet-300 font-semibold mb-2">🎯 What are Minimal Pairs?</p>
+            <p className="text-sm text-slate-400">Two words that differ by only ONE sound. Practicing minimal pairs trains your ear to hear and produce subtle differences that are critical for being understood clearly.</p>
+          </div>
+          <div className="space-y-4">
+            {MINIMAL_PAIRS.map((pair, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, x: -16 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.04 }}
+                className="card p-5"
+              >
+                <div className="flex items-center gap-6 flex-wrap mb-3">
+                  <div className="flex items-center gap-4">
+                    <div className="text-center">
+                      <p className="text-2xl font-black text-white">{pair.word1}</p>
+                      <p className="text-xs font-mono text-primary-400">{pair.sound1}</p>
+                    </div>
+                    <div className="text-slate-600 text-xl font-light">vs</div>
+                    <div className="text-center">
+                      <p className="text-2xl font-black text-white">{pair.word2}</p>
+                      <p className="text-xs font-mono text-secondary-400">{pair.sound2}</p>
                     </div>
                   </div>
-                  <p className="text-xs text-slate-500 italic leading-relaxed">💡 {tip}</p>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        )}
+                </div>
+                <p className="text-sm text-slate-400 bg-white/4 rounded-lg p-3 border border-white/8">
+                  💡 <span className="text-white font-semibold">Tip:</span> {pair.tip}
+                </p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      )}
 
-        {/* ── Consonant Challenges ─────────────────────────── */}
-        {activeTab === 'consonants' && (
-          <motion.div key="consonants" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-4">
-            <div className="card p-4 border border-amber-500/20 bg-amber-500/5">
-              <p className="text-sm text-slate-400">
-                <span className="text-amber-300 font-semibold">Most Common Indian English Pronunciation Mistakes</span> — 
-                ये वो sounds हैं जो Hindi में exist नहीं करती। इन पर focus karo। Regular practice से ये naturally आने लगेंगी।
-              </p>
-            </div>
-            {CONSONANT_CHALLENGES.map(({ sound, issue, tip, examples }) => (
-              <motion.div key={sound} variants={{ hidden:{ opacity:0, y:10 }, visible:{ opacity:1, y:0 } }} initial="hidden" animate="visible" className="card p-5">
-                <h3 className="font-bold text-white text-base mb-1">{sound}</h3>
-                <p className="text-sm text-amber-300 mb-2">⚠️ Common Error: {issue}</p>
-                <p className="text-sm text-slate-400 mb-4">✅ Fix: {tip}</p>
-                <div className="grid grid-cols-2 md:grid-cols-4 gap-2">
-                  {examples.map(([e1, e2]) => (
-                    <div key={e1} className="p-2 rounded-xl bg-white/5 text-center">
-                      <p className="text-sm font-semibold text-white">{e1}</p>
-                      <p className="text-xs text-slate-600">{e2}</p>
-                    </div>
-                  ))}
+      {/* ── Stress Patterns Tab ─────────────────────────── */}
+      {activeTab === 'stress' && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+          <div className="card p-5 mb-6 border-amber-500/20 bg-amber-500/5">
+            <p className="text-sm text-amber-300 font-semibold mb-2">📊 Word Stress Rule</p>
+            <p className="text-sm text-slate-400">In English, the same word can be a noun OR a verb depending on which syllable you stress. Capital letters show the STRESSED syllable. Getting stress wrong changes the meaning completely!</p>
+          </div>
+          <div className="space-y-3">
+            {STRESS_EXAMPLES.map((item, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.05 }}
+                className="card p-4 flex items-start gap-4 flex-wrap"
+              >
+                <div className="shrink-0">
+                  <p className="text-xl font-black text-white font-mono">{item.word}</p>
+                  <p className="text-xs text-slate-500 mt-0.5">{item.stress}</p>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-sm text-slate-300 mb-1">{item.meaning}</p>
+                  <p className="text-xs text-slate-500 italic">"{item.sentence}"</p>
                 </div>
               </motion.div>
             ))}
-          </motion.div>
-        )}
+          </div>
+        </motion.div>
+      )}
 
-        {/* ── Word Stress ──────────────────────────────────── */}
-        {activeTab === 'stress' && (
-          <motion.div key="stress" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-4">
-            <div className="card p-4 border border-violet-500/20 bg-violet-500/5">
-              <p className="text-sm text-slate-400">
-                <span className="text-violet-300 font-semibold">Word Stress</span> — English में हर word में एक syllable ज़्यादा LOUDER और LONGER बोला जाता है।
-                Capital letters stress को दिखाते हैं।
-                Wrong stress से native speakers को समझना मुश्किल हो जाता है!
-              </p>
-            </div>
-            {WORD_STRESS_RULES.map(({ rule, examples }) => (
-              <div key={rule} className="card p-5">
-                <h3 className="font-bold text-white mb-4 flex items-center gap-2">
-                  <span className="w-2 h-2 rounded-full bg-violet-400" />
-                  {rule}
-                </h3>
-                <div className="space-y-3">
-                  {examples.map(({ word, wrong, right }) => (
-                    <div key={word} className="grid grid-cols-1 md:grid-cols-3 gap-2 items-center">
-                      <span className="font-semibold text-white text-sm">{word}</span>
-                      <div className="flex items-center gap-2 p-2 rounded-xl bg-red-500/8 border border-red-500/20">
-                        <span className="text-red-400 text-xs">❌</span>
-                        <span className="text-sm text-red-300">{wrong}</span>
-                      </div>
-                      <div className="flex items-center gap-2 p-2 rounded-xl bg-green-500/8 border border-green-500/20">
-                        <span className="text-green-400 text-xs">✅</span>
-                        <span className="text-sm text-green-300">{right}</span>
-                      </div>
-                    </div>
-                  ))}
+      {/* ── Indian English Corrections Tab ──────────────── */}
+      {activeTab === 'corrections' && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }}>
+          <div className="card p-5 mb-6 border-rose-500/20 bg-rose-500/5">
+            <p className="text-sm text-rose-300 font-semibold mb-2">🇮🇳 Indian English vs Standard English</p>
+            <p className="text-sm text-slate-400">These are common pronunciation and grammar patterns from Indian English that differ from standard British/American English. Knowing them helps you communicate more clearly globally.</p>
+          </div>
+          <div className="space-y-4">
+            {INDIAN_CORRECTIONS.map((item, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 12 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ delay: i * 0.06 }}
+                className="grid grid-cols-1 md:grid-cols-2 gap-3"
+              >
+                <div className="bg-rose-500/8 border border-rose-500/20 rounded-xl p-4">
+                  <p className="text-xs text-rose-400 font-bold mb-2">❌ Common in Indian English</p>
+                  <p className="text-base font-semibold text-white">{item.wrong}</p>
                 </div>
-              </div>
-            ))}
-          </motion.div>
-        )}
-
-        {/* ── Connected Speech ─────────────────────────────── */}
-        {activeTab === 'connected' && (
-          <motion.div key="connected" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-4">
-            <div className="card p-4 border border-emerald-500/20 bg-emerald-500/5">
-              <p className="text-sm text-slate-400">
-                <span className="text-emerald-300 font-semibold">Connected Speech</span> — Native speakers इतना fast क्यों बोलते हैं?
-                क्योंकि words एक-दूसरे से connect हो जाते हैं। 
-                ये patterns सीखने से तुम्हारी listening AND speaking दोनों improve होंगी।
-              </p>
-            </div>
-            {CONNECTED_SPEECH.map(({ name, desc, examples }) => (
-              <div key={name} className="card p-5">
-                <h3 className="font-bold text-white mb-2">{name}</h3>
-                <p className="text-sm text-slate-400 mb-4">{desc}</p>
-                <div className="space-y-2">
-                  {examples.map(({ written, spoken }) => (
-                    <div key={written} className="grid grid-cols-1 md:grid-cols-2 gap-3">
-                      <div className="p-3 rounded-xl bg-white/5 border border-white/8">
-                        <p className="text-xs text-slate-500 mb-1">Written</p>
-                        <p className="text-sm text-slate-300 font-semibold">{written}</p>
-                      </div>
-                      <div className="p-3 rounded-xl bg-emerald-500/8 border border-emerald-500/20">
-                        <p className="text-xs text-emerald-500 mb-1">Natural Speech</p>
-                        <p className="text-sm text-emerald-300 font-semibold">{spoken}</p>
-                      </div>
-                    </div>
-                  ))}
+                <div className="bg-emerald-500/8 border border-emerald-500/20 rounded-xl p-4">
+                  <p className="text-xs text-emerald-400 font-bold mb-2">✅ Standard English</p>
+                  <p className="text-base font-semibold text-white">{item.right}</p>
+                  <p className="text-xs text-slate-400 mt-2 border-t border-white/8 pt-2">📌 {item.rule}</p>
                 </div>
-              </div>
+              </motion.div>
             ))}
-          </motion.div>
-        )}
-
-        {/* ── Minimal Pairs ─────────────────────────────────── */}
-        {activeTab === 'minimal' && (
-          <motion.div key="minimal" initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="space-y-4">
-            <div className="card p-4 border border-pink-500/20 bg-pink-500/5">
-              <p className="text-sm text-slate-400">
-                <span className="text-pink-300 font-semibold">Minimal Pairs</span> — ऐसे two words जो सिर्फ एक sound में differ करते हैं।
-                इन्हें practice करने से तुम्हारा ear train होता है और pronunciation accurate बनती है।
-              </p>
-            </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              {MINIMAL_PAIRS.map(({ pair, focus, tip }) => (
-                <motion.div
-                  key={pair[0]}
-                  initial={{ opacity: 0, scale: 0.95 }}
-                  animate={{ opacity: 1, scale: 1 }}
-                  className="card p-5"
-                >
-                  <div className="flex items-center justify-center gap-6 mb-3">
-                    {pair.map((word, i) => (
-                      <div key={word} className="text-center">
-                        <p className="text-2xl font-black text-white mb-1">{word}</p>
-                        {i === 0 && <div className="absolute w-px h-8 bg-white/10" />}
-                      </div>
-                    ))}
-                  </div>
-                  <p className="text-center text-xs font-bold text-pink-300 mb-2">{focus}</p>
-                  <p className="text-center text-xs text-slate-500 leading-relaxed">💡 {tip}</p>
-                </motion.div>
-              ))}
-            </div>
-          </motion.div>
-        )}
-      </AnimatePresence>
+          </div>
+        </motion.div>
+      )}
     </div>
   );
 }
