@@ -94,7 +94,7 @@ function getVocabForDay(dayNum) {
 
 export default function VocabularyDayPage() {
   const params  = useParams();
-  const dayNum  = parseInt(params?.day || '1', 10);
+  const dayNum  = parseInt(String(params?.daySlug || 'day-1').replace(/^day-/, '') || '1', 10);
   const topic   = getTopicByDay(dayNum);
   
   const words = useMemo(() => getVocabForDay(dayNum), [dayNum]);

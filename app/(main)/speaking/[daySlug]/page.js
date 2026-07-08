@@ -78,7 +78,7 @@ function getSpeakingPromptsForDay(dayNum, topic) {
 
 export default function SpeakingDayPage() {
   const params  = useParams();
-  const dayNum  = parseInt(params?.day || '1', 10);
+  const dayNum  = parseInt(String(params?.daySlug || 'day-1').replace(/^day-/, '') || '1', 10);
   const topic   = getTopicByDay(dayNum);
 
   const drill = useMemo(() => getSpeakingPromptsForDay(dayNum, topic), [dayNum, topic]);
