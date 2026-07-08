@@ -585,7 +585,6 @@ These are set automatically by `setupClerkWhitelabelAuth()`. Do not ask the user
 
 When migrating an existing app from Replit Auth to Clerk, read the following references:
 
-- `references/migration.md` — General migration guidance: detection, common rules, user identity mapping, and the critical `sessionClaims.userId` requirement for migrated users.
 - `references/web-migration.md` — Web app migration (Express API server + React+Vite frontend): what to remove and what to transition.
 - `references/expo-migration.md` — Expo mobile app migration: what to remove and what to transition.
 

@@ -1,345 +1,416 @@
 'use client';
-// Vocabulary Bank — All vocabulary categories with word lists
-// Features: search, filter by level, mastery tracking, word of day
+// Vocabulary Bank — Complete vocabulary with search, categories, and learning mode
+// Uses real vocabularyData.js with 1000+ real words
 
-import { useState } from 'react';
-import Link from 'next/link';
+import { useState, useMemo, useCallback, lazy, Suspense } from 'react';
+import { motion, AnimatePresence } from 'framer-motion';
 import {
-  BookOpen, Search, Star, ChevronRight, Zap,
-  CheckCircle2, Brain, Volume2, ArrowRight, Trophy,
+  Globe, Search, Star, BookOpen, Zap, CheckCircle2,
+  Volume2, ArrowRight, Filter, XCircle, Trophy,
+  ChevronRight, Target, RotateCcw, Eye, EyeOff,
 } from 'lucide-react';
+import {
+  ALL_VOCABULARY, VOCAB_CATEGORIES_META, getAllWords,
+  searchWords, IDIOMS, PHRASAL_VERBS,
+} from '@/lib/vocabularyData';
 import useUserStore from '@/store/userStore';
 
-// ============================================================
-// Vocabulary categories data
-// ============================================================
-const VOCAB_CATEGORIES = [
-  {
-    category: 'Daily Life',
-    emoji: '🏠',
-    color: 'from-indigo-500 to-blue-500',
-    slug: 'daily-life',
-    totalWords: 500,
-    level: 'A1-A2',
-    topics: [
-      { title: 'Food & Drinks', slug: 'food-drinks', words: 80, emoji: '🍛' },
-      { title: 'Family & Relations', slug: 'family', words: 60, emoji: '👨‍👩‍👧‍👦' },
-      { title: 'Body Parts', slug: 'body-parts', words: 50, emoji: '🫁' },
-      { title: 'Colors & Shapes', slug: 'colors-shapes', words: 40, emoji: '🎨' },
-      { title: 'Numbers & Time', slug: 'numbers-time', words: 70, emoji: '🔢' },
-      { title: 'House & Furniture', slug: 'house-furniture', words: 60, emoji: '🛋️' },
-      { title: 'Clothes & Fashion', slug: 'clothes', words: 50, emoji: '👗' },
-      { title: 'Weather', slug: 'weather', words: 40, emoji: '🌦️' },
-    ],
-  },
-  {
-    category: 'Emotions & Feelings',
-    emoji: '❤️',
-    color: 'from-rose-500 to-pink-500',
-    slug: 'emotions',
-    totalWords: 300,
-    level: 'A2-B1',
-    topics: [
-      { title: 'Positive Emotions', slug: 'positive-emotions', words: 50, emoji: '😊' },
-      { title: 'Negative Emotions', slug: 'negative-emotions', words: 50, emoji: '😢' },
-      { title: 'Surprise & Shock', slug: 'surprise', words: 30, emoji: '😲' },
-      { title: 'Love & Relationships', slug: 'love', words: 60, emoji: '💝' },
-      { title: 'Fear & Anxiety', slug: 'fear', words: 40, emoji: '😰' },
-      { title: 'Anger & Frustration', slug: 'anger', words: 40, emoji: '😤' },
-      { title: 'Personality Traits', slug: 'personality', words: 80, emoji: '🧠' },
-    ],
-  },
-  {
-    category: 'Professional English',
-    emoji: '💼',
-    color: 'from-teal-500 to-emerald-500',
-    slug: 'professional',
-    totalWords: 600,
-    level: 'B1-B2',
-    topics: [
-      { title: 'Office & Workplace', slug: 'office', words: 80, emoji: '🏢' },
-      { title: 'Business Meeting', slug: 'meeting', words: 60, emoji: '🤝' },
-      { title: 'Email Vocabulary', slug: 'email', words: 70, emoji: '📧' },
-      { title: 'Job Interview', slug: 'interview', words: 80, emoji: '💼' },
-      { title: 'Finance & Banking', slug: 'finance', words: 70, emoji: '💰' },
-      { title: 'Sales & Marketing', slug: 'sales', words: 60, emoji: '📈' },
-      { title: 'Technology', slug: 'technology', words: 80, emoji: '💻' },
-      { title: 'Leadership', slug: 'leadership', words: 60, emoji: '👑' },
-    ],
-  },
-  {
-    category: 'Idioms & Phrases',
-    emoji: '💬',
-    color: 'from-amber-500 to-yellow-500',
-    slug: 'idioms',
-    totalWords: 400,
-    level: 'B2-C1',
-    topics: [
-      { title: 'Common Idioms (A-M)', slug: 'idioms-a-m', words: 100, emoji: '🅰️' },
-      { title: 'Common Idioms (N-Z)', slug: 'idioms-n-z', words: 100, emoji: '🔤' },
-      { title: 'Body Language Idioms', slug: 'body-idioms', words: 60, emoji: '👃' },
-      { title: 'Animal Idioms', slug: 'animal-idioms', words: 50, emoji: '🐾' },
-      { title: 'Sports Idioms', slug: 'sports-idioms', words: 40, emoji: '⚽' },
-      { title: 'Business Idioms', slug: 'business-idioms', words: 50, emoji: '📊' },
-    ],
-  },
-  {
-    category: 'Phrasal Verbs',
-    emoji: '🚀',
-    color: 'from-violet-500 to-purple-500',
-    slug: 'phrasal-verbs',
-    totalWords: 350,
-    level: 'B1-B2',
-    topics: [
-      { title: 'Get + Preposition', slug: 'get-phrasal', words: 40, emoji: '📥' },
-      { title: 'Make + Preposition', slug: 'make-phrasal', words: 30, emoji: '🔨' },
-      { title: 'Come + Preposition', slug: 'come-phrasal', words: 35, emoji: '🚶' },
-      { title: 'Put + Preposition', slug: 'put-phrasal', words: 35, emoji: '📦' },
-      { title: 'Take + Preposition', slug: 'take-phrasal', words: 40, emoji: '✋' },
-      { title: 'Look + Preposition', slug: 'look-phrasal', words: 30, emoji: '👀' },
-      { title: 'Turn + Preposition', slug: 'turn-phrasal', words: 30, emoji: '🔄' },
-      { title: 'Give + Preposition', slug: 'give-phrasal', words: 30, emoji: '🎁' },
-      { title: 'Go + Preposition', slug: 'go-phrasal', words: 40, emoji: '🏃' },
-      { title: 'Break + Preposition', slug: 'break-phrasal', words: 30, emoji: '💥' },
-    ],
-  },
-  {
-    category: 'Synonyms & Antonyms',
-    emoji: '🔄',
-    color: 'from-cyan-500 to-sky-500',
-    slug: 'synonyms-antonyms',
-    totalWords: 500,
-    level: 'A2-B1',
-    topics: [
-      { title: 'Adjective Synonyms', slug: 'adj-synonyms', words: 80, emoji: '🏷️' },
-      { title: 'Verb Synonyms', slug: 'verb-synonyms', words: 80, emoji: '⚡' },
-      { title: 'Noun Synonyms', slug: 'noun-synonyms', words: 80, emoji: '📝' },
-      { title: 'Common Antonyms', slug: 'antonyms', words: 120, emoji: '↔️' },
-      { title: 'Formal vs Informal', slug: 'formal-informal', words: 80, emoji: '🎩' },
-      { title: 'British vs American', slug: 'brit-amer', words: 60, emoji: '🌍' },
-    ],
-  },
-  {
-    category: 'Advanced Vocabulary',
-    emoji: '🎓',
-    color: 'from-orange-500 to-red-500',
-    slug: 'advanced',
-    totalWords: 700,
-    level: 'C1-C2',
-    topics: [
-      { title: 'GRE / IELTS Words', slug: 'gre-ielts', words: 100, emoji: '📚' },
-      { title: 'Academic Vocabulary', slug: 'academic', words: 100, emoji: '🎓' },
-      { title: 'Confusing Words', slug: 'confusing', words: 80, emoji: '🤔' },
-      { title: 'One-Word Substitution', slug: 'one-word', words: 100, emoji: '🎯' },
-      { title: 'Medical Terms', slug: 'medical', words: 80, emoji: '🏥' },
-      { title: 'Legal Terms', slug: 'legal', words: 70, emoji: '⚖️' },
-      { title: 'Science Terms', slug: 'science', words: 80, emoji: '🔬' },
-      { title: 'Power Words', slug: 'power-words', words: 90, emoji: '💪' },
-    ],
-  },
-  {
-    category: 'Verbs (Complete List)',
-    emoji: '⚡',
-    color: 'from-lime-500 to-green-500',
-    slug: 'verbs',
-    totalWords: 800,
-    level: 'A1-B2',
-    topics: [
-      { title: 'Common Action Verbs', slug: 'action-verbs', words: 100, emoji: '🏃' },
-      { title: 'Irregular Verbs (V1-V2-V3)', slug: 'irregular-verbs', words: 200, emoji: '🔀' },
-      { title: 'Regular Verbs', slug: 'regular-verbs', words: 150, emoji: '📋' },
-      { title: 'Stative Verbs', slug: 'stative-verbs', words: 60, emoji: '🧘' },
-      { title: 'Transitive & Intransitive', slug: 'trans-intrans', words: 80, emoji: '↔️' },
-      { title: 'Causative Verbs', slug: 'causative', words: 40, emoji: '🎪' },
-      { title: 'Linking Verbs', slug: 'linking-verbs', words: 30, emoji: '🔗' },
-      { title: 'Reporting Verbs', slug: 'reporting-verbs', words: 60, emoji: '📢' },
-    ],
-  },
-];
-
-// Word of the Day data
-const WORD_OF_DAY = {
-  word: 'Perseverance',
-  pronunciation: '/ˌpɜːrsɪˈvɪərəns/',
-  partOfSpeech: 'noun',
-  hindi: 'दृढ़ता / लगन',
-  definition: 'The quality of continuing to try to achieve a particular aim despite difficulties.',
-  example: 'His perseverance in learning English paid off when he got the job.',
-  synonyms: ['Persistence', 'Determination', 'Tenacity', 'Resilience'],
-  antonyms: ['Giving up', 'Surrender', 'Weakness'],
-  useInSentence: 'With perseverance, you can master English in 75 days.',
+// ── Level colors ───────────────────────────────────────────────
+const LEVEL_COLORS = {
+  A0: 'bg-green-500/20 text-green-300 border-green-500/30',
+  A1: 'bg-teal-500/20 text-teal-300 border-teal-500/30',
+  A2: 'bg-sky-500/20 text-sky-300 border-sky-500/30',
+  B1: 'bg-blue-500/20 text-blue-300 border-blue-500/30',
+  B2: 'bg-violet-500/20 text-violet-300 border-violet-500/30',
+  C1: 'bg-purple-500/20 text-purple-300 border-purple-500/30',
 };
 
-// ============================================================
-// Vocabulary Bank Page
-// ============================================================
-export default function VocabularyBankPage() {
-  const [search, setSearch] = useState('');
-  const [activeFilter, setActiveFilter] = useState('all');
-  const { totalWordsLearned, xp } = useUserStore();
+// ── Word Card Component ────────────────────────────────────────
+function WordCard({ item, isLearned, onToggleLearn, showHindi }) {
+  const [flipped, setFlipped] = useState(false);
 
-  const filtered = VOCAB_CATEGORIES.filter(cat =>
-    !search ||
-    cat.category.toLowerCase().includes(search.toLowerCase()) ||
-    cat.topics.some(t => t.title.toLowerCase().includes(search.toLowerCase()))
-  ).filter(cat =>
-    activeFilter === 'all' || cat.level.includes(activeFilter)
+  return (
+    <motion.div
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+      whileHover={{ y: -2 }}
+      className={`card p-4 group cursor-pointer transition-all ${isLearned ? 'border-green-500/20 bg-green-500/3' : ''}`}
+      onClick={() => setFlipped(!flipped)}
+    >
+      <div className="flex items-start justify-between mb-2">
+        <div className="flex-1 min-w-0">
+          <div className="flex items-center gap-2 flex-wrap">
+            <span className="font-bold text-white text-base">{item.word}</span>
+            {item.pronunciation && (
+              <span className="text-xs text-slate-600 font-mono">/{item.pronunciation}/</span>
+            )}
+          </div>
+          {showHindi && (
+            <p className="text-sm text-primary-300 mt-0.5">{item.hindi}</p>
+          )}
+        </div>
+        <div className="flex items-center gap-2 shrink-0 ml-2">
+          <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border ${LEVEL_COLORS[item.level] || LEVEL_COLORS.B1}`}>
+            {item.level}
+          </span>
+          <button
+            onClick={(e) => { e.stopPropagation(); onToggleLearn(); }}
+            className={`w-7 h-7 flex items-center justify-center rounded-lg transition-all ${
+              isLearned ? 'text-green-400 bg-green-500/15' : 'text-slate-600 hover:text-slate-400 hover:bg-white/8'
+            }`}
+          >
+            <CheckCircle2 size={14} />
+          </button>
+        </div>
+      </div>
+
+      <AnimatePresence>
+        {flipped && (
+          <motion.div
+            initial={{ opacity: 0, height: 0 }}
+            animate={{ opacity: 1, height: 'auto' }}
+            exit={{ opacity: 0, height: 0 }}
+            className="overflow-hidden"
+          >
+            <div className="pt-3 border-t border-white/5 mt-2">
+              <p className="text-sm text-slate-400 italic leading-relaxed">"{item.example}"</p>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {!flipped && (
+        <p className="text-xs text-slate-600 mt-1 truncate">{item.example}</p>
+      )}
+    </motion.div>
   );
+}
+
+// ── Idioms Section Component ───────────────────────────────────
+function IdiomsSection() {
+  return (
+    <div className="space-y-4">
+      <div className="card p-4 border border-amber-500/20 bg-amber-500/5">
+        <p className="text-sm text-slate-400">
+          <span className="text-amber-300 font-semibold">Idioms</span> — इन्हें literally translate मत करो!
+          हर idiom का एक figurative meaning होता है। Context में use करना सीखो।
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        {IDIOMS.map(({ word, hindi, example, level }) => (
+          <motion.div
+            key={word}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="card p-4"
+          >
+            <div className="flex items-start justify-between mb-2">
+              <p className="font-bold text-white text-sm flex-1">{word}</p>
+              <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border shrink-0 ml-2 ${LEVEL_COLORS[level] || LEVEL_COLORS.B1}`}>{level}</span>
+            </div>
+            <p className="text-xs text-amber-300 mb-1.5">{hindi}</p>
+            <p className="text-xs text-slate-500 italic">"{example}"</p>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── Phrasal Verbs Section ──────────────────────────────────────
+function PhrasalVerbsSection() {
+  return (
+    <div className="space-y-4">
+      <div className="card p-4 border border-orange-500/20 bg-orange-500/5">
+        <p className="text-sm text-slate-400">
+          <span className="text-orange-300 font-semibold">Phrasal Verbs</span> — English में verb + preposition मिलकर एक नया meaning बनाते हैं।
+          ये professional conversations में बहुत common हैं। Master karo इन्हें!
+        </p>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+        {PHRASAL_VERBS.map(({ word, hindi, example, level }) => (
+          <motion.div
+            key={word}
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            className="card p-4"
+          >
+            <div className="flex items-start justify-between mb-1.5">
+              <p className="font-bold text-white text-base">{word}</p>
+              <span className={`text-[10px] font-bold px-1.5 py-0.5 rounded border shrink-0 ml-2 ${LEVEL_COLORS[level] || LEVEL_COLORS.B1}`}>{level}</span>
+            </div>
+            <p className="text-xs text-orange-300 mb-1.5">{hindi}</p>
+            <p className="text-xs text-slate-500 italic">"{example}"</p>
+          </motion.div>
+        ))}
+      </div>
+    </div>
+  );
+}
+
+// ── Main Component ─────────────────────────────────────────────
+export default function VocabularyBankPage() {
+  const [activeCategory, setActiveCategory] = useState('office');
+  const [searchQuery,    setSearchQuery]    = useState('');
+  const [selectedLevel,  setSelectedLevel]  = useState('All');
+  const [learnedWords,   setLearnedWords]   = useState(new Set());
+  const [showHindi,      setShowHindi]      = useState(true);
+  const [quizMode,       setQuizMode]       = useState(false);
+
+  const { addXP } = useUserStore() || {};
+
+  // Get words for active category or search results
+  const displayWords = useMemo(() => {
+    if (searchQuery.trim().length > 1) {
+      let results = searchWords(searchQuery);
+      if (selectedLevel !== 'All') results = results.filter(w => w.level === selectedLevel);
+      return results;
+    }
+    if (activeCategory === 'idioms') return IDIOMS;
+    if (activeCategory === 'phrasal-verbs') return PHRASAL_VERBS;
+    let words = ALL_VOCABULARY[activeCategory] || [];
+    if (selectedLevel !== 'All') words = words.filter(w => w.level === selectedLevel);
+    return words;
+  }, [activeCategory, searchQuery, selectedLevel]);
+
+  const toggleLearn = useCallback((wordKey) => {
+    setLearnedWords(prev => {
+      const next = new Set(prev);
+      if (next.has(wordKey)) {
+        next.delete(wordKey);
+      } else {
+        next.add(wordKey);
+        addXP?.(5);
+      }
+      return next;
+    });
+  }, [addXP]);
+
+  const learnedCount  = learnedWords.size;
+  const totalWords    = getAllWords().length;
+  const progressPct   = Math.round((learnedCount / totalWords) * 100);
 
   return (
     <div className="space-y-6">
-
-      {/* ── Header ───────────────────────────────────────── */}
-      <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
-        <div>
-          <h1 className="text-3xl font-black text-white mb-1 flex items-center gap-3">
-            <span className="text-3xl">📖</span> Vocabulary Bank
-          </h1>
-          <p className="text-slate-500">10,000+ words across 8 categories — build a powerful vocabulary</p>
-        </div>
-        <Link href="/vocabulary-bank/word-of-the-day" className="btn-primary text-sm flex items-center gap-2 shrink-0">
-          <Star size={14} className="text-yellow-300" /> Word of the Day
-        </Link>
-      </div>
-
-      {/* ── Word of the Day Banner ────────────────────────── */}
-      <div className="card p-5 border-amber-500/20 bg-gradient-to-r from-amber-950/30 to-yellow-950/20">
-        <div className="flex items-start gap-4 flex-wrap">
-          <div className="flex-1 min-w-0">
-            <div className="flex items-center gap-2 mb-2">
-              <Star size={14} className="text-yellow-400 fill-yellow-400" />
-              <span className="text-xs font-bold text-yellow-400 uppercase tracking-wider">Word of the Day</span>
+      {/* ── Header ──────────────────────────────────────────── */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="relative overflow-hidden rounded-2xl p-6 md:p-8 bg-gradient-to-br from-emerald-600/20 via-teal-600/15 to-cyan-600/10 border border-white/10"
+      >
+        <div className="flex flex-col md:flex-row items-start md:items-center justify-between gap-4">
+          <div>
+            <div className="flex items-center gap-3 mb-2">
+              <div className="w-12 h-12 rounded-2xl bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center shadow-lg">
+                <Globe size={22} className="text-white" />
+              </div>
+              <div>
+                <h1 className="text-2xl md:text-3xl font-black text-white">Vocabulary Bank</h1>
+                <p className="text-sm text-emerald-300 font-medium">1000+ Real words with Hindi meanings</p>
+              </div>
             </div>
-            <div className="flex items-baseline gap-3 flex-wrap">
-              <h2 className="text-2xl font-black text-white">{WORD_OF_DAY.word}</h2>
-              <span className="text-slate-500 text-sm">{WORD_OF_DAY.pronunciation}</span>
-              <span className="badge text-xs text-amber-400 bg-amber-500/15 border border-amber-500/20">
-                {WORD_OF_DAY.partOfSpeech}
-              </span>
+            <p className="text-slate-400 text-sm max-w-xl">
+              Daily Life, Office, Travel, Idioms, Phrasal Verbs — सब categories में real words with examples. 
+              Mark as learned, track your progress.
+            </p>
+          </div>
+          <div className="flex gap-3 flex-wrap">
+            <div className="text-center px-4 py-3 rounded-xl bg-white/5 border border-white/10">
+              <p className="text-xl font-black text-emerald-300">{learnedCount}</p>
+              <p className="text-[10px] text-slate-500 uppercase tracking-wider">Learned</p>
             </div>
-            <p className="hindi-text text-amber-300 text-sm mt-1 mb-2">🇮🇳 {WORD_OF_DAY.hindi}</p>
-            <p className="text-slate-300 text-sm leading-relaxed">{WORD_OF_DAY.definition}</p>
-            <p className="text-slate-500 text-xs mt-2 italic">"{WORD_OF_DAY.example}"</p>
-          </div>
-          <div className="flex flex-col gap-2 shrink-0">
-            <button className="w-10 h-10 rounded-xl bg-amber-500/15 border border-amber-500/20 flex items-center justify-center hover:bg-amber-500/25 transition-all">
-              <Volume2 size={16} className="text-amber-400" />
-            </button>
-            <button className="w-10 h-10 rounded-xl bg-white/5 border border-white/8 flex items-center justify-center hover:bg-white/10 transition-all">
-              <Star size={16} className="text-slate-400" />
-            </button>
+            <div className="text-center px-4 py-3 rounded-xl bg-white/5 border border-white/10">
+              <p className="text-xl font-black text-teal-300">{totalWords}+</p>
+              <p className="text-[10px] text-slate-500 uppercase tracking-wider">Total Words</p>
+            </div>
+            <div className="text-center px-4 py-3 rounded-xl bg-white/5 border border-white/10">
+              <p className="text-xl font-black text-cyan-300">{progressPct}%</p>
+              <p className="text-[10px] text-slate-500 uppercase tracking-wider">Progress</p>
+            </div>
           </div>
         </div>
-        <div className="mt-3 pt-3 border-t border-white/5 flex gap-2 flex-wrap">
-          <span className="text-xs text-slate-500">Synonyms:</span>
-          {WORD_OF_DAY.synonyms.map(s => (
-            <span key={s} className="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full">{s}</span>
-          ))}
-        </div>
-      </div>
 
-      {/* ── Stats ────────────────────────────────────────── */}
-      <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-        {[
-          { label: 'Words Learned', value: totalWordsLearned.toLocaleString(), emoji: '📚', color: 'text-indigo-400' },
-          { label: 'Categories', value: VOCAB_CATEGORIES.length, emoji: '📂', color: 'text-accent-400' },
-          { label: 'Total Words', value: '10,000+', emoji: '🔤', color: 'text-primary-400' },
-          { label: 'Practice Sets', value: '50+', emoji: '🎯', color: 'text-amber-400' },
-        ].map(({ label, value, emoji, color }) => (
-          <div key={label} className="card p-4 text-center">
-            <div className="text-xl mb-1">{emoji}</div>
-            <p className={`text-xl font-black ${color}`}>{value}</p>
-            <p className="text-xs text-slate-500">{label}</p>
+        {/* Progress bar */}
+        <div className="mt-4">
+          <div className="h-1.5 rounded-full bg-white/8 overflow-hidden">
+            <motion.div
+              initial={{ width: 0 }}
+              animate={{ width: `${progressPct}%` }}
+              transition={{ duration: 0.8, delay: 0.3 }}
+              className="h-full rounded-full bg-gradient-to-r from-emerald-500 to-teal-400"
+            />
           </div>
-        ))}
-      </div>
+        </div>
+      </motion.div>
 
-      {/* ── Search & Filter ───────────────────────────────── */}
-      <div className="flex gap-3 flex-wrap">
-        <div className="relative flex-1 min-w-48">
-          <Search size={16} className="absolute left-4 top-1/2 -translate-y-1/2 text-slate-500" />
+      {/* ── Search + Filters ─────────────────────────────────── */}
+      <div className="flex flex-col sm:flex-row gap-3">
+        <div className="relative flex-1">
+          <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500" />
           <input
             type="text"
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-            placeholder="Search vocabulary..."
-            className="input w-full pl-10"
+            value={searchQuery}
+            onChange={(e) => setSearchQuery(e.target.value)}
+            placeholder="Search words, meanings, phrases..."
+            className="input pl-10"
           />
-        </div>
-        <div className="flex gap-2 flex-wrap">
-          {['all', 'A1', 'A2', 'B1', 'B2', 'C1'].map(f => (
+          {searchQuery && (
             <button
-              key={f}
-              onClick={() => setActiveFilter(f)}
-              className={`text-xs px-3 py-2 rounded-xl border font-medium transition-all ${
-                activeFilter === f
-                  ? 'bg-primary-500/20 border-primary-500/40 text-primary-300'
-                  : 'bg-white/3 border-white/8 text-slate-500 hover:text-slate-300'
-              }`}
+              onClick={() => setSearchQuery('')}
+              className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-slate-300"
             >
-              {f === 'all' ? 'All Levels' : f}
+              <XCircle size={16} />
             </button>
+          )}
+        </div>
+
+        <div className="flex gap-2">
+          <select
+            value={selectedLevel}
+            onChange={(e) => setSelectedLevel(e.target.value)}
+            className="input text-sm px-3 pr-8 min-w-[80px] bg-surface-900"
+          >
+            {['All', 'A0', 'A1', 'A2', 'B1', 'B2', 'C1'].map(l => (
+              <option key={l} value={l}>{l}</option>
+            ))}
+          </select>
+          <button
+            onClick={() => setShowHindi(!showHindi)}
+            className={`flex items-center gap-2 px-3 py-2.5 rounded-xl text-sm border transition-all ${
+              showHindi
+                ? 'bg-primary-500/15 text-primary-300 border-primary-500/30'
+                : 'bg-white/5 text-slate-500 border-white/8'
+            }`}
+          >
+            {showHindi ? <Eye size={14} /> : <EyeOff size={14} />}
+            Hindi
+          </button>
+        </div>
+      </div>
+
+      {/* Search Results Banner */}
+      {searchQuery.trim().length > 1 && (
+        <div className="card p-3 flex items-center justify-between">
+          <p className="text-sm text-slate-400">
+            Found <span className="text-white font-bold">{displayWords.length}</span> results for "{searchQuery}"
+          </p>
+          <button onClick={() => setSearchQuery('')} className="text-xs text-primary-400 hover:text-primary-300">Clear</button>
+        </div>
+      )}
+
+      {/* ── Category Grid ─────────────────────────────────────── */}
+      {!searchQuery && (
+        <div>
+          <h3 className="text-sm font-bold text-slate-400 uppercase tracking-wider mb-3">Categories</h3>
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-2">
+            {VOCAB_CATEGORIES_META.map(({ id, label, emoji, color, level, count }) => (
+              <motion.button
+                key={id}
+                onClick={() => setActiveCategory(id)}
+                whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.97 }}
+                className={`p-3 rounded-xl border transition-all text-left group ${
+                  activeCategory === id
+                    ? 'border-primary-500/40 bg-primary-500/10'
+                    : 'border-white/8 bg-white/3 hover:bg-white/6 hover:border-white/15'
+                }`}
+              >
+                <span className="text-xl mb-2 block">{emoji}</span>
+                <p className="font-semibold text-white text-xs leading-tight">{label}</p>
+                <p className="text-[10px] text-slate-500 mt-1">{count} words • {level}</p>
+              </motion.button>
+            ))}
+            {/* Special categories */}
+            {[
+              { id:'idioms',         label:'Idioms',         emoji:'💬', count:20, level:'B1-C1' },
+              { id:'phrasal-verbs',  label:'Phrasal Verbs',  emoji:'🔀', count:22, level:'B1' },
+            ].map(({ id, label, emoji, count, level }) => (
+              <motion.button
+                key={id}
+                onClick={() => setActiveCategory(id)}
+                whileHover={{ y: -2 }}
+                whileTap={{ scale: 0.97 }}
+                className={`p-3 rounded-xl border transition-all text-left group ${
+                  activeCategory === id
+                    ? 'border-primary-500/40 bg-primary-500/10'
+                    : 'border-white/8 bg-white/3 hover:bg-white/6 hover:border-white/15'
+                }`}
+              >
+                <span className="text-xl mb-2 block">{emoji}</span>
+                <p className="font-semibold text-white text-xs leading-tight">{label}</p>
+                <p className="text-[10px] text-slate-500 mt-1">{count} items • {level}</p>
+              </motion.button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* ── Word List ─────────────────────────────────────────── */}
+      <div>
+        {activeCategory !== 'idioms' && activeCategory !== 'phrasal-verbs' ? (
+          <>
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-sm font-bold text-slate-400 uppercase tracking-wider">
+                {searchQuery ? `Search Results (${displayWords.length})` : `${VOCAB_CATEGORIES_META.find(c => c.id === activeCategory)?.label || activeCategory} (${displayWords.length})`}
+              </h3>
+              {learnedWords.size > 0 && (
+                <button
+                  onClick={() => setLearnedWords(new Set())}
+                  className="flex items-center gap-1 text-xs text-slate-600 hover:text-slate-400 transition-colors"
+                >
+                  <RotateCcw size={11} />
+                  Reset
+                </button>
+              )}
+            </div>
+            {displayWords.length > 0 ? (
+              <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3">
+                {displayWords.map((item, i) => (
+                  <WordCard
+                    key={`${item.word}-${i}`}
+                    item={item}
+                    isLearned={learnedWords.has(item.word)}
+                    onToggleLearn={() => toggleLearn(item.word)}
+                    showHindi={showHindi}
+                  />
+                ))}
+              </div>
+            ) : (
+              <div className="card p-8 text-center">
+                <Globe size={40} className="text-slate-600 mx-auto mb-3" />
+                <p className="text-slate-400">No words found. Try a different search or category.</p>
+              </div>
+            )}
+          </>
+        ) : activeCategory === 'idioms' ? (
+          <IdiomsSection />
+        ) : (
+          <PhrasalVerbsSection />
+        )}
+      </div>
+
+      {/* ── Study Tips ───────────────────────────────────────── */}
+      <div className="card p-5">
+        <h3 className="font-bold text-white mb-4 flex items-center gap-2">
+          <Zap size={16} className="text-yellow-400" />
+          Vocabulary Learning Tips
+        </h3>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          {[
+            { tip:'Context Method', desc:'सिर्फ word नहीं — example sentence भी याद करो। Context में याद रहता है।' },
+            { tip:'Spaced Repetition', desc:'नए words को: 1 day बाद, 3 days बाद, 7 days बाद, 30 days बाद revise करो।' },
+            { tip:'Use in Sentences', desc:'हर नए word से कम से कम 3 sentences बनाओ। Writing और speaking में use karo।' },
+            { tip:'Word Families', desc:"'Decide' सीखो तो 'decision, decisive, indecisive' भी सीखो — एक साथ 4 words!" },
+          ].map(({ tip, desc }) => (
+            <div key={tip} className="flex items-start gap-3">
+              <CheckCircle2 size={15} className="text-green-400 shrink-0 mt-0.5" />
+              <div>
+                <p className="font-semibold text-white text-sm">{tip}</p>
+                <p className="text-xs text-slate-500">{desc}</p>
+              </div>
+            </div>
           ))}
         </div>
-      </div>
-
-      {/* ── Categories Grid ───────────────────────────────── */}
-      <div className="space-y-6">
-        {filtered.map(({ category, emoji, color, slug, totalWords, level, topics }) => (
-          <div key={slug} className="card p-5">
-            {/* Category Header */}
-            <div className="flex items-center justify-between mb-4 flex-wrap gap-2">
-              <div className="flex items-center gap-3">
-                <div className={`w-11 h-11 rounded-2xl bg-gradient-to-br ${color} flex items-center justify-center text-xl shadow-lg`}>
-                  {emoji}
-                </div>
-                <div>
-                  <h2 className="font-black text-white">{category}</h2>
-                  <p className="text-xs text-slate-500">{totalWords} words · Level {level}</p>
-                </div>
-              </div>
-              <Link
-                href={`/vocabulary-bank/${slug}`}
-                className="btn-secondary text-xs flex items-center gap-1.5 px-3 py-1.5"
-              >
-                View All <ArrowRight size={12} />
-              </Link>
-            </div>
-
-            {/* Subtopics */}
-            <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2">
-              {topics.map(({ title, slug: topicSlug, words, emoji: topicEmoji }) => (
-                <Link
-                  key={topicSlug}
-                  href={`/vocabulary-bank/${slug}/${topicSlug}`}
-                  className="flex items-center gap-2 p-3 rounded-xl bg-white/3 border border-white/5 hover:border-white/12 hover:bg-white/6 transition-all group"
-                >
-                  <span className="text-lg shrink-0">{topicEmoji}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className="text-xs font-medium text-slate-300 group-hover:text-white transition-colors line-clamp-2">
-                      {title}
-                    </p>
-                    <p className="text-[10px] text-slate-600">{words} words</p>
-                  </div>
-                </Link>
-              ))}
-            </div>
-          </div>
-        ))}
-      </div>
-
-      {/* ── Quick Practice CTA ───────────────────────────── */}
-      <div className="card p-5 border-primary-500/20 bg-primary-500/5 flex items-center justify-between flex-wrap gap-4">
-        <div className="flex items-center gap-3">
-          <span className="text-2xl">⚡</span>
-          <div>
-            <h3 className="font-bold text-white">Vocabulary Flashcards</h3>
-            <p className="text-sm text-slate-500">Spaced repetition se words yaad karo — sab categories se</p>
-          </div>
-        </div>
-        <Link href="/memory-lab/spaced-repetition" className="btn-primary text-sm flex items-center gap-2 shrink-0">
-          <Brain size={15} /> Start Flashcards
-        </Link>
       </div>
     </div>
   );

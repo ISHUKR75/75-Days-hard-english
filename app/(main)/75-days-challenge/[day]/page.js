@@ -12,6 +12,7 @@ import {
   MessageSquare, FileText, Trophy,
 } from 'lucide-react';
 import DAYS_75_TOPICS, { getTopicByDay } from '@/lib/topics';
+import getContentForDay from '@/lib/grammarContent';
 import useUserStore from '@/store/userStore';
 import useProgressStore from '@/store/progressStore';
 
@@ -36,6 +37,7 @@ export default function DayPage() {
   const params = useParams();
   const dayNum = parseInt(params?.day || '1', 10);
   const topic  = getTopicByDay(dayNum);
+  const content = getContentForDay(dayNum, topic?.title);
 
   const { completeLesson, addXP, addCoins } = useUserStore();
   const { startTopic, completeTopic }        = useProgressStore();
@@ -152,12 +154,12 @@ export default function DayPage() {
               {/* Section Content */}
               {isActive && (
                 <div className="px-5 pb-6 border-t border-white/5 pt-5">
-                  {id === 'concept' && <ConceptSection topic={topic} dayNum={dayNum} />}
-                  {id === 'examples' && <ExamplesSection topic={topic} />}
-                  {id === 'mistakes' && <MistakesSection topic={topic} />}
-                  {id === 'vocabulary' && <VocabularySection topic={topic} dayNum={dayNum} />}
+                  {id === 'concept' && <ConceptSection topic={topic} dayNum={dayNum} content={content} />}
+                  {id === 'examples' && <ExamplesSection topic={topic} content={content} />}
+                  {id === 'mistakes' && <MistakesSection topic={topic} content={content} />}
+                  {id === 'vocabulary' && <VocabularySection topic={topic} dayNum={dayNum} content={content} />}
                   {id === 'practice' && <PracticeLink dayNum={dayNum} />}
-                  {id === 'speaking' && <SpeakingSection topic={topic} />}
+                  {id === 'speaking' && <SpeakingSection topic={topic} content={content} />}
                   {id === 'writing' && <WritingSection topic={topic} />}
                   {id === 'test' && <TestLink dayNum={dayNum} />}
                 </div>
@@ -193,67 +195,96 @@ export default function DayPage() {
 // Section Components
 // ============================================================
 
-function ConceptSection({ topic, dayNum }) {
+function ConceptSection({ topic, dayNum, content }) {
+  const explanation = content?.explanation || '';
+  const rules = content?.rules || [];
+  const memoryTrick = content?.memoryTrick || '';
+
+  // Parse markdown-ish bold text for display
+  const renderBold = (text) => {
+    const parts = text.split(/\*\*(.*?)\*\*/g);
+    return parts.map((part, i) =>
+      i % 2 === 1
+        ? <strong key={i} className="text-white font-semibold">{part}</strong>
+        : <span key={i}>{part}</span>
+    );
+  };
+
   return (
     <div className="space-y-5">
+      {/* Explanation */}
       <div>
         <h3 className="font-bold text-white mb-3 flex items-center gap-2">
-          <span className="text-xl">{topic.emoji}</span> {topic.title} — What is it?
+          <span className="text-xl">{topic.emoji}</span> {topic.title} — Complete Guide
         </h3>
-        <div className="p-4 rounded-xl bg-primary-500/8 border border-primary-500/15">
-          <p className="text-slate-300 text-sm leading-relaxed">
-            {/* Placeholder — will be filled from data files */}
-            <span className="hindi-text">अभी इस topic का explanation यहाँ आएगा।</span>
-            <br /><br />
-            This section contains the complete theory, rules, and concept explanation for <strong className="text-white">{topic.title}</strong>.
-            The explanation covers both Hindi and English with visual examples, sentence patterns, and usage rules.
-          </p>
+        <div className="p-4 rounded-xl bg-primary-500/8 border border-primary-500/15 space-y-2">
+          {explanation.trim().split('\n').filter(l => l.trim()).map((line, i) => {
+            const trimmed = line.trim();
+            if (trimmed.startsWith('#')) {
+              const text = trimmed.replace(/^#+\s*/, '');
+              return <p key={i} className="font-bold text-primary-300 text-sm mt-2">{renderBold(text)}</p>;
+            }
+            if (trimmed.startsWith('|') || trimmed.startsWith('---')) return null;
+            if (trimmed.startsWith('🇮🇳') || trimmed.startsWith('🇬🇧')) {
+              return (
+                <p key={i} className={`text-sm ${trimmed.startsWith('🇮🇳') ? 'hindi-text text-slate-300' : 'english-text font-medium'}`}>
+                  {renderBold(trimmed)}
+                </p>
+              );
+            }
+            if (trimmed.startsWith('-') || trimmed.startsWith('•')) {
+              return (
+                <div key={i} className="flex items-start gap-2 text-sm text-slate-400">
+                  <span className="text-primary-500 shrink-0 mt-0.5">•</span>
+                  <span>{renderBold(trimmed.replace(/^[-•]\s*/, ''))}</span>
+                </div>
+              );
+            }
+            return <p key={i} className="text-slate-300 text-sm leading-relaxed">{renderBold(trimmed)}</p>;
+          })}
         </div>
       </div>
 
-      <div>
-        <h4 className="font-semibold text-slate-300 mb-3">📌 Key Rules</h4>
-        <div className="space-y-2">
-          {[
-            'Rule 1: Basic sentence structure and formation',
-            'Rule 2: When to use and when not to use',
-            'Rule 3: Common patterns and variations',
-            'Rule 4: Formal vs informal usage',
-          ].map((rule, i) => (
-            <div key={i} className="flex items-start gap-3 text-sm text-slate-400">
-              <CheckCircle2 size={15} className="text-accent-400 shrink-0 mt-0.5" />
-              {rule}
-            </div>
-          ))}
+      {/* Key Rules */}
+      {rules.length > 0 && (
+        <div>
+          <h4 className="font-semibold text-slate-300 mb-3">📌 Key Rules</h4>
+          <div className="space-y-2">
+            {rules.map((rule, i) => (
+              <div key={i} className="flex items-start gap-3 text-sm text-slate-400 p-3 rounded-xl bg-white/3 border border-white/5">
+                <CheckCircle2 size={15} className="text-accent-400 shrink-0 mt-0.5" />
+                <span>{renderBold(rule)}</span>
+              </div>
+            ))}
+          </div>
         </div>
-      </div>
+      )}
 
-      <div>
-        <h4 className="font-semibold text-slate-300 mb-3">💡 Memory Trick</h4>
-        <div className="p-4 rounded-xl bg-amber-500/8 border border-amber-500/15">
-          <p className="text-amber-300 text-sm">
-            <strong>Easy Trick:</strong> Remember this pattern to never forget this rule!
-            This memory trick helps you recall the concept instantly.
-          </p>
+      {/* Memory Trick */}
+      {memoryTrick && (
+        <div>
+          <h4 className="font-semibold text-slate-300 mb-3">💡 Memory Trick</h4>
+          <div className="p-4 rounded-xl bg-amber-500/8 border border-amber-500/15">
+            <p className="text-amber-300 text-sm leading-relaxed">
+              {renderBold(memoryTrick)}
+            </p>
+          </div>
         </div>
-      </div>
+      )}
 
       {/* AI Explanation button */}
-      <button className="btn-secondary text-sm flex items-center gap-2">
+      <Link href="/ai-tutor" className="btn-secondary text-sm flex items-center gap-2 w-fit">
         <Zap size={15} className="text-violet-400" />
-        Ask AI to Explain in Detail
-      </button>
+        Ask AI Tutor for More Help
+      </Link>
     </div>
   );
 }
 
-function ExamplesSection({ topic }) {
-  const examples = [
-    { hindi: 'मैं पानी पीना चाहता हूँ।',   english: 'I want to drink water.',        type: 'daily' },
-    { hindi: 'वह ऑफिस जाना चाहती है।',     english: 'She wants to go to the office.', type: 'office' },
-    { hindi: 'हम मिलना चाहते हैं।',        english: 'We want to meet.',               type: 'conversation' },
-    { hindi: 'क्या आप कुछ कहना चाहते हैं?', english: 'Do you want to say something?',  type: 'question' },
-    { hindi: 'मैं यह नहीं चाहता।',          english: 'I don\'t want this.',            type: 'negative' },
+function ExamplesSection({ topic, content }) {
+  const examples = content?.examples || [
+    { hindi: 'Practice sentence 1 (Hindi)', english: 'Practice sentence 1 in English', type: 'Example' },
+    { hindi: 'Practice sentence 2 (Hindi)', english: 'Practice sentence 2 in English', type: 'Example' },
   ];
 
   return (
@@ -261,9 +292,9 @@ function ExamplesSection({ topic }) {
       <p className="text-sm text-slate-500">Real-life examples — Hindi to English translation:</p>
       {examples.map(({ hindi, english, type }, i) => (
         <div key={i} className="p-4 rounded-xl bg-white/3 border border-white/6 group hover:border-white/10 transition-all">
-          <p className="hindi-text text-sm mb-1">🇮🇳 {hindi}</p>
-          <p className="english-text text-sm">🇬🇧 {english}</p>
-          <span className="text-[10px] text-slate-600 capitalize mt-1 inline-block">{type}</span>
+          <span className="text-[10px] text-primary-400 font-semibold uppercase tracking-wide">{type}</span>
+          <p className="hindi-text text-sm mt-1 mb-1">🇮🇳 {hindi}</p>
+          <p className="english-text text-sm font-medium">🇬🇧 {english}</p>
         </div>
       ))}
       <p className="text-xs text-slate-600 mt-2">+ 100 more examples in the full practice section →</p>
@@ -271,62 +302,66 @@ function ExamplesSection({ topic }) {
   );
 }
 
-function MistakesSection({ topic }) {
-  const mistakes = [
-    { wrong: 'I am want to go.',           correct: 'I want to go.',             explanation: '"Am" should not be used with "want".' },
-    { wrong: 'She is wanting a car.',      correct: 'She wants a car.',           explanation: '"Want" is a stative verb — no -ing form.' },
-    { wrong: 'I want that you come here.', correct: 'I want you to come here.',   explanation: 'Use "want + object + to + verb".' },
-    { wrong: 'Do you wanting tea?',        correct: 'Do you want tea?',           explanation: 'Never use -ing form with want in questions.' },
+function MistakesSection({ topic, content }) {
+  const mistakes = content?.mistakes || [
+    { wrong: 'Common mistake example', correct: 'Correct version', why: 'Explanation why this is wrong.' },
   ];
 
   return (
     <div className="space-y-3">
       <p className="text-sm text-slate-500 mb-4">⚠️ These are the most common mistakes students make:</p>
-      {mistakes.map(({ wrong, correct, explanation }, i) => (
-        <div key={i} className="p-4 rounded-xl border">
+      {mistakes.map(({ wrong, correct, why }, i) => (
+        <div key={i} className="p-4 rounded-xl border border-white/8 bg-white/2">
           <div className="flex items-start gap-2 mb-2">
-            <span className="error-text text-xs font-bold mt-0.5 shrink-0">❌ Wrong:</span>
-            <p className="error-text text-sm">{wrong}</p>
+            <span className="text-rose-400 text-xs font-bold mt-0.5 shrink-0">❌ Wrong:</span>
+            <p className="text-rose-300 text-sm">{wrong}</p>
           </div>
           <div className="flex items-start gap-2 mb-2">
-            <span className="correct-text text-xs font-bold mt-0.5 shrink-0">✅ Correct:</span>
-            <p className="correct-text text-sm">{correct}</p>
+            <span className="text-emerald-400 text-xs font-bold mt-0.5 shrink-0">✅ Correct:</span>
+            <p className="text-emerald-300 text-sm">{correct}</p>
           </div>
-          <p className="text-xs text-slate-500 border-t border-white/5 pt-2 mt-2">{explanation}</p>
+          <p className="text-xs text-slate-500 border-t border-white/5 pt-2 mt-2">💬 {why}</p>
         </div>
       ))}
     </div>
   );
 }
 
-function VocabularySection({ topic, dayNum }) {
-  const words = [
-    { word: 'Want',     hindi: 'चाहना',    ipa: '/wɒnt/',   meaning: 'To desire or wish for something', example: 'I want a new book.' },
-    { word: 'Desire',   hindi: 'इच्छा',    ipa: '/dɪˈzaɪər/', meaning: 'A strong feeling of wanting', example: 'She has a desire to learn.' },
-    { word: 'Wish',     hindi: 'इच्छा करना', ipa: '/wɪʃ/', meaning: 'To hope for something',         example: 'I wish you success.' },
-    { word: 'Require',  hindi: 'आवश्यकता',  ipa: '/rɪˈkwaɪər/', meaning: 'To need something',        example: 'This job requires patience.' },
-    { word: 'Expect',   hindi: 'उम्मीद',    ipa: '/ɪkˈspekt/', meaning: 'To think something will happen', example: 'I expect him to call.' },
+function VocabularySection({ topic, dayNum, content }) {
+  const [showAll, setShowAll] = useState(false);
+  const words = content?.vocabulary || [
+    { word: 'Practice', hindi: 'अभ्यास', example: 'Practice makes perfect.' },
+    { word: 'Grammar',  hindi: 'व्याकरण', example: 'Grammar is important.' },
   ];
+  const displayed = showAll ? words : words.slice(0, 6);
 
   return (
     <div className="space-y-3">
       <div className="flex items-center justify-between mb-2">
-        <p className="text-sm text-slate-500">Today's vocabulary words (showing 5 of 500+):</p>
-        <Link href={`/vocabulary/day-${dayNum}`} className="text-xs text-primary-400 hover:text-primary-300">See all 500+ →</Link>
+        <p className="text-sm text-slate-500">Today's key vocabulary ({words.length} words):</p>
+        <Link href={`/vocabulary-bank`} className="text-xs text-primary-400 hover:text-primary-300">All vocab →</Link>
       </div>
-      {words.map(({ word, hindi, ipa, meaning, example }) => (
-        <div key={word} className="p-4 rounded-xl bg-white/3 border border-white/6 hover:border-white/10 transition-all">
+      {displayed.map(({ word, hindi, ipa, example, meaning }, i) => (
+        <div key={i} className="p-4 rounded-xl bg-white/3 border border-white/6 hover:border-white/10 transition-all">
           <div className="flex items-start justify-between gap-3 mb-2">
             <div>
               <span className="font-bold text-white">{word}</span>
-              <span className="text-slate-500 text-xs ml-2">{ipa}</span>
+              {ipa && <span className="text-slate-500 text-xs ml-2">{ipa}</span>}
             </div>
-            <span className="hindi-text text-sm shrink-0">{hindi}</span>
+            <span className="hindi-text text-sm shrink-0 text-amber-300">{hindi}</span>
           </div>
-          <p className="text-xs text-slate-400 mb-1">{meaning}</p>
-          <p className="text-xs example-text">e.g. {example}</p>
+          {meaning && <p className="text-xs text-slate-400 mb-1">{meaning}</p>}
+          <p className="text-xs text-emerald-400/80 italic">e.g. {example}</p>
         </div>
       ))}
+      {words.length > 6 && (
+        <button
+          onClick={() => setShowAll(v => !v)}
+          className="text-xs text-primary-400 hover:text-primary-300 flex items-center gap-1"
+        >
+          {showAll ? '↑ Show less' : `↓ Show all ${words.length} words`}
+        </button>
+      )}
     </div>
   );
 }
@@ -349,17 +384,21 @@ function PracticeLink({ dayNum }) {
   );
 }
 
-function SpeakingSection({ topic }) {
+function SpeakingSection({ topic, content }) {
+  const speakingTips = content?.speakingTips || [];
+  const examples = (content?.examples || []).slice(0, 4).map(e => e.english);
+  const sentences = examples.length > 0 ? examples : [
+    'Hello, my name is ___. I work as a ___.',
+    'I want to improve my English skills.',
+    'Could you please repeat that?',
+    'I would like to discuss this further.',
+  ];
+
   return (
     <div className="space-y-4">
       <p className="text-sm text-slate-400">Practice speaking these sentences aloud. Record yourself and compare:</p>
       <div className="space-y-3">
-        {[
-          'Hello, my name is ___. I work as a ___.',
-          'I want to improve my English skills.',
-          'Could you please repeat that?',
-          'I would like to discuss this further.',
-        ].map((sentence, i) => (
+        {sentences.map((sentence, i) => (
           <div key={i} className="flex items-center gap-3 p-4 rounded-xl bg-white/3 border border-white/6">
             <button className="w-9 h-9 rounded-xl bg-primary-500/20 border border-primary-500/30 flex items-center justify-center shrink-0 hover:bg-primary-500/30 transition-all">
               <Play size={14} className="text-primary-400" fill="currentColor" />
@@ -371,8 +410,18 @@ function SpeakingSection({ topic }) {
           </div>
         ))}
       </div>
-      <Link href="/speaking" className="btn-secondary text-sm flex items-center gap-2 w-fit">
-        <Mic size={15} /> Full Speaking Practice →
+      {speakingTips.length > 0 && (
+        <div className="p-4 rounded-xl bg-pink-500/5 border border-pink-500/15">
+          <p className="text-xs font-semibold text-pink-300 mb-2">🎙️ Speaking Tips:</p>
+          <ul className="space-y-1">
+            {speakingTips.map((tip, i) => (
+              <li key={i} className="text-xs text-slate-400">• {tip}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+      <Link href="/speaking-lab" className="btn-secondary text-sm flex items-center gap-2 w-fit">
+        <Mic size={15} /> Full Speaking Lab →
       </Link>
     </div>
   );

@@ -1,0 +1,1 @@
+- [grammarContent TDZ pattern](grammar-content-tdz.md) — CONTENT_MAP must live after all DAY_XX_CONTENT consts; appending content to end of file without moving the map causes TDZ crash.

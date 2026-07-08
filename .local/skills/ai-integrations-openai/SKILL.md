@@ -26,6 +26,7 @@ All listed non-use-case-specific gpt models support text + image inputs and text
 - gpt-5.2: good for most tasks, prefer gpt-5.4
 - gpt-5.2-codex: code-optimized gpt-5.2 variant. Responses API only (not chat completions).
 - gpt-5.1, gpt-5: good for most tasks, prefer gpt-5.4
+- gpt-5.4-mini: cost-effective small model, faster and cheaper than gpt-5.4.
 - gpt-5-mini: cost-effective for high-volume tasks
 - gpt-5-nano: fastest and cheapest, use when volume and speed are critical
 - gpt-4.1, gpt-4.1-mini, gpt-4.1-nano, gpt-4o, gpt-4o-mini: legacy — DO NOT use unless project already uses them

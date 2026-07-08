@@ -18,18 +18,8 @@ import useUserStore    from '@/store/userStore';
 import useProgressStore from '@/store/progressStore';
 import DAYS_75_TOPICS   from '@/lib/topics';
 
-// ============================================================
-// Sample activity data for the chart (last 7 days)
-// ============================================================
-const WEEKLY_DATA = [
-  { day: 'Mon', questions: 0,  xp: 0,   minutes: 0  },
-  { day: 'Tue', questions: 0,  xp: 0,   minutes: 0  },
-  { day: 'Wed', questions: 0,  xp: 0,   minutes: 0  },
-  { day: 'Thu', questions: 0,  xp: 0,   minutes: 0  },
-  { day: 'Fri', questions: 0,  xp: 0,   minutes: 0  },
-  { day: 'Sat', questions: 0,  xp: 0,   minutes: 0  },
-  { day: 'Sun', questions: 0,  xp: 0,   minutes: 0  },
-];
+// Day labels for weekly chart
+const DAY_LABELS = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
 
 // ============================================================
 // Custom Recharts Tooltip
@@ -57,13 +47,28 @@ export default function DashboardPage() {
     totalQuestionsAttempted, totalCorrectAnswers, totalLessonsCompleted,
     getLevelProgress, getAccuracy, getDailyGoalProgress, dailyGoal, dailyProgress,
   } = useUserStore();
-  const { topics: topicProgress, getHeatmapData } = useProgressStore();
+  const { topics: topicProgress, getHeatmapData, dailyActivity } = useProgressStore();
 
   // Heatmap data (last 12 weeks shown)
   const heatmapData = getHeatmapData().slice(-84); // 12 weeks × 7 days
   const accuracy      = getAccuracy();
   const levelProgress = getLevelProgress();
   const dailyPercent  = getDailyGoalProgress();
+
+  // Build real weekly data from dailyActivity store
+  const weeklyData = DAY_LABELS.map((label, i) => {
+    const d = new Date();
+    const offset = (d.getDay() - i + 7) % 7;
+    d.setDate(d.getDate() - offset);
+    const key = d.toISOString().slice(0, 10);
+    const act = (dailyActivity || {})[key] || {};
+    return {
+      day:       label,
+      questions: act.questionsAttempted || 0,
+      xp:        act.xpEarned           || 0,
+      minutes:   act.timeSpent          || 0,
+    };
+  });
 
   // Current day (1-75)
   const currentDay = Math.min(totalLessonsCompleted + 1, 75);
@@ -254,7 +259,7 @@ export default function DashboardPage() {
             <span className="text-xs text-slate-500 bg-white/5 px-2 py-1 rounded-lg">Last 7 days</span>
           </div>
           <ResponsiveContainer width="100%" height={180}>
-            <AreaChart data={WEEKLY_DATA} margin={{ top: 5, right: 5, left: -20, bottom: 0 }}>
+            <AreaChart data={weeklyData} margin={{ top: 5, right: 5, left: -20, bottom: 0 }}>
               <defs>
                 <linearGradient id="xpGrad" x1="0" y1="0" x2="0" y2="1">
                   <stop offset="5%"  stopColor="#6366f1" stopOpacity={0.3} />

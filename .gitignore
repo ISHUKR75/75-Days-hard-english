@@ -59,3 +59,9 @@ coverage/
 .turbo/
 *.log
 .env.local
+
+node_modules/
+.next/
+dist/
+build/
+out/
