@@ -1,0 +1,181 @@
+{
+  "id": "imperative-sentences",
+  "title": "Imperative Sentences",
+  "emoji": "📢",
+  "cefr": "A1",
+  "concept": "Imperative sentences are used to give commands, instructions, requests, advice, warnings, and suggestions. The subject 'You' is implied and not written. The sentence always begins with the base form (V1) of the verb.",
+  "explanation": "Imperative sentences kisi ko kuch karne ya na karne ke liye kehte hain. Inme Subject (You) nahi likha jata — wo implied hota hai. Sentence hamesha Verb ki Base Form se shuru hota hai.\n\nFormula:\nAffirmative: Verb (V1) + Object\nNegative: Don't / Never + Verb (V1)\nPolite: Please / Kindly + Verb (V1)\nInclusive: Let's + Verb (V1)\n\nExamples:\nClose the door. (command)\nPlease sit down. (polite request)\nDon't run here. (negative)\nLet's start. (inclusive suggestion)",
+  "hindiExplanation": "Imperative sentences वो sentences होते हैं जिनमें हम किसी को:\n• कुछ करने को कहते हैं (command): 'दरवाज़ा बंद करो।'\n• विनती करते हैं (request): 'कृपया बैठ जाइए।'\n• मना करते हैं (negative): 'यहाँ मत दौड़ो।'\n• सुझाव देते हैं (suggestion): 'चलो शुरू करते हैं।'\n\nइन sentences में Subject 'You' छुपा होता है — लिखा नहीं जाता।\nहमेशा Verb की Base Form (V1) use होती है — closed, closing नहीं।",
+  "rules": [
+    "Subject (You) नहीं लिखते — implied है",
+    "हमेशा Verb की Base Form (V1) से शुरू करो: open, sit, go, come",
+    "Polite बनाने के लिए 'Please' start में या end में: Please sit. / Sit, please.",
+    "Formal polite के लिए 'Kindly': Kindly submit the form.",
+    "Negative के लिए 'Don't' + V1: Don't shout. Don't be late.",
+    "Absolute negative के लिए 'Never': Never lie. Never give up.",
+    "Inclusive suggestion के लिए 'Let's' + V1: Let's eat. Let's begin.",
+    "Warning के लिए 'Be careful / Watch out / Mind': Be careful! Watch your step!",
+    "Question tag जोड़ने के लिए: Close the door, will you? / Come here, won't you?",
+    "Imperative में -ing form नहीं होती: 'Please be coming' WRONG → 'Please come' CORRECT"
+  ],
+  "examples": [
+    { "hindi": "दरवाज़ा बंद करो।", "english": "Close the door.", "type": "Home" },
+    { "hindi": "मेरी बात सुनो।", "english": "Listen to me.", "type": "Daily" },
+    { "hindi": "यहाँ बैठ जाओ।", "english": "Sit here.", "type": "Daily" },
+    { "hindi": "पानी पियो।", "english": "Drink water.", "type": "Health" },
+    { "hindi": "ध्यान से पढ़ो।", "english": "Read carefully.", "type": "Study" },
+    { "hindi": "कृपया साइन करें।", "english": "Please sign here.", "type": "Office" },
+    { "hindi": "रिपोर्ट जमा करें।", "english": "Please submit the report.", "type": "Professional" },
+    { "hindi": "यहाँ मत दौड़ो।", "english": "Don't run here.", "type": "Warning" },
+    { "hindi": "देर मत करो।", "english": "Don't be late.", "type": "Office" },
+    { "hindi": "शोर मत करो।", "english": "Don't make noise.", "type": "Home" },
+    { "hindi": "कभी झूठ मत बोलो।", "english": "Never tell a lie.", "type": "Life Lesson" },
+    { "hindi": "हार मत मानो।", "english": "Never give up.", "type": "Motivation" },
+    { "hindi": "चलो खाना खाते हैं।", "english": "Let's eat.", "type": "Suggestion" },
+    { "hindi": "चलो मीटिंग शुरू करते हैं।", "english": "Let's start the meeting.", "type": "Professional" },
+    { "hindi": "सावधान रहो।", "english": "Be careful.", "type": "Warning" },
+    { "hindi": "खुश रहो।", "english": "Be happy.", "type": "Daily" },
+    { "hindi": "समय पर आओ।", "english": "Come on time.", "type": "Office" },
+    { "hindi": "मुझे call करना।", "english": "Call me.", "type": "Casual" },
+    { "hindi": "खिड़की खोलो।", "english": "Open the window.", "type": "Home" },
+    { "hindi": "अपना काम करो।", "english": "Do your work.", "type": "Instruction" },
+    { "hindi": "हाथ धोओ।", "english": "Wash your hands.", "type": "Hygiene" },
+    { "hindi": "सीधे बैठो।", "english": "Sit straight.", "type": "Posture" },
+    { "hindi": "गहरी सांस लो।", "english": "Take a deep breath.", "type": "Relaxation" },
+    { "hindi": "लाइन में खड़े रहो।", "english": "Stand in line.", "type": "Public" },
+    { "hindi": "अपना परिचय दो।", "english": "Introduce yourself.", "type": "Social" }
+  ],
+  "commonMistakes": [
+    {
+      "wrong": "You close the door.",
+      "correct": "Close the door.",
+      "why": "Imperative में 'You' subject नहीं लिखते — it is implied"
+    },
+    {
+      "wrong": "Please to sit here.",
+      "correct": "Please sit here.",
+      "why": "'Please to' गलत है — Please के बाद directly V1"
+    },
+    {
+      "wrong": "Kindly be coming now.",
+      "correct": "Kindly come now.",
+      "why": "Imperative में -ing form नहीं — base form (V1) use करो"
+    },
+    {
+      "wrong": "Don't to shout.",
+      "correct": "Don't shout.",
+      "why": "'Don't to' गलत है — Don't के बाद directly V1"
+    },
+    {
+      "wrong": "Lets go.",
+      "correct": "Let's go.",
+      "why": "'Let's' में apostrophe ज़रूरी है — Let + us = Let's"
+    },
+    {
+      "wrong": "Never be lying.",
+      "correct": "Never lie.",
+      "why": "Never के बाद भी base form (V1) — -ing नहीं"
+    },
+    {
+      "wrong": "Drink the water.",
+      "correct": "Drink water.",
+      "why": "Water uncountable noun है — general sense में 'the' नहीं"
+    },
+    {
+      "wrong": "Please opened the door.",
+      "correct": "Please open the door.",
+      "why": "Imperative में हमेशा V1 (base form) — V2 नहीं"
+    }
+  ],
+  "memoryTrick": "VERB से शुरू = IMPERATIVE! जब sentence Verb (close, sit, go, open, don't) से start हो — वो Imperative है। 'You' देखो तो Declarative है। Verb देखो तो Imperative है!",
+  "speakingTips": [
+    "रोज़ घर में 10 Imperatives बोलो — माँ को, भाई को, दोस्त को: 'Bring water. Close the window. Help me.'",
+    "Tone practice करो: Same sentence को Strict Tone और Friendly Tone में बोलो — 'Come here!' vs 'Come here, please.'",
+    "Role-play करो: Teacher, Boss, Friend — तीनों के तरीके से commands बोलो",
+    "Mirror के सामने बोलो — body language के साथ imperatives practice करो",
+    "Office scenarios practice करो: 'Please review this. Kindly revert by EOD. Send me the report.'"
+  ],
+  "vocabulary": [
+    { "word": "Submit", "hindi": "जमा करना", "meaning": "To hand in or send something officially", "example": "Submit your assignment before Friday." },
+    { "word": "Proceed", "hindi": "आगे बढ़ना", "meaning": "To continue or go forward", "example": "Please proceed to the next step." },
+    { "word": "Ensure", "hindi": "सुनिश्चित करना", "meaning": "To make certain something happens", "example": "Ensure all documents are attached." },
+    { "word": "Confirm", "hindi": "पुष्टि करना", "meaning": "To verify or make sure", "example": "Please confirm your attendance." },
+    { "word": "Avoid", "hindi": "बचना", "meaning": "To stay away from", "example": "Avoid making spelling mistakes." },
+    { "word": "Consider", "hindi": "विचार करना", "meaning": "To think carefully about", "example": "Consider all the options before deciding." },
+    { "word": "Maintain", "hindi": "बनाए रखना", "meaning": "To keep in proper condition", "example": "Maintain silence in the library." },
+    { "word": "Report", "hindi": "रिपोर्ट करना", "meaning": "To inform officially", "example": "Report to HR immediately." },
+    { "word": "Review", "hindi": "समीक्षा करना", "meaning": "To examine carefully", "example": "Review the document before sending." },
+    { "word": "Implement", "hindi": "लागू करना", "meaning": "To put into action", "example": "Implement the new policy from Monday." },
+    { "word": "Respond", "hindi": "जवाब देना", "meaning": "To reply or react", "example": "Please respond to the email today." },
+    { "word": "Coordinate", "hindi": "समन्वय करना", "meaning": "To organize activities together", "example": "Coordinate with the team for the event." },
+    { "word": "Prioritize", "hindi": "प्राथमिकता देना", "meaning": "To treat as most important", "example": "Prioritize urgent tasks first." },
+    { "word": "Notify", "hindi": "सूचित करना", "meaning": "To inform or give notice", "example": "Notify the team about the change." },
+    { "word": "Handle", "hindi": "संभालना", "meaning": "To deal with or manage", "example": "Handle this complaint carefully." },
+    { "word": "Assist", "hindi": "सहायता करना", "meaning": "To help", "example": "Assist the new employee." },
+    { "word": "Complete", "hindi": "पूरा करना", "meaning": "To finish", "example": "Complete the form and sign it." },
+    { "word": "Update", "hindi": "अपडेट करना", "meaning": "To make current", "example": "Update the records by end of day." },
+    { "word": "Attend", "hindi": "उपस्थित होना", "meaning": "To be present at", "example": "Attend the meeting at 10 AM." },
+    { "word": "Follow", "hindi": "पालन करना", "meaning": "To obey or come after", "example": "Follow the safety guidelines at all times." }
+  ],
+  "officialExamples": [
+    "Please read the instructions carefully before starting the exam.",
+    "Do not use mobile phones inside the examination hall.",
+    "Write your roll number clearly on the answer sheet.",
+    "Kindly attach all supporting documents with your application.",
+    "Report any suspicious activity to the nearest officer.",
+    "Do not fold or staple the answer booklet.",
+    "Sign and date the declaration form at the bottom.",
+    "Use only blue or black ink pens.",
+    "Maintain discipline at all times on the premises.",
+    "Submit the form within 30 days of the date of issue."
+  ],
+  "dailyLifeExamples": [
+    "Wake up early and exercise daily.",
+    "Brush your teeth twice a day.",
+    "Eat your vegetables.",
+    "Don't talk with your mouth full.",
+    "Lock the door before you sleep.",
+    "Call me when you reach.",
+    "Take an umbrella — it might rain.",
+    "Don't forget to charge your phone.",
+    "Keep your room clean.",
+    "Drink 8 glasses of water daily.",
+    "Switch off the fan before leaving.",
+    "Don't waste food.",
+    "Help your parents at home.",
+    "Finish your homework before watching TV.",
+    "Don't stay up too late."
+  ],
+  "officeExamples": [
+    "Please send the report by 5 PM today.",
+    "Kindly review the attached document and revert.",
+    "Attend the all-hands meeting at 11 AM sharp.",
+    "Do not share confidential data outside the organization.",
+    "Update the project tracker before end of day.",
+    "Please CC the manager on all client emails.",
+    "Schedule a meeting with the team for Thursday.",
+    "Follow up with the client regarding pending approvals.",
+    "Ensure all deliverables are met before the deadline.",
+    "Please respond to the client's email within 24 hours.",
+    "Use professional language in all written communication.",
+    "Log your work hours in the system daily.",
+    "Raise a ticket if you face any IT issues.",
+    "Coordinate with the design team for the presentation.",
+    "Submit your expense reports by the 5th of every month."
+  ],
+  "story": "Riya's First Day at Work\n\nOn Riya's first day at her new job, her manager gave her many instructions.\n\n'Come in, Riya! Welcome to the team,' the manager said with a smile. 'Sit down. Let me show you around. First, read this employee handbook carefully. It has all the important guidelines. Don't skip any section.'\n\nThe HR executive joined them and said, 'Fill out this form and submit it today. Sign at the bottom. Attach a passport-sized photo. Don't forget to write your emergency contact number.'\n\nThe IT team came over next. 'Set up your email now. Choose a strong password. Don't share it with anyone. Install the company VPN on your laptop. If you face any issue, call extension 101.'\n\nAt lunchtime, her colleague Arjun said, 'Come, let's go to the cafeteria. Try the dal rice — it's really good! Don't miss the gulab jamun on Fridays!'\n\nBy the end of the day, Riya's manager said, 'Well done today! Always be on time. Ask questions whenever you're confused. Never hesitate to ask for help. We're a team here.'\n\nRiya smiled and thought: English imperative sentences are everywhere — and now she understood them perfectly!",
+  "essay": "The Power of Clear Instructions\n\nImperative sentences are the backbone of clear, effective communication. Every day, we receive and give dozens of commands, requests, and instructions — and imperative sentences make this possible.\n\nIn daily life, imperatives help us manage our household and family. 'Wake up early. Eat your breakfast. Lock the door.' These simple instructions keep life organized. Good parents use a mix of gentle requests ('Please clean your room') and firm commands ('Don't touch the stove') to guide their children safely.\n\nIn the professional world, imperatives are essential. Managers give instructions: 'Submit the report by Friday. Attend the training session. Follow up with the client.' Clear, direct imperatives save time and avoid misunderstandings. A well-written email with precise imperatives — 'Please review the attached document and confirm receipt' — reflects professionalism.\n\nIn education, teachers use imperatives to guide students: 'Open your books. Read paragraph two. Answer the following questions.' These commands create a structured learning environment.\n\nHowever, tone matters greatly. The same imperative can sound harsh or polite depending on how it is said. 'Sit down!' sounds aggressive, while 'Please have a seat' sounds welcoming. Adding 'please' or 'kindly,' softening the voice, or using 'Let's' instead of a direct command transforms the interaction.\n\nIn conclusion, mastering imperative sentences means mastering the art of communication. Whether at home, at work, or in public, knowing how to give clear, polite, and appropriate instructions is an invaluable life skill.",
+  "dialogue": [
+    { "speaker": "Manager", "text": "Good morning, everyone. Please take your seats. Let's start today's meeting." },
+    { "speaker": "Arjun", "text": "Sure, sir. Should I close the door?" },
+    { "speaker": "Manager", "text": "Yes, please close the door and switch off the lights near the window. Priya, please share the presentation on the screen." },
+    { "speaker": "Priya", "text": "Done. Shall I begin from slide one?" },
+    { "speaker": "Manager", "text": "Yes, start from slide one. Everyone, please focus. Don't use your phones during the presentation." },
+    { "speaker": "Arjun", "text": "Sir, should I take notes?" },
+    { "speaker": "Manager", "text": "Good idea. Write down the action items. Don't miss anything important. Priya, continue please." },
+    { "speaker": "Priya", "text": "Sure. So, look at this chart. Notice the increase in sales during Q3. Compare it with Q2." },
+    { "speaker": "Manager", "text": "Good point. Team, analyze these numbers carefully. Think about what drove this growth. Discuss with your respective teams and submit your insights by Thursday." },
+    { "speaker": "Arjun", "text": "Understood. Should we send it to you directly?" },
+    { "speaker": "Manager", "text": "Yes, send me an email. CC Priya as well. Don't forget to mention your department in the subject line. Any questions? If not, let's wrap up. Thank you everyone — great work this week!" }
+  ]
+}

@@ -1,0 +1,587 @@
+[
+  {
+    "day": 1,
+    "word": "Diligent",
+    "pronunciation": "/ˈdɪlɪdʒənt/",
+    "partOfSpeech": "adjective",
+    "meaning": "Showing care and effort in work or duties",
+    "hindiMeaning": "मेहनती, परिश्रमी",
+    "example": "She is a diligent student who never misses a class.",
+    "hindiExample": "वह एक मेहनती छात्रा है जो कभी क्लास नहीं छोड़ती।",
+    "synonyms": ["hardworking", "industrious", "dedicated", "conscientious"],
+    "antonyms": ["lazy", "idle", "negligent", "careless"],
+    "officeUsage": "He is known for being diligent in meeting all project deadlines.",
+    "dailyUsage": "Be diligent in your studies if you want to succeed.",
+    "tip": "Diligent = Dil + igent → 'Dil se kaam karo' (work from heart)"
+  },
+  {
+    "day": 2,
+    "word": "Confident",
+    "pronunciation": "/ˈkɒnfɪdənt/",
+    "partOfSpeech": "adjective",
+    "meaning": "Feeling sure about your own ability to do things and be successful",
+    "hindiMeaning": "आत्मविश्वासी, भरोसेमंद",
+    "example": "She gave a confident presentation to the entire team.",
+    "hindiExample": "उसने पूरी टीम के सामने आत्मविश्वास के साथ प्रेजेंटेशन दी।",
+    "synonyms": ["assured", "self-assured", "bold", "certain"],
+    "antonyms": ["insecure", "uncertain", "doubtful", "timid"],
+    "officeUsage": "A confident speaker always makes a good impression in interviews.",
+    "dailyUsage": "Walk confidently and smile — it changes everything.",
+    "tip": "Confident comes from Latin 'confidere' — to trust yourself fully"
+  },
+  {
+    "day": 3,
+    "word": "Persuade",
+    "pronunciation": "/pəˈsweɪd/",
+    "partOfSpeech": "verb",
+    "meaning": "To cause someone to do or believe something through reasoning or pleading",
+    "hindiMeaning": "मनाना, राज़ी करना",
+    "example": "He managed to persuade the client to extend the contract.",
+    "hindiExample": "वह क्लाइंट को अनुबंध बढ़ाने के लिए मनाने में सफल रहा।",
+    "synonyms": ["convince", "influence", "urge", "coax"],
+    "antonyms": ["dissuade", "deter", "discourage"],
+    "officeUsage": "Sales professionals need to persuade customers about product value.",
+    "dailyUsage": "Can you persuade your parents to let you go on the trip?",
+    "tip": "Per + suade → 'Puri koshish se' (with full effort) convince karna"
+  },
+  {
+    "day": 4,
+    "word": "Accomplish",
+    "pronunciation": "/əˈkʌmplɪʃ/",
+    "partOfSpeech": "verb",
+    "meaning": "To achieve or complete something successfully",
+    "hindiMeaning": "हासिल करना, पूरा करना",
+    "example": "She accomplished all her goals within the first quarter.",
+    "hindiExample": "उसने पहली तिमाही में ही अपने सभी लक्ष्य हासिल कर लिए।",
+    "synonyms": ["achieve", "complete", "attain", "fulfill", "execute"],
+    "antonyms": ["fail", "abandon", "neglect"],
+    "officeUsage": "What did you accomplish in your last role?",
+    "dailyUsage": "Make a to-do list and accomplish one task at a time.",
+    "tip": "Accomplish = a + complete (pura karna)"
+  },
+  {
+    "day": 5,
+    "word": "Eloquent",
+    "pronunciation": "/ˈeləkwənt/",
+    "partOfSpeech": "adjective",
+    "meaning": "Fluent and persuasive in speaking or writing",
+    "hindiMeaning": "वाकपटु, सुवक्ता",
+    "example": "The CEO gave an eloquent speech that inspired the whole team.",
+    "hindiExample": "CEO ने एक वाकपटु भाषण दिया जिसने पूरी टीम को प्रेरित किया।",
+    "synonyms": ["articulate", "fluent", "expressive", "persuasive"],
+    "antonyms": ["inarticulate", "mumbling", "tongue-tied"],
+    "officeUsage": "An eloquent communicator can resolve conflicts quickly.",
+    "dailyUsage": "Reading daily helps you become more eloquent.",
+    "tip": "Elo + quent → 'Excellent' bolne ka tarika"
+  },
+  {
+    "day": 6,
+    "word": "Acknowledge",
+    "pronunciation": "/əkˈnɒlɪdʒ/",
+    "partOfSpeech": "verb",
+    "meaning": "To accept or admit the existence or truth of something",
+    "hindiMeaning": "स्वीकार करना, माना करना",
+    "example": "He acknowledged his mistake and apologized immediately.",
+    "hindiExample": "उसने अपनी गलती स्वीकार की और तुरंत माफी मांगी।",
+    "synonyms": ["admit", "recognize", "accept", "confirm"],
+    "antonyms": ["deny", "reject", "ignore"],
+    "officeUsage": "Please acknowledge receipt of this email by replying.",
+    "dailyUsage": "Always acknowledge when someone helps you.",
+    "tip": "Ack + knowledge → apni knowledge se sach mano"
+  },
+  {
+    "day": 7,
+    "word": "Persistent",
+    "pronunciation": "/pəˈsɪstənt/",
+    "partOfSpeech": "adjective",
+    "meaning": "Continuing firmly despite difficulty or opposition",
+    "hindiMeaning": "दृढ़, लगातार कोशिश करने वाला",
+    "example": "Her persistent efforts finally paid off when she got the promotion.",
+    "hindiExample": "उसकी लगातार मेहनत आखिरकार रंग लाई जब उसे प्रमोशन मिला।",
+    "synonyms": ["determined", "tenacious", "relentless", "persevering"],
+    "antonyms": ["giving up", "quitting", "inconsistent"],
+    "officeUsage": "Be persistent in following up with clients.",
+    "dailyUsage": "Be persistent — success takes time.",
+    "tip": "Per + sist + ent → 'Puri zindagi siste (system) se karo'"
+  },
+  {
+    "day": 8,
+    "word": "Initiative",
+    "pronunciation": "/ɪˈnɪʃɪətɪv/",
+    "partOfSpeech": "noun",
+    "meaning": "The ability to assess and initiate things independently",
+    "hindiMeaning": "पहल, स्वयं शुरुआत करना",
+    "example": "She took the initiative to organize the entire team meeting.",
+    "hindiExample": "उसने पूरी टीम मीटिंग को आयोजित करने की पहल की।",
+    "synonyms": ["drive", "enterprise", "ambition", "leadership"],
+    "antonyms": ["passivity", "inaction", "laziness"],
+    "officeUsage": "Employees who take initiative are always valued in organizations.",
+    "dailyUsage": "Take the initiative to start your morning routine early.",
+    "tip": "Initial + ive → 'Initial step lena' — pehla kadam uthaana"
+  },
+  {
+    "day": 9,
+    "word": "Collaborative",
+    "pronunciation": "/kəˈlæbərətɪv/",
+    "partOfSpeech": "adjective",
+    "meaning": "Produced by or involving two or more parties working together",
+    "hindiMeaning": "सहयोगी, मिलकर काम करने वाला",
+    "example": "The project was a collaborative effort between three departments.",
+    "hindiExample": "यह प्रोजेक्ट तीन विभागों का सहयोगी प्रयास था।",
+    "synonyms": ["cooperative", "joint", "combined", "teamwork"],
+    "antonyms": ["individual", "solo", "independent"],
+    "officeUsage": "A collaborative work environment increases productivity.",
+    "dailyUsage": "Be collaborative — two minds are better than one.",
+    "tip": "Collaborate = Co + labor + ate → 'Co-workers ke sath kaam karo'"
+  },
+  {
+    "day": 10,
+    "word": "Proficient",
+    "pronunciation": "/prəˈfɪʃənt/",
+    "partOfSpeech": "adjective",
+    "meaning": "Competent or skilled in doing something",
+    "hindiMeaning": "कुशल, दक्ष, निपुण",
+    "example": "She is proficient in three programming languages.",
+    "hindiExample": "वह तीन प्रोग्रामिंग भाषाओं में दक्ष है।",
+    "synonyms": ["skilled", "competent", "expert", "adept", "capable"],
+    "antonyms": ["incompetent", "unskilled", "amateur"],
+    "officeUsage": "We need someone proficient in data analysis for this role.",
+    "dailyUsage": "Practice daily to become proficient in English.",
+    "tip": "Pro + ficient → 'Professional efficiency' — माहिर होना"
+  },
+  {
+    "day": 11,
+    "word": "Articulate",
+    "pronunciation": "/ɑːˈtɪkjʊlɪt/",
+    "partOfSpeech": "adjective / verb",
+    "meaning": "Having or showing the ability to speak fluently and coherently",
+    "hindiMeaning": "स्पष्ट रूप से बोलने में सक्षम",
+    "example": "An articulate speaker can express complex ideas simply.",
+    "hindiExample": "एक स्पष्टवक्ता जटिल विचारों को आसानी से व्यक्त कर सकता है।",
+    "synonyms": ["eloquent", "fluent", "expressive", "clear"],
+    "antonyms": ["inarticulate", "mumbling", "unclear"],
+    "officeUsage": "Articulate your ideas clearly in meetings.",
+    "dailyUsage": "The more you read, the more articulate you become.",
+    "tip": "Article + late → 'Articles correctly likhna aata hai' — clear bolna"
+  },
+  {
+    "day": 12,
+    "word": "Proactive",
+    "pronunciation": "/ˌprəʊˈæktɪv/",
+    "partOfSpeech": "adjective",
+    "meaning": "Acting in anticipation of future problems; taking control of situations",
+    "hindiMeaning": "पहल से काम करने वाला, अग्रसोची",
+    "example": "A proactive employee doesn't wait to be told — they act.",
+    "hindiExample": "एक सक्रिय कर्मचारी बताए जाने का इंतजार नहीं करता — वह खुद काम करता है।",
+    "synonyms": ["forward-thinking", "initiative", "preventive", "dynamic"],
+    "antonyms": ["reactive", "passive", "inactive"],
+    "officeUsage": "Be proactive about identifying risks in your projects.",
+    "dailyUsage": "Stay proactive about your health — don't wait until you're sick.",
+    "tip": "Pro + active → 'Before' kuch ho, active rehna"
+  },
+  {
+    "day": 13,
+    "word": "Integrity",
+    "pronunciation": "/ɪnˈteɡrɪti/",
+    "partOfSpeech": "noun",
+    "meaning": "The quality of being honest and having strong moral principles",
+    "hindiMeaning": "ईमानदारी, सत्यनिष्ठा",
+    "example": "His integrity is what makes him the most trusted person in the company.",
+    "hindiExample": "उसकी ईमानदारी ही उसे कंपनी में सबसे विश्वसनीय व्यक्ति बनाती है।",
+    "synonyms": ["honesty", "uprightness", "ethics", "virtue"],
+    "antonyms": ["dishonesty", "corruption", "deception"],
+    "officeUsage": "Business integrity is the foundation of every successful company.",
+    "dailyUsage": "Act with integrity — do the right thing even when no one is watching.",
+    "tip": "Integrate + ity → 'Integrated values' — puri tarah se honest rehna"
+  },
+  {
+    "day": 14,
+    "word": "Empathy",
+    "pronunciation": "/ˈempəθi/",
+    "partOfSpeech": "noun",
+    "meaning": "The ability to understand and share the feelings of another",
+    "hindiMeaning": "सहानुभूति, दूसरे की भावनाएं समझना",
+    "example": "Empathy is the most important quality in a good leader.",
+    "hindiExample": "सहानुभूति एक अच्छे नेता में सबसे महत्वपूर्ण गुण है।",
+    "synonyms": ["compassion", "understanding", "sympathy", "sensitivity"],
+    "antonyms": ["indifference", "apathy", "callousness"],
+    "officeUsage": "Show empathy when a team member is going through a difficult time.",
+    "dailyUsage": "Try to understand others before judging them.",
+    "tip": "Empathy = 'Unke jaison mehsoos karo' — feel what others feel"
+  },
+  {
+    "day": 15,
+    "word": "Resilient",
+    "pronunciation": "/rɪˈzɪlɪənt/",
+    "partOfSpeech": "adjective",
+    "meaning": "Able to recover quickly from difficulties; tough",
+    "hindiMeaning": "लचीला, जल्दी उबरने वाला",
+    "example": "She remained resilient despite all the challenges she faced.",
+    "hindiExample": "सभी चुनौतियों के बावजूद वह दृढ़ बनी रही।",
+    "synonyms": ["tough", "adaptable", "flexible", "strong"],
+    "antonyms": ["fragile", "weak", "vulnerable"],
+    "officeUsage": "Resilient teams bounce back quickly after setbacks.",
+    "dailyUsage": "Be resilient — every failure is a lesson.",
+    "tip": "Re + sil + ient → 'Return silently stronger' — mushkilon ke baad wapas aana"
+  },
+  {
+    "day": 16,
+    "word": "Concise",
+    "pronunciation": "/kənˈsaɪs/",
+    "partOfSpeech": "adjective",
+    "meaning": "Giving a lot of information clearly in few words",
+    "hindiMeaning": "संक्षिप्त, संक्षेप में",
+    "example": "Keep your emails concise — nobody reads long emails.",
+    "hindiExample": "अपने ईमेल संक्षिप्त रखें — कोई लंबे ईमेल नहीं पढ़ता।",
+    "synonyms": ["brief", "short", "succinct", "to the point"],
+    "antonyms": ["verbose", "wordy", "lengthy", "rambling"],
+    "officeUsage": "A concise report is always appreciated by management.",
+    "dailyUsage": "Be concise when explaining a problem — focus on key points.",
+    "tip": "Con + cise = 'Cut unnecessary words' — zaroori baatein karo"
+  },
+  {
+    "day": 17,
+    "word": "Dedicate",
+    "pronunciation": "/ˈdedɪkeɪt/",
+    "partOfSpeech": "verb",
+    "meaning": "To devote time, effort, or oneself to a particular task or purpose",
+    "hindiMeaning": "समर्पित करना, लगाना",
+    "example": "She dedicated 2 hours daily to improving her English.",
+    "hindiExample": "उसने अपनी English सुधारने के लिए रोज 2 घंटे समर्पित किए।",
+    "synonyms": ["devote", "commit", "give", "apply"],
+    "antonyms": ["neglect", "ignore", "waste"],
+    "officeUsage": "He is dedicated to delivering high-quality work.",
+    "dailyUsage": "Dedicate at least 30 minutes to reading every day.",
+    "tip": "Dedi + cate → 'Dedi (dedo) yourself' — khud ko lagaao"
+  },
+  {
+    "day": 18,
+    "word": "Innovative",
+    "pronunciation": "/ˈɪnəveɪtɪv/",
+    "partOfSpeech": "adjective",
+    "meaning": "Using or showing new methods, ideas, or products",
+    "hindiMeaning": "नवाचारी, नए विचारों वाला",
+    "example": "The company is looking for innovative solutions to old problems.",
+    "hindiExample": "कंपनी पुरानी समस्याओं के नवाचारी समाधान खोज रही है।",
+    "synonyms": ["creative", "original", "inventive", "pioneering"],
+    "antonyms": ["conventional", "traditional", "outdated"],
+    "officeUsage": "Innovative thinking is what separates good companies from great ones.",
+    "dailyUsage": "Think innovatively — there's always a better way to do things.",
+    "tip": "Inno + vate → 'New vation (creation)' — nayi cheez banana"
+  },
+  {
+    "day": 19,
+    "word": "Accountability",
+    "pronunciation": "/əˌkaʊntəˈbɪlɪti/",
+    "partOfSpeech": "noun",
+    "meaning": "The fact or condition of being responsible to others",
+    "hindiMeaning": "जवाबदेही, उत्तरदायित्व",
+    "example": "Accountability is key — own your mistakes and fix them.",
+    "hindiExample": "जवाबदेही महत्वपूर्ण है — अपनी गलतियों को स्वीकार करो और सुधारो।",
+    "synonyms": ["responsibility", "answerability", "liability"],
+    "antonyms": ["irresponsibility", "blame-shifting"],
+    "officeUsage": "A culture of accountability leads to better performance.",
+    "dailyUsage": "Hold yourself accountable for your daily habits.",
+    "tip": "Account + ability → 'Account (hisaab) dene ki ability'"
+  },
+  {
+    "day": 20,
+    "word": "Versatile",
+    "pronunciation": "/ˈvɜːsətaɪl/",
+    "partOfSpeech": "adjective",
+    "meaning": "Able to adapt or be adapted to many different functions or activities",
+    "hindiMeaning": "बहुमुखी, विभिन्न कार्यों में दक्ष",
+    "example": "A versatile employee can handle multiple roles effectively.",
+    "hindiExample": "एक बहुमुखी कर्मचारी कई भूमिकाओं को प्रभावी ढंग से संभाल सकता है।",
+    "synonyms": ["adaptable", "flexible", "multi-skilled", "all-around"],
+    "antonyms": ["limited", "specialized", "narrow"],
+    "officeUsage": "We need someone versatile who can switch between projects.",
+    "dailyUsage": "Be versatile — learn new skills whenever you can.",
+    "tip": "Verse + tile → 'Verse likhna (creativity) aur tile lagana (practical)' — dono karna"
+  },
+  {
+    "day": 21,
+    "word": "Pragmatic",
+    "pronunciation": "/præɡˈmætɪk/",
+    "partOfSpeech": "adjective",
+    "meaning": "Dealing with things sensibly and realistically based on practical considerations",
+    "hindiMeaning": "व्यावहारिक, यथार्थवादी",
+    "example": "Take a pragmatic approach — focus on what works.",
+    "hindiExample": "व्यावहारिक दृष्टिकोण अपनाओ — जो काम करे उस पर ध्यान दो।",
+    "synonyms": ["practical", "realistic", "sensible", "rational"],
+    "antonyms": ["idealistic", "impractical", "theoretical"],
+    "officeUsage": "A pragmatic manager finds solutions, not excuses.",
+    "dailyUsage": "Be pragmatic about your goals — set realistic timelines.",
+    "tip": "Pragma (Greek: action) + tic → 'Action-based thinking'"
+  },
+  {
+    "day": 22,
+    "word": "Meticulous",
+    "pronunciation": "/mɪˈtɪkjʊləs/",
+    "partOfSpeech": "adjective",
+    "meaning": "Very careful and precise; paying great attention to detail",
+    "hindiMeaning": "सूक्ष्मदर्शी, बारीकी से काम करने वाला",
+    "example": "He is meticulous about checking every figure in the report.",
+    "hindiExample": "वह रिपोर्ट में हर आंकड़े की जाँच करने में बारीक है।",
+    "synonyms": ["thorough", "precise", "careful", "painstaking"],
+    "antonyms": ["careless", "sloppy", "negligent"],
+    "officeUsage": "Meticulous attention to detail prevents costly errors.",
+    "dailyUsage": "Be meticulous when filling important forms.",
+    "tip": "Metic + ulous → 'Metics (measurement) of every detail' — har cheez naapna"
+  },
+  {
+    "day": 23,
+    "word": "Facilitate",
+    "pronunciation": "/fəˈsɪlɪteɪt/",
+    "partOfSpeech": "verb",
+    "meaning": "To make an action or process easier",
+    "hindiMeaning": "आसान बनाना, सुगम करना",
+    "example": "Technology has facilitated communication across the world.",
+    "hindiExample": "तकनीक ने दुनिया भर में संचार को आसान बनाया है।",
+    "synonyms": ["ease", "assist", "enable", "help"],
+    "antonyms": ["hinder", "obstruct", "complicate"],
+    "officeUsage": "The manager's role is to facilitate his team's success.",
+    "dailyUsage": "Good infrastructure facilitates daily life.",
+    "tip": "Facil (easy) + itate → 'Facility dena' — aasaan banana"
+  },
+  {
+    "day": 24,
+    "word": "Assertive",
+    "pronunciation": "/əˈsɜːtɪv/",
+    "partOfSpeech": "adjective",
+    "meaning": "Having a confident and forceful personality; expressing opinions clearly",
+    "hindiMeaning": "दृढ़, आत्मविश्वासी, सशक्त रूप से बोलने वाला",
+    "example": "Be assertive — say what you mean clearly and respectfully.",
+    "hindiExample": "दृढ़ रहें — जो मन में है वो स्पष्ट और सम्मानजनक तरीके से कहें।",
+    "synonyms": ["confident", "direct", "bold", "self-assured"],
+    "antonyms": ["passive", "timid", "aggressive", "meek"],
+    "officeUsage": "Assertive communication prevents misunderstandings.",
+    "dailyUsage": "Practice being assertive — your opinion matters.",
+    "tip": "Assert + ive → 'Assert yourself' — apni baat rakho"
+  },
+  {
+    "day": 25,
+    "word": "Transparent",
+    "pronunciation": "/trænsˈpærənt/",
+    "partOfSpeech": "adjective",
+    "meaning": "Open and honest; not hiding anything",
+    "hindiMeaning": "पारदर्शी, खुला हुआ",
+    "example": "The company is transparent about its financial performance.",
+    "hindiExample": "कंपनी अपनी वित्तीय प्रदर्शन के बारे में पारदर्शी है।",
+    "synonyms": ["open", "honest", "clear", "candid"],
+    "antonyms": ["secretive", "opaque", "hidden"],
+    "officeUsage": "Be transparent with your team about project challenges.",
+    "dailyUsage": "Transparent relationships are stronger relationships.",
+    "tip": "Trans + parent → 'Through + parent (dikhta hai)' — sab kuch dikhna"
+  },
+  {
+    "day": 26,
+    "word": "Competent",
+    "pronunciation": "/ˈkɒmpɪtənt/",
+    "partOfSpeech": "adjective",
+    "meaning": "Having the ability, knowledge, or skill to do something successfully",
+    "hindiMeaning": "योग्य, सक्षम",
+    "example": "We need competent professionals for this challenging role.",
+    "hindiExample": "हमें इस चुनौतीपूर्ण भूमिका के लिए योग्य पेशेवरों की जरूरत है।",
+    "synonyms": ["capable", "skilled", "able", "qualified"],
+    "antonyms": ["incompetent", "incapable", "unqualified"],
+    "officeUsage": "Hiring competent employees is the first step to success.",
+    "dailyUsage": "Be competent in at least one skill that adds value.",
+    "tip": "Compete + nt → 'Competition mein teekna' — capable rehna"
+  },
+  {
+    "day": 27,
+    "word": "Negotiate",
+    "pronunciation": "/nɪˈɡəʊʃɪeɪt/",
+    "partOfSpeech": "verb",
+    "meaning": "To try to reach an agreement through discussion",
+    "hindiMeaning": "बातचीत करना, समझौता करना",
+    "example": "He negotiated a better salary package for himself.",
+    "hindiExample": "उसने अपने लिए बेहतर वेतन पैकेज की बातचीत की।",
+    "synonyms": ["discuss", "bargain", "deal", "mediate"],
+    "antonyms": ["refuse", "demand", "insist"],
+    "officeUsage": "Good negotiation skills are essential in business.",
+    "dailyUsage": "Negotiate respectfully — both sides should benefit.",
+    "tip": "Nego + tiate → 'No + go → find middle ground'"
+  },
+  {
+    "day": 28,
+    "word": "Constructive",
+    "pronunciation": "/kənˈstrʌktɪv/",
+    "partOfSpeech": "adjective",
+    "meaning": "Serving a useful purpose; tending to build up or improve",
+    "hindiMeaning": "रचनात्मक, सुधारात्मक",
+    "example": "Give constructive feedback, not just criticism.",
+    "hindiExample": "केवल आलोचना नहीं, रचनात्मक प्रतिक्रिया दें।",
+    "synonyms": ["positive", "helpful", "productive", "beneficial"],
+    "antonyms": ["destructive", "negative", "harmful"],
+    "officeUsage": "Constructive feedback helps employees improve their performance.",
+    "dailyUsage": "Turn every criticism into constructive learning.",
+    "tip": "Construct + ive → 'Construction karna' — kuch banana"
+  },
+  {
+    "day": 29,
+    "word": "Analytical",
+    "pronunciation": "/ˌænəˈlɪtɪkəl/",
+    "partOfSpeech": "adjective",
+    "meaning": "Relating to or using analysis; examining things in detail",
+    "hindiMeaning": "विश्लेषणात्मक, गहराई से सोचने वाला",
+    "example": "Analytical thinking is crucial for solving complex problems.",
+    "hindiExample": "जटिल समस्याओं को सुलझाने के लिए विश्लेषणात्मक सोच महत्वपूर्ण है।",
+    "synonyms": ["logical", "systematic", "critical", "methodical"],
+    "antonyms": ["intuitive", "emotional", "unsystematic"],
+    "officeUsage": "Data analysts need strong analytical skills.",
+    "dailyUsage": "Think analytically before making important decisions.",
+    "tip": "Analyze + tical → 'Analysis karne ki aadat' — sochkar karna"
+  },
+  {
+    "day": 30,
+    "word": "Enthusiasm",
+    "pronunciation": "/ɪnˈθjuːzɪæzəm/",
+    "partOfSpeech": "noun",
+    "meaning": "Intense and eager enjoyment, interest, or approval",
+    "hindiMeaning": "उत्साह, जोश",
+    "example": "Her enthusiasm for learning English was truly inspiring.",
+    "hindiExample": "English सीखने के प्रति उसका उत्साह वाकई प्रेरणादायक था।",
+    "synonyms": ["passion", "eagerness", "excitement", "zeal"],
+    "antonyms": ["apathy", "indifference", "disinterest"],
+    "officeUsage": "Bring enthusiasm to your work — it's contagious.",
+    "dailyUsage": "Approach every new day with enthusiasm.",
+    "tip": "En + thus + iasm → 'Enter' with 'thus (thuss)' spirit — josh ke saath karo"
+  },
+  {
+    "day": 31, "word": "Authentic", "pronunciation": "/ɔːˈθentɪk/", "partOfSpeech": "adjective", "meaning": "Real, genuine, not fake or copied", "hindiMeaning": "असली, प्रामाणिक", "example": "Be authentic — people respect genuineness.", "hindiExample": "असली रहो — लोग सच्चाई की कदर करते हैं।", "synonyms": ["genuine", "real", "original", "true"], "antonyms": ["fake", "artificial", "pretend"], "officeUsage": "Authentic leadership builds real trust.", "dailyUsage": "Be your authentic self every day.", "tip": "Author + tic → 'Author jaise asli' — genuine rehna"
+  },
+  {
+    "day": 32, "word": "Benchmark", "pronunciation": "/ˈbentʃmɑːk/", "partOfSpeech": "noun/verb", "meaning": "A standard or point of reference against which things may be compared", "hindiMeaning": "मानक, तुलना का बिंदु", "example": "Set a benchmark for your performance and try to exceed it.", "hindiExample": "अपने प्रदर्शन के लिए एक मानक तय करो और उसे पार करने की कोशिश करो।", "synonyms": ["standard", "yardstick", "measure", "criterion"], "antonyms": [], "officeUsage": "Industry benchmarks help you understand your position.", "dailyUsage": "Set personal benchmarks and beat them.", "tip": "Bench + mark → 'Judge ke bench pe mark' — standard banana"
+  },
+  {
+    "day": 33, "word": "Coherent", "pronunciation": "/kəʊˈhɪərənt/", "partOfSpeech": "adjective", "meaning": "Logical and consistent; clearly expressed", "hindiMeaning": "सुसंगत, तर्कसंगत", "example": "Make sure your argument is coherent before presenting.", "hindiExample": "पेश करने से पहले सुनिश्चित करें कि आपका तर्क सुसंगत है।", "synonyms": ["logical", "consistent", "clear", "rational"], "antonyms": ["incoherent", "muddled", "illogical"], "officeUsage": "Write coherent reports that tell a clear story.", "dailyUsage": "Think before speaking to sound more coherent.", "tip": "Co + here + nt → 'Co-ordinated here' — sab ek jagah fit hona"
+  },
+  {
+    "day": 34, "word": "Decisive", "pronunciation": "/dɪˈsaɪsɪv/", "partOfSpeech": "adjective", "meaning": "Settling an issue; producing a definite result; having the ability to make decisions quickly", "hindiMeaning": "निर्णायक, दृढ़ निर्णय लेने वाला", "example": "A decisive leader makes tough decisions without hesitation.", "hindiExample": "एक निर्णायक नेता बिना हिचकिचाहट कठिन निर्णय लेता है।", "synonyms": ["resolute", "firm", "determined", "conclusive"], "antonyms": ["indecisive", "hesitant", "wavering"], "officeUsage": "Be decisive — delays in decisions cost businesses money.", "dailyUsage": "Practice being decisive in small choices first.", "tip": "Decide + ive → 'Decision lene wala' — quickly choose"
+  },
+  {
+    "day": 35, "word": "Efficiency", "pronunciation": "/ɪˈfɪʃənsi/", "partOfSpeech": "noun", "meaning": "Accomplishing a job with minimum waste of time and effort", "hindiMeaning": "दक्षता, कुशलता", "example": "Work on your efficiency — do more in less time.", "hindiExample": "अपनी दक्षता पर काम करो — कम समय में अधिक करो।", "synonyms": ["effectiveness", "productivity", "competence"], "antonyms": ["inefficiency", "waste", "sloppiness"], "officeUsage": "Efficiency improvements save both time and money.", "dailyUsage": "Small habits lead to big efficiency gains.", "tip": "Efficient = 'Effect lana' quickly — fast aur accha kaam"
+  },
+  {
+    "day": 36, "word": "Forthright", "pronunciation": "/ˈfɔːθraɪt/", "partOfSpeech": "adjective", "meaning": "Direct and outspoken; frank and honest", "hindiMeaning": "सीधा-साफ, निष्कपट", "example": "Be forthright — tell the truth even when it's uncomfortable.", "hindiExample": "सीधे रहो — सच बोलो चाहे वह असुविधाजनक ही क्यों न हो।", "synonyms": ["direct", "frank", "candid", "outspoken"], "antonyms": ["evasive", "indirect", "dishonest"], "officeUsage": "Forthright communication prevents rumors and misunderstandings.", "dailyUsage": "People respect those who are forthright.", "tip": "Forth + right → 'Aage aao aur right (sahi) baat bolo'"
+  },
+  {
+    "day": 37, "word": "Generate", "pronunciation": "/ˈdʒenəreɪt/", "partOfSpeech": "verb", "meaning": "To produce or create something", "hindiMeaning": "उत्पन्न करना, बनाना", "example": "This project will generate significant revenue for the company.", "hindiExample": "यह प्रोजेक्ट कंपनी के लिए महत्वपूर्ण राजस्व उत्पन्न करेगा।", "synonyms": ["produce", "create", "develop", "yield"], "antonyms": ["destroy", "eliminate", "reduce"], "officeUsage": "Marketing campaigns generate leads for the sales team.", "dailyUsage": "Generate positive energy wherever you go.", "tip": "Genesis + generate → 'Paida karna' — create karna"
+  },
+  {
+    "day": 38, "word": "Holistic", "pronunciation": "/həʊˈlɪstɪk/", "partOfSpeech": "adjective", "meaning": "Characterized by the treatment of the whole person or system rather than individual parts", "hindiMeaning": "समग्र, पूर्ण दृष्टिकोण", "example": "Take a holistic approach to problem-solving.", "hindiExample": "समस्या सुलझाने के लिए समग्र दृष्टिकोण अपनाएं।", "synonyms": ["comprehensive", "overall", "total", "complete"], "antonyms": ["partial", "narrow", "limited"], "officeUsage": "Holistic management considers employees' overall well-being.", "dailyUsage": "A holistic lifestyle balances work, health, and relationships.", "tip": "Whole + istic → 'Whole picture dekhna' — sab kuch ek saath"
+  },
+  {
+    "day": 39, "word": "Impartial", "pronunciation": "/ɪmˈpɑːʃəl/", "partOfSpeech": "adjective", "meaning": "Treating all rivals or disputants equally; not favoring one side", "hindiMeaning": "निष्पक्ष, पक्षपातरहित", "example": "A good judge must always remain impartial.", "hindiExample": "एक अच्छे न्यायाधीश को हमेशा निष्पक्ष रहना चाहिए।", "synonyms": ["neutral", "fair", "unbiased", "objective"], "antonyms": ["biased", "partial", "prejudiced"], "officeUsage": "HR decisions must be impartial and based on merit.", "dailyUsage": "Be impartial when resolving conflicts between friends.", "tip": "Im + partial → 'Not partial' — kisi ek ki taraf nahi"
+  },
+  {
+    "day": 40, "word": "Judicious", "pronunciation": "/dʒuːˈdɪʃəs/", "partOfSpeech": "adjective", "meaning": "Having, showing, or done with good judgment or sense", "hindiMeaning": "विवेकशील, बुद्धिमान", "example": "Make judicious use of your time and energy.", "hindiExample": "अपने समय और ऊर्जा का विवेकपूर्ण उपयोग करें।", "synonyms": ["wise", "sensible", "prudent", "discerning"], "antonyms": ["foolish", "unwise", "reckless"], "officeUsage": "Judicious decision-making is a valuable leadership quality.", "dailyUsage": "Be judicious about what you spend money on.", "tip": "Judge + icious → 'Judge ki tarah sochna' — wisely decide"
+  },
+  {
+    "day": 41, "word": "Leverage", "pronunciation": "/ˈliːvərɪdʒ/", "partOfSpeech": "noun/verb", "meaning": "Use something to maximum advantage", "hindiMeaning": "लाभ उठाना, उपयोग करना", "example": "Leverage your strengths to grow your career.", "hindiExample": "अपनी ताकत का उपयोग करके अपना करियर बढ़ाएं।", "synonyms": ["use", "exploit", "utilize", "capitalize"], "antonyms": ["waste", "ignore"], "officeUsage": "Leverage your network to find better opportunities.", "dailyUsage": "Leverage every learning opportunity.", "tip": "Lever + age → 'Lever use karke weight uthana' — advantage lena"
+  },
+  {
+    "day": 42, "word": "Mentor", "pronunciation": "/ˈmentɔːr/", "partOfSpeech": "noun/verb", "meaning": "An experienced person who advises and guides someone less experienced", "hindiMeaning": "गुरु, मार्गदर्शक", "example": "Find a mentor in your field and learn from their experience.", "hindiExample": "अपने क्षेत्र में एक मेंटर खोजो और उनके अनुभव से सीखो।", "synonyms": ["guide", "teacher", "coach", "advisor"], "antonyms": ["student", "apprentice"], "officeUsage": "A good mentor can accelerate your professional growth significantly.", "dailyUsage": "Be a mentor to someone who needs guidance.", "tip": "Mentor = 'Man + tor' → 'Mind ka tor (guide)' — someone who guides mind"
+  },
+  {
+    "day": 43, "word": "Navigate", "pronunciation": "/ˈnævɪɡeɪt/", "partOfSpeech": "verb", "meaning": "Plan and direct the route; find the right way through a difficult situation", "hindiMeaning": "रास्ता खोजना, नेविगेट करना", "example": "Learn to navigate office politics professionally.", "hindiExample": "ऑफिस की राजनीति को पेशेवर तरीके से नेविगेट करना सीखो।", "synonyms": ["guide", "direct", "steer", "manage"], "antonyms": ["get lost", "wander"], "officeUsage": "Skilled managers navigate through crises effectively.", "dailyUsage": "Navigate your career path with a clear plan.", "tip": "Navi + gate → 'Navy ke jaise rasta nikaalna' — path dhundhna"
+  },
+  {
+    "day": 44, "word": "Objective", "pronunciation": "/əbˈdʒektɪv/", "partOfSpeech": "adjective/noun", "meaning": "Not influenced by personal feelings; fair and balanced; a goal", "hindiMeaning": "वस्तुनिष्ठ, निष्पक्ष; लक्ष्य", "example": "Stay objective when evaluating your own work.", "hindiExample": "अपने काम का मूल्यांकन करते समय वस्तुनिष्ठ रहें।", "synonyms": ["impartial", "neutral", "fair", "goal-oriented"], "antonyms": ["subjective", "biased", "personal"], "officeUsage": "Set clear objectives for every project before you start.", "dailyUsage": "Have a clear objective for each day.", "tip": "Object + ive → 'Object (cheez) jaisi factual thinking'"
+  },
+  {
+    "day": 45, "word": "Paramount", "pronunciation": "/ˈpærəmaʊnt/", "partOfSpeech": "adjective", "meaning": "More important than anything else; supreme", "hindiMeaning": "सर्वोपरि, सबसे महत्वपूर्ण", "example": "Customer satisfaction is of paramount importance.", "hindiExample": "ग्राहक संतुष्टि सर्वोपरि महत्व की है।", "synonyms": ["supreme", "primary", "chief", "greatest"], "antonyms": ["minor", "insignificant", "secondary"], "officeUsage": "Safety is paramount in any workplace.", "dailyUsage": "Your health is of paramount importance — take care of it.", "tip": "Para + mount → 'Para (above) everything mounted' — sab se upar"
+  },
+  {
+    "day": 46, "word": "Quantify", "pronunciation": "/ˈkwɒntɪfaɪ/", "partOfSpeech": "verb", "meaning": "To express or measure the quantity of something", "hindiMeaning": "मात्रा निर्धारित करना, माप बताना", "example": "Quantify your achievements in your resume — use numbers.", "hindiExample": "अपनी उपलब्धियों को रिज्यूमे में संख्याओं में बताएं।", "synonyms": ["measure", "calculate", "count", "assess"], "antonyms": ["estimate vaguely", "guess"], "officeUsage": "Quantify your results to show their business impact.", "dailyUsage": "Quantify your savings goals — how much per month?", "tip": "Quantity + fy → 'Quantity mein batao' — numbers use karo"
+  },
+  {
+    "day": 47, "word": "Rapport", "pronunciation": "/ræˈpɔːr/", "partOfSpeech": "noun", "meaning": "A close and harmonious relationship where there is mutual understanding", "hindiMeaning": "संबंध, आपसी समझ", "example": "Build a good rapport with your colleagues.", "hindiExample": "अपने सहकर्मियों के साथ अच्छे संबंध बनाओ।", "synonyms": ["bond", "connection", "relationship", "understanding"], "antonyms": ["hostility", "tension", "conflict"], "officeUsage": "Sales professionals with good client rapport close more deals.", "dailyUsage": "Build rapport by listening more than you speak.", "tip": "Rapport (French) = 'Rishta banana' — trust build karna"
+  },
+  {
+    "day": 48, "word": "Streamline", "pronunciation": "/ˈstriːmlaɪn/", "partOfSpeech": "verb", "meaning": "Make an organization or system more efficient and effective", "hindiMeaning": "सुव्यवस्थित करना, आसान बनाना", "example": "We need to streamline our approval process.", "hindiExample": "हमें अपनी अनुमोदन प्रक्रिया को सुव्यवस्थित करना होगा।", "synonyms": ["simplify", "optimize", "improve", "modernize"], "antonyms": ["complicate", "burden", "slow down"], "officeUsage": "Streamline operations to reduce costs and save time.", "dailyUsage": "Streamline your morning routine to save 30 minutes.", "tip": "Stream + line → 'Stream ki tarah smooth flow' — easy karna"
+  },
+  {
+    "day": 49, "word": "Tenacious", "pronunciation": "/tɪˈneɪʃəs/", "partOfSpeech": "adjective", "meaning": "Not giving up; very determined", "hindiMeaning": "दृढ़ निश्चयी, जिद्दी (अच्छे अर्थ में)", "example": "Be tenacious — never give up on your dreams.", "hindiExample": "दृढ़ रहो — अपने सपनों को कभी मत छोड़ो।", "synonyms": ["persistent", "determined", "stubborn", "relentless"], "antonyms": ["weak-willed", "giving up", "quitter"], "officeUsage": "Tenacious employees achieve goals others consider impossible.", "dailyUsage": "Be tenacious in learning English — 75 days!", "tip": "Tena + cious → 'Tena (tight) hold karo' — pakad ke raho"
+  },
+  {
+    "day": 50, "word": "Unprecedented", "pronunciation": "/ʌnˈpresɪdentɪd/", "partOfSpeech": "adjective", "meaning": "Never done or known before; without any prior example", "hindiMeaning": "अभूतपूर्व, बेमिसाल", "example": "The pandemic caused unprecedented changes in the workplace.", "hindiExample": "महामारी ने कार्यस्थल में अभूतपूर्व बदलाव लाए।", "synonyms": ["unmatched", "extraordinary", "remarkable", "historic"], "antonyms": ["ordinary", "common", "typical"], "officeUsage": "The company achieved unprecedented growth this quarter.", "dailyUsage": "You are capable of unprecedented success.", "tip": "Un + precedent + ed → 'No precedent (pehle kabhi nahi)' — first time ever"
+  },
+  {
+    "day": 51, "word": "Viable", "pronunciation": "/ˈvaɪəbəl/", "partOfSpeech": "adjective", "meaning": "Capable of working successfully; feasible", "hindiMeaning": "व्यावहारिक, संभव", "example": "We need a viable solution that we can actually implement.", "hindiExample": "हमें एक ऐसा व्यावहारिक समाधान चाहिए जिसे हम वास्तव में लागू कर सकें।", "synonyms": ["feasible", "workable", "practical", "possible"], "antonyms": ["unworkable", "impractical", "impossible"], "officeUsage": "Present only viable options to management.", "dailyUsage": "Make sure your plans are viable before committing.", "tip": "Via + ble → 'Via (raste se) jana ho sake' — possible hona"
+  },
+  {
+    "day": 52, "word": "Workflow", "pronunciation": "/ˈwɜːkfləʊ/", "partOfSpeech": "noun", "meaning": "The sequence of processes through which a piece of work passes", "hindiMeaning": "कार्यप्रवाह, काम करने का क्रम", "example": "Improve your workflow to become more productive.", "hindiExample": "अधिक उत्पादक बनने के लिए अपना कार्यप्रवाह सुधारें।", "synonyms": ["process", "procedure", "system", "pipeline"], "antonyms": [], "officeUsage": "Automating workflows reduces manual errors.", "dailyUsage": "Create a daily workflow to manage your tasks.", "tip": "Work + flow → 'Kaam ka flow (bahav)' — process of doing work"
+  },
+  {
+    "day": 53, "word": "Exemplary", "pronunciation": "/ɪɡˈzemplərɪ/", "partOfSpeech": "adjective", "meaning": "Serving as a desirable model; very good", "hindiMeaning": "अनुकरणीय, उत्तम", "example": "Her exemplary performance earned her the 'Employee of the Year' award.", "hindiExample": "उसके अनुकरणीय प्रदर्शन ने उसे 'वर्ष के कर्मचारी' पुरस्कार दिलाया।", "synonyms": ["outstanding", "excellent", "model", "ideal"], "antonyms": ["poor", "bad", "inadequate"], "officeUsage": "Exemplary behavior sets the standard for the whole team.", "dailyUsage": "Be exemplary in how you treat others.", "tip": "Example + ary → 'Example banana' — dusron ke liye example"
+  },
+  {
+    "day": 54, "word": "Forthcoming", "pronunciation": "/ˌfɔːθˈkʌmɪŋ/", "partOfSpeech": "adjective", "meaning": "Ready or made available when required; willing to divulge information", "hindiMeaning": "आने वाला; जानकारी देने को तैयार", "example": "Be forthcoming with information to help your team.", "hindiExample": "अपनी टीम की मदद के लिए जानकारी देने को तैयार रहें।", "synonyms": ["available", "open", "candid", "upcoming"], "antonyms": ["secretive", "withheld", "evasive"], "officeUsage": "Be forthcoming about project delays rather than hiding them.", "dailyUsage": "A forthcoming person builds trust quickly.", "tip": "Forth + coming → 'Aage aana' — information share karna"
+  },
+  {
+    "day": 55, "word": "Groundbreaking", "pronunciation": "/ˈɡraʊndbreɪkɪŋ/", "partOfSpeech": "adjective", "meaning": "Innovative and pioneering; introducing new methods or ideas", "hindiMeaning": "युगांतरकारी, नवीन", "example": "This was a groundbreaking discovery in medical science.", "hindiExample": "यह चिकित्सा विज्ञान में एक युगांतरकारी खोज थी।", "synonyms": ["pioneering", "revolutionary", "innovative", "trailblazing"], "antonyms": ["conventional", "ordinary", "traditional"], "officeUsage": "Groundbreaking products change entire industries.", "dailyUsage": "Aim to do something groundbreaking every year.", "tip": "Ground + breaking → 'Zameen tod dena' — game changer"
+  },
+  {
+    "day": 56, "word": "Harmonious", "pronunciation": "/hɑːˈməʊnɪəs/", "partOfSpeech": "adjective", "meaning": "Having agreement; free from disagreement or dissent", "hindiMeaning": "सुसंगत, मेल-मिलाप वाला", "example": "Create a harmonious work environment for better productivity.", "hindiExample": "बेहतर उत्पादकता के लिए एक सुसंगत कार्य वातावरण बनाएं।", "synonyms": ["peaceful", "unified", "cooperative", "concordant"], "antonyms": ["discordant", "conflicting", "hostile"], "officeUsage": "Harmonious teams consistently outperform disjointed ones.", "dailyUsage": "Harmonious relationships require both giving and taking.", "tip": "Harmony + ious → 'Harmony (musical balance)' — sab milkar"
+  },
+  {
+    "day": 57, "word": "Impeccable", "pronunciation": "/ɪmˈpekəbəl/", "partOfSpeech": "adjective", "meaning": "In accordance with the highest standards; faultless", "hindiMeaning": "निर्दोष, बेदाग", "example": "She has impeccable attention to detail in her work.", "hindiExample": "उसके काम में अत्यंत सूक्ष्म ध्यान देने की क्षमता है।", "synonyms": ["flawless", "perfect", "faultless", "excellent"], "antonyms": ["flawed", "imperfect", "faulty"], "officeUsage": "Maintain impeccable standards in client-facing work.", "dailyUsage": "Dress with impeccable style for your interview.", "tip": "Im + peccable → 'Not peccable (sinful/faulty)' — perfect"
+  },
+  {
+    "day": 58, "word": "Jargon", "pronunciation": "/ˈdʒɑːɡən/", "partOfSpeech": "noun", "meaning": "Special words or expressions used by a particular profession or group", "hindiMeaning": "विशेष शब्दावली, तकनीकी भाषा", "example": "Avoid jargon when communicating with clients who aren't experts.", "hindiExample": "विशेषज्ञ नहीं हैं ऐसे क्लाइंट्स से बात करते समय तकनीकी शब्दों से बचें।", "synonyms": ["terminology", "lingo", "technical language", "buzzwords"], "antonyms": ["plain language", "simple terms"], "officeUsage": "Use industry jargon appropriately — know your audience.", "dailyUsage": "Learn the jargon of your field to sound more professional.", "tip": "Jar + gon → 'Jar mein band language' — field-specific words"
+  },
+  {
+    "day": 59, "word": "Keynote", "pronunciation": "/ˈkiːnəʊt/", "partOfSpeech": "noun/adjective", "meaning": "The central or most important part of a speech or policy", "hindiMeaning": "मुख्य बिंदु, मुख्य भाषण", "example": "She delivered the keynote speech at the annual conference.", "hindiExample": "उसने वार्षिक सम्मेलन में मुख्य भाषण दिया।", "synonyms": ["main theme", "central point", "highlight"], "antonyms": [], "officeUsage": "The keynote speaker set the tone for the entire event.", "dailyUsage": "Identify the keynote message in every meeting.", "tip": "Key + note → 'Key (important) note' — sabse important point"
+  },
+  {
+    "day": 60, "word": "Lucid", "pronunciation": "/ˈluːsɪd/", "partOfSpeech": "adjective", "meaning": "Expressed clearly; easy to understand", "hindiMeaning": "स्पष्ट, सुबोध", "example": "Give a lucid explanation that everyone can understand.", "hindiExample": "एक स्पष्ट व्याख्या दें जो सभी समझ सकें।", "synonyms": ["clear", "transparent", "understandable", "coherent"], "antonyms": ["confusing", "vague", "unclear"], "officeUsage": "Write lucid reports that management can act on.", "dailyUsage": "Practice being lucid when explaining complex things.", "tip": "Lux (light) + id → 'Light se cheez dikhana' — clearly explain"
+  },
+  {
+    "day": 61, "word": "Mitigate", "pronunciation": "/ˈmɪtɪɡeɪt/", "partOfSpeech": "verb", "meaning": "Make less severe, serious, or painful", "hindiMeaning": "कम करना, शमन करना", "example": "Take steps to mitigate risks before they become problems.", "hindiExample": "जोखिमों को समस्या बनने से पहले कम करने के लिए कदम उठाएं।", "synonyms": ["reduce", "lessen", "minimize", "alleviate"], "antonyms": ["worsen", "increase", "aggravate"], "officeUsage": "Risk mitigation is essential in project management.", "dailyUsage": "Mitigate stress by planning ahead.", "tip": "Miti + gate → 'Gate kholna' (reduce barrier) — kam karna"
+  },
+  {
+    "day": 62, "word": "Nurture", "pronunciation": "/ˈnɜːtʃər/", "partOfSpeech": "verb/noun", "meaning": "Care for and protect someone while they are growing; encourage development", "hindiMeaning": "पोषण करना, विकसित करना", "example": "Nurture your skills — keep learning and growing.", "hindiExample": "अपनी skills को विकसित करो — सीखते रहो और बढ़ते रहो।", "synonyms": ["develop", "cultivate", "encourage", "foster"], "antonyms": ["neglect", "ignore", "suppress"], "officeUsage": "Good managers nurture their team members' talent.", "dailyUsage": "Nurture your relationships with regular communication.", "tip": "Nature + ure → 'Nature ki tarah grow karna' — care karke badhana"
+  },
+  {
+    "day": 63, "word": "Optimize", "pronunciation": "/ˈɒptɪmaɪz/", "partOfSpeech": "verb", "meaning": "Make the best or most effective use of; improve efficiency", "hindiMeaning": "अनुकूलित करना, बेहतर बनाना", "example": "Optimize your daily schedule to get more done.", "hindiExample": "अधिक काम करने के लिए अपना दैनिक कार्यक्रम अनुकूलित करें।", "synonyms": ["improve", "maximize", "enhance", "streamline"], "antonyms": ["worsen", "reduce", "degrade"], "officeUsage": "We need to optimize our processes to reduce costs.", "dailyUsage": "Optimize your morning routine for peak productivity.", "tip": "Optimal + ize → 'Optimal (best) banana' — best karna"
+  },
+  {
+    "day": 64, "word": "Ponder", "pronunciation": "/ˈpɒndər/", "partOfSpeech": "verb", "meaning": "Think about something carefully, especially before making a decision", "hindiMeaning": "विचार करना, सोचना", "example": "Ponder your options carefully before making a big decision.", "hindiExample": "बड़ा फैसला लेने से पहले अपने विकल्पों पर ध्यान से विचार करें।", "synonyms": ["consider", "reflect", "contemplate", "deliberate"], "antonyms": ["ignore", "rush", "act impulsively"], "officeUsage": "Ponder over feedback before responding defensively.", "dailyUsage": "Take time to ponder — not every decision needs to be immediate.", "tip": "Pond + er → 'Pond mein pathar fekne se pehle sochna' — think before act"
+  },
+  {
+    "day": 65, "word": "Quintessential", "pronunciation": "/ˌkwɪntɪˈsenʃəl/", "partOfSpeech": "adjective", "meaning": "Representing the most perfect or typical example of something", "hindiMeaning": "सबसे विशिष्ट, आदर्श उदाहरण", "example": "Mahatma Gandhi is the quintessential example of peaceful leadership.", "hindiExample": "महात्मा गांधी शांतिपूर्ण नेतृत्व का सबसे विशिष्ट उदाहरण हैं।", "synonyms": ["classic", "typical", "perfect", "ideal"], "antonyms": ["atypical", "unrepresentative"], "officeUsage": "She is the quintessential team player.", "dailyUsage": "India is the quintessential land of diversity.", "tip": "Quint + essential → '5th essence' (purest form) — perfect example"
+  },
+  {
+    "day": 66, "word": "Reiterate", "pronunciation": "/riːˈɪtəreɪt/", "partOfSpeech": "verb", "meaning": "Say something again or a number of times for emphasis", "hindiMeaning": "दोहराना, फिर से कहना", "example": "Let me reiterate the key points of our discussion.", "hindiExample": "हमारी चर्चा के मुख्य बिंदुओं को दोहराने दें।", "synonyms": ["repeat", "restate", "emphasize", "stress"], "antonyms": [], "officeUsage": "Reiterate action items at the end of every meeting.", "dailyUsage": "Reiterate important rules to children until they understand.", "tip": "Re + iterate → 'Phir se (re) batana' — repeat for clarity"
+  },
+  {
+    "day": 67, "word": "Synergy", "pronunciation": "/ˈsɪnədʒi/", "partOfSpeech": "noun", "meaning": "The combined effect that is greater than the sum of separate effects", "hindiMeaning": "तालमेल, संयुक्त शक्ति", "example": "Team synergy is what drives exceptional performance.", "hindiExample": "टीम का तालमेल ही असाधारण प्रदर्शन को संचालित करता है।", "synonyms": ["cooperation", "collaboration", "teamwork"], "antonyms": ["conflict", "division", "discord"], "officeUsage": "Mergers aim to create synergy between companies.", "dailyUsage": "Build synergy in your relationships — help each other.", "tip": "Syn (together) + ergy (energy) → 'Milke energy' — combined power"
+  },
+  {
+    "day": 68, "word": "Tactful", "pronunciation": "/ˈtæktfəl/", "partOfSpeech": "adjective", "meaning": "Having or showing skill in dealing with others without causing offense", "hindiMeaning": "चतुर, कुशल व्यवहार करने वाला", "example": "Be tactful when giving criticism — consider others' feelings.", "hindiExample": "आलोचना करते समय चतुर रहें — दूसरों की भावनाओं का ध्यान रखें।", "synonyms": ["diplomatic", "sensitive", "careful", "considerate"], "antonyms": ["tactless", "blunt", "insensitive"], "officeUsage": "A tactful manager can handle even the most difficult conversations.", "dailyUsage": "Be tactful with elders — words matter.", "tip": "Tact + ful → 'Tact (skill) full' — skillfully handle situations"
+  },
+  {
+    "day": 69, "word": "Ubiquitous", "pronunciation": "/juːˈbɪkwɪtəs/", "partOfSpeech": "adjective", "meaning": "Present, appearing, or found everywhere", "hindiMeaning": "सर्वव्यापी, हर जगह मौजूद", "example": "Smartphones have become ubiquitous in modern life.", "hindiExample": "आधुनिक जीवन में स्मार्टफोन सर्वव्यापी हो गए हैं।", "synonyms": ["everywhere", "omnipresent", "pervasive", "universal"], "antonyms": ["rare", "absent", "scarce"], "officeUsage": "English is ubiquitous in the global business world.", "dailyUsage": "Social media is now ubiquitous in daily life.", "tip": "Ubi (Latin: where) + quitous → 'Everywhere you go' — har jagah"
+  },
+  {
+    "day": 70, "word": "Validate", "pronunciation": "/ˈvælɪdeɪt/", "partOfSpeech": "verb", "meaning": "Check or prove the validity of something; confirm", "hindiMeaning": "सत्यापित करना, मान्य करना", "example": "Always validate your assumptions before making decisions.", "hindiExample": "फैसले लेने से पहले हमेशा अपनी मान्यताओं को सत्यापित करें।", "synonyms": ["confirm", "verify", "authenticate", "approve"], "antonyms": ["invalidate", "disprove", "reject"], "officeUsage": "Validate all data before including it in your report.", "dailyUsage": "Validate your ideas by testing them in small ways first.", "tip": "Valid + ate → 'Valid (sahi) banana' — confirm karna"
+  },
+  {
+    "day": 71, "word": "Wholesome", "pronunciation": "/ˈhəʊlsəm/", "partOfSpeech": "adjective", "meaning": "Conducive to or promoting moral well-being; healthy", "hindiMeaning": "स्वास्थ्यप्रद, सद्भावनापूर्ण", "example": "Eat wholesome food to maintain good health.", "hindiExample": "अच्छा स्वास्थ्य बनाए रखने के लिए पौष्टिक भोजन खाएं।", "synonyms": ["healthy", "beneficial", "nourishing", "good"], "antonyms": ["unhealthy", "harmful", "toxic"], "officeUsage": "Create a wholesome company culture that supports employees.", "dailyUsage": "Spend wholesome time with family every week.", "tip": "Whole + some → 'Whole body ke liye some good' — healthy"
+  },
+  {
+    "day": 72, "word": "Xenophile", "pronunciation": "/ˈzenəfaɪl/", "partOfSpeech": "noun", "meaning": "A person who is attracted to foreign peoples, cultures, or customs", "hindiMeaning": "विदेशी संस्कृति प्रेमी", "example": "Being a xenophile helps you appreciate English culture and language more.", "hindiExample": "विदेशी संस्कृति प्रेमी होना आपको English संस्कृति और भाषा की अधिक सराहना करने में मदद करता है।", "synonyms": ["culture enthusiast", "world traveler"], "antonyms": ["xenophobe"], "officeUsage": "Xenophiles often excel in international business roles.", "dailyUsage": "Be a xenophile — explore different cultures.", "tip": "Xeno (foreign) + phile (lover) → 'Dusri cultures se pyar' — open mind"
+  },
+  {
+    "day": 73, "word": "Yearn", "pronunciation": "/jɜːn/", "partOfSpeech": "verb", "meaning": "Have an intense feeling of longing for something", "hindiMeaning": "तड़पना, बहुत इच्छा करना", "example": "She yearned for success and worked tirelessly to achieve it.", "hindiExample": "वह सफलता के लिए तड़पती थी और उसे पाने के लिए अथक परिश्रम करती थी।", "synonyms": ["long for", "desire", "crave", "wish"], "antonyms": ["dislike", "reject", "hate"], "officeUsage": "High performers yearn for growth and new challenges.", "dailyUsage": "Yearn to be better than you were yesterday.", "tip": "Year + n → 'Saal bhar (year long) chahat' — deep desire"
+  },
+  {
+    "day": 74, "word": "Zealous", "pronunciation": "/ˈzeləs/", "partOfSpeech": "adjective", "meaning": "Having or showing great energy or enthusiasm in pursuit of a cause or objective", "hindiMeaning": "उत्साही, जोशीला", "example": "Be zealous about learning — knowledge is power.", "hindiExample": "सीखने के बारे में उत्साही रहो — ज्ञान ही शक्ति है।", "synonyms": ["passionate", "enthusiastic", "fervent", "dedicated"], "antonyms": ["apathetic", "indifferent", "lukewarm"], "officeUsage": "A zealous employee always goes above and beyond.", "dailyUsage": "Be zealous about your English practice every day.", "tip": "Zeal + ous → 'Zeal (josh) full' — full of energy and passion"
+  },
+  {
+    "day": 75, "word": "Zenith", "pronunciation": "/ˈzenɪθ/", "partOfSpeech": "noun", "meaning": "The highest point reached by a celestial or other object; the peak", "hindiMeaning": "उच्चतम बिंदु, शिखर", "example": "You have reached the zenith of your English learning journey — Day 75!", "hindiExample": "आपने अपनी English सीखने की यात्रा के उच्चतम बिंदु तक पहुँचे हैं — Day 75!", "synonyms": ["peak", "summit", "pinnacle", "apex"], "antonyms": ["nadir", "bottom", "lowest point"], "officeUsage": "She reached the zenith of her career at age 35.", "dailyUsage": "This is just the beginning — now climb to new zeniths.", "tip": "Zeni + th → 'Zero to the top' — highest point, aasman ki unchai"
+  }
+]

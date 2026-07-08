@@ -1,0 +1,43 @@
+{
+  "id": "05-use-of-there",
+  "title": "Use of There (There is / There are / There was...)",
+  "day": 7,
+  "cefr": "A1",
+  "type": "grammar",
+  "description": "Learn how to use 'There' to indicate existence — There is, There are, There was, There were, There will be, There has been. One of the most frequently used structures in English for describing surroundings, situations, and facts.",
+  "subtopics": [
+    { "id": "01-there-is-singular", "slug": "01-there-is-singular", "title": "There Is — Singular", "emoji": "🔵", "description": "There is a book on the table. Describing existence of one thing.", "xp": 20, "order": 1 },
+    { "id": "02-there-are-plural", "slug": "02-there-are-plural", "title": "There Are — Plural", "emoji": "🔵🔵", "description": "There are 20 students. There are many options. Multiple items.", "xp": 20, "order": 2 },
+    { "id": "03-there-was-were", "slug": "03-there-was-were", "title": "There Was / Were — Past", "emoji": "⏮️", "description": "There was a problem. There were many people. Past existence.", "xp": 20, "order": 3 },
+    { "id": "04-there-will-be", "slug": "04-there-will-be", "title": "There Will Be — Future", "emoji": "🔮", "description": "There will be a meeting tomorrow. Future situations and events.", "xp": 20, "order": 4 },
+    { "id": "05-there-has-been-have-been", "slug": "05-there-has-been-have-been", "title": "There Has Been / Have Been", "emoji": "✔️", "description": "There has been a change. There have been many complaints. Perfect.", "xp": 25, "order": 5 },
+    { "id": "06-there-in-questions", "slug": "06-there-in-questions", "title": "There in Questions", "emoji": "❓", "description": "Is there a problem? Are there any seats? Was there an issue?", "xp": 20, "order": 6 },
+    { "id": "07-there-in-negatives", "slug": "07-there-in-negatives", "title": "There in Negatives", "emoji": "🚫", "description": "There is no milk. There aren't any seats. There was no time.", "xp": 20, "order": 7 },
+    { "id": "08-there-in-daily-life", "slug": "08-there-in-daily-life", "title": "There in Daily Life", "emoji": "🏠", "description": "100+ real sentences describing rooms, cities, situations, surroundings.", "xp": 20, "order": 8 },
+    { "id": "09-there-in-professional-english", "slug": "09-there-in-professional-english", "title": "There in Professional English", "emoji": "💼", "description": "There is an opportunity. There has been a delay. Office communication.", "xp": 25, "order": 9 },
+    { "id": "10-there-vs-their-vs-theyre", "slug": "10-there-vs-their-vs-theyre", "title": "There vs Their vs They're", "emoji": "🔄", "description": "The three confusing homophones — differences, rules, and examples.", "xp": 30, "order": 10 },
+    { "id": "11-common-errors", "slug": "11-common-errors", "title": "Common Errors", "emoji": "⚠️", "description": "There is many people (wrong!), Their is a book (wrong!) — corrections.", "xp": 20, "order": 11 }
+  ],
+  "learningObjectives": [
+    "Use There is for singular nouns to describe existence",
+    "Use There are for plural nouns",
+    "Use There was/were for past situations",
+    "Use There will be for future situations",
+    "Use There has been / have been for recent changes",
+    "Form questions with Is there / Are there / Was there",
+    "Form negatives with There is no / There aren't any",
+    "Describe rooms, places, and situations using there structures",
+    "Correctly spell and use there vs their vs they're",
+    "Use There structures naturally in professional communication"
+  ],
+  "prerequisites": ["02-be-verb"],
+  "estimatedTime": 40,
+  "xpReward": 200,
+  "coinsReward": 50,
+  "tags": ["there-is", "there-are", "existence", "location", "A1", "beginner", "common-structure"],
+  "relatedTopics": ["02-be-verb", "04-has-have-had-will-have"],
+  "totalSubtopics": 11,
+  "totalExamples": 130,
+  "totalVocabulary": 100,
+  "totalPracticeQuestions": 500
+}

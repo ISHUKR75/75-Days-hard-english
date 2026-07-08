@@ -1,19 +1,18 @@
 'use client';
 // ============================================================
-// DASHBOARD PAGE - Main user dashboard with complete analytics
-// Features: Stats cards, graphs, heatmaps, progress tracking, weak area detection
-// Inspired by: Linear, Stripe, Vercel dashboards
+// DASHBOARD PAGE - Main user dashboard with real data
 // ============================================================
 
-import { useEffect, useState } from 'react';
-import { motion } from 'framer-motion';
+import { useEffect, useState, useRef } from 'react';
+import { motion, useInView } from 'framer-motion';
 import {
   Trophy, Target, Flame, Zap, BookOpen, CheckCircle,
   TrendingUp, Clock, Star, Award, BarChart2, Activity,
   Calendar, Brain, MessageSquare, PenTool, Volume2,
-  ArrowRight, Play, Lock
+  ArrowRight, Play, Lock, Sparkles, ChevronRight,
 } from 'lucide-react';
 import Link from 'next/link';
+import CountUp from 'react-countup';
 import {
   LineChart, Line, BarChart, Bar, PieChart, Pie, RadarChart,
   Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis,
@@ -21,505 +20,528 @@ import {
   Cell, Legend
 } from 'recharts';
 import confetti from 'canvas-confetti';
-
-// Import user store (the main working store)
 import useUserStore from '@/store/userStore';
+import useProgressStore from '@/store/progressStore';
 
-// ============================================================
-// Animation Variants
-// ============================================================
-const fadeIn = {
-  hidden: { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5 } }
+// ── Animation Variants ───────────────────────────────────────
+const fadeIn  = { hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } };
+const stagger = { visible: { transition: { staggerChildren: 0.08 } } };
+
+// ── Motivational quotes (changes by day of year) ─────────────
+const QUOTES = [
+  { text: "Every expert was once a beginner. Keep going.", author: "Helen Hayes" },
+  { text: "The secret of getting ahead is getting started.", author: "Mark Twain" },
+  { text: "Language is the road map of a culture.", author: "Rita Mae Brown" },
+  { text: "One language sets you in a corridor for life. Two open every door along the way.", author: "Frank Smith" },
+  { text: "Learning another language is like becoming another person.", author: "Haruki Murakami" },
+  { text: "To have another language is to possess a second soul.", author: "Charlemagne" },
+  { text: "The limits of my language mean the limits of my world.", author: "Ludwig Wittgenstein" },
+];
+
+const getDailyQuote = () => {
+  const dayOfYear = Math.floor((Date.now() - new Date(new Date().getFullYear(), 0, 0)) / 86400000);
+  return QUOTES[dayOfYear % QUOTES.length];
 };
 
-const stagger = {
-  visible: { transition: { staggerChildren: 0.1 } }
-};
+// ── Topic plan for the 75-day journey ────────────────────────
+const TOPIC_PLAN = [
+  { day: 1,  title: 'Basic Greetings',       icon: '👋', href: '/practice/day-1'  },
+  { day: 2,  title: 'Introductions',          icon: '🤝', href: '/practice/day-2'  },
+  { day: 3,  title: 'Numbers & Time',         icon: '🔢', href: '/practice/day-3'  },
+  { day: 4,  title: 'Colors & Shapes',        icon: '🎨', href: '/practice/day-4'  },
+  { day: 5,  title: 'Family Members',         icon: '👨‍👩‍👧', href: '/practice/day-5'  },
+  { day: 6,  title: 'Food & Drinks',          icon: '🍽️', href: '/practice/day-6'  },
+  { day: 7,  title: 'Daily Routine',          icon: '📅', href: '/practice/day-7'  },
+  { day: 8,  title: 'Weather & Seasons',      icon: '🌤️', href: '/practice/day-8'  },
+  { day: 9,  title: 'Shopping & Money',       icon: '🛍️', href: '/practice/day-9'  },
+  { day: 10, title: 'Travel & Directions',    icon: '🗺️', href: '/practice/day-10' },
+];
+
+// ── Skeleton loader ───────────────────────────────────────────
+function Skeleton({ className = '' }) {
+  return (
+    <div className={`animate-pulse rounded-xl bg-white/8 ${className}`} />
+  );
+}
 
 // ============================================================
-// Mock Data (Replace with real data from stores)
-// ============================================================
-const MOCK_DAILY_PROGRESS = [
-  { day: 'Mon', xp: 120, questions: 15, accuracy: 85 },
-  { day: 'Tue', xp: 150, questions: 20, accuracy: 90 },
-  { day: 'Wed', xp: 180, questions: 25, accuracy: 88 },
-  { day: 'Thu', xp: 140, questions: 18, accuracy: 82 },
-  { day: 'Fri', xp: 200, questions: 28, accuracy: 92 },
-  { day: 'Sat', xp: 160, questions: 22, accuracy: 87 },
-  { day: 'Sun', xp: 190, questions: 26, accuracy: 91 }
-];
-
-const MOCK_TOPIC_ACCURACY = [
-  { topic: 'Grammar', accuracy: 92, questions: 150 },
-  { topic: 'Vocabulary', accuracy: 88, questions: 200 },
-  { topic: 'Speaking', accuracy: 78, questions: 80 },
-  { topic: 'Writing', accuracy: 85, questions: 100 },
-  { topic: 'Listening', accuracy: 90, questions: 120 },
-  { topic: 'Reading', accuracy: 95, questions: 110 }
-];
-
-const MOCK_SKILL_DISTRIBUTION = [
-  { skill: 'Grammar', score: 90 },
-  { skill: 'Vocabulary', score: 85 },
-  { skill: 'Speaking', score: 75 },
-  { skill: 'Writing', score: 80 },
-  { skill: 'Listening', score: 88 },
-  { skill: 'Reading', score: 92 }
-];
-
-const MOCK_TIME_SPENT = [
-  { name: 'Grammar', value: 35, color: '#6366f1' },
-  { name: 'Vocabulary', value: 25, color: '#d946ef' },
-  { name: 'Speaking', value: 15, color: '#10b981' },
-  { name: 'Writing', value: 15, color: '#f59e0b' },
-  { name: 'Listening', value: 10, color: '#f43f5e' }
-];
-
-const MOCK_ACHIEVEMENTS = [
-  { id: 1, name: '7-Day Streak', icon: '🔥', unlocked: true, date: '2024-01-15' },
-  { id: 2, name: 'Grammar Master', icon: '📖', unlocked: true, date: '2024-01-20' },
-  { id: 3, name: '100 Questions', icon: '💯', unlocked: true, date: '2024-01-22' },
-  { id: 4, name: 'Speaking Champion', icon: '🎤', unlocked: false },
-  { id: 5, name: '30-Day Streak', icon: '⭐', unlocked: false },
-  { id: 6, name: 'Vocab Guru', icon: '📚', unlocked: false }
-];
-
-// Heatmap data (365 days)
-const generateHeatmapData = () => {
-  const data = [];
-  const today = new Date();
-  for (let i = 364; i >= 0; i--) {
-    const date = new Date(today);
-    date.setDate(date.getDate() - i);
-    const level = Math.random() > 0.3 ? Math.floor(Math.random() * 5) : 0;
-    data.push({
-      date: date.toISOString().split('T')[0],
-      count: level
-    });
-  }
-  return data;
-};
-
-// ============================================================
-// DASHBOARD PAGE COMPONENT
+// MAIN COMPONENT
 // ============================================================
 export default function DashboardPage() {
-  // State
+  const [mounted, setMounted]         = useState(false);
   const [heatmapData, setHeatmapData] = useState([]);
-  const [selectedPeriod, setSelectedPeriod] = useState('week'); // week, month, year
 
-  // Real data from Zustand store (persisted to localStorage)
+  // Real data from stores
   const {
     xp: totalXP, level, coins, streak,
     totalQuestionsAttempted: questionsAttempted,
     totalCorrectAnswers: questionsCorrect,
     totalTopicsCompleted: topicsCompleted,
+    totalTimeSpent,
+    badges, achievements,
+    dailyProgress, dailyGoal,
+    levelXP, levelXPRequired,
     getAccuracy, getLevelProgress,
+    user,
   } = useUserStore();
-  const accuracy = getAccuracy();
-  const totalTopics = 75;
+
+  const { dailyActivity, getHeatmapData, topics: progressTopics } = useProgressStore();
+
+  const accuracy        = getAccuracy();
+  const levelProgress   = getLevelProgress();
+  const totalTopics     = 75;
+  const quote           = getDailyQuote();
+  const currentDay      = Math.min(topicsCompleted + 1, 75);
+
+  // Build last 7 days chart from real dailyActivity
+  const weeklyData = (() => {
+    const days = ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'];
+    return Array.from({ length: 7 }, (_, i) => {
+      const d   = new Date();
+      d.setDate(d.getDate() - (6 - i));
+      const key = d.toISOString().slice(0, 10);
+      const act = dailyActivity?.[key] || {};
+      return {
+        day:       days[d.getDay()],
+        xp:        act.xpEarned        || 0,
+        questions: act.questionsAttempted || 0,
+        accuracy:  act.questionsAttempted > 0
+          ? Math.round((act.questionsCorrect / act.questionsAttempted) * 100)
+          : 0,
+      };
+    });
+  })();
+
+  // Recent activity feed
+  const recentActivity = (() => {
+    if (!dailyActivity) return [];
+    return Object.entries(dailyActivity)
+      .sort(([a], [b]) => b.localeCompare(a))
+      .slice(0, 5)
+      .map(([date, act]) => ({
+        date,
+        label: `Answered ${act.questionsAttempted} questions`,
+        xp:    act.xpEarned || 0,
+        accuracy: act.questionsAttempted > 0
+          ? Math.round((act.questionsCorrect / act.questionsAttempted) * 100)
+          : 0,
+      }));
+  })();
 
   useEffect(() => {
-    setHeatmapData(generateHeatmapData());
-  }, []);
+    setMounted(true);
+    setHeatmapData(getHeatmapData(84));
+  }, [getHeatmapData]);
 
-  // Trigger confetti on mount (for celebration)
-  const triggerCelebration = () => {
-    confetti({
-      particleCount: 100,
-      spread: 70,
-      origin: { y: 0.6 }
-    });
-  };
+  if (!mounted) {
+    return (
+      <div className="min-h-screen bg-surface-950 p-6">
+        <div className="max-w-7xl mx-auto space-y-6">
+          <Skeleton className="h-24 w-full" />
+          <div className="grid grid-cols-2 lg:grid-cols-4 gap-5">
+            {[...Array(4)].map((_, i) => <Skeleton key={i} className="h-36" />)}
+          </div>
+          <Skeleton className="h-48 w-full" />
+        </div>
+      </div>
+    );
+  }
 
   return (
-    <div className="min-h-screen bg-surface-950 p-6">
-      <div className="max-w-7xl mx-auto space-y-8">
+    <div className="min-h-screen bg-surface-950 p-4 md:p-6">
+      <div className="max-w-7xl mx-auto space-y-6">
 
-        {/* ============================================================
-            HEADER SECTION
-        ============================================================ */}
-        <motion.div
-          initial="hidden"
-          animate="visible"
-          variants={fadeIn}
-          className="flex flex-col md:flex-row md:items-center md:justify-between gap-4"
+        {/* ── Header ──────────────────────────────────────────── */}
+        <motion.div initial="hidden" animate="visible" variants={fadeIn}
+          className="flex flex-col md:flex-row md:items-start md:justify-between gap-4"
         >
           <div>
-            <h1 className="text-4xl font-black text-white mb-2">
-              Welcome back! 👋
+            <h1 className="text-3xl md:text-4xl font-black text-white mb-1">
+              Welcome back, {user?.name || 'Student'}! 👋
             </h1>
-            <p className="text-slate-400">
-              You're on Day {topicsCompleted} of your 75-day journey
+            <p className="text-slate-400 text-sm">
+              Day <span className="text-primary-400 font-bold">{currentDay}</span> of your 75-day journey
             </p>
           </div>
-          
-          {/* Quick Actions */}
-          <div className="flex gap-3">
+          <div className="flex gap-3 shrink-0">
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
-                href="/dashboard/practice"
-                className="btn-gradient px-6 py-3 rounded-xl font-semibold flex items-center gap-2"
+                href={`/practice/day-${currentDay}`}
+                className="btn-gradient px-5 py-2.5 rounded-xl font-semibold flex items-center gap-2 text-sm"
               >
-                <Play size={18} />
+                <Play size={16} fill="white" />
                 Continue Learning
               </Link>
             </motion.div>
           </div>
         </motion.div>
 
-        {/* ============================================================
-            TOP STATS CARDS
-        ============================================================ */}
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          animate="visible"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5"
+        {/* ── Motivational Quote ──────────────────────────────── */}
+        <AnimatedSection>
+          <div className="card p-5 border border-primary-500/20 bg-gradient-to-r from-primary-500/5 to-secondary-500/5">
+            <div className="flex items-start gap-3">
+              <Sparkles size={18} className="text-primary-400 shrink-0 mt-0.5" />
+              <div>
+                <p className="text-white font-medium italic">"{quote.text}"</p>
+                <p className="text-slate-500 text-xs mt-1">— {quote.author}</p>
+              </div>
+            </div>
+          </div>
+        </AnimatedSection>
+
+        {/* ── Stat Cards ───────────────────────────────────────── */}
+        <motion.div variants={stagger} initial="hidden" animate="visible"
+          className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-5"
         >
-          {/* XP Card */}
           <StatCard
-            icon={Zap}
-            label="Total XP"
-            value={totalXP.toLocaleString()}
-            color="from-indigo-500 to-purple-500"
-            badge={`Level ${level}`}
-            trend="+120 today"
+            icon={Zap} label="Total XP" color="from-indigo-500 to-purple-500"
+            badge={`Level ${level}`} trend={`${levelXP}/${levelXPRequired} to next`}
+            value={totalXP}
           />
-
-          {/* Coins Card */}
           <StatCard
-            icon={Trophy}
-            label="Coins"
-            value={coins.toLocaleString()}
-            color="from-amber-500 to-orange-500"
-            badge="💰"
-            trend="+40 this week"
+            icon={Trophy} label="Coins" color="from-amber-500 to-orange-500"
+            badge="💰" trend="Spend in shop"
+            value={coins}
           />
-
-          {/* Streak Card */}
           <StatCard
-            icon={Flame}
-            label="Day Streak"
+            icon={Flame} label="Day Streak" color="from-red-500 to-orange-500"
+            badge="🔥" trend={streak > 0 ? 'Keep it up!' : 'Start today!'}
             value={streak}
-            color="from-red-500 to-orange-500"
-            badge="🔥"
-            trend="Keep it up!"
-            onClick={triggerCelebration}
+            onClick={() => streak > 0 && confetti({ particleCount: 80, spread: 60, origin: { y: 0.6 } })}
           />
-
-          {/* Accuracy Card */}
           <StatCard
-            icon={Target}
-            label="Accuracy"
-            value={`${accuracy}%`}
-            color="from-emerald-500 to-teal-500"
-            badge="✓"
-            trend={`${questionsCorrect}/${questionsAttempted}`}
+            icon={Target} label="Accuracy" color="from-emerald-500 to-teal-500"
+            badge="✓" trend={`${questionsCorrect}/${questionsAttempted} correct`}
+            value={accuracy} suffix="%"
           />
         </motion.div>
 
-        {/* ============================================================
-            PROGRESS OVERVIEW
-        ============================================================ */}
-        <motion.div variants={fadeIn} className="card p-6">
-          <div className="flex items-center justify-between mb-6">
-            <div>
-              <h2 className="text-2xl font-bold text-white">Your Progress</h2>
-              <p className="text-slate-400 text-sm">
-                {topicsCompleted} of {totalTopics} days completed
-              </p>
+        {/* ── Level Progress + Journey ─────────────────────────── */}
+        <AnimatedSection>
+          <div className="card p-6">
+            <div className="flex items-center justify-between mb-5">
+              <div>
+                <h2 className="text-xl font-bold text-white">75-Day Journey</h2>
+                <p className="text-slate-400 text-sm">{topicsCompleted} of {totalTopics} days completed</p>
+              </div>
+              <span className="text-2xl font-black gradient-text">
+                {Math.round((topicsCompleted / totalTopics) * 100)}%
+              </span>
             </div>
-            <span className="text-3xl font-black gradient-text">
-              {Math.round((topicsCompleted / totalTopics) * 100)}%
-            </span>
+            <div className="progress-bar mb-2">
+              <motion.div
+                className="progress-fill"
+                initial={{ width: 0 }}
+                animate={{ width: `${(topicsCompleted / totalTopics) * 100}%` }}
+                transition={{ duration: 1.5, ease: 'easeOut', delay: 0.3 }}
+              />
+            </div>
+            <div className="flex justify-between text-xs text-slate-500 mb-5">
+              <span>Day 1</span><span>Day 75</span>
+            </div>
+
+            {/* Level progress */}
+            <div className="p-4 rounded-xl bg-white/5 border border-white/8">
+              <div className="flex items-center justify-between mb-2">
+                <span className="text-sm font-semibold text-white">Level {level} → {level + 1}</span>
+                <span className="text-xs text-slate-400">{levelXP} / {levelXPRequired} XP</span>
+              </div>
+              <div className="h-2 rounded-full bg-white/8 overflow-hidden">
+                <motion.div
+                  className="h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500"
+                  initial={{ width: 0 }}
+                  animate={{ width: `${levelProgress}%` }}
+                  transition={{ duration: 1.2, ease: 'easeOut', delay: 0.5 }}
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-3 gap-4 text-center mt-5">
+              {[
+                { label: 'Questions',  value: questionsAttempted, color: 'text-white' },
+                { label: 'Correct',    value: questionsCorrect,   color: 'text-emerald-400' },
+                { label: 'Wrong',      value: questionsAttempted - questionsCorrect, color: 'text-rose-400' },
+              ].map(({ label, value, color }) => (
+                <div key={label}>
+                  <p className={`text-2xl font-bold ${color}`}>
+                    <CountUp end={value} duration={1.5} />
+                  </p>
+                  <p className="text-xs text-slate-500 mt-0.5">{label}</p>
+                </div>
+              ))}
+            </div>
           </div>
+        </AnimatedSection>
 
-          {/* Progress bar */}
-          <div className="progress-bar mb-4">
-            <motion.div
-              className="progress-fill"
-              initial={{ width: 0 }}
-              animate={{ width: `${(topicsCompleted / totalTopics) * 100}%` }}
-              transition={{ duration: 1.5, ease: 'easeOut' }}
-            />
+        {/* ── Today's Plan ─────────────────────────────────────── */}
+        <AnimatedSection>
+          <div className="card p-6">
+            <div className="flex items-center justify-between mb-4">
+              <h3 className="text-xl font-bold text-white flex items-center gap-2">
+                <Calendar size={20} className="text-primary-400" />
+                Today's Plan
+              </h3>
+              <Link href="/curriculum" className="text-xs text-primary-400 hover:text-primary-300 flex items-center gap-1">
+                Full curriculum <ChevronRight size={13} />
+              </Link>
+            </div>
+
+            {/* Daily goal bar */}
+            <div className="p-3 rounded-xl bg-white/5 border border-white/8 mb-4">
+              <div className="flex justify-between text-xs text-slate-400 mb-2">
+                <span>Daily Goal: {dailyProgress} / {dailyGoal} min</span>
+                <span className={dailyProgress >= dailyGoal ? 'text-emerald-400' : 'text-primary-400'}>
+                  {Math.min(100, Math.round((dailyProgress / dailyGoal) * 100))}%
+                </span>
+              </div>
+              <div className="h-1.5 rounded-full bg-white/8 overflow-hidden">
+                <motion.div
+                  className="h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500"
+                  animate={{ width: `${Math.min(100, (dailyProgress / dailyGoal) * 100)}%` }}
+                  transition={{ duration: 1 }}
+                />
+              </div>
+            </div>
+
+            <div className="grid grid-cols-2 sm:grid-cols-5 gap-2.5">
+              {TOPIC_PLAN.map((topic) => {
+                const isDone = topic.day <= topicsCompleted;
+                const isCurrent = topic.day === currentDay;
+                return (
+                  <Link key={topic.day} href={topic.href}>
+                    <motion.div
+                      whileHover={{ scale: 1.03, y: -2 }}
+                      whileTap={{ scale: 0.97 }}
+                      className={`p-3 rounded-xl border text-center cursor-pointer transition-colors ${
+                        isCurrent
+                          ? 'border-primary-500/50 bg-primary-500/15 shadow-md shadow-primary-500/20'
+                          : isDone
+                          ? 'border-emerald-500/30 bg-emerald-500/8'
+                          : 'border-white/8 bg-white/3 hover:bg-white/6'
+                      }`}
+                    >
+                      <div className="text-xl mb-1">{isDone ? '✅' : topic.icon}</div>
+                      <p className={`text-[10px] font-semibold leading-tight ${
+                        isCurrent ? 'text-primary-300' : isDone ? 'text-emerald-400' : 'text-slate-400'
+                      }`}>
+                        Day {topic.day}
+                      </p>
+                      <p className="text-[9px] text-slate-500 mt-0.5 leading-tight">{topic.title}</p>
+                    </motion.div>
+                  </Link>
+                );
+              })}
+            </div>
           </div>
+        </AnimatedSection>
 
-          <div className="grid grid-cols-3 gap-4 text-center">
-            <div>
-              <p className="text-2xl font-bold text-white">{questionsAttempted}</p>
-              <p className="text-sm text-slate-500">Questions</p>
+        {/* ── Charts 2-col ─────────────────────────────────────── */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          {/* Weekly Activity */}
+          <AnimatedSection>
+            <div className="card p-6">
+              <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                <Activity size={18} className="text-primary-400" />
+                Weekly Activity
+              </h3>
+              <ResponsiveContainer width="100%" height={220}>
+                <LineChart data={weeklyData}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
+                  <XAxis dataKey="day" stroke="#64748b" style={{ fontSize: '11px' }} />
+                  <YAxis stroke="#64748b" style={{ fontSize: '11px' }} />
+                  <Tooltip contentStyle={{ backgroundColor: '#1e293b', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#fff', fontSize: '12px' }} />
+                  <Line type="monotone" dataKey="xp" stroke="#6366f1" strokeWidth={2.5} dot={{ fill: '#6366f1', r: 3 }} activeDot={{ r: 5 }} name="XP" />
+                  <Line type="monotone" dataKey="questions" stroke="#d946ef" strokeWidth={2} dot={false} name="Questions" />
+                </LineChart>
+              </ResponsiveContainer>
             </div>
-            <div>
-              <p className="text-2xl font-bold text-emerald-400">{questionsCorrect}</p>
-              <p className="text-sm text-slate-500">Correct</p>
+          </AnimatedSection>
+
+          {/* Accuracy Trend */}
+          <AnimatedSection>
+            <div className="card p-6">
+              <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                <BarChart2 size={18} className="text-secondary-400" />
+                Daily Accuracy
+              </h3>
+              <ResponsiveContainer width="100%" height={220}>
+                <BarChart data={weeklyData}>
+                  <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
+                  <XAxis dataKey="day" stroke="#64748b" style={{ fontSize: '11px' }} />
+                  <YAxis domain={[0, 100]} stroke="#64748b" style={{ fontSize: '11px' }} />
+                  <Tooltip
+                    contentStyle={{ backgroundColor: '#1e293b', border: '1px solid rgba(255,255,255,0.1)', borderRadius: '8px', color: '#fff', fontSize: '12px' }}
+                    formatter={(v) => [`${v}%`, 'Accuracy']}
+                  />
+                  <Bar dataKey="accuracy" radius={[6, 6, 0, 0]}>
+                    {weeklyData.map((entry, i) => (
+                      <Cell key={i} fill={entry.accuracy >= 80 ? '#10b981' : entry.accuracy >= 60 ? '#6366f1' : '#f43f5e'} />
+                    ))}
+                  </Bar>
+                </BarChart>
+              </ResponsiveContainer>
             </div>
-            <div>
-              <p className="text-2xl font-bold text-rose-400">{questionsAttempted - questionsCorrect}</p>
-              <p className="text-sm text-slate-500">Wrong</p>
-            </div>
-          </div>
-        </motion.div>
-
-        {/* ============================================================
-            CHARTS SECTION - 2 Column Layout
-        ============================================================ */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          
-          {/* Daily Progress Chart */}
-          <motion.div variants={fadeIn} className="card p-6">
-            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-              <Activity size={20} className="text-primary-400" />
-              Weekly Activity
-            </h3>
-            <ResponsiveContainer width="100%" height={250}>
-              <LineChart data={MOCK_DAILY_PROGRESS}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
-                <XAxis
-                  dataKey="day"
-                  stroke="#64748b"
-                  style={{ fontSize: '12px' }}
-                />
-                <YAxis
-                  stroke="#64748b"
-                  style={{ fontSize: '12px' }}
-                />
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: '#1e293b',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: '8px',
-                    color: '#fff'
-                  }}
-                />
-                <Line
-                  type="monotone"
-                  dataKey="xp"
-                  stroke="#6366f1"
-                  strokeWidth={3}
-                  dot={{ fill: '#6366f1', r: 4 }}
-                  activeDot={{ r: 6 }}
-                />
-              </LineChart>
-            </ResponsiveContainer>
-          </motion.div>
-
-          {/* Topic Accuracy Chart */}
-          <motion.div variants={fadeIn} className="card p-6">
-            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-              <BarChart2 size={20} className="text-secondary-400" />
-              Topic Accuracy
-            </h3>
-            <ResponsiveContainer width="100%" height={250}>
-              <BarChart data={MOCK_TOPIC_ACCURACY}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.1)" />
-                <XAxis
-                  dataKey="topic"
-                  stroke="#64748b"
-                  style={{ fontSize: '11px' }}
-                />
-                <YAxis
-                  stroke="#64748b"
-                  style={{ fontSize: '12px' }}
-                />
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: '#1e293b',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: '8px',
-                    color: '#fff'
-                  }}
-                />
-                <Bar
-                  dataKey="accuracy"
-                  fill="url(#colorGradient)"
-                  radius={[8, 8, 0, 0]}
-                />
-                <defs>
-                  <linearGradient id="colorGradient" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#6366f1" />
-                    <stop offset="100%" stopColor="#d946ef" />
-                  </linearGradient>
-                </defs>
-              </BarChart>
-            </ResponsiveContainer>
-          </motion.div>
-
-          {/* Skill Distribution Radar */}
-          <motion.div variants={fadeIn} className="card p-6">
-            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-              <Brain size={20} className="text-emerald-400" />
-              Skill Distribution
-            </h3>
-            <ResponsiveContainer width="100%" height={250}>
-              <RadarChart data={MOCK_SKILL_DISTRIBUTION}>
-                <PolarGrid stroke="rgba(255,255,255,0.1)" />
-                <PolarAngleAxis
-                  dataKey="skill"
-                  stroke="#64748b"
-                  style={{ fontSize: '11px' }}
-                />
-                <PolarRadiusAxis
-                  angle={90}
-                  domain={[0, 100]}
-                  stroke="#64748b"
-                  style={{ fontSize: '10px' }}
-                />
-                <Radar
-                  name="Score"
-                  dataKey="score"
-                  stroke="#10b981"
-                  fill="#10b981"
-                  fillOpacity={0.3}
-                  strokeWidth={2}
-                />
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: '#1e293b',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: '8px'
-                  }}
-                />
-              </RadarChart>
-            </ResponsiveContainer>
-          </motion.div>
-
-          {/* Time Spent Pie Chart */}
-          <motion.div variants={fadeIn} className="card p-6">
-            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-              <Clock size={20} className="text-amber-400" />
-              Time Distribution
-            </h3>
-            <ResponsiveContainer width="100%" height={250}>
-              <PieChart>
-                <Pie
-                  data={MOCK_TIME_SPENT}
-                  cx="50%"
-                  cy="50%"
-                  innerRadius={60}
-                  outerRadius={90}
-                  paddingAngle={2}
-                  dataKey="value"
-                >
-                  {MOCK_TIME_SPENT.map((entry, index) => (
-                    <Cell key={`cell-${index}`} fill={entry.color} />
-                  ))}
-                </Pie>
-                <Tooltip
-                  contentStyle={{
-                    backgroundColor: '#1e293b',
-                    border: '1px solid rgba(255,255,255,0.1)',
-                    borderRadius: '8px'
-                  }}
-                />
-                <Legend
-                  verticalAlign="bottom"
-                  height={36}
-                  iconType="circle"
-                  wrapperStyle={{ fontSize: '12px', color: '#94a3b8' }}
-                />
-              </PieChart>
-            </ResponsiveContainer>
-          </motion.div>
+          </AnimatedSection>
         </div>
 
-        {/* ============================================================
-            ACTIVITY HEATMAP
-        ============================================================ */}
-        <motion.div variants={fadeIn} className="card p-6">
-          <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-            <Calendar size={20} className="text-primary-400" />
-            Activity Heatmap
-            <span className="text-sm font-normal text-slate-400 ml-2">
-              (Last 365 days)
-            </span>
-          </h3>
-          <div className="overflow-x-auto">
-            <HeatmapCalendar data={heatmapData} />
-          </div>
-        </motion.div>
-
-        {/* ============================================================
-            ACHIEVEMENTS
-        ============================================================ */}
-        <motion.div variants={fadeIn} className="card p-6">
-          <div className="flex items-center justify-between mb-6">
-            <h3 className="text-xl font-bold text-white flex items-center gap-2">
-              <Award size={20} className="text-yellow-400" />
-              Achievements
+        {/* ── Activity Heatmap ──────────────────────────────────── */}
+        <AnimatedSection>
+          <div className="card p-6">
+            <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <Calendar size={18} className="text-primary-400" />
+              Activity Heatmap
+              <span className="text-sm font-normal text-slate-500 ml-1">(Last 84 days)</span>
             </h3>
-            <Link
-              href="/dashboard/achievements"
-              className="text-sm text-primary-400 hover:text-primary-300 flex items-center gap-1"
-            >
-              View All <ArrowRight size={14} />
-            </Link>
-          </div>
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-4">
-            {MOCK_ACHIEVEMENTS.map((achievement) => (
-              <AchievementBadge key={achievement.id} achievement={achievement} />
-            ))}
-          </div>
-        </motion.div>
-
-        {/* ============================================================
-            WEAK AREAS & RECOMMENDATIONS
-        ============================================================ */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-          {/* Weak Areas */}
-          <motion.div variants={fadeIn} className="card p-6">
-            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-              <Target size={20} className="text-rose-400" />
-              Areas to Improve
-            </h3>
-            <div className="space-y-3">
-              <WeakArea
-                topic="Speaking Practice"
-                score={78}
-                improvement="+5%"
-                icon={MessageSquare}
-              />
-              <WeakArea
-                topic="Writing Skills"
-                score={82}
-                improvement="+3%"
-                icon={PenTool}
-              />
-              <WeakArea
-                topic="Pronunciation"
-                score={75}
-                improvement="+8%"
-                icon={Volume2}
-              />
+            <div className="overflow-x-auto pb-2">
+              <HeatmapCalendar data={heatmapData} />
             </div>
-          </motion.div>
+            <div className="flex items-center gap-2 mt-3 text-xs text-slate-500">
+              <span>Less</span>
+              {['bg-white/5', 'bg-emerald-900/40', 'bg-emerald-700/50', 'bg-emerald-500/60', 'bg-emerald-400/80'].map((c, i) => (
+                <div key={i} className={`w-3 h-3 rounded-sm ${c}`} />
+              ))}
+              <span>More</span>
+            </div>
+          </div>
+        </AnimatedSection>
 
-          {/* Recommended Topics */}
-          <motion.div variants={fadeIn} className="card p-6">
-            <h3 className="text-xl font-bold text-white mb-4 flex items-center gap-2">
-              <BookOpen size={20} className="text-indigo-400" />
+        {/* ── Recent Activity + Achievements ────────────────────── */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
+          {/* Recent Activity Feed */}
+          <AnimatedSection>
+            <div className="card p-6">
+              <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+                <Activity size={18} className="text-emerald-400" />
+                Recent Activity
+              </h3>
+              {recentActivity.length > 0 ? (
+                <div className="space-y-2.5">
+                  {recentActivity.map((item, i) => (
+                    <motion.div
+                      key={item.date}
+                      initial={{ opacity: 0, x: -10 }} animate={{ opacity: 1, x: 0 }}
+                      transition={{ delay: i * 0.05 }}
+                      className="flex items-center justify-between p-3 rounded-xl bg-white/4 hover:bg-white/7 transition-colors"
+                    >
+                      <div className="flex items-center gap-3">
+                        <div className="w-8 h-8 rounded-lg bg-primary-500/20 flex items-center justify-center">
+                          <BookOpen size={14} className="text-primary-400" />
+                        </div>
+                        <div>
+                          <p className="text-sm text-white font-medium">{item.label}</p>
+                          <p className="text-xs text-slate-500">{item.date} • {item.accuracy}% accuracy</p>
+                        </div>
+                      </div>
+                      <span className="text-xs font-bold text-yellow-400">+{item.xp} XP</span>
+                    </motion.div>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-center py-8 text-slate-500">
+                  <BookOpen size={32} className="mx-auto mb-2 opacity-30" />
+                  <p className="text-sm">No activity yet. Start practicing!</p>
+                  <Link href={`/practice/day-1`} className="mt-3 inline-block text-xs text-primary-400 hover:text-primary-300">
+                    Begin Day 1 →
+                  </Link>
+                </div>
+              )}
+            </div>
+          </AnimatedSection>
+
+          {/* Achievements */}
+          <AnimatedSection>
+            <div className="card p-6">
+              <div className="flex items-center justify-between mb-4">
+                <h3 className="text-lg font-bold text-white flex items-center gap-2">
+                  <Award size={18} className="text-yellow-400" />
+                  Achievements
+                </h3>
+                <Link href="/dashboard/achievements" className="text-xs text-primary-400 hover:text-primary-300 flex items-center gap-1">
+                  View All <ArrowRight size={13} />
+                </Link>
+              </div>
+              {achievements.length > 0 ? (
+                <div className="grid grid-cols-3 gap-3">
+                  {achievements.slice(0, 6).map((a, i) => (
+                    <motion.div
+                      key={a.id || i}
+                      whileHover={{ scale: 1.05, y: -2 }}
+                      className="achievement-card unlocked"
+                    >
+                      <span className="text-3xl mb-1">{a.icon || '🏅'}</span>
+                      <p className="text-[10px] font-semibold text-white text-center leading-tight">{a.name || a.title}</p>
+                    </motion.div>
+                  ))}
+                </div>
+              ) : (
+                <div className="text-center py-8 text-slate-500">
+                  <Award size={32} className="mx-auto mb-2 opacity-30" />
+                  <p className="text-sm">Earn achievements by practicing daily!</p>
+                </div>
+              )}
+
+              {/* Default locked achievements to show */}
+              {achievements.length === 0 && (
+                <div className="grid grid-cols-3 gap-3 mt-3">
+                  {[
+                    { name: '7-Day Streak', icon: '🔥' },
+                    { name: 'Grammar Master', icon: '📖' },
+                    { name: '100 Questions', icon: '💯' },
+                  ].map((a) => (
+                    <div key={a.name} className="achievement-card locked relative">
+                      <span className="text-3xl mb-1 opacity-40">{a.icon}</span>
+                      <p className="text-[10px] text-slate-600 text-center">{a.name}</p>
+                      <Lock size={12} className="absolute top-1.5 right-1.5 text-slate-600" />
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </AnimatedSection>
+        </div>
+
+        {/* ── Recommendations ───────────────────────────────────── */}
+        <AnimatedSection>
+          <div className="card p-6">
+            <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
+              <BookOpen size={18} className="text-indigo-400" />
               Recommended for You
             </h3>
-            <div className="space-y-3">
-              <RecommendedTopic
-                title="Passive Voice - Part 2"
-                reason="Based on your weak areas"
-                progress={0}
-              />
-              <RecommendedTopic
-                title="Speaking Practice - Office"
-                reason="Continue your learning path"
-                progress={60}
-              />
-              <RecommendedTopic
-                title="Advanced Vocabulary"
-                reason="Next in your curriculum"
-                progress={0}
-              />
+            <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+              {TOPIC_PLAN.slice(currentDay - 1, currentDay + 2).map((topic) => {
+                const isDone = topic.day <= topicsCompleted;
+                return (
+                  <Link key={topic.day} href={topic.href}>
+                    <motion.div
+                      whileHover={{ scale: 1.02, y: -2 }}
+                      className="p-4 rounded-xl bg-white/5 border border-white/8 hover:border-primary-500/30 transition-all cursor-pointer"
+                    >
+                      <div className="flex items-center gap-3 mb-2">
+                        <span className="text-2xl">{topic.icon}</span>
+                        <div>
+                          <p className="text-sm font-semibold text-white">Day {topic.day}: {topic.title}</p>
+                          <p className="text-xs text-slate-500">
+                            {isDone ? 'Review again' : topic.day === currentDay ? 'Continue now' : 'Coming up'}
+                          </p>
+                        </div>
+                      </div>
+                      <div className="flex items-center justify-between">
+                        <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
+                          isDone ? 'bg-emerald-500/15 text-emerald-400' :
+                          topic.day === currentDay ? 'bg-primary-500/15 text-primary-400' :
+                          'bg-white/5 text-slate-500'
+                        }`}>
+                          {isDone ? '✅ Done' : topic.day === currentDay ? '▶ Current' : '🔒 Upcoming'}
+                        </span>
+                        <ArrowRight size={14} className="text-slate-500" />
+                      </div>
+                    </motion.div>
+                  </Link>
+                );
+              })}
             </div>
-          </motion.div>
-        </div>
+          </div>
+        </AnimatedSection>
 
       </div>
     </div>
@@ -530,11 +552,24 @@ export default function DashboardPage() {
 // SUB-COMPONENTS
 // ============================================================
 
-/**
- * Stat Card Component
- * Displays a key metric with icon, value, and trend
- */
-function StatCard({ icon: Icon, label, value, color, badge, trend, onClick }) {
+/** Animated section wrapper with intersection observer */
+function AnimatedSection({ children }) {
+  const ref = useRef(null);
+  const isInView = useInView(ref, { once: true, margin: '-50px' });
+  return (
+    <motion.div
+      ref={ref}
+      initial={{ opacity: 0, y: 24 }}
+      animate={isInView ? { opacity: 1, y: 0 } : {}}
+      transition={{ duration: 0.45, ease: 'easeOut' }}
+    >
+      {children}
+    </motion.div>
+  );
+}
+
+/** Stat Card with animated counter */
+function StatCard({ icon: Icon, label, value, suffix = '', color, badge, trend, onClick }) {
   return (
     <motion.div
       variants={fadeIn}
@@ -542,13 +577,11 @@ function StatCard({ icon: Icon, label, value, color, badge, trend, onClick }) {
       onClick={onClick}
       className="card p-5 cursor-pointer relative overflow-hidden group"
     >
-      {/* Gradient background on hover */}
-      <div className={`absolute inset-0 bg-gradient-to-br ${color} opacity-0 group-hover:opacity-10 transition-opacity duration-300`} />
-      
+      <div className={`absolute inset-0 bg-gradient-to-br ${color} opacity-0 group-hover:opacity-8 transition-opacity duration-300`} />
       <div className="relative z-10">
         <div className="flex items-start justify-between mb-4">
-          <div className={`p-2.5 rounded-xl bg-gradient-to-br ${color} bg-opacity-20`}>
-            <Icon size={20} className="text-white" />
+          <div className={`p-2.5 rounded-xl bg-gradient-to-br ${color}`}>
+            <Icon size={18} className="text-white" />
           </div>
           {badge && (
             <span className="text-xs font-semibold px-2 py-1 rounded-full bg-white/10 text-slate-300">
@@ -556,11 +589,13 @@ function StatCard({ icon: Icon, label, value, color, badge, trend, onClick }) {
             </span>
           )}
         </div>
-        <p className="text-3xl font-black text-white mb-1">{value}</p>
+        <p className="text-3xl font-black text-white mb-1">
+          <CountUp end={typeof value === 'number' ? value : 0} duration={1.5} separator="," />{suffix}
+        </p>
         <p className="text-sm text-slate-400">{label}</p>
         {trend && (
           <p className="text-xs text-emerald-400 mt-2 flex items-center gap-1">
-            <TrendingUp size={12} />
+            <TrendingUp size={11} />
             {trend}
           </p>
         )}
@@ -569,105 +604,35 @@ function StatCard({ icon: Icon, label, value, color, badge, trend, onClick }) {
   );
 }
 
-/**
- * Heatmap Calendar Component
- * Shows activity over 365 days
- */
+/** Heatmap Calendar - real data from progressStore */
 function HeatmapCalendar({ data }) {
-  const getColor = (count) => {
-    if (count === 0) return 'bg-white/5';
-    if (count === 1) return 'bg-emerald-900/40';
-    if (count === 2) return 'bg-emerald-700/50';
-    if (count === 3) return 'bg-emerald-500/60';
-    return 'bg-emerald-400/80';
+  const getColor = (level) => {
+    if (level === 0) return 'bg-white/5';
+    if (level === 1) return 'bg-emerald-900/50';
+    if (level === 2) return 'bg-emerald-700/60';
+    if (level === 3) return 'bg-emerald-500/70';
+    return 'bg-emerald-400/90';
   };
 
-  // Group data by weeks
   const weeks = [];
   for (let i = 0; i < data.length; i += 7) {
     weeks.push(data.slice(i, i + 7));
   }
 
   return (
-    <div className="flex gap-1">
-      {weeks.map((week, weekIndex) => (
-        <div key={weekIndex} className="flex flex-col gap-1">
-          {week.map((day, dayIndex) => (
-            <div
-              key={dayIndex}
-              className={`heatmap-cell ${getColor(day.count)}`}
-              title={`${day.date}: ${day.count} activities`}
+    <div className="flex gap-1 min-w-max">
+      {weeks.map((week, wi) => (
+        <div key={wi} className="flex flex-col gap-1">
+          {week.map((day, di) => (
+            <motion.div
+              key={di}
+              whileHover={{ scale: 1.4 }}
+              className={`heatmap-cell ${getColor(day.level)} cursor-pointer transition-colors`}
+              title={`${day.date}: ${day.count} questions`}
             />
           ))}
         </div>
       ))}
-    </div>
-  );
-}
-
-/**
- * Achievement Badge Component
- */
-function AchievementBadge({ achievement }) {
-  return (
-    <motion.div
-      whileHover={{ scale: 1.05, y: -2 }}
-      className={`achievement-card ${achievement.unlocked ? 'unlocked' : 'locked'}`}
-    >
-      <span className="text-4xl mb-2">{achievement.icon}</span>
-      <p className="text-xs font-semibold text-white text-center">
-        {achievement.name}
-      </p>
-      {!achievement.unlocked && (
-        <Lock size={16} className="absolute top-2 right-2 text-slate-600" />
-      )}
-    </motion.div>
-  );
-}
-
-/**
- * Weak Area Component
- */
-function WeakArea({ topic, score, improvement, icon: Icon }) {
-  return (
-    <div className="flex items-center justify-between p-3 rounded-xl bg-white/5 hover:bg-white/8 transition-colors">
-      <div className="flex items-center gap-3">
-        <div className="p-2 rounded-lg bg-rose-500/20">
-          <Icon size={16} className="text-rose-400" />
-        </div>
-        <div>
-          <p className="text-sm font-semibold text-white">{topic}</p>
-          <p className="text-xs text-slate-500">Score: {score}%</p>
-        </div>
-      </div>
-      <span className="text-xs font-semibold text-emerald-400">{improvement}</span>
-    </div>
-  );
-}
-
-/**
- * Recommended Topic Component
- */
-function RecommendedTopic({ title, reason, progress }) {
-  return (
-    <div className="p-3 rounded-xl bg-white/5 hover:bg-white/8 transition-colors">
-      <div className="flex items-start justify-between mb-2">
-        <div>
-          <p className="text-sm font-semibold text-white">{title}</p>
-          <p className="text-xs text-slate-500">{reason}</p>
-        </div>
-        {progress > 0 && (
-          <span className="text-xs font-semibold text-primary-400">{progress}%</span>
-        )}
-      </div>
-      {progress > 0 && (
-        <div className="progress-bar h-1.5">
-          <div
-            className="progress-fill"
-            style={{ width: `${progress}%` }}
-          />
-        </div>
-      )}
     </div>
   );
 }
