@@ -150,3 +150,197 @@ const CONFIDENCE_EXERCISES = [
   { id: 2, title: 'Tongue Twisters', icon: '👅', desc: 'For pronunciation improvement', sentences: ['She sells sea shells by the sea shore.', 'Peter Piper picked a peck of pickled peppers.', 'How much wood would a woodchuck chuck.', 'Red lorry, yellow lorry, red lorry, yellow lorry.', 'Unique New York, Unique New York, you know you need unique New York.'] },
   { id: 3, title: 'Mirror Sentences', icon: '🪞', desc: 'Say in front of mirror with expression', sentences: ['Good morning! How are you doing today?', 'I completely understand your concern.', 'That\'s a really interesting point.', 'I would love to learn more about that.', 'Let me get back to you on that.'] },
 ];
+
+// ── Main Page Component ───────────────────────────────────────
+export default function SpeakingStudioPage() {
+  const [activeTab, setActiveTab] = useState('scenarios');
+  const [selectedScenario, setSelectedScenario] = useState(null);
+  const [activeExercise, setActiveExercise] = useState(null);
+  const [isRecording, setIsRecording] = useState(false);
+  const [activeSentence, setActiveSentence] = useState(0);
+
+  return (
+    <div className="min-h-screen bg-gradient-to-br from-gray-950 via-indigo-950 to-gray-900 text-white">
+      {/* Header */}
+      <div className="border-b border-white/10 bg-black/20 backdrop-blur-sm sticky top-0 z-40">
+        <div className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
+          <div className="flex items-center gap-3">
+            <div className="w-10 h-10 rounded-xl bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center">
+              <Mic className="w-5 h-5" />
+            </div>
+            <div>
+              <h1 className="font-bold text-lg">Speaking Studio</h1>
+              <p className="text-xs text-gray-400">Practice real conversations</p>
+            </div>
+          </div>
+          <Link href="/dashboard" className="text-sm text-gray-400 hover:text-white transition-colors flex items-center gap-1">
+            <ArrowRight className="w-4 h-4 rotate-180" /> Back
+          </Link>
+        </div>
+      </div>
+
+      <div className="max-w-6xl mx-auto px-4 py-8">
+        {/* Tabs */}
+        <div className="flex gap-2 mb-8 overflow-x-auto pb-1">
+          {[
+            { id: 'scenarios', label: 'Role-play Scenarios', icon: <Users className="w-4 h-4" /> },
+            { id: 'confidence', label: 'Confidence Builder', icon: <Zap className="w-4 h-4" /> },
+          ].map((tab) => (
+            <button
+              key={tab.id}
+              onClick={() => { setActiveTab(tab.id); setSelectedScenario(null); setActiveExercise(null); }}
+              className={`flex items-center gap-2 px-4 py-2 rounded-xl text-sm font-medium whitespace-nowrap transition-all ${
+                activeTab === tab.id
+                  ? 'bg-indigo-600 text-white'
+                  : 'bg-white/5 text-gray-400 hover:bg-white/10'
+              }`}
+            >
+              {tab.icon}{tab.label}
+            </button>
+          ))}
+        </div>
+
+        {/* Scenarios Tab */}
+        {activeTab === 'scenarios' && !selectedScenario && (
+          <motion.div variants={stagger} initial="hidden" animate="visible" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {SCENARIOS.map((s) => (
+              <motion.button
+                key={s.id}
+                variants={fadeUp}
+                onClick={() => setSelectedScenario(s)}
+                className="text-left p-5 rounded-2xl bg-white/5 border border-white/10 hover:border-indigo-500/50 hover:bg-white/10 transition-all group"
+              >
+                <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${s.color} flex items-center justify-center text-2xl mb-3`}>
+                  {s.emoji}
+                </div>
+                <h3 className="font-semibold mb-1">{s.title}</h3>
+                <p className="text-xs text-gray-400 mb-3 line-clamp-2">{s.situation}</p>
+                <div className="flex items-center gap-2">
+                  <span className="text-xs bg-white/10 px-2 py-0.5 rounded-full">{s.level}</span>
+                  <span className="text-xs text-gray-500 capitalize">{s.category}</span>
+                </div>
+              </motion.button>
+            ))}
+          </motion.div>
+        )}
+
+        {/* Scenario Detail */}
+        {activeTab === 'scenarios' && selectedScenario && (
+          <motion.div variants={fadeUp} initial="hidden" animate="visible" className="max-w-2xl mx-auto">
+            <button onClick={() => setSelectedScenario(null)} className="flex items-center gap-1 text-gray-400 hover:text-white mb-6 text-sm transition-colors">
+              <ArrowRight className="w-4 h-4 rotate-180" /> All scenarios
+            </button>
+            <div className={`p-6 rounded-2xl bg-gradient-to-br ${selectedScenario.color} mb-6`}>
+              <div className="text-4xl mb-2">{selectedScenario.emoji}</div>
+              <h2 className="text-2xl font-bold mb-1">{selectedScenario.title}</h2>
+              <p className="text-white/80 text-sm">{selectedScenario.situation}</p>
+            </div>
+            <div className="space-y-4">
+              <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
+                <h3 className="font-semibold mb-3 flex items-center gap-2"><Target className="w-4 h-4 text-indigo-400" /> Your Prompts</h3>
+                <ol className="space-y-2">
+                  {selectedScenario.prompts.map((p, i) => (
+                    <li key={i} className="flex gap-3 text-sm text-gray-300">
+                      <span className="w-5 h-5 rounded-full bg-indigo-500/30 text-indigo-300 flex items-center justify-center text-xs flex-shrink-0 mt-0.5">{i + 1}</span>
+                      {p}
+                    </li>
+                  ))}
+                </ol>
+              </div>
+              <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
+                <h3 className="font-semibold mb-3 flex items-center gap-2"><BookOpen className="w-4 h-4 text-green-400" /> Sample Answer</h3>
+                <p className="text-sm text-gray-300 leading-relaxed">{selectedScenario.sampleAnswer}</p>
+              </div>
+              <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
+                <h3 className="font-semibold mb-3 flex items-center gap-2"><Star className="w-4 h-4 text-yellow-400" /> Key Phrases</h3>
+                <div className="flex flex-wrap gap-2">
+                  {selectedScenario.keyPhrases.map((p, i) => (
+                    <span key={i} className="text-xs bg-yellow-500/20 text-yellow-300 px-3 py-1 rounded-full">{p}</span>
+                  ))}
+                </div>
+              </div>
+              <div className="bg-white/5 rounded-2xl p-5 border border-white/10">
+                <h3 className="font-semibold mb-3 flex items-center gap-2"><CheckCircle2 className="w-4 h-4 text-blue-400" /> Tips</h3>
+                <ul className="space-y-1">
+                  {selectedScenario.tips.map((t, i) => (
+                    <li key={i} className="text-sm text-gray-300 flex gap-2 items-start">
+                      <span className="text-blue-400 mt-0.5">•</span>{t}
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+          </motion.div>
+        )}
+
+        {/* Confidence Builder Tab */}
+        {activeTab === 'confidence' && (
+          <motion.div variants={stagger} initial="hidden" animate="visible">
+            {!activeExercise ? (
+              <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+                {CONFIDENCE_EXERCISES.map((ex) => (
+                  <motion.button
+                    key={ex.id}
+                    variants={fadeUp}
+                    onClick={() => { setActiveExercise(ex); setActiveSentence(0); }}
+                    className="text-left p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-indigo-500/50 hover:bg-white/10 transition-all"
+                  >
+                    <div className="text-4xl mb-3">{ex.icon}</div>
+                    <h3 className="font-semibold mb-1">{ex.title}</h3>
+                    <p className="text-sm text-gray-400">{ex.desc}</p>
+                  </motion.button>
+                ))}
+              </div>
+            ) : (
+              <motion.div variants={fadeUp} className="max-w-lg mx-auto">
+                <button onClick={() => setActiveExercise(null)} className="flex items-center gap-1 text-gray-400 hover:text-white mb-6 text-sm transition-colors">
+                  <ArrowRight className="w-4 h-4 rotate-180" /> All exercises
+                </button>
+                <div className="text-center mb-6">
+                  <div className="text-5xl mb-2">{activeExercise.icon}</div>
+                  <h2 className="text-2xl font-bold">{activeExercise.title}</h2>
+                  <p className="text-gray-400 text-sm mt-1">{activeExercise.desc}</p>
+                </div>
+                <div className="bg-white/5 rounded-2xl p-6 border border-white/10 mb-4 min-h-[100px] flex items-center justify-center">
+                  <p className="text-xl text-center font-medium leading-relaxed">{activeExercise.sentences[activeSentence]}</p>
+                </div>
+                <div className="flex items-center justify-between mb-4">
+                  <span className="text-sm text-gray-400">{activeSentence + 1} / {activeExercise.sentences.length}</span>
+                  <div className="flex gap-2">
+                    {activeExercise.sentences.map((_, i) => (
+                      <div key={i} className={`w-2 h-2 rounded-full transition-all ${i === activeSentence ? 'bg-indigo-400 w-4' : i < activeSentence ? 'bg-green-400' : 'bg-white/20'}`} />
+                    ))}
+                  </div>
+                </div>
+                <div className="flex gap-3">
+                  <button
+                    onClick={() => setActiveSentence(Math.max(0, activeSentence - 1))}
+                    disabled={activeSentence === 0}
+                    className="flex-1 py-3 rounded-xl bg-white/10 hover:bg-white/20 disabled:opacity-30 disabled:cursor-not-allowed transition-all text-sm font-medium"
+                  >
+                    Previous
+                  </button>
+                  {activeSentence < activeExercise.sentences.length - 1 ? (
+                    <button
+                      onClick={() => setActiveSentence(activeSentence + 1)}
+                      className="flex-1 py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 transition-all text-sm font-medium"
+                    >
+                      Next <ChevronRight className="inline w-4 h-4" />
+                    </button>
+                  ) : (
+                    <button
+                      onClick={() => { setActiveSentence(0); setActiveExercise(null); }}
+                      className="flex-1 py-3 rounded-xl bg-green-600 hover:bg-green-500 transition-all text-sm font-medium flex items-center justify-center gap-2"
+                    >
+                      <CheckCircle2 className="w-4 h-4" /> Done!
+                    </button>
+                  )}
+                </div>
+              </motion.div>
+            )}
+          </motion.div>
+        )}
+      </div>
+    </div>
+  );
+}
