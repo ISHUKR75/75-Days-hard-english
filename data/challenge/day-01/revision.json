@@ -1,123 +1,97 @@
 {
   "day": 1,
   "topic": "Basics of English",
-  "keyPointsSummary": [
-    "Subject हमेशा पहले आता है",
-    "Verb के बाद Object आता है",
-    "He/She/It के साथ verb में 's' या 'es' जोड़ते हैं",
-    "I/You/We/They के साथ verb की base form आती है",
-    {
-      "rule": "A — Consonant Sound से शुरू होने वाले nouns से पहले",
-      "examples": [
-        "a book",
-        "a car",
-        "a university (yu sound)",
-        "a one-rupee coin (w sound)",
-        "a European country"
-      ],
-      "hindi": "एक किताब, एक कार, एक विश्वविद्यालय"
-    },
-    {
-      "rule": "An — Vowel Sound से शुरू होने वाले nouns से पहले",
-      "examples": [
-        "an apple",
-        "an elephant",
-        "an hour (h silent)",
-        "an honest person",
-        "an MBA degree"
-      ],
-      "hindi": "एक सेब, एक हाथी, एक घंटा, एक ईमानदार व्यक्ति"
-    },
-    {
-      "rule": "The — Specific या Known nouns से पहले",
-      "examples": [
-        "the sun",
-        "the moon",
-        "the Prime Minister of India",
-        "the book you gave me",
-        "the first time"
-      ],
-      "hindi": "सूरज, चाँद, भारत के प्रधानमंत्री, वो किताब जो तुमने दी"
-    }
+  "keyPoints": [
+    "SVO Structure: Subject + Verb + Object — English में हमेशा यही order follow होता है",
+    "I → am, He/She/It → is, You/We/They → are",
+    "Simple Present में He/She/It के साथ verb में 's' या 'es' जोड़ते हैं",
+    "Questions: Do (I/You/We/They) + base verb? | Does (He/She/It) + base verb?",
+    "Negatives: don't (I/You/We/They) + base verb | doesn't (He/She/It) + base verb",
+    "Subject Pronouns: I, You, He, She, It, We, They",
+    "Object Pronouns: me, you, him, her, it, us, them",
+    "Possessive Adjectives: my, your, his, her, its, our, their (noun से पहले)",
+    "Article 'a' → consonant sound से पहले; 'an' → vowel sound से पहले; 'the' → specific/known चीज़ से पहले",
+    "Frequency Adverbs: always (100%) > usually (80%) > often (60%) > sometimes (40%) > rarely (10%) > never (0%)",
+    "Frequency adverbs: be verb के बाद, main verb से पहले आते हैं",
+    "WH Questions: What (क्या), Where (कहाँ), When (कब), Who (कौन), Why (क्यों), How (कैसे)",
+    "Stative verbs (know, have, like, understand, believe) — continuous form में नहीं आते",
+    "Double negative (don't + no) गलत है — 'I don't have any' use करें",
+    "Sports के नाम से पहले article नहीं लगता: I play cricket (not 'the cricket')"
   ],
-  "quickQuiz": [
-    {
-      "id": 1,
-      "hindi": "मैं चावल खाता हूँ।",
-      "answer": "I eat rice."
-    },
-    {
-      "id": 2,
-      "hindi": "वह पानी पीती है।",
-      "answer": "She drinks water."
-    },
-    {
-      "id": 3,
-      "hindi": "वह किताबें पढ़ता है।",
-      "answer": "He reads books."
-    },
-    {
-      "id": 4,
-      "hindi": "हम क्रिकेट खेलते हैं।",
-      "answer": "We play cricket."
-    },
-    {
-      "id": 5,
-      "hindi": "वे फिल्में देखते हैं।",
-      "answer": "They watch movies."
-    },
-    {
-      "id": 6,
-      "hindi": "तुम पत्र लिखते हो।",
-      "answer": "You write letters."
-    },
-    {
-      "id": 7,
-      "hindi": "कुत्ता खाना खाता है।",
-      "answer": "The dog eats food."
-    },
-    {
-      "id": 8,
-      "hindi": "मेरी माँ खाना बनाती है।",
-      "answer": "My mother cooks food."
-    },
-    {
-      "id": 9,
-      "hindi": "रवि कार चलाता है।",
-      "answer": "Ravi drives a car."
-    },
-    {
-      "id": 10,
-      "hindi": "अध्यापक अंग्रेजी पढ़ाते हैं।",
-      "answer": "The teacher teaches English."
-    }
+  "quickRevision": [
+    { "rule": "I + am", "example": "I am a student.", "hindi": "मैं एक छात्र हूँ।" },
+    { "rule": "He/She/It + is", "example": "She is a doctor.", "hindi": "वह एक डॉक्टर है।" },
+    { "rule": "We/You/They + are", "example": "They are my friends.", "hindi": "वे मेरे दोस्त हैं।" },
+    { "rule": "He/She/It + verb+s/es", "example": "He goes to school.", "hindi": "वह स्कूल जाता है।" },
+    { "rule": "I/You/We/They + base verb", "example": "They play cricket.", "hindi": "वे क्रिकेट खेलते हैं।" },
+    { "rule": "Do + I/You/We/They + base verb?", "example": "Do you speak English?", "hindi": "क्या तुम English बोलते हो?" },
+    { "rule": "Does + He/She/It + base verb?", "example": "Does she work here?", "hindi": "क्या वह यहाँ काम करती है?" },
+    { "rule": "I/You/We/They + don't + base verb", "example": "I don't eat meat.", "hindi": "मैं मांस नहीं खाता।" },
+    { "rule": "He/She/It + doesn't + base verb", "example": "He doesn't like tea.", "hindi": "उसे चाय पसंद नहीं है।" },
+    { "rule": "a + consonant sound word", "example": "a book, a car, a university", "hindi": "एक किताब, एक कार, एक विश्वविद्यालय" },
+    { "rule": "an + vowel sound word", "example": "an apple, an hour, an honest man", "hindi": "एक सेब, एक घंटा, एक ईमानदार इंसान" },
+    { "rule": "the + specific/known noun", "example": "the sun, the book I gave you", "hindi": "सूरज, वो किताब जो मैंने दी" },
+    { "rule": "Subject pronoun (subject position)", "example": "He is my brother.", "hindi": "वह मेरा भाई है।" },
+    { "rule": "Object pronoun (after verb/preposition)", "example": "I know him well.", "hindi": "मैं उसे अच्छी तरह जानता हूँ।" },
+    { "rule": "Possessive adjective + noun", "example": "my bag, her car, their house", "hindi": "मेरा बैग, उसकी कार, उनका घर" },
+    { "rule": "always/never + be verb के बाद", "example": "She is always late.", "hindi": "वह हमेशा देर से आती है।" },
+    { "rule": "usually/often + main verb से पहले", "example": "He usually wakes up early.", "hindi": "वह आमतौर पर जल्दी उठता है।" },
+    { "rule": "What + is/are + subject?", "example": "What is your name?", "hindi": "तुम्हारा नाम क्या है?" },
+    { "rule": "Where + do/does + subject + base verb?", "example": "Where does she work?", "hindi": "वह कहाँ काम करती है?" },
+    { "rule": "Why + don't/doesn't + subject + base verb?", "example": "Why doesn't he study?", "hindi": "वह पढ़ता क्यों नहीं?" }
   ],
-  "mustRememberRules": [
-    "Subject हमेशा पहले आता है",
-    "Verb के बाद Object आता है",
-    "He/She/It के साथ verb में 's' या 'es' जोड़ते हैं",
-    "I/You/We/They के साथ verb की base form आती है",
-    {
-      "rule": "A — Consonant Sound से शुरू होने वाले nouns से पहले",
-      "examples": [
-        "a book",
-        "a car",
-        "a university (yu sound)",
-        "a one-rupee coin (w sound)",
-        "a European country"
-      ],
-      "hindi": "एक किताब, एक कार, एक विश्वविद्यालय"
-    },
-    {
-      "rule": "An — Vowel Sound से शुरू होने वाले nouns से पहले",
-      "examples": [
-        "an apple",
-        "an elephant",
-        "an hour (h silent)",
-        "an honest person",
-        "an MBA degree"
-      ],
-      "hindi": "एक सेब, एक हाथी, एक घंटा, एक ईमानदार व्यक्ति"
-    }
-  ]
+  "commonMistakes": [
+    { "wrong": "She go to school every day.", "correct": "She goes to school every day.", "why": "He/She/It के साथ verb में 's' जोड़ते हैं: go → goes।" },
+    { "wrong": "I am knowing the answer.", "correct": "I know the answer.", "why": "'Know' stative verb है — इसे continuous form में use नहीं करते।" },
+    { "wrong": "She don't like coffee.", "correct": "She doesn't like coffee.", "why": "She (3rd person singular) के साथ 'doesn't' आता है, 'don't' नहीं।" },
+    { "wrong": "Does she works here?", "correct": "Does she work here?", "why": "'Does' के बाद हमेशा base verb आती है, verb+s नहीं।" },
+    { "wrong": "He is a engineer.", "correct": "He is an engineer.", "why": "'Engineer' vowel sound (e) से शुरू → 'an engineer'।" },
+    { "wrong": "I don't have no money.", "correct": "I don't have any money.", "why": "Double negative (don't + no) गलत होता है। Negative + any correct है।" },
+    { "wrong": "She is always late comes.", "correct": "She always comes late.", "why": "'Always' main verb (comes) से पहले आता है।" },
+    { "wrong": "The cricket is my hobby.", "correct": "Cricket is my hobby.", "why": "Sports के नाम से पहले article नहीं लगता।" },
+    { "wrong": "Between you and I.", "correct": "Between you and me.", "why": "Preposition के बाद object pronoun: I → me।" },
+    { "wrong": "My team and me work here.", "correct": "My team and I work here.", "why": "Subject position में object pronoun (me) नहीं आता। 'I' आता है।" },
+    { "wrong": "She is more smarter.", "correct": "She is smarter.", "why": "'Smarter' already comparative है। 'More + er' double comparative गलत है।" },
+    { "wrong": "Their is a problem.", "correct": "There is a problem.", "why": "'Their' = possessive adjective (उनका)। 'There is' = existence (वहाँ है)। Different words।" },
+    { "wrong": "He is agree with me.", "correct": "He agrees with me.", "why": "'Agree' main verb है, be verb के बाद नहीं आता। He agrees (simple present)।" },
+    { "wrong": "I am having a car.", "correct": "I have a car.", "hindi": "'Have' stative verb है — possession के लिए continuous form नहीं।" },
+    { "wrong": "Our company provide good service.", "correct": "Our company provides good service.", "why": "'Our company' singular unit → provides।" }
+  ],
+  "memoryTricks": [
+    "🎯 Am-Is-Are trick: 'A for Am (I), I for Is (He/She/It), Are for the Rest (You/We/They)'",
+    "🔑 Do/Does trick: Does = D+oes = आखिर में 's' वाले subjects के साथ (He/She/It). Do = बाकी सबके साथ",
+    "🌟 Article trick: 'An' = Aaj Nahi — आज A नहीं, An use करो जब sound vowel से शुरू हो",
+    "📍 Frequency ladder याद करो: Always-Usually-Often-Sometimes-Rarely-Never = AUOSRN = 'A Unique Old Snake Rarely Naps'",
+    "💡 Pronoun pairs याद करो: I↔me, He↔him, She↔her, We↔us, They↔them",
+    "⚡ Subject pronouns = नाम (Subject में), Object pronouns = Game (Object में) — I play the game, the game plays me",
+    "🏏 Sports rule: Cricket, football, tennis — इनके साथ कभी article नहीं। 'I play cricket' नहीं 'I play the cricket'",
+    "🔄 SVO order याद करो: 'Sita Visits Oldenburg' = Subject + Verb + Object",
+    "✅ Stative verbs trick: LIKE, LOVE, HATE, KNOW, WANT, NEED, HAVE (possession) — इन्हें कभी '-ing' form में use नहीं करते",
+    "🎵 Singular-Plural song: One person = verb+s (She goes), Many people = base verb (They go)"
+  ],
+  "practiceChallenge": {
+    "title": "Day 1 Final Challenge — 20 sentences खुद बनाओ!",
+    "sentences": [
+      { "hindi": "मैं रोज़ सुबह 5 बजे उठता हूँ।", "english": "I wake up at 5 AM every morning." },
+      { "hindi": "वह एक अच्छी teacher है।", "english": "She is a good teacher." },
+      { "hindi": "क्या वे English बोलते हैं?", "english": "Do they speak English?" },
+      { "hindi": "मेरी बहन hospital में काम करती है।", "english": "My sister works in a hospital." },
+      { "hindi": "वह कभी झूठ नहीं बोलता।", "english": "He never tells a lie." },
+      { "hindi": "मुझे तुम्हारी मदद चाहिए।", "english": "I need your help." },
+      { "hindi": "क्या वह office में है?", "english": "Is she in the office?" },
+      { "hindi": "हम हर Saturday को बाहर खाते हैं।", "english": "We eat out every Saturday." },
+      { "hindi": "उसकी माँ बहुत अच्छा खाना बनाती हैं।", "english": "His mother cooks very good food." },
+      { "hindi": "मेरा dream एक engineer बनने का है।", "english": "My dream is to become an engineer." },
+      { "hindi": "वे rarely mistakes करते हैं।", "english": "They rarely make mistakes." },
+      { "hindi": "क्या तुम्हें यह job पसंद है?", "english": "Do you like this job?" },
+      { "hindi": "मैं इन्हें personally नहीं जानता।", "english": "I don't know them personally." },
+      { "hindi": "हमारी company हर employee की care करती है।", "english": "Our company cares for every employee." },
+      { "hindi": "वह usually समय पर आती है।", "english": "She usually comes on time." },
+      { "hindi": "मुझे उसका नाम याद नहीं।", "english": "I don't remember his name." },
+      { "hindi": "क्या तुम्हारे पास pen है?", "english": "Do you have a pen?" },
+      { "hindi": "वह हमेशा positive रहता है।", "english": "He is always positive." },
+      { "hindi": "हम सब एक team की तरह काम करते हैं।", "english": "We all work like a team." },
+      { "hindi": "मैं अपने goals के बारे में बहुत serious हूँ।", "english": "I am very serious about my goals." }
+    ]
+  }
 }

@@ -1,46 +1,232 @@
 {
   "day": 1,
   "topic": "Basics of English",
-  "tasks": [
+  "totalExercises": 25,
+  "exercises": [
     {
       "id": 1,
-      "type": "sentence-writing",
-      "prompt": "Write 5 original English sentences using Basics of English.",
-      "hindiPrompt": "Basics of English का उपयोग करते हुए 5 नए वाक्य लिखिए।",
-      "sampleAnswer": "I eat rice. She drinks water. He reads books. We play cricket. They watch movies.",
-      "wordLimit": 60
+      "type": "fill-in-blank",
+      "title": "Am / Is / Are भरें",
+      "instructions": "सही form of 'be' verb (am/is/are) से blank भरें।",
+      "content": ["I ___ a student.", "She ___ my sister.", "They ___ good friends.", "We ___ from India.", "He ___ a doctor.", "It ___ a sunny day.", "You ___ very smart.", "The children ___ happy.", "My father ___ a teacher.", "The books ___ on the table."],
+      "answer": ["am", "is", "are", "are", "is", "is", "are", "are", "is", "are"],
+      "explanation": "I के साथ 'am', He/She/It और singular noun के साथ 'is', You/We/They और plural noun के साथ 'are' आता है।"
     },
     {
       "id": 2,
-      "type": "paragraph-writing",
-      "prompt": "Write a short paragraph (5-6 lines) about your day using Basics of English.",
-      "hindiPrompt": "अपने दिन के बारे में Basics of English का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
-      "sampleAnswer": "You write letters. The dog eats food. My mother cooks food. Ravi drives a car. The teacher teaches English.",
-      "wordLimit": 80
+      "type": "fill-in-blank",
+      "title": "Do / Does से questions बनाएँ",
+      "instructions": "Do या Does से blank भरें।",
+      "content": ["___ you speak English?", "___ she work here?", "___ they eat meat?", "___ he know the answer?", "___ your parents live in Delhi?", "___ it make sense?", "___ we have a meeting today?", "___ your sister like music?", "___ the dog bite?", "___ you and your friend study together?"],
+      "answer": ["Do", "Does", "Do", "Does", "Do", "Does", "Do", "Does", "Does", "Do"],
+      "explanation": "He/She/It और singular noun के साथ 'Does' आता है। I/You/We/They और plural noun के साथ 'Do' आता है।"
     },
     {
       "id": 3,
-      "type": "translation",
-      "prompt": "Translate the following into English: \"वह सब्जियाँ खरीदती है।\"",
-      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
-      "sampleAnswer": "She buys vegetables.",
-      "wordLimit": 20
+      "type": "fill-in-blank",
+      "title": "Don't / Doesn't से negatives बनाएँ",
+      "instructions": "Don't या Doesn't से blank भरें।",
+      "content": ["I ___ eat spicy food.", "She ___ like cold weather.", "They ___ understand Hindi.", "He ___ go to the gym.", "We ___ watch TV at night.", "My cat ___ drink milk.", "You ___ need to worry.", "The students ___ speak in class.", "It ___ rain in summer here.", "My brother ___ wake up early."],
+      "answer": ["don't", "doesn't", "don't", "doesn't", "don't", "doesn't", "don't", "don't", "doesn't", "doesn't"],
+      "explanation": "He/She/It और singular noun के साथ 'doesn't' आता है। I/You/We/They और plural noun के साथ 'don't' आता है।"
     },
     {
       "id": 4,
-      "type": "correction",
-      "prompt": "Correct this sentence: \"We play cricket yesterday.\"",
-      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
-      "sampleAnswer": "We play cricket.",
-      "wordLimit": 20
+      "type": "fill-in-blank",
+      "title": "A / An / The सही article भरें",
+      "instructions": "सही article (a, an, the) भरें। अगर article ज़रूरी नहीं है तो 'X' लिखें।",
+      "content": ["She is ___ engineer.", "He is ___ honest man.", "I saw ___ movie last night. ___ movie was great.", "___ sun rises in the east.", "I want ___ orange.", "She has ___ dog.", "Please close ___ door.", "He plays ___ cricket.", "I need ___ umbrella.", "This is ___ best day of my life."],
+      "answer": ["an", "an", "a, The", "The", "an", "a", "the", "X", "an", "the"],
+      "explanation": "Vowel sound से शुरू होने वाले शब्दों से पहले 'an' लगता है। Specific या पहले से known चीज़ के लिए 'the' लगता है। खेलों के नाम से पहले article नहीं लगता।"
     },
     {
       "id": 5,
-      "type": "dialogue-writing",
-      "prompt": "Write a short 4-line dialogue between two people using Basics of English.",
-      "hindiPrompt": "Basics of English का उपयोग करते हुए दो व्यक्तियों के बीच 4 पंक्तियों का संवाद लिखिए।",
-      "sampleAnswer": "He plays guitar. They drink tea. We speak Hindi. The students study hard.",
-      "wordLimit": 60
+      "type": "fill-in-blank",
+      "title": "Possessive Adjectives भरें",
+      "instructions": "सही possessive adjective (my/your/his/her/its/our/their) भरें।",
+      "content": ["I love ___ mother.", "What is ___ name? (asking someone)", "He lost ___ phone.", "She forgot ___ bag at home.", "The dog wagged ___ tail.", "We finished ___ homework.", "They live with ___ parents.", "Priya and ___ sister are best friends.", "The team won ___ first match.", "I always carry ___ ID card."],
+      "answer": ["my", "your", "his", "her", "its", "our", "their", "her", "its", "my"],
+      "explanation": "Possessive adjectives noun से पहले आते हैं और ownership दर्शाते हैं। Subject के gender और number के according इन्हें choose करते हैं।"
+    },
+    {
+      "id": 6,
+      "type": "sentence-correction",
+      "title": "गलत sentences ठीक करें",
+      "instructions": "नीचे दिए गए sentences में grammar की गलतियाँ हैं। सही करके लिखें।",
+      "content": ["She go to school every day.", "I is a student.", "He don't like tea.", "They is my friends.", "Does she goes to the gym?", "We doesn't watch TV.", "He have two brothers.", "I am know the answer.", "She always is late.", "Do he work here?"],
+      "answer": ["She goes to school every day.", "I am a student.", "He doesn't like tea.", "They are my friends.", "Does she go to the gym?", "We don't watch TV.", "He has two brothers.", "I know the answer.", "She is always late.", "Does he work here?"],
+      "explanation": "He/She/It के साथ verb में 's/es' लगता है, doesn't/does के बाद base verb आती है, am/is/are के बाद infinitive नहीं आता, frequency adverbs आमतौर पर main verb से पहले लेकिन be verb के बाद आते हैं।"
+    },
+    {
+      "id": 7,
+      "type": "translation",
+      "title": "Hindi से English — Daily Routine",
+      "instructions": "इन Hindi sentences को English में translate करें।",
+      "content": ["मैं सुबह 6 बजे उठता हूँ।", "वह school bus से जाती है।", "हम साथ में खाना खाते हैं।", "मेरे पिताजी newspaper पढ़ते हैं।", "वे रात को जल्दी सो जाते हैं।", "मेरी बहन रोज़ exercise करती है।", "क्या तुम coffee पीते हो?", "वह English नहीं जानता।", "हमारे शहर में बहुत traffic है।", "मैं अपना homework खुद करता हूँ।"],
+      "answer": ["I wake up at 6 AM.", "She goes by school bus.", "We eat food together.", "My father reads the newspaper.", "They go to sleep early at night.", "My sister exercises every day.", "Do you drink coffee?", "He doesn't know English.", "There is a lot of traffic in our city.", "I do my homework myself."],
+      "explanation": "Simple Present tense में I/We/You/They के साथ base verb, He/She/It के साथ verb+s/es आता है। Questions में Do/Does subject से पहले, negatives में don't/doesn't आता है।"
+    },
+    {
+      "id": 8,
+      "type": "translation",
+      "title": "Hindi से English — Family",
+      "instructions": "इन family-related sentences को English में translate करें।",
+      "content": ["मेरे तीन भाई हैं।", "उसकी माँ एक डॉक्टर हैं।", "हमारे दादाजी 75 साल के हैं।", "मेरी बहन की शादी हो गई है।", "क्या तुम्हारे माता-पिता यहाँ रहते हैं?", "उसका बेटा बहुत होशियार है।", "मेरी नानी दिल्ली में रहती हैं।", "उनकी बेटी engineer है।", "हम सब एक साथ रहते हैं।", "मेरे चाचाजी की अपनी दुकान है।"],
+      "answer": ["I have three brothers.", "His/Her mother is a doctor.", "Our grandfather is 75 years old.", "My sister is married.", "Do your parents live here?", "His son is very intelligent.", "My maternal grandmother lives in Delhi.", "Their daughter is an engineer.", "We all live together.", "My uncle has his own shop."],
+      "explanation": "Family members describe करते समय possessive adjectives (my/his/her/our/their) का सही use करना ज़रूरी है। Singular family member के साथ 'is', plural के साथ 'are' आता है।"
+    },
+    {
+      "id": 9,
+      "type": "paragraph-writing",
+      "title": "अपने बारे में एक paragraph लिखें",
+      "instructions": "नीचे दिए गए points का उपयोग करके खुद के बारे में एक 6-8 sentences का paragraph लिखें: name, age, city, family, job/studies, hobby, one daily habit.",
+      "content": "Write a paragraph about yourself using: your name, where you are from, what you do (job/study), your family, your hobby, and one thing you do every day.",
+      "answer": "My name is Rahul Sharma. I am 22 years old. I am from Jaipur, Rajasthan. I am a student at Delhi University. I study computer science. My family has four members — my parents, my younger sister, and me. My father works in a bank and my mother is a homemaker. My hobby is reading books and playing cricket. I read for at least 30 minutes every night before sleeping.",
+      "explanation": "Paragraph में SVO structure follow करें। Simple Present tense का use करें। Possessive adjectives और articles का सही use करें। हर sentence complete और meaningful होनी चाहिए।"
+    },
+    {
+      "id": 10,
+      "type": "paragraph-writing",
+      "title": "अपने घर के बारे में लिखें",
+      "instructions": "अपने घर का वर्णन करते हुए 5-6 sentences लिखें। Location, rooms, what you like about it, और daily activities at home शामिल करें।",
+      "content": "Describe your home — where it is, how many rooms, what you like about it, and what you do at home.",
+      "answer": "I live in a two-bedroom flat in Pune. It is on the third floor of an apartment building. Our home has a small but beautiful garden on the balcony. My mother always keeps the house clean and tidy. In the evening, our family sits together in the living room. I usually study in my room after dinner. I love my home because it is peaceful and comfortable.",
+      "explanation": "Home describe करते समय location prepositions (in, on, at) का सही use करें। Size और quality के लिए adjectives use करें। Daily routine के लिए frequency adverbs use करें।"
+    },
+    {
+      "id": 11,
+      "type": "email",
+      "title": "दोस्त को Email लिखें",
+      "instructions": "अपने एक दोस्त को English में email लिखें जिसमें आप उसे अपने नए school/job के बारे में बताएँ। 80-100 words।",
+      "content": "Write an email to your friend Priya telling her about your new school or job. Include: what you do there, when you go, what you like, and ask about her life.",
+      "answer": "Subject: My New School!\n\nDear Priya,\n\nHope you are doing well! I want to tell you about my new school. I study at Green Valley School now. I go to school at 8 AM every day. My teachers are very helpful and kind. I like my English class the most. My new friends are very friendly. I don't feel homesick anymore.\n\nHow is your life? Do you still go to the same school? Write back soon!\n\nYour friend,\nAnita",
+      "explanation": "Email में greeting (Dear...), body (main content), और closing (Your friend, ...) होते हैं। Simple Present tense का use करें। Questions पूछने के लिए Do/Does use करें।"
+    },
+    {
+      "id": 12,
+      "type": "fill-in-blank",
+      "title": "Frequency Adverbs सही जगह लगाएँ",
+      "instructions": "brackets में दिया गया frequency adverb सही position पर लगाएँ।",
+      "content": ["She is late for work. (never)", "I drink coffee in the morning. (always)", "He forgets his homework. (sometimes)", "They go out on weekends. (usually)", "We eat fast food. (rarely)", "She is rude to anyone. (never)", "I feel tired in the evening. (often)", "He reads before sleeping. (always)", "They travel by train. (sometimes)", "My boss is happy with my work. (usually)"],
+      "answer": ["She is never late for work.", "I always drink coffee in the morning.", "He sometimes forgets his homework.", "They usually go out on weekends.", "We rarely eat fast food.", "She is never rude to anyone.", "I often feel tired in the evening.", "He always reads before sleeping.", "They sometimes travel by train.", "My boss is usually happy with my work."],
+      "explanation": "Frequency adverbs (always, usually, often, sometimes, rarely, never) main verb से पहले लेकिन 'be' verb (am/is/are) के बाद आते हैं।"
+    },
+    {
+      "id": 13,
+      "type": "sentence-correction",
+      "title": "Article की गलतियाँ ठीक करें",
+      "instructions": "इन sentences में article (a/an/the) की गलतियाँ ठीक करें।",
+      "content": ["She is a honest person.", "I want to be an software engineer.", "The cricket is my favorite sport.", "I ate a apple this morning.", "He is a IAS officer.", "Close a door when you leave.", "Sun rises in the east.", "She has a own car.", "He wants to join a army.", "I read a book. Book was very good."],
+      "answer": ["She is an honest person.", "I want to be a software engineer.", "Cricket is my favorite sport.", "I ate an apple this morning.", "He is an IAS officer.", "Close the door when you leave.", "The sun rises in the east.", "She has her own car.", "He wants to join the army.", "I read a book. The book was very good."],
+      "explanation": "Vowel sound (a, e, i, o, u sound) से पहले 'an' आता है। Sports के नाम से पहले article नहीं आता। Unique चीज़ों (sun, moon, army) से पहले 'the' आता है। जब पहली बार mention हो तो 'a/an', दोबारा mention पर 'the' आता है।"
+    },
+    {
+      "id": 14,
+      "type": "translation",
+      "title": "Hindi से English — Office / Work",
+      "instructions": "इन work-related sentences को English में translate करें।",
+      "content": ["मैं एक IT company में काम करता हूँ।", "उसकी meeting सुबह 9 बजे है।", "हमारा office downtown में है।", "क्या वह project manager है?", "मेरे boss बहुत strict हैं।", "वह हमेशा समय पर काम submit करती है।", "हम हर Monday को team meeting करते हैं।", "उसे English speaking नहीं आती।", "क्या आपके पास business card है?", "वह freelancer के रूप में काम करता है।"],
+      "answer": ["I work at an IT company.", "He/She has a meeting at 9 AM.", "Our office is in downtown.", "Is he a project manager?", "My boss is very strict.", "She always submits work on time.", "We have a team meeting every Monday.", "He/She doesn't know how to speak English.", "Do you have a business card?", "He works as a freelancer."],
+      "explanation": "Professional context में 'at' + company name, 'in' + location, 'as' + job role का use होता है। 'Is' से yes/no questions, 'Do/Does' से action questions बनते हैं।"
+    },
+    {
+      "id": 15,
+      "type": "fill-in-blank",
+      "title": "Object Pronouns भरें",
+      "instructions": "सही object pronoun (me/you/him/her/it/us/them) से blank भरें।",
+      "content": ["Please call ___ tomorrow. (I)", "She likes ___. (he)", "We visit ___ every Sunday. (she)", "The teacher gave ___ an assignment. (we)", "I found ___ in the drawer. (it)", "He always listens to ___. (they)", "Can you help ___? (I)", "My father supports ___ in everything. (I)", "She told ___ the truth. (he)", "Please don't disturb ___. (I)"],
+      "answer": ["me", "him", "her", "us", "it", "them", "me", "me", "him", "me"],
+      "explanation": "Object pronouns subject pronouns की जगह verb के बाद आते हैं। I→me, He→him, She→her, We→us, They→them, It→it, You→you।"
+    },
+    {
+      "id": 16,
+      "type": "translation",
+      "title": "Hindi से English — WH Questions",
+      "instructions": "इन Hindi questions को English में translate करें।",
+      "content": ["तुम्हारा नाम क्या है?", "तुम कहाँ रहते हो?", "वह कहाँ काम करती है?", "तुम school कैसे जाते हो?", "वह यहाँ कब आता है?", "तुम यह क्यों नहीं समझते?", "तुम्हारा favorite subject क्या है?", "वे कहाँ से हैं?", "यह movie कब शुरू होती है?", "तुम्हारी शादी कहाँ हुई?"],
+      "answer": ["What is your name?", "Where do you live?", "Where does she work?", "How do you go to school?", "When does he come here?", "Why don't you understand this?", "What is your favorite subject?", "Where are they from?", "When does this movie start?", "Where did you get married?"],
+      "explanation": "WH questions बनाने के लिए: WH word + do/does + subject + base verb? या WH word + is/are + subject? structure follow होता है।"
+    },
+    {
+      "id": 17,
+      "type": "paragraph-writing",
+      "title": "अपने favorite food के बारे में लिखें",
+      "instructions": "अपने पसंदीदा food के बारे में 5-6 sentences लिखें। What it is, why you like it, when/where you eat it, who makes it शामिल करें।",
+      "content": "Write about your favorite food — what it is, why you love it, when you eat it, who makes it best.",
+      "answer": "My favorite food is Dal Makhani. It is a famous North Indian dish. My mother makes it every Sunday. She cooks it slowly in a big pot. The rich, creamy taste is amazing. I never miss a chance to eat it. I sometimes also eat it at restaurants, but my mother's Dal Makhani is the best. It makes me feel at home.",
+      "explanation": "Food describe करते समय adjectives (rich, creamy, spicy, famous) use करें। Frequency adverbs से बताएँ कितनी बार खाते हैं। 'The best' superlative form है।"
+    },
+    {
+      "id": 18,
+      "type": "sentence-correction",
+      "title": "Verb Form की गलतियाँ ठीक करें",
+      "instructions": "इन sentences में verb की गलतियाँ ठीक करें।",
+      "content": ["She go to market every evening.", "They goes to school by bus.", "He don't drink milk.", "I doesn't understand English.", "Does she works in a hospital?", "She is go to the office.", "They doesn't have a car.", "He always late comes.", "We is from Mumbai.", "She speak English very good."],
+      "answer": ["She goes to market every evening.", "They go to school by bus.", "He doesn't drink milk.", "I don't understand English.", "Does she work in a hospital?", "She is going to the office.", "They don't have a car.", "He always comes late.", "We are from Mumbai.", "She speaks English very well."],
+      "explanation": "He/She/It के साथ verb+s/es, They/We/I के साथ base verb। doesn't/don't के बाद base verb आती है। Does + subject + base verb? Frequency adverb (always) main verb से पहले आता है। 'Good' adjective है, 'well' adverb।"
+    },
+    {
+      "id": 19,
+      "type": "fill-in-blank",
+      "title": "Prepositions — In / On / At भरें",
+      "instructions": "सही preposition (in/on/at) से blank भरें।",
+      "content": ["I wake up ___ 6 AM.", "She studies ___ the evening.", "He lives ___ Mumbai.", "The meeting is ___ Monday.", "I was born ___ 2001.", "She works ___ a hospital.", "The keys are ___ the table.", "He comes ___ time.", "We go on holiday ___ summer.", "She arrived ___ the airport early."],
+      "answer": ["at", "in", "in", "on", "in", "at", "on", "on", "in", "at"],
+      "explanation": "AT: specific time (at 6 AM), specific place (at the airport, at work). IN: cities/countries, months, years, morning/evening/afternoon. ON: days of week, dates, surfaces।"
+    },
+    {
+      "id": 20,
+      "type": "email",
+      "title": "Job Application Letter",
+      "instructions": "एक simple job application letter लिखें। 80-100 words। Position: English Teacher at a school.",
+      "content": "Write a simple job application for the position of English Teacher. Include: your name, your qualification, your experience, why you want the job, and contact information.",
+      "answer": "Subject: Application for English Teacher Position\n\nDear Sir/Madam,\n\nI am writing to apply for the position of English Teacher at your school. My name is Meera Singh. I have a B.Ed. degree in English. I have two years of teaching experience. I am patient, dedicated, and hardworking. I speak English fluently. I love working with children and helping them learn. I always prepare my lessons well. Please find my resume attached.\n\nThank you for your time.\n\nSincerely,\nMeera Singh\nPhone: 98XXXXXXXX",
+      "explanation": "Formal letter में: Subject line, Dear Sir/Madam greeting, body में qualifications, experience, और skills, और formal closing (Sincerely/Yours faithfully) होता है।"
+    },
+    {
+      "id": 21,
+      "type": "fill-in-blank",
+      "title": "Third Person Singular — Verb+S/ES",
+      "instructions": "Subject के according सही verb form से blank भरें।",
+      "content": ["My dog ___ every time I come home. (bark)", "She ___ her lunch at 1 PM. (have)", "He ___ to the temple every morning. (go)", "The train ___ at platform 3. (stop)", "My boss ___ emails very quickly. (reply)", "She ___ in a software company. (work)", "He ___ 8 hours every night. (sleep)", "The shop ___ at 9 AM. (open)", "She ___ three languages. (speak)", "My cat ___ on my laptop. (sit)"],
+      "answer": ["barks", "has", "goes", "stops", "replies", "works", "sleeps", "opens", "speaks", "sits"],
+      "explanation": "He/She/It और singular noun के साथ verb में: सामान्यतः 's' लगता है (work→works), s/sh/ch/x/o से ending verbs में 'es' (go→goes), consonant+y से ending verbs में y को i करके 'es' (reply→replies)।"
+    },
+    {
+      "id": 22,
+      "type": "translation",
+      "title": "Hindi से English — Emotions and Feelings",
+      "instructions": "इन Hindi sentences को English में translate करें।",
+      "content": ["मैं आज बहुत खुश हूँ।", "वह हमेशा stressed रहती है।", "मुझे डर लग रहा है।", "क्या तुम ठीक हो?", "वह बहुत थका हुआ है।", "मैं नई job से excited हूँ।", "वह अपने results से disappointed है।", "हम सब बहुत proud हैं।", "मुझे बहुत भूख लगी है।", "वह किसी बात से upset है।"],
+      "answer": ["I am very happy today.", "She is always stressed.", "I am feeling scared.", "Are you okay?", "He is very tired.", "I am excited about the new job.", "He/She is disappointed with the results.", "We are all very proud.", "I am very hungry.", "He/She is upset about something."],
+      "explanation": "Feelings describe करने के लिए 'am/is/are + adjective' structure use करें। Prepositions: excited about, disappointed with, upset about, proud of।"
+    },
+    {
+      "id": 23,
+      "type": "paragraph-writing",
+      "title": "अपने शहर के बारे में लिखें",
+      "instructions": "अपने शहर के बारे में 6-8 sentences लिखें। Name, location, size, famous places, weather, what you like/dislike about it शामिल करें।",
+      "content": "Write about your city — its name, location, famous things, weather, and what you feel about it.",
+      "answer": "I live in Lucknow, the capital of Uttar Pradesh. It is a beautiful and historic city. The city is famous for its Nawabi culture, kebabs, and chikankari embroidery. The weather here is very hot in summer but pleasant in winter. I love the Bhool Bhulaiyaa and Bara Imambara. The food in Lucknow is amazing — especially the biryani and sheermal. The people here are very polite and warm. I always feel proud to be from Lucknow.",
+      "explanation": "City describe करते समय: is famous for, the weather is, I love, I feel proud — ये useful expressions हैं। Simple Present tense में describe करें।"
+    },
+    {
+      "id": 24,
+      "type": "sentence-correction",
+      "title": "Complete Mixed Grammar Correction",
+      "instructions": "इन sentences में कोई भी grammar mistake हो सकती है। ढूंढकर ठीक करें।",
+      "content": ["He always comes to office in time.", "I am having two sisters.", "She is knowing English very well.", "They are usually go by metro.", "Does your mother cooks well?", "I don't have no money.", "He is more taller than me.", "She don't goes to gym.", "I am agree with you.", "We are live in the same city."],
+      "answer": ["He always comes to office on time.", "I have two sisters.", "She knows English very well.", "They usually go by metro.", "Does your mother cook well?", "I don't have any money.", "He is taller than me.", "She doesn't go to the gym.", "I agree with you.", "We live in the same city."],
+      "explanation": "On time (सही समय पर) vs. in time। Have/know stative verbs हैं - इनका continuous form नहीं बनता। After does, base verb आती है। Double negative (don't + no) गलत होता है। More + taller double comparative है। Am/is/are के बाद base verb नहीं आती।"
+    },
+    {
+      "id": 25,
+      "type": "paragraph-writing",
+      "title": "अपनी daily routine लिखें",
+      "instructions": "अपनी एक पूरे दिन की routine 8-10 sentences में लिखें। Morning से रात तक। Time expressions और frequency adverbs use करें।",
+      "content": "Write your complete daily routine from morning to night using time expressions (at 6 AM, in the afternoon, at night) and frequency adverbs (always, usually, sometimes, never).",
+      "answer": "I always wake up at 6 AM. First, I brush my teeth and take a bath. Then I eat breakfast with my family. I usually have bread, butter, and tea. I go to college at 8:30 AM by metro. I study there until 2 PM. In the afternoon, I eat lunch and rest for 30 minutes. After that, I do my homework and study for the next day. I sometimes play cricket with my friends in the evening. At night, my family eats dinner together at 9 PM. I usually read for 30 minutes before sleeping. I never sleep after midnight.",
+      "explanation": "Daily routine describe करने के लिए: time expressions (at 6 AM, in the afternoon), sequence words (first, then, after that), और frequency adverbs (always, usually, sometimes, never) का use करें।"
     }
   ]
 }

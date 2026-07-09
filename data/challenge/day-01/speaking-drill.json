@@ -1,182 +1,284 @@
 {
   "day": 1,
   "topic": "Basics of English",
-  "totalDrills": 8,
+  "totalDrills": 15,
   "drills": [
     {
       "id": 1,
       "type": "repeat-and-speak",
-      "title": "Basics of English — Speaking Set 1",
+      "title": "Subject Pronouns + Am/Is/Are",
+      "instructions": "हर sentence को ज़ोर से 3 बार बोलें। पहले धीरे, फिर normal speed, फिर confident speed.",
       "sentences": [
-        {
-          "english": "I eat rice.",
-          "hindi": "मैं चावल खाता हूँ।",
-          "pronunciation": "i eat rice"
-        },
-        {
-          "english": "She drinks water.",
-          "hindi": "वह पानी पीती है।",
-          "pronunciation": "she drinks water"
-        },
-        {
-          "english": "He reads books.",
-          "hindi": "वह किताबें पढ़ता है।",
-          "pronunciation": "he reads books"
-        }
+        { "english": "I am a student.", "hindi": "मैं एक छात्र हूँ।", "pronunciation": "ay am a stoo-dent" },
+        { "english": "You are my friend.", "hindi": "तुम मेरे दोस्त हो।", "pronunciation": "yoo ar may frend" },
+        { "english": "He is a doctor.", "hindi": "वह एक डॉक्टर है।", "pronunciation": "hee iz a dok-ter" },
+        { "english": "She is very smart.", "hindi": "वह बहुत होशियार है।", "pronunciation": "shee iz veh-ree smart" },
+        { "english": "It is a big house.", "hindi": "यह एक बड़ा घर है।", "pronunciation": "it iz a big howss" },
+        { "english": "We are a happy family.", "hindi": "हम एक खुशहाल परिवार हैं।", "pronunciation": "wee ar a hap-ee fam-lee" },
+        { "english": "They are good teachers.", "hindi": "वे अच्छे शिक्षक हैं।", "pronunciation": "thay ar good tee-cherz" },
+        { "english": "I am not lazy.", "hindi": "मैं आलसी नहीं हूँ।", "pronunciation": "ay am not lay-zee" },
+        { "english": "She is not at home.", "hindi": "वह घर पर नहीं है।", "pronunciation": "shee iz not at hohm" },
+        { "english": "We are not afraid.", "hindi": "हम डरे नहीं हैं।", "pronunciation": "wee ar not ah-frayd" }
       ]
     },
     {
       "id": 2,
       "type": "repeat-and-speak",
-      "title": "Basics of English — Speaking Set 2",
+      "title": "Simple Present — Daily Actions",
+      "instructions": "इन sentences को mirror के सामने बोलें। Verb पर ज़ोर दें।",
       "sentences": [
-        {
-          "english": "We play cricket.",
-          "hindi": "हम क्रिकेट खेलते हैं।",
-          "pronunciation": "we play cricket"
-        },
-        {
-          "english": "They watch movies.",
-          "hindi": "वे फिल्में देखते हैं।",
-          "pronunciation": "they watch movies"
-        },
-        {
-          "english": "You write letters.",
-          "hindi": "तुम पत्र लिखते हो।",
-          "pronunciation": "you write letters"
-        }
+        { "english": "I wake up at six every morning.", "hindi": "मैं हर सुबह छह बजे उठता हूँ।", "pronunciation": "ay wayk up at siks ev-ree mor-ning" },
+        { "english": "She drinks tea every morning.", "hindi": "वह हर सुबह चाय पीती है।", "pronunciation": "shee drinks tee ev-ree mor-ning" },
+        { "english": "He goes to the office by bus.", "hindi": "वह बस से ऑफिस जाता है।", "pronunciation": "hee gohz too thee of-is by bus" },
+        { "english": "We eat dinner together.", "hindi": "हम साथ में रात का खाना खाते हैं।", "pronunciation": "wee eet din-er too-geth-er" },
+        { "english": "They play cricket on Sundays.", "hindi": "वे रविवार को क्रिकेट खेलते हैं।", "pronunciation": "thay play krik-et on sun-dayz" },
+        { "english": "My father reads the newspaper.", "hindi": "मेरे पिताजी अखबार पढ़ते हैं।", "pronunciation": "my fah-ther redz the nooz-pay-per" },
+        { "english": "The children go to school daily.", "hindi": "बच्चे रोज़ स्कूल जाते हैं।", "pronunciation": "the chil-dren goh too skool day-lee" },
+        { "english": "I study English every evening.", "hindi": "मैं हर शाम अंग्रेज़ी पढ़ता हूँ।", "pronunciation": "ay stud-ee ing-glish ev-ree eev-ning" },
+        { "english": "She cooks delicious food.", "hindi": "वह स्वादिष्ट खाना बनाती है।", "pronunciation": "shee kooks dih-lish-us food" },
+        { "english": "He works very hard.", "hindi": "वह बहुत मेहनत करता है।", "pronunciation": "hee wurks veh-ree hard" },
+        { "english": "I brush my teeth twice a day.", "hindi": "मैं दिन में दो बार दाँत साफ करता हूँ।", "pronunciation": "ay brush my teeth twyce a day" }
       ]
     },
     {
       "id": 3,
-      "type": "repeat-and-speak",
-      "title": "Basics of English — Speaking Set 3",
+      "type": "roleplay",
+      "title": "Introducing Yourself",
+      "instructions": "आप खुद को introduce कर रहे हैं। Confident voice में बोलें। Role-play करें जैसे आप किसी interview या नए school में हैं।",
       "sentences": [
-        {
-          "english": "The dog eats food.",
-          "hindi": "कुत्ता खाना खाता है।",
-          "pronunciation": "the dog eats food"
-        },
-        {
-          "english": "My mother cooks food.",
-          "hindi": "मेरी माँ खाना बनाती है।",
-          "pronunciation": "my mother cooks food"
-        },
-        {
-          "english": "Ravi drives a car.",
-          "hindi": "रवि कार चलाता है।",
-          "pronunciation": "ravi drives a car"
-        }
+        { "english": "Hello, my name is Rahul.", "hindi": "नमस्ते, मेरा नाम राहुल है।", "pronunciation": "heh-loh, my naym iz rah-hool" },
+        { "english": "I am from Delhi.", "hindi": "मैं दिल्ली से हूँ।", "pronunciation": "ay am from del-ee" },
+        { "english": "I am a software engineer.", "hindi": "मैं एक सॉफ्टवेयर इंजीनियर हूँ।", "pronunciation": "ay am a soft-wayr en-jih-neer" },
+        { "english": "I work at a tech company.", "hindi": "मैं एक tech कंपनी में काम करता हूँ।", "pronunciation": "ay wurk at a tek kum-pa-nee" },
+        { "english": "I like reading books and listening to music.", "hindi": "मुझे किताबें पढ़ना और संगीत सुनना पसंद है।", "pronunciation": "ay lyk reed-ing books and lis-en-ing too myoo-zik" },
+        { "english": "I am learning English to grow in my career.", "hindi": "मैं अपने करियर में आगे बढ़ने के लिए अंग्रेज़ी सीख रहा हूँ।", "pronunciation": "ay am lur-ning ing-glish too groh in my ka-reer" },
+        { "english": "Nice to meet you.", "hindi": "आपसे मिलकर अच्छा लगा।", "pronunciation": "nyes too meet yoo" },
+        { "english": "I have two brothers and one sister.", "hindi": "मेरे दो भाई और एक बहन है।", "pronunciation": "ay hav too bruth-erz and wun sis-ter" },
+        { "english": "My hobby is playing cricket.", "hindi": "मेरा शौक क्रिकेट खेलना है।", "pronunciation": "my hob-ee iz play-ing krik-et" },
+        { "english": "I am always eager to learn new things.", "hindi": "मैं हमेशा नई चीज़ें सीखने के लिए उत्साहित रहता हूँ।", "pronunciation": "ay am awl-wayz ee-ger too lurn nyoo thingz" }
       ]
     },
     {
       "id": 4,
-      "type": "repeat-and-speak",
-      "title": "Basics of English — Speaking Set 4",
+      "type": "shadowing",
+      "title": "Question Forms — Do/Does",
+      "instructions": "पहले sentence सुनें (या पढ़ें), फिर उसके साथ-साथ बोलें। Question tone पर ध्यान दें — अंत में आवाज़ ऊपर जाती है।",
       "sentences": [
-        {
-          "english": "The teacher teaches English.",
-          "hindi": "अध्यापक अंग्रेजी पढ़ाते हैं।",
-          "pronunciation": "the teacher teaches english"
-        },
-        {
-          "english": "She buys vegetables.",
-          "hindi": "वह सब्जियाँ खरीदती है।",
-          "pronunciation": "she buys vegetables"
-        },
-        {
-          "english": "I watch TV every night.",
-          "hindi": "मैं हर रात TV देखता हूँ।",
-          "pronunciation": "i watch tv every night"
-        }
+        { "english": "Do you drink coffee?", "hindi": "क्या तुम कॉफ़ी पीते हो?", "pronunciation": "doo yoo drink kof-ee" },
+        { "english": "Does she work here?", "hindi": "क्या वह यहाँ काम करती है?", "pronunciation": "duz shee wurk heer" },
+        { "english": "Do they speak English?", "hindi": "क्या वे अंग्रेज़ी बोलते हैं?", "pronunciation": "doo thay speek ing-glish" },
+        { "english": "Does he eat non-vegetarian food?", "hindi": "क्या वह नॉन-वेज खाता है?", "pronunciation": "duz hee eet non-vej-ih-teh-ree-an food" },
+        { "english": "Do you go to the gym?", "hindi": "क्या तुम gym जाते हो?", "pronunciation": "doo yoo goh too the jim" },
+        { "english": "Does your mother cook every day?", "hindi": "क्या तुम्हारी माँ रोज़ खाना बनाती है?", "pronunciation": "duz yor muth-er kook ev-ree day" },
+        { "english": "Do we have a meeting today?", "hindi": "क्या आज हमारी मीटिंग है?", "pronunciation": "doo wee hav a meet-ing too-day" },
+        { "english": "Does it rain here in June?", "hindi": "क्या यहाँ जून में बारिश होती है?", "pronunciation": "duz it rayn heer in joon" },
+        { "english": "Do you know his name?", "hindi": "क्या तुम उसका नाम जानते हो?", "pronunciation": "doo yoo noh hiz naym" },
+        { "english": "Does she have a car?", "hindi": "क्या उसके पास कार है?", "pronunciation": "duz shee hav a kar" },
+        { "english": "Do your parents live with you?", "hindi": "क्या तुम्हारे माता-पिता तुम्हारे साथ रहते हैं?", "pronunciation": "doo yor peh-rents liv with yoo" }
       ]
     },
     {
       "id": 5,
-      "type": "repeat-and-speak",
-      "title": "Basics of English — Speaking Set 5",
+      "type": "mirror-practice",
+      "title": "Negative Sentences — Don't/Doesn't",
+      "instructions": "Mirror के सामने खड़े हों। हर negative sentence को confident और clear आवाज़ में बोलें।",
       "sentences": [
-        {
-          "english": "He plays guitar.",
-          "hindi": "वह गिटार बजाता है।",
-          "pronunciation": "he plays guitar"
-        },
-        {
-          "english": "They drink tea.",
-          "hindi": "वे चाय पीते हैं।",
-          "pronunciation": "they drink tea"
-        },
-        {
-          "english": "We speak Hindi.",
-          "hindi": "हम हिंदी बोलते हैं।",
-          "pronunciation": "we speak hindi"
-        }
+        { "english": "I don't eat meat.", "hindi": "मैं मांस नहीं खाता।", "pronunciation": "ay dohnt eet meet" },
+        { "english": "She doesn't like spicy food.", "hindi": "उसे तीखा खाना पसंद नहीं है।", "pronunciation": "shee duz-ent lyk spy-see food" },
+        { "english": "He doesn't speak Hindi.", "hindi": "वह हिंदी नहीं बोलता।", "pronunciation": "hee duz-ent speek hin-dee" },
+        { "english": "We don't watch TV at night.", "hindi": "हम रात को TV नहीं देखते।", "pronunciation": "wee dohnt woch tee-vee at nyt" },
+        { "english": "They don't live in this city.", "hindi": "वे इस शहर में नहीं रहते।", "pronunciation": "thay dohnt liv in this sit-ee" },
+        { "english": "I don't understand this question.", "hindi": "मैं यह सवाल नहीं समझता।", "pronunciation": "ay dohnt un-der-stand this kwes-chun" },
+        { "english": "She doesn't come to class on time.", "hindi": "वह class में समय पर नहीं आती।", "pronunciation": "shee duz-ent kum too klass on tyme" },
+        { "english": "He doesn't have a sister.", "hindi": "उसकी कोई बहन नहीं है।", "pronunciation": "hee duz-ent hav a sis-ter" },
+        { "english": "We don't know the answer.", "hindi": "हमें जवाब नहीं पता।", "pronunciation": "wee dohnt noh thee an-ser" },
+        { "english": "It doesn't matter to me.", "hindi": "मुझे कोई फ़र्क नहीं पड़ता।", "pronunciation": "it duz-ent mat-er too mee" },
+        { "english": "I don't feel well today.", "hindi": "मैं आज ठीक नहीं हूँ।", "pronunciation": "ay dohnt feel wel too-day" }
       ]
     },
     {
       "id": 6,
       "type": "repeat-and-speak",
-      "title": "Basics of English — Speaking Set 6",
+      "title": "Possessive Adjectives — My/Your/His/Her/Our/Their",
+      "instructions": "Possessive adjective पर stress दें। हर sentence में ownership express करें।",
       "sentences": [
-        {
-          "english": "The students study hard.",
-          "hindi": "छात्र मेहनत से पढ़ते हैं।",
-          "pronunciation": "the students study hard"
-        },
-        {
-          "english": "She loves her job.",
-          "hindi": "वह अपनी नौकरी से प्यार करती है।",
-          "pronunciation": "she loves her job"
-        },
-        {
-          "english": "I need your help.",
-          "hindi": "मुझे तुम्हारी मदद चाहिए।",
-          "pronunciation": "i need your help"
-        }
+        { "english": "This is my bag.", "hindi": "यह मेरा बैग है।", "pronunciation": "this iz my bag" },
+        { "english": "Your house is very beautiful.", "hindi": "तुम्हारा घर बहुत सुंदर है।", "pronunciation": "yor howss iz veh-ree byoo-tih-ful" },
+        { "english": "His father is a police officer.", "hindi": "उसके पिताजी एक पुलिस अधिकारी हैं।", "pronunciation": "hiz fah-ther iz a poh-lees of-ih-ser" },
+        { "english": "Her sister works in Mumbai.", "hindi": "उसकी बहन मुंबई में काम करती है।", "pronunciation": "her sis-ter wurks in mum-by" },
+        { "english": "Its color is red and white.", "hindi": "इसका रंग लाल और सफ़ेद है।", "pronunciation": "its kul-er iz red and wyt" },
+        { "english": "Our school is near the market.", "hindi": "हमारा स्कूल बाज़ार के पास है।", "pronunciation": "owr skool iz neer the mar-kit" },
+        { "english": "Their children are very talented.", "hindi": "उनके बच्चे बहुत प्रतिभाशाली हैं।", "pronunciation": "thair chil-dren ar veh-ree tal-en-ted" },
+        { "english": "My mother makes the best food.", "hindi": "मेरी माँ सबसे अच्छा खाना बनाती है।", "pronunciation": "my muth-er mayks the best food" },
+        { "english": "Your English is improving every day.", "hindi": "तुम्हारी अंग्रेज़ी हर दिन बेहतर हो रही है।", "pronunciation": "yor ing-glish iz im-proov-ing ev-ree day" },
+        { "english": "His dream is to become an IAS officer.", "hindi": "उसका सपना IAS officer बनना है।", "pronunciation": "hiz dreem iz too bee-kum an ay-ay-es of-ih-ser" }
       ]
     },
     {
       "id": 7,
-      "type": "repeat-and-speak",
-      "title": "Basics of English — Speaking Set 7",
+      "type": "shadowing",
+      "title": "WH Questions — What/Where/When/Who/Why/How",
+      "instructions": "WH question बोलते समय sentence का अंत थोड़ा नीचे जाता है। WH word पर stress दें।",
       "sentences": [
-        {
-          "english": "He knows the answer.",
-          "hindi": "उसे जवाब पता है।",
-          "pronunciation": "he knows the answer"
-        },
-        {
-          "english": "They use computers.",
-          "hindi": "वे कंप्यूटर का उपयोग करते हैं।",
-          "pronunciation": "they use computers"
-        },
-        {
-          "english": "My father runs a business.",
-          "hindi": "मेरे पिता एक व्यवसाय चलाते हैं।",
-          "pronunciation": "my father runs a business"
-        }
+        { "english": "What is your name?", "hindi": "तुम्हारा नाम क्या है?", "pronunciation": "wot iz yor naym" },
+        { "english": "Where do you live?", "hindi": "तुम कहाँ रहते हो?", "pronunciation": "wair doo yoo liv" },
+        { "english": "When does the train arrive?", "hindi": "ट्रेन कब आती है?", "pronunciation": "wen duz the trayn ah-ryv" },
+        { "english": "Who is your best friend?", "hindi": "तुम्हारा सबसे अच्छा दोस्त कौन है?", "pronunciation": "hoo iz yor best frend" },
+        { "english": "Why do you study English?", "hindi": "तुम अंग्रेज़ी क्यों पढ़ते हो?", "pronunciation": "wy doo yoo stud-ee ing-glish" },
+        { "english": "How do you come to school?", "hindi": "तुम स्कूल कैसे आते हो?", "pronunciation": "how doo yoo kum too skool" },
+        { "english": "What do you eat for breakfast?", "hindi": "तुम नाश्ते में क्या खाते हो?", "pronunciation": "wot doo yoo eet for brek-fust" },
+        { "english": "Where does she work?", "hindi": "वह कहाँ काम करती है?", "pronunciation": "wair duz shee wurk" },
+        { "english": "Why doesn't he come to class?", "hindi": "वह class में क्यों नहीं आता?", "pronunciation": "wy duz-ent hee kum too klass" },
+        { "english": "How often do you exercise?", "hindi": "तुम कितनी बार exercise करते हो?", "pronunciation": "how of-en doo yoo ek-ser-syz" },
+        { "english": "Who teaches you English?", "hindi": "तुम्हें अंग्रेज़ी कौन पढ़ाता है?", "pronunciation": "hoo tee-chez yoo ing-glish" }
       ]
     },
     {
       "id": 8,
       "type": "repeat-and-speak",
-      "title": "Basics of English — Speaking Set 8",
+      "title": "Frequency Adverbs — Always/Usually/Often/Sometimes/Rarely/Never",
+      "instructions": "Frequency adverb पर extra stress दें। Feel करें कि कितनी बार वो action होता है।",
       "sentences": [
-        {
-          "english": "She teaches mathematics.",
-          "hindi": "वह गणित पढ़ाती है।",
-          "pronunciation": "she teaches mathematics"
-        },
-        {
-          "english": "I like mangoes.",
-          "hindi": "मुझे आम पसंद हैं।",
-          "pronunciation": "i like mangoes"
-        },
-        {
-          "english": "He wears glasses.",
-          "hindi": "वह चश्मा पहनता है।",
-          "pronunciation": "he wears glasses"
-        }
+        { "english": "I always brush my teeth before sleeping.", "hindi": "मैं सोने से पहले हमेशा दाँत साफ़ करता हूँ।", "pronunciation": "ay awl-wayz brush my teeth bih-for sleep-ing" },
+        { "english": "She usually comes to work on time.", "hindi": "वह आमतौर पर काम पर समय से आती है।", "pronunciation": "shee yoo-zhoo-ah-lee kumz too wurk on tym" },
+        { "english": "He often forgets his keys.", "hindi": "वह अक्सर अपनी चाबी भूल जाता है।", "pronunciation": "hee of-en fer-gets hiz keez" },
+        { "english": "We sometimes eat out on weekends.", "hindi": "हम कभी-कभी weekends पर बाहर खाते हैं।", "pronunciation": "wee sum-tymz eet owt on week-endz" },
+        { "english": "They rarely miss a cricket match.", "hindi": "वे शायद ही कभी cricket match miss करते हैं।", "pronunciation": "thay rair-lee mis a krik-et mach" },
+        { "english": "I never drink alcohol.", "hindi": "मैं कभी शराब नहीं पीता।", "pronunciation": "ay nev-er drink al-koh-hol" },
+        { "english": "My mother always wakes up early.", "hindi": "मेरी माँ हमेशा जल्दी उठती है।", "pronunciation": "my muth-er awl-wayz wayks up ur-lee" },
+        { "english": "He usually reads before sleeping.", "hindi": "वह आमतौर पर सोने से पहले पढ़ता है।", "pronunciation": "hee yoo-zhoo-ah-lee reedz bih-for sleep-ing" },
+        { "english": "I sometimes feel nervous while speaking.", "hindi": "मैं कभी-कभी बोलते समय घबरा जाता हूँ।", "pronunciation": "ay sum-tymz feel nur-vus wyl speek-ing" },
+        { "english": "She never gives up.", "hindi": "वह कभी हार नहीं मानती।", "pronunciation": "shee nev-er givz up" },
+        { "english": "They often travel during summer vacation.", "hindi": "वे गर्मियों की छुट्टी में अक्सर यात्रा करते हैं।", "pronunciation": "thay of-en trav-el dyoo-ring sum-er vay-kay-shun" }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "roleplay",
+      "title": "At a Restaurant",
+      "instructions": "आप एक restaurant में हैं। Waiter से बात कर रहे हैं। Polite और clear English में बोलें।",
+      "sentences": [
+        { "english": "Excuse me, can I see the menu?", "hindi": "माफ़ करिए, क्या मैं menu देख सकता हूँ?", "pronunciation": "eks-kyooz mee, kan ay see the men-yoo" },
+        { "english": "What do you recommend?", "hindi": "आप क्या recommend करते हैं?", "pronunciation": "wot doo yoo rek-uh-mend" },
+        { "english": "I would like a plate of biryani.", "hindi": "मुझे एक plate biryani चाहिए।", "pronunciation": "ay wood lyk a playt ov bir-yah-nee" },
+        { "english": "Does this dish have onion?", "hindi": "क्या इस dish में प्याज़ है?", "pronunciation": "duz this dish hav un-yun" },
+        { "english": "I don't eat spicy food.", "hindi": "मैं तीखा खाना नहीं खाता।", "pronunciation": "ay dohnt eet spy-see food" },
+        { "english": "Can I have a glass of water, please?", "hindi": "क्या मुझे एक गिलास पानी मिल सकता है?", "pronunciation": "kan ay hav a glas ov waw-ter pleez" },
+        { "english": "This food is very delicious.", "hindi": "यह खाना बहुत स्वादिष्ट है।", "pronunciation": "this food iz veh-ree dih-lish-us" },
+        { "english": "Can I have the bill, please?", "hindi": "क्या मुझे bill मिल सकता है?", "pronunciation": "kan ay hav the bil pleez" },
+        { "english": "Do you accept credit cards?", "hindi": "क्या आप credit card लेते हैं?", "pronunciation": "doo yoo ak-sept kred-it kardz" },
+        { "english": "Thank you, the service is excellent.", "hindi": "धन्यवाद, service बहुत अच्छी है।", "pronunciation": "thank yoo, the sur-vis iz ek-sel-ent" }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "mirror-practice",
+      "title": "Describing Family Members",
+      "instructions": "अपने family members को describe करें। Mirror में खुद को देखें और confident बोलें।",
+      "sentences": [
+        { "english": "My father is a government employee.", "hindi": "मेरे पिताजी सरकारी कर्मचारी हैं।", "pronunciation": "my fah-ther iz a guv-ern-ment em-ploy-ee" },
+        { "english": "My mother is a homemaker.", "hindi": "मेरी माँ गृहिणी हैं।", "pronunciation": "my muth-er iz a hohm-may-ker" },
+        { "english": "My brother studies in class ten.", "hindi": "मेरा भाई दसवीं कक्षा में पढ़ता है।", "pronunciation": "my bruth-er stud-eez in klass ten" },
+        { "english": "My sister is a nurse.", "hindi": "मेरी बहन एक नर्स है।", "pronunciation": "my sis-ter iz a nurs" },
+        { "english": "My grandfather tells great stories.", "hindi": "मेरे दादाजी बहुत अच्छी कहानियाँ सुनाते हैं।", "pronunciation": "my grand-fah-ther telz grayt stor-eez" },
+        { "english": "My grandmother wakes up very early.", "hindi": "मेरी दादीजी बहुत जल्दी उठती हैं।", "pronunciation": "my grand-muth-er wayks up veh-ree ur-lee" },
+        { "english": "We are a family of five members.", "hindi": "हम पाँच सदस्यों का एक परिवार हैं।", "pronunciation": "wee ar a fam-lee ov fyv mem-berz" },
+        { "english": "My uncle lives in Bangalore.", "hindi": "मेरे चाचाजी बैंगलोर में रहते हैं।", "pronunciation": "my un-kul livz in bang-uh-lor" },
+        { "english": "Her daughter is very intelligent.", "hindi": "उसकी बेटी बहुत बुद्धिमान है।", "pronunciation": "her daw-ter iz veh-ree in-tel-ih-jent" },
+        { "english": "Their son is good at sports.", "hindi": "उनका बेटा खेलों में अच्छा है।", "pronunciation": "thair sun iz good at sports" }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "shadowing",
+      "title": "Articles — A, An, The",
+      "instructions": "Article पर ध्यान दें। A, An, The का सही प्रयोग सुनें और shadow करें।",
+      "sentences": [
+        { "english": "I want to be an engineer.", "hindi": "मैं एक इंजीनियर बनना चाहता हूँ।", "pronunciation": "ay wont too bee an en-jih-neer" },
+        { "english": "She has an honest nature.", "hindi": "उसका स्वभाव ईमानदार है।", "pronunciation": "shee haz an on-est nay-cher" },
+        { "english": "He is a university professor.", "hindi": "वह एक university professor है।", "pronunciation": "hee iz a yoo-nih-vur-sih-tee pro-fes-er" },
+        { "english": "The sun rises in the east.", "hindi": "सूरज पूरब में उगता है।", "pronunciation": "the sun ry-zes in thee eest" },
+        { "english": "I read a book yesterday.", "hindi": "मैंने कल एक किताब पढ़ी।", "pronunciation": "ay red a book yes-ter-day" },
+        { "english": "The book was very interesting.", "hindi": "वह किताब बहुत रोचक थी।", "pronunciation": "the book wuz veh-ree in-ter-est-ing" },
+        { "english": "She is an actress.", "hindi": "वह एक अभिनेत्री है।", "pronunciation": "shee iz an ak-tres" },
+        { "english": "I have a dog and a cat.", "hindi": "मेरे पास एक कुत्ता और एक बिल्ली है।", "pronunciation": "ay hav a dog and a kat" },
+        { "english": "The dog is sleeping on the floor.", "hindi": "कुत्ता फर्श पर सो रहा है।", "pronunciation": "the dog iz sleep-ing on the flor" },
+        { "english": "An apple a day keeps the doctor away.", "hindi": "रोज़ एक सेब खाओ, डॉक्टर से दूर रहो।", "pronunciation": "an ap-ul a day keeps the dok-ter ah-way" },
+        { "english": "She is the best student in the class.", "hindi": "वह class की सबसे अच्छी छात्रा है।", "pronunciation": "shee iz the best stoo-dent in the klass" }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "repeat-and-speak",
+      "title": "Object Pronouns — Me/You/Him/Her/It/Us/Them",
+      "instructions": "Object pronoun पर stress दें। Sentence में subject और object की position notice करें।",
+      "sentences": [
+        { "english": "Please help me.", "hindi": "कृपया मेरी मदद करें।", "pronunciation": "pleez help mee" },
+        { "english": "I can see you from here.", "hindi": "मैं तुम्हें यहाँ से देख सकता हूँ।", "pronunciation": "ay kan see yoo from heer" },
+        { "english": "She likes him a lot.", "hindi": "वह उसे बहुत पसंद करती है।", "pronunciation": "shee lyks him a lot" },
+        { "english": "We call her every Sunday.", "hindi": "हम उसे हर रविवार को call करते हैं।", "pronunciation": "wee kawl her ev-ree sun-day" },
+        { "english": "He bought it from the market.", "hindi": "उसने इसे बाज़ार से खरीदा।", "pronunciation": "hee bawt it from the mar-kit" },
+        { "english": "The teacher teaches us every day.", "hindi": "शिक्षक हमें हर रोज़ पढ़ाते हैं।", "pronunciation": "the tee-cher tee-chez us ev-ree day" },
+        { "english": "I know them very well.", "hindi": "मैं उन्हें बहुत अच्छी तरह जानता हूँ।", "pronunciation": "ay noh them veh-ree wel" },
+        { "english": "My boss praises me often.", "hindi": "मेरे boss मुझे अक्सर तारीफ़ करते हैं।", "pronunciation": "my bos prayz-ez mee of-en" },
+        { "english": "She told him the truth.", "hindi": "उसने उसे सच बताया।", "pronunciation": "shee tohld him the trooth" },
+        { "english": "They invited us to the party.", "hindi": "उन्होंने हमें party में बुलाया।", "pronunciation": "thay in-vy-ted us too the par-tee" }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "roleplay",
+      "title": "At School / College",
+      "instructions": "आप एक student हैं। Teacher से या classmate से बात कर रहे हैं।",
+      "sentences": [
+        { "english": "Good morning, sir. May I come in?", "hindi": "सुप्रभात, sir। क्या मैं अंदर आ सकता हूँ?", "pronunciation": "good mor-ning sur, may ay kum in" },
+        { "english": "I don't understand this problem.", "hindi": "मुझे यह समस्या समझ नहीं आई।", "pronunciation": "ay dohnt un-der-stand this prob-lem" },
+        { "english": "Can you explain it again, please?", "hindi": "क्या आप इसे फिर से समझा सकते हैं?", "pronunciation": "kan yoo ek-splayn it ah-gen pleez" },
+        { "english": "What is the homework for tomorrow?", "hindi": "कल का homework क्या है?", "pronunciation": "wot iz the hohm-wurk for tuh-mor-oh" },
+        { "english": "I finished my assignment yesterday.", "hindi": "मैंने अपना assignment कल पूरा कर लिया।", "pronunciation": "ay fin-isht my uh-syn-ment yes-ter-day" },
+        { "english": "Our exams start next Monday.", "hindi": "हमारी परीक्षाएँ अगले सोमवार से शुरू होती हैं।", "pronunciation": "owr ig-zamz start neks mun-day" },
+        { "english": "I study for two hours every evening.", "hindi": "मैं हर शाम दो घंटे पढ़ता हूँ।", "pronunciation": "ay stud-ee for too ow-erz ev-ree eev-ning" },
+        { "english": "She always gets good marks.", "hindi": "वह हमेशा अच्छे marks लाती है।", "pronunciation": "shee awl-wayz gets good marks" },
+        { "english": "Do you have a pen I can borrow?", "hindi": "क्या तुम्हारे पास एक pen है जो मैं ले सकता हूँ?", "pronunciation": "doo yoo hav a pen ay kan bor-oh" },
+        { "english": "I want to become a doctor in the future.", "hindi": "मैं भविष्य में डॉक्टर बनना चाहता हूँ।", "pronunciation": "ay wont too bih-kum a dok-ter in the fyoo-cher" }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "mirror-practice",
+      "title": "Talking About Hobbies",
+      "instructions": "अपने hobby के बारे में बोलें। Enthusiastic और natural tone में practice करें।",
+      "sentences": [
+        { "english": "My hobby is reading books.", "hindi": "मेरा शौक किताबें पढ़ना है।", "pronunciation": "my hob-ee iz reed-ing books" },
+        { "english": "I enjoy playing cricket with my friends.", "hindi": "मुझे दोस्तों के साथ cricket खेलना अच्छा लगता है।", "pronunciation": "ay en-joy play-ing krik-et with my frendz" },
+        { "english": "She loves painting and drawing.", "hindi": "उसे painting और drawing बहुत पसंद है।", "pronunciation": "shee luvz paynt-ing and draw-ing" },
+        { "english": "He often listens to music while working.", "hindi": "वह काम करते समय अक्सर संगीत सुनता है।", "pronunciation": "hee of-en lis-enz too myoo-zik wyl wur-king" },
+        { "english": "We sometimes go trekking on weekends.", "hindi": "हम कभी-कभी weekends पर trekking करते हैं।", "pronunciation": "wee sum-tymz goh trek-ing on week-endz" },
+        { "english": "I never miss watching a cricket match.", "hindi": "मैं कभी cricket match miss नहीं करता।", "pronunciation": "ay nev-er mis woch-ing a krik-et mach" },
+        { "english": "Photography is my favorite hobby.", "hindi": "Photography मेरा पसंदीदा शौक है।", "pronunciation": "foh-tog-ruh-fee iz my fay-ver-it hob-ee" },
+        { "english": "He usually goes cycling on Sunday mornings.", "hindi": "वह रविवार सुबह आमतौर पर cycling करता है।", "pronunciation": "hee yoo-zhoo-ah-lee gohz sy-kling on sun-day mor-ningz" },
+        { "english": "Do you have any hobbies?", "hindi": "क्या तुम्हारा कोई शौक है?", "pronunciation": "doo yoo hav en-ee hob-eez" },
+        { "english": "Hobbies make our life more interesting.", "hindi": "शौक हमारी ज़िंदगी को और रोचक बनाते हैं।", "pronunciation": "hob-eez mayk owr lyf mor in-ter-est-ing" },
+        { "english": "I recently started learning to cook.", "hindi": "मैंने हाल ही में खाना बनाना सीखना शुरू किया।", "pronunciation": "ay ree-sent-lee star-ted lur-ning too kook" }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "repeat-and-speak",
+      "title": "Talking About the Weather and Nature",
+      "instructions": "Weather sentences को natural flow में बोलें। These are great conversation starters.",
+      "sentences": [
+        { "english": "Today's weather is very pleasant.", "hindi": "आज का मौसम बहुत सुहाना है।", "pronunciation": "too-dayz weth-er iz veh-ree plez-ent" },
+        { "english": "It rains a lot in Mumbai.", "hindi": "मुंबई में बहुत बारिश होती है।", "pronunciation": "it raynz a lot in mum-by" },
+        { "english": "The sun is very hot in the afternoon.", "hindi": "दोपहर में धूप बहुत तेज़ होती है।", "pronunciation": "the sun iz veh-ree hot in thee af-ter-noon" },
+        { "english": "It is cold in the mountains.", "hindi": "पहाड़ों में ठंड होती है।", "pronunciation": "it iz kohld in the mown-tenz" },
+        { "english": "I love the smell of rain.", "hindi": "मुझे बारिश की खुशबू बहुत पसंद है।", "pronunciation": "ay luv the smel ov rayn" },
+        { "english": "The flowers bloom in spring.", "hindi": "वसंत में फूल खिलते हैं।", "pronunciation": "the flow-erz bloom in spring" },
+        { "english": "It snows in Shimla in December.", "hindi": "दिसंबर में शिमला में बर्फ़ पड़ती है।", "pronunciation": "it snohz in shim-la in di-sem-ber" },
+        { "english": "The wind is very strong today.", "hindi": "आज बहुत तेज़ हवा है।", "pronunciation": "the wind iz veh-ree strong too-day" },
+        { "english": "I prefer cold weather over hot weather.", "hindi": "मुझे गर्मी से ज़्यादा ठंड पसंद है।", "pronunciation": "ay prih-fur kohld weth-er oh-ver hot weth-er" },
+        { "english": "The sky is clear and blue today.", "hindi": "आज आसमान साफ़ और नीला है।", "pronunciation": "the sky iz kleer and bloo too-day" },
+        { "english": "Farmers need rain to grow crops.", "hindi": "किसानों को फसल उगाने के लिए बारिश चाहिए।", "pronunciation": "far-merz need rayn too groh crops" }
       ]
     }
   ]
