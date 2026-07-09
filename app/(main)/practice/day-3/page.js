@@ -2832,4 +2832,39 @@ const DAY_3_QUESTIONS = [ // Start of the main questions array — contains ALL 
     grammarRule: "Negative Imperative: Don't + Phrasal Verb + Object", // Grammar rule
     tags: ['negative', "don't", 'give', 'up', 'hope', 'motivation', 'encouragement'], // Tags
     usageNote: 'Said to encourage someone who is feeling hopeless or defeated.', // Usage
-    relatedSentences: ['Keep trying.', 'Stay strong.', "Don't quit.
+    relatedSentences: ['Keep trying.', 'Stay strong.', "Don't quit."],
+  }, // End of question 178
+]; // End of DAY_3_QUESTIONS array
+
+export default function Day3PracticePage() {
+  return (
+    <div className="max-w-2xl mx-auto space-y-6">
+      <div className="flex items-center gap-2 text-sm text-slate-500">
+        <Link href="/75-days-challenge" className="hover:text-white transition-colors flex items-center gap-1">
+          <ArrowLeft size={14} /> 75 Days
+        </Link>
+        <span>/</span>
+        <span className="text-slate-300">Day 3 Practice</span>
+      </div>
+
+      <div className="card p-4 border-primary-500/20 bg-primary-500/5 flex items-center gap-4">
+        <div className="w-12 h-12 rounded-2xl bg-primary-500/20 border border-primary-500/30 flex items-center justify-center text-2xl shrink-0">
+          <BookOpen className="w-6 h-6 text-primary-400" />
+        </div>
+        <div className="flex-1 min-w-0">
+          <span className="badge-primary text-xs">Day 3</span>
+          <h2 className="font-bold text-white">Imperative Sentences — Commands, Requests, Advice</h2>
+          <p className="text-xs text-slate-500">{DAY_3_QUESTIONS.length} questions available</p>
+        </div>
+      </div>
+
+      <PracticeQuizComponent
+        questions={DAY_3_QUESTIONS}
+        title="Day 3: Imperative Sentences"
+        backHref="/75-days-challenge/3"
+        questionsPerSession={Math.min(20, DAY_3_QUESTIONS.length)}
+        shuffleMode={true}
+      />
+    </div>
+  );
+}

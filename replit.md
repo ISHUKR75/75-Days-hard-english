@@ -6,7 +6,7 @@ A 75-day English learning challenge app (Hindi → English), built with Next.js 
 
 ## Run & Operate
 
-- `npm install` (or `npm ci`) — install dependencies. Use **npm**, not pnpm — `package-lock.json` is the authoritative lockfile even though a stray `pnpm-lock.yaml` also exists (left in place per user request not to remove files).
+- `npm install --legacy-peer-deps` — install dependencies (the `--legacy-peer-deps` flag is required due to a peer-dep conflict between `@eslint/js@10` and `eslint@9`). Use **npm**, not pnpm — `package-lock.json` is the authoritative lockfile even though a stray `pnpm-lock.yaml` also exists (left in place per user request not to remove files).
 - `npm run dev` — start the dev server on port 5000 (bound to 0.0.0.0, required for Replit's proxy)
 - `npm run build` / `npm run start` — production build/start
 
