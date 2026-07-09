@@ -465,7 +465,7 @@ function TestLink({ dayNum }) {
       <p className="text-sm text-slate-400 mb-5">
         Test your understanding of today's lesson. Timed quiz with instant feedback and scoring.
       </p>
-      <Link href={`/assessment/day-${dayNum}-test`}
+      <Link href={`/assessment/mock-test`}
         className="btn-primary inline-flex items-center gap-2 px-6 py-3">
         <Brain size={16} /> Start Mini Test
       </Link>

@@ -456,7 +456,7 @@ export default function DashboardPage() {
                   <Award size={18} className="text-yellow-400" />
                   Achievements
                 </h3>
-                <Link href="/dashboard/achievements" className="text-xs text-primary-400 hover:text-primary-300 flex items-center gap-1">
+                <Link href="/achievements" className="text-xs text-primary-400 hover:text-primary-300 flex items-center gap-1">
                   View All <ArrowRight size={13} />
                 </Link>
               </div>
