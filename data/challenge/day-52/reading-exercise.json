@@ -1,0 +1,107 @@
+{
+  "day": 52,
+  "topic": "Reported Speech Part 2 — Questions & Commands",
+  "passage": {
+    "title": "A Day with Reported Speech Part 2 — Questions & Commands",
+    "text": "He asked, \"Are you coming?\" He asked if I was coming. She asked, \"Where do you live?\" She asked where I lived. He said, \"Do this work.\" He told me to do this work. She said, \"Do not come here.\" She told me not to come here. They asked, \"Are you ready?\" They asked if I was ready.",
+    "hindiTranslation": "उसने पूछा, \"क्या तुम आ रहे हो?\" उसने पूछा कि क्या मैं आ रहा था। उसने पूछा, \"तुम कहाँ रहते हो?\" उसने पूछा कि मैं कहाँ रहता था। उसने कहा, \"यह काम करो।\" उसने मुझे यह काम करने को कहा। उसने कहा, \"यहाँ मत आओ।\" उसने मुझे यहाँ न आने को कहा। उन्होंने पूछा, \"क्या तुम तैयार हो?\" उन्होंने पूछा कि क्या मैं तैयार था।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"He asked, \"Are you...\"?",
+      "options": [
+        "She told me not to come here.",
+        "She asked, \"When will you come?\"",
+        "He asked if I was coming.",
+        "He asked, \"Are you coming?\""
+      ],
+      "answer": "He asked, \"Are you coming?\"",
+      "explanation": "Stated in the passage: \"He asked, \"Are you coming?\"\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"He asked if I...\"?",
+      "options": [
+        "They asked, \"Are you ready?\"",
+        "She asked when I would come.",
+        "She asked, \"Where do you live?\"",
+        "He asked if I was coming."
+      ],
+      "answer": "He asked if I was coming.",
+      "explanation": "Stated in the passage: \"He asked if I was coming.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"She asked, \"Where do...\"?",
+      "options": [
+        "They asked if I was ready.",
+        "The doctor said, \"Take medicine.\"",
+        "She asked where I lived.",
+        "She asked, \"Where do you live?\""
+      ],
+      "answer": "She asked, \"Where do you live?\"",
+      "explanation": "Stated in the passage: \"She asked, \"Where do you live?\"\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"She asked where I...\"?",
+      "options": [
+        "He asked, \"What are you doing?\"",
+        "The doctor told me to take medicine.",
+        "He said, \"Do this work.\"",
+        "She asked where I lived."
+      ],
+      "answer": "She asked where I lived.",
+      "explanation": "Stated in the passage: \"She asked where I lived.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"He said, \"Do this...\"?",
+      "options": [
+        "He asked what I was doing.",
+        "He asked, \"Do you need help?\"",
+        "He told me to do this work.",
+        "He said, \"Do this work.\""
+      ],
+      "answer": "He said, \"Do this work.\"",
+      "explanation": "Stated in the passage: \"He said, \"Do this work.\"\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"He told me to...\"?",
+      "options": [
+        "The teacher said, \"Be quiet.\"",
+        "He asked if I needed help.",
+        "She said, \"Do not come here.\"",
+        "He told me to do this work."
+      ],
+      "answer": "He told me to do this work.",
+      "explanation": "Stated in the passage: \"He told me to do this work.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"She said, \"Do not...\"?",
+      "options": [
+        "The teacher told us to be quiet.",
+        "He asked, \"Are you coming?\"",
+        "She told me not to come here.",
+        "She said, \"Do not come here.\""
+      ],
+      "answer": "She said, \"Do not come here.\"",
+      "explanation": "Stated in the passage: \"She said, \"Do not come here.\"\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She told me not...\"?",
+      "options": [
+        "She asked, \"When will you come?\"",
+        "He asked if I was coming.",
+        "They asked, \"Are you ready?\"",
+        "She told me not to come here."
+      ],
+      "answer": "She told me not to come here.",
+      "explanation": "Stated in the passage: \"She told me not to come here.\""
+    }
+  ]
+}

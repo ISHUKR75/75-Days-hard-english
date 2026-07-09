@@ -1,0 +1,114 @@
+{
+  "day": 70,
+  "topic": "Letter Writing",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Dear sister, congratulations on your wedding.",
+      "hindiScript": "प्रिय बहन, तुम्हारी शादी की बधाई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Your loving son.",
+        "Please replace it as soon as possible.",
+        "I want to tell you about my new job.",
+        "Dear sister, congratulations on your wedding."
+      ],
+      "answer": "Dear sister, congratulations on your wedding."
+    },
+    {
+      "id": 2,
+      "audioScript": "I will definitely come to the wedding.",
+      "hindiScript": "मैं शादी में जरूर आऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Respected Editor, I request you to publish this letter.",
+        "Yours faithfully, Rahul Sharma.",
+        "Respected Sir, I am writing this letter to you as a complaint.",
+        "I will definitely come to the wedding."
+      ],
+      "answer": "I will definitely come to the wedding."
+    },
+    {
+      "id": 3,
+      "audioScript": "Respected Manager, I am writing about my order.",
+      "hindiScript": "आदरणीय प्रबंधक महोदय, मैं अपने ऑर्डर के बारे में लिख रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This problem is affecting the whole city.",
+        "Dear friend, I received your letter.",
+        "The condition of the road is very bad.",
+        "Respected Manager, I am writing about my order."
+      ],
+      "answer": "Respected Manager, I am writing about my order."
+    },
+    {
+      "id": 4,
+      "audioScript": "I received the wrong product.",
+      "hindiScript": "मुझे गलत उत्पाद मिला है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Dear sister, congratulations on your wedding.",
+        "I will come to meet you soon.",
+        "Please solve this problem.",
+        "I received the wrong product."
+      ],
+      "answer": "I received the wrong product."
+    },
+    {
+      "id": 5,
+      "audioScript": "Please replace it as soon as possible.",
+      "hindiScript": "कृपया इसे जल्द से जल्द बदलें।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will definitely come to the wedding.",
+        "This letter is formal.",
+        "Dear mother, I am fine here.",
+        "Please replace it as soon as possible."
+      ],
+      "answer": "Please replace it as soon as possible."
+    },
+    {
+      "id": 6,
+      "audioScript": "Yours faithfully, Rahul Sharma.",
+      "hindiScript": "भवदीय, राहुल शर्मा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Respected Manager, I am writing about my order.",
+        "This letter is informal.",
+        "I miss you a lot.",
+        "Yours faithfully, Rahul Sharma."
+      ],
+      "answer": "Yours faithfully, Rahul Sharma."
+    },
+    {
+      "id": 7,
+      "audioScript": "Dear friend, I received your letter.",
+      "hindiScript": "प्रिय दोस्त, तुम्हारा पत्र मिला।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I received the wrong product.",
+        "Dear friend, I hope you are well.",
+        "Your loving son.",
+        "Dear friend, I received your letter."
+      ],
+      "answer": "Dear friend, I received your letter."
+    },
+    {
+      "id": 8,
+      "audioScript": "I will come to meet you soon.",
+      "hindiScript": "मैं जल्द ही तुमसे मिलने आऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Please replace it as soon as possible.",
+        "I want to tell you about my new job.",
+        "Respected Editor, I request you to publish this letter.",
+        "I will come to meet you soon."
+      ],
+      "answer": "I will come to meet you soon."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Dear sister, congratulations on your wedding. I will definitely come to the wedding. Respected Manager, I am writing about my order. I received the wrong product. Please replace it as soon as possible.",
+    "hindiTranslation": "प्रिय बहन, तुम्हारी शादी की बधाई। मैं शादी में जरूर आऊँगा। आदरणीय प्रबंधक महोदय, मैं अपने ऑर्डर के बारे में लिख रहा हूँ। मुझे गलत उत्पाद मिला है। कृपया इसे जल्द से जल्द बदलें।"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "day": 67,
+  "topic": "Birds & Astrology Vocabulary",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "She checked her horoscope.",
+      "hindiScript": "उसने अपनी राशि जांची।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The cuckoo sings sweetly.",
+        "The astrologer told the future.",
+        "The sparrow is sitting on the roof.",
+        "She checked her horoscope."
+      ],
+      "answer": "She checked her horoscope."
+    },
+    {
+      "id": 2,
+      "audioScript": "My zodiac sign is Leo.",
+      "hindiScript": "मेरी राशि सिंह है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The swan is swimming in the lake.",
+        "His prediction came true.",
+        "The peacock is India's national bird.",
+        "My zodiac sign is Leo."
+      ],
+      "answer": "My zodiac sign is Leo."
+    },
+    {
+      "id": 3,
+      "audioScript": "The stars were clearly visible in the sky tonight.",
+      "hindiScript": "आज रात आसमान में तारे साफ दिखे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The hen lays eggs.",
+        "Fortune is different for everyone.",
+        "The crow makes a very loud sound.",
+        "The stars were clearly visible in the sky tonight."
+      ],
+      "answer": "The stars were clearly visible in the sky tonight."
+    },
+    {
+      "id": 4,
+      "audioScript": "This planet is bigger than Earth.",
+      "hindiScript": "यह ग्रह पृथ्वी से बड़ा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She checked her horoscope.",
+        "His moon sign is Cancer.",
+        "The pigeon is a symbol of peace.",
+        "This planet is bigger than Earth."
+      ],
+      "answer": "This planet is bigger than Earth."
+    },
+    {
+      "id": 5,
+      "audioScript": "The astrologer told the future.",
+      "hindiScript": "ज्योतिषी ने भविष्य बताया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My zodiac sign is Leo.",
+        "Birds wake up early in the morning.",
+        "The eagle flies very high.",
+        "The astrologer told the future."
+      ],
+      "answer": "The astrologer told the future."
+    },
+    {
+      "id": 6,
+      "audioScript": "His prediction came true.",
+      "hindiScript": "उसकी भविष्यवाणी सच हुई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The stars were clearly visible in the sky tonight.",
+        "Many birds are flying in the sky.",
+        "The owl stays awake at night.",
+        "His prediction came true."
+      ],
+      "answer": "His prediction came true."
+    },
+    {
+      "id": 7,
+      "audioScript": "Fortune is different for everyone.",
+      "hindiScript": "किस्मत सबके साथ अलग होती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This planet is bigger than Earth.",
+        "The parrot is green in colour.",
+        "The cuckoo sings sweetly.",
+        "Fortune is different for everyone."
+      ],
+      "answer": "Fortune is different for everyone."
+    },
+    {
+      "id": 8,
+      "audioScript": "His moon sign is Cancer.",
+      "hindiScript": "उसका चंद्र राशि कर्क है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The astrologer told the future.",
+        "The sparrow is sitting on the roof.",
+        "The swan is swimming in the lake.",
+        "His moon sign is Cancer."
+      ],
+      "answer": "His moon sign is Cancer."
+    }
+  ],
+  "dictationPassage": {
+    "text": "She checked her horoscope. My zodiac sign is Leo. The stars were clearly visible in the sky tonight. This planet is bigger than Earth. The astrologer told the future.",
+    "hindiTranslation": "उसने अपनी राशि जांची। मेरी राशि सिंह है। आज रात आसमान में तारे साफ दिखे। यह ग्रह पृथ्वी से बड़ा है। ज्योतिषी ने भविष्य बताया।"
+  }
+}

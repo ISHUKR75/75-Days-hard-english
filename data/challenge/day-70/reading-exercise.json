@@ -1,0 +1,107 @@
+{
+  "day": 70,
+  "topic": "Letter Writing",
+  "passage": {
+    "title": "A Day with Letter Writing",
+    "text": "Dear friend, I hope you are well. I want to tell you about my new job. Respected Sir, I am writing this letter to you as a complaint. The condition of the road is very bad. Please solve this problem. Dear mother, I am fine here. I miss you a lot. Your loving son. Respected Editor, I request you to publish this letter. This problem is affecting the whole city.",
+    "hindiTranslation": "प्रिय मित्र, मुझे आशा है तुम ठीक होगे। मैं तुम्हें अपनी नई नौकरी के बारे में बताना चाहता हूँ। आदरणीय महोदय, मैं आपको यह पत्र शिकायत के लिए लिख रहा हूँ। सड़क की हालत बहुत खराब है। कृपया इस समस्या का समाधान करें। प्रिय माँ, मैं यहाँ ठीक हूँ। मुझे तुम्हारी बहुत याद आती है। आपका स्नेही पुत्र। आदरणीय संपादक महोदय, मैं यह पत्र प्रकाशित करने का अनुरोध करता हूँ। यह समस्या पूरे शहर को प्रभावित कर रही है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"Dear friend, I hope...\"?",
+      "options": [
+        "Your loving son.",
+        "Please replace it as soon as possible.",
+        "I want to tell you about my new job.",
+        "Dear friend, I hope you are well."
+      ],
+      "answer": "Dear friend, I hope you are well.",
+      "explanation": "Stated in the passage: \"Dear friend, I hope you are well.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I want to tell...\"?",
+      "options": [
+        "Respected Editor, I request you to publish this letter.",
+        "Yours faithfully, Rahul Sharma.",
+        "Respected Sir, I am writing this letter to you as a complaint.",
+        "I want to tell you about my new job."
+      ],
+      "answer": "I want to tell you about my new job.",
+      "explanation": "Stated in the passage: \"I want to tell you about my new job.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Respected Sir, I am...\"?",
+      "options": [
+        "This problem is affecting the whole city.",
+        "Dear friend, I received your letter.",
+        "The condition of the road is very bad.",
+        "Respected Sir, I am writing this letter to you as a complaint."
+      ],
+      "answer": "Respected Sir, I am writing this letter to you as a complaint.",
+      "explanation": "Stated in the passage: \"Respected Sir, I am writing this letter to you as a complaint.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"The condition of the...\"?",
+      "options": [
+        "Dear sister, congratulations on your wedding.",
+        "I will come to meet you soon.",
+        "Please solve this problem.",
+        "The condition of the road is very bad."
+      ],
+      "answer": "The condition of the road is very bad.",
+      "explanation": "Stated in the passage: \"The condition of the road is very bad.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"Please solve this problem....\"?",
+      "options": [
+        "I will definitely come to the wedding.",
+        "This letter is formal.",
+        "Dear mother, I am fine here.",
+        "Please solve this problem."
+      ],
+      "answer": "Please solve this problem.",
+      "explanation": "Stated in the passage: \"Please solve this problem.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Dear mother, I am...\"?",
+      "options": [
+        "Respected Manager, I am writing about my order.",
+        "This letter is informal.",
+        "I miss you a lot.",
+        "Dear mother, I am fine here."
+      ],
+      "answer": "Dear mother, I am fine here.",
+      "explanation": "Stated in the passage: \"Dear mother, I am fine here.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I miss you a...\"?",
+      "options": [
+        "I received the wrong product.",
+        "Dear friend, I hope you are well.",
+        "Your loving son.",
+        "I miss you a lot."
+      ],
+      "answer": "I miss you a lot.",
+      "explanation": "Stated in the passage: \"I miss you a lot.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"Your loving son....\"?",
+      "options": [
+        "Please replace it as soon as possible.",
+        "I want to tell you about my new job.",
+        "Respected Editor, I request you to publish this letter.",
+        "Your loving son."
+      ],
+      "answer": "Your loving son.",
+      "explanation": "Stated in the passage: \"Your loving son.\""
+    }
+  ]
+}

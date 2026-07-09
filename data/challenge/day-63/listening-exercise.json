@@ -1,0 +1,114 @@
+{
+  "day": 63,
+  "topic": "Maths Vocabulary",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "A circle has no sides.",
+      "hindiScript": "वृत्त की कोई भुजा नहीं होती।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Their average height is five feet.",
+        "The perimeter of the garden is one hundred metres.",
+        "Subtracting four from ten leaves six.",
+        "A circle has no sides."
+      ],
+      "answer": "A circle has no sides."
+    },
+    {
+      "id": 2,
+      "audioScript": "This equation is easy to solve.",
+      "hindiScript": "यह समीकरण हल करना आसान है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "A triangle has three sides.",
+        "Maths is my favourite subject.",
+        "Multiplying three by four gives twelve.",
+        "This equation is easy to solve."
+      ],
+      "answer": "This equation is easy to solve."
+    },
+    {
+      "id": 3,
+      "audioScript": "This angle is ninety degrees.",
+      "hindiScript": "यह कोण नब्बे डिग्री का है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "All sides of a square are equal.",
+        "He calculates quickly and correctly.",
+        "Dividing twenty by four gives five.",
+        "This angle is ninety degrees."
+      ],
+      "answer": "This angle is ninety degrees."
+    },
+    {
+      "id": 4,
+      "audioScript": "The area of the room is twenty square metres.",
+      "hindiScript": "कमरे का क्षेत्रफल बीस वर्ग मीटर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "A circle has no sides.",
+        "This number is the largest.",
+        "This is an even number.",
+        "The area of the room is twenty square metres."
+      ],
+      "answer": "The area of the room is twenty square metres."
+    },
+    {
+      "id": 5,
+      "audioScript": "The perimeter of the garden is one hundred metres.",
+      "hindiScript": "बगीचे की परिधि सौ मीटर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This equation is easy to solve.",
+        "We have to solve this problem.",
+        "Half is a fraction.",
+        "The perimeter of the garden is one hundred metres."
+      ],
+      "answer": "The perimeter of the garden is one hundred metres."
+    },
+    {
+      "id": 6,
+      "audioScript": "Maths is my favourite subject.",
+      "hindiScript": "गणित मेरा पसंदीदा विषय है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This angle is ninety degrees.",
+        "The teacher taught multiplication.",
+        "He got ninety percent marks in the exam.",
+        "Maths is my favourite subject."
+      ],
+      "answer": "Maths is my favourite subject."
+    },
+    {
+      "id": 7,
+      "audioScript": "He calculates quickly and correctly.",
+      "hindiScript": "वह जल्दी और सही गणना करता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The area of the room is twenty square metres.",
+        "Adding two and three gives five.",
+        "Their average height is five feet.",
+        "He calculates quickly and correctly."
+      ],
+      "answer": "He calculates quickly and correctly."
+    },
+    {
+      "id": 8,
+      "audioScript": "This number is the largest.",
+      "hindiScript": "यह संख्या सबसे बड़ी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The perimeter of the garden is one hundred metres.",
+        "Subtracting four from ten leaves six.",
+        "A triangle has three sides.",
+        "This number is the largest."
+      ],
+      "answer": "This number is the largest."
+    }
+  ],
+  "dictationPassage": {
+    "text": "A circle has no sides. This equation is easy to solve. This angle is ninety degrees. The area of the room is twenty square metres. The perimeter of the garden is one hundred metres.",
+    "hindiTranslation": "वृत्त की कोई भुजा नहीं होती। यह समीकरण हल करना आसान है। यह कोण नब्बे डिग्री का है। कमरे का क्षेत्रफल बीस वर्ग मीटर है। बगीचे की परिधि सौ मीटर है।"
+  }
+}

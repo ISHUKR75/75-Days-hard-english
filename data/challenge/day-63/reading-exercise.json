@@ -1,0 +1,107 @@
+{
+  "day": 63,
+  "topic": "Maths Vocabulary",
+  "passage": {
+    "title": "A Day with Maths Vocabulary",
+    "text": "Adding two and three gives five. Subtracting four from ten leaves six. Multiplying three by four gives twelve. Dividing twenty by four gives five. This is an even number. Half is a fraction. He got ninety percent marks in the exam. Their average height is five feet. A triangle has three sides. All sides of a square are equal.",
+    "hindiTranslation": "दो और तीन जोड़ने पर पाँच होता है। दस में से चार घटाने पर छह बचता है। तीन को चार से गुणा करने पर बारह होता है। बीस को चार से भाग देने पर पाँच होता है। यह एक सम संख्या है। आधा एक भिन्न है। उसे परीक्षा में नब्बे प्रतिशत अंक मिले। उनकी औसत ऊँचाई पाँच फीट है। त्रिभुज की तीन भुजाएँ होती हैं। वर्ग की सभी भुजाएँ बराबर होती हैं।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"Adding two and three...\"?",
+      "options": [
+        "Their average height is five feet.",
+        "The perimeter of the garden is one hundred metres.",
+        "Subtracting four from ten leaves six.",
+        "Adding two and three gives five."
+      ],
+      "answer": "Adding two and three gives five.",
+      "explanation": "Stated in the passage: \"Adding two and three gives five.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"Subtracting four from ten...\"?",
+      "options": [
+        "A triangle has three sides.",
+        "Maths is my favourite subject.",
+        "Multiplying three by four gives twelve.",
+        "Subtracting four from ten leaves six."
+      ],
+      "answer": "Subtracting four from ten leaves six.",
+      "explanation": "Stated in the passage: \"Subtracting four from ten leaves six.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Multiplying three by four...\"?",
+      "options": [
+        "All sides of a square are equal.",
+        "He calculates quickly and correctly.",
+        "Dividing twenty by four gives five.",
+        "Multiplying three by four gives twelve."
+      ],
+      "answer": "Multiplying three by four gives twelve.",
+      "explanation": "Stated in the passage: \"Multiplying three by four gives twelve.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"Dividing twenty by four...\"?",
+      "options": [
+        "A circle has no sides.",
+        "This number is the largest.",
+        "This is an even number.",
+        "Dividing twenty by four gives five."
+      ],
+      "answer": "Dividing twenty by four gives five.",
+      "explanation": "Stated in the passage: \"Dividing twenty by four gives five.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"This is an even...\"?",
+      "options": [
+        "This equation is easy to solve.",
+        "We have to solve this problem.",
+        "Half is a fraction.",
+        "This is an even number."
+      ],
+      "answer": "This is an even number.",
+      "explanation": "Stated in the passage: \"This is an even number.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Half is a fraction....\"?",
+      "options": [
+        "This angle is ninety degrees.",
+        "The teacher taught multiplication.",
+        "He got ninety percent marks in the exam.",
+        "Half is a fraction."
+      ],
+      "answer": "Half is a fraction.",
+      "explanation": "Stated in the passage: \"Half is a fraction.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"He got ninety percent...\"?",
+      "options": [
+        "The area of the room is twenty square metres.",
+        "Adding two and three gives five.",
+        "Their average height is five feet.",
+        "He got ninety percent marks in the exam."
+      ],
+      "answer": "He got ninety percent marks in the exam.",
+      "explanation": "Stated in the passage: \"He got ninety percent marks in the exam.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"Their average height is...\"?",
+      "options": [
+        "The perimeter of the garden is one hundred metres.",
+        "Subtracting four from ten leaves six.",
+        "A triangle has three sides.",
+        "Their average height is five feet."
+      ],
+      "answer": "Their average height is five feet.",
+      "explanation": "Stated in the passage: \"Their average height is five feet.\""
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "day": 64,
+  "topic": "Body & Diseases Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मेरे सिर में दर्द है।",
+      "options": [
+        "My stomach is aching.",
+        "He has diabetes.",
+        "Her eyes are very beautiful.",
+        "I have a headache."
+      ],
+      "answer": "I have a headache.",
+      "explanation": "Correct translation: \"मेरे सिर में दर्द है।\" = \"I have a headache.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Her eyes _____ very beautiful.",
+      "options": [
+        "pain",
+        "mosquitoes",
+        "hurting",
+        "are"
+      ],
+      "answer": "are",
+      "explanation": "Full sentence: \"Her eyes are very beautiful.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "My ear are hurting.",
+      "options": [
+        "My ear are hurting.",
+        "My ear is hurting."
+      ],
+      "answer": "My ear is hurting.",
+      "explanation": "Correct sentence: \"My ear is hurting.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसकी नाक बह रही है।",
+      "options": [
+        "He has a high fever.",
+        "He has an infection.",
+        "My hand got burnt.",
+        "His nose is running."
+      ],
+      "answer": "His nose is running.",
+      "explanation": "Correct translation: \"उसकी नाक बह रही है।\" = \"His nose is running.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "My hand _____ burnt.",
+      "options": [
+        "a",
+        "medicine",
+        "broken",
+        "got"
+      ],
+      "answer": "got",
+      "explanation": "Full sentence: \"My hand got burnt.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "His leg are broken.",
+      "options": [
+        "His leg are broken.",
+        "His leg is broken."
+      ],
+      "answer": "His leg is broken.",
+      "explanation": "Correct sentence: \"His leg is broken.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसका दिल बहुत अच्छा है।",
+      "options": [
+        "I am having a headache.",
+        "I have a headache.",
+        "My stomach is aching.",
+        "He has a very kind heart."
+      ],
+      "answer": "He has a very kind heart.",
+      "explanation": "Correct translation: \"उसका दिल बहुत अच्छा है।\" = \"He has a very kind heart.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "My stomach _____ aching.",
+      "options": [
+        "diabetes",
+        "very",
+        "pain",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"My stomach is aching.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I has back pain.",
+      "options": [
+        "I has back pain.",
+        "I have back pain."
+      ],
+      "answer": "I have back pain.",
+      "explanation": "Correct sentence: \"I have back pain.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मेरा गला खराब है।",
+      "options": [
+        "I am allergic to dust.",
+        "His nose is running.",
+        "He has a high fever.",
+        "I have a sore throat."
+      ],
+      "answer": "I have a sore throat.",
+      "explanation": "Correct translation: \"मेरा गला खराब है।\" = \"I have a sore throat.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He has _____ high fever.",
+      "options": [
+        "infection",
+        "burnt",
+        "medicine",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"He has a high fever.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I has caught a cold.",
+      "options": [
+        "I has caught a cold.",
+        "I have caught a cold."
+      ],
+      "answer": "I have caught a cold.",
+      "explanation": "Correct sentence: \"I have caught a cold.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "उसे खांसी आ रही है।",
+      "options": [
+        "Exercise to stay healthy.",
+        "He has a very kind heart.",
+        "I am having a headache.",
+        "He is coughing."
+      ],
+      "answer": "He is coughing.",
+      "explanation": "Correct translation: \"उसे खांसी आ रही है।\" = \"He is coughing.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I am _____ a headache.",
+      "options": [
+        "headache",
+        "aching",
+        "diabetes",
+        "having"
+      ],
+      "answer": "having",
+      "explanation": "Full sentence: \"I am having a headache.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "He have diabetes.",
+      "options": [
+        "He have diabetes.",
+        "He has diabetes."
+      ],
+      "answer": "He has diabetes.",
+      "explanation": "Correct sentence: \"He has diabetes.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मलेरिया मच्छरों से फैलता है।",
+      "options": [
+        "My ear is hurting.",
+        "I have a sore throat.",
+        "I am allergic to dust.",
+        "Malaria spreads from mosquitoes."
+      ],
+      "answer": "Malaria spreads from mosquitoes.",
+      "explanation": "Correct translation: \"मलेरिया मच्छरों से फैलता है।\" = \"Malaria spreads from mosquitoes.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I am _____ to dust.",
+      "options": [
+        "running",
+        "high",
+        "infection",
+        "allergic"
+      ],
+      "answer": "allergic",
+      "explanation": "Full sentence: \"I am allergic to dust.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He have an infection.",
+      "options": [
+        "He have an infection.",
+        "He has an infection."
+      ],
+      "answer": "He has an infection.",
+      "explanation": "Correct sentence: \"He has an infection.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "डॉक्टर ने दवा दी।",
+      "options": [
+        "His leg is broken.",
+        "He is coughing.",
+        "Exercise to stay healthy.",
+        "The doctor gave medicine."
+      ],
+      "answer": "The doctor gave medicine.",
+      "explanation": "Correct translation: \"डॉक्टर ने दवा दी।\" = \"The doctor gave medicine.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Exercise to _____ healthy.",
+      "options": [
+        "very",
+        "a",
+        "headache",
+        "stay"
+      ],
+      "answer": "stay",
+      "explanation": "Full sentence: \"Exercise to stay healthy.\""
+    }
+  ]
+}

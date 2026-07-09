@@ -1,0 +1,255 @@
+{
+  "day": 52,
+  "topic": "Reported Speech Part 2 — Questions & Commands",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "उसने पूछा, \"क्या तुम आ रहे हो?\"",
+      "options": [
+        "She told me not to come here.",
+        "She asked, \"When will you come?\"",
+        "He asked if I was coming.",
+        "He asked, \"Are you coming?\""
+      ],
+      "answer": "He asked, \"Are you coming?\"",
+      "explanation": "Correct translation: \"उसने पूछा, \"क्या तुम आ रहे हो?\"\" = \"He asked, \"Are you coming?\"\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He asked if _____ was coming.",
+      "options": [
+        "you",
+        "do",
+        "\"Take",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "Full sentence: \"He asked if I was coming.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "She asked, \"Where do you live?\" yesterday.",
+      "options": [
+        "She asked, \"Where do you live?\" yesterday.",
+        "She asked, \"Where do you live?\""
+      ],
+      "answer": "She asked, \"Where do you live?\"",
+      "explanation": "Correct sentence: \"She asked, \"Where do you live?\"\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसने पूछा कि मैं कहाँ रहता था।",
+      "options": [
+        "He asked, \"What are you doing?\"",
+        "The doctor told me to take medicine.",
+        "He said, \"Do this work.\"",
+        "She asked where I lived."
+      ],
+      "answer": "She asked where I lived.",
+      "explanation": "Correct translation: \"उसने पूछा कि मैं कहाँ रहता था।\" = \"She asked where I lived.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "He said, _____ this work.\"",
+      "options": [
+        "I",
+        "you",
+        "to",
+        "\"Do"
+      ],
+      "answer": "\"Do",
+      "explanation": "Full sentence: \"He said, \"Do this work.\"\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "He told me to do this work yesterday.",
+      "options": [
+        "He told me to do this work yesterday.",
+        "He told me to do this work."
+      ],
+      "answer": "He told me to do this work.",
+      "explanation": "Correct sentence: \"He told me to do this work.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसने कहा, \"यहाँ मत आओ।\"",
+      "options": [
+        "The teacher told us to be quiet.",
+        "He asked, \"Are you coming?\"",
+        "She told me not to come here.",
+        "She said, \"Do not come here.\""
+      ],
+      "answer": "She said, \"Do not come here.\"",
+      "explanation": "Correct translation: \"उसने कहा, \"यहाँ मत आओ।\"\" = \"She said, \"Do not come here.\"\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She told me _____ to come here.",
+      "options": [
+        "will",
+        "I",
+        "you",
+        "not"
+      ],
+      "answer": "not",
+      "explanation": "Full sentence: \"She told me not to come here.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "They asked, \"Are you ready?\" yesterday.",
+      "options": [
+        "They asked, \"Are you ready?\" yesterday.",
+        "They asked, \"Are you ready?\""
+      ],
+      "answer": "They asked, \"Are you ready?\"",
+      "explanation": "Correct sentence: \"They asked, \"Are you ready?\"\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "उन्होंने पूछा कि क्या मैं तैयार था।",
+      "options": [
+        "The doctor said, \"Take medicine.\"",
+        "She asked where I lived.",
+        "He asked, \"What are you doing?\"",
+        "They asked if I was ready."
+      ],
+      "answer": "They asked if I was ready.",
+      "explanation": "Correct translation: \"उन्होंने पूछा कि क्या मैं तैयार था।\" = \"They asked if I was ready.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He asked, \"What _____ you doing?\"",
+      "options": [
+        "me",
+        "this",
+        "I",
+        "are"
+      ],
+      "answer": "are",
+      "explanation": "Full sentence: \"He asked, \"What are you doing?\"\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "He asked what I were doing.",
+      "options": [
+        "He asked what I were doing.",
+        "He asked what I was doing."
+      ],
+      "answer": "He asked what I was doing.",
+      "explanation": "Correct sentence: \"He asked what I was doing.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "टीचर ने कहा, \"चुप रहो।\"",
+      "options": [
+        "He asked if I needed help.",
+        "She said, \"Do not come here.\"",
+        "The teacher told us to be quiet.",
+        "The teacher said, \"Be quiet.\""
+      ],
+      "answer": "The teacher said, \"Be quiet.\"",
+      "explanation": "Correct translation: \"टीचर ने कहा, \"चुप रहो।\"\" = \"The teacher said, \"Be quiet.\"\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "The teacher told _____ to be quiet.",
+      "options": [
+        "you",
+        "not",
+        "will",
+        "us"
+      ],
+      "answer": "us",
+      "explanation": "Full sentence: \"The teacher told us to be quiet.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "She asked, \"When will you come?\" yesterday.",
+      "options": [
+        "She asked, \"When will you come?\" yesterday.",
+        "She asked, \"When will you come?\""
+      ],
+      "answer": "She asked, \"When will you come?\"",
+      "explanation": "Correct sentence: \"She asked, \"When will you come?\"\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "उसने पूछा कि मैं कब आऊँगा।",
+      "options": [
+        "She asked, \"Where do you live?\"",
+        "They asked if I was ready.",
+        "The doctor said, \"Take medicine.\"",
+        "She asked when I would come."
+      ],
+      "answer": "She asked when I would come.",
+      "explanation": "Correct translation: \"उसने पूछा कि मैं कब आऊँगा।\" = \"She asked when I would come.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "The doctor _____ \"Take medicine.\"",
+      "options": [
+        "I",
+        "are",
+        "me",
+        "said"
+      ],
+      "answer": "said",
+      "explanation": "Full sentence: \"The doctor said, \"Take medicine.\"\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "The doctor told me to take medicine yesterday.",
+      "options": [
+        "The doctor told me to take medicine yesterday.",
+        "The doctor told me to take medicine."
+      ],
+      "answer": "The doctor told me to take medicine.",
+      "explanation": "Correct sentence: \"The doctor told me to take medicine.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उसने पूछा, \"क्या तुम्हें मदद चाहिए?\"",
+      "options": [
+        "He told me to do this work.",
+        "The teacher said, \"Be quiet.\"",
+        "He asked if I needed help.",
+        "He asked, \"Do you need help?\""
+      ],
+      "answer": "He asked, \"Do you need help?\"",
+      "explanation": "Correct translation: \"उसने पूछा, \"क्या तुम्हें मदद चाहिए?\"\" = \"He asked, \"Do you need help?\"\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "He asked if _____ needed help.",
+      "options": [
+        "not",
+        "us",
+        "you",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "Full sentence: \"He asked if I needed help.\""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 59,
+  "topic": "Wish / If Only (Expressing Regret and Desire)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "I wish I had more time.",
+      "hindiScript": "मुझे काश मेरे पास ज़्यादा समय होता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If only the weather were good.",
+        "I wish I worked harder.",
+        "If only I had more money.",
+        "I wish I had more time."
+      ],
+      "answer": "I wish I had more time."
+    },
+    {
+      "id": 2,
+      "audioScript": "I wish you would listen to me.",
+      "hindiScript": "काश तुम मुझे सुनो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I wish I had talked to him.",
+        "If only he had forgiven me.",
+        "I wish I were there.",
+        "I wish you would listen to me."
+      ],
+      "answer": "I wish you would listen to me."
+    },
+    {
+      "id": 3,
+      "audioScript": "I wish I had not taken this decision.",
+      "hindiScript": "मुझे काश मैं यह decision न लेता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If only I had known this earlier.",
+        "I wish I knew this language.",
+        "If only I had studied earlier.",
+        "I wish I had not taken this decision."
+      ],
+      "answer": "I wish I had not taken this decision."
+    },
+    {
+      "id": 4,
+      "audioScript": "If only we could meet again.",
+      "hindiScript": "काश हम फिर से मिल पाते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I wish I had more time.",
+        "I wish you would speak slowly.",
+        "I wish I had not made this mistake.",
+        "If only we could meet again."
+      ],
+      "answer": "If only we could meet again."
+    },
+    {
+      "id": 5,
+      "audioScript": "I wish I worked harder.",
+      "hindiScript": "मुझे काश मैं और मेहनत करता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I wish you would listen to me.",
+        "I wish I had taken that opportunity.",
+        "I wish you would calm down.",
+        "I wish I worked harder."
+      ],
+      "answer": "I wish I worked harder."
+    },
+    {
+      "id": 6,
+      "audioScript": "If only he had forgiven me.",
+      "hindiScript": "काश उसने मुझे माफ़ कर दिया होता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I wish I had not taken this decision.",
+        "If only we had not gone there.",
+        "I wish I could fly.",
+        "If only he had forgiven me."
+      ],
+      "answer": "If only he had forgiven me."
+    },
+    {
+      "id": 7,
+      "audioScript": "I wish I knew this language.",
+      "hindiScript": "मुझे काश मैं यह भाषा जानता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If only we could meet again.",
+        "I wish I had more money.",
+        "If only the weather were good.",
+        "I wish I knew this language."
+      ],
+      "answer": "I wish I knew this language."
+    },
+    {
+      "id": 8,
+      "audioScript": "I wish you would speak slowly.",
+      "hindiScript": "काश तुम धीरे बोलो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I wish I worked harder.",
+        "If only I had more money.",
+        "I wish I had talked to him.",
+        "I wish you would speak slowly."
+      ],
+      "answer": "I wish you would speak slowly."
+    }
+  ],
+  "dictationPassage": {
+    "text": "I wish I had more time. I wish you would listen to me. I wish I had not taken this decision. If only we could meet again. I wish I worked harder.",
+    "hindiTranslation": "मुझे काश मेरे पास ज़्यादा समय होता। काश तुम मुझे सुनो। मुझे काश मैं यह decision न लेता। काश हम फिर से मिल पाते। मुझे काश मैं और मेहनत करता।"
+  }
+}

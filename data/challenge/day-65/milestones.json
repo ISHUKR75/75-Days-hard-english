@@ -1,0 +1,41 @@
+{
+  "day": 65,
+  "topic": "Industry Vocabulary",
+  "milestones": [
+    {
+      "id": 1,
+      "title": "Lesson Completed",
+      "description": "Finished all lessons on Industry Vocabulary.",
+      "xp": 20,
+      "badge": "lesson-complete"
+    },
+    {
+      "id": 2,
+      "title": "Vocabulary Mastered",
+      "description": "Learned new words related to Industry Vocabulary.",
+      "xp": 15,
+      "badge": "vocab-master"
+    },
+    {
+      "id": 3,
+      "title": "Practice Champion",
+      "description": "Completed all practice questions for Day 65.",
+      "xp": 25,
+      "badge": "practice-champion"
+    },
+    {
+      "id": 4,
+      "title": "Test Passed",
+      "description": "Scored well on the Day 65 test.",
+      "xp": 30,
+      "badge": "test-passed"
+    },
+    {
+      "id": 5,
+      "title": "Speaking Practiced",
+      "description": "Completed speaking drills for Industry Vocabulary.",
+      "xp": 20,
+      "badge": "speaking-star"
+    }
+  ]
+}

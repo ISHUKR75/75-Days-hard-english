@@ -96,11 +96,11 @@ function useDayData(dayNum) {
 
 const LESSON_SECTIONS = [
   { id: 'concept',      icon: BookOpen,     label: 'Concept & Theory',          color: 'text-indigo-400', bg: 'bg-indigo-500/10' },
-  { id: 'vocabulary',   icon: FileText,     label: 'Vocabulary (1000 Words)',    color: 'text-cyan-400', bg: 'bg-cyan-500/10' },
-  { id: 'practice',     icon: Target,       label: 'Interactive Practice (900+ Qs)',  color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
+  { id: 'vocabulary',   icon: FileText,     label: 'Vocabulary',                 color: 'text-cyan-400', bg: 'bg-cyan-500/10' },
+  { id: 'practice',     icon: Target,       label: 'Interactive Practice',       color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
   { id: 'speaking',     icon: Mic,          label: 'Speaking & Pronunciation',   color: 'text-pink-400', bg: 'bg-pink-500/10' },
   { id: 'writing',      icon: PenTool,      label: 'Writing Drills',             color: 'text-rose-400', bg: 'bg-rose-500/10' },
-  { id: 'test',         icon: Brain,        label: 'Final Mock Test (300 Qs)',   color: 'text-violet-400', bg: 'bg-violet-500/10' },
+  { id: 'test',         icon: Brain,        label: 'Final Mock Test',            color: 'text-violet-400', bg: 'bg-violet-500/10' },
 ];
 
 // ============================================================

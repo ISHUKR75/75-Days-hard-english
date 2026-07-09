@@ -1,0 +1,68 @@
+{
+  "day": 54,
+  "topic": "Comparative & Superlative Adjectives",
+  "keyPointsSummary": [
+    "Short adjectives (1 syllable): add -er/-est (tall -> taller -> tallest)",
+    "Long adjectives (2+ syllables): use more/most (beautiful -> more beautiful -> most beautiful)",
+    "Irregular forms: good -> better -> best, bad -> worse -> worst",
+    "Comparative compares two things; superlative compares three or more"
+  ],
+  "quickQuiz": [
+    {
+      "id": 1,
+      "hindi": "राम श्याम से लंबा है।",
+      "answer": "Ram is taller than Shyam."
+    },
+    {
+      "id": 2,
+      "hindi": "राम सबसे लंबा है।",
+      "answer": "Ram is the tallest."
+    },
+    {
+      "id": 3,
+      "hindi": "यह फिल्म उस फिल्म से बेहतर है।",
+      "answer": "This movie is better than that movie."
+    },
+    {
+      "id": 4,
+      "hindi": "यह सबसे अच्छी फिल्म है।",
+      "answer": "This is the best movie."
+    },
+    {
+      "id": 5,
+      "hindi": "यह किताब उससे ज्यादा दिलचस्प है।",
+      "answer": "This book is more interesting than that one."
+    },
+    {
+      "id": 6,
+      "hindi": "यह सबसे दिलचस्प किताब है।",
+      "answer": "This is the most interesting book."
+    },
+    {
+      "id": 7,
+      "hindi": "वह मुझसे तेज़ दौड़ता है।",
+      "answer": "He runs faster than me."
+    },
+    {
+      "id": 8,
+      "hindi": "वह सबसे तेज़ दौड़ता है।",
+      "answer": "He runs the fastest."
+    },
+    {
+      "id": 9,
+      "hindi": "आज का मौसम कल से खराब है।",
+      "answer": "Today's weather is worse than yesterday's."
+    },
+    {
+      "id": 10,
+      "hindi": "यह इस साल का सबसे खराब मौसम है।",
+      "answer": "This is the worst weather this year."
+    }
+  ],
+  "mustRememberRules": [
+    "Short adjectives (1 syllable): add -er/-est (tall -> taller -> tallest)",
+    "Long adjectives (2+ syllables): use more/most (beautiful -> more beautiful -> most beautiful)",
+    "Irregular forms: good -> better -> best, bad -> worse -> worst",
+    "Comparative compares two things; superlative compares three or more"
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "day": 55,
+  "topic": "Articles (A, An, The)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मुझे एक किताब चाहिए।",
+      "english": "I need a book.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"I need a book.\"",
+      "difficulty": "easy",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 2,
+      "hindi": "मुझे एक सेब चाहिए।",
+      "english": "I need an apple.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"I need an apple.\"",
+      "difficulty": "medium",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 3,
+      "hindi": "वह किताब मेज पर है।",
+      "english": "The book is on the table.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"The book is on the table.\"",
+      "difficulty": "hard",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 4,
+      "hindi": "सूरज पूरब से निकलता है।",
+      "english": "The sun rises in the east.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"The sun rises in the east.\"",
+      "difficulty": "easy",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 5,
+      "hindi": "मैंने एक कुत्ता देखा।",
+      "english": "I saw a dog.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"I saw a dog.\"",
+      "difficulty": "medium",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 6,
+      "hindi": "वह कुत्ता बहुत प्यारा है।",
+      "english": "The dog is very cute.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"The dog is very cute.\"",
+      "difficulty": "hard",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 7,
+      "hindi": "यह एक अच्छी idea है।",
+      "english": "This is a good idea.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"This is a good idea.\"",
+      "difficulty": "easy",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 8,
+      "hindi": "वह idea बहुत काम आई।",
+      "english": "That idea worked well.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"That idea worked well.\"",
+      "difficulty": "medium",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 9,
+      "hindi": "मुझे एक umbrella चाहिए।",
+      "english": "I need an umbrella.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"I need an umbrella.\"",
+      "difficulty": "hard",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 10,
+      "hindi": "ताजमहल भारत में है।",
+      "english": "The Taj Mahal is in India.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"The Taj Mahal is in India.\"",
+      "difficulty": "easy",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 11,
+      "hindi": "वह एक teacher है।",
+      "english": "She is a teacher.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"She is a teacher.\"",
+      "difficulty": "medium",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 12,
+      "hindi": "वह teacher बहुत अच्छी है।",
+      "english": "The teacher is very good.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"The teacher is very good.\"",
+      "difficulty": "hard",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 13,
+      "hindi": "मैंने एक hour इंतज़ार किया।",
+      "english": "I waited for an hour.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"I waited for an hour.\"",
+      "difficulty": "easy",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 14,
+      "hindi": "गंगा नदी बहुत पवित्र है।",
+      "english": "The Ganges river is very sacred.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"The Ganges river is very sacred.\"",
+      "difficulty": "medium",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 15,
+      "hindi": "उसने एक कार खरीदी।",
+      "english": "He bought a car.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"He bought a car.\"",
+      "difficulty": "hard",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 16,
+      "hindi": "वह कार लाल है।",
+      "english": "The car is red.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"The car is red.\"",
+      "difficulty": "easy",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 17,
+      "hindi": "मुझे एक honest दोस्त चाहिए।",
+      "english": "I need an honest friend.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"I need an honest friend.\"",
+      "difficulty": "medium",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 18,
+      "hindi": "हिमालय पहाड़ बहुत ऊँचे हैं।",
+      "english": "The Himalayas are very high.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"The Himalayas are very high.\"",
+      "difficulty": "hard",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 19,
+      "hindi": "यह एक अच्छा मौका है।",
+      "english": "This is a good opportunity.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"This is a good opportunity.\"",
+      "difficulty": "easy",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    },
+    {
+      "id": 20,
+      "hindi": "वह मौका फिर नहीं आएगा।",
+      "english": "That opportunity will not come again.",
+      "alternatives": [],
+      "hint": "Use the pattern: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "explanation": "Correct sentence: \"That opportunity will not come again.\"",
+      "difficulty": "medium",
+      "tags": [
+        "articles"
+      ],
+      "grammarRule": "Articles (A, An, The)",
+      "category": "Articles (A, An, The) practice"
+    }
+  ]
+}

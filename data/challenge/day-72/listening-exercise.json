@@ -1,0 +1,114 @@
+{
+  "day": 72,
+  "topic": "Paragraph Writing",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Health is real wealth.",
+      "hindiScript": "स्वास्थ्य ही असली धन है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "It makes us a better person.",
+        "Nature teaches us a lot.",
+        "Everything becomes green in the rain.",
+        "Health is real wealth."
+      ],
+      "answer": "Health is real wealth."
+    },
+    {
+      "id": 2,
+      "audioScript": "We should exercise daily.",
+      "hindiScript": "हमें रोज़ व्यायाम करना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We should make good use of time.",
+        "We should protect trees.",
+        "I like reading books a lot.",
+        "We should exercise daily."
+      ],
+      "answer": "We should exercise daily."
+    },
+    {
+      "id": 3,
+      "audioScript": "My mother is my best friend.",
+      "hindiScript": "मेरी माँ मेरी सबसे अच्छी दोस्त है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The one who wastes time regrets later.",
+        "India is a country of diversities.",
+        "Books are a treasure of knowledge.",
+        "My mother is my best friend."
+      ],
+      "answer": "My mother is my best friend."
+    },
+    {
+      "id": 4,
+      "audioScript": "She always supports me.",
+      "hindiScript": "वह हमेशा मेरा साथ देती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Health is real wealth.",
+        "There are many languages and cultures here.",
+        "My village is very beautiful.",
+        "She always supports me."
+      ],
+      "answer": "She always supports me."
+    },
+    {
+      "id": 5,
+      "audioScript": "Nature teaches us a lot.",
+      "hindiScript": "प्रकृति हमें बहुत कुछ सिखाती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We should exercise daily.",
+        "Hard work is the key to success.",
+        "There are green fields and clean air there.",
+        "Nature teaches us a lot."
+      ],
+      "answer": "Nature teaches us a lot."
+    },
+    {
+      "id": 6,
+      "audioScript": "We should protect trees.",
+      "hindiScript": "हमें पेड़ों की रक्षा करनी चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My mother is my best friend.",
+        "The one who works hard definitely succeeds.",
+        "Education is very important in life.",
+        "We should protect trees."
+      ],
+      "answer": "We should protect trees."
+    },
+    {
+      "id": 7,
+      "audioScript": "India is a country of diversities.",
+      "hindiScript": "भारत विविधताओं का देश है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She always supports me.",
+        "My favourite season is the rainy season.",
+        "It makes us a better person.",
+        "India is a country of diversities."
+      ],
+      "answer": "India is a country of diversities."
+    },
+    {
+      "id": 8,
+      "audioScript": "There are many languages and cultures here.",
+      "hindiScript": "यहाँ कई भाषाएँ और संस्कृतियाँ हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Nature teaches us a lot.",
+        "Everything becomes green in the rain.",
+        "We should make good use of time.",
+        "There are many languages and cultures here."
+      ],
+      "answer": "There are many languages and cultures here."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Health is real wealth. We should exercise daily. My mother is my best friend. She always supports me. Nature teaches us a lot.",
+    "hindiTranslation": "स्वास्थ्य ही असली धन है। हमें रोज़ व्यायाम करना चाहिए। मेरी माँ मेरी सबसे अच्छी दोस्त है। वह हमेशा मेरा साथ देती है। प्रकृति हमें बहुत कुछ सिखाती है।"
+  }
+}

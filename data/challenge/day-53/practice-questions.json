@@ -1,0 +1,287 @@
+{
+  "day": 53,
+  "topic": "Question Tags",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "तुम आ रहे हो, है ना?",
+      "english": "You are coming, aren't you?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"You are coming, aren't you?\"",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 2,
+      "hindi": "वह नहीं आया, आया ना?",
+      "english": "He didn't come, did he?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"He didn't come, did he?\"",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 3,
+      "hindi": "यह सुंदर है, है ना?",
+      "english": "This is beautiful, isn't it?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"This is beautiful, isn't it?\"",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 4,
+      "hindi": "तुम्हें यह पसंद नहीं है, है ना?",
+      "english": "You don't like this, do you?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"You don't like this, do you?\"",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 5,
+      "hindi": "वह अच्छा गाता है, है ना?",
+      "english": "He sings well, doesn't he?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"He sings well, doesn't he?\"",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 6,
+      "hindi": "हम मिलेंगे, ना?",
+      "english": "We will meet, won't we?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"We will meet, won't we?\"",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 7,
+      "hindi": "तुमने यह किया, किया ना?",
+      "english": "You did this, didn't you?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"You did this, didn't you?\"",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 8,
+      "hindi": "वह डॉक्टर है, है ना?",
+      "english": "She is a doctor, isn't she?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"She is a doctor, isn't she?\"",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 9,
+      "hindi": "तुम यह कर सकते हो, कर सकते हो ना?",
+      "english": "You can do this, can't you?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"You can do this, can't you?\"",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 10,
+      "hindi": "उसे यह पसंद है, है ना?",
+      "english": "She likes this, doesn't she?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"She likes this, doesn't she?\"",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 11,
+      "hindi": "तुम भूखे नहीं हो, हो ना?",
+      "english": "You are not hungry, are you?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"You are not hungry, are you?\"",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 12,
+      "hindi": "यह मुश्किल नहीं है, है ना?",
+      "english": "This is not difficult, is it?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"This is not difficult, is it?\"",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 13,
+      "hindi": "तुमने खाना खा लिया, लिया ना?",
+      "english": "You have eaten food, haven't you?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"You have eaten food, haven't you?\"",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 14,
+      "hindi": "वे आएंगे, आएंगे ना?",
+      "english": "They will come, won't they?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"They will come, won't they?\"",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 15,
+      "hindi": "मैं सही हूँ, हूँ ना?",
+      "english": "I am right, aren't I?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"I am right, aren't I?\"",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 16,
+      "hindi": "यह तुमने नहीं किया, किया ना?",
+      "english": "You didn't do this, did you?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"You didn't do this, did you?\"",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 17,
+      "hindi": "वह वहाँ था, था ना?",
+      "english": "He was there, wasn't he?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"He was there, wasn't he?\"",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 18,
+      "hindi": "तुम स्कूल जाते हो, जाते हो ना?",
+      "english": "You go to school, don't you?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"You go to school, don't you?\"",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 19,
+      "hindi": "वह जल्दी उठती है, उठती है ना?",
+      "english": "She wakes up early, doesn't she?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"She wakes up early, doesn't she?\"",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    },
+    {
+      "id": 20,
+      "hindi": "हमें जल्दी जाना चाहिए, चाहिए ना?",
+      "english": "We should leave early, shouldn't we?",
+      "alternatives": [],
+      "hint": "Use the pattern: Statement + comma + auxiliary verb (opposite polarity) + subject pronoun + ?",
+      "explanation": "Correct sentence: \"We should leave early, shouldn't we?\"",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Question Tags",
+      "category": "Question Tags practice"
+    }
+  ]
+}

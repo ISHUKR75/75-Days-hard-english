@@ -1,0 +1,107 @@
+{
+  "day": 54,
+  "topic": "Comparative & Superlative Adjectives",
+  "passage": {
+    "title": "A Day with Comparative & Superlative Adjectives",
+    "text": "Ram is taller than Shyam. Ram is the tallest. This movie is better than that movie. This is the best movie. This book is more interesting than that one. This is the most interesting book. He runs faster than me. He runs the fastest. Today's weather is worse than yesterday's. This is the worst weather this year.",
+    "hindiTranslation": "राम श्याम से लंबा है। राम सबसे लंबा है। यह फिल्म उस फिल्म से बेहतर है। यह सबसे अच्छी फिल्म है। यह किताब उससे ज्यादा दिलचस्प है। यह सबसे दिलचस्प किताब है। वह मुझसे तेज़ दौड़ता है। वह सबसे तेज़ दौड़ता है। आज का मौसम कल से खराब है। यह इस साल का सबसे खराब मौसम है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"Ram is taller than...\"?",
+      "options": [
+        "He runs the fastest.",
+        "This way is easier than that one.",
+        "Ram is the tallest.",
+        "Ram is taller than Shyam."
+      ],
+      "answer": "Ram is taller than Shyam.",
+      "explanation": "Stated in the passage: \"Ram is taller than Shyam.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"Ram is the tallest....\"?",
+      "options": [
+        "Today's weather is worse than yesterday's.",
+        "This is the easiest way.",
+        "This movie is better than that movie.",
+        "Ram is the tallest."
+      ],
+      "answer": "Ram is the tallest.",
+      "explanation": "Stated in the passage: \"Ram is the tallest.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"This movie is better...\"?",
+      "options": [
+        "This is the worst weather this year.",
+        "He is more hardworking than me.",
+        "This is the best movie.",
+        "This movie is better than that movie."
+      ],
+      "answer": "This movie is better than that movie.",
+      "explanation": "Stated in the passage: \"This movie is better than that movie.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"This is the best...\"?",
+      "options": [
+        "This car is more expensive than that one.",
+        "He is the most hardworking.",
+        "This book is more interesting than that one.",
+        "This is the best movie."
+      ],
+      "answer": "This is the best movie.",
+      "explanation": "Stated in the passage: \"This is the best movie.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"This book is more...\"?",
+      "options": [
+        "This is the most expensive car.",
+        "This problem is harder than that one.",
+        "This is the most interesting book.",
+        "This book is more interesting than that one."
+      ],
+      "answer": "This book is more interesting than that one.",
+      "explanation": "Stated in the passage: \"This book is more interesting than that one.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"This is the most...\"?",
+      "options": [
+        "He is smaller than him.",
+        "This is the hardest problem.",
+        "He runs faster than me.",
+        "This is the most interesting book."
+      ],
+      "answer": "This is the most interesting book.",
+      "explanation": "Stated in the passage: \"This is the most interesting book.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"He runs faster than...\"?",
+      "options": [
+        "He is the smallest.",
+        "Ram is taller than Shyam.",
+        "He runs the fastest.",
+        "He runs faster than me."
+      ],
+      "answer": "He runs faster than me.",
+      "explanation": "Stated in the passage: \"He runs faster than me.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"He runs the fastest....\"?",
+      "options": [
+        "This way is easier than that one.",
+        "Ram is the tallest.",
+        "Today's weather is worse than yesterday's.",
+        "He runs the fastest."
+      ],
+      "answer": "He runs the fastest.",
+      "explanation": "Stated in the passage: \"He runs the fastest.\""
+    }
+  ]
+}

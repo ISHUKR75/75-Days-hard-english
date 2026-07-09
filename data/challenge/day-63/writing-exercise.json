@@ -1,0 +1,46 @@
+{
+  "day": 63,
+  "topic": "Maths Vocabulary",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Maths Vocabulary.",
+      "hindiPrompt": "Maths Vocabulary का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "Adding two and three gives five. Subtracting four from ten leaves six. Multiplying three by four gives twelve. Dividing twenty by four gives five. This is an even number.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Maths Vocabulary.",
+      "hindiPrompt": "Maths Vocabulary का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Half is a fraction. He got ninety percent marks in the exam. Their average height is five feet. A triangle has three sides. All sides of a square are equal.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"वृत्त की कोई भुजा नहीं होती।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "A circle has no sides.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Dividing twenty by four gives five yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Dividing twenty by four gives five.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Maths Vocabulary.",
+      "hindiPrompt": "Maths Vocabulary का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "This angle is ninety degrees. The area of the room is twenty square metres. The perimeter of the garden is one hundred metres. Maths is my favourite subject.",
+      "wordLimit": 60
+    }
+  ]
+}

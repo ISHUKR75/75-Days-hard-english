@@ -1,0 +1,255 @@
+{
+  "day": 69,
+  "topic": "Application Writing",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "महोदय, मैं आपसे तीन दिन की छुट्टी की विनती करता हूँ।",
+      "options": [
+        "I need to change my city because of my family.",
+        "I am a student of this school.",
+        "I want leave because I am unwell.",
+        "Sir, I request three days of leave from you."
+      ],
+      "answer": "Sir, I request three days of leave from you.",
+      "explanation": "Correct translation: \"महोदय, मैं आपसे तीन दिन की छुट्टी की विनती करता हूँ।\" = \"Sir, I request three days of leave from you.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I want leave _____ I am unwell.",
+      "options": [
+        "for",
+        "is",
+        "leave",
+        "because"
+      ],
+      "answer": "because",
+      "explanation": "Full sentence: \"I want leave because I am unwell.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Please approve my leave yesterday.",
+      "options": [
+        "Please approve my leave yesterday.",
+        "Please approve my leave."
+      ],
+      "answer": "Please approve my leave.",
+      "explanation": "Correct sentence: \"Please approve my leave.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मैं इस पद के लिए आवेदन करना चाहता हूँ।",
+      "options": [
+        "I need a bonafide certificate.",
+        "I hope for your positive reply.",
+        "I have sufficient experience for this job.",
+        "I would like to apply for this position."
+      ],
+      "answer": "I would like to apply for this position.",
+      "explanation": "Correct translation: \"मैं इस पद के लिए आवेदन करना चाहता हूँ।\" = \"I would like to apply for this position.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I have sufficient _____ for this job.",
+      "options": [
+        "certificate",
+        "first",
+        "application",
+        "experience"
+      ],
+      "answer": "experience",
+      "explanation": "Full sentence: \"I have sufficient experience for this job.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Please accept my application yesterday.",
+      "options": [
+        "Please accept my application yesterday.",
+        "Please accept my application."
+      ],
+      "answer": "Please accept my application.",
+      "explanation": "Correct sentence: \"Please accept my application.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं स्थानांतरण के लिए आवेदन कर रहा हूँ।",
+      "options": [
+        "Yours sincerely.",
+        "Sir, I request three days of leave from you.",
+        "I need to change my city because of my family.",
+        "I am applying for a transfer."
+      ],
+      "answer": "I am applying for a transfer.",
+      "explanation": "Correct translation: \"मैं स्थानांतरण के लिए आवेदन कर रहा हूँ।\" = \"I am applying for a transfer.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I need to change my _____ because of my family.",
+      "options": [
+        "student",
+        "because",
+        "for",
+        "city"
+      ],
+      "answer": "city",
+      "explanation": "Full sentence: \"I need to change my city because of my family.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I am applying for a scholarship yesterday.",
+      "options": [
+        "I am applying for a scholarship yesterday.",
+        "I am applying for a scholarship."
+      ],
+      "answer": "I am applying for a scholarship.",
+      "explanation": "Correct sentence: \"I am applying for a scholarship.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मेरे अंक इस छात्रवृत्ति के लिए पर्याप्त हैं।",
+      "options": [
+        "Please approve this immediately.",
+        "I would like to apply for this position.",
+        "I need a bonafide certificate.",
+        "My marks are sufficient for this scholarship."
+      ],
+      "answer": "My marks are sufficient for this scholarship.",
+      "explanation": "Correct translation: \"मेरे अंक इस छात्रवृत्ति के लिए पर्याप्त हैं।\" = \"My marks are sufficient for this scholarship.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "I need _____ bonafide certificate.",
+      "options": [
+        "your",
+        "experience",
+        "certificate",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"I need a bonafide certificate.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I need this certificate to open a bank account yesterday.",
+      "options": [
+        "I need this certificate to open a bank account yesterday.",
+        "I need this certificate to open a bank account."
+      ],
+      "answer": "I need this certificate to open a bank account.",
+      "explanation": "Correct sentence: \"I need this certificate to open a bank account.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "सधन्यवाद, मैं आपकी शीघ्र प्रतिक्रिया की प्रतीक्षा करूँगा।",
+      "options": [
+        "I will be grateful for this opportunity.",
+        "I am applying for a transfer.",
+        "Yours sincerely.",
+        "Thank you, I will wait for your prompt response."
+      ],
+      "answer": "Thank you, I will wait for your prompt response.",
+      "explanation": "Correct translation: \"सधन्यवाद, मैं आपकी शीघ्र प्रतिक्रिया की प्रतीक्षा करूँगा।\" = \"Thank you, I will wait for your prompt response.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Yours _____",
+      "options": [
+        "three",
+        "change",
+        "student",
+        "sincerely"
+      ],
+      "answer": "sincerely",
+      "explanation": "Full sentence: \"Yours sincerely.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I am a student of this school yesterday.",
+      "options": [
+        "I am a student of this school yesterday.",
+        "I am a student of this school."
+      ],
+      "answer": "I am a student of this school.",
+      "explanation": "Correct sentence: \"I am a student of this school.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मेरा रोल नंबर पच्चीस है।",
+      "options": [
+        "Please approve my leave.",
+        "My marks are sufficient for this scholarship.",
+        "Please approve this immediately.",
+        "My roll number is twenty-five."
+      ],
+      "answer": "My roll number is twenty-five.",
+      "explanation": "Correct translation: \"मेरा रोल नंबर पच्चीस है।\" = \"My roll number is twenty-five.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Please approve _____ immediately.",
+      "options": [
+        "to",
+        "bonafide",
+        "your",
+        "this"
+      ],
+      "answer": "this",
+      "explanation": "Full sentence: \"Please approve this immediately.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I hope for your positive reply yesterday.",
+      "options": [
+        "I hope for your positive reply yesterday.",
+        "I hope for your positive reply."
+      ],
+      "answer": "I hope for your positive reply.",
+      "explanation": "Correct sentence: \"I hope for your positive reply.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह मेरा पहला आवेदन है।",
+      "options": [
+        "Please accept my application.",
+        "Thank you, I will wait for your prompt response.",
+        "I will be grateful for this opportunity.",
+        "This is my first application."
+      ],
+      "answer": "This is my first application.",
+      "explanation": "Correct translation: \"यह मेरा पहला आवेदन है।\" = \"This is my first application.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I will be _____ for this opportunity.",
+      "options": [
+        "for",
+        "sincerely",
+        "three",
+        "grateful"
+      ],
+      "answer": "grateful",
+      "explanation": "Full sentence: \"I will be grateful for this opportunity.\""
+    }
+  ]
+}

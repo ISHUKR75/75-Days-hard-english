@@ -1,0 +1,255 @@
+{
+  "day": 54,
+  "topic": "Comparative & Superlative Adjectives",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "राम श्याम से लंबा है।",
+      "options": [
+        "He runs the fastest.",
+        "This way is easier than that one.",
+        "Ram is the tallest.",
+        "Ram is taller than Shyam."
+      ],
+      "answer": "Ram is taller than Shyam.",
+      "explanation": "Correct translation: \"राम श्याम से लंबा है।\" = \"Ram is taller than Shyam.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Ram is _____ tallest.",
+      "options": [
+        "worse",
+        "easiest",
+        "better",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"Ram is the tallest.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "This movie are better than that movie.",
+      "options": [
+        "This movie are better than that movie.",
+        "This movie is better than that movie."
+      ],
+      "answer": "This movie is better than that movie.",
+      "explanation": "Correct sentence: \"This movie is better than that movie.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "यह सबसे अच्छी फिल्म है।",
+      "options": [
+        "This car is more expensive than that one.",
+        "He is the most hardworking.",
+        "This book is more interesting than that one.",
+        "This is the best movie."
+      ],
+      "answer": "This is the best movie.",
+      "explanation": "Correct translation: \"यह सबसे अच्छी फिल्म है।\" = \"This is the best movie.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "This book is more _____ than that one.",
+      "options": [
+        "most",
+        "harder",
+        "than",
+        "interesting"
+      ],
+      "answer": "interesting",
+      "explanation": "Full sentence: \"This book is more interesting than that one.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "This are the most interesting book.",
+      "options": [
+        "This are the most interesting book.",
+        "This is the most interesting book."
+      ],
+      "answer": "This is the most interesting book.",
+      "explanation": "Correct sentence: \"This is the most interesting book.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "वह मुझसे तेज़ दौड़ता है।",
+      "options": [
+        "He is the smallest.",
+        "Ram is taller than Shyam.",
+        "He runs the fastest.",
+        "He runs faster than me."
+      ],
+      "answer": "He runs faster than me.",
+      "explanation": "Correct translation: \"वह मुझसे तेज़ दौड़ता है।\" = \"He runs faster than me.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He runs _____ fastest.",
+      "options": [
+        "easier",
+        "tallest",
+        "worse",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"He runs the fastest.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Today's weather are worse than yesterday's.",
+      "options": [
+        "Today's weather are worse than yesterday's.",
+        "Today's weather is worse than yesterday's."
+      ],
+      "answer": "Today's weather is worse than yesterday's.",
+      "explanation": "Correct sentence: \"Today's weather is worse than yesterday's.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "यह इस साल का सबसे खराब मौसम है।",
+      "options": [
+        "He is more hardworking than me.",
+        "This is the best movie.",
+        "This car is more expensive than that one.",
+        "This is the worst weather this year."
+      ],
+      "answer": "This is the worst weather this year.",
+      "explanation": "Correct translation: \"यह इस साल का सबसे खराब मौसम है।\" = \"This is the worst weather this year.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "This car is more _____ than that one.",
+      "options": [
+        "most",
+        "more",
+        "harder",
+        "expensive"
+      ],
+      "answer": "expensive",
+      "explanation": "Full sentence: \"This car is more expensive than that one.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "This are the most expensive car.",
+      "options": [
+        "This are the most expensive car.",
+        "This is the most expensive car."
+      ],
+      "answer": "This is the most expensive car.",
+      "explanation": "Correct sentence: \"This is the most expensive car.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वह उससे छोटा है।",
+      "options": [
+        "This is the hardest problem.",
+        "He runs faster than me.",
+        "He is the smallest.",
+        "He is smaller than him."
+      ],
+      "answer": "He is smaller than him.",
+      "explanation": "Correct translation: \"वह उससे छोटा है।\" = \"He is smaller than him.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "He is _____ smallest.",
+      "options": [
+        "than",
+        "fastest",
+        "easier",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"He is the smallest.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "This way are easier than that one.",
+      "options": [
+        "This way are easier than that one.",
+        "This way is easier than that one."
+      ],
+      "answer": "This way is easier than that one.",
+      "explanation": "Correct sentence: \"This way is easier than that one.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "यह सबसे आसान रास्ता है।",
+      "options": [
+        "This movie is better than that movie.",
+        "This is the worst weather this year.",
+        "He is more hardworking than me.",
+        "This is the easiest way."
+      ],
+      "answer": "This is the easiest way.",
+      "explanation": "Correct translation: \"यह सबसे आसान रास्ता है।\" = \"This is the easiest way.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He is more _____ than me.",
+      "options": [
+        "best",
+        "more",
+        "most",
+        "hardworking"
+      ],
+      "answer": "hardworking",
+      "explanation": "Full sentence: \"He is more hardworking than me.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He are the most hardworking.",
+      "options": [
+        "He are the most hardworking.",
+        "He is the most hardworking."
+      ],
+      "answer": "He is the most hardworking.",
+      "explanation": "Correct sentence: \"He is the most hardworking.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह समस्या उससे कठिन है।",
+      "options": [
+        "This is the most interesting book.",
+        "He is smaller than him.",
+        "This is the hardest problem.",
+        "This problem is harder than that one."
+      ],
+      "answer": "This problem is harder than that one.",
+      "explanation": "Correct translation: \"यह समस्या उससे कठिन है।\" = \"This problem is harder than that one.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "This is _____ hardest problem.",
+      "options": [
+        "than",
+        "smallest",
+        "fastest",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"This is the hardest problem.\""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 53,
+  "topic": "Question Tags",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "You are not hungry, are you?",
+      "hindiScript": "तुम भूखे नहीं हो, हो ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is a doctor, isn't she?",
+        "I am right, aren't I?",
+        "He didn't come, did he?",
+        "You are not hungry, are you?"
+      ],
+      "answer": "You are not hungry, are you?"
+    },
+    {
+      "id": 2,
+      "audioScript": "This is not difficult, is it?",
+      "hindiScript": "यह मुश्किल नहीं है, है ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You can do this, can't you?",
+        "You didn't do this, did you?",
+        "This is beautiful, isn't it?",
+        "This is not difficult, is it?"
+      ],
+      "answer": "This is not difficult, is it?"
+    },
+    {
+      "id": 3,
+      "audioScript": "You have eaten food, haven't you?",
+      "hindiScript": "तुमने खाना खा लिया, लिया ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She likes this, doesn't she?",
+        "He was there, wasn't he?",
+        "You don't like this, do you?",
+        "You have eaten food, haven't you?"
+      ],
+      "answer": "You have eaten food, haven't you?"
+    },
+    {
+      "id": 4,
+      "audioScript": "They will come, won't they?",
+      "hindiScript": "वे आएंगे, आएंगे ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You are not hungry, are you?",
+        "You go to school, don't you?",
+        "He sings well, doesn't he?",
+        "They will come, won't they?"
+      ],
+      "answer": "They will come, won't they?"
+    },
+    {
+      "id": 5,
+      "audioScript": "I am right, aren't I?",
+      "hindiScript": "मैं सही हूँ, हूँ ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is not difficult, is it?",
+        "She wakes up early, doesn't she?",
+        "We will meet, won't we?",
+        "I am right, aren't I?"
+      ],
+      "answer": "I am right, aren't I?"
+    },
+    {
+      "id": 6,
+      "audioScript": "You didn't do this, did you?",
+      "hindiScript": "यह तुमने नहीं किया, किया ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You have eaten food, haven't you?",
+        "We should leave early, shouldn't we?",
+        "You did this, didn't you?",
+        "You didn't do this, did you?"
+      ],
+      "answer": "You didn't do this, did you?"
+    },
+    {
+      "id": 7,
+      "audioScript": "He was there, wasn't he?",
+      "hindiScript": "वह वहाँ था, था ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They will come, won't they?",
+        "You are coming, aren't you?",
+        "She is a doctor, isn't she?",
+        "He was there, wasn't he?"
+      ],
+      "answer": "He was there, wasn't he?"
+    },
+    {
+      "id": 8,
+      "audioScript": "You go to school, don't you?",
+      "hindiScript": "तुम स्कूल जाते हो, जाते हो ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am right, aren't I?",
+        "He didn't come, did he?",
+        "You can do this, can't you?",
+        "You go to school, don't you?"
+      ],
+      "answer": "You go to school, don't you?"
+    }
+  ],
+  "dictationPassage": {
+    "text": "You are not hungry, are you? This is not difficult, is it? You have eaten food, haven't you? They will come, won't they? I am right, aren't I?",
+    "hindiTranslation": "तुम भूखे नहीं हो, हो ना? यह मुश्किल नहीं है, है ना? तुमने खाना खा लिया, लिया ना? वे आएंगे, आएंगे ना? मैं सही हूँ, हूँ ना?"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "day": 64,
+  "topic": "Body & Diseases Vocabulary",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He has a high fever.",
+      "hindiScript": "उसे तेज़ बुखार है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My stomach is aching.",
+        "He has diabetes.",
+        "Her eyes are very beautiful.",
+        "He has a high fever."
+      ],
+      "answer": "He has a high fever."
+    },
+    {
+      "id": 2,
+      "audioScript": "I have caught a cold.",
+      "hindiScript": "मुझे जुकाम हो गया है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have back pain.",
+        "Malaria spreads from mosquitoes.",
+        "My ear is hurting.",
+        "I have caught a cold."
+      ],
+      "answer": "I have caught a cold."
+    },
+    {
+      "id": 3,
+      "audioScript": "He is coughing.",
+      "hindiScript": "उसे खांसी आ रही है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have a sore throat.",
+        "I am allergic to dust.",
+        "His nose is running.",
+        "He is coughing."
+      ],
+      "answer": "He is coughing."
+    },
+    {
+      "id": 4,
+      "audioScript": "I am having a headache.",
+      "hindiScript": "मुझे सिरदर्द हो रहा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He has a high fever.",
+        "He has an infection.",
+        "My hand got burnt.",
+        "I am having a headache."
+      ],
+      "answer": "I am having a headache."
+    },
+    {
+      "id": 5,
+      "audioScript": "He has diabetes.",
+      "hindiScript": "उसे मधुमेह है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have caught a cold.",
+        "The doctor gave medicine.",
+        "His leg is broken.",
+        "He has diabetes."
+      ],
+      "answer": "He has diabetes."
+    },
+    {
+      "id": 6,
+      "audioScript": "Malaria spreads from mosquitoes.",
+      "hindiScript": "मलेरिया मच्छरों से फैलता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He is coughing.",
+        "Exercise to stay healthy.",
+        "He has a very kind heart.",
+        "Malaria spreads from mosquitoes."
+      ],
+      "answer": "Malaria spreads from mosquitoes."
+    },
+    {
+      "id": 7,
+      "audioScript": "I am allergic to dust.",
+      "hindiScript": "मुझे धूल से एलर्जी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am having a headache.",
+        "I have a headache.",
+        "My stomach is aching.",
+        "I am allergic to dust."
+      ],
+      "answer": "I am allergic to dust."
+    },
+    {
+      "id": 8,
+      "audioScript": "He has an infection.",
+      "hindiScript": "उसे संक्रमण हो गया है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He has diabetes.",
+        "Her eyes are very beautiful.",
+        "I have back pain.",
+        "He has an infection."
+      ],
+      "answer": "He has an infection."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He has a high fever. I have caught a cold. He is coughing. I am having a headache. He has diabetes.",
+    "hindiTranslation": "उसे तेज़ बुखार है। मुझे जुकाम हो गया है। उसे खांसी आ रही है। मुझे सिरदर्द हो रहा है। उसे मधुमेह है।"
+  }
+}

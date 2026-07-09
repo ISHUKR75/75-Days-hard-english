@@ -1,0 +1,114 @@
+{
+  "day": 62,
+  "topic": "Flowers & Fruits Vocabulary",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Apple is good for health.",
+      "hindiScript": "सेब सेहत के लिए अच्छा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The hibiscus flower is medicinal.",
+        "Papaya is good for digestion.",
+        "The lotus grows in water.",
+        "Apple is good for health."
+      ],
+      "answer": "Apple is good for health."
+    },
+    {
+      "id": 2,
+      "audioScript": "Orange contains vitamin C.",
+      "hindiScript": "संतरे में विटामिन सी होता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Mango is a summer fruit.",
+        "Guava is a cheap and nutritious fruit.",
+        "The sunflower turns towards the sun.",
+        "Orange contains vitamin C."
+      ],
+      "answer": "Orange contains vitamin C."
+    },
+    {
+      "id": 3,
+      "audioScript": "Grapes are small and sweet.",
+      "hindiScript": "अंगूर छोटे और मीठे होते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Banana is full of energy.",
+        "I like a garden of flowers.",
+        "The jasmine's fragrance is very nice.",
+        "Grapes are small and sweet."
+      ],
+      "answer": "Grapes are small and sweet."
+    },
+    {
+      "id": 4,
+      "audioScript": "Watermelon gives coolness in summer.",
+      "hindiScript": "तरबूज गर्मियों में ठंडक देता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Apple is good for health.",
+        "Fresh fruits are available in the market.",
+        "Marigold flowers are used in worship.",
+        "Watermelon gives coolness in summer."
+      ],
+      "answer": "Watermelon gives coolness in summer."
+    },
+    {
+      "id": 5,
+      "audioScript": "Papaya is good for digestion.",
+      "hindiScript": "पपीता पाचन के लिए अच्छा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Orange contains vitamin C.",
+        "She eats fruit every morning.",
+        "The lily is white in colour.",
+        "Papaya is good for digestion."
+      ],
+      "answer": "Papaya is good for digestion."
+    },
+    {
+      "id": 6,
+      "audioScript": "Guava is a cheap and nutritious fruit.",
+      "hindiScript": "अमरूद सस्ता और पौष्टिक फल है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Grapes are small and sweet.",
+        "This flower is very fragrant.",
+        "Tulips bloom in spring.",
+        "Guava is a cheap and nutritious fruit."
+      ],
+      "answer": "Guava is a cheap and nutritious fruit."
+    },
+    {
+      "id": 7,
+      "audioScript": "I like a garden of flowers.",
+      "hindiScript": "मुझे फूलों का बगीचा पसंद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Watermelon gives coolness in summer.",
+        "The rose flower is red.",
+        "The hibiscus flower is medicinal.",
+        "I like a garden of flowers."
+      ],
+      "answer": "I like a garden of flowers."
+    },
+    {
+      "id": 8,
+      "audioScript": "Fresh fruits are available in the market.",
+      "hindiScript": "बाजार में ताजे फल मिलते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Papaya is good for digestion.",
+        "The lotus grows in water.",
+        "Mango is a summer fruit.",
+        "Fresh fruits are available in the market."
+      ],
+      "answer": "Fresh fruits are available in the market."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Apple is good for health. Orange contains vitamin C. Grapes are small and sweet. Watermelon gives coolness in summer. Papaya is good for digestion.",
+    "hindiTranslation": "सेब सेहत के लिए अच्छा है। संतरे में विटामिन सी होता है। अंगूर छोटे और मीठे होते हैं। तरबूज गर्मियों में ठंडक देता है। पपीता पाचन के लिए अच्छा है।"
+  }
+}

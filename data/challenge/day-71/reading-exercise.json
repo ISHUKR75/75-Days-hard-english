@@ -1,0 +1,107 @@
+{
+  "day": 71,
+  "topic": "E-mail Writing",
+  "passage": {
+    "title": "A Day with E-mail Writing",
+    "text": "Dear Sir, thank you for your email. I will not be able to attend this meeting. Please send me the report. I will reply soon. This email is for important information. Please check the attachment. I need your help. Thanks and regards. I am working on this project. Please give this priority.",
+    "hindiTranslation": "प्रिय सर, आपके ईमेल के लिए धन्यवाद। मैं इस मीटिंग में शामिल नहीं हो पाऊँगा। कृपया मुझे रिपोर्ट भेजें। मैं जल्द ही जवाब दूँगा। यह ईमेल महत्वपूर्ण जानकारी के लिए है। कृपया अटैचमेंट देखें। मुझे आपकी सहायता चाहिए। धन्यवाद और शुभकामनाएं। मैं इस प्रोजेक्ट पर काम कर रहा हूँ। कृपया इसे प्राथमिकता दें।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"Dear Sir, thank you...\"?",
+      "options": [
+        "Thanks and regards.",
+        "I need to know the time of the meeting.",
+        "I will not be able to attend this meeting.",
+        "Dear Sir, thank you for your email."
+      ],
+      "answer": "Dear Sir, thank you for your email.",
+      "explanation": "Stated in the passage: \"Dear Sir, thank you for your email.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I will not be...\"?",
+      "options": [
+        "I am working on this project.",
+        "Please schedule a conference call.",
+        "Please send me the report.",
+        "I will not be able to attend this meeting."
+      ],
+      "answer": "I will not be able to attend this meeting.",
+      "explanation": "Stated in the passage: \"I will not be able to attend this meeting.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Please send me the...\"?",
+      "options": [
+        "Please give this priority.",
+        "I am on leave this week.",
+        "I will reply soon.",
+        "Please send me the report."
+      ],
+      "answer": "Please send me the report.",
+      "explanation": "Stated in the passage: \"Please send me the report.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I will reply soon....\"?",
+      "options": [
+        "I have read your message.",
+        "Please take quick action on this matter.",
+        "This email is for important information.",
+        "I will reply soon."
+      ],
+      "answer": "I will reply soon.",
+      "explanation": "Stated in the passage: \"I will reply soon.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"This email is for...\"?",
+      "options": [
+        "I will reply by tomorrow.",
+        "Regards, Anita Verma.",
+        "Please check the attachment.",
+        "This email is for important information."
+      ],
+      "answer": "This email is for important information.",
+      "explanation": "Stated in the passage: \"This email is for important information.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Please check the attachment....\"?",
+      "options": [
+        "This email was sent by mistake.",
+        "I hope you find this email helpful.",
+        "I need your help.",
+        "Please check the attachment."
+      ],
+      "answer": "Please check the attachment.",
+      "explanation": "Stated in the passage: \"Please check the attachment.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I need your help....\"?",
+      "options": [
+        "Please ignore this.",
+        "Dear Sir, thank you for your email.",
+        "Thanks and regards.",
+        "I need your help."
+      ],
+      "answer": "I need your help.",
+      "explanation": "Stated in the passage: \"I need your help.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"Thanks and regards....\"?",
+      "options": [
+        "I need to know the time of the meeting.",
+        "I will not be able to attend this meeting.",
+        "I am working on this project.",
+        "Thanks and regards."
+      ],
+      "answer": "Thanks and regards.",
+      "explanation": "Stated in the passage: \"Thanks and regards.\""
+    }
+  ]
+}

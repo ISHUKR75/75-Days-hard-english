@@ -1,0 +1,25 @@
+{
+  "title": "75 Days Hard English Challenge",
+  "hindiTitle": "75 दिन कठिन अंग्रेज़ी चुनौती",
+  "totalDays": 75,
+  "startLevel": "A0 (Absolute Beginner)",
+  "endLevel": "B2 (Professional Fluency)",
+  "description": "A structured 75-day journey from zero English to confident, professional, error-free speaking — covering grammar, vocabulary, pronunciation, speaking, writing, listening and reading every single day.",
+  "hindiDescription": "शून्य अंग्रेज़ी से आत्मविश्वास से भरी, पेशेवर और त्रुटि-मुक्त अंग्रेज़ी बोलने तक की 75 दिन की संरचित यात्रा — जिसमें हर दिन grammar, vocabulary, pronunciation, speaking, writing, listening और reading शामिल है।",
+  "phases": [
+    { "phase": 1, "title": "Foundations", "days": "1-10", "focus": "Basic sentence structure, be-verbs, pronouns" },
+    { "phase": 2, "title": "Modal Verbs & Wishes", "days": "11-20", "focus": "Want, let, would like to, can, should, may, must" },
+    { "phase": 3, "title": "Advanced Modals", "days": "21-30", "focus": "Used to, could, perfect modals, will/shall/would" },
+    { "phase": 4, "title": "Tenses & Prepositions", "days": "31-40", "focus": "All tenses, prepositions, has to/have to" },
+    { "phase": 5, "title": "Semi-Modals & Structures", "days": "41-50", "focus": "Going to, about to, need to, conjunctions, passive voice" },
+    { "phase": 6, "title": "Reported Speech & Vocabulary", "days": "51-68", "focus": "Reported speech, comparatives, conditionals, vocabulary categories" },
+    { "phase": 7, "title": "Writing Mastery", "days": "69-73", "focus": "Applications, letters, emails, paragraphs, notices" },
+    { "phase": 8, "title": "Final Revision", "days": "74-75", "focus": "Complete revision and final mock test" }
+  ],
+  "dailyCommitment": "1.5 - 2.5 hours per day",
+  "xpPerDay": 200,
+  "coinsPerDay": 30,
+  "certificateOnCompletion": true,
+  "lastUpdated": "2026-07-09",
+  "version": "1.0"
+}

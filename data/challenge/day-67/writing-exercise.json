@@ -1,0 +1,46 @@
+{
+  "day": 67,
+  "topic": "Birds & Astrology Vocabulary",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Birds & Astrology Vocabulary.",
+      "hindiPrompt": "Birds & Astrology Vocabulary का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "The parrot is green in colour. The sparrow is sitting on the roof. The peacock is India's national bird. The crow makes a very loud sound. The pigeon is a symbol of peace.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Birds & Astrology Vocabulary.",
+      "hindiPrompt": "Birds & Astrology Vocabulary का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "The eagle flies very high. The owl stays awake at night. The cuckoo sings sweetly. The swan is swimming in the lake. The hen lays eggs.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"उसने अपनी राशि जांची।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "She checked her horoscope.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"The crow makes a very loud sound yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "The crow makes a very loud sound.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Birds & Astrology Vocabulary.",
+      "hindiPrompt": "Birds & Astrology Vocabulary का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "The stars were clearly visible in the sky tonight. This planet is bigger than Earth. The astrologer told the future. His prediction came true.",
+      "wordLimit": 60
+    }
+  ]
+}

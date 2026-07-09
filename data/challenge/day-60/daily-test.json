@@ -1,0 +1,255 @@
+{
+  "day": 60,
+  "topic": "Revision of Days 51-59",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "उसने कहा कि वह थका हुआ था।",
+      "options": [
+        "If you work hard, you will succeed.",
+        "He told me to do this work.",
+        "She asked where I lived.",
+        "He said that he was tired."
+      ],
+      "answer": "He said that he was tired.",
+      "explanation": "Correct translation: \"उसने कहा कि वह थका हुआ था।\" = \"He said that he was tired.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "She asked _____ I lived.",
+      "options": [
+        "money",
+        "doesn't",
+        "aren't",
+        "where"
+      ],
+      "answer": "where",
+      "explanation": "Full sentence: \"She asked where I lived.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "You is coming, aren't you?",
+      "options": [
+        "You is coming, aren't you?",
+        "You are coming, aren't you?"
+      ],
+      "answer": "You are coming, aren't you?",
+      "explanation": "Correct sentence: \"You are coming, aren't you?\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "राम सबसे लंबा है।",
+      "options": [
+        "I have been living here for two years.",
+        "The teacher is very good.",
+        "This is the most interesting book.",
+        "Ram is the tallest."
+      ],
+      "answer": "Ram is the tallest.",
+      "explanation": "Correct translation: \"राम सबसे लंबा है।\" = \"Ram is the tallest.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "This is the _____ interesting book.",
+      "options": [
+        "living",
+        "early",
+        "book",
+        "most"
+      ],
+      "answer": "most",
+      "explanation": "Full sentence: \"This is the most interesting book.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I need a book yesterday.",
+      "options": [
+        "I need a book yesterday.",
+        "I need a book."
+      ],
+      "answer": "I need a book.",
+      "explanation": "Correct sentence: \"I need a book.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "सूरज पूरब से निकलता है।",
+      "options": [
+        "If only I had studied earlier.",
+        "He said that he was tired.",
+        "If you work hard, you will succeed.",
+        "The sun rises in the east."
+      ],
+      "answer": "The sun rises in the east.",
+      "explanation": "Correct translation: \"सूरज पूरब से निकलता है।\" = \"The sun rises in the east.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "If you work _____ you will succeed.",
+      "options": [
+        "to",
+        "I",
+        "money",
+        "hard"
+      ],
+      "answer": "hard",
+      "explanation": "Full sentence: \"If you work hard, you will succeed.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "If I had money, I will buy this house.",
+      "options": [
+        "If I had money, I will buy this house.",
+        "If I had money, I would buy this house."
+      ],
+      "answer": "If I had money, I would buy this house.",
+      "explanation": "Correct sentence: \"If I had money, I would buy this house.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "अगर मैंने मेहनत की होती, तो मैं पास हो जाता।",
+      "options": [
+        "This movie is better than that movie.",
+        "Ram is the tallest.",
+        "I have been living here for two years.",
+        "If I had worked hard, I would have passed."
+      ],
+      "answer": "If I had worked hard, I would have passed.",
+      "explanation": "Correct translation: \"अगर मैंने मेहनत की होती, तो मैं पास हो जाता।\" = \"If I had worked hard, I would have passed.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "I have been living _____ for two years.",
+      "options": [
+        "very",
+        "most",
+        "living",
+        "here"
+      ],
+      "answer": "here",
+      "explanation": "Full sentence: \"I have been living here for two years.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I has been living here since 2020.",
+      "options": [
+        "I has been living here since 2020.",
+        "I have been living here since 2020."
+      ],
+      "answer": "I have been living here since 2020.",
+      "explanation": "Correct sentence: \"I have been living here since 2020.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मुझे काश मेरे पास ज़्यादा पैसे होते।",
+      "options": [
+        "I wish I knew this language.",
+        "The sun rises in the east.",
+        "If only I had studied earlier.",
+        "I wish I had more money."
+      ],
+      "answer": "I wish I had more money.",
+      "explanation": "Correct translation: \"मुझे काश मेरे पास ज़्यादा पैसे होते।\" = \"I wish I had more money.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "If only I _____ studied earlier.",
+      "options": [
+        "he",
+        "hard",
+        "to",
+        "had"
+      ],
+      "answer": "had",
+      "explanation": "Full sentence: \"If only I had studied earlier.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "He told me to do this work yesterday.",
+      "options": [
+        "He told me to do this work yesterday.",
+        "He told me to do this work."
+      ],
+      "answer": "He told me to do this work.",
+      "explanation": "Correct sentence: \"He told me to do this work.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह अच्छा गाता है, है ना?",
+      "options": [
+        "You are coming, aren't you?",
+        "If I had worked hard, I would have passed.",
+        "This movie is better than that movie.",
+        "He sings well, doesn't he?"
+      ],
+      "answer": "He sings well, doesn't he?",
+      "explanation": "Correct translation: \"वह अच्छा गाता है, है ना?\" = \"He sings well, doesn't he?\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "This movie is _____ than that movie.",
+      "options": [
+        "tallest",
+        "living",
+        "very",
+        "better"
+      ],
+      "answer": "better",
+      "explanation": "Full sentence: \"This movie is better than that movie.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "The teacher are very good.",
+      "options": [
+        "The teacher are very good.",
+        "The teacher is very good."
+      ],
+      "answer": "The teacher is very good.",
+      "explanation": "Correct sentence: \"The teacher is very good.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "अगर वह जल्दी आया, तो हम शुरू करेंगे।",
+      "options": [
+        "I need a book.",
+        "I wish I had more money.",
+        "I wish I knew this language.",
+        "If he comes early, we will start."
+      ],
+      "answer": "If he comes early, we will start.",
+      "explanation": "Correct translation: \"अगर वह जल्दी आया, तो हम शुरू करेंगे।\" = \"If he comes early, we will start.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I wish I _____ this language.",
+      "options": [
+        "in",
+        "had",
+        "he",
+        "knew"
+      ],
+      "answer": "knew",
+      "explanation": "Full sentence: \"I wish I knew this language.\""
+    }
+  ]
+}

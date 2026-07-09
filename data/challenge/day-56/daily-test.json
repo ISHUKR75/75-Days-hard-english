@@ -1,0 +1,255 @@
+{
+  "day": 56,
+  "topic": "If Clauses / Conditionals Part 1 — Zero & First Conditional",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "अगर पानी 100 डिग्री तक गर्म होता है, तो वह उबलता है।",
+      "options": [
+        "If you eat this, you will feel good.",
+        "If you don't understand this, ask.",
+        "If you heat ice, it melts.",
+        "If water heats to 100 degrees, it boils."
+      ],
+      "answer": "If water heats to 100 degrees, it boils.",
+      "explanation": "Correct translation: \"अगर पानी 100 डिग्री तक गर्म होता है, तो वह उबलता है।\" = \"If water heats to 100 degrees, it boils.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "If you heat _____ it melts.",
+      "options": [
+        "help",
+        "comes",
+        "time",
+        "ice"
+      ],
+      "answer": "ice",
+      "explanation": "Full sentence: \"If you heat ice, it melts.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "If I get time, I will come yesterday.",
+      "options": [
+        "If I get time, I will come yesterday.",
+        "If I get time, I will come."
+      ],
+      "answer": "If I get time, I will come.",
+      "explanation": "Correct sentence: \"If I get time, I will come.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "अगर बारिश हुई, तो हम घर पर रहेंगे।",
+      "options": [
+        "If you go out in summer, you sweat.",
+        "If the electricity goes off, the room becomes dark.",
+        "If you work hard, you will succeed.",
+        "If it rains, we will stay home."
+      ],
+      "answer": "If it rains, we will stay home.",
+      "explanation": "Correct translation: \"अगर बारिश हुई, तो हम घर पर रहेंगे।\" = \"If it rains, we will stay home.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "If you work _____ you will succeed.",
+      "options": [
+        "this",
+        "you",
+        "early",
+        "hard"
+      ],
+      "answer": "hard",
+      "explanation": "Full sentence: \"If you work hard, you will succeed.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "If he comes early, we will start yesterday.",
+      "options": [
+        "If he comes early, we will start yesterday.",
+        "If he comes early, we will start."
+      ],
+      "answer": "If he comes early, we will start.",
+      "explanation": "Correct sentence: \"If he comes early, we will start.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "अगर सूरज निकलता है, तो दिन गर्म होता है।",
+      "options": [
+        "If you sleep early, you will wake up early.",
+        "If water heats to 100 degrees, it boils.",
+        "If you eat this, you will feel good.",
+        "If the sun comes out, the day is warm."
+      ],
+      "answer": "If the sun comes out, the day is warm.",
+      "explanation": "Correct translation: \"अगर सूरज निकलता है, तो दिन गर्म होता है।\" = \"If the sun comes out, the day is warm.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "If you eat this, _____ will feel good.",
+      "options": [
+        "understand",
+        "ice",
+        "help",
+        "you"
+      ],
+      "answer": "you",
+      "explanation": "Full sentence: \"If you eat this, you will feel good.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "If you need help, tell me yesterday.",
+      "options": [
+        "If you need help, tell me yesterday.",
+        "If you need help, tell me."
+      ],
+      "answer": "If you need help, tell me.",
+      "explanation": "Correct sentence: \"If you need help, tell me.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "अगर वह नहीं आया, तो हम शुरू करेंगे।",
+      "options": [
+        "If you do this, I will be happy.",
+        "If it rains, we will stay home.",
+        "If you go out in summer, you sweat.",
+        "If he doesn't come, we will start."
+      ],
+      "answer": "If he doesn't come, we will start.",
+      "explanation": "Correct translation: \"अगर वह नहीं आया, तो हम शुरू करेंगे।\" = \"If he doesn't come, we will start.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "If you go out _____ summer, you sweat.",
+      "options": [
+        "goes",
+        "hard",
+        "this",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"If you go out in summer, you sweat.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "If I pass this exam, I will be happy yesterday.",
+      "options": [
+        "If I pass this exam, I will be happy yesterday.",
+        "If I pass this exam, I will be happy."
+      ],
+      "answer": "If I pass this exam, I will be happy.",
+      "explanation": "Correct sentence: \"If I pass this exam, I will be happy.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "अगर पानी नहीं मिलेगा, तो पौधे मर जाएंगे।",
+      "options": [
+        "If I get a chance, I will go abroad.",
+        "If the sun comes out, the day is warm.",
+        "If you sleep early, you will wake up early.",
+        "If plants don't get water, they die."
+      ],
+      "answer": "If plants don't get water, they die.",
+      "explanation": "Correct translation: \"अगर पानी नहीं मिलेगा, तो पौधे मर जाएंगे।\" = \"If plants don't get water, they die.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "If you sleep early, _____ will wake up early.",
+      "options": [
+        "to",
+        "this",
+        "understand",
+        "you"
+      ],
+      "answer": "you",
+      "explanation": "Full sentence: \"If you sleep early, you will wake up early.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "If you don't understand this, ask yesterday.",
+      "options": [
+        "If you don't understand this, ask yesterday.",
+        "If you don't understand this, ask."
+      ],
+      "answer": "If you don't understand this, ask.",
+      "explanation": "Correct sentence: \"If you don't understand this, ask.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "अगर धूप निकलती है, तो बर्फ पिघलती है।",
+      "options": [
+        "If I get time, I will come.",
+        "If he doesn't come, we will start.",
+        "If you do this, I will be happy.",
+        "If the sun comes out, snow melts."
+      ],
+      "answer": "If the sun comes out, snow melts.",
+      "explanation": "Correct translation: \"अगर धूप निकलती है, तो बर्फ पिघलती है।\" = \"If the sun comes out, snow melts.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "If you do this, _____ will be happy.",
+      "options": [
+        "we",
+        "out",
+        "goes",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "Full sentence: \"If you do this, I will be happy.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "If the electricity goes off, the room becomes dark yesterday.",
+      "options": [
+        "If the electricity goes off, the room becomes dark yesterday.",
+        "If the electricity goes off, the room becomes dark."
+      ],
+      "answer": "If the electricity goes off, the room becomes dark.",
+      "explanation": "Correct sentence: \"If the electricity goes off, the room becomes dark.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "अगर तुम practice करोगे, तो बेहतर बनोगे।",
+      "options": [
+        "If he comes early, we will start.",
+        "If plants don't get water, they die.",
+        "If I get a chance, I will go abroad.",
+        "If you practice, you will get better."
+      ],
+      "answer": "If you practice, you will get better.",
+      "explanation": "Correct translation: \"अगर तुम practice करोगे, तो बेहतर बनोगे।\" = \"If you practice, you will get better.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "If I get a _____ I will go abroad.",
+      "options": [
+        "comes",
+        "early",
+        "to",
+        "chance"
+      ],
+      "answer": "chance",
+      "explanation": "Full sentence: \"If I get a chance, I will go abroad.\""
+    }
+  ]
+}

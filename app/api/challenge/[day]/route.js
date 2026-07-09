@@ -3,7 +3,8 @@ import fs from 'fs';
 import path from 'path';
 
 export async function GET(request, { params }) {
-  const day = params.day;
+  const resolvedParams = await params;
+  const day = resolvedParams.day;
   
   try {
     const filePath = path.join(process.cwd(), 'data', 'days', `day_${day}.json`);

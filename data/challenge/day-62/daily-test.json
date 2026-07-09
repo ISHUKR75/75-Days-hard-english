@@ -1,0 +1,255 @@
+{
+  "day": 62,
+  "topic": "Flowers & Fruits Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "गुलाब का फूल लाल है।",
+      "options": [
+        "The hibiscus flower is medicinal.",
+        "Papaya is good for digestion.",
+        "The lotus grows in water.",
+        "The rose flower is red."
+      ],
+      "answer": "The rose flower is red.",
+      "explanation": "Correct translation: \"गुलाब का फूल लाल है।\" = \"The rose flower is red.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "The lotus _____ in water.",
+      "options": [
+        "summer",
+        "cheap",
+        "towards",
+        "grows"
+      ],
+      "answer": "grows",
+      "explanation": "Full sentence: \"The lotus grows in water.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "The sunflower turns towards the sun yesterday.",
+      "options": [
+        "The sunflower turns towards the sun yesterday.",
+        "The sunflower turns towards the sun."
+      ],
+      "answer": "The sunflower turns towards the sun.",
+      "explanation": "Correct sentence: \"The sunflower turns towards the sun.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "चमेली की खुशबू बहुत अच्छी है।",
+      "options": [
+        "Apple is good for health.",
+        "Fresh fruits are available in the market.",
+        "Marigold flowers are used in worship.",
+        "The jasmine's fragrance is very nice."
+      ],
+      "answer": "The jasmine's fragrance is very nice.",
+      "explanation": "Correct translation: \"चमेली की खुशबू बहुत अच्छी है।\" = \"The jasmine's fragrance is very nice.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Marigold flowers are _____ in worship.",
+      "options": [
+        "C",
+        "every",
+        "white",
+        "used"
+      ],
+      "answer": "used",
+      "explanation": "Full sentence: \"Marigold flowers are used in worship.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "The lily are white in colour.",
+      "options": [
+        "The lily are white in colour.",
+        "The lily is white in colour."
+      ],
+      "answer": "The lily is white in colour.",
+      "explanation": "Correct sentence: \"The lily is white in colour.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "ट्यूलिप वसंत में खिलते हैं।",
+      "options": [
+        "Watermelon gives coolness in summer.",
+        "The rose flower is red.",
+        "The hibiscus flower is medicinal.",
+        "Tulips bloom in spring."
+      ],
+      "answer": "Tulips bloom in spring.",
+      "explanation": "Correct translation: \"ट्यूलिप वसंत में खिलते हैं।\" = \"Tulips bloom in spring.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "The hibiscus _____ is medicinal.",
+      "options": [
+        "for",
+        "in",
+        "summer",
+        "flower"
+      ],
+      "answer": "flower",
+      "explanation": "Full sentence: \"The hibiscus flower is medicinal.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Mango are a summer fruit.",
+      "options": [
+        "Mango are a summer fruit.",
+        "Mango is a summer fruit."
+      ],
+      "answer": "Mango is a summer fruit.",
+      "explanation": "Correct sentence: \"Mango is a summer fruit.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "केला ऊर्जा से भरपूर होता है।",
+      "options": [
+        "I like a garden of flowers.",
+        "The jasmine's fragrance is very nice.",
+        "Apple is good for health.",
+        "Banana is full of energy."
+      ],
+      "answer": "Banana is full of energy.",
+      "explanation": "Correct translation: \"केला ऊर्जा से भरपूर होता है।\" = \"Banana is full of energy.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Apple is _____ for health.",
+      "options": [
+        "available",
+        "used",
+        "C",
+        "good"
+      ],
+      "answer": "good",
+      "explanation": "Full sentence: \"Apple is good for health.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Orange contains vitamin C yesterday.",
+      "options": [
+        "Orange contains vitamin C yesterday.",
+        "Orange contains vitamin C."
+      ],
+      "answer": "Orange contains vitamin C.",
+      "explanation": "Correct sentence: \"Orange contains vitamin C.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "अंगूर छोटे और मीठे होते हैं।",
+      "options": [
+        "This flower is very fragrant.",
+        "Tulips bloom in spring.",
+        "Watermelon gives coolness in summer.",
+        "Grapes are small and sweet."
+      ],
+      "answer": "Grapes are small and sweet.",
+      "explanation": "Correct translation: \"अंगूर छोटे और मीठे होते हैं।\" = \"Grapes are small and sweet.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Watermelon gives _____ in summer.",
+      "options": [
+        "is",
+        "for",
+        "in",
+        "coolness"
+      ],
+      "answer": "coolness",
+      "explanation": "Full sentence: \"Watermelon gives coolness in summer.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Papaya are good for digestion.",
+      "options": [
+        "Papaya are good for digestion.",
+        "Papaya is good for digestion."
+      ],
+      "answer": "Papaya is good for digestion.",
+      "explanation": "Correct sentence: \"Papaya is good for digestion.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "अमरूद सस्ता और पौष्टिक फल है।",
+      "options": [
+        "The sunflower turns towards the sun.",
+        "Banana is full of energy.",
+        "I like a garden of flowers.",
+        "Guava is a cheap and nutritious fruit."
+      ],
+      "answer": "Guava is a cheap and nutritious fruit.",
+      "explanation": "Correct translation: \"अमरूद सस्ता और पौष्टिक फल है।\" = \"Guava is a cheap and nutritious fruit.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I like a _____ of flowers.",
+      "options": [
+        "is",
+        "for",
+        "available",
+        "garden"
+      ],
+      "answer": "garden",
+      "explanation": "Full sentence: \"I like a garden of flowers.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Fresh fruits is available in the market.",
+      "options": [
+        "Fresh fruits is available in the market.",
+        "Fresh fruits are available in the market."
+      ],
+      "answer": "Fresh fruits are available in the market.",
+      "explanation": "Correct sentence: \"Fresh fruits are available in the market.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "वह हर सुबह फल खाती है।",
+      "options": [
+        "The lily is white in colour.",
+        "Grapes are small and sweet.",
+        "This flower is very fragrant.",
+        "She eats fruit every morning."
+      ],
+      "answer": "She eats fruit every morning.",
+      "explanation": "Correct translation: \"वह हर सुबह फल खाती है।\" = \"She eats fruit every morning.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "This flower _____ very fragrant.",
+      "options": [
+        "spring",
+        "in",
+        "for",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"This flower is very fragrant.\""
+    }
+  ]
+}

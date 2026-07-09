@@ -1,0 +1,255 @@
+{
+  "day": 58,
+  "topic": "Since / For (Time Expressions with Perfect Tenses)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं दो साल से यहाँ रह रहा हूँ।",
+      "options": [
+        "He has not done this work since Monday.",
+        "I have been waiting for an hour.",
+        "I have been living here since 2020.",
+        "I have been living here for two years."
+      ],
+      "answer": "I have been living here for two years.",
+      "explanation": "Correct translation: \"मैं दो साल से यहाँ रह रहा हूँ।\" = \"I have been living here for two years.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I have been _____ here since 2020.",
+      "options": [
+        "this",
+        "waiting",
+        "studying",
+        "living"
+      ],
+      "answer": "living",
+      "explanation": "Full sentence: \"I have been living here since 2020.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "She have been studying for three hours.",
+      "options": [
+        "She have been studying for three hours.",
+        "She has been studying for three hours."
+      ],
+      "answer": "She has been studying for three hours.",
+      "explanation": "Correct sentence: \"She has been studying for three hours.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वह सुबह से पढ़ रही है।",
+      "options": [
+        "He has been sick for two months.",
+        "She has done this job since 2021.",
+        "We have been friends for five years.",
+        "She has been studying since morning."
+      ],
+      "answer": "She has been studying since morning.",
+      "explanation": "Correct translation: \"वह सुबह से पढ़ रही है।\" = \"She has been studying since morning.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We have been _____ for five years.",
+      "options": [
+        "sick",
+        "practicing",
+        "in",
+        "friends"
+      ],
+      "answer": "friends",
+      "explanation": "Full sentence: \"We have been friends for five years.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "We has been friends since college.",
+      "options": [
+        "We has been friends since college.",
+        "We have been friends since college."
+      ],
+      "answer": "We have been friends since college.",
+      "explanation": "Correct sentence: \"We have been friends since college.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसने एक हफ्ते से यह काम नहीं किया।",
+      "options": [
+        "They have been in this house since their marriage.",
+        "I have been living here for two years.",
+        "He has not done this work since Monday.",
+        "He has not done this work for a week."
+      ],
+      "answer": "He has not done this work for a week.",
+      "explanation": "Correct translation: \"उसने एक हफ्ते से यह काम नहीं किया।\" = \"He has not done this work for a week.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He has not done _____ work since Monday.",
+      "options": [
+        "waiting",
+        "living",
+        "studying",
+        "this"
+      ],
+      "answer": "this",
+      "explanation": "Full sentence: \"He has not done this work since Monday.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I has known this for ten years.",
+      "options": [
+        "I has known this for ten years.",
+        "I have known this for ten years."
+      ],
+      "answer": "I have known this for ten years.",
+      "explanation": "Correct sentence: \"I have known this for ten years.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मुझे 2015 से यह जानकारी है।",
+      "options": [
+        "She has done this job for four years.",
+        "She has been studying since morning.",
+        "He has been sick for two months.",
+        "I have known this since 2015."
+      ],
+      "answer": "I have known this since 2015.",
+      "explanation": "Correct translation: \"मुझे 2015 से यह जानकारी है।\" = \"I have known this since 2015.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He has been _____ for two months.",
+      "options": [
+        "this",
+        "friends",
+        "practicing",
+        "sick"
+      ],
+      "answer": "sick",
+      "explanation": "Full sentence: \"He has been sick for two months.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "He have been sick since his birthday.",
+      "options": [
+        "He have been sick since his birthday.",
+        "He has been sick since his birthday."
+      ],
+      "answer": "He has been sick since his birthday.",
+      "explanation": "Correct sentence: \"He has been sick since his birthday.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वे तीन साल से इस घर में हैं।",
+      "options": [
+        "We have been practicing since the beginning.",
+        "He has not done this work for a week.",
+        "They have been in this house since their marriage.",
+        "They have been in this house for three years."
+      ],
+      "answer": "They have been in this house for three years.",
+      "explanation": "Correct translation: \"वे तीन साल से इस घर में हैं।\" = \"They have been in this house for three years.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "They have been in _____ house since their marriage.",
+      "options": [
+        "living",
+        "done",
+        "waiting",
+        "this"
+      ],
+      "answer": "this",
+      "explanation": "Full sentence: \"They have been in this house since their marriage.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I has been waiting for an hour.",
+      "options": [
+        "I has been waiting for an hour.",
+        "I have been waiting for an hour."
+      ],
+      "answer": "I have been waiting for an hour.",
+      "explanation": "Correct sentence: \"I have been waiting for an hour.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं दोपहर से इंतज़ार कर रहा हूँ।",
+      "options": [
+        "She has been studying for three hours.",
+        "I have known this since 2015.",
+        "She has done this job for four years.",
+        "I have been waiting since noon."
+      ],
+      "answer": "I have been waiting since noon.",
+      "explanation": "Correct translation: \"मैं दोपहर से इंतज़ार कर रहा हूँ।\" = \"I have been waiting since noon.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "She has done this _____ for four years.",
+      "options": [
+        "studying",
+        "sick",
+        "this",
+        "job"
+      ],
+      "answer": "job",
+      "explanation": "Full sentence: \"She has done this job for four years.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "She have done this job since 2021.",
+      "options": [
+        "She have done this job since 2021.",
+        "She has done this job since 2021."
+      ],
+      "answer": "She has done this job since 2021.",
+      "explanation": "Correct sentence: \"She has done this job since 2021.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हम दो हफ्ते से practice कर रहे हैं।",
+      "options": [
+        "We have been friends since college.",
+        "They have been in this house for three years.",
+        "We have been practicing since the beginning.",
+        "We have been practicing for two weeks."
+      ],
+      "answer": "We have been practicing for two weeks.",
+      "explanation": "Correct translation: \"हम दो हफ्ते से practice कर रहे हैं।\" = \"We have been practicing for two weeks.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "We have been _____ since the beginning.",
+      "options": [
+        "done",
+        "in",
+        "living",
+        "practicing"
+      ],
+      "answer": "practicing",
+      "explanation": "Full sentence: \"We have been practicing since the beginning.\""
+    }
+  ]
+}

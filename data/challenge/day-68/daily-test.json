@@ -1,0 +1,255 @@
+{
+  "day": 68,
+  "topic": "Factory & Sports + Sound & Maths Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "फैक्ट्री की असेंबली लाइन तेज़ चलती है।",
+      "options": [
+        "The team performed well.",
+        "There was complete silence at night.",
+        "Cricket is the most popular sport in India.",
+        "The factory's assembly line runs fast."
+      ],
+      "answer": "The factory's assembly line runs fast.",
+      "explanation": "Correct translation: \"फैक्ट्री की असेंबली लाइन तेज़ चलती है।\" = \"The factory's assembly line runs fast.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Cricket is the most _____ sport in India.",
+      "options": [
+        "tomorrow",
+        "heard",
+        "won",
+        "popular"
+      ],
+      "answer": "popular",
+      "explanation": "Full sentence: \"Cricket is the most popular sport in India.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "The football team won the match yesterday.",
+      "options": [
+        "The football team won the match yesterday.",
+        "The football team won the match."
+      ],
+      "answer": "The football team won the match.",
+      "explanation": "Correct sentence: \"The football team won the match.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "हॉकी हमारा राष्ट्रीय खेल है।",
+      "options": [
+        "He scored a goal and won the match.",
+        "Multiplying three by five gives fifteen.",
+        "I like playing badminton.",
+        "Hockey is our national game."
+      ],
+      "answer": "Hockey is our national game.",
+      "explanation": "Correct translation: \"हॉकी हमारा राष्ट्रीय खेल है।\" = \"Hockey is our national game.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I like _____ badminton.",
+      "options": [
+        "very",
+        "five",
+        "place",
+        "playing"
+      ],
+      "answer": "playing",
+      "explanation": "Full sentence: \"I like playing badminton.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "He got first place in the race yesterday.",
+      "options": [
+        "He got first place in the race yesterday.",
+        "He got first place in the race."
+      ],
+      "answer": "He got first place in the race.",
+      "explanation": "Correct sentence: \"He got first place in the race.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "खिलाड़ी मैदान में दौड़ रहे हैं।",
+      "options": [
+        "There is a lot of noise in the factory.",
+        "The factory's assembly line runs fast.",
+        "The team performed well.",
+        "The players are running on the field."
+      ],
+      "answer": "The players are running on the field.",
+      "explanation": "Correct translation: \"खिलाड़ी मैदान में दौड़ रहे हैं।\" = \"The players are running on the field.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "The team _____ well.",
+      "options": [
+        "silence",
+        "most",
+        "tomorrow",
+        "performed"
+      ],
+      "answer": "performed",
+      "explanation": "Full sentence: \"The team performed well.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "The match are tomorrow evening.",
+      "options": [
+        "The match are tomorrow evening.",
+        "The match is tomorrow evening."
+      ],
+      "answer": "The match is tomorrow evening.",
+      "explanation": "Correct sentence: \"The match is tomorrow evening.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "गेंद सीमा के बाहर चली गई।",
+      "options": [
+        "I like listening to music.",
+        "Hockey is our national game.",
+        "He scored a goal and won the match.",
+        "The ball went out of the boundary."
+      ],
+      "answer": "The ball went out of the boundary.",
+      "explanation": "Correct translation: \"गेंद सीमा के बाहर चली गई।\" = \"The ball went out of the boundary.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He scored a goal _____ won the match.",
+      "options": [
+        "five",
+        "badminton",
+        "very",
+        "and"
+      ],
+      "answer": "and",
+      "explanation": "Full sentence: \"He scored a goal and won the match.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "This sound are very loud.",
+      "options": [
+        "This sound are very loud.",
+        "This sound is very loud."
+      ],
+      "answer": "This sound is very loud.",
+      "explanation": "Correct sentence: \"This sound is very loud.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "उसकी आवाज़ बहुत धीमी है।",
+      "options": [
+        "The total number is one hundred.",
+        "The players are running on the field.",
+        "There is a lot of noise in the factory.",
+        "His voice is very soft."
+      ],
+      "answer": "His voice is very soft.",
+      "explanation": "Correct translation: \"उसकी आवाज़ बहुत धीमी है।\" = \"His voice is very soft.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "There is a lot _____ noise in the factory.",
+      "options": [
+        "line",
+        "well",
+        "silence",
+        "of"
+      ],
+      "answer": "of",
+      "explanation": "Full sentence: \"There is a lot of noise in the factory.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "There were complete silence at night.",
+      "options": [
+        "There were complete silence at night.",
+        "There was complete silence at night."
+      ],
+      "answer": "There was complete silence at night.",
+      "explanation": "Correct sentence: \"There was complete silence at night.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "पहाड़ों में गूंज सुनाई दी।",
+      "options": [
+        "The football team won the match.",
+        "The ball went out of the boundary.",
+        "I like listening to music.",
+        "An echo was heard in the mountains."
+      ],
+      "answer": "An echo was heard in the mountains.",
+      "explanation": "Correct translation: \"पहाड़ों में गूंज सुनाई दी।\" = \"An echo was heard in the mountains.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I like _____ to music.",
+      "options": [
+        "national",
+        "goal",
+        "five",
+        "listening"
+      ],
+      "answer": "listening",
+      "explanation": "Full sentence: \"I like listening to music.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Multiplying three by five gives fifteen yesterday.",
+      "options": [
+        "Multiplying three by five gives fifteen yesterday.",
+        "Multiplying three by five gives fifteen."
+      ],
+      "answer": "Multiplying three by five gives fifteen.",
+      "explanation": "Correct sentence: \"Multiplying three by five gives fifteen.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "बीस को पाँच से भाग देने पर चार होता है।",
+      "options": [
+        "He got first place in the race.",
+        "His voice is very soft.",
+        "The total number is one hundred.",
+        "Dividing twenty by five gives four."
+      ],
+      "answer": "Dividing twenty by five gives four.",
+      "explanation": "Correct translation: \"बीस को पाँच से भाग देने पर चार होता है।\" = \"Dividing twenty by five gives four.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "The total number _____ one hundred.",
+      "options": [
+        "running",
+        "lot",
+        "line",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"The total number is one hundred.\""
+    }
+  ]
+}

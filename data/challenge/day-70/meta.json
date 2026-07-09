@@ -1,0 +1,28 @@
+{
+  "day": 70,
+  "title": "Letter Writing",
+  "slug": "70-letter-writing",
+  "type": "vocabulary",
+  "difficulty": "intermediate",
+  "cefr": "B2",
+  "emoji": "✉️",
+  "color": "#3b82f6",
+  "topics": [
+    "Letter Writing"
+  ],
+  "totalQuestions": 20,
+  "totalVocabulary": 20,
+  "estimatedTime": "2-3 hours",
+  "xpReward": 200,
+  "coinsReward": 30,
+  "prerequisites": [
+    69
+  ],
+  "nextDay": 71,
+  "tags": [
+    "vocabulary",
+    "letter writing"
+  ],
+  "lastUpdated": "2026-07-09",
+  "version": "1.0"
+}

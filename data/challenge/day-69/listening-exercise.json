@@ -1,0 +1,114 @@
+{
+  "day": 69,
+  "topic": "Application Writing",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "I need a bonafide certificate.",
+      "hindiScript": "मुझे एक बोनाफाइड प्रमाण पत्र चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I need to change my city because of my family.",
+        "I am a student of this school.",
+        "I want leave because I am unwell.",
+        "I need a bonafide certificate."
+      ],
+      "answer": "I need a bonafide certificate."
+    },
+    {
+      "id": 2,
+      "audioScript": "I need this certificate to open a bank account.",
+      "hindiScript": "यह प्रमाण पत्र मुझे बैंक खाता खोलने के लिए चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am applying for a scholarship.",
+        "My roll number is twenty-five.",
+        "Please approve my leave.",
+        "I need this certificate to open a bank account."
+      ],
+      "answer": "I need this certificate to open a bank account."
+    },
+    {
+      "id": 3,
+      "audioScript": "Thank you, I will wait for your prompt response.",
+      "hindiScript": "सधन्यवाद, मैं आपकी शीघ्र प्रतिक्रिया की प्रतीक्षा करूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My marks are sufficient for this scholarship.",
+        "Please approve this immediately.",
+        "I would like to apply for this position.",
+        "Thank you, I will wait for your prompt response."
+      ],
+      "answer": "Thank you, I will wait for your prompt response."
+    },
+    {
+      "id": 4,
+      "audioScript": "Yours sincerely.",
+      "hindiScript": "भवदीय।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I need a bonafide certificate.",
+        "I hope for your positive reply.",
+        "I have sufficient experience for this job.",
+        "Yours sincerely."
+      ],
+      "answer": "Yours sincerely."
+    },
+    {
+      "id": 5,
+      "audioScript": "I am a student of this school.",
+      "hindiScript": "मैं इस विद्यालय का छात्र हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I need this certificate to open a bank account.",
+        "This is my first application.",
+        "Please accept my application.",
+        "I am a student of this school."
+      ],
+      "answer": "I am a student of this school."
+    },
+    {
+      "id": 6,
+      "audioScript": "My roll number is twenty-five.",
+      "hindiScript": "मेरा रोल नंबर पच्चीस है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Thank you, I will wait for your prompt response.",
+        "I will be grateful for this opportunity.",
+        "I am applying for a transfer.",
+        "My roll number is twenty-five."
+      ],
+      "answer": "My roll number is twenty-five."
+    },
+    {
+      "id": 7,
+      "audioScript": "Please approve this immediately.",
+      "hindiScript": "कृपया इसे तुरंत स्वीकृत करें।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Yours sincerely.",
+        "Sir, I request three days of leave from you.",
+        "I need to change my city because of my family.",
+        "Please approve this immediately."
+      ],
+      "answer": "Please approve this immediately."
+    },
+    {
+      "id": 8,
+      "audioScript": "I hope for your positive reply.",
+      "hindiScript": "मुझे आपके सकारात्मक जवाब की उम्मीद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am a student of this school.",
+        "I want leave because I am unwell.",
+        "I am applying for a scholarship.",
+        "I hope for your positive reply."
+      ],
+      "answer": "I hope for your positive reply."
+    }
+  ],
+  "dictationPassage": {
+    "text": "I need a bonafide certificate. I need this certificate to open a bank account. Thank you, I will wait for your prompt response. Yours sincerely. I am a student of this school.",
+    "hindiTranslation": "मुझे एक बोनाफाइड प्रमाण पत्र चाहिए। यह प्रमाण पत्र मुझे बैंक खाता खोलने के लिए चाहिए। सधन्यवाद, मैं आपकी शीघ्र प्रतिक्रिया की प्रतीक्षा करूँगा। भवदीय। मैं इस विद्यालय का छात्र हूँ।"
+  }
+}

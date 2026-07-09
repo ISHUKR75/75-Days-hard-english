@@ -1,0 +1,46 @@
+{
+  "day": 75,
+  "topic": "Complete Mock Test + Final Revision",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Complete Mock Test + Final Revision.",
+      "hindiPrompt": "Complete Mock Test + Final Revision का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I can now speak English fluently. I have completed this challenge. Seventy-five days ago I could not speak English. Now I don't hesitate to talk on any topic. I speak confidently in the office.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Complete Mock Test + Final Revision.",
+      "hindiPrompt": "Complete Mock Test + Final Revision का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I can perform well in an interview. I now have a good understanding of grammar. My vocabulary has increased a lot. I can easily write emails and letters. I can easily do daily conversations.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"यह मेरी सबसे बड़ी उपलब्धि है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "This is my biggest achievement.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Now I don't hesitate to talk on any topic yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Now I don't hesitate to talk on any topic.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Complete Mock Test + Final Revision.",
+      "hindiPrompt": "Complete Mock Test + Final Revision का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "This course has proved very useful in my life. I worked hard every single day. Now I am ready for new opportunities. I am proud of my progress.",
+      "wordLimit": 60
+    }
+  ]
+}

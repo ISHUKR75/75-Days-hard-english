@@ -1,0 +1,46 @@
+{
+  "day": 56,
+  "topic": "If Clauses / Conditionals Part 1 — Zero & First Conditional",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using If Clauses / Conditionals Part 1 — Zero & First Conditional.",
+      "hindiPrompt": "If Clauses / Conditionals Part 1 — Zero & First Conditional का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "If water heats to 100 degrees, it boils. If you heat ice, it melts. If I get time, I will come. If it rains, we will stay home. If you work hard, you will succeed.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using If Clauses / Conditionals Part 1 — Zero & First Conditional.",
+      "hindiPrompt": "If Clauses / Conditionals Part 1 — Zero & First Conditional का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "If he comes early, we will start. If the sun comes out, the day is warm. If you eat this, you will feel good. If you need help, tell me. If he doesn't come, we will start.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"अगर तुम गर्मी में बाहर जाते हो, तो पसीना आता है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "If you go out in summer, you sweat.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"If it rains, we will stay home yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "If it rains, we will stay home.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using If Clauses / Conditionals Part 1 — Zero & First Conditional.",
+      "hindiPrompt": "If Clauses / Conditionals Part 1 — Zero & First Conditional का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "If plants don't get water, they die. If you sleep early, you will wake up early. If you don't understand this, ask. If the sun comes out, snow melts.",
+      "wordLimit": 60
+    }
+  ]
+}

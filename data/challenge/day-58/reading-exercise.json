@@ -1,0 +1,107 @@
+{
+  "day": 58,
+  "topic": "Since / For (Time Expressions with Perfect Tenses)",
+  "passage": {
+    "title": "A Day with Since / For (Time Expressions with Perfect Tenses)",
+    "text": "I have been living here for two years. I have been living here since 2020. She has been studying for three hours. She has been studying since morning. We have been friends for five years. We have been friends since college. He has not done this work for a week. He has not done this work since Monday. I have known this for ten years. I have known this since 2015.",
+    "hindiTranslation": "मैं दो साल से यहाँ रह रहा हूँ। मैं 2020 से यहाँ रह रहा हूँ। वह तीन घंटे से पढ़ रही है। वह सुबह से पढ़ रही है। हम पाँच साल से दोस्त हैं। हम कॉलेज के समय से दोस्त हैं। उसने एक हफ्ते से यह काम नहीं किया। उसने सोमवार से यह काम नहीं किया। मुझे दस साल से यह जानकारी है। मुझे 2015 से यह जानकारी है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I have been living...\"?",
+      "options": [
+        "He has not done this work since Monday.",
+        "I have been waiting for an hour.",
+        "I have been living here since 2020.",
+        "I have been living here for two years."
+      ],
+      "answer": "I have been living here for two years.",
+      "explanation": "Stated in the passage: \"I have been living here for two years.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I have been living...\"?",
+      "options": [
+        "I have known this for ten years.",
+        "I have been waiting since noon.",
+        "She has been studying for three hours.",
+        "I have been living here since 2020."
+      ],
+      "answer": "I have been living here since 2020.",
+      "explanation": "Stated in the passage: \"I have been living here since 2020.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"She has been studying...\"?",
+      "options": [
+        "I have known this since 2015.",
+        "She has done this job for four years.",
+        "She has been studying since morning.",
+        "She has been studying for three hours."
+      ],
+      "answer": "She has been studying for three hours.",
+      "explanation": "Stated in the passage: \"She has been studying for three hours.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"She has been studying...\"?",
+      "options": [
+        "He has been sick for two months.",
+        "She has done this job since 2021.",
+        "We have been friends for five years.",
+        "She has been studying since morning."
+      ],
+      "answer": "She has been studying since morning.",
+      "explanation": "Stated in the passage: \"She has been studying since morning.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"We have been friends...\"?",
+      "options": [
+        "He has been sick since his birthday.",
+        "We have been practicing for two weeks.",
+        "We have been friends since college.",
+        "We have been friends for five years."
+      ],
+      "answer": "We have been friends for five years.",
+      "explanation": "Stated in the passage: \"We have been friends for five years.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"We have been friends...\"?",
+      "options": [
+        "They have been in this house for three years.",
+        "We have been practicing since the beginning.",
+        "He has not done this work for a week.",
+        "We have been friends since college."
+      ],
+      "answer": "We have been friends since college.",
+      "explanation": "Stated in the passage: \"We have been friends since college.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"He has not done...\"?",
+      "options": [
+        "They have been in this house since their marriage.",
+        "I have been living here for two years.",
+        "He has not done this work since Monday.",
+        "He has not done this work for a week."
+      ],
+      "answer": "He has not done this work for a week.",
+      "explanation": "Stated in the passage: \"He has not done this work for a week.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"He has not done...\"?",
+      "options": [
+        "I have been waiting for an hour.",
+        "I have been living here since 2020.",
+        "I have known this for ten years.",
+        "He has not done this work since Monday."
+      ],
+      "answer": "He has not done this work since Monday.",
+      "explanation": "Stated in the passage: \"He has not done this work since Monday.\""
+    }
+  ]
+}

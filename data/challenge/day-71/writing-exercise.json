@@ -1,0 +1,46 @@
+{
+  "day": 71,
+  "topic": "E-mail Writing",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using E-mail Writing.",
+      "hindiPrompt": "E-mail Writing का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "Dear Sir, thank you for your email. I will not be able to attend this meeting. Please send me the report. I will reply soon. This email is for important information.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using E-mail Writing.",
+      "hindiPrompt": "E-mail Writing का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Please check the attachment. I need your help. Thanks and regards. I am working on this project. Please give this priority.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"मैंने आपका संदेश पढ़ लिया है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "I have read your message.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I will reply soon yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I will reply soon.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using E-mail Writing.",
+      "hindiPrompt": "E-mail Writing का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "This email was sent by mistake. Please ignore this. I need to know the time of the meeting. Please schedule a conference call.",
+      "wordLimit": 60
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 60,
+  "topic": "Revision of Days 51-59",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "I have been living here for two years.",
+      "hindiScript": "मैं दो साल से यहाँ रह रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you work hard, you will succeed.",
+        "He told me to do this work.",
+        "She asked where I lived.",
+        "I have been living here for two years."
+      ],
+      "answer": "I have been living here for two years."
+    },
+    {
+      "id": 2,
+      "audioScript": "I have been living here since 2020.",
+      "hindiScript": "मैं 2020 से यहाँ रह रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If I had money, I would buy this house.",
+        "He sings well, doesn't he?",
+        "You are coming, aren't you?",
+        "I have been living here since 2020."
+      ],
+      "answer": "I have been living here since 2020."
+    },
+    {
+      "id": 3,
+      "audioScript": "I wish I had more money.",
+      "hindiScript": "मुझे काश मेरे पास ज़्यादा पैसे होते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If I had worked hard, I would have passed.",
+        "This movie is better than that movie.",
+        "Ram is the tallest.",
+        "I wish I had more money."
+      ],
+      "answer": "I wish I had more money."
+    },
+    {
+      "id": 4,
+      "audioScript": "If only I had studied earlier.",
+      "hindiScript": "काश मैंने पहले पढ़ाई की होती।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have been living here for two years.",
+        "The teacher is very good.",
+        "This is the most interesting book.",
+        "If only I had studied earlier."
+      ],
+      "answer": "If only I had studied earlier."
+    },
+    {
+      "id": 5,
+      "audioScript": "He told me to do this work.",
+      "hindiScript": "उसने मुझे यह काम करने को कहा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have been living here since 2020.",
+        "If he comes early, we will start.",
+        "I need a book.",
+        "He told me to do this work."
+      ],
+      "answer": "He told me to do this work."
+    },
+    {
+      "id": 6,
+      "audioScript": "He sings well, doesn't he?",
+      "hindiScript": "वह अच्छा गाता है, है ना?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I wish I had more money.",
+        "I wish I knew this language.",
+        "The sun rises in the east.",
+        "He sings well, doesn't he?"
+      ],
+      "answer": "He sings well, doesn't he?"
+    },
+    {
+      "id": 7,
+      "audioScript": "This movie is better than that movie.",
+      "hindiScript": "यह फिल्म उस फिल्म से बेहतर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If only I had studied earlier.",
+        "He said that he was tired.",
+        "If you work hard, you will succeed.",
+        "This movie is better than that movie."
+      ],
+      "answer": "This movie is better than that movie."
+    },
+    {
+      "id": 8,
+      "audioScript": "The teacher is very good.",
+      "hindiScript": "वह teacher बहुत अच्छी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He told me to do this work.",
+        "She asked where I lived.",
+        "If I had money, I would buy this house.",
+        "The teacher is very good."
+      ],
+      "answer": "The teacher is very good."
+    }
+  ],
+  "dictationPassage": {
+    "text": "I have been living here for two years. I have been living here since 2020. I wish I had more money. If only I had studied earlier. He told me to do this work.",
+    "hindiTranslation": "मैं दो साल से यहाँ रह रहा हूँ। मैं 2020 से यहाँ रह रहा हूँ। मुझे काश मेरे पास ज़्यादा पैसे होते। काश मैंने पहले पढ़ाई की होती। उसने मुझे यह काम करने को कहा।"
+  }
+}

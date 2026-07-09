@@ -1,0 +1,255 @@
+{
+  "day": 75,
+  "topic": "Complete Mock Test + Final Revision",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं अब अंग्रेज़ी में धाराप्रवाह बोल सकता हूँ।",
+      "options": [
+        "My vocabulary has increased a lot.",
+        "Now I am ready for new opportunities.",
+        "I have completed this challenge.",
+        "I can now speak English fluently."
+      ],
+      "answer": "I can now speak English fluently.",
+      "explanation": "Correct translation: \"मैं अब अंग्रेज़ी में धाराप्रवाह बोल सकता हूँ।\" = \"I can now speak English fluently.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I have _____ this challenge.",
+      "options": [
+        "write",
+        "of",
+        "I",
+        "completed"
+      ],
+      "answer": "completed",
+      "explanation": "Full sentence: \"I have completed this challenge.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Seventy-five days ago I could not speak English yesterday.",
+      "options": [
+        "Seventy-five days ago I could not speak English yesterday.",
+        "Seventy-five days ago I could not speak English."
+      ],
+      "answer": "Seventy-five days ago I could not speak English.",
+      "explanation": "Correct sentence: \"Seventy-five days ago I could not speak English.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "अब मुझे किसी भी विषय पर बात करने में झिझक नहीं होती।",
+      "options": [
+        "This is my biggest achievement.",
+        "I will take this test with confidence.",
+        "I speak confidently in the office.",
+        "Now I don't hesitate to talk on any topic."
+      ],
+      "answer": "Now I don't hesitate to talk on any topic.",
+      "explanation": "Correct translation: \"अब मुझे किसी भी विषय पर बात करने में झिझक नहीं होती।\" = \"Now I don't hesitate to talk on any topic.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I speak confidently _____ the office.",
+      "options": [
+        "English",
+        "now",
+        "well",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"I speak confidently in the office.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I can perform well in an interview yesterday.",
+      "options": [
+        "I can perform well in an interview yesterday.",
+        "I can perform well in an interview."
+      ],
+      "answer": "I can perform well in an interview.",
+      "explanation": "Correct sentence: \"I can perform well in an interview.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मुझे अब व्याकरण की अच्छी समझ है।",
+      "options": [
+        "I worked hard every single day.",
+        "I can now speak English fluently.",
+        "My vocabulary has increased a lot.",
+        "I now have a good understanding of grammar."
+      ],
+      "answer": "I now have a good understanding of grammar.",
+      "explanation": "Correct translation: \"मुझे अब व्याकरण की अच्छी समझ है।\" = \"I now have a good understanding of grammar.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "My vocabulary has _____ a lot.",
+      "options": [
+        "ready",
+        "this",
+        "write",
+        "increased"
+      ],
+      "answer": "increased",
+      "explanation": "Full sentence: \"My vocabulary has increased a lot.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I can easily write emails and letters yesterday.",
+      "options": [
+        "I can easily write emails and letters yesterday.",
+        "I can easily write emails and letters."
+      ],
+      "answer": "I can easily write emails and letters.",
+      "explanation": "Correct sentence: \"I can easily write emails and letters.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैं रोज़ की बातचीत आराम से कर लेता हूँ।",
+      "options": [
+        "This is my final test.",
+        "Now I don't hesitate to talk on any topic.",
+        "This is my biggest achievement.",
+        "I can easily do daily conversations."
+      ],
+      "answer": "I can easily do daily conversations.",
+      "explanation": "Correct translation: \"मैं रोज़ की बातचीत आराम से कर लेता हूँ।\" = \"I can easily do daily conversations.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "This is _____ biggest achievement.",
+      "options": [
+        "this",
+        "in",
+        "English",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "Full sentence: \"This is my biggest achievement.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I now speak English without hesitation yesterday.",
+      "options": [
+        "I now speak English without hesitation yesterday.",
+        "I now speak English without hesitation."
+      ],
+      "answer": "I now speak English without hesitation.",
+      "explanation": "Correct sentence: \"I now speak English without hesitation.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "यह कोर्स मेरे जीवन में बहुत उपयोगी साबित हुआ।",
+      "options": [
+        "I want to keep learning forever.",
+        "I now have a good understanding of grammar.",
+        "I worked hard every single day.",
+        "This course has proved very useful in my life."
+      ],
+      "answer": "This course has proved very useful in my life.",
+      "explanation": "Correct translation: \"यह कोर्स मेरे जीवन में बहुत उपयोगी साबित हुआ।\" = \"This course has proved very useful in my life.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I worked hard _____ single day.",
+      "options": [
+        "speak",
+        "increased",
+        "ready",
+        "every"
+      ],
+      "answer": "every",
+      "explanation": "Full sentence: \"I worked hard every single day.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Now I am ready for new opportunities yesterday.",
+      "options": [
+        "Now I am ready for new opportunities yesterday.",
+        "Now I am ready for new opportunities."
+      ],
+      "answer": "Now I am ready for new opportunities.",
+      "explanation": "Correct sentence: \"Now I am ready for new opportunities.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मुझे अपनी प्रगति पर गर्व है।",
+      "options": [
+        "Seventy-five days ago I could not speak English.",
+        "I can easily do daily conversations.",
+        "This is my final test.",
+        "I am proud of my progress."
+      ],
+      "answer": "I am proud of my progress.",
+      "explanation": "Correct translation: \"मुझे अपनी प्रगति पर गर्व है।\" = \"I am proud of my progress.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "This is _____ final test.",
+      "options": [
+        "hesitate",
+        "biggest",
+        "this",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "Full sentence: \"This is my final test.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I will take this test with confidence yesterday.",
+      "options": [
+        "I will take this test with confidence yesterday.",
+        "I will take this test with confidence."
+      ],
+      "answer": "I will take this test with confidence.",
+      "explanation": "Correct sentence: \"I will take this test with confidence.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मेरी अंग्रेज़ी अब पेशेवर स्तर की है।",
+      "options": [
+        "I can perform well in an interview.",
+        "This course has proved very useful in my life.",
+        "I want to keep learning forever.",
+        "My English is now at a professional level."
+      ],
+      "answer": "My English is now at a professional level.",
+      "explanation": "Correct translation: \"मेरी अंग्रेज़ी अब पेशेवर स्तर की है।\" = \"My English is now at a professional level.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I want to _____ learning forever.",
+      "options": [
+        "a",
+        "every",
+        "speak",
+        "keep"
+      ],
+      "answer": "keep",
+      "explanation": "Full sentence: \"I want to keep learning forever.\""
+    }
+  ]
+}

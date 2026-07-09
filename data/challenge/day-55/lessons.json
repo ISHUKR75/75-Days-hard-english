@@ -1,0 +1,122 @@
+{
+  "day": 55,
+  "topic": "Articles (A, An, The)",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Articles (A, An, The) — Introduction and Formula",
+      "hindiTitle": "Articles (A, An, The) — परिचय और फॉर्मूला",
+      "explanation": "Articles (A, An, The) is an essential building block of English grammar. Formula: A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known). Rules: Use 'a' before consonant sounds, 'an' before vowel sounds | Use 'a/an' for first mention or general reference | Use 'the' for specific things, previously mentioned things, or unique things | No article before plural general nouns or abstract nouns in general statements",
+      "formula": "A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "examples": [
+        {
+          "hindi": "मुझे एक किताब चाहिए।",
+          "english": "I need a book."
+        },
+        {
+          "hindi": "मुझे एक सेब चाहिए।",
+          "english": "I need an apple."
+        },
+        {
+          "hindi": "वह किताब मेज पर है।",
+          "english": "The book is on the table."
+        },
+        {
+          "hindi": "सूरज पूरब से निकलता है।",
+          "english": "The sun rises in the east."
+        },
+        {
+          "hindi": "मैंने एक कुत्ता देखा।",
+          "english": "I saw a dog."
+        },
+        {
+          "hindi": "वह कुत्ता बहुत प्यारा है।",
+          "english": "The dog is very cute."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Articles (A, An, The) — Daily Life Usage",
+      "hindiTitle": "Articles (A, An, The) — रोज़मर्रा के उपयोग",
+      "explanation": "Everyday sentences using Articles (A, An, The) for daily conversation.",
+      "formula": "A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "examples": [
+        {
+          "hindi": "यह एक अच्छी idea है।",
+          "english": "This is a good idea."
+        },
+        {
+          "hindi": "वह idea बहुत काम आई।",
+          "english": "That idea worked well."
+        },
+        {
+          "hindi": "मुझे एक umbrella चाहिए।",
+          "english": "I need an umbrella."
+        },
+        {
+          "hindi": "ताजमहल भारत में है।",
+          "english": "The Taj Mahal is in India."
+        },
+        {
+          "hindi": "वह एक teacher है।",
+          "english": "She is a teacher."
+        },
+        {
+          "hindi": "वह teacher बहुत अच्छी है।",
+          "english": "The teacher is very good."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Articles (A, An, The) — Office & Professional Usage",
+      "hindiTitle": "Articles (A, An, The) — ऑफिस और पेशेवर उपयोग",
+      "explanation": "Practice Articles (A, An, The) in professional and office contexts.",
+      "formula": "A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "examples": [
+        {
+          "hindi": "मैंने एक hour इंतज़ार किया।",
+          "english": "I waited for an hour."
+        },
+        {
+          "hindi": "गंगा नदी बहुत पवित्र है।",
+          "english": "The Ganges river is very sacred."
+        },
+        {
+          "hindi": "उसने एक कार खरीदी।",
+          "english": "He bought a car."
+        },
+        {
+          "hindi": "वह कार लाल है।",
+          "english": "The car is red."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Articles (A, An, The) — Negative and Question Forms",
+      "hindiTitle": "Articles (A, An, The) — नकारात्मक और प्रश्न रूप",
+      "explanation": "How to make negative sentences and questions using Articles (A, An, The). Common mistakes are highlighted here.",
+      "formula": "A/An + singular countable noun (unspecific) | The + noun (specific, already mentioned/known)",
+      "examples": [
+        {
+          "hindi": "मुझे एक honest दोस्त चाहिए।",
+          "english": "I need an honest friend."
+        },
+        {
+          "hindi": "हिमालय पहाड़ बहुत ऊँचे हैं।",
+          "english": "The Himalayas are very high."
+        },
+        {
+          "hindi": "यह एक अच्छा मौका है।",
+          "english": "This is a good opportunity."
+        },
+        {
+          "hindi": "वह मौका फिर नहीं आएगा।",
+          "english": "That opportunity will not come again."
+        }
+      ]
+    }
+  ]
+}

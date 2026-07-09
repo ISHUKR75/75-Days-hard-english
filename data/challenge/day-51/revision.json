@@ -1,0 +1,68 @@
+{
+  "day": 51,
+  "topic": "Reported Speech Part 1 — Statements",
+  "keyPointsSummary": [
+    "Direct speech uses quotation marks; reported (indirect) speech reports what someone said without quotes",
+    "Present simple becomes past simple; present continuous becomes past continuous; present perfect becomes past perfect",
+    "Pronouns and time words often change (I -> he/she, today -> that day)",
+    "'Said' is followed by an optional 'that'"
+  ],
+  "quickQuiz": [
+    {
+      "id": 1,
+      "hindi": "उसने कहा, \"मैं थका हुआ हूँ।\"",
+      "answer": "He said, \"I am tired.\""
+    },
+    {
+      "id": 2,
+      "hindi": "उसने कहा कि वह थका हुआ था।",
+      "answer": "He said that he was tired."
+    },
+    {
+      "id": 3,
+      "hindi": "उसने कहा, \"मैं स्कूल जाती हूँ।\"",
+      "answer": "She said, \"I go to school.\""
+    },
+    {
+      "id": 4,
+      "hindi": "उसने कहा कि वह स्कूल जाती थी।",
+      "answer": "She said that she went to school."
+    },
+    {
+      "id": 5,
+      "hindi": "उन्होंने कहा, \"हम खुश हैं।\"",
+      "answer": "They said, \"We are happy.\""
+    },
+    {
+      "id": 6,
+      "hindi": "उन्होंने कहा कि वे खुश थे।",
+      "answer": "They said that they were happy."
+    },
+    {
+      "id": 7,
+      "hindi": "उसने कहा, \"मैंने खाना खा लिया है।\"",
+      "answer": "He said, \"I have eaten food.\""
+    },
+    {
+      "id": 8,
+      "hindi": "उसने कहा कि उसने खाना खा लिया था।",
+      "answer": "He said that he had eaten food."
+    },
+    {
+      "id": 9,
+      "hindi": "उसने कहा, \"मैं यह कर रहा हूँ।\"",
+      "answer": "He said, \"I am doing this.\""
+    },
+    {
+      "id": 10,
+      "hindi": "उसने कहा कि वह यह कर रहा था।",
+      "answer": "He said that he was doing this."
+    }
+  ],
+  "mustRememberRules": [
+    "Direct speech uses quotation marks; reported (indirect) speech reports what someone said without quotes",
+    "Present simple becomes past simple; present continuous becomes past continuous; present perfect becomes past perfect",
+    "Pronouns and time words often change (I -> he/she, today -> that day)",
+    "'Said' is followed by an optional 'that'"
+  ]
+}

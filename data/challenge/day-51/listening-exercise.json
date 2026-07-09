@@ -1,0 +1,114 @@
+{
+  "day": 51,
+  "topic": "Reported Speech Part 1 — Statements",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "She said, \"I like this.\"",
+      "hindiScript": "उसने कहा, \"मुझे यह पसंद है।\"",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He said that he had eaten food.",
+        "He said, \"This is true.\"",
+        "He said that he was tired.",
+        "She said, \"I like this.\""
+      ],
+      "answer": "She said, \"I like this.\""
+    },
+    {
+      "id": 2,
+      "audioScript": "She said that she liked this.",
+      "hindiScript": "उसने कहा कि उसे यह पसंद था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He said, \"I am doing this.\"",
+        "He said that this was true.",
+        "She said, \"I go to school.\"",
+        "She said that she liked this."
+      ],
+      "answer": "She said that she liked this."
+    },
+    {
+      "id": 3,
+      "audioScript": "I said, \"I will come.\"",
+      "hindiScript": "मैंने कहा, \"मैं आऊँगा।\"",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He said that he was doing this.",
+        "They said, \"We need help.\"",
+        "She said that she went to school.",
+        "I said, \"I will come.\""
+      ],
+      "answer": "I said, \"I will come.\""
+    },
+    {
+      "id": 4,
+      "audioScript": "I said that I would come.",
+      "hindiScript": "मैंने कहा कि मैं आऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She said, \"I like this.\"",
+        "They said that they needed help.",
+        "They said, \"We are happy.\"",
+        "I said that I would come."
+      ],
+      "answer": "I said that I would come."
+    },
+    {
+      "id": 5,
+      "audioScript": "He said, \"This is true.\"",
+      "hindiScript": "उसने कहा, \"यह सच है।\"",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She said that she liked this.",
+        "He said, \"I understand this.\"",
+        "They said that they were happy.",
+        "He said, \"This is true.\""
+      ],
+      "answer": "He said, \"This is true.\""
+    },
+    {
+      "id": 6,
+      "audioScript": "He said that this was true.",
+      "hindiScript": "उसने कहा कि यह सच था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I said, \"I will come.\"",
+        "He said that he understood this.",
+        "He said, \"I have eaten food.\"",
+        "He said that this was true."
+      ],
+      "answer": "He said that this was true."
+    },
+    {
+      "id": 7,
+      "audioScript": "They said, \"We need help.\"",
+      "hindiScript": "उन्होंने कहा, \"हमें मदद चाहिए।\"",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I said that I would come.",
+        "He said, \"I am tired.\"",
+        "He said that he had eaten food.",
+        "They said, \"We need help.\""
+      ],
+      "answer": "They said, \"We need help.\""
+    },
+    {
+      "id": 8,
+      "audioScript": "They said that they needed help.",
+      "hindiScript": "उन्होंने कहा कि उन्हें मदद चाहिए थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He said, \"This is true.\"",
+        "He said that he was tired.",
+        "He said, \"I am doing this.\"",
+        "They said that they needed help."
+      ],
+      "answer": "They said that they needed help."
+    }
+  ],
+  "dictationPassage": {
+    "text": "She said, \"I like this.\" She said that she liked this. I said, \"I will come.\" I said that I would come. He said, \"This is true.\"",
+    "hindiTranslation": "उसने कहा, \"मुझे यह पसंद है।\" उसने कहा कि उसे यह पसंद था। मैंने कहा, \"मैं आऊँगा।\" मैंने कहा कि मैं आऊँगा। उसने कहा, \"यह सच है।\""
+  }
+}

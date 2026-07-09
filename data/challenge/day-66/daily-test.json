@@ -1,0 +1,255 @@
+{
+  "day": 66,
+  "topic": "Colours & Judiciary Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "लाल रंग खतरे का प्रतीक है।",
+      "options": [
+        "Purple colour is considered royal.",
+        "There should be no delay in justice.",
+        "The sky looks blue.",
+        "Red colour is a symbol of danger."
+      ],
+      "answer": "Red colour is a symbol of danger.",
+      "explanation": "Correct translation: \"लाल रंग खतरे का प्रतीक है।\" = \"Red colour is a symbol of danger.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "The sky _____ blue.",
+      "options": [
+        "colour",
+        "the",
+        "a",
+        "looks"
+      ],
+      "answer": "looks",
+      "explanation": "Full sentence: \"The sky looks blue.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Green colour are a symbol of peace.",
+      "options": [
+        "Green colour are a symbol of peace.",
+        "Green colour is a symbol of peace."
+      ],
+      "answer": "Green colour is a symbol of peace.",
+      "explanation": "Correct sentence: \"Green colour is a symbol of peace.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसने पीली शर्ट पहनी है।",
+      "options": [
+        "The hearing is going on in the court.",
+        "The trial went on for three years.",
+        "Everyone likes black colour.",
+        "He is wearing a yellow shirt."
+      ],
+      "answer": "He is wearing a yellow shirt.",
+      "explanation": "Correct translation: \"उसने पीली शर्ट पहनी है।\" = \"He is wearing a yellow shirt.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Everyone likes _____ colour.",
+      "options": [
+        "the",
+        "purity",
+        "orange",
+        "black"
+      ],
+      "answer": "black",
+      "explanation": "Full sentence: \"Everyone likes black colour.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "White colour represents purity yesterday.",
+      "options": [
+        "White colour represents purity yesterday.",
+        "White colour represents purity."
+      ],
+      "answer": "White colour represents purity.",
+      "explanation": "Correct sentence: \"White colour represents purity.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "यह फूल नारंगी रंग का है।",
+      "options": [
+        "The law is equal for everyone.",
+        "Red colour is a symbol of danger.",
+        "Purple colour is considered royal.",
+        "This flower is orange in colour."
+      ],
+      "answer": "This flower is orange in colour.",
+      "explanation": "Correct translation: \"यह फूल नारंगी रंग का है।\" = \"This flower is orange in colour.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Purple colour _____ considered royal.",
+      "options": [
+        "no",
+        "blue",
+        "colour",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"Purple colour is considered royal.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "She likes pink colour a lot yesterday.",
+      "options": [
+        "She likes pink colour a lot yesterday.",
+        "She likes pink colour a lot."
+      ],
+      "answer": "She likes pink colour a lot.",
+      "explanation": "Correct sentence: \"She likes pink colour a lot.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "भूरे रंग की मिट्टी उपजाऊ होती है।",
+      "options": [
+        "Evidence was presented in the court.",
+        "He is wearing a yellow shirt.",
+        "The hearing is going on in the court.",
+        "Brown coloured soil is fertile."
+      ],
+      "answer": "Brown coloured soil is fertile.",
+      "explanation": "Correct translation: \"भूरे रंग की मिट्टी उपजाऊ होती है।\" = \"Brown coloured soil is fertile.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "The hearing is going _____ in the court.",
+      "options": [
+        "colour",
+        "the",
+        "purity",
+        "on"
+      ],
+      "answer": "on",
+      "explanation": "Full sentence: \"The hearing is going on in the court.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "The judge announced the verdict yesterday.",
+      "options": [
+        "The judge announced the verdict yesterday.",
+        "The judge announced the verdict."
+      ],
+      "answer": "The judge announced the verdict.",
+      "explanation": "Correct sentence: \"The judge announced the verdict.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वकील ने बहस की।",
+      "options": [
+        "The court found the accused guilty.",
+        "This flower is orange in colour.",
+        "The law is equal for everyone.",
+        "The lawyer argued the case."
+      ],
+      "answer": "The lawyer argued the case.",
+      "explanation": "Correct translation: \"वकील ने बहस की।\" = \"The lawyer argued the case.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "The law is _____ for everyone.",
+      "options": [
+        "a",
+        "considered",
+        "no",
+        "equal"
+      ],
+      "answer": "equal",
+      "explanation": "Full sentence: \"The law is equal for everyone.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "There should be no delay in justice yesterday.",
+      "options": [
+        "There should be no delay in justice yesterday.",
+        "There should be no delay in justice."
+      ],
+      "answer": "There should be no delay in justice.",
+      "explanation": "Correct sentence: \"There should be no delay in justice.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "गवाह ने सच बताया।",
+      "options": [
+        "Green colour is a symbol of peace.",
+        "Brown coloured soil is fertile.",
+        "Evidence was presented in the court.",
+        "The witness told the truth."
+      ],
+      "answer": "The witness told the truth.",
+      "explanation": "Correct translation: \"गवाह ने सच बताया।\" = \"The witness told the truth.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Evidence was presented _____ the court.",
+      "options": [
+        "a",
+        "going",
+        "on",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"Evidence was presented in the court.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "The trial went on for three years yesterday.",
+      "options": [
+        "The trial went on for three years yesterday.",
+        "The trial went on for three years."
+      ],
+      "answer": "The trial went on for three years.",
+      "explanation": "Correct sentence: \"The trial went on for three years.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "जूरी ने फैसला किया।",
+      "options": [
+        "White colour represents purity.",
+        "The lawyer argued the case.",
+        "The court found the accused guilty.",
+        "The jury made the decision."
+      ],
+      "answer": "The jury made the decision.",
+      "explanation": "Correct translation: \"जूरी ने फैसला किया।\" = \"The jury made the decision.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "The court found _____ accused guilty.",
+      "options": [
+        "orange",
+        "equal",
+        "a",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"The court found the accused guilty.\""
+    }
+  ]
+}

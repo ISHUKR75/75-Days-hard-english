@@ -1,0 +1,107 @@
+{
+  "day": 51,
+  "topic": "Reported Speech Part 1 — Statements",
+  "passage": {
+    "title": "A Day with Reported Speech Part 1 — Statements",
+    "text": "He said, \"I am tired.\" He said that he was tired. She said, \"I go to school.\" She said that she went to school. They said, \"We are happy.\" They said that they were happy. He said, \"I have eaten food.\" He said that he had eaten food. He said, \"I am doing this.\" He said that he was doing this.",
+    "hindiTranslation": "उसने कहा, \"मैं थका हुआ हूँ।\" उसने कहा कि वह थका हुआ था। उसने कहा, \"मैं स्कूल जाती हूँ।\" उसने कहा कि वह स्कूल जाती थी। उन्होंने कहा, \"हम खुश हैं।\" उन्होंने कहा कि वे खुश थे। उसने कहा, \"मैंने खाना खा लिया है।\" उसने कहा कि उसने खाना खा लिया था। उसने कहा, \"मैं यह कर रहा हूँ।\" उसने कहा कि वह यह कर रहा था।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"He said, \"I am...\"?",
+      "options": [
+        "He said that he had eaten food.",
+        "He said, \"This is true.\"",
+        "He said that he was tired.",
+        "He said, \"I am tired.\""
+      ],
+      "answer": "He said, \"I am tired.\"",
+      "explanation": "Stated in the passage: \"He said, \"I am tired.\"\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"He said that he...\"?",
+      "options": [
+        "He said, \"I am doing this.\"",
+        "He said that this was true.",
+        "She said, \"I go to school.\"",
+        "He said that he was tired."
+      ],
+      "answer": "He said that he was tired.",
+      "explanation": "Stated in the passage: \"He said that he was tired.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"She said, \"I go...\"?",
+      "options": [
+        "He said that he was doing this.",
+        "They said, \"We need help.\"",
+        "She said that she went to school.",
+        "She said, \"I go to school.\""
+      ],
+      "answer": "She said, \"I go to school.\"",
+      "explanation": "Stated in the passage: \"She said, \"I go to school.\"\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"She said that she...\"?",
+      "options": [
+        "She said, \"I like this.\"",
+        "They said that they needed help.",
+        "They said, \"We are happy.\"",
+        "She said that she went to school."
+      ],
+      "answer": "She said that she went to school.",
+      "explanation": "Stated in the passage: \"She said that she went to school.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"They said, \"We are...\"?",
+      "options": [
+        "She said that she liked this.",
+        "He said, \"I understand this.\"",
+        "They said that they were happy.",
+        "They said, \"We are happy.\""
+      ],
+      "answer": "They said, \"We are happy.\"",
+      "explanation": "Stated in the passage: \"They said, \"We are happy.\"\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"They said that they...\"?",
+      "options": [
+        "I said, \"I will come.\"",
+        "He said that he understood this.",
+        "He said, \"I have eaten food.\"",
+        "They said that they were happy."
+      ],
+      "answer": "They said that they were happy.",
+      "explanation": "Stated in the passage: \"They said that they were happy.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"He said, \"I have...\"?",
+      "options": [
+        "I said that I would come.",
+        "He said, \"I am tired.\"",
+        "He said that he had eaten food.",
+        "He said, \"I have eaten food.\""
+      ],
+      "answer": "He said, \"I have eaten food.\"",
+      "explanation": "Stated in the passage: \"He said, \"I have eaten food.\"\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"He said that he...\"?",
+      "options": [
+        "He said, \"This is true.\"",
+        "He said that he was tired.",
+        "He said, \"I am doing this.\"",
+        "He said that he had eaten food."
+      ],
+      "answer": "He said that he had eaten food.",
+      "explanation": "Stated in the passage: \"He said that he had eaten food.\""
+    }
+  ]
+}

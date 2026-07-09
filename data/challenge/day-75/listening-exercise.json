@@ -1,0 +1,114 @@
+{
+  "day": 75,
+  "topic": "Complete Mock Test + Final Revision",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "This is my biggest achievement.",
+      "hindiScript": "यह मेरी सबसे बड़ी उपलब्धि है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My vocabulary has increased a lot.",
+        "Now I am ready for new opportunities.",
+        "I have completed this challenge.",
+        "This is my biggest achievement."
+      ],
+      "answer": "This is my biggest achievement."
+    },
+    {
+      "id": 2,
+      "audioScript": "I now speak English without hesitation.",
+      "hindiScript": "मैं अब बिना झिझक के अंग्रेज़ी बोलता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I can easily write emails and letters.",
+        "I am proud of my progress.",
+        "Seventy-five days ago I could not speak English.",
+        "I now speak English without hesitation."
+      ],
+      "answer": "I now speak English without hesitation."
+    },
+    {
+      "id": 3,
+      "audioScript": "This course has proved very useful in my life.",
+      "hindiScript": "यह कोर्स मेरे जीवन में बहुत उपयोगी साबित हुआ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I can easily do daily conversations.",
+        "This is my final test.",
+        "Now I don't hesitate to talk on any topic.",
+        "This course has proved very useful in my life."
+      ],
+      "answer": "This course has proved very useful in my life."
+    },
+    {
+      "id": 4,
+      "audioScript": "I worked hard every single day.",
+      "hindiScript": "मैंने हर दिन कड़ी मेहनत की।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is my biggest achievement.",
+        "I will take this test with confidence.",
+        "I speak confidently in the office.",
+        "I worked hard every single day."
+      ],
+      "answer": "I worked hard every single day."
+    },
+    {
+      "id": 5,
+      "audioScript": "Now I am ready for new opportunities.",
+      "hindiScript": "अब मैं नए अवसरों के लिए तैयार हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I now speak English without hesitation.",
+        "My English is now at a professional level.",
+        "I can perform well in an interview.",
+        "Now I am ready for new opportunities."
+      ],
+      "answer": "Now I am ready for new opportunities."
+    },
+    {
+      "id": 6,
+      "audioScript": "I am proud of my progress.",
+      "hindiScript": "मुझे अपनी प्रगति पर गर्व है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This course has proved very useful in my life.",
+        "I want to keep learning forever.",
+        "I now have a good understanding of grammar.",
+        "I am proud of my progress."
+      ],
+      "answer": "I am proud of my progress."
+    },
+    {
+      "id": 7,
+      "audioScript": "This is my final test.",
+      "hindiScript": "यह मेरी अंतिम परीक्षा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I worked hard every single day.",
+        "I can now speak English fluently.",
+        "My vocabulary has increased a lot.",
+        "This is my final test."
+      ],
+      "answer": "This is my final test."
+    },
+    {
+      "id": 8,
+      "audioScript": "I will take this test with confidence.",
+      "hindiScript": "मैं आत्मविश्वास से यह परीक्षा दूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Now I am ready for new opportunities.",
+        "I have completed this challenge.",
+        "I can easily write emails and letters.",
+        "I will take this test with confidence."
+      ],
+      "answer": "I will take this test with confidence."
+    }
+  ],
+  "dictationPassage": {
+    "text": "This is my biggest achievement. I now speak English without hesitation. This course has proved very useful in my life. I worked hard every single day. Now I am ready for new opportunities.",
+    "hindiTranslation": "यह मेरी सबसे बड़ी उपलब्धि है। मैं अब बिना झिझक के अंग्रेज़ी बोलता हूँ। यह कोर्स मेरे जीवन में बहुत उपयोगी साबित हुआ। मैंने हर दिन कड़ी मेहनत की। अब मैं नए अवसरों के लिए तैयार हूँ।"
+  }
+}

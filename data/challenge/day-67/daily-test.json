@@ -1,0 +1,255 @@
+{
+  "day": 67,
+  "topic": "Birds & Astrology Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "तोता हरे रंग का होता है।",
+      "options": [
+        "The cuckoo sings sweetly.",
+        "The astrologer told the future.",
+        "The sparrow is sitting on the roof.",
+        "The parrot is green in colour."
+      ],
+      "answer": "The parrot is green in colour.",
+      "explanation": "Correct translation: \"तोता हरे रंग का होता है।\" = \"The parrot is green in colour.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "The sparrow is _____ on the roof.",
+      "options": [
+        "swimming",
+        "true",
+        "India's",
+        "sitting"
+      ],
+      "answer": "sitting",
+      "explanation": "Full sentence: \"The sparrow is sitting on the roof.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "The peacock are India's national bird.",
+      "options": [
+        "The peacock are India's national bird.",
+        "The peacock is India's national bird."
+      ],
+      "answer": "The peacock is India's national bird.",
+      "explanation": "Correct sentence: \"The peacock is India's national bird.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "कौआ बहुत तेज आवाज करता है।",
+      "options": [
+        "She checked her horoscope.",
+        "His moon sign is Cancer.",
+        "The pigeon is a symbol of peace.",
+        "The crow makes a very loud sound."
+      ],
+      "answer": "The crow makes a very loud sound.",
+      "explanation": "Correct translation: \"कौआ बहुत तेज आवाज करता है।\" = \"The crow makes a very loud sound.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "The pigeon is _____ symbol of peace.",
+      "options": [
+        "is",
+        "early",
+        "very",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"The pigeon is a symbol of peace.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "The eagle flies very high yesterday.",
+      "options": [
+        "The eagle flies very high yesterday.",
+        "The eagle flies very high."
+      ],
+      "answer": "The eagle flies very high.",
+      "explanation": "Correct sentence: \"The eagle flies very high.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उल्लू रात में जागता है।",
+      "options": [
+        "This planet is bigger than Earth.",
+        "The parrot is green in colour.",
+        "The cuckoo sings sweetly.",
+        "The owl stays awake at night."
+      ],
+      "answer": "The owl stays awake at night.",
+      "explanation": "Correct translation: \"उल्लू रात में जागता है।\" = \"The owl stays awake at night.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "The cuckoo _____ sweetly.",
+      "options": [
+        "the",
+        "sitting",
+        "swimming",
+        "sings"
+      ],
+      "answer": "sings",
+      "explanation": "Full sentence: \"The cuckoo sings sweetly.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "The swan are swimming in the lake.",
+      "options": [
+        "The swan are swimming in the lake.",
+        "The swan is swimming in the lake."
+      ],
+      "answer": "The swan is swimming in the lake.",
+      "explanation": "Correct sentence: \"The swan is swimming in the lake.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मुर्गी अंडे देती है।",
+      "options": [
+        "Fortune is different for everyone.",
+        "The crow makes a very loud sound.",
+        "She checked her horoscope.",
+        "The hen lays eggs."
+      ],
+      "answer": "The hen lays eggs.",
+      "explanation": "Correct translation: \"मुर्गी अंडे देती है।\" = \"The hen lays eggs.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "She checked _____ horoscope.",
+      "options": [
+        "is",
+        "a",
+        "early",
+        "her"
+      ],
+      "answer": "her",
+      "explanation": "Full sentence: \"She checked her horoscope.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "My zodiac sign are Leo.",
+      "options": [
+        "My zodiac sign are Leo.",
+        "My zodiac sign is Leo."
+      ],
+      "answer": "My zodiac sign is Leo.",
+      "explanation": "Correct sentence: \"My zodiac sign is Leo.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "आज रात आसमान में तारे साफ दिखे।",
+      "options": [
+        "Many birds are flying in the sky.",
+        "The owl stays awake at night.",
+        "This planet is bigger than Earth.",
+        "The stars were clearly visible in the sky tonight."
+      ],
+      "answer": "The stars were clearly visible in the sky tonight.",
+      "explanation": "Correct translation: \"आज रात आसमान में तारे साफ दिखे।\" = \"The stars were clearly visible in the sky tonight.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "This planet is _____ than Earth.",
+      "options": [
+        "green",
+        "sweetly",
+        "the",
+        "bigger"
+      ],
+      "answer": "bigger",
+      "explanation": "Full sentence: \"This planet is bigger than Earth.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "The astrologer told the future yesterday.",
+      "options": [
+        "The astrologer told the future yesterday.",
+        "The astrologer told the future."
+      ],
+      "answer": "The astrologer told the future.",
+      "explanation": "Correct sentence: \"The astrologer told the future.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "उसकी भविष्यवाणी सच हुई।",
+      "options": [
+        "The peacock is India's national bird.",
+        "The hen lays eggs.",
+        "Fortune is different for everyone.",
+        "His prediction came true."
+      ],
+      "answer": "His prediction came true.",
+      "explanation": "Correct translation: \"उसकी भविष्यवाणी सच हुई।\" = \"His prediction came true.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Fortune is _____ for everyone.",
+      "options": [
+        "a",
+        "horoscope",
+        "is",
+        "different"
+      ],
+      "answer": "different",
+      "explanation": "Full sentence: \"Fortune is different for everyone.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "His moon sign are Cancer.",
+      "options": [
+        "His moon sign are Cancer.",
+        "His moon sign is Cancer."
+      ],
+      "answer": "His moon sign is Cancer.",
+      "explanation": "Correct sentence: \"His moon sign is Cancer.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "पक्षी सुबह जल्दी उठते हैं।",
+      "options": [
+        "The eagle flies very high.",
+        "The stars were clearly visible in the sky tonight.",
+        "Many birds are flying in the sky.",
+        "Birds wake up early in the morning."
+      ],
+      "answer": "Birds wake up early in the morning.",
+      "explanation": "Correct translation: \"पक्षी सुबह जल्दी उठते हैं।\" = \"Birds wake up early in the morning.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Many birds are _____ in the sky.",
+      "options": [
+        "awake",
+        "bigger",
+        "green",
+        "flying"
+      ],
+      "answer": "flying",
+      "explanation": "Full sentence: \"Many birds are flying in the sky.\""
+    }
+  ]
+}

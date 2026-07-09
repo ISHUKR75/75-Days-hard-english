@@ -1,0 +1,107 @@
+{
+  "day": 69,
+  "topic": "Application Writing",
+  "passage": {
+    "title": "A Day with Application Writing",
+    "text": "Sir, I request three days of leave from you. I want leave because I am unwell. Please approve my leave. I would like to apply for this position. I have sufficient experience for this job. Please accept my application. I am applying for a transfer. I need to change my city because of my family. I am applying for a scholarship. My marks are sufficient for this scholarship.",
+    "hindiTranslation": "महोदय, मैं आपसे तीन दिन की छुट्टी की विनती करता हूँ। मैं बीमार होने के कारण छुट्टी चाहता हूँ। कृपया मेरी छुट्टी स्वीकृत करें। मैं इस पद के लिए आवेदन करना चाहता हूँ। मेरे पास इस काम का पर्याप्त अनुभव है। कृपया मेरा आवेदन स्वीकार करें। मैं स्थानांतरण के लिए आवेदन कर रहा हूँ। मेरे परिवार की वजह से मुझे शहर बदलना है। मैं छात्रवृत्ति के लिए आवेदन कर रहा हूँ। मेरे अंक इस छात्रवृत्ति के लिए पर्याप्त हैं।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"Sir, I request three...\"?",
+      "options": [
+        "I need to change my city because of my family.",
+        "I am a student of this school.",
+        "I want leave because I am unwell.",
+        "Sir, I request three days of leave from you."
+      ],
+      "answer": "Sir, I request three days of leave from you.",
+      "explanation": "Stated in the passage: \"Sir, I request three days of leave from you.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I want leave because...\"?",
+      "options": [
+        "I am applying for a scholarship.",
+        "My roll number is twenty-five.",
+        "Please approve my leave.",
+        "I want leave because I am unwell."
+      ],
+      "answer": "I want leave because I am unwell.",
+      "explanation": "Stated in the passage: \"I want leave because I am unwell.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Please approve my leave....\"?",
+      "options": [
+        "My marks are sufficient for this scholarship.",
+        "Please approve this immediately.",
+        "I would like to apply for this position.",
+        "Please approve my leave."
+      ],
+      "answer": "Please approve my leave.",
+      "explanation": "Stated in the passage: \"Please approve my leave.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I would like to...\"?",
+      "options": [
+        "I need a bonafide certificate.",
+        "I hope for your positive reply.",
+        "I have sufficient experience for this job.",
+        "I would like to apply for this position."
+      ],
+      "answer": "I would like to apply for this position.",
+      "explanation": "Stated in the passage: \"I would like to apply for this position.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"I have sufficient experience...\"?",
+      "options": [
+        "I need this certificate to open a bank account.",
+        "This is my first application.",
+        "Please accept my application.",
+        "I have sufficient experience for this job."
+      ],
+      "answer": "I have sufficient experience for this job.",
+      "explanation": "Stated in the passage: \"I have sufficient experience for this job.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Please accept my application....\"?",
+      "options": [
+        "Thank you, I will wait for your prompt response.",
+        "I will be grateful for this opportunity.",
+        "I am applying for a transfer.",
+        "Please accept my application."
+      ],
+      "answer": "Please accept my application.",
+      "explanation": "Stated in the passage: \"Please accept my application.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I am applying for...\"?",
+      "options": [
+        "Yours sincerely.",
+        "Sir, I request three days of leave from you.",
+        "I need to change my city because of my family.",
+        "I am applying for a transfer."
+      ],
+      "answer": "I am applying for a transfer.",
+      "explanation": "Stated in the passage: \"I am applying for a transfer.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"I need to change...\"?",
+      "options": [
+        "I am a student of this school.",
+        "I want leave because I am unwell.",
+        "I am applying for a scholarship.",
+        "I need to change my city because of my family."
+      ],
+      "answer": "I need to change my city because of my family.",
+      "explanation": "Stated in the passage: \"I need to change my city because of my family.\""
+    }
+  ]
+}

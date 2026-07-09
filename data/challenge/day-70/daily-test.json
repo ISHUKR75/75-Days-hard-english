@@ -1,0 +1,255 @@
+{
+  "day": 70,
+  "topic": "Letter Writing",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "प्रिय मित्र, मुझे आशा है तुम ठीक होगे।",
+      "options": [
+        "Your loving son.",
+        "Please replace it as soon as possible.",
+        "I want to tell you about my new job.",
+        "Dear friend, I hope you are well."
+      ],
+      "answer": "Dear friend, I hope you are well.",
+      "explanation": "Correct translation: \"प्रिय मित्र, मुझे आशा है तुम ठीक होगे।\" = \"Dear friend, I hope you are well.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I want to tell _____ about my new job.",
+      "options": [
+        "request",
+        "Sharma",
+        "am",
+        "you"
+      ],
+      "answer": "you",
+      "explanation": "Full sentence: \"I want to tell you about my new job.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Respected Sir, I am writing this letter to you as a complaint yesterday.",
+      "options": [
+        "Respected Sir, I am writing this letter to you as a complaint yesterday.",
+        "Respected Sir, I am writing this letter to you as a complaint."
+      ],
+      "answer": "Respected Sir, I am writing this letter to you as a complaint.",
+      "explanation": "Correct sentence: \"Respected Sir, I am writing this letter to you as a complaint.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "सड़क की हालत बहुत खराब है।",
+      "options": [
+        "Dear sister, congratulations on your wedding.",
+        "I will come to meet you soon.",
+        "Please solve this problem.",
+        "The condition of the road is very bad."
+      ],
+      "answer": "The condition of the road is very bad.",
+      "explanation": "Correct translation: \"सड़क की हालत बहुत खराब है।\" = \"The condition of the road is very bad.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Please solve _____ problem.",
+      "options": [
+        "come",
+        "formal",
+        "am",
+        "this"
+      ],
+      "answer": "this",
+      "explanation": "Full sentence: \"Please solve this problem.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Dear mother, I am fine here yesterday.",
+      "options": [
+        "Dear mother, I am fine here yesterday.",
+        "Dear mother, I am fine here."
+      ],
+      "answer": "Dear mother, I am fine here.",
+      "explanation": "Correct sentence: \"Dear mother, I am fine here.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मुझे तुम्हारी बहुत याद आती है।",
+      "options": [
+        "I received the wrong product.",
+        "Dear friend, I hope you are well.",
+        "Your loving son.",
+        "I miss you a lot."
+      ],
+      "answer": "I miss you a lot.",
+      "explanation": "Correct translation: \"मुझे तुम्हारी बहुत याद आती है।\" = \"I miss you a lot.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Your _____ son.",
+      "options": [
+        "as",
+        "tell",
+        "request",
+        "loving"
+      ],
+      "answer": "loving",
+      "explanation": "Full sentence: \"Your loving son.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Respected Editor, I request you to publish this letter yesterday.",
+      "options": [
+        "Respected Editor, I request you to publish this letter yesterday.",
+        "Respected Editor, I request you to publish this letter."
+      ],
+      "answer": "Respected Editor, I request you to publish this letter.",
+      "explanation": "Correct sentence: \"Respected Editor, I request you to publish this letter.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "यह समस्या पूरे शहर को प्रभावित कर रही है।",
+      "options": [
+        "Dear friend, I received your letter.",
+        "The condition of the road is very bad.",
+        "Dear sister, congratulations on your wedding.",
+        "This problem is affecting the whole city."
+      ],
+      "answer": "This problem is affecting the whole city.",
+      "explanation": "Correct translation: \"यह समस्या पूरे शहर को प्रभावित कर रही है।\" = \"This problem is affecting the whole city.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Dear sister, congratulations _____ your wedding.",
+      "options": [
+        "to",
+        "problem",
+        "come",
+        "on"
+      ],
+      "answer": "on",
+      "explanation": "Full sentence: \"Dear sister, congratulations on your wedding.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I will definitely come to the wedding yesterday.",
+      "options": [
+        "I will definitely come to the wedding yesterday.",
+        "I will definitely come to the wedding."
+      ],
+      "answer": "I will definitely come to the wedding.",
+      "explanation": "Correct sentence: \"I will definitely come to the wedding.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "आदरणीय प्रबंधक महोदय, मैं अपने ऑर्डर के बारे में लिख रहा हूँ।",
+      "options": [
+        "This letter is informal.",
+        "I miss you a lot.",
+        "I received the wrong product.",
+        "Respected Manager, I am writing about my order."
+      ],
+      "answer": "Respected Manager, I am writing about my order.",
+      "explanation": "Correct translation: \"आदरणीय प्रबंधक महोदय, मैं अपने ऑर्डर के बारे में लिख रहा हूँ।\" = \"Respected Manager, I am writing about my order.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I received _____ wrong product.",
+      "options": [
+        "hope",
+        "son",
+        "as",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"I received the wrong product.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Please replace it as soon as possible yesterday.",
+      "options": [
+        "Please replace it as soon as possible yesterday.",
+        "Please replace it as soon as possible."
+      ],
+      "answer": "Please replace it as soon as possible.",
+      "explanation": "Correct sentence: \"Please replace it as soon as possible.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "भवदीय, राहुल शर्मा।",
+      "options": [
+        "Respected Sir, I am writing this letter to you as a complaint.",
+        "This problem is affecting the whole city.",
+        "Dear friend, I received your letter.",
+        "Yours faithfully, Rahul Sharma."
+      ],
+      "answer": "Yours faithfully, Rahul Sharma.",
+      "explanation": "Correct translation: \"भवदीय, राहुल शर्मा।\" = \"Yours faithfully, Rahul Sharma.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Dear friend, I _____ your letter.",
+      "options": [
+        "the",
+        "on",
+        "to",
+        "received"
+      ],
+      "answer": "received",
+      "explanation": "Full sentence: \"Dear friend, I received your letter.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I will come to meet you soon yesterday.",
+      "options": [
+        "I will come to meet you soon yesterday.",
+        "I will come to meet you soon."
+      ],
+      "answer": "I will come to meet you soon.",
+      "explanation": "Correct sentence: \"I will come to meet you soon.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह पत्र औपचारिक है।",
+      "options": [
+        "Dear mother, I am fine here.",
+        "Respected Manager, I am writing about my order.",
+        "This letter is informal.",
+        "This letter is formal."
+      ],
+      "answer": "This letter is formal.",
+      "explanation": "Correct translation: \"यह पत्र औपचारिक है।\" = \"This letter is formal.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "This letter _____ informal.",
+      "options": [
+        "a",
+        "wrong",
+        "hope",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"This letter is informal.\""
+    }
+  ]
+}

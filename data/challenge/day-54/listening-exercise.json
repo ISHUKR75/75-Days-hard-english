@@ -1,0 +1,114 @@
+{
+  "day": 54,
+  "topic": "Comparative & Superlative Adjectives",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "This car is more expensive than that one.",
+      "hindiScript": "यह कार उससे महंगी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He runs the fastest.",
+        "This way is easier than that one.",
+        "Ram is the tallest.",
+        "This car is more expensive than that one."
+      ],
+      "answer": "This car is more expensive than that one."
+    },
+    {
+      "id": 2,
+      "audioScript": "This is the most expensive car.",
+      "hindiScript": "यह सबसे महंगी कार है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Today's weather is worse than yesterday's.",
+        "This is the easiest way.",
+        "This movie is better than that movie.",
+        "This is the most expensive car."
+      ],
+      "answer": "This is the most expensive car."
+    },
+    {
+      "id": 3,
+      "audioScript": "He is smaller than him.",
+      "hindiScript": "वह उससे छोटा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is the worst weather this year.",
+        "He is more hardworking than me.",
+        "This is the best movie.",
+        "He is smaller than him."
+      ],
+      "answer": "He is smaller than him."
+    },
+    {
+      "id": 4,
+      "audioScript": "He is the smallest.",
+      "hindiScript": "वह सबसे छोटा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This car is more expensive than that one.",
+        "He is the most hardworking.",
+        "This book is more interesting than that one.",
+        "He is the smallest."
+      ],
+      "answer": "He is the smallest."
+    },
+    {
+      "id": 5,
+      "audioScript": "This way is easier than that one.",
+      "hindiScript": "यह रास्ता उससे आसान है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is the most expensive car.",
+        "This problem is harder than that one.",
+        "This is the most interesting book.",
+        "This way is easier than that one."
+      ],
+      "answer": "This way is easier than that one."
+    },
+    {
+      "id": 6,
+      "audioScript": "This is the easiest way.",
+      "hindiScript": "यह सबसे आसान रास्ता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He is smaller than him.",
+        "This is the hardest problem.",
+        "He runs faster than me.",
+        "This is the easiest way."
+      ],
+      "answer": "This is the easiest way."
+    },
+    {
+      "id": 7,
+      "audioScript": "He is more hardworking than me.",
+      "hindiScript": "वह मुझसे ज़्यादा मेहनती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He is the smallest.",
+        "Ram is taller than Shyam.",
+        "He runs the fastest.",
+        "He is more hardworking than me."
+      ],
+      "answer": "He is more hardworking than me."
+    },
+    {
+      "id": 8,
+      "audioScript": "He is the most hardworking.",
+      "hindiScript": "वह सबसे मेहनती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This way is easier than that one.",
+        "Ram is the tallest.",
+        "Today's weather is worse than yesterday's.",
+        "He is the most hardworking."
+      ],
+      "answer": "He is the most hardworking."
+    }
+  ],
+  "dictationPassage": {
+    "text": "This car is more expensive than that one. This is the most expensive car. He is smaller than him. He is the smallest. This way is easier than that one.",
+    "hindiTranslation": "यह कार उससे महंगी है। यह सबसे महंगी कार है। वह उससे छोटा है। वह सबसे छोटा है। यह रास्ता उससे आसान है।"
+  }
+}

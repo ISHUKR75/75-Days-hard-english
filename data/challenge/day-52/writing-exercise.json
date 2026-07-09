@@ -1,0 +1,46 @@
+{
+  "day": 52,
+  "topic": "Reported Speech Part 2 — Questions & Commands",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Reported Speech Part 2 — Questions & Commands.",
+      "hindiPrompt": "Reported Speech Part 2 — Questions & Commands का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "He asked, \"Are you coming?\" He asked if I was coming. She asked, \"Where do you live?\" She asked where I lived. He said, \"Do this work.\"",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Reported Speech Part 2 — Questions & Commands.",
+      "hindiPrompt": "Reported Speech Part 2 — Questions & Commands का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "He told me to do this work. She said, \"Do not come here.\" She told me not to come here. They asked, \"Are you ready?\" They asked if I was ready.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"उसने पूछा, \"तुम क्या कर रहे हो?\"\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He asked, \"What are you doing?\"",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"She asked where I lived yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "She asked where I lived.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Reported Speech Part 2 — Questions & Commands.",
+      "hindiPrompt": "Reported Speech Part 2 — Questions & Commands का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "The teacher said, \"Be quiet.\" The teacher told us to be quiet. She asked, \"When will you come?\" She asked when I would come.",
+      "wordLimit": 60
+    }
+  ]
+}

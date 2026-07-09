@@ -1,0 +1,48 @@
+{
+  "title": "Challenge Rules",
+  "hindiTitle": "चुनौती के नियम",
+  "rules": [
+    {
+      "id": 1,
+      "rule": "Complete every day in order — do not skip ahead.",
+      "hindiRule": "हर दिन क्रम से पूरा करें — आगे न कूदें।"
+    },
+    {
+      "id": 2,
+      "rule": "Finish all sections of the day (lessons, vocabulary, practice, test, speaking drill, writing, reading, listening) before moving to the next day.",
+      "hindiRule": "अगले दिन पर जाने से पहले उस दिन के सभी भाग (lessons, vocabulary, practice, test, speaking drill, writing, reading, listening) पूरे करें।"
+    },
+    {
+      "id": 3,
+      "rule": "Speak every example sentence out loud at least 3 times — silent reading alone will not build fluency.",
+      "hindiRule": "हर उदाहरण वाक्य को कम से कम 3 बार ज़ोर से बोलें — केवल पढ़ने से fluency नहीं आती।"
+    },
+    {
+      "id": 4,
+      "rule": "If you miss a day, resume from where you left off — do not restart from Day 1 unless you want extra revision.",
+      "hindiRule": "अगर आप एक दिन miss करते हैं, तो जहां छोड़ा था वहीं से जारी रखें — Day 1 से दोबारा शुरू न करें जब तक आप अतिरिक्त revision न चाहें।"
+    },
+    {
+      "id": 5,
+      "rule": "Score at least 70% on the daily test before moving to the next day for the best results.",
+      "hindiRule": "सबसे अच्छे परिणाम के लिए अगले दिन जाने से पहले daily test में कम से कम 70% स्कोर करें।"
+    },
+    {
+      "id": 6,
+      "rule": "Revise every 10th day (Day 10, 20, 30...) using the built-in revision section.",
+      "hindiRule": "हर 10वें दिन (Day 10, 20, 30...) built-in revision section का उपयोग करके revise करें।"
+    },
+    {
+      "id": 7,
+      "rule": "Use new vocabulary words in at least one real sentence of your own every day.",
+      "hindiRule": "हर दिन नए vocabulary शब्दों का उपयोग अपने कम से कम एक असली वाक्य में करें।"
+    },
+    {
+      "id": 8,
+      "rule": "Complete the Day 75 final mock test only after finishing all previous 74 days.",
+      "hindiRule": "Day 75 का final mock test पिछले सभी 74 दिन पूरा करने के बाद ही करें।"
+    }
+  ],
+  "streakPolicy": "Missing one day pauses your streak but does not reset your progress. Missing 7 days in a row resets your streak counter to zero.",
+  "hindiStreakPolicy": "एक दिन miss करने से आपकी streak रुक जाती है लेकिन progress reset नहीं होती। लगातार 7 दिन miss करने पर streak counter शून्य हो जाता है।"
+}

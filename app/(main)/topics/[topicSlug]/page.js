@@ -72,7 +72,7 @@ export default function UniversalTopicPage() {
       const categories = ['pronunciation', 'writing', 'real-life', 'soft-skills', 'listening', 'reading', 'practice'];
       for (const cat of categories) {
         try {
-          const res = await fetch(`/api/topics/${cat}/${topicSlug}`);
+          const res = await fetch(`/api/topics/by-category/${cat}/${topicSlug}`);
           if (res.ok) {
             setData(await res.json());
             setFoundCategory(cat);

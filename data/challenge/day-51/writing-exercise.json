@@ -1,0 +1,46 @@
+{
+  "day": 51,
+  "topic": "Reported Speech Part 1 — Statements",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Reported Speech Part 1 — Statements.",
+      "hindiPrompt": "Reported Speech Part 1 — Statements का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "He said, \"I am tired.\" He said that he was tired. She said, \"I go to school.\" She said that she went to school. They said, \"We are happy.\"",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Reported Speech Part 1 — Statements.",
+      "hindiPrompt": "Reported Speech Part 1 — Statements का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "They said that they were happy. He said, \"I have eaten food.\" He said that he had eaten food. He said, \"I am doing this.\" He said that he was doing this.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"उसने कहा, \"मुझे यह पसंद है।\"\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "She said, \"I like this.\"",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"She said that she went to school yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "She said that she went to school.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Reported Speech Part 1 — Statements.",
+      "hindiPrompt": "Reported Speech Part 1 — Statements का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I said, \"I will come.\" I said that I would come. He said, \"This is true.\" He said that this was true.",
+      "wordLimit": 60
+    }
+  ]
+}

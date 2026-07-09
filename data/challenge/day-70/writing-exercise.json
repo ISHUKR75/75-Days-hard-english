@@ -1,0 +1,46 @@
+{
+  "day": 70,
+  "topic": "Letter Writing",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Letter Writing.",
+      "hindiPrompt": "Letter Writing का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "Dear friend, I hope you are well. I want to tell you about my new job. Respected Sir, I am writing this letter to you as a complaint. The condition of the road is very bad. Please solve this problem.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Letter Writing.",
+      "hindiPrompt": "Letter Writing का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Dear mother, I am fine here. I miss you a lot. Your loving son. Respected Editor, I request you to publish this letter. This problem is affecting the whole city.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"प्रिय बहन, तुम्हारी शादी की बधाई।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Dear sister, congratulations on your wedding.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"The condition of the road are very bad.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "The condition of the road is very bad.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Letter Writing.",
+      "hindiPrompt": "Letter Writing का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Respected Manager, I am writing about my order. I received the wrong product. Please replace it as soon as possible. Yours faithfully, Rahul Sharma.",
+      "wordLimit": 60
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 65,
+  "topic": "Industry Vocabulary",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "There was a delay in the supply chain.",
+      "hindiScript": "आपूर्ति श्रृंखला में देरी हुई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "India exports clothes to other countries.",
+        "The demand for the product has increased.",
+        "The machine runs day and night.",
+        "There was a delay in the supply chain."
+      ],
+      "answer": "There was a delay in the supply chain."
+    },
+    {
+      "id": 2,
+      "audioScript": "The company is setting up a new plant.",
+      "hindiScript": "कंपनी नए संयंत्र लगा रही है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The manufacturing process is complex.",
+        "New technology was installed in the factory.",
+        "Workers work hard.",
+        "The company is setting up a new plant."
+      ],
+      "answer": "The company is setting up a new plant."
+    },
+    {
+      "id": 3,
+      "audioScript": "Workers need safety equipment.",
+      "hindiScript": "श्रमिकों को सुरक्षा उपकरण चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Quality control is necessary.",
+        "This company produces on a large scale.",
+        "Production has increased.",
+        "Workers need safety equipment."
+      ],
+      "answer": "Workers need safety equipment."
+    },
+    {
+      "id": 4,
+      "audioScript": "This industry creates employment.",
+      "hindiScript": "यह उद्योग रोजगार पैदा करता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There was a delay in the supply chain.",
+        "Maintenance of machines is necessary.",
+        "The manager gives instructions to the team.",
+        "This industry creates employment."
+      ],
+      "answer": "This industry creates employment."
+    },
+    {
+      "id": 5,
+      "audioScript": "The demand for the product has increased.",
+      "hindiScript": "उत्पाद की मांग बढ़ी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The company is setting up a new plant.",
+        "The industry received help from the government.",
+        "This industry is growing rapidly.",
+        "The demand for the product has increased."
+      ],
+      "answer": "The demand for the product has increased."
+    },
+    {
+      "id": 6,
+      "audioScript": "New technology was installed in the factory.",
+      "hindiScript": "फैक्ट्री में नई तकनीक लगाई गई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Workers need safety equipment.",
+        "This product sells in the international market.",
+        "We import raw material from abroad.",
+        "New technology was installed in the factory."
+      ],
+      "answer": "New technology was installed in the factory."
+    },
+    {
+      "id": 7,
+      "audioScript": "This company produces on a large scale.",
+      "hindiScript": "यह कंपनी बड़े पैमाने पर उत्पादन करती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This industry creates employment.",
+        "This factory manufactures clothes.",
+        "India exports clothes to other countries.",
+        "This company produces on a large scale."
+      ],
+      "answer": "This company produces on a large scale."
+    },
+    {
+      "id": 8,
+      "audioScript": "Maintenance of machines is necessary.",
+      "hindiScript": "मशीनों का रखरखाव जरूरी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The demand for the product has increased.",
+        "The machine runs day and night.",
+        "The manufacturing process is complex.",
+        "Maintenance of machines is necessary."
+      ],
+      "answer": "Maintenance of machines is necessary."
+    }
+  ],
+  "dictationPassage": {
+    "text": "There was a delay in the supply chain. The company is setting up a new plant. Workers need safety equipment. This industry creates employment. The demand for the product has increased.",
+    "hindiTranslation": "आपूर्ति श्रृंखला में देरी हुई। कंपनी नए संयंत्र लगा रही है। श्रमिकों को सुरक्षा उपकरण चाहिए। यह उद्योग रोजगार पैदा करता है। उत्पाद की मांग बढ़ी है।"
+  }
+}

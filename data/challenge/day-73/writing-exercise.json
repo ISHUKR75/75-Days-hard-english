@@ -1,0 +1,46 @@
+{
+  "day": 73,
+  "topic": "Notice Writing + Writing Skills Practice",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Notice Writing + Writing Skills Practice.",
+      "hindiPrompt": "Notice Writing + Writing Skills Practice का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "Notice: The school will remain closed tomorrow. All students must arrive on time. This notice is for all employees. The office will be closed tomorrow. This notice is effective immediately.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Notice Writing + Writing Skills Practice.",
+      "hindiPrompt": "Notice Writing + Writing Skills Practice का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Everyone should read this notice. A meeting will be held next Monday. Attendance of all members is compulsory. This notice has been put up on the board. Contact the office for any questions.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"यह सूचना विद्यार्थियों के हित में है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "This notice is in the interest of the students.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"The office will be closed tomorrow yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "The office will be closed tomorrow.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Notice Writing + Writing Skills Practice.",
+      "hindiPrompt": "Notice Writing + Writing Skills Practice का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Please keep your documents ready. This notice was circulated throughout the campus. Visit the website for more information. Follow the above instructions.",
+      "wordLimit": 60
+    }
+  ]
+}

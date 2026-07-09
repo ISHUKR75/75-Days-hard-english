@@ -1,0 +1,46 @@
+{
+  "day": 58,
+  "topic": "Since / For (Time Expressions with Perfect Tenses)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Since / For (Time Expressions with Perfect Tenses).",
+      "hindiPrompt": "Since / For (Time Expressions with Perfect Tenses) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I have been living here for two years. I have been living here since 2020. She has been studying for three hours. She has been studying since morning. We have been friends for five years.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Since / For (Time Expressions with Perfect Tenses).",
+      "hindiPrompt": "Since / For (Time Expressions with Perfect Tenses) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "We have been friends since college. He has not done this work for a week. He has not done this work since Monday. I have known this for ten years. I have known this since 2015.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"वह दो महीने से बीमार है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He has been sick for two months.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"She have been studying since morning.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "She has been studying since morning.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Since / For (Time Expressions with Perfect Tenses).",
+      "hindiPrompt": "Since / For (Time Expressions with Perfect Tenses) का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "They have been in this house for three years. They have been in this house since their marriage. I have been waiting for an hour. I have been waiting since noon.",
+      "wordLimit": 60
+    }
+  ]
+}

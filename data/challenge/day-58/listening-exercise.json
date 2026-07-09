@@ -1,0 +1,114 @@
+{
+  "day": 58,
+  "topic": "Since / For (Time Expressions with Perfect Tenses)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He has been sick for two months.",
+      "hindiScript": "वह दो महीने से बीमार है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He has not done this work since Monday.",
+        "I have been waiting for an hour.",
+        "I have been living here since 2020.",
+        "He has been sick for two months."
+      ],
+      "answer": "He has been sick for two months."
+    },
+    {
+      "id": 2,
+      "audioScript": "He has been sick since his birthday.",
+      "hindiScript": "वह अपने जन्मदिन से बीमार है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have known this for ten years.",
+        "I have been waiting since noon.",
+        "She has been studying for three hours.",
+        "He has been sick since his birthday."
+      ],
+      "answer": "He has been sick since his birthday."
+    },
+    {
+      "id": 3,
+      "audioScript": "They have been in this house for three years.",
+      "hindiScript": "वे तीन साल से इस घर में हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have known this since 2015.",
+        "She has done this job for four years.",
+        "She has been studying since morning.",
+        "They have been in this house for three years."
+      ],
+      "answer": "They have been in this house for three years."
+    },
+    {
+      "id": 4,
+      "audioScript": "They have been in this house since their marriage.",
+      "hindiScript": "वे शादी के बाद से इस घर में हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He has been sick for two months.",
+        "She has done this job since 2021.",
+        "We have been friends for five years.",
+        "They have been in this house since their marriage."
+      ],
+      "answer": "They have been in this house since their marriage."
+    },
+    {
+      "id": 5,
+      "audioScript": "I have been waiting for an hour.",
+      "hindiScript": "मैं एक घंटे से इंतज़ार कर रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He has been sick since his birthday.",
+        "We have been practicing for two weeks.",
+        "We have been friends since college.",
+        "I have been waiting for an hour."
+      ],
+      "answer": "I have been waiting for an hour."
+    },
+    {
+      "id": 6,
+      "audioScript": "I have been waiting since noon.",
+      "hindiScript": "मैं दोपहर से इंतज़ार कर रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They have been in this house for three years.",
+        "We have been practicing since the beginning.",
+        "He has not done this work for a week.",
+        "I have been waiting since noon."
+      ],
+      "answer": "I have been waiting since noon."
+    },
+    {
+      "id": 7,
+      "audioScript": "She has done this job for four years.",
+      "hindiScript": "उसने चार साल से यह नौकरी की है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They have been in this house since their marriage.",
+        "I have been living here for two years.",
+        "He has not done this work since Monday.",
+        "She has done this job for four years."
+      ],
+      "answer": "She has done this job for four years."
+    },
+    {
+      "id": 8,
+      "audioScript": "She has done this job since 2021.",
+      "hindiScript": "उसने 2021 से यह नौकरी की है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have been waiting for an hour.",
+        "I have been living here since 2020.",
+        "I have known this for ten years.",
+        "She has done this job since 2021."
+      ],
+      "answer": "She has done this job since 2021."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He has been sick for two months. He has been sick since his birthday. They have been in this house for three years. They have been in this house since their marriage. I have been waiting for an hour.",
+    "hindiTranslation": "वह दो महीने से बीमार है। वह अपने जन्मदिन से बीमार है। वे तीन साल से इस घर में हैं। वे शादी के बाद से इस घर में हैं। मैं एक घंटे से इंतज़ार कर रहा हूँ।"
+  }
+}

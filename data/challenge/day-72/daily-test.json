@@ -1,0 +1,255 @@
+{
+  "day": 72,
+  "topic": "Paragraph Writing",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मेरा पसंदीदा मौसम बारिश का मौसम है।",
+      "options": [
+        "It makes us a better person.",
+        "Nature teaches us a lot.",
+        "Everything becomes green in the rain.",
+        "My favourite season is the rainy season."
+      ],
+      "answer": "My favourite season is the rainy season.",
+      "explanation": "Correct translation: \"मेरा पसंदीदा मौसम बारिश का मौसम है।\" = \"My favourite season is the rainy season.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Everything becomes green _____ the rain.",
+      "options": [
+        "good",
+        "trees",
+        "books",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"Everything becomes green in the rain.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I like reading books a lot yesterday.",
+      "options": [
+        "I like reading books a lot yesterday.",
+        "I like reading books a lot."
+      ],
+      "answer": "I like reading books a lot.",
+      "explanation": "Correct sentence: \"I like reading books a lot.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "किताबें ज्ञान का भंडार होती हैं।",
+      "options": [
+        "Health is real wealth.",
+        "There are many languages and cultures here.",
+        "My village is very beautiful.",
+        "Books are a treasure of knowledge."
+      ],
+      "answer": "Books are a treasure of knowledge.",
+      "explanation": "Correct translation: \"किताबें ज्ञान का भंडार होती हैं।\" = \"Books are a treasure of knowledge.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "My village _____ very beautiful.",
+      "options": [
+        "daily",
+        "the",
+        "fields",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"My village is very beautiful.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "There is green fields and clean air there.",
+      "options": [
+        "There is green fields and clean air there.",
+        "There are green fields and clean air there."
+      ],
+      "answer": "There are green fields and clean air there.",
+      "explanation": "Correct sentence: \"There are green fields and clean air there.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "शिक्षा जीवन में बहुत महत्वपूर्ण है।",
+      "options": [
+        "She always supports me.",
+        "My favourite season is the rainy season.",
+        "It makes us a better person.",
+        "Education is very important in life."
+      ],
+      "answer": "Education is very important in life.",
+      "explanation": "Correct translation: \"शिक्षा जीवन में बहुत महत्वपूर्ण है।\" = \"Education is very important in life.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "It makes us _____ better person.",
+      "options": [
+        "in",
+        "good",
+        "trees",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"It makes us a better person.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "We should make good use of time yesterday.",
+      "options": [
+        "We should make good use of time yesterday.",
+        "We should make good use of time."
+      ],
+      "answer": "We should make good use of time.",
+      "explanation": "Correct sentence: \"We should make good use of time.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "जो समय बर्बाद करता है, वह पछताता है।",
+      "options": [
+        "India is a country of diversities.",
+        "Books are a treasure of knowledge.",
+        "Health is real wealth.",
+        "The one who wastes time regrets later."
+      ],
+      "answer": "The one who wastes time regrets later.",
+      "explanation": "Correct translation: \"जो समय बर्बाद करता है, वह पछताता है।\" = \"The one who wastes time regrets later.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Health is _____ wealth.",
+      "options": [
+        "languages",
+        "very",
+        "daily",
+        "real"
+      ],
+      "answer": "real",
+      "explanation": "Full sentence: \"Health is real wealth.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "We should exercise daily yesterday.",
+      "options": [
+        "We should exercise daily yesterday.",
+        "We should exercise daily."
+      ],
+      "answer": "We should exercise daily.",
+      "explanation": "Correct sentence: \"We should exercise daily.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मेरी माँ मेरी सबसे अच्छी दोस्त है।",
+      "options": [
+        "The one who works hard definitely succeeds.",
+        "Education is very important in life.",
+        "She always supports me.",
+        "My mother is my best friend."
+      ],
+      "answer": "My mother is my best friend.",
+      "explanation": "Correct translation: \"मेरी माँ मेरी सबसे अच्छी दोस्त है।\" = \"My mother is my best friend.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "She always _____ me.",
+      "options": [
+        "is",
+        "a",
+        "in",
+        "supports"
+      ],
+      "answer": "supports",
+      "explanation": "Full sentence: \"She always supports me.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Nature teaches us a lot yesterday.",
+      "options": [
+        "Nature teaches us a lot yesterday.",
+        "Nature teaches us a lot."
+      ],
+      "answer": "Nature teaches us a lot.",
+      "explanation": "Correct sentence: \"Nature teaches us a lot.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "हमें पेड़ों की रक्षा करनी चाहिए।",
+      "options": [
+        "I like reading books a lot.",
+        "The one who wastes time regrets later.",
+        "India is a country of diversities.",
+        "We should protect trees."
+      ],
+      "answer": "We should protect trees.",
+      "explanation": "Correct translation: \"हमें पेड़ों की रक्षा करनी चाहिए।\" = \"We should protect trees.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "India is a _____ of diversities.",
+      "options": [
+        "treasure",
+        "wealth",
+        "languages",
+        "country"
+      ],
+      "answer": "country",
+      "explanation": "Full sentence: \"India is a country of diversities.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "There is many languages and cultures here.",
+      "options": [
+        "There is many languages and cultures here.",
+        "There are many languages and cultures here."
+      ],
+      "answer": "There are many languages and cultures here.",
+      "explanation": "Correct sentence: \"There are many languages and cultures here.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मेहनत सफलता की कुंजी है।",
+      "options": [
+        "There are green fields and clean air there.",
+        "My mother is my best friend.",
+        "The one who works hard definitely succeeds.",
+        "Hard work is the key to success."
+      ],
+      "answer": "Hard work is the key to success.",
+      "explanation": "Correct translation: \"मेहनत सफलता की कुंजी है।\" = \"Hard work is the key to success.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "The one who _____ hard definitely succeeds.",
+      "options": [
+        "important",
+        "me",
+        "is",
+        "works"
+      ],
+      "answer": "works",
+      "explanation": "Full sentence: \"The one who works hard definitely succeeds.\""
+    }
+  ]
+}

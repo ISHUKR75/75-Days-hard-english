@@ -1,0 +1,287 @@
+{
+  "day": 70,
+  "topic": "Letter Writing",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "प्रिय मित्र, मुझे आशा है तुम ठीक होगे।",
+      "english": "Dear friend, I hope you are well.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Dear friend, I hope you are well.\"",
+      "difficulty": "easy",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 2,
+      "hindi": "मैं तुम्हें अपनी नई नौकरी के बारे में बताना चाहता हूँ।",
+      "english": "I want to tell you about my new job.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"I want to tell you about my new job.\"",
+      "difficulty": "medium",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 3,
+      "hindi": "आदरणीय महोदय, मैं आपको यह पत्र शिकायत के लिए लिख रहा हूँ।",
+      "english": "Respected Sir, I am writing this letter to you as a complaint.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Respected Sir, I am writing this letter to you as a complaint.\"",
+      "difficulty": "hard",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 4,
+      "hindi": "सड़क की हालत बहुत खराब है।",
+      "english": "The condition of the road is very bad.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"The condition of the road is very bad.\"",
+      "difficulty": "easy",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 5,
+      "hindi": "कृपया इस समस्या का समाधान करें।",
+      "english": "Please solve this problem.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Please solve this problem.\"",
+      "difficulty": "medium",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 6,
+      "hindi": "प्रिय माँ, मैं यहाँ ठीक हूँ।",
+      "english": "Dear mother, I am fine here.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Dear mother, I am fine here.\"",
+      "difficulty": "hard",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 7,
+      "hindi": "मुझे तुम्हारी बहुत याद आती है।",
+      "english": "I miss you a lot.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"I miss you a lot.\"",
+      "difficulty": "easy",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 8,
+      "hindi": "आपका स्नेही पुत्र।",
+      "english": "Your loving son.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Your loving son.\"",
+      "difficulty": "medium",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 9,
+      "hindi": "आदरणीय संपादक महोदय, मैं यह पत्र प्रकाशित करने का अनुरोध करता हूँ।",
+      "english": "Respected Editor, I request you to publish this letter.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Respected Editor, I request you to publish this letter.\"",
+      "difficulty": "hard",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 10,
+      "hindi": "यह समस्या पूरे शहर को प्रभावित कर रही है।",
+      "english": "This problem is affecting the whole city.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"This problem is affecting the whole city.\"",
+      "difficulty": "easy",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 11,
+      "hindi": "प्रिय बहन, तुम्हारी शादी की बधाई।",
+      "english": "Dear sister, congratulations on your wedding.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Dear sister, congratulations on your wedding.\"",
+      "difficulty": "medium",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 12,
+      "hindi": "मैं शादी में जरूर आऊँगा।",
+      "english": "I will definitely come to the wedding.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"I will definitely come to the wedding.\"",
+      "difficulty": "hard",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 13,
+      "hindi": "आदरणीय प्रबंधक महोदय, मैं अपने ऑर्डर के बारे में लिख रहा हूँ।",
+      "english": "Respected Manager, I am writing about my order.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Respected Manager, I am writing about my order.\"",
+      "difficulty": "easy",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 14,
+      "hindi": "मुझे गलत उत्पाद मिला है।",
+      "english": "I received the wrong product.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"I received the wrong product.\"",
+      "difficulty": "medium",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 15,
+      "hindi": "कृपया इसे जल्द से जल्द बदलें।",
+      "english": "Please replace it as soon as possible.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Please replace it as soon as possible.\"",
+      "difficulty": "hard",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 16,
+      "hindi": "भवदीय, राहुल शर्मा।",
+      "english": "Yours faithfully, Rahul Sharma.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Yours faithfully, Rahul Sharma.\"",
+      "difficulty": "easy",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 17,
+      "hindi": "प्रिय दोस्त, तुम्हारा पत्र मिला।",
+      "english": "Dear friend, I received your letter.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"Dear friend, I received your letter.\"",
+      "difficulty": "medium",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 18,
+      "hindi": "मैं जल्द ही तुमसे मिलने आऊँगा।",
+      "english": "I will come to meet you soon.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"I will come to meet you soon.\"",
+      "difficulty": "hard",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 19,
+      "hindi": "यह पत्र औपचारिक है।",
+      "english": "This letter is formal.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"This letter is formal.\"",
+      "difficulty": "easy",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    },
+    {
+      "id": 20,
+      "hindi": "यह पत्र अनौपचारिक है।",
+      "english": "This letter is informal.",
+      "alternatives": [],
+      "hint": "Use the pattern: Salutation + opening line + body (news/complaint/request) + closing signature",
+      "explanation": "Correct sentence: \"This letter is informal.\"",
+      "difficulty": "medium",
+      "tags": [
+        "letter"
+      ],
+      "grammarRule": "Letter Writing",
+      "category": "Letter Writing practice"
+    }
+  ]
+}

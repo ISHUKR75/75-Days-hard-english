@@ -1,0 +1,46 @@
+{
+  "day": 74,
+  "topic": "Grammar + Vocabulary + Speaking Full Revision",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Grammar + Vocabulary + Speaking Full Revision.",
+      "hindiPrompt": "Grammar + Vocabulary + Speaking Full Revision का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I practise speaking English every day. He speaks better than before. If I work hard, I will succeed. He said that he would come soon. Will you meet me today?",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Grammar + Vocabulary + Speaking Full Revision.",
+      "hindiPrompt": "Grammar + Vocabulary + Speaking Full Revision का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I have to read this book. He has been working here for three years. You are a very good person, aren't you? I have confidence in speaking English. I have learned from my mistakes.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"यह शब्द रोज़ के इस्तेमाल के लिए जरूरी है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "This word is necessary for daily use.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"He said that he will come soon.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "He said that he would come soon.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Grammar + Vocabulary + Speaking Full Revision.",
+      "hindiPrompt": "Grammar + Vocabulary + Speaking Full Revision का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I express my thoughts clearly. This sentence is with correct grammar. I like learning new vocabulary. Today I learned five new words.",
+      "wordLimit": 60
+    }
+  ]
+}

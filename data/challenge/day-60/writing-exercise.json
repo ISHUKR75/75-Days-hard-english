@@ -1,0 +1,46 @@
+{
+  "day": 60,
+  "topic": "Revision of Days 51-59",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Revision of Days 51-59.",
+      "hindiPrompt": "Revision of Days 51-59 का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "He said that he was tired. She asked where I lived. You are coming, aren't you? Ram is the tallest. This is the most interesting book.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Revision of Days 51-59.",
+      "hindiPrompt": "Revision of Days 51-59 का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I need a book. The sun rises in the east. If you work hard, you will succeed. If I had money, I would buy this house. If I had worked hard, I would have passed.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"मैं दो साल से यहाँ रह रहा हूँ।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "I have been living here for two years.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Ram are the tallest.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Ram is the tallest.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Revision of Days 51-59.",
+      "hindiPrompt": "Revision of Days 51-59 का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I wish I had more money. If only I had studied earlier. He told me to do this work. He sings well, doesn't he?",
+      "wordLimit": 60
+    }
+  ]
+}

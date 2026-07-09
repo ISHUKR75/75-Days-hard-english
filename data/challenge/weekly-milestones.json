@@ -1,0 +1,17 @@
+{
+  "title": "Weekly Milestones",
+  "hindiTitle": "साप्ताहिक उपलब्धियाँ",
+  "weeks": [
+    { "week": 1, "days": "1-7", "milestone": "You can introduce yourself and form basic sentences with be-verbs.", "hindiMilestone": "आप अपना परिचय दे सकते हैं और be-verbs के साथ बुनियादी वाक्य बना सकते हैं।", "badge": "first-steps", "xpBonus": 100 },
+    { "week": 2, "days": "8-14", "milestone": "You understand has/have/had and can talk about possession and past experiences.", "hindiMilestone": "आप has/have/had समझते हैं और possession व past experiences के बारे में बात कर सकते हैं।", "badge": "possession-master", "xpBonus": 100 },
+    { "week": 3, "days": "15-21", "milestone": "You can express wishes, requests and suggestions using want, let and would like to.", "hindiMilestone": "आप want, let और would like to का उपयोग करके इच्छाएं, अनुरोध और सुझाव व्यक्त कर सकते हैं।", "badge": "polite-speaker", "xpBonus": 100 },
+    { "week": 4, "days": "22-28", "milestone": "You use modal verbs (can, should, may, must) confidently in daily and office conversations.", "hindiMilestone": "आप can, should, may, must जैसी modal verbs का आत्मविश्वास से daily और office बातचीत में उपयोग करते हैं।", "badge": "modal-champion", "xpBonus": 100 },
+    { "week": 5, "days": "29-35", "milestone": "You can talk about past habits, hypothetical situations and all major tenses.", "hindiMilestone": "आप past habits, hypothetical situations और सभी प्रमुख tenses के बारे में बात कर सकते हैं।", "badge": "tense-master", "xpBonus": 100 },
+    { "week": 6, "days": "36-42", "milestone": "You use prepositions and obligation phrases (has to/have to) correctly.", "hindiMilestone": "आप prepositions और obligation phrases (has to/have to) का सही उपयोग करते हैं।", "badge": "structure-builder", "xpBonus": 100 },
+    { "week": 7, "days": "43-49", "milestone": "You form passive voice sentences and use conjunctions and WH-words naturally.", "hindiMilestone": "आप passive voice वाक्य बनाते हैं और conjunctions व WH-words का स्वाभाविक रूप से उपयोग करते हैं।", "badge": "sentence-architect", "xpBonus": 100 },
+    { "week": 8, "days": "50-56", "milestone": "You can report what someone said and form question tags correctly.", "hindiMilestone": "आप बता सकते हैं कि किसी ने क्या कहा और सही question tags बना सकते हैं।", "badge": "reported-speech-pro", "xpBonus": 150 },
+    { "week": 9, "days": "57-63", "milestone": "You know 500+ new vocabulary words across daily, office and academic contexts.", "hindiMilestone": "आप daily, office और academic संदर्भों में 500+ नए शब्द जानते हैं।", "badge": "vocabulary-champion", "xpBonus": 150 },
+    { "week": 10, "days": "64-70", "milestone": "You can write basic applications and letters confidently in English.", "hindiMilestone": "आप आत्मविश्वास से अंग्रेज़ी में बुनियादी applications और letters लिख सकते हैं।", "badge": "writing-starter", "xpBonus": 150 },
+    { "week": 11, "days": "71-75", "milestone": "You complete the full 75-day challenge with professional-level English fluency.", "hindiMilestone": "आप पूरी 75-दिन की चुनौती को पेशेवर स्तर की अंग्रेज़ी fluency के साथ पूरा करते हैं।", "badge": "75-day-graduate", "xpBonus": 500 }
+  ]
+}

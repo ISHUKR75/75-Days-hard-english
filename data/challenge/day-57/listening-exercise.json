@@ -1,0 +1,114 @@
+{
+  "day": 57,
+  "topic": "If Clauses / Conditionals Part 2 — Second & Third Conditional",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "If I had a car, I would go to office every day.",
+      "hindiScript": "अगर मेरे पास कार होती, तो मैं रोज ऑफिस जाता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If I had known the mistake, I would have corrected it.",
+        "If I were a pilot, I would travel the world.",
+        "If I were you, I would not do this.",
+        "If I had a car, I would go to office every day."
+      ],
+      "answer": "If I had a car, I would go to office every day."
+    },
+    {
+      "id": 2,
+      "audioScript": "If we had started earlier, we would have finished.",
+      "hindiScript": "अगर हमने पहले शुरू किया होता, तो हम खत्म कर लेते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If the weather were good, we would go out.",
+        "If he had called me, I would have come.",
+        "If she knew, she would come.",
+        "If we had started earlier, we would have finished."
+      ],
+      "answer": "If we had started earlier, we would have finished."
+    },
+    {
+      "id": 3,
+      "audioScript": "If you were happy, I would be happy too.",
+      "hindiScript": "अगर तुम खुश होते, तो मैं भी खुश होता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If he had asked me, I would have told him.",
+        "If you were in my place, what would you do?",
+        "If I had time, I would travel.",
+        "If you were happy, I would be happy too."
+      ],
+      "answer": "If you were happy, I would be happy too."
+    },
+    {
+      "id": 4,
+      "audioScript": "If he had paid attention, this mistake would not have happened.",
+      "hindiScript": "अगर उसने ध्यान दिया होता, तो यह गलती नहीं होती।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If I had a car, I would go to office every day.",
+        "If I had gotten this chance earlier, I would have taken it.",
+        "If I had worked hard, I would have passed.",
+        "If he had paid attention, this mistake would not have happened."
+      ],
+      "answer": "If he had paid attention, this mistake would not have happened."
+    },
+    {
+      "id": 5,
+      "audioScript": "If I were a pilot, I would travel the world.",
+      "hindiScript": "अगर मैं pilot होता, तो मैं दुनिया घूमता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If we had started earlier, we would have finished.",
+        "If he were honest, I would trust him.",
+        "If you had told me, I would have helped.",
+        "If I were a pilot, I would travel the world."
+      ],
+      "answer": "If I were a pilot, I would travel the world."
+    },
+    {
+      "id": 6,
+      "audioScript": "If he had called me, I would have come.",
+      "hindiScript": "अगर उसने मुझे फोन किया होता, तो मैं आ जाता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you were happy, I would be happy too.",
+        "If we had planned, this problem would not have happened.",
+        "If he had come early, we would have met.",
+        "If he had called me, I would have come."
+      ],
+      "answer": "If he had called me, I would have come."
+    },
+    {
+      "id": 7,
+      "audioScript": "If you were in my place, what would you do?",
+      "hindiScript": "अगर तुम मेरी जगह होते, तो क्या करते?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If he had paid attention, this mistake would not have happened.",
+        "If I had money, I would buy this house.",
+        "If I had known the mistake, I would have corrected it.",
+        "If you were in my place, what would you do?"
+      ],
+      "answer": "If you were in my place, what would you do?"
+    },
+    {
+      "id": 8,
+      "audioScript": "If I had gotten this chance earlier, I would have taken it.",
+      "hindiScript": "अगर मुझे यह मौका पहले मिला होता, तो मैं ले लेता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If I were a pilot, I would travel the world.",
+        "If I were you, I would not do this.",
+        "If the weather were good, we would go out.",
+        "If I had gotten this chance earlier, I would have taken it."
+      ],
+      "answer": "If I had gotten this chance earlier, I would have taken it."
+    }
+  ],
+  "dictationPassage": {
+    "text": "If I had a car, I would go to office every day. If we had started earlier, we would have finished. If you were happy, I would be happy too. If he had paid attention, this mistake would not have happened. If I were a pilot, I would travel the world.",
+    "hindiTranslation": "अगर मेरे पास कार होती, तो मैं रोज ऑफिस जाता। अगर हमने पहले शुरू किया होता, तो हम खत्म कर लेते। अगर तुम खुश होते, तो मैं भी खुश होता। अगर उसने ध्यान दिया होता, तो यह गलती नहीं होती। अगर मैं pilot होता, तो मैं दुनिया घूमता।"
+  }
+}

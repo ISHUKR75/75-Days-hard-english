@@ -1,0 +1,255 @@
+{
+  "day": 57,
+  "topic": "If Clauses / Conditionals Part 2 — Second & Third Conditional",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "अगर मेरे पास पैसे होते, तो मैं यह घर खरीदता।",
+      "options": [
+        "If I had known the mistake, I would have corrected it.",
+        "If I were a pilot, I would travel the world.",
+        "If I were you, I would not do this.",
+        "If I had money, I would buy this house."
+      ],
+      "answer": "If I had money, I would buy this house.",
+      "explanation": "Correct translation: \"अगर मेरे पास पैसे होते, तो मैं यह घर खरीदता।\" = \"If I had money, I would buy this house.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "If I were you, _____ would not do this.",
+      "options": [
+        "were",
+        "called",
+        "she",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "Full sentence: \"If I were you, I would not do this.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "If she knew, she will come.",
+      "options": [
+        "If she knew, she will come.",
+        "If she knew, she would come."
+      ],
+      "answer": "If she knew, she would come.",
+      "explanation": "Correct sentence: \"If she knew, she would come.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "अगर मुझे समय मिलता, तो मैं travel करता।",
+      "options": [
+        "If I had a car, I would go to office every day.",
+        "If I had gotten this chance earlier, I would have taken it.",
+        "If I had worked hard, I would have passed.",
+        "If I had time, I would travel."
+      ],
+      "answer": "If I had time, I would travel.",
+      "explanation": "Correct translation: \"अगर मुझे समय मिलता, तो मैं travel करता।\" = \"If I had time, I would travel.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "If I had worked _____ I would have passed.",
+      "options": [
+        "started",
+        "honest",
+        "told",
+        "hard"
+      ],
+      "answer": "hard",
+      "explanation": "Full sentence: \"If I had worked hard, I would have passed.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "If you had told me, I will have helped.",
+      "options": [
+        "If you had told me, I will have helped.",
+        "If you had told me, I would have helped."
+      ],
+      "answer": "If you had told me, I would have helped.",
+      "explanation": "Correct sentence: \"If you had told me, I would have helped.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "अगर वह जल्दी आया होता, तो हम मिल पाते।",
+      "options": [
+        "If he had paid attention, this mistake would not have happened.",
+        "If I had money, I would buy this house.",
+        "If I had known the mistake, I would have corrected it.",
+        "If he had come early, we would have met."
+      ],
+      "answer": "If he had come early, we would have met.",
+      "explanation": "Correct translation: \"अगर वह जल्दी आया होता, तो हम मिल पाते।\" = \"If he had come early, we would have met.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "If I had known the _____ I would have corrected it.",
+      "options": [
+        "a",
+        "you",
+        "were",
+        "mistake"
+      ],
+      "answer": "mistake",
+      "explanation": "Full sentence: \"If I had known the mistake, I would have corrected it.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "If the weather was good, we would go out.",
+      "options": [
+        "If the weather was good, we would go out.",
+        "If the weather were good, we would go out."
+      ],
+      "answer": "If the weather were good, we would go out.",
+      "explanation": "Correct sentence: \"If the weather were good, we would go out.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "अगर उसने मुझसे पूछा होता, तो मैं बता देता।",
+      "options": [
+        "If you were in my place, what would you do?",
+        "If I had time, I would travel.",
+        "If I had a car, I would go to office every day.",
+        "If he had asked me, I would have told him."
+      ],
+      "answer": "If he had asked me, I would have told him.",
+      "explanation": "Correct translation: \"अगर उसने मुझसे पूछा होता, तो मैं बता देता।\" = \"If he had asked me, I would have told him.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "If I had a car, I _____ go to office every day.",
+      "options": [
+        "gotten",
+        "worked",
+        "started",
+        "would"
+      ],
+      "answer": "would",
+      "explanation": "Full sentence: \"If I had a car, I would go to office every day.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "If we had started earlier, we will have finished.",
+      "options": [
+        "If we had started earlier, we will have finished.",
+        "If we had started earlier, we would have finished."
+      ],
+      "answer": "If we had started earlier, we would have finished.",
+      "explanation": "Correct sentence: \"If we had started earlier, we would have finished.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "अगर तुम खुश होते, तो मैं भी खुश होता।",
+      "options": [
+        "If we had planned, this problem would not have happened.",
+        "If he had come early, we would have met.",
+        "If he had paid attention, this mistake would not have happened.",
+        "If you were happy, I would be happy too."
+      ],
+      "answer": "If you were happy, I would be happy too.",
+      "explanation": "Correct translation: \"अगर तुम खुश होते, तो मैं भी खुश होता।\" = \"If you were happy, I would be happy too.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "If he had paid attention, _____ mistake would not have happened.",
+      "options": [
+        "money",
+        "known",
+        "a",
+        "this"
+      ],
+      "answer": "this",
+      "explanation": "Full sentence: \"If he had paid attention, this mistake would not have happened.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "If I was a pilot, I would travel the world.",
+      "options": [
+        "If I was a pilot, I would travel the world.",
+        "If I were a pilot, I would travel the world."
+      ],
+      "answer": "If I were a pilot, I would travel the world.",
+      "explanation": "Correct sentence: \"If I were a pilot, I would travel the world.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "अगर उसने मुझे फोन किया होता, तो मैं आ जाता।",
+      "options": [
+        "If she knew, she would come.",
+        "If he had asked me, I would have told him.",
+        "If you were in my place, what would you do?",
+        "If he had called me, I would have come."
+      ],
+      "answer": "If he had called me, I would have come.",
+      "explanation": "Correct translation: \"अगर उसने मुझे फोन किया होता, तो मैं आ जाता।\" = \"If he had called me, I would have come.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "If you were in my _____ what would you do?",
+      "options": [
+        "time",
+        "a",
+        "gotten",
+        "place"
+      ],
+      "answer": "place",
+      "explanation": "Full sentence: \"If you were in my place, what would you do?\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "If I had gotten this chance earlier, I will have taken it.",
+      "options": [
+        "If I had gotten this chance earlier, I will have taken it.",
+        "If I had gotten this chance earlier, I would have taken it."
+      ],
+      "answer": "If I had gotten this chance earlier, I would have taken it.",
+      "explanation": "Correct sentence: \"If I had gotten this chance earlier, I would have taken it.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "अगर वह ईमानदार होता, तो मैं उस पर भरोसा करता।",
+      "options": [
+        "If you had told me, I would have helped.",
+        "If you were happy, I would be happy too.",
+        "If we had planned, this problem would not have happened.",
+        "If he were honest, I would trust him."
+      ],
+      "answer": "If he were honest, I would trust him.",
+      "explanation": "Correct translation: \"अगर वह ईमानदार होता, तो मैं उस पर भरोसा करता।\" = \"If he were honest, I would trust him.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "If we had planned, this _____ would not have happened.",
+      "options": [
+        "come",
+        "paid",
+        "money",
+        "problem"
+      ],
+      "answer": "problem",
+      "explanation": "Full sentence: \"If we had planned, this problem would not have happened.\""
+    }
+  ]
+}

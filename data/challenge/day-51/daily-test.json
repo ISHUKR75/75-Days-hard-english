@@ -1,0 +1,255 @@
+{
+  "day": 51,
+  "topic": "Reported Speech Part 1 — Statements",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "उसने कहा, \"मैं थका हुआ हूँ।\"",
+      "options": [
+        "He said that he had eaten food.",
+        "He said, \"This is true.\"",
+        "He said that he was tired.",
+        "He said, \"I am tired.\""
+      ],
+      "answer": "He said, \"I am tired.\"",
+      "explanation": "Correct translation: \"उसने कहा, \"मैं थका हुआ हूँ।\"\" = \"He said, \"I am tired.\"\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He said that _____ was tired.",
+      "options": [
+        "am",
+        "this",
+        "go",
+        "he"
+      ],
+      "answer": "he",
+      "explanation": "Full sentence: \"He said that he was tired.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "She said, \"I go to school.\" yesterday.",
+      "options": [
+        "She said, \"I go to school.\" yesterday.",
+        "She said, \"I go to school.\""
+      ],
+      "answer": "She said, \"I go to school.\"",
+      "explanation": "Correct sentence: \"She said, \"I go to school.\"\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसने कहा कि वह स्कूल जाती थी।",
+      "options": [
+        "She said, \"I like this.\"",
+        "They said that they needed help.",
+        "They said, \"We are happy.\"",
+        "She said that she went to school."
+      ],
+      "answer": "She said that she went to school.",
+      "explanation": "Correct translation: \"उसने कहा कि वह स्कूल जाती थी।\" = \"She said that she went to school.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "They said, _____ are happy.\"",
+      "options": [
+        "she",
+        "understand",
+        "they",
+        "\"We"
+      ],
+      "answer": "\"We",
+      "explanation": "Full sentence: \"They said, \"We are happy.\"\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "They said that they was happy.",
+      "options": [
+        "They said that they was happy.",
+        "They said that they were happy."
+      ],
+      "answer": "They said that they were happy.",
+      "explanation": "Correct sentence: \"They said that they were happy.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसने कहा, \"मैंने खाना खा लिया है।\"",
+      "options": [
+        "I said that I would come.",
+        "He said, \"I am tired.\"",
+        "He said that he had eaten food.",
+        "He said, \"I have eaten food.\""
+      ],
+      "answer": "He said, \"I have eaten food.\"",
+      "explanation": "Correct translation: \"उसने कहा, \"मैंने खाना खा लिया है।\"\" = \"He said, \"I have eaten food.\"\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He said that _____ had eaten food.",
+      "options": [
+        "is",
+        "am",
+        "this",
+        "he"
+      ],
+      "answer": "he",
+      "explanation": "Full sentence: \"He said that he had eaten food.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "He said, \"I am doing this.\" yesterday.",
+      "options": [
+        "He said, \"I am doing this.\" yesterday.",
+        "He said, \"I am doing this.\""
+      ],
+      "answer": "He said, \"I am doing this.\"",
+      "explanation": "Correct sentence: \"He said, \"I am doing this.\"\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "उसने कहा कि वह यह कर रहा था।",
+      "options": [
+        "They said, \"We need help.\"",
+        "She said that she went to school.",
+        "She said, \"I like this.\"",
+        "He said that he was doing this."
+      ],
+      "answer": "He said that he was doing this.",
+      "explanation": "Correct translation: \"उसने कहा कि वह यह कर रहा था।\" = \"He said that he was doing this.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "She said, _____ like this.\"",
+      "options": [
+        "they",
+        "are",
+        "she",
+        "\"I"
+      ],
+      "answer": "\"I",
+      "explanation": "Full sentence: \"She said, \"I like this.\"\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She said that she liked this yesterday.",
+      "options": [
+        "She said that she liked this yesterday.",
+        "She said that she liked this."
+      ],
+      "answer": "She said that she liked this.",
+      "explanation": "Correct sentence: \"She said that she liked this.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैंने कहा, \"मैं आऊँगा।\"",
+      "options": [
+        "He said that he understood this.",
+        "He said, \"I have eaten food.\"",
+        "I said that I would come.",
+        "I said, \"I will come.\""
+      ],
+      "answer": "I said, \"I will come.\"",
+      "explanation": "Correct translation: \"मैंने कहा, \"मैं आऊँगा।\"\" = \"I said, \"I will come.\"\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I said that _____ would come.",
+      "options": [
+        "am",
+        "he",
+        "is",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "Full sentence: \"I said that I would come.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "He said, \"This are true.\"",
+      "options": [
+        "He said, \"This are true.\"",
+        "He said, \"This is true.\""
+      ],
+      "answer": "He said, \"This is true.\"",
+      "explanation": "Correct sentence: \"He said, \"This is true.\"\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "उसने कहा कि यह सच था।",
+      "options": [
+        "She said, \"I go to school.\"",
+        "He said that he was doing this.",
+        "They said, \"We need help.\"",
+        "He said that this was true."
+      ],
+      "answer": "He said that this was true.",
+      "explanation": "Correct translation: \"उसने कहा कि यह सच था।\" = \"He said that this was true.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "They said, _____ need help.\"",
+      "options": [
+        "she",
+        "like",
+        "they",
+        "\"We"
+      ],
+      "answer": "\"We",
+      "explanation": "Full sentence: \"They said, \"We need help.\"\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "They said that they needed help yesterday.",
+      "options": [
+        "They said that they needed help yesterday.",
+        "They said that they needed help."
+      ],
+      "answer": "They said that they needed help.",
+      "explanation": "Correct sentence: \"They said that they needed help.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उसने कहा, \"मैं यह समझता हूँ।\"",
+      "options": [
+        "They said that they were happy.",
+        "I said, \"I will come.\"",
+        "He said that he understood this.",
+        "He said, \"I understand this.\""
+      ],
+      "answer": "He said, \"I understand this.\"",
+      "explanation": "Correct translation: \"उसने कहा, \"मैं यह समझता हूँ।\"\" = \"He said, \"I understand this.\"\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "He said that _____ understood this.",
+      "options": [
+        "have",
+        "I",
+        "am",
+        "he"
+      ],
+      "answer": "he",
+      "explanation": "Full sentence: \"He said that he understood this.\""
+    }
+  ]
+}

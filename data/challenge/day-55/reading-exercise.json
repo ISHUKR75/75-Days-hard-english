@@ -1,0 +1,107 @@
+{
+  "day": 55,
+  "topic": "Articles (A, An, The)",
+  "passage": {
+    "title": "A Day with Articles (A, An, The)",
+    "text": "I need a book. I need an apple. The book is on the table. The sun rises in the east. I saw a dog. The dog is very cute. This is a good idea. That idea worked well. I need an umbrella. The Taj Mahal is in India.",
+    "hindiTranslation": "मुझे एक किताब चाहिए। मुझे एक सेब चाहिए। वह किताब मेज पर है। सूरज पूरब से निकलता है। मैंने एक कुत्ता देखा। वह कुत्ता बहुत प्यारा है। यह एक अच्छी idea है। वह idea बहुत काम आई। मुझे एक umbrella चाहिए। ताजमहल भारत में है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I need a book....\"?",
+      "options": [
+        "That idea worked well.",
+        "He bought a car.",
+        "I need an apple.",
+        "I need a book."
+      ],
+      "answer": "I need a book.",
+      "explanation": "Stated in the passage: \"I need a book.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I need an apple....\"?",
+      "options": [
+        "I need an umbrella.",
+        "The car is red.",
+        "The book is on the table.",
+        "I need an apple."
+      ],
+      "answer": "I need an apple.",
+      "explanation": "Stated in the passage: \"I need an apple.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"The book is on...\"?",
+      "options": [
+        "The Taj Mahal is in India.",
+        "I need an honest friend.",
+        "The sun rises in the east.",
+        "The book is on the table."
+      ],
+      "answer": "The book is on the table.",
+      "explanation": "Stated in the passage: \"The book is on the table.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"The sun rises in...\"?",
+      "options": [
+        "She is a teacher.",
+        "The Himalayas are very high.",
+        "I saw a dog.",
+        "The sun rises in the east."
+      ],
+      "answer": "The sun rises in the east.",
+      "explanation": "Stated in the passage: \"The sun rises in the east.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"I saw a dog....\"?",
+      "options": [
+        "The teacher is very good.",
+        "This is a good opportunity.",
+        "The dog is very cute.",
+        "I saw a dog."
+      ],
+      "answer": "I saw a dog.",
+      "explanation": "Stated in the passage: \"I saw a dog.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"The dog is very...\"?",
+      "options": [
+        "I waited for an hour.",
+        "That opportunity will not come again.",
+        "This is a good idea.",
+        "The dog is very cute."
+      ],
+      "answer": "The dog is very cute.",
+      "explanation": "Stated in the passage: \"The dog is very cute.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"This is a good...\"?",
+      "options": [
+        "The Ganges river is very sacred.",
+        "I need a book.",
+        "That idea worked well.",
+        "This is a good idea."
+      ],
+      "answer": "This is a good idea.",
+      "explanation": "Stated in the passage: \"This is a good idea.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"That idea worked well....\"?",
+      "options": [
+        "He bought a car.",
+        "I need an apple.",
+        "I need an umbrella.",
+        "That idea worked well."
+      ],
+      "answer": "That idea worked well.",
+      "explanation": "Stated in the passage: \"That idea worked well.\""
+    }
+  ]
+}

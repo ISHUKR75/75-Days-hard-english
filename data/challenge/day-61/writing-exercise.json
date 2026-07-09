@@ -1,0 +1,46 @@
+{
+  "day": 61,
+  "topic": "Buildings, Worms & Insects Vocabulary",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Buildings, Worms & Insects Vocabulary.",
+      "hindiPrompt": "Buildings, Worms & Insects Vocabulary का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "This is a big building. The hospital is in the middle of the city. The temple is very old. The bridge is built over the river. There is a lot of noise in the factory.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Buildings, Worms & Insects Vocabulary.",
+      "hindiPrompt": "Buildings, Worms & Insects Vocabulary का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "There are many shops in the mall. The tower is very tall. The school building is new. Ants are walking on the ground. Mosquitoes bite at night.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"तिलचट्टा रसोई में छिपा है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "The cockroach is hiding in the kitchen.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"The bridge are built over the river.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "The bridge is built over the river.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Buildings, Worms & Insects Vocabulary.",
+      "hindiPrompt": "Buildings, Worms & Insects Vocabulary का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "The butterfly is sitting on the flower. Bees make honey. The fly sat on the food. Termites eat wood.",
+      "wordLimit": 60
+    }
+  ]
+}

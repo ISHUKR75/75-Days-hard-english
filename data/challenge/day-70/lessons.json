@@ -1,0 +1,122 @@
+{
+  "day": 70,
+  "topic": "Letter Writing",
+  "sections": [
+    {
+      "id": 1,
+      "title": "Letter Writing — Introduction and Formula",
+      "hindiTitle": "Letter Writing — परिचय और फॉर्मूला",
+      "explanation": "Letter Writing is an essential building block of English. Formula: Salutation + opening line + body (news/complaint/request) + closing signature. Rules: Informal letters: 'Dear + name' opening, casual tone, 'love/your loving...' closing | Formal letters: 'Respected Sir/Madam' opening, 'Yours faithfully' closing | State the main subject in the first 1-2 lines | Complaint letters clearly describe the problem and request a solution",
+      "formula": "Salutation + opening line + body (news/complaint/request) + closing signature",
+      "examples": [
+        {
+          "hindi": "प्रिय मित्र, मुझे आशा है तुम ठीक होगे।",
+          "english": "Dear friend, I hope you are well."
+        },
+        {
+          "hindi": "मैं तुम्हें अपनी नई नौकरी के बारे में बताना चाहता हूँ।",
+          "english": "I want to tell you about my new job."
+        },
+        {
+          "hindi": "आदरणीय महोदय, मैं आपको यह पत्र शिकायत के लिए लिख रहा हूँ।",
+          "english": "Respected Sir, I am writing this letter to you as a complaint."
+        },
+        {
+          "hindi": "सड़क की हालत बहुत खराब है।",
+          "english": "The condition of the road is very bad."
+        },
+        {
+          "hindi": "कृपया इस समस्या का समाधान करें।",
+          "english": "Please solve this problem."
+        },
+        {
+          "hindi": "प्रिय माँ, मैं यहाँ ठीक हूँ।",
+          "english": "Dear mother, I am fine here."
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Letter Writing — Daily Life Usage",
+      "hindiTitle": "Letter Writing — रोज़मर्रा के उपयोग",
+      "explanation": "Everyday sentences using Letter Writing for daily conversation.",
+      "formula": "Salutation + opening line + body (news/complaint/request) + closing signature",
+      "examples": [
+        {
+          "hindi": "मुझे तुम्हारी बहुत याद आती है।",
+          "english": "I miss you a lot."
+        },
+        {
+          "hindi": "आपका स्नेही पुत्र।",
+          "english": "Your loving son."
+        },
+        {
+          "hindi": "आदरणीय संपादक महोदय, मैं यह पत्र प्रकाशित करने का अनुरोध करता हूँ।",
+          "english": "Respected Editor, I request you to publish this letter."
+        },
+        {
+          "hindi": "यह समस्या पूरे शहर को प्रभावित कर रही है।",
+          "english": "This problem is affecting the whole city."
+        },
+        {
+          "hindi": "प्रिय बहन, तुम्हारी शादी की बधाई।",
+          "english": "Dear sister, congratulations on your wedding."
+        },
+        {
+          "hindi": "मैं शादी में जरूर आऊँगा।",
+          "english": "I will definitely come to the wedding."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Letter Writing — Office & Professional Usage",
+      "hindiTitle": "Letter Writing — ऑफिस और पेशेवर उपयोग",
+      "explanation": "Practice Letter Writing in professional and office contexts.",
+      "formula": "Salutation + opening line + body (news/complaint/request) + closing signature",
+      "examples": [
+        {
+          "hindi": "आदरणीय प्रबंधक महोदय, मैं अपने ऑर्डर के बारे में लिख रहा हूँ।",
+          "english": "Respected Manager, I am writing about my order."
+        },
+        {
+          "hindi": "मुझे गलत उत्पाद मिला है।",
+          "english": "I received the wrong product."
+        },
+        {
+          "hindi": "कृपया इसे जल्द से जल्द बदलें।",
+          "english": "Please replace it as soon as possible."
+        },
+        {
+          "hindi": "भवदीय, राहुल शर्मा।",
+          "english": "Yours faithfully, Rahul Sharma."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Letter Writing — Negative and Question Forms",
+      "hindiTitle": "Letter Writing — नकारात्मक और प्रश्न रूप",
+      "explanation": "How to make negative sentences and questions using Letter Writing. Common mistakes are highlighted here.",
+      "formula": "Salutation + opening line + body (news/complaint/request) + closing signature",
+      "examples": [
+        {
+          "hindi": "प्रिय दोस्त, तुम्हारा पत्र मिला।",
+          "english": "Dear friend, I received your letter."
+        },
+        {
+          "hindi": "मैं जल्द ही तुमसे मिलने आऊँगा।",
+          "english": "I will come to meet you soon."
+        },
+        {
+          "hindi": "यह पत्र औपचारिक है।",
+          "english": "This letter is formal."
+        },
+        {
+          "hindi": "यह पत्र अनौपचारिक है।",
+          "english": "This letter is informal."
+        }
+      ]
+    }
+  ]
+}

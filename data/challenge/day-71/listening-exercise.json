@@ -1,0 +1,114 @@
+{
+  "day": 71,
+  "topic": "E-mail Writing",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "I have read your message.",
+      "hindiScript": "मैंने आपका संदेश पढ़ लिया है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Thanks and regards.",
+        "I need to know the time of the meeting.",
+        "I will not be able to attend this meeting.",
+        "I have read your message."
+      ],
+      "answer": "I have read your message."
+    },
+    {
+      "id": 2,
+      "audioScript": "I will reply by tomorrow.",
+      "hindiScript": "मैं कल तक जवाब दे दूंगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am working on this project.",
+        "Please schedule a conference call.",
+        "Please send me the report.",
+        "I will reply by tomorrow."
+      ],
+      "answer": "I will reply by tomorrow."
+    },
+    {
+      "id": 3,
+      "audioScript": "This email was sent by mistake.",
+      "hindiScript": "यह ईमेल गलती से भेजा गया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Please give this priority.",
+        "I am on leave this week.",
+        "I will reply soon.",
+        "This email was sent by mistake."
+      ],
+      "answer": "This email was sent by mistake."
+    },
+    {
+      "id": 4,
+      "audioScript": "Please ignore this.",
+      "hindiScript": "कृपया इसे नज़रअंदाज़ करें।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have read your message.",
+        "Please take quick action on this matter.",
+        "This email is for important information.",
+        "Please ignore this."
+      ],
+      "answer": "Please ignore this."
+    },
+    {
+      "id": 5,
+      "audioScript": "I need to know the time of the meeting.",
+      "hindiScript": "मुझे मीटिंग का समय पता चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will reply by tomorrow.",
+        "Regards, Anita Verma.",
+        "Please check the attachment.",
+        "I need to know the time of the meeting."
+      ],
+      "answer": "I need to know the time of the meeting."
+    },
+    {
+      "id": 6,
+      "audioScript": "Please schedule a conference call.",
+      "hindiScript": "कृपया कॉन्फ़्रेंस कॉल शेड्यूल करें।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This email was sent by mistake.",
+        "I hope you find this email helpful.",
+        "I need your help.",
+        "Please schedule a conference call."
+      ],
+      "answer": "Please schedule a conference call."
+    },
+    {
+      "id": 7,
+      "audioScript": "I am on leave this week.",
+      "hindiScript": "मैं इस सप्ताह छुट्टी पर हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Please ignore this.",
+        "Dear Sir, thank you for your email.",
+        "Thanks and regards.",
+        "I am on leave this week."
+      ],
+      "answer": "I am on leave this week."
+    },
+    {
+      "id": 8,
+      "audioScript": "Please take quick action on this matter.",
+      "hindiScript": "कृपया इस मामले में जल्दी कार्रवाई करें।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I need to know the time of the meeting.",
+        "I will not be able to attend this meeting.",
+        "I am working on this project.",
+        "Please take quick action on this matter."
+      ],
+      "answer": "Please take quick action on this matter."
+    }
+  ],
+  "dictationPassage": {
+    "text": "I have read your message. I will reply by tomorrow. This email was sent by mistake. Please ignore this. I need to know the time of the meeting.",
+    "hindiTranslation": "मैंने आपका संदेश पढ़ लिया है। मैं कल तक जवाब दे दूंगा। यह ईमेल गलती से भेजा गया। कृपया इसे नज़रअंदाज़ करें। मुझे मीटिंग का समय पता चाहिए।"
+  }
+}

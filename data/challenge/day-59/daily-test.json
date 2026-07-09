@@ -1,0 +1,255 @@
+{
+  "day": 59,
+  "topic": "Wish / If Only (Expressing Regret and Desire)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे काश मेरे पास ज़्यादा पैसे होते।",
+      "options": [
+        "If only the weather were good.",
+        "I wish I worked harder.",
+        "If only I had more money.",
+        "I wish I had more money."
+      ],
+      "answer": "I wish I had more money.",
+      "explanation": "Correct translation: \"मुझे काश मेरे पास ज़्यादा पैसे होते।\" = \"I wish I had more money.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "If only I _____ more money.",
+      "options": [
+        "were",
+        "knew",
+        "would",
+        "had"
+      ],
+      "answer": "had",
+      "explanation": "Full sentence: \"If only I had more money.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I wish I was there.",
+      "options": [
+        "I wish I was there.",
+        "I wish I were there."
+      ],
+      "answer": "I wish I were there.",
+      "explanation": "Correct sentence: \"I wish I were there.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "काश मैंने पहले पढ़ाई की होती।",
+      "options": [
+        "I wish I had more time.",
+        "I wish you would speak slowly.",
+        "I wish I had not made this mistake.",
+        "If only I had studied earlier."
+      ],
+      "answer": "If only I had studied earlier.",
+      "explanation": "Correct translation: \"काश मैंने पहले पढ़ाई की होती।\" = \"If only I had studied earlier.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I wish I had _____ made this mistake.",
+      "options": [
+        "would",
+        "had",
+        "could",
+        "not"
+      ],
+      "answer": "not",
+      "explanation": "Full sentence: \"I wish I had not made this mistake.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I wish you will calm down.",
+      "options": [
+        "I wish you will calm down.",
+        "I wish you would calm down."
+      ],
+      "answer": "I wish you would calm down.",
+      "explanation": "Correct sentence: \"I wish you would calm down.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मुझे काश मैं उड़ सकता।",
+      "options": [
+        "If only we could meet again.",
+        "I wish I had more money.",
+        "If only the weather were good.",
+        "I wish I could fly."
+      ],
+      "answer": "I wish I could fly.",
+      "explanation": "Correct translation: \"मुझे काश मैं उड़ सकता।\" = \"I wish I could fly.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "If only the _____ were good.",
+      "options": [
+        "worked",
+        "had",
+        "were",
+        "weather"
+      ],
+      "answer": "weather",
+      "explanation": "Full sentence: \"If only the weather were good.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I wish I has talked to him.",
+      "options": [
+        "I wish I has talked to him.",
+        "I wish I had talked to him."
+      ],
+      "answer": "I wish I had talked to him.",
+      "explanation": "Correct sentence: \"I wish I had talked to him.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "काश मुझे यह पहले पता होता।",
+      "options": [
+        "I wish I knew this language.",
+        "If only I had studied earlier.",
+        "I wish I had more time.",
+        "If only I had known this earlier."
+      ],
+      "answer": "If only I had known this earlier.",
+      "explanation": "Correct translation: \"काश मुझे यह पहले पता होता।\" = \"If only I had known this earlier.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "I wish I _____ more time.",
+      "options": [
+        "would",
+        "could",
+        "weather",
+        "had"
+      ],
+      "answer": "had",
+      "explanation": "Full sentence: \"I wish I had more time.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I wish you will listen to me.",
+      "options": [
+        "I wish you will listen to me.",
+        "I wish you would listen to me."
+      ],
+      "answer": "I wish you would listen to me.",
+      "explanation": "Correct sentence: \"I wish you would listen to me.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मुझे काश मैं यह decision न लेता।",
+      "options": [
+        "If only we had not gone there.",
+        "I wish I could fly.",
+        "If only we could meet again.",
+        "I wish I had not taken this decision."
+      ],
+      "answer": "I wish I had not taken this decision.",
+      "explanation": "Correct translation: \"मुझे काश मैं यह decision न लेता।\" = \"I wish I had not taken this decision.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "If only we _____ meet again.",
+      "options": [
+        "had",
+        "weather",
+        "worked",
+        "could"
+      ],
+      "answer": "could",
+      "explanation": "Full sentence: \"If only we could meet again.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I wish I worked harder yesterday.",
+      "options": [
+        "I wish I worked harder yesterday.",
+        "I wish I worked harder."
+      ],
+      "answer": "I wish I worked harder.",
+      "explanation": "Correct sentence: \"I wish I worked harder.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "काश उसने मुझे माफ़ कर दिया होता।",
+      "options": [
+        "I wish I were there.",
+        "If only I had known this earlier.",
+        "I wish I knew this language.",
+        "If only he had forgiven me."
+      ],
+      "answer": "If only he had forgiven me.",
+      "explanation": "Correct translation: \"काश उसने मुझे माफ़ कर दिया होता।\" = \"If only he had forgiven me.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I wish I _____ this language.",
+      "options": [
+        "had",
+        "would",
+        "could",
+        "knew"
+      ],
+      "answer": "knew",
+      "explanation": "Full sentence: \"I wish I knew this language.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I wish you will speak slowly.",
+      "options": [
+        "I wish you will speak slowly.",
+        "I wish you would speak slowly."
+      ],
+      "answer": "I wish you would speak slowly.",
+      "explanation": "Correct sentence: \"I wish you would speak slowly.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मुझे काश मैंने वह मौका लिया होता।",
+      "options": [
+        "I wish you would calm down.",
+        "I wish I had not taken this decision.",
+        "If only we had not gone there.",
+        "I wish I had taken that opportunity."
+      ],
+      "answer": "I wish I had taken that opportunity.",
+      "explanation": "Correct translation: \"मुझे काश मैंने वह मौका लिया होता।\" = \"I wish I had taken that opportunity.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "If only we _____ not gone there.",
+      "options": [
+        "could",
+        "weather",
+        "worked",
+        "had"
+      ],
+      "answer": "had",
+      "explanation": "Full sentence: \"If only we had not gone there.\""
+    }
+  ]
+}

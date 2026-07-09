@@ -1,0 +1,68 @@
+{
+  "day": 52,
+  "topic": "Reported Speech Part 2 — Questions & Commands",
+  "keyPointsSummary": [
+    "Reported yes/no questions use 'if' or 'whether' + normal word order (not question order)",
+    "Reported WH questions keep the WH word but drop question order/question mark",
+    "Reported commands use told/ordered/asked + object + to + base verb",
+    "Negative commands use 'not to + base verb'"
+  ],
+  "quickQuiz": [
+    {
+      "id": 1,
+      "hindi": "उसने पूछा, \"क्या तुम आ रहे हो?\"",
+      "answer": "He asked, \"Are you coming?\""
+    },
+    {
+      "id": 2,
+      "hindi": "उसने पूछा कि क्या मैं आ रहा था।",
+      "answer": "He asked if I was coming."
+    },
+    {
+      "id": 3,
+      "hindi": "उसने पूछा, \"तुम कहाँ रहते हो?\"",
+      "answer": "She asked, \"Where do you live?\""
+    },
+    {
+      "id": 4,
+      "hindi": "उसने पूछा कि मैं कहाँ रहता था।",
+      "answer": "She asked where I lived."
+    },
+    {
+      "id": 5,
+      "hindi": "उसने कहा, \"यह काम करो।\"",
+      "answer": "He said, \"Do this work.\""
+    },
+    {
+      "id": 6,
+      "hindi": "उसने मुझे यह काम करने को कहा।",
+      "answer": "He told me to do this work."
+    },
+    {
+      "id": 7,
+      "hindi": "उसने कहा, \"यहाँ मत आओ।\"",
+      "answer": "She said, \"Do not come here.\""
+    },
+    {
+      "id": 8,
+      "hindi": "उसने मुझे यहाँ न आने को कहा।",
+      "answer": "She told me not to come here."
+    },
+    {
+      "id": 9,
+      "hindi": "उन्होंने पूछा, \"क्या तुम तैयार हो?\"",
+      "answer": "They asked, \"Are you ready?\""
+    },
+    {
+      "id": 10,
+      "hindi": "उन्होंने पूछा कि क्या मैं तैयार था।",
+      "answer": "They asked if I was ready."
+    }
+  ],
+  "mustRememberRules": [
+    "Reported yes/no questions use 'if' or 'whether' + normal word order (not question order)",
+    "Reported WH questions keep the WH word but drop question order/question mark",
+    "Reported commands use told/ordered/asked + object + to + base verb",
+    "Negative commands use 'not to + base verb'"
+  ]
+}

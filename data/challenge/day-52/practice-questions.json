@@ -1,0 +1,287 @@
+{
+  "day": 52,
+  "topic": "Reported Speech Part 2 — Questions & Commands",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "उसने पूछा, \"क्या तुम आ रहे हो?\"",
+      "english": "He asked, \"Are you coming?\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"He asked, \"Are you coming?\"\"",
+      "difficulty": "easy",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 2,
+      "hindi": "उसने पूछा कि क्या मैं आ रहा था।",
+      "english": "He asked if I was coming.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"He asked if I was coming.\"",
+      "difficulty": "medium",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 3,
+      "hindi": "उसने पूछा, \"तुम कहाँ रहते हो?\"",
+      "english": "She asked, \"Where do you live?\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"She asked, \"Where do you live?\"\"",
+      "difficulty": "hard",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 4,
+      "hindi": "उसने पूछा कि मैं कहाँ रहता था।",
+      "english": "She asked where I lived.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"She asked where I lived.\"",
+      "difficulty": "easy",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 5,
+      "hindi": "उसने कहा, \"यह काम करो।\"",
+      "english": "He said, \"Do this work.\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"He said, \"Do this work.\"\"",
+      "difficulty": "medium",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 6,
+      "hindi": "उसने मुझे यह काम करने को कहा।",
+      "english": "He told me to do this work.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"He told me to do this work.\"",
+      "difficulty": "hard",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 7,
+      "hindi": "उसने कहा, \"यहाँ मत आओ।\"",
+      "english": "She said, \"Do not come here.\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"She said, \"Do not come here.\"\"",
+      "difficulty": "easy",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 8,
+      "hindi": "उसने मुझे यहाँ न आने को कहा।",
+      "english": "She told me not to come here.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"She told me not to come here.\"",
+      "difficulty": "medium",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 9,
+      "hindi": "उन्होंने पूछा, \"क्या तुम तैयार हो?\"",
+      "english": "They asked, \"Are you ready?\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"They asked, \"Are you ready?\"\"",
+      "difficulty": "hard",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 10,
+      "hindi": "उन्होंने पूछा कि क्या मैं तैयार था।",
+      "english": "They asked if I was ready.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"They asked if I was ready.\"",
+      "difficulty": "easy",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 11,
+      "hindi": "उसने पूछा, \"तुम क्या कर रहे हो?\"",
+      "english": "He asked, \"What are you doing?\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"He asked, \"What are you doing?\"\"",
+      "difficulty": "medium",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 12,
+      "hindi": "उसने पूछा कि मैं क्या कर रहा था।",
+      "english": "He asked what I was doing.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"He asked what I was doing.\"",
+      "difficulty": "hard",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 13,
+      "hindi": "टीचर ने कहा, \"चुप रहो।\"",
+      "english": "The teacher said, \"Be quiet.\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"The teacher said, \"Be quiet.\"\"",
+      "difficulty": "easy",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 14,
+      "hindi": "टीचर ने हमें चुप रहने को कहा।",
+      "english": "The teacher told us to be quiet.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"The teacher told us to be quiet.\"",
+      "difficulty": "medium",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 15,
+      "hindi": "उसने पूछा, \"तुम कब आओगे?\"",
+      "english": "She asked, \"When will you come?\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"She asked, \"When will you come?\"\"",
+      "difficulty": "hard",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 16,
+      "hindi": "उसने पूछा कि मैं कब आऊँगा।",
+      "english": "She asked when I would come.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"She asked when I would come.\"",
+      "difficulty": "easy",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 17,
+      "hindi": "डॉक्टर ने कहा, \"दवा लो।\"",
+      "english": "The doctor said, \"Take medicine.\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"The doctor said, \"Take medicine.\"\"",
+      "difficulty": "medium",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 18,
+      "hindi": "डॉक्टर ने मुझे दवा लेने को कहा।",
+      "english": "The doctor told me to take medicine.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"The doctor told me to take medicine.\"",
+      "difficulty": "hard",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 19,
+      "hindi": "उसने पूछा, \"क्या तुम्हें मदद चाहिए?\"",
+      "english": "He asked, \"Do you need help?\"",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"He asked, \"Do you need help?\"\"",
+      "difficulty": "easy",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    },
+    {
+      "id": 20,
+      "hindi": "उसने पूछा कि क्या मुझे मदद चाहिए थी।",
+      "english": "He asked if I needed help.",
+      "alternatives": [],
+      "hint": "Use the pattern: Asked + if/whether (yes/no) or WH word + subject + verb | Told/Ordered + object + to + base verb (commands)",
+      "explanation": "Correct sentence: \"He asked if I needed help.\"",
+      "difficulty": "medium",
+      "tags": [
+        "reported"
+      ],
+      "grammarRule": "Reported Speech Part 2 — Questions & Commands",
+      "category": "Reported Speech Part 2 — Questions & Commands practice"
+    }
+  ]
+}

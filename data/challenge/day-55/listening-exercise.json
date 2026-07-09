@@ -1,0 +1,114 @@
+{
+  "day": 55,
+  "topic": "Articles (A, An, The)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "She is a teacher.",
+      "hindiScript": "वह एक teacher है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "That idea worked well.",
+        "He bought a car.",
+        "I need an apple.",
+        "She is a teacher."
+      ],
+      "answer": "She is a teacher."
+    },
+    {
+      "id": 2,
+      "audioScript": "The teacher is very good.",
+      "hindiScript": "वह teacher बहुत अच्छी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I need an umbrella.",
+        "The car is red.",
+        "The book is on the table.",
+        "The teacher is very good."
+      ],
+      "answer": "The teacher is very good."
+    },
+    {
+      "id": 3,
+      "audioScript": "I waited for an hour.",
+      "hindiScript": "मैंने एक hour इंतज़ार किया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The Taj Mahal is in India.",
+        "I need an honest friend.",
+        "The sun rises in the east.",
+        "I waited for an hour."
+      ],
+      "answer": "I waited for an hour."
+    },
+    {
+      "id": 4,
+      "audioScript": "The Ganges river is very sacred.",
+      "hindiScript": "गंगा नदी बहुत पवित्र है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is a teacher.",
+        "The Himalayas are very high.",
+        "I saw a dog.",
+        "The Ganges river is very sacred."
+      ],
+      "answer": "The Ganges river is very sacred."
+    },
+    {
+      "id": 5,
+      "audioScript": "He bought a car.",
+      "hindiScript": "उसने एक कार खरीदी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The teacher is very good.",
+        "This is a good opportunity.",
+        "The dog is very cute.",
+        "He bought a car."
+      ],
+      "answer": "He bought a car."
+    },
+    {
+      "id": 6,
+      "audioScript": "The car is red.",
+      "hindiScript": "वह कार लाल है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I waited for an hour.",
+        "That opportunity will not come again.",
+        "This is a good idea.",
+        "The car is red."
+      ],
+      "answer": "The car is red."
+    },
+    {
+      "id": 7,
+      "audioScript": "I need an honest friend.",
+      "hindiScript": "मुझे एक honest दोस्त चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The Ganges river is very sacred.",
+        "I need a book.",
+        "That idea worked well.",
+        "I need an honest friend."
+      ],
+      "answer": "I need an honest friend."
+    },
+    {
+      "id": 8,
+      "audioScript": "The Himalayas are very high.",
+      "hindiScript": "हिमालय पहाड़ बहुत ऊँचे हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He bought a car.",
+        "I need an apple.",
+        "I need an umbrella.",
+        "The Himalayas are very high."
+      ],
+      "answer": "The Himalayas are very high."
+    }
+  ],
+  "dictationPassage": {
+    "text": "She is a teacher. The teacher is very good. I waited for an hour. The Ganges river is very sacred. He bought a car.",
+    "hindiTranslation": "वह एक teacher है। वह teacher बहुत अच्छी है। मैंने एक hour इंतज़ार किया। गंगा नदी बहुत पवित्र है। उसने एक कार खरीदी।"
+  }
+}

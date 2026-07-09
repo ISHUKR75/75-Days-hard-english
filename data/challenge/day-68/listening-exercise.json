@@ -1,0 +1,114 @@
+{
+  "day": 68,
+  "topic": "Factory & Sports + Sound & Maths Vocabulary",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He scored a goal and won the match.",
+      "hindiScript": "उसने गोल करके जीत दिलाई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The team performed well.",
+        "There was complete silence at night.",
+        "Cricket is the most popular sport in India.",
+        "He scored a goal and won the match."
+      ],
+      "answer": "He scored a goal and won the match."
+    },
+    {
+      "id": 2,
+      "audioScript": "This sound is very loud.",
+      "hindiScript": "यह आवाज़ बहुत तेज़ है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The match is tomorrow evening.",
+        "An echo was heard in the mountains.",
+        "The football team won the match.",
+        "This sound is very loud."
+      ],
+      "answer": "This sound is very loud."
+    },
+    {
+      "id": 3,
+      "audioScript": "His voice is very soft.",
+      "hindiScript": "उसकी आवाज़ बहुत धीमी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The ball went out of the boundary.",
+        "I like listening to music.",
+        "Hockey is our national game.",
+        "His voice is very soft."
+      ],
+      "answer": "His voice is very soft."
+    },
+    {
+      "id": 4,
+      "audioScript": "There is a lot of noise in the factory.",
+      "hindiScript": "फैक्ट्री में बहुत शोर होता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He scored a goal and won the match.",
+        "Multiplying three by five gives fifteen.",
+        "I like playing badminton.",
+        "There is a lot of noise in the factory."
+      ],
+      "answer": "There is a lot of noise in the factory."
+    },
+    {
+      "id": 5,
+      "audioScript": "There was complete silence at night.",
+      "hindiScript": "रात को पूरी शांति थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This sound is very loud.",
+        "Dividing twenty by five gives four.",
+        "He got first place in the race.",
+        "There was complete silence at night."
+      ],
+      "answer": "There was complete silence at night."
+    },
+    {
+      "id": 6,
+      "audioScript": "An echo was heard in the mountains.",
+      "hindiScript": "पहाड़ों में गूंज सुनाई दी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "His voice is very soft.",
+        "The total number is one hundred.",
+        "The players are running on the field.",
+        "An echo was heard in the mountains."
+      ],
+      "answer": "An echo was heard in the mountains."
+    },
+    {
+      "id": 7,
+      "audioScript": "I like listening to music.",
+      "hindiScript": "मुझे संगीत सुनना पसंद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a lot of noise in the factory.",
+        "The factory's assembly line runs fast.",
+        "The team performed well.",
+        "I like listening to music."
+      ],
+      "answer": "I like listening to music."
+    },
+    {
+      "id": 8,
+      "audioScript": "Multiplying three by five gives fifteen.",
+      "hindiScript": "तीन को पाँच से गुणा करने पर पंद्रह होता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There was complete silence at night.",
+        "Cricket is the most popular sport in India.",
+        "The match is tomorrow evening.",
+        "Multiplying three by five gives fifteen."
+      ],
+      "answer": "Multiplying three by five gives fifteen."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He scored a goal and won the match. This sound is very loud. His voice is very soft. There is a lot of noise in the factory. There was complete silence at night.",
+    "hindiTranslation": "उसने गोल करके जीत दिलाई। यह आवाज़ बहुत तेज़ है। उसकी आवाज़ बहुत धीमी है। फैक्ट्री में बहुत शोर होता है। रात को पूरी शांति थी।"
+  }
+}

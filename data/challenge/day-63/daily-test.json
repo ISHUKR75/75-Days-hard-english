@@ -1,0 +1,255 @@
+{
+  "day": 63,
+  "topic": "Maths Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "दो और तीन जोड़ने पर पाँच होता है।",
+      "options": [
+        "Their average height is five feet.",
+        "The perimeter of the garden is one hundred metres.",
+        "Subtracting four from ten leaves six.",
+        "Adding two and three gives five."
+      ],
+      "answer": "Adding two and three gives five.",
+      "explanation": "Correct translation: \"दो और तीन जोड़ने पर पाँच होता है।\" = \"Adding two and three gives five.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Subtracting four from _____ leaves six.",
+      "options": [
+        "three",
+        "favourite",
+        "four",
+        "ten"
+      ],
+      "answer": "ten",
+      "explanation": "Full sentence: \"Subtracting four from ten leaves six.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Multiplying three by four gives twelve yesterday.",
+      "options": [
+        "Multiplying three by four gives twelve yesterday.",
+        "Multiplying three by four gives twelve."
+      ],
+      "answer": "Multiplying three by four gives twelve.",
+      "explanation": "Correct sentence: \"Multiplying three by four gives twelve.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "बीस को चार से भाग देने पर पाँच होता है।",
+      "options": [
+        "A circle has no sides.",
+        "This number is the largest.",
+        "This is an even number.",
+        "Dividing twenty by four gives five."
+      ],
+      "answer": "Dividing twenty by four gives five.",
+      "explanation": "Correct translation: \"बीस को चार से भाग देने पर पाँच होता है।\" = \"Dividing twenty by four gives five.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "This is _____ even number.",
+      "options": [
+        "easy",
+        "solve",
+        "fraction",
+        "an"
+      ],
+      "answer": "an",
+      "explanation": "Full sentence: \"This is an even number.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Half are a fraction.",
+      "options": [
+        "Half are a fraction.",
+        "Half is a fraction."
+      ],
+      "answer": "Half is a fraction.",
+      "explanation": "Correct sentence: \"Half is a fraction.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसे परीक्षा में नब्बे प्रतिशत अंक मिले।",
+      "options": [
+        "The area of the room is twenty square metres.",
+        "Adding two and three gives five.",
+        "Their average height is five feet.",
+        "He got ninety percent marks in the exam."
+      ],
+      "answer": "He got ninety percent marks in the exam.",
+      "explanation": "Correct translation: \"उसे परीक्षा में नब्बे प्रतिशत अंक मिले।\" = \"He got ninety percent marks in the exam.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Their average height _____ five feet.",
+      "options": [
+        "the",
+        "ten",
+        "three",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"Their average height is five feet.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "A triangle have three sides.",
+      "options": [
+        "A triangle have three sides.",
+        "A triangle has three sides."
+      ],
+      "answer": "A triangle has three sides.",
+      "explanation": "Correct sentence: \"A triangle has three sides.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "वर्ग की सभी भुजाएँ बराबर होती हैं।",
+      "options": [
+        "He calculates quickly and correctly.",
+        "Dividing twenty by four gives five.",
+        "A circle has no sides.",
+        "All sides of a square are equal."
+      ],
+      "answer": "All sides of a square are equal.",
+      "explanation": "Correct translation: \"वर्ग की सभी भुजाएँ बराबर होती हैं।\" = \"All sides of a square are equal.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "A circle _____ no sides.",
+      "options": [
+        "the",
+        "even",
+        "easy",
+        "has"
+      ],
+      "answer": "has",
+      "explanation": "Full sentence: \"A circle has no sides.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "This equation are easy to solve.",
+      "options": [
+        "This equation are easy to solve.",
+        "This equation is easy to solve."
+      ],
+      "answer": "This equation is easy to solve.",
+      "explanation": "Correct sentence: \"This equation is easy to solve.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "यह कोण नब्बे डिग्री का है।",
+      "options": [
+        "The teacher taught multiplication.",
+        "He got ninety percent marks in the exam.",
+        "The area of the room is twenty square metres.",
+        "This angle is ninety degrees."
+      ],
+      "answer": "This angle is ninety degrees.",
+      "explanation": "Correct translation: \"यह कोण नब्बे डिग्री का है।\" = \"This angle is ninety degrees.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "The area of the _____ is twenty square metres.",
+      "options": [
+        "three",
+        "is",
+        "the",
+        "room"
+      ],
+      "answer": "room",
+      "explanation": "Full sentence: \"The area of the room is twenty square metres.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "The perimeter of the garden are one hundred metres.",
+      "options": [
+        "The perimeter of the garden are one hundred metres.",
+        "The perimeter of the garden is one hundred metres."
+      ],
+      "answer": "The perimeter of the garden is one hundred metres.",
+      "explanation": "Correct sentence: \"The perimeter of the garden is one hundred metres.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "गणित मेरा पसंदीदा विषय है।",
+      "options": [
+        "Multiplying three by four gives twelve.",
+        "All sides of a square are equal.",
+        "He calculates quickly and correctly.",
+        "Maths is my favourite subject."
+      ],
+      "answer": "Maths is my favourite subject.",
+      "explanation": "Correct translation: \"गणित मेरा पसंदीदा विषय है।\" = \"Maths is my favourite subject.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He calculates _____ and correctly.",
+      "options": [
+        "four",
+        "no",
+        "the",
+        "quickly"
+      ],
+      "answer": "quickly",
+      "explanation": "Full sentence: \"He calculates quickly and correctly.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "This number are the largest.",
+      "options": [
+        "This number are the largest.",
+        "This number is the largest."
+      ],
+      "answer": "This number is the largest.",
+      "explanation": "Correct sentence: \"This number is the largest.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हमें यह सवाल हल करना है।",
+      "options": [
+        "Half is a fraction.",
+        "This angle is ninety degrees.",
+        "The teacher taught multiplication.",
+        "We have to solve this problem."
+      ],
+      "answer": "We have to solve this problem.",
+      "explanation": "Correct translation: \"हमें यह सवाल हल करना है।\" = \"We have to solve this problem.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "The teacher _____ multiplication.",
+      "options": [
+        "percent",
+        "the",
+        "three",
+        "taught"
+      ],
+      "answer": "taught",
+      "explanation": "Full sentence: \"The teacher taught multiplication.\""
+    }
+  ]
+}

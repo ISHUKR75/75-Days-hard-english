@@ -1,0 +1,287 @@
+{
+  "day": 54,
+  "topic": "Comparative & Superlative Adjectives",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "राम श्याम से लंबा है।",
+      "english": "Ram is taller than Shyam.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"Ram is taller than Shyam.\"",
+      "difficulty": "easy",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 2,
+      "hindi": "राम सबसे लंबा है।",
+      "english": "Ram is the tallest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"Ram is the tallest.\"",
+      "difficulty": "medium",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 3,
+      "hindi": "यह फिल्म उस फिल्म से बेहतर है।",
+      "english": "This movie is better than that movie.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This movie is better than that movie.\"",
+      "difficulty": "hard",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 4,
+      "hindi": "यह सबसे अच्छी फिल्म है।",
+      "english": "This is the best movie.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This is the best movie.\"",
+      "difficulty": "easy",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 5,
+      "hindi": "यह किताब उससे ज्यादा दिलचस्प है।",
+      "english": "This book is more interesting than that one.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This book is more interesting than that one.\"",
+      "difficulty": "medium",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 6,
+      "hindi": "यह सबसे दिलचस्प किताब है।",
+      "english": "This is the most interesting book.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This is the most interesting book.\"",
+      "difficulty": "hard",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 7,
+      "hindi": "वह मुझसे तेज़ दौड़ता है।",
+      "english": "He runs faster than me.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"He runs faster than me.\"",
+      "difficulty": "easy",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 8,
+      "hindi": "वह सबसे तेज़ दौड़ता है।",
+      "english": "He runs the fastest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"He runs the fastest.\"",
+      "difficulty": "medium",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 9,
+      "hindi": "आज का मौसम कल से खराब है।",
+      "english": "Today's weather is worse than yesterday's.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"Today's weather is worse than yesterday's.\"",
+      "difficulty": "hard",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 10,
+      "hindi": "यह इस साल का सबसे खराब मौसम है।",
+      "english": "This is the worst weather this year.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This is the worst weather this year.\"",
+      "difficulty": "easy",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 11,
+      "hindi": "यह कार उससे महंगी है।",
+      "english": "This car is more expensive than that one.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This car is more expensive than that one.\"",
+      "difficulty": "medium",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 12,
+      "hindi": "यह सबसे महंगी कार है।",
+      "english": "This is the most expensive car.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This is the most expensive car.\"",
+      "difficulty": "hard",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 13,
+      "hindi": "वह उससे छोटा है।",
+      "english": "He is smaller than him.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"He is smaller than him.\"",
+      "difficulty": "easy",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 14,
+      "hindi": "वह सबसे छोटा है।",
+      "english": "He is the smallest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"He is the smallest.\"",
+      "difficulty": "medium",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 15,
+      "hindi": "यह रास्ता उससे आसान है।",
+      "english": "This way is easier than that one.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This way is easier than that one.\"",
+      "difficulty": "hard",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 16,
+      "hindi": "यह सबसे आसान रास्ता है।",
+      "english": "This is the easiest way.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This is the easiest way.\"",
+      "difficulty": "easy",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 17,
+      "hindi": "वह मुझसे ज़्यादा मेहनती है।",
+      "english": "He is more hardworking than me.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"He is more hardworking than me.\"",
+      "difficulty": "medium",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 18,
+      "hindi": "वह सबसे मेहनती है।",
+      "english": "He is the most hardworking.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"He is the most hardworking.\"",
+      "difficulty": "hard",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 19,
+      "hindi": "यह समस्या उससे कठिन है।",
+      "english": "This problem is harder than that one.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This problem is harder than that one.\"",
+      "difficulty": "easy",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    },
+    {
+      "id": 20,
+      "hindi": "यह सबसे कठिन समस्या है।",
+      "english": "This is the hardest problem.",
+      "alternatives": [],
+      "hint": "Use the pattern: Comparative: adjective + er + than (or 'more' + adj + than) | Superlative: the + adjective + est (or 'the most' + adj)",
+      "explanation": "Correct sentence: \"This is the hardest problem.\"",
+      "difficulty": "medium",
+      "tags": [
+        "comparative"
+      ],
+      "grammarRule": "Comparative & Superlative Adjectives",
+      "category": "Comparative & Superlative Adjectives practice"
+    }
+  ]
+}

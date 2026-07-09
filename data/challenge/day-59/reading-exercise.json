@@ -1,0 +1,107 @@
+{
+  "day": 59,
+  "topic": "Wish / If Only (Expressing Regret and Desire)",
+  "passage": {
+    "title": "A Day with Wish / If Only (Expressing Regret and Desire)",
+    "text": "I wish I had more money. If only I had more money. I wish I were there. If only I had studied earlier. I wish I had not made this mistake. I wish you would calm down. I wish I could fly. If only the weather were good. I wish I had talked to him. If only I had known this earlier.",
+    "hindiTranslation": "मुझे काश मेरे पास ज़्यादा पैसे होते। काश मेरे पास ज़्यादा पैसे होते। मुझे काश मैं वहाँ होता। काश मैंने पहले पढ़ाई की होती। मुझे काश मैंने यह गलती नहीं की होती। काश तुम शांत हो जाओ। मुझे काश मैं उड़ सकता। काश मौसम अच्छा होता। मुझे काश मैंने उससे बात की होती। काश मुझे यह पहले पता होता।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I wish I had...\"?",
+      "options": [
+        "If only the weather were good.",
+        "I wish I worked harder.",
+        "If only I had more money.",
+        "I wish I had more money."
+      ],
+      "answer": "I wish I had more money.",
+      "explanation": "Stated in the passage: \"I wish I had more money.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"If only I had...\"?",
+      "options": [
+        "I wish I had talked to him.",
+        "If only he had forgiven me.",
+        "I wish I were there.",
+        "If only I had more money."
+      ],
+      "answer": "If only I had more money.",
+      "explanation": "Stated in the passage: \"If only I had more money.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"I wish I were...\"?",
+      "options": [
+        "If only I had known this earlier.",
+        "I wish I knew this language.",
+        "If only I had studied earlier.",
+        "I wish I were there."
+      ],
+      "answer": "I wish I were there.",
+      "explanation": "Stated in the passage: \"I wish I were there.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"If only I had...\"?",
+      "options": [
+        "I wish I had more time.",
+        "I wish you would speak slowly.",
+        "I wish I had not made this mistake.",
+        "If only I had studied earlier."
+      ],
+      "answer": "If only I had studied earlier.",
+      "explanation": "Stated in the passage: \"If only I had studied earlier.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"I wish I had...\"?",
+      "options": [
+        "I wish you would listen to me.",
+        "I wish I had taken that opportunity.",
+        "I wish you would calm down.",
+        "I wish I had not made this mistake."
+      ],
+      "answer": "I wish I had not made this mistake.",
+      "explanation": "Stated in the passage: \"I wish I had not made this mistake.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"I wish you would...\"?",
+      "options": [
+        "I wish I had not taken this decision.",
+        "If only we had not gone there.",
+        "I wish I could fly.",
+        "I wish you would calm down."
+      ],
+      "answer": "I wish you would calm down.",
+      "explanation": "Stated in the passage: \"I wish you would calm down.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I wish I could...\"?",
+      "options": [
+        "If only we could meet again.",
+        "I wish I had more money.",
+        "If only the weather were good.",
+        "I wish I could fly."
+      ],
+      "answer": "I wish I could fly.",
+      "explanation": "Stated in the passage: \"I wish I could fly.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"If only the weather...\"?",
+      "options": [
+        "I wish I worked harder.",
+        "If only I had more money.",
+        "I wish I had talked to him.",
+        "If only the weather were good."
+      ],
+      "answer": "If only the weather were good.",
+      "explanation": "Stated in the passage: \"If only the weather were good.\""
+    }
+  ]
+}

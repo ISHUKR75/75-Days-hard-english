@@ -1,0 +1,46 @@
+{
+  "day": 66,
+  "topic": "Colours & Judiciary Vocabulary",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Colours & Judiciary Vocabulary.",
+      "hindiPrompt": "Colours & Judiciary Vocabulary का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "Red colour is a symbol of danger. The sky looks blue. Green colour is a symbol of peace. He is wearing a yellow shirt. Everyone likes black colour.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Colours & Judiciary Vocabulary.",
+      "hindiPrompt": "Colours & Judiciary Vocabulary का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "White colour represents purity. This flower is orange in colour. Purple colour is considered royal. She likes pink colour a lot. Brown coloured soil is fertile.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"अदालत में सुनवाई चल रही है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "The hearing is going on in the court.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"He are wearing a yellow shirt.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "He is wearing a yellow shirt.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Colours & Judiciary Vocabulary.",
+      "hindiPrompt": "Colours & Judiciary Vocabulary का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "The lawyer argued the case. The law is equal for everyone. There should be no delay in justice. The witness told the truth.",
+      "wordLimit": 60
+    }
+  ]
+}

@@ -1,0 +1,287 @@
+{
+  "day": 71,
+  "topic": "E-mail Writing",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "प्रिय सर, आपके ईमेल के लिए धन्यवाद।",
+      "english": "Dear Sir, thank you for your email.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Dear Sir, thank you for your email.\"",
+      "difficulty": "easy",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 2,
+      "hindi": "मैं इस मीटिंग में शामिल नहीं हो पाऊँगा।",
+      "english": "I will not be able to attend this meeting.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I will not be able to attend this meeting.\"",
+      "difficulty": "medium",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 3,
+      "hindi": "कृपया मुझे रिपोर्ट भेजें।",
+      "english": "Please send me the report.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Please send me the report.\"",
+      "difficulty": "hard",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 4,
+      "hindi": "मैं जल्द ही जवाब दूँगा।",
+      "english": "I will reply soon.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I will reply soon.\"",
+      "difficulty": "easy",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 5,
+      "hindi": "यह ईमेल महत्वपूर्ण जानकारी के लिए है।",
+      "english": "This email is for important information.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"This email is for important information.\"",
+      "difficulty": "medium",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 6,
+      "hindi": "कृपया अटैचमेंट देखें।",
+      "english": "Please check the attachment.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Please check the attachment.\"",
+      "difficulty": "hard",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 7,
+      "hindi": "मुझे आपकी सहायता चाहिए।",
+      "english": "I need your help.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I need your help.\"",
+      "difficulty": "easy",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 8,
+      "hindi": "धन्यवाद और शुभकामनाएं।",
+      "english": "Thanks and regards.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Thanks and regards.\"",
+      "difficulty": "medium",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 9,
+      "hindi": "मैं इस प्रोजेक्ट पर काम कर रहा हूँ।",
+      "english": "I am working on this project.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I am working on this project.\"",
+      "difficulty": "hard",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 10,
+      "hindi": "कृपया इसे प्राथमिकता दें।",
+      "english": "Please give this priority.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Please give this priority.\"",
+      "difficulty": "easy",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 11,
+      "hindi": "मैंने आपका संदेश पढ़ लिया है।",
+      "english": "I have read your message.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I have read your message.\"",
+      "difficulty": "medium",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 12,
+      "hindi": "मैं कल तक जवाब दे दूंगा।",
+      "english": "I will reply by tomorrow.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I will reply by tomorrow.\"",
+      "difficulty": "hard",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 13,
+      "hindi": "यह ईमेल गलती से भेजा गया।",
+      "english": "This email was sent by mistake.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"This email was sent by mistake.\"",
+      "difficulty": "easy",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 14,
+      "hindi": "कृपया इसे नज़रअंदाज़ करें।",
+      "english": "Please ignore this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Please ignore this.\"",
+      "difficulty": "medium",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 15,
+      "hindi": "मुझे मीटिंग का समय पता चाहिए।",
+      "english": "I need to know the time of the meeting.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I need to know the time of the meeting.\"",
+      "difficulty": "hard",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 16,
+      "hindi": "कृपया कॉन्फ़्रेंस कॉल शेड्यूल करें।",
+      "english": "Please schedule a conference call.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Please schedule a conference call.\"",
+      "difficulty": "easy",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 17,
+      "hindi": "मैं इस सप्ताह छुट्टी पर हूँ।",
+      "english": "I am on leave this week.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I am on leave this week.\"",
+      "difficulty": "medium",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 18,
+      "hindi": "कृपया इस मामले में जल्दी कार्रवाई करें।",
+      "english": "Please take quick action on this matter.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Please take quick action on this matter.\"",
+      "difficulty": "hard",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 19,
+      "hindi": "सादर, अनीता वर्मा।",
+      "english": "Regards, Anita Verma.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"Regards, Anita Verma.\"",
+      "difficulty": "easy",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    },
+    {
+      "id": 20,
+      "hindi": "मुझे उम्मीद है यह ईमेल आपको अच्छा लगेगा।",
+      "english": "I hope you find this email helpful.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject line intent + greeting + concise body + sign-off",
+      "explanation": "Correct sentence: \"I hope you find this email helpful.\"",
+      "difficulty": "medium",
+      "tags": [
+        "e-mail"
+      ],
+      "grammarRule": "E-mail Writing",
+      "category": "E-mail Writing practice"
+    }
+  ]
+}

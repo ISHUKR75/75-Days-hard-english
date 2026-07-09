@@ -1,0 +1,68 @@
+{
+  "day": 55,
+  "topic": "Articles (A, An, The)",
+  "keyPointsSummary": [
+    "Use 'a' before consonant sounds, 'an' before vowel sounds",
+    "Use 'a/an' for first mention or general reference",
+    "Use 'the' for specific things, previously mentioned things, or unique things",
+    "No article before plural general nouns or abstract nouns in general statements"
+  ],
+  "quickQuiz": [
+    {
+      "id": 1,
+      "hindi": "मुझे एक किताब चाहिए।",
+      "answer": "I need a book."
+    },
+    {
+      "id": 2,
+      "hindi": "मुझे एक सेब चाहिए।",
+      "answer": "I need an apple."
+    },
+    {
+      "id": 3,
+      "hindi": "वह किताब मेज पर है।",
+      "answer": "The book is on the table."
+    },
+    {
+      "id": 4,
+      "hindi": "सूरज पूरब से निकलता है।",
+      "answer": "The sun rises in the east."
+    },
+    {
+      "id": 5,
+      "hindi": "मैंने एक कुत्ता देखा।",
+      "answer": "I saw a dog."
+    },
+    {
+      "id": 6,
+      "hindi": "वह कुत्ता बहुत प्यारा है।",
+      "answer": "The dog is very cute."
+    },
+    {
+      "id": 7,
+      "hindi": "यह एक अच्छी idea है।",
+      "answer": "This is a good idea."
+    },
+    {
+      "id": 8,
+      "hindi": "वह idea बहुत काम आई।",
+      "answer": "That idea worked well."
+    },
+    {
+      "id": 9,
+      "hindi": "मुझे एक umbrella चाहिए।",
+      "answer": "I need an umbrella."
+    },
+    {
+      "id": 10,
+      "hindi": "ताजमहल भारत में है।",
+      "answer": "The Taj Mahal is in India."
+    }
+  ],
+  "mustRememberRules": [
+    "Use 'a' before consonant sounds, 'an' before vowel sounds",
+    "Use 'a/an' for first mention or general reference",
+    "Use 'the' for specific things, previously mentioned things, or unique things",
+    "No article before plural general nouns or abstract nouns in general statements"
+  ]
+}

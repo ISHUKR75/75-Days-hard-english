@@ -1,0 +1,255 @@
+{
+  "day": 71,
+  "topic": "E-mail Writing",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "प्रिय सर, आपके ईमेल के लिए धन्यवाद।",
+      "options": [
+        "Thanks and regards.",
+        "I need to know the time of the meeting.",
+        "I will not be able to attend this meeting.",
+        "Dear Sir, thank you for your email."
+      ],
+      "answer": "Dear Sir, thank you for your email.",
+      "explanation": "Correct translation: \"प्रिय सर, आपके ईमेल के लिए धन्यवाद।\" = \"Dear Sir, thank you for your email.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I will not be _____ to attend this meeting.",
+      "options": [
+        "on",
+        "conference",
+        "the",
+        "able"
+      ],
+      "answer": "able",
+      "explanation": "Full sentence: \"I will not be able to attend this meeting.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Please send me the report yesterday.",
+      "options": [
+        "Please send me the report yesterday.",
+        "Please send me the report."
+      ],
+      "answer": "Please send me the report.",
+      "explanation": "Correct sentence: \"Please send me the report.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मैं जल्द ही जवाब दूँगा।",
+      "options": [
+        "I have read your message.",
+        "Please take quick action on this matter.",
+        "This email is for important information.",
+        "I will reply soon."
+      ],
+      "answer": "I will reply soon.",
+      "explanation": "Correct translation: \"मैं जल्द ही जवाब दूँगा।\" = \"I will reply soon.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "This email is _____ important information.",
+      "options": [
+        "by",
+        "Verma",
+        "attachment",
+        "for"
+      ],
+      "answer": "for",
+      "explanation": "Full sentence: \"This email is for important information.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Please check the attachment yesterday.",
+      "options": [
+        "Please check the attachment yesterday.",
+        "Please check the attachment."
+      ],
+      "answer": "Please check the attachment.",
+      "explanation": "Correct sentence: \"Please check the attachment.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मुझे आपकी सहायता चाहिए।",
+      "options": [
+        "Please ignore this.",
+        "Dear Sir, thank you for your email.",
+        "Thanks and regards.",
+        "I need your help."
+      ],
+      "answer": "I need your help.",
+      "explanation": "Correct translation: \"मुझे आपकी सहायता चाहिए।\" = \"I need your help.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Thanks _____ regards.",
+      "options": [
+        "know",
+        "be",
+        "on",
+        "and"
+      ],
+      "answer": "and",
+      "explanation": "Full sentence: \"Thanks and regards.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I am working on this project yesterday.",
+      "options": [
+        "I am working on this project yesterday.",
+        "I am working on this project."
+      ],
+      "answer": "I am working on this project.",
+      "explanation": "Correct sentence: \"I am working on this project.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "कृपया इसे प्राथमिकता दें।",
+      "options": [
+        "I am on leave this week.",
+        "I will reply soon.",
+        "I have read your message.",
+        "Please give this priority."
+      ],
+      "answer": "Please give this priority.",
+      "explanation": "Correct translation: \"कृपया इसे प्राथमिकता दें।\" = \"Please give this priority.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "I have _____ your message.",
+      "options": [
+        "action",
+        "for",
+        "by",
+        "read"
+      ],
+      "answer": "read",
+      "explanation": "Full sentence: \"I have read your message.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I will reply by tomorrow yesterday.",
+      "options": [
+        "I will reply by tomorrow yesterday.",
+        "I will reply by tomorrow."
+      ],
+      "answer": "I will reply by tomorrow.",
+      "explanation": "Correct sentence: \"I will reply by tomorrow.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "यह ईमेल गलती से भेजा गया।",
+      "options": [
+        "I hope you find this email helpful.",
+        "I need your help.",
+        "Please ignore this.",
+        "This email was sent by mistake."
+      ],
+      "answer": "This email was sent by mistake.",
+      "explanation": "Correct translation: \"यह ईमेल गलती से भेजा गया।\" = \"This email was sent by mistake.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Please _____ this.",
+      "options": [
+        "you",
+        "regards",
+        "know",
+        "ignore"
+      ],
+      "answer": "ignore",
+      "explanation": "Full sentence: \"Please ignore this.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I need to know the time of the meeting yesterday.",
+      "options": [
+        "I need to know the time of the meeting yesterday.",
+        "I need to know the time of the meeting."
+      ],
+      "answer": "I need to know the time of the meeting.",
+      "explanation": "Correct sentence: \"I need to know the time of the meeting.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "कृपया कॉन्फ़्रेंस कॉल शेड्यूल करें।",
+      "options": [
+        "Please send me the report.",
+        "Please give this priority.",
+        "I am on leave this week.",
+        "Please schedule a conference call."
+      ],
+      "answer": "Please schedule a conference call.",
+      "explanation": "Correct translation: \"कृपया कॉन्फ़्रेंस कॉल शेड्यूल करें।\" = \"Please schedule a conference call.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I am on _____ this week.",
+      "options": [
+        "soon",
+        "your",
+        "action",
+        "leave"
+      ],
+      "answer": "leave",
+      "explanation": "Full sentence: \"I am on leave this week.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Please take quick action on this matter yesterday.",
+      "options": [
+        "Please take quick action on this matter yesterday.",
+        "Please take quick action on this matter."
+      ],
+      "answer": "Please take quick action on this matter.",
+      "explanation": "Correct sentence: \"Please take quick action on this matter.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "सादर, अनीता वर्मा।",
+      "options": [
+        "Please check the attachment.",
+        "This email was sent by mistake.",
+        "I hope you find this email helpful.",
+        "Regards, Anita Verma."
+      ],
+      "answer": "Regards, Anita Verma.",
+      "explanation": "Correct translation: \"सादर, अनीता वर्मा।\" = \"Regards, Anita Verma.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I hope you _____ this email helpful.",
+      "options": [
+        "help",
+        "this",
+        "you",
+        "find"
+      ],
+      "answer": "find",
+      "explanation": "Full sentence: \"I hope you find this email helpful.\""
+    }
+  ]
+}

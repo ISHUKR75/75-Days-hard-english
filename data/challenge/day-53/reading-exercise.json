@@ -1,0 +1,107 @@
+{
+  "day": 53,
+  "topic": "Question Tags",
+  "passage": {
+    "title": "A Day with Question Tags",
+    "text": "You are coming, aren't you? He didn't come, did he? This is beautiful, isn't it? You don't like this, do you? He sings well, doesn't he? We will meet, won't we? You did this, didn't you? She is a doctor, isn't she? You can do this, can't you? She likes this, doesn't she?",
+    "hindiTranslation": "तुम आ रहे हो, है ना? वह नहीं आया, आया ना? यह सुंदर है, है ना? तुम्हें यह पसंद नहीं है, है ना? वह अच्छा गाता है, है ना? हम मिलेंगे, ना? तुमने यह किया, किया ना? वह डॉक्टर है, है ना? तुम यह कर सकते हो, कर सकते हो ना? उसे यह पसंद है, है ना?"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"You are coming, aren't...\"?",
+      "options": [
+        "She is a doctor, isn't she?",
+        "I am right, aren't I?",
+        "He didn't come, did he?",
+        "You are coming, aren't you?"
+      ],
+      "answer": "You are coming, aren't you?",
+      "explanation": "Stated in the passage: \"You are coming, aren't you?\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"He didn't come, did...\"?",
+      "options": [
+        "You can do this, can't you?",
+        "You didn't do this, did you?",
+        "This is beautiful, isn't it?",
+        "He didn't come, did he?"
+      ],
+      "answer": "He didn't come, did he?",
+      "explanation": "Stated in the passage: \"He didn't come, did he?\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"This is beautiful, isn't...\"?",
+      "options": [
+        "She likes this, doesn't she?",
+        "He was there, wasn't he?",
+        "You don't like this, do you?",
+        "This is beautiful, isn't it?"
+      ],
+      "answer": "This is beautiful, isn't it?",
+      "explanation": "Stated in the passage: \"This is beautiful, isn't it?\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"You don't like this,...\"?",
+      "options": [
+        "You are not hungry, are you?",
+        "You go to school, don't you?",
+        "He sings well, doesn't he?",
+        "You don't like this, do you?"
+      ],
+      "answer": "You don't like this, do you?",
+      "explanation": "Stated in the passage: \"You don't like this, do you?\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"He sings well, doesn't...\"?",
+      "options": [
+        "This is not difficult, is it?",
+        "She wakes up early, doesn't she?",
+        "We will meet, won't we?",
+        "He sings well, doesn't he?"
+      ],
+      "answer": "He sings well, doesn't he?",
+      "explanation": "Stated in the passage: \"He sings well, doesn't he?\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"We will meet, won't...\"?",
+      "options": [
+        "You have eaten food, haven't you?",
+        "We should leave early, shouldn't we?",
+        "You did this, didn't you?",
+        "We will meet, won't we?"
+      ],
+      "answer": "We will meet, won't we?",
+      "explanation": "Stated in the passage: \"We will meet, won't we?\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"You did this, didn't...\"?",
+      "options": [
+        "They will come, won't they?",
+        "You are coming, aren't you?",
+        "She is a doctor, isn't she?",
+        "You did this, didn't you?"
+      ],
+      "answer": "You did this, didn't you?",
+      "explanation": "Stated in the passage: \"You did this, didn't you?\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She is a doctor,...\"?",
+      "options": [
+        "I am right, aren't I?",
+        "He didn't come, did he?",
+        "You can do this, can't you?",
+        "She is a doctor, isn't she?"
+      ],
+      "answer": "She is a doctor, isn't she?",
+      "explanation": "Stated in the passage: \"She is a doctor, isn't she?\""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 52,
+  "topic": "Reported Speech Part 2 — Questions & Commands",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He asked, \"What are you doing?\"",
+      "hindiScript": "उसने पूछा, \"तुम क्या कर रहे हो?\"",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She told me not to come here.",
+        "She asked, \"When will you come?\"",
+        "He asked if I was coming.",
+        "He asked, \"What are you doing?\""
+      ],
+      "answer": "He asked, \"What are you doing?\""
+    },
+    {
+      "id": 2,
+      "audioScript": "He asked what I was doing.",
+      "hindiScript": "उसने पूछा कि मैं क्या कर रहा था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They asked, \"Are you ready?\"",
+        "She asked when I would come.",
+        "She asked, \"Where do you live?\"",
+        "He asked what I was doing."
+      ],
+      "answer": "He asked what I was doing."
+    },
+    {
+      "id": 3,
+      "audioScript": "The teacher said, \"Be quiet.\"",
+      "hindiScript": "टीचर ने कहा, \"चुप रहो।\"",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They asked if I was ready.",
+        "The doctor said, \"Take medicine.\"",
+        "She asked where I lived.",
+        "The teacher said, \"Be quiet.\""
+      ],
+      "answer": "The teacher said, \"Be quiet.\""
+    },
+    {
+      "id": 4,
+      "audioScript": "The teacher told us to be quiet.",
+      "hindiScript": "टीचर ने हमें चुप रहने को कहा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He asked, \"What are you doing?\"",
+        "The doctor told me to take medicine.",
+        "He said, \"Do this work.\"",
+        "The teacher told us to be quiet."
+      ],
+      "answer": "The teacher told us to be quiet."
+    },
+    {
+      "id": 5,
+      "audioScript": "She asked, \"When will you come?\"",
+      "hindiScript": "उसने पूछा, \"तुम कब आओगे?\"",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He asked what I was doing.",
+        "He asked, \"Do you need help?\"",
+        "He told me to do this work.",
+        "She asked, \"When will you come?\""
+      ],
+      "answer": "She asked, \"When will you come?\""
+    },
+    {
+      "id": 6,
+      "audioScript": "She asked when I would come.",
+      "hindiScript": "उसने पूछा कि मैं कब आऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The teacher said, \"Be quiet.\"",
+        "He asked if I needed help.",
+        "She said, \"Do not come here.\"",
+        "She asked when I would come."
+      ],
+      "answer": "She asked when I would come."
+    },
+    {
+      "id": 7,
+      "audioScript": "The doctor said, \"Take medicine.\"",
+      "hindiScript": "डॉक्टर ने कहा, \"दवा लो।\"",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The teacher told us to be quiet.",
+        "He asked, \"Are you coming?\"",
+        "She told me not to come here.",
+        "The doctor said, \"Take medicine.\""
+      ],
+      "answer": "The doctor said, \"Take medicine.\""
+    },
+    {
+      "id": 8,
+      "audioScript": "The doctor told me to take medicine.",
+      "hindiScript": "डॉक्टर ने मुझे दवा लेने को कहा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She asked, \"When will you come?\"",
+        "He asked if I was coming.",
+        "They asked, \"Are you ready?\"",
+        "The doctor told me to take medicine."
+      ],
+      "answer": "The doctor told me to take medicine."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He asked, \"What are you doing?\" He asked what I was doing. The teacher said, \"Be quiet.\" The teacher told us to be quiet. She asked, \"When will you come?\"",
+    "hindiTranslation": "उसने पूछा, \"तुम क्या कर रहे हो?\" उसने पूछा कि मैं क्या कर रहा था। टीचर ने कहा, \"चुप रहो।\" टीचर ने हमें चुप रहने को कहा। उसने पूछा, \"तुम कब आओगे?\""
+  }
+}

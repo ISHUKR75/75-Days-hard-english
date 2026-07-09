@@ -1,0 +1,46 @@
+{
+  "day": 53,
+  "topic": "Question Tags",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Question Tags.",
+      "hindiPrompt": "Question Tags का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "You are coming, aren't you? He didn't come, did he? This is beautiful, isn't it? You don't like this, do you? He sings well, doesn't he?",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Question Tags.",
+      "hindiPrompt": "Question Tags का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "We will meet, won't we? You did this, didn't you? She is a doctor, isn't she? You can do this, can't you? She likes this, doesn't she?",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"तुम भूखे नहीं हो, हो ना?\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "You are not hungry, are you?",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"You don't like this, do you? yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "You don't like this, do you?",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Question Tags.",
+      "hindiPrompt": "Question Tags का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "You have eaten food, haven't you? They will come, won't they? I am right, aren't I? You didn't do this, did you?",
+      "wordLimit": 60
+    }
+  ]
+}

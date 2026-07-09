@@ -1,0 +1,46 @@
+{
+  "day": 55,
+  "topic": "Articles (A, An, The)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Articles (A, An, The).",
+      "hindiPrompt": "Articles (A, An, The) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I need a book. I need an apple. The book is on the table. The sun rises in the east. I saw a dog.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Articles (A, An, The).",
+      "hindiPrompt": "Articles (A, An, The) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "The dog is very cute. This is a good idea. That idea worked well. I need an umbrella. The Taj Mahal is in India.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"वह एक teacher है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "She is a teacher.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"The sun rises in the east yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "The sun rises in the east.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Articles (A, An, The).",
+      "hindiPrompt": "Articles (A, An, The) का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I waited for an hour. The Ganges river is very sacred. He bought a car. The car is red.",
+      "wordLimit": 60
+    }
+  ]
+}

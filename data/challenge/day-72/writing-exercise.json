@@ -1,0 +1,46 @@
+{
+  "day": 72,
+  "topic": "Paragraph Writing",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Paragraph Writing.",
+      "hindiPrompt": "Paragraph Writing का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "My favourite season is the rainy season. Everything becomes green in the rain. I like reading books a lot. Books are a treasure of knowledge. My village is very beautiful.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Paragraph Writing.",
+      "hindiPrompt": "Paragraph Writing का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "There are green fields and clean air there. Education is very important in life. It makes us a better person. We should make good use of time. The one who wastes time regrets later.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"स्वास्थ्य ही असली धन है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Health is real wealth.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Books is a treasure of knowledge.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Books are a treasure of knowledge.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Paragraph Writing.",
+      "hindiPrompt": "Paragraph Writing का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "My mother is my best friend. She always supports me. Nature teaches us a lot. We should protect trees.",
+      "wordLimit": 60
+    }
+  ]
+}

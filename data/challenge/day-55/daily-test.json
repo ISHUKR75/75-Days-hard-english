@@ -1,0 +1,255 @@
+{
+  "day": 55,
+  "topic": "Articles (A, An, The)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे एक किताब चाहिए।",
+      "options": [
+        "That idea worked well.",
+        "He bought a car.",
+        "I need an apple.",
+        "I need a book."
+      ],
+      "answer": "I need a book.",
+      "explanation": "Correct translation: \"मुझे एक किताब चाहिए।\" = \"I need a book.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I need _____ apple.",
+      "options": [
+        "umbrella",
+        "red",
+        "on",
+        "an"
+      ],
+      "answer": "an",
+      "explanation": "Full sentence: \"I need an apple.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "The book are on the table.",
+      "options": [
+        "The book are on the table.",
+        "The book is on the table."
+      ],
+      "answer": "The book is on the table.",
+      "explanation": "Correct sentence: \"The book is on the table.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "सूरज पूरब से निकलता है।",
+      "options": [
+        "She is a teacher.",
+        "The Himalayas are very high.",
+        "I saw a dog.",
+        "The sun rises in the east."
+      ],
+      "answer": "The sun rises in the east.",
+      "explanation": "Correct translation: \"सूरज पूरब से निकलता है।\" = \"The sun rises in the east.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I saw _____ dog.",
+      "options": [
+        "very",
+        "good",
+        "an",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"I saw a dog.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "The dog are very cute.",
+      "options": [
+        "The dog are very cute.",
+        "The dog is very cute."
+      ],
+      "answer": "The dog is very cute.",
+      "explanation": "Correct sentence: \"The dog is very cute.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "यह एक अच्छी idea है।",
+      "options": [
+        "The Ganges river is very sacred.",
+        "I need a book.",
+        "That idea worked well.",
+        "This is a good idea."
+      ],
+      "answer": "This is a good idea.",
+      "explanation": "Correct translation: \"यह एक अच्छी idea है।\" = \"This is a good idea.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "That idea _____ well.",
+      "options": [
+        "car",
+        "apple",
+        "umbrella",
+        "worked"
+      ],
+      "answer": "worked",
+      "explanation": "Full sentence: \"That idea worked well.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I need an umbrella yesterday.",
+      "options": [
+        "I need an umbrella yesterday.",
+        "I need an umbrella."
+      ],
+      "answer": "I need an umbrella.",
+      "explanation": "Correct sentence: \"I need an umbrella.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "ताजमहल भारत में है।",
+      "options": [
+        "I need an honest friend.",
+        "The sun rises in the east.",
+        "She is a teacher.",
+        "The Taj Mahal is in India."
+      ],
+      "answer": "The Taj Mahal is in India.",
+      "explanation": "Correct translation: \"ताजमहल भारत में है।\" = \"The Taj Mahal is in India.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "She is _____ teacher.",
+      "options": [
+        "very",
+        "dog",
+        "good",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"She is a teacher.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "The teacher are very good.",
+      "options": [
+        "The teacher are very good.",
+        "The teacher is very good."
+      ],
+      "answer": "The teacher is very good.",
+      "explanation": "Correct sentence: \"The teacher is very good.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैंने एक hour इंतज़ार किया।",
+      "options": [
+        "That opportunity will not come again.",
+        "This is a good idea.",
+        "The Ganges river is very sacred.",
+        "I waited for an hour."
+      ],
+      "answer": "I waited for an hour.",
+      "explanation": "Correct translation: \"मैंने एक hour इंतज़ार किया।\" = \"I waited for an hour.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "The Ganges river _____ very sacred.",
+      "options": [
+        "book",
+        "well",
+        "car",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"The Ganges river is very sacred.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "He bought a car yesterday.",
+      "options": [
+        "He bought a car yesterday.",
+        "He bought a car."
+      ],
+      "answer": "He bought a car.",
+      "explanation": "Correct sentence: \"He bought a car.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह कार लाल है।",
+      "options": [
+        "The book is on the table.",
+        "The Taj Mahal is in India.",
+        "I need an honest friend.",
+        "The car is red."
+      ],
+      "answer": "The car is red.",
+      "explanation": "Correct translation: \"वह कार लाल है।\" = \"The car is red.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I need _____ honest friend.",
+      "options": [
+        "in",
+        "teacher",
+        "very",
+        "an"
+      ],
+      "answer": "an",
+      "explanation": "Full sentence: \"I need an honest friend.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "The Himalayas is very high.",
+      "options": [
+        "The Himalayas is very high.",
+        "The Himalayas are very high."
+      ],
+      "answer": "The Himalayas are very high.",
+      "explanation": "Correct sentence: \"The Himalayas are very high.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह एक अच्छा मौका है।",
+      "options": [
+        "The dog is very cute.",
+        "I waited for an hour.",
+        "That opportunity will not come again.",
+        "This is a good opportunity."
+      ],
+      "answer": "This is a good opportunity.",
+      "explanation": "Correct translation: \"यह एक अच्छा मौका है।\" = \"This is a good opportunity.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "That opportunity will _____ come again.",
+      "options": [
+        "good",
+        "is",
+        "book",
+        "not"
+      ],
+      "answer": "not",
+      "explanation": "Full sentence: \"That opportunity will not come again.\""
+    }
+  ]
+}

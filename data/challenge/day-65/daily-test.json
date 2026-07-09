@@ -1,0 +1,255 @@
+{
+  "day": 65,
+  "topic": "Industry Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "यह फैक्ट्री कपड़े बनाती है।",
+      "options": [
+        "India exports clothes to other countries.",
+        "The demand for the product has increased.",
+        "The machine runs day and night.",
+        "This factory manufactures clothes."
+      ],
+      "answer": "This factory manufactures clothes.",
+      "explanation": "Correct translation: \"यह फैक्ट्री कपड़े बनाती है।\" = \"This factory manufactures clothes.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "The machine runs _____ and night.",
+      "options": [
+        "is",
+        "installed",
+        "hard",
+        "day"
+      ],
+      "answer": "day",
+      "explanation": "Full sentence: \"The machine runs day and night.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Workers work hard yesterday.",
+      "options": [
+        "Workers work hard yesterday.",
+        "Workers work hard."
+      ],
+      "answer": "Workers work hard.",
+      "explanation": "Correct sentence: \"Workers work hard.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उत्पादन बढ़ गया है।",
+      "options": [
+        "There was a delay in the supply chain.",
+        "Maintenance of machines is necessary.",
+        "The manager gives instructions to the team.",
+        "Production has increased."
+      ],
+      "answer": "Production has increased.",
+      "explanation": "Correct translation: \"उत्पादन बढ़ गया है।\" = \"Production has increased.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "The manager gives _____ to the team.",
+      "options": [
+        "setting",
+        "help",
+        "growing",
+        "instructions"
+      ],
+      "answer": "instructions",
+      "explanation": "Full sentence: \"The manager gives instructions to the team.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "This industry are growing rapidly.",
+      "options": [
+        "This industry are growing rapidly.",
+        "This industry is growing rapidly."
+      ],
+      "answer": "This industry is growing rapidly.",
+      "explanation": "Correct sentence: \"This industry is growing rapidly.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "हम कच्चा माल विदेश से मंगाते हैं।",
+      "options": [
+        "This industry creates employment.",
+        "This factory manufactures clothes.",
+        "India exports clothes to other countries.",
+        "We import raw material from abroad."
+      ],
+      "answer": "We import raw material from abroad.",
+      "explanation": "Correct translation: \"हम कच्चा माल विदेश से मंगाते हैं।\" = \"We import raw material from abroad.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "India exports clothes _____ other countries.",
+      "options": [
+        "the",
+        "day",
+        "is",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"India exports clothes to other countries.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "The manufacturing process are complex.",
+      "options": [
+        "The manufacturing process are complex.",
+        "The manufacturing process is complex."
+      ],
+      "answer": "The manufacturing process is complex.",
+      "explanation": "Correct sentence: \"The manufacturing process is complex.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "गुणवत्ता नियंत्रण जरूरी है।",
+      "options": [
+        "This company produces on a large scale.",
+        "Production has increased.",
+        "There was a delay in the supply chain.",
+        "Quality control is necessary."
+      ],
+      "answer": "Quality control is necessary.",
+      "explanation": "Correct translation: \"गुणवत्ता नियंत्रण जरूरी है।\" = \"Quality control is necessary.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "There was a delay _____ the supply chain.",
+      "options": [
+        "is",
+        "instructions",
+        "setting",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"There was a delay in the supply chain.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "The company are setting up a new plant.",
+      "options": [
+        "The company are setting up a new plant.",
+        "The company is setting up a new plant."
+      ],
+      "answer": "The company is setting up a new plant.",
+      "explanation": "Correct sentence: \"The company is setting up a new plant.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "श्रमिकों को सुरक्षा उपकरण चाहिए।",
+      "options": [
+        "This product sells in the international market.",
+        "We import raw material from abroad.",
+        "This industry creates employment.",
+        "Workers need safety equipment."
+      ],
+      "answer": "Workers need safety equipment.",
+      "explanation": "Correct translation: \"श्रमिकों को सुरक्षा उपकरण चाहिए।\" = \"Workers need safety equipment.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "This industry _____ employment.",
+      "options": [
+        "clothes",
+        "to",
+        "the",
+        "creates"
+      ],
+      "answer": "creates",
+      "explanation": "Full sentence: \"This industry creates employment.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "The demand for the product have increased.",
+      "options": [
+        "The demand for the product have increased.",
+        "The demand for the product has increased."
+      ],
+      "answer": "The demand for the product has increased.",
+      "explanation": "Correct sentence: \"The demand for the product has increased.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "फैक्ट्री में नई तकनीक लगाई गई।",
+      "options": [
+        "Workers work hard.",
+        "Quality control is necessary.",
+        "This company produces on a large scale.",
+        "New technology was installed in the factory."
+      ],
+      "answer": "New technology was installed in the factory.",
+      "explanation": "Correct translation: \"फैक्ट्री में नई तकनीक लगाई गई।\" = \"New technology was installed in the factory.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "This company produces _____ a large scale.",
+      "options": [
+        "increased",
+        "delay",
+        "is",
+        "on"
+      ],
+      "answer": "on",
+      "explanation": "Full sentence: \"This company produces on a large scale.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Maintenance of machines are necessary.",
+      "options": [
+        "Maintenance of machines are necessary.",
+        "Maintenance of machines is necessary."
+      ],
+      "answer": "Maintenance of machines is necessary.",
+      "explanation": "Correct sentence: \"Maintenance of machines is necessary.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उद्योग को सरकार से सहायता मिली।",
+      "options": [
+        "This industry is growing rapidly.",
+        "Workers need safety equipment.",
+        "This product sells in the international market.",
+        "The industry received help from the government."
+      ],
+      "answer": "The industry received help from the government.",
+      "explanation": "Correct translation: \"उद्योग को सरकार से सहायता मिली।\" = \"The industry received help from the government.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "This product sells _____ the international market.",
+      "options": [
+        "material",
+        "employment",
+        "clothes",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"This product sells in the international market.\""
+    }
+  ]
+}

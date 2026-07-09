@@ -1,0 +1,114 @@
+{
+  "day": 61,
+  "topic": "Buildings, Worms & Insects Vocabulary",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "The cockroach is hiding in the kitchen.",
+      "hindiScript": "तिलचट्टा रसोई में छिपा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The school building is new.",
+        "The fly sat on the food.",
+        "The hospital is in the middle of the city.",
+        "The cockroach is hiding in the kitchen."
+      ],
+      "answer": "The cockroach is hiding in the kitchen."
+    },
+    {
+      "id": 2,
+      "audioScript": "The spider wove a web.",
+      "hindiScript": "मकड़ी ने जाला बुना।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Ants are walking on the ground.",
+        "Termites eat wood.",
+        "The temple is very old.",
+        "The spider wove a web."
+      ],
+      "answer": "The spider wove a web."
+    },
+    {
+      "id": 3,
+      "audioScript": "The butterfly is sitting on the flower.",
+      "hindiScript": "तितली फूल पर बैठी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Mosquitoes bite at night.",
+        "The earthworm makes the soil fertile.",
+        "The bridge is built over the river.",
+        "The butterfly is sitting on the flower."
+      ],
+      "answer": "The butterfly is sitting on the flower."
+    },
+    {
+      "id": 4,
+      "audioScript": "Bees make honey.",
+      "hindiScript": "मधुमक्खियाँ शहद बनाती हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The cockroach is hiding in the kitchen.",
+        "The caterpillar eats leaves.",
+        "There is a lot of noise in the factory.",
+        "Bees make honey."
+      ],
+      "answer": "Bees make honey."
+    },
+    {
+      "id": 5,
+      "audioScript": "The fly sat on the food.",
+      "hindiScript": "मक्खी खाने पर बैठ गई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The spider wove a web.",
+        "This building is a government office.",
+        "There are many shops in the mall.",
+        "The fly sat on the food."
+      ],
+      "answer": "The fly sat on the food."
+    },
+    {
+      "id": 6,
+      "audioScript": "Termites eat wood.",
+      "hindiScript": "दीमक लकड़ी खा जाती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The butterfly is sitting on the flower.",
+        "Insects come out after the rain.",
+        "The tower is very tall.",
+        "Termites eat wood."
+      ],
+      "answer": "Termites eat wood."
+    },
+    {
+      "id": 7,
+      "audioScript": "The earthworm makes the soil fertile.",
+      "hindiScript": "केंचुआ मिट्टी को उपजाऊ बनाता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Bees make honey.",
+        "This is a big building.",
+        "The school building is new.",
+        "The earthworm makes the soil fertile."
+      ],
+      "answer": "The earthworm makes the soil fertile."
+    },
+    {
+      "id": 8,
+      "audioScript": "The caterpillar eats leaves.",
+      "hindiScript": "कैटरपिलर पत्तियाँ खाता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The fly sat on the food.",
+        "The hospital is in the middle of the city.",
+        "Ants are walking on the ground.",
+        "The caterpillar eats leaves."
+      ],
+      "answer": "The caterpillar eats leaves."
+    }
+  ],
+  "dictationPassage": {
+    "text": "The cockroach is hiding in the kitchen. The spider wove a web. The butterfly is sitting on the flower. Bees make honey. The fly sat on the food.",
+    "hindiTranslation": "तिलचट्टा रसोई में छिपा है। मकड़ी ने जाला बुना। तितली फूल पर बैठी है। मधुमक्खियाँ शहद बनाती हैं। मक्खी खाने पर बैठ गई।"
+  }
+}

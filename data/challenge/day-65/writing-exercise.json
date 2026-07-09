@@ -1,0 +1,46 @@
+{
+  "day": 65,
+  "topic": "Industry Vocabulary",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Industry Vocabulary.",
+      "hindiPrompt": "Industry Vocabulary का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "This factory manufactures clothes. The machine runs day and night. Workers work hard. Production has increased. The manager gives instructions to the team.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Industry Vocabulary.",
+      "hindiPrompt": "Industry Vocabulary का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "This industry is growing rapidly. We import raw material from abroad. India exports clothes to other countries. The manufacturing process is complex. Quality control is necessary.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"आपूर्ति श्रृंखला में देरी हुई।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "There was a delay in the supply chain.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Production have increased.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Production has increased.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Industry Vocabulary.",
+      "hindiPrompt": "Industry Vocabulary का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Workers need safety equipment. This industry creates employment. The demand for the product has increased. New technology was installed in the factory.",
+      "wordLimit": 60
+    }
+  ]
+}

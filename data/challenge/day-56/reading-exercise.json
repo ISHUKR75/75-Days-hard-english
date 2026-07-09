@@ -1,0 +1,107 @@
+{
+  "day": 56,
+  "topic": "If Clauses / Conditionals Part 1 — Zero & First Conditional",
+  "passage": {
+    "title": "A Day with If Clauses / Conditionals Part 1 — Zero & First Conditional",
+    "text": "If water heats to 100 degrees, it boils. If you heat ice, it melts. If I get time, I will come. If it rains, we will stay home. If you work hard, you will succeed. If he comes early, we will start. If the sun comes out, the day is warm. If you eat this, you will feel good. If you need help, tell me. If he doesn't come, we will start.",
+    "hindiTranslation": "अगर पानी 100 डिग्री तक गर्म होता है, तो वह उबलता है। अगर तुम बर्फ को गर्म करते हो, तो वह पिघल जाती है। अगर मुझे समय मिला, तो मैं आऊँगा। अगर बारिश हुई, तो हम घर पर रहेंगे। अगर तुम मेहनत करोगे, तो सफल होगे। अगर वह जल्दी आया, तो हम शुरू करेंगे। अगर सूरज निकलता है, तो दिन गर्म होता है। अगर तुम यह खाओगे, तो तुम्हें अच्छा लगेगा। अगर तुम्हें मदद चाहिए, तो मुझे बताओ। अगर वह नहीं आया, तो हम शुरू करेंगे।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"If water heats to...\"?",
+      "options": [
+        "If you eat this, you will feel good.",
+        "If you don't understand this, ask.",
+        "If you heat ice, it melts.",
+        "If water heats to 100 degrees, it boils."
+      ],
+      "answer": "If water heats to 100 degrees, it boils.",
+      "explanation": "Stated in the passage: \"If water heats to 100 degrees, it boils.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"If you heat ice,...\"?",
+      "options": [
+        "If you need help, tell me.",
+        "If the sun comes out, snow melts.",
+        "If I get time, I will come.",
+        "If you heat ice, it melts."
+      ],
+      "answer": "If you heat ice, it melts.",
+      "explanation": "Stated in the passage: \"If you heat ice, it melts.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"If I get time,...\"?",
+      "options": [
+        "If he doesn't come, we will start.",
+        "If you do this, I will be happy.",
+        "If it rains, we will stay home.",
+        "If I get time, I will come."
+      ],
+      "answer": "If I get time, I will come.",
+      "explanation": "Stated in the passage: \"If I get time, I will come.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"If it rains, we...\"?",
+      "options": [
+        "If you go out in summer, you sweat.",
+        "If the electricity goes off, the room becomes dark.",
+        "If you work hard, you will succeed.",
+        "If it rains, we will stay home."
+      ],
+      "answer": "If it rains, we will stay home.",
+      "explanation": "Stated in the passage: \"If it rains, we will stay home.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"If you work hard,...\"?",
+      "options": [
+        "If I pass this exam, I will be happy.",
+        "If you practice, you will get better.",
+        "If he comes early, we will start.",
+        "If you work hard, you will succeed."
+      ],
+      "answer": "If you work hard, you will succeed.",
+      "explanation": "Stated in the passage: \"If you work hard, you will succeed.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"If he comes early,...\"?",
+      "options": [
+        "If plants don't get water, they die.",
+        "If I get a chance, I will go abroad.",
+        "If the sun comes out, the day is warm.",
+        "If he comes early, we will start."
+      ],
+      "answer": "If he comes early, we will start.",
+      "explanation": "Stated in the passage: \"If he comes early, we will start.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"If the sun comes...\"?",
+      "options": [
+        "If you sleep early, you will wake up early.",
+        "If water heats to 100 degrees, it boils.",
+        "If you eat this, you will feel good.",
+        "If the sun comes out, the day is warm."
+      ],
+      "answer": "If the sun comes out, the day is warm.",
+      "explanation": "Stated in the passage: \"If the sun comes out, the day is warm.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"If you eat this,...\"?",
+      "options": [
+        "If you don't understand this, ask.",
+        "If you heat ice, it melts.",
+        "If you need help, tell me.",
+        "If you eat this, you will feel good."
+      ],
+      "answer": "If you eat this, you will feel good.",
+      "explanation": "Stated in the passage: \"If you eat this, you will feel good.\""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 56,
+  "topic": "If Clauses / Conditionals Part 1 — Zero & First Conditional",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "If you go out in summer, you sweat.",
+      "hindiScript": "अगर तुम गर्मी में बाहर जाते हो, तो पसीना आता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you eat this, you will feel good.",
+        "If you don't understand this, ask.",
+        "If you heat ice, it melts.",
+        "If you go out in summer, you sweat."
+      ],
+      "answer": "If you go out in summer, you sweat."
+    },
+    {
+      "id": 2,
+      "audioScript": "If I pass this exam, I will be happy.",
+      "hindiScript": "अगर मैं यह exam पास करूँ, तो मैं खुश होऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you need help, tell me.",
+        "If the sun comes out, snow melts.",
+        "If I get time, I will come.",
+        "If I pass this exam, I will be happy."
+      ],
+      "answer": "If I pass this exam, I will be happy."
+    },
+    {
+      "id": 3,
+      "audioScript": "If plants don't get water, they die.",
+      "hindiScript": "अगर पानी नहीं मिलेगा, तो पौधे मर जाएंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If he doesn't come, we will start.",
+        "If you do this, I will be happy.",
+        "If it rains, we will stay home.",
+        "If plants don't get water, they die."
+      ],
+      "answer": "If plants don't get water, they die."
+    },
+    {
+      "id": 4,
+      "audioScript": "If you sleep early, you will wake up early.",
+      "hindiScript": "अगर तुम जल्दी सोओगे, तो जल्दी उठोगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you go out in summer, you sweat.",
+        "If the electricity goes off, the room becomes dark.",
+        "If you work hard, you will succeed.",
+        "If you sleep early, you will wake up early."
+      ],
+      "answer": "If you sleep early, you will wake up early."
+    },
+    {
+      "id": 5,
+      "audioScript": "If you don't understand this, ask.",
+      "hindiScript": "अगर तुम्हें यह नहीं समझ आया, तो पूछो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If I pass this exam, I will be happy.",
+        "If you practice, you will get better.",
+        "If he comes early, we will start.",
+        "If you don't understand this, ask."
+      ],
+      "answer": "If you don't understand this, ask."
+    },
+    {
+      "id": 6,
+      "audioScript": "If the sun comes out, snow melts.",
+      "hindiScript": "अगर धूप निकलती है, तो बर्फ पिघलती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If plants don't get water, they die.",
+        "If I get a chance, I will go abroad.",
+        "If the sun comes out, the day is warm.",
+        "If the sun comes out, snow melts."
+      ],
+      "answer": "If the sun comes out, snow melts."
+    },
+    {
+      "id": 7,
+      "audioScript": "If you do this, I will be happy.",
+      "hindiScript": "अगर तुम यह करोगे, तो मैं खुश होऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you sleep early, you will wake up early.",
+        "If water heats to 100 degrees, it boils.",
+        "If you eat this, you will feel good.",
+        "If you do this, I will be happy."
+      ],
+      "answer": "If you do this, I will be happy."
+    },
+    {
+      "id": 8,
+      "audioScript": "If the electricity goes off, the room becomes dark.",
+      "hindiScript": "अगर बिजली चली जाती है, तो कमरा अंधेरा हो जाता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you don't understand this, ask.",
+        "If you heat ice, it melts.",
+        "If you need help, tell me.",
+        "If the electricity goes off, the room becomes dark."
+      ],
+      "answer": "If the electricity goes off, the room becomes dark."
+    }
+  ],
+  "dictationPassage": {
+    "text": "If you go out in summer, you sweat. If I pass this exam, I will be happy. If plants don't get water, they die. If you sleep early, you will wake up early. If you don't understand this, ask.",
+    "hindiTranslation": "अगर तुम गर्मी में बाहर जाते हो, तो पसीना आता है। अगर मैं यह exam पास करूँ, तो मैं खुश होऊँगा। अगर पानी नहीं मिलेगा, तो पौधे मर जाएंगे। अगर तुम जल्दी सोओगे, तो जल्दी उठोगे। अगर तुम्हें यह नहीं समझ आया, तो पूछो।"
+  }
+}

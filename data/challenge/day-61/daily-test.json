@@ -1,0 +1,255 @@
+{
+  "day": 61,
+  "topic": "Buildings, Worms & Insects Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "यह एक बड़ी इमारत है।",
+      "options": [
+        "The school building is new.",
+        "The fly sat on the food.",
+        "The hospital is in the middle of the city.",
+        "This is a big building."
+      ],
+      "answer": "This is a big building.",
+      "explanation": "Correct translation: \"यह एक बड़ी इमारत है।\" = \"This is a big building.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "The hospital is in _____ middle of the city.",
+      "options": [
+        "on",
+        "wood",
+        "very",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"The hospital is in the middle of the city.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "The temple are very old.",
+      "options": [
+        "The temple are very old.",
+        "The temple is very old."
+      ],
+      "answer": "The temple is very old.",
+      "explanation": "Correct sentence: \"The temple is very old.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "पुल नदी के ऊपर बना है।",
+      "options": [
+        "The cockroach is hiding in the kitchen.",
+        "The caterpillar eats leaves.",
+        "There is a lot of noise in the factory.",
+        "The bridge is built over the river."
+      ],
+      "answer": "The bridge is built over the river.",
+      "explanation": "Correct translation: \"पुल नदी के ऊपर बना है।\" = \"The bridge is built over the river.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "There is a lot _____ noise in the factory.",
+      "options": [
+        "a",
+        "shops",
+        "sitting",
+        "of"
+      ],
+      "answer": "of",
+      "explanation": "Full sentence: \"There is a lot of noise in the factory.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "There is many shops in the mall.",
+      "options": [
+        "There is many shops in the mall.",
+        "There are many shops in the mall."
+      ],
+      "answer": "There are many shops in the mall.",
+      "explanation": "Correct sentence: \"There are many shops in the mall.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "टावर बहुत ऊँचा है।",
+      "options": [
+        "Bees make honey.",
+        "This is a big building.",
+        "The school building is new.",
+        "The tower is very tall."
+      ],
+      "answer": "The tower is very tall.",
+      "explanation": "Correct translation: \"टावर बहुत ऊँचा है।\" = \"The tower is very tall.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "The school _____ is new.",
+      "options": [
+        "on",
+        "in",
+        "wood",
+        "building"
+      ],
+      "answer": "building",
+      "explanation": "Full sentence: \"The school building is new.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Ants is walking on the ground.",
+      "options": [
+        "Ants is walking on the ground.",
+        "Ants are walking on the ground."
+      ],
+      "answer": "Ants are walking on the ground.",
+      "explanation": "Correct sentence: \"Ants are walking on the ground.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मच्छर रात में काटते हैं।",
+      "options": [
+        "The earthworm makes the soil fertile.",
+        "The bridge is built over the river.",
+        "The cockroach is hiding in the kitchen.",
+        "Mosquitoes bite at night."
+      ],
+      "answer": "Mosquitoes bite at night.",
+      "explanation": "Correct translation: \"मच्छर रात में काटते हैं।\" = \"Mosquitoes bite at night.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "The cockroach is _____ in the kitchen.",
+      "options": [
+        "leaves",
+        "lot",
+        "a",
+        "hiding"
+      ],
+      "answer": "hiding",
+      "explanation": "Full sentence: \"The cockroach is hiding in the kitchen.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "The spider wove a web yesterday.",
+      "options": [
+        "The spider wove a web yesterday.",
+        "The spider wove a web."
+      ],
+      "answer": "The spider wove a web.",
+      "explanation": "Correct sentence: \"The spider wove a web.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "तितली फूल पर बैठी है।",
+      "options": [
+        "Insects come out after the rain.",
+        "The tower is very tall.",
+        "Bees make honey.",
+        "The butterfly is sitting on the flower."
+      ],
+      "answer": "The butterfly is sitting on the flower.",
+      "explanation": "Correct translation: \"तितली फूल पर बैठी है।\" = \"The butterfly is sitting on the flower.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Bees _____ honey.",
+      "options": [
+        "big",
+        "is",
+        "on",
+        "make"
+      ],
+      "answer": "make",
+      "explanation": "Full sentence: \"Bees make honey.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "The fly sat on the food yesterday.",
+      "options": [
+        "The fly sat on the food yesterday.",
+        "The fly sat on the food."
+      ],
+      "answer": "The fly sat on the food.",
+      "explanation": "Correct sentence: \"The fly sat on the food.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "दीमक लकड़ी खा जाती है।",
+      "options": [
+        "The temple is very old.",
+        "Mosquitoes bite at night.",
+        "The earthworm makes the soil fertile.",
+        "Termites eat wood."
+      ],
+      "answer": "Termites eat wood.",
+      "explanation": "Correct translation: \"दीमक लकड़ी खा जाती है।\" = \"Termites eat wood.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "The earthworm makes _____ soil fertile.",
+      "options": [
+        "built",
+        "hiding",
+        "leaves",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"The earthworm makes the soil fertile.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "The caterpillar eats leaves yesterday.",
+      "options": [
+        "The caterpillar eats leaves yesterday.",
+        "The caterpillar eats leaves."
+      ],
+      "answer": "The caterpillar eats leaves.",
+      "explanation": "Correct sentence: \"The caterpillar eats leaves.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह भवन सरकारी कार्यालय है।",
+      "options": [
+        "There are many shops in the mall.",
+        "The butterfly is sitting on the flower.",
+        "Insects come out after the rain.",
+        "This building is a government office."
+      ],
+      "answer": "This building is a government office.",
+      "explanation": "Correct translation: \"यह भवन सरकारी कार्यालय है।\" = \"This building is a government office.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Insects come out _____ the rain.",
+      "options": [
+        "very",
+        "honey",
+        "big",
+        "after"
+      ],
+      "answer": "after",
+      "explanation": "Full sentence: \"Insects come out after the rain.\""
+    }
+  ]
+}

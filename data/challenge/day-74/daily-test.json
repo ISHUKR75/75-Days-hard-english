@@ -1,0 +1,255 @@
+{
+  "day": 74,
+  "topic": "Grammar + Vocabulary + Speaking Full Revision",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं हर दिन अंग्रेज़ी बोलने का अभ्यास करता हूँ।",
+      "options": [
+        "You are a very good person, aren't you?",
+        "I like learning new vocabulary.",
+        "He speaks better than before.",
+        "I practise speaking English every day."
+      ],
+      "answer": "I practise speaking English every day.",
+      "explanation": "Correct translation: \"मैं हर दिन अंग्रेज़ी बोलने का अभ्यास करता हूँ।\" = \"I practise speaking English every day.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He speaks _____ than before.",
+      "options": [
+        "in",
+        "five",
+        "hard",
+        "better"
+      ],
+      "answer": "better",
+      "explanation": "Full sentence: \"He speaks better than before.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "If I work hard, I will succeed yesterday.",
+      "options": [
+        "If I work hard, I will succeed yesterday.",
+        "If I work hard, I will succeed."
+      ],
+      "answer": "If I work hard, I will succeed.",
+      "explanation": "Correct sentence: \"If I work hard, I will succeed.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसने कहा कि वह जल्द आएगा।",
+      "options": [
+        "This word is necessary for daily use.",
+        "I try to correct every mistake.",
+        "Will you meet me today?",
+        "He said that he would come soon."
+      ],
+      "answer": "He said that he would come soon.",
+      "explanation": "Correct translation: \"उसने कहा कि वह जल्द आएगा।\" = \"He said that he would come soon.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Will you _____ me today?",
+      "options": [
+        "grammar",
+        "is",
+        "read",
+        "meet"
+      ],
+      "answer": "meet",
+      "explanation": "Full sentence: \"Will you meet me today?\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I has to read this book.",
+      "options": [
+        "I has to read this book.",
+        "I have to read this book."
+      ],
+      "answer": "I have to read this book.",
+      "explanation": "Correct sentence: \"I have to read this book.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "वह तीन साल से यहाँ काम कर रहा है।",
+      "options": [
+        "This sentence is with correct grammar.",
+        "I practise speaking English every day.",
+        "You are a very good person, aren't you?",
+        "He has been working here for three years."
+      ],
+      "answer": "He has been working here for three years.",
+      "explanation": "Correct translation: \"वह तीन साल से यहाँ काम कर रहा है।\" = \"He has been working here for three years.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "You are a very _____ person, aren't you?",
+      "options": [
+        "new",
+        "than",
+        "in",
+        "good"
+      ],
+      "answer": "good",
+      "explanation": "Full sentence: \"You are a very good person, aren't you?\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I has confidence in speaking English.",
+      "options": [
+        "I has confidence in speaking English.",
+        "I have confidence in speaking English."
+      ],
+      "answer": "I have confidence in speaking English.",
+      "explanation": "Correct sentence: \"I have confidence in speaking English.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैंने अपनी गलतियों से सीखा है।",
+      "options": [
+        "He speaks with confidence.",
+        "He said that he would come soon.",
+        "This word is necessary for daily use.",
+        "I have learned from my mistakes."
+      ],
+      "answer": "I have learned from my mistakes.",
+      "explanation": "Correct translation: \"मैंने अपनी गलतियों से सीखा है।\" = \"I have learned from my mistakes.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "This word is _____ for daily use.",
+      "options": [
+        "correct",
+        "me",
+        "grammar",
+        "necessary"
+      ],
+      "answer": "necessary",
+      "explanation": "Full sentence: \"This word is necessary for daily use.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "He knows good grammar yesterday.",
+      "options": [
+        "He knows good grammar yesterday.",
+        "He knows good grammar."
+      ],
+      "answer": "He knows good grammar.",
+      "explanation": "Correct sentence: \"He knows good grammar.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैं अपने विचार स्पष्ट रूप से व्यक्त करता हूँ।",
+      "options": [
+        "I have learned a lot in the last seventy-five days.",
+        "He has been working here for three years.",
+        "This sentence is with correct grammar.",
+        "I express my thoughts clearly."
+      ],
+      "answer": "I express my thoughts clearly.",
+      "explanation": "Correct translation: \"मैं अपने विचार स्पष्ट रूप से व्यक्त करता हूँ।\" = \"I express my thoughts clearly.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "This sentence is _____ correct grammar.",
+      "options": [
+        "English",
+        "very",
+        "new",
+        "with"
+      ],
+      "answer": "with",
+      "explanation": "Full sentence: \"This sentence is with correct grammar.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I like learning new vocabulary yesterday.",
+      "options": [
+        "I like learning new vocabulary yesterday.",
+        "I like learning new vocabulary."
+      ],
+      "answer": "I like learning new vocabulary.",
+      "explanation": "Correct sentence: \"I like learning new vocabulary.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "आज मैंने पाँच नए शब्द सीखे।",
+      "options": [
+        "If I work hard, I will succeed.",
+        "I have learned from my mistakes.",
+        "He speaks with confidence.",
+        "Today I learned five new words."
+      ],
+      "answer": "Today I learned five new words.",
+      "explanation": "Correct translation: \"आज मैंने पाँच नए शब्द सीखे।\" = \"Today I learned five new words.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He speaks _____ confidence.",
+      "options": [
+        "he",
+        "necessary",
+        "correct",
+        "with"
+      ],
+      "answer": "with",
+      "explanation": "Full sentence: \"He speaks with confidence.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I try to correct every mistake yesterday.",
+      "options": [
+        "I try to correct every mistake yesterday.",
+        "I try to correct every mistake."
+      ],
+      "answer": "I try to correct every mistake.",
+      "explanation": "Correct sentence: \"I try to correct every mistake.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह पूरा पाठ्यक्रम बहुत उपयोगी है।",
+      "options": [
+        "I have to read this book.",
+        "I express my thoughts clearly.",
+        "I have learned a lot in the last seventy-five days.",
+        "This entire course is very useful."
+      ],
+      "answer": "This entire course is very useful.",
+      "explanation": "Correct translation: \"यह पूरा पाठ्यक्रम बहुत उपयोगी है।\" = \"This entire course is very useful.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I have learned a lot _____ the last seventy-five days.",
+      "options": [
+        "working",
+        "with",
+        "English",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"I have learned a lot in the last seventy-five days.\""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "day": 62,
+  "topic": "Flowers & Fruits Vocabulary",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Flowers & Fruits Vocabulary.",
+      "hindiPrompt": "Flowers & Fruits Vocabulary का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "The rose flower is red. The lotus grows in water. The sunflower turns towards the sun. The jasmine's fragrance is very nice. Marigold flowers are used in worship.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Flowers & Fruits Vocabulary.",
+      "hindiPrompt": "Flowers & Fruits Vocabulary का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "The lily is white in colour. Tulips bloom in spring. The hibiscus flower is medicinal. Mango is a summer fruit. Banana is full of energy.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"सेब सेहत के लिए अच्छा है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Apple is good for health.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"The jasmine's fragrance are very nice.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "The jasmine's fragrance is very nice.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Flowers & Fruits Vocabulary.",
+      "hindiPrompt": "Flowers & Fruits Vocabulary का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Grapes are small and sweet. Watermelon gives coolness in summer. Papaya is good for digestion. Guava is a cheap and nutritious fruit.",
+      "wordLimit": 60
+    }
+  ]
+}

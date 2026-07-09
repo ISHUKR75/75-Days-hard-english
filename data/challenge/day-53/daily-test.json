@@ -1,0 +1,255 @@
+{
+  "day": 53,
+  "topic": "Question Tags",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "तुम आ रहे हो, है ना?",
+      "options": [
+        "She is a doctor, isn't she?",
+        "I am right, aren't I?",
+        "He didn't come, did he?",
+        "You are coming, aren't you?"
+      ],
+      "answer": "You are coming, aren't you?",
+      "explanation": "Correct translation: \"तुम आ रहे हो, है ना?\" = \"You are coming, aren't you?\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He didn't _____ did he?",
+      "options": [
+        "this",
+        "isn't",
+        "doesn't",
+        "come"
+      ],
+      "answer": "come",
+      "explanation": "Full sentence: \"He didn't come, did he?\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "This are beautiful, isn't it?",
+      "options": [
+        "This are beautiful, isn't it?",
+        "This is beautiful, isn't it?"
+      ],
+      "answer": "This is beautiful, isn't it?",
+      "explanation": "Correct sentence: \"This is beautiful, isn't it?\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "तुम्हें यह पसंद नहीं है, है ना?",
+      "options": [
+        "You are not hungry, are you?",
+        "You go to school, don't you?",
+        "He sings well, doesn't he?",
+        "You don't like this, do you?"
+      ],
+      "answer": "You don't like this, do you?",
+      "explanation": "Correct translation: \"तुम्हें यह पसंद नहीं है, है ना?\" = \"You don't like this, do you?\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "He sings _____ doesn't he?",
+      "options": [
+        "difficult",
+        "early",
+        "won't",
+        "well"
+      ],
+      "answer": "well",
+      "explanation": "Full sentence: \"He sings well, doesn't he?\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "We will meet, won't we? yesterday.",
+      "options": [
+        "We will meet, won't we? yesterday.",
+        "We will meet, won't we?"
+      ],
+      "answer": "We will meet, won't we?",
+      "explanation": "Correct sentence: \"We will meet, won't we?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "तुमने यह किया, किया ना?",
+      "options": [
+        "They will come, won't they?",
+        "You are coming, aren't you?",
+        "She is a doctor, isn't she?",
+        "You did this, didn't you?"
+      ],
+      "answer": "You did this, didn't you?",
+      "explanation": "Correct translation: \"तुमने यह किया, किया ना?\" = \"You did this, didn't you?\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She is a _____ isn't she?",
+      "options": [
+        "aren't",
+        "did",
+        "this",
+        "doctor"
+      ],
+      "answer": "doctor",
+      "explanation": "Full sentence: \"She is a doctor, isn't she?\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "You can do this, can't you? yesterday.",
+      "options": [
+        "You can do this, can't you? yesterday.",
+        "You can do this, can't you?"
+      ],
+      "answer": "You can do this, can't you?",
+      "explanation": "Correct sentence: \"You can do this, can't you?\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "उसे यह पसंद है, है ना?",
+      "options": [
+        "He was there, wasn't he?",
+        "You don't like this, do you?",
+        "You are not hungry, are you?",
+        "She likes this, doesn't she?"
+      ],
+      "answer": "She likes this, doesn't she?",
+      "explanation": "Correct translation: \"उसे यह पसंद है, है ना?\" = \"She likes this, doesn't she?\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "You are not _____ are you?",
+      "options": [
+        "school",
+        "doesn't",
+        "difficult",
+        "hungry"
+      ],
+      "answer": "hungry",
+      "explanation": "Full sentence: \"You are not hungry, are you?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "This are not difficult, is it?",
+      "options": [
+        "This are not difficult, is it?",
+        "This is not difficult, is it?"
+      ],
+      "answer": "This is not difficult, is it?",
+      "explanation": "Correct sentence: \"This is not difficult, is it?\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "तुमने खाना खा लिया, लिया ना?",
+      "options": [
+        "We should leave early, shouldn't we?",
+        "You did this, didn't you?",
+        "They will come, won't they?",
+        "You have eaten food, haven't you?"
+      ],
+      "answer": "You have eaten food, haven't you?",
+      "explanation": "Correct translation: \"तुमने खाना खा लिया, लिया ना?\" = \"You have eaten food, haven't you?\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "They will _____ won't they?",
+      "options": [
+        "aren't",
+        "doctor",
+        "did",
+        "come"
+      ],
+      "answer": "come",
+      "explanation": "Full sentence: \"They will come, won't they?\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I am right, aren't I? yesterday.",
+      "options": [
+        "I am right, aren't I? yesterday.",
+        "I am right, aren't I?"
+      ],
+      "answer": "I am right, aren't I?",
+      "explanation": "Correct sentence: \"I am right, aren't I?\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "यह तुमने नहीं किया, किया ना?",
+      "options": [
+        "This is beautiful, isn't it?",
+        "She likes this, doesn't she?",
+        "He was there, wasn't he?",
+        "You didn't do this, did you?"
+      ],
+      "answer": "You didn't do this, did you?",
+      "explanation": "Correct translation: \"यह तुमने नहीं किया, किया ना?\" = \"You didn't do this, did you?\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He was _____ wasn't he?",
+      "options": [
+        "this",
+        "hungry",
+        "school",
+        "there"
+      ],
+      "answer": "there",
+      "explanation": "Full sentence: \"He was there, wasn't he?\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "You go to school, don't you? yesterday.",
+      "options": [
+        "You go to school, don't you? yesterday.",
+        "You go to school, don't you?"
+      ],
+      "answer": "You go to school, don't you?",
+      "explanation": "Correct sentence: \"You go to school, don't you?\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "वह जल्दी उठती है, उठती है ना?",
+      "options": [
+        "We will meet, won't we?",
+        "You have eaten food, haven't you?",
+        "We should leave early, shouldn't we?",
+        "She wakes up early, doesn't she?"
+      ],
+      "answer": "She wakes up early, doesn't she?",
+      "explanation": "Correct translation: \"वह जल्दी उठती है, उठती है ना?\" = \"She wakes up early, doesn't she?\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "We should leave _____ shouldn't we?",
+      "options": [
+        "didn't",
+        "won't",
+        "aren't",
+        "early"
+      ],
+      "answer": "early",
+      "explanation": "Full sentence: \"We should leave early, shouldn't we?\""
+    }
+  ]
+}

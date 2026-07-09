@@ -1,0 +1,46 @@
+{
+  "day": 59,
+  "topic": "Wish / If Only (Expressing Regret and Desire)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Wish / If Only (Expressing Regret and Desire).",
+      "hindiPrompt": "Wish / If Only (Expressing Regret and Desire) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I wish I had more money. If only I had more money. I wish I were there. If only I had studied earlier. I wish I had not made this mistake.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Wish / If Only (Expressing Regret and Desire).",
+      "hindiPrompt": "Wish / If Only (Expressing Regret and Desire) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I wish you would calm down. I wish I could fly. If only the weather were good. I wish I had talked to him. If only I had known this earlier.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"मुझे काश मेरे पास ज़्यादा समय होता।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "I wish I had more time.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"If only I has studied earlier.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "If only I had studied earlier.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Wish / If Only (Expressing Regret and Desire).",
+      "hindiPrompt": "Wish / If Only (Expressing Regret and Desire) का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I wish I had not taken this decision. If only we could meet again. I wish I worked harder. If only he had forgiven me.",
+      "wordLimit": 60
+    }
+  ]
+}

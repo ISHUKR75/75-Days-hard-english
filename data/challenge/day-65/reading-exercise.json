@@ -1,0 +1,107 @@
+{
+  "day": 65,
+  "topic": "Industry Vocabulary",
+  "passage": {
+    "title": "A Day with Industry Vocabulary",
+    "text": "This factory manufactures clothes. The machine runs day and night. Workers work hard. Production has increased. The manager gives instructions to the team. This industry is growing rapidly. We import raw material from abroad. India exports clothes to other countries. The manufacturing process is complex. Quality control is necessary.",
+    "hindiTranslation": "यह फैक्ट्री कपड़े बनाती है। मशीन दिन-रात चलती है। मजदूर मेहनत से काम करते हैं। उत्पादन बढ़ गया है। मैनेजर टीम को निर्देश देता है। यह उद्योग तेजी से बढ़ रहा है। हम कच्चा माल विदेश से मंगाते हैं। भारत कपड़े दूसरे देशों को निर्यात करता है। निर्माण प्रक्रिया जटिल है। गुणवत्ता नियंत्रण जरूरी है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"This factory manufactures clothes....\"?",
+      "options": [
+        "India exports clothes to other countries.",
+        "The demand for the product has increased.",
+        "The machine runs day and night.",
+        "This factory manufactures clothes."
+      ],
+      "answer": "This factory manufactures clothes.",
+      "explanation": "Stated in the passage: \"This factory manufactures clothes.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"The machine runs day...\"?",
+      "options": [
+        "The manufacturing process is complex.",
+        "New technology was installed in the factory.",
+        "Workers work hard.",
+        "The machine runs day and night."
+      ],
+      "answer": "The machine runs day and night.",
+      "explanation": "Stated in the passage: \"The machine runs day and night.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Workers work hard....\"?",
+      "options": [
+        "Quality control is necessary.",
+        "This company produces on a large scale.",
+        "Production has increased.",
+        "Workers work hard."
+      ],
+      "answer": "Workers work hard.",
+      "explanation": "Stated in the passage: \"Workers work hard.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"Production has increased....\"?",
+      "options": [
+        "There was a delay in the supply chain.",
+        "Maintenance of machines is necessary.",
+        "The manager gives instructions to the team.",
+        "Production has increased."
+      ],
+      "answer": "Production has increased.",
+      "explanation": "Stated in the passage: \"Production has increased.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"The manager gives instructions...\"?",
+      "options": [
+        "The company is setting up a new plant.",
+        "The industry received help from the government.",
+        "This industry is growing rapidly.",
+        "The manager gives instructions to the team."
+      ],
+      "answer": "The manager gives instructions to the team.",
+      "explanation": "Stated in the passage: \"The manager gives instructions to the team.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"This industry is growing...\"?",
+      "options": [
+        "Workers need safety equipment.",
+        "This product sells in the international market.",
+        "We import raw material from abroad.",
+        "This industry is growing rapidly."
+      ],
+      "answer": "This industry is growing rapidly.",
+      "explanation": "Stated in the passage: \"This industry is growing rapidly.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"We import raw material...\"?",
+      "options": [
+        "This industry creates employment.",
+        "This factory manufactures clothes.",
+        "India exports clothes to other countries.",
+        "We import raw material from abroad."
+      ],
+      "answer": "We import raw material from abroad.",
+      "explanation": "Stated in the passage: \"We import raw material from abroad.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"India exports clothes to...\"?",
+      "options": [
+        "The demand for the product has increased.",
+        "The machine runs day and night.",
+        "The manufacturing process is complex.",
+        "India exports clothes to other countries."
+      ],
+      "answer": "India exports clothes to other countries.",
+      "explanation": "Stated in the passage: \"India exports clothes to other countries.\""
+    }
+  ]
+}

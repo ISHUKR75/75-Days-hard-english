@@ -1,0 +1,46 @@
+{
+  "day": 69,
+  "topic": "Application Writing",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Application Writing.",
+      "hindiPrompt": "Application Writing का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "Sir, I request three days of leave from you. I want leave because I am unwell. Please approve my leave. I would like to apply for this position. I have sufficient experience for this job.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Application Writing.",
+      "hindiPrompt": "Application Writing का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Please accept my application. I am applying for a transfer. I need to change my city because of my family. I am applying for a scholarship. My marks are sufficient for this scholarship.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"मुझे एक बोनाफाइड प्रमाण पत्र चाहिए।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "I need a bonafide certificate.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I will like to apply for this position.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I would like to apply for this position.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Application Writing.",
+      "hindiPrompt": "Application Writing का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Thank you, I will wait for your prompt response. Yours sincerely. I am a student of this school. My roll number is twenty-five.",
+      "wordLimit": 60
+    }
+  ]
+}

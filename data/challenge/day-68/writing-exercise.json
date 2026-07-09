@@ -1,0 +1,46 @@
+{
+  "day": 68,
+  "topic": "Factory & Sports + Sound & Maths Vocabulary",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Factory & Sports + Sound & Maths Vocabulary.",
+      "hindiPrompt": "Factory & Sports + Sound & Maths Vocabulary का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "The factory's assembly line runs fast. Cricket is the most popular sport in India. The football team won the match. Hockey is our national game. I like playing badminton.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Factory & Sports + Sound & Maths Vocabulary.",
+      "hindiPrompt": "Factory & Sports + Sound & Maths Vocabulary का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "He got first place in the race. The players are running on the field. The team performed well. The match is tomorrow evening. The ball went out of the boundary.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"उसने गोल करके जीत दिलाई।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He scored a goal and won the match.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Hockey are our national game.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Hockey is our national game.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Factory & Sports + Sound & Maths Vocabulary.",
+      "hindiPrompt": "Factory & Sports + Sound & Maths Vocabulary का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "His voice is very soft. There is a lot of noise in the factory. There was complete silence at night. An echo was heard in the mountains.",
+      "wordLimit": 60
+    }
+  ]
+}

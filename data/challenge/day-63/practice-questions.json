@@ -1,0 +1,287 @@
+{
+  "day": 63,
+  "topic": "Maths Vocabulary",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "दो और तीन जोड़ने पर पाँच होता है।",
+      "english": "Adding two and three gives five.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"Adding two and three gives five.\"",
+      "difficulty": "easy",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 2,
+      "hindi": "दस में से चार घटाने पर छह बचता है।",
+      "english": "Subtracting four from ten leaves six.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"Subtracting four from ten leaves six.\"",
+      "difficulty": "medium",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 3,
+      "hindi": "तीन को चार से गुणा करने पर बारह होता है।",
+      "english": "Multiplying three by four gives twelve.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"Multiplying three by four gives twelve.\"",
+      "difficulty": "hard",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 4,
+      "hindi": "बीस को चार से भाग देने पर पाँच होता है।",
+      "english": "Dividing twenty by four gives five.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"Dividing twenty by four gives five.\"",
+      "difficulty": "easy",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 5,
+      "hindi": "यह एक सम संख्या है।",
+      "english": "This is an even number.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"This is an even number.\"",
+      "difficulty": "medium",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 6,
+      "hindi": "आधा एक भिन्न है।",
+      "english": "Half is a fraction.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"Half is a fraction.\"",
+      "difficulty": "hard",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 7,
+      "hindi": "उसे परीक्षा में नब्बे प्रतिशत अंक मिले।",
+      "english": "He got ninety percent marks in the exam.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"He got ninety percent marks in the exam.\"",
+      "difficulty": "easy",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 8,
+      "hindi": "उनकी औसत ऊँचाई पाँच फीट है।",
+      "english": "Their average height is five feet.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"Their average height is five feet.\"",
+      "difficulty": "medium",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 9,
+      "hindi": "त्रिभुज की तीन भुजाएँ होती हैं।",
+      "english": "A triangle has three sides.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"A triangle has three sides.\"",
+      "difficulty": "hard",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 10,
+      "hindi": "वर्ग की सभी भुजाएँ बराबर होती हैं।",
+      "english": "All sides of a square are equal.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"All sides of a square are equal.\"",
+      "difficulty": "easy",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 11,
+      "hindi": "वृत्त की कोई भुजा नहीं होती।",
+      "english": "A circle has no sides.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"A circle has no sides.\"",
+      "difficulty": "medium",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 12,
+      "hindi": "यह समीकरण हल करना आसान है।",
+      "english": "This equation is easy to solve.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"This equation is easy to solve.\"",
+      "difficulty": "hard",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 13,
+      "hindi": "यह कोण नब्बे डिग्री का है।",
+      "english": "This angle is ninety degrees.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"This angle is ninety degrees.\"",
+      "difficulty": "easy",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 14,
+      "hindi": "कमरे का क्षेत्रफल बीस वर्ग मीटर है।",
+      "english": "The area of the room is twenty square metres.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"The area of the room is twenty square metres.\"",
+      "difficulty": "medium",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 15,
+      "hindi": "बगीचे की परिधि सौ मीटर है।",
+      "english": "The perimeter of the garden is one hundred metres.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"The perimeter of the garden is one hundred metres.\"",
+      "difficulty": "hard",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 16,
+      "hindi": "गणित मेरा पसंदीदा विषय है।",
+      "english": "Maths is my favourite subject.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"Maths is my favourite subject.\"",
+      "difficulty": "easy",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 17,
+      "hindi": "वह जल्दी और सही गणना करता है।",
+      "english": "He calculates quickly and correctly.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"He calculates quickly and correctly.\"",
+      "difficulty": "medium",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 18,
+      "hindi": "यह संख्या सबसे बड़ी है।",
+      "english": "This number is the largest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"This number is the largest.\"",
+      "difficulty": "hard",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 19,
+      "hindi": "हमें यह सवाल हल करना है।",
+      "english": "We have to solve this problem.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"We have to solve this problem.\"",
+      "difficulty": "easy",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    },
+    {
+      "id": 20,
+      "hindi": "शिक्षक ने गुणा सिखाया।",
+      "english": "The teacher taught multiplication.",
+      "alternatives": [],
+      "hint": "Use the pattern: Number/shape noun + be-verb/verb + maths term (+ result)",
+      "explanation": "Correct sentence: \"The teacher taught multiplication.\"",
+      "difficulty": "medium",
+      "tags": [
+        "maths"
+      ],
+      "grammarRule": "Maths Vocabulary",
+      "category": "Maths Vocabulary practice"
+    }
+  ]
+}
