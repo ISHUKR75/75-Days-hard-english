@@ -1,0 +1,32 @@
+{
+  "day": 6,
+  "title": "Has / Have",
+  "slug": "06-has-have",
+  "type": "grammar",
+  "difficulty": "beginner",
+  "cefr": "A1",
+  "emoji": "✋",
+  "color": "#f97316",
+  "topics": [
+    "Have (I/You/We/They)",
+    "Has (He/She/It)",
+    "Possession with Have/Has",
+    "Present Perfect (have/has + V3)",
+    "Negative: don't have / doesn't have",
+    "Negative: haven't / hasn't",
+    "Questions: Do you have? / Does she have?",
+    "Questions: Have you? / Has he?",
+    "Common Expressions with Have",
+    "Office and Professional Context"
+  ],
+  "totalQuestions": 500,
+  "totalVocabulary": 150,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 50,
+  "prerequisites": [1, 2, 3, 4, 5],
+  "nextDay": 7,
+  "tags": ["have", "has", "possession", "present-perfect", "grammar", "beginner"],
+  "lastUpdated": "2026-07-08",
+  "version": "2.0"
+}

@@ -1,0 +1,312 @@
+{
+  "day": 9,
+  "title": "Use of There",
+  "lessons": [
+    {
+      "id": "lesson-1",
+      "title": "There is — एक चीज़ है (Singular Present)",
+      "titleHindi": "There is का प्रयोग",
+      "order": 1,
+      "duration": 10,
+      "theory": "We use 'There is' when we want to say that ONE thing exists or is present. The subject comes AFTER 'there is'. This is called 'existential there' — it does not mean a place, it just introduces the subject.",
+      "theoryHindi": "'There is' का प्रयोग तब होता है जब हम कहना चाहते हैं कि कोई एक चीज़ मौजूद है। Subject 'there is' के बाद आता है। यह 'there' किसी जगह को नहीं दर्शाता — यह सिर्फ subject को introduce करता है।",
+      "formula": "There is + a/an + Singular Noun + Place/Description",
+      "formulaHindi": "There is + a/an + एकवचन संज्ञा + जगह/विवरण",
+      "keyRules": [
+        "Use 'There is' with singular (एकवचन) nouns",
+        "Use 'There is' with uncountable nouns (water, milk, rice, money)",
+        "The real subject comes after 'is', not before it",
+        "Never say 'There is many' — that is WRONG",
+        "Correct: There is a book. Wrong: There is books."
+      ],
+      "examples": [
+        { "english": "There is a book on the table.", "hindi": "मेज पर एक किताब है।", "context": "home" },
+        { "english": "There is a fan in my room.", "hindi": "मेरे कमरे में एक पंखा है।", "context": "home" },
+        { "english": "There is a problem in the system.", "hindi": "सिस्टम में एक समस्या है।", "context": "office" },
+        { "english": "There is a meeting at 3 pm.", "hindi": "3 बजे एक मीटिंग है।", "context": "office" },
+        { "english": "There is a new student in our class.", "hindi": "हमारी कक्षा में एक नया छात्र है।", "context": "school" },
+        { "english": "There is a temple near my house.", "hindi": "मेरे घर के पास एक मंदिर है।", "context": "daily life" },
+        { "english": "There is some water in the glass.", "hindi": "गिलास में थोड़ा पानी है।", "context": "home" },
+        { "english": "There is a lot of work today.", "hindi": "आज बहुत काम है।", "context": "office" },
+        { "english": "There is a dog outside the door.", "hindi": "दरवाजे के बाहर एक कुत्ता है।", "context": "home" },
+        { "english": "There is a bus stop near here.", "hindi": "यहाँ के पास एक बस स्टॉप है।", "context": "daily life" },
+        { "english": "There is a new movie in the theatre.", "hindi": "थिएटर में एक नई फिल्म है।", "context": "daily life" },
+        { "english": "There is a report due tomorrow.", "hindi": "कल एक रिपोर्ट जमा करनी है।", "context": "office" },
+        { "english": "There is a chair near the window.", "hindi": "खिड़की के पास एक कुर्सी है।", "context": "home" },
+        { "english": "There is a hospital on MG Road.", "hindi": "MG Road पर एक अस्पताल है।", "context": "daily life" },
+        { "english": "There is a new teacher today.", "hindi": "आज एक नए शिक्षक हैं।", "context": "school" },
+        { "english": "There is milk in the fridge.", "hindi": "फ्रिज में दूध है।", "context": "home" },
+        { "english": "There is a lot of traffic on this road.", "hindi": "इस सड़क पर बहुत ट्रैफिक है।", "context": "daily life" },
+        { "english": "There is an email for you.", "hindi": "आपके लिए एक email है।", "context": "office" },
+        { "english": "There is a park near our school.", "hindi": "हमारे स्कूल के पास एक पार्क है।", "context": "school" },
+        { "english": "There is a good restaurant in this area.", "hindi": "इस इलाके में एक अच्छा रेस्टोरेंट है।", "context": "daily life" }
+      ],
+      "commonErrors": [
+        { "wrong": "There is many students.", "correct": "There are many students.", "explanation": "Many students = plural, so use 'are'" },
+        { "wrong": "There is two books.", "correct": "There are two books.", "explanation": "Two books = plural, so use 'are'" },
+        { "wrong": "There have a problem.", "correct": "There is a problem.", "explanation": "Use 'There is' for existence, not 'There have'" }
+      ]
+    },
+    {
+      "id": "lesson-2",
+      "title": "There are — कई चीज़ें हैं (Plural Present)",
+      "titleHindi": "There are का प्रयोग",
+      "order": 2,
+      "duration": 10,
+      "theory": "We use 'There are' when we want to say that MORE THAN ONE thing exists or is present. Always use 'There are' with plural nouns.",
+      "theoryHindi": "'There are' का प्रयोग तब होता है जब हम कहना चाहते हैं कि एक से अधिक चीज़ें मौजूद हैं। हमेशा 'There are' का प्रयोग बहुवचन (plural) संज्ञाओं के साथ होता है।",
+      "formula": "There are + Number/Many/Some + Plural Noun + Place/Description",
+      "formulaHindi": "There are + संख्या/Many/Some + बहुवचन संज्ञा + जगह/विवरण",
+      "keyRules": [
+        "Use 'There are' with plural (बहुवचन) nouns",
+        "Use 'There are' with numbers more than one (two, three, many, several)",
+        "Correct: There are many students. Wrong: There is many students.",
+        "There are + some = कुछ हैं",
+        "There are + a few = थोड़े हैं",
+        "There are + a lot of = बहुत सारे हैं"
+      ],
+      "examples": [
+        { "english": "There are many students in the class.", "hindi": "कक्षा में कई छात्र हैं।", "context": "school" },
+        { "english": "There are five rooms in this house.", "hindi": "इस घर में पाँच कमरे हैं।", "context": "home" },
+        { "english": "There are three files on my desk.", "hindi": "मेरी मेज पर तीन फाइलें हैं।", "context": "office" },
+        { "english": "There are a lot of problems in this project.", "hindi": "इस project में बहुत सारी समस्याएँ हैं।", "context": "office" },
+        { "english": "There are two ATMs near this market.", "hindi": "इस बाजार के पास दो ATM हैं।", "context": "daily life" },
+        { "english": "There are some apples in the basket.", "hindi": "टोकरी में कुछ सेब हैं।", "context": "home" },
+        { "english": "There are many people in this shop.", "hindi": "इस दुकान में कई लोग हैं।", "context": "market" },
+        { "english": "There are 30 students in our batch.", "hindi": "हमारे batch में 30 छात्र हैं।", "context": "school" },
+        { "english": "There are several options available.", "hindi": "कई विकल्प उपलब्ध हैं।", "context": "office" },
+        { "english": "There are many temples in this city.", "hindi": "इस शहर में कई मंदिर हैं।", "context": "daily life" },
+        { "english": "There are a few mistakes in this email.", "hindi": "इस email में कुछ गलतियाँ हैं।", "context": "office" },
+        { "english": "There are many trains to Delhi from here.", "hindi": "यहाँ से दिल्ली के लिए कई ट्रेनें हैं।", "context": "daily life" },
+        { "english": "There are four seasons in India.", "hindi": "भारत में चार मौसम होते हैं।", "context": "general" },
+        { "english": "There are two printers in our office.", "hindi": "हमारे ऑफिस में दो printers हैं।", "context": "office" },
+        { "english": "There are many good schools in Noida.", "hindi": "नोएडा में कई अच्छे स्कूल हैं।", "context": "school" },
+        { "english": "There are some notifications on your phone.", "hindi": "आपके phone पर कुछ notifications हैं।", "context": "daily life" },
+        { "english": "There are many candidates for this job.", "hindi": "इस नौकरी के लिए कई उम्मीदवार हैं।", "context": "office" },
+        { "english": "There are vegetables in the fridge.", "hindi": "फ्रिज में सब्जियाँ हैं।", "context": "home" },
+        { "english": "There are five holidays next month.", "hindi": "अगले महीने पाँच छुट्टियाँ हैं।", "context": "office" },
+        { "english": "There are many customers waiting outside.", "hindi": "बाहर कई ग्राहक इंतज़ार कर रहे हैं।", "context": "market" }
+      ],
+      "commonErrors": [
+        { "wrong": "There are a book.", "correct": "There is a book.", "explanation": "A book = singular, so use 'is'" },
+        { "wrong": "There is many people.", "correct": "There are many people.", "explanation": "Many people = plural, so use 'are'" },
+        { "wrong": "There are much work.", "correct": "There is a lot of work.", "explanation": "Work is uncountable, use 'is' + 'a lot of'" }
+      ]
+    },
+    {
+      "id": "lesson-3",
+      "title": "There was / There were — Past Tense (भूतकाल)",
+      "titleHindi": "There was / There were — भूतकाल",
+      "order": 3,
+      "duration": 12,
+      "theory": "We use 'There was' for one thing that existed in the past, and 'There were' for multiple things that existed in the past. These describe situations that no longer exist.",
+      "theoryHindi": "'There was' का प्रयोग उस एक चीज़ के लिए होता है जो भूतकाल में थी, और 'There were' का प्रयोग उन कई चीज़ों के लिए होता है जो भूतकाल में थीं।",
+      "formula": "There was + a/an + Singular Noun + (Past time/place) | There were + Plural Noun + (Past time/place)",
+      "formulaHindi": "There was + एकवचन संज्ञा + (भूतकाल का समय/जगह) | There were + बहुवचन संज्ञा + (भूतकाल का समय/जगह)",
+      "keyRules": [
+        "There was = singular past (एकवचन भूतकाल)",
+        "There were = plural past (बहुवचन भूतकाल)",
+        "Use with yesterday, last week, last year, in 2020, etc.",
+        "There was a time... = एक समय था...",
+        "There were days when... = ऐसे दिन थे जब..."
+      ],
+      "examples": [
+        { "english": "There was a problem yesterday.", "hindi": "कल एक समस्या थी।", "context": "office" },
+        { "english": "There was a big party last night.", "hindi": "कल रात एक बड़ी पार्टी थी।", "context": "daily life" },
+        { "english": "There was a teacher in this room.", "hindi": "इस कमरे में एक शिक्षक थे।", "context": "school" },
+        { "english": "There were many people at the party.", "hindi": "पार्टी में कई लोग थे।", "context": "daily life" },
+        { "english": "There were five people in the meeting.", "hindi": "मीटिंग में पाँच लोग थे।", "context": "office" },
+        { "english": "There was a lot of noise outside.", "hindi": "बाहर बहुत शोर था।", "context": "home" },
+        { "english": "There were no chairs available.", "hindi": "कोई कुर्सी उपलब्ध नहीं थी।", "context": "office" },
+        { "english": "There was a hospital here before.", "hindi": "यहाँ पहले एक अस्पताल था।", "context": "daily life" },
+        { "english": "There were many students last year.", "hindi": "पिछले साल कई छात्र थे।", "context": "school" },
+        { "english": "There was a power cut last night.", "hindi": "कल रात बिजली कटौती थी।", "context": "home" },
+        { "english": "There was a dog in our street.", "hindi": "हमारी गली में एक कुत्ता था।", "context": "home" },
+        { "english": "There were a lot of complaints.", "hindi": "बहुत सारी शिकायतें थीं।", "context": "office" },
+        { "english": "There was a big tree here.", "hindi": "यहाँ एक बड़ा पेड़ था।", "context": "daily life" },
+        { "english": "There were many problems in the old system.", "hindi": "पुराने system में कई समस्याएँ थीं।", "context": "office" },
+        { "english": "There was a time when life was simple.", "hindi": "एक समय था जब जिंदगी सरल थी।", "context": "general" },
+        { "english": "There were no mobile phones in 1990.", "hindi": "1990 में कोई mobile phone नहीं था।", "context": "general" },
+        { "english": "There was a mistake in my report.", "hindi": "मेरी रिपोर्ट में एक गलती थी।", "context": "office" },
+        { "english": "There were many shops here before.", "hindi": "यहाँ पहले कई दुकानें थीं।", "context": "daily life" },
+        { "english": "There was only one teacher for 50 students.", "hindi": "50 छात्रों के लिए सिर्फ एक शिक्षक था।", "context": "school" },
+        { "english": "There were floods in this area last year.", "hindi": "पिछले साल इस इलाके में बाढ़ थी।", "context": "general" }
+      ],
+      "commonErrors": [
+        { "wrong": "There were a problem.", "correct": "There was a problem.", "explanation": "A problem = singular, use 'was'" },
+        { "wrong": "There was many people.", "correct": "There were many people.", "explanation": "Many people = plural, use 'were'" },
+        { "wrong": "There is a problem yesterday.", "correct": "There was a problem yesterday.", "explanation": "Yesterday = past, use 'was' not 'is'" }
+      ]
+    },
+    {
+      "id": "lesson-4",
+      "title": "There will be — Future Tense (भविष्यकाल)",
+      "titleHindi": "There will be — भविष्यकाल",
+      "order": 4,
+      "duration": 10,
+      "theory": "We use 'There will be' to talk about something that will exist in the future. It works for both singular and plural nouns — unlike is/are/was/were, 'will be' stays the same.",
+      "theoryHindi": "'There will be' का प्रयोग उन चीज़ों के बारे में बात करने के लिए होता है जो भविष्य में होंगी। यह singular और plural दोनों के लिए एक जैसा रहता है।",
+      "formula": "There will be + a/an/Noun + (Future time/place)",
+      "formulaHindi": "There will be + a/an/संज्ञा + (भविष्य का समय/जगह)",
+      "keyRules": [
+        "There will be = भविष्य में कुछ होगा",
+        "Works for both singular AND plural (no change)",
+        "Use with: tomorrow, next week, soon, in the future, later",
+        "Negative: There will not be / There won't be",
+        "Question: Will there be...?"
+      ],
+      "examples": [
+        { "english": "There will be a meeting tomorrow.", "hindi": "कल एक मीटिंग होगी।", "context": "office" },
+        { "english": "There will be many people at the event.", "hindi": "इस event में कई लोग होंगे।", "context": "daily life" },
+        { "english": "There will be a test next week.", "hindi": "अगले हफ्ते एक परीक्षा होगी।", "context": "school" },
+        { "english": "There will be a new policy from next month.", "hindi": "अगले महीने से एक नई नीति होगी।", "context": "office" },
+        { "english": "There will be a lot of traffic on that day.", "hindi": "उस दिन बहुत ट्रैफिक होगा।", "context": "daily life" },
+        { "english": "There will be free Wi-Fi at the venue.", "hindi": "venue पर free Wi-Fi होगा।", "context": "daily life" },
+        { "english": "There will be better opportunities in the future.", "hindi": "भविष्य में बेहतर अवसर होंगे।", "context": "general" },
+        { "english": "There will be no classes on Friday.", "hindi": "शुक्रवार को कोई कक्षाएँ नहीं होंगी।", "context": "school" },
+        { "english": "There will be a price increase next year.", "hindi": "अगले साल कीमतें बढ़ेंगी।", "context": "market" },
+        { "english": "There will be an announcement soon.", "hindi": "जल्द ही एक घोषणा होगी।", "context": "office" },
+        { "english": "There will be heavy rain tomorrow.", "hindi": "कल भारी बारिश होगी।", "context": "daily life" },
+        { "english": "There will be a new shopping mall here.", "hindi": "यहाँ एक नया shopping mall होगा।", "context": "daily life" },
+        { "english": "There will be job openings next quarter.", "hindi": "अगली तिमाही में नौकरी के अवसर होंगे।", "context": "office" },
+        { "english": "There will be a competition next month.", "hindi": "अगले महीने एक प्रतियोगिता होगी।", "context": "school" },
+        { "english": "There will be changes in the syllabus.", "hindi": "syllabus में बदलाव होंगे।", "context": "school" }
+      ],
+      "commonErrors": [
+        { "wrong": "There will is a meeting.", "correct": "There will be a meeting.", "explanation": "After 'will', use base form 'be', not 'is'" },
+        { "wrong": "There will are many people.", "correct": "There will be many people.", "explanation": "After 'will', always use 'be' — not 'are'" },
+        { "wrong": "There be a test tomorrow.", "correct": "There will be a test tomorrow.", "explanation": "Don't drop 'will' — the full form is 'will be'" }
+      ]
+    },
+    {
+      "id": "lesson-5",
+      "title": "There has been / There have been — Present Perfect",
+      "titleHindi": "There has been / There have been — Present Perfect",
+      "order": 5,
+      "duration": 10,
+      "theory": "We use 'There has been' (singular) and 'There have been' (plural) when something happened in the recent past and still affects the present. This is Present Perfect tense with 'There'.",
+      "theoryHindi": "'There has been' (एकवचन) और 'There have been' (बहुवचन) का उपयोग तब होता है जब कोई बात हाल ही में हुई हो और अभी भी उसका असर हो। यह Present Perfect tense है।",
+      "formula": "There has been + Singular Noun | There have been + Plural Noun",
+      "formulaHindi": "There has been + एकवचन संज्ञा | There have been + बहुवचन संज्ञा",
+      "keyRules": [
+        "There has been = एकवचन (recent past with present impact)",
+        "There have been = बहुवचन (recent past with present impact)",
+        "Negative: There hasn't been / There haven't been",
+        "Question: Has there been? / Have there been?",
+        "Use with: recently, lately, so far, in the last few days"
+      ],
+      "examples": [
+        { "english": "There has been a mistake.", "hindi": "एक गलती हुई है।", "context": "office" },
+        { "english": "There have been many changes.", "hindi": "कई बदलाव हुए हैं।", "context": "office" },
+        { "english": "There has been an accident near the school.", "hindi": "स्कूल के पास एक दुर्घटना हुई है।", "context": "daily life" },
+        { "english": "There have been many complaints lately.", "hindi": "हाल ही में कई शिकायतें हुई हैं।", "context": "office" },
+        { "english": "There has been a power failure today.", "hindi": "आज बिजली बंद हो गई है।", "context": "home" },
+        { "english": "There have been heavy rains this week.", "hindi": "इस हफ्ते भारी बारिश हुई है।", "context": "daily life" },
+        { "english": "There has been no progress on this project.", "hindi": "इस project पर कोई progress नहीं हुई है।", "context": "office" },
+        { "english": "There have been many improvements in the system.", "hindi": "सिस्टम में कई सुधार हुए हैं।", "context": "office" },
+        { "english": "There has been a delay in delivery.", "hindi": "डिलीवरी में देरी हुई है।", "context": "market" },
+        { "english": "There have been several meetings this month.", "hindi": "इस महीने कई मीटिंगें हुई हैं।", "context": "office" }
+      ],
+      "commonErrors": [
+        { "wrong": "There have been a mistake.", "correct": "There has been a mistake.", "explanation": "A mistake = singular, use 'has been'" },
+        { "wrong": "There has been many changes.", "correct": "There have been many changes.", "explanation": "Many changes = plural, use 'have been'" }
+      ]
+    },
+    {
+      "id": "lesson-6",
+      "title": "Negative Forms — There isn't / There aren't / There wasn't / There weren't",
+      "titleHindi": "नकारात्मक वाक्य",
+      "order": 6,
+      "duration": 10,
+      "theory": "To make a 'There' sentence negative, just add 'not' after the verb. We often use contractions in spoken English.",
+      "theoryHindi": "'There' वाले वाक्य को नकारात्मक बनाने के लिए verb के बाद 'not' लगाएं। बोलते समय हम अक्सर contraction (isn't, aren't) का प्रयोग करते हैं।",
+      "formula": "There is/are/was/were + not + Noun | Contraction: isn't / aren't / wasn't / weren't / won't be",
+      "formulaHindi": "There is/are/was/were + not + संज्ञा | Contraction: isn't / aren't / wasn't / weren't",
+      "keyRules": [
+        "There isn't = there is not (singular present negative)",
+        "There aren't = there are not (plural present negative)",
+        "There wasn't = there was not (singular past negative)",
+        "There weren't = there were not (plural past negative)",
+        "There won't be = there will not be (future negative)",
+        "There hasn't been / There haven't been (perfect negative)"
+      ],
+      "examples": [
+        { "english": "There isn't any milk in the fridge.", "hindi": "फ्रिज में दूध नहीं है।", "context": "home" },
+        { "english": "There aren't any chairs in the room.", "hindi": "कमरे में कोई कुर्सियाँ नहीं हैं।", "context": "office" },
+        { "english": "There wasn't a problem before.", "hindi": "पहले कोई समस्या नहीं थी।", "context": "office" },
+        { "english": "There weren't many people at the meeting.", "hindi": "मीटिंग में ज्यादा लोग नहीं थे।", "context": "office" },
+        { "english": "There won't be any classes tomorrow.", "hindi": "कल कोई classes नहीं होंगी।", "context": "school" },
+        { "english": "There isn't enough time.", "hindi": "पर्याप्त समय नहीं है।", "context": "office" },
+        { "english": "There aren't any good restaurants here.", "hindi": "यहाँ कोई अच्छे restaurants नहीं हैं।", "context": "daily life" },
+        { "english": "There wasn't any food left.", "hindi": "कोई खाना बचा नहीं था।", "context": "home" },
+        { "english": "There weren't any questions from the students.", "hindi": "छात्रों से कोई सवाल नहीं थे।", "context": "school" },
+        { "english": "There won't be any delay this time.", "hindi": "इस बार कोई देरी नहीं होगी।", "context": "office" },
+        { "english": "There isn't a single copy available.", "hindi": "एक भी copy उपलब्ध नहीं है।", "context": "market" },
+        { "english": "There aren't enough employees in the team.", "hindi": "टीम में पर्याप्त कर्मचारी नहीं हैं।", "context": "office" }
+      ],
+      "commonErrors": [
+        { "wrong": "There is no any milk.", "correct": "There isn't any milk.", "explanation": "Use 'isn't any' or 'is no' — not both together" },
+        { "wrong": "There don't have any seats.", "correct": "There aren't any seats.", "explanation": "Use 'aren't' not 'don't have' with existential there" }
+      ]
+    },
+    {
+      "id": "lesson-7",
+      "title": "Questions — Is there? / Are there? / Was there? / Were there? / Will there be?",
+      "titleHindi": "प्रश्नवाचक वाक्य",
+      "order": 7,
+      "duration": 12,
+      "theory": "To ask questions using 'There', simply invert the subject and verb — put the verb (is/are/was/were/will) before 'there'. This is called subject-verb inversion.",
+      "theoryHindi": "'There' का प्रयोग करके प्रश्न बनाने के लिए, verb को 'there' के पहले रखें। इसे subject-verb inversion कहते हैं।",
+      "formula": "Is/Are/Was/Were/Will + there + Noun + ?",
+      "formulaHindi": "Is/Are/Was/Were/Will + there + संज्ञा + ?",
+      "keyRules": [
+        "Is there...? = क्या कोई एक चीज़ है?",
+        "Are there...? = क्या कई चीज़ें हैं?",
+        "Was there...? = क्या एक चीज़ थी?",
+        "Were there...? = क्या कई चीज़ें थीं?",
+        "Will there be...? = क्या भविष्य में होगा?",
+        "Has there been? / Have there been? = Present Perfect questions"
+      ],
+      "examples": [
+        { "english": "Is there a pen on the table?", "hindi": "क्या मेज पर एक कलम है?", "context": "home" },
+        { "english": "Are there any seats available?", "hindi": "क्या कोई सीटें उपलब्ध हैं?", "context": "daily life" },
+        { "english": "Was there a problem in the meeting?", "hindi": "क्या मीटिंग में कोई समस्या थी?", "context": "office" },
+        { "english": "Were there many people at the event?", "hindi": "क्या event में कई लोग थे?", "context": "daily life" },
+        { "english": "Will there be a test tomorrow?", "hindi": "क्या कल परीक्षा होगी?", "context": "school" },
+        { "english": "Is there any milk in the fridge?", "hindi": "क्या फ्रिज में दूध है?", "context": "home" },
+        { "english": "Are there any good doctors here?", "hindi": "क्या यहाँ कोई अच्छे डॉक्टर हैं?", "context": "daily life" },
+        { "english": "Was there a train at 7 am?", "hindi": "क्या सुबह 7 बजे ट्रेन थी?", "context": "daily life" },
+        { "english": "Were there any complaints last month?", "hindi": "क्या पिछले महीने कोई शिकायतें थीं?", "context": "office" },
+        { "english": "Will there be any changes in the plan?", "hindi": "क्या plan में कोई बदलाव होंगे?", "context": "office" },
+        { "english": "Is there a bathroom on this floor?", "hindi": "क्या इस floor पर bathroom है?", "context": "office" },
+        { "english": "Are there enough resources for this project?", "hindi": "क्या इस project के लिए पर्याप्त resources हैं?", "context": "office" },
+        { "english": "Has there been any update from the client?", "hindi": "क्या client से कोई update आया है?", "context": "office" },
+        { "english": "Have there been any problems with the software?", "hindi": "क्या software में कोई समस्याएँ हुई हैं?", "context": "office" },
+        { "english": "Is there anything I can help you with?", "hindi": "क्या मैं आपकी कुछ मदद कर सकता हूँ?", "context": "daily life" }
+      ],
+      "commonErrors": [
+        { "wrong": "There is any milk?", "correct": "Is there any milk?", "explanation": "In questions, verb comes before 'there'" },
+        { "wrong": "Is there any students?", "correct": "Are there any students?", "explanation": "Students = plural, use 'Are there'" },
+        { "wrong": "Does there a bus?", "correct": "Is there a bus?", "explanation": "Use Is/Are — not Does — with existential there" }
+      ]
+    }
+  ],
+  "quickReference": {
+    "title": "Quick Reference — There Forms",
+    "table": [
+      { "tense": "Present Singular", "positive": "There is", "negative": "There isn't", "question": "Is there?" },
+      { "tense": "Present Plural", "positive": "There are", "negative": "There aren't", "question": "Are there?" },
+      { "tense": "Past Singular", "positive": "There was", "negative": "There wasn't", "question": "Was there?" },
+      { "tense": "Past Plural", "positive": "There were", "negative": "There weren't", "question": "Were there?" },
+      { "tense": "Future", "positive": "There will be", "negative": "There won't be", "question": "Will there be?" },
+      { "tense": "Present Perfect Singular", "positive": "There has been", "negative": "There hasn't been", "question": "Has there been?" },
+      { "tense": "Present Perfect Plural", "positive": "There have been", "negative": "There haven't been", "question": "Have there been?" }
+    ]
+  },
+  "memoryTricks": [
+    "Is = एक है | Are = कई हैं | Was = एक था | Were = कई थे | Will be = होगा",
+    "Singular → is/was | Plural → are/were | Future → will be (same for both)",
+    "Question बनाने के लिए: Verb को पहले रखो — Is there? Are there?",
+    "Negative बनाने के लिए: not जोड़ो — isn't, aren't, wasn't, weren't"
+  ]
+}

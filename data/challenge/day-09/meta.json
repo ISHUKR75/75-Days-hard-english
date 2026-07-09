@@ -1,0 +1,32 @@
+{
+  "day": 9,
+  "title": "Use of There",
+  "slug": "09-there",
+  "type": "grammar",
+  "difficulty": "elementary",
+  "cefr": "A1",
+  "emoji": "📍",
+  "color": "#84cc16",
+  "topics": [
+    "There is (singular present)",
+    "There are (plural present)",
+    "There was (singular past)",
+    "There were (plural past)",
+    "There will be (future)",
+    "There has been / There have been",
+    "Negative: There isn't / There aren't",
+    "Questions: Is there? / Are there?",
+    "Common Errors with There",
+    "Office and Daily Life Usage"
+  ],
+  "totalQuestions": 500,
+  "totalVocabulary": 150,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 50,
+  "prerequisites": [1, 2, 3, 4, 5, 6, 7, 8],
+  "nextDay": 10,
+  "tags": ["there-is", "there-are", "there-was", "grammar", "elementary", "existence"],
+  "lastUpdated": "2026-07-08",
+  "version": "2.0"
+}

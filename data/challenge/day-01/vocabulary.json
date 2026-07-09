@@ -1,0 +1,1713 @@
+{
+  "day": 1,
+  "title": "Day 1 Vocabulary — 150 Essential English Words",
+  "totalWords": 150,
+  "words": [
+    {
+      "id": 1,
+      "word": "work",
+      "hindi": "काम करना",
+      "simpleMeaning": "to do a job or task",
+      "ipa": "/wɜːrk/",
+      "verbForms": { "base": "work", "s3": "works", "ing": "working", "past": "worked", "pastParticiple": "worked" },
+      "synonyms": ["labor", "toil", "function"],
+      "antonyms": ["rest", "relax", "play"],
+      "sentences": {
+        "daily": "I work from 9 AM to 6 PM.",
+        "office": "She works in the finance department.",
+        "interview": "I have worked in IT for three years.",
+        "business": "Our team works efficiently to meet deadlines.",
+        "formal": "The committee works to improve public health.",
+        "informal": "He works like a machine — never stops!"
+      },
+      "usageNote": "'Work' as a noun means the job itself. 'Work' as a verb means doing the job. Don't say 'I do work' when you mean 'I work'.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 2,
+      "word": "learn",
+      "hindi": "सीखना",
+      "simpleMeaning": "to gain knowledge or skill",
+      "ipa": "/lɜːrn/",
+      "verbForms": { "base": "learn", "s3": "learns", "ing": "learning", "past": "learned/learnt", "pastParticiple": "learned/learnt" },
+      "synonyms": ["study", "acquire", "master"],
+      "antonyms": ["forget", "ignore", "unlearn"],
+      "sentences": {
+        "daily": "I learn something new every day.",
+        "office": "She learns new software quickly.",
+        "interview": "I learn from my mistakes and improve.",
+        "business": "Our employees learn through regular training.",
+        "formal": "Students learn best in interactive environments.",
+        "informal": "He never learns from his mistakes!"
+      },
+      "usageNote": "Both 'learned' and 'learnt' are correct as past tense. 'Learned' is more common in American English, 'learnt' in British English.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 3,
+      "word": "speak",
+      "hindi": "बोलना",
+      "simpleMeaning": "to say words, to talk",
+      "ipa": "/spiːk/",
+      "verbForms": { "base": "speak", "s3": "speaks", "ing": "speaking", "past": "spoke", "pastParticiple": "spoken" },
+      "synonyms": ["talk", "say", "communicate"],
+      "antonyms": ["listen", "be silent", "hush"],
+      "sentences": {
+        "daily": "I speak Hindi and English.",
+        "office": "Please speak clearly in the meeting.",
+        "interview": "I speak confidently about my achievements.",
+        "business": "Our CEO speaks at international conferences.",
+        "formal": "The ambassador speaks on behalf of the nation.",
+        "informal": "Just speak up! Don't be shy."
+      },
+      "usageNote": "Use 'speak' for languages (speak English) and formal situations. Use 'talk' for conversations. Don't confuse with 'say' which is used for exact words.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 4,
+      "word": "understand",
+      "hindi": "समझना",
+      "simpleMeaning": "to know the meaning of something",
+      "ipa": "/ˌʌndərˈstænd/",
+      "verbForms": { "base": "understand", "s3": "understands", "ing": "understanding", "past": "understood", "pastParticiple": "understood" },
+      "synonyms": ["comprehend", "grasp", "follow"],
+      "antonyms": ["misunderstand", "confuse", "miss"],
+      "sentences": {
+        "daily": "Do you understand what I am saying?",
+        "office": "I understand the project requirements completely.",
+        "interview": "I understand complex technical concepts easily.",
+        "business": "We need to understand customer needs.",
+        "formal": "The court understands the gravity of the situation.",
+        "informal": "I just don't understand why he did that!"
+      },
+      "usageNote": "'Understand' is a state verb — do not use it in continuous form. Say 'I understand' NOT 'I am understanding'.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 5,
+      "word": "help",
+      "hindi": "मदद करना / सहायता",
+      "simpleMeaning": "to assist someone or make something easier",
+      "ipa": "/help/",
+      "verbForms": { "base": "help", "s3": "helps", "ing": "helping", "past": "helped", "pastParticiple": "helped" },
+      "synonyms": ["assist", "support", "aid"],
+      "antonyms": ["hinder", "harm", "obstruct"],
+      "sentences": {
+        "daily": "Can you help me carry these bags?",
+        "office": "She helps new employees settle in.",
+        "interview": "I always help my team members when they need it.",
+        "business": "Our product helps businesses save time.",
+        "formal": "The government helps citizens through welfare schemes.",
+        "informal": "Thanks for helping me out, buddy!"
+      },
+      "usageNote": "'Help' can be followed by infinitive with or without 'to': 'Help me do this' or 'Help me to do this' — both are correct.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 6,
+      "word": "need",
+      "hindi": "ज़रूरत होना / चाहिए",
+      "simpleMeaning": "to require something, to must have",
+      "ipa": "/niːd/",
+      "verbForms": { "base": "need", "s3": "needs", "ing": "needing", "past": "needed", "pastParticiple": "needed" },
+      "synonyms": ["require", "want", "demand"],
+      "antonyms": ["have", "own", "possess"],
+      "sentences": {
+        "daily": "I need water after exercise.",
+        "office": "The project needs more resources.",
+        "interview": "I need challenges to grow professionally.",
+        "business": "Businesses need to adapt to survive.",
+        "formal": "The proposal needs further review before approval.",
+        "informal": "I really need a break right now!"
+      },
+      "usageNote": "'Need' as a main verb: 'I need to go.' 'Need' as a modal: 'You need not worry.' In questions: 'Do you need help?' (not 'Need you help?')",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 7,
+      "word": "know",
+      "hindi": "जानना",
+      "simpleMeaning": "to have information about something",
+      "ipa": "/noʊ/",
+      "verbForms": { "base": "know", "s3": "knows", "ing": "knowing", "past": "knew", "pastParticiple": "known" },
+      "synonyms": ["understand", "recognize", "be aware of"],
+      "antonyms": ["ignore", "forget", "be unaware"],
+      "sentences": {
+        "daily": "I know the way to the station.",
+        "office": "She knows all the company policies.",
+        "interview": "I know Python, Java, and SQL.",
+        "business": "We know our customers' preferences well.",
+        "formal": "The judge knows the law thoroughly.",
+        "informal": "You know what? He was right all along!"
+      },
+      "usageNote": "'Know' is a state verb — never use in continuous form. Say 'I know him' NOT 'I am knowing him'.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 8,
+      "word": "think",
+      "hindi": "सोचना",
+      "simpleMeaning": "to use your mind to consider something",
+      "ipa": "/θɪŋk/",
+      "verbForms": { "base": "think", "s3": "thinks", "ing": "thinking", "past": "thought", "pastParticiple": "thought" },
+      "synonyms": ["consider", "believe", "reflect"],
+      "antonyms": ["ignore", "dismiss", "act impulsively"],
+      "sentences": {
+        "daily": "I think the weather will be good today.",
+        "office": "Please think before you send that email.",
+        "interview": "I think critically to solve complex problems.",
+        "business": "We think long-term when making decisions.",
+        "formal": "The committee thinks the proposal requires revision.",
+        "informal": "I think she likes you, honestly!"
+      },
+      "usageNote": "'Think' for opinions: 'I think it is correct.' 'Think about/of' for consideration: 'I am thinking about the problem.'",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 9,
+      "word": "read",
+      "hindi": "पढ़ना",
+      "simpleMeaning": "to look at written words and understand them",
+      "ipa": "/riːd/",
+      "verbForms": { "base": "read", "s3": "reads", "ing": "reading", "past": "read (red)", "pastParticiple": "read (red)" },
+      "synonyms": ["study", "browse", "peruse"],
+      "antonyms": ["write", "ignore", "skim"],
+      "sentences": {
+        "daily": "I read the newspaper every morning.",
+        "office": "She reads all client emails carefully.",
+        "interview": "I read industry reports to stay updated.",
+        "business": "Our team reads competitor analysis monthly.",
+        "formal": "Please read the terms and conditions carefully.",
+        "informal": "I read this book in one night — so good!"
+      },
+      "usageNote": "Present and past tense are spelled the same ('read') but pronounced differently: present = /riːd/ (reed), past = /red/ (red).",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 10,
+      "word": "write",
+      "hindi": "लिखना",
+      "simpleMeaning": "to put words on paper or screen",
+      "ipa": "/raɪt/",
+      "verbForms": { "base": "write", "s3": "writes", "ing": "writing", "past": "wrote", "pastParticiple": "written" },
+      "synonyms": ["compose", "draft", "pen"],
+      "antonyms": ["read", "erase", "delete"],
+      "sentences": {
+        "daily": "I write in my diary every night.",
+        "office": "She writes project proposals.",
+        "interview": "I write clear and concise reports.",
+        "business": "Our team writes marketing content.",
+        "formal": "Please write your feedback on the form.",
+        "informal": "Just write whatever comes to your mind!"
+      },
+      "usageNote": "Note the irregular forms: write → wrote → written. 'Write to someone' (for letters/emails), 'write about something' (for topics).",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 11,
+      "word": "come",
+      "hindi": "आना",
+      "simpleMeaning": "to move toward a place or person",
+      "ipa": "/kʌm/",
+      "verbForms": { "base": "come", "s3": "comes", "ing": "coming", "past": "came", "pastParticiple": "come" },
+      "synonyms": ["arrive", "approach", "reach"],
+      "antonyms": ["go", "leave", "depart"],
+      "sentences": {
+        "daily": "Please come home by 8 PM.",
+        "office": "She comes to work by metro.",
+        "interview": "I can come for the interview on Monday.",
+        "business": "New opportunities come with hard work.",
+        "formal": "The delegation comes from five different countries.",
+        "informal": "Come on! We are getting late!"
+      },
+      "usageNote": "Use 'come' when moving toward the speaker. Use 'go' when moving away from the speaker.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 12,
+      "word": "go",
+      "hindi": "जाना",
+      "simpleMeaning": "to move away from a place",
+      "ipa": "/ɡoʊ/",
+      "verbForms": { "base": "go", "s3": "goes", "ing": "going", "past": "went", "pastParticiple": "gone" },
+      "synonyms": ["leave", "depart", "travel"],
+      "antonyms": ["come", "stay", "arrive"],
+      "sentences": {
+        "daily": "I go to the market on Saturdays.",
+        "office": "She goes to client meetings every week.",
+        "interview": "I am willing to go the extra mile.",
+        "business": "Our sales team goes to different cities.",
+        "formal": "The proposal goes to the board for approval.",
+        "informal": "Let us go before the traffic gets bad!"
+      },
+      "usageNote": "Irregular verb: go → went → gone. 'Gone' is used with 'have': 'He has gone home.' 'Went' is simple past: 'He went home.'",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 13,
+      "word": "give",
+      "hindi": "देना",
+      "simpleMeaning": "to hand something to someone",
+      "ipa": "/ɡɪv/",
+      "verbForms": { "base": "give", "s3": "gives", "ing": "giving", "past": "gave", "pastParticiple": "given" },
+      "synonyms": ["provide", "offer", "donate"],
+      "antonyms": ["take", "receive", "keep"],
+      "sentences": {
+        "daily": "Please give me a glass of water.",
+        "office": "The manager gives feedback weekly.",
+        "interview": "I give my 100% to every project.",
+        "business": "We give our clients the best solutions.",
+        "formal": "The company gives annual bonuses to employees.",
+        "informal": "Give me five minutes and I will be ready!"
+      },
+      "usageNote": "Pattern: 'give something to someone' or 'give someone something'. Both are correct: 'Give the book to him' or 'Give him the book'.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 14,
+      "word": "take",
+      "hindi": "लेना",
+      "simpleMeaning": "to get hold of something and carry it",
+      "ipa": "/teɪk/",
+      "verbForms": { "base": "take", "s3": "takes", "ing": "taking", "past": "took", "pastParticiple": "taken" },
+      "synonyms": ["grab", "carry", "accept"],
+      "antonyms": ["give", "leave", "reject"],
+      "sentences": {
+        "daily": "I take the bus to college.",
+        "office": "She takes notes during meetings.",
+        "interview": "I take initiative in my projects.",
+        "business": "The company takes responsibility seriously.",
+        "formal": "Please take a seat and wait.",
+        "informal": "Take it easy! It is not that serious."
+      },
+      "usageNote": "'Take time' means it requires time. 'Take a break' means to rest. Many phrasal verbs: take off, take over, take care, take place.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 15,
+      "word": "make",
+      "hindi": "बनाना",
+      "simpleMeaning": "to create or produce something",
+      "ipa": "/meɪk/",
+      "verbForms": { "base": "make", "s3": "makes", "ing": "making", "past": "made", "pastParticiple": "made" },
+      "synonyms": ["create", "produce", "build"],
+      "antonyms": ["destroy", "break", "ruin"],
+      "sentences": {
+        "daily": "My mother makes delicious food.",
+        "office": "She makes detailed reports.",
+        "interview": "I make sure every deadline is met.",
+        "business": "We make innovative products for the market.",
+        "formal": "The team makes strategic decisions.",
+        "informal": "Let us make a deal — you cook, I clean!"
+      },
+      "usageNote": "Difference: 'Make' = create from scratch (make tea, make a plan). 'Do' = perform an activity (do homework, do exercise).",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 16,
+      "word": "buy",
+      "hindi": "खरीदना",
+      "simpleMeaning": "to get something by paying money",
+      "ipa": "/baɪ/",
+      "verbForms": { "base": "buy", "s3": "buys", "ing": "buying", "past": "bought", "pastParticiple": "bought" },
+      "synonyms": ["purchase", "acquire", "get"],
+      "antonyms": ["sell", "return", "give away"],
+      "sentences": {
+        "daily": "I buy vegetables from the local market.",
+        "office": "She buys office supplies every month.",
+        "interview": "I bought online courses to improve my skills.",
+        "business": "We buy raw materials from domestic suppliers.",
+        "formal": "The organization buys equipment through tender process.",
+        "informal": "I just bought the new iPhone — it is amazing!"
+      },
+      "usageNote": "Irregular verb: buy → bought → bought. 'Buy from' a person/place, 'buy for' a purpose/person.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 17,
+      "word": "sell",
+      "hindi": "बेचना",
+      "simpleMeaning": "to exchange something for money",
+      "ipa": "/sel/",
+      "verbForms": { "base": "sell", "s3": "sells", "ing": "selling", "past": "sold", "pastParticiple": "sold" },
+      "synonyms": ["trade", "market", "vend"],
+      "antonyms": ["buy", "purchase", "keep"],
+      "sentences": {
+        "daily": "He sells vegetables near my house.",
+        "office": "Our team sells software solutions.",
+        "interview": "I worked in sales and sold insurance products.",
+        "business": "We sell our products in 20 countries.",
+        "formal": "The company sells shares on the stock exchange.",
+        "informal": "She sold her car for way too low a price!"
+      },
+      "usageNote": "Irregular verb: sell → sold → sold. 'Sell at' a price, 'sell to' a customer, 'sell in' a market.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 18,
+      "word": "open",
+      "hindi": "खोलना",
+      "simpleMeaning": "to make something no longer closed",
+      "ipa": "/ˈoʊpən/",
+      "verbForms": { "base": "open", "s3": "opens", "ing": "opening", "past": "opened", "pastParticiple": "opened" },
+      "synonyms": ["unlock", "start", "begin"],
+      "antonyms": ["close", "shut", "lock"],
+      "sentences": {
+        "daily": "The shop opens at 9 AM.",
+        "office": "She opens all emails in the morning.",
+        "interview": "I am open to new challenges and learning.",
+        "business": "We plan to open a new branch next year.",
+        "formal": "The ceremony opens with the national anthem.",
+        "informal": "Open the door! It is too hot in here."
+      },
+      "usageNote": "As adjective: 'The shop is open.' As verb: 'She opens the shop.' As adverb in phrase: 'in the open air'.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 19,
+      "word": "close",
+      "hindi": "बंद करना",
+      "simpleMeaning": "to shut something or end something",
+      "ipa": "/kloʊz/",
+      "verbForms": { "base": "close", "s3": "closes", "ing": "closing", "past": "closed", "pastParticiple": "closed" },
+      "synonyms": ["shut", "end", "seal"],
+      "antonyms": ["open", "start", "begin"],
+      "sentences": {
+        "daily": "Please close the window — it is raining.",
+        "office": "She closes all pending tickets before leaving.",
+        "interview": "I close deals effectively in sales.",
+        "business": "We need to close this contract by Friday.",
+        "formal": "The meeting closes with a summary of decisions.",
+        "informal": "Close the door quietly, the baby is sleeping!"
+      },
+      "usageNote": "As verb (verb): /kloʊz/ — 'Please close the door.' As adjective: /kloʊs/ — 'The shop is close to my home.' Different pronunciation!",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 20,
+      "word": "start",
+      "hindi": "शुरू करना",
+      "simpleMeaning": "to begin something",
+      "ipa": "/stɑːrt/",
+      "verbForms": { "base": "start", "s3": "starts", "ing": "starting", "past": "started", "pastParticiple": "started" },
+      "synonyms": ["begin", "commence", "initiate"],
+      "antonyms": ["stop", "end", "finish"],
+      "sentences": {
+        "daily": "I start my day with exercise.",
+        "office": "The meeting starts at 10 AM sharp.",
+        "interview": "I started my career as a junior developer.",
+        "business": "We start every project with a planning phase.",
+        "formal": "The academic year starts in June.",
+        "informal": "Let us start already! We are waiting for you!"
+      },
+      "usageNote": "'Start' and 'begin' are similar but 'start' is more common in spoken English. 'Start' also refers to machines: 'Start the car.'",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 21,
+      "word": "stop",
+      "hindi": "रुकना / बंद करना",
+      "simpleMeaning": "to no longer do something or move",
+      "ipa": "/stɒp/",
+      "verbForms": { "base": "stop", "s3": "stops", "ing": "stopping", "past": "stopped", "pastParticiple": "stopped" },
+      "synonyms": ["halt", "end", "quit"],
+      "antonyms": ["start", "continue", "go on"],
+      "sentences": {
+        "daily": "The bus stops near my house.",
+        "office": "Please stop sending unnecessary emails.",
+        "interview": "I stopped my previous job to pursue higher studies.",
+        "business": "We stopped the old process and adopted automation.",
+        "formal": "The government stopped the project due to funding issues.",
+        "informal": "Stop talking and just do it!"
+      },
+      "usageNote": "'Stop doing' = permanently quit. 'Stop to do' = pause in order to do something else. 'I stopped smoking.' vs 'I stopped to drink water.'",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 22,
+      "word": "send",
+      "hindi": "भेजना",
+      "simpleMeaning": "to cause something to go to a place",
+      "ipa": "/send/",
+      "verbForms": { "base": "send", "s3": "sends", "ing": "sending", "past": "sent", "pastParticiple": "sent" },
+      "synonyms": ["dispatch", "forward", "submit"],
+      "antonyms": ["receive", "get", "accept"],
+      "sentences": {
+        "daily": "I send messages to my family every day.",
+        "office": "She sends reports to the manager on Monday.",
+        "interview": "I sent my resume to 20 companies.",
+        "business": "We send invoices within 24 hours.",
+        "formal": "The ministry sends official notices by post.",
+        "informal": "Send me the photo when you get home!"
+      },
+      "usageNote": "Irregular verb: send → sent → sent. 'Send to' a person, 'send by' a method (email, post). 'Send for' = ask someone to come.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 23,
+      "word": "receive",
+      "hindi": "प्राप्त करना / मिलना",
+      "simpleMeaning": "to get something that was sent to you",
+      "ipa": "/rɪˈsiːv/",
+      "verbForms": { "base": "receive", "s3": "receives", "ing": "receiving", "past": "received", "pastParticiple": "received" },
+      "synonyms": ["get", "obtain", "accept"],
+      "antonyms": ["send", "give", "dispatch"],
+      "sentences": {
+        "daily": "I received a gift from my friend.",
+        "office": "She receives client calls daily.",
+        "interview": "I received a scholarship for my studies.",
+        "business": "We receive payments within 30 days.",
+        "formal": "The president receives the award on behalf of the nation.",
+        "informal": "Did you receive my message? I sent it an hour ago!"
+      },
+      "usageNote": "'Receive' is more formal than 'get'. In everyday speech, 'get' is more common: 'Did you get my email?' In business, 'receive' is preferred.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 24,
+      "word": "pay",
+      "hindi": "भुगतान करना",
+      "simpleMeaning": "to give money for something",
+      "ipa": "/peɪ/",
+      "verbForms": { "base": "pay", "s3": "pays", "ing": "paying", "past": "paid", "pastParticiple": "paid" },
+      "synonyms": ["compensate", "settle", "reimburse"],
+      "antonyms": ["owe", "borrow", "withhold"],
+      "sentences": {
+        "daily": "I pay the rent on the first of every month.",
+        "office": "The company pays salaries on the 25th.",
+        "interview": "My previous company paid me well.",
+        "business": "We pay suppliers on time to maintain good relations.",
+        "formal": "Employees are paid according to their grade.",
+        "informal": "I will pay you back tomorrow, I promise!"
+      },
+      "usageNote": "Irregular verb: pay → paid → paid. 'Pay for' something = give money for it. 'Pay attention' and 'pay a visit' are fixed phrases.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 25,
+      "word": "use",
+      "hindi": "उपयोग करना",
+      "simpleMeaning": "to do something with a tool or thing",
+      "ipa": "/juːz/",
+      "verbForms": { "base": "use", "s3": "uses", "ing": "using", "past": "used", "pastParticiple": "used" },
+      "synonyms": ["apply", "employ", "utilize"],
+      "antonyms": ["ignore", "avoid", "waste"],
+      "sentences": {
+        "daily": "I use my phone for everything.",
+        "office": "She uses Excel for data analysis.",
+        "interview": "I use agile methodology in my projects.",
+        "business": "We use advanced tools to improve productivity.",
+        "formal": "The organization uses renewable energy sources.",
+        "informal": "Can I use your charger? Mine is dead!"
+      },
+      "usageNote": "As noun: /juːs/ — 'What is the use of this?' As verb: /juːz/ — 'Please use the pen.' 'Used to' = past habit: 'I used to smoke but I quit.'",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 26,
+      "word": "find",
+      "hindi": "ढूँढना / पाना",
+      "simpleMeaning": "to discover or locate something",
+      "ipa": "/faɪnd/",
+      "verbForms": { "base": "find", "s3": "finds", "ing": "finding", "past": "found", "pastParticiple": "found" },
+      "synonyms": ["discover", "locate", "spot"],
+      "antonyms": ["lose", "miss", "overlook"],
+      "sentences": {
+        "daily": "I cannot find my keys.",
+        "office": "She finds solutions to every problem.",
+        "interview": "I find creative ways to handle challenges.",
+        "business": "We need to find new customers.",
+        "formal": "The investigation finds no evidence of fraud.",
+        "informal": "I finally found a good restaurant near here!"
+      },
+      "usageNote": "Irregular verb: find → found → found. 'Find out' = discover information. 'Find it easy/difficult' = consider it to be easy/difficult.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 27,
+      "word": "keep",
+      "hindi": "रखना / बनाए रखना",
+      "simpleMeaning": "to have something and not give it away",
+      "ipa": "/kiːp/",
+      "verbForms": { "base": "keep", "s3": "keeps", "ing": "keeping", "past": "kept", "pastParticiple": "kept" },
+      "synonyms": ["retain", "maintain", "hold"],
+      "antonyms": ["give up", "lose", "release"],
+      "sentences": {
+        "daily": "Please keep this room clean.",
+        "office": "She keeps records of all transactions.",
+        "interview": "I keep myself updated with industry trends.",
+        "business": "We keep costs low to maximize profit.",
+        "formal": "The committee keeps minutes of every meeting.",
+        "informal": "Keep it secret — do not tell anyone!"
+      },
+      "usageNote": "Irregular verb: keep → kept → kept. 'Keep doing' = continue doing. Many phrasal verbs: keep up, keep on, keep out, keep in touch.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 28,
+      "word": "leave",
+      "hindi": "छोड़ना / जाना",
+      "simpleMeaning": "to go away from a place or person",
+      "ipa": "/liːv/",
+      "verbForms": { "base": "leave", "s3": "leaves", "ing": "leaving", "past": "left", "pastParticiple": "left" },
+      "synonyms": ["depart", "exit", "quit"],
+      "antonyms": ["stay", "arrive", "come"],
+      "sentences": {
+        "daily": "I leave home at 8 AM every day.",
+        "office": "She leaves the office at 7 PM.",
+        "interview": "I left my previous company for better growth.",
+        "business": "We leave nothing to chance in our planning.",
+        "formal": "The session leaves room for further discussion.",
+        "informal": "Just leave it — stop thinking about it!"
+      },
+      "usageNote": "Irregular verb: leave → left → left. 'Leave' for places. 'Leave someone/something' = abandon. 'Leave a message' = write/record a message.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 29,
+      "word": "try",
+      "hindi": "कोशिश करना",
+      "simpleMeaning": "to make an effort to do something",
+      "ipa": "/traɪ/",
+      "verbForms": { "base": "try", "s3": "tries", "ing": "trying", "past": "tried", "pastParticiple": "tried" },
+      "synonyms": ["attempt", "endeavor", "effort"],
+      "antonyms": ["give up", "quit", "abandon"],
+      "sentences": {
+        "daily": "I always try to be on time.",
+        "office": "She tries to finish work before the deadline.",
+        "interview": "I try to find innovative solutions.",
+        "business": "We try to exceed customer expectations.",
+        "formal": "The team tries to maintain quality standards.",
+        "informal": "Just try it once! You will love it!"
+      },
+      "usageNote": "'Try to do' = attempt (may or may not succeed). 'Try doing' = experiment with a method. 'Try on' = wear to check fit.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 30,
+      "word": "show",
+      "hindi": "दिखाना",
+      "simpleMeaning": "to let someone see something",
+      "ipa": "/ʃoʊ/",
+      "verbForms": { "base": "show", "s3": "shows", "ing": "showing", "past": "showed", "pastParticiple": "shown/showed" },
+      "synonyms": ["display", "demonstrate", "present"],
+      "antonyms": ["hide", "conceal", "cover"],
+      "sentences": {
+        "daily": "Let me show you the way.",
+        "office": "She shows her work in weekly presentations.",
+        "interview": "My portfolio shows my design skills.",
+        "business": "Our results show 30% growth this year.",
+        "formal": "The data shows a clear upward trend.",
+        "informal": "Show me your new phone! I heard it is great."
+      },
+      "usageNote": "Pattern: 'show someone something' or 'show something to someone'. 'Show off' = display proudly. 'Show up' = arrive.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 31,
+      "word": "tell",
+      "hindi": "बताना",
+      "simpleMeaning": "to inform someone about something",
+      "ipa": "/tel/",
+      "verbForms": { "base": "tell", "s3": "tells", "ing": "telling", "past": "told", "pastParticiple": "told" },
+      "synonyms": ["inform", "say", "narrate"],
+      "antonyms": ["hide", "conceal", "keep secret"],
+      "sentences": {
+        "daily": "Please tell me the time.",
+        "office": "She tells the team about new updates.",
+        "interview": "Tell me about yourself is always the first question.",
+        "business": "We tell clients about our progress regularly.",
+        "formal": "The report tells us about the performance gaps.",
+        "informal": "Tell me everything! I want to know all the details!"
+      },
+      "usageNote": "Irregular verb: tell → told → told. Always 'tell someone something' — 'tell' needs a person after it. Don't say 'tell about me' — say 'tell me about'.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 32,
+      "word": "ask",
+      "hindi": "पूछना / माँगना",
+      "simpleMeaning": "to request information or something",
+      "ipa": "/æsk/",
+      "verbForms": { "base": "ask", "s3": "asks", "ing": "asking", "past": "asked", "pastParticiple": "asked" },
+      "synonyms": ["inquire", "question", "request"],
+      "antonyms": ["answer", "tell", "reply"],
+      "sentences": {
+        "daily": "May I ask you a question?",
+        "office": "She asks for feedback from her team.",
+        "interview": "You can ask me anything about my experience.",
+        "business": "We ask clients to fill a satisfaction survey.",
+        "formal": "The committee asks applicants to submit documents.",
+        "informal": "Just ask him! He will not bite you!"
+      },
+      "usageNote": "'Ask someone something' or 'ask someone about something'. 'Ask for' = request. 'Ask someone out' = invite on a date.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 33,
+      "word": "answer",
+      "hindi": "जवाब देना",
+      "simpleMeaning": "to respond to a question or request",
+      "ipa": "/ˈænsər/",
+      "verbForms": { "base": "answer", "s3": "answers", "ing": "answering", "past": "answered", "pastParticiple": "answered" },
+      "synonyms": ["reply", "respond", "react"],
+      "antonyms": ["ask", "question", "query"],
+      "sentences": {
+        "daily": "Please answer the phone.",
+        "office": "She answers client queries within one hour.",
+        "interview": "I answered all interview questions confidently.",
+        "business": "We answer all complaints within 24 hours.",
+        "formal": "The company answered the regulatory inquiry.",
+        "informal": "Why are you not answering my calls?!"
+      },
+      "usageNote": "'Answer' the phone/door/question (no preposition). 'Reply to' an email/message. Both mean responding, but usage differs.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 34,
+      "word": "meet",
+      "hindi": "मिलना",
+      "simpleMeaning": "to come together with someone",
+      "ipa": "/miːt/",
+      "verbForms": { "base": "meet", "s3": "meets", "ing": "meeting", "past": "met", "pastParticiple": "met" },
+      "synonyms": ["encounter", "greet", "connect"],
+      "antonyms": ["avoid", "miss", "separate"],
+      "sentences": {
+        "daily": "I meet my friends every weekend.",
+        "office": "She meets clients in the conference room.",
+        "interview": "Nice to meet you — I am Rahul.",
+        "business": "We meet the project deadline every time.",
+        "formal": "The delegates meet to discuss trade agreements.",
+        "informal": "Let us meet for coffee tomorrow!"
+      },
+      "usageNote": "Irregular verb: meet → met → met. 'Meet someone' = encounter for first time. 'Meet with someone' = have a planned meeting. 'Meet a deadline' = complete on time.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 35,
+      "word": "join",
+      "hindi": "शामिल होना / जुड़ना",
+      "simpleMeaning": "to become part of a group or organization",
+      "ipa": "/dʒɔɪn/",
+      "verbForms": { "base": "join", "s3": "joins", "ing": "joining", "past": "joined", "pastParticiple": "joined" },
+      "synonyms": ["enter", "enroll", "participate"],
+      "antonyms": ["leave", "quit", "separate"],
+      "sentences": {
+        "daily": "Please join us for dinner tonight.",
+        "office": "She joined the company three years ago.",
+        "interview": "I want to join your organization because of its values.",
+        "business": "Two companies joined to form a new entity.",
+        "formal": "The country joins the international climate agreement.",
+        "informal": "Come join us! The more the merrier!"
+      },
+      "usageNote": "'Join' a club/team/company. 'Join in' = participate in an activity already happening. 'Join' does not need 'to': say 'join the team' not 'join to the team'.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 36,
+      "word": "wait",
+      "hindi": "प्रतीक्षा करना / इंतज़ार करना",
+      "simpleMeaning": "to stay in one place until something happens",
+      "ipa": "/weɪt/",
+      "verbForms": { "base": "wait", "s3": "waits", "ing": "waiting", "past": "waited", "pastParticiple": "waited" },
+      "synonyms": ["hold on", "stand by", "expect"],
+      "antonyms": ["proceed", "act", "move"],
+      "sentences": {
+        "daily": "I wait for the bus every morning.",
+        "office": "Please wait while I connect your call.",
+        "interview": "I waited patiently for the interview result.",
+        "business": "We do not wait for problems — we prevent them.",
+        "formal": "Passengers are requested to wait in the designated area.",
+        "informal": "Wait! I almost forgot my phone!"
+      },
+      "usageNote": "'Wait for someone/something'. 'Wait on someone' = serve at a table (restaurant context). 'Cannot wait' means very excited about something.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 37,
+      "word": "call",
+      "hindi": "फोन करना / बुलाना",
+      "simpleMeaning": "to phone someone or shout to get attention",
+      "ipa": "/kɔːl/",
+      "verbForms": { "base": "call", "s3": "calls", "ing": "calling", "past": "called", "pastParticiple": "called" },
+      "synonyms": ["phone", "contact", "ring"],
+      "antonyms": ["ignore", "avoid", "disconnect"],
+      "sentences": {
+        "daily": "I call my mother every evening.",
+        "office": "Please call me if there is any problem.",
+        "interview": "We will call you after checking your documents.",
+        "business": "Our team calls potential clients daily.",
+        "formal": "The court calls the next witness.",
+        "informal": "Call me when you reach! I will worry otherwise."
+      },
+      "usageNote": "'Call someone' = phone them. 'Call someone something' = give them a name/title. 'Call off' = cancel. 'Call back' = return a call.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 38,
+      "word": "check",
+      "hindi": "जाँच करना",
+      "simpleMeaning": "to examine or look at something carefully",
+      "ipa": "/tʃek/",
+      "verbForms": { "base": "check", "s3": "checks", "ing": "checking", "past": "checked", "pastParticiple": "checked" },
+      "synonyms": ["verify", "examine", "inspect"],
+      "antonyms": ["ignore", "overlook", "neglect"],
+      "sentences": {
+        "daily": "I check my phone first thing in the morning.",
+        "office": "She checks all documents before submitting.",
+        "interview": "I always check my work for errors.",
+        "business": "We check quality at every stage of production.",
+        "formal": "The auditor checks the financial records.",
+        "informal": "Check this out — it is incredible!"
+      },
+      "usageNote": "'Check' something = look at it. 'Check in' = register at hotel/airport. 'Check out' = look at something interesting (informal). 'Check on' = see if someone is okay.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 39,
+      "word": "manage",
+      "hindi": "प्रबंधन करना / संभालना",
+      "simpleMeaning": "to control or handle something successfully",
+      "ipa": "/ˈmænɪdʒ/",
+      "verbForms": { "base": "manage", "s3": "manages", "ing": "managing", "past": "managed", "pastParticiple": "managed" },
+      "synonyms": ["handle", "control", "administer"],
+      "antonyms": ["mismanage", "neglect", "fail"],
+      "sentences": {
+        "daily": "I manage my time carefully.",
+        "office": "She manages a team of 15 people.",
+        "interview": "I managed a project worth 50 lakhs.",
+        "business": "We manage risk through diversification.",
+        "formal": "The director manages the entire operations.",
+        "informal": "I somehow managed to finish everything on time!"
+      },
+      "usageNote": "'Manage to do' = succeed in doing something difficult. 'Manage someone' = supervise. 'Manager' = the person who manages.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 40,
+      "word": "improve",
+      "hindi": "सुधारना / बेहतर बनाना",
+      "simpleMeaning": "to make something better",
+      "ipa": "/ɪmˈpruːv/",
+      "verbForms": { "base": "improve", "s3": "improves", "ing": "improving", "past": "improved", "pastParticiple": "improved" },
+      "synonyms": ["enhance", "develop", "upgrade"],
+      "antonyms": ["worsen", "decline", "deteriorate"],
+      "sentences": {
+        "daily": "I want to improve my English.",
+        "office": "She improves processes to save time.",
+        "interview": "I continuously improve my technical skills.",
+        "business": "We improve customer experience every quarter.",
+        "formal": "The scheme aims to improve public health.",
+        "informal": "Just keep practicing and you will improve for sure!"
+      },
+      "usageNote": "'Improve' something = make it better. 'Improve on' = do better than a previous result. 'Room for improvement' = still can be made better.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 41,
+      "word": "important",
+      "hindi": "महत्वपूर्ण",
+      "simpleMeaning": "having great value or significance",
+      "ipa": "/ɪmˈpɔːrtənt/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["significant", "vital", "crucial"],
+      "antonyms": ["unimportant", "trivial", "minor"],
+      "sentences": {
+        "daily": "Sleep is important for good health.",
+        "office": "Punctuality is important in a professional setting.",
+        "interview": "Communication skills are important for this role.",
+        "business": "Customer feedback is important for growth.",
+        "formal": "It is important to comply with safety regulations.",
+        "informal": "The most important thing is that you tried!"
+      },
+      "usageNote": "'Important' describes things with great significance. 'Important for' (a purpose), 'important to' (a person). Don't say 'more important' say 'more importantly' in sentences.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 42,
+      "word": "different",
+      "hindi": "अलग / भिन्न",
+      "simpleMeaning": "not the same as something else",
+      "ipa": "/ˈdɪfrənt/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["distinct", "unlike", "varied"],
+      "antonyms": ["same", "similar", "identical"],
+      "sentences": {
+        "daily": "Today is different from yesterday.",
+        "office": "Each project is different in nature.",
+        "interview": "I bring a different perspective to the team.",
+        "business": "We offer different packages for different needs.",
+        "formal": "Different regions have different cultural practices.",
+        "informal": "You look different today — new haircut?"
+      },
+      "usageNote": "'Different from' is standard. 'Different than' is used in American English. 'Different to' is used in British English. All are acceptable.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 43,
+      "word": "possible",
+      "hindi": "संभव",
+      "simpleMeaning": "able to be done or achieved",
+      "ipa": "/ˈpɒsɪbəl/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["feasible", "achievable", "attainable"],
+      "antonyms": ["impossible", "unachievable", "out of reach"],
+      "sentences": {
+        "daily": "Is it possible to change my appointment?",
+        "office": "Please send the report as soon as possible.",
+        "interview": "Is it possible to know the salary range?",
+        "business": "We make the impossible possible.",
+        "formal": "It is possible that the results may vary.",
+        "informal": "There is no way that is possible — are you serious?!"
+      },
+      "usageNote": "'Possible' — it can happen. 'Possibly' — maybe, perhaps (adverb). 'As soon as possible' (ASAP) is a very common phrase in professional communication.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 44,
+      "word": "ready",
+      "hindi": "तैयार",
+      "simpleMeaning": "prepared and available to do something",
+      "ipa": "/ˈredi/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["prepared", "set", "available"],
+      "antonyms": ["unprepared", "unready", "unavailable"],
+      "sentences": {
+        "daily": "I am ready to leave.",
+        "office": "Is the report ready for review?",
+        "interview": "I am ready to take on new responsibilities.",
+        "business": "Our product is ready for launch.",
+        "formal": "The team is ready to begin operations.",
+        "informal": "Are you ready? Everyone is waiting for you!"
+      },
+      "usageNote": "'Ready to do' something (infinitive). 'Get ready' = prepare. 'Ready-made' = already prepared. 'Ready, steady, go!' is a common sports phrase.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 45,
+      "word": "free",
+      "hindi": "मुफ्त / स्वतंत्र",
+      "simpleMeaning": "costing nothing, or not restricted",
+      "ipa": "/friː/",
+      "verbForms": { "base": "free", "s3": "frees", "ing": "freeing", "past": "freed", "pastParticiple": "freed" },
+      "synonyms": ["available", "complimentary", "open"],
+      "antonyms": ["busy", "paid", "restricted"],
+      "sentences": {
+        "daily": "Are you free tomorrow evening?",
+        "office": "We have a free workshop on Friday.",
+        "interview": "I am free to join from the 1st of next month.",
+        "business": "We offer a free trial for new customers.",
+        "formal": "Citizens are free to express their opinions.",
+        "informal": "Free food at the party — I am definitely going!"
+      },
+      "usageNote": "'Free' as adjective means available or no cost. 'Free of charge' = at no cost. 'Feel free to' = please go ahead and do something.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 46,
+      "word": "simple",
+      "hindi": "सरल / आसान",
+      "simpleMeaning": "easy to understand or do, not complicated",
+      "ipa": "/ˈsɪmpəl/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["easy", "basic", "straightforward"],
+      "antonyms": ["complex", "complicated", "difficult"],
+      "sentences": {
+        "daily": "This is a simple recipe.",
+        "office": "Let me explain it in simple terms.",
+        "interview": "I break complex problems into simple steps.",
+        "business": "We keep our processes simple and effective.",
+        "formal": "The solution is simple yet effective.",
+        "informal": "It is simple! Just press that button!"
+      },
+      "usageNote": "'Simple' often means uncomplicated. 'Simply' as adverb: 'I simply do not agree.' 'Plain and simple' means very clear and obvious.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 47,
+      "word": "good",
+      "hindi": "अच्छा",
+      "simpleMeaning": "of high quality, pleasant, or useful",
+      "ipa": "/ɡʊd/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["great", "excellent", "fine"],
+      "antonyms": ["bad", "poor", "terrible"],
+      "sentences": {
+        "daily": "I had a good day today.",
+        "office": "She does good work consistently.",
+        "interview": "I have good analytical and communication skills.",
+        "business": "We maintain good relations with all clients.",
+        "formal": "The project delivered good results.",
+        "informal": "That was so good — I loved every minute!"
+      },
+      "usageNote": "Comparative: better; Superlative: best. 'Good' is an adjective. 'Well' is the adverb: 'She speaks well' (not 'good'). 'Feel good' = feel happy/healthy.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 48,
+      "word": "new",
+      "hindi": "नया",
+      "simpleMeaning": "recently made, found, or started",
+      "ipa": "/njuː/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["fresh", "recent", "modern"],
+      "antonyms": ["old", "used", "ancient"],
+      "sentences": {
+        "daily": "I bought a new phone last week.",
+        "office": "We welcomed a new team member today.",
+        "interview": "I am eager to learn new technologies.",
+        "business": "We launch new products every quarter.",
+        "formal": "The new policy takes effect from January.",
+        "informal": "Have you seen his new house? It is beautiful!"
+      },
+      "usageNote": "'New' comes before the noun: 'a new car'. 'Brand new' emphasizes it is completely new. 'New to' something means recently started: 'I am new to this job.'",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 49,
+      "word": "time",
+      "hindi": "समय / बार",
+      "simpleMeaning": "the period during which something happens",
+      "ipa": "/taɪm/",
+      "verbForms": { "base": "time", "s3": "times", "ing": "timing", "past": "timed", "pastParticiple": "timed" },
+      "synonyms": ["period", "duration", "moment"],
+      "antonyms": "N/A",
+      "sentences": {
+        "daily": "What is the time?",
+        "office": "We need to manage our time efficiently.",
+        "interview": "I deliver projects on time, every time.",
+        "business": "Time is money in business.",
+        "formal": "The time allocated for this session is 30 minutes.",
+        "informal": "I have not had time to breathe today — so busy!"
+      },
+      "usageNote": "'On time' = punctual (not late). 'In time' = before the deadline. 'At the same time' = simultaneously. 'From time to time' = occasionally.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 50,
+      "word": "place",
+      "hindi": "जगह / स्थान",
+      "simpleMeaning": "a particular area, position, or location",
+      "ipa": "/pleɪs/",
+      "verbForms": { "base": "place", "s3": "places", "ing": "placing", "past": "placed", "pastParticiple": "placed" },
+      "synonyms": ["location", "spot", "area"],
+      "antonyms": "N/A",
+      "sentences": {
+        "daily": "This is a nice place to live.",
+        "office": "Please place your bag in the designated area.",
+        "interview": "Tell me about your previous place of work.",
+        "business": "We place orders with verified suppliers.",
+        "formal": "The event takes place on the 15th of this month.",
+        "informal": "This place has the best biryani in the city!"
+      },
+      "usageNote": "'In place' = ready/prepared. 'Take place' = happen. 'Place an order' = submit an order. 'Out of place' = not appropriate or suitable.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 51, "word": "family", "hindi": "परिवार", "simpleMeaning": "a group of people who are related", "ipa": "/ˈfæmɪli/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["household", "relatives", "kin"], "antonyms": ["strangers", "outsiders"],
+      "sentences": { "daily": "My family is very supportive.", "office": "I prioritize both work and family.", "interview": "I come from a family of educators.", "business": "We treat our employees like family.", "formal": "The policy supports family welfare.", "informal": "Family first, always!" },
+      "usageNote": "'Family' can be singular or plural: 'My family is' or 'My family are' (British). 'Start a family' = have children.", "cefrLevel": "A1"
+    },
+    {
+      "id": 52, "word": "friend", "hindi": "दोस्त / मित्र", "simpleMeaning": "a person you like and spend time with", "ipa": "/frend/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["companion", "buddy", "pal"], "antonyms": ["enemy", "stranger", "foe"],
+      "sentences": { "daily": "I meet my friends every weekend.", "office": "My colleague is also my friend.", "interview": "I make friends easily in any environment.", "business": "Good business relationships are built on friendship.", "formal": "The two nations maintain friendly relations.", "informal": "He is my best friend from school days!" },
+      "usageNote": "'Make friends' = develop friendships. 'Best friend' = closest friend. 'Friendly' = adjective meaning warm and pleasant.", "cefrLevel": "A1"
+    },
+    {
+      "id": 53, "word": "problem", "hindi": "समस्या", "simpleMeaning": "a situation that is difficult to deal with", "ipa": "/ˈprɒbləm/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["issue", "challenge", "difficulty"], "antonyms": ["solution", "answer", "ease"],
+      "sentences": { "daily": "I have a problem with my internet connection.", "office": "What is the problem with this code?", "interview": "I enjoy solving complex problems.", "business": "Every problem has a solution.", "formal": "The problem requires immediate attention.", "informal": "No problem! I will handle it right now." },
+      "usageNote": "'No problem' = it is okay, do not worry. 'Have a problem with' = object to something. 'Problem-solving' is a key skill employers look for.", "cefrLevel": "A1"
+    },
+    {
+      "id": 54, "word": "answer", "hindi": "जवाब / उत्तर", "simpleMeaning": "a response to a question", "ipa": "/ˈænsər/",
+      "verbForms": { "base": "answer", "s3": "answers", "ing": "answering", "past": "answered", "pastParticiple": "answered" },
+      "synonyms": ["reply", "response", "solution"], "antonyms": ["question", "query", "problem"],
+      "sentences": { "daily": "The answer is 42.", "office": "I do not have an answer right now.", "interview": "My answer to all your questions is yes.", "business": "The answer to customer needs is innovation.", "formal": "Please provide your answer in writing.", "informal": "I knew the answer but forgot it during the test!" },
+      "usageNote": "'Answer' a question/phone/door. 'Answer to someone' = be responsible to. 'In answer to' = as a response to.", "cefrLevel": "A1"
+    },
+    {
+      "id": 55, "word": "question", "hindi": "सवाल / प्रश्न", "simpleMeaning": "a sentence asking for information", "ipa": "/ˈkwestʃən/",
+      "verbForms": { "base": "question", "s3": "questions", "ing": "questioning", "past": "questioned", "pastParticiple": "questioned" },
+      "synonyms": ["query", "inquiry", "doubt"], "antonyms": ["answer", "reply", "certainty"],
+      "sentences": { "daily": "Do you have any questions?", "office": "I have a question about the new policy.", "interview": "This is a great question.", "business": "The question is how to reduce costs.", "formal": "The question was raised in parliament.", "informal": "Good question — I have no idea honestly!" },
+      "usageNote": "'Ask a question', 'raise a question'. 'Question' as verb means to doubt: 'I question his motives.' 'Out of the question' = impossible.", "cefrLevel": "A1"
+    },
+    {
+      "id": 56, "word": "money", "hindi": "पैसा / धन", "simpleMeaning": "coins and notes used to buy things", "ipa": "/ˈmʌni/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["cash", "currency", "funds"], "antonyms": ["debt", "poverty"],
+      "sentences": { "daily": "I do not have enough money.", "office": "We save money by reducing waste.", "interview": "I am not motivated only by money.", "business": "Money management is critical in business.", "formal": "The fund allocates money to research projects.", "informal": "Money can not buy happiness, but it helps!" },
+      "usageNote": "'Money' is uncountable — no 'a money' or 'monies'. Use 'some money', 'a lot of money', 'How much money'. 'Make money' = earn. 'Save money' = not spend.", "cefrLevel": "A1"
+    },
+    {
+      "id": 57, "word": "house", "hindi": "घर / मकान", "simpleMeaning": "a building where people live", "ipa": "/haʊs/",
+      "verbForms": { "base": "house", "s3": "houses", "ing": "housing", "past": "housed", "pastParticiple": "housed" },
+      "synonyms": ["home", "residence", "dwelling"], "antonyms": "N/A",
+      "sentences": { "daily": "I live in a two-bedroom house.", "office": "She works from home.", "interview": "I am looking to move closer to the office.", "business": "The company houses its employees in nearby apartments.", "formal": "The organization provides housing for low-income families.", "informal": "Our house is small but it feels like home!" },
+      "usageNote": "'House' = the building. 'Home' = the feeling/place you belong. 'House' as verb: 'This building houses 200 families.'", "cefrLevel": "A1"
+    },
+    {
+      "id": 58, "word": "book", "hindi": "किताब / बुक करना", "simpleMeaning": "a set of printed pages in a cover", "ipa": "/bʊk/",
+      "verbForms": { "base": "book", "s3": "books", "ing": "booking", "past": "booked", "pastParticiple": "booked" },
+      "synonyms": ["novel", "text", "publication"], "antonyms": "N/A",
+      "sentences": { "daily": "I read one book every month.", "office": "Please book a meeting room for 2 PM.", "interview": "I read books on leadership and management.", "business": "I will book a flight for the client visit.", "formal": "The library books are available for public borrowing.", "informal": "This book is so good — I finished it in one day!" },
+      "usageNote": "'Book' as noun = reading material. 'Book' as verb = reserve/schedule. 'Book a ticket', 'book a hotel'. 'Booked' = fully reserved.", "cefrLevel": "A1"
+    },
+    {
+      "id": 59, "word": "water", "hindi": "पानी", "simpleMeaning": "the clear liquid we drink", "ipa": "/ˈwɔːtər/",
+      "verbForms": { "base": "water", "s3": "waters", "ing": "watering", "past": "watered", "pastParticiple": "watered" },
+      "synonyms": ["liquid", "H2O"], "antonyms": "N/A",
+      "sentences": { "daily": "I drink 8 glasses of water daily.", "office": "Please keep water bottles on the table.", "interview": "May I have some water, please?", "business": "Water conservation is our CSR priority.", "formal": "Access to clean water is a basic right.", "informal": "I am so thirsty — where is the water?" },
+      "usageNote": "'Water' is uncountable. Use 'a glass of water', 'some water'. As verb: 'water the plants'. 'Water down' = dilute or weaken.", "cefrLevel": "A1"
+    },
+    {
+      "id": 60, "word": "food", "hindi": "खाना / भोजन", "simpleMeaning": "things we eat to stay alive and healthy", "ipa": "/fuːd/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["meal", "nourishment", "cuisine"], "antonyms": "N/A",
+      "sentences": { "daily": "I love Indian food.", "office": "The office canteen serves good food.", "interview": "I have no dietary restrictions.", "business": "Our food company supplies to 500 restaurants.", "formal": "Food security is a national priority.", "informal": "The food here is incredible — must try!" },
+      "usageNote": "'Food' is uncountable. Say 'some food', 'a lot of food'. 'Foods' is used when referring to types: 'healthy foods'. 'Fast food', 'street food', 'junk food' are common phrases.", "cefrLevel": "A1"
+    },
+    {
+      "id": 61, "word": "city", "hindi": "शहर", "simpleMeaning": "a large and important town", "ipa": "/ˈsɪti/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["town", "metropolis", "urban area"], "antonyms": ["village", "countryside", "rural area"],
+      "sentences": { "daily": "I live in a big city.", "office": "Our office is in the heart of the city.", "interview": "I am willing to relocate to any city.", "business": "We are expanding to tier-2 cities.", "formal": "The city administration plans new infrastructure.", "informal": "This city never sleeps — always something happening!" },
+      "usageNote": "'City' is bigger than a 'town'. 'In the city' = in the urban area. 'City centre' (BrE) or 'downtown' (AmE) = the main commercial area.", "cefrLevel": "A1"
+    },
+    {
+      "id": 62, "word": "country", "hindi": "देश", "simpleMeaning": "a nation with its own government", "ipa": "/ˈkʌntri/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["nation", "state", "land"], "antonyms": "N/A",
+      "sentences": { "daily": "India is my country.", "office": "We work with clients from 20 countries.", "interview": "I am open to working in a different country.", "business": "The company operates in multiple countries.", "formal": "The country's GDP has grown significantly.", "informal": "I love my country — nothing beats India!" },
+      "usageNote": "'Country' = a nation. 'The country' (without name) can also mean rural areas: 'I prefer living in the country.' 'Country' as adjective: 'country music', 'country road'.", "cefrLevel": "A1"
+    },
+    {
+      "id": 63, "word": "school", "hindi": "स्कूल / विद्यालय", "simpleMeaning": "a place where children learn", "ipa": "/skuːl/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["institute", "academy", "college"], "antonyms": "N/A",
+      "sentences": { "daily": "My son goes to school every day.", "office": "I attended a government school.", "interview": "I topped my school in the board exams.", "business": "We partner with schools for skill development.", "formal": "The school provides free education to all students.", "informal": "School was the best time of my life!" },
+      "usageNote": "'Go to school' (no article) = attend as a student. 'Go to the school' = visit the building. Same rule applies to hospital, college, church, prison.", "cefrLevel": "A1"
+    },
+    {
+      "id": 64, "word": "office", "hindi": "कार्यालय / दफ्तर", "simpleMeaning": "a place where people work at desks", "ipa": "/ˈɒfɪs/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["workplace", "bureau", "headquarters"], "antonyms": ["home", "field"],
+      "sentences": { "daily": "I reach office at 9 AM.", "office": "The office is on the 5th floor.", "interview": "I am comfortable working in an open office.", "business": "Our head office is in Bangalore.", "formal": "The office maintains records of all transactions.", "informal": "Office gossip can be quite entertaining sometimes!" },
+      "usageNote": "'In the office' = inside. 'At the office' = at the location. 'Office hours' = working hours. 'Out of office' (OOO) = away from work.", "cefrLevel": "A1"
+    },
+    {
+      "id": 65, "word": "hospital", "hindi": "अस्पताल", "simpleMeaning": "a building where sick people receive medical care", "ipa": "/ˈhɒspɪtəl/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["clinic", "medical center", "infirmary"], "antonyms": "N/A",
+      "sentences": { "daily": "My father is in hospital.", "office": "The office is near the city hospital.", "interview": "I worked in hospital administration for 2 years.", "business": "We supply medicines to government hospitals.", "formal": "The hospital treats over 500 patients daily.", "informal": "I hate going to the hospital — the smell alone!" },
+      "usageNote": "'In hospital' (BrE, no article) = as a patient. 'In the hospital' (AmE). 'Go to hospital' = as a patient. 'Go to the hospital' = visit someone.", "cefrLevel": "A1"
+    },
+    {
+      "id": 66, "word": "market", "hindi": "बाज़ार", "simpleMeaning": "a place where goods are bought and sold", "ipa": "/ˈmɑːrkɪt/",
+      "verbForms": { "base": "market", "s3": "markets", "ing": "marketing", "past": "marketed", "pastParticiple": "marketed" },
+      "synonyms": ["bazaar", "store", "mall"], "antonyms": "N/A",
+      "sentences": { "daily": "I go to the market every Saturday.", "office": "We analyze the market before launching a product.", "interview": "I have experience in market research.", "business": "Our target market is young professionals.", "formal": "The stock market showed an upward trend.", "informal": "The vegetable market near my house is the cheapest!" },
+      "usageNote": "'Market' as noun = place to buy/sell. 'Market' as verb = promote. 'Job market' = opportunities for employment. 'Market share' = percentage of sales.", "cefrLevel": "A1"
+    },
+    {
+      "id": 67, "word": "road", "hindi": "सड़क / रास्ता", "simpleMeaning": "a path for vehicles to travel on", "ipa": "/roʊd/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["street", "highway", "lane"], "antonyms": "N/A",
+      "sentences": { "daily": "The road to my house is very busy.", "office": "The office is on MG Road.", "interview": "I am willing to go on road trips for client visits.", "business": "Road connectivity is important for logistics.", "formal": "The road construction will be completed in six months.", "informal": "The road was blocked — took forever to reach!" },
+      "usageNote": "'Road' is for vehicles. 'Street' is lined with buildings. 'Path' is for walking. 'On the road' = traveling. 'Road to success' = the path/journey.", "cefrLevel": "A1"
+    },
+    {
+      "id": 68, "word": "train", "hindi": "ट्रेन / रेलगाड़ी", "simpleMeaning": "a vehicle that travels on rails", "ipa": "/treɪn/",
+      "verbForms": { "base": "train", "s3": "trains", "ing": "training", "past": "trained", "pastParticiple": "trained" },
+      "synonyms": ["railway", "locomotive"], "antonyms": "N/A",
+      "sentences": { "daily": "I take the train to work.", "office": "The company trains new employees for one month.", "interview": "I trained junior staff in my previous role.", "business": "We train our sales team quarterly.", "formal": "The training program lasts three weeks.", "informal": "I missed the last train — had to take a cab!" },
+      "usageNote": "'Train' as noun = vehicle. 'Train' as verb = to teach/develop skills. 'By train' = using train as transport. 'On the train' = inside the train.", "cefrLevel": "A1"
+    },
+    {
+      "id": 69, "word": "bus", "hindi": "बस", "simpleMeaning": "a large vehicle that carries many passengers", "ipa": "/bʌs/",
+      "verbForms": { "base": "bus", "s3": "buses", "ing": "bussing", "past": "bussed", "pastParticiple": "bussed" },
+      "synonyms": ["coach", "vehicle", "transport"], "antonyms": "N/A",
+      "sentences": { "daily": "I take the bus to college.", "office": "The company provides a bus service.", "interview": "The office is accessible by bus.", "business": "We use bus advertising for brand promotion.", "formal": "Bus rapid transit improves urban mobility.", "informal": "The bus was so crowded — I could barely breathe!" },
+      "usageNote": "'By bus' = using bus as transport. 'On the bus' = inside the bus. 'Bus stop' = where you wait. 'Miss the bus' = be too late (literal and figurative).", "cefrLevel": "A1"
+    },
+    {
+      "id": 70, "word": "car", "hindi": "कार / गाड़ी", "simpleMeaning": "a four-wheeled motor vehicle", "ipa": "/kɑːr/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["vehicle", "automobile", "motor"], "antonyms": "N/A",
+      "sentences": { "daily": "My father drives a car.", "office": "I have a company car.", "interview": "I have a valid driving license and own car.", "business": "We lease cars for our executives.", "formal": "The car industry contributes to the economy.", "informal": "His new car is absolutely stunning — lucky guy!" },
+      "usageNote": "'By car' = using car as transport. 'In the car' = inside. 'Car park' (BrE) or 'parking lot' (AmE). 'Drive a car', 'ride a bike', 'take a bus' — different verbs for different vehicles.", "cefrLevel": "A1"
+    },
+    {
+      "id": 71, "word": "phone", "hindi": "फोन", "simpleMeaning": "a device used to communicate by voice", "ipa": "/foʊn/",
+      "verbForms": { "base": "phone", "s3": "phones", "ing": "phoning", "past": "phoned", "pastParticiple": "phoned" },
+      "synonyms": ["mobile", "cell", "handset"], "antonyms": "N/A",
+      "sentences": { "daily": "My phone battery is dead.", "office": "Please keep your phone on silent in meetings.", "interview": "Can I have your phone number for follow-up?", "business": "We communicate with clients over the phone.", "formal": "The phone conference is scheduled at 3 PM.", "informal": "Put your phone down and talk to me!" },
+      "usageNote": "'Phone someone' = call them. 'Answer the phone' = receive a call. 'On the phone' = currently speaking. 'Smart phone' or 'mobile phone' = cell phone.", "cefrLevel": "A1"
+    },
+    {
+      "id": 72, "word": "computer", "hindi": "कंप्यूटर", "simpleMeaning": "an electronic device for processing data", "ipa": "/kəmˈpjuːtər/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["PC", "laptop", "machine"], "antonyms": "N/A",
+      "sentences": { "daily": "I use a computer for everything.", "office": "Our office computers are updated regularly.", "interview": "I am proficient in computer skills.", "business": "We use computers for data management.", "formal": "Computer literacy is essential in modern workplaces.", "informal": "My computer crashed and I lost all my work — disaster!" },
+      "usageNote": "'On the computer' = using it. 'Computer science' = the academic subject. 'Computer skills' = ability to use computers. 'Desktop/laptop' are types of computers.", "cefrLevel": "A1"
+    },
+    {
+      "id": 73, "word": "internet", "hindi": "इंटरनेट", "simpleMeaning": "a global network connecting computers worldwide", "ipa": "/ˈɪntərnet/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["online network", "web", "net"], "antonyms": "N/A",
+      "sentences": { "daily": "I use the internet for everything.", "office": "Our office internet is very fast.", "interview": "I learned many skills from the internet.", "business": "We promote our business through the internet.", "formal": "Internet access is vital for digital inclusion.", "informal": "No internet at home today — worst day ever!" },
+      "usageNote": "'On the internet' = using it. 'The Internet' (capital I) is preferred in formal writing. 'Internet connection', 'internet speed', 'internet banking' are common phrases.", "cefrLevel": "A1"
+    },
+    {
+      "id": 74, "word": "email", "hindi": "ईमेल", "simpleMeaning": "a message sent electronically", "ipa": "/ˈiːmeɪl/",
+      "verbForms": { "base": "email", "s3": "emails", "ing": "emailing", "past": "emailed", "pastParticiple": "emailed" },
+      "synonyms": ["electronic mail", "message", "e-mail"], "antonyms": "N/A",
+      "sentences": { "daily": "I check my email every morning.", "office": "Please send me the report by email.", "interview": "You can email me your portfolio.", "business": "We respond to all emails within 4 hours.", "formal": "Please refer to the email dated 5th January.", "informal": "Did you see the email I sent? Check it now!" },
+      "usageNote": "'Send an email to someone', 'reply to an email'. 'Email address' = your unique electronic address. Both 'email' and 'e-mail' are correct spellings.", "cefrLevel": "A1"
+    },
+    {
+      "id": 75, "word": "meeting", "hindi": "मीटिंग / बैठक", "simpleMeaning": "when people come together to discuss something", "ipa": "/ˈmiːtɪŋ/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["conference", "session", "gathering"], "antonyms": "N/A",
+      "sentences": { "daily": "I have three meetings today.", "office": "The meeting starts at 10 AM.", "interview": "This feels like a very pleasant meeting.", "business": "We hold weekly review meetings.", "formal": "The annual general meeting is on December 15.", "informal": "Another meeting? Can we not just send an email?" },
+      "usageNote": "'Have a meeting', 'attend a meeting', 'hold a meeting', 'call a meeting'. 'Meeting room' = a room for meetings. 'Stand-up meeting' = short daily team meeting.", "cefrLevel": "A1"
+    },
+    {
+      "id": 76, "word": "report", "hindi": "रिपोर्ट / विवरण", "simpleMeaning": "a written or spoken account of something", "ipa": "/rɪˈpɔːrt/",
+      "verbForms": { "base": "report", "s3": "reports", "ing": "reporting", "past": "reported", "pastParticiple": "reported" },
+      "synonyms": ["account", "summary", "document"], "antonyms": "N/A",
+      "sentences": { "daily": "I submit a daily report to my manager.", "office": "The report shows our monthly progress.", "interview": "I write detailed project reports.", "business": "Our quarterly report shows strong results.", "formal": "The committee submits an annual report.", "informal": "My report is due tomorrow and I have not started yet!" },
+      "usageNote": "'Report to someone' = work under them. 'Write/submit a report'. 'Report card' = student grades. 'News report' = news story.", "cefrLevel": "A1"
+    },
+    {
+      "id": 77, "word": "project", "hindi": "प्रोजेक्ट / परियोजना", "simpleMeaning": "a planned piece of work with a goal", "ipa": "/ˈprɒdʒekt/",
+      "verbForms": { "base": "project", "s3": "projects", "ing": "projecting", "past": "projected", "pastParticiple": "projected" },
+      "synonyms": ["assignment", "task", "initiative"], "antonyms": "N/A",
+      "sentences": { "daily": "I am working on a new project.", "office": "The project deadline is next Friday.", "interview": "I managed a large-scale project in my previous job.", "business": "We delivered the project ahead of schedule.", "formal": "The project has been approved by the board.", "informal": "This project is killing me — so much pressure!" },
+      "usageNote": "'Work on a project', 'manage a project', 'complete a project'. 'Project management' is a key professional skill. 'Project' as verb = forecast/display.", "cefrLevel": "A2"
+    },
+    {
+      "id": 78, "word": "team", "hindi": "टीम / दल", "simpleMeaning": "a group of people working together", "ipa": "/tiːm/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["group", "crew", "squad"], "antonyms": ["individual", "solo"],
+      "sentences": { "daily": "I work in a team of 8.", "office": "My team is very cooperative.", "interview": "I am a strong team player.", "business": "Our teams collaborate across departments.", "formal": "The team presents its findings to the board.", "informal": "Our team won the cricket match — what a day!" },
+      "usageNote": "'Team player' = someone who works well in a group. 'Team work' = working together. In British English, 'the team are' (plural verb) is common.", "cefrLevel": "A1"
+    },
+    {
+      "id": 79, "word": "salary", "hindi": "वेतन / तनख्वाह", "simpleMeaning": "money paid regularly for work", "ipa": "/ˈsæləri/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["pay", "wages", "income"], "antonyms": "N/A",
+      "sentences": { "daily": "My salary is credited on the 25th.", "office": "The HR discusses salary during appraisals.", "interview": "My expected salary is 8 LPA.", "business": "Employee salaries are our biggest expense.", "formal": "The salary structure is reviewed annually.", "informal": "I need a salary hike — prices are going up!" },
+      "usageNote": "'Salary' is a fixed monthly payment. 'Wages' are often paid weekly or daily. 'Pay raise'/'hike' = increase in salary. 'CTC' = cost to company in India.", "cefrLevel": "A2"
+    },
+    {
+      "id": 80, "word": "experience", "hindi": "अनुभव", "simpleMeaning": "knowledge gained from doing something", "ipa": "/ɪkˈspɪəriəns/",
+      "verbForms": { "base": "experience", "s3": "experiences", "ing": "experiencing", "past": "experienced", "pastParticiple": "experienced" },
+      "synonyms": ["knowledge", "expertise", "practice"], "antonyms": ["inexperience", "ignorance"],
+      "sentences": { "daily": "I have a lot of experience cooking.", "office": "My 5 years of experience helps me a lot.", "interview": "I have experience in both sales and marketing.", "business": "Customer experience is our top priority.", "formal": "Candidates with relevant experience are preferred.", "informal": "Just dive in — experience is the best teacher!" },
+      "usageNote": "'Work experience' = professional history. 'Experience' is usually uncountable: 'I have experience' (not 'an experience'). 'An experience' = a single event.", "cefrLevel": "A2"
+    },
+    {
+      "id": 81, "word": "skill", "hindi": "कौशल / हुनर", "simpleMeaning": "the ability to do something well", "ipa": "/skɪl/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["ability", "talent", "expertise"], "antonyms": ["incompetence", "inability"],
+      "sentences": { "daily": "Cooking is a useful skill.", "office": "My communication skills help in meetings.", "interview": "My key skills are problem-solving and teamwork.", "business": "We invest in employee skills development.", "formal": "The course enhances analytical skills.", "informal": "That move was pure skill — incredible!" },
+      "usageNote": "'Hard skills' = technical skills (coding, accounting). 'Soft skills' = interpersonal skills (communication, teamwork). 'Skilled' = having the skill. 'Skill set' = all your skills.", "cefrLevel": "A2"
+    },
+    {
+      "id": 82, "word": "language", "hindi": "भाषा", "simpleMeaning": "a system of words used by people to communicate", "ipa": "/ˈlæŋɡwɪdʒ/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["tongue", "speech", "dialect"], "antonyms": "N/A",
+      "sentences": { "daily": "I speak three languages.", "office": "Our office communication is in English.", "interview": "I am fluent in English and conversational in Tamil.", "business": "We do business in multiple languages.", "formal": "Language proficiency is tested in the assessment.", "informal": "Learning a new language is the best thing I did!" },
+      "usageNote": "'Speak a language', 'learn a language', 'know a language'. 'Mother tongue' = first language. 'Body language' = non-verbal communication. 'Language barrier' = difficulty due to different languages.", "cefrLevel": "A1"
+    },
+    {
+      "id": 83, "word": "learn", "hindi": "सीखना", "simpleMeaning": "to gain knowledge or skill through study or practice", "ipa": "/lɜːrn/",
+      "verbForms": { "base": "learn", "s3": "learns", "ing": "learning", "past": "learned/learnt", "pastParticiple": "learned/learnt" },
+      "synonyms": ["study", "acquire", "master"], "antonyms": ["forget", "unlearn"],
+      "sentences": { "daily": "I learn something new every day.", "office": "She learns new tools quickly.", "interview": "I love to learn and grow continuously.", "business": "Our team learns from every project.", "formal": "Students learn best with practical examples.", "informal": "You never learn, do you? This is the third time!" },
+      "usageNote": "Both 'learned' and 'learnt' are acceptable past forms. 'Learn by heart' = memorize. 'Learn from mistakes' = improve based on errors.", "cefrLevel": "A1"
+    },
+    {
+      "id": 84, "word": "teach", "hindi": "पढ़ाना / सिखाना", "simpleMeaning": "to give knowledge to someone", "ipa": "/tiːtʃ/",
+      "verbForms": { "base": "teach", "s3": "teaches", "ing": "teaching", "past": "taught", "pastParticiple": "taught" },
+      "synonyms": ["instruct", "educate", "train"], "antonyms": ["learn", "study"],
+      "sentences": { "daily": "My father teaches me good values.", "office": "She teaches new employees the procedures.", "interview": "I enjoy teaching and mentoring juniors.", "business": "We teach clients how to use our software.", "formal": "The professor teaches advanced economics.", "informal": "Let me teach you this trick — it is super useful!" },
+      "usageNote": "Irregular verb: teach → taught → taught. 'Teach someone something' or 'teach someone how to'. 'Teacher' = person who teaches.", "cefrLevel": "A1"
+    },
+    {
+      "id": 85, "word": "study", "hindi": "पढ़ाई करना", "simpleMeaning": "to spend time learning about a subject", "ipa": "/ˈstʌdi/",
+      "verbForms": { "base": "study", "s3": "studies", "ing": "studying", "past": "studied", "pastParticiple": "studied" },
+      "synonyms": ["learn", "research", "read"], "antonyms": ["ignore", "neglect", "play"],
+      "sentences": { "daily": "I study for two hours every evening.", "office": "She studied engineering before joining finance.", "interview": "I studied MBA with a focus on marketing.", "business": "We study market trends carefully.", "formal": "The research team studies consumer behavior.", "informal": "I need to study but Netflix is calling me!" },
+      "usageNote": "'Study' focuses on deliberate learning. 'Study at' a university. 'Study for' an exam. 'Area of study' = academic subject.", "cefrLevel": "A1"
+    },
+    {
+      "id": 86, "word": "job", "hindi": "नौकरी / काम", "simpleMeaning": "work done for money on a regular basis", "ipa": "/dʒɒb/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["work", "position", "employment"], "antonyms": ["unemployment", "leisure"],
+      "sentences": { "daily": "I love my job.", "office": "What is your job here?", "interview": "I am looking for a job that challenges me.", "business": "Job creation is our commitment to society.", "formal": "The job description is available on our website.", "informal": "Quit your job if it is making you unhappy!" },
+      "usageNote": "'Do a good job' = perform well. 'Job well done!' = excellent work. 'Job market' = availability of jobs. 'Job seeker' = person looking for employment.", "cefrLevel": "A1"
+    },
+    {
+      "id": 87, "word": "company", "hindi": "कंपनी", "simpleMeaning": "an organization that sells products or services", "ipa": "/ˈkʌmpəni/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["firm", "organization", "business"], "antonyms": "N/A",
+      "sentences": { "daily": "I work for a software company.", "office": "Our company has 500 employees.", "interview": "I want to join your company because of its culture.", "business": "The company achieved record profits.", "formal": "The company files its annual returns in April.", "informal": "Company parties are always the highlight of the year!" },
+      "usageNote": "'Work for a company' or 'work at a company'. 'Company' also means companionship: 'I enjoy your company.' 'Keep someone company' = be with them.", "cefrLevel": "A1"
+    },
+    {
+      "id": 88, "word": "business", "hindi": "व्यवसाय / कारोबार", "simpleMeaning": "the activity of buying and selling goods or services", "ipa": "/ˈbɪznɪs/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["trade", "commerce", "enterprise"], "antonyms": "N/A",
+      "sentences": { "daily": "Business is going well.", "office": "It is business as usual today.", "interview": "I want to start my own business someday.", "business": "Business growth depends on customer satisfaction.", "formal": "The business submitted its audit report.", "informal": "Mind your own business — stop interfering!" },
+      "usageNote": "'Do business with' = have commercial dealings. 'Business hours' = working hours. 'Business casual' = semi-formal dress code. 'None of your business' = private matter.", "cefrLevel": "A2"
+    },
+    {
+      "id": 89, "word": "customer", "hindi": "ग्राहक", "simpleMeaning": "a person who buys goods or services", "ipa": "/ˈkʌstəmər/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["client", "buyer", "consumer"], "antonyms": ["seller", "vendor", "supplier"],
+      "sentences": { "daily": "The customer is always right.", "office": "We received great feedback from the customer.", "interview": "I have experience in customer service.", "business": "Customer satisfaction is our top priority.", "formal": "The company handles over 10,000 customers.", "informal": "That customer was so difficult to deal with today!" },
+      "usageNote": "'Customer' = general buyer. 'Client' = usually a professional/business relationship. 'Customer service' = help provided to buyers. 'Loyal customer' = returns regularly.", "cefrLevel": "A2"
+    },
+    {
+      "id": 90, "word": "product", "hindi": "उत्पाद", "simpleMeaning": "something made to be sold", "ipa": "/ˈprɒdʌkt/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["item", "goods", "merchandise"], "antonyms": "N/A",
+      "sentences": { "daily": "I bought a great product online.", "office": "Our new product launches next month.", "interview": "I managed a product from concept to launch.", "business": "Product quality differentiates us from competitors.", "formal": "The product meets all regulatory standards.", "informal": "This product is amazing — totally worth the price!" },
+      "usageNote": "'Product' = physical goods. 'Service' = intangible offering. 'Product launch' = introduction of a new product. 'Product manager' = person who oversees a product.", "cefrLevel": "A2"
+    },
+    {
+      "id": 91, "word": "price", "hindi": "कीमत / मूल्य", "simpleMeaning": "the amount of money needed to buy something", "ipa": "/praɪs/",
+      "verbForms": { "base": "price", "s3": "prices", "ing": "pricing", "past": "priced", "pastParticiple": "priced" },
+      "synonyms": ["cost", "rate", "charge"], "antonyms": "N/A",
+      "sentences": { "daily": "What is the price of this shirt?", "office": "We need to price our service competitively.", "interview": "I handled pricing strategy in my previous role.", "business": "Price determines the market position.", "formal": "The price list is available on request.", "informal": "The price is way too high — let us negotiate!" },
+      "usageNote": "'Price' is set by the seller. 'Cost' is what you pay. 'Value' = what something is worth. 'Price tag' = label showing price. 'At any price' = no matter the cost.", "cefrLevel": "A1"
+    },
+    {
+      "id": 92, "word": "quality", "hindi": "गुणवत्ता", "simpleMeaning": "how good or bad something is", "ipa": "/ˈkwɒlɪti/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["standard", "excellence", "grade"], "antonyms": ["poor quality", "inferiority"],
+      "sentences": { "daily": "This restaurant has good quality food.", "office": "Quality control is done at every step.", "interview": "I believe in quality over quantity.", "business": "Quality is what keeps customers coming back.", "formal": "The product meets international quality standards.", "informal": "This is such bad quality — never buying from them again!" },
+      "usageNote": "'Quality' can mean high standard (adjective): 'quality products'. 'Quality control' = checking that standards are met. 'Quality time' = meaningful time spent.", "cefrLevel": "A2"
+    },
+    {
+      "id": 93, "word": "idea", "hindi": "विचार / आइडिया", "simpleMeaning": "a thought or suggestion about what to do", "ipa": "/aɪˈdɪə/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["thought", "concept", "suggestion"], "antonyms": "N/A",
+      "sentences": { "daily": "I have an idea for the weekend.", "office": "She always comes up with great ideas.", "interview": "I proposed an idea that saved the company time.", "business": "Ideas drive innovation.", "formal": "The idea was approved by the committee.", "informal": "Brilliant idea! Why did we not think of this before?" },
+      "usageNote": "'Have an idea', 'get an idea', 'come up with an idea'. 'Good idea!' = I agree. 'No idea' = I do not know. 'Idea' is countable: 'one idea, two ideas'.", "cefrLevel": "A1"
+    },
+    {
+      "id": 94, "word": "decision", "hindi": "निर्णय / फैसला", "simpleMeaning": "a choice made after thinking about it", "ipa": "/dɪˈsɪʒən/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["choice", "resolution", "conclusion"], "antonyms": "N/A",
+      "sentences": { "daily": "It was a difficult decision.", "office": "The manager makes all key decisions.", "interview": "I make data-driven decisions.", "business": "Every business decision has consequences.", "formal": "The decision was made unanimously.", "informal": "You made the right decision — trust yourself!" },
+      "usageNote": "'Make a decision' = decide. 'Final decision' = the last and binding choice. 'Decision-maker' = person in authority. 'Good decision!' = well chosen.", "cefrLevel": "A2"
+    },
+    {
+      "id": 95, "word": "success", "hindi": "सफलता", "simpleMeaning": "achieving a goal or desired outcome", "ipa": "/səkˈses/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["achievement", "triumph", "accomplishment"], "antonyms": ["failure", "defeat", "loss"],
+      "sentences": { "daily": "Hard work leads to success.", "office": "We celebrate every success as a team.", "interview": "My biggest success was leading a 20-member team.", "business": "Business success requires consistent effort.", "formal": "The project was a great success.", "informal": "I knew you would succeed — no doubt in my mind!" },
+      "usageNote": "'Success' is uncountable in general: 'wish you success'. Countable as specific event: 'a great success'. 'Successful' = adjective. 'Succeed' = verb.", "cefrLevel": "A2"
+    },
+    {
+      "id": 96, "word": "fail", "hindi": "असफल होना / फेल होना", "simpleMeaning": "to not succeed in doing something", "ipa": "/feɪl/",
+      "verbForms": { "base": "fail", "s3": "fails", "ing": "failing", "past": "failed", "pastParticiple": "failed" },
+      "synonyms": ["lose", "miss", "fall short"], "antonyms": ["succeed", "pass", "achieve"],
+      "sentences": { "daily": "I failed my driving test the first time.", "office": "Never fail to inform the manager of issues.", "interview": "I learned more from failures than successes.", "business": "Most startups fail in the first year.", "formal": "The system failed due to a software error.", "informal": "I failed the exam but it is not the end of the world!" },
+      "usageNote": "'Fail to do' = not manage to do. 'Fail an exam' = not pass. 'Failure' = the noun. 'Epic fail' (informal) = complete failure. 'Without fail' = always/certainly.", "cefrLevel": "A1"
+    },
+    {
+      "id": 97, "word": "happy", "hindi": "खुश / प्रसन्न", "simpleMeaning": "feeling or showing pleasure or contentment", "ipa": "/ˈhæpi/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["joyful", "pleased", "content"], "antonyms": ["sad", "unhappy", "miserable"],
+      "sentences": { "daily": "I am happy to see you.", "office": "We are happy to announce a new project.", "interview": "I am happy to work in any department.", "business": "Happy customers become loyal customers.", "formal": "We are happy to confirm your appointment.", "informal": "I am SO happy right now — best day ever!" },
+      "usageNote": "'Happy to do' = glad/willing. 'Happy about/with' = satisfied with a situation. 'Happiness' = the noun. 'Happily' = the adverb.", "cefrLevel": "A1"
+    },
+    {
+      "id": 98, "word": "difficult", "hindi": "कठिन / मुश्किल", "simpleMeaning": "not easy, needs a lot of effort", "ipa": "/ˈdɪfɪkəlt/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["hard", "challenging", "tough"], "antonyms": ["easy", "simple", "straightforward"],
+      "sentences": { "daily": "English grammar is difficult at first.", "office": "This is a difficult task but I can do it.", "interview": "Tell me about a difficult situation you faced.", "business": "Difficult times test your true character.", "formal": "The project presents several difficult challenges.", "informal": "It is really difficult to wake up on Monday mornings!" },
+      "usageNote": "'Difficult to do' or 'difficult for someone to do'. 'Have difficulty doing' = find it hard. 'Difficulty' = noun. 'Difficulties' = plural problems/challenges.", "cefrLevel": "A1"
+    },
+    {
+      "id": 99, "word": "easy", "hindi": "आसान / सरल", "simpleMeaning": "not difficult, needs little effort", "ipa": "/ˈiːzi/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["simple", "effortless", "straightforward"], "antonyms": ["difficult", "hard", "complex"],
+      "sentences": { "daily": "This recipe is very easy.", "office": "The new software is easy to use.", "interview": "I make complex processes easy to understand.", "business": "We make banking easy for customers.", "formal": "The system provides easy access to information.", "informal": "Easy! I finished it in 10 minutes!" },
+      "usageNote": "'Easy to do', 'take it easy' = relax, 'easier said than done' = sounds simple but is actually hard. 'Easily' = adverb.", "cefrLevel": "A1"
+    },
+    {
+      "id": 100, "word": "fast", "hindi": "तेज़ / जल्दी", "simpleMeaning": "moving or doing things quickly", "ipa": "/fæst/",
+      "verbForms": { "base": "N/A (adjective/adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["quick", "rapid", "swift"], "antonyms": ["slow", "sluggish", "gradual"],
+      "sentences": { "daily": "Please speak fast — I am getting late.", "office": "She works fast without compromising quality.", "interview": "I am a fast learner.", "business": "Fast delivery is our competitive advantage.", "formal": "The fast-growing company employs 1000 people.", "informal": "That car is insanely fast — must be a sports car!" },
+      "usageNote": "'Fast' as adjective: 'a fast car'. 'Fast' as adverb: 'She runs fast'. Note: 'quickly' is also an adverb but 'fastly' is NOT a word.", "cefrLevel": "A1"
+    },
+    {
+      "id": 101, "word": "slow", "hindi": "धीमा / धीरे", "simpleMeaning": "moving or doing things not quickly", "ipa": "/sloʊ/",
+      "verbForms": { "base": "slow", "s3": "slows", "ing": "slowing", "past": "slowed", "pastParticiple": "slowed" },
+      "synonyms": ["gradual", "leisurely", "unhurried"], "antonyms": ["fast", "quick", "rapid"],
+      "sentences": { "daily": "The internet is very slow today.", "office": "Business is slow in December.", "interview": "I prefer slow and steady over fast and careless.", "business": "We are taking slow but steady steps.", "formal": "Economic growth has slowed down.", "informal": "Why are you so slow today? Everything okay?" },
+      "usageNote": "'Slow down' = reduce speed. 'Slowly' = adverb: 'Please speak slowly.' 'Slow' as adjective: 'a slow process'. 'Go slow' = deliberately work slowly.", "cefrLevel": "A1"
+    },
+    {
+      "id": 102, "word": "strong", "hindi": "मज़बूत / शक्तिशाली", "simpleMeaning": "having great physical power or firm determination", "ipa": "/strɒŋ/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["powerful", "robust", "tough"], "antonyms": ["weak", "fragile", "feeble"],
+      "sentences": { "daily": "My father is physically very strong.", "office": "She has strong communication skills.", "interview": "I have a strong background in data analysis.", "business": "We have a strong brand presence.", "formal": "The strong economic indicators are encouraging.", "informal": "That argument is very strong — hard to disagree!" },
+      "usageNote": "'Strong' for physical and metaphorical power. 'Strength' = noun. 'Strongly' = adverb: 'I strongly believe'. 'Go from strength to strength' = keep improving.", "cefrLevel": "A1"
+    },
+    {
+      "id": 103, "word": "help", "hindi": "मदद / सहायता", "simpleMeaning": "to make things easier for someone", "ipa": "/help/",
+      "verbForms": { "base": "help", "s3": "helps", "ing": "helping", "past": "helped", "pastParticiple": "helped" },
+      "synonyms": ["assist", "aid", "support"], "antonyms": ["hinder", "obstruct", "harm"],
+      "sentences": { "daily": "Can you help me move this table?", "office": "I help my colleagues whenever needed.", "interview": "I helped my team increase sales by 20%.", "business": "We help businesses grow through technology.", "formal": "The government helps citizens through welfare programs.", "informal": "You are such a great help — I owe you one!" },
+      "usageNote": "Already covered. Adding for reinforcement: 'Help yourself' = take what you need. 'Can not help doing' = cannot stop doing something. 'With the help of' = using assistance.", "cefrLevel": "A1"
+    },
+    {
+      "id": 104, "word": "love", "hindi": "प्यार / पसंद करना", "simpleMeaning": "a strong feeling of affection, or to like very much", "ipa": "/lʌv/",
+      "verbForms": { "base": "love", "s3": "loves", "ing": "loving", "past": "loved", "pastParticiple": "loved" },
+      "synonyms": ["adore", "cherish", "enjoy"], "antonyms": ["hate", "dislike", "detest"],
+      "sentences": { "daily": "I love my family.", "office": "I love what I do for a living.", "interview": "I love challenges that help me grow.", "business": "We love hearing from our customers.", "formal": "The program fosters a culture of love for learning.", "informal": "I absolutely love this place — we should come again!" },
+      "usageNote": "'Love doing' = enjoy an activity. 'Love someone' = feel deep affection. 'Love it!' (informal) = I really like this. 'Love' is a state verb — don't use 'I am loving it' (incorrect in standard English).", "cefrLevel": "A1"
+    },
+    {
+      "id": 105, "word": "hate", "hindi": "नफरत करना / नापसंद करना", "simpleMeaning": "to strongly dislike something or someone", "ipa": "/heɪt/",
+      "verbForms": { "base": "hate", "s3": "hates", "ing": "hating", "past": "hated", "pastParticiple": "hated" },
+      "synonyms": ["detest", "loathe", "despise"], "antonyms": ["love", "adore", "like"],
+      "sentences": { "daily": "I hate waking up late.", "office": "Nobody likes conflicts — we all hate them.", "interview": "I hate to say this, but I left for personal reasons.", "business": "Customers hate poor service.", "formal": "The policy aims to eliminate hatred in workplaces.", "informal": "I hate Mondays so much — does anyone like them?!" },
+      "usageNote": "'Hate doing' or 'hate to do' — both acceptable. 'Hate' is a state verb — avoid 'I am hating it'. 'Hatred' = noun.", "cefrLevel": "A1"
+    },
+    {
+      "id": 106, "word": "want", "hindi": "चाहना", "simpleMeaning": "to feel a desire or wish for something", "ipa": "/wɒnt/",
+      "verbForms": { "base": "want", "s3": "wants", "ing": "wanting", "past": "wanted", "pastParticiple": "wanted" },
+      "synonyms": ["desire", "wish", "crave"], "antonyms": ["reject", "refuse"],
+      "sentences": { "daily": "I want a cup of tea.", "office": "What do you want to discuss?", "interview": "I want to grow as a professional.", "business": "Customers want value for their money.", "formal": "The organization wants dedicated professionals.", "informal": "I just want to sleep all day — is that too much?" },
+      "usageNote": "'Want to do' = desire an action. 'Want someone to do' = desire someone else's action. 'Want' is a state verb — avoid 'I am wanting'. Use 'want' not 'I am wanting'.", "cefrLevel": "A1"
+    },
+    {
+      "id": 107, "word": "like", "hindi": "पसंद करना", "simpleMeaning": "to enjoy or find something pleasant", "ipa": "/laɪk/",
+      "verbForms": { "base": "like", "s3": "likes", "ing": "liking", "past": "liked", "pastParticiple": "liked" },
+      "synonyms": ["enjoy", "appreciate", "prefer"], "antonyms": ["dislike", "hate", "despise"],
+      "sentences": { "daily": "I like cold coffee.", "office": "I like working independently.", "interview": "I like solving complex problems.", "business": "We like to exceed expectations.", "formal": "The report indicates that users like the new interface.", "informal": "I like this song so much — what is it called?" },
+      "usageNote": "'Like doing' and 'like to do' both work: 'I like swimming' / 'I like to swim'. 'Like' in comparison: 'She sings like a professional.'", "cefrLevel": "A1"
+    },
+    {
+      "id": 108, "word": "always", "hindi": "हमेशा", "simpleMeaning": "at all times, every time", "ipa": "/ˈɔːlweɪz/",
+      "verbForms": { "base": "N/A (adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["constantly", "invariably", "forever"], "antonyms": ["never", "rarely", "seldom"],
+      "sentences": { "daily": "I always wake up at 6 AM.", "office": "She always submits work on time.", "interview": "I always maintain a positive attitude.", "business": "We always put the customer first.", "formal": "The team always follows safety protocols.", "informal": "He is always late — it is so annoying!" },
+      "usageNote": "Frequency adverbs order: subject + always/usually/often/sometimes/rarely/never + verb. 'I always eat breakfast' (not 'I eat always breakfast').", "cefrLevel": "A1"
+    },
+    {
+      "id": 109, "word": "never", "hindi": "कभी नहीं", "simpleMeaning": "not at any time, not ever", "ipa": "/ˈnevər/",
+      "verbForms": { "base": "N/A (adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["not ever", "at no time"], "antonyms": ["always", "ever", "constantly"],
+      "sentences": { "daily": "I never skip breakfast.", "office": "She never misses a deadline.", "interview": "I never give up easily.", "business": "We never compromise on quality.", "formal": "The organization never discriminates on any basis.", "informal": "I will never understand why people do that!" },
+      "usageNote": "'Never' is negative — do not use with another negative: 'I never see nobody' is wrong. Say 'I never see anybody.' Place 'never' before the main verb.", "cefrLevel": "A1"
+    },
+    {
+      "id": 110, "word": "sometimes", "hindi": "कभी-कभी", "simpleMeaning": "on some occasions, not always", "ipa": "/ˈsʌmtaɪmz/",
+      "verbForms": { "base": "N/A (adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["occasionally", "at times", "now and then"], "antonyms": ["always", "never", "constantly"],
+      "sentences": { "daily": "I sometimes work from home.", "office": "Sometimes deadlines change at the last minute.", "interview": "I sometimes work overtime to meet targets.", "business": "Sometimes customer needs surprise us.", "formal": "Sometimes exceptions can be made.", "informal": "Sometimes I wonder what I am doing with my life!" },
+      "usageNote": "'Sometimes' can go at the beginning or end of a sentence too: 'Sometimes I exercise.' or 'I exercise sometimes.' More flexible than other frequency adverbs.", "cefrLevel": "A1"
+    },
+    {
+      "id": 111, "word": "often", "hindi": "अक्सर / बार-बार", "simpleMeaning": "many times, frequently", "ipa": "/ˈɒfən/",
+      "verbForms": { "base": "N/A (adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["frequently", "regularly", "commonly"], "antonyms": ["rarely", "seldom", "infrequently"],
+      "sentences": { "daily": "I often go for a walk in the evening.", "office": "She often volunteers for extra work.", "interview": "I often present to senior management.", "business": "We often get referrals from happy customers.", "formal": "The committee often reviews ongoing projects.", "informal": "How often do you eat out? We should go together!" },
+      "usageNote": "The 't' in 'often' is silent in many accents: /ˈɒfən/. 'How often?' = asking about frequency. 'More often than not' = usually.", "cefrLevel": "A1"
+    },
+    {
+      "id": 112, "word": "every", "hindi": "हर / प्रत्येक", "simpleMeaning": "used to refer to all members of a group", "ipa": "/ˈevri/",
+      "verbForms": { "base": "N/A (determiner)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["each", "all", "any"], "antonyms": ["no", "none"],
+      "sentences": { "daily": "I exercise every morning.", "office": "Every Monday we have a team meeting.", "interview": "I give every task my full attention.", "business": "Every customer matters to us.", "formal": "Every employee must comply with the code of conduct.", "informal": "I eat ice cream every single day — no regrets!" },
+      "usageNote": "'Every' takes singular verb: 'Every student is responsible'. 'Every day' (two words) = daily. 'Everyday' (one word) = ordinary/regular. These are different!", "cefrLevel": "A1"
+    },
+    {
+      "id": 113, "word": "today", "hindi": "आज", "simpleMeaning": "this current day", "ipa": "/təˈdeɪ/",
+      "verbForms": { "base": "N/A (adverb/noun)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["this day", "now"], "antonyms": ["yesterday", "tomorrow"],
+      "sentences": { "daily": "Today is Monday.", "office": "We have a client visit today.", "interview": "Today I want to share my experience.", "business": "Today's markets are very competitive.", "formal": "As of today, the policy is in effect.", "informal": "Today is my lucky day — everything worked out!" },
+      "usageNote": "'Today' at the beginning adds emphasis. 'Today's' = of today. 'Nowadays' = in the current period (broader than 'today'). 'Today or tomorrow' = very soon.", "cefrLevel": "A1"
+    },
+    {
+      "id": 114, "word": "tomorrow", "hindi": "कल (आने वाला)", "simpleMeaning": "the day after today", "ipa": "/təˈmɒroʊ/",
+      "verbForms": { "base": "N/A (adverb/noun)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["next day", "the following day"], "antonyms": ["yesterday", "today"],
+      "sentences": { "daily": "I have a dentist appointment tomorrow.", "office": "Tomorrow is the deadline for the project.", "interview": "I can join from tomorrow if needed.", "business": "Tomorrow will bring new opportunities.", "formal": "The decision will be announced tomorrow.", "informal": "I will do it tomorrow — the classic procrastinator's motto!" },
+      "usageNote": "'Tomorrow morning/afternoon/evening'. 'Tomorrow's meeting' = the meeting scheduled for tomorrow. 'Tomorrow never comes' = a warning against procrastination.", "cefrLevel": "A1"
+    },
+    {
+      "id": 115, "word": "yesterday", "hindi": "कल (बीता हुआ)", "simpleMeaning": "the day before today", "ipa": "/ˈjestərdeɪ/",
+      "verbForms": { "base": "N/A (adverb/noun)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["the previous day", "the day before"], "antonyms": ["today", "tomorrow"],
+      "sentences": { "daily": "Yesterday was a holiday.", "office": "I submitted the report yesterday.", "interview": "Yesterday I attended a seminar on AI.", "business": "Yesterday's data shows a drop in sales.", "formal": "The meeting held yesterday concluded successfully.", "informal": "Yesterday was the worst day — everything went wrong!" },
+      "usageNote": "Always used with past tense. 'Yesterday morning/afternoon/evening/night'. 'Day before yesterday' = two days ago.", "cefrLevel": "A1"
+    },
+    {
+      "id": 116, "word": "morning", "hindi": "सुबह", "simpleMeaning": "the early part of the day, before noon", "ipa": "/ˈmɔːrnɪŋ/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["dawn", "daybreak", "AM"], "antonyms": ["evening", "night", "dusk"],
+      "sentences": { "daily": "Good morning! Have a great day.", "office": "Morning meetings are most productive.", "interview": "I prefer morning interviews — I am at my best.", "business": "Morning is the best time for important calls.", "formal": "The morning session begins at 9 AM.", "informal": "Not a morning person? Same! I need my coffee first." },
+      "usageNote": "'In the morning' = during morning hours. 'This morning' = today morning. 'Good morning!' = greeting. 'Early morning' = before sunrise.", "cefrLevel": "A1"
+    },
+    {
+      "id": 117, "word": "evening", "hindi": "शाम", "simpleMeaning": "the end of the afternoon and beginning of night", "ipa": "/ˈiːvnɪŋ/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["dusk", "nightfall", "sundown"], "antonyms": ["morning", "dawn"],
+      "sentences": { "daily": "I relax in the evening.", "office": "The evening shift starts at 5 PM.", "interview": "I am also available for an evening interview.", "business": "Evening networking events are common.", "formal": "Good evening, ladies and gentlemen.", "informal": "Evening plans? Want to grab some coffee?" },
+      "usageNote": "'In the evening'. 'Good evening' = formal greeting after 6 PM. 'Evening wear' = formal clothes for night events. 'This evening' = tonight.", "cefrLevel": "A1"
+    },
+    {
+      "id": 118, "word": "week", "hindi": "सप्ताह / हफ्ता", "simpleMeaning": "a period of seven days", "ipa": "/wiːk/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["seven days", "workweek"], "antonyms": "N/A",
+      "sentences": { "daily": "I work five days a week.", "office": "This week has been very productive.", "interview": "I can join within a week.", "business": "We review targets every week.", "formal": "The program runs for six weeks.", "informal": "This week is flying by — almost Friday already!" },
+      "usageNote": "'A week' = 7 days. 'Last week', 'this week', 'next week'. 'Weekly' = happening every week. 'Weekday' = Mon-Fri. 'Weekend' = Sat-Sun.", "cefrLevel": "A1"
+    },
+    {
+      "id": 119, "word": "month", "hindi": "महीना", "simpleMeaning": "a period of approximately 30 days", "ipa": "/mʌnθ/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["30 days", "calendar month"], "antonyms": "N/A",
+      "sentences": { "daily": "My salary comes every month.", "office": "We submit a monthly report.", "interview": "I can join within a month.", "business": "Monthly targets are set every quarter.", "formal": "The contract is for a period of 12 months.", "informal": "I cannot believe it has been a month already!" },
+      "usageNote": "'This month', 'last month', 'next month'. 'Monthly' = every month. 'A month's notice' = one month of notice before leaving a job.", "cefrLevel": "A1"
+    },
+    {
+      "id": 120, "word": "year", "hindi": "साल / वर्ष", "simpleMeaning": "a period of 12 months or 365 days", "ipa": "/jɪər/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["12 months", "annum"], "antonyms": "N/A",
+      "sentences": { "daily": "I have been learning English for one year.", "office": "This year has been challenging.", "interview": "I have 4 years of experience.", "business": "Yearly revenue has grown by 25%.", "formal": "The financial year ends in March.", "informal": "This year has gone so fast — I cannot believe it!" },
+      "usageNote": "'This year', 'last year', 'next year'. 'Years ago' = in the past. 'Yearly'/'annual' = once a year. 'Per year'/'per annum' (p.a.) = rate per year.", "cefrLevel": "A1"
+    },
+    {
+      "id": 121, "word": "number", "hindi": "संख्या / नंबर", "simpleMeaning": "a symbol or word representing an amount", "ipa": "/ˈnʌmbər/",
+      "verbForms": { "base": "number", "s3": "numbers", "ing": "numbering", "past": "numbered", "pastParticiple": "numbered" },
+      "synonyms": ["figure", "digit", "count"], "antonyms": "N/A",
+      "sentences": { "daily": "What is your phone number?", "office": "Please note down this reference number.", "interview": "Can I have your contact number?", "business": "Our sales numbers are impressive.", "formal": "A number of issues need to be addressed.", "informal": "I lost your number — can you give it again?" },
+      "usageNote": "'A number of' = several/many (plural). 'The number of' = a specific count (singular). 'Number one' = the best/most important.", "cefrLevel": "A1"
+    },
+    {
+      "id": 122, "word": "name", "hindi": "नाम", "simpleMeaning": "the word used to identify a person or thing", "ipa": "/neɪm/",
+      "verbForms": { "base": "name", "s3": "names", "ing": "naming", "past": "named", "pastParticiple": "named" },
+      "synonyms": ["title", "designation", "label"], "antonyms": "N/A",
+      "sentences": { "daily": "My name is Arjun.", "office": "Can I know your name, please?", "interview": "My full name is Arjun Kumar Sharma.", "business": "Our brand name is well-recognized.", "formal": "Please write your name in capital letters.", "informal": "What is your name? I keep forgetting!" },
+      "usageNote": "'What is your name?' / 'My name is...'. 'First name' = given name. 'Last name/surname' = family name. 'In someone's name' = belonging to or on behalf of them.", "cefrLevel": "A1"
+    },
+    {
+      "id": 123, "word": "address", "hindi": "पता / संबोधित करना", "simpleMeaning": "the location of a building, or to speak to someone formally", "ipa": "/əˈdres/",
+      "verbForms": { "base": "address", "s3": "addresses", "ing": "addressing", "past": "addressed", "pastParticiple": "addressed" },
+      "synonyms": ["location", "location details", "speak to"], "antonyms": "N/A",
+      "sentences": { "daily": "What is your home address?", "office": "Please address the envelope correctly.", "interview": "My current address is in Noida.", "business": "The CEO addressed the annual conference.", "formal": "Kindly address any complaints to the manager.", "informal": "I do not know his address — should have saved it!" },
+      "usageNote": "'Home address', 'email address', 'office address'. 'Address someone' = speak to them formally. 'Address an issue' = deal with it.", "cefrLevel": "A1"
+    },
+    {
+      "id": 124, "word": "age", "hindi": "उम्र / आयु", "simpleMeaning": "the number of years someone has lived", "ipa": "/eɪdʒ/",
+      "verbForms": { "base": "age", "s3": "ages", "ing": "aging", "past": "aged", "pastParticiple": "aged" },
+      "synonyms": ["years", "era", "period"], "antonyms": "N/A",
+      "sentences": { "daily": "My age is 25.", "office": "Employees of all ages work here.", "interview": "I am 27 years of age.", "business": "The product targets the 25-35 age group.", "formal": "Age is not a barrier for this position.", "informal": "I cannot believe your age — you look so young!" },
+      "usageNote": "'What is your age?' or 'How old are you?' are both correct. 'Age group' = range. 'Come of age' = become an adult. 'Middle age' = approximately 40-60.", "cefrLevel": "A1"
+    },
+    {
+      "id": 125, "word": "health", "hindi": "स्वास्थ्य / सेहत", "simpleMeaning": "the condition of your body and mind", "ipa": "/helθ/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["wellness", "fitness", "wellbeing"], "antonyms": ["illness", "sickness", "disease"],
+      "sentences": { "daily": "Health is wealth.", "office": "Our company provides health insurance.", "interview": "I maintain good health through exercise.", "business": "Employee health is our priority.", "formal": "Good health supports better productivity.", "informal": "Take care of your health first — nothing else matters!" },
+      "usageNote": "'Good/poor health'. 'In good health' = healthy. 'Health insurance' = medical coverage. 'Public health' = community health management. 'Health-conscious' = aware of health.", "cefrLevel": "A1"
+    },
+    {
+      "id": 126, "word": "doctor", "hindi": "डॉक्टर", "simpleMeaning": "a person trained to treat illness", "ipa": "/ˈdɒktər/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["physician", "medic", "surgeon"], "antonyms": "N/A",
+      "sentences": { "daily": "I need to see a doctor.", "office": "My colleague is a doctor of philosophy.", "interview": "I worked in a doctor's clinic.", "business": "Doctors are our target customers.", "formal": "The doctor diagnosed the patient with pneumonia.", "informal": "The doctor said no sweets — my worst nightmare!" },
+      "usageNote": "'See a doctor' = have a medical appointment. 'Doctor of Philosophy' (PhD) is also called 'doctor'. 'Doctor's orders' = strict medical advice.", "cefrLevel": "A1"
+    },
+    {
+      "id": 127, "word": "teacher", "hindi": "अध्यापक / शिक्षक", "simpleMeaning": "a person who teaches others", "ipa": "/ˈtiːtʃər/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["instructor", "educator", "professor"], "antonyms": ["student", "learner"],
+      "sentences": { "daily": "My English teacher is excellent.", "office": "I am a teacher by profession.", "interview": "My previous role involved training — almost like a teacher.", "business": "Teachers need better tools and resources.", "formal": "The teacher addressed the students at the assembly.", "informal": "He is not just a teacher — he is a life coach!" },
+      "usageNote": "'Teacher' = general. 'Professor' = university level. 'Tutor' = private teacher. 'Instructor' = someone who teaches a skill (driving instructor).", "cefrLevel": "A1"
+    },
+    {
+      "id": 128, "word": "student", "hindi": "छात्र / विद्यार्थी", "simpleMeaning": "a person who studies at a school or university", "ipa": "/ˈstjuːdənt/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["learner", "pupil", "scholar"], "antonyms": ["teacher", "instructor"],
+      "sentences": { "daily": "I am a student of engineering.", "office": "Student interns can apply for full-time roles.", "interview": "As a student, I won several competitions.", "business": "Students are a major customer segment.", "formal": "The student submitted her thesis on time.", "informal": "Student life is the best — no responsibilities!" },
+      "usageNote": "'Student' is for secondary and higher education. 'Pupil' is for primary school (especially BrE). 'Student visa' = visa for studying abroad.", "cefrLevel": "A1"
+    },
+    {
+      "id": 129, "word": "engineer", "hindi": "इंजीनियर", "simpleMeaning": "a person who designs or builds technical things", "ipa": "/ˌendʒɪˈnɪər/",
+      "verbForms": { "base": "engineer", "s3": "engineers", "ing": "engineering", "past": "engineered", "pastParticiple": "engineered" },
+      "synonyms": ["technician", "designer", "developer"], "antonyms": "N/A",
+      "sentences": { "daily": "My brother is an engineer.", "office": "She works as a software engineer.", "interview": "I am a mechanical engineer with 3 years experience.", "business": "We need to hire more engineers.", "formal": "The engineer submitted the technical specifications.", "informal": "Engineers get all the best job offers!" },
+      "usageNote": "Types: software engineer, civil engineer, mechanical engineer, electrical engineer. 'Engineering' = the field. 'Engineer' as verb: 'to engineer a solution' = to design/create.", "cefrLevel": "A1"
+    },
+    {
+      "id": 130, "word": "manager", "hindi": "प्रबंधक / मैनेजर", "simpleMeaning": "a person who supervises a team or business", "ipa": "/ˈmænɪdʒər/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["supervisor", "director", "head"], "antonyms": ["employee", "subordinate"],
+      "sentences": { "daily": "My manager is very supportive.", "office": "The manager reviews all reports.", "interview": "I report directly to the project manager.", "business": "Effective managers inspire their teams.", "formal": "The manager approved the budget proposal.", "informal": "My manager actually praised me today — shocked!" },
+      "usageNote": "'Line manager' = direct supervisor. 'Project manager' = leads a specific project. 'Senior manager' = more senior role. 'Management' = the group of managers.", "cefrLevel": "A2"
+    },
+    {
+      "id": 131, "word": "government", "hindi": "सरकार", "simpleMeaning": "the group of people who control a country", "ipa": "/ˈɡʌvənmənt/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["administration", "authority", "state"], "antonyms": ["opposition", "public"],
+      "sentences": { "daily": "The government provides free education.", "office": "We supply to government departments.", "interview": "I have experience working with government clients.", "business": "Government policies affect business growth.", "formal": "The government announced a new scheme.", "informal": "The government always has too many rules!" },
+      "usageNote": "In BrE, 'the government are' (plural) is common. In AmE, 'the government is' (singular). 'Government job' = public sector employment.", "cefrLevel": "A2"
+    },
+    {
+      "id": 132, "word": "information", "hindi": "जानकारी / सूचना", "simpleMeaning": "facts or details about something", "ipa": "/ˌɪnfəˈmeɪʃən/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["data", "knowledge", "details"], "antonyms": ["ignorance", "misinformation"],
+      "sentences": { "daily": "I need more information about this.", "office": "Please share the information with the team.", "interview": "I provide accurate information at all times.", "business": "Information is the most valuable asset today.", "formal": "For further information, contact our helpdesk.", "informal": "Got any information about this? Tell me everything!" },
+      "usageNote": "'Information' is uncountable — no 'an information' or 'informations'. Use 'a piece of information'. 'Information technology' (IT) = technology for managing data.", "cefrLevel": "A2"
+    },
+    {
+      "id": 133, "word": "news", "hindi": "खबर / समाचार", "simpleMeaning": "recently received or noteworthy information", "ipa": "/njuːz/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["report", "update", "announcement"], "antonyms": "N/A",
+      "sentences": { "daily": "I watch the news every morning.", "office": "Any news about the project approval?", "interview": "I keep up with industry news.", "business": "Business news impacts market decisions.", "formal": "The news release was published yesterday.", "informal": "Have you heard the news? It is unbelievable!" },
+      "usageNote": "'News' is uncountable — 'the news is', not 'the news are'. 'Good news' / 'bad news'. 'Break the news' = tell someone about something unexpected.", "cefrLevel": "A1"
+    },
+    {
+      "id": 134, "word": "music", "hindi": "संगीत", "simpleMeaning": "sounds arranged in a pleasing way", "ipa": "/ˈmjuːzɪk/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["melody", "tunes", "songs"], "antonyms": ["silence", "noise"],
+      "sentences": { "daily": "I listen to music while working.", "office": "Background music makes the office pleasant.", "interview": "Music is my hobby — I play the guitar.", "business": "The music industry has moved to streaming.", "formal": "The concert featured classical music.", "informal": "This music is so addictive — I love it!" },
+      "usageNote": "'Music' is uncountable. 'A piece of music' = one composition. 'Listen to music', 'play music'. 'Musical' = adjective. 'Musician' = person who plays music.", "cefrLevel": "A1"
+    },
+    {
+      "id": 135, "word": "sport", "hindi": "खेल", "simpleMeaning": "a physical activity done for exercise or competition", "ipa": "/spɔːrt/",
+      "verbForms": { "base": "N/A", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["game", "athletics", "exercise"], "antonyms": "N/A",
+      "sentences": { "daily": "Cricket is my favourite sport.", "office": "Sport builds teamwork skills.", "interview": "I was the captain of my college cricket team.", "business": "Sports sponsorship increases brand awareness.", "formal": "Sport promotes physical and mental health.", "informal": "Which sport do you follow? I am a huge cricket fan!" },
+      "usageNote": "In AmE: 'sports' (plural) is more common: 'I play sports'. In BrE: 'sport' (singular) is also used: 'I play sport'. 'Sportsman/sportswoman' = person who plays sport.", "cefrLevel": "A1"
+    },
+    {
+      "id": 136, "word": "travel", "hindi": "यात्रा करना", "simpleMeaning": "to go from one place to another", "ipa": "/ˈtrævəl/",
+      "verbForms": { "base": "travel", "s3": "travels", "ing": "travelling", "past": "travelled", "pastParticiple": "travelled" },
+      "synonyms": ["journey", "tour", "trip"], "antonyms": ["stay", "remain"],
+      "sentences": { "daily": "I love to travel.", "office": "Do you need to travel for this role?", "interview": "I am comfortable with travel requirements.", "business": "Business travel is part of my current role.", "formal": "Travel expenses will be reimbursed.", "informal": "Travel is the best education you can get!" },
+      "usageNote": "British: 'travelled', 'travelling'. American: 'traveled', 'traveling'. 'Travel' is both noun and verb. 'Traveller' = person who travels.", "cefrLevel": "A1"
+    },
+    {
+      "id": 137, "word": "beautiful", "hindi": "सुंदर", "simpleMeaning": "very attractive or pleasing", "ipa": "/ˈbjuːtɪfəl/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["gorgeous", "stunning", "lovely"], "antonyms": ["ugly", "plain", "unattractive"],
+      "sentences": { "daily": "What a beautiful day!", "office": "She gave a beautiful presentation.", "interview": "India is a beautiful country with diverse culture.", "business": "Beautiful packaging attracts customers.", "formal": "The garden features beautiful landscaping.", "informal": "That sunset was absolutely beautiful — I took 100 photos!" },
+      "usageNote": "'Beautiful' for things that appeal to senses. 'Beautifully' = adverb. 'Beauty' = noun. 'Beauty is in the eye of the beholder' = everyone finds different things beautiful.", "cefrLevel": "A1"
+    },
+    {
+      "id": 138, "word": "clean", "hindi": "साफ / सफाई करना", "simpleMeaning": "free from dirt, or to remove dirt", "ipa": "/kliːn/",
+      "verbForms": { "base": "clean", "s3": "cleans", "ing": "cleaning", "past": "cleaned", "pastParticiple": "cleaned" },
+      "synonyms": ["tidy", "pure", "spotless"], "antonyms": ["dirty", "messy", "polluted"],
+      "sentences": { "daily": "Please keep the office clean.", "office": "The cleaning team comes at 8 AM.", "interview": "I maintain a clean and organized workspace.", "business": "Clean energy is the future.", "formal": "The facility maintains clean and safe conditions.", "informal": "My room is clean for once — shocking, right?!" },
+      "usageNote": "'Clean up' = tidy a mess. 'Clean out' = remove everything. 'Clean record' = no criminal history. 'Clean slate' = fresh start.", "cefrLevel": "A1"
+    },
+    {
+      "id": 139, "word": "old", "hindi": "पुराना / बूढ़ा", "simpleMeaning": "having existed for a long time", "ipa": "/oʊld/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["aged", "ancient", "mature"], "antonyms": ["new", "young", "modern"],
+      "sentences": { "daily": "This house is very old.", "office": "The old system is being replaced.", "interview": "I have old experience but I keep updating my skills.", "business": "Old customers are more loyal than new ones.", "formal": "The old policy has been revised.", "informal": "Oh come on, that joke is so old — everybody knows it!" },
+      "usageNote": "Comparative: older/elder. Superlative: oldest/eldest. 'Elder' and 'eldest' are used for family members only. 'Old' for things and age.", "cefrLevel": "A1"
+    },
+    {
+      "id": 140, "word": "young", "hindi": "जवान / युवा", "simpleMeaning": "having lived for only a short time", "ipa": "/jʌŋ/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["youthful", "junior", "new"], "antonyms": ["old", "aged", "senior"],
+      "sentences": { "daily": "She looks very young for her age.", "office": "Young professionals bring fresh ideas.", "interview": "Though young, I have strong skills.", "business": "Targeting young consumers drives growth.", "formal": "The program develops young leaders.", "informal": "You are too young to understand this — trust me!" },
+      "usageNote": "Comparative: younger. Superlative: youngest. 'The young' = young people as a group. 'Young at heart' = feeling young despite age.", "cefrLevel": "A1"
+    },
+    {
+      "id": 141, "word": "big", "hindi": "बड़ा", "simpleMeaning": "large in size, extent, or importance", "ipa": "/bɪɡ/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["large", "huge", "great"], "antonyms": ["small", "little", "tiny"],
+      "sentences": { "daily": "I have a big family.", "office": "We have a big client meeting tomorrow.", "interview": "My biggest achievement was managing a large team.", "business": "Thinking big is essential for growth.", "formal": "The big decision will be made next week.", "informal": "This is a BIG deal — do not mess it up!" },
+      "usageNote": "Comparative: bigger. Superlative: biggest. 'Big' and 'large' are often interchangeable but 'big' is more informal. 'Big deal' = something important (or sarcastic).", "cefrLevel": "A1"
+    },
+    {
+      "id": 142, "word": "small", "hindi": "छोटा", "simpleMeaning": "little in size or amount", "ipa": "/smɔːl/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["little", "tiny", "compact"], "antonyms": ["big", "large", "huge"],
+      "sentences": { "daily": "I live in a small apartment.", "office": "Our startup is a small but growing company.", "interview": "Even small tasks deserve full attention.", "business": "Small businesses drive the economy.", "formal": "The project involves a small team of specialists.", "informal": "It is a small world! I bumped into him in London!" },
+      "usageNote": "Comparative: smaller. Superlative: smallest. 'Small talk' = light casual conversation. 'Small print/fine print' = details in a contract.", "cefrLevel": "A1"
+    },
+    {
+      "id": 143, "word": "right", "hindi": "सही / दाएं", "simpleMeaning": "correct, or the direction opposite to left", "ipa": "/raɪt/",
+      "verbForms": { "base": "N/A (adjective/adverb/noun)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["correct", "accurate", "true"], "antonyms": ["wrong", "incorrect", "left"],
+      "sentences": { "daily": "Turn right at the traffic light.", "office": "You are right — we need a new approach.", "interview": "The right attitude matters more than experience.", "business": "Right decisions lead to right results.", "formal": "Every citizen has the right to vote.", "informal": "Right! Let us stop arguing and get it done." },
+      "usageNote": "'Right' = correct. 'Right' = direction. 'Right' = a legal entitlement. 'All right' = okay/acceptable. 'Right away' = immediately.", "cefrLevel": "A1"
+    },
+    {
+      "id": 144, "word": "wrong", "hindi": "गलत", "simpleMeaning": "not correct, not right", "ipa": "/rɒŋ/",
+      "verbForms": { "base": "N/A (adjective/adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["incorrect", "mistaken", "false"], "antonyms": ["right", "correct", "true"],
+      "sentences": { "daily": "That answer is wrong.", "office": "Something is wrong with this report.", "interview": "I admit when I am wrong and correct myself.", "business": "Wrong data leads to wrong decisions.", "formal": "The decision was wrong on both moral and legal grounds.", "informal": "You have the wrong number! This is not a pizza place!" },
+      "usageNote": "'Wrong' as adjective: 'That is wrong.' 'Wrong' as adverb: 'He did it wrong.' 'Go wrong' = become bad. 'What is wrong?' = what is the problem?", "cefrLevel": "A1"
+    },
+    {
+      "id": 145, "word": "long", "hindi": "लंबा", "simpleMeaning": "great in length, distance, or time", "ipa": "/lɒŋ/",
+      "verbForms": { "base": "N/A (adjective/adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["extended", "lengthy", "prolonged"], "antonyms": ["short", "brief", "quick"],
+      "sentences": { "daily": "It is a long drive to my hometown.", "office": "The meeting was very long today.", "interview": "I have a long-term career plan.", "business": "Long-term relationships build trust.", "formal": "The document is 100 pages long.", "informal": "That was the longest queue I have ever stood in!" },
+      "usageNote": "Comparative: longer. Superlative: longest. 'Long' for distance and time. 'For a long time' = over many years. 'Long for' = to want deeply.", "cefrLevel": "A1"
+    },
+    {
+      "id": 146, "word": "short", "hindi": "छोटा / कम", "simpleMeaning": "small in height or brief in time", "ipa": "/ʃɔːrt/",
+      "verbForms": { "base": "N/A (adjective/adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["brief", "quick", "compact"], "antonyms": ["long", "tall", "extended"],
+      "sentences": { "daily": "The meeting was short and effective.", "office": "I need a short break.", "interview": "In short, I am a quick learner.", "business": "Short-term goals support long-term success.", "formal": "Please submit a short summary.", "informal": "To cut a long story short — he left the company!" },
+      "usageNote": "Comparative: shorter. Superlative: shortest. 'Short of' = lacking. 'Short cut' = a quicker route. 'In short' = to summarize.", "cefrLevel": "A1"
+    },
+    {
+      "id": 147, "word": "high", "hindi": "ऊँचा / अधिक", "simpleMeaning": "at a great distance above the ground, or great in amount", "ipa": "/haɪ/",
+      "verbForms": { "base": "N/A (adjective/adverb)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["tall", "elevated", "great"], "antonyms": ["low", "short", "small"],
+      "sentences": { "daily": "The price is too high.", "office": "We maintain high standards.", "interview": "I set high goals for myself.", "business": "High quality products command premium prices.", "formal": "The high court delivered its judgment.", "informal": "Prices are at an all-time high — everything is so expensive!" },
+      "usageNote": "'High' = elevated. 'Tall' = used for people and buildings. Do not say 'a high man' — say 'a tall man'. 'High in' vitamins/calories etc. = containing much of.", "cefrLevel": "A1"
+    },
+    {
+      "id": 148, "word": "low", "hindi": "नीचा / कम", "simpleMeaning": "below normal height or amount", "ipa": "/loʊ/",
+      "verbForms": { "base": "low", "s3": "lows", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["short", "reduced", "minimal"], "antonyms": ["high", "elevated", "tall"],
+      "sentences": { "daily": "The battery is low.", "office": "Our error rate is very low.", "interview": "I handle both high and low pressure situations well.", "business": "Low cost does not mean low quality for us.", "formal": "The low unemployment rate indicates economic growth.", "informal": "My energy is at an all-time low today — need coffee!" },
+      "usageNote": "Comparative: lower. Superlative: lowest. 'Low' for amount/level/quantity. 'Feel low' = feel sad. 'Lay low' = stay hidden. 'Low-key' = quiet/modest.", "cefrLevel": "A1"
+    },
+    {
+      "id": 149, "word": "thank",
+      "hindi": "धन्यवाद देना",
+      "simpleMeaning": "to express gratitude to someone",
+      "ipa": "/θæŋk/",
+      "verbForms": { "base": "thank", "s3": "thanks", "ing": "thanking", "past": "thanked", "pastParticiple": "thanked" },
+      "synonyms": ["appreciate", "be grateful", "acknowledge"], "antonyms": ["blame", "criticize"],
+      "sentences": { "daily": "Thank you for your help.", "office": "I thank my team for their hard work.", "interview": "Thank you for this opportunity.", "business": "We thank our clients for their trust.", "formal": "The organization thanks all volunteers.", "informal": "Thanks a million! You are the best!" },
+      "usageNote": "'Thank you' = formal. 'Thanks' = informal. 'Thank you very much', 'many thanks'. 'Thanks to' = because of. 'Grateful' and 'thankful' = adjectives expressing thanks.", "cefrLevel": "A1"
+    },
+    {
+      "id": 150, "word": "sorry",
+      "hindi": "माफ़ करना / खेद है",
+      "simpleMeaning": "feeling regret or apology for something",
+      "ipa": "/ˈsɒri/",
+      "verbForms": { "base": "N/A (adjective)", "s3": "N/A", "ing": "N/A", "past": "N/A", "pastParticiple": "N/A" },
+      "synonyms": ["apologetic", "regretful", "remorseful"], "antonyms": ["unapologetic", "unrepentant"],
+      "sentences": { "daily": "I am sorry for being late.", "office": "I am sorry for the inconvenience.", "interview": "Sorry, could you repeat the question?", "business": "We are sorry to hear about your experience.", "formal": "We sincerely apologize for any inconvenience caused.", "informal": "Sorry! Did not mean to bump into you!" },
+      "usageNote": "'Sorry for' + noun/gerund: 'Sorry for the delay.' 'Sorry about' + noun/situation: 'Sorry about that.' 'I am sorry to hear that' = expression of sympathy.", "cefrLevel": "A1"
+    }
+  ]
+}

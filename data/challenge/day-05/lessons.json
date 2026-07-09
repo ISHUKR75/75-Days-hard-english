@@ -1,0 +1,339 @@
+{
+  "day": 5,
+  "topic": "Demonstrative Pronouns",
+  "lessons": [
+    {
+      "id": 1,
+      "title": "THIS — Singular, Near (यह — एकवचन, पास)",
+      "titleHindi": "यह — एकवचन, पास की वस्तु",
+      "duration": 8,
+      "theory": "THIS is used when you are pointing to ONE object that is CLOSE to you. It always pairs with 'is'. Think of it as: यह (this one, right here, close to me).",
+      "theoryHindi": "THIS का उपयोग तब होता है जब आप एक ऐसी वस्तु की तरफ इशारा कर रहे हों जो आपके पास हो। इसके साथ हमेशा 'is' आता है।",
+      "formula": "This + is + [noun/adjective]",
+      "formulaHindi": "यह + है + [संज्ञा/विशेषण]",
+      "examples": [
+        { "hindi": "यह मेरी पेन है।", "english": "This is my pen.", "note": "object near you" },
+        { "hindi": "यह एक अच्छी किताब है।", "english": "This is a good book.", "note": "object in your hand" },
+        { "hindi": "यह मेरा घर है।", "english": "This is my house.", "note": "house you're standing in" },
+        { "hindi": "यह मेरा फोन है।", "english": "This is my phone.", "note": "phone in your hand" },
+        { "hindi": "यह एक मेज है।", "english": "This is a table.", "note": "table right beside you" },
+        { "hindi": "यह मेरा बैग है।", "english": "This is my bag.", "note": "bag you're holding" },
+        { "hindi": "यह एक सेब है।", "english": "This is an apple.", "note": "apple in your hand" },
+        { "hindi": "यह मेरा ऑफिस है।", "english": "This is my office.", "note": "office you're standing in" },
+        { "hindi": "यह एक नई कार है।", "english": "This is a new car.", "note": "car right next to you" },
+        { "hindi": "यह मेरी कुर्सी है।", "english": "This is my chair.", "note": "chair you're sitting on" },
+        { "hindi": "यह मेरा कमरा है।", "english": "This is my room.", "note": "room you're in" },
+        { "hindi": "यह एक पुरानी इमारत है।", "english": "This is an old building.", "note": "building right next to you" },
+        { "hindi": "यह एक अच्छा होटल है।", "english": "This is a good hotel.", "note": "hotel you are inside" },
+        { "hindi": "यह मेरी रिपोर्ट है।", "english": "This is my report.", "note": "report in your hand" },
+        { "hindi": "यह एक महत्वपूर्ण दस्तावेज है।", "english": "This is an important document.", "note": "document on your desk" },
+        { "hindi": "यह मेरी चाबी है।", "english": "This is my key.", "note": "key in your hand" },
+        { "hindi": "यह एक बड़ी समस्या है।", "english": "This is a big problem.", "note": "problem at hand" },
+        { "hindi": "यह एक शानदार अवसर है।", "english": "This is a great opportunity.", "note": "opportunity right now" },
+        { "hindi": "यह मेरी नौकरी है।", "english": "This is my job.", "note": "current job" },
+        { "hindi": "यह एक नई योजना है।", "english": "This is a new plan.", "note": "plan being discussed" },
+        { "hindi": "यह मेरी जिम्मेदारी है।", "english": "This is my responsibility.", "note": "current responsibility" },
+        { "hindi": "यह एक कठिन काम है।", "english": "This is a difficult task.", "note": "task in front of you" },
+        { "hindi": "यह मेरा लैपटॉप है।", "english": "This is my laptop.", "note": "laptop on your desk" },
+        { "hindi": "यह एक अच्छा विचार है।", "english": "This is a good idea.", "note": "idea being proposed" },
+        { "hindi": "यह मेरी टीम है।", "english": "This is my team.", "note": "team standing near you" },
+        { "hindi": "यह मेरा पासपोर्ट है।", "english": "This is my passport.", "note": "passport in your hand" },
+        { "hindi": "यह एक सुंदर जगह है।", "english": "This is a beautiful place.", "note": "place you are at" },
+        { "hindi": "यह मेरा मोबाइल नंबर है।", "english": "This is my mobile number.", "note": "showing your number" },
+        { "hindi": "यह एक महंगी घड़ी है।", "english": "This is an expensive watch.", "note": "watch on your wrist" },
+        { "hindi": "यह मेरी फाइल है।", "english": "This is my file.", "note": "file in your hand" }
+      ],
+      "asAdjective": {
+        "explanation": "THIS can also work as an adjective directly before a noun: 'This book', 'This car', 'This problem'.",
+        "examples": [
+          { "hindi": "यह किताब अच्छी है।", "english": "This book is good." },
+          { "hindi": "यह कार नई है।", "english": "This car is new." },
+          { "hindi": "यह आदमी मेरा दोस्त है।", "english": "This man is my friend." },
+          { "hindi": "यह सवाल कठिन है।", "english": "This question is difficult." },
+          { "hindi": "यह प्रोजेक्ट समय पर है।", "english": "This project is on time." }
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "THAT — Singular, Far (वह — एकवचन, दूर)",
+      "titleHindi": "वह — एकवचन, दूर की वस्तु",
+      "duration": 8,
+      "theory": "THAT is used when you are pointing to ONE object that is FAR from you. It always pairs with 'is'. Think: वह/वो (that one, over there, away from me).",
+      "theoryHindi": "THAT का उपयोग तब होता है जब एक वस्तु आपसे दूर हो। इसके साथ भी 'is' आता है।",
+      "formula": "That + is + [noun/adjective]",
+      "formulaHindi": "वह + है + [संज्ञा/विशेषण]",
+      "examples": [
+        { "hindi": "वह उसकी कार है।", "english": "That is his car.", "note": "car parked far away" },
+        { "hindi": "वह एक बड़ा घर है।", "english": "That is a big house.", "note": "house in the distance" },
+        { "hindi": "वह मेरा स्कूल है।", "english": "That is my school.", "note": "school building far away" },
+        { "hindi": "वह एक पुराना मंदिर है।", "english": "That is an old temple.", "note": "temple visible in distance" },
+        { "hindi": "वह एक अच्छा रेस्टोरेंट है।", "english": "That is a good restaurant.", "note": "restaurant across the street" },
+        { "hindi": "वह मेरा पड़ोसी है।", "english": "That is my neighbor.", "note": "person far away" },
+        { "hindi": "वह एक ऊंची इमारत है।", "english": "That is a tall building.", "note": "building far away" },
+        { "hindi": "वह एक खूबसूरत पार्क है।", "english": "That is a beautiful park.", "note": "park in the distance" },
+        { "hindi": "वह मेरा बॉस है।", "english": "That is my boss.", "note": "person across the room" },
+        { "hindi": "वह एक नई दुकान है।", "english": "That is a new shop.", "note": "shop down the street" },
+        { "hindi": "वह उसका ऑफिस है।", "english": "That is his office.", "note": "office on another floor" },
+        { "hindi": "वह एक पुरानी बाइक है।", "english": "That is an old bike.", "note": "bike parked far" },
+        { "hindi": "वह एक अच्छी फिल्म थी।", "english": "That was a good movie.", "note": "movie you watched before" },
+        { "hindi": "वह एक गलत निर्णय था।", "english": "That was a wrong decision.", "note": "past decision" },
+        { "hindi": "वह मेरा सपना है।", "english": "That is my dream.", "note": "abstract, distant concept" },
+        { "hindi": "वह एक अच्छा विचार है।", "english": "That is a good idea.", "note": "idea just mentioned" },
+        { "hindi": "वह उसकी समस्या है।", "english": "That is his problem.", "note": "problem away from you" },
+        { "hindi": "वह एक लंबा रास्ता है।", "english": "That is a long way.", "note": "path in the distance" },
+        { "hindi": "वह उनकी जिम्मेदारी है।", "english": "That is their responsibility.", "note": "someone else's duty" },
+        { "hindi": "वह एक बड़ी कंपनी है।", "english": "That is a big company.", "note": "company building far away" },
+        { "hindi": "वह उसका मोबाइल है।", "english": "That is his mobile.", "note": "mobile on another desk" },
+        { "hindi": "वह एक महंगा होटल है।", "english": "That is an expensive hotel.", "note": "hotel across the road" },
+        { "hindi": "वह एक शानदार प्रदर्शनी है।", "english": "That is a wonderful exhibition.", "note": "exhibition in distance" },
+        { "hindi": "वह मेरी पसंदीदा जगह है।", "english": "That is my favorite place.", "note": "place you're pointing to" },
+        { "hindi": "वह एक नई परियोजना है।", "english": "That is a new project.", "note": "project being discussed" },
+        { "hindi": "वह उसकी रिपोर्ट है।", "english": "That is her report.", "note": "report on another desk" },
+        { "hindi": "वह एक बड़ा बाजार है।", "english": "That is a big market.", "note": "market in distance" },
+        { "hindi": "वह एक अच्छा कदम है।", "english": "That is a good step.", "note": "decision made" },
+        { "hindi": "वह उसका घर है।", "english": "That is her house.", "note": "house far away" },
+        { "hindi": "वह एक कठिन परीक्षा थी।", "english": "That was a difficult exam.", "note": "past exam" }
+      ],
+      "asAdjective": {
+        "explanation": "THAT as adjective: 'That book', 'That car', 'That building'.",
+        "examples": [
+          { "hindi": "वह किताब महंगी है।", "english": "That book is expensive." },
+          { "hindi": "वह इमारत बहुत पुरानी है।", "english": "That building is very old." },
+          { "hindi": "वह आदमी मेरा चाचा है।", "english": "That man is my uncle." },
+          { "hindi": "वह फैसला गलत था।", "english": "That decision was wrong." },
+          { "hindi": "वह मीटिंग लंबी थी।", "english": "That meeting was long." }
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "THESE — Plural, Near (ये — बहुवचन, पास)",
+      "titleHindi": "ये — बहुवचन, पास की वस्तुएं",
+      "duration": 8,
+      "theory": "THESE is used for MORE THAN ONE object that is CLOSE to you. It always pairs with 'are'. Think: ये (these ones, right here near me, more than one).",
+      "theoryHindi": "THESE का उपयोग तब होता है जब एक से अधिक वस्तुएं आपके पास हों। इसके साथ 'are' आता है।",
+      "formula": "These + are + [plural noun]",
+      "formulaHindi": "ये + हैं + [बहुवचन संज्ञा]",
+      "examples": [
+        { "hindi": "ये मेरी किताबें हैं।", "english": "These are my books.", "note": "books beside you" },
+        { "hindi": "ये मेरे दोस्त हैं।", "english": "These are my friends.", "note": "friends standing near you" },
+        { "hindi": "ये मेरी चाबियां हैं।", "english": "These are my keys.", "note": "keys in your hand" },
+        { "hindi": "ये अच्छे फल हैं।", "english": "These are good fruits.", "note": "fruits in front of you" },
+        { "hindi": "ये मेरे जूते हैं।", "english": "These are my shoes.", "note": "shoes near you" },
+        { "hindi": "ये बहुत अच्छे विचार हैं।", "english": "These are very good ideas.", "note": "ideas on paper before you" },
+        { "hindi": "ये मेरे सहयोगी हैं।", "english": "These are my colleagues.", "note": "colleagues beside you" },
+        { "hindi": "ये महत्वपूर्ण दस्तावेज हैं।", "english": "These are important documents.", "note": "documents on your desk" },
+        { "hindi": "ये मेरी फाइलें हैं।", "english": "These are my files.", "note": "files in your hands" },
+        { "hindi": "ये नए उत्पाद हैं।", "english": "These are new products.", "note": "products in front of you" },
+        { "hindi": "ये पुराने नोट्स हैं।", "english": "These are old notes.", "note": "notes on your desk" },
+        { "hindi": "ये मेरे ग्राहक हैं।", "english": "These are my clients.", "note": "clients sitting near you" },
+        { "hindi": "ये बहुत अच्छे परिणाम हैं।", "english": "These are very good results.", "note": "results on your screen" },
+        { "hindi": "ये मेरी जिम्मेदारियां हैं।", "english": "These are my responsibilities.", "note": "listed tasks before you" },
+        { "hindi": "ये नई मशीनें हैं।", "english": "These are new machines.", "note": "machines beside you" },
+        { "hindi": "ये बहुत महंगी घड़ियां हैं।", "english": "These are very expensive watches.", "note": "watches in display near you" },
+        { "hindi": "ये मेरे बच्चे हैं।", "english": "These are my children.", "note": "children standing beside you" },
+        { "hindi": "ये आज की रिपोर्टें हैं।", "english": "These are today's reports.", "note": "reports on your table" },
+        { "hindi": "ये अच्छे प्रश्न हैं।", "english": "These are good questions.", "note": "questions on paper" },
+        { "hindi": "ये मेरे सुझाव हैं।", "english": "These are my suggestions.", "note": "suggestions being given" },
+        { "hindi": "ये हमारे लक्ष्य हैं।", "english": "These are our goals.", "note": "goals written nearby" },
+        { "hindi": "ये नई नीतियां हैं।", "english": "These are new policies.", "note": "policy documents near you" },
+        { "hindi": "ये मेरे पसंदीदा गाने हैं।", "english": "These are my favorite songs.", "note": "songs playing now" },
+        { "hindi": "ये बहुत कठिन सवाल हैं।", "english": "These are very difficult questions.", "note": "questions in exam paper" },
+        { "hindi": "ये हमारे उत्पाद हैं।", "english": "These are our products.", "note": "products on your table" },
+        { "hindi": "ये ताज़े फूल हैं।", "english": "These are fresh flowers.", "note": "flowers near you" },
+        { "hindi": "ये मेरे विद्यार्थी हैं।", "english": "These are my students.", "note": "students in front of you" },
+        { "hindi": "ये आज की खबरें हैं।", "english": "These are today's news.", "note": "newspaper in your hand" },
+        { "hindi": "ये मेरी योजनाएं हैं।", "english": "These are my plans.", "note": "plan papers on desk" },
+        { "hindi": "ये बहुत अच्छे कपड़े हैं।", "english": "These are very good clothes.", "note": "clothes near you" }
+      ],
+      "asAdjective": {
+        "explanation": "THESE as adjective: 'These books', 'These files', 'These people'.",
+        "examples": [
+          { "hindi": "ये किताबें बहुत महंगी हैं।", "english": "These books are very expensive." },
+          { "hindi": "ये फाइलें तैयार हैं।", "english": "These files are ready." },
+          { "hindi": "ये लोग बहुत मेहनती हैं।", "english": "These people are very hardworking." },
+          { "hindi": "ये सवाल कठिन हैं।", "english": "These questions are difficult." },
+          { "hindi": "ये रिपोर्टें बहुत लंबी हैं।", "english": "These reports are very long." }
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "THOSE — Plural, Far (वे — बहुवचन, दूर)",
+      "titleHindi": "वे — बहुवचन, दूर की वस्तुएं",
+      "duration": 8,
+      "theory": "THOSE is used for MORE THAN ONE object that is FAR from you. It always pairs with 'are'. Think: वे/वो (those ones, over there, more than one).",
+      "theoryHindi": "THOSE का उपयोग तब होता है जब एक से अधिक वस्तुएं आपसे दूर हों। इसके साथ 'are' आता है।",
+      "formula": "Those + are + [plural noun]",
+      "formulaHindi": "वे + हैं + [बहुवचन संज्ञा]",
+      "examples": [
+        { "hindi": "वे उनके बैग हैं।", "english": "Those are their bags.", "note": "bags far away" },
+        { "hindi": "वे पुरानी इमारतें हैं।", "english": "Those are old buildings.", "note": "buildings in distance" },
+        { "hindi": "वे उसके छात्र हैं।", "english": "Those are his students.", "note": "students across the hall" },
+        { "hindi": "वे मेरे पुराने दोस्त हैं।", "english": "Those are my old friends.", "note": "friends far away" },
+        { "hindi": "वे महंगी गाड़ियां हैं।", "english": "Those are expensive cars.", "note": "cars in the parking lot far away" },
+        { "hindi": "वे उनके घर हैं।", "english": "Those are their houses.", "note": "houses in the distance" },
+        { "hindi": "वे अच्छे दिन थे।", "english": "Those were good days.", "note": "past memories" },
+        { "hindi": "वे कठिन समय थे।", "english": "Those were difficult times.", "note": "past difficult times" },
+        { "hindi": "वे बहुत बड़े पेड़ हैं।", "english": "Those are very big trees.", "note": "trees visible in distance" },
+        { "hindi": "वे उनके सहयोगी हैं।", "english": "Those are their colleagues.", "note": "people across the room" },
+        { "hindi": "वे पुरानी फाइलें हैं।", "english": "Those are old files.", "note": "files on a shelf far away" },
+        { "hindi": "वे उनके उत्पाद हैं।", "english": "Those are their products.", "note": "products on another shelf" },
+        { "hindi": "वे बहुत अच्छे डॉक्टर हैं।", "english": "Those are very good doctors.", "note": "doctors in another wing" },
+        { "hindi": "वे पुराने नियम हैं।", "english": "Those are old rules.", "note": "rules in past" },
+        { "hindi": "वे उनके बच्चे हैं।", "english": "Those are their children.", "note": "children playing far away" },
+        { "hindi": "वे विदेशी पर्यटक हैं।", "english": "Those are foreign tourists.", "note": "tourists at a distance" },
+        { "hindi": "वे बहुत महंगे होटल हैं।", "english": "Those are very expensive hotels.", "note": "hotels visible far away" },
+        { "hindi": "वे मेरे पड़ोसी हैं।", "english": "Those are my neighbors.", "note": "neighbors across the street" },
+        { "hindi": "वे अच्छे परिणाम थे।", "english": "Those were good results.", "note": "results from last year" },
+        { "hindi": "वे उनकी समस्याएं हैं।", "english": "Those are their problems.", "note": "someone else's issues" },
+        { "hindi": "वे नए कर्मचारी हैं।", "english": "Those are new employees.", "note": "employees in another department" },
+        { "hindi": "वे बहुत सुंदर फूल हैं।", "english": "Those are very beautiful flowers.", "note": "flowers in garden far away" },
+        { "hindi": "वे उनकी योजनाएं हैं।", "english": "Those are their plans.", "note": "plans not involving you" },
+        { "hindi": "वे पुराने कपड़े हैं।", "english": "Those are old clothes.", "note": "clothes in a far corner" },
+        { "hindi": "वे बहुत लंबी सड़कें हैं।", "english": "Those are very long roads.", "note": "roads stretching far away" },
+        { "hindi": "वे उनके सपने हैं।", "english": "Those are their dreams.", "note": "other people's aspirations" },
+        { "hindi": "वे बहुत बड़े कारखाने हैं।", "english": "Those are very big factories.", "note": "factories in the distance" },
+        { "hindi": "वे उनके विद्यार्थी हैं।", "english": "Those are their students.", "note": "students in another class" },
+        { "hindi": "वे बहुत पुरानी परंपराएं हैं।", "english": "Those are very old traditions.", "note": "traditions of the past" },
+        { "hindi": "वे उसके माता-पिता हैं।", "english": "Those are his parents.", "note": "parents standing far away" }
+      ],
+      "asAdjective": {
+        "explanation": "THOSE as adjective: 'Those buildings', 'Those files', 'Those employees'.",
+        "examples": [
+          { "hindi": "वे इमारतें बहुत पुरानी हैं।", "english": "Those buildings are very old." },
+          { "hindi": "वे फाइलें बंद कर दो।", "english": "Close those files." },
+          { "hindi": "वे लोग कहाँ हैं?", "english": "Where are those people?" },
+          { "hindi": "वे दिन अब नहीं आएंगे।", "english": "Those days will not come again." },
+          { "hindi": "वे कर्मचारी बहुत कुशल हैं।", "english": "Those employees are very skilled." }
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Pronoun vs Adjective Usage",
+      "titleHindi": "Pronoun और Adjective के रूप में उपयोग",
+      "duration": 6,
+      "theory": "Demonstratives can work in two ways: (1) As PRONOUNS — they stand alone and replace the noun. (2) As ADJECTIVES — they come directly before a noun to describe which one.",
+      "theoryHindi": "Demonstratives दो तरीकों से काम करते हैं: (1) Pronoun के रूप में — वे अकेले खड़े होते हैं और noun की जगह लेते हैं। (2) Adjective के रूप में — वे noun से पहले आते हैं।",
+      "comparison": [
+        { "pronoun": "This is good.", "adjective": "This pen is good.", "note": "Pronoun replaces noun; adjective modifies noun" },
+        { "pronoun": "That is expensive.", "adjective": "That hotel is expensive.", "note": "Pronoun stands alone; adjective gives info about which hotel" },
+        { "pronoun": "These are mine.", "adjective": "These books are mine.", "note": "Pronoun owns; adjective specifies which books" },
+        { "pronoun": "Those are broken.", "adjective": "Those chairs are broken.", "note": "Pronoun describes; adjective specifies which chairs" }
+      ],
+      "examples": [
+        { "hindi": "यह अच्छा है। (Pronoun)", "english": "This is good." },
+        { "hindi": "यह किताब अच्छी है। (Adjective)", "english": "This book is good." },
+        { "hindi": "वह महंगा है। (Pronoun)", "english": "That is expensive." },
+        { "hindi": "वह होटल महंगा है। (Adjective)", "english": "That hotel is expensive." },
+        { "hindi": "ये मेरे हैं। (Pronoun)", "english": "These are mine." },
+        { "hindi": "ये किताबें मेरी हैं। (Adjective)", "english": "These books are mine." },
+        { "hindi": "वे टूटे हुए हैं। (Pronoun)", "english": "Those are broken." },
+        { "hindi": "वे कुर्सियां टूटी हुई हैं। (Adjective)", "english": "Those chairs are broken." }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Questions with Demonstratives",
+      "titleHindi": "Demonstratives से प्रश्न बनाना",
+      "duration": 6,
+      "theory": "We use 'What is this/that?' for singular and 'What are these/those?' for plural. We can also use 'Is this...?', 'Are these...?', 'Whose is this?', 'Which one is that?'",
+      "theoryHindi": "एकवचन के लिए 'What is this/that?' और बहुवचन के लिए 'What are these/those?' का उपयोग होता है।",
+      "questionPatterns": [
+        { "pattern": "What is this?", "hindi": "यह क्या है?", "answer": "This is a pen." },
+        { "pattern": "What is that?", "hindi": "वह क्या है?", "answer": "That is a building." },
+        { "pattern": "What are these?", "hindi": "ये क्या हैं?", "answer": "These are my files." },
+        { "pattern": "What are those?", "hindi": "वे क्या हैं?", "answer": "Those are old machines." },
+        { "pattern": "Is this your pen?", "hindi": "क्या यह तुम्हारी पेन है?", "answer": "Yes, this is my pen." },
+        { "pattern": "Is that his car?", "hindi": "क्या वह उसकी कार है?", "answer": "Yes, that is his car." },
+        { "pattern": "Are these your books?", "hindi": "क्या ये तुम्हारी किताबें हैं?", "answer": "Yes, these are my books." },
+        { "pattern": "Are those their bags?", "hindi": "क्या वे उनके बैग हैं?", "answer": "Yes, those are their bags." },
+        { "pattern": "Whose is this?", "hindi": "यह किसका है?", "answer": "This is mine." },
+        { "pattern": "Which one is that?", "hindi": "वह कौन सा है?", "answer": "That is the new model." }
+      ],
+      "examples": [
+        { "hindi": "यह क्या है?", "english": "What is this?" },
+        { "hindi": "वह क्या है?", "english": "What is that?" },
+        { "hindi": "ये क्या हैं?", "english": "What are these?" },
+        { "hindi": "वे क्या हैं?", "english": "What are those?" },
+        { "hindi": "क्या यह तुम्हारा बैग है?", "english": "Is this your bag?" },
+        { "hindi": "क्या वह नई कार है?", "english": "Is that a new car?" },
+        { "hindi": "क्या ये तुम्हारे दोस्त हैं?", "english": "Are these your friends?" },
+        { "hindi": "क्या वे पुरानी फाइलें हैं?", "english": "Are those old files?" },
+        { "hindi": "यह कहाँ से है?", "english": "Where is this from?" },
+        { "hindi": "वे कौन हैं?", "english": "Who are those?" }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Demonstratives in Daily Conversation",
+      "titleHindi": "दैनिक बातचीत में Demonstratives",
+      "duration": 6,
+      "theory": "In everyday conversation, demonstratives help us identify, describe, and point out things naturally. Let's learn common conversation patterns.",
+      "theoryHindi": "रोज़मर्रा की बातचीत में, demonstratives हमें चीज़ों को पहचानने, वर्णन करने और इंगित करने में मदद करते हैं।",
+      "conversationDialogues": [
+        {
+          "title": "Shopping / शॉपिंग",
+          "lines": [
+            { "speaker": "Customer", "line": "What is this?" },
+            { "speaker": "Shopkeeper", "line": "This is a silk saree." },
+            { "speaker": "Customer", "line": "How much is that one?" },
+            { "speaker": "Shopkeeper", "line": "That is five hundred rupees." },
+            { "speaker": "Customer", "line": "Are these on sale?" },
+            { "speaker": "Shopkeeper", "line": "Yes, these are on 20% discount." }
+          ]
+        },
+        {
+          "title": "Office / कार्यालय",
+          "lines": [
+            { "speaker": "Boss", "line": "What are those papers on your desk?" },
+            { "speaker": "Employee", "line": "Those are last month's reports, sir." },
+            { "speaker": "Boss", "line": "Is this the new proposal?" },
+            { "speaker": "Employee", "line": "Yes, this is the new proposal." },
+            { "speaker": "Boss", "line": "Are these data correct?" },
+            { "speaker": "Employee", "line": "Yes, these are verified data." }
+          ]
+        }
+      ],
+      "examples": [
+        { "hindi": "यह मेरी पसंदीदा जगह है।", "english": "This is my favorite place." },
+        { "hindi": "वह बहुत दूर है।", "english": "That is very far." },
+        { "hindi": "ये बहुत स्वादिष्ट हैं।", "english": "These are very delicious." },
+        { "hindi": "वे बहुत महंगे हैं।", "english": "Those are very expensive." },
+        { "hindi": "क्या यह ठीक है?", "english": "Is this okay?" },
+        { "hindi": "वह सही नहीं है।", "english": "That is not right." },
+        { "hindi": "ये सब मेरे हैं।", "english": "These all are mine." },
+        { "hindi": "वे सब उनके हैं।", "english": "Those all are theirs." }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Office and Professional Usage",
+      "titleHindi": "कार्यालय और पेशेवर उपयोग",
+      "duration": 6,
+      "theory": "In a professional setting, demonstratives are used constantly — in meetings, presentations, emails, and daily office communication. Mastering them helps you sound professional.",
+      "theoryHindi": "पेशेवर माहौल में demonstratives का लगातार उपयोग होता है — मीटिंग्स, प्रेजेंटेशन, ईमेल और दैनिक कार्यालय संचार में।",
+      "officialPhrases": [
+        { "hindi": "यह रिपोर्ट आज तैयार होनी चाहिए।", "english": "This report should be ready today." },
+        { "hindi": "वह मीटिंग कल है।", "english": "That meeting is tomorrow." },
+        { "hindi": "ये दस्तावेज साइन करने हैं।", "english": "These documents need to be signed." },
+        { "hindi": "वे ग्राहक बहुत महत्वपूर्ण हैं।", "english": "Those clients are very important." },
+        { "hindi": "क्या यह प्रोजेक्ट पूरा हुआ?", "english": "Is this project complete?" },
+        { "hindi": "वह डेडलाइन कब है?", "english": "When is that deadline?" },
+        { "hindi": "ये आंकड़े सही नहीं हैं।", "english": "These figures are not correct." },
+        { "hindi": "वे पुराने रिकॉर्ड हटा दो।", "english": "Remove those old records." },
+        { "hindi": "यह प्रेजेंटेशन बहुत अच्छी है।", "english": "This presentation is very good." },
+        { "hindi": "वे नए कर्मचारियों को ट्रेन करो।", "english": "Train those new employees." }
+      ],
+      "presentationPhrases": [
+        { "hindi": "यह हमारी योजना है।", "english": "This is our plan." },
+        { "hindi": "ये हमारे लक्ष्य हैं।", "english": "These are our goals." },
+        { "hindi": "वह पिछले साल का डेटा है।", "english": "That is last year's data." },
+        { "hindi": "वे हमारे प्रतिस्पर्धी हैं।", "english": "Those are our competitors." },
+        { "hindi": "यह आंकड़ा बहुत महत्वपूर्ण है।", "english": "This figure is very important." }
+      ]
+    }
+  ]
+}

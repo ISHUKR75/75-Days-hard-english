@@ -1,0 +1,224 @@
+{
+  "day": 7,
+  "title": "Had — Complete Lesson Guide",
+  "totalLessons": 9,
+  "lessons": [
+    {
+      "id": 1,
+      "title": "Had = Have/Has का Past Tense",
+      "duration": 8,
+      "theory": "'Had' is the past tense of both 'have' and 'has'. Just like 'have/has' is used for present possession, 'had' is used for past possession. The key rule: for ALL subjects (I, he, she, it, we, they, you), we use 'had' in past tense — there is no 'haded' or 'had have'. It is always just 'had'.",
+      "rules": [
+        "I have → I had",
+        "He/She/It has → He/She/It had",
+        "We/They/You have → We/They/You had",
+        "Same form for all subjects — no exceptions!"
+      ],
+      "examples": [
+        { "hindi": "मेरे पास एक कार है।", "english": "I have a car.", "note": "Present" },
+        { "hindi": "मेरे पास एक कार थी।", "english": "I had a car.", "note": "Past" },
+        { "hindi": "उसके पास पैसे हैं।", "english": "He has money.", "note": "Present" },
+        { "hindi": "उसके पास पैसे थे।", "english": "He had money.", "note": "Past" },
+        { "hindi": "उनके पास एक घर है।", "english": "They have a house.", "note": "Present" },
+        { "hindi": "उनके पास एक घर था।", "english": "They had a house.", "note": "Past" },
+        { "hindi": "कंपनी के पास 100 कर्मचारी हैं।", "english": "The company has 100 employees.", "note": "Present" },
+        { "hindi": "कंपनी के पास 100 कर्मचारी थे।", "english": "The company had 100 employees.", "note": "Past" }
+      ],
+      "keyPoint": "Had never changes. I had, he had, she had, they had — always the same!"
+    },
+    {
+      "id": 2,
+      "title": "Past Possession — मेरे पास था/थी",
+      "duration": 10,
+      "theory": "We use 'had' to describe things we owned, possessed, or experienced in the past. This covers physical objects (car, house, phone), relationships (a friend, a boss), qualities (a problem, an idea), and experiences (a meeting, a dream). In Hindi: 'मेरे पास ... था/थी/थे' = 'I had ...'",
+      "rules": [
+        "Subject + had + noun/object",
+        "Use for physical possession: I had a bike, She had a laptop",
+        "Use for relationships: He had a girlfriend, We had a teacher",
+        "Use for abstract things: They had a plan, I had an idea"
+      ],
+      "examples": [
+        { "hindi": "मेरे पास एक मोटरसाइकिल थी।", "english": "I had a motorcycle." },
+        { "hindi": "उसके पास एक लैपटॉप था।", "english": "She had a laptop." },
+        { "hindi": "हमारे पास एक बड़ा घर था।", "english": "We had a big house." },
+        { "hindi": "उनके पास बहुत पैसे थे।", "english": "They had a lot of money." },
+        { "hindi": "उसके पास एक अच्छा बॉस था।", "english": "He had a good boss." },
+        { "hindi": "मेरे पास एक पुरानी किताब थी।", "english": "I had an old book." },
+        { "hindi": "कंपनी के पास एक बड़ी टीम थी।", "english": "The company had a large team." },
+        { "hindi": "बच्चे के पास बहुत खिलौने थे।", "english": "The child had many toys." },
+        { "hindi": "उसके पास एक अच्छा विचार था।", "english": "She had a good idea." },
+        { "hindi": "मेरे पास कोई समस्या नहीं थी।", "english": "I had no problem." }
+      ],
+      "keyPoint": "Had = था/थी/थे (past possession). Use it whenever something existed in the past."
+    },
+    {
+      "id": 3,
+      "title": "Past Perfect — Had + V3",
+      "duration": 12,
+      "theory": "Past Perfect is used when one action happened BEFORE another past action. Structure: Subject + had + V3 (third form of verb). In Hindi, this often translates as 'मैंने ... कर लिया था' or 'वह ... जा चुका था'. This tense shows that something was already completed before something else happened in the past.",
+      "rules": [
+        "Subject + had + V3 (past participle)",
+        "Used to show 'earlier past' — something that happened before another past event",
+        "Common V3 forms: eaten, gone, finished, done, written, seen, spoken",
+        "Often used with 'already', 'just', 'never', 'before', 'by the time'"
+      ],
+      "examples": [
+        { "hindi": "मैंने खाना खा लिया था।", "english": "I had eaten the food." },
+        { "hindi": "वह जा चुका था।", "english": "He had gone." },
+        { "hindi": "हमने काम खत्म कर लिया था।", "english": "We had finished the work." },
+        { "hindi": "उसने रिपोर्ट लिख ली थी।", "english": "She had written the report." },
+        { "hindi": "बारिश रुक गई थी।", "english": "The rain had stopped." },
+        { "hindi": "वे पहले ही सो गए थे।", "english": "They had already slept." },
+        { "hindi": "मीटिंग खत्म हो गई थी।", "english": "The meeting had ended." },
+        { "hindi": "ट्रेन निकल चुकी थी।", "english": "The train had left." },
+        { "hindi": "उसने गलती स्वीकार कर ली थी।", "english": "He had admitted the mistake." },
+        { "hindi": "टीम ने प्रोजेक्ट पूरा कर लिया था।", "english": "The team had completed the project." },
+        { "hindi": "मैंने यह फिल्म पहले देख ली थी।", "english": "I had watched this film before." },
+        { "hindi": "वह कभी विदेश नहीं गई थी।", "english": "She had never been abroad." }
+      ],
+      "keyPoint": "Had + V3 = something that was already done before another past event."
+    },
+    {
+      "id": 4,
+      "title": "Negative — Didn't Have / Hadn't",
+      "duration": 8,
+      "theory": "To make 'had' negative in past possession, use 'didn't have' (did not have). To make Past Perfect negative, use 'hadn't' (had not + V3). Important: Never say 'didn't had' — that is wrong! Always use 'didn't have' for possession and 'hadn't + V3' for past perfect.",
+      "rules": [
+        "Past Possession Negative: Subject + didn't have + object",
+        "Past Perfect Negative: Subject + hadn't + V3",
+        "WRONG: 'He didn't had a car' | CORRECT: 'He didn't have a car'",
+        "WRONG: 'She hadn't ate' | CORRECT: 'She hadn't eaten'"
+      ],
+      "examples": [
+        { "hindi": "मेरे पास पैसे नहीं थे।", "english": "I didn't have money.", "type": "possession" },
+        { "hindi": "उसके पास फोन नहीं था।", "english": "She didn't have a phone.", "type": "possession" },
+        { "hindi": "हमारे पास समय नहीं था।", "english": "We didn't have time.", "type": "possession" },
+        { "hindi": "उन्होंने खाना नहीं खाया था।", "english": "They hadn't eaten.", "type": "perfect" },
+        { "hindi": "वह अभी तक नहीं आई थी।", "english": "She hadn't come yet.", "type": "perfect" },
+        { "hindi": "मैंने उसे पहले नहीं देखा था।", "english": "I hadn't seen him before.", "type": "perfect" },
+        { "hindi": "टीम ने रिपोर्ट नहीं बनाई थी।", "english": "The team hadn't made the report.", "type": "perfect" },
+        { "hindi": "मेरे पास कोई अनुभव नहीं था।", "english": "I didn't have any experience.", "type": "possession" },
+        { "hindi": "उसने माफी नहीं मांगी थी।", "english": "He hadn't apologized.", "type": "perfect" },
+        { "hindi": "कंपनी के पास बजट नहीं था।", "english": "The company didn't have a budget.", "type": "possession" }
+      ],
+      "keyPoint": "Possession negative = didn't have. Perfect negative = hadn't + V3. Never 'didn't had'!"
+    },
+    {
+      "id": 5,
+      "title": "Questions — Did you have? / Had you...?",
+      "duration": 8,
+      "theory": "To ask questions about past possession, use 'Did + subject + have + ...?' For Past Perfect questions, use 'Had + subject + V3 + ...?' Note that in questions, the main verb goes back to base form after 'did' — so it is 'did you have' not 'did you had'.",
+      "rules": [
+        "Possession Question: Did + subject + have + object?",
+        "Perfect Question: Had + subject + V3?",
+        "WRONG: 'Did you had a car?' | CORRECT: 'Did you have a car?'",
+        "Short answers: Yes, I did / No, I didn't | Yes, I had / No, I hadn't"
+      ],
+      "examples": [
+        { "hindi": "क्या तुम्हारे पास एक कार थी?", "english": "Did you have a car?" },
+        { "hindi": "क्या उसके पास पैसे थे?", "english": "Did she have money?" },
+        { "hindi": "क्या तुमने खाना खा लिया था?", "english": "Had you eaten the food?" },
+        { "hindi": "क्या वह जा चुका था?", "english": "Had he gone?" },
+        { "hindi": "क्या उन्होंने बैठक में भाग लिया था?", "english": "Had they attended the meeting?" },
+        { "hindi": "क्या तुम्हारे पास कोई सुझाव था?", "english": "Did you have any suggestion?" },
+        { "hindi": "क्या रिपोर्ट तैयार हो गई थी?", "english": "Had the report been prepared?" },
+        { "hindi": "क्या तुमने पहले यह काम किया था?", "english": "Had you done this work before?" },
+        { "hindi": "क्या उनके पास कोई योजना थी?", "english": "Did they have a plan?" },
+        { "hindi": "क्या टीम ने प्रोजेक्ट पूरा किया था?", "english": "Had the team completed the project?" }
+      ],
+      "keyPoint": "Did + have (not 'did + had') for possession questions. Had + V3 for perfect questions."
+    },
+    {
+      "id": 6,
+      "title": "Sequence of Events — When I reached, he had already left",
+      "duration": 10,
+      "theory": "One of the most natural uses of Past Perfect is showing the order of two past events. The earlier event uses Past Perfect (had + V3), and the later event uses Simple Past. Common connectors: when, by the time, before, after, already, just. This helps listeners understand WHICH thing happened first.",
+      "rules": [
+        "Earlier event: Past Perfect (had + V3)",
+        "Later event: Simple Past (V2)",
+        "Connectors: when, by the time, before, after",
+        "Key words: already, just, never, yet"
+      ],
+      "examples": [
+        { "hindi": "जब मैं पहुँचा, वह पहले ही जा चुका था।", "english": "When I reached, he had already left." },
+        { "hindi": "जब उसने फोन किया, मैं सो चुका था।", "english": "When she called, I had already slept." },
+        { "hindi": "जब तक हम स्टेशन पहुँचे, ट्रेन जा चुकी थी।", "english": "By the time we reached the station, the train had left." },
+        { "hindi": "इससे पहले कि मैं कुछ कहता, उसने माफी मांग ली थी।", "english": "Before I could say anything, he had apologized." },
+        { "hindi": "जब मैंने रिपोर्ट जमा की, वह पहले ही देख चुका था।", "english": "When I submitted the report, he had already reviewed it." },
+        { "hindi": "जब बॉस आया, सब काम हो चुका था।", "english": "When the boss came, all the work had been done." },
+        { "hindi": "डॉक्टर के पहुँचने से पहले, मरीज़ ठीक हो गया था।", "english": "Before the doctor arrived, the patient had recovered." },
+        { "hindi": "जब तक मुझे पता चला, मौका जा चुका था।", "english": "By the time I found out, the opportunity had gone." },
+        { "hindi": "जब हमने मीटिंग शुरू की, मैंने पहले ही नोट्स तैयार कर लिए थे।", "english": "When we started the meeting, I had already prepared the notes." },
+        { "hindi": "उसने नौकरी छोड़ने से पहले, उसने एक नई नौकरी ढूंढ ली थी।", "english": "Before she left the job, she had found a new one." }
+      ],
+      "keyPoint": "Earlier action = had + V3. Later action = Simple Past. Use 'when', 'by the time', 'before' to connect."
+    },
+    {
+      "id": 7,
+      "title": "Conditional — If I had money, I would buy it",
+      "duration": 8,
+      "theory": "The Third Conditional uses 'had' to talk about imaginary past situations. Structure: If + subject + had + V3, subject + would have + V3. This is used to express regret, hypothetical situations, and 'what if' scenarios. A simpler form also exists: If + subject + had + noun, subject + would + verb (Second Conditional style with past possession).",
+      "rules": [
+        "Third Conditional: If + had + V3, would have + V3",
+        "If I had known, I would have told you.",
+        "Simpler form: If I had money, I would buy it.",
+        "Shows unreal/hypothetical past or past conditions"
+      ],
+      "examples": [
+        { "hindi": "अगर मेरे पास पैसे होते, मैं यह खरीदता।", "english": "If I had money, I would buy it." },
+        { "hindi": "अगर मुझे पता होता, मैं तुम्हें बताता।", "english": "If I had known, I would have told you." },
+        { "hindi": "अगर उसके पास समय होता, वह आता।", "english": "If he had time, he would come." },
+        { "hindi": "अगर मैंने मेहनत की होती, मैं पास हो जाता।", "english": "If I had worked hard, I would have passed." },
+        { "hindi": "अगर उसने सुना होता, गलती नहीं होती।", "english": "If she had listened, the mistake wouldn't have happened." },
+        { "hindi": "अगर हमारे पास एक प्लान होता, हम सफल होते।", "english": "If we had a plan, we would have succeeded." },
+        { "hindi": "अगर मैंने पहले आवेदन किया होता, नौकरी मिल जाती।", "english": "If I had applied earlier, I would have got the job." },
+        { "hindi": "अगर उसने ईमेल पढ़ा होता, वह जानता।", "english": "If he had read the email, he would have known." }
+      ],
+      "keyPoint": "If + had (+ V3 or noun) → would + (have + V3 or verb). Used for unreal/hypothetical situations."
+    },
+    {
+      "id": 8,
+      "title": "Common Phrases with Had",
+      "duration": 7,
+      "theory": "Many everyday English expressions use 'had'. These are idiomatic and natural phrases that native speakers use constantly. Memorizing these will make your English sound much more natural in both casual and professional settings.",
+      "phrases": [
+        { "phrase": "had breakfast/lunch/dinner", "hindi": "नाश्ता/दोपहर का खाना/रात का खाना खाया", "example": "I had breakfast at 8 AM." },
+        { "phrase": "had a meeting", "hindi": "एक बैठक हुई / मीटिंग थी", "example": "We had a team meeting yesterday." },
+        { "phrase": "had a problem", "hindi": "एक समस्या थी", "example": "He had a problem with the system." },
+        { "phrase": "had a good time", "hindi": "अच्छा समय बिताया", "example": "We had a good time at the party." },
+        { "phrase": "had a dream", "hindi": "एक सपना आया", "example": "I had a strange dream last night." },
+        { "phrase": "had an idea", "hindi": "एक विचार आया", "example": "She had a great idea for the project." },
+        { "phrase": "had a cold", "hindi": "सर्दी थी/जुकाम था", "example": "He had a cold last week." },
+        { "phrase": "had no choice", "hindi": "कोई विकल्प नहीं था", "example": "She had no choice but to resign." },
+        { "phrase": "had a look", "hindi": "नज़र डाली / देखा", "example": "I had a look at the report." },
+        { "phrase": "had enough", "hindi": "बहुत हो गया / पर्याप्त था", "example": "I had enough of his excuses." }
+      ],
+      "keyPoint": "Learn these common 'had' phrases to sound natural in everyday and professional English."
+    },
+    {
+      "id": 9,
+      "title": "Office and Professional Use of Had",
+      "duration": 8,
+      "theory": "In office settings, 'had' is extremely common. It is used in emails, reports, meetings, and professional conversation to describe past situations, completed tasks, and past challenges. This lesson focuses on professional English using 'had'.",
+      "examples": [
+        { "context": "Email", "hindi": "हमारी कल एक टीम मीटिंग थी।", "english": "We had a team meeting yesterday." },
+        { "context": "Report", "hindi": "प्रोजेक्ट में कुछ तकनीकी समस्याएं थीं।", "english": "The project had some technical issues." },
+        { "context": "Presentation", "hindi": "पिछले साल कंपनी के पास 500 क्लाइंट थे।", "english": "Last year, the company had 500 clients." },
+        { "context": "Meeting", "hindi": "जब तक मैं पहुँचा, निर्णय हो चुका था।", "english": "By the time I arrived, the decision had been made." },
+        { "context": "Appraisal", "hindi": "उसने लक्ष्य पहले ही पूरे कर लिए थे।", "english": "She had already achieved the targets." },
+        { "context": "Client Call", "hindi": "ग्राहक को पहले से एक खराब अनुभव था।", "english": "The client had a bad experience earlier." },
+        { "context": "HR", "hindi": "कर्मचारी के पास 5 साल का अनुभव था।", "english": "The employee had 5 years of experience." },
+        { "context": "Deadline", "hindi": "जब बॉस ने जाँच की, टीम ने काम खत्म कर लिया था।", "english": "When the boss checked, the team had finished the work." },
+        { "context": "Problem-Solving", "hindi": "हमने पहले भी ऐसी समस्या देखी थी।", "english": "We had seen such a problem before." },
+        { "context": "Performance Review", "hindi": "पिछले साल हमारे पास ज़्यादा बजट था।", "english": "Last year, we had a bigger budget." }
+      ],
+      "professionalTips": [
+        "Use 'had' in past reports to describe what existed at a specific time",
+        "Use 'had already + V3' to show proactive completion of tasks",
+        "Use 'hadn't' to professionally explain why something wasn't done",
+        "'Had a meeting', 'had a call', 'had a deadline' are very common in office English"
+      ],
+      "keyPoint": "In office English, 'had' is used constantly for past states, past tasks, and timeline reporting."
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "day": 1,
+  "title": "Basics of English",
+  "slug": "01-basics",
+  "type": "grammar",
+  "difficulty": "beginner",
+  "cefr": "A0",
+  "emoji": "📚",
+  "color": "#6366f1",
+  "topics": [
+    "Subject-Verb-Object Structure",
+    "Simple Present Tense",
+    "Subject Pronouns",
+    "Object Pronouns",
+    "Possessive Adjectives",
+    "Articles (A, An, The)",
+    "Basic Question Formation",
+    "Negative Sentences",
+    "Common Verbs",
+    "Daily Vocabulary"
+  ],
+  "totalQuestions": 500,
+  "totalVocabulary": 150,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 50,
+  "prerequisites": [],
+  "nextDay": 2,
+  "tags": ["basics", "grammar", "beginner", "sentence-structure", "svo", "pronouns", "articles"],
+  "instructor": "75 Days Hard English Team",
+  "lastUpdated": "2026-07-08",
+  "version": "2.0"
+}

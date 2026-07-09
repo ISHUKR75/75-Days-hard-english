@@ -1,0 +1,227 @@
+{
+  "day": 9,
+  "title": "Vocabulary — Use of There",
+  "totalWords": 150,
+  "categories": [
+    {
+      "category": "Places & Locations (जगहें)",
+      "words": [
+        { "id": 1, "word": "table", "hindi": "मेज", "example": "There is a book on the table.", "pronunciation": "TAY-bul" },
+        { "id": 2, "word": "room", "hindi": "कमरा", "example": "There is a fan in the room.", "pronunciation": "room" },
+        { "id": 3, "word": "office", "hindi": "दफ्तर", "example": "There are many employees in the office.", "pronunciation": "OFF-is" },
+        { "id": 4, "word": "market", "hindi": "बाजार", "example": "There are many shops in the market.", "pronunciation": "MAR-kit" },
+        { "id": 5, "word": "classroom", "hindi": "कक्षा", "example": "There are 30 students in the classroom.", "pronunciation": "KLAS-room" },
+        { "id": 6, "word": "hospital", "hindi": "अस्पताल", "example": "There is a hospital near my house.", "pronunciation": "HOS-pi-tul" },
+        { "id": 7, "word": "station", "hindi": "स्टेशन", "example": "There are many trains at the station.", "pronunciation": "STAY-shun" },
+        { "id": 8, "word": "park", "hindi": "पार्क", "example": "There are many trees in the park.", "pronunciation": "park" },
+        { "id": 9, "word": "street", "hindi": "गली/सड़क", "example": "There are many cars on the street.", "pronunciation": "street" },
+        { "id": 10, "word": "floor", "hindi": "मंजिल", "example": "There is a meeting room on the third floor.", "pronunciation": "flawr" },
+        { "id": 11, "word": "corner", "hindi": "कोना", "example": "There is a shop at the corner.", "pronunciation": "KOR-ner" },
+        { "id": 12, "word": "area", "hindi": "इलाका", "example": "There are many schools in this area.", "pronunciation": "AYR-ee-uh" },
+        { "id": 13, "word": "venue", "hindi": "स्थान", "example": "There will be free parking at the venue.", "pronunciation": "VEN-yoo" },
+        { "id": 14, "word": "lane", "hindi": "गली", "example": "There was a dog in the lane.", "pronunciation": "layn" },
+        { "id": 15, "word": "basement", "hindi": "तहखाना", "example": "There is a parking in the basement.", "pronunciation": "BAYS-munt" }
+      ]
+    },
+    {
+      "category": "Objects & Things (वस्तुएँ)",
+      "words": [
+        { "id": 16, "word": "chair", "hindi": "कुर्सी", "example": "There is a chair near the window.", "pronunciation": "chair" },
+        { "id": 17, "word": "pen", "hindi": "कलम", "example": "There is a pen on the desk.", "pronunciation": "pen" },
+        { "id": 18, "word": "file", "hindi": "फाइल", "example": "There are three files on the table.", "pronunciation": "fyl" },
+        { "id": 19, "word": "laptop", "hindi": "लैपटॉप", "example": "There is a laptop on my desk.", "pronunciation": "LAP-top" },
+        { "id": 20, "word": "printer", "hindi": "प्रिंटर", "example": "There are two printers in the office.", "pronunciation": "PRIN-ter" },
+        { "id": 21, "word": "bottle", "hindi": "बोतल", "example": "There is a bottle of water on the table.", "pronunciation": "BOT-ul" },
+        { "id": 22, "word": "bag", "hindi": "थैला/बैग", "example": "There is a bag near the door.", "pronunciation": "bag" },
+        { "id": 23, "word": "mirror", "hindi": "दर्पण", "example": "There is a mirror in the bathroom.", "pronunciation": "MIR-er" },
+        { "id": 24, "word": "clock", "hindi": "घड़ी", "example": "There is a clock on the wall.", "pronunciation": "klok" },
+        { "id": 25, "word": "calendar", "hindi": "कैलेंडर", "example": "There is a calendar on my desk.", "pronunciation": "KAL-en-der" },
+        { "id": 26, "word": "whiteboard", "hindi": "सफेद बोर्ड", "example": "There is a whiteboard in the classroom.", "pronunciation": "WYT-bord" },
+        { "id": 27, "word": "projector", "hindi": "प्रोजेक्टर", "example": "There is a projector in the conference room.", "pronunciation": "pruh-JEK-ter" },
+        { "id": 28, "word": "notice board", "hindi": "सूचना बोर्ड", "example": "There is an announcement on the notice board.", "pronunciation": "NOH-tis bord" },
+        { "id": 29, "word": "dustbin", "hindi": "कचरे का डब्बा", "example": "There is a dustbin near the exit.", "pronunciation": "DUST-bin" },
+        { "id": 30, "word": "sofa", "hindi": "सोफा", "example": "There is a sofa in the living room.", "pronunciation": "SOH-fuh" }
+      ]
+    },
+    {
+      "category": "People (लोग)",
+      "words": [
+        { "id": 31, "word": "student", "hindi": "छात्र", "example": "There are 40 students in my class.", "pronunciation": "STOO-dent" },
+        { "id": 32, "word": "teacher", "hindi": "शिक्षक", "example": "There is a new teacher today.", "pronunciation": "TEE-cher" },
+        { "id": 33, "word": "employee", "hindi": "कर्मचारी", "example": "There are 50 employees in our company.", "pronunciation": "em-PLOY-ee" },
+        { "id": 34, "word": "manager", "hindi": "प्रबंधक", "example": "There is a manager in every department.", "pronunciation": "MAN-i-jer" },
+        { "id": 35, "word": "customer", "hindi": "ग्राहक", "example": "There are many customers waiting.", "pronunciation": "KUS-tuh-mer" },
+        { "id": 36, "word": "candidate", "hindi": "उम्मीदवार", "example": "There are five candidates for this post.", "pronunciation": "KAN-di-dayt" },
+        { "id": 37, "word": "visitor", "hindi": "आगंतुक", "example": "There is a visitor at the reception.", "pronunciation": "VIZ-i-ter" },
+        { "id": 38, "word": "doctor", "hindi": "डॉक्टर", "example": "There is a doctor available today.", "pronunciation": "DOK-ter" },
+        { "id": 39, "word": "guard", "hindi": "चौकीदार", "example": "There is a guard at the gate.", "pronunciation": "gard" },
+        { "id": 40, "word": "crowd", "hindi": "भीड़", "example": "There was a crowd at the bus stop.", "pronunciation": "krowd" }
+      ]
+    },
+    {
+      "category": "Problems & Situations (समस्याएँ और स्थितियाँ)",
+      "words": [
+        { "id": 41, "word": "problem", "hindi": "समस्या", "example": "There is a problem in the system.", "pronunciation": "PROB-lem" },
+        { "id": 42, "word": "mistake", "hindi": "गलती", "example": "There has been a mistake in the report.", "pronunciation": "mis-TAYK" },
+        { "id": 43, "word": "error", "hindi": "त्रुटि", "example": "There is an error in the code.", "pronunciation": "EHR-er" },
+        { "id": 44, "word": "delay", "hindi": "देरी", "example": "There has been a delay in the project.", "pronunciation": "di-LAY" },
+        { "id": 45, "word": "complaint", "hindi": "शिकायत", "example": "There have been many complaints.", "pronunciation": "kum-PLAYNT" },
+        { "id": 46, "word": "issue", "hindi": "मुद्दा", "example": "There is an issue with the internet.", "pronunciation": "ISH-oo" },
+        { "id": 47, "word": "accident", "hindi": "दुर्घटना", "example": "There was an accident near the office.", "pronunciation": "AK-si-dent" },
+        { "id": 48, "word": "shortage", "hindi": "कमी", "example": "There is a shortage of water.", "pronunciation": "SHOR-tij" },
+        { "id": 49, "word": "noise", "hindi": "शोर", "example": "There is a lot of noise outside.", "pronunciation": "noyz" },
+        { "id": 50, "word": "traffic", "hindi": "यातायात", "example": "There is heavy traffic on this road.", "pronunciation": "TRAF-ik" }
+      ]
+    },
+    {
+      "category": "Events & Activities (कार्यक्रम और गतिविधियाँ)",
+      "words": [
+        { "id": 51, "word": "meeting", "hindi": "बैठक", "example": "There is a meeting at 10 am.", "pronunciation": "MEE-ting" },
+        { "id": 52, "word": "event", "hindi": "कार्यक्रम", "example": "There will be a big event next week.", "pronunciation": "EE-vent" },
+        { "id": 53, "word": "party", "hindi": "पार्टी", "example": "There was a party last night.", "pronunciation": "PAR-tee" },
+        { "id": 54, "word": "test", "hindi": "परीक्षा", "example": "There will be a test tomorrow.", "pronunciation": "test" },
+        { "id": 55, "word": "competition", "hindi": "प्रतियोगिता", "example": "There is a competition on Saturday.", "pronunciation": "kom-pi-TI-shun" },
+        { "id": 56, "word": "festival", "hindi": "त्योहार", "example": "There are many festivals in India.", "pronunciation": "FES-ti-vul" },
+        { "id": 57, "word": "announcement", "hindi": "घोषणा", "example": "There will be an announcement soon.", "pronunciation": "uh-NOWNS-ment" },
+        { "id": 58, "word": "presentation", "hindi": "प्रस्तुति", "example": "There is a presentation today.", "pronunciation": "prez-en-TAY-shun" },
+        { "id": 59, "word": "interview", "hindi": "साक्षात्कार", "example": "There will be interviews next week.", "pronunciation": "IN-ter-vyoo" },
+        { "id": 60, "word": "holiday", "hindi": "छुट्टी", "example": "There is a holiday on Monday.", "pronunciation": "HOL-i-day" }
+      ]
+    },
+    {
+      "category": "Nature & Weather (प्रकृति और मौसम)",
+      "words": [
+        { "id": 61, "word": "rain", "hindi": "बारिश", "example": "There is heavy rain outside.", "pronunciation": "rayn" },
+        { "id": 62, "word": "flood", "hindi": "बाढ़", "example": "There were floods last year.", "pronunciation": "flud" },
+        { "id": 63, "word": "storm", "hindi": "तूफान", "example": "There is a storm coming.", "pronunciation": "storm" },
+        { "id": 64, "word": "fog", "hindi": "कोहरा", "example": "There is thick fog this morning.", "pronunciation": "fog" },
+        { "id": 65, "word": "heat", "hindi": "गर्मी", "example": "There is a lot of heat today.", "pronunciation": "heet" },
+        { "id": 66, "word": "breeze", "hindi": "हवा", "example": "There is a cool breeze today.", "pronunciation": "breez" },
+        { "id": 67, "word": "sunshine", "hindi": "धूप", "example": "There is sunshine today.", "pronunciation": "SUN-shyn" },
+        { "id": 68, "word": "cloud", "hindi": "बादल", "example": "There are many clouds in the sky.", "pronunciation": "klowd" },
+        { "id": 69, "word": "thunder", "hindi": "गरज", "example": "There was thunder last night.", "pronunciation": "THUN-der" },
+        { "id": 70, "word": "earthquake", "hindi": "भूकंप", "example": "There was an earthquake in 2001.", "pronunciation": "ERTH-kwayk" }
+      ]
+    },
+    {
+      "category": "Food & Home (खाना और घर)",
+      "words": [
+        { "id": 71, "word": "milk", "hindi": "दूध", "example": "There is some milk in the fridge.", "pronunciation": "milk" },
+        { "id": 72, "word": "rice", "hindi": "चावल", "example": "There is rice in the pot.", "pronunciation": "rys" },
+        { "id": 73, "word": "vegetable", "hindi": "सब्जी", "example": "There are fresh vegetables in the kitchen.", "pronunciation": "VEJ-tuh-bul" },
+        { "id": 74, "word": "fruit", "hindi": "फल", "example": "There are fruits in the basket.", "pronunciation": "froot" },
+        { "id": 75, "word": "water", "hindi": "पानी", "example": "There is no water in the tank.", "pronunciation": "WAW-ter" },
+        { "id": 76, "word": "electricity", "hindi": "बिजली", "example": "There is no electricity in this area.", "pronunciation": "i-lek-TRIS-i-tee" },
+        { "id": 77, "word": "furniture", "hindi": "फर्नीचर", "example": "There is new furniture in the office.", "pronunciation": "FUR-ni-cher" },
+        { "id": 78, "word": "appliance", "hindi": "उपकरण", "example": "There are many appliances in the kitchen.", "pronunciation": "uh-PLY-uns" },
+        { "id": 79, "word": "garden", "hindi": "बगीचा", "example": "There is a beautiful garden near the office.", "pronunciation": "GAR-den" },
+        { "id": 80, "word": "kitchen", "hindi": "रसोई", "example": "There is a modern kitchen in this flat.", "pronunciation": "KICH-en" }
+      ]
+    },
+    {
+      "category": "Time Expressions (समय के शब्द)",
+      "words": [
+        { "id": 81, "word": "today", "hindi": "आज", "example": "There is a lot of work today.", "pronunciation": "tuh-DAY" },
+        { "id": 82, "word": "yesterday", "hindi": "कल (बीता हुआ)", "example": "There was a meeting yesterday.", "pronunciation": "YES-ter-day" },
+        { "id": 83, "word": "tomorrow", "hindi": "कल (आने वाला)", "example": "There will be a test tomorrow.", "pronunciation": "tuh-MOR-oh" },
+        { "id": 84, "word": "recently", "hindi": "हाल ही में", "example": "There have been many changes recently.", "pronunciation": "REE-sent-lee" },
+        { "id": 85, "word": "lately", "hindi": "हाल ही में", "example": "There has been a lot of stress lately.", "pronunciation": "LAYT-lee" },
+        { "id": 86, "word": "currently", "hindi": "वर्तमान में", "example": "There is currently no vacancy.", "pronunciation": "KUR-ent-lee" },
+        { "id": 87, "word": "previously", "hindi": "पहले", "example": "There were many parks here previously.", "pronunciation": "PREE-vee-us-lee" },
+        { "id": 88, "word": "soon", "hindi": "जल्द ही", "example": "There will soon be a solution.", "pronunciation": "soon" },
+        { "id": 89, "word": "already", "hindi": "पहले से ही", "example": "There is already a queue here.", "pronunciation": "awl-RED-ee" },
+        { "id": 90, "word": "still", "hindi": "अभी भी", "example": "There is still time.", "pronunciation": "stil" }
+      ]
+    },
+    {
+      "category": "Quantity Words (मात्रा के शब्द)",
+      "words": [
+        { "id": 91, "word": "many", "hindi": "कई/बहुत", "example": "There are many options available.", "pronunciation": "MEN-ee" },
+        { "id": 92, "word": "few", "hindi": "कुछ (कम)", "example": "There are a few mistakes here.", "pronunciation": "fyoo" },
+        { "id": 93, "word": "several", "hindi": "कई", "example": "There are several ways to solve this.", "pronunciation": "SEV-er-ul" },
+        { "id": 94, "word": "enough", "hindi": "पर्याप्त", "example": "There is enough food for everyone.", "pronunciation": "i-NUF" },
+        { "id": 95, "word": "plenty", "hindi": "काफी", "example": "There is plenty of time left.", "pronunciation": "PLEN-tee" },
+        { "id": 96, "word": "some", "hindi": "कुछ", "example": "There are some good news.", "pronunciation": "sum" },
+        { "id": 97, "word": "no", "hindi": "कोई नहीं", "example": "There is no problem.", "pronunciation": "noh" },
+        { "id": 98, "word": "any", "hindi": "कोई भी", "example": "Is there any milk?", "pronunciation": "EN-ee" },
+        { "id": 99, "word": "lot", "hindi": "बहुत", "example": "There is a lot of work.", "pronunciation": "lot" },
+        { "id": 100, "word": "little", "hindi": "थोड़ा", "example": "There is a little water left.", "pronunciation": "LIT-ul" }
+      ]
+    },
+    {
+      "category": "Professional & Office Words (कार्यालय शब्द)",
+      "words": [
+        { "id": 101, "word": "vacancy", "hindi": "रिक्ति", "example": "There is a vacancy in our team.", "pronunciation": "VAY-kun-see" },
+        { "id": 102, "word": "opportunity", "hindi": "अवसर", "example": "There are many opportunities here.", "pronunciation": "op-er-TYOO-ni-tee" },
+        { "id": 103, "word": "deadline", "hindi": "अंतिम तिथि", "example": "There is a deadline on Friday.", "pronunciation": "DED-lyn" },
+        { "id": 104, "word": "project", "hindi": "परियोजना", "example": "There is a new project this month.", "pronunciation": "PROJ-ekt" },
+        { "id": 105, "word": "department", "hindi": "विभाग", "example": "There are five departments in our company.", "pronunciation": "di-PART-ment" },
+        { "id": 106, "word": "update", "hindi": "अपडेट", "example": "There is an update on the project.", "pronunciation": "UP-dayt" },
+        { "id": 107, "word": "report", "hindi": "रिपोर्ट", "example": "There is a report due today.", "pronunciation": "ri-PORT" },
+        { "id": 108, "word": "policy", "hindi": "नीति", "example": "There is a new policy from next month.", "pronunciation": "POL-i-see" },
+        { "id": 109, "word": "target", "hindi": "लक्ष्य", "example": "There is a target to achieve this quarter.", "pronunciation": "TAR-git" },
+        { "id": 110, "word": "budget", "hindi": "बजट", "example": "There is a budget constraint.", "pronunciation": "BUJ-it" }
+      ]
+    },
+    {
+      "category": "Transportation & City (शहर और यातायात)",
+      "words": [
+        { "id": 111, "word": "bus", "hindi": "बस", "example": "There is a bus every 10 minutes.", "pronunciation": "bus" },
+        { "id": 112, "word": "train", "hindi": "ट्रेन", "example": "There are many trains from Delhi.", "pronunciation": "trayn" },
+        { "id": 113, "word": "metro", "hindi": "मेट्रो", "example": "There is a metro station nearby.", "pronunciation": "MET-roh" },
+        { "id": 114, "word": "airport", "hindi": "हवाई अड्डा", "example": "There are two airports in this city.", "pronunciation": "AIR-port" },
+        { "id": 115, "word": "highway", "hindi": "राजमार्ग", "example": "There is a new highway under construction.", "pronunciation": "HY-way" },
+        { "id": 116, "word": "signal", "hindi": "सिग्नल", "example": "There is a traffic signal at this crossing.", "pronunciation": "SIG-nul" },
+        { "id": 117, "word": "flyover", "hindi": "फ्लाईओवर", "example": "There is a flyover being built here.", "pronunciation": "FLY-oh-ver" },
+        { "id": 118, "word": "parking", "hindi": "पार्किंग", "example": "There is free parking in the basement.", "pronunciation": "PAR-king" },
+        { "id": 119, "word": "bridge", "hindi": "पुल", "example": "There is a bridge over the river.", "pronunciation": "brij" },
+        { "id": 120, "word": "crossing", "hindi": "चौराहा", "example": "There are shops at every crossing.", "pronunciation": "KROSS-ing" }
+      ]
+    },
+    {
+      "category": "Health & Education (स्वास्थ्य और शिक्षा)",
+      "words": [
+        { "id": 121, "word": "clinic", "hindi": "क्लिनिक", "example": "There is a clinic on the next street.", "pronunciation": "KLIN-ik" },
+        { "id": 122, "word": "pharmacy", "hindi": "दवाई की दुकान", "example": "There is a pharmacy nearby.", "pronunciation": "FAR-muh-see" },
+        { "id": 123, "word": "ambulance", "hindi": "एम्बुलेंस", "example": "There is an ambulance outside.", "pronunciation": "AM-byoo-luns" },
+        { "id": 124, "word": "library", "hindi": "पुस्तकालय", "example": "There is a library in our school.", "pronunciation": "LY-brer-ee" },
+        { "id": 125, "word": "laboratory", "hindi": "प्रयोगशाला", "example": "There is a science laboratory on the second floor.", "pronunciation": "LAB-ruh-tor-ee" },
+        { "id": 126, "word": "syllabus", "hindi": "पाठ्यक्रम", "example": "There are changes in the syllabus.", "pronunciation": "SIL-uh-bus" },
+        { "id": 127, "word": "scholarship", "hindi": "छात्रवृत्ति", "example": "There are scholarships for meritorious students.", "pronunciation": "SKOL-er-ship" },
+        { "id": 128, "word": "hostel", "hindi": "छात्रावास", "example": "There is a hostel near the college.", "pronunciation": "HOS-tel" },
+        { "id": 129, "word": "canteen", "hindi": "कैंटीन", "example": "There is a canteen in our office.", "pronunciation": "kan-TEEN" },
+        { "id": 130, "word": "gym", "hindi": "व्यायामशाला", "example": "There is a gym on the ground floor.", "pronunciation": "jim" }
+      ]
+    },
+    {
+      "category": "Abstract Concepts (अमूर्त अवधारणाएँ)",
+      "words": [
+        { "id": 131, "word": "hope", "hindi": "उम्मीद", "example": "There is always hope.", "pronunciation": "hohp" },
+        { "id": 132, "word": "solution", "hindi": "समाधान", "example": "There is a solution to every problem.", "pronunciation": "suh-LOO-shun" },
+        { "id": 133, "word": "possibility", "hindi": "संभावना", "example": "There is a possibility of rain.", "pronunciation": "pos-i-BIL-i-tee" },
+        { "id": 134, "word": "need", "hindi": "जरूरत", "example": "There is a need for change.", "pronunciation": "need" },
+        { "id": 135, "word": "scope", "hindi": "गुंजाइश", "example": "There is scope for improvement.", "pronunciation": "skohp" },
+        { "id": 136, "word": "difference", "hindi": "अंतर", "example": "There is a difference between the two.", "pronunciation": "DIF-er-uns" },
+        { "id": 137, "word": "reason", "hindi": "कारण", "example": "There is a reason for everything.", "pronunciation": "REE-zun" },
+        { "id": 138, "word": "chance", "hindi": "मौका", "example": "There is a chance of success.", "pronunciation": "chans" },
+        { "id": 139, "word": "risk", "hindi": "जोखिम", "example": "There is a risk involved.", "pronunciation": "risk" },
+        { "id": 140, "word": "benefit", "hindi": "फायदा", "example": "There are many benefits to this plan.", "pronunciation": "BEN-i-fit" }
+      ]
+    },
+    {
+      "category": "Common Adjectives Used with There (विशेषण)",
+      "words": [
+        { "id": 141, "word": "available", "hindi": "उपलब्ध", "example": "There are no seats available.", "pronunciation": "uh-VAYL-uh-bul" },
+        { "id": 142, "word": "nearby", "hindi": "पास में", "example": "There is a school nearby.", "pronunciation": "NEER-by" },
+        { "id": 143, "word": "enough", "hindi": "पर्याप्त", "example": "There isn't enough space.", "pronunciation": "i-NUF" },
+        { "id": 144, "word": "free", "hindi": "मुफ्त/खाली", "example": "There is a free seat here.", "pronunciation": "free" },
+        { "id": 145, "word": "new", "hindi": "नया", "example": "There is a new student today.", "pronunciation": "nyoo" },
+        { "id": 146, "word": "old", "hindi": "पुराना", "example": "There was an old building here.", "pronunciation": "ohld" },
+        { "id": 147, "word": "only", "hindi": "केवल", "example": "There is only one option.", "pronunciation": "OHN-lee" },
+        { "id": 148, "word": "single", "hindi": "एकमात्र", "example": "There isn't a single mistake.", "pronunciation": "SING-gul" },
+        { "id": 149, "word": "total", "hindi": "कुल", "example": "There are a total of 500 questions.", "pronunciation": "TOH-tul" },
+        { "id": 150, "word": "extra", "hindi": "अतिरिक्त", "example": "There are extra chairs in the store room.", "pronunciation": "EK-struh" }
+      ]
+    }
+  ]
+}

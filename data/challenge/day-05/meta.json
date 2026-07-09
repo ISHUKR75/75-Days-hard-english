@@ -1,0 +1,32 @@
+{
+  "day": 5,
+  "title": "Demonstrative Pronoun",
+  "slug": "05-demonstrative",
+  "type": "grammar",
+  "difficulty": "beginner",
+  "cefr": "A1",
+  "emoji": "👉",
+  "color": "#f43f5e",
+  "topics": [
+    "This (यह - singular near)",
+    "That (वह - singular far)",
+    "These (ये - plural near)",
+    "Those (वे - plural far)",
+    "Demonstrative as Pronoun",
+    "Demonstrative as Adjective",
+    "Questions with Demonstratives",
+    "Demonstratives in Conversation",
+    "Office Usage",
+    "Shopping Context"
+  ],
+  "totalQuestions": 500,
+  "totalVocabulary": 150,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 50,
+  "prerequisites": [1, 2, 3, 4],
+  "nextDay": 6,
+  "tags": ["demonstrative", "this", "that", "these", "those", "pronoun", "grammar", "beginner"],
+  "lastUpdated": "2026-07-08",
+  "version": "2.0"
+}

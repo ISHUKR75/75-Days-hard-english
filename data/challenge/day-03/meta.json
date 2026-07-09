@@ -1,0 +1,32 @@
+{
+  "day": 3,
+  "title": "Imperative Sentence",
+  "slug": "03-imperative",
+  "type": "grammar",
+  "difficulty": "beginner",
+  "cefr": "A1",
+  "emoji": "⚡",
+  "color": "#d946ef",
+  "topics": [
+    "Positive Imperative (Commands)",
+    "Negative Imperative (Don't/Do Not)",
+    "Polite Imperative (Please)",
+    "Warning Imperative (Never/Always)",
+    "Suggestions (Let's)",
+    "Office Commands",
+    "Classroom Commands",
+    "Emergency Phrases",
+    "Daily Life Instructions",
+    "Professional Requests"
+  ],
+  "totalQuestions": 500,
+  "totalVocabulary": 150,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 50,
+  "prerequisites": [1, 2],
+  "nextDay": 4,
+  "tags": ["imperative", "commands", "grammar", "beginner", "office", "polite"],
+  "lastUpdated": "2026-07-08",
+  "version": "2.0"
+}

@@ -1,0 +1,232 @@
+{
+  "day": 5,
+  "topic": "Demonstrative Pronouns",
+  "totalWords": 150,
+  "categories": [
+    {
+      "category": "Core Demonstratives",
+      "words": [
+        { "id": 1, "word": "this", "hindi": "यह", "pronunciation": "dhis", "partOfSpeech": "pronoun/adjective", "example": "This is my pen.", "exampleHindi": "यह मेरी पेन है।" },
+        { "id": 2, "word": "that", "hindi": "वह/वो", "pronunciation": "dhaet", "partOfSpeech": "pronoun/adjective", "example": "That is his car.", "exampleHindi": "वह उसकी कार है।" },
+        { "id": 3, "word": "these", "hindi": "ये", "pronunciation": "dheez", "partOfSpeech": "pronoun/adjective", "example": "These are my books.", "exampleHindi": "ये मेरी किताबें हैं।" },
+        { "id": 4, "word": "those", "hindi": "वे/वो", "pronunciation": "dhohz", "partOfSpeech": "pronoun/adjective", "example": "Those are their bags.", "exampleHindi": "वे उनके बैग हैं।" }
+      ]
+    },
+    {
+      "category": "Common Nouns (Singular — used with This/That)",
+      "words": [
+        { "id": 5, "word": "pen", "hindi": "पेन/कलम", "pronunciation": "pen", "partOfSpeech": "noun", "example": "This is my pen.", "exampleHindi": "यह मेरी पेन है।" },
+        { "id": 6, "word": "book", "hindi": "किताब", "pronunciation": "buk", "partOfSpeech": "noun", "example": "This book is new.", "exampleHindi": "यह किताब नई है।" },
+        { "id": 7, "word": "bag", "hindi": "बैग/थैला", "pronunciation": "baeg", "partOfSpeech": "noun", "example": "That is her bag.", "exampleHindi": "वह उसका बैग है।" },
+        { "id": 8, "word": "phone", "hindi": "फोन/मोबाइल", "pronunciation": "fohn", "partOfSpeech": "noun", "example": "This is my phone.", "exampleHindi": "यह मेरा फोन है।" },
+        { "id": 9, "word": "car", "hindi": "कार/गाड़ी", "pronunciation": "kaar", "partOfSpeech": "noun", "example": "That is a new car.", "exampleHindi": "वह एक नई कार है।" },
+        { "id": 10, "word": "house", "hindi": "घर/मकान", "pronunciation": "haus", "partOfSpeech": "noun", "example": "This is my house.", "exampleHindi": "यह मेरा घर है।" },
+        { "id": 11, "word": "office", "hindi": "ऑफिस/कार्यालय", "pronunciation": "awfis", "partOfSpeech": "noun", "example": "This is my office.", "exampleHindi": "यह मेरा ऑफिस है।" },
+        { "id": 12, "word": "laptop", "hindi": "लैपटॉप", "pronunciation": "laeptawp", "partOfSpeech": "noun", "example": "This is my laptop.", "exampleHindi": "यह मेरा लैपटॉप है।" },
+        { "id": 13, "word": "chair", "hindi": "कुर्सी", "pronunciation": "chair", "partOfSpeech": "noun", "example": "This chair is comfortable.", "exampleHindi": "यह कुर्सी आरामदायक है।" },
+        { "id": 14, "word": "table", "hindi": "मेज/टेबल", "pronunciation": "teybl", "partOfSpeech": "noun", "example": "That table is big.", "exampleHindi": "वह मेज बड़ी है।" },
+        { "id": 15, "word": "report", "hindi": "रिपोर्ट", "pronunciation": "ripawrt", "partOfSpeech": "noun", "example": "This report is ready.", "exampleHindi": "यह रिपोर्ट तैयार है।" },
+        { "id": 16, "word": "document", "hindi": "दस्तावेज", "pronunciation": "dockyu-ment", "partOfSpeech": "noun", "example": "This document is important.", "exampleHindi": "यह दस्तावेज महत्वपूर्ण है।" },
+        { "id": 17, "word": "meeting", "hindi": "मीटिंग/बैठक", "pronunciation": "meetin", "partOfSpeech": "noun", "example": "That meeting was long.", "exampleHindi": "वह मीटिंग लंबी थी।" },
+        { "id": 18, "word": "project", "hindi": "परियोजना/प्रोजेक्ट", "pronunciation": "prawjekt", "partOfSpeech": "noun", "example": "This project is important.", "exampleHindi": "यह प्रोजेक्ट महत्वपूर्ण है।" },
+        { "id": 19, "word": "file", "hindi": "फाइल", "pronunciation": "fyl", "partOfSpeech": "noun", "example": "This file is mine.", "exampleHindi": "यह फाइल मेरी है।" },
+        { "id": 20, "word": "building", "hindi": "इमारत/भवन", "pronunciation": "bildin", "partOfSpeech": "noun", "example": "That building is tall.", "exampleHindi": "वह इमारत ऊंची है।" },
+        { "id": 21, "word": "key", "hindi": "चाबी", "pronunciation": "kee", "partOfSpeech": "noun", "example": "This is my key.", "exampleHindi": "यह मेरी चाबी है।" },
+        { "id": 22, "word": "watch", "hindi": "घड़ी", "pronunciation": "wawch", "partOfSpeech": "noun", "example": "That watch is expensive.", "exampleHindi": "वह घड़ी महंगी है।" },
+        { "id": 23, "word": "problem", "hindi": "समस्या/परेशानी", "pronunciation": "prawblem", "partOfSpeech": "noun", "example": "This is a big problem.", "exampleHindi": "यह एक बड़ी समस्या है।" },
+        { "id": 24, "word": "idea", "hindi": "विचार/आइडिया", "pronunciation": "aideeya", "partOfSpeech": "noun", "example": "That is a good idea.", "exampleHindi": "वह एक अच्छा विचार है।" },
+        { "id": 25, "word": "plan", "hindi": "योजना/प्लान", "pronunciation": "plaen", "partOfSpeech": "noun", "example": "This is our new plan.", "exampleHindi": "यह हमारी नई योजना है।" }
+      ]
+    },
+    {
+      "category": "Common Nouns (Plural — used with These/Those)",
+      "words": [
+        { "id": 26, "word": "books", "hindi": "किताबें", "pronunciation": "buks", "partOfSpeech": "noun", "example": "These are my books.", "exampleHindi": "ये मेरी किताबें हैं।" },
+        { "id": 27, "word": "bags", "hindi": "बैग", "pronunciation": "baegz", "partOfSpeech": "noun", "example": "Those are their bags.", "exampleHindi": "वे उनके बैग हैं।" },
+        { "id": 28, "word": "files", "hindi": "फाइलें", "pronunciation": "fylz", "partOfSpeech": "noun", "example": "These files are ready.", "exampleHindi": "ये फाइलें तैयार हैं।" },
+        { "id": 29, "word": "documents", "hindi": "दस्तावेज", "pronunciation": "dockyuments", "partOfSpeech": "noun", "example": "These documents need signatures.", "exampleHindi": "इन दस्तावेजों पर हस्ताक्षर चाहिए।" },
+        { "id": 30, "word": "reports", "hindi": "रिपोर्टें", "pronunciation": "ripawrts", "partOfSpeech": "noun", "example": "Those reports are old.", "exampleHindi": "वे रिपोर्टें पुरानी हैं।" },
+        { "id": 31, "word": "colleagues", "hindi": "सहयोगी", "pronunciation": "koleegs", "partOfSpeech": "noun", "example": "These are my colleagues.", "exampleHindi": "ये मेरे सहयोगी हैं।" },
+        { "id": 32, "word": "clients", "hindi": "ग्राहक", "pronunciation": "klynts", "partOfSpeech": "noun", "example": "Those clients are important.", "exampleHindi": "वे ग्राहक महत्वपूर्ण हैं।" },
+        { "id": 33, "word": "products", "hindi": "उत्पाद", "pronunciation": "prawdukts", "partOfSpeech": "noun", "example": "These are our products.", "exampleHindi": "ये हमारे उत्पाद हैं।" },
+        { "id": 34, "word": "results", "hindi": "परिणाम", "pronunciation": "rizults", "partOfSpeech": "noun", "example": "These results are great.", "exampleHindi": "ये परिणाम बहुत अच्छे हैं।" },
+        { "id": 35, "word": "employees", "hindi": "कर्मचारी", "pronunciation": "emploiyz", "partOfSpeech": "noun", "example": "Those employees are skilled.", "exampleHindi": "वे कर्मचारी कुशल हैं।" },
+        { "id": 36, "word": "machines", "hindi": "मशीनें", "pronunciation": "masheenz", "partOfSpeech": "noun", "example": "These machines are new.", "exampleHindi": "ये मशीनें नई हैं।" },
+        { "id": 37, "word": "problems", "hindi": "समस्याएं", "pronunciation": "prawblemz", "partOfSpeech": "noun", "example": "Those are their problems.", "exampleHindi": "वे उनकी समस्याएं हैं।" },
+        { "id": 38, "word": "questions", "hindi": "प्रश्न/सवाल", "pronunciation": "kweschunz", "partOfSpeech": "noun", "example": "These questions are difficult.", "exampleHindi": "ये सवाल कठिन हैं।" },
+        { "id": 39, "word": "goals", "hindi": "लक्ष्य", "pronunciation": "gohlz", "partOfSpeech": "noun", "example": "These are our goals.", "exampleHindi": "ये हमारे लक्ष्य हैं।" },
+        { "id": 40, "word": "buildings", "hindi": "इमारतें", "pronunciation": "bildingz", "partOfSpeech": "noun", "example": "Those buildings are old.", "exampleHindi": "वे इमारतें पुरानी हैं।" }
+      ]
+    },
+    {
+      "category": "Adjectives (used with Demonstratives)",
+      "words": [
+        { "id": 41, "word": "new", "hindi": "नया/नई", "pronunciation": "nyoo", "partOfSpeech": "adjective", "example": "This is a new pen.", "exampleHindi": "यह एक नई पेन है।" },
+        { "id": 42, "word": "old", "hindi": "पुराना/पुरानी", "pronunciation": "ohld", "partOfSpeech": "adjective", "example": "Those are old files.", "exampleHindi": "वे पुरानी फाइलें हैं।" },
+        { "id": 43, "word": "good", "hindi": "अच्छा/अच्छी", "pronunciation": "gud", "partOfSpeech": "adjective", "example": "This is a good idea.", "exampleHindi": "यह एक अच्छा विचार है।" },
+        { "id": 44, "word": "bad", "hindi": "बुरा/खराब", "pronunciation": "baed", "partOfSpeech": "adjective", "example": "That was a bad decision.", "exampleHindi": "वह एक बुरा निर्णय था।" },
+        { "id": 45, "word": "big", "hindi": "बड़ा/बड़ी", "pronunciation": "big", "partOfSpeech": "adjective", "example": "That is a big building.", "exampleHindi": "वह एक बड़ी इमारत है।" },
+        { "id": 46, "word": "small", "hindi": "छोटा/छोटी", "pronunciation": "smawl", "partOfSpeech": "adjective", "example": "This is a small room.", "exampleHindi": "यह एक छोटा कमरा है।" },
+        { "id": 47, "word": "expensive", "hindi": "महंगा/महंगी", "pronunciation": "ekspensiv", "partOfSpeech": "adjective", "example": "That watch is expensive.", "exampleHindi": "वह घड़ी महंगी है।" },
+        { "id": 48, "word": "cheap", "hindi": "सस्ता/सस्ती", "pronunciation": "cheep", "partOfSpeech": "adjective", "example": "These shoes are cheap.", "exampleHindi": "ये जूते सस्ते हैं।" },
+        { "id": 49, "word": "important", "hindi": "महत्वपूर्ण", "pronunciation": "impawrtnt", "partOfSpeech": "adjective", "example": "This document is important.", "exampleHindi": "यह दस्तावेज महत्वपूर्ण है।" },
+        { "id": 50, "word": "beautiful", "hindi": "सुंदर", "pronunciation": "byootiful", "partOfSpeech": "adjective", "example": "That is a beautiful place.", "exampleHindi": "वह एक सुंदर जगह है।" },
+        { "id": 51, "word": "difficult", "hindi": "कठिन/मुश्किल", "pronunciation": "difikult", "partOfSpeech": "adjective", "example": "This task is difficult.", "exampleHindi": "यह काम कठिन है।" },
+        { "id": 52, "word": "easy", "hindi": "आसान", "pronunciation": "eezee", "partOfSpeech": "adjective", "example": "These exercises are easy.", "exampleHindi": "ये अभ्यास आसान हैं।" },
+        { "id": 53, "word": "correct", "hindi": "सही/सटीक", "pronunciation": "korekt", "partOfSpeech": "adjective", "example": "This answer is correct.", "exampleHindi": "यह उत्तर सही है।" },
+        { "id": 54, "word": "wrong", "hindi": "गलत", "pronunciation": "rawng", "partOfSpeech": "adjective", "example": "That decision was wrong.", "exampleHindi": "वह निर्णय गलत था।" },
+        { "id": 55, "word": "ready", "hindi": "तैयार", "pronunciation": "redee", "partOfSpeech": "adjective", "example": "These files are ready.", "exampleHindi": "ये फाइलें तैयार हैं।" }
+      ]
+    },
+    {
+      "category": "Question Words (with Demonstratives)",
+      "words": [
+        { "id": 56, "word": "what", "hindi": "क्या", "pronunciation": "wut", "partOfSpeech": "interrogative", "example": "What is this?", "exampleHindi": "यह क्या है?" },
+        { "id": 57, "word": "who", "hindi": "कौन", "pronunciation": "hoo", "partOfSpeech": "interrogative", "example": "Who are those people?", "exampleHindi": "वे लोग कौन हैं?" },
+        { "id": 58, "word": "where", "hindi": "कहाँ", "pronunciation": "wair", "partOfSpeech": "interrogative", "example": "Where is that?", "exampleHindi": "वह कहाँ है?" },
+        { "id": 59, "word": "whose", "hindi": "किसका/किसकी", "pronunciation": "hooz", "partOfSpeech": "interrogative", "example": "Whose is this?", "exampleHindi": "यह किसका है?" },
+        { "id": 60, "word": "which", "hindi": "कौन सा", "pronunciation": "wich", "partOfSpeech": "interrogative", "example": "Which one is that?", "exampleHindi": "वह कौन सा है?" }
+      ]
+    },
+    {
+      "category": "Verbs (used with Demonstratives)",
+      "words": [
+        { "id": 61, "word": "is", "hindi": "है", "pronunciation": "iz", "partOfSpeech": "verb", "example": "This is my bag.", "exampleHindi": "यह मेरा बैग है।" },
+        { "id": 62, "word": "are", "hindi": "हैं", "pronunciation": "aar", "partOfSpeech": "verb", "example": "These are my friends.", "exampleHindi": "ये मेरे दोस्त हैं।" },
+        { "id": 63, "word": "was", "hindi": "था/थी", "pronunciation": "wuz", "partOfSpeech": "verb", "example": "That was a good movie.", "exampleHindi": "वह एक अच्छी फिल्म थी।" },
+        { "id": 64, "word": "were", "hindi": "थे/थीं", "pronunciation": "wur", "partOfSpeech": "verb", "example": "Those were good days.", "exampleHindi": "वे अच्छे दिन थे।" },
+        { "id": 65, "word": "looks", "hindi": "दिखता/दिखती है", "pronunciation": "luks", "partOfSpeech": "verb", "example": "This looks good.", "exampleHindi": "यह अच्छा दिखता है।" }
+      ]
+    },
+    {
+      "category": "Possessive Pronouns (with Demonstratives)",
+      "words": [
+        { "id": 66, "word": "my", "hindi": "मेरा/मेरी", "pronunciation": "my", "partOfSpeech": "possessive", "example": "This is my book.", "exampleHindi": "यह मेरी किताब है।" },
+        { "id": 67, "word": "your", "hindi": "तुम्हारा/आपका", "pronunciation": "yawr", "partOfSpeech": "possessive", "example": "Is this your pen?", "exampleHindi": "क्या यह तुम्हारी पेन है?" },
+        { "id": 68, "word": "his", "hindi": "उसका (पुरुष)", "pronunciation": "hiz", "partOfSpeech": "possessive", "example": "That is his car.", "exampleHindi": "वह उसकी कार है।" },
+        { "id": 69, "word": "her", "hindi": "उसका (स्त्री)", "pronunciation": "hur", "partOfSpeech": "possessive", "example": "This is her bag.", "exampleHindi": "यह उसका बैग है।" },
+        { "id": 70, "word": "their", "hindi": "उनका/उनकी", "pronunciation": "dhair", "partOfSpeech": "possessive", "example": "Those are their bags.", "exampleHindi": "वे उनके बैग हैं।" },
+        { "id": 71, "word": "our", "hindi": "हमारा/हमारी", "pronunciation": "aur", "partOfSpeech": "possessive", "example": "These are our goals.", "exampleHindi": "ये हमारे लक्ष्य हैं।" },
+        { "id": 72, "word": "mine", "hindi": "मेरा (अकेले)", "pronunciation": "myn", "partOfSpeech": "possessive", "example": "This one is mine.", "exampleHindi": "यह मेरा है।" },
+        { "id": 73, "word": "yours", "hindi": "तुम्हारा (अकेले)", "pronunciation": "yawrz", "partOfSpeech": "possessive", "example": "Is this yours?", "exampleHindi": "क्या यह तुम्हारा है?" },
+        { "id": 74, "word": "theirs", "hindi": "उनका (अकेले)", "pronunciation": "dhairz", "partOfSpeech": "possessive", "example": "Those bags are theirs.", "exampleHindi": "वे बैग उनके हैं।" },
+        { "id": 75, "word": "ours", "hindi": "हमारा (अकेले)", "pronunciation": "aurz", "partOfSpeech": "possessive", "example": "These are ours.", "exampleHindi": "ये हमारे हैं।" }
+      ]
+    },
+    {
+      "category": "Office/Professional Vocabulary",
+      "words": [
+        { "id": 76, "word": "presentation", "hindi": "प्रस्तुति", "pronunciation": "prezenteyshun", "partOfSpeech": "noun", "example": "This presentation is excellent.", "exampleHindi": "यह प्रस्तुति बेहतरीन है।" },
+        { "id": 77, "word": "deadline", "hindi": "समय सीमा", "pronunciation": "dedlyn", "partOfSpeech": "noun", "example": "That deadline is tomorrow.", "exampleHindi": "वह समय सीमा कल है।" },
+        { "id": 78, "word": "proposal", "hindi": "प्रस्ताव", "pronunciation": "prohpohzul", "partOfSpeech": "noun", "example": "This proposal is approved.", "exampleHindi": "यह प्रस्ताव मंजूर है।" },
+        { "id": 79, "word": "email", "hindi": "ईमेल", "pronunciation": "eemayl", "partOfSpeech": "noun", "example": "This email is urgent.", "exampleHindi": "यह ईमेल जरूरी है।" },
+        { "id": 80, "word": "feedback", "hindi": "प्रतिक्रिया", "pronunciation": "feedbaek", "partOfSpeech": "noun", "example": "That feedback was helpful.", "exampleHindi": "वह प्रतिक्रिया सहायक थी।" },
+        { "id": 81, "word": "data", "hindi": "डेटा/आंकड़े", "pronunciation": "deyta", "partOfSpeech": "noun", "example": "These data are correct.", "exampleHindi": "ये आंकड़े सही हैं।" },
+        { "id": 82, "word": "budget", "hindi": "बजट", "pronunciation": "bujit", "partOfSpeech": "noun", "example": "This budget is limited.", "exampleHindi": "यह बजट सीमित है।" },
+        { "id": 83, "word": "target", "hindi": "लक्ष्य/टार्गेट", "pronunciation": "taarget", "partOfSpeech": "noun", "example": "This target is achievable.", "exampleHindi": "यह लक्ष्य प्राप्त करने योग्य है।" },
+        { "id": 84, "word": "strategy", "hindi": "रणनीति", "pronunciation": "straetijee", "partOfSpeech": "noun", "example": "This strategy is good.", "exampleHindi": "यह रणनीति अच्छी है।" },
+        { "id": 85, "word": "team", "hindi": "टीम/दल", "pronunciation": "teem", "partOfSpeech": "noun", "example": "This team is excellent.", "exampleHindi": "यह टीम बेहतरीन है।" }
+      ]
+    },
+    {
+      "category": "Places (used with Demonstratives)",
+      "words": [
+        { "id": 86, "word": "school", "hindi": "स्कूल/विद्यालय", "pronunciation": "skool", "partOfSpeech": "noun", "example": "That is my school.", "exampleHindi": "वह मेरा स्कूल है।" },
+        { "id": 87, "word": "hospital", "hindi": "अस्पताल", "pronunciation": "hawspitul", "partOfSpeech": "noun", "example": "That hospital is far.", "exampleHindi": "वह अस्पताल दूर है।" },
+        { "id": 88, "word": "market", "hindi": "बाजार", "pronunciation": "maarkit", "partOfSpeech": "noun", "example": "That is a big market.", "exampleHindi": "वह एक बड़ा बाजार है।" },
+        { "id": 89, "word": "park", "hindi": "पार्क/उद्यान", "pronunciation": "paark", "partOfSpeech": "noun", "example": "That park is beautiful.", "exampleHindi": "वह पार्क सुंदर है।" },
+        { "id": 90, "word": "hotel", "hindi": "होटल", "pronunciation": "hohtul", "partOfSpeech": "noun", "example": "That hotel is expensive.", "exampleHindi": "वह होटल महंगा है।" },
+        { "id": 91, "word": "restaurant", "hindi": "रेस्टोरेंट", "pronunciation": "restrant", "partOfSpeech": "noun", "example": "This restaurant is good.", "exampleHindi": "यह रेस्टोरेंट अच्छा है।" },
+        { "id": 92, "word": "temple", "hindi": "मंदिर", "pronunciation": "tempul", "partOfSpeech": "noun", "example": "That temple is old.", "exampleHindi": "वह मंदिर पुराना है।" },
+        { "id": 93, "word": "bank", "hindi": "बैंक", "pronunciation": "baenk", "partOfSpeech": "noun", "example": "That bank is closed.", "exampleHindi": "वह बैंक बंद है।" },
+        { "id": 94, "word": "station", "hindi": "स्टेशन", "pronunciation": "steyshun", "partOfSpeech": "noun", "example": "That station is near.", "exampleHindi": "वह स्टेशन पास है।" },
+        { "id": 95, "word": "factory", "hindi": "कारखाना/फैक्ट्री", "pronunciation": "faektree", "partOfSpeech": "noun", "example": "Those factories are big.", "exampleHindi": "वे कारखाने बड़े हैं।" }
+      ]
+    },
+    {
+      "category": "People (used with Demonstratives)",
+      "words": [
+        { "id": 96, "word": "friend", "hindi": "दोस्त/मित्र", "pronunciation": "frend", "partOfSpeech": "noun", "example": "This is my friend.", "exampleHindi": "यह मेरा दोस्त है।" },
+        { "id": 97, "word": "boss", "hindi": "बॉस/मालिक", "pronunciation": "baws", "partOfSpeech": "noun", "example": "That is my boss.", "exampleHindi": "वह मेरे बॉस हैं।" },
+        { "id": 98, "word": "teacher", "hindi": "शिक्षक/टीचर", "pronunciation": "teechur", "partOfSpeech": "noun", "example": "This is my teacher.", "exampleHindi": "यह मेरे शिक्षक हैं।" },
+        { "id": 99, "word": "customer", "hindi": "ग्राहक", "pronunciation": "kustumur", "partOfSpeech": "noun", "example": "That customer is important.", "exampleHindi": "वह ग्राहक महत्वपूर्ण है।" },
+        { "id": 100, "word": "neighbor", "hindi": "पड़ोसी", "pronunciation": "neyber", "partOfSpeech": "noun", "example": "That is my neighbor.", "exampleHindi": "वह मेरा पड़ोसी है।" },
+        { "id": 101, "word": "student", "hindi": "छात्र/विद्यार्थी", "pronunciation": "stoodent", "partOfSpeech": "noun", "example": "Those are my students.", "exampleHindi": "वे मेरे विद्यार्थी हैं।" },
+        { "id": 102, "word": "doctor", "hindi": "डॉक्टर/चिकित्सक", "pronunciation": "dawktur", "partOfSpeech": "noun", "example": "Those doctors are skilled.", "exampleHindi": "वे डॉक्टर कुशल हैं।" },
+        { "id": 103, "word": "engineer", "hindi": "इंजीनियर", "pronunciation": "enjineer", "partOfSpeech": "noun", "example": "These engineers are talented.", "exampleHindi": "ये इंजीनियर प्रतिभाशाली हैं।" },
+        { "id": 104, "word": "manager", "hindi": "प्रबंधक/मैनेजर", "pronunciation": "maenijur", "partOfSpeech": "noun", "example": "This manager is strict.", "exampleHindi": "यह मैनेजर सख्त है।" },
+        { "id": 105, "word": "visitor", "hindi": "आगंतुक/विजिटर", "pronunciation": "vizittur", "partOfSpeech": "noun", "example": "Those visitors are waiting.", "exampleHindi": "वे आगंतुक इंतजार कर रहे हैं।" }
+      ]
+    },
+    {
+      "category": "Daily Life Objects",
+      "words": [
+        { "id": 106, "word": "umbrella", "hindi": "छाता", "pronunciation": "umbrella", "partOfSpeech": "noun", "example": "This is my umbrella.", "exampleHindi": "यह मेरा छाता है।" },
+        { "id": 107, "word": "glass", "hindi": "गिलास", "pronunciation": "glaas", "partOfSpeech": "noun", "example": "This glass is clean.", "exampleHindi": "यह गिलास साफ है।" },
+        { "id": 108, "word": "bottle", "hindi": "बोतल", "pronunciation": "bawttul", "partOfSpeech": "noun", "example": "This bottle is empty.", "exampleHindi": "यह बोतल खाली है।" },
+        { "id": 109, "word": "shirt", "hindi": "शर्ट/कमीज", "pronunciation": "shurt", "partOfSpeech": "noun", "example": "This shirt is new.", "exampleHindi": "यह शर्ट नई है।" },
+        { "id": 110, "word": "shoes", "hindi": "जूते", "pronunciation": "shooz", "partOfSpeech": "noun", "example": "These shoes are comfortable.", "exampleHindi": "ये जूते आरामदायक हैं।" },
+        { "id": 111, "word": "wallet", "hindi": "पर्स/बटुआ", "pronunciation": "wawlit", "partOfSpeech": "noun", "example": "This is my wallet.", "exampleHindi": "यह मेरा पर्स है।" },
+        { "id": 112, "word": "newspaper", "hindi": "अखबार", "pronunciation": "nyoozpeypur", "partOfSpeech": "noun", "example": "This newspaper is today's.", "exampleHindi": "यह आज का अखबार है।" },
+        { "id": 113, "word": "flowers", "hindi": "फूल", "pronunciation": "flowurz", "partOfSpeech": "noun", "example": "These flowers are fresh.", "exampleHindi": "ये फूल ताज़े हैं।" },
+        { "id": 114, "word": "fruits", "hindi": "फल", "pronunciation": "froots", "partOfSpeech": "noun", "example": "These fruits are sweet.", "exampleHindi": "ये फल मीठे हैं।" },
+        { "id": 115, "word": "vegetables", "hindi": "सब्जियां", "pronunciation": "vejitublz", "partOfSpeech": "noun", "example": "These vegetables are fresh.", "exampleHindi": "ये सब्जियां ताज़ी हैं।" }
+      ]
+    },
+    {
+      "category": "Demonstrative Expressions",
+      "words": [
+        { "id": 116, "word": "this one", "hindi": "यह वाला", "pronunciation": "dhis wun", "partOfSpeech": "phrase", "example": "I want this one.", "exampleHindi": "मुझे यह वाला चाहिए।" },
+        { "id": 117, "word": "that one", "hindi": "वह वाला", "pronunciation": "dhaet wun", "partOfSpeech": "phrase", "example": "Give me that one.", "exampleHindi": "मुझे वह वाला दो।" },
+        { "id": 118, "word": "these ones", "hindi": "ये वाले", "pronunciation": "dheez wunz", "partOfSpeech": "phrase", "example": "I like these ones.", "exampleHindi": "मुझे ये वाले पसंद हैं।" },
+        { "id": 119, "word": "those ones", "hindi": "वे वाले", "pronunciation": "dhohz wunz", "partOfSpeech": "phrase", "example": "Show me those ones.", "exampleHindi": "मुझे वे वाले दिखाओ।" },
+        { "id": 120, "word": "this is it", "hindi": "यही है", "pronunciation": "dhis iz it", "partOfSpeech": "phrase", "example": "This is it!", "exampleHindi": "यही है!" },
+        { "id": 121, "word": "that's right", "hindi": "वह सही है", "pronunciation": "dhaets ryt", "partOfSpeech": "phrase", "example": "That's right!", "exampleHindi": "वह सही है!" },
+        { "id": 122, "word": "these days", "hindi": "आजकल", "pronunciation": "dheez deyz", "partOfSpeech": "phrase", "example": "These days I am busy.", "exampleHindi": "आजकल मैं व्यस्त हूँ।" },
+        { "id": 123, "word": "those days", "hindi": "उन दिनों", "pronunciation": "dhohz deyz", "partOfSpeech": "phrase", "example": "Those days were different.", "exampleHindi": "उन दिनों में फर्क था।" },
+        { "id": 124, "word": "this way", "hindi": "इस तरफ/इस तरह", "pronunciation": "dhis wey", "partOfSpeech": "phrase", "example": "Come this way.", "exampleHindi": "इस तरफ आओ।" },
+        { "id": 125, "word": "that way", "hindi": "उस तरफ", "pronunciation": "dhaet wey", "partOfSpeech": "phrase", "example": "Go that way.", "exampleHindi": "उस तरफ जाओ।" }
+      ]
+    },
+    {
+      "category": "Advanced Demonstrative Phrases",
+      "words": [
+        { "id": 126, "word": "this is because", "hindi": "यह इसलिए है क्योंकि", "pronunciation": "dhis iz bikauz", "partOfSpeech": "phrase", "example": "This is because of rain.", "exampleHindi": "यह बारिश के कारण है।" },
+        { "id": 127, "word": "that is why", "hindi": "इसीलिए", "pronunciation": "dhaet iz wy", "partOfSpeech": "phrase", "example": "That is why I came.", "exampleHindi": "इसीलिए मैं आया।" },
+        { "id": 128, "word": "this means", "hindi": "इसका मतलब है", "pronunciation": "dhis meenz", "partOfSpeech": "phrase", "example": "This means we agree.", "exampleHindi": "इसका मतलब हम सहमत हैं।" },
+        { "id": 129, "word": "that means", "hindi": "उसका मतलब है", "pronunciation": "dhaet meenz", "partOfSpeech": "phrase", "example": "That means it is done.", "exampleHindi": "उसका मतलब यह हो गया।" },
+        { "id": 130, "word": "not this", "hindi": "यह नहीं", "pronunciation": "nawt dhis", "partOfSpeech": "phrase", "example": "Not this, that one.", "exampleHindi": "यह नहीं, वह वाला।" },
+        { "id": 131, "word": "just this", "hindi": "बस यही", "pronunciation": "just dhis", "partOfSpeech": "phrase", "example": "I need just this.", "exampleHindi": "मुझे बस यही चाहिए।" },
+        { "id": 132, "word": "all these", "hindi": "ये सब", "pronunciation": "awl dheez", "partOfSpeech": "phrase", "example": "All these are mine.", "exampleHindi": "ये सब मेरे हैं।" },
+        { "id": 133, "word": "all those", "hindi": "वे सब", "pronunciation": "awl dhohz", "partOfSpeech": "phrase", "example": "All those are done.", "exampleHindi": "वे सब हो गए।" },
+        { "id": 134, "word": "only this", "hindi": "केवल यह", "pronunciation": "ohnlee dhis", "partOfSpeech": "phrase", "example": "Only this one is left.", "exampleHindi": "केवल यह एक बचा है।" },
+        { "id": 135, "word": "like this", "hindi": "इस तरह", "pronunciation": "lyk dhis", "partOfSpeech": "phrase", "example": "Do it like this.", "exampleHindi": "इस तरह करो।" }
+      ]
+    },
+    {
+      "category": "Comparison & Contrast",
+      "words": [
+        { "id": 136, "word": "this vs that", "hindi": "यह बनाम वह", "pronunciation": "dhis vursus dhaet", "partOfSpeech": "phrase", "example": "This is better than that.", "exampleHindi": "यह उससे बेहतर है।" },
+        { "id": 137, "word": "near", "hindi": "पास/निकट", "pronunciation": "neer", "partOfSpeech": "adjective", "example": "This shop is near.", "exampleHindi": "यह दुकान पास है।" },
+        { "id": 138, "word": "far", "hindi": "दूर", "pronunciation": "faar", "partOfSpeech": "adjective", "example": "That school is far.", "exampleHindi": "वह स्कूल दूर है।" },
+        { "id": 139, "word": "here", "hindi": "यहाँ", "pronunciation": "heer", "partOfSpeech": "adverb", "example": "Put this here.", "exampleHindi": "यह यहाँ रखो।" },
+        { "id": 140, "word": "there", "hindi": "वहाँ", "pronunciation": "dhair", "partOfSpeech": "adverb", "example": "Put that there.", "exampleHindi": "वह वहाँ रखो।" },
+        { "id": 141, "word": "singular", "hindi": "एकवचन", "pronunciation": "singgyulur", "partOfSpeech": "adjective", "example": "This and that are singular.", "exampleHindi": "This और That एकवचन हैं।" },
+        { "id": 142, "word": "plural", "hindi": "बहुवचन", "pronunciation": "ploorrul", "partOfSpeech": "adjective", "example": "These and those are plural.", "exampleHindi": "These और Those बहुवचन हैं।" },
+        { "id": 143, "word": "both", "hindi": "दोनों", "pronunciation": "bohth", "partOfSpeech": "determiner", "example": "Both these and those are good.", "exampleHindi": "ये और वे दोनों अच्छे हैं।" },
+        { "id": 144, "word": "either", "hindi": "कोई एक/दोनों में से", "pronunciation": "eedhur", "partOfSpeech": "determiner", "example": "Either this or that.", "exampleHindi": "या तो यह या वह।" },
+        { "id": 145, "word": "neither", "hindi": "न यह न वह", "pronunciation": "needhur", "partOfSpeech": "determiner", "example": "Neither this nor that.", "exampleHindi": "न यह न वह।" }
+      ]
+    },
+    {
+      "category": "Demonstratives in Professional Emails",
+      "words": [
+        { "id": 146, "word": "this email", "hindi": "यह ईमेल", "pronunciation": "dhis emayl", "partOfSpeech": "phrase", "example": "This email is regarding the meeting.", "exampleHindi": "यह ईमेल मीटिंग के बारे में है।" },
+        { "id": 147, "word": "this letter", "hindi": "यह पत्र", "pronunciation": "dhis lettur", "partOfSpeech": "phrase", "example": "This letter confirms your appointment.", "exampleHindi": "यह पत्र आपकी नियुक्ति की पुष्टि करता है।" },
+        { "id": 148, "word": "that issue", "hindi": "वह समस्या", "pronunciation": "dhaet isyoo", "partOfSpeech": "phrase", "example": "That issue has been resolved.", "exampleHindi": "वह समस्या हल हो गई है।" },
+        { "id": 149, "word": "these details", "hindi": "ये विवरण", "pronunciation": "dheez deetulz", "partOfSpeech": "phrase", "example": "Please review these details.", "exampleHindi": "कृपया ये विवरण देखें।" },
+        { "id": 150, "word": "those changes", "hindi": "वे बदलाव", "pronunciation": "dhohz cheynijuz", "partOfSpeech": "phrase", "example": "Those changes are approved.", "exampleHindi": "वे बदलाव मंजूर हो गए।" }
+      ]
+    }
+  ]
+}

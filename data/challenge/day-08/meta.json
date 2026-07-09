@@ -1,0 +1,32 @@
+{
+  "day": 8,
+  "title": "Will Have",
+  "slug": "08-will-have",
+  "type": "grammar",
+  "difficulty": "elementary",
+  "cefr": "A1",
+  "emoji": "🔮",
+  "color": "#eab308",
+  "topics": [
+    "Future Perfect Tense",
+    "Will Have + V3 Structure",
+    "Time Expressions (by tomorrow, by next week)",
+    "Completion by a Future Time",
+    "Negative: will not have / won't have",
+    "Questions: Will you have...?",
+    "Office Deadlines and Targets",
+    "Professional Context",
+    "Personal Goals",
+    "Comparison: Will vs Will Have"
+  ],
+  "totalQuestions": 500,
+  "totalVocabulary": 150,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 50,
+  "prerequisites": [1, 2, 3, 4, 5, 6, 7],
+  "nextDay": 9,
+  "tags": ["will-have", "future-perfect", "grammar", "elementary", "professional"],
+  "lastUpdated": "2026-07-08",
+  "version": "2.0"
+}

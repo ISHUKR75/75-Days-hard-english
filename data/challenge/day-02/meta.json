@@ -1,0 +1,32 @@
+{
+  "day": 2,
+  "title": "Self Introduction",
+  "slug": "02-self-intro",
+  "type": "spoken",
+  "difficulty": "beginner",
+  "cefr": "A1",
+  "emoji": "👋",
+  "color": "#8b5cf6",
+  "topics": [
+    "Basic Self Introduction",
+    "Formal Introduction",
+    "Informal Introduction",
+    "Stating Your Name",
+    "Stating Your Place of Origin",
+    "Stating Your Profession",
+    "Describing Your Family",
+    "Talking About Hobbies",
+    "Professional Bio",
+    "Interview Introduction"
+  ],
+  "totalQuestions": 500,
+  "totalVocabulary": 150,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 50,
+  "prerequisites": [1],
+  "nextDay": 3,
+  "tags": ["speaking", "introduction", "beginner", "conversation", "professional", "interview"],
+  "lastUpdated": "2026-07-08",
+  "version": "2.0"
+}

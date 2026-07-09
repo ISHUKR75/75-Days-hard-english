@@ -1,0 +1,45 @@
+{
+  "day": 10,
+  "title": "Revision + Practice",
+  "tagline": "10 दिन, 10 Topics — अब सब कुछ एक साथ!",
+  "summary": "Day 10 is your Mega Revision Day! आपने पिछले 9 दिनों में English की बहुत strong foundation बनाई है। आज हम सब topics को एक साथ revise करेंगे, weak areas identify करेंगे, और एक full mock test देंगे। जो topics weak लगें उन्हें extra practice करें। याद रहे — revision ही retention की key है!",
+  "hindiSummary": "आपने सीखा है: Basic English (Day 1), Self Introduction (Day 2), Imperative Sentences (Day 3), Be Verb am/is/are/was/were (Day 4), Demonstrative Pronouns this/that/these/those (Day 5), Has/Have (Day 6), Had (Day 7), Will Have (Day 8), Use of There (Day 9). आज इन सब को एक साथ mix करके practice करेंगे। Mixed practice से ही true mastery आती है।",
+  "whatYouWillRevise": [
+    "Day 1: SVO structure, Simple Present, Do/Does, Pronouns, Articles",
+    "Day 2: Introduction templates, My name is/I am from/I work as",
+    "Day 3: Positive/Negative/Polite/Warning imperatives, Let's",
+    "Day 4: Am/Is/Are (present) + Was/Were (past) + Negatives + Questions",
+    "Day 5: This/That (singular) + These/Those (plural) + As pronoun/adjective",
+    "Day 6: Have (I/You/We/They) + Has (He/She/It) + Present Perfect + Expressions",
+    "Day 7: Had for past possession + Past Perfect (had+V3) + Conditionals",
+    "Day 8: Will Have + V3 + By [time] + Professional deadlines",
+    "Day 9: There is/are (present) + was/were (past) + will be (future) + Questions"
+  ],
+  "revisionStrategy": {
+    "step1": "Read the cheat sheet for all 9 topics (20 min)",
+    "step2": "Do 50 mixed questions without looking at answers (30 min)",
+    "step3": "Check answers and identify weak topics (10 min)",
+    "step4": "Go back and re-read weak topic theory (20 min)",
+    "step5": "Do 50 more mixed questions (30 min)",
+    "step6": "Give the full mock test (45 min)",
+    "step7": "Review wrong answers and note mistakes (15 min)",
+    "total": "170 minutes for complete revision"
+  },
+  "megaCheatSheet": {
+    "beVerb": "I=am/was | He/She/It=is/was | You/We/They=are/were",
+    "haveHas": "I/You/We/They=have | He/She/It=has | Past=had | Future=will have",
+    "demonstrative": "Singular near=This | Singular far=That | Plural near=These | Plural far=Those",
+    "there": "One thing now=There is | Many things now=There are | Past singular=There was | Past plural=There were | Future=There will be",
+    "imperative": "Command=base verb | Polite=Please+base verb | Negative=Don't+base verb | Warning=Never+base verb",
+    "simplePresent": "I/We/You/They=base verb | He/She/It=verb+s | Question=Do/Does+subject+base verb | Negative=don't/doesn't+base verb"
+  },
+  "weakAreaTest": "Answer 10 questions from each Day 1-9 topic quickly. Mark which topics you get wrong — those are your weak areas.",
+  "motivationalQuote": "10 days complete! You have built a foundation that 90% of English learners don't have. Now it's time to build the walls!",
+  "practiceTarget": {
+    "minimumQuestions": 200,
+    "targetQuestions": 350,
+    "stretchGoal": 500,
+    "mockTest": "Complete the 100-question mock test",
+    "writingTarget": "Write a paragraph using grammar from all 9 topics"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "day": 7,
+  "title": "Had",
+  "slug": "07-had",
+  "type": "grammar",
+  "difficulty": "beginner",
+  "cefr": "A1",
+  "emoji": "⏮️",
+  "color": "#f59e0b",
+  "topics": [
+    "Had for Past Possession",
+    "Past Perfect (Had + V3)",
+    "Negative: didn't have / hadn't",
+    "Questions: Did you have? / Had you?",
+    "Sequence of Past Events",
+    "Conditional with Had (If I had...)",
+    "Common Phrases with Had",
+    "Office Context with Had",
+    "Story Narration with Had",
+    "Comparison: Have/Has vs Had"
+  ],
+  "totalQuestions": 500,
+  "totalVocabulary": 150,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 50,
+  "prerequisites": [1, 2, 3, 4, 5, 6],
+  "nextDay": 8,
+  "tags": ["had", "past-perfect", "past-possession", "grammar", "beginner"],
+  "lastUpdated": "2026-07-08",
+  "version": "2.0"
+}

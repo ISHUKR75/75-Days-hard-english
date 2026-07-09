@@ -1,0 +1,94 @@
+{
+  "day": 7,
+  "title": "Day 7 Speaking Drill — Had",
+  "instructions": "Speak each sentence aloud clearly. Record yourself if possible. Focus on pronunciation and natural rhythm.",
+  "drills": [
+    {
+      "id": 1,
+      "type": "repeat",
+      "title": "Basic Had Sentences — Repeat Aloud",
+      "sentences": [
+        { "english": "I had a car.", "hindi": "मेरे पास एक कार थी।", "pronunciation": "I HAD a car." },
+        { "english": "She had a dog.", "hindi": "उसके पास एक कुत्ता था।", "pronunciation": "She HAD a dog." },
+        { "english": "We had a big house.", "hindi": "हमारे पास एक बड़ा घर था।", "pronunciation": "We HAD a BIG house." },
+        { "english": "They had a lot of money.", "hindi": "उनके पास बहुत पैसे थे।", "pronunciation": "They HAD a LOT of money." },
+        { "english": "He had a good job.", "hindi": "उसके पास एक अच्छी नौकरी थी।", "pronunciation": "He HAD a good job." }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "past_perfect",
+      "title": "Past Perfect — Speak Naturally",
+      "sentences": [
+        { "english": "I had eaten the food.", "hindi": "मैंने खाना खा लिया था।", "pronunciation": "I had EAT-en the food." },
+        { "english": "She had written the report.", "hindi": "उसने रिपोर्ट लिख ली थी।", "pronunciation": "She had WRIT-ten the re-PORT." },
+        { "english": "They had already finished.", "hindi": "वे पहले ही खत्म कर चुके थे।", "pronunciation": "They had ALL-ready FIN-ished." },
+        { "english": "He had gone before I arrived.", "hindi": "वह मेरे आने से पहले चला गया था।", "pronunciation": "He had GONE be-FORE I ar-RIVED." },
+        { "english": "We had completed the project.", "hindi": "हमने प्रोजेक्ट पूरा कर लिया था।", "pronunciation": "We had com-PLET-ed the PRO-ject." }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "question_answer",
+      "title": "Question & Answer Practice",
+      "pairs": [
+        { "question": "Did you have a car?", "answer": "Yes, I had a car. / No, I didn't have a car." },
+        { "question": "Had you eaten before the meeting?", "answer": "Yes, I had eaten. / No, I hadn't eaten." },
+        { "question": "Did she have experience?", "answer": "Yes, she had five years of experience." },
+        { "question": "Had the team finished the work?", "answer": "Yes, they had already finished." },
+        { "question": "Did they have a plan?", "answer": "Yes, they had a clear plan." }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "story",
+      "title": "Story Time — Speak the Full Story",
+      "story": "Last year, I had a small car. I had a job in a big company. The company had 500 employees. One day, when I reached the office, my boss had already called a meeting. By the time I entered the conference room, everyone had taken their seats. The manager told us that the team had completed the project on time. It was great news! We had worked very hard for three months.",
+      "keyPoints": ["Notice all the 'had' uses", "Had for possession: I had a car, I had a job", "Had + V3 for earlier events: had called, had taken, had completed"]
+    },
+    {
+      "id": 5,
+      "type": "tongue_twister",
+      "title": "Rapid Fire — Say Quickly",
+      "sentences": [
+        "I had had enough.",
+        "She had had a hard day.",
+        "Had he had breakfast?",
+        "They had had a meeting before I had arrived.",
+        "We had had so many problems that we had almost given up."
+      ],
+      "note": "Notice 'had had' — this is correct English! First 'had' is Past Perfect auxiliary, second 'had' is the main verb (to have)."
+    },
+    {
+      "id": 6,
+      "type": "office_roleplay",
+      "title": "Office Roleplay — Act It Out",
+      "scenarios": [
+        {
+          "situation": "Reporting to your boss about yesterday",
+          "you": "I had a meeting with the client yesterday. They had some concerns about the project. By the time I spoke to them, I had already reviewed the report.",
+          "boss": "Had the team finished the analysis?",
+          "you_reply": "Yes, they had completed it by 5 PM."
+        },
+        {
+          "situation": "Team discussion about a past problem",
+          "colleague": "Did you know about the issue before?",
+          "you": "Yes, I had noticed it last week. But by the time I reported, the team had already solved it.",
+          "colleague": "Great! We had a similar problem last year too."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "conditional_practice",
+      "title": "Conditionals — Express Regrets and Wishes",
+      "sentences": [
+        { "english": "If I had studied harder, I would have passed.", "hindi": "अगर मैंने ज़्यादा पढ़ा होता, मैं पास हो जाता।" },
+        { "english": "I wish I had known about this earlier.", "hindi": "काश मुझे यह पहले पता होता।" },
+        { "english": "If she had applied, she would have got the job.", "hindi": "अगर उसने आवेदन किया होता, नौकरी मिल जाती।" },
+        { "english": "I wish we had more time.", "hindi": "काश हमारे पास ज़्यादा समय होता।" },
+        { "english": "If he had listened, the mistake wouldn't have happened.", "hindi": "अगर उसने सुना होता, गलती नहीं होती।" }
+      ]
+    }
+  ]
+}
