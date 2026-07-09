@@ -1,0 +1,15 @@
+{
+  "day": 8,
+  "title": "Day 8 Milestones — Will Have",
+  "milestones": [
+    { "id": 1, "title": "Learned Future Perfect structure (will have + V3)", "xp": 20, "completed": false },
+    { "id": 2, "title": "Learned time expressions for Future Perfect", "xp": 20, "completed": false },
+    { "id": 3, "title": "Completed 50 practice questions", "xp": 40, "completed": false },
+    { "id": 4, "title": "Passed the Day 8 daily test (70%+)", "xp": 50, "completed": false },
+    { "id": 5, "title": "Practiced speaking drills aloud", "xp": 30, "completed": false },
+    { "id": 6, "title": "Wrote a career plan using will have", "xp": 40, "completed": false },
+    { "id": 7, "title": "Learned 50 new vocabulary words", "xp": 30, "completed": false }
+  ],
+  "totalXpAvailable": 230,
+  "badge": { "name": "Future Planner", "icon": "🔮", "unlockCondition": "Complete all 7 milestones" }
+}

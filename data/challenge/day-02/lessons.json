@@ -1,0 +1,114 @@
+{
+  "day": 2,
+  "title": "Self Introduction — Complete Lesson",
+  "sections": [
+    {
+      "id": "name-intro",
+      "title": "Introducing Your Name — 5 Ways",
+      "hindiTitle": "अपना नाम बताने के 5 तरीके",
+      "explanation": "English में अपना नाम बताने के कई तरीके हैं। 'My name is' सबसे formal है। 'I am' और 'I'm' rोज़मर्रा की बातचीत में इस्तेमाल होते हैं। सही तरीका चुनना situation पर depend करता है — interview में formal, दोस्तों के साथ informal.",
+      "formula": "My name is / I am / I'm + [Name]",
+      "examples": [
+        { "english": "My name is Rohan Sharma.", "hindi": "मेरा नाम रोहन शर्मा है।" },
+        { "english": "I am Priya.", "hindi": "मैं प्रिया हूँ।" },
+        { "english": "I'm Aman, nice to meet you.", "hindi": "मैं अमन हूँ, आपसे मिलकर खुशी हुई।" },
+        { "english": "People call me Vicky.", "hindi": "लोग मुझे विक्की बुलाते हैं।" },
+        { "english": "You can call me Raj.", "hindi": "आप मुझे राज बुला सकते हैं।" }
+      ]
+    },
+    {
+      "id": "place-intro",
+      "title": "Telling Your City / Origin — 5 Ways",
+      "hindiTitle": "अपना शहर बताने के 5 तरीके",
+      "explanation": "अपना शहर/origin बताने के लिए 'I am from', 'I belong to', 'I come from', 'I was born in', 'I hail from' का इस्तेमाल होता है। ये सभी सही हैं, बस formality का level अलग है।",
+      "formula": "I am from / I belong to / I come from + [City/State]",
+      "examples": [
+        { "english": "I am from Delhi.", "hindi": "मैं दिल्ली से हूँ।" },
+        { "english": "I belong to Lucknow.", "hindi": "मैं लखनऊ से संबंध रखता हूँ।" },
+        { "english": "I come from a small town in Bihar.", "hindi": "मैं बिहार के एक छोटे शहर से आता हूँ।" },
+        { "english": "I was born in Mumbai but raised in Pune.", "hindi": "मेरा जन्म मुंबई में हुआ पर मैं पुणे में बड़ा हुआ।" },
+        { "english": "I currently live in Bangalore.", "hindi": "मैं अभी बेंगलुरु में रहता हूँ।" }
+      ]
+    },
+    {
+      "id": "profession-intro",
+      "title": "Telling Your Profession — 5 Ways",
+      "hindiTitle": "अपना काम/profession बताने के 5 तरीके",
+      "explanation": "Profession बताने के लिए 'I work as', 'I am a', 'I am working at', 'I am currently employed as', 'My profession is' का उपयोग होता है। Job title से पहले article (a/an) लगाना ज़रूरी है।",
+      "formula": "I work as / I am a/an + [job title]",
+      "examples": [
+        { "english": "I work as a software engineer.", "hindi": "मैं एक software engineer के रूप में काम करता हूँ।" },
+        { "english": "I am a teacher by profession.", "hindi": "मैं profession से एक teacher हूँ।" },
+        { "english": "I am currently working at an IT company.", "hindi": "मैं अभी एक IT company में काम कर रहा हूँ।" },
+        { "english": "I am a final year student.", "hindi": "मैं final year का student हूँ।" },
+        { "english": "I run my own business.", "hindi": "मैं अपना खुद का business चलाता हूँ।" }
+      ]
+    },
+    {
+      "id": "experience-intro",
+      "title": "Talking About Experience",
+      "hindiTitle": "Experience बताने का तरीका",
+      "explanation": "'I have been [doing something] for [time]' pattern experience बताने के लिए इस्तेमाल होता है। यह Present Perfect Continuous tense है जो बताता है कि कोई काम कब से चल रहा है।",
+      "formula": "I have been + [verb+ing] + for + [time period]",
+      "examples": [
+        { "english": "I have been working here for two years.", "hindi": "मैं यहाँ दो साल से काम कर रहा हूँ।" },
+        { "english": "I have been learning English for six months.", "hindi": "मैं छह महीने से English सीख रहा हूँ।" },
+        { "english": "I have been living in this city since 2020.", "hindi": "मैं 2020 से इस शहर में रह रहा हूँ।" },
+        { "english": "I have been studying computer science for three years.", "hindi": "मैं तीन साल से computer science पढ़ रहा हूँ।" }
+      ]
+    },
+    {
+      "id": "family-intro",
+      "title": "Talking About Family",
+      "hindiTitle": "Family बताने का तरीका",
+      "explanation": "Family बताने के लिए 'My family has', 'There are X people in my family', 'I have X siblings' का इस्तेमाल होता है।",
+      "formula": "There are + [number] + people in my family",
+      "examples": [
+        { "english": "There are five people in my family.", "hindi": "मेरे परिवार में पाँच लोग हैं।" },
+        { "english": "I have one elder brother and one younger sister.", "hindi": "मेरा एक बड़ा भाई और एक छोटी बहन है।" },
+        { "english": "My family consists of my parents and me.", "hindi": "मेरे परिवार में मेरे माता-पिता और मैं हूँ।" },
+        { "english": "I come from a joint family.", "hindi": "मैं एक joint family से आता हूँ।" }
+      ]
+    },
+    {
+      "id": "hobby-intro",
+      "title": "Talking About Hobbies",
+      "hindiTitle": "Hobbies बताने का तरीका",
+      "explanation": "'I like/love/enjoy + verb+ing' pattern hobbies बताने के लिए इस्तेमाल होता है। like/love/enjoy के बाद verb में हमेशा -ing लगता है।",
+      "formula": "I like/love/enjoy + [verb+ing]",
+      "examples": [
+        { "english": "I like reading books.", "hindi": "मुझे किताबें पढ़ना पसंद है।" },
+        { "english": "I love playing cricket.", "hindi": "मुझे cricket खेलना बहुत पसंद है।" },
+        { "english": "I enjoy watching movies on weekends.", "hindi": "मुझे weekend पर movies देखना पसंद है।" },
+        { "english": "I am passionate about photography.", "hindi": "मुझे photography का शौक है।" },
+        { "english": "I am interested in learning new languages.", "hindi": "मुझे नई भाषाएँ सीखने में रुचि है।" }
+      ]
+    },
+    {
+      "id": "greetings-intro",
+      "title": "Meeting Greetings",
+      "hindiTitle": "मिलने पर Greetings",
+      "explanation": "किसी से पहली बार मिलने पर 'Nice to meet you', 'Pleased to meet you', 'How do you do?' का इस्तेमाल होता है। 'How do you do?' का जवाब भी 'How do you do?' ही होता है — यह बहुत formal है।",
+      "formula": "Nice to meet you / Pleased to meet you",
+      "examples": [
+        { "english": "Nice to meet you, Mr. Sharma.", "hindi": "आपसे मिलकर खुशी हुई, श्री शर्मा।" },
+        { "english": "Pleased to meet you too.", "hindi": "मुझे भी आपसे मिलकर खुशी हुई।" },
+        { "english": "It's a pleasure to finally meet you.", "hindi": "अंततः आपसे मिलना एक खुशी की बात है।" },
+        { "english": "May I know your name, please?", "hindi": "क्या मैं आपका नाम जान सकता हूँ?" },
+        { "english": "What do you do for a living?", "hindi": "आप क्या काम करते हैं?" }
+      ]
+    },
+    {
+      "id": "common-errors",
+      "title": "Common Mistakes in Self Introduction",
+      "hindiTitle": "Self Introduction में होने वाली सामान्य गलतियां",
+      "explanation": "1) 'I am belongs to Delhi' ❌ → 'I belong to Delhi' ✅ (belong को s नहीं लगाना). 2) 'My name is calling Rohan' ❌ → 'My name is Rohan' या 'People call me Rohan' ✅. 3) 'I am working in software engineer' ❌ → 'I work as a software engineer' ✅ (job title से पहले article). 4) 'I have two year experience' ❌ → 'I have two years of experience' ✅ (years plural + 'of'). 5) 'I am from since 2010 in Mumbai' ❌ → 'I have been living in Mumbai since 2010' ✅.",
+      "formula": "Avoid literal Hindi-to-English translation of grammar",
+      "examples": [
+        { "english": "I belong to Delhi.", "hindi": "गलत: I am belongs to Delhi." },
+        { "english": "People call me Rohan.", "hindi": "गलत: My name is calling Rohan." },
+        { "english": "I have three years of experience.", "hindi": "गलत: I have three year experience." }
+      ]
+    }
+  ]
+}

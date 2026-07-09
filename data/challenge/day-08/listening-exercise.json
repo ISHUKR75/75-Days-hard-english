@@ -1,0 +1,14 @@
+{
+  "day": 8,
+  "title": "Day 8 Listening Exercise — Will Have",
+  "instructions": "इन sentences को audio/TTS के through सुनें और blanks भरें।",
+  "exercises": [
+    { "id": 1, "audioText": "By tomorrow, I will have finished the report.", "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।", "fillInBlank": "By tomorrow, I will _____ finished the report.", "answer": ["have"] },
+    { "id": 2, "audioText": "By next year, she will have completed her MBA.", "hindi": "अगले साल तक, वह MBA पूरी कर चुकी होगी।", "fillInBlank": "By next year, she will have _____ her MBA.", "answer": ["completed"] },
+    { "id": 3, "audioText": "By Q4, our company will have reached its revenue target.", "hindi": "Q4 तक, हमारी company revenue target पूरा कर चुकी होगी।", "fillInBlank": "By Q4, our company will have _____ its revenue target.", "answer": ["reached"] }
+  ],
+  "dictationPassage": {
+    "text": "By the end of this year, I will have achieved several important goals. I will have completed my certification, saved enough money, and improved my English skills significantly.",
+    "hindi": "इस साल के अंत तक, मैंने कई महत्वपूर्ण goals हासिल कर लिए होंगे। मैंने अपना certification पूरा कर लिया होगा, पर्याप्त पैसे बचा लिए होंगे, और अपनी English skills को काफी सुधार लिया होगा।"
+  }
+}

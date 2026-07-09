@@ -1,0 +1,23 @@
+{
+  "day": 6,
+  "title": "Day 6 Speaking Drill — Has / Have",
+  "instructions": "हर sentence को ज़ोर से बोलें। Stress marks पर ध्यान दें।",
+  "drills": [
+    { "id": 1, "type": "repeat", "title": "Basic Possession — Repeat Aloud", "sentences": [
+      { "english": "I have a laptop.", "hindi": "मेरे पास एक laptop है।", "pronunciation": "I HAVE a LAP-top." },
+      { "english": "He has a car.", "hindi": "उसके पास एक कार है।", "pronunciation": "He HAS a CAR." },
+      { "english": "We have enough time.", "hindi": "हमारे पास पर्याप्त समय है।", "pronunciation": "We HAVE e-NOUGH TIME." },
+      { "english": "She has two children.", "hindi": "उसके दो बच्चे हैं।", "pronunciation": "She HAS TWO CHIL-dren." }
+    ]},
+    { "id": 2, "type": "present_perfect", "title": "Present Perfect — Speak Naturally", "sentences": [
+      { "english": "I have finished my work.", "hindi": "मैंने अपना काम खत्म कर लिया है।", "pronunciation": "I have FIN-ished my WORK." },
+      { "english": "She has already left.", "hindi": "वह पहले ही जा चुकी है।", "pronunciation": "She has all-READ-y LEFT." },
+      { "english": "We have completed the project.", "hindi": "हमने प्रोजेक्ट पूरा कर लिया है।", "pronunciation": "We have com-PLET-ed the PRO-ject." }
+    ]},
+    { "id": 3, "type": "expressions", "title": "Common Expressions — Speak Naturally", "sentences": [
+      { "english": "Let's have a break.", "hindi": "चलो एक break लेते हैं।", "pronunciation": "Let's HAVE a BREAK." },
+      { "english": "We have a meeting at 3 PM.", "hindi": "हमारी 3 बजे meeting है।", "pronunciation": "We HAVE a MEET-ing at THREE P-M." },
+      { "english": "I have a doubt about this topic.", "hindi": "मेरे पास इस topic पर doubt है।", "pronunciation": "I HAVE a DOUBT a-BOUT this TOP-ic." }
+    ]}
+  ]
+}

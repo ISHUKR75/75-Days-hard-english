@@ -1,0 +1,77 @@
+{
+  "day": 8,
+  "title": "Will Have — Complete Lesson (Future Perfect)",
+  "sections": [
+    {
+      "id": "future-perfect-structure",
+      "title": "Future Perfect Structure",
+      "hindiTitle": "Future Perfect का structure",
+      "explanation": "Will Have + V3 (past participle) से Future Perfect Tense बनता है। यह बताता है कि कोई काम future के किसी specific time से पहले complete हो जाएगा। सभी subjects (I/You/He/She/We/They) के साथ 'will have' ही आता है, कोई he/she distinction नहीं।",
+      "formula": "Subject + will have + V3",
+      "examples": [
+        { "english": "By tomorrow, I will have finished the report.", "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।" },
+        { "english": "By next year, she will have completed her MBA.", "hindi": "अगले साल तक, वह अपनी MBA पूरी कर चुकी होगी।" },
+        { "english": "By 5 PM, we will have left the office.", "hindi": "5 बजे तक, हम office से निकल चुके होंगे।" },
+        { "english": "By 2030, technology will have changed a lot.", "hindi": "2030 तक, technology बहुत बदल चुकी होगी।" }
+      ]
+    },
+    {
+      "id": "time-expressions",
+      "title": "Time Expressions for Future Perfect",
+      "hindiTitle": "Future Perfect के time expressions",
+      "explanation": "Future Perfect हमेशा किसी specific future time point के साथ इस्तेमाल होता है। Common time markers: by tomorrow, by next week, by then, by 5 PM, by the time, before.",
+      "formula": "By + [future time point] + Subject + will have + V3",
+      "examples": [
+        { "english": "By the time you read this, I will have left.", "hindi": "जब तक तुम यह पढ़ोगे, मैं जा चुका होऊँगा।" },
+        { "english": "By next week, they will have moved to a new house.", "hindi": "अगले हफ्ते तक, वे नए घर में जा चुके होंगे।" },
+        { "english": "Before the deadline, I will have submitted the form.", "hindi": "deadline से पहले, मैंने form submit कर दिया होगा।" }
+      ]
+    },
+    {
+      "id": "negative-question",
+      "title": "Negative and Question Forms",
+      "hindiTitle": "Negative और Question बनाने का तरीका",
+      "explanation": "Negative: will not have / won't have + V3। Question: Will + subject + have + V3?",
+      "formula": "won't have + V3 | Will + subject + have + V3?",
+      "examples": [
+        { "english": "I won't have finished by then.", "hindi": "मैं तब तक खत्म नहीं कर पाऊँगा।" },
+        { "english": "Will you have completed the assignment by Friday?", "hindi": "क्या तुम Friday तक assignment पूरा कर लोगे?" },
+        { "english": "Will she have arrived before the meeting starts?", "hindi": "क्या वह meeting शुरू होने से पहले पहुँच जाएगी?" }
+      ]
+    },
+    {
+      "id": "office-usage",
+      "title": "Office & Professional Usage",
+      "hindiTitle": "Office और professional इस्तेमाल",
+      "explanation": "Future Perfect professional email और meetings में बहुत इस्तेमाल होता है — deadlines, project timelines, और commitments बताने के लिए।",
+      "formula": "By + [deadline] + we/I + will have + V3",
+      "examples": [
+        { "english": "By Friday, I will have completed the testing phase.", "hindi": "Friday तक, मैं testing phase पूरा कर चुका होऊँगा।" },
+        { "english": "By our next meeting, we will have finalized the design.", "hindi": "हमारी next meeting तक, हम design finalize कर चुके होंगे।" },
+        { "english": "By Q4, our company will have reached its revenue target.", "hindi": "Q4 तक, हमारी company अपना revenue target पूरा कर चुकी होगी।" }
+      ]
+    },
+    {
+      "id": "contrast-simple-future",
+      "title": "Simple Future vs Future Perfect",
+      "hindiTitle": "Simple Future और Future Perfect में अंतर",
+      "explanation": "Simple Future (will + V1): काम भविष्य में होगा। Future Perfect (will have + V3): काम भविष्य के किसी point से पहले पूरा हो चुका होगा।",
+      "formula": "will + V1 (Simple Future) vs will have + V3 (Future Perfect)",
+      "examples": [
+        { "english": "I will finish the work tomorrow. (Simple Future)", "hindi": "मैं कल काम खत्म करूँगा। (काम कल होगा)" },
+        { "english": "By tomorrow evening, I will have finished the work. (Future Perfect)", "hindi": "कल शाम तक, मैं काम खत्म कर चुका होऊँगा। (काम शाम से पहले पूरा हो जाएगा)" }
+      ]
+    },
+    {
+      "id": "common-errors-fp",
+      "title": "Common Errors with Future Perfect",
+      "hindiTitle": "Future Perfect में सामान्य गलतियां",
+      "explanation": "1) 'By tomorrow I will finished' ❌ → 'By tomorrow I will have finished' ✅ (have missing न करें). 2) 'She will has completed' ❌ → 'She will have completed' ✅ (has नहीं, always have). 3) 'By tomorrow I will have finish' ❌ → V3 form ज़रूरी है, base verb नहीं।",
+      "formula": "Always: will + have + V3 (never will + has, never will + V1)",
+      "examples": [
+        { "english": "By tomorrow, I will have finished.", "hindi": "गलत: By tomorrow, I will finished." },
+        { "english": "She will have completed the course.", "hindi": "गलत: She will has completed the course." }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "day": 2,
+  "title": "Day 2 Reading Exercise — Self Introduction",
+  "passage": {
+    "title": "A Successful Job Interview",
+    "text": "Ravi walked into the interview room with confidence. The interviewer smiled and said, 'Good morning. Please, tell me about yourself.' Ravi replied, 'Good morning, ma'am. My name is Ravi Kumar. I am from Nagpur, but I currently live in Pune. I graduated in Mechanical Engineering in 2020, and since then, I have been working as a design engineer for three years. I am passionate about innovative product design and enjoy working in a team environment. In my free time, I like reading technical journals and playing badminton. I am looking forward to contributing my skills to your esteemed organization.' The interviewer nodded and said, 'That was a well-structured introduction. Let's move to the next question.'",
+    "hindiTranslation": "रवि आत्मविश्वास के साथ interview room में गया। Interviewer ने मुस्कुराते हुए कहा, 'सुप्रभात। कृपया अपने बारे में बताएं।' रवि ने जवाब दिया, 'सुप्रभात, मैडम। मेरा नाम रवि कुमार है। मैं नागपुर से हूँ पर अभी पुणे में रहता हूँ। मैंने 2020 में Mechanical Engineering से graduation किया और तब से design engineer के रूप में तीन साल से काम कर रहा हूँ। मुझे innovative product design का शौक है और team में काम करना पसंद है। खाली समय में मुझे technical journals पढ़ना और badminton खेलना पसंद है। मुझे आपकी संस्था में योगदान देने का इंतज़ार है।' Interviewer ने सिर हिलाकर कहा, 'यह एक अच्छी तरह से structured introduction था। चलिए next सवाल पर चलते हैं।'"
+  },
+  "comprehensionQuestions": [
+    { "id": 1, "question": "Where is Ravi currently living?", "hindi": "रवि अभी कहाँ रहता है?", "options": ["Nagpur", "Pune", "Delhi", "Mumbai"], "answer": "Pune" },
+    { "id": 2, "question": "What is Ravi's profession?", "hindi": "रवि का profession क्या है?", "options": ["Software Engineer", "Design Engineer", "Teacher", "Doctor"], "answer": "Design Engineer" },
+    { "id": 3, "question": "How many years of experience does Ravi have?", "hindi": "रवि के पास कितने साल का अनुभव है?", "options": ["One year", "Two years", "Three years", "Four years"], "answer": "Three years" },
+    { "id": 4, "question": "What are Ravi's hobbies?", "hindi": "रवि के शौक क्या हैं?", "options": ["Painting and singing", "Reading and badminton", "Cooking and dancing", "Swimming and cycling"], "answer": "Reading and badminton" },
+    { "id": 5, "question": "What did the interviewer say about Ravi's introduction?", "hindi": "Interviewer ने रवि के introduction के बारे में क्या कहा?", "options": ["It was too long", "It was confusing", "It was well-structured", "It was incomplete"], "answer": "It was well-structured" }
+  ]
+}

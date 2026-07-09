@@ -1,0 +1,115 @@
+{
+  "day": 10,
+  "title": "Revision + Practice — Days 1-9 Mega Revision",
+  "sections": [
+    {
+      "id": "day1-recap",
+      "title": "Day 1 Recap — Basics of English",
+      "hindiTitle": "Day 1 का Recap — English के Basics",
+      "explanation": "SVO structure (Subject+Verb+Object), Simple Present tense, Do/Does questions, Pronouns, Articles (a/an/the) — यह सब Day 1 में सीखा।",
+      "formula": "Subject + Verb + Object | Do/Does + subject + base verb?",
+      "examples": [
+        { "english": "I eat rice.", "hindi": "मैं चावल खाता हूँ।" },
+        { "english": "Does she speak English?", "hindi": "क्या वह English बोलती है?" }
+      ]
+    },
+    {
+      "id": "day2-recap",
+      "title": "Day 2 Recap — Self Introduction",
+      "hindiTitle": "Day 2 का Recap — Self Introduction",
+      "explanation": "My name is / I am from / I work as — introduction के templates। Present Perfect Continuous से experience बताना।",
+      "formula": "My name is / I am from / I work as",
+      "examples": [
+        { "english": "My name is Rohan, and I am from Delhi.", "hindi": "मेरा नाम रोहन है, और मैं दिल्ली से हूँ।" },
+        { "english": "I have been working here for two years.", "hindi": "मैं यहाँ दो साल से काम कर रहा हूँ।" }
+      ]
+    },
+    {
+      "id": "day3-recap",
+      "title": "Day 3 Recap — Imperative Sentences",
+      "hindiTitle": "Day 3 का Recap — Imperative Sentences",
+      "explanation": "Command (base verb से शुरू), Negative (Don't + base verb), Polite (Please + base verb), Let's (suggestion) — सब imperative sentences हैं।",
+      "formula": "Base verb (command) | Don't + base verb (negative) | Please + base verb (polite)",
+      "examples": [
+        { "english": "Close the door.", "hindi": "दरवाज़ा बंद करो।" },
+        { "english": "Don't be late.", "hindi": "देर मत करो।" },
+        { "english": "Let's go to the market.", "hindi": "चलो बाज़ार चलते हैं।" }
+      ]
+    },
+    {
+      "id": "day4-recap",
+      "title": "Day 4 Recap — Be Verb",
+      "hindiTitle": "Day 4 का Recap — Be Verb",
+      "explanation": "Present: I=am, He/She/It=is, You/We/They=are। Past: I/He/She/It=was, You/We/They=were।",
+      "formula": "I=am/was | He/She/It=is/was | You/We/They=are/were",
+      "examples": [
+        { "english": "I am happy.", "hindi": "मैं खुश हूँ।" },
+        { "english": "They were tired yesterday.", "hindi": "वे कल थके हुए थे।" }
+      ]
+    },
+    {
+      "id": "day5-recap",
+      "title": "Day 5 Recap — Demonstrative Pronouns",
+      "hindiTitle": "Day 5 का Recap — Demonstrative Pronouns",
+      "explanation": "This (singular, near), That (singular, far), These (plural, near), Those (plural, far)।",
+      "formula": "This/That (singular) | These/Those (plural)",
+      "examples": [
+        { "english": "This is my book.", "hindi": "यह मेरी किताब है।" },
+        { "english": "Those are my friends.", "hindi": "वे मेरे दोस्त हैं।" }
+      ]
+    },
+    {
+      "id": "day6-recap",
+      "title": "Day 6 Recap — Has / Have",
+      "hindiTitle": "Day 6 का Recap — Has / Have",
+      "explanation": "I/You/We/They + have | He/She/It + has। Present Perfect: have/has + V3।",
+      "formula": "I/You/We/They=have | He/She/It=has",
+      "examples": [
+        { "english": "I have a laptop.", "hindi": "मेरे पास laptop है।" },
+        { "english": "She has finished her work.", "hindi": "उसने अपना काम खत्म कर लिया है।" }
+      ]
+    },
+    {
+      "id": "day7-recap",
+      "title": "Day 7 Recap — Had",
+      "hindiTitle": "Day 7 का Recap — Had",
+      "explanation": "Had = past possession के लिए सभी subjects के साथ। Past Perfect: had + V3।",
+      "formula": "Subject + had | Subject + had + V3",
+      "examples": [
+        { "english": "I had a car.", "hindi": "मेरे पास एक कार थी।" },
+        { "english": "He had already left when I arrived.", "hindi": "जब मैं पहुँचा, वह पहले ही जा चुका था।" }
+      ]
+    },
+    {
+      "id": "day8-recap",
+      "title": "Day 8 Recap — Will Have",
+      "hindiTitle": "Day 8 का Recap — Will Have",
+      "explanation": "Future Perfect: will have + V3। By + future time + subject + will have + V3।",
+      "formula": "Subject + will have + V3",
+      "examples": [
+        { "english": "By tomorrow, I will have finished the report.", "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।" }
+      ]
+    },
+    {
+      "id": "day9-recap",
+      "title": "Day 9 Recap — Use of There",
+      "hindiTitle": "Day 9 का Recap — Use of There",
+      "explanation": "There is (singular, present), There are (plural, present), There was/were (past), There will be (future)।",
+      "formula": "There is/are/was/were/will be",
+      "examples": [
+        { "english": "There is a book on the table.", "hindi": "मेज़ पर एक किताब है।" },
+        { "english": "There were many people at the party.", "hindi": "party में बहुत लोग थे।" }
+      ]
+    },
+    {
+      "id": "mixed-practice-strategy",
+      "title": "Mixed Practice Strategy",
+      "hindiTitle": "Mixed Practice की strategy",
+      "explanation": "अब जो भी sentence आए, पहले पहचानो कि कौन सा grammar topic इसमें है (be verb, have/has, had, will have, there, demonstrative, imperative)। फिर सही formula apply करो।",
+      "formula": "Identify topic → Apply correct formula → Check subject-verb agreement",
+      "examples": [
+        { "english": "There are five students in the class, and they have completed the test.", "hindi": "Class में पाँच students हैं, और उन्होंने test पूरा कर लिया है।ie mixed topics" }
+      ]
+    }
+  ]
+}

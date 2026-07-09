@@ -1,0 +1,15 @@
+{
+  "day": 6,
+  "title": "Day 6 Reading Exercise — Has / Have",
+  "passage": {
+    "title": "A Busy Office Day",
+    "text": "Meera has a busy schedule today. She has a meeting at 10 AM with the marketing team. She has already prepared the presentation and has sent it to her manager. At 1 PM, she has lunch with her colleagues. In the afternoon, she has to submit a report before the deadline. By evening, she has completed all her tasks and feels satisfied. 'I have had a productive day,' she says to her friend.",
+    "hindiTranslation": "मीरा का आज बहुत busy schedule है। उसकी 10 बजे marketing team के साथ meeting है। उसने पहले ही presentation तैयार कर ली है और अपने manager को भेज दी है। 1 बजे, वह अपने colleagues के साथ lunch करती है। दोपहर में, उसे deadline से पहले एक report submit करनी है। शाम तक, उसने अपने सारे काम पूरे कर लिए हैं और संतुष्ट महसूस करती है। 'मेरा आज बहुत productive दिन रहा है,' वह अपने दोस्त से कहती है।"
+  },
+  "comprehensionQuestions": [
+    { "id": 1, "question": "What time is Meera's meeting?", "hindi": "मीरा की meeting कितने बजे है?", "options": ["9 AM", "10 AM", "11 AM", "12 PM"], "answer": "10 AM" },
+    { "id": 2, "question": "What has Meera already prepared?", "hindi": "मीरा ने पहले ही क्या तैयार किया है?", "options": ["A report", "A presentation", "A meeting", "A budget"], "answer": "A presentation" },
+    { "id": 3, "question": "What does Meera have to submit before the deadline?", "hindi": "मीरा को deadline से पहले क्या submit करना है?", "options": ["A presentation", "A report", "An email", "A budget"], "answer": "A report" },
+    { "id": 4, "question": "How does Meera feel by evening?", "hindi": "शाम तक मीरा कैसा महसूस करती है?", "options": ["Tired", "Sad", "Satisfied", "Confused"], "answer": "Satisfied" }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "day": 2,
+  "title": "Day 2 Revision — Self Introduction",
+  "keyPointsSummary": [
+    "Name बताने के 5 तरीके: My name is / I am / I'm / People call me / You can call me",
+    "Origin बताने के 5 तरीके: I am from / I belong to / I come from / I was born in / I currently live in",
+    "Profession बताने के 5 तरीके: I work as a/an / I am a/an / I am working at / I am currently employed as / My profession is",
+    "Experience: I have been + verb+ing + for + time (Present Perfect Continuous)",
+    "Family: There are X people in my family / I have X siblings / My family consists of",
+    "Hobbies: I like/love/enjoy + verb+ing / I am passionate about / I am interested in",
+    "Greetings: Nice to meet you / Pleased to meet you / How do you do?",
+    "Common mistakes: 'I am belongs to' गलत, 'I belong to' सही; 'two year experience' गलत, 'two years of experience' सही"
+  ],
+  "quickQuiz": [
+    { "id": 1, "question": "Fix this sentence: 'I am belongs to Mumbai.'", "answer": "I belong to Mumbai." },
+    { "id": 2, "question": "Translate: मुझे किताबें पढ़ना पसंद है।", "answer": "I like reading books." },
+    { "id": 3, "question": "Fill: I have been ______ (work) here for two years.", "answer": "working" },
+    { "id": 4, "question": "Translate: मेरे परिवार में पाँच लोग हैं।", "answer": "There are five people in my family." },
+    { "id": 5, "question": "Correct: 'I have two year experience.'", "answer": "I have two years of experience." }
+  ],
+  "mustRememberRules": [
+    "Job titles से पहले article (a/an) ज़रूरी है — 'a teacher', 'an engineer'",
+    "'belong to' के साथ कभी 's' या 'am/is/are' नहीं लगाते जब subject 'I' हो — 'I belong to'",
+    "'years of experience' — दोनों words ज़रूरी हैं",
+    "like/love/enjoy के बाद verb में हमेशा -ing लगता है"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "day": 2,
+  "title": "Day 2 Milestones — Self Introduction",
+  "milestones": [
+    { "id": 1, "title": "Learned 5 ways to introduce your name", "xp": 20, "completed": false },
+    { "id": 2, "title": "Learned 5 ways to state your origin", "xp": 20, "completed": false },
+    { "id": 3, "title": "Learned 5 ways to state your profession", "xp": 20, "completed": false },
+    { "id": 4, "title": "Completed 60 practice questions", "xp": 40, "completed": false },
+    { "id": 5, "title": "Passed the Day 2 daily test (70%+)", "xp": 50, "completed": false },
+    { "id": 6, "title": "Practiced speaking drills aloud 5 times", "xp": 30, "completed": false },
+    { "id": 7, "title": "Wrote your own 1-minute introduction", "xp": 40, "completed": false },
+    { "id": 8, "title": "Completed reading comprehension exercise", "xp": 20, "completed": false },
+    { "id": 9, "title": "Completed listening dictation exercise", "xp": 20, "completed": false },
+    { "id": 10, "title": "Learned 60 new vocabulary words", "xp": 30, "completed": false }
+  ],
+  "totalXpAvailable": 290,
+  "badge": { "name": "Introduction Master", "icon": "🎯", "unlockCondition": "Complete all 10 milestones" }
+}

@@ -1,0 +1,101 @@
+{
+  "day": 6,
+  "title": "Has / Have — Complete Lesson",
+  "sections": [
+    {
+      "id": "have-has-rule",
+      "title": "Have vs Has — The Basic Rule",
+      "hindiTitle": "Have और Has का बुनियादी नियम",
+      "explanation": "I/You/We/They के साथ 'have' आता है। He/She/It और singular nouns के साथ 'has' आता है। यह rule Present tense के लिए है।",
+      "formula": "I/You/We/They + have | He/She/It + has",
+      "examples": [
+        { "english": "I have a laptop.", "hindi": "मेरे पास एक laptop है।" },
+        { "english": "You have a good voice.", "hindi": "तुम्हारी आवाज़ अच्छी है।" },
+        { "english": "We have enough time.", "hindi": "हमारे पास पर्याप्त समय है।" },
+        { "english": "They have a big house.", "hindi": "उनके पास एक बड़ा घर है।" },
+        { "english": "He has a car.", "hindi": "उसके पास एक कार है।" },
+        { "english": "She has two children.", "hindi": "उसके दो बच्चे हैं।" },
+        { "english": "It has four legs.", "hindi": "उसकी चार पैर हैं।" },
+        { "english": "Ravi has a new job.", "hindi": "रवि की नई नौकरी है।" }
+      ]
+    },
+    {
+      "id": "present-perfect",
+      "title": "Present Perfect with Have/Has",
+      "hindiTitle": "Have/Has के साथ Present Perfect Tense",
+      "explanation": "Have/Has + V3 (past participle) से Present Perfect Tense बनता है। यह उस काम के लिए है जो past में हुआ पर उसका effect present में है। जैसे 'I have eaten' मतलब खाना खा लिया है और अब भूख नहीं है।",
+      "formula": "Subject + have/has + V3",
+      "examples": [
+        { "english": "I have eaten.", "hindi": "मैंने खा लिया है।" },
+        { "english": "He has gone to the market.", "hindi": "वह बाज़ार गया है।" },
+        { "english": "She has finished her homework.", "hindi": "उसने अपना homework पूरा कर लिया है।" },
+        { "english": "We have completed the project.", "hindi": "हमने project पूरा कर लिया है।" },
+        { "english": "They have already left.", "hindi": "वे पहले ही जा चुके हैं।" }
+      ]
+    },
+    {
+      "id": "negative-forms",
+      "title": "Negative Forms",
+      "hindiTitle": "Negative बनाने का तरीका",
+      "explanation": "Possession की negative: don't have / doesn't have। Present Perfect की negative: haven't / hasn't + V3।",
+      "formula": "don't/doesn't + have | haven't/hasn't + V3",
+      "examples": [
+        { "english": "I don't have a car.", "hindi": "मेरे पास कार नहीं है।" },
+        { "english": "She doesn't have time.", "hindi": "उसके पास समय नहीं है।" },
+        { "english": "I haven't finished the report.", "hindi": "मैंने report खत्म नहीं की है।" },
+        { "english": "He hasn't arrived yet.", "hindi": "वह अभी तक नहीं पहुँचा है।" }
+      ]
+    },
+    {
+      "id": "question-forms",
+      "title": "Question Forms",
+      "hindiTitle": "Question बनाने का तरीका",
+      "explanation": "Possession के question: Do you have...? / Does he have...? Present Perfect के question: Have you...? / Has she...?",
+      "formula": "Do/Does + subject + have...? | Have/Has + subject + V3...?",
+      "examples": [
+        { "english": "Do you have a pen?", "hindi": "क्या तुम्हारे पास पेन है?" },
+        { "english": "Does he have a bike?", "hindi": "क्या उसके पास bike है?" },
+        { "english": "Have you finished your work?", "hindi": "क्या तुमने अपना काम खत्म कर लिया है?" },
+        { "english": "Has she called you?", "hindi": "क्या उसने तुम्हें फोन किया है?" }
+      ]
+    },
+    {
+      "id": "common-expressions",
+      "title": "Common Expressions with Have",
+      "hindiTitle": "Have के साथ common expressions",
+      "explanation": "'Have' कई fixed expressions में इस्तेमाल होता है जिनका meaning literal 'have' से अलग होता है — जैसे 'have breakfast' का मतलब breakfast रखना नहीं, breakfast करना है।",
+      "formula": "have + breakfast/lunch/dinner/a meeting/a look/a break/fun",
+      "examples": [
+        { "english": "I have breakfast at 8 AM.", "hindi": "मैं 8 बजे breakfast करता हूँ।" },
+        { "english": "We have a meeting at 3 PM.", "hindi": "हमारी 3 बजे meeting है।" },
+        { "english": "Let's have a look at this.", "hindi": "चलो इसे देखते हैं।" },
+        { "english": "Let's have a break.", "hindi": "चलो break लेते हैं।" },
+        { "english": "We had a lot of fun.", "hindi": "हमने बहुत मज़ा किया।" }
+      ]
+    },
+    {
+      "id": "have-got",
+      "title": "Have Got (Informal Usage)",
+      "hindiTitle": "Have Got का informal इस्तेमाल",
+      "explanation": "British/informal English में 'have got' = 'have' के समान मतलब रखता है, खासकर possession बताने के लिए।",
+      "formula": "have/has got + [noun]",
+      "examples": [
+        { "english": "I've got a new phone.", "hindi": "मेरे पास एक नया phone है।" },
+        { "english": "She's got two sisters.", "hindi": "उसकी दो बहनें हैं।" },
+        { "english": "Have you got a minute?", "hindi": "क्या तुम्हारे पास एक मिनट है?" }
+      ]
+    },
+    {
+      "id": "common-errors",
+      "title": "Common Errors with Have/Has",
+      "hindiTitle": "Have/Has में होने वाली सामान्य गलतियां",
+      "explanation": "1) 'He have a car' ❌ → 'He has a car' ✅ (He/She/It के साथ has). 2) 'She don't has time' ❌ → 'She doesn't have time' ✅ (doesn't के बाद base form 'have'). 3) 'I has a book' ❌ → 'I have a book' ✅. 4) 'Do she have?' ❌ → 'Does she have?' ✅.",
+      "formula": "Never mix don't/doesn't with has/have incorrectly",
+      "examples": [
+        { "english": "He has a car.", "hindi": "गलत: He have a car." },
+        { "english": "She doesn't have time.", "hindi": "गलत: She don't has time." },
+        { "english": "Does she have a laptop?", "hindi": "गलत: Do she have a laptop?" }
+      ]
+    }
+  ]
+}

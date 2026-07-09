@@ -1,0 +1,10 @@
+{
+  "day": 6,
+  "title": "Day 6 Writing Exercise — Has / Have",
+  "instructions": "नीचे दिए गए prompts के आधार पर अपने शब्दों में English में लिखें।",
+  "tasks": [
+    { "id": 1, "type": "guided", "prompt": "Write 5 sentences about things you have (possessions).", "hindiPrompt": "अपनी 5 चीज़ों के बारे में लिखें जो आपके पास हैं।", "sampleAnswer": "I have a smartphone. I have a laptop. I have a bicycle. I have many books. I have a good friend circle.", "wordLimit": 60 },
+    { "id": 2, "type": "guided", "prompt": "Write 5 sentences about things you have done today using Present Perfect.", "hindiPrompt": "आज आपने जो काम किए हैं उनके बारे में Present Perfect में 5 sentences लिखें।", "sampleAnswer": "I have woken up early. I have had my breakfast. I have completed my English lesson. I have replied to emails. I have exercised for 20 minutes.", "wordLimit": 60 },
+    { "id": 3, "type": "free", "prompt": "Write a short professional profile using have/has (experience, skills, achievements).", "hindiPrompt": "have/has का इस्तेमाल करते हुए अपना professional profile लिखें।", "sampleAnswer": null, "wordLimit": 100 }
+  ]
+}

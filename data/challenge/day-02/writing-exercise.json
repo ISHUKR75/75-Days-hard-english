@@ -1,0 +1,12 @@
+{
+  "day": 2,
+  "title": "Day 2 Writing Exercise — Self Introduction",
+  "instructions": "नीचे दिए गए prompts के आधार पर अपने शब्दों में English में लिखें। Space में अपना answer लिखें।",
+  "tasks": [
+    { "id": 1, "type": "guided", "prompt": "Write a 5-sentence formal self-introduction including your name, city, and profession.", "hindiPrompt": "5 sentences में अपना formal introduction लिखें जिसमें नाम, शहर और profession शामिल हो।", "sampleAnswer": "My name is Aman Verma. I am from Jaipur, Rajasthan. I currently work as a marketing executive at a private firm. I have two years of experience in digital marketing. I am passionate about learning new skills every day.", "wordLimit": 80 },
+    { "id": 2, "type": "guided", "prompt": "Write an informal introduction to a new friend (3-4 sentences).", "hindiPrompt": "एक नए दोस्त को informal तरीके से अपना introduction दें (3-4 sentences)।", "sampleAnswer": "Hi! I'm Neha. I'm from Pune, but I live in Mumbai now. I love traveling and painting. What about you?", "wordLimit": 60 },
+    { "id": 3, "type": "guided", "prompt": "Write your 'Tell me about yourself' interview answer.", "hindiPrompt": "Interview के 'Tell me about yourself' सवाल का जवाब लिखें।", "sampleAnswer": "Good morning. My name is Priya Singh. I completed my B.Tech in Computer Science from Delhi in 2021. I have been working as a software developer for two years at a reputed IT company. My key strength is problem-solving, and I am always eager to learn new technologies. I am looking forward to this opportunity.", "wordLimit": 100 },
+    { "id": 4, "type": "free", "prompt": "Write about your family in 4-5 sentences using at least 3 vocabulary words from today's lesson.", "hindiPrompt": "अपने परिवार के बारे में 4-5 sentences लिखें, आज के lesson के कम से कम 3 words use करें।", "sampleAnswer": null, "wordLimit": 80 },
+    { "id": 5, "type": "free", "prompt": "Write your own 1-minute elevator pitch introducing yourself professionally.", "hindiPrompt": "अपना 1-minute professional elevator pitch लिखें।", "sampleAnswer": null, "wordLimit": 120 }
+  ]
+}

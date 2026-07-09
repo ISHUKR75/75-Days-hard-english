@@ -1,0 +1,14 @@
+{
+  "day": 8,
+  "title": "Day 8 Reading Exercise — Will Have",
+  "passage": {
+    "title": "The Project Deadline",
+    "text": "The manager called a team meeting on Monday. 'By Friday, we will have completed the testing phase,' said Arjun, the project lead. 'By our next meeting on Wednesday, we will have finalized the design as well,' added Priya. The manager smiled and said, 'Great. By the end of this quarter, I believe our team will have exceeded the client's expectations.' Everyone nodded confidently. They knew that by working together, they will have delivered a successful project well before the final deadline.",
+    "hindiTranslation": "Manager ने Monday को एक team meeting बुलाई। 'Friday तक, हम testing phase पूरा कर चुके होंगे,' अर्जुन ने कहा, जो project lead था। 'हमारी अगली meeting, Wednesday तक, हम design भी finalize कर चुके होंगे,' प्रिया ने जोड़ा। Manager मुस्कुराया और कहा, 'बहुत बढ़िया। इस quarter के अंत तक, मुझे यकीन है कि हमारी team client की expectations से आगे निकल चुकी होगी।' सबने आत्मविश्वास से सिर हिलाया। उन्हें पता था कि साथ काम करते हुए, वे final deadline से बहुत पहले एक successful project deliver कर चुके होंगे।"
+  },
+  "comprehensionQuestions": [
+    { "id": 1, "question": "What will the team have completed by Friday?", "hindi": "Friday तक team ने क्या पूरा कर लिया होगा?", "options": ["The design", "The testing phase", "The report", "The budget"], "answer": "The testing phase" },
+    { "id": 2, "question": "When will the design be finalized?", "hindi": "Design कब finalize होगा?", "options": ["By Monday", "By Wednesday", "By Friday", "By next month"], "answer": "By Wednesday" },
+    { "id": 3, "question": "What does the manager believe about the client's expectations?", "hindi": "Manager client की expectations के बारे में क्या मानता है?", "options": ["They will fail to meet them", "They will have exceeded them", "They are unclear", "They will be delayed"], "answer": "They will have exceeded them" }
+  ]
+}

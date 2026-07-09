@@ -1,0 +1,15 @@
+{
+  "day": 6,
+  "title": "Day 6 Listening Exercise — Has / Have",
+  "instructions": "इन sentences को audio/TTS के through सुनें और blanks भरें।",
+  "exercises": [
+    { "id": 1, "audioText": "I have a meeting at three o'clock.", "hindi": "मेरी 3 बजे meeting है।", "fillInBlank": "I _____ a meeting at three o'clock.", "answer": ["have"] },
+    { "id": 2, "audioText": "She has already finished her work.", "hindi": "उसने पहले ही अपना काम खत्म कर लिया है।", "fillInBlank": "She _____ already finished her work.", "answer": ["has"] },
+    { "id": 3, "audioText": "Do you have any allergies?", "hindi": "क्या तुम्हें कोई एलर्जी है?", "fillInBlank": "Do you _____ any allergies?", "answer": ["have"] },
+    { "id": 4, "audioText": "We have completed the project on time.", "hindi": "हमने प्रोजेक्ट समय पर पूरा कर लिया है।", "fillInBlank": "We have _____ the project on time.", "answer": ["completed"] }
+  ],
+  "dictationPassage": {
+    "text": "I have a busy day today. I have a meeting at 10 AM and a presentation at 2 PM. I have already prepared everything. By evening, I will have finished all my work.",
+    "hindi": "आज मेरा दिन busy है। मेरी 10 बजे meeting और 2 बजे presentation है। मैंने पहले ही सब कुछ तैयार कर लिया है। शाम तक, मैं अपना सारा काम खत्म कर चुका होऊँगा।"
+  }
+}

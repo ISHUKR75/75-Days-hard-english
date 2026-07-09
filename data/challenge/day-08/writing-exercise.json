@@ -1,0 +1,10 @@
+{
+  "day": 8,
+  "title": "Day 8 Writing Exercise — Will Have",
+  "instructions": "नीचे दिए गए prompts के आधार पर अपने शब्दों में English में लिखें।",
+  "tasks": [
+    { "id": 1, "type": "guided", "prompt": "Write 5 sentences about your future goals using 'will have'.", "hindiPrompt": "अपने future goals के बारे में 5 sentences 'will have' का इस्तेमाल करके लिखें।", "sampleAnswer": "By next year, I will have completed my certification. By 2028, I will have started my own business. By 30, I will have bought my own house. By June, I will have learned fluent English. By next month, I will have finished this course.", "wordLimit": 60 },
+    { "id": 2, "type": "guided", "prompt": "Write a short professional email using Future Perfect about a project deadline.", "hindiPrompt": "Future Perfect का इस्तेमाल करते हुए एक project deadline के बारे में professional email लिखें।", "sampleAnswer": "Dear Team, By Friday, we will have completed the testing phase and submitted the final report. Please let me know if you have any concerns before then. Regards.", "wordLimit": 80 },
+    { "id": 3, "type": "free", "prompt": "Write your 5-year career plan using will have.", "hindiPrompt": "अपना 5-साल का career plan 'will have' का इस्तेमाल करते हुए लिखें।", "sampleAnswer": null, "wordLimit": 100 }
+  ]
+}

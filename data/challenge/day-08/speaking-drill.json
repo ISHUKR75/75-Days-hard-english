@@ -1,0 +1,21 @@
+{
+  "day": 8,
+  "title": "Day 8 Speaking Drill — Will Have (Future Perfect)",
+  "instructions": "हर sentence को ज़ोर से बोलें। Stress marks पर ध्यान दें।",
+  "drills": [
+    { "id": 1, "type": "repeat", "title": "Basic Future Perfect — Repeat Aloud", "sentences": [
+      { "english": "By tomorrow, I will have finished the report.", "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।", "pronunciation": "By to-MOR-row, I will have FIN-ished the re-PORT." },
+      { "english": "By next year, she will have completed her MBA.", "hindi": "अगले साल तक, वह MBA पूरी कर चुकी होगी।", "pronunciation": "By NEXT year, she will have com-PLET-ed her M-B-A." },
+      { "english": "By 5 PM, we will have left the office.", "hindi": "5 बजे तक, हम office से निकल चुके होंगे।", "pronunciation": "By FIVE P-M, we will have LEFT the OF-fice." }
+    ]},
+    { "id": 2, "type": "office", "title": "Office Deadlines — Speak Naturally", "sentences": [
+      { "english": "By Friday, I will have completed the testing phase.", "hindi": "Friday तक, testing phase पूरा हो चुका होगा।", "pronunciation": "By FRI-day, I will have com-PLET-ed the TEST-ing phase." },
+      { "english": "By our next meeting, we will have finalized the design.", "hindi": "हमारी next meeting तक, design finalize हो चुका होगा।", "pronunciation": "By our NEXT MEET-ing, we will have FI-nal-ized the de-SIGN." },
+      { "english": "By Q4, our company will have reached its revenue target.", "hindi": "Q4 तक, revenue target पूरा हो चुका होगा।", "pronunciation": "By Q-FOUR, our COM-pa-ny will have REACHED its REV-e-nue TAR-get." }
+    ]},
+    { "id": 3, "type": "personal_goals", "title": "Personal Goals — Speak Naturally", "sentences": [
+      { "english": "By December, I will have saved enough for my trip.", "hindi": "December तक, trip के लिए पैसे बचा चुका होऊँगा।", "pronunciation": "By De-CEM-ber, I will have SAVED e-NOUGH for my TRIP." },
+      { "english": "In five years, I will have become a senior manager.", "hindi": "5 सालों में, senior manager बन चुका होऊँगा।", "pronunciation": "In FIVE years, I will have be-COME a SEEN-yor MAN-a-ger." }
+    ]}
+  ]
+}
