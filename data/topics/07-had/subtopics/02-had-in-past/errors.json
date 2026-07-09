@@ -1,0 +1,12 @@
+[
+  { "wrong": "I have a headache yesterday.", "correct": "I had a headache yesterday.", "explanation": "'Yesterday' is a past time marker. Use 'had', not 'have'." },
+  { "wrong": "She was having a fever last night.", "correct": "She had a fever last night.", "explanation": "For simple past states, use 'had', not 'was having'." },
+  { "wrong": "We did have dinner last night.", "correct": "We had dinner last night.", "explanation": "For simple past with 'had' as main verb, just use 'had' — no 'did'." },
+  { "wrong": "They had a great times.", "correct": "They had a great time.", "explanation": "'Time' when meaning 'experience' is uncountable. No plural form." },
+  { "wrong": "He had much fun.", "correct": "He had a lot of fun.", "explanation": "In modern English, 'a lot of fun' sounds more natural than 'much fun' in affirmative sentences." },
+  { "wrong": "I had a cold since last week.", "correct": "I have had a cold since last week.", "explanation": "With 'since', use present perfect (have had), not simple past (had)." },
+  { "wrong": "She had breakfast in yesterday.", "correct": "She had breakfast yesterday.", "explanation": "No preposition 'in' before 'yesterday'." },
+  { "wrong": "We had a discuss about it.", "correct": "We had a discussion about it.", "explanation": "'Discuss' is a verb; the noun form is 'discussion'." },
+  { "wrong": "He had a sore throats.", "correct": "He had a sore throat.", "explanation": "'Throat' is singular here; 'sore throat' does not use plural." },
+  { "wrong": "They had dinner at yesterday evening.", "correct": "They had dinner yesterday evening.", "explanation": "Do not use 'at' before 'yesterday'. Just say 'yesterday evening'." }
+]

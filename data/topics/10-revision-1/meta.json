@@ -1,0 +1,32 @@
+{
+  "id": "10-revision-1",
+  "title": "Revision Day 1",
+  "day": 10,
+  "cefr": "A1",
+  "type": "revision",
+  "description": "Comprehensive revision of Days 1-9. Revisit Be Verb, Has/Have/Had, Will Have, and Use of There. Mixed practice to strengthen all concepts learned so far in the 75 Days Hard English course.",
+  "subtopics": [
+    { "id": "01-be-verb-revision", "slug": "01-be-verb-revision", "title": "Be Verb Revision", "emoji": "🔄", "description": "Revise is/am/are/was/were. Quick recap and practice exercises.", "xp": 20, "order": 1 },
+    { "id": "02-have-had-revision", "slug": "02-have-had-revision", "title": "Have / Has / Had Revision", "emoji": "🔁", "description": "Revise have, has, had, will have with mixed exercises.", "xp": 20, "order": 2 },
+    { "id": "03-modal-revision", "slug": "03-modal-revision", "title": "Modal Verbs Revision", "emoji": "💡", "description": "Quick revision of can, could, will, would, should, must.", "xp": 20, "order": 3 },
+    { "id": "04-mixed-practice", "slug": "04-mixed-practice", "title": "Mixed Practice", "emoji": "🎯", "description": "100 mixed Hindi-to-English translation exercises from Days 1-9.", "xp": 30, "order": 4 }
+  ],
+  "learningObjectives": [
+    "Revise all be verb forms",
+    "Revise has, have, had, will have",
+    "Revise modal verbs",
+    "Practice mixed translation exercises",
+    "Identify and correct common errors",
+    "Build confidence with previously learned structures"
+  ],
+  "prerequisites": ["02-be-verb", "04-has-have-had-will-have", "07-had", "08-will-have", "09-use-of-there"],
+  "estimatedTime": 60,
+  "xpReward": 220,
+  "coinsReward": 55,
+  "tags": ["revision", "mixed-practice", "A1", "review"],
+  "relatedTopics": ["02-be-verb", "04-has-have-had-will-have", "09-use-of-there"],
+  "totalSubtopics": 4,
+  "totalExamples": 100,
+  "totalVocabulary": 60,
+  "totalPracticeQuestions": 160
+}

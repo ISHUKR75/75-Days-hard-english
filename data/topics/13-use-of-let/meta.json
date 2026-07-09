@@ -1,0 +1,33 @@
+{
+  "id": "13-use-of-let",
+  "title": "Use of Let",
+  "day": 13,
+  "cefr": "A1",
+  "type": "grammar",
+  "description": "Learn to use 'Let' — to give permission, make suggestions, and express willingness. Master let me, let him/her, let us/let's, and let in permission contexts. Very common in spoken English.",
+  "subtopics": [
+    { "id": "01-let-me", "slug": "01-let-me", "title": "Let Me", "emoji": "🙋", "description": "Let me try. Let me explain. Let me help you. Using let me for personal requests.", "xp": 20, "order": 1 },
+    { "id": "02-let-him-her", "slug": "02-let-him-her", "title": "Let Him / Let Her / Let Them", "emoji": "👥", "description": "Let him speak. Let her go. Let them play. Third person with let.", "xp": 20, "order": 2 },
+    { "id": "03-let-us", "slug": "03-let-us", "title": "Let Us / Let's", "emoji": "🤝", "description": "Let us begin. Let's eat. Let's go! Inclusive suggestions with let's.", "xp": 20, "order": 3 },
+    { "id": "04-let-in-permission", "slug": "04-let-in-permission", "title": "Let in Permission", "emoji": "✅", "description": "Please let me go. Will you let me try? Let as permission.", "xp": 20, "order": 4 },
+    { "id": "05-let-in-sentences", "slug": "05-let-in-sentences", "title": "Let in Various Sentences", "emoji": "📝", "description": "Mixed practice with all forms of let in real contexts.", "xp": 20, "order": 5 }
+  ],
+  "learningObjectives": [
+    "Use let me to offer help or make a personal request",
+    "Use let him/her/them to give permission",
+    "Use let us / let's for inclusive suggestions",
+    "Use let in permission-giving contexts",
+    "Form negative sentences with don't let",
+    "Use let naturally in daily conversations"
+  ],
+  "prerequisites": ["01-imperative-sentences"],
+  "estimatedTime": 40,
+  "xpReward": 180,
+  "coinsReward": 45,
+  "tags": ["let", "permission", "suggestion", "A1", "grammar", "daily-use"],
+  "relatedTopics": ["01-imperative-sentences", "11-use-of-want"],
+  "totalSubtopics": 5,
+  "totalExamples": 100,
+  "totalVocabulary": 60,
+  "totalPracticeQuestions": 200
+}

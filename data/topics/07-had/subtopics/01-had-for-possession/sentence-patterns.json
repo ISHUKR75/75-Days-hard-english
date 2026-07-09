@@ -1,0 +1,17 @@
+[
+  { "pattern": "I had + [noun]", "hindi": "मेरे पास [वस्तु] थी/था/थे।", "example": { "hindi": "मेरे पास एक घड़ी थी।", "english": "I had a watch." } },
+  { "pattern": "You had + [noun]", "hindi": "तुम्हारे/आपके पास [वस्तु] थी/था/थे।", "example": { "hindi": "तुम्हारे पास एक किताब थी।", "english": "You had a book." } },
+  { "pattern": "He had + [noun]", "hindi": "उसके पास [वस्तु] थी/था/थे।", "example": { "hindi": "उसके पास एक बाइक थी।", "english": "He had a bike." } },
+  { "pattern": "She had + [noun]", "hindi": "उसके पास [वस्तु] थी/था/थे। (स्त्री)", "example": { "hindi": "उसके पास एक बिल्ली थी।", "english": "She had a cat." } },
+  { "pattern": "We had + [noun]", "hindi": "हमारे पास [वस्तु] थी/था/थे।", "example": { "hindi": "हमारे पास एक पुरानी गाड़ी थी।", "english": "We had an old car." } },
+  { "pattern": "They had + [noun]", "hindi": "उनके पास [वस्तु] थी/था/थे।", "example": { "hindi": "उनके पास बहुत पैसा था।", "english": "They had a lot of money." } },
+  { "pattern": "[Name] had + [noun]", "hindi": "[नाम] के पास [वस्तु] थी/था/थे।", "example": { "hindi": "सोनम के पास एक सुंदर साड़ी थी।", "english": "Sonam had a beautiful saree." } },
+  { "pattern": "I had a + [adjective] + [noun]", "hindi": "मेरे पास एक [विशेषण] [वस्तु] था/थी।", "example": { "hindi": "मेरे पास एक बड़ी मेज थी।", "english": "I had a big table." } },
+  { "pattern": "She had + [number] + [noun]", "hindi": "उसके पास [संख्या] [वस्तु] थे/थीं।", "example": { "hindi": "उसके पास चार बिल्लियाँ थीं।", "english": "She had four cats." } },
+  { "pattern": "We had + [adjective] + [noun]", "hindi": "हमारे पास [विशेषण] [वस्तु] था/थी/थे।", "example": { "hindi": "हमारे पास एक अच्छा मकान था।", "english": "We had a good house." } },
+  { "pattern": "He had + a lot of + [noun]", "hindi": "उसके पास बहुत [वस्तु] थी/था/थे।", "example": { "hindi": "उसके पास बहुत ज़मीन थी।", "english": "He had a lot of land." } },
+  { "pattern": "They had + [noun] and [noun]", "hindi": "उनके पास [वस्तु] और [वस्तु] थे।", "example": { "hindi": "उनके पास गाय और बकरियाँ थीं।", "english": "They had cows and goats." } },
+  { "pattern": "My [relation] had + [noun]", "hindi": "मेरे [रिश्तेदार] के पास [वस्तु] थी/था।", "example": { "hindi": "मेरे चाचा के पास एक बड़ा खेत था।", "english": "My uncle had a big farm." } },
+  { "pattern": "That [noun] had + [noun]", "hindi": "उस [वस्तु/व्यक्ति] में/पास [चीज़] था/थी।", "example": { "hindi": "उस होटल में एक बड़ा स्विमिंग पूल था।", "english": "That hotel had a big swimming pool." } },
+  { "pattern": "The [noun] had + [adjective] + [noun]", "hindi": "उस [चीज़/व्यक्ति] के पास [विशेषण] [वस्तु] था/थी।", "example": { "hindi": "उस राजा के पास एक विशाल महल था।", "english": "The king had a magnificent palace." } }
+]

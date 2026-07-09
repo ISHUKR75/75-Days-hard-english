@@ -1,0 +1,34 @@
+{
+  "id": "08-will-have",
+  "title": "Will Have (Future Perfect)",
+  "day": 8,
+  "cefr": "A2",
+  "type": "grammar",
+  "description": "Learn to use 'Will Have' to express future perfect tense — actions that will be completed by a specific future time. Essential for advanced English communication in professional and academic contexts.",
+  "subtopics": [
+    { "id": "01-will-have-basic", "slug": "01-will-have-basic", "title": "Will Have — Basic Concept", "emoji": "🔮", "description": "I will have finished. She will have arrived. Basic future perfect sentences.", "xp": 20, "order": 1 },
+    { "id": "02-will-have-by-time", "slug": "02-will-have-by-time", "title": "Will Have + By (Time Expression)", "emoji": "⏰", "description": "I will have eaten by 8 PM. By Monday, she will have completed it.", "xp": 25, "order": 2 },
+    { "id": "03-future-perfect-structure", "slug": "03-future-perfect-structure", "title": "Future Perfect Structure", "emoji": "📐", "description": "Subject + will have + V3. Full structure, affirmative, negative, questions.", "xp": 20, "order": 3 },
+    { "id": "04-examples", "slug": "04-examples", "title": "Examples and Practice", "emoji": "📚", "description": "50+ example sentences showing will have in real contexts.", "xp": 20, "order": 4 },
+    { "id": "05-practice", "slug": "05-practice", "title": "Practice and Errors", "emoji": "✏️", "description": "Common mistakes and intensive practice with will have.", "xp": 20, "order": 5 }
+  ],
+  "learningObjectives": [
+    "Understand the concept of future perfect tense",
+    "Form sentences using will have + past participle",
+    "Use time expressions like by, by then, by tomorrow",
+    "Make negative sentences with will not have / won't have",
+    "Form questions using will + subject + have",
+    "Use will have in real-life contexts",
+    "Avoid common errors in future perfect"
+  ],
+  "prerequisites": ["07-had", "04-has-have-had-will-have"],
+  "estimatedTime": 40,
+  "xpReward": 180,
+  "coinsReward": 45,
+  "tags": ["will-have", "future-perfect", "tense", "A2", "grammar"],
+  "relatedTopics": ["07-had", "04-has-have-had-will-have"],
+  "totalSubtopics": 5,
+  "totalExamples": 100,
+  "totalVocabulary": 60,
+  "totalPracticeQuestions": 200
+}

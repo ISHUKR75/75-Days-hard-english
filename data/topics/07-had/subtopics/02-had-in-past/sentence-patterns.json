@@ -1,0 +1,17 @@
+[
+  { "pattern": "I had + [food/drink]", "hindi": "मैंने [खाना/पेय] लिया।", "example": { "hindi": "मैंने दोपहर में चाय पी।", "english": "I had tea in the afternoon." } },
+  { "pattern": "She had + [health problem]", "hindi": "उसे [बीमारी] थी।", "example": { "hindi": "उसे बुखार था।", "english": "She had a fever." } },
+  { "pattern": "We had + [experience]", "hindi": "हमने [अनुभव] किया।", "example": { "hindi": "हमने बहुत मज़ा किया।", "english": "We had a lot of fun." } },
+  { "pattern": "They had + [event]", "hindi": "उन्होंने [आयोजन] किया।", "example": { "hindi": "उन्होंने एक पार्टी की।", "english": "They had a party." } },
+  { "pattern": "He had + [problem]", "hindi": "उसे [समस्या] हुई।", "example": { "hindi": "उसे वहाँ परेशानी हुई।", "english": "He had trouble there." } },
+  { "pattern": "I had + [time expression]", "hindi": "मेरा [समय] [कैसा] था।", "example": { "hindi": "मेरा कल का दिन अच्छा था।", "english": "I had a good day yesterday." } },
+  { "pattern": "We had + [meal] + [time]", "hindi": "हमने [समय] पर [भोजन] किया।", "example": { "hindi": "हमने रात को खाना खाया।", "english": "We had dinner at night." } },
+  { "pattern": "She had + a + [adjective] + [experience]", "hindi": "उसे एक [विशेषण] [अनुभव] हुआ।", "example": { "hindi": "उसे एक बुरा अनुभव हुआ।", "english": "She had a bad experience." } },
+  { "pattern": "They had + a + [adjective] + [journey/trip]", "hindi": "उनका [विशेषण] [सफर] रहा।", "example": { "hindi": "उनका लंबा सफर रहा।", "english": "They had a long journey." } },
+  { "pattern": "He had + [feeling/emotion]", "hindi": "उसे [भावना] थी।", "example": { "hindi": "उसे बहुत गुस्सा था।", "english": "He had a lot of anger." } },
+  { "pattern": "I had + [conversation/discussion] + with + [person]", "hindi": "मेरी [व्यक्ति] से [बातचीत/चर्चा] हुई।", "example": { "hindi": "मेरी मेरे दोस्त से एक लंबी बातचीत हुई।", "english": "I had a long conversation with my friend." } },
+  { "pattern": "We had + [number] + [noun] + [time]", "hindi": "हमारी [समय] में [संख्या] [वस्तु] थी।", "example": { "hindi": "हमारी कल तीन बैठकें थीं।", "english": "We had three meetings yesterday." } },
+  { "pattern": "[Name] had + a + [adjective] + [childhood/life]", "hindi": "[नाम] का [विशेषण] [बचपन/जीवन] था।", "example": { "hindi": "रोहन का एक खुशहाल बचपन था।", "english": "Rohan had a happy childhood." } },
+  { "pattern": "He had + [noun] + at + [place]", "hindi": "उसने [स्थान] पर [कार्य] किया।", "example": { "hindi": "उसने दफ्तर में दोपहर का खाना खाया।", "english": "He had lunch at the office." } },
+  { "pattern": "They had + [noun] + for + [time period]", "hindi": "उन्हें [समयावधि] तक [चीज़] रही।", "example": { "hindi": "उन्हें एक हफ्ते तक बुखार रहा।", "english": "They had a fever for a week." } }
+]

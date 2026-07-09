@@ -1,0 +1,12 @@
+[
+  { "wrong": "I have a car yesterday.", "correct": "I had a car yesterday.", "explanation": "Past time expressions like 'yesterday' require past tense. Use 'had' not 'have'." },
+  { "wrong": "She hads a dog.", "correct": "She had a dog.", "explanation": "'Had' never takes an 's'. It is the same for all subjects." },
+  { "wrong": "He hadded a big house.", "correct": "He had a big house.", "explanation": "'Had' is already the past form. Never add '-ed' to 'had'." },
+  { "wrong": "They had many moneys.", "correct": "They had a lot of money.", "explanation": "'Money' is uncountable — it has no plural form. Use 'a lot of money'." },
+  { "wrong": "We had a lot of informations.", "correct": "We had a lot of information.", "explanation": "'Information' is uncountable — never used in plural form." },
+  { "wrong": "She has a car last year.", "correct": "She had a car last year.", "explanation": "For past time (last year), use 'had', not 'has'." },
+  { "wrong": "I had a pen since childhood.", "correct": "I have had a pen since childhood.", "explanation": "With 'since', use present perfect (have/has + had), not simple past 'had'." },
+  { "wrong": "He had two brother.", "correct": "He had two brothers.", "explanation": "With numbers more than one, the noun must be plural. 'Two brothers' not 'two brother'." },
+  { "wrong": "They had a beautiful childrens.", "correct": "They had beautiful children.", "explanation": "'Children' is already the plural of 'child'. No article 'a' with plurals." },
+  { "wrong": "Ram had much friends.", "correct": "Ram had many friends.", "explanation": "Use 'many' with countable nouns (friends). Use 'much' only with uncountable nouns." }
+]

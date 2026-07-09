@@ -1,0 +1,32 @@
+{
+  "id": "12-use-of-wanted",
+  "title": "Use of Wanted",
+  "day": 12,
+  "cefr": "A1",
+  "type": "grammar",
+  "description": "Learn to use 'Wanted' — past tense of want. Express past desires, wishes, and needs. Master wanted in affirmative, negative, and question sentences. Essential for storytelling and describing the past.",
+  "subtopics": [
+    { "id": "01-wanted-basic", "slug": "01-wanted-basic", "title": "Wanted — Basic Usage", "emoji": "💭", "description": "I wanted tea. She wanted a job. Basic sentences with wanted.", "xp": 20, "order": 1 },
+    { "id": "02-wanted-negatives", "slug": "02-wanted-negatives", "title": "Wanted in Negatives", "emoji": "🚫", "description": "I didn't want. She didn't want to come. Negative sentences with wanted.", "xp": 20, "order": 2 },
+    { "id": "03-wanted-questions", "slug": "03-wanted-questions", "title": "Wanted in Questions", "emoji": "❓", "description": "Did you want? What did she want? Questions with wanted.", "xp": 20, "order": 3 },
+    { "id": "04-wanted-expressions", "slug": "04-wanted-expressions", "title": "Common Expressions with Wanted", "emoji": "💬", "description": "I always wanted to, She had always wanted — common patterns.", "xp": 20, "order": 4 }
+  ],
+  "learningObjectives": [
+    "Use wanted in simple past affirmative sentences",
+    "Form negative sentences with did not want / didn't want",
+    "Form questions with did + subject + want",
+    "Use wanted to + verb",
+    "Use common expressions with wanted",
+    "Contrast want vs wanted in context"
+  ],
+  "prerequisites": ["11-use-of-want"],
+  "estimatedTime": 35,
+  "xpReward": 160,
+  "coinsReward": 40,
+  "tags": ["wanted", "past-tense", "desires", "A1", "grammar"],
+  "relatedTopics": ["11-use-of-want", "07-had"],
+  "totalSubtopics": 4,
+  "totalExamples": 80,
+  "totalVocabulary": 50,
+  "totalPracticeQuestions": 160
+}

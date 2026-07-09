@@ -1,0 +1,35 @@
+{
+  "id": "07-had",
+  "title": "Use of Had",
+  "day": 7,
+  "cefr": "A1",
+  "type": "grammar",
+  "description": "Master the use of 'Had' — past form of 'have'. Learn to express past possession, past experiences, and form past perfect sentences. Had is one of the most important words in English grammar for expressing the past.",
+  "subtopics": [
+    { "id": "01-had-for-possession", "slug": "01-had-for-possession", "title": "Had for Past Possession", "emoji": "📦", "description": "I had a car. She had a dog. Expressing what someone possessed in the past.", "xp": 20, "order": 1 },
+    { "id": "02-had-in-past", "slug": "02-had-in-past", "title": "Had in Simple Past", "emoji": "⏮️", "description": "He had fever. They had food. Using had as main verb in simple past.", "xp": 20, "order": 2 },
+    { "id": "03-past-perfect", "slug": "03-past-perfect", "title": "Past Perfect with Had", "emoji": "🔁", "description": "I had eaten. She had gone. Forming past perfect tense with had + V3.", "xp": 25, "order": 3 },
+    { "id": "04-had-in-sentences", "slug": "04-had-in-sentences", "title": "Had in Various Sentence Types", "emoji": "📝", "description": "Affirmative, negative, and question sentences using had.", "xp": 20, "order": 4 },
+    { "id": "05-common-usage", "slug": "05-common-usage", "title": "Common Usage of Had", "emoji": "💬", "description": "Had better, had to, had a good time — common expressions.", "xp": 20, "order": 5 },
+    { "id": "06-errors", "slug": "06-errors", "title": "Common Errors with Had", "emoji": "⚠️", "description": "I have gone yesterday (wrong!), She had went (wrong!) — fixing mistakes.", "xp": 20, "order": 6 }
+  ],
+  "learningObjectives": [
+    "Use had to express past possession",
+    "Use had as main verb in simple past sentences",
+    "Form past perfect tense using had + past participle",
+    "Make negative sentences with had not / hadn't",
+    "Form questions using had",
+    "Use common expressions like had better, had to",
+    "Avoid common errors with had"
+  ],
+  "prerequisites": ["04-has-have-had-will-have"],
+  "estimatedTime": 45,
+  "xpReward": 200,
+  "coinsReward": 50,
+  "tags": ["had", "past", "possession", "past-perfect", "A1", "grammar"],
+  "relatedTopics": ["04-has-have-had-will-have", "08-will-have"],
+  "totalSubtopics": 6,
+  "totalExamples": 120,
+  "totalVocabulary": 80,
+  "totalPracticeQuestions": 240
+}

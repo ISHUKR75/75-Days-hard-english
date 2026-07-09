@@ -1,0 +1,34 @@
+{
+  "id": "11-use-of-want",
+  "title": "Use of Want",
+  "day": 11,
+  "cefr": "A1",
+  "type": "grammar",
+  "description": "Learn to use 'Want' — expressing desires, wishes, and needs. Want is one of the most frequently used verbs in spoken English. Master want, wants, want to + verb, and want + object.",
+  "subtopics": [
+    { "id": "01-want-basic", "slug": "01-want-basic", "title": "Want — Basic Usage", "emoji": "💭", "description": "I want tea. We want peace. Basic sentences with want.", "xp": 20, "order": 1 },
+    { "id": "02-wants-third-person", "slug": "02-wants-third-person", "title": "Wants — Third Person Singular", "emoji": "👤", "description": "She wants coffee. He wants a job. Third person singular form.", "xp": 20, "order": 2 },
+    { "id": "03-want-in-questions", "slug": "03-want-in-questions", "title": "Want in Questions", "emoji": "❓", "description": "Do you want tea? Does she want to go? Questions with want.", "xp": 20, "order": 3 },
+    { "id": "04-want-negatives", "slug": "04-want-negatives", "title": "Want in Negatives", "emoji": "🚫", "description": "I don't want this. She doesn't want to come. Negative sentences.", "xp": 20, "order": 4 },
+    { "id": "05-want-to-verb", "slug": "05-want-to-verb", "title": "Want to + Verb", "emoji": "🎯", "description": "I want to eat. She wants to study. Want + to + base verb structure.", "xp": 20, "order": 5 }
+  ],
+  "learningObjectives": [
+    "Use want with I/you/we/they",
+    "Use wants with he/she/it",
+    "Form questions with do/does + want",
+    "Form negatives with don't/doesn't + want",
+    "Use want to + base verb",
+    "Use want + object correctly",
+    "Express desires and wishes naturally"
+  ],
+  "prerequisites": ["02-be-verb"],
+  "estimatedTime": 40,
+  "xpReward": 180,
+  "coinsReward": 45,
+  "tags": ["want", "desires", "wishes", "A1", "grammar", "daily-use"],
+  "relatedTopics": ["12-use-of-wanted", "02-be-verb"],
+  "totalSubtopics": 5,
+  "totalExamples": 100,
+  "totalVocabulary": 60,
+  "totalPracticeQuestions": 200
+}
