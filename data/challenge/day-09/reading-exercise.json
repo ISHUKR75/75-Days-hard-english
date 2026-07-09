@@ -1,0 +1,107 @@
+{
+  "day": 9,
+  "topic": "Use of There",
+  "passage": {
+    "title": "A Day with Use of There",
+    "text": "There is a book on the table. There is a fan in my room. There is a problem in the system. There is a meeting at 3 pm. There is a new student in our class. There is a temple near my house. There is some water in the glass. There is a lot of work today. There is a dog outside the door. There is a bus stop near here.",
+    "hindiTranslation": "मेज पर एक किताब है। मेरे कमरे में एक पंखा है। सिस्टम में एक समस्या है। 3 बजे एक मीटिंग है। हमारी कक्षा में एक नया छात्र है। मेरे घर के पास एक मंदिर है। गिलास में थोड़ा पानी है। आज बहुत काम है। दरवाजे के बाहर एक कुत्ता है। यहाँ के पास एक बस स्टॉप है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"There is a book...\"?",
+      "options": [
+        "There is a lot of work today.",
+        "There is a new teacher today.",
+        "There are five rooms in this house.",
+        "There is a book on the table."
+      ],
+      "answer": "There is a book on the table.",
+      "explanation": "This is directly stated in the passage: \"There is a book on the table.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"There is a fan...\"?",
+      "options": [
+        "There is a dog outside the door.",
+        "There is milk in the fridge.",
+        "There are three files on my desk.",
+        "There is a fan in my room."
+      ],
+      "answer": "There is a fan in my room.",
+      "explanation": "This is directly stated in the passage: \"There is a fan in my room.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"There is a problem...\"?",
+      "options": [
+        "There is a bus stop near here.",
+        "There is a lot of traffic on this road.",
+        "There are a lot of problems in this project.",
+        "There is a problem in the system."
+      ],
+      "answer": "There is a problem in the system.",
+      "explanation": "This is directly stated in the passage: \"There is a problem in the system.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"There is a meeting...\"?",
+      "options": [
+        "There is a new movie in the theatre.",
+        "There is an email for you.",
+        "There are two ATMs near this market.",
+        "There is a meeting at 3 pm."
+      ],
+      "answer": "There is a meeting at 3 pm.",
+      "explanation": "This is directly stated in the passage: \"There is a meeting at 3 pm.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"There is a new...\"?",
+      "options": [
+        "There is a report due tomorrow.",
+        "There is a park near our school.",
+        "There are some apples in the basket.",
+        "There is a new student in our class."
+      ],
+      "answer": "There is a new student in our class.",
+      "explanation": "This is directly stated in the passage: \"There is a new student in our class.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"There is a temple...\"?",
+      "options": [
+        "There is a chair near the window.",
+        "There is a good restaurant in this area.",
+        "There are many people in this shop.",
+        "There is a temple near my house."
+      ],
+      "answer": "There is a temple near my house.",
+      "explanation": "This is directly stated in the passage: \"There is a temple near my house.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"There is some water...\"?",
+      "options": [
+        "There is a hospital on MG Road.",
+        "There are many students in the class.",
+        "There are 30 students in our batch.",
+        "There is some water in the glass."
+      ],
+      "answer": "There is some water in the glass.",
+      "explanation": "This is directly stated in the passage: \"There is some water in the glass.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"There is a lot...\"?",
+      "options": [
+        "There is a new teacher today.",
+        "There are five rooms in this house.",
+        "There are several options available.",
+        "There is a lot of work today."
+      ],
+      "answer": "There is a lot of work today.",
+      "explanation": "This is directly stated in the passage: \"There is a lot of work today.\""
+    }
+  ]
+}

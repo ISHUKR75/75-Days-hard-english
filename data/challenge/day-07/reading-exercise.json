@@ -1,0 +1,107 @@
+{
+  "day": 7,
+  "topic": "Had",
+  "passage": {
+    "title": "A Day with Had",
+    "text": "I have a car. I had a car. He has money. He had money. They have a house. They had a house. The company has 100 employees. The company had 100 employees. I had a motorcycle. She had a laptop.",
+    "hindiTranslation": "मेरे पास एक कार है। मेरे पास एक कार थी। उसके पास पैसे हैं। उसके पास पैसे थे। उनके पास एक घर है। उनके पास एक घर था। कंपनी के पास 100 कर्मचारी हैं। कंपनी के पास 100 कर्मचारी थे। मेरे पास एक मोटरसाइकिल थी। उसके पास एक लैपटॉप था।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I have a car....\"?",
+      "options": [
+        "The company had 100 employees.",
+        "The company had a large team.",
+        "She had written the report.",
+        "I have a car."
+      ],
+      "answer": "I have a car.",
+      "explanation": "This is directly stated in the passage: \"I have a car.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I had a car....\"?",
+      "options": [
+        "I had a motorcycle.",
+        "The child had many toys.",
+        "The rain had stopped.",
+        "I had a car."
+      ],
+      "answer": "I had a car.",
+      "explanation": "This is directly stated in the passage: \"I had a car.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He has money....\"?",
+      "options": [
+        "She had a laptop.",
+        "She had a good idea.",
+        "They had already slept.",
+        "He has money."
+      ],
+      "answer": "He has money.",
+      "explanation": "This is directly stated in the passage: \"He has money.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"He had money....\"?",
+      "options": [
+        "We had a big house.",
+        "I had no problem.",
+        "The meeting had ended.",
+        "He had money."
+      ],
+      "answer": "He had money.",
+      "explanation": "This is directly stated in the passage: \"He had money.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"They have a house....\"?",
+      "options": [
+        "They had a lot of money.",
+        "I had eaten the food.",
+        "The train had left.",
+        "They have a house."
+      ],
+      "answer": "They have a house.",
+      "explanation": "This is directly stated in the passage: \"They have a house.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"They had a house....\"?",
+      "options": [
+        "He had a good boss.",
+        "He had gone.",
+        "He had admitted the mistake.",
+        "They had a house."
+      ],
+      "answer": "They had a house.",
+      "explanation": "This is directly stated in the passage: \"They had a house.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"The company has 100...\"?",
+      "options": [
+        "I had an old book.",
+        "We had finished the work.",
+        "The team had completed the project.",
+        "The company has 100 employees."
+      ],
+      "answer": "The company has 100 employees.",
+      "explanation": "This is directly stated in the passage: \"The company has 100 employees.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"The company had 100...\"?",
+      "options": [
+        "The company had a large team.",
+        "She had written the report.",
+        "I had watched this film before.",
+        "The company had 100 employees."
+      ],
+      "answer": "The company had 100 employees.",
+      "explanation": "This is directly stated in the passage: \"The company had 100 employees.\""
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "day": 3,
+  "topic": "Imperative Sentences",
+  "passage": {
+    "title": "A Day with Imperative Sentences",
+    "text": "Close the door. Help me. Drink plenty of water. Stay away from fire. Let's go for a walk. Open the door. Close the window. Come here. Go there. Sit on the chair.",
+    "hindiTranslation": "दरवाज़ा बंद करो। मेरी मदद करो। खूब पानी पियो। आग से दूर रहो। चलो घूमने चलते हैं। दरवाज़ा खोलो। खिड़की बंद करो। यहाँ आओ। वहाँ जाओ। कुर्सी पर बैठो।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"Close the door....\"?",
+      "options": [
+        "Come here.",
+        "Look at the board.",
+        "Move aside.",
+        "Close the door."
+      ],
+      "answer": "Close the door.",
+      "explanation": "This is directly stated in the passage: \"Close the door.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"Help me....\"?",
+      "options": [
+        "Go there.",
+        "Stop.",
+        "Run fast.",
+        "Help me."
+      ],
+      "answer": "Help me.",
+      "explanation": "This is directly stated in the passage: \"Help me.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Drink plenty of water....\"?",
+      "options": [
+        "Sit on the chair.",
+        "Bring water.",
+        "Be quiet.",
+        "Drink plenty of water."
+      ],
+      "answer": "Drink plenty of water.",
+      "explanation": "This is directly stated in the passage: \"Drink plenty of water.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"Stay away from fire....\"?",
+      "options": [
+        "Stand straight.",
+        "Take this book.",
+        "Be careful.",
+        "Stay away from fire."
+      ],
+      "answer": "Stay away from fire.",
+      "explanation": "This is directly stated in the passage: \"Stay away from fire.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"Let's go for a...\"?",
+      "options": [
+        "Read the book.",
+        "Give me the pen.",
+        "Get ready.",
+        "Let's go for a walk."
+      ],
+      "answer": "Let's go for a walk.",
+      "explanation": "This is directly stated in the passage: \"Let's go for a walk.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Open the door....\"?",
+      "options": [
+        "Write your name.",
+        "Keep your things.",
+        "Come in.",
+        "Open the door."
+      ],
+      "answer": "Open the door.",
+      "explanation": "This is directly stated in the passage: \"Open the door.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"Close the window....\"?",
+      "options": [
+        "Listen carefully.",
+        "Put it here.",
+        "Go out.",
+        "Close the window."
+      ],
+      "answer": "Close the window.",
+      "explanation": "This is directly stated in the passage: \"Close the window.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"Come here....\"?",
+      "options": [
+        "Look at the board.",
+        "Move aside.",
+        "Get up.",
+        "Come here."
+      ],
+      "answer": "Come here.",
+      "explanation": "This is directly stated in the passage: \"Come here.\""
+    }
+  ]
+}

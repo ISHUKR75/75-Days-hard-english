@@ -1,0 +1,467 @@
+{
+  "day": 4,
+  "topic": "Be Verb (Am, Is, Are, Was, Were)",
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं एक छात्र हूँ।",
+      "options": [
+        {
+          "english": "I am 25 years old.",
+          "hindi": "मैं 25 साल का हूँ।"
+        },
+        {
+          "english": "I am a doctor.",
+          "hindi": "मैं एक doctor हूँ।"
+        },
+        {
+          "english": "I am proud.",
+          "hindi": "मैं proud हूँ।"
+        },
+        "I am a student."
+      ],
+      "answer": "I am a student.",
+      "explanation": "Correct translation: \"मैं एक छात्र हूँ।\" = \"I am a student.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I _____ happy.",
+      "options": [
+        "right",
+        "here",
+        "confident",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "The missing word is \"am\" — full sentence: \"I am happy.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I is from Delhi.",
+      "options": [
+        "I is from Delhi.",
+        "I am from Delhi."
+      ],
+      "answer": "I am from Delhi.",
+      "explanation": "Correct sentence: \"I am from Delhi.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मैं तैयार हूँ।",
+      "options": [
+        {
+          "english": "I am hungry.",
+          "hindi": "मैं भूखा हूँ।"
+        },
+        {
+          "english": "I am busy.",
+          "hindi": "मैं busy हूँ।"
+        },
+        {
+          "english": "I am a good friend.",
+          "hindi": "मैं एक अच्छा दोस्त हूँ।"
+        },
+        "I am ready."
+      ],
+      "answer": "I am ready.",
+      "explanation": "Correct translation: \"मैं तैयार हूँ।\" = \"I am ready.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I am _____ engineer.",
+      "options": [
+        "thirsty",
+        "serious",
+        "the",
+        "an"
+      ],
+      "answer": "an",
+      "explanation": "The missing word is \"an\" — full sentence: \"I am an engineer.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I is tired.",
+      "options": [
+        "I is tired.",
+        "I am tired."
+      ],
+      "answer": "I am tired.",
+      "explanation": "Correct sentence: \"I am tired.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं घर पर हूँ।",
+      "options": [
+        {
+          "english": "I am sick.",
+          "hindi": "मैं बीमार हूँ।"
+        },
+        {
+          "english": "I am excited.",
+          "hindi": "मैं excited हूँ।"
+        },
+        {
+          "english": "I am on the train.",
+          "hindi": "मैं train में हूँ।"
+        },
+        "I am at home."
+      ],
+      "answer": "I am at home.",
+      "explanation": "Correct translation: \"मैं घर पर हूँ।\" = \"I am at home.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I am _____ years old.",
+      "options": [
+        "doctor",
+        "proud",
+        "happy",
+        "25"
+      ],
+      "answer": "25",
+      "explanation": "The missing word is \"25\" — full sentence: \"I am 25 years old.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I is right.",
+      "options": [
+        "I is right.",
+        "I am right."
+      ],
+      "answer": "I am right.",
+      "explanation": "Correct sentence: \"I am right.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैं गलत हूँ।",
+      "options": [
+        {
+          "english": "I am late.",
+          "hindi": "मैं late हूँ।"
+        },
+        {
+          "english": "I am Indian.",
+          "hindi": "मैं Indian हूँ।"
+        },
+        {
+          "english": "He is a teacher.",
+          "hindi": "वह एक शिक्षक है।"
+        },
+        "I am wrong."
+      ],
+      "answer": "I am wrong.",
+      "explanation": "Correct translation: \"मैं गलत हूँ।\" = \"I am wrong.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "I _____ hungry.",
+      "options": [
+        "busy",
+        "good",
+        "doctor",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "The missing word is \"am\" — full sentence: \"I am hungry.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I is thirsty.",
+      "options": [
+        "I is thirsty.",
+        "I am thirsty."
+      ],
+      "answer": "I am thirsty.",
+      "explanation": "Correct sentence: \"I am thirsty.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैं ठीक हूँ।",
+      "options": [
+        {
+          "english": "I am nervous.",
+          "hindi": "मैं nervous हूँ।"
+        },
+        {
+          "english": "I am in a meeting.",
+          "hindi": "मैं meeting में हूँ।"
+        },
+        {
+          "english": "Rahul is a student.",
+          "hindi": "राहुल एक छात्र है।"
+        },
+        "I am fine."
+      ],
+      "answer": "I am fine.",
+      "explanation": "Correct translation: \"मैं ठीक हूँ।\" = \"I am fine.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I _____ sick.",
+      "options": [
+        "excited",
+        "the",
+        "smart",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "The missing word is \"am\" — full sentence: \"I am sick.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I is a doctor.",
+      "options": [
+        "I is a doctor.",
+        "I am a doctor."
+      ],
+      "answer": "I am a doctor.",
+      "explanation": "Correct sentence: \"I am a doctor.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं यहाँ हूँ।",
+      "options": [
+        {
+          "english": "I am confident.",
+          "hindi": "मैं confident हूँ।"
+        },
+        {
+          "english": "I am married.",
+          "hindi": "मैं शादीशुदा हूँ।"
+        },
+        {
+          "english": "The book is on the table.",
+          "hindi": "किताब मेज़ पर है।"
+        },
+        "I am here."
+      ],
+      "answer": "I am here.",
+      "explanation": "Correct translation: \"मैं यहाँ हूँ।\" = \"I am here.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I _____ late.",
+      "options": [
+        "Indian",
+        "teacher",
+        "outside",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "The missing word is \"am\" — full sentence: \"I am late.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I is busy.",
+      "options": [
+        "I is busy.",
+        "I am busy."
+      ],
+      "answer": "I am busy.",
+      "explanation": "Correct sentence: \"I am busy.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मैं serious हूँ।",
+      "options": [
+        {
+          "english": "I am in the office.",
+          "hindi": "मैं office में हूँ।"
+        },
+        {
+          "english": "It is a cat.",
+          "hindi": "यह एक बिल्ली है।"
+        },
+        {
+          "english": "The sky is blue.",
+          "hindi": "आसमान नीला है।"
+        },
+        "I am serious."
+      ],
+      "answer": "I am serious.",
+      "explanation": "Correct translation: \"मैं serious हूँ।\" = \"I am serious.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I _____ nervous.",
+      "options": [
+        "a",
+        "student",
+        "good",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "The missing word is \"am\" — full sentence: \"I am nervous.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "I is excited.",
+      "options": [
+        "I is excited.",
+        "I am excited."
+      ],
+      "answer": "I am excited.",
+      "explanation": "Correct sentence: \"I am excited.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "मैं proud हूँ।",
+      "options": [
+        {
+          "english": "I am not happy.",
+          "hindi": "मैं happy नहीं हूँ।"
+        },
+        {
+          "english": "My mother is at home.",
+          "hindi": "मेरी माँ घर पर है।"
+        },
+        {
+          "english": "The weather is cold.",
+          "hindi": "मौसम ठंडा है।"
+        },
+        "I am proud."
+      ],
+      "answer": "I am proud.",
+      "explanation": "Correct translation: \"मैं proud हूँ।\" = \"I am proud.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "I _____ confident.",
+      "options": [
+        "married",
+        "on",
+        "capital",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "The missing word is \"am\" — full sentence: \"I am confident.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "I is Indian.",
+      "options": [
+        "I is Indian.",
+        "I am Indian."
+      ],
+      "answer": "I am Indian.",
+      "explanation": "Correct sentence: \"I am Indian.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "मैं एक अच्छा दोस्त हूँ।",
+      "options": [
+        {
+          "english": "She is a doctor.",
+          "hindi": "वह एक डॉक्टर है।"
+        },
+        {
+          "english": "My house is big.",
+          "hindi": "मेरा घर बड़ा है।"
+        },
+        {
+          "english": "This is my car.",
+          "hindi": "यह मेरी कार है।"
+        },
+        "I am a good friend."
+      ],
+      "answer": "I am a good friend.",
+      "explanation": "Correct translation: \"मैं एक अच्छा दोस्त हूँ।\" = \"I am a good friend.\""
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "sentence": "I am _____ the office.",
+      "options": [
+        "cat",
+        "blue",
+        "the",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "The missing word is \"in\" — full sentence: \"I am in the office.\""
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "I is in a meeting.",
+      "options": [
+        "I is in a meeting.",
+        "I am in a meeting."
+      ],
+      "answer": "I am in a meeting.",
+      "explanation": "Correct sentence: \"I am in a meeting.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 28,
+      "type": "translate",
+      "hindi": "मैं train में हूँ।",
+      "options": [
+        {
+          "english": "My brother is smart.",
+          "hindi": "मेरा भाई smart है।"
+        },
+        {
+          "english": "She is beautiful.",
+          "hindi": "वह खूबसूरत है।"
+        },
+        {
+          "english": "The water is hot.",
+          "hindi": "पानी गर्म है।"
+        },
+        "I am on the train."
+      ],
+      "answer": "I am on the train.",
+      "explanation": "Correct translation: \"मैं train में हूँ।\" = \"I am on the train.\""
+    },
+    {
+      "id": 29,
+      "type": "fill",
+      "sentence": "I am _____ happy.",
+      "options": [
+        "at",
+        "cold",
+        "very",
+        "not"
+      ],
+      "answer": "not",
+      "explanation": "The missing word is \"not\" — full sentence: \"I am not happy.\""
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "I is married.",
+      "options": [
+        "I is married.",
+        "I am married."
+      ],
+      "answer": "I am married.",
+      "explanation": "Correct sentence: \"I am married.\". The version shown had a grammar mistake."
+    }
+  ]
+}

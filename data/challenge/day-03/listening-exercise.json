@@ -1,0 +1,114 @@
+{
+  "day": 3,
+  "topic": "Imperative Sentences",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Stand straight.",
+      "hindiScript": "सीधे खड़े हो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Come here.",
+        "Look at the board.",
+        "Move aside.",
+        "Stand straight."
+      ],
+      "answer": "Stand straight."
+    },
+    {
+      "id": 2,
+      "audioScript": "Read the book.",
+      "hindiScript": "किताब पढ़ो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Go there.",
+        "Stop.",
+        "Run fast.",
+        "Read the book."
+      ],
+      "answer": "Read the book."
+    },
+    {
+      "id": 3,
+      "audioScript": "Write your name.",
+      "hindiScript": "अपना नाम लिखो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Sit on the chair.",
+        "Bring water.",
+        "Be quiet.",
+        "Write your name."
+      ],
+      "answer": "Write your name."
+    },
+    {
+      "id": 4,
+      "audioScript": "Listen carefully.",
+      "hindiScript": "ध्यान से सुनो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Stand straight.",
+        "Take this book.",
+        "Be careful.",
+        "Listen carefully."
+      ],
+      "answer": "Listen carefully."
+    },
+    {
+      "id": 5,
+      "audioScript": "Look at the board.",
+      "hindiScript": "बोर्ड देखो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Read the book.",
+        "Give me the pen.",
+        "Get ready.",
+        "Look at the board."
+      ],
+      "answer": "Look at the board."
+    },
+    {
+      "id": 6,
+      "audioScript": "Stop.",
+      "hindiScript": "रुको।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Write your name.",
+        "Keep your things.",
+        "Come in.",
+        "Stop."
+      ],
+      "answer": "Stop."
+    },
+    {
+      "id": 7,
+      "audioScript": "Bring water.",
+      "hindiScript": "पानी लाओ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Listen carefully.",
+        "Put it here.",
+        "Go out.",
+        "Bring water."
+      ],
+      "answer": "Bring water."
+    },
+    {
+      "id": 8,
+      "audioScript": "Take this book.",
+      "hindiScript": "यह किताब लो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Look at the board.",
+        "Move aside.",
+        "Get up.",
+        "Take this book."
+      ],
+      "answer": "Take this book."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Stand straight. Read the book. Write your name. Listen carefully. Look at the board.",
+    "hindiTranslation": "सीधे खड़े हो। किताब पढ़ो। अपना नाम लिखो। ध्यान से सुनो। बोर्ड देखो।"
+  }
+}

@@ -1,0 +1,467 @@
+{
+  "day": 3,
+  "topic": "Imperative Sentences",
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "दरवाज़ा बंद करो।",
+      "options": [
+        {
+          "english": "Come here.",
+          "hindi": "यहाँ आओ।"
+        },
+        {
+          "english": "Look at the board.",
+          "hindi": "बोर्ड देखो।"
+        },
+        {
+          "english": "Move aside.",
+          "hindi": "साइड हटो।"
+        },
+        "Close the door."
+      ],
+      "answer": "Close the door.",
+      "explanation": "Correct translation: \"दरवाज़ा बंद करो।\" = \"Close the door.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Help _____",
+      "options": [
+        "there",
+        "Stop",
+        "fast",
+        "me"
+      ],
+      "answer": "me",
+      "explanation": "The missing word is \"me\" — full sentence: \"Help me.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Drink plenty of water yesterday.",
+      "options": [
+        "Drink plenty of water yesterday.",
+        "Drink plenty of water."
+      ],
+      "answer": "Drink plenty of water.",
+      "explanation": "Correct sentence: \"Drink plenty of water.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "आग से दूर रहो।",
+      "options": [
+        {
+          "english": "Stand straight.",
+          "hindi": "सीधे खड़े हो।"
+        },
+        {
+          "english": "Take this book.",
+          "hindi": "यह किताब लो।"
+        },
+        {
+          "english": "Be careful.",
+          "hindi": "सावधान रहो।"
+        },
+        "Stay away from fire."
+      ],
+      "answer": "Stay away from fire.",
+      "explanation": "Correct translation: \"आग से दूर रहो।\" = \"Stay away from fire.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Let's go _____ a walk.",
+      "options": [
+        "book",
+        "pen",
+        "ready",
+        "for"
+      ],
+      "answer": "for",
+      "explanation": "The missing word is \"for\" — full sentence: \"Let's go for a walk.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Open the door yesterday.",
+      "options": [
+        "Open the door yesterday.",
+        "Open the door."
+      ],
+      "answer": "Open the door.",
+      "explanation": "Correct sentence: \"Open the door.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "खिड़की बंद करो।",
+      "options": [
+        {
+          "english": "Listen carefully.",
+          "hindi": "ध्यान से सुनो।"
+        },
+        {
+          "english": "Put it here.",
+          "hindi": "यहाँ रखो।"
+        },
+        {
+          "english": "Go out.",
+          "hindi": "बाहर जाओ।"
+        },
+        "Close the window."
+      ],
+      "answer": "Close the window.",
+      "explanation": "Correct translation: \"खिड़की बंद करो।\" = \"Close the window.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Come _____",
+      "options": [
+        "board",
+        "aside",
+        "up",
+        "here"
+      ],
+      "answer": "here",
+      "explanation": "The missing word is \"here\" — full sentence: \"Come here.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Go there yesterday.",
+      "options": [
+        "Go there yesterday.",
+        "Go there."
+      ],
+      "answer": "Go there.",
+      "explanation": "Correct sentence: \"Go there.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "कुर्सी पर बैठो।",
+      "options": [
+        {
+          "english": "Bring water.",
+          "hindi": "पानी लाओ।"
+        },
+        {
+          "english": "Be quiet.",
+          "hindi": "शांत रहो।"
+        },
+        {
+          "english": "Eat your food.",
+          "hindi": "खाना खाओ।"
+        },
+        "Sit on the chair."
+      ],
+      "answer": "Sit on the chair.",
+      "explanation": "Correct translation: \"कुर्सी पर बैठो।\" = \"Sit on the chair.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Stand _____",
+      "options": [
+        "book",
+        "careful",
+        "water",
+        "straight"
+      ],
+      "answer": "straight",
+      "explanation": "The missing word is \"straight\" — full sentence: \"Stand straight.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Read the book yesterday.",
+      "options": [
+        "Read the book yesterday.",
+        "Read the book."
+      ],
+      "answer": "Read the book.",
+      "explanation": "Correct sentence: \"Read the book.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "अपना नाम लिखो।",
+      "options": [
+        {
+          "english": "Keep your things.",
+          "hindi": "अपना सामान रखो।"
+        },
+        {
+          "english": "Come in.",
+          "hindi": "अंदर आओ।"
+        },
+        {
+          "english": "Close your mouth.",
+          "hindi": "मुँह बंद करो।"
+        },
+        "Write your name."
+      ],
+      "answer": "Write your name.",
+      "explanation": "Correct translation: \"अपना नाम लिखो।\" = \"Write your name.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Listen _____",
+      "options": [
+        "here",
+        "out",
+        "eyes",
+        "carefully"
+      ],
+      "answer": "carefully",
+      "explanation": "The missing word is \"carefully\" — full sentence: \"Listen carefully.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Look at the board yesterday.",
+      "options": [
+        "Look at the board yesterday.",
+        "Look at the board."
+      ],
+      "answer": "Look at the board.",
+      "explanation": "Correct sentence: \"Look at the board.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "रुको।",
+      "options": [
+        {
+          "english": "Run fast.",
+          "hindi": "जल्दी दौड़ो।"
+        },
+        {
+          "english": "Go to sleep.",
+          "hindi": "सो जाओ।"
+        },
+        {
+          "english": "Speak slowly.",
+          "hindi": "धीरे बोलो।"
+        },
+        "Stop."
+      ],
+      "answer": "Stop.",
+      "explanation": "Correct translation: \"रुको।\" = \"Stop.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Bring _____",
+      "options": [
+        "quiet",
+        "food",
+        "me",
+        "water"
+      ],
+      "answer": "water",
+      "explanation": "The missing word is \"water\" — full sentence: \"Bring water.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Take this book yesterday.",
+      "options": [
+        "Take this book yesterday.",
+        "Take this book."
+      ],
+      "answer": "Take this book.",
+      "explanation": "Correct sentence: \"Take this book.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मुझे कलम दो।",
+      "options": [
+        {
+          "english": "Get ready.",
+          "hindi": "तैयार हो जाओ।"
+        },
+        {
+          "english": "Wash your hands.",
+          "hindi": "हाथ धोओ।"
+        },
+        {
+          "english": "Do this work.",
+          "hindi": "यह काम करो।"
+        },
+        "Give me the pen."
+      ],
+      "answer": "Give me the pen.",
+      "explanation": "Correct translation: \"मुझे कलम दो।\" = \"Give me the pen.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Keep _____ things.",
+      "options": [
+        "in",
+        "mouth",
+        "homework",
+        "your"
+      ],
+      "answer": "your",
+      "explanation": "The missing word is \"your\" — full sentence: \"Keep your things.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "Put it here yesterday.",
+      "options": [
+        "Put it here yesterday.",
+        "Put it here."
+      ],
+      "answer": "Put it here.",
+      "explanation": "Correct sentence: \"Put it here.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "साइड हटो।",
+      "options": [
+        {
+          "english": "Get up.",
+          "hindi": "उठो।"
+        },
+        {
+          "english": "Speak loudly.",
+          "hindi": "ज़ोर से बोलो।"
+        },
+        {
+          "english": "Pick up the phone.",
+          "hindi": "फ़ोन उठाओ।"
+        },
+        "Move aside."
+      ],
+      "answer": "Move aside.",
+      "explanation": "Correct translation: \"साइड हटो।\" = \"Move aside.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "Run _____",
+      "options": [
+        "sleep",
+        "slowly",
+        "light",
+        "fast"
+      ],
+      "answer": "fast",
+      "explanation": "The missing word is \"fast\" — full sentence: \"Run fast.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "Be quiet yesterday.",
+      "options": [
+        "Be quiet yesterday.",
+        "Be quiet."
+      ],
+      "answer": "Be quiet.",
+      "explanation": "Correct sentence: \"Be quiet.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "सावधान रहो।",
+      "options": [
+        {
+          "english": "Drink water.",
+          "hindi": "पानी पियो।"
+        },
+        {
+          "english": "Go and sit there.",
+          "hindi": "वहाँ जाकर बैठो।"
+        },
+        {
+          "english": "Stop the car.",
+          "hindi": "गाड़ी रोको।"
+        },
+        "Be careful."
+      ],
+      "answer": "Be careful.",
+      "explanation": "Correct translation: \"सावधान रहो।\" = \"Be careful.\""
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "sentence": "Get _____",
+      "options": [
+        "hands",
+        "work",
+        "seatbelt",
+        "ready"
+      ],
+      "answer": "ready",
+      "explanation": "The missing word is \"ready\" — full sentence: \"Get ready.\""
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "Come in yesterday.",
+      "options": [
+        "Come in yesterday.",
+        "Come in."
+      ],
+      "answer": "Come in.",
+      "explanation": "Correct sentence: \"Come in.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 28,
+      "type": "translate",
+      "hindi": "बाहर जाओ।",
+      "options": [
+        {
+          "english": "Open your eyes.",
+          "hindi": "आँखें खोलो।"
+        },
+        {
+          "english": "Knock the door.",
+          "hindi": "दरवाज़ा खटखटाओ।"
+        },
+        {
+          "english": "Turn left.",
+          "hindi": "बाएँ मुड़ो।"
+        },
+        "Go out."
+      ],
+      "answer": "Go out.",
+      "explanation": "Correct translation: \"बाहर जाओ।\" = \"Go out.\""
+    },
+    {
+      "id": 29,
+      "type": "fill",
+      "sentence": "Get _____",
+      "options": [
+        "loudly",
+        "phone",
+        "straight",
+        "up"
+      ],
+      "answer": "up",
+      "explanation": "The missing word is \"up\" — full sentence: \"Get up.\""
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "Go to sleep yesterday.",
+      "options": [
+        "Go to sleep yesterday.",
+        "Go to sleep."
+      ],
+      "answer": "Go to sleep.",
+      "explanation": "Correct sentence: \"Go to sleep.\". The version shown had a grammar mistake."
+    }
+  ]
+}

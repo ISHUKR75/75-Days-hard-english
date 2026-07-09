@@ -1,0 +1,46 @@
+{
+  "day": 9,
+  "topic": "Use of There",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Use of There.",
+      "hindiPrompt": "Use of There का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "There is a book on the table. There is a fan in my room. There is a problem in the system. There is a meeting at 3 pm. There is a new student in our class.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) about your day using Use of There.",
+      "hindiPrompt": "अपने दिन के बारे में Use of There का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "There is a temple near my house. There is some water in the glass. There is a lot of work today. There is a dog outside the door. There is a bus stop near here.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate the following into English: \"थिएटर में एक नई फिल्म है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "There is a new movie in the theatre.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"There are a meeting at 3 pm.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "There is a meeting at 3 pm.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue between two people using Use of There.",
+      "hindiPrompt": "Use of There का उपयोग करते हुए दो व्यक्तियों के बीच 4 पंक्तियों का संवाद लिखिए।",
+      "sampleAnswer": "There is a chair near the window. There is a hospital on MG Road. There is a new teacher today. There is milk in the fridge.",
+      "wordLimit": 60
+    }
+  ]
+}

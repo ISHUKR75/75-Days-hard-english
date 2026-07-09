@@ -1,0 +1,46 @@
+{
+  "day": 5,
+  "topic": "Demonstrative Pronouns",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Demonstrative Pronouns.",
+      "hindiPrompt": "Demonstrative Pronouns का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "This is my pen. This is a good book. This is my house. This is my phone. This is a table.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) about your day using Demonstrative Pronouns.",
+      "hindiPrompt": "अपने दिन के बारे में Demonstrative Pronouns का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "This is my bag. This is an apple. This is my office. This is a new car. This is my chair.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate the following into English: \"यह मेरा कमरा है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "This is my room.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"This are my phone.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "This is my phone.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue between two people using Demonstrative Pronouns.",
+      "hindiPrompt": "Demonstrative Pronouns का उपयोग करते हुए दो व्यक्तियों के बीच 4 पंक्तियों का संवाद लिखिए।",
+      "sampleAnswer": "This is a good hotel. This is my report. This is an important document. This is my key.",
+      "wordLimit": 60
+    }
+  ]
+}

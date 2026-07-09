@@ -1,0 +1,114 @@
+{
+  "day": 5,
+  "topic": "Demonstrative Pronouns",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "This is my room.",
+      "hindiScript": "यह मेरा कमरा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is my office.",
+        "This is an important document.",
+        "This is a difficult task.",
+        "This is my room."
+      ],
+      "answer": "This is my room."
+    },
+    {
+      "id": 2,
+      "audioScript": "This is an old building.",
+      "hindiScript": "यह एक पुरानी इमारत है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is a new car.",
+        "This is my key.",
+        "This is my laptop.",
+        "This is an old building."
+      ],
+      "answer": "This is an old building."
+    },
+    {
+      "id": 3,
+      "audioScript": "This is a good hotel.",
+      "hindiScript": "यह एक अच्छा होटल है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is my chair.",
+        "This is a big problem.",
+        "This is a good idea.",
+        "This is a good hotel."
+      ],
+      "answer": "This is a good hotel."
+    },
+    {
+      "id": 4,
+      "audioScript": "This is my report.",
+      "hindiScript": "यह मेरी रिपोर्ट है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is my room.",
+        "This is a great opportunity.",
+        "This is my team.",
+        "This is my report."
+      ],
+      "answer": "This is my report."
+    },
+    {
+      "id": 5,
+      "audioScript": "This is an important document.",
+      "hindiScript": "यह एक महत्वपूर्ण दस्तावेज है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is an old building.",
+        "This is my job.",
+        "This is my passport.",
+        "This is an important document."
+      ],
+      "answer": "This is an important document."
+    },
+    {
+      "id": 6,
+      "audioScript": "This is my key.",
+      "hindiScript": "यह मेरी चाबी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is a good hotel.",
+        "This is a new plan.",
+        "This is a beautiful place.",
+        "This is my key."
+      ],
+      "answer": "This is my key."
+    },
+    {
+      "id": 7,
+      "audioScript": "This is a big problem.",
+      "hindiScript": "यह एक बड़ी समस्या है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is my report.",
+        "This is my responsibility.",
+        "This is my mobile number.",
+        "This is a big problem."
+      ],
+      "answer": "This is a big problem."
+    },
+    {
+      "id": 8,
+      "audioScript": "This is a great opportunity.",
+      "hindiScript": "यह एक शानदार अवसर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is an important document.",
+        "This is a difficult task.",
+        "This is an expensive watch.",
+        "This is a great opportunity."
+      ],
+      "answer": "This is a great opportunity."
+    }
+  ],
+  "dictationPassage": {
+    "text": "This is my room. This is an old building. This is a good hotel. This is my report. This is an important document.",
+    "hindiTranslation": "यह मेरा कमरा है। यह एक पुरानी इमारत है। यह एक अच्छा होटल है। यह मेरी रिपोर्ट है। यह एक महत्वपूर्ण दस्तावेज है।"
+  }
+}

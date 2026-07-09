@@ -1,0 +1,707 @@
+{
+  "day": 4,
+  "topic": "Be Verb (Am, Is, Are, Was, Were)",
+  "totalQuestions": 50,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मैं एक छात्र हूँ।",
+      "english": "I am a student.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am a student.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 2,
+      "hindi": "मैं खुश हूँ।",
+      "english": "I am happy.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am happy.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 3,
+      "hindi": "मैं दिल्ली से हूँ।",
+      "english": "I am from Delhi.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am from Delhi.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 4,
+      "hindi": "मैं तैयार हूँ।",
+      "english": "I am ready.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am ready.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 5,
+      "hindi": "मैं एक इंजीनियर हूँ।",
+      "english": "I am an engineer.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am an engineer.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 6,
+      "hindi": "मैं थका हुआ हूँ।",
+      "english": "I am tired.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am tired.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 7,
+      "hindi": "मैं घर पर हूँ।",
+      "english": "I am at home.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am at home.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 8,
+      "hindi": "मैं 25 साल का हूँ।",
+      "english": "I am 25 years old.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am 25 years old.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 9,
+      "hindi": "मैं सही हूँ।",
+      "english": "I am right.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am right.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 10,
+      "hindi": "मैं गलत हूँ।",
+      "english": "I am wrong.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am wrong.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 11,
+      "hindi": "मैं भूखा हूँ।",
+      "english": "I am hungry.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am hungry.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 12,
+      "hindi": "मैं प्यासा हूँ।",
+      "english": "I am thirsty.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am thirsty.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 13,
+      "hindi": "मैं ठीक हूँ।",
+      "english": "I am fine.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am fine.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 14,
+      "hindi": "मैं बीमार हूँ।",
+      "english": "I am sick.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am sick.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 15,
+      "hindi": "मैं एक doctor हूँ।",
+      "english": "I am a doctor.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am a doctor.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 16,
+      "hindi": "मैं यहाँ हूँ।",
+      "english": "I am here.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am here.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 17,
+      "hindi": "मैं late हूँ।",
+      "english": "I am late.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am late.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 18,
+      "hindi": "मैं busy हूँ।",
+      "english": "I am busy.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am busy.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 19,
+      "hindi": "मैं serious हूँ।",
+      "english": "I am serious.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am serious.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 20,
+      "hindi": "मैं nervous हूँ।",
+      "english": "I am nervous.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am nervous.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 21,
+      "hindi": "मैं excited हूँ।",
+      "english": "I am excited.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am excited.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 22,
+      "hindi": "मैं proud हूँ।",
+      "english": "I am proud.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am proud.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 23,
+      "hindi": "मैं confident हूँ।",
+      "english": "I am confident.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am confident.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 24,
+      "hindi": "मैं Indian हूँ।",
+      "english": "I am Indian.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am Indian.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 25,
+      "hindi": "मैं एक अच्छा दोस्त हूँ।",
+      "english": "I am a good friend.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am a good friend.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 26,
+      "hindi": "मैं office में हूँ।",
+      "english": "I am in the office.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am in the office.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 27,
+      "hindi": "मैं meeting में हूँ।",
+      "english": "I am in a meeting.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am in a meeting.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 28,
+      "hindi": "मैं train में हूँ।",
+      "english": "I am on the train.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am on the train.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 29,
+      "hindi": "मैं happy नहीं हूँ।",
+      "english": "I am not happy.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am not happy.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 30,
+      "hindi": "मैं शादीशुदा हूँ।",
+      "english": "I am married.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"I am married.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 31,
+      "hindi": "वह एक शिक्षक है।",
+      "english": "He is a teacher.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"He is a teacher.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 32,
+      "hindi": "वह एक डॉक्टर है।",
+      "english": "She is a doctor.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"She is a doctor.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 33,
+      "hindi": "यह एक बिल्ली है।",
+      "english": "It is a cat.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"It is a cat.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 34,
+      "hindi": "राहुल एक छात्र है।",
+      "english": "Rahul is a student.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"Rahul is a student.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 35,
+      "hindi": "मेरा भाई smart है।",
+      "english": "My brother is smart.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"My brother is smart.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 36,
+      "hindi": "मेरी माँ घर पर है।",
+      "english": "My mother is at home.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"My mother is at home.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 37,
+      "hindi": "किताब मेज़ पर है।",
+      "english": "The book is on the table.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"The book is on the table.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 38,
+      "hindi": "कुत्ता बाहर है।",
+      "english": "The dog is outside.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"The dog is outside.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 39,
+      "hindi": "मेरा घर बड़ा है।",
+      "english": "My house is big.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"My house is big.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 40,
+      "hindi": "आसमान नीला है।",
+      "english": "The sky is blue.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"The sky is blue.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 41,
+      "hindi": "वह बहुत अच्छा है।",
+      "english": "He is very good.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"He is very good.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 42,
+      "hindi": "वह खूबसूरत है।",
+      "english": "She is beautiful.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"She is beautiful.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 43,
+      "hindi": "मौसम ठंडा है।",
+      "english": "The weather is cold.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"The weather is cold.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 44,
+      "hindi": "दिल्ली भारत की राजधानी है।",
+      "english": "Delhi is the capital of India.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"Delhi is the capital of India.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 45,
+      "hindi": "मेरा बेटा 10 साल का है।",
+      "english": "My son is 10 years old.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"My son is 10 years old.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 46,
+      "hindi": "यह मेरी कार है।",
+      "english": "This is my car.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"This is my car.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 47,
+      "hindi": "वह office में है।",
+      "english": "He is in the office.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"He is in the office.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 48,
+      "hindi": "वह बीमार है।",
+      "english": "She is sick.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"She is sick.\"",
+      "difficulty": "hard",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 49,
+      "hindi": "पानी गर्म है।",
+      "english": "The water is hot.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"The water is hot.\"",
+      "difficulty": "easy",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    },
+    {
+      "id": 50,
+      "hindi": "मेरा दोस्त बहुत होशियार है।",
+      "english": "My friend is very intelligent.",
+      "alternatives": [],
+      "hint": "Use correct form of be verb (am/is/are/was/were) based on subject.",
+      "explanation": "Correct sentence: \"My friend is very intelligent.\"",
+      "difficulty": "medium",
+      "tags": [
+        "be-verb"
+      ],
+      "grammarRule": "Be Verb",
+      "category": "be verb practice"
+    }
+  ]
+}

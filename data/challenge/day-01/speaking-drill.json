@@ -1,0 +1,183 @@
+{
+  "day": 1,
+  "topic": "Basics of English",
+  "totalDrills": 8,
+  "drills": [
+    {
+      "id": 1,
+      "type": "repeat-and-speak",
+      "title": "Basics of English — Speaking Set 1",
+      "sentences": [
+        {
+          "english": "I eat rice.",
+          "hindi": "मैं चावल खाता हूँ।",
+          "pronunciation": "i eat rice"
+        },
+        {
+          "english": "She drinks water.",
+          "hindi": "वह पानी पीती है।",
+          "pronunciation": "she drinks water"
+        },
+        {
+          "english": "He reads books.",
+          "hindi": "वह किताबें पढ़ता है।",
+          "pronunciation": "he reads books"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "repeat-and-speak",
+      "title": "Basics of English — Speaking Set 2",
+      "sentences": [
+        {
+          "english": "We play cricket.",
+          "hindi": "हम क्रिकेट खेलते हैं।",
+          "pronunciation": "we play cricket"
+        },
+        {
+          "english": "They watch movies.",
+          "hindi": "वे फिल्में देखते हैं।",
+          "pronunciation": "they watch movies"
+        },
+        {
+          "english": "You write letters.",
+          "hindi": "तुम पत्र लिखते हो।",
+          "pronunciation": "you write letters"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "repeat-and-speak",
+      "title": "Basics of English — Speaking Set 3",
+      "sentences": [
+        {
+          "english": "The dog eats food.",
+          "hindi": "कुत्ता खाना खाता है।",
+          "pronunciation": "the dog eats food"
+        },
+        {
+          "english": "My mother cooks food.",
+          "hindi": "मेरी माँ खाना बनाती है।",
+          "pronunciation": "my mother cooks food"
+        },
+        {
+          "english": "Ravi drives a car.",
+          "hindi": "रवि कार चलाता है।",
+          "pronunciation": "ravi drives a car"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "repeat-and-speak",
+      "title": "Basics of English — Speaking Set 4",
+      "sentences": [
+        {
+          "english": "The teacher teaches English.",
+          "hindi": "अध्यापक अंग्रेजी पढ़ाते हैं।",
+          "pronunciation": "the teacher teaches english"
+        },
+        {
+          "english": "She buys vegetables.",
+          "hindi": "वह सब्जियाँ खरीदती है।",
+          "pronunciation": "she buys vegetables"
+        },
+        {
+          "english": "I watch TV every night.",
+          "hindi": "मैं हर रात TV देखता हूँ।",
+          "pronunciation": "i watch tv every night"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "repeat-and-speak",
+      "title": "Basics of English — Speaking Set 5",
+      "sentences": [
+        {
+          "english": "He plays guitar.",
+          "hindi": "वह गिटार बजाता है।",
+          "pronunciation": "he plays guitar"
+        },
+        {
+          "english": "They drink tea.",
+          "hindi": "वे चाय पीते हैं।",
+          "pronunciation": "they drink tea"
+        },
+        {
+          "english": "We speak Hindi.",
+          "hindi": "हम हिंदी बोलते हैं।",
+          "pronunciation": "we speak hindi"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "repeat-and-speak",
+      "title": "Basics of English — Speaking Set 6",
+      "sentences": [
+        {
+          "english": "The students study hard.",
+          "hindi": "छात्र मेहनत से पढ़ते हैं।",
+          "pronunciation": "the students study hard"
+        },
+        {
+          "english": "She loves her job.",
+          "hindi": "वह अपनी नौकरी से प्यार करती है।",
+          "pronunciation": "she loves her job"
+        },
+        {
+          "english": "I need your help.",
+          "hindi": "मुझे तुम्हारी मदद चाहिए।",
+          "pronunciation": "i need your help"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "repeat-and-speak",
+      "title": "Basics of English — Speaking Set 7",
+      "sentences": [
+        {
+          "english": "He knows the answer.",
+          "hindi": "उसे जवाब पता है।",
+          "pronunciation": "he knows the answer"
+        },
+        {
+          "english": "They use computers.",
+          "hindi": "वे कंप्यूटर का उपयोग करते हैं।",
+          "pronunciation": "they use computers"
+        },
+        {
+          "english": "My father runs a business.",
+          "hindi": "मेरे पिता एक व्यवसाय चलाते हैं।",
+          "pronunciation": "my father runs a business"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "repeat-and-speak",
+      "title": "Basics of English — Speaking Set 8",
+      "sentences": [
+        {
+          "english": "She teaches mathematics.",
+          "hindi": "वह गणित पढ़ाती है।",
+          "pronunciation": "she teaches mathematics"
+        },
+        {
+          "english": "I like mangoes.",
+          "hindi": "मुझे आम पसंद हैं।",
+          "pronunciation": "i like mangoes"
+        },
+        {
+          "english": "He wears glasses.",
+          "hindi": "वह चश्मा पहनता है।",
+          "pronunciation": "he wears glasses"
+        }
+      ]
+    }
+  ]
+}

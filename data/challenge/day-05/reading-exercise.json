@@ -1,0 +1,107 @@
+{
+  "day": 5,
+  "topic": "Demonstrative Pronouns",
+  "passage": {
+    "title": "A Day with Demonstrative Pronouns",
+    "text": "This is my pen. This is a good book. This is my house. This is my phone. This is a table. This is my bag. This is an apple. This is my office. This is a new car. This is my chair.",
+    "hindiTranslation": "यह मेरी पेन है। यह एक अच्छी किताब है। यह मेरा घर है। यह मेरा फोन है। यह एक मेज है। यह मेरा बैग है। यह एक सेब है। यह मेरा ऑफिस है। यह एक नई कार है। यह मेरी कुर्सी है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"This is my pen....\"?",
+      "options": [
+        "This is my office.",
+        "This is an important document.",
+        "This is a difficult task.",
+        "This is my pen."
+      ],
+      "answer": "This is my pen.",
+      "explanation": "This is directly stated in the passage: \"This is my pen.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"This is a good...\"?",
+      "options": [
+        "This is a new car.",
+        "This is my key.",
+        "This is my laptop.",
+        "This is a good book."
+      ],
+      "answer": "This is a good book.",
+      "explanation": "This is directly stated in the passage: \"This is a good book.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"This is my house....\"?",
+      "options": [
+        "This is my chair.",
+        "This is a big problem.",
+        "This is a good idea.",
+        "This is my house."
+      ],
+      "answer": "This is my house.",
+      "explanation": "This is directly stated in the passage: \"This is my house.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"This is my phone....\"?",
+      "options": [
+        "This is my room.",
+        "This is a great opportunity.",
+        "This is my team.",
+        "This is my phone."
+      ],
+      "answer": "This is my phone.",
+      "explanation": "This is directly stated in the passage: \"This is my phone.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"This is a table....\"?",
+      "options": [
+        "This is an old building.",
+        "This is my job.",
+        "This is my passport.",
+        "This is a table."
+      ],
+      "answer": "This is a table.",
+      "explanation": "This is directly stated in the passage: \"This is a table.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"This is my bag....\"?",
+      "options": [
+        "This is a good hotel.",
+        "This is a new plan.",
+        "This is a beautiful place.",
+        "This is my bag."
+      ],
+      "answer": "This is my bag.",
+      "explanation": "This is directly stated in the passage: \"This is my bag.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"This is an apple....\"?",
+      "options": [
+        "This is my report.",
+        "This is my responsibility.",
+        "This is my mobile number.",
+        "This is an apple."
+      ],
+      "answer": "This is an apple.",
+      "explanation": "This is directly stated in the passage: \"This is an apple.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"This is my office....\"?",
+      "options": [
+        "This is an important document.",
+        "This is a difficult task.",
+        "This is an expensive watch.",
+        "This is my office."
+      ],
+      "answer": "This is my office.",
+      "explanation": "This is directly stated in the passage: \"This is my office.\""
+    }
+  ]
+}

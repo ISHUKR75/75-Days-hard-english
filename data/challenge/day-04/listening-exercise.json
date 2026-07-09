@@ -1,0 +1,114 @@
+{
+  "day": 4,
+  "topic": "Be Verb (Am, Is, Are, Was, Were)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "I am hungry.",
+      "hindiScript": "मैं भूखा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am 25 years old.",
+        "I am a doctor.",
+        "I am proud.",
+        "I am hungry."
+      ],
+      "answer": "I am hungry."
+    },
+    {
+      "id": 2,
+      "audioScript": "I am thirsty.",
+      "hindiScript": "मैं प्यासा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am right.",
+        "I am here.",
+        "I am confident.",
+        "I am thirsty."
+      ],
+      "answer": "I am thirsty."
+    },
+    {
+      "id": 3,
+      "audioScript": "I am fine.",
+      "hindiScript": "मैं ठीक हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am wrong.",
+        "I am late.",
+        "I am Indian.",
+        "I am fine."
+      ],
+      "answer": "I am fine."
+    },
+    {
+      "id": 4,
+      "audioScript": "I am sick.",
+      "hindiScript": "मैं बीमार हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am hungry.",
+        "I am busy.",
+        "I am a good friend.",
+        "I am sick."
+      ],
+      "answer": "I am sick."
+    },
+    {
+      "id": 5,
+      "audioScript": "I am a doctor.",
+      "hindiScript": "मैं एक doctor हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am thirsty.",
+        "I am serious.",
+        "I am in the office.",
+        "I am a doctor."
+      ],
+      "answer": "I am a doctor."
+    },
+    {
+      "id": 6,
+      "audioScript": "I am here.",
+      "hindiScript": "मैं यहाँ हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am fine.",
+        "I am nervous.",
+        "I am in a meeting.",
+        "I am here."
+      ],
+      "answer": "I am here."
+    },
+    {
+      "id": 7,
+      "audioScript": "I am late.",
+      "hindiScript": "मैं late हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am sick.",
+        "I am excited.",
+        "I am on the train.",
+        "I am late."
+      ],
+      "answer": "I am late."
+    },
+    {
+      "id": 8,
+      "audioScript": "I am busy.",
+      "hindiScript": "मैं busy हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am a doctor.",
+        "I am proud.",
+        "I am not happy.",
+        "I am busy."
+      ],
+      "answer": "I am busy."
+    }
+  ],
+  "dictationPassage": {
+    "text": "I am hungry. I am thirsty. I am fine. I am sick. I am a doctor.",
+    "hindiTranslation": "मैं भूखा हूँ। मैं प्यासा हूँ। मैं ठीक हूँ। मैं बीमार हूँ। मैं एक doctor हूँ।"
+  }
+}

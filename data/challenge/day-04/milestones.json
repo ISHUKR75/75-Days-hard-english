@@ -1,0 +1,41 @@
+{
+  "day": 4,
+  "topic": "Be Verb (Am, Is, Are, Was, Were)",
+  "milestones": [
+    {
+      "id": 1,
+      "title": "Lesson Completed",
+      "description": "Finished all lessons on Be Verb (Am, Is, Are, Was, Were).",
+      "xp": 20,
+      "badge": "lesson-complete"
+    },
+    {
+      "id": 2,
+      "title": "Vocabulary Mastered",
+      "description": "Learned new words related to Be Verb (Am, Is, Are, Was, Were).",
+      "xp": 15,
+      "badge": "vocab-master"
+    },
+    {
+      "id": 3,
+      "title": "Practice Champion",
+      "description": "Completed all practice questions for Day 4.",
+      "xp": 25,
+      "badge": "practice-champion"
+    },
+    {
+      "id": 4,
+      "title": "Test Passed",
+      "description": "Scored well on the Day 4 test.",
+      "xp": 30,
+      "badge": "test-passed"
+    },
+    {
+      "id": 5,
+      "title": "Speaking Practiced",
+      "description": "Completed speaking drills for Be Verb (Am, Is, Are, Was, Were).",
+      "xp": 20,
+      "badge": "speaking-star"
+    }
+  ]
+}

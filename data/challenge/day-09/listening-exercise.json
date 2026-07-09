@@ -1,0 +1,114 @@
+{
+  "day": 9,
+  "topic": "Use of There",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "There is a new movie in the theatre.",
+      "hindiScript": "थिएटर में एक नई फिल्म है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a lot of work today.",
+        "There is a new teacher today.",
+        "There are five rooms in this house.",
+        "There is a new movie in the theatre."
+      ],
+      "answer": "There is a new movie in the theatre."
+    },
+    {
+      "id": 2,
+      "audioScript": "There is a report due tomorrow.",
+      "hindiScript": "कल एक रिपोर्ट जमा करनी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a dog outside the door.",
+        "There is milk in the fridge.",
+        "There are three files on my desk.",
+        "There is a report due tomorrow."
+      ],
+      "answer": "There is a report due tomorrow."
+    },
+    {
+      "id": 3,
+      "audioScript": "There is a chair near the window.",
+      "hindiScript": "खिड़की के पास एक कुर्सी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a bus stop near here.",
+        "There is a lot of traffic on this road.",
+        "There are a lot of problems in this project.",
+        "There is a chair near the window."
+      ],
+      "answer": "There is a chair near the window."
+    },
+    {
+      "id": 4,
+      "audioScript": "There is a hospital on MG Road.",
+      "hindiScript": "MG Road पर एक अस्पताल है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a new movie in the theatre.",
+        "There is an email for you.",
+        "There are two ATMs near this market.",
+        "There is a hospital on MG Road."
+      ],
+      "answer": "There is a hospital on MG Road."
+    },
+    {
+      "id": 5,
+      "audioScript": "There is a new teacher today.",
+      "hindiScript": "आज एक नए शिक्षक हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a report due tomorrow.",
+        "There is a park near our school.",
+        "There are some apples in the basket.",
+        "There is a new teacher today."
+      ],
+      "answer": "There is a new teacher today."
+    },
+    {
+      "id": 6,
+      "audioScript": "There is milk in the fridge.",
+      "hindiScript": "फ्रिज में दूध है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a chair near the window.",
+        "There is a good restaurant in this area.",
+        "There are many people in this shop.",
+        "There is milk in the fridge."
+      ],
+      "answer": "There is milk in the fridge."
+    },
+    {
+      "id": 7,
+      "audioScript": "There is a lot of traffic on this road.",
+      "hindiScript": "इस सड़क पर बहुत ट्रैफिक है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a hospital on MG Road.",
+        "There are many students in the class.",
+        "There are 30 students in our batch.",
+        "There is a lot of traffic on this road."
+      ],
+      "answer": "There is a lot of traffic on this road."
+    },
+    {
+      "id": 8,
+      "audioScript": "There is an email for you.",
+      "hindiScript": "आपके लिए एक email है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "There is a new teacher today.",
+        "There are five rooms in this house.",
+        "There are several options available.",
+        "There is an email for you."
+      ],
+      "answer": "There is an email for you."
+    }
+  ],
+  "dictationPassage": {
+    "text": "There is a new movie in the theatre. There is a report due tomorrow. There is a chair near the window. There is a hospital on MG Road. There is a new teacher today.",
+    "hindiTranslation": "थिएटर में एक नई फिल्म है। कल एक रिपोर्ट जमा करनी है। खिड़की के पास एक कुर्सी है। MG Road पर एक अस्पताल है। आज एक नए शिक्षक हैं।"
+  }
+}

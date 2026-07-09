@@ -1,0 +1,305 @@
+{
+  "day": 10,
+  "topic": "Revision of Days 1-9",
+  "totalQuestions": 19,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं चावल खाता हूँ।",
+      "options": [
+        {
+          "english": "I am happy.",
+          "hindi": "मैं खुश हूँ।"
+        },
+        {
+          "english": "He had already left when I arrived.",
+          "hindi": "जब मैं पहुँचा, वह पहले ही जा चुका था।"
+        },
+        {
+          "english": "My name is Rohan, and I am from Delhi.",
+          "hindi": "मेरा नाम रोहन है, और मैं दिल्ली से हूँ।"
+        },
+        "I eat rice."
+      ],
+      "answer": "I eat rice.",
+      "explanation": "Correct translation: \"मैं चावल खाता हूँ।\" = \"I eat rice.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Does she _____ English?",
+      "options": [
+        "yesterday",
+        "will",
+        "working",
+        "speak"
+      ],
+      "answer": "speak",
+      "explanation": "The missing word is \"speak\" — full sentence: \"Does she speak English?\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "My name are Rohan, and I am from Delhi.",
+      "options": [
+        "My name are Rohan, and I am from Delhi.",
+        "My name is Rohan, and I am from Delhi."
+      ],
+      "answer": "My name is Rohan, and I am from Delhi.",
+      "explanation": "Correct sentence: \"My name is Rohan, and I am from Delhi.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मैं यहाँ दो साल से काम कर रहा हूँ।",
+      "options": [
+        {
+          "english": "Those are my friends.",
+          "hindi": "वे मेरे दोस्त हैं।"
+        },
+        {
+          "english": "There were many people at the party.",
+          "hindi": "party में बहुत लोग थे।"
+        },
+        {
+          "english": "Don't be late.",
+          "hindi": "देर मत करो।"
+        },
+        "I have been working here for two years."
+      ],
+      "answer": "I have been working here for two years.",
+      "explanation": "Correct translation: \"मैं यहाँ दो साल से काम कर रहा हूँ।\" = \"I have been working here for two years.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Close _____ door.",
+      "options": [
+        "laptop",
+        "students",
+        "car",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "The missing word is \"the\" — full sentence: \"Close the door.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Don't be late yesterday.",
+      "options": [
+        "Don't be late yesterday.",
+        "Don't be late."
+      ],
+      "answer": "Don't be late.",
+      "explanation": "Correct sentence: \"Don't be late.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "चलो बाज़ार चलते हैं।",
+      "options": [
+        {
+          "english": "I had a car.",
+          "hindi": "मेरे पास एक कार थी।"
+        },
+        {
+          "english": "Does she speak English?",
+          "hindi": "क्या वह English बोलती है?"
+        },
+        {
+          "english": "They were tired yesterday.",
+          "hindi": "वे कल थके हुए थे।"
+        },
+        "Let's go to the market."
+      ],
+      "answer": "Let's go to the market.",
+      "explanation": "Correct translation: \"चलो बाज़ार चलते हैं।\" = \"Let's go to the market.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I _____ happy.",
+      "options": [
+        "left",
+        "Rohan",
+        "book",
+        "am"
+      ],
+      "answer": "am",
+      "explanation": "The missing word is \"am\" — full sentence: \"I am happy.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "They was tired yesterday.",
+      "options": [
+        "They was tired yesterday.",
+        "They were tired yesterday."
+      ],
+      "answer": "They were tired yesterday.",
+      "explanation": "Correct sentence: \"They were tired yesterday.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "यह मेरी किताब है।",
+      "options": [
+        {
+          "english": "There is a book on the table.",
+          "hindi": "मेज़ पर एक किताब है।"
+        },
+        {
+          "english": "Close the door.",
+          "hindi": "दरवाज़ा बंद करो।"
+        },
+        {
+          "english": "I have a laptop.",
+          "hindi": "मेरे पास laptop है।"
+        },
+        "This is my book."
+      ],
+      "answer": "This is my book.",
+      "explanation": "Correct translation: \"यह मेरी किताब है।\" = \"This is my book.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Those are _____ friends.",
+      "options": [
+        "people",
+        "late",
+        "her",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "The missing word is \"my\" — full sentence: \"Those are my friends.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I has a laptop.",
+      "options": [
+        "I has a laptop.",
+        "I have a laptop."
+      ],
+      "answer": "I have a laptop.",
+      "explanation": "Correct sentence: \"I have a laptop.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "उसने अपना काम खत्म कर लिया है।",
+      "options": [
+        {
+          "english": "I eat rice.",
+          "hindi": "मैं चावल खाता हूँ।"
+        },
+        {
+          "english": "I am happy.",
+          "hindi": "मैं खुश हूँ।"
+        },
+        {
+          "english": "He had already left when I arrived.",
+          "hindi": "जब मैं पहुँचा, वह पहले ही जा चुका था।"
+        },
+        "She has finished her work."
+      ],
+      "answer": "She has finished her work.",
+      "explanation": "Correct translation: \"उसने अपना काम खत्म कर लिया है।\" = \"She has finished her work.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I had _____ car.",
+      "options": [
+        "English",
+        "yesterday",
+        "will",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "The missing word is \"a\" — full sentence: \"I had a car.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "He had already left when I arrived yesterday.",
+      "options": [
+        "He had already left when I arrived yesterday.",
+        "He had already left when I arrived."
+      ],
+      "answer": "He had already left when I arrived.",
+      "explanation": "Correct sentence: \"He had already left when I arrived.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।",
+      "options": [
+        {
+          "english": "I have been working here for two years.",
+          "hindi": "मैं यहाँ दो साल से काम कर रहा हूँ।"
+        },
+        {
+          "english": "Those are my friends.",
+          "hindi": "वे मेरे दोस्त हैं।"
+        },
+        {
+          "english": "There were many people at the party.",
+          "hindi": "party में बहुत लोग थे।"
+        },
+        "By tomorrow, I will have finished the report."
+      ],
+      "answer": "By tomorrow, I will have finished the report.",
+      "explanation": "Correct translation: \"कल तक, मैं report खत्म कर चुका होऊँगा।\" = \"By tomorrow, I will have finished the report.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "There is a _____ on the table.",
+      "options": [
+        "door",
+        "laptop",
+        "students",
+        "book"
+      ],
+      "answer": "book",
+      "explanation": "The missing word is \"book\" — full sentence: \"There is a book on the table.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "There was many people at the party.",
+      "options": [
+        "There was many people at the party.",
+        "There were many people at the party."
+      ],
+      "answer": "There were many people at the party.",
+      "explanation": "Correct sentence: \"There were many people at the party.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "Class में पाँच students हैं, और उन्होंने test पूरा कर लिया है।ie mixed topics",
+      "options": [
+        {
+          "english": "Let's go to the market.",
+          "hindi": "चलो बाज़ार चलते हैं।"
+        },
+        {
+          "english": "I had a car.",
+          "hindi": "मेरे पास एक कार थी।"
+        },
+        {
+          "english": "Does she speak English?",
+          "hindi": "क्या वह English बोलती है?"
+        },
+        "There are five students in the class, and they have completed the test."
+      ],
+      "answer": "There are five students in the class, and they have completed the test.",
+      "explanation": "Correct translation: \"Class में पाँच students हैं, और उन्होंने test पूरा कर लिया है।ie mixed topics\" = \"There are five students in the class, and they have completed the test.\""
+    }
+  ]
+}

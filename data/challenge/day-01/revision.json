@@ -1,0 +1,123 @@
+{
+  "day": 1,
+  "topic": "Basics of English",
+  "keyPointsSummary": [
+    "Subject हमेशा पहले आता है",
+    "Verb के बाद Object आता है",
+    "He/She/It के साथ verb में 's' या 'es' जोड़ते हैं",
+    "I/You/We/They के साथ verb की base form आती है",
+    {
+      "rule": "A — Consonant Sound से शुरू होने वाले nouns से पहले",
+      "examples": [
+        "a book",
+        "a car",
+        "a university (yu sound)",
+        "a one-rupee coin (w sound)",
+        "a European country"
+      ],
+      "hindi": "एक किताब, एक कार, एक विश्वविद्यालय"
+    },
+    {
+      "rule": "An — Vowel Sound से शुरू होने वाले nouns से पहले",
+      "examples": [
+        "an apple",
+        "an elephant",
+        "an hour (h silent)",
+        "an honest person",
+        "an MBA degree"
+      ],
+      "hindi": "एक सेब, एक हाथी, एक घंटा, एक ईमानदार व्यक्ति"
+    },
+    {
+      "rule": "The — Specific या Known nouns से पहले",
+      "examples": [
+        "the sun",
+        "the moon",
+        "the Prime Minister of India",
+        "the book you gave me",
+        "the first time"
+      ],
+      "hindi": "सूरज, चाँद, भारत के प्रधानमंत्री, वो किताब जो तुमने दी"
+    }
+  ],
+  "quickQuiz": [
+    {
+      "id": 1,
+      "hindi": "मैं चावल खाता हूँ।",
+      "answer": "I eat rice."
+    },
+    {
+      "id": 2,
+      "hindi": "वह पानी पीती है।",
+      "answer": "She drinks water."
+    },
+    {
+      "id": 3,
+      "hindi": "वह किताबें पढ़ता है।",
+      "answer": "He reads books."
+    },
+    {
+      "id": 4,
+      "hindi": "हम क्रिकेट खेलते हैं।",
+      "answer": "We play cricket."
+    },
+    {
+      "id": 5,
+      "hindi": "वे फिल्में देखते हैं।",
+      "answer": "They watch movies."
+    },
+    {
+      "id": 6,
+      "hindi": "तुम पत्र लिखते हो।",
+      "answer": "You write letters."
+    },
+    {
+      "id": 7,
+      "hindi": "कुत्ता खाना खाता है।",
+      "answer": "The dog eats food."
+    },
+    {
+      "id": 8,
+      "hindi": "मेरी माँ खाना बनाती है।",
+      "answer": "My mother cooks food."
+    },
+    {
+      "id": 9,
+      "hindi": "रवि कार चलाता है।",
+      "answer": "Ravi drives a car."
+    },
+    {
+      "id": 10,
+      "hindi": "अध्यापक अंग्रेजी पढ़ाते हैं।",
+      "answer": "The teacher teaches English."
+    }
+  ],
+  "mustRememberRules": [
+    "Subject हमेशा पहले आता है",
+    "Verb के बाद Object आता है",
+    "He/She/It के साथ verb में 's' या 'es' जोड़ते हैं",
+    "I/You/We/They के साथ verb की base form आती है",
+    {
+      "rule": "A — Consonant Sound से शुरू होने वाले nouns से पहले",
+      "examples": [
+        "a book",
+        "a car",
+        "a university (yu sound)",
+        "a one-rupee coin (w sound)",
+        "a European country"
+      ],
+      "hindi": "एक किताब, एक कार, एक विश्वविद्यालय"
+    },
+    {
+      "rule": "An — Vowel Sound से शुरू होने वाले nouns से पहले",
+      "examples": [
+        "an apple",
+        "an elephant",
+        "an hour (h silent)",
+        "an honest person",
+        "an MBA degree"
+      ],
+      "hindi": "एक सेब, एक हाथी, एक घंटा, एक ईमानदार व्यक्ति"
+    }
+  ]
+}

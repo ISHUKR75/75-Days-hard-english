@@ -1,0 +1,46 @@
+{
+  "day": 4,
+  "topic": "Be Verb (Am, Is, Are, Was, Were)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Be Verb (Am, Is, Are, Was, Were).",
+      "hindiPrompt": "Be Verb (Am, Is, Are, Was, Were) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I am a student. I am happy. I am from Delhi. I am ready. I am an engineer.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) about your day using Be Verb (Am, Is, Are, Was, Were).",
+      "hindiPrompt": "अपने दिन के बारे में Be Verb (Am, Is, Are, Was, Were) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I am tired. I am at home. I am 25 years old. I am right. I am wrong.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate the following into English: \"मैं भूखा हूँ।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "I am hungry.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I is ready.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I am ready.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue between two people using Be Verb (Am, Is, Are, Was, Were).",
+      "hindiPrompt": "Be Verb (Am, Is, Are, Was, Were) का उपयोग करते हुए दो व्यक्तियों के बीच 4 पंक्तियों का संवाद लिखिए।",
+      "sampleAnswer": "I am fine. I am sick. I am a doctor. I am here.",
+      "wordLimit": 60
+    }
+  ]
+}

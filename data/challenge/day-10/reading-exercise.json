@@ -1,0 +1,107 @@
+{
+  "day": 10,
+  "topic": "Revision of Days 1-9",
+  "passage": {
+    "title": "A Day with Revision of Days 1-9",
+    "text": "I eat rice. Does she speak English? My name is Rohan, and I am from Delhi. I have been working here for two years. Close the door. Don't be late. Let's go to the market. I am happy. They were tired yesterday. This is my book.",
+    "hindiTranslation": "मैं चावल खाता हूँ। क्या वह English बोलती है? मेरा नाम रोहन है, और मैं दिल्ली से हूँ। मैं यहाँ दो साल से काम कर रहा हूँ। दरवाज़ा बंद करो। देर मत करो। चलो बाज़ार चलते हैं। मैं खुश हूँ। वे कल थके हुए थे। यह मेरी किताब है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I eat rice....\"?",
+      "options": [
+        "I am happy.",
+        "He had already left when I arrived.",
+        "My name is Rohan, and I am from Delhi.",
+        "I eat rice."
+      ],
+      "answer": "I eat rice.",
+      "explanation": "This is directly stated in the passage: \"I eat rice.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"Does she speak English?...\"?",
+      "options": [
+        "They were tired yesterday.",
+        "By tomorrow, I will have finished the report.",
+        "I have been working here for two years.",
+        "Does she speak English?"
+      ],
+      "answer": "Does she speak English?",
+      "explanation": "This is directly stated in the passage: \"Does she speak English?\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"My name is Rohan,...\"?",
+      "options": [
+        "This is my book.",
+        "There is a book on the table.",
+        "Close the door.",
+        "My name is Rohan, and I am from Delhi."
+      ],
+      "answer": "My name is Rohan, and I am from Delhi.",
+      "explanation": "This is directly stated in the passage: \"My name is Rohan, and I am from Delhi.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I have been working...\"?",
+      "options": [
+        "Those are my friends.",
+        "There were many people at the party.",
+        "Don't be late.",
+        "I have been working here for two years."
+      ],
+      "answer": "I have been working here for two years.",
+      "explanation": "This is directly stated in the passage: \"I have been working here for two years.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"Close the door....\"?",
+      "options": [
+        "I have a laptop.",
+        "There are five students in the class, and they have completed the test.",
+        "Let's go to the market.",
+        "Close the door."
+      ],
+      "answer": "Close the door.",
+      "explanation": "This is directly stated in the passage: \"Close the door.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Don't be late....\"?",
+      "options": [
+        "She has finished her work.",
+        "I eat rice.",
+        "I am happy.",
+        "Don't be late."
+      ],
+      "answer": "Don't be late.",
+      "explanation": "This is directly stated in the passage: \"Don't be late.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"Let's go to the...\"?",
+      "options": [
+        "I had a car.",
+        "Does she speak English?",
+        "They were tired yesterday.",
+        "Let's go to the market."
+      ],
+      "answer": "Let's go to the market.",
+      "explanation": "This is directly stated in the passage: \"Let's go to the market.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"I am happy....\"?",
+      "options": [
+        "He had already left when I arrived.",
+        "My name is Rohan, and I am from Delhi.",
+        "This is my book.",
+        "I am happy."
+      ],
+      "answer": "I am happy.",
+      "explanation": "This is directly stated in the passage: \"I am happy.\""
+    }
+  ]
+}

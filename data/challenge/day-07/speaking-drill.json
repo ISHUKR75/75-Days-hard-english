@@ -1,93 +1,182 @@
 {
   "day": 7,
-  "title": "Day 7 Speaking Drill — Had",
-  "instructions": "Speak each sentence aloud clearly. Record yourself if possible. Focus on pronunciation and natural rhythm.",
+  "topic": "Had",
+  "totalDrills": 8,
   "drills": [
     {
       "id": 1,
-      "type": "repeat",
-      "title": "Basic Had Sentences — Repeat Aloud",
+      "type": "repeat-and-speak",
+      "title": "Had — Speaking Set 1",
       "sentences": [
-        { "english": "I had a car.", "hindi": "मेरे पास एक कार थी।", "pronunciation": "I HAD a car." },
-        { "english": "She had a dog.", "hindi": "उसके पास एक कुत्ता था।", "pronunciation": "She HAD a dog." },
-        { "english": "We had a big house.", "hindi": "हमारे पास एक बड़ा घर था।", "pronunciation": "We HAD a BIG house." },
-        { "english": "They had a lot of money.", "hindi": "उनके पास बहुत पैसे थे।", "pronunciation": "They HAD a LOT of money." },
-        { "english": "He had a good job.", "hindi": "उसके पास एक अच्छी नौकरी थी।", "pronunciation": "He HAD a good job." }
+        {
+          "english": "I have a car.",
+          "hindi": "मेरे पास एक कार है।",
+          "pronunciation": "i have a car"
+        },
+        {
+          "english": "I had a car.",
+          "hindi": "मेरे पास एक कार थी।",
+          "pronunciation": "i had a car"
+        },
+        {
+          "english": "He has money.",
+          "hindi": "उसके पास पैसे हैं।",
+          "pronunciation": "he has money"
+        }
       ]
     },
     {
       "id": 2,
-      "type": "past_perfect",
-      "title": "Past Perfect — Speak Naturally",
+      "type": "repeat-and-speak",
+      "title": "Had — Speaking Set 2",
       "sentences": [
-        { "english": "I had eaten the food.", "hindi": "मैंने खाना खा लिया था।", "pronunciation": "I had EAT-en the food." },
-        { "english": "She had written the report.", "hindi": "उसने रिपोर्ट लिख ली थी।", "pronunciation": "She had WRIT-ten the re-PORT." },
-        { "english": "They had already finished.", "hindi": "वे पहले ही खत्म कर चुके थे।", "pronunciation": "They had ALL-ready FIN-ished." },
-        { "english": "He had gone before I arrived.", "hindi": "वह मेरे आने से पहले चला गया था।", "pronunciation": "He had GONE be-FORE I ar-RIVED." },
-        { "english": "We had completed the project.", "hindi": "हमने प्रोजेक्ट पूरा कर लिया था।", "pronunciation": "We had com-PLET-ed the PRO-ject." }
+        {
+          "english": "He had money.",
+          "hindi": "उसके पास पैसे थे।",
+          "pronunciation": "he had money"
+        },
+        {
+          "english": "They have a house.",
+          "hindi": "उनके पास एक घर है।",
+          "pronunciation": "they have a house"
+        },
+        {
+          "english": "They had a house.",
+          "hindi": "उनके पास एक घर था।",
+          "pronunciation": "they had a house"
+        }
       ]
     },
     {
       "id": 3,
-      "type": "question_answer",
-      "title": "Question & Answer Practice",
-      "pairs": [
-        { "question": "Did you have a car?", "answer": "Yes, I had a car. / No, I didn't have a car." },
-        { "question": "Had you eaten before the meeting?", "answer": "Yes, I had eaten. / No, I hadn't eaten." },
-        { "question": "Did she have experience?", "answer": "Yes, she had five years of experience." },
-        { "question": "Had the team finished the work?", "answer": "Yes, they had already finished." },
-        { "question": "Did they have a plan?", "answer": "Yes, they had a clear plan." }
+      "type": "repeat-and-speak",
+      "title": "Had — Speaking Set 3",
+      "sentences": [
+        {
+          "english": "The company has 100 employees.",
+          "hindi": "कंपनी के पास 100 कर्मचारी हैं।",
+          "pronunciation": "the company has 100 employees"
+        },
+        {
+          "english": "The company had 100 employees.",
+          "hindi": "कंपनी के पास 100 कर्मचारी थे।",
+          "pronunciation": "the company had 100 employees"
+        },
+        {
+          "english": "I had a motorcycle.",
+          "hindi": "मेरे पास एक मोटरसाइकिल थी।",
+          "pronunciation": "i had a motorcycle"
+        }
       ]
     },
     {
       "id": 4,
-      "type": "story",
-      "title": "Story Time — Speak the Full Story",
-      "story": "Last year, I had a small car. I had a job in a big company. The company had 500 employees. One day, when I reached the office, my boss had already called a meeting. By the time I entered the conference room, everyone had taken their seats. The manager told us that the team had completed the project on time. It was great news! We had worked very hard for three months.",
-      "keyPoints": ["Notice all the 'had' uses", "Had for possession: I had a car, I had a job", "Had + V3 for earlier events: had called, had taken, had completed"]
+      "type": "repeat-and-speak",
+      "title": "Had — Speaking Set 4",
+      "sentences": [
+        {
+          "english": "She had a laptop.",
+          "hindi": "उसके पास एक लैपटॉप था।",
+          "pronunciation": "she had a laptop"
+        },
+        {
+          "english": "We had a big house.",
+          "hindi": "हमारे पास एक बड़ा घर था।",
+          "pronunciation": "we had a big house"
+        },
+        {
+          "english": "They had a lot of money.",
+          "hindi": "उनके पास बहुत पैसे थे।",
+          "pronunciation": "they had a lot of money"
+        }
+      ]
     },
     {
       "id": 5,
-      "type": "tongue_twister",
-      "title": "Rapid Fire — Say Quickly",
+      "type": "repeat-and-speak",
+      "title": "Had — Speaking Set 5",
       "sentences": [
-        "I had had enough.",
-        "She had had a hard day.",
-        "Had he had breakfast?",
-        "They had had a meeting before I had arrived.",
-        "We had had so many problems that we had almost given up."
-      ],
-      "note": "Notice 'had had' — this is correct English! First 'had' is Past Perfect auxiliary, second 'had' is the main verb (to have)."
+        {
+          "english": "He had a good boss.",
+          "hindi": "उसके पास एक अच्छा बॉस था।",
+          "pronunciation": "he had a good boss"
+        },
+        {
+          "english": "I had an old book.",
+          "hindi": "मेरे पास एक पुरानी किताब थी।",
+          "pronunciation": "i had an old book"
+        },
+        {
+          "english": "The company had a large team.",
+          "hindi": "कंपनी के पास एक बड़ी टीम थी।",
+          "pronunciation": "the company had a large team"
+        }
+      ]
     },
     {
       "id": 6,
-      "type": "office_roleplay",
-      "title": "Office Roleplay — Act It Out",
-      "scenarios": [
+      "type": "repeat-and-speak",
+      "title": "Had — Speaking Set 6",
+      "sentences": [
         {
-          "situation": "Reporting to your boss about yesterday",
-          "you": "I had a meeting with the client yesterday. They had some concerns about the project. By the time I spoke to them, I had already reviewed the report.",
-          "boss": "Had the team finished the analysis?",
-          "you_reply": "Yes, they had completed it by 5 PM."
+          "english": "The child had many toys.",
+          "hindi": "बच्चे के पास बहुत खिलौने थे।",
+          "pronunciation": "the child had many toys"
         },
         {
-          "situation": "Team discussion about a past problem",
-          "colleague": "Did you know about the issue before?",
-          "you": "Yes, I had noticed it last week. But by the time I reported, the team had already solved it.",
-          "colleague": "Great! We had a similar problem last year too."
+          "english": "She had a good idea.",
+          "hindi": "उसके पास एक अच्छा विचार था।",
+          "pronunciation": "she had a good idea"
+        },
+        {
+          "english": "I had no problem.",
+          "hindi": "मेरे पास कोई समस्या नहीं थी।",
+          "pronunciation": "i had no problem"
         }
       ]
     },
     {
       "id": 7,
-      "type": "conditional_practice",
-      "title": "Conditionals — Express Regrets and Wishes",
+      "type": "repeat-and-speak",
+      "title": "Had — Speaking Set 7",
       "sentences": [
-        { "english": "If I had studied harder, I would have passed.", "hindi": "अगर मैंने ज़्यादा पढ़ा होता, मैं पास हो जाता।" },
-        { "english": "I wish I had known about this earlier.", "hindi": "काश मुझे यह पहले पता होता।" },
-        { "english": "If she had applied, she would have got the job.", "hindi": "अगर उसने आवेदन किया होता, नौकरी मिल जाती।" },
-        { "english": "I wish we had more time.", "hindi": "काश हमारे पास ज़्यादा समय होता।" },
-        { "english": "If he had listened, the mistake wouldn't have happened.", "hindi": "अगर उसने सुना होता, गलती नहीं होती।" }
+        {
+          "english": "I had eaten the food.",
+          "hindi": "मैंने खाना खा लिया था।",
+          "pronunciation": "i had eaten the food"
+        },
+        {
+          "english": "He had gone.",
+          "hindi": "वह जा चुका था।",
+          "pronunciation": "he had gone"
+        },
+        {
+          "english": "We had finished the work.",
+          "hindi": "हमने काम खत्म कर लिया था।",
+          "pronunciation": "we had finished the work"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "repeat-and-speak",
+      "title": "Had — Speaking Set 8",
+      "sentences": [
+        {
+          "english": "She had written the report.",
+          "hindi": "उसने रिपोर्ट लिख ली थी।",
+          "pronunciation": "she had written the report"
+        },
+        {
+          "english": "The rain had stopped.",
+          "hindi": "बारिश रुक गई थी।",
+          "pronunciation": "the rain had stopped"
+        },
+        {
+          "english": "They had already slept.",
+          "hindi": "वे पहले ही सो गए थे।",
+          "pronunciation": "they had already slept"
+        }
       ]
     }
   ]

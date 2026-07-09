@@ -1,0 +1,114 @@
+{
+  "day": 7,
+  "topic": "Had",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "We had a big house.",
+      "hindiScript": "हमारे पास एक बड़ा घर था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The company had 100 employees.",
+        "The company had a large team.",
+        "She had written the report.",
+        "We had a big house."
+      ],
+      "answer": "We had a big house."
+    },
+    {
+      "id": 2,
+      "audioScript": "They had a lot of money.",
+      "hindiScript": "उनके पास बहुत पैसे थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I had a motorcycle.",
+        "The child had many toys.",
+        "The rain had stopped.",
+        "They had a lot of money."
+      ],
+      "answer": "They had a lot of money."
+    },
+    {
+      "id": 3,
+      "audioScript": "He had a good boss.",
+      "hindiScript": "उसके पास एक अच्छा बॉस था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She had a laptop.",
+        "She had a good idea.",
+        "They had already slept.",
+        "He had a good boss."
+      ],
+      "answer": "He had a good boss."
+    },
+    {
+      "id": 4,
+      "audioScript": "I had an old book.",
+      "hindiScript": "मेरे पास एक पुरानी किताब थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We had a big house.",
+        "I had no problem.",
+        "The meeting had ended.",
+        "I had an old book."
+      ],
+      "answer": "I had an old book."
+    },
+    {
+      "id": 5,
+      "audioScript": "The company had a large team.",
+      "hindiScript": "कंपनी के पास एक बड़ी टीम थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They had a lot of money.",
+        "I had eaten the food.",
+        "The train had left.",
+        "The company had a large team."
+      ],
+      "answer": "The company had a large team."
+    },
+    {
+      "id": 6,
+      "audioScript": "The child had many toys.",
+      "hindiScript": "बच्चे के पास बहुत खिलौने थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He had a good boss.",
+        "He had gone.",
+        "He had admitted the mistake.",
+        "The child had many toys."
+      ],
+      "answer": "The child had many toys."
+    },
+    {
+      "id": 7,
+      "audioScript": "She had a good idea.",
+      "hindiScript": "उसके पास एक अच्छा विचार था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I had an old book.",
+        "We had finished the work.",
+        "The team had completed the project.",
+        "She had a good idea."
+      ],
+      "answer": "She had a good idea."
+    },
+    {
+      "id": 8,
+      "audioScript": "I had no problem.",
+      "hindiScript": "मेरे पास कोई समस्या नहीं थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The company had a large team.",
+        "She had written the report.",
+        "I had watched this film before.",
+        "I had no problem."
+      ],
+      "answer": "I had no problem."
+    }
+  ],
+  "dictationPassage": {
+    "text": "We had a big house. They had a lot of money. He had a good boss. I had an old book. The company had a large team.",
+    "hindiTranslation": "हमारे पास एक बड़ा घर था। उनके पास बहुत पैसे थे। उसके पास एक अच्छा बॉस था। मेरे पास एक पुरानी किताब थी। कंपनी के पास एक बड़ी टीम थी।"
+  }
+}

@@ -1,0 +1,114 @@
+{
+  "day": 10,
+  "topic": "Revision of Days 1-9",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Those are my friends.",
+      "hindiScript": "वे मेरे दोस्त हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am happy.",
+        "He had already left when I arrived.",
+        "My name is Rohan, and I am from Delhi.",
+        "Those are my friends."
+      ],
+      "answer": "Those are my friends."
+    },
+    {
+      "id": 2,
+      "audioScript": "I have a laptop.",
+      "hindiScript": "मेरे पास laptop है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They were tired yesterday.",
+        "By tomorrow, I will have finished the report.",
+        "I have been working here for two years.",
+        "I have a laptop."
+      ],
+      "answer": "I have a laptop."
+    },
+    {
+      "id": 3,
+      "audioScript": "She has finished her work.",
+      "hindiScript": "उसने अपना काम खत्म कर लिया है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This is my book.",
+        "There is a book on the table.",
+        "Close the door.",
+        "She has finished her work."
+      ],
+      "answer": "She has finished her work."
+    },
+    {
+      "id": 4,
+      "audioScript": "I had a car.",
+      "hindiScript": "मेरे पास एक कार थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Those are my friends.",
+        "There were many people at the party.",
+        "Don't be late.",
+        "I had a car."
+      ],
+      "answer": "I had a car."
+    },
+    {
+      "id": 5,
+      "audioScript": "He had already left when I arrived.",
+      "hindiScript": "जब मैं पहुँचा, वह पहले ही जा चुका था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have a laptop.",
+        "There are five students in the class, and they have completed the test.",
+        "Let's go to the market.",
+        "He had already left when I arrived."
+      ],
+      "answer": "He had already left when I arrived."
+    },
+    {
+      "id": 6,
+      "audioScript": "By tomorrow, I will have finished the report.",
+      "hindiScript": "कल तक, मैं report खत्म कर चुका होऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She has finished her work.",
+        "I eat rice.",
+        "I am happy.",
+        "By tomorrow, I will have finished the report."
+      ],
+      "answer": "By tomorrow, I will have finished the report."
+    },
+    {
+      "id": 7,
+      "audioScript": "There is a book on the table.",
+      "hindiScript": "मेज़ पर एक किताब है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I had a car.",
+        "Does she speak English?",
+        "They were tired yesterday.",
+        "There is a book on the table."
+      ],
+      "answer": "There is a book on the table."
+    },
+    {
+      "id": 8,
+      "audioScript": "There were many people at the party.",
+      "hindiScript": "party में बहुत लोग थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He had already left when I arrived.",
+        "My name is Rohan, and I am from Delhi.",
+        "This is my book.",
+        "There were many people at the party."
+      ],
+      "answer": "There were many people at the party."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Those are my friends. I have a laptop. She has finished her work. I had a car. He had already left when I arrived.",
+    "hindiTranslation": "वे मेरे दोस्त हैं। मेरे पास laptop है। उसने अपना काम खत्म कर लिया है। मेरे पास एक कार थी। जब मैं पहुँचा, वह पहले ही जा चुका था।"
+  }
+}

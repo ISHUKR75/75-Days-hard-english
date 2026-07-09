@@ -1,0 +1,467 @@
+{
+  "day": 5,
+  "topic": "Demonstrative Pronouns",
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "यह मेरी पेन है।",
+      "options": [
+        {
+          "english": "This is my office.",
+          "hindi": "यह मेरा ऑफिस है।"
+        },
+        {
+          "english": "This is an important document.",
+          "hindi": "यह एक महत्वपूर्ण दस्तावेज है।"
+        },
+        {
+          "english": "This is a difficult task.",
+          "hindi": "यह एक कठिन काम है।"
+        },
+        "This is my pen."
+      ],
+      "answer": "This is my pen.",
+      "explanation": "Correct translation: \"यह मेरी पेन है।\" = \"This is my pen.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "This is _____ good book.",
+      "options": [
+        "new",
+        "key",
+        "laptop",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "The missing word is \"a\" — full sentence: \"This is a good book.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "This are my house.",
+      "options": [
+        "This are my house.",
+        "This is my house."
+      ],
+      "answer": "This is my house.",
+      "explanation": "Correct sentence: \"This is my house.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "यह मेरा फोन है।",
+      "options": [
+        {
+          "english": "This is my room.",
+          "hindi": "यह मेरा कमरा है।"
+        },
+        {
+          "english": "This is a great opportunity.",
+          "hindi": "यह एक शानदार अवसर है।"
+        },
+        {
+          "english": "This is my team.",
+          "hindi": "यह मेरी टीम है।"
+        },
+        "This is my phone."
+      ],
+      "answer": "This is my phone.",
+      "explanation": "Correct translation: \"यह मेरा फोन है।\" = \"This is my phone.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "This is _____ table.",
+      "options": [
+        "old",
+        "job",
+        "passport",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "The missing word is \"a\" — full sentence: \"This is a table.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "This are my bag.",
+      "options": [
+        "This are my bag.",
+        "This is my bag."
+      ],
+      "answer": "This is my bag.",
+      "explanation": "Correct sentence: \"This is my bag.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "यह एक सेब है।",
+      "options": [
+        {
+          "english": "This is my report.",
+          "hindi": "यह मेरी रिपोर्ट है।"
+        },
+        {
+          "english": "This is my responsibility.",
+          "hindi": "यह मेरी जिम्मेदारी है।"
+        },
+        {
+          "english": "This is my mobile number.",
+          "hindi": "यह मेरा मोबाइल नंबर है।"
+        },
+        "This is an apple."
+      ],
+      "answer": "This is an apple.",
+      "explanation": "Correct translation: \"यह एक सेब है।\" = \"This is an apple.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "This is _____ office.",
+      "options": [
+        "important",
+        "difficult",
+        "expensive",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "The missing word is \"my\" — full sentence: \"This is my office.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "This are a new car.",
+      "options": [
+        "This are a new car.",
+        "This is a new car."
+      ],
+      "answer": "This is a new car.",
+      "explanation": "Correct sentence: \"This is a new car.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "यह मेरी कुर्सी है।",
+      "options": [
+        {
+          "english": "This is a big problem.",
+          "hindi": "यह एक बड़ी समस्या है।"
+        },
+        {
+          "english": "This is a good idea.",
+          "hindi": "यह एक अच्छा विचार है।"
+        },
+        {
+          "english": "This book is good.",
+          "hindi": "यह किताब अच्छी है।"
+        },
+        "This is my chair."
+      ],
+      "answer": "This is my chair.",
+      "explanation": "Correct translation: \"यह मेरी कुर्सी है।\" = \"This is my chair.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "This is _____ room.",
+      "options": [
+        "great",
+        "team",
+        "new",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "The missing word is \"my\" — full sentence: \"This is my room.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "This are an old building.",
+      "options": [
+        "This are an old building.",
+        "This is an old building."
+      ],
+      "answer": "This is an old building.",
+      "explanation": "Correct sentence: \"This is an old building.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "यह एक अच्छा होटल है।",
+      "options": [
+        {
+          "english": "This is a new plan.",
+          "hindi": "यह एक नई योजना है।"
+        },
+        {
+          "english": "This is a beautiful place.",
+          "hindi": "यह एक सुंदर जगह है।"
+        },
+        {
+          "english": "This question is difficult.",
+          "hindi": "यह सवाल कठिन है।"
+        },
+        "This is a good hotel."
+      ],
+      "answer": "This is a good hotel.",
+      "explanation": "Correct translation: \"यह एक अच्छा होटल है।\" = \"This is a good hotel.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "This is _____ report.",
+      "options": [
+        "responsibility",
+        "mobile",
+        "on",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "The missing word is \"my\" — full sentence: \"This is my report.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "This are an important document.",
+      "options": [
+        "This are an important document.",
+        "This is an important document."
+      ],
+      "answer": "This is an important document.",
+      "explanation": "Correct sentence: \"This is an important document.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "यह मेरी चाबी है।",
+      "options": [
+        {
+          "english": "This is my laptop.",
+          "hindi": "यह मेरा लैपटॉप है।"
+        },
+        {
+          "english": "This is my file.",
+          "hindi": "यह मेरी फाइल है।"
+        },
+        {
+          "english": "That is a big house.",
+          "hindi": "वह एक बड़ा घर है।"
+        },
+        "This is my key."
+      ],
+      "answer": "This is my key.",
+      "explanation": "Correct translation: \"यह मेरी चाबी है।\" = \"This is my key.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "This is _____ big problem.",
+      "options": [
+        "good",
+        "school",
+        "new",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "The missing word is \"a\" — full sentence: \"This is a big problem.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "This are a great opportunity.",
+      "options": [
+        "This are a great opportunity.",
+        "This is a great opportunity."
+      ],
+      "answer": "This is a great opportunity.",
+      "explanation": "Correct sentence: \"This is a great opportunity.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह मेरी नौकरी है।",
+      "options": [
+        {
+          "english": "This is my passport.",
+          "hindi": "यह मेरा पासपोर्ट है।"
+        },
+        {
+          "english": "This man is my friend.",
+          "hindi": "यह आदमी मेरा दोस्त है।"
+        },
+        {
+          "english": "That is a good restaurant.",
+          "hindi": "वह एक अच्छा रेस्टोरेंट है।"
+        },
+        "This is my job."
+      ],
+      "answer": "This is my job.",
+      "explanation": "Correct translation: \"यह मेरी नौकरी है।\" = \"This is my job.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "This is _____ new plan.",
+      "options": [
+        "beautiful",
+        "difficult",
+        "neighbor",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "The missing word is \"a\" — full sentence: \"This is a new plan.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "This are my responsibility.",
+      "options": [
+        "This are my responsibility.",
+        "This is my responsibility."
+      ],
+      "answer": "This is my responsibility.",
+      "explanation": "Correct sentence: \"This is my responsibility.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "यह एक कठिन काम है।",
+      "options": [
+        {
+          "english": "This is an expensive watch.",
+          "hindi": "यह एक महंगी घड़ी है।"
+        },
+        {
+          "english": "That is his car.",
+          "hindi": "वह उसकी कार है।"
+        },
+        {
+          "english": "That is a beautiful park.",
+          "hindi": "वह एक खूबसूरत पार्क है।"
+        },
+        "This is a difficult task."
+      ],
+      "answer": "This is a difficult task.",
+      "explanation": "Correct translation: \"यह एक कठिन काम है।\" = \"This is a difficult task.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "This is _____ laptop.",
+      "options": [
+        "file",
+        "big",
+        "boss",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "The missing word is \"my\" — full sentence: \"This is my laptop.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "This are a good idea.",
+      "options": [
+        "This are a good idea.",
+        "This is a good idea."
+      ],
+      "answer": "This is a good idea.",
+      "explanation": "Correct sentence: \"This is a good idea.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "यह मेरी टीम है।",
+      "options": [
+        {
+          "english": "This car is new.",
+          "hindi": "यह कार नई है।"
+        },
+        {
+          "english": "That is an old temple.",
+          "hindi": "वह एक पुराना मंदिर है।"
+        },
+        {
+          "english": "That is his office.",
+          "hindi": "वह उसका ऑफिस है।"
+        },
+        "This is my team."
+      ],
+      "answer": "This is my team.",
+      "explanation": "Correct translation: \"यह मेरी टीम है।\" = \"This is my team.\""
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "sentence": "This is _____ passport.",
+      "options": [
+        "good",
+        "old",
+        "responsibility",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "The missing word is \"my\" — full sentence: \"This is my passport.\""
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "This are a beautiful place.",
+      "options": [
+        "This are a beautiful place.",
+        "This is a beautiful place."
+      ],
+      "answer": "This is a beautiful place.",
+      "explanation": "Correct sentence: \"This is a beautiful place.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 28,
+      "type": "translate",
+      "hindi": "यह मेरा मोबाइल नंबर है।",
+      "options": [
+        {
+          "english": "This project is on time.",
+          "hindi": "यह प्रोजेक्ट समय पर है।"
+        },
+        {
+          "english": "That is a tall building.",
+          "hindi": "वह एक ऊंची इमारत है।"
+        },
+        {
+          "english": "That was a wrong decision.",
+          "hindi": "वह एक गलत निर्णय था।"
+        },
+        "This is my mobile number."
+      ],
+      "answer": "This is my mobile number.",
+      "explanation": "Correct translation: \"यह मेरा मोबाइल नंबर है।\" = \"This is my mobile number.\""
+    },
+    {
+      "id": 29,
+      "type": "fill",
+      "sentence": "This is _____ expensive watch.",
+      "options": [
+        "car",
+        "beautiful",
+        "dream",
+        "an"
+      ],
+      "answer": "an",
+      "explanation": "The missing word is \"an\" — full sentence: \"This is an expensive watch.\""
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "This are my file.",
+      "options": [
+        "This are my file.",
+        "This is my file."
+      ],
+      "answer": "This is my file.",
+      "explanation": "Correct sentence: \"This is my file.\". The version shown had a grammar mistake."
+    }
+  ]
+}

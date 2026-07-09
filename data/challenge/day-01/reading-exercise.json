@@ -1,0 +1,107 @@
+{
+  "day": 1,
+  "topic": "Basics of English",
+  "passage": {
+    "title": "A Day with Basics of English",
+    "text": "I eat rice. She drinks water. He reads books. We play cricket. They watch movies. You write letters. The dog eats food. My mother cooks food. Ravi drives a car. The teacher teaches English.",
+    "hindiTranslation": "मैं चावल खाता हूँ। वह पानी पीती है। वह किताबें पढ़ता है। हम क्रिकेट खेलते हैं। वे फिल्में देखते हैं। तुम पत्र लिखते हो। कुत्ता खाना खाता है। मेरी माँ खाना बनाती है। रवि कार चलाता है। अध्यापक अंग्रेजी पढ़ाते हैं।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I eat rice....\"?",
+      "options": [
+        "My mother cooks food.",
+        "We speak Hindi.",
+        "She teaches mathematics.",
+        "I eat rice."
+      ],
+      "answer": "I eat rice.",
+      "explanation": "This is directly stated in the passage: \"I eat rice.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"She drinks water....\"?",
+      "options": [
+        "Ravi drives a car.",
+        "The students study hard.",
+        "I like mangoes.",
+        "She drinks water."
+      ],
+      "answer": "She drinks water.",
+      "explanation": "This is directly stated in the passage: \"She drinks water.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He reads books....\"?",
+      "options": [
+        "The teacher teaches English.",
+        "She loves her job.",
+        "He wears glasses.",
+        "He reads books."
+      ],
+      "answer": "He reads books.",
+      "explanation": "This is directly stated in the passage: \"He reads books.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"We play cricket....\"?",
+      "options": [
+        "She buys vegetables.",
+        "I need your help.",
+        "We clean our house.",
+        "We play cricket."
+      ],
+      "answer": "We play cricket.",
+      "explanation": "This is directly stated in the passage: \"We play cricket.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"They watch movies....\"?",
+      "options": [
+        "I watch TV every night.",
+        "He knows the answer.",
+        "She sings songs.",
+        "They watch movies."
+      ],
+      "answer": "They watch movies.",
+      "explanation": "This is directly stated in the passage: \"They watch movies.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"You write letters....\"?",
+      "options": [
+        "He plays guitar.",
+        "They use computers.",
+        "They sell fruits.",
+        "You write letters."
+      ],
+      "answer": "You write letters.",
+      "explanation": "This is directly stated in the passage: \"You write letters.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"The dog eats food....\"?",
+      "options": [
+        "They drink tea.",
+        "My father runs a business.",
+        "I take the bus.",
+        "The dog eats food."
+      ],
+      "answer": "The dog eats food.",
+      "explanation": "This is directly stated in the passage: \"The dog eats food.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"My mother cooks food....\"?",
+      "options": [
+        "We speak Hindi.",
+        "She teaches mathematics.",
+        "He fixes computers.",
+        "My mother cooks food."
+      ],
+      "answer": "My mother cooks food.",
+      "explanation": "This is directly stated in the passage: \"My mother cooks food.\""
+    }
+  ]
+}

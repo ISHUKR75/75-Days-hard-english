@@ -1,0 +1,46 @@
+{
+  "day": 10,
+  "topic": "Revision of Days 1-9",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Revision of Days 1-9.",
+      "hindiPrompt": "Revision of Days 1-9 का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I eat rice. Does she speak English? My name is Rohan, and I am from Delhi. I have been working here for two years. Close the door.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) about your day using Revision of Days 1-9.",
+      "hindiPrompt": "अपने दिन के बारे में Revision of Days 1-9 का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Don't be late. Let's go to the market. I am happy. They were tired yesterday. This is my book.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate the following into English: \"वे मेरे दोस्त हैं।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Those are my friends.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I has been working here for two years.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I have been working here for two years.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue between two people using Revision of Days 1-9.",
+      "hindiPrompt": "Revision of Days 1-9 का उपयोग करते हुए दो व्यक्तियों के बीच 4 पंक्तियों का संवाद लिखिए।",
+      "sampleAnswer": "She has finished her work. I had a car. He had already left when I arrived. By tomorrow, I will have finished the report.",
+      "wordLimit": 60
+    }
+  ]
+}

@@ -1,0 +1,467 @@
+{
+  "day": 1,
+  "topic": "Basics of English",
+  "totalQuestions": 30,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं चावल खाता हूँ।",
+      "options": [
+        {
+          "english": "My mother cooks food.",
+          "hindi": "मेरी माँ खाना बनाती है।"
+        },
+        {
+          "english": "We speak Hindi.",
+          "hindi": "हम हिंदी बोलते हैं।"
+        },
+        {
+          "english": "She teaches mathematics.",
+          "hindi": "वह गणित पढ़ाती है।"
+        },
+        "I eat rice."
+      ],
+      "answer": "I eat rice.",
+      "explanation": "Correct translation: \"मैं चावल खाता हूँ।\" = \"I eat rice.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "She _____ water.",
+      "options": [
+        "car",
+        "hard",
+        "mangoes",
+        "drinks"
+      ],
+      "answer": "drinks",
+      "explanation": "The missing word is \"drinks\" — full sentence: \"She drinks water.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He reads books yesterday.",
+      "options": [
+        "He reads books yesterday.",
+        "He reads books."
+      ],
+      "answer": "He reads books.",
+      "explanation": "Correct sentence: \"He reads books.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "हम क्रिकेट खेलते हैं।",
+      "options": [
+        {
+          "english": "She buys vegetables.",
+          "hindi": "वह सब्जियाँ खरीदती है।"
+        },
+        {
+          "english": "I need your help.",
+          "hindi": "मुझे तुम्हारी मदद चाहिए।"
+        },
+        {
+          "english": "We clean our house.",
+          "hindi": "हम अपना घर साफ करते हैं।"
+        },
+        "We play cricket."
+      ],
+      "answer": "We play cricket.",
+      "explanation": "Correct translation: \"हम क्रिकेट खेलते हैं।\" = \"We play cricket.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "They _____ movies.",
+      "options": [
+        "every",
+        "answer",
+        "songs",
+        "watch"
+      ],
+      "answer": "watch",
+      "explanation": "The missing word is \"watch\" — full sentence: \"They watch movies.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "You write letters yesterday.",
+      "options": [
+        "You write letters yesterday.",
+        "You write letters."
+      ],
+      "answer": "You write letters.",
+      "explanation": "Correct sentence: \"You write letters.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "कुत्ता खाना खाता है।",
+      "options": [
+        {
+          "english": "They drink tea.",
+          "hindi": "वे चाय पीते हैं।"
+        },
+        {
+          "english": "My father runs a business.",
+          "hindi": "मेरे पिता एक व्यवसाय चलाते हैं।"
+        },
+        {
+          "english": "I take the bus.",
+          "hindi": "मैं बस लेता हूँ।"
+        },
+        "The dog eats food."
+      ],
+      "answer": "The dog eats food.",
+      "explanation": "Correct translation: \"कुत्ता खाना खाता है।\" = \"The dog eats food.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "My mother _____ food.",
+      "options": [
+        "Hindi",
+        "mathematics",
+        "computers",
+        "cooks"
+      ],
+      "answer": "cooks",
+      "explanation": "The missing word is \"cooks\" — full sentence: \"My mother cooks food.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Ravi drives a car yesterday.",
+      "options": [
+        "Ravi drives a car yesterday.",
+        "Ravi drives a car."
+      ],
+      "answer": "Ravi drives a car.",
+      "explanation": "Correct sentence: \"Ravi drives a car.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "अध्यापक अंग्रेजी पढ़ाते हैं।",
+      "options": [
+        {
+          "english": "She loves her job.",
+          "hindi": "वह अपनी नौकरी से प्यार करती है।"
+        },
+        {
+          "english": "He wears glasses.",
+          "hindi": "वह चश्मा पहनता है।"
+        },
+        {
+          "english": "I go to school every day.",
+          "hindi": "मैं हर दिन स्कूल जाता हूँ।"
+        },
+        "The teacher teaches English."
+      ],
+      "answer": "The teacher teaches English.",
+      "explanation": "Correct translation: \"अध्यापक अंग्रेजी पढ़ाते हैं।\" = \"The teacher teaches English.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "She _____ vegetables.",
+      "options": [
+        "help",
+        "house",
+        "a",
+        "buys"
+      ],
+      "answer": "buys",
+      "explanation": "The missing word is \"buys\" — full sentence: \"She buys vegetables.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I watch TV every night yesterday.",
+      "options": [
+        "I watch TV every night yesterday.",
+        "I watch TV every night."
+      ],
+      "answer": "I watch TV every night.",
+      "explanation": "Correct sentence: \"I watch TV every night.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वह गिटार बजाता है।",
+      "options": [
+        {
+          "english": "They use computers.",
+          "hindi": "वे कंप्यूटर का उपयोग करते हैं।"
+        },
+        {
+          "english": "They sell fruits.",
+          "hindi": "वे फल बेचते हैं।"
+        },
+        {
+          "english": "They live in Delhi.",
+          "hindi": "वे दिल्ली में रहते हैं।"
+        },
+        "He plays guitar."
+      ],
+      "answer": "He plays guitar.",
+      "explanation": "Correct translation: \"वह गिटार बजाता है।\" = \"He plays guitar.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "They _____ tea.",
+      "options": [
+        "a",
+        "bus",
+        "the",
+        "drink"
+      ],
+      "answer": "drink",
+      "explanation": "The missing word is \"drink\" — full sentence: \"They drink tea.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "We speak Hindi yesterday.",
+      "options": [
+        "We speak Hindi yesterday.",
+        "We speak Hindi."
+      ],
+      "answer": "We speak Hindi.",
+      "explanation": "Correct sentence: \"We speak Hindi.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "छात्र मेहनत से पढ़ते हैं।",
+      "options": [
+        {
+          "english": "I like mangoes.",
+          "hindi": "मुझे आम पसंद हैं।"
+        },
+        {
+          "english": "The company hires engineers.",
+          "hindi": "कंपनी इंजीनियरों को नौकरी देती है।"
+        },
+        {
+          "english": "The sun rises in the east.",
+          "hindi": "सूरज पूर्व में उगता है।"
+        },
+        "The students study hard."
+      ],
+      "answer": "The students study hard.",
+      "explanation": "Correct translation: \"छात्र मेहनत से पढ़ते हैं।\" = \"The students study hard.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "She loves _____ job.",
+      "options": [
+        "glasses",
+        "school",
+        "every",
+        "her"
+      ],
+      "answer": "her",
+      "explanation": "The missing word is \"her\" — full sentence: \"She loves her job.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I need your help yesterday.",
+      "options": [
+        "I need your help yesterday.",
+        "I need your help."
+      ],
+      "answer": "I need your help.",
+      "explanation": "Correct sentence: \"I need your help.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उसे जवाब पता है।",
+      "options": [
+        {
+          "english": "She sings songs.",
+          "hindi": "वह गाने गाती है।"
+        },
+        {
+          "english": "He studies engineering.",
+          "hindi": "वह इंजीनियरिंग पढ़ता है।"
+        },
+        {
+          "english": "I take medicine twice a day.",
+          "hindi": "मैं दिन में दो बार दवा लेता हूँ।"
+        },
+        "He knows the answer."
+      ],
+      "answer": "He knows the answer.",
+      "explanation": "Correct translation: \"उसे जवाब पता है।\" = \"He knows the answer.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "They _____ computers.",
+      "options": [
+        "fruits",
+        "Delhi",
+        "at",
+        "use"
+      ],
+      "answer": "use",
+      "explanation": "The missing word is \"use\" — full sentence: \"They use computers.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "My father runs a business yesterday.",
+      "options": [
+        "My father runs a business yesterday.",
+        "My father runs a business."
+      ],
+      "answer": "My father runs a business.",
+      "explanation": "Correct sentence: \"My father runs a business.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "वह गणित पढ़ाती है।",
+      "options": [
+        {
+          "english": "He fixes computers.",
+          "hindi": "वह कंप्यूटर ठीक करता है।"
+        },
+        {
+          "english": "My sister teaches in a school.",
+          "hindi": "मेरी बहन एक स्कूल में पढ़ाती है।"
+        },
+        {
+          "english": "She cooks dinner for her family.",
+          "hindi": "वह अपने परिवार के लिए रात का खाना बनाती है।"
+        },
+        "She teaches mathematics."
+      ],
+      "answer": "She teaches mathematics.",
+      "explanation": "Correct translation: \"वह गणित पढ़ाती है।\" = \"She teaches mathematics.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "I _____ mangoes.",
+      "options": [
+        "engineers",
+        "in",
+        "my",
+        "like"
+      ],
+      "answer": "like",
+      "explanation": "The missing word is \"like\" — full sentence: \"I like mangoes.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "He wears glasses yesterday.",
+      "options": [
+        "He wears glasses yesterday.",
+        "He wears glasses."
+      ],
+      "answer": "He wears glasses.",
+      "explanation": "Correct sentence: \"He wears glasses.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "हम अपना घर साफ करते हैं।",
+      "options": [
+        {
+          "english": "She works in a hospital.",
+          "hindi": "वह एक अस्पताल में काम करती है।"
+        },
+        {
+          "english": "He carries his bag to office.",
+          "hindi": "वह अपना बैग ऑफिस ले जाता है।"
+        },
+        {
+          "english": "Water boils at 100 degrees Celsius.",
+          "hindi": "पानी 100 डिग्री सेल्सियस पर उबलता है।"
+        },
+        "We clean our house."
+      ],
+      "answer": "We clean our house.",
+      "explanation": "Correct translation: \"हम अपना घर साफ करते हैं।\" = \"We clean our house.\""
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "sentence": "She _____ songs.",
+      "options": [
+        "engineering",
+        "twice",
+        "on",
+        "sings"
+      ],
+      "answer": "sings",
+      "explanation": "The missing word is \"sings\" — full sentence: \"She sings songs.\""
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "They sell fruits yesterday.",
+      "options": [
+        "They sell fruits yesterday.",
+        "They sell fruits."
+      ],
+      "answer": "They sell fruits.",
+      "explanation": "Correct sentence: \"They sell fruits.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 28,
+      "type": "translate",
+      "hindi": "मैं बस लेता हूँ।",
+      "options": [
+        {
+          "english": "We go to the gym every morning.",
+          "hindi": "हम हर सुबह जिम जाते हैं।"
+        },
+        {
+          "english": "My boss holds a meeting every Friday.",
+          "hindi": "मेरे बॉस हर शुक्रवार को मीटिंग करते हैं।"
+        },
+        {
+          "english": "I speak three languages.",
+          "hindi": "मैं तीन भाषाएँ बोलता हूँ।"
+        },
+        "I take the bus."
+      ],
+      "answer": "I take the bus.",
+      "explanation": "Correct translation: \"मैं बस लेता हूँ।\" = \"I take the bus.\""
+    },
+    {
+      "id": 29,
+      "type": "fill",
+      "sentence": "He _____ computers.",
+      "options": [
+        "in",
+        "for",
+        "the",
+        "fixes"
+      ],
+      "answer": "fixes",
+      "explanation": "The missing word is \"fixes\" — full sentence: \"He fixes computers.\""
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "The company hires engineers yesterday.",
+      "options": [
+        "The company hires engineers yesterday.",
+        "The company hires engineers."
+      ],
+      "answer": "The company hires engineers.",
+      "explanation": "Correct sentence: \"The company hires engineers.\". The version shown had a grammar mistake."
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 1,
+  "topic": "Basics of English",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "She buys vegetables.",
+      "hindiScript": "वह सब्जियाँ खरीदती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My mother cooks food.",
+        "We speak Hindi.",
+        "She teaches mathematics.",
+        "She buys vegetables."
+      ],
+      "answer": "She buys vegetables."
+    },
+    {
+      "id": 2,
+      "audioScript": "I watch TV every night.",
+      "hindiScript": "मैं हर रात TV देखता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Ravi drives a car.",
+        "The students study hard.",
+        "I like mangoes.",
+        "I watch TV every night."
+      ],
+      "answer": "I watch TV every night."
+    },
+    {
+      "id": 3,
+      "audioScript": "He plays guitar.",
+      "hindiScript": "वह गिटार बजाता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The teacher teaches English.",
+        "She loves her job.",
+        "He wears glasses.",
+        "He plays guitar."
+      ],
+      "answer": "He plays guitar."
+    },
+    {
+      "id": 4,
+      "audioScript": "They drink tea.",
+      "hindiScript": "वे चाय पीते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She buys vegetables.",
+        "I need your help.",
+        "We clean our house.",
+        "They drink tea."
+      ],
+      "answer": "They drink tea."
+    },
+    {
+      "id": 5,
+      "audioScript": "We speak Hindi.",
+      "hindiScript": "हम हिंदी बोलते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I watch TV every night.",
+        "He knows the answer.",
+        "She sings songs.",
+        "We speak Hindi."
+      ],
+      "answer": "We speak Hindi."
+    },
+    {
+      "id": 6,
+      "audioScript": "The students study hard.",
+      "hindiScript": "छात्र मेहनत से पढ़ते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He plays guitar.",
+        "They use computers.",
+        "They sell fruits.",
+        "The students study hard."
+      ],
+      "answer": "The students study hard."
+    },
+    {
+      "id": 7,
+      "audioScript": "She loves her job.",
+      "hindiScript": "वह अपनी नौकरी से प्यार करती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They drink tea.",
+        "My father runs a business.",
+        "I take the bus.",
+        "She loves her job."
+      ],
+      "answer": "She loves her job."
+    },
+    {
+      "id": 8,
+      "audioScript": "I need your help.",
+      "hindiScript": "मुझे तुम्हारी मदद चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We speak Hindi.",
+        "She teaches mathematics.",
+        "He fixes computers.",
+        "I need your help."
+      ],
+      "answer": "I need your help."
+    }
+  ],
+  "dictationPassage": {
+    "text": "She buys vegetables. I watch TV every night. He plays guitar. They drink tea. We speak Hindi.",
+    "hindiTranslation": "वह सब्जियाँ खरीदती है। मैं हर रात TV देखता हूँ। वह गिटार बजाता है। वे चाय पीते हैं। हम हिंदी बोलते हैं।"
+  }
+}

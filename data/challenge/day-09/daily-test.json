@@ -1,146 +1,467 @@
 {
   "day": 9,
-  "title": "Daily Test — Use of There",
-  "totalQuestions": 100,
-  "timeLimit": 60,
-  "passingScore": 70,
-  "sections": [
+  "topic": "Use of There",
+  "totalQuestions": 30,
+  "questions": [
     {
-      "id": "mcq",
-      "title": "Grammar Rules MCQ",
-      "type": "mcq",
-      "questions": [
-        { "id": 1, "question": "Which is correct?", "options": ["There is many students.", "There are many students.", "There have many students.", "There be many students."], "answer": "There are many students.", "explanation": "Many students = plural, so use 'are'" },
-        { "id": 2, "question": "Complete: ___ a meeting tomorrow.", "options": ["There is", "There are", "There will be", "There was"], "answer": "There will be", "explanation": "Tomorrow = future, so use 'will be'" },
-        { "id": 3, "question": "Which is WRONG?", "options": ["There is a book.", "There are books.", "There is books.", "There was a problem."], "answer": "There is books.", "explanation": "Books = plural, must use 'are' not 'is'" },
-        { "id": 4, "question": "___ no water in the tank.", "options": ["There is", "There are", "There were", "There will"], "answer": "There is", "explanation": "Water = uncountable, use 'is'" },
-        { "id": 5, "question": "Past plural form:", "options": ["There is", "There are", "There was", "There were"], "answer": "There were", "explanation": "Past + plural = There were" },
-        { "id": 6, "question": "Question form of 'There is a pen.':", "options": ["Is there a pen?", "Are there a pen?", "Does there a pen?", "Has there a pen?"], "answer": "Is there a pen?", "explanation": "Singular present question: Is there?" },
-        { "id": 7, "question": "Present Perfect singular:", "options": ["There is been", "There has been", "There have been", "There was been"], "answer": "There has been", "explanation": "Present Perfect singular = There has been" },
-        { "id": 8, "question": "Negative of 'There are students.':", "options": ["There isn't students.", "There aren't students.", "There not are students.", "There don't have students."], "answer": "There aren't students.", "explanation": "Plural negative = There aren't" },
-        { "id": 9, "question": "___ a lot of traffic on Monday mornings.", "options": ["There are", "There is", "There were", "There will"], "answer": "There is", "explanation": "Traffic = uncountable, use 'is'" },
-        { "id": 10, "question": "Which uses 'There were' correctly?", "options": ["There were a dog.", "There were five cats.", "There were much noise.", "There were a problem."], "answer": "There were five cats.", "explanation": "Five cats = plural past = There were" },
-        { "id": 11, "question": "Future negative:", "options": ["There isn't be", "There won't be", "There weren't be", "There hasn't be"], "answer": "There won't be", "explanation": "Future negative = There won't be (will not be)" },
-        { "id": 12, "question": "___ many changes in the system recently.", "options": ["There is", "There was", "There have been", "There will be"], "answer": "There have been", "explanation": "Recently + plural = There have been" },
-        { "id": 13, "question": "Question for past plural:", "options": ["Is there?", "Are there?", "Was there?", "Were there?"], "answer": "Were there?", "explanation": "Past plural question = Were there?" },
-        { "id": 14, "question": "___ any milk in the fridge? — No, ___ isn't.", "options": ["Is there / there", "Are there / there", "Was there / there", "Were there / there"], "answer": "Is there / there", "explanation": "Milk = uncountable singular = Is there / there isn't" },
-        { "id": 15, "question": "Which is the CORRECT Present Perfect plural?", "options": ["There has been many problems.", "There have been many problems.", "There were been many problems.", "There are been many problems."], "answer": "There have been many problems.", "explanation": "Present Perfect plural = There have been" },
-        { "id": 16, "question": "Choose the correct sentence:", "options": ["There is five people.", "There are five person.", "There are five people.", "There have five people."], "answer": "There are five people.", "explanation": "Five people = plural present = There are" },
-        { "id": 17, "question": "'कल एक accident था।' in English:", "options": ["There is an accident yesterday.", "There was an accident yesterday.", "There were an accident yesterday.", "There had an accident yesterday."], "answer": "There was an accident yesterday.", "explanation": "Yesterday = past, singular = There was" },
-        { "id": 18, "question": "Complete: ___ be a new mall here soon.", "options": ["There is", "There are", "There will", "There was"], "answer": "There will", "explanation": "Future = There will be (be is separate here)" },
-        { "id": 19, "question": "Which is CORRECT?", "options": ["There have been a mistake.", "There has been a mistake.", "There was been a mistake.", "There is been a mistake."], "answer": "There has been a mistake.", "explanation": "A mistake = singular perfect = There has been" },
-        { "id": 20, "question": "'क्या यहाँ कोई doctor है?' in English:", "options": ["Are there any doctor here?", "Is there a doctor here?", "Does there a doctor here?", "Have there a doctor here?"], "answer": "Is there a doctor here?", "explanation": "Singular present question = Is there?" }
-      ]
+      "id": 1,
+      "type": "translate",
+      "hindi": "मेज पर एक किताब है।",
+      "options": [
+        {
+          "english": "There is a lot of work today.",
+          "hindi": "आज बहुत काम है।"
+        },
+        {
+          "english": "There is a new teacher today.",
+          "hindi": "आज एक नए शिक्षक हैं।"
+        },
+        {
+          "english": "There are five rooms in this house.",
+          "hindi": "इस घर में पाँच कमरे हैं।"
+        },
+        "There is a book on the table."
+      ],
+      "answer": "There is a book on the table.",
+      "explanation": "Correct translation: \"मेज पर एक किताब है।\" = \"There is a book on the table.\""
     },
     {
-      "id": "fill-blank",
-      "title": "Fill in the Blank",
-      "type": "fill-blank",
-      "questions": [
-        { "id": 21, "question": "___ a fan in the room.", "answer": "There is", "hint": "Singular present" },
-        { "id": 22, "question": "___ many students in the class.", "answer": "There are", "hint": "Plural present" },
-        { "id": 23, "question": "___ a problem yesterday.", "answer": "There was", "hint": "Singular past" },
-        { "id": 24, "question": "___ many people at the party.", "answer": "There were", "hint": "Plural past" },
-        { "id": 25, "question": "___ a meeting tomorrow.", "answer": "There will be", "hint": "Future" },
-        { "id": 26, "question": "___ a mistake in this report.", "answer": "There has been", "hint": "Present perfect singular" },
-        { "id": 27, "question": "___ many changes recently.", "answer": "There have been", "hint": "Present perfect plural" },
-        { "id": 28, "question": "___ any milk in the fridge. (negative)", "answer": "There isn't", "hint": "Singular present negative" },
-        { "id": 29, "question": "___ any chairs in the room. (negative)", "answer": "There aren't", "hint": "Plural present negative" },
-        { "id": 30, "question": "___ any classes tomorrow. (negative future)", "answer": "There won't be", "hint": "Future negative" },
-        { "id": 31, "question": "___ a pen on the table? (question)", "answer": "Is there", "hint": "Singular present question" },
-        { "id": 32, "question": "___ any seats available? (question)", "answer": "Are there", "hint": "Plural present question" },
-        { "id": 33, "question": "___ a problem in the meeting? (past question)", "answer": "Was there", "hint": "Singular past question" },
-        { "id": 34, "question": "___ many people there? (past plural question)", "answer": "Were there", "hint": "Plural past question" },
-        { "id": 35, "question": "___ a test next week? (future question)", "answer": "Will there be", "hint": "Future question" },
-        { "id": 36, "question": "___ some water in the glass.", "answer": "There is", "hint": "Uncountable = is" },
-        { "id": 37, "question": "___ five rooms in this house.", "answer": "There are", "hint": "Five rooms = plural" },
-        { "id": 38, "question": "___ a big tree here before.", "answer": "There was", "hint": "Before = past" },
-        { "id": 39, "question": "___ no electricity in that village.", "answer": "There was", "hint": "Past statement" },
-        { "id": 40, "question": "___ be better opportunities in the future.", "answer": "There will", "hint": "Future tense" }
-      ]
+      "id": 2,
+      "type": "fill",
+      "sentence": "There is a _____ in my room.",
+      "options": [
+        "dog",
+        "in",
+        "files",
+        "fan"
+      ],
+      "answer": "fan",
+      "explanation": "The missing word is \"fan\" — full sentence: \"There is a fan in my room.\""
     },
     {
-      "id": "error-detection",
-      "title": "Error Detection",
-      "type": "error-detection",
-      "instructions": "Find the error in each sentence and write the correct form.",
-      "questions": [
-        { "id": 41, "sentence": "There is many students in the class.", "error": "is", "correct": "There are many students in the class.", "explanation": "Many students = plural = are" },
-        { "id": 42, "sentence": "There are a book on the table.", "error": "are", "correct": "There is a book on the table.", "explanation": "A book = singular = is" },
-        { "id": 43, "sentence": "There will is a meeting tomorrow.", "error": "will is", "correct": "There will be a meeting tomorrow.", "explanation": "After 'will', use base form 'be'" },
-        { "id": 44, "sentence": "Is there any students here?", "error": "Is there any students", "correct": "Are there any students here?", "explanation": "Students = plural = Are there" },
-        { "id": 45, "sentence": "There have been a mistake.", "error": "have been", "correct": "There has been a mistake.", "explanation": "A mistake = singular = has been" },
-        { "id": 46, "sentence": "There were a problem yesterday.", "error": "were", "correct": "There was a problem yesterday.", "explanation": "A problem = singular = was" },
-        { "id": 47, "sentence": "There is many traffic on this road.", "error": "is many", "correct": "There is a lot of traffic on this road.", "explanation": "Traffic is uncountable — use 'a lot of' not 'many'" },
-        { "id": 48, "sentence": "There don't have any seats.", "error": "don't have", "correct": "There aren't any seats.", "explanation": "Use aren't, not don't have, with existential there" },
-        { "id": 49, "sentence": "There is been a lot of problems.", "error": "is been", "correct": "There have been a lot of problems.", "explanation": "Plural perfect = There have been" },
-        { "id": 50, "sentence": "There be a new mall here.", "error": "be", "correct": "There will be a new mall here.", "explanation": "Don't drop 'will' — use 'will be'" },
-        { "id": 51, "sentence": "There are much work today.", "error": "are much", "correct": "There is a lot of work today.", "explanation": "Work = uncountable = is + a lot of" },
-        { "id": 52, "sentence": "Were there a doctor available?", "error": "Were there a doctor", "correct": "Was there a doctor available?", "explanation": "A doctor = singular past = Was there" },
-        { "id": 53, "sentence": "There have a restaurant here.", "error": "have", "correct": "There is a restaurant here.", "explanation": "Use 'There is' for existence, not 'There have'" },
-        { "id": 54, "sentence": "There is no any milk.", "error": "is no any", "correct": "There isn't any milk.", "explanation": "Use 'isn't any' OR 'is no', not both" },
-        { "id": 55, "sentence": "There will are many people.", "error": "will are", "correct": "There will be many people.", "explanation": "After 'will', always use 'be'" },
-        { "id": 56, "sentence": "Has there been many complaints?", "error": "Has there been many", "correct": "Have there been many complaints?", "explanation": "Many complaints = plural = Have there been" },
-        { "id": 57, "sentence": "There is two ATMs here.", "error": "is two", "correct": "There are two ATMs here.", "explanation": "Two ATMs = plural = are" },
-        { "id": 58, "sentence": "There was many people yesterday.", "error": "was many people", "correct": "There were many people yesterday.", "explanation": "Many people = plural past = were" },
-        { "id": 59, "sentence": "There aren't no chairs.", "error": "aren't no (double negative)", "correct": "There aren't any chairs.", "explanation": "Don't use double negatives. Use 'aren't any' or 'are no'" },
-        { "id": 60, "sentence": "Is there any problems with the system?", "error": "Is there any problems", "correct": "Are there any problems with the system?", "explanation": "Problems = plural = Are there" }
-      ]
+      "id": 3,
+      "type": "error",
+      "sentence": "There are a problem in the system.",
+      "options": [
+        "There are a problem in the system.",
+        "There is a problem in the system."
+      ],
+      "answer": "There is a problem in the system.",
+      "explanation": "Correct sentence: \"There is a problem in the system.\". The version shown had a grammar mistake."
     },
     {
-      "id": "translation",
-      "title": "Translation — Hindi to English",
-      "type": "translation",
-      "questions": [
-        { "id": 61, "hindi": "टेबल पर एक कप चाय है।", "english": "There is a cup of tea on the table.", "alternatives": ["There's a cup of tea on the table."], "hint": "There is + singular" },
-        { "id": 62, "hindi": "कक्षा में बहुत छात्र हैं।", "english": "There are many students in the class.", "alternatives": [], "hint": "There are + many + plural" },
-        { "id": 63, "hindi": "कल एक बड़ी sale थी।", "english": "There was a big sale yesterday.", "alternatives": [], "hint": "There was + singular + past" },
-        { "id": 64, "hindi": "पार्टी में 50 लोग थे।", "english": "There were 50 people at the party.", "alternatives": [], "hint": "There were + number + plural + past" },
-        { "id": 65, "hindi": "अगले हफ्ते एक exam होगा।", "english": "There will be an exam next week.", "alternatives": [], "hint": "There will be + singular + future" },
-        { "id": 66, "hindi": "क्या यहाँ कोई doctor है?", "english": "Is there a doctor here?", "alternatives": [], "hint": "Is there + singular + ?" },
-        { "id": 67, "hindi": "क्या वहाँ कोई chairs थीं?", "english": "Were there any chairs there?", "alternatives": [], "hint": "Were there + any + plural + past + ?" },
-        { "id": 68, "hindi": "फ्रिज में दूध नहीं है।", "english": "There is no milk in the fridge.", "alternatives": ["There isn't any milk in the fridge."], "hint": "There is no + uncountable negative" },
-        { "id": 69, "hindi": "हाल ही में बहुत बदलाव हुए हैं।", "english": "There have been many changes recently.", "alternatives": [], "hint": "There have been + many + plural + perfect" },
-        { "id": 70, "hindi": "उस office में बहुत काम था।", "english": "There was a lot of work in that office.", "alternatives": [], "hint": "There was + a lot of + uncountable + past" },
-        { "id": 71, "hindi": "क्या अगले महीने कोई बड़ी meeting होगी?", "english": "Will there be any big meeting next month?", "alternatives": [], "hint": "Will there be + any + singular + future + ?" },
-        { "id": 72, "hindi": "system में कोई error नहीं है।", "english": "There is no error in the system.", "alternatives": ["There isn't any error in the system."], "hint": "There is no + singular negative" },
-        { "id": 73, "hindi": "उस school में 2000 students थे।", "english": "There were 2000 students in that school.", "alternatives": [], "hint": "There were + number + plural + past" },
-        { "id": 74, "hindi": "एक accident हुआ है।", "english": "There has been an accident.", "alternatives": [], "hint": "There has been + an + singular + perfect" },
-        { "id": 75, "hindi": "project में कई opportunities हैं।", "english": "There are many opportunities in the project.", "alternatives": [], "hint": "There are + many + plural" },
-        { "id": 76, "hindi": "कल कोई classes नहीं होंगी।", "english": "There won't be any classes tomorrow.", "alternatives": ["There will not be any classes tomorrow."], "hint": "There won't be + any + future negative" },
-        { "id": 77, "hindi": "इस area में कोई metro नहीं थी।", "english": "There was no metro in this area.", "alternatives": ["There wasn't any metro in this area."], "hint": "There was no + singular + past negative" },
-        { "id": 78, "hindi": "इस week कई deadlines हैं।", "english": "There are many deadlines this week.", "alternatives": [], "hint": "There are + many + plural" },
-        { "id": 79, "hindi": "पिछले year company में बहुत growth थी।", "english": "There was a lot of growth in the company last year.", "alternatives": [], "hint": "There was + a lot of + uncountable + past" },
-        { "id": 80, "hindi": "इस city में कई international schools होंगे।", "english": "There will be many international schools in this city.", "alternatives": [], "hint": "There will be + many + plural + future" }
-      ]
+      "id": 4,
+      "type": "translate",
+      "hindi": "3 बजे एक मीटिंग है।",
+      "options": [
+        {
+          "english": "There is a new movie in the theatre.",
+          "hindi": "थिएटर में एक नई फिल्म है।"
+        },
+        {
+          "english": "There is an email for you.",
+          "hindi": "आपके लिए एक email है।"
+        },
+        {
+          "english": "There are two ATMs near this market.",
+          "hindi": "इस बाजार के पास दो ATM हैं।"
+        },
+        "There is a meeting at 3 pm."
+      ],
+      "answer": "There is a meeting at 3 pm.",
+      "explanation": "Correct translation: \"3 बजे एक मीटिंग है।\" = \"There is a meeting at 3 pm.\""
     },
     {
-      "id": "sentence-formation",
-      "title": "Sentence Formation",
-      "type": "sentence-formation",
-      "instructions": "Arrange the words to form a correct sentence.",
-      "questions": [
-        { "id": 81, "words": ["is", "There", "room.", "in", "a", "fan", "the"], "answer": "There is a fan in the room.", "hint": "There is + singular + place" },
-        { "id": 82, "words": ["are", "There", "class.", "in", "students", "the", "many"], "answer": "There are many students in the class.", "hint": "There are + many + plural + place" },
-        { "id": 83, "words": ["was", "There", "yesterday.", "problem", "a"], "answer": "There was a problem yesterday.", "hint": "There was + singular + time" },
-        { "id": 84, "words": ["were", "There", "party.", "people", "the", "many", "at"], "answer": "There were many people at the party.", "hint": "There were + many + plural + place" },
-        { "id": 85, "words": ["will", "There", "tomorrow.", "be", "meeting", "a"], "answer": "There will be a meeting tomorrow.", "hint": "There will be + singular + time" },
-        { "id": 86, "words": ["there", "any", "here?", "Is", "doctor", "a"], "answer": "Is there a doctor here?", "hint": "Is there + singular + place + ?" },
-        { "id": 87, "words": ["aren't", "There", "chairs.", "any"], "answer": "There aren't any chairs.", "hint": "There aren't + any + plural" },
-        { "id": 88, "words": ["been", "has", "There", "mistake.", "a"], "answer": "There has been a mistake.", "hint": "There has been + singular + perfect" },
-        { "id": 89, "words": ["have", "There", "recently.", "changes", "been", "many"], "answer": "There have been many changes recently.", "hint": "There have been + many + plural + time" },
-        { "id": 90, "words": ["be", "there", "any", "Will", "test?", "a"], "answer": "Will there be a test?", "hint": "Will there be + singular + ?" },
-        { "id": 91, "words": ["isn't", "There", "fridge.", "milk", "the", "in", "any"], "answer": "There isn't any milk in the fridge.", "hint": "There isn't + any + uncountable + place" },
-        { "id": 92, "words": ["were", "There", "meeting.", "the", "people", "five", "in"], "answer": "There were five people in the meeting.", "hint": "There were + number + plural + place" },
-        { "id": 93, "words": ["will", "There", "rain", "be", "tomorrow.", "heavy"], "answer": "There will be heavy rain tomorrow.", "hint": "There will be + adjective + uncountable + time" },
-        { "id": 94, "words": ["there", "Were", "party?", "the", "people", "many", "at"], "answer": "Were there many people at the party?", "hint": "Were there + many + plural + place + ?" },
-        { "id": 95, "words": ["been", "have", "There", "complaints.", "many"], "answer": "There have been many complaints.", "hint": "There have been + many + plural" },
-        { "id": 96, "words": ["office.", "is", "There", "canteen", "a", "the", "in"], "answer": "There is a canteen in the office.", "hint": "There is + singular + place" },
-        { "id": 97, "words": ["won't", "There", "classes", "tomorrow.", "be", "any"], "answer": "There won't be any classes tomorrow.", "hint": "There won't be + any + plural + time" },
-        { "id": 98, "words": ["been", "has", "progress.", "no", "There"], "answer": "There has been no progress.", "hint": "There has been + no + uncountable" },
-        { "id": 99, "words": ["any", "there", "Are", "available?", "seats"], "answer": "Are there any seats available?", "hint": "Are there + any + plural + ?" },
-        { "id": 100, "words": ["there", "any", "Was", "problem?", "a"], "answer": "Was there a problem?", "hint": "Was there + singular + past + ?" }
-      ]
+      "id": 5,
+      "type": "fill",
+      "sentence": "There is a new _____ in our class.",
+      "options": [
+        "report",
+        "park",
+        "apples",
+        "student"
+      ],
+      "answer": "student",
+      "explanation": "The missing word is \"student\" — full sentence: \"There is a new student in our class.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "There are a temple near my house.",
+      "options": [
+        "There are a temple near my house.",
+        "There is a temple near my house."
+      ],
+      "answer": "There is a temple near my house.",
+      "explanation": "Correct sentence: \"There is a temple near my house.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "गिलास में थोड़ा पानी है।",
+      "options": [
+        {
+          "english": "There is a hospital on MG Road.",
+          "hindi": "MG Road पर एक अस्पताल है।"
+        },
+        {
+          "english": "There are many students in the class.",
+          "hindi": "कक्षा में कई छात्र हैं।"
+        },
+        {
+          "english": "There are 30 students in our batch.",
+          "hindi": "हमारे batch में 30 छात्र हैं।"
+        },
+        "There is some water in the glass."
+      ],
+      "answer": "There is some water in the glass.",
+      "explanation": "Correct translation: \"गिलास में थोड़ा पानी है।\" = \"There is some water in the glass.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "There is a _____ of work today.",
+      "options": [
+        "new",
+        "rooms",
+        "options",
+        "lot"
+      ],
+      "answer": "lot",
+      "explanation": "The missing word is \"lot\" — full sentence: \"There is a lot of work today.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "There are a dog outside the door.",
+      "options": [
+        "There are a dog outside the door.",
+        "There is a dog outside the door."
+      ],
+      "answer": "There is a dog outside the door.",
+      "explanation": "Correct sentence: \"There is a dog outside the door.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "यहाँ के पास एक बस स्टॉप है।",
+      "options": [
+        {
+          "english": "There is a lot of traffic on this road.",
+          "hindi": "इस सड़क पर बहुत ट्रैफिक है।"
+        },
+        {
+          "english": "There are a lot of problems in this project.",
+          "hindi": "इस project में बहुत सारी समस्याएँ हैं।"
+        },
+        {
+          "english": "There are a few mistakes in this email.",
+          "hindi": "इस email में कुछ गलतियाँ हैं।"
+        },
+        "There is a bus stop near here."
+      ],
+      "answer": "There is a bus stop near here.",
+      "explanation": "Correct translation: \"यहाँ के पास एक बस स्टॉप है।\" = \"There is a bus stop near here.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "There is a new _____ in the theatre.",
+      "options": [
+        "email",
+        "ATMs",
+        "trains",
+        "movie"
+      ],
+      "answer": "movie",
+      "explanation": "The missing word is \"movie\" — full sentence: \"There is a new movie in the theatre.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "There are a report due tomorrow.",
+      "options": [
+        "There are a report due tomorrow.",
+        "There is a report due tomorrow."
+      ],
+      "answer": "There is a report due tomorrow.",
+      "explanation": "Correct sentence: \"There is a report due tomorrow.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "खिड़की के पास एक कुर्सी है।",
+      "options": [
+        {
+          "english": "There is a good restaurant in this area.",
+          "hindi": "इस इलाके में एक अच्छा रेस्टोरेंट है।"
+        },
+        {
+          "english": "There are many people in this shop.",
+          "hindi": "इस दुकान में कई लोग हैं।"
+        },
+        {
+          "english": "There are two printers in our office.",
+          "hindi": "हमारे ऑफिस में दो printers हैं।"
+        },
+        "There is a chair near the window."
+      ],
+      "answer": "There is a chair near the window.",
+      "explanation": "Correct translation: \"खिड़की के पास एक कुर्सी है।\" = \"There is a chair near the window.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "There is a _____ on MG Road.",
+      "options": [
+        "students",
+        "good",
+        "big",
+        "hospital"
+      ],
+      "answer": "hospital",
+      "explanation": "The missing word is \"hospital\" — full sentence: \"There is a hospital on MG Road.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "There are a new teacher today.",
+      "options": [
+        "There are a new teacher today.",
+        "There is a new teacher today."
+      ],
+      "answer": "There is a new teacher today.",
+      "explanation": "Correct sentence: \"There is a new teacher today.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "फ्रिज में दूध है।",
+      "options": [
+        {
+          "english": "There are three files on my desk.",
+          "hindi": "मेरी मेज पर तीन फाइलें हैं।"
+        },
+        {
+          "english": "There are many temples in this city.",
+          "hindi": "इस शहर में कई मंदिर हैं।"
+        },
+        {
+          "english": "There are many candidates for this job.",
+          "hindi": "इस नौकरी के लिए कई उम्मीदवार हैं।"
+        },
+        "There is milk in the fridge."
+      ],
+      "answer": "There is milk in the fridge.",
+      "explanation": "Correct translation: \"फ्रिज में दूध है।\" = \"There is milk in the fridge.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "There is a lot _____ traffic on this road.",
+      "options": [
+        "lot",
+        "few",
+        "in",
+        "of"
+      ],
+      "answer": "of",
+      "explanation": "The missing word is \"of\" — full sentence: \"There is a lot of traffic on this road.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "There are an email for you.",
+      "options": [
+        "There are an email for you.",
+        "There is an email for you."
+      ],
+      "answer": "There is an email for you.",
+      "explanation": "Correct sentence: \"There is an email for you.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हमारे स्कूल के पास एक पार्क है।",
+      "options": [
+        {
+          "english": "There are some apples in the basket.",
+          "hindi": "टोकरी में कुछ सेब हैं।"
+        },
+        {
+          "english": "There are four seasons in India.",
+          "hindi": "भारत में चार मौसम होते हैं।"
+        },
+        {
+          "english": "There are many customers waiting outside.",
+          "hindi": "बाहर कई ग्राहक इंतज़ार कर रहे हैं।"
+        },
+        "There is a park near our school."
+      ],
+      "answer": "There is a park near our school.",
+      "explanation": "Correct translation: \"हमारे स्कूल के पास एक पार्क है।\" = \"There is a park near our school.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "There is a good _____ in this area.",
+      "options": [
+        "people",
+        "printers",
+        "problem",
+        "restaurant"
+      ],
+      "answer": "restaurant",
+      "explanation": "The missing word is \"restaurant\" — full sentence: \"There is a good restaurant in this area.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "There is many students in the class.",
+      "options": [
+        "There is many students in the class.",
+        "There are many students in the class."
+      ],
+      "answer": "There are many students in the class.",
+      "explanation": "Correct sentence: \"There are many students in the class.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "इस घर में पाँच कमरे हैं।",
+      "options": [
+        {
+          "english": "There are several options available.",
+          "hindi": "कई विकल्प उपलब्ध हैं।"
+        },
+        {
+          "english": "There are some notifications on your phone.",
+          "hindi": "आपके phone पर कुछ notifications हैं।"
+        },
+        {
+          "english": "There was a teacher in this room.",
+          "hindi": "इस कमरे में एक शिक्षक थे।"
+        },
+        "There are five rooms in this house."
+      ],
+      "answer": "There are five rooms in this house.",
+      "explanation": "Correct translation: \"इस घर में पाँच कमरे हैं।\" = \"There are five rooms in this house.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "There are three _____ on my desk.",
+      "options": [
+        "temples",
+        "candidates",
+        "people",
+        "files"
+      ],
+      "answer": "files",
+      "explanation": "The missing word is \"files\" — full sentence: \"There are three files on my desk.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "There is a lot of problems in this project.",
+      "options": [
+        "There is a lot of problems in this project.",
+        "There are a lot of problems in this project."
+      ],
+      "answer": "There are a lot of problems in this project.",
+      "explanation": "Correct sentence: \"There are a lot of problems in this project.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "इस बाजार के पास दो ATM हैं।",
+      "options": [
+        {
+          "english": "There are many trains to Delhi from here.",
+          "hindi": "यहाँ से दिल्ली के लिए कई ट्रेनें हैं।"
+        },
+        {
+          "english": "There are five holidays next month.",
+          "hindi": "अगले महीने पाँच छुट्टियाँ हैं।"
+        },
+        {
+          "english": "There was a lot of noise outside.",
+          "hindi": "बाहर बहुत शोर था।"
+        },
+        "There are two ATMs near this market."
+      ],
+      "answer": "There are two ATMs near this market.",
+      "explanation": "Correct translation: \"इस बाजार के पास दो ATM हैं।\" = \"There are two ATMs near this market.\""
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "sentence": "There are some _____ in the basket.",
+      "options": [
+        "seasons",
+        "customers",
+        "chairs",
+        "apples"
+      ],
+      "answer": "apples",
+      "explanation": "The missing word is \"apples\" — full sentence: \"There are some apples in the basket.\""
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "There is many people in this shop.",
+      "options": [
+        "There is many people in this shop.",
+        "There are many people in this shop."
+      ],
+      "answer": "There are many people in this shop.",
+      "explanation": "Correct sentence: \"There are many people in this shop.\". The version shown had a grammar mistake."
+    },
+    {
+      "id": 28,
+      "type": "translate",
+      "hindi": "हमारे batch में 30 छात्र हैं।",
+      "options": [
+        {
+          "english": "There are many good schools in Noida.",
+          "hindi": "नोएडा में कई अच्छे स्कूल हैं।"
+        },
+        {
+          "english": "There was a big party last night.",
+          "hindi": "कल रात एक बड़ी पार्टी थी।"
+        },
+        {
+          "english": "There were many students last year.",
+          "hindi": "पिछले साल कई छात्र थे।"
+        },
+        "There are 30 students in our batch."
+      ],
+      "answer": "There are 30 students in our batch.",
+      "explanation": "Correct translation: \"हमारे batch में 30 छात्र हैं।\" = \"There are 30 students in our batch.\""
+    },
+    {
+      "id": 29,
+      "type": "fill",
+      "sentence": "There are _____ options available.",
+      "options": [
+        "notifications",
+        "teacher",
+        "power",
+        "several"
+      ],
+      "answer": "several",
+      "explanation": "The missing word is \"several\" — full sentence: \"There are several options available.\""
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "There is many temples in this city.",
+      "options": [
+        "There is many temples in this city.",
+        "There are many temples in this city."
+      ],
+      "answer": "There are many temples in this city.",
+      "explanation": "Correct sentence: \"There are many temples in this city.\". The version shown had a grammar mistake."
     }
   ]
 }

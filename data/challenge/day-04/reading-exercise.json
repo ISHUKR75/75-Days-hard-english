@@ -1,0 +1,107 @@
+{
+  "day": 4,
+  "topic": "Be Verb (Am, Is, Are, Was, Were)",
+  "passage": {
+    "title": "A Day with Be Verb (Am, Is, Are, Was, Were)",
+    "text": "I am a student. I am happy. I am from Delhi. I am ready. I am an engineer. I am tired. I am at home. I am 25 years old. I am right. I am wrong.",
+    "hindiTranslation": "मैं एक छात्र हूँ। मैं खुश हूँ। मैं दिल्ली से हूँ। मैं तैयार हूँ। मैं एक इंजीनियर हूँ। मैं थका हुआ हूँ। मैं घर पर हूँ। मैं 25 साल का हूँ। मैं सही हूँ। मैं गलत हूँ।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I am a student....\"?",
+      "options": [
+        "I am 25 years old.",
+        "I am a doctor.",
+        "I am proud.",
+        "I am a student."
+      ],
+      "answer": "I am a student.",
+      "explanation": "This is directly stated in the passage: \"I am a student.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I am happy....\"?",
+      "options": [
+        "I am right.",
+        "I am here.",
+        "I am confident.",
+        "I am happy."
+      ],
+      "answer": "I am happy.",
+      "explanation": "This is directly stated in the passage: \"I am happy.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"I am from Delhi....\"?",
+      "options": [
+        "I am wrong.",
+        "I am late.",
+        "I am Indian.",
+        "I am from Delhi."
+      ],
+      "answer": "I am from Delhi.",
+      "explanation": "This is directly stated in the passage: \"I am from Delhi.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I am ready....\"?",
+      "options": [
+        "I am hungry.",
+        "I am busy.",
+        "I am a good friend.",
+        "I am ready."
+      ],
+      "answer": "I am ready.",
+      "explanation": "This is directly stated in the passage: \"I am ready.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"I am an engineer....\"?",
+      "options": [
+        "I am thirsty.",
+        "I am serious.",
+        "I am in the office.",
+        "I am an engineer."
+      ],
+      "answer": "I am an engineer.",
+      "explanation": "This is directly stated in the passage: \"I am an engineer.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"I am tired....\"?",
+      "options": [
+        "I am fine.",
+        "I am nervous.",
+        "I am in a meeting.",
+        "I am tired."
+      ],
+      "answer": "I am tired.",
+      "explanation": "This is directly stated in the passage: \"I am tired.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I am at home....\"?",
+      "options": [
+        "I am sick.",
+        "I am excited.",
+        "I am on the train.",
+        "I am at home."
+      ],
+      "answer": "I am at home.",
+      "explanation": "This is directly stated in the passage: \"I am at home.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"I am 25 years...\"?",
+      "options": [
+        "I am a doctor.",
+        "I am proud.",
+        "I am not happy.",
+        "I am 25 years old."
+      ],
+      "answer": "I am 25 years old.",
+      "explanation": "This is directly stated in the passage: \"I am 25 years old.\""
+    }
+  ]
+}
