@@ -7,7 +7,7 @@ import dynamic from 'next/dynamic';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { ArrowLeft, BookOpen, Trophy } from 'lucide-react';
-import { getQuestionsForDay } from '@/lib/practiceData';
+import { getTestQuestionsForDay } from '@/lib/testData';
 import { getTopicByDay } from '@/lib/topics';
 
 // Lazy-load the quiz component for better performance
@@ -27,7 +27,7 @@ export default function TestDayPage() {
   const params  = useParams();
   const dayNum  = parseInt(String(params?.daySlug || 'day-1').replace(/^day-/, '') || '1', 10);
   const topic   = getTopicByDay(dayNum);
-  const questions = getQuestionsForDay(dayNum);
+  const questions = getTestQuestionsForDay(dayNum);
 
   if (!topic) {
     return (
@@ -91,7 +91,7 @@ export default function TestDayPage() {
         questions={questions}
         title={`Day ${dayNum} Exam: ${topic.title}`}
         backHref={`/75-days-challenge/${dayNum}`}
-        questionsPerSession={Math.min(20, questions.length)}
+        questionsPerSession={Math.min(40, questions.length)}
         shuffleMode={true}
         isTest={true}
       />

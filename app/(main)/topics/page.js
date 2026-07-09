@@ -1,551 +1,357 @@
 'use client';
 // ============================================================
-// ALL TOPICS PAGE — Complete 75-Day Curriculum Browser
-// Features: All 75 days, filters, search, progress tracking,
-// week groupings, animated cards, locked/unlocked states
+// MASTER TOPICS HUB - Links to ALL categories
+// The top-level navigation for supplemental topics
 // ============================================================
 
-import { useState, useMemo, useRef } from 'react';
 import Link from 'next/link';
-import { motion, useInView, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import {
-  BookOpen, Mic, Volume2, PenTool, Brain, Globe, Target,
-  CheckCircle2, Lock, Play, Search, Filter, Star, Zap,
-  RotateCcw, Trophy, ChevronRight, Calendar, Flame,
-  MessageSquare, Headphones, BarChart2, ArrowRight,
-  GraduationCap, BookMarked, Lightbulb, Clock, Award,
-  TrendingUp, Hash, X,
+  BookMarked, Mic, Volume2, BookOpen, PenTool,
+  Zap, Star, Headphones, Eye, Target,
+  ChevronRight, Sparkles,
 } from 'lucide-react';
-import DAYS_75_TOPICS from '@/lib/topics';
-import { useGamificationStore } from '@/store/useGamificationStore';
 
-// ── Animation variants ──────────────────────────────────────
-const fadeUp = {
-  hidden: { opacity: 0, y: 24 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] } },
-};
-const stagger = {
-  hidden: {},
-  visible: { transition: { staggerChildren: 0.04 } },
-};
-const cardVariants = {
-  hidden: { opacity: 0, scale: 0.92, y: 16 },
-  visible: { opacity: 1, scale: 1, y: 0, transition: { duration: 0.4, ease: 'easeOut' } },
-};
-
-// ── Type metadata ───────────────────────────────────────────
-const TYPE_META = {
-  grammar:       { label: 'Grammar',       icon: BookOpen,     color: 'text-indigo-400',  bg: 'bg-indigo-500/15',  border: 'border-indigo-500/30',  gradient: 'from-indigo-500 to-blue-500'       },
-  spoken:        { label: 'Speaking',      icon: Mic,          color: 'text-pink-400',    bg: 'bg-pink-500/15',    border: 'border-pink-500/30',    gradient: 'from-pink-500 to-rose-500'         },
-  pronunciation: { label: 'Pronunciation', icon: Volume2,      color: 'text-cyan-400',    bg: 'bg-cyan-500/15',    border: 'border-cyan-500/30',    gradient: 'from-cyan-500 to-sky-500'          },
-  vocabulary:    { label: 'Vocabulary',    icon: Globe,        color: 'text-amber-400',   bg: 'bg-amber-500/15',   border: 'border-amber-500/30',   gradient: 'from-amber-500 to-orange-500'      },
-  writing:       { label: 'Writing',       icon: PenTool,      color: 'text-rose-400',    bg: 'bg-rose-500/15',    border: 'border-rose-500/30',    gradient: 'from-rose-500 to-red-500'          },
-  practice:      { label: 'Practice',      icon: Target,       color: 'text-emerald-400', bg: 'bg-emerald-500/15', border: 'border-emerald-500/30', gradient: 'from-emerald-500 to-teal-500'      },
-  revision:      { label: 'Revision',      icon: RotateCcw,    color: 'text-orange-400',  bg: 'bg-orange-500/15',  border: 'border-orange-500/30',  gradient: 'from-orange-500 to-amber-500'      },
-  professional:  { label: 'Professional',  icon: Trophy,       color: 'text-teal-400',    bg: 'bg-teal-500/15',    border: 'border-teal-500/30',    gradient: 'from-teal-500 to-emerald-500'      },
-  listening:     { label: 'Listening',     icon: Headphones,   color: 'text-sky-400',     bg: 'bg-sky-500/15',     border: 'border-sky-500/30',     gradient: 'from-sky-500 to-blue-500'          },
-  reading:       { label: 'Reading',       icon: BookMarked,   color: 'text-violet-400',  bg: 'bg-violet-500/15',  border: 'border-violet-500/30',  gradient: 'from-violet-500 to-purple-500'     },
-  'real-life':   { label: 'Real Life',     icon: MessageSquare,color: 'text-green-400',   bg: 'bg-green-500/15',   border: 'border-green-500/30',   gradient: 'from-green-500 to-emerald-500'     },
-};
-
-const DIFFICULTY_COLORS = {
-  beginner:     'text-emerald-400 bg-emerald-500/10',
-  elementary:   'text-blue-400 bg-blue-500/10',
-  intermediate: 'text-amber-400 bg-amber-500/10',
-  'upper-intermediate': 'text-orange-400 bg-orange-500/10',
-  advanced:     'text-rose-400 bg-rose-500/10',
-};
-
-const CEFR_COLORS = {
-  A0: 'text-slate-400', A1: 'text-emerald-400', A2: 'text-sky-400',
-  B1: 'text-violet-400', B2: 'text-amber-400', C1: 'text-rose-400', C2: 'text-red-500',
-};
-
-// ── Week groupings ──────────────────────────────────────────
-const WEEKS = [
-  { label: 'Week 1', days: [1, 7],   title: 'Foundation',       emoji: '🏗️', color: 'from-emerald-500 to-teal-500' },
-  { label: 'Week 2', days: [8, 14],  title: 'Basic Grammar',    emoji: '📝', color: 'from-sky-500 to-blue-500' },
-  { label: 'Week 3', days: [15, 21], title: 'Modal Verbs I',    emoji: '🔑', color: 'from-violet-500 to-purple-500' },
-  { label: 'Week 4', days: [22, 28], title: 'Modal Verbs II',   emoji: '⚡', color: 'from-amber-500 to-orange-500' },
-  { label: 'Week 5', days: [29, 35], title: 'Advanced Modals',  emoji: '🎯', color: 'from-pink-500 to-rose-500' },
-  { label: 'Week 6', days: [36, 42], title: 'Tenses Part I',    emoji: '⏰', color: 'from-indigo-500 to-blue-500' },
-  { label: 'Week 7', days: [43, 49], title: 'Tenses Part II',   emoji: '🕐', color: 'from-cyan-500 to-sky-500' },
-  { label: 'Week 8', days: [50, 56], title: 'Voice & Clause',   emoji: '🗣️', color: 'from-teal-500 to-emerald-500' },
-  { label: 'Week 9', days: [57, 63], title: 'Vocabulary',       emoji: '📚', color: 'from-orange-500 to-amber-500' },
-  { label: 'Week 10', days: [64, 70], title: 'Fluency',         emoji: '🚀', color: 'from-rose-500 to-pink-500' },
-  { label: 'Week 11', days: [71, 75], title: 'Professional',    emoji: '🏆', color: 'from-yellow-500 to-amber-500' },
+const CATEGORIES = [
+  {
+    slug: 'grammar',
+    title: 'Grammar Mastery',
+    emoji: '📝',
+    icon: BookMarked,
+    count: 94,
+    questions: '94,000',
+    description: 'Parts of Speech, Tenses, Conditionals, Modals, Active/Passive, and more',
+    hindiDesc: 'सभी व्याकरण विषय - A1 से B2 तक',
+    gradient: 'from-indigo-600 via-purple-600 to-pink-600',
+    borderColor: 'border-indigo-500/20',
+    hoverBorder: 'hover:border-indigo-500/40',
+  },
+  {
+    slug: 'spoken',
+    title: 'Spoken English',
+    emoji: '🗣️',
+    icon: Mic,
+    count: 36,
+    questions: '36,000',
+    description: 'Daily Conversation, Interview, Meeting, Public Speaking, Debate',
+    hindiDesc: 'हर situation में अंग्रेज़ी बोलना सीखो',
+    gradient: 'from-pink-600 via-rose-600 to-orange-600',
+    borderColor: 'border-rose-500/20',
+    hoverBorder: 'hover:border-rose-500/40',
+  },
+  {
+    slug: 'vocabulary',
+    title: 'Vocabulary Bank',
+    emoji: '📚',
+    icon: BookOpen,
+    count: 66,
+    questions: '66,000',
+    description: 'Daily Vocab, Phrasal Verbs, Idioms, Proverbs, One-Word Substitutions',
+    hindiDesc: '66 कैटेगरी × 1000 शब्द = 66,000+ शब्द',
+    gradient: 'from-emerald-600 via-teal-600 to-cyan-600',
+    borderColor: 'border-emerald-500/20',
+    hoverBorder: 'hover:border-emerald-500/40',
+  },
+  {
+    slug: 'pronunciation',
+    title: 'Pronunciation',
+    emoji: '🎤',
+    icon: Volume2,
+    count: 11,
+    questions: '11,000',
+    description: 'IPA Sounds, Word Stress, Intonation, Connected Speech, Minimal Pairs',
+    hindiDesc: 'सही उच्चारण सीखो - native speaker जैसा',
+    gradient: 'from-amber-600 via-orange-600 to-red-600',
+    borderColor: 'border-amber-500/20',
+    hoverBorder: 'hover:border-amber-500/40',
+    directTopics: [
+      { slug: 'sounds-ipa', title: 'Sounds & IPA' },
+      { slug: 'word-stress', title: 'Word Stress' },
+      { slug: 'sentence-stress', title: 'Sentence Stress' },
+      { slug: 'intonation', title: 'Intonation' },
+      { slug: 'connected-speech', title: 'Connected Speech' },
+      { slug: 'minimal-pairs', title: 'Minimal Pairs' },
+      { slug: 'silent-letters', title: 'Silent Letters' },
+      { slug: 'vowels-consonants', title: 'Vowels & Consonants' },
+      { slug: 'tongue-twisters', title: 'Tongue Twisters' },
+      { slug: 'commonly-mispronounced', title: 'Commonly Mispronounced' },
+      { slug: 'accent-training', title: 'Accent Training' },
+    ],
+  },
+  {
+    slug: 'writing',
+    title: 'Writing Skills',
+    emoji: '✍️',
+    icon: PenTool,
+    count: 17,
+    questions: '17,000',
+    description: 'Paragraph, Essay, Letter, Email, Report, Story, Resume, Cover Letter',
+    hindiDesc: 'Professional writing सीखो',
+    gradient: 'from-blue-600 via-indigo-600 to-purple-600',
+    borderColor: 'border-blue-500/20',
+    hoverBorder: 'hover:border-blue-500/40',
+    directTopics: [
+      { slug: 'paragraph-writing', title: 'Paragraph Writing' },
+      { slug: 'essay-writing', title: 'Essay Writing' },
+      { slug: 'formal-letter', title: 'Formal Letter' },
+      { slug: 'informal-letter', title: 'Informal Letter' },
+      { slug: 'email-writing', title: 'Email Writing' },
+      { slug: 'business-email', title: 'Business Email' },
+      { slug: 'report-writing', title: 'Report Writing' },
+      { slug: 'story-writing', title: 'Story Writing' },
+      { slug: 'diary-entry', title: 'Diary Entry' },
+      { slug: 'notice-writing', title: 'Notice Writing' },
+      { slug: 'message-writing', title: 'Message Writing' },
+      { slug: 'resume-writing', title: 'Resume Writing' },
+      { slug: 'cover-letter', title: 'Cover Letter' },
+      { slug: 'application-writing', title: 'Application Writing' },
+      { slug: 'summary-writing', title: 'Summary Writing' },
+      { slug: 'review-writing', title: 'Review Writing' },
+      { slug: 'blog-writing', title: 'Blog Writing' },
+    ],
+  },
+  {
+    slug: 'real-life',
+    title: 'Real-Life Situations',
+    emoji: '🌍',
+    icon: Zap,
+    count: 20,
+    questions: '20,000',
+    description: 'At Hospital, Bank, Airport, Hotel, Restaurant, Shopping, Travel',
+    hindiDesc: 'रोज़मर्रा की ज़िंदगी में अंग्रेज़ी',
+    gradient: 'from-green-600 via-emerald-600 to-teal-600',
+    borderColor: 'border-green-500/20',
+    hoverBorder: 'hover:border-green-500/40',
+    directTopics: [
+      { slug: 'at-hospital', title: 'At Hospital' },
+      { slug: 'at-bank', title: 'At Bank' },
+      { slug: 'at-airport', title: 'At Airport' },
+      { slug: 'at-hotel', title: 'At Hotel' },
+      { slug: 'at-restaurant', title: 'At Restaurant' },
+      { slug: 'at-shopping', title: 'At Shopping Mall' },
+      { slug: 'at-railway-station', title: 'At Railway Station' },
+      { slug: 'at-post-office', title: 'At Post Office' },
+      { slug: 'at-police-station', title: 'At Police Station' },
+      { slug: 'at-school', title: 'At School' },
+      { slug: 'at-office', title: 'At Office' },
+      { slug: 'at-gym', title: 'At Gym' },
+      { slug: 'at-park', title: 'At Park' },
+      { slug: 'at-temple', title: 'At Temple' },
+      { slug: 'at-market', title: 'At Market' },
+      { slug: 'at-cinema', title: 'At Cinema' },
+      { slug: 'during-travel', title: 'During Travel' },
+      { slug: 'emergency-situations', title: 'Emergency Situations' },
+      { slug: 'job-interview', title: 'Job Interview' },
+      { slug: 'phone-call', title: 'Phone Call' },
+    ],
+  },
+  {
+    slug: 'soft-skills',
+    title: 'Soft Skills',
+    emoji: '💎',
+    icon: Star,
+    count: 6,
+    questions: '6,000',
+    description: 'Communication, Leadership, Time Management, Teamwork, Problem Solving',
+    hindiDesc: 'Career growth के लिए ज़रूरी skills',
+    gradient: 'from-violet-600 via-purple-600 to-fuchsia-600',
+    borderColor: 'border-violet-500/20',
+    hoverBorder: 'hover:border-violet-500/40',
+    directTopics: [
+      { slug: 'communication-skills', title: 'Communication Skills' },
+      { slug: 'leadership', title: 'Leadership' },
+      { slug: 'time-management', title: 'Time Management' },
+      { slug: 'teamwork', title: 'Teamwork' },
+      { slug: 'problem-solving', title: 'Problem Solving' },
+      { slug: 'emotional-intelligence', title: 'Emotional Intelligence' },
+    ],
+  },
+  {
+    slug: 'listening',
+    title: 'Listening Skills',
+    emoji: '🎧',
+    icon: Headphones,
+    count: 7,
+    questions: '7,000',
+    description: 'Dictation, Audio Comprehension, Conversation Listening',
+    hindiDesc: 'सुनकर समझने की practice',
+    gradient: 'from-cyan-600 via-sky-600 to-blue-600',
+    borderColor: 'border-cyan-500/20',
+    hoverBorder: 'hover:border-cyan-500/40',
+    directTopics: [
+      { slug: 'dictation-practice', title: 'Dictation Practice' },
+      { slug: 'audio-comprehension', title: 'Audio Comprehension' },
+      { slug: 'conversation-listening', title: 'Conversation Listening' },
+      { slug: 'news-listening', title: 'News Listening' },
+      { slug: 'song-lyrics', title: 'Song Lyrics Practice' },
+      { slug: 'podcast-comprehension', title: 'Podcast Comprehension' },
+      { slug: 'movie-dialogue', title: 'Movie Dialogue' },
+    ],
+  },
+  {
+    slug: 'reading',
+    title: 'Reading Skills',
+    emoji: '📖',
+    icon: Eye,
+    count: 6,
+    questions: '6,000',
+    description: 'Comprehension, Speed Reading, News Articles, Story Reading',
+    hindiDesc: 'पढ़कर समझने की practice',
+    gradient: 'from-rose-600 via-pink-600 to-fuchsia-600',
+    borderColor: 'border-rose-500/20',
+    hoverBorder: 'hover:border-rose-500/40',
+    directTopics: [
+      { slug: 'reading-comprehension', title: 'Reading Comprehension' },
+      { slug: 'speed-reading', title: 'Speed Reading' },
+      { slug: 'news-reading', title: 'News Reading' },
+      { slug: 'story-reading', title: 'Story Reading' },
+      { slug: 'academic-reading', title: 'Academic Reading' },
+      { slug: 'critical-reading', title: 'Critical Reading' },
+    ],
+  },
+  {
+    slug: 'practice',
+    title: 'General Practice',
+    emoji: '🎯',
+    icon: Target,
+    count: 12,
+    questions: '12,000',
+    description: 'Mixed Practice, Revision, Mock Tests, Speed Rounds',
+    hindiDesc: 'सभी टॉपिक्स का मिक्स practice',
+    gradient: 'from-lime-600 via-green-600 to-emerald-600',
+    borderColor: 'border-lime-500/20',
+    hoverBorder: 'hover:border-lime-500/40',
+    directTopics: [
+      { slug: 'mixed-grammar', title: 'Mixed Grammar' },
+      { slug: 'mixed-vocabulary', title: 'Mixed Vocabulary' },
+      { slug: 'translation-practice', title: 'Translation Practice' },
+      { slug: 'fill-in-blanks', title: 'Fill in the Blanks' },
+      { slug: 'error-correction', title: 'Error Correction' },
+      { slug: 'sentence-completion', title: 'Sentence Completion' },
+      { slug: 'word-formation', title: 'Word Formation' },
+      { slug: 'sentence-transformation', title: 'Sentence Transformation' },
+      { slug: 'cloze-test', title: 'Cloze Test' },
+      { slug: 'mock-test-1', title: 'Mock Test 1' },
+      { slug: 'mock-test-2', title: 'Mock Test 2' },
+      { slug: 'final-assessment', title: 'Final Assessment' },
+    ],
+  },
 ];
 
-const ALL_TYPES = ['all', ...Object.keys(TYPE_META)];
+const containerV = { hidden: { opacity: 0 }, visible: { opacity: 1, transition: { staggerChildren: 0.08 } } };
+const cardV = { hidden: { opacity: 0, y: 30 }, visible: { opacity: 1, y: 0, transition: { duration: 0.5 } } };
 
-// ── Progress bar component ──────────────────────────────────
-function AnimatedProgressBar({ value, max, color = 'bg-gradient-to-r from-primary-500 to-secondary-500' }) {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
-  const pct = Math.round((value / max) * 100);
-  return (
-    <div ref={ref} className="h-2.5 rounded-full bg-white/8 overflow-hidden">
-      <motion.div
-        className={`h-full rounded-full ${color}`}
-        initial={{ width: 0 }}
-        animate={isInView ? { width: `${pct}%` } : { width: 0 }}
-        transition={{ duration: 1.2, ease: 'easeOut', delay: 0.2 }}
-        style={{ boxShadow: '0 0 8px rgba(99,102,241,0.4)' }}
-      />
-    </div>
-  );
-}
-
-// ── Topic Card ───────────────────────────────────────────────
-function TopicCard({ topic, isCompleted, isCurrent, isLocked, index }) {
-  const meta = TYPE_META[topic.type] || TYPE_META.grammar;
-  const Icon = meta.icon;
-  const diffColor = DIFFICULTY_COLORS[topic.difficulty] || 'text-slate-400 bg-white/5';
-  const cefrColor = CEFR_COLORS[topic.cefr] || 'text-slate-400';
+export default function TopicsHubPage() {
+  const totalTopics = CATEGORIES.reduce((acc, c) => acc + c.count, 0);
+  const totalQuestions = CATEGORIES.reduce((acc, c) => acc + parseInt(c.questions.replace(/,/g, '')), 0);
 
   return (
-    <motion.div variants={cardVariants} layout>
-      <Link
-        href={isLocked ? '#' : `/75-days-challenge/${topic.day}`}
-        className={`
-          group block rounded-2xl border p-4 relative overflow-hidden transition-all duration-300
-          ${isCompleted ? 'bg-emerald-500/5 border-emerald-500/25 hover:border-emerald-500/40' : ''}
-          ${isCurrent  ? 'bg-primary-500/8 border-primary-500/40 shadow-lg shadow-primary-500/10' : ''}
-          ${isLocked   ? 'bg-white/2 border-white/5 cursor-not-allowed opacity-45' : ''}
-          ${!isCompleted && !isCurrent && !isLocked ? 'bg-white/3 border-white/8 hover:bg-white/6 hover:border-white/15' : ''}
-        `}
-      >
-        {/* Glow on current */}
-        {isCurrent && (
-          <div className="absolute inset-0 bg-gradient-to-br from-primary-500/5 to-secondary-500/5 pointer-events-none" />
-        )}
-
-        {/* Top row */}
-        <div className="flex items-start justify-between mb-3">
-          <div className="flex items-center gap-2">
-            <span className={`text-[11px] font-bold px-2 py-0.5 rounded-lg ${meta.bg} ${meta.color} border ${meta.border}`}>
-              Day {topic.day}
-            </span>
-            <span className={`text-[10px] font-semibold ${cefrColor}`}>{topic.cefr}</span>
-          </div>
-          {isCompleted && <CheckCircle2 size={16} className="text-emerald-400 shrink-0" />}
-          {isCurrent  && <motion.div animate={{ scale: [1, 1.2, 1] }} transition={{ duration: 2, repeat: Infinity }}><Play size={16} className="text-primary-400 shrink-0" fill="currentColor" /></motion.div>}
-          {isLocked   && <Lock size={14} className="text-slate-600 shrink-0" />}
-        </div>
-
-        {/* Emoji + Title */}
-        <div className="flex items-center gap-3 mb-3">
-          <motion.span
-            className="text-2xl shrink-0"
-            whileHover={!isLocked ? { scale: 1.3, rotate: 10 } : {}}
-          >
-            {topic.emoji}
-          </motion.span>
-          <h3 className={`font-bold text-sm leading-tight line-clamp-2 ${isLocked ? 'text-slate-600' : 'text-white'}`}>
-            {topic.title}
-          </h3>
-        </div>
-
-        {/* Bottom row */}
-        <div className="flex items-center justify-between">
-          <div className="flex items-center gap-1.5">
-            <Icon size={11} className={meta.color} />
-            <span className={`text-[10px] font-semibold ${meta.color}`}>{meta.label}</span>
-          </div>
-          <span className={`text-[10px] px-1.5 py-0.5 rounded-md capitalize ${diffColor}`}>
-            {topic.difficulty?.split('-')[0]}
-          </span>
-        </div>
-
-        {/* Hover arrow */}
-        {!isLocked && (
-          <motion.div
-            className="absolute bottom-3 right-3 opacity-0 group-hover:opacity-100 transition-opacity"
-            initial={{ x: -4 }}
-            whileHover={{ x: 0 }}
-          >
-            <ChevronRight size={14} className={meta.color} />
-          </motion.div>
-        )}
-      </Link>
-    </motion.div>
-  );
-}
-
-// ── Week Section ──────────────────────────────────────────────
-function WeekSection({ week, topics, completedCount, currentDay }) {
-  const ref = useRef(null);
-  const isInView = useInView(ref, { once: true, margin: '-60px' });
-  const weekTopics = topics.filter(t => t.day >= week.days[0] && t.day <= week.days[1]);
-  if (weekTopics.length === 0) return null;
-  const weekCompleted = weekTopics.filter(t => t.day < currentDay).length;
-  const pct = Math.round((weekCompleted / weekTopics.length) * 100);
-
-  return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 30 }}
-      animate={isInView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.5 }}
-      className="mb-10"
-    >
-      {/* Week header */}
-      <div className="flex items-center gap-4 mb-4">
-        <div className={`w-10 h-10 rounded-xl bg-gradient-to-br ${week.color} flex items-center justify-center text-lg shrink-0`}>
-          {week.emoji}
-        </div>
-        <div className="flex-1">
-          <div className="flex items-center gap-3 flex-wrap">
-            <h3 className="font-bold text-white">{week.label}: {week.title}</h3>
-            <span className="text-xs text-slate-500">Days {week.days[0]}–{week.days[1]}</span>
-            <span className="text-xs font-semibold text-emerald-400">{weekCompleted}/{weekTopics.length} done</span>
-          </div>
-          <div className="mt-1.5 w-40">
-            <AnimatedProgressBar value={weekCompleted} max={weekTopics.length} />
-          </div>
-        </div>
-        <span className={`text-xl font-black ${pct === 100 ? 'text-emerald-400' : 'text-slate-600'}`}>{pct}%</span>
-      </div>
-
-      {/* Topics grid */}
-      <motion.div
-        variants={stagger}
-        initial="hidden"
-        animate={isInView ? 'visible' : 'hidden'}
-        className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3"
-      >
-        {weekTopics.map((topic) => (
-          <TopicCard
-            key={topic.day}
-            topic={topic}
-            isCompleted={topic.day < currentDay}
-            isCurrent={topic.day === currentDay}
-            isLocked={topic.day > currentDay}
-          />
-        ))}
-      </motion.div>
-    </motion.div>
-  );
-}
-
-// ── Main Page ─────────────────────────────────────────────────
-export default function TopicsPage() {
-  const [search, setSearch]         = useState('');
-  const [typeFilter, setTypeFilter] = useState('all');
-  const [view, setView]             = useState('week'); // 'week' | 'grid' | 'list'
-  const [showSearch, setShowSearch] = useState(false);
-
-  const { topicsCompleted, level, xp, streak } = useGamificationStore();
-  const currentDay = Math.min((topicsCompleted || 0) + 1, 75);
-  const completedCount = topicsCompleted || 0;
-  const progress = Math.round((completedCount / 75) * 100);
-
-  // All topics from the lib
-  const allTopics = DAYS_75_TOPICS || [];
-
-  // Filtered topics
-  const filteredTopics = useMemo(() => {
-    return allTopics.filter(t => {
-      const matchType   = typeFilter === 'all' || t.type === typeFilter;
-      const matchSearch = !search || t.title.toLowerCase().includes(search.toLowerCase());
-      return matchType && matchSearch;
-    });
-  }, [allTopics, typeFilter, search]);
-
-  const isFiltering = typeFilter !== 'all' || search.length > 0;
-
-  return (
-    <div className="min-h-screen pb-12">
-      {/* ── Page Header ─────────────────────────────────── */}
+    <div className="max-w-7xl mx-auto space-y-10 pb-32">
+      {/* Hero Section */}
       <motion.div
         initial={{ opacity: 0, y: -20 }}
         animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="mb-8"
+        transition={{ duration: 0.6 }}
+        className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-slate-900 via-slate-900 to-indigo-950 border border-slate-800 p-8 md:p-12 shadow-2xl"
       >
-        <div className="flex items-start justify-between flex-wrap gap-4">
-          <div>
-            <div className="flex items-center gap-3 mb-2">
-              <div className="w-10 h-10 rounded-2xl bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center">
-                <Calendar size={20} className="text-white" />
-              </div>
-              <h1 className="text-3xl md:text-4xl font-black text-white">75-Day Curriculum</h1>
-            </div>
-            <p className="text-slate-400 ml-13 pl-1">
-              Hindi se English — zero se fluency tak. Complete every day to master English.
-            </p>
+        <div className="absolute top-0 right-0 w-96 h-96 bg-indigo-500/5 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3" />
+        <div className="absolute bottom-0 left-0 w-64 h-64 bg-purple-500/5 rounded-full blur-2xl translate-y-1/3 -translate-x-1/4" />
+        
+        <div className="relative z-10">
+          <div className="flex items-center gap-2 mb-4">
+            <Sparkles className="text-indigo-400" size={24} />
+            <span className="text-indigo-400 font-bold text-sm uppercase tracking-wider">Complete English Course</span>
           </div>
-          <div className="flex items-center gap-3">
-            <Link href={`/75-days-challenge/${currentDay}`}
-              className="btn-primary flex items-center gap-2 text-sm px-5 py-2.5">
-              <Play size={14} fill="currentColor" /> Continue Day {currentDay}
-            </Link>
+          <h1 className="text-4xl md:text-6xl font-black text-white tracking-tight mb-4">
+            All Topics
+          </h1>
+          <p className="text-slate-400 text-lg max-w-2xl">
+            🇮🇳 <strong className="text-white">{totalTopics} Topics</strong> • <strong className="text-white">{totalQuestions.toLocaleString()} Questions</strong> — 
+            अंग्रेज़ी सीखने का सबसे comprehensive course। Grammar, Spoken, Vocabulary, Writing — सब कुछ एक जगह!
+          </p>
+          
+          <div className="flex flex-wrap gap-4 mt-6">
+            {[
+              { label: `${totalTopics} Topics`, icon: BookOpen },
+              { label: `${totalQuestions.toLocaleString()} Questions`, icon: Target },
+              { label: '10 Categories', icon: Star },
+            ].map(({ label, icon: Icon }) => (
+              <div key={label} className="flex items-center gap-2 bg-white/5 border border-white/10 rounded-xl px-4 py-2.5">
+                <Icon size={16} className="text-indigo-400" />
+                <span className="text-white font-bold text-sm">{label}</span>
+              </div>
+            ))}
           </div>
         </div>
       </motion.div>
 
-      {/* ── Stats Row ───────────────────────────────────── */}
+      {/* Category Cards */}
       <motion.div
-        variants={stagger}
+        variants={containerV}
         initial="hidden"
         animate="visible"
-        className="grid grid-cols-2 sm:grid-cols-4 gap-4 mb-8"
+        className="grid grid-cols-1 md:grid-cols-2 gap-6"
       >
-        {[
-          { icon: Calendar, label: 'Days Completed', value: completedCount, max: 75, color: 'text-indigo-400', bg: 'bg-indigo-500/10' },
-          { icon: Zap,      label: 'Level',          value: `Lv.${level || 1}`, color: 'text-violet-400', bg: 'bg-violet-500/10' },
-          { icon: Flame,    label: 'Day Streak',     value: streak || 0, color: 'text-orange-400', bg: 'bg-orange-500/10' },
-          { icon: TrendingUp, label: 'Progress',     value: `${progress}%`, color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
-        ].map(({ icon: Icon, label, value, max, color, bg }) => (
-          <motion.div key={label} variants={fadeUp}
-            className="card p-4 flex items-center gap-3"
-          >
-            <div className={`w-10 h-10 rounded-xl ${bg} flex items-center justify-center shrink-0`}>
-              <Icon size={18} className={color} />
-            </div>
-            <div>
-              <p className={`text-xl font-black ${color}`}>{value}</p>
-              <p className="text-xs text-slate-500">{label}</p>
-            </div>
-          </motion.div>
-        ))}
-      </motion.div>
-
-      {/* ── Overall Progress ─────────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.2 }}
-        className="card p-5 mb-8"
-      >
-        <div className="flex items-center justify-between mb-3">
-          <div>
-            <h3 className="font-bold text-white">Overall Progress</h3>
-            <p className="text-xs text-slate-500">{completedCount} completed · {75 - completedCount} remaining</p>
-          </div>
-          <span className="text-3xl font-black gradient-text">{progress}%</span>
-        </div>
-        <AnimatedProgressBar value={completedCount} max={75} />
-        <div className="flex items-center justify-between mt-2 text-xs text-slate-500">
-          <span>Day 1 — Basics</span>
-          <span>Day 75 — Professional English 🏆</span>
-        </div>
-      </motion.div>
-
-      {/* ── Search + Filter Bar ──────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, y: 16 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ delay: 0.25 }}
-        className="mb-6 space-y-3"
-      >
-        {/* Search */}
-        <div className="relative">
-          <Search size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-slate-500" />
-          <input
-            type="text"
-            placeholder="Search topics… (e.g. 'tense', 'modal', 'vocabulary')"
-            value={search}
-            onChange={e => setSearch(e.target.value)}
-            className="w-full pl-10 pr-10 py-3 rounded-xl bg-white/5 border border-white/8 text-slate-200 placeholder:text-slate-600 focus:outline-none focus:border-primary-500/50 focus:bg-white/8 transition-all text-sm"
-          />
-          {search && (
-            <button onClick={() => setSearch('')} className="absolute right-3 top-1/2 -translate-y-1/2 text-slate-500 hover:text-white">
-              <X size={15} />
-            </button>
-          )}
-        </div>
-
-        {/* Type Filter Pills */}
-        <div className="flex flex-wrap gap-2">
-          {ALL_TYPES.map(type => {
-            const meta = TYPE_META[type];
-            const Icon = meta?.icon || Filter;
-            const isActive = typeFilter === type;
-            return (
-              <button
-                key={type}
-                onClick={() => setTypeFilter(type)}
-                className={`
-                  flex items-center gap-1.5 px-3 py-1.5 rounded-xl text-xs font-semibold transition-all border
-                  ${isActive
-                    ? (meta ? `${meta.bg} ${meta.color} ${meta.border}` : 'bg-primary-500/20 text-primary-300 border-primary-500/30')
-                    : 'bg-white/4 text-slate-500 border-white/6 hover:text-slate-300 hover:bg-white/8'
-                  }
-                `}
-              >
-                <Icon size={11} />
-                {meta?.label || 'All Topics'}
-                {type !== 'all' && (
-                  <span className="opacity-60">
-                    ({(allTopics || []).filter(t => t.type === type).length})
-                  </span>
-                )}
-              </button>
-            );
-          })}
-        </div>
-
-        {/* View Toggle + Results */}
-        <div className="flex items-center justify-between">
-          <p className="text-xs text-slate-500">
-            Showing <span className="text-white font-semibold">{filteredTopics.length}</span> topics
-            {isFiltering && <span> · <button onClick={() => { setSearch(''); setTypeFilter('all'); }} className="text-primary-400 hover:underline">Clear filters</button></span>}
-          </p>
-          <div className="flex items-center gap-1 bg-white/5 rounded-lg p-1 border border-white/8">
-            {[
-              { id: 'week', icon: '📅' },
-              { id: 'grid', icon: '⊞' },
-              { id: 'list', icon: '☰' },
-            ].map(v => (
-              <button
-                key={v.id}
-                onClick={() => setView(v.id)}
-                className={`px-2.5 py-1 rounded-md text-xs transition-all ${view === v.id ? 'bg-white/15 text-white' : 'text-slate-500 hover:text-white'}`}
-              >
-                {v.icon} {v.id.charAt(0).toUpperCase() + v.id.slice(1)}
-              </button>
-            ))}
-          </div>
-        </div>
-      </motion.div>
-
-      {/* ── Content: Week View ───────────────────────────── */}
-      {view === 'week' && !isFiltering && (
-        <div>
-          {WEEKS.map(week => (
-            <WeekSection
-              key={week.label}
-              week={week}
-              topics={allTopics}
-              completedCount={completedCount}
-              currentDay={currentDay}
-            />
-          ))}
-        </div>
-      )}
-
-      {/* ── Content: Grid View or Filtered ──────────────── */}
-      {(view === 'grid' || isFiltering) && (
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          animate="visible"
-          className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3"
-        >
-          <AnimatePresence>
-            {filteredTopics.map(topic => (
-              <TopicCard
-                key={topic.day}
-                topic={topic}
-                isCompleted={topic.day < currentDay}
-                isCurrent={topic.day === currentDay}
-                isLocked={topic.day > currentDay}
-              />
-            ))}
-          </AnimatePresence>
-          {filteredTopics.length === 0 && (
-            <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              className="col-span-full text-center py-16"
-            >
-              <div className="text-4xl mb-3">🔍</div>
-              <p className="text-slate-400 font-semibold">No topics found</p>
-              <p className="text-slate-600 text-sm mt-1">Try a different search or filter</p>
-            </motion.div>
-          )}
-        </motion.div>
-      )}
-
-      {/* ── Content: List View ──────────────────────────── */}
-      {view === 'list' && !isFiltering && (
-        <div className="space-y-2">
-          {allTopics.map(topic => {
-            const meta = TYPE_META[topic.type] || TYPE_META.grammar;
-            const Icon = meta.icon;
-            const isCompleted = topic.day < currentDay;
-            const isCurrent   = topic.day === currentDay;
-            const isLocked    = topic.day > currentDay;
-            return (
-              <motion.div
-                key={topic.day}
-                initial={{ opacity: 0, x: -16 }}
-                whileInView={{ opacity: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.3 }}
-              >
-                <Link
-                  href={isLocked ? '#' : `/75-days-challenge/${topic.day}`}
-                  className={`
-                    flex items-center gap-4 p-4 rounded-xl border transition-all group
-                    ${isCompleted ? 'bg-emerald-500/5 border-emerald-500/20 hover:border-emerald-500/35' : ''}
-                    ${isCurrent  ? 'bg-primary-500/8 border-primary-500/35' : ''}
-                    ${isLocked   ? 'bg-white/2 border-white/5 cursor-not-allowed opacity-40' : ''}
-                    ${!isCompleted && !isCurrent && !isLocked ? 'bg-white/3 border-white/8 hover:bg-white/5 hover:border-white/15' : ''}
-                  `}
-                >
-                  <span className={`text-[11px] font-bold w-12 text-center shrink-0 px-2 py-1 rounded-lg ${meta.bg} ${meta.color}`}>
-                    #{topic.day}
-                  </span>
-                  <span className="text-xl shrink-0">{topic.emoji}</span>
-                  <div className="flex-1 min-w-0">
-                    <p className={`font-semibold text-sm ${isLocked ? 'text-slate-600' : 'text-white'}`}>{topic.title}</p>
-                    <div className="flex items-center gap-2 mt-0.5">
-                      <Icon size={10} className={meta.color} />
-                      <span className={`text-[10px] ${meta.color}`}>{meta.label}</span>
-                      <span className={`text-[10px] ${CEFR_COLORS[topic.cefr] || 'text-slate-500'}`}>{topic.cefr}</span>
+        {CATEGORIES.map((cat) => {
+          const Icon = cat.icon;
+          const hasHub = ['grammar', 'spoken', 'vocabulary'].includes(cat.slug);
+          
+          return (
+            <motion.div key={cat.slug} variants={cardV}>
+              <div className={`relative overflow-hidden rounded-3xl bg-slate-900 border ${cat.borderColor} ${cat.hoverBorder} transition-all duration-300 hover:shadow-2xl hover:-translate-y-1`}>
+                {/* Gradient top bar */}
+                <div className={`h-2 w-full bg-gradient-to-r ${cat.gradient}`} />
+                
+                <div className="p-6">
+                  <div className="flex items-start gap-4 mb-4">
+                    <div className={`w-14 h-14 rounded-2xl bg-gradient-to-br ${cat.gradient} flex items-center justify-center shrink-0 shadow-lg`}>
+                      <Icon size={24} className="text-white" />
+                    </div>
+                    <div className="flex-1">
+                      <h2 className="text-xl font-black text-white mb-1">{cat.emoji} {cat.title}</h2>
+                      <p className="text-slate-400 text-sm">{cat.description}</p>
+                      <p className="text-indigo-400/70 text-xs mt-1">🇮🇳 {cat.hindiDesc}</p>
                     </div>
                   </div>
-                  <div className="shrink-0">
-                    {isCompleted && <CheckCircle2 size={16} className="text-emerald-400" />}
-                    {isCurrent  && <Play size={16} className="text-primary-400" fill="currentColor" />}
-                    {isLocked   && <Lock size={14} className="text-slate-600" />}
-                    {!isCompleted && !isCurrent && !isLocked && (
-                      <ChevronRight size={16} className="text-slate-600 group-hover:text-white transition-colors" />
-                    )}
+
+                  {/* Stats */}
+                  <div className="flex gap-3 mb-4">
+                    <span className="text-xs px-3 py-1.5 rounded-lg bg-white/5 text-white font-medium">{cat.count} Topics</span>
+                    <span className="text-xs px-3 py-1.5 rounded-lg bg-white/5 text-white font-medium">{cat.questions} Questions</span>
                   </div>
-                </Link>
-              </motion.div>
-            );
-          })}
-        </div>
-      )}
 
-      {/* ── Legend ──────────────────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        className="mt-10 flex flex-wrap gap-4 text-xs text-slate-500"
-      >
-        {[
-          { color: 'bg-emerald-500/25 border-emerald-500/30', label: '✅ Completed' },
-          { color: 'bg-primary-500/25 border-primary-500/30', label: '▶ Current Day' },
-          { color: 'bg-white/5 border-white/8',               label: '🔒 Locked' },
-          { color: 'bg-orange-500/15 border-orange-500/25',   label: '🔄 Revision' },
-        ].map(({ color, label }) => (
-          <div key={label} className={`flex items-center gap-2 px-2.5 py-1 rounded-lg border ${color}`}>
-            <span>{label}</span>
-          </div>
-        ))}
+                  {/* Hub link (for Grammar, Spoken, Vocabulary) */}
+                  {hasHub && (
+                    <Link
+                      href={`/topics/${cat.slug}`}
+                      className={`flex items-center justify-between w-full px-5 py-3 rounded-2xl bg-gradient-to-r ${cat.gradient} text-white font-bold text-sm hover:shadow-lg transition-all mb-4`}
+                    >
+                      <span>Browse All {cat.count} Topics</span>
+                      <ChevronRight size={18} />
+                    </Link>
+                  )}
+
+                  {/* Direct topic links for categories without hubs */}
+                  {cat.directTopics && (
+                    <div className="grid grid-cols-2 gap-2">
+                      {cat.directTopics.map(t => (
+                        <Link
+                          key={t.slug}
+                          href={`/topics/${t.slug}`}
+                          className="flex items-center gap-2 px-3 py-2 rounded-xl bg-slate-800 hover:bg-slate-700 text-slate-300 hover:text-white text-xs font-medium transition-all"
+                        >
+                          <ChevronRight size={12} className="shrink-0" />
+                          {t.title}
+                        </Link>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            </motion.div>
+          );
+        })}
       </motion.div>
-
-      {/* ── Completion CTA ───────────────────────────────── */}
-      {completedCount >= 75 && (
-        <motion.div
-          initial={{ opacity: 0, scale: 0.9 }}
-          animate={{ opacity: 1, scale: 1 }}
-          className="mt-10 card p-8 border-yellow-500/30 bg-yellow-500/5 text-center"
-        >
-          <div className="text-5xl mb-4">🏆</div>
-          <h3 className="text-2xl font-black text-white mb-2">You did it! 75 Days Complete!</h3>
-          <p className="text-slate-400 mb-6">Congratulations on completing the entire 75-day journey. Get your certificate!</p>
-          <Link href="/75-days-challenge/certificate" className="btn-gradient inline-flex items-center gap-2 px-8 py-4 text-base">
-            <GraduationCap size={20} /> Get My Certificate 🎓
-          </Link>
-        </motion.div>
-      )}
     </div>
   );
 }

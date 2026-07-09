@@ -1,360 +1,251 @@
 'use client';
-// Topic Overview Page — Shows all subtopics for a given topic
-// Displays theory overview, subtopic cards, and quick-access links
+// ============================================================
+// UNIVERSAL TOPIC PAGE - Handles ALL remaining categories:
+// pronunciation, writing, real-life, soft-skills, listening,
+// reading, practice
+// Fetches data from /api/topics/[topicSlug] 
+// ============================================================
 
-import { useState }      from 'react';
-import Link              from 'next/link';
-import { useParams }     from 'next/navigation';
-import { motion }        from 'framer-motion';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { useParams } from 'next/navigation';
+import Link from 'next/link';
+import { motion, AnimatePresence } from 'framer-motion';
 import {
-  ArrowLeft, BookOpen, Target, Mic, Volume2,
-  PenTool, Brain, FileText, CheckCircle2, Lock,
-  Star, Flame, Trophy, ChevronRight, Play,
-  MessageSquare, Headphones, Zap,
+  ArrowLeft, BookOpen, Star, CheckCircle, XCircle,
+  ChevronRight, ChevronLeft, Eye, Target, Trophy,
+  Send, ArrowRight, Mic, PenTool, Headphones,
+  BookMarked, Zap,
 } from 'lucide-react';
-import DAYS_75_TOPICS    from '@/lib/topics';
-import useProgressStore  from '@/store/progressStore';
-import useUserStore      from '@/store/userStore';
 
-// ── Animation variants ────────────────────────────────────
-const fadeUp = {
-  hidden:  { opacity: 0, y: 20 },
-  visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.21, 0.47, 0.32, 0.98] } },
-};
-const stagger = {
-  hidden: {},
-  visible: { transition: { staggerChildren: 0.06 } },
-};
-
-// ── Topic subtopic list (by slug) ─────────────────────────
-const TOPIC_SUBTOPICS = {
-  '01-basics': [
-    { id: '01-sentence-structure', title: 'Sentence Structure',      emoji: '🏗️', desc: 'Subject + Verb + Object pattern' },
-    { id: '02-parts-of-speech',    title: 'Parts of Speech',          emoji: '📝', desc: 'Noun, Verb, Adjective, Adverb' },
-    { id: '03-simple-present',     title: 'Simple Present Tense',     emoji: '⏰', desc: 'Daily habits and facts' },
-    { id: '04-yes-no-questions',   title: 'Yes/No Questions',         emoji: '❓', desc: 'Do/Does question formation' },
-    { id: '05-negatives',          title: 'Negative Sentences',       emoji: '❌', desc: 'Don\'t/Doesn\'t in sentences' },
-    { id: '06-basic-vocab',        title: 'Basic Vocabulary',         emoji: '🔤', desc: '100 most common English words' },
-  ],
-  '03-imperative': [
-    { id: '01-affirmative',         title: 'Affirmative Imperatives',  emoji: '✅', desc: 'Direct commands and instructions' },
-    { id: '02-negative-dont-never', title: 'Negative (Don\'t/Never)',  emoji: '🚫', desc: 'Prohibitions and warnings' },
-    { id: '03-polite-please-kindly',title: 'Polite Requests',         emoji: '🙏', desc: 'Please/Kindly with imperatives' },
-    { id: '04-lets',                title: "Let's Sentences",          emoji: '🤝', desc: 'Suggestions and invitations' },
-    { id: '05-with-always-never',   title: 'With Always/Never',       emoji: '♾️', desc: 'Frequency with imperatives' },
-    { id: '06-with-question-tags',  title: 'Question Tags',           emoji: '🏷️', desc: 'Isn\'t it? Don\'t you?' },
-    { id: '07-advice-suggestions',  title: 'Advice & Suggestions',    emoji: '💡', desc: 'Should/Could/Why don\'t you' },
-    { id: '08-requests-orders',     title: 'Requests & Orders',       emoji: '📋', desc: 'Office and daily requests' },
-    { id: '09-warnings-instructions', title: 'Warnings & Instructions', emoji: '⚠️', desc: 'Safety instructions' },
-    { id: '10-daily-life',          title: 'Daily Life Usage',        emoji: '🏠', desc: 'Home and family imperatives' },
-    { id: '11-professional-settings', title: 'Professional Settings', emoji: '💼', desc: 'Office and workplace imperatives' },
-    { id: '12-conversations',       title: 'Real Conversations',      emoji: '💬', desc: 'Practice dialogues' },
-  ],
-  '04-be-verb': [
-    { id: '01-am-is-are-present', title: 'Am / Is / Are (Present)',   emoji: '🌞', desc: 'Basic present tense be verb' },
-    { id: '02-was-were-past',     title: 'Was / Were (Past)',         emoji: '⏮️', desc: 'Past tense be verb' },
-    { id: '03-will-be-future',    title: 'Will Be (Future)',          emoji: '🔮', desc: 'Future with will be' },
-    { id: '04-being-continuous',  title: 'Being (Continuous)',        emoji: '🔄', desc: 'Progressive tense usage' },
-    { id: '05-been-perfect',      title: 'Been (Perfect)',            emoji: '✨', desc: 'Perfect tense with been' },
-    { id: '06-be-in-questions',   title: 'Be in Questions',          emoji: '❓', desc: 'Question formation' },
-    { id: '07-be-in-negatives',   title: 'Be in Negatives',          emoji: '🚫', desc: 'Negative sentences' },
-    { id: '08-be-with-adjectives','title': 'Be with Adjectives',     emoji: '🎨', desc: 'Describing people and things' },
-  ],
-  '06-has-have': [
-    { id: '01-has-singular',      title: 'Has (Singular)',           emoji: '👆', desc: 'He/She/It has...' },
-    { id: '02-have-plural',       title: 'Have (Plural)',            emoji: '👥', desc: 'I/We/You/They have...' },
-    { id: '03-questions',         title: 'Questions with Has/Have',  emoji: '❓', desc: 'Does he have? Do you have?' },
-    { id: '04-negatives',         title: 'Negatives',               emoji: '🚫', desc: 'Doesn\'t have / Don\'t have' },
-    { id: '05-have-got',          title: 'Have Got',                emoji: '✋', desc: 'British English usage' },
-    { id: '06-perfect-tense',     title: 'Present Perfect',         emoji: '✅', desc: 'Have/Has + past participle' },
-  ],
-};
-
-// ── Feature links for each topic ─────────────────────────
-const FEATURE_LINKS = (slug) => [
-  { icon: Target,       label: 'Practice (500+ Q)',  href: `/topics/${slug}/practice`,   color: 'from-indigo-500 to-blue-500',   badge: '500+' },
-  { icon: Brain,        label: 'Mini Test',          href: `/topics/${slug}/test`,       color: 'from-violet-500 to-purple-500', badge: 'Timer' },
-  { icon: Mic,          label: 'Speaking',           href: `/topics/${slug}/speaking`,   color: 'from-pink-500 to-rose-500',     badge: null },
-  { icon: PenTool,      label: 'Writing',            href: `/topics/${slug}/writing`,    color: 'from-amber-500 to-orange-500',  badge: null },
-  { icon: Headphones,   label: 'Listening',          href: `/topics/${slug}/listening`,  color: 'from-cyan-500 to-teal-500',     badge: null },
-  { icon: BookOpen,     label: 'Vocabulary',         href: `/topics/${slug}/vocabulary`, color: 'from-emerald-500 to-green-500', badge: '500+' },
-  { icon: FileText,     label: 'Flashcards',         href: `/topics/${slug}/flashcards`, color: 'from-sky-500 to-blue-500',      badge: 'SRS' },
-  { icon: MessageSquare,label: 'Essay Practice',     href: `/topics/${slug}/essay`,      color: 'from-rose-500 to-pink-500',     badge: null },
-];
-
-// ── Helper to get subtopics for a topic slug ──────────────
-function getSubtopicsForSlug(slug) {
-  // Try direct match first
-  if (TOPIC_SUBTOPICS[slug]) return TOPIC_SUBTOPICS[slug];
-
-  // Try to match by topic number (first 2 chars of slug)
-  const num = slug.replace(/^0+/, '').split('-')[0];
-  const key = Object.keys(TOPIC_SUBTOPICS).find(k => k.startsWith(`0${num}-`) || k.startsWith(`${num}-`));
-  if (key) return TOPIC_SUBTOPICS[key];
-
-  // Generate generic subtopics from topic title
-  return [
-    { id: '01-introduction',   title: 'Introduction & Overview',   emoji: '📖', desc: 'What this topic covers and why it matters' },
-    { id: '02-basic-rules',    title: 'Basic Rules & Structure',   emoji: '📏', desc: 'Core grammar rules to remember' },
-    { id: '03-examples',       title: 'Real-Life Examples',        emoji: '💬', desc: 'How native speakers use this' },
-    { id: '04-common-mistakes', title: 'Common Mistakes',          emoji: '⚠️', desc: 'Errors to avoid and how to fix them' },
-    { id: '05-practice',       title: 'Practice Questions',        emoji: '✍️', desc: '500+ Hindi → English questions' },
-    { id: '06-speaking',       title: 'Speaking Practice',         emoji: '🎤', desc: 'Drills, roleplay, and conversations' },
-    { id: '07-vocabulary',     title: 'Topic Vocabulary',          emoji: '🔤', desc: '500+ words with Hindi meanings' },
-    { id: '08-test',           title: 'Chapter Test',              emoji: '🧪', desc: '100 questions with timer' },
-  ];
+// ── Sound Hook ───────────────────────────────────────────────
+function useSound() {
+  const ctxRef = useRef(null);
+  const getCtx = useCallback(() => {
+    if (!ctxRef.current && typeof window !== 'undefined') ctxRef.current = new (window.AudioContext || window.webkitAudioContext)();
+    return ctxRef.current;
+  }, []);
+  return useCallback((type) => {
+    try {
+      const ctx = getCtx(); if (!ctx) return;
+      const osc = ctx.createOscillator(); const g = ctx.createGain();
+      osc.connect(g); g.connect(ctx.destination);
+      if (type === 'correct') { osc.frequency.setValueAtTime(523, ctx.currentTime); osc.frequency.setValueAtTime(783, ctx.currentTime + 0.15); g.gain.setValueAtTime(0.3, ctx.currentTime); g.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.3); osc.start(ctx.currentTime); osc.stop(ctx.currentTime + 0.3); }
+      else { osc.frequency.setValueAtTime(200, ctx.currentTime); osc.type = 'sawtooth'; g.gain.setValueAtTime(0.2, ctx.currentTime); g.gain.exponentialRampToValueAtTime(0.01, ctx.currentTime + 0.2); osc.start(ctx.currentTime); osc.stop(ctx.currentTime + 0.2); }
+    } catch(e) {}
+  }, [getCtx]);
 }
 
-// ── Main Page ─────────────────────────────────────────────
-export default function TopicPage() {
-  const params    = useParams();
+// Category metadata
+const CATEGORY_META = {
+  pronunciation: { icon: Mic, gradient: 'from-amber-600 via-orange-600 to-red-600', accent: 'amber' },
+  writing: { icon: PenTool, gradient: 'from-blue-600 via-indigo-600 to-purple-600', accent: 'indigo' },
+  'real-life': { icon: Zap, gradient: 'from-green-600 via-emerald-600 to-teal-600', accent: 'emerald' },
+  'soft-skills': { icon: Star, gradient: 'from-violet-600 via-purple-600 to-fuchsia-600', accent: 'purple' },
+  listening: { icon: Headphones, gradient: 'from-cyan-600 via-sky-600 to-blue-600', accent: 'sky' },
+  reading: { icon: BookMarked, gradient: 'from-rose-600 via-pink-600 to-fuchsia-600', accent: 'pink' },
+  practice: { icon: Target, gradient: 'from-lime-600 via-green-600 to-emerald-600', accent: 'green' },
+};
+
+const TABS = [
+  { id: 'learn', icon: BookOpen, label: 'Learn' },
+  { id: 'vocabulary', icon: BookMarked, label: 'Vocabulary' },
+  { id: 'practice', icon: Target, label: 'Practice (1000 Q)' },
+  { id: 'test', icon: Trophy, label: 'Test (400 Q)' },
+];
+
+export default function UniversalTopicPage() {
+  const params = useParams();
   const topicSlug = params?.topicSlug || '';
+  const playSound = useSound();
+  
+  // Parse category from slug path or try to determine it
+  const [data, setData] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [tab, setTab] = useState('learn');
+  const [score, setScore] = useState({ correct: 0, wrong: 0, total: 0 });
+  const [foundCategory, setFoundCategory] = useState('');
 
-  // Find matching topic from 75-days data
-  const topic = DAYS_75_TOPICS.find(t => t.slug === topicSlug);
-  const subtopics = getSubtopicsForSlug(topicSlug);
+  useEffect(() => {
+    async function tryFetch() {
+      setLoading(true);
+      // Try categories in order until we find a match
+      const categories = ['pronunciation', 'writing', 'real-life', 'soft-skills', 'listening', 'reading', 'practice'];
+      for (const cat of categories) {
+        try {
+          const res = await fetch(`/api/topics/${cat}/${topicSlug}`);
+          if (res.ok) {
+            setData(await res.json());
+            setFoundCategory(cat);
+            break;
+          }
+        } catch(e) {}
+      }
+      setLoading(false);
+    }
+    if (topicSlug) tryFetch();
+  }, [topicSlug]);
 
-  const { subtopics: subtopicProgress } = useProgressStore();
-  const { addXP } = useUserStore();
+  const handleAnswer = useCallback((ok) => {
+    playSound(ok ? 'correct' : 'wrong');
+    setScore(p => ({ correct: p.correct + (ok?1:0), wrong: p.wrong + (ok?0:1), total: p.total + 1 }));
+  }, [playSound]);
 
-  // Calculate completion
-  const completedCount = subtopics.filter(s => subtopicProgress[`${topicSlug}/${s.id}`]?.completed).length;
-  const progressPct    = subtopics.length > 0 ? Math.round((completedCount / subtopics.length) * 100) : 0;
+  if (loading) return (
+    <div className="max-w-5xl mx-auto py-20 animate-pulse space-y-6">
+      <div className="h-8 w-48 bg-slate-800 rounded-xl" />
+      <div className="h-48 bg-slate-800 rounded-3xl" />
+      <div className="h-96 bg-slate-800 rounded-3xl" />
+    </div>
+  );
 
-  // Fallback if topic not found
-  const topicTitle = topic?.title || topicSlug.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
-  const topicEmoji = topic?.emoji || '📚';
-  const topicDay   = topic?.day;
-  const topicCefr  = topic?.cefr || 'A1';
-  const topicColor = topic?.color || '#6366f1';
+  const title = data?.title || topicSlug.replace(/-/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+  const meta = CATEGORY_META[foundCategory] || CATEGORY_META.practice;
+  const Icon = meta.icon;
 
   return (
-    <div className="max-w-5xl mx-auto space-y-6">
+    <div className="max-w-5xl mx-auto space-y-6 pb-32">
+      <Link href="/topics" className="inline-flex items-center gap-2 text-slate-400 hover:text-white text-sm">
+        <ArrowLeft size={16} /> Back to Topics
+      </Link>
 
-      {/* ── Breadcrumb ──────────────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, y: -10 }}
-        animate={{ opacity: 1, y: 0 }}
-        className="flex items-center gap-2 text-sm text-slate-500"
-      >
-        <Link href="/topics" className="hover:text-white transition-colors flex items-center gap-1">
-          <ArrowLeft size={14} /> All Topics
-        </Link>
-        <span>/</span>
-        <span className="text-slate-300">{topicTitle}</span>
-      </motion.div>
-
-      {/* ── Topic Hero ──────────────────────────────────── */}
-      <motion.div
-        initial={{ opacity: 0, y: 20 }}
-        animate={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.5 }}
-        className="card p-6 relative overflow-hidden"
-        style={{ borderColor: `${topicColor}30` }}
-      >
-        {/* Gradient overlay */}
-        <div
-          className="absolute inset-0 opacity-5 pointer-events-none"
-          style={{ background: `radial-gradient(ellipse at top left, ${topicColor}, transparent 60%)` }}
-        />
-
-        <div className="relative flex flex-col sm:flex-row items-start gap-5">
-          {/* Emoji icon */}
-          <motion.div
-            animate={{ rotate: [0, 5, -5, 0] }}
-            transition={{ duration: 4, repeat: Infinity, ease: 'easeInOut' }}
-            className="w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shrink-0"
-            style={{ background: `${topicColor}20`, border: `1px solid ${topicColor}30` }}
-          >
-            {topicEmoji}
-          </motion.div>
-
-          <div className="flex-1 min-w-0">
-            {/* Badges */}
-            <div className="flex flex-wrap items-center gap-2 mb-2">
-              {topicDay && (
-                <span className="badge-primary text-xs">Day {topicDay}</span>
-              )}
-              <span className="badge text-slate-400 bg-white/5 border border-white/8 text-xs">{topicCefr}</span>
-              {topic?.difficulty && (
-                <span className="badge text-xs capitalize"
-                  style={{ background: `${topicColor}15`, color: topicColor, border: `1px solid ${topicColor}30` }}>
-                  {topic.difficulty}
-                </span>
-              )}
-              {completedCount > 0 && (
-                <span className="badge bg-emerald-500/15 text-emerald-300 border border-emerald-500/20 text-xs">
-                  ✅ {completedCount}/{subtopics.length} subtopics done
-                </span>
-              )}
-            </div>
-
-            <h1 className="text-2xl font-black text-white mb-1">{topicTitle}</h1>
-            <p className="text-sm text-slate-400 capitalize">{topic?.type || 'Grammar'} lesson — Real Hindi to English practice</p>
-
-            {/* Progress bar */}
-            {progressPct > 0 && (
-              <div className="mt-3">
-                <div className="flex justify-between text-xs text-slate-500 mb-1">
-                  <span>Progress</span>
-                  <span>{progressPct}%</span>
-                </div>
-                <div className="h-2 rounded-full bg-white/8 overflow-hidden">
-                  <motion.div
-                    initial={{ width: 0 }}
-                    animate={{ width: `${progressPct}%` }}
-                    transition={{ duration: 1, ease: 'easeOut' }}
-                    className="h-full rounded-full bg-gradient-to-r from-indigo-500 to-purple-500"
-                    style={{ boxShadow: '0 0 8px rgba(99,102,241,0.5)' }}
-                  />
-                </div>
-              </div>
-            )}
+      {/* Hero */}
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }}
+        className={`relative overflow-hidden rounded-3xl bg-gradient-to-br ${meta.gradient} p-6 md:p-10 shadow-2xl`}>
+        <div className="absolute top-0 right-0 w-72 h-72 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 animate-pulse" />
+        <div className="relative z-10 flex flex-col md:flex-row md:items-center gap-6">
+          <div className="w-20 h-20 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center shrink-0">
+            <Icon size={40} className="text-white" />
           </div>
-
-          {/* Start/Continue button */}
-          <motion.div whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }} className="shrink-0">
-            <Link
-              href={`/topics/${topicSlug}/${subtopics[completedCount < subtopics.length ? completedCount : 0]?.id}`}
-              className="btn-primary flex items-center gap-2 text-sm px-5 py-2.5 whitespace-nowrap"
-            >
-              <Play size={14} fill="currentColor" />
-              {completedCount === 0 ? 'Start Topic' : completedCount === subtopics.length ? 'Review Topic' : 'Continue'}
-            </Link>
-          </motion.div>
+          <div className="flex-1">
+            <p className="text-white/60 text-sm uppercase tracking-wider mb-1">{foundCategory}</p>
+            <h1 className="text-3xl md:text-4xl font-black text-white">{title}</h1>
+            <p className="text-white/70 mt-2">🇮🇳 {data?.totalPracticeQuestions || 1000} Practice + {data?.totalTestQuestions || 400} Test Questions</p>
+          </div>
+          <div className="flex gap-3">
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-3 text-center">
+              <div className="text-2xl font-black text-white">{score.correct}</div><div className="text-xs text-white/60">✅ Correct</div>
+            </div>
+            <div className="bg-white/10 backdrop-blur-sm rounded-2xl px-5 py-3 text-center">
+              <div className="text-2xl font-black text-white">{score.wrong}</div><div className="text-xs text-white/60">❌ Wrong</div>
+            </div>
+          </div>
         </div>
       </motion.div>
 
-      {/* ── Quick Feature Access ────────────────────────── */}
-      <motion.div
-        variants={stagger}
-        initial="hidden"
-        animate="visible"
-      >
-        <h2 className="text-lg font-bold text-white mb-3">Quick Practice</h2>
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-          {FEATURE_LINKS(topicSlug).map(({ icon: Icon, label, href, color, badge }) => (
-            <motion.div key={label} variants={fadeUp}>
-              <Link
-                href={href}
-                className="card p-4 flex flex-col items-center gap-2.5 text-center group hover:border-white/15 relative overflow-hidden"
-              >
-                <div className={`w-11 h-11 rounded-xl bg-gradient-to-br ${color} flex items-center justify-center shadow-lg group-hover:scale-110 transition-transform`}>
-                  <Icon size={18} className="text-white" />
-                </div>
-                <div>
-                  <span className="text-xs font-semibold text-slate-300 group-hover:text-white transition-colors block">{label}</span>
-                  {badge && (
-                    <span className="text-[10px] text-slate-600 mt-0.5 block">{badge}</span>
-                  )}
-                </div>
-              </Link>
-            </motion.div>
-          ))}
-        </div>
-      </motion.div>
-
-      {/* ── Subtopics ───────────────────────────────────── */}
-      <div>
-        <div className="flex items-center justify-between mb-4">
-          <h2 className="text-lg font-bold text-white">
-            Subtopics
-            <span className="ml-2 text-sm font-normal text-slate-500">({subtopics.length} chapters)</span>
-          </h2>
-          <span className="text-xs text-slate-500 bg-white/5 px-2.5 py-1 rounded-lg border border-white/8">
-            {completedCount}/{subtopics.length} completed
-          </span>
-        </div>
-
-        <motion.div
-          variants={stagger}
-          initial="hidden"
-          animate="visible"
-          className="space-y-2"
-        >
-          {subtopics.map((subtopic, idx) => {
-            const key        = `${topicSlug}/${subtopic.id}`;
-            const isCompleted = !!subtopicProgress[key]?.completed;
-            const isLocked   = false; // unlock all for now
-
-            return (
-              <motion.div key={subtopic.id} variants={fadeUp}>
-                <Link
-                  href={isLocked ? '#' : `/topics/${topicSlug}/${subtopic.id}`}
-                  className={`card flex items-center gap-4 p-4 group transition-all ${
-                    isLocked ? 'opacity-50 cursor-not-allowed' : 'hover:border-indigo-500/30 cursor-pointer'
-                  } ${isCompleted ? 'border-emerald-500/20 bg-emerald-500/3' : ''}`}
-                >
-                  {/* Number/Check */}
-                  <div className={`w-10 h-10 rounded-xl flex items-center justify-center shrink-0 text-sm font-bold transition-all ${
-                    isCompleted
-                      ? 'bg-emerald-500/15 text-emerald-400'
-                      : isLocked
-                      ? 'bg-white/5 text-slate-600'
-                      : 'bg-indigo-500/15 text-indigo-300 group-hover:bg-indigo-500/25'
-                  }`}>
-                    {isCompleted ? <CheckCircle2 size={18} /> : isLocked ? <Lock size={16} /> : <span>{idx + 1}</span>}
-                  </div>
-
-                  {/* Emoji */}
-                  <span className="text-xl shrink-0">{subtopic.emoji}</span>
-
-                  {/* Info */}
-                  <div className="flex-1 min-w-0">
-                    <h3 className={`font-semibold text-sm mb-0.5 transition-colors ${
-                      isCompleted ? 'text-emerald-300' : 'text-white group-hover:text-indigo-300'
-                    }`}>
-                      {subtopic.title}
-                    </h3>
-                    <p className="text-xs text-slate-500 truncate">{subtopic.desc}</p>
-                  </div>
-
-                  {/* Arrow/badge */}
-                  <div className="shrink-0 flex items-center gap-2">
-                    {isCompleted && (
-                      <span className="text-xs text-emerald-400 bg-emerald-500/10 px-2 py-0.5 rounded-full">Done</span>
-                    )}
-                    <ChevronRight size={16} className={`transition-all ${
-                      isLocked ? 'text-slate-700' : 'text-slate-600 group-hover:text-indigo-400 group-hover:translate-x-0.5'
-                    }`} />
-                  </div>
-                </Link>
-              </motion.div>
-            );
-          })}
-        </motion.div>
+      {/* Tabs */}
+      <div className="flex gap-2 overflow-x-auto pb-2">
+        {TABS.map(({ id, icon: TIcon, label }) => (
+          <button key={id} onClick={() => setTab(id)}
+            className={`flex items-center gap-2 px-5 py-3 rounded-2xl text-sm font-medium whitespace-nowrap transition-all ${
+              tab === id ? 'bg-white/10 text-white border border-white/20' : 'bg-slate-900 text-slate-400 border border-slate-800'
+            }`}>
+            <TIcon size={16} /> {label}
+          </button>
+        ))}
       </div>
 
-      {/* ── Navigation: Prev / Next Topic ───────────────── */}
-      {topic && (
-        <div className="grid grid-cols-2 gap-4">
-          {topic.day > 1 && (() => {
-            const prev = DAYS_75_TOPICS[topic.day - 2];
-            return (
-              <Link href={`/topics/${prev.slug}`} className="card p-4 hover:border-white/15 group flex items-center gap-3">
-                <ArrowLeft size={16} className="text-slate-500 group-hover:text-white transition-colors shrink-0" />
-                <div className="min-w-0">
-                  <p className="text-xs text-slate-600">Previous Topic</p>
-                  <p className="text-sm font-semibold text-white truncate">{prev.title}</p>
+      <AnimatePresence mode="wait">
+        <motion.div key={tab} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
+          {tab === 'learn' && (
+            <div className="bg-slate-900 border border-slate-800 rounded-3xl p-6 md:p-8">
+              <div className="prose prose-invert max-w-none">
+                {(data?.content?.explanation || 'Loading...').split('\n').map((line, i) => {
+                  if (line.startsWith('# ')) return <h1 key={i} className="text-3xl font-black text-white">{line.slice(2)}</h1>;
+                  if (line.startsWith('## ')) return <h2 key={i} className="text-2xl font-bold text-indigo-400 mt-6">{line.slice(3)}</h2>;
+                  if (line.startsWith('### ')) return <h3 key={i} className="text-xl font-bold text-white mt-4">{line.slice(4)}</h3>;
+                  if (line.trim() === '') return <br key={i} />;
+                  return <p key={i} className="text-slate-300">{line}</p>;
+                })}
+              </div>
+              {data?.content?.rules?.length > 0 && (
+                <div className="mt-6 space-y-3">
+                  <h3 className="text-xl font-bold text-white flex items-center gap-2"><Star className="text-amber-400" /> Rules</h3>
+                  {data.content.rules.map((r, i) => (
+                    <div key={i} className="flex items-start gap-3 p-3 rounded-xl bg-amber-500/5 border border-amber-500/10">
+                      <span className="w-7 h-7 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center text-xs font-bold">{i+1}</span>
+                      <p className="text-slate-300 text-sm">{r}</p>
+                    </div>
+                  ))}
                 </div>
-              </Link>
-            );
-          })()}
+              )}
+            </div>
+          )}
+          {tab === 'vocabulary' && <VocabList words={data?.vocabulary || []} />}
+          {tab === 'practice' && <QEngine questions={data?.practice || []} onAnswer={handleAnswer} accent={meta.accent} />}
+          {tab === 'test' && <QEngine questions={data?.test || []} onAnswer={handleAnswer} accent={meta.accent} />}
+        </motion.div>
+      </AnimatePresence>
+    </div>
+  );
+}
 
-          {topic.day < 75 && (() => {
-            const next = DAYS_75_TOPICS[topic.day];
-            return (
-              <Link href={`/topics/${next.slug}`} className="card p-4 hover:border-white/15 group flex items-center gap-3 col-start-2">
-                <div className="flex-1 min-w-0 text-right">
-                  <p className="text-xs text-slate-600">Next Topic</p>
-                  <p className="text-sm font-semibold text-white truncate">{next.title}</p>
-                </div>
-                <ChevronRight size={16} className="text-slate-500 group-hover:text-white transition-colors shrink-0" />
-              </Link>
-            );
-          })()}
+function VocabList({ words }) {
+  const [page, setPage] = useState(1);
+  const pp = 25; const tp = Math.ceil(words.length / pp);
+  const cur = words.slice((page-1)*pp, page*pp);
+  return (
+    <div className="space-y-4">
+      <p className="text-slate-400 text-sm">{words.length} words • Page {page}/{tp}</p>
+      <div className="grid gap-3">
+        {cur.map((w, i) => (
+          <div key={i} className="bg-slate-900 border border-slate-800 rounded-2xl p-4">
+            <span className="text-white font-bold">{w.word}</span>
+            {w.ipa && <span className="text-slate-500 text-sm ml-2">{w.ipa}</span>}
+            <p className="text-emerald-400 text-sm">🇮🇳 {w.hindi}</p>
+            <p className="text-slate-400 text-sm italic">"{w.example}"</p>
+          </div>
+        ))}
+      </div>
+      <div className="flex justify-center gap-3">
+        <button onClick={() => setPage(p => Math.max(1, p-1))} disabled={page===1} className="px-4 py-2 rounded-xl bg-slate-800 text-white disabled:opacity-30"><ChevronLeft size={16}/></button>
+        <span className="text-white text-sm py-2">{page}/{tp}</span>
+        <button onClick={() => setPage(p => Math.min(tp, p+1))} disabled={page===tp} className="px-4 py-2 rounded-xl bg-slate-800 text-white disabled:opacity-30"><ChevronRight size={16}/></button>
+      </div>
+    </div>
+  );
+}
+
+function QEngine({ questions, onAnswer, accent = 'indigo' }) {
+  const [idx, setIdx] = useState(0);
+  const [input, setInput] = useState('');
+  const [status, setStatus] = useState('idle');
+  const ref = useRef(null);
+  const q = questions[idx] || {};
+  const norm = s => s.toLowerCase().replace(/[^a-z0-9\s]/g,'').trim();
+
+  const check = () => { if(!input.trim())return; const ok=norm(input)===norm(q.english||''); setStatus(ok?'correct':'wrong'); onAnswer(ok); };
+  const next = () => { setIdx(p=>Math.min(questions.length-1,p+1)); setInput(''); setStatus('idle'); setTimeout(()=>ref.current?.focus(),100); };
+
+  if (questions.length === 0) return <div className="text-center py-20 text-slate-400">No questions.</div>;
+
+  return (
+    <div className="space-y-6">
+      <div className="flex items-center gap-4">
+        <div className="flex-1 h-2 bg-slate-800 rounded-full overflow-hidden">
+          <motion.div className={`h-full bg-gradient-to-r from-${accent}-500 to-${accent}-400 rounded-full`} animate={{ width: `${((idx+1)/questions.length)*100}%` }} />
         </div>
-      )}
+        <span className="text-sm text-slate-400 font-mono">{idx+1}/{questions.length}</span>
+      </div>
+      <motion.div key={idx} initial={{ opacity:0 }} animate={{ opacity:1 }}
+        className="bg-slate-900 border border-slate-800 rounded-3xl p-6 md:p-8 space-y-6">
+        <span className={`text-xs px-3 py-1 rounded-lg font-bold ${q.difficulty==='easy'?'bg-green-500/20 text-green-400':q.difficulty==='medium'?'bg-amber-500/20 text-amber-400':'bg-rose-500/20 text-rose-400'}`}>{q.difficulty?.toUpperCase()}</span>
+        <div className={`bg-${accent}-500/5 border border-${accent}-500/10 rounded-2xl p-5`}>
+          <p className="text-xs text-slate-400 mb-2">🇮🇳 Translate to English:</p>
+          <p className="text-2xl text-white font-bold">{q.hindi}</p>
+        </div>
+        <input ref={ref} type="text" value={input} onChange={e=>setInput(e.target.value)} onKeyDown={e=>{if(e.key==='Enter'&&status==='idle')check();}}
+          placeholder="Type English..." disabled={status!=='idle'}
+          className={`w-full px-5 py-4 rounded-2xl bg-slate-800 border text-white placeholder-slate-500 focus:outline-none text-lg ${status==='correct'?'border-emerald-500':'border-slate-700'} ${status==='wrong'?'border-rose-500':''}`} />
+        {status==='correct' && <div className="p-4 rounded-2xl bg-emerald-500/10 border border-emerald-500/20"><p className="text-emerald-400 font-bold flex items-center gap-2"><CheckCircle size={20}/>Correct! 🎉 +10</p></div>}
+        {status==='wrong' && <div className="p-4 rounded-2xl bg-rose-500/10 border border-rose-500/20"><p className="text-rose-400 font-bold flex items-center gap-2"><XCircle size={20}/>Wrong ❌</p><p className="text-white text-sm mt-1">Answer: {q.english}</p></div>}
+        <div className="flex gap-3">
+          {status==='idle' ? (
+            <button onClick={check} disabled={!input.trim()} className={`flex-1 px-6 py-3 rounded-2xl bg-${accent}-600 hover:bg-${accent}-500 text-white font-bold disabled:opacity-30 flex items-center justify-center gap-2`}><Send size={18}/>Check</button>
+          ) : (
+            <button onClick={next} className={`flex-1 px-6 py-3 rounded-2xl bg-${accent}-600 hover:bg-${accent}-500 text-white font-bold flex items-center justify-center gap-2`}>Next <ArrowRight size={18}/></button>
+          )}
+        </div>
+      </motion.div>
     </div>
   );
 }

@@ -32,9 +32,10 @@ const NAV_SECTIONS = [
   {
     title: 'Learn',
     items: [
-      { href: '/topics',            label: 'All Topics',         icon: BookOpen,        badge: null },
-      { href: '/grammar-reference', label: 'Grammar',            icon: BookMarked,      badge: null },
-      { href: '/vocabulary',        label: 'Vocabulary',         icon: Globe,           badge: null },
+      { href: '/topics',            label: 'All Topics',         icon: BookOpen,        badge: '275' },
+      { href: '/topics/grammar',    label: 'Grammar',            icon: BookMarked,      badge: '94' },
+      { href: '/topics/spoken',     label: 'Spoken English',     icon: Mic,             badge: '36' },
+      { href: '/topics/vocabulary', label: 'Vocabulary',         icon: Globe,           badge: '66' },
       { href: '/pronunciation-lab', label: 'Pronunciation',      icon: Volume2,         badge: null },
     ],
   },

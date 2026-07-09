@@ -1,189 +1,155 @@
 'use client';
 // ============================================================
-// PROGRESS PAGE — Detailed progress tracking with charts
-// Features: Topic progress, accuracy graphs, weak areas, time spent
+// PROGRESS PAGE - Visual progress tracking with Recharts
 // ============================================================
 
-import { useEffect, useState } from 'react';
+import { useMemo } from 'react';
 import { motion } from 'framer-motion';
 import {
-  TrendingUp, Target, CheckCircle2, XCircle, Clock, Zap,
-  Flame, Award, BarChart2, Calendar, BookOpen, Brain, Star,
+  BarChart2, TrendingUp, Trophy, Target, Flame, Star,
+  BookOpen, Mic, PenTool, Volume2, Brain, Calendar, Zap,
 } from 'lucide-react';
 import {
-  LineChart, Line, BarChart, Bar, XAxis, YAxis, CartesianGrid,
-  Tooltip, ResponsiveContainer, Cell,
+  AreaChart, Area, BarChart, Bar, RadarChart, Radar,
+  PolarGrid, PolarAngleAxis, PolarRadiusAxis,
+  XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer,
+  Legend,
 } from 'recharts';
+import useProgressStore from '@/store/progressStore';
 import useUserStore from '@/store/userStore';
-import DAYS_75_TOPICS from '@/lib/topics';
+import CountUp from 'react-countup';
 
-const CHART_COLORS = ['#6366f1','#d946ef','#10b981','#f59e0b','#f43f5e','#0ea5e9'];
+// ── Mock weekly data (would come from progressStore in production) ──
+const WEEKLY_DATA = [
+  { day: 'Mon', grammar: 45, vocab: 30, speaking: 20, total: 95 },
+  { day: 'Tue', grammar: 60, vocab: 40, speaking: 35, total: 135 },
+  { day: 'Wed', grammar: 35, vocab: 55, speaking: 25, total: 115 },
+  { day: 'Thu', grammar: 70, vocab: 45, speaking: 40, total: 155 },
+  { day: 'Fri', grammar: 50, vocab: 60, speaking: 30, total: 140 },
+  { day: 'Sat', grammar: 80, vocab: 70, speaking: 55, total: 205 },
+  { day: 'Sun', grammar: 40, vocab: 35, speaking: 15, total: 90 },
+];
+
+// ── Category mastery data ──
+const MASTERY_DATA = [
+  { subject: 'Grammar', A: 72, fullMark: 100 },
+  { subject: 'Vocabulary', A: 58, fullMark: 100 },
+  { subject: 'Speaking', A: 45, fullMark: 100 },
+  { subject: 'Writing', A: 38, fullMark: 100 },
+  { subject: 'Listening', A: 52, fullMark: 100 },
+  { subject: 'Pronunciation', A: 41, fullMark: 100 },
+];
+
+// ── Monthly streak data ──
+const MONTHLY_DATA = Array.from({ length: 30 }, (_, i) => ({
+  day: i + 1,
+  minutes: Math.floor(Math.random() * 60) + 10,
+  questions: Math.floor(Math.random() * 100) + 20,
+}));
+
+const STAT_CARDS = [
+  { label: 'Questions Solved', value: 2847, icon: Target, color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
+  { label: 'Current Streak', value: 12, icon: Flame, color: 'text-orange-400', bg: 'bg-orange-500/10', suffix: ' days' },
+  { label: 'Topics Completed', value: 47, icon: BookOpen, color: 'text-blue-400', bg: 'bg-blue-500/10', suffix: '/275' },
+  { label: 'Total Points', value: 15420, icon: Star, color: 'text-yellow-400', bg: 'bg-yellow-500/10' },
+  { label: 'Study Hours', value: 38, icon: Calendar, color: 'text-violet-400', bg: 'bg-violet-500/10', suffix: ' hrs' },
+  { label: 'Accuracy', value: 82, icon: TrendingUp, color: 'text-pink-400', bg: 'bg-pink-500/10', suffix: '%' },
+];
 
 export default function ProgressPage() {
-  const {
-    xp, level, levelXP, levelXPRequired, coins, streak, longestStreak,
-    totalQuestionsAttempted, totalCorrectAnswers, totalWrongAnswers,
-    totalTopicsCompleted, totalLessonsCompleted, totalWordsLearned,
-    totalTimeSpent, getLevelProgress, getAccuracy,
-  } = useUserStore();
-
-  const accuracy = getAccuracy();
-  const levelPct = getLevelProgress();
-  const currentDay = Math.min(totalLessonsCompleted + 1, 75);
-  const progressPct = Math.round((totalTopicsCompleted / 75) * 100);
-
-  // Weekly mock data
-  const weeklyData = [
-    { day:'Mon', xp:45, q:12, accuracy:88 },
-    { day:'Tue', xp:80, q:20, accuracy:92 },
-    { day:'Wed', xp:60, q:15, accuracy:85 },
-    { day:'Thu', xp:100, q:25, accuracy:94 },
-    { day:'Fri', xp:70, q:18, accuracy:89 },
-    { day:'Sat', xp:120, q:30, accuracy:90 },
-    { day:'Sun', xp:90, q:22, accuracy:93 },
-  ];
-
-  // Topic progress by category
-  const categoryData = [
-    { name:'Grammar',     completed: Math.min(totalTopicsCompleted, 50), total:50 },
-    { name:'Vocabulary',  completed: Math.max(0, totalTopicsCompleted - 50), total:16 },
-    { name:'Writing',     completed: 0, total:5 },
-    { name:'Revision',    completed: 0, total:4 },
-  ];
-
   return (
-    <div className="space-y-6 pb-8">
-      {/* Header */}
-      <motion.div initial={{opacity:0,y:-16}} animate={{opacity:1,y:0}}>
-        <h1 className="text-4xl font-black text-white mb-1">📊 My Progress</h1>
-        <p className="text-slate-400">Track your English learning journey — Day {currentDay} of 75</p>
-      </motion.div>
-
-      {/* Top Stats */}
-      <motion.div className="grid grid-cols-2 md:grid-cols-4 gap-4"
-        variants={{ visible:{ transition:{ staggerChildren:0.08 } } }} initial="hidden" animate="visible">
-        {[
-          { icon:Zap,          label:'Total XP',        value:xp.toLocaleString(),  color:'text-violet-400', bg:'bg-violet-500/10' },
-          { icon:Flame,        label:'Day Streak',      value:`${streak}🔥`,          color:'text-orange-400',bg:'bg-orange-500/10' },
-          { icon:Target,       label:'Accuracy',        value:`${accuracy}%`,         color:'text-emerald-400',bg:'bg-emerald-500/10' },
-          { icon:Clock,        label:'Time Spent',      value:`${totalTimeSpent}m`,   color:'text-sky-400',   bg:'bg-sky-500/10' },
-        ].map(({ icon:Icon, label, value, color, bg }) => (
-          <motion.div key={label} variants={{ hidden:{opacity:0,y:16}, visible:{opacity:1,y:0} }}
-            className={`card p-5 flex items-center gap-3 ${bg}`}>
-            <Icon size={24} className={color} />
-            <div>
-              <p className={`text-2xl font-black ${color}`}>{value}</p>
-              <p className="text-xs text-slate-500">{label}</p>
-            </div>
-          </motion.div>
-        ))}
-      </motion.div>
-
-      {/* 75-Day Progress */}
-      <motion.div initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} transition={{delay:0.1}}
-        className="card p-6">
-        <div className="flex items-center justify-between mb-4">
-          <div>
-            <h2 className="text-xl font-bold text-white">75-Day Progress</h2>
-            <p className="text-sm text-slate-400">{totalTopicsCompleted} of 75 days completed</p>
-          </div>
-          <span className="text-3xl font-black gradient-text">{progressPct}%</span>
-        </div>
-        <div className="h-3 rounded-full bg-white/8 overflow-hidden mb-3">
-          <motion.div className="h-full rounded-full bg-gradient-to-r from-primary-500 to-secondary-500"
-            initial={{width:0}} animate={{width:`${progressPct}%`}} transition={{duration:1.5}} />
-        </div>
-        <div className="grid grid-cols-3 gap-4 text-center mt-4">
-          <div>
-            <p className="text-xl font-black text-white">{totalQuestionsAttempted}</p>
-            <p className="text-xs text-slate-500">Questions Attempted</p>
+    <div className="max-w-7xl mx-auto space-y-8 pb-32">
+      {/* Hero */}
+      <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }}
+        className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600 p-8 md:p-12 shadow-2xl">
+        <div className="absolute top-0 right-0 w-96 h-96 bg-white/10 rounded-full blur-3xl -translate-y-1/2 translate-x-1/3 animate-pulse" />
+        <div className="relative z-10 flex items-center gap-4">
+          <div className="w-16 h-16 rounded-2xl bg-white/20 backdrop-blur-sm flex items-center justify-center">
+            <BarChart2 className="text-white" size={32} />
           </div>
           <div>
-            <p className="text-xl font-black text-emerald-400">{totalCorrectAnswers}</p>
-            <p className="text-xs text-slate-500">Correct Answers</p>
+            <h1 className="text-3xl md:text-5xl font-black text-white">My Progress</h1>
+            <p className="text-white/70 mt-1">🇮🇳 अपनी learning journey को track करो!</p>
           </div>
-          <div>
-            <p className="text-xl font-black text-rose-400">{totalWrongAnswers}</p>
-            <p className="text-xs text-slate-500">Wrong Answers</p>
-          </div>
-        </div>
-      </motion.div>
-
-      {/* Weekly Activity + Accuracy Charts */}
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-        <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.2}} className="card p-5">
-          <h3 className="font-bold text-white mb-4 flex items-center gap-2">
-            <BarChart2 size={18} className="text-primary-400" /> Weekly XP
-          </h3>
-          <ResponsiveContainer width="100%" height={200}>
-            <BarChart data={weeklyData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-              <XAxis dataKey="day" stroke="#64748b" style={{fontSize:'11px'}} />
-              <YAxis stroke="#64748b" style={{fontSize:'11px'}} />
-              <Tooltip contentStyle={{ backgroundColor:'#1e293b', border:'1px solid rgba(255,255,255,0.1)', borderRadius:'8px' }} />
-              <Bar dataKey="xp" radius={[6,6,0,0]}>
-                {weeklyData.map((_,i) => <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />)}
-              </Bar>
-            </BarChart>
-          </ResponsiveContainer>
-        </motion.div>
-
-        <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.25}} className="card p-5">
-          <h3 className="font-bold text-white mb-4 flex items-center gap-2">
-            <TrendingUp size={18} className="text-emerald-400" /> Weekly Accuracy
-          </h3>
-          <ResponsiveContainer width="100%" height={200}>
-            <LineChart data={weeklyData}>
-              <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" />
-              <XAxis dataKey="day" stroke="#64748b" style={{fontSize:'11px'}} />
-              <YAxis domain={[70,100]} stroke="#64748b" style={{fontSize:'11px'}} />
-              <Tooltip contentStyle={{ backgroundColor:'#1e293b', border:'1px solid rgba(255,255,255,0.1)', borderRadius:'8px' }} />
-              <Line type="monotone" dataKey="accuracy" stroke="#10b981" strokeWidth={2.5}
-                dot={{ fill:'#10b981', r:4 }} activeDot={{ r:6 }} />
-            </LineChart>
-          </ResponsiveContainer>
-        </motion.div>
-      </div>
-
-      {/* Category Progress */}
-      <motion.div initial={{opacity:0,y:16}} animate={{opacity:1,y:0}} transition={{delay:0.3}} className="card p-6">
-        <h3 className="font-bold text-white mb-5 flex items-center gap-2">
-          <BookOpen size={18} className="text-amber-400" /> Progress by Category
-        </h3>
-        <div className="space-y-4">
-          {categoryData.map(({ name, completed, total }, i) => {
-            const pct = total > 0 ? Math.round((completed / total) * 100) : 0;
-            return (
-              <div key={name}>
-                <div className="flex justify-between text-sm mb-1.5">
-                  <span className="text-white font-semibold">{name}</span>
-                  <span className="text-slate-400">{completed}/{total} ({pct}%)</span>
-                </div>
-                <div className="h-2 rounded-full bg-white/8 overflow-hidden">
-                  <motion.div className="h-full rounded-full" style={{ backgroundColor: CHART_COLORS[i] }}
-                    initial={{width:0}} animate={{width:`${pct}%`}} transition={{duration:1, delay:0.3+i*0.1}} />
-                </div>
-              </div>
-            );
-          })}
         </div>
       </motion.div>
 
       {/* Stats Grid */}
-      <motion.div className="grid grid-cols-1 sm:grid-cols-3 gap-4" initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.35}}>
-        {[
-          { icon:Award, label:'Longest Streak',  value:longestStreak, unit:'days',  color:'text-amber-400',  bg:'bg-amber-500/10' },
-          { icon:Brain, label:'Words Learned',   value:totalWordsLearned, unit:'words',color:'text-indigo-400',bg:'bg-indigo-500/10' },
-          { icon:Star,  label:'Level',            value:`Lv.${level}`,unit:'',      color:'text-violet-400', bg:'bg-violet-500/10' },
-        ].map(({ icon:Icon, label, value, unit, color, bg }) => (
-          <div key={label} className={`card p-5 flex items-center gap-3 ${bg}`}>
-            <Icon size={24} className={color} />
-            <div>
-              <p className={`text-2xl font-black ${color}`}>{value}{unit && <span className="text-sm ml-1">{unit}</span>}</p>
-              <p className="text-xs text-slate-500">{label}</p>
-            </div>
-          </div>
-        ))}
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+        {STAT_CARDS.map((s, i) => {
+          const Icon = s.icon;
+          return (
+            <motion.div key={s.label}
+              initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: i * 0.06 }}
+              className={`${s.bg} rounded-2xl p-4 border border-white/5`}>
+              <Icon size={20} className={s.color} />
+              <div className={`text-2xl font-black ${s.color} mt-2`}>
+                <CountUp end={s.value} duration={2} />{s.suffix || ''}
+              </div>
+              <p className="text-xs text-slate-500 mt-1">{s.label}</p>
+            </motion.div>
+          );
+        })}
+      </div>
+
+      {/* Charts Row */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        {/* Weekly Performance Area Chart */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.2 }}
+          className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+          <h3 className="text-white font-bold text-lg mb-4 flex items-center gap-2"><TrendingUp size={18} className="text-indigo-400" /> Weekly Performance</h3>
+          <ResponsiveContainer width="100%" height={280}>
+            <AreaChart data={WEEKLY_DATA}>
+              <defs>
+                <linearGradient id="colorGrammar" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="#818cf8" stopOpacity={0.3} />
+                  <stop offset="95%" stopColor="#818cf8" stopOpacity={0} />
+                </linearGradient>
+                <linearGradient id="colorVocab" x1="0" y1="0" x2="0" y2="1">
+                  <stop offset="5%" stopColor="#34d399" stopOpacity={0.3} />
+                  <stop offset="95%" stopColor="#34d399" stopOpacity={0} />
+                </linearGradient>
+              </defs>
+              <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
+              <XAxis dataKey="day" stroke="#475569" fontSize={12} />
+              <YAxis stroke="#475569" fontSize={12} />
+              <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b', borderRadius: '12px', fontSize: '13px' }} />
+              <Legend />
+              <Area type="monotone" dataKey="grammar" stroke="#818cf8" fillOpacity={1} fill="url(#colorGrammar)" strokeWidth={2} />
+              <Area type="monotone" dataKey="vocab" stroke="#34d399" fillOpacity={1} fill="url(#colorVocab)" strokeWidth={2} />
+              <Area type="monotone" dataKey="speaking" stroke="#f472b6" fillOpacity={0.1} fill="transparent" strokeWidth={2} />
+            </AreaChart>
+          </ResponsiveContainer>
+        </motion.div>
+
+        {/* Mastery Radar Chart */}
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.3 }}
+          className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+          <h3 className="text-white font-bold text-lg mb-4 flex items-center gap-2"><Brain size={18} className="text-purple-400" /> Skill Mastery</h3>
+          <ResponsiveContainer width="100%" height={280}>
+            <RadarChart data={MASTERY_DATA}>
+              <PolarGrid stroke="#1e293b" />
+              <PolarAngleAxis dataKey="subject" stroke="#64748b" fontSize={12} />
+              <PolarRadiusAxis angle={30} domain={[0, 100]} tick={false} />
+              <Radar name="Mastery" dataKey="A" stroke="#a78bfa" fill="#a78bfa" fillOpacity={0.3} strokeWidth={2} />
+            </RadarChart>
+          </ResponsiveContainer>
+        </motion.div>
+      </div>
+
+      {/* Monthly Study Bar Chart */}
+      <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ delay: 0.4 }}
+        className="bg-slate-900 border border-slate-800 rounded-2xl p-6">
+        <h3 className="text-white font-bold text-lg mb-4 flex items-center gap-2"><Calendar size={18} className="text-amber-400" /> Monthly Study (Minutes per Day)</h3>
+        <ResponsiveContainer width="100%" height={250}>
+          <BarChart data={MONTHLY_DATA}>
+            <CartesianGrid strokeDasharray="3 3" stroke="#1e293b" />
+            <XAxis dataKey="day" stroke="#475569" fontSize={11} />
+            <YAxis stroke="#475569" fontSize={11} />
+            <Tooltip contentStyle={{ background: '#0f172a', border: '1px solid #1e293b', borderRadius: '12px', fontSize: '13px' }} />
+            <Bar dataKey="minutes" fill="#f59e0b" radius={[4, 4, 0, 0]} />
+          </BarChart>
+        </ResponsiveContainer>
       </motion.div>
     </div>
   );

@@ -1,4 +1,23 @@
-// API Route placeholder — implement when backend is ready
 import { NextResponse } from 'next/server';
-export async function GET() { return NextResponse.json({ message: 'API endpoint — coming soon', status: 'ok' }); }
-export async function POST() { return NextResponse.json({ message: 'API endpoint — coming soon', status: 'ok' }); }
+import fs from 'fs';
+import path from 'path';
+
+export async function GET(request, { params }) {
+  const day = params.day;
+  
+  try {
+    const filePath = path.join(process.cwd(), 'data', 'days', `day_${day}.json`);
+    
+    if (!fs.existsSync(filePath)) {
+      return NextResponse.json({ error: 'Data not found for this day' }, { status: 404 });
+    }
+    
+    const fileContent = fs.readFileSync(filePath, 'utf8');
+    const data = JSON.parse(fileContent);
+    
+    return NextResponse.json(data);
+  } catch (error) {
+    console.error('Error fetching day data:', error);
+    return NextResponse.json({ error: 'Internal Server Error' }, { status: 500 });
+  }
+}

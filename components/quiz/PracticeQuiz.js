@@ -32,6 +32,8 @@ const isMatch = (userAnswer, correct, alternatives = []) => {
   return (alternatives || []).some((alt) => u === normalize(alt));
 };
 
+const getCorrectAnswer = (q) => q?.correctAnswer || q?.english || q?.answer || q?.options?.[q?.correct] || '';
+
 const STATES = { READY: 'ready', ACTIVE: 'active', SUMMARY: 'summary' };
 
 // ── Animation variants ────────────────────────────────────────
@@ -190,7 +192,9 @@ export default function PracticeQuiz({
     if (!answer?.trim()) return;
     if (!isTest && submitted) return;
 
-    const isCorrectAnswer = isMatch(answer, currentQ.english, currentQ.alternatives);
+    const isCorrectAnswer = currentQ?.type === 'mcq'
+      ? normalize(answer) === normalize(getCorrectAnswer(currentQ))
+      : isMatch(answer, currentQ.english, currentQ.alternatives);
 
     if (isTest) {
       const nextResults = [...results, { q: currentQ, isCorrect: isCorrectAnswer, userAnswer: answer }];
@@ -471,9 +475,12 @@ function QuestionCard({
   const mcqOptions = useRef(null);
   useEffect(() => {
     if (q?.type !== 'mcq') { mcqOptions.current = null; return; }
-    const opts = [q.english, ...(q.alternatives || []).slice(0, 3)];
+    const correctAnswer = getCorrectAnswer(q);
+    const opts = Array.isArray(q.options) && q.options.length > 0
+      ? q.options
+      : [correctAnswer, ...(q.alternatives || []).slice(0, 3)];
     while (opts.length < 4) opts.push(`Option ${opts.length + 1}`);
-    mcqOptions.current = opts.slice(0, 4).sort(() => Math.random() - 0.5);
+    mcqOptions.current = Array.from(new Set(opts)).slice(0, 4).sort(() => Math.random() - 0.5);
   }, [q]);
 
   const options = mcqOptions.current || [];
@@ -587,9 +594,9 @@ function QuestionCard({
                   ? 'border-primary-400 bg-primary-500/20 text-white shadow-md shadow-primary-500/10'
                   : 'border-white/10 bg-white/5 text-slate-300 hover:border-white/25 hover:bg-white/8';
               } else {
-                if (opt === q.english)
+                if (normalize(opt) === normalize(getCorrectAnswer(q)))
                   cls += 'border-emerald-500/60 bg-emerald-500/15 text-emerald-200';
-                else if (opt === selectedMCQ && opt !== q.english)
+                else if (opt === selectedMCQ && normalize(opt) !== normalize(getCorrectAnswer(q)))
                   cls += 'border-rose-500/60 bg-rose-500/15 text-rose-300';
                 else
                   cls += 'border-white/8 bg-white/3 text-slate-500';
@@ -607,10 +614,10 @@ function QuestionCard({
                       {String.fromCharCode(65 + i)}
                     </span>
                     <span className="flex-1">{opt}</span>
-                    {submitted && opt === q.english && (
+                    {submitted && normalize(opt) === normalize(getCorrectAnswer(q)) && (
                       <CheckCircle2 size={16} className="text-emerald-400 shrink-0" />
                     )}
-                    {submitted && opt === selectedMCQ && opt !== q.english && (
+                    {submitted && opt === selectedMCQ && normalize(opt) !== normalize(getCorrectAnswer(q)) && (
                       <XCircle size={16} className="text-rose-400 shrink-0" />
                     )}
                   </div>
@@ -695,7 +702,7 @@ function QuestionCard({
                             className="mt-2 p-3 rounded-xl bg-white/5 border border-white/10"
                           >
                             <p className="text-xs text-slate-400 mb-1">Correct answer:</p>
-                            <p className="text-base font-semibold text-emerald-300">{q?.english}</p>
+                            <p className="text-base font-semibold text-emerald-300">{getCorrectAnswer(q)}</p>
                             {q?.alternatives?.length > 0 && (
                               <div className="mt-2">
                                 <p className="text-[10px] text-slate-500 mb-1">Also accepted:</p>
