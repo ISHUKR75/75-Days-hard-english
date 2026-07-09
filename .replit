@@ -1,11 +1,11 @@
-modules = ["nodejs-20", "web"]
+modules = ["nodejs-20", "web", "bash"]
 
 [deployment]
 router = "application"
 deploymentTarget = "autoscale"
 
 [deployment.postBuild]
-args = ["pnpm", "store", "prune"]
+args = ["npm", "prune", "--production"]
 env = { "CI" = "true" }
 
 [workflows]
