@@ -1,21 +1,16 @@
 'use client';
 
-import React, { useState, useEffect, useRef } from 'react';
+import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
 import {
   ArrowLeft, ArrowRight, BookOpen, Target, Mic,
-  CheckCircle2, ChevronDown, ChevronUp, Star,
-  Play, Volume2, PenTool, Brain, Zap, Lock,
-  MessageSquare, FileText, Trophy, XCircle, Check
+  CheckCircle2, ChevronDown, Star,
+  PenTool, Brain, Zap,
+  FileText, Trophy, XCircle
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
-// Note: Assuming these exist as they were in the original file
-import DAYS_75_TOPICS, { getTopicByDay } from '@/lib/topics';
-import getContentForDay from '@/lib/grammarContent';
-import useUserStore from '@/store/userStore';
-import useProgressStore from '@/store/progressStore';
 
 // ============================================================
 // Sound Effect Hook (Web Audio API)
@@ -141,6 +136,17 @@ export default function DayPage() {
 
   const progressPct = (Object.keys(sectionsDone).length / LESSON_SECTIONS.length) * 100;
 
+  if (loading && !data) {
+    return (
+      <div className="max-w-4xl mx-auto py-16">
+        <div className="rounded-2xl border border-slate-800 bg-slate-900/80 p-8 text-center">
+          <p className="text-xl font-semibold text-white">Loading Day {dayNum}...</p>
+          <p className="text-slate-400 mt-2">Fetching lesson data and practice content.</p>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <motion.div 
       initial={{ opacity: 0, y: 20 }}
@@ -259,9 +265,9 @@ export default function DayPage() {
                       {id === 'concept' && <ConceptSection topic={topic} content={content} onComplete={() => markSectionDone(id)} />}
                       {id === 'vocabulary' && <VocabularyMassive vocabulary={data?.vocabulary || []} onComplete={() => markSectionDone(id)} />}
                       {id === 'practice' && <InteractivePractice practiceQs={data?.practice || []} playSound={playSound} onComplete={() => markSectionDone(id)} />}
-                      {id === 'speaking' && <SpeakingAdvanced topic={topic} content={content} />}
-                      {id === 'writing' && <WritingAdvanced topic={topic} />}
-                      {id === 'test' && <MockTestEngine dayNum={dayNum} mockTest={data?.mockTest || []} />}
+                      {id === 'speaking' && <SpeakingAdvanced topic={topic} practiceQs={data?.practice || []} onComplete={() => markSectionDone(id)} />}
+                      {id === 'writing' && <WritingAdvanced topic={topic} content={content} vocabulary={data?.vocabulary || []} practiceQs={data?.practice || []} onComplete={() => markSectionDone(id)} />}
+                      {id === 'test' && <MockTestEngine dayNum={dayNum} mockTest={data?.mockTest || []} onComplete={() => markSectionDone(id)} />}
                     </div>
                   </motion.div>
                 )}
@@ -404,6 +410,26 @@ function VocabularyMassive({ vocabulary, onComplete }) {
   );
 }
 
+function normalizeAnswerText(text) {
+  return (text || '')
+    .toLowerCase()
+    .replace(/[^a-z0-9 ]/g, ' ')
+    .replace(/\s+/g, ' ')
+    .trim();
+}
+
+function isAnswerCorrect(userInput, question) {
+  const candidate = normalizeAnswerText(userInput);
+  if (!candidate) return false;
+
+  const accepted = [
+    question?.english,
+    ...(Array.isArray(question?.alternatives) ? question.alternatives : []),
+  ].filter(Boolean);
+
+  return accepted.some((answer) => normalizeAnswerText(answer) === candidate);
+}
+
 // Highly Interactive Practice Engine (Hindi -> English)
 function InteractivePractice({ practiceQs, playSound, onComplete }) {
   const allQs = practiceQs.length > 0 ? practiceQs : [{ id: 1, hindi: 'Loading...', english: 'Loading...' }];
@@ -416,12 +442,8 @@ function InteractivePractice({ practiceQs, playSound, onComplete }) {
 
   const checkAnswer = () => {
     if (!userInput.trim()) return;
-    
-    // Simple normalization for checking
-    const normalInput = userInput.trim().toLowerCase().replace(/[^a-z0-9 ]/g, '');
-    const normalTarget = currentQ.english.toLowerCase().replace(/[^a-z0-9 ]/g, '');
 
-    if (normalInput === normalTarget) {
+    if (isAnswerCorrect(userInput, currentQ)) {
       setStatus('correct');
       playSound('correct');
       setScore(s => s + 10);
@@ -527,51 +549,236 @@ function InteractivePractice({ practiceQs, playSound, onComplete }) {
   );
 }
 
-function SpeakingAdvanced({ topic, content }) {
-  // Mock advanced speaking ui
+function SpeakingAdvanced({ topic, practiceQs, onComplete }) {
+  const speakingItems = (practiceQs || []).slice(0, 8);
+  const [currentIndex, setCurrentIndex] = useState(0);
+  const [showReference, setShowReference] = useState(false);
+
+  if (!speakingItems.length) {
+    return <p className="text-slate-400">Speaking drills are loading...</p>;
+  }
+
+  const current = speakingItems[currentIndex];
+  const completionPercent = Math.round(((currentIndex + 1) / speakingItems.length) * 100);
+
   return (
-    <div className="space-y-6 text-center py-10">
-      <div className="w-24 h-24 rounded-full bg-pink-500/20 border-4 border-pink-500/30 flex items-center justify-center mx-auto mb-6 text-pink-400">
-        <Mic size={48} />
+    <div className="space-y-5">
+      <div className="rounded-2xl border border-pink-500/30 bg-pink-500/5 p-5">
+        <h3 className="text-2xl font-black text-white mb-2">Speaking Lab — {topic.title}</h3>
+        <p className="text-slate-300">Read the Hindi prompt, speak the English translation aloud, then compare with the reference answer.</p>
       </div>
-      <h3 className="text-3xl font-black text-white">AI Pronunciation Coach</h3>
-      <p className="text-lg text-slate-400 max-w-2xl mx-auto">Read the sentences aloud. Our AI will analyze your phonetics, stress, and intonation in real-time to give you a native-speaker score.</p>
-      
-      <button className="px-8 py-4 rounded-full bg-pink-600 hover:bg-pink-500 text-white font-bold text-lg transition-all shadow-lg shadow-pink-500/30 flex items-center gap-3 mx-auto mt-8">
-        <Play fill="currentColor" /> Start Speaking Session
+
+      <div className="rounded-2xl border border-slate-700 bg-slate-900 p-6 space-y-4">
+        <div className="flex items-center justify-between text-sm text-slate-400">
+          <span>Prompt {currentIndex + 1} / {speakingItems.length}</span>
+          <span>{completionPercent}% session progress</span>
+        </div>
+        <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
+          <div className="h-full bg-pink-500" style={{ width: `${completionPercent}%` }} />
+        </div>
+        <p className="text-xl md:text-2xl text-white hindi-text font-semibold">{current.hindi}</p>
+
+        <div className="flex flex-wrap gap-3">
+          <button
+            onClick={() => setShowReference(v => !v)}
+            className="px-4 py-2 rounded-lg border border-pink-500/40 bg-pink-500/10 text-pink-300 font-semibold"
+          >
+            {showReference ? 'Hide Reference' : 'Reveal Reference'}
+          </button>
+          <button
+            onClick={() => setCurrentIndex((idx) => Math.max(0, idx - 1))}
+            disabled={currentIndex === 0}
+            className="px-4 py-2 rounded-lg border border-slate-700 text-slate-300 disabled:opacity-40"
+          >
+            Previous
+          </button>
+          <button
+            onClick={() => setCurrentIndex((idx) => Math.min(speakingItems.length - 1, idx + 1))}
+            disabled={currentIndex === speakingItems.length - 1}
+            className="px-4 py-2 rounded-lg border border-slate-700 text-slate-300 disabled:opacity-40"
+          >
+            Next
+          </button>
+        </div>
+
+        {showReference && (
+          <div className="rounded-xl bg-emerald-500/10 border border-emerald-500/30 p-4">
+            <p className="text-xs uppercase tracking-wide text-emerald-300 mb-1">Reference translation</p>
+            <p className="text-lg font-bold text-white">{current.english}</p>
+          </div>
+        )}
+      </div>
+
+      <button
+        onClick={onComplete}
+        className="w-full py-3 rounded-xl bg-pink-600 hover:bg-pink-500 text-white font-bold"
+      >
+        Mark Speaking Session Complete
       </button>
     </div>
   );
 }
 
-function WritingAdvanced({ topic }) {
+function WritingAdvanced({ topic, content, vocabulary, practiceQs, onComplete }) {
+  const [draft, setDraft] = useState('');
+  const prompt = `Write 6-10 sentences about "${topic.title}" using at least 3 words from today's vocabulary.`;
+  const vocabSuggestions = (vocabulary || []).slice(0, 6).map((item) => item.word);
+  const referenceSentences = (practiceQs || []).slice(0, 3).map((item) => item.english);
+  const wordCount = draft.trim() ? draft.trim().split(/\s+/).length : 0;
+
   return (
-    <div className="space-y-6 text-center py-10">
-      <div className="w-24 h-24 rounded-full bg-rose-500/20 border-4 border-rose-500/30 flex items-center justify-center mx-auto mb-6 text-rose-400">
-        <PenTool size={48} />
+    <div className="space-y-5">
+      <div className="rounded-2xl border border-rose-500/30 bg-rose-500/5 p-5">
+        <h3 className="text-2xl font-black text-white mb-2">Writing Drill — {topic.title}</h3>
+        <p className="text-slate-300">{prompt}</p>
       </div>
-      <h3 className="text-3xl font-black text-white">Advanced Writing Drills</h3>
-      <p className="text-lg text-slate-400 max-w-2xl mx-auto">Write essays, emails, and paragraphs. Get instant grammar correction, vocabulary enhancement suggestions, and tone analysis.</p>
-      
-      <button className="px-8 py-4 rounded-full bg-rose-600 hover:bg-rose-500 text-white font-bold text-lg transition-all shadow-lg shadow-rose-500/30 flex items-center gap-3 mx-auto mt-8">
-        <PenTool /> Start Writing Assignment
+
+      <div className="grid gap-4 md:grid-cols-2">
+        <div className="rounded-xl border border-slate-700 bg-slate-900 p-4">
+          <p className="text-sm font-semibold text-rose-300 mb-2">Use these vocabulary words</p>
+          <div className="flex flex-wrap gap-2">
+            {vocabSuggestions.map((word) => (
+              <span key={word} className="px-2 py-1 rounded-md bg-slate-800 text-slate-200 text-sm border border-slate-700">{word}</span>
+            ))}
+          </div>
+        </div>
+        <div className="rounded-xl border border-slate-700 bg-slate-900 p-4">
+          <p className="text-sm font-semibold text-indigo-300 mb-2">Sentence references</p>
+          <ul className="space-y-2 text-sm text-slate-300 list-disc list-inside">
+            {referenceSentences.map((sentence, idx) => <li key={`${sentence}-${idx}`}>{sentence}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      <textarea
+        value={draft}
+        onChange={(e) => setDraft(e.target.value)}
+        placeholder="Write your paragraph here..."
+        rows={8}
+        className="w-full rounded-2xl bg-slate-900 border border-slate-700 p-4 text-white focus:border-rose-500/60 outline-none"
+      />
+      <div className="flex justify-between text-sm text-slate-400">
+        <span>Words: {wordCount}</span>
+        <span>{wordCount >= 40 ? 'Good length ✅' : 'Target: at least 40 words'}</span>
+      </div>
+
+      {content?.rules?.length > 0 && (
+        <div className="rounded-xl border border-amber-500/30 bg-amber-500/5 p-4">
+          <p className="text-sm font-semibold text-amber-300 mb-2">Before submitting, check:</p>
+          <ul className="text-sm text-slate-300 space-y-1 list-disc list-inside">
+            {content.rules.slice(0, 3).map((rule, idx) => <li key={`${rule}-${idx}`}>{rule}</li>)}
+          </ul>
+        </div>
+      )}
+
+      <button
+        onClick={onComplete}
+        className="w-full py-3 rounded-xl bg-rose-600 hover:bg-rose-500 text-white font-bold"
+      >
+        Mark Writing Drill Complete
       </button>
     </div>
   );
 }
 
-function MockTestEngine({ dayNum, mockTest }) {
-  return (
-    <div className="space-y-6 text-center py-10">
-      <div className="w-24 h-24 rounded-full bg-violet-500/20 border-4 border-violet-500/30 flex items-center justify-center mx-auto mb-6 text-violet-400">
-        <Brain size={48} />
+function MockTestEngine({ dayNum, mockTest, onComplete }) {
+  const questions = (mockTest || []).slice(0, 20);
+  const [started, setStarted] = useState(false);
+  const [index, setIndex] = useState(0);
+  const [input, setInput] = useState('');
+  const [score, setScore] = useState(0);
+  const [revealed, setRevealed] = useState(false);
+  const [submitted, setSubmitted] = useState(false);
+
+  if (!questions.length) {
+    return <p className="text-slate-400">Mock test is loading...</p>;
+  }
+
+  const current = questions[index];
+
+  const submitAnswer = () => {
+    if (!input.trim() || submitted) return;
+    if (isAnswerCorrect(input, current)) {
+      setScore((s) => s + 1);
+    }
+    setSubmitted(true);
+  };
+
+  const next = () => {
+    if (index < questions.length - 1) {
+      setIndex((i) => i + 1);
+      setInput('');
+      setRevealed(false);
+      setSubmitted(false);
+      return;
+    }
+    onComplete();
+  };
+
+  const progress = Math.round((index / questions.length) * 100);
+  const finalPercentage = Math.round((score / questions.length) * 100);
+
+  if (!started) {
+    return (
+      <div className="space-y-5 text-center">
+        <h3 className="text-3xl font-black text-white">Day {dayNum} Real Data Mock Test</h3>
+        <p className="text-slate-300">20 translation questions selected from today&apos;s real dataset.</p>
+        <button onClick={() => setStarted(true)} className="px-8 py-3 rounded-xl bg-violet-600 hover:bg-violet-500 text-white font-bold">
+          Start Mock Test
+        </button>
       </div>
-      <h3 className="text-3xl font-black text-white">Day {dayNum} Final Exam</h3>
-      <p className="text-lg text-slate-400 max-w-2xl mx-auto">{mockTest?.length || 300} Questions. Timed for 45 minutes. You must score 80% or higher to unlock the next day.</p>
-      
-      <button className="px-8 py-4 rounded-full bg-violet-600 hover:bg-violet-500 text-white font-bold text-lg transition-all shadow-lg shadow-violet-500/30 flex items-center gap-3 mx-auto mt-8">
-        <Lock size={20} /> Unlock & Start Test
-      </button>
+    );
+  }
+
+  const completed = submitted && index === questions.length - 1;
+
+  return (
+    <div className="space-y-5">
+      <div className="flex justify-between text-sm text-slate-400">
+        <span>Question {index + 1} / {questions.length}</span>
+        <span>Score: {score}</span>
+      </div>
+      <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
+        <div className="h-full bg-violet-500" style={{ width: `${progress}%` }} />
+      </div>
+
+      <div className="rounded-2xl border border-slate-700 bg-slate-900 p-5 space-y-3">
+        <p className="text-lg text-white hindi-text font-semibold">{current.hindi}</p>
+        <textarea
+          value={input}
+          onChange={(e) => setInput(e.target.value)}
+          rows={3}
+          disabled={submitted}
+          placeholder="Type your translation..."
+          className="w-full rounded-xl bg-slate-800 border border-slate-700 p-3 text-white outline-none"
+        />
+
+        <div className="flex flex-wrap gap-3">
+          <button onClick={submitAnswer} disabled={submitted} className="px-4 py-2 rounded-lg bg-violet-600 text-white font-semibold disabled:opacity-40">
+            Submit
+          </button>
+          <button onClick={() => setRevealed((v) => !v)} className="px-4 py-2 rounded-lg border border-slate-700 text-slate-300">
+            {revealed ? 'Hide Answer' : 'Reveal Answer'}
+          </button>
+          <button onClick={next} disabled={!submitted && !revealed} className="px-4 py-2 rounded-lg bg-emerald-600 text-white font-semibold disabled:opacity-40">
+            {index === questions.length - 1 ? 'Finish' : 'Next'}
+          </button>
+        </div>
+
+        {(revealed || submitted) && (
+          <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/10 p-3">
+            <p className="text-xs uppercase tracking-wide text-emerald-300 mb-1">Correct answer</p>
+            <p className="text-white font-semibold">{current.english}</p>
+          </div>
+        )}
+      </div>
+
+      {completed && (
+        <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-center">
+          <p className="text-amber-300 font-semibold">Final Score: {score}/{questions.length} ({finalPercentage}%)</p>
+          <p className="text-slate-300 text-sm mt-1">{finalPercentage >= 80 ? 'Excellent performance 🎉' : 'Keep practicing and retry for 80%+.'}</p>
+        </div>
+      )}
     </div>
   );
 }
