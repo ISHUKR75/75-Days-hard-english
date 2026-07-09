@@ -1,227 +1,5475 @@
 {
   "day": 9,
   "title": "Vocabulary — Use of There",
-  "totalWords": 150,
-  "categories": [
+  "totalWords": 165,
+  "words": [
     {
-      "category": "Places & Locations (जगहें)",
-      "words": [
-        { "id": 1, "word": "table", "hindi": "मेज", "example": "There is a book on the table.", "pronunciation": "TAY-bul" },
-        { "id": 2, "word": "room", "hindi": "कमरा", "example": "There is a fan in the room.", "pronunciation": "room" },
-        { "id": 3, "word": "office", "hindi": "दफ्तर", "example": "There are many employees in the office.", "pronunciation": "OFF-is" },
-        { "id": 4, "word": "market", "hindi": "बाजार", "example": "There are many shops in the market.", "pronunciation": "MAR-kit" },
-        { "id": 5, "word": "classroom", "hindi": "कक्षा", "example": "There are 30 students in the classroom.", "pronunciation": "KLAS-room" },
-        { "id": 6, "word": "hospital", "hindi": "अस्पताल", "example": "There is a hospital near my house.", "pronunciation": "HOS-pi-tul" },
-        { "id": 7, "word": "station", "hindi": "स्टेशन", "example": "There are many trains at the station.", "pronunciation": "STAY-shun" },
-        { "id": 8, "word": "park", "hindi": "पार्क", "example": "There are many trees in the park.", "pronunciation": "park" },
-        { "id": 9, "word": "street", "hindi": "गली/सड़क", "example": "There are many cars on the street.", "pronunciation": "street" },
-        { "id": 10, "word": "floor", "hindi": "मंजिल", "example": "There is a meeting room on the third floor.", "pronunciation": "flawr" },
-        { "id": 11, "word": "corner", "hindi": "कोना", "example": "There is a shop at the corner.", "pronunciation": "KOR-ner" },
-        { "id": 12, "word": "area", "hindi": "इलाका", "example": "There are many schools in this area.", "pronunciation": "AYR-ee-uh" },
-        { "id": 13, "word": "venue", "hindi": "स्थान", "example": "There will be free parking at the venue.", "pronunciation": "VEN-yoo" },
-        { "id": 14, "word": "lane", "hindi": "गली", "example": "There was a dog in the lane.", "pronunciation": "layn" },
-        { "id": 15, "word": "basement", "hindi": "तहखाना", "example": "There is a parking in the basement.", "pronunciation": "BAYS-munt" }
-      ]
+      "id": 1,
+      "word": "exist",
+      "hindi": "अस्तित्व में होना",
+      "simpleMeaning": "to be real or present",
+      "ipa": "/ɪɡˈzɪst/",
+      "verbForms": {
+        "base": "exist",
+        "s3": "exists",
+        "ing": "existing",
+        "past": "existed",
+        "pp": "existed"
+      },
+      "synonyms": [
+        "be present",
+        "occur",
+        "live"
+      ],
+      "antonyms": [
+        "vanish",
+        "disappear",
+        "cease"
+      ],
+      "sentences": {
+        "daily": "Does a perfect job really exist?",
+        "office": "The old file no longer exists in the system.",
+        "interview": "I believe that a solution exists for every problem.",
+        "business": "Opportunities exist in every market.",
+        "formal": "Such a provision does not exist in the contract.",
+        "informal": "Does that place even exist?"
+      },
+      "usageNote": "Use 'exist' to say something is real/present; pair with 'there' structures.",
+      "cefrLevel": "A2"
     },
     {
-      "category": "Objects & Things (वस्तुएँ)",
-      "words": [
-        { "id": 16, "word": "chair", "hindi": "कुर्सी", "example": "There is a chair near the window.", "pronunciation": "chair" },
-        { "id": 17, "word": "pen", "hindi": "कलम", "example": "There is a pen on the desk.", "pronunciation": "pen" },
-        { "id": 18, "word": "file", "hindi": "फाइल", "example": "There are three files on the table.", "pronunciation": "fyl" },
-        { "id": 19, "word": "laptop", "hindi": "लैपटॉप", "example": "There is a laptop on my desk.", "pronunciation": "LAP-top" },
-        { "id": 20, "word": "printer", "hindi": "प्रिंटर", "example": "There are two printers in the office.", "pronunciation": "PRIN-ter" },
-        { "id": 21, "word": "bottle", "hindi": "बोतल", "example": "There is a bottle of water on the table.", "pronunciation": "BOT-ul" },
-        { "id": 22, "word": "bag", "hindi": "थैला/बैग", "example": "There is a bag near the door.", "pronunciation": "bag" },
-        { "id": 23, "word": "mirror", "hindi": "दर्पण", "example": "There is a mirror in the bathroom.", "pronunciation": "MIR-er" },
-        { "id": 24, "word": "clock", "hindi": "घड़ी", "example": "There is a clock on the wall.", "pronunciation": "klok" },
-        { "id": 25, "word": "calendar", "hindi": "कैलेंडर", "example": "There is a calendar on my desk.", "pronunciation": "KAL-en-der" },
-        { "id": 26, "word": "whiteboard", "hindi": "सफेद बोर्ड", "example": "There is a whiteboard in the classroom.", "pronunciation": "WYT-bord" },
-        { "id": 27, "word": "projector", "hindi": "प्रोजेक्टर", "example": "There is a projector in the conference room.", "pronunciation": "pruh-JEK-ter" },
-        { "id": 28, "word": "notice board", "hindi": "सूचना बोर्ड", "example": "There is an announcement on the notice board.", "pronunciation": "NOH-tis bord" },
-        { "id": 29, "word": "dustbin", "hindi": "कचरे का डब्बा", "example": "There is a dustbin near the exit.", "pronunciation": "DUST-bin" },
-        { "id": 30, "word": "sofa", "hindi": "सोफा", "example": "There is a sofa in the living room.", "pronunciation": "SOH-fuh" }
-      ]
+      "id": 2,
+      "word": "locate",
+      "hindi": "स्थान खोजना",
+      "simpleMeaning": "to find the position of something",
+      "ipa": "/ləʊˈkeɪt/",
+      "verbForms": {
+        "base": "locate",
+        "s3": "locates",
+        "ing": "locating",
+        "past": "located",
+        "pp": "located"
+      },
+      "synonyms": [
+        "find",
+        "discover",
+        "pinpoint"
+      ],
+      "antonyms": [
+        "lose",
+        "misplace"
+      ],
+      "sentences": {
+        "daily": "I couldn't locate the keys.",
+        "office": "The IT team located the error quickly.",
+        "interview": "Can you locate the relevant files?",
+        "business": "We located a new vendor.",
+        "formal": "The authority located the source of the leak.",
+        "informal": "I can't locate my phone!"
+      },
+      "usageNote": "'Locate' is more formal than 'find'.",
+      "cefrLevel": "B1"
     },
     {
-      "category": "People (लोग)",
-      "words": [
-        { "id": 31, "word": "student", "hindi": "छात्र", "example": "There are 40 students in my class.", "pronunciation": "STOO-dent" },
-        { "id": 32, "word": "teacher", "hindi": "शिक्षक", "example": "There is a new teacher today.", "pronunciation": "TEE-cher" },
-        { "id": 33, "word": "employee", "hindi": "कर्मचारी", "example": "There are 50 employees in our company.", "pronunciation": "em-PLOY-ee" },
-        { "id": 34, "word": "manager", "hindi": "प्रबंधक", "example": "There is a manager in every department.", "pronunciation": "MAN-i-jer" },
-        { "id": 35, "word": "customer", "hindi": "ग्राहक", "example": "There are many customers waiting.", "pronunciation": "KUS-tuh-mer" },
-        { "id": 36, "word": "candidate", "hindi": "उम्मीदवार", "example": "There are five candidates for this post.", "pronunciation": "KAN-di-dayt" },
-        { "id": 37, "word": "visitor", "hindi": "आगंतुक", "example": "There is a visitor at the reception.", "pronunciation": "VIZ-i-ter" },
-        { "id": 38, "word": "doctor", "hindi": "डॉक्टर", "example": "There is a doctor available today.", "pronunciation": "DOK-ter" },
-        { "id": 39, "word": "guard", "hindi": "चौकीदार", "example": "There is a guard at the gate.", "pronunciation": "gard" },
-        { "id": 40, "word": "crowd", "hindi": "भीड़", "example": "There was a crowd at the bus stop.", "pronunciation": "krowd" }
-      ]
+      "id": 3,
+      "word": "available",
+      "hindi": "उपलब्ध",
+      "simpleMeaning": "ready to use or obtain",
+      "ipa": "/əˈveɪləbl/",
+      "verbForms": {
+        "base": "available",
+        "s3": "available",
+        "ing": "available",
+        "past": "available",
+        "pp": "available"
+      },
+      "synonyms": [
+        "accessible",
+        "obtainable",
+        "free"
+      ],
+      "antonyms": [
+        "unavailable",
+        "taken",
+        "occupied"
+      ],
+      "sentences": {
+        "daily": "Is this seat available?",
+        "office": "The manager is not available right now.",
+        "interview": "Are you available for an immediate joining?",
+        "business": "Stock is available in all sizes.",
+        "formal": "The report will be available by Friday.",
+        "informal": "Is that slot available?"
+      },
+      "usageNote": "'Available' is an adjective — use after 'be' verb.",
+      "cefrLevel": "A2"
     },
     {
-      "category": "Problems & Situations (समस्याएँ और स्थितियाँ)",
-      "words": [
-        { "id": 41, "word": "problem", "hindi": "समस्या", "example": "There is a problem in the system.", "pronunciation": "PROB-lem" },
-        { "id": 42, "word": "mistake", "hindi": "गलती", "example": "There has been a mistake in the report.", "pronunciation": "mis-TAYK" },
-        { "id": 43, "word": "error", "hindi": "त्रुटि", "example": "There is an error in the code.", "pronunciation": "EHR-er" },
-        { "id": 44, "word": "delay", "hindi": "देरी", "example": "There has been a delay in the project.", "pronunciation": "di-LAY" },
-        { "id": 45, "word": "complaint", "hindi": "शिकायत", "example": "There have been many complaints.", "pronunciation": "kum-PLAYNT" },
-        { "id": 46, "word": "issue", "hindi": "मुद्दा", "example": "There is an issue with the internet.", "pronunciation": "ISH-oo" },
-        { "id": 47, "word": "accident", "hindi": "दुर्घटना", "example": "There was an accident near the office.", "pronunciation": "AK-si-dent" },
-        { "id": 48, "word": "shortage", "hindi": "कमी", "example": "There is a shortage of water.", "pronunciation": "SHOR-tij" },
-        { "id": 49, "word": "noise", "hindi": "शोर", "example": "There is a lot of noise outside.", "pronunciation": "noyz" },
-        { "id": 50, "word": "traffic", "hindi": "यातायात", "example": "There is heavy traffic on this road.", "pronunciation": "TRAF-ik" }
-      ]
+      "id": 4,
+      "word": "shortage",
+      "hindi": "कमी",
+      "simpleMeaning": "not enough of something",
+      "ipa": "/ˈʃɔːtɪdʒ/",
+      "verbForms": {
+        "base": "shortage",
+        "s3": "shortages",
+        "ing": "shortage",
+        "past": "shortage",
+        "pp": "shortage"
+      },
+      "synonyms": [
+        "scarcity",
+        "deficit",
+        "lack"
+      ],
+      "antonyms": [
+        "surplus",
+        "abundance",
+        "excess"
+      ],
+      "sentences": {
+        "daily": "There is a shortage of water in summer.",
+        "office": "There is a shortage of staff this month.",
+        "interview": "Have you handled a shortage of resources?",
+        "business": "There is a shortage of raw material.",
+        "formal": "The shortage of skilled workers is concerning.",
+        "informal": "There's a total shortage of coffee here!"
+      },
+      "usageNote": "'Shortage' is a noun; 'short of' is the phrase.",
+      "cefrLevel": "B1"
     },
     {
-      "category": "Events & Activities (कार्यक्रम और गतिविधियाँ)",
-      "words": [
-        { "id": 51, "word": "meeting", "hindi": "बैठक", "example": "There is a meeting at 10 am.", "pronunciation": "MEE-ting" },
-        { "id": 52, "word": "event", "hindi": "कार्यक्रम", "example": "There will be a big event next week.", "pronunciation": "EE-vent" },
-        { "id": 53, "word": "party", "hindi": "पार्टी", "example": "There was a party last night.", "pronunciation": "PAR-tee" },
-        { "id": 54, "word": "test", "hindi": "परीक्षा", "example": "There will be a test tomorrow.", "pronunciation": "test" },
-        { "id": 55, "word": "competition", "hindi": "प्रतियोगिता", "example": "There is a competition on Saturday.", "pronunciation": "kom-pi-TI-shun" },
-        { "id": 56, "word": "festival", "hindi": "त्योहार", "example": "There are many festivals in India.", "pronunciation": "FES-ti-vul" },
-        { "id": 57, "word": "announcement", "hindi": "घोषणा", "example": "There will be an announcement soon.", "pronunciation": "uh-NOWNS-ment" },
-        { "id": 58, "word": "presentation", "hindi": "प्रस्तुति", "example": "There is a presentation today.", "pronunciation": "prez-en-TAY-shun" },
-        { "id": 59, "word": "interview", "hindi": "साक्षात्कार", "example": "There will be interviews next week.", "pronunciation": "IN-ter-vyoo" },
-        { "id": 60, "word": "holiday", "hindi": "छुट्टी", "example": "There is a holiday on Monday.", "pronunciation": "HOL-i-day" }
-      ]
+      "id": 5,
+      "word": "sufficient",
+      "hindi": "पर्याप्त",
+      "simpleMeaning": "enough for the purpose",
+      "ipa": "/səˈfɪʃnt/",
+      "verbForms": {
+        "base": "sufficient",
+        "s3": "sufficient",
+        "ing": "sufficient",
+        "past": "sufficient",
+        "pp": "sufficient"
+      },
+      "synonyms": [
+        "adequate",
+        "enough",
+        "ample"
+      ],
+      "antonyms": [
+        "insufficient",
+        "inadequate",
+        "lacking"
+      ],
+      "sentences": {
+        "daily": "There is sufficient food for everyone.",
+        "office": "Is there sufficient budget for this project?",
+        "interview": "I have sufficient experience for this role.",
+        "business": "There is sufficient demand in the market.",
+        "formal": "Sufficient evidence must be provided.",
+        "informal": "Is there sufficient time?"
+      },
+      "usageNote": "'Sufficient' is slightly formal; 'enough' is more common in speech.",
+      "cefrLevel": "B1"
     },
     {
-      "category": "Nature & Weather (प्रकृति और मौसम)",
-      "words": [
-        { "id": 61, "word": "rain", "hindi": "बारिश", "example": "There is heavy rain outside.", "pronunciation": "rayn" },
-        { "id": 62, "word": "flood", "hindi": "बाढ़", "example": "There were floods last year.", "pronunciation": "flud" },
-        { "id": 63, "word": "storm", "hindi": "तूफान", "example": "There is a storm coming.", "pronunciation": "storm" },
-        { "id": 64, "word": "fog", "hindi": "कोहरा", "example": "There is thick fog this morning.", "pronunciation": "fog" },
-        { "id": 65, "word": "heat", "hindi": "गर्मी", "example": "There is a lot of heat today.", "pronunciation": "heet" },
-        { "id": 66, "word": "breeze", "hindi": "हवा", "example": "There is a cool breeze today.", "pronunciation": "breez" },
-        { "id": 67, "word": "sunshine", "hindi": "धूप", "example": "There is sunshine today.", "pronunciation": "SUN-shyn" },
-        { "id": 68, "word": "cloud", "hindi": "बादल", "example": "There are many clouds in the sky.", "pronunciation": "klowd" },
-        { "id": 69, "word": "thunder", "hindi": "गरज", "example": "There was thunder last night.", "pronunciation": "THUN-der" },
-        { "id": 70, "word": "earthquake", "hindi": "भूकंप", "example": "There was an earthquake in 2001.", "pronunciation": "ERTH-kwayk" }
-      ]
+      "id": 6,
+      "word": "absence",
+      "hindi": "अनुपस्थिति",
+      "simpleMeaning": "not being in a place",
+      "ipa": "/ˈæbsəns/",
+      "verbForms": {
+        "base": "absence",
+        "s3": "absences",
+        "ing": "absence",
+        "past": "absence",
+        "pp": "absence"
+      },
+      "synonyms": [
+        "non-attendance",
+        "lack",
+        "omission"
+      ],
+      "antonyms": [
+        "presence",
+        "attendance",
+        "existence"
+      ],
+      "sentences": {
+        "daily": "In his absence, I managed everything.",
+        "office": "Her absence affected the team's output.",
+        "interview": "Please explain any gap or absence on your CV.",
+        "business": "The absence of a clear strategy caused delays.",
+        "formal": "The absence of the defendant was noted.",
+        "informal": "What's with your absence lately?"
+      },
+      "usageNote": "'In the absence of' = when something is not there.",
+      "cefrLevel": "B1"
     },
     {
-      "category": "Food & Home (खाना और घर)",
-      "words": [
-        { "id": 71, "word": "milk", "hindi": "दूध", "example": "There is some milk in the fridge.", "pronunciation": "milk" },
-        { "id": 72, "word": "rice", "hindi": "चावल", "example": "There is rice in the pot.", "pronunciation": "rys" },
-        { "id": 73, "word": "vegetable", "hindi": "सब्जी", "example": "There are fresh vegetables in the kitchen.", "pronunciation": "VEJ-tuh-bul" },
-        { "id": 74, "word": "fruit", "hindi": "फल", "example": "There are fruits in the basket.", "pronunciation": "froot" },
-        { "id": 75, "word": "water", "hindi": "पानी", "example": "There is no water in the tank.", "pronunciation": "WAW-ter" },
-        { "id": 76, "word": "electricity", "hindi": "बिजली", "example": "There is no electricity in this area.", "pronunciation": "i-lek-TRIS-i-tee" },
-        { "id": 77, "word": "furniture", "hindi": "फर्नीचर", "example": "There is new furniture in the office.", "pronunciation": "FUR-ni-cher" },
-        { "id": 78, "word": "appliance", "hindi": "उपकरण", "example": "There are many appliances in the kitchen.", "pronunciation": "uh-PLY-uns" },
-        { "id": 79, "word": "garden", "hindi": "बगीचा", "example": "There is a beautiful garden near the office.", "pronunciation": "GAR-den" },
-        { "id": 80, "word": "kitchen", "hindi": "रसोई", "example": "There is a modern kitchen in this flat.", "pronunciation": "KICH-en" }
-      ]
+      "id": 7,
+      "word": "presence",
+      "hindi": "उपस्थिति",
+      "simpleMeaning": "being in a place at a time",
+      "ipa": "/ˈprezns/",
+      "verbForms": {
+        "base": "presence",
+        "s3": "presences",
+        "ing": "presence",
+        "past": "presence",
+        "pp": "presence"
+      },
+      "synonyms": [
+        "attendance",
+        "existence",
+        "occurrence"
+      ],
+      "antonyms": [
+        "absence",
+        "non-existence"
+      ],
+      "sentences": {
+        "daily": "His presence made the party lively.",
+        "office": "Your presence is required at the meeting.",
+        "interview": "Maintain a confident presence during the interview.",
+        "business": "We have a strong market presence.",
+        "formal": "The presence of a legal witness is necessary.",
+        "informal": "Your presence is requested!"
+      },
+      "usageNote": "'Presence of mind' = ability to stay calm.",
+      "cefrLevel": "B1"
     },
     {
-      "category": "Time Expressions (समय के शब्द)",
-      "words": [
-        { "id": 81, "word": "today", "hindi": "आज", "example": "There is a lot of work today.", "pronunciation": "tuh-DAY" },
-        { "id": 82, "word": "yesterday", "hindi": "कल (बीता हुआ)", "example": "There was a meeting yesterday.", "pronunciation": "YES-ter-day" },
-        { "id": 83, "word": "tomorrow", "hindi": "कल (आने वाला)", "example": "There will be a test tomorrow.", "pronunciation": "tuh-MOR-oh" },
-        { "id": 84, "word": "recently", "hindi": "हाल ही में", "example": "There have been many changes recently.", "pronunciation": "REE-sent-lee" },
-        { "id": 85, "word": "lately", "hindi": "हाल ही में", "example": "There has been a lot of stress lately.", "pronunciation": "LAYT-lee" },
-        { "id": 86, "word": "currently", "hindi": "वर्तमान में", "example": "There is currently no vacancy.", "pronunciation": "KUR-ent-lee" },
-        { "id": 87, "word": "previously", "hindi": "पहले", "example": "There were many parks here previously.", "pronunciation": "PREE-vee-us-lee" },
-        { "id": 88, "word": "soon", "hindi": "जल्द ही", "example": "There will soon be a solution.", "pronunciation": "soon" },
-        { "id": 89, "word": "already", "hindi": "पहले से ही", "example": "There is already a queue here.", "pronunciation": "awl-RED-ee" },
-        { "id": 90, "word": "still", "hindi": "अभी भी", "example": "There is still time.", "pronunciation": "stil" }
-      ]
+      "id": 8,
+      "word": "vacancy",
+      "hindi": "रिक्तता / पद-रिक्ति",
+      "simpleMeaning": "an empty space or available job",
+      "ipa": "/ˈveɪkənsi/",
+      "verbForms": {
+        "base": "vacancy",
+        "s3": "vacancies",
+        "ing": "vacancy",
+        "past": "vacancy",
+        "pp": "vacancy"
+      },
+      "synonyms": [
+        "opening",
+        "position",
+        "gap"
+      ],
+      "antonyms": [
+        "occupancy",
+        "filled post"
+      ],
+      "sentences": {
+        "daily": "Is there a vacancy at the front desk?",
+        "office": "There is a vacancy in the IT department.",
+        "interview": "I saw the vacancy on your website.",
+        "business": "We have a vacancy for a sales manager.",
+        "formal": "Vacancy exists for the post of accountant.",
+        "informal": "Any vacancies going?"
+      },
+      "usageNote": "Plural: 'vacancies'. 'There is a vacancy' = job available.",
+      "cefrLevel": "B1"
     },
     {
-      "category": "Quantity Words (मात्रा के शब्द)",
-      "words": [
-        { "id": 91, "word": "many", "hindi": "कई/बहुत", "example": "There are many options available.", "pronunciation": "MEN-ee" },
-        { "id": 92, "word": "few", "hindi": "कुछ (कम)", "example": "There are a few mistakes here.", "pronunciation": "fyoo" },
-        { "id": 93, "word": "several", "hindi": "कई", "example": "There are several ways to solve this.", "pronunciation": "SEV-er-ul" },
-        { "id": 94, "word": "enough", "hindi": "पर्याप्त", "example": "There is enough food for everyone.", "pronunciation": "i-NUF" },
-        { "id": 95, "word": "plenty", "hindi": "काफी", "example": "There is plenty of time left.", "pronunciation": "PLEN-tee" },
-        { "id": 96, "word": "some", "hindi": "कुछ", "example": "There are some good news.", "pronunciation": "sum" },
-        { "id": 97, "word": "no", "hindi": "कोई नहीं", "example": "There is no problem.", "pronunciation": "noh" },
-        { "id": 98, "word": "any", "hindi": "कोई भी", "example": "Is there any milk?", "pronunciation": "EN-ee" },
-        { "id": 99, "word": "lot", "hindi": "बहुत", "example": "There is a lot of work.", "pronunciation": "lot" },
-        { "id": 100, "word": "little", "hindi": "थोड़ा", "example": "There is a little water left.", "pronunciation": "LIT-ul" }
-      ]
+      "id": 9,
+      "word": "capacity",
+      "hindi": "क्षमता",
+      "simpleMeaning": "the maximum amount something can hold",
+      "ipa": "/kəˈpæsɪti/",
+      "verbForms": {
+        "base": "capacity",
+        "s3": "capacities",
+        "ing": "capacity",
+        "past": "capacity",
+        "pp": "capacity"
+      },
+      "synonyms": [
+        "ability",
+        "volume",
+        "capability"
+      ],
+      "antonyms": [
+        "incapacity",
+        "inability"
+      ],
+      "sentences": {
+        "daily": "The hall has a capacity of 200.",
+        "office": "There is no capacity for more work.",
+        "interview": "What is your capacity to work under pressure?",
+        "business": "Our production capacity has doubled.",
+        "formal": "The warehouse has a storage capacity of 5000 units.",
+        "informal": "I'm at full capacity right now!"
+      },
+      "usageNote": "'At full capacity' = no more space or ability available.",
+      "cefrLevel": "B2"
     },
     {
-      "category": "Professional & Office Words (कार्यालय शब्द)",
-      "words": [
-        { "id": 101, "word": "vacancy", "hindi": "रिक्ति", "example": "There is a vacancy in our team.", "pronunciation": "VAY-kun-see" },
-        { "id": 102, "word": "opportunity", "hindi": "अवसर", "example": "There are many opportunities here.", "pronunciation": "op-er-TYOO-ni-tee" },
-        { "id": 103, "word": "deadline", "hindi": "अंतिम तिथि", "example": "There is a deadline on Friday.", "pronunciation": "DED-lyn" },
-        { "id": 104, "word": "project", "hindi": "परियोजना", "example": "There is a new project this month.", "pronunciation": "PROJ-ekt" },
-        { "id": 105, "word": "department", "hindi": "विभाग", "example": "There are five departments in our company.", "pronunciation": "di-PART-ment" },
-        { "id": 106, "word": "update", "hindi": "अपडेट", "example": "There is an update on the project.", "pronunciation": "UP-dayt" },
-        { "id": 107, "word": "report", "hindi": "रिपोर्ट", "example": "There is a report due today.", "pronunciation": "ri-PORT" },
-        { "id": 108, "word": "policy", "hindi": "नीति", "example": "There is a new policy from next month.", "pronunciation": "POL-i-see" },
-        { "id": 109, "word": "target", "hindi": "लक्ष्य", "example": "There is a target to achieve this quarter.", "pronunciation": "TAR-git" },
-        { "id": 110, "word": "budget", "hindi": "बजट", "example": "There is a budget constraint.", "pronunciation": "BUJ-it" }
-      ]
+      "id": 10,
+      "word": "surplus",
+      "hindi": "अधिशेष",
+      "simpleMeaning": "more than what is needed",
+      "ipa": "/ˈsɜːpləs/",
+      "verbForms": {
+        "base": "surplus",
+        "s3": "surpluses",
+        "ing": "surplus",
+        "past": "surplus",
+        "pp": "surplus"
+      },
+      "synonyms": [
+        "excess",
+        "extra",
+        "remainder"
+      ],
+      "antonyms": [
+        "deficit",
+        "shortage",
+        "scarcity"
+      ],
+      "sentences": {
+        "daily": "There is a surplus of vegetables today.",
+        "office": "We have a budget surplus this quarter.",
+        "interview": "How do you manage surplus resources?",
+        "business": "There is a surplus of inventory.",
+        "formal": "The surplus amount will be carried forward.",
+        "informal": "There's too much surplus here!"
+      },
+      "usageNote": "'Budget surplus' vs 'budget deficit'. Opposite of shortage.",
+      "cefrLevel": "B2"
     },
     {
-      "category": "Transportation & City (शहर और यातायात)",
-      "words": [
-        { "id": 111, "word": "bus", "hindi": "बस", "example": "There is a bus every 10 minutes.", "pronunciation": "bus" },
-        { "id": 112, "word": "train", "hindi": "ट्रेन", "example": "There are many trains from Delhi.", "pronunciation": "trayn" },
-        { "id": 113, "word": "metro", "hindi": "मेट्रो", "example": "There is a metro station nearby.", "pronunciation": "MET-roh" },
-        { "id": 114, "word": "airport", "hindi": "हवाई अड्डा", "example": "There are two airports in this city.", "pronunciation": "AIR-port" },
-        { "id": 115, "word": "highway", "hindi": "राजमार्ग", "example": "There is a new highway under construction.", "pronunciation": "HY-way" },
-        { "id": 116, "word": "signal", "hindi": "सिग्नल", "example": "There is a traffic signal at this crossing.", "pronunciation": "SIG-nul" },
-        { "id": 117, "word": "flyover", "hindi": "फ्लाईओवर", "example": "There is a flyover being built here.", "pronunciation": "FLY-oh-ver" },
-        { "id": 118, "word": "parking", "hindi": "पार्किंग", "example": "There is free parking in the basement.", "pronunciation": "PAR-king" },
-        { "id": 119, "word": "bridge", "hindi": "पुल", "example": "There is a bridge over the river.", "pronunciation": "brij" },
-        { "id": 120, "word": "crossing", "hindi": "चौराहा", "example": "There are shops at every crossing.", "pronunciation": "KROSS-ing" }
-      ]
+      "id": 11,
+      "word": "obstacle",
+      "hindi": "बाधा",
+      "simpleMeaning": "something that blocks progress",
+      "ipa": "/ˈɒbstəkl/",
+      "verbForms": {
+        "base": "obstacle",
+        "s3": "obstacles",
+        "ing": "obstacle",
+        "past": "obstacle",
+        "pp": "obstacle"
+      },
+      "synonyms": [
+        "barrier",
+        "hurdle",
+        "impediment"
+      ],
+      "antonyms": [
+        "aid",
+        "help",
+        "support"
+      ],
+      "sentences": {
+        "daily": "There are many obstacles on this road.",
+        "office": "There is an obstacle in the project approval.",
+        "interview": "Tell me about an obstacle you overcame.",
+        "business": "There are obstacles in entering this market.",
+        "formal": "The obstacle must be removed before proceeding.",
+        "informal": "That's a real obstacle!"
+      },
+      "usageNote": "'Obstacle course' in sports; 'overcome obstacles' in general.",
+      "cefrLevel": "B2"
     },
     {
-      "category": "Health & Education (स्वास्थ्य और शिक्षा)",
-      "words": [
-        { "id": 121, "word": "clinic", "hindi": "क्लिनिक", "example": "There is a clinic on the next street.", "pronunciation": "KLIN-ik" },
-        { "id": 122, "word": "pharmacy", "hindi": "दवाई की दुकान", "example": "There is a pharmacy nearby.", "pronunciation": "FAR-muh-see" },
-        { "id": 123, "word": "ambulance", "hindi": "एम्बुलेंस", "example": "There is an ambulance outside.", "pronunciation": "AM-byoo-luns" },
-        { "id": 124, "word": "library", "hindi": "पुस्तकालय", "example": "There is a library in our school.", "pronunciation": "LY-brer-ee" },
-        { "id": 125, "word": "laboratory", "hindi": "प्रयोगशाला", "example": "There is a science laboratory on the second floor.", "pronunciation": "LAB-ruh-tor-ee" },
-        { "id": 126, "word": "syllabus", "hindi": "पाठ्यक्रम", "example": "There are changes in the syllabus.", "pronunciation": "SIL-uh-bus" },
-        { "id": 127, "word": "scholarship", "hindi": "छात्रवृत्ति", "example": "There are scholarships for meritorious students.", "pronunciation": "SKOL-er-ship" },
-        { "id": 128, "word": "hostel", "hindi": "छात्रावास", "example": "There is a hostel near the college.", "pronunciation": "HOS-tel" },
-        { "id": 129, "word": "canteen", "hindi": "कैंटीन", "example": "There is a canteen in our office.", "pronunciation": "kan-TEEN" },
-        { "id": 130, "word": "gym", "hindi": "व्यायामशाला", "example": "There is a gym on the ground floor.", "pronunciation": "jim" }
-      ]
+      "id": 12,
+      "word": "solution",
+      "hindi": "समाधान",
+      "simpleMeaning": "an answer to a problem",
+      "ipa": "/səˈluːʃn/",
+      "verbForms": {
+        "base": "solution",
+        "s3": "solutions",
+        "ing": "solution",
+        "past": "solution",
+        "pp": "solution"
+      },
+      "synonyms": [
+        "answer",
+        "resolution",
+        "fix"
+      ],
+      "antonyms": [
+        "problem",
+        "issue",
+        "complication"
+      ],
+      "sentences": {
+        "daily": "There is a solution to every problem.",
+        "office": "Is there a solution to the network issue?",
+        "interview": "I always look for a practical solution.",
+        "business": "There is a solution-focused approach.",
+        "formal": "A solution must be devised promptly.",
+        "informal": "Found a solution yet?"
+      },
+      "usageNote": "'Find a solution' or 'come up with a solution'.",
+      "cefrLevel": "A2"
     },
     {
-      "category": "Abstract Concepts (अमूर्त अवधारणाएँ)",
-      "words": [
-        { "id": 131, "word": "hope", "hindi": "उम्मीद", "example": "There is always hope.", "pronunciation": "hohp" },
-        { "id": 132, "word": "solution", "hindi": "समाधान", "example": "There is a solution to every problem.", "pronunciation": "suh-LOO-shun" },
-        { "id": 133, "word": "possibility", "hindi": "संभावना", "example": "There is a possibility of rain.", "pronunciation": "pos-i-BIL-i-tee" },
-        { "id": 134, "word": "need", "hindi": "जरूरत", "example": "There is a need for change.", "pronunciation": "need" },
-        { "id": 135, "word": "scope", "hindi": "गुंजाइश", "example": "There is scope for improvement.", "pronunciation": "skohp" },
-        { "id": 136, "word": "difference", "hindi": "अंतर", "example": "There is a difference between the two.", "pronunciation": "DIF-er-uns" },
-        { "id": 137, "word": "reason", "hindi": "कारण", "example": "There is a reason for everything.", "pronunciation": "REE-zun" },
-        { "id": 138, "word": "chance", "hindi": "मौका", "example": "There is a chance of success.", "pronunciation": "chans" },
-        { "id": 139, "word": "risk", "hindi": "जोखिम", "example": "There is a risk involved.", "pronunciation": "risk" },
-        { "id": 140, "word": "benefit", "hindi": "फायदा", "example": "There are many benefits to this plan.", "pronunciation": "BEN-i-fit" }
-      ]
+      "id": 13,
+      "word": "opportunity",
+      "hindi": "अवसर",
+      "simpleMeaning": "a chance to do something",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "verbForms": {
+        "base": "opportunity",
+        "s3": "opportunities",
+        "ing": "opportunity",
+        "past": "opportunity",
+        "pp": "opportunity"
+      },
+      "synonyms": [
+        "chance",
+        "opening",
+        "prospect"
+      ],
+      "antonyms": [
+        "obstacle",
+        "setback"
+      ],
+      "sentences": {
+        "daily": "There is an opportunity to learn here.",
+        "office": "There is a great opportunity in this project.",
+        "interview": "I see this role as a great opportunity.",
+        "business": "There are many business opportunities abroad.",
+        "formal": "An opportunity for advancement exists.",
+        "informal": "What an opportunity!"
+      },
+      "usageNote": "Plural: 'opportunities'. 'Miss an opportunity' = lose a chance.",
+      "cefrLevel": "A2"
     },
     {
-      "category": "Common Adjectives Used with There (विशेषण)",
-      "words": [
-        { "id": 141, "word": "available", "hindi": "उपलब्ध", "example": "There are no seats available.", "pronunciation": "uh-VAYL-uh-bul" },
-        { "id": 142, "word": "nearby", "hindi": "पास में", "example": "There is a school nearby.", "pronunciation": "NEER-by" },
-        { "id": 143, "word": "enough", "hindi": "पर्याप्त", "example": "There isn't enough space.", "pronunciation": "i-NUF" },
-        { "id": 144, "word": "free", "hindi": "मुफ्त/खाली", "example": "There is a free seat here.", "pronunciation": "free" },
-        { "id": 145, "word": "new", "hindi": "नया", "example": "There is a new student today.", "pronunciation": "nyoo" },
-        { "id": 146, "word": "old", "hindi": "पुराना", "example": "There was an old building here.", "pronunciation": "ohld" },
-        { "id": 147, "word": "only", "hindi": "केवल", "example": "There is only one option.", "pronunciation": "OHN-lee" },
-        { "id": 148, "word": "single", "hindi": "एकमात्र", "example": "There isn't a single mistake.", "pronunciation": "SING-gul" },
-        { "id": 149, "word": "total", "hindi": "कुल", "example": "There are a total of 500 questions.", "pronunciation": "TOH-tul" },
-        { "id": 150, "word": "extra", "hindi": "अतिरिक्त", "example": "There are extra chairs in the store room.", "pronunciation": "EK-struh" }
-      ]
+      "id": 14,
+      "word": "challenge",
+      "hindi": "चुनौती",
+      "simpleMeaning": "something difficult that requires effort",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "verbForms": {
+        "base": "challenge",
+        "s3": "challenges",
+        "ing": "challenging",
+        "past": "challenged",
+        "pp": "challenged"
+      },
+      "synonyms": [
+        "difficulty",
+        "test",
+        "obstacle"
+      ],
+      "antonyms": [
+        "ease",
+        "simplicity"
+      ],
+      "sentences": {
+        "daily": "There are many challenges in daily life.",
+        "office": "There is a new challenge every day at work.",
+        "interview": "I enjoy challenges; they help me grow.",
+        "business": "There are challenges in scaling the business.",
+        "formal": "The challenge must be addressed systematically.",
+        "informal": "Bring on the challenge!"
+      },
+      "usageNote": "'Challenge' can be a noun or verb. As verb: 'to challenge someone'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 15,
+      "word": "resource",
+      "hindi": "संसाधन",
+      "simpleMeaning": "a supply of something useful",
+      "ipa": "/ˈriːsɔːs/",
+      "verbForms": {
+        "base": "resource",
+        "s3": "resources",
+        "ing": "resourcing",
+        "past": "resourced",
+        "pp": "resourced"
+      },
+      "synonyms": [
+        "supply",
+        "asset",
+        "means"
+      ],
+      "antonyms": [
+        "lack",
+        "deficiency"
+      ],
+      "sentences": {
+        "daily": "There are many resources online.",
+        "office": "Are there enough resources for the project?",
+        "interview": "I can work efficiently with limited resources.",
+        "business": "There are abundant natural resources here.",
+        "formal": "The resource allocation must be reviewed.",
+        "informal": "We're running low on resources!"
+      },
+      "usageNote": "Plural form 'resources' is most common.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 16,
+      "word": "facility",
+      "hindi": "सुविधा",
+      "simpleMeaning": "a building or service for a purpose",
+      "ipa": "/fəˈsɪlɪti/",
+      "verbForms": {
+        "base": "facility",
+        "s3": "facilities",
+        "ing": "facility",
+        "past": "facility",
+        "pp": "facility"
+      },
+      "synonyms": [
+        "amenity",
+        "service",
+        "provision"
+      ],
+      "antonyms": [
+        "inconvenience",
+        "lack"
+      ],
+      "sentences": {
+        "daily": "There is a sports facility near my house.",
+        "office": "Are there enough facilities in the office?",
+        "interview": "What facilities does the company provide?",
+        "business": "There is a production facility in Pune.",
+        "formal": "The facility must comply with safety norms.",
+        "informal": "Nice facilities here!"
+      },
+      "usageNote": "'Facilities' (plural) usually refers to services; singular for a specific place.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 17,
+      "word": "demand",
+      "hindi": "माँग",
+      "simpleMeaning": "a strong request or need for something",
+      "ipa": "/dɪˈmɑːnd/",
+      "verbForms": {
+        "base": "demand",
+        "s3": "demands",
+        "ing": "demanding",
+        "past": "demanded",
+        "pp": "demanded"
+      },
+      "synonyms": [
+        "requirement",
+        "need",
+        "request"
+      ],
+      "antonyms": [
+        "supply",
+        "provision"
+      ],
+      "sentences": {
+        "daily": "There is a huge demand for good teachers.",
+        "office": "There is a demand for more staff.",
+        "interview": "I work well even under demanding conditions.",
+        "business": "There is a high demand for this product.",
+        "formal": "The demand for skilled workers is increasing.",
+        "informal": "Everyone's demanding too much!"
+      },
+      "usageNote": "'Supply and demand' is a basic economic concept.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 18,
+      "word": "supply",
+      "hindi": "आपूर्ति",
+      "simpleMeaning": "the amount of something available",
+      "ipa": "/səˈplaɪ/",
+      "verbForms": {
+        "base": "supply",
+        "s3": "supplies",
+        "ing": "supplying",
+        "past": "supplied",
+        "pp": "supplied"
+      },
+      "synonyms": [
+        "stock",
+        "provision",
+        "inventory"
+      ],
+      "antonyms": [
+        "demand",
+        "shortage"
+      ],
+      "sentences": {
+        "daily": "There is a fresh supply of vegetables.",
+        "office": "There is a supply chain issue.",
+        "interview": "How would you handle a disrupted supply?",
+        "business": "There is a reliable supply from the vendor.",
+        "formal": "The supply must meet the current demand.",
+        "informal": "Supplies are running low!"
+      },
+      "usageNote": "'Supply chain' is a common business term.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 19,
+      "word": "concern",
+      "hindi": "चिंता / चिंतित होना",
+      "simpleMeaning": "a feeling of worry or something to worry about",
+      "ipa": "/kənˈsɜːn/",
+      "verbForms": {
+        "base": "concern",
+        "s3": "concerns",
+        "ing": "concerning",
+        "past": "concerned",
+        "pp": "concerned"
+      },
+      "synonyms": [
+        "worry",
+        "issue",
+        "matter"
+      ],
+      "antonyms": [
+        "indifference",
+        "unconcern"
+      ],
+      "sentences": {
+        "daily": "There is a concern about the weather.",
+        "office": "There is a serious concern about the deadline.",
+        "interview": "Is there any concern about my qualifications?",
+        "business": "There is a concern about market volatility.",
+        "formal": "The concern must be addressed immediately.",
+        "informal": "That's a big concern!"
+      },
+      "usageNote": "'Concerning' as adjective means 'worrying'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 20,
+      "word": "benefit",
+      "hindi": "लाभ",
+      "simpleMeaning": "something helpful or useful",
+      "ipa": "/ˈbenɪfɪt/",
+      "verbForms": {
+        "base": "benefit",
+        "s3": "benefits",
+        "ing": "benefiting",
+        "past": "benefited",
+        "pp": "benefited"
+      },
+      "synonyms": [
+        "advantage",
+        "gain",
+        "profit"
+      ],
+      "antonyms": [
+        "disadvantage",
+        "loss",
+        "harm"
+      ],
+      "sentences": {
+        "daily": "There is a great benefit to exercise.",
+        "office": "There are many employee benefits here.",
+        "interview": "What benefits does this role offer?",
+        "business": "There are tax benefits for startups.",
+        "formal": "The benefit of this approach is clear.",
+        "informal": "There are so many benefits!"
+      },
+      "usageNote": "'Benefit of the doubt' = assuming the best.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 21,
+      "word": "risk",
+      "hindi": "जोखिम",
+      "simpleMeaning": "the possibility of something bad happening",
+      "ipa": "/rɪsk/",
+      "verbForms": {
+        "base": "risk",
+        "s3": "risks",
+        "ing": "risking",
+        "past": "risked",
+        "pp": "risked"
+      },
+      "synonyms": [
+        "danger",
+        "hazard",
+        "threat"
+      ],
+      "antonyms": [
+        "safety",
+        "security"
+      ],
+      "sentences": {
+        "daily": "There is a risk of rain today.",
+        "office": "There is a risk in this investment.",
+        "interview": "I analyse risk before making decisions.",
+        "business": "There are financial risks in this deal.",
+        "formal": "The risk must be mitigated before launch.",
+        "informal": "That's way too risky!"
+      },
+      "usageNote": "'At risk' = in danger. 'Risk-free' = without danger.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 22,
+      "word": "delay",
+      "hindi": "देरी",
+      "simpleMeaning": "being late or taking longer than expected",
+      "ipa": "/dɪˈleɪ/",
+      "verbForms": {
+        "base": "delay",
+        "s3": "delays",
+        "ing": "delaying",
+        "past": "delayed",
+        "pp": "delayed"
+      },
+      "synonyms": [
+        "postponement",
+        "setback",
+        "holdup"
+      ],
+      "antonyms": [
+        "punctuality",
+        "promptness"
+      ],
+      "sentences": {
+        "daily": "There is a delay in the bus today.",
+        "office": "There has been a delay in the report.",
+        "interview": "How do you handle project delays?",
+        "business": "There is a delay in shipment.",
+        "formal": "The delay must be compensated.",
+        "informal": "There's a delay again!"
+      },
+      "usageNote": "'Delay' can be a noun and a verb.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 23,
+      "word": "improvement",
+      "hindi": "सुधार",
+      "simpleMeaning": "making something better than before",
+      "ipa": "/ɪmˈpruːvmənt/",
+      "verbForms": {
+        "base": "improvement",
+        "s3": "improvements",
+        "ing": "improving",
+        "past": "improved",
+        "pp": "improved"
+      },
+      "synonyms": [
+        "enhancement",
+        "upgrade",
+        "progress"
+      ],
+      "antonyms": [
+        "deterioration",
+        "worsening",
+        "decline"
+      ],
+      "sentences": {
+        "daily": "There is a great improvement in his English.",
+        "office": "There is room for improvement in the process.",
+        "interview": "I focus on continuous improvement.",
+        "business": "There has been an improvement in sales.",
+        "formal": "The improvement must be sustained.",
+        "informal": "I see real improvement!"
+      },
+      "usageNote": "'Room for improvement' is a common phrase.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 24,
+      "word": "access",
+      "hindi": "पहुँच / प्रवेश",
+      "simpleMeaning": "the right or ability to use or enter",
+      "ipa": "/ˈækses/",
+      "verbForms": {
+        "base": "access",
+        "s3": "accesses",
+        "ing": "accessing",
+        "past": "accessed",
+        "pp": "accessed"
+      },
+      "synonyms": [
+        "entry",
+        "approach",
+        "admission"
+      ],
+      "antonyms": [
+        "denial",
+        "restriction",
+        "barrier"
+      ],
+      "sentences": {
+        "daily": "There is no access to this road.",
+        "office": "Is there access to the server from home?",
+        "interview": "Do I have access to training materials?",
+        "business": "There is easy access to the target market.",
+        "formal": "Access must be granted by the administrator.",
+        "informal": "I can't get access!"
+      },
+      "usageNote": "'Access to' (not 'access of').",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 25,
+      "word": "evidence",
+      "hindi": "प्रमाण",
+      "simpleMeaning": "facts that prove something is true",
+      "ipa": "/ˈevɪdəns/",
+      "verbForms": {
+        "base": "evidence",
+        "s3": "evidence",
+        "ing": "evidencing",
+        "past": "evidenced",
+        "pp": "evidenced"
+      },
+      "synonyms": [
+        "proof",
+        "indication",
+        "sign"
+      ],
+      "antonyms": [
+        "disproof",
+        "denial"
+      ],
+      "sentences": {
+        "daily": "There is no evidence of cheating.",
+        "office": "There is clear evidence in the audit report.",
+        "interview": "I always provide evidence of my achievements.",
+        "business": "There is no evidence of market saturation.",
+        "formal": "Sufficient evidence must be produced.",
+        "informal": "Where's the evidence?"
+      },
+      "usageNote": "'Evidence' is usually uncountable.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 26,
+      "word": "update",
+      "hindi": "अपडेट / नवीनीकरण",
+      "simpleMeaning": "new information or a newer version",
+      "ipa": "/ˈʌpdeɪt/",
+      "verbForms": {
+        "base": "update",
+        "s3": "updates",
+        "ing": "updating",
+        "past": "updated",
+        "pp": "updated"
+      },
+      "synonyms": [
+        "revision",
+        "upgrade",
+        "amendment"
+      ],
+      "antonyms": [
+        "outdated version",
+        "obsolescence"
+      ],
+      "sentences": {
+        "daily": "There is a new update for this app.",
+        "office": "Is there any update on the project?",
+        "interview": "I keep my skills updated.",
+        "business": "There is a product update coming.",
+        "formal": "An update to the policy will be issued.",
+        "informal": "Any update?"
+      },
+      "usageNote": "'Update on' (for information) vs 'update of' (for a document).",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 27,
+      "word": "notice",
+      "hindi": "सूचना / ध्यान देना",
+      "simpleMeaning": "written information or the act of observing",
+      "ipa": "/ˈnəʊtɪs/",
+      "verbForms": {
+        "base": "notice",
+        "s3": "notices",
+        "ing": "noticing",
+        "past": "noticed",
+        "pp": "noticed"
+      },
+      "synonyms": [
+        "observation",
+        "announcement",
+        "sign"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "There is a notice on the board.",
+        "office": "There is a notice about the holiday.",
+        "interview": "I notice small details in every task.",
+        "business": "There is a prior notice required.",
+        "formal": "The notice must be served in writing.",
+        "informal": "Did you see that notice?"
+      },
+      "usageNote": "'Notice period' = time before leaving a job.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 28,
+      "word": "announcement",
+      "hindi": "घोषणा",
+      "simpleMeaning": "a public or official statement",
+      "ipa": "/əˈnaʊnsmənt/",
+      "verbForms": {
+        "base": "announcement",
+        "s3": "announcements",
+        "ing": "announcing",
+        "past": "announced",
+        "pp": "announced"
+      },
+      "synonyms": [
+        "declaration",
+        "notice",
+        "statement"
+      ],
+      "antonyms": [
+        "silence",
+        "secrecy"
+      ],
+      "sentences": {
+        "daily": "There was an announcement about the festival.",
+        "office": "There is an announcement about the new policy.",
+        "interview": "Any announcement about the results?",
+        "business": "There will be a product announcement.",
+        "formal": "The announcement was made by the CEO.",
+        "informal": "Did you hear the announcement?"
+      },
+      "usageNote": "'Make an announcement' is the standard collocation.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 29,
+      "word": "complaint",
+      "hindi": "शिकायत",
+      "simpleMeaning": "an expression of dissatisfaction",
+      "ipa": "/kəmˈpleɪnt/",
+      "verbForms": {
+        "base": "complaint",
+        "s3": "complaints",
+        "ing": "complaining",
+        "past": "complained",
+        "pp": "complained"
+      },
+      "synonyms": [
+        "grievance",
+        "objection",
+        "protest"
+      ],
+      "antonyms": [
+        "praise",
+        "compliment",
+        "satisfaction"
+      ],
+      "sentences": {
+        "daily": "There has been a complaint about the noise.",
+        "office": "There are several complaints from clients.",
+        "interview": "How do you handle customer complaints?",
+        "business": "There was a complaint about the product.",
+        "formal": "The complaint must be investigated.",
+        "informal": "I have a complaint about this!"
+      },
+      "usageNote": "'Lodge a complaint' = formally report a complaint.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 30,
+      "word": "error",
+      "hindi": "त्रुटि / गलती",
+      "simpleMeaning": "a mistake or something wrong",
+      "ipa": "/ˈerər/",
+      "verbForms": {
+        "base": "error",
+        "s3": "errors",
+        "ing": "erring",
+        "past": "erred",
+        "pp": "erred"
+      },
+      "synonyms": [
+        "mistake",
+        "fault",
+        "blunder"
+      ],
+      "antonyms": [
+        "accuracy",
+        "correctness"
+      ],
+      "sentences": {
+        "daily": "There is an error in the bill.",
+        "office": "There is an error in the code.",
+        "interview": "I learn from every error I make.",
+        "business": "There is a margin of error in the data.",
+        "formal": "The error must be rectified immediately.",
+        "informal": "Oops, there's an error!"
+      },
+      "usageNote": "'Human error' vs 'technical error'. 'Error' is more formal than 'mistake'.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 31,
+      "word": "issue",
+      "hindi": "मुद्दा / समस्या",
+      "simpleMeaning": "a problem or topic for discussion",
+      "ipa": "/ˈɪʃuː/",
+      "verbForms": {
+        "base": "issue",
+        "s3": "issues",
+        "ing": "issuing",
+        "past": "issued",
+        "pp": "issued"
+      },
+      "synonyms": [
+        "problem",
+        "matter",
+        "concern"
+      ],
+      "antonyms": [
+        "solution",
+        "resolution"
+      ],
+      "sentences": {
+        "daily": "Is there an issue with the tap?",
+        "office": "There is an issue with the network.",
+        "interview": "How do you resolve team issues?",
+        "business": "There are pricing issues to address.",
+        "formal": "The issue must be resolved within 24 hours.",
+        "informal": "What's the issue?"
+      },
+      "usageNote": "'Issue' is milder than 'problem' in formal contexts.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 32,
+      "word": "progress",
+      "hindi": "प्रगति",
+      "simpleMeaning": "forward movement or development",
+      "ipa": "/ˈprəʊɡres/",
+      "verbForms": {
+        "base": "progress",
+        "s3": "progresses",
+        "ing": "progressing",
+        "past": "progressed",
+        "pp": "progressed"
+      },
+      "synonyms": [
+        "advancement",
+        "development",
+        "improvement"
+      ],
+      "antonyms": [
+        "regression",
+        "decline",
+        "stagnation"
+      ],
+      "sentences": {
+        "daily": "There is good progress in her studies.",
+        "office": "Is there any progress on the task?",
+        "interview": "I track my progress regularly.",
+        "business": "There is steady progress in sales.",
+        "formal": "Progress must be reported monthly.",
+        "informal": "Great progress!"
+      },
+      "usageNote": "'Make progress' or 'in progress' are common phrases.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 33,
+      "word": "requirement",
+      "hindi": "आवश्यकता",
+      "simpleMeaning": "something that is needed",
+      "ipa": "/rɪˈkwaɪərmənt/",
+      "verbForms": {
+        "base": "requirement",
+        "s3": "requirements",
+        "ing": "requirement",
+        "past": "requirement",
+        "pp": "requirement"
+      },
+      "synonyms": [
+        "need",
+        "demand",
+        "necessity"
+      ],
+      "antonyms": [
+        "option",
+        "luxury",
+        "choice"
+      ],
+      "sentences": {
+        "daily": "There is a requirement for fresh vegetables.",
+        "office": "There is a new system requirement.",
+        "interview": "What are the key requirements for this role?",
+        "business": "There are strict requirements for the tender.",
+        "formal": "The requirement must be fulfilled.",
+        "informal": "What are the requirements?"
+      },
+      "usageNote": "'Meet the requirements' = satisfy all conditions.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 34,
+      "word": "permission",
+      "hindi": "अनुमति",
+      "simpleMeaning": "being allowed to do something",
+      "ipa": "/pəˈmɪʃn/",
+      "verbForms": {
+        "base": "permission",
+        "s3": "permissions",
+        "ing": "permission",
+        "past": "permission",
+        "pp": "permission"
+      },
+      "synonyms": [
+        "approval",
+        "consent",
+        "authorisation"
+      ],
+      "antonyms": [
+        "prohibition",
+        "refusal",
+        "denial"
+      ],
+      "sentences": {
+        "daily": "Is there permission to park here?",
+        "office": "There is a permission process for leave.",
+        "interview": "Do I need permission to attend training?",
+        "business": "There is a permission required from the board.",
+        "formal": "Written permission must be obtained.",
+        "informal": "Do I have permission?"
+      },
+      "usageNote": "'With permission' vs 'without permission'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 35,
+      "word": "limit",
+      "hindi": "सीमा",
+      "simpleMeaning": "the most that is allowed",
+      "ipa": "/ˈlɪmɪt/",
+      "verbForms": {
+        "base": "limit",
+        "s3": "limits",
+        "ing": "limiting",
+        "past": "limited",
+        "pp": "limited"
+      },
+      "synonyms": [
+        "boundary",
+        "restriction",
+        "cap"
+      ],
+      "antonyms": [
+        "unlimited",
+        "freedom",
+        "excess"
+      ],
+      "sentences": {
+        "daily": "There is a speed limit on this road.",
+        "office": "There is a budget limit for travel.",
+        "interview": "I work within given limits.",
+        "business": "There is a production limit per day.",
+        "formal": "The limit must not be exceeded.",
+        "informal": "There's a limit to everything!"
+      },
+      "usageNote": "'Exceed the limit' = go beyond what is allowed.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 36,
+      "word": "option",
+      "hindi": "विकल्प",
+      "simpleMeaning": "one of the choices you can make",
+      "ipa": "/ˈɒpʃn/",
+      "verbForms": {
+        "base": "option",
+        "s3": "options",
+        "ing": "option",
+        "past": "option",
+        "pp": "option"
+      },
+      "synonyms": [
+        "choice",
+        "alternative",
+        "possibility"
+      ],
+      "antonyms": [
+        "compulsion",
+        "obligation"
+      ],
+      "sentences": {
+        "daily": "There are several options on the menu.",
+        "office": "There are two options to resolve this.",
+        "interview": "I like to explore all options before deciding.",
+        "business": "There are limited options in this market.",
+        "formal": "All options must be evaluated.",
+        "informal": "What are my options?"
+      },
+      "usageNote": "'Have no option but to' = be forced to do something.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 37,
+      "word": "impact",
+      "hindi": "प्रभाव",
+      "simpleMeaning": "a strong effect on something",
+      "ipa": "/ˈɪmpækt/",
+      "verbForms": {
+        "base": "impact",
+        "s3": "impacts",
+        "ing": "impacting",
+        "past": "impacted",
+        "pp": "impacted"
+      },
+      "synonyms": [
+        "effect",
+        "influence",
+        "consequence"
+      ],
+      "antonyms": [
+        "irrelevance",
+        "insignificance"
+      ],
+      "sentences": {
+        "daily": "There is a big impact of social media.",
+        "office": "There is a positive impact of this change.",
+        "interview": "Can you assess the impact of your decisions?",
+        "business": "There is a market impact of this product.",
+        "formal": "The impact must be measured carefully.",
+        "informal": "Big impact!"
+      },
+      "usageNote": "'Impact on' (not 'impact of' when used as a verb).",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 38,
+      "word": "arrangement",
+      "hindi": "व्यवस्था",
+      "simpleMeaning": "a plan or preparation made in advance",
+      "ipa": "/əˈreɪndʒmənt/",
+      "verbForms": {
+        "base": "arrangement",
+        "s3": "arrangements",
+        "ing": "arranging",
+        "past": "arranged",
+        "pp": "arranged"
+      },
+      "synonyms": [
+        "plan",
+        "organisation",
+        "setup"
+      ],
+      "antonyms": [
+        "disorder",
+        "disorganisation"
+      ],
+      "sentences": {
+        "daily": "There is an arrangement for travel.",
+        "office": "Are there any arrangements for the meeting?",
+        "interview": "I make arrangements in advance.",
+        "business": "There are arrangements for the product launch.",
+        "formal": "The arrangement must be confirmed.",
+        "informal": "Make arrangements please!"
+      },
+      "usageNote": "'Make arrangements' is a common phrase.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 39,
+      "word": "condition",
+      "hindi": "स्थिति / शर्त",
+      "simpleMeaning": "the state of something or a requirement",
+      "ipa": "/kənˈdɪʃn/",
+      "verbForms": {
+        "base": "condition",
+        "s3": "conditions",
+        "ing": "conditioning",
+        "past": "conditioned",
+        "pp": "conditioned"
+      },
+      "synonyms": [
+        "state",
+        "situation",
+        "requirement"
+      ],
+      "antonyms": [
+        "unconditional"
+      ],
+      "sentences": {
+        "daily": "The road is in bad condition.",
+        "office": "There are conditions attached to the offer.",
+        "interview": "What are the working conditions?",
+        "business": "There are market conditions to consider.",
+        "formal": "The condition must be met before signing.",
+        "informal": "What's the condition?"
+      },
+      "usageNote": "'On condition that' = only if. 'Terms and conditions'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 40,
+      "word": "possibility",
+      "hindi": "संभावना",
+      "simpleMeaning": "the chance that something might happen",
+      "ipa": "/ˌpɒsɪˈbɪlɪti/",
+      "verbForms": {
+        "base": "possibility",
+        "s3": "possibilities",
+        "ing": "possibility",
+        "past": "possibility",
+        "pp": "possibility"
+      },
+      "synonyms": [
+        "chance",
+        "likelihood",
+        "prospect"
+      ],
+      "antonyms": [
+        "impossibility",
+        "certainty (negative)"
+      ],
+      "sentences": {
+        "daily": "There is a possibility of rain.",
+        "office": "There is a possibility of promotion.",
+        "interview": "Is there a possibility of remote work?",
+        "business": "There are many possibilities for growth.",
+        "formal": "The possibility must be assessed.",
+        "informal": "Any possibility?"
+      },
+      "usageNote": "'In all possibility' means 'very probably'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 41,
+      "word": "situation",
+      "hindi": "परिस्थिति",
+      "simpleMeaning": "the circumstances at a particular time",
+      "ipa": "/ˌsɪtʃuˈeɪʃn/",
+      "verbForms": {
+        "base": "situation",
+        "s3": "situations",
+        "ing": "situation",
+        "past": "situation",
+        "pp": "situation"
+      },
+      "synonyms": [
+        "circumstance",
+        "position",
+        "condition"
+      ],
+      "antonyms": [
+        "stability",
+        "resolution"
+      ],
+      "sentences": {
+        "daily": "There is a difficult situation at home.",
+        "office": "There was a difficult situation at the office.",
+        "interview": "Describe a situation where you led a team.",
+        "business": "There is an evolving market situation.",
+        "formal": "The situation demands immediate action.",
+        "informal": "What a situation!"
+      },
+      "usageNote": "'In a situation' vs 'under a situation'. Use 'in'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 42,
+      "word": "position",
+      "hindi": "पद / स्थान",
+      "simpleMeaning": "a job, place, or point of view",
+      "ipa": "/pəˈzɪʃn/",
+      "verbForms": {
+        "base": "position",
+        "s3": "positions",
+        "ing": "positioning",
+        "past": "positioned",
+        "pp": "positioned"
+      },
+      "synonyms": [
+        "post",
+        "location",
+        "stance"
+      ],
+      "antonyms": [
+        "displacement"
+      ],
+      "sentences": {
+        "daily": "There is a good position at the front.",
+        "office": "There is an open position in sales.",
+        "interview": "What position are you applying for?",
+        "business": "There are open positions available.",
+        "formal": "The position must be filled immediately.",
+        "informal": "Any open positions?"
+      },
+      "usageNote": "'Position' in jobs context = job role.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 43,
+      "word": "structure",
+      "hindi": "संरचना",
+      "simpleMeaning": "the way something is built or organised",
+      "ipa": "/ˈstrʌktʃər/",
+      "verbForms": {
+        "base": "structure",
+        "s3": "structures",
+        "ing": "structuring",
+        "past": "structured",
+        "pp": "structured"
+      },
+      "synonyms": [
+        "framework",
+        "design",
+        "organisation"
+      ],
+      "antonyms": [
+        "disorder",
+        "chaos"
+      ],
+      "sentences": {
+        "daily": "There is a clear structure to this recipe.",
+        "office": "There is a new management structure.",
+        "interview": "I follow a structured approach to problem-solving.",
+        "business": "There is a corporate structure in place.",
+        "formal": "The structure must be reviewed.",
+        "informal": "Nice structure!"
+      },
+      "usageNote": "'Well-structured' = clearly organised.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 44,
+      "word": "procedure",
+      "hindi": "प्रक्रिया",
+      "simpleMeaning": "an established method of doing something",
+      "ipa": "/prəˈsiːdʒər/",
+      "verbForms": {
+        "base": "procedure",
+        "s3": "procedures",
+        "ing": "procedure",
+        "past": "procedure",
+        "pp": "procedure"
+      },
+      "synonyms": [
+        "process",
+        "method",
+        "protocol"
+      ],
+      "antonyms": [
+        "disorder",
+        "improvisation"
+      ],
+      "sentences": {
+        "daily": "There is a procedure for filing documents.",
+        "office": "There is a standard procedure to follow.",
+        "interview": "I follow all set procedures.",
+        "business": "There is a procurement procedure.",
+        "formal": "The procedure must be adhered to strictly.",
+        "informal": "What's the procedure here?"
+      },
+      "usageNote": "'Follow the procedure' is the standard collocation.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 45,
+      "word": "policy",
+      "hindi": "नीति",
+      "simpleMeaning": "a set of rules or guidelines",
+      "ipa": "/ˈpɒlɪsi/",
+      "verbForms": {
+        "base": "policy",
+        "s3": "policies",
+        "ing": "policy",
+        "past": "policy",
+        "pp": "policy"
+      },
+      "synonyms": [
+        "rule",
+        "guideline",
+        "regulation"
+      ],
+      "antonyms": [
+        "lawlessness",
+        "informality"
+      ],
+      "sentences": {
+        "daily": "There is a no-smoking policy here.",
+        "office": "There is a leave policy in the company.",
+        "interview": "What is the company's HR policy?",
+        "business": "There is a pricing policy to follow.",
+        "formal": "The policy must be implemented.",
+        "informal": "What's the policy on this?"
+      },
+      "usageNote": "'Under this policy' = according to this policy.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 46,
+      "word": "regulation",
+      "hindi": "नियम / विनियमन",
+      "simpleMeaning": "an official rule or law",
+      "ipa": "/ˌreɡjuˈleɪʃn/",
+      "verbForms": {
+        "base": "regulation",
+        "s3": "regulations",
+        "ing": "regulating",
+        "past": "regulated",
+        "pp": "regulated"
+      },
+      "synonyms": [
+        "rule",
+        "law",
+        "directive"
+      ],
+      "antonyms": [
+        "deregulation",
+        "freedom"
+      ],
+      "sentences": {
+        "daily": "There is a regulation about noise levels.",
+        "office": "There are strict data regulations.",
+        "interview": "Are you familiar with industry regulations?",
+        "business": "There are export regulations to follow.",
+        "formal": "The regulation must be complied with.",
+        "informal": "Too many regulations!"
+      },
+      "usageNote": "'Comply with regulations' = follow official rules.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 47,
+      "word": "budget",
+      "hindi": "बजट",
+      "simpleMeaning": "a plan for how money will be spent",
+      "ipa": "/ˈbʌdʒɪt/",
+      "verbForms": {
+        "base": "budget",
+        "s3": "budgets",
+        "ing": "budgeting",
+        "past": "budgeted",
+        "pp": "budgeted"
+      },
+      "synonyms": [
+        "allowance",
+        "fund",
+        "allocation"
+      ],
+      "antonyms": [
+        "overspending",
+        "deficit"
+      ],
+      "sentences": {
+        "daily": "Is there a budget for the party?",
+        "office": "There is a limited budget this quarter.",
+        "interview": "How do you manage a tight budget?",
+        "business": "There is no budget for new marketing.",
+        "formal": "The budget must be approved by the board.",
+        "informal": "What's the budget?"
+      },
+      "usageNote": "'On a budget' = spending carefully.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 48,
+      "word": "deadline",
+      "hindi": "समय-सीमा",
+      "simpleMeaning": "the latest time by which something must be done",
+      "ipa": "/ˈdedlaɪn/",
+      "verbForms": {
+        "base": "deadline",
+        "s3": "deadlines",
+        "ing": "deadline",
+        "past": "deadline",
+        "pp": "deadline"
+      },
+      "synonyms": [
+        "due date",
+        "cutoff",
+        "target date"
+      ],
+      "antonyms": [
+        "open-ended",
+        "no time limit"
+      ],
+      "sentences": {
+        "daily": "Is there a deadline for this form?",
+        "office": "There is a tight deadline for this report.",
+        "interview": "How do you manage multiple deadlines?",
+        "business": "There is a project deadline next Friday.",
+        "formal": "The deadline must be strictly observed.",
+        "informal": "There's a deadline tomorrow!"
+      },
+      "usageNote": "'Meet the deadline' = finish on time.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 49,
+      "word": "schedule",
+      "hindi": "समय-सारिणी / अनुसूची",
+      "simpleMeaning": "a plan that gives times for activities",
+      "ipa": "/ˈʃedjuːl/",
+      "verbForms": {
+        "base": "schedule",
+        "s3": "schedules",
+        "ing": "scheduling",
+        "past": "scheduled",
+        "pp": "scheduled"
+      },
+      "synonyms": [
+        "timetable",
+        "programme",
+        "agenda"
+      ],
+      "antonyms": [
+        "improvisation",
+        "spontaneity"
+      ],
+      "sentences": {
+        "daily": "Is there a schedule for the day?",
+        "office": "There is a meeting scheduled for 3 pm.",
+        "interview": "Can you follow a strict schedule?",
+        "business": "There is a launch schedule prepared.",
+        "formal": "The schedule must be adhered to.",
+        "informal": "What's on the schedule today?"
+      },
+      "usageNote": "'On schedule' = on time. 'Behind schedule' = late.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 50,
+      "word": "agenda",
+      "hindi": "एजेंडा / कार्यसूची",
+      "simpleMeaning": "a list of items to be discussed",
+      "ipa": "/əˈdʒendə/",
+      "verbForms": {
+        "base": "agenda",
+        "s3": "agendas",
+        "ing": "agenda",
+        "past": "agenda",
+        "pp": "agenda"
+      },
+      "synonyms": [
+        "programme",
+        "schedule",
+        "plan"
+      ],
+      "antonyms": [
+        "disorganisation",
+        "spontaneity"
+      ],
+      "sentences": {
+        "daily": "Is there an agenda for today's meeting?",
+        "office": "There are five items on the agenda.",
+        "interview": "How do you set your daily agenda?",
+        "business": "There is a clear agenda for the summit.",
+        "formal": "The agenda was circulated in advance.",
+        "informal": "What's the agenda?"
+      },
+      "usageNote": "'Hidden agenda' = secret motive.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 51,
+      "word": "target",
+      "hindi": "लक्ष्य",
+      "simpleMeaning": "a goal that you try to achieve",
+      "ipa": "/ˈtɑːɡɪt/",
+      "verbForms": {
+        "base": "target",
+        "s3": "targets",
+        "ing": "targeting",
+        "past": "targeted",
+        "pp": "targeted"
+      },
+      "synonyms": [
+        "goal",
+        "aim",
+        "objective"
+      ],
+      "antonyms": [
+        "aimlessness",
+        "failure"
+      ],
+      "sentences": {
+        "daily": "Is there a target for this month?",
+        "office": "There is a sales target for Q3.",
+        "interview": "How do you meet your targets?",
+        "business": "There is a revenue target to achieve.",
+        "formal": "The target must be met by year-end.",
+        "informal": "Hit the target!"
+      },
+      "usageNote": "'On target' = progressing as planned.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 52,
+      "word": "agreement",
+      "hindi": "समझौता",
+      "simpleMeaning": "a decision made between two or more parties",
+      "ipa": "/əˈɡriːmənt/",
+      "verbForms": {
+        "base": "agreement",
+        "s3": "agreements",
+        "ing": "agreeing",
+        "past": "agreed",
+        "pp": "agreed"
+      },
+      "synonyms": [
+        "deal",
+        "contract",
+        "understanding"
+      ],
+      "antonyms": [
+        "disagreement",
+        "dispute",
+        "conflict"
+      ],
+      "sentences": {
+        "daily": "Is there an agreement on the meeting time?",
+        "office": "There is a service agreement in place.",
+        "interview": "Have you worked under formal agreements?",
+        "business": "There is a non-disclosure agreement.",
+        "formal": "The agreement must be signed by both parties.",
+        "informal": "We got an agreement!"
+      },
+      "usageNote": "'Come to an agreement' or 'reach an agreement'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 53,
+      "word": "proposal",
+      "hindi": "प्रस्ताव",
+      "simpleMeaning": "a plan or suggestion put forward for consideration",
+      "ipa": "/prəˈpəʊzl/",
+      "verbForms": {
+        "base": "proposal",
+        "s3": "proposals",
+        "ing": "proposing",
+        "past": "proposed",
+        "pp": "proposed"
+      },
+      "synonyms": [
+        "suggestion",
+        "plan",
+        "offer"
+      ],
+      "antonyms": [
+        "rejection",
+        "withdrawal"
+      ],
+      "sentences": {
+        "daily": "Is there a proposal for the weekend trip?",
+        "office": "There is a new proposal on the table.",
+        "interview": "How do you prepare a project proposal?",
+        "business": "There is a business proposal under review.",
+        "formal": "The proposal must be submitted by Friday.",
+        "informal": "Got any proposals?"
+      },
+      "usageNote": "'Put forward a proposal' or 'submit a proposal'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 54,
+      "word": "estimate",
+      "hindi": "अनुमान",
+      "simpleMeaning": "an approximate calculation",
+      "ipa": "/ˈestɪmət/",
+      "verbForms": {
+        "base": "estimate",
+        "s3": "estimates",
+        "ing": "estimating",
+        "past": "estimated",
+        "pp": "estimated"
+      },
+      "synonyms": [
+        "approximation",
+        "calculation",
+        "guess"
+      ],
+      "antonyms": [
+        "exactness",
+        "precision"
+      ],
+      "sentences": {
+        "daily": "Is there an estimate for the repair?",
+        "office": "There is a cost estimate for the project.",
+        "interview": "How do you estimate project timelines?",
+        "business": "There is a rough estimate for the budget.",
+        "formal": "The estimate must be revised.",
+        "informal": "What's the estimate?"
+      },
+      "usageNote": "'Rough estimate' = approximate figure.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 55,
+      "word": "appointment",
+      "hindi": "नियुक्ति / मुलाकात",
+      "simpleMeaning": "a meeting arranged for a specific time",
+      "ipa": "/əˈpɔɪntmənt/",
+      "verbForms": {
+        "base": "appointment",
+        "s3": "appointments",
+        "ing": "appointing",
+        "past": "appointed",
+        "pp": "appointed"
+      },
+      "synonyms": [
+        "meeting",
+        "booking",
+        "engagement"
+      ],
+      "antonyms": [
+        "cancellation",
+        "no-show"
+      ],
+      "sentences": {
+        "daily": "Is there an appointment with the doctor?",
+        "office": "There is a client appointment at 4 pm.",
+        "interview": "I arrived early for the appointment.",
+        "business": "There is a board appointment ceremony.",
+        "formal": "The appointment must be confirmed in writing.",
+        "informal": "Got an appointment?"
+      },
+      "usageNote": "'Keep an appointment' = attend it; 'cancel an appointment'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 56,
+      "word": "instruction",
+      "hindi": "निर्देश",
+      "simpleMeaning": "information about how to do something",
+      "ipa": "/ɪnˈstrʌkʃn/",
+      "verbForms": {
+        "base": "instruction",
+        "s3": "instructions",
+        "ing": "instructing",
+        "past": "instructed",
+        "pp": "instructed"
+      },
+      "synonyms": [
+        "direction",
+        "guideline",
+        "order"
+      ],
+      "antonyms": [
+        "guidance-free",
+        "self-directed"
+      ],
+      "sentences": {
+        "daily": "Are there any instructions?",
+        "office": "There are clear instructions in the manual.",
+        "interview": "I follow instructions carefully.",
+        "business": "There are instructions for using the product.",
+        "formal": "The instruction must be followed precisely.",
+        "informal": "Read the instructions first!"
+      },
+      "usageNote": "'Follow instructions' or 'carry out instructions'.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 57,
+      "word": "feedback",
+      "hindi": "प्रतिक्रिया / राय",
+      "simpleMeaning": "comments about how well someone did something",
+      "ipa": "/ˈfiːdbæk/",
+      "verbForms": {
+        "base": "feedback",
+        "s3": "feedback",
+        "ing": "giving feedback",
+        "past": "gave feedback",
+        "pp": "given feedback"
+      },
+      "synonyms": [
+        "review",
+        "response",
+        "comment"
+      ],
+      "antonyms": [
+        "silence",
+        "no response"
+      ],
+      "sentences": {
+        "daily": "Is there any feedback on my work?",
+        "office": "There is positive feedback from the client.",
+        "interview": "I welcome constructive feedback.",
+        "business": "There is customer feedback to analyse.",
+        "formal": "Feedback must be submitted by Monday.",
+        "informal": "Give me some feedback!"
+      },
+      "usageNote": "'Feedback' is uncountable in standard usage.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 58,
+      "word": "conflict",
+      "hindi": "टकराव / संघर्ष",
+      "simpleMeaning": "a serious disagreement or fight",
+      "ipa": "/ˈkɒnflɪkt/",
+      "verbForms": {
+        "base": "conflict",
+        "s3": "conflicts",
+        "ing": "conflicting",
+        "past": "conflicted",
+        "pp": "conflicted"
+      },
+      "synonyms": [
+        "dispute",
+        "clash",
+        "disagreement"
+      ],
+      "antonyms": [
+        "agreement",
+        "harmony",
+        "peace"
+      ],
+      "sentences": {
+        "daily": "There is a conflict between the two neighbours.",
+        "office": "There is a conflict of interest here.",
+        "interview": "How do you resolve team conflict?",
+        "business": "There is a conflict in the negotiation.",
+        "formal": "The conflict must be resolved amicably.",
+        "informal": "There's always some conflict!"
+      },
+      "usageNote": "'Conflict of interest' = situation creating bias.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 59,
+      "word": "emergency",
+      "hindi": "आपातकाल",
+      "simpleMeaning": "a serious and dangerous situation",
+      "ipa": "/ɪˈmɜːdʒənsi/",
+      "verbForms": {
+        "base": "emergency",
+        "s3": "emergencies",
+        "ing": "emergency",
+        "past": "emergency",
+        "pp": "emergency"
+      },
+      "synonyms": [
+        "crisis",
+        "urgent situation",
+        "disaster"
+      ],
+      "antonyms": [
+        "routine",
+        "normality"
+      ],
+      "sentences": {
+        "daily": "Is there an emergency exit here?",
+        "office": "There was an emergency drill today.",
+        "interview": "How do you respond in an emergency?",
+        "business": "There is an emergency meeting called.",
+        "formal": "The emergency must be contained immediately.",
+        "informal": "Is this an emergency?"
+      },
+      "usageNote": "'Emergency exit' / 'emergency service' are common compounds.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 60,
+      "word": "priority",
+      "hindi": "प्राथमिकता",
+      "simpleMeaning": "the most important thing to do first",
+      "ipa": "/praɪˈɒrɪti/",
+      "verbForms": {
+        "base": "priority",
+        "s3": "priorities",
+        "ing": "prioritising",
+        "past": "prioritised",
+        "pp": "prioritised"
+      },
+      "synonyms": [
+        "precedence",
+        "urgency",
+        "importance"
+      ],
+      "antonyms": [
+        "negligence",
+        "last priority"
+      ],
+      "sentences": {
+        "daily": "There is a priority list to follow.",
+        "office": "Safety is a top priority.",
+        "interview": "How do you set your priorities?",
+        "business": "There is a business priority for Q1.",
+        "formal": "The priority must be established clearly.",
+        "informal": "What's the priority?"
+      },
+      "usageNote": "'Top priority' = most important. 'Low priority' = less urgent.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 61,
+      "word": "achievement",
+      "hindi": "उपलब्धि",
+      "simpleMeaning": "something done successfully",
+      "ipa": "/əˈtʃiːvmənt/",
+      "verbForms": {
+        "base": "achievement",
+        "s3": "achievements",
+        "ing": "achieving",
+        "past": "achieved",
+        "pp": "achieved"
+      },
+      "synonyms": [
+        "accomplishment",
+        "success",
+        "feat"
+      ],
+      "antonyms": [
+        "failure",
+        "defeat"
+      ],
+      "sentences": {
+        "daily": "There is a big achievement to celebrate.",
+        "office": "There are many achievements this year.",
+        "interview": "What is your biggest achievement?",
+        "business": "There are several business achievements.",
+        "formal": "The achievement must be recognised.",
+        "informal": "What an achievement!"
+      },
+      "usageNote": "'Academic achievement', 'professional achievement' are common phrases.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 62,
+      "word": "contribution",
+      "hindi": "योगदान",
+      "simpleMeaning": "something given to help",
+      "ipa": "/ˌkɒntrɪˈbjuːʃn/",
+      "verbForms": {
+        "base": "contribution",
+        "s3": "contributions",
+        "ing": "contributing",
+        "past": "contributed",
+        "pp": "contributed"
+      },
+      "synonyms": [
+        "addition",
+        "input",
+        "donation"
+      ],
+      "antonyms": [
+        "withdrawal",
+        "subtraction"
+      ],
+      "sentences": {
+        "daily": "There is a contribution from each member.",
+        "office": "Your contribution to the project is valued.",
+        "interview": "What contribution can you make to our team?",
+        "business": "There are many contributions from stakeholders.",
+        "formal": "A financial contribution is required.",
+        "informal": "Make a contribution!"
+      },
+      "usageNote": "'Make a contribution to' is the standard collocation.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 63,
+      "word": "responsibility",
+      "hindi": "जिम्मेदारी",
+      "simpleMeaning": "a duty you are required to do",
+      "ipa": "/rɪˌspɒnsɪˈbɪlɪti/",
+      "verbForms": {
+        "base": "responsibility",
+        "s3": "responsibilities",
+        "ing": "responsibility",
+        "past": "responsibility",
+        "pp": "responsibility"
+      },
+      "synonyms": [
+        "duty",
+        "obligation",
+        "liability"
+      ],
+      "antonyms": [
+        "irresponsibility",
+        "negligence"
+      ],
+      "sentences": {
+        "daily": "There is a responsibility to clean.",
+        "office": "There are responsibilities in this role.",
+        "interview": "Can you handle multiple responsibilities?",
+        "business": "There are financial responsibilities.",
+        "formal": "The responsibility cannot be delegated.",
+        "informal": "Loads of responsibility!"
+      },
+      "usageNote": "'Take responsibility' = accept that you caused something.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 64,
+      "word": "expectation",
+      "hindi": "अपेक्षा",
+      "simpleMeaning": "a belief that something will happen",
+      "ipa": "/ˌekspekˈteɪʃn/",
+      "verbForms": {
+        "base": "expectation",
+        "s3": "expectations",
+        "ing": "expecting",
+        "past": "expected",
+        "pp": "expected"
+      },
+      "synonyms": [
+        "anticipation",
+        "hope",
+        "requirement"
+      ],
+      "antonyms": [
+        "surprise",
+        "disappointment"
+      ],
+      "sentences": {
+        "daily": "Is there an expectation about the result?",
+        "office": "There are high expectations from this team.",
+        "interview": "What are your salary expectations?",
+        "business": "There are client expectations to meet.",
+        "formal": "The expectation must be communicated clearly.",
+        "informal": "Big expectations!"
+      },
+      "usageNote": "'Meet expectations' = do what was expected.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 65,
+      "word": "consequence",
+      "hindi": "परिणाम",
+      "simpleMeaning": "a result of an action",
+      "ipa": "/ˈkɒnsɪkwəns/",
+      "verbForms": {
+        "base": "consequence",
+        "s3": "consequences",
+        "ing": "consequence",
+        "past": "consequence",
+        "pp": "consequence"
+      },
+      "synonyms": [
+        "result",
+        "outcome",
+        "effect"
+      ],
+      "antonyms": [
+        "cause",
+        "origin"
+      ],
+      "sentences": {
+        "daily": "There are consequences for being late.",
+        "office": "There are serious consequences for data breaches.",
+        "interview": "Think about the consequences of each decision.",
+        "business": "There are market consequences of this policy.",
+        "formal": "The consequence must be evaluated.",
+        "informal": "Face the consequences!"
+      },
+      "usageNote": "'As a consequence' = therefore, as a result.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 66,
+      "word": "alternative",
+      "hindi": "विकल्प",
+      "simpleMeaning": "a different choice available",
+      "ipa": "/ɔːlˈtɜːnətɪv/",
+      "verbForms": {
+        "base": "alternative",
+        "s3": "alternatives",
+        "ing": "alternative",
+        "past": "alternative",
+        "pp": "alternative"
+      },
+      "synonyms": [
+        "option",
+        "substitute",
+        "choice"
+      ],
+      "antonyms": [
+        "obligation",
+        "compulsion"
+      ],
+      "sentences": {
+        "daily": "Is there an alternative route?",
+        "office": "There are no alternatives to this software.",
+        "interview": "Do you have an alternative approach?",
+        "business": "There are alternative suppliers.",
+        "formal": "An alternative must be proposed.",
+        "informal": "Any alternatives?"
+      },
+      "usageNote": "'Have no alternative but to' = be forced to.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 67,
+      "word": "exception",
+      "hindi": "अपवाद",
+      "simpleMeaning": "a case where the rule does not apply",
+      "ipa": "/ɪkˈsepʃn/",
+      "verbForms": {
+        "base": "exception",
+        "s3": "exceptions",
+        "ing": "exception",
+        "past": "exception",
+        "pp": "exception"
+      },
+      "synonyms": [
+        "anomaly",
+        "special case",
+        "exclusion"
+      ],
+      "antonyms": [
+        "rule",
+        "standard",
+        "norm"
+      ],
+      "sentences": {
+        "daily": "There is an exception for children.",
+        "office": "Are there any exceptions to this policy?",
+        "interview": "I treat every case without exception.",
+        "business": "There are no exceptions in compliance.",
+        "formal": "The exception must be documented.",
+        "informal": "Is there an exception for me?"
+      },
+      "usageNote": "'Without exception' = in every case, no exceptions.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 68,
+      "word": "recommendation",
+      "hindi": "सिफारिश",
+      "simpleMeaning": "a suggestion that something is good",
+      "ipa": "/ˌrekəmenˈdeɪʃn/",
+      "verbForms": {
+        "base": "recommendation",
+        "s3": "recommendations",
+        "ing": "recommending",
+        "past": "recommended",
+        "pp": "recommended"
+      },
+      "synonyms": [
+        "suggestion",
+        "advice",
+        "endorsement"
+      ],
+      "antonyms": [
+        "warning",
+        "deterrence"
+      ],
+      "sentences": {
+        "daily": "Is there a recommendation for a good doctor?",
+        "office": "There are recommendations from the audit.",
+        "interview": "Do you have a recommendation letter?",
+        "business": "There are client recommendations.",
+        "formal": "The recommendation must be acted on.",
+        "informal": "Any recommendations?"
+      },
+      "usageNote": "'Letter of recommendation' = formal support letter.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 69,
+      "word": "supervision",
+      "hindi": "निरीक्षण / देखरेख",
+      "simpleMeaning": "watching and directing activities",
+      "ipa": "/ˌsuːpəˈvɪʒn/",
+      "verbForms": {
+        "base": "supervision",
+        "s3": "supervisions",
+        "ing": "supervising",
+        "past": "supervised",
+        "pp": "supervised"
+      },
+      "synonyms": [
+        "oversight",
+        "management",
+        "guidance"
+      ],
+      "antonyms": [
+        "neglect",
+        "abandonment"
+      ],
+      "sentences": {
+        "daily": "There is supervision on the playground.",
+        "office": "There is a supervision rota.",
+        "interview": "Do you work well under supervision?",
+        "business": "There is no direct supervision needed.",
+        "formal": "The work requires close supervision.",
+        "informal": "You need supervision!"
+      },
+      "usageNote": "'Under supervision' = with someone watching.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 70,
+      "word": "inspection",
+      "hindi": "निरीक्षण / जाँच",
+      "simpleMeaning": "an official check of something",
+      "ipa": "/ɪnˈspekʃn/",
+      "verbForms": {
+        "base": "inspection",
+        "s3": "inspections",
+        "ing": "inspecting",
+        "past": "inspected",
+        "pp": "inspected"
+      },
+      "synonyms": [
+        "examination",
+        "review",
+        "audit"
+      ],
+      "antonyms": [
+        "neglect",
+        "oversight"
+      ],
+      "sentences": {
+        "daily": "There is an inspection of the building.",
+        "office": "There was a surprise inspection today.",
+        "interview": "Have you conducted inspections before?",
+        "business": "There are quarterly inspections.",
+        "formal": "The inspection was carried out as per procedure.",
+        "informal": "Inspection time!"
+      },
+      "usageNote": "'Carry out an inspection' or 'conduct an inspection'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 71,
+      "word": "maintenance",
+      "hindi": "रखरखाव",
+      "simpleMeaning": "keeping something in good condition",
+      "ipa": "/ˈmeɪntənəns/",
+      "verbForms": {
+        "base": "maintenance",
+        "s3": "maintenance",
+        "ing": "maintaining",
+        "past": "maintained",
+        "pp": "maintained"
+      },
+      "synonyms": [
+        "upkeep",
+        "servicing",
+        "preservation"
+      ],
+      "antonyms": [
+        "neglect",
+        "deterioration"
+      ],
+      "sentences": {
+        "daily": "There is a maintenance schedule for the car.",
+        "office": "There is a system maintenance window tonight.",
+        "interview": "Tell me about a maintenance procedure you followed.",
+        "business": "There is a maintenance contract in place.",
+        "formal": "Maintenance must be carried out monthly.",
+        "informal": "Needs maintenance!"
+      },
+      "usageNote": "'Preventive maintenance' = to stop problems before they occur.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 72,
+      "word": "replacement",
+      "hindi": "प्रतिस्थापन / बदलाव",
+      "simpleMeaning": "something that takes the place of another",
+      "ipa": "/rɪˈpleɪsmənt/",
+      "verbForms": {
+        "base": "replacement",
+        "s3": "replacements",
+        "ing": "replacing",
+        "past": "replaced",
+        "pp": "replaced"
+      },
+      "synonyms": [
+        "substitute",
+        "stand-in",
+        "swap"
+      ],
+      "antonyms": [
+        "original",
+        "retention"
+      ],
+      "sentences": {
+        "daily": "Is there a replacement for this part?",
+        "office": "Is there a replacement for the absent employee?",
+        "interview": "Are you open to a replacement role?",
+        "business": "There is no replacement for customer trust.",
+        "formal": "A replacement must be arranged.",
+        "informal": "Need a replacement here!"
+      },
+      "usageNote": "'Replacement for' (not 'replacement of').",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 73,
+      "word": "introduction",
+      "hindi": "परिचय",
+      "simpleMeaning": "presenting something or someone for the first time",
+      "ipa": "/ˌɪntrəˈdʌkʃn/",
+      "verbForms": {
+        "base": "introduction",
+        "s3": "introductions",
+        "ing": "introducing",
+        "past": "introduced",
+        "pp": "introduced"
+      },
+      "synonyms": [
+        "presentation",
+        "opening",
+        "initiation"
+      ],
+      "antonyms": [
+        "conclusion",
+        "exit"
+      ],
+      "sentences": {
+        "daily": "There was a brief introduction.",
+        "office": "There was an introduction to the new software.",
+        "interview": "Give a brief introduction of yourself.",
+        "business": "There is an introduction section in the report.",
+        "formal": "A formal introduction was made.",
+        "informal": "Skip the introduction!"
+      },
+      "usageNote": "'Brief introduction' = short presentation of oneself or a topic.",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 74,
+      "word": "development",
+      "hindi": "विकास",
+      "simpleMeaning": "the process of growth or improvement",
+      "ipa": "/dɪˈveləpmənt/",
+      "verbForms": {
+        "base": "development",
+        "s3": "developments",
+        "ing": "developing",
+        "past": "developed",
+        "pp": "developed"
+      },
+      "synonyms": [
+        "growth",
+        "progress",
+        "expansion"
+      ],
+      "antonyms": [
+        "decline",
+        "stagnation",
+        "regression"
+      ],
+      "sentences": {
+        "daily": "There is a lot of development in this area.",
+        "office": "There is a new software development project.",
+        "interview": "Tell me about your professional development.",
+        "business": "There is rapid business development.",
+        "formal": "The development must be monitored.",
+        "informal": "Huge development going on!"
+      },
+      "usageNote": "'Research and development (R&D)' is a key business concept.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 75,
+      "word": "evaluation",
+      "hindi": "मूल्यांकन",
+      "simpleMeaning": "the process of judging or assessing",
+      "ipa": "/ɪˌvæljuˈeɪʃn/",
+      "verbForms": {
+        "base": "evaluation",
+        "s3": "evaluations",
+        "ing": "evaluating",
+        "past": "evaluated",
+        "pp": "evaluated"
+      },
+      "synonyms": [
+        "assessment",
+        "appraisal",
+        "review"
+      ],
+      "antonyms": [
+        "ignorance",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "Is there an evaluation today?",
+        "office": "There is a performance evaluation this week.",
+        "interview": "Describe your self-evaluation process.",
+        "business": "There is a vendor evaluation underway.",
+        "formal": "A formal evaluation must be conducted.",
+        "informal": "How did the evaluation go?"
+      },
+      "usageNote": "'Under evaluation' = being assessed currently.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 76,
+      "word": "submission",
+      "hindi": "प्रस्तुति / जमा करना",
+      "simpleMeaning": "handing over a document or application",
+      "ipa": "/səbˈmɪʃn/",
+      "verbForms": {
+        "base": "submission",
+        "s3": "submissions",
+        "ing": "submitting",
+        "past": "submitted",
+        "pp": "submitted"
+      },
+      "synonyms": [
+        "presentation",
+        "application",
+        "filing"
+      ],
+      "antonyms": [
+        "withdrawal",
+        "rejection"
+      ],
+      "sentences": {
+        "daily": "Is there a submission for the competition?",
+        "office": "There is a report submission due tomorrow.",
+        "interview": "I made a presentation submission.",
+        "business": "There are tender submissions pending.",
+        "formal": "The submission must meet the deadline.",
+        "informal": "Got your submission ready?"
+      },
+      "usageNote": "'Make a submission' = to formally submit something.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 77,
+      "word": "notification",
+      "hindi": "अधिसूचना / सूचना",
+      "simpleMeaning": "a message telling you about something",
+      "ipa": "/ˌnəʊtɪfɪˈkeɪʃn/",
+      "verbForms": {
+        "base": "notification",
+        "s3": "notifications",
+        "ing": "notifying",
+        "past": "notified",
+        "pp": "notified"
+      },
+      "synonyms": [
+        "alert",
+        "message",
+        "notice"
+      ],
+      "antonyms": [
+        "silence",
+        "no message"
+      ],
+      "sentences": {
+        "daily": "There is a notification on my phone.",
+        "office": "There is a notification about system downtime.",
+        "interview": "I have a notification from the company.",
+        "business": "There is a customer notification process.",
+        "formal": "Notification must be given 7 days in advance.",
+        "informal": "Got a notification!"
+      },
+      "usageNote": "'Push notification' = alerts from apps.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 78,
+      "word": "confirmation",
+      "hindi": "पुष्टि",
+      "simpleMeaning": "a statement that something is definitely true",
+      "ipa": "/ˌkɒnfɜːˈmeɪʃn/",
+      "verbForms": {
+        "base": "confirmation",
+        "s3": "confirmations",
+        "ing": "confirming",
+        "past": "confirmed",
+        "pp": "confirmed"
+      },
+      "synonyms": [
+        "verification",
+        "approval",
+        "validation"
+      ],
+      "antonyms": [
+        "denial",
+        "cancellation"
+      ],
+      "sentences": {
+        "daily": "Is there a confirmation of the booking?",
+        "office": "There is no confirmation from the client.",
+        "interview": "I sent a confirmation email.",
+        "business": "There is a payment confirmation.",
+        "formal": "Written confirmation must be received.",
+        "informal": "Did you get confirmation?"
+      },
+      "usageNote": "'Awaiting confirmation' = waiting for approval.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 79,
+      "word": "competition",
+      "hindi": "प्रतिस्पर्धा",
+      "simpleMeaning": "a situation where people try to win or be best",
+      "ipa": "/ˌkɒmpɪˈtɪʃn/",
+      "verbForms": {
+        "base": "competition",
+        "s3": "competitions",
+        "ing": "competing",
+        "past": "competed",
+        "pp": "competed"
+      },
+      "synonyms": [
+        "contest",
+        "rivalry",
+        "challenge"
+      ],
+      "antonyms": [
+        "cooperation",
+        "collaboration"
+      ],
+      "sentences": {
+        "daily": "There is a lot of competition in the market.",
+        "office": "There is competition for the promotion.",
+        "interview": "How do you handle competition?",
+        "business": "There is tough competition from global brands.",
+        "formal": "The competition must be monitored.",
+        "informal": "Bring on the competition!"
+      },
+      "usageNote": "'Healthy competition' = beneficial rivalry.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 80,
+      "word": "celebration",
+      "hindi": "उत्सव / जश्न",
+      "simpleMeaning": "an event to mark something special",
+      "ipa": "/ˌselɪˈbreɪʃn/",
+      "verbForms": {
+        "base": "celebration",
+        "s3": "celebrations",
+        "ing": "celebrating",
+        "past": "celebrated",
+        "pp": "celebrated"
+      },
+      "synonyms": [
+        "festivity",
+        "party",
+        "ceremony"
+      ],
+      "antonyms": [
+        "mourning",
+        "grief"
+      ],
+      "sentences": {
+        "daily": "There will be a celebration tonight.",
+        "office": "There is a success celebration tomorrow.",
+        "interview": "How do you celebrate team success?",
+        "business": "There is a product launch celebration.",
+        "formal": "The celebration was held at a five-star venue.",
+        "informal": "Party time — celebration!"
+      },
+      "usageNote": "'In celebration of' = in honour of something.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 81,
+      "word": "recognition",
+      "hindi": "पहचान / मान्यता",
+      "simpleMeaning": "praise for a good achievement",
+      "ipa": "/ˌrekəɡˈnɪʃn/",
+      "verbForms": {
+        "base": "recognition",
+        "s3": "recognitions",
+        "ing": "recognising",
+        "past": "recognised",
+        "pp": "recognised"
+      },
+      "synonyms": [
+        "acknowledgement",
+        "appreciation",
+        "reward"
+      ],
+      "antonyms": [
+        "ignorance",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "There is recognition for her hard work.",
+        "office": "There is an employee recognition programme.",
+        "interview": "How important is recognition to you?",
+        "business": "There is brand recognition globally.",
+        "formal": "The recognition must be formally conveyed.",
+        "informal": "Finally some recognition!"
+      },
+      "usageNote": "'Brand recognition' = how well a brand is known.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 82,
+      "word": "flexibility",
+      "hindi": "लचीलापन",
+      "simpleMeaning": "the ability to change or adapt easily",
+      "ipa": "/ˌfleksɪˈbɪlɪti/",
+      "verbForms": {
+        "base": "flexibility",
+        "s3": "flexibilities",
+        "ing": "being flexible",
+        "past": "was flexible",
+        "pp": "been flexible"
+      },
+      "synonyms": [
+        "adaptability",
+        "versatility",
+        "agility"
+      ],
+      "antonyms": [
+        "rigidity",
+        "inflexibility"
+      ],
+      "sentences": {
+        "daily": "There is flexibility in the schedule.",
+        "office": "Is there flexibility in working hours?",
+        "interview": "I value flexibility in the workplace.",
+        "business": "There is little flexibility in the contract.",
+        "formal": "The policy allows for flexibility.",
+        "informal": "Is there any flexibility here?"
+      },
+      "usageNote": "'Work flexibility' = flexible working arrangements.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 83,
+      "word": "transparency",
+      "hindi": "पारदर्शिता",
+      "simpleMeaning": "being open and honest about actions",
+      "ipa": "/trænsˈpærənsi/",
+      "verbForms": {
+        "base": "transparency",
+        "s3": "transparencies",
+        "ing": "being transparent",
+        "past": "was transparent",
+        "pp": "been transparent"
+      },
+      "synonyms": [
+        "openness",
+        "honesty",
+        "clarity"
+      ],
+      "antonyms": [
+        "opacity",
+        "secrecy",
+        "dishonesty"
+      ],
+      "sentences": {
+        "daily": "There is transparency in their dealings.",
+        "office": "There is a culture of transparency here.",
+        "interview": "How do you ensure transparency in your work?",
+        "business": "There is a lack of transparency in the accounts.",
+        "formal": "Transparency must be maintained at all levels.",
+        "informal": "Total transparency, please!"
+      },
+      "usageNote": "'Corporate transparency' = companies being open about practices.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 84,
+      "word": "accountability",
+      "hindi": "जवाबदेही",
+      "simpleMeaning": "being responsible for your actions",
+      "ipa": "/əˌkaʊntəˈbɪlɪti/",
+      "verbForms": {
+        "base": "accountability",
+        "s3": "accountabilities",
+        "ing": "being accountable",
+        "past": "was accountable",
+        "pp": "been accountable"
+      },
+      "synonyms": [
+        "responsibility",
+        "answerability",
+        "liability"
+      ],
+      "antonyms": [
+        "irresponsibility",
+        "evasion"
+      ],
+      "sentences": {
+        "daily": "There is a need for accountability.",
+        "office": "There is accountability at every level.",
+        "interview": "How do you demonstrate accountability?",
+        "business": "There is financial accountability to investors.",
+        "formal": "Accountability must be embedded in the process.",
+        "informal": "Where's the accountability?"
+      },
+      "usageNote": "'Hold accountable' = make someone answer for their actions.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 85,
+      "word": "initiative",
+      "hindi": "पहल",
+      "simpleMeaning": "the ability to start things independently",
+      "ipa": "/ɪˈnɪʃətɪv/",
+      "verbForms": {
+        "base": "initiative",
+        "s3": "initiatives",
+        "ing": "initiating",
+        "past": "initiated",
+        "pp": "initiated"
+      },
+      "synonyms": [
+        "drive",
+        "enterprise",
+        "action"
+      ],
+      "antonyms": [
+        "passivity",
+        "inaction"
+      ],
+      "sentences": {
+        "daily": "There is a community initiative here.",
+        "office": "Is there a new company initiative?",
+        "interview": "Tell me about an initiative you led.",
+        "business": "There is a CSR initiative underway.",
+        "formal": "The initiative must be formally launched.",
+        "informal": "Love the initiative!"
+      },
+      "usageNote": "'Take initiative' = act without being told.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 86,
+      "word": "collaboration",
+      "hindi": "सहयोग / सहकार्य",
+      "simpleMeaning": "working together to achieve a goal",
+      "ipa": "/kəˌlæbəˈreɪʃn/",
+      "verbForms": {
+        "base": "collaboration",
+        "s3": "collaborations",
+        "ing": "collaborating",
+        "past": "collaborated",
+        "pp": "collaborated"
+      },
+      "synonyms": [
+        "partnership",
+        "teamwork",
+        "cooperation"
+      ],
+      "antonyms": [
+        "competition",
+        "rivalry"
+      ],
+      "sentences": {
+        "daily": "There is great collaboration in this project.",
+        "office": "There is a collaboration between two teams.",
+        "interview": "Describe a successful collaboration.",
+        "business": "There is a strategic collaboration.",
+        "formal": "The collaboration must be formalised.",
+        "informal": "Great collaboration!"
+      },
+      "usageNote": "'In collaboration with' = working with someone.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 87,
+      "word": "innovation",
+      "hindi": "नवाचार",
+      "simpleMeaning": "the introduction of new ideas or methods",
+      "ipa": "/ˌɪnəˈveɪʃn/",
+      "verbForms": {
+        "base": "innovation",
+        "s3": "innovations",
+        "ing": "innovating",
+        "past": "innovated",
+        "pp": "innovated"
+      },
+      "synonyms": [
+        "novelty",
+        "invention",
+        "creativity"
+      ],
+      "antonyms": [
+        "stagnation",
+        "tradition"
+      ],
+      "sentences": {
+        "daily": "There is so much innovation today.",
+        "office": "There is a culture of innovation here.",
+        "interview": "How do you bring innovation to your work?",
+        "business": "There is room for innovation.",
+        "formal": "Innovation must be encouraged at all levels.",
+        "informal": "Love the innovation!"
+      },
+      "usageNote": "'Disruptive innovation' = innovation that changes an industry.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 88,
+      "word": "efficiency",
+      "hindi": "कार्यक्षमता",
+      "simpleMeaning": "achieving maximum results with minimum waste",
+      "ipa": "/ɪˈfɪʃənsi/",
+      "verbForms": {
+        "base": "efficiency",
+        "s3": "efficiencies",
+        "ing": "being efficient",
+        "past": "was efficient",
+        "pp": "been efficient"
+      },
+      "synonyms": [
+        "effectiveness",
+        "productivity",
+        "output"
+      ],
+      "antonyms": [
+        "inefficiency",
+        "waste"
+      ],
+      "sentences": {
+        "daily": "There is high efficiency in this process.",
+        "office": "There is room for more efficiency.",
+        "interview": "How do you improve efficiency?",
+        "business": "There is an efficiency-first approach.",
+        "formal": "Efficiency must be maximised.",
+        "informal": "Not much efficiency here!"
+      },
+      "usageNote": "'Energy efficiency' = using less energy for the same output.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 89,
+      "word": "confidentiality",
+      "hindi": "गोपनीयता",
+      "simpleMeaning": "keeping information private",
+      "ipa": "/ˌkɒnfɪˌdenʃiˈæləti/",
+      "verbForms": {
+        "base": "confidentiality",
+        "s3": "confidentialities",
+        "ing": "being confidential",
+        "past": "was confidential",
+        "pp": "been confidential"
+      },
+      "synonyms": [
+        "privacy",
+        "secrecy",
+        "discretion"
+      ],
+      "antonyms": [
+        "disclosure",
+        "openness",
+        "publicity"
+      ],
+      "sentences": {
+        "daily": "There is confidentiality in this matter.",
+        "office": "There is a strict confidentiality clause.",
+        "interview": "How do you maintain confidentiality?",
+        "business": "There is confidentiality in client data.",
+        "formal": "Confidentiality must be preserved.",
+        "informal": "Keep it confidential!"
+      },
+      "usageNote": "'Breach of confidentiality' = wrongly revealing private information.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 90,
+      "word": "professionalism",
+      "hindi": "व्यावसायिकता",
+      "simpleMeaning": "behaving in a skilled and competent way",
+      "ipa": "/prəˈfeʃənəlɪzəm/",
+      "verbForms": {
+        "base": "professionalism",
+        "s3": "professionalism",
+        "ing": "being professional",
+        "past": "was professional",
+        "pp": "been professional"
+      },
+      "synonyms": [
+        "competence",
+        "skill",
+        "expertise"
+      ],
+      "antonyms": [
+        "amateurism",
+        "incompetence"
+      ],
+      "sentences": {
+        "daily": "There is a sense of professionalism here.",
+        "office": "There is high professionalism in this team.",
+        "interview": "How would you define professionalism?",
+        "business": "There is a need for professionalism.",
+        "formal": "Professionalism must be demonstrated at all times.",
+        "informal": "Show some professionalism!"
+      },
+      "usageNote": "'Lack of professionalism' = behaving unprofessionally.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 91,
+      "word": "credibility",
+      "hindi": "विश्वसनीयता",
+      "simpleMeaning": "the quality of being trusted",
+      "ipa": "/ˌkredɪˈbɪlɪti/",
+      "verbForms": {
+        "base": "credibility",
+        "s3": "credibilities",
+        "ing": "being credible",
+        "past": "was credible",
+        "pp": "been credible"
+      },
+      "synonyms": [
+        "trustworthiness",
+        "reliability",
+        "integrity"
+      ],
+      "antonyms": [
+        "unreliability",
+        "dishonesty"
+      ],
+      "sentences": {
+        "daily": "There is credibility in his words.",
+        "office": "There is a question about this data's credibility.",
+        "interview": "How do you build your credibility?",
+        "business": "There is credibility in our brand.",
+        "formal": "Credibility must be established first.",
+        "informal": "Any credibility here?"
+      },
+      "usageNote": "'Credibility gap' = difference between what is said and done.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 92,
+      "word": "duration",
+      "hindi": "अवधि",
+      "simpleMeaning": "the length of time something lasts",
+      "ipa": "/djʊˈreɪʃn/",
+      "verbForms": {
+        "base": "duration",
+        "s3": "durations",
+        "ing": "duration",
+        "past": "duration",
+        "pp": "duration"
+      },
+      "synonyms": [
+        "period",
+        "length",
+        "span"
+      ],
+      "antonyms": [
+        "instant",
+        "moment"
+      ],
+      "sentences": {
+        "daily": "What is the duration of the course?",
+        "office": "There is a fixed duration for the contract.",
+        "interview": "What was the duration of your last project?",
+        "business": "There is a project duration of six months.",
+        "formal": "The duration must be specified in the agreement.",
+        "informal": "How long is the duration?"
+      },
+      "usageNote": "'For the duration of' = for the whole time.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 93,
+      "word": "frequency",
+      "hindi": "बारंबारता / आवृत्ति",
+      "simpleMeaning": "how often something happens",
+      "ipa": "/ˈfriːkwənsi/",
+      "verbForms": {
+        "base": "frequency",
+        "s3": "frequencies",
+        "ing": "frequency",
+        "past": "frequency",
+        "pp": "frequency"
+      },
+      "synonyms": [
+        "rate",
+        "regularity",
+        "occurrence"
+      ],
+      "antonyms": [
+        "rarity",
+        "infrequency"
+      ],
+      "sentences": {
+        "daily": "There is a high frequency of buses here.",
+        "office": "There is a high frequency of client calls.",
+        "interview": "What frequency do you report to your manager?",
+        "business": "There is a high frequency of transactions.",
+        "formal": "The frequency must be maintained.",
+        "informal": "High frequency here!"
+      },
+      "usageNote": "'High frequency' vs 'low frequency'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 94,
+      "word": "diversity",
+      "hindi": "विविधता",
+      "simpleMeaning": "variety of different types or people",
+      "ipa": "/daɪˈvɜːsɪti/",
+      "verbForms": {
+        "base": "diversity",
+        "s3": "diversities",
+        "ing": "diversifying",
+        "past": "diversified",
+        "pp": "diversified"
+      },
+      "synonyms": [
+        "variety",
+        "range",
+        "mixture"
+      ],
+      "antonyms": [
+        "uniformity",
+        "homogeneity"
+      ],
+      "sentences": {
+        "daily": "There is diversity in this community.",
+        "office": "There is great diversity in the team.",
+        "interview": "How do you contribute to diversity?",
+        "business": "There is diversity in the product range.",
+        "formal": "Diversity must be promoted.",
+        "informal": "Love the diversity here!"
+      },
+      "usageNote": "'Diversity and inclusion' is a key corporate concept.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 95,
+      "word": "motivation",
+      "hindi": "प्रेरणा",
+      "simpleMeaning": "the reason why someone does something",
+      "ipa": "/ˌməʊtɪˈveɪʃn/",
+      "verbForms": {
+        "base": "motivation",
+        "s3": "motivations",
+        "ing": "motivating",
+        "past": "motivated",
+        "pp": "motivated"
+      },
+      "synonyms": [
+        "incentive",
+        "drive",
+        "inspiration"
+      ],
+      "antonyms": [
+        "demotivation",
+        "apathy"
+      ],
+      "sentences": {
+        "daily": "There is a lot of motivation here.",
+        "office": "There is a team motivation programme.",
+        "interview": "What is your motivation for this job?",
+        "business": "There is motivation behind every decision.",
+        "formal": "Motivation must be sustained.",
+        "informal": "Need some motivation!"
+      },
+      "usageNote": "'Self-motivation' = driving yourself without external push.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 96,
+      "word": "integrity",
+      "hindi": "ईमानदारी / सत्यनिष्ठा",
+      "simpleMeaning": "the quality of being honest and having strong morals",
+      "ipa": "/ɪnˈteɡrɪti/",
+      "verbForms": {
+        "base": "integrity",
+        "s3": "integrity",
+        "ing": "being honest",
+        "past": "was honest",
+        "pp": "been honest"
+      },
+      "synonyms": [
+        "honesty",
+        "honour",
+        "probity"
+      ],
+      "antonyms": [
+        "dishonesty",
+        "corruption"
+      ],
+      "sentences": {
+        "daily": "There is integrity in his actions.",
+        "office": "There is a culture of integrity here.",
+        "interview": "How do you maintain integrity at work?",
+        "business": "There is integrity in our business dealings.",
+        "formal": "Integrity must not be compromised.",
+        "informal": "Show some integrity!"
+      },
+      "usageNote": "'Personal integrity' vs 'data integrity'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 97,
+      "word": "strategy",
+      "hindi": "रणनीति",
+      "simpleMeaning": "a plan to achieve a goal",
+      "ipa": "/ˈstræteɪdʒi/",
+      "verbForms": {
+        "base": "strategy",
+        "s3": "strategies",
+        "ing": "strategising",
+        "past": "strategised",
+        "pp": "strategised"
+      },
+      "synonyms": [
+        "plan",
+        "approach",
+        "tactic"
+      ],
+      "antonyms": [
+        "improvisation",
+        "randomness"
+      ],
+      "sentences": {
+        "daily": "Is there a strategy for the trip?",
+        "office": "There is a new marketing strategy.",
+        "interview": "What is your strategy for this role?",
+        "business": "There is a long-term business strategy.",
+        "formal": "The strategy must be formalised.",
+        "informal": "Need a strategy!"
+      },
+      "usageNote": "'Strategic plan' = long-term plan with goals.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 98,
+      "word": "guideline",
+      "hindi": "दिशानिर्देश",
+      "simpleMeaning": "a general rule or piece of advice",
+      "ipa": "/ˈɡaɪdlaɪn/",
+      "verbForms": {
+        "base": "guideline",
+        "s3": "guidelines",
+        "ing": "guiding",
+        "past": "guided",
+        "pp": "guided"
+      },
+      "synonyms": [
+        "rule",
+        "recommendation",
+        "directive"
+      ],
+      "antonyms": [
+        "freedom",
+        "absence of rules"
+      ],
+      "sentences": {
+        "daily": "There are guidelines for the trip.",
+        "office": "There are strict guidelines to follow.",
+        "interview": "How do you use guidelines in your work?",
+        "business": "There are industry guidelines.",
+        "formal": "Guidelines must be adhered to.",
+        "informal": "Read the guidelines!"
+      },
+      "usageNote": "'Follow the guidelines' = act according to instructions.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 99,
+      "word": "implementation",
+      "hindi": "क्रियान्वयन",
+      "simpleMeaning": "the process of putting a plan into action",
+      "ipa": "/ˌɪmplɪmenˈteɪʃn/",
+      "verbForms": {
+        "base": "implementation",
+        "s3": "implementations",
+        "ing": "implementing",
+        "past": "implemented",
+        "pp": "implemented"
+      },
+      "synonyms": [
+        "execution",
+        "application",
+        "enactment"
+      ],
+      "antonyms": [
+        "planning",
+        "theory"
+      ],
+      "sentences": {
+        "daily": "Is there an implementation plan?",
+        "office": "There is an implementation phase for the project.",
+        "interview": "Describe your implementation experience.",
+        "business": "There is a phased implementation.",
+        "formal": "Implementation must begin immediately.",
+        "informal": "How's the implementation going?"
+      },
+      "usageNote": "'Implementation plan' vs 'execution plan'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 100,
+      "word": "coordination",
+      "hindi": "समन्वय",
+      "simpleMeaning": "organising people/activities effectively",
+      "ipa": "/kəʊˌɔːdɪˈneɪʃn/",
+      "verbForms": {
+        "base": "coordination",
+        "s3": "coordinations",
+        "ing": "coordinating",
+        "past": "coordinated",
+        "pp": "coordinated"
+      },
+      "synonyms": [
+        "organisation",
+        "alignment",
+        "management"
+      ],
+      "antonyms": [
+        "disorganisation",
+        "conflict"
+      ],
+      "sentences": {
+        "daily": "There is great coordination in the team.",
+        "office": "There is coordination between departments.",
+        "interview": "How do you ensure coordination?",
+        "business": "There is inter-departmental coordination.",
+        "formal": "Coordination must be improved.",
+        "informal": "Needs better coordination!"
+      },
+      "usageNote": "'Lack of coordination' = poor alignment between teams.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 101,
+      "word": "communication",
+      "hindi": "संचार",
+      "simpleMeaning": "the exchange of information",
+      "ipa": "/kəˌmjuːnɪˈkeɪʃn/",
+      "verbForms": {
+        "base": "communication",
+        "s3": "communications",
+        "ing": "communicating",
+        "past": "communicated",
+        "pp": "communicated"
+      },
+      "synonyms": [
+        "dialogue",
+        "interaction",
+        "exchange"
+      ],
+      "antonyms": [
+        "silence",
+        "isolation"
+      ],
+      "sentences": {
+        "daily": "There is good communication here.",
+        "office": "There is a communication gap in the team.",
+        "interview": "Strong communication is my key strength.",
+        "business": "There is a communication strategy in place.",
+        "formal": "Communication must be transparent.",
+        "informal": "We need better communication!"
+      },
+      "usageNote": "'Communication skills' = ability to convey information clearly.",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 102,
+      "word": "negotiation",
+      "hindi": "वार्ता / बातचीत",
+      "simpleMeaning": "a formal discussion to reach an agreement",
+      "ipa": "/nɪˌɡəʊʃiˈeɪʃn/",
+      "verbForms": {
+        "base": "negotiation",
+        "s3": "negotiations",
+        "ing": "negotiating",
+        "past": "negotiated",
+        "pp": "negotiated"
+      },
+      "synonyms": [
+        "discussion",
+        "bargaining",
+        "mediation"
+      ],
+      "antonyms": [
+        "confrontation",
+        "ultimatum"
+      ],
+      "sentences": {
+        "daily": "Is there a negotiation on the price?",
+        "office": "There is a salary negotiation.",
+        "interview": "How do you handle negotiations?",
+        "business": "There is a contract negotiation.",
+        "formal": "The negotiation must be conducted formally.",
+        "informal": "Let's negotiate!"
+      },
+      "usageNote": "'Win-win negotiation' = both parties benefit.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 103,
+      "word": "allocation",
+      "hindi": "आवंटन",
+      "simpleMeaning": "the distribution of resources for a purpose",
+      "ipa": "/ˌæləˈkeɪʃn/",
+      "verbForms": {
+        "base": "allocation",
+        "s3": "allocations",
+        "ing": "allocating",
+        "past": "allocated",
+        "pp": "allocated"
+      },
+      "synonyms": [
+        "assignment",
+        "distribution",
+        "apportionment"
+      ],
+      "antonyms": [
+        "withholding",
+        "deprivation"
+      ],
+      "sentences": {
+        "daily": "Is there a budget allocation for this?",
+        "office": "There is a resource allocation meeting.",
+        "interview": "Have you managed budget allocations?",
+        "business": "There is an allocation for marketing.",
+        "formal": "The allocation must be justified.",
+        "informal": "Any allocation for me?"
+      },
+      "usageNote": "'Budget allocation' = money set aside for a purpose.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 104,
+      "word": "projection",
+      "hindi": "अनुमान / पूर्वानुमान",
+      "simpleMeaning": "a forecast or estimate about the future",
+      "ipa": "/prəˈdʒekʃn/",
+      "verbForms": {
+        "base": "projection",
+        "s3": "projections",
+        "ing": "projecting",
+        "past": "projected",
+        "pp": "projected"
+      },
+      "synonyms": [
+        "forecast",
+        "estimate",
+        "prediction"
+      ],
+      "antonyms": [
+        "actuality",
+        "reality"
+      ],
+      "sentences": {
+        "daily": "Are there projections for next year?",
+        "office": "There are revenue projections for Q4.",
+        "interview": "How do you make financial projections?",
+        "business": "There are sales projections to meet.",
+        "formal": "The projection must be reviewed.",
+        "informal": "Are the projections realistic?"
+      },
+      "usageNote": "'Sales projection' = predicted future sales.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 105,
+      "word": "retention",
+      "hindi": "अनुधारण / बनाए रखना",
+      "simpleMeaning": "keeping something or someone in place",
+      "ipa": "/rɪˈtenʃn/",
+      "verbForms": {
+        "base": "retention",
+        "s3": "retentions",
+        "ing": "retaining",
+        "past": "retained",
+        "pp": "retained"
+      },
+      "synonyms": [
+        "keeping",
+        "maintenance",
+        "preservation"
+      ],
+      "antonyms": [
+        "attrition",
+        "loss",
+        "turnover"
+      ],
+      "sentences": {
+        "daily": "Is there a retention bonus?",
+        "office": "There is a low employee retention rate.",
+        "interview": "What strategies do you use for retention?",
+        "business": "There is a customer retention focus.",
+        "formal": "Retention must be prioritised.",
+        "informal": "We need better retention!"
+      },
+      "usageNote": "'Customer retention' vs 'employee retention'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 106,
+      "word": "performance",
+      "hindi": "प्रदर्शन",
+      "simpleMeaning": "how well someone or something does a task",
+      "ipa": "/pəˈfɔːməns/",
+      "verbForms": {
+        "base": "performance",
+        "s3": "performances",
+        "ing": "performing",
+        "past": "performed",
+        "pp": "performed"
+      },
+      "synonyms": [
+        "output",
+        "results",
+        "execution"
+      ],
+      "antonyms": [
+        "failure",
+        "underperformance"
+      ],
+      "sentences": {
+        "daily": "There is a high-performance culture.",
+        "office": "There is a performance review this week.",
+        "interview": "Tell me about your best performance.",
+        "business": "There is a strong sales performance.",
+        "formal": "Performance must be evaluated annually.",
+        "informal": "Great performance!"
+      },
+      "usageNote": "'Performance appraisal' = formal assessment of work.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 107,
+      "word": "turnover",
+      "hindi": "टर्नओवर / कारोबार",
+      "simpleMeaning": "total sales or rate of employee change",
+      "ipa": "/ˈtɜːnəʊvər/",
+      "verbForms": {
+        "base": "turnover",
+        "s3": "turnovers",
+        "ing": "turning over",
+        "past": "turned over",
+        "pp": "turned over"
+      },
+      "synonyms": [
+        "revenue",
+        "sales",
+        "attrition"
+      ],
+      "antonyms": [
+        "stability",
+        "retention"
+      ],
+      "sentences": {
+        "daily": "Is there a high staff turnover here?",
+        "office": "There is a 20% annual turnover.",
+        "interview": "What was the company's turnover?",
+        "business": "There is a growing annual turnover.",
+        "formal": "Turnover must be reported quarterly.",
+        "informal": "High turnover here!"
+      },
+      "usageNote": "'Staff turnover' = rate at which employees leave.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 108,
+      "word": "reimbursement",
+      "hindi": "प्रतिपूर्ति",
+      "simpleMeaning": "repayment of money spent",
+      "ipa": "/ˌriːɪmˈbɜːsmənt/",
+      "verbForms": {
+        "base": "reimbursement",
+        "s3": "reimbursements",
+        "ing": "reimbursing",
+        "past": "reimbursed",
+        "pp": "reimbursed"
+      },
+      "synonyms": [
+        "repayment",
+        "refund",
+        "compensation"
+      ],
+      "antonyms": [
+        "withholding",
+        "deduction"
+      ],
+      "sentences": {
+        "daily": "Is there a reimbursement for travel?",
+        "office": "There is a travel reimbursement policy.",
+        "interview": "Are there reimbursements for training?",
+        "business": "There is a client reimbursement clause.",
+        "formal": "Reimbursement must be claimed within 30 days.",
+        "informal": "When is the reimbursement?"
+      },
+      "usageNote": "'Claim reimbursement' = ask to be paid back.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 109,
+      "word": "compliance",
+      "hindi": "अनुपालन",
+      "simpleMeaning": "following rules and regulations",
+      "ipa": "/kəmˈplaɪəns/",
+      "verbForms": {
+        "base": "compliance",
+        "s3": "compliances",
+        "ing": "complying",
+        "past": "complied",
+        "pp": "complied"
+      },
+      "synonyms": [
+        "adherence",
+        "conformity",
+        "obedience"
+      ],
+      "antonyms": [
+        "non-compliance",
+        "violation"
+      ],
+      "sentences": {
+        "daily": "Is there a compliance requirement?",
+        "office": "There is a compliance audit next week.",
+        "interview": "Are you familiar with compliance norms?",
+        "business": "There is strict regulatory compliance.",
+        "formal": "Compliance must be demonstrated.",
+        "informal": "Stay in compliance!"
+      },
+      "usageNote": "'In compliance with' = following the rules.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 110,
+      "word": "benchmark",
+      "hindi": "मानक / तुलनात्मक मापदंड",
+      "simpleMeaning": "a standard used for comparison",
+      "ipa": "/ˈbentʃmɑːk/",
+      "verbForms": {
+        "base": "benchmark",
+        "s3": "benchmarks",
+        "ing": "benchmarking",
+        "past": "benchmarked",
+        "pp": "benchmarked"
+      },
+      "synonyms": [
+        "standard",
+        "measure",
+        "reference"
+      ],
+      "antonyms": [
+        "outlier",
+        "exception"
+      ],
+      "sentences": {
+        "daily": "Is there a benchmark for this task?",
+        "office": "There is a performance benchmark.",
+        "interview": "How do you set benchmarks?",
+        "business": "There is a market benchmark to follow.",
+        "formal": "The benchmark must be established.",
+        "informal": "Set a benchmark!"
+      },
+      "usageNote": "'Industry benchmark' = a standard measure in a sector.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 111,
+      "word": "incentive",
+      "hindi": "प्रोत्साहन",
+      "simpleMeaning": "something that encourages action",
+      "ipa": "/ɪnˈsentɪv/",
+      "verbForms": {
+        "base": "incentive",
+        "s3": "incentives",
+        "ing": "incentivising",
+        "past": "incentivised",
+        "pp": "incentivised"
+      },
+      "synonyms": [
+        "motivation",
+        "reward",
+        "bonus"
+      ],
+      "antonyms": [
+        "disincentive",
+        "penalty"
+      ],
+      "sentences": {
+        "daily": "Is there an incentive for completing this?",
+        "office": "There are performance incentives.",
+        "interview": "What incentives motivate you?",
+        "business": "There are sales incentives.",
+        "formal": "An incentive scheme must be designed.",
+        "informal": "Any incentives here?"
+      },
+      "usageNote": "'Performance incentive' = reward for meeting targets.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 112,
+      "word": "warranty",
+      "hindi": "वारंटी",
+      "simpleMeaning": "a guarantee that a product will work",
+      "ipa": "/ˈwɒrənti/",
+      "verbForms": {
+        "base": "warranty",
+        "s3": "warranties",
+        "ing": "warranting",
+        "past": "warranted",
+        "pp": "warranted"
+      },
+      "synonyms": [
+        "guarantee",
+        "assurance",
+        "surety"
+      ],
+      "antonyms": [
+        "no guarantee",
+        "risk"
+      ],
+      "sentences": {
+        "daily": "Is there a warranty on this phone?",
+        "office": "There is a warranty policy.",
+        "interview": "Explain the warranty terms to a customer.",
+        "business": "There is a one-year warranty.",
+        "formal": "The warranty must be honoured.",
+        "informal": "Is there a warranty?"
+      },
+      "usageNote": "'Under warranty' = still covered by the guarantee.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 113,
+      "word": "liability",
+      "hindi": "देनदारी / जिम्मेदारी",
+      "simpleMeaning": "legal responsibility for something",
+      "ipa": "/ˌlaɪəˈbɪlɪti/",
+      "verbForms": {
+        "base": "liability",
+        "s3": "liabilities",
+        "ing": "being liable",
+        "past": "was liable",
+        "pp": "been liable"
+      },
+      "synonyms": [
+        "responsibility",
+        "obligation",
+        "debt"
+      ],
+      "antonyms": [
+        "asset",
+        "freedom"
+      ],
+      "sentences": {
+        "daily": "Is there a liability for this?",
+        "office": "There is a legal liability here.",
+        "interview": "Are you aware of your liabilities?",
+        "business": "There are financial liabilities.",
+        "formal": "Liability must be acknowledged.",
+        "informal": "Don't take on that liability!"
+      },
+      "usageNote": "'Limited liability' = maximum loss is capped.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 114,
+      "word": "validation",
+      "hindi": "सत्यापन",
+      "simpleMeaning": "proving that something is true or correct",
+      "ipa": "/ˌvælɪˈdeɪʃn/",
+      "verbForms": {
+        "base": "validation",
+        "s3": "validations",
+        "ing": "validating",
+        "past": "validated",
+        "pp": "validated"
+      },
+      "synonyms": [
+        "verification",
+        "confirmation",
+        "approval"
+      ],
+      "antonyms": [
+        "invalidation",
+        "rejection"
+      ],
+      "sentences": {
+        "daily": "Is there a validation for this form?",
+        "office": "There is a data validation process.",
+        "interview": "How do you ensure validation?",
+        "business": "There is a product validation stage.",
+        "formal": "Validation must be completed.",
+        "informal": "Got validation?"
+      },
+      "usageNote": "'Data validation' = checking data is correct.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 115,
+      "word": "optimisation",
+      "hindi": "अनुकूलन",
+      "simpleMeaning": "making something as effective as possible",
+      "ipa": "/ˌɒptɪmaɪˈzeɪʃn/",
+      "verbForms": {
+        "base": "optimisation",
+        "s3": "optimisations",
+        "ing": "optimising",
+        "past": "optimised",
+        "pp": "optimised"
+      },
+      "synonyms": [
+        "improvement",
+        "enhancement",
+        "refinement"
+      ],
+      "antonyms": [
+        "inefficiency",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "Is there any optimisation possible here?",
+        "office": "There is an SEO optimisation project.",
+        "interview": "How do you approach process optimisation?",
+        "business": "There is a cost optimisation strategy.",
+        "formal": "Optimisation must be ongoing.",
+        "informal": "Needs optimisation!"
+      },
+      "usageNote": "'Search engine optimisation (SEO)' = improving website ranking.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 116,
+      "word": "disclosure",
+      "hindi": "प्रकटीकरण",
+      "simpleMeaning": "making information publicly known",
+      "ipa": "/dɪsˈkləʊʒər/",
+      "verbForms": {
+        "base": "disclosure",
+        "s3": "disclosures",
+        "ing": "disclosing",
+        "past": "disclosed",
+        "pp": "disclosed"
+      },
+      "synonyms": [
+        "revelation",
+        "announcement",
+        "publication"
+      ],
+      "antonyms": [
+        "concealment",
+        "secrecy"
+      ],
+      "sentences": {
+        "daily": "Is there any disclosure required?",
+        "office": "There is a disclosure policy.",
+        "interview": "Are there any financial disclosures?",
+        "business": "There is a full disclosure clause.",
+        "formal": "Disclosure must be made to regulators.",
+        "informal": "Full disclosure!"
+      },
+      "usageNote": "'Non-disclosure agreement (NDA)' = a contract to keep information secret.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 117,
+      "word": "arbitration",
+      "hindi": "मध्यस्थता",
+      "simpleMeaning": "resolving disputes through a third party",
+      "ipa": "/ˌɑːbɪˈtreɪʃn/",
+      "verbForms": {
+        "base": "arbitration",
+        "s3": "arbitrations",
+        "ing": "arbitrating",
+        "past": "arbitrated",
+        "pp": "arbitrated"
+      },
+      "synonyms": [
+        "mediation",
+        "settlement",
+        "adjudication"
+      ],
+      "antonyms": [
+        "litigation",
+        "confrontation"
+      ],
+      "sentences": {
+        "daily": "Is there arbitration for this dispute?",
+        "office": "There is an arbitration clause.",
+        "interview": "Have you handled arbitration cases?",
+        "business": "There is mandatory arbitration.",
+        "formal": "The arbitration must be binding.",
+        "informal": "Going to arbitration!"
+      },
+      "usageNote": "'Binding arbitration' = the decision must be followed.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 118,
+      "word": "sustainability",
+      "hindi": "स्थिरता / टिकाऊपन",
+      "simpleMeaning": "maintaining resources for future use",
+      "ipa": "/səˌsteɪnəˈbɪlɪti/",
+      "verbForms": {
+        "base": "sustainability",
+        "s3": "sustainabilities",
+        "ing": "being sustainable",
+        "past": "was sustainable",
+        "pp": "been sustainable"
+      },
+      "synonyms": [
+        "durability",
+        "longevity",
+        "green approach"
+      ],
+      "antonyms": [
+        "waste",
+        "depletion",
+        "unsustainability"
+      ],
+      "sentences": {
+        "daily": "There is a focus on sustainability.",
+        "office": "There is a sustainability report.",
+        "interview": "How do you incorporate sustainability?",
+        "business": "There is a sustainability initiative.",
+        "formal": "Sustainability must be embedded in policy.",
+        "informal": "Go green — sustainability!"
+      },
+      "usageNote": "'Corporate sustainability' = long-term responsible business.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 119,
+      "word": "mentorship",
+      "hindi": "मार्गदर्शन",
+      "simpleMeaning": "guidance from an experienced person",
+      "ipa": "/ˈmentəʃɪp/",
+      "verbForms": {
+        "base": "mentorship",
+        "s3": "mentorships",
+        "ing": "mentoring",
+        "past": "mentored",
+        "pp": "mentored"
+      },
+      "synonyms": [
+        "guidance",
+        "coaching",
+        "tutoring"
+      ],
+      "antonyms": [
+        "neglect",
+        "isolation"
+      ],
+      "sentences": {
+        "daily": "Is there a mentorship programme?",
+        "office": "There is a mentorship culture here.",
+        "interview": "Have you had a mentor or been a mentor?",
+        "business": "There is a mentorship scheme for juniors.",
+        "formal": "Mentorship must be formalised.",
+        "informal": "Need a mentor!"
+      },
+      "usageNote": "'Mentor' is the person; 'mentee' is the one being helped.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 120,
+      "word": "internship",
+      "hindi": "इंटर्नशिप",
+      "simpleMeaning": "a period of work experience for students",
+      "ipa": "/ˈɪntɜːnʃɪp/",
+      "verbForms": {
+        "base": "internship",
+        "s3": "internships",
+        "ing": "interning",
+        "past": "interned",
+        "pp": "interned"
+      },
+      "synonyms": [
+        "placement",
+        "work experience",
+        "traineeship"
+      ],
+      "antonyms": [
+        "permanent employment"
+      ],
+      "sentences": {
+        "daily": "Is there an internship available?",
+        "office": "There is an internship programme.",
+        "interview": "Tell me about your internship experience.",
+        "business": "There is an annual internship intake.",
+        "formal": "The internship must be paid.",
+        "informal": "Got an internship!"
+      },
+      "usageNote": "'Paid internship' vs 'unpaid internship'.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 121,
+      "word": "networking",
+      "hindi": "नेटवर्किंग",
+      "simpleMeaning": "building professional contacts",
+      "ipa": "/ˈnetwɜːkɪŋ/",
+      "verbForms": {
+        "base": "networking",
+        "s3": "networking",
+        "ing": "networking",
+        "past": "networked",
+        "pp": "networked"
+      },
+      "synonyms": [
+        "connecting",
+        "socialising",
+        "relationship-building"
+      ],
+      "antonyms": [
+        "isolation",
+        "introversion"
+      ],
+      "sentences": {
+        "daily": "There is a networking event today.",
+        "office": "There is a networking opportunity.",
+        "interview": "How important is networking to you?",
+        "business": "There is a strong networking culture.",
+        "formal": "Networking must be purposeful.",
+        "informal": "Networking time!"
+      },
+      "usageNote": "'Professional networking' = building career contacts.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 122,
+      "word": "franchise",
+      "hindi": "फ्रेंचाइज़",
+      "simpleMeaning": "a licence to sell another's goods or services",
+      "ipa": "/ˈfræntʃaɪz/",
+      "verbForms": {
+        "base": "franchise",
+        "s3": "franchises",
+        "ing": "franchising",
+        "past": "franchised",
+        "pp": "franchised"
+      },
+      "synonyms": [
+        "license",
+        "dealership",
+        "concession"
+      ],
+      "antonyms": [
+        "independent business"
+      ],
+      "sentences": {
+        "daily": "Is there a franchise here?",
+        "office": "There is a franchise model.",
+        "interview": "Have you worked in a franchise?",
+        "business": "There is a franchise opportunity.",
+        "formal": "A franchise agreement must be signed.",
+        "informal": "Grab that franchise!"
+      },
+      "usageNote": "'Franchisee' = person who buys the franchise.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 123,
+      "word": "branding",
+      "hindi": "ब्रांडिंग",
+      "simpleMeaning": "the promotion of a company's image",
+      "ipa": "/ˈbrændɪŋ/",
+      "verbForms": {
+        "base": "branding",
+        "s3": "branding",
+        "ing": "branding",
+        "past": "branded",
+        "pp": "branded"
+      },
+      "synonyms": [
+        "marketing",
+        "image-building",
+        "promotion"
+      ],
+      "antonyms": [
+        "anonymity",
+        "obscurity"
+      ],
+      "sentences": {
+        "daily": "Is there branding on the product?",
+        "office": "There is a rebranding project.",
+        "interview": "What is your approach to branding?",
+        "business": "There is a branding strategy.",
+        "formal": "Branding must be consistent.",
+        "informal": "Love the branding!"
+      },
+      "usageNote": "'Personal branding' = how you present yourself professionally.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 124,
+      "word": "outreach",
+      "hindi": "आउटरीच / पहुँच",
+      "simpleMeaning": "efforts to communicate with a wider audience",
+      "ipa": "/ˈaʊtriːtʃ/",
+      "verbForms": {
+        "base": "outreach",
+        "s3": "outreaches",
+        "ing": "reaching out",
+        "past": "reached out",
+        "pp": "reached out"
+      },
+      "synonyms": [
+        "engagement",
+        "extension",
+        "contact"
+      ],
+      "antonyms": [
+        "withdrawal",
+        "isolation"
+      ],
+      "sentences": {
+        "daily": "Is there a community outreach programme?",
+        "office": "There is a customer outreach strategy.",
+        "interview": "Describe your outreach experience.",
+        "business": "There is a sales outreach campaign.",
+        "formal": "Outreach must be systematic.",
+        "informal": "Do some outreach!"
+      },
+      "usageNote": "'Outreach programme' = a plan to engage new people.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 125,
+      "word": "downtime",
+      "hindi": "बंदी का समय / डाउनटाइम",
+      "simpleMeaning": "time when a machine or system is not working",
+      "ipa": "/ˈdaʊntaɪm/",
+      "verbForms": {
+        "base": "downtime",
+        "s3": "downtimes",
+        "ing": "down",
+        "past": "went down",
+        "pp": "gone down"
+      },
+      "synonyms": [
+        "inactivity",
+        "outage",
+        "stoppage"
+      ],
+      "antonyms": [
+        "uptime",
+        "operation"
+      ],
+      "sentences": {
+        "daily": "There is some downtime for maintenance.",
+        "office": "There is planned system downtime.",
+        "interview": "How do you handle server downtime?",
+        "business": "There is minimal downtime here.",
+        "formal": "Downtime must be communicated in advance.",
+        "informal": "System's having some downtime!"
+      },
+      "usageNote": "'Planned downtime' vs 'unplanned downtime'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 126,
+      "word": "scalability",
+      "hindi": "स्केलेबिलिटी",
+      "simpleMeaning": "the ability to grow or expand easily",
+      "ipa": "/ˌskeɪləˈbɪlɪti/",
+      "verbForms": {
+        "base": "scalability",
+        "s3": "scalabilities",
+        "ing": "scaling",
+        "past": "scaled",
+        "pp": "scaled"
+      },
+      "synonyms": [
+        "expandability",
+        "growth capacity",
+        "flexibility"
+      ],
+      "antonyms": [
+        "rigidity",
+        "limitation"
+      ],
+      "sentences": {
+        "daily": "Is there scalability in this plan?",
+        "office": "There is a scalability challenge.",
+        "interview": "How do you ensure scalability?",
+        "business": "There is good scalability in this model.",
+        "formal": "Scalability must be assessed.",
+        "informal": "Scalability is the key!"
+      },
+      "usageNote": "'Scalable solution' = one that works as it grows.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 127,
+      "word": "visibility",
+      "hindi": "दृश्यता / पहचान",
+      "simpleMeaning": "the ability to be seen or noticed",
+      "ipa": "/ˌvɪzɪˈbɪlɪti/",
+      "verbForms": {
+        "base": "visibility",
+        "s3": "visibilities",
+        "ing": "being visible",
+        "past": "was visible",
+        "pp": "been visible"
+      },
+      "synonyms": [
+        "exposure",
+        "prominence",
+        "recognition"
+      ],
+      "antonyms": [
+        "obscurity",
+        "invisibility"
+      ],
+      "sentences": {
+        "daily": "There is good visibility today.",
+        "office": "There is a need for better brand visibility.",
+        "interview": "How do you increase your professional visibility?",
+        "business": "There is increased market visibility.",
+        "formal": "Visibility must be improved.",
+        "informal": "Need more visibility!"
+      },
+      "usageNote": "'Brand visibility' = how well a brand is seen in the market.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 128,
+      "word": "workflow",
+      "hindi": "कार्यप्रवाह",
+      "simpleMeaning": "the sequence of steps in a process",
+      "ipa": "/ˈwɜːkfləʊ/",
+      "verbForms": {
+        "base": "workflow",
+        "s3": "workflows",
+        "ing": "working",
+        "past": "worked",
+        "pp": "worked"
+      },
+      "synonyms": [
+        "process",
+        "pipeline",
+        "sequence"
+      ],
+      "antonyms": [
+        "bottleneck",
+        "disruption"
+      ],
+      "sentences": {
+        "daily": "Is there a workflow for this?",
+        "office": "There is an efficient workflow in place.",
+        "interview": "Describe your typical workflow.",
+        "business": "There is a streamlined workflow.",
+        "formal": "The workflow must be documented.",
+        "informal": "Workflow needs improvement!"
+      },
+      "usageNote": "'Workflow automation' = automating repetitive tasks.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 129,
+      "word": "stakeholder",
+      "hindi": "हितधारक",
+      "simpleMeaning": "a person with an interest in a project",
+      "ipa": "/ˈsteɪkhəʊldər/",
+      "verbForms": {
+        "base": "stakeholder",
+        "s3": "stakeholders",
+        "ing": "stakeholder",
+        "past": "stakeholder",
+        "pp": "stakeholder"
+      },
+      "synonyms": [
+        "participant",
+        "investor",
+        "interest holder"
+      ],
+      "antonyms": [
+        "outsider",
+        "uninvolved party"
+      ],
+      "sentences": {
+        "daily": "Are there stakeholders in this project?",
+        "office": "There are key stakeholders to update.",
+        "interview": "How do you manage stakeholders?",
+        "business": "There are multiple stakeholders.",
+        "formal": "Stakeholders must be consulted.",
+        "informal": "Keep the stakeholders happy!"
+      },
+      "usageNote": "'Stakeholder management' = keeping all relevant people informed.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 130,
+      "word": "milestone",
+      "hindi": "मील का पत्थर / महत्वपूर्ण पड़ाव",
+      "simpleMeaning": "an important stage in a process",
+      "ipa": "/ˈmaɪlstəʊn/",
+      "verbForms": {
+        "base": "milestone",
+        "s3": "milestones",
+        "ing": "milestone",
+        "past": "milestone",
+        "pp": "milestone"
+      },
+      "synonyms": [
+        "achievement",
+        "landmark",
+        "stage"
+      ],
+      "antonyms": [
+        "setback",
+        "failure"
+      ],
+      "sentences": {
+        "daily": "Is there a milestone to celebrate?",
+        "office": "There are project milestones.",
+        "interview": "What milestones have you achieved?",
+        "business": "There are quarterly business milestones.",
+        "formal": "Milestones must be tracked.",
+        "informal": "Hit a milestone!"
+      },
+      "usageNote": "'Reach a milestone' = achieve an important goal.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 131,
+      "word": "revenue",
+      "hindi": "राजस्व / आमदनी",
+      "simpleMeaning": "income generated by a business",
+      "ipa": "/ˈrevənjuː/",
+      "verbForms": {
+        "base": "revenue",
+        "s3": "revenues",
+        "ing": "generating revenue",
+        "past": "generated revenue",
+        "pp": "generated revenue"
+      },
+      "synonyms": [
+        "income",
+        "earnings",
+        "sales"
+      ],
+      "antonyms": [
+        "expenditure",
+        "cost",
+        "loss"
+      ],
+      "sentences": {
+        "daily": "Is there revenue from this?",
+        "office": "There is a revenue target for this quarter.",
+        "interview": "How have you contributed to revenue growth?",
+        "business": "There is a steady revenue stream.",
+        "formal": "Revenue must be reported accurately.",
+        "informal": "Where's the revenue?"
+      },
+      "usageNote": "'Revenue stream' = a source of ongoing income.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 132,
+      "word": "expenditure",
+      "hindi": "व्यय",
+      "simpleMeaning": "money spent on something",
+      "ipa": "/ɪkˈspendɪtʃər/",
+      "verbForms": {
+        "base": "expenditure",
+        "s3": "expenditures",
+        "ing": "spending",
+        "past": "spent",
+        "pp": "spent"
+      },
+      "synonyms": [
+        "spending",
+        "outlay",
+        "cost"
+      ],
+      "antonyms": [
+        "income",
+        "revenue",
+        "savings"
+      ],
+      "sentences": {
+        "daily": "Is there an expenditure limit?",
+        "office": "There is a capital expenditure plan.",
+        "interview": "How do you manage expenditure?",
+        "business": "There is high operating expenditure.",
+        "formal": "Expenditure must be within budget.",
+        "informal": "Keep expenditure low!"
+      },
+      "usageNote": "'Capital expenditure (CapEx)' vs 'operating expenditure (OpEx)'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 133,
+      "word": "productivity",
+      "hindi": "उत्पादकता",
+      "simpleMeaning": "the efficiency of output",
+      "ipa": "/ˌprɒdʌkˈtɪvɪti/",
+      "verbForms": {
+        "base": "productivity",
+        "s3": "productivities",
+        "ing": "being productive",
+        "past": "was productive",
+        "pp": "been productive"
+      },
+      "synonyms": [
+        "efficiency",
+        "output",
+        "performance"
+      ],
+      "antonyms": [
+        "idleness",
+        "inefficiency"
+      ],
+      "sentences": {
+        "daily": "There is high productivity here.",
+        "office": "There is a productivity improvement drive.",
+        "interview": "How do you boost productivity?",
+        "business": "There is a productivity benchmark.",
+        "formal": "Productivity must be monitored.",
+        "informal": "Need more productivity!"
+      },
+      "usageNote": "'Boost productivity' = increase output.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 134,
+      "word": "redundancy",
+      "hindi": "अतिरेकता / छँटनी",
+      "simpleMeaning": "job loss or unnecessary duplication",
+      "ipa": "/rɪˈdʌndənsi/",
+      "verbForms": {
+        "base": "redundancy",
+        "s3": "redundancies",
+        "ing": "making redundant",
+        "past": "made redundant",
+        "pp": "made redundant"
+      },
+      "synonyms": [
+        "layoff",
+        "duplication",
+        "dismissal"
+      ],
+      "antonyms": [
+        "employment",
+        "necessity"
+      ],
+      "sentences": {
+        "daily": "Is there a risk of redundancy?",
+        "office": "There have been redundancies in the company.",
+        "interview": "Have you experienced redundancy?",
+        "business": "There is a redundancy payment.",
+        "formal": "Redundancy must be handled with care.",
+        "informal": "Afraid of redundancy!"
+      },
+      "usageNote": "'Made redundant' = lost job due to the role no longer being needed.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 135,
+      "word": "orientation",
+      "hindi": "अनुस्थापन / ओरिएंटेशन",
+      "simpleMeaning": "introduction to a new job or place",
+      "ipa": "/ˌɔːriənˈteɪʃn/",
+      "verbForms": {
+        "base": "orientation",
+        "s3": "orientations",
+        "ing": "orienting",
+        "past": "oriented",
+        "pp": "oriented"
+      },
+      "synonyms": [
+        "induction",
+        "introduction",
+        "briefing"
+      ],
+      "antonyms": [
+        "confusion",
+        "isolation"
+      ],
+      "sentences": {
+        "daily": "Is there an orientation for new students?",
+        "office": "There is an employee orientation programme.",
+        "interview": "What is the orientation process?",
+        "business": "There is a client orientation session.",
+        "formal": "Orientation must be completed on day one.",
+        "informal": "Done orientation?"
+      },
+      "usageNote": "'New employee orientation' = induction for new joiners.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 136,
+      "word": "appraisal",
+      "hindi": "मूल्यांकन / प्रदर्शन समीक्षा",
+      "simpleMeaning": "formal evaluation of performance",
+      "ipa": "/əˈpreɪzl/",
+      "verbForms": {
+        "base": "appraisal",
+        "s3": "appraisals",
+        "ing": "appraising",
+        "past": "appraised",
+        "pp": "appraised"
+      },
+      "synonyms": [
+        "evaluation",
+        "review",
+        "assessment"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignorance"
+      ],
+      "sentences": {
+        "daily": "Is there an appraisal this month?",
+        "office": "There is an annual performance appraisal.",
+        "interview": "How do you prepare for appraisals?",
+        "business": "There are quarterly appraisals.",
+        "formal": "The appraisal must be documented.",
+        "informal": "Appraisal time!"
+      },
+      "usageNote": "'360-degree appraisal' = feedback from all directions.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 137,
+      "word": "attrition",
+      "hindi": "अपघर्षण / छँटनी",
+      "simpleMeaning": "gradual reduction of staff through departures",
+      "ipa": "/əˈtrɪʃn/",
+      "verbForms": {
+        "base": "attrition",
+        "s3": "attritions",
+        "ing": "attriting",
+        "past": "attrited",
+        "pp": "attrited"
+      },
+      "synonyms": [
+        "turnover",
+        "reduction",
+        "depletion"
+      ],
+      "antonyms": [
+        "retention",
+        "growth"
+      ],
+      "sentences": {
+        "daily": "Is there high attrition here?",
+        "office": "There is a high attrition rate.",
+        "interview": "How have you managed attrition?",
+        "business": "There is an attrition concern.",
+        "formal": "Attrition must be analysed quarterly.",
+        "informal": "High attrition here!"
+      },
+      "usageNote": "'Natural attrition' = staff leaving of their own accord.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 138,
+      "word": "procurement",
+      "hindi": "खरीद / प्राप्ति",
+      "simpleMeaning": "the process of buying goods or services",
+      "ipa": "/prəˈkjʊərmənt/",
+      "verbForms": {
+        "base": "procurement",
+        "s3": "procurements",
+        "ing": "procuring",
+        "past": "procured",
+        "pp": "procured"
+      },
+      "synonyms": [
+        "purchasing",
+        "acquisition",
+        "buying"
+      ],
+      "antonyms": [
+        "disposal",
+        "sale"
+      ],
+      "sentences": {
+        "daily": "Is there a procurement process?",
+        "office": "There is a procurement team.",
+        "interview": "What is your procurement experience?",
+        "business": "There is a procurement strategy.",
+        "formal": "Procurement must follow protocol.",
+        "informal": "Sorted procurement!"
+      },
+      "usageNote": "'Procurement cycle' = end-to-end purchasing process.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 139,
+      "word": "logistics",
+      "hindi": "रसद / लॉजिस्टिक्स",
+      "simpleMeaning": "the coordination of complex operations",
+      "ipa": "/ləˈdʒɪstɪks/",
+      "verbForms": {
+        "base": "logistics",
+        "s3": "logistics",
+        "ing": "managing logistics",
+        "past": "managed logistics",
+        "pp": "managed logistics"
+      },
+      "synonyms": [
+        "coordination",
+        "supply chain",
+        "management"
+      ],
+      "antonyms": [
+        "disorganisation",
+        "chaos"
+      ],
+      "sentences": {
+        "daily": "Is there a logistics plan?",
+        "office": "There are logistics issues to address.",
+        "interview": "What is your logistics experience?",
+        "business": "There is a strong logistics network.",
+        "formal": "Logistics must be optimised.",
+        "informal": "Sort the logistics first!"
+      },
+      "usageNote": "'Third-party logistics (3PL)' = outsourcing supply chain.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 140,
+      "word": "litigation",
+      "hindi": "मुकदमेबाजी",
+      "simpleMeaning": "taking legal action through court",
+      "ipa": "/ˌlɪtɪˈɡeɪʃn/",
+      "verbForms": {
+        "base": "litigation",
+        "s3": "litigations",
+        "ing": "litigating",
+        "past": "litigated",
+        "pp": "litigated"
+      },
+      "synonyms": [
+        "lawsuit",
+        "legal action",
+        "court case"
+      ],
+      "antonyms": [
+        "settlement",
+        "arbitration"
+      ],
+      "sentences": {
+        "daily": "Is there a litigation risk?",
+        "office": "There is pending litigation.",
+        "interview": "Have you dealt with litigation?",
+        "business": "There is a litigation strategy.",
+        "formal": "Litigation must be avoided where possible.",
+        "informal": "Heading to litigation!"
+      },
+      "usageNote": "'Avoid litigation' = prefer settlement over court.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 141,
+      "word": "leverage",
+      "hindi": "लाभ उठाना / लीवरेज",
+      "simpleMeaning": "using something to its maximum advantage",
+      "ipa": "/ˈliːvərɪdʒ/",
+      "verbForms": {
+        "base": "leverage",
+        "s3": "leverages",
+        "ing": "leveraging",
+        "past": "leveraged",
+        "pp": "leveraged"
+      },
+      "synonyms": [
+        "use",
+        "exploit",
+        "capitalise"
+      ],
+      "antonyms": [
+        "waste",
+        "underuse"
+      ],
+      "sentences": {
+        "daily": "Is there a way to leverage this?",
+        "office": "There is an opportunity to leverage technology.",
+        "interview": "How do you leverage your skills?",
+        "business": "There is a leverage in this deal.",
+        "formal": "Leverage must be used responsibly.",
+        "informal": "Leverage your network!"
+      },
+      "usageNote": "'Leverage (noun)' = power to influence; 'leverage (verb)' = use to your advantage.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 142,
+      "word": "exposure",
+      "hindi": "संपर्क / जोखिम",
+      "simpleMeaning": "experience of or being at risk from something",
+      "ipa": "/ɪkˈspəʊʒər/",
+      "verbForms": {
+        "base": "exposure",
+        "s3": "exposures",
+        "ing": "exposing",
+        "past": "exposed",
+        "pp": "exposed"
+      },
+      "synonyms": [
+        "experience",
+        "risk",
+        "contact"
+      ],
+      "antonyms": [
+        "protection",
+        "shelter"
+      ],
+      "sentences": {
+        "daily": "There is good exposure in this role.",
+        "office": "There is international exposure here.",
+        "interview": "What kind of exposure do you have?",
+        "business": "There is limited market exposure.",
+        "formal": "Exposure to risk must be migratable.",
+        "informal": "Great exposure!"
+      },
+      "usageNote": "'Exposure to' = having experience of or contact with.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 143,
+      "word": "conversion",
+      "hindi": "रूपांतरण",
+      "simpleMeaning": "changing from one form or state to another",
+      "ipa": "/kənˈvɜːʃn/",
+      "verbForms": {
+        "base": "conversion",
+        "s3": "conversions",
+        "ing": "converting",
+        "past": "converted",
+        "pp": "converted"
+      },
+      "synonyms": [
+        "change",
+        "transformation",
+        "shift"
+      ],
+      "antonyms": [
+        "retention",
+        "stagnation"
+      ],
+      "sentences": {
+        "daily": "Is there a conversion rate?",
+        "office": "There is a lead conversion issue.",
+        "interview": "How do you improve conversion rates?",
+        "business": "There is a conversion funnel.",
+        "formal": "Conversion must be tracked.",
+        "informal": "Need better conversion!"
+      },
+      "usageNote": "'Conversion rate' = percentage of leads that become customers.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 144,
+      "word": "audit",
+      "hindi": "ऑडिट / लेखापरीक्षा",
+      "simpleMeaning": "an official inspection of accounts",
+      "ipa": "/ˈɔːdɪt/",
+      "verbForms": {
+        "base": "audit",
+        "s3": "audits",
+        "ing": "auditing",
+        "past": "audited",
+        "pp": "audited"
+      },
+      "synonyms": [
+        "inspection",
+        "review",
+        "examination"
+      ],
+      "antonyms": [
+        "negligence",
+        "trust"
+      ],
+      "sentences": {
+        "daily": "Is there an audit today?",
+        "office": "There is a surprise audit tomorrow.",
+        "interview": "Have you been through an audit?",
+        "business": "There is an annual audit.",
+        "formal": "The audit must be conducted independently.",
+        "informal": "Audit time!"
+      },
+      "usageNote": "'Internal audit' vs 'external audit'.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 145,
+      "word": "deficit",
+      "hindi": "घाटा / कमी",
+      "simpleMeaning": "an amount by which something falls short",
+      "ipa": "/ˈdefɪsɪt/",
+      "verbForms": {
+        "base": "deficit",
+        "s3": "deficits",
+        "ing": "deficit",
+        "past": "deficit",
+        "pp": "deficit"
+      },
+      "synonyms": [
+        "shortfall",
+        "lack",
+        "gap"
+      ],
+      "antonyms": [
+        "surplus",
+        "excess"
+      ],
+      "sentences": {
+        "daily": "Is there a deficit in the budget?",
+        "office": "There is a budget deficit this quarter.",
+        "interview": "How have you managed a deficit situation?",
+        "business": "There is a trade deficit.",
+        "formal": "The deficit must be addressed.",
+        "informal": "Big deficit here!"
+      },
+      "usageNote": "'Budget deficit' = spending more than income.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 146,
+      "word": "overhead",
+      "hindi": "ओवरहेड / परिचालन व्यय",
+      "simpleMeaning": "ongoing business costs not tied to production",
+      "ipa": "/ˈəʊvəhed/",
+      "verbForms": {
+        "base": "overhead",
+        "s3": "overheads",
+        "ing": "overhead",
+        "past": "overhead",
+        "pp": "overhead"
+      },
+      "synonyms": [
+        "running costs",
+        "fixed cost",
+        "expense"
+      ],
+      "antonyms": [
+        "direct cost",
+        "variable cost"
+      ],
+      "sentences": {
+        "daily": "Is there high overhead here?",
+        "office": "There are high office overheads.",
+        "interview": "How do you manage overhead costs?",
+        "business": "There is a need to reduce overheads.",
+        "formal": "Overheads must be controlled.",
+        "informal": "Too much overhead!"
+      },
+      "usageNote": "'Reduce overheads' = cut fixed operating costs.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 147,
+      "word": "amendment",
+      "hindi": "संशोधन",
+      "simpleMeaning": "a change made to improve something",
+      "ipa": "/əˈmendmənt/",
+      "verbForms": {
+        "base": "amendment",
+        "s3": "amendments",
+        "ing": "amending",
+        "past": "amended",
+        "pp": "amended"
+      },
+      "synonyms": [
+        "modification",
+        "revision",
+        "change"
+      ],
+      "antonyms": [
+        "original",
+        "unchanged"
+      ],
+      "sentences": {
+        "daily": "Is there an amendment to the plan?",
+        "office": "There is an amendment to the contract.",
+        "interview": "Have you drafted amendments?",
+        "business": "There are proposed amendments.",
+        "formal": "The amendment must be ratified.",
+        "informal": "Need an amendment here!"
+      },
+      "usageNote": "'Move an amendment' = propose a change formally.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 148,
+      "word": "clause",
+      "hindi": "खंड / धारा",
+      "simpleMeaning": "a specific section of a legal document",
+      "ipa": "/klɔːz/",
+      "verbForms": {
+        "base": "clause",
+        "s3": "clauses",
+        "ing": "clause",
+        "past": "clause",
+        "pp": "clause"
+      },
+      "synonyms": [
+        "provision",
+        "condition",
+        "section"
+      ],
+      "antonyms": [
+        "whole",
+        "entirety"
+      ],
+      "sentences": {
+        "daily": "Is there a clause about this?",
+        "office": "There is a confidentiality clause.",
+        "interview": "Have you reviewed contract clauses?",
+        "business": "There is a penalty clause.",
+        "formal": "The clause must be enforceable.",
+        "informal": "Check the clauses!"
+      },
+      "usageNote": "'Penalty clause' = clause that imposes a fine for non-compliance.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 149,
+      "word": "threshold",
+      "hindi": "सीमारेखा / दहलीज",
+      "simpleMeaning": "the level at which something starts to happen",
+      "ipa": "/ˈθreʃhəʊld/",
+      "verbForms": {
+        "base": "threshold",
+        "s3": "thresholds",
+        "ing": "threshold",
+        "past": "threshold",
+        "pp": "threshold"
+      },
+      "synonyms": [
+        "limit",
+        "level",
+        "point"
+      ],
+      "antonyms": [
+        "extremity",
+        "no limit"
+      ],
+      "sentences": {
+        "daily": "Is there a pain threshold?",
+        "office": "There is a threshold for approval.",
+        "interview": "What is your personal threshold for stress?",
+        "business": "There is a minimum order threshold.",
+        "formal": "The threshold must not be exceeded.",
+        "informal": "Hit the threshold!"
+      },
+      "usageNote": "'Below threshold' = not yet at the required level.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 150,
+      "word": "consortium",
+      "hindi": "संघ / कंसोर्टियम",
+      "simpleMeaning": "a group of organisations working together",
+      "ipa": "/kənˈsɔːtiəm/",
+      "verbForms": {
+        "base": "consortium",
+        "s3": "consortia",
+        "ing": "consortium",
+        "past": "consortium",
+        "pp": "consortium"
+      },
+      "synonyms": [
+        "alliance",
+        "group",
+        "partnership"
+      ],
+      "antonyms": [
+        "individual",
+        "sole entity"
+      ],
+      "sentences": {
+        "daily": "Is there a consortium involved?",
+        "office": "There is a consortium bidding on this project.",
+        "interview": "Have you worked within a consortium?",
+        "business": "There is a procurement consortium.",
+        "formal": "The consortium must be registered.",
+        "informal": "There's a consortium on this?"
+      },
+      "usageNote": "'Bidding consortium' = group of companies submitting a joint bid.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 151,
+      "word": "momentum",
+      "hindi": "गति / प्रेरण-बल",
+      "simpleMeaning": "the force that keeps something going",
+      "ipa": "/məˈmentəm/",
+      "verbForms": {
+        "base": "momentum",
+        "s3": "momentums",
+        "ing": "gaining momentum",
+        "past": "gained momentum",
+        "pp": "gained momentum"
+      },
+      "synonyms": [
+        "speed",
+        "drive",
+        "impetus"
+      ],
+      "antonyms": [
+        "stagnation",
+        "inertia"
+      ],
+      "sentences": {
+        "daily": "Is there momentum in this project?",
+        "office": "There is great momentum in the team.",
+        "interview": "How do you build momentum?",
+        "business": "There is market momentum here.",
+        "formal": "Momentum must be maintained.",
+        "informal": "Keep the momentum!"
+      },
+      "usageNote": "'Build momentum' = get stronger as you go.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 152,
+      "word": "contingency",
+      "hindi": "आकस्मिकता / अपूर्वघटना",
+      "simpleMeaning": "a plan for an unexpected event",
+      "ipa": "/kənˈtɪndʒənsi/",
+      "verbForms": {
+        "base": "contingency",
+        "s3": "contingencies",
+        "ing": "contingency",
+        "past": "contingency",
+        "pp": "contingency"
+      },
+      "synonyms": [
+        "backup",
+        "precaution",
+        "emergency plan"
+      ],
+      "antonyms": [
+        "certainty",
+        "definite plan"
+      ],
+      "sentences": {
+        "daily": "Is there a contingency plan?",
+        "office": "There is a contingency budget.",
+        "interview": "How do you plan for contingencies?",
+        "business": "There is a contingency reserve.",
+        "formal": "A contingency plan must be in place.",
+        "informal": "Got a contingency?"
+      },
+      "usageNote": "'Contingency plan' = a backup strategy for unexpected events.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 153,
+      "word": "proficiency",
+      "hindi": "दक्षता",
+      "simpleMeaning": "a high level of skill",
+      "ipa": "/prəˈfɪʃənsi/",
+      "verbForms": {
+        "base": "proficiency",
+        "s3": "proficiencies",
+        "ing": "being proficient",
+        "past": "was proficient",
+        "pp": "been proficient"
+      },
+      "synonyms": [
+        "skill",
+        "competence",
+        "expertise"
+      ],
+      "antonyms": [
+        "incompetence",
+        "inability"
+      ],
+      "sentences": {
+        "daily": "Is there a proficiency test?",
+        "office": "There is a language proficiency requirement.",
+        "interview": "What is your proficiency in this software?",
+        "business": "There is a proficiency benchmark.",
+        "formal": "Proficiency must be demonstrated.",
+        "informal": "Show your proficiency!"
+      },
+      "usageNote": "'Language proficiency' = ability in a specific language.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 154,
+      "word": "infrastructure",
+      "hindi": "बुनियादी ढाँचा",
+      "simpleMeaning": "the basic physical systems of a country or organisation",
+      "ipa": "/ˈɪnfrəstrʌktʃər/",
+      "verbForms": {
+        "base": "infrastructure",
+        "s3": "infrastructures",
+        "ing": "infrastructure",
+        "past": "infrastructure",
+        "pp": "infrastructure"
+      },
+      "synonyms": [
+        "framework",
+        "system",
+        "base"
+      ],
+      "antonyms": [
+        "disorganisation",
+        "lack"
+      ],
+      "sentences": {
+        "daily": "Is there good infrastructure here?",
+        "office": "There is a lack of IT infrastructure.",
+        "interview": "What is your experience in infrastructure?",
+        "business": "There is major infrastructure investment.",
+        "formal": "Infrastructure must be maintained.",
+        "informal": "Needs better infrastructure!"
+      },
+      "usageNote": "'IT infrastructure' = hardware, software, and networks.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 155,
+      "word": "subsidy",
+      "hindi": "सब्सिडी / अनुदान",
+      "simpleMeaning": "money given by the government to lower prices",
+      "ipa": "/ˈsʌbsɪdi/",
+      "verbForms": {
+        "base": "subsidy",
+        "s3": "subsidies",
+        "ing": "subsidising",
+        "past": "subsidised",
+        "pp": "subsidised"
+      },
+      "synonyms": [
+        "grant",
+        "allowance",
+        "financial aid"
+      ],
+      "antonyms": [
+        "tax",
+        "levy",
+        "surcharge"
+      ],
+      "sentences": {
+        "daily": "Is there a subsidy for this?",
+        "office": "There is a government subsidy scheme.",
+        "interview": "Have you worked with subsidies?",
+        "business": "There is a farming subsidy.",
+        "formal": "The subsidy must be claimed properly.",
+        "informal": "Any subsidy available?"
+      },
+      "usageNote": "'Farm subsidy' = government payment to farmers.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 156,
+      "word": "tariff",
+      "hindi": "शुल्क / टैरिफ",
+      "simpleMeaning": "a tax on imports or exports",
+      "ipa": "/ˈtærɪf/",
+      "verbForms": {
+        "base": "tariff",
+        "s3": "tariffs",
+        "ing": "tariff",
+        "past": "tariff",
+        "pp": "tariff"
+      },
+      "synonyms": [
+        "tax",
+        "duty",
+        "levy"
+      ],
+      "antonyms": [
+        "exemption",
+        "free trade"
+      ],
+      "sentences": {
+        "daily": "Is there a tariff on this product?",
+        "office": "There is a new import tariff.",
+        "interview": "Are you familiar with tariff structures?",
+        "business": "There are rising tariffs on steel.",
+        "formal": "Tariffs must be declared.",
+        "informal": "Too many tariffs!"
+      },
+      "usageNote": "'Import tariff' = tax on goods brought into a country.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 157,
+      "word": "trademark",
+      "hindi": "ट्रेडमार्क",
+      "simpleMeaning": "a symbol or name registered to represent a brand",
+      "ipa": "/ˈtreɪdmɑːk/",
+      "verbForms": {
+        "base": "trademark",
+        "s3": "trademarks",
+        "ing": "trademarking",
+        "past": "trademarked",
+        "pp": "trademarked"
+      },
+      "synonyms": [
+        "brand",
+        "logo",
+        "insignia"
+      ],
+      "antonyms": [
+        "unregistered name",
+        "generic"
+      ],
+      "sentences": {
+        "daily": "Is there a trademark on this product?",
+        "office": "There is a trademark registration.",
+        "interview": "Are you familiar with trademark law?",
+        "business": "There is a trademark dispute.",
+        "formal": "The trademark must be registered.",
+        "informal": "It's trademarked!"
+      },
+      "usageNote": "'Registered trademark (™ or ®)' = legally protected brand symbol.",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 158,
+      "word": "copyright",
+      "hindi": "कॉपीराइट",
+      "simpleMeaning": "legal right to control use of original work",
+      "ipa": "/ˈkɒpiraɪt/",
+      "verbForms": {
+        "base": "copyright",
+        "s3": "copyrights",
+        "ing": "copyrighting",
+        "past": "copyrighted",
+        "pp": "copyrighted"
+      },
+      "synonyms": [
+        "intellectual property",
+        "IP",
+        "exclusive right"
+      ],
+      "antonyms": [
+        "public domain",
+        "free use"
+      ],
+      "sentences": {
+        "daily": "Is there a copyright on this music?",
+        "office": "There is a copyright notice.",
+        "interview": "How do you handle copyright issues?",
+        "business": "There is a copyright infringement claim.",
+        "formal": "Copyright must be respected.",
+        "informal": "That's copyrighted!"
+      },
+      "usageNote": "'Copyright infringement' = using someone's work without permission.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 159,
+      "word": "prototype",
+      "hindi": "प्रोटोटाइप",
+      "simpleMeaning": "a first model of something new",
+      "ipa": "/ˈprəʊtətaɪp/",
+      "verbForms": {
+        "base": "prototype",
+        "s3": "prototypes",
+        "ing": "prototyping",
+        "past": "prototyped",
+        "pp": "prototyped"
+      },
+      "synonyms": [
+        "model",
+        "sample",
+        "template"
+      ],
+      "antonyms": [
+        "final version",
+        "finished product"
+      ],
+      "sentences": {
+        "daily": "Is there a prototype to test?",
+        "office": "There is a prototype ready for review.",
+        "interview": "Have you built a prototype?",
+        "business": "There is a product prototype.",
+        "formal": "The prototype must be approved.",
+        "informal": "Check out the prototype!"
+      },
+      "usageNote": "'MVP (minimum viable product)' is a type of prototype.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 160,
+      "word": "vendor",
+      "hindi": "विक्रेता",
+      "simpleMeaning": "a person or company that sells goods",
+      "ipa": "/ˈvendər/",
+      "verbForms": {
+        "base": "vendor",
+        "s3": "vendors",
+        "ing": "vendor",
+        "past": "vendor",
+        "pp": "vendor"
+      },
+      "synonyms": [
+        "supplier",
+        "seller",
+        "dealer"
+      ],
+      "antonyms": [
+        "buyer",
+        "customer"
+      ],
+      "sentences": {
+        "daily": "Is there a good vendor nearby?",
+        "office": "There is a vendor meeting today.",
+        "interview": "How do you manage vendors?",
+        "business": "There is a preferred vendor list.",
+        "formal": "The vendor must be qualified.",
+        "informal": "Got a vendor?"
+      },
+      "usageNote": "'Vendor management' = process of overseeing suppliers.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 161,
+      "word": "contract",
+      "hindi": "अनुबंध",
+      "simpleMeaning": "a legal agreement between parties",
+      "ipa": "/ˈkɒntrækt/",
+      "verbForms": {
+        "base": "contract",
+        "s3": "contracts",
+        "ing": "contracting",
+        "past": "contracted",
+        "pp": "contracted"
+      },
+      "synonyms": [
+        "agreement",
+        "deal",
+        "arrangement"
+      ],
+      "antonyms": [
+        "verbal agreement",
+        "handshake"
+      ],
+      "sentences": {
+        "daily": "Is there a contract for this?",
+        "office": "There is a contract to be signed.",
+        "interview": "Have you worked on contract terms?",
+        "business": "There is a long-term contract.",
+        "formal": "The contract must be reviewed by legal.",
+        "informal": "Sign the contract!"
+      },
+      "usageNote": "'Breach of contract' = failing to follow a contract.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 162,
+      "word": "inventory",
+      "hindi": "इन्वेंटरी / माल-सूची",
+      "simpleMeaning": "a complete list of goods or materials",
+      "ipa": "/ˈɪnvəntri/",
+      "verbForms": {
+        "base": "inventory",
+        "s3": "inventories",
+        "ing": "inventorying",
+        "past": "inventoried",
+        "pp": "inventoried"
+      },
+      "synonyms": [
+        "stock",
+        "goods",
+        "supplies"
+      ],
+      "antonyms": [
+        "shortage",
+        "empty stock"
+      ],
+      "sentences": {
+        "daily": "Is there an inventory check today?",
+        "office": "There is an inventory management system.",
+        "interview": "How do you manage inventory?",
+        "business": "There is excess inventory.",
+        "formal": "Inventory must be audited quarterly.",
+        "informal": "Check the inventory!"
+      },
+      "usageNote": "'Inventory control' = managing stock levels.",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 163,
+      "word": "dividend",
+      "hindi": "लाभांश",
+      "simpleMeaning": "a payment from a company's profit to shareholders",
+      "ipa": "/ˈdɪvɪdend/",
+      "verbForms": {
+        "base": "dividend",
+        "s3": "dividends",
+        "ing": "dividend",
+        "past": "dividend",
+        "pp": "dividend"
+      },
+      "synonyms": [
+        "return",
+        "profit",
+        "share"
+      ],
+      "antonyms": [
+        "loss",
+        "deficit"
+      ],
+      "sentences": {
+        "daily": "Is there a dividend this year?",
+        "office": "There is a quarterly dividend payment.",
+        "interview": "How are dividends calculated?",
+        "business": "There is a dividend policy.",
+        "formal": "Dividends must be declared.",
+        "informal": "Got dividends?"
+      },
+      "usageNote": "'Pay a dividend' = distribute profit to shareholders.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 164,
+      "word": "reconciliation",
+      "hindi": "सुलह / मेल-मिलाप",
+      "simpleMeaning": "restoring good relations or matching accounts",
+      "ipa": "/ˌrekənsɪliˈeɪʃn/",
+      "verbForms": {
+        "base": "reconciliation",
+        "s3": "reconciliations",
+        "ing": "reconciling",
+        "past": "reconciled",
+        "pp": "reconciled"
+      },
+      "synonyms": [
+        "settlement",
+        "matching",
+        "resolution"
+      ],
+      "antonyms": [
+        "dispute",
+        "conflict"
+      ],
+      "sentences": {
+        "daily": "Is there a reconciliation in the accounts?",
+        "office": "There is a monthly bank reconciliation.",
+        "interview": "Have you done account reconciliation?",
+        "business": "There is a data reconciliation issue.",
+        "formal": "Reconciliation must be completed by month-end.",
+        "informal": "Need to reconcile this!"
+      },
+      "usageNote": "'Bank reconciliation' = matching company records to bank statement.",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 165,
+      "word": "feasibility",
+      "hindi": "व्यवहार्यता",
+      "simpleMeaning": "how practical a plan is",
+      "ipa": "/ˌfiːzɪˈbɪlɪti/",
+      "verbForms": {
+        "base": "feasibility",
+        "s3": "feasibilities",
+        "ing": "being feasible",
+        "past": "was feasible",
+        "pp": "been feasible"
+      },
+      "synonyms": [
+        "practicality",
+        "viability",
+        "possibility"
+      ],
+      "antonyms": [
+        "impossibility",
+        "impracticality"
+      ],
+      "sentences": {
+        "daily": "Is there feasibility in this plan?",
+        "office": "There is a feasibility study underway.",
+        "interview": "How do you assess feasibility?",
+        "business": "There is no feasibility in this idea.",
+        "formal": "Feasibility must be confirmed.",
+        "informal": "Is this feasible?"
+      },
+      "usageNote": "'Feasibility study' = research to check if a plan is possible.",
+      "cefrLevel": "B2"
     }
   ]
 }

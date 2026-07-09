@@ -1,58 +1,5643 @@
 {
-  "totalQuestions": 50,
+  "totalQuestions": 383,
   "topic": "Has / Have",
   "day": 6,
   "instructions": "नीचे दिए गए Hindi sentences को English में translate करें। अपना answer लिखें, फिर 'Reveal Answer' button दबाएं।",
   "questions": [
-    {"id":1,"hindi":"मेरे पास एक laptop है।","english":"I have a laptop.","alternatives":["I've got a laptop."],"hint":"I + have + noun","explanation":"Possession के लिए 'I have'।","difficulty":"easy","tags":["possession"],"grammarRule":"I/You/We/They + have + [noun]","category":"Possession"},
-    {"id":2,"hindi":"उसके पास एक कार है।","english":"He has a car.","alternatives":["He's got a car."],"hint":"He + has + noun","explanation":"He/She/It के साथ has आता है।","difficulty":"easy","tags":["possession"],"grammarRule":"He/She/It + has + [noun]","category":"Possession"},
-    {"id":3,"hindi":"मैंने खाना खा लिया है।","english":"I have eaten.","alternatives":["I've eaten."],"hint":"I have + V3","explanation":"Present Perfect: have + V3 (eaten)।","difficulty":"easy","tags":["present-perfect"],"grammarRule":"Subject + have/has + V3","category":"Present Perfect"},
-    {"id":4,"hindi":"वह जा चुकी है।","english":"She has gone.","alternatives":["She's gone."],"hint":"She + has + V3","explanation":"Present Perfect with 'has' for she।","difficulty":"easy","tags":["present-perfect"],"grammarRule":"He/She/It + has + V3","category":"Present Perfect"},
-    {"id":5,"hindi":"मेरे पास पैसे नहीं हैं।","english":"I don't have money.","alternatives":["I have no money."],"hint":"I + don't have + noun","explanation":"Negative possession: don't have।","difficulty":"easy","tags":["negative"],"grammarRule":"I/You/We/They + don't have + [noun]","category":"Negative"},
-    {"id":6,"hindi":"उसके पास समय नहीं है।","english":"She doesn't have time.","alternatives":["She has no time."],"hint":"She + doesn't have + noun","explanation":"Negative possession He/She/It के लिए doesn't have।","difficulty":"easy","tags":["negative"],"grammarRule":"He/She/It + doesn't have + [noun]","category":"Negative"},
-    {"id":7,"hindi":"क्या तुम्हारे पास पेन है?","english":"Do you have a pen?","alternatives":["Have you got a pen?"],"hint":"Do + you + have + noun?","explanation":"Question structure।","difficulty":"easy","tags":["question"],"grammarRule":"Do/Does + subject + have + [noun]?","category":"Questions"},
-    {"id":8,"hindi":"क्या उसके पास bike है?","english":"Does he have a bike?","alternatives":["Has he got a bike?"],"hint":"Does + he + have + noun?","explanation":"He/She/It question के लिए Does।","difficulty":"easy","tags":["question"],"grammarRule":"Does + he/she/it + have + [noun]?","category":"Questions"},
-    {"id":9,"hindi":"क्या तुमने अपना काम खत्म कर लिया है?","english":"Have you finished your work?","alternatives":["Did you finish your work?"],"hint":"Have + you + V3?","explanation":"Present Perfect question।","difficulty":"medium","tags":["question","present-perfect"],"grammarRule":"Have/Has + subject + V3?","category":"Questions"},
-    {"id":10,"hindi":"मैं 8 बजे breakfast करता हूँ।","english":"I have breakfast at 8 AM.","alternatives":["I eat breakfast at 8 AM."],"hint":"I + have + breakfast + time","explanation":"'have breakfast' common expression।","difficulty":"easy","tags":["expression"],"grammarRule":"have + breakfast/lunch/dinner","category":"Expressions"},
-    {"id":11,"hindi":"हमारी 3 बजे meeting है।","english":"We have a meeting at 3 PM.","alternatives":["We've got a meeting at 3 PM."],"hint":"We + have a meeting + time","explanation":"Common office expression।","difficulty":"easy","tags":["expression","office"],"grammarRule":"have a meeting/break/look","category":"Expressions"},
-    {"id":12,"hindi":"मेरे पास 5 साल का अनुभव है।","english":"I have five years of experience.","alternatives":["I've got five years of experience."],"hint":"I have + number + years of experience","explanation":"Interview में common structure।","difficulty":"medium","tags":["experience"],"grammarRule":"I have + [number] years of experience","category":"Experience"},
-    {"id":13,"hindi":"क्या तुमने खाना खा लिया?","english":"Have you had your lunch?","alternatives":["Did you have lunch?"],"hint":"Have + you + had + noun?","explanation":"Present Perfect with 'had' as V3 of have।","difficulty":"medium","tags":["question"],"grammarRule":"Have + subject + had + [noun]?","category":"Questions"},
-    {"id":14,"hindi":"मैंने अभी तक कुछ नहीं खाया है।","english":"I haven't eaten yet.","alternatives":["I have not eaten yet."],"hint":"I + haven't + V3 + yet","explanation":"Negative Present Perfect with 'yet'।","difficulty":"medium","tags":["negative"],"grammarRule":"I/You/We/They + haven't + V3 + yet","category":"Negative"},
-    {"id":15,"hindi":"क्या तुम्हें कोई एलर्जी है?","english":"Do you have any allergies?","alternatives":["Have you got any allergies?"],"hint":"Do + you + have + any + noun?","explanation":"Doctor context में common question।","difficulty":"medium","tags":["question","health"],"grammarRule":"Do you have any + [noun]?","category":"Questions"},
-    {"id":16,"hindi":"मुझे तुम्हारी एक missed call है।","english":"I have a missed call from you.","alternatives":["I've got a missed call from you."],"hint":"I have a + [noun] + from you","explanation":"Phone context expression।","difficulty":"easy","tags":["expression"],"grammarRule":"I have a + [noun]","category":"Expressions"},
-    {"id":17,"hindi":"क्या तुम्हारे पास एक मिनट है?","english":"Do you have a minute?","alternatives":["Have you got a minute?"],"hint":"Do you have + noun?","explanation":"Polite request का common तरीका।","difficulty":"easy","tags":["question"],"grammarRule":"Do you have + [noun]?","category":"Questions"},
-    {"id":18,"hindi":"क्या तुम्हारे पास size M में है?","english":"Do you have this in size M?","alternatives":["Have you got this in size M?"],"hint":"Do you have this in + [size]?","explanation":"Shopping context question।","difficulty":"medium","tags":["question","shopping"],"grammarRule":"Do you have this in + [size]?","category":"Questions"},
-    {"id":19,"hindi":"मैंने पहले ही payment कर दी है।","english":"I have already paid.","alternatives":["I've already made the payment."],"hint":"I + have already + V3","explanation":"'already' Present Perfect के साथ common।","difficulty":"medium","tags":["present-perfect"],"grammarRule":"Subject + have/has already + V3","category":"Present Perfect"},
-    {"id":20,"hindi":"मेरे पास मेरे tickets तैयार हैं।","english":"I have my tickets ready.","alternatives":["My tickets are ready."],"hint":"I have + possessive + noun + ready","explanation":"Travel context expression।","difficulty":"easy","tags":["expression","travel"],"grammarRule":"I have + [possessive] + [noun] + ready","category":"Expressions"},
-    {"id":21,"hindi":"क्या तुम्हारे पास तुम्हारा passport है?","english":"Do you have your passport?","alternatives":["Have you got your passport?"],"hint":"Do you have + possessive + noun?","explanation":"Travel/airport context question।","difficulty":"easy","tags":["question","travel"],"grammarRule":"Do you have your + [noun]?","category":"Questions"},
-    {"id":22,"hindi":"मैंने document attach कर दिया है।","english":"I have attached the document.","alternatives":["I've attached the document."],"hint":"I have + V3 + noun","explanation":"Email vocabulary में common।","difficulty":"medium","tags":["office","email"],"grammarRule":"Subject + have/has + V3 + [noun]","category":"Office English"},
-    {"id":23,"hindi":"क्या उसे mail मिली है?","english":"Has she received the mail?","alternatives":["Did she receive the mail?"],"hint":"Has + she + V3?","explanation":"Present Perfect question He/She/It के लिए।","difficulty":"medium","tags":["question","office"],"grammarRule":"Has + he/she/it + V3?","category":"Office English"},
-    {"id":24,"hindi":"हमारे घर आज रात मेहमान आ रहे हैं।","english":"We have guests coming tonight.","alternatives":["We've got guests coming tonight."],"hint":"We have + noun + verb+ing","explanation":"Present Continuous as adjective clause with have।","difficulty":"medium","tags":["expression"],"grammarRule":"We have + [noun] + [verb+ing]","category":"Expressions"},
-    {"id":25,"hindi":"क्या तुम्हारे पास पर्याप्त खाना है?","english":"Do you have enough food?","alternatives":["Have you got enough food?"],"hint":"Do you have enough + noun?","explanation":"'enough' quantity बताने के लिए।","difficulty":"easy","tags":["question"],"grammarRule":"Do you have enough + [noun]?","category":"Questions"},
-    {"id":26,"hindi":"मेरी 3 बजे meeting है।","english":"I have a meeting at 3 PM.","alternatives":["I've got a meeting at 3 PM."],"hint":"I have a meeting at + time","explanation":"Office schedule बताने का तरीका।","difficulty":"easy","tags":["office"],"grammarRule":"I have a meeting at + [time]","category":"Office English"},
-    {"id":27,"hindi":"क्या उसने presentation दे दी है?","english":"Has she already presented?","alternatives":["Has she given the presentation already?"],"hint":"Has + she + already + V3?","explanation":"Present Perfect question with 'already'।","difficulty":"medium","tags":["question","office"],"grammarRule":"Has + she + already + V3?","category":"Office English"},
-    {"id":28,"hindi":"मेरे पास एक नया phone है।","english":"I've got a new phone.","alternatives":["I have a new phone."],"hint":"I've got + noun","explanation":"'have got' informal possession।","difficulty":"easy","tags":["have-got"],"grammarRule":"have/has got + [noun]","category":"Have Got"},
-    {"id":29,"hindi":"उसकी दो बहनें हैं।","english":"She's got two sisters.","alternatives":["She has two sisters."],"hint":"She's got + noun","explanation":"'has got' informal possession।","difficulty":"easy","tags":["have-got"],"grammarRule":"have/has got + [noun]","category":"Have Got"},
-    {"id":30,"hindi":"क्या तुम्हारे पास एक मिनट है?","english":"Have you got a minute?","alternatives":["Do you have a minute?"],"hint":"Have you got + noun?","explanation":"Informal question structure।","difficulty":"easy","tags":["have-got","question"],"grammarRule":"Have/Has + subject + got + [noun]?","category":"Have Got"},
-    {"id":31,"hindi":"वह अपना काम नहीं खत्म कर पाई है।","english":"She hasn't finished her work.","alternatives":["She has not finished her work."],"hint":"She + hasn't + V3","explanation":"Negative Present Perfect for she।","difficulty":"medium","tags":["negative"],"grammarRule":"He/She/It + hasn't + V3","category":"Negative"},
-    {"id":32,"hindi":"उसकी नई नौकरी है।","english":"Ravi has a new job.","alternatives":["Ravi's got a new job."],"hint":"[Name] + has + noun","explanation":"Singular proper noun के साथ has।","difficulty":"easy","tags":["possession"],"grammarRule":"[Singular noun] + has + [noun]","category":"Possession"},
-    {"id":33,"hindi":"उसके चार पैर हैं।","english":"It has four legs.","alternatives":["It's got four legs."],"hint":"It + has + noun","explanation":"It के साथ has आता है।","difficulty":"easy","tags":["possession"],"grammarRule":"It + has + [noun]","category":"Possession"},
-    {"id":34,"hindi":"उसके दो बच्चे हैं।","english":"She has two children.","alternatives":["She's got two children."],"hint":"She + has + noun","explanation":"Plural noun के साथ भी 'has' subject determine करता है।","difficulty":"easy","tags":["possession"],"grammarRule":"He/She/It + has + [noun]","category":"Possession"},
-    {"id":35,"hindi":"हमारे पास पर्याप्त समय है।","english":"We have enough time.","alternatives":["We've got enough time."],"hint":"We + have + enough + noun","explanation":"'enough' quantity के लिए।","difficulty":"easy","tags":["possession"],"grammarRule":"We/They + have enough + [noun]","category":"Possession"},
-    {"id":36,"hindi":"उनके पास एक बड़ा घर है।","english":"They have a big house.","alternatives":["They've got a big house."],"hint":"They + have + adjective + noun","explanation":"Adjective + noun structure के साथ have।","difficulty":"easy","tags":["possession"],"grammarRule":"They + have a/an + [adjective] + [noun]","category":"Possession"},
-    {"id":37,"hindi":"तुम्हारी आवाज़ अच्छी है।","english":"You have a good voice.","alternatives":["You've got a good voice."],"hint":"You + have + adjective + noun","explanation":"You के साथ have।","difficulty":"easy","tags":["possession"],"grammarRule":"You + have a/an + [adjective] + [noun]","category":"Possession"},
-    {"id":38,"hindi":"चलो एक break लेते हैं।","english":"Let's have a break.","alternatives":["Let's take a break."],"hint":"Let's have a + noun","explanation":"'have a break' common expression।","difficulty":"easy","tags":["expression"],"grammarRule":"Let's have a + [noun]","category":"Expressions"},
-    {"id":39,"hindi":"हमने बहुत मज़ा किया।","english":"We had a lot of fun.","alternatives":["We had great fun."],"hint":"We + had + a lot of + noun","explanation":"Past tense 'had' fun के साथ।","difficulty":"medium","tags":["expression"],"grammarRule":"Subject + had + a lot of + [noun]","category":"Expressions"},
-    {"id":40,"hindi":"चलो इसे देखते हैं।","english":"Let's have a look at this.","alternatives":["Let's take a look at this."],"hint":"Let's have a look at + noun","explanation":"'have a look' common expression।","difficulty":"easy","tags":["expression"],"grammarRule":"Let's have a look at + [noun]","category":"Expressions"},
-    {"id":41,"hindi":"मेरे पास इस topic पर एक doubt है।","english":"I have a doubt about this topic.","alternatives":["I've got a doubt about this topic."],"hint":"I have a doubt about + noun","explanation":"Classroom context में common phrase।","difficulty":"medium","tags":["expression"],"grammarRule":"I have a doubt about + [noun]","category":"Expressions"},
-    {"id":42,"hindi":"क्या तुम्हें कोई doubt है?","english":"Do you have any doubts?","alternatives":["Have you got any doubts?"],"hint":"Do you have any + noun?","explanation":"Classroom question structure।","difficulty":"easy","tags":["question"],"grammarRule":"Do you have any + [noun]?","category":"Questions"},
-    {"id":43,"hindi":"हमारे पास एक tight deadline है।","english":"We have a tight deadline.","alternatives":["We've got a tight deadline."],"hint":"We have a + adjective + noun","explanation":"Office context expression।","difficulty":"medium","tags":["office"],"grammarRule":"We have a + [adjective] + [noun]","category":"Office English"},
-    {"id":44,"hindi":"मुझे यह रोल के लिए ज़रूरी skills हैं।","english":"I have the skills required for this job.","alternatives":["I possess the required skills for this job."],"hint":"I have the + noun + required for","explanation":"Interview context structure।","difficulty":"medium","tags":["interview"],"grammarRule":"I have the + [noun] + required for + [noun]","category":"Interview"},
-    {"id":45,"hindi":"मेरे पास project management का अनुभव है।","english":"I have experience in project management.","alternatives":["I've got experience in project management."],"hint":"I have experience in + field","explanation":"Interview context experience पैटर्न।","difficulty":"medium","tags":["experience"],"grammarRule":"I have experience in + [field]","category":"Experience"},
-    {"id":46,"hindi":"मेरे पास एक doctor's appointment है।","english":"I have a doctor's appointment.","alternatives":["I've got a doctor's appointment."],"hint":"I have a + possessive + noun","explanation":"Health/schedule context।","difficulty":"easy","tags":["expression"],"grammarRule":"I have a + [possessive] + [noun]","category":"Expressions"},
-    {"id":47,"hindi":"क्या तुमने budget तैयार किया है?","english":"Have you prepared the budget?","alternatives":["Did you prepare the budget?"],"hint":"Have + you + V3 + noun?","explanation":"Business context question।","difficulty":"medium","tags":["question","office"],"grammarRule":"Have + subject + V3 + [noun]?","category":"Office English"},
-    {"id":48,"hindi":"क्या उन्होंने deadline पूरी कर ली?","english":"Have they met the deadline?","alternatives":["Did they meet the deadline?"],"hint":"Have + they + V3 + noun?","explanation":"Present Perfect question देने के लिए।","difficulty":"medium","tags":["question","office"],"grammarRule":"Have + they + V3 + [noun]?","category":"Office English"},
-    {"id":49,"hindi":"मुझे धूल से एलर्जी है।","english":"I have an allergy to dust.","alternatives":["I'm allergic to dust."],"hint":"I have an allergy to + noun","explanation":"Health context structure।","difficulty":"medium","tags":["health"],"grammarRule":"I have an allergy to + [noun]","category":"Health"},
-    {"id":50,"hindi":"हमने contract पर signature कर दिया है।","english":"We have signed the contract.","alternatives":["We've signed the contract."],"hint":"We have + V3 + noun","explanation":"Business/legal context Present Perfect।","difficulty":"medium","tags":["business"],"grammarRule":"We have + V3 + [noun]","category":"Business"}
+    {
+      "id": 1,
+      "hindi": "मेरे पास एक laptop है।",
+      "english": "I have a laptop.",
+      "alternatives": [
+        "I've got a laptop."
+      ],
+      "hint": "I + have + noun",
+      "explanation": "Possession के लिए 'I have'।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 2,
+      "hindi": "तुम्हारे पास एक mobile है।",
+      "english": "You have a mobile.",
+      "alternatives": [
+        "You've got a mobile."
+      ],
+      "hint": "You + have + noun",
+      "explanation": "You के साथ have।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 3,
+      "hindi": "हमारे पास एक घर है।",
+      "english": "We have a house.",
+      "alternatives": [
+        "We've got a house."
+      ],
+      "hint": "We + have + noun",
+      "explanation": "We के साथ have।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 4,
+      "hindi": "उनके पास बहुत पैसा है।",
+      "english": "They have a lot of money.",
+      "alternatives": [
+        "They've got a lot of money."
+      ],
+      "hint": "They + have + noun",
+      "explanation": "They के साथ have।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 5,
+      "hindi": "मेरे पास दो भाई हैं।",
+      "english": "I have two brothers.",
+      "alternatives": [
+        "I've got two brothers."
+      ],
+      "hint": "I + have + number + noun",
+      "explanation": "plural noun के साथ have।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "family"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 6,
+      "hindi": "तुम्हारे पास बहुत किताबें हैं।",
+      "english": "You have many books.",
+      "alternatives": [],
+      "hint": "You + have + many + noun",
+      "explanation": "'many' plural के साथ।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 7,
+      "hindi": "हमारे पास एक अच्छी team है।",
+      "english": "We have a good team.",
+      "alternatives": [],
+      "hint": "We + have + adjective + noun",
+      "explanation": "Office context में have।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "office"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 8,
+      "hindi": "उनके पास कोई सबूत नहीं है।",
+      "english": "They have no evidence.",
+      "alternatives": [
+        "They don't have any evidence."
+      ],
+      "hint": "They + have no + noun",
+      "explanation": "Negative possession।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have no + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 9,
+      "hindi": "मेरे पास एक नई bike है।",
+      "english": "I have a new bike.",
+      "alternatives": [
+        "I've got a new bike."
+      ],
+      "hint": "I + have + adjective + noun",
+      "explanation": "adjective के साथ noun।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 10,
+      "hindi": "तुम्हारे पास अच्छा English है।",
+      "english": "You have good English.",
+      "alternatives": [],
+      "hint": "You + have + adjective + noun",
+      "explanation": "Skill बताने के लिए have।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "skill"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 11,
+      "hindi": "उसके पास एक कार है।",
+      "english": "He has a car.",
+      "alternatives": [
+        "He's got a car."
+      ],
+      "hint": "He + has + noun",
+      "explanation": "He/She/It के साथ has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 12,
+      "hindi": "उसके (लड़की के) पास एक कुत्ता है।",
+      "english": "She has a dog.",
+      "alternatives": [
+        "She's got a dog."
+      ],
+      "hint": "She + has + noun",
+      "explanation": "She के साथ has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 13,
+      "hindi": "उस कंपनी के पास 500 employees हैं।",
+      "english": "The company has 500 employees.",
+      "alternatives": [],
+      "hint": "Company (it) + has + noun",
+      "explanation": "Company के साथ has।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 14,
+      "hindi": "उसके (लड़के के) पास बहुत talent है।",
+      "english": "He has a lot of talent.",
+      "alternatives": [],
+      "hint": "He + has + noun",
+      "explanation": "Abstract noun के साथ has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 15,
+      "hindi": "उसके (लड़की के) पास एक अच्छी job है।",
+      "english": "She has a good job.",
+      "alternatives": [],
+      "hint": "She + has + adjective + noun",
+      "explanation": "She के साथ has + adj noun।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "career"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 16,
+      "hindi": "इस शहर में एक बड़ा airport है।",
+      "english": "The city has a big airport.",
+      "alternatives": [],
+      "hint": "City (it) + has + noun",
+      "explanation": "Place के साथ has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 17,
+      "hindi": "उस लड़के के पास दो बहनें हैं।",
+      "english": "He has two sisters.",
+      "alternatives": [],
+      "hint": "He + has + number + noun",
+      "explanation": "plural के साथ has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "family"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 18,
+      "hindi": "उसके (लड़की के) पास एक नया laptop है।",
+      "english": "She has a new laptop.",
+      "alternatives": [
+        "She's got a new laptop."
+      ],
+      "hint": "She + has + adjective + noun",
+      "explanation": "adjective के साथ has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 19,
+      "hindi": "उस office का बड़ा hall है।",
+      "english": "The office has a big hall.",
+      "alternatives": [],
+      "hint": "Office (it) + has + noun",
+      "explanation": "Place noun के साथ has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 20,
+      "hindi": "राज के पास एक अच्छा plan है।",
+      "english": "Raj has a good plan.",
+      "alternatives": [],
+      "hint": "Proper noun + has + noun",
+      "explanation": "Name के साथ has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 21,
+      "hindi": "मैंने खाना खा लिया है।",
+      "english": "I have eaten.",
+      "alternatives": [
+        "I've eaten."
+      ],
+      "hint": "I have + V3",
+      "explanation": "Present Perfect: have + V3।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 22,
+      "hindi": "मैंने अपना काम खत्म कर लिया है।",
+      "english": "I have finished my work.",
+      "alternatives": [
+        "I've finished my work."
+      ],
+      "hint": "I have + finished",
+      "explanation": "V3 finished।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 23,
+      "hindi": "तुमने एक गलती की है।",
+      "english": "You have made a mistake.",
+      "alternatives": [],
+      "hint": "You have + made",
+      "explanation": "Present Perfect।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 24,
+      "hindi": "हमने प्रोजेक्ट पूरा कर लिया है।",
+      "english": "We have completed the project.",
+      "alternatives": [
+        "We've completed the project."
+      ],
+      "hint": "We have + completed",
+      "explanation": "Office context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 25,
+      "hindi": "उन्होंने agreement sign कर लिया है।",
+      "english": "They have signed the agreement.",
+      "alternatives": [],
+      "hint": "They have + signed",
+      "explanation": "Business context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 26,
+      "hindi": "मैंने 5 साल से यहाँ काम किया है।",
+      "english": "I have worked here for 5 years.",
+      "alternatives": [
+        "I've worked here for 5 years."
+      ],
+      "hint": "I have + worked + for + time",
+      "explanation": "Duration के साथ Present Perfect।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "experience"
+      ],
+      "grammarRule": "Subject + have/has + V3 + for + time",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 27,
+      "hindi": "तुमने बहुत अच्छा काम किया है।",
+      "english": "You have done a great job.",
+      "alternatives": [
+        "You've done a great job."
+      ],
+      "hint": "You have + done",
+      "explanation": "Appreciation context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 28,
+      "hindi": "हमने अभी तक निर्णय नहीं लिया है।",
+      "english": "We have not made a decision yet.",
+      "alternatives": [
+        "We haven't made a decision yet."
+      ],
+      "hint": "We have not + made",
+      "explanation": "Negative Present Perfect।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "negative"
+      ],
+      "grammarRule": "Subject + have not + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 29,
+      "hindi": "उन्होंने नई policy बना ली है।",
+      "english": "They have created a new policy.",
+      "alternatives": [],
+      "hint": "They have + created",
+      "explanation": "Business formal।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 30,
+      "hindi": "मैंने उसे email कर दिया है।",
+      "english": "I have emailed him.",
+      "alternatives": [
+        "I've emailed him."
+      ],
+      "hint": "I have + emailed",
+      "explanation": "Office communication।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 31,
+      "hindi": "वह जा चुकी है।",
+      "english": "She has gone.",
+      "alternatives": [
+        "She's gone."
+      ],
+      "hint": "She + has + gone",
+      "explanation": "Present Perfect with she।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 32,
+      "hindi": "उसने रिपोर्ट भेज दी है।",
+      "english": "He has sent the report.",
+      "alternatives": [
+        "He's sent the report."
+      ],
+      "hint": "He + has + sent",
+      "explanation": "Office context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 33,
+      "hindi": "वह पहले ही आ चुकी है।",
+      "english": "She has already arrived.",
+      "alternatives": [
+        "She's already arrived."
+      ],
+      "hint": "She + has + already + arrived",
+      "explanation": "'already' Present Perfect में।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 34,
+      "hindi": "वह कंपनी छोड़ चुका है।",
+      "english": "He has left the company.",
+      "alternatives": [
+        "He's left the company."
+      ],
+      "hint": "He + has + left",
+      "explanation": "V3 of leave = left।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "career"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 35,
+      "hindi": "उसने खाना बना लिया है।",
+      "english": "She has cooked the food.",
+      "alternatives": [],
+      "hint": "She + has + cooked",
+      "explanation": "Present Perfect।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 36,
+      "hindi": "कंपनी ने नया product launch किया है।",
+      "english": "The company has launched a new product.",
+      "alternatives": [],
+      "hint": "Company + has + launched",
+      "explanation": "Business news।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 37,
+      "hindi": "उसने अभी तक reply नहीं किया है।",
+      "english": "He has not replied yet.",
+      "alternatives": [
+        "He hasn't replied yet."
+      ],
+      "hint": "He + has not + replied",
+      "explanation": "Negative with hasn't।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "negative"
+      ],
+      "grammarRule": "He/She/It + has not + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 38,
+      "hindi": "वह पहले भी यहाँ आ चुकी है।",
+      "english": "She has been here before.",
+      "alternatives": [],
+      "hint": "She + has + been",
+      "explanation": "'been' V3 of be।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 39,
+      "hindi": "उसने सारे documents check कर लिए हैं।",
+      "english": "He has checked all the documents.",
+      "alternatives": [],
+      "hint": "He + has + checked",
+      "explanation": "Office task।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 40,
+      "hindi": "उसने interview pass कर लिया है।",
+      "english": "She has passed the interview.",
+      "alternatives": [],
+      "hint": "She + has + passed",
+      "explanation": "Career milestone।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect",
+        "interview"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 41,
+      "hindi": "मेरे पास पैसे नहीं हैं।",
+      "english": "I don't have money.",
+      "alternatives": [
+        "I have no money."
+      ],
+      "hint": "I + don't have + noun",
+      "explanation": "Negative possession।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 42,
+      "hindi": "तुम्हारे पास समय नहीं है।",
+      "english": "You don't have time.",
+      "alternatives": [
+        "You have no time."
+      ],
+      "hint": "You + don't have + noun",
+      "explanation": "Negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 43,
+      "hindi": "हमारे पास कोई option नहीं है।",
+      "english": "We don't have any option.",
+      "alternatives": [
+        "We have no option."
+      ],
+      "hint": "We + don't have + any + noun",
+      "explanation": "Negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 44,
+      "hindi": "उनके पास कोई plan नहीं है।",
+      "english": "They don't have a plan.",
+      "alternatives": [
+        "They have no plan."
+      ],
+      "hint": "They + don't have + noun",
+      "explanation": "Negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 45,
+      "hindi": "मेरे पास कोई complaint नहीं है।",
+      "english": "I don't have any complaint.",
+      "alternatives": [],
+      "hint": "I + don't have + any + noun",
+      "explanation": "Formal negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 46,
+      "hindi": "उसके पास समय नहीं है।",
+      "english": "She doesn't have time.",
+      "alternatives": [
+        "She has no time."
+      ],
+      "hint": "She + doesn't have + noun",
+      "explanation": "doesn't have।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 47,
+      "hindi": "उसके (लड़के के) पास कोई experience नहीं है।",
+      "english": "He doesn't have any experience.",
+      "alternatives": [
+        "He has no experience."
+      ],
+      "hint": "He + doesn't have + noun",
+      "explanation": "doesn't have।",
+      "difficulty": "easy",
+      "tags": [
+        "negative",
+        "career"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 48,
+      "hindi": "उस कंपनी के पास कोई office नहीं है।",
+      "english": "The company doesn't have an office.",
+      "alternatives": [],
+      "hint": "Company + doesn't have + noun",
+      "explanation": "Business context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "business"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 49,
+      "hindi": "उसके पास अच्छे skills नहीं हैं।",
+      "english": "She doesn't have good skills.",
+      "alternatives": [],
+      "hint": "She + doesn't have + adjective + noun",
+      "explanation": "Career negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative",
+        "career"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 50,
+      "hindi": "उसके (लड़के के) पास laptop नहीं है।",
+      "english": "He doesn't have a laptop.",
+      "alternatives": [
+        "He has no laptop."
+      ],
+      "hint": "He + doesn't have + noun",
+      "explanation": "Negative possession।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 51,
+      "hindi": "मैंने अभी तक report नहीं लिखी है।",
+      "english": "I haven't written the report yet.",
+      "alternatives": [
+        "I have not written the report yet."
+      ],
+      "hint": "I haven't + V3",
+      "explanation": "Negative Present Perfect।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 52,
+      "hindi": "तुमने अभी तक reply नहीं किया है।",
+      "english": "You haven't replied yet.",
+      "alternatives": [],
+      "hint": "You haven't + V3",
+      "explanation": "Negative PP।",
+      "difficulty": "easy",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 53,
+      "hindi": "हमने अभी तक decide नहीं किया है।",
+      "english": "We haven't decided yet.",
+      "alternatives": [],
+      "hint": "We haven't + decided",
+      "explanation": "Negative PP।",
+      "difficulty": "easy",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 54,
+      "hindi": "उन्होंने order नहीं दिया है।",
+      "english": "They haven't placed an order.",
+      "alternatives": [],
+      "hint": "They haven't + placed",
+      "explanation": "Business negative PP।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 55,
+      "hindi": "उसने (लड़की ने) form submit नहीं किया है।",
+      "english": "She hasn't submitted the form.",
+      "alternatives": [
+        "She has not submitted the form."
+      ],
+      "hint": "She hasn't + submitted",
+      "explanation": "hasn't + V3।",
+      "difficulty": "easy",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 56,
+      "hindi": "उसने (लड़के ने) अभी तक नहीं पढ़ा है।",
+      "english": "He hasn't read it yet.",
+      "alternatives": [
+        "He has not read it yet."
+      ],
+      "hint": "He hasn't + read",
+      "explanation": "hasn't + V3।",
+      "difficulty": "easy",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 57,
+      "hindi": "क्या तुम्हारे पास पेन है?",
+      "english": "Do you have a pen?",
+      "alternatives": [
+        "Have you got a pen?"
+      ],
+      "hint": "Do + you + have + noun?",
+      "explanation": "Question structure।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 58,
+      "hindi": "क्या उसके पास bike है?",
+      "english": "Does he have a bike?",
+      "alternatives": [
+        "Has he got a bike?"
+      ],
+      "hint": "Does + he + have + noun?",
+      "explanation": "He के साथ Does।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 59,
+      "hindi": "क्या तुम्हारे पास कोई idea है?",
+      "english": "Do you have any idea?",
+      "alternatives": [],
+      "hint": "Do + you + have + any + noun?",
+      "explanation": "'any' question में।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 60,
+      "hindi": "क्या उसके (लड़की के) पास car है?",
+      "english": "Does she have a car?",
+      "alternatives": [],
+      "hint": "Does + she + have + noun?",
+      "explanation": "She के साथ Does।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 61,
+      "hindi": "क्या हमारे पास पर्याप्त budget है?",
+      "english": "Do we have enough budget?",
+      "alternatives": [],
+      "hint": "Do + we + have + noun?",
+      "explanation": "Business question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "business"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 62,
+      "hindi": "क्या उस office में cafeteria है?",
+      "english": "Does the office have a cafeteria?",
+      "alternatives": [],
+      "hint": "Does + place + have + noun?",
+      "explanation": "Place के साथ Does।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 63,
+      "hindi": "क्या तुम्हारे पास experience है?",
+      "english": "Do you have experience?",
+      "alternatives": [],
+      "hint": "Do + you + have + noun?",
+      "explanation": "Interview question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "interview"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 64,
+      "hindi": "क्या उनके पास कोई objection है?",
+      "english": "Do they have any objection?",
+      "alternatives": [],
+      "hint": "Do + they + have + any + noun?",
+      "explanation": "Formal question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "formal"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 65,
+      "hindi": "क्या तुमने अपना काम खत्म कर लिया है?",
+      "english": "Have you finished your work?",
+      "alternatives": [],
+      "hint": "Have + you + V3?",
+      "explanation": "Present Perfect question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 66,
+      "hindi": "क्या उसने report भेज दी है?",
+      "english": "Has she sent the report?",
+      "alternatives": [],
+      "hint": "Has + she + V3?",
+      "explanation": "PP question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 67,
+      "hindi": "क्या तुमने यह movie देखी है?",
+      "english": "Have you watched this movie?",
+      "alternatives": [],
+      "hint": "Have + you + watched?",
+      "explanation": "PP question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 68,
+      "hindi": "क्या उसने (लड़के ने) order confirm किया है?",
+      "english": "Has he confirmed the order?",
+      "alternatives": [],
+      "hint": "Has + he + confirmed?",
+      "explanation": "Business PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 69,
+      "hindi": "क्या आपने कभी विदेश यात्रा की है?",
+      "english": "Have you ever traveled abroad?",
+      "alternatives": [],
+      "hint": "Have + you + ever + V3?",
+      "explanation": "'ever' PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 70,
+      "hindi": "क्या उसने (लड़की ने) presentation दे दी?",
+      "english": "Has she given the presentation?",
+      "alternatives": [],
+      "hint": "Has + she + given?",
+      "explanation": "PP question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 71,
+      "hindi": "मैं 8 बजे breakfast करता हूँ।",
+      "english": "I have breakfast at 8 AM.",
+      "alternatives": [],
+      "hint": "have + breakfast",
+      "explanation": "'have breakfast' expression।",
+      "difficulty": "easy",
+      "tags": [
+        "expression"
+      ],
+      "grammarRule": "have + breakfast/lunch/dinner",
+      "category": "Expressions"
+    },
+    {
+      "id": 72,
+      "hindi": "हमारी 3 बजे meeting है।",
+      "english": "We have a meeting at 3 PM.",
+      "alternatives": [
+        "We've got a meeting at 3 PM."
+      ],
+      "hint": "have a meeting",
+      "explanation": "Office expression।",
+      "difficulty": "easy",
+      "tags": [
+        "expression",
+        "office"
+      ],
+      "grammarRule": "have a meeting/break/look",
+      "category": "Expressions"
+    },
+    {
+      "id": 73,
+      "hindi": "वे दोपहर को lunch करते हैं।",
+      "english": "They have lunch in the afternoon.",
+      "alternatives": [],
+      "hint": "have + lunch",
+      "explanation": "'have lunch' expression।",
+      "difficulty": "easy",
+      "tags": [
+        "expression"
+      ],
+      "grammarRule": "have + breakfast/lunch/dinner",
+      "category": "Expressions"
+    },
+    {
+      "id": 74,
+      "hindi": "क्या हम एक break ले सकते हैं?",
+      "english": "Can we have a break?",
+      "alternatives": [],
+      "hint": "have a break",
+      "explanation": "Office expression।",
+      "difficulty": "easy",
+      "tags": [
+        "expression",
+        "office"
+      ],
+      "grammarRule": "have a break/look/word",
+      "category": "Expressions"
+    },
+    {
+      "id": 75,
+      "hindi": "मुझे इस बारे में doubt है।",
+      "english": "I have a doubt about this.",
+      "alternatives": [],
+      "hint": "have a doubt",
+      "explanation": "Common expression।",
+      "difficulty": "easy",
+      "tags": [
+        "expression"
+      ],
+      "grammarRule": "have a doubt/look/word",
+      "category": "Expressions"
+    },
+    {
+      "id": 76,
+      "hindi": "चलो एक नज़र डालते हैं।",
+      "english": "Let's have a look.",
+      "alternatives": [],
+      "hint": "have a look",
+      "explanation": "'have a look' informal।",
+      "difficulty": "easy",
+      "tags": [
+        "expression"
+      ],
+      "grammarRule": "have a break/look/word",
+      "category": "Expressions"
+    },
+    {
+      "id": 77,
+      "hindi": "मुझे उससे बात करनी है।",
+      "english": "I need to have a word with him.",
+      "alternatives": [],
+      "hint": "have a word",
+      "explanation": "'have a word' = बात करना।",
+      "difficulty": "medium",
+      "tags": [
+        "expression"
+      ],
+      "grammarRule": "have a break/look/word",
+      "category": "Expressions"
+    },
+    {
+      "id": 78,
+      "hindi": "वे रात को dinner करते हैं।",
+      "english": "They have dinner at night.",
+      "alternatives": [],
+      "hint": "have + dinner",
+      "explanation": "'have dinner' expression।",
+      "difficulty": "easy",
+      "tags": [
+        "expression"
+      ],
+      "grammarRule": "have + breakfast/lunch/dinner",
+      "category": "Expressions"
+    },
+    {
+      "id": 79,
+      "hindi": "मैं सुबह एक cup of tea लेता हूँ।",
+      "english": "I have a cup of tea in the morning.",
+      "alternatives": [],
+      "hint": "have + a cup of",
+      "explanation": "'have tea/coffee' expression।",
+      "difficulty": "easy",
+      "tags": [
+        "expression"
+      ],
+      "grammarRule": "have + drink/food",
+      "category": "Expressions"
+    },
+    {
+      "id": 80,
+      "hindi": "मेरे पास 5 साल का अनुभव है।",
+      "english": "I have five years of experience.",
+      "alternatives": [
+        "I've got five years of experience."
+      ],
+      "hint": "I have + years of experience",
+      "explanation": "Interview structure।",
+      "difficulty": "medium",
+      "tags": [
+        "experience",
+        "interview"
+      ],
+      "grammarRule": "I have + [number] years of experience",
+      "category": "Experience"
+    },
+    {
+      "id": 81,
+      "hindi": "मेरे पास team management की skill है।",
+      "english": "I have team management skills.",
+      "alternatives": [],
+      "hint": "I have + skills",
+      "explanation": "Professional skill।",
+      "difficulty": "medium",
+      "tags": [
+        "skill",
+        "interview"
+      ],
+      "grammarRule": "I have + [skill/quality]",
+      "category": "Experience"
+    },
+    {
+      "id": 82,
+      "hindi": "मेरे पास MBA की degree है।",
+      "english": "I have an MBA degree.",
+      "alternatives": [],
+      "hint": "I have + degree",
+      "explanation": "Qualification।",
+      "difficulty": "easy",
+      "tags": [
+        "qualification",
+        "interview"
+      ],
+      "grammarRule": "I have + [qualification]",
+      "category": "Experience"
+    },
+    {
+      "id": 83,
+      "hindi": "मेरे पास IT sector में 3 साल का अनुभव है।",
+      "english": "I have three years of experience in the IT sector.",
+      "alternatives": [],
+      "hint": "I have + time + in + sector",
+      "explanation": "Detailed experience।",
+      "difficulty": "medium",
+      "tags": [
+        "experience",
+        "interview"
+      ],
+      "grammarRule": "I have + [number] years of experience in + [field]",
+      "category": "Experience"
+    },
+    {
+      "id": 84,
+      "hindi": "हमारी कंपनी के पास 10 offices हैं।",
+      "english": "Our company has ten offices.",
+      "alternatives": [],
+      "hint": "Company + has + number + noun",
+      "explanation": "Business context।",
+      "difficulty": "medium",
+      "tags": [
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 85,
+      "hindi": "उस startup के पास अच्छी funding है।",
+      "english": "The startup has good funding.",
+      "alternatives": [],
+      "hint": "Startup (it) + has + noun",
+      "explanation": "Business context।",
+      "difficulty": "medium",
+      "tags": [
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 86,
+      "hindi": "मेरे पास इस project पर काम करने का मौका है।",
+      "english": "I have the opportunity to work on this project.",
+      "alternatives": [],
+      "hint": "I have + the opportunity to + verb",
+      "explanation": "Formal expression।",
+      "difficulty": "hard",
+      "tags": [
+        "formal",
+        "opportunity"
+      ],
+      "grammarRule": "I have + [noun phrase]",
+      "category": "Possession"
+    },
+    {
+      "id": 87,
+      "hindi": "क्या आपके पास कोई question है?",
+      "english": "Do you have any questions?",
+      "alternatives": [],
+      "hint": "Do + you + have + any + noun?",
+      "explanation": "Plural 'questions'।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 88,
+      "hindi": "उस candidate के पास अच्छी communication skills हैं।",
+      "english": "The candidate has good communication skills.",
+      "alternatives": [],
+      "hint": "Candidate + has + adj + noun",
+      "explanation": "Interview context।",
+      "difficulty": "medium",
+      "tags": [
+        "interview",
+        "skill"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 89,
+      "hindi": "मैंने पहले कभी ऐसी गलती नहीं की है।",
+      "english": "I have never made such a mistake.",
+      "alternatives": [],
+      "hint": "I have never + V3",
+      "explanation": "'never' PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "negative"
+      ],
+      "grammarRule": "Subject + have + never + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 90,
+      "hindi": "वह कभी विदेश नहीं गया है।",
+      "english": "He has never been abroad.",
+      "alternatives": [],
+      "hint": "He has never + V3",
+      "explanation": "'never' PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "negative"
+      ],
+      "grammarRule": "He/She/It + has + never + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 91,
+      "hindi": "क्या तुमने कभी sushi खाई है?",
+      "english": "Have you ever eaten sushi?",
+      "alternatives": [],
+      "hint": "Have + you + ever + eaten?",
+      "explanation": "'ever' in question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + ever + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 92,
+      "hindi": "वह तीन बार दिल्ली जा चुकी है।",
+      "english": "She has been to Delhi three times.",
+      "alternatives": [],
+      "hint": "She has been to + place + times",
+      "explanation": "Frequency with PP।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + has/have + been to + place",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 93,
+      "hindi": "मैं यहाँ 2 साल से हूँ।",
+      "english": "I have been here for two years.",
+      "alternatives": [],
+      "hint": "I have been + here + for + time",
+      "explanation": "Duration PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + been + place + for + time",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 94,
+      "hindi": "वे दो घंटे से काम कर रहे हैं।",
+      "english": "They have been working for two hours.",
+      "alternatives": [],
+      "hint": "They have been + Ving + for + time",
+      "explanation": "Present Perfect Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 95,
+      "hindi": "वह एक घंटे से phone पर है।",
+      "english": "She has been on the phone for an hour.",
+      "alternatives": [],
+      "hint": "She has been + on the phone + for + time",
+      "explanation": "PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "He/She/It + has + been + Ving",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 96,
+      "hindi": "हम इस project पर 3 महीने से काम कर रहे हैं।",
+      "english": "We have been working on this project for three months.",
+      "alternatives": [],
+      "hint": "We have been working + on + project",
+      "explanation": "PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 97,
+      "hindi": "मैंने अभी-अभी lunch किया है।",
+      "english": "I have just had lunch.",
+      "alternatives": [],
+      "hint": "I have just + had",
+      "explanation": "'just' with PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + just + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 98,
+      "hindi": "वह अभी-अभी office पहुँचा है।",
+      "english": "He has just arrived at the office.",
+      "alternatives": [],
+      "hint": "He has just + arrived",
+      "explanation": "'just' PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + just + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 99,
+      "hindi": "हमने अभी-अभी deal close किया है।",
+      "english": "We have just closed the deal.",
+      "alternatives": [],
+      "hint": "We have just + closed",
+      "explanation": "Business PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + have/has + just + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 100,
+      "hindi": "क्या तुमने पहले यह काम किया है?",
+      "english": "Have you done this before?",
+      "alternatives": [],
+      "hint": "Have + you + done + before?",
+      "explanation": "'before' PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3 + before?",
+      "category": "Questions"
+    },
+    {
+      "id": 101,
+      "hindi": "उसने पहले कभी यह software use नहीं किया है।",
+      "english": "He has never used this software before.",
+      "alternatives": [],
+      "hint": "He has never + used",
+      "explanation": "'never before' PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "negative"
+      ],
+      "grammarRule": "He/She/It + has + never + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 102,
+      "hindi": "क्या उसने (लड़की ने) पहले यह देखा है?",
+      "english": "Has she seen this before?",
+      "alternatives": [],
+      "hint": "Has + she + seen + before?",
+      "explanation": "PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3 + before?",
+      "category": "Questions"
+    },
+    {
+      "id": 103,
+      "hindi": "मेरे पास एक idea है। (informal)",
+      "english": "I've got an idea.",
+      "alternatives": [
+        "I have an idea."
+      ],
+      "hint": "I've + got + noun",
+      "explanation": "Have got = informal have।",
+      "difficulty": "medium",
+      "tags": [
+        "informal",
+        "have-got"
+      ],
+      "grammarRule": "I've/You've/We've/They've + got + [noun]",
+      "category": "Have Got"
+    },
+    {
+      "id": 104,
+      "hindi": "उसके पास गाड़ी है। (informal)",
+      "english": "He's got a car.",
+      "alternatives": [
+        "He has a car."
+      ],
+      "hint": "He's + got + noun",
+      "explanation": "He's got = He has।",
+      "difficulty": "medium",
+      "tags": [
+        "informal",
+        "have-got"
+      ],
+      "grammarRule": "He's/She's/It's + got + [noun]",
+      "category": "Have Got"
+    },
+    {
+      "id": 105,
+      "hindi": "क्या तुम्हारे पास charger है? (informal)",
+      "english": "Have you got a charger?",
+      "alternatives": [
+        "Do you have a charger?"
+      ],
+      "hint": "Have + you + got + noun?",
+      "explanation": "Have got question।",
+      "difficulty": "medium",
+      "tags": [
+        "informal",
+        "have-got"
+      ],
+      "grammarRule": "Have/Has + subject + got + [noun]?",
+      "category": "Have Got"
+    },
+    {
+      "id": 106,
+      "hindi": "उसके पास इसका जवाब नहीं है। (informal)",
+      "english": "She hasn't got the answer.",
+      "alternatives": [
+        "She doesn't have the answer."
+      ],
+      "hint": "She hasn't + got + noun",
+      "explanation": "Negative have got।",
+      "difficulty": "medium",
+      "tags": [
+        "informal",
+        "have-got",
+        "negative"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + got + [noun]",
+      "category": "Have Got"
+    },
+    {
+      "id": 107,
+      "hindi": "मेरे पास अच्छे दोस्त हैं।",
+      "english": "I have good friends.",
+      "alternatives": [],
+      "hint": "I have + adjective + noun",
+      "explanation": "Friendship।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 108,
+      "hindi": "उसके पास बहुत सारे options हैं।",
+      "english": "She has many options.",
+      "alternatives": [],
+      "hint": "She has + many + noun",
+      "explanation": "Choice।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 109,
+      "hindi": "मेरे पास एक छोटी सी दुकान है।",
+      "english": "I have a small shop.",
+      "alternatives": [],
+      "hint": "I have + adjective + noun",
+      "explanation": "Business ownership।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 110,
+      "hindi": "उसके पास बहुत confidence है।",
+      "english": "He has a lot of confidence.",
+      "alternatives": [],
+      "hint": "He has + a lot of + noun",
+      "explanation": "Abstract quality।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "quality"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 111,
+      "hindi": "हमारे पास एक नई strategy है।",
+      "english": "We have a new strategy.",
+      "alternatives": [],
+      "hint": "We have + adjective + noun",
+      "explanation": "Business।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 112,
+      "hindi": "मेरे पास इसका कोई solution नहीं है।",
+      "english": "I don't have a solution for this.",
+      "alternatives": [],
+      "hint": "I don't have + noun",
+      "explanation": "Negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 113,
+      "hindi": "तुम्हारे पास कोई proof नहीं है।",
+      "english": "You don't have any proof.",
+      "alternatives": [],
+      "hint": "You don't have + any + noun",
+      "explanation": "Negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 114,
+      "hindi": "क्या उनके पास backup plan है?",
+      "english": "Do they have a backup plan?",
+      "alternatives": [],
+      "hint": "Do + they + have + noun?",
+      "explanation": "Business question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "business"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 115,
+      "hindi": "उस school में अच्छी library है।",
+      "english": "The school has a good library.",
+      "alternatives": [],
+      "hint": "School + has + adjective + noun",
+      "explanation": "Place possession।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 116,
+      "hindi": "वह nurse है और उसके पास बहुत patience है।",
+      "english": "She is a nurse and she has a lot of patience.",
+      "alternatives": [],
+      "hint": "She has + a lot of + noun",
+      "explanation": "Quality possession।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "quality"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 117,
+      "hindi": "हमारे पास इस काम के लिए पर्याप्त resources हैं।",
+      "english": "We have enough resources for this job.",
+      "alternatives": [],
+      "hint": "We have + enough + noun",
+      "explanation": "Resources।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "office"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 118,
+      "hindi": "उसके पास programming की अच्छी knowledge है।",
+      "english": "He has good knowledge of programming.",
+      "alternatives": [],
+      "hint": "He has + knowledge of + subject",
+      "explanation": "Skill/Knowledge।",
+      "difficulty": "medium",
+      "tags": [
+        "skill",
+        "interview"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 119,
+      "hindi": "मैंने पहले कभी ऐसा experience नहीं किया।",
+      "english": "I have never had such an experience.",
+      "alternatives": [],
+      "hint": "I have never + had",
+      "explanation": "'never had' PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "experience"
+      ],
+      "grammarRule": "Subject + have + never + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 120,
+      "hindi": "वे पिछले 5 साल से यहाँ रह रहे हैं।",
+      "english": "They have been living here for the past five years.",
+      "alternatives": [],
+      "hint": "They have been + Ving + for",
+      "explanation": "PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 121,
+      "hindi": "वह अभी-अभी खाना खाकर गई है।",
+      "english": "She has just had her meal.",
+      "alternatives": [],
+      "hint": "She has just + had",
+      "explanation": "Just PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + has + just + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 122,
+      "hindi": "क्या उसने (लड़के ने) fees भरी है?",
+      "english": "Has he paid the fees?",
+      "alternatives": [],
+      "hint": "Has + he + paid?",
+      "explanation": "PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 123,
+      "hindi": "हमने deadline miss कर दी है।",
+      "english": "We have missed the deadline.",
+      "alternatives": [],
+      "hint": "We have + missed",
+      "explanation": "Negative outcome PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 124,
+      "hindi": "उसने अपना target achieve कर लिया है।",
+      "english": "She has achieved her target.",
+      "alternatives": [],
+      "hint": "She has + achieved",
+      "explanation": "Career achievement।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect",
+        "career"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 125,
+      "hindi": "तुमने बहुत मेहनत की है।",
+      "english": "You have worked very hard.",
+      "alternatives": [],
+      "hint": "You have + worked + hard",
+      "explanation": "Appreciation।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 126,
+      "hindi": "मैंने तुम्हें पहले कहीं देखा है।",
+      "english": "I have seen you somewhere before.",
+      "alternatives": [],
+      "hint": "I have + seen",
+      "explanation": "PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 127,
+      "hindi": "उन्होंने नई policy adopt की है।",
+      "english": "They have adopted a new policy.",
+      "alternatives": [],
+      "hint": "They have + adopted",
+      "explanation": "Formal PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 128,
+      "hindi": "क्या तुमने अपनी salary बढ़वाई है?",
+      "english": "Have you got a salary raise?",
+      "alternatives": [
+        "Have you received a salary raise?"
+      ],
+      "hint": "Have + you + got/received?",
+      "explanation": "Professional question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect",
+        "career"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 129,
+      "hindi": "उस restaurant के पास 3 branches हैं।",
+      "english": "The restaurant has three branches.",
+      "alternatives": [],
+      "hint": "Restaurant + has + number + noun",
+      "explanation": "Business possession।",
+      "difficulty": "easy",
+      "tags": [
+        "business",
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 130,
+      "hindi": "मेरे पास अच्छी communication skills हैं।",
+      "english": "I have good communication skills.",
+      "alternatives": [],
+      "hint": "I have + adjective + noun",
+      "explanation": "Interview।",
+      "difficulty": "easy",
+      "tags": [
+        "skill",
+        "interview"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 131,
+      "hindi": "क्या तुम्हारे पास LinkedIn profile है?",
+      "english": "Do you have a LinkedIn profile?",
+      "alternatives": [],
+      "hint": "Do + you + have + noun?",
+      "explanation": "Professional question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "interview"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 132,
+      "hindi": "उसके पास problem-solving की ability है।",
+      "english": "He has the ability to solve problems.",
+      "alternatives": [],
+      "hint": "He has + the ability to + verb",
+      "explanation": "Formal expression।",
+      "difficulty": "hard",
+      "tags": [
+        "skill",
+        "interview",
+        "formal"
+      ],
+      "grammarRule": "He/She/It + has + the ability to + verb",
+      "category": "Possession"
+    },
+    {
+      "id": 133,
+      "hindi": "मैंने अभी तक application submit नहीं की है।",
+      "english": "I haven't submitted the application yet.",
+      "alternatives": [],
+      "hint": "I haven't + submitted",
+      "explanation": "Negative PP।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 134,
+      "hindi": "क्या उस hotel में gym है?",
+      "english": "Does the hotel have a gym?",
+      "alternatives": [],
+      "hint": "Does + hotel + have + noun?",
+      "explanation": "Facility question।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 135,
+      "hindi": "वे investors के पास अच्छी जानकारी है।",
+      "english": "The investors have good information.",
+      "alternatives": [],
+      "hint": "They + have + adjective + noun",
+      "explanation": "Business context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 136,
+      "hindi": "उस product की अच्छी quality है।",
+      "english": "The product has good quality.",
+      "alternatives": [],
+      "hint": "Product + has + adjective + noun",
+      "explanation": "Business।",
+      "difficulty": "easy",
+      "tags": [
+        "business",
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 137,
+      "hindi": "मेरे पास इसकी permission है।",
+      "english": "I have permission for this.",
+      "alternatives": [],
+      "hint": "I have + permission",
+      "explanation": "Formal।",
+      "difficulty": "easy",
+      "tags": [
+        "formal",
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 138,
+      "hindi": "तुम्हारे पास driving licence है?",
+      "english": "Do you have a driving licence?",
+      "alternatives": [],
+      "hint": "Do + you + have + noun?",
+      "explanation": "Question।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 139,
+      "hindi": "उसने (लड़की ने) अभी-अभी एक email लिखी है।",
+      "english": "She has just written an email.",
+      "alternatives": [],
+      "hint": "She has just + written",
+      "explanation": "Just PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + just + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 140,
+      "hindi": "हमने सारे data backup कर लिया है।",
+      "english": "We have backed up all the data.",
+      "alternatives": [],
+      "hint": "We have + backed up",
+      "explanation": "IT/Office。",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 141,
+      "hindi": "वह 2019 से manager है।",
+      "english": "He has been a manager since 2019.",
+      "alternatives": [],
+      "hint": "He has been + noun + since + year",
+      "explanation": "Since PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + been + since + time",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 142,
+      "hindi": "मैं 2020 से इस company में हूँ।",
+      "english": "I have been in this company since 2020.",
+      "alternatives": [],
+      "hint": "I have been + in + company + since",
+      "explanation": "Duration since।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + been + since + time",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 143,
+      "hindi": "क्या वे पहले कभी यहाँ आए हैं?",
+      "english": "Have they ever been here before?",
+      "alternatives": [],
+      "hint": "Have + they + ever + been?",
+      "explanation": "Ever PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + ever + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 144,
+      "hindi": "उसने (लड़के ने) काफी progress किया है।",
+      "english": "He has made significant progress.",
+      "alternatives": [],
+      "hint": "He has + made + progress",
+      "explanation": "Appreciation।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 145,
+      "hindi": "क्या कंपनी ने profit बनाया है?",
+      "english": "Has the company made a profit?",
+      "alternatives": [],
+      "hint": "Has + company + made + noun?",
+      "explanation": "Business PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 146,
+      "hindi": "मेरी माँ के पास सोने के गहने हैं।",
+      "english": "My mother has gold jewellery.",
+      "alternatives": [],
+      "hint": "Mother + has + noun",
+      "explanation": "She के लिए has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "family"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 147,
+      "hindi": "मेरे पिता के पास एक छोटी सी दुकान है।",
+      "english": "My father has a small shop.",
+      "alternatives": [],
+      "hint": "Father + has + noun",
+      "explanation": "Possession।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "family"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 148,
+      "hindi": "मेरे बड़े भाई के पास एक अपार्टमेंट है।",
+      "english": "My elder brother has an apartment.",
+      "alternatives": [],
+      "hint": "Brother + has + noun",
+      "explanation": "Family possession।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "family"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 149,
+      "hindi": "मेरी बहन के पास दो बच्चे हैं।",
+      "english": "My sister has two children.",
+      "alternatives": [],
+      "hint": "Sister + has + two + noun",
+      "explanation": "Family।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "family"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 150,
+      "hindi": "उनके पास एक बड़ा बगीचा है।",
+      "english": "They have a big garden.",
+      "alternatives": [],
+      "hint": "They + have + adjective + noun",
+      "explanation": "Home possession।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 151,
+      "hindi": "हमारे पास तीन कमरे का घर है।",
+      "english": "We have a three-bedroom house.",
+      "alternatives": [],
+      "hint": "We have + adjective + noun",
+      "explanation": "Home।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 152,
+      "hindi": "मेरे पास एक अच्छा camera है।",
+      "english": "I have a good camera.",
+      "alternatives": [],
+      "hint": "I have + adjective + noun",
+      "explanation": "Possession।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 153,
+      "hindi": "तुम्हारे पास बहुत patience है।",
+      "english": "You have a lot of patience.",
+      "alternatives": [],
+      "hint": "You have + a lot of + noun",
+      "explanation": "Quality।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "quality"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 154,
+      "hindi": "हमारे पास एक team of 10 है।",
+      "english": "We have a team of ten.",
+      "alternatives": [],
+      "hint": "We have + a team of + number",
+      "explanation": "Office।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "office"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 155,
+      "hindi": "मेरे पास Photoshop की knowledge है।",
+      "english": "I have knowledge of Photoshop.",
+      "alternatives": [],
+      "hint": "I have + knowledge of + tool",
+      "explanation": "Skill।",
+      "difficulty": "easy",
+      "tags": [
+        "skill",
+        "interview"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 156,
+      "hindi": "हमारे पास parking की सुविधा नहीं है।",
+      "english": "We don't have parking facilities.",
+      "alternatives": [],
+      "hint": "We don't have + noun",
+      "explanation": "Negative。",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 157,
+      "hindi": "मेरे पास इस बारे में जानकारी नहीं है।",
+      "english": "I don't have information about this.",
+      "alternatives": [],
+      "hint": "I don't have + noun",
+      "explanation": "Negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 158,
+      "hindi": "तुम्हारे पास इस काम के लिए skills नहीं हैं।",
+      "english": "You don't have the skills for this job.",
+      "alternatives": [],
+      "hint": "You don't have + noun",
+      "explanation": "Negative skill।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "career"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 159,
+      "hindi": "उनके पास कोई fixed address नहीं है।",
+      "english": "They don't have a fixed address.",
+      "alternatives": [],
+      "hint": "They don't have + noun",
+      "explanation": "Negative।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 160,
+      "hindi": "उस कंपनी के पास कोई website नहीं है।",
+      "english": "The company doesn't have a website.",
+      "alternatives": [],
+      "hint": "Company + doesn't have + noun",
+      "explanation": "Business negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative",
+        "business"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 161,
+      "hindi": "उस लड़के के पास English की knowledge नहीं है।",
+      "english": "He doesn't have knowledge of English.",
+      "alternatives": [],
+      "hint": "He + doesn't have + noun",
+      "explanation": "Negative skill।",
+      "difficulty": "easy",
+      "tags": [
+        "negative",
+        "skill"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 162,
+      "hindi": "उस लड़की के पास कोई complaint नहीं है।",
+      "english": "She doesn't have any complaint.",
+      "alternatives": [],
+      "hint": "She + doesn't have + any + noun",
+      "explanation": "Negative।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Negative"
+    },
+    {
+      "id": 163,
+      "hindi": "मैंने अभी तक form नहीं भरा है।",
+      "english": "I haven't filled out the form yet.",
+      "alternatives": [],
+      "hint": "I haven't + filled out",
+      "explanation": "Negative PP।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 164,
+      "hindi": "उसने (लड़के ने) अभी तक project submit नहीं किया।",
+      "english": "He hasn't submitted the project yet.",
+      "alternatives": [],
+      "hint": "He hasn't + submitted",
+      "explanation": "Negative PP।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 165,
+      "hindi": "हमने अभी तक उसे नहीं बताया है।",
+      "english": "We haven't told him yet.",
+      "alternatives": [],
+      "hint": "We haven't + told",
+      "explanation": "Negative PP।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 166,
+      "hindi": "क्या तुम्हारे पास umbrella है?",
+      "english": "Do you have an umbrella?",
+      "alternatives": [],
+      "hint": "Do + you + have + noun?",
+      "explanation": "Simple question।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 167,
+      "hindi": "क्या उस hospital में ICU है?",
+      "english": "Does the hospital have an ICU?",
+      "alternatives": [],
+      "hint": "Does + hospital + have + noun?",
+      "explanation": "Facility question।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 168,
+      "hindi": "क्या हमारे पास sufficient time है?",
+      "english": "Do we have sufficient time?",
+      "alternatives": [],
+      "hint": "Do + we + have + adjective + noun?",
+      "explanation": "Time question।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 169,
+      "hindi": "क्या उनके पास office space है?",
+      "english": "Do they have office space?",
+      "alternatives": [],
+      "hint": "Do + they + have + noun?",
+      "explanation": "Business question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "business"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 170,
+      "hindi": "क्या उसके पास (लड़की के) कोई sibling है?",
+      "english": "Does she have any siblings?",
+      "alternatives": [],
+      "hint": "Does + she + have + any + noun?",
+      "explanation": "Family question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "family"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 171,
+      "hindi": "क्या कंपनी के पास export licence है?",
+      "english": "Does the company have an export licence?",
+      "alternatives": [],
+      "hint": "Does + company + have + noun?",
+      "explanation": "Business formal।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "business"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 172,
+      "hindi": "क्या तुमने कभी bike चलाई है?",
+      "english": "Have you ever ridden a bike?",
+      "alternatives": [],
+      "hint": "Have + you + ever + ridden?",
+      "explanation": "'ever' PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + ever + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 173,
+      "hindi": "क्या उसने (लड़के ने) कभी abroad study की है?",
+      "english": "Has he ever studied abroad?",
+      "alternatives": [],
+      "hint": "Has + he + ever + studied?",
+      "explanation": "Ever PP।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + ever + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 174,
+      "hindi": "क्या तुमने यह book पढ़ी है?",
+      "english": "Have you read this book?",
+      "alternatives": [],
+      "hint": "Have + you + read?",
+      "explanation": "PP question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 175,
+      "hindi": "क्या तुमने आज newspaper पढ़ा है?",
+      "english": "Have you read the newspaper today?",
+      "alternatives": [],
+      "hint": "Have + you + read + today?",
+      "explanation": "Daily PP।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "present-perfect"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 176,
+      "hindi": "मेरे पास इस task की deadline है।",
+      "english": "I have a deadline for this task.",
+      "alternatives": [],
+      "hint": "I have + noun + for",
+      "explanation": "Office।",
+      "difficulty": "easy",
+      "tags": [
+        "office",
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 177,
+      "hindi": "उस department के पास extra budget है।",
+      "english": "The department has extra budget.",
+      "alternatives": [],
+      "hint": "Department + has + noun",
+      "explanation": "Office।",
+      "difficulty": "easy",
+      "tags": [
+        "office",
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 178,
+      "hindi": "हमने project on time deliver किया है।",
+      "english": "We have delivered the project on time.",
+      "alternatives": [],
+      "hint": "We have + delivered",
+      "explanation": "Office PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 179,
+      "hindi": "उसने (लड़की ने) team को motivate किया है।",
+      "english": "She has motivated the team.",
+      "alternatives": [],
+      "hint": "She has + motivated",
+      "explanation": "Leadership।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 180,
+      "hindi": "मैंने client को presentation दी है।",
+      "english": "I have given a presentation to the client.",
+      "alternatives": [],
+      "hint": "I have + given",
+      "explanation": "Office PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 181,
+      "hindi": "हमने quarterly target पूरा कर लिया है।",
+      "english": "We have completed our quarterly target.",
+      "alternatives": [],
+      "hint": "We have + completed",
+      "explanation": "Business achievement।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 182,
+      "hindi": "उसने (लड़के ने) नया client onboard किया है।",
+      "english": "He has onboarded a new client.",
+      "alternatives": [],
+      "hint": "He has + onboarded",
+      "explanation": "Business PP।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 183,
+      "hindi": "वे दो घंटे से interview दे रहे हैं।",
+      "english": "They have been giving interviews for two hours.",
+      "alternatives": [],
+      "hint": "They have been + Ving + for",
+      "explanation": "PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous",
+        "interview"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 184,
+      "hindi": "मैं सुबह से काम कर रहा हूँ।",
+      "english": "I have been working since morning.",
+      "alternatives": [],
+      "hint": "I have been + working + since",
+      "explanation": "PP Continuous since।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving + since",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 185,
+      "hindi": "वह (लड़की) काफी समय से English सीख रही है।",
+      "english": "She has been learning English for a long time.",
+      "alternatives": [],
+      "hint": "She has been + learning + for",
+      "explanation": "PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "He/She/It + has + been + Ving + for",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 186,
+      "hindi": "अगर तुम्हारे पास कोई सवाल है तो पूछो।",
+      "english": "If you have any questions, please ask.",
+      "alternatives": [],
+      "hint": "If + you + have + question...",
+      "explanation": "Conditional with have।",
+      "difficulty": "medium",
+      "tags": [
+        "conditional",
+        "formal"
+      ],
+      "grammarRule": "If + subject + have + [noun]",
+      "category": "Expressions"
+    },
+    {
+      "id": 187,
+      "hindi": "अगर उसके पास time हो तो वह आएगा।",
+      "english": "If he has time, he will come.",
+      "alternatives": [],
+      "hint": "If + he + has + noun...",
+      "explanation": "Conditional with has।",
+      "difficulty": "medium",
+      "tags": [
+        "conditional"
+      ],
+      "grammarRule": "If + subject + has + [noun]",
+      "category": "Expressions"
+    },
+    {
+      "id": 188,
+      "hindi": "जब भी तुम्हारे पास कोई update हो, मुझे बताना।",
+      "english": "Whenever you have an update, let me know.",
+      "alternatives": [],
+      "hint": "Whenever + you + have + noun",
+      "explanation": "Formal expression।",
+      "difficulty": "medium",
+      "tags": [
+        "formal",
+        "expression"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Expressions"
+    },
+    {
+      "id": 189,
+      "hindi": "आपको यह सुनकर खुशी होगी कि हमने deal win किया है।",
+      "english": "You will be happy to hear that we have won the deal.",
+      "alternatives": [],
+      "hint": "we + have + won",
+      "explanation": "Business announcement।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect",
+        "business",
+        "formal"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 190,
+      "hindi": "उसे गर्व है कि उसने exam clear किया है।",
+      "english": "She is proud that she has cleared the exam.",
+      "alternatives": [],
+      "hint": "She has + cleared",
+      "explanation": "Achievement।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 191,
+      "hindi": "मैंने पहली बार यह dish try की है।",
+      "english": "I have tried this dish for the first time.",
+      "alternatives": [],
+      "hint": "I have + tried + for the first time",
+      "explanation": "First time experience।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "experience"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 192,
+      "hindi": "उन्होंने अपना नाम register करा लिया है।",
+      "english": "They have registered their name.",
+      "alternatives": [],
+      "hint": "They have + registered",
+      "explanation": "PP।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 193,
+      "hindi": "क्या तुमने कभी mountain trekking की है?",
+      "english": "Have you ever been trekking in the mountains?",
+      "alternatives": [],
+      "hint": "Have + you + ever + been + Ving?",
+      "explanation": "Experience question।",
+      "difficulty": "hard",
+      "tags": [
+        "question",
+        "present-perfect",
+        "experience"
+      ],
+      "grammarRule": "Have/Has + subject + ever + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 194,
+      "hindi": "उसने (लड़के ने) एक नई company शुरू की है।",
+      "english": "He has started a new company.",
+      "alternatives": [],
+      "hint": "He has + started",
+      "explanation": "Business PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 195,
+      "hindi": "मुझे तुम पर गर्व है, तुमने बहुत progress किया है।",
+      "english": "I am proud of you; you have made great progress.",
+      "alternatives": [],
+      "hint": "You have + made + progress",
+      "explanation": "Appreciation।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 196,
+      "hindi": "हमारे पास पर्यावरण बचाने की ज़िम्मेदारी है।",
+      "english": "We have a responsibility to protect the environment.",
+      "alternatives": [],
+      "hint": "We have + responsibility to + verb",
+      "explanation": "Formal expression।",
+      "difficulty": "hard",
+      "tags": [
+        "formal",
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 197,
+      "hindi": "उस hospital के पास latest technology है।",
+      "english": "The hospital has the latest technology.",
+      "alternatives": [],
+      "hint": "Hospital + has + adjective + noun",
+      "explanation": "Medical。",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 198,
+      "hindi": "क्या आपने कोई project independently manage किया है?",
+      "english": "Have you ever managed a project independently?",
+      "alternatives": [],
+      "hint": "Have + you + ever + managed?",
+      "explanation": "Interview PP question।",
+      "difficulty": "hard",
+      "tags": [
+        "question",
+        "present-perfect",
+        "interview"
+      ],
+      "grammarRule": "Have/Has + subject + ever + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 199,
+      "hindi": "उसके पास excellent presentation skills हैं।",
+      "english": "She has excellent presentation skills.",
+      "alternatives": [],
+      "hint": "She has + adjective + noun",
+      "explanation": "Professional skill।",
+      "difficulty": "easy",
+      "tags": [
+        "skill",
+        "interview"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 200,
+      "hindi": "मैंने यह challenge पहले कभी face नहीं किया।",
+      "english": "I have never faced this challenge before.",
+      "alternatives": [],
+      "hint": "I have never + faced",
+      "explanation": "Never PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "negative"
+      ],
+      "grammarRule": "Subject + have + never + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 201,
+      "hindi": "कंपनी ने नया partnership announce किया है।",
+      "english": "The company has announced a new partnership.",
+      "alternatives": [],
+      "hint": "Company has + announced",
+      "explanation": "Business news PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 202,
+      "hindi": "हमने अभी तक invoice नहीं भेजा है।",
+      "english": "We haven't sent the invoice yet.",
+      "alternatives": [],
+      "hint": "We haven't + sent",
+      "explanation": "Business negative PP।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + haven't/hasn't + V3",
+      "category": "Negative"
+    },
+    {
+      "id": 203,
+      "hindi": "उसने (लड़की ने) पूरी team को train किया है।",
+      "english": "She has trained the entire team.",
+      "alternatives": [],
+      "hint": "She has + trained",
+      "explanation": "Leadership PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 204,
+      "hindi": "राहुल के पास एक motorbike है।",
+      "english": "Rahul has a motorbike.",
+      "alternatives": [],
+      "hint": "Rahul + has + noun",
+      "explanation": "Proper noun + has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 205,
+      "hindi": "प्रिया के पास एक अच्छी job है।",
+      "english": "Priya has a good job.",
+      "alternatives": [],
+      "hint": "Priya + has + noun",
+      "explanation": "Proper noun (she) + has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 206,
+      "hindi": "मेरे teacher के पास बहुत ज्ञान है।",
+      "english": "My teacher has a lot of knowledge.",
+      "alternatives": [],
+      "hint": "Teacher + has + knowledge",
+      "explanation": "He/She (teacher) + has।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 207,
+      "hindi": "वह डॉक्टर है और उसके पास बहुत patients हैं।",
+      "english": "He is a doctor and he has many patients.",
+      "alternatives": [],
+      "hint": "He has + many + noun",
+      "explanation": "Professional possession।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "career"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 208,
+      "hindi": "इस शहर में बहुत अच्छे college हैं।",
+      "english": "This city has many good colleges.",
+      "alternatives": [],
+      "hint": "City + has + adjective + noun",
+      "explanation": "Place possession।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 209,
+      "hindi": "मेरे cousin के पास gaming PC है।",
+      "english": "My cousin has a gaming PC.",
+      "alternatives": [],
+      "hint": "Cousin + has + noun",
+      "explanation": "Family।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "family"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 210,
+      "hindi": "उस दुकान में बहुत variety है।",
+      "english": "The shop has great variety.",
+      "alternatives": [],
+      "hint": "Shop + has + adjective + noun",
+      "explanation": "Business।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 211,
+      "hindi": "हमारे manager के पास बहुत अच्छी leadership quality है।",
+      "english": "Our manager has excellent leadership qualities.",
+      "alternatives": [],
+      "hint": "Manager + has + noun",
+      "explanation": "Office।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 212,
+      "hindi": "उस candidate के पास Master's degree है।",
+      "english": "The candidate has a Master's degree.",
+      "alternatives": [],
+      "hint": "Candidate + has + noun",
+      "explanation": "Interview।",
+      "difficulty": "easy",
+      "tags": [
+        "possession",
+        "interview"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 213,
+      "hindi": "इस app के पास 10 million users हैं।",
+      "english": "This app has ten million users.",
+      "alternatives": [],
+      "hint": "App + has + number + noun",
+      "explanation": "Tech/Business।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 214,
+      "hindi": "मेरे पास एक productive morning routine है।",
+      "english": "I have a productive morning routine.",
+      "alternatives": [],
+      "hint": "I have + adjective + noun",
+      "explanation": "Daily habit।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 215,
+      "hindi": "तुम्हारे पास एक बड़ा opportunity है।",
+      "english": "You have a great opportunity.",
+      "alternatives": [],
+      "hint": "You have + adjective + noun",
+      "explanation": "Encouragement।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 216,
+      "hindi": "हमारे पास इस project के लिए पर्याप्त data है।",
+      "english": "We have sufficient data for this project.",
+      "alternatives": [],
+      "hint": "We have + adjective + noun",
+      "explanation": "Office।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "office"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 217,
+      "hindi": "उनके पास कई branches हैं across India।",
+      "english": "They have several branches across India.",
+      "alternatives": [],
+      "hint": "They have + adjective + noun",
+      "explanation": "Business expansion।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 218,
+      "hindi": "मेरे पास एक vision है।",
+      "english": "I have a vision.",
+      "alternatives": [],
+      "hint": "I have + noun",
+      "explanation": "Leadership।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 219,
+      "hindi": "वह बोला: 'He have a dream.' — इसे सही करो।",
+      "english": "He has a dream.",
+      "alternatives": [],
+      "hint": "He + has (not have)",
+      "explanation": "He के साथ has आता है, have नहीं।",
+      "difficulty": "easy",
+      "tags": [
+        "error-correction"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Error Correction"
+    },
+    {
+      "id": 220,
+      "hindi": "'She don't have time.' — सही वाक्य क्या है?",
+      "english": "She doesn't have time.",
+      "alternatives": [],
+      "hint": "She + doesn't have",
+      "explanation": "She के साथ doesn't, don't नहीं।",
+      "difficulty": "easy",
+      "tags": [
+        "error-correction",
+        "negative"
+      ],
+      "grammarRule": "He/She/It + doesn't have + [noun]",
+      "category": "Error Correction"
+    },
+    {
+      "id": 221,
+      "hindi": "'They has a meeting.' — सही करो।",
+      "english": "They have a meeting.",
+      "alternatives": [],
+      "hint": "They + have (not has)",
+      "explanation": "They के साथ have।",
+      "difficulty": "easy",
+      "tags": [
+        "error-correction"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Error Correction"
+    },
+    {
+      "id": 222,
+      "hindi": "'I has eaten.' — सही वाक्य लिखो।",
+      "english": "I have eaten.",
+      "alternatives": [],
+      "hint": "I + have (not has)",
+      "explanation": "I के साथ have।",
+      "difficulty": "easy",
+      "tags": [
+        "error-correction",
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have + V3",
+      "category": "Error Correction"
+    },
+    {
+      "id": 223,
+      "hindi": "'Does she has a car?' — सही करो।",
+      "english": "Does she have a car?",
+      "alternatives": [],
+      "hint": "Does + she + have (base form)",
+      "explanation": "Does के बाद base form।",
+      "difficulty": "medium",
+      "tags": [
+        "error-correction",
+        "question"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Error Correction"
+    },
+    {
+      "id": 224,
+      "hindi": "'Has you finished?' — सही करो।",
+      "english": "Have you finished?",
+      "alternatives": [],
+      "hint": "Have + you (not Has)",
+      "explanation": "You के साथ Have।",
+      "difficulty": "medium",
+      "tags": [
+        "error-correction",
+        "question"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Error Correction"
+    },
+    {
+      "id": 225,
+      "hindi": "'He haven't called.' — सही करो।",
+      "english": "He hasn't called.",
+      "alternatives": [
+        "He has not called."
+      ],
+      "hint": "He + hasn't (not haven't)",
+      "explanation": "He के साथ hasn't।",
+      "difficulty": "medium",
+      "tags": [
+        "error-correction",
+        "negative"
+      ],
+      "grammarRule": "He/She/It + hasn't + V3",
+      "category": "Error Correction"
+    },
+    {
+      "id": 226,
+      "hindi": "'I don't has a pen.' — सही करो।",
+      "english": "I don't have a pen.",
+      "alternatives": [],
+      "hint": "don't + have (base form)",
+      "explanation": "don't के बाद base form have।",
+      "difficulty": "easy",
+      "tags": [
+        "error-correction",
+        "negative"
+      ],
+      "grammarRule": "I/You/We/They + don't have + [noun]",
+      "category": "Error Correction"
+    },
+    {
+      "id": 227,
+      "hindi": "'She have been working since morning.' — सही करो।",
+      "english": "She has been working since morning.",
+      "alternatives": [],
+      "hint": "She + has (not have)",
+      "explanation": "She के साथ has।",
+      "difficulty": "medium",
+      "tags": [
+        "error-correction",
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "He/She/It + has + been + Ving",
+      "category": "Error Correction"
+    },
+    {
+      "id": 228,
+      "hindi": "'We has completed the task.' — सही करो।",
+      "english": "We have completed the task.",
+      "alternatives": [],
+      "hint": "We + have (not has)",
+      "explanation": "We के साथ have।",
+      "difficulty": "easy",
+      "tags": [
+        "error-correction",
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have + V3",
+      "category": "Error Correction"
+    },
+    {
+      "id": 229,
+      "hindi": "तुमने आज gym किया है।",
+      "english": "You have exercised at the gym today.",
+      "alternatives": [
+        "You've been to the gym today."
+      ],
+      "hint": "You have + exercised",
+      "explanation": "Daily activity PP।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 230,
+      "hindi": "मैंने आज 5 meetings attend किया है।",
+      "english": "I have attended five meetings today.",
+      "alternatives": [],
+      "hint": "I have + attended",
+      "explanation": "Office PP।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 231,
+      "hindi": "वह तीन companies में काम कर चुका है।",
+      "english": "He has worked in three companies.",
+      "alternatives": [],
+      "hint": "He has + worked",
+      "explanation": "Career experience।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "career"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 232,
+      "hindi": "हमने एक नई strategy develop की है।",
+      "english": "We have developed a new strategy.",
+      "alternatives": [],
+      "hint": "We have + developed",
+      "explanation": "Business PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 233,
+      "hindi": "उसने (लड़के ने) अपनी English बहुत improve की है।",
+      "english": "He has improved his English a lot.",
+      "alternatives": [],
+      "hint": "He has + improved",
+      "explanation": "Improvement PP।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 234,
+      "hindi": "तुमने बहुत कुछ achieve किया है इस साल।",
+      "english": "You have achieved a lot this year.",
+      "alternatives": [],
+      "hint": "You have + achieved",
+      "explanation": "Year-end review।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 235,
+      "hindi": "मैंने team के साथ एक नया process design किया है।",
+      "english": "I have designed a new process with the team.",
+      "alternatives": [],
+      "hint": "I have + designed",
+      "explanation": "Office PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 236,
+      "hindi": "उन्होंने market में नई position बना ली है।",
+      "english": "They have established a new position in the market.",
+      "alternatives": [],
+      "hint": "They have + established",
+      "explanation": "Business formal।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 237,
+      "hindi": "वह पहले कभी इस city में नहीं रही है।",
+      "english": "She has never lived in this city before.",
+      "alternatives": [],
+      "hint": "She has never + lived",
+      "explanation": "Never before PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "negative"
+      ],
+      "grammarRule": "He/She/It + has + never + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 238,
+      "hindi": "मैंने सारे pending tasks complete कर दिए हैं।",
+      "english": "I have completed all the pending tasks.",
+      "alternatives": [],
+      "hint": "I have + completed",
+      "explanation": "Office achievement।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 239,
+      "hindi": "क्या तुमने appraisal form fill किया है?",
+      "english": "Have you filled in the appraisal form?",
+      "alternatives": [],
+      "hint": "Have + you + filled?",
+      "explanation": "HR question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 240,
+      "hindi": "क्या उसने (लड़की ने) budget approve करवाया है?",
+      "english": "Has she got the budget approved?",
+      "alternatives": [],
+      "hint": "Has + she + got + approved?",
+      "explanation": "Office formal।",
+      "difficulty": "hard",
+      "tags": [
+        "question",
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 241,
+      "hindi": "क्या तुमने कभी online course किया है?",
+      "english": "Have you ever done an online course?",
+      "alternatives": [],
+      "hint": "Have + you + ever + done?",
+      "explanation": "Experience question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect",
+        "experience"
+      ],
+      "grammarRule": "Have/Has + subject + ever + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 242,
+      "hindi": "क्या वे लोग meeting में participate किए हैं?",
+      "english": "Have they participated in the meeting?",
+      "alternatives": [],
+      "hint": "Have + they + participated?",
+      "explanation": "Office PP question।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "present-perfect",
+        "office"
+      ],
+      "grammarRule": "Have/Has + subject + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 243,
+      "hindi": "क्या उसने (लड़के ने) कभी विदेशी client से deal किया है?",
+      "english": "Has he ever dealt with a foreign client?",
+      "alternatives": [],
+      "hint": "Has + he + ever + dealt?",
+      "explanation": "Experience interview।",
+      "difficulty": "hard",
+      "tags": [
+        "question",
+        "present-perfect",
+        "interview"
+      ],
+      "grammarRule": "Have/Has + subject + ever + V3?",
+      "category": "Questions"
+    },
+    {
+      "id": 244,
+      "hindi": "यार, तुम्हारे पास charger है?",
+      "english": "Hey, do you have a charger?",
+      "alternatives": [],
+      "hint": "Do + you + have + noun?",
+      "explanation": "Informal question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "informal"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 245,
+      "hindi": "क्या उसके पास कोई solution है?",
+      "english": "Does he have any solution?",
+      "alternatives": [],
+      "hint": "Does + he + have + any + noun?",
+      "explanation": "Informal question।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 246,
+      "hindi": "आपके पास Business card है?",
+      "english": "Do you have a business card?",
+      "alternatives": [],
+      "hint": "Do + you + have + noun?",
+      "explanation": "Professional informal।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "business"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 247,
+      "hindi": "तुम्हारे पास कोई idea है इस बारे में?",
+      "english": "Do you have any idea about this?",
+      "alternatives": [],
+      "hint": "Do + you + have + any + noun?",
+      "explanation": "Casual question।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "informal"
+      ],
+      "grammarRule": "Do/Does + subject + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 248,
+      "hindi": "क्या उस café में WiFi है?",
+      "english": "Does that café have WiFi?",
+      "alternatives": [],
+      "hint": "Does + place + have + noun?",
+      "explanation": "Daily life।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Does + he/she/it + have + [noun]?",
+      "category": "Questions"
+    },
+    {
+      "id": 249,
+      "hindi": "मैं यहाँ 2019 से पढ़ रहा हूँ।",
+      "english": "I have been studying here since 2019.",
+      "alternatives": [],
+      "hint": "I have been + Ving + since + year",
+      "explanation": "Since PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving + since",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 250,
+      "hindi": "वह पिछले 3 साल से इस company में है।",
+      "english": "She has been with this company for three years.",
+      "alternatives": [],
+      "hint": "She has been + with + company + for",
+      "explanation": "Duration PP।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "He/She/It + has + been + with + for",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 251,
+      "hindi": "हम 2018 से इस city में रह रहे हैं।",
+      "english": "We have been living in this city since 2018.",
+      "alternatives": [],
+      "hint": "We have been + Ving + since",
+      "explanation": "PP Continuous since।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving + since",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 252,
+      "hindi": "वह एक घंटे से wait कर रही है।",
+      "english": "She has been waiting for an hour.",
+      "alternatives": [],
+      "hint": "She has been + waiting + for",
+      "explanation": "PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "He/She/It + has + been + Ving + for",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 253,
+      "hindi": "मैं कल से बीमार हूँ।",
+      "english": "I have been sick since yesterday.",
+      "alternatives": [],
+      "hint": "I have been + adjective + since",
+      "explanation": "PP state since।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "Subject + have/has + been + adjective + since",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 254,
+      "hindi": "वे दो सालों से इस project पर काम कर रहे हैं।",
+      "english": "They have been working on this project for two years.",
+      "alternatives": [],
+      "hint": "They have been + working + for",
+      "explanation": "PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous",
+        "office"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving + for",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 255,
+      "hindi": "वह (लड़का) जनवरी से manager है।",
+      "english": "He has been the manager since January.",
+      "alternatives": [],
+      "hint": "He has been + noun + since",
+      "explanation": "Role since PP।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect",
+        "career"
+      ],
+      "grammarRule": "Subject + have/has + been + since",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 256,
+      "hindi": "हम काफी समय से यह discuss कर रहे हैं।",
+      "english": "We have been discussing this for a long time.",
+      "alternatives": [],
+      "hint": "We have been + discussing + for",
+      "explanation": "PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving + for",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 257,
+      "hindi": "तुम बहुत समय से English सीख रहे हो।",
+      "english": "You have been learning English for a long time.",
+      "alternatives": [],
+      "hint": "You have been + learning + for",
+      "explanation": "Encouragement + PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "Subject + have/has + been + Ving + for",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 258,
+      "hindi": "वह 2 घंटे से presentation prepare कर रही है।",
+      "english": "She has been preparing the presentation for two hours.",
+      "alternatives": [],
+      "hint": "She has been + preparing + for",
+      "explanation": "Office PP Continuous।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous",
+        "office"
+      ],
+      "grammarRule": "He/She/It + has + been + Ving + for",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 259,
+      "hindi": "मेरे पास multi-tasking की ability है।",
+      "english": "I have the ability to multitask.",
+      "alternatives": [],
+      "hint": "I have + the ability to + verb",
+      "explanation": "Interview skill।",
+      "difficulty": "hard",
+      "tags": [
+        "skill",
+        "interview"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 260,
+      "hindi": "मेरे पास project management का experience है।",
+      "english": "I have experience in project management.",
+      "alternatives": [],
+      "hint": "I have + experience in + field",
+      "explanation": "Interview sentence।",
+      "difficulty": "medium",
+      "tags": [
+        "experience",
+        "interview"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 261,
+      "hindi": "मेरे पास leadership qualities हैं।",
+      "english": "I have leadership qualities.",
+      "alternatives": [],
+      "hint": "I have + noun",
+      "explanation": "Interview।",
+      "difficulty": "easy",
+      "tags": [
+        "skill",
+        "interview"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 262,
+      "hindi": "मेरे पास customer service का background है।",
+      "english": "I have a background in customer service.",
+      "alternatives": [],
+      "hint": "I have + a background in + field",
+      "explanation": "Interview।",
+      "difficulty": "medium",
+      "tags": [
+        "experience",
+        "interview"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 263,
+      "hindi": "मेरे पास data analysis की skills हैं।",
+      "english": "I have data analysis skills.",
+      "alternatives": [],
+      "hint": "I have + noun + skills",
+      "explanation": "Technical interview।",
+      "difficulty": "medium",
+      "tags": [
+        "skill",
+        "interview"
+      ],
+      "grammarRule": "I/You/We/They + have + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 264,
+      "hindi": "हमारी company के पास strong brand value है।",
+      "english": "Our company has strong brand value.",
+      "alternatives": [],
+      "hint": "Company + has + adjective + noun",
+      "explanation": "Business।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 265,
+      "hindi": "इस product के पास competitive advantage है।",
+      "english": "This product has a competitive advantage.",
+      "alternatives": [],
+      "hint": "Product + has + noun",
+      "explanation": "Business।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 266,
+      "hindi": "वह startup बहुत growth potential है।",
+      "english": "That startup has great growth potential.",
+      "alternatives": [],
+      "hint": "Startup + has + adjective + noun",
+      "explanation": "Investment।",
+      "difficulty": "medium",
+      "tags": [
+        "possession",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + [noun]",
+      "category": "Possession"
+    },
+    {
+      "id": 267,
+      "hindi": "इस quarter में हमने बहुत revenue generate किया है।",
+      "english": "We have generated a lot of revenue this quarter.",
+      "alternatives": [],
+      "hint": "We have + generated",
+      "explanation": "Business PP।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "Subject + have/has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 268,
+      "hindi": "कंपनी ने अपना IPO file किया है।",
+      "english": "The company has filed its IPO.",
+      "alternatives": [],
+      "hint": "Company has + filed",
+      "explanation": "Financial news।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect",
+        "business"
+      ],
+      "grammarRule": "He/She/It + has + V3",
+      "category": "Present Perfect"
+    },
+    {
+      "id": 269,
+      "hindi": "मेरे पास एक अच्छी pen drive है।",
+      "english": "I have a good pen drive.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 270,
+      "hindi": "उसके पास एक बड़ा TV है।",
+      "english": "He has a big TV.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 271,
+      "hindi": "तुम्हारे पास कितना cash है?",
+      "english": "How much cash do you have?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 272,
+      "hindi": "हमारे पास एक अच्छी canteen है।",
+      "english": "We have a good canteen.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 273,
+      "hindi": "उनके पास एक cafeteria है।",
+      "english": "They have a cafeteria.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 274,
+      "hindi": "मेरे पास एक study table है।",
+      "english": "I have a study table.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 275,
+      "hindi": "उसके पास एक comfortable chair है।",
+      "english": "She has a comfortable chair.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 276,
+      "hindi": "हमारे पास free WiFi है।",
+      "english": "We have free WiFi.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 277,
+      "hindi": "उस building में lift है।",
+      "english": "The building has a lift.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 278,
+      "hindi": "उस hotel में swimming pool है।",
+      "english": "The hotel has a swimming pool.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 279,
+      "hindi": "मैंने अपनी profile update कर ली है।",
+      "english": "I have updated my profile.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 280,
+      "hindi": "उसने अपना password reset कर लिया है।",
+      "english": "He has reset his password.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 281,
+      "hindi": "तुमने अपना homework complete किया है?",
+      "english": "Have you completed your homework?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 282,
+      "hindi": "उसने (लड़की) अपनी team को brief किया है।",
+      "english": "She has briefed her team.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 283,
+      "hindi": "हमने सारे clients को inform कर दिया है।",
+      "english": "We have informed all the clients.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 284,
+      "hindi": "उन्होंने order dispatch कर दिया है।",
+      "english": "They have dispatched the order.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 285,
+      "hindi": "मैंने salary slip download कर ली है।",
+      "english": "I have downloaded the salary slip.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 286,
+      "hindi": "वह अभी तक नहीं पहुँचा है।",
+      "english": "He has not arrived yet.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 287,
+      "hindi": "उसने (लड़की) अभी तक join नहीं किया है।",
+      "english": "She has not joined yet.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 288,
+      "hindi": "हमने deadline extend नहीं की है।",
+      "english": "We have not extended the deadline.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 289,
+      "hindi": "क्या तुमने resignation submit किया है?",
+      "english": "Have you submitted your resignation?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 290,
+      "hindi": "क्या उसने (लड़के) project approve किया है?",
+      "english": "Has he approved the project?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 291,
+      "hindi": "क्या उनके पास कोई vacancy है?",
+      "english": "Do they have any vacancy?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 292,
+      "hindi": "क्या तुम्हारे पास visiting card है?",
+      "english": "Do you have a visiting card?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 293,
+      "hindi": "क्या उस company के पास ISO certificate है?",
+      "english": "Does the company have an ISO certificate?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 294,
+      "hindi": "मेरे पास इस बारे में पूरी जानकारी है।",
+      "english": "I have complete information about this.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 295,
+      "hindi": "उसके पास मेरा phone number है।",
+      "english": "He has my phone number.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 296,
+      "hindi": "तुम्हारे पास office का access card है।",
+      "english": "You have an office access card.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 297,
+      "hindi": "हमारे पास backup generator है।",
+      "english": "We have a backup generator.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 298,
+      "hindi": "उनके पास modern equipment है।",
+      "english": "They have modern equipment.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 299,
+      "hindi": "मैंने अपना leave application submit कर दिया है।",
+      "english": "I have submitted my leave application.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 300,
+      "hindi": "वह तीन certificates प्राप्त कर चुकी है।",
+      "english": "She has received three certificates.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 301,
+      "hindi": "हमने नया office setup कर लिया है।",
+      "english": "We have set up a new office.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 302,
+      "hindi": "उन्होंने tender fill किया है।",
+      "english": "They have filled out the tender.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 303,
+      "hindi": "मैंने सारे accounts reconcile कर लिए हैं।",
+      "english": "I have reconciled all the accounts.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 304,
+      "hindi": "उसने (लड़के) appraisal form submit किया है।",
+      "english": "He has submitted the appraisal form.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 305,
+      "hindi": "हमने नई HR policy implement की है।",
+      "english": "We have implemented a new HR policy.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 306,
+      "hindi": "उसने (लड़की) interview में अच्छा perform किया है।",
+      "english": "She has performed well in the interview.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 307,
+      "hindi": "वे पूरे साल consistently perform करते आए हैं।",
+      "english": "They have been performing consistently throughout the year.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 308,
+      "hindi": "मैंने इस month तीन clients handle किए हैं।",
+      "english": "I have handled three clients this month.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 309,
+      "hindi": "क्या तुमने project का documentation किया है?",
+      "english": "Have you done the project documentation?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 310,
+      "hindi": "क्या उसने (लड़की) vendor से quotation लिया है?",
+      "english": "Has she got a quotation from the vendor?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 311,
+      "hindi": "क्या तुम्हारे पास tax invoice है?",
+      "english": "Do you have a tax invoice?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 312,
+      "hindi": "क्या उनके पास government approval है?",
+      "english": "Do they have government approval?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 313,
+      "hindi": "क्या उसके पास (लड़के) कोई reference letter है?",
+      "english": "Does he have a reference letter?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 314,
+      "hindi": "उसके पास (लड़की) बहुत अच्छी vocabulary है।",
+      "english": "She has very good vocabulary.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 315,
+      "hindi": "मेरे पास English speaking की practice करने का मौका है।",
+      "english": "I have the opportunity to practice English speaking.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "hard",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 316,
+      "hindi": "उस institute के पास experienced faculty है।",
+      "english": "The institute has experienced faculty.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 317,
+      "hindi": "हमारे पास remote working की facility है।",
+      "english": "We have remote working facilities.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 318,
+      "hindi": "उनके पास एक strong referral network है।",
+      "english": "They have a strong referral network.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 319,
+      "hindi": "मैंने आज morning walk किया है।",
+      "english": "I have taken a morning walk today.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 320,
+      "hindi": "उसने (लड़की) आज early आकर काम शुरू किया है।",
+      "english": "She has started work early today.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 321,
+      "hindi": "हमने team lunch plan किया है।",
+      "english": "We have planned a team lunch.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 322,
+      "hindi": "वह (लड़का) घर से काम कर रहा है।",
+      "english": "He has been working from home.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 323,
+      "hindi": "उन्होंने quarterly review पूरा कर लिया है।",
+      "english": "They have completed the quarterly review.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 324,
+      "hindi": "क्या तुमने आज exercise की है?",
+      "english": "Have you exercised today?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 325,
+      "hindi": "क्या उसने (लड़के) कभी public speaking की है?",
+      "english": "Has he ever done public speaking?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 326,
+      "hindi": "क्या तुम्हारे पास कोई hobby है?",
+      "english": "Do you have any hobbies?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 327,
+      "hindi": "क्या उनके पास कोई special offer है?",
+      "english": "Do they have any special offer?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 328,
+      "hindi": "क्या उस school में sports facility है?",
+      "english": "Does the school have sports facilities?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 329,
+      "hindi": "मेरे पास एक healthy lifestyle है।",
+      "english": "I have a healthy lifestyle.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 330,
+      "hindi": "उसके पास (लड़की) बहुत positive attitude है।",
+      "english": "She has a very positive attitude.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 331,
+      "hindi": "हमारे पास एक flexible work culture है।",
+      "english": "We have a flexible work culture.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 332,
+      "hindi": "उनके पास एक dedicated support team है।",
+      "english": "They have a dedicated support team.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 333,
+      "hindi": "उस city के पास अच्छी public transport है।",
+      "english": "The city has good public transport.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 334,
+      "hindi": "मैंने अपना LinkedIn profile update किया है।",
+      "english": "I have updated my LinkedIn profile.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 335,
+      "hindi": "उसने (लड़के) नए project की planning शुरू की है।",
+      "english": "He has started planning the new project.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 336,
+      "hindi": "हमने office का renovation कर लिया है।",
+      "english": "We have renovated the office.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 337,
+      "hindi": "उन्होंने अपना annual report publish किया है।",
+      "english": "They have published their annual report.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 338,
+      "hindi": "मैंने सारे stakeholders को update भेज दिया है।",
+      "english": "I have sent updates to all the stakeholders.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 339,
+      "hindi": "वह (लड़की) conference में speech दे चुकी है।",
+      "english": "She has delivered a speech at the conference.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 340,
+      "hindi": "उन्होंने नई manufacturing unit open की है।",
+      "english": "They have opened a new manufacturing unit.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 341,
+      "hindi": "हमने client feedback incorporate कर लिया है।",
+      "english": "We have incorporated client feedback.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 342,
+      "hindi": "उसने (लड़के) product demo दिया है।",
+      "english": "He has given a product demo.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 343,
+      "hindi": "मैंने अपनी strengths और weaknesses identify की हैं।",
+      "english": "I have identified my strengths and weaknesses.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 344,
+      "hindi": "क्या तुमने उससे माफी माँगी है?",
+      "english": "Have you apologized to him?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 345,
+      "hindi": "क्या उसने (लड़की) feedback लिया है?",
+      "english": "Has she taken feedback?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 346,
+      "hindi": "क्या तुम्हारे पास कोई referral है?",
+      "english": "Do you have any referral?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 347,
+      "hindi": "क्या उनके पास कोई पुराना record है?",
+      "english": "Do they have any old records?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 348,
+      "hindi": "क्या उस app के पास offline mode है?",
+      "english": "Does that app have an offline mode?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 349,
+      "hindi": "मेरे पास एक reliable internet connection है।",
+      "english": "I have a reliable internet connection.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 350,
+      "hindi": "उस स्कूल के पास smart classrooms हैं।",
+      "english": "The school has smart classrooms.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 351,
+      "hindi": "हमारे पास एक welcoming work environment है।",
+      "english": "We have a welcoming work environment.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 352,
+      "hindi": "उनके पास एक dedicated R&D team है।",
+      "english": "They have a dedicated R&D team.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 353,
+      "hindi": "उस product के पास अच्छी after-sales service है।",
+      "english": "The product has good after-sales service.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 354,
+      "hindi": "मैंने कल रात 8 घंटे की नींद ली है।",
+      "english": "I have slept eight hours last night.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 355,
+      "hindi": "उसने (लड़की) सारे notes organize कर लिए हैं।",
+      "english": "She has organized all her notes.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "easy",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 356,
+      "hindi": "हमने module testing complete कर लिया है।",
+      "english": "We have completed module testing.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 357,
+      "hindi": "वे लोग project के लिए extra hours दे रहे हैं।",
+      "english": "They have been putting in extra hours for the project.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 358,
+      "hindi": "मैंने अपनी English में बहुत सुधार किया है।",
+      "english": "I have improved my English a lot.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect context।",
+      "difficulty": "medium",
+      "tags": [
+        "present-perfect"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect"
+    },
+    {
+      "id": 359,
+      "hindi": "क्या तुमने payment confirm किया है?",
+      "english": "Have you confirmed the payment?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 360,
+      "hindi": "क्या उसने (लड़के) कोई certification किया है?",
+      "english": "Has he done any certification?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 361,
+      "hindi": "क्या तुम्हारे पास कोई spare key है?",
+      "english": "Do you have a spare key?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 362,
+      "hindi": "क्या उनके पास customer feedback system है?",
+      "english": "Do they have a customer feedback system?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 363,
+      "hindi": "क्या उस department के पास कोई budget है?",
+      "english": "Does that department have a budget?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    },
+    {
+      "id": 364,
+      "hindi": "मेरे पास एक supportive family है।",
+      "english": "I have a supportive family.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 365,
+      "hindi": "उसके पास (लड़की) बहुत creative ideas हैं।",
+      "english": "She has very creative ideas.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 366,
+      "hindi": "हमारे पास latest software tools हैं।",
+      "english": "We have the latest software tools.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 367,
+      "hindi": "उनके पास experienced advisors हैं।",
+      "english": "They have experienced advisors.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "medium",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 368,
+      "hindi": "उस NGO के पास बहुत volunteers हैं।",
+      "english": "That NGO has many volunteers.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "possession context।",
+      "difficulty": "easy",
+      "tags": [
+        "possession"
+      ],
+      "grammarRule": "",
+      "category": "Possession"
+    },
+    {
+      "id": 369,
+      "hindi": "मैंने कोई भी shortcut नहीं लिया है।",
+      "english": "I have not taken any shortcuts.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 370,
+      "hindi": "उसने (लड़के) कोई promise नहीं तोड़ा है।",
+      "english": "He has not broken any promises.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 371,
+      "hindi": "हमने किसी को disappoint नहीं किया है।",
+      "english": "We have not disappointed anyone.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 372,
+      "hindi": "वे लोग अभी तक नहीं पहुँचे हैं।",
+      "english": "They have not arrived yet.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 373,
+      "hindi": "उसने (लड़की) अभी तक कुछ नहीं decide किया है।",
+      "english": "She has not decided anything yet.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 374,
+      "hindi": "मेरे पास कोई excuse नहीं है।",
+      "english": "I don't have any excuse.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 375,
+      "hindi": "उसके पास (लड़के) कोई clear vision नहीं है।",
+      "english": "He doesn't have a clear vision.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 376,
+      "hindi": "हमारे पास extra staff नहीं है।",
+      "english": "We don't have extra staff.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 377,
+      "hindi": "उनके पास proper infrastructure नहीं है।",
+      "english": "They don't have proper infrastructure.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 378,
+      "hindi": "उस city के पास metro नहीं है।",
+      "english": "The city doesn't have a metro.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "negative context।",
+      "difficulty": "easy",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "",
+      "category": "Negative"
+    },
+    {
+      "id": 379,
+      "hindi": "मैं सोमवार से नया course शुरू करने वाला हूँ।",
+      "english": "I have been planning to start a new course since Monday.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect-continuous context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect-continuous"
+    },
+    {
+      "id": 380,
+      "hindi": "वह कई घंटों से एक solution खोज रहा है।",
+      "english": "He has been looking for a solution for many hours.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect-continuous context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect-continuous"
+    },
+    {
+      "id": 381,
+      "hindi": "हम पिछले कुछ समय से नई strategy पर काम कर रहे हैं।",
+      "english": "We have been working on a new strategy for a while.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect-continuous context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect-continuous"
+    },
+    {
+      "id": 382,
+      "hindi": "वह (लड़की) दो घंटे से किताब पढ़ रही है।",
+      "english": "She has been reading a book for two hours.",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "present-perfect-continuous context।",
+      "difficulty": "hard",
+      "tags": [
+        "present-perfect-continuous"
+      ],
+      "grammarRule": "",
+      "category": "Present-perfect-continuous"
+    },
+    {
+      "id": 383,
+      "hindi": "तुम कब से यह game खेल रहे हो?",
+      "english": "How long have you been playing this game?",
+      "alternatives": [],
+      "hint": "",
+      "explanation": "question context।",
+      "difficulty": "hard",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "",
+      "category": "Question"
+    }
   ]
 }

@@ -1,39 +1,2231 @@
 {
   "day": 8,
-  "title": "Day 8 Daily Test — Will Have (30 Questions)",
-  "totalQuestions": 30,
-  "timeLimit": 20,
+  "title": "Day 8 Daily Test — Will Have (Future Perfect)",
+  "totalQuestions": 169,
+  "timeLimit": 60,
   "passingScore": 70,
   "questions": [
-    {"id":1,"type":"translate","hindi":"कल तक, मैं report खत्म कर चुका होऊँगा।","options":["By tomorrow, I will finish the report.","By tomorrow, I will have finished the report.","By tomorrow, I have finished the report.","By tomorrow, I had finished the report."],"answer":"By tomorrow, I will have finished the report.","explanation":"Future Perfect: will have + V3।"},
-    {"id":2,"type":"error","sentence":"She will has completed the course.","correct":"She will have completed the course.","options":["She will has completed the course.","She will have completed the course.","She will completed the course.","She has will complete the course."],"answer":"She will have completed the course.","explanation":"'will' के बाद हमेशा 'have', कभी 'has' नहीं।"},
-    {"id":3,"type":"translate","hindi":"अगले साल तक, वह अपनी MBA पूरी कर चुकी होगी।","options":["By next year, she will complete her MBA.","By next year, she will have completed her MBA.","By next year, she has completed her MBA.","By next year, she completed her MBA."],"answer":"By next year, she will have completed her MBA.","explanation":"Future Perfect सही tense है।"},
-    {"id":4,"type":"error","sentence":"By tomorrow I will finished.","correct":"By tomorrow I will have finished.","options":["By tomorrow I will finished.","By tomorrow I will have finished.","By tomorrow I have finished.","By tomorrow I will finish."],"answer":"By tomorrow I will have finished.","explanation":"'have' नहीं छोड़ सकते Future Perfect में।"},
-    {"id":5,"type":"translate","hindi":"5 बजे तक, हम office से निकल चुके होंगे।","options":["By 5 PM, we will leave the office.","By 5 PM, we will have left the office.","By 5 PM, we have left the office.","By 5 PM, we left the office."],"answer":"By 5 PM, we will have left the office.","explanation":"Future Perfect: will have + V3 (left)।"},
-    {"id":6,"type":"fill","hindi":"By Friday, I will _____ finished the report.","options":["has","have","had","having"],"answer":"have","explanation":"'will' के बाद हमेशा base form 'have' आता है।"},
-    {"id":7,"type":"translate","hindi":"मैं तब तक खत्म नहीं कर पाऊँगा।","options":["I won't finish by then.","I won't have finished by then.","I haven't finished by then.","I don't have finished by then."],"answer":"I won't have finished by then.","explanation":"Negative Future Perfect: won't have + V3।"},
-    {"id":8,"type":"translate","hindi":"क्या तुम Friday तक assignment पूरा कर लोगे?","options":["Will you complete the assignment by Friday?","Will you have completed the assignment by Friday?","Do you have completed the assignment by Friday?","Have you completed the assignment by Friday?"],"answer":"Will you have completed the assignment by Friday?","explanation":"Question form: Will + subject + have + V3?"},
-    {"id":9,"type":"translate","hindi":"2030 तक, technology बहुत बदल चुकी होगी।","options":["By 2030, technology will change a lot.","By 2030, technology will have changed a lot.","By 2030, technology has changed a lot.","By 2030, technology changed a lot."],"answer":"By 2030, technology will have changed a lot.","explanation":"Future prediction Future Perfect में।"},
-    {"id":10,"type":"error","sentence":"By tomorrow I will have finish.","correct":"By tomorrow I will have finished.","options":["By tomorrow I will have finish.","By tomorrow I will have finished.","By tomorrow I have finish.","By tomorrow I will finished."],"answer":"By tomorrow I will have finished.","explanation":"V3 form ज़रूरी है, base verb नहीं।"},
-    {"id":11,"type":"translate","hindi":"जब तक तुम यह पढ़ोगे, मैं जा चुका होऊँगा।","options":["By the time you read this, I leave.","By the time you read this, I will have left.","By the time you read this, I have left.","By the time you read this, I left."],"answer":"By the time you read this, I will have left.","explanation":"'By the time' common Future Perfect marker।"},
-    {"id":12,"type":"translate","hindi":"Friday तक, मैं testing phase पूरा कर चुका होऊँगा।","options":["By Friday, I will complete the testing phase.","By Friday, I will have completed the testing phase.","By Friday, I have completed the testing phase.","By Friday, I completed the testing phase."],"answer":"By Friday, I will have completed the testing phase.","explanation":"Office deadline context Future Perfect।"},
-    {"id":13,"type":"translate","hindi":"December तक, मैं अपनी trip के लिए पर्याप्त पैसे बचा चुका होऊँगा।","options":["By December, I will save enough for my trip.","By December, I will have saved enough for my trip.","By December, I have saved enough for my trip.","By December, I saved enough for my trip."],"answer":"By December, I will have saved enough for my trip.","explanation":"Personal finance Future Perfect।"},
-    {"id":14,"type":"fill","hindi":"By Q4, our company will have _____ its revenue target.","options":["reach","reaches","reached","reaching"],"answer":"reached","explanation":"V3 form ज़रूरी है after 'will have'।"},
-    {"id":15,"type":"translate","hindi":"March तक, नए office का निर्माण हो चुका होगा।","options":["By March, the new office will be built.","By March, the new office will have been built.","By March, the new office has been built.","By March, the new office was built."],"answer":"By March, the new office will have been built.","explanation":"Passive Future Perfect: will have been + V3।"},
-    {"id":16,"type":"translate","hindi":"मैं deadline से पहले proposal भेज चुका होऊँगा।","options":["I will send the proposal before the deadline.","I will have sent the proposal before the deadline.","I have sent the proposal before the deadline.","I sent the proposal before the deadline."],"answer":"I will have sent the proposal before the deadline.","explanation":"Future Perfect with 'before'।"},
-    {"id":17,"type":"translate","hindi":"2040 तक, electric vehicles ने petrol cars को बदल दिया होगा।","options":["By 2040, electric vehicles will replace petrol cars.","By 2040, electric vehicles will have replaced petrol cars.","By 2040, electric vehicles have replaced petrol cars.","By 2040, electric vehicles replaced petrol cars."],"answer":"By 2040, electric vehicles will have replaced petrol cars.","explanation":"Future prediction Future Perfect।"},
-    {"id":18,"type":"error","sentence":"Will you completed the report by Friday?","correct":"Will you have completed the report by Friday?","options":["Will you completed the report by Friday?","Will you have completed the report by Friday?","Have you completed the report by Friday?","Do you complete the report by Friday?"],"answer":"Will you have completed the report by Friday?","explanation":"'have' नहीं छोड़ सकते question में भी।"},
-    {"id":19,"type":"translate","hindi":"5 सालों में, मैं senior manager बन चुका होऊँगा।","options":["In 5 years, I will become a senior manager.","In 5 years, I will have become a senior manager.","In 5 years, I have become a senior manager.","In 5 years, I became a senior manager."],"answer":"In 5 years, I will have become a senior manager.","explanation":"Career goal Future Perfect।"},
-    {"id":20,"type":"fill","hindi":"By the time the boss arrives, all the work will have been _____.","options":["done","doing","do","does"],"answer":"done","explanation":"Passive V3 form 'done'।"},
-    {"id":21,"type":"translate","hindi":"Monday तक, developers ने update deploy कर दिया होगा।","options":["By Monday, the developers will deploy the update.","By Monday, the developers will have deployed the update.","By Monday, the developers have deployed the update.","By Monday, the developers deployed the update."],"answer":"By Monday, the developers will have deployed the update.","explanation":"IT/technical Future Perfect context।"},
-    {"id":22,"type":"translate","hindi":"साल के अंत तक, हमने sales target पार कर लिया होगा।","options":["By year-end, we will exceed our sales target.","By year-end, we will have exceeded our sales target.","By year-end, we have exceeded our sales target.","By year-end, we exceeded our sales target."],"answer":"By year-end, we will have exceeded our sales target.","explanation":"Business target Future Perfect।"},
-    {"id":23,"type":"translate","hindi":"60 की उम्र तक, वह retire हो चुका होगा।","options":["By 60, he will retire.","By 60, he will have retired.","By 60, he has retired.","By 60, he retired."],"answer":"By 60, he will have retired.","explanation":"Personal life goal Future Perfect।"},
-    {"id":24,"type":"translate","hindi":"अगले साल तक, हम अपने नए घर में settle हो चुके होंगे।","options":["By next year, we will settle in our new home.","By next year, we will have settled in our new home.","By next year, we have settled in our new home.","By next year, we settled in our new home."],"answer":"By next year, we will have settled in our new home.","explanation":"Personal life event Future Perfect।"},
-    {"id":25,"type":"error","sentence":"By next month we will upgraded our systems.","correct":"By next month we will have upgraded our systems.","options":["By next month we will upgraded our systems.","By next month we will have upgraded our systems.","By next month we have upgraded our systems.","By next month we upgraded our systems."],"answer":"By next month we will have upgraded our systems.","explanation":"'have' missing करने से error बनता है।"},
-    {"id":26,"type":"translate","hindi":"अंततः, मैं अपना goal achieve कर चुका होऊँगा।","options":["Eventually, I will achieve my goal.","Eventually, I will have achieved my goal.","Eventually, I have achieved my goal.","Eventually, I achieved my goal."],"answer":"Eventually, I will have achieved my goal.","explanation":"'Eventually' + Future Perfect।"},
-    {"id":27,"type":"translate","hindi":"By March, हमने funding secure कर लिया होगा।","options":["By March, we will secure funding.","By March, we will have secured funding.","By March, we have secured funding.","By March, we secured funding."],"answer":"By March, we will have secured funding.","explanation":"Business/finance Future Perfect।"},
-    {"id":28,"type":"fill","hindi":"By June, I will have become _____ in Python.","options":["proficient","proficiency","proficiently","proficients"],"answer":"proficient","explanation":"Adjective 'proficient' subject complement है।"},
-    {"id":29,"type":"translate","hindi":"अगले हफ्ते तक, हमने पहला milestone हासिल कर लिया होगा।","options":["By next week, we will reach the first milestone.","By next week, we will have reached the first milestone.","By next week, we have reached the first milestone.","By next week, we reached the first milestone."],"answer":"By next week, we will have reached the first milestone.","explanation":"Project management Future Perfect।"},
-    {"id":30,"type":"translate","hindi":"क्या company ने Q4 तक target पूरा कर लिया होगा?","options":["Will the company reach its target by Q4?","Will the company have reached its target by Q4?","Does the company reach its target by Q4?","Has the company reached its target by Q4?"],"answer":"Will the company have reached its target by Q4?","explanation":"Business question Future Perfect।"}
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।",
+      "options": [
+        "By tomorrow, I will finish the report.",
+        "By tomorrow, I will have finished the report.",
+        "By tomorrow, I have finished the report.",
+        "By tomorrow, I had finished the report."
+      ],
+      "answer": "By tomorrow, I will have finished the report.",
+      "explanation": "Future Perfect: will have + V3।"
+    },
+    {
+      "id": 2,
+      "type": "translate",
+      "hindi": "अगले साल तक, वह MBA पूरी कर चुकी होगी।",
+      "options": [
+        "By next year, she will complete her MBA.",
+        "By next year, she will have completed her MBA.",
+        "By next year, she has completed her MBA.",
+        "By next year, she completed her MBA."
+      ],
+      "answer": "By next year, she will have completed her MBA.",
+      "explanation": "Future Perfect सही tense है।"
+    },
+    {
+      "id": 3,
+      "type": "translate",
+      "hindi": "5 बजे तक, हम office से निकल चुके होंगे।",
+      "options": [
+        "By 5 PM, we will leave the office.",
+        "By 5 PM, we will have left the office.",
+        "By 5 PM, we have left the office.",
+        "By 5 PM, we left the office."
+      ],
+      "answer": "By 5 PM, we will have left the office.",
+      "explanation": "Future Perfect: will have + V3 (left)।"
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "2030 तक, technology बहुत बदल चुकी होगी।",
+      "options": [
+        "By 2030, technology will change a lot.",
+        "By 2030, technology will have changed a lot.",
+        "By 2030, technology has changed a lot.",
+        "By 2030, technology changed a lot."
+      ],
+      "answer": "By 2030, technology will have changed a lot.",
+      "explanation": "Future prediction Future Perfect में।"
+    },
+    {
+      "id": 5,
+      "type": "translate",
+      "hindi": "जब तक तुम यह पढ़ोगे, मैं जा चुका होऊँगा।",
+      "options": [
+        "By the time you read this, I leave.",
+        "By the time you read this, I will have left.",
+        "By the time you read this, I have left.",
+        "By the time you read this, I left."
+      ],
+      "answer": "By the time you read this, I will have left.",
+      "explanation": "'By the time' common Future Perfect marker।"
+    },
+    {
+      "id": 6,
+      "type": "translate",
+      "hindi": "Friday तक, testing phase पूरा हो चुका होगा।",
+      "options": [
+        "By Friday, I will complete the testing phase.",
+        "By Friday, I will have completed the testing phase.",
+        "By Friday, I have completed the testing phase.",
+        "By Friday, I completed the testing phase."
+      ],
+      "answer": "By Friday, I will have completed the testing phase.",
+      "explanation": "Office deadline context Future Perfect।"
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "December तक, trip के लिए पर्याप्त पैसे बचा चुका होऊँगा।",
+      "options": [
+        "By December, I will save enough for my trip.",
+        "By December, I will have saved enough for my trip.",
+        "By December, I have saved enough for my trip.",
+        "By December, I saved enough for my trip."
+      ],
+      "answer": "By December, I will have saved enough for my trip.",
+      "explanation": "Personal finance Future Perfect।"
+    },
+    {
+      "id": 8,
+      "type": "translate",
+      "hindi": "March तक, नए office का निर्माण हो चुका होगा।",
+      "options": [
+        "By March, the new office will be built.",
+        "By March, the new office will have been built.",
+        "By March, the new office has been built.",
+        "By March, the new office was built."
+      ],
+      "answer": "By March, the new office will have been built.",
+      "explanation": "Passive Future Perfect: will have been + V3।"
+    },
+    {
+      "id": 9,
+      "type": "translate",
+      "hindi": "मैं deadline से पहले proposal भेज चुका होऊँगा।",
+      "options": [
+        "I will send the proposal before the deadline.",
+        "I will have sent the proposal before the deadline.",
+        "I have sent the proposal before the deadline.",
+        "I sent the proposal before the deadline."
+      ],
+      "answer": "I will have sent the proposal before the deadline.",
+      "explanation": "Future Perfect with 'before'।"
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "2040 तक, EVs ने petrol cars को replace कर दिया होगा।",
+      "options": [
+        "By 2040, EVs will replace petrol cars.",
+        "By 2040, EVs will have replaced petrol cars.",
+        "By 2040, EVs have replaced petrol cars.",
+        "By 2040, EVs replaced petrol cars."
+      ],
+      "answer": "By 2040, EVs will have replaced petrol cars.",
+      "explanation": "Future prediction Future Perfect।"
+    },
+    {
+      "id": 11,
+      "type": "translate",
+      "hindi": "5 सालों में, senior manager बन चुका होऊँगा।",
+      "options": [
+        "In 5 years, I will become a senior manager.",
+        "In 5 years, I will have become a senior manager.",
+        "In 5 years, I have become a senior manager.",
+        "In 5 years, I became a senior manager."
+      ],
+      "answer": "In 5 years, I will have become a senior manager.",
+      "explanation": "Career goal Future Perfect।"
+    },
+    {
+      "id": 12,
+      "type": "translate",
+      "hindi": "मैं तब तक खत्म नहीं कर पाऊँगा।",
+      "options": [
+        "I won't finish by then.",
+        "I won't have finished by then.",
+        "I haven't finished by then.",
+        "I don't have finished by then."
+      ],
+      "answer": "I won't have finished by then.",
+      "explanation": "Negative Future Perfect: won't have + V3।"
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "क्या तुम Friday तक assignment पूरा कर लोगे?",
+      "options": [
+        "Will you complete the assignment by Friday?",
+        "Will you have completed the assignment by Friday?",
+        "Do you have completed the assignment by Friday?",
+        "Have you completed the assignment by Friday?"
+      ],
+      "answer": "Will you have completed the assignment by Friday?",
+      "explanation": "Question form: Will + subject + have + V3?"
+    },
+    {
+      "id": 14,
+      "type": "translate",
+      "hindi": "साल के अंत तक, sales target पार कर लिया होगा।",
+      "options": [
+        "By year-end, we will exceed our sales target.",
+        "By year-end, we will have exceeded our sales target.",
+        "By year-end, we have exceeded our sales target.",
+        "By year-end, we exceeded our sales target."
+      ],
+      "answer": "By year-end, we will have exceeded our sales target.",
+      "explanation": "Business target Future Perfect।"
+    },
+    {
+      "id": 15,
+      "type": "translate",
+      "hindi": "60 की उम्र तक, वह retire हो चुका होगा।",
+      "options": [
+        "By 60, he will retire.",
+        "By 60, he will have retired.",
+        "By 60, he has retired.",
+        "By 60, he retired."
+      ],
+      "answer": "By 60, he will have retired.",
+      "explanation": "Personal life goal Future Perfect।"
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "अगले साल तक, हम नए घर में settle हो चुके होंगे।",
+      "options": [
+        "By next year, we will settle in our new home.",
+        "By next year, we will have settled in our new home.",
+        "By next year, we have settled in our new home.",
+        "By next year, we settled in our new home."
+      ],
+      "answer": "By next year, we will have settled in our new home.",
+      "explanation": "Personal life event Future Perfect।"
+    },
+    {
+      "id": 17,
+      "type": "translate",
+      "hindi": "अंततः, goal achieve कर चुका होऊँगा।",
+      "options": [
+        "Eventually, I will achieve my goal.",
+        "Eventually, I will have achieved my goal.",
+        "Eventually, I have achieved my goal.",
+        "Eventually, I achieved my goal."
+      ],
+      "answer": "Eventually, I will have achieved my goal.",
+      "explanation": "'Eventually' + Future Perfect।"
+    },
+    {
+      "id": 18,
+      "type": "translate",
+      "hindi": "By March, funding secure कर ली होगी।",
+      "options": [
+        "By March, we will secure funding.",
+        "By March, we will have secured funding.",
+        "By March, we have secured funding.",
+        "By March, we secured funding."
+      ],
+      "answer": "By March, we will have secured funding.",
+      "explanation": "Business/finance Future Perfect।"
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "अगले हफ्ते तक, पहला milestone हासिल कर लिया होगा।",
+      "options": [
+        "By next week, we will reach the first milestone.",
+        "By next week, we will have reached the first milestone.",
+        "By next week, we have reached the first milestone.",
+        "By next week, we reached the first milestone."
+      ],
+      "answer": "By next week, we will have reached the first milestone.",
+      "explanation": "Project management Future Perfect।"
+    },
+    {
+      "id": 20,
+      "type": "translate",
+      "hindi": "क्या company ने Q4 तक target पूरा कर लिया होगा?",
+      "options": [
+        "Will the company reach its target by Q4?",
+        "Will the company have reached its target by Q4?",
+        "Does the company reach its target by Q4?",
+        "Has the company reached its target by Q4?"
+      ],
+      "answer": "Will the company have reached its target by Q4?",
+      "explanation": "Business question Future Perfect।"
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "She will has completed the course.",
+      "correct": "She will have completed the course.",
+      "options": [
+        "She will has completed the course.",
+        "She will have completed the course.",
+        "She will completed the course.",
+        "She has will complete the course."
+      ],
+      "answer": "She will have completed the course.",
+      "explanation": "'will' के बाद हमेशा 'have', कभी 'has' नहीं।"
+    },
+    {
+      "id": 22,
+      "type": "error",
+      "sentence": "By tomorrow I will finished.",
+      "correct": "By tomorrow I will have finished.",
+      "options": [
+        "By tomorrow I will finished.",
+        "By tomorrow I will have finished.",
+        "By tomorrow I have finished.",
+        "By tomorrow I will finish."
+      ],
+      "answer": "By tomorrow I will have finished.",
+      "explanation": "'have' नहीं छोड़ सकते Future Perfect में।"
+    },
+    {
+      "id": 23,
+      "type": "error",
+      "sentence": "By tomorrow I will have finish.",
+      "correct": "By tomorrow I will have finished.",
+      "options": [
+        "By tomorrow I will have finish.",
+        "By tomorrow I will have finished.",
+        "By tomorrow I have finish.",
+        "By tomorrow I will finished."
+      ],
+      "answer": "By tomorrow I will have finished.",
+      "explanation": "V3 form ज़रूरी है, base verb नहीं।"
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "Will you completed the report by Friday?",
+      "correct": "Will you have completed the report by Friday?",
+      "options": [
+        "Will you completed the report by Friday?",
+        "Will you have completed the report by Friday?",
+        "Have you completed the report by Friday?",
+        "Do you complete the report by Friday?"
+      ],
+      "answer": "Will you have completed the report by Friday?",
+      "explanation": "'have' नहीं छोड़ सकते question में भी।"
+    },
+    {
+      "id": 25,
+      "type": "error",
+      "sentence": "By next month we will upgraded our systems.",
+      "correct": "By next month we will have upgraded our systems.",
+      "options": [
+        "By next month we will upgraded our systems.",
+        "By next month we will have upgraded our systems.",
+        "By next month we have upgraded our systems.",
+        "By next month we upgraded our systems."
+      ],
+      "answer": "By next month we will have upgraded our systems.",
+      "explanation": "'have' missing करने से error बनता है।"
+    },
+    {
+      "id": 26,
+      "type": "error",
+      "sentence": "They will have been complete the project.",
+      "correct": "They will have completed the project.",
+      "options": [
+        "They will have been complete the project.",
+        "They will have completed the project.",
+        "They will completed the project.",
+        "They will be completed the project."
+      ],
+      "answer": "They will have completed the project.",
+      "explanation": "Active voice में 'been' नहीं आता, सिर्फ 'have + V3'।"
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "I will have been submitted the report by noon.",
+      "correct": "I will have submitted the report by noon.",
+      "options": [
+        "I will have been submitted the report by noon.",
+        "I will have submitted the report by noon.",
+        "I will submitted the report by noon.",
+        "I have been submitted the report by noon."
+      ],
+      "answer": "I will have submitted the report by noon.",
+      "explanation": "Active future perfect: will have + V3 (no 'been')।"
+    },
+    {
+      "id": 28,
+      "type": "error",
+      "sentence": "We will has finished the design by Friday.",
+      "correct": "We will have finished the design by Friday.",
+      "options": [
+        "We will has finished the design by Friday.",
+        "We will have finished the design by Friday.",
+        "We has finished the design by Friday.",
+        "We will finish the design by Friday."
+      ],
+      "answer": "We will have finished the design by Friday.",
+      "explanation": "'will' के बाद 'have', कभी 'has' नहीं।"
+    },
+    {
+      "id": 29,
+      "type": "error",
+      "sentence": "By the time she arrives, he will left.",
+      "correct": "By the time she arrives, he will have left.",
+      "options": [
+        "By the time she arrives, he will left.",
+        "By the time she arrives, he will have left.",
+        "By the time she arrives, he has left.",
+        "By the time she arrives, he left."
+      ],
+      "answer": "By the time she arrives, he will have left.",
+      "explanation": "Future Perfect ज़रूरी है: will have + V3।"
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "The project will have been complete by Monday.",
+      "correct": "The project will have been completed by Monday.",
+      "options": [
+        "The project will have been complete by Monday.",
+        "The project will have been completed by Monday.",
+        "The project will be completed by Monday.",
+        "The project has been completed by Monday."
+      ],
+      "answer": "The project will have been completed by Monday.",
+      "explanation": "Passive Future Perfect: will have been + V3।"
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "hindi": "By Friday, I will _____ finished the report.",
+      "options": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
+      "answer": "have",
+      "explanation": "'will' के बाद हमेशा base form 'have' आता है।"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "hindi": "By Q4, our company will have _____ its revenue target.",
+      "options": [
+        "reach",
+        "reaches",
+        "reached",
+        "reaching"
+      ],
+      "answer": "reached",
+      "explanation": "V3 form ज़रूरी है after 'will have'।"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "hindi": "By the time the boss arrives, all the work will have been _____.",
+      "options": [
+        "done",
+        "doing",
+        "do",
+        "does"
+      ],
+      "answer": "done",
+      "explanation": "Passive V3 form 'done'।"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "hindi": "By June, I will have become _____ in Python.",
+      "options": [
+        "proficient",
+        "proficiency",
+        "proficiently",
+        "proficients"
+      ],
+      "answer": "proficient",
+      "explanation": "Adjective 'proficient' subject complement है।"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "hindi": "She _____ have completed the MBA by next year.",
+      "options": [
+        "will",
+        "shall",
+        "would",
+        "can"
+      ],
+      "answer": "will",
+      "explanation": "Future Perfect में 'will' modal verb है।"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "hindi": "By 2030, renewable energy _____ have become mainstream.",
+      "options": [
+        "will",
+        "would",
+        "should",
+        "must"
+      ],
+      "answer": "will",
+      "explanation": "Future prediction: 'will have + V3'।"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "hindi": "By the meeting, we will have _____ all the documents.",
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ],
+      "answer": "reviewed",
+      "explanation": "V3 form 'reviewed' after 'will have'।"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "hindi": "By Monday, the team will have _____ the update.",
+      "options": [
+        "deploy",
+        "deploys",
+        "deployed",
+        "deploying"
+      ],
+      "answer": "deployed",
+      "explanation": "V3 form 'deployed' required।"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "hindi": "By year-end, we _____ have exceeded our target.",
+      "options": [
+        "will",
+        "might",
+        "should",
+        "can"
+      ],
+      "answer": "will",
+      "explanation": "Future Perfect certainty: 'will'।"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "hindi": "By March, the contract _____ have been signed.",
+      "options": [
+        "will",
+        "would",
+        "could",
+        "should"
+      ],
+      "answer": "will",
+      "explanation": "Future Perfect: 'will have been + V3'।"
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "hindi": "By next week, she will have _____ to a new city.",
+      "options": [
+        "move",
+        "moves",
+        "moved",
+        "moving"
+      ],
+      "answer": "moved",
+      "explanation": "V3 'moved' after 'will have'।"
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "hindi": "Will you _____ completed the task by tomorrow?",
+      "options": [
+        "have",
+        "has",
+        "had",
+        "be"
+      ],
+      "answer": "have",
+      "explanation": "Question: Will + subject + have + V3?"
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "hindi": "By the deadline, all forms will have been _____.",
+      "options": [
+        "submit",
+        "submits",
+        "submitted",
+        "submitting"
+      ],
+      "answer": "submitted",
+      "explanation": "Passive V3: 'submitted'।"
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "hindi": "By 2050, scientists _____ have found a cure.",
+      "options": [
+        "will",
+        "should",
+        "might",
+        "would"
+      ],
+      "answer": "will",
+      "explanation": "Confident future prediction: 'will'।"
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "hindi": "By next year, I will have _____ my certification.",
+      "options": [
+        "earn",
+        "earns",
+        "earning",
+        "earned"
+      ],
+      "answer": "earned",
+      "explanation": "V3 'earned' after 'will have'।"
+    },
+    {
+      "id": 46,
+      "type": "translate",
+      "hindi": "अगले महीने तक, हमने नई policy लागू कर दी होगी।",
+      "options": [
+        "By next month, we will implement the new policy.",
+        "By next month, we will have implemented the new policy.",
+        "By next month, we have implemented the new policy.",
+        "By next month, we implemented the new policy."
+      ],
+      "answer": "By next month, we will have implemented the new policy.",
+      "explanation": "Future Perfect with 'by next month'।"
+    },
+    {
+      "id": 47,
+      "type": "translate",
+      "hindi": "Monday तक, developers ने update deploy कर दिया होगा।",
+      "options": [
+        "By Monday, the developers will deploy the update.",
+        "By Monday, the developers will have deployed the update.",
+        "By Monday, the developers have deployed the update.",
+        "By Monday, the developers deployed the update."
+      ],
+      "answer": "By Monday, the developers will have deployed the update.",
+      "explanation": "IT/technical Future Perfect context।"
+    },
+    {
+      "id": 48,
+      "type": "translate",
+      "hindi": "2028 तक, हमने benchmark set कर दिया होगा।",
+      "options": [
+        "By 2028, we will set a new benchmark.",
+        "By 2028, we will have set a new industry benchmark.",
+        "By 2028, we have set a new benchmark.",
+        "By 2028, we set a new benchmark."
+      ],
+      "answer": "By 2028, we will have set a new industry benchmark.",
+      "explanation": "Business context Future Perfect।"
+    },
+    {
+      "id": 49,
+      "type": "translate",
+      "hindi": "अगले साल तक, revenue double हो चुकी होगी।",
+      "options": [
+        "By next year, revenue will double.",
+        "By next year, revenue will have doubled.",
+        "By next year, revenue has doubled.",
+        "By next year, revenue doubled."
+      ],
+      "answer": "By next year, revenue will have doubled.",
+      "explanation": "Business growth Future Perfect।"
+    },
+    {
+      "id": 50,
+      "type": "translate",
+      "hindi": "By June, हमने product launch कर दिया होगा।",
+      "options": [
+        "By June, we will launch the new product.",
+        "By June, we will have launched the new product.",
+        "By June, we have launched the new product.",
+        "By June, we launched the new product."
+      ],
+      "answer": "By June, we will have launched the new product.",
+      "explanation": "Product/business context Future Perfect।"
+    },
+    {
+      "id": 51,
+      "type": "translate",
+      "hindi": "क्या तुमने Friday तक report भेज दी होगी?",
+      "options": [
+        "Will you send the report by Friday?",
+        "Will you have sent the report by Friday?",
+        "Do you send the report by Friday?",
+        "Have you sent the report by Friday?"
+      ],
+      "answer": "Will you have sent the report by Friday?",
+      "explanation": "Future Perfect question form।"
+    },
+    {
+      "id": 52,
+      "type": "translate",
+      "hindi": "जब boss आएगा, सब काम हो चुका होगा।",
+      "options": [
+        "When the boss comes, all work will be done.",
+        "By the time the boss arrives, all the work will have been done.",
+        "When the boss came, all work was done.",
+        "When the boss comes, all work has been done."
+      ],
+      "answer": "By the time the boss arrives, all the work will have been done.",
+      "explanation": "Passive Future Perfect with 'by the time'।"
+    },
+    {
+      "id": 53,
+      "type": "translate",
+      "hindi": "Day 75 तक, English में mastery हासिल कर ली होगी।",
+      "options": [
+        "By Day 75, you will master English.",
+        "By Day 75, you will have mastered English.",
+        "By Day 75, you have mastered English.",
+        "By Day 75, you mastered English."
+      ],
+      "answer": "By Day 75, you will have mastered English.",
+      "explanation": "Motivational Future Perfect example।"
+    },
+    {
+      "id": 54,
+      "type": "translate",
+      "hindi": "2030 तक, 10 देशों में विस्तार कर लिया होगा।",
+      "options": [
+        "By 2030, we will expand to 10 countries.",
+        "By 2030, we will have expanded to 10 countries.",
+        "By 2030, we have expanded to 10 countries.",
+        "By 2030, we expanded to 10 countries."
+      ],
+      "answer": "By 2030, we will have expanded to 10 countries.",
+      "explanation": "Business growth Future Perfect।"
+    },
+    {
+      "id": 55,
+      "type": "translate",
+      "hindi": "शाम तक, negotiations conclude हो चुकी होंगी।",
+      "options": [
+        "By evening, we will conclude the negotiations.",
+        "By evening, we will have concluded the negotiations.",
+        "By evening, we have concluded the negotiations.",
+        "By evening, we concluded the negotiations."
+      ],
+      "answer": "By evening, we will have concluded the negotiations.",
+      "explanation": "Formal business context।"
+    },
+    {
+      "id": 56,
+      "type": "translate",
+      "hindi": "वह Friday तक assignment submit नहीं कर पाएगी।",
+      "options": [
+        "She won't submit the assignment by Friday.",
+        "She won't have submitted the assignment by Friday.",
+        "She hasn't submitted the assignment by Friday.",
+        "She didn't submit the assignment by Friday."
+      ],
+      "answer": "She won't have submitted the assignment by Friday.",
+      "explanation": "Negative Future Perfect।"
+    },
+    {
+      "id": 57,
+      "type": "translate",
+      "hindi": "Q4 तक, company ने revenue target पूरा कर लिया होगा।",
+      "options": [
+        "By Q4, the company will reach its revenue target.",
+        "By Q4, the company will have reached its revenue target.",
+        "By Q4, the company has reached its revenue target.",
+        "By Q4, the company reached its revenue target."
+      ],
+      "answer": "By Q4, the company will have reached its revenue target.",
+      "explanation": "Business target Future Perfect।"
+    },
+    {
+      "id": 58,
+      "type": "translate",
+      "hindi": "June तक, course पूरा कर चुका होऊँगा।",
+      "options": [
+        "By June, I will complete the course.",
+        "By June, I will have completed the course.",
+        "By June, I have completed the course.",
+        "By June, I completed the course."
+      ],
+      "answer": "By June, I will have completed the course.",
+      "explanation": "Education goal Future Perfect।"
+    },
+    {
+      "id": 59,
+      "type": "translate",
+      "hindi": "अगले हफ्ते तक, वे नए घर में shift हो चुके होंगे।",
+      "options": [
+        "By next week, they will move to a new house.",
+        "By next week, they will have moved to a new house.",
+        "By next week, they have moved to a new house.",
+        "By next week, they moved to a new house."
+      ],
+      "answer": "By next week, they will have moved to a new house.",
+      "explanation": "Personal life event Future Perfect।"
+    },
+    {
+      "id": 60,
+      "type": "error",
+      "sentence": "By end of year, they will have finish the report.",
+      "correct": "By end of year, they will have finished the report.",
+      "options": [
+        "By end of year, they will have finish the report.",
+        "By end of year, they will have finished the report.",
+        "By end of year, they has finished the report.",
+        "By end of year, they will finish the report."
+      ],
+      "answer": "By end of year, they will have finished the report.",
+      "explanation": "V3 'finished' ज़रूरी है।"
+    },
+    {
+      "id": 61,
+      "type": "error",
+      "sentence": "She will have be promoted by next month.",
+      "correct": "She will have been promoted by next month.",
+      "options": [
+        "She will have be promoted by next month.",
+        "She will have been promoted by next month.",
+        "She will be promoted by next month.",
+        "She has been promoted by next month."
+      ],
+      "answer": "She will have been promoted by next month.",
+      "explanation": "Passive Future Perfect: will have been + V3।"
+    },
+    {
+      "id": 62,
+      "type": "error",
+      "sentence": "Will he has submitted the report by Friday?",
+      "correct": "Will he have submitted the report by Friday?",
+      "options": [
+        "Will he has submitted the report by Friday?",
+        "Will he have submitted the report by Friday?",
+        "Has he submitted the report by Friday?",
+        "Did he submit the report by Friday?"
+      ],
+      "answer": "Will he have submitted the report by Friday?",
+      "explanation": "'will' के बाद 'have', 'has' नहीं।"
+    },
+    {
+      "id": 63,
+      "type": "error",
+      "sentence": "I will have been complete the assignment by noon.",
+      "correct": "I will have completed the assignment by noon.",
+      "options": [
+        "I will have been complete the assignment by noon.",
+        "I will have completed the assignment by noon.",
+        "I will have been completed by noon.",
+        "I completed the assignment by noon."
+      ],
+      "answer": "I will have completed the assignment by noon.",
+      "explanation": "Active Future Perfect में 'been' नहीं।"
+    },
+    {
+      "id": 64,
+      "type": "error",
+      "sentence": "By tomorrow, we will have discuss the proposal.",
+      "correct": "By tomorrow, we will have discussed the proposal.",
+      "options": [
+        "By tomorrow, we will have discuss the proposal.",
+        "By tomorrow, we will have discussed the proposal.",
+        "By tomorrow, we discussed the proposal.",
+        "By tomorrow, we have discussed the proposal."
+      ],
+      "answer": "By tomorrow, we will have discussed the proposal.",
+      "explanation": "V3 'discussed' ज़रूरी है।"
+    },
+    {
+      "id": 65,
+      "type": "error",
+      "sentence": "The new policy will has been implemented by Q4.",
+      "correct": "The new policy will have been implemented by Q4.",
+      "options": [
+        "The new policy will has been implemented by Q4.",
+        "The new policy will have been implemented by Q4.",
+        "The new policy has been implemented by Q4.",
+        "The new policy will be implemented by Q4."
+      ],
+      "answer": "The new policy will have been implemented by Q4.",
+      "explanation": "'will' के बाद 'have', 'has' नहीं।"
+    },
+    {
+      "id": 66,
+      "type": "error",
+      "sentence": "By 2030, they will have be expanded globally.",
+      "correct": "By 2030, they will have expanded globally.",
+      "options": [
+        "By 2030, they will have be expanded globally.",
+        "By 2030, they will have expanded globally.",
+        "By 2030, they will be expanded globally.",
+        "By 2030, they have expanded globally."
+      ],
+      "answer": "By 2030, they will have expanded globally.",
+      "explanation": "Active Future Perfect: will have + V3, no 'be'।"
+    },
+    {
+      "id": 67,
+      "type": "error",
+      "sentence": "Won't she have finish the course by December?",
+      "correct": "Won't she have finished the course by December?",
+      "options": [
+        "Won't she have finish the course by December?",
+        "Won't she have finished the course by December?",
+        "Won't she finished the course by December?",
+        "Hasn't she finished the course by December?"
+      ],
+      "answer": "Won't she have finished the course by December?",
+      "explanation": "V3 'finished' ज़रूरी है।"
+    },
+    {
+      "id": 68,
+      "type": "error",
+      "sentence": "By Monday, the manager will has approved the plan.",
+      "correct": "By Monday, the manager will have approved the plan.",
+      "options": [
+        "By Monday, the manager will has approved the plan.",
+        "By Monday, the manager will have approved the plan.",
+        "By Monday, the manager approved the plan.",
+        "By Monday, the manager has approved the plan."
+      ],
+      "answer": "By Monday, the manager will have approved the plan.",
+      "explanation": "'will have', not 'will has'।"
+    },
+    {
+      "id": 69,
+      "type": "error",
+      "sentence": "They will have been achieve the target.",
+      "correct": "They will have achieved the target.",
+      "options": [
+        "They will have been achieve the target.",
+        "They will have achieved the target.",
+        "They will achieve the target.",
+        "They have achieved the target."
+      ],
+      "answer": "They will have achieved the target.",
+      "explanation": "Active Future Perfect: will have + V3।"
+    },
+    {
+      "id": 70,
+      "type": "fill",
+      "hindi": "By the time she _____ (arrive), we will have finished cooking.",
+      "options": [
+        "arrive",
+        "arrives",
+        "arrived",
+        "arriving"
+      ],
+      "answer": "arrives",
+      "explanation": "'By the time' clause में simple present (arrives) ।"
+    },
+    {
+      "id": 71,
+      "type": "fill",
+      "hindi": "By this time next year, I will have _____ my PhD.",
+      "options": [
+        "complete",
+        "completes",
+        "completing",
+        "completed"
+      ],
+      "answer": "completed",
+      "explanation": "V3 'completed' after will have।"
+    },
+    {
+      "id": 72,
+      "type": "fill",
+      "hindi": "Will they _____ finished the project by tomorrow?",
+      "options": [
+        "have",
+        "has",
+        "had",
+        "be"
+      ],
+      "answer": "have",
+      "explanation": "Will + subject + have + V3 — question form।"
+    },
+    {
+      "id": 73,
+      "type": "fill",
+      "hindi": "By 2040, automation will _____ transformed most industries.",
+      "options": [
+        "have",
+        "has",
+        "had",
+        "be"
+      ],
+      "answer": "have",
+      "explanation": "Future Perfect: will have + V3।"
+    },
+    {
+      "id": 74,
+      "type": "fill",
+      "hindi": "By the deadline, the team will have _____ the design.",
+      "options": [
+        "finalize",
+        "finalizes",
+        "finalizing",
+        "finalized"
+      ],
+      "answer": "finalized",
+      "explanation": "V3 'finalized' after 'will have'।"
+    },
+    {
+      "id": 75,
+      "type": "fill",
+      "hindi": "She _____ have graduated by next June.",
+      "options": [
+        "will",
+        "would",
+        "could",
+        "should"
+      ],
+      "answer": "will",
+      "explanation": "Confident future: 'will have'।"
+    },
+    {
+      "id": 76,
+      "type": "fill",
+      "hindi": "By Q4, we will have _____ our revenue target.",
+      "options": [
+        "exceed",
+        "exceeds",
+        "exceeded",
+        "exceeding"
+      ],
+      "answer": "exceeded",
+      "explanation": "V3 'exceeded' after will have।"
+    },
+    {
+      "id": 77,
+      "type": "fill",
+      "hindi": "By next month, the bugs will have been _____ by the dev team.",
+      "options": [
+        "fix",
+        "fixes",
+        "fixing",
+        "fixed"
+      ],
+      "answer": "fixed",
+      "explanation": "Passive Future Perfect: will have been + V3。"
+    },
+    {
+      "id": 78,
+      "type": "fill",
+      "hindi": "By next year, I will have _____ enough money for a house.",
+      "options": [
+        "save",
+        "saves",
+        "saving",
+        "saved"
+      ],
+      "answer": "saved",
+      "explanation": "V3 'saved' after 'will have'।"
+    },
+    {
+      "id": 79,
+      "type": "fill",
+      "hindi": "By the time the guests _____ (arrive), dinner will have been prepared.",
+      "options": [
+        "arrive",
+        "arrives",
+        "arrived",
+        "will arrive"
+      ],
+      "answer": "arrive",
+      "explanation": "'by the time' के साथ present tense (arrive)।"
+    },
+    {
+      "id": 80,
+      "type": "fill",
+      "hindi": "By 2027, the company will have _____ 50 new branches.",
+      "options": [
+        "open",
+        "opens",
+        "opening",
+        "opened"
+      ],
+      "answer": "opened",
+      "explanation": "V3 'opened' after will have।"
+    },
+    {
+      "id": 81,
+      "type": "fill",
+      "hindi": "He _____ have submitted the assignment before class.",
+      "options": [
+        "will",
+        "would",
+        "must",
+        "should"
+      ],
+      "answer": "will",
+      "explanation": "Future Perfect with certainty: 'will'।"
+    },
+    {
+      "id": 82,
+      "type": "fill",
+      "hindi": "By 2035, scientists will have _____ new treatments for cancer.",
+      "options": [
+        "develop",
+        "develops",
+        "developing",
+        "developed"
+      ],
+      "answer": "developed",
+      "explanation": "V3 'developed' after will have।"
+    },
+    {
+      "id": 83,
+      "type": "fill",
+      "hindi": "By the audit date, all records will have been _____ properly.",
+      "options": [
+        "document",
+        "documents",
+        "documenting",
+        "documented"
+      ],
+      "answer": "documented",
+      "explanation": "Passive Future Perfect V3।"
+    },
+    {
+      "id": 84,
+      "type": "fill",
+      "hindi": "By end of sprint, the team will have _____ all user stories.",
+      "options": [
+        "implement",
+        "implements",
+        "implementing",
+        "implemented"
+      ],
+      "answer": "implemented",
+      "explanation": "V3 'implemented' required।"
+    },
+    {
+      "id": 85,
+      "type": "mcq",
+      "question": "'Will have + V3' is used to talk about:",
+      "options": [
+        "An action happening now",
+        "An action completed before a future point",
+        "An action that happened in the past",
+        "A general truth"
+      ],
+      "answer": "An action completed before a future point",
+      "explanation": "Future Perfect expresses completion before a specific future time."
+    },
+    {
+      "id": 86,
+      "type": "mcq",
+      "question": "Which sentence is in Future Perfect tense?",
+      "options": [
+        "She has finished the report.",
+        "She will finish the report.",
+        "She will have finished the report.",
+        "She finished the report."
+      ],
+      "answer": "She will have finished the report.",
+      "explanation": "will have + V3 = Future Perfect।"
+    },
+    {
+      "id": 87,
+      "type": "mcq",
+      "question": "The negative form of Future Perfect is:",
+      "options": [
+        "will not have + V3",
+        "will not + V3",
+        "have not + V3",
+        "did not have + V3"
+      ],
+      "answer": "will not have + V3",
+      "explanation": "Negative Future Perfect: won't have / will not have + V3।"
+    },
+    {
+      "id": 88,
+      "type": "mcq",
+      "question": "Which time expression is most commonly used with Future Perfect?",
+      "options": [
+        "Yesterday",
+        "By tomorrow",
+        "Last year",
+        "Right now"
+      ],
+      "answer": "By tomorrow",
+      "explanation": "'By + future time' is the hallmark of Future Perfect।"
+    },
+    {
+      "id": 89,
+      "type": "mcq",
+      "question": "Choose the correct sentence:",
+      "options": [
+        "I will have been submitted the report.",
+        "I will have submitted the report.",
+        "I will submitted the report.",
+        "I will be submitted the report."
+      ],
+      "answer": "I will have submitted the report.",
+      "explanation": "Active Future Perfect: will have + V3।"
+    },
+    {
+      "id": 90,
+      "type": "mcq",
+      "question": "Which sentence uses Passive Future Perfect correctly?",
+      "options": [
+        "The report will have submitted.",
+        "The report will be submitted.",
+        "The report will have been submitted.",
+        "The report will have been submitting."
+      ],
+      "answer": "The report will have been submitted.",
+      "explanation": "Passive Future Perfect: will have been + V3।"
+    },
+    {
+      "id": 91,
+      "type": "mcq",
+      "question": "'By the time you arrive, I _____ the dinner.' — Choose the correct form.",
+      "options": [
+        "will cook",
+        "will have cooked",
+        "cooked",
+        "have cooked"
+      ],
+      "answer": "will have cooked",
+      "explanation": "'By the time' triggers Future Perfect।"
+    },
+    {
+      "id": 92,
+      "type": "mcq",
+      "question": "In which sentence is Future Perfect used correctly?",
+      "options": [
+        "She will has finished by noon.",
+        "She will finished by noon.",
+        "She will have finished by noon.",
+        "She has will finish by noon."
+      ],
+      "answer": "She will have finished by noon.",
+      "explanation": "Correct form: will have + V3।"
+    },
+    {
+      "id": 93,
+      "type": "mcq",
+      "question": "'Will you have completed the task by Monday?' is an example of:",
+      "options": [
+        "Present Perfect question",
+        "Future Perfect question",
+        "Simple Future question",
+        "Past Perfect question"
+      ],
+      "answer": "Future Perfect question",
+      "explanation": "Will + subject + have + V3? = Future Perfect question।"
+    },
+    {
+      "id": 94,
+      "type": "mcq",
+      "question": "Which sentence correctly expresses a future plan?",
+      "options": [
+        "By 2030, AI replaced humans.",
+        "By 2030, AI will replace humans.",
+        "By 2030, AI will have replaced many jobs.",
+        "By 2030, AI has replaced humans."
+      ],
+      "answer": "By 2030, AI will have replaced many jobs.",
+      "explanation": "Future Perfect expresses expected completion by a future time।"
+    },
+    {
+      "id": 95,
+      "type": "mcq",
+      "question": "'She won't have finished' uses which structure?",
+      "options": [
+        "Simple Future Negative",
+        "Future Perfect Negative",
+        "Present Perfect Negative",
+        "Past Perfect Negative"
+      ],
+      "answer": "Future Perfect Negative",
+      "explanation": "won't have + V3 = Future Perfect Negative।"
+    },
+    {
+      "id": 96,
+      "type": "mcq",
+      "question": "'By' in Future Perfect sentences indicates:",
+      "options": [
+        "The start of an action",
+        "A deadline or completion point",
+        "A reason",
+        "A contrast"
+      ],
+      "answer": "A deadline or completion point",
+      "explanation": "'By' marks the future reference point for Future Perfect।"
+    },
+    {
+      "id": 97,
+      "type": "mcq",
+      "question": "Choose the correct passive sentence:",
+      "options": [
+        "The work will be done have.",
+        "The work will have done.",
+        "The work will have been done.",
+        "The work will been done."
+      ],
+      "answer": "The work will have been done.",
+      "explanation": "Passive Future Perfect: will have been + V3।"
+    },
+    {
+      "id": 98,
+      "type": "mcq",
+      "question": "'I will have been working here for 10 years by 2030.' is an example of:",
+      "options": [
+        "Future Perfect Simple",
+        "Future Perfect Continuous",
+        "Future Simple",
+        "Present Perfect Continuous"
+      ],
+      "answer": "Future Perfect Continuous",
+      "explanation": "will have been + -ing = Future Perfect Continuous।"
+    },
+    {
+      "id": 99,
+      "type": "mcq",
+      "question": "What does 'by then' indicate in Future Perfect?",
+      "options": [
+        "Duration of action",
+        "A specific future reference point",
+        "Reason for action",
+        "Frequency"
+      ],
+      "answer": "A specific future reference point",
+      "explanation": "'By then' means before/at that future time।"
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "question": "Which is the correct question form?",
+      "options": [
+        "Has she completed the work by Monday?",
+        "Will she completed the work by Monday?",
+        "Will she have completed the work by Monday?",
+        "She will have completed the work by Monday?"
+      ],
+      "answer": "Will she have completed the work by Monday?",
+      "explanation": "Will + subject + have + V3 = correct question form।"
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "question": "'Before the meeting starts, she will have prepared the slides.' — The time expression here is:",
+      "options": [
+        "By the time",
+        "Before",
+        "In",
+        "Eventually"
+      ],
+      "answer": "Before",
+      "explanation": "'Before' is also a valid Future Perfect time marker।"
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "question": "Which pair shows correct Future Perfect forms?",
+      "options": [
+        "will have go / will have went",
+        "will have gone / will have gone",
+        "will go have / will have going",
+        "go will have / have will gone"
+      ],
+      "answer": "will have gone / will have gone",
+      "explanation": "will have + V3 (gone) = correct。"
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "question": "What is the V3 of 'submit'?",
+      "options": [
+        "submiting",
+        "submited",
+        "submitted",
+        "submit"
+      ],
+      "answer": "submitted",
+      "explanation": "V3 of submit = submitted।"
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "question": "Complete: 'By the time you get home, I _____ (cook) dinner.'",
+      "options": [
+        "will cook",
+        "will have cooked",
+        "cooked",
+        "have cooked"
+      ],
+      "answer": "will have cooked",
+      "explanation": "Future Perfect: will have + cooked।"
+    },
+    {
+      "id": 105,
+      "type": "fill",
+      "hindi": "By Thursday, the designer will have _____ the mockup.",
+      "options": [
+        "create",
+        "creates",
+        "creating",
+        "created"
+      ],
+      "answer": "created",
+      "explanation": "V3 'created'."
+    },
+    {
+      "id": 106,
+      "type": "fill",
+      "hindi": "The budget will have been _____ by the CFO before the AGM.",
+      "options": [
+        "approve",
+        "approves",
+        "approving",
+        "approved"
+      ],
+      "answer": "approved",
+      "explanation": "Passive V3 'approved'."
+    },
+    {
+      "id": 107,
+      "type": "fill",
+      "hindi": "By Q2, the startup will have _____ seed funding.",
+      "options": [
+        "raise",
+        "raises",
+        "raising",
+        "raised"
+      ],
+      "answer": "raised",
+      "explanation": "V3 'raised'."
+    },
+    {
+      "id": 108,
+      "type": "fill",
+      "hindi": "By next year, the app will have _____ 1 million users.",
+      "options": [
+        "attract",
+        "attracts",
+        "attracting",
+        "attracted"
+      ],
+      "answer": "attracted",
+      "explanation": "V3 'attracted'."
+    },
+    {
+      "id": 109,
+      "type": "fill",
+      "hindi": "She will have _____ the project before the deadline.",
+      "options": [
+        "complete",
+        "completes",
+        "completing",
+        "completed"
+      ],
+      "answer": "completed",
+      "explanation": "V3 'completed'."
+    },
+    {
+      "id": 110,
+      "type": "fill",
+      "hindi": "By year-end, we will have _____ all client contracts.",
+      "options": [
+        "renew",
+        "renews",
+        "renewing",
+        "renewed"
+      ],
+      "answer": "renewed",
+      "explanation": "V3 'renewed'."
+    },
+    {
+      "id": 111,
+      "type": "fill",
+      "hindi": "By next Monday, they will have _____ the server.",
+      "options": [
+        "migrate",
+        "migrates",
+        "migrating",
+        "migrated"
+      ],
+      "answer": "migrated",
+      "explanation": "V3 'migrated'."
+    },
+    {
+      "id": 112,
+      "type": "fill",
+      "hindi": "By the launch date, the team will have _____ three rounds of testing.",
+      "options": [
+        "conduct",
+        "conducts",
+        "conducting",
+        "conducted"
+      ],
+      "answer": "conducted",
+      "explanation": "V3 'conducted'."
+    },
+    {
+      "id": 113,
+      "type": "fill",
+      "hindi": "By December, I will have _____ 12 new clients.",
+      "options": [
+        "onboard",
+        "onboards",
+        "onboarding",
+        "onboarded"
+      ],
+      "answer": "onboarded",
+      "explanation": "V3 'onboarded'."
+    },
+    {
+      "id": 114,
+      "type": "fill",
+      "hindi": "By next semester, she will have _____ her thesis.",
+      "options": [
+        "submit",
+        "submits",
+        "submitting",
+        "submitted"
+      ],
+      "answer": "submitted",
+      "explanation": "V3 'submitted'."
+    },
+    {
+      "id": 115,
+      "type": "fill",
+      "hindi": "By Q4, we will have _____ all pending audits.",
+      "options": [
+        "clear",
+        "clears",
+        "clearing",
+        "cleared"
+      ],
+      "answer": "cleared",
+      "explanation": "V3 'cleared'."
+    },
+    {
+      "id": 116,
+      "type": "fill",
+      "hindi": "By the time we meet, I will have _____ a draft plan.",
+      "options": [
+        "prepare",
+        "prepares",
+        "preparing",
+        "prepared"
+      ],
+      "answer": "prepared",
+      "explanation": "V3 'prepared'."
+    },
+    {
+      "id": 117,
+      "type": "fill",
+      "hindi": "By this time tomorrow, the team will have _____ a decision.",
+      "options": [
+        "make",
+        "makes",
+        "making",
+        "made"
+      ],
+      "answer": "made",
+      "explanation": "V3 'made' (irregular)."
+    },
+    {
+      "id": 118,
+      "type": "fill",
+      "hindi": "By Friday, the product team will have _____ user feedback.",
+      "options": [
+        "analyze",
+        "analyzes",
+        "analyzing",
+        "analyzed"
+      ],
+      "answer": "analyzed",
+      "explanation": "V3 'analyzed'."
+    },
+    {
+      "id": 119,
+      "type": "fill",
+      "hindi": "By 2026, electric vehicles will have _____ the mainstream market.",
+      "options": [
+        "enter",
+        "enters",
+        "entering",
+        "entered"
+      ],
+      "answer": "entered",
+      "explanation": "V3 'entered'."
+    },
+    {
+      "id": 120,
+      "type": "fill",
+      "hindi": "By the time the CEO arrives, I will have _____ the report.",
+      "options": [
+        "print",
+        "prints",
+        "printing",
+        "printed"
+      ],
+      "answer": "printed",
+      "explanation": "V3 'printed'."
+    },
+    {
+      "id": 121,
+      "type": "fill",
+      "hindi": "By month-end, the accountant will have _____ all transactions.",
+      "options": [
+        "reconcile",
+        "reconciles",
+        "reconciling",
+        "reconciled"
+      ],
+      "answer": "reconciled",
+      "explanation": "V3 'reconciled'."
+    },
+    {
+      "id": 122,
+      "type": "fill",
+      "hindi": "By next year, I will have _____ three international conferences.",
+      "options": [
+        "attend",
+        "attends",
+        "attending",
+        "attended"
+      ],
+      "answer": "attended",
+      "explanation": "V3 'attended'."
+    },
+    {
+      "id": 123,
+      "type": "fill",
+      "hindi": "By Q3, the company will have _____ a new CTO.",
+      "options": [
+        "hire",
+        "hires",
+        "hiring",
+        "hired"
+      ],
+      "answer": "hired",
+      "explanation": "V3 'hired'."
+    },
+    {
+      "id": 124,
+      "type": "fill",
+      "hindi": "By the time you call back, I will have _____ the issue.",
+      "options": [
+        "resolve",
+        "resolves",
+        "resolving",
+        "resolved"
+      ],
+      "answer": "resolved",
+      "explanation": "V3 'resolved'."
+    },
+    {
+      "id": 125,
+      "type": "translate",
+      "hindi": "Thursday तक, QA team ने application test कर ली होगी।",
+      "options": [
+        "By Thursday, QA will test the application.",
+        "By Thursday, the QA team will have tested the application.",
+        "By Thursday, QA has tested the application.",
+        "By Thursday, QA tested the application."
+      ],
+      "answer": "By Thursday, the QA team will have tested the application.",
+      "explanation": "Future Perfect with specific day।"
+    },
+    {
+      "id": 126,
+      "type": "translate",
+      "hindi": "कल शाम तक, HR ने offer letter भेज दिया होगा।",
+      "options": [
+        "By tomorrow evening, HR will send the offer letter.",
+        "By tomorrow evening, HR will have sent the offer letter.",
+        "By tomorrow evening, HR has sent the offer letter.",
+        "By tomorrow evening, HR sent the offer letter."
+      ],
+      "answer": "By tomorrow evening, HR will have sent the offer letter.",
+      "explanation": "Office Future Perfect।"
+    },
+    {
+      "id": 127,
+      "type": "translate",
+      "hindi": "अगले महीने तक, app का beta version launch हो चुका होगा।",
+      "options": [
+        "By next month, the beta will launch.",
+        "By next month, the beta version of the app will have been launched.",
+        "By next month, the beta was launched.",
+        "By next month, the beta has been launched."
+      ],
+      "answer": "By next month, the beta version of the app will have been launched.",
+      "explanation": "Passive Future Perfect।"
+    },
+    {
+      "id": 128,
+      "type": "translate",
+      "hindi": "साल के अंत तक, मैंने 20 किताबें पढ़ ली होंगी।",
+      "options": [
+        "By the end of the year, I will read 20 books.",
+        "By the end of the year, I will have read 20 books.",
+        "By the end of the year, I have read 20 books.",
+        "By the end of the year, I read 20 books."
+      ],
+      "answer": "By the end of the year, I will have read 20 books.",
+      "explanation": "Personal goal Future Perfect।"
+    },
+    {
+      "id": 129,
+      "type": "translate",
+      "hindi": "2050 तक, AI ने repetitive jobs replace कर दिए होंगे।",
+      "options": [
+        "By 2050, AI will replace repetitive jobs.",
+        "By 2050, AI will have replaced most repetitive jobs.",
+        "By 2050, AI has replaced repetitive jobs.",
+        "By 2050, AI replaced repetitive jobs."
+      ],
+      "answer": "By 2050, AI will have replaced most repetitive jobs.",
+      "explanation": "Long-term prediction Future Perfect।"
+    },
+    {
+      "id": 130,
+      "type": "translate",
+      "hindi": "जब तक party शुरू होगी, guests पहुँच चुके होंगे।",
+      "options": [
+        "When the party starts, guests will arrive.",
+        "By the time the party starts, the guests will have arrived.",
+        "When the party starts, guests have arrived.",
+        "By the party, guests arrived."
+      ],
+      "answer": "By the time the party starts, the guests will have arrived.",
+      "explanation": "'By the time' Future Perfect।"
+    },
+    {
+      "id": 131,
+      "type": "translate",
+      "hindi": "January तक, board ने new CEO appoint कर दिया होगा।",
+      "options": [
+        "By January, the board will appoint the new CEO.",
+        "By January, the board will have appointed the new CEO.",
+        "By January, the board has appointed the new CEO.",
+        "By January, the board appointed the new CEO."
+      ],
+      "answer": "By January, the board will have appointed the new CEO.",
+      "explanation": "Business/governance Future Perfect।"
+    },
+    {
+      "id": 132,
+      "type": "translate",
+      "hindi": "June तक, university ने final results declare कर दिए होंगे।",
+      "options": [
+        "By June, the university will declare the results.",
+        "By June, the university will have declared the final results.",
+        "By June, the university has declared the results.",
+        "By June, the university declared the results."
+      ],
+      "answer": "By June, the university will have declared the final results.",
+      "explanation": "Education Future Perfect।"
+    },
+    {
+      "id": 133,
+      "type": "translate",
+      "hindi": "अगले दस साल में, वह अपना business शुरू कर चुकी होगी।",
+      "options": [
+        "In the next ten years, she will start her own business.",
+        "In the next ten years, she will have started her own business.",
+        "In the next ten years, she has started her own business.",
+        "In ten years, she starts her own business."
+      ],
+      "answer": "In the next ten years, she will have started her own business.",
+      "explanation": "Career goal Future Perfect।"
+    },
+    {
+      "id": 134,
+      "type": "translate",
+      "hindi": "March तक, मैंने car loan चुका दिया होगा।",
+      "options": [
+        "By March, I will pay off my car loan.",
+        "By March, I will have paid off my car loan.",
+        "By March, I have paid off my car loan.",
+        "By March, I paid off my car loan."
+      ],
+      "answer": "By March, I will have paid off my car loan.",
+      "explanation": "Personal finance Future Perfect।"
+    },
+    {
+      "id": 135,
+      "type": "error",
+      "sentence": "By 2030, we will have expanded to ten country.",
+      "correct": "By 2030, we will have expanded to ten countries.",
+      "options": [
+        "By 2030, we will have expanded to ten country.",
+        "By 2030, we will have expanded to ten countries.",
+        "By 2030, we expanded to ten countries.",
+        "By 2030, we will expanded to ten countries."
+      ],
+      "answer": "By 2030, we will have expanded to ten countries.",
+      "explanation": "'countries' plural form ज़रूरी है।"
+    },
+    {
+      "id": 136,
+      "type": "error",
+      "sentence": "I will have be finished by tomorrow.",
+      "correct": "I will have finished by tomorrow.",
+      "options": [
+        "I will have be finished by tomorrow.",
+        "I will have finished by tomorrow.",
+        "I will be finished by tomorrow.",
+        "I have be finished by tomorrow."
+      ],
+      "answer": "I will have finished by tomorrow.",
+      "explanation": "Active Future Perfect: will have + V3, no 'be'।"
+    },
+    {
+      "id": 137,
+      "type": "error",
+      "sentence": "The reports will have been approve by noon.",
+      "correct": "The reports will have been approved by noon.",
+      "options": [
+        "The reports will have been approve by noon.",
+        "The reports will have been approved by noon.",
+        "The reports will be approved by noon.",
+        "The reports have been approve by noon."
+      ],
+      "answer": "The reports will have been approved by noon.",
+      "explanation": "Passive V3 'approved' ज़रूरी है।"
+    },
+    {
+      "id": 138,
+      "type": "error",
+      "sentence": "By next year, they will have became market leaders.",
+      "correct": "By next year, they will have become market leaders.",
+      "options": [
+        "By next year, they will have became market leaders.",
+        "By next year, they will have become market leaders.",
+        "By next year, they became market leaders.",
+        "By next year, they will become market leaders."
+      ],
+      "answer": "By next year, they will have become market leaders.",
+      "explanation": "Irregular V3: become (not 'became')।"
+    },
+    {
+      "id": 139,
+      "type": "error",
+      "sentence": "She won't have been complete the training.",
+      "correct": "She won't have completed the training.",
+      "options": [
+        "She won't have been complete the training.",
+        "She won't have completed the training.",
+        "She won't complete the training.",
+        "She haven't completed the training."
+      ],
+      "answer": "She won't have completed the training.",
+      "explanation": "Active Future Perfect Negative: won't have + V3।"
+    },
+    {
+      "id": 140,
+      "type": "mcq",
+      "question": "Which sentence shows the correct use of 'in' with Future Perfect?",
+      "options": [
+        "I will have finished in tomorrow.",
+        "In 5 years, I will have become a manager.",
+        "I finished in five years.",
+        "I will finish in 5 years time."
+      ],
+      "answer": "In 5 years, I will have become a manager.",
+      "explanation": "'In + time period' works with Future Perfect to express a future goal."
+    },
+    {
+      "id": 141,
+      "type": "mcq",
+      "question": "'Won't have' is the contraction of:",
+      "options": [
+        "will not have",
+        "would not have",
+        "will not has",
+        "has not will"
+      ],
+      "answer": "will not have",
+      "explanation": "'won't have' = 'will not have' — Future Perfect Negative।"
+    },
+    {
+      "id": 142,
+      "type": "mcq",
+      "question": "Which verb form follows 'will have'?",
+      "options": [
+        "Base verb",
+        "V3 (past participle)",
+        "V2 (past tense)",
+        "Present participle (-ing)"
+      ],
+      "answer": "V3 (past participle)",
+      "explanation": "will have + V3 (past participle) = Future Perfect।"
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "question": "'By the time' is used to indicate:",
+      "options": [
+        "Before a specific future event",
+        "After a past event",
+        "During an ongoing action",
+        "At a fixed time"
+      ],
+      "answer": "Before a specific future event",
+      "explanation": "'By the time + clause' means before or at the point the clause happens।"
+    },
+    {
+      "id": 144,
+      "type": "mcq",
+      "question": "The future perfect passive structure is:",
+      "options": [
+        "will + be + V3",
+        "will + have + V3",
+        "will + have + been + V3",
+        "have + been + will + V3"
+      ],
+      "answer": "will + have + been + V3",
+      "explanation": "Passive Future Perfect: will have been + V3।"
+    },
+    {
+      "id": 145,
+      "type": "mcq",
+      "question": "'He will have written the book by December.' Which part is the time reference?",
+      "options": [
+        "He",
+        "will have written",
+        "the book",
+        "by December"
+      ],
+      "answer": "by December",
+      "explanation": "'By December' is the future time reference for Future Perfect।"
+    },
+    {
+      "id": 146,
+      "type": "mcq",
+      "question": "Which is an example of Future Perfect in a career context?",
+      "options": [
+        "I work in this company.",
+        "I have been promoted.",
+        "By 2028, I will have led a team of 50.",
+        "I lead my team well."
+      ],
+      "answer": "By 2028, I will have led a team of 50.",
+      "explanation": "Future Perfect with career goals।"
+    },
+    {
+      "id": 147,
+      "type": "mcq",
+      "question": "'Eventually' in Future Perfect sentences means:",
+      "options": [
+        "never",
+        "at some point in the future",
+        "in the past",
+        "right now"
+      ],
+      "answer": "at some point in the future",
+      "explanation": "'Eventually' = at some point in the future, used with Future Perfect."
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "question": "Which is the WRONG form?",
+      "options": [
+        "I will have finished.",
+        "She will have gone.",
+        "They will has completed.",
+        "We will have left."
+      ],
+      "answer": "They will has completed.",
+      "explanation": "'will has' is wrong; always 'will have'।"
+    },
+    {
+      "id": 149,
+      "type": "mcq",
+      "question": "'Before the show starts, the director _____ rehearsed all scenes.'",
+      "options": [
+        "will",
+        "will have",
+        "has",
+        "had"
+      ],
+      "answer": "will have",
+      "explanation": "'Before + future event' triggers Future Perfect: will have + V3।"
+    },
+    {
+      "id": 150,
+      "type": "fill",
+      "hindi": "By end of Q2, we will have _____ all bugs.",
+      "options": [
+        "fix",
+        "fixes",
+        "fixing",
+        "fixed"
+      ],
+      "answer": "fixed",
+      "explanation": "V3 'fixed' after will have."
+    },
+    {
+      "id": 151,
+      "type": "fill",
+      "hindi": "By the deadline, the design team will have _____ three concepts.",
+      "options": [
+        "create",
+        "creates",
+        "creating",
+        "created"
+      ],
+      "answer": "created",
+      "explanation": "V3 'created' required."
+    },
+    {
+      "id": 152,
+      "type": "fill",
+      "hindi": "By year-end, the startup will have _____ its first profit.",
+      "options": [
+        "make",
+        "makes",
+        "making",
+        "made"
+      ],
+      "answer": "made",
+      "explanation": "Irregular V3: made."
+    },
+    {
+      "id": 153,
+      "type": "fill",
+      "hindi": "By next quarter, we will have _____ two new clients.",
+      "options": [
+        "sign",
+        "signs",
+        "signing",
+        "signed"
+      ],
+      "answer": "signed",
+      "explanation": "V3 'signed' after will have."
+    },
+    {
+      "id": 154,
+      "type": "fill",
+      "hindi": "By Monday, the team will have _____ all sprint tasks.",
+      "options": [
+        "complete",
+        "completes",
+        "completing",
+        "completed"
+      ],
+      "answer": "completed",
+      "explanation": "V3 'completed'."
+    },
+    {
+      "id": 155,
+      "type": "fill",
+      "hindi": "By December, she will have _____ her English course.",
+      "options": [
+        "finish",
+        "finishes",
+        "finishing",
+        "finished"
+      ],
+      "answer": "finished",
+      "explanation": "V3 'finished' after will have."
+    },
+    {
+      "id": 156,
+      "type": "fill",
+      "hindi": "By Q3, the managers will have _____ all appraisals.",
+      "options": [
+        "conduct",
+        "conducts",
+        "conducting",
+        "conducted"
+      ],
+      "answer": "conducted",
+      "explanation": "V3 'conducted'."
+    },
+    {
+      "id": 157,
+      "type": "fill",
+      "hindi": "By next week, the new hire will have _____ onboarding.",
+      "options": [
+        "complete",
+        "completes",
+        "completing",
+        "completed"
+      ],
+      "answer": "completed",
+      "explanation": "V3 'completed'."
+    },
+    {
+      "id": 158,
+      "type": "fill",
+      "hindi": "By Friday, reports will have been _____ to all managers.",
+      "options": [
+        "send",
+        "sends",
+        "sending",
+        "sent"
+      ],
+      "answer": "sent",
+      "explanation": "Passive V3 'sent'."
+    },
+    {
+      "id": 159,
+      "type": "fill",
+      "hindi": "By September, the building will have been _____ .",
+      "options": [
+        "build",
+        "builds",
+        "building",
+        "built"
+      ],
+      "answer": "built",
+      "explanation": "Passive V3 'built' (irregular)."
+    },
+    {
+      "id": 160,
+      "type": "fill",
+      "hindi": "By January, the old system will have been _____ .",
+      "options": [
+        "replace",
+        "replaces",
+        "replacing",
+        "replaced"
+      ],
+      "answer": "replaced",
+      "explanation": "Passive V3 'replaced'."
+    },
+    {
+      "id": 161,
+      "type": "fill",
+      "hindi": "By month-end, budgets will have been _____ across all teams.",
+      "options": [
+        "allocate",
+        "allocates",
+        "allocating",
+        "allocated"
+      ],
+      "answer": "allocated",
+      "explanation": "Passive V3 'allocated'."
+    },
+    {
+      "id": 162,
+      "type": "fill",
+      "hindi": "By Q4, the software will have been _____ company-wide.",
+      "options": [
+        "roll out",
+        "rolls out",
+        "rolling out",
+        "rolled out"
+      ],
+      "answer": "rolled out",
+      "explanation": "Passive V3 phrasal verb."
+    },
+    {
+      "id": 163,
+      "type": "fill",
+      "hindi": "By the time the client calls, I _____ have prepared the answer.",
+      "options": [
+        "will",
+        "would",
+        "could",
+        "should"
+      ],
+      "answer": "will",
+      "explanation": "Future certainty: will."
+    },
+    {
+      "id": 164,
+      "type": "fill",
+      "hindi": "By next year, I will have _____ in three countries.",
+      "options": [
+        "work",
+        "works",
+        "working",
+        "worked"
+      ],
+      "answer": "worked",
+      "explanation": "V3 'worked'."
+    },
+    {
+      "id": 165,
+      "type": "fill",
+      "hindi": "By the end of training, all staff will have _____ the module.",
+      "options": [
+        "complete",
+        "completes",
+        "completing",
+        "completed"
+      ],
+      "answer": "completed",
+      "explanation": "V3 'completed'."
+    },
+    {
+      "id": 166,
+      "type": "fill",
+      "hindi": "By 2028, the bridge will have been _____ .",
+      "options": [
+        "construct",
+        "constructs",
+        "constructing",
+        "constructed"
+      ],
+      "answer": "constructed",
+      "explanation": "Passive V3 'constructed'."
+    },
+    {
+      "id": 167,
+      "type": "fill",
+      "hindi": "By her graduation, she will have _____ four internships.",
+      "options": [
+        "do",
+        "does",
+        "doing",
+        "done"
+      ],
+      "answer": "done",
+      "explanation": "V3 'done' (irregular)."
+    },
+    {
+      "id": 168,
+      "type": "fill",
+      "hindi": "By end of day, I will have _____ fifteen emails.",
+      "options": [
+        "send",
+        "sends",
+        "sending",
+        "sent"
+      ],
+      "answer": "sent",
+      "explanation": "V3 'sent'."
+    },
+    {
+      "id": 169,
+      "type": "fill",
+      "hindi": "By next campaign, we will have _____ our social media strategy.",
+      "options": [
+        "refine",
+        "refines",
+        "refining",
+        "refined"
+      ],
+      "answer": "refined",
+      "explanation": "V3 'refined'."
+    }
   ]
 }

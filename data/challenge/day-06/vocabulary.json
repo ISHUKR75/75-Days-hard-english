@@ -1,57 +1,5031 @@
 {
   "day": 6,
-  "title": "Day 6 Vocabulary — 50 Have/Has Related Words",
-  "totalWords": 50,
+  "title": "Day 6 Vocabulary — 157 Have/Has Related Words",
+  "totalWords": 157,
   "words": [
-    {"id":1,"word":"possess","hindi":"रखना/स्वामी होना","simpleMeaning":"to have or own something","ipa":"/pəˈzes/","verbForms":{"base":"possess","s3":"possesses","ing":"possessing","past":"possessed","pastParticiple":"possessed"},"synonyms":["own","have"],"antonyms":["lack"],"sentences":{"daily":"I possess a car.","office":"She possesses great skills.","interview":"I possess strong analytical abilities.","business":"The company possesses advanced technology.","formal":"He possesses vast knowledge.","informal":"I possess just a bike, nothing fancy."},"usageNote":"'possess' formal 'have' है।","cefrLevel":"B2"},
-    {"id":2,"word":"own","hindi":"अपना होना/स्वामी होना","simpleMeaning":"to have something that belongs to you","ipa":"/oʊn/","verbForms":{"base":"own","s3":"owns","ing":"owning","past":"owned","pastParticiple":"owned"},"synonyms":["possess"],"antonyms":["-"],"sentences":{"daily":"I own a small house.","office":"She owns her own business.","interview":"-","business":"They own multiple properties.","formal":"He owns a large estate.","informal":"I own a scooter, that's it."},"usageNote":"Property/asset बताने के लिए common।","cefrLevel":"A2"},
-    {"id":3,"word":"available","hindi":"उपलब्ध","simpleMeaning":"able to be used or obtained","ipa":"/əˈveɪləbl/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["accessible"],"antonyms":["unavailable"],"sentences":{"daily":"I have time available today.","office":"Are you available for a meeting?","interview":"I am available to join immediately.","business":"The product is available online.","formal":"He is available for consultation.","informal":"I'm free and available now."},"usageNote":"'available for/to' + noun/verb।","cefrLevel":"A2"},
-    {"id":4,"word":"attend","hindi":"उपस्थित होना","simpleMeaning":"to be present at an event","ipa":"/əˈtend/","verbForms":{"base":"attend","s3":"attends","ing":"attending","past":"attended","pastParticiple":"attended"},"synonyms":["participate"],"antonyms":["skip"],"sentences":{"daily":"I have a meeting to attend.","office":"She has attended the training.","interview":"I have attended several workshops.","business":"We have to attend the conference.","formal":"He attended the ceremony.","informal":"Gotta attend the party tonight."},"usageNote":"'attend' + event, कोई preposition नहीं।","cefrLevel":"A2"},
-    {"id":5,"word":"complete","hindi":"पूरा करना","simpleMeaning":"to finish something entirely","ipa":"/kəmˈpliːt/","verbForms":{"base":"complete","s3":"completes","ing":"completing","past":"completed","pastParticiple":"completed"},"synonyms":["finish"],"antonyms":["start"],"sentences":{"daily":"I have completed my work.","office":"She has completed the report.","interview":"I have completed my degree.","business":"We have completed the project.","formal":"He completed his research.","informal":"Just completed it, finally!"},"usageNote":"V3 form 'completed' Present Perfect में।","cefrLevel":"A2"},
-    {"id":6,"word":"arrive","hindi":"पहुँचना","simpleMeaning":"to reach a place","ipa":"/əˈraɪv/","verbForms":{"base":"arrive","s3":"arrives","ing":"arriving","past":"arrived","pastParticiple":"arrived"},"synonyms":["reach"],"antonyms":["depart"],"sentences":{"daily":"He has arrived late.","office":"Has she arrived yet?","interview":"-","business":"The shipment has arrived.","formal":"He arrived at the venue on time.","informal":"He's arrived, finally!"},"usageNote":"'arrive at/in' + place।","cefrLevel":"A2"},
-    {"id":7,"word":"finish","hindi":"समाप्त करना","simpleMeaning":"to reach the end of a task","ipa":"/ˈfɪnɪʃ/","verbForms":{"base":"finish","s3":"finishes","ing":"finishing","past":"finished","pastParticiple":"finished"},"synonyms":["complete"],"antonyms":["start"],"sentences":{"daily":"I haven't finished eating.","office":"Has he finished the task?","interview":"-","business":"We haven't finished the deal.","formal":"He finished his speech.","informal":"Almost finished!"},"usageNote":"'haven't finished' common negative।","cefrLevel":"A1"},
-    {"id":8,"word":"submit","hindi":"जमा करना","simpleMeaning":"to give something for approval","ipa":"/səbˈmɪt/","verbForms":{"base":"submit","s3":"submits","ing":"submitting","past":"submitted","pastParticiple":"submitted"},"synonyms":["hand in"],"antonyms":["withdraw"],"sentences":{"daily":"I have submitted my form.","office":"Have you submitted the report?","interview":"-","business":"We have submitted our proposal.","formal":"He submitted his resignation.","informal":"Just submitted it now."},"usageNote":"Documents/forms के साथ common।","cefrLevel":"B1"},
-    {"id":9,"word":"prepare","hindi":"तैयार करना","simpleMeaning":"to get ready for something","ipa":"/prɪˈper/","verbForms":{"base":"prepare","s3":"prepares","ing":"preparing","past":"prepared","pastParticiple":"prepared"},"synonyms":["arrange"],"antonyms":["-"],"sentences":{"daily":"I have prepared dinner.","office":"She has prepared the presentation.","interview":"I have prepared well for this interview.","business":"We have prepared the budget.","formal":"He prepared thoroughly.","informal":"All prepared, ready to go!"},"usageNote":"'prepared for' + noun।","cefrLevel":"A2"},
-    {"id":10,"word":"achieve","hindi":"हासिल करना","simpleMeaning":"to successfully reach a goal","ipa":"/əˈtʃiːv/","verbForms":{"base":"achieve","s3":"achieves","ing":"achieving","past":"achieved","pastParticiple":"achieved"},"synonyms":["accomplish"],"antonyms":["fail"],"sentences":{"daily":"I have achieved my goal.","office":"She has achieved the target.","interview":"I have achieved great results in my career.","business":"We have achieved 20% growth.","formal":"He achieved remarkable success.","informal":"Achieved it, finally!"},"usageNote":"Present Perfect में goals/targets के साथ।","cefrLevel":"B1"},
-    {"id":11,"word":"opportunity","hindi":"अवसर","simpleMeaning":"a chance to do something","ipa":"/ˌɒpərˈtjuːnəti/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["chance"],"antonyms":["-"],"sentences":{"daily":"I have an opportunity to travel.","office":"-","interview":"I have had the opportunity to work on many projects.","business":"-","formal":"He has an opportunity to grow.","informal":"Great opportunity, right?"},"usageNote":"'have an opportunity to' + base verb।","cefrLevel":"B1"},
-    {"id":12,"word":"deadline","hindi":"समय सीमा","simpleMeaning":"the latest time something must be done","ipa":"/ˈdedlaɪn/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["due date"],"antonyms":["-"],"sentences":{"daily":"I have a deadline today.","office":"We have a tight deadline.","interview":"-","business":"Have you met the deadline?","formal":"He respects deadlines strictly.","informal":"Deadline's tomorrow, hurry up!"},"usageNote":"'have a deadline' common office phrase।","cefrLevel":"B1"},
-    {"id":13,"word":"allergy","hindi":"एलर्जी","simpleMeaning":"a bad reaction to something","ipa":"/ˈælərdʒi/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["-"],"antonyms":["-"],"sentences":{"daily":"I have an allergy to dust.","office":"-","interview":"-","business":"-","formal":"Do you have any allergies?","informal":"I've got an allergy, avoid nuts please."},"usageNote":"Doctor context में common।","cefrLevel":"B2"},
-    {"id":14,"word":"receive","hindi":"प्राप्त करना","simpleMeaning":"to get something given or sent","ipa":"/rɪˈsiːv/","verbForms":{"base":"receive","s3":"receives","ing":"receiving","past":"received","pastParticiple":"received"},"synonyms":["get","obtain"],"antonyms":["send"],"sentences":{"daily":"I have received your message.","office":"Has she received the mail?","interview":"-","business":"We have received the payment.","formal":"He received an award.","informal":"Received it, thanks!"},"usageNote":"'received' common V3 in office emails।","cefrLevel":"A2"},
-    {"id":15,"word":"attach","hindi":"जोड़ना/attach करना","simpleMeaning":"to add a file to a message","ipa":"/əˈtætʃ/","verbForms":{"base":"attach","s3":"attaches","ing":"attaching","past":"attached","pastParticiple":"attached"},"synonyms":["append"],"antonyms":["detach"],"sentences":{"daily":"I have attached the document.","office":"Please find the attached file.","interview":"-","business":"We have attached our proposal.","formal":"He attached the necessary documents.","informal":"Attached the file, check it out."},"usageNote":"Email vocabulary।","cefrLevel":"B1"},
-    {"id":16,"word":"experience","hindi":"अनुभव","simpleMeaning":"knowledge gained by doing something","ipa":"/ɪkˈspɪəriəns/","verbForms":{"base":"experience","s3":"experiences","ing":"experiencing","past":"experienced","pastParticiple":"experienced"},"synonyms":["expertise"],"antonyms":["-"],"sentences":{"daily":"I have five years of experience.","office":"-","interview":"I have experience in project management.","business":"-","formal":"He has extensive experience.","informal":"Got good experience, trust me."},"usageNote":"'have experience in' + field।","cefrLevel":"A2"},
-    {"id":17,"word":"skill","hindi":"कौशल","simpleMeaning":"the ability to do something well","ipa":"/skɪl/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["ability"],"antonyms":["-"],"sentences":{"daily":"I have good communication skills.","office":"-","interview":"I have the skills required for this job.","business":"-","formal":"He has excellent leadership skills.","informal":"Got mad skills, honestly."},"usageNote":"Interview context में बहुत common।","cefrLevel":"A2"},
-    {"id":18,"word":"resource","hindi":"संसाधन","simpleMeaning":"something useful that can be used","ipa":"/ˈriːsɔːrs/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["asset"],"antonyms":["-"],"sentences":{"daily":"-","office":"We have limited resources.","interview":"-","business":"The company has many resources.","formal":"They have adequate resources.","informal":"-"},"usageNote":"Business vocabulary।","cefrLevel":"B1"},
-    {"id":19,"word":"budget","hindi":"बजट","simpleMeaning":"a plan for spending money","ipa":"/ˈbʌdʒɪt/","verbForms":{"base":"budget","s3":"budgets","ing":"budgeting","past":"budgeted","pastParticiple":"budgeted"},"synonyms":["financial plan"],"antonyms":["-"],"sentences":{"daily":"I have a monthly budget.","office":"We have prepared the budget.","interview":"-","business":"We have a limited budget.","formal":"They have approved the budget.","informal":"-"},"usageNote":"Noun & verb दोनों form।","cefrLevel":"B1"},
-    {"id":20,"word":"appointment","hindi":"नियुक्ति समय","simpleMeaning":"an arranged meeting time","ipa":"/əˈpɔɪntmənt/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["meeting"],"antonyms":["-"],"sentences":{"daily":"I have a doctor's appointment.","office":"She has an appointment at 3 PM.","interview":"-","business":"-","formal":"He has an appointment with the manager.","informal":"Got an appointment today, gotta go."},"usageNote":"'have an appointment' common phrase।","cefrLevel":"B1"},
-    {"id":21,"word":"break","hindi":"अवकाश/ब्रेक","simpleMeaning":"a short rest from work","ipa":"/breɪk/","verbForms":{"base":"break","s3":"breaks","ing":"breaking","past":"broke","pastParticiple":"broken"},"synonyms":["rest"],"antonyms":["-"],"sentences":{"daily":"Let's have a break.","office":"We have a lunch break at 1 PM.","interview":"-","business":"-","formal":"They have a scheduled break.","informal":"Need a break, so tired!"},"usageNote":"'have a break' common expression।","cefrLevel":"A2"},
-    {"id":22,"word":"doubt","hindi":"शंका","simpleMeaning":"a feeling of uncertainty","ipa":"/daʊt/","verbForms":{"base":"doubt","s3":"doubts","ing":"doubting","past":"doubted","pastParticiple":"doubted"},"synonyms":["uncertainty"],"antonyms":["certainty"],"sentences":{"daily":"I have a doubt about this topic.","office":"Do you have any doubts?","interview":"-","business":"-","formal":"He has doubts about the plan.","informal":"Got a doubt, can you explain?"},"usageNote":"'have a doubt' classroom में common।","cefrLevel":"B1"},
-    {"id":23,"word":"query","hindi":"प्रश्न","simpleMeaning":"a question, especially requesting information","ipa":"/ˈkwɪəri/","verbForms":{"base":"query","s3":"queries","ing":"querying","past":"queried","pastParticiple":"queried"},"synonyms":["question"],"antonyms":["-"],"sentences":{"daily":"-","office":"I have a query regarding this.","interview":"-","business":"We have a query about the invoice.","formal":"He raised a query.","informal":"-"},"usageNote":"Formal word for 'question'।","cefrLevel":"B2"},
-    {"id":24,"word":"solution","hindi":"समाधान","simpleMeaning":"a way of solving a problem","ipa":"/səˈluːʃn/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["answer","fix"],"antonyms":["problem"],"sentences":{"daily":"I have a solution for this.","office":"We have found a solution.","interview":"-","business":"They have implemented a solution.","formal":"He proposed a solution.","informal":"Got a solution for you!"},"usageNote":"'find/have a solution'।","cefrLevel":"B1"},
-    {"id":25,"word":"schedule","hindi":"समय-सारणी","simpleMeaning":"a plan of things to do at certain times","ipa":"/ˈskedʒuːl/","verbForms":{"base":"schedule","s3":"schedules","ing":"scheduling","past":"scheduled","pastParticiple":"scheduled"},"synonyms":["timetable"],"antonyms":["-"],"sentences":{"daily":"I have a busy schedule today.","office":"We have scheduled the meeting.","interview":"-","business":"-","formal":"He has a tight schedule.","informal":"Busy schedule, can't make it."},"usageNote":"'have a busy schedule' common phrase।","cefrLevel":"B1"},
-    {"id":26,"word":"guest","hindi":"मेहमान","simpleMeaning":"a person invited to visit","ipa":"/ɡest/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["visitor"],"antonyms":["host"],"sentences":{"daily":"We have guests coming tonight.","office":"-","interview":"-","business":"-","formal":"They have distinguished guests.","informal":"Got guests coming over!"},"usageNote":"'have guests' common phrase।","cefrLevel":"A2"},
-    {"id":27,"word":"missed call","hindi":"छूटी हुई कॉल","simpleMeaning":"a call you did not answer","ipa":"-","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["-"],"antonyms":["-"],"sentences":{"daily":"I have a missed call from you.","office":"-","interview":"-","business":"-","formal":"-","informal":"Got a missed call, call me back."},"usageNote":"Phone context vocabulary।","cefrLevel":"B1"},
-    {"id":28,"word":"ticket","hindi":"टिकट","simpleMeaning":"a document allowing travel or entry","ipa":"/ˈtɪkɪt/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["-"],"antonyms":["-"],"sentences":{"daily":"I have my tickets ready.","office":"-","interview":"-","business":"-","formal":"They have confirmed tickets.","informal":"Got the tickets already!"},"usageNote":"Travel context।","cefrLevel":"A1"},
-    {"id":29,"word":"passport","hindi":"पासपोर्ट","simpleMeaning":"an official travel document","ipa":"/ˈpæspɔːrt/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["-"],"antonyms":["-"],"sentences":{"daily":"-","office":"-","interview":"-","business":"-","formal":"Do you have your passport?","informal":"Got my passport ready."},"usageNote":"Travel/airport context।","cefrLevel":"A2"},
-    {"id":30,"word":"allergic","hindi":"एलर्जिक","simpleMeaning":"having a bad reaction to something","ipa":"/əˈlɜːrdʒɪk/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["-"],"antonyms":["-"],"sentences":{"daily":"I am allergic to peanuts.","office":"-","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Adjective form of allergy।","cefrLevel":"B2"},
-    {"id":31,"word":"proposal","hindi":"प्रस्ताव","simpleMeaning":"a suggestion or plan put forward","ipa":"/prəˈpoʊzl/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["plan","suggestion"],"antonyms":["-"],"sentences":{"daily":"-","office":"We have prepared a proposal.","interview":"-","business":"They have submitted a proposal.","formal":"He accepted the proposal.","informal":"-"},"usageNote":"Office/business context।","cefrLevel":"B2"},
-    {"id":32,"word":"invoice","hindi":"चालान","simpleMeaning":"a bill listing goods or services sold","ipa":"/ˈɪnvɔɪs/","verbForms":{"base":"invoice","s3":"invoices","ing":"invoicing","past":"invoiced","pastParticiple":"invoiced"},"synonyms":["bill"],"antonyms":["-"],"sentences":{"daily":"-","office":"We have sent the invoice.","interview":"-","business":"Have you received the invoice?","formal":"-","informal":"-"},"usageNote":"Business/office vocabulary।","cefrLevel":"B2"},
-    {"id":33,"word":"presentation","hindi":"प्रस्तुति","simpleMeaning":"a talk giving information on a topic","ipa":"/ˌpreznˈteɪʃn/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["talk"],"antonyms":["-"],"sentences":{"daily":"-","office":"She has prepared the presentation.","interview":"I have given many presentations.","business":"-","formal":"He delivered an excellent presentation.","informal":"-"},"usageNote":"Office/interview context।","cefrLevel":"B1"},
-    {"id":34,"word":"training","hindi":"प्रशिक्षण","simpleMeaning":"the process of learning a skill","ipa":"/ˈtreɪnɪŋ/","verbForms":{"base":"train","s3":"trains","ing":"training","past":"trained","pastParticiple":"trained"},"synonyms":["coaching"],"antonyms":["-"],"sentences":{"daily":"-","office":"She has attended the training.","interview":"I have completed technical training.","business":"-","formal":"He received formal training.","informal":"-"},"usageNote":"Noun & verb form।","cefrLevel":"B1"},
-    {"id":35,"word":"revenue","hindi":"आय/राजस्व","simpleMeaning":"income received by a company","ipa":"/ˈrevənuː/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["income"],"antonyms":["expense"],"sentences":{"daily":"-","office":"-","interview":"-","business":"The company has increased its revenue.","formal":"-","informal":"-"},"usageNote":"Business vocabulary।","cefrLevel":"B2"},
-    {"id":36,"word":"target","hindi":"लक्ष्य","simpleMeaning":"a goal you aim to achieve","ipa":"/ˈtɑːrɡɪt/","verbForms":{"base":"target","s3":"targets","ing":"targeting","past":"targeted","pastParticiple":"targeted"},"synonyms":["goal"],"antonyms":["-"],"sentences":{"daily":"-","office":"We have achieved our target.","interview":"-","business":"They have set a new target.","formal":"-","informal":"-"},"usageNote":"'achieve/set a target'।","cefrLevel":"B1"},
-    {"id":37,"word":"maintenance","hindi":"रखरखाव","simpleMeaning":"the process of keeping something in good condition","ipa":"/ˈmeɪntənəns/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["upkeep"],"antonyms":["-"],"sentences":{"daily":"-","office":"We have scheduled maintenance.","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Office/technical vocabulary।","cefrLevel":"B2"},
-    {"id":38,"word":"warranty","hindi":"वारंटी","simpleMeaning":"a guarantee of quality or repair","ipa":"/ˈwɒrənti/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["guarantee"],"antonyms":["-"],"sentences":{"daily":"I have a warranty on this product.","office":"-","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Shopping context।","cefrLevel":"B2"},
-    {"id":39,"word":"reservation","hindi":"आरक्षण","simpleMeaning":"an arrangement to keep a place available","ipa":"/ˌrezərˈveɪʃn/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["booking"],"antonyms":["-"],"sentences":{"daily":"I have a reservation at 8 PM.","office":"-","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Restaurant/travel context।","cefrLevel":"B1"},
-    {"id":40,"word":"symptom","hindi":"लक्षण","simpleMeaning":"a sign that shows a health issue","ipa":"/ˈsɪmptəm/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["sign"],"antonyms":["-"],"sentences":{"daily":"I have symptoms of a cold.","office":"-","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Doctor/health context।","cefrLevel":"B2"},
-    {"id":41,"word":"insurance","hindi":"बीमा","simpleMeaning":"a plan protecting against financial loss","ipa":"/ɪnˈʃʊərəns/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["-"],"antonyms":["-"],"sentences":{"daily":"I have health insurance.","office":"-","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Common life vocabulary।","cefrLevel":"B2"},
-    {"id":42,"word":"membership","hindi":"सदस्यता","simpleMeaning":"the state of belonging to a group","ipa":"/ˈmembərʃɪp/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["-"],"antonyms":["-"],"sentences":{"daily":"I have a gym membership.","office":"-","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Common daily vocabulary।","cefrLevel":"B1"},
-    {"id":43,"word":"license","hindi":"अनुज्ञा/लाइसेंस","simpleMeaning":"an official permit to do something","ipa":"/ˈlaɪsns/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["permit"],"antonyms":["-"],"sentences":{"daily":"I have a driving license.","office":"-","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Official document vocabulary।","cefrLevel":"B1"},
-    {"id":44,"word":"certificate","hindi":"प्रमाण पत्र","simpleMeaning":"an official document showing achievement","ipa":"/sərˈtɪfɪkət/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["diploma"],"antonyms":["-"],"sentences":{"daily":"-","office":"-","interview":"I have a certificate in digital marketing.","business":"-","formal":"-","informal":"-"},"usageNote":"Education/career vocabulary।","cefrLevel":"B1"},
-    {"id":45,"word":"degree","hindi":"डिग्री","simpleMeaning":"a qualification from a university","ipa":"/dɪˈɡriː/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["qualification"],"antonyms":["-"],"sentences":{"daily":"I have a bachelor's degree.","office":"-","interview":"I have a degree in engineering.","business":"-","formal":"-","informal":"-"},"usageNote":"Education vocabulary।","cefrLevel":"A2"},
-    {"id":46,"word":"vacancy","hindi":"रिक्ति","simpleMeaning":"an available job position","ipa":"/ˈveɪkənsi/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["opening"],"antonyms":["-"],"sentences":{"daily":"-","office":"We have a vacancy in the marketing team.","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Job/HR vocabulary।","cefrLevel":"B2"},
-    {"id":47,"word":"promotion","hindi":"पदोन्नति","simpleMeaning":"advancement to a higher job position","ipa":"/prəˈmoʊʃn/","verbForms":{"base":"promote","s3":"promotes","ing":"promoting","past":"promoted","pastParticiple":"promoted"},"synonyms":["advancement"],"antonyms":["demotion"],"sentences":{"daily":"-","office":"She has received a promotion.","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"Career vocabulary।","cefrLevel":"B1"},
-    {"id":48,"word":"salary","hindi":"वेतन","simpleMeaning":"money paid regularly for work","ipa":"/ˈsæləri/","verbForms":{"base":"-","s3":"-","ing":"-","past":"-","pastParticiple":"-"},"synonyms":["wage","pay"],"antonyms":["-"],"sentences":{"daily":"I have a good salary.","office":"-","interview":"What salary do you have in mind?","business":"-","formal":"-","informal":"-"},"usageNote":"Job/interview vocabulary।","cefrLevel":"A2"},
-    {"id":49,"word":"benefit","hindi":"लाभ","simpleMeaning":"something helpful or advantageous","ipa":"/ˈbenɪfɪt/","verbForms":{"base":"benefit","s3":"benefits","ing":"benefiting","past":"benefited","pastParticiple":"benefited"},"synonyms":["advantage"],"antonyms":["drawback"],"sentences":{"daily":"-","office":"We have good employee benefits.","interview":"-","business":"-","formal":"-","informal":"-"},"usageNote":"HR/office vocabulary।","cefrLevel":"B1"},
-    {"id":50,"word":"contract","hindi":"अनुबंध","simpleMeaning":"a legal agreement between parties","ipa":"/ˈkɒntrækt/","verbForms":{"base":"contract","s3":"contracts","ing":"contracting","past":"contracted","pastParticiple":"contracted"},"synonyms":["agreement"],"antonyms":["-"],"sentences":{"daily":"-","office":"We have signed the contract.","interview":"-","business":"They have a long-term contract.","formal":"-","informal":"-"},"usageNote":"Business/legal vocabulary।","cefrLevel":"B2"}
+    {
+      "id": 1,
+      "word": "possess",
+      "hindi": "रखना/स्वामी होना",
+      "simpleMeaning": "to have or own something",
+      "ipa": "/pəˈzes/",
+      "verbForms": {
+        "base": "possess",
+        "s3": "possesses",
+        "ing": "possessing",
+        "past": "possessed",
+        "pastParticiple": "possessed"
+      },
+      "synonyms": [
+        "own",
+        "have"
+      ],
+      "antonyms": [
+        "lack",
+        "lose"
+      ],
+      "sentences": {
+        "daily": "I possess a car.",
+        "office": "She possesses great analytical skills.",
+        "interview": "I possess strong problem-solving abilities.",
+        "business": "The company possesses advanced technology.",
+        "formal": "He possesses vast knowledge of law.",
+        "informal": "I possess just a bike, nothing fancy."
+      },
+      "usageNote": "'possess' formal 'have' है।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 2,
+      "word": "own",
+      "hindi": "अपना होना/स्वामी होना",
+      "simpleMeaning": "to have something that belongs to you",
+      "ipa": "/oʊn/",
+      "verbForms": {
+        "base": "own",
+        "s3": "owns",
+        "ing": "owning",
+        "past": "owned",
+        "pastParticiple": "owned"
+      },
+      "synonyms": [
+        "possess",
+        "hold"
+      ],
+      "antonyms": [
+        "lack",
+        "rent"
+      ],
+      "sentences": {
+        "daily": "I own a small house.",
+        "office": "She owns her own business.",
+        "interview": "I own my professional development.",
+        "business": "They own multiple properties.",
+        "formal": "He owns a large estate.",
+        "informal": "I own a scooter, that's it."
+      },
+      "usageNote": "Property/asset बताने के लिए common।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 3,
+      "word": "available",
+      "hindi": "उपलब्ध",
+      "simpleMeaning": "able to be used or obtained",
+      "ipa": "/əˈveɪləbl/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "accessible",
+        "free"
+      ],
+      "antonyms": [
+        "unavailable",
+        "busy"
+      ],
+      "sentences": {
+        "daily": "I have time available today.",
+        "office": "Are you available for a meeting?",
+        "interview": "I am available to join immediately.",
+        "business": "The product is available online.",
+        "formal": "He is available for consultation.",
+        "informal": "I'm free and available now."
+      },
+      "usageNote": "'available for/to' + noun/verb।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 4,
+      "word": "attend",
+      "hindi": "उपस्थित होना",
+      "simpleMeaning": "to be present at an event",
+      "ipa": "/əˈtend/",
+      "verbForms": {
+        "base": "attend",
+        "s3": "attends",
+        "ing": "attending",
+        "past": "attended",
+        "pastParticiple": "attended"
+      },
+      "synonyms": [
+        "participate",
+        "join"
+      ],
+      "antonyms": [
+        "skip",
+        "miss"
+      ],
+      "sentences": {
+        "daily": "I have a meeting to attend.",
+        "office": "She has attended the training session.",
+        "interview": "I have attended several industry workshops.",
+        "business": "We have to attend the conference in Delhi.",
+        "formal": "He attended the international ceremony.",
+        "informal": "Gotta attend the party tonight."
+      },
+      "usageNote": "'attend' + event, कोई preposition नहीं।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 5,
+      "word": "complete",
+      "hindi": "पूरा करना",
+      "simpleMeaning": "to finish something entirely",
+      "ipa": "/kəmˈpliːt/",
+      "verbForms": {
+        "base": "complete",
+        "s3": "completes",
+        "ing": "completing",
+        "past": "completed",
+        "pastParticiple": "completed"
+      },
+      "synonyms": [
+        "finish",
+        "accomplish"
+      ],
+      "antonyms": [
+        "start",
+        "begin"
+      ],
+      "sentences": {
+        "daily": "I have completed my morning routine.",
+        "office": "She has completed the quarterly report.",
+        "interview": "I have completed my degree from Delhi University.",
+        "business": "We have completed the product launch.",
+        "formal": "He has completed his doctoral research.",
+        "informal": "Just completed it, finally!"
+      },
+      "usageNote": "V3 form 'completed' Present Perfect में।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 6,
+      "word": "arrive",
+      "hindi": "पहुँचना",
+      "simpleMeaning": "to reach a place",
+      "ipa": "/əˈraɪv/",
+      "verbForms": {
+        "base": "arrive",
+        "s3": "arrives",
+        "ing": "arriving",
+        "past": "arrived",
+        "pastParticiple": "arrived"
+      },
+      "synonyms": [
+        "reach",
+        "come"
+      ],
+      "antonyms": [
+        "depart",
+        "leave"
+      ],
+      "sentences": {
+        "daily": "He has arrived home late.",
+        "office": "Has she arrived at the office yet?",
+        "interview": "I arrived five minutes early for the interview.",
+        "business": "The shipment has arrived safely.",
+        "formal": "He arrived at the venue on time.",
+        "informal": "He's arrived, finally!"
+      },
+      "usageNote": "'arrive at/in' + place।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 7,
+      "word": "finish",
+      "hindi": "समाप्त करना",
+      "simpleMeaning": "to reach the end of a task",
+      "ipa": "/ˈfɪnɪʃ/",
+      "verbForms": {
+        "base": "finish",
+        "s3": "finishes",
+        "ing": "finishing",
+        "past": "finished",
+        "pastParticiple": "finished"
+      },
+      "synonyms": [
+        "complete",
+        "conclude"
+      ],
+      "antonyms": [
+        "start",
+        "begin"
+      ],
+      "sentences": {
+        "daily": "I haven't finished eating yet.",
+        "office": "Has he finished the assignment?",
+        "interview": "I finished my MBA last year.",
+        "business": "We haven't finished the deal discussion.",
+        "formal": "He has finished his research paper.",
+        "informal": "Almost finished, hold on!"
+      },
+      "usageNote": "'haven't finished' common negative।",
+      "cefrLevel": "A1"
+    },
+    {
+      "id": 8,
+      "word": "achieve",
+      "hindi": "प्राप्त करना/हासिल करना",
+      "simpleMeaning": "to successfully reach a goal",
+      "ipa": "/əˈtʃiːv/",
+      "verbForms": {
+        "base": "achieve",
+        "s3": "achieves",
+        "ing": "achieving",
+        "past": "achieved",
+        "pastParticiple": "achieved"
+      },
+      "synonyms": [
+        "accomplish",
+        "attain"
+      ],
+      "antonyms": [
+        "fail",
+        "miss"
+      ],
+      "sentences": {
+        "daily": "I have achieved my fitness goal.",
+        "office": "She has achieved her sales target.",
+        "interview": "I have achieved a 30% cost reduction in my previous role.",
+        "business": "We have achieved market leadership.",
+        "formal": "He has achieved international recognition.",
+        "informal": "I've achieved my dream, at last!"
+      },
+      "usageNote": "'achieve a goal/target' common expression।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 9,
+      "word": "acquire",
+      "hindi": "अर्जित करना/प्राप्त करना",
+      "simpleMeaning": "to gain or obtain something",
+      "ipa": "/əˈkwaɪər/",
+      "verbForms": {
+        "base": "acquire",
+        "s3": "acquires",
+        "ing": "acquiring",
+        "past": "acquired",
+        "pastParticiple": "acquired"
+      },
+      "synonyms": [
+        "obtain",
+        "gain"
+      ],
+      "antonyms": [
+        "lose",
+        "forfeit"
+      ],
+      "sentences": {
+        "daily": "I have acquired a new skill.",
+        "office": "She has acquired a new client.",
+        "interview": "I have acquired expertise in data analysis.",
+        "business": "The company has acquired a startup.",
+        "formal": "He has acquired extensive knowledge.",
+        "informal": "I've acquired a good habit lately."
+      },
+      "usageNote": "'acquire skills/knowledge' professional context।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 10,
+      "word": "maintain",
+      "hindi": "बनाए रखना",
+      "simpleMeaning": "to keep something in good condition",
+      "ipa": "/meɪnˈteɪn/",
+      "verbForms": {
+        "base": "maintain",
+        "s3": "maintains",
+        "ing": "maintaining",
+        "past": "maintained",
+        "pastParticiple": "maintained"
+      },
+      "synonyms": [
+        "keep",
+        "sustain"
+      ],
+      "antonyms": [
+        "neglect",
+        "abandon"
+      ],
+      "sentences": {
+        "daily": "I have maintained a healthy diet.",
+        "office": "She maintains a detailed work log.",
+        "interview": "I have maintained a consistent performance record.",
+        "business": "We maintain strong client relationships.",
+        "formal": "He has maintained his integrity throughout.",
+        "informal": "I maintain good habits."
+      },
+      "usageNote": "'maintain + noun' very common in professional writing।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 11,
+      "word": "develop",
+      "hindi": "विकसित करना",
+      "simpleMeaning": "to grow or make something grow",
+      "ipa": "/dɪˈvelɒp/",
+      "verbForms": {
+        "base": "develop",
+        "s3": "develops",
+        "ing": "developing",
+        "past": "developed",
+        "pastParticiple": "developed"
+      },
+      "synonyms": [
+        "build",
+        "create"
+      ],
+      "antonyms": [
+        "destroy",
+        "stagnate"
+      ],
+      "sentences": {
+        "daily": "I have developed a new hobby.",
+        "office": "She has developed a training program.",
+        "interview": "I have developed strong leadership skills.",
+        "business": "We have developed a new product line.",
+        "formal": "He has developed a comprehensive strategy.",
+        "informal": "I've developed a love for reading."
+      },
+      "usageNote": "'develop + skills/plans' professional।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 12,
+      "word": "manage",
+      "hindi": "प्रबंधन करना",
+      "simpleMeaning": "to be in charge of or handle something",
+      "ipa": "/ˈmænɪdʒ/",
+      "verbForms": {
+        "base": "manage",
+        "s3": "manages",
+        "ing": "managing",
+        "past": "managed",
+        "pastParticiple": "managed"
+      },
+      "synonyms": [
+        "handle",
+        "supervise"
+      ],
+      "antonyms": [
+        "mismanage",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I have managed my time well today.",
+        "office": "She manages a team of fifteen people.",
+        "interview": "I have managed cross-functional teams.",
+        "business": "We have managed multiple projects simultaneously.",
+        "formal": "He manages the department efficiently.",
+        "informal": "I manage to finish everything on time."
+      },
+      "usageNote": "'manage a team/project' interview में frequently used।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 13,
+      "word": "demonstrate",
+      "hindi": "प्रदर्शित करना",
+      "simpleMeaning": "to show or prove something clearly",
+      "ipa": "/ˈdemənstreɪt/",
+      "verbForms": {
+        "base": "demonstrate",
+        "s3": "demonstrates",
+        "ing": "demonstrating",
+        "past": "demonstrated",
+        "pastParticiple": "demonstrated"
+      },
+      "synonyms": [
+        "show",
+        "prove"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal"
+      ],
+      "sentences": {
+        "daily": "I have demonstrated patience.",
+        "office": "She has demonstrated her leadership skills.",
+        "interview": "I have demonstrated the ability to work under pressure.",
+        "business": "We have demonstrated consistent growth.",
+        "formal": "He demonstrated an outstanding performance.",
+        "informal": "I demonstrated my point well."
+      },
+      "usageNote": "'demonstrate ability/skill' interview favorite।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 14,
+      "word": "submit",
+      "hindi": "जमा करना/प्रस्तुत करना",
+      "simpleMeaning": "to hand over or present something officially",
+      "ipa": "/səbˈmɪt/",
+      "verbForms": {
+        "base": "submit",
+        "s3": "submits",
+        "ing": "submitting",
+        "past": "submitted",
+        "pastParticiple": "submitted"
+      },
+      "synonyms": [
+        "present",
+        "hand in"
+      ],
+      "antonyms": [
+        "withdraw",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "I have submitted my application.",
+        "office": "She has submitted the weekly report.",
+        "interview": "I have submitted all required documents.",
+        "business": "We have submitted our proposal.",
+        "formal": "He has submitted the final version.",
+        "informal": "I've submitted it, just now."
+      },
+      "usageNote": "'submit + report/document/application' office word।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 15,
+      "word": "receive",
+      "hindi": "प्राप्त करना",
+      "simpleMeaning": "to get something that is given or sent",
+      "ipa": "/rɪˈsiːv/",
+      "verbForms": {
+        "base": "receive",
+        "s3": "receives",
+        "ing": "receiving",
+        "past": "received",
+        "pastParticiple": "received"
+      },
+      "synonyms": [
+        "get",
+        "obtain"
+      ],
+      "antonyms": [
+        "send",
+        "give"
+      ],
+      "sentences": {
+        "daily": "I have received a gift.",
+        "office": "She has received the project brief.",
+        "interview": "I have received an offer letter.",
+        "business": "We have received payment from the client.",
+        "formal": "He received an award for excellence.",
+        "informal": "I've received the package, thanks!"
+      },
+      "usageNote": "'receive + payment/feedback/award' common।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 16,
+      "word": "confirm",
+      "hindi": "पुष्टि करना",
+      "simpleMeaning": "to make something definite or certain",
+      "ipa": "/kənˈfɜːm/",
+      "verbForms": {
+        "base": "confirm",
+        "s3": "confirms",
+        "ing": "confirming",
+        "past": "confirmed",
+        "pastParticiple": "confirmed"
+      },
+      "synonyms": [
+        "verify",
+        "approve"
+      ],
+      "antonyms": [
+        "deny",
+        "cancel"
+      ],
+      "sentences": {
+        "daily": "I have confirmed my appointment.",
+        "office": "She has confirmed the meeting details.",
+        "interview": "I have confirmed my availability.",
+        "business": "We have confirmed the order.",
+        "formal": "He has confirmed his attendance.",
+        "informal": "I've confirmed it, all good."
+      },
+      "usageNote": "'confirm + booking/meeting/order' daily।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 17,
+      "word": "improve",
+      "hindi": "सुधारना",
+      "simpleMeaning": "to make something better",
+      "ipa": "/ɪmˈpruːv/",
+      "verbForms": {
+        "base": "improve",
+        "s3": "improves",
+        "ing": "improving",
+        "past": "improved",
+        "pastParticiple": "improved"
+      },
+      "synonyms": [
+        "enhance",
+        "better"
+      ],
+      "antonyms": [
+        "worsen",
+        "decline"
+      ],
+      "sentences": {
+        "daily": "I have improved my cooking skills.",
+        "office": "She has improved her communication.",
+        "interview": "I have improved my technical skills over time.",
+        "business": "We have improved our product quality.",
+        "formal": "He has improved the system significantly.",
+        "informal": "I've improved a lot lately."
+      },
+      "usageNote": "'improve + skills/performance' professional।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 18,
+      "word": "resolve",
+      "hindi": "हल करना/सुलझाना",
+      "simpleMeaning": "to find a solution to a problem",
+      "ipa": "/rɪˈzɒlv/",
+      "verbForms": {
+        "base": "resolve",
+        "s3": "resolves",
+        "ing": "resolving",
+        "past": "resolved",
+        "pastParticiple": "resolved"
+      },
+      "synonyms": [
+        "solve",
+        "fix"
+      ],
+      "antonyms": [
+        "create",
+        "worsen"
+      ],
+      "sentences": {
+        "daily": "I have resolved the issue.",
+        "office": "She has resolved the client complaint.",
+        "interview": "I have resolved conflicts within teams.",
+        "business": "We have resolved the billing dispute.",
+        "formal": "He has resolved all outstanding matters.",
+        "informal": "I've resolved the problem, finally."
+      },
+      "usageNote": "'resolve + issue/conflict/complaint' office word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 19,
+      "word": "deliver",
+      "hindi": "सौंपना/प्रदान करना",
+      "simpleMeaning": "to take or carry something to its destination",
+      "ipa": "/dɪˈlɪvər/",
+      "verbForms": {
+        "base": "deliver",
+        "s3": "delivers",
+        "ing": "delivering",
+        "past": "delivered",
+        "pastParticiple": "delivered"
+      },
+      "synonyms": [
+        "provide",
+        "supply"
+      ],
+      "antonyms": [
+        "withhold",
+        "fail"
+      ],
+      "sentences": {
+        "daily": "I have delivered the parcel.",
+        "office": "She has delivered an excellent presentation.",
+        "interview": "I have delivered results consistently.",
+        "business": "We have delivered the project on time.",
+        "formal": "He delivered a compelling speech.",
+        "informal": "I've delivered everything they asked for."
+      },
+      "usageNote": "'deliver results/project/presentation' professional।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 20,
+      "word": "implement",
+      "hindi": "लागू करना",
+      "simpleMeaning": "to put a plan or decision into action",
+      "ipa": "/ˈɪmplɪment/",
+      "verbForms": {
+        "base": "implement",
+        "s3": "implements",
+        "ing": "implementing",
+        "past": "implemented",
+        "pastParticiple": "implemented"
+      },
+      "synonyms": [
+        "execute",
+        "apply"
+      ],
+      "antonyms": [
+        "ignore",
+        "abandon"
+      ],
+      "sentences": {
+        "daily": "I have implemented a new routine.",
+        "office": "She has implemented the new process.",
+        "interview": "I have implemented cost-saving measures.",
+        "business": "We have implemented the new software.",
+        "formal": "He has implemented the government directive.",
+        "informal": "I've implemented the changes suggested."
+      },
+      "usageNote": "'implement + plan/policy/change' formal।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 21,
+      "word": "launch",
+      "hindi": "शुरू करना/लॉन्च करना",
+      "simpleMeaning": "to start or introduce something new",
+      "ipa": "/lɔːntʃ/",
+      "verbForms": {
+        "base": "launch",
+        "s3": "launches",
+        "ing": "launching",
+        "past": "launched",
+        "pastParticiple": "launched"
+      },
+      "synonyms": [
+        "introduce",
+        "start"
+      ],
+      "antonyms": [
+        "end",
+        "discontinue"
+      ],
+      "sentences": {
+        "daily": "I have launched a new blog.",
+        "office": "She has launched the marketing campaign.",
+        "interview": "I have launched two mobile apps.",
+        "business": "We have launched our new product.",
+        "formal": "He has launched his inaugural speech.",
+        "informal": "I've launched my YouTube channel!"
+      },
+      "usageNote": "'launch a product/campaign/initiative' business।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 22,
+      "word": "propose",
+      "hindi": "प्रस्ताव देना",
+      "simpleMeaning": "to suggest a plan or idea for consideration",
+      "ipa": "/prəˈpəʊz/",
+      "verbForms": {
+        "base": "propose",
+        "s3": "proposes",
+        "ing": "proposing",
+        "past": "proposed",
+        "pastParticiple": "proposed"
+      },
+      "synonyms": [
+        "suggest",
+        "recommend"
+      ],
+      "antonyms": [
+        "oppose",
+        "reject"
+      ],
+      "sentences": {
+        "daily": "I have proposed a new plan.",
+        "office": "She has proposed a budget increase.",
+        "interview": "I have proposed innovative solutions.",
+        "business": "We have proposed a partnership model.",
+        "formal": "He has proposed an amendment to the policy.",
+        "informal": "I proposed the idea at the meeting."
+      },
+      "usageNote": "'propose + idea/plan/solution' formal।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 23,
+      "word": "negotiate",
+      "hindi": "बातचीत करना/समझौता करना",
+      "simpleMeaning": "to discuss and reach an agreement",
+      "ipa": "/nɪˈɡəʊʃieɪt/",
+      "verbForms": {
+        "base": "negotiate",
+        "s3": "negotiates",
+        "ing": "negotiating",
+        "past": "negotiated",
+        "pastParticiple": "negotiated"
+      },
+      "synonyms": [
+        "discuss",
+        "bargain"
+      ],
+      "antonyms": [
+        "refuse",
+        "impose"
+      ],
+      "sentences": {
+        "daily": "I have negotiated a good price.",
+        "office": "She has negotiated a better contract.",
+        "interview": "I have negotiated vendor agreements.",
+        "business": "We have negotiated a merger deal.",
+        "formal": "He has negotiated diplomatic terms.",
+        "informal": "I negotiated the price down."
+      },
+      "usageNote": "'negotiate a deal/contract' business word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 24,
+      "word": "represent",
+      "hindi": "प्रतिनिधित्व करना",
+      "simpleMeaning": "to speak or act on behalf of someone",
+      "ipa": "/ˌreprɪˈzent/",
+      "verbForms": {
+        "base": "represent",
+        "s3": "represents",
+        "ing": "representing",
+        "past": "represented",
+        "pastParticiple": "represented"
+      },
+      "synonyms": [
+        "stand for",
+        "symbolize"
+      ],
+      "antonyms": [
+        "misrepresent",
+        "oppose"
+      ],
+      "sentences": {
+        "daily": "I have represented my school at the competition.",
+        "office": "She represents the HR department.",
+        "interview": "I have represented my company at global events.",
+        "business": "We represent our clients' interests.",
+        "formal": "He has represented the nation at the summit.",
+        "informal": "I represented my team in the match."
+      },
+      "usageNote": "'represent + organization/team/country' formal।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 25,
+      "word": "contribute",
+      "hindi": "योगदान देना",
+      "simpleMeaning": "to give something to help achieve a result",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "verbForms": {
+        "base": "contribute",
+        "s3": "contributes",
+        "ing": "contributing",
+        "past": "contributed",
+        "pastParticiple": "contributed"
+      },
+      "synonyms": [
+        "add",
+        "donate"
+      ],
+      "antonyms": [
+        "take",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "I have contributed to the project.",
+        "office": "She has contributed valuable ideas.",
+        "interview": "I have contributed to cost reduction.",
+        "business": "We have contributed to the industry.",
+        "formal": "He has contributed to academic research.",
+        "informal": "I've contributed my share."
+      },
+      "usageNote": "'contribute to + project/team' common।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 26,
+      "word": "support",
+      "hindi": "समर्थन करना/सहायता करना",
+      "simpleMeaning": "to give help or encouragement",
+      "ipa": "/səˈpɔːt/",
+      "verbForms": {
+        "base": "support",
+        "s3": "supports",
+        "ing": "supporting",
+        "past": "supported",
+        "pastParticiple": "supported"
+      },
+      "synonyms": [
+        "help",
+        "assist"
+      ],
+      "antonyms": [
+        "oppose",
+        "hinder"
+      ],
+      "sentences": {
+        "daily": "I have supported my family.",
+        "office": "She has supported the new initiative.",
+        "interview": "I have supported junior team members.",
+        "business": "We have supported our clients.",
+        "formal": "He has supported the legislative bill.",
+        "informal": "I've always supported your decisions."
+      },
+      "usageNote": "'support + person/team/initiative' versatile।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 27,
+      "word": "coordinate",
+      "hindi": "समन्वय करना",
+      "simpleMeaning": "to organize different activities to work together",
+      "ipa": "/kəʊˈɔːdɪneɪt/",
+      "verbForms": {
+        "base": "coordinate",
+        "s3": "coordinates",
+        "ing": "coordinating",
+        "past": "coordinated",
+        "pastParticiple": "coordinated"
+      },
+      "synonyms": [
+        "organize",
+        "manage"
+      ],
+      "antonyms": [
+        "disrupt",
+        "conflict"
+      ],
+      "sentences": {
+        "daily": "I have coordinated the event schedule.",
+        "office": "She has coordinated with all departments.",
+        "interview": "I have coordinated multiple projects.",
+        "business": "We have coordinated with our suppliers.",
+        "formal": "He has coordinated the national campaign.",
+        "informal": "I coordinated with everyone."
+      },
+      "usageNote": "'coordinate + with / efforts' professional।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 28,
+      "word": "allocate",
+      "hindi": "आवंटित करना",
+      "simpleMeaning": "to distribute or assign resources",
+      "ipa": "/ˈæləkeɪt/",
+      "verbForms": {
+        "base": "allocate",
+        "s3": "allocates",
+        "ing": "allocating",
+        "past": "allocated",
+        "pastParticiple": "allocated"
+      },
+      "synonyms": [
+        "assign",
+        "distribute"
+      ],
+      "antonyms": [
+        "withhold",
+        "take back"
+      ],
+      "sentences": {
+        "daily": "I have allocated time for exercise.",
+        "office": "She has allocated tasks to the team.",
+        "interview": "I have allocated budgets for campaigns.",
+        "business": "We have allocated resources wisely.",
+        "formal": "He has allocated funds to research.",
+        "informal": "I've allocated enough time for this."
+      },
+      "usageNote": "'allocate + resources/budget/time' office word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 29,
+      "word": "evaluate",
+      "hindi": "मूल्यांकन करना",
+      "simpleMeaning": "to judge or assess the value of something",
+      "ipa": "/ɪˈvæljueɪt/",
+      "verbForms": {
+        "base": "evaluate",
+        "s3": "evaluates",
+        "ing": "evaluating",
+        "past": "evaluated",
+        "pastParticiple": "evaluated"
+      },
+      "synonyms": [
+        "assess",
+        "judge"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "I have evaluated my options.",
+        "office": "She has evaluated the candidates.",
+        "interview": "I have evaluated team performance.",
+        "business": "We have evaluated the market risks.",
+        "formal": "He has evaluated the proposal thoroughly.",
+        "informal": "I've evaluated all the choices."
+      },
+      "usageNote": "'evaluate + performance/options' formal।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 30,
+      "word": "update",
+      "hindi": "अद्यतन करना/अपडेट करना",
+      "simpleMeaning": "to bring something up to date",
+      "ipa": "/ˈʌpdeɪt/",
+      "verbForms": {
+        "base": "update",
+        "s3": "updates",
+        "ing": "updating",
+        "past": "updated",
+        "pastParticiple": "updated"
+      },
+      "synonyms": [
+        "revise",
+        "refresh"
+      ],
+      "antonyms": [
+        "ignore",
+        "leave"
+      ],
+      "sentences": {
+        "daily": "I have updated my contact details.",
+        "office": "She has updated the database.",
+        "interview": "I have updated my skills regularly.",
+        "business": "We have updated our pricing.",
+        "formal": "He has updated the official records.",
+        "informal": "I've updated everything."
+      },
+      "usageNote": "'update + record/skills/profile' very common।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 31,
+      "word": "analyze",
+      "hindi": "विश्लेषण करना",
+      "simpleMeaning": "to examine something in detail",
+      "ipa": "/ˈænəlaɪz/",
+      "verbForms": {
+        "base": "analyze",
+        "s3": "analyzes",
+        "ing": "analyzing",
+        "past": "analyzed",
+        "pastParticiple": "analyzed"
+      },
+      "synonyms": [
+        "examine",
+        "study"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "I have analyzed my spending.",
+        "office": "She has analyzed the data.",
+        "interview": "I have analyzed market trends.",
+        "business": "We have analyzed the competition.",
+        "formal": "He has analyzed the policy impact.",
+        "informal": "I've analyzed the situation."
+      },
+      "usageNote": "'analyze + data/trends/results' technical।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 32,
+      "word": "schedule",
+      "hindi": "समय निर्धारित करना",
+      "simpleMeaning": "to arrange for something to happen at a particular time",
+      "ipa": "/ˈʃedjuːl/",
+      "verbForms": {
+        "base": "schedule",
+        "s3": "schedules",
+        "ing": "scheduling",
+        "past": "scheduled",
+        "pastParticiple": "scheduled"
+      },
+      "synonyms": [
+        "plan",
+        "arrange"
+      ],
+      "antonyms": [
+        "cancel",
+        "postpone"
+      ],
+      "sentences": {
+        "daily": "I have scheduled a doctor's appointment.",
+        "office": "She has scheduled a team meeting.",
+        "interview": "I have scheduled my time effectively.",
+        "business": "We have scheduled the product launch.",
+        "formal": "He has scheduled the parliamentary session.",
+        "informal": "I've scheduled everything for tomorrow."
+      },
+      "usageNote": "'schedule + meeting/appointment/event'।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 33,
+      "word": "approve",
+      "hindi": "अनुमोदित करना/स्वीकृत करना",
+      "simpleMeaning": "to officially agree to or accept something",
+      "ipa": "/əˈpruːv/",
+      "verbForms": {
+        "base": "approve",
+        "s3": "approves",
+        "ing": "approving",
+        "past": "approved",
+        "pastParticiple": "approved"
+      },
+      "synonyms": [
+        "accept",
+        "sanction"
+      ],
+      "antonyms": [
+        "reject",
+        "deny"
+      ],
+      "sentences": {
+        "daily": "I have approved the plan.",
+        "office": "She has approved the leave request.",
+        "interview": "I have approved budgets for projects.",
+        "business": "We have approved the new vendor.",
+        "formal": "He has approved the regulatory change.",
+        "informal": "I've approved it already."
+      },
+      "usageNote": "'approve + request/budget/plan' office।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 34,
+      "word": "train",
+      "hindi": "प्रशिक्षण देना",
+      "simpleMeaning": "to teach a person or animal a skill",
+      "ipa": "/treɪn/",
+      "verbForms": {
+        "base": "train",
+        "s3": "trains",
+        "ing": "training",
+        "past": "trained",
+        "pastParticiple": "trained"
+      },
+      "synonyms": [
+        "teach",
+        "coach"
+      ],
+      "antonyms": [
+        "untrain",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I have trained for the marathon.",
+        "office": "She has trained new employees.",
+        "interview": "I have trained over 50 team members.",
+        "business": "We have trained our sales force.",
+        "formal": "He has trained the national team.",
+        "informal": "I've trained hard for this."
+      },
+      "usageNote": "'train + employees/team/self' common।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 35,
+      "word": "recruit",
+      "hindi": "भर्ती करना",
+      "simpleMeaning": "to find new people to join a team",
+      "ipa": "/rɪˈkruːt/",
+      "verbForms": {
+        "base": "recruit",
+        "s3": "recruits",
+        "ing": "recruiting",
+        "past": "recruited",
+        "pastParticiple": "recruited"
+      },
+      "synonyms": [
+        "hire",
+        "employ"
+      ],
+      "antonyms": [
+        "fire",
+        "dismiss"
+      ],
+      "sentences": {
+        "daily": "I have recruited a helper.",
+        "office": "She has recruited talented engineers.",
+        "interview": "I have recruited and onboarded new staff.",
+        "business": "We have recruited 100 employees this year.",
+        "formal": "He has recruited specialists for the project.",
+        "informal": "I've recruited some good people."
+      },
+      "usageNote": "'recruit + talent/employees' HR word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 36,
+      "word": "handle",
+      "hindi": "संभालना",
+      "simpleMeaning": "to manage or deal with something",
+      "ipa": "/ˈhændl/",
+      "verbForms": {
+        "base": "handle",
+        "s3": "handles",
+        "ing": "handling",
+        "past": "handled",
+        "pastParticiple": "handled"
+      },
+      "synonyms": [
+        "manage",
+        "deal with"
+      ],
+      "antonyms": [
+        "mishandle",
+        "avoid"
+      ],
+      "sentences": {
+        "daily": "I have handled the situation well.",
+        "office": "She has handled the client meeting.",
+        "interview": "I have handled escalated complaints.",
+        "business": "We have handled over 200 client accounts.",
+        "formal": "He has handled complex legal matters.",
+        "informal": "I've handled tougher situations."
+      },
+      "usageNote": "'handle + situation/client/complaint' interview word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 37,
+      "word": "invest",
+      "hindi": "निवेश करना",
+      "simpleMeaning": "to put money or time into something for future gain",
+      "ipa": "/ɪnˈvest/",
+      "verbForms": {
+        "base": "invest",
+        "s3": "invests",
+        "ing": "investing",
+        "past": "invested",
+        "pastParticiple": "invested"
+      },
+      "synonyms": [
+        "fund",
+        "commit"
+      ],
+      "antonyms": [
+        "withdraw",
+        "waste"
+      ],
+      "sentences": {
+        "daily": "I have invested in good books.",
+        "office": "She has invested time in training.",
+        "interview": "I have invested in professional certifications.",
+        "business": "We have invested in new technology.",
+        "formal": "He has invested in sustainable projects.",
+        "informal": "I've invested in myself."
+      },
+      "usageNote": "'invest in + future/skills/business'।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 38,
+      "word": "present",
+      "hindi": "प्रस्तुत करना",
+      "simpleMeaning": "to show or explain something to an audience",
+      "ipa": "/prɪˈzent/",
+      "verbForms": {
+        "base": "present",
+        "s3": "presents",
+        "ing": "presenting",
+        "past": "presented",
+        "pastParticiple": "presented"
+      },
+      "synonyms": [
+        "show",
+        "display"
+      ],
+      "antonyms": [
+        "conceal",
+        "hide"
+      ],
+      "sentences": {
+        "daily": "I have presented my ideas.",
+        "office": "She has presented the quarterly results.",
+        "interview": "I have presented to senior management.",
+        "business": "We have presented our proposal.",
+        "formal": "He has presented his findings.",
+        "informal": "I've presented my case clearly."
+      },
+      "usageNote": "'present + findings/data/idea' formal।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 39,
+      "word": "motivate",
+      "hindi": "प्रेरित करना",
+      "simpleMeaning": "to encourage someone to take action",
+      "ipa": "/ˈməʊtɪveɪt/",
+      "verbForms": {
+        "base": "motivate",
+        "s3": "motivates",
+        "ing": "motivating",
+        "past": "motivated",
+        "pastParticiple": "motivated"
+      },
+      "synonyms": [
+        "inspire",
+        "encourage"
+      ],
+      "antonyms": [
+        "discourage",
+        "demotivate"
+      ],
+      "sentences": {
+        "daily": "I have motivated myself daily.",
+        "office": "She has motivated her team.",
+        "interview": "I have motivated cross-functional teams.",
+        "business": "We have motivated our partners.",
+        "formal": "He has motivated students to excel.",
+        "informal": "I've motivated friends to work out."
+      },
+      "usageNote": "'motivate + team/self' leadership word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 40,
+      "word": "collaborate",
+      "hindi": "मिलकर काम करना",
+      "simpleMeaning": "to work together with others",
+      "ipa": "/kəˈlæbəreɪt/",
+      "verbForms": {
+        "base": "collaborate",
+        "s3": "collaborates",
+        "ing": "collaborating",
+        "past": "collaborated",
+        "pastParticiple": "collaborated"
+      },
+      "synonyms": [
+        "cooperate",
+        "partner"
+      ],
+      "antonyms": [
+        "compete",
+        "work alone"
+      ],
+      "sentences": {
+        "daily": "I have collaborated with my neighbors.",
+        "office": "She has collaborated with multiple departments.",
+        "interview": "I have collaborated on international projects.",
+        "business": "We have collaborated with global partners.",
+        "formal": "He has collaborated on a joint research paper.",
+        "informal": "I've collaborated on this project."
+      },
+      "usageNote": "'collaborate with/on' professional context।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 41,
+      "word": "communicate",
+      "hindi": "संवाद करना",
+      "simpleMeaning": "to share information with others",
+      "ipa": "/kəˈmjuːnɪkeɪt/",
+      "verbForms": {
+        "base": "communicate",
+        "s3": "communicates",
+        "ing": "communicating",
+        "past": "communicated",
+        "pastParticiple": "communicated"
+      },
+      "synonyms": [
+        "convey",
+        "share"
+      ],
+      "antonyms": [
+        "withhold",
+        "hide"
+      ],
+      "sentences": {
+        "daily": "I have communicated clearly.",
+        "office": "She has communicated the changes to the team.",
+        "interview": "I have communicated effectively with clients.",
+        "business": "We have communicated our strategy.",
+        "formal": "He has communicated the decision officially.",
+        "informal": "I've communicated everything already."
+      },
+      "usageNote": "'communicate + effectively/with' professional key word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 42,
+      "word": "lead",
+      "hindi": "नेतृत्व करना",
+      "simpleMeaning": "to guide or direct a group",
+      "ipa": "/liːd/",
+      "verbForms": {
+        "base": "lead",
+        "s3": "leads",
+        "ing": "leading",
+        "past": "led",
+        "pastParticiple": "led"
+      },
+      "synonyms": [
+        "guide",
+        "direct"
+      ],
+      "antonyms": [
+        "follow",
+        "obey"
+      ],
+      "sentences": {
+        "daily": "I have led the group project.",
+        "office": "She has led the marketing team.",
+        "interview": "I have led teams of up to 20 people.",
+        "business": "We have led the industry in innovation.",
+        "formal": "He has led the national initiative.",
+        "informal": "I've led our team to victory."
+      },
+      "usageNote": "'lead a team/project/initiative' interview word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 43,
+      "word": "oversee",
+      "hindi": "देखरेख करना",
+      "simpleMeaning": "to watch over and supervise work",
+      "ipa": "/ˌəʊvəˈsiː/",
+      "verbForms": {
+        "base": "oversee",
+        "s3": "oversees",
+        "ing": "overseeing",
+        "past": "oversaw",
+        "pastParticiple": "overseen"
+      },
+      "synonyms": [
+        "supervise",
+        "monitor"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I have overseen the household work.",
+        "office": "She has overseen the entire department.",
+        "interview": "I have overseen multiple simultaneous projects.",
+        "business": "We have overseen the merger process.",
+        "formal": "He has overseen the audit process.",
+        "informal": "I've overseen everything."
+      },
+      "usageNote": "'oversee + department/project' senior role word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 44,
+      "word": "ensure",
+      "hindi": "सुनिश्चित करना",
+      "simpleMeaning": "to make certain that something happens",
+      "ipa": "/ɪnˈʃʊər/",
+      "verbForms": {
+        "base": "ensure",
+        "s3": "ensures",
+        "ing": "ensuring",
+        "past": "ensured",
+        "pastParticiple": "ensured"
+      },
+      "synonyms": [
+        "guarantee",
+        "make sure"
+      ],
+      "antonyms": [
+        "neglect",
+        "risk"
+      ],
+      "sentences": {
+        "daily": "I have ensured everything is ready.",
+        "office": "She has ensured the deadline is met.",
+        "interview": "I have ensured quality in all my deliverables.",
+        "business": "We have ensured client satisfaction.",
+        "formal": "He has ensured compliance with regulations.",
+        "informal": "I've ensured everything's fine."
+      },
+      "usageNote": "'ensure + quality/compliance/satisfaction' formal।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 45,
+      "word": "prioritize",
+      "hindi": "प्राथमिकता देना",
+      "simpleMeaning": "to decide what is most important and focus on that first",
+      "ipa": "/praɪˈɒrɪtaɪz/",
+      "verbForms": {
+        "base": "prioritize",
+        "s3": "prioritizes",
+        "ing": "prioritizing",
+        "past": "prioritized",
+        "pastParticiple": "prioritized"
+      },
+      "synonyms": [
+        "rank",
+        "organize"
+      ],
+      "antonyms": [
+        "ignore",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I have prioritized my health.",
+        "office": "She has prioritized urgent tasks.",
+        "interview": "I have prioritized work based on business impact.",
+        "business": "We have prioritized customer needs.",
+        "formal": "He has prioritized the agenda items.",
+        "informal": "I've prioritized what matters most."
+      },
+      "usageNote": "'prioritize + tasks/goals' professional।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 46,
+      "word": "delegate",
+      "hindi": "सौंपना/प्रतिनिधि बनाना",
+      "simpleMeaning": "to give tasks to someone else to do",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "verbForms": {
+        "base": "delegate",
+        "s3": "delegates",
+        "ing": "delegating",
+        "past": "delegated",
+        "pastParticiple": "delegated"
+      },
+      "synonyms": [
+        "assign",
+        "entrust"
+      ],
+      "antonyms": [
+        "retain",
+        "micromanage"
+      ],
+      "sentences": {
+        "daily": "I have delegated home tasks.",
+        "office": "She has delegated work to her team.",
+        "interview": "I have delegated responsibilities effectively.",
+        "business": "We have delegated operational tasks.",
+        "formal": "He has delegated authority to his deputies.",
+        "informal": "I've delegated, don't worry."
+      },
+      "usageNote": "'delegate + tasks/authority' leadership word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 47,
+      "word": "reduce",
+      "hindi": "कम करना",
+      "simpleMeaning": "to make something smaller in amount or size",
+      "ipa": "/rɪˈdjuːs/",
+      "verbForms": {
+        "base": "reduce",
+        "s3": "reduces",
+        "ing": "reducing",
+        "past": "reduced",
+        "pastParticiple": "reduced"
+      },
+      "synonyms": [
+        "decrease",
+        "cut"
+      ],
+      "antonyms": [
+        "increase",
+        "raise"
+      ],
+      "sentences": {
+        "daily": "I have reduced my screen time.",
+        "office": "She has reduced operational costs.",
+        "interview": "I have reduced turnaround time by 20%.",
+        "business": "We have reduced our carbon footprint.",
+        "formal": "He has reduced the budget deficit.",
+        "informal": "I've reduced spending this month."
+      },
+      "usageNote": "'reduce + costs/time/waste' professional।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 48,
+      "word": "increase",
+      "hindi": "बढ़ाना",
+      "simpleMeaning": "to become or make something larger",
+      "ipa": "/ɪnˈkriːs/",
+      "verbForms": {
+        "base": "increase",
+        "s3": "increases",
+        "ing": "increasing",
+        "past": "increased",
+        "pastParticiple": "increased"
+      },
+      "synonyms": [
+        "raise",
+        "grow"
+      ],
+      "antonyms": [
+        "reduce",
+        "decrease"
+      ],
+      "sentences": {
+        "daily": "I have increased my reading speed.",
+        "office": "She has increased the team's productivity.",
+        "interview": "I have increased sales by 15%.",
+        "business": "We have increased our market share.",
+        "formal": "He has increased the allocation significantly.",
+        "informal": "I've increased my pace at the gym."
+      },
+      "usageNote": "'increase + productivity/sales/revenue' business।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 49,
+      "word": "expand",
+      "hindi": "विस्तार करना",
+      "simpleMeaning": "to become larger or include more",
+      "ipa": "/ɪkˈspænd/",
+      "verbForms": {
+        "base": "expand",
+        "s3": "expands",
+        "ing": "expanding",
+        "past": "expanded",
+        "pastParticiple": "expanded"
+      },
+      "synonyms": [
+        "grow",
+        "widen"
+      ],
+      "antonyms": [
+        "shrink",
+        "contract"
+      ],
+      "sentences": {
+        "daily": "I have expanded my vocabulary.",
+        "office": "She has expanded the product line.",
+        "interview": "I have expanded the company's client base.",
+        "business": "We have expanded into new markets.",
+        "formal": "He has expanded the institution's reach.",
+        "informal": "I've expanded my network."
+      },
+      "usageNote": "'expand + business/network/skills' growth word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 50,
+      "word": "retain",
+      "hindi": "बनाए रखना/रोके रखना",
+      "simpleMeaning": "to keep something or someone",
+      "ipa": "/rɪˈteɪn/",
+      "verbForms": {
+        "base": "retain",
+        "s3": "retains",
+        "ing": "retaining",
+        "past": "retained",
+        "pastParticiple": "retained"
+      },
+      "synonyms": [
+        "keep",
+        "maintain"
+      ],
+      "antonyms": [
+        "lose",
+        "release"
+      ],
+      "sentences": {
+        "daily": "I have retained good habits.",
+        "office": "She has retained all top employees.",
+        "interview": "I have retained clients for over three years.",
+        "business": "We have retained 95% of our customers.",
+        "formal": "He has retained the organizational structure.",
+        "informal": "I've retained the key information."
+      },
+      "usageNote": "'retain + clients/employees/knowledge' business।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 51,
+      "word": "onboard",
+      "hindi": "नए कर्मचारियों को जोड़ना",
+      "simpleMeaning": "to integrate a new employee into a company",
+      "ipa": "/ˈɒnbɔːd/",
+      "verbForms": {
+        "base": "onboard",
+        "s3": "onboards",
+        "ing": "onboarding",
+        "past": "onboarded",
+        "pastParticiple": "onboarded"
+      },
+      "synonyms": [
+        "integrate",
+        "bring in"
+      ],
+      "antonyms": [
+        "exit",
+        "offboard"
+      ],
+      "sentences": {
+        "daily": "I have onboarded a new helper.",
+        "office": "She has onboarded three new hires.",
+        "interview": "I have onboarded teams across departments.",
+        "business": "We have onboarded new franchise partners.",
+        "formal": "He has onboarded the new division head.",
+        "informal": "I've onboarded two people this week."
+      },
+      "usageNote": "'onboard + employees/clients' HR/business word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 52,
+      "word": "monitor",
+      "hindi": "निगरानी करना",
+      "simpleMeaning": "to watch and check regularly",
+      "ipa": "/ˈmɒnɪtər/",
+      "verbForms": {
+        "base": "monitor",
+        "s3": "monitors",
+        "ing": "monitoring",
+        "past": "monitored",
+        "pastParticiple": "monitored"
+      },
+      "synonyms": [
+        "observe",
+        "track"
+      ],
+      "antonyms": [
+        "ignore",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I have monitored my blood pressure.",
+        "office": "She has monitored the project progress.",
+        "interview": "I have monitored KPIs regularly.",
+        "business": "We have monitored market trends.",
+        "formal": "He has monitored the quality control process.",
+        "informal": "I've monitored everything closely."
+      },
+      "usageNote": "'monitor + KPIs/progress/performance' office।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 53,
+      "word": "review",
+      "hindi": "समीक्षा करना",
+      "simpleMeaning": "to examine something again carefully",
+      "ipa": "/rɪˈvjuː/",
+      "verbForms": {
+        "base": "review",
+        "s3": "reviews",
+        "ing": "reviewing",
+        "past": "reviewed",
+        "pastParticiple": "reviewed"
+      },
+      "synonyms": [
+        "assess",
+        "check"
+      ],
+      "antonyms": [
+        "ignore",
+        "skip"
+      ],
+      "sentences": {
+        "daily": "I have reviewed my notes.",
+        "office": "She has reviewed all the documents.",
+        "interview": "I have reviewed processes to improve efficiency.",
+        "business": "We have reviewed our pricing strategy.",
+        "formal": "He has reviewed the terms of the contract.",
+        "informal": "I've reviewed the plan."
+      },
+      "usageNote": "'review + documents/performance/plan' formal।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 54,
+      "word": "design",
+      "hindi": "डिज़ाइन करना",
+      "simpleMeaning": "to plan and create something",
+      "ipa": "/dɪˈzaɪn/",
+      "verbForms": {
+        "base": "design",
+        "s3": "designs",
+        "ing": "designing",
+        "past": "designed",
+        "pastParticiple": "designed"
+      },
+      "synonyms": [
+        "create",
+        "plan"
+      ],
+      "antonyms": [
+        "destroy",
+        "copy"
+      ],
+      "sentences": {
+        "daily": "I have designed a new logo.",
+        "office": "She has designed a training module.",
+        "interview": "I have designed end-to-end workflows.",
+        "business": "We have designed an innovative product.",
+        "formal": "He has designed the architectural blueprint.",
+        "informal": "I've designed the poster already."
+      },
+      "usageNote": "'design + solution/system/workflow' tech word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 55,
+      "word": "execute",
+      "hindi": "कार्यान्वित करना",
+      "simpleMeaning": "to carry out or put into action",
+      "ipa": "/ˈeksɪkjuːt/",
+      "verbForms": {
+        "base": "execute",
+        "s3": "executes",
+        "ing": "executing",
+        "past": "executed",
+        "pastParticiple": "executed"
+      },
+      "synonyms": [
+        "implement",
+        "perform"
+      ],
+      "antonyms": [
+        "plan",
+        "abandon"
+      ],
+      "sentences": {
+        "daily": "I have executed the plan.",
+        "office": "She has executed the campaign flawlessly.",
+        "interview": "I have executed strategies that increased revenue.",
+        "business": "We have executed the deal successfully.",
+        "formal": "He has executed the order without delay.",
+        "informal": "I've executed everything on time."
+      },
+      "usageNote": "'execute + plan/strategy/task' formal।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 56,
+      "word": "forecast",
+      "hindi": "पूर्वानुमान करना",
+      "simpleMeaning": "to predict future events or trends",
+      "ipa": "/ˈfɔːkɑːst/",
+      "verbForms": {
+        "base": "forecast",
+        "s3": "forecasts",
+        "ing": "forecasting",
+        "past": "forecasted",
+        "pastParticiple": "forecasted"
+      },
+      "synonyms": [
+        "predict",
+        "project"
+      ],
+      "antonyms": [
+        "ignore",
+        "react"
+      ],
+      "sentences": {
+        "daily": "I have forecast the budget for next month.",
+        "office": "She has forecast the quarterly sales.",
+        "interview": "I have forecasted demand for supply planning.",
+        "business": "We have forecasted 20% growth.",
+        "formal": "He has forecast the economic outlook.",
+        "informal": "I've forecast better results next time."
+      },
+      "usageNote": "'forecast + sales/demand/growth' business।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 57,
+      "word": "optimize",
+      "hindi": "अनुकूलित करना",
+      "simpleMeaning": "to make something as good as possible",
+      "ipa": "/ˈɒptɪmaɪz/",
+      "verbForms": {
+        "base": "optimize",
+        "s3": "optimizes",
+        "ing": "optimizing",
+        "past": "optimized",
+        "pastParticiple": "optimized"
+      },
+      "synonyms": [
+        "improve",
+        "enhance"
+      ],
+      "antonyms": [
+        "worsen",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I have optimized my daily routine.",
+        "office": "She has optimized the workflow.",
+        "interview": "I have optimized database queries by 40%.",
+        "business": "We have optimized our supply chain.",
+        "formal": "He has optimized the regulatory process.",
+        "informal": "I've optimized everything I can."
+      },
+      "usageNote": "'optimize + process/code/workflow' tech/business।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 58,
+      "word": "streamline",
+      "hindi": "सरल बनाना/प्रवाहित करना",
+      "simpleMeaning": "to make a process more efficient",
+      "ipa": "/ˈstriːmlaɪn/",
+      "verbForms": {
+        "base": "streamline",
+        "s3": "streamlines",
+        "ing": "streamlining",
+        "past": "streamlined",
+        "pastParticiple": "streamlined"
+      },
+      "synonyms": [
+        "simplify",
+        "modernize"
+      ],
+      "antonyms": [
+        "complicate",
+        "delay"
+      ],
+      "sentences": {
+        "daily": "I have streamlined my study process.",
+        "office": "She has streamlined the approval process.",
+        "interview": "I have streamlined operations reducing waste by 30%.",
+        "business": "We have streamlined our supply chain.",
+        "formal": "He has streamlined government procedures.",
+        "informal": "I've streamlined things a lot."
+      },
+      "usageNote": "'streamline + operations/process' advanced professional।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 59,
+      "word": "identify",
+      "hindi": "पहचानना",
+      "simpleMeaning": "to recognize or find out who or what something is",
+      "ipa": "/aɪˈdentɪfaɪ/",
+      "verbForms": {
+        "base": "identify",
+        "s3": "identifies",
+        "ing": "identifying",
+        "past": "identified",
+        "pastParticiple": "identified"
+      },
+      "synonyms": [
+        "recognize",
+        "pinpoint"
+      ],
+      "antonyms": [
+        "overlook",
+        "miss"
+      ],
+      "sentences": {
+        "daily": "I have identified the problem.",
+        "office": "She has identified key risk areas.",
+        "interview": "I have identified gaps in the process.",
+        "business": "We have identified a new market opportunity.",
+        "formal": "He has identified the root cause.",
+        "informal": "I've identified the issue."
+      },
+      "usageNote": "'identify + issue/opportunity/risk' professional।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 60,
+      "word": "initiate",
+      "hindi": "शुरू करना/आरंभ करना",
+      "simpleMeaning": "to begin or start something",
+      "ipa": "/ɪˈnɪʃɪeɪt/",
+      "verbForms": {
+        "base": "initiate",
+        "s3": "initiates",
+        "ing": "initiating",
+        "past": "initiated",
+        "pastParticiple": "initiated"
+      },
+      "synonyms": [
+        "start",
+        "begin"
+      ],
+      "antonyms": [
+        "stop",
+        "conclude"
+      ],
+      "sentences": {
+        "daily": "I have initiated a new habit.",
+        "office": "She has initiated a new project.",
+        "interview": "I have initiated process improvements.",
+        "business": "We have initiated a joint venture.",
+        "formal": "He has initiated a legislative review.",
+        "informal": "I've initiated talks."
+      },
+      "usageNote": "'initiate + project/process/discussion' formal।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 61,
+      "word": "transform",
+      "hindi": "रूपांतरित करना",
+      "simpleMeaning": "to change completely in form or character",
+      "ipa": "/trænsˈfɔːm/",
+      "verbForms": {
+        "base": "transform",
+        "s3": "transforms",
+        "ing": "transforming",
+        "past": "transformed",
+        "pastParticiple": "transformed"
+      },
+      "synonyms": [
+        "change",
+        "convert"
+      ],
+      "antonyms": [
+        "maintain",
+        "preserve"
+      ],
+      "sentences": {
+        "daily": "I have transformed my lifestyle.",
+        "office": "She has transformed the team culture.",
+        "interview": "I have transformed underperforming units.",
+        "business": "We have transformed our business model.",
+        "formal": "He has transformed the educational framework.",
+        "informal": "I've transformed a lot over the years."
+      },
+      "usageNote": "'transform + team/business/culture' strong impact word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 62,
+      "word": "innovate",
+      "hindi": "नवाचार करना",
+      "simpleMeaning": "to introduce new ideas or methods",
+      "ipa": "/ˈɪnəveɪt/",
+      "verbForms": {
+        "base": "innovate",
+        "s3": "innovates",
+        "ing": "innovating",
+        "past": "innovated",
+        "pastParticiple": "innovated"
+      },
+      "synonyms": [
+        "create",
+        "pioneer"
+      ],
+      "antonyms": [
+        "copy",
+        "follow"
+      ],
+      "sentences": {
+        "daily": "I have innovated my way of learning.",
+        "office": "She has innovated the recruitment process.",
+        "interview": "I have innovated solutions in my previous role.",
+        "business": "We have innovated consistently to stay ahead.",
+        "formal": "He has innovated the academic curriculum.",
+        "informal": "I've innovated a bit in my cooking too."
+      },
+      "usageNote": "'innovate + solutions/process/product' high-level word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 63,
+      "word": "assess",
+      "hindi": "आकलन करना",
+      "simpleMeaning": "to judge the quality or nature of something",
+      "ipa": "/əˈses/",
+      "verbForms": {
+        "base": "assess",
+        "s3": "assesses",
+        "ing": "assessing",
+        "past": "assessed",
+        "pastParticiple": "assessed"
+      },
+      "synonyms": [
+        "evaluate",
+        "judge"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "I have assessed my strengths.",
+        "office": "She has assessed employee performance.",
+        "interview": "I have assessed risks in multiple projects.",
+        "business": "We have assessed the market potential.",
+        "formal": "He has assessed the environmental impact.",
+        "informal": "I've assessed all my options."
+      },
+      "usageNote": "'assess + performance/risk/value' formal।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 64,
+      "word": "integrate",
+      "hindi": "एकीकृत करना",
+      "simpleMeaning": "to combine parts into a whole",
+      "ipa": "/ˈɪntɪɡreɪt/",
+      "verbForms": {
+        "base": "integrate",
+        "s3": "integrates",
+        "ing": "integrating",
+        "past": "integrated",
+        "pastParticiple": "integrated"
+      },
+      "synonyms": [
+        "combine",
+        "merge"
+      ],
+      "antonyms": [
+        "separate",
+        "isolate"
+      ],
+      "sentences": {
+        "daily": "I have integrated new habits into my life.",
+        "office": "She has integrated two software systems.",
+        "interview": "I have integrated cross-departmental workflows.",
+        "business": "We have integrated our operations globally.",
+        "formal": "He has integrated diverse groups.",
+        "informal": "I've integrated it all together."
+      },
+      "usageNote": "'integrate + systems/teams/processes' tech/business।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 65,
+      "word": "automate",
+      "hindi": "स्वचालित करना",
+      "simpleMeaning": "to use technology to do things without human effort",
+      "ipa": "/ˈɔːtəmeɪt/",
+      "verbForms": {
+        "base": "automate",
+        "s3": "automates",
+        "ing": "automating",
+        "past": "automated",
+        "pastParticiple": "automated"
+      },
+      "synonyms": [
+        "mechanize",
+        "digitize"
+      ],
+      "antonyms": [
+        "manually do",
+        "handcraft"
+      ],
+      "sentences": {
+        "daily": "I have automated my bill payments.",
+        "office": "She has automated the reporting process.",
+        "interview": "I have automated data entry reducing errors by 50%.",
+        "business": "We have automated our warehouse.",
+        "formal": "He has automated compliance reporting.",
+        "informal": "I've automated most repetitive tasks."
+      },
+      "usageNote": "'automate + process/task' IT/business word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 66,
+      "word": "assign",
+      "hindi": "सौंपना/नियुक्त करना",
+      "simpleMeaning": "to give someone a task or responsibility",
+      "ipa": "/əˈsaɪn/",
+      "verbForms": {
+        "base": "assign",
+        "s3": "assigns",
+        "ing": "assigning",
+        "past": "assigned",
+        "pastParticiple": "assigned"
+      },
+      "synonyms": [
+        "allocate",
+        "give"
+      ],
+      "antonyms": [
+        "withhold",
+        "take back"
+      ],
+      "sentences": {
+        "daily": "I have assigned tasks to everyone.",
+        "office": "She has assigned roles clearly.",
+        "interview": "I have assigned and tracked team tasks.",
+        "business": "We have assigned ownership of each deliverable.",
+        "formal": "He has assigned the case to a senior advocate.",
+        "informal": "I've assigned someone to handle it."
+      },
+      "usageNote": "'assign + task/role/responsibility' management word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 67,
+      "word": "upgrade",
+      "hindi": "उन्नत करना/अपग्रेड करना",
+      "simpleMeaning": "to improve or raise to a higher standard",
+      "ipa": "/ˈʌpɡreɪd/",
+      "verbForms": {
+        "base": "upgrade",
+        "s3": "upgrades",
+        "ing": "upgrading",
+        "past": "upgraded",
+        "pastParticiple": "upgraded"
+      },
+      "synonyms": [
+        "improve",
+        "enhance"
+      ],
+      "antonyms": [
+        "downgrade",
+        "lower"
+      ],
+      "sentences": {
+        "daily": "I have upgraded my phone.",
+        "office": "She has upgraded the office software.",
+        "interview": "I have upgraded my skills every year.",
+        "business": "We have upgraded our infrastructure.",
+        "formal": "He has upgraded the facility.",
+        "informal": "I've upgraded my laptop."
+      },
+      "usageNote": "'upgrade + skills/software/system' tech context।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 68,
+      "word": "acknowledge",
+      "hindi": "स्वीकार करना/पहचानना",
+      "simpleMeaning": "to recognize or admit something",
+      "ipa": "/əkˈnɒlɪdʒ/",
+      "verbForms": {
+        "base": "acknowledge",
+        "s3": "acknowledges",
+        "ing": "acknowledging",
+        "past": "acknowledged",
+        "pastParticiple": "acknowledged"
+      },
+      "synonyms": [
+        "admit",
+        "recognize"
+      ],
+      "antonyms": [
+        "deny",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I have acknowledged my mistake.",
+        "office": "She has acknowledged the feedback.",
+        "interview": "I have acknowledged areas for improvement.",
+        "business": "We have acknowledged client concerns.",
+        "formal": "He has acknowledged the contribution.",
+        "informal": "I've acknowledged what went wrong."
+      },
+      "usageNote": "'acknowledge + mistake/feedback' professional maturity word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 69,
+      "word": "commit",
+      "hindi": "प्रतिबद्ध होना",
+      "simpleMeaning": "to dedicate yourself to something",
+      "ipa": "/kəˈmɪt/",
+      "verbForms": {
+        "base": "commit",
+        "s3": "commits",
+        "ing": "committing",
+        "past": "committed",
+        "pastParticiple": "committed"
+      },
+      "synonyms": [
+        "dedicate",
+        "pledge"
+      ],
+      "antonyms": [
+        "abandon",
+        "quit"
+      ],
+      "sentences": {
+        "daily": "I have committed to my fitness goals.",
+        "office": "She has committed to the project deadline.",
+        "interview": "I have committed to continuous learning.",
+        "business": "We have committed to our clients.",
+        "formal": "He has committed to the national mission.",
+        "informal": "I've committed to finishing this."
+      },
+      "usageNote": "'commit to + goal/learning' strong professional word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 70,
+      "word": "challenge",
+      "hindi": "चुनौती देना/चुनौती स्वीकार करना",
+      "simpleMeaning": "a difficult task or situation that tests ability",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "verbForms": {
+        "base": "challenge",
+        "s3": "challenges",
+        "ing": "challenging",
+        "past": "challenged",
+        "pastParticiple": "challenged"
+      },
+      "synonyms": [
+        "test",
+        "push"
+      ],
+      "antonyms": [
+        "ease",
+        "help"
+      ],
+      "sentences": {
+        "daily": "I have challenged myself daily.",
+        "office": "She has challenged the old process.",
+        "interview": "I have challenged conventional thinking.",
+        "business": "We have challenged industry norms.",
+        "formal": "He has challenged the regulatory decision.",
+        "informal": "I've challenged myself to be better."
+      },
+      "usageNote": "'challenge + self/team/process' growth word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 71,
+      "word": "mentor",
+      "hindi": "मार्गदर्शक/सलाहकार",
+      "simpleMeaning": "to guide and advise someone less experienced",
+      "ipa": "/ˈmentɔːr/",
+      "verbForms": {
+        "base": "mentor",
+        "s3": "mentors",
+        "ing": "mentoring",
+        "past": "mentored",
+        "pastParticiple": "mentored"
+      },
+      "synonyms": [
+        "guide",
+        "coach"
+      ],
+      "antonyms": [
+        "ignore",
+        "discourage"
+      ],
+      "sentences": {
+        "daily": "I have mentored a younger sibling.",
+        "office": "She has mentored junior staff.",
+        "interview": "I have mentored team members in my career.",
+        "business": "We have mentored startup founders.",
+        "formal": "He has mentored graduate students.",
+        "informal": "I've mentored a few friends."
+      },
+      "usageNote": "'mentor + juniors/team' leadership role word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 72,
+      "word": "progress",
+      "hindi": "प्रगति करना",
+      "simpleMeaning": "to develop or move forward",
+      "ipa": "/ˈprəʊɡres/",
+      "verbForms": {
+        "base": "progress",
+        "s3": "progresses",
+        "ing": "progressing",
+        "past": "progressed",
+        "pastParticiple": "progressed"
+      },
+      "synonyms": [
+        "advance",
+        "develop"
+      ],
+      "antonyms": [
+        "regress",
+        "stagnate"
+      ],
+      "sentences": {
+        "daily": "I have progressed well this week.",
+        "office": "She has progressed quickly in her career.",
+        "interview": "I have progressed from an intern to a team lead.",
+        "business": "We have progressed to the final stage.",
+        "formal": "He has progressed through all levels.",
+        "informal": "I've progressed, step by step."
+      },
+      "usageNote": "'progress + in career/on task' versatile。",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 73,
+      "word": "strategize",
+      "hindi": "रणनीति बनाना",
+      "simpleMeaning": "to plan how to achieve a goal effectively",
+      "ipa": "/ˈstrætɪdʒaɪz/",
+      "verbForms": {
+        "base": "strategize",
+        "s3": "strategizes",
+        "ing": "strategizing",
+        "past": "strategized",
+        "pastParticiple": "strategized"
+      },
+      "synonyms": [
+        "plan",
+        "think ahead"
+      ],
+      "antonyms": [
+        "react",
+        "improvise"
+      ],
+      "sentences": {
+        "daily": "I have strategized my study plan.",
+        "office": "She has strategized the quarterly approach.",
+        "interview": "I have strategized ways to grow the customer base.",
+        "business": "We have strategized for market expansion.",
+        "formal": "He has strategized the institutional roadmap.",
+        "informal": "I've strategized my next move."
+      },
+      "usageNote": "'strategize + approach/plan' high-level word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 74,
+      "word": "influence",
+      "hindi": "प्रभावित करना",
+      "simpleMeaning": "to have an effect on someone or something",
+      "ipa": "/ˈɪnflʊəns/",
+      "verbForms": {
+        "base": "influence",
+        "s3": "influences",
+        "ing": "influencing",
+        "past": "influenced",
+        "pastParticiple": "influenced"
+      },
+      "synonyms": [
+        "affect",
+        "shape"
+      ],
+      "antonyms": [
+        "ignore",
+        "leave alone"
+      ],
+      "sentences": {
+        "daily": "I have influenced my friends positively.",
+        "office": "She has influenced the team culture.",
+        "interview": "I have influenced key decisions.",
+        "business": "We have influenced market trends.",
+        "formal": "He has influenced policy outcomes.",
+        "informal": "I've influenced a lot of people."
+      },
+      "usageNote": "'influence + decision/team/culture' professional।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 75,
+      "word": "facilitate",
+      "hindi": "सुविधाजनक बनाना",
+      "simpleMeaning": "to make a process easier",
+      "ipa": "/fəˈsɪlɪteɪt/",
+      "verbForms": {
+        "base": "facilitate",
+        "s3": "facilitates",
+        "ing": "facilitating",
+        "past": "facilitated",
+        "pastParticiple": "facilitated"
+      },
+      "synonyms": [
+        "enable",
+        "assist"
+      ],
+      "antonyms": [
+        "hinder",
+        "block"
+      ],
+      "sentences": {
+        "daily": "I have facilitated group discussions.",
+        "office": "She has facilitated the onboarding process.",
+        "interview": "I have facilitated workshops for 100+ participants.",
+        "business": "We have facilitated international trade.",
+        "formal": "He has facilitated the peace talks.",
+        "informal": "I've facilitated things smoothly."
+      },
+      "usageNote": "'facilitate + discussion/process/event' formal।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 76,
+      "word": "accomplish",
+      "hindi": "सम्पन्न करना",
+      "simpleMeaning": "to successfully complete something",
+      "ipa": "/əˈkɒmplɪʃ/",
+      "verbForms": {
+        "base": "accomplish",
+        "s3": "accomplishes",
+        "ing": "accomplishing",
+        "past": "accomplished",
+        "pastParticiple": "accomplished"
+      },
+      "synonyms": [
+        "achieve",
+        "complete"
+      ],
+      "antonyms": [
+        "fail",
+        "abandon"
+      ],
+      "sentences": {
+        "daily": "I have accomplished my daily goals.",
+        "office": "She has accomplished the assigned tasks.",
+        "interview": "I have accomplished significant milestones.",
+        "business": "We have accomplished our five-year plan.",
+        "formal": "He has accomplished exceptional results.",
+        "informal": "I've accomplished what I set out to do."
+      },
+      "usageNote": "'accomplish + goal/milestone/task' strong word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 77,
+      "word": "specialize",
+      "hindi": "विशेषज्ञता प्राप्त करना",
+      "simpleMeaning": "to concentrate on and become expert in a particular area",
+      "ipa": "/ˈspeʃəlaɪz/",
+      "verbForms": {
+        "base": "specialize",
+        "s3": "specializes",
+        "ing": "specializing",
+        "past": "specialized",
+        "pastParticiple": "specialized"
+      },
+      "synonyms": [
+        "focus",
+        "concentrate"
+      ],
+      "antonyms": [
+        "generalize",
+        "diversify"
+      ],
+      "sentences": {
+        "daily": "I have specialized in cooking Italian food.",
+        "office": "She has specialized in financial reporting.",
+        "interview": "I have specialized in machine learning.",
+        "business": "We have specialized in B2B solutions.",
+        "formal": "He has specialized in international arbitration.",
+        "informal": "I've specialized in one skill."
+      },
+      "usageNote": "'specialize in + field' career/interview word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 78,
+      "word": "certify",
+      "hindi": "प्रमाणित करना",
+      "simpleMeaning": "to officially confirm that something meets standards",
+      "ipa": "/ˈsɜːtɪfaɪ/",
+      "verbForms": {
+        "base": "certify",
+        "s3": "certifies",
+        "ing": "certifying",
+        "past": "certified",
+        "pastParticiple": "certified"
+      },
+      "synonyms": [
+        "verify",
+        "validate"
+      ],
+      "antonyms": [
+        "reject",
+        "deny"
+      ],
+      "sentences": {
+        "daily": "I have certified the document.",
+        "office": "She has certified the employee records.",
+        "interview": "I have certified in AWS and Google Cloud.",
+        "business": "We have certified our products.",
+        "formal": "He has certified the audit findings.",
+        "informal": "I've certified for driving."
+      },
+      "usageNote": "'certify in + certification/skill' IT/HR word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 79,
+      "word": "budget",
+      "hindi": "बजट बनाना/निर्धारित करना",
+      "simpleMeaning": "to plan how to spend money",
+      "ipa": "/ˈbʌdʒɪt/",
+      "verbForms": {
+        "base": "budget",
+        "s3": "budgets",
+        "ing": "budgeting",
+        "past": "budgeted",
+        "pastParticiple": "budgeted"
+      },
+      "synonyms": [
+        "plan",
+        "allocate"
+      ],
+      "antonyms": [
+        "overspend",
+        "waste"
+      ],
+      "sentences": {
+        "daily": "I have budgeted for the month.",
+        "office": "She has budgeted the campaign.",
+        "interview": "I have budgeted for large projects.",
+        "business": "We have budgeted for expansion.",
+        "formal": "He has budgeted the departmental expenses.",
+        "informal": "I've budgeted everything already."
+      },
+      "usageNote": "'budget for + project/event' finance word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 80,
+      "word": "report",
+      "hindi": "रिपोर्ट देना/रिपोर्ट करना",
+      "simpleMeaning": "to give information about something to someone",
+      "ipa": "/rɪˈpɔːt/",
+      "verbForms": {
+        "base": "report",
+        "s3": "reports",
+        "ing": "reporting",
+        "past": "reported",
+        "pastParticiple": "reported"
+      },
+      "synonyms": [
+        "inform",
+        "present"
+      ],
+      "antonyms": [
+        "withhold",
+        "conceal"
+      ],
+      "sentences": {
+        "daily": "I have reported the issue.",
+        "office": "She has reported the weekly status.",
+        "interview": "I have reported directly to the director.",
+        "business": "We have reported record profits.",
+        "formal": "He has reported the findings to the committee.",
+        "informal": "I've reported everything."
+      },
+      "usageNote": "'report to + manager/board/authority' professional।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 81,
+      "word": "follow up",
+      "hindi": "अनुसरण करना/फॉलो अप करना",
+      "simpleMeaning": "to contact someone again after an initial interaction",
+      "ipa": "/ˈfɒləʊ ʌp/",
+      "verbForms": {
+        "base": "follow up",
+        "s3": "follows up",
+        "ing": "following up",
+        "past": "followed up",
+        "pastParticiple": "followed up"
+      },
+      "synonyms": [
+        "check in",
+        "pursue"
+      ],
+      "antonyms": [
+        "drop",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I have followed up with the bank.",
+        "office": "She has followed up on the pending tasks.",
+        "interview": "I have followed up on all client requests.",
+        "business": "We have followed up on every lead.",
+        "formal": "He has followed up with the regulatory authority.",
+        "informal": "I've followed up, no response yet."
+      },
+      "usageNote": "'follow up on/with' very common in office email।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 82,
+      "word": "network",
+      "hindi": "नेटवर्क बनाना",
+      "simpleMeaning": "to build relationships with useful people",
+      "ipa": "/ˈnetwɜːk/",
+      "verbForms": {
+        "base": "network",
+        "s3": "networks",
+        "ing": "networking",
+        "past": "networked",
+        "pastParticiple": "networked"
+      },
+      "synonyms": [
+        "connect",
+        "build relations"
+      ],
+      "antonyms": [
+        "isolate",
+        "disconnect"
+      ],
+      "sentences": {
+        "daily": "I have networked with local entrepreneurs.",
+        "office": "She has networked across departments.",
+        "interview": "I have networked at industry events.",
+        "business": "We have networked with global investors.",
+        "formal": "He has networked with policymakers.",
+        "informal": "I've networked a lot at this conference."
+      },
+      "usageNote": "'network + with/at' career growth word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 83,
+      "word": "target",
+      "hindi": "लक्ष्य बनाना/निशाना करना",
+      "simpleMeaning": "to aim for a specific goal or group",
+      "ipa": "/ˈtɑːɡɪt/",
+      "verbForms": {
+        "base": "target",
+        "s3": "targets",
+        "ing": "targeting",
+        "past": "targeted",
+        "pastParticiple": "targeted"
+      },
+      "synonyms": [
+        "aim",
+        "focus"
+      ],
+      "antonyms": [
+        "miss",
+        "avoid"
+      ],
+      "sentences": {
+        "daily": "I have targeted a new fitness goal.",
+        "office": "She has targeted new customer segments.",
+        "interview": "I have targeted KPIs consistently.",
+        "business": "We have targeted the youth market.",
+        "formal": "He has targeted the underserved communities.",
+        "informal": "I've targeted my weak areas."
+      },
+      "usageNote": "'target + market/goal/audience' business word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 84,
+      "word": "feedback",
+      "hindi": "प्रतिक्रिया/फीडबैक",
+      "simpleMeaning": "information about how well something is working",
+      "ipa": "/ˈfiːdbæk/",
+      "verbForms": {
+        "base": "give feedback",
+        "s3": "gives feedback",
+        "ing": "giving feedback",
+        "past": "gave feedback",
+        "pastParticiple": "given feedback"
+      },
+      "synonyms": [
+        "review",
+        "comment"
+      ],
+      "antonyms": [
+        "ignore",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "I have given feedback on the food.",
+        "office": "She has given constructive feedback.",
+        "interview": "I have given and received feedback professionally.",
+        "business": "We have received positive client feedback.",
+        "formal": "He has provided official feedback.",
+        "informal": "I've given my honest feedback."
+      },
+      "usageNote": "'give/receive feedback' office common।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 85,
+      "word": "deadline",
+      "hindi": "समय सीमा",
+      "simpleMeaning": "the latest time or date by which something must be completed",
+      "ipa": "/ˈdedlaɪn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "due date",
+        "cutoff"
+      ],
+      "antonyms": [
+        "open-ended",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have a deadline for this task.",
+        "office": "She has met every deadline this month.",
+        "interview": "I always meet deadlines.",
+        "business": "We have a strict project deadline.",
+        "formal": "He submitted the document before the deadline.",
+        "informal": "I've got a crazy deadline today."
+      },
+      "usageNote": "'meet/miss a deadline' very common phrase।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 86,
+      "word": "milestone",
+      "hindi": "महत्वपूर्ण पड़ाव",
+      "simpleMeaning": "an important stage in a project or journey",
+      "ipa": "/ˈmaɪlstəʊn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "achievement",
+        "landmark"
+      ],
+      "antonyms": [
+        "setback",
+        "failure"
+      ],
+      "sentences": {
+        "daily": "I have reached an important milestone.",
+        "office": "She has completed the project milestone.",
+        "interview": "I have achieved major milestones in my career.",
+        "business": "We have hit every milestone this year.",
+        "formal": "He has accomplished all milestones.",
+        "informal": "I've hit a big milestone!"
+      },
+      "usageNote": "'hit/reach/achieve a milestone' business।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 87,
+      "word": "stakeholder",
+      "hindi": "हितधारक",
+      "simpleMeaning": "a person with an interest in a company or project",
+      "ipa": "/ˈsteɪkhəʊldər/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "investor",
+        "participant"
+      ],
+      "antonyms": [
+        "outsider",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I am a stakeholder in this project.",
+        "office": "She has informed all stakeholders.",
+        "interview": "I have managed stakeholder expectations.",
+        "business": "We have aligned with key stakeholders.",
+        "formal": "He has briefed the stakeholders.",
+        "informal": "I'm a stakeholder, so I care."
+      },
+      "usageNote": "'manage/inform stakeholders' formal project word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 88,
+      "word": "appraisal",
+      "hindi": "मूल्यांकन/परख",
+      "simpleMeaning": "a formal assessment of an employee's performance",
+      "ipa": "/əˈpreɪzl/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "evaluation",
+        "assessment"
+      ],
+      "antonyms": [
+        "ignorance",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have prepared for my appraisal.",
+        "office": "She has received a great appraisal.",
+        "interview": "I have consistently received positive appraisals.",
+        "business": "We have a structured appraisal system.",
+        "formal": "He has undergone a rigorous appraisal.",
+        "informal": "My appraisal went well!"
+      },
+      "usageNote": "'performance appraisal' HR term।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 89,
+      "word": "competency",
+      "hindi": "योग्यता/दक्षता",
+      "simpleMeaning": "the ability to do something successfully",
+      "ipa": "/ˈkɒmpɪtənsi/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "ability",
+        "skill"
+      ],
+      "antonyms": [
+        "incompetence",
+        "weakness"
+      ],
+      "sentences": {
+        "daily": "I have a core competency in communication.",
+        "office": "She has demonstrated key competencies.",
+        "interview": "I have strong competencies in project management.",
+        "business": "We have identified core competencies.",
+        "formal": "He has developed new competencies.",
+        "informal": "I have that competency."
+      },
+      "usageNote": "'core competency' HR/business formal word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 90,
+      "word": "initiative",
+      "hindi": "पहल/योजना",
+      "simpleMeaning": "the ability to take action independently, or a new plan",
+      "ipa": "/ɪˈnɪʃɪətɪv/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "drive",
+        "project"
+      ],
+      "antonyms": [
+        "passivity",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have taken the initiative.",
+        "office": "She has led a new initiative.",
+        "interview": "I have initiative and take ownership.",
+        "business": "We have launched a CSR initiative.",
+        "formal": "He has spearheaded the initiative.",
+        "informal": "I've shown initiative always."
+      },
+      "usageNote": "'take/show/lead an initiative' key professional phrase।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 91,
+      "word": "accountability",
+      "hindi": "जवाबदेही",
+      "simpleMeaning": "responsibility for one's actions",
+      "ipa": "/əˌkaʊntəˈbɪlɪti/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "responsibility",
+        "ownership"
+      ],
+      "antonyms": [
+        "irresponsibility",
+        "blame-shifting"
+      ],
+      "sentences": {
+        "daily": "I have accountability for my actions.",
+        "office": "She has shown accountability at work.",
+        "interview": "I have a strong sense of accountability.",
+        "business": "We have built a culture of accountability.",
+        "formal": "He has accountability for all outcomes.",
+        "informal": "I take accountability seriously."
+      },
+      "usageNote": "'have accountability' leadership/interview word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 92,
+      "word": "transparency",
+      "hindi": "पारदर्शिता",
+      "simpleMeaning": "being open and honest, especially in business",
+      "ipa": "/trænsˈpærənsi/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "openness",
+        "clarity"
+      ],
+      "antonyms": [
+        "opacity",
+        "secrecy"
+      ],
+      "sentences": {
+        "daily": "I believe in transparency.",
+        "office": "She has maintained transparency with the team.",
+        "interview": "I have maintained transparency in all dealings.",
+        "business": "We have a transparency policy.",
+        "formal": "He has ensured full transparency.",
+        "informal": "I've always been transparent."
+      },
+      "usageNote": "'maintain/value transparency' corporate word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 93,
+      "word": "proficiency",
+      "hindi": "दक्षता/निपुणता",
+      "simpleMeaning": "a high degree of skill or expertise",
+      "ipa": "/prəˈfɪʃənsi/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "skill",
+        "expertise"
+      ],
+      "antonyms": [
+        "incompetence",
+        "ignorance"
+      ],
+      "sentences": {
+        "daily": "I have proficiency in English.",
+        "office": "She has shown proficiency in Excel.",
+        "interview": "I have proficiency in three programming languages.",
+        "business": "We have demonstrated proficiency in our field.",
+        "formal": "He has certified proficiency.",
+        "informal": "I've got solid proficiency."
+      },
+      "usageNote": "'proficiency in + language/tool/skill' common।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 94,
+      "word": "expertise",
+      "hindi": "विशेषज्ञता",
+      "simpleMeaning": "expert skill or knowledge in a field",
+      "ipa": "/ˌekspɜːˈtiːz/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "skill",
+        "knowledge"
+      ],
+      "antonyms": [
+        "ignorance",
+        "inexperience"
+      ],
+      "sentences": {
+        "daily": "I have expertise in cooking.",
+        "office": "She has expertise in financial modeling.",
+        "interview": "I have expertise in cloud architecture.",
+        "business": "We have deep expertise in our domain.",
+        "formal": "He has published expertise.",
+        "informal": "I've got expertise in this area."
+      },
+      "usageNote": "'have expertise in + field' interview।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 95,
+      "word": "qualification",
+      "hindi": "योग्यता",
+      "simpleMeaning": "an official record that someone has finished a course",
+      "ipa": "/ˌkwɒlɪfɪˈkeɪʃn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "credential",
+        "degree"
+      ],
+      "antonyms": [
+        "disqualification",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have the qualification for this role.",
+        "office": "She has all the required qualifications.",
+        "interview": "I have qualifications in both finance and tech.",
+        "business": "We have qualified professionals.",
+        "formal": "He has academic qualifications.",
+        "informal": "I've got the qualification, no worries."
+      },
+      "usageNote": "'have qualifications in/for' job-related।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 96,
+      "word": "candidate",
+      "hindi": "उम्मीदवार",
+      "simpleMeaning": "a person who applies for a job or an election",
+      "ipa": "/ˈkændɪdət/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "applicant",
+        "contender"
+      ],
+      "antonyms": [
+        "recruiter",
+        "employer"
+      ],
+      "sentences": {
+        "daily": "I am a candidate for the position.",
+        "office": "She has shortlisted five candidates.",
+        "interview": "As a candidate, I bring unique strengths.",
+        "business": "We have interviewed ten candidates.",
+        "formal": "He was the strongest candidate.",
+        "informal": "I'm the best candidate here!"
+      },
+      "usageNote": "'candidate for + job/position' interview word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 97,
+      "word": "objective",
+      "hindi": "लक्ष्य/उद्देश्य",
+      "simpleMeaning": "a goal or target that you are working towards",
+      "ipa": "/əbˈdʒektɪv/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "goal",
+        "aim"
+      ],
+      "antonyms": [
+        "aimlessness",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have a clear objective for today.",
+        "office": "She has outlined the team objectives.",
+        "interview": "I have clear short and long-term objectives.",
+        "business": "We have achieved our objectives.",
+        "formal": "He has set strategic objectives.",
+        "informal": "I've got my objective clear."
+      },
+      "usageNote": "'set/achieve objectives' business/interview।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 98,
+      "word": "performance",
+      "hindi": "प्रदर्शन",
+      "simpleMeaning": "how well someone or something does a task",
+      "ipa": "/pəˈfɔːməns/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "output",
+        "results"
+      ],
+      "antonyms": [
+        "failure",
+        "underperformance"
+      ],
+      "sentences": {
+        "daily": "I have tracked my performance.",
+        "office": "She has reviewed team performance.",
+        "interview": "I have consistently delivered strong performance.",
+        "business": "We have strong financial performance.",
+        "formal": "He has demonstrated exemplary performance.",
+        "informal": "My performance has been great lately."
+      },
+      "usageNote": "'improve/track/review performance' HR word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 99,
+      "word": "responsibility",
+      "hindi": "जिम्मेदारी",
+      "simpleMeaning": "a duty or obligation to do something",
+      "ipa": "/rɪˌspɒnsɪˈbɪlɪti/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "duty",
+        "obligation"
+      ],
+      "antonyms": [
+        "irresponsibility",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I have a responsibility to be punctual.",
+        "office": "She has taken responsibility for the task.",
+        "interview": "I have handled multiple responsibilities.",
+        "business": "We have a responsibility to our customers.",
+        "formal": "He has fulfilled his responsibility.",
+        "informal": "I take my responsibilities seriously."
+      },
+      "usageNote": "'have/take responsibility for' interview।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 100,
+      "word": "achievement",
+      "hindi": "उपलब्धि",
+      "simpleMeaning": "something accomplished with effort and skill",
+      "ipa": "/əˈtʃiːvmənt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "accomplishment",
+        "success"
+      ],
+      "antonyms": [
+        "failure",
+        "loss"
+      ],
+      "sentences": {
+        "daily": "I have a great achievement to share.",
+        "office": "She has listed her achievements.",
+        "interview": "I have several achievements I am proud of.",
+        "business": "We have many achievements this year.",
+        "formal": "He has an excellent record of achievements.",
+        "informal": "My biggest achievement was getting this job."
+      },
+      "usageNote": "'proud achievement/key achievement' interview।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 101,
+      "word": "confident",
+      "hindi": "आत्मविश्वासी",
+      "simpleMeaning": "feeling sure about your abilities",
+      "ipa": "/ˈkɒnfɪdənt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "assured",
+        "bold"
+      ],
+      "antonyms": [
+        "shy",
+        "insecure"
+      ],
+      "sentences": {
+        "daily": "I have become more confident.",
+        "office": "She has a confident presentation style.",
+        "interview": "I am confident in my abilities.",
+        "business": "We are confident of our product.",
+        "formal": "He has a confident demeanor.",
+        "informal": "I feel super confident today."
+      },
+      "usageNote": "'confident in/about' – adjective form।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 102,
+      "word": "proactive",
+      "hindi": "पहले से कार्रवाई करने वाला",
+      "simpleMeaning": "taking action before problems arise",
+      "ipa": "/prəʊˈæktɪv/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "forward-thinking",
+        "initiative-taking"
+      ],
+      "antonyms": [
+        "reactive",
+        "passive"
+      ],
+      "sentences": {
+        "daily": "I have a proactive attitude.",
+        "office": "She has been proactive in solving problems.",
+        "interview": "I have a proactive approach to work.",
+        "business": "We have a proactive customer service.",
+        "formal": "He has demonstrated a proactive stance.",
+        "informal": "I've always been proactive."
+      },
+      "usageNote": "'proactive approach/attitude' strong interview word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 103,
+      "word": "flexible",
+      "hindi": "लचीला",
+      "simpleMeaning": "able to change or adapt easily",
+      "ipa": "/ˈfleksɪbl/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "adaptable",
+        "versatile"
+      ],
+      "antonyms": [
+        "rigid",
+        "inflexible"
+      ],
+      "sentences": {
+        "daily": "I have a flexible schedule.",
+        "office": "She has a flexible working style.",
+        "interview": "I am flexible and can adapt quickly.",
+        "business": "We have flexible pricing options.",
+        "formal": "He has a flexible approach.",
+        "informal": "I'm pretty flexible with timings."
+      },
+      "usageNote": "'flexible + working/approach/hours' professional।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 104,
+      "word": "resilient",
+      "hindi": "लचीला/मज़बूत",
+      "simpleMeaning": "able to recover quickly from difficulties",
+      "ipa": "/rɪˈzɪlɪənt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "tough",
+        "strong"
+      ],
+      "antonyms": [
+        "fragile",
+        "weak"
+      ],
+      "sentences": {
+        "daily": "I have become resilient over time.",
+        "office": "She has demonstrated resilience under pressure.",
+        "interview": "I have a resilient mindset.",
+        "business": "We have a resilient business model.",
+        "formal": "He has shown remarkable resilience.",
+        "informal": "I'm quite resilient!"
+      },
+      "usageNote": "'resilient mindset/team' valued in interviews।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 105,
+      "word": "multitask",
+      "hindi": "एक साथ कई काम करना",
+      "simpleMeaning": "to do several tasks at the same time",
+      "ipa": "/ˈmʌltitɑːsk/",
+      "verbForms": {
+        "base": "multitask",
+        "s3": "multitasks",
+        "ing": "multitasking",
+        "past": "multitasked",
+        "pastParticiple": "multitasked"
+      },
+      "synonyms": [
+        "juggle",
+        "handle simultaneously"
+      ],
+      "antonyms": [
+        "focus on one",
+        "single-task"
+      ],
+      "sentences": {
+        "daily": "I have multitasked all morning.",
+        "office": "She has multitasked efficiently.",
+        "interview": "I have the ability to multitask.",
+        "business": "We have multitasked across departments.",
+        "formal": "He has multitasked on critical assignments.",
+        "informal": "I can multitask like a pro."
+      },
+      "usageNote": "'multitask' – interview skill word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 106,
+      "word": "apply",
+      "hindi": "आवेदन करना/लागू करना",
+      "simpleMeaning": "to make a formal request or put something into use",
+      "ipa": "/əˈplaɪ/",
+      "verbForms": {
+        "base": "apply",
+        "s3": "applies",
+        "ing": "applying",
+        "past": "applied",
+        "pastParticiple": "applied"
+      },
+      "synonyms": [
+        "submit",
+        "use"
+      ],
+      "antonyms": [
+        "withdraw",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I have applied for a new job.",
+        "office": "She has applied the new policy.",
+        "interview": "I have applied my skills in various projects.",
+        "business": "We have applied for a business loan.",
+        "formal": "He has applied for government clearance.",
+        "informal": "I've applied, waiting to hear back."
+      },
+      "usageNote": "'apply for + job/loan/position' and 'apply + method/skills'।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 107,
+      "word": "excel",
+      "hindi": "श्रेष्ठ प्रदर्शन करना",
+      "simpleMeaning": "to be exceptionally good at something",
+      "ipa": "/ɪkˈsel/",
+      "verbForms": {
+        "base": "excel",
+        "s3": "excels",
+        "ing": "excelling",
+        "past": "excelled",
+        "pastParticiple": "excelled"
+      },
+      "synonyms": [
+        "shine",
+        "outperform"
+      ],
+      "antonyms": [
+        "fail",
+        "underperform"
+      ],
+      "sentences": {
+        "daily": "I have excelled in my studies.",
+        "office": "She has excelled in her role.",
+        "interview": "I have excelled in client-facing roles.",
+        "business": "We have excelled in customer service.",
+        "formal": "He has excelled academically.",
+        "informal": "I've excelled at everything I tried."
+      },
+      "usageNote": "'excel in/at + subject/role' interview。",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 108,
+      "word": "adapt",
+      "hindi": "अनुकूलन करना",
+      "simpleMeaning": "to change to suit a new situation",
+      "ipa": "/əˈdæpt/",
+      "verbForms": {
+        "base": "adapt",
+        "s3": "adapts",
+        "ing": "adapting",
+        "past": "adapted",
+        "pastParticiple": "adapted"
+      },
+      "synonyms": [
+        "adjust",
+        "modify"
+      ],
+      "antonyms": [
+        "resist",
+        "stay fixed"
+      ],
+      "sentences": {
+        "daily": "I have adapted to city life.",
+        "office": "She has adapted to remote working.",
+        "interview": "I have adapted quickly to new environments.",
+        "business": "We have adapted our model post-pandemic.",
+        "formal": "He has adapted the curriculum.",
+        "informal": "I've adapted really well."
+      },
+      "usageNote": "'adapt to + environment/change' interview word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 109,
+      "word": "experience",
+      "hindi": "अनुभव",
+      "simpleMeaning": "knowledge or skill gained over time",
+      "ipa": "/ɪkˈspɪərɪəns/",
+      "verbForms": {
+        "base": "experience",
+        "s3": "experiences",
+        "ing": "experiencing",
+        "past": "experienced",
+        "pastParticiple": "experienced"
+      },
+      "synonyms": [
+        "expertise",
+        "background"
+      ],
+      "antonyms": [
+        "inexperience",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have great experience in cooking.",
+        "office": "She has experience in project management.",
+        "interview": "I have five years of experience in finance.",
+        "business": "We have experienced professionals.",
+        "formal": "He has extensive experience.",
+        "informal": "I've got loads of experience."
+      },
+      "usageNote": "'have experience in/of + field' key interview word।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 110,
+      "word": "strength",
+      "hindi": "ताकत/शक्ति",
+      "simpleMeaning": "a quality or ability that makes someone good at something",
+      "ipa": "/streŋθ/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "advantage",
+        "power"
+      ],
+      "antonyms": [
+        "weakness",
+        "limitation"
+      ],
+      "sentences": {
+        "daily": "I have great physical strength.",
+        "office": "She has the strength to manage the team.",
+        "interview": "My strength is problem-solving.",
+        "business": "We have the strength to compete globally.",
+        "formal": "He has demonstrated considerable strength.",
+        "informal": "My strength is that I never give up."
+      },
+      "usageNote": "'my strength is/I have the strength to' interview।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 111,
+      "word": "weakness",
+      "hindi": "कमज़ोरी",
+      "simpleMeaning": "a quality or ability that is lacking",
+      "ipa": "/ˈwiːknəs/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "limitation",
+        "flaw"
+      ],
+      "antonyms": [
+        "strength",
+        "advantage"
+      ],
+      "sentences": {
+        "daily": "I have a weakness for sweets.",
+        "office": "She has acknowledged her weakness.",
+        "interview": "My weakness is that I sometimes overcommit.",
+        "business": "We have identified our weakness.",
+        "formal": "He has disclosed his areas of weakness.",
+        "informal": "I know my weaknesses."
+      },
+      "usageNote": "'have a weakness' – interview question।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 112,
+      "word": "opportunity",
+      "hindi": "अवसर",
+      "simpleMeaning": "a chance to do something",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "chance",
+        "opening"
+      ],
+      "antonyms": [
+        "obstacle",
+        "threat"
+      ],
+      "sentences": {
+        "daily": "I have a great opportunity today.",
+        "office": "She has identified a business opportunity.",
+        "interview": "I have an opportunity to grow here.",
+        "business": "We have a market opportunity.",
+        "formal": "He has taken every opportunity.",
+        "informal": "This is a huge opportunity!"
+      },
+      "usageNote": "'have an opportunity/to + verb' versatile।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 113,
+      "word": "workload",
+      "hindi": "काम का बोझ",
+      "simpleMeaning": "the amount of work a person has to do",
+      "ipa": "/ˈwɜːkləʊd/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "tasks",
+        "burden"
+      ],
+      "antonyms": [
+        "free time",
+        "holiday"
+      ],
+      "sentences": {
+        "daily": "I have a heavy workload today.",
+        "office": "She has managed a high workload.",
+        "interview": "I have managed a high workload with efficiency.",
+        "business": "We have increased workload this quarter.",
+        "formal": "He has maintained quality despite heavy workload.",
+        "informal": "My workload is crazy this week."
+      },
+      "usageNote": "'manage/handle a workload' office word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 114,
+      "word": "portfolio",
+      "hindi": "कार्य संग्रह/पोर्टफोलियो",
+      "simpleMeaning": "a collection of work samples or investments",
+      "ipa": "/pɔːtˈfəʊlɪəʊ/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "collection",
+        "record"
+      ],
+      "antonyms": [
+        "-",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have an updated portfolio.",
+        "office": "She has a strong design portfolio.",
+        "interview": "I have a portfolio of projects.",
+        "business": "We have a diverse investment portfolio.",
+        "formal": "He has submitted his professional portfolio.",
+        "informal": "Check out my portfolio online."
+      },
+      "usageNote": "'have a portfolio' – creative/IT interview।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 115,
+      "word": "resume",
+      "hindi": "बायोडेटा/रेज़्युमे",
+      "simpleMeaning": "a document listing a person's work experience and qualifications",
+      "ipa": "/ˈrezjuːmeɪ/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "CV",
+        "biodata"
+      ],
+      "antonyms": [
+        "-",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have updated my resume.",
+        "office": "She has a well-written resume.",
+        "interview": "I have a strong resume.",
+        "business": "We have resumes of all applicants.",
+        "formal": "He has submitted his resume.",
+        "informal": "My resume is ready!"
+      },
+      "usageNote": "'have a strong resume/CV' interview word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 116,
+      "word": "interpersonal",
+      "hindi": "व्यक्तियों के बीच का",
+      "simpleMeaning": "relating to relationships and communication between people",
+      "ipa": "/ˌɪntəˈpɜːsənl/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "social",
+        "relational"
+      ],
+      "antonyms": [
+        "antisocial",
+        "introverted"
+      ],
+      "sentences": {
+        "daily": "I have strong interpersonal bonds.",
+        "office": "She has excellent interpersonal skills.",
+        "interview": "I have good interpersonal and communication skills.",
+        "business": "We have built strong interpersonal relationships.",
+        "formal": "He has interpersonal competencies.",
+        "informal": "I'm good with people — interpersonal stuff."
+      },
+      "usageNote": "'interpersonal skills' top interview phrase।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 117,
+      "word": "persistence",
+      "hindi": "दृढ़ता/लगन",
+      "simpleMeaning": "continuing to do something despite difficulties",
+      "ipa": "/pəˈsɪstəns/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "determination",
+        "tenacity"
+      ],
+      "antonyms": [
+        "giving up",
+        "quitting"
+      ],
+      "sentences": {
+        "daily": "I have persistence in everything I do.",
+        "office": "She has shown great persistence.",
+        "interview": "I have persistence as a key strength.",
+        "business": "We have persistence in pursuing our goals.",
+        "formal": "He has demonstrated remarkable persistence.",
+        "informal": "My persistence paid off!"
+      },
+      "usageNote": "'have persistence/show persistence' strong interview word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 118,
+      "word": "integrity",
+      "hindi": "ईमानदारी/सत्यनिष्ठा",
+      "simpleMeaning": "the quality of being honest and having strong moral principles",
+      "ipa": "/ɪnˈteɡrɪti/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "honesty",
+        "ethics"
+      ],
+      "antonyms": [
+        "dishonesty",
+        "corruption"
+      ],
+      "sentences": {
+        "daily": "I have high integrity.",
+        "office": "She has always shown integrity.",
+        "interview": "I have integrity as my core value.",
+        "business": "We have a culture of integrity.",
+        "formal": "He has maintained his integrity.",
+        "informal": "Integrity is my biggest strength."
+      },
+      "usageNote": "'have/show integrity' top interview core value।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 119,
+      "word": "diplomacy",
+      "hindi": "कूटनीति/सूझबूझ",
+      "simpleMeaning": "the ability to deal with people tactfully",
+      "ipa": "/dɪˈpləʊməsi/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "tact",
+        "skill"
+      ],
+      "antonyms": [
+        "bluntness",
+        "rudeness"
+      ],
+      "sentences": {
+        "daily": "I have used diplomacy wisely.",
+        "office": "She has handled conflicts with diplomacy.",
+        "interview": "I have handled tough situations with diplomacy.",
+        "business": "We have used diplomacy in negotiations.",
+        "formal": "He has shown exceptional diplomacy.",
+        "informal": "A bit of diplomacy goes a long way."
+      },
+      "usageNote": "'handle with diplomacy' advanced professional。",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 120,
+      "word": "empathy",
+      "hindi": "सहानुभूति",
+      "simpleMeaning": "the ability to understand and share the feelings of others",
+      "ipa": "/ˈempəθi/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "compassion",
+        "understanding"
+      ],
+      "antonyms": [
+        "indifference",
+        "apathy"
+      ],
+      "sentences": {
+        "daily": "I have empathy for others.",
+        "office": "She has shown empathy to her team.",
+        "interview": "I have empathy as a leadership quality.",
+        "business": "We have built empathy-driven products.",
+        "formal": "He has demonstrated empathy.",
+        "informal": "Having empathy makes you a better person."
+      },
+      "usageNote": "'show/have empathy' – leadership quality।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 121,
+      "word": "adaptability",
+      "hindi": "अनुकूलनशीलता",
+      "simpleMeaning": "the ability to adjust to new conditions",
+      "ipa": "/əˌdæptəˈbɪlɪti/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "flexibility",
+        "versatility"
+      ],
+      "antonyms": [
+        "rigidity",
+        "inflexibility"
+      ],
+      "sentences": {
+        "daily": "I have high adaptability.",
+        "office": "She has shown adaptability in tough situations.",
+        "interview": "I have adaptability as a key strength.",
+        "business": "We have demonstrated adaptability.",
+        "formal": "He has shown remarkable adaptability.",
+        "informal": "Adaptability is key in today's world."
+      },
+      "usageNote": "'have/demonstrate adaptability' interview key word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 122,
+      "word": "leverage",
+      "hindi": "लाभ उठाना",
+      "simpleMeaning": "to use something to maximum advantage",
+      "ipa": "/ˈliːvərɪdʒ/",
+      "verbForms": {
+        "base": "leverage",
+        "s3": "leverages",
+        "ing": "leveraging",
+        "past": "leveraged",
+        "pastParticiple": "leveraged"
+      },
+      "synonyms": [
+        "utilize",
+        "use"
+      ],
+      "antonyms": [
+        "waste",
+        "underuse"
+      ],
+      "sentences": {
+        "daily": "I have leveraged my skills well.",
+        "office": "She has leveraged her network.",
+        "interview": "I have leveraged data to drive decisions.",
+        "business": "We have leveraged new technology.",
+        "formal": "He has leveraged institutional resources.",
+        "informal": "I've leveraged my contacts well."
+      },
+      "usageNote": "'leverage + skills/network/data' business word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 123,
+      "word": "impact",
+      "hindi": "प्रभाव डालना",
+      "simpleMeaning": "to have a strong effect on something",
+      "ipa": "/ˈɪmpækt/",
+      "verbForms": {
+        "base": "impact",
+        "s3": "impacts",
+        "ing": "impacting",
+        "past": "impacted",
+        "pastParticiple": "impacted"
+      },
+      "synonyms": [
+        "affect",
+        "influence"
+      ],
+      "antonyms": [
+        "ignore",
+        "have no effect"
+      ],
+      "sentences": {
+        "daily": "I have created a positive impact.",
+        "office": "She has impacted team performance.",
+        "interview": "I have made a measurable impact.",
+        "business": "We have impacted the market.",
+        "formal": "He has impacted policy decisions.",
+        "informal": "I've made a real impact!"
+      },
+      "usageNote": "'have an impact/make an impact' career word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 124,
+      "word": "outcome",
+      "hindi": "परिणाम",
+      "simpleMeaning": "the result or consequence of an action",
+      "ipa": "/ˈaʊtkʌm/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "result",
+        "consequence"
+      ],
+      "antonyms": [
+        "cause",
+        "input"
+      ],
+      "sentences": {
+        "daily": "I have a positive outcome from this.",
+        "office": "She has tracked the outcome of every project.",
+        "interview": "I have delivered strong outcomes.",
+        "business": "We have achieved the desired outcome.",
+        "formal": "He has reported the outcomes formally.",
+        "informal": "The outcome was better than expected."
+      },
+      "usageNote": "'deliver/achieve outcomes' formal result word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 125,
+      "word": "strategy",
+      "hindi": "रणनीति",
+      "simpleMeaning": "a plan to achieve a goal",
+      "ipa": "/ˈstrætɪdʒi/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "plan",
+        "approach"
+      ],
+      "antonyms": [
+        "improvisation",
+        "no plan"
+      ],
+      "sentences": {
+        "daily": "I have a strategy for my studies.",
+        "office": "She has a clear strategy.",
+        "interview": "I have developed marketing strategies.",
+        "business": "We have a growth strategy.",
+        "formal": "He has implemented the strategy.",
+        "informal": "My strategy always works!"
+      },
+      "usageNote": "'have a strategy/develop strategy' business।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 126,
+      "word": "vision",
+      "hindi": "दृष्टिकोण/सोच",
+      "simpleMeaning": "the ability to think about the future with imagination and wisdom",
+      "ipa": "/ˈvɪʒn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "foresight",
+        "goal"
+      ],
+      "antonyms": [
+        "shortsightedness",
+        "ignorance"
+      ],
+      "sentences": {
+        "daily": "I have a clear vision.",
+        "office": "She has a vision for the team.",
+        "interview": "I have a five-year professional vision.",
+        "business": "We have a vision for the company.",
+        "formal": "He has articulated the institutional vision.",
+        "informal": "I've always had a clear vision."
+      },
+      "usageNote": "'have a vision' leadership word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 127,
+      "word": "mission",
+      "hindi": "मिशन/उद्देश्य",
+      "simpleMeaning": "an important task or goal",
+      "ipa": "/ˈmɪʃn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "purpose",
+        "goal"
+      ],
+      "antonyms": [
+        "aimlessness",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have a personal mission.",
+        "office": "She has completed her mission.",
+        "interview": "I have a mission to add value.",
+        "business": "We have a clear company mission.",
+        "formal": "He has fulfilled the mission.",
+        "informal": "My mission is to be the best."
+      },
+      "usageNote": "'company mission/personal mission' organization word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 128,
+      "word": "project",
+      "hindi": "परियोजना",
+      "simpleMeaning": "a planned set of activities with a specific goal",
+      "ipa": "/ˈprɒdʒekt/",
+      "verbForms": {
+        "base": "project",
+        "s3": "projects",
+        "ing": "projecting",
+        "past": "projected",
+        "pastParticiple": "projected"
+      },
+      "synonyms": [
+        "assignment",
+        "task"
+      ],
+      "antonyms": [
+        "routine",
+        "daily work"
+      ],
+      "sentences": {
+        "daily": "I have a project to finish.",
+        "office": "She has managed three projects.",
+        "interview": "I have led large-scale projects.",
+        "business": "We have a new development project.",
+        "formal": "He has submitted the project report.",
+        "informal": "Got a big project this week."
+      },
+      "usageNote": "'manage/lead a project' interview essential।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 129,
+      "word": "client",
+      "hindi": "ग्राहक/क्लाइंट",
+      "simpleMeaning": "a person or company that buys services",
+      "ipa": "/ˈklaɪənt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "customer",
+        "buyer"
+      ],
+      "antonyms": [
+        "seller",
+        "supplier"
+      ],
+      "sentences": {
+        "daily": "I have a new client.",
+        "office": "She has handled 20 clients.",
+        "interview": "I have managed international clients.",
+        "business": "We have retained all our clients.",
+        "formal": "He has served the client's best interests.",
+        "informal": "My client loved the result!"
+      },
+      "usageNote": "'manage/handle/retain clients' business word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 130,
+      "word": "vendor",
+      "hindi": "विक्रेता/सप्लायर",
+      "simpleMeaning": "a person or company that sells goods or services",
+      "ipa": "/ˈvendər/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "supplier",
+        "dealer"
+      ],
+      "antonyms": [
+        "buyer",
+        "client"
+      ],
+      "sentences": {
+        "daily": "I have contacted the vendor.",
+        "office": "She has managed vendor relationships.",
+        "interview": "I have negotiated with vendors.",
+        "business": "We have three approved vendors.",
+        "formal": "He has reviewed the vendor contract.",
+        "informal": "The vendor delivered on time."
+      },
+      "usageNote": "'manage vendors/vendor contracts' procurement word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 131,
+      "word": "revenue",
+      "hindi": "राजस्व/आय",
+      "simpleMeaning": "income generated from business activities",
+      "ipa": "/ˈrevɪnjuː/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "income",
+        "earnings"
+      ],
+      "antonyms": [
+        "expense",
+        "cost"
+      ],
+      "sentences": {
+        "daily": "I have tracked my revenue.",
+        "office": "She has grown the team's revenue.",
+        "interview": "I have contributed to revenue growth.",
+        "business": "We have record revenue this year.",
+        "formal": "He has reported increased revenue.",
+        "informal": "Revenue is up this month!"
+      },
+      "usageNote": "'grow/generate revenue' top finance word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 132,
+      "word": "profit",
+      "hindi": "लाभ/मुनाफा",
+      "simpleMeaning": "financial gain after costs",
+      "ipa": "/ˈprɒfɪt/",
+      "verbForms": {
+        "base": "profit",
+        "s3": "profits",
+        "ing": "profiting",
+        "past": "profited",
+        "pastParticiple": "profited"
+      },
+      "synonyms": [
+        "gain",
+        "surplus"
+      ],
+      "antonyms": [
+        "loss",
+        "deficit"
+      ],
+      "sentences": {
+        "daily": "I have earned a profit.",
+        "office": "She has improved the department's profit.",
+        "interview": "I have contributed to profit margins.",
+        "business": "We have made significant profit.",
+        "formal": "He has reported increased profit.",
+        "informal": "We're in profit finally!"
+      },
+      "usageNote": "'make a profit/profit margin' finance।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 133,
+      "word": "invoice",
+      "hindi": "चालान/इनवॉयस",
+      "simpleMeaning": "a bill sent to a client for goods or services",
+      "ipa": "/ˈɪnvɔɪs/",
+      "verbForms": {
+        "base": "invoice",
+        "s3": "invoices",
+        "ing": "invoicing",
+        "past": "invoiced",
+        "pastParticiple": "invoiced"
+      },
+      "synonyms": [
+        "bill",
+        "receipt"
+      ],
+      "antonyms": [
+        "payment",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have sent the invoice.",
+        "office": "She has processed the invoice.",
+        "interview": "I have managed invoice cycles.",
+        "business": "We have issued 50 invoices.",
+        "formal": "He has approved the vendor invoice.",
+        "informal": "Just sent the invoice, waiting for payment."
+      },
+      "usageNote": "'send/process/raise an invoice' billing word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 134,
+      "word": "proposal",
+      "hindi": "प्रस्ताव",
+      "simpleMeaning": "a plan put forward for consideration",
+      "ipa": "/prəˈpəʊzl/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "plan",
+        "suggestion"
+      ],
+      "antonyms": [
+        "rejection",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have a proposal idea.",
+        "office": "She has submitted a proposal.",
+        "interview": "I have written winning proposals.",
+        "business": "We have a business proposal ready.",
+        "formal": "He has presented the formal proposal.",
+        "informal": "My proposal was accepted!"
+      },
+      "usageNote": "'submit/write/approve a proposal' business।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 135,
+      "word": "contract",
+      "hindi": "अनुबंध/कॉन्ट्रैक्ट",
+      "simpleMeaning": "a formal legal agreement between parties",
+      "ipa": "/ˈkɒntrækt/",
+      "verbForms": {
+        "base": "contract",
+        "s3": "contracts",
+        "ing": "contracting",
+        "past": "contracted",
+        "pastParticiple": "contracted"
+      },
+      "synonyms": [
+        "agreement",
+        "deal"
+      ],
+      "antonyms": [
+        "verbal agreement",
+        "informal"
+      ],
+      "sentences": {
+        "daily": "I have signed the contract.",
+        "office": "She has drafted the contract.",
+        "interview": "I have reviewed client contracts.",
+        "business": "We have signed a three-year contract.",
+        "formal": "He has executed the contract.",
+        "informal": "Contract is done, we're good!"
+      },
+      "usageNote": "'sign/draft/review a contract' business。",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 136,
+      "word": "compliance",
+      "hindi": "अनुपालन",
+      "simpleMeaning": "following rules or standards",
+      "ipa": "/kəmˈplaɪəns/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "adherence",
+        "conformity"
+      ],
+      "antonyms": [
+        "violation",
+        "non-compliance"
+      ],
+      "sentences": {
+        "daily": "I have maintained compliance.",
+        "office": "She has ensured regulatory compliance.",
+        "interview": "I have experience in compliance management.",
+        "business": "We have full compliance.",
+        "formal": "He has reported compliance issues.",
+        "informal": "We're in compliance, no worries."
+      },
+      "usageNote": "'ensure/maintain compliance' legal/corporate word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 137,
+      "word": "regulation",
+      "hindi": "विनियम/नियम",
+      "simpleMeaning": "a rule made by a government or authority",
+      "ipa": "/ˌreɡjʊˈleɪʃn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "rule",
+        "law"
+      ],
+      "antonyms": [
+        "deregulation",
+        "freedom"
+      ],
+      "sentences": {
+        "daily": "I have followed all regulations.",
+        "office": "She has ensured compliance with regulations.",
+        "interview": "I have expertise in data protection regulations.",
+        "business": "We have adhered to regulations.",
+        "formal": "He has cited the applicable regulations.",
+        "informal": "Make sure you follow the regulations."
+      },
+      "usageNote": "'comply with/adhere to regulations' legal。",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 138,
+      "word": "authorization",
+      "hindi": "प्राधिकरण/अनुमति",
+      "simpleMeaning": "official permission to do something",
+      "ipa": "/ˌɔːθəraɪˈzeɪʃn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "permission",
+        "approval"
+      ],
+      "antonyms": [
+        "denial",
+        "rejection"
+      ],
+      "sentences": {
+        "daily": "I have authorization to proceed.",
+        "office": "She has given authorization.",
+        "interview": "I have managed authorization protocols.",
+        "business": "We have received the authorization.",
+        "formal": "He has obtained written authorization.",
+        "informal": "Got authorization, we can go ahead."
+      },
+      "usageNote": "'have/obtain authorization' formal office word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 139,
+      "word": "appointment",
+      "hindi": "नियुक्ति/मुलाकात",
+      "simpleMeaning": "a meeting arranged for a specific time",
+      "ipa": "/əˈpɔɪntmənt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "meeting",
+        "booking"
+      ],
+      "antonyms": [
+        "cancellation",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have an appointment at 3 PM.",
+        "office": "She has a doctor's appointment.",
+        "interview": "I have an appointment for the interview.",
+        "business": "We have confirmed the appointment.",
+        "formal": "He has scheduled an appointment.",
+        "informal": "Got an appointment later."
+      },
+      "usageNote": "'have/make an appointment' daily life।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 140,
+      "word": "certificate",
+      "hindi": "प्रमाण पत्र",
+      "simpleMeaning": "a document confirming achievement",
+      "ipa": "/səˈtɪfɪkət/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "credential",
+        "diploma"
+      ],
+      "antonyms": [
+        "-",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have a certificate in yoga.",
+        "office": "She has all necessary certificates.",
+        "interview": "I have a certificate in Python.",
+        "business": "We have industry certificates.",
+        "formal": "He has submitted the certificate.",
+        "informal": "I've got the certificate!"
+      },
+      "usageNote": "'have/obtain a certificate' career word।",
+      "cefrLevel": "A2"
+    },
+    {
+      "id": 141,
+      "word": "promotion",
+      "hindi": "पदोन्नति",
+      "simpleMeaning": "being moved to a higher position at work",
+      "ipa": "/prəˈməʊʃn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "advancement",
+        "upgrade"
+      ],
+      "antonyms": [
+        "demotion",
+        "downgrade"
+      ],
+      "sentences": {
+        "daily": "I have received a promotion.",
+        "office": "She has earned a promotion.",
+        "interview": "I have achieved three promotions.",
+        "business": "We have announced promotions.",
+        "formal": "He has been granted a promotion.",
+        "informal": "I just got promoted!"
+      },
+      "usageNote": "'get/earn/receive a promotion' career।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 142,
+      "word": "increment",
+      "hindi": "वेतन वृद्धि",
+      "simpleMeaning": "an increase in salary",
+      "ipa": "/ˈɪŋkrɪmənt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "raise",
+        "increase"
+      ],
+      "antonyms": [
+        "pay cut",
+        "decrease"
+      ],
+      "sentences": {
+        "daily": "I have received an increment.",
+        "office": "She has discussed increment with HR.",
+        "interview": "I have received increments for good performance.",
+        "business": "We have revised increments.",
+        "formal": "He has received an annual increment.",
+        "informal": "Got a good increment this year."
+      },
+      "usageNote": "'receive/get an increment' India-specific।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 143,
+      "word": "resign",
+      "hindi": "इस्तीफा देना",
+      "simpleMeaning": "to officially leave a job",
+      "ipa": "/rɪˈzaɪn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "quit",
+        "step down"
+      ],
+      "antonyms": [
+        "join",
+        "stay"
+      ],
+      "sentences": {
+        "daily": "I have decided to resign.",
+        "office": "She has tendered her resignation.",
+        "interview": "I resigned to pursue higher studies.",
+        "business": "He has resigned from the board.",
+        "formal": "He has submitted his resignation letter.",
+        "informal": "I've resigned, moving on!"
+      },
+      "usageNote": "'resign from + job/position' formal।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 144,
+      "word": "relocate",
+      "hindi": "स्थानांतरण करना",
+      "simpleMeaning": "to move to a new place for work",
+      "ipa": "/ˌriːləʊˈkeɪt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "move",
+        "shift"
+      ],
+      "antonyms": [
+        "stay",
+        "remain"
+      ],
+      "sentences": {
+        "daily": "I have relocated to a new city.",
+        "office": "She has relocated for the job.",
+        "interview": "I am willing to relocate.",
+        "business": "We have relocated our headquarters.",
+        "formal": "He has relocated internationally.",
+        "informal": "I relocated last month."
+      },
+      "usageNote": "'willing to relocate' interview answer।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 145,
+      "word": "internship",
+      "hindi": "इंटर्नशिप",
+      "simpleMeaning": "a temporary position to gain work experience",
+      "ipa": "/ˈɪntɜːnʃɪp/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "placement",
+        "traineeship"
+      ],
+      "antonyms": [
+        "full-time job",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have completed an internship.",
+        "office": "She has mentored interns.",
+        "interview": "I have two internships in my resume.",
+        "business": "We have an internship program.",
+        "formal": "He has successfully completed his internship.",
+        "informal": "My internship was super helpful."
+      },
+      "usageNote": "'complete/do an internship' career word।",
+      "cefrLevel": "B1"
+    },
+    {
+      "id": 146,
+      "word": "onsite",
+      "hindi": "साइट पर/कार्यस्थल पर",
+      "simpleMeaning": "happening or working at the workplace itself",
+      "ipa": "/ˈɒnsaɪt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "in-person",
+        "on-location"
+      ],
+      "antonyms": [
+        "remote",
+        "offsite"
+      ],
+      "sentences": {
+        "daily": "I have an onsite visit tomorrow.",
+        "office": "She has worked onsite for years.",
+        "interview": "I can work onsite.",
+        "business": "We have onsite support.",
+        "formal": "He has completed onsite verification.",
+        "informal": "I'm onsite today."
+      },
+      "usageNote": "'onsite vs remote' work culture word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 147,
+      "word": "hybrid",
+      "hindi": "मिश्रित/हाइब्रिड",
+      "simpleMeaning": "combining two different things, e.g. office and remote work",
+      "ipa": "/ˈhaɪbrɪd/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "mixed",
+        "combined"
+      ],
+      "antonyms": [
+        "single",
+        "pure"
+      ],
+      "sentences": {
+        "daily": "I have a hybrid schedule.",
+        "office": "She has a hybrid work model.",
+        "interview": "I am comfortable with hybrid work.",
+        "business": "We have adopted a hybrid approach.",
+        "formal": "He has advocated for hybrid models.",
+        "informal": "Hybrid work is great."
+      },
+      "usageNote": "'hybrid work model' modern workplace word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 148,
+      "word": "performance review",
+      "hindi": "प्रदर्शन समीक्षा",
+      "simpleMeaning": "a formal meeting to assess an employee's work",
+      "ipa": "/pəˈfɔːməns rɪˈvjuː/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "appraisal",
+        "evaluation"
+      ],
+      "antonyms": [
+        "-",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have a performance review today.",
+        "office": "She has conducted performance reviews.",
+        "interview": "I have received positive performance reviews.",
+        "business": "We have quarterly performance reviews.",
+        "formal": "He has undergone a performance review.",
+        "informal": "Got my performance review soon."
+      },
+      "usageNote": "'have/conduct/receive a performance review'।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 149,
+      "word": "KPI",
+      "hindi": "मुख्य प्रदर्शन संकेतक",
+      "simpleMeaning": "Key Performance Indicator — a measurable goal",
+      "ipa": "/keɪ piː aɪ/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "metric",
+        "target"
+      ],
+      "antonyms": [
+        "unmeasured outcome",
+        "-"
+      ],
+      "sentences": {
+        "daily": "I have set my KPIs.",
+        "office": "She has tracked KPIs weekly.",
+        "interview": "I have defined and met KPIs.",
+        "business": "We have clear KPIs.",
+        "formal": "He has reported on KPIs.",
+        "informal": "KPIs are all green this month."
+      },
+      "usageNote": "'set/track/meet KPIs' business essential।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 150,
+      "word": "ROI",
+      "hindi": "निवेश पर लाभ",
+      "simpleMeaning": "Return on Investment — profit from an investment",
+      "ipa": "/ɑːr əʊ aɪ/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "return",
+        "profit"
+      ],
+      "antonyms": [
+        "loss",
+        "waste"
+      ],
+      "sentences": {
+        "daily": "I have calculated the ROI.",
+        "office": "She has reported positive ROI.",
+        "interview": "I have improved ROI by 25%.",
+        "business": "We have strong ROI.",
+        "formal": "He has submitted the ROI report.",
+        "informal": "The ROI is excellent!"
+      },
+      "usageNote": "'improve/calculate/report ROI' finance।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 151,
+      "word": "scalable",
+      "hindi": "विस्तारयोग्य",
+      "simpleMeaning": "able to grow or be expanded easily",
+      "ipa": "/ˈskeɪləbl/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "expandable",
+        "flexible"
+      ],
+      "antonyms": [
+        "limited",
+        "rigid"
+      ],
+      "sentences": {
+        "daily": "I have a scalable plan.",
+        "office": "She has built a scalable process.",
+        "interview": "I have designed scalable systems.",
+        "business": "We have a scalable business model.",
+        "formal": "He has proposed a scalable solution.",
+        "informal": "The system is totally scalable."
+      },
+      "usageNote": "'scalable solution/model' tech/business word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 152,
+      "word": "sustainable",
+      "hindi": "टिकाऊ",
+      "simpleMeaning": "able to be maintained long-term without harming the environment",
+      "ipa": "/səˈsteɪnəbl/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "long-term",
+        "viable"
+      ],
+      "antonyms": [
+        "unsustainable",
+        "short-term"
+      ],
+      "sentences": {
+        "daily": "I have sustainable habits.",
+        "office": "She has sustainable work practices.",
+        "interview": "I have contributed to sustainable growth.",
+        "business": "We have a sustainable model.",
+        "formal": "He has advocated for sustainable practices.",
+        "informal": "Let's go sustainable!"
+      },
+      "usageNote": "'sustainable growth/development' modern business।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 153,
+      "word": "workforce",
+      "hindi": "कार्यबल",
+      "simpleMeaning": "the people working in a company or industry",
+      "ipa": "/ˈwɜːkfɔːs/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "staff",
+        "employees"
+      ],
+      "antonyms": [
+        "management",
+        "employer"
+      ],
+      "sentences": {
+        "daily": "I have joined the workforce.",
+        "office": "She has trained the workforce.",
+        "interview": "I have contributed to workforce development.",
+        "business": "We have a skilled workforce.",
+        "formal": "He has managed the entire workforce.",
+        "informal": "The workforce here is amazing."
+      },
+      "usageNote": "'manage/train/develop workforce' HR word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 154,
+      "word": "attrition",
+      "hindi": "कर्मचारी छोड़ने की दर",
+      "simpleMeaning": "the gradual reduction in staff through resignation or retirement",
+      "ipa": "/əˈtrɪʃn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "turnover",
+        "departure"
+      ],
+      "antonyms": [
+        "retention",
+        "hiring"
+      ],
+      "sentences": {
+        "daily": "I am aware of attrition.",
+        "office": "She has reduced attrition significantly.",
+        "interview": "I have worked to reduce attrition.",
+        "business": "We have low attrition.",
+        "formal": "He has addressed attrition in his report.",
+        "informal": "Attrition is a big challenge."
+      },
+      "usageNote": "'reduce/measure attrition' HR word।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 155,
+      "word": "pipeline",
+      "hindi": "कार्य प्रक्रिया/पाइपलाइन",
+      "simpleMeaning": "a series of steps for completing a process",
+      "ipa": "/ˈpaɪplaɪn/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "process",
+        "workflow"
+      ],
+      "antonyms": [
+        "chaos",
+        "disorder"
+      ],
+      "sentences": {
+        "daily": "I have a good pipeline of ideas.",
+        "office": "She has managed the sales pipeline.",
+        "interview": "I have experience with data pipelines.",
+        "business": "We have a strong sales pipeline.",
+        "formal": "He has presented the pipeline update.",
+        "informal": "The pipeline's looking great."
+      },
+      "usageNote": "'sales pipeline/data pipeline' business/tech।",
+      "cefrLevel": "C1"
+    },
+    {
+      "id": 156,
+      "word": "engagement",
+      "hindi": "प्रतिबद्धता/सहभागिता",
+      "simpleMeaning": "being involved or committed to something",
+      "ipa": "/ɪnˈɡeɪdʒmənt/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "involvement",
+        "participation"
+      ],
+      "antonyms": [
+        "disengagement",
+        "indifference"
+      ],
+      "sentences": {
+        "daily": "I have high engagement in class.",
+        "office": "She has improved team engagement.",
+        "interview": "I have driven high employee engagement.",
+        "business": "We have strong customer engagement.",
+        "formal": "He has reported engagement metrics.",
+        "informal": "Employee engagement here is great."
+      },
+      "usageNote": "'employee/customer engagement' HR/marketing word।",
+      "cefrLevel": "B2"
+    },
+    {
+      "id": 157,
+      "word": "deliverable",
+      "hindi": "प्रदेय/डिलीवरेबल",
+      "simpleMeaning": "something that must be completed as part of a project",
+      "ipa": "/dɪˈlɪvərəbl/",
+      "verbForms": {
+        "base": "-",
+        "s3": "-",
+        "ing": "-",
+        "past": "-",
+        "pastParticiple": "-"
+      },
+      "synonyms": [
+        "output",
+        "product"
+      ],
+      "antonyms": [
+        "input",
+        "requirement"
+      ],
+      "sentences": {
+        "daily": "I have a deliverable due today.",
+        "office": "She has completed all deliverables.",
+        "interview": "I have delivered all project deliverables on time.",
+        "business": "We have defined clear deliverables.",
+        "formal": "He has submitted the deliverables.",
+        "informal": "All deliverables are done!"
+      },
+      "usageNote": "'project deliverables' key PM word।",
+      "cefrLevel": "C1"
+    }
   ]
 }

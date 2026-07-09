@@ -1,39 +1,2135 @@
 {
   "day": 6,
-  "title": "Day 6 Daily Test — Has/Have (30 Questions)",
-  "totalQuestions": 30,
+  "title": "Day 6 Daily Test — Has/Have (159 Questions)",
+  "totalQuestions": 159,
   "timeLimit": 20,
   "passingScore": 70,
   "questions": [
-    {"id":1,"type":"translate","hindi":"मेरे पास एक कार है।","options":["I has a car.","I have a car.","I having a car.","I am have a car."],"answer":"I have a car.","explanation":"I के साथ have आता है।"},
-    {"id":2,"type":"translate","hindi":"उसके पास एक कुत्ता है।","options":["He have a dog.","He has a dog.","He is have a dog.","He having a dog."],"answer":"He has a dog.","explanation":"He/She/It के साथ has आता है।"},
-    {"id":3,"type":"error","sentence":"He have a car.","correct":"He has a car.","options":["He have a car.","He has a car.","He haves a car.","He having a car."],"answer":"He has a car.","explanation":"He के साथ 'have' गलत है, 'has' सही है।"},
-    {"id":4,"type":"error","sentence":"She don't has time.","correct":"She doesn't have time.","options":["She don't has time.","She doesn't have time.","She doesn't has time.","She don't have time."],"answer":"She doesn't have time.","explanation":"doesn't के बाद base form 'have' आता है, 'has' नहीं।"},
-    {"id":5,"type":"translate","hindi":"क्या तुम्हारे पास एक पेन है?","options":["Do you have a pen?","Does you have a pen?","Have you a pen?","Do you has a pen?"],"answer":"Do you have a pen?","explanation":"You के साथ Do + have।"},
-    {"id":6,"type":"translate","hindi":"क्या उसके पास bike है?","options":["Do he have a bike?","Does he have a bike?","Does he has a bike?","Has he a bike?"],"answer":"Does he have a bike?","explanation":"He के साथ Does + base verb have।"},
-    {"id":7,"type":"translate","hindi":"मैंने खाना खा लिया है।","options":["I have eat.","I have eaten.","I has eaten.","I have ate."],"answer":"I have eaten.","explanation":"Present Perfect: have + V3 (eaten)।"},
-    {"id":8,"type":"translate","hindi":"वह जा चुकी है।","options":["She has go.","She has gone.","She have gone.","She has went."],"answer":"She has gone.","explanation":"has + V3 (gone)।"},
-    {"id":9,"type":"fill","hindi":"मैंने अभी तक report खत्म _____ की है।","options":["not","haven't","hasn't","don't"],"answer":"haven't","explanation":"I haven't finished (negative Present Perfect)।"},
-    {"id":10,"type":"translate","hindi":"क्या तुमने अपना काम खत्म कर लिया है?","options":["Do you finish your work?","Have you finished your work?","Has you finished your work?","Did you have finished?"],"answer":"Have you finished your work?","explanation":"Have + subject + V3?"},
-    {"id":11,"type":"translate","hindi":"क्या उसने रिपोर्ट भेज दी?","options":["Has she sent the report?","Have she sent the report?","Does she sent the report?","Has she send the report?"],"answer":"Has she sent the report?","explanation":"Has + she + V3?"},
-    {"id":12,"type":"translate","hindi":"हमारी 3 बजे meeting है।","options":["We have a meeting at 3 PM.","We has a meeting at 3 PM.","We having meeting at 3 PM.","We have meeting 3 PM."],"answer":"We have a meeting at 3 PM.","explanation":"We के साथ have + article 'a'।"},
-    {"id":13,"type":"error","sentence":"Do she have a laptop?","correct":"Does she have a laptop?","options":["Do she have a laptop?","Does she have a laptop?","Does she has a laptop?","Do she has a laptop?"],"answer":"Does she have a laptop?","explanation":"She के साथ Does चाहिए, Do नहीं।"},
-    {"id":14,"type":"translate","hindi":"मेरे पास पाँच साल का अनुभव है।","options":["I have five years experience.","I have five years of experience.","I has five years experience.","I have five year of experience."],"answer":"I have five years of experience.","explanation":"'years' plural और 'of' दोनों ज़रूरी हैं।"},
-    {"id":15,"type":"translate","hindi":"मैं breakfast 8 बजे करता हूँ।","options":["I have breakfast at 8 AM.","I eat have breakfast 8.","I having breakfast at 8 AM.","I has breakfast at 8 AM."],"answer":"I have breakfast at 8 AM.","explanation":"'have breakfast' common expression।"},
-    {"id":16,"type":"translate","hindi":"क्या तुम्हें कोई एलर्जी है?","options":["Do you have any allergies?","Does you have any allergies?","Have you any allergies?","Do you has any allergy?"],"answer":"Do you have any allergies?","explanation":"You के साथ Do + have।"},
-    {"id":17,"type":"error","sentence":"I has a book.","correct":"I have a book.","options":["I has a book.","I have a book.","I having book.","I haves a book."],"answer":"I have a book.","explanation":"I के साथ 'has' गलत है।"},
-    {"id":18,"type":"translate","hindi":"उनके पास एक बड़ा घर है।","options":["They has a big house.","They have a big house.","They having a big house.","They have big house."],"answer":"They have a big house.","explanation":"They + have + article + adjective + noun।"},
-    {"id":19,"type":"translate","hindi":"क्या तुमने खाना खा लिया?","options":["Have you had your lunch?","Did you had lunch?","Has you had lunch?","Do you have lunch?"],"answer":"Have you had your lunch?","explanation":"Present Perfect: Have + you + had (V3 of have)।"},
-    {"id":20,"type":"fill","hindi":"मेरे पास एक नया phone _____ (informal)।","options":["I have got a new phone.","I has got a new phone.","I have get a new phone.","I got have a new phone."],"answer":"I have got a new phone.","explanation":"'have got' informal possession।"},
-    {"id":21,"type":"translate","hindi":"क्या तुम्हारे पास एक मिनट है?","options":["Have you got a minute?","Has you got a minute?","Have you get a minute?","Do you got a minute?"],"answer":"Have you got a minute?","explanation":"Informal question: Have + you + got + noun?"},
-    {"id":22,"type":"translate","hindi":"मैंने पहले ही payment कर दी है।","options":["I have already paid.","I already have paid.","I has already paid.","I have already pay."],"answer":"I have already paid.","explanation":"Present Perfect with 'already' + V3 (paid)।"},
-    {"id":23,"type":"translate","hindi":"हमारे घर आज रात मेहमान आ रहे हैं।","options":["We have guests coming tonight.","We has guests coming tonight.","We have guest come tonight.","We having guests tonight coming."],"answer":"We have guests coming tonight.","explanation":"We + have + noun + verb+ing।"},
-    {"id":24,"type":"error","sentence":"I haven't finish yet.","correct":"I haven't finished yet.","options":["I haven't finish yet.","I haven't finished yet.","I hasn't finished yet.","I not have finished yet."],"answer":"I haven't finished yet.","explanation":"haven't के बाद V3 (finished) आता है, base form नहीं।"},
-    {"id":25,"type":"translate","hindi":"क्या तुम्हारे पास तुम्हारा passport है?","options":["Do you have your passport?","Does you have your passport?","Have you your passport?","Do you has your passport?"],"answer":"Do you have your passport?","explanation":"You के साथ Do + have।"},
-    {"id":26,"type":"translate","hindi":"क्या उन्होंने deadline पूरी कर ली?","options":["Have they met the deadline?","Has they met the deadline?","Did they have met the deadline?","Have they meet the deadline?"],"answer":"Have they met the deadline?","explanation":"Have + they + V3 (met)?"},
-    {"id":27,"type":"fill","hindi":"वह अपना काम नहीं खत्म _____ पाई है।","options":["haven't","hasn't","don't","doesn't"],"answer":"hasn't","explanation":"She के साथ hasn't (negative Present Perfect)।"},
-    {"id":28,"type":"translate","hindi":"मुझे धूल से एलर्जी है।","options":["I have an allergy to dust.","I has an allergy dust.","I have allergy for dust.","I having an allergy to dust."],"answer":"I have an allergy to dust.","explanation":"'allergy to' सही preposition है।"},
-    {"id":29,"type":"translate","hindi":"हमने contract पर signature कर दिया है।","options":["We have signed the contract.","We has signed the contract.","We have sign the contract.","We having signed contract."],"answer":"We have signed the contract.","explanation":"We + have + V3 (signed)।"},
-    {"id":30,"type":"error","sentence":"Does she have finished the work?","correct":"Has she finished the work?","options":["Does she have finished the work?","Has she finished the work?","Have she finished the work?","Does she has finished the work?"],"answer":"Has she finished the work?","explanation":"Present Perfect question में Do/Does नहीं आता, Has/Have आता है।"}
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मेरे पास एक कार है।",
+      "options": [
+        "I has a car.",
+        "I have a car.",
+        "I having a car.",
+        "I am have a car."
+      ],
+      "answer": "I have a car.",
+      "explanation": "I के साथ have आता है।"
+    },
+    {
+      "id": 2,
+      "type": "translate",
+      "hindi": "उसके पास एक कुत्ता है।",
+      "options": [
+        "He have a dog.",
+        "He has a dog.",
+        "He is have a dog.",
+        "He having a dog."
+      ],
+      "answer": "He has a dog.",
+      "explanation": "He/She/It के साथ has आता है।"
+    },
+    {
+      "id": 3,
+      "type": "translate",
+      "hindi": "मैंने खाना खा लिया है।",
+      "options": [
+        "I have eat.",
+        "I have eaten.",
+        "I has eaten.",
+        "I have ate."
+      ],
+      "answer": "I have eaten.",
+      "explanation": "Present Perfect: have + V3 (eaten)।"
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वह जा चुकी है।",
+      "options": [
+        "She has go.",
+        "She has gone.",
+        "She have gone.",
+        "She has went."
+      ],
+      "answer": "She has gone.",
+      "explanation": "has + V3 (gone)।"
+    },
+    {
+      "id": 5,
+      "type": "translate",
+      "hindi": "क्या तुम्हारे पास एक पेन है?",
+      "options": [
+        "Do you have a pen?",
+        "Does you have a pen?",
+        "Have you a pen?",
+        "Do you has a pen?"
+      ],
+      "answer": "Do you have a pen?",
+      "explanation": "You के साथ Do + have।"
+    },
+    {
+      "id": 6,
+      "type": "translate",
+      "hindi": "क्या उसके पास bike है?",
+      "options": [
+        "Do he have a bike?",
+        "Does he have a bike?",
+        "Does he has a bike?",
+        "Has he a bike?"
+      ],
+      "answer": "Does he have a bike?",
+      "explanation": "He के साथ Does + base verb have।"
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "क्या तुमने अपना काम खत्म कर लिया है?",
+      "options": [
+        "Do you finish your work?",
+        "Have you finished your work?",
+        "Has you finished your work?",
+        "Did you have finished?"
+      ],
+      "answer": "Have you finished your work?",
+      "explanation": "Have + subject + V3?"
+    },
+    {
+      "id": 8,
+      "type": "translate",
+      "hindi": "क्या उसने रिपोर्ट भेज दी?",
+      "options": [
+        "Has she sent the report?",
+        "Have she sent the report?",
+        "Does she sent the report?",
+        "Has she send the report?"
+      ],
+      "answer": "Has she sent the report?",
+      "explanation": "Has + she + V3?"
+    },
+    {
+      "id": 9,
+      "type": "translate",
+      "hindi": "हमारी 3 बजे meeting है।",
+      "options": [
+        "We have a meeting at 3 PM.",
+        "We has a meeting at 3 PM.",
+        "We having meeting at 3 PM.",
+        "We have meeting 3 PM."
+      ],
+      "answer": "We have a meeting at 3 PM.",
+      "explanation": "We के साथ have + article 'a'।"
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मेरे पास पाँच साल का अनुभव है।",
+      "options": [
+        "I have five years experience.",
+        "I have five years of experience.",
+        "I has five years experience.",
+        "I have five year of experience."
+      ],
+      "answer": "I have five years of experience.",
+      "explanation": "'years' plural और 'of' दोनों ज़रूरी हैं।"
+    },
+    {
+      "id": 11,
+      "type": "translate",
+      "hindi": "मैं breakfast 8 बजे करता हूँ।",
+      "options": [
+        "I have breakfast at 8 AM.",
+        "I eat have breakfast 8.",
+        "I having breakfast at 8 AM.",
+        "I has breakfast at 8 AM."
+      ],
+      "answer": "I have breakfast at 8 AM.",
+      "explanation": "'have breakfast' common expression।"
+    },
+    {
+      "id": 12,
+      "type": "translate",
+      "hindi": "वह पहले ही आ चुकी है।",
+      "options": [
+        "She has already arrived.",
+        "She already has arrived.",
+        "She have already arrived.",
+        "She is arrived already."
+      ],
+      "answer": "She has already arrived.",
+      "explanation": "She + has + already + V3।"
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "उन्होंने agreement sign कर लिया है।",
+      "options": [
+        "They has signed the agreement.",
+        "They have signed the agreement.",
+        "They are signed the agreement.",
+        "They signed have the agreement."
+      ],
+      "answer": "They have signed the agreement.",
+      "explanation": "They + have + V3।"
+    },
+    {
+      "id": 14,
+      "type": "translate",
+      "hindi": "वह 2019 से manager है।",
+      "options": [
+        "He has been a manager since 2019.",
+        "He is a manager since 2019.",
+        "He was a manager since 2019.",
+        "He have been a manager since 2019."
+      ],
+      "answer": "He has been a manager since 2019.",
+      "explanation": "'since' के साथ Present Perfect।"
+    },
+    {
+      "id": 15,
+      "type": "translate",
+      "hindi": "मैंने आज gym किया है।",
+      "options": [
+        "I have exercised at the gym today.",
+        "I has exercised today.",
+        "I have exercise today.",
+        "I exercised have today."
+      ],
+      "answer": "I have exercised at the gym today.",
+      "explanation": "I + have + V3।"
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मेरे पास पैसे नहीं हैं।",
+      "options": [
+        "I don't have money.",
+        "I doesn't have money.",
+        "I haven't money.",
+        "I not have money."
+      ],
+      "answer": "I don't have money.",
+      "explanation": "I/You/We/They के साथ don't have।"
+    },
+    {
+      "id": 17,
+      "type": "translate",
+      "hindi": "उसके पास समय नहीं है।",
+      "options": [
+        "She don't have time.",
+        "She doesn't have time.",
+        "She hasn't time.",
+        "She not has time."
+      ],
+      "answer": "She doesn't have time.",
+      "explanation": "She के साथ doesn't have।"
+    },
+    {
+      "id": 18,
+      "type": "translate",
+      "hindi": "क्या उसके (लड़के) पास laptop है?",
+      "options": [
+        "Does he have a laptop?",
+        "Do he have a laptop?",
+        "Does he has a laptop?",
+        "Has he a laptop?"
+      ],
+      "answer": "Does he have a laptop?",
+      "explanation": "He के साथ Does + have।"
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मैंने 5 साल से यहाँ काम किया है।",
+      "options": [
+        "I have worked here for 5 years.",
+        "I worked here since 5 years.",
+        "I has worked here for 5 years.",
+        "I have worked here since 5 years."
+      ],
+      "answer": "I have worked here for 5 years.",
+      "explanation": "Duration के साथ 'for'।"
+    },
+    {
+      "id": 20,
+      "type": "translate",
+      "hindi": "वे दो घंटे से काम कर रहे हैं।",
+      "options": [
+        "They are working for two hours.",
+        "They have been working for two hours.",
+        "They has been working for two hours.",
+        "They worked for two hours."
+      ],
+      "answer": "They have been working for two hours.",
+      "explanation": "PP Continuous: have been + Ving।"
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "He have a car.",
+      "correct": "He has a car.",
+      "options": [
+        "He have a car.",
+        "He has a car.",
+        "He haves a car.",
+        "He having a car."
+      ],
+      "answer": "He has a car.",
+      "explanation": "He के साथ 'have' गलत है, 'has' सही है।"
+    },
+    {
+      "id": 22,
+      "type": "error",
+      "sentence": "She don't has time.",
+      "correct": "She doesn't have time.",
+      "options": [
+        "She don't has time.",
+        "She doesn't have time.",
+        "She doesn't has time.",
+        "She don't have time."
+      ],
+      "answer": "She doesn't have time.",
+      "explanation": "doesn't के बाद base form 'have'।"
+    },
+    {
+      "id": 23,
+      "type": "error",
+      "sentence": "Do she have a laptop?",
+      "correct": "Does she have a laptop?",
+      "options": [
+        "Do she have a laptop?",
+        "Does she have a laptop?",
+        "Does she has a laptop?",
+        "Do she has a laptop?"
+      ],
+      "answer": "Does she have a laptop?",
+      "explanation": "She के साथ Does।"
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "I has eaten breakfast.",
+      "correct": "I have eaten breakfast.",
+      "options": [
+        "I has eaten breakfast.",
+        "I have eaten breakfast.",
+        "I have ate breakfast.",
+        "I eating have breakfast."
+      ],
+      "answer": "I have eaten breakfast.",
+      "explanation": "I के साथ have, has नहीं।"
+    },
+    {
+      "id": 25,
+      "type": "error",
+      "sentence": "Has you finished the work?",
+      "correct": "Have you finished the work?",
+      "options": [
+        "Has you finished the work?",
+        "Have you finished the work?",
+        "Do you finished the work?",
+        "Did you have finished the work?"
+      ],
+      "answer": "Have you finished the work?",
+      "explanation": "You के साथ Have।"
+    },
+    {
+      "id": 26,
+      "type": "error",
+      "sentence": "They has a new office.",
+      "correct": "They have a new office.",
+      "options": [
+        "They has a new office.",
+        "They have a new office.",
+        "They haves a new office.",
+        "They is have a new office."
+      ],
+      "answer": "They have a new office.",
+      "explanation": "They के साथ have।"
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "He haven't completed the task.",
+      "correct": "He hasn't completed the task.",
+      "options": [
+        "He haven't completed the task.",
+        "He hasn't completed the task.",
+        "He hasn't complete the task.",
+        "He not has completed the task."
+      ],
+      "answer": "He hasn't completed the task.",
+      "explanation": "He के साथ hasn't।"
+    },
+    {
+      "id": 28,
+      "type": "error",
+      "sentence": "Does she has a car?",
+      "correct": "Does she have a car?",
+      "options": [
+        "Does she has a car?",
+        "Does she have a car?",
+        "Do she has a car?",
+        "Has she a car?"
+      ],
+      "answer": "Does she have a car?",
+      "explanation": "Does के बाद base form have।"
+    },
+    {
+      "id": 29,
+      "type": "error",
+      "sentence": "We has been working for 3 hours.",
+      "correct": "We have been working for 3 hours.",
+      "options": [
+        "We has been working for 3 hours.",
+        "We have been working for 3 hours.",
+        "We have working for 3 hours.",
+        "We been working for 3 hours."
+      ],
+      "answer": "We have been working for 3 hours.",
+      "explanation": "We के साथ have।"
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "She have been studying since 2020.",
+      "correct": "She has been studying since 2020.",
+      "options": [
+        "She have been studying since 2020.",
+        "She has been studying since 2020.",
+        "She been studying since 2020.",
+        "She has studying since 2020."
+      ],
+      "answer": "She has been studying since 2020.",
+      "explanation": "She के साथ has।"
+    },
+    {
+      "id": 31,
+      "type": "fill",
+      "hindi": "मैंने अभी तक report नहीं लिखी _____ ।",
+      "options": [
+        "hasn't",
+        "haven't",
+        "doesn't",
+        "don't"
+      ],
+      "answer": "haven't",
+      "explanation": "I haven't written (Negative PP)।"
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "hindi": "She _____ already sent the email.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": "has",
+      "explanation": "She + has (PP)।"
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "hindi": "Do you _____ any experience?",
+      "options": [
+        "has",
+        "have",
+        "had",
+        "having"
+      ],
+      "answer": "have",
+      "explanation": "Do + you + have।"
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "hindi": "He _____ worked here for three years.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": "has",
+      "explanation": "He + has (PP duration)।"
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "hindi": "We _____ been waiting for an hour.",
+      "options": [
+        "has",
+        "have",
+        "was",
+        "is"
+      ],
+      "answer": "have",
+      "explanation": "We + have (PP Continuous)।"
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "hindi": "_____ she finished her assignment?",
+      "options": [
+        "Have",
+        "Has",
+        "Do",
+        "Does"
+      ],
+      "answer": "Has",
+      "explanation": "She के साथ Has।"
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "hindi": "They _____ not submitted the report.",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "was"
+      ],
+      "answer": "have",
+      "explanation": "They + have not।"
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "hindi": "I _____ a meeting at 4 PM today.",
+      "options": [
+        "has",
+        "have",
+        "am",
+        "had"
+      ],
+      "answer": "have",
+      "explanation": "I + have + expression।"
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "hindi": "She _____ never been to Paris.",
+      "options": [
+        "haven't",
+        "hasn't",
+        "don't",
+        "doesn't"
+      ],
+      "answer": "hasn't",
+      "explanation": "She + hasn't + never + V3।"
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "hindi": "_____ you ever eaten Korean food?",
+      "options": [
+        "Has",
+        "Have",
+        "Did",
+        "Do"
+      ],
+      "answer": "Have",
+      "explanation": "Have + you + ever (PP question)।"
+    },
+    {
+      "id": 41,
+      "type": "mcq",
+      "hindi": "Which is correct?",
+      "question": "Which is correct?",
+      "options": [
+        "He have a laptop.",
+        "He has a laptop.",
+        "He haves a laptop.",
+        "He is have a laptop."
+      ],
+      "answer": "He has a laptop.",
+      "explanation": "He/She/It के साथ has।"
+    },
+    {
+      "id": 42,
+      "type": "mcq",
+      "hindi": "Choose the correct Present Perfect sentence:",
+      "question": "Choose the correct Present Perfect sentence:",
+      "options": [
+        "She gone home.",
+        "She has gone home.",
+        "She have gone home.",
+        "She is go home."
+      ],
+      "answer": "She has gone home.",
+      "explanation": "She + has + V3 (gone)।"
+    },
+    {
+      "id": 43,
+      "type": "mcq",
+      "hindi": "Which question is correct?",
+      "question": "Which question is correct?",
+      "options": [
+        "Does she has a car?",
+        "Do she have a car?",
+        "Does she have a car?",
+        "Has she a car?"
+      ],
+      "answer": "Does she have a car?",
+      "explanation": "Does + she + have (base form)।"
+    },
+    {
+      "id": 44,
+      "type": "mcq",
+      "hindi": "Choose the correct negative:",
+      "question": "Choose the correct negative:",
+      "options": [
+        "I doesn't have money.",
+        "I don't have money.",
+        "I haven't money.",
+        "I not have money."
+      ],
+      "answer": "I don't have money.",
+      "explanation": "I के साथ don't have।"
+    },
+    {
+      "id": 45,
+      "type": "mcq",
+      "hindi": "Which uses 'have got' correctly?",
+      "question": "Which uses 'have got' correctly?",
+      "options": [
+        "I've got a exam.",
+        "I've got an exam.",
+        "I've get an exam.",
+        "I got have an exam."
+      ],
+      "answer": "I've got an exam.",
+      "explanation": "I've got = informal have, 'an' before vowel।"
+    },
+    {
+      "id": 46,
+      "type": "mcq",
+      "hindi": "Which sentence shows Present Perfect Continuous?",
+      "question": "Which sentence shows Present Perfect Continuous?",
+      "options": [
+        "She has work for 2 hours.",
+        "She is working for 2 hours.",
+        "She has been working for 2 hours.",
+        "She have been work for 2 hours."
+      ],
+      "answer": "She has been working for 2 hours.",
+      "explanation": "has been + Ving।"
+    },
+    {
+      "id": 47,
+      "type": "mcq",
+      "hindi": "'He _____ a new job.' (possession) Fill in:",
+      "question": "'He _____ a new job.' (possession) Fill in:",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": "has",
+      "explanation": "He के साथ has।"
+    },
+    {
+      "id": 48,
+      "type": "mcq",
+      "hindi": "'They _____ finished the project.' Fill in:",
+      "question": "'They _____ finished the project.' Fill in:",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "was"
+      ],
+      "answer": "have",
+      "explanation": "They के साथ have।"
+    },
+    {
+      "id": 49,
+      "type": "mcq",
+      "hindi": "Choose the correct tag question:",
+      "question": "Choose the correct tag question:",
+      "options": [
+        "She has a car, haven't she?",
+        "She has a car, has she?",
+        "She has a car, doesn't she?",
+        "She has a car, isn't she?"
+      ],
+      "answer": "She has a car, doesn't she?",
+      "explanation": "Possession 'has' = tag 'doesn't she'।"
+    },
+    {
+      "id": 50,
+      "type": "mcq",
+      "hindi": "Which is correct for interview?",
+      "question": "Which is correct for interview?",
+      "options": [
+        "I have five year of experience.",
+        "I have five years experience.",
+        "I have five years of experience.",
+        "I has five years of experience."
+      ],
+      "answer": "I have five years of experience.",
+      "explanation": "'years of experience' — both plural 'years' and 'of'।"
+    },
+    {
+      "id": 51,
+      "type": "translate",
+      "hindi": "उसने (लड़की) team को motivate किया है।",
+      "options": [
+        "She has motivated the team.",
+        "She have motivated the team.",
+        "She motivated has team.",
+        "She is motivated team."
+      ],
+      "answer": "She has motivated the team.",
+      "explanation": "She + has + V3 (motivated)।"
+    },
+    {
+      "id": 52,
+      "type": "translate",
+      "hindi": "हम पिछले 5 साल से यहाँ हैं।",
+      "options": [
+        "We have been here for five years.",
+        "We are here since five years.",
+        "We was here for five years.",
+        "We have here for five years."
+      ],
+      "answer": "We have been here for five years.",
+      "explanation": "have been + for + duration।"
+    },
+    {
+      "id": 53,
+      "type": "translate",
+      "hindi": "क्या तुमने कभी विदेश यात्रा की है?",
+      "options": [
+        "Have you ever traveled abroad?",
+        "Has you ever traveled abroad?",
+        "Did you ever travel abroad?",
+        "Do you ever traveled abroad?"
+      ],
+      "answer": "Have you ever traveled abroad?",
+      "explanation": "Have + you + ever + V3?"
+    },
+    {
+      "id": 54,
+      "type": "translate",
+      "hindi": "उसने अपना target achieve किया है।",
+      "options": [
+        "He has achieve his target.",
+        "He has achieved his target.",
+        "He have achieved his target.",
+        "He achieved has his target."
+      ],
+      "answer": "He has achieved his target.",
+      "explanation": "He + has + V3 (achieved)।"
+    },
+    {
+      "id": 55,
+      "type": "translate",
+      "hindi": "मैंने पहले यह book पढ़ी है।",
+      "options": [
+        "I read have this book before.",
+        "I have read this book before.",
+        "I has read this book before.",
+        "I have readed this book before."
+      ],
+      "answer": "I have read this book before.",
+      "explanation": "I + have + V3 (read) + before।"
+    },
+    {
+      "id": 56,
+      "type": "translate",
+      "hindi": "वे 2018 से इस city में हैं।",
+      "options": [
+        "They are in this city since 2018.",
+        "They have been in this city since 2018.",
+        "They has been in this city since 2018.",
+        "They have been in this city for 2018."
+      ],
+      "answer": "They have been in this city since 2018.",
+      "explanation": "have been + since + year।"
+    },
+    {
+      "id": 57,
+      "type": "translate",
+      "hindi": "उसने (लड़के) form submit कर दिया है।",
+      "options": [
+        "He submit has the form.",
+        "He have submitted the form.",
+        "He has submitted the form.",
+        "He is submitted the form."
+      ],
+      "answer": "He has submitted the form.",
+      "explanation": "He + has + submitted।"
+    },
+    {
+      "id": 58,
+      "type": "translate",
+      "hindi": "क्या हमारे पास sufficient staff है?",
+      "options": [
+        "Have we sufficient staff?",
+        "Do we have sufficient staff?",
+        "Does we have sufficient staff?",
+        "Has we sufficient staff?"
+      ],
+      "answer": "Do we have sufficient staff?",
+      "explanation": "We के साथ Do + have।"
+    },
+    {
+      "id": 59,
+      "type": "translate",
+      "hindi": "मैंने team के साथ project design किया है।",
+      "options": [
+        "I have designed the project with the team.",
+        "I has designed the project with the team.",
+        "I have design the project with team.",
+        "I design have the project with team."
+      ],
+      "answer": "I have designed the project with the team.",
+      "explanation": "I + have + V3 (designed)।"
+    },
+    {
+      "id": 60,
+      "type": "translate",
+      "hindi": "उस company का अच्छा brand है।",
+      "options": [
+        "That company has a good brand.",
+        "That company have a good brand.",
+        "That company is have good brand.",
+        "That company having a good brand."
+      ],
+      "answer": "That company has a good brand.",
+      "explanation": "Company (it) + has।"
+    },
+    {
+      "id": 61,
+      "type": "error",
+      "sentence": "I don't has a laptop.",
+      "correct": "I don't have a laptop.",
+      "options": [
+        "I don't has a laptop.",
+        "I don't have a laptop.",
+        "I doesn't have a laptop.",
+        "I haven't a laptop."
+      ],
+      "answer": "I don't have a laptop.",
+      "explanation": "don't के बाद base form have।"
+    },
+    {
+      "id": 62,
+      "type": "error",
+      "sentence": "She have good skills.",
+      "correct": "She has good skills.",
+      "options": [
+        "She have good skills.",
+        "She has good skills.",
+        "She haves good skills.",
+        "She is have good skills."
+      ],
+      "answer": "She has good skills.",
+      "explanation": "She के साथ has।"
+    },
+    {
+      "id": 63,
+      "type": "error",
+      "sentence": "Have he finished the report?",
+      "correct": "Has he finished the report?",
+      "options": [
+        "Have he finished the report?",
+        "Has he finished the report?",
+        "Does he finished the report?",
+        "Did he has finished the report?"
+      ],
+      "answer": "Has he finished the report?",
+      "explanation": "He के साथ Has।"
+    },
+    {
+      "id": 64,
+      "type": "error",
+      "sentence": "They haven't submitted yet the report.",
+      "correct": "They haven't submitted the report yet.",
+      "options": [
+        "They haven't submitted yet the report.",
+        "They haven't submitted the report yet.",
+        "They hasn't submitted the report yet.",
+        "They have not submitted yet the report."
+      ],
+      "answer": "They haven't submitted the report yet.",
+      "explanation": "'yet' sentence के अंत में।"
+    },
+    {
+      "id": 65,
+      "type": "error",
+      "sentence": "We has a meeting tomorrow.",
+      "correct": "We have a meeting tomorrow.",
+      "options": [
+        "We has a meeting tomorrow.",
+        "We have a meeting tomorrow.",
+        "We are have a meeting tomorrow.",
+        "We haves a meeting tomorrow."
+      ],
+      "answer": "We have a meeting tomorrow.",
+      "explanation": "We के साथ have।"
+    },
+    {
+      "id": 66,
+      "type": "fill",
+      "hindi": "I _____ just received the offer letter.",
+      "options": [
+        "has",
+        "have",
+        "had",
+        "am"
+      ],
+      "answer": "have",
+      "explanation": "I + have + just + V3।"
+    },
+    {
+      "id": 67,
+      "type": "fill",
+      "hindi": "The company _____ launched a new product.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": "has",
+      "explanation": "Company (it) + has।"
+    },
+    {
+      "id": 68,
+      "type": "fill",
+      "hindi": "Have they _____ the budget?",
+      "options": [
+        "approve",
+        "approves",
+        "approved",
+        "approving"
+      ],
+      "answer": "approved",
+      "explanation": "Have + they + V3 (approved)।"
+    },
+    {
+      "id": 69,
+      "type": "fill",
+      "hindi": "She hasn't _____ the message yet.",
+      "options": [
+        "see",
+        "saw",
+        "seen",
+        "seeing"
+      ],
+      "answer": "seen",
+      "explanation": "hasn't + V3 (seen)।"
+    },
+    {
+      "id": 70,
+      "type": "fill",
+      "hindi": "_____ he ever worked abroad?",
+      "options": [
+        "Have",
+        "Has",
+        "Do",
+        "Did"
+      ],
+      "answer": "Has",
+      "explanation": "He के साथ Has।"
+    },
+    {
+      "id": 71,
+      "type": "mcq",
+      "hindi": "Which sentence is grammatically correct?",
+      "question": "Which sentence is grammatically correct?",
+      "options": [
+        "I have a very useful skill.",
+        "I has a very useful skill.",
+        "I having a very useful skill.",
+        "I am have a very useful skill."
+      ],
+      "answer": "I have a very useful skill.",
+      "explanation": "I + have।"
+    },
+    {
+      "id": 72,
+      "type": "mcq",
+      "hindi": "How do you say 'उसने काम खत्म नहीं किया' in Present Perfect?",
+      "question": "How do you say 'उसने काम खत्म नहीं किया' in Present Perfect?",
+      "options": [
+        "He doesn't finish the work.",
+        "He hasn't finished the work.",
+        "He haven't finished the work.",
+        "He has not finish the work."
+      ],
+      "answer": "He hasn't finished the work.",
+      "explanation": "He + hasn't + V3।"
+    },
+    {
+      "id": 73,
+      "type": "mcq",
+      "hindi": "Choose the sentence that uses 'have' as an expression:",
+      "question": "Choose the sentence that uses 'have' as an expression:",
+      "options": [
+        "I have a hair.",
+        "Let's have a break.",
+        "She has go.",
+        "They have to music."
+      ],
+      "answer": "Let's have a break.",
+      "explanation": "'have a break' = common expression।"
+    },
+    {
+      "id": 74,
+      "type": "mcq",
+      "hindi": "Which sentence is correct?",
+      "question": "Which sentence is correct?",
+      "options": [
+        "She have been waiting since morning.",
+        "She has been waiting since morning.",
+        "She is been waiting since morning.",
+        "She been waiting since morning."
+      ],
+      "answer": "She has been waiting since morning.",
+      "explanation": "She + has been + Ving + since।"
+    },
+    {
+      "id": 75,
+      "type": "mcq",
+      "hindi": "'I have never _____ Korean food.' Fill the correct V3:",
+      "question": "'I have never _____ Korean food.' Fill the correct V3:",
+      "options": [
+        "eat",
+        "ate",
+        "eaten",
+        "eating"
+      ],
+      "answer": "eaten",
+      "explanation": "have + never + V3 (eaten)।"
+    },
+    {
+      "id": 76,
+      "type": "mcq",
+      "hindi": "Which tag question is correct? 'He has a car, _____ ?'",
+      "question": "Which tag question is correct? 'He has a car, _____ ?'",
+      "options": [
+        "hasn't he?",
+        "haven't he?",
+        "doesn't he?",
+        "isn't he?"
+      ],
+      "answer": "doesn't he?",
+      "explanation": "Possession 'has' → tag 'doesn't he'।"
+    },
+    {
+      "id": 77,
+      "type": "mcq",
+      "hindi": "'They _____ completed the project.' For Present Perfect, fill:",
+      "question": "'They _____ completed the project.' For Present Perfect, fill:",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "are"
+      ],
+      "answer": "have",
+      "explanation": "They + have।"
+    },
+    {
+      "id": 78,
+      "type": "mcq",
+      "hindi": "Which is an example of Present Perfect Continuous?",
+      "question": "Which is an example of Present Perfect Continuous?",
+      "options": [
+        "I have worked here.",
+        "I was working here.",
+        "I have been working here for 3 years.",
+        "I am working here."
+      ],
+      "answer": "I have been working here for 3 years.",
+      "explanation": "have been + Ving + for/since।"
+    },
+    {
+      "id": 79,
+      "type": "mcq",
+      "hindi": "Choose the correct formal expression with 'have':",
+      "question": "Choose the correct formal expression with 'have':",
+      "options": [
+        "I have a dream.",
+        "I has a dream.",
+        "I having a dream.",
+        "I am having dream."
+      ],
+      "answer": "I have a dream.",
+      "explanation": "I + have। Famous formal expression।"
+    },
+    {
+      "id": 80,
+      "type": "mcq",
+      "hindi": "'_____ you got the approval?' (formal question)",
+      "question": "'_____ you got the approval?' (formal question)",
+      "options": [
+        "Do",
+        "Have",
+        "Has",
+        "Are"
+      ],
+      "answer": "Have",
+      "explanation": "Have + you + V3 (got)।"
+    },
+    {
+      "id": 81,
+      "type": "translate",
+      "hindi": "हमने नई HR policy implement की है।",
+      "options": [
+        "We have implement new HR policy.",
+        "We have implemented a new HR policy.",
+        "We has implemented a new HR policy.",
+        "We implemented have a new HR policy."
+      ],
+      "answer": "We have implemented a new HR policy.",
+      "explanation": "We + have + V3।"
+    },
+    {
+      "id": 82,
+      "type": "translate",
+      "hindi": "उसने data analyze किया है।",
+      "options": [
+        "She has analyze the data.",
+        "She has analyzed the data.",
+        "She have analyzed the data.",
+        "She analyzed has the data."
+      ],
+      "answer": "She has analyzed the data.",
+      "explanation": "She + has + V3 (analyzed)।"
+    },
+    {
+      "id": 83,
+      "type": "translate",
+      "hindi": "क्या उन्होंने invoice भेजी है?",
+      "options": [
+        "Has they sent the invoice?",
+        "Have they sent the invoice?",
+        "Did they sent the invoice?",
+        "Do they have sent the invoice?"
+      ],
+      "answer": "Have they sent the invoice?",
+      "explanation": "Have + they + V3?"
+    },
+    {
+      "id": 84,
+      "type": "translate",
+      "hindi": "मैंने पिछले 3 साल में बहुत सीखा है।",
+      "options": [
+        "I have learned a lot in the past three years.",
+        "I has learned a lot in past three years.",
+        "I learned have a lot in three years.",
+        "I have learn a lot in the past three years."
+      ],
+      "answer": "I have learned a lot in the past three years.",
+      "explanation": "I + have + V3 + in + time period।"
+    },
+    {
+      "id": 85,
+      "type": "translate",
+      "hindi": "कंपनी ने नया branch खोला है।",
+      "options": [
+        "The company have opened a new branch.",
+        "The company has opened a new branch.",
+        "The company opened has a new branch.",
+        "The company has open a new branch."
+      ],
+      "answer": "The company has opened a new branch.",
+      "explanation": "Company + has + V3।"
+    },
+    {
+      "id": 86,
+      "type": "translate",
+      "hindi": "वह पिछले 2 साल से English सीख रही है।",
+      "options": [
+        "She is learning English for 2 years.",
+        "She has been learning English for 2 years.",
+        "She have been learning English for 2 years.",
+        "She has learning English for 2 years."
+      ],
+      "answer": "She has been learning English for 2 years.",
+      "explanation": "has been + Ving + for।"
+    },
+    {
+      "id": 87,
+      "type": "translate",
+      "hindi": "क्या तुमने कभी coding की है?",
+      "options": [
+        "Did you ever do coding?",
+        "Have you ever done coding?",
+        "Has you ever done coding?",
+        "Do you ever done coding?"
+      ],
+      "answer": "Have you ever done coding?",
+      "explanation": "Have + you + ever + V3?"
+    },
+    {
+      "id": 88,
+      "type": "translate",
+      "hindi": "हमने client को callback दिया है।",
+      "options": [
+        "We have give a callback to client.",
+        "We have given a callback to the client.",
+        "We has given a callback to the client.",
+        "We gave have callback to client."
+      ],
+      "answer": "We have given a callback to the client.",
+      "explanation": "We + have + given।"
+    },
+    {
+      "id": 89,
+      "type": "translate",
+      "hindi": "उसके पास बहुत creativity है।",
+      "options": [
+        "He have a lot of creativity.",
+        "He has a lot of creativity.",
+        "He haves a lot creativity.",
+        "He having a lot of creativity."
+      ],
+      "answer": "He has a lot of creativity.",
+      "explanation": "He + has + a lot of + noun।"
+    },
+    {
+      "id": 90,
+      "type": "translate",
+      "hindi": "मेरे पास इस बारे में पूरी जानकारी है।",
+      "options": [
+        "I have complete information about this.",
+        "I has complete information about this.",
+        "I having complete information about this.",
+        "I am have complete information."
+      ],
+      "answer": "I have complete information about this.",
+      "explanation": "I + have + noun।"
+    },
+    {
+      "id": 91,
+      "type": "translate",
+      "hindi": "उन्होंने अपना annual report publish किया है।",
+      "options": [
+        "They have published their annual report.",
+        "They has published their annual report.",
+        "They published have their annual report.",
+        "They have publish their annual report."
+      ],
+      "answer": "They have published their annual report.",
+      "explanation": "They + have + V3।"
+    },
+    {
+      "id": 92,
+      "type": "translate",
+      "hindi": "क्या तुम्हारे पास ID proof है?",
+      "options": [
+        "Have you ID proof?",
+        "Do you have ID proof?",
+        "Has you ID proof?",
+        "Does you have ID proof?"
+      ],
+      "answer": "Do you have ID proof?",
+      "explanation": "Do + you + have।"
+    },
+    {
+      "id": 93,
+      "type": "error",
+      "sentence": "I are having breakfast now.",
+      "correct": "I am having breakfast now.",
+      "options": [
+        "I are having breakfast now.",
+        "I am having breakfast now.",
+        "I is having breakfast now.",
+        "I have breakfast now."
+      ],
+      "answer": "I am having breakfast now.",
+      "explanation": "Present Continuous: am + Ving।"
+    },
+    {
+      "id": 94,
+      "type": "error",
+      "sentence": "She have experience in marketing.",
+      "correct": "She has experience in marketing.",
+      "options": [
+        "She have experience in marketing.",
+        "She has experience in marketing.",
+        "She is have experience in marketing.",
+        "She haves experience in marketing."
+      ],
+      "answer": "She has experience in marketing.",
+      "explanation": "She + has।"
+    },
+    {
+      "id": 95,
+      "type": "fill",
+      "hindi": "_____ the team completed the task?",
+      "options": [
+        "Have",
+        "Has",
+        "Did",
+        "Do"
+      ],
+      "answer": "Has",
+      "explanation": "Team = it → Has।"
+    },
+    {
+      "id": 96,
+      "type": "fill",
+      "hindi": "I have _____ my best in this project.",
+      "options": [
+        "give",
+        "gave",
+        "given",
+        "giving"
+      ],
+      "answer": "given",
+      "explanation": "have + V3 (given)।"
+    },
+    {
+      "id": 97,
+      "type": "fill",
+      "hindi": "She _____ submitted her assignment.",
+      "options": [
+        "haven't",
+        "hasn't",
+        "don't",
+        "doesn't"
+      ],
+      "answer": "hasn't",
+      "explanation": "She + hasn't + V3।"
+    },
+    {
+      "id": 98,
+      "type": "fill",
+      "hindi": "We have _____ this issue before.",
+      "options": [
+        "discuss",
+        "discussed",
+        "discussing",
+        "discusses"
+      ],
+      "answer": "discussed",
+      "explanation": "have + V3 (discussed)।"
+    },
+    {
+      "id": 99,
+      "type": "fill",
+      "hindi": "He _____ been the team leader for 2 years.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": "has",
+      "explanation": "He + has + been।"
+    },
+    {
+      "id": 100,
+      "type": "mcq",
+      "hindi": "Which uses 'have lunch' correctly?",
+      "question": "Which uses 'have lunch' correctly?",
+      "options": [
+        "I has lunch at 1 PM.",
+        "I have lunch at 1 PM.",
+        "I having lunch at 1 PM.",
+        "I am have lunch at 1 PM."
+      ],
+      "answer": "I have lunch at 1 PM.",
+      "explanation": "'have lunch' expression with I + have।"
+    },
+    {
+      "id": 101,
+      "type": "mcq",
+      "hindi": "'They have _____ excellent work.' V3 form:",
+      "question": "'They have _____ excellent work.' V3 form:",
+      "options": [
+        "do",
+        "did",
+        "done",
+        "doing"
+      ],
+      "answer": "done",
+      "explanation": "have + V3 (done)।"
+    },
+    {
+      "id": 102,
+      "type": "mcq",
+      "hindi": "Which shows correct negative Present Perfect for 'he'?",
+      "question": "Which shows correct negative Present Perfect for 'he'?",
+      "options": [
+        "He don't finished.",
+        "He doesn't have finished.",
+        "He hasn't finished.",
+        "He haven't finished."
+      ],
+      "answer": "He hasn't finished.",
+      "explanation": "He + hasn't + V3।"
+    },
+    {
+      "id": 103,
+      "type": "mcq",
+      "hindi": "'We have _____ a new office.' V3 form:",
+      "question": "'We have _____ a new office.' V3 form:",
+      "options": [
+        "open",
+        "opens",
+        "opened",
+        "opening"
+      ],
+      "answer": "opened",
+      "explanation": "have + V3 (opened)।"
+    },
+    {
+      "id": 104,
+      "type": "mcq",
+      "hindi": "Which question uses Present Perfect correctly?",
+      "question": "Which question uses Present Perfect correctly?",
+      "options": [
+        "Did you completed the task?",
+        "Have you completed the task?",
+        "Are you completed the task?",
+        "Does you have completed?"
+      ],
+      "answer": "Have you completed the task?",
+      "explanation": "Have + you + V3?"
+    },
+    {
+      "id": 105,
+      "type": "translate",
+      "hindi": "मैंने अभी-अभी एक email भेजी है।",
+      "options": [
+        "I have just send an email.",
+        "I have just sent an email.",
+        "I has just sent an email.",
+        "I just have sent an email."
+      ],
+      "answer": "I have just sent an email.",
+      "explanation": "have + just + V3।"
+    },
+    {
+      "id": 106,
+      "type": "translate",
+      "hindi": "वे पिछले 3 साल से यहाँ काम कर रहे हैं।",
+      "options": [
+        "They have been working here for 3 years.",
+        "They has been working here for 3 years.",
+        "They are working here since 3 years.",
+        "They have working here for 3 years."
+      ],
+      "answer": "They have been working here for 3 years.",
+      "explanation": "have been + Ving + for।"
+    },
+    {
+      "id": 107,
+      "type": "translate",
+      "hindi": "क्या उसने project submit किया है?",
+      "options": [
+        "Has he submit the project?",
+        "Has he submitted the project?",
+        "Have he submitted the project?",
+        "Does he has submitted the project?"
+      ],
+      "answer": "Has he submitted the project?",
+      "explanation": "Has + he + V3?"
+    },
+    {
+      "id": 108,
+      "type": "translate",
+      "hindi": "वह (लड़की) MBA कर चुकी है।",
+      "options": [
+        "She has completed MBA.",
+        "She have completed MBA.",
+        "She has complete MBA.",
+        "She completed have MBA."
+      ],
+      "answer": "She has completed MBA.",
+      "explanation": "She + has + V3।"
+    },
+    {
+      "id": 109,
+      "type": "translate",
+      "hindi": "मेरे पास leadership skills हैं।",
+      "options": [
+        "I has leadership skills.",
+        "I have leadership skills.",
+        "I having leadership skills.",
+        "I am have leadership skills."
+      ],
+      "answer": "I have leadership skills.",
+      "explanation": "I + have।"
+    },
+    {
+      "id": 110,
+      "type": "error",
+      "sentence": "Does they have enough resources?",
+      "correct": "Do they have enough resources?",
+      "options": [
+        "Does they have enough resources?",
+        "Do they have enough resources?",
+        "Does they has enough resources?",
+        "Do they has enough resources?"
+      ],
+      "answer": "Do they have enough resources?",
+      "explanation": "They के साथ Do।"
+    },
+    {
+      "id": 111,
+      "type": "error",
+      "sentence": "I have never ate sushi.",
+      "correct": "I have never eaten sushi.",
+      "options": [
+        "I have never ate sushi.",
+        "I have never eaten sushi.",
+        "I has never eaten sushi.",
+        "I have never eat sushi."
+      ],
+      "answer": "I have never eaten sushi.",
+      "explanation": "have + V3 (eaten, not ate)।"
+    },
+    {
+      "id": 112,
+      "type": "fill",
+      "hindi": "How long _____ you been working here?",
+      "options": [
+        "have",
+        "has",
+        "do",
+        "are"
+      ],
+      "answer": "have",
+      "explanation": "How long + have + you (PP Continuous question)।"
+    },
+    {
+      "id": 113,
+      "type": "fill",
+      "hindi": "The company _____ already paid the invoice.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": "has",
+      "explanation": "Company + has।"
+    },
+    {
+      "id": 114,
+      "type": "mcq",
+      "hindi": "Which is the informal version of 'I have an idea'?",
+      "question": "Which is the informal version of 'I have an idea'?",
+      "options": [
+        "I has got an idea.",
+        "I've got an idea.",
+        "I've get an idea.",
+        "I having idea."
+      ],
+      "answer": "I've got an idea.",
+      "explanation": "I've got = informal I have।"
+    },
+    {
+      "id": 115,
+      "type": "mcq",
+      "hindi": "Choose the sentence using 'have a word' correctly:",
+      "question": "Choose the sentence using 'have a word' correctly:",
+      "options": [
+        "I have a word with him daily.",
+        "I need to have a word with him.",
+        "I have word him.",
+        "I am having word with him."
+      ],
+      "answer": "I need to have a word with him.",
+      "explanation": "'have a word with someone' = speak privately।"
+    },
+    {
+      "id": 116,
+      "type": "translate",
+      "hindi": "उसके पास problem-solving की ability है।",
+      "options": [
+        "He has problem-solving ability.",
+        "He have problem-solving ability.",
+        "He has problem-solved ability.",
+        "He having problem-solving ability."
+      ],
+      "answer": "He has problem-solving ability.",
+      "explanation": "He + has + noun।"
+    },
+    {
+      "id": 117,
+      "type": "translate",
+      "hindi": "मैंने client को पूरी जानकारी दे दी है।",
+      "options": [
+        "I have given the client complete information.",
+        "I has given the client information.",
+        "I have give client information.",
+        "I gave have client information."
+      ],
+      "answer": "I have given the client complete information.",
+      "explanation": "I + have + V3 (given)।"
+    },
+    {
+      "id": 118,
+      "type": "translate",
+      "hindi": "हमने deadline miss कर दी है।",
+      "options": [
+        "We have missed the deadline.",
+        "We has missed the deadline.",
+        "We have miss the deadline.",
+        "We missed have the deadline."
+      ],
+      "answer": "We have missed the deadline.",
+      "explanation": "We + have + V3।"
+    },
+    {
+      "id": 119,
+      "type": "error",
+      "sentence": "She hasn't never been abroad.",
+      "correct": "She has never been abroad.",
+      "options": [
+        "She hasn't never been abroad.",
+        "She has never been abroad.",
+        "She haven't never been abroad.",
+        "She hasn't ever been abroad."
+      ],
+      "answer": "She has never been abroad.",
+      "explanation": "'never' अकेले negative है, 'hasn't never' double negative होता है।"
+    },
+    {
+      "id": 120,
+      "type": "mcq",
+      "hindi": "'Raj _____ five years of experience in IT.' Choose the correct verb:",
+      "question": "'Raj _____ five years of experience in IT.' Choose the correct verb:",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "are"
+      ],
+      "answer": "has",
+      "explanation": "Raj = He → has।"
+    },
+    {
+      "id": 121,
+      "type": "translate",
+      "hindi": "क्या तुमने यह पहले सुना है?",
+      "options": [
+        "Did you heard this before?",
+        "Have you heard this before?",
+        "Has you heard this before?",
+        "Do you heard this before?"
+      ],
+      "answer": "Have you heard this before?",
+      "explanation": "Have + you + V3 (heard)?"
+    },
+    {
+      "id": 122,
+      "type": "translate",
+      "hindi": "उसने (लड़की) अपनी team को well-train किया है।",
+      "options": [
+        "She has trained her team well.",
+        "She have trained her team well.",
+        "She trained has her team well.",
+        "She has train her team well."
+      ],
+      "answer": "She has trained her team well.",
+      "explanation": "She + has + V3।"
+    },
+    {
+      "id": 123,
+      "type": "fill",
+      "hindi": "We haven't _____ any decision yet.",
+      "options": [
+        "take",
+        "took",
+        "taken",
+        "taking"
+      ],
+      "answer": "taken",
+      "explanation": "haven't + V3 (taken)।"
+    },
+    {
+      "id": 124,
+      "type": "fill",
+      "hindi": "Has she _____ the presentation?",
+      "options": [
+        "give",
+        "gave",
+        "given",
+        "giving"
+      ],
+      "answer": "given",
+      "explanation": "Has + she + V3 (given)?"
+    },
+    {
+      "id": 125,
+      "type": "mcq",
+      "hindi": "Which word completes: 'I have _____ the project on time'?",
+      "question": "Which word completes: 'I have _____ the project on time'?",
+      "options": [
+        "deliver",
+        "delivers",
+        "delivered",
+        "delivering"
+      ],
+      "answer": "delivered",
+      "explanation": "have + V3 (delivered)।"
+    },
+    {
+      "id": 126,
+      "type": "mcq",
+      "hindi": "Choose the correct sentence about possession:",
+      "question": "Choose the correct sentence about possession:",
+      "options": [
+        "The team has five members.",
+        "The team have five members.",
+        "The team haves five members.",
+        "The team is have five members."
+      ],
+      "answer": "The team has five members.",
+      "explanation": "Team = it → has।"
+    },
+    {
+      "id": 127,
+      "type": "translate",
+      "hindi": "मैं बचपन से यहाँ रह रहा हूँ।",
+      "options": [
+        "I have lived here since childhood.",
+        "I has lived here since childhood.",
+        "I am living here since childhood.",
+        "I have living here since childhood."
+      ],
+      "answer": "I have lived here since childhood.",
+      "explanation": "have + V3 + since।"
+    },
+    {
+      "id": 128,
+      "type": "translate",
+      "hindi": "उसने (लड़का) nया role accept किया है।",
+      "options": [
+        "He has accepted the new role.",
+        "He have accepted the new role.",
+        "He accept has the new role.",
+        "He has accept the new role."
+      ],
+      "answer": "He has accepted the new role.",
+      "explanation": "He + has + V3।"
+    },
+    {
+      "id": 129,
+      "type": "error",
+      "sentence": "We has submitted the proposal.",
+      "correct": "We have submitted the proposal.",
+      "options": [
+        "We has submitted the proposal.",
+        "We have submitted the proposal.",
+        "We have submit the proposal.",
+        "We submitted has the proposal."
+      ],
+      "answer": "We have submitted the proposal.",
+      "explanation": "We + have।"
+    },
+    {
+      "id": 130,
+      "type": "fill",
+      "hindi": "She _____ just completed the training.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": "has",
+      "explanation": "She + has + just + V3।"
+    },
+    {
+      "id": 131,
+      "type": "fill",
+      "hindi": "They haven't _____ the contract yet.",
+      "options": [
+        "sign",
+        "signs",
+        "signed",
+        "signing"
+      ],
+      "answer": "signed",
+      "explanation": "haven't + V3 (signed)।"
+    },
+    {
+      "id": 132,
+      "type": "translate",
+      "hindi": "क्या कंपनी ने profit बनाया है?",
+      "options": [
+        "Have the company made a profit?",
+        "Has the company made a profit?",
+        "Does the company has made a profit?",
+        "Did the company has made a profit?"
+      ],
+      "answer": "Has the company made a profit?",
+      "explanation": "Company + Has + V3?"
+    },
+    {
+      "id": 133,
+      "type": "mcq",
+      "hindi": "Which is correct? 'She _____ a great manager.'",
+      "question": "Which is correct? 'She _____ a great manager.'",
+      "options": [
+        "have",
+        "has",
+        "is have",
+        "haves"
+      ],
+      "answer": "has",
+      "explanation": "She + has (possession of quality)।"
+    },
+    {
+      "id": 134,
+      "type": "translate",
+      "hindi": "मुझे आज lunch करने का समय नहीं है।",
+      "options": [
+        "I don't have time for lunch today.",
+        "I doesn't have time for lunch today.",
+        "I haven't time for lunch today.",
+        "I not have time for lunch today."
+      ],
+      "answer": "I don't have time for lunch today.",
+      "explanation": "I + don't have + noun।"
+    },
+    {
+      "id": 135,
+      "type": "translate",
+      "hindi": "उसने (लड़की) एक नई app develop की है।",
+      "options": [
+        "She has developed a new app.",
+        "She have developed a new app.",
+        "She develop has a new app.",
+        "She has develop a new app."
+      ],
+      "answer": "She has developed a new app.",
+      "explanation": "She + has + V3।"
+    },
+    {
+      "id": 136,
+      "type": "translate",
+      "hindi": "क्या तुम्हारे पास कोई suggestion है?",
+      "options": [
+        "Have you any suggestion?",
+        "Do you have any suggestion?",
+        "Has you any suggestion?",
+        "Does you have any suggestion?"
+      ],
+      "answer": "Do you have any suggestion?",
+      "explanation": "Do + you + have।"
+    },
+    {
+      "id": 137,
+      "type": "error",
+      "sentence": "I has five years experience.",
+      "correct": "I have five years of experience.",
+      "options": [
+        "I has five years experience.",
+        "I have five years of experience.",
+        "I have five year of experience.",
+        "I has five years of experience."
+      ],
+      "answer": "I have five years of experience.",
+      "explanation": "I + have + 'of' required।"
+    },
+    {
+      "id": 138,
+      "type": "fill",
+      "hindi": "He has _____ in this company for 10 years.",
+      "options": [
+        "work",
+        "works",
+        "worked",
+        "working"
+      ],
+      "answer": "worked",
+      "explanation": "has + V3 (worked)।"
+    },
+    {
+      "id": 139,
+      "type": "mcq",
+      "hindi": "Which is a correct expression with 'have'?",
+      "question": "Which is a correct expression with 'have'?",
+      "options": [
+        "have a eye",
+        "have a ear",
+        "have a look",
+        "have a think (incorrect usage)"
+      ],
+      "answer": "have a look",
+      "explanation": "'have a look' = देखना — common expression।"
+    },
+    {
+      "id": 140,
+      "type": "translate",
+      "hindi": "वे 2020 से remote work कर रहे हैं।",
+      "options": [
+        "They have been working remotely since 2020.",
+        "They has been working remotely since 2020.",
+        "They are working remotely since 2020.",
+        "They have been work remotely since 2020."
+      ],
+      "answer": "They have been working remotely since 2020.",
+      "explanation": "have been + Ving + since।"
+    },
+    {
+      "id": 141,
+      "type": "translate",
+      "hindi": "मेरे पास project management का experience है।",
+      "options": [
+        "I have experience in project management.",
+        "I has experience in project management.",
+        "I am having experience in project management.",
+        "I have experienced in project management."
+      ],
+      "answer": "I have experience in project management.",
+      "explanation": "I + have + experience in + field।"
+    },
+    {
+      "id": 142,
+      "type": "fill",
+      "hindi": "We _____ been collaborating with the client for months.",
+      "options": [
+        "has",
+        "have",
+        "is",
+        "are"
+      ],
+      "answer": "have",
+      "explanation": "We + have (PP Continuous)।"
+    },
+    {
+      "id": 143,
+      "type": "mcq",
+      "hindi": "Select the correct statement: 'Priya _____ excellent communication skills.'",
+      "question": "Select the correct statement: 'Priya _____ excellent communication skills.'",
+      "options": [
+        "have",
+        "has",
+        "haves",
+        "having"
+      ],
+      "answer": "has",
+      "explanation": "Priya = She → has।"
+    },
+    {
+      "id": 144,
+      "type": "translate",
+      "hindi": "उसने (लड़के) एक नई strategy propose की है।",
+      "options": [
+        "He has proposed a new strategy.",
+        "He have proposed a new strategy.",
+        "He has propose a new strategy.",
+        "He proposed has a new strategy."
+      ],
+      "answer": "He has proposed a new strategy.",
+      "explanation": "He + has + V3।"
+    },
+    {
+      "id": 145,
+      "type": "translate",
+      "hindi": "क्या तुमने कभी team lead किया है?",
+      "options": [
+        "Have you ever led a team?",
+        "Has you ever led a team?",
+        "Did you ever lead a team?",
+        "Do you ever led a team?"
+      ],
+      "answer": "Have you ever led a team?",
+      "explanation": "Have + you + ever + V3?"
+    },
+    {
+      "id": 146,
+      "type": "error",
+      "sentence": "The company haven't released the results.",
+      "correct": "The company hasn't released the results.",
+      "options": [
+        "The company haven't released the results.",
+        "The company hasn't released the results.",
+        "The company doesn't has released results.",
+        "The company have not released the results."
+      ],
+      "answer": "The company hasn't released the results.",
+      "explanation": "Company (it) + hasn't।"
+    },
+    {
+      "id": 147,
+      "type": "fill",
+      "hindi": "Have you _____ the annual report?",
+      "options": [
+        "review",
+        "reviews",
+        "reviewed",
+        "reviewing"
+      ],
+      "answer": "reviewed",
+      "explanation": "Have + you + V3 (reviewed)?"
+    },
+    {
+      "id": 148,
+      "type": "mcq",
+      "hindi": "'I _____ just had my appraisal.' Choose the correct verb:",
+      "question": "'I _____ just had my appraisal.' Choose the correct verb:",
+      "options": [
+        "has",
+        "have",
+        "was",
+        "am"
+      ],
+      "answer": "have",
+      "explanation": "I + have + just + V3।"
+    },
+    {
+      "id": 149,
+      "type": "translate",
+      "hindi": "उस office में अच्छी facilities हैं।",
+      "options": [
+        "That office has good facilities.",
+        "That office have good facilities.",
+        "That office haves good facilities.",
+        "That office is have good facilities."
+      ],
+      "answer": "That office has good facilities.",
+      "explanation": "Office (it) + has।"
+    },
+    {
+      "id": 150,
+      "type": "translate",
+      "hindi": "मैंने अभी तक decision नहीं लिया है।",
+      "options": [
+        "I haven't made a decision yet.",
+        "I hasn't made a decision yet.",
+        "I don't made a decision yet.",
+        "I not have made a decision yet."
+      ],
+      "answer": "I haven't made a decision yet.",
+      "explanation": "I + haven't + V3 + yet।"
+    },
+    {
+      "id": 151,
+      "type": "fill",
+      "hindi": "She has _____ a new approach to the problem.",
+      "options": [
+        "find",
+        "found",
+        "finding",
+        "finds"
+      ],
+      "answer": "found",
+      "explanation": "has + V3 (found)।"
+    },
+    {
+      "id": 152,
+      "type": "fill",
+      "hindi": "They _____ achieved their annual target.",
+      "options": [
+        "has",
+        "have",
+        "was",
+        "is"
+      ],
+      "answer": "have",
+      "explanation": "They + have।"
+    },
+    {
+      "id": 153,
+      "type": "translate",
+      "hindi": "वह (लड़का) पिछले 1 साल से इस project पर है।",
+      "options": [
+        "He has been on this project for one year.",
+        "He have been on this project for one year.",
+        "He is on this project since one year.",
+        "He was on this project for one year."
+      ],
+      "answer": "He has been on this project for one year.",
+      "explanation": "has been + on + for।"
+    },
+    {
+      "id": 154,
+      "type": "mcq",
+      "hindi": "'They have _____ a new branch in Mumbai.' Fill V3:",
+      "question": "'They have _____ a new branch in Mumbai.' Fill V3:",
+      "options": [
+        "open",
+        "opens",
+        "opening",
+        "opened"
+      ],
+      "answer": "opened",
+      "explanation": "have + V3 (opened)।"
+    },
+    {
+      "id": 155,
+      "type": "translate",
+      "hindi": "हमने सारे documents verify कर लिए हैं।",
+      "options": [
+        "We have verified all documents.",
+        "We has verified all documents.",
+        "We have verify all documents.",
+        "We verified have all documents."
+      ],
+      "answer": "We have verified all documents.",
+      "explanation": "We + have + V3।"
+    },
+    {
+      "id": 156,
+      "type": "translate",
+      "hindi": "क्या उसने (लड़की) interview clear किया है?",
+      "options": [
+        "Has she cleared the interview?",
+        "Have she cleared the interview?",
+        "Does she has cleared the interview?",
+        "Did she has cleared the interview?"
+      ],
+      "answer": "Has she cleared the interview?",
+      "explanation": "Has + she + V3?"
+    },
+    {
+      "id": 157,
+      "type": "error",
+      "sentence": "I have gave my best effort.",
+      "correct": "I have given my best effort.",
+      "options": [
+        "I have gave my best effort.",
+        "I have given my best effort.",
+        "I has given my best effort.",
+        "I have give my best effort."
+      ],
+      "answer": "I have given my best effort.",
+      "explanation": "have + V3 (given, not gave)।"
+    },
+    {
+      "id": 158,
+      "type": "fill",
+      "hindi": "He _____ been working as a manager since January.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "was"
+      ],
+      "answer": "has",
+      "explanation": "He + has + been।"
+    },
+    {
+      "id": 159,
+      "type": "translate",
+      "hindi": "मैंने अपनी skills पर बहुत काम किया है।",
+      "options": [
+        "I have worked hard on my skills.",
+        "I has worked hard on my skills.",
+        "I have work hard on my skills.",
+        "I worked have hard on my skills."
+      ],
+      "answer": "I have worked hard on my skills.",
+      "explanation": "I + have + V3।"
+    }
   ]
 }

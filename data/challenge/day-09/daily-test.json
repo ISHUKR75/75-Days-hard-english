@@ -1,7 +1,7 @@
 {
   "day": 9,
   "topic": "Use of There",
-  "totalQuestions": 30,
+  "totalQuestions": 311,
   "questions": [
     {
       "id": 1,
@@ -19,38 +19,13 @@
         {
           "english": "There are five rooms in this house.",
           "hindi": "इस घर में पाँच कमरे हैं।"
-        },
-        "There is a book on the table."
+        }
       ],
       "answer": "There is a book on the table.",
       "explanation": "Correct translation: \"मेज पर एक किताब है।\" = \"There is a book on the table.\""
     },
     {
       "id": 2,
-      "type": "fill",
-      "sentence": "There is a _____ in my room.",
-      "options": [
-        "dog",
-        "in",
-        "files",
-        "fan"
-      ],
-      "answer": "fan",
-      "explanation": "The missing word is \"fan\" — full sentence: \"There is a fan in my room.\""
-    },
-    {
-      "id": 3,
-      "type": "error",
-      "sentence": "There are a problem in the system.",
-      "options": [
-        "There are a problem in the system.",
-        "There is a problem in the system."
-      ],
-      "answer": "There is a problem in the system.",
-      "explanation": "Correct sentence: \"There is a problem in the system.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 4,
       "type": "translate",
       "hindi": "3 बजे एक मीटिंग है।",
       "options": [
@@ -65,14 +40,530 @@
         {
           "english": "There are two ATMs near this market.",
           "hindi": "इस बाजार के पास दो ATM हैं।"
-        },
-        "There is a meeting at 3 pm."
+        }
       ],
       "answer": "There is a meeting at 3 pm.",
       "explanation": "Correct translation: \"3 बजे एक मीटिंग है।\" = \"There is a meeting at 3 pm.\""
     },
     {
+      "id": 3,
+      "type": "translate",
+      "hindi": "फ्रिज में दूध है।",
+      "options": [
+        {
+          "english": "There are chairs in the room.",
+          "hindi": "कमरे में कुर्सियाँ हैं।"
+        },
+        {
+          "english": "There was noise outside.",
+          "hindi": "बाहर शोर था।"
+        },
+        {
+          "english": "There are many problems here.",
+          "hindi": "यहाँ कई समस्याएँ हैं।"
+        }
+      ],
+      "answer": "There is milk in the fridge.",
+      "explanation": "Correct translation: \"फ्रिज में दूध है।\" = \"There is milk in the fridge.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "ऑफिस में कई employees हैं।",
+      "options": [
+        {
+          "english": "There was a meeting yesterday.",
+          "hindi": "कल एक मीटिंग थी।"
+        },
+        {
+          "english": "There is a new teacher.",
+          "hindi": "एक नया शिक्षक है।"
+        },
+        {
+          "english": "There are no problems here.",
+          "hindi": "यहाँ कोई समस्या नहीं है।"
+        }
+      ],
+      "answer": "There are many employees in the office.",
+      "explanation": "Correct translation: \"ऑफिस में कई employees हैं।\" = \"There are many employees in the office.\""
+    },
+    {
       "id": 5,
+      "type": "translate",
+      "hindi": "कल बारिश होगी।",
+      "options": [
+        {
+          "english": "There was rain yesterday.",
+          "hindi": "कल बारिश थी।"
+        },
+        {
+          "english": "There are clouds in the sky.",
+          "hindi": "आसमान में बादल हैं।"
+        },
+        {
+          "english": "There has been rain recently.",
+          "hindi": "हाल ही में बारिश हुई है।"
+        }
+      ],
+      "answer": "There will be rain tomorrow.",
+      "explanation": "Correct translation: \"कल बारिश होगी।\" = \"There will be rain tomorrow.\""
+    },
+    {
+      "id": 6,
+      "type": "translate",
+      "hindi": "पिछले साल बड़े बदलाव थे।",
+      "options": [
+        {
+          "english": "There are big changes this year.",
+          "hindi": "इस साल बड़े बदलाव हैं।"
+        },
+        {
+          "english": "There will be big changes.",
+          "hindi": "बड़े बदलाव होंगे।"
+        },
+        {
+          "english": "There is a big change now.",
+          "hindi": "अभी एक बड़ा बदलाव है।"
+        }
+      ],
+      "answer": "There were big changes last year.",
+      "explanation": "Correct translation: \"पिछले साल बड़े बदलाव थे।\" = \"There were big changes last year.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "इस project में बहुत देरी हुई है।",
+      "options": [
+        {
+          "english": "There will be a delay.",
+          "hindi": "देरी होगी।"
+        },
+        {
+          "english": "There was a big delay.",
+          "hindi": "बड़ी देरी थी।"
+        },
+        {
+          "english": "There are many delays.",
+          "hindi": "कई देरियाँ हैं।"
+        }
+      ],
+      "answer": "There has been a lot of delay in this project.",
+      "explanation": "Correct translation: \"इस project में बहुत देरी हुई है।\" = \"There has been a lot of delay in this project.\""
+    },
+    {
+      "id": 8,
+      "type": "translate",
+      "hindi": "क्या यहाँ कोई ATM है?",
+      "options": [
+        {
+          "english": "There is an ATM near here.",
+          "hindi": "यहाँ के पास एक ATM है।"
+        },
+        {
+          "english": "There are many ATMs here.",
+          "hindi": "यहाँ कई ATM हैं।"
+        },
+        {
+          "english": "There was an ATM here before.",
+          "hindi": "पहले यहाँ एक ATM था।"
+        }
+      ],
+      "answer": "Is there an ATM here?",
+      "explanation": "Correct translation: \"क्या यहाँ कोई ATM है?\" = \"Is there an ATM here?\""
+    },
+    {
+      "id": 9,
+      "type": "translate",
+      "hindi": "क्या इस hotel में rooms available हैं?",
+      "options": [
+        {
+          "english": "There are rooms available.",
+          "hindi": "कमरे available हैं।"
+        },
+        {
+          "english": "Is there a room here?",
+          "hindi": "क्या यहाँ एक कमरा है?"
+        },
+        {
+          "english": "Were there any rooms?",
+          "hindi": "क्या कोई कमरे थे?"
+        }
+      ],
+      "answer": "Are there any rooms available in this hotel?",
+      "explanation": "Correct translation: \"क्या इस hotel में rooms available हैं?\" = \"Are there any rooms available in this hotel?\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "इस topic पर बहुत research हो चुकी है।",
+      "options": [
+        {
+          "english": "There is a lot of research.",
+          "hindi": "बहुत research है।"
+        },
+        {
+          "english": "There was a lot of research.",
+          "hindi": "बहुत research थी।"
+        },
+        {
+          "english": "There will be more research.",
+          "hindi": "और research होगी।"
+        }
+      ],
+      "answer": "There has been a lot of research on this topic.",
+      "explanation": "Correct translation: \"इस topic पर बहुत research हो चुकी है।\" = \"There has been a lot of research on this topic.\""
+    },
+    {
+      "id": 11,
+      "type": "translate",
+      "hindi": "यहाँ कोई parking नहीं है।",
+      "options": [
+        {
+          "english": "There is no parking near here.",
+          "hindi": "यहाँ के पास कोई parking नहीं है।"
+        },
+        {
+          "english": "There are no cars here.",
+          "hindi": "यहाँ कोई गाड़ी नहीं है।"
+        },
+        {
+          "english": "There was no parking yesterday.",
+          "hindi": "कल कोई parking नहीं था।"
+        }
+      ],
+      "answer": "There is no parking here.",
+      "explanation": "Correct translation: \"यहाँ कोई parking नहीं है।\" = \"There is no parking here.\""
+    },
+    {
+      "id": 12,
+      "type": "translate",
+      "hindi": "अगले month एक team dinner होगी।",
+      "options": [
+        {
+          "english": "There will be a team meeting.",
+          "hindi": "एक team meeting होगी।"
+        },
+        {
+          "english": "There was a team dinner last month.",
+          "hindi": "पिछले month एक team dinner थी।"
+        },
+        {
+          "english": "There is a team dinner today.",
+          "hindi": "आज एक team dinner है।"
+        }
+      ],
+      "answer": "There will be a team dinner next month.",
+      "explanation": "Correct translation: \"अगले month एक team dinner होगी।\" = \"There will be a team dinner next month.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "पार्क में कई पेड़ हैं।",
+      "options": [
+        {
+          "english": "There is one tree in the park.",
+          "hindi": "पार्क में एक पेड़ है।"
+        },
+        {
+          "english": "There were many trees here.",
+          "hindi": "यहाँ कई पेड़ थे।"
+        },
+        {
+          "english": "There are many birds in the park.",
+          "hindi": "पार्क में कई पक्षी हैं।"
+        }
+      ],
+      "answer": "There are many trees in the park.",
+      "explanation": "Correct translation: \"पार्क में कई पेड़ हैं।\" = \"There are many trees in the park.\""
+    },
+    {
+      "id": 14,
+      "type": "translate",
+      "hindi": "कल रात बहुत ठंड थी।",
+      "options": [
+        {
+          "english": "There is cold today.",
+          "hindi": "आज ठंड है।"
+        },
+        {
+          "english": "There will be cold tomorrow.",
+          "hindi": "कल ठंड होगी।"
+        },
+        {
+          "english": "There was no cold last night.",
+          "hindi": "कल रात कोई ठंड नहीं थी।"
+        }
+      ],
+      "answer": "There was a lot of cold last night.",
+      "explanation": "Correct translation: \"कल रात बहुत ठंड थी।\" = \"There was a lot of cold last night.\""
+    },
+    {
+      "id": 15,
+      "type": "translate",
+      "hindi": "इस form में कई errors हैं।",
+      "options": [
+        {
+          "english": "There is one error in this form.",
+          "hindi": "इस form में एक error है।"
+        },
+        {
+          "english": "There were many errors.",
+          "hindi": "कई errors थे।"
+        },
+        {
+          "english": "There will be no errors.",
+          "hindi": "कोई errors नहीं होंगे।"
+        }
+      ],
+      "answer": "There are many errors in this form.",
+      "explanation": "Correct translation: \"इस form में कई errors हैं।\" = \"There are many errors in this form.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "इस building में एक gym है।",
+      "options": [
+        {
+          "english": "There are many gyms here.",
+          "hindi": "यहाँ कई gyms हैं।"
+        },
+        {
+          "english": "There was a gym in that building.",
+          "hindi": "उस building में एक gym था।"
+        },
+        {
+          "english": "Is there a gym here?",
+          "hindi": "क्या यहाँ कोई gym है?"
+        }
+      ],
+      "answer": "There is a gym in this building.",
+      "explanation": "Correct translation: \"इस building में एक gym है।\" = \"There is a gym in this building.\""
+    },
+    {
+      "id": 17,
+      "type": "translate",
+      "hindi": "हमारे campus में कोई canteen नहीं है।",
+      "options": [
+        {
+          "english": "There is a canteen in our campus.",
+          "hindi": "हमारे campus में एक canteen है।"
+        },
+        {
+          "english": "There are many canteens.",
+          "hindi": "कई canteens हैं।"
+        },
+        {
+          "english": "There was no canteen before.",
+          "hindi": "पहले कोई canteen नहीं थी।"
+        }
+      ],
+      "answer": "There is no canteen in our campus.",
+      "explanation": "Correct translation: \"हमारे campus में कोई canteen नहीं है।\" = \"There is no canteen in our campus.\""
+    },
+    {
+      "id": 18,
+      "type": "translate",
+      "hindi": "उस team में कोई experienced member नहीं था।",
+      "options": [
+        {
+          "english": "There is no experienced member now.",
+          "hindi": "अब कोई experienced member नहीं है।"
+        },
+        {
+          "english": "There were many experienced members.",
+          "hindi": "कई experienced members थे।"
+        },
+        {
+          "english": "There will be experienced members.",
+          "hindi": "experienced members होंगे।"
+        }
+      ],
+      "answer": "There was no experienced member in that team.",
+      "explanation": "Correct translation: \"उस team में कोई experienced member नहीं था।\" = \"There was no experienced member in that team.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "क्या कल कोई meeting थी?",
+      "options": [
+        {
+          "english": "Is there a meeting today?",
+          "hindi": "क्या आज कोई meeting है?"
+        },
+        {
+          "english": "Will there be a meeting?",
+          "hindi": "क्या कोई meeting होगी?"
+        },
+        {
+          "english": "Are there any meetings?",
+          "hindi": "क्या कोई meetings हैं?"
+        }
+      ],
+      "answer": "Was there a meeting yesterday?",
+      "explanation": "Correct translation: \"क्या कल कोई meeting थी?\" = \"Was there a meeting yesterday?\""
+    },
+    {
+      "id": 20,
+      "type": "translate",
+      "hindi": "अगले year में कई new policies होंगी।",
+      "options": [
+        {
+          "english": "There are many new policies now.",
+          "hindi": "अभी कई नई policies हैं।"
+        },
+        {
+          "english": "There were many policies last year.",
+          "hindi": "पिछले year कई policies थीं।"
+        },
+        {
+          "english": "There is a new policy today.",
+          "hindi": "आज एक नई policy है।"
+        }
+      ],
+      "answer": "There will be many new policies next year.",
+      "explanation": "Correct translation: \"अगले year में कई new policies होंगी।\" = \"There will be many new policies next year.\""
+    },
+    {
+      "id": 21,
+      "type": "translate",
+      "hindi": "हाल ही में company में leadership change हुआ है।",
+      "options": [
+        {
+          "english": "There is a leadership change.",
+          "hindi": "एक leadership change है।"
+        },
+        {
+          "english": "There was a leadership change.",
+          "hindi": "एक leadership change था।"
+        },
+        {
+          "english": "There will be a leadership change.",
+          "hindi": "एक leadership change होगा।"
+        }
+      ],
+      "answer": "There has been a leadership change in the company recently.",
+      "explanation": "Correct translation: \"हाल ही में company में leadership change हुआ है।\" = \"There has been a leadership change in the company recently.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "इस route पर बहुत traffic है।",
+      "options": [
+        {
+          "english": "There was heavy traffic yesterday.",
+          "hindi": "कल भारी traffic था।"
+        },
+        {
+          "english": "There will be heavy traffic.",
+          "hindi": "भारी traffic होगी।"
+        },
+        {
+          "english": "There are many vehicles on this route.",
+          "hindi": "इस route पर कई vehicles हैं।"
+        }
+      ],
+      "answer": "There is heavy traffic on this route.",
+      "explanation": "Correct translation: \"इस route पर बहुत traffic है।\" = \"There is heavy traffic on this route.\""
+    },
+    {
+      "id": 23,
+      "type": "translate",
+      "hindi": "क्या interview में कोई technical round होगा?",
+      "options": [
+        {
+          "english": "Is there a technical round?",
+          "hindi": "क्या कोई technical round है?"
+        },
+        {
+          "english": "Was there a technical round?",
+          "hindi": "क्या कोई technical round था?"
+        },
+        {
+          "english": "Were there any rounds?",
+          "hindi": "क्या कोई rounds थे?"
+        }
+      ],
+      "answer": "Will there be a technical round in the interview?",
+      "explanation": "Correct translation: \"क्या interview में कोई technical round होगा?\" = \"Will there be a technical round in the interview?\""
+    },
+    {
+      "id": 24,
+      "type": "translate",
+      "hindi": "इस policy में कई ambiguities हैं।",
+      "options": [
+        {
+          "english": "There is one ambiguity.",
+          "hindi": "एक ambiguity है।"
+        },
+        {
+          "english": "There were many ambiguities.",
+          "hindi": "कई ambiguities थीं।"
+        },
+        {
+          "english": "There will be no ambiguities.",
+          "hindi": "कोई ambiguities नहीं होंगी।"
+        }
+      ],
+      "answer": "There are many ambiguities in this policy.",
+      "explanation": "Correct translation: \"इस policy में कई ambiguities हैं।\" = \"There are many ambiguities in this policy.\""
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "इस experiment में कुछ variables हैं।",
+      "options": [
+        {
+          "english": "There is a variable here.",
+          "hindi": "यहाँ एक variable है।"
+        },
+        {
+          "english": "There were some variables.",
+          "hindi": "कुछ variables थे।"
+        },
+        {
+          "english": "There will be many variables.",
+          "hindi": "कई variables होंगे।"
+        }
+      ],
+      "answer": "There are some variables in this experiment.",
+      "explanation": "Correct translation: \"इस experiment में कुछ variables हैं।\" = \"There are some variables in this experiment.\""
+    },
+    {
+      "id": 26,
+      "type": "translate",
+      "hindi": "उस seminar में कोई Q&A session नहीं था।",
+      "options": [
+        {
+          "english": "There is no Q&A here.",
+          "hindi": "यहाँ कोई Q&A नहीं है।"
+        },
+        {
+          "english": "There will be no Q&A.",
+          "hindi": "कोई Q&A नहीं होगा।"
+        },
+        {
+          "english": "There were many Q&A sessions.",
+          "hindi": "कई Q&A sessions थे।"
+        }
+      ],
+      "answer": "There was no Q&A session in that seminar.",
+      "explanation": "Correct translation: \"उस seminar में कोई Q&A session नहीं था।\" = \"There was no Q&A session in that seminar.\""
+    },
+    {
+      "id": 27,
+      "type": "fill",
+      "sentence": "There is a _____ in my room.",
+      "options": [
+        "fan",
+        "in",
+        "files",
+        "dog"
+      ],
+      "answer": "fan",
+      "explanation": "The missing word is \"fan\" — full sentence: \"There is a fan in my room.\""
+    },
+    {
+      "id": 28,
       "type": "fill",
       "sentence": "There is a new _____ in our class.",
       "options": [
@@ -85,316 +576,7 @@
       "explanation": "The missing word is \"student\" — full sentence: \"There is a new student in our class.\""
     },
     {
-      "id": 6,
-      "type": "error",
-      "sentence": "There are a temple near my house.",
-      "options": [
-        "There are a temple near my house.",
-        "There is a temple near my house."
-      ],
-      "answer": "There is a temple near my house.",
-      "explanation": "Correct sentence: \"There is a temple near my house.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 7,
-      "type": "translate",
-      "hindi": "गिलास में थोड़ा पानी है।",
-      "options": [
-        {
-          "english": "There is a hospital on MG Road.",
-          "hindi": "MG Road पर एक अस्पताल है।"
-        },
-        {
-          "english": "There are many students in the class.",
-          "hindi": "कक्षा में कई छात्र हैं।"
-        },
-        {
-          "english": "There are 30 students in our batch.",
-          "hindi": "हमारे batch में 30 छात्र हैं।"
-        },
-        "There is some water in the glass."
-      ],
-      "answer": "There is some water in the glass.",
-      "explanation": "Correct translation: \"गिलास में थोड़ा पानी है।\" = \"There is some water in the glass.\""
-    },
-    {
-      "id": 8,
-      "type": "fill",
-      "sentence": "There is a _____ of work today.",
-      "options": [
-        "new",
-        "rooms",
-        "options",
-        "lot"
-      ],
-      "answer": "lot",
-      "explanation": "The missing word is \"lot\" — full sentence: \"There is a lot of work today.\""
-    },
-    {
-      "id": 9,
-      "type": "error",
-      "sentence": "There are a dog outside the door.",
-      "options": [
-        "There are a dog outside the door.",
-        "There is a dog outside the door."
-      ],
-      "answer": "There is a dog outside the door.",
-      "explanation": "Correct sentence: \"There is a dog outside the door.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 10,
-      "type": "translate",
-      "hindi": "यहाँ के पास एक बस स्टॉप है।",
-      "options": [
-        {
-          "english": "There is a lot of traffic on this road.",
-          "hindi": "इस सड़क पर बहुत ट्रैफिक है।"
-        },
-        {
-          "english": "There are a lot of problems in this project.",
-          "hindi": "इस project में बहुत सारी समस्याएँ हैं।"
-        },
-        {
-          "english": "There are a few mistakes in this email.",
-          "hindi": "इस email में कुछ गलतियाँ हैं।"
-        },
-        "There is a bus stop near here."
-      ],
-      "answer": "There is a bus stop near here.",
-      "explanation": "Correct translation: \"यहाँ के पास एक बस स्टॉप है।\" = \"There is a bus stop near here.\""
-    },
-    {
-      "id": 11,
-      "type": "fill",
-      "sentence": "There is a new _____ in the theatre.",
-      "options": [
-        "email",
-        "ATMs",
-        "trains",
-        "movie"
-      ],
-      "answer": "movie",
-      "explanation": "The missing word is \"movie\" — full sentence: \"There is a new movie in the theatre.\""
-    },
-    {
-      "id": 12,
-      "type": "error",
-      "sentence": "There are a report due tomorrow.",
-      "options": [
-        "There are a report due tomorrow.",
-        "There is a report due tomorrow."
-      ],
-      "answer": "There is a report due tomorrow.",
-      "explanation": "Correct sentence: \"There is a report due tomorrow.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 13,
-      "type": "translate",
-      "hindi": "खिड़की के पास एक कुर्सी है।",
-      "options": [
-        {
-          "english": "There is a good restaurant in this area.",
-          "hindi": "इस इलाके में एक अच्छा रेस्टोरेंट है।"
-        },
-        {
-          "english": "There are many people in this shop.",
-          "hindi": "इस दुकान में कई लोग हैं।"
-        },
-        {
-          "english": "There are two printers in our office.",
-          "hindi": "हमारे ऑफिस में दो printers हैं।"
-        },
-        "There is a chair near the window."
-      ],
-      "answer": "There is a chair near the window.",
-      "explanation": "Correct translation: \"खिड़की के पास एक कुर्सी है।\" = \"There is a chair near the window.\""
-    },
-    {
-      "id": 14,
-      "type": "fill",
-      "sentence": "There is a _____ on MG Road.",
-      "options": [
-        "students",
-        "good",
-        "big",
-        "hospital"
-      ],
-      "answer": "hospital",
-      "explanation": "The missing word is \"hospital\" — full sentence: \"There is a hospital on MG Road.\""
-    },
-    {
-      "id": 15,
-      "type": "error",
-      "sentence": "There are a new teacher today.",
-      "options": [
-        "There are a new teacher today.",
-        "There is a new teacher today."
-      ],
-      "answer": "There is a new teacher today.",
-      "explanation": "Correct sentence: \"There is a new teacher today.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 16,
-      "type": "translate",
-      "hindi": "फ्रिज में दूध है।",
-      "options": [
-        {
-          "english": "There are three files on my desk.",
-          "hindi": "मेरी मेज पर तीन फाइलें हैं।"
-        },
-        {
-          "english": "There are many temples in this city.",
-          "hindi": "इस शहर में कई मंदिर हैं।"
-        },
-        {
-          "english": "There are many candidates for this job.",
-          "hindi": "इस नौकरी के लिए कई उम्मीदवार हैं।"
-        },
-        "There is milk in the fridge."
-      ],
-      "answer": "There is milk in the fridge.",
-      "explanation": "Correct translation: \"फ्रिज में दूध है।\" = \"There is milk in the fridge.\""
-    },
-    {
-      "id": 17,
-      "type": "fill",
-      "sentence": "There is a lot _____ traffic on this road.",
-      "options": [
-        "lot",
-        "few",
-        "in",
-        "of"
-      ],
-      "answer": "of",
-      "explanation": "The missing word is \"of\" — full sentence: \"There is a lot of traffic on this road.\""
-    },
-    {
-      "id": 18,
-      "type": "error",
-      "sentence": "There are an email for you.",
-      "options": [
-        "There are an email for you.",
-        "There is an email for you."
-      ],
-      "answer": "There is an email for you.",
-      "explanation": "Correct sentence: \"There is an email for you.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 19,
-      "type": "translate",
-      "hindi": "हमारे स्कूल के पास एक पार्क है।",
-      "options": [
-        {
-          "english": "There are some apples in the basket.",
-          "hindi": "टोकरी में कुछ सेब हैं।"
-        },
-        {
-          "english": "There are four seasons in India.",
-          "hindi": "भारत में चार मौसम होते हैं।"
-        },
-        {
-          "english": "There are many customers waiting outside.",
-          "hindi": "बाहर कई ग्राहक इंतज़ार कर रहे हैं।"
-        },
-        "There is a park near our school."
-      ],
-      "answer": "There is a park near our school.",
-      "explanation": "Correct translation: \"हमारे स्कूल के पास एक पार्क है।\" = \"There is a park near our school.\""
-    },
-    {
-      "id": 20,
-      "type": "fill",
-      "sentence": "There is a good _____ in this area.",
-      "options": [
-        "people",
-        "printers",
-        "problem",
-        "restaurant"
-      ],
-      "answer": "restaurant",
-      "explanation": "The missing word is \"restaurant\" — full sentence: \"There is a good restaurant in this area.\""
-    },
-    {
-      "id": 21,
-      "type": "error",
-      "sentence": "There is many students in the class.",
-      "options": [
-        "There is many students in the class.",
-        "There are many students in the class."
-      ],
-      "answer": "There are many students in the class.",
-      "explanation": "Correct sentence: \"There are many students in the class.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 22,
-      "type": "translate",
-      "hindi": "इस घर में पाँच कमरे हैं।",
-      "options": [
-        {
-          "english": "There are several options available.",
-          "hindi": "कई विकल्प उपलब्ध हैं।"
-        },
-        {
-          "english": "There are some notifications on your phone.",
-          "hindi": "आपके phone पर कुछ notifications हैं।"
-        },
-        {
-          "english": "There was a teacher in this room.",
-          "hindi": "इस कमरे में एक शिक्षक थे।"
-        },
-        "There are five rooms in this house."
-      ],
-      "answer": "There are five rooms in this house.",
-      "explanation": "Correct translation: \"इस घर में पाँच कमरे हैं।\" = \"There are five rooms in this house.\""
-    },
-    {
-      "id": 23,
-      "type": "fill",
-      "sentence": "There are three _____ on my desk.",
-      "options": [
-        "temples",
-        "candidates",
-        "people",
-        "files"
-      ],
-      "answer": "files",
-      "explanation": "The missing word is \"files\" — full sentence: \"There are three files on my desk.\""
-    },
-    {
-      "id": 24,
-      "type": "error",
-      "sentence": "There is a lot of problems in this project.",
-      "options": [
-        "There is a lot of problems in this project.",
-        "There are a lot of problems in this project."
-      ],
-      "answer": "There are a lot of problems in this project.",
-      "explanation": "Correct sentence: \"There are a lot of problems in this project.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 25,
-      "type": "translate",
-      "hindi": "इस बाजार के पास दो ATM हैं।",
-      "options": [
-        {
-          "english": "There are many trains to Delhi from here.",
-          "hindi": "यहाँ से दिल्ली के लिए कई ट्रेनें हैं।"
-        },
-        {
-          "english": "There are five holidays next month.",
-          "hindi": "अगले महीने पाँच छुट्टियाँ हैं।"
-        },
-        {
-          "english": "There was a lot of noise outside.",
-          "hindi": "बाहर बहुत शोर था।"
-        },
-        "There are two ATMs near this market."
-      ],
-      "answer": "There are two ATMs near this market.",
-      "explanation": "Correct translation: \"इस बाजार के पास दो ATM हैं।\" = \"There are two ATMs near this market.\""
-    },
-    {
-      "id": 26,
+      "id": 29,
       "type": "fill",
       "sentence": "There are some _____ in the basket.",
       "options": [
@@ -407,40 +589,7 @@
       "explanation": "The missing word is \"apples\" — full sentence: \"There are some apples in the basket.\""
     },
     {
-      "id": 27,
-      "type": "error",
-      "sentence": "There is many people in this shop.",
-      "options": [
-        "There is many people in this shop.",
-        "There are many people in this shop."
-      ],
-      "answer": "There are many people in this shop.",
-      "explanation": "Correct sentence: \"There are many people in this shop.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 28,
-      "type": "translate",
-      "hindi": "हमारे batch में 30 छात्र हैं।",
-      "options": [
-        {
-          "english": "There are many good schools in Noida.",
-          "hindi": "नोएडा में कई अच्छे स्कूल हैं।"
-        },
-        {
-          "english": "There was a big party last night.",
-          "hindi": "कल रात एक बड़ी पार्टी थी।"
-        },
-        {
-          "english": "There were many students last year.",
-          "hindi": "पिछले साल कई छात्र थे।"
-        },
-        "There are 30 students in our batch."
-      ],
-      "answer": "There are 30 students in our batch.",
-      "explanation": "Correct translation: \"हमारे batch में 30 छात्र हैं।\" = \"There are 30 students in our batch.\""
-    },
-    {
-      "id": 29,
+      "id": 30,
       "type": "fill",
       "sentence": "There are _____ options available.",
       "options": [
@@ -453,7 +602,1678 @@
       "explanation": "The missing word is \"several\" — full sentence: \"There are several options available.\""
     },
     {
-      "id": 30,
+      "id": 31,
+      "type": "fill",
+      "sentence": "There _____ a meeting yesterday.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" is used for singular past tense: \"There was a meeting yesterday.\""
+    },
+    {
+      "id": 32,
+      "type": "fill",
+      "sentence": "There _____ many students in that class.",
+      "options": [
+        "is",
+        "was",
+        "will be",
+        "were"
+      ],
+      "answer": "were",
+      "explanation": "\"Were\" is used for plural past tense: \"There were many students in that class.\""
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "sentence": "There _____ be a test next week.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" is used for future: \"There will be a test next week.\""
+    },
+    {
+      "id": 34,
+      "type": "fill",
+      "sentence": "Is there _____ problem with the system?",
+      "options": [
+        "any",
+        "are",
+        "many",
+        "some"
+      ],
+      "answer": "any",
+      "explanation": "\"Any\" is used in questions: \"Is there any problem with the system?\""
+    },
+    {
+      "id": 35,
+      "type": "fill",
+      "sentence": "There are _____ cars in the parking.",
+      "options": [
+        "much",
+        "is",
+        "no",
+        "have been"
+      ],
+      "answer": "no",
+      "explanation": "\"No\" is used for negation: \"There are no cars in the parking.\""
+    },
+    {
+      "id": 36,
+      "type": "fill",
+      "sentence": "There is _____ milk in the fridge.",
+      "options": [
+        "many",
+        "no",
+        "few",
+        "are"
+      ],
+      "answer": "no",
+      "explanation": "\"No\" is used with uncountable nouns: \"There is no milk in the fridge.\""
+    },
+    {
+      "id": 37,
+      "type": "fill",
+      "sentence": "There _____ been many changes recently.",
+      "options": [
+        "is",
+        "are",
+        "have",
+        "was"
+      ],
+      "answer": "have",
+      "explanation": "\"Have been\" is used for present perfect plural: \"There have been many changes recently.\""
+    },
+    {
+      "id": 38,
+      "type": "fill",
+      "sentence": "There _____ been a mistake in the report.",
+      "options": [
+        "have",
+        "are",
+        "were",
+        "has"
+      ],
+      "answer": "has",
+      "explanation": "\"Has been\" is used for present perfect singular: \"There has been a mistake in the report.\""
+    },
+    {
+      "id": 39,
+      "type": "fill",
+      "sentence": "There are _____ students in each class.",
+      "options": [
+        "thirty",
+        "much",
+        "is",
+        "was"
+      ],
+      "answer": "thirty",
+      "explanation": "\"Thirty\" is a number used with plural nouns: \"There are thirty students in each class.\""
+    },
+    {
+      "id": 40,
+      "type": "fill",
+      "sentence": "There is _____ water in the glass.",
+      "options": [
+        "many",
+        "some",
+        "are",
+        "were"
+      ],
+      "answer": "some",
+      "explanation": "\"Some\" is used with uncountable nouns: \"There is some water in the glass.\""
+    },
+    {
+      "id": 41,
+      "type": "fill",
+      "sentence": "There _____ a big accident near the office.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "will"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" is used for singular past: \"There was a big accident near the office.\""
+    },
+    {
+      "id": 42,
+      "type": "fill",
+      "sentence": "Are there _____ vacancies in your company?",
+      "options": [
+        "some",
+        "any",
+        "much",
+        "are"
+      ],
+      "answer": "any",
+      "explanation": "\"Any\" is used in questions: \"Are there any vacancies in your company?\""
+    },
+    {
+      "id": 43,
+      "type": "fill",
+      "sentence": "There is a _____ on the wall.",
+      "options": [
+        "chairs",
+        "books",
+        "picture",
+        "pens"
+      ],
+      "answer": "picture",
+      "explanation": "\"Picture\" is singular, matching \"is\": \"There is a picture on the wall.\""
+    },
+    {
+      "id": 44,
+      "type": "fill",
+      "sentence": "There are _____ flights to Delhi today.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "several"
+      ],
+      "answer": "several",
+      "explanation": "\"Several\" means more than two: \"There are several flights to Delhi today.\""
+    },
+    {
+      "id": 45,
+      "type": "fill",
+      "sentence": "There is no _____ in the office today.",
+      "options": [
+        "internet",
+        "books",
+        "keys",
+        "chairs"
+      ],
+      "answer": "internet",
+      "explanation": "\"Internet\" is an uncountable noun: \"There is no internet in the office today.\""
+    },
+    {
+      "id": 46,
+      "type": "fill",
+      "sentence": "There will be _____ announcements tomorrow.",
+      "options": [
+        "is",
+        "a",
+        "some",
+        "was"
+      ],
+      "answer": "some",
+      "explanation": "\"Some\" is used with plural future: \"There will be some announcements tomorrow.\""
+    },
+    {
+      "id": 47,
+      "type": "fill",
+      "sentence": "There is a _____ of water in the bottle.",
+      "options": [
+        "many",
+        "little",
+        "few",
+        "are"
+      ],
+      "answer": "little",
+      "explanation": "\"A little\" is used with uncountable nouns: \"There is a little water in the bottle.\""
+    },
+    {
+      "id": 48,
+      "type": "fill",
+      "sentence": "There are _____ things to do today.",
+      "options": [
+        "much",
+        "is",
+        "lots of",
+        "was"
+      ],
+      "answer": "lots of",
+      "explanation": "\"Lots of\" is used with countable plurals: \"There are lots of things to do today.\""
+    },
+    {
+      "id": 49,
+      "type": "fill",
+      "sentence": "There _____ an error in the first line.",
+      "options": [
+        "are",
+        "were",
+        "have",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "\"Is\" is used for singular present: \"There is an error in the first line.\""
+    },
+    {
+      "id": 50,
+      "type": "fill",
+      "sentence": "There is _____ problem with the code.",
+      "options": [
+        "a",
+        "much",
+        "many",
+        "are"
+      ],
+      "answer": "a",
+      "explanation": "\"A\" is used before singular countable nouns: \"There is a problem with the code.\""
+    },
+    {
+      "id": 51,
+      "type": "fill",
+      "sentence": "There are _____ hospitals in this city.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many\" is used with plural countable nouns: \"There are many hospitals in this city.\""
+    },
+    {
+      "id": 52,
+      "type": "fill",
+      "sentence": "There will _____ be rain tonight.",
+      "options": [
+        "is",
+        "was",
+        "not",
+        "have"
+      ],
+      "answer": "not",
+      "explanation": "\"Will not be\" for future negative: \"There will not be rain tonight.\""
+    },
+    {
+      "id": 53,
+      "type": "fill",
+      "sentence": "There _____ no seats available on that train.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "will"
+      ],
+      "answer": "were",
+      "explanation": "\"Were\" for plural past negative: \"There were no seats available on that train.\""
+    },
+    {
+      "id": 54,
+      "type": "fill",
+      "sentence": "There is _____ left in the tank.",
+      "options": [
+        "many",
+        "are",
+        "nothing",
+        "several"
+      ],
+      "answer": "nothing",
+      "explanation": "\"Nothing\" can follow \"there is\": \"There is nothing left in the tank.\""
+    },
+    {
+      "id": 55,
+      "type": "fill",
+      "sentence": "There _____ be a new CEO next month.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be a new CEO next month.\""
+    },
+    {
+      "id": 56,
+      "type": "fill",
+      "sentence": "There are _____ items on the agenda.",
+      "options": [
+        "a",
+        "much",
+        "is",
+        "five"
+      ],
+      "answer": "five",
+      "explanation": "\"Five\" is a number for plural: \"There are five items on the agenda.\""
+    },
+    {
+      "id": 57,
+      "type": "fill",
+      "sentence": "There _____ a lot of traffic on Monday mornings.",
+      "options": [
+        "are",
+        "were",
+        "has",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "\"Is\" for singular uncountable: \"There is a lot of traffic on Monday mornings.\""
+    },
+    {
+      "id": 58,
+      "type": "fill",
+      "sentence": "There is _____ sugar in this coffee.",
+      "options": [
+        "many",
+        "a few",
+        "too much",
+        "are"
+      ],
+      "answer": "too much",
+      "explanation": "\"Too much\" with uncountable: \"There is too much sugar in this coffee.\""
+    },
+    {
+      "id": 59,
+      "type": "fill",
+      "sentence": "There are _____ reasons for this decision.",
+      "options": [
+        "much",
+        "is",
+        "several",
+        "a"
+      ],
+      "answer": "several",
+      "explanation": "\"Several\" with plural: \"There are several reasons for this decision.\""
+    },
+    {
+      "id": 60,
+      "type": "fill",
+      "sentence": "There _____ any buses after 10 pm.",
+      "options": [
+        "is",
+        "are",
+        "weren't",
+        "was"
+      ],
+      "answer": "aren't",
+      "explanation": "\"Aren't\" for plural present negative: \"There aren't any buses after 10 pm.\""
+    },
+    {
+      "id": 61,
+      "type": "fill",
+      "sentence": "There is a _____ opportunity here.",
+      "options": [
+        "many",
+        "great",
+        "are",
+        "few"
+      ],
+      "answer": "great",
+      "explanation": "\"Great\" is an adjective before singular noun: \"There is a great opportunity here.\""
+    },
+    {
+      "id": 62,
+      "type": "fill",
+      "sentence": "There _____ no electricity in that village.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "will"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" for past singular negative: \"There was no electricity in that village.\""
+    },
+    {
+      "id": 63,
+      "type": "fill",
+      "sentence": "There are _____ books on the shelf.",
+      "options": [
+        "much",
+        "is",
+        "a lot of",
+        "was"
+      ],
+      "answer": "a lot of",
+      "explanation": "\"A lot of\" with plural: \"There are a lot of books on the shelf.\""
+    },
+    {
+      "id": 64,
+      "type": "fill",
+      "sentence": "There is _____ need to worry.",
+      "options": [
+        "many",
+        "a",
+        "are",
+        "were"
+      ],
+      "answer": "no",
+      "explanation": "\"No need\" = not necessary: \"There is no need to worry.\""
+    },
+    {
+      "id": 65,
+      "type": "fill",
+      "sentence": "There are _____ parks in this city.",
+      "options": [
+        "much",
+        "a",
+        "is",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many\" with countable plural: \"There are many parks in this city.\""
+    },
+    {
+      "id": 66,
+      "type": "fill",
+      "sentence": "There _____ been a power cut in the area.",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "were"
+      ],
+      "answer": "has",
+      "explanation": "\"Has been\" for singular present perfect: \"There has been a power cut in the area.\""
+    },
+    {
+      "id": 67,
+      "type": "fill",
+      "sentence": "There is _____ excuse for being late.",
+      "options": [
+        "many",
+        "no",
+        "are",
+        "a lot of"
+      ],
+      "answer": "no",
+      "explanation": "\"No excuse\" = no justification: \"There is no excuse for being late.\""
+    },
+    {
+      "id": 68,
+      "type": "fill",
+      "sentence": "There are _____ people waiting outside.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many\" for plural: \"There are many people waiting outside.\""
+    },
+    {
+      "id": 69,
+      "type": "fill",
+      "sentence": "There _____ several complaints last week.",
+      "options": [
+        "is",
+        "are",
+        "have",
+        "were"
+      ],
+      "answer": "were",
+      "explanation": "\"Were\" for plural past: \"There were several complaints last week.\""
+    },
+    {
+      "id": 70,
+      "type": "fill",
+      "sentence": "There is a _____ in the budget.",
+      "options": [
+        "many",
+        "deficit",
+        "are",
+        "have"
+      ],
+      "answer": "deficit",
+      "explanation": "\"A deficit\" = a shortfall: \"There is a deficit in the budget.\""
+    },
+    {
+      "id": 71,
+      "type": "fill",
+      "sentence": "There are _____ employees in this branch.",
+      "options": [
+        "much",
+        "a",
+        "is",
+        "fifty"
+      ],
+      "answer": "fifty",
+      "explanation": "\"Fifty\" is a number with plural: \"There are fifty employees in this branch.\""
+    },
+    {
+      "id": 72,
+      "type": "fill",
+      "sentence": "There is _____ improvement in her work.",
+      "options": [
+        "many",
+        "are",
+        "a great",
+        "is"
+      ],
+      "answer": "a great",
+      "explanation": "\"A great improvement\" — singular + adjective: \"There is a great improvement in her work.\""
+    },
+    {
+      "id": 73,
+      "type": "fill",
+      "sentence": "There _____ be a celebration after the match.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be a celebration after the match.\""
+    },
+    {
+      "id": 74,
+      "type": "fill",
+      "sentence": "There _____ many trees in this area before.",
+      "options": [
+        "are",
+        "is",
+        "will",
+        "were"
+      ],
+      "answer": "were",
+      "explanation": "\"Were\" for plural past: \"There were many trees in this area before.\""
+    },
+    {
+      "id": 75,
+      "type": "fill",
+      "sentence": "Is there _____ scope for growth in this role?",
+      "options": [
+        "are",
+        "many",
+        "any",
+        "much"
+      ],
+      "answer": "any",
+      "explanation": "\"Any\" in questions: \"Is there any scope for growth in this role?\""
+    },
+    {
+      "id": 76,
+      "type": "fill",
+      "sentence": "There is _____ doubt about his commitment.",
+      "options": [
+        "many",
+        "no",
+        "are",
+        "few"
+      ],
+      "answer": "no",
+      "explanation": "\"No doubt\" = certainly: \"There is no doubt about his commitment.\""
+    },
+    {
+      "id": 77,
+      "type": "fill",
+      "sentence": "There are _____ types of learning styles.",
+      "options": [
+        "much",
+        "is",
+        "several",
+        "a"
+      ],
+      "answer": "several",
+      "explanation": "\"Several\" with plural: \"There are several types of learning styles.\""
+    },
+    {
+      "id": 78,
+      "type": "fill",
+      "sentence": "There _____ a big storm last night.",
+      "options": [
+        "are",
+        "is",
+        "will",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" for singular past: \"There was a big storm last night.\""
+    },
+    {
+      "id": 79,
+      "type": "fill",
+      "sentence": "There is _____ chance of winning.",
+      "options": [
+        "many",
+        "a",
+        "are",
+        "were"
+      ],
+      "answer": "a",
+      "explanation": "\"A chance\" — singular countable: \"There is a chance of winning.\""
+    },
+    {
+      "id": 80,
+      "type": "fill",
+      "sentence": "There are _____ chapters in this book.",
+      "options": [
+        "much",
+        "a",
+        "is",
+        "twelve"
+      ],
+      "answer": "twelve",
+      "explanation": "\"Twelve\" is a number with plural: \"There are twelve chapters in this book.\""
+    },
+    {
+      "id": 81,
+      "type": "fill",
+      "sentence": "There _____ be strict rules in the new policy.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be strict rules in the new policy.\""
+    },
+    {
+      "id": 82,
+      "type": "fill",
+      "sentence": "There is _____ shortage of skilled workers.",
+      "options": [
+        "are",
+        "many",
+        "a",
+        "is"
+      ],
+      "answer": "a",
+      "explanation": "\"A shortage\" = not enough: \"There is a shortage of skilled workers.\""
+    },
+    {
+      "id": 83,
+      "type": "fill",
+      "sentence": "There are _____ benefits to this approach.",
+      "options": [
+        "much",
+        "a",
+        "is",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many benefits\" = plural countable: \"There are many benefits to this approach.\""
+    },
+    {
+      "id": 84,
+      "type": "fill",
+      "sentence": "There _____ any coffee left in the pot.",
+      "options": [
+        "is",
+        "are",
+        "wasn't",
+        "were"
+      ],
+      "answer": "isn't",
+      "explanation": "\"Isn't any\" for present singular negative: \"There isn't any coffee left in the pot.\""
+    },
+    {
+      "id": 85,
+      "type": "fill",
+      "sentence": "There is _____ to be excited about.",
+      "options": [
+        "many",
+        "is",
+        "a lot",
+        "are"
+      ],
+      "answer": "a lot",
+      "explanation": "\"A lot\" for quantity: \"There is a lot to be excited about.\""
+    },
+    {
+      "id": 86,
+      "type": "fill",
+      "sentence": "There are _____ flights available on Sunday.",
+      "options": [
+        "a",
+        "is",
+        "much",
+        "several"
+      ],
+      "answer": "several",
+      "explanation": "\"Several flights\" — plural: \"There are several flights available on Sunday.\""
+    },
+    {
+      "id": 87,
+      "type": "fill",
+      "sentence": "There _____ no clear winner in the competition.",
+      "options": [
+        "is",
+        "are",
+        "will",
+        "have"
+      ],
+      "answer": "was",
+      "explanation": "\"Was no\" for singular past: \"There was no clear winner in the competition.\""
+    },
+    {
+      "id": 88,
+      "type": "fill",
+      "sentence": "There will be _____ improvements in the new version.",
+      "options": [
+        "much",
+        "a",
+        "is",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many improvements\" — plural future: \"There will be many improvements in the new version.\""
+    },
+    {
+      "id": 89,
+      "type": "fill",
+      "sentence": "There _____ been a lot of rain this month.",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "were"
+      ],
+      "answer": "has",
+      "explanation": "\"Has been\" for singular present perfect: \"There has been a lot of rain this month.\""
+    },
+    {
+      "id": 90,
+      "type": "fill",
+      "sentence": "There is _____ alternative to this method.",
+      "options": [
+        "are",
+        "many",
+        "no",
+        "a lot of"
+      ],
+      "answer": "no",
+      "explanation": "\"No alternative\" = no other choice: \"There is no alternative to this method.\""
+    },
+    {
+      "id": 91,
+      "type": "fill",
+      "sentence": "There are _____ points to discuss.",
+      "options": [
+        "much",
+        "is",
+        "several",
+        "was"
+      ],
+      "answer": "several",
+      "explanation": "\"Several points\" — plural: \"There are several points to discuss.\""
+    },
+    {
+      "id": 92,
+      "type": "fill",
+      "sentence": "There _____ many options before the final decision.",
+      "options": [
+        "is",
+        "are",
+        "will be",
+        "was"
+      ],
+      "answer": "were",
+      "explanation": "\"Were\" for plural past: \"There were many options before the final decision.\""
+    },
+    {
+      "id": 93,
+      "type": "fill",
+      "sentence": "There is _____ flexibility in the schedule.",
+      "options": [
+        "many",
+        "are",
+        "some",
+        "is"
+      ],
+      "answer": "some",
+      "explanation": "\"Some flexibility\" — uncountable: \"There is some flexibility in the schedule.\""
+    },
+    {
+      "id": 94,
+      "type": "fill",
+      "sentence": "There _____ no power supply for three hours.",
+      "options": [
+        "is",
+        "are",
+        "will",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Was no\" for singular past: \"There was no power supply for three hours.\""
+    },
+    {
+      "id": 95,
+      "type": "fill",
+      "sentence": "There are _____ participants in the webinar.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many participants\" — plural: \"There are many participants in the webinar.\""
+    },
+    {
+      "id": 96,
+      "type": "fill",
+      "sentence": "There is _____ difference between the two.",
+      "options": [
+        "many",
+        "is",
+        "no",
+        "are"
+      ],
+      "answer": "no",
+      "explanation": "\"No difference\" = they are the same: \"There is no difference between the two.\""
+    },
+    {
+      "id": 97,
+      "type": "fill",
+      "sentence": "There _____ going to be a presentation today.",
+      "options": [
+        "is",
+        "was",
+        "were",
+        "has"
+      ],
+      "answer": "is",
+      "explanation": "\"Is going to be\" for near future: \"There is going to be a presentation today.\""
+    },
+    {
+      "id": 98,
+      "type": "fill",
+      "sentence": "There _____ many issues in the last report.",
+      "options": [
+        "is",
+        "are",
+        "will be",
+        "were"
+      ],
+      "answer": "were",
+      "explanation": "\"Were\" for plural past: \"There were many issues in the last report.\""
+    },
+    {
+      "id": 99,
+      "type": "fill",
+      "sentence": "There is _____ vacancy for a senior designer.",
+      "options": [
+        "many",
+        "a",
+        "are",
+        "much"
+      ],
+      "answer": "a",
+      "explanation": "\"A vacancy\" — singular: \"There is a vacancy for a senior designer.\""
+    },
+    {
+      "id": 100,
+      "type": "fill",
+      "sentence": "There _____ no buses running after midnight.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "will"
+      ],
+      "answer": "are",
+      "explanation": "\"Are no\" for plural present negative: \"There are no buses running after midnight.\""
+    },
+    {
+      "id": 101,
+      "type": "fill",
+      "sentence": "There will be _____ opportunity to ask questions.",
+      "options": [
+        "many",
+        "are",
+        "an",
+        "is"
+      ],
+      "answer": "an",
+      "explanation": "\"An opportunity\" — starts with vowel sound: \"There will be an opportunity to ask questions.\""
+    },
+    {
+      "id": 102,
+      "type": "fill",
+      "sentence": "There are _____ countries in the United Nations.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many countries\" — plural: \"There are many countries in the United Nations.\""
+    },
+    {
+      "id": 103,
+      "type": "fill",
+      "sentence": "There _____ a flood in that city last monsoon.",
+      "options": [
+        "are",
+        "is",
+        "will",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" for singular past: \"There was a flood in that city last monsoon.\""
+    },
+    {
+      "id": 104,
+      "type": "fill",
+      "sentence": "There is _____ chance of rain today.",
+      "options": [
+        "many",
+        "little",
+        "are",
+        "is"
+      ],
+      "answer": "little",
+      "explanation": "\"Little chance\" — uncountable modifier: \"There is little chance of rain today.\""
+    },
+    {
+      "id": 105,
+      "type": "fill",
+      "sentence": "There _____ be more seats added to the hall.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be more seats added to the hall.\""
+    },
+    {
+      "id": 106,
+      "type": "fill",
+      "sentence": "There is _____ space in the car park.",
+      "options": [
+        "many",
+        "are",
+        "no",
+        "is"
+      ],
+      "answer": "no",
+      "explanation": "\"No space\" = fully occupied: \"There is no space in the car park.\""
+    },
+    {
+      "id": 107,
+      "type": "fill",
+      "sentence": "There _____ been a rise in complaints this month.",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "were"
+      ],
+      "answer": "has",
+      "explanation": "\"Has been\" for singular present perfect: \"There has been a rise in complaints this month.\""
+    },
+    {
+      "id": 108,
+      "type": "fill",
+      "sentence": "There are _____ errors in the spreadsheet.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "several"
+      ],
+      "answer": "several",
+      "explanation": "\"Several errors\" — plural: \"There are several errors in the spreadsheet.\""
+    },
+    {
+      "id": 109,
+      "type": "fill",
+      "sentence": "There is _____ hope for a quick solution.",
+      "options": [
+        "many",
+        "are",
+        "little",
+        "is"
+      ],
+      "answer": "little",
+      "explanation": "\"Little hope\" — uncountable: \"There is little hope for a quick solution.\""
+    },
+    {
+      "id": 110,
+      "type": "fill",
+      "sentence": "There _____ be a party after the competition.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be a party after the competition.\""
+    },
+    {
+      "id": 111,
+      "type": "fill",
+      "sentence": "There are _____ plants in the balcony.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many plants\" — plural: \"There are many plants in the balcony.\""
+    },
+    {
+      "id": 112,
+      "type": "fill",
+      "sentence": "There _____ no network signal in that area.",
+      "options": [
+        "are",
+        "is",
+        "will",
+        "have"
+      ],
+      "answer": "was",
+      "explanation": "\"Was no\" for singular past: \"There was no network signal in that area.\""
+    },
+    {
+      "id": 113,
+      "type": "fill",
+      "sentence": "There is _____ a long queue at the counter.",
+      "options": [
+        "are",
+        "was",
+        "quite",
+        "many"
+      ],
+      "answer": "quite",
+      "explanation": "\"Quite\" as intensifier: \"There is quite a long queue at the counter.\""
+    },
+    {
+      "id": 114,
+      "type": "fill",
+      "sentence": "There will be _____ disruptions during the upgrade.",
+      "options": [
+        "is",
+        "was",
+        "some",
+        "are"
+      ],
+      "answer": "some",
+      "explanation": "\"Some disruptions\" — plural future: \"There will be some disruptions during the upgrade.\""
+    },
+    {
+      "id": 115,
+      "type": "fill",
+      "sentence": "There _____ been improvements every year.",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "was"
+      ],
+      "answer": "have",
+      "explanation": "\"Have been\" for plural present perfect: \"There have been improvements every year.\""
+    },
+    {
+      "id": 116,
+      "type": "fill",
+      "sentence": "There is _____ time left before the deadline.",
+      "options": [
+        "many",
+        "are",
+        "very little",
+        "is"
+      ],
+      "answer": "very little",
+      "explanation": "\"Very little time\" — uncountable: \"There is very little time left before the deadline.\""
+    },
+    {
+      "id": 117,
+      "type": "fill",
+      "sentence": "There are _____ documents to review.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many documents\" — plural: \"There are many documents to review.\""
+    },
+    {
+      "id": 118,
+      "type": "fill",
+      "sentence": "There _____ a delay in the shipment.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "will"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" for singular past: \"There was a delay in the shipment.\""
+    },
+    {
+      "id": 119,
+      "type": "fill",
+      "sentence": "There will be _____ open positions after the merger.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many open positions\" — plural future: \"There will be many open positions after the merger.\""
+    },
+    {
+      "id": 120,
+      "type": "fill",
+      "sentence": "There is _____ scope for creativity in this role.",
+      "options": [
+        "many",
+        "no",
+        "are",
+        "is"
+      ],
+      "answer": "a lot of",
+      "explanation": "\"A lot of scope\" — uncountable: \"There is a lot of scope for creativity in this role.\""
+    },
+    {
+      "id": 121,
+      "type": "fill",
+      "sentence": "There _____ any objections from the team.",
+      "options": [
+        "isn't",
+        "were",
+        "is",
+        "has"
+      ],
+      "answer": "weren't",
+      "explanation": "\"Weren't\" for plural past negative: \"There weren't any objections from the team.\""
+    },
+    {
+      "id": 122,
+      "type": "fill",
+      "sentence": "There is _____ need for more clarification.",
+      "options": [
+        "many",
+        "a",
+        "are",
+        "is"
+      ],
+      "answer": "a",
+      "explanation": "\"A need\" — singular: \"There is a need for more clarification.\""
+    },
+    {
+      "id": 123,
+      "type": "fill",
+      "sentence": "There _____ be strict guidelines to follow.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be strict guidelines to follow.\""
+    },
+    {
+      "id": 124,
+      "type": "fill",
+      "sentence": "There are _____ challenges in this project.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many challenges\" — plural: \"There are many challenges in this project.\""
+    },
+    {
+      "id": 125,
+      "type": "fill",
+      "sentence": "There _____ no reason to panic.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "will"
+      ],
+      "answer": "is",
+      "explanation": "\"Is no\" for singular present negative: \"There is no reason to panic.\""
+    },
+    {
+      "id": 126,
+      "type": "fill",
+      "sentence": "There will be _____ concert in the park this Sunday.",
+      "options": [
+        "are",
+        "many",
+        "a",
+        "is"
+      ],
+      "answer": "a",
+      "explanation": "\"A concert\" — singular future: \"There will be a concert in the park this Sunday.\""
+    },
+    {
+      "id": 127,
+      "type": "fill",
+      "sentence": "There _____ many things to learn in this chapter.",
+      "options": [
+        "is",
+        "was",
+        "will be",
+        "are"
+      ],
+      "answer": "are",
+      "explanation": "\"Are many things\" — plural present: \"There are many things to learn in this chapter.\""
+    },
+    {
+      "id": 128,
+      "type": "fill",
+      "sentence": "There is _____ doubt that she is qualified.",
+      "options": [
+        "a",
+        "many",
+        "no",
+        "are"
+      ],
+      "answer": "no",
+      "explanation": "\"No doubt\" = certainly: \"There is no doubt that she is qualified.\""
+    },
+    {
+      "id": 129,
+      "type": "fill",
+      "sentence": "There _____ be more opportunities in the second half.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be more opportunities in the second half.\""
+    },
+    {
+      "id": 130,
+      "type": "fill",
+      "sentence": "There _____ many languages spoken in India.",
+      "options": [
+        "is",
+        "was",
+        "were",
+        "will be"
+      ],
+      "answer": "are",
+      "explanation": "\"Are many languages\" — plural present: \"There are many languages spoken in India.\""
+    },
+    {
+      "id": 131,
+      "type": "fill",
+      "sentence": "There is _____ smoke coming from the kitchen.",
+      "options": [
+        "many",
+        "are",
+        "some",
+        "is"
+      ],
+      "answer": "some",
+      "explanation": "\"Some smoke\" — uncountable: \"There is some smoke coming from the kitchen.\""
+    },
+    {
+      "id": 132,
+      "type": "fill",
+      "sentence": "There _____ been a lot of progress this quarter.",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "were"
+      ],
+      "answer": "has",
+      "explanation": "\"Has been\" for singular present perfect: \"There has been a lot of progress this quarter.\""
+    },
+    {
+      "id": 133,
+      "type": "fill",
+      "sentence": "There are _____ options to choose from.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "three"
+      ],
+      "answer": "three",
+      "explanation": "\"Three options\" — number with plural: \"There are three options to choose from.\""
+    },
+    {
+      "id": 134,
+      "type": "fill",
+      "sentence": "There _____ no water in the bottle.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "will"
+      ],
+      "answer": "is",
+      "explanation": "\"Is no\" for singular present negative (uncountable): \"There is no water in the bottle.\""
+    },
+    {
+      "id": 135,
+      "type": "fill",
+      "sentence": "There will _____ be rain during the match.",
+      "options": [
+        "is",
+        "was",
+        "not",
+        "have"
+      ],
+      "answer": "not",
+      "explanation": "\"Will not be\" for future negative: \"There will not be rain during the match.\""
+    },
+    {
+      "id": 136,
+      "type": "fill",
+      "sentence": "There _____ a big announcement last Friday.",
+      "options": [
+        "are",
+        "is",
+        "will",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" for singular past: \"There was a big announcement last Friday.\""
+    },
+    {
+      "id": 137,
+      "type": "fill",
+      "sentence": "There are _____ restrictions on eating inside.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "several"
+      ],
+      "answer": "several",
+      "explanation": "\"Several restrictions\" — plural: \"There are several restrictions on eating inside.\""
+    },
+    {
+      "id": 138,
+      "type": "fill",
+      "sentence": "There _____ no salary hike this year.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "will"
+      ],
+      "answer": "was",
+      "explanation": "\"Was no\" for singular past: \"There was no salary hike this year.\""
+    },
+    {
+      "id": 139,
+      "type": "fill",
+      "sentence": "There will be _____ inspection next month.",
+      "options": [
+        "a",
+        "many",
+        "are",
+        "is"
+      ],
+      "answer": "an",
+      "explanation": "\"An inspection\" — vowel sound: \"There will be an inspection next month.\""
+    },
+    {
+      "id": 140,
+      "type": "fill",
+      "sentence": "There are _____ pending invoices in the system.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many invoices\" — plural: \"There are many pending invoices in the system.\""
+    },
+    {
+      "id": 141,
+      "type": "fill",
+      "sentence": "There _____ been multiple complaints about the service.",
+      "options": [
+        "have",
+        "is",
+        "are",
+        "was"
+      ],
+      "answer": "have",
+      "explanation": "\"Have been\" for plural present perfect: \"There have been multiple complaints about the service.\""
+    },
+    {
+      "id": 142,
+      "type": "fill",
+      "sentence": "There is _____ possibility of an extension.",
+      "options": [
+        "many",
+        "are",
+        "a",
+        "is"
+      ],
+      "answer": "a",
+      "explanation": "\"A possibility\" — singular: \"There is a possibility of an extension.\""
+    },
+    {
+      "id": 143,
+      "type": "fill",
+      "sentence": "There _____ a long wait at the counter.",
+      "options": [
+        "are",
+        "is",
+        "will",
+        "have"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" for singular past: \"There was a long wait at the counter.\""
+    },
+    {
+      "id": 144,
+      "type": "fill",
+      "sentence": "There are _____ discrepancies in the accounts.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "some"
+      ],
+      "answer": "some",
+      "explanation": "\"Some discrepancies\" — plural: \"There are some discrepancies in the accounts.\""
+    },
+    {
+      "id": 145,
+      "type": "fill",
+      "sentence": "There is _____ a café on the ground floor.",
+      "options": [
+        "are",
+        "was",
+        "quite",
+        "many"
+      ],
+      "answer": "quite",
+      "explanation": "\"Quite a café\" = a noteworthy café: \"There is quite a café on the ground floor.\""
+    },
+    {
+      "id": 146,
+      "type": "fill",
+      "sentence": "There _____ be a new product launch next quarter.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be a new product launch next quarter.\""
+    },
+    {
+      "id": 147,
+      "type": "fill",
+      "sentence": "There are _____ unread messages in my inbox.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many unread messages\" — plural: \"There are many unread messages in my inbox.\""
+    },
+    {
+      "id": 148,
+      "type": "fill",
+      "sentence": "There _____ no time to waste.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "will"
+      ],
+      "answer": "is",
+      "explanation": "\"Is no time\" — singular uncountable: \"There is no time to waste.\""
+    },
+    {
+      "id": 149,
+      "type": "fill",
+      "sentence": "There will be _____ special training session tomorrow.",
+      "options": [
+        "a",
+        "many",
+        "are",
+        "is"
+      ],
+      "answer": "a",
+      "explanation": "\"A special training session\" — singular: \"There will be a special training session tomorrow.\""
+    },
+    {
+      "id": 150,
+      "type": "fill",
+      "sentence": "There _____ many historical sites in this region.",
+      "options": [
+        "is",
+        "was",
+        "will be",
+        "are"
+      ],
+      "answer": "are",
+      "explanation": "\"Are many sites\" — plural present: \"There are many historical sites in this region.\""
+    },
+    {
+      "id": 151,
+      "type": "fill",
+      "sentence": "There is _____ petrol in the tank.",
+      "options": [
+        "many",
+        "are",
+        "very little",
+        "is"
+      ],
+      "answer": "very little",
+      "explanation": "\"Very little petrol\" — uncountable: \"There is very little petrol in the tank.\""
+    },
+    {
+      "id": 152,
+      "type": "fill",
+      "sentence": "There _____ many applicants for this role.",
+      "options": [
+        "is",
+        "was",
+        "will be",
+        "were"
+      ],
+      "answer": "were",
+      "explanation": "\"Were many applicants\" — plural past: \"There were many applicants for this role.\""
+    },
+    {
+      "id": 153,
+      "type": "fill",
+      "sentence": "There are _____ spelling mistakes in this document.",
+      "options": [
+        "much",
+        "is",
+        "a",
+        "many"
+      ],
+      "answer": "many",
+      "explanation": "\"Many mistakes\" — plural: \"There are many spelling mistakes in this document.\""
+    },
+    {
+      "id": 154,
+      "type": "fill",
+      "sentence": "There _____ be a change in the schedule.",
+      "options": [
+        "is",
+        "was",
+        "will",
+        "were"
+      ],
+      "answer": "will",
+      "explanation": "\"Will be\" for future: \"There will be a change in the schedule.\""
+    },
+    {
+      "id": 155,
+      "type": "fill",
+      "sentence": "There is _____ evidence to support this claim.",
+      "options": [
+        "many",
+        "are",
+        "no",
+        "is"
+      ],
+      "answer": "no",
+      "explanation": "\"No evidence\" — uncountable: \"There is no evidence to support this claim.\""
+    },
+    {
+      "id": 156,
+      "type": "fill",
+      "sentence": "There _____ an emergency drill in school today.",
+      "options": [
+        "are",
+        "is",
+        "will",
+        "were"
+      ],
+      "answer": "is",
+      "explanation": "\"Is an emergency drill\" — singular present: \"There is an emergency drill in school today.\""
+    },
+    {
+      "id": 157,
+      "type": "error",
+      "sentence": "There are a problem in the system.",
+      "options": [
+        "There are a problem in the system.",
+        "There is a problem in the system."
+      ],
+      "answer": "There is a problem in the system.",
+      "explanation": "\"Problem\" is singular — use \"There is\", not \"There are\"."
+    },
+    {
+      "id": 158,
+      "type": "error",
+      "sentence": "There are a temple near my house.",
+      "options": [
+        "There are a temple near my house.",
+        "There is a temple near my house."
+      ],
+      "answer": "There is a temple near my house.",
+      "explanation": "\"Temple\" is singular — use \"There is\"."
+    },
+    {
+      "id": 159,
+      "type": "error",
+      "sentence": "There is many people in this shop.",
+      "options": [
+        "There is many people in this shop.",
+        "There are many people in this shop."
+      ],
+      "answer": "There are many people in this shop.",
+      "explanation": "\"People\" is plural — use \"There are\"."
+    },
+    {
+      "id": 160,
       "type": "error",
       "sentence": "There is many temples in this city.",
       "options": [
@@ -461,7 +2281,1810 @@
         "There are many temples in this city."
       ],
       "answer": "There are many temples in this city.",
-      "explanation": "Correct sentence: \"There are many temples in this city.\". The version shown had a grammar mistake."
+      "explanation": "\"Temples\" is plural — use \"There are\"."
+    },
+    {
+      "id": 161,
+      "type": "error",
+      "sentence": "There were a big meeting yesterday.",
+      "options": [
+        "There were a big meeting yesterday.",
+        "There was a big meeting yesterday."
+      ],
+      "answer": "There was a big meeting yesterday.",
+      "explanation": "\"Meeting\" is singular — use \"There was\" not \"There were\"."
+    },
+    {
+      "id": 162,
+      "type": "error",
+      "sentence": "There was many students in the class.",
+      "options": [
+        "There was many students in the class.",
+        "There were many students in the class."
+      ],
+      "answer": "There were many students in the class.",
+      "explanation": "\"Students\" is plural — use \"There were\"."
+    },
+    {
+      "id": 163,
+      "type": "error",
+      "sentence": "Is there any problems with the network?",
+      "options": [
+        "Is there any problems with the network?",
+        "Are there any problems with the network?"
+      ],
+      "answer": "Are there any problems with the network?",
+      "explanation": "\"Problems\" is plural — use \"Are there\"."
+    },
+    {
+      "id": 164,
+      "type": "error",
+      "sentence": "There are a error in your code.",
+      "options": [
+        "There are a error in your code.",
+        "There is an error in your code."
+      ],
+      "answer": "There is an error in your code.",
+      "explanation": "\"Error\" is singular, and needs \"an\" (vowel sound). Use \"There is an error\"."
+    },
+    {
+      "id": 165,
+      "type": "error",
+      "sentence": "There have been a mistake in the report.",
+      "options": [
+        "There have been a mistake in the report.",
+        "There has been a mistake in the report."
+      ],
+      "answer": "There has been a mistake in the report.",
+      "explanation": "\"Mistake\" is singular — use \"There has been\" not \"There have been\"."
+    },
+    {
+      "id": 166,
+      "type": "error",
+      "sentence": "There is many options available.",
+      "options": [
+        "There is many options available.",
+        "There are many options available."
+      ],
+      "answer": "There are many options available.",
+      "explanation": "\"Options\" is plural — use \"There are\"."
+    },
+    {
+      "id": 167,
+      "type": "error",
+      "sentence": "There are no time left.",
+      "options": [
+        "There are no time left.",
+        "There is no time left."
+      ],
+      "answer": "There is no time left.",
+      "explanation": "\"Time\" is uncountable/singular — use \"There is no time\"."
+    },
+    {
+      "id": 168,
+      "type": "error",
+      "sentence": "There is a lot of books on the table.",
+      "options": [
+        "There is a lot of books on the table.",
+        "There are a lot of books on the table."
+      ],
+      "answer": "There are a lot of books on the table.",
+      "explanation": "\"Books\" is plural — use \"There are a lot of books\"."
+    },
+    {
+      "id": 169,
+      "type": "error",
+      "sentence": "There were a traffic jam on the highway.",
+      "options": [
+        "There were a traffic jam on the highway.",
+        "There was a traffic jam on the highway."
+      ],
+      "answer": "There was a traffic jam on the highway.",
+      "explanation": "\"Traffic jam\" is singular — use \"There was\"."
+    },
+    {
+      "id": 170,
+      "type": "error",
+      "sentence": "There is no staffs available.",
+      "options": [
+        "There is no staffs available.",
+        "There is no staff available."
+      ],
+      "answer": "There is no staff available.",
+      "explanation": "\"Staff\" is uncountable — do not add \"s\". Use \"There is no staff available.\""
+    },
+    {
+      "id": 171,
+      "type": "error",
+      "sentence": "There are no water in the bottle.",
+      "options": [
+        "There are no water in the bottle.",
+        "There is no water in the bottle."
+      ],
+      "answer": "There is no water in the bottle.",
+      "explanation": "\"Water\" is uncountable — use \"There is no water\"."
+    },
+    {
+      "id": 172,
+      "type": "error",
+      "sentence": "Were there a fire in the building?",
+      "options": [
+        "Were there a fire in the building?",
+        "Was there a fire in the building?"
+      ],
+      "answer": "Was there a fire in the building?",
+      "explanation": "\"Fire\" is singular — use \"Was there a fire?\""
+    },
+    {
+      "id": 173,
+      "type": "error",
+      "sentence": "There has been many accidents on this road.",
+      "options": [
+        "There has been many accidents on this road.",
+        "There have been many accidents on this road."
+      ],
+      "answer": "There have been many accidents on this road.",
+      "explanation": "\"Accidents\" is plural — use \"There have been\"."
+    },
+    {
+      "id": 174,
+      "type": "error",
+      "sentence": "There is twenty students in the room.",
+      "options": [
+        "There is twenty students in the room.",
+        "There are twenty students in the room."
+      ],
+      "answer": "There are twenty students in the room.",
+      "explanation": "\"Twenty students\" is plural — use \"There are\"."
+    },
+    {
+      "id": 175,
+      "type": "error",
+      "sentence": "Is there any books on this topic?",
+      "options": [
+        "Is there any books on this topic?",
+        "Are there any books on this topic?"
+      ],
+      "answer": "Are there any books on this topic?",
+      "explanation": "\"Books\" is plural — use \"Are there any books?\""
+    },
+    {
+      "id": 176,
+      "type": "error",
+      "sentence": "There will be many informations shared.",
+      "options": [
+        "There will be many informations shared.",
+        "There will be a lot of information shared."
+      ],
+      "answer": "There will be a lot of information shared.",
+      "explanation": "\"Information\" is uncountable — do not say \"informations\". Use \"a lot of information\"."
+    },
+    {
+      "id": 177,
+      "type": "error",
+      "sentence": "There are a queue outside the office.",
+      "options": [
+        "There are a queue outside the office.",
+        "There is a queue outside the office."
+      ],
+      "answer": "There is a queue outside the office.",
+      "explanation": "\"Queue\" is singular — use \"There is a queue\"."
+    },
+    {
+      "id": 178,
+      "type": "error",
+      "sentence": "There is many flights from Delhi today.",
+      "options": [
+        "There is many flights from Delhi today.",
+        "There are many flights from Delhi today."
+      ],
+      "answer": "There are many flights from Delhi today.",
+      "explanation": "\"Flights\" is plural — use \"There are many flights\"."
+    },
+    {
+      "id": 179,
+      "type": "error",
+      "sentence": "There was no chairs in the room.",
+      "options": [
+        "There was no chairs in the room.",
+        "There were no chairs in the room."
+      ],
+      "answer": "There were no chairs in the room.",
+      "explanation": "\"Chairs\" is plural — use \"There were no chairs\"."
+    },
+    {
+      "id": 180,
+      "type": "error",
+      "sentence": "There are a meeting at 3 pm.",
+      "options": [
+        "There are a meeting at 3 pm.",
+        "There is a meeting at 3 pm."
+      ],
+      "answer": "There is a meeting at 3 pm.",
+      "explanation": "\"Meeting\" is singular — use \"There is a meeting\"."
+    },
+    {
+      "id": 181,
+      "type": "error",
+      "sentence": "There have been a delay in the project.",
+      "options": [
+        "There have been a delay in the project.",
+        "There has been a delay in the project."
+      ],
+      "answer": "There has been a delay in the project.",
+      "explanation": "\"Delay\" is singular — use \"There has been a delay\"."
+    },
+    {
+      "id": 182,
+      "type": "error",
+      "sentence": "There is a many tasks pending.",
+      "options": [
+        "There is a many tasks pending.",
+        "There are many tasks pending."
+      ],
+      "answer": "There are many tasks pending.",
+      "explanation": "\"Tasks\" is plural — remove \"a\" and use \"There are many tasks\"."
+    },
+    {
+      "id": 183,
+      "type": "error",
+      "sentence": "There are no budget for the event.",
+      "options": [
+        "There are no budget for the event.",
+        "There is no budget for the event."
+      ],
+      "answer": "There is no budget for the event.",
+      "explanation": "\"Budget\" is uncountable/singular — use \"There is no budget\"."
+    },
+    {
+      "id": 184,
+      "type": "error",
+      "sentence": "There was no employees present.",
+      "options": [
+        "There was no employees present.",
+        "There were no employees present."
+      ],
+      "answer": "There were no employees present.",
+      "explanation": "\"Employees\" is plural — use \"There were no employees\"."
+    },
+    {
+      "id": 185,
+      "type": "error",
+      "sentence": "There is many good restaurants here.",
+      "options": [
+        "There is many good restaurants here.",
+        "There are many good restaurants here."
+      ],
+      "answer": "There are many good restaurants here.",
+      "explanation": "\"Restaurants\" is plural — use \"There are\"."
+    },
+    {
+      "id": 186,
+      "type": "error",
+      "sentence": "There were a important announcement.",
+      "options": [
+        "There were a important announcement.",
+        "There was an important announcement."
+      ],
+      "answer": "There was an important announcement.",
+      "explanation": "\"Announcement\" is singular and \"important\" starts with a vowel sound — use \"There was an\"."
+    },
+    {
+      "id": 187,
+      "type": "error",
+      "sentence": "There are no informations on this.",
+      "options": [
+        "There are no informations on this.",
+        "There is no information on this."
+      ],
+      "answer": "There is no information on this.",
+      "explanation": "\"Information\" is uncountable — never use \"informations\". Use \"There is no information\"."
+    },
+    {
+      "id": 188,
+      "type": "error",
+      "sentence": "There is a lots of work to do.",
+      "options": [
+        "There is a lots of work to do.",
+        "There is a lot of work to do."
+      ],
+      "answer": "There is a lot of work to do.",
+      "explanation": "Don't say 'a lots of' — the correct phrase is 'a lot of'."
+    },
+    {
+      "id": 189,
+      "type": "error",
+      "sentence": "There are a news about the storm.",
+      "options": [
+        "There are a news about the storm.",
+        "There is news about the storm."
+      ],
+      "answer": "There is news about the storm.",
+      "explanation": "\"News\" is uncountable and singular — use \"There is news\"."
+    },
+    {
+      "id": 190,
+      "type": "error",
+      "sentence": "There is two ATMs near here.",
+      "options": [
+        "There is two ATMs near here.",
+        "There are two ATMs near here."
+      ],
+      "answer": "There are two ATMs near here.",
+      "explanation": "\"Two ATMs\" is plural — use \"There are two\"."
+    },
+    {
+      "id": 191,
+      "type": "error",
+      "sentence": "There are a traffic jam on the highway.",
+      "options": [
+        "There are a traffic jam on the highway.",
+        "There is a traffic jam on the highway."
+      ],
+      "answer": "There is a traffic jam on the highway.",
+      "explanation": "\"Traffic jam\" is singular — use \"There is a traffic jam\"."
+    },
+    {
+      "id": 192,
+      "type": "error",
+      "sentence": "There was many options to choose from.",
+      "options": [
+        "There was many options to choose from.",
+        "There were many options to choose from."
+      ],
+      "answer": "There were many options to choose from.",
+      "explanation": "\"Options\" is plural — use \"There were many options\"."
+    },
+    {
+      "id": 193,
+      "type": "error",
+      "sentence": "There is no furnitures in the office.",
+      "options": [
+        "There is no furnitures in the office.",
+        "There is no furniture in the office."
+      ],
+      "answer": "There is no furniture in the office.",
+      "explanation": "\"Furniture\" is uncountable — do not add \"s\". Use \"There is no furniture\"."
+    },
+    {
+      "id": 194,
+      "type": "error",
+      "sentence": "There are an opportunity to grow.",
+      "options": [
+        "There are an opportunity to grow.",
+        "There is an opportunity to grow."
+      ],
+      "answer": "There is an opportunity to grow.",
+      "explanation": "\"Opportunity\" is singular — use \"There is an opportunity\"."
+    },
+    {
+      "id": 195,
+      "type": "error",
+      "sentence": "There will be a lot of informations.",
+      "options": [
+        "There will be a lot of informations.",
+        "There will be a lot of information."
+      ],
+      "answer": "There will be a lot of information.",
+      "explanation": "\"Information\" is uncountable — use \"a lot of information\" not \"informations\"."
+    },
+    {
+      "id": 196,
+      "type": "error",
+      "sentence": "There are a shortage of water.",
+      "options": [
+        "There are a shortage of water.",
+        "There is a shortage of water."
+      ],
+      "answer": "There is a shortage of water.",
+      "explanation": "\"Shortage\" is singular — use \"There is a shortage\"."
+    },
+    {
+      "id": 197,
+      "type": "error",
+      "sentence": "There is many risks involved.",
+      "options": [
+        "There is many risks involved.",
+        "There are many risks involved."
+      ],
+      "answer": "There are many risks involved.",
+      "explanation": "\"Risks\" is plural — use \"There are many risks\"."
+    },
+    {
+      "id": 198,
+      "type": "error",
+      "sentence": "There were a lack of clarity.",
+      "options": [
+        "There were a lack of clarity.",
+        "There was a lack of clarity."
+      ],
+      "answer": "There was a lack of clarity.",
+      "explanation": "\"Lack\" is singular — use \"There was a lack\"."
+    },
+    {
+      "id": 199,
+      "type": "error",
+      "sentence": "There is a many benefits.",
+      "options": [
+        "There is a many benefits.",
+        "There are many benefits."
+      ],
+      "answer": "There are many benefits.",
+      "explanation": "\"Benefits\" is plural — use \"There are many benefits\". Do not use \"a\" before \"many\"."
+    },
+    {
+      "id": 200,
+      "type": "error",
+      "sentence": "There are a big event next week.",
+      "options": [
+        "There are a big event next week.",
+        "There is a big event next week."
+      ],
+      "answer": "There is a big event next week.",
+      "explanation": "\"Event\" is singular — use \"There is a big event\"."
+    },
+    {
+      "id": 201,
+      "type": "error",
+      "sentence": "There was no seats available.",
+      "options": [
+        "There was no seats available.",
+        "There were no seats available."
+      ],
+      "answer": "There were no seats available.",
+      "explanation": "\"Seats\" is plural — use \"There were no seats\"."
+    },
+    {
+      "id": 202,
+      "type": "error",
+      "sentence": "There have been a power cut.",
+      "options": [
+        "There have been a power cut.",
+        "There has been a power cut."
+      ],
+      "answer": "There has been a power cut.",
+      "explanation": "\"Power cut\" is singular — use \"There has been\"."
+    },
+    {
+      "id": 203,
+      "type": "error",
+      "sentence": "There is no equipments in the lab.",
+      "options": [
+        "There is no equipments in the lab.",
+        "There is no equipment in the lab."
+      ],
+      "answer": "There is no equipment in the lab.",
+      "explanation": "\"Equipment\" is uncountable — do not add \"s\". Use \"There is no equipment\"."
+    },
+    {
+      "id": 204,
+      "type": "error",
+      "sentence": "There are no electricity here.",
+      "options": [
+        "There are no electricity here.",
+        "There is no electricity here."
+      ],
+      "answer": "There is no electricity here.",
+      "explanation": "\"Electricity\" is uncountable — use \"There is no electricity\"."
+    },
+    {
+      "id": 205,
+      "type": "error",
+      "sentence": "There is many documents missing.",
+      "options": [
+        "There is many documents missing.",
+        "There are many documents missing."
+      ],
+      "answer": "There are many documents missing.",
+      "explanation": "\"Documents\" is plural — use \"There are many documents\"."
+    },
+    {
+      "id": 206,
+      "type": "error",
+      "sentence": "There was no employees at the desk.",
+      "options": [
+        "There was no employees at the desk.",
+        "There were no employees at the desk."
+      ],
+      "answer": "There were no employees at the desk.",
+      "explanation": "\"Employees\" is plural — use \"There were no employees\"."
+    },
+    {
+      "id": 207,
+      "type": "error",
+      "sentence": "There are a solution to every problem.",
+      "options": [
+        "There are a solution to every problem.",
+        "There is a solution to every problem."
+      ],
+      "answer": "There is a solution to every problem.",
+      "explanation": "\"Solution\" is singular — use \"There is a solution\"."
+    },
+    {
+      "id": 208,
+      "type": "error",
+      "sentence": "There has been many changes in the team.",
+      "options": [
+        "There has been many changes in the team.",
+        "There have been many changes in the team."
+      ],
+      "answer": "There have been many changes in the team.",
+      "explanation": "\"Changes\" is plural — use \"There have been many changes\"."
+    },
+    {
+      "id": 209,
+      "type": "error",
+      "sentence": "There is no evidences in this case.",
+      "options": [
+        "There is no evidences in this case.",
+        "There is no evidence in this case."
+      ],
+      "answer": "There is no evidence in this case.",
+      "explanation": "\"Evidence\" is uncountable — never \"evidences\". Use \"There is no evidence\"."
+    },
+    {
+      "id": 210,
+      "type": "error",
+      "sentence": "There are a delay in the project.",
+      "options": [
+        "There are a delay in the project.",
+        "There is a delay in the project."
+      ],
+      "answer": "There is a delay in the project.",
+      "explanation": "\"Delay\" is singular — use \"There is a delay\"."
+    },
+    {
+      "id": 211,
+      "type": "error",
+      "sentence": "There is no alternatives here.",
+      "options": [
+        "There is no alternatives here.",
+        "There are no alternatives here."
+      ],
+      "answer": "There are no alternatives here.",
+      "explanation": "\"Alternatives\" is plural — use \"There are no alternatives\"."
+    },
+    {
+      "id": 212,
+      "type": "error",
+      "sentence": "There were no time to prepare.",
+      "options": [
+        "There were no time to prepare.",
+        "There was no time to prepare."
+      ],
+      "answer": "There was no time to prepare.",
+      "explanation": "\"Time\" is uncountable/singular — use \"There was no time\"."
+    },
+    {
+      "id": 213,
+      "type": "error",
+      "sentence": "There are a lot of informations here.",
+      "options": [
+        "There are a lot of informations here.",
+        "There is a lot of information here."
+      ],
+      "answer": "There is a lot of information here.",
+      "explanation": "\"Information\" is uncountable — use \"There is a lot of information\". Never \"informations\"."
+    },
+    {
+      "id": 214,
+      "type": "error",
+      "sentence": "There will be a many choices.",
+      "options": [
+        "There will be a many choices.",
+        "There will be many choices."
+      ],
+      "answer": "There will be many choices.",
+      "explanation": "Do not use 'a' before 'many'. Correct: 'There will be many choices.'"
+    },
+    {
+      "id": 215,
+      "type": "error",
+      "sentence": "There is too many work to do.",
+      "options": [
+        "There is too many work to do.",
+        "There is too much work to do."
+      ],
+      "answer": "There is too much work to do.",
+      "explanation": "\"Work\" is uncountable — use \"too much work\", not \"too many work\"."
+    },
+    {
+      "id": 216,
+      "type": "error",
+      "sentence": "There were no signal in the area.",
+      "options": [
+        "There were no signal in the area.",
+        "There was no signal in the area."
+      ],
+      "answer": "There was no signal in the area.",
+      "explanation": "\"Signal\" is singular here — use \"There was no signal\"."
+    },
+    {
+      "id": 217,
+      "type": "error",
+      "sentence": "There is many ways to solve this.",
+      "options": [
+        "There is many ways to solve this.",
+        "There are many ways to solve this."
+      ],
+      "answer": "There are many ways to solve this.",
+      "explanation": "\"Ways\" is plural — use \"There are many ways\"."
+    },
+    {
+      "id": 218,
+      "type": "error",
+      "sentence": "There was no chairs near the entrance.",
+      "options": [
+        "There was no chairs near the entrance.",
+        "There were no chairs near the entrance."
+      ],
+      "answer": "There were no chairs near the entrance.",
+      "explanation": "\"Chairs\" is plural — use \"There were no chairs\"."
+    },
+    {
+      "id": 219,
+      "type": "error",
+      "sentence": "There are a new rule in the office.",
+      "options": [
+        "There are a new rule in the office.",
+        "There is a new rule in the office."
+      ],
+      "answer": "There is a new rule in the office.",
+      "explanation": "\"Rule\" is singular — use \"There is a new rule\"."
+    },
+    {
+      "id": 220,
+      "type": "error",
+      "sentence": "There have been a flood last year.",
+      "options": [
+        "There have been a flood last year.",
+        "There was a flood last year."
+      ],
+      "answer": "There was a flood last year.",
+      "explanation": "For a single past event use \"There was\". \"There have been\" is present perfect, not suitable here."
+    },
+    {
+      "id": 221,
+      "type": "error",
+      "sentence": "There will be a many guests.",
+      "options": [
+        "There will be a many guests.",
+        "There will be many guests."
+      ],
+      "answer": "There will be many guests.",
+      "explanation": "Don't use 'a' before 'many'. Correct: 'There will be many guests.'"
+    },
+    {
+      "id": 222,
+      "type": "error",
+      "sentence": "There is no staffs in the office now.",
+      "options": [
+        "There is no staffs in the office now.",
+        "There is no staff in the office now."
+      ],
+      "answer": "There is no staff in the office now.",
+      "explanation": "\"Staff\" is uncountable — never \"staffs\". Use \"There is no staff\"."
+    },
+    {
+      "id": 223,
+      "type": "error",
+      "sentence": "There are a important message for you.",
+      "options": [
+        "There are a important message for you.",
+        "There is an important message for you."
+      ],
+      "answer": "There is an important message for you.",
+      "explanation": "\"Message\" is singular, and \"important\" starts with a vowel — use \"There is an important message\"."
+    },
+    {
+      "id": 224,
+      "type": "error",
+      "sentence": "There was many people at the concert.",
+      "options": [
+        "There was many people at the concert.",
+        "There were many people at the concert."
+      ],
+      "answer": "There were many people at the concert.",
+      "explanation": "\"People\" is plural — use \"There were many people\"."
+    },
+    {
+      "id": 225,
+      "type": "error",
+      "sentence": "There is much books in the library.",
+      "options": [
+        "There is much books in the library.",
+        "There are many books in the library."
+      ],
+      "answer": "There are many books in the library.",
+      "explanation": "\"Books\" is countable and plural — use \"There are many books\", not \"There is much books\"."
+    },
+    {
+      "id": 226,
+      "type": "error",
+      "sentence": "There are no electricity in that village.",
+      "options": [
+        "There are no electricity in that village.",
+        "There is no electricity in that village."
+      ],
+      "answer": "There is no electricity in that village.",
+      "explanation": "\"Electricity\" is uncountable — use \"There is no electricity\"."
+    },
+    {
+      "id": 227,
+      "type": "error",
+      "sentence": "There were a lot of informations given.",
+      "options": [
+        "There were a lot of informations given.",
+        "There was a lot of information given."
+      ],
+      "answer": "There was a lot of information given.",
+      "explanation": "\"Information\" is uncountable — use \"a lot of information\" not \"informations\"."
+    },
+    {
+      "id": 228,
+      "type": "error",
+      "sentence": "There has been many improvements this year.",
+      "options": [
+        "There has been many improvements this year.",
+        "There have been many improvements this year."
+      ],
+      "answer": "There have been many improvements this year.",
+      "explanation": "\"Improvements\" is plural — use \"There have been many improvements\"."
+    },
+    {
+      "id": 229,
+      "type": "error",
+      "sentence": "There are a shortage of parking spaces.",
+      "options": [
+        "There are a shortage of parking spaces.",
+        "There is a shortage of parking spaces."
+      ],
+      "answer": "There is a shortage of parking spaces.",
+      "explanation": "\"Shortage\" is singular — use \"There is a shortage\"."
+    },
+    {
+      "id": 230,
+      "type": "error",
+      "sentence": "There is no computers in this room.",
+      "options": [
+        "There is no computers in this room.",
+        "There are no computers in this room."
+      ],
+      "answer": "There are no computers in this room.",
+      "explanation": "\"Computers\" is plural — use \"There are no computers\"."
+    },
+    {
+      "id": 231,
+      "type": "error",
+      "sentence": "There was no buses yesterday.",
+      "options": [
+        "There was no buses yesterday.",
+        "There were no buses yesterday."
+      ],
+      "answer": "There were no buses yesterday.",
+      "explanation": "\"Buses\" is plural — use \"There were no buses\"."
+    },
+    {
+      "id": 232,
+      "type": "error",
+      "sentence": "There is a plenty of time.",
+      "options": [
+        "There is a plenty of time.",
+        "There is plenty of time."
+      ],
+      "answer": "There is plenty of time.",
+      "explanation": "Don't say 'a plenty of' — the correct form is 'There is plenty of time.'"
+    },
+    {
+      "id": 233,
+      "type": "error",
+      "sentence": "There are a lot of homeworks.",
+      "options": [
+        "There are a lot of homeworks.",
+        "There is a lot of homework."
+      ],
+      "answer": "There is a lot of homework.",
+      "explanation": "\"Homework\" is uncountable — do not say \"homeworks\". Use \"There is a lot of homework\"."
+    },
+    {
+      "id": 234,
+      "type": "error",
+      "sentence": "There will be a lot of informations.",
+      "options": [
+        "There will be a lot of informations.",
+        "There will be a lot of information."
+      ],
+      "answer": "There will be a lot of information.",
+      "explanation": "\"Information\" is uncountable — use \"a lot of information\" not \"informations\"."
+    },
+    {
+      "id": 235,
+      "type": "error",
+      "sentence": "There are a schedule for tomorrow.",
+      "options": [
+        "There are a schedule for tomorrow.",
+        "There is a schedule for tomorrow."
+      ],
+      "answer": "There is a schedule for tomorrow.",
+      "explanation": "\"Schedule\" is singular — use \"There is a schedule\"."
+    },
+    {
+      "id": 236,
+      "type": "error",
+      "sentence": "There was many complaints from clients.",
+      "options": [
+        "There was many complaints from clients.",
+        "There were many complaints from clients."
+      ],
+      "answer": "There were many complaints from clients.",
+      "explanation": "\"Complaints\" is plural — use \"There were many complaints\"."
+    },
+    {
+      "id": 237,
+      "type": "error",
+      "sentence": "There is a two vacancies available.",
+      "options": [
+        "There is a two vacancies available.",
+        "There are two vacancies available."
+      ],
+      "answer": "There are two vacancies available.",
+      "explanation": "\"Two vacancies\" is plural — use \"There are two vacancies\". Remove the incorrect \"a\"."
+    },
+    {
+      "id": 238,
+      "type": "error",
+      "sentence": "There has been many updates to the app.",
+      "options": [
+        "There has been many updates to the app.",
+        "There have been many updates to the app."
+      ],
+      "answer": "There have been many updates to the app.",
+      "explanation": "\"Updates\" is plural — use \"There have been many updates\"."
+    },
+    {
+      "id": 239,
+      "type": "error",
+      "sentence": "There are no budget left.",
+      "options": [
+        "There are no budget left.",
+        "There is no budget left."
+      ],
+      "answer": "There is no budget left.",
+      "explanation": "\"Budget\" is uncountable/singular — use \"There is no budget left\"."
+    },
+    {
+      "id": 240,
+      "type": "error",
+      "sentence": "There were a lot of informations in the report.",
+      "options": [
+        "There were a lot of informations in the report.",
+        "There was a lot of information in the report."
+      ],
+      "answer": "There was a lot of information in the report.",
+      "explanation": "\"Information\" is uncountable — use \"There was a lot of information\"."
+    },
+    {
+      "id": 241,
+      "type": "mcq",
+      "sentence": "Which is correct?",
+      "options": [
+        "There is many issues.",
+        "There are many issues.",
+        "There were a issue.",
+        "There is a issues."
+      ],
+      "answer": "There are many issues.",
+      "explanation": "\"Issues\" is plural — use \"There are many issues.\""
+    },
+    {
+      "id": 242,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There are no informations.",
+        "There is no information.",
+        "There were no information.",
+        "There has been no informations."
+      ],
+      "answer": "There is no information.",
+      "explanation": "\"Information\" is uncountable — use \"There is no information.\""
+    },
+    {
+      "id": 243,
+      "type": "mcq",
+      "sentence": "Which sentence is grammatically correct?",
+      "options": [
+        "There was many people.",
+        "There were a big problem.",
+        "There were many people.",
+        "There is many problems."
+      ],
+      "answer": "There were many people.",
+      "explanation": "\"People\" is plural (past), so use \"There were many people.\""
+    },
+    {
+      "id": 244,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ a meeting at 10 am yesterday.",
+      "options": [
+        "is",
+        "are",
+        "will be",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Was\" for singular past tense."
+    },
+    {
+      "id": 245,
+      "type": "mcq",
+      "sentence": "Which sentence about the future is correct?",
+      "options": [
+        "There was a party tonight.",
+        "There will be a party tonight.",
+        "There were a party tonight.",
+        "There have been a party tonight."
+      ],
+      "answer": "There will be a party tonight.",
+      "explanation": "\"Will be\" is used for future."
+    },
+    {
+      "id": 246,
+      "type": "mcq",
+      "sentence": "Which sentence uses the present perfect correctly?",
+      "options": [
+        "There has been many errors.",
+        "There have been many errors.",
+        "There were many errors recently.",
+        "There is been many errors."
+      ],
+      "answer": "There have been many errors.",
+      "explanation": "\"Errors\" is plural — use \"There have been many errors.\""
+    },
+    {
+      "id": 247,
+      "type": "mcq",
+      "sentence": "Choose the negative sentence that is correct:",
+      "options": [
+        "There aren't no books.",
+        "There is no books.",
+        "There are no books.",
+        "There aren't books none."
+      ],
+      "answer": "There are no books.",
+      "explanation": "\"Books\" is plural — use \"There are no books.\""
+    },
+    {
+      "id": 248,
+      "type": "mcq",
+      "sentence": "Which question is correct?",
+      "options": [
+        "Is there any problems?",
+        "Are there any problems?",
+        "Were there any problem?",
+        "Are there a problem?"
+      ],
+      "answer": "Are there any problems?",
+      "explanation": "\"Problems\" is plural — use \"Are there any problems?\""
+    },
+    {
+      "id": 249,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is a lot of advices.",
+        "There are a lot of advice.",
+        "There is a lot of advice.",
+        "There were a lot of advice."
+      ],
+      "answer": "There is a lot of advice.",
+      "explanation": "\"Advice\" is uncountable — use \"There is a lot of advice.\""
+    },
+    {
+      "id": 250,
+      "type": "mcq",
+      "sentence": "Fill in: ___ there any vacancies?",
+      "options": [
+        "Is",
+        "Are",
+        "Was",
+        "Were"
+      ],
+      "answer": "Are",
+      "explanation": "\"Vacancies\" is plural — use \"Are there any vacancies?\""
+    },
+    {
+      "id": 251,
+      "type": "mcq",
+      "sentence": "Which is correct for a past event?",
+      "options": [
+        "There is a flood last year.",
+        "There were a flood last year.",
+        "There was a flood last year.",
+        "There have been a flood last year."
+      ],
+      "answer": "There was a flood last year.",
+      "explanation": "\"Flood\" is singular and past — use \"There was a flood.\""
+    },
+    {
+      "id": 252,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence about furniture:",
+      "options": [
+        "There are no furnitures.",
+        "There is no furnitures.",
+        "There is no furniture.",
+        "There were no furniture."
+      ],
+      "answer": "There is no furniture.",
+      "explanation": "\"Furniture\" is uncountable — use \"There is no furniture.\""
+    },
+    {
+      "id": 253,
+      "type": "mcq",
+      "sentence": "Which phrase correctly means 'बहुत सारा काम'?",
+      "options": [
+        "There are lots of work.",
+        "There is much works.",
+        "There is a lot of work.",
+        "There are a lot of works."
+      ],
+      "answer": "There is a lot of work.",
+      "explanation": "\"Work\" is uncountable — \"There is a lot of work.\""
+    },
+    {
+      "id": 254,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ been no complaints this week.",
+      "options": [
+        "have",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": "have",
+      "explanation": "\"Complaints\" is plural — \"There have been no complaints.\""
+    },
+    {
+      "id": 255,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There are a lot of informations.",
+        "There is lots of information.",
+        "There were lots of informations.",
+        "There has been lots of informations."
+      ],
+      "answer": "There is lots of information.",
+      "explanation": "\"Information\" is uncountable — \"There is lots of information.\""
+    },
+    {
+      "id": 256,
+      "type": "mcq",
+      "sentence": "Choose the right question form:",
+      "options": [
+        "Will there are a holiday tomorrow?",
+        "Will there be a holiday tomorrow?",
+        "Will there is a holiday tomorrow?",
+        "Will there were a holiday tomorrow?"
+      ],
+      "answer": "Will there be a holiday tomorrow?",
+      "explanation": "\"Will there be\" is the correct future question form."
+    },
+    {
+      "id": 257,
+      "type": "mcq",
+      "sentence": "Fill in: ___ there any coffee left?",
+      "options": [
+        "Are",
+        "Were",
+        "Is",
+        "Have"
+      ],
+      "answer": "Is",
+      "explanation": "\"Coffee\" is uncountable/singular — \"Is there any coffee left?\""
+    },
+    {
+      "id": 258,
+      "type": "mcq",
+      "sentence": "Which sentence correctly uses present perfect plural?",
+      "options": [
+        "There has been many problems.",
+        "There have been many problems.",
+        "There were many problems recently.",
+        "There is been many problems."
+      ],
+      "answer": "There have been many problems.",
+      "explanation": "\"Problems\" is plural — use \"There have been many problems.\""
+    },
+    {
+      "id": 259,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is five members in the team.",
+        "There are five member in the team.",
+        "There are five members in the team.",
+        "There were five member in the team."
+      ],
+      "answer": "There are five members in the team.",
+      "explanation": "\"Five members\" is plural present — \"There are five members.\""
+    },
+    {
+      "id": 260,
+      "type": "mcq",
+      "sentence": "Fill in: There _____ a storm last night.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Storm\" is singular past — \"There was a storm.\""
+    },
+    {
+      "id": 261,
+      "type": "mcq",
+      "sentence": "Which sentence is correct about the future?",
+      "options": [
+        "There will be many changes next year.",
+        "There will are many changes next year.",
+        "There is many changes next year.",
+        "There were many changes next year."
+      ],
+      "answer": "There will be many changes next year.",
+      "explanation": "\"Will be + plural\" for future: \"There will be many changes.\""
+    },
+    {
+      "id": 262,
+      "type": "mcq",
+      "sentence": "Choose the correct negative:",
+      "options": [
+        "There aren't no chairs.",
+        "There is no chairs.",
+        "There are no chairs.",
+        "There aren't chairs none."
+      ],
+      "answer": "There are no chairs.",
+      "explanation": "\"Chairs\" is plural — \"There are no chairs.\""
+    },
+    {
+      "id": 263,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ no staff available yesterday.",
+      "options": [
+        "is",
+        "are",
+        "were",
+        "will"
+      ],
+      "answer": "was",
+      "explanation": "\"Staff\" is uncountable/singular past — \"There was no staff.\""
+    },
+    {
+      "id": 264,
+      "type": "mcq",
+      "sentence": "Which is correct?",
+      "options": [
+        "There is a lot of equipments.",
+        "There are a lot of equipments.",
+        "There is a lot of equipment.",
+        "There are a lot of equipment."
+      ],
+      "answer": "There is a lot of equipment.",
+      "explanation": "\"Equipment\" is uncountable — \"There is a lot of equipment.\""
+    },
+    {
+      "id": 265,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There are a important meeting.",
+        "There is a important meeting.",
+        "There is an important meeting.",
+        "There were an important meeting."
+      ],
+      "answer": "There is an important meeting.",
+      "explanation": "\"Meeting\" is singular; \"an\" before vowel sound \"i\" — \"There is an important meeting.\""
+    },
+    {
+      "id": 266,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ been a delay in the project.",
+      "options": [
+        "have",
+        "were",
+        "are",
+        "has"
+      ],
+      "answer": "has",
+      "explanation": "\"Delay\" is singular — \"There has been a delay.\""
+    },
+    {
+      "id": 267,
+      "type": "mcq",
+      "sentence": "Which sentence correctly asks about plural past?",
+      "options": [
+        "Was there any problems?",
+        "Were there any problems?",
+        "Is there any problems?",
+        "Are there any problems?"
+      ],
+      "answer": "Were there any problems?",
+      "explanation": "\"Problems\" is plural past — \"Were there any problems?\""
+    },
+    {
+      "id": 268,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is a plenty of space.",
+        "There is plenty of space.",
+        "There are plenty of spaces.",
+        "Both B and C are correct."
+      ],
+      "answer": "Both B and C are correct.",
+      "explanation": "\"There is plenty of space\" (uncountable) and \"There are plenty of spaces\" (plural) are both correct."
+    },
+    {
+      "id": 269,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ a very long queue at the ticket counter.",
+      "options": [
+        "are",
+        "were",
+        "has",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Queue\" is singular past — \"There was a very long queue.\""
+    },
+    {
+      "id": 270,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There is a lots of work.",
+        "There are lots of works.",
+        "There is lots of work.",
+        "There are a lot of work."
+      ],
+      "answer": "There is lots of work.",
+      "explanation": "\"Work\" is uncountable — \"There is lots of work.\""
+    },
+    {
+      "id": 271,
+      "type": "mcq",
+      "sentence": "Choose the correct formal sentence:",
+      "options": [
+        "There is been a breach of protocol.",
+        "There have been a breach of protocol.",
+        "There has been a breach of protocol.",
+        "There was been a breach of protocol."
+      ],
+      "answer": "There has been a breach of protocol.",
+      "explanation": "\"Breach\" is singular — \"There has been a breach.\""
+    },
+    {
+      "id": 272,
+      "type": "mcq",
+      "sentence": "Fill in: ___ there be a holiday next Monday?",
+      "options": [
+        "Is",
+        "Are",
+        "Was",
+        "Will"
+      ],
+      "answer": "Will",
+      "explanation": "\"Will there be\" for future questions."
+    },
+    {
+      "id": 273,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There are a lot of traffic.",
+        "There is a lot of traffics.",
+        "There is a lot of traffic.",
+        "There were a lot of traffic."
+      ],
+      "answer": "There is a lot of traffic.",
+      "explanation": "\"Traffic\" is uncountable — \"There is a lot of traffic.\""
+    },
+    {
+      "id": 274,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is many resources.",
+        "There are much resources.",
+        "There are many resources.",
+        "There were a lot of resource."
+      ],
+      "answer": "There are many resources.",
+      "explanation": "\"Resources\" is plural — \"There are many resources.\""
+    },
+    {
+      "id": 275,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ been a major improvement this year.",
+      "options": [
+        "have",
+        "were",
+        "are",
+        "has"
+      ],
+      "answer": "has",
+      "explanation": "\"Improvement\" is singular — \"There has been a major improvement.\""
+    },
+    {
+      "id": 276,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There is no feedbacks.",
+        "There are no feedback.",
+        "There is no feedback.",
+        "There were no feedbacks."
+      ],
+      "answer": "There is no feedback.",
+      "explanation": "\"Feedback\" is uncountable — \"There is no feedback.\""
+    },
+    {
+      "id": 277,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There will be a lot of informations.",
+        "There will be a lot of information.",
+        "There will are lots of informations.",
+        "There will were lots of information."
+      ],
+      "answer": "There will be a lot of information.",
+      "explanation": "\"Information\" is uncountable — \"There will be a lot of information.\""
+    },
+    {
+      "id": 278,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ no time left to decide.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have been"
+      ],
+      "answer": "is",
+      "explanation": "\"Time\" is uncountable/singular — \"There is no time left.\""
+    },
+    {
+      "id": 279,
+      "type": "mcq",
+      "sentence": "Which form is used for plural present perfect?",
+      "options": [
+        "There has been many changes.",
+        "There have been many changes.",
+        "There are been many changes.",
+        "There were many changes recently."
+      ],
+      "answer": "There have been many changes.",
+      "explanation": "\"Changes\" plural + present perfect = \"There have been many changes.\""
+    },
+    {
+      "id": 280,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is many opportunities here.",
+        "There are a opportunity here.",
+        "There are many opportunities here.",
+        "There is many opportunity here."
+      ],
+      "answer": "There are many opportunities here.",
+      "explanation": "\"Opportunities\" is plural — \"There are many opportunities.\""
+    },
+    {
+      "id": 281,
+      "type": "mcq",
+      "sentence": "Fill in: Is there _____ issue with the server?",
+      "options": [
+        "a",
+        "any",
+        "much",
+        "many"
+      ],
+      "answer": "any",
+      "explanation": "\"Any\" in questions with singular/uncountable: \"Is there any issue?\""
+    },
+    {
+      "id": 282,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There was many attendees.",
+        "There were many attendees.",
+        "There has been many attendees.",
+        "There is many attendees."
+      ],
+      "answer": "There were many attendees.",
+      "explanation": "\"Attendees\" is plural past — \"There were many attendees.\""
+    },
+    {
+      "id": 283,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There are a agenda for the meeting.",
+        "There is an agenda for the meeting.",
+        "There were an agenda for the meeting.",
+        "There has been a agenda for the meeting."
+      ],
+      "answer": "There is an agenda for the meeting.",
+      "explanation": "\"Agenda\" is singular; use \"an\" before vowel sound — \"There is an agenda.\""
+    },
+    {
+      "id": 284,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ been a rise in prices recently.",
+      "options": [
+        "have",
+        "were",
+        "is",
+        "are"
+      ],
+      "answer": "has",
+      "explanation": "\"Rise\" is singular — \"There has been a rise in prices.\""
+    },
+    {
+      "id": 285,
+      "type": "mcq",
+      "sentence": "Which question is correct?",
+      "options": [
+        "Is there be any issues?",
+        "Are there any issues?",
+        "Were there any issue?",
+        "Is there any issues?"
+      ],
+      "answer": "Are there any issues?",
+      "explanation": "\"Issues\" is plural — \"Are there any issues?\""
+    },
+    {
+      "id": 286,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is no knowledges.",
+        "There are no knowledge.",
+        "There is no knowledge.",
+        "There were no knowledges."
+      ],
+      "answer": "There is no knowledge.",
+      "explanation": "\"Knowledge\" is uncountable — \"There is no knowledge.\""
+    },
+    {
+      "id": 287,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ no progress made last week.",
+      "options": [
+        "is",
+        "are",
+        "will",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Progress\" is uncountable/singular past — \"There was no progress.\""
+    },
+    {
+      "id": 288,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There is lot of noise.",
+        "There are a lot of noise.",
+        "There is a lot of noise.",
+        "There were a lot of noise."
+      ],
+      "answer": "There is a lot of noise.",
+      "explanation": "\"Noise\" is uncountable — \"There is a lot of noise.\""
+    },
+    {
+      "id": 289,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is many new features.",
+        "There are many new feature.",
+        "There are many new features.",
+        "There were many new feature."
+      ],
+      "answer": "There are many new features.",
+      "explanation": "\"Features\" is plural — \"There are many new features.\""
+    },
+    {
+      "id": 290,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ a power cut in the building.",
+      "options": [
+        "are",
+        "is",
+        "were",
+        "will"
+      ],
+      "answer": "was",
+      "explanation": "\"Power cut\" is singular past — \"There was a power cut.\""
+    },
+    {
+      "id": 291,
+      "type": "mcq",
+      "sentence": "Which is correct for uncountable noun?",
+      "options": [
+        "There are much sugar.",
+        "There is many sugars.",
+        "There is a lot of sugar.",
+        "There were lots of sugars."
+      ],
+      "answer": "There is a lot of sugar.",
+      "explanation": "\"Sugar\" is uncountable — \"There is a lot of sugar.\""
+    },
+    {
+      "id": 292,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There will be a lot of works.",
+        "There will be a lot of work.",
+        "There will are a lot of works.",
+        "There will were a lot of work."
+      ],
+      "answer": "There will be a lot of work.",
+      "explanation": "\"Work\" is uncountable — \"There will be a lot of work.\""
+    },
+    {
+      "id": 293,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ been significant changes since last year.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "are"
+      ],
+      "answer": "have",
+      "explanation": "\"Changes\" is plural — \"There have been significant changes.\""
+    },
+    {
+      "id": 294,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There is five members in the group.",
+        "There are five member in the group.",
+        "There are five members in the group.",
+        "There were five members yesterday."
+      ],
+      "answer": "There are five members in the group.",
+      "explanation": "\"Five members\" is plural present — \"There are five members.\""
+    },
+    {
+      "id": 295,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is a lot of evidences.",
+        "There are a lot of evidence.",
+        "There is a lot of evidence.",
+        "There were a lot of evidences."
+      ],
+      "answer": "There is a lot of evidence.",
+      "explanation": "\"Evidence\" is uncountable — \"There is a lot of evidence.\""
+    },
+    {
+      "id": 296,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ many visitors in the museum.",
+      "options": [
+        "is",
+        "was",
+        "will be",
+        "are"
+      ],
+      "answer": "are",
+      "explanation": "\"Visitors\" is plural present — \"There are many visitors.\""
+    },
+    {
+      "id": 297,
+      "type": "mcq",
+      "sentence": "Which is correct?",
+      "options": [
+        "There is much errors.",
+        "There are much errors.",
+        "There are many errors.",
+        "There is many errors."
+      ],
+      "answer": "There are many errors.",
+      "explanation": "\"Errors\" is countable and plural — \"There are many errors.\" (\"Much\" is for uncountable.)"
+    },
+    {
+      "id": 298,
+      "type": "mcq",
+      "sentence": "Choose the correct future negative:",
+      "options": [
+        "There won't be no problems.",
+        "There will not be any problems.",
+        "There won't be no problem.",
+        "There will aren't any problems."
+      ],
+      "answer": "There will not be any problems.",
+      "explanation": "\"There will not be any problems\" is the correct future negative."
+    },
+    {
+      "id": 299,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ no clear answer to this question.",
+      "options": [
+        "are",
+        "were",
+        "is",
+        "have"
+      ],
+      "answer": "is",
+      "explanation": "\"Answer\" is singular — \"There is no clear answer.\""
+    },
+    {
+      "id": 300,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There is many lessons to learn.",
+        "There are many lessons to learn.",
+        "There were a lot of lesson.",
+        "There is a lot of lessons."
+      ],
+      "answer": "There are many lessons to learn.",
+      "explanation": "\"Lessons\" is plural — \"There are many lessons.\""
+    },
+    {
+      "id": 301,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There has been many accidents.",
+        "There have been many accidents.",
+        "There were many accident recently.",
+        "There is been many accidents."
+      ],
+      "answer": "There have been many accidents.",
+      "explanation": "\"Accidents\" is plural — \"There have been many accidents.\""
+    },
+    {
+      "id": 302,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ a long discussion in the boardroom.",
+      "options": [
+        "are",
+        "is",
+        "will",
+        "were"
+      ],
+      "answer": "was",
+      "explanation": "\"Discussion\" is singular past — \"There was a long discussion.\""
+    },
+    {
+      "id": 303,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There is a plenty of resources.",
+        "There are plenty of resource.",
+        "There are plenty of resources.",
+        "There were a plenty of resources."
+      ],
+      "answer": "There are plenty of resources.",
+      "explanation": "\"Plenty of resources\" — \"There are plenty of resources.\""
+    },
+    {
+      "id": 304,
+      "type": "mcq",
+      "sentence": "Choose the right form: There ___ been a lot of complaints.",
+      "options": [
+        "have",
+        "has",
+        "is",
+        "are"
+      ],
+      "answer": "have",
+      "explanation": "\"Complaints\" is plural — \"There have been a lot of complaints.\""
+    },
+    {
+      "id": 305,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ no water available during the drought.",
+      "options": [
+        "is",
+        "are",
+        "will",
+        "was"
+      ],
+      "answer": "was",
+      "explanation": "\"Water\" is uncountable/singular past — \"There was no water available.\""
+    },
+    {
+      "id": 306,
+      "type": "mcq",
+      "sentence": "Which sentence is correct?",
+      "options": [
+        "There will be a lot of traffics.",
+        "There will be a lot of traffic.",
+        "There will are a lot of traffic.",
+        "There will were a lot of traffics."
+      ],
+      "answer": "There will be a lot of traffic.",
+      "explanation": "\"Traffic\" is uncountable — \"There will be a lot of traffic.\""
+    },
+    {
+      "id": 307,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is a lot of furnitures.",
+        "There are a lot of furnitures.",
+        "There is a lot of furniture.",
+        "There are a lot of furniture."
+      ],
+      "answer": "There is a lot of furniture.",
+      "explanation": "\"Furniture\" is uncountable — \"There is a lot of furniture.\""
+    },
+    {
+      "id": 308,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ many flights cancelled due to the storm.",
+      "options": [
+        "is",
+        "was",
+        "will be",
+        "were"
+      ],
+      "answer": "were",
+      "explanation": "\"Flights\" is plural past — \"There were many flights cancelled.\""
+    },
+    {
+      "id": 309,
+      "type": "mcq",
+      "sentence": "Which is the correct negative question?",
+      "options": [
+        "Isn't there no more space?",
+        "Is there no more space?",
+        "Are there no more space?",
+        "Aren't there any space?"
+      ],
+      "answer": "Is there no more space?",
+      "explanation": "\"Space\" is uncountable — \"Is there no more space?\" is correct."
+    },
+    {
+      "id": 310,
+      "type": "mcq",
+      "sentence": "Choose the correct sentence:",
+      "options": [
+        "There is many tasks today.",
+        "There are many tasks today.",
+        "There were many task today.",
+        "There is a many tasks today."
+      ],
+      "answer": "There are many tasks today.",
+      "explanation": "\"Tasks\" is plural — \"There are many tasks today.\""
+    },
+    {
+      "id": 311,
+      "type": "mcq",
+      "sentence": "Fill in: There ___ been rapid growth in this sector.",
+      "options": [
+        "have",
+        "were",
+        "are",
+        "has"
+      ],
+      "answer": "has",
+      "explanation": "\"Growth\" is uncountable/singular — \"There has been rapid growth.\""
     }
   ]
 }
