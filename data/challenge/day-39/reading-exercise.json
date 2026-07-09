@@ -1,0 +1,107 @@
+{
+  "day": 39,
+  "topic": "Had To / Will Have To",
+  "passage": {
+    "title": "A Day with Had To / Will Have To",
+    "text": "I had to go to office yesterday. I will have to go to office tomorrow. He had to complete this work. He will have to complete this work. We had to follow the rules. We will have to follow the rules. She had to wake up early every day. She will have to wake up early every day. Did you have to do this? Will you have to do this?",
+    "hindiTranslation": "मुझे कल ऑफिस जाना पड़ा। मुझे कल ऑफिस जाना पड़ेगा। उसे यह काम पूरा करना पड़ा। उसे यह काम पूरा करना पड़ेगा। हमें नियमों का पालन करना पड़ा। हमें नियमों का पालन करना पड़ेगा। उसे रोज़ जल्दी उठना पड़ा। उसे रोज़ जल्दी उठना पड़ेगा। क्या तुम्हें यह करना पड़ा? क्या तुम्हें यह करना पड़ेगा?"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I had to go...\"?",
+      "options": [
+        "She will have to wake up early every day.",
+        "We had to fill the form.",
+        "I will have to go to office tomorrow.",
+        "I had to go to office yesterday."
+      ],
+      "answer": "I had to go to office yesterday.",
+      "explanation": "Stated in the passage: \"I had to go to office yesterday.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I will have to...\"?",
+      "options": [
+        "Did you have to do this?",
+        "We will have to fill the form.",
+        "He had to complete this work.",
+        "I will have to go to office tomorrow."
+      ],
+      "answer": "I will have to go to office tomorrow.",
+      "explanation": "Stated in the passage: \"I will have to go to office tomorrow.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He had to complete...\"?",
+      "options": [
+        "Will you have to do this?",
+        "You did not have to do this.",
+        "He will have to complete this work.",
+        "He had to complete this work."
+      ],
+      "answer": "He had to complete this work.",
+      "explanation": "Stated in the passage: \"He had to complete this work.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"He will have to...\"?",
+      "options": [
+        "He had to work very hard.",
+        "You will not have to do this.",
+        "We had to follow the rules.",
+        "He will have to complete this work."
+      ],
+      "answer": "He will have to complete this work.",
+      "explanation": "Stated in the passage: \"He will have to complete this work.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"We had to follow...\"?",
+      "options": [
+        "He will have to work very hard.",
+        "She had to give proof.",
+        "We will have to follow the rules.",
+        "We had to follow the rules."
+      ],
+      "answer": "We had to follow the rules.",
+      "explanation": "Stated in the passage: \"We had to follow the rules.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"We will have to...\"?",
+      "options": [
+        "I had to pay money.",
+        "She will have to give proof.",
+        "She had to wake up early every day.",
+        "We will have to follow the rules."
+      ],
+      "answer": "We will have to follow the rules.",
+      "explanation": "Stated in the passage: \"We will have to follow the rules.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"She had to wake...\"?",
+      "options": [
+        "I will have to pay money.",
+        "I had to go to office yesterday.",
+        "She will have to wake up early every day.",
+        "She had to wake up early every day."
+      ],
+      "answer": "She had to wake up early every day.",
+      "explanation": "Stated in the passage: \"She had to wake up early every day.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She will have to...\"?",
+      "options": [
+        "We had to fill the form.",
+        "I will have to go to office tomorrow.",
+        "Did you have to do this?",
+        "She will have to wake up early every day."
+      ],
+      "answer": "She will have to wake up early every day.",
+      "explanation": "Stated in the passage: \"She will have to wake up early every day.\""
+    }
+  ]
+}

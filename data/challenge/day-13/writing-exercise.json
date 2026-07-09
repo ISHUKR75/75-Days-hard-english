@@ -1,0 +1,46 @@
+{
+  "day": 13,
+  "topic": "Use of Let",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Use of Let.",
+      "hindiPrompt": "Use of Let का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "Let me tell you. Let him go. Let her speak. Let us try. Let them play.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Use of Let.",
+      "hindiPrompt": "Use of Let का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Let me think. Let him rest. Let me check this. Let her do her work. Let us start.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"मत उसे जाने दो।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Do not let him go.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Let us try yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Let us try.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Use of Let.",
+      "hindiPrompt": "Use of Let का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Let them decide. Let me have some time. Let him come. Let us work together.",
+      "wordLimit": 60
+    }
+  ]
+}

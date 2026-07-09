@@ -1,0 +1,107 @@
+{
+  "day": 42,
+  "topic": "About To",
+  "passage": {
+    "title": "A Day with About To",
+    "text": "The train is about to leave. I am about to go to sleep. She is about to speak. It is about to rain. The meeting is about to start. I am about to leave home. She is about to cry. We are about to eat food. The sun is about to set. I am about to make this decision.",
+    "hindiTranslation": "ट्रेन अभी छूटने वाली है। मैं अभी सोने वाला हूँ। वह अभी बोलने वाली है। बारिश अभी शुरू होने वाली है। मीटिंग अभी शुरू होने वाली है। मैं अभी घर से निकलने वाला हूँ। वह अभी रोने वाली है। हम अभी खाना खाने वाले हैं। सूरज अभी डूबने वाला है। मैं अभी यह decision लेने वाला हूँ।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"The train is about...\"?",
+      "options": [
+        "We are about to eat food.",
+        "I was about to make this mistake, but I stopped.",
+        "I am about to go to sleep.",
+        "The train is about to leave."
+      ],
+      "answer": "The train is about to leave.",
+      "explanation": "Stated in the passage: \"The train is about to leave.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I am about to...\"?",
+      "options": [
+        "The sun is about to set.",
+        "She is about to fall asleep.",
+        "She is about to speak.",
+        "I am about to go to sleep."
+      ],
+      "answer": "I am about to go to sleep.",
+      "explanation": "Stated in the passage: \"I am about to go to sleep.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"She is about to...\"?",
+      "options": [
+        "I am about to make this decision.",
+        "We are about to begin.",
+        "It is about to rain.",
+        "She is about to speak."
+      ],
+      "answer": "She is about to speak.",
+      "explanation": "Stated in the passage: \"She is about to speak.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"It is about to...\"?",
+      "options": [
+        "He is about to answer.",
+        "The shop is about to close.",
+        "The meeting is about to start.",
+        "It is about to rain."
+      ],
+      "answer": "It is about to rain.",
+      "explanation": "Stated in the passage: \"It is about to rain.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"The meeting is about...\"?",
+      "options": [
+        "The movie is about to start.",
+        "I am about to call him.",
+        "I am about to leave home.",
+        "The meeting is about to start."
+      ],
+      "answer": "The meeting is about to start.",
+      "explanation": "Stated in the passage: \"The meeting is about to start.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"I am about to...\"?",
+      "options": [
+        "I am about to apologize.",
+        "The child was about to fall.",
+        "She is about to cry.",
+        "I am about to leave home."
+      ],
+      "answer": "I am about to leave home.",
+      "explanation": "Stated in the passage: \"I am about to leave home.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"She is about to...\"?",
+      "options": [
+        "They are about to arrive.",
+        "The train is about to leave.",
+        "We are about to eat food.",
+        "She is about to cry."
+      ],
+      "answer": "She is about to cry.",
+      "explanation": "Stated in the passage: \"She is about to cry.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"We are about to...\"?",
+      "options": [
+        "I was about to make this mistake, but I stopped.",
+        "I am about to go to sleep.",
+        "The sun is about to set.",
+        "We are about to eat food."
+      ],
+      "answer": "We are about to eat food.",
+      "explanation": "Stated in the passage: \"We are about to eat food.\""
+    }
+  ]
+}

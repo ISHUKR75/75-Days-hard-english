@@ -1,0 +1,114 @@
+{
+  "day": 40,
+  "topic": "Make / Get (Causative and Common Usage)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He always makes mistakes.",
+      "hindiScript": "वह हमेशा गलतियाँ करता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She gets her hair cut.",
+        "I am getting my house painted.",
+        "I got him to do this work.",
+        "He always makes mistakes."
+      ],
+      "answer": "He always makes mistakes."
+    },
+    {
+      "id": 2,
+      "audioScript": "I got that place.",
+      "hindiScript": "मुझे वह जगह मिल गई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The teacher made us stay quiet.",
+        "He makes good decisions.",
+        "I get my car repaired.",
+        "I got that place."
+      ],
+      "answer": "I got that place."
+    },
+    {
+      "id": 3,
+      "audioScript": "She made me stop.",
+      "hindiScript": "उसने मुझे रुकने पर मजबूर किया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I get my homework done.",
+        "I got this answer.",
+        "She makes good food.",
+        "She made me stop."
+      ],
+      "answer": "She made me stop."
+    },
+    {
+      "id": 4,
+      "audioScript": "I got him to understand.",
+      "hindiScript": "मैंने उसे समझाने की कोशिश की।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He always makes mistakes.",
+        "The boss made us work late.",
+        "I got this job.",
+        "I got him to understand."
+      ],
+      "answer": "I got him to understand."
+    },
+    {
+      "id": 5,
+      "audioScript": "I am getting my house painted.",
+      "hindiScript": "मैं अपना घर पेंट करवा रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I got that place.",
+        "I got him to help.",
+        "He made me laugh.",
+        "I am getting my house painted."
+      ],
+      "answer": "I am getting my house painted."
+    },
+    {
+      "id": 6,
+      "audioScript": "He makes good decisions.",
+      "hindiScript": "वह अच्छे फैसले लेता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She made me stop.",
+        "I get my clothes washed.",
+        "I got him to agree.",
+        "He makes good decisions."
+      ],
+      "answer": "He makes good decisions."
+    },
+    {
+      "id": 7,
+      "audioScript": "I got this answer.",
+      "hindiScript": "मुझे यह जवाब मिल गया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I got him to understand.",
+        "I made him do this work.",
+        "She gets her hair cut.",
+        "I got this answer."
+      ],
+      "answer": "I got this answer."
+    },
+    {
+      "id": 8,
+      "audioScript": "The boss made us work late.",
+      "hindiScript": "बॉस ने हमें late तक काम करने पर मजबूर किया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am getting my house painted.",
+        "I got him to do this work.",
+        "The teacher made us stay quiet.",
+        "The boss made us work late."
+      ],
+      "answer": "The boss made us work late."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He always makes mistakes. I got that place. She made me stop. I got him to understand. I am getting my house painted.",
+    "hindiTranslation": "वह हमेशा गलतियाँ करता है। मुझे वह जगह मिल गई। उसने मुझे रुकने पर मजबूर किया। मैंने उसे समझाने की कोशिश की। मैं अपना घर पेंट करवा रहा हूँ।"
+  }
+}

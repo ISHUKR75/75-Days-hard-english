@@ -1,0 +1,46 @@
+{
+  "day": 23,
+  "topic": "Should Have",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Should Have.",
+      "hindiPrompt": "Should Have का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I should have come earlier. You should have apologized to him. He should have worked harder. I should have told this earlier. We should have been more careful.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Should Have.",
+      "hindiPrompt": "Should Have का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "You should have listened to him. She should have told the truth. I should have read this book. We should have arrived on time. You should not have made this mistake.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"उसे मुझे बताना चाहिए था।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He should have told me.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I shoulds have told this earlier.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I should have told this earlier.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Should Have.",
+      "hindiPrompt": "Should Have का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "We should have thought earlier. You should have stopped him. She should not have left this job. I should have practiced more.",
+      "wordLimit": 60
+    }
+  ]
+}

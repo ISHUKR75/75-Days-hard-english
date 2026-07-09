@@ -1,0 +1,107 @@
+{
+  "day": 22,
+  "topic": "Could",
+  "passage": {
+    "title": "A Day with Could",
+    "text": "I could swim when I was a child. Could you help me? He could run fast before. It could be true. Could I ask a question? I could not do this before. They could handle it before. Could you tell me again? It could rain. I could read this book.",
+    "hindiTranslation": "मैं बचपन में तैर सकता था। क्या तुम मुझे मदद कर सकते हो? वह पहले तेज़ दौड़ सकता था। यह सच हो सकता है। क्या मैं एक सवाल पूछ सकता हूँ? मैं यह पहले नहीं कर सकता था। वे इसे पहले संभाल सकते थे। क्या आप दोबारा बता सकते हैं? बारिश हो सकती है। मैं यह किताब पढ़ सकता था।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I could swim when...\"?",
+      "options": [
+        "Could you tell me again?",
+        "Could you close the door?",
+        "Could you help me?",
+        "I could swim when I was a child."
+      ],
+      "answer": "I could swim when I was a child.",
+      "explanation": "Stated in the passage: \"I could swim when I was a child.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"Could you help me?...\"?",
+      "options": [
+        "It could rain.",
+        "He could learn any language.",
+        "He could run fast before.",
+        "Could you help me?"
+      ],
+      "answer": "Could you help me?",
+      "explanation": "Stated in the passage: \"Could you help me?\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He could run fast...\"?",
+      "options": [
+        "I could read this book.",
+        "I could understand this before.",
+        "It could be true.",
+        "He could run fast before."
+      ],
+      "answer": "He could run fast before.",
+      "explanation": "Stated in the passage: \"He could run fast before.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"It could be true....\"?",
+      "options": [
+        "She could sing before.",
+        "Could I sit here?",
+        "Could I ask a question?",
+        "It could be true."
+      ],
+      "answer": "It could be true.",
+      "explanation": "Stated in the passage: \"It could be true.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"Could I ask a...\"?",
+      "options": [
+        "Could I take your pen?",
+        "This could be good.",
+        "I could not do this before.",
+        "Could I ask a question?"
+      ],
+      "answer": "Could I ask a question?",
+      "explanation": "Stated in the passage: \"Could I ask a question?\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"I could not do...\"?",
+      "options": [
+        "We could work together before.",
+        "They could play well before.",
+        "They could handle it before.",
+        "I could not do this before."
+      ],
+      "answer": "I could not do this before.",
+      "explanation": "Stated in the passage: \"I could not do this before.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"They could handle it...\"?",
+      "options": [
+        "This could be a mistake.",
+        "I could swim when I was a child.",
+        "Could you tell me again?",
+        "They could handle it before."
+      ],
+      "answer": "They could handle it before.",
+      "explanation": "Stated in the passage: \"They could handle it before.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"Could you tell me...\"?",
+      "options": [
+        "Could you close the door?",
+        "Could you help me?",
+        "It could rain.",
+        "Could you tell me again?"
+      ],
+      "answer": "Could you tell me again?",
+      "explanation": "Stated in the passage: \"Could you tell me again?\""
+    }
+  ]
+}

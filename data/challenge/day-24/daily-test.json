@@ -1,0 +1,255 @@
+{
+  "day": 24,
+  "topic": "Must Have",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "उसने जरूर बहुत मेहनत की होगी।",
+      "options": [
+        "They must have spent a lot of money.",
+        "She must have been sad.",
+        "He must have been tired.",
+        "He must have worked very hard."
+      ],
+      "answer": "He must have worked very hard.",
+      "explanation": "Correct translation: \"उसने जरूर बहुत मेहनत की होगी।\" = \"He must have worked very hard.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He must _____ been tired.",
+      "options": [
+        "called",
+        "seen",
+        "made",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"He must have been tired.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "They musts have made a mistake.",
+      "options": [
+        "They musts have made a mistake.",
+        "They must have made a mistake."
+      ],
+      "answer": "They must have made a mistake.",
+      "explanation": "Correct sentence: \"They must have made a mistake.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसने जरूर सच बोला होगा।",
+      "options": [
+        "We must have chosen the right path.",
+        "She must have reached home.",
+        "We must have been late.",
+        "She must have told the truth."
+      ],
+      "answer": "She must have told the truth.",
+      "explanation": "Correct translation: \"उसने जरूर सच बोला होगा।\" = \"She must have told the truth.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We must _____ been late.",
+      "options": [
+        "studied",
+        "done",
+        "read",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"We must have been late.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "He musts have read this book.",
+      "options": [
+        "He musts have read this book.",
+        "He must have read this book."
+      ],
+      "answer": "He must have read this book.",
+      "explanation": "Correct sentence: \"He must have read this book.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "वह जरूर बहुत खुश हुई होगी।",
+      "options": [
+        "He must have talked to me.",
+        "He must have worked very hard.",
+        "They must have spent a lot of money.",
+        "She must have been very happy."
+      ],
+      "answer": "She must have been very happy.",
+      "explanation": "Correct translation: \"वह जरूर बहुत खुश हुई होगी।\" = \"She must have been very happy.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "They must have spent _____ lot of money.",
+      "options": [
+        "been",
+        "called",
+        "seen",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"They must have spent a lot of money.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "He musts have called me.",
+      "options": [
+        "He musts have called me.",
+        "He must have called me."
+      ],
+      "answer": "He must have called me.",
+      "explanation": "Correct sentence: \"He must have called me.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "वह जरूर वहाँ गई होगी।",
+      "options": [
+        "He must have thought a lot.",
+        "She must have told the truth.",
+        "We must have chosen the right path.",
+        "She must have gone there."
+      ],
+      "answer": "She must have gone there.",
+      "explanation": "Correct translation: \"वह जरूर वहाँ गई होगी।\" = \"She must have gone there.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "We must have _____ the right path.",
+      "options": [
+        "reached",
+        "been",
+        "studied",
+        "chosen"
+      ],
+      "answer": "chosen",
+      "explanation": "Full sentence: \"We must have chosen the right path.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "He musts have studied hard.",
+      "options": [
+        "He musts have studied hard.",
+        "He must have studied hard."
+      ],
+      "answer": "He must have studied hard.",
+      "explanation": "Correct sentence: \"He must have studied hard.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वे जरूर सफल हुए होंगे।",
+      "options": [
+        "He must have broken the promise.",
+        "She must have been very happy.",
+        "He must have talked to me.",
+        "They must have succeeded."
+      ],
+      "answer": "They must have succeeded.",
+      "explanation": "Correct translation: \"वे जरूर सफल हुए होंगे।\" = \"They must have succeeded.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "He must have _____ to me.",
+      "options": [
+        "worked",
+        "spent",
+        "been",
+        "talked"
+      ],
+      "answer": "talked",
+      "explanation": "Full sentence: \"He must have talked to me.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "She musts have been sad.",
+      "options": [
+        "She musts have been sad.",
+        "She must have been sad."
+      ],
+      "answer": "She must have been sad.",
+      "explanation": "Correct sentence: \"She must have been sad.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "उन्होंने जरूर यह देख लिया होगा।",
+      "options": [
+        "They must have made a mistake.",
+        "She must have gone there.",
+        "He must have thought a lot.",
+        "They must have seen this."
+      ],
+      "answer": "They must have seen this.",
+      "explanation": "Correct translation: \"उन्होंने जरूर यह देख लिया होगा।\" = \"They must have seen this.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He must have _____ a lot.",
+      "options": [
+        "told",
+        "chosen",
+        "reached",
+        "thought"
+      ],
+      "answer": "thought",
+      "explanation": "Full sentence: \"He must have thought a lot.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "She musts have reached home.",
+      "options": [
+        "She musts have reached home.",
+        "She must have reached home."
+      ],
+      "answer": "She must have reached home.",
+      "explanation": "Correct sentence: \"She must have reached home.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हमने जरूर सही किया होगा।",
+      "options": [
+        "He must have read this book.",
+        "They must have succeeded.",
+        "He must have broken the promise.",
+        "We must have done it right."
+      ],
+      "answer": "We must have done it right.",
+      "explanation": "Correct translation: \"हमने जरूर सही किया होगा।\" = \"We must have done it right.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "He must have _____ the promise.",
+      "options": [
+        "been",
+        "talked",
+        "worked",
+        "broken"
+      ],
+      "answer": "broken",
+      "explanation": "Full sentence: \"He must have broken the promise.\""
+    }
+  ]
+}

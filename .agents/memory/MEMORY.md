@@ -1,3 +1,4 @@
 - [grammarContent TDZ pattern](grammar-content-tdz.md) — CONTENT_MAP must live after all DAY_XX_CONTENT consts; appending content to end of file without moving the map causes TDZ crash.
 - [lucide-react social icons missing](lucide-social-icons.md) — Github, Twitter, Linkedin icons do not exist in this lucide-react version; use inline SVG components instead.
 - [practiceData architecture](practice-data-arch.md) — Days 1-30 in practiceData.js ALL_QUESTIONS map; Days 31-75 in practiceData-days31-75.js EXTENDED_QUESTIONS; getQuestionsForDay() checks both before fallback generator.
+- [Challenge day content generation](challenge-day-content-generation.md) — fill data/challenge/day-XX/*.json via one-off Node generator script from a real sentence-pair pool, not by hand.

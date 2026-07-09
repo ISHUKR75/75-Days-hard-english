@@ -1,0 +1,251 @@
+{
+  "day": 50,
+  "topic": "Passive Voice Part 2 — Future & Modals",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "यह काम कल पूरा किया जाएगा।",
+      "options": [
+        "This information must be kept secret.",
+        "This notice should be read by every student.",
+        "This problem can be solved.",
+        "This work will be completed tomorrow."
+      ],
+      "answer": "This work will be completed tomorrow.",
+      "explanation": "Correct translation: \"यह काम कल पूरा किया जाएगा।\" = \"This work will be completed tomorrow.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "This problem _____ be solved.",
+      "options": [
+        "be",
+        "will",
+        "made",
+        "can"
+      ],
+      "answer": "can",
+      "explanation": "Full sentence: \"This problem can be solved.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "This rule should be followed yesterday.",
+      "options": [
+        "This rule should be followed yesterday.",
+        "This rule should be followed."
+      ],
+      "answer": "This rule should be followed.",
+      "explanation": "Correct sentence: \"This rule should be followed.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "यह फॉर्म भरा जाना चाहिए।",
+      "options": [
+        "This book should be read.",
+        "This issue can be discussed.",
+        "This letter will be sent tomorrow.",
+        "This form must be filled."
+      ],
+      "answer": "This form must be filled.",
+      "explanation": "Correct translation: \"यह फॉर्म भरा जाना चाहिए।\" = \"This form must be filled.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "This letter will _____ sent tomorrow.",
+      "options": [
+        "made",
+        "will",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"This letter will be sent tomorrow.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "This mistake can be corrected yesterday.",
+      "options": [
+        "This mistake can be corrected yesterday.",
+        "This mistake can be corrected."
+      ],
+      "answer": "This mistake can be corrected.",
+      "explanation": "Correct sentence: \"This mistake can be corrected.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "यह decision जल्दी लिया जाना चाहिए।",
+      "options": [
+        "This can be made better.",
+        "This work will be completed tomorrow.",
+        "This information must be kept secret.",
+        "This decision should be taken quickly."
+      ],
+      "answer": "This decision should be taken quickly.",
+      "explanation": "Correct translation: \"यह decision जल्दी लिया जाना चाहिए।\" = \"This decision should be taken quickly.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "This information must _____ kept secret.",
+      "options": [
+        "will",
+        "made",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"This information must be kept secret.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "This project will be started next month yesterday.",
+      "options": [
+        "This project will be started next month yesterday.",
+        "This project will be started next month."
+      ],
+      "answer": "This project will be started next month.",
+      "explanation": "Correct sentence: \"This project will be started next month.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "यह सवाल आसानी से पूछा जा सकता है।",
+      "options": [
+        "The new policy will be implemented next year.",
+        "This form must be filled.",
+        "This book should be read.",
+        "This question can be asked easily."
+      ],
+      "answer": "This question can be asked easily.",
+      "explanation": "Correct translation: \"यह सवाल आसानी से पूछा जा सकता है।\" = \"This question can be asked easily.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "This book _____ be read.",
+      "options": [
+        "be",
+        "made",
+        "will",
+        "should"
+      ],
+      "answer": "should",
+      "explanation": "Full sentence: \"This book should be read.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "This rule must be known to everyone yesterday.",
+      "options": [
+        "This rule must be known to everyone yesterday.",
+        "This rule must be known to everyone."
+      ],
+      "answer": "This rule must be known to everyone.",
+      "explanation": "Correct sentence: \"This rule must be known to everyone.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "यह मीटिंग अगले हफ्ते बुलाई जाएगी।",
+      "options": [
+        "This responsibility must be taken.",
+        "This decision should be taken quickly.",
+        "This can be made better.",
+        "This meeting will be called next week."
+      ],
+      "answer": "This meeting will be called next week.",
+      "explanation": "Correct translation: \"यह मीटिंग अगले हफ्ते बुलाई जाएगी।\" = \"This meeting will be called next week.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "This can _____ made better.",
+      "options": [
+        "will",
+        "made",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"This can be made better.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "This notice should be read by every student yesterday.",
+      "options": [
+        "This notice should be read by every student yesterday.",
+        "This notice should be read by every student."
+      ],
+      "answer": "This notice should be read by every student.",
+      "explanation": "Correct sentence: \"This notice should be read by every student.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "यह काम समय पर पूरा किया जाना चाहिए।",
+      "options": [
+        "This rule should be followed.",
+        "This question can be asked easily.",
+        "The new policy will be implemented next year.",
+        "This work must be completed on time."
+      ],
+      "answer": "This work must be completed on time.",
+      "explanation": "Correct translation: \"यह काम समय पर पूरा किया जाना चाहिए।\" = \"This work must be completed on time.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "The new policy will _____ implemented next year.",
+      "options": [
+        "made",
+        "will",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"The new policy will be implemented next year.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "This issue can be discussed yesterday.",
+      "options": [
+        "This issue can be discussed yesterday.",
+        "This issue can be discussed."
+      ],
+      "answer": "This issue can be discussed.",
+      "explanation": "Correct sentence: \"This issue can be discussed.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हर नियम का पालन किया जाना चाहिए।",
+      "options": [
+        "This mistake can be corrected.",
+        "This meeting will be called next week.",
+        "This responsibility must be taken.",
+        "Every rule should be followed."
+      ],
+      "answer": "Every rule should be followed.",
+      "explanation": "Correct translation: \"हर नियम का पालन किया जाना चाहिए।\" = \"Every rule should be followed.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "This responsibility _____ be taken.",
+      "options": [
+        "be",
+        "made",
+        "will",
+        "must"
+      ],
+      "answer": "must",
+      "explanation": "Full sentence: \"This responsibility must be taken.\""
+    }
+  ]
+}

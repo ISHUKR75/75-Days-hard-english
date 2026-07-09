@@ -1,0 +1,46 @@
+{
+  "day": 47,
+  "topic": "Conjunctions (And, But, Or, So, Because, Although, While)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Conjunctions (And, But, Or, So, Because, Although, While).",
+      "hindiPrompt": "Conjunctions (And, But, Or, So, Because, Although, While) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I drink both tea and coffee. I was tired, but I finished the work. Would you like tea or coffee? I was late, so I left quickly. I came late because there was traffic.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Conjunctions (And, But, Or, So, Because, Although, While).",
+      "hindiPrompt": "Conjunctions (And, But, Or, So, Because, Although, While) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Although he was tired, he kept working. I was cooking while she was studying. She is smart and hardworking. I like this, but it is expensive. You can go now or later.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"बारिश हो रही थी, इसलिए हम अंदर रुके।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "It was raining, so we stayed inside.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I were late, so I left quickly.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I was late, so I left quickly.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Conjunctions (And, But, Or, So, Because, Although, While).",
+      "hindiPrompt": "Conjunctions (And, But, Or, So, Because, Although, While) का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Although the weather was bad, we traveled. I was studying while he was sleeping. We were happy and excited. This is good, but it can be improved.",
+      "wordLimit": 60
+    }
+  ]
+}

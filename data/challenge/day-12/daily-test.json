@@ -1,0 +1,316 @@
+{
+  "day": 12,
+  "topic": "Use of Wanted",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे पानी चाहिए था।",
+      "options": [
+        "I did not want that book.",
+        "They wanted peace.",
+        "I did not want any mistake.",
+        "I wanted water."
+      ],
+      "answer": "I wanted water.",
+      "explanation": "Correct translation: \"मुझे पानी चाहिए था।\" = \"I wanted water.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I wanted _____ go home.",
+      "options": [
+        "talk",
+        "finish",
+        "any",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I wanted to go home.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He want a new car.",
+      "options": [
+        "He want a new car.",
+        "He wanted a new car."
+      ],
+      "answer": "He wanted a new car.",
+      "explanation": "Correct sentence: \"He wanted a new car.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वह डॉक्टर बनना चाहती थी।",
+      "options": [
+        "Did you want coffee?",
+        "Did you want to go outside?",
+        "I wanted this opportunity.",
+        "She wanted to become a doctor."
+      ],
+      "answer": "She wanted to become a doctor.",
+      "explanation": "Correct translation: \"वह डॉक्टर बनना चाहती थी।\" = \"She wanted to become a doctor.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We wanted _____ take rest.",
+      "options": [
+        "become",
+        "better",
+        "water",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"We wanted to take rest.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "They want to finish that work.",
+      "options": [
+        "They want to finish that work.",
+        "They wanted to finish that work."
+      ],
+      "answer": "They wanted to finish that work.",
+      "explanation": "Correct sentence: \"They wanted to finish that work.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "क्या तुम चाय चाहते थे?",
+      "options": [
+        "I wanted your help.",
+        "She wanted to start her own business.",
+        "He wanted a new car.",
+        "Did you want tea?"
+      ],
+      "answer": "Did you want tea?",
+      "explanation": "Correct translation: \"क्या तुम चाय चाहते थे?\" = \"Did you want tea?\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I did not _____ that book.",
+      "options": [
+        "peace",
+        "become",
+        "coffee",
+        "want"
+      ],
+      "answer": "want",
+      "explanation": "Full sentence: \"I did not want that book.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "He want to talk to me.",
+      "options": [
+        "He want to talk to me.",
+        "He wanted to talk to me."
+      ],
+      "answer": "He wanted to talk to me.",
+      "explanation": "Correct sentence: \"He wanted to talk to me.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मुझे कुछ आराम चाहिए था।",
+      "options": [
+        "He wanted a promotion.",
+        "They wanted success.",
+        "They wanted to finish that work.",
+        "I wanted some rest."
+      ],
+      "answer": "I wanted some rest.",
+      "explanation": "Correct translation: \"मुझे कुछ आराम चाहिए था।\" = \"I wanted some rest.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Did you _____ coffee?",
+      "options": [
+        "to",
+        "opportunity",
+        "tea",
+        "want"
+      ],
+      "answer": "want",
+      "explanation": "Full sentence: \"Did you want coffee?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She want to become an engineer.",
+      "options": [
+        "She want to become an engineer.",
+        "She wanted to become an engineer."
+      ],
+      "answer": "She wanted to become an engineer.",
+      "explanation": "Correct sentence: \"She wanted to become an engineer.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हमें और जानकारी चाहिए थी।",
+      "options": [
+        "I wanted to know the truth.",
+        "I wanted to go home.",
+        "He wanted to talk to me.",
+        "We wanted more information."
+      ],
+      "answer": "We wanted more information.",
+      "explanation": "Correct translation: \"हमें और जानकारी चाहिए थी।\" = \"We wanted more information.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I wanted _____ help.",
+      "options": [
+        "start",
+        "new",
+        "rest",
+        "your"
+      ],
+      "answer": "your",
+      "explanation": "Full sentence: \"I wanted your help.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "They want peace.",
+      "options": [
+        "They want peace.",
+        "They wanted peace."
+      ],
+      "answer": "They wanted peace.",
+      "explanation": "Correct sentence: \"They wanted peace.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं इस काम को जल्दी खत्म करना चाहता था।",
+      "options": [
+        "Did you want any help?",
+        "We wanted to take rest.",
+        "She wanted to become an engineer.",
+        "I wanted to finish this work quickly."
+      ],
+      "answer": "I wanted to finish this work quickly.",
+      "explanation": "Correct translation: \"मैं इस काम को जल्दी खत्म करना चाहता था।\" = \"I wanted to finish this work quickly.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He wanted _____ promotion.",
+      "options": [
+        "success",
+        "finish",
+        "information",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"He wanted a promotion.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Did you wants to go outside?",
+      "options": [
+        "Did you wants to go outside?",
+        "Did you want to go outside?"
+      ],
+      "answer": "Did you want to go outside?",
+      "explanation": "Correct sentence: \"Did you want to go outside?\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हम बेहतर भविष्य चाहते थे।",
+      "options": [
+        "I wanted water.",
+        "I did not want that book.",
+        "They wanted peace.",
+        "We wanted a better future."
+      ],
+      "answer": "We wanted a better future.",
+      "explanation": "Correct translation: \"हम बेहतर भविष्य चाहते थे।\" = \"We wanted a better future.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I wanted to _____ the truth.",
+      "options": [
+        "go",
+        "talk",
+        "finish",
+        "know"
+      ],
+      "answer": "know",
+      "explanation": "Full sentence: \"I wanted to know the truth.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "She want to start her own business.",
+      "options": [
+        "She want to start her own business.",
+        "She wanted to start her own business."
+      ],
+      "answer": "She wanted to start her own business.",
+      "explanation": "Correct sentence: \"She wanted to start her own business.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "मुझे कोई गलती नहीं चाहिए थी।",
+      "options": [
+        "She wanted to become a doctor.",
+        "Did you want coffee?",
+        "Did you want to go outside?",
+        "I did not want any mistake."
+      ],
+      "answer": "I did not want any mistake.",
+      "explanation": "Correct translation: \"मुझे कोई गलती नहीं चाहिए थी।\" = \"I did not want any mistake.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "Did you _____ any help?",
+      "options": [
+        "take",
+        "become",
+        "better",
+        "want"
+      ],
+      "answer": "want",
+      "explanation": "Full sentence: \"Did you want any help?\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "They want success.",
+      "options": [
+        "They want success.",
+        "They wanted success."
+      ],
+      "answer": "They wanted success.",
+      "explanation": "Correct sentence: \"They wanted success.\""
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "मुझे यह मौका चाहिए था।",
+      "options": [
+        "Did you want tea?",
+        "I wanted your help.",
+        "She wanted to start her own business.",
+        "I wanted this opportunity."
+      ],
+      "answer": "I wanted this opportunity.",
+      "explanation": "Correct translation: \"मुझे यह मौका चाहिए था।\" = \"I wanted this opportunity.\""
+    }
+  ]
+}

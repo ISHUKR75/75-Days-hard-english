@@ -1,0 +1,343 @@
+{
+  "day": 16,
+  "topic": "Can",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मैं तैर सकता हूँ।",
+      "english": "I can swim.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"I can swim.\"",
+      "difficulty": "easy",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 2,
+      "hindi": "वह अंग्रेजी बोल सकती है।",
+      "english": "She can speak English.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"She can speak English.\"",
+      "difficulty": "medium",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 3,
+      "hindi": "क्या मैं जा सकता हूँ?",
+      "english": "Can I go?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"Can I go?\"",
+      "difficulty": "hard",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 4,
+      "hindi": "वे यह काम कर सकते हैं।",
+      "english": "They can do this work.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"They can do this work.\"",
+      "difficulty": "easy",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 5,
+      "hindi": "हम कल मिल सकते हैं।",
+      "english": "We can meet tomorrow.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"We can meet tomorrow.\"",
+      "difficulty": "medium",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 6,
+      "hindi": "क्या तुम मुझे मदद कर सकते हो?",
+      "english": "Can you help me?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"Can you help me?\"",
+      "difficulty": "hard",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 7,
+      "hindi": "मैं यह नहीं कर सकता।",
+      "english": "I cannot do this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"I cannot do this.\"",
+      "difficulty": "easy",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 8,
+      "hindi": "वह गाड़ी चला सकता है।",
+      "english": "He can drive a car.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"He can drive a car.\"",
+      "difficulty": "medium",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 9,
+      "hindi": "क्या आप दोबारा बोल सकते हैं?",
+      "english": "Can you say that again?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"Can you say that again?\"",
+      "difficulty": "hard",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 10,
+      "hindi": "मैं यह समझ सकता हूँ।",
+      "english": "I can understand this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"I can understand this.\"",
+      "difficulty": "easy",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 11,
+      "hindi": "वे समय पर पहुँच सकते हैं।",
+      "english": "They can arrive on time.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"They can arrive on time.\"",
+      "difficulty": "medium",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 12,
+      "hindi": "क्या मैं एक सवाल पूछ सकता हूँ?",
+      "english": "Can I ask a question?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"Can I ask a question?\"",
+      "difficulty": "hard",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 13,
+      "hindi": "वह बहुत अच्छा गाना गा सकती है।",
+      "english": "She can sing very well.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"She can sing very well.\"",
+      "difficulty": "easy",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 14,
+      "hindi": "हम यह project पूरा कर सकते हैं।",
+      "english": "We can complete this project.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"We can complete this project.\"",
+      "difficulty": "medium",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 15,
+      "hindi": "क्या तुम आज आ सकते हो?",
+      "english": "Can you come today?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"Can you come today?\"",
+      "difficulty": "hard",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 16,
+      "hindi": "मैं इसे ठीक कर सकता हूँ।",
+      "english": "I can fix this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"I can fix this.\"",
+      "difficulty": "easy",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 17,
+      "hindi": "वह किसी भी भाषा सीख सकता है।",
+      "english": "He can learn any language.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"He can learn any language.\"",
+      "difficulty": "medium",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 18,
+      "hindi": "क्या मैं यहाँ बैठ सकता हूँ?",
+      "english": "Can I sit here?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"Can I sit here?\"",
+      "difficulty": "hard",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 19,
+      "hindi": "हम इसे बेहतर बना सकते हैं।",
+      "english": "We can make this better.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"We can make this better.\"",
+      "difficulty": "easy",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 20,
+      "hindi": "वे किसी भी समस्या का हल निकाल सकते हैं।",
+      "english": "They can find a solution to any problem.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"They can find a solution to any problem.\"",
+      "difficulty": "medium",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 21,
+      "hindi": "मैं यह पहले नहीं कर सकता था।",
+      "english": "I could not do this before.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"I could not do this before.\"",
+      "difficulty": "hard",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 22,
+      "hindi": "क्या तुम मुझे रास्ता बता सकते हो?",
+      "english": "Can you show me the way?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"Can you show me the way?\"",
+      "difficulty": "easy",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 23,
+      "hindi": "वह किसी भी मशीन को ठीक कर सकती है।",
+      "english": "She can repair any machine.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"She can repair any machine.\"",
+      "difficulty": "medium",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    },
+    {
+      "id": 24,
+      "hindi": "हम एक साथ काम कर सकते हैं।",
+      "english": "We can work together.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + can + base verb (ability, permission, possibility)",
+      "explanation": "Correct sentence: \"We can work together.\"",
+      "difficulty": "hard",
+      "tags": [
+        "can"
+      ],
+      "grammarRule": "Can",
+      "category": "Can practice"
+    }
+  ]
+}

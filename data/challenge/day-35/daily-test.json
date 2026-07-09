@@ -1,0 +1,255 @@
+{
+  "day": 35,
+  "topic": "Tenses Part 4 — Mixed Tense Practice (All 12 Tenses)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं चावल खाता हूँ।",
+      "options": [
+        "I had been eating rice for an hour.",
+        "She has worked.",
+        "I am eating rice.",
+        "I eat rice."
+      ],
+      "answer": "I eat rice.",
+      "explanation": "Correct translation: \"मैं चावल खाता हूँ।\" = \"I eat rice.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I am _____ rice.",
+      "options": [
+        "rice",
+        "working",
+        "worked",
+        "eating"
+      ],
+      "answer": "eating",
+      "explanation": "Full sentence: \"I am eating rice.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I have eaten rice yesterday.",
+      "options": [
+        "I have eaten rice yesterday.",
+        "I have eaten rice."
+      ],
+      "answer": "I have eaten rice.",
+      "explanation": "Correct sentence: \"I have eaten rice.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मैं एक घंटे से चावल खा रहा हूँ।",
+      "options": [
+        "I will have eaten rice.",
+        "She was working.",
+        "I ate rice.",
+        "I have been eating rice for an hour."
+      ],
+      "answer": "I have been eating rice for an hour.",
+      "explanation": "Correct translation: \"मैं एक घंटे से चावल खा रहा हूँ।\" = \"I have been eating rice for an hour.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I _____ rice.",
+      "options": [
+        "been",
+        "worked",
+        "rice",
+        "ate"
+      ],
+      "answer": "ate",
+      "explanation": "Full sentence: \"I ate rice.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I were eating rice.",
+      "options": [
+        "I were eating rice.",
+        "I was eating rice."
+      ],
+      "answer": "I was eating rice.",
+      "explanation": "Correct sentence: \"I was eating rice.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं चावल खा चुका था।",
+      "options": [
+        "She is working.",
+        "I eat rice.",
+        "I had been eating rice for an hour.",
+        "I had eaten rice."
+      ],
+      "answer": "I had eaten rice.",
+      "explanation": "Correct translation: \"मैं चावल खा चुका था।\" = \"I had eaten rice.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I had been eating _____ for an hour.",
+      "options": [
+        "worked",
+        "working",
+        "eating",
+        "rice"
+      ],
+      "answer": "rice",
+      "explanation": "Full sentence: \"I had been eating rice for an hour.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I will eat rice yesterday.",
+      "options": [
+        "I will eat rice yesterday.",
+        "I will eat rice."
+      ],
+      "answer": "I will eat rice.",
+      "explanation": "Correct sentence: \"I will eat rice.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैं चावल खा रहा होऊँगा।",
+      "options": [
+        "She worked.",
+        "I have been eating rice for an hour.",
+        "I will have eaten rice.",
+        "I will be eating rice."
+      ],
+      "answer": "I will be eating rice.",
+      "explanation": "Correct translation: \"मैं चावल खा रहा होऊँगा।\" = \"I will be eating rice.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "I will _____ eaten rice.",
+      "options": [
+        "working",
+        "rice",
+        "been",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"I will have eaten rice.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I will have been eating rice for an hour yesterday.",
+      "options": [
+        "I will have been eating rice for an hour yesterday.",
+        "I will have been eating rice for an hour."
+      ],
+      "answer": "I will have been eating rice for an hour.",
+      "explanation": "Correct sentence: \"I will have been eating rice for an hour.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वह काम करती है।",
+      "options": [
+        "She had been working for two hours.",
+        "I had eaten rice.",
+        "She is working.",
+        "She works."
+      ],
+      "answer": "She works.",
+      "explanation": "Correct translation: \"वह काम करती है।\" = \"She works.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "She _____ working.",
+      "options": [
+        "rice",
+        "eating",
+        "worked",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"She is working.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "She has worked yesterday.",
+      "options": [
+        "She has worked yesterday.",
+        "She has worked."
+      ],
+      "answer": "She has worked.",
+      "explanation": "Correct sentence: \"She has worked.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह दो घंटे से काम कर रही है।",
+      "options": [
+        "I have eaten rice.",
+        "I will be eating rice.",
+        "She worked.",
+        "She has been working for two hours."
+      ],
+      "answer": "She has been working for two hours.",
+      "explanation": "Correct translation: \"वह दो घंटे से काम कर रही है।\" = \"She has been working for two hours.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "She _____",
+      "options": [
+        "eating",
+        "eaten",
+        "working",
+        "worked"
+      ],
+      "answer": "worked",
+      "explanation": "Full sentence: \"She worked.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "She were working.",
+      "options": [
+        "She were working.",
+        "She was working."
+      ],
+      "answer": "She was working.",
+      "explanation": "Correct sentence: \"She was working.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उसने काम कर लिया था।",
+      "options": [
+        "I was eating rice.",
+        "She works.",
+        "She had been working for two hours.",
+        "She had worked."
+      ],
+      "answer": "She had worked.",
+      "explanation": "Correct translation: \"उसने काम कर लिया था।\" = \"She had worked.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "She had been _____ for two hours.",
+      "options": [
+        "rice",
+        "eating",
+        "worked",
+        "working"
+      ],
+      "answer": "working",
+      "explanation": "Full sentence: \"She had been working for two hours.\""
+    }
+  ]
+}

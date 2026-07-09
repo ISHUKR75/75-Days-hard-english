@@ -1,0 +1,343 @@
+{
+  "day": 19,
+  "topic": "Must",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "हमें नियमों का पालन करना चाहिए।",
+      "english": "We must follow the rules.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must follow the rules.\"",
+      "difficulty": "easy",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 2,
+      "hindi": "तुम्हें सच बोलना ही चाहिए।",
+      "english": "You must tell the truth.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"You must tell the truth.\"",
+      "difficulty": "medium",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 3,
+      "hindi": "हमें समय पर पहुँचना ही होगा।",
+      "english": "We must arrive on time.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must arrive on time.\"",
+      "difficulty": "hard",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 4,
+      "hindi": "तुम्हें seatbelt लगाना ही चाहिए।",
+      "english": "You must wear a seatbelt.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"You must wear a seatbelt.\"",
+      "difficulty": "easy",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 5,
+      "hindi": "उसे बहुत थका हुआ होगा।",
+      "english": "He must be very tired.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"He must be very tired.\"",
+      "difficulty": "medium",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 6,
+      "hindi": "हमें कानून का पालन करना चाहिए।",
+      "english": "We must obey the law.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must obey the law.\"",
+      "difficulty": "hard",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 7,
+      "hindi": "तुम्हें ध्यान से पढ़ना ही चाहिए।",
+      "english": "You must study carefully.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"You must study carefully.\"",
+      "difficulty": "easy",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 8,
+      "hindi": "यह जरूर सच होगा।",
+      "english": "This must be true.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"This must be true.\"",
+      "difficulty": "medium",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 9,
+      "hindi": "हमें अपनी जिम्मेदारी निभानी ही चाहिए।",
+      "english": "We must fulfill our responsibility.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must fulfill our responsibility.\"",
+      "difficulty": "hard",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 10,
+      "hindi": "तुम्हें धूम्रपान नहीं करना चाहिए (मना है)।",
+      "english": "You must not smoke.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"You must not smoke.\"",
+      "difficulty": "easy",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 11,
+      "hindi": "उसे बहुत बुद्धिमान होना चाहिए।",
+      "english": "He must be very intelligent.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"He must be very intelligent.\"",
+      "difficulty": "medium",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 12,
+      "hindi": "हमें अपने वादे रखने चाहिए।",
+      "english": "We must keep our promises.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must keep our promises.\"",
+      "difficulty": "hard",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 13,
+      "hindi": "तुम्हें यह फॉर्म भरना ही होगा।",
+      "english": "You must fill this form.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"You must fill this form.\"",
+      "difficulty": "easy",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 14,
+      "hindi": "हमें पर्यावरण की रक्षा करनी ही चाहिए।",
+      "english": "We must protect the environment.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must protect the environment.\"",
+      "difficulty": "medium",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 15,
+      "hindi": "यह जरूर एक गलती होगी।",
+      "english": "This must be a mistake.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"This must be a mistake.\"",
+      "difficulty": "hard",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 16,
+      "hindi": "हमें अपने माता-पिता का सम्मान करना चाहिए।",
+      "english": "We must respect our parents.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must respect our parents.\"",
+      "difficulty": "easy",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 17,
+      "hindi": "तुम्हें अपना ID card साथ रखना ही चाहिए।",
+      "english": "You must carry your ID card.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"You must carry your ID card.\"",
+      "difficulty": "medium",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 18,
+      "hindi": "उसने जरूर बहुत मेहनत की होगी।",
+      "english": "He must have worked very hard.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"He must have worked very hard.\"",
+      "difficulty": "hard",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 19,
+      "hindi": "हमें अनुशासन में रहना चाहिए।",
+      "english": "We must stay disciplined.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must stay disciplined.\"",
+      "difficulty": "easy",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 20,
+      "hindi": "तुम्हें कतार में इंतजार करना चाहिए।",
+      "english": "You must wait in the queue.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"You must wait in the queue.\"",
+      "difficulty": "medium",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 21,
+      "hindi": "यह जरूर एक बड़ी खबर होगी।",
+      "english": "This must be big news.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"This must be big news.\"",
+      "difficulty": "hard",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 22,
+      "hindi": "हमें ईमानदार रहना ही चाहिए।",
+      "english": "We must be honest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"We must be honest.\"",
+      "difficulty": "easy",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 23,
+      "hindi": "तुम्हें अपना काम खुद पूरा करना चाहिए।",
+      "english": "You must complete your own work.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"You must complete your own work.\"",
+      "difficulty": "medium",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    },
+    {
+      "id": 24,
+      "hindi": "उसे जरूर बहुत खुश होना चाहिए।",
+      "english": "She must be very happy.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + must + base verb (strong obligation, certainty, rule)",
+      "explanation": "Correct sentence: \"She must be very happy.\"",
+      "difficulty": "hard",
+      "tags": [
+        "must"
+      ],
+      "grammarRule": "Must",
+      "category": "Must practice"
+    }
+  ]
+}

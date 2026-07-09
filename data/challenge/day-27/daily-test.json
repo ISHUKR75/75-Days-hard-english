@@ -1,0 +1,255 @@
+{
+  "day": 27,
+  "topic": "May Have",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "वह शायद वहाँ गया होगा।",
+      "options": [
+        "She may have arrived late.",
+        "They may have changed the decision.",
+        "She may have read this book.",
+        "He may have gone there."
+      ],
+      "answer": "He may have gone there.",
+      "explanation": "Correct translation: \"वह शायद वहाँ गया होगा।\" = \"He may have gone there.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "She may have _____ this book.",
+      "options": [
+        "chosen",
+        "recognized",
+        "called",
+        "read"
+      ],
+      "answer": "read",
+      "explanation": "Full sentence: \"She may have read this book.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "They mays have called me.",
+      "options": [
+        "They mays have called me.",
+        "They may have called me."
+      ],
+      "answer": "They may have called me.",
+      "explanation": "Correct sentence: \"They may have called me.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "शायद वह गलती की होगी।",
+      "options": [
+        "She may have been sick.",
+        "They may have done it right.",
+        "She may have forgotten.",
+        "He may have made a mistake."
+      ],
+      "answer": "He may have made a mistake.",
+      "explanation": "Correct translation: \"शायद वह गलती की होगी।\" = \"He may have made a mistake.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "She may _____ forgotten.",
+      "options": [
+        "told",
+        "seen",
+        "forgotten",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"She may have forgotten.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "They mays have seen this.",
+      "options": [
+        "They mays have seen this.",
+        "They may have seen this."
+      ],
+      "answer": "They may have seen this.",
+      "explanation": "Correct sentence: \"They may have seen this.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "शायद उसने सच बोला होगा।",
+      "options": [
+        "She may have already left.",
+        "He may have gone there.",
+        "She may have arrived late.",
+        "He may have told the truth."
+      ],
+      "answer": "He may have told the truth.",
+      "explanation": "Correct translation: \"शायद उसने सच बोला होगा।\" = \"He may have told the truth.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She may _____ arrived late.",
+      "options": [
+        "changed",
+        "read",
+        "chosen",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"She may have arrived late.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "We mays have chosen the wrong path.",
+      "options": [
+        "We mays have chosen the wrong path.",
+        "We may have chosen the wrong path."
+      ],
+      "answer": "We may have chosen the wrong path.",
+      "explanation": "Correct sentence: \"We may have chosen the wrong path.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "शायद उसने मुझसे झूठ बोला होगा।",
+      "options": [
+        "She may not have gone there.",
+        "He may have made a mistake.",
+        "She may have been sick.",
+        "He may not have told me the truth."
+      ],
+      "answer": "He may not have told me the truth.",
+      "explanation": "Correct translation: \"शायद उसने मुझसे झूठ बोला होगा।\" = \"He may not have told me the truth.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "She may _____ been sick.",
+      "options": [
+        "done",
+        "forgotten",
+        "told",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"She may have been sick.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "They mays not have seen my message.",
+      "options": [
+        "They mays not have seen my message.",
+        "They may not have seen my message."
+      ],
+      "answer": "They may not have seen my message.",
+      "explanation": "Correct sentence: \"They may not have seen my message.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "शायद वह इसे भूल गया होगा।",
+      "options": [
+        "She may have been tired.",
+        "He may have told the truth.",
+        "She may have already left.",
+        "He may have forgotten this."
+      ],
+      "answer": "He may have forgotten this.",
+      "explanation": "Correct translation: \"शायद वह इसे भूल गया होगा।\" = \"He may have forgotten this.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "She may _____ already left.",
+      "options": [
+        "gone",
+        "arrived",
+        "changed",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"She may have already left.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "They mays have changed the decision.",
+      "options": [
+        "They mays have changed the decision.",
+        "They may have changed the decision."
+      ],
+      "answer": "They may have changed the decision.",
+      "explanation": "Correct sentence: \"They may have changed the decision.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "शायद उसने मुझे पहचान लिया होगा।",
+      "options": [
+        "They may have called me.",
+        "He may not have told me the truth.",
+        "She may not have gone there.",
+        "He may have recognized me."
+      ],
+      "answer": "He may have recognized me.",
+      "explanation": "Correct translation: \"शायद उसने मुझे पहचान लिया होगा।\" = \"He may have recognized me.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "She may not _____ gone there.",
+      "options": [
+        "made",
+        "been",
+        "done",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"She may not have gone there.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "They mays have done it right.",
+      "options": [
+        "They mays have done it right.",
+        "They may have done it right."
+      ],
+      "answer": "They may have done it right.",
+      "explanation": "Correct sentence: \"They may have done it right.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "शायद उसने मुझे बताया होगा।",
+      "options": [
+        "They may have seen this.",
+        "He may have forgotten this.",
+        "She may have been tired.",
+        "He may have told me."
+      ],
+      "answer": "He may have told me.",
+      "explanation": "Correct translation: \"शायद उसने मुझे बताया होगा।\" = \"He may have told me.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "She may _____ been tired.",
+      "options": [
+        "told",
+        "already",
+        "gone",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"She may have been tired.\""
+    }
+  ]
+}

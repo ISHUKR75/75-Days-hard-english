@@ -1,0 +1,107 @@
+{
+  "day": 16,
+  "topic": "Can",
+  "passage": {
+    "title": "A Day with Can",
+    "text": "I can swim. She can speak English. Can I go? They can do this work. We can meet tomorrow. Can you help me? I cannot do this. He can drive a car. Can you say that again? I can understand this.",
+    "hindiTranslation": "मैं तैर सकता हूँ। वह अंग्रेजी बोल सकती है। क्या मैं जा सकता हूँ? वे यह काम कर सकते हैं। हम कल मिल सकते हैं। क्या तुम मुझे मदद कर सकते हो? मैं यह नहीं कर सकता। वह गाड़ी चला सकता है। क्या आप दोबारा बोल सकते हैं? मैं यह समझ सकता हूँ।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I can swim....\"?",
+      "options": [
+        "He can drive a car.",
+        "Can you come today?",
+        "Can you show me the way?",
+        "I can swim."
+      ],
+      "answer": "I can swim.",
+      "explanation": "Stated in the passage: \"I can swim.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"She can speak English....\"?",
+      "options": [
+        "Can you say that again?",
+        "I can fix this.",
+        "She can repair any machine.",
+        "She can speak English."
+      ],
+      "answer": "She can speak English.",
+      "explanation": "Stated in the passage: \"She can speak English.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Can I go?...\"?",
+      "options": [
+        "I can understand this.",
+        "He can learn any language.",
+        "We can work together.",
+        "Can I go?"
+      ],
+      "answer": "Can I go?",
+      "explanation": "Stated in the passage: \"Can I go?\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"They can do this...\"?",
+      "options": [
+        "They can arrive on time.",
+        "Can I sit here?",
+        "I can swim.",
+        "They can do this work."
+      ],
+      "answer": "They can do this work.",
+      "explanation": "Stated in the passage: \"They can do this work.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"We can meet tomorrow....\"?",
+      "options": [
+        "Can I ask a question?",
+        "We can make this better.",
+        "She can speak English.",
+        "We can meet tomorrow."
+      ],
+      "answer": "We can meet tomorrow.",
+      "explanation": "Stated in the passage: \"We can meet tomorrow.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Can you help me?...\"?",
+      "options": [
+        "She can sing very well.",
+        "They can find a solution to any problem.",
+        "Can I go?",
+        "Can you help me?"
+      ],
+      "answer": "Can you help me?",
+      "explanation": "Stated in the passage: \"Can you help me?\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I cannot do this....\"?",
+      "options": [
+        "We can complete this project.",
+        "I could not do this before.",
+        "They can do this work.",
+        "I cannot do this."
+      ],
+      "answer": "I cannot do this.",
+      "explanation": "Stated in the passage: \"I cannot do this.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"He can drive a...\"?",
+      "options": [
+        "Can you come today?",
+        "Can you show me the way?",
+        "We can meet tomorrow.",
+        "He can drive a car."
+      ],
+      "answer": "He can drive a car.",
+      "explanation": "Stated in the passage: \"He can drive a car.\""
+    }
+  ]
+}

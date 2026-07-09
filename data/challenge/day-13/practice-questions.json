@@ -1,0 +1,343 @@
+{
+  "day": 13,
+  "topic": "Use of Let",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मुझे बताने दो।",
+      "english": "Let me tell you.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let me tell you.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 2,
+      "hindi": "उसे जाने दो।",
+      "english": "Let him go.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let him go.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 3,
+      "hindi": "उसे बोलने दो।",
+      "english": "Let her speak.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let her speak.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 4,
+      "hindi": "हमें कोशिश करने दो।",
+      "english": "Let us try.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let us try.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 5,
+      "hindi": "उन्हें खेलने दो।",
+      "english": "Let them play.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let them play.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 6,
+      "hindi": "मुझे सोचने दो।",
+      "english": "Let me think.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let me think.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 7,
+      "hindi": "उसे आराम करने दो।",
+      "english": "Let him rest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let him rest.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 8,
+      "hindi": "मुझे यह check करने दो।",
+      "english": "Let me check this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let me check this.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 9,
+      "hindi": "उसे अपना काम करने दो।",
+      "english": "Let her do her work.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let her do her work.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 10,
+      "hindi": "हमें शुरू करने दो।",
+      "english": "Let us start.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let us start.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 11,
+      "hindi": "मत उसे जाने दो।",
+      "english": "Do not let him go.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Do not let him go.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 12,
+      "hindi": "मुझे तुम्हें समझाने दो।",
+      "english": "Let me explain to you.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let me explain to you.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 13,
+      "hindi": "उन्हें फैसला करने दो।",
+      "english": "Let them decide.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let them decide.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 14,
+      "hindi": "मुझे थोड़ा समय दो।",
+      "english": "Let me have some time.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let me have some time.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 15,
+      "hindi": "उसे आने दो।",
+      "english": "Let him come.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let him come.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 16,
+      "hindi": "हमें साथ काम करने दो।",
+      "english": "Let us work together.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let us work together.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 17,
+      "hindi": "मुझे यह सवाल पूछने दो।",
+      "english": "Let me ask this question.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let me ask this question.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 18,
+      "hindi": "उसे खुद decide करने दो।",
+      "english": "Let her decide on her own.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let her decide on her own.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 19,
+      "hindi": "बच्चों को बाहर खेलने दो।",
+      "english": "Let the children play outside.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let the children play outside.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 20,
+      "hindi": "मुझे अपनी बात कहने दो।",
+      "english": "Let me say my point.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let me say my point.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 21,
+      "hindi": "उन्हें आराम से बैठने दो।",
+      "english": "Let them sit comfortably.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let them sit comfortably.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 22,
+      "hindi": "मुझे यह try करने दो।",
+      "english": "Let me try this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let me try this.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 23,
+      "hindi": "उसे अपनी गलती सुधारने दो।",
+      "english": "Let him correct his mistake.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let him correct his mistake.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    },
+    {
+      "id": 24,
+      "hindi": "हमें भी शामिल होने दो।",
+      "english": "Let us also join.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
+      "explanation": "Correct sentence: \"Let us also join.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let",
+      "category": "Use of Let practice"
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 44,
+  "topic": "Need To / Needed To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Do you need to do this?",
+      "hindiScript": "क्या तुम्हें यह करना है?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I needed to make this decision.",
+        "I need to do this quickly.",
+        "I needed to finish this work.",
+        "Do you need to do this?"
+      ],
+      "answer": "Do you need to do this?"
+    },
+    {
+      "id": 2,
+      "audioScript": "Did you need to do this?",
+      "hindiScript": "क्या तुम्हें यह करना पड़ा?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She needs to take rest.",
+        "I needed to do this quickly.",
+        "He needs to see a doctor.",
+        "Did you need to do this?"
+      ],
+      "answer": "Did you need to do this?"
+    },
+    {
+      "id": 3,
+      "audioScript": "We need to get more information.",
+      "hindiScript": "हमें और जानकारी चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She needed to take rest.",
+        "He needs to correct this.",
+        "He needed to see a doctor.",
+        "We need to get more information."
+      ],
+      "answer": "We need to get more information."
+    },
+    {
+      "id": 4,
+      "audioScript": "We needed to get more information.",
+      "hindiScript": "हमें और जानकारी चाहिए थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Do you need to do this?",
+        "He needed to correct this.",
+        "We need to drink more water.",
+        "We needed to get more information."
+      ],
+      "answer": "We needed to get more information."
+    },
+    {
+      "id": 5,
+      "audioScript": "I need to do this quickly.",
+      "hindiScript": "मुझे यह जल्दी करना है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Did you need to do this?",
+        "We need to practice.",
+        "We needed to drink more water.",
+        "I need to do this quickly."
+      ],
+      "answer": "I need to do this quickly."
+    },
+    {
+      "id": 6,
+      "audioScript": "I needed to do this quickly.",
+      "hindiScript": "मुझे यह जल्दी करना पड़ा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We need to get more information.",
+        "We needed to practice.",
+        "I need to make this decision.",
+        "I needed to do this quickly."
+      ],
+      "answer": "I needed to do this quickly."
+    },
+    {
+      "id": 7,
+      "audioScript": "He needs to correct this.",
+      "hindiScript": "उसे यह सही करना है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We needed to get more information.",
+        "I need to finish this work.",
+        "I needed to make this decision.",
+        "He needs to correct this."
+      ],
+      "answer": "He needs to correct this."
+    },
+    {
+      "id": 8,
+      "audioScript": "He needed to correct this.",
+      "hindiScript": "उसे यह सही करना पड़ा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I need to do this quickly.",
+        "I needed to finish this work.",
+        "She needs to take rest.",
+        "He needed to correct this."
+      ],
+      "answer": "He needed to correct this."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Do you need to do this? Did you need to do this? We need to get more information. We needed to get more information. I need to do this quickly.",
+    "hindiTranslation": "क्या तुम्हें यह करना है? क्या तुम्हें यह करना पड़ा? हमें और जानकारी चाहिए। हमें और जानकारी चाहिए थी। मुझे यह जल्दी करना है।"
+  }
+}

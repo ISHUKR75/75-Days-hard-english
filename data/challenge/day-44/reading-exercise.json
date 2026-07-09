@@ -1,0 +1,107 @@
+{
+  "day": 44,
+  "topic": "Need To / Needed To",
+  "passage": {
+    "title": "A Day with Need To / Needed To",
+    "text": "I need to finish this work. I needed to finish this work. He needs to see a doctor. He needed to see a doctor. We need to drink more water. We needed to drink more water. I need to make this decision. I needed to make this decision. She needs to take rest. She needed to take rest.",
+    "hindiTranslation": "मुझे यह काम पूरा करना है। मुझे यह काम पूरा करना पड़ा। उसे डॉक्टर से मिलना है। उसे डॉक्टर से मिलना पड़ा। हमें ज्यादा पानी पीना है। हमें ज्यादा पानी पीना पड़ा। मुझे यह decision लेना है। मुझे यह decision लेना पड़ा। उसे आराम करना है। उसे आराम करना पड़ा।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I need to finish...\"?",
+      "options": [
+        "I needed to make this decision.",
+        "I need to do this quickly.",
+        "I needed to finish this work.",
+        "I need to finish this work."
+      ],
+      "answer": "I need to finish this work.",
+      "explanation": "Stated in the passage: \"I need to finish this work.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I needed to finish...\"?",
+      "options": [
+        "She needs to take rest.",
+        "I needed to do this quickly.",
+        "He needs to see a doctor.",
+        "I needed to finish this work."
+      ],
+      "answer": "I needed to finish this work.",
+      "explanation": "Stated in the passage: \"I needed to finish this work.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He needs to see...\"?",
+      "options": [
+        "She needed to take rest.",
+        "He needs to correct this.",
+        "He needed to see a doctor.",
+        "He needs to see a doctor."
+      ],
+      "answer": "He needs to see a doctor.",
+      "explanation": "Stated in the passage: \"He needs to see a doctor.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"He needed to see...\"?",
+      "options": [
+        "Do you need to do this?",
+        "He needed to correct this.",
+        "We need to drink more water.",
+        "He needed to see a doctor."
+      ],
+      "answer": "He needed to see a doctor.",
+      "explanation": "Stated in the passage: \"He needed to see a doctor.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"We need to drink...\"?",
+      "options": [
+        "Did you need to do this?",
+        "We need to practice.",
+        "We needed to drink more water.",
+        "We need to drink more water."
+      ],
+      "answer": "We need to drink more water.",
+      "explanation": "Stated in the passage: \"We need to drink more water.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"We needed to drink...\"?",
+      "options": [
+        "We need to get more information.",
+        "We needed to practice.",
+        "I need to make this decision.",
+        "We needed to drink more water."
+      ],
+      "answer": "We needed to drink more water.",
+      "explanation": "Stated in the passage: \"We needed to drink more water.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I need to make...\"?",
+      "options": [
+        "We needed to get more information.",
+        "I need to finish this work.",
+        "I needed to make this decision.",
+        "I need to make this decision."
+      ],
+      "answer": "I need to make this decision.",
+      "explanation": "Stated in the passage: \"I need to make this decision.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"I needed to make...\"?",
+      "options": [
+        "I need to do this quickly.",
+        "I needed to finish this work.",
+        "She needs to take rest.",
+        "I needed to make this decision."
+      ],
+      "answer": "I needed to make this decision.",
+      "explanation": "Stated in the passage: \"I needed to make this decision.\""
+    }
+  ]
+}

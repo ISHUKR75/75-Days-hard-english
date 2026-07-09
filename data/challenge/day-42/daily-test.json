@@ -1,0 +1,241 @@
+{
+  "day": 42,
+  "topic": "About To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "ट्रेन अभी छूटने वाली है।",
+      "options": [
+        "We are about to eat food.",
+        "I was about to make this mistake, but I stopped.",
+        "I am about to go to sleep.",
+        "The train is about to leave."
+      ],
+      "answer": "The train is about to leave.",
+      "explanation": "Correct translation: \"ट्रेन अभी छूटने वाली है।\" = \"The train is about to leave.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I am about _____ go to sleep.",
+      "options": [
+        "about",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I am about to go to sleep.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "She are about to speak.",
+      "options": [
+        "She are about to speak.",
+        "She is about to speak."
+      ],
+      "answer": "She is about to speak.",
+      "explanation": "Correct sentence: \"She is about to speak.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "बारिश अभी शुरू होने वाली है।",
+      "options": [
+        "He is about to answer.",
+        "The shop is about to close.",
+        "The meeting is about to start.",
+        "It is about to rain."
+      ],
+      "answer": "It is about to rain.",
+      "explanation": "Correct translation: \"बारिश अभी शुरू होने वाली है।\" = \"It is about to rain.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "The meeting is _____ to start.",
+      "options": [
+        "to",
+        "about"
+      ],
+      "answer": "about",
+      "explanation": "Full sentence: \"The meeting is about to start.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I is about to leave home.",
+      "options": [
+        "I is about to leave home.",
+        "I am about to leave home."
+      ],
+      "answer": "I am about to leave home.",
+      "explanation": "Correct sentence: \"I am about to leave home.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "वह अभी रोने वाली है।",
+      "options": [
+        "They are about to arrive.",
+        "The train is about to leave.",
+        "We are about to eat food.",
+        "She is about to cry."
+      ],
+      "answer": "She is about to cry.",
+      "explanation": "Correct translation: \"वह अभी रोने वाली है।\" = \"She is about to cry.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "We are about _____ eat food.",
+      "options": [
+        "about",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"We are about to eat food.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "The sun are about to set.",
+      "options": [
+        "The sun are about to set.",
+        "The sun is about to set."
+      ],
+      "answer": "The sun is about to set.",
+      "explanation": "Correct sentence: \"The sun is about to set.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैं अभी यह decision लेने वाला हूँ।",
+      "options": [
+        "We are about to begin.",
+        "It is about to rain.",
+        "He is about to answer.",
+        "I am about to make this decision."
+      ],
+      "answer": "I am about to make this decision.",
+      "explanation": "Correct translation: \"मैं अभी यह decision लेने वाला हूँ।\" = \"I am about to make this decision.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He is _____ to answer.",
+      "options": [
+        "to",
+        "about"
+      ],
+      "answer": "about",
+      "explanation": "Full sentence: \"He is about to answer.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "The movie are about to start.",
+      "options": [
+        "The movie are about to start.",
+        "The movie is about to start."
+      ],
+      "answer": "The movie is about to start.",
+      "explanation": "Correct sentence: \"The movie is about to start.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैं अभी माफी मांगने वाला हूँ।",
+      "options": [
+        "The child was about to fall.",
+        "She is about to cry.",
+        "They are about to arrive.",
+        "I am about to apologize."
+      ],
+      "answer": "I am about to apologize.",
+      "explanation": "Correct translation: \"मैं अभी माफी मांगने वाला हूँ।\" = \"I am about to apologize.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "They are _____ to arrive.",
+      "options": [
+        "to",
+        "about"
+      ],
+      "answer": "about",
+      "explanation": "Full sentence: \"They are about to arrive.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I were about to make this mistake, but I stopped.",
+      "options": [
+        "I were about to make this mistake, but I stopped.",
+        "I was about to make this mistake, but I stopped."
+      ],
+      "answer": "I was about to make this mistake, but I stopped.",
+      "explanation": "Correct sentence: \"I was about to make this mistake, but I stopped.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह अभी सो जाने वाली है।",
+      "options": [
+        "She is about to speak.",
+        "I am about to make this decision.",
+        "We are about to begin.",
+        "She is about to fall asleep."
+      ],
+      "answer": "She is about to fall asleep.",
+      "explanation": "Correct translation: \"वह अभी सो जाने वाली है।\" = \"She is about to fall asleep.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "We are _____ to begin.",
+      "options": [
+        "to",
+        "about"
+      ],
+      "answer": "about",
+      "explanation": "Full sentence: \"We are about to begin.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "The shop are about to close.",
+      "options": [
+        "The shop are about to close.",
+        "The shop is about to close."
+      ],
+      "answer": "The shop is about to close.",
+      "explanation": "Correct sentence: \"The shop is about to close.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मैं अभी उसे फोन करने वाला हूँ।",
+      "options": [
+        "I am about to leave home.",
+        "I am about to apologize.",
+        "The child was about to fall.",
+        "I am about to call him."
+      ],
+      "answer": "I am about to call him.",
+      "explanation": "Correct translation: \"मैं अभी उसे फोन करने वाला हूँ।\" = \"I am about to call him.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "The child was _____ to fall.",
+      "options": [
+        "to",
+        "about"
+      ],
+      "answer": "about",
+      "explanation": "Full sentence: \"The child was about to fall.\""
+    }
+  ]
+}

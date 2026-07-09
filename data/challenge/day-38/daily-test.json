@@ -1,0 +1,255 @@
+{
+  "day": 38,
+  "topic": "Has To / Have To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे रोज़ ऑफिस जाना पड़ता है।",
+      "options": [
+        "We have to fill the form.",
+        "You have to take permission.",
+        "He has to complete this work.",
+        "I have to go to office every day."
+      ],
+      "answer": "I have to go to office every day.",
+      "explanation": "Correct translation: \"मुझे रोज़ ऑफिस जाना पड़ता है।\" = \"I have to go to office every day.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He has to _____ this work.",
+      "options": [
+        "have",
+        "follow",
+        "give",
+        "complete"
+      ],
+      "answer": "complete",
+      "explanation": "Full sentence: \"He has to complete this work.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "We has to follow the rules.",
+      "options": [
+        "We has to follow the rules.",
+        "We have to follow the rules."
+      ],
+      "answer": "We have to follow the rules.",
+      "explanation": "Correct sentence: \"We have to follow the rules.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसे रोज़ जल्दी उठना पड़ता है।",
+      "options": [
+        "Does he have to come too?",
+        "I have to show my ID.",
+        "Do you have to do this?",
+        "She has to wake up early every day."
+      ],
+      "answer": "She has to wake up early every day.",
+      "explanation": "Correct translation: \"उसे रोज़ जल्दी उठना पड़ता है।\" = \"She has to wake up early every day.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Do you have _____ do this?",
+      "options": [
+        "pay",
+        "work",
+        "give",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Do you have to do this?\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "He have to work very hard.",
+      "options": [
+        "He have to work very hard.",
+        "He has to work very hard."
+      ],
+      "answer": "He has to work very hard.",
+      "explanation": "Correct sentence: \"He has to work very hard.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मुझे यह पैसे देने पड़ते हैं।",
+      "options": [
+        "He has to take medicine daily.",
+        "I have to go to office every day.",
+        "We have to fill the form.",
+        "I have to pay this money."
+      ],
+      "answer": "I have to pay this money.",
+      "explanation": "Correct translation: \"मुझे यह पैसे देने पड़ते हैं।\" = \"I have to pay this money.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "We have to _____ the form.",
+      "options": [
+        "take",
+        "complete",
+        "have",
+        "fill"
+      ],
+      "answer": "fill",
+      "explanation": "Full sentence: \"We have to fill the form.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "You do not has to do this.",
+      "options": [
+        "You do not has to do this.",
+        "You do not have to do this."
+      ],
+      "answer": "You do not have to do this.",
+      "explanation": "Correct sentence: \"You do not have to do this.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "उसे सबूत देना पड़ता है।",
+      "options": [
+        "She has to make this decision.",
+        "She has to wake up early every day.",
+        "Does he have to come too?",
+        "She has to give proof."
+      ],
+      "answer": "She has to give proof.",
+      "explanation": "Correct translation: \"उसे सबूत देना पड़ता है।\" = \"She has to give proof.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Does he have _____ come too?",
+      "options": [
+        "show",
+        "pay",
+        "work",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Does he have to come too?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "We has to pay tax.",
+      "options": [
+        "We has to pay tax.",
+        "We have to pay tax."
+      ],
+      "answer": "We have to pay tax.",
+      "explanation": "Correct sentence: \"We have to pay tax.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मुझे यह test देना पड़ता है।",
+      "options": [
+        "He has to take this responsibility.",
+        "I have to pay this money.",
+        "He has to take medicine daily.",
+        "I have to give this test."
+      ],
+      "answer": "I have to give this test.",
+      "explanation": "Correct translation: \"मुझे यह test देना पड़ता है।\" = \"I have to give this test.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "He has to _____ medicine daily.",
+      "options": [
+        "go",
+        "fill",
+        "complete",
+        "take"
+      ],
+      "answer": "take",
+      "explanation": "Full sentence: \"He has to take medicine daily.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "You has to take permission.",
+      "options": [
+        "You has to take permission.",
+        "You have to take permission."
+      ],
+      "answer": "You have to take permission.",
+      "explanation": "Correct sentence: \"You have to take permission.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "हमें सुरक्षा नियमों का पालन करना पड़ता है।",
+      "options": [
+        "We have to follow the rules.",
+        "She has to give proof.",
+        "She has to make this decision.",
+        "We have to follow safety rules."
+      ],
+      "answer": "We have to follow safety rules.",
+      "explanation": "Correct translation: \"हमें सुरक्षा नियमों का पालन करना पड़ता है।\" = \"We have to follow safety rules.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "She has to _____ this decision.",
+      "options": [
+        "wake",
+        "to",
+        "show",
+        "make"
+      ],
+      "answer": "make",
+      "explanation": "Full sentence: \"She has to make this decision.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I has to show my ID.",
+      "options": [
+        "I has to show my ID.",
+        "I have to show my ID."
+      ],
+      "answer": "I have to show my ID.",
+      "explanation": "Correct sentence: \"I have to show my ID.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "क्या तुम्हें फीस देनी पड़ती है?",
+      "options": [
+        "He has to work very hard.",
+        "I have to give this test.",
+        "He has to take this responsibility.",
+        "Do you have to pay fees?"
+      ],
+      "answer": "Do you have to pay fees?",
+      "explanation": "Correct translation: \"क्या तुम्हें फीस देनी पड़ती है?\" = \"Do you have to pay fees?\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "He has to _____ this responsibility.",
+      "options": [
+        "pay",
+        "go",
+        "fill",
+        "take"
+      ],
+      "answer": "take",
+      "explanation": "Full sentence: \"He has to take this responsibility.\""
+    }
+  ]
+}

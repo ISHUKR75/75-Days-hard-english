@@ -1,0 +1,280 @@
+{
+  "day": 15,
+  "topic": "Would Like To",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं यह जानना चाहूँगा।",
+      "options": [
+        "He would like to give his opinion.",
+        "I would like to apologize.",
+        "She would like to give a presentation.",
+        "I would like to know this."
+      ],
+      "answer": "I would like to know this.",
+      "explanation": "Correct translation: \"मैं यह जानना चाहूँगा।\" = \"I would like to know this.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I would like _____ meet you.",
+      "options": [
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I would like to meet you.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "She would like to ask something yesterday.",
+      "options": [
+        "She would like to ask something yesterday.",
+        "She would like to ask something."
+      ],
+      "answer": "She would like to ask something.",
+      "explanation": "Correct sentence: \"She would like to ask something.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "हम एक coffee लेना चाहेंगे।",
+      "options": [
+        "I would like to say thank you.",
+        "He would like to take a break.",
+        "I would like to know this.",
+        "We would like to have a coffee."
+      ],
+      "answer": "We would like to have a coffee.",
+      "explanation": "Correct translation: \"हम एक coffee लेना चाहेंगे।\" = \"We would like to have a coffee.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "They would _____ to travel.",
+      "options": [
+        "to",
+        "like"
+      ],
+      "answer": "like",
+      "explanation": "Full sentence: \"They would like to travel.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Would you like to eat something? yesterday.",
+      "options": [
+        "Would you like to eat something? yesterday.",
+        "Would you like to eat something?"
+      ],
+      "answer": "Would you like to eat something?",
+      "explanation": "Correct sentence: \"Would you like to eat something?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं इस बारे में और जानना चाहूँगा।",
+      "options": [
+        "Would you like to drink something?",
+        "I would like to learn this.",
+        "We would like to have a coffee.",
+        "I would like to know more about this."
+      ],
+      "answer": "I would like to know more about this.",
+      "explanation": "Correct translation: \"मैं इस बारे में और जानना चाहूँगा।\" = \"I would like to know more about this.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He would like _____ give his opinion.",
+      "options": [
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"He would like to give his opinion.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "We would like to take this opportunity yesterday.",
+      "options": [
+        "We would like to take this opportunity yesterday.",
+        "We would like to take this opportunity."
+      ],
+      "answer": "We would like to take this opportunity.",
+      "explanation": "Correct sentence: \"We would like to take this opportunity.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "क्या आप बैठना चाहेंगे?",
+      "options": [
+        "I would like to ask this question.",
+        "I would like to give a suggestion.",
+        "I would like to know more about this.",
+        "Would you like to sit down?"
+      ],
+      "answer": "Would you like to sit down?",
+      "explanation": "Correct translation: \"क्या आप बैठना चाहेंगे?\" = \"Would you like to sit down?\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "I would like _____ say thank you.",
+      "options": [
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I would like to say thank you.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She would like to share her idea yesterday.",
+      "options": [
+        "She would like to share her idea yesterday.",
+        "She would like to share her idea."
+      ],
+      "answer": "She would like to share her idea.",
+      "explanation": "Correct sentence: \"She would like to share her idea.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हम इस project पर काम करना चाहेंगे।",
+      "options": [
+        "Would you like to say something?",
+        "She would like to ask something.",
+        "Would you like to sit down?",
+        "We would like to work on this project."
+      ],
+      "answer": "We would like to work on this project.",
+      "explanation": "Correct translation: \"हम इस project पर काम करना चाहेंगे।\" = \"We would like to work on this project.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Would you like _____ drink something?",
+      "options": [
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Would you like to drink something?\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I would like to apologize yesterday.",
+      "options": [
+        "I would like to apologize yesterday.",
+        "I would like to apologize."
+      ],
+      "answer": "I would like to apologize.",
+      "explanation": "Correct sentence: \"I would like to apologize.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वे इस topic पर चर्चा करना चाहेंगे।",
+      "options": [
+        "We would like to finish this soon.",
+        "Would you like to eat something?",
+        "We would like to work on this project.",
+        "They would like to discuss this topic."
+      ],
+      "answer": "They would like to discuss this topic.",
+      "explanation": "Correct translation: \"वे इस topic पर चर्चा करना चाहेंगे।\" = \"They would like to discuss this topic.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I would like _____ ask this question.",
+      "options": [
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I would like to ask this question.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He would like to take a break yesterday.",
+      "options": [
+        "He would like to take a break yesterday.",
+        "He would like to take a break."
+      ],
+      "answer": "He would like to take a break.",
+      "explanation": "Correct sentence: \"He would like to take a break.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हम आपकी मदद करना चाहेंगे।",
+      "options": [
+        "I would like to meet you.",
+        "We would like to take this opportunity.",
+        "They would like to discuss this topic.",
+        "We would like to help you."
+      ],
+      "answer": "We would like to help you.",
+      "explanation": "Correct translation: \"हम आपकी मदद करना चाहेंगे।\" = \"We would like to help you.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Would you like _____ say something?",
+      "options": [
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Would you like to say something?\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "I would like to learn this yesterday.",
+      "options": [
+        "I would like to learn this yesterday.",
+        "I would like to learn this."
+      ],
+      "answer": "I would like to learn this.",
+      "explanation": "Correct sentence: \"I would like to learn this.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "वह presentation देना चाहेगी।",
+      "options": [
+        "They would like to travel.",
+        "She would like to share her idea.",
+        "We would like to help you.",
+        "She would like to give a presentation."
+      ],
+      "answer": "She would like to give a presentation.",
+      "explanation": "Correct translation: \"वह presentation देना चाहेगी।\" = \"She would like to give a presentation.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "We would like _____ finish this soon.",
+      "options": [
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"We would like to finish this soon.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "I would like to give a suggestion yesterday.",
+      "options": [
+        "I would like to give a suggestion yesterday.",
+        "I would like to give a suggestion."
+      ],
+      "answer": "I would like to give a suggestion.",
+      "explanation": "Correct sentence: \"I would like to give a suggestion.\""
+    }
+  ]
+}

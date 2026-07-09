@@ -1,0 +1,114 @@
+{
+  "day": 26,
+  "topic": "Would Have",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "If he had told the truth, we would have been happy.",
+      "hindiScript": "अगर वह सच बताता, तो हम खुश होते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If they had paid attention, they would have understood.",
+        "If you had tried, you would have succeeded.",
+        "If he had worked hard, he would have passed.",
+        "If he had told the truth, we would have been happy."
+      ],
+      "answer": "If he had told the truth, we would have been happy."
+    },
+    {
+      "id": 2,
+      "audioScript": "If we had left early, we would have arrived on time.",
+      "hindiScript": "अगर हम जल्दी निकलते, तो हम समय पर पहुँच जाते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If I had gotten a chance, I would have done this.",
+        "If we had more time, we would have learned more.",
+        "If I had money, I would have bought this.",
+        "If we had left early, we would have arrived on time."
+      ],
+      "answer": "If we had left early, we would have arrived on time."
+    },
+    {
+      "id": 3,
+      "audioScript": "If I had known this, I would not have done it.",
+      "hindiScript": "अगर मुझे यह पता होता, तो मैं ना करता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you had listened, you would have learned.",
+        "If I had woken up, I would have seen it.",
+        "If you had told me, I would have helped.",
+        "If I had known this, I would not have done it."
+      ],
+      "answer": "If I had known this, I would not have done it."
+    },
+    {
+      "id": 4,
+      "audioScript": "If she had asked me, I would have told her.",
+      "hindiScript": "अगर वह मुझसे पूछती, तो मैं बताता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If he had told the truth, we would have been happy.",
+        "If he had called earlier, we would have met.",
+        "If she had come early, we would have met.",
+        "If she had asked me, I would have told her."
+      ],
+      "answer": "If she had asked me, I would have told her."
+    },
+    {
+      "id": 5,
+      "audioScript": "If you had tried, you would have succeeded.",
+      "hindiScript": "अगर तुमने कोशिश की होती, तो तुम सफल होते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If we had left early, we would have arrived on time.",
+        "If they had been ready, they would have won.",
+        "If we had time, we would have won.",
+        "If you had tried, you would have succeeded."
+      ],
+      "answer": "If you had tried, you would have succeeded."
+    },
+    {
+      "id": 6,
+      "audioScript": "If we had more time, we would have learned more.",
+      "hindiScript": "अगर हमारे पास ज्यादा समय होता, तो हम और सीखते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If I had known this, I would not have done it.",
+        "If you had stopped me, I would not have gone.",
+        "If I had been there, I would have seen this.",
+        "If we had more time, we would have learned more."
+      ],
+      "answer": "If we had more time, we would have learned more."
+    },
+    {
+      "id": 7,
+      "audioScript": "If I had woken up, I would have seen it.",
+      "hindiScript": "अगर मैं जागता, तो मैं देख लेता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If she had asked me, I would have told her.",
+        "If I had known, I would have come.",
+        "If they had paid attention, they would have understood.",
+        "If I had woken up, I would have seen it."
+      ],
+      "answer": "If I had woken up, I would have seen it."
+    },
+    {
+      "id": 8,
+      "audioScript": "If he had called earlier, we would have met.",
+      "hindiScript": "अगर उसने पहले फोन किया होता, तो हम मिल जाते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "If you had tried, you would have succeeded.",
+        "If he had worked hard, he would have passed.",
+        "If I had gotten a chance, I would have done this.",
+        "If he had called earlier, we would have met."
+      ],
+      "answer": "If he had called earlier, we would have met."
+    }
+  ],
+  "dictationPassage": {
+    "text": "If he had told the truth, we would have been happy. If we had left early, we would have arrived on time. If I had known this, I would not have done it. If she had asked me, I would have told her. If you had tried, you would have succeeded.",
+    "hindiTranslation": "अगर वह सच बताता, तो हम खुश होते। अगर हम जल्दी निकलते, तो हम समय पर पहुँच जाते। अगर मुझे यह पता होता, तो मैं ना करता। अगर वह मुझसे पूछती, तो मैं बताता। अगर तुमने कोशिश की होती, तो तुम सफल होते।"
+  }
+}

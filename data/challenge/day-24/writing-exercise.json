@@ -1,0 +1,46 @@
+{
+  "day": 24,
+  "topic": "Must Have",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Must Have.",
+      "hindiPrompt": "Must Have का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "He must have worked very hard. He must have been tired. They must have made a mistake. She must have told the truth. We must have been late.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Must Have.",
+      "hindiPrompt": "Must Have का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "He must have read this book. She must have been very happy. They must have spent a lot of money. He must have called me. She must have gone there.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"हमने जरूर सही रास्ता चुना होगा।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "We must have chosen the right path.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"She musts have told the truth.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "She must have told the truth.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Must Have.",
+      "hindiPrompt": "Must Have का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "They must have succeeded. He must have talked to me. She must have been sad. They must have seen this.",
+      "wordLimit": 60
+    }
+  ]
+}

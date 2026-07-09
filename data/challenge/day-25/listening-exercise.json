@@ -1,0 +1,114 @@
+{
+  "day": 25,
+  "topic": "Could Have",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "You could have called me.",
+      "hindiScript": "तुम मुझे कॉल कर सकते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I could have helped you.",
+        "You could have come earlier.",
+        "You could have told me.",
+        "You could have called me."
+      ],
+      "answer": "You could have called me."
+    },
+    {
+      "id": 2,
+      "audioScript": "She could have saved money.",
+      "hindiScript": "वह पैसे बचा सकती थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He could have told the truth.",
+        "He could have read this book.",
+        "He could have done this work easily.",
+        "She could have saved money."
+      ],
+      "answer": "She could have saved money."
+    },
+    {
+      "id": 3,
+      "audioScript": "I could have gone there.",
+      "hindiScript": "मैं वहाँ जा सकता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We could have made it better.",
+        "We could have worked harder.",
+        "We could have arrived on time.",
+        "I could have gone there."
+      ],
+      "answer": "I could have gone there."
+    },
+    {
+      "id": 4,
+      "audioScript": "They could have stopped it.",
+      "hindiScript": "वे इसे रोक सकते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You could have called me.",
+        "I could have taken that job.",
+        "She could have taken this opportunity.",
+        "They could have stopped it."
+      ],
+      "answer": "They could have stopped it."
+    },
+    {
+      "id": 5,
+      "audioScript": "You could have come earlier.",
+      "hindiScript": "तुम पहले आ सकते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She could have saved money.",
+        "She could have fixed it.",
+        "You could have avoided this mistake.",
+        "You could have come earlier."
+      ],
+      "answer": "You could have come earlier."
+    },
+    {
+      "id": 6,
+      "audioScript": "He could have read this book.",
+      "hindiScript": "वह यह किताब पढ़ सकता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I could have gone there.",
+        "You could not have taken this decision.",
+        "They could have won.",
+        "He could have read this book."
+      ],
+      "answer": "He could have read this book."
+    },
+    {
+      "id": 7,
+      "audioScript": "We could have worked harder.",
+      "hindiScript": "हम ज्यादा मेहनत कर सकते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They could have stopped it.",
+        "I could have done this earlier.",
+        "I could have helped you.",
+        "We could have worked harder."
+      ],
+      "answer": "We could have worked harder."
+    },
+    {
+      "id": 8,
+      "audioScript": "I could have taken that job.",
+      "hindiScript": "मैं वह नौकरी ले सकता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You could have come earlier.",
+        "You could have told me.",
+        "He could have told the truth.",
+        "I could have taken that job."
+      ],
+      "answer": "I could have taken that job."
+    }
+  ],
+  "dictationPassage": {
+    "text": "You could have called me. She could have saved money. I could have gone there. They could have stopped it. You could have come earlier.",
+    "hindiTranslation": "तुम मुझे कॉल कर सकते थे। वह पैसे बचा सकती थी। मैं वहाँ जा सकता था। वे इसे रोक सकते थे। तुम पहले आ सकते थे।"
+  }
+}

@@ -1,0 +1,255 @@
+{
+  "day": 23,
+  "topic": "Should Have",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे पहले आना चाहिए था।",
+      "options": [
+        "I should have read this book.",
+        "She should not have left this job.",
+        "You should have apologized to him.",
+        "I should have come earlier."
+      ],
+      "answer": "I should have come earlier.",
+      "explanation": "Correct translation: \"मुझे पहले आना चाहिए था।\" = \"I should have come earlier.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "You should have _____ to him.",
+      "options": [
+        "arrived",
+        "practiced",
+        "worked",
+        "apologized"
+      ],
+      "answer": "apologized",
+      "explanation": "Full sentence: \"You should have apologized to him.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He shoulds have worked harder.",
+      "options": [
+        "He shoulds have worked harder.",
+        "He should have worked harder."
+      ],
+      "answer": "He should have worked harder.",
+      "explanation": "Correct sentence: \"He should have worked harder.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मुझे यह पहले बताना चाहिए था।",
+      "options": [
+        "He should have told me.",
+        "You should have expressed your point correctly.",
+        "We should have been more careful.",
+        "I should have told this earlier."
+      ],
+      "answer": "I should have told this earlier.",
+      "explanation": "Correct translation: \"मुझे यह पहले बताना चाहिए था।\" = \"I should have told this earlier.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We should have _____ more careful.",
+      "options": [
+        "saved",
+        "accepted",
+        "listened",
+        "been"
+      ],
+      "answer": "been",
+      "explanation": "Full sentence: \"We should have been more careful.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "You shoulds have listened to him.",
+      "options": [
+        "You shoulds have listened to him.",
+        "You should have listened to him."
+      ],
+      "answer": "You should have listened to him.",
+      "explanation": "Correct sentence: \"You should have listened to him.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसे सच बोलना चाहिए था।",
+      "options": [
+        "You should have stopped him.",
+        "I should have come earlier.",
+        "I should have read this book.",
+        "She should have told the truth."
+      ],
+      "answer": "She should have told the truth.",
+      "explanation": "Correct translation: \"उसे सच बोलना चाहिए था।\" = \"She should have told the truth.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I should have _____ this book.",
+      "options": [
+        "have",
+        "apologized",
+        "arrived",
+        "read"
+      ],
+      "answer": "read",
+      "explanation": "Full sentence: \"I should have read this book.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "We shoulds have arrived on time.",
+      "options": [
+        "We shoulds have arrived on time.",
+        "We should have arrived on time."
+      ],
+      "answer": "We should have arrived on time.",
+      "explanation": "Correct sentence: \"We should have arrived on time.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "तुम्हें यह गलती नहीं करनी चाहिए थी।",
+      "options": [
+        "We should have helped him.",
+        "I should have told this earlier.",
+        "He should have told me.",
+        "You should not have made this mistake."
+      ],
+      "answer": "You should not have made this mistake.",
+      "explanation": "Correct translation: \"तुम्हें यह गलती नहीं करनी चाहिए थी।\" = \"You should not have made this mistake.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He should _____ told me.",
+      "options": [
+        "expressed",
+        "been",
+        "saved",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"He should have told me.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I shoulds have saved more money.",
+      "options": [
+        "I shoulds have saved more money.",
+        "I should have saved more money."
+      ],
+      "answer": "I should have saved more money.",
+      "explanation": "Correct sentence: \"I should have saved more money.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हमें पहले सोचना चाहिए था।",
+      "options": [
+        "I should have driven more carefully.",
+        "She should have told the truth.",
+        "You should have stopped him.",
+        "We should have thought earlier."
+      ],
+      "answer": "We should have thought earlier.",
+      "explanation": "Correct translation: \"हमें पहले सोचना चाहिए था।\" = \"We should have thought earlier.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "You should _____ stopped him.",
+      "options": [
+        "come",
+        "read",
+        "apologized",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"You should have stopped him.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "She shoulds not have left this job.",
+      "options": [
+        "She shoulds not have left this job.",
+        "She should not have left this job."
+      ],
+      "answer": "She should not have left this job.",
+      "explanation": "Correct sentence: \"She should not have left this job.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मुझे ज्यादा practice करनी चाहिए थी।",
+      "options": [
+        "He should have worked harder.",
+        "You should not have made this mistake.",
+        "We should have helped him.",
+        "I should have practiced more."
+      ],
+      "answer": "I should have practiced more.",
+      "explanation": "Correct translation: \"मुझे ज्यादा practice करनी चाहिए थी।\" = \"I should have practiced more.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "We should _____ helped him.",
+      "options": [
+        "told",
+        "expressed",
+        "been",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"We should have helped him.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "You shoulds have expressed your point correctly.",
+      "options": [
+        "You shoulds have expressed your point correctly.",
+        "You should have expressed your point correctly."
+      ],
+      "answer": "You should have expressed your point correctly.",
+      "explanation": "Correct sentence: \"You should have expressed your point correctly.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उसे अपनी गलती स्वीकार करनी चाहिए थी।",
+      "options": [
+        "You should have listened to him.",
+        "We should have thought earlier.",
+        "I should have driven more carefully.",
+        "He should have accepted his mistake."
+      ],
+      "answer": "He should have accepted his mistake.",
+      "explanation": "Correct translation: \"उसे अपनी गलती स्वीकार करनी चाहिए थी।\" = \"He should have accepted his mistake.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I should have _____ more carefully.",
+      "options": [
+        "told",
+        "stopped",
+        "come",
+        "driven"
+      ],
+      "answer": "driven",
+      "explanation": "Full sentence: \"I should have driven more carefully.\""
+    }
+  ]
+}

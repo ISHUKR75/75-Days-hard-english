@@ -1,0 +1,107 @@
+{
+  "day": 45,
+  "topic": "Fond Of",
+  "passage": {
+    "title": "A Day with Fond Of",
+    "text": "I am fond of music. He is fond of reading. She is fond of swimming. We are fond of traveling. They are fond of sweets. Are you fond of dancing? I am fond of photography. He is fond of animals. She is fond of art. We are fond of exploring new places.",
+    "hindiTranslation": "मुझे संगीत बहुत पसंद है। वह पढ़ने का बहुत शौकीन है। उसे तैरना बहुत पसंद है। हमें travel करना बहुत पसंद है। उन्हें मीठा खाना बहुत पसंद है। क्या तुम्हें डांस करना पसंद है? मुझे फोटो खींचना पसंद है। वह जानवरों का शौकीन है। उसे कला बहुत पसंद है। हमें नई जगहें देखना पसंद है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I am fond of...\"?",
+      "options": [
+        "He is fond of animals.",
+        "We are fond of watching movies.",
+        "He is fond of reading.",
+        "I am fond of music."
+      ],
+      "answer": "I am fond of music.",
+      "explanation": "Stated in the passage: \"I am fond of music.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"He is fond of...\"?",
+      "options": [
+        "She is fond of art.",
+        "They are fond of singing.",
+        "She is fond of swimming.",
+        "He is fond of reading."
+      ],
+      "answer": "He is fond of reading.",
+      "explanation": "Stated in the passage: \"He is fond of reading.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"She is fond of...\"?",
+      "options": [
+        "We are fond of exploring new places.",
+        "I am fond of nature.",
+        "We are fond of traveling.",
+        "She is fond of swimming."
+      ],
+      "answer": "She is fond of swimming.",
+      "explanation": "Stated in the passage: \"She is fond of swimming.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"We are fond of...\"?",
+      "options": [
+        "They are fond of playing cricket.",
+        "He is fond of writing.",
+        "They are fond of sweets.",
+        "We are fond of traveling."
+      ],
+      "answer": "We are fond of traveling.",
+      "explanation": "Stated in the passage: \"We are fond of traveling.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"They are fond of...\"?",
+      "options": [
+        "I am fond of reading books.",
+        "She is fond of learning new languages.",
+        "Are you fond of dancing?",
+        "They are fond of sweets."
+      ],
+      "answer": "They are fond of sweets.",
+      "explanation": "Stated in the passage: \"They are fond of sweets.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Are you fond of...\"?",
+      "options": [
+        "He is fond of cooking.",
+        "We are fond of spending time together.",
+        "I am fond of photography.",
+        "Are you fond of dancing?"
+      ],
+      "answer": "Are you fond of dancing?",
+      "explanation": "Stated in the passage: \"Are you fond of dancing?\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I am fond of...\"?",
+      "options": [
+        "She is fond of gardening.",
+        "I am fond of music.",
+        "He is fond of animals.",
+        "I am fond of photography."
+      ],
+      "answer": "I am fond of photography.",
+      "explanation": "Stated in the passage: \"I am fond of photography.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"He is fond of...\"?",
+      "options": [
+        "We are fond of watching movies.",
+        "He is fond of reading.",
+        "She is fond of art.",
+        "He is fond of animals."
+      ],
+      "answer": "He is fond of animals.",
+      "explanation": "Stated in the passage: \"He is fond of animals.\""
+    }
+  ]
+}

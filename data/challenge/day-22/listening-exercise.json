@@ -1,0 +1,114 @@
+{
+  "day": 22,
+  "topic": "Could",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "She could sing before.",
+      "hindiScript": "वह पहले गाना गा सकती थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Could you tell me again?",
+        "Could you close the door?",
+        "Could you help me?",
+        "She could sing before."
+      ],
+      "answer": "She could sing before."
+    },
+    {
+      "id": 2,
+      "audioScript": "Could I take your pen?",
+      "hindiScript": "क्या मैं आपकी pen ले सकता हूँ?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "It could rain.",
+        "He could learn any language.",
+        "He could run fast before.",
+        "Could I take your pen?"
+      ],
+      "answer": "Could I take your pen?"
+    },
+    {
+      "id": 3,
+      "audioScript": "We could work together before.",
+      "hindiScript": "हम पहले साथ काम कर सकते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I could read this book.",
+        "I could understand this before.",
+        "It could be true.",
+        "We could work together before."
+      ],
+      "answer": "We could work together before."
+    },
+    {
+      "id": 4,
+      "audioScript": "This could be a mistake.",
+      "hindiScript": "यह एक गलती हो सकती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She could sing before.",
+        "Could I sit here?",
+        "Could I ask a question?",
+        "This could be a mistake."
+      ],
+      "answer": "This could be a mistake."
+    },
+    {
+      "id": 5,
+      "audioScript": "Could you close the door?",
+      "hindiScript": "क्या तुम दरवाज़ा बंद कर सकते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Could I take your pen?",
+        "This could be good.",
+        "I could not do this before.",
+        "Could you close the door?"
+      ],
+      "answer": "Could you close the door?"
+    },
+    {
+      "id": 6,
+      "audioScript": "He could learn any language.",
+      "hindiScript": "वह किसी भी भाषा सीख सकता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We could work together before.",
+        "They could play well before.",
+        "They could handle it before.",
+        "He could learn any language."
+      ],
+      "answer": "He could learn any language."
+    },
+    {
+      "id": 7,
+      "audioScript": "I could understand this before.",
+      "hindiScript": "मैं यह पहले समझ सकता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This could be a mistake.",
+        "I could swim when I was a child.",
+        "Could you tell me again?",
+        "I could understand this before."
+      ],
+      "answer": "I could understand this before."
+    },
+    {
+      "id": 8,
+      "audioScript": "Could I sit here?",
+      "hindiScript": "क्या मैं यहाँ बैठ सकता हूँ?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Could you close the door?",
+        "Could you help me?",
+        "It could rain.",
+        "Could I sit here?"
+      ],
+      "answer": "Could I sit here?"
+    }
+  ],
+  "dictationPassage": {
+    "text": "She could sing before. Could I take your pen? We could work together before. This could be a mistake. Could you close the door?",
+    "hindiTranslation": "वह पहले गाना गा सकती थी। क्या मैं आपकी pen ले सकता हूँ? हम पहले साथ काम कर सकते थे। यह एक गलती हो सकती है। क्या तुम दरवाज़ा बंद कर सकते हो?"
+  }
+}

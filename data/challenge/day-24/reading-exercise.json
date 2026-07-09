@@ -1,0 +1,107 @@
+{
+  "day": 24,
+  "topic": "Must Have",
+  "passage": {
+    "title": "A Day with Must Have",
+    "text": "He must have worked very hard. He must have been tired. They must have made a mistake. She must have told the truth. We must have been late. He must have read this book. She must have been very happy. They must have spent a lot of money. He must have called me. She must have gone there.",
+    "hindiTranslation": "उसने जरूर बहुत मेहनत की होगी। वह जरूर थका हुआ होगा। उन्होंने जरूर गलती की होगी। उसने जरूर सच बोला होगा। हमने जरूर देर कर दी होगी। उसने जरूर यह किताब पढ़ी होगी। वह जरूर बहुत खुश हुई होगी। उन्होंने जरूर बहुत पैसे खर्च किए होंगे। उसने जरूर मुझे फोन किया होगा। वह जरूर वहाँ गई होगी।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"He must have worked...\"?",
+      "options": [
+        "They must have spent a lot of money.",
+        "She must have been sad.",
+        "He must have been tired.",
+        "He must have worked very hard."
+      ],
+      "answer": "He must have worked very hard.",
+      "explanation": "Stated in the passage: \"He must have worked very hard.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"He must have been...\"?",
+      "options": [
+        "He must have called me.",
+        "They must have seen this.",
+        "They must have made a mistake.",
+        "He must have been tired."
+      ],
+      "answer": "He must have been tired.",
+      "explanation": "Stated in the passage: \"He must have been tired.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"They must have made...\"?",
+      "options": [
+        "She must have gone there.",
+        "He must have thought a lot.",
+        "She must have told the truth.",
+        "They must have made a mistake."
+      ],
+      "answer": "They must have made a mistake.",
+      "explanation": "Stated in the passage: \"They must have made a mistake.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"She must have told...\"?",
+      "options": [
+        "We must have chosen the right path.",
+        "She must have reached home.",
+        "We must have been late.",
+        "She must have told the truth."
+      ],
+      "answer": "She must have told the truth.",
+      "explanation": "Stated in the passage: \"She must have told the truth.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"We must have been...\"?",
+      "options": [
+        "He must have studied hard.",
+        "We must have done it right.",
+        "He must have read this book.",
+        "We must have been late."
+      ],
+      "answer": "We must have been late.",
+      "explanation": "Stated in the passage: \"We must have been late.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"He must have read...\"?",
+      "options": [
+        "They must have succeeded.",
+        "He must have broken the promise.",
+        "She must have been very happy.",
+        "He must have read this book."
+      ],
+      "answer": "He must have read this book.",
+      "explanation": "Stated in the passage: \"He must have read this book.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"She must have been...\"?",
+      "options": [
+        "He must have talked to me.",
+        "He must have worked very hard.",
+        "They must have spent a lot of money.",
+        "She must have been very happy."
+      ],
+      "answer": "She must have been very happy.",
+      "explanation": "Stated in the passage: \"She must have been very happy.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"They must have spent...\"?",
+      "options": [
+        "She must have been sad.",
+        "He must have been tired.",
+        "He must have called me.",
+        "They must have spent a lot of money."
+      ],
+      "answer": "They must have spent a lot of money.",
+      "explanation": "Stated in the passage: \"They must have spent a lot of money.\""
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "day": 38,
+  "topic": "Has To / Have To",
+  "passage": {
+    "title": "A Day with Has To / Have To",
+    "text": "I have to go to office every day. He has to complete this work. We have to follow the rules. She has to wake up early every day. Do you have to do this? He has to work very hard. I have to pay this money. We have to fill the form. You do not have to do this. She has to give proof.",
+    "hindiTranslation": "मुझे रोज़ ऑफिस जाना पड़ता है। उसे यह काम पूरा करना पड़ता है। हमें नियमों का पालन करना पड़ता है। उसे रोज़ जल्दी उठना पड़ता है। क्या तुम्हें यह करना पड़ता है? उसे बहुत मेहनत करनी पड़ती है। मुझे यह पैसे देने पड़ते हैं। हमें फॉर्म भरना पड़ता है। तुम्हें ऐसा नहीं करना पड़ता (जरूरी नहीं है)। उसे सबूत देना पड़ता है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I have to go...\"?",
+      "options": [
+        "We have to fill the form.",
+        "You have to take permission.",
+        "He has to complete this work.",
+        "I have to go to office every day."
+      ],
+      "answer": "I have to go to office every day.",
+      "explanation": "Stated in the passage: \"I have to go to office every day.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"He has to complete...\"?",
+      "options": [
+        "You do not have to do this.",
+        "We have to follow safety rules.",
+        "We have to follow the rules.",
+        "He has to complete this work."
+      ],
+      "answer": "He has to complete this work.",
+      "explanation": "Stated in the passage: \"He has to complete this work.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"We have to follow...\"?",
+      "options": [
+        "She has to give proof.",
+        "She has to make this decision.",
+        "She has to wake up early every day.",
+        "We have to follow the rules."
+      ],
+      "answer": "We have to follow the rules.",
+      "explanation": "Stated in the passage: \"We have to follow the rules.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"She has to wake...\"?",
+      "options": [
+        "Does he have to come too?",
+        "I have to show my ID.",
+        "Do you have to do this?",
+        "She has to wake up early every day."
+      ],
+      "answer": "She has to wake up early every day.",
+      "explanation": "Stated in the passage: \"She has to wake up early every day.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"Do you have to...\"?",
+      "options": [
+        "We have to pay tax.",
+        "Do you have to pay fees?",
+        "He has to work very hard.",
+        "Do you have to do this?"
+      ],
+      "answer": "Do you have to do this?",
+      "explanation": "Stated in the passage: \"Do you have to do this?\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"He has to work...\"?",
+      "options": [
+        "I have to give this test.",
+        "He has to take this responsibility.",
+        "I have to pay this money.",
+        "He has to work very hard."
+      ],
+      "answer": "He has to work very hard.",
+      "explanation": "Stated in the passage: \"He has to work very hard.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I have to pay...\"?",
+      "options": [
+        "He has to take medicine daily.",
+        "I have to go to office every day.",
+        "We have to fill the form.",
+        "I have to pay this money."
+      ],
+      "answer": "I have to pay this money.",
+      "explanation": "Stated in the passage: \"I have to pay this money.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"We have to fill...\"?",
+      "options": [
+        "You have to take permission.",
+        "He has to complete this work.",
+        "You do not have to do this.",
+        "We have to fill the form."
+      ],
+      "answer": "We have to fill the form.",
+      "explanation": "Stated in the passage: \"We have to fill the form.\""
+    }
+  ]
+}

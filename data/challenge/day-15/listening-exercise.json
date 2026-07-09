@@ -1,0 +1,114 @@
+{
+  "day": 15,
+  "topic": "Would Like To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "I would like to say thank you.",
+      "hindiScript": "मैं धन्यवाद कहना चाहूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He would like to give his opinion.",
+        "I would like to apologize.",
+        "She would like to give a presentation.",
+        "I would like to say thank you."
+      ],
+      "answer": "I would like to say thank you."
+    },
+    {
+      "id": 2,
+      "audioScript": "She would like to share her idea.",
+      "hindiScript": "वह अपना विचार साझा करना चाहेगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We would like to take this opportunity.",
+        "They would like to discuss this topic.",
+        "We would like to finish this soon.",
+        "She would like to share her idea."
+      ],
+      "answer": "She would like to share her idea."
+    },
+    {
+      "id": 3,
+      "audioScript": "We would like to work on this project.",
+      "hindiScript": "हम इस project पर काम करना चाहेंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Would you like to sit down?",
+        "I would like to ask this question.",
+        "I would like to give a suggestion.",
+        "We would like to work on this project."
+      ],
+      "answer": "We would like to work on this project."
+    },
+    {
+      "id": 4,
+      "audioScript": "Would you like to drink something?",
+      "hindiScript": "क्या तुम कुछ पीना चाहोगे?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I would like to say thank you.",
+        "He would like to take a break.",
+        "I would like to know this.",
+        "Would you like to drink something?"
+      ],
+      "answer": "Would you like to drink something?"
+    },
+    {
+      "id": 5,
+      "audioScript": "I would like to apologize.",
+      "hindiScript": "मैं माफी मांगना चाहूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She would like to share her idea.",
+        "We would like to help you.",
+        "I would like to meet you.",
+        "I would like to apologize."
+      ],
+      "answer": "I would like to apologize."
+    },
+    {
+      "id": 6,
+      "audioScript": "They would like to discuss this topic.",
+      "hindiScript": "वे इस topic पर चर्चा करना चाहेंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We would like to work on this project.",
+        "Would you like to say something?",
+        "She would like to ask something.",
+        "They would like to discuss this topic."
+      ],
+      "answer": "They would like to discuss this topic."
+    },
+    {
+      "id": 7,
+      "audioScript": "I would like to ask this question.",
+      "hindiScript": "मैं यह सवाल पूछना चाहूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Would you like to drink something?",
+        "I would like to learn this.",
+        "We would like to have a coffee.",
+        "I would like to ask this question."
+      ],
+      "answer": "I would like to ask this question."
+    },
+    {
+      "id": 8,
+      "audioScript": "He would like to take a break.",
+      "hindiScript": "वह ब्रेक लेना चाहेगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I would like to apologize.",
+        "She would like to give a presentation.",
+        "They would like to travel.",
+        "He would like to take a break."
+      ],
+      "answer": "He would like to take a break."
+    }
+  ],
+  "dictationPassage": {
+    "text": "I would like to say thank you. She would like to share her idea. We would like to work on this project. Would you like to drink something? I would like to apologize.",
+    "hindiTranslation": "मैं धन्यवाद कहना चाहूँगा। वह अपना विचार साझा करना चाहेगी। हम इस project पर काम करना चाहेंगे। क्या तुम कुछ पीना चाहोगे? मैं माफी मांगना चाहूँगा।"
+  }
+}

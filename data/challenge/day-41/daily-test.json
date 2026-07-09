@@ -1,0 +1,243 @@
+{
+  "day": 41,
+  "topic": "Going To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं कल यह काम करने जा रहा हूँ।",
+      "options": [
+        "We are going to start a new business.",
+        "I am not going to repeat this mistake.",
+        "She is going to become a doctor.",
+        "I am going to do this work tomorrow."
+      ],
+      "answer": "I am going to do this work tomorrow.",
+      "explanation": "Correct translation: \"मैं कल यह काम करने जा रहा हूँ।\" = \"I am going to do this work tomorrow.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "She is going _____ become a doctor.",
+      "options": [
+        "going",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"She is going to become a doctor.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "We is going to change our house next month.",
+      "options": [
+        "We is going to change our house next month.",
+        "We are going to change our house next month."
+      ],
+      "answer": "We are going to change our house next month.",
+      "explanation": "Correct sentence: \"We are going to change our house next month.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वे शादी करने जा रहे हैं।",
+      "options": [
+        "Are they going to come tomorrow?",
+        "We are going to solve this problem.",
+        "Are you going to go out today?",
+        "They are going to get married."
+      ],
+      "answer": "They are going to get married.",
+      "explanation": "Correct translation: \"वे शादी करने जा रहे हैं।\" = \"They are going to get married.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Are you going _____ go out today?",
+      "options": [
+        "going",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Are you going to go out today?\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I is going to buy this book.",
+      "options": [
+        "I is going to buy this book.",
+        "I am going to buy this book."
+      ],
+      "answer": "I am going to buy this book.",
+      "explanation": "Correct sentence: \"I am going to buy this book.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "वह अगले हफ्ते यात्रा करने जा रहा है।",
+      "options": [
+        "We are going to watch a movie tomorrow.",
+        "I am going to do this work tomorrow.",
+        "We are going to start a new business.",
+        "He is going to travel next week."
+      ],
+      "answer": "He is going to travel next week.",
+      "explanation": "Correct translation: \"वह अगले हफ्ते यात्रा करने जा रहा है।\" = \"He is going to travel next week.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "We are going to _____ a new business.",
+      "options": [
+        "going",
+        "to",
+        "start"
+      ],
+      "answer": "start",
+      "explanation": "Full sentence: \"We are going to start a new business.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I is going to think about this.",
+      "options": [
+        "I is going to think about this.",
+        "I am going to think about this."
+      ],
+      "answer": "I am going to think about this.",
+      "explanation": "Correct sentence: \"I am going to think about this.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "वह यह project पूरा करने जा रही है।",
+      "options": [
+        "Are you going to take this opportunity?",
+        "They are going to get married.",
+        "Are they going to come tomorrow?",
+        "She is going to finish this project."
+      ],
+      "answer": "She is going to finish this project.",
+      "explanation": "Correct translation: \"वह यह project पूरा करने जा रही है।\" = \"She is going to finish this project.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Are they going _____ come tomorrow?",
+      "options": [
+        "going",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Are they going to come tomorrow?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I is going to sleep early tonight.",
+      "options": [
+        "I is going to sleep early tonight.",
+        "I am going to sleep early tonight."
+      ],
+      "answer": "I am going to sleep early tonight.",
+      "explanation": "Correct sentence: \"I am going to sleep early tonight.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वह इंटरव्यू देने जा रहा है।",
+      "options": [
+        "I am going to tell him this.",
+        "He is going to travel next week.",
+        "We are going to watch a movie tomorrow.",
+        "He is going to give an interview."
+      ],
+      "answer": "He is going to give an interview.",
+      "explanation": "Correct translation: \"वह इंटरव्यू देने जा रहा है।\" = \"He is going to give an interview.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "We are going to _____ a movie tomorrow.",
+      "options": [
+        "to",
+        "going",
+        "watch"
+      ],
+      "answer": "watch",
+      "explanation": "Full sentence: \"We are going to watch a movie tomorrow.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I is not going to repeat this mistake.",
+      "options": [
+        "I is not going to repeat this mistake.",
+        "I am not going to repeat this mistake."
+      ],
+      "answer": "I am not going to repeat this mistake.",
+      "explanation": "Correct sentence: \"I am not going to repeat this mistake.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह अपना खुद का घर खरीदने जा रही है।",
+      "options": [
+        "We are going to change our house next month.",
+        "She is going to finish this project.",
+        "Are you going to take this opportunity?",
+        "She is going to buy her own house."
+      ],
+      "answer": "She is going to buy her own house.",
+      "explanation": "Correct translation: \"वह अपना खुद का घर खरीदने जा रही है।\" = \"She is going to buy her own house.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Are you going _____ take this opportunity?",
+      "options": [
+        "going",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Are you going to take this opportunity?\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "We is going to solve this problem.",
+      "options": [
+        "We is going to solve this problem.",
+        "We are going to solve this problem."
+      ],
+      "answer": "We are going to solve this problem.",
+      "explanation": "Correct sentence: \"We are going to solve this problem.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "वे नई नौकरी ढूंढने जा रहे हैं।",
+      "options": [
+        "I am going to buy this book.",
+        "He is going to give an interview.",
+        "I am going to tell him this.",
+        "They are going to look for a new job."
+      ],
+      "answer": "They are going to look for a new job.",
+      "explanation": "Correct translation: \"वे नई नौकरी ढूंढने जा रहे हैं।\" = \"They are going to look for a new job.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I am going _____ tell him this.",
+      "options": [
+        "going",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I am going to tell him this.\""
+    }
+  ]
+}

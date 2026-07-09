@@ -1,0 +1,303 @@
+{
+  "day": 14,
+  "topic": "Use of Let's",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "चलो शुरू करते हैं।",
+      "options": [
+        "Let's study together.",
+        "Let's solve this problem.",
+        "Let's practice.",
+        "Let's start."
+      ],
+      "answer": "Let's start.",
+      "explanation": "Correct translation: \"चलो शुरू करते हैं।\" = \"Let's start.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Let's _____ something.",
+      "options": [
+        "rest",
+        "tomorrow",
+        "positive",
+        "eat"
+      ],
+      "answer": "eat",
+      "explanation": "Full sentence: \"Let's eat something.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Let's go to the park yesterday.",
+      "options": [
+        "Let's go to the park yesterday.",
+        "Let's go to the park."
+      ],
+      "answer": "Let's go to the park.",
+      "explanation": "Correct sentence: \"Let's go to the park.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "चलो एक फिल्म देखते हैं।",
+      "options": [
+        "Let's work together.",
+        "Let's not decide right now.",
+        "Let's start.",
+        "Let's watch a movie."
+      ],
+      "answer": "Let's watch a movie.",
+      "explanation": "Correct translation: \"चलो एक फिल्म देखते हैं।\" = \"Let's watch a movie.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Let's talk _____ this.",
+      "options": [
+        "new",
+        "home",
+        "something",
+        "about"
+      ],
+      "answer": "about",
+      "explanation": "Full sentence: \"Let's talk about this.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Let's hurry up yesterday.",
+      "options": [
+        "Let's hurry up yesterday.",
+        "Let's hurry up."
+      ],
+      "answer": "Let's hurry up.",
+      "explanation": "Correct sentence: \"Let's hurry up.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "चलो देर मत करते हैं।",
+      "options": [
+        "Let's go for a walk.",
+        "Let's not fight now.",
+        "Let's watch a movie.",
+        "Let's not be late."
+      ],
+      "answer": "Let's not be late.",
+      "explanation": "Correct translation: \"चलो देर मत करते हैं।\" = \"Let's not be late.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Let's _____ together.",
+      "options": [
+        "problem",
+        "practice",
+        "this",
+        "study"
+      ],
+      "answer": "study",
+      "explanation": "Full sentence: \"Let's study together.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Let's take some rest yesterday.",
+      "options": [
+        "Let's take some rest yesterday.",
+        "Let's take some rest."
+      ],
+      "answer": "Let's take some rest.",
+      "explanation": "Correct sentence: \"Let's take some rest.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "चलो मीटिंग शुरू करते हैं।",
+      "options": [
+        "Let's have tea.",
+        "Let's help each other.",
+        "Let's not be late.",
+        "Let's start the meeting."
+      ],
+      "answer": "Let's start the meeting.",
+      "explanation": "Correct translation: \"चलो मीटिंग शुरू करते हैं।\" = \"Let's start the meeting.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Let's _____ together.",
+      "options": [
+        "right",
+        "start",
+        "together",
+        "work"
+      ],
+      "answer": "work",
+      "explanation": "Full sentence: \"Let's work together.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Let's learn something new yesterday.",
+      "options": [
+        "Let's learn something new yesterday.",
+        "Let's learn something new."
+      ],
+      "answer": "Let's learn something new.",
+      "explanation": "Correct sentence: \"Let's learn something new.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "चलो योजना बनाते हैं।",
+      "options": [
+        "Let's speak the truth.",
+        "Let's go to the park.",
+        "Let's start the meeting.",
+        "Let's make a plan."
+      ],
+      "answer": "Let's make a plan.",
+      "explanation": "Correct translation: \"चलो योजना बनाते हैं।\" = \"Let's make a plan.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Let's go _____ a walk.",
+      "options": [
+        "now",
+        "movie",
+        "together",
+        "for"
+      ],
+      "answer": "for",
+      "explanation": "Full sentence: \"Let's go for a walk.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Let's solve this problem yesterday.",
+      "options": [
+        "Let's solve this problem yesterday.",
+        "Let's solve this problem."
+      ],
+      "answer": "Let's solve this problem.",
+      "explanation": "Correct sentence: \"Let's solve this problem.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "चलो कल मिलते हैं।",
+      "options": [
+        "Let's think positive.",
+        "Let's hurry up.",
+        "Let's make a plan.",
+        "Let's meet tomorrow."
+      ],
+      "answer": "Let's meet tomorrow.",
+      "explanation": "Correct translation: \"चलो कल मिलते हैं।\" = \"Let's meet tomorrow.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Let's _____ tea.",
+      "options": [
+        "other",
+        "late",
+        "a",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"Let's have tea.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Let's not decide right now yesterday.",
+      "options": [
+        "Let's not decide right now yesterday.",
+        "Let's not decide right now."
+      ],
+      "answer": "Let's not decide right now.",
+      "explanation": "Correct sentence: \"Let's not decide right now.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "चलो घर चलते हैं।",
+      "options": [
+        "Let's eat something.",
+        "Let's take some rest.",
+        "Let's meet tomorrow.",
+        "Let's go home."
+      ],
+      "answer": "Let's go home.",
+      "explanation": "Correct translation: \"चलो घर चलते हैं।\" = \"Let's go home.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Let's speak _____ truth.",
+      "options": [
+        "meeting",
+        "tea",
+        "other",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"Let's speak the truth.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "Let's not fight now yesterday.",
+      "options": [
+        "Let's not fight now yesterday.",
+        "Let's not fight now."
+      ],
+      "answer": "Let's not fight now.",
+      "explanation": "Correct sentence: \"Let's not fight now.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "चलो practice करते हैं।",
+      "options": [
+        "Let's talk about this.",
+        "Let's learn something new.",
+        "Let's go home.",
+        "Let's practice."
+      ],
+      "answer": "Let's practice.",
+      "explanation": "Correct translation: \"चलो practice करते हैं।\" = \"Let's practice.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "Let's _____ positive.",
+      "options": [
+        "up",
+        "plan",
+        "truth",
+        "think"
+      ],
+      "answer": "think",
+      "explanation": "Full sentence: \"Let's think positive.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "Let's help each other yesterday.",
+      "options": [
+        "Let's help each other yesterday.",
+        "Let's help each other."
+      ],
+      "answer": "Let's help each other.",
+      "explanation": "Correct sentence: \"Let's help each other.\""
+    }
+  ]
+}

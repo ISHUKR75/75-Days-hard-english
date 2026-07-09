@@ -1,0 +1,107 @@
+{
+  "day": 21,
+  "topic": "Used To",
+  "passage": {
+    "title": "A Day with Used To",
+    "text": "I used to go to school daily. He used to smoke. We used to live in a village. She used to play cricket. They used to study together. I used to sleep early. Did you use to live here? He used to be very shy. I used to listen to this song a lot. They used to meet every week.",
+    "hindiTranslation": "मैं रोज़ स्कूल जाता था। वह पहले सिगरेट पीता था। हम गाँव में रहते थे। वह क्रिकेट खेलती थी। वे साथ में पढ़ते थे। मैं पहले जल्दी सोता था। क्या तुम पहले यहाँ रहते थे? वह पहले बहुत शर्मीला था। मैं यह गाना बहुत सुनता था। वे हर हफ्ते मिलते थे।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I used to go...\"?",
+      "options": [
+        "He used to be very shy.",
+        "He used to wake up early.",
+        "He used to smoke.",
+        "I used to go to school daily."
+      ],
+      "answer": "I used to go to school daily.",
+      "explanation": "Stated in the passage: \"I used to go to school daily.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"He used to smoke....\"?",
+      "options": [
+        "I used to listen to this song a lot.",
+        "I used to study a lot.",
+        "We used to live in a village.",
+        "He used to smoke."
+      ],
+      "answer": "He used to smoke.",
+      "explanation": "Stated in the passage: \"He used to smoke.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"We used to live...\"?",
+      "options": [
+        "They used to meet every week.",
+        "They used to work together.",
+        "She used to play cricket.",
+        "We used to live in a village."
+      ],
+      "answer": "We used to live in a village.",
+      "explanation": "Stated in the passage: \"We used to live in a village.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"She used to play...\"?",
+      "options": [
+        "I used to play football.",
+        "Did he use to come here?",
+        "They used to study together.",
+        "She used to play cricket."
+      ],
+      "answer": "She used to play cricket.",
+      "explanation": "Stated in the passage: \"She used to play cricket.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"They used to study...\"?",
+      "options": [
+        "She used to get angry a lot.",
+        "I did not use to drink tea.",
+        "I used to sleep early.",
+        "They used to study together."
+      ],
+      "answer": "They used to study together.",
+      "explanation": "Stated in the passage: \"They used to study together.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"I used to sleep...\"?",
+      "options": [
+        "We used to go by bus.",
+        "We used to travel every year.",
+        "Did you use to live here?",
+        "I used to sleep early."
+      ],
+      "answer": "I used to sleep early.",
+      "explanation": "Stated in the passage: \"I used to sleep early.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"Did you use to...\"?",
+      "options": [
+        "I did not use to do this.",
+        "I used to go to school daily.",
+        "He used to be very shy.",
+        "Did you use to live here?"
+      ],
+      "answer": "Did you use to live here?",
+      "explanation": "Stated in the passage: \"Did you use to live here?\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"He used to be...\"?",
+      "options": [
+        "He used to wake up early.",
+        "He used to smoke.",
+        "I used to listen to this song a lot.",
+        "He used to be very shy."
+      ],
+      "answer": "He used to be very shy.",
+      "explanation": "Stated in the passage: \"He used to be very shy.\""
+    }
+  ]
+}

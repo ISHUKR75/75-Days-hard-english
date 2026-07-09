@@ -1,0 +1,287 @@
+{
+  "day": 43,
+  "topic": "Want To / Wanted To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मुझे यह सीखना है।",
+      "english": "I want to learn this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"I want to learn this.\"",
+      "difficulty": "easy",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 2,
+      "hindi": "मुझे यह सीखना था।",
+      "english": "I wanted to learn this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"I wanted to learn this.\"",
+      "difficulty": "medium",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 3,
+      "hindi": "वह डॉक्टर बनना चाहता है।",
+      "english": "He wants to become a doctor.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"He wants to become a doctor.\"",
+      "difficulty": "hard",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 4,
+      "hindi": "वह डॉक्टर बनना चाहता था।",
+      "english": "He wanted to become a doctor.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"He wanted to become a doctor.\"",
+      "difficulty": "easy",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 5,
+      "hindi": "हम travel करना चाहते हैं।",
+      "english": "We want to travel.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"We want to travel.\"",
+      "difficulty": "medium",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 6,
+      "hindi": "हम travel करना चाहते थे।",
+      "english": "We wanted to travel.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"We wanted to travel.\"",
+      "difficulty": "hard",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 7,
+      "hindi": "मैं यह किताब पढ़ना चाहता हूँ।",
+      "english": "I want to read this book.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"I want to read this book.\"",
+      "difficulty": "easy",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 8,
+      "hindi": "मैं यह किताब पढ़ना चाहता था।",
+      "english": "I wanted to read this book.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"I wanted to read this book.\"",
+      "difficulty": "medium",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 9,
+      "hindi": "वह यह नौकरी करना चाहती है।",
+      "english": "She wants to do this job.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"She wants to do this job.\"",
+      "difficulty": "hard",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 10,
+      "hindi": "वह यह नौकरी करना चाहती थी।",
+      "english": "She wanted to do this job.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"She wanted to do this job.\"",
+      "difficulty": "easy",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 11,
+      "hindi": "क्या तुम यह करना चाहते हो?",
+      "english": "Do you want to do this?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"Do you want to do this?\"",
+      "difficulty": "medium",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 12,
+      "hindi": "क्या तुम यह करना चाहते थे?",
+      "english": "Did you want to do this?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"Did you want to do this?\"",
+      "difficulty": "hard",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 13,
+      "hindi": "वे success पाना चाहते हैं।",
+      "english": "They want to achieve success.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"They want to achieve success.\"",
+      "difficulty": "easy",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 14,
+      "hindi": "वे success पाना चाहते थे।",
+      "english": "They wanted to achieve success.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"They wanted to achieve success.\"",
+      "difficulty": "medium",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 15,
+      "hindi": "मैं यह मौका लेना चाहता हूँ।",
+      "english": "I want to take this opportunity.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"I want to take this opportunity.\"",
+      "difficulty": "hard",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 16,
+      "hindi": "मैं यह मौका लेना चाहता था।",
+      "english": "I wanted to take this opportunity.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"I wanted to take this opportunity.\"",
+      "difficulty": "easy",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 17,
+      "hindi": "वह यह सच जानना चाहता है।",
+      "english": "He wants to know the truth.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"He wants to know the truth.\"",
+      "difficulty": "medium",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 18,
+      "hindi": "वह यह सच जानना चाहता था।",
+      "english": "He wanted to know the truth.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"He wanted to know the truth.\"",
+      "difficulty": "hard",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 19,
+      "hindi": "हम इसे बेहतर बनाना चाहते हैं।",
+      "english": "We want to make this better.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"We want to make this better.\"",
+      "difficulty": "easy",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    },
+    {
+      "id": 20,
+      "hindi": "हम इसे बेहतर बनाना चाहते थे।",
+      "english": "We wanted to make this better.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + want/wants to (present) / wanted to (past) + base verb",
+      "explanation": "Correct sentence: \"We wanted to make this better.\"",
+      "difficulty": "medium",
+      "tags": [
+        "want"
+      ],
+      "grammarRule": "Want To / Wanted To",
+      "category": "Want To / Wanted To practice"
+    }
+  ]
+}

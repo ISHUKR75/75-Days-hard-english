@@ -1,0 +1,255 @@
+{
+  "day": 49,
+  "topic": "Passive Voice Part 1 — Present & Past",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "यह किताब मेरे द्वारा पढ़ी जाती है।",
+      "options": [
+        "This photo is taken by me.",
+        "This mistake was made by the students.",
+        "This work is done by him.",
+        "This book is read by me."
+      ],
+      "answer": "This book is read by me.",
+      "explanation": "Correct translation: \"यह किताब मेरे द्वारा पढ़ी जाती है।\" = \"This book is read by me.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "This work is _____ by him.",
+      "options": [
+        "taken",
+        "given",
+        "written",
+        "done"
+      ],
+      "answer": "done",
+      "explanation": "Full sentence: \"This work is done by him.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "This letter were written by her.",
+      "options": [
+        "This letter were written by her.",
+        "This letter was written by her."
+      ],
+      "answer": "This letter was written by her.",
+      "explanation": "Correct sentence: \"This letter was written by her.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "खाना माँ के द्वारा बनाया जाता है।",
+      "options": [
+        "This mistake was made by him.",
+        "This email was sent yesterday.",
+        "This house was built by my grandfather.",
+        "The food is cooked by mother."
+      ],
+      "answer": "The food is cooked by mother.",
+      "explanation": "Correct translation: \"खाना माँ के द्वारा बनाया जाता है।\" = \"The food is cooked by mother.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "This house was _____ by my grandfather.",
+      "options": [
+        "prepared",
+        "solved",
+        "sung",
+        "built"
+      ],
+      "answer": "built",
+      "explanation": "Full sentence: \"This house was built by my grandfather.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "This song are sung by her.",
+      "options": [
+        "This song are sung by her.",
+        "This song is sung by her."
+      ],
+      "answer": "This song is sung by her.",
+      "explanation": "Correct sentence: \"This song is sung by her.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "यह प्रश्न मेरे द्वारा पूछा गया।",
+      "options": [
+        "This project is completed by the team.",
+        "This book is read by me.",
+        "This photo is taken by me.",
+        "This question was asked by me."
+      ],
+      "answer": "This question was asked by me.",
+      "explanation": "Correct translation: \"यह प्रश्न मेरे द्वारा पूछा गया।\" = \"This question was asked by me.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "This photo is _____ by me.",
+      "options": [
+        "made",
+        "done",
+        "given",
+        "taken"
+      ],
+      "answer": "taken",
+      "explanation": "Full sentence: \"This photo is taken by me.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "This decision were taken by the team.",
+      "options": [
+        "This decision were taken by the team.",
+        "This decision was taken by the team."
+      ],
+      "answer": "This decision was taken by the team.",
+      "explanation": "Correct sentence: \"This decision was taken by the team.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "यह पत्र डाकिये द्वारा पहुँचाया जाता है।",
+      "options": [
+        "This car is driven by him.",
+        "The food is cooked by mother.",
+        "This mistake was made by him.",
+        "This letter is delivered by the postman."
+      ],
+      "answer": "This letter is delivered by the postman.",
+      "explanation": "Correct translation: \"यह पत्र डाकिये द्वारा पहुँचाया जाता है।\" = \"This letter is delivered by the postman.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "This mistake was _____ by him.",
+      "options": [
+        "sent",
+        "built",
+        "prepared",
+        "made"
+      ],
+      "answer": "made",
+      "explanation": "Full sentence: \"This mistake was made by him.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "This report are prepared by me.",
+      "options": [
+        "This report are prepared by me.",
+        "This report is prepared by me."
+      ],
+      "answer": "This report is prepared by me.",
+      "explanation": "Correct sentence: \"This report is prepared by me.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "यह किताब लेखक द्वारा लिखी गई थी।",
+      "options": [
+        "These books are given to children.",
+        "This question was asked by me.",
+        "This project is completed by the team.",
+        "This book was written by the author."
+      ],
+      "answer": "This book was written by the author.",
+      "explanation": "Correct translation: \"यह किताब लेखक द्वारा लिखी गई थी।\" = \"This book was written by the author.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "This project is _____ by the team.",
+      "options": [
+        "read",
+        "taken",
+        "made",
+        "completed"
+      ],
+      "answer": "completed",
+      "explanation": "Full sentence: \"This project is completed by the team.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "This mistake were made by the students.",
+      "options": [
+        "This mistake were made by the students.",
+        "This mistake was made by the students."
+      ],
+      "answer": "This mistake was made by the students.",
+      "explanation": "Correct sentence: \"This mistake was made by the students.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "यह awards हर साल दिए जाते हैं।",
+      "options": [
+        "This letter was written by her.",
+        "This letter is delivered by the postman.",
+        "This car is driven by him.",
+        "These awards are given every year."
+      ],
+      "answer": "These awards are given every year.",
+      "explanation": "Correct translation: \"यह awards हर साल दिए जाते हैं।\" = \"These awards are given every year.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "This car is _____ by him.",
+      "options": [
+        "cooked",
+        "made",
+        "sent",
+        "driven"
+      ],
+      "answer": "driven",
+      "explanation": "Full sentence: \"This car is driven by him.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "This email were sent yesterday.",
+      "options": [
+        "This email were sent yesterday.",
+        "This email was sent yesterday."
+      ],
+      "answer": "This email was sent yesterday.",
+      "explanation": "Correct sentence: \"This email was sent yesterday.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह समस्या हल की गई।",
+      "options": [
+        "This song is sung by her.",
+        "This book was written by the author.",
+        "These books are given to children.",
+        "This problem was solved."
+      ],
+      "answer": "This problem was solved.",
+      "explanation": "Correct translation: \"यह समस्या हल की गई।\" = \"This problem was solved.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "These books are _____ to children.",
+      "options": [
+        "asked",
+        "completed",
+        "read",
+        "given"
+      ],
+      "answer": "given",
+      "explanation": "Full sentence: \"These books are given to children.\""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 39,
+  "topic": "Had To / Will Have To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He had to work very hard.",
+      "hindiScript": "उसे बहुत मेहनत करनी पड़ी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She will have to wake up early every day.",
+        "We had to fill the form.",
+        "I will have to go to office tomorrow.",
+        "He had to work very hard."
+      ],
+      "answer": "He had to work very hard."
+    },
+    {
+      "id": 2,
+      "audioScript": "He will have to work very hard.",
+      "hindiScript": "उसे बहुत मेहनत करनी पड़ेगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Did you have to do this?",
+        "We will have to fill the form.",
+        "He had to complete this work.",
+        "He will have to work very hard."
+      ],
+      "answer": "He will have to work very hard."
+    },
+    {
+      "id": 3,
+      "audioScript": "I had to pay money.",
+      "hindiScript": "मुझे पैसे देने पड़े।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Will you have to do this?",
+        "You did not have to do this.",
+        "He will have to complete this work.",
+        "I had to pay money."
+      ],
+      "answer": "I had to pay money."
+    },
+    {
+      "id": 4,
+      "audioScript": "I will have to pay money.",
+      "hindiScript": "मुझे पैसे देने पड़ेंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He had to work very hard.",
+        "You will not have to do this.",
+        "We had to follow the rules.",
+        "I will have to pay money."
+      ],
+      "answer": "I will have to pay money."
+    },
+    {
+      "id": 5,
+      "audioScript": "We had to fill the form.",
+      "hindiScript": "हमें फॉर्म भरना पड़ा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He will have to work very hard.",
+        "She had to give proof.",
+        "We will have to follow the rules.",
+        "We had to fill the form."
+      ],
+      "answer": "We had to fill the form."
+    },
+    {
+      "id": 6,
+      "audioScript": "We will have to fill the form.",
+      "hindiScript": "हमें फॉर्म भरना पड़ेगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I had to pay money.",
+        "She will have to give proof.",
+        "She had to wake up early every day.",
+        "We will have to fill the form."
+      ],
+      "answer": "We will have to fill the form."
+    },
+    {
+      "id": 7,
+      "audioScript": "You did not have to do this.",
+      "hindiScript": "तुम्हें ऐसा नहीं करना पड़ा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will have to pay money.",
+        "I had to go to office yesterday.",
+        "She will have to wake up early every day.",
+        "You did not have to do this."
+      ],
+      "answer": "You did not have to do this."
+    },
+    {
+      "id": 8,
+      "audioScript": "You will not have to do this.",
+      "hindiScript": "तुम्हें ऐसा नहीं करना पड़ेगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We had to fill the form.",
+        "I will have to go to office tomorrow.",
+        "Did you have to do this?",
+        "You will not have to do this."
+      ],
+      "answer": "You will not have to do this."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He had to work very hard. He will have to work very hard. I had to pay money. I will have to pay money. We had to fill the form.",
+    "hindiTranslation": "उसे बहुत मेहनत करनी पड़ी। उसे बहुत मेहनत करनी पड़ेगी। मुझे पैसे देने पड़े। मुझे पैसे देने पड़ेंगे। हमें फॉर्म भरना पड़ा।"
+  }
+}

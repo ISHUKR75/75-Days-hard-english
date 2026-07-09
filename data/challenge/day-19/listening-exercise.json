@@ -1,0 +1,114 @@
+{
+  "day": 19,
+  "topic": "Must",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He must be very intelligent.",
+      "hindiScript": "उसे बहुत बुद्धिमान होना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This must be true.",
+        "This must be a mistake.",
+        "We must be honest.",
+        "He must be very intelligent."
+      ],
+      "answer": "He must be very intelligent."
+    },
+    {
+      "id": 2,
+      "audioScript": "We must keep our promises.",
+      "hindiScript": "हमें अपने वादे रखने चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We must fulfill our responsibility.",
+        "We must respect our parents.",
+        "You must complete your own work.",
+        "We must keep our promises."
+      ],
+      "answer": "We must keep our promises."
+    },
+    {
+      "id": 3,
+      "audioScript": "You must fill this form.",
+      "hindiScript": "तुम्हें यह फॉर्म भरना ही होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You must not smoke.",
+        "You must carry your ID card.",
+        "She must be very happy.",
+        "You must fill this form."
+      ],
+      "answer": "You must fill this form."
+    },
+    {
+      "id": 4,
+      "audioScript": "We must protect the environment.",
+      "hindiScript": "हमें पर्यावरण की रक्षा करनी ही चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He must be very intelligent.",
+        "He must have worked very hard.",
+        "We must follow the rules.",
+        "We must protect the environment."
+      ],
+      "answer": "We must protect the environment."
+    },
+    {
+      "id": 5,
+      "audioScript": "This must be a mistake.",
+      "hindiScript": "यह जरूर एक गलती होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We must keep our promises.",
+        "We must stay disciplined.",
+        "You must tell the truth.",
+        "This must be a mistake."
+      ],
+      "answer": "This must be a mistake."
+    },
+    {
+      "id": 6,
+      "audioScript": "We must respect our parents.",
+      "hindiScript": "हमें अपने माता-पिता का सम्मान करना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You must fill this form.",
+        "You must wait in the queue.",
+        "We must arrive on time.",
+        "We must respect our parents."
+      ],
+      "answer": "We must respect our parents."
+    },
+    {
+      "id": 7,
+      "audioScript": "You must carry your ID card.",
+      "hindiScript": "तुम्हें अपना ID card साथ रखना ही चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We must protect the environment.",
+        "This must be big news.",
+        "You must wear a seatbelt.",
+        "You must carry your ID card."
+      ],
+      "answer": "You must carry your ID card."
+    },
+    {
+      "id": 8,
+      "audioScript": "He must have worked very hard.",
+      "hindiScript": "उसने जरूर बहुत मेहनत की होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This must be a mistake.",
+        "We must be honest.",
+        "He must be very tired.",
+        "He must have worked very hard."
+      ],
+      "answer": "He must have worked very hard."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He must be very intelligent. We must keep our promises. You must fill this form. We must protect the environment. This must be a mistake.",
+    "hindiTranslation": "उसे बहुत बुद्धिमान होना चाहिए। हमें अपने वादे रखने चाहिए। तुम्हें यह फॉर्म भरना ही होगा। हमें पर्यावरण की रक्षा करनी ही चाहिए। यह जरूर एक गलती होगी।"
+  }
+}

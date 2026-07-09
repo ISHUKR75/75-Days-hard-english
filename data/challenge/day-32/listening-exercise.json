@@ -1,0 +1,114 @@
+{
+  "day": 32,
+  "topic": "Tenses Part 1 — Present Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "They have done their homework.",
+      "hindiScript": "उन्होंने अपना homework कर लिया है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She has been working for two hours.",
+        "I have read this book.",
+        "I am eating food right now.",
+        "They have done their homework."
+      ],
+      "answer": "They have done their homework."
+    },
+    {
+      "id": 2,
+      "audioScript": "They have been playing since morning.",
+      "hindiScript": "वे सुबह से खेल रहे हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They go to school every day.",
+        "I have been reading this book for three hours.",
+        "I have eaten food.",
+        "They have been playing since morning."
+      ],
+      "answer": "They have been playing since morning."
+    },
+    {
+      "id": 3,
+      "audioScript": "I exercise every morning.",
+      "hindiScript": "मैं हर सुबह exercise करता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They are playing now.",
+        "He sings well.",
+        "I have been studying for an hour.",
+        "I exercise every morning."
+      ],
+      "answer": "I exercise every morning."
+    },
+    {
+      "id": 4,
+      "audioScript": "I am reading now.",
+      "hindiScript": "मैं अभी पढ़ रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They have done their homework.",
+        "He is singing now.",
+        "She goes to work every day.",
+        "I am reading now."
+      ],
+      "answer": "I am reading now."
+    },
+    {
+      "id": 5,
+      "audioScript": "I have read this book.",
+      "hindiScript": "मैंने यह किताब पढ़ ली है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They have been playing since morning.",
+        "He has sung a new song.",
+        "She is working right now.",
+        "I have read this book."
+      ],
+      "answer": "I have read this book."
+    },
+    {
+      "id": 6,
+      "audioScript": "I have been reading this book for three hours.",
+      "hindiScript": "मैं तीन घंटे से यह किताब पढ़ रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I exercise every morning.",
+        "He has been singing for half an hour.",
+        "She has finished her work.",
+        "I have been reading this book for three hours."
+      ],
+      "answer": "I have been reading this book for three hours."
+    },
+    {
+      "id": 7,
+      "audioScript": "He sings well.",
+      "hindiScript": "वह अच्छा गाता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am reading now.",
+        "I eat rice every day.",
+        "She has been working for two hours.",
+        "He sings well."
+      ],
+      "answer": "He sings well."
+    },
+    {
+      "id": 8,
+      "audioScript": "He is singing now.",
+      "hindiScript": "वह अभी गा रहा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have read this book.",
+        "I am eating food right now.",
+        "They go to school every day.",
+        "He is singing now."
+      ],
+      "answer": "He is singing now."
+    }
+  ],
+  "dictationPassage": {
+    "text": "They have done their homework. They have been playing since morning. I exercise every morning. I am reading now. I have read this book.",
+    "hindiTranslation": "उन्होंने अपना homework कर लिया है। वे सुबह से खेल रहे हैं। मैं हर सुबह exercise करता हूँ। मैं अभी पढ़ रहा हूँ। मैंने यह किताब पढ़ ली है।"
+  }
+}

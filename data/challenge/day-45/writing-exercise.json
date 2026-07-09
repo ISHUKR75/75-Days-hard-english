@@ -1,0 +1,46 @@
+{
+  "day": 45,
+  "topic": "Fond Of",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Fond Of.",
+      "hindiPrompt": "Fond Of का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I am fond of music. He is fond of reading. She is fond of swimming. We are fond of traveling. They are fond of sweets.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Fond Of.",
+      "hindiPrompt": "Fond Of का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Are you fond of dancing? I am fond of photography. He is fond of animals. She is fond of art. We are fond of exploring new places.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"उन्हें cricket खेलना पसंद है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "They are fond of playing cricket.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"We is fond of traveling.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "We are fond of traveling.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Fond Of.",
+      "hindiPrompt": "Fond Of का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "He is fond of cooking. She is fond of gardening. We are fond of watching movies. They are fond of singing.",
+      "wordLimit": 60
+    }
+  ]
+}

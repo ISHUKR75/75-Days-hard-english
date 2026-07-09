@@ -1,0 +1,114 @@
+{
+  "day": 49,
+  "topic": "Passive Voice Part 1 — Present & Past",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "This mistake was made by him.",
+      "hindiScript": "यह गलती उसके द्वारा की गई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This photo is taken by me.",
+        "This mistake was made by the students.",
+        "This work is done by him.",
+        "This mistake was made by him."
+      ],
+      "answer": "This mistake was made by him."
+    },
+    {
+      "id": 2,
+      "audioScript": "This report is prepared by me.",
+      "hindiScript": "यह रिपोर्ट मेरे द्वारा तैयार की जाती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This decision was taken by the team.",
+        "These awards are given every year.",
+        "This letter was written by her.",
+        "This report is prepared by me."
+      ],
+      "answer": "This report is prepared by me."
+    },
+    {
+      "id": 3,
+      "audioScript": "This book was written by the author.",
+      "hindiScript": "यह किताब लेखक द्वारा लिखी गई थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This letter is delivered by the postman.",
+        "This car is driven by him.",
+        "The food is cooked by mother.",
+        "This book was written by the author."
+      ],
+      "answer": "This book was written by the author."
+    },
+    {
+      "id": 4,
+      "audioScript": "This project is completed by the team.",
+      "hindiScript": "यह project team के द्वारा पूरा किया जाता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This mistake was made by him.",
+        "This email was sent yesterday.",
+        "This house was built by my grandfather.",
+        "This project is completed by the team."
+      ],
+      "answer": "This project is completed by the team."
+    },
+    {
+      "id": 5,
+      "audioScript": "This mistake was made by the students.",
+      "hindiScript": "यह mistake छात्रों द्वारा की गई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This report is prepared by me.",
+        "This problem was solved.",
+        "This song is sung by her.",
+        "This mistake was made by the students."
+      ],
+      "answer": "This mistake was made by the students."
+    },
+    {
+      "id": 6,
+      "audioScript": "These awards are given every year.",
+      "hindiScript": "यह awards हर साल दिए जाते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This book was written by the author.",
+        "These books are given to children.",
+        "This question was asked by me.",
+        "These awards are given every year."
+      ],
+      "answer": "These awards are given every year."
+    },
+    {
+      "id": 7,
+      "audioScript": "This car is driven by him.",
+      "hindiScript": "यह गाड़ी उसके द्वारा चलाई जाती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This project is completed by the team.",
+        "This book is read by me.",
+        "This photo is taken by me.",
+        "This car is driven by him."
+      ],
+      "answer": "This car is driven by him."
+    },
+    {
+      "id": 8,
+      "audioScript": "This email was sent yesterday.",
+      "hindiScript": "यह email कल भेजा गया था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This mistake was made by the students.",
+        "This work is done by him.",
+        "This decision was taken by the team.",
+        "This email was sent yesterday."
+      ],
+      "answer": "This email was sent yesterday."
+    }
+  ],
+  "dictationPassage": {
+    "text": "This mistake was made by him. This report is prepared by me. This book was written by the author. This project is completed by the team. This mistake was made by the students.",
+    "hindiTranslation": "यह गलती उसके द्वारा की गई। यह रिपोर्ट मेरे द्वारा तैयार की जाती है। यह किताब लेखक द्वारा लिखी गई थी। यह project team के द्वारा पूरा किया जाता है। यह mistake छात्रों द्वारा की गई।"
+  }
+}

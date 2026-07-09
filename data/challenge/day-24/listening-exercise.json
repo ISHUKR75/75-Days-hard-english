@@ -1,0 +1,114 @@
+{
+  "day": 24,
+  "topic": "Must Have",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "We must have chosen the right path.",
+      "hindiScript": "हमने जरूर सही रास्ता चुना होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They must have spent a lot of money.",
+        "She must have been sad.",
+        "He must have been tired.",
+        "We must have chosen the right path."
+      ],
+      "answer": "We must have chosen the right path."
+    },
+    {
+      "id": 2,
+      "audioScript": "He must have studied hard.",
+      "hindiScript": "उसने जरूर मेहनत से पढ़ाई की होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He must have called me.",
+        "They must have seen this.",
+        "They must have made a mistake.",
+        "He must have studied hard."
+      ],
+      "answer": "He must have studied hard."
+    },
+    {
+      "id": 3,
+      "audioScript": "They must have succeeded.",
+      "hindiScript": "वे जरूर सफल हुए होंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She must have gone there.",
+        "He must have thought a lot.",
+        "She must have told the truth.",
+        "They must have succeeded."
+      ],
+      "answer": "They must have succeeded."
+    },
+    {
+      "id": 4,
+      "audioScript": "He must have talked to me.",
+      "hindiScript": "उसने जरूर मुझसे बात की होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We must have chosen the right path.",
+        "She must have reached home.",
+        "We must have been late.",
+        "He must have talked to me."
+      ],
+      "answer": "He must have talked to me."
+    },
+    {
+      "id": 5,
+      "audioScript": "She must have been sad.",
+      "hindiScript": "वह जरूर उदास हुई होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He must have studied hard.",
+        "We must have done it right.",
+        "He must have read this book.",
+        "She must have been sad."
+      ],
+      "answer": "She must have been sad."
+    },
+    {
+      "id": 6,
+      "audioScript": "They must have seen this.",
+      "hindiScript": "उन्होंने जरूर यह देख लिया होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They must have succeeded.",
+        "He must have broken the promise.",
+        "She must have been very happy.",
+        "They must have seen this."
+      ],
+      "answer": "They must have seen this."
+    },
+    {
+      "id": 7,
+      "audioScript": "He must have thought a lot.",
+      "hindiScript": "उसने जरूर बहुत सोचा होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He must have talked to me.",
+        "He must have worked very hard.",
+        "They must have spent a lot of money.",
+        "He must have thought a lot."
+      ],
+      "answer": "He must have thought a lot."
+    },
+    {
+      "id": 8,
+      "audioScript": "She must have reached home.",
+      "hindiScript": "वह जरूर घर पहुंच गई होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She must have been sad.",
+        "He must have been tired.",
+        "He must have called me.",
+        "She must have reached home."
+      ],
+      "answer": "She must have reached home."
+    }
+  ],
+  "dictationPassage": {
+    "text": "We must have chosen the right path. He must have studied hard. They must have succeeded. He must have talked to me. She must have been sad.",
+    "hindiTranslation": "हमने जरूर सही रास्ता चुना होगा। उसने जरूर मेहनत से पढ़ाई की होगी। वे जरूर सफल हुए होंगे। उसने जरूर मुझसे बात की होगी। वह जरूर उदास हुई होगी।"
+  }
+}

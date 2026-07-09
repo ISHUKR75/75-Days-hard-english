@@ -1,0 +1,107 @@
+{
+  "day": 34,
+  "topic": "Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "passage": {
+    "title": "A Day with Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+    "text": "I will eat rice tomorrow. I will be eating food at 8 pm. I will have eaten food by 8 pm. I will have been eating for an hour by 8 pm. She will go to work tomorrow. She will be working at 5 pm. She will have finished her work by 5 pm. She will have been working for two hours by 5 pm. They will go to school tomorrow. They will be playing at 3 pm.",
+    "hindiTranslation": "मैं कल चावल खाऊँगा। 8 बजे मैं खाना खा रहा होऊँगा। 8 बजे तक मैं खाना खा चुका होऊँगा। 8 बजे तक मैं एक घंटे से खा रहा होऊँगा। वह कल काम पर जाएगी। 5 बजे वह काम कर रही होगी। 5 बजे तक वह काम खत्म कर चुकी होगी। 5 बजे तक वह दो घंटे से काम कर रही होगी। वे कल स्कूल जाएंगे। 3 बजे वे खेल रहे होंगे।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I will eat rice...\"?",
+      "options": [
+        "She will have been working for two hours by 5 pm.",
+        "I will have read this book by 7 pm.",
+        "I will be eating food at 8 pm.",
+        "I will eat rice tomorrow."
+      ],
+      "answer": "I will eat rice tomorrow.",
+      "explanation": "Stated in the passage: \"I will eat rice tomorrow.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I will be eating...\"?",
+      "options": [
+        "They will go to school tomorrow.",
+        "I will have been reading for three hours by 7 pm.",
+        "I will have eaten food by 8 pm.",
+        "I will be eating food at 8 pm."
+      ],
+      "answer": "I will be eating food at 8 pm.",
+      "explanation": "Stated in the passage: \"I will be eating food at 8 pm.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"I will have eaten...\"?",
+      "options": [
+        "They will be playing at 3 pm.",
+        "He will sing a song next week.",
+        "I will have been eating for an hour by 8 pm.",
+        "I will have eaten food by 8 pm."
+      ],
+      "answer": "I will have eaten food by 8 pm.",
+      "explanation": "Stated in the passage: \"I will have eaten food by 8 pm.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I will have been...\"?",
+      "options": [
+        "They will have done their homework by 3 pm.",
+        "He will be singing at 6 pm.",
+        "She will go to work tomorrow.",
+        "I will have been eating for an hour by 8 pm."
+      ],
+      "answer": "I will have been eating for an hour by 8 pm.",
+      "explanation": "Stated in the passage: \"I will have been eating for an hour by 8 pm.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"She will go to...\"?",
+      "options": [
+        "They will have been playing for an hour by 3 pm.",
+        "He will have sung the song by 6 pm.",
+        "She will be working at 5 pm.",
+        "She will go to work tomorrow."
+      ],
+      "answer": "She will go to work tomorrow.",
+      "explanation": "Stated in the passage: \"She will go to work tomorrow.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"She will be working...\"?",
+      "options": [
+        "I will exercise tomorrow morning.",
+        "He will have been singing for half an hour by 6 pm.",
+        "She will have finished her work by 5 pm.",
+        "She will be working at 5 pm."
+      ],
+      "answer": "She will be working at 5 pm.",
+      "explanation": "Stated in the passage: \"She will be working at 5 pm.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"She will have finished...\"?",
+      "options": [
+        "I will be reading at 7 pm.",
+        "I will eat rice tomorrow.",
+        "She will have been working for two hours by 5 pm.",
+        "She will have finished her work by 5 pm."
+      ],
+      "answer": "She will have finished her work by 5 pm.",
+      "explanation": "Stated in the passage: \"She will have finished her work by 5 pm.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She will have been...\"?",
+      "options": [
+        "I will have read this book by 7 pm.",
+        "I will be eating food at 8 pm.",
+        "They will go to school tomorrow.",
+        "She will have been working for two hours by 5 pm."
+      ],
+      "answer": "She will have been working for two hours by 5 pm.",
+      "explanation": "Stated in the passage: \"She will have been working for two hours by 5 pm.\""
+    }
+  ]
+}

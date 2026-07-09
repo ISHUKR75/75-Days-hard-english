@@ -1,0 +1,255 @@
+{
+  "day": 31,
+  "topic": "Revision of Days 21-30",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं रोज़ स्कूल जाता था।",
+      "options": [
+        "He might have gone, but I am not sure.",
+        "He used to smoke.",
+        "I could swim when I was a child.",
+        "I used to go to school daily."
+      ],
+      "answer": "I used to go to school daily.",
+      "explanation": "Correct translation: \"मैं रोज़ स्कूल जाता था।\" = \"I used to go to school daily.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I could swim when _____ was a child.",
+      "options": [
+        "tomorrow",
+        "read",
+        "come",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "Full sentence: \"I could swim when I was a child.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I should have come earlier yesterday.",
+      "options": [
+        "I should have come earlier yesterday.",
+        "I should have come earlier."
+      ],
+      "answer": "I should have come earlier.",
+      "explanation": "Correct sentence: \"I should have come earlier.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसने जरूर बहुत मेहनत की होगी।",
+      "options": [
+        "Could you help me?",
+        "We ought to follow the rules.",
+        "I could have done this earlier.",
+        "He must have worked very hard."
+      ],
+      "answer": "He must have worked very hard.",
+      "explanation": "Correct translation: \"उसने जरूर बहुत मेहनत की होगी।\" = \"He must have worked very hard.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I could have _____ this earlier.",
+      "options": [
+        "apologized",
+        "heard",
+        "known",
+        "done"
+      ],
+      "answer": "done",
+      "explanation": "Full sentence: \"I could have done this earlier.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "If I had known, I would have come yesterday.",
+      "options": [
+        "If I had known, I would have come yesterday.",
+        "If I had known, I would have come."
+      ],
+      "answer": "If I had known, I would have come.",
+      "explanation": "Correct sentence: \"If I had known, I would have come.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "वह शायद वहाँ गया होगा।",
+      "options": [
+        "Shall I close the door?",
+        "I used to go to school daily.",
+        "He might have gone, but I am not sure.",
+        "He may have gone there."
+      ],
+      "answer": "He may have gone there.",
+      "explanation": "Correct translation: \"वह शायद वहाँ गया होगा।\" = \"He may have gone there.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He might have gone, _____ I am not sure.",
+      "options": [
+        "smoke",
+        "when",
+        "tomorrow",
+        "but"
+      ],
+      "answer": "but",
+      "explanation": "Full sentence: \"He might have gone, but I am not sure.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I will come tomorrow yesterday.",
+      "options": [
+        "I will come tomorrow yesterday.",
+        "I will come tomorrow."
+      ],
+      "answer": "I will come tomorrow.",
+      "explanation": "Correct sentence: \"I will come tomorrow.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "हमें अपने माता-पिता की इज्जत करनी चाहिए।",
+      "options": [
+        "You could have told me.",
+        "He must have worked very hard.",
+        "Could you help me?",
+        "We ought to respect our parents."
+      ],
+      "answer": "We ought to respect our parents.",
+      "explanation": "Correct translation: \"हमें अपने माता-पिता की इज्जत करनी चाहिए।\" = \"We ought to respect our parents.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Could you _____ me?",
+      "options": [
+        "follow",
+        "done",
+        "apologized",
+        "help"
+      ],
+      "answer": "help",
+      "explanation": "Full sentence: \"Could you help me?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "You should have apologized to him yesterday.",
+      "options": [
+        "You should have apologized to him yesterday.",
+        "You should have apologized to him."
+      ],
+      "answer": "You should have apologized to him.",
+      "explanation": "Correct sentence: \"You should have apologized to him.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "उसने ऐसा कहने की हिम्मत की।",
+      "options": [
+        "We will meet tomorrow.",
+        "He may have gone there.",
+        "Shall I close the door?",
+        "He dared to say this."
+      ],
+      "answer": "He dared to say this.",
+      "explanation": "Correct translation: \"उसने ऐसा कहने की हिम्मत की।\" = \"He dared to say this.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Shall I _____ the door?",
+      "options": [
+        "go",
+        "gone",
+        "smoke",
+        "close"
+      ],
+      "answer": "close",
+      "explanation": "Full sentence: \"Shall I close the door?\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "He used to smoke yesterday.",
+      "options": [
+        "He used to smoke yesterday.",
+        "He used to smoke."
+      ],
+      "answer": "He used to smoke.",
+      "explanation": "Correct sentence: \"He used to smoke.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "शायद उसने यह किताब पढ़ी होगी।",
+      "options": [
+        "I should have come earlier.",
+        "We ought to respect our parents.",
+        "You could have told me.",
+        "She may have read this book."
+      ],
+      "answer": "She may have read this book.",
+      "explanation": "Correct translation: \"शायद उसने यह किताब पढ़ी होगी।\" = \"She may have read this book.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "You could _____ told me.",
+      "options": [
+        "worked",
+        "me",
+        "follow",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"You could have told me.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "We ought to follow the rules yesterday.",
+      "options": [
+        "We ought to follow the rules yesterday.",
+        "We ought to follow the rules."
+      ],
+      "answer": "We ought to follow the rules.",
+      "explanation": "Correct sentence: \"We ought to follow the rules.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "शायद उसने यह सुना होगा।",
+      "options": [
+        "If I had known, I would have come.",
+        "He dared to say this.",
+        "We will meet tomorrow.",
+        "She might have heard this."
+      ],
+      "answer": "She might have heard this.",
+      "explanation": "Correct translation: \"शायद उसने यह सुना होगा।\" = \"She might have heard this.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "We will _____ tomorrow.",
+      "options": [
+        "gone",
+        "the",
+        "go",
+        "meet"
+      ],
+      "answer": "meet",
+      "explanation": "Full sentence: \"We will meet tomorrow.\""
+    }
+  ]
+}

@@ -1,0 +1,114 @@
+{
+  "day": 37,
+  "topic": "Prepositions Part 2 — Direction & Movement (To, From, Into, Onto, Through, Across, Along)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "We came through the tunnel.",
+      "hindiScript": "हम टनल से निकले।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am going home from the office.",
+        "The water was poured into the bottle.",
+        "He came from Delhi.",
+        "We came through the tunnel."
+      ],
+      "answer": "We came through the tunnel."
+    },
+    {
+      "id": 2,
+      "audioScript": "She went across the bridge.",
+      "hindiScript": "वह पुल के उस पार गई।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He jumped into the water.",
+        "He climbed onto the roof.",
+        "The cat went into the room.",
+        "She went across the bridge."
+      ],
+      "answer": "She went across the bridge."
+    },
+    {
+      "id": 3,
+      "audioScript": "We walked along the beach.",
+      "hindiScript": "हम समुद्र किनारे चले।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The children climbed onto the bus.",
+        "The air is coming through the window.",
+        "He climbed onto the table.",
+        "We walked along the beach."
+      ],
+      "answer": "We walked along the beach."
+    },
+    {
+      "id": 4,
+      "audioScript": "I am going from Mumbai to Delhi.",
+      "hindiScript": "मैं मुंबई से दिल्ली जा रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We came through the tunnel.",
+        "We went across the field.",
+        "We passed through the forest.",
+        "I am going from Mumbai to Delhi."
+      ],
+      "answer": "I am going from Mumbai to Delhi."
+    },
+    {
+      "id": 5,
+      "audioScript": "The water was poured into the bottle.",
+      "hindiScript": "पानी बोतल में डाला।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She went across the bridge.",
+        "We walked along the path.",
+        "He went across the road.",
+        "The water was poured into the bottle."
+      ],
+      "answer": "The water was poured into the bottle."
+    },
+    {
+      "id": 6,
+      "audioScript": "He climbed onto the roof.",
+      "hindiScript": "वह छत पर चढ़ गया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We walked along the beach.",
+        "This train goes from Delhi to Mumbai.",
+        "We walked along the river.",
+        "He climbed onto the roof."
+      ],
+      "answer": "He climbed onto the roof."
+    },
+    {
+      "id": 7,
+      "audioScript": "The air is coming through the window.",
+      "hindiScript": "हवा खिड़की से आ रही है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am going from Mumbai to Delhi.",
+        "I am going to school.",
+        "I am going home from the office.",
+        "The air is coming through the window."
+      ],
+      "answer": "The air is coming through the window."
+    },
+    {
+      "id": 8,
+      "audioScript": "We went across the field.",
+      "hindiScript": "हम मैदान के उस पार गए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The water was poured into the bottle.",
+        "He came from Delhi.",
+        "He jumped into the water.",
+        "We went across the field."
+      ],
+      "answer": "We went across the field."
+    }
+  ],
+  "dictationPassage": {
+    "text": "We came through the tunnel. She went across the bridge. We walked along the beach. I am going from Mumbai to Delhi. The water was poured into the bottle.",
+    "hindiTranslation": "हम टनल से निकले। वह पुल के उस पार गई। हम समुद्र किनारे चले। मैं मुंबई से दिल्ली जा रहा हूँ। पानी बोतल में डाला।"
+  }
+}

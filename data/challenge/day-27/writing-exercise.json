@@ -1,0 +1,46 @@
+{
+  "day": 27,
+  "topic": "May Have",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using May Have.",
+      "hindiPrompt": "May Have का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "He may have gone there. She may have read this book. They may have called me. He may have made a mistake. She may have forgotten.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using May Have.",
+      "hindiPrompt": "May Have का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "They may have seen this. He may have told the truth. She may have arrived late. We may have chosen the wrong path. He may not have told me the truth.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"शायद वह बीमार रही होगी।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "She may have been sick.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"He mays have made a mistake.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "He may have made a mistake.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using May Have.",
+      "hindiPrompt": "May Have का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "He may have forgotten this. She may have already left. They may have changed the decision. He may have recognized me.",
+      "wordLimit": 60
+    }
+  ]
+}

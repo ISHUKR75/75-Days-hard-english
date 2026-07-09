@@ -1,0 +1,114 @@
+{
+  "day": 20,
+  "topic": "Revision + Speaking Practice (Days 11-19)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He wanted a new car.",
+      "hindiScript": "वह एक नई कार चाहता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "May I come in?",
+        "She can speak English.",
+        "I wanted water.",
+        "He wanted a new car."
+      ],
+      "answer": "He wanted a new car."
+    },
+    {
+      "id": 2,
+      "audioScript": "Let him go.",
+      "hindiScript": "उसे जाने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We must follow the rules.",
+        "We should work hard.",
+        "Let me tell you.",
+        "Let him go."
+      ],
+      "answer": "Let him go."
+    },
+    {
+      "id": 3,
+      "audioScript": "Let's eat something.",
+      "hindiScript": "चलो कुछ खाते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He wants a new job.",
+        "He may be right.",
+        "Let's start.",
+        "Let's eat something."
+      ],
+      "answer": "Let's eat something."
+    },
+    {
+      "id": 4,
+      "audioScript": "We would like to have a coffee.",
+      "hindiScript": "हम एक coffee लेना चाहेंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He wanted a new car.",
+        "You must tell the truth.",
+        "I would like to meet you.",
+        "We would like to have a coffee."
+      ],
+      "answer": "We would like to have a coffee."
+    },
+    {
+      "id": 5,
+      "audioScript": "She can speak English.",
+      "hindiScript": "वह अंग्रेजी बोल सकती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let him go.",
+        "Do you want tea?",
+        "I can swim.",
+        "She can speak English."
+      ],
+      "answer": "She can speak English."
+    },
+    {
+      "id": 6,
+      "audioScript": "We should work hard.",
+      "hindiScript": "हमें कड़ी मेहनत करनी चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's eat something.",
+        "Did you want tea?",
+        "You should drink more water.",
+        "We should work hard."
+      ],
+      "answer": "We should work hard."
+    },
+    {
+      "id": 7,
+      "audioScript": "He may be right.",
+      "hindiScript": "वह सही हो सकता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We would like to have a coffee.",
+        "I want water.",
+        "May I come in?",
+        "He may be right."
+      ],
+      "answer": "He may be right."
+    },
+    {
+      "id": 8,
+      "audioScript": "You must tell the truth.",
+      "hindiScript": "तुम्हें सच बोलना ही चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She can speak English.",
+        "I wanted water.",
+        "We must follow the rules.",
+        "You must tell the truth."
+      ],
+      "answer": "You must tell the truth."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He wanted a new car. Let him go. Let's eat something. We would like to have a coffee. She can speak English.",
+    "hindiTranslation": "वह एक नई कार चाहता था। उसे जाने दो। चलो कुछ खाते हैं। हम एक coffee लेना चाहेंगे। वह अंग्रेजी बोल सकती है।"
+  }
+}

@@ -1,0 +1,239 @@
+{
+  "day": 45,
+  "topic": "Fond Of",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे संगीत बहुत पसंद है।",
+      "options": [
+        "He is fond of animals.",
+        "We are fond of watching movies.",
+        "He is fond of reading.",
+        "I am fond of music."
+      ],
+      "answer": "I am fond of music.",
+      "explanation": "Correct translation: \"मुझे संगीत बहुत पसंद है।\" = \"I am fond of music.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He is _____ of reading.",
+      "options": [
+        "of",
+        "fond"
+      ],
+      "answer": "fond",
+      "explanation": "Full sentence: \"He is fond of reading.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "She are fond of swimming.",
+      "options": [
+        "She are fond of swimming.",
+        "She is fond of swimming."
+      ],
+      "answer": "She is fond of swimming.",
+      "explanation": "Correct sentence: \"She is fond of swimming.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "हमें travel करना बहुत पसंद है।",
+      "options": [
+        "They are fond of playing cricket.",
+        "He is fond of writing.",
+        "They are fond of sweets.",
+        "We are fond of traveling."
+      ],
+      "answer": "We are fond of traveling.",
+      "explanation": "Correct translation: \"हमें travel करना बहुत पसंद है।\" = \"We are fond of traveling.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "They are _____ of sweets.",
+      "options": [
+        "of",
+        "fond"
+      ],
+      "answer": "fond",
+      "explanation": "Full sentence: \"They are fond of sweets.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Are you fond of dancing? yesterday.",
+      "options": [
+        "Are you fond of dancing? yesterday.",
+        "Are you fond of dancing?"
+      ],
+      "answer": "Are you fond of dancing?",
+      "explanation": "Correct sentence: \"Are you fond of dancing?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मुझे फोटो खींचना पसंद है।",
+      "options": [
+        "She is fond of gardening.",
+        "I am fond of music.",
+        "He is fond of animals.",
+        "I am fond of photography."
+      ],
+      "answer": "I am fond of photography.",
+      "explanation": "Correct translation: \"मुझे फोटो खींचना पसंद है।\" = \"I am fond of photography.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He is _____ of animals.",
+      "options": [
+        "of",
+        "fond"
+      ],
+      "answer": "fond",
+      "explanation": "Full sentence: \"He is fond of animals.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "She are fond of art.",
+      "options": [
+        "She are fond of art.",
+        "She is fond of art."
+      ],
+      "answer": "She is fond of art.",
+      "explanation": "Correct sentence: \"She is fond of art.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "हमें नई जगहें देखना पसंद है।",
+      "options": [
+        "I am fond of nature.",
+        "We are fond of traveling.",
+        "They are fond of playing cricket.",
+        "We are fond of exploring new places."
+      ],
+      "answer": "We are fond of exploring new places.",
+      "explanation": "Correct translation: \"हमें नई जगहें देखना पसंद है।\" = \"We are fond of exploring new places.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "They are fond _____ playing cricket.",
+      "options": [
+        "of"
+      ],
+      "answer": "of",
+      "explanation": "Full sentence: \"They are fond of playing cricket.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I is fond of reading books.",
+      "options": [
+        "I is fond of reading books.",
+        "I am fond of reading books."
+      ],
+      "answer": "I am fond of reading books.",
+      "explanation": "Correct sentence: \"I am fond of reading books.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वह खाना बनाने का शौकीन है।",
+      "options": [
+        "We are fond of spending time together.",
+        "I am fond of photography.",
+        "She is fond of gardening.",
+        "He is fond of cooking."
+      ],
+      "answer": "He is fond of cooking.",
+      "explanation": "Correct translation: \"वह खाना बनाने का शौकीन है।\" = \"He is fond of cooking.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "She is _____ of gardening.",
+      "options": [
+        "of",
+        "fond"
+      ],
+      "answer": "fond",
+      "explanation": "Full sentence: \"She is fond of gardening.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "We is fond of watching movies.",
+      "options": [
+        "We is fond of watching movies.",
+        "We are fond of watching movies."
+      ],
+      "answer": "We are fond of watching movies.",
+      "explanation": "Correct sentence: \"We are fond of watching movies.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "उन्हें गाना गाना पसंद है।",
+      "options": [
+        "She is fond of swimming.",
+        "We are fond of exploring new places.",
+        "I am fond of nature.",
+        "They are fond of singing."
+      ],
+      "answer": "They are fond of singing.",
+      "explanation": "Correct translation: \"उन्हें गाना गाना पसंद है।\" = \"They are fond of singing.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I am _____ of nature.",
+      "options": [
+        "of",
+        "fond"
+      ],
+      "answer": "fond",
+      "explanation": "Full sentence: \"I am fond of nature.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He are fond of writing.",
+      "options": [
+        "He are fond of writing.",
+        "He is fond of writing."
+      ],
+      "answer": "He is fond of writing.",
+      "explanation": "Correct sentence: \"He is fond of writing.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उसे नई भाषाएं सीखना पसंद है।",
+      "options": [
+        "Are you fond of dancing?",
+        "He is fond of cooking.",
+        "We are fond of spending time together.",
+        "She is fond of learning new languages."
+      ],
+      "answer": "She is fond of learning new languages.",
+      "explanation": "Correct translation: \"उसे नई भाषाएं सीखना पसंद है।\" = \"She is fond of learning new languages.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "We are fond _____ spending time together.",
+      "options": [
+        "of"
+      ],
+      "answer": "of",
+      "explanation": "Full sentence: \"We are fond of spending time together.\""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "day": 14,
+  "topic": "Use of Let's",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Use of Let's.",
+      "hindiPrompt": "Use of Let's का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "Let's start. Let's eat something. Let's go to the park. Let's watch a movie. Let's talk about this.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Use of Let's.",
+      "hindiPrompt": "Use of Let's का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Let's hurry up. Let's not be late. Let's study together. Let's take some rest. Let's start the meeting.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"चलो एक साथ काम करते हैं।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Let's work together.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Let's watch a movie yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Let's watch a movie.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Use of Let's.",
+      "hindiPrompt": "Use of Let's का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Let's make a plan. Let's go for a walk. Let's solve this problem. Let's meet tomorrow.",
+      "wordLimit": 60
+    }
+  ]
+}

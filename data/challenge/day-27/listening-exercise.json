@@ -1,0 +1,114 @@
+{
+  "day": 27,
+  "topic": "May Have",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "She may have been sick.",
+      "hindiScript": "शायद वह बीमार रही होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She may have arrived late.",
+        "They may have changed the decision.",
+        "She may have read this book.",
+        "She may have been sick."
+      ],
+      "answer": "She may have been sick."
+    },
+    {
+      "id": 2,
+      "audioScript": "They may not have seen my message.",
+      "hindiScript": "शायद उन्होंने मेरा message नहीं देखा होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We may have chosen the wrong path.",
+        "He may have recognized me.",
+        "They may have called me.",
+        "They may not have seen my message."
+      ],
+      "answer": "They may not have seen my message."
+    },
+    {
+      "id": 3,
+      "audioScript": "He may have forgotten this.",
+      "hindiScript": "शायद वह इसे भूल गया होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He may not have told me the truth.",
+        "She may not have gone there.",
+        "He may have made a mistake.",
+        "He may have forgotten this."
+      ],
+      "answer": "He may have forgotten this."
+    },
+    {
+      "id": 4,
+      "audioScript": "She may have already left.",
+      "hindiScript": "शायद वह पहले ही जा चुकी होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She may have been sick.",
+        "They may have done it right.",
+        "She may have forgotten.",
+        "She may have already left."
+      ],
+      "answer": "She may have already left."
+    },
+    {
+      "id": 5,
+      "audioScript": "They may have changed the decision.",
+      "hindiScript": "शायद उन्होंने decision बदल दिया होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They may not have seen my message.",
+        "He may have told me.",
+        "They may have seen this.",
+        "They may have changed the decision."
+      ],
+      "answer": "They may have changed the decision."
+    },
+    {
+      "id": 6,
+      "audioScript": "He may have recognized me.",
+      "hindiScript": "शायद उसने मुझे पहचान लिया होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He may have forgotten this.",
+        "She may have been tired.",
+        "He may have told the truth.",
+        "He may have recognized me."
+      ],
+      "answer": "He may have recognized me."
+    },
+    {
+      "id": 7,
+      "audioScript": "She may not have gone there.",
+      "hindiScript": "शायद वह वहाँ नहीं गई होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She may have already left.",
+        "He may have gone there.",
+        "She may have arrived late.",
+        "She may not have gone there."
+      ],
+      "answer": "She may not have gone there."
+    },
+    {
+      "id": 8,
+      "audioScript": "They may have done it right.",
+      "hindiScript": "शायद उन्होंने सही किया होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They may have changed the decision.",
+        "She may have read this book.",
+        "We may have chosen the wrong path.",
+        "They may have done it right."
+      ],
+      "answer": "They may have done it right."
+    }
+  ],
+  "dictationPassage": {
+    "text": "She may have been sick. They may not have seen my message. He may have forgotten this. She may have already left. They may have changed the decision.",
+    "hindiTranslation": "शायद वह बीमार रही होगी। शायद उन्होंने मेरा message नहीं देखा होगा। शायद वह इसे भूल गया होगा। शायद वह पहले ही जा चुकी होगी। शायद उन्होंने decision बदल दिया होगा।"
+  }
+}

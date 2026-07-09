@@ -1,0 +1,114 @@
+{
+  "day": 16,
+  "topic": "Can",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "They can arrive on time.",
+      "hindiScript": "वे समय पर पहुँच सकते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He can drive a car.",
+        "Can you come today?",
+        "Can you show me the way?",
+        "They can arrive on time."
+      ],
+      "answer": "They can arrive on time."
+    },
+    {
+      "id": 2,
+      "audioScript": "Can I ask a question?",
+      "hindiScript": "क्या मैं एक सवाल पूछ सकता हूँ?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Can you say that again?",
+        "I can fix this.",
+        "She can repair any machine.",
+        "Can I ask a question?"
+      ],
+      "answer": "Can I ask a question?"
+    },
+    {
+      "id": 3,
+      "audioScript": "She can sing very well.",
+      "hindiScript": "वह बहुत अच्छा गाना गा सकती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I can understand this.",
+        "He can learn any language.",
+        "We can work together.",
+        "She can sing very well."
+      ],
+      "answer": "She can sing very well."
+    },
+    {
+      "id": 4,
+      "audioScript": "We can complete this project.",
+      "hindiScript": "हम यह project पूरा कर सकते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They can arrive on time.",
+        "Can I sit here?",
+        "I can swim.",
+        "We can complete this project."
+      ],
+      "answer": "We can complete this project."
+    },
+    {
+      "id": 5,
+      "audioScript": "Can you come today?",
+      "hindiScript": "क्या तुम आज आ सकते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Can I ask a question?",
+        "We can make this better.",
+        "She can speak English.",
+        "Can you come today?"
+      ],
+      "answer": "Can you come today?"
+    },
+    {
+      "id": 6,
+      "audioScript": "I can fix this.",
+      "hindiScript": "मैं इसे ठीक कर सकता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She can sing very well.",
+        "They can find a solution to any problem.",
+        "Can I go?",
+        "I can fix this."
+      ],
+      "answer": "I can fix this."
+    },
+    {
+      "id": 7,
+      "audioScript": "He can learn any language.",
+      "hindiScript": "वह किसी भी भाषा सीख सकता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We can complete this project.",
+        "I could not do this before.",
+        "They can do this work.",
+        "He can learn any language."
+      ],
+      "answer": "He can learn any language."
+    },
+    {
+      "id": 8,
+      "audioScript": "Can I sit here?",
+      "hindiScript": "क्या मैं यहाँ बैठ सकता हूँ?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Can you come today?",
+        "Can you show me the way?",
+        "We can meet tomorrow.",
+        "Can I sit here?"
+      ],
+      "answer": "Can I sit here?"
+    }
+  ],
+  "dictationPassage": {
+    "text": "They can arrive on time. Can I ask a question? She can sing very well. We can complete this project. Can you come today?",
+    "hindiTranslation": "वे समय पर पहुँच सकते हैं। क्या मैं एक सवाल पूछ सकता हूँ? वह बहुत अच्छा गाना गा सकती है। हम यह project पूरा कर सकते हैं। क्या तुम आज आ सकते हो?"
+  }
+}

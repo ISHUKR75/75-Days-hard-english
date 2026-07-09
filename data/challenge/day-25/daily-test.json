@@ -1,0 +1,255 @@
+{
+  "day": 25,
+  "topic": "Could Have",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं यह पहले कर सकता था।",
+      "options": [
+        "I could have helped you.",
+        "You could have come earlier.",
+        "You could have told me.",
+        "I could have done this earlier."
+      ],
+      "answer": "I could have done this earlier.",
+      "explanation": "Correct translation: \"मैं यह पहले कर सकता था।\" = \"I could have done this earlier.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "You could _____ told me.",
+      "options": [
+        "told",
+        "read",
+        "done",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"You could have told me.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He coulds have done this work easily.",
+      "options": [
+        "He coulds have done this work easily.",
+        "He could have done this work easily."
+      ],
+      "answer": "He could have done this work easily.",
+      "explanation": "Correct sentence: \"He could have done this work easily.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "हम समय पर पहुँच सकते थे।",
+      "options": [
+        "You could have called me.",
+        "I could have taken that job.",
+        "She could have taken this opportunity.",
+        "We could have arrived on time."
+      ],
+      "answer": "We could have arrived on time.",
+      "explanation": "Correct translation: \"हम समय पर पहुँच सकते थे।\" = \"We could have arrived on time.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "She could have _____ this opportunity.",
+      "options": [
+        "saved",
+        "fixed",
+        "avoided",
+        "taken"
+      ],
+      "answer": "taken",
+      "explanation": "Full sentence: \"She could have taken this opportunity.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "You coulds have avoided this mistake.",
+      "options": [
+        "You coulds have avoided this mistake.",
+        "You could have avoided this mistake."
+      ],
+      "answer": "You could have avoided this mistake.",
+      "explanation": "Correct sentence: \"You could have avoided this mistake.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "वे जीत सकते थे।",
+      "options": [
+        "They could have stopped it.",
+        "I could have done this earlier.",
+        "I could have helped you.",
+        "They could have won."
+      ],
+      "answer": "They could have won.",
+      "explanation": "Correct translation: \"वे जीत सकते थे।\" = \"They could have won.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I could _____ helped you.",
+      "options": [
+        "come",
+        "told",
+        "read",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"I could have helped you.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "He coulds have told the truth.",
+      "options": [
+        "He coulds have told the truth.",
+        "He could have told the truth."
+      ],
+      "answer": "He could have told the truth.",
+      "explanation": "Correct sentence: \"He could have told the truth.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "हम इसे बेहतर बना सकते थे।",
+      "options": [
+        "We could have worked harder.",
+        "We could have arrived on time.",
+        "You could have called me.",
+        "We could have made it better."
+      ],
+      "answer": "We could have made it better.",
+      "explanation": "Correct translation: \"हम इसे बेहतर बना सकते थे।\" = \"We could have made it better.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "You could _____ called me.",
+      "options": [
+        "taken",
+        "saved",
+        "fixed",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"You could have called me.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She coulds have saved money.",
+      "options": [
+        "She coulds have saved money.",
+        "She could have saved money."
+      ],
+      "answer": "She could have saved money.",
+      "explanation": "Correct sentence: \"She could have saved money.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैं वहाँ जा सकता था।",
+      "options": [
+        "You could not have taken this decision.",
+        "They could have won.",
+        "They could have stopped it.",
+        "I could have gone there."
+      ],
+      "answer": "I could have gone there.",
+      "explanation": "Correct translation: \"मैं वहाँ जा सकता था।\" = \"I could have gone there.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "They could _____ stopped it.",
+      "options": [
+        "done",
+        "helped",
+        "come",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"They could have stopped it.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "You coulds have come earlier.",
+      "options": [
+        "You coulds have come earlier.",
+        "You could have come earlier."
+      ],
+      "answer": "You could have come earlier.",
+      "explanation": "Correct sentence: \"You could have come earlier.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह यह किताब पढ़ सकता था।",
+      "options": [
+        "He could have done this work easily.",
+        "We could have made it better.",
+        "We could have worked harder.",
+        "He could have read this book."
+      ],
+      "answer": "He could have read this book.",
+      "explanation": "Correct translation: \"वह यह किताब पढ़ सकता था।\" = \"He could have read this book.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "We could _____ worked harder.",
+      "options": [
+        "arrived",
+        "called",
+        "taken",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"We could have worked harder.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I coulds have taken that job.",
+      "options": [
+        "I coulds have taken that job.",
+        "I could have taken that job."
+      ],
+      "answer": "I could have taken that job.",
+      "explanation": "Correct sentence: \"I could have taken that job.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "वह इसे ठीक कर सकती थी।",
+      "options": [
+        "You could have avoided this mistake.",
+        "I could have gone there.",
+        "You could not have taken this decision.",
+        "She could have fixed it."
+      ],
+      "answer": "She could have fixed it.",
+      "explanation": "Correct translation: \"वह इसे ठीक कर सकती थी।\" = \"She could have fixed it.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "You could not _____ taken this decision.",
+      "options": [
+        "won",
+        "stopped",
+        "done",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"You could not have taken this decision.\""
+    }
+  ]
+}

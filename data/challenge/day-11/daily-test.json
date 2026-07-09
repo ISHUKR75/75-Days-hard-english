@@ -1,0 +1,316 @@
+{
+  "day": 11,
+  "topic": "Use of Want",
+  "totalQuestions": 25,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे पानी चाहिए।",
+      "options": [
+        "I do not want this book.",
+        "They want peace.",
+        "I do not want any mistake.",
+        "I want water."
+      ],
+      "answer": "I want water.",
+      "explanation": "Correct translation: \"मुझे पानी चाहिए।\" = \"I want water.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I want _____ go home.",
+      "options": [
+        "talk",
+        "finish",
+        "any",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I want to go home.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He want a new job.",
+      "options": [
+        "He want a new job.",
+        "He wants a new job."
+      ],
+      "answer": "He wants a new job.",
+      "explanation": "Correct sentence: \"He wants a new job.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वह English सीखना चाहती है।",
+      "options": [
+        "Do you want coffee?",
+        "Do you want to go outside?",
+        "I want this opportunity.",
+        "She wants to learn English."
+      ],
+      "answer": "She wants to learn English.",
+      "explanation": "Correct translation: \"वह English सीखना चाहती है।\" = \"She wants to learn English.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We want _____ big house.",
+      "options": [
+        "become",
+        "better",
+        "water",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"We want a big house.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "They wants to finish this project.",
+      "options": [
+        "They wants to finish this project.",
+        "They want to finish this project."
+      ],
+      "answer": "They want to finish this project.",
+      "explanation": "Correct sentence: \"They want to finish this project.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "क्या तुम्हें चाय चाहिए?",
+      "options": [
+        "I want your help.",
+        "She wants to start her own business.",
+        "He wants a new job.",
+        "Do you want tea?"
+      ],
+      "answer": "Do you want tea?",
+      "explanation": "Correct translation: \"क्या तुम्हें चाय चाहिए?\" = \"Do you want tea?\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I do not _____ this book.",
+      "options": [
+        "peace",
+        "learn",
+        "coffee",
+        "want"
+      ],
+      "answer": "want",
+      "explanation": "Full sentence: \"I do not want this book.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "He want to talk to me.",
+      "options": [
+        "He want to talk to me.",
+        "He wants to talk to me."
+      ],
+      "answer": "He wants to talk to me.",
+      "explanation": "Correct sentence: \"He wants to talk to me.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मुझे कुछ आराम चाहिए।",
+      "options": [
+        "He wants a promotion.",
+        "They want success.",
+        "They want to finish this project.",
+        "I want some rest."
+      ],
+      "answer": "I want some rest.",
+      "explanation": "Correct translation: \"मुझे कुछ आराम चाहिए।\" = \"I want some rest.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Do you _____ coffee?",
+      "options": [
+        "to",
+        "opportunity",
+        "tea",
+        "want"
+      ],
+      "answer": "want",
+      "explanation": "Full sentence: \"Do you want coffee?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She want to become a doctor.",
+      "options": [
+        "She want to become a doctor.",
+        "She wants to become a doctor."
+      ],
+      "answer": "She wants to become a doctor.",
+      "explanation": "Correct sentence: \"She wants to become a doctor.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हमें और जानकारी चाहिए।",
+      "options": [
+        "I want to know the truth.",
+        "I want to go home.",
+        "He wants to talk to me.",
+        "We want more information."
+      ],
+      "answer": "We want more information.",
+      "explanation": "Correct translation: \"हमें और जानकारी चाहिए।\" = \"We want more information.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I want _____ help.",
+      "options": [
+        "start",
+        "new",
+        "rest",
+        "your"
+      ],
+      "answer": "your",
+      "explanation": "Full sentence: \"I want your help.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "They wants peace.",
+      "options": [
+        "They wants peace.",
+        "They want peace."
+      ],
+      "answer": "They want peace.",
+      "explanation": "Correct sentence: \"They want peace.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मुझे इस काम को जल्दी खत्म करना है।",
+      "options": [
+        "Do you want any help?",
+        "We want a big house.",
+        "She wants to become a doctor.",
+        "I want to finish this work quickly."
+      ],
+      "answer": "I want to finish this work quickly.",
+      "explanation": "Correct translation: \"मुझे इस काम को जल्दी खत्म करना है।\" = \"I want to finish this work quickly.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He wants _____ promotion.",
+      "options": [
+        "success",
+        "finish",
+        "information",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"He wants a promotion.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Do you wants to go outside?",
+      "options": [
+        "Do you wants to go outside?",
+        "Do you want to go outside?"
+      ],
+      "answer": "Do you want to go outside?",
+      "explanation": "Correct sentence: \"Do you want to go outside?\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हम एक बेहतर भविष्य चाहते हैं।",
+      "options": [
+        "I want water.",
+        "I do not want this book.",
+        "They want peace.",
+        "We want a better future."
+      ],
+      "answer": "We want a better future.",
+      "explanation": "Correct translation: \"हम एक बेहतर भविष्य चाहते हैं।\" = \"We want a better future.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I want to _____ the truth.",
+      "options": [
+        "go",
+        "talk",
+        "finish",
+        "know"
+      ],
+      "answer": "know",
+      "explanation": "Full sentence: \"I want to know the truth.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "She want to start her own business.",
+      "options": [
+        "She want to start her own business.",
+        "She wants to start her own business."
+      ],
+      "answer": "She wants to start her own business.",
+      "explanation": "Correct sentence: \"She wants to start her own business.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "मुझे कोई गलती नहीं चाहिए।",
+      "options": [
+        "She wants to learn English.",
+        "Do you want coffee?",
+        "Do you want to go outside?",
+        "I do not want any mistake."
+      ],
+      "answer": "I do not want any mistake.",
+      "explanation": "Correct translation: \"मुझे कोई गलती नहीं चाहिए।\" = \"I do not want any mistake.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "Do you _____ any help?",
+      "options": [
+        "big",
+        "become",
+        "better",
+        "want"
+      ],
+      "answer": "want",
+      "explanation": "Full sentence: \"Do you want any help?\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "They wants success.",
+      "options": [
+        "They wants success.",
+        "They want success."
+      ],
+      "answer": "They want success.",
+      "explanation": "Correct sentence: \"They want success.\""
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "मुझे यह मौका चाहिए।",
+      "options": [
+        "Do you want tea?",
+        "I want your help.",
+        "She wants to start her own business.",
+        "I want this opportunity."
+      ],
+      "answer": "I want this opportunity.",
+      "explanation": "Correct translation: \"मुझे यह मौका चाहिए।\" = \"I want this opportunity.\""
+    }
+  ]
+}

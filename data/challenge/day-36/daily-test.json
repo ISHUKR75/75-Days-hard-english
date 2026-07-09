@@ -1,0 +1,255 @@
+{
+  "day": 36,
+  "topic": "Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "किताब मेज पर है।",
+      "options": [
+        "This book is between mine and yours.",
+        "We travel in summer.",
+        "The cat is under the table.",
+        "The book is on the table."
+      ],
+      "answer": "The book is on the table.",
+      "explanation": "Correct translation: \"किताब मेज पर है।\" = \"The book is on the table.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "The cat is _____ the table.",
+      "options": [
+        "among",
+        "on",
+        "the",
+        "under"
+      ],
+      "answer": "under",
+      "explanation": "Full sentence: \"The cat is under the table.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "We are in the room yesterday.",
+      "options": [
+        "We are in the room yesterday.",
+        "We are in the room."
+      ],
+      "answer": "We are in the room.",
+      "explanation": "Correct sentence: \"We are in the room.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मैं 5 बजे आऊँगा।",
+      "options": [
+        "He is standing at the door.",
+        "He is sitting between two friends.",
+        "My birthday is in January.",
+        "I will come at 5 pm."
+      ],
+      "answer": "I will come at 5 pm.",
+      "explanation": "Correct translation: \"मैं 5 बजे आऊँगा।\" = \"I will come at 5 pm.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "My birthday _____ in January.",
+      "options": [
+        "on",
+        "very",
+        "playing",
+        "is"
+      ],
+      "answer": "is",
+      "explanation": "Full sentence: \"My birthday is in January.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "The meeting are on Monday.",
+      "options": [
+        "The meeting are on Monday.",
+        "The meeting is on Monday."
+      ],
+      "answer": "The meeting is on Monday.",
+      "explanation": "Correct sentence: \"The meeting is on Monday.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "लैंप टेबल के ऊपर है।",
+      "options": [
+        "My meeting is at 10 am.",
+        "The book is on the table.",
+        "This book is between mine and yours.",
+        "The lamp is over the table."
+      ],
+      "answer": "The lamp is over the table.",
+      "explanation": "Correct translation: \"लैंप टेबल के ऊपर है।\" = \"The lamp is over the table.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "This book is _____ mine and yours.",
+      "options": [
+        "summer",
+        "under",
+        "among",
+        "between"
+      ],
+      "answer": "between",
+      "explanation": "Full sentence: \"This book is between mine and yours.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "This competition are among three teams.",
+      "options": [
+        "This competition are among three teams.",
+        "This competition is among three teams."
+      ],
+      "answer": "This competition is among three teams.",
+      "explanation": "Correct sentence: \"This competition is among three teams.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "हम दिल्ली में रहते हैं।",
+      "options": [
+        "The bridge is over the river.",
+        "I will come at 5 pm.",
+        "He is standing at the door.",
+        "We live in Delhi."
+      ],
+      "answer": "We live in Delhi.",
+      "explanation": "Correct translation: \"हम दिल्ली में रहते हैं।\" = \"We live in Delhi.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He is standing _____ the door.",
+      "options": [
+        "between",
+        "in",
+        "on",
+        "at"
+      ],
+      "answer": "at",
+      "explanation": "Full sentence: \"He is standing at the door.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "The book are on the shelf.",
+      "options": [
+        "The book are on the shelf.",
+        "The book is on the shelf."
+      ],
+      "answer": "The book is on the shelf.",
+      "explanation": "Correct sentence: \"The book is on the shelf.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "बच्चे बगीचे में खेल रहे हैं।",
+      "options": [
+        "I work in the office.",
+        "The lamp is over the table.",
+        "My meeting is at 10 am.",
+        "The children are playing in the garden."
+      ],
+      "answer": "The children are playing in the garden.",
+      "explanation": "Correct translation: \"बच्चे बगीचे में खेल रहे हैं।\" = \"The children are playing in the garden.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "My meeting is _____ 10 am.",
+      "options": [
+        "on",
+        "between",
+        "summer",
+        "at"
+      ],
+      "answer": "at",
+      "explanation": "Full sentence: \"My meeting is at 10 am.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "We travel in summer yesterday.",
+      "options": [
+        "We travel in summer yesterday.",
+        "We travel in summer."
+      ],
+      "answer": "We travel in summer.",
+      "explanation": "Correct sentence: \"We travel in summer.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "उसकी शादी शुक्रवार को है।",
+      "options": [
+        "We are in the room.",
+        "We live in Delhi.",
+        "The bridge is over the river.",
+        "His wedding is on Friday."
+      ],
+      "answer": "His wedding is on Friday.",
+      "explanation": "Correct translation: \"उसकी शादी शुक्रवार को है।\" = \"His wedding is on Friday.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "The bridge is _____ the river.",
+      "options": [
+        "at",
+        "between",
+        "in",
+        "over"
+      ],
+      "answer": "over",
+      "explanation": "Full sentence: \"The bridge is over the river.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He are sitting between two friends.",
+      "options": [
+        "He are sitting between two friends.",
+        "He is sitting between two friends."
+      ],
+      "answer": "He is sitting between two friends.",
+      "explanation": "Correct sentence: \"He is sitting between two friends.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह किताब सभी छात्रों के बीच बहुत पसंद है।",
+      "options": [
+        "The meeting is on Monday.",
+        "The children are playing in the garden.",
+        "I work in the office.",
+        "This book is very popular among all students."
+      ],
+      "answer": "This book is very popular among all students.",
+      "explanation": "Correct translation: \"यह किताब सभी छात्रों के बीच बहुत पसंद है।\" = \"This book is very popular among all students.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I work _____ the office.",
+      "options": [
+        "over",
+        "at",
+        "on",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"I work in the office.\""
+    }
+  ]
+}

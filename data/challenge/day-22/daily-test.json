@@ -1,0 +1,255 @@
+{
+  "day": 22,
+  "topic": "Could",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं बचपन में तैर सकता था।",
+      "options": [
+        "Could you tell me again?",
+        "Could you close the door?",
+        "Could you help me?",
+        "I could swim when I was a child."
+      ],
+      "answer": "I could swim when I was a child.",
+      "explanation": "Correct translation: \"मैं बचपन में तैर सकता था।\" = \"I could swim when I was a child.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Could you _____ me?",
+      "options": [
+        "rain",
+        "any",
+        "fast",
+        "help"
+      ],
+      "answer": "help",
+      "explanation": "Full sentence: \"Could you help me?\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He coulds run fast before.",
+      "options": [
+        "He coulds run fast before.",
+        "He could run fast before."
+      ],
+      "answer": "He could run fast before.",
+      "explanation": "Correct sentence: \"He could run fast before.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "यह सच हो सकता है।",
+      "options": [
+        "She could sing before.",
+        "Could I sit here?",
+        "Could I ask a question?",
+        "It could be true."
+      ],
+      "answer": "It could be true.",
+      "explanation": "Correct translation: \"यह सच हो सकता है।\" = \"It could be true.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Could I _____ a question?",
+      "options": [
+        "your",
+        "good",
+        "do",
+        "ask"
+      ],
+      "answer": "ask",
+      "explanation": "Full sentence: \"Could I ask a question?\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I coulds not do this before.",
+      "options": [
+        "I coulds not do this before.",
+        "I could not do this before."
+      ],
+      "answer": "I could not do this before.",
+      "explanation": "Correct sentence: \"I could not do this before.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "वे इसे पहले संभाल सकते थे।",
+      "options": [
+        "This could be a mistake.",
+        "I could swim when I was a child.",
+        "Could you tell me again?",
+        "They could handle it before."
+      ],
+      "answer": "They could handle it before.",
+      "explanation": "Correct translation: \"वे इसे पहले संभाल सकते थे।\" = \"They could handle it before.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Could you _____ me again?",
+      "options": [
+        "the",
+        "me",
+        "rain",
+        "tell"
+      ],
+      "answer": "tell",
+      "explanation": "Full sentence: \"Could you tell me again?\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "It coulds rain.",
+      "options": [
+        "It coulds rain.",
+        "It could rain."
+      ],
+      "answer": "It could rain.",
+      "explanation": "Correct sentence: \"It could rain.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैं यह किताब पढ़ सकता था।",
+      "options": [
+        "I could understand this before.",
+        "It could be true.",
+        "She could sing before.",
+        "I could read this book."
+      ],
+      "answer": "I could read this book.",
+      "explanation": "Correct translation: \"मैं यह किताब पढ़ सकता था।\" = \"I could read this book.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "She could _____ before.",
+      "options": [
+        "here",
+        "a",
+        "your",
+        "sing"
+      ],
+      "answer": "sing",
+      "explanation": "Full sentence: \"She could sing before.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Could I take your pen? yesterday.",
+      "options": [
+        "Could I take your pen? yesterday.",
+        "Could I take your pen?"
+      ],
+      "answer": "Could I take your pen?",
+      "explanation": "Correct sentence: \"Could I take your pen?\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हम पहले साथ काम कर सकते थे।",
+      "options": [
+        "They could play well before.",
+        "They could handle it before.",
+        "This could be a mistake.",
+        "We could work together before."
+      ],
+      "answer": "We could work together before.",
+      "explanation": "Correct translation: \"हम पहले साथ काम कर सकते थे।\" = \"We could work together before.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "This could _____ a mistake.",
+      "options": [
+        "when",
+        "me",
+        "the",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"This could be a mistake.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Could you close the door? yesterday.",
+      "options": [
+        "Could you close the door? yesterday.",
+        "Could you close the door?"
+      ],
+      "answer": "Could you close the door?",
+      "explanation": "Correct sentence: \"Could you close the door?\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह किसी भी भाषा सीख सकता था।",
+      "options": [
+        "He could run fast before.",
+        "I could read this book.",
+        "I could understand this before.",
+        "He could learn any language."
+      ],
+      "answer": "He could learn any language.",
+      "explanation": "Correct translation: \"वह किसी भी भाषा सीख सकता था।\" = \"He could learn any language.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I could _____ this before.",
+      "options": [
+        "true",
+        "before",
+        "here",
+        "understand"
+      ],
+      "answer": "understand",
+      "explanation": "Full sentence: \"I could understand this before.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Could I sit here? yesterday.",
+      "options": [
+        "Could I sit here? yesterday.",
+        "Could I sit here?"
+      ],
+      "answer": "Could I sit here?",
+      "explanation": "Correct sentence: \"Could I sit here?\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "यह अच्छा हो सकता है।",
+      "options": [
+        "I could not do this before.",
+        "We could work together before.",
+        "They could play well before.",
+        "This could be good."
+      ],
+      "answer": "This could be good.",
+      "explanation": "Correct translation: \"यह अच्छा हो सकता है।\" = \"This could be good.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "They could _____ well before.",
+      "options": [
+        "it",
+        "a",
+        "when",
+        "play"
+      ],
+      "answer": "play",
+      "explanation": "Full sentence: \"They could play well before.\""
+    }
+  ]
+}

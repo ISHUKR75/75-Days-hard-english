@@ -1,0 +1,114 @@
+{
+  "day": 42,
+  "topic": "About To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He is about to answer.",
+      "hindiScript": "वह अभी जवाब देने वाला है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We are about to eat food.",
+        "I was about to make this mistake, but I stopped.",
+        "I am about to go to sleep.",
+        "He is about to answer."
+      ],
+      "answer": "He is about to answer."
+    },
+    {
+      "id": 2,
+      "audioScript": "The movie is about to start.",
+      "hindiScript": "फिल्म अभी शुरू होने वाली है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The sun is about to set.",
+        "She is about to fall asleep.",
+        "She is about to speak.",
+        "The movie is about to start."
+      ],
+      "answer": "The movie is about to start."
+    },
+    {
+      "id": 3,
+      "audioScript": "I am about to apologize.",
+      "hindiScript": "मैं अभी माफी मांगने वाला हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am about to make this decision.",
+        "We are about to begin.",
+        "It is about to rain.",
+        "I am about to apologize."
+      ],
+      "answer": "I am about to apologize."
+    },
+    {
+      "id": 4,
+      "audioScript": "They are about to arrive.",
+      "hindiScript": "वे अभी पहुँचने वाले हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He is about to answer.",
+        "The shop is about to close.",
+        "The meeting is about to start.",
+        "They are about to arrive."
+      ],
+      "answer": "They are about to arrive."
+    },
+    {
+      "id": 5,
+      "audioScript": "I was about to make this mistake, but I stopped.",
+      "hindiScript": "मैं अभी यह गलती करने वाला था, पर रुक गया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The movie is about to start.",
+        "I am about to call him.",
+        "I am about to leave home.",
+        "I was about to make this mistake, but I stopped."
+      ],
+      "answer": "I was about to make this mistake, but I stopped."
+    },
+    {
+      "id": 6,
+      "audioScript": "She is about to fall asleep.",
+      "hindiScript": "वह अभी सो जाने वाली है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am about to apologize.",
+        "The child was about to fall.",
+        "She is about to cry.",
+        "She is about to fall asleep."
+      ],
+      "answer": "She is about to fall asleep."
+    },
+    {
+      "id": 7,
+      "audioScript": "We are about to begin.",
+      "hindiScript": "हम अभी शुरू करने वाले हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They are about to arrive.",
+        "The train is about to leave.",
+        "We are about to eat food.",
+        "We are about to begin."
+      ],
+      "answer": "We are about to begin."
+    },
+    {
+      "id": 8,
+      "audioScript": "The shop is about to close.",
+      "hindiScript": "दुकान अभी बंद होने वाली है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I was about to make this mistake, but I stopped.",
+        "I am about to go to sleep.",
+        "The sun is about to set.",
+        "The shop is about to close."
+      ],
+      "answer": "The shop is about to close."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He is about to answer. The movie is about to start. I am about to apologize. They are about to arrive. I was about to make this mistake, but I stopped.",
+    "hindiTranslation": "वह अभी जवाब देने वाला है। फिल्म अभी शुरू होने वाली है। मैं अभी माफी मांगने वाला हूँ। वे अभी पहुँचने वाले हैं। मैं अभी यह गलती करने वाला था, पर रुक गया।"
+  }
+}

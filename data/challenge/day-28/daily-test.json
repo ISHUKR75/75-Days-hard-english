@@ -1,0 +1,255 @@
+{
+  "day": 28,
+  "topic": "Might Have",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "वह शायद गया होगा, लेकिन पक्का नहीं।",
+      "options": [
+        "He might have known about this.",
+        "She might have already known.",
+        "She might have heard this.",
+        "He might have gone, but I am not sure."
+      ],
+      "answer": "He might have gone, but I am not sure.",
+      "explanation": "Correct translation: \"वह शायद गया होगा, लेकिन पक्का नहीं।\" = \"He might have gone, but I am not sure.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "She might _____ heard this.",
+      "options": [
+        "made",
+        "agreed",
+        "gone",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"She might have heard this.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "They mights have agreed with me.",
+      "options": [
+        "They mights have agreed with me.",
+        "They might have agreed with me."
+      ],
+      "answer": "They might have agreed with me.",
+      "explanation": "Correct sentence: \"They might have agreed with me.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "शायद वह वहाँ पहुँच गया होगा।",
+      "options": [
+        "He might have hidden something.",
+        "He might have arrived by now.",
+        "She might have forgotten me.",
+        "He might have reached there."
+      ],
+      "answer": "He might have reached there.",
+      "explanation": "Correct translation: \"शायद वह वहाँ पहुँच गया होगा।\" = \"He might have reached there.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "She might _____ forgotten me.",
+      "options": [
+        "slept",
+        "been",
+        "thought",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"She might have forgotten me.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "We mights have thought wrong.",
+      "options": [
+        "We mights have thought wrong.",
+        "We might have thought wrong."
+      ],
+      "answer": "We might have thought wrong.",
+      "explanation": "Correct sentence: \"We might have thought wrong.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "शायद उन्होंने यह प्लान बदल दिया होगा।",
+      "options": [
+        "He might have broken the promise.",
+        "He might have gone, but I am not sure.",
+        "He might have known about this.",
+        "They might have changed this plan."
+      ],
+      "answer": "They might have changed this plan.",
+      "explanation": "Correct translation: \"शायद उन्होंने यह प्लान बदल दिया होगा।\" = \"They might have changed this plan.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He might have _____ about this.",
+      "options": [
+        "already",
+        "heard",
+        "have",
+        "known"
+      ],
+      "answer": "known",
+      "explanation": "Full sentence: \"He might have known about this.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "She mights not have seen this.",
+      "options": [
+        "She mights not have seen this.",
+        "She might not have seen this."
+      ],
+      "answer": "She might not have seen this.",
+      "explanation": "Correct sentence: \"She might not have seen this.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "शायद हम गलत रास्ते पर चले गए होंगे।",
+      "options": [
+        "They might not have said anything.",
+        "He might have reached there.",
+        "He might have hidden something.",
+        "We might have gone the wrong way."
+      ],
+      "answer": "We might have gone the wrong way.",
+      "explanation": "Correct translation: \"शायद हम गलत रास्ते पर चले गए होंगे।\" = \"We might have gone the wrong way.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He might _____ hidden something.",
+      "options": [
+        "arrived",
+        "forgotten",
+        "slept",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"He might have hidden something.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She mights have slept late.",
+      "options": [
+        "She mights have slept late.",
+        "She might have slept late."
+      ],
+      "answer": "She might have slept late.",
+      "explanation": "Correct sentence: \"She might have slept late.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "शायद उन्होंने मेरी मदद की होगी।",
+      "options": [
+        "We might have done this better.",
+        "They might have changed this plan.",
+        "He might have broken the promise.",
+        "They might have helped me."
+      ],
+      "answer": "They might have helped me.",
+      "explanation": "Correct translation: \"शायद उन्होंने मेरी मदद की होगी।\" = \"They might have helped me.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "He might have _____ the promise.",
+      "options": [
+        "gone",
+        "known",
+        "already",
+        "broken"
+      ],
+      "answer": "broken",
+      "explanation": "Full sentence: \"He might have broken the promise.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "She mights have already known.",
+      "options": [
+        "She mights have already known.",
+        "She might have already known."
+      ],
+      "answer": "She might have already known.",
+      "explanation": "Correct sentence: \"She might have already known.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "शायद हमने गलती की होगी।",
+      "options": [
+        "They might have agreed with me.",
+        "We might have gone the wrong way.",
+        "They might not have said anything.",
+        "We might have made a mistake."
+      ],
+      "answer": "We might have made a mistake.",
+      "explanation": "Correct translation: \"शायद हमने गलती की होगी।\" = \"We might have made a mistake.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "They might not _____ said anything.",
+      "options": [
+        "reached",
+        "hidden",
+        "arrived",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"They might not have said anything.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He mights have arrived by now.",
+      "options": [
+        "He mights have arrived by now.",
+        "He might have arrived by now."
+      ],
+      "answer": "He might have arrived by now.",
+      "explanation": "Correct sentence: \"He might have arrived by now.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "शायद उसने मुझसे नाराज़ी जताई होगी।",
+      "options": [
+        "We might have thought wrong.",
+        "They might have helped me.",
+        "We might have done this better.",
+        "She might have been upset with me."
+      ],
+      "answer": "She might have been upset with me.",
+      "explanation": "Correct translation: \"शायद उसने मुझसे नाराज़ी जताई होगी।\" = \"She might have been upset with me.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "We might have _____ this better.",
+      "options": [
+        "changed",
+        "broken",
+        "gone",
+        "done"
+      ],
+      "answer": "done",
+      "explanation": "Full sentence: \"We might have done this better.\""
+    }
+  ]
+}

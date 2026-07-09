@@ -1,0 +1,114 @@
+{
+  "day": 21,
+  "topic": "Used To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "I used to play football.",
+      "hindiScript": "मैं पहले फुटबॉल खेलता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He used to be very shy.",
+        "He used to wake up early.",
+        "He used to smoke.",
+        "I used to play football."
+      ],
+      "answer": "I used to play football."
+    },
+    {
+      "id": 2,
+      "audioScript": "She used to get angry a lot.",
+      "hindiScript": "वह पहले बहुत गुस्सा करती थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I used to listen to this song a lot.",
+        "I used to study a lot.",
+        "We used to live in a village.",
+        "She used to get angry a lot."
+      ],
+      "answer": "She used to get angry a lot."
+    },
+    {
+      "id": 3,
+      "audioScript": "We used to go by bus.",
+      "hindiScript": "हम पहले बस से जाते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They used to meet every week.",
+        "They used to work together.",
+        "She used to play cricket.",
+        "We used to go by bus."
+      ],
+      "answer": "We used to go by bus."
+    },
+    {
+      "id": 4,
+      "audioScript": "I did not use to do this.",
+      "hindiScript": "मैं ऐसा नहीं करता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I used to play football.",
+        "Did he use to come here?",
+        "They used to study together.",
+        "I did not use to do this."
+      ],
+      "answer": "I did not use to do this."
+    },
+    {
+      "id": 5,
+      "audioScript": "He used to wake up early.",
+      "hindiScript": "वह पहले जल्दी उठता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She used to get angry a lot.",
+        "I did not use to drink tea.",
+        "I used to sleep early.",
+        "He used to wake up early."
+      ],
+      "answer": "He used to wake up early."
+    },
+    {
+      "id": 6,
+      "audioScript": "I used to study a lot.",
+      "hindiScript": "मैं पहले बहुत पढ़ता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We used to go by bus.",
+        "We used to travel every year.",
+        "Did you use to live here?",
+        "I used to study a lot."
+      ],
+      "answer": "I used to study a lot."
+    },
+    {
+      "id": 7,
+      "audioScript": "They used to work together.",
+      "hindiScript": "वे पहले साथ काम करते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I did not use to do this.",
+        "I used to go to school daily.",
+        "He used to be very shy.",
+        "They used to work together."
+      ],
+      "answer": "They used to work together."
+    },
+    {
+      "id": 8,
+      "audioScript": "Did he use to come here?",
+      "hindiScript": "क्या वह पहले यहाँ आता था?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He used to wake up early.",
+        "He used to smoke.",
+        "I used to listen to this song a lot.",
+        "Did he use to come here?"
+      ],
+      "answer": "Did he use to come here?"
+    }
+  ],
+  "dictationPassage": {
+    "text": "I used to play football. She used to get angry a lot. We used to go by bus. I did not use to do this. He used to wake up early.",
+    "hindiTranslation": "मैं पहले फुटबॉल खेलता था। वह पहले बहुत गुस्सा करती थी। हम पहले बस से जाते थे। मैं ऐसा नहीं करता था। वह पहले जल्दी उठता था।"
+  }
+}

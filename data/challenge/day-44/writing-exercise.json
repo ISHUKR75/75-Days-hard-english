@@ -1,0 +1,46 @@
+{
+  "day": 44,
+  "topic": "Need To / Needed To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Need To / Needed To.",
+      "hindiPrompt": "Need To / Needed To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I need to finish this work. I needed to finish this work. He needs to see a doctor. He needed to see a doctor. We need to drink more water.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Need To / Needed To.",
+      "hindiPrompt": "Need To / Needed To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "We needed to drink more water. I need to make this decision. I needed to make this decision. She needs to take rest. She needed to take rest.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"क्या तुम्हें यह करना है?\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Do you need to do this?",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"He needed to see a doctor yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "He needed to see a doctor.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Need To / Needed To.",
+      "hindiPrompt": "Need To / Needed To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "We need to get more information. We needed to get more information. I need to do this quickly. I needed to do this quickly.",
+      "wordLimit": 60
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "day": 37,
+  "topic": "Prepositions Part 2 — Direction & Movement (To, From, Into, Onto, Through, Across, Along)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं स्कूल जा रहा हूँ।",
+      "options": [
+        "I am going home from the office.",
+        "The water was poured into the bottle.",
+        "He came from Delhi.",
+        "I am going to school."
+      ],
+      "answer": "I am going to school.",
+      "explanation": "Correct translation: \"मैं स्कूल जा रहा हूँ।\" = \"I am going to school.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He came _____ Delhi.",
+      "options": [
+        "the",
+        "into",
+        "onto",
+        "from"
+      ],
+      "answer": "from",
+      "explanation": "Full sentence: \"He came from Delhi.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "The cat went into the room yesterday.",
+      "options": [
+        "The cat went into the room yesterday.",
+        "The cat went into the room."
+      ],
+      "answer": "The cat went into the room.",
+      "explanation": "Correct sentence: \"The cat went into the room.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वह टेबल पर चढ़ गया।",
+      "options": [
+        "We came through the tunnel.",
+        "We went across the field.",
+        "We passed through the forest.",
+        "He climbed onto the table."
+      ],
+      "answer": "He climbed onto the table.",
+      "explanation": "Correct translation: \"वह टेबल पर चढ़ गया।\" = \"He climbed onto the table.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We passed _____ the forest.",
+      "options": [
+        "the",
+        "from",
+        "to",
+        "through"
+      ],
+      "answer": "through",
+      "explanation": "Full sentence: \"We passed through the forest.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "He went across the road yesterday.",
+      "options": [
+        "He went across the road yesterday.",
+        "He went across the road."
+      ],
+      "answer": "He went across the road.",
+      "explanation": "Correct sentence: \"He went across the road.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "हम नदी के किनारे-किनारे चले।",
+      "options": [
+        "I am going from Mumbai to Delhi.",
+        "I am going to school.",
+        "I am going home from the office.",
+        "We walked along the river."
+      ],
+      "answer": "We walked along the river.",
+      "explanation": "Correct translation: \"हम नदी के किनारे-किनारे चले।\" = \"We walked along the river.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I am going _____ from the office.",
+      "options": [
+        "poured",
+        "Delhi",
+        "the",
+        "home"
+      ],
+      "answer": "home",
+      "explanation": "Full sentence: \"I am going home from the office.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "He jumped into the water yesterday.",
+      "options": [
+        "He jumped into the water yesterday.",
+        "He jumped into the water."
+      ],
+      "answer": "He jumped into the water.",
+      "explanation": "Correct sentence: \"He jumped into the water.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "बच्चे बस में चढ़ गए।",
+      "options": [
+        "The air is coming through the window.",
+        "He climbed onto the table.",
+        "We came through the tunnel.",
+        "The children climbed onto the bus."
+      ],
+      "answer": "The children climbed onto the bus.",
+      "explanation": "Correct translation: \"बच्चे बस में चढ़ गए।\" = \"The children climbed onto the bus.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "We came _____ the tunnel.",
+      "options": [
+        "the",
+        "from",
+        "to",
+        "through"
+      ],
+      "answer": "through",
+      "explanation": "Full sentence: \"We came through the tunnel.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She went across the bridge yesterday.",
+      "options": [
+        "She went across the bridge yesterday.",
+        "She went across the bridge."
+      ],
+      "answer": "She went across the bridge.",
+      "explanation": "Correct sentence: \"She went across the bridge.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हम समुद्र किनारे चले।",
+      "options": [
+        "This train goes from Delhi to Mumbai.",
+        "We walked along the river.",
+        "I am going from Mumbai to Delhi.",
+        "We walked along the beach."
+      ],
+      "answer": "We walked along the beach.",
+      "explanation": "Correct translation: \"हम समुद्र किनारे चले।\" = \"We walked along the beach.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I am going _____ Mumbai to Delhi.",
+      "options": [
+        "to",
+        "home",
+        "poured",
+        "from"
+      ],
+      "answer": "from",
+      "explanation": "Full sentence: \"I am going from Mumbai to Delhi.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "The water were poured into the bottle.",
+      "options": [
+        "The water were poured into the bottle.",
+        "The water was poured into the bottle."
+      ],
+      "answer": "The water was poured into the bottle.",
+      "explanation": "Correct sentence: \"The water was poured into the bottle.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह छत पर चढ़ गया।",
+      "options": [
+        "The cat went into the room.",
+        "The children climbed onto the bus.",
+        "The air is coming through the window.",
+        "He climbed onto the roof."
+      ],
+      "answer": "He climbed onto the roof.",
+      "explanation": "Correct translation: \"वह छत पर चढ़ गया।\" = \"He climbed onto the roof.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "The air is _____ through the window.",
+      "options": [
+        "the",
+        "from",
+        "to",
+        "coming"
+      ],
+      "answer": "coming",
+      "explanation": "Full sentence: \"The air is coming through the window.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "We went across the field yesterday.",
+      "options": [
+        "We went across the field yesterday.",
+        "We went across the field."
+      ],
+      "answer": "We went across the field.",
+      "explanation": "Correct sentence: \"We went across the field.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हम रास्ते के किनारे चले।",
+      "options": [
+        "He went across the road.",
+        "We walked along the beach.",
+        "This train goes from Delhi to Mumbai.",
+        "We walked along the path."
+      ],
+      "answer": "We walked along the path.",
+      "explanation": "Correct translation: \"हम रास्ते के किनारे चले।\" = \"We walked along the path.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "This train goes _____ Delhi to Mumbai.",
+      "options": [
+        "the",
+        "to",
+        "home",
+        "from"
+      ],
+      "answer": "from",
+      "explanation": "Full sentence: \"This train goes from Delhi to Mumbai.\""
+    }
+  ]
+}

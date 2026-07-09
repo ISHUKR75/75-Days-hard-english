@@ -1,0 +1,46 @@
+{
+  "day": 20,
+  "topic": "Revision + Speaking Practice (Days 11-19)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Revision + Speaking Practice (Days 11-19).",
+      "hindiPrompt": "Revision + Speaking Practice (Days 11-19) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I want water. I wanted water. Let me tell you. Let's start. I would like to meet you.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Revision + Speaking Practice (Days 11-19).",
+      "hindiPrompt": "Revision + Speaking Practice (Days 11-19) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I can swim. You should drink more water. May I come in? We must follow the rules. He wants a new job.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"वह एक नई कार चाहता था।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He wanted a new car.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"Let's start yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "Let's start.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Revision + Speaking Practice (Days 11-19).",
+      "hindiPrompt": "Revision + Speaking Practice (Days 11-19) का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "Let's eat something. We would like to have a coffee. She can speak English. We should work hard.",
+      "wordLimit": 60
+    }
+  ]
+}

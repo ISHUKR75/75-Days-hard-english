@@ -1,0 +1,114 @@
+{
+  "day": 29,
+  "topic": "Will / Shall",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "We will make this better.",
+      "hindiScript": "हम इसे बेहतर बनाएंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He will come back soon.",
+        "They will never give up.",
+        "She will surely succeed.",
+        "We will make this better."
+      ],
+      "answer": "We will make this better."
+    },
+    {
+      "id": 2,
+      "audioScript": "She will become a doctor in the future.",
+      "hindiScript": "वह भविष्य में डॉक्टर बनेगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will not break this promise.",
+        "I will surely try.",
+        "Shall I close the door?",
+        "She will become a doctor in the future."
+      ],
+      "answer": "She will become a doctor in the future."
+    },
+    {
+      "id": 3,
+      "audioScript": "I will finish this work tomorrow.",
+      "hindiScript": "मैं कल यह काम खत्म कर दूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Will you call me?",
+        "He will get married next year.",
+        "We will meet tomorrow.",
+        "I will finish this work tomorrow."
+      ],
+      "answer": "I will finish this work tomorrow."
+    },
+    {
+      "id": 4,
+      "audioScript": "Shall I start?",
+      "hindiScript": "क्या मैं शुरू करूँ?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We will make this better.",
+        "We will learn together.",
+        "They will complete this project.",
+        "Shall I start?"
+      ],
+      "answer": "Shall I start?"
+    },
+    {
+      "id": 5,
+      "audioScript": "They will never give up.",
+      "hindiScript": "वे कभी हार नहीं मानेंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She will become a doctor in the future.",
+        "I will not make this mistake again.",
+        "Shall we go?",
+        "They will never give up."
+      ],
+      "answer": "They will never give up."
+    },
+    {
+      "id": 6,
+      "audioScript": "I will surely try.",
+      "hindiScript": "मैं जरूर कोशिश करूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will finish this work tomorrow.",
+        "Shall we proceed?",
+        "I will help you.",
+        "I will surely try."
+      ],
+      "answer": "I will surely try."
+    },
+    {
+      "id": 7,
+      "audioScript": "He will get married next year.",
+      "hindiScript": "वह अगले साल शादी करेगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Shall I start?",
+        "I will come tomorrow.",
+        "He will come back soon.",
+        "He will get married next year."
+      ],
+      "answer": "He will get married next year."
+    },
+    {
+      "id": 8,
+      "audioScript": "We will learn together.",
+      "hindiScript": "हम साथ में सीखेंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They will never give up.",
+        "She will surely succeed.",
+        "I will not break this promise.",
+        "We will learn together."
+      ],
+      "answer": "We will learn together."
+    }
+  ],
+  "dictationPassage": {
+    "text": "We will make this better. She will become a doctor in the future. I will finish this work tomorrow. Shall I start? They will never give up.",
+    "hindiTranslation": "हम इसे बेहतर बनाएंगे। वह भविष्य में डॉक्टर बनेगी। मैं कल यह काम खत्म कर दूँगा। क्या मैं शुरू करूँ? वे कभी हार नहीं मानेंगे।"
+  }
+}

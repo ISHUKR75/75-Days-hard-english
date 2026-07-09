@@ -1,0 +1,46 @@
+{
+  "day": 28,
+  "topic": "Might Have",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Might Have.",
+      "hindiPrompt": "Might Have का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "He might have gone, but I am not sure. She might have heard this. They might have agreed with me. He might have reached there. She might have forgotten me.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Might Have.",
+      "hindiPrompt": "Might Have का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "We might have thought wrong. They might have changed this plan. He might have known about this. She might not have seen this. We might have gone the wrong way.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"शायद उसने कुछ छिपाया होगा।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He might have hidden something.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"He mights have reached there.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "He might have reached there.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Might Have.",
+      "hindiPrompt": "Might Have का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "They might have helped me. He might have broken the promise. She might have already known. We might have made a mistake.",
+      "wordLimit": 60
+    }
+  ]
+}

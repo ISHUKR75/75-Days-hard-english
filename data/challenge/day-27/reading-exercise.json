@@ -1,0 +1,107 @@
+{
+  "day": 27,
+  "topic": "May Have",
+  "passage": {
+    "title": "A Day with May Have",
+    "text": "He may have gone there. She may have read this book. They may have called me. He may have made a mistake. She may have forgotten. They may have seen this. He may have told the truth. She may have arrived late. We may have chosen the wrong path. He may not have told me the truth.",
+    "hindiTranslation": "वह शायद वहाँ गया होगा। शायद उसने यह किताब पढ़ी होगी। शायद उन्होंने मुझे फोन किया होगा। शायद वह गलती की होगी। शायद वह भूल गई होगी। शायद उन्होंने यह देखा होगा। शायद उसने सच बोला होगा। शायद वह देर से पहुँची होगी। शायद हमने गलत रास्ता चुना होगा। शायद उसने मुझसे झूठ बोला होगा।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"He may have gone...\"?",
+      "options": [
+        "She may have arrived late.",
+        "They may have changed the decision.",
+        "She may have read this book.",
+        "He may have gone there."
+      ],
+      "answer": "He may have gone there.",
+      "explanation": "Stated in the passage: \"He may have gone there.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"She may have read...\"?",
+      "options": [
+        "We may have chosen the wrong path.",
+        "He may have recognized me.",
+        "They may have called me.",
+        "She may have read this book."
+      ],
+      "answer": "She may have read this book.",
+      "explanation": "Stated in the passage: \"She may have read this book.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"They may have called...\"?",
+      "options": [
+        "He may not have told me the truth.",
+        "She may not have gone there.",
+        "He may have made a mistake.",
+        "They may have called me."
+      ],
+      "answer": "They may have called me.",
+      "explanation": "Stated in the passage: \"They may have called me.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"He may have made...\"?",
+      "options": [
+        "She may have been sick.",
+        "They may have done it right.",
+        "She may have forgotten.",
+        "He may have made a mistake."
+      ],
+      "answer": "He may have made a mistake.",
+      "explanation": "Stated in the passage: \"He may have made a mistake.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"She may have forgotten....\"?",
+      "options": [
+        "They may not have seen my message.",
+        "He may have told me.",
+        "They may have seen this.",
+        "She may have forgotten."
+      ],
+      "answer": "She may have forgotten.",
+      "explanation": "Stated in the passage: \"She may have forgotten.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"They may have seen...\"?",
+      "options": [
+        "He may have forgotten this.",
+        "She may have been tired.",
+        "He may have told the truth.",
+        "They may have seen this."
+      ],
+      "answer": "They may have seen this.",
+      "explanation": "Stated in the passage: \"They may have seen this.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"He may have told...\"?",
+      "options": [
+        "She may have already left.",
+        "He may have gone there.",
+        "She may have arrived late.",
+        "He may have told the truth."
+      ],
+      "answer": "He may have told the truth.",
+      "explanation": "Stated in the passage: \"He may have told the truth.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She may have arrived...\"?",
+      "options": [
+        "They may have changed the decision.",
+        "She may have read this book.",
+        "We may have chosen the wrong path.",
+        "She may have arrived late."
+      ],
+      "answer": "She may have arrived late.",
+      "explanation": "Stated in the passage: \"She may have arrived late.\""
+    }
+  ]
+}

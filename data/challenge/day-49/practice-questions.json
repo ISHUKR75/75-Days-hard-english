@@ -1,0 +1,287 @@
+{
+  "day": 49,
+  "topic": "Passive Voice Part 1 — Present & Past",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "यह किताब मेरे द्वारा पढ़ी जाती है।",
+      "english": "This book is read by me.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This book is read by me.\"",
+      "difficulty": "easy",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 2,
+      "hindi": "यह काम उसके द्वारा किया जाता है।",
+      "english": "This work is done by him.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This work is done by him.\"",
+      "difficulty": "medium",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 3,
+      "hindi": "यह letter उसके द्वारा लिखा गया।",
+      "english": "This letter was written by her.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This letter was written by her.\"",
+      "difficulty": "hard",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 4,
+      "hindi": "खाना माँ के द्वारा बनाया जाता है।",
+      "english": "The food is cooked by mother.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"The food is cooked by mother.\"",
+      "difficulty": "easy",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 5,
+      "hindi": "यह घर मेरे दादा जी ने बनाया था।",
+      "english": "This house was built by my grandfather.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This house was built by my grandfather.\"",
+      "difficulty": "medium",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 6,
+      "hindi": "यह गाना उसके द्वारा गाया जाता है।",
+      "english": "This song is sung by her.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This song is sung by her.\"",
+      "difficulty": "hard",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 7,
+      "hindi": "यह प्रश्न मेरे द्वारा पूछा गया।",
+      "english": "This question was asked by me.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This question was asked by me.\"",
+      "difficulty": "easy",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 8,
+      "hindi": "यह फोटो मेरे द्वारा खींची जाती है।",
+      "english": "This photo is taken by me.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This photo is taken by me.\"",
+      "difficulty": "medium",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 9,
+      "hindi": "यह decision team के द्वारा लिया गया।",
+      "english": "This decision was taken by the team.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This decision was taken by the team.\"",
+      "difficulty": "hard",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 10,
+      "hindi": "यह पत्र डाकिये द्वारा पहुँचाया जाता है।",
+      "english": "This letter is delivered by the postman.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This letter is delivered by the postman.\"",
+      "difficulty": "easy",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 11,
+      "hindi": "यह गलती उसके द्वारा की गई।",
+      "english": "This mistake was made by him.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This mistake was made by him.\"",
+      "difficulty": "medium",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 12,
+      "hindi": "यह रिपोर्ट मेरे द्वारा तैयार की जाती है।",
+      "english": "This report is prepared by me.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This report is prepared by me.\"",
+      "difficulty": "hard",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 13,
+      "hindi": "यह किताब लेखक द्वारा लिखी गई थी।",
+      "english": "This book was written by the author.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This book was written by the author.\"",
+      "difficulty": "easy",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 14,
+      "hindi": "यह project team के द्वारा पूरा किया जाता है।",
+      "english": "This project is completed by the team.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This project is completed by the team.\"",
+      "difficulty": "medium",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 15,
+      "hindi": "यह mistake छात्रों द्वारा की गई।",
+      "english": "This mistake was made by the students.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This mistake was made by the students.\"",
+      "difficulty": "hard",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 16,
+      "hindi": "यह awards हर साल दिए जाते हैं।",
+      "english": "These awards are given every year.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"These awards are given every year.\"",
+      "difficulty": "easy",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 17,
+      "hindi": "यह गाड़ी उसके द्वारा चलाई जाती है।",
+      "english": "This car is driven by him.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This car is driven by him.\"",
+      "difficulty": "medium",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 18,
+      "hindi": "यह email कल भेजा गया था।",
+      "english": "This email was sent yesterday.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This email was sent yesterday.\"",
+      "difficulty": "hard",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 19,
+      "hindi": "यह समस्या हल की गई।",
+      "english": "This problem was solved.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"This problem was solved.\"",
+      "difficulty": "easy",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    },
+    {
+      "id": 20,
+      "hindi": "यह किताबें बच्चों को दी जाती हैं।",
+      "english": "These books are given to children.",
+      "alternatives": [],
+      "hint": "Use the pattern: Object + am/is/are/was/were + V3 (past participle) + by + subject",
+      "explanation": "Correct sentence: \"These books are given to children.\"",
+      "difficulty": "medium",
+      "tags": [
+        "passive"
+      ],
+      "grammarRule": "Passive Voice Part 1 — Present & Past",
+      "category": "Passive Voice Part 1 — Present & Past practice"
+    }
+  ]
+}

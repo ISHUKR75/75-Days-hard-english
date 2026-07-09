@@ -1,0 +1,114 @@
+{
+  "day": 33,
+  "topic": "Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "They had done their homework before I told them.",
+      "hindiScript": "मेरे बताने से पहले उन्होंने homework कर लिया था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She had been working for two hours.",
+        "I had read this book before you came.",
+        "I was eating food when he came.",
+        "They had done their homework before I told them."
+      ],
+      "answer": "They had done their homework before I told them."
+    },
+    {
+      "id": 2,
+      "audioScript": "They had been playing since morning.",
+      "hindiScript": "वे सुबह से खेल रहे थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They went to school yesterday.",
+        "I had been reading this book for three hours.",
+        "I had eaten food before he came.",
+        "They had been playing since morning."
+      ],
+      "answer": "They had been playing since morning."
+    },
+    {
+      "id": 3,
+      "audioScript": "I exercised in the morning.",
+      "hindiScript": "मैंने सुबह exercise की।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They were playing when I called.",
+        "He sang a song last week.",
+        "I had been studying for an hour.",
+        "I exercised in the morning."
+      ],
+      "answer": "I exercised in the morning."
+    },
+    {
+      "id": 4,
+      "audioScript": "I was reading when you came.",
+      "hindiScript": "जब तुम आए, मैं पढ़ रहा था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They had done their homework before I told them.",
+        "He was singing when I arrived.",
+        "She went to school last year.",
+        "I was reading when you came."
+      ],
+      "answer": "I was reading when you came."
+    },
+    {
+      "id": 5,
+      "audioScript": "I had read this book before you came.",
+      "hindiScript": "तुम्हारे आने से पहले मैंने यह किताब पढ़ ली थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They had been playing since morning.",
+        "He had sung a song before I arrived.",
+        "She was working when I arrived.",
+        "I had read this book before you came."
+      ],
+      "answer": "I had read this book before you came."
+    },
+    {
+      "id": 6,
+      "audioScript": "I had been reading this book for three hours.",
+      "hindiScript": "मैं तीन घंटे से यह किताब पढ़ रहा था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I exercised in the morning.",
+        "He had been singing for half an hour.",
+        "She had finished her work before I arrived.",
+        "I had been reading this book for three hours."
+      ],
+      "answer": "I had been reading this book for three hours."
+    },
+    {
+      "id": 7,
+      "audioScript": "He sang a song last week.",
+      "hindiScript": "उसने पिछले हफ्ते एक गाना गाया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I was reading when you came.",
+        "I ate rice yesterday.",
+        "She had been working for two hours.",
+        "He sang a song last week."
+      ],
+      "answer": "He sang a song last week."
+    },
+    {
+      "id": 8,
+      "audioScript": "He was singing when I arrived.",
+      "hindiScript": "जब मैं आया, वह गा रहा था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I had read this book before you came.",
+        "I was eating food when he came.",
+        "They went to school yesterday.",
+        "He was singing when I arrived."
+      ],
+      "answer": "He was singing when I arrived."
+    }
+  ],
+  "dictationPassage": {
+    "text": "They had done their homework before I told them. They had been playing since morning. I exercised in the morning. I was reading when you came. I had read this book before you came.",
+    "hindiTranslation": "मेरे बताने से पहले उन्होंने homework कर लिया था। वे सुबह से खेल रहे थे। मैंने सुबह exercise की। जब तुम आए, मैं पढ़ रहा था। तुम्हारे आने से पहले मैंने यह किताब पढ़ ली थी।"
+  }
+}

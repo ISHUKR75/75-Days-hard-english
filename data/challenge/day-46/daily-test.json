@@ -1,0 +1,242 @@
+{
+  "day": 46,
+  "topic": "Able To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं यह काम कर पाता हूँ।",
+      "options": [
+        "They will be able to achieve this target.",
+        "They will be able to get this opportunity.",
+        "She is able to run fast.",
+        "I am able to do this work."
+      ],
+      "answer": "I am able to do this work.",
+      "explanation": "Correct translation: \"मैं यह काम कर पाता हूँ।\" = \"I am able to do this work.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "She is able _____ run fast.",
+      "options": [
+        "able",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"She is able to run fast.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I were able to complete this yesterday.",
+      "options": [
+        "I were able to complete this yesterday.",
+        "I was able to complete this yesterday."
+      ],
+      "answer": "I was able to complete this yesterday.",
+      "explanation": "Correct sentence: \"I was able to complete this yesterday.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "हम कल तक यह खत्म कर पाएंगे।",
+      "options": [
+        "Will you be able to do this on time?",
+        "We were able to accept this challenge.",
+        "He was able to solve this problem.",
+        "We will be able to finish this by tomorrow."
+      ],
+      "answer": "We will be able to finish this by tomorrow.",
+      "explanation": "Correct translation: \"हम कल तक यह खत्म कर पाएंगे।\" = \"We will be able to finish this by tomorrow.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "He was able _____ solve this problem.",
+      "options": [
+        "able",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"He was able to solve this problem.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Are you able to understand this? yesterday.",
+      "options": [
+        "Are you able to understand this? yesterday.",
+        "Are you able to understand this?"
+      ],
+      "answer": "Are you able to understand this?",
+      "explanation": "Correct sentence: \"Are you able to understand this?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं यह सीख पाया।",
+      "options": [
+        "We were able to correct our mistake.",
+        "I am able to do this work.",
+        "They will be able to achieve this target.",
+        "I was able to learn this."
+      ],
+      "answer": "I was able to learn this.",
+      "explanation": "Correct translation: \"मैं यह सीख पाया।\" = \"I was able to learn this.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "They will be able _____ achieve this target.",
+      "options": [
+        "able",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"They will be able to achieve this target.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "We is able to work together.",
+      "options": [
+        "We is able to work together.",
+        "We are able to work together."
+      ],
+      "answer": "We are able to work together.",
+      "explanation": "Correct sentence: \"We are able to work together.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "वह पहले तैर नहीं पाता था।",
+      "options": [
+        "Will he be able to complete this?",
+        "We will be able to finish this by tomorrow.",
+        "Will you be able to do this on time?",
+        "He was not able to swim before."
+      ],
+      "answer": "He was not able to swim before.",
+      "explanation": "Correct translation: \"वह पहले तैर नहीं पाता था।\" = \"He was not able to swim before.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Will you be able _____ do this on time?",
+      "options": [
+        "able",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Will you be able to do this on time?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I were able to fix this.",
+      "options": [
+        "I were able to fix this.",
+        "I was able to fix this."
+      ],
+      "answer": "I was able to fix this.",
+      "explanation": "Correct sentence: \"I was able to fix this.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वह किसी भी भाषा सीख पाती है।",
+      "options": [
+        "I was able to do this difficult work today.",
+        "I was able to learn this.",
+        "We were able to correct our mistake.",
+        "She is able to learn any language."
+      ],
+      "answer": "She is able to learn any language.",
+      "explanation": "Correct translation: \"वह किसी भी भाषा सीख पाती है।\" = \"She is able to learn any language.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "We were able _____ correct our mistake.",
+      "options": [
+        "able",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"We were able to correct our mistake.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "They will be able to get this opportunity yesterday.",
+      "options": [
+        "They will be able to get this opportunity yesterday.",
+        "They will be able to get this opportunity."
+      ],
+      "answer": "They will be able to get this opportunity.",
+      "explanation": "Correct sentence: \"They will be able to get this opportunity.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं यह पहले नहीं समझ पाता था।",
+      "options": [
+        "I was able to complete this yesterday.",
+        "He was not able to swim before.",
+        "Will he be able to complete this?",
+        "I was not able to understand this before."
+      ],
+      "answer": "I was not able to understand this before.",
+      "explanation": "Correct translation: \"मैं यह पहले नहीं समझ पाता था।\" = \"I was not able to understand this before.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Will he be _____ to complete this?",
+      "options": [
+        "to",
+        "able"
+      ],
+      "answer": "able",
+      "explanation": "Full sentence: \"Will he be able to complete this?\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "We was able to accept this challenge.",
+      "options": [
+        "We was able to accept this challenge.",
+        "We were able to accept this challenge."
+      ],
+      "answer": "We were able to accept this challenge.",
+      "explanation": "Correct sentence: \"We were able to accept this challenge.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "वह जल्दी फैसला ले पाती है।",
+      "options": [
+        "Are you able to understand this?",
+        "She is able to learn any language.",
+        "I was able to do this difficult work today.",
+        "She is able to make quick decisions."
+      ],
+      "answer": "She is able to make quick decisions.",
+      "explanation": "Correct translation: \"वह जल्दी फैसला ले पाती है।\" = \"She is able to make quick decisions.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I was able to _____ this difficult work today.",
+      "options": [
+        "to",
+        "able",
+        "do"
+      ],
+      "answer": "do",
+      "explanation": "Full sentence: \"I was able to do this difficult work today.\""
+    }
+  ]
+}

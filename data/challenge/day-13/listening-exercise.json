@@ -1,0 +1,114 @@
+{
+  "day": 13,
+  "topic": "Use of Let",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Do not let him go.",
+      "hindiScript": "मत उसे जाने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let me check this.",
+        "Let him come.",
+        "Let me try this.",
+        "Do not let him go."
+      ],
+      "answer": "Do not let him go."
+    },
+    {
+      "id": 2,
+      "audioScript": "Let me explain to you.",
+      "hindiScript": "मुझे तुम्हें समझाने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let her do her work.",
+        "Let us work together.",
+        "Let him correct his mistake.",
+        "Let me explain to you."
+      ],
+      "answer": "Let me explain to you."
+    },
+    {
+      "id": 3,
+      "audioScript": "Let them decide.",
+      "hindiScript": "उन्हें फैसला करने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let us start.",
+        "Let me ask this question.",
+        "Let us also join.",
+        "Let them decide."
+      ],
+      "answer": "Let them decide."
+    },
+    {
+      "id": 4,
+      "audioScript": "Let me have some time.",
+      "hindiScript": "मुझे थोड़ा समय दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Do not let him go.",
+        "Let her decide on her own.",
+        "Let me tell you.",
+        "Let me have some time."
+      ],
+      "answer": "Let me have some time."
+    },
+    {
+      "id": 5,
+      "audioScript": "Let him come.",
+      "hindiScript": "उसे आने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let me explain to you.",
+        "Let the children play outside.",
+        "Let him go.",
+        "Let him come."
+      ],
+      "answer": "Let him come."
+    },
+    {
+      "id": 6,
+      "audioScript": "Let us work together.",
+      "hindiScript": "हमें साथ काम करने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let them decide.",
+        "Let me say my point.",
+        "Let her speak.",
+        "Let us work together."
+      ],
+      "answer": "Let us work together."
+    },
+    {
+      "id": 7,
+      "audioScript": "Let me ask this question.",
+      "hindiScript": "मुझे यह सवाल पूछने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let me have some time.",
+        "Let them sit comfortably.",
+        "Let us try.",
+        "Let me ask this question."
+      ],
+      "answer": "Let me ask this question."
+    },
+    {
+      "id": 8,
+      "audioScript": "Let her decide on her own.",
+      "hindiScript": "उसे खुद decide करने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let him come.",
+        "Let me try this.",
+        "Let them play.",
+        "Let her decide on her own."
+      ],
+      "answer": "Let her decide on her own."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Do not let him go. Let me explain to you. Let them decide. Let me have some time. Let him come.",
+    "hindiTranslation": "मत उसे जाने दो। मुझे तुम्हें समझाने दो। उन्हें फैसला करने दो। मुझे थोड़ा समय दो। उसे आने दो।"
+  }
+}

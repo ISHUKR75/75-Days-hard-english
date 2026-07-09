@@ -1,0 +1,114 @@
+{
+  "day": 28,
+  "topic": "Might Have",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He might have hidden something.",
+      "hindiScript": "शायद उसने कुछ छिपाया होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He might have known about this.",
+        "She might have already known.",
+        "She might have heard this.",
+        "He might have hidden something."
+      ],
+      "answer": "He might have hidden something."
+    },
+    {
+      "id": 2,
+      "audioScript": "She might have slept late.",
+      "hindiScript": "शायद वह देर से सोई होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She might not have seen this.",
+        "We might have made a mistake.",
+        "They might have agreed with me.",
+        "She might have slept late."
+      ],
+      "answer": "She might have slept late."
+    },
+    {
+      "id": 3,
+      "audioScript": "They might have helped me.",
+      "hindiScript": "शायद उन्होंने मेरी मदद की होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We might have gone the wrong way.",
+        "They might not have said anything.",
+        "He might have reached there.",
+        "They might have helped me."
+      ],
+      "answer": "They might have helped me."
+    },
+    {
+      "id": 4,
+      "audioScript": "He might have broken the promise.",
+      "hindiScript": "शायद उसने वादा तोड़ा होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He might have hidden something.",
+        "He might have arrived by now.",
+        "She might have forgotten me.",
+        "He might have broken the promise."
+      ],
+      "answer": "He might have broken the promise."
+    },
+    {
+      "id": 5,
+      "audioScript": "She might have already known.",
+      "hindiScript": "शायद वह पहले जान चुकी होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She might have slept late.",
+        "She might have been upset with me.",
+        "We might have thought wrong.",
+        "She might have already known."
+      ],
+      "answer": "She might have already known."
+    },
+    {
+      "id": 6,
+      "audioScript": "We might have made a mistake.",
+      "hindiScript": "शायद हमने गलती की होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They might have helped me.",
+        "We might have done this better.",
+        "They might have changed this plan.",
+        "We might have made a mistake."
+      ],
+      "answer": "We might have made a mistake."
+    },
+    {
+      "id": 7,
+      "audioScript": "They might not have said anything.",
+      "hindiScript": "शायद उन्होंने कुछ नहीं कहा होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He might have broken the promise.",
+        "He might have gone, but I am not sure.",
+        "He might have known about this.",
+        "They might not have said anything."
+      ],
+      "answer": "They might not have said anything."
+    },
+    {
+      "id": 8,
+      "audioScript": "He might have arrived by now.",
+      "hindiScript": "शायद वह अब तक पहुँच गया होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She might have already known.",
+        "She might have heard this.",
+        "She might not have seen this.",
+        "He might have arrived by now."
+      ],
+      "answer": "He might have arrived by now."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He might have hidden something. She might have slept late. They might have helped me. He might have broken the promise. She might have already known.",
+    "hindiTranslation": "शायद उसने कुछ छिपाया होगा। शायद वह देर से सोई होगी। शायद उन्होंने मेरी मदद की होगी। शायद उसने वादा तोड़ा होगा। शायद वह पहले जान चुकी होगी।"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "day": 33,
+  "topic": "Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous).",
+      "hindiPrompt": "Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I ate rice yesterday. I was eating food when he came. I had eaten food before he came. I had been studying for an hour. She went to school last year.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous).",
+      "hindiPrompt": "Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "She was working when I arrived. She had finished her work before I arrived. She had been working for two hours. They went to school yesterday. They were playing when I called.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"मेरे बताने से पहले उन्होंने homework कर लिया था।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "They had done their homework before I told them.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I had been studying for an hour yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I had been studying for an hour.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous).",
+      "hindiPrompt": "Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous) का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I exercised in the morning. I was reading when you came. I had read this book before you came. I had been reading this book for three hours.",
+      "wordLimit": 60
+    }
+  ]
+}

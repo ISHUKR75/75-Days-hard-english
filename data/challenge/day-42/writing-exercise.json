@@ -1,0 +1,46 @@
+{
+  "day": 42,
+  "topic": "About To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using About To.",
+      "hindiPrompt": "About To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "The train is about to leave. I am about to go to sleep. She is about to speak. It is about to rain. The meeting is about to start.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using About To.",
+      "hindiPrompt": "About To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I am about to leave home. She is about to cry. We are about to eat food. The sun is about to set. I am about to make this decision.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"वह अभी जवाब देने वाला है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He is about to answer.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"It are about to rain.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "It is about to rain.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using About To.",
+      "hindiPrompt": "About To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I am about to apologize. They are about to arrive. I was about to make this mistake, but I stopped. She is about to fall asleep.",
+      "wordLimit": 60
+    }
+  ]
+}

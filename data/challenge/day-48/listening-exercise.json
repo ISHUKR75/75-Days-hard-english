@@ -1,0 +1,114 @@
+{
+  "day": 48,
+  "topic": "WH Words (What, When, Where, Who, Why, Whom, Whose, Which, How)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "When is the meeting?",
+      "hindiScript": "मीटिंग कब है?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "How do you do this?",
+        "Whose mistake is this?",
+        "When will you come?",
+        "When is the meeting?"
+      ],
+      "answer": "When is the meeting?"
+    },
+    {
+      "id": 2,
+      "audioScript": "Where are you going?",
+      "hindiScript": "तुम कहाँ जा रहे हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Whom are you talking to?",
+        "Which color do you prefer?",
+        "Where do you live?",
+        "Where are you going?"
+      ],
+      "answer": "Where are you going?"
+    },
+    {
+      "id": 3,
+      "audioScript": "Who was she?",
+      "hindiScript": "वह कौन थी?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "What are you doing?",
+        "How was your day?",
+        "Who is this?",
+        "Who was she?"
+      ],
+      "answer": "Who was she?"
+    },
+    {
+      "id": 4,
+      "audioScript": "Why did this happen?",
+      "hindiScript": "यह क्यों हुआ?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "When is the meeting?",
+        "Whom did you tell?",
+        "Why did you come late?",
+        "Why did this happen?"
+      ],
+      "answer": "Why did this happen?"
+    },
+    {
+      "id": 5,
+      "audioScript": "Whose mistake is this?",
+      "hindiScript": "यह किसकी गलती है?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Where are you going?",
+        "What do you think?",
+        "Whose bag is this?",
+        "Whose mistake is this?"
+      ],
+      "answer": "Whose mistake is this?"
+    },
+    {
+      "id": 6,
+      "audioScript": "Which color do you prefer?",
+      "hindiScript": "तुम कौन सा रंग पसंद करते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Who was she?",
+        "Where are you from?",
+        "Which book do you like?",
+        "Which color do you prefer?"
+      ],
+      "answer": "Which color do you prefer?"
+    },
+    {
+      "id": 7,
+      "audioScript": "How was your day?",
+      "hindiScript": "तुम्हारा दिन कैसा था?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Why did this happen?",
+        "What is your name?",
+        "How do you do this?",
+        "How was your day?"
+      ],
+      "answer": "How was your day?"
+    },
+    {
+      "id": 8,
+      "audioScript": "Whom did you tell?",
+      "hindiScript": "तुमने किसे बताया?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Whose mistake is this?",
+        "When will you come?",
+        "Whom are you talking to?",
+        "Whom did you tell?"
+      ],
+      "answer": "Whom did you tell?"
+    }
+  ],
+  "dictationPassage": {
+    "text": "When is the meeting? Where are you going? Who was she? Why did this happen? Whose mistake is this?",
+    "hindiTranslation": "मीटिंग कब है? तुम कहाँ जा रहे हो? वह कौन थी? यह क्यों हुआ? यह किसकी गलती है?"
+  }
+}

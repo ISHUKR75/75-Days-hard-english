@@ -1,0 +1,343 @@
+{
+  "day": 14,
+  "topic": "Use of Let's",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "चलो शुरू करते हैं।",
+      "english": "Let's start.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's start.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 2,
+      "hindi": "चलो कुछ खाते हैं।",
+      "english": "Let's eat something.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's eat something.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 3,
+      "hindi": "चलो पार्क में चलते हैं।",
+      "english": "Let's go to the park.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's go to the park.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 4,
+      "hindi": "चलो एक फिल्म देखते हैं।",
+      "english": "Let's watch a movie.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's watch a movie.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 5,
+      "hindi": "चलो इस पर बात करते हैं।",
+      "english": "Let's talk about this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's talk about this.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 6,
+      "hindi": "चलो जल्दी करते हैं।",
+      "english": "Let's hurry up.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's hurry up.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 7,
+      "hindi": "चलो देर मत करते हैं।",
+      "english": "Let's not be late.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's not be late.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 8,
+      "hindi": "चलो साथ में पढ़ते हैं।",
+      "english": "Let's study together.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's study together.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 9,
+      "hindi": "चलो थोड़ा आराम करते हैं।",
+      "english": "Let's take some rest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's take some rest.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 10,
+      "hindi": "चलो मीटिंग शुरू करते हैं।",
+      "english": "Let's start the meeting.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's start the meeting.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 11,
+      "hindi": "चलो एक साथ काम करते हैं।",
+      "english": "Let's work together.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's work together.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 12,
+      "hindi": "चलो कुछ नया सीखते हैं।",
+      "english": "Let's learn something new.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's learn something new.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 13,
+      "hindi": "चलो योजना बनाते हैं।",
+      "english": "Let's make a plan.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's make a plan.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 14,
+      "hindi": "चलो घूमने चलते हैं।",
+      "english": "Let's go for a walk.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's go for a walk.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 15,
+      "hindi": "चलो इस समस्या को हल करते हैं।",
+      "english": "Let's solve this problem.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's solve this problem.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 16,
+      "hindi": "चलो कल मिलते हैं।",
+      "english": "Let's meet tomorrow.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's meet tomorrow.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 17,
+      "hindi": "चलो चाय पीते हैं।",
+      "english": "Let's have tea.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's have tea.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 18,
+      "hindi": "चलो अभी फैसला ना करें।",
+      "english": "Let's not decide right now.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's not decide right now.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 19,
+      "hindi": "चलो घर चलते हैं।",
+      "english": "Let's go home.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's go home.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 20,
+      "hindi": "चलो सच बोलते हैं।",
+      "english": "Let's speak the truth.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's speak the truth.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 21,
+      "hindi": "चलो अभी झगड़ा ना करें।",
+      "english": "Let's not fight now.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's not fight now.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 22,
+      "hindi": "चलो practice करते हैं।",
+      "english": "Let's practice.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's practice.\"",
+      "difficulty": "easy",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 23,
+      "hindi": "चलो positive सोचते हैं।",
+      "english": "Let's think positive.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's think positive.\"",
+      "difficulty": "medium",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    },
+    {
+      "id": 24,
+      "hindi": "चलो एक दूसरे की मदद करते हैं।",
+      "english": "Let's help each other.",
+      "alternatives": [],
+      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
+      "explanation": "Correct sentence: \"Let's help each other.\"",
+      "difficulty": "hard",
+      "tags": [
+        "use"
+      ],
+      "grammarRule": "Use of Let's",
+      "category": "Use of Let's practice"
+    }
+  ]
+}

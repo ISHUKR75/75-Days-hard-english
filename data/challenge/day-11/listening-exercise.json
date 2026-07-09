@@ -1,0 +1,114 @@
+{
+  "day": 11,
+  "topic": "Use of Want",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Do you want coffee?",
+      "hindiScript": "क्या आप कॉफी चाहते हैं?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I do not want this book.",
+        "They want peace.",
+        "I do not want any mistake.",
+        "Do you want coffee?"
+      ],
+      "answer": "Do you want coffee?"
+    },
+    {
+      "id": 2,
+      "audioScript": "She wants to become a doctor.",
+      "hindiScript": "वह डॉक्टर बनना चाहती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He wants to talk to me.",
+        "I want to finish this work quickly.",
+        "Do you want any help?",
+        "She wants to become a doctor."
+      ],
+      "answer": "She wants to become a doctor."
+    },
+    {
+      "id": 3,
+      "audioScript": "We want more information.",
+      "hindiScript": "हमें और जानकारी चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I want some rest.",
+        "He wants a promotion.",
+        "They want success.",
+        "We want more information."
+      ],
+      "answer": "We want more information."
+    },
+    {
+      "id": 4,
+      "audioScript": "I want your help.",
+      "hindiScript": "मैं तुम्हारी मदद चाहता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Do you want coffee?",
+        "Do you want to go outside?",
+        "I want this opportunity.",
+        "I want your help."
+      ],
+      "answer": "I want your help."
+    },
+    {
+      "id": 5,
+      "audioScript": "They want peace.",
+      "hindiScript": "वे शांति चाहते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She wants to become a doctor.",
+        "We want a better future.",
+        "I want water.",
+        "They want peace."
+      ],
+      "answer": "They want peace."
+    },
+    {
+      "id": 6,
+      "audioScript": "I want to finish this work quickly.",
+      "hindiScript": "मुझे इस काम को जल्दी खत्म करना है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We want more information.",
+        "I want to know the truth.",
+        "I want to go home.",
+        "I want to finish this work quickly."
+      ],
+      "answer": "I want to finish this work quickly."
+    },
+    {
+      "id": 7,
+      "audioScript": "He wants a promotion.",
+      "hindiScript": "वह प्रमोशन चाहता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I want your help.",
+        "She wants to start her own business.",
+        "He wants a new job.",
+        "He wants a promotion."
+      ],
+      "answer": "He wants a promotion."
+    },
+    {
+      "id": 8,
+      "audioScript": "Do you want to go outside?",
+      "hindiScript": "क्या तुम बाहर जाना चाहते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They want peace.",
+        "I do not want any mistake.",
+        "She wants to learn English.",
+        "Do you want to go outside?"
+      ],
+      "answer": "Do you want to go outside?"
+    }
+  ],
+  "dictationPassage": {
+    "text": "Do you want coffee? She wants to become a doctor. We want more information. I want your help. They want peace.",
+    "hindiTranslation": "क्या आप कॉफी चाहते हैं? वह डॉक्टर बनना चाहती है। हमें और जानकारी चाहिए। मैं तुम्हारी मदद चाहता हूँ। वे शांति चाहते हैं।"
+  }
+}

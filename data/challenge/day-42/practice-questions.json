@@ -1,0 +1,287 @@
+{
+  "day": 42,
+  "topic": "About To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "ट्रेन अभी छूटने वाली है।",
+      "english": "The train is about to leave.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"The train is about to leave.\"",
+      "difficulty": "easy",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 2,
+      "hindi": "मैं अभी सोने वाला हूँ।",
+      "english": "I am about to go to sleep.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"I am about to go to sleep.\"",
+      "difficulty": "medium",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 3,
+      "hindi": "वह अभी बोलने वाली है।",
+      "english": "She is about to speak.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"She is about to speak.\"",
+      "difficulty": "hard",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 4,
+      "hindi": "बारिश अभी शुरू होने वाली है।",
+      "english": "It is about to rain.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"It is about to rain.\"",
+      "difficulty": "easy",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 5,
+      "hindi": "मीटिंग अभी शुरू होने वाली है।",
+      "english": "The meeting is about to start.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"The meeting is about to start.\"",
+      "difficulty": "medium",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 6,
+      "hindi": "मैं अभी घर से निकलने वाला हूँ।",
+      "english": "I am about to leave home.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"I am about to leave home.\"",
+      "difficulty": "hard",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 7,
+      "hindi": "वह अभी रोने वाली है।",
+      "english": "She is about to cry.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"She is about to cry.\"",
+      "difficulty": "easy",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 8,
+      "hindi": "हम अभी खाना खाने वाले हैं।",
+      "english": "We are about to eat food.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"We are about to eat food.\"",
+      "difficulty": "medium",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 9,
+      "hindi": "सूरज अभी डूबने वाला है।",
+      "english": "The sun is about to set.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"The sun is about to set.\"",
+      "difficulty": "hard",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 10,
+      "hindi": "मैं अभी यह decision लेने वाला हूँ।",
+      "english": "I am about to make this decision.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"I am about to make this decision.\"",
+      "difficulty": "easy",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 11,
+      "hindi": "वह अभी जवाब देने वाला है।",
+      "english": "He is about to answer.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"He is about to answer.\"",
+      "difficulty": "medium",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 12,
+      "hindi": "फिल्म अभी शुरू होने वाली है।",
+      "english": "The movie is about to start.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"The movie is about to start.\"",
+      "difficulty": "hard",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 13,
+      "hindi": "मैं अभी माफी मांगने वाला हूँ।",
+      "english": "I am about to apologize.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"I am about to apologize.\"",
+      "difficulty": "easy",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 14,
+      "hindi": "वे अभी पहुँचने वाले हैं।",
+      "english": "They are about to arrive.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"They are about to arrive.\"",
+      "difficulty": "medium",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 15,
+      "hindi": "मैं अभी यह गलती करने वाला था, पर रुक गया।",
+      "english": "I was about to make this mistake, but I stopped.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"I was about to make this mistake, but I stopped.\"",
+      "difficulty": "hard",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 16,
+      "hindi": "वह अभी सो जाने वाली है।",
+      "english": "She is about to fall asleep.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"She is about to fall asleep.\"",
+      "difficulty": "easy",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 17,
+      "hindi": "हम अभी शुरू करने वाले हैं।",
+      "english": "We are about to begin.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"We are about to begin.\"",
+      "difficulty": "medium",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 18,
+      "hindi": "दुकान अभी बंद होने वाली है।",
+      "english": "The shop is about to close.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"The shop is about to close.\"",
+      "difficulty": "hard",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 19,
+      "hindi": "मैं अभी उसे फोन करने वाला हूँ।",
+      "english": "I am about to call him.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"I am about to call him.\"",
+      "difficulty": "easy",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    },
+    {
+      "id": 20,
+      "hindi": "बच्चा अभी गिरने वाला था।",
+      "english": "The child was about to fall.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + about to + base verb (action happening very soon/immediately)",
+      "explanation": "Correct sentence: \"The child was about to fall.\"",
+      "difficulty": "medium",
+      "tags": [
+        "about"
+      ],
+      "grammarRule": "About To",
+      "category": "About To practice"
+    }
+  ]
+}

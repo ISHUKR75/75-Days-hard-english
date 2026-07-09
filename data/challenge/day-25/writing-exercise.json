@@ -1,0 +1,46 @@
+{
+  "day": 25,
+  "topic": "Could Have",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Could Have.",
+      "hindiPrompt": "Could Have का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I could have done this earlier. You could have told me. He could have done this work easily. We could have arrived on time. She could have taken this opportunity.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Could Have.",
+      "hindiPrompt": "Could Have का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "You could have avoided this mistake. They could have won. I could have helped you. He could have told the truth. We could have made it better.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"तुम मुझे कॉल कर सकते थे।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "You could have called me.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"We coulds have arrived on time.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "We could have arrived on time.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Could Have.",
+      "hindiPrompt": "Could Have का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I could have gone there. They could have stopped it. You could have come earlier. He could have read this book.",
+      "wordLimit": 60
+    }
+  ]
+}

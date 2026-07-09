@@ -1,0 +1,46 @@
+{
+  "day": 36,
+  "topic": "Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among).",
+      "hindiPrompt": "Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "The book is on the table. The cat is under the table. We are in the room. I will come at 5 pm. My birthday is in January.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among).",
+      "hindiPrompt": "Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "The meeting is on Monday. The lamp is over the table. This book is between mine and yours. This competition is among three teams. We live in Delhi.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"वह दरवाज़े पर खड़ा है।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He is standing at the door.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I will come at 5 pm yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I will come at 5 pm.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among).",
+      "hindiPrompt": "Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among) का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "The children are playing in the garden. My meeting is at 10 am. We travel in summer. His wedding is on Friday.",
+      "wordLimit": 60
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "day": 19,
+  "topic": "Must",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "हमें नियमों का पालन करना चाहिए।",
+      "options": [
+        "This must be true.",
+        "This must be a mistake.",
+        "We must be honest.",
+        "We must follow the rules."
+      ],
+      "answer": "We must follow the rules.",
+      "explanation": "Correct translation: \"हमें नियमों का पालन करना चाहिए।\" = \"We must follow the rules.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "You must _____ the truth.",
+      "options": [
+        "our",
+        "your",
+        "the",
+        "tell"
+      ],
+      "answer": "tell",
+      "explanation": "Full sentence: \"You must tell the truth.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "We musts arrive on time.",
+      "options": [
+        "We musts arrive on time.",
+        "We must arrive on time."
+      ],
+      "answer": "We must arrive on time.",
+      "explanation": "Correct sentence: \"We must arrive on time.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "तुम्हें seatbelt लगाना ही चाहिए।",
+      "options": [
+        "He must be very intelligent.",
+        "He must have worked very hard.",
+        "We must follow the rules.",
+        "You must wear a seatbelt."
+      ],
+      "answer": "You must wear a seatbelt.",
+      "explanation": "Correct translation: \"तुम्हें seatbelt लगाना ही चाहिए।\" = \"You must wear a seatbelt.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "He must _____ very tired.",
+      "options": [
+        "our",
+        "disciplined",
+        "the",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"He must be very tired.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "We musts obey the law.",
+      "options": [
+        "We musts obey the law.",
+        "We must obey the law."
+      ],
+      "answer": "We must obey the law.",
+      "explanation": "Correct sentence: \"We must obey the law.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "तुम्हें ध्यान से पढ़ना ही चाहिए।",
+      "options": [
+        "We must protect the environment.",
+        "This must be big news.",
+        "You must wear a seatbelt.",
+        "You must study carefully."
+      ],
+      "answer": "You must study carefully.",
+      "explanation": "Correct translation: \"तुम्हें ध्यान से पढ़ना ही चाहिए।\" = \"You must study carefully.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "This must _____ true.",
+      "options": [
+        "a",
+        "honest",
+        "very",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"This must be true.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "We musts fulfill our responsibility.",
+      "options": [
+        "We musts fulfill our responsibility.",
+        "We must fulfill our responsibility."
+      ],
+      "answer": "We must fulfill our responsibility.",
+      "explanation": "Correct sentence: \"We must fulfill our responsibility.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "तुम्हें धूम्रपान नहीं करना चाहिए (मना है)।",
+      "options": [
+        "You must carry your ID card.",
+        "She must be very happy.",
+        "You must study carefully.",
+        "You must not smoke."
+      ],
+      "answer": "You must not smoke.",
+      "explanation": "Correct translation: \"तुम्हें धूम्रपान नहीं करना चाहिए (मना है)।\" = \"You must not smoke.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He must _____ very intelligent.",
+      "options": [
+        "worked",
+        "the",
+        "true",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"He must be very intelligent.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "We musts keep our promises.",
+      "options": [
+        "We musts keep our promises.",
+        "We must keep our promises."
+      ],
+      "answer": "We must keep our promises.",
+      "explanation": "Correct sentence: \"We must keep our promises.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "तुम्हें यह फॉर्म भरना ही होगा।",
+      "options": [
+        "You must wait in the queue.",
+        "We must arrive on time.",
+        "You must not smoke.",
+        "You must fill this form."
+      ],
+      "answer": "You must fill this form.",
+      "explanation": "Correct translation: \"तुम्हें यह फॉर्म भरना ही होगा।\" = \"You must fill this form.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "We must _____ the environment.",
+      "options": [
+        "big",
+        "a",
+        "very",
+        "protect"
+      ],
+      "answer": "protect",
+      "explanation": "Full sentence: \"We must protect the environment.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "This musts be a mistake.",
+      "options": [
+        "This musts be a mistake.",
+        "This must be a mistake."
+      ],
+      "answer": "This must be a mistake.",
+      "explanation": "Correct sentence: \"This must be a mistake.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "हमें अपने माता-पिता का सम्मान करना चाहिए।",
+      "options": [
+        "You must complete your own work.",
+        "We must obey the law.",
+        "You must fill this form.",
+        "We must respect our parents."
+      ],
+      "answer": "We must respect our parents.",
+      "explanation": "Correct translation: \"हमें अपने माता-पिता का सम्मान करना चाहिए।\" = \"We must respect our parents.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "You must carry _____ ID card.",
+      "options": [
+        "very",
+        "carefully",
+        "the",
+        "your"
+      ],
+      "answer": "your",
+      "explanation": "Full sentence: \"You must carry your ID card.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He musts have worked very hard.",
+      "options": [
+        "He musts have worked very hard.",
+        "He must have worked very hard."
+      ],
+      "answer": "He must have worked very hard.",
+      "explanation": "Correct sentence: \"He must have worked very hard.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हमें अनुशासन में रहना चाहिए।",
+      "options": [
+        "You must tell the truth.",
+        "We must fulfill our responsibility.",
+        "We must respect our parents.",
+        "We must stay disciplined."
+      ],
+      "answer": "We must stay disciplined.",
+      "explanation": "Correct translation: \"हमें अनुशासन में रहना चाहिए।\" = \"We must stay disciplined.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "You must wait _____ the queue.",
+      "options": [
+        "on",
+        "smoke",
+        "your",
+        "in"
+      ],
+      "answer": "in",
+      "explanation": "Full sentence: \"You must wait in the queue.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "This musts be big news.",
+      "options": [
+        "This musts be big news.",
+        "This must be big news."
+      ],
+      "answer": "This must be big news.",
+      "explanation": "Correct sentence: \"This must be big news.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "हमें ईमानदार रहना ही चाहिए।",
+      "options": [
+        "He must be very tired.",
+        "We must keep our promises.",
+        "We must stay disciplined.",
+        "We must be honest."
+      ],
+      "answer": "We must be honest.",
+      "explanation": "Correct translation: \"हमें ईमानदार रहना ही चाहिए।\" = \"We must be honest.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "You must complete _____ own work.",
+      "options": [
+        "the",
+        "this",
+        "in",
+        "your"
+      ],
+      "answer": "your",
+      "explanation": "Full sentence: \"You must complete your own work.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "She musts be very happy.",
+      "options": [
+        "She musts be very happy.",
+        "She must be very happy."
+      ],
+      "answer": "She must be very happy.",
+      "explanation": "Correct sentence: \"She must be very happy.\""
+    }
+  ]
+}

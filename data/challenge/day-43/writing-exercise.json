@@ -1,0 +1,46 @@
+{
+  "day": 43,
+  "topic": "Want To / Wanted To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Want To / Wanted To.",
+      "hindiPrompt": "Want To / Wanted To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I want to learn this. I wanted to learn this. He wants to become a doctor. He wanted to become a doctor. We want to travel.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Want To / Wanted To.",
+      "hindiPrompt": "Want To / Wanted To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "We wanted to travel. I want to read this book. I wanted to read this book. She wants to do this job. She wanted to do this job.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"क्या तुम यह करना चाहते हो?\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Do you want to do this?",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"He wanted to become a doctor yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "He wanted to become a doctor.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Want To / Wanted To.",
+      "hindiPrompt": "Want To / Wanted To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "They want to achieve success. They wanted to achieve success. I want to take this opportunity. I wanted to take this opportunity.",
+      "wordLimit": 60
+    }
+  ]
+}

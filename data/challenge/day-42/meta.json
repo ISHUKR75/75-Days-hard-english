@@ -1,0 +1,28 @@
+{
+  "day": 42,
+  "title": "About To",
+  "slug": "42-about-to",
+  "type": "grammar",
+  "difficulty": "intermediate",
+  "cefr": "B1",
+  "emoji": "⚡",
+  "color": "#f97316",
+  "topics": [
+    "About To"
+  ],
+  "totalQuestions": 20,
+  "totalVocabulary": 20,
+  "estimatedTime": "2-3 hours",
+  "xpReward": 200,
+  "coinsReward": 30,
+  "prerequisites": [
+    41
+  ],
+  "nextDay": 43,
+  "tags": [
+    "grammar",
+    "about to"
+  ],
+  "lastUpdated": "2026-07-09",
+  "version": "1.0"
+}

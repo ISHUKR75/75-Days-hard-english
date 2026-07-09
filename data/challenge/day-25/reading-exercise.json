@@ -1,0 +1,107 @@
+{
+  "day": 25,
+  "topic": "Could Have",
+  "passage": {
+    "title": "A Day with Could Have",
+    "text": "I could have done this earlier. You could have told me. He could have done this work easily. We could have arrived on time. She could have taken this opportunity. You could have avoided this mistake. They could have won. I could have helped you. He could have told the truth. We could have made it better.",
+    "hindiTranslation": "मैं यह पहले कर सकता था। तुम मुझे बता सकते थे। वह यह काम आसानी से कर सकता था। हम समय पर पहुँच सकते थे। वह इस मौके का फायदा ले सकती थी। तुम यह गलती avoid कर सकते थे। वे जीत सकते थे। मैं तुम्हारी मदद कर सकता था। वह सच बोल सकता था। हम इसे बेहतर बना सकते थे।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I could have done...\"?",
+      "options": [
+        "I could have helped you.",
+        "You could have come earlier.",
+        "You could have told me.",
+        "I could have done this earlier."
+      ],
+      "answer": "I could have done this earlier.",
+      "explanation": "Stated in the passage: \"I could have done this earlier.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"You could have told...\"?",
+      "options": [
+        "He could have told the truth.",
+        "He could have read this book.",
+        "He could have done this work easily.",
+        "You could have told me."
+      ],
+      "answer": "You could have told me.",
+      "explanation": "Stated in the passage: \"You could have told me.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He could have done...\"?",
+      "options": [
+        "We could have made it better.",
+        "We could have worked harder.",
+        "We could have arrived on time.",
+        "He could have done this work easily."
+      ],
+      "answer": "He could have done this work easily.",
+      "explanation": "Stated in the passage: \"He could have done this work easily.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"We could have arrived...\"?",
+      "options": [
+        "You could have called me.",
+        "I could have taken that job.",
+        "She could have taken this opportunity.",
+        "We could have arrived on time."
+      ],
+      "answer": "We could have arrived on time.",
+      "explanation": "Stated in the passage: \"We could have arrived on time.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"She could have taken...\"?",
+      "options": [
+        "She could have saved money.",
+        "She could have fixed it.",
+        "You could have avoided this mistake.",
+        "She could have taken this opportunity."
+      ],
+      "answer": "She could have taken this opportunity.",
+      "explanation": "Stated in the passage: \"She could have taken this opportunity.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"You could have avoided...\"?",
+      "options": [
+        "I could have gone there.",
+        "You could not have taken this decision.",
+        "They could have won.",
+        "You could have avoided this mistake."
+      ],
+      "answer": "You could have avoided this mistake.",
+      "explanation": "Stated in the passage: \"You could have avoided this mistake.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"They could have won....\"?",
+      "options": [
+        "They could have stopped it.",
+        "I could have done this earlier.",
+        "I could have helped you.",
+        "They could have won."
+      ],
+      "answer": "They could have won.",
+      "explanation": "Stated in the passage: \"They could have won.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"I could have helped...\"?",
+      "options": [
+        "You could have come earlier.",
+        "You could have told me.",
+        "He could have told the truth.",
+        "I could have helped you."
+      ],
+      "answer": "I could have helped you.",
+      "explanation": "Stated in the passage: \"I could have helped you.\""
+    }
+  ]
+}

@@ -1,0 +1,255 @@
+{
+  "day": 43,
+  "topic": "Want To / Wanted To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे यह सीखना है।",
+      "options": [
+        "I wanted to read this book.",
+        "I want to take this opportunity.",
+        "I wanted to learn this.",
+        "I want to learn this."
+      ],
+      "answer": "I want to learn this.",
+      "explanation": "Correct translation: \"मुझे यह सीखना है।\" = \"I want to learn this.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I wanted _____ learn this.",
+      "options": [
+        "do",
+        "take",
+        "become",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I wanted to learn this.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He want to become a doctor.",
+      "options": [
+        "He want to become a doctor.",
+        "He wants to become a doctor."
+      ],
+      "answer": "He wants to become a doctor.",
+      "explanation": "Correct sentence: \"He wants to become a doctor.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वह डॉक्टर बनना चाहता था।",
+      "options": [
+        "Do you want to do this?",
+        "He wanted to know the truth.",
+        "We want to travel.",
+        "He wanted to become a doctor."
+      ],
+      "answer": "He wanted to become a doctor.",
+      "explanation": "Correct translation: \"वह डॉक्टर बनना चाहता था।\" = \"He wanted to become a doctor.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We want _____ travel.",
+      "options": [
+        "make",
+        "travel",
+        "achieve",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"We want to travel.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "We wanted to travel yesterday.",
+      "options": [
+        "We wanted to travel yesterday.",
+        "We wanted to travel."
+      ],
+      "answer": "We wanted to travel.",
+      "explanation": "Correct sentence: \"We wanted to travel.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं यह किताब पढ़ना चाहता हूँ।",
+      "options": [
+        "They wanted to achieve success.",
+        "I want to learn this.",
+        "I wanted to read this book.",
+        "I want to read this book."
+      ],
+      "answer": "I want to read this book.",
+      "explanation": "Correct translation: \"मैं यह किताब पढ़ना चाहता हूँ।\" = \"I want to read this book.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I wanted to _____ this book.",
+      "options": [
+        "take",
+        "learn",
+        "do",
+        "read"
+      ],
+      "answer": "read",
+      "explanation": "Full sentence: \"I wanted to read this book.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "She want to do this job.",
+      "options": [
+        "She want to do this job.",
+        "She wants to do this job."
+      ],
+      "answer": "She wants to do this job.",
+      "explanation": "Correct sentence: \"She wants to do this job.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "वह यह नौकरी करना चाहती थी।",
+      "options": [
+        "He wants to know the truth.",
+        "He wanted to become a doctor.",
+        "Do you want to do this?",
+        "She wanted to do this job."
+      ],
+      "answer": "She wanted to do this job.",
+      "explanation": "Correct translation: \"वह यह नौकरी करना चाहती थी।\" = \"She wanted to do this job.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Do you want _____ do this?",
+      "options": [
+        "know",
+        "travel",
+        "make",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Do you want to do this?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Did you wants to do this?",
+      "options": [
+        "Did you wants to do this?",
+        "Did you want to do this?"
+      ],
+      "answer": "Did you want to do this?",
+      "explanation": "Correct sentence: \"Did you want to do this?\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वे success पाना चाहते हैं।",
+      "options": [
+        "We wanted to make this better.",
+        "I want to read this book.",
+        "They wanted to achieve success.",
+        "They want to achieve success."
+      ],
+      "answer": "They want to achieve success.",
+      "explanation": "Correct translation: \"वे success पाना चाहते हैं।\" = \"They want to achieve success.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "They wanted _____ achieve success.",
+      "options": [
+        "learn",
+        "read",
+        "take",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"They wanted to achieve success.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I wants to take this opportunity.",
+      "options": [
+        "I wants to take this opportunity.",
+        "I want to take this opportunity."
+      ],
+      "answer": "I want to take this opportunity.",
+      "explanation": "Correct sentence: \"I want to take this opportunity.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं यह मौका लेना चाहता था।",
+      "options": [
+        "He wants to become a doctor.",
+        "She wanted to do this job.",
+        "He wants to know the truth.",
+        "I wanted to take this opportunity."
+      ],
+      "answer": "I wanted to take this opportunity.",
+      "explanation": "Correct translation: \"मैं यह मौका लेना चाहता था।\" = \"I wanted to take this opportunity.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He wants to _____ the truth.",
+      "options": [
+        "become",
+        "to",
+        "travel",
+        "know"
+      ],
+      "answer": "know",
+      "explanation": "Full sentence: \"He wants to know the truth.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He wanted to know the truth yesterday.",
+      "options": [
+        "He wanted to know the truth yesterday.",
+        "He wanted to know the truth."
+      ],
+      "answer": "He wanted to know the truth.",
+      "explanation": "Correct sentence: \"He wanted to know the truth.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हम इसे बेहतर बनाना चाहते हैं।",
+      "options": [
+        "We wanted to travel.",
+        "They want to achieve success.",
+        "We wanted to make this better.",
+        "We want to make this better."
+      ],
+      "answer": "We want to make this better.",
+      "explanation": "Correct translation: \"हम इसे बेहतर बनाना चाहते हैं।\" = \"We want to make this better.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "We wanted to _____ this better.",
+      "options": [
+        "read",
+        "achieve",
+        "learn",
+        "make"
+      ],
+      "answer": "make",
+      "explanation": "Full sentence: \"We wanted to make this better.\""
+    }
+  ]
+}

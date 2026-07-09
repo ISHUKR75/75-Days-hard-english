@@ -1,0 +1,114 @@
+{
+  "day": 35,
+  "topic": "Tenses Part 4 — Mixed Tense Practice (All 12 Tenses)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "I will have eaten rice.",
+      "hindiScript": "मैं चावल खा चुका होऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I had been eating rice for an hour.",
+        "She has worked.",
+        "I am eating rice.",
+        "I will have eaten rice."
+      ],
+      "answer": "I will have eaten rice."
+    },
+    {
+      "id": 2,
+      "audioScript": "I will have been eating rice for an hour.",
+      "hindiScript": "मैं एक घंटे से चावल खा रहा होऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will eat rice.",
+        "She has been working for two hours.",
+        "I have eaten rice.",
+        "I will have been eating rice for an hour."
+      ],
+      "answer": "I will have been eating rice for an hour."
+    },
+    {
+      "id": 3,
+      "audioScript": "She works.",
+      "hindiScript": "वह काम करती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will be eating rice.",
+        "She worked.",
+        "I have been eating rice for an hour.",
+        "She works."
+      ],
+      "answer": "She works."
+    },
+    {
+      "id": 4,
+      "audioScript": "She is working.",
+      "hindiScript": "वह काम कर रही है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will have eaten rice.",
+        "She was working.",
+        "I ate rice.",
+        "She is working."
+      ],
+      "answer": "She is working."
+    },
+    {
+      "id": 5,
+      "audioScript": "She has worked.",
+      "hindiScript": "उसने काम कर लिया है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will have been eating rice for an hour.",
+        "She had worked.",
+        "I was eating rice.",
+        "She has worked."
+      ],
+      "answer": "She has worked."
+    },
+    {
+      "id": 6,
+      "audioScript": "She has been working for two hours.",
+      "hindiScript": "वह दो घंटे से काम कर रही है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She works.",
+        "She had been working for two hours.",
+        "I had eaten rice.",
+        "She has been working for two hours."
+      ],
+      "answer": "She has been working for two hours."
+    },
+    {
+      "id": 7,
+      "audioScript": "She worked.",
+      "hindiScript": "उसने काम किया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is working.",
+        "I eat rice.",
+        "I had been eating rice for an hour.",
+        "She worked."
+      ],
+      "answer": "She worked."
+    },
+    {
+      "id": 8,
+      "audioScript": "She was working.",
+      "hindiScript": "वह काम कर रही थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She has worked.",
+        "I am eating rice.",
+        "I will eat rice.",
+        "She was working."
+      ],
+      "answer": "She was working."
+    }
+  ],
+  "dictationPassage": {
+    "text": "I will have eaten rice. I will have been eating rice for an hour. She works. She is working. She has worked.",
+    "hindiTranslation": "मैं चावल खा चुका होऊँगा। मैं एक घंटे से चावल खा रहा होऊँगा। वह काम करती है। वह काम कर रही है। उसने काम कर लिया है।"
+  }
+}

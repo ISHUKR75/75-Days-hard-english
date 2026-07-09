@@ -1,0 +1,46 @@
+{
+  "day": 31,
+  "topic": "Revision of Days 21-30",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Revision of Days 21-30.",
+      "hindiPrompt": "Revision of Days 21-30 का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I used to go to school daily. I could swim when I was a child. I should have come earlier. He must have worked very hard. I could have done this earlier.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Revision of Days 21-30.",
+      "hindiPrompt": "Revision of Days 21-30 का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "If I had known, I would have come. He may have gone there. He might have gone, but I am not sure. I will come tomorrow. We ought to respect our parents.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"क्या तुम मुझे मदद कर सकते हो?\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Could you help me?",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"He must have worked very hard yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "He must have worked very hard.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Revision of Days 21-30.",
+      "hindiPrompt": "Revision of Days 21-30 का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "He dared to say this. Shall I close the door? He used to smoke. She may have read this book.",
+      "wordLimit": 60
+    }
+  ]
+}

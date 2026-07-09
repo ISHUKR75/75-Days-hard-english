@@ -1,0 +1,28 @@
+{
+  "day": 24,
+  "title": "Must Have",
+  "slug": "24-must-have",
+  "type": "grammar",
+  "difficulty": "intermediate",
+  "cefr": "A2-B1",
+  "emoji": "🔍",
+  "color": "#ef4444",
+  "topics": [
+    "Must Have"
+  ],
+  "totalQuestions": 20,
+  "totalVocabulary": 20,
+  "estimatedTime": "2-3 hours",
+  "xpReward": 200,
+  "coinsReward": 30,
+  "prerequisites": [
+    23
+  ],
+  "nextDay": 25,
+  "tags": [
+    "grammar",
+    "must have"
+  ],
+  "lastUpdated": "2026-07-09",
+  "version": "1.0"
+}

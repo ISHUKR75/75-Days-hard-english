@@ -1,0 +1,255 @@
+{
+  "day": 20,
+  "topic": "Revision + Speaking Practice (Days 11-19)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे पानी चाहिए।",
+      "options": [
+        "May I come in?",
+        "She can speak English.",
+        "I wanted water.",
+        "I want water."
+      ],
+      "answer": "I want water.",
+      "explanation": "Correct translation: \"मुझे पानी चाहिए।\" = \"I want water.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I _____ water.",
+      "options": [
+        "the",
+        "hard",
+        "you",
+        "wanted"
+      ],
+      "answer": "wanted",
+      "explanation": "Full sentence: \"I wanted water.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Let me tell you yesterday.",
+      "options": [
+        "Let me tell you yesterday.",
+        "Let me tell you."
+      ],
+      "answer": "Let me tell you.",
+      "explanation": "Correct sentence: \"Let me tell you.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "चलो शुरू करते हैं।",
+      "options": [
+        "He wanted a new car.",
+        "You must tell the truth.",
+        "I would like to meet you.",
+        "Let's start."
+      ],
+      "answer": "Let's start.",
+      "explanation": "Correct translation: \"चलो शुरू करते हैं।\" = \"Let's start.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I would like _____ meet you.",
+      "options": [
+        "go",
+        "tea",
+        "swim",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I would like to meet you.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I cans swim.",
+      "options": [
+        "I cans swim.",
+        "I can swim."
+      ],
+      "answer": "I can swim.",
+      "explanation": "Correct sentence: \"I can swim.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "तुम्हें ज्यादा पानी पीना चाहिए।",
+      "options": [
+        "We would like to have a coffee.",
+        "I want water.",
+        "May I come in?",
+        "You should drink more water."
+      ],
+      "answer": "You should drink more water.",
+      "explanation": "Correct translation: \"तुम्हें ज्यादा पानी पीना चाहिए।\" = \"You should drink more water.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "May I _____ in?",
+      "options": [
+        "English",
+        "water",
+        "the",
+        "come"
+      ],
+      "answer": "come",
+      "explanation": "Full sentence: \"May I come in?\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "We musts follow the rules.",
+      "options": [
+        "We musts follow the rules.",
+        "We must follow the rules."
+      ],
+      "answer": "We must follow the rules.",
+      "explanation": "Correct sentence: \"We must follow the rules.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "वह एक नई नौकरी चाहता है।",
+      "options": [
+        "He may be right.",
+        "Let's start.",
+        "He wanted a new car.",
+        "He wants a new job."
+      ],
+      "answer": "He wants a new job.",
+      "explanation": "Correct translation: \"वह एक नई नौकरी चाहता है।\" = \"He wants a new job.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He wanted _____ new car.",
+      "options": [
+        "the",
+        "to",
+        "go",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"He wanted a new car.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Let him go yesterday.",
+      "options": [
+        "Let him go yesterday.",
+        "Let him go."
+      ],
+      "answer": "Let him go.",
+      "explanation": "Correct sentence: \"Let him go.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "चलो कुछ खाते हैं।",
+      "options": [
+        "Did you want tea?",
+        "You should drink more water.",
+        "We would like to have a coffee.",
+        "Let's eat something."
+      ],
+      "answer": "Let's eat something.",
+      "explanation": "Correct translation: \"चलो कुछ खाते हैं।\" = \"Let's eat something.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "We would like _____ have a coffee.",
+      "options": [
+        "water",
+        "in",
+        "English",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"We would like to have a coffee.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "She cans speak English.",
+      "options": [
+        "She cans speak English.",
+        "She can speak English."
+      ],
+      "answer": "She can speak English.",
+      "explanation": "Correct sentence: \"She can speak English.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "हमें कड़ी मेहनत करनी चाहिए।",
+      "options": [
+        "Let me tell you.",
+        "He wants a new job.",
+        "He may be right.",
+        "We should work hard."
+      ],
+      "answer": "We should work hard.",
+      "explanation": "Correct translation: \"हमें कड़ी मेहनत करनी चाहिए।\" = \"We should work hard.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He may _____ right.",
+      "options": [
+        "start",
+        "new",
+        "the",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"He may be right.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "You musts tell the truth.",
+      "options": [
+        "You musts tell the truth.",
+        "You must tell the truth."
+      ],
+      "answer": "You must tell the truth.",
+      "explanation": "Correct sentence: \"You must tell the truth.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "क्या तुम्हें चाय चाहिए?",
+      "options": [
+        "I can swim.",
+        "Let's eat something.",
+        "Did you want tea?",
+        "Do you want tea?"
+      ],
+      "answer": "Do you want tea?",
+      "explanation": "Correct translation: \"क्या तुम्हें चाय चाहिए?\" = \"Do you want tea?\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Did you _____ tea?",
+      "options": [
+        "more",
+        "to",
+        "water",
+        "want"
+      ],
+      "answer": "want",
+      "explanation": "Full sentence: \"Did you want tea?\""
+    }
+  ]
+}

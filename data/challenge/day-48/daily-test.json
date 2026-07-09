@@ -1,0 +1,255 @@
+{
+  "day": 48,
+  "topic": "WH Words (What, When, Where, Who, Why, Whom, Whose, Which, How)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "तुम्हारा नाम क्या है?",
+      "options": [
+        "How do you do this?",
+        "Whose mistake is this?",
+        "When will you come?",
+        "What is your name?"
+      ],
+      "answer": "What is your name?",
+      "explanation": "Correct translation: \"तुम्हारा नाम क्या है?\" = \"What is your name?\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "When will _____ come?",
+      "options": [
+        "talking",
+        "live",
+        "doing",
+        "you"
+      ],
+      "answer": "you",
+      "explanation": "Full sentence: \"When will you come?\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Where do you live? yesterday.",
+      "options": [
+        "Where do you live? yesterday.",
+        "Where do you live?"
+      ],
+      "answer": "Where do you live?",
+      "explanation": "Correct sentence: \"Where do you live?\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "यह कौन है?",
+      "options": [
+        "When is the meeting?",
+        "Whom did you tell?",
+        "Why did you come late?",
+        "Who is this?"
+      ],
+      "answer": "Who is this?",
+      "explanation": "Correct translation: \"यह कौन है?\" = \"Who is this?\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Why did _____ come late?",
+      "options": [
+        "going",
+        "think",
+        "this",
+        "you"
+      ],
+      "answer": "you",
+      "explanation": "Full sentence: \"Why did you come late?\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Whose bag are this?",
+      "options": [
+        "Whose bag are this?",
+        "Whose bag is this?"
+      ],
+      "answer": "Whose bag is this?",
+      "explanation": "Correct sentence: \"Whose bag is this?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "तुम्हें कौन सी किताब पसंद है?",
+      "options": [
+        "Why did this happen?",
+        "What is your name?",
+        "How do you do this?",
+        "Which book do you like?"
+      ],
+      "answer": "Which book do you like?",
+      "explanation": "Correct translation: \"तुम्हें कौन सी किताब पसंद है?\" = \"Which book do you like?\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "How do _____ do this?",
+      "options": [
+        "this",
+        "come",
+        "talking",
+        "you"
+      ],
+      "answer": "you",
+      "explanation": "Full sentence: \"How do you do this?\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Whom is you talking to?",
+      "options": [
+        "Whom is you talking to?",
+        "Whom are you talking to?"
+      ],
+      "answer": "Whom are you talking to?",
+      "explanation": "Correct sentence: \"Whom are you talking to?\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "तुम क्या कर रहे हो?",
+      "options": [
+        "How was your day?",
+        "Who is this?",
+        "When is the meeting?",
+        "What are you doing?"
+      ],
+      "answer": "What are you doing?",
+      "explanation": "Correct translation: \"तुम क्या कर रहे हो?\" = \"What are you doing?\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "When is _____ meeting?",
+      "options": [
+        "tell",
+        "come",
+        "going",
+        "the"
+      ],
+      "answer": "the",
+      "explanation": "Full sentence: \"When is the meeting?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Where is you going?",
+      "options": [
+        "Where is you going?",
+        "Where are you going?"
+      ],
+      "answer": "Where are you going?",
+      "explanation": "Correct sentence: \"Where are you going?\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वह कौन थी?",
+      "options": [
+        "Where are you from?",
+        "Which book do you like?",
+        "Why did this happen?",
+        "Who was she?"
+      ],
+      "answer": "Who was she?",
+      "explanation": "Correct translation: \"वह कौन थी?\" = \"Who was she?\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Why did _____ happen?",
+      "options": [
+        "name",
+        "do",
+        "come",
+        "this"
+      ],
+      "answer": "this",
+      "explanation": "Full sentence: \"Why did this happen?\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Whose mistake are this?",
+      "options": [
+        "Whose mistake are this?",
+        "Whose mistake is this?"
+      ],
+      "answer": "Whose mistake is this?",
+      "explanation": "Correct sentence: \"Whose mistake is this?\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "तुम कौन सा रंग पसंद करते हो?",
+      "options": [
+        "Where do you live?",
+        "What are you doing?",
+        "How was your day?",
+        "Which color do you prefer?"
+      ],
+      "answer": "Which color do you prefer?",
+      "explanation": "Correct translation: \"तुम कौन सा रंग पसंद करते हो?\" = \"Which color do you prefer?\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "How was _____ day?",
+      "options": [
+        "this",
+        "meeting",
+        "tell",
+        "your"
+      ],
+      "answer": "your",
+      "explanation": "Full sentence: \"How was your day?\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Whom did you tell? yesterday.",
+      "options": [
+        "Whom did you tell? yesterday.",
+        "Whom did you tell?"
+      ],
+      "answer": "Whom did you tell?",
+      "explanation": "Correct sentence: \"Whom did you tell?\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "तुम क्या सोचते हो?",
+      "options": [
+        "Whose bag is this?",
+        "Who was she?",
+        "Where are you from?",
+        "What do you think?"
+      ],
+      "answer": "What do you think?",
+      "explanation": "Correct translation: \"तुम क्या सोचते हो?\" = \"What do you think?\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Where are _____ from?",
+      "options": [
+        "happen",
+        "name",
+        "do",
+        "you"
+      ],
+      "answer": "you",
+      "explanation": "Full sentence: \"Where are you from?\""
+    }
+  ]
+}

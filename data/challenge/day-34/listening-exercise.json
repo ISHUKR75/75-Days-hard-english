@@ -1,0 +1,114 @@
+{
+  "day": 34,
+  "topic": "Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "They will have done their homework by 3 pm.",
+      "hindiScript": "3 बजे तक वे homework कर चुके होंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She will have been working for two hours by 5 pm.",
+        "I will have read this book by 7 pm.",
+        "I will be eating food at 8 pm.",
+        "They will have done their homework by 3 pm."
+      ],
+      "answer": "They will have done their homework by 3 pm."
+    },
+    {
+      "id": 2,
+      "audioScript": "They will have been playing for an hour by 3 pm.",
+      "hindiScript": "3 बजे तक वे एक घंटे से खेल रहे होंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They will go to school tomorrow.",
+        "I will have been reading for three hours by 7 pm.",
+        "I will have eaten food by 8 pm.",
+        "They will have been playing for an hour by 3 pm."
+      ],
+      "answer": "They will have been playing for an hour by 3 pm."
+    },
+    {
+      "id": 3,
+      "audioScript": "I will exercise tomorrow morning.",
+      "hindiScript": "मैं कल सुबह exercise करूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They will be playing at 3 pm.",
+        "He will sing a song next week.",
+        "I will have been eating for an hour by 8 pm.",
+        "I will exercise tomorrow morning."
+      ],
+      "answer": "I will exercise tomorrow morning."
+    },
+    {
+      "id": 4,
+      "audioScript": "I will be reading at 7 pm.",
+      "hindiScript": "7 बजे मैं पढ़ रहा होऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They will have done their homework by 3 pm.",
+        "He will be singing at 6 pm.",
+        "She will go to work tomorrow.",
+        "I will be reading at 7 pm."
+      ],
+      "answer": "I will be reading at 7 pm."
+    },
+    {
+      "id": 5,
+      "audioScript": "I will have read this book by 7 pm.",
+      "hindiScript": "7 बजे तक मैं यह किताब पढ़ चुका होऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They will have been playing for an hour by 3 pm.",
+        "He will have sung the song by 6 pm.",
+        "She will be working at 5 pm.",
+        "I will have read this book by 7 pm."
+      ],
+      "answer": "I will have read this book by 7 pm."
+    },
+    {
+      "id": 6,
+      "audioScript": "I will have been reading for three hours by 7 pm.",
+      "hindiScript": "7 बजे तक मैं तीन घंटे से पढ़ रहा होऊँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will exercise tomorrow morning.",
+        "He will have been singing for half an hour by 6 pm.",
+        "She will have finished her work by 5 pm.",
+        "I will have been reading for three hours by 7 pm."
+      ],
+      "answer": "I will have been reading for three hours by 7 pm."
+    },
+    {
+      "id": 7,
+      "audioScript": "He will sing a song next week.",
+      "hindiScript": "वह अगले हफ्ते एक गाना गाएगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will be reading at 7 pm.",
+        "I will eat rice tomorrow.",
+        "She will have been working for two hours by 5 pm.",
+        "He will sing a song next week."
+      ],
+      "answer": "He will sing a song next week."
+    },
+    {
+      "id": 8,
+      "audioScript": "He will be singing at 6 pm.",
+      "hindiScript": "6 बजे वह गा रहा होगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will have read this book by 7 pm.",
+        "I will be eating food at 8 pm.",
+        "They will go to school tomorrow.",
+        "He will be singing at 6 pm."
+      ],
+      "answer": "He will be singing at 6 pm."
+    }
+  ],
+  "dictationPassage": {
+    "text": "They will have done their homework by 3 pm. They will have been playing for an hour by 3 pm. I will exercise tomorrow morning. I will be reading at 7 pm. I will have read this book by 7 pm.",
+    "hindiTranslation": "3 बजे तक वे homework कर चुके होंगे। 3 बजे तक वे एक घंटे से खेल रहे होंगे। मैं कल सुबह exercise करूँगा। 7 बजे मैं पढ़ रहा होऊँगा। 7 बजे तक मैं यह किताब पढ़ चुका होऊँगा।"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "day": 41,
+  "topic": "Going To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Going To.",
+      "hindiPrompt": "Going To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I am going to do this work tomorrow. She is going to become a doctor. We are going to change our house next month. They are going to get married. Are you going to go out today?",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Going To.",
+      "hindiPrompt": "Going To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I am going to buy this book. He is going to travel next week. We are going to start a new business. I am going to think about this. She is going to finish this project.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"क्या वे कल आने वाले हैं?\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Are they going to come tomorrow?",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"They is going to get married.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "They are going to get married.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Going To.",
+      "hindiPrompt": "Going To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "He is going to give an interview. We are going to watch a movie tomorrow. I am not going to repeat this mistake. She is going to buy her own house.",
+      "wordLimit": 60
+    }
+  ]
+}

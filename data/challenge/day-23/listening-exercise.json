@@ -1,0 +1,114 @@
+{
+  "day": 23,
+  "topic": "Should Have",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He should have told me.",
+      "hindiScript": "उसे मुझे बताना चाहिए था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I should have read this book.",
+        "She should not have left this job.",
+        "You should have apologized to him.",
+        "He should have told me."
+      ],
+      "answer": "He should have told me."
+    },
+    {
+      "id": 2,
+      "audioScript": "I should have saved more money.",
+      "hindiScript": "मुझे ज्यादा पैसे बचाने चाहिए थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We should have arrived on time.",
+        "I should have practiced more.",
+        "He should have worked harder.",
+        "I should have saved more money."
+      ],
+      "answer": "I should have saved more money."
+    },
+    {
+      "id": 3,
+      "audioScript": "We should have thought earlier.",
+      "hindiScript": "हमें पहले सोचना चाहिए था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You should not have made this mistake.",
+        "We should have helped him.",
+        "I should have told this earlier.",
+        "We should have thought earlier."
+      ],
+      "answer": "We should have thought earlier."
+    },
+    {
+      "id": 4,
+      "audioScript": "You should have stopped him.",
+      "hindiScript": "तुम्हें उसे रोकना चाहिए था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He should have told me.",
+        "You should have expressed your point correctly.",
+        "We should have been more careful.",
+        "You should have stopped him."
+      ],
+      "answer": "You should have stopped him."
+    },
+    {
+      "id": 5,
+      "audioScript": "She should not have left this job.",
+      "hindiScript": "उसे यह जॉब नहीं छोड़नी चाहिए थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I should have saved more money.",
+        "He should have accepted his mistake.",
+        "You should have listened to him.",
+        "She should not have left this job."
+      ],
+      "answer": "She should not have left this job."
+    },
+    {
+      "id": 6,
+      "audioScript": "I should have practiced more.",
+      "hindiScript": "मुझे ज्यादा practice करनी चाहिए थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We should have thought earlier.",
+        "I should have driven more carefully.",
+        "She should have told the truth.",
+        "I should have practiced more."
+      ],
+      "answer": "I should have practiced more."
+    },
+    {
+      "id": 7,
+      "audioScript": "We should have helped him.",
+      "hindiScript": "हमें उसकी मदद करनी चाहिए थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You should have stopped him.",
+        "I should have come earlier.",
+        "I should have read this book.",
+        "We should have helped him."
+      ],
+      "answer": "We should have helped him."
+    },
+    {
+      "id": 8,
+      "audioScript": "You should have expressed your point correctly.",
+      "hindiScript": "तुम्हें अपनी बात सही से कहनी चाहिए थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She should not have left this job.",
+        "You should have apologized to him.",
+        "We should have arrived on time.",
+        "You should have expressed your point correctly."
+      ],
+      "answer": "You should have expressed your point correctly."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He should have told me. I should have saved more money. We should have thought earlier. You should have stopped him. She should not have left this job.",
+    "hindiTranslation": "उसे मुझे बताना चाहिए था। मुझे ज्यादा पैसे बचाने चाहिए थे। हमें पहले सोचना चाहिए था। तुम्हें उसे रोकना चाहिए था। उसे यह जॉब नहीं छोड़नी चाहिए थी।"
+  }
+}

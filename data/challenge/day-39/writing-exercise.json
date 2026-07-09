@@ -1,0 +1,46 @@
+{
+  "day": 39,
+  "topic": "Had To / Will Have To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Had To / Will Have To.",
+      "hindiPrompt": "Had To / Will Have To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I had to go to office yesterday. I will have to go to office tomorrow. He had to complete this work. He will have to complete this work. We had to follow the rules.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Had To / Will Have To.",
+      "hindiPrompt": "Had To / Will Have To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "We will have to follow the rules. She had to wake up early every day. She will have to wake up early every day. Did you have to do this? Will you have to do this?",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"उसे बहुत मेहनत करनी पड़ी।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He had to work very hard.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"He will has to complete this work.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "He will have to complete this work.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Had To / Will Have To.",
+      "hindiPrompt": "Had To / Will Have To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I had to pay money. I will have to pay money. We had to fill the form. We will have to fill the form.",
+      "wordLimit": 60
+    }
+  ]
+}

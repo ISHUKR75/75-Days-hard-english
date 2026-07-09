@@ -1,0 +1,46 @@
+{
+  "day": 29,
+  "topic": "Will / Shall",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Will / Shall.",
+      "hindiPrompt": "Will / Shall का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I will come tomorrow. She will surely succeed. Shall I close the door? We will meet tomorrow. They will complete this project.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Will / Shall.",
+      "hindiPrompt": "Will / Shall का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Shall we go? I will help you. He will come back soon. I will not break this promise. Will you call me?",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"हम इसे बेहतर बनाएंगे।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "We will make this better.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"We wills meet tomorrow.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "We will meet tomorrow.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Will / Shall.",
+      "hindiPrompt": "Will / Shall का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I will finish this work tomorrow. Shall I start? They will never give up. I will surely try.",
+      "wordLimit": 60
+    }
+  ]
+}

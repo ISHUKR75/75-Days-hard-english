@@ -1,0 +1,114 @@
+{
+  "day": 46,
+  "topic": "Able To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Will you be able to do this on time?",
+      "hindiScript": "क्या तुम इसे समय पर कर पाओगे?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They will be able to achieve this target.",
+        "They will be able to get this opportunity.",
+        "She is able to run fast.",
+        "Will you be able to do this on time?"
+      ],
+      "answer": "Will you be able to do this on time?"
+    },
+    {
+      "id": 2,
+      "audioScript": "I was able to fix this.",
+      "hindiScript": "मैं इसे ठीक कर पाया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We are able to work together.",
+        "I was not able to understand this before.",
+        "I was able to complete this yesterday.",
+        "I was able to fix this."
+      ],
+      "answer": "I was able to fix this."
+    },
+    {
+      "id": 3,
+      "audioScript": "She is able to learn any language.",
+      "hindiScript": "वह किसी भी भाषा सीख पाती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He was not able to swim before.",
+        "Will he be able to complete this?",
+        "We will be able to finish this by tomorrow.",
+        "She is able to learn any language."
+      ],
+      "answer": "She is able to learn any language."
+    },
+    {
+      "id": 4,
+      "audioScript": "We were able to correct our mistake.",
+      "hindiScript": "हम अपनी गलती सुधार पाए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Will you be able to do this on time?",
+        "We were able to accept this challenge.",
+        "He was able to solve this problem.",
+        "We were able to correct our mistake."
+      ],
+      "answer": "We were able to correct our mistake."
+    },
+    {
+      "id": 5,
+      "audioScript": "They will be able to get this opportunity.",
+      "hindiScript": "वे यह मौका पा पाएंगे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I was able to fix this.",
+        "She is able to make quick decisions.",
+        "Are you able to understand this?",
+        "They will be able to get this opportunity."
+      ],
+      "answer": "They will be able to get this opportunity."
+    },
+    {
+      "id": 6,
+      "audioScript": "I was not able to understand this before.",
+      "hindiScript": "मैं यह पहले नहीं समझ पाता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is able to learn any language.",
+        "I was able to do this difficult work today.",
+        "I was able to learn this.",
+        "I was not able to understand this before."
+      ],
+      "answer": "I was not able to understand this before."
+    },
+    {
+      "id": 7,
+      "audioScript": "Will he be able to complete this?",
+      "hindiScript": "क्या वह यह पूरा कर पाएगा?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We were able to correct our mistake.",
+        "I am able to do this work.",
+        "They will be able to achieve this target.",
+        "Will he be able to complete this?"
+      ],
+      "answer": "Will he be able to complete this?"
+    },
+    {
+      "id": 8,
+      "audioScript": "We were able to accept this challenge.",
+      "hindiScript": "हम इस challenge को स्वीकार कर पाए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They will be able to get this opportunity.",
+        "She is able to run fast.",
+        "We are able to work together.",
+        "We were able to accept this challenge."
+      ],
+      "answer": "We were able to accept this challenge."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Will you be able to do this on time? I was able to fix this. She is able to learn any language. We were able to correct our mistake. They will be able to get this opportunity.",
+    "hindiTranslation": "क्या तुम इसे समय पर कर पाओगे? मैं इसे ठीक कर पाया। वह किसी भी भाषा सीख पाती है। हम अपनी गलती सुधार पाए। वे यह मौका पा पाएंगे।"
+  }
+}

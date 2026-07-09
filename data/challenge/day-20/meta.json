@@ -1,0 +1,28 @@
+{
+  "day": 20,
+  "title": "Revision + Speaking Practice",
+  "slug": "20-revision-speaking-practice",
+  "type": "revision",
+  "difficulty": "beginner",
+  "cefr": "A1-A2",
+  "emoji": "🔁",
+  "color": "#14b8a6",
+  "topics": [
+    "Revision + Speaking Practice"
+  ],
+  "totalQuestions": 25,
+  "totalVocabulary": 25,
+  "estimatedTime": "2-3 hours",
+  "xpReward": 200,
+  "coinsReward": 30,
+  "prerequisites": [
+    19
+  ],
+  "nextDay": 21,
+  "tags": [
+    "grammar",
+    "revision + speaking practice"
+  ],
+  "lastUpdated": "2026-07-09",
+  "version": "1.0"
+}

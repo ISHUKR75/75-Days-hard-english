@@ -1,0 +1,255 @@
+{
+  "day": 47,
+  "topic": "Conjunctions (And, But, Or, So, Because, Although, While)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं चाय और कॉफी दोनों पीता हूँ।",
+      "options": [
+        "She is smart and hardworking.",
+        "We were happy and excited.",
+        "I was tired, but I finished the work.",
+        "I drink both tea and coffee."
+      ],
+      "answer": "I drink both tea and coffee.",
+      "explanation": "Correct translation: \"मैं चाय और कॉफी दोनों पीता हूँ।\" = \"I drink both tea and coffee.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I was tired, but _____ finished the work.",
+      "options": [
+        "but",
+        "tea",
+        "now",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "Full sentence: \"I was tired, but I finished the work.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Would you like tea or coffee? yesterday.",
+      "options": [
+        "Would you like tea or coffee? yesterday.",
+        "Would you like tea or coffee?"
+      ],
+      "answer": "Would you like tea or coffee?",
+      "explanation": "Correct sentence: \"Would you like tea or coffee?\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मुझे देर हो गई, इसलिए मैं जल्दी निकला।",
+      "options": [
+        "It was raining, so we stayed inside.",
+        "I was hungry, so I ate food.",
+        "I came late because there was traffic.",
+        "I was late, so I left quickly."
+      ],
+      "answer": "I was late, so I left quickly.",
+      "explanation": "Correct translation: \"मुझे देर हो गई, इसलिए मैं जल्दी निकला।\" = \"I was late, so I left quickly.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I came late _____ there was traffic.",
+      "options": [
+        "he",
+        "she",
+        "tired",
+        "because"
+      ],
+      "answer": "because",
+      "explanation": "Full sentence: \"I came late because there was traffic.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Although he were tired, he kept working.",
+      "options": [
+        "Although he were tired, he kept working.",
+        "Although he was tired, he kept working."
+      ],
+      "answer": "Although he was tired, he kept working.",
+      "explanation": "Correct sentence: \"Although he was tired, he kept working.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं खाना बना रहा था जबकि वह पढ़ रही थी।",
+      "options": [
+        "I was studying while he was sleeping.",
+        "I drink both tea and coffee.",
+        "She is smart and hardworking.",
+        "I was cooking while she was studying."
+      ],
+      "answer": "I was cooking while she was studying.",
+      "explanation": "Correct translation: \"मैं खाना बना रहा था जबकि वह पढ़ रही थी।\" = \"I was cooking while she was studying.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She is _____ and hardworking.",
+      "options": [
+        "and",
+        "but",
+        "tea",
+        "smart"
+      ],
+      "answer": "smart",
+      "explanation": "Full sentence: \"She is smart and hardworking.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I like this, but it are expensive.",
+      "options": [
+        "I like this, but it are expensive.",
+        "I like this, but it is expensive."
+      ],
+      "answer": "I like this, but it is expensive.",
+      "explanation": "Correct sentence: \"I like this, but it is expensive.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "तुम अभी जा सकते हो या बाद में।",
+      "options": [
+        "We can watch a movie or stay at home.",
+        "I was late, so I left quickly.",
+        "It was raining, so we stayed inside.",
+        "You can go now or later."
+      ],
+      "answer": "You can go now or later.",
+      "explanation": "Correct translation: \"तुम अभी जा सकते हो या बाद में।\" = \"You can go now or later.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "It was raining, _____ we stayed inside.",
+      "options": [
+        "because",
+        "he",
+        "she",
+        "so"
+      ],
+      "answer": "so",
+      "explanation": "Full sentence: \"It was raining, so we stayed inside.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "He succeeded because he worked hard yesterday.",
+      "options": [
+        "He succeeded because he worked hard yesterday.",
+        "He succeeded because he worked hard."
+      ],
+      "answer": "He succeeded because he worked hard.",
+      "explanation": "Correct sentence: \"He succeeded because he worked hard.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हालांकि मौसम खराब था, हमने यात्रा की।",
+      "options": [
+        "Although it was difficult, we tried.",
+        "I was cooking while she was studying.",
+        "I was studying while he was sleeping.",
+        "Although the weather was bad, we traveled."
+      ],
+      "answer": "Although the weather was bad, we traveled.",
+      "explanation": "Correct translation: \"हालांकि मौसम खराब था, हमने यात्रा की।\" = \"Although the weather was bad, we traveled.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I was studying _____ he was sleeping.",
+      "options": [
+        "tea",
+        "and",
+        "but",
+        "while"
+      ],
+      "answer": "while",
+      "explanation": "Full sentence: \"I was studying while he was sleeping.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "We was happy and excited.",
+      "options": [
+        "We was happy and excited.",
+        "We were happy and excited."
+      ],
+      "answer": "We were happy and excited.",
+      "explanation": "Correct sentence: \"We were happy and excited.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "यह अच्छा है, लेकिन इसे बेहतर बनाया जा सकता है।",
+      "options": [
+        "Would you like tea or coffee?",
+        "You can go now or later.",
+        "We can watch a movie or stay at home.",
+        "This is good, but it can be improved."
+      ],
+      "answer": "This is good, but it can be improved.",
+      "explanation": "Correct translation: \"यह अच्छा है, लेकिन इसे बेहतर बनाया जा सकता है।\" = \"This is good, but it can be improved.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "We can watch a _____ or stay at home.",
+      "options": [
+        "so",
+        "because",
+        "he",
+        "movie"
+      ],
+      "answer": "movie",
+      "explanation": "Full sentence: \"We can watch a movie or stay at home.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I were hungry, so I ate food.",
+      "options": [
+        "I were hungry, so I ate food.",
+        "I was hungry, so I ate food."
+      ],
+      "answer": "I was hungry, so I ate food.",
+      "explanation": "Correct sentence: \"I was hungry, so I ate food.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "वह रोई क्योंकि वह दुखी थी।",
+      "options": [
+        "Although he was tired, he kept working.",
+        "Although the weather was bad, we traveled.",
+        "Although it was difficult, we tried.",
+        "She cried because she was sad."
+      ],
+      "answer": "She cried because she was sad.",
+      "explanation": "Correct translation: \"वह रोई क्योंकि वह दुखी थी।\" = \"She cried because she was sad.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Although it was _____ we tried.",
+      "options": [
+        "while",
+        "tea",
+        "and",
+        "difficult"
+      ],
+      "answer": "difficult",
+      "explanation": "Full sentence: \"Although it was difficult, we tried.\""
+    }
+  ]
+}

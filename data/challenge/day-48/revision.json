@@ -1,0 +1,68 @@
+{
+  "day": 48,
+  "topic": "WH Words (What, When, Where, Who, Why, Whom, Whose, Which, How)",
+  "keyPointsSummary": [
+    "'What' asks about things, 'Who/Whom' about people, 'Where' about place",
+    "'When' asks about time, 'Why' about reason, 'How' about manner/way",
+    "'Whose' asks about possession, 'Which' asks to choose among options",
+    "WH word always comes first in the question"
+  ],
+  "quickQuiz": [
+    {
+      "id": 1,
+      "hindi": "तुम्हारा नाम क्या है?",
+      "answer": "What is your name?"
+    },
+    {
+      "id": 2,
+      "hindi": "तुम कब आओगे?",
+      "answer": "When will you come?"
+    },
+    {
+      "id": 3,
+      "hindi": "तुम कहाँ रहते हो?",
+      "answer": "Where do you live?"
+    },
+    {
+      "id": 4,
+      "hindi": "यह कौन है?",
+      "answer": "Who is this?"
+    },
+    {
+      "id": 5,
+      "hindi": "तुम देर से क्यों आए?",
+      "answer": "Why did you come late?"
+    },
+    {
+      "id": 6,
+      "hindi": "यह किसका बैग है?",
+      "answer": "Whose bag is this?"
+    },
+    {
+      "id": 7,
+      "hindi": "तुम्हें कौन सी किताब पसंद है?",
+      "answer": "Which book do you like?"
+    },
+    {
+      "id": 8,
+      "hindi": "तुम यह कैसे करते हो?",
+      "answer": "How do you do this?"
+    },
+    {
+      "id": 9,
+      "hindi": "तुम किससे बात कर रहे हो?",
+      "answer": "Whom are you talking to?"
+    },
+    {
+      "id": 10,
+      "hindi": "तुम क्या कर रहे हो?",
+      "answer": "What are you doing?"
+    }
+  ],
+  "mustRememberRules": [
+    "'What' asks about things, 'Who/Whom' about people, 'Where' about place",
+    "'When' asks about time, 'Why' about reason, 'How' about manner/way",
+    "'Whose' asks about possession, 'Which' asks to choose among options",
+    "WH word always comes first in the question"
+  ]
+}

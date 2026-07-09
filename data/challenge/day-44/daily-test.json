@@ -1,0 +1,255 @@
+{
+  "day": 44,
+  "topic": "Need To / Needed To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे यह काम पूरा करना है।",
+      "options": [
+        "I needed to make this decision.",
+        "I need to do this quickly.",
+        "I needed to finish this work.",
+        "I need to finish this work."
+      ],
+      "answer": "I need to finish this work.",
+      "explanation": "Correct translation: \"मुझे यह काम पूरा करना है।\" = \"I need to finish this work.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I needed to _____ this work.",
+      "options": [
+        "take",
+        "do",
+        "see",
+        "finish"
+      ],
+      "answer": "finish",
+      "explanation": "Full sentence: \"I needed to finish this work.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He need to see a doctor.",
+      "options": [
+        "He need to see a doctor.",
+        "He needs to see a doctor."
+      ],
+      "answer": "He needs to see a doctor.",
+      "explanation": "Correct sentence: \"He needs to see a doctor.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसे डॉक्टर से मिलना पड़ा।",
+      "options": [
+        "Do you need to do this?",
+        "He needed to correct this.",
+        "We need to drink more water.",
+        "He needed to see a doctor."
+      ],
+      "answer": "He needed to see a doctor.",
+      "explanation": "Correct translation: \"उसे डॉक्टर से मिलना पड़ा।\" = \"He needed to see a doctor.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We need to _____ more water.",
+      "options": [
+        "to",
+        "practice",
+        "get",
+        "drink"
+      ],
+      "answer": "drink",
+      "explanation": "Full sentence: \"We need to drink more water.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "We needed to drink more water yesterday.",
+      "options": [
+        "We needed to drink more water yesterday.",
+        "We needed to drink more water."
+      ],
+      "answer": "We needed to drink more water.",
+      "explanation": "Correct sentence: \"We needed to drink more water.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मुझे यह decision लेना है।",
+      "options": [
+        "We needed to get more information.",
+        "I need to finish this work.",
+        "I needed to make this decision.",
+        "I need to make this decision."
+      ],
+      "answer": "I need to make this decision.",
+      "explanation": "Correct translation: \"मुझे यह decision लेना है।\" = \"I need to make this decision.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "I needed to _____ this decision.",
+      "options": [
+        "do",
+        "finish",
+        "take",
+        "make"
+      ],
+      "answer": "make",
+      "explanation": "Full sentence: \"I needed to make this decision.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "She need to take rest.",
+      "options": [
+        "She need to take rest.",
+        "She needs to take rest."
+      ],
+      "answer": "She needs to take rest.",
+      "explanation": "Correct sentence: \"She needs to take rest.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "उसे आराम करना पड़ा।",
+      "options": [
+        "He needs to correct this.",
+        "He needed to see a doctor.",
+        "Do you need to do this?",
+        "She needed to take rest."
+      ],
+      "answer": "She needed to take rest.",
+      "explanation": "Correct translation: \"उसे आराम करना पड़ा।\" = \"She needed to take rest.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Do you need _____ do this?",
+      "options": [
+        "correct",
+        "drink",
+        "practice",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"Do you need to do this?\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Did you needs to do this?",
+      "options": [
+        "Did you needs to do this?",
+        "Did you need to do this?"
+      ],
+      "answer": "Did you need to do this?",
+      "explanation": "Correct sentence: \"Did you need to do this?\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हमें और जानकारी चाहिए।",
+      "options": [
+        "We needed to practice.",
+        "I need to make this decision.",
+        "We needed to get more information.",
+        "We need to get more information."
+      ],
+      "answer": "We need to get more information.",
+      "explanation": "Correct translation: \"हमें और जानकारी चाहिए।\" = \"We need to get more information.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "We needed to _____ more information.",
+      "options": [
+        "finish",
+        "make",
+        "do",
+        "get"
+      ],
+      "answer": "get",
+      "explanation": "Full sentence: \"We needed to get more information.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I needs to do this quickly.",
+      "options": [
+        "I needs to do this quickly.",
+        "I need to do this quickly."
+      ],
+      "answer": "I need to do this quickly.",
+      "explanation": "Correct sentence: \"I need to do this quickly.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मुझे यह जल्दी करना पड़ा।",
+      "options": [
+        "He needs to see a doctor.",
+        "She needed to take rest.",
+        "He needs to correct this.",
+        "I needed to do this quickly."
+      ],
+      "answer": "I needed to do this quickly.",
+      "explanation": "Correct translation: \"मुझे यह जल्दी करना पड़ा।\" = \"I needed to do this quickly.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He needs _____ correct this.",
+      "options": [
+        "see",
+        "correct",
+        "drink",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"He needs to correct this.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He needed to correct this yesterday.",
+      "options": [
+        "He needed to correct this yesterday.",
+        "He needed to correct this."
+      ],
+      "answer": "He needed to correct this.",
+      "explanation": "Correct sentence: \"He needed to correct this.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हमें practice करनी है।",
+      "options": [
+        "We needed to drink more water.",
+        "We need to get more information.",
+        "We needed to practice.",
+        "We need to practice."
+      ],
+      "answer": "We need to practice.",
+      "explanation": "Correct translation: \"हमें practice करनी है।\" = \"We need to practice.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "We needed _____ practice.",
+      "options": [
+        "make",
+        "get",
+        "finish",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"We needed to practice.\""
+    }
+  ]
+}

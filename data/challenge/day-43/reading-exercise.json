@@ -1,0 +1,107 @@
+{
+  "day": 43,
+  "topic": "Want To / Wanted To",
+  "passage": {
+    "title": "A Day with Want To / Wanted To",
+    "text": "I want to learn this. I wanted to learn this. He wants to become a doctor. He wanted to become a doctor. We want to travel. We wanted to travel. I want to read this book. I wanted to read this book. She wants to do this job. She wanted to do this job.",
+    "hindiTranslation": "मुझे यह सीखना है। मुझे यह सीखना था। वह डॉक्टर बनना चाहता है। वह डॉक्टर बनना चाहता था। हम travel करना चाहते हैं। हम travel करना चाहते थे। मैं यह किताब पढ़ना चाहता हूँ। मैं यह किताब पढ़ना चाहता था। वह यह नौकरी करना चाहती है। वह यह नौकरी करना चाहती थी।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I want to learn...\"?",
+      "options": [
+        "I wanted to read this book.",
+        "I want to take this opportunity.",
+        "I wanted to learn this.",
+        "I want to learn this."
+      ],
+      "answer": "I want to learn this.",
+      "explanation": "Stated in the passage: \"I want to learn this.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I wanted to learn...\"?",
+      "options": [
+        "She wants to do this job.",
+        "I wanted to take this opportunity.",
+        "He wants to become a doctor.",
+        "I wanted to learn this."
+      ],
+      "answer": "I wanted to learn this.",
+      "explanation": "Stated in the passage: \"I wanted to learn this.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He wants to become...\"?",
+      "options": [
+        "She wanted to do this job.",
+        "He wants to know the truth.",
+        "He wanted to become a doctor.",
+        "He wants to become a doctor."
+      ],
+      "answer": "He wants to become a doctor.",
+      "explanation": "Stated in the passage: \"He wants to become a doctor.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"He wanted to become...\"?",
+      "options": [
+        "Do you want to do this?",
+        "He wanted to know the truth.",
+        "We want to travel.",
+        "He wanted to become a doctor."
+      ],
+      "answer": "He wanted to become a doctor.",
+      "explanation": "Stated in the passage: \"He wanted to become a doctor.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"We want to travel....\"?",
+      "options": [
+        "Did you want to do this?",
+        "We want to make this better.",
+        "We wanted to travel.",
+        "We want to travel."
+      ],
+      "answer": "We want to travel.",
+      "explanation": "Stated in the passage: \"We want to travel.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"We wanted to travel....\"?",
+      "options": [
+        "They want to achieve success.",
+        "We wanted to make this better.",
+        "I want to read this book.",
+        "We wanted to travel."
+      ],
+      "answer": "We wanted to travel.",
+      "explanation": "Stated in the passage: \"We wanted to travel.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I want to read...\"?",
+      "options": [
+        "They wanted to achieve success.",
+        "I want to learn this.",
+        "I wanted to read this book.",
+        "I want to read this book."
+      ],
+      "answer": "I want to read this book.",
+      "explanation": "Stated in the passage: \"I want to read this book.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"I wanted to read...\"?",
+      "options": [
+        "I want to take this opportunity.",
+        "I wanted to learn this.",
+        "She wants to do this job.",
+        "I wanted to read this book."
+      ],
+      "answer": "I wanted to read this book.",
+      "explanation": "Stated in the passage: \"I wanted to read this book.\""
+    }
+  ]
+}

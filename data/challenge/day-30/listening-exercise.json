@@ -1,0 +1,114 @@
+{
+  "day": 30,
+  "topic": "Would + Ought To + Dare",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "You ought to be honest.",
+      "hindiScript": "तुम्हें ईमानदार रहना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We ought to follow the rules.",
+        "How would I know?",
+        "I would go there every day before.",
+        "You ought to be honest."
+      ],
+      "answer": "You ought to be honest."
+    },
+    {
+      "id": 2,
+      "audioScript": "He dared to say this.",
+      "hindiScript": "उसने ऐसा कहने की हिम्मत की।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Do you dare to talk to him?",
+        "He did not dare to do this.",
+        "We ought to respect our parents.",
+        "He dared to say this."
+      ],
+      "answer": "He dared to say this."
+    },
+    {
+      "id": 3,
+      "audioScript": "Would you eat this food?",
+      "hindiScript": "क्या तुम यह खाना खाओगे?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I would like this.",
+        "We ought to work harder.",
+        "You ought to tell the truth.",
+        "Would you eat this food?"
+      ],
+      "answer": "Would you eat this food?"
+    },
+    {
+      "id": 4,
+      "audioScript": "We ought to fulfill our responsibility.",
+      "hindiScript": "हमें अपनी जिम्मेदारी निभानी चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You ought to be honest.",
+        "I would never forget this.",
+        "He does not dare to say this.",
+        "We ought to fulfill our responsibility."
+      ],
+      "answer": "We ought to fulfill our responsibility."
+    },
+    {
+      "id": 5,
+      "audioScript": "How would I know?",
+      "hindiScript": "मुझे कैसे पता चलेगा?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He dared to say this.",
+        "You ought to apologize.",
+        "Would you talk to me?",
+        "How would I know?"
+      ],
+      "answer": "How would I know?"
+    },
+    {
+      "id": 6,
+      "audioScript": "He did not dare to do this.",
+      "hindiScript": "उसकी हिम्मत नहीं थी कि वह ऐसा कर सके।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Would you eat this food?",
+        "How dare you say this?",
+        "I would not do this before.",
+        "He did not dare to do this."
+      ],
+      "answer": "He did not dare to do this."
+    },
+    {
+      "id": 7,
+      "audioScript": "We ought to work harder.",
+      "hindiScript": "हमें ज्यादा मेहनत करनी चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We ought to fulfill our responsibility.",
+        "Would you help me?",
+        "We ought to follow the rules.",
+        "We ought to work harder."
+      ],
+      "answer": "We ought to work harder."
+    },
+    {
+      "id": 8,
+      "audioScript": "I would never forget this.",
+      "hindiScript": "मैं इसे कभी नहीं भूलूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "How would I know?",
+        "I would go there every day before.",
+        "Do you dare to talk to him?",
+        "I would never forget this."
+      ],
+      "answer": "I would never forget this."
+    }
+  ],
+  "dictationPassage": {
+    "text": "You ought to be honest. He dared to say this. Would you eat this food? We ought to fulfill our responsibility. How would I know?",
+    "hindiTranslation": "तुम्हें ईमानदार रहना चाहिए। उसने ऐसा कहने की हिम्मत की। क्या तुम यह खाना खाओगे? हमें अपनी जिम्मेदारी निभानी चाहिए। मुझे कैसे पता चलेगा?"
+  }
+}

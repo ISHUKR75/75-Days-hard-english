@@ -1,0 +1,107 @@
+{
+  "day": 40,
+  "topic": "Make / Get (Causative and Common Usage)",
+  "passage": {
+    "title": "A Day with Make / Get (Causative and Common Usage)",
+    "text": "I made him do this work. I got him to do this work. I get my car repaired. She makes good food. I got this job. He made me laugh. I got him to agree. She gets her hair cut. The teacher made us stay quiet. I get my homework done.",
+    "hindiTranslation": "मैंने उसे यह काम करने पर मजबूर किया। मैंने उसे यह काम करने के लिए मनाया। मैं अपनी कार ठीक करवाता हूँ। वह अच्छा खाना बनाती है। मुझे यह नौकरी मिल गई। उसने मुझे हंसने पर मजबूर कर दिया। मैंने उसे मानने के लिए राज़ी किया। वह अपने बाल कटवाती है। टीचर ने हमें चुप रहने को कहा (मजबूर किया)। मैं अपना homework पूरा करवाता हूँ।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I made him do...\"?",
+      "options": [
+        "She gets her hair cut.",
+        "I am getting my house painted.",
+        "I got him to do this work.",
+        "I made him do this work."
+      ],
+      "answer": "I made him do this work.",
+      "explanation": "Stated in the passage: \"I made him do this work.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I got him to...\"?",
+      "options": [
+        "The teacher made us stay quiet.",
+        "He makes good decisions.",
+        "I get my car repaired.",
+        "I got him to do this work."
+      ],
+      "answer": "I got him to do this work.",
+      "explanation": "Stated in the passage: \"I got him to do this work.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"I get my car...\"?",
+      "options": [
+        "I get my homework done.",
+        "I got this answer.",
+        "She makes good food.",
+        "I get my car repaired."
+      ],
+      "answer": "I get my car repaired.",
+      "explanation": "Stated in the passage: \"I get my car repaired.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"She makes good food....\"?",
+      "options": [
+        "He always makes mistakes.",
+        "The boss made us work late.",
+        "I got this job.",
+        "She makes good food."
+      ],
+      "answer": "She makes good food.",
+      "explanation": "Stated in the passage: \"She makes good food.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"I got this job....\"?",
+      "options": [
+        "I got that place.",
+        "I got him to help.",
+        "He made me laugh.",
+        "I got this job."
+      ],
+      "answer": "I got this job.",
+      "explanation": "Stated in the passage: \"I got this job.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"He made me laugh....\"?",
+      "options": [
+        "She made me stop.",
+        "I get my clothes washed.",
+        "I got him to agree.",
+        "He made me laugh."
+      ],
+      "answer": "He made me laugh.",
+      "explanation": "Stated in the passage: \"He made me laugh.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I got him to...\"?",
+      "options": [
+        "I got him to understand.",
+        "I made him do this work.",
+        "She gets her hair cut.",
+        "I got him to agree."
+      ],
+      "answer": "I got him to agree.",
+      "explanation": "Stated in the passage: \"I got him to agree.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She gets her hair...\"?",
+      "options": [
+        "I am getting my house painted.",
+        "I got him to do this work.",
+        "The teacher made us stay quiet.",
+        "She gets her hair cut."
+      ],
+      "answer": "She gets her hair cut.",
+      "explanation": "Stated in the passage: \"She gets her hair cut.\""
+    }
+  ]
+}

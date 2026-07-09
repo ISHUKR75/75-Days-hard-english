@@ -1,0 +1,46 @@
+{
+  "day": 26,
+  "topic": "Would Have",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Would Have.",
+      "hindiPrompt": "Would Have का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "If I had known, I would have come. If he had worked hard, he would have passed. If I had money, I would have bought this. If you had told me, I would have helped. If she had come early, we would have met.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Would Have.",
+      "hindiPrompt": "Would Have का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "If we had time, we would have won. If I had been there, I would have seen this. If they had paid attention, they would have understood. If I had gotten a chance, I would have done this. If you had listened, you would have learned.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"अगर वह सच बताता, तो हम खुश होते।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "If he had told the truth, we would have been happy.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"If you had told me, I woulds have helped.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "If you had told me, I would have helped.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Would Have.",
+      "hindiPrompt": "Would Have का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "If I had known this, I would not have done it. If she had asked me, I would have told her. If you had tried, you would have succeeded. If we had more time, we would have learned more.",
+      "wordLimit": 60
+    }
+  ]
+}

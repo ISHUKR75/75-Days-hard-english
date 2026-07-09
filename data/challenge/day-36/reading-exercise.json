@@ -1,0 +1,107 @@
+{
+  "day": 36,
+  "topic": "Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among)",
+  "passage": {
+    "title": "A Day with Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among)",
+    "text": "The book is on the table. The cat is under the table. We are in the room. I will come at 5 pm. My birthday is in January. The meeting is on Monday. The lamp is over the table. This book is between mine and yours. This competition is among three teams. We live in Delhi.",
+    "hindiTranslation": "किताब मेज पर है। बिल्ली टेबल के नीचे है। हम कमरे में हैं। मैं 5 बजे आऊँगा। मेरा जन्मदिन जनवरी में है। मीटिंग सोमवार को है। लैंप टेबल के ऊपर है। यह किताब मेरी और तुम्हारी के बीच है। यह प्रतियोगिता तीन टीमों के बीच है। हम दिल्ली में रहते हैं।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"The book is on...\"?",
+      "options": [
+        "This book is between mine and yours.",
+        "We travel in summer.",
+        "The cat is under the table.",
+        "The book is on the table."
+      ],
+      "answer": "The book is on the table.",
+      "explanation": "Stated in the passage: \"The book is on the table.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"The cat is under...\"?",
+      "options": [
+        "This competition is among three teams.",
+        "His wedding is on Friday.",
+        "We are in the room.",
+        "The cat is under the table."
+      ],
+      "answer": "The cat is under the table.",
+      "explanation": "Stated in the passage: \"The cat is under the table.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"We are in the...\"?",
+      "options": [
+        "We live in Delhi.",
+        "The bridge is over the river.",
+        "I will come at 5 pm.",
+        "We are in the room."
+      ],
+      "answer": "We are in the room.",
+      "explanation": "Stated in the passage: \"We are in the room.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I will come at...\"?",
+      "options": [
+        "He is standing at the door.",
+        "He is sitting between two friends.",
+        "My birthday is in January.",
+        "I will come at 5 pm."
+      ],
+      "answer": "I will come at 5 pm.",
+      "explanation": "Stated in the passage: \"I will come at 5 pm.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"My birthday is in...\"?",
+      "options": [
+        "The book is on the shelf.",
+        "This book is very popular among all students.",
+        "The meeting is on Monday.",
+        "My birthday is in January."
+      ],
+      "answer": "My birthday is in January.",
+      "explanation": "Stated in the passage: \"My birthday is in January.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"The meeting is on...\"?",
+      "options": [
+        "The children are playing in the garden.",
+        "I work in the office.",
+        "The lamp is over the table.",
+        "The meeting is on Monday."
+      ],
+      "answer": "The meeting is on Monday.",
+      "explanation": "Stated in the passage: \"The meeting is on Monday.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"The lamp is over...\"?",
+      "options": [
+        "My meeting is at 10 am.",
+        "The book is on the table.",
+        "This book is between mine and yours.",
+        "The lamp is over the table."
+      ],
+      "answer": "The lamp is over the table.",
+      "explanation": "Stated in the passage: \"The lamp is over the table.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"This book is between...\"?",
+      "options": [
+        "We travel in summer.",
+        "The cat is under the table.",
+        "This competition is among three teams.",
+        "This book is between mine and yours."
+      ],
+      "answer": "This book is between mine and yours.",
+      "explanation": "Stated in the passage: \"This book is between mine and yours.\""
+    }
+  ]
+}

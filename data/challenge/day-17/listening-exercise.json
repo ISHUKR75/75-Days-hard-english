@@ -1,0 +1,114 @@
+{
+  "day": 17,
+  "topic": "Should",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He should tell the truth.",
+      "hindiScript": "उसे सच बताना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Should I do this?",
+        "He should not smoke.",
+        "You should not get angry too much.",
+        "He should tell the truth."
+      ],
+      "answer": "He should tell the truth."
+    },
+    {
+      "id": 2,
+      "audioScript": "We should follow the rules.",
+      "hindiScript": "हमें नियम मानने चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We should help others.",
+        "You should listen to your parents.",
+        "He should accept his mistake.",
+        "We should follow the rules."
+      ],
+      "answer": "We should follow the rules."
+    },
+    {
+      "id": 3,
+      "audioScript": "You should practice more.",
+      "hindiScript": "तुम्हें ज्यादा practice करनी चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You should sleep early.",
+        "We should take care of the environment.",
+        "We should respect each other.",
+        "You should practice more."
+      ],
+      "answer": "You should practice more."
+    },
+    {
+      "id": 4,
+      "audioScript": "Should we buy this?",
+      "hindiScript": "क्या हमें यह खरीदना चाहिए?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He should tell the truth.",
+        "She should not miss this opportunity.",
+        "You should drink more water.",
+        "Should we buy this?"
+      ],
+      "answer": "Should we buy this?"
+    },
+    {
+      "id": 5,
+      "audioScript": "He should not smoke.",
+      "hindiScript": "उसे धूम्रपान नहीं करना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We should follow the rules.",
+        "You should exercise daily.",
+        "We should arrive on time.",
+        "He should not smoke."
+      ],
+      "answer": "He should not smoke."
+    },
+    {
+      "id": 6,
+      "audioScript": "You should listen to your parents.",
+      "hindiScript": "तुम्हें अपने माता-पिता की सुनना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You should practice more.",
+        "Should I tell him?",
+        "He should see a doctor.",
+        "You should listen to your parents."
+      ],
+      "answer": "You should listen to your parents."
+    },
+    {
+      "id": 7,
+      "audioScript": "We should take care of the environment.",
+      "hindiScript": "हमें environment का ध्यान रखना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Should we buy this?",
+        "We should be honest.",
+        "You should not lie.",
+        "We should take care of the environment."
+      ],
+      "answer": "We should take care of the environment."
+    },
+    {
+      "id": 8,
+      "audioScript": "She should not miss this opportunity.",
+      "hindiScript": "उसे यह मौका नहीं छोड़ना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He should not smoke.",
+        "You should not get angry too much.",
+        "We should work hard.",
+        "She should not miss this opportunity."
+      ],
+      "answer": "She should not miss this opportunity."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He should tell the truth. We should follow the rules. You should practice more. Should we buy this? He should not smoke.",
+    "hindiTranslation": "उसे सच बताना चाहिए। हमें नियम मानने चाहिए। तुम्हें ज्यादा practice करनी चाहिए। क्या हमें यह खरीदना चाहिए? उसे धूम्रपान नहीं करना चाहिए।"
+  }
+}

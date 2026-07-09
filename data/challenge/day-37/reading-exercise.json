@@ -1,0 +1,107 @@
+{
+  "day": 37,
+  "topic": "Prepositions Part 2 — Direction & Movement (To, From, Into, Onto, Through, Across, Along)",
+  "passage": {
+    "title": "A Day with Prepositions Part 2 — Direction & Movement (To, From, Into, Onto, Through, Across, Along)",
+    "text": "I am going to school. He came from Delhi. The cat went into the room. He climbed onto the table. We passed through the forest. He went across the road. We walked along the river. I am going home from the office. He jumped into the water. The children climbed onto the bus.",
+    "hindiTranslation": "मैं स्कूल जा रहा हूँ। वह दिल्ली से आया है। बिल्ली कमरे में घुसी। वह टेबल पर चढ़ गया। हम जंगल के बीच से गुजरे। वह सड़क के उस पार गया। हम नदी के किनारे-किनारे चले। मैं ऑफिस से घर जा रहा हूँ। वह पानी में कूद गया। बच्चे बस में चढ़ गए।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I am going to...\"?",
+      "options": [
+        "I am going home from the office.",
+        "The water was poured into the bottle.",
+        "He came from Delhi.",
+        "I am going to school."
+      ],
+      "answer": "I am going to school.",
+      "explanation": "Stated in the passage: \"I am going to school.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"He came from Delhi....\"?",
+      "options": [
+        "He jumped into the water.",
+        "He climbed onto the roof.",
+        "The cat went into the room.",
+        "He came from Delhi."
+      ],
+      "answer": "He came from Delhi.",
+      "explanation": "Stated in the passage: \"He came from Delhi.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"The cat went into...\"?",
+      "options": [
+        "The children climbed onto the bus.",
+        "The air is coming through the window.",
+        "He climbed onto the table.",
+        "The cat went into the room."
+      ],
+      "answer": "The cat went into the room.",
+      "explanation": "Stated in the passage: \"The cat went into the room.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"He climbed onto the...\"?",
+      "options": [
+        "We came through the tunnel.",
+        "We went across the field.",
+        "We passed through the forest.",
+        "He climbed onto the table."
+      ],
+      "answer": "He climbed onto the table.",
+      "explanation": "Stated in the passage: \"He climbed onto the table.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"We passed through the...\"?",
+      "options": [
+        "She went across the bridge.",
+        "We walked along the path.",
+        "He went across the road.",
+        "We passed through the forest."
+      ],
+      "answer": "We passed through the forest.",
+      "explanation": "Stated in the passage: \"We passed through the forest.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"He went across the...\"?",
+      "options": [
+        "We walked along the beach.",
+        "This train goes from Delhi to Mumbai.",
+        "We walked along the river.",
+        "He went across the road."
+      ],
+      "answer": "He went across the road.",
+      "explanation": "Stated in the passage: \"He went across the road.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"We walked along the...\"?",
+      "options": [
+        "I am going from Mumbai to Delhi.",
+        "I am going to school.",
+        "I am going home from the office.",
+        "We walked along the river."
+      ],
+      "answer": "We walked along the river.",
+      "explanation": "Stated in the passage: \"We walked along the river.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"I am going home...\"?",
+      "options": [
+        "The water was poured into the bottle.",
+        "He came from Delhi.",
+        "He jumped into the water.",
+        "I am going home from the office."
+      ],
+      "answer": "I am going home from the office.",
+      "explanation": "Stated in the passage: \"I am going home from the office.\""
+    }
+  ]
+}

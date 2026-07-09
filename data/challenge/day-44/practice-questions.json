@@ -1,0 +1,287 @@
+{
+  "day": 44,
+  "topic": "Need To / Needed To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मुझे यह काम पूरा करना है।",
+      "english": "I need to finish this work.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"I need to finish this work.\"",
+      "difficulty": "easy",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 2,
+      "hindi": "मुझे यह काम पूरा करना पड़ा।",
+      "english": "I needed to finish this work.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"I needed to finish this work.\"",
+      "difficulty": "medium",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 3,
+      "hindi": "उसे डॉक्टर से मिलना है।",
+      "english": "He needs to see a doctor.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"He needs to see a doctor.\"",
+      "difficulty": "hard",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 4,
+      "hindi": "उसे डॉक्टर से मिलना पड़ा।",
+      "english": "He needed to see a doctor.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"He needed to see a doctor.\"",
+      "difficulty": "easy",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 5,
+      "hindi": "हमें ज्यादा पानी पीना है।",
+      "english": "We need to drink more water.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"We need to drink more water.\"",
+      "difficulty": "medium",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 6,
+      "hindi": "हमें ज्यादा पानी पीना पड़ा।",
+      "english": "We needed to drink more water.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"We needed to drink more water.\"",
+      "difficulty": "hard",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 7,
+      "hindi": "मुझे यह decision लेना है।",
+      "english": "I need to make this decision.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"I need to make this decision.\"",
+      "difficulty": "easy",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 8,
+      "hindi": "मुझे यह decision लेना पड़ा।",
+      "english": "I needed to make this decision.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"I needed to make this decision.\"",
+      "difficulty": "medium",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 9,
+      "hindi": "उसे आराम करना है।",
+      "english": "She needs to take rest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"She needs to take rest.\"",
+      "difficulty": "hard",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 10,
+      "hindi": "उसे आराम करना पड़ा।",
+      "english": "She needed to take rest.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"She needed to take rest.\"",
+      "difficulty": "easy",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 11,
+      "hindi": "क्या तुम्हें यह करना है?",
+      "english": "Do you need to do this?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"Do you need to do this?\"",
+      "difficulty": "medium",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 12,
+      "hindi": "क्या तुम्हें यह करना पड़ा?",
+      "english": "Did you need to do this?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"Did you need to do this?\"",
+      "difficulty": "hard",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 13,
+      "hindi": "हमें और जानकारी चाहिए।",
+      "english": "We need to get more information.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"We need to get more information.\"",
+      "difficulty": "easy",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 14,
+      "hindi": "हमें और जानकारी चाहिए थी।",
+      "english": "We needed to get more information.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"We needed to get more information.\"",
+      "difficulty": "medium",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 15,
+      "hindi": "मुझे यह जल्दी करना है।",
+      "english": "I need to do this quickly.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"I need to do this quickly.\"",
+      "difficulty": "hard",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 16,
+      "hindi": "मुझे यह जल्दी करना पड़ा।",
+      "english": "I needed to do this quickly.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"I needed to do this quickly.\"",
+      "difficulty": "easy",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 17,
+      "hindi": "उसे यह सही करना है।",
+      "english": "He needs to correct this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"He needs to correct this.\"",
+      "difficulty": "medium",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 18,
+      "hindi": "उसे यह सही करना पड़ा।",
+      "english": "He needed to correct this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"He needed to correct this.\"",
+      "difficulty": "hard",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 19,
+      "hindi": "हमें practice करनी है।",
+      "english": "We need to practice.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"We need to practice.\"",
+      "difficulty": "easy",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    },
+    {
+      "id": 20,
+      "hindi": "हमें practice करनी पड़ी।",
+      "english": "We needed to practice.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + need/needs to (present) / needed to (past) + base verb",
+      "explanation": "Correct sentence: \"We needed to practice.\"",
+      "difficulty": "medium",
+      "tags": [
+        "need"
+      ],
+      "grammarRule": "Need To / Needed To",
+      "category": "Need To / Needed To practice"
+    }
+  ]
+}

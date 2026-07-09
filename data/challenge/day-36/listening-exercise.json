@@ -1,0 +1,114 @@
+{
+  "day": 36,
+  "topic": "Prepositions Part 1 — Place & Time (In, On, At, Under, Over, Between, Among)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "He is standing at the door.",
+      "hindiScript": "वह दरवाज़े पर खड़ा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This book is between mine and yours.",
+        "We travel in summer.",
+        "The cat is under the table.",
+        "He is standing at the door."
+      ],
+      "answer": "He is standing at the door."
+    },
+    {
+      "id": 2,
+      "audioScript": "The book is on the shelf.",
+      "hindiScript": "किताब shelf पर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "This competition is among three teams.",
+        "His wedding is on Friday.",
+        "We are in the room.",
+        "The book is on the shelf."
+      ],
+      "answer": "The book is on the shelf."
+    },
+    {
+      "id": 3,
+      "audioScript": "The children are playing in the garden.",
+      "hindiScript": "बच्चे बगीचे में खेल रहे हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We live in Delhi.",
+        "The bridge is over the river.",
+        "I will come at 5 pm.",
+        "The children are playing in the garden."
+      ],
+      "answer": "The children are playing in the garden."
+    },
+    {
+      "id": 4,
+      "audioScript": "My meeting is at 10 am.",
+      "hindiScript": "मेरी मीटिंग 10 बजे सुबह है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He is standing at the door.",
+        "He is sitting between two friends.",
+        "My birthday is in January.",
+        "My meeting is at 10 am."
+      ],
+      "answer": "My meeting is at 10 am."
+    },
+    {
+      "id": 5,
+      "audioScript": "We travel in summer.",
+      "hindiScript": "हम गर्मियों में यात्रा करते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The book is on the shelf.",
+        "This book is very popular among all students.",
+        "The meeting is on Monday.",
+        "We travel in summer."
+      ],
+      "answer": "We travel in summer."
+    },
+    {
+      "id": 6,
+      "audioScript": "His wedding is on Friday.",
+      "hindiScript": "उसकी शादी शुक्रवार को है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The children are playing in the garden.",
+        "I work in the office.",
+        "The lamp is over the table.",
+        "His wedding is on Friday."
+      ],
+      "answer": "His wedding is on Friday."
+    },
+    {
+      "id": 7,
+      "audioScript": "The bridge is over the river.",
+      "hindiScript": "पुल नदी के ऊपर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My meeting is at 10 am.",
+        "The book is on the table.",
+        "This book is between mine and yours.",
+        "The bridge is over the river."
+      ],
+      "answer": "The bridge is over the river."
+    },
+    {
+      "id": 8,
+      "audioScript": "He is sitting between two friends.",
+      "hindiScript": "वह दो दोस्तों के बीच बैठा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We travel in summer.",
+        "The cat is under the table.",
+        "This competition is among three teams.",
+        "He is sitting between two friends."
+      ],
+      "answer": "He is sitting between two friends."
+    }
+  ],
+  "dictationPassage": {
+    "text": "He is standing at the door. The book is on the shelf. The children are playing in the garden. My meeting is at 10 am. We travel in summer.",
+    "hindiTranslation": "वह दरवाज़े पर खड़ा है। किताब shelf पर है। बच्चे बगीचे में खेल रहे हैं। मेरी मीटिंग 10 बजे सुबह है। हम गर्मियों में यात्रा करते हैं।"
+  }
+}

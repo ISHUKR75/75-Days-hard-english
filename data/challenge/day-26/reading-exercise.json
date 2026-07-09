@@ -1,0 +1,107 @@
+{
+  "day": 26,
+  "topic": "Would Have",
+  "passage": {
+    "title": "A Day with Would Have",
+    "text": "If I had known, I would have come. If he had worked hard, he would have passed. If I had money, I would have bought this. If you had told me, I would have helped. If she had come early, we would have met. If we had time, we would have won. If I had been there, I would have seen this. If they had paid attention, they would have understood. If I had gotten a chance, I would have done this. If you had listened, you would have learned.",
+    "hindiTranslation": "अगर मुझे पता होता, तो मैं आता। अगर उसने मेहनत की होती, तो वह पास हो जाता। अगर मेरे पास पैसे होते, तो मैं यह खरीदता। अगर तुम मुझे बताते, तो मैं मदद करता। अगर वह जल्दी आती, तो हम मिल पाते। अगर हमें समय मिलता, तो हम जीत जाते। अगर मैं वहाँ होता, तो मैं यह देखता। अगर उन्होंने ध्यान दिया होता, तो वे समझ जाते। अगर मुझे मौका मिलता, तो मैं यह करता। अगर तुम सुनते, तो तुम सीख जाते।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"If I had known,...\"?",
+      "options": [
+        "If they had paid attention, they would have understood.",
+        "If you had tried, you would have succeeded.",
+        "If he had worked hard, he would have passed.",
+        "If I had known, I would have come."
+      ],
+      "answer": "If I had known, I would have come.",
+      "explanation": "Stated in the passage: \"If I had known, I would have come.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"If he had worked...\"?",
+      "options": [
+        "If I had gotten a chance, I would have done this.",
+        "If we had more time, we would have learned more.",
+        "If I had money, I would have bought this.",
+        "If he had worked hard, he would have passed."
+      ],
+      "answer": "If he had worked hard, he would have passed.",
+      "explanation": "Stated in the passage: \"If he had worked hard, he would have passed.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"If I had money,...\"?",
+      "options": [
+        "If you had listened, you would have learned.",
+        "If I had woken up, I would have seen it.",
+        "If you had told me, I would have helped.",
+        "If I had money, I would have bought this."
+      ],
+      "answer": "If I had money, I would have bought this.",
+      "explanation": "Stated in the passage: \"If I had money, I would have bought this.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"If you had told...\"?",
+      "options": [
+        "If he had told the truth, we would have been happy.",
+        "If he had called earlier, we would have met.",
+        "If she had come early, we would have met.",
+        "If you had told me, I would have helped."
+      ],
+      "answer": "If you had told me, I would have helped.",
+      "explanation": "Stated in the passage: \"If you had told me, I would have helped.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"If she had come...\"?",
+      "options": [
+        "If we had left early, we would have arrived on time.",
+        "If they had been ready, they would have won.",
+        "If we had time, we would have won.",
+        "If she had come early, we would have met."
+      ],
+      "answer": "If she had come early, we would have met.",
+      "explanation": "Stated in the passage: \"If she had come early, we would have met.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"If we had time,...\"?",
+      "options": [
+        "If I had known this, I would not have done it.",
+        "If you had stopped me, I would not have gone.",
+        "If I had been there, I would have seen this.",
+        "If we had time, we would have won."
+      ],
+      "answer": "If we had time, we would have won.",
+      "explanation": "Stated in the passage: \"If we had time, we would have won.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"If I had been...\"?",
+      "options": [
+        "If she had asked me, I would have told her.",
+        "If I had known, I would have come.",
+        "If they had paid attention, they would have understood.",
+        "If I had been there, I would have seen this."
+      ],
+      "answer": "If I had been there, I would have seen this.",
+      "explanation": "Stated in the passage: \"If I had been there, I would have seen this.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"If they had paid...\"?",
+      "options": [
+        "If you had tried, you would have succeeded.",
+        "If he had worked hard, he would have passed.",
+        "If I had gotten a chance, I would have done this.",
+        "If they had paid attention, they would have understood."
+      ],
+      "answer": "If they had paid attention, they would have understood.",
+      "explanation": "Stated in the passage: \"If they had paid attention, they would have understood.\""
+    }
+  ]
+}

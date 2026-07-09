@@ -1,0 +1,255 @@
+{
+  "day": 32,
+  "topic": "Tenses Part 1 — Present Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं रोज़ चावल खाता हूँ।",
+      "options": [
+        "She has been working for two hours.",
+        "I have read this book.",
+        "I am eating food right now.",
+        "I eat rice every day."
+      ],
+      "answer": "I eat rice every day.",
+      "explanation": "Correct translation: \"मैं रोज़ चावल खाता हूँ।\" = \"I eat rice every day.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I am eating _____ right now.",
+      "options": [
+        "school",
+        "reading",
+        "now",
+        "food"
+      ],
+      "answer": "food",
+      "explanation": "Full sentence: \"I am eating food right now.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I have eaten food yesterday.",
+      "options": [
+        "I have eaten food yesterday.",
+        "I have eaten food."
+      ],
+      "answer": "I have eaten food.",
+      "explanation": "Correct sentence: \"I have eaten food.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मैं एक घंटे से पढ़ रहा हूँ।",
+      "options": [
+        "They have done their homework.",
+        "He is singing now.",
+        "She goes to work every day.",
+        "I have been studying for an hour."
+      ],
+      "answer": "I have been studying for an hour.",
+      "explanation": "Correct translation: \"मैं एक घंटे से पढ़ रहा हूँ।\" = \"I have been studying for an hour.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "She goes to _____ every day.",
+      "options": [
+        "playing",
+        "a",
+        "right",
+        "work"
+      ],
+      "answer": "work",
+      "explanation": "Full sentence: \"She goes to work every day.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "She are working right now.",
+      "options": [
+        "She are working right now.",
+        "She is working right now."
+      ],
+      "answer": "She is working right now.",
+      "explanation": "Correct sentence: \"She is working right now.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसने अपना काम पूरा कर लिया है।",
+      "options": [
+        "I am reading now.",
+        "I eat rice every day.",
+        "She has been working for two hours.",
+        "She has finished her work."
+      ],
+      "answer": "She has finished her work.",
+      "explanation": "Correct translation: \"उसने अपना काम पूरा कर लिया है।\" = \"She has finished her work.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She has been _____ for two hours.",
+      "options": [
+        "this",
+        "food",
+        "school",
+        "working"
+      ],
+      "answer": "working",
+      "explanation": "Full sentence: \"She has been working for two hours.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "They go to school every day yesterday.",
+      "options": [
+        "They go to school every day yesterday.",
+        "They go to school every day."
+      ],
+      "answer": "They go to school every day.",
+      "explanation": "Correct sentence: \"They go to school every day.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "वे अभी खेल रहे हैं।",
+      "options": [
+        "He sings well.",
+        "I have been studying for an hour.",
+        "They have done their homework.",
+        "They are playing now."
+      ],
+      "answer": "They are playing now.",
+      "explanation": "Correct translation: \"वे अभी खेल रहे हैं।\" = \"They are playing now.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "They have _____ their homework.",
+      "options": [
+        "now",
+        "work",
+        "playing",
+        "done"
+      ],
+      "answer": "done",
+      "explanation": "Full sentence: \"They have done their homework.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "They have been playing since morning yesterday.",
+      "options": [
+        "They have been playing since morning yesterday.",
+        "They have been playing since morning."
+      ],
+      "answer": "They have been playing since morning.",
+      "explanation": "Correct sentence: \"They have been playing since morning.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैं हर सुबह exercise करता हूँ।",
+      "options": [
+        "He has been singing for half an hour.",
+        "She has finished her work.",
+        "I am reading now.",
+        "I exercise every morning."
+      ],
+      "answer": "I exercise every morning.",
+      "explanation": "Correct translation: \"मैं हर सुबह exercise करता हूँ।\" = \"I exercise every morning.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I am _____ now.",
+      "options": [
+        "every",
+        "working",
+        "this",
+        "reading"
+      ],
+      "answer": "reading",
+      "explanation": "Full sentence: \"I am reading now.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I have read this book yesterday.",
+      "options": [
+        "I have read this book yesterday.",
+        "I have read this book."
+      ],
+      "answer": "I have read this book.",
+      "explanation": "Correct sentence: \"I have read this book.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं तीन घंटे से यह किताब पढ़ रहा हूँ।",
+      "options": [
+        "I have eaten food.",
+        "They are playing now.",
+        "He sings well.",
+        "I have been reading this book for three hours."
+      ],
+      "answer": "I have been reading this book for three hours.",
+      "explanation": "Correct translation: \"मैं तीन घंटे से यह किताब पढ़ रहा हूँ।\" = \"I have been reading this book for three hours.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He _____ well.",
+      "options": [
+        "studying",
+        "their",
+        "now",
+        "sings"
+      ],
+      "answer": "sings",
+      "explanation": "Full sentence: \"He sings well.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He are singing now.",
+      "options": [
+        "He are singing now.",
+        "He is singing now."
+      ],
+      "answer": "He is singing now.",
+      "explanation": "Correct sentence: \"He is singing now.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उसने एक नया गाना गाया है।",
+      "options": [
+        "She is working right now.",
+        "I exercise every morning.",
+        "He has been singing for half an hour.",
+        "He has sung a new song."
+      ],
+      "answer": "He has sung a new song.",
+      "explanation": "Correct translation: \"उसने एक नया गाना गाया है।\" = \"He has sung a new song.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "He has been singing _____ half an hour.",
+      "options": [
+        "her",
+        "now",
+        "every",
+        "for"
+      ],
+      "answer": "for",
+      "explanation": "Full sentence: \"He has been singing for half an hour.\""
+    }
+  ]
+}

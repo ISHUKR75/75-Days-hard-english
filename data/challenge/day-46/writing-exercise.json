@@ -1,0 +1,46 @@
+{
+  "day": 46,
+  "topic": "Able To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Able To.",
+      "hindiPrompt": "Able To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I am able to do this work. She is able to run fast. I was able to complete this yesterday. We will be able to finish this by tomorrow. He was able to solve this problem.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Able To.",
+      "hindiPrompt": "Able To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Are you able to understand this? I was able to learn this. They will be able to achieve this target. We are able to work together. He was not able to swim before.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"क्या तुम इसे समय पर कर पाओगे?\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Will you be able to do this on time?",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"We will be able to finish this by tomorrow yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "We will be able to finish this by tomorrow.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Able To.",
+      "hindiPrompt": "Able To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "She is able to learn any language. We were able to correct our mistake. They will be able to get this opportunity. I was not able to understand this before.",
+      "wordLimit": 60
+    }
+  ]
+}

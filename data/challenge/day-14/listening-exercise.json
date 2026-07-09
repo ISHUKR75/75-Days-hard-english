@@ -1,0 +1,114 @@
+{
+  "day": 14,
+  "topic": "Use of Let's",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Let's work together.",
+      "hindiScript": "चलो एक साथ काम करते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's study together.",
+        "Let's solve this problem.",
+        "Let's practice.",
+        "Let's work together."
+      ],
+      "answer": "Let's work together."
+    },
+    {
+      "id": 2,
+      "audioScript": "Let's learn something new.",
+      "hindiScript": "चलो कुछ नया सीखते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's take some rest.",
+        "Let's meet tomorrow.",
+        "Let's think positive.",
+        "Let's learn something new."
+      ],
+      "answer": "Let's learn something new."
+    },
+    {
+      "id": 3,
+      "audioScript": "Let's make a plan.",
+      "hindiScript": "चलो योजना बनाते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's start the meeting.",
+        "Let's have tea.",
+        "Let's help each other.",
+        "Let's make a plan."
+      ],
+      "answer": "Let's make a plan."
+    },
+    {
+      "id": 4,
+      "audioScript": "Let's go for a walk.",
+      "hindiScript": "चलो घूमने चलते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's work together.",
+        "Let's not decide right now.",
+        "Let's start.",
+        "Let's go for a walk."
+      ],
+      "answer": "Let's go for a walk."
+    },
+    {
+      "id": 5,
+      "audioScript": "Let's solve this problem.",
+      "hindiScript": "चलो इस समस्या को हल करते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's learn something new.",
+        "Let's go home.",
+        "Let's eat something.",
+        "Let's solve this problem."
+      ],
+      "answer": "Let's solve this problem."
+    },
+    {
+      "id": 6,
+      "audioScript": "Let's meet tomorrow.",
+      "hindiScript": "चलो कल मिलते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's make a plan.",
+        "Let's speak the truth.",
+        "Let's go to the park.",
+        "Let's meet tomorrow."
+      ],
+      "answer": "Let's meet tomorrow."
+    },
+    {
+      "id": 7,
+      "audioScript": "Let's have tea.",
+      "hindiScript": "चलो चाय पीते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's go for a walk.",
+        "Let's not fight now.",
+        "Let's watch a movie.",
+        "Let's have tea."
+      ],
+      "answer": "Let's have tea."
+    },
+    {
+      "id": 8,
+      "audioScript": "Let's not decide right now.",
+      "hindiScript": "चलो अभी फैसला ना करें।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let's solve this problem.",
+        "Let's practice.",
+        "Let's talk about this.",
+        "Let's not decide right now."
+      ],
+      "answer": "Let's not decide right now."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Let's work together. Let's learn something new. Let's make a plan. Let's go for a walk. Let's solve this problem.",
+    "hindiTranslation": "चलो एक साथ काम करते हैं। चलो कुछ नया सीखते हैं। चलो योजना बनाते हैं। चलो घूमने चलते हैं। चलो इस समस्या को हल करते हैं।"
+  }
+}

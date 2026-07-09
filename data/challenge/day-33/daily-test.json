@@ -1,0 +1,255 @@
+{
+  "day": 33,
+  "topic": "Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैंने कल चावल खाया।",
+      "options": [
+        "She had been working for two hours.",
+        "I had read this book before you came.",
+        "I was eating food when he came.",
+        "I ate rice yesterday."
+      ],
+      "answer": "I ate rice yesterday.",
+      "explanation": "Correct translation: \"मैंने कल चावल खाया।\" = \"I ate rice yesterday.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I was eating _____ when he came.",
+      "options": [
+        "school",
+        "reading",
+        "when",
+        "food"
+      ],
+      "answer": "food",
+      "explanation": "Full sentence: \"I was eating food when he came.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I had eaten food before he came yesterday.",
+      "options": [
+        "I had eaten food before he came yesterday.",
+        "I had eaten food before he came."
+      ],
+      "answer": "I had eaten food before he came.",
+      "explanation": "Correct sentence: \"I had eaten food before he came.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मैं एक घंटे से पढ़ रहा था।",
+      "options": [
+        "They had done their homework before I told them.",
+        "He was singing when I arrived.",
+        "She went to school last year.",
+        "I had been studying for an hour."
+      ],
+      "answer": "I had been studying for an hour.",
+      "explanation": "Correct translation: \"मैं एक घंटे से पढ़ रहा था।\" = \"I had been studying for an hour.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "She went to _____ last year.",
+      "options": [
+        "playing",
+        "a",
+        "when",
+        "school"
+      ],
+      "answer": "school",
+      "explanation": "Full sentence: \"She went to school last year.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "She were working when I arrived.",
+      "options": [
+        "She were working when I arrived.",
+        "She was working when I arrived."
+      ],
+      "answer": "She was working when I arrived.",
+      "explanation": "Correct sentence: \"She was working when I arrived.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मेरे पहुँचने से पहले उसने काम खत्म कर लिया था।",
+      "options": [
+        "I was reading when you came.",
+        "I ate rice yesterday.",
+        "She had been working for two hours.",
+        "She had finished her work before I arrived."
+      ],
+      "answer": "She had finished her work before I arrived.",
+      "explanation": "Correct translation: \"मेरे पहुँचने से पहले उसने काम खत्म कर लिया था।\" = \"She had finished her work before I arrived.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She had been _____ for two hours.",
+      "options": [
+        "this",
+        "food",
+        "school",
+        "working"
+      ],
+      "answer": "working",
+      "explanation": "Full sentence: \"She had been working for two hours.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "They went to school yesterday yesterday.",
+      "options": [
+        "They went to school yesterday yesterday.",
+        "They went to school yesterday."
+      ],
+      "answer": "They went to school yesterday.",
+      "explanation": "Correct sentence: \"They went to school yesterday.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "जब मैंने फोन किया, वे खेल रहे थे।",
+      "options": [
+        "He sang a song last week.",
+        "I had been studying for an hour.",
+        "They had done their homework before I told them.",
+        "They were playing when I called."
+      ],
+      "answer": "They were playing when I called.",
+      "explanation": "Correct translation: \"जब मैंने फोन किया, वे खेल रहे थे।\" = \"They were playing when I called.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "They had done their _____ before I told them.",
+      "options": [
+        "when",
+        "school",
+        "playing",
+        "homework"
+      ],
+      "answer": "homework",
+      "explanation": "Full sentence: \"They had done their homework before I told them.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "They had been playing since morning yesterday.",
+      "options": [
+        "They had been playing since morning yesterday.",
+        "They had been playing since morning."
+      ],
+      "answer": "They had been playing since morning.",
+      "explanation": "Correct sentence: \"They had been playing since morning.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैंने सुबह exercise की।",
+      "options": [
+        "He had been singing for half an hour.",
+        "She had finished her work before I arrived.",
+        "I was reading when you came.",
+        "I exercised in the morning."
+      ],
+      "answer": "I exercised in the morning.",
+      "explanation": "Correct translation: \"मैंने सुबह exercise की।\" = \"I exercised in the morning.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I was reading _____ you came.",
+      "options": [
+        "yesterday",
+        "working",
+        "this",
+        "when"
+      ],
+      "answer": "when",
+      "explanation": "Full sentence: \"I was reading when you came.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I had read this book before you came yesterday.",
+      "options": [
+        "I had read this book before you came yesterday.",
+        "I had read this book before you came."
+      ],
+      "answer": "I had read this book before you came.",
+      "explanation": "Correct sentence: \"I had read this book before you came.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं तीन घंटे से यह किताब पढ़ रहा था।",
+      "options": [
+        "I had eaten food before he came.",
+        "They were playing when I called.",
+        "He sang a song last week.",
+        "I had been reading this book for three hours."
+      ],
+      "answer": "I had been reading this book for three hours.",
+      "explanation": "Correct translation: \"मैं तीन घंटे से यह किताब पढ़ रहा था।\" = \"I had been reading this book for three hours.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He sang a _____ last week.",
+      "options": [
+        "studying",
+        "their",
+        "when",
+        "song"
+      ],
+      "answer": "song",
+      "explanation": "Full sentence: \"He sang a song last week.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He were singing when I arrived.",
+      "options": [
+        "He were singing when I arrived.",
+        "He was singing when I arrived."
+      ],
+      "answer": "He was singing when I arrived.",
+      "explanation": "Correct sentence: \"He was singing when I arrived.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मेरे आने से पहले उसने गाना गाया था।",
+      "options": [
+        "She was working when I arrived.",
+        "I exercised in the morning.",
+        "He had been singing for half an hour.",
+        "He had sung a song before I arrived."
+      ],
+      "answer": "He had sung a song before I arrived.",
+      "explanation": "Correct translation: \"मेरे आने से पहले उसने गाना गाया था।\" = \"He had sung a song before I arrived.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "He had been singing _____ half an hour.",
+      "options": [
+        "her",
+        "when",
+        "yesterday",
+        "for"
+      ],
+      "answer": "for",
+      "explanation": "Full sentence: \"He had been singing for half an hour.\""
+    }
+  ]
+}

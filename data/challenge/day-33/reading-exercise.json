@@ -1,0 +1,107 @@
+{
+  "day": 33,
+  "topic": "Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "passage": {
+    "title": "A Day with Tenses Part 2 — Past Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+    "text": "I ate rice yesterday. I was eating food when he came. I had eaten food before he came. I had been studying for an hour. She went to school last year. She was working when I arrived. She had finished her work before I arrived. She had been working for two hours. They went to school yesterday. They were playing when I called.",
+    "hindiTranslation": "मैंने कल चावल खाया। जब वह आया, मैं खाना खा रहा था। उसके आने से पहले मैं खाना खा चुका था। मैं एक घंटे से पढ़ रहा था। वह पिछले साल स्कूल गई थी। जब मैं आया, वह काम कर रही थी। मेरे पहुँचने से पहले उसने काम खत्म कर लिया था। वह दो घंटे से काम कर रही थी। वे कल स्कूल गए। जब मैंने फोन किया, वे खेल रहे थे।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I ate rice yesterday....\"?",
+      "options": [
+        "She had been working for two hours.",
+        "I had read this book before you came.",
+        "I was eating food when he came.",
+        "I ate rice yesterday."
+      ],
+      "answer": "I ate rice yesterday.",
+      "explanation": "Stated in the passage: \"I ate rice yesterday.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I was eating food...\"?",
+      "options": [
+        "They went to school yesterday.",
+        "I had been reading this book for three hours.",
+        "I had eaten food before he came.",
+        "I was eating food when he came."
+      ],
+      "answer": "I was eating food when he came.",
+      "explanation": "Stated in the passage: \"I was eating food when he came.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"I had eaten food...\"?",
+      "options": [
+        "They were playing when I called.",
+        "He sang a song last week.",
+        "I had been studying for an hour.",
+        "I had eaten food before he came."
+      ],
+      "answer": "I had eaten food before he came.",
+      "explanation": "Stated in the passage: \"I had eaten food before he came.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I had been studying...\"?",
+      "options": [
+        "They had done their homework before I told them.",
+        "He was singing when I arrived.",
+        "She went to school last year.",
+        "I had been studying for an hour."
+      ],
+      "answer": "I had been studying for an hour.",
+      "explanation": "Stated in the passage: \"I had been studying for an hour.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"She went to school...\"?",
+      "options": [
+        "They had been playing since morning.",
+        "He had sung a song before I arrived.",
+        "She was working when I arrived.",
+        "She went to school last year."
+      ],
+      "answer": "She went to school last year.",
+      "explanation": "Stated in the passage: \"She went to school last year.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"She was working when...\"?",
+      "options": [
+        "I exercised in the morning.",
+        "He had been singing for half an hour.",
+        "She had finished her work before I arrived.",
+        "She was working when I arrived."
+      ],
+      "answer": "She was working when I arrived.",
+      "explanation": "Stated in the passage: \"She was working when I arrived.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"She had finished her...\"?",
+      "options": [
+        "I was reading when you came.",
+        "I ate rice yesterday.",
+        "She had been working for two hours.",
+        "She had finished her work before I arrived."
+      ],
+      "answer": "She had finished her work before I arrived.",
+      "explanation": "Stated in the passage: \"She had finished her work before I arrived.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She had been working...\"?",
+      "options": [
+        "I had read this book before you came.",
+        "I was eating food when he came.",
+        "They went to school yesterday.",
+        "She had been working for two hours."
+      ],
+      "answer": "She had been working for two hours.",
+      "explanation": "Stated in the passage: \"She had been working for two hours.\""
+    }
+  ]
+}

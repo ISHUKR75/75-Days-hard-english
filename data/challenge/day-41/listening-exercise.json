@@ -1,0 +1,114 @@
+{
+  "day": 41,
+  "topic": "Going To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Are they going to come tomorrow?",
+      "hindiScript": "क्या वे कल आने वाले हैं?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We are going to start a new business.",
+        "I am not going to repeat this mistake.",
+        "She is going to become a doctor.",
+        "Are they going to come tomorrow?"
+      ],
+      "answer": "Are they going to come tomorrow?"
+    },
+    {
+      "id": 2,
+      "audioScript": "I am going to sleep early tonight.",
+      "hindiScript": "मैं आज रात जल्दी सोने जा रहा हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am going to think about this.",
+        "She is going to buy her own house.",
+        "We are going to change our house next month.",
+        "I am going to sleep early tonight."
+      ],
+      "answer": "I am going to sleep early tonight."
+    },
+    {
+      "id": 3,
+      "audioScript": "He is going to give an interview.",
+      "hindiScript": "वह इंटरव्यू देने जा रहा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is going to finish this project.",
+        "Are you going to take this opportunity?",
+        "They are going to get married.",
+        "He is going to give an interview."
+      ],
+      "answer": "He is going to give an interview."
+    },
+    {
+      "id": 4,
+      "audioScript": "We are going to watch a movie tomorrow.",
+      "hindiScript": "हम कल मूवी देखने जा रहे हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Are they going to come tomorrow?",
+        "We are going to solve this problem.",
+        "Are you going to go out today?",
+        "We are going to watch a movie tomorrow."
+      ],
+      "answer": "We are going to watch a movie tomorrow."
+    },
+    {
+      "id": 5,
+      "audioScript": "I am not going to repeat this mistake.",
+      "hindiScript": "मैं यह गलती नहीं दोहराने जा रहा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am going to sleep early tonight.",
+        "They are going to look for a new job.",
+        "I am going to buy this book.",
+        "I am not going to repeat this mistake."
+      ],
+      "answer": "I am not going to repeat this mistake."
+    },
+    {
+      "id": 6,
+      "audioScript": "She is going to buy her own house.",
+      "hindiScript": "वह अपना खुद का घर खरीदने जा रही है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He is going to give an interview.",
+        "I am going to tell him this.",
+        "He is going to travel next week.",
+        "She is going to buy her own house."
+      ],
+      "answer": "She is going to buy her own house."
+    },
+    {
+      "id": 7,
+      "audioScript": "Are you going to take this opportunity?",
+      "hindiScript": "क्या तुम यह मौका लेने वाले हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We are going to watch a movie tomorrow.",
+        "I am going to do this work tomorrow.",
+        "We are going to start a new business.",
+        "Are you going to take this opportunity?"
+      ],
+      "answer": "Are you going to take this opportunity?"
+    },
+    {
+      "id": 8,
+      "audioScript": "We are going to solve this problem.",
+      "hindiScript": "हम इस समस्या को हल करने जा रहे हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am not going to repeat this mistake.",
+        "She is going to become a doctor.",
+        "I am going to think about this.",
+        "We are going to solve this problem."
+      ],
+      "answer": "We are going to solve this problem."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Are they going to come tomorrow? I am going to sleep early tonight. He is going to give an interview. We are going to watch a movie tomorrow. I am not going to repeat this mistake.",
+    "hindiTranslation": "क्या वे कल आने वाले हैं? मैं आज रात जल्दी सोने जा रहा हूँ। वह इंटरव्यू देने जा रहा है। हम कल मूवी देखने जा रहे हैं। मैं यह गलती नहीं दोहराने जा रहा।"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "day": 17,
+  "topic": "Should",
+  "passage": {
+    "title": "A Day with Should",
+    "text": "You should drink more water. We should arrive on time. He should see a doctor. You should not lie. We should work hard. She should apologize. You should take care of your health. Should I do this? We should help others. You should sleep early.",
+    "hindiTranslation": "तुम्हें ज्यादा पानी पीना चाहिए। हमें समय पर पहुँचना चाहिए। उसे डॉक्टर से मिलना चाहिए। तुम्हें झूठ नहीं बोलना चाहिए। हमें कड़ी मेहनत करनी चाहिए। उसे माफी मांगनी चाहिए। तुम्हें अपनी सेहत का ध्यान रखना चाहिए। क्या मुझे यह करना चाहिए? हमें दूसरों की मदद करनी चाहिए। तुम्हें जल्दी सोना चाहिए।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"You should drink more...\"?",
+      "options": [
+        "Should I do this?",
+        "He should not smoke.",
+        "You should not get angry too much.",
+        "You should drink more water."
+      ],
+      "answer": "You should drink more water.",
+      "explanation": "Stated in the passage: \"You should drink more water.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"We should arrive on...\"?",
+      "options": [
+        "We should help others.",
+        "You should listen to your parents.",
+        "He should accept his mistake.",
+        "We should arrive on time."
+      ],
+      "answer": "We should arrive on time.",
+      "explanation": "Stated in the passage: \"We should arrive on time.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He should see a...\"?",
+      "options": [
+        "You should sleep early.",
+        "We should take care of the environment.",
+        "We should respect each other.",
+        "He should see a doctor."
+      ],
+      "answer": "He should see a doctor.",
+      "explanation": "Stated in the passage: \"He should see a doctor.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"You should not lie....\"?",
+      "options": [
+        "He should tell the truth.",
+        "She should not miss this opportunity.",
+        "You should drink more water.",
+        "You should not lie."
+      ],
+      "answer": "You should not lie.",
+      "explanation": "Stated in the passage: \"You should not lie.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"We should work hard....\"?",
+      "options": [
+        "We should follow the rules.",
+        "You should exercise daily.",
+        "We should arrive on time.",
+        "We should work hard."
+      ],
+      "answer": "We should work hard.",
+      "explanation": "Stated in the passage: \"We should work hard.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"She should apologize....\"?",
+      "options": [
+        "You should practice more.",
+        "Should I tell him?",
+        "He should see a doctor.",
+        "She should apologize."
+      ],
+      "answer": "She should apologize.",
+      "explanation": "Stated in the passage: \"She should apologize.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"You should take care...\"?",
+      "options": [
+        "Should we buy this?",
+        "We should be honest.",
+        "You should not lie.",
+        "You should take care of your health."
+      ],
+      "answer": "You should take care of your health.",
+      "explanation": "Stated in the passage: \"You should take care of your health.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"Should I do this?...\"?",
+      "options": [
+        "He should not smoke.",
+        "You should not get angry too much.",
+        "We should work hard.",
+        "Should I do this?"
+      ],
+      "answer": "Should I do this?",
+      "explanation": "Stated in the passage: \"Should I do this?\""
+    }
+  ]
+}

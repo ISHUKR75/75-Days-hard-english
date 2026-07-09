@@ -1,0 +1,107 @@
+{
+  "day": 41,
+  "topic": "Going To",
+  "passage": {
+    "title": "A Day with Going To",
+    "text": "I am going to do this work tomorrow. She is going to become a doctor. We are going to change our house next month. They are going to get married. Are you going to go out today? I am going to buy this book. He is going to travel next week. We are going to start a new business. I am going to think about this. She is going to finish this project.",
+    "hindiTranslation": "मैं कल यह काम करने जा रहा हूँ। वह डॉक्टर बनने जा रही है। हम अगले महीने घर बदलने जा रहे हैं। वे शादी करने जा रहे हैं। क्या तुम आज बाहर जाने वाले हो? मैं यह किताब खरीदने जा रहा हूँ। वह अगले हफ्ते यात्रा करने जा रहा है। हम एक नया business शुरू करने जा रहे हैं। मैं इस बारे में सोचने जा रहा हूँ। वह यह project पूरा करने जा रही है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I am going to...\"?",
+      "options": [
+        "We are going to start a new business.",
+        "I am not going to repeat this mistake.",
+        "She is going to become a doctor.",
+        "I am going to do this work tomorrow."
+      ],
+      "answer": "I am going to do this work tomorrow.",
+      "explanation": "Stated in the passage: \"I am going to do this work tomorrow.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"She is going to...\"?",
+      "options": [
+        "I am going to think about this.",
+        "She is going to buy her own house.",
+        "We are going to change our house next month.",
+        "She is going to become a doctor."
+      ],
+      "answer": "She is going to become a doctor.",
+      "explanation": "Stated in the passage: \"She is going to become a doctor.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"We are going to...\"?",
+      "options": [
+        "She is going to finish this project.",
+        "Are you going to take this opportunity?",
+        "They are going to get married.",
+        "We are going to change our house next month."
+      ],
+      "answer": "We are going to change our house next month.",
+      "explanation": "Stated in the passage: \"We are going to change our house next month.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"They are going to...\"?",
+      "options": [
+        "Are they going to come tomorrow?",
+        "We are going to solve this problem.",
+        "Are you going to go out today?",
+        "They are going to get married."
+      ],
+      "answer": "They are going to get married.",
+      "explanation": "Stated in the passage: \"They are going to get married.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"Are you going to...\"?",
+      "options": [
+        "I am going to sleep early tonight.",
+        "They are going to look for a new job.",
+        "I am going to buy this book.",
+        "Are you going to go out today?"
+      ],
+      "answer": "Are you going to go out today?",
+      "explanation": "Stated in the passage: \"Are you going to go out today?\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"I am going to...\"?",
+      "options": [
+        "He is going to give an interview.",
+        "I am going to tell him this.",
+        "He is going to travel next week.",
+        "I am going to buy this book."
+      ],
+      "answer": "I am going to buy this book.",
+      "explanation": "Stated in the passage: \"I am going to buy this book.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"He is going to...\"?",
+      "options": [
+        "We are going to watch a movie tomorrow.",
+        "I am going to do this work tomorrow.",
+        "We are going to start a new business.",
+        "He is going to travel next week."
+      ],
+      "answer": "He is going to travel next week.",
+      "explanation": "Stated in the passage: \"He is going to travel next week.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"We are going to...\"?",
+      "options": [
+        "I am not going to repeat this mistake.",
+        "She is going to become a doctor.",
+        "I am going to think about this.",
+        "We are going to start a new business."
+      ],
+      "answer": "We are going to start a new business.",
+      "explanation": "Stated in the passage: \"We are going to start a new business.\""
+    }
+  ]
+}

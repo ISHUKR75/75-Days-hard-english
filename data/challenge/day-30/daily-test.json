@@ -1,0 +1,255 @@
+{
+  "day": 30,
+  "topic": "Would + Ought To + Dare",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "क्या तुम मेरी मदद करोगे?",
+      "options": [
+        "We ought to follow the rules.",
+        "How would I know?",
+        "I would go there every day before.",
+        "Would you help me?"
+      ],
+      "answer": "Would you help me?",
+      "explanation": "Correct translation: \"क्या तुम मेरी मदद करोगे?\" = \"Would you help me?\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I would go _____ every day before.",
+      "options": [
+        "to",
+        "dare",
+        "respect",
+        "there"
+      ],
+      "answer": "there",
+      "explanation": "Full sentence: \"I would go there every day before.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "We ought to respect our parents yesterday.",
+      "options": [
+        "We ought to respect our parents yesterday.",
+        "We ought to respect our parents."
+      ],
+      "answer": "We ought to respect our parents.",
+      "explanation": "Correct sentence: \"We ought to respect our parents.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "तुम्हें सच बोलना चाहिए।",
+      "options": [
+        "You ought to be honest.",
+        "I would never forget this.",
+        "He does not dare to say this.",
+        "You ought to tell the truth."
+      ],
+      "answer": "You ought to tell the truth.",
+      "explanation": "Correct translation: \"तुम्हें सच बोलना चाहिए।\" = \"You ought to tell the truth.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "He does not _____ to say this.",
+      "options": [
+        "say",
+        "apologize",
+        "to",
+        "dare"
+      ],
+      "answer": "dare",
+      "explanation": "Full sentence: \"He does not dare to say this.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Would you talk to me? yesterday.",
+      "options": [
+        "Would you talk to me? yesterday.",
+        "Would you talk to me?"
+      ],
+      "answer": "Would you talk to me?",
+      "explanation": "Correct sentence: \"Would you talk to me?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं यह पहले नहीं करता था।",
+      "options": [
+        "We ought to fulfill our responsibility.",
+        "Would you help me?",
+        "We ought to follow the rules.",
+        "I would not do this before."
+      ],
+      "answer": "I would not do this before.",
+      "explanation": "Correct translation: \"मैं यह पहले नहीं करता था।\" = \"I would not do this before.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "We ought to _____ the rules.",
+      "options": [
+        "know",
+        "there",
+        "to",
+        "follow"
+      ],
+      "answer": "follow",
+      "explanation": "Full sentence: \"We ought to follow the rules.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Do you dare to talk to him? yesterday.",
+      "options": [
+        "Do you dare to talk to him? yesterday.",
+        "Do you dare to talk to him?"
+      ],
+      "answer": "Do you dare to talk to him?",
+      "explanation": "Correct sentence: \"Do you dare to talk to him?\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैं यह पसंद करूँगा।",
+      "options": [
+        "We ought to work harder.",
+        "You ought to tell the truth.",
+        "You ought to be honest.",
+        "I would like this."
+      ],
+      "answer": "I would like this.",
+      "explanation": "Correct translation: \"मैं यह पसंद करूँगा।\" = \"I would like this.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "You ought _____ be honest.",
+      "options": [
+        "forget",
+        "dare",
+        "say",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"You ought to be honest.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "He dared to say this yesterday.",
+      "options": [
+        "He dared to say this yesterday.",
+        "He dared to say this."
+      ],
+      "answer": "He dared to say this.",
+      "explanation": "Correct sentence: \"He dared to say this.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "क्या तुम यह खाना खाओगे?",
+      "options": [
+        "How dare you say this?",
+        "I would not do this before.",
+        "We ought to fulfill our responsibility.",
+        "Would you eat this food?"
+      ],
+      "answer": "Would you eat this food?",
+      "explanation": "Correct translation: \"क्या तुम यह खाना खाओगे?\" = \"Would you eat this food?\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "We ought to _____ our responsibility.",
+      "options": [
+        "me",
+        "follow",
+        "know",
+        "fulfill"
+      ],
+      "answer": "fulfill",
+      "explanation": "Full sentence: \"We ought to fulfill our responsibility.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "How woulds I know?",
+      "options": [
+        "How woulds I know?",
+        "How would I know?"
+      ],
+      "answer": "How would I know?",
+      "explanation": "Correct sentence: \"How would I know?\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "उसकी हिम्मत नहीं थी कि वह ऐसा कर सके।",
+      "options": [
+        "We ought to respect our parents.",
+        "I would like this.",
+        "We ought to work harder.",
+        "He did not dare to do this."
+      ],
+      "answer": "He did not dare to do this.",
+      "explanation": "Correct translation: \"उसकी हिम्मत नहीं थी कि वह ऐसा कर सके।\" = \"He did not dare to do this.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "We ought _____ work harder.",
+      "options": [
+        "tell",
+        "be",
+        "forget",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"We ought to work harder.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "I woulds never forget this.",
+      "options": [
+        "I woulds never forget this.",
+        "I would never forget this."
+      ],
+      "answer": "I would never forget this.",
+      "explanation": "Correct sentence: \"I would never forget this.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "तुम्हें माफी मांगनी चाहिए।",
+      "options": [
+        "Would you talk to me?",
+        "Would you eat this food?",
+        "How dare you say this?",
+        "You ought to apologize."
+      ],
+      "answer": "You ought to apologize.",
+      "explanation": "Correct translation: \"तुम्हें माफी मांगनी चाहिए।\" = \"You ought to apologize.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "How dare _____ say this?",
+      "options": [
+        "do",
+        "fulfill",
+        "me",
+        "you"
+      ],
+      "answer": "you",
+      "explanation": "Full sentence: \"How dare you say this?\""
+    }
+  ]
+}

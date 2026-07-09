@@ -1,0 +1,303 @@
+{
+  "day": 13,
+  "topic": "Use of Let",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे बताने दो।",
+      "options": [
+        "Let me check this.",
+        "Let him come.",
+        "Let me try this.",
+        "Let me tell you."
+      ],
+      "answer": "Let me tell you.",
+      "explanation": "Correct translation: \"मुझे बताने दो।\" = \"Let me tell you.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "Let _____ go.",
+      "options": [
+        "her",
+        "together",
+        "his",
+        "him"
+      ],
+      "answer": "him",
+      "explanation": "Full sentence: \"Let him go.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Let her speak yesterday.",
+      "options": [
+        "Let her speak yesterday.",
+        "Let her speak."
+      ],
+      "answer": "Let her speak.",
+      "explanation": "Correct sentence: \"Let her speak.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "हमें कोशिश करने दो।",
+      "options": [
+        "Do not let him go.",
+        "Let her decide on her own.",
+        "Let me tell you.",
+        "Let us try."
+      ],
+      "answer": "Let us try.",
+      "explanation": "Correct translation: \"हमें कोशिश करने दो।\" = \"Let us try.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "Let _____ play.",
+      "options": [
+        "to",
+        "play",
+        "go",
+        "them"
+      ],
+      "answer": "them",
+      "explanation": "Full sentence: \"Let them play.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Let me think yesterday.",
+      "options": [
+        "Let me think yesterday.",
+        "Let me think."
+      ],
+      "answer": "Let me think.",
+      "explanation": "Correct sentence: \"Let me think.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसे आराम करने दो।",
+      "options": [
+        "Let me have some time.",
+        "Let them sit comfortably.",
+        "Let us try.",
+        "Let him rest."
+      ],
+      "answer": "Let him rest.",
+      "explanation": "Correct translation: \"उसे आराम करने दो।\" = \"Let him rest.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Let me _____ this.",
+      "options": [
+        "come",
+        "this",
+        "play",
+        "check"
+      ],
+      "answer": "check",
+      "explanation": "Full sentence: \"Let me check this.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Let her do her work yesterday.",
+      "options": [
+        "Let her do her work yesterday.",
+        "Let her do her work."
+      ],
+      "answer": "Let her do her work.",
+      "explanation": "Correct sentence: \"Let her do her work.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "हमें शुरू करने दो।",
+      "options": [
+        "Let me ask this question.",
+        "Let us also join.",
+        "Let him rest.",
+        "Let us start."
+      ],
+      "answer": "Let us start.",
+      "explanation": "Correct translation: \"हमें शुरू करने दो।\" = \"Let us start.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "Do not _____ him go.",
+      "options": [
+        "on",
+        "you",
+        "this",
+        "let"
+      ],
+      "answer": "let",
+      "explanation": "Full sentence: \"Do not let him go.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Let me explain to you yesterday.",
+      "options": [
+        "Let me explain to you yesterday.",
+        "Let me explain to you."
+      ],
+      "answer": "Let me explain to you.",
+      "explanation": "Correct sentence: \"Let me explain to you.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "उन्हें फैसला करने दो।",
+      "options": [
+        "Let me say my point.",
+        "Let her speak.",
+        "Let us start.",
+        "Let them decide."
+      ],
+      "answer": "Let them decide.",
+      "explanation": "Correct translation: \"उन्हें फैसला करने दो।\" = \"Let them decide.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Let me _____ some time.",
+      "options": [
+        "comfortably",
+        "try",
+        "him",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"Let me have some time.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Let him come yesterday.",
+      "options": [
+        "Let him come yesterday.",
+        "Let him come."
+      ],
+      "answer": "Let him come.",
+      "explanation": "Correct sentence: \"Let him come.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "हमें साथ काम करने दो।",
+      "options": [
+        "Let him correct his mistake.",
+        "Let me think.",
+        "Let them decide.",
+        "Let us work together."
+      ],
+      "answer": "Let us work together.",
+      "explanation": "Correct translation: \"हमें साथ काम करने दो।\" = \"Let us work together.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "Let me _____ this question.",
+      "options": [
+        "join",
+        "rest",
+        "some",
+        "ask"
+      ],
+      "answer": "ask",
+      "explanation": "Full sentence: \"Let me ask this question.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Let her decide on her own yesterday.",
+      "options": [
+        "Let her decide on her own yesterday.",
+        "Let her decide on her own."
+      ],
+      "answer": "Let her decide on her own.",
+      "explanation": "Correct sentence: \"Let her decide on her own.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "बच्चों को बाहर खेलने दो।",
+      "options": [
+        "Let him go.",
+        "Let her do her work.",
+        "Let us work together.",
+        "Let the children play outside."
+      ],
+      "answer": "Let the children play outside.",
+      "explanation": "Correct translation: \"बच्चों को बाहर खेलने दो।\" = \"Let the children play outside.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Let me _____ my point.",
+      "options": [
+        "speak",
+        "start",
+        "this",
+        "say"
+      ],
+      "answer": "say",
+      "explanation": "Full sentence: \"Let me say my point.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "Let them sit comfortably yesterday.",
+      "options": [
+        "Let them sit comfortably yesterday.",
+        "Let them sit comfortably."
+      ],
+      "answer": "Let them sit comfortably.",
+      "explanation": "Correct sentence: \"Let them sit comfortably.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "मुझे यह try करने दो।",
+      "options": [
+        "Let them play.",
+        "Let me explain to you.",
+        "Let the children play outside.",
+        "Let me try this."
+      ],
+      "answer": "Let me try this.",
+      "explanation": "Correct translation: \"मुझे यह try करने दो।\" = \"Let me try this.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "Let him _____ his mistake.",
+      "options": [
+        "think",
+        "decide",
+        "my",
+        "correct"
+      ],
+      "answer": "correct",
+      "explanation": "Full sentence: \"Let him correct his mistake.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "Let us also join yesterday.",
+      "options": [
+        "Let us also join yesterday.",
+        "Let us also join."
+      ],
+      "answer": "Let us also join.",
+      "explanation": "Correct sentence: \"Let us also join.\""
+    }
+  ]
+}

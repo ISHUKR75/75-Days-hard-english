@@ -1,0 +1,255 @@
+{
+  "day": 21,
+  "topic": "Used To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं रोज़ स्कूल जाता था।",
+      "options": [
+        "He used to be very shy.",
+        "He used to wake up early.",
+        "He used to smoke.",
+        "I used to go to school daily."
+      ],
+      "answer": "I used to go to school daily.",
+      "explanation": "Correct translation: \"मैं रोज़ स्कूल जाता था।\" = \"I used to go to school daily.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "He used _____ smoke.",
+      "options": [
+        "listen",
+        "study",
+        "live",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"He used to smoke.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "We use to live in a village.",
+      "options": [
+        "We use to live in a village.",
+        "We used to live in a village."
+      ],
+      "answer": "We used to live in a village.",
+      "explanation": "Correct sentence: \"We used to live in a village.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वह क्रिकेट खेलती थी।",
+      "options": [
+        "I used to play football.",
+        "Did he use to come here?",
+        "They used to study together.",
+        "She used to play cricket."
+      ],
+      "answer": "She used to play cricket.",
+      "explanation": "Correct translation: \"वह क्रिकेट खेलती थी।\" = \"She used to play cricket.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "They used _____ study together.",
+      "options": [
+        "get",
+        "use",
+        "sleep",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"They used to study together.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "I use to sleep early.",
+      "options": [
+        "I use to sleep early.",
+        "I used to sleep early."
+      ],
+      "answer": "I used to sleep early.",
+      "explanation": "Correct sentence: \"I used to sleep early.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "क्या तुम पहले यहाँ रहते थे?",
+      "options": [
+        "I did not use to do this.",
+        "I used to go to school daily.",
+        "He used to be very shy.",
+        "Did you use to live here?"
+      ],
+      "answer": "Did you use to live here?",
+      "explanation": "Correct translation: \"क्या तुम पहले यहाँ रहते थे?\" = \"Did you use to live here?\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He used to _____ very shy.",
+      "options": [
+        "wake",
+        "smoke",
+        "listen",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"He used to be very shy.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I use to listen to this song a lot.",
+      "options": [
+        "I use to listen to this song a lot.",
+        "I used to listen to this song a lot."
+      ],
+      "answer": "I used to listen to this song a lot.",
+      "explanation": "Correct sentence: \"I used to listen to this song a lot.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "वे हर हफ्ते मिलते थे।",
+      "options": [
+        "They used to work together.",
+        "She used to play cricket.",
+        "I used to play football.",
+        "They used to meet every week."
+      ],
+      "answer": "They used to meet every week.",
+      "explanation": "Correct translation: \"वे हर हफ्ते मिलते थे।\" = \"They used to meet every week.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "I used _____ play football.",
+      "options": [
+        "study",
+        "get",
+        "use",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I used to play football.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She use to get angry a lot.",
+      "options": [
+        "She use to get angry a lot.",
+        "She used to get angry a lot."
+      ],
+      "answer": "She used to get angry a lot.",
+      "explanation": "Correct sentence: \"She used to get angry a lot.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "हम पहले बस से जाते थे।",
+      "options": [
+        "We used to travel every year.",
+        "Did you use to live here?",
+        "I did not use to do this.",
+        "We used to go by bus."
+      ],
+      "answer": "We used to go by bus.",
+      "explanation": "Correct translation: \"हम पहले बस से जाते थे।\" = \"We used to go by bus.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I did not _____ to do this.",
+      "options": [
+        "go",
+        "be",
+        "wake",
+        "use"
+      ],
+      "answer": "use",
+      "explanation": "Full sentence: \"I did not use to do this.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "He use to wake up early.",
+      "options": [
+        "He use to wake up early.",
+        "He used to wake up early."
+      ],
+      "answer": "He used to wake up early.",
+      "explanation": "Correct sentence: \"He used to wake up early.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं पहले बहुत पढ़ता था।",
+      "options": [
+        "We used to live in a village.",
+        "They used to meet every week.",
+        "They used to work together.",
+        "I used to study a lot."
+      ],
+      "answer": "I used to study a lot.",
+      "explanation": "Correct translation: \"मैं पहले बहुत पढ़ता था।\" = \"I used to study a lot.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "They used _____ work together.",
+      "options": [
+        "play",
+        "study",
+        "get",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"They used to work together.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Did he use to come here? yesterday.",
+      "options": [
+        "Did he use to come here? yesterday.",
+        "Did he use to come here?"
+      ],
+      "answer": "Did he use to come here?",
+      "explanation": "Correct sentence: \"Did he use to come here?\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मैं पहले चाय नहीं पीता था।",
+      "options": [
+        "I used to sleep early.",
+        "We used to go by bus.",
+        "We used to travel every year.",
+        "I did not use to drink tea."
+      ],
+      "answer": "I did not use to drink tea.",
+      "explanation": "Correct translation: \"मैं पहले चाय नहीं पीता था।\" = \"I did not use to drink tea.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "We used to _____ every year.",
+      "options": [
+        "to",
+        "use",
+        "go",
+        "travel"
+      ],
+      "answer": "travel",
+      "explanation": "Full sentence: \"We used to travel every year.\""
+    }
+  ]
+}

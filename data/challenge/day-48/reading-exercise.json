@@ -1,0 +1,107 @@
+{
+  "day": 48,
+  "topic": "WH Words (What, When, Where, Who, Why, Whom, Whose, Which, How)",
+  "passage": {
+    "title": "A Day with WH Words (What, When, Where, Who, Why, Whom, Whose, Which, How)",
+    "text": "What is your name? When will you come? Where do you live? Who is this? Why did you come late? Whose bag is this? Which book do you like? How do you do this? Whom are you talking to? What are you doing?",
+    "hindiTranslation": "तुम्हारा नाम क्या है? तुम कब आओगे? तुम कहाँ रहते हो? यह कौन है? तुम देर से क्यों आए? यह किसका बैग है? तुम्हें कौन सी किताब पसंद है? तुम यह कैसे करते हो? तुम किससे बात कर रहे हो? तुम क्या कर रहे हो?"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"What is your name?...\"?",
+      "options": [
+        "How do you do this?",
+        "Whose mistake is this?",
+        "When will you come?",
+        "What is your name?"
+      ],
+      "answer": "What is your name?",
+      "explanation": "Stated in the passage: \"What is your name?\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"When will you come?...\"?",
+      "options": [
+        "Whom are you talking to?",
+        "Which color do you prefer?",
+        "Where do you live?",
+        "When will you come?"
+      ],
+      "answer": "When will you come?",
+      "explanation": "Stated in the passage: \"When will you come?\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Where do you live?...\"?",
+      "options": [
+        "What are you doing?",
+        "How was your day?",
+        "Who is this?",
+        "Where do you live?"
+      ],
+      "answer": "Where do you live?",
+      "explanation": "Stated in the passage: \"Where do you live?\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"Who is this?...\"?",
+      "options": [
+        "When is the meeting?",
+        "Whom did you tell?",
+        "Why did you come late?",
+        "Who is this?"
+      ],
+      "answer": "Who is this?",
+      "explanation": "Stated in the passage: \"Who is this?\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"Why did you come...\"?",
+      "options": [
+        "Where are you going?",
+        "What do you think?",
+        "Whose bag is this?",
+        "Why did you come late?"
+      ],
+      "answer": "Why did you come late?",
+      "explanation": "Stated in the passage: \"Why did you come late?\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Whose bag is this?...\"?",
+      "options": [
+        "Who was she?",
+        "Where are you from?",
+        "Which book do you like?",
+        "Whose bag is this?"
+      ],
+      "answer": "Whose bag is this?",
+      "explanation": "Stated in the passage: \"Whose bag is this?\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"Which book do you...\"?",
+      "options": [
+        "Why did this happen?",
+        "What is your name?",
+        "How do you do this?",
+        "Which book do you like?"
+      ],
+      "answer": "Which book do you like?",
+      "explanation": "Stated in the passage: \"Which book do you like?\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"How do you do...\"?",
+      "options": [
+        "Whose mistake is this?",
+        "When will you come?",
+        "Whom are you talking to?",
+        "How do you do this?"
+      ],
+      "answer": "How do you do this?",
+      "explanation": "Stated in the passage: \"How do you do this?\""
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "day": 12,
+  "topic": "Use of Wanted",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Use of Wanted.",
+      "hindiPrompt": "Use of Wanted का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I wanted water. I wanted to go home. He wanted a new car. She wanted to become a doctor. We wanted to take rest.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Use of Wanted.",
+      "hindiPrompt": "Use of Wanted का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "They wanted to finish that work. Did you want tea? I did not want that book. He wanted to talk to me. I wanted some rest.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"क्या आप कॉफी चाहते थे?\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Did you want coffee?",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"She want to become a doctor.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "She wanted to become a doctor.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Use of Wanted.",
+      "hindiPrompt": "Use of Wanted का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "We wanted more information. I wanted your help. They wanted peace. I wanted to finish this work quickly.",
+      "wordLimit": 60
+    }
+  ]
+}

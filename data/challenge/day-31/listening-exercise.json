@@ -1,0 +1,114 @@
+{
+  "day": 31,
+  "topic": "Revision of Days 21-30",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Could you help me?",
+      "hindiScript": "क्या तुम मुझे मदद कर सकते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He might have gone, but I am not sure.",
+        "He used to smoke.",
+        "I could swim when I was a child.",
+        "Could you help me?"
+      ],
+      "answer": "Could you help me?"
+    },
+    {
+      "id": 2,
+      "audioScript": "You should have apologized to him.",
+      "hindiScript": "तुम्हें उससे माफी मांगनी चाहिए थी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I will come tomorrow.",
+        "She may have read this book.",
+        "I should have come earlier.",
+        "You should have apologized to him."
+      ],
+      "answer": "You should have apologized to him."
+    },
+    {
+      "id": 3,
+      "audioScript": "He dared to say this.",
+      "hindiScript": "उसने ऐसा कहने की हिम्मत की।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We ought to respect our parents.",
+        "You could have told me.",
+        "He must have worked very hard.",
+        "He dared to say this."
+      ],
+      "answer": "He dared to say this."
+    },
+    {
+      "id": 4,
+      "audioScript": "Shall I close the door?",
+      "hindiScript": "क्या मैं दरवाज़ा बंद कर दूँ?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Could you help me?",
+        "We ought to follow the rules.",
+        "I could have done this earlier.",
+        "Shall I close the door?"
+      ],
+      "answer": "Shall I close the door?"
+    },
+    {
+      "id": 5,
+      "audioScript": "He used to smoke.",
+      "hindiScript": "वह पहले सिगरेट पीता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You should have apologized to him.",
+        "She might have heard this.",
+        "If I had known, I would have come.",
+        "He used to smoke."
+      ],
+      "answer": "He used to smoke."
+    },
+    {
+      "id": 6,
+      "audioScript": "She may have read this book.",
+      "hindiScript": "शायद उसने यह किताब पढ़ी होगी।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He dared to say this.",
+        "We will meet tomorrow.",
+        "He may have gone there.",
+        "She may have read this book."
+      ],
+      "answer": "She may have read this book."
+    },
+    {
+      "id": 7,
+      "audioScript": "You could have told me.",
+      "hindiScript": "तुम मुझे बता सकते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Shall I close the door?",
+        "I used to go to school daily.",
+        "He might have gone, but I am not sure.",
+        "You could have told me."
+      ],
+      "answer": "You could have told me."
+    },
+    {
+      "id": 8,
+      "audioScript": "We ought to follow the rules.",
+      "hindiScript": "हमें नियमों का पालन करना चाहिए।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He used to smoke.",
+        "I could swim when I was a child.",
+        "I will come tomorrow.",
+        "We ought to follow the rules."
+      ],
+      "answer": "We ought to follow the rules."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Could you help me? You should have apologized to him. He dared to say this. Shall I close the door? He used to smoke.",
+    "hindiTranslation": "क्या तुम मुझे मदद कर सकते हो? तुम्हें उससे माफी मांगनी चाहिए थी। उसने ऐसा कहने की हिम्मत की। क्या मैं दरवाज़ा बंद कर दूँ? वह पहले सिगरेट पीता था।"
+  }
+}

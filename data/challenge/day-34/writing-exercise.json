@@ -1,0 +1,46 @@
+{
+  "day": 34,
+  "topic": "Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous).",
+      "hindiPrompt": "Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous) का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I will eat rice tomorrow. I will be eating food at 8 pm. I will have eaten food by 8 pm. I will have been eating for an hour by 8 pm. She will go to work tomorrow.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous).",
+      "hindiPrompt": "Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous) का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "She will be working at 5 pm. She will have finished her work by 5 pm. She will have been working for two hours by 5 pm. They will go to school tomorrow. They will be playing at 3 pm.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"3 बजे तक वे homework कर चुके होंगे।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "They will have done their homework by 3 pm.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"I will have been eating for an hour by 8 pm yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "I will have been eating for an hour by 8 pm.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous).",
+      "hindiPrompt": "Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous) का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I will exercise tomorrow morning. I will be reading at 7 pm. I will have read this book by 7 pm. I will have been reading for three hours by 7 pm.",
+      "wordLimit": 60
+    }
+  ]
+}

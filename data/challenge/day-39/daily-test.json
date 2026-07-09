@@ -1,0 +1,255 @@
+{
+  "day": 39,
+  "topic": "Had To / Will Have To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मुझे कल ऑफिस जाना पड़ा।",
+      "options": [
+        "She will have to wake up early every day.",
+        "We had to fill the form.",
+        "I will have to go to office tomorrow.",
+        "I had to go to office yesterday."
+      ],
+      "answer": "I had to go to office yesterday.",
+      "explanation": "Correct translation: \"मुझे कल ऑफिस जाना पड़ा।\" = \"I had to go to office yesterday.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I will have to _____ to office tomorrow.",
+      "options": [
+        "to",
+        "complete",
+        "have",
+        "go"
+      ],
+      "answer": "go",
+      "explanation": "Full sentence: \"I will have to go to office tomorrow.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He has to complete this work.",
+      "options": [
+        "He has to complete this work.",
+        "He had to complete this work."
+      ],
+      "answer": "He had to complete this work.",
+      "explanation": "Correct sentence: \"He had to complete this work.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "उसे यह काम पूरा करना पड़ेगा।",
+      "options": [
+        "He had to work very hard.",
+        "You will not have to do this.",
+        "We had to follow the rules.",
+        "He will have to complete this work."
+      ],
+      "answer": "He will have to complete this work.",
+      "explanation": "Correct translation: \"उसे यह काम पूरा करना पड़ेगा।\" = \"He will have to complete this work.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We had to _____ the rules.",
+      "options": [
+        "to",
+        "give",
+        "pay",
+        "follow"
+      ],
+      "answer": "follow",
+      "explanation": "Full sentence: \"We had to follow the rules.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "We will has to follow the rules.",
+      "options": [
+        "We will has to follow the rules.",
+        "We will have to follow the rules."
+      ],
+      "answer": "We will have to follow the rules.",
+      "explanation": "Correct sentence: \"We will have to follow the rules.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "उसे रोज़ जल्दी उठना पड़ा।",
+      "options": [
+        "I will have to pay money.",
+        "I had to go to office yesterday.",
+        "She will have to wake up early every day.",
+        "She had to wake up early every day."
+      ],
+      "answer": "She had to wake up early every day.",
+      "explanation": "Correct translation: \"उसे रोज़ जल्दी उठना पड़ा।\" = \"She had to wake up early every day.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She will have to _____ up early every day.",
+      "options": [
+        "fill",
+        "to",
+        "complete",
+        "wake"
+      ],
+      "answer": "wake",
+      "explanation": "Full sentence: \"She will have to wake up early every day.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Did you has to do this?",
+      "options": [
+        "Did you has to do this?",
+        "Did you have to do this?"
+      ],
+      "answer": "Did you have to do this?",
+      "explanation": "Correct sentence: \"Did you have to do this?\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "क्या तुम्हें यह करना पड़ेगा?",
+      "options": [
+        "You did not have to do this.",
+        "He will have to complete this work.",
+        "He had to work very hard.",
+        "Will you have to do this?"
+      ],
+      "answer": "Will you have to do this?",
+      "explanation": "Correct translation: \"क्या तुम्हें यह करना पड़ेगा?\" = \"Will you have to do this?\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He had to _____ very hard.",
+      "options": [
+        "have",
+        "follow",
+        "to",
+        "work"
+      ],
+      "answer": "work",
+      "explanation": "Full sentence: \"He had to work very hard.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "He will has to work very hard.",
+      "options": [
+        "He will has to work very hard.",
+        "He will have to work very hard."
+      ],
+      "answer": "He will have to work very hard.",
+      "explanation": "Correct sentence: \"He will have to work very hard.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मुझे पैसे देने पड़े।",
+      "options": [
+        "She will have to give proof.",
+        "She had to wake up early every day.",
+        "I will have to pay money.",
+        "I had to pay money."
+      ],
+      "answer": "I had to pay money.",
+      "explanation": "Correct translation: \"मुझे पैसे देने पड़े।\" = \"I had to pay money.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I will have _____ pay money.",
+      "options": [
+        "go",
+        "fill",
+        "complete",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I will have to pay money.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "We has to fill the form.",
+      "options": [
+        "We has to fill the form.",
+        "We had to fill the form."
+      ],
+      "answer": "We had to fill the form.",
+      "explanation": "Correct sentence: \"We had to fill the form.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "हमें फॉर्म भरना पड़ेगा।",
+      "options": [
+        "He had to complete this work.",
+        "Will you have to do this?",
+        "You did not have to do this.",
+        "We will have to fill the form."
+      ],
+      "answer": "We will have to fill the form.",
+      "explanation": "Correct translation: \"हमें फॉर्म भरना पड़ेगा।\" = \"We will have to fill the form.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "You did not _____ to do this.",
+      "options": [
+        "to",
+        "work",
+        "follow",
+        "have"
+      ],
+      "answer": "have",
+      "explanation": "Full sentence: \"You did not have to do this.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "You will not has to do this.",
+      "options": [
+        "You will not has to do this.",
+        "You will not have to do this."
+      ],
+      "answer": "You will not have to do this.",
+      "explanation": "Correct sentence: \"You will not have to do this.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "उसे सबूत देना पड़ा।",
+      "options": [
+        "We will have to follow the rules.",
+        "I had to pay money.",
+        "She will have to give proof.",
+        "She had to give proof."
+      ],
+      "answer": "She had to give proof.",
+      "explanation": "Correct translation: \"उसे सबूत देना पड़ा।\" = \"She had to give proof.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "She will have _____ give proof.",
+      "options": [
+        "wake",
+        "go",
+        "fill",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"She will have to give proof.\""
+    }
+  ]
+}

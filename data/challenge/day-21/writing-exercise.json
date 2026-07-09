@@ -1,0 +1,46 @@
+{
+  "day": 21,
+  "topic": "Used To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Used To.",
+      "hindiPrompt": "Used To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I used to go to school daily. He used to smoke. We used to live in a village. She used to play cricket. They used to study together.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Used To.",
+      "hindiPrompt": "Used To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I used to sleep early. Did you use to live here? He used to be very shy. I used to listen to this song a lot. They used to meet every week.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"मैं पहले फुटबॉल खेलता था।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "I used to play football.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"She use to play cricket.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "She used to play cricket.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Used To.",
+      "hindiPrompt": "Used To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "We used to go by bus. I did not use to do this. He used to wake up early. I used to study a lot.",
+      "wordLimit": 60
+    }
+  ]
+}

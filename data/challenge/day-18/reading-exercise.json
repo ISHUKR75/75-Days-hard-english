@@ -1,0 +1,107 @@
+{
+  "day": 18,
+  "topic": "May",
+  "passage": {
+    "title": "A Day with May",
+    "text": "It may rain today. May I come in? He may be right. May I ask a question? They may come today. May I take this? The weather may change. May I go, sir? She may come late. May I use your pen?",
+    "hindiTranslation": "आज बारिश हो सकती है। क्या मैं अंदर आ सकता हूँ? वह सही हो सकता है। क्या मैं एक सवाल पूछ सकता हूँ? वे आज आ सकते हैं। क्या मैं यह ले सकता हूँ? मौसम बदल सकता है। क्या मैं जा सकता हूँ, sir? वह देर से आ सकती है। क्या मैं आपकी pen इस्तेमाल कर सकता हूँ?"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"It may rain today....\"?",
+      "options": [
+        "May I go, sir?",
+        "May I sit here?",
+        "This may be wrong.",
+        "It may rain today."
+      ],
+      "answer": "It may rain today.",
+      "explanation": "Stated in the passage: \"It may rain today.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"May I come in?...\"?",
+      "options": [
+        "She may come late.",
+        "This may be true.",
+        "May I use the phone?",
+        "May I come in?"
+      ],
+      "answer": "May I come in?",
+      "explanation": "Stated in the passage: \"May I come in?\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"He may be right....\"?",
+      "options": [
+        "May I use your pen?",
+        "May I help you?",
+        "May God bless you.",
+        "He may be right."
+      ],
+      "answer": "He may be right.",
+      "explanation": "Stated in the passage: \"He may be right.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"May I ask a...\"?",
+      "options": [
+        "He may be correct.",
+        "He may get married this year.",
+        "It may rain today.",
+        "May I ask a question?"
+      ],
+      "answer": "May I ask a question?",
+      "explanation": "Stated in the passage: \"May I ask a question?\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"They may come today....\"?",
+      "options": [
+        "May I say something?",
+        "May I go outside?",
+        "May I come in?",
+        "They may come today."
+      ],
+      "answer": "They may come today.",
+      "explanation": "Stated in the passage: \"They may come today.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"May I take this?...\"?",
+      "options": [
+        "May God keep you happy.",
+        "They may not come.",
+        "He may be right.",
+        "May I take this?"
+      ],
+      "answer": "May I take this?",
+      "explanation": "Stated in the passage: \"May I take this?\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"The weather may change....\"?",
+      "options": [
+        "You may succeed.",
+        "May I close the door?",
+        "May I ask a question?",
+        "The weather may change."
+      ],
+      "answer": "The weather may change.",
+      "explanation": "Stated in the passage: \"The weather may change.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"May I go, sir?...\"?",
+      "options": [
+        "May I sit here?",
+        "This may be wrong.",
+        "They may come today.",
+        "May I go, sir?"
+      ],
+      "answer": "May I go, sir?",
+      "explanation": "Stated in the passage: \"May I go, sir?\""
+    }
+  ]
+}

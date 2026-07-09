@@ -1,0 +1,255 @@
+{
+  "day": 29,
+  "topic": "Will / Shall",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं कल आऊँगा।",
+      "options": [
+        "He will come back soon.",
+        "They will never give up.",
+        "She will surely succeed.",
+        "I will come tomorrow."
+      ],
+      "answer": "I will come tomorrow.",
+      "explanation": "Correct translation: \"मैं कल आऊँगा।\" = \"I will come tomorrow.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "She will _____ succeed.",
+      "options": [
+        "break",
+        "try",
+        "the",
+        "surely"
+      ],
+      "answer": "surely",
+      "explanation": "Full sentence: \"She will surely succeed.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Shall I close the door? yesterday.",
+      "options": [
+        "Shall I close the door? yesterday.",
+        "Shall I close the door?"
+      ],
+      "answer": "Shall I close the door?",
+      "explanation": "Correct sentence: \"Shall I close the door?\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "हम कल मिलेंगे।",
+      "options": [
+        "We will make this better.",
+        "We will learn together.",
+        "They will complete this project.",
+        "We will meet tomorrow."
+      ],
+      "answer": "We will meet tomorrow.",
+      "explanation": "Correct translation: \"हम कल मिलेंगे।\" = \"We will meet tomorrow.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "They will _____ this project.",
+      "options": [
+        "a",
+        "make",
+        "go",
+        "complete"
+      ],
+      "answer": "complete",
+      "explanation": "Full sentence: \"They will complete this project.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Shall we go? yesterday.",
+      "options": [
+        "Shall we go? yesterday.",
+        "Shall we go?"
+      ],
+      "answer": "Shall we go?",
+      "explanation": "Correct sentence: \"Shall we go?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं तुम्हारी मदद करूँगा।",
+      "options": [
+        "Shall I start?",
+        "I will come tomorrow.",
+        "He will come back soon.",
+        "I will help you."
+      ],
+      "answer": "I will help you.",
+      "explanation": "Correct translation: \"मैं तुम्हारी मदद करूँगा।\" = \"I will help you.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He will _____ back soon.",
+      "options": [
+        "give",
+        "succeed",
+        "break",
+        "come"
+      ],
+      "answer": "come",
+      "explanation": "Full sentence: \"He will come back soon.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "I wills not break this promise.",
+      "options": [
+        "I wills not break this promise.",
+        "I will not break this promise."
+      ],
+      "answer": "I will not break this promise.",
+      "explanation": "Correct sentence: \"I will not break this promise.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "क्या तुम मुझे फोन करोगे?",
+      "options": [
+        "He will get married next year.",
+        "We will meet tomorrow.",
+        "We will make this better.",
+        "Will you call me?"
+      ],
+      "answer": "Will you call me?",
+      "explanation": "Correct translation: \"क्या तुम मुझे फोन करोगे?\" = \"Will you call me?\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "We will _____ this better.",
+      "options": [
+        "together",
+        "this",
+        "a",
+        "make"
+      ],
+      "answer": "make",
+      "explanation": "Full sentence: \"We will make this better.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "She wills become a doctor in the future.",
+      "options": [
+        "She wills become a doctor in the future.",
+        "She will become a doctor in the future."
+      ],
+      "answer": "She will become a doctor in the future.",
+      "explanation": "Correct sentence: \"She will become a doctor in the future.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैं कल यह काम खत्म कर दूँगा।",
+      "options": [
+        "Shall we proceed?",
+        "I will help you.",
+        "Shall I start?",
+        "I will finish this work tomorrow."
+      ],
+      "answer": "I will finish this work tomorrow.",
+      "explanation": "Correct translation: \"मैं कल यह काम खत्म कर दूँगा।\" = \"I will finish this work tomorrow.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Shall _____ start?",
+      "options": [
+        "tomorrow",
+        "back",
+        "give",
+        "I"
+      ],
+      "answer": "I",
+      "explanation": "Full sentence: \"Shall I start?\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "They wills never give up.",
+      "options": [
+        "They wills never give up.",
+        "They will never give up."
+      ],
+      "answer": "They will never give up.",
+      "explanation": "Correct sentence: \"They will never give up.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं जरूर कोशिश करूँगा।",
+      "options": [
+        "Shall I close the door?",
+        "Will you call me?",
+        "He will get married next year.",
+        "I will surely try."
+      ],
+      "answer": "I will surely try.",
+      "explanation": "Correct translation: \"मैं जरूर कोशिश करूँगा।\" = \"I will surely try.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He will get _____ next year.",
+      "options": [
+        "tomorrow",
+        "this",
+        "together",
+        "married"
+      ],
+      "answer": "married",
+      "explanation": "Full sentence: \"He will get married next year.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "We wills learn together.",
+      "options": [
+        "We wills learn together.",
+        "We will learn together."
+      ],
+      "answer": "We will learn together.",
+      "explanation": "Correct sentence: \"We will learn together.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मैं यह गलती फिर नहीं करूँगा।",
+      "options": [
+        "Shall we go?",
+        "I will finish this work tomorrow.",
+        "Shall we proceed?",
+        "I will not make this mistake again."
+      ],
+      "answer": "I will not make this mistake again.",
+      "explanation": "Correct translation: \"मैं यह गलती फिर नहीं करूँगा।\" = \"I will not make this mistake again.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Shall _____ proceed?",
+      "options": [
+        "you",
+        "start",
+        "tomorrow",
+        "we"
+      ],
+      "answer": "we",
+      "explanation": "Full sentence: \"Shall we proceed?\""
+    }
+  ]
+}

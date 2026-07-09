@@ -1,0 +1,255 @@
+{
+  "day": 34,
+  "topic": "Tenses Part 3 — Future Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं कल चावल खाऊँगा।",
+      "options": [
+        "She will have been working for two hours by 5 pm.",
+        "I will have read this book by 7 pm.",
+        "I will be eating food at 8 pm.",
+        "I will eat rice tomorrow."
+      ],
+      "answer": "I will eat rice tomorrow.",
+      "explanation": "Correct translation: \"मैं कल चावल खाऊँगा।\" = \"I will eat rice tomorrow.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I will be eating _____ at 8 pm.",
+      "options": [
+        "to",
+        "been",
+        "eaten",
+        "food"
+      ],
+      "answer": "food",
+      "explanation": "Full sentence: \"I will be eating food at 8 pm.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I will have eaten food by 8 pm yesterday.",
+      "options": [
+        "I will have eaten food by 8 pm yesterday.",
+        "I will have eaten food by 8 pm."
+      ],
+      "answer": "I will have eaten food by 8 pm.",
+      "explanation": "Correct sentence: \"I will have eaten food by 8 pm.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "8 बजे तक मैं एक घंटे से खा रहा होऊँगा।",
+      "options": [
+        "They will have done their homework by 3 pm.",
+        "He will be singing at 6 pm.",
+        "She will go to work tomorrow.",
+        "I will have been eating for an hour by 8 pm."
+      ],
+      "answer": "I will have been eating for an hour by 8 pm.",
+      "explanation": "Correct translation: \"8 बजे तक मैं एक घंटे से खा रहा होऊँगा।\" = \"I will have been eating for an hour by 8 pm.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "She will go _____ work tomorrow.",
+      "options": [
+        "been",
+        "sung",
+        "working",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"She will go to work tomorrow.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "She will be working at 5 pm yesterday.",
+      "options": [
+        "She will be working at 5 pm yesterday.",
+        "She will be working at 5 pm."
+      ],
+      "answer": "She will be working at 5 pm.",
+      "explanation": "Correct sentence: \"She will be working at 5 pm.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "5 बजे तक वह काम खत्म कर चुकी होगी।",
+      "options": [
+        "I will be reading at 7 pm.",
+        "I will eat rice tomorrow.",
+        "She will have been working for two hours by 5 pm.",
+        "She will have finished her work by 5 pm."
+      ],
+      "answer": "She will have finished her work by 5 pm.",
+      "explanation": "Correct translation: \"5 बजे तक वह काम खत्म कर चुकी होगी।\" = \"She will have finished her work by 5 pm.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She will have been working _____ two hours by 5 pm.",
+      "options": [
+        "read",
+        "eating",
+        "to",
+        "for"
+      ],
+      "answer": "for",
+      "explanation": "Full sentence: \"She will have been working for two hours by 5 pm.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "They will go to school tomorrow yesterday.",
+      "options": [
+        "They will go to school tomorrow yesterday.",
+        "They will go to school tomorrow."
+      ],
+      "answer": "They will go to school tomorrow.",
+      "explanation": "Correct sentence: \"They will go to school tomorrow.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "3 बजे वे खेल रहे होंगे।",
+      "options": [
+        "He will sing a song next week.",
+        "I will have been eating for an hour by 8 pm.",
+        "They will have done their homework by 3 pm.",
+        "They will be playing at 3 pm."
+      ],
+      "answer": "They will be playing at 3 pm.",
+      "explanation": "Correct translation: \"3 बजे वे खेल रहे होंगे।\" = \"They will be playing at 3 pm.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "They will have done _____ homework by 3 pm.",
+      "options": [
+        "singing",
+        "to",
+        "been",
+        "their"
+      ],
+      "answer": "their",
+      "explanation": "Full sentence: \"They will have done their homework by 3 pm.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "They will have been playing for an hour by 3 pm yesterday.",
+      "options": [
+        "They will have been playing for an hour by 3 pm yesterday.",
+        "They will have been playing for an hour by 3 pm."
+      ],
+      "answer": "They will have been playing for an hour by 3 pm.",
+      "explanation": "Correct sentence: \"They will have been playing for an hour by 3 pm.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मैं कल सुबह exercise करूँगा।",
+      "options": [
+        "He will have been singing for half an hour by 6 pm.",
+        "She will have finished her work by 5 pm.",
+        "I will be reading at 7 pm.",
+        "I will exercise tomorrow morning."
+      ],
+      "answer": "I will exercise tomorrow morning.",
+      "explanation": "Correct translation: \"मैं कल सुबह exercise करूँगा।\" = \"I will exercise tomorrow morning.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I will be _____ at 7 pm.",
+      "options": [
+        "rice",
+        "been",
+        "read",
+        "reading"
+      ],
+      "answer": "reading",
+      "explanation": "Full sentence: \"I will be reading at 7 pm.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I will have read this book by 7 pm yesterday.",
+      "options": [
+        "I will have read this book by 7 pm yesterday.",
+        "I will have read this book by 7 pm."
+      ],
+      "answer": "I will have read this book by 7 pm.",
+      "explanation": "Correct sentence: \"I will have read this book by 7 pm.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "7 बजे तक मैं तीन घंटे से पढ़ रहा होऊँगा।",
+      "options": [
+        "I will have eaten food by 8 pm.",
+        "They will be playing at 3 pm.",
+        "He will sing a song next week.",
+        "I will have been reading for three hours by 7 pm."
+      ],
+      "answer": "I will have been reading for three hours by 7 pm.",
+      "explanation": "Correct translation: \"7 बजे तक मैं तीन घंटे से पढ़ रहा होऊँगा।\" = \"I will have been reading for three hours by 7 pm.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He will sing _____ song next week.",
+      "options": [
+        "been",
+        "done",
+        "singing",
+        "a"
+      ],
+      "answer": "a",
+      "explanation": "Full sentence: \"He will sing a song next week.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He will be singing at 6 pm yesterday.",
+      "options": [
+        "He will be singing at 6 pm yesterday.",
+        "He will be singing at 6 pm."
+      ],
+      "answer": "He will be singing at 6 pm.",
+      "explanation": "Correct sentence: \"He will be singing at 6 pm.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "6 बजे तक वह गाना गा चुका होगा।",
+      "options": [
+        "She will be working at 5 pm.",
+        "I will exercise tomorrow morning.",
+        "He will have been singing for half an hour by 6 pm.",
+        "He will have sung the song by 6 pm."
+      ],
+      "answer": "He will have sung the song by 6 pm.",
+      "explanation": "Correct translation: \"6 बजे तक वह गाना गा चुका होगा।\" = \"He will have sung the song by 6 pm.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "He will have been singing for _____ an hour by 6 pm.",
+      "options": [
+        "finished",
+        "reading",
+        "rice",
+        "half"
+      ],
+      "answer": "half",
+      "explanation": "Full sentence: \"He will have been singing for half an hour by 6 pm.\""
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "day": 49,
+  "topic": "Passive Voice Part 1 — Present & Past",
+  "passage": {
+    "title": "A Day with Passive Voice Part 1 — Present & Past",
+    "text": "This book is read by me. This work is done by him. This letter was written by her. The food is cooked by mother. This house was built by my grandfather. This song is sung by her. This question was asked by me. This photo is taken by me. This decision was taken by the team. This letter is delivered by the postman.",
+    "hindiTranslation": "यह किताब मेरे द्वारा पढ़ी जाती है। यह काम उसके द्वारा किया जाता है। यह letter उसके द्वारा लिखा गया। खाना माँ के द्वारा बनाया जाता है। यह घर मेरे दादा जी ने बनाया था। यह गाना उसके द्वारा गाया जाता है। यह प्रश्न मेरे द्वारा पूछा गया। यह फोटो मेरे द्वारा खींची जाती है। यह decision team के द्वारा लिया गया। यह पत्र डाकिये द्वारा पहुँचाया जाता है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"This book is read...\"?",
+      "options": [
+        "This photo is taken by me.",
+        "This mistake was made by the students.",
+        "This work is done by him.",
+        "This book is read by me."
+      ],
+      "answer": "This book is read by me.",
+      "explanation": "Stated in the passage: \"This book is read by me.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"This work is done...\"?",
+      "options": [
+        "This decision was taken by the team.",
+        "These awards are given every year.",
+        "This letter was written by her.",
+        "This work is done by him."
+      ],
+      "answer": "This work is done by him.",
+      "explanation": "Stated in the passage: \"This work is done by him.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"This letter was written...\"?",
+      "options": [
+        "This letter is delivered by the postman.",
+        "This car is driven by him.",
+        "The food is cooked by mother.",
+        "This letter was written by her."
+      ],
+      "answer": "This letter was written by her.",
+      "explanation": "Stated in the passage: \"This letter was written by her.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"The food is cooked...\"?",
+      "options": [
+        "This mistake was made by him.",
+        "This email was sent yesterday.",
+        "This house was built by my grandfather.",
+        "The food is cooked by mother."
+      ],
+      "answer": "The food is cooked by mother.",
+      "explanation": "Stated in the passage: \"The food is cooked by mother.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"This house was built...\"?",
+      "options": [
+        "This report is prepared by me.",
+        "This problem was solved.",
+        "This song is sung by her.",
+        "This house was built by my grandfather."
+      ],
+      "answer": "This house was built by my grandfather.",
+      "explanation": "Stated in the passage: \"This house was built by my grandfather.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"This song is sung...\"?",
+      "options": [
+        "This book was written by the author.",
+        "These books are given to children.",
+        "This question was asked by me.",
+        "This song is sung by her."
+      ],
+      "answer": "This song is sung by her.",
+      "explanation": "Stated in the passage: \"This song is sung by her.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"This question was asked...\"?",
+      "options": [
+        "This project is completed by the team.",
+        "This book is read by me.",
+        "This photo is taken by me.",
+        "This question was asked by me."
+      ],
+      "answer": "This question was asked by me.",
+      "explanation": "Stated in the passage: \"This question was asked by me.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"This photo is taken...\"?",
+      "options": [
+        "This mistake was made by the students.",
+        "This work is done by him.",
+        "This decision was taken by the team.",
+        "This photo is taken by me."
+      ],
+      "answer": "This photo is taken by me.",
+      "explanation": "Stated in the passage: \"This photo is taken by me.\""
+    }
+  ]
+}

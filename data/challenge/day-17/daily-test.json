@@ -1,0 +1,303 @@
+{
+  "day": 17,
+  "topic": "Should",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "तुम्हें ज्यादा पानी पीना चाहिए।",
+      "options": [
+        "Should I do this?",
+        "He should not smoke.",
+        "You should not get angry too much.",
+        "You should drink more water."
+      ],
+      "answer": "You should drink more water.",
+      "explanation": "Correct translation: \"तुम्हें ज्यादा पानी पीना चाहिए।\" = \"You should drink more water.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "We should _____ on time.",
+      "options": [
+        "others",
+        "to",
+        "his",
+        "arrive"
+      ],
+      "answer": "arrive",
+      "explanation": "Full sentence: \"We should arrive on time.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He shoulds see a doctor.",
+      "options": [
+        "He shoulds see a doctor.",
+        "He should see a doctor."
+      ],
+      "answer": "He should see a doctor.",
+      "explanation": "Correct sentence: \"He should see a doctor.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "तुम्हें झूठ नहीं बोलना चाहिए।",
+      "options": [
+        "He should tell the truth.",
+        "She should not miss this opportunity.",
+        "You should drink more water.",
+        "You should not lie."
+      ],
+      "answer": "You should not lie.",
+      "explanation": "Correct translation: \"तुम्हें झूठ नहीं बोलना चाहिए।\" = \"You should not lie.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We should _____ hard.",
+      "options": [
+        "the",
+        "daily",
+        "on",
+        "work"
+      ],
+      "answer": "work",
+      "explanation": "Full sentence: \"We should work hard.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "She shoulds apologize.",
+      "options": [
+        "She shoulds apologize.",
+        "She should apologize."
+      ],
+      "answer": "She should apologize.",
+      "explanation": "Correct sentence: \"She should apologize.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "तुम्हें अपनी सेहत का ध्यान रखना चाहिए।",
+      "options": [
+        "Should we buy this?",
+        "We should be honest.",
+        "You should not lie.",
+        "You should take care of your health."
+      ],
+      "answer": "You should take care of your health.",
+      "explanation": "Correct translation: \"तुम्हें अपनी सेहत का ध्यान रखना चाहिए।\" = \"You should take care of your health.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "Should I _____ this?",
+      "options": [
+        "smoke",
+        "get",
+        "hard",
+        "do"
+      ],
+      "answer": "do",
+      "explanation": "Full sentence: \"Should I do this?\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "We shoulds help others.",
+      "options": [
+        "We shoulds help others.",
+        "We should help others."
+      ],
+      "answer": "We should help others.",
+      "explanation": "Correct sentence: \"We should help others.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "तुम्हें जल्दी सोना चाहिए।",
+      "options": [
+        "We should take care of the environment.",
+        "We should respect each other.",
+        "You should take care of your health.",
+        "You should sleep early."
+      ],
+      "answer": "You should sleep early.",
+      "explanation": "Correct translation: \"तुम्हें जल्दी सोना चाहिए।\" = \"You should sleep early.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He should _____ the truth.",
+      "options": [
+        "miss",
+        "more",
+        "this",
+        "tell"
+      ],
+      "answer": "tell",
+      "explanation": "Full sentence: \"He should tell the truth.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "We shoulds follow the rules.",
+      "options": [
+        "We shoulds follow the rules.",
+        "We should follow the rules."
+      ],
+      "answer": "We should follow the rules.",
+      "explanation": "Correct sentence: \"We should follow the rules.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "तुम्हें ज्यादा practice करनी चाहिए।",
+      "options": [
+        "Should I tell him?",
+        "He should see a doctor.",
+        "You should sleep early.",
+        "You should practice more."
+      ],
+      "answer": "You should practice more.",
+      "explanation": "Correct translation: \"तुम्हें ज्यादा practice करनी चाहिए।\" = \"You should practice more.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "Should we _____ this?",
+      "options": [
+        "honest",
+        "lie",
+        "the",
+        "buy"
+      ],
+      "answer": "buy",
+      "explanation": "Full sentence: \"Should we buy this?\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "He shoulds not smoke.",
+      "options": [
+        "He shoulds not smoke.",
+        "He should not smoke."
+      ],
+      "answer": "He should not smoke.",
+      "explanation": "Correct sentence: \"He should not smoke.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "तुम्हें अपने माता-पिता की सुनना चाहिए।",
+      "options": [
+        "He should accept his mistake.",
+        "She should apologize.",
+        "You should practice more.",
+        "You should listen to your parents."
+      ],
+      "answer": "You should listen to your parents.",
+      "explanation": "Correct translation: \"तुम्हें अपने माता-पिता की सुनना चाहिए।\" = \"You should listen to your parents.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "We should take _____ of the environment.",
+      "options": [
+        "each",
+        "this",
+        "honest",
+        "care"
+      ],
+      "answer": "care",
+      "explanation": "Full sentence: \"We should take care of the environment.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "She shoulds not miss this opportunity.",
+      "options": [
+        "She shoulds not miss this opportunity.",
+        "She should not miss this opportunity."
+      ],
+      "answer": "She should not miss this opportunity.",
+      "explanation": "Correct sentence: \"She should not miss this opportunity.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "तुम्हें रोज़ exercise करनी चाहिए।",
+      "options": [
+        "We should arrive on time.",
+        "We should help others.",
+        "You should listen to your parents.",
+        "You should exercise daily."
+      ],
+      "answer": "You should exercise daily.",
+      "explanation": "Correct translation: \"तुम्हें रोज़ exercise करनी चाहिए।\" = \"You should exercise daily.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "Should I _____ him?",
+      "options": [
+        "a",
+        "early",
+        "care",
+        "tell"
+      ],
+      "answer": "tell",
+      "explanation": "Full sentence: \"Should I tell him?\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "We shoulds be honest.",
+      "options": [
+        "We shoulds be honest.",
+        "We should be honest."
+      ],
+      "answer": "We should be honest.",
+      "explanation": "Correct sentence: \"We should be honest.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "तुम्हें ज्यादा गुस्सा नहीं करना चाहिए।",
+      "options": [
+        "We should work hard.",
+        "We should follow the rules.",
+        "You should exercise daily.",
+        "You should not get angry too much."
+      ],
+      "answer": "You should not get angry too much.",
+      "explanation": "Correct translation: \"तुम्हें ज्यादा गुस्सा नहीं करना चाहिए।\" = \"You should not get angry too much.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "He should _____ his mistake.",
+      "options": [
+        "apologize",
+        "more",
+        "him",
+        "accept"
+      ],
+      "answer": "accept",
+      "explanation": "Full sentence: \"He should accept his mistake.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "We shoulds respect each other.",
+      "options": [
+        "We shoulds respect each other.",
+        "We should respect each other."
+      ],
+      "answer": "We should respect each other.",
+      "explanation": "Correct sentence: \"We should respect each other.\""
+    }
+  ]
+}

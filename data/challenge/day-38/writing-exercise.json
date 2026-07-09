@@ -1,0 +1,46 @@
+{
+  "day": 38,
+  "topic": "Has To / Have To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Has To / Have To.",
+      "hindiPrompt": "Has To / Have To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I have to go to office every day. He has to complete this work. We have to follow the rules. She has to wake up early every day. Do you have to do this?",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Has To / Have To.",
+      "hindiPrompt": "Has To / Have To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "He has to work very hard. I have to pay this money. We have to fill the form. You do not have to do this. She has to give proof.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"क्या उसे भी आना पड़ता है?\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "Does he have to come too?",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"She have to wake up early every day.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "She has to wake up early every day.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Has To / Have To.",
+      "hindiPrompt": "Has To / Have To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "I have to give this test. He has to take medicine daily. You have to take permission. We have to follow safety rules.",
+      "wordLimit": 60
+    }
+  ]
+}

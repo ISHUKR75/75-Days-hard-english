@@ -1,0 +1,107 @@
+{
+  "day": 32,
+  "topic": "Tenses Part 1 — Present Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+  "passage": {
+    "title": "A Day with Tenses Part 1 — Present Tense (Simple, Continuous, Perfect, Perfect Continuous)",
+    "text": "I eat rice every day. I am eating food right now. I have eaten food. I have been studying for an hour. She goes to work every day. She is working right now. She has finished her work. She has been working for two hours. They go to school every day. They are playing now.",
+    "hindiTranslation": "मैं रोज़ चावल खाता हूँ। मैं अभी खाना खा रहा हूँ। मैंने खाना खा लिया है। मैं एक घंटे से पढ़ रहा हूँ। वह हर दिन काम पर जाती है। वह अभी काम कर रही है। उसने अपना काम पूरा कर लिया है। वह दो घंटे से काम कर रही है। वे रोज़ स्कूल जाते हैं। वे अभी खेल रहे हैं।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I eat rice every...\"?",
+      "options": [
+        "She has been working for two hours.",
+        "I have read this book.",
+        "I am eating food right now.",
+        "I eat rice every day."
+      ],
+      "answer": "I eat rice every day.",
+      "explanation": "Stated in the passage: \"I eat rice every day.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I am eating food...\"?",
+      "options": [
+        "They go to school every day.",
+        "I have been reading this book for three hours.",
+        "I have eaten food.",
+        "I am eating food right now."
+      ],
+      "answer": "I am eating food right now.",
+      "explanation": "Stated in the passage: \"I am eating food right now.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"I have eaten food....\"?",
+      "options": [
+        "They are playing now.",
+        "He sings well.",
+        "I have been studying for an hour.",
+        "I have eaten food."
+      ],
+      "answer": "I have eaten food.",
+      "explanation": "Stated in the passage: \"I have eaten food.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I have been studying...\"?",
+      "options": [
+        "They have done their homework.",
+        "He is singing now.",
+        "She goes to work every day.",
+        "I have been studying for an hour."
+      ],
+      "answer": "I have been studying for an hour.",
+      "explanation": "Stated in the passage: \"I have been studying for an hour.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"She goes to work...\"?",
+      "options": [
+        "They have been playing since morning.",
+        "He has sung a new song.",
+        "She is working right now.",
+        "She goes to work every day."
+      ],
+      "answer": "She goes to work every day.",
+      "explanation": "Stated in the passage: \"She goes to work every day.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"She is working right...\"?",
+      "options": [
+        "I exercise every morning.",
+        "He has been singing for half an hour.",
+        "She has finished her work.",
+        "She is working right now."
+      ],
+      "answer": "She is working right now.",
+      "explanation": "Stated in the passage: \"She is working right now.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"She has finished her...\"?",
+      "options": [
+        "I am reading now.",
+        "I eat rice every day.",
+        "She has been working for two hours.",
+        "She has finished her work."
+      ],
+      "answer": "She has finished her work.",
+      "explanation": "Stated in the passage: \"She has finished her work.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She has been working...\"?",
+      "options": [
+        "I have read this book.",
+        "I am eating food right now.",
+        "They go to school every day.",
+        "She has been working for two hours."
+      ],
+      "answer": "She has been working for two hours.",
+      "explanation": "Stated in the passage: \"She has been working for two hours.\""
+    }
+  ]
+}

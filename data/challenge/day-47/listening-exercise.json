@@ -1,0 +1,114 @@
+{
+  "day": 47,
+  "topic": "Conjunctions (And, But, Or, So, Because, Although, While)",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "It was raining, so we stayed inside.",
+      "hindiScript": "बारिश हो रही थी, इसलिए हम अंदर रुके।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is smart and hardworking.",
+        "We were happy and excited.",
+        "I was tired, but I finished the work.",
+        "It was raining, so we stayed inside."
+      ],
+      "answer": "It was raining, so we stayed inside."
+    },
+    {
+      "id": 2,
+      "audioScript": "He succeeded because he worked hard.",
+      "hindiScript": "वह सफल हुआ क्योंकि उसने मेहनत की।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I like this, but it is expensive.",
+        "This is good, but it can be improved.",
+        "Would you like tea or coffee?",
+        "He succeeded because he worked hard."
+      ],
+      "answer": "He succeeded because he worked hard."
+    },
+    {
+      "id": 3,
+      "audioScript": "Although the weather was bad, we traveled.",
+      "hindiScript": "हालांकि मौसम खराब था, हमने यात्रा की।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You can go now or later.",
+        "We can watch a movie or stay at home.",
+        "I was late, so I left quickly.",
+        "Although the weather was bad, we traveled."
+      ],
+      "answer": "Although the weather was bad, we traveled."
+    },
+    {
+      "id": 4,
+      "audioScript": "I was studying while he was sleeping.",
+      "hindiScript": "मैं पढ़ रहा था जबकि वह सो रहा था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "It was raining, so we stayed inside.",
+        "I was hungry, so I ate food.",
+        "I came late because there was traffic.",
+        "I was studying while he was sleeping."
+      ],
+      "answer": "I was studying while he was sleeping."
+    },
+    {
+      "id": 5,
+      "audioScript": "We were happy and excited.",
+      "hindiScript": "हम खुश और उत्साहित थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He succeeded because he worked hard.",
+        "She cried because she was sad.",
+        "Although he was tired, he kept working.",
+        "We were happy and excited."
+      ],
+      "answer": "We were happy and excited."
+    },
+    {
+      "id": 6,
+      "audioScript": "This is good, but it can be improved.",
+      "hindiScript": "यह अच्छा है, लेकिन इसे बेहतर बनाया जा सकता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Although the weather was bad, we traveled.",
+        "Although it was difficult, we tried.",
+        "I was cooking while she was studying.",
+        "This is good, but it can be improved."
+      ],
+      "answer": "This is good, but it can be improved."
+    },
+    {
+      "id": 7,
+      "audioScript": "We can watch a movie or stay at home.",
+      "hindiScript": "हम फिल्म देख सकते हैं या घर पर रह सकते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I was studying while he was sleeping.",
+        "I drink both tea and coffee.",
+        "She is smart and hardworking.",
+        "We can watch a movie or stay at home."
+      ],
+      "answer": "We can watch a movie or stay at home."
+    },
+    {
+      "id": 8,
+      "audioScript": "I was hungry, so I ate food.",
+      "hindiScript": "मुझे भूख लगी थी, इसलिए मैंने खाना खाया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We were happy and excited.",
+        "I was tired, but I finished the work.",
+        "I like this, but it is expensive.",
+        "I was hungry, so I ate food."
+      ],
+      "answer": "I was hungry, so I ate food."
+    }
+  ],
+  "dictationPassage": {
+    "text": "It was raining, so we stayed inside. He succeeded because he worked hard. Although the weather was bad, we traveled. I was studying while he was sleeping. We were happy and excited.",
+    "hindiTranslation": "बारिश हो रही थी, इसलिए हम अंदर रुके। वह सफल हुआ क्योंकि उसने मेहनत की। हालांकि मौसम खराब था, हमने यात्रा की। मैं पढ़ रहा था जबकि वह सो रहा था। हम खुश और उत्साहित थे।"
+  }
+}

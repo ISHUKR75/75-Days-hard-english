@@ -1,0 +1,114 @@
+{
+  "day": 43,
+  "topic": "Want To / Wanted To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Do you want to do this?",
+      "hindiScript": "क्या तुम यह करना चाहते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I wanted to read this book.",
+        "I want to take this opportunity.",
+        "I wanted to learn this.",
+        "Do you want to do this?"
+      ],
+      "answer": "Do you want to do this?"
+    },
+    {
+      "id": 2,
+      "audioScript": "Did you want to do this?",
+      "hindiScript": "क्या तुम यह करना चाहते थे?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She wants to do this job.",
+        "I wanted to take this opportunity.",
+        "He wants to become a doctor.",
+        "Did you want to do this?"
+      ],
+      "answer": "Did you want to do this?"
+    },
+    {
+      "id": 3,
+      "audioScript": "They want to achieve success.",
+      "hindiScript": "वे success पाना चाहते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She wanted to do this job.",
+        "He wants to know the truth.",
+        "He wanted to become a doctor.",
+        "They want to achieve success."
+      ],
+      "answer": "They want to achieve success."
+    },
+    {
+      "id": 4,
+      "audioScript": "They wanted to achieve success.",
+      "hindiScript": "वे success पाना चाहते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Do you want to do this?",
+        "He wanted to know the truth.",
+        "We want to travel.",
+        "They wanted to achieve success."
+      ],
+      "answer": "They wanted to achieve success."
+    },
+    {
+      "id": 5,
+      "audioScript": "I want to take this opportunity.",
+      "hindiScript": "मैं यह मौका लेना चाहता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Did you want to do this?",
+        "We want to make this better.",
+        "We wanted to travel.",
+        "I want to take this opportunity."
+      ],
+      "answer": "I want to take this opportunity."
+    },
+    {
+      "id": 6,
+      "audioScript": "I wanted to take this opportunity.",
+      "hindiScript": "मैं यह मौका लेना चाहता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They want to achieve success.",
+        "We wanted to make this better.",
+        "I want to read this book.",
+        "I wanted to take this opportunity."
+      ],
+      "answer": "I wanted to take this opportunity."
+    },
+    {
+      "id": 7,
+      "audioScript": "He wants to know the truth.",
+      "hindiScript": "वह यह सच जानना चाहता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They wanted to achieve success.",
+        "I want to learn this.",
+        "I wanted to read this book.",
+        "He wants to know the truth."
+      ],
+      "answer": "He wants to know the truth."
+    },
+    {
+      "id": 8,
+      "audioScript": "He wanted to know the truth.",
+      "hindiScript": "वह यह सच जानना चाहता था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I want to take this opportunity.",
+        "I wanted to learn this.",
+        "She wants to do this job.",
+        "He wanted to know the truth."
+      ],
+      "answer": "He wanted to know the truth."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Do you want to do this? Did you want to do this? They want to achieve success. They wanted to achieve success. I want to take this opportunity.",
+    "hindiTranslation": "क्या तुम यह करना चाहते हो? क्या तुम यह करना चाहते थे? वे success पाना चाहते हैं। वे success पाना चाहते थे। मैं यह मौका लेना चाहता हूँ।"
+  }
+}

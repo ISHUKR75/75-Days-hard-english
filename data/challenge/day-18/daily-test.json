@@ -1,0 +1,303 @@
+{
+  "day": 18,
+  "topic": "May",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "आज बारिश हो सकती है।",
+      "options": [
+        "May I go, sir?",
+        "May I sit here?",
+        "This may be wrong.",
+        "It may rain today."
+      ],
+      "answer": "It may rain today.",
+      "explanation": "Correct translation: \"आज बारिश हो सकती है।\" = \"It may rain today.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "May I _____ in?",
+      "options": [
+        "late",
+        "true",
+        "the",
+        "come"
+      ],
+      "answer": "come",
+      "explanation": "Full sentence: \"May I come in?\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "He mays be right.",
+      "options": [
+        "He mays be right.",
+        "He may be right."
+      ],
+      "answer": "He may be right.",
+      "explanation": "Correct sentence: \"He may be right.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "क्या मैं एक सवाल पूछ सकता हूँ?",
+      "options": [
+        "He may be correct.",
+        "He may get married this year.",
+        "It may rain today.",
+        "May I ask a question?"
+      ],
+      "answer": "May I ask a question?",
+      "explanation": "Correct translation: \"क्या मैं एक सवाल पूछ सकता हूँ?\" = \"May I ask a question?\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "They may _____ today.",
+      "options": [
+        "something",
+        "outside",
+        "in",
+        "come"
+      ],
+      "answer": "come",
+      "explanation": "Full sentence: \"They may come today.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "May I take this? yesterday.",
+      "options": [
+        "May I take this? yesterday.",
+        "May I take this?"
+      ],
+      "answer": "May I take this?",
+      "explanation": "Correct sentence: \"May I take this?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मौसम बदल सकता है।",
+      "options": [
+        "You may succeed.",
+        "May I close the door?",
+        "May I ask a question?",
+        "The weather may change."
+      ],
+      "answer": "The weather may change.",
+      "explanation": "Correct translation: \"मौसम बदल सकता है।\" = \"The weather may change.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "May I _____ sir?",
+      "options": [
+        "here",
+        "wrong",
+        "today",
+        "go"
+      ],
+      "answer": "go",
+      "explanation": "Full sentence: \"May I go, sir?\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "She mays come late.",
+      "options": [
+        "She mays come late.",
+        "She may come late."
+      ],
+      "answer": "She may come late.",
+      "explanation": "Correct sentence: \"She may come late.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "क्या मैं आपकी pen इस्तेमाल कर सकता हूँ?",
+      "options": [
+        "May I help you?",
+        "May God bless you.",
+        "The weather may change.",
+        "May I use your pen?"
+      ],
+      "answer": "May I use your pen?",
+      "explanation": "Correct translation: \"क्या मैं आपकी pen इस्तेमाल कर सकता हूँ?\" = \"May I use your pen?\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He may _____ correct.",
+      "options": [
+        "married",
+        "today",
+        "sir",
+        "be"
+      ],
+      "answer": "be",
+      "explanation": "Full sentence: \"He may be correct.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "May I say something? yesterday.",
+      "options": [
+        "May I say something? yesterday.",
+        "May I say something?"
+      ],
+      "answer": "May I say something?",
+      "explanation": "Correct sentence: \"May I say something?\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "भगवान तुम्हें खुश रखे।",
+      "options": [
+        "They may not come.",
+        "He may be right.",
+        "May I use your pen?",
+        "May God keep you happy."
+      ],
+      "answer": "May God keep you happy.",
+      "explanation": "Correct translation: \"भगवान तुम्हें खुश रखे।\" = \"May God keep you happy.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "You _____ succeed.",
+      "options": [
+        "the",
+        "a",
+        "correct",
+        "may"
+      ],
+      "answer": "may",
+      "explanation": "Full sentence: \"You may succeed.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "May I sit here? yesterday.",
+      "options": [
+        "May I sit here? yesterday.",
+        "May I sit here?"
+      ],
+      "answer": "May I sit here?",
+      "explanation": "Correct sentence: \"May I sit here?\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "यह सच हो सकता है।",
+      "options": [
+        "May I use the phone?",
+        "May I take this?",
+        "May God keep you happy.",
+        "This may be true."
+      ],
+      "answer": "This may be true.",
+      "explanation": "Correct translation: \"यह सच हो सकता है।\" = \"This may be true.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "May I _____ you?",
+      "options": [
+        "you",
+        "change",
+        "succeed",
+        "help"
+      ],
+      "answer": "help",
+      "explanation": "Full sentence: \"May I help you?\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "He mays get married this year.",
+      "options": [
+        "He mays get married this year.",
+        "He may get married this year."
+      ],
+      "answer": "He may get married this year.",
+      "explanation": "Correct sentence: \"He may get married this year.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "क्या मैं बाहर जा सकता हूँ?",
+      "options": [
+        "May I come in?",
+        "She may come late.",
+        "This may be true.",
+        "May I go outside?"
+      ],
+      "answer": "May I go outside?",
+      "explanation": "Correct translation: \"क्या मैं बाहर जा सकता हूँ?\" = \"May I go outside?\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "They may _____ come.",
+      "options": [
+        "right",
+        "your",
+        "you",
+        "not"
+      ],
+      "answer": "not",
+      "explanation": "Full sentence: \"They may not come.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "May I close the door? yesterday.",
+      "options": [
+        "May I close the door? yesterday.",
+        "May I close the door?"
+      ],
+      "answer": "May I close the door?",
+      "explanation": "Correct sentence: \"May I close the door?\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "यह गलत हो सकता है।",
+      "options": [
+        "They may come today.",
+        "May I say something?",
+        "May I go outside?",
+        "This may be wrong."
+      ],
+      "answer": "This may be wrong.",
+      "explanation": "Correct translation: \"यह गलत हो सकता है।\" = \"This may be wrong.\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "May I _____ the phone?",
+      "options": [
+        "this",
+        "you",
+        "come",
+        "use"
+      ],
+      "answer": "use",
+      "explanation": "Full sentence: \"May I use the phone?\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "May God bless you yesterday.",
+      "options": [
+        "May God bless you yesterday.",
+        "May God bless you."
+      ],
+      "answer": "May God bless you.",
+      "explanation": "Correct sentence: \"May God bless you.\""
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "day": 47,
+  "topic": "Conjunctions (And, But, Or, So, Because, Although, While)",
+  "passage": {
+    "title": "A Day with Conjunctions (And, But, Or, So, Because, Although, While)",
+    "text": "I drink both tea and coffee. I was tired, but I finished the work. Would you like tea or coffee? I was late, so I left quickly. I came late because there was traffic. Although he was tired, he kept working. I was cooking while she was studying. She is smart and hardworking. I like this, but it is expensive. You can go now or later.",
+    "hindiTranslation": "मैं चाय और कॉफी दोनों पीता हूँ। मैं थका हुआ था, लेकिन मैंने काम पूरा किया। क्या तुम चाय या कॉफी पीना चाहोगे? मुझे देर हो गई, इसलिए मैं जल्दी निकला। मैं देर से आया क्योंकि ट्रैफिक था। हालांकि वह थका हुआ था, वह काम करता रहा। मैं खाना बना रहा था जबकि वह पढ़ रही थी। वह smart और मेहनती है। मुझे यह पसंद है, लेकिन यह महंगा है। तुम अभी जा सकते हो या बाद में।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I drink both tea...\"?",
+      "options": [
+        "She is smart and hardworking.",
+        "We were happy and excited.",
+        "I was tired, but I finished the work.",
+        "I drink both tea and coffee."
+      ],
+      "answer": "I drink both tea and coffee.",
+      "explanation": "Stated in the passage: \"I drink both tea and coffee.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"I was tired, but...\"?",
+      "options": [
+        "I like this, but it is expensive.",
+        "This is good, but it can be improved.",
+        "Would you like tea or coffee?",
+        "I was tired, but I finished the work."
+      ],
+      "answer": "I was tired, but I finished the work.",
+      "explanation": "Stated in the passage: \"I was tired, but I finished the work.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"Would you like tea...\"?",
+      "options": [
+        "You can go now or later.",
+        "We can watch a movie or stay at home.",
+        "I was late, so I left quickly.",
+        "Would you like tea or coffee?"
+      ],
+      "answer": "Would you like tea or coffee?",
+      "explanation": "Stated in the passage: \"Would you like tea or coffee?\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"I was late, so...\"?",
+      "options": [
+        "It was raining, so we stayed inside.",
+        "I was hungry, so I ate food.",
+        "I came late because there was traffic.",
+        "I was late, so I left quickly."
+      ],
+      "answer": "I was late, so I left quickly.",
+      "explanation": "Stated in the passage: \"I was late, so I left quickly.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"I came late because...\"?",
+      "options": [
+        "He succeeded because he worked hard.",
+        "She cried because she was sad.",
+        "Although he was tired, he kept working.",
+        "I came late because there was traffic."
+      ],
+      "answer": "I came late because there was traffic.",
+      "explanation": "Stated in the passage: \"I came late because there was traffic.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Although he was tired,...\"?",
+      "options": [
+        "Although the weather was bad, we traveled.",
+        "Although it was difficult, we tried.",
+        "I was cooking while she was studying.",
+        "Although he was tired, he kept working."
+      ],
+      "answer": "Although he was tired, he kept working.",
+      "explanation": "Stated in the passage: \"Although he was tired, he kept working.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I was cooking while...\"?",
+      "options": [
+        "I was studying while he was sleeping.",
+        "I drink both tea and coffee.",
+        "She is smart and hardworking.",
+        "I was cooking while she was studying."
+      ],
+      "answer": "I was cooking while she was studying.",
+      "explanation": "Stated in the passage: \"I was cooking while she was studying.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"She is smart and...\"?",
+      "options": [
+        "We were happy and excited.",
+        "I was tired, but I finished the work.",
+        "I like this, but it is expensive.",
+        "She is smart and hardworking."
+      ],
+      "answer": "She is smart and hardworking.",
+      "explanation": "Stated in the passage: \"She is smart and hardworking.\""
+    }
+  ]
+}

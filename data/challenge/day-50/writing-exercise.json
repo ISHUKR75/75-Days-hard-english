@@ -1,0 +1,46 @@
+{
+  "day": 50,
+  "topic": "Passive Voice Part 2 — Future & Modals",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Passive Voice Part 2 — Future & Modals.",
+      "hindiPrompt": "Passive Voice Part 2 — Future & Modals का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "This work will be completed tomorrow. This problem can be solved. This rule should be followed. This form must be filled. This letter will be sent tomorrow.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Passive Voice Part 2 — Future & Modals.",
+      "hindiPrompt": "Passive Voice Part 2 — Future & Modals का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "This mistake can be corrected. This decision should be taken quickly. This information must be kept secret. This project will be started next month. This question can be asked easily.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"यह किताब पढ़ी जानी चाहिए।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "This book should be read.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"This form must be filled yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "This form must be filled.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Passive Voice Part 2 — Future & Modals.",
+      "hindiPrompt": "Passive Voice Part 2 — Future & Modals का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "This meeting will be called next week. This can be made better. This notice should be read by every student. This work must be completed on time.",
+      "wordLimit": 60
+    }
+  ]
+}

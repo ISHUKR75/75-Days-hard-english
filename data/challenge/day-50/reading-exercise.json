@@ -1,0 +1,107 @@
+{
+  "day": 50,
+  "topic": "Passive Voice Part 2 — Future & Modals",
+  "passage": {
+    "title": "A Day with Passive Voice Part 2 — Future & Modals",
+    "text": "This work will be completed tomorrow. This problem can be solved. This rule should be followed. This form must be filled. This letter will be sent tomorrow. This mistake can be corrected. This decision should be taken quickly. This information must be kept secret. This project will be started next month. This question can be asked easily.",
+    "hindiTranslation": "यह काम कल पूरा किया जाएगा। इस समस्या को हल किया जा सकता है। यह नियम पालन किया जाना चाहिए। यह फॉर्म भरा जाना चाहिए। यह letter कल भेजा जाएगा। इस गलती को सुधारा जा सकता है। यह decision जल्दी लिया जाना चाहिए। यह जानकारी गुप्त रखी जानी चाहिए। यह project अगले महीने शुरू किया जाएगा। यह सवाल आसानी से पूछा जा सकता है।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"This work will be...\"?",
+      "options": [
+        "This information must be kept secret.",
+        "This notice should be read by every student.",
+        "This problem can be solved.",
+        "This work will be completed tomorrow."
+      ],
+      "answer": "This work will be completed tomorrow.",
+      "explanation": "Stated in the passage: \"This work will be completed tomorrow.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"This problem can be...\"?",
+      "options": [
+        "This project will be started next month.",
+        "This work must be completed on time.",
+        "This rule should be followed.",
+        "This problem can be solved."
+      ],
+      "answer": "This problem can be solved.",
+      "explanation": "Stated in the passage: \"This problem can be solved.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"This rule should be...\"?",
+      "options": [
+        "This question can be asked easily.",
+        "The new policy will be implemented next year.",
+        "This form must be filled.",
+        "This rule should be followed."
+      ],
+      "answer": "This rule should be followed.",
+      "explanation": "Stated in the passage: \"This rule should be followed.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"This form must be...\"?",
+      "options": [
+        "This book should be read.",
+        "This issue can be discussed.",
+        "This letter will be sent tomorrow.",
+        "This form must be filled."
+      ],
+      "answer": "This form must be filled.",
+      "explanation": "Stated in the passage: \"This form must be filled.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"This letter will be...\"?",
+      "options": [
+        "This rule must be known to everyone.",
+        "Every rule should be followed.",
+        "This mistake can be corrected.",
+        "This letter will be sent tomorrow."
+      ],
+      "answer": "This letter will be sent tomorrow.",
+      "explanation": "Stated in the passage: \"This letter will be sent tomorrow.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"This mistake can be...\"?",
+      "options": [
+        "This meeting will be called next week.",
+        "This responsibility must be taken.",
+        "This decision should be taken quickly.",
+        "This mistake can be corrected."
+      ],
+      "answer": "This mistake can be corrected.",
+      "explanation": "Stated in the passage: \"This mistake can be corrected.\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"This decision should be...\"?",
+      "options": [
+        "This can be made better.",
+        "This work will be completed tomorrow.",
+        "This information must be kept secret.",
+        "This decision should be taken quickly."
+      ],
+      "answer": "This decision should be taken quickly.",
+      "explanation": "Stated in the passage: \"This decision should be taken quickly.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"This information must be...\"?",
+      "options": [
+        "This notice should be read by every student.",
+        "This problem can be solved.",
+        "This project will be started next month.",
+        "This information must be kept secret."
+      ],
+      "answer": "This information must be kept secret.",
+      "explanation": "Stated in the passage: \"This information must be kept secret.\""
+    }
+  ]
+}

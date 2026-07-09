@@ -1,0 +1,114 @@
+{
+  "day": 45,
+  "topic": "Fond Of",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "They are fond of playing cricket.",
+      "hindiScript": "उन्हें cricket खेलना पसंद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He is fond of animals.",
+        "We are fond of watching movies.",
+        "He is fond of reading.",
+        "They are fond of playing cricket."
+      ],
+      "answer": "They are fond of playing cricket."
+    },
+    {
+      "id": 2,
+      "audioScript": "I am fond of reading books.",
+      "hindiScript": "मुझे किताबें पढ़ना पसंद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is fond of art.",
+        "They are fond of singing.",
+        "She is fond of swimming.",
+        "I am fond of reading books."
+      ],
+      "answer": "I am fond of reading books."
+    },
+    {
+      "id": 3,
+      "audioScript": "He is fond of cooking.",
+      "hindiScript": "वह खाना बनाने का शौकीन है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We are fond of exploring new places.",
+        "I am fond of nature.",
+        "We are fond of traveling.",
+        "He is fond of cooking."
+      ],
+      "answer": "He is fond of cooking."
+    },
+    {
+      "id": 4,
+      "audioScript": "She is fond of gardening.",
+      "hindiScript": "उसे बाग़बानी पसंद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They are fond of playing cricket.",
+        "He is fond of writing.",
+        "They are fond of sweets.",
+        "She is fond of gardening."
+      ],
+      "answer": "She is fond of gardening."
+    },
+    {
+      "id": 5,
+      "audioScript": "We are fond of watching movies.",
+      "hindiScript": "हमें फिल्में देखना पसंद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I am fond of reading books.",
+        "She is fond of learning new languages.",
+        "Are you fond of dancing?",
+        "We are fond of watching movies."
+      ],
+      "answer": "We are fond of watching movies."
+    },
+    {
+      "id": 6,
+      "audioScript": "They are fond of singing.",
+      "hindiScript": "उन्हें गाना गाना पसंद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He is fond of cooking.",
+        "We are fond of spending time together.",
+        "I am fond of photography.",
+        "They are fond of singing."
+      ],
+      "answer": "They are fond of singing."
+    },
+    {
+      "id": 7,
+      "audioScript": "I am fond of nature.",
+      "hindiScript": "मुझे प्रकृति बहुत पसंद है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is fond of gardening.",
+        "I am fond of music.",
+        "He is fond of animals.",
+        "I am fond of nature."
+      ],
+      "answer": "I am fond of nature."
+    },
+    {
+      "id": 8,
+      "audioScript": "He is fond of writing.",
+      "hindiScript": "वह लिखने का शौकीन है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We are fond of watching movies.",
+        "He is fond of reading.",
+        "She is fond of art.",
+        "He is fond of writing."
+      ],
+      "answer": "He is fond of writing."
+    }
+  ],
+  "dictationPassage": {
+    "text": "They are fond of playing cricket. I am fond of reading books. He is fond of cooking. She is fond of gardening. We are fond of watching movies.",
+    "hindiTranslation": "उन्हें cricket खेलना पसंद है। मुझे किताबें पढ़ना पसंद है। वह खाना बनाने का शौकीन है। उसे बाग़बानी पसंद है। हमें फिल्में देखना पसंद है।"
+  }
+}

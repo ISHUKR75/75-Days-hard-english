@@ -1,0 +1,46 @@
+{
+  "day": 49,
+  "topic": "Passive Voice Part 1 — Present & Past",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Passive Voice Part 1 — Present & Past.",
+      "hindiPrompt": "Passive Voice Part 1 — Present & Past का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "This book is read by me. This work is done by him. This letter was written by her. The food is cooked by mother. This house was built by my grandfather.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Passive Voice Part 1 — Present & Past.",
+      "hindiPrompt": "Passive Voice Part 1 — Present & Past का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "This song is sung by her. This question was asked by me. This photo is taken by me. This decision was taken by the team. This letter is delivered by the postman.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"यह गलती उसके द्वारा की गई।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "This mistake was made by him.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"The food are cooked by mother.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "The food is cooked by mother.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Passive Voice Part 1 — Present & Past.",
+      "hindiPrompt": "Passive Voice Part 1 — Present & Past का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "This book was written by the author. This project is completed by the team. This mistake was made by the students. These awards are given every year.",
+      "wordLimit": 60
+    }
+  ]
+}

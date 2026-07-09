@@ -1,0 +1,46 @@
+{
+  "day": 19,
+  "topic": "Must",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Must.",
+      "hindiPrompt": "Must का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "We must follow the rules. You must tell the truth. We must arrive on time. You must wear a seatbelt. He must be very tired.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Must.",
+      "hindiPrompt": "Must का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "We must obey the law. You must study carefully. This must be true. We must fulfill our responsibility. You must not smoke.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"उसे बहुत बुद्धिमान होना चाहिए।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "He must be very intelligent.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"You musts wear a seatbelt.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "You must wear a seatbelt.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Must.",
+      "hindiPrompt": "Must का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "You must fill this form. We must protect the environment. This must be a mistake. We must respect our parents.",
+      "wordLimit": 60
+    }
+  ]
+}

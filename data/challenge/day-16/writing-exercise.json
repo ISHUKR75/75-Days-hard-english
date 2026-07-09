@@ -1,0 +1,46 @@
+{
+  "day": 16,
+  "topic": "Can",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Can.",
+      "hindiPrompt": "Can का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I can swim. She can speak English. Can I go? They can do this work. We can meet tomorrow.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Can.",
+      "hindiPrompt": "Can का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Can you help me? I cannot do this. He can drive a car. Can you say that again? I can understand this.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"वे समय पर पहुँच सकते हैं।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "They can arrive on time.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"They cans do this work.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "They can do this work.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Can.",
+      "hindiPrompt": "Can का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "She can sing very well. We can complete this project. Can you come today? I can fix this.",
+      "wordLimit": 60
+    }
+  ]
+}

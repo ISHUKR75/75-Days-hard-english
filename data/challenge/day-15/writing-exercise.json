@@ -1,0 +1,46 @@
+{
+  "day": 15,
+  "topic": "Would Like To",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Would Like To.",
+      "hindiPrompt": "Would Like To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I would like to know this. I would like to meet you. She would like to ask something. We would like to have a coffee. They would like to travel.",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Would Like To.",
+      "hindiPrompt": "Would Like To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "Would you like to eat something? I would like to know more about this. He would like to give his opinion. We would like to take this opportunity. Would you like to sit down?",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"मैं धन्यवाद कहना चाहूँगा।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "I would like to say thank you.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"We would like to have a coffee yesterday.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "We would like to have a coffee.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Would Like To.",
+      "hindiPrompt": "Would Like To का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "We would like to work on this project. Would you like to drink something? I would like to apologize. They would like to discuss this topic.",
+      "wordLimit": 60
+    }
+  ]
+}

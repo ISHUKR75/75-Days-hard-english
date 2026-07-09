@@ -1,0 +1,287 @@
+{
+  "day": 41,
+  "topic": "Going To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मैं कल यह काम करने जा रहा हूँ।",
+      "english": "I am going to do this work tomorrow.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"I am going to do this work tomorrow.\"",
+      "difficulty": "easy",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 2,
+      "hindi": "वह डॉक्टर बनने जा रही है।",
+      "english": "She is going to become a doctor.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"She is going to become a doctor.\"",
+      "difficulty": "medium",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 3,
+      "hindi": "हम अगले महीने घर बदलने जा रहे हैं।",
+      "english": "We are going to change our house next month.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"We are going to change our house next month.\"",
+      "difficulty": "hard",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 4,
+      "hindi": "वे शादी करने जा रहे हैं।",
+      "english": "They are going to get married.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"They are going to get married.\"",
+      "difficulty": "easy",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 5,
+      "hindi": "क्या तुम आज बाहर जाने वाले हो?",
+      "english": "Are you going to go out today?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"Are you going to go out today?\"",
+      "difficulty": "medium",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 6,
+      "hindi": "मैं यह किताब खरीदने जा रहा हूँ।",
+      "english": "I am going to buy this book.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"I am going to buy this book.\"",
+      "difficulty": "hard",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 7,
+      "hindi": "वह अगले हफ्ते यात्रा करने जा रहा है।",
+      "english": "He is going to travel next week.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"He is going to travel next week.\"",
+      "difficulty": "easy",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 8,
+      "hindi": "हम एक नया business शुरू करने जा रहे हैं।",
+      "english": "We are going to start a new business.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"We are going to start a new business.\"",
+      "difficulty": "medium",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 9,
+      "hindi": "मैं इस बारे में सोचने जा रहा हूँ।",
+      "english": "I am going to think about this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"I am going to think about this.\"",
+      "difficulty": "hard",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 10,
+      "hindi": "वह यह project पूरा करने जा रही है।",
+      "english": "She is going to finish this project.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"She is going to finish this project.\"",
+      "difficulty": "easy",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 11,
+      "hindi": "क्या वे कल आने वाले हैं?",
+      "english": "Are they going to come tomorrow?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"Are they going to come tomorrow?\"",
+      "difficulty": "medium",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 12,
+      "hindi": "मैं आज रात जल्दी सोने जा रहा हूँ।",
+      "english": "I am going to sleep early tonight.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"I am going to sleep early tonight.\"",
+      "difficulty": "hard",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 13,
+      "hindi": "वह इंटरव्यू देने जा रहा है।",
+      "english": "He is going to give an interview.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"He is going to give an interview.\"",
+      "difficulty": "easy",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 14,
+      "hindi": "हम कल मूवी देखने जा रहे हैं।",
+      "english": "We are going to watch a movie tomorrow.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"We are going to watch a movie tomorrow.\"",
+      "difficulty": "medium",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 15,
+      "hindi": "मैं यह गलती नहीं दोहराने जा रहा।",
+      "english": "I am not going to repeat this mistake.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"I am not going to repeat this mistake.\"",
+      "difficulty": "hard",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 16,
+      "hindi": "वह अपना खुद का घर खरीदने जा रही है।",
+      "english": "She is going to buy her own house.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"She is going to buy her own house.\"",
+      "difficulty": "easy",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 17,
+      "hindi": "क्या तुम यह मौका लेने वाले हो?",
+      "english": "Are you going to take this opportunity?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"Are you going to take this opportunity?\"",
+      "difficulty": "medium",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 18,
+      "hindi": "हम इस समस्या को हल करने जा रहे हैं।",
+      "english": "We are going to solve this problem.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"We are going to solve this problem.\"",
+      "difficulty": "hard",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 19,
+      "hindi": "वे नई नौकरी ढूंढने जा रहे हैं।",
+      "english": "They are going to look for a new job.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"They are going to look for a new job.\"",
+      "difficulty": "easy",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    },
+    {
+      "id": 20,
+      "hindi": "मैं यह बात उसे बताने जा रहा हूँ।",
+      "english": "I am going to tell him this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + am/is/are + going to + base verb (planned future action)",
+      "explanation": "Correct sentence: \"I am going to tell him this.\"",
+      "difficulty": "medium",
+      "tags": [
+        "going"
+      ],
+      "grammarRule": "Going To",
+      "category": "Going To practice"
+    }
+  ]
+}

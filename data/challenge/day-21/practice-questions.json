@@ -1,0 +1,287 @@
+{
+  "day": 21,
+  "topic": "Used To",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मैं रोज़ स्कूल जाता था।",
+      "english": "I used to go to school daily.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"I used to go to school daily.\"",
+      "difficulty": "easy",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 2,
+      "hindi": "वह पहले सिगरेट पीता था।",
+      "english": "He used to smoke.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"He used to smoke.\"",
+      "difficulty": "medium",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 3,
+      "hindi": "हम गाँव में रहते थे।",
+      "english": "We used to live in a village.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"We used to live in a village.\"",
+      "difficulty": "hard",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 4,
+      "hindi": "वह क्रिकेट खेलती थी।",
+      "english": "She used to play cricket.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"She used to play cricket.\"",
+      "difficulty": "easy",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 5,
+      "hindi": "वे साथ में पढ़ते थे।",
+      "english": "They used to study together.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"They used to study together.\"",
+      "difficulty": "medium",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 6,
+      "hindi": "मैं पहले जल्दी सोता था।",
+      "english": "I used to sleep early.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"I used to sleep early.\"",
+      "difficulty": "hard",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 7,
+      "hindi": "क्या तुम पहले यहाँ रहते थे?",
+      "english": "Did you use to live here?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"Did you use to live here?\"",
+      "difficulty": "easy",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 8,
+      "hindi": "वह पहले बहुत शर्मीला था।",
+      "english": "He used to be very shy.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"He used to be very shy.\"",
+      "difficulty": "medium",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 9,
+      "hindi": "मैं यह गाना बहुत सुनता था।",
+      "english": "I used to listen to this song a lot.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"I used to listen to this song a lot.\"",
+      "difficulty": "hard",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 10,
+      "hindi": "वे हर हफ्ते मिलते थे।",
+      "english": "They used to meet every week.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"They used to meet every week.\"",
+      "difficulty": "easy",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 11,
+      "hindi": "मैं पहले फुटबॉल खेलता था।",
+      "english": "I used to play football.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"I used to play football.\"",
+      "difficulty": "medium",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 12,
+      "hindi": "वह पहले बहुत गुस्सा करती थी।",
+      "english": "She used to get angry a lot.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"She used to get angry a lot.\"",
+      "difficulty": "hard",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 13,
+      "hindi": "हम पहले बस से जाते थे।",
+      "english": "We used to go by bus.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"We used to go by bus.\"",
+      "difficulty": "easy",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 14,
+      "hindi": "मैं ऐसा नहीं करता था।",
+      "english": "I did not use to do this.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"I did not use to do this.\"",
+      "difficulty": "medium",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 15,
+      "hindi": "वह पहले जल्दी उठता था।",
+      "english": "He used to wake up early.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"He used to wake up early.\"",
+      "difficulty": "hard",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 16,
+      "hindi": "मैं पहले बहुत पढ़ता था।",
+      "english": "I used to study a lot.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"I used to study a lot.\"",
+      "difficulty": "easy",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 17,
+      "hindi": "वे पहले साथ काम करते थे।",
+      "english": "They used to work together.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"They used to work together.\"",
+      "difficulty": "medium",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 18,
+      "hindi": "क्या वह पहले यहाँ आता था?",
+      "english": "Did he use to come here?",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"Did he use to come here?\"",
+      "difficulty": "hard",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 19,
+      "hindi": "मैं पहले चाय नहीं पीता था।",
+      "english": "I did not use to drink tea.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"I did not use to drink tea.\"",
+      "difficulty": "easy",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    },
+    {
+      "id": 20,
+      "hindi": "हम पहले हर साल यात्रा करते थे।",
+      "english": "We used to travel every year.",
+      "alternatives": [],
+      "hint": "Use the pattern: Subject + used to + base verb (past habits/states that no longer happen)",
+      "explanation": "Correct sentence: \"We used to travel every year.\"",
+      "difficulty": "medium",
+      "tags": [
+        "used"
+      ],
+      "grammarRule": "Used To",
+      "category": "Used To practice"
+    }
+  ]
+}

@@ -1,0 +1,303 @@
+{
+  "day": 16,
+  "topic": "Can",
+  "totalQuestions": 24,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैं तैर सकता हूँ।",
+      "options": [
+        "He can drive a car.",
+        "Can you come today?",
+        "Can you show me the way?",
+        "I can swim."
+      ],
+      "answer": "I can swim.",
+      "explanation": "Correct translation: \"मैं तैर सकता हूँ।\" = \"I can swim.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "She can _____ English.",
+      "options": [
+        "that",
+        "this",
+        "any",
+        "speak"
+      ],
+      "answer": "speak",
+      "explanation": "Full sentence: \"She can speak English.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "Can I go? yesterday.",
+      "options": [
+        "Can I go? yesterday.",
+        "Can I go?"
+      ],
+      "answer": "Can I go?",
+      "explanation": "Correct sentence: \"Can I go?\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वे यह काम कर सकते हैं।",
+      "options": [
+        "They can arrive on time.",
+        "Can I sit here?",
+        "I can swim.",
+        "They can do this work."
+      ],
+      "answer": "They can do this work.",
+      "explanation": "Correct translation: \"वे यह काम कर सकते हैं।\" = \"They can do this work.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "We can _____ tomorrow.",
+      "options": [
+        "a",
+        "this",
+        "English",
+        "meet"
+      ],
+      "answer": "meet",
+      "explanation": "Full sentence: \"We can meet tomorrow.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "Can you help me? yesterday.",
+      "options": [
+        "Can you help me? yesterday.",
+        "Can you help me?"
+      ],
+      "answer": "Can you help me?",
+      "explanation": "Correct sentence: \"Can you help me?\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं यह नहीं कर सकता।",
+      "options": [
+        "We can complete this project.",
+        "I could not do this before.",
+        "They can do this work.",
+        "I cannot do this."
+      ],
+      "answer": "I cannot do this.",
+      "explanation": "Correct translation: \"मैं यह नहीं कर सकता।\" = \"I cannot do this.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "He can _____ a car.",
+      "options": [
+        "today",
+        "me",
+        "tomorrow",
+        "drive"
+      ],
+      "answer": "drive",
+      "explanation": "Full sentence: \"He can drive a car.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "Can you say that again? yesterday.",
+      "options": [
+        "Can you say that again? yesterday.",
+        "Can you say that again?"
+      ],
+      "answer": "Can you say that again?",
+      "explanation": "Correct sentence: \"Can you say that again?\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैं यह समझ सकता हूँ।",
+      "options": [
+        "He can learn any language.",
+        "We can work together.",
+        "I cannot do this.",
+        "I can understand this."
+      ],
+      "answer": "I can understand this.",
+      "explanation": "Correct translation: \"मैं यह समझ सकता हूँ।\" = \"I can understand this.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "They can _____ on time.",
+      "options": [
+        "here",
+        "swim",
+        "a",
+        "arrive"
+      ],
+      "answer": "arrive",
+      "explanation": "Full sentence: \"They can arrive on time.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "Can I ask a question? yesterday.",
+      "options": [
+        "Can I ask a question? yesterday.",
+        "Can I ask a question?"
+      ],
+      "answer": "Can I ask a question?",
+      "explanation": "Correct sentence: \"Can I ask a question?\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "वह बहुत अच्छा गाना गा सकती है।",
+      "options": [
+        "They can find a solution to any problem.",
+        "Can I go?",
+        "I can understand this.",
+        "She can sing very well."
+      ],
+      "answer": "She can sing very well.",
+      "explanation": "Correct translation: \"वह बहुत अच्छा गाना गा सकती है।\" = \"She can sing very well.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "We can _____ this project.",
+      "options": [
+        "do",
+        "this",
+        "on",
+        "complete"
+      ],
+      "answer": "complete",
+      "explanation": "Full sentence: \"We can complete this project.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "Can you come today? yesterday.",
+      "options": [
+        "Can you come today? yesterday.",
+        "Can you come today?"
+      ],
+      "answer": "Can you come today?",
+      "explanation": "Correct sentence: \"Can you come today?\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैं इसे ठीक कर सकता हूँ।",
+      "options": [
+        "She can repair any machine.",
+        "Can you help me?",
+        "She can sing very well.",
+        "I can fix this."
+      ],
+      "answer": "I can fix this.",
+      "explanation": "Correct translation: \"मैं इसे ठीक कर सकता हूँ।\" = \"I can fix this.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "He can _____ any language.",
+      "options": [
+        "together",
+        "this",
+        "do",
+        "learn"
+      ],
+      "answer": "learn",
+      "explanation": "Full sentence: \"He can learn any language.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "Can I sit here? yesterday.",
+      "options": [
+        "Can I sit here? yesterday.",
+        "Can I sit here?"
+      ],
+      "answer": "Can I sit here?",
+      "explanation": "Correct sentence: \"Can I sit here?\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "हम इसे बेहतर बना सकते हैं।",
+      "options": [
+        "She can speak English.",
+        "Can you say that again?",
+        "I can fix this.",
+        "We can make this better."
+      ],
+      "answer": "We can make this better.",
+      "explanation": "Correct translation: \"हम इसे बेहतर बना सकते हैं।\" = \"We can make this better.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "They can find a _____ to any problem.",
+      "options": [
+        "go",
+        "this",
+        "any",
+        "solution"
+      ],
+      "answer": "solution",
+      "explanation": "Full sentence: \"They can find a solution to any problem.\""
+    },
+    {
+      "id": 21,
+      "type": "error",
+      "sentence": "I could not do this before yesterday.",
+      "options": [
+        "I could not do this before yesterday.",
+        "I could not do this before."
+      ],
+      "answer": "I could not do this before.",
+      "explanation": "Correct sentence: \"I could not do this before.\""
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "क्या तुम मुझे रास्ता बता सकते हो?",
+      "options": [
+        "We can meet tomorrow.",
+        "Can I ask a question?",
+        "We can make this better.",
+        "Can you show me the way?"
+      ],
+      "answer": "Can you show me the way?",
+      "explanation": "Correct translation: \"क्या तुम मुझे रास्ता बता सकते हो?\" = \"Can you show me the way?\""
+    },
+    {
+      "id": 23,
+      "type": "fill",
+      "sentence": "She can _____ any machine.",
+      "options": [
+        "me",
+        "very",
+        "a",
+        "repair"
+      ],
+      "answer": "repair",
+      "explanation": "Full sentence: \"She can repair any machine.\""
+    },
+    {
+      "id": 24,
+      "type": "error",
+      "sentence": "We cans work together.",
+      "options": [
+        "We cans work together.",
+        "We can work together."
+      ],
+      "answer": "We can work together.",
+      "explanation": "Correct sentence: \"We can work together.\""
+    }
+  ]
+}

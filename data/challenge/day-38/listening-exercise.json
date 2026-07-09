@@ -1,0 +1,114 @@
+{
+  "day": 38,
+  "topic": "Has To / Have To",
+  "exercises": [
+    {
+      "id": 1,
+      "audioScript": "Does he have to come too?",
+      "hindiScript": "क्या उसे भी आना पड़ता है?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We have to fill the form.",
+        "You have to take permission.",
+        "He has to complete this work.",
+        "Does he have to come too?"
+      ],
+      "answer": "Does he have to come too?"
+    },
+    {
+      "id": 2,
+      "audioScript": "We have to pay tax.",
+      "hindiScript": "हमें टैक्स भरना पड़ता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You do not have to do this.",
+        "We have to follow safety rules.",
+        "We have to follow the rules.",
+        "We have to pay tax."
+      ],
+      "answer": "We have to pay tax."
+    },
+    {
+      "id": 3,
+      "audioScript": "I have to give this test.",
+      "hindiScript": "मुझे यह test देना पड़ता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She has to give proof.",
+        "She has to make this decision.",
+        "She has to wake up early every day.",
+        "I have to give this test."
+      ],
+      "answer": "I have to give this test."
+    },
+    {
+      "id": 4,
+      "audioScript": "He has to take medicine daily.",
+      "hindiScript": "उसे रोज़ दवा लेनी पड़ती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Does he have to come too?",
+        "I have to show my ID.",
+        "Do you have to do this?",
+        "He has to take medicine daily."
+      ],
+      "answer": "He has to take medicine daily."
+    },
+    {
+      "id": 5,
+      "audioScript": "You have to take permission.",
+      "hindiScript": "तुम्हें अनुमति लेनी पड़ती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We have to pay tax.",
+        "Do you have to pay fees?",
+        "He has to work very hard.",
+        "You have to take permission."
+      ],
+      "answer": "You have to take permission."
+    },
+    {
+      "id": 6,
+      "audioScript": "We have to follow safety rules.",
+      "hindiScript": "हमें सुरक्षा नियमों का पालन करना पड़ता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I have to give this test.",
+        "He has to take this responsibility.",
+        "I have to pay this money.",
+        "We have to follow safety rules."
+      ],
+      "answer": "We have to follow safety rules."
+    },
+    {
+      "id": 7,
+      "audioScript": "She has to make this decision.",
+      "hindiScript": "उसे यह decision लेना पड़ता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He has to take medicine daily.",
+        "I have to go to office every day.",
+        "We have to fill the form.",
+        "She has to make this decision."
+      ],
+      "answer": "She has to make this decision."
+    },
+    {
+      "id": 8,
+      "audioScript": "I have to show my ID.",
+      "hindiScript": "मुझे ID दिखानी पड़ती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You have to take permission.",
+        "He has to complete this work.",
+        "You do not have to do this.",
+        "I have to show my ID."
+      ],
+      "answer": "I have to show my ID."
+    }
+  ],
+  "dictationPassage": {
+    "text": "Does he have to come too? We have to pay tax. I have to give this test. He has to take medicine daily. You have to take permission.",
+    "hindiTranslation": "क्या उसे भी आना पड़ता है? हमें टैक्स भरना पड़ता है। मुझे यह test देना पड़ता है। उसे रोज़ दवा लेनी पड़ती है। तुम्हें अनुमति लेनी पड़ती है।"
+  }
+}

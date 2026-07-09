@@ -1,0 +1,287 @@
+{
+  "day": 47,
+  "topic": "Conjunctions (And, But, Or, So, Because, Although, While)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "hindi": "मैं चाय और कॉफी दोनों पीता हूँ।",
+      "english": "I drink both tea and coffee.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"I drink both tea and coffee.\"",
+      "difficulty": "easy",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 2,
+      "hindi": "मैं थका हुआ था, लेकिन मैंने काम पूरा किया।",
+      "english": "I was tired, but I finished the work.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"I was tired, but I finished the work.\"",
+      "difficulty": "medium",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 3,
+      "hindi": "क्या तुम चाय या कॉफी पीना चाहोगे?",
+      "english": "Would you like tea or coffee?",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"Would you like tea or coffee?\"",
+      "difficulty": "hard",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 4,
+      "hindi": "मुझे देर हो गई, इसलिए मैं जल्दी निकला।",
+      "english": "I was late, so I left quickly.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"I was late, so I left quickly.\"",
+      "difficulty": "easy",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 5,
+      "hindi": "मैं देर से आया क्योंकि ट्रैफिक था।",
+      "english": "I came late because there was traffic.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"I came late because there was traffic.\"",
+      "difficulty": "medium",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 6,
+      "hindi": "हालांकि वह थका हुआ था, वह काम करता रहा।",
+      "english": "Although he was tired, he kept working.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"Although he was tired, he kept working.\"",
+      "difficulty": "hard",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 7,
+      "hindi": "मैं खाना बना रहा था जबकि वह पढ़ रही थी।",
+      "english": "I was cooking while she was studying.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"I was cooking while she was studying.\"",
+      "difficulty": "easy",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 8,
+      "hindi": "वह smart और मेहनती है।",
+      "english": "She is smart and hardworking.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"She is smart and hardworking.\"",
+      "difficulty": "medium",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 9,
+      "hindi": "मुझे यह पसंद है, लेकिन यह महंगा है।",
+      "english": "I like this, but it is expensive.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"I like this, but it is expensive.\"",
+      "difficulty": "hard",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 10,
+      "hindi": "तुम अभी जा सकते हो या बाद में।",
+      "english": "You can go now or later.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"You can go now or later.\"",
+      "difficulty": "easy",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 11,
+      "hindi": "बारिश हो रही थी, इसलिए हम अंदर रुके।",
+      "english": "It was raining, so we stayed inside.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"It was raining, so we stayed inside.\"",
+      "difficulty": "medium",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 12,
+      "hindi": "वह सफल हुआ क्योंकि उसने मेहनत की।",
+      "english": "He succeeded because he worked hard.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"He succeeded because he worked hard.\"",
+      "difficulty": "hard",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 13,
+      "hindi": "हालांकि मौसम खराब था, हमने यात्रा की।",
+      "english": "Although the weather was bad, we traveled.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"Although the weather was bad, we traveled.\"",
+      "difficulty": "easy",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 14,
+      "hindi": "मैं पढ़ रहा था जबकि वह सो रहा था।",
+      "english": "I was studying while he was sleeping.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"I was studying while he was sleeping.\"",
+      "difficulty": "medium",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 15,
+      "hindi": "हम खुश और उत्साहित थे।",
+      "english": "We were happy and excited.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"We were happy and excited.\"",
+      "difficulty": "hard",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 16,
+      "hindi": "यह अच्छा है, लेकिन इसे बेहतर बनाया जा सकता है।",
+      "english": "This is good, but it can be improved.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"This is good, but it can be improved.\"",
+      "difficulty": "easy",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 17,
+      "hindi": "हम फिल्म देख सकते हैं या घर पर रह सकते हैं।",
+      "english": "We can watch a movie or stay at home.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"We can watch a movie or stay at home.\"",
+      "difficulty": "medium",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 18,
+      "hindi": "मुझे भूख लगी थी, इसलिए मैंने खाना खाया।",
+      "english": "I was hungry, so I ate food.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"I was hungry, so I ate food.\"",
+      "difficulty": "hard",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 19,
+      "hindi": "वह रोई क्योंकि वह दुखी थी।",
+      "english": "She cried because she was sad.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"She cried because she was sad.\"",
+      "difficulty": "easy",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    },
+    {
+      "id": 20,
+      "hindi": "हालांकि यह मुश्किल था, हमने कोशिश की।",
+      "english": "Although it was difficult, we tried.",
+      "alternatives": [],
+      "hint": "Use the pattern: Clause 1 + conjunction + Clause 2 (joining words, phrases, or sentences)",
+      "explanation": "Correct sentence: \"Although it was difficult, we tried.\"",
+      "difficulty": "medium",
+      "tags": [
+        "conjunctions"
+      ],
+      "grammarRule": "Conjunctions (And, But, Or, So, Because, Although, While)",
+      "category": "Conjunctions (And, But, Or, So, Because, Although, While) practice"
+    }
+  ]
+}

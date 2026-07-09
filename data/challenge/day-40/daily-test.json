@@ -1,0 +1,255 @@
+{
+  "day": 40,
+  "topic": "Make / Get (Causative and Common Usage)",
+  "totalQuestions": 20,
+  "questions": [
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मैंने उसे यह काम करने पर मजबूर किया।",
+      "options": [
+        "She gets her hair cut.",
+        "I am getting my house painted.",
+        "I got him to do this work.",
+        "I made him do this work."
+      ],
+      "answer": "I made him do this work.",
+      "explanation": "Correct translation: \"मैंने उसे यह काम करने पर मजबूर किया।\" = \"I made him do this work.\""
+    },
+    {
+      "id": 2,
+      "type": "fill",
+      "sentence": "I got him _____ do this work.",
+      "options": [
+        "us",
+        "decisions",
+        "car",
+        "to"
+      ],
+      "answer": "to",
+      "explanation": "Full sentence: \"I got him to do this work.\""
+    },
+    {
+      "id": 3,
+      "type": "error",
+      "sentence": "I gets my car repaired.",
+      "options": [
+        "I gets my car repaired.",
+        "I get my car repaired."
+      ],
+      "answer": "I get my car repaired.",
+      "explanation": "Correct sentence: \"I get my car repaired.\""
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "वह अच्छा खाना बनाती है।",
+      "options": [
+        "He always makes mistakes.",
+        "The boss made us work late.",
+        "I got this job.",
+        "She makes good food."
+      ],
+      "answer": "She makes good food.",
+      "explanation": "Correct translation: \"वह अच्छा खाना बनाती है।\" = \"She makes good food.\""
+    },
+    {
+      "id": 5,
+      "type": "fill",
+      "sentence": "I got _____ job.",
+      "options": [
+        "place",
+        "to",
+        "laugh",
+        "this"
+      ],
+      "answer": "this",
+      "explanation": "Full sentence: \"I got this job.\""
+    },
+    {
+      "id": 6,
+      "type": "error",
+      "sentence": "He made me laugh yesterday.",
+      "options": [
+        "He made me laugh yesterday.",
+        "He made me laugh."
+      ],
+      "answer": "He made me laugh.",
+      "explanation": "Correct sentence: \"He made me laugh.\""
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैंने उसे मानने के लिए राज़ी किया।",
+      "options": [
+        "I got him to understand.",
+        "I made him do this work.",
+        "She gets her hair cut.",
+        "I got him to agree."
+      ],
+      "answer": "I got him to agree.",
+      "explanation": "Correct translation: \"मैंने उसे मानने के लिए राज़ी किया।\" = \"I got him to agree.\""
+    },
+    {
+      "id": 8,
+      "type": "fill",
+      "sentence": "She gets _____ hair cut.",
+      "options": [
+        "my",
+        "to",
+        "us",
+        "her"
+      ],
+      "answer": "her",
+      "explanation": "Full sentence: \"She gets her hair cut.\""
+    },
+    {
+      "id": 9,
+      "type": "error",
+      "sentence": "The teacher made us stay quiet yesterday.",
+      "options": [
+        "The teacher made us stay quiet yesterday.",
+        "The teacher made us stay quiet."
+      ],
+      "answer": "The teacher made us stay quiet.",
+      "explanation": "Correct sentence: \"The teacher made us stay quiet.\""
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मैं अपना homework पूरा करवाता हूँ।",
+      "options": [
+        "I got this answer.",
+        "She makes good food.",
+        "He always makes mistakes.",
+        "I get my homework done."
+      ],
+      "answer": "I get my homework done.",
+      "explanation": "Correct translation: \"मैं अपना homework पूरा करवाता हूँ।\" = \"I get my homework done.\""
+    },
+    {
+      "id": 11,
+      "type": "fill",
+      "sentence": "He always _____ mistakes.",
+      "options": [
+        "us",
+        "job",
+        "place",
+        "makes"
+      ],
+      "answer": "makes",
+      "explanation": "Full sentence: \"He always makes mistakes.\""
+    },
+    {
+      "id": 12,
+      "type": "error",
+      "sentence": "I got that place yesterday.",
+      "options": [
+        "I got that place yesterday.",
+        "I got that place."
+      ],
+      "answer": "I got that place.",
+      "explanation": "Correct sentence: \"I got that place.\""
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "उसने मुझे रुकने पर मजबूर किया।",
+      "options": [
+        "I get my clothes washed.",
+        "I got him to agree.",
+        "I got him to understand.",
+        "She made me stop."
+      ],
+      "answer": "She made me stop.",
+      "explanation": "Correct translation: \"उसने मुझे रुकने पर मजबूर किया।\" = \"She made me stop.\""
+    },
+    {
+      "id": 14,
+      "type": "fill",
+      "sentence": "I got _____ to understand.",
+      "options": [
+        "do",
+        "hair",
+        "my",
+        "him"
+      ],
+      "answer": "him",
+      "explanation": "Full sentence: \"I got him to understand.\""
+    },
+    {
+      "id": 15,
+      "type": "error",
+      "sentence": "I am getting my house painted yesterday.",
+      "options": [
+        "I am getting my house painted yesterday.",
+        "I am getting my house painted."
+      ],
+      "answer": "I am getting my house painted.",
+      "explanation": "Correct sentence: \"I am getting my house painted.\""
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "वह अच्छे फैसले लेता है।",
+      "options": [
+        "I get my car repaired.",
+        "I get my homework done.",
+        "I got this answer.",
+        "He makes good decisions."
+      ],
+      "answer": "He makes good decisions.",
+      "explanation": "Correct translation: \"वह अच्छे फैसले लेता है।\" = \"He makes good decisions.\""
+    },
+    {
+      "id": 17,
+      "type": "fill",
+      "sentence": "I got _____ answer.",
+      "options": [
+        "food",
+        "mistakes",
+        "us",
+        "this"
+      ],
+      "answer": "this",
+      "explanation": "Full sentence: \"I got this answer.\""
+    },
+    {
+      "id": 18,
+      "type": "error",
+      "sentence": "The boss made us work late yesterday.",
+      "options": [
+        "The boss made us work late yesterday.",
+        "The boss made us work late."
+      ],
+      "answer": "The boss made us work late.",
+      "explanation": "Correct sentence: \"The boss made us work late.\""
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मैंने उसे मदद करने के लिए राज़ी किया।",
+      "options": [
+        "He made me laugh.",
+        "She made me stop.",
+        "I get my clothes washed.",
+        "I got him to help."
+      ],
+      "answer": "I got him to help.",
+      "explanation": "Correct translation: \"मैंने उसे मदद करने के लिए राज़ी किया।\" = \"I got him to help.\""
+    },
+    {
+      "id": 20,
+      "type": "fill",
+      "sentence": "I get _____ clothes washed.",
+      "options": [
+        "to",
+        "do",
+        "hair",
+        "my"
+      ],
+      "answer": "my",
+      "explanation": "Full sentence: \"I get my clothes washed.\""
+    }
+  ]
+}

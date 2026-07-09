@@ -1,0 +1,107 @@
+{
+  "day": 46,
+  "topic": "Able To",
+  "passage": {
+    "title": "A Day with Able To",
+    "text": "I am able to do this work. She is able to run fast. I was able to complete this yesterday. We will be able to finish this by tomorrow. He was able to solve this problem. Are you able to understand this? I was able to learn this. They will be able to achieve this target. We are able to work together. He was not able to swim before.",
+    "hindiTranslation": "मैं यह काम कर पाता हूँ। वह तेज़ दौड़ पाती है। मैं कल यह पूरा कर पाया। हम कल तक यह खत्म कर पाएंगे। वह इस समस्या को हल कर पाया। क्या तुम यह समझ पाते हो? मैं यह सीख पाया। वे इस target को हासिल कर पाएंगे। हम एक साथ काम कर पाते हैं। वह पहले तैर नहीं पाता था।"
+  },
+  "comprehensionQuestions": [
+    {
+      "id": 1,
+      "question": "What does the passage say about: \"I am able to...\"?",
+      "options": [
+        "They will be able to achieve this target.",
+        "They will be able to get this opportunity.",
+        "She is able to run fast.",
+        "I am able to do this work."
+      ],
+      "answer": "I am able to do this work.",
+      "explanation": "Stated in the passage: \"I am able to do this work.\""
+    },
+    {
+      "id": 2,
+      "question": "What does the passage say about: \"She is able to...\"?",
+      "options": [
+        "We are able to work together.",
+        "I was not able to understand this before.",
+        "I was able to complete this yesterday.",
+        "She is able to run fast."
+      ],
+      "answer": "She is able to run fast.",
+      "explanation": "Stated in the passage: \"She is able to run fast.\""
+    },
+    {
+      "id": 3,
+      "question": "What does the passage say about: \"I was able to...\"?",
+      "options": [
+        "He was not able to swim before.",
+        "Will he be able to complete this?",
+        "We will be able to finish this by tomorrow.",
+        "I was able to complete this yesterday."
+      ],
+      "answer": "I was able to complete this yesterday.",
+      "explanation": "Stated in the passage: \"I was able to complete this yesterday.\""
+    },
+    {
+      "id": 4,
+      "question": "What does the passage say about: \"We will be able...\"?",
+      "options": [
+        "Will you be able to do this on time?",
+        "We were able to accept this challenge.",
+        "He was able to solve this problem.",
+        "We will be able to finish this by tomorrow."
+      ],
+      "answer": "We will be able to finish this by tomorrow.",
+      "explanation": "Stated in the passage: \"We will be able to finish this by tomorrow.\""
+    },
+    {
+      "id": 5,
+      "question": "What does the passage say about: \"He was able to...\"?",
+      "options": [
+        "I was able to fix this.",
+        "She is able to make quick decisions.",
+        "Are you able to understand this?",
+        "He was able to solve this problem."
+      ],
+      "answer": "He was able to solve this problem.",
+      "explanation": "Stated in the passage: \"He was able to solve this problem.\""
+    },
+    {
+      "id": 6,
+      "question": "What does the passage say about: \"Are you able to...\"?",
+      "options": [
+        "She is able to learn any language.",
+        "I was able to do this difficult work today.",
+        "I was able to learn this.",
+        "Are you able to understand this?"
+      ],
+      "answer": "Are you able to understand this?",
+      "explanation": "Stated in the passage: \"Are you able to understand this?\""
+    },
+    {
+      "id": 7,
+      "question": "What does the passage say about: \"I was able to...\"?",
+      "options": [
+        "We were able to correct our mistake.",
+        "I am able to do this work.",
+        "They will be able to achieve this target.",
+        "I was able to learn this."
+      ],
+      "answer": "I was able to learn this.",
+      "explanation": "Stated in the passage: \"I was able to learn this.\""
+    },
+    {
+      "id": 8,
+      "question": "What does the passage say about: \"They will be able...\"?",
+      "options": [
+        "They will be able to get this opportunity.",
+        "She is able to run fast.",
+        "We are able to work together.",
+        "They will be able to achieve this target."
+      ],
+      "answer": "They will be able to achieve this target.",
+      "explanation": "Stated in the passage: \"They will be able to achieve this target.\""
+    }
+  ]
+}

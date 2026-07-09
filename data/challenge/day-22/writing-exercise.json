@@ -1,0 +1,46 @@
+{
+  "day": 22,
+  "topic": "Could",
+  "tasks": [
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "prompt": "Write 5 original English sentences using Could.",
+      "hindiPrompt": "Could का उपयोग करते हुए 5 नए वाक्य लिखिए।",
+      "sampleAnswer": "I could swim when I was a child. Could you help me? He could run fast before. It could be true. Could I ask a question?",
+      "wordLimit": 60
+    },
+    {
+      "id": 2,
+      "type": "paragraph-writing",
+      "prompt": "Write a short paragraph (5-6 lines) using Could.",
+      "hindiPrompt": "Could का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
+      "sampleAnswer": "I could not do this before. They could handle it before. Could you tell me again? It could rain. I could read this book.",
+      "wordLimit": 80
+    },
+    {
+      "id": 3,
+      "type": "translation",
+      "prompt": "Translate into English: \"वह पहले गाना गा सकती थी।\"",
+      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "She could sing before.",
+      "wordLimit": 20
+    },
+    {
+      "id": 4,
+      "type": "correction",
+      "prompt": "Correct this sentence: \"It coulds be true.\"",
+      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
+      "sampleAnswer": "It could be true.",
+      "wordLimit": 20
+    },
+    {
+      "id": 5,
+      "type": "dialogue-writing",
+      "prompt": "Write a short 4-line dialogue using Could.",
+      "hindiPrompt": "Could का उपयोग करते हुए एक संवाद लिखिए।",
+      "sampleAnswer": "We could work together before. This could be a mistake. Could you close the door? He could learn any language.",
+      "wordLimit": 60
+    }
+  ]
+}
