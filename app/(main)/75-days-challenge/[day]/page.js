@@ -10,7 +10,7 @@
 // ============================================================
 
 import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
-import useGamificationStore from '@/store/useGamificationStore';
+import { useGamificationStore } from '@/store/useGamificationStore';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -581,13 +581,15 @@ export default function DayPage() {
                       {id === 'milestones' && (
                         <MilestonesSection
                           milestones={data?.milestones}
+                          dayNum={dayNum}
+                          completedSections={completedSections}
                           onComplete={() => markSectionDone(id)}
                         />
                       )}
                       {id === 'challenge' && (
                         <ChallengeTaskSection
                           challenge={data?.challenge}
-                          playSound={playSound}
+                          dayNum={dayNum}
                           onComplete={() => markSectionDone(id)}
                         />
                       )}
@@ -864,7 +866,7 @@ function VocabularyMassive({ vocabulary, onComplete }) {
   const [cefrFilter, setCefrFilter] = useState('all');
   const [page, setPage] = useState(1);
   const [expandedWord, setExpandedWord] = useState(null);
-  const WORDS_PER_PAGE = 200; // Show 200 words per load for denser learning
+  const WORDS_PER_PAGE = 50; // Show 50 words per load — "Show All" button is prominent below
 
   // Get all unique CEFR levels
   const cefrLevels = ['all', ...new Set(allWords.map(w => w.cefrLevel).filter(Boolean))];
@@ -895,6 +897,25 @@ function VocabularyMassive({ vocabulary, onComplete }) {
         <div className="flex items-center gap-2 text-sm font-bold text-cyan-400 bg-cyan-500/10 px-4 py-2 rounded-full border border-cyan-500/20">
           <Hash size={14} /> {allWords.length} Words
         </div>
+      </div>
+
+      {/* Total Words Banner — always visible so users know the full bank is loaded */}
+      <div className="flex items-center gap-3 p-4 rounded-2xl bg-gradient-to-r from-cyan-500/10 to-blue-500/10 border border-cyan-500/20">
+        <div className="w-10 h-10 rounded-xl bg-cyan-500/20 flex items-center justify-center shrink-0">
+          <Hash size={18} className="text-cyan-400" />
+        </div>
+        <div className="flex-1 min-w-0">
+          <p className="font-bold text-white text-sm">
+            <span className="text-cyan-400 text-lg font-black">{allWords.length.toLocaleString()}</span> words loaded in this vocabulary bank
+          </p>
+          <p className="text-xs text-slate-400">IPA pronunciation · Hindi meanings · 6 sentence types · Synonyms · Antonyms · Verb forms · Usage notes</p>
+        </div>
+        <button
+          onClick={() => setPage(Math.ceil(filtered.length / WORDS_PER_PAGE))}
+          className="shrink-0 px-4 py-2 rounded-xl bg-cyan-600 hover:bg-cyan-500 text-white font-bold text-sm transition-all shadow-lg shadow-cyan-600/25"
+        >
+          Show All {filtered.length}
+        </button>
       </div>
 
       {/* Search + Filter Bar */}
@@ -943,10 +964,13 @@ function VocabularyMassive({ vocabulary, onComplete }) {
                     : "border-slate-700 bg-slate-800/50 hover:border-cyan-500/30"
                 )}
               >
-                {/* Word Card Header */}
-                <button
+                {/* Word Card Header — div instead of button to avoid nested-button warning */}
+                <div
+                  role="button"
+                  tabIndex={0}
                   onClick={() => setExpandedWord(isExpanded ? null : i)}
-                  className="w-full p-5 text-left group"
+                  onKeyDown={(e) => e.key === 'Enter' && setExpandedWord(isExpanded ? null : i)}
+                  className="w-full p-5 text-left group cursor-pointer"
                 >
                   <div className="flex items-start justify-between gap-3">
                     <div className="flex-1 min-w-0">
@@ -990,7 +1014,7 @@ function VocabularyMassive({ vocabulary, onComplete }) {
                       ))}
                     </div>
                   )}
-                </button>
+                </div>
 
                 {/* Expanded Detail View */}
                 <AnimatePresence>
@@ -3003,6 +3027,875 @@ function MockTestMCQ({ dayNum, mockTest, playSound, onComplete }) {
           )}
         </div>
       </div>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION 10: Overview — Teacher-Style Day Introduction
+// Uses overview.json: summary, whatYouWillLearn, whyImportant,
+// realLifeUsage, motivationalQuote, keyGrammarRules, practiceTarget
+// ============================================================
+function OverviewSection({ overview, onComplete }) {
+  const [activeTab, setActiveTab] = useState('intro');
+  const [revealedRules, setRevealedRules] = useState({});
+
+  const whyList = overview?.whyImportant
+    ? overview.whyImportant.split('।').map(s => s.trim()).filter(Boolean)
+    : [];
+  const usageList = overview?.realLifeUsage
+    ? (Array.isArray(overview.realLifeUsage)
+        ? overview.realLifeUsage
+        : overview.realLifeUsage.split('।').map(s => s.trim()).filter(Boolean))
+    : [];
+  const whatList = overview?.whatYouWillLearn || [];
+  const grammarRules = overview?.keyGrammarRules || [];
+
+  const ICON_COLORS = [
+    'text-violet-400', 'text-cyan-400', 'text-emerald-400', 'text-amber-400',
+    'text-rose-400', 'text-blue-400', 'text-pink-400', 'text-lime-400',
+    'text-orange-400', 'text-teal-400', 'text-indigo-400', 'text-red-400',
+  ];
+  const BG_COLORS = [
+    'bg-violet-500/10 border-violet-500/20', 'bg-cyan-500/10 border-cyan-500/20',
+    'bg-emerald-500/10 border-emerald-500/20', 'bg-amber-500/10 border-amber-500/20',
+    'bg-rose-500/10 border-rose-500/20', 'bg-blue-500/10 border-blue-500/20',
+    'bg-pink-500/10 border-pink-500/20', 'bg-lime-500/10 border-lime-500/20',
+    'bg-orange-500/10 border-orange-500/20', 'bg-teal-500/10 border-teal-500/20',
+    'bg-indigo-500/10 border-indigo-500/20', 'bg-red-500/10 border-red-500/20',
+  ];
+
+  const OVERVIEW_TABS = [
+    { id: 'intro',   label: 'Topic Intro',     icon: Sparkles },
+    { id: 'learn',   label: `Learn (${whatList.length})`, icon: BookOpen },
+    { id: 'why',     label: 'Why It Matters',  icon: Lightbulb },
+    { id: 'usage',   label: 'Real-Life Use',   icon: MessageSquare },
+    { id: 'grammar', label: `Grammar (${grammarRules.length})`, icon: Brain },
+  ];
+
+  if (!overview) {
+    return (
+      <div className="text-center py-12 space-y-4">
+        <Sparkles size={44} className="text-violet-400 mx-auto opacity-50" />
+        <p className="text-slate-400">Overview content loading...</p>
+        <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-violet-600 text-white font-bold">
+          Mark as Reviewed
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      {/* Hero Banner */}
+      <motion.div
+        initial={{ opacity: 0, y: 16 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-violet-600/25 via-purple-600/15 to-cyan-600/20 border border-violet-500/30 p-8"
+      >
+        {/* Background glow blobs */}
+        <div className="absolute -top-12 -right-12 w-48 h-48 rounded-full bg-violet-500/15 blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-8 -left-8 w-36 h-36 rounded-full bg-cyan-500/10 blur-2xl pointer-events-none" />
+
+        <div className="relative z-10 space-y-4">
+          {/* Day badge */}
+          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/20 border border-violet-500/30 text-violet-300 text-sm font-bold">
+            <Sparkles size={14} /> Day {overview.day} — Topic Overview
+          </div>
+
+          <div>
+            <h2 className="text-3xl md:text-4xl font-black text-white leading-tight">
+              {overview.title}
+            </h2>
+            <p className="text-lg text-violet-300 font-semibold mt-1 hindi-text">
+              {overview.tagline}
+            </p>
+          </div>
+
+          {/* Summary */}
+          <div className="grid md:grid-cols-2 gap-4">
+            <div className="rounded-2xl bg-white/5 border border-white/10 p-4">
+              <p className="text-xs font-bold text-violet-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                <BookOpen size={12} /> English Summary
+              </p>
+              <p className="text-slate-300 text-sm leading-relaxed">{overview.summary}</p>
+            </div>
+            <div className="rounded-2xl bg-white/5 border border-white/10 p-4">
+              <p className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+                <MessageSquare size={12} /> हिंदी में समझें
+              </p>
+              <p className="text-amber-200/90 text-sm leading-relaxed hindi-text">{overview.hindiSummary}</p>
+            </div>
+          </div>
+
+          {/* Stats Row */}
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
+            {[
+              { label: 'Daily Goal', value: overview.dailyGoal || '100+ sentences', icon: Target, color: 'text-emerald-400' },
+              { label: 'Topics to Master', value: `${whatList.length} concepts`, icon: Brain, color: 'text-cyan-400' },
+              { label: 'Practice Target', value: overview.practiceTarget || '400 Qs', icon: Zap, color: 'text-amber-400' },
+              { label: 'Grammar Rules', value: `${grammarRules.length} rules`, icon: BookMarked, color: 'text-rose-400' },
+            ].map(({ label, value, icon: Icon, color }) => (
+              <div key={label} className="rounded-xl bg-white/5 border border-white/8 p-3 text-center">
+                <Icon size={18} className={cn(color, 'mx-auto mb-1')} />
+                <p className="font-black text-white text-base">{value}</p>
+                <p className="text-xs text-slate-500 font-semibold">{label}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Motivational Quote */}
+      {overview.motivationalQuote && (
+        <motion.div
+          initial={{ opacity: 0, x: -12 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ delay: 0.15 }}
+          className="flex items-start gap-4 p-5 rounded-2xl bg-amber-500/8 border border-amber-500/20"
+        >
+          <div className="text-amber-400 text-5xl font-black leading-none mt-[-6px] shrink-0">&ldquo;</div>
+          <div>
+            <p className="text-amber-200 text-base font-semibold italic leading-relaxed">{overview.motivationalQuote}</p>
+            <p className="text-amber-500/70 text-xs font-bold mt-1.5 uppercase tracking-wider">— Teacher&apos;s Note</p>
+          </div>
+        </motion.div>
+      )}
+
+      {/* Tab Navigation */}
+      <div className="flex gap-1.5 flex-wrap">
+        {OVERVIEW_TABS.map(({ id, label, icon: Icon }) => (
+          <button
+            key={id}
+            onClick={() => setActiveTab(id)}
+            className={cn(
+              'flex items-center gap-1.5 px-4 py-2.5 rounded-xl text-sm font-bold transition-all border',
+              activeTab === id
+                ? 'bg-violet-500/20 border-violet-500/40 text-violet-300 shadow-md shadow-violet-500/10'
+                : 'bg-slate-800 border-slate-700 text-slate-400 hover:text-slate-300 hover:border-slate-600'
+            )}
+          >
+            <Icon size={14} /> {label}
+          </button>
+        ))}
+      </div>
+
+      {/* Tab: Topic Intro */}
+      {activeTab === 'intro' && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
+          <div className="rounded-2xl border border-violet-500/30 bg-violet-500/5 p-6 space-y-4">
+            <h4 className="text-lg font-black text-white flex items-center gap-2">
+              <Sparkles size={18} className="text-violet-400" />
+              Teacher&apos;s Introduction — Aaj Hum Kya Seekhenge?
+            </h4>
+            <p className="text-slate-300 leading-relaxed">
+              Namaskar! Aaj ka din aapki English journey ka ek khaas din hai. Ek acche teacher ki tarah main
+              aapko step-by-step samjhaunga ki aaj ka topic kyun important hai, aap kya seekhenge, aur
+              real life mein kaise use karenge.
+            </p>
+            <p className="text-slate-300 leading-relaxed">
+              <strong className="text-violet-300">Topic: {overview.title}</strong> — yeh English ka woh building block hai
+              jis par aage ke sabhi topics depend karte hain. Agar aaj ka foundation strong hua, toh
+              baaki 74 days bahut aasaan ho jayenge.
+            </p>
+            <div className="rounded-xl bg-slate-800 border border-slate-700 p-4 space-y-2">
+              <p className="text-xs font-bold text-violet-400 uppercase tracking-wider">📋 Aaj Aap Karenge:</p>
+              {[
+                `📖 Grammar theory padho — ${overview.title} ke rules deeply samjho`,
+                `📝 ${whatList.length} concepts master karo with examples`,
+                `🗣 Speaking drills — har sentence 3 baar zor se bolo`,
+                `✍️ Writing practice — kud se sentences banao`,
+                `🎧 Listening exercises — sunkar fill-in-the-blank`,
+                `📚 Reading comprehension — passages padho aur MCQ solve karo`,
+                `🔁 Revision quiz — aaj ka sara content revision karo`,
+                `🏆 Mock test — ${overview.practiceTarget || '400 questions'} available, apna level test karo`,
+              ].map((item, i) => (
+                <motion.p
+                  key={i}
+                  initial={{ opacity: 0, x: -8 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: i * 0.06 }}
+                  className="text-slate-300 text-sm"
+                >
+                  {item}
+                </motion.p>
+              ))}
+            </div>
+          </div>
+        </motion.div>
+      )}
+
+      {/* Tab: What You Will Learn */}
+      {activeTab === 'learn' && whatList.length > 0 && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-3">
+          <h4 className="text-lg font-black text-white flex items-center gap-2">
+            <BookOpen size={18} className="text-cyan-400" />
+            Aaj Aap Kya Seekhenge — {whatList.length} Concepts
+          </h4>
+          <div className="grid sm:grid-cols-2 gap-3">
+            {whatList.map((item, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.04 }}
+                className={cn('flex items-start gap-3 p-4 rounded-xl border', BG_COLORS[i % BG_COLORS.length])}
+              >
+                <div className={cn('w-6 h-6 rounded-full flex items-center justify-center text-xs font-black shrink-0 mt-0.5', ICON_COLORS[i % ICON_COLORS.length], 'bg-white/10')}>
+                  {i + 1}
+                </div>
+                <p className="text-slate-200 text-sm font-semibold leading-relaxed">{item}</p>
+              </motion.div>
+            ))}
+          </div>
+        </motion.div>
+      )}
+
+      {/* Tab: Why It Matters */}
+      {activeTab === 'why' && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
+          <h4 className="text-lg font-black text-white flex items-center gap-2">
+            <Lightbulb size={18} className="text-amber-400" />
+            Yeh Topic Kyun Important Hai?
+          </h4>
+          <div className="rounded-2xl border border-amber-500/30 bg-amber-500/5 p-6 space-y-4">
+            {whyList.length > 0 ? (
+              <ul className="space-y-4">
+                {whyList.map((point, i) => (
+                  <motion.li
+                    key={i}
+                    initial={{ opacity: 0, x: -10 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ delay: i * 0.08 }}
+                    className="flex items-start gap-3"
+                  >
+                    <div className="w-6 h-6 rounded-full bg-amber-500/20 border border-amber-500/30 flex items-center justify-center shrink-0 mt-0.5">
+                      <Zap size={12} className="text-amber-400" />
+                    </div>
+                    <p className="text-slate-300 text-sm leading-relaxed hindi-text">{point}</p>
+                  </motion.li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-slate-300 leading-relaxed hindi-text">{overview.whyImportant}</p>
+            )}
+          </div>
+          {/* Teacher tip */}
+          <div className="rounded-xl bg-slate-800/80 border border-slate-700 p-4 flex items-start gap-3">
+            <div className="w-8 h-8 rounded-full bg-violet-500/20 flex items-center justify-center shrink-0">
+              <Star size={16} className="text-violet-400" />
+            </div>
+            <div>
+              <p className="text-xs font-bold text-violet-400 uppercase tracking-wider mb-1">Teacher&apos;s Tip</p>
+              <p className="text-slate-300 text-sm leading-relaxed">
+                Jo students is topic ko seriously lete hain, woh bakiyon se 3x faster progress karte hain.
+                Aaj jo time invest karoge, woh poore 75 days payoff dega.
+              </p>
+            </div>
+          </div>
+        </motion.div>
+      )}
+
+      {/* Tab: Real-Life Usage */}
+      {activeTab === 'usage' && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-4">
+          <h4 className="text-lg font-black text-white flex items-center gap-2">
+            <MessageSquare size={18} className="text-emerald-400" />
+            Real Life Mein Kaise Use Karein?
+          </h4>
+          <div className="rounded-2xl border border-emerald-500/30 bg-emerald-500/5 p-6 space-y-3">
+            {usageList.length > 0 ? (
+              usageList.map((usage, i) => (
+                <motion.div
+                  key={i}
+                  initial={{ opacity: 0, y: 6 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: i * 0.08 }}
+                  className="flex items-start gap-3"
+                >
+                  <CheckCircle2 size={16} className="text-emerald-400 shrink-0 mt-0.5" />
+                  <p className="text-slate-300 text-sm leading-relaxed hindi-text">{usage}</p>
+                </motion.div>
+              ))
+            ) : (
+              <p className="text-slate-300 leading-relaxed hindi-text">{overview.realLifeUsage}</p>
+            )}
+          </div>
+          {/* Scenarios */}
+          <div className="grid sm:grid-cols-3 gap-3">
+            {[
+              { label: 'Office / Work', icon: '💼', desc: 'Meetings, emails, presentations mein' },
+              { label: 'Daily Life', icon: '🏠', desc: 'Shopping, travel, conversations mein' },
+              { label: 'Exams / Interviews', icon: '🎯', desc: 'Job interviews aur competitive exams mein' },
+            ].map(({ label, icon, desc }) => (
+              <div key={label} className="rounded-xl bg-slate-800 border border-slate-700 p-4 text-center">
+                <div className="text-3xl mb-2">{icon}</div>
+                <p className="font-bold text-white text-sm">{label}</p>
+                <p className="text-xs text-slate-500 mt-1">{desc}</p>
+              </div>
+            ))}
+          </div>
+        </motion.div>
+      )}
+
+      {/* Tab: Grammar Rules Preview */}
+      {activeTab === 'grammar' && grammarRules.length > 0 && (
+        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="space-y-3">
+          <h4 className="text-lg font-black text-white flex items-center gap-2">
+            <Brain size={18} className="text-rose-400" />
+            Key Grammar Rules — {grammarRules.length} Rules at a Glance
+          </h4>
+          <div className="space-y-3">
+            {grammarRules.map((rule, i) => (
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 8 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ delay: i * 0.06 }}
+                className="rounded-xl bg-slate-800 border border-slate-700 overflow-hidden"
+              >
+                <button
+                  onClick={() => setRevealedRules(prev => ({ ...prev, [i]: !prev[i] }))}
+                  className="w-full flex items-center justify-between p-4 text-left"
+                >
+                  <div className="flex items-center gap-3">
+                    <span className="w-7 h-7 rounded-lg bg-rose-500/20 flex items-center justify-center text-xs font-black text-rose-400 shrink-0">
+                      {i + 1}
+                    </span>
+                    <span className="font-bold text-white text-sm">
+                      {typeof rule === 'object' ? (rule.rule || rule.title || JSON.stringify(rule)) : rule}
+                    </span>
+                  </div>
+                  <ChevronDown size={16} className={cn('text-slate-500 transition-transform', revealedRules[i] && 'rotate-180')} />
+                </button>
+                <AnimatePresence>
+                  {revealedRules[i] && typeof rule === 'object' && rule.example && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: 'auto', opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      className="overflow-hidden"
+                    >
+                      <div className="px-4 pb-4 space-y-2 border-t border-slate-700">
+                        <p className="text-emerald-300 text-sm font-semibold mt-3">
+                          ✅ Example: <span className="text-white">{rule.example}</span>
+                        </p>
+                        {rule.hindiExplanation && (
+                          <p className="text-amber-200/80 text-sm hindi-text">{rule.hindiExplanation}</p>
+                        )}
+                        {rule.commonMistake && (
+                          <p className="text-red-300 text-sm">
+                            ❌ Common Mistake: <span>{rule.commonMistake}</span>
+                          </p>
+                        )}
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </motion.div>
+            ))}
+          </div>
+          <p className="text-xs text-slate-500 text-center">
+            Yeh sirf preview hai — poore explanations ke liye &ldquo;Grammar Concept&rdquo; section dekho
+          </p>
+        </motion.div>
+      )}
+
+      {/* Complete Button */}
+      <motion.button
+        whileHover={{ scale: 1.01, y: -2 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-violet-600 to-purple-500 hover:from-violet-500 hover:to-purple-400 text-white font-bold text-lg transition-all shadow-xl shadow-violet-500/25 flex items-center justify-center gap-2"
+      >
+        <CheckCircle2 size={20} /> Overview Complete — Concept Section Par Jao → +50 XP
+      </motion.button>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION 11: Study Plan — Daily Morning Routine
+// Uses morning-routine.json: step-by-step daily schedule
+// with time estimates and completion tracking
+// ============================================================
+function StudyPlanSection({ studyPlan, morningRoutine, onComplete }) {
+  const steps = morningRoutine?.steps || studyPlan?.steps || [];
+  const [completedSteps, setCompletedSteps] = useState({});
+  const [activeStep, setActiveStep] = useState(0);
+
+  const toggleStep = (i) => {
+    setCompletedSteps(prev => ({ ...prev, [i]: !prev[i] }));
+  };
+
+  const completedCount = Object.values(completedSteps).filter(Boolean).length;
+  const totalTime = steps.reduce((acc, s) => acc + (s.duration || 0), 0);
+  const completedTime = steps.reduce((acc, s, i) => acc + (completedSteps[i] ? (s.duration || 0) : 0), 0);
+
+  const STEP_ICONS = [BookOpen, Brain, Hash, Zap, Volume2, PenTool, Headphones, BookMarked, Star, Trophy];
+  const STEP_COLORS = [
+    'border-violet-500/40 bg-violet-500/10',
+    'border-cyan-500/40 bg-cyan-500/10',
+    'border-emerald-500/40 bg-emerald-500/10',
+    'border-amber-500/40 bg-amber-500/10',
+    'border-rose-500/40 bg-rose-500/10',
+  ];
+  const STEP_TEXT_COLORS = [
+    'text-violet-400', 'text-cyan-400', 'text-emerald-400', 'text-amber-400', 'text-rose-400',
+  ];
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <div className="rounded-2xl bg-gradient-to-br from-emerald-600/20 to-cyan-600/15 border border-emerald-500/30 p-6 space-y-4">
+        <div className="flex items-center justify-between gap-4 flex-wrap">
+          <div>
+            <h3 className="text-xl font-black text-white flex items-center gap-2">
+              <Clock size={20} className="text-emerald-400" /> Aaj Ka Study Plan
+            </h3>
+            <p className="text-sm text-slate-400 mt-0.5">
+              {morningRoutine?.topic || studyPlan?.topic || 'Daily Learning Routine'} — {steps.length} steps
+            </p>
+          </div>
+          <div className="flex items-center gap-3">
+            <div className="text-center">
+              <p className="text-2xl font-black text-emerald-400">{completedCount}/{steps.length}</p>
+              <p className="text-xs text-slate-500 font-bold">Steps Done</p>
+            </div>
+            <div className="text-center">
+              <p className="text-2xl font-black text-cyan-400">{totalTime}m</p>
+              <p className="text-xs text-slate-500 font-bold">Total Time</p>
+            </div>
+          </div>
+        </div>
+        {/* Progress */}
+        <div className="space-y-1.5">
+          <div className="flex justify-between text-xs font-bold text-slate-400">
+            <span>{completedTime} min done</span>
+            <span>{totalTime - completedTime} min remaining</span>
+          </div>
+          <div className="h-3 bg-slate-800 rounded-full overflow-hidden">
+            <motion.div
+              className="h-full bg-gradient-to-r from-emerald-500 to-cyan-400"
+              initial={{ width: 0 }}
+              animate={{ width: `${steps.length > 0 ? (completedCount / steps.length) * 100 : 0}%` }}
+              transition={{ duration: 0.5 }}
+            />
+          </div>
+        </div>
+      </div>
+
+      {/* Tip Banner */}
+      <div className="flex items-start gap-3 p-4 rounded-xl bg-amber-500/8 border border-amber-500/20">
+        <Lightbulb size={18} className="text-amber-400 shrink-0 mt-0.5" />
+        <p className="text-amber-200/90 text-sm leading-relaxed">
+          <strong className="font-bold">Teacher&apos;s Advice:</strong> Har step ko seriously lo. 10 minute ka focused study,
+          1 hour ke distracted study se better hai। Mobile notifications band karo aur start karo।
+        </p>
+      </div>
+
+      {/* Steps */}
+      <div className="space-y-3">
+        {steps.map((step, i) => {
+          const Icon = STEP_ICONS[i % STEP_ICONS.length];
+          const isDone = completedSteps[i];
+          const isActive = activeStep === i && !isDone;
+          return (
+            <motion.div
+              key={i}
+              initial={{ opacity: 0, x: -10 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: i * 0.06 }}
+              className={cn(
+                'rounded-2xl border p-5 transition-all cursor-pointer',
+                isDone
+                  ? 'border-emerald-500/40 bg-emerald-500/8 opacity-80'
+                  : isActive
+                  ? STEP_COLORS[i % STEP_COLORS.length]
+                  : 'border-slate-700 bg-slate-800/50 hover:border-slate-600'
+              )}
+              onClick={() => setActiveStep(i)}
+            >
+              <div className="flex items-center gap-4">
+                <div className={cn(
+                  'w-12 h-12 rounded-xl flex items-center justify-center shrink-0 transition-all',
+                  isDone ? 'bg-emerald-500/20' : STEP_COLORS[i % STEP_COLORS.length]
+                )}>
+                  {isDone
+                    ? <CheckCircle2 size={22} className="text-emerald-400" />
+                    : <Icon size={22} className={STEP_TEXT_COLORS[i % STEP_TEXT_COLORS.length]} />
+                  }
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="text-xs font-black text-slate-500">STEP {i + 1}</span>
+                    <span className={cn('text-xs font-bold px-2 py-0.5 rounded-full', isDone ? 'bg-emerald-500/15 text-emerald-400' : 'bg-slate-700 text-slate-400')}>
+                      {step.duration}m
+                    </span>
+                  </div>
+                  <p className={cn('font-black text-base mt-0.5', isDone ? 'text-emerald-300 line-through decoration-emerald-500/50' : 'text-white')}>
+                    {step.title}
+                  </p>
+                  <p className="text-sm text-slate-400 mt-0.5 leading-relaxed">{step.description}</p>
+                </div>
+                <button
+                  onClick={(e) => { e.stopPropagation(); toggleStep(i); }}
+                  className={cn(
+                    'w-8 h-8 rounded-lg border-2 flex items-center justify-center shrink-0 transition-all',
+                    isDone
+                      ? 'border-emerald-500 bg-emerald-500 text-white'
+                      : 'border-slate-600 hover:border-emerald-500 text-transparent hover:text-emerald-500'
+                  )}
+                >
+                  <CheckCircle2 size={16} />
+                </button>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+
+      {/* Complete Button */}
+      <button
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-emerald-600 to-cyan-500 hover:from-emerald-500 hover:to-cyan-400 text-white font-bold text-lg transition-all shadow-lg shadow-emerald-500/25 flex items-center justify-center gap-2"
+      >
+        <CheckCircle2 size={20} /> Study Plan Reviewed — +50 XP
+      </button>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION 12: Milestones — Badges & Achievement Tracker
+// Uses milestones.json: list of milestone objects with XP rewards,
+// badge icons, and completion criteria
+// ============================================================
+function MilestonesSection({ milestones: milestonesData, dayNum, completedSections, onComplete }) {
+  const milestones = milestonesData?.milestones || [];
+  const [claimedBadges, setClaimedBadges] = useState({});
+  const totalXP = milestones.reduce((sum, m) => sum + (m.xp || 0), 0);
+  const claimedXP = milestones.reduce((sum, m, i) => sum + (claimedBadges[i] ? (m.xp || 0) : 0), 0);
+
+  const BADGE_EMOJIS = {
+    'lesson-complete': '📖',
+    'vocab-master': '📝',
+    'practice-champion': '🏋️',
+    'test-passed': '🎓',
+    'speaking-star': '🎤',
+    'writing-wizard': '✍️',
+    'listening-legend': '🎧',
+    'reading-rockstar': '📚',
+  };
+
+  const BADGE_COLORS = [
+    'from-violet-600/20 to-purple-600/20 border-violet-500/30',
+    'from-cyan-600/20 to-blue-600/20 border-cyan-500/30',
+    'from-emerald-600/20 to-green-600/20 border-emerald-500/30',
+    'from-amber-600/20 to-orange-600/20 border-amber-500/30',
+    'from-rose-600/20 to-pink-600/20 border-rose-500/30',
+  ];
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <div className="rounded-2xl bg-gradient-to-br from-amber-600/20 to-orange-600/15 border border-amber-500/30 p-6">
+        <div className="flex items-center justify-between gap-4 flex-wrap">
+          <div>
+            <h3 className="text-xl font-black text-white flex items-center gap-2">
+              <Trophy size={20} className="text-amber-400" /> Day {dayNum} Milestones
+            </h3>
+            <p className="text-sm text-slate-400 mt-0.5">Badges earn karo aur XP collect karo</p>
+          </div>
+          <div className="flex items-center gap-3">
+            <div className="text-center">
+              <p className="text-2xl font-black text-amber-400">{claimedXP}</p>
+              <p className="text-xs text-slate-500 font-bold">XP Earned</p>
+            </div>
+            <div className="text-center">
+              <p className="text-2xl font-black text-slate-400">{totalXP}</p>
+              <p className="text-xs text-slate-500 font-bold">Total XP</p>
+            </div>
+          </div>
+        </div>
+        {/* XP Progress */}
+        <div className="mt-4 h-3 bg-slate-800 rounded-full overflow-hidden">
+          <motion.div
+            className="h-full bg-gradient-to-r from-amber-500 to-orange-400"
+            initial={{ width: 0 }}
+            animate={{ width: `${totalXP > 0 ? (claimedXP / totalXP) * 100 : 0}%` }}
+            transition={{ duration: 0.6 }}
+          />
+        </div>
+      </div>
+
+      {/* Milestone Cards */}
+      <div className="grid gap-4">
+        {milestones.map((milestone, i) => {
+          const emoji = BADGE_EMOJIS[milestone.badge] || '🏆';
+          const isClaimed = claimedBadges[i];
+          return (
+            <motion.div
+              key={milestone.id || i}
+              initial={{ opacity: 0, y: 10 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: i * 0.08 }}
+              className={cn(
+                'rounded-2xl border bg-gradient-to-br p-5 transition-all',
+                BADGE_COLORS[i % BADGE_COLORS.length],
+                isClaimed && 'opacity-75'
+              )}
+            >
+              <div className="flex items-center gap-4">
+                <div className="relative">
+                  <div className={cn(
+                    'w-16 h-16 rounded-2xl flex items-center justify-center text-3xl shrink-0 transition-all',
+                    isClaimed ? 'bg-white/15 shadow-lg' : 'bg-white/8'
+                  )}>
+                    {emoji}
+                  </div>
+                  {isClaimed && (
+                    <div className="absolute -top-1.5 -right-1.5 w-6 h-6 rounded-full bg-emerald-500 flex items-center justify-center">
+                      <CheckCircle2 size={14} className="text-white" />
+                    </div>
+                  )}
+                </div>
+                <div className="flex-1 min-w-0">
+                  <div className="flex items-center gap-2 mb-1 flex-wrap">
+                    <h4 className={cn('font-black text-base', isClaimed ? 'text-slate-400 line-through' : 'text-white')}>
+                      {milestone.title}
+                    </h4>
+                    <span className="px-2 py-0.5 rounded-full bg-amber-500/20 border border-amber-500/30 text-amber-300 text-xs font-black">
+                      +{milestone.xp} XP
+                    </span>
+                  </div>
+                  <p className="text-slate-400 text-sm leading-relaxed">{milestone.description}</p>
+                </div>
+                <button
+                  onClick={() => setClaimedBadges(prev => ({ ...prev, [i]: !prev[i] }))}
+                  className={cn(
+                    'shrink-0 px-4 py-2.5 rounded-xl font-bold text-sm transition-all border',
+                    isClaimed
+                      ? 'bg-emerald-500/15 border-emerald-500/30 text-emerald-400'
+                      : 'bg-white/8 border-white/15 text-white hover:bg-white/15'
+                  )}
+                >
+                  {isClaimed ? '✓ Claimed' : 'Claim'}
+                </button>
+              </div>
+            </motion.div>
+          );
+        })}
+      </div>
+
+      {/* All milestones note */}
+      <div className="rounded-xl bg-slate-800 border border-slate-700 p-4 flex items-start gap-3">
+        <Lightbulb size={16} className="text-amber-400 shrink-0 mt-0.5" />
+        <p className="text-slate-400 text-sm leading-relaxed">
+          <strong className="text-amber-300">Note:</strong> Milestones tab karo jab aap woh section complete karo.
+          Total <strong className="text-white">{totalXP} XP</strong> earn kar sakte ho aaj ke din mein.
+          Agar aaj ka content 100% complete kiya toh <strong className="text-amber-300">bonus XP</strong> milega!
+        </p>
+      </div>
+
+      <button
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-amber-600 to-orange-500 hover:from-amber-500 hover:to-orange-400 text-white font-bold text-lg transition-all shadow-lg shadow-amber-500/25 flex items-center justify-center gap-2"
+      >
+        <Trophy size={20} /> Milestones Reviewed — +50 XP
+      </button>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION 13: Challenge Task — Real-World Practice Mission
+// Uses challenge.json: challengeTask, successCriteria,
+// bonusChallenge, xpReward — tracks user acceptance
+// ============================================================
+function ChallengeTaskSection({ challenge, dayNum, onComplete }) {
+  const [accepted, setAccepted] = useState(false);
+  const [checkedCriteria, setCheckedCriteria] = useState({});
+  const [bonusAttempted, setBonusAttempted] = useState(false);
+
+  const successCriteria = challenge?.successCriteria || [];
+  const checkedCount = Object.values(checkedCriteria).filter(Boolean).length;
+  const allChecked = successCriteria.length > 0 && checkedCount === successCriteria.length;
+
+  const toggleCriteria = (i) => {
+    setCheckedCriteria(prev => ({ ...prev, [i]: !prev[i] }));
+  };
+
+  if (!challenge) {
+    return (
+      <div className="text-center py-10 space-y-4">
+        <Zap size={44} className="text-rose-400 mx-auto opacity-50" />
+        <p className="text-slate-400">Challenge content loading...</p>
+        <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-rose-600 text-white font-bold">
+          Mark Complete
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      {/* Hero Challenge Card */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.97 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="relative overflow-hidden rounded-3xl bg-gradient-to-br from-rose-600/25 via-pink-600/15 to-orange-600/20 border border-rose-500/30 p-8"
+      >
+        <div className="absolute -top-10 -right-10 w-40 h-40 rounded-full bg-rose-500/15 blur-3xl pointer-events-none" />
+        <div className="absolute -bottom-6 -left-6 w-32 h-32 rounded-full bg-orange-500/10 blur-2xl pointer-events-none" />
+        <div className="relative z-10 space-y-5">
+          <div className="flex items-center gap-3">
+            <div className="w-14 h-14 rounded-2xl bg-rose-500/20 border border-rose-500/30 flex items-center justify-center">
+              <Zap size={28} className="text-rose-400" />
+            </div>
+            <div>
+              <p className="text-xs font-black text-rose-400 uppercase tracking-widest">Day {dayNum} Challenge</p>
+              <h3 className="text-2xl font-black text-white">{challenge.topic}</h3>
+            </div>
+          </div>
+
+          {/* Challenge Task */}
+          <div className="rounded-2xl bg-white/8 border border-white/12 p-5 space-y-3">
+            <p className="text-xs font-bold text-rose-300 uppercase tracking-wider">🎯 Aaj Ka Challenge:</p>
+            <p className="text-white font-bold text-lg leading-relaxed">{challenge.challengeTask}</p>
+            <div className="border-t border-white/10 pt-3">
+              <p className="text-xs text-amber-400 font-bold mb-1">🇮🇳 Hindi mein:</p>
+              <p className="text-amber-200/90 text-sm leading-relaxed hindi-text">{challenge.hindiTask}</p>
+            </div>
+          </div>
+
+          {/* XP Reward */}
+          <div className="flex items-center gap-3">
+            <div className="flex items-center gap-2 px-4 py-2 rounded-xl bg-amber-500/15 border border-amber-500/25">
+              <Trophy size={16} className="text-amber-400" />
+              <span className="font-black text-amber-300 text-lg">+{challenge.xpReward || 200} XP</span>
+            </div>
+            <p className="text-slate-400 text-sm">Challenge complete karne par milega</p>
+          </div>
+
+          {/* Accept Button */}
+          {!accepted ? (
+            <motion.button
+              whileHover={{ scale: 1.02, y: -2 }}
+              whileTap={{ scale: 0.97 }}
+              onClick={() => setAccepted(true)}
+              className="w-full py-4 rounded-xl bg-gradient-to-r from-rose-600 to-pink-500 hover:from-rose-500 hover:to-pink-400 text-white font-black text-lg transition-all shadow-xl shadow-rose-500/25 flex items-center justify-center gap-2"
+            >
+              <Zap size={22} /> Challenge Accept Karo!
+            </motion.button>
+          ) : (
+            <div className="flex items-center gap-2 px-4 py-3 rounded-xl bg-emerald-500/15 border border-emerald-500/30">
+              <CheckCircle2 size={18} className="text-emerald-400" />
+              <span className="font-bold text-emerald-300">Challenge Accepted! Ab task complete karo.</span>
+            </div>
+          )}
+        </div>
+      </motion.div>
+
+      {/* Success Criteria Checklist */}
+      {successCriteria.length > 0 && (
+        <div className="space-y-4">
+          <div className="flex items-center justify-between gap-3">
+            <h4 className="font-black text-white flex items-center gap-2">
+              <CheckCircle2 size={18} className="text-emerald-400" />
+              Success Criteria — {checkedCount}/{successCriteria.length} Done
+            </h4>
+            {allChecked && (
+              <motion.span
+                initial={{ scale: 0 }}
+                animate={{ scale: 1 }}
+                className="px-3 py-1 rounded-full bg-emerald-500/20 border border-emerald-500/30 text-emerald-300 text-xs font-black"
+              >
+                🎉 ALL DONE!
+              </motion.span>
+            )}
+          </div>
+
+          <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
+            <motion.div
+              className="h-full bg-gradient-to-r from-emerald-500 to-cyan-400"
+              animate={{ width: `${successCriteria.length > 0 ? (checkedCount / successCriteria.length) * 100 : 0}%` }}
+              transition={{ duration: 0.4 }}
+            />
+          </div>
+
+          <div className="space-y-2">
+            {successCriteria.map((criteria, i) => (
+              <motion.button
+                key={i}
+                initial={{ opacity: 0, x: -8 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: i * 0.06 }}
+                onClick={() => toggleCriteria(i)}
+                className={cn(
+                  'w-full flex items-start gap-3 p-4 rounded-xl border text-left transition-all',
+                  checkedCriteria[i]
+                    ? 'border-emerald-500/40 bg-emerald-500/8'
+                    : 'border-slate-700 bg-slate-800/50 hover:border-slate-600'
+                )}
+              >
+                <div className={cn(
+                  'w-6 h-6 rounded-lg border-2 flex items-center justify-center shrink-0 mt-0.5 transition-all',
+                  checkedCriteria[i]
+                    ? 'border-emerald-500 bg-emerald-500 text-white'
+                    : 'border-slate-600'
+                )}>
+                  {checkedCriteria[i] && <CheckCircle2 size={14} />}
+                </div>
+                <p className={cn(
+                  'text-sm font-semibold leading-relaxed',
+                  checkedCriteria[i] ? 'text-slate-400 line-through decoration-emerald-500/40' : 'text-slate-200'
+                )}>
+                  {criteria}
+                </p>
+              </motion.button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Bonus Challenge */}
+      {challenge.bonusChallenge && (
+        <div className={cn(
+          'rounded-2xl border p-5 space-y-3 transition-all',
+          bonusAttempted
+            ? 'border-amber-500/40 bg-amber-500/8'
+            : 'border-slate-700 bg-slate-800/50'
+        )}>
+          <div className="flex items-center gap-2">
+            <Star size={18} className="text-amber-400" />
+            <h4 className="font-black text-white text-base">Bonus Challenge 🌟</h4>
+            <span className="ml-auto text-xs font-bold text-amber-400">+50 XP Extra</span>
+          </div>
+          <p className="text-slate-300 text-sm leading-relaxed">{challenge.bonusChallenge}</p>
+          <button
+            onClick={() => setBonusAttempted(v => !v)}
+            className={cn(
+              'px-5 py-2.5 rounded-xl font-bold text-sm transition-all border',
+              bonusAttempted
+                ? 'border-amber-500/40 bg-amber-500/15 text-amber-300'
+                : 'border-slate-600 bg-slate-700 text-white hover:border-amber-500/40 hover:bg-amber-500/10'
+            )}
+          >
+            {bonusAttempted ? '⭐ Bonus Attempted!' : 'Attempt Bonus Challenge'}
+          </button>
+        </div>
+      )}
+
+      {/* Complete Button */}
+      <motion.button
+        whileHover={{ scale: 1.01, y: -2 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-rose-600 to-orange-500 hover:from-rose-500 hover:to-orange-400 text-white font-black text-lg transition-all shadow-xl shadow-rose-500/25 flex items-center justify-center gap-2"
+      >
+        <Trophy size={20} /> Challenge Complete — +{challenge.xpReward || 200} XP
+      </motion.button>
     </div>
   );
 }

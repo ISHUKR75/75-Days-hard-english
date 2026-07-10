@@ -45,16 +45,16 @@ const getDailyQuote = () => {
 
 // ── Topic plan for the 75-day journey ────────────────────────
 const TOPIC_PLAN = [
-  { day: 1,  title: 'Basic Greetings',       icon: '👋', href: '/practice/day-1'  },
-  { day: 2,  title: 'Introductions',          icon: '🤝', href: '/practice/day-2'  },
-  { day: 3,  title: 'Numbers & Time',         icon: '🔢', href: '/practice/day-3'  },
-  { day: 4,  title: 'Colors & Shapes',        icon: '🎨', href: '/practice/day-4'  },
-  { day: 5,  title: 'Family Members',         icon: '👨‍👩‍👧', href: '/practice/day-5'  },
-  { day: 6,  title: 'Food & Drinks',          icon: '🍽️', href: '/practice/day-6'  },
-  { day: 7,  title: 'Daily Routine',          icon: '📅', href: '/practice/day-7'  },
-  { day: 8,  title: 'Weather & Seasons',      icon: '🌤️', href: '/practice/day-8'  },
-  { day: 9,  title: 'Shopping & Money',       icon: '🛍️', href: '/practice/day-9'  },
-  { day: 10, title: 'Travel & Directions',    icon: '🗺️', href: '/practice/day-10' },
+  { day: 1,  title: 'Basics of English',          icon: '📚', href: '/75-days-challenge/1'  },
+  { day: 2,  title: 'Self Introduction',           icon: '👋', href: '/75-days-challenge/2'  },
+  { day: 3,  title: 'Imperative Sentence',         icon: '⚡', href: '/75-days-challenge/3'  },
+  { day: 4,  title: 'Be Verb',                     icon: '🔤', href: '/75-days-challenge/4'  },
+  { day: 5,  title: 'Demonstrative Pronoun',       icon: '👉', href: '/75-days-challenge/5'  },
+  { day: 6,  title: 'Has / Have',                  icon: '✋', href: '/75-days-challenge/6'  },
+  { day: 7,  title: 'Had',                         icon: '⏮️', href: '/75-days-challenge/7'  },
+  { day: 8,  title: 'Will Have',                   icon: '🔮', href: '/75-days-challenge/8'  },
+  { day: 9,  title: 'Use of There',                icon: '📍', href: '/75-days-challenge/9'  },
+  { day: 10, title: 'Revision + Practice',         icon: '🔄', href: '/75-days-challenge/10' },
 ];
 
 // ── Skeleton loader ───────────────────────────────────────────
