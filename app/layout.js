@@ -1,12 +1,6 @@
-// Root Layout - The outermost wrapper for the entire application
-// Sets up fonts, metadata, and global providers
-
 import './globals.css';
 import Providers from '@/providers/Providers';
 
-// ============================================================
-// App Metadata
-// ============================================================
 export const metadata = {
   title: {
     default: '75 Days Hard English — The World\'s Most Advanced English Learning Platform',
@@ -47,25 +41,18 @@ export const viewport = {
   ],
 };
 
-// ============================================================
-// Root Layout
-// ============================================================
 export default function RootLayout({ children }) {
   return (
-    // lang="en" for accessibility; class="dark" sets default dark mode
     <html lang="en" className="dark" suppressHydrationWarning>
       <head>
-        {/* Preconnect to Google Fonts for faster loading */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        {/* Inter font — clean, professional, widely used */}
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
           rel="stylesheet"
         />
       </head>
-      <body className="font-sans antialiased bg-surface-950 text-slate-100 min-h-screen">
-        {/* Wrap everything in providers (theme, toasts, etc.) */}
+      <body className="font-sans antialiased bg-surface-950 text-slate-100 min-h-screen" suppressHydrationWarning>
         <Providers>
           {children}
         </Providers>
