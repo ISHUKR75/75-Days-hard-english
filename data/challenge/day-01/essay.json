@@ -1,189 +1,44 @@
 {
   "day": 1,
-  "title": "Essays — Basics of English",
-  "subtitle": "3 model essays written in Simple Present Tense — read, analyze, and learn",
-  "totalEssays": 3,
-  "description": "Ye essays Day 1 grammar (Simple Present Tense) ka natural use dikhate hain. Inhe padhkar grammar patterns samjho, phir apna essay likho!",
-  "howToUse": [
-    "Pehle essay padho aur vocabulary note karo",
-    "Grammar patterns identify karo (verb+s, don't/doesn't, etc.)",
-    "Hindi summary padho to verify your understanding",
-    "Comprehension questions answer karo",
-    "Phir similar topic par apna khud ka essay likho"
-  ],
-  "essays": [
-    {
-      "id": 1,
-      "title": "Why I Want to Learn English",
-      "level": "A1-A2",
-      "hindi_title": "मैं अंग्रेजी क्यों सीखना चाहता हूँ",
-      "wordCount": 280,
-      "text": "English is the most important language in the world today. More than 1.5 billion people speak English. It is the language of business, science, technology, and education. That is why I want to learn English.\n\nI am from India. Hindi is my mother tongue. I speak Hindi every day at home and with my friends. But when I go to a job interview, I need English. When I write an email to a client, I need English. When I watch an international movie or read an international book, I need English.\n\nMy dream is to become a software engineer at a big company. Many big companies in India — like Infosys, TCS, Wipro, and Google — conduct interviews in English. They expect their employees to communicate in English. Without English, it is hard to get a good job in these companies.\n\nI also want to travel the world. When I go to a new country, English helps me. The hotel staff speaks English. The airport announcements are in English. The menus in restaurants are in English. English connects me to the world.\n\nAnother reason I want to learn English is education. Many of the best books, research papers, and online courses are in English. If I understand English well, I can learn anything I want from anywhere in the world.\n\nI know learning English is not easy. It takes time and practice. But I am committed. I study every day. I speak English with my friends. I read English newspapers. I watch English shows.\n\nI believe that with hard work and dedication, I can speak English fluently. And when I do, I will have the world in my hands.",
-      "hindi_summary": "आज की दुनिया में अंग्रेजी सबसे महत्वपूर्ण भाषा है। मैं अंग्रेजी सीखना चाहता हूँ क्योंकि यह नौकरी, यात्रा, और शिक्षा के लिए ज़रूरी है।",
-      "grammarUsed": [
-        "Simple Present Tense throughout",
-        "Frequency adverbs: every day, often, always",
-        "Articles: a, an, the",
-        "I want to + V1 pattern",
-        "Do/Does questions"
-      ],
-      "keyVocabulary": [
-        "communicate",
-        "conduct",
-        "expect",
-        "dedicated",
-        "committed",
-        "fluently",
-        "international",
-        "announcement"
-      ],
-      "comprehension": [
-        {
-          "q": "How many people speak English?",
-          "a": "More than 1.5 billion people speak English.",
-          "type": "factual"
-        },
-        {
-          "q": "What is the writer's dream?",
-          "a": "To become a software engineer at a big company.",
-          "type": "factual"
-        },
-        {
-          "q": "Name three big Indian IT companies mentioned.",
-          "a": "Infosys, TCS, and Wipro.",
-          "type": "detail"
-        },
-        {
-          "q": "Why does the writer need English for travel?",
-          "a": "Hotel staff speaks English, airport announcements are in English, menus are in English.",
-          "type": "detail"
-        },
-        {
-          "q": "What does the writer do every day to improve English?",
-          "a": "Studies, speaks with friends, reads newspapers, watches shows.",
-          "type": "detail"
-        },
-        {
-          "q": "What does the writer mean by 'world in my hands'?",
-          "a": "He means he will have access to all opportunities worldwide.",
-          "type": "inference"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "My Daily Routine",
-      "level": "A1",
-      "hindi_title": "मेरी दिनचर्या",
-      "wordCount": 250,
-      "text": "I have a very organized daily routine. I believe that a good routine leads to a successful life. Let me describe my typical day.\n\nI wake up at 6 AM every morning. First, I brush my teeth and wash my face. Then I drink a glass of water. Drinking water in the morning is a good habit. It refreshes my body and mind.\n\nAfter that, I do yoga for 30 minutes. I practice different asanas. Yoga keeps my body flexible and my mind calm. Then I take a shower and get ready for the day.\n\nI eat breakfast at 7:30 AM. My mother usually makes paratha or poha. Sometimes I eat bread with eggs. I always drink a glass of milk with breakfast. Breakfast is the most important meal of the day.\n\nI leave home at 8:15 AM. I go to college by bus. The journey takes about 25 minutes. During the journey, I listen to English podcasts or read a book. I use this time productively.\n\nAt college, I attend classes from 9 AM to 4 PM. I pay attention in every class. I take notes and ask questions when I don't understand something. After college, I go to the library and study for one hour.\n\nI reach home at 6 PM. I eat snacks and rest for 30 minutes. Then I do my homework and practice English for one hour. I read English books or watch English movies.\n\nI eat dinner with my family at 8:30 PM. We talk about our day. After dinner, I read for 30 minutes and sleep at 10:30 PM.\n\nI never skip my routine. It keeps me disciplined and focused. I believe that small daily habits create big results.",
-      "hindi_summary": "मेरी एक organized दिनचर्या है। मैं सुबह 6 बजे उठता हूँ, yoga करता हूँ, college जाता हूँ, और रात 10:30 बजे सोता हूँ।",
-      "grammarUsed": [
-        "Simple Present for daily habits",
-        "Time expressions: at 6 AM, after that, then, finally",
-        "Frequency adverbs: always, usually, sometimes, never",
-        "Articles throughout"
-      ],
-      "keyVocabulary": [
-        "organized",
-        "routine",
-        "typical",
-        "productive",
-        "disciplined",
-        "focused",
-        "flexible",
-        "refreshes"
-      ],
-      "comprehension": [
-        {
-          "q": "What time does the writer wake up?",
-          "a": "At 6 AM every morning.",
-          "type": "factual"
-        },
-        {
-          "q": "How long does yoga take?",
-          "a": "30 minutes.",
-          "type": "factual"
-        },
-        {
-          "q": "How does the writer go to college?",
-          "a": "By bus.",
-          "type": "factual"
-        },
-        {
-          "q": "What does he do during the bus journey?",
-          "a": "He listens to English podcasts or reads a book.",
-          "type": "detail"
-        },
-        {
-          "q": "When does he eat dinner?",
-          "a": "At 8:30 PM with his family.",
-          "type": "factual"
-        },
-        {
-          "q": "What time does he sleep?",
-          "a": "At 10:30 PM.",
-          "type": "factual"
-        },
-        {
-          "q": "Why does the writer say small daily habits create big results?",
-          "a": "Because his consistent routine keeps him disciplined and helps him improve over time.",
-          "type": "inference"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "The Importance of Hard Work",
-      "level": "A2",
-      "hindi_title": "मेहनत का महत्व",
-      "wordCount": 300,
-      "text": "People often say: \"Hard work beats talent when talent doesn't work hard.\" I believe this is absolutely true. Hard work is the key to success in every field.\n\nLook at any successful person in the world. Sachin Tendulkar practices cricket for hours every day. A.P.J. Abdul Kalam studies science tirelessly. Sundar Pichai works hard and thinks creatively. None of them succeed because of luck alone. They succeed because they work hard, consistently, every single day.\n\nMany people want success, but they don't want to work for it. They dream of becoming rich, famous, or successful. But dreams without action are just wishes. Real success comes to those who work hard, even when it is difficult, even when they feel tired, even when no one is watching.\n\nHard work teaches us discipline. When we work hard every day, we develop a habit of discipline. We wake up on time. We complete our tasks. We do not procrastinate. Discipline is the foundation of all achievement.\n\nHard work also builds confidence. When I work hard and see results, I feel confident. I know that I can achieve more. This confidence pushes me to work even harder.\n\nFailure is part of hard work. Every person who works hard sometimes fails. But failure is not the end. It is a lesson. It teaches us what does not work. It shows us a better way. Successful people do not give up after failure. They try again, harder.\n\nI want to be a hard worker. Every day, I study English for two hours. I practice speaking. I read books. I do not skip. Some days are difficult, but I never give up.\n\nHard work is not always easy. But it is always worth it. The feeling of achieving your goal through hard work is the best feeling in the world.",
-      "hindi_summary": "मेहनत सफलता की कुंजी है। मेहनत हमें discipline, confidence, और resilience देती है। असली सफलता उन्हें मिलती है जो हर दिन मेहनत करते हैं।",
-      "grammarUsed": [
-        "Simple Present for general truths",
-        "Third person he/she + verb+s",
-        "Frequency: every day, consistently, always, sometimes, never",
-        "Articles and possessives"
-      ],
-      "keyVocabulary": [
-        "talent",
-        "consistently",
-        "procrastinate",
-        "discipline",
-        "confidence",
-        "achievement",
-        "foundation",
-        "failure",
-        "resilience"
-      ],
-      "comprehension": [
-        {
-          "q": "What does the quote at the beginning mean?",
-          "a": "Hard work is more important than natural talent if the talented person doesn't put in effort.",
-          "type": "inference"
-        },
-        {
-          "q": "Name two successful people mentioned and what they do.",
-          "a": "Sachin Tendulkar practices cricket; A.P.J. Abdul Kalam studies science.",
-          "type": "detail"
-        },
-        {
-          "q": "According to the essay, what are the two benefits of hard work?",
-          "a": "It builds discipline and confidence.",
-          "type": "detail"
-        },
-        {
-          "q": "What is the essay's view on failure?",
-          "a": "Failure is a lesson, not the end. Successful people try again after failure.",
-          "type": "detail"
-        },
-        {
-          "q": "What does the writer do every day?",
-          "a": "Studies English for two hours, practices speaking, reads books.",
-          "type": "factual"
-        }
-      ]
-    }
-  ]
+  "title": "Why English is Important for Our Life — Essay",
+  "level": "Simple English — A0 level vocabulary",
+  "teacherNote": "यह essay केवल उन grammar rules से बनाया गया है जो आपने Day 1 में सीखे हैं। इसे ध्यान से पढ़ें — grammar rules notice करें।",
+  "essay": {
+    "paragraphs": [
+      {
+        "title": "Introduction",
+        "content": "English is a global language. People all over the world speak English. In India, English is very important for education and jobs. Many companies want people who speak good English. If you speak English well, you can get better opportunities in life. That is why learning English is very important for us.",
+        "hindiTranslation": "English एक global language है। दुनिया भर के लोग English बोलते हैं। India में, English education और jobs के लिए बहुत ज़रूरी है। कई companies चाहती हैं कि लोग अच्छी English बोलें। अगर आप English अच्छी बोलते हैं, तो आपको ज़िंदगी में बेहतर opportunities मिल सकती हैं। इसीलिए हमारे लिए English सीखना बहुत ज़रूरी है।"
+      },
+      {
+        "title": "Benefits in Professional Life",
+        "content": "In office life, people use English every day. They write emails in English. They attend meetings in English. They speak to clients in English. If you do not know English, you may face many problems in your professional life. Many important documents, reports, and presentations are in English. So, a good command of English helps you to grow in your career.",
+        "hindiTranslation": "Office life में, लोग हर दिन English use करते हैं। वो English में emails लिखते हैं। वो English में meetings attend करते हैं। वो clients से English में बात करते हैं। अगर आप English नहीं जानते, तो आपको professional life में कई problems हो सकती हैं। बहुत से important documents, reports, और presentations English में होते हैं। इसलिए, English पर अच्छी command आपको career में grow करने में मदद करती है।"
+      },
+      {
+        "title": "Benefits in Daily Life",
+        "content": "English is also useful in daily life. When you travel, you need English to communicate. Many apps, websites, and technology use English. When you go to a doctor, bank, or government office, English is often useful. People who know English can access more information from the internet. They can watch English movies and understand them directly.",
+        "hindiTranslation": "English daily life में भी उपयोगी है। जब आप travel करते हैं, तो communicate करने के लिए English की ज़रूरत होती है। कई apps, websites, और technology English use करती हैं। जब आप doctor, bank, या government office जाते हैं, तो English अक्सर उपयोगी होती है। जो लोग English जानते हैं वो internet से ज़्यादा information access कर सकते हैं। वो English movies देख सकते हैं और directly समझ सकते हैं।"
+      },
+      {
+        "title": "How to Learn English",
+        "content": "Learning English is not difficult if you practice daily. You should speak English every day, even at home. You should read English books and newspapers. You should watch English movies with subtitles. You should write in English in a diary every day. The most important thing is — do not be afraid of making mistakes. Every mistake teaches you something. Keep practicing and you will definitely improve.",
+        "hindiTranslation": "English सीखना मुश्किल नहीं है अगर आप daily practice करते हैं। आपको रोज़ English बोलनी चाहिए, घर पर भी। आपको English books और newspapers पढ़ने चाहिए। आपको English movies subtitles के साथ देखनी चाहिए। आपको रोज़ एक diary में English में लिखना चाहिए। सबसे important बात यह है — गलतियाँ करने से डरो मत। हर गलती आपको कुछ सिखाती है। Practice करते रहो और आप definitely improve करोगे।"
+      },
+      {
+        "title": "Conclusion",
+        "content": "In conclusion, English is a very powerful language. It opens doors to better education, better jobs, and better opportunities. It connects us to the world. Starting today, I will practice English every day. I am determined to speak English fluently and confidently. This is my goal and I will achieve it.",
+        "hindiTranslation": "अंत में, English एक बहुत powerful language है। यह बेहतर education, बेहतर jobs, और बेहतर opportunities के दरवाज़े खोलती है। यह हमें दुनिया से जोड़ती है। आज से, मैं हर रोज़ English practice करूँगा। मैं fluently और confidently English बोलने के लिए दृढ़ निश्चयी हूँ। यह मेरा लक्ष्य है और मैं इसे achieve करूँगा।"
+      }
+    ],
+    "wordCount": "~300 words",
+    "grammarPointsCovered": [
+      "Simple Present",
+      "Should + base verb",
+      "Modal: can, will",
+      "If clauses (conditional)",
+      "Prepositions",
+      "Articles"
+    ]
+  }
 }

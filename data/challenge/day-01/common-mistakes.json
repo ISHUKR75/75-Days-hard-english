@@ -1,529 +1,357 @@
 {
   "day": 1,
-  "title": "Common Mistakes — Basics of English",
-  "subtitle": "Hindi speakers ki sabse common English galtiyan — aur unke sahi solutions",
-  "totalMistakes": 63,
-  "description": "Ye sab mistakes Hindi speakers karte hain. Har ek ko dhyan se padho aur yaad rakho. Practice mein inhe avoid karo.",
-  "categories": [
-    "Subject-Verb Agreement",
-    "Pronoun Errors",
-    "Article Errors",
-    "Tense Errors",
-    "Word Order Errors",
-    "Preposition Errors",
-    "Common Hindi Speaker Mistakes"
-  ],
+  "title": "Top 50 Common English Mistakes Hindi Speakers Make",
+  "teacherNote": "यह mistakes EVERY Hindi speaker करता है। इन्हें अच्छे से पढ़ो और याद रखो। अगर तुम इन 50 mistakes से बचना सीख गए, तो tumhari English 70% improve हो जाएगी।",
   "mistakes": [
     {
-      "wrong": "He don't know.",
-      "correct": "He doesn't know.",
-      "explanation": "He/She/It ke saath 'doesn't' use hota hai, 'don't' nahi",
-      "category": "SVA",
-      "difficulty": "beginner",
-      "mainCategory": "Subject-Verb Agreement"
-    },
-    {
-      "wrong": "She don't like it.",
-      "correct": "She doesn't like it.",
-      "explanation": "She ke saath 'doesn't'",
-      "category": "SVA",
-      "difficulty": "beginner",
-      "mainCategory": "Subject-Verb Agreement"
-    },
-    {
+      "id": 1,
       "wrong": "He go to school.",
       "correct": "He goes to school.",
-      "explanation": "He ke saath verb+s lagata hai (goes)",
-      "category": "SVA",
-      "difficulty": "beginner",
-      "mainCategory": "Subject-Verb Agreement"
+      "rule": "He/She/It + verb+s/es",
+      "category": "Subject-Verb Agreement"
     },
     {
-      "wrong": "She have a car.",
-      "correct": "She has a car.",
-      "explanation": "She ke saath 'has' (have ka special form)",
-      "category": "SVA",
-      "difficulty": "beginner",
-      "mainCategory": "Subject-Verb Agreement"
+      "id": 2,
+      "wrong": "She don't understand.",
+      "correct": "She doesn't understand.",
+      "rule": "She/He/It → doesn't, not don't",
+      "category": "Negation"
     },
     {
-      "wrong": "He don't eats.",
-      "correct": "He doesn't eat.",
-      "explanation": "Doesn't ke baad base verb (eat, not eats)",
-      "category": "SVA",
-      "difficulty": "beginner",
-      "mainCategory": "Subject-Verb Agreement"
+      "id": 3,
+      "wrong": "I am knowing the answer.",
+      "correct": "I know the answer.",
+      "rule": "Know = stative verb → Simple Present only",
+      "category": "Stative Verbs"
     },
     {
-      "wrong": "They comes late.",
-      "correct": "They come late.",
-      "explanation": "They ke saath verb mein 's' NAHI lagata",
-      "category": "SVA",
-      "difficulty": "beginner",
-      "mainCategory": "Subject-Verb Agreement"
+      "id": 4,
+      "wrong": "He have a car.",
+      "correct": "He has a car.",
+      "rule": "Have → Has with He/She/It",
+      "category": "Have/Has"
     },
     {
-      "wrong": "We goes to market.",
-      "correct": "We go to market.",
-      "explanation": "We ke saath base verb",
-      "category": "SVA",
-      "difficulty": "beginner",
-      "mainCategory": "Subject-Verb Agreement"
+      "id": 5,
+      "wrong": "She told to me.",
+      "correct": "She told me.",
+      "rule": "Tell + object (no 'to': tell someone, NOT tell to someone)",
+      "category": "Preposition Error"
     },
     {
-      "wrong": "I am working here since 5 years.",
-      "correct": "I have been working here for 5 years.",
-      "explanation": "Duration ke liye 'for', point of time ke liye 'since'. Present Perfect Continuous use hota hai.",
-      "category": "SVA",
-      "difficulty": "intermediate",
-      "mainCategory": "Subject-Verb Agreement"
+      "id": 6,
+      "wrong": "I am agree with you.",
+      "correct": "I agree with you.",
+      "rule": "'Agree' is a verb, not adjective — no 'am' before it",
+      "category": "Be Verb Misuse"
     },
     {
-      "wrong": "The team are playing well.",
-      "correct": "The team is playing well.",
-      "explanation": "Collective nouns (team, group, family) ke saath singular verb",
-      "category": "SVA",
-      "difficulty": "intermediate",
-      "mainCategory": "Subject-Verb Agreement"
+      "id": 7,
+      "wrong": "Please give me informations.",
+      "correct": "Please give me information.",
+      "rule": "Information = uncountable — no plural",
+      "category": "Uncountable Nouns"
     },
     {
-      "wrong": "Each students has to submit.",
-      "correct": "Each student has to submit.",
-      "explanation": "Each/Every ke saath singular noun",
-      "category": "SVA",
-      "difficulty": "intermediate",
-      "mainCategory": "Subject-Verb Agreement"
+      "id": 8,
+      "wrong": "She is more taller than me.",
+      "correct": "She is taller than me.",
+      "rule": "Don't use 'more' with -er comparatives — double comparative error",
+      "category": "Comparison"
     },
     {
-      "wrong": "Me and Ram went to market.",
-      "correct": "Ram and I went to market.",
-      "explanation": "Subject position mein 'I' use karo, 'Me' nahi. Aur pehle doosre ka naam lo!",
-      "category": "Pronouns",
-      "difficulty": "beginner",
-      "mainCategory": "Pronoun Errors"
-    },
-    {
-      "wrong": "Him and her went to school.",
-      "correct": "He and she went to school.",
-      "explanation": "Subject position mein subject pronouns (He, She)",
-      "category": "Pronouns",
-      "difficulty": "beginner",
-      "mainCategory": "Pronoun Errors"
-    },
-    {
-      "wrong": "Between you and I.",
-      "correct": "Between you and me.",
-      "explanation": "Preposition ke baad object pronoun use hota hai (me, not I)",
-      "category": "Pronouns",
-      "difficulty": "intermediate",
-      "mainCategory": "Pronoun Errors"
-    },
-    {
-      "wrong": "I is fine.",
-      "correct": "I am fine.",
-      "explanation": "I ke saath hamesha 'am' use hota hai, 'is' nahi",
-      "category": "Pronouns",
-      "difficulty": "beginner",
-      "mainCategory": "Pronoun Errors"
-    },
-    {
-      "wrong": "This is his bag. I like it's color.",
-      "correct": "This is his bag. I like its color.",
-      "explanation": "'Its' = possession (kisi cheez ka). 'It's' = it is (short form)",
-      "category": "Pronouns",
-      "difficulty": "intermediate",
-      "mainCategory": "Pronoun Errors"
-    },
-    {
-      "wrong": "The teacher told we students.",
-      "correct": "The teacher told us students.",
-      "explanation": "Verb ke baad object pronoun (us, not we)",
-      "category": "Pronouns",
-      "difficulty": "intermediate",
-      "mainCategory": "Pronoun Errors"
-    },
-    {
-      "wrong": "I am engineer.",
-      "correct": "I am an engineer.",
-      "explanation": "Profession ke pehle 'a' ya 'an' zaroor lagao. 'engineer' vowel se shuru = 'an'",
-      "category": "Articles",
-      "difficulty": "beginner",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "She is teacher.",
-      "correct": "She is a teacher.",
-      "explanation": "Singular countable noun ke pehle article zaroor lagao",
-      "category": "Articles",
-      "difficulty": "beginner",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "I went to hospital.",
-      "correct": "I went to the hospital.",
-      "explanation": "Specific well-known places ke pehle 'the' lagao",
-      "category": "Articles",
-      "difficulty": "beginner",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "The water is important for health.",
-      "correct": "Water is important for health.",
-      "explanation": "General statements mein uncountable nouns ke pehle 'the' nahi lagata",
-      "category": "Articles",
-      "difficulty": "intermediate",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "He plays the cricket.",
-      "correct": "He plays cricket.",
-      "explanation": "Sports ke pehle article nahi lagata",
-      "category": "Articles",
-      "difficulty": "beginner",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "She speaks the Hindi.",
-      "correct": "She speaks Hindi.",
-      "explanation": "Languages ke pehle 'the' nahi lagata",
-      "category": "Articles",
-      "difficulty": "beginner",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "I am feeling happy. The happiness is important.",
-      "correct": "Happiness is important.",
-      "explanation": "General/abstract nouns (general meaning mein) ke pehle 'the' nahi",
-      "category": "Articles",
-      "difficulty": "intermediate",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "He is best player.",
-      "correct": "He is the best player.",
-      "explanation": "Superlative adjectives ke pehle 'the' zaroori hai",
-      "category": "Articles",
-      "difficulty": "intermediate",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "Can I borrow pen?",
-      "correct": "Can I borrow a pen?",
-      "explanation": "Singular countable noun = 'a' or 'an' zaroori",
-      "category": "Articles",
-      "difficulty": "beginner",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "An university offers courses.",
-      "correct": "A university offers courses.",
-      "explanation": "'University' = 'yu' sound se shuru hota hai (consonant sound) = 'a' use karo",
-      "category": "Articles",
-      "difficulty": "intermediate",
-      "mainCategory": "Article Errors"
-    },
-    {
-      "wrong": "I am here since morning.",
-      "correct": "I have been here since morning.",
-      "explanation": "'Since' ke saath Perfect tense use hota hai",
-      "category": "Tense",
-      "difficulty": "intermediate",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "He is tired since yesterday.",
-      "correct": "He has been tired since yesterday.",
-      "explanation": "'Since' ke saath Present Perfect ya Perfect Continuous",
-      "category": "Tense",
-      "difficulty": "intermediate",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "I am knowing him for 5 years.",
-      "correct": "I have known him for 5 years.",
-      "explanation": "'Know', 'love', 'like', 'understand' — ye stative verbs hain, inhe '-ing' form mein use nahi karte",
-      "category": "Tense",
-      "difficulty": "intermediate",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "She is having a car.",
-      "correct": "She has a car.",
-      "explanation": "'Have' = possession ke liye — continuous form mein nahi",
-      "category": "Tense",
-      "difficulty": "intermediate",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "I am wanting coffee.",
-      "correct": "I want coffee.",
-      "explanation": "Stative verb 'want' — continuous form nahi",
-      "category": "Tense",
-      "difficulty": "intermediate",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "Yesterday I go to market.",
-      "correct": "Yesterday I went to market.",
-      "explanation": "Yesterday ke saath past tense (V2 form)",
-      "category": "Tense",
-      "difficulty": "beginner",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "I am study English.",
-      "correct": "I am studying English.",
-      "explanation": "Am/Is/Are ke baad V4 (-ing) form use karo",
-      "category": "Tense",
-      "difficulty": "beginner",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "He is work hard.",
-      "correct": "He is working hard.",
-      "explanation": "Is/Am/Are ke baad verb+-ing form use karo",
-      "category": "Tense",
-      "difficulty": "beginner",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "She goed to school.",
-      "correct": "She went to school.",
-      "explanation": "'Go' ka past tense 'went' hai (irregular verb)",
-      "category": "Tense",
-      "difficulty": "beginner",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "I have ate lunch.",
-      "correct": "I have eaten lunch.",
-      "explanation": "'Have/Has' ke baad V3 (Past Participle) form — 'eaten' not 'ate'",
-      "category": "Tense",
-      "difficulty": "intermediate",
-      "mainCategory": "Tense Errors"
-    },
-    {
-      "wrong": "I daily go to gym.",
-      "correct": "I go to gym daily.",
-      "explanation": "'Daily', 'always', 'usually' jaise adverbs ki position dhyan se rakho",
-      "category": "WordOrder",
-      "difficulty": "beginner",
-      "mainCategory": "Word Order Errors"
-    },
-    {
-      "wrong": "She beautiful is.",
-      "correct": "She is beautiful.",
-      "explanation": "English mein SVO order — verb pehle, adjective baad mein with 'is'",
-      "category": "WordOrder",
-      "difficulty": "beginner",
-      "mainCategory": "Word Order Errors"
-    },
-    {
-      "wrong": "Red big car.",
-      "correct": "Big red car.",
-      "explanation": "Adjectives ka order: Size → Color → Noun",
-      "category": "WordOrder",
-      "difficulty": "intermediate",
-      "mainCategory": "Word Order Errors"
-    },
-    {
-      "wrong": "I want that you come.",
-      "correct": "I want you to come.",
-      "explanation": "English mein 'want someone to do' pattern use hota hai",
-      "category": "WordOrder",
-      "difficulty": "intermediate",
-      "mainCategory": "Word Order Errors"
-    },
-    {
+      "id": 9,
       "wrong": "What you want?",
       "correct": "What do you want?",
-      "explanation": "Question mein Do/Does zaroor lagao",
-      "category": "WordOrder",
-      "difficulty": "beginner",
-      "mainCategory": "Word Order Errors"
+      "rule": "WH Questions need Do/Does",
+      "category": "Question Formation"
     },
     {
-      "wrong": "Where she lives?",
-      "correct": "Where does she live?",
-      "explanation": "WH question mein does + base verb ka order",
-      "category": "WordOrder",
-      "difficulty": "beginner",
-      "mainCategory": "Word Order Errors"
+      "id": 10,
+      "wrong": "I have 25 years.",
+      "correct": "I am 25 years old.",
+      "rule": "Age uses 'am/is/are ... old', NOT 'have'",
+      "category": "Age Expression"
     },
     {
-      "wrong": "He always is late.",
-      "correct": "He is always late.",
-      "explanation": "Frequency adverbs 'is/am/are' ke BAAD aate hain",
-      "category": "WordOrder",
-      "difficulty": "intermediate",
-      "mainCategory": "Word Order Errors"
+      "id": 11,
+      "wrong": "He is very much intelligent.",
+      "correct": "He is very intelligent.",
+      "rule": "'Very much' is used with verbs/nouns; 'very' with adjectives",
+      "category": "Adverb Misuse"
     },
     {
-      "wrong": "I am married with her.",
-      "correct": "I am married to her.",
-      "explanation": "'Married to' — 'with' nahi",
-      "category": "Prepositions",
-      "difficulty": "intermediate",
-      "mainCategory": "Preposition Errors"
+      "id": 12,
+      "wrong": "She explained me the topic.",
+      "correct": "She explained the topic to me.",
+      "rule": "'Explain' needs 'to': explain something to someone",
+      "category": "Preposition Error"
     },
     {
-      "wrong": "He is good in English.",
-      "correct": "He is good at English.",
-      "explanation": "Skills ke liye 'good at'",
-      "category": "Prepositions",
-      "difficulty": "intermediate",
-      "mainCategory": "Preposition Errors"
+      "id": 13,
+      "wrong": "My mother is cooking the food since morning.",
+      "correct": "My mother has been cooking since morning.",
+      "rule": "'Since' needs Present Perfect (Continuous)",
+      "category": "Tense Error"
     },
     {
-      "wrong": "She is afraid from dogs.",
-      "correct": "She is afraid of dogs.",
-      "explanation": "'Afraid of' — 'from' nahi",
-      "category": "Prepositions",
-      "difficulty": "intermediate",
-      "mainCategory": "Preposition Errors"
-    },
-    {
-      "wrong": "I am bored of this work.",
-      "correct": "I am bored with this work.",
-      "explanation": "'Bored with' ya 'bored by' — 'of' nahi (British English mein 'of' chalti hai but 'with' better hai)",
-      "category": "Prepositions",
-      "difficulty": "intermediate",
-      "mainCategory": "Preposition Errors"
-    },
-    {
-      "wrong": "He is interested in to learn English.",
-      "correct": "He is interested in learning English.",
-      "explanation": "Preposition ke baad V4 (-ing) form",
-      "category": "Prepositions",
-      "difficulty": "intermediate",
-      "mainCategory": "Preposition Errors"
-    },
-    {
-      "wrong": "Discuss about the topic.",
-      "correct": "Discuss the topic.",
-      "explanation": "'Discuss' already 'about' ka meaning contain karta hai — 'about' mat lagao",
-      "category": "Prepositions",
-      "difficulty": "intermediate",
-      "mainCategory": "Preposition Errors"
-    },
-    {
-      "wrong": "I reached to the station.",
-      "correct": "I reached the station.",
-      "explanation": "'Reach' ke baad 'to' nahi lagata (direct object)",
-      "category": "Prepositions",
-      "difficulty": "intermediate",
-      "mainCategory": "Preposition Errors"
-    },
-    {
-      "wrong": "I am having fever.",
-      "correct": "I have a fever.",
-      "explanation": "'Have a fever' = standard English. 'Having' yahan use nahi hota",
-      "category": "HindiInfluence",
-      "difficulty": "beginner",
-      "mainCategory": "Common Hindi Speaker Mistakes"
-    },
-    {
-      "wrong": "My name is Ram. What is your good name?",
-      "correct": "My name is Ram. What is your name?",
-      "explanation": "Hindi mein 'shubh naam' bolte hain but English mein simply 'name' — 'good name' sirf Indian English mein",
-      "category": "HindiInfluence",
-      "difficulty": "beginner",
-      "mainCategory": "Common Hindi Speaker Mistakes"
-    },
-    {
+      "id": 14,
       "wrong": "She is my cousin sister.",
       "correct": "She is my cousin.",
-      "explanation": "'Cousin' already brother ya sister include karta hai — 'sister' ya 'brother' extra mat lagao",
-      "category": "HindiInfluence",
-      "difficulty": "beginner",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "rule": "'Cousin' already means male/female — no need to add 'sister/brother'",
+      "category": "Redundancy"
     },
     {
-      "wrong": "I will call you on your number.",
-      "correct": "I will call you.",
-      "explanation": "'Call' ka matlab hi phone karna hai — 'on your number' extra hai",
-      "category": "HindiInfluence",
-      "difficulty": "beginner",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 15,
+      "wrong": "I didn't went there.",
+      "correct": "I didn't go there.",
+      "rule": "Didn't + base verb (not past form)",
+      "category": "Past Tense"
     },
     {
-      "wrong": "Do one thing.",
-      "correct": "Let me suggest something. / Here is an idea.",
-      "explanation": "'Do one thing' direct Hindi translation hai — English mein aise nahi bolte",
-      "category": "HindiInfluence",
-      "difficulty": "intermediate",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 16,
+      "wrong": "He is working in this office from 2020.",
+      "correct": "He has been working in this office since 2020.",
+      "rule": "Continuous action since a point → Present Perfect Continuous + since",
+      "category": "Tense Error"
     },
     {
-      "wrong": "Myself Ram Kumar.",
-      "correct": "I am Ram Kumar. / My name is Ram Kumar.",
-      "explanation": "'Myself' = apna introduction ka yeh tarika Hinglish hai — formal English mein 'I am' use karo",
-      "category": "HindiInfluence",
-      "difficulty": "beginner",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 17,
+      "wrong": "I want to tell you a doubt.",
+      "correct": "I want to ask you a question. / I have a doubt.",
+      "rule": "'Tell a doubt' is wrong — you ask questions or have doubts",
+      "category": "Vocabulary Misuse"
     },
     {
-      "wrong": "I am from Delhi only.",
-      "correct": "I am from Delhi.",
-      "explanation": "Hindi mein 'hi' lagaate hain (sirf Delhi se hi hoon) but English mein 'only' yahan fit nahi hota",
-      "category": "HindiInfluence",
-      "difficulty": "beginner",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 18,
+      "wrong": "She cut the vegetables with a knife.",
+      "correct": "She cut the vegetables with a knife. ✓",
+      "rule": "This is actually correct! 'With' for instrument/tool",
+      "category": "Correct (Don't change)"
     },
     {
-      "wrong": "He was not present because he was ill from yesterday.",
-      "correct": "He was not present because he had been ill since yesterday.",
-      "explanation": "'Since' ke saath perfect tense, aur 'ill from yesterday' nahi bolte",
-      "category": "HindiInfluence",
-      "difficulty": "intermediate",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 19,
+      "wrong": "Do you know where is the station?",
+      "correct": "Do you know where the station is?",
+      "rule": "Indirect questions: normal word order (no inversion)",
+      "category": "Indirect Questions"
     },
     {
-      "wrong": "I am here only.",
-      "correct": "I am right here.",
-      "explanation": "'Only' ka Hinglish influence — 'right here' better hai",
-      "category": "HindiInfluence",
-      "difficulty": "beginner",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 20,
+      "wrong": "Yesterday I have seen that movie.",
+      "correct": "Yesterday I saw that movie.",
+      "rule": "Past time marker (yesterday) → Simple Past (not Present Perfect)",
+      "category": "Tense Error"
     },
     {
-      "wrong": "Today's newspaper is come.",
-      "correct": "Today's newspaper has come.",
-      "explanation": "Hindi passive (aa gaya) ko English mein present perfect active se express karo",
-      "category": "HindiInfluence",
-      "difficulty": "intermediate",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 21,
+      "wrong": "He is more smarter than her.",
+      "correct": "He is smarter than her.",
+      "rule": "Double comparative error — 'more smarter' wrong",
+      "category": "Comparison"
     },
     {
-      "wrong": "I am facing problem.",
-      "correct": "I am facing a problem.",
-      "explanation": "Countable noun ke pehle article zaroor lagao",
-      "category": "HindiInfluence",
-      "difficulty": "beginner",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 22,
+      "wrong": "I will go at the market.",
+      "correct": "I will go to the market.",
+      "rule": "Movement direction uses 'to' (not 'at')",
+      "category": "Preposition"
     },
     {
-      "wrong": "He is out of station.",
-      "correct": "He is out of town. / He is traveling.",
-      "explanation": "'Out of station' sirf Indian English mein — standard mein 'out of town' ya 'traveling' bolte hain",
-      "category": "HindiInfluence",
-      "difficulty": "intermediate",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "id": 23,
+      "wrong": "She is very beautiful looking.",
+      "correct": "She looks very beautiful.",
+      "rule": "'Beautiful looking' is redundant — use 'looks beautiful' or 'very beautiful'",
+      "category": "Redundancy"
     },
     {
+      "id": 24,
+      "wrong": "I reached to the station.",
+      "correct": "I reached the station.",
+      "rule": "'Reach' doesn't need 'to' — reach = arrive at",
+      "category": "Preposition Error"
+    },
+    {
+      "id": 25,
+      "wrong": "They discussed about the problem.",
+      "correct": "They discussed the problem.",
+      "rule": "'Discuss' doesn't need 'about'",
+      "category": "Preposition Error"
+    },
+    {
+      "id": 26,
+      "wrong": "She is knowing Hindi.",
+      "correct": "She knows Hindi.",
+      "rule": "Stative verbs (know/love/have/understand) → Simple Present only",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 27,
+      "wrong": "I am not understand.",
+      "correct": "I don't understand.",
+      "rule": "'Understand' needs do/don't for negation — not am/isn't",
+      "category": "Negation"
+    },
+    {
+      "id": 28,
+      "wrong": "Open the door, isn't it?",
+      "correct": "Open the door, will you?",
+      "rule": "Imperative question tag = 'will you?' or 'won't you?'",
+      "category": "Question Tags"
+    },
+    {
+      "id": 29,
+      "wrong": "The scenery of this place are beautiful.",
+      "correct": "The scenery of this place is beautiful.",
+      "rule": "'Scenery' is uncountable → singular verb 'is'",
+      "category": "Subject-Verb Agreement"
+    },
+    {
+      "id": 30,
+      "wrong": "He is very much hungry.",
+      "correct": "He is very hungry.",
+      "rule": "'Very much' before adjectives is wrong — use 'very'",
+      "category": "Adverb"
+    },
+    {
+      "id": 31,
+      "wrong": "Both are not coming.",
+      "correct": "Neither of them is coming.",
+      "rule": "'Both...not' is wrong — use 'neither'",
+      "category": "Both/Neither"
+    },
+    {
+      "id": 32,
+      "wrong": "He said me that he was tired.",
+      "correct": "He told me that he was tired.",
+      "rule": "'Say to someone' OR 'tell someone' (NOT 'say me')",
+      "category": "Say vs Tell"
+    },
+    {
+      "id": 33,
+      "wrong": "I like very much English.",
+      "correct": "I like English very much.",
+      "rule": "'Very much' goes at the end of sentence",
+      "category": "Word Order"
+    },
+    {
+      "id": 34,
+      "wrong": "She is my real sister.",
+      "correct": "She is my sister.",
+      "rule": "'Real sister' is redundant in most contexts",
+      "category": "Redundancy"
+    },
+    {
+      "id": 35,
+      "wrong": "I have a doubt on this topic.",
+      "correct": "I have a question about this topic.",
+      "rule": "'Doubt about' not 'doubt on'; better: have a question",
+      "category": "Preposition"
+    },
+    {
+      "id": 36,
+      "wrong": "He is eldest than me.",
+      "correct": "He is older than me.",
+      "rule": "'Eldest' is superlative (used with 'the'); 'older' for comparison",
+      "category": "Comparison"
+    },
+    {
+      "id": 37,
+      "wrong": "Can you able to come?",
+      "correct": "Are you able to come? / Can you come?",
+      "rule": "'Can' and 'able to' both mean same — use one",
+      "category": "Modal Misuse"
+    },
+    {
+      "id": 38,
+      "wrong": "She has fair complexion.",
+      "correct": "She has a fair complexion.",
+      "rule": "Countable noun needs article",
+      "category": "Articles"
+    },
+    {
+      "id": 39,
+      "wrong": "I am having headache.",
+      "correct": "I have a headache.",
+      "rule": "'Have' for possession/state → Simple Present; no continuous",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 40,
+      "wrong": "They are resembling each other.",
+      "correct": "They resemble each other.",
+      "rule": "'Resemble' is stative → Simple Present",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 41,
+      "wrong": "She is belonging to this club.",
+      "correct": "She belongs to this club.",
+      "rule": "'Belong' is stative → Simple Present",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 42,
+      "wrong": "Its raining outside.",
+      "correct": "It's raining outside.",
+      "rule": "It's = It is; Its = possession. Different meaning!",
+      "category": "Its vs It's"
+    },
+    {
+      "id": 43,
       "wrong": "I will revert back to you.",
-      "correct": "I will get back to you.",
-      "explanation": "'Revert' already 'back' include karta hai — 'revert back' redundant hai",
-      "category": "HindiInfluence",
-      "difficulty": "intermediate",
-      "mainCategory": "Common Hindi Speaker Mistakes"
+      "correct": "I will revert to you.",
+      "rule": "'Revert' already means 'to come back' — 'back' is redundant",
+      "category": "Redundancy"
+    },
+    {
+      "id": 44,
+      "wrong": "Please do the needful.",
+      "correct": "Please do what is required. / Please take necessary action.",
+      "rule": "'Do the needful' is an outdated Indian English expression — avoid in professional contexts",
+      "category": "Indian English"
+    },
+    {
+      "id": 45,
+      "wrong": "I am out of station.",
+      "correct": "I am out of town. / I am traveling.",
+      "rule": "'Out of station' is Indian English — international English uses 'out of town'",
+      "category": "Indian English"
+    },
+    {
+      "id": 46,
+      "wrong": "Myself John.",
+      "correct": "I am John. / My name is John.",
+      "rule": "'Myself' used alone as subject is wrong — very common Indian English error",
+      "category": "Pronoun Misuse"
+    },
+    {
+      "id": 47,
+      "wrong": "He is very genius.",
+      "correct": "He is a genius.",
+      "rule": "'Genius' is a noun, not adjective — cannot use 'very' with it directly",
+      "category": "Parts of Speech"
+    },
+    {
+      "id": 48,
+      "wrong": "She has lot of knowledge.",
+      "correct": "She has a lot of knowledge.",
+      "rule": "'A lot of' not 'lot of' — article 'a' is required",
+      "category": "Articles"
+    },
+    {
+      "id": 49,
+      "wrong": "I need your valuable advices.",
+      "correct": "I need your valuable advice.",
+      "rule": "'Advice' is uncountable — no plural form",
+      "category": "Uncountable Nouns"
+    },
+    {
+      "id": 50,
+      "wrong": "The students were discussed the topic.",
+      "correct": "The students discussed the topic.",
+      "rule": "Active voice doesn't need 'were' before main verb",
+      "category": "Active/Passive Confusion"
     }
-  ],
-  "topPriority": [
-    "He/She/It ke saath ALWAYS use doesn't (not don't)",
-    "Subject position mein 'I' (not 'Me') — Ram and I went (not me and Ram)",
-    "Profession ke pehle article: I am AN engineer",
-    "Stative verbs (know, want, love, have) ko continuous mein mat use karo",
-    "Sports, languages, meals ke pehle 'the' mat lagao"
   ]
 }

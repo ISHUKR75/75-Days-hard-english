@@ -1,62 +1,225 @@
 {
   "day": 1,
   "title": "Basics of English",
-  "tagline": "आज से शुरू होती है आपकी English की नई ज़िंदगी!",
-  "summary": "Day 1 में आप English की नींव सीखेंगे। हर भाषा की तरह English भी एक pattern follow करती है — Subject + Verb + Object (SVO)। जैसे Hindi में 'मैं खाना खाता हूँ' वैसे English में 'I eat food.' आज हम यही pattern समझेंगे। Simple Present Tense, pronouns (I/You/He/She/We/They), articles (a/an/the), और basic question formation — यही है Day 1 का पूरा plan। ये सब master करने के बाद आप 100+ sentences खुद बना सकते हैं।",
-  "hindiSummary": "आज का दिन आपके English journey का पहला और सबसे ज़रूरी दिन है। जैसे किसी इमारत की नींव मज़बूत होती है तो इमारत टिकती है, वैसे ही English की नींव मज़बूत होनी चाहिए। आज आप सीखेंगे कि English sentences कैसे बनते हैं, pronouns कैसे use होते हैं, और simple questions कैसे पूछे जाते हैं।",
+  "tagline": "Complete Masterclass — Grammar · Vocabulary · Practice · Speaking · Writing",
+  "emoji": "📚",
+  "cefr": "A0",
+  "difficulty": "beginner",
+  "type": "grammar",
+  "teacherIntro": {
+    "title": "Welcome to Day 1 — Your English Journey Starts Here!",
+    "hindiTitle": "Day 1 में आपका स्वागत है — आपकी English की यात्रा शुरू होती है!",
+    "message": "नमस्ते! आज हम English सीखने की सबसे exciting journey शुरू कर रहे हैं। मैं चाहता हूँ कि आप Day 1 को उतने seriously लें जितना आप किसी भी foundation को लेते हैं।\n\nजैसे एक मज़बूत building के लिए strong foundation ज़रूरी है, वैसे ही fluent English के लिए Day 1 की basics मज़बूत होनी चाहिए।\n\nआज आप जो सीखेंगे, वो आपकी पूरी 75-day journey का backbone है। हर अगला day इसी पर build होगा। इसलिए — कोई जल्दी नहीं, कोई shortcuts नहीं। एक-एक concept को deeply समझिए।\n\nमेरे साथ रहिए। आप definitely succeed करेंगे!",
+    "importanceQuote": "\"The foundation of English is not grammar rules — it is the courage to start speaking.\" — Every great English speaker started exactly where you are today.",
+    "hindiImportanceQuote": "\"English की नींव grammar rules नहीं है — यह बोलने की हिम्मत है।\" — हर great English speaker ने ठीक वहीं से शुरू किया जहाँ आप आज हैं।"
+  },
+  "summary": "Day 1 is the foundation of your entire English journey. You will learn the SVO sentence structure, Simple Present Tense (positive, negative, question), Subject and Object Pronouns, Articles (a, an, the), Possessive Adjectives, WH Questions, Frequency Adverbs, and 100 essential action verbs. You will also learn 1000 vocabulary words and practice 1400 translation exercises.",
+  "hindiSummary": "Day 1 आपकी पूरी English journey की नींव है। आप SVO sentence structure, Simple Present Tense (positive, negative, question), Subject और Object Pronouns, Articles (a, an, the), Possessive Adjectives, WH Questions, Frequency Adverbs, और 100 ज़रूरी action verbs सीखेंगे। आप 1000 vocabulary words भी सीखेंगे और 1400 translation exercises practice करेंगे।",
   "whatYouWillLearn": [
-    "SVO (Subject-Verb-Object) sentence structure",
-    "Simple Present Tense — positive, negative, question forms",
-    "Subject pronouns: I, You, He, She, It, We, They",
-    "Object pronouns: me, you, him, her, it, us, them",
-    "Possessive adjectives: my, your, his, her, its, our, their",
-    "Articles: a (consonant), an (vowel), the (specific)",
-    "Do/Does for questions and negatives",
-    "Don't/Doesn't for negatives",
-    "WH questions: What, Where, When, Who, Why, How",
-    "Yes/No questions formation",
-    "Frequency adverbs: always, usually, often, sometimes, rarely, never",
-    "Common action verbs (50+ verbs)",
-    "Daily routine sentences",
-    "Basic office and professional sentences",
-    "Sentence patterns that never change",
-    "Most common errors Hindi speakers make",
-    "How to think in English (not translate from Hindi)",
-    "Memory tricks for grammar rules"
+    {
+      "topic": "SVO Structure",
+      "detail": "Subject-Verb-Object — English का Magic Formula। हर English sentence इसी pattern पर based है।",
+      "icon": "🏗️"
+    },
+    {
+      "topic": "Simple Present Tense — Positive",
+      "detail": "Routine actions, facts, और general truths के लिए। Formula: I/We/You/They + V1; He/She/It + V1+s/es",
+      "icon": "✅"
+    },
+    {
+      "topic": "Simple Present Tense — Negative",
+      "detail": "don't / doesn't + base verb। He/She/It के साथ doesn't; बाकी के साथ don't।",
+      "icon": "❌"
+    },
+    {
+      "topic": "Simple Present Tense — Questions",
+      "detail": "Do/Does + Subject + V1? Yes/No questions और WH questions both।",
+      "icon": "❓"
+    },
+    {
+      "topic": "Subject Pronouns",
+      "detail": "I, You, He, She, It, We, They — कर्ता के रूप में।",
+      "icon": "👤"
+    },
+    {
+      "topic": "Object Pronouns",
+      "detail": "me, you, him, her, it, us, them — कर्म के रूप में।",
+      "icon": "🎯"
+    },
+    {
+      "topic": "Possessive Adjectives",
+      "detail": "my, your, his, her, its, our, their — स्वामित्व दर्शाने के लिए।",
+      "icon": "🏠"
+    },
+    {
+      "topic": "Articles — a, an, the",
+      "detail": "a (consonant sound), an (vowel sound), the (specific). Hindi में articles नहीं होते — यह सबसे tricky part है।",
+      "icon": "📝"
+    },
+    {
+      "topic": "Do/Does Helper Verbs",
+      "detail": "Questions और negatives बनाने के लिए। Emphasis के लिए भी।",
+      "icon": "🔧"
+    },
+    {
+      "topic": "WH Questions",
+      "detail": "What, Where, When, Who, Why, How, Which, Whose, Whom — सब WH words और उनके uses।",
+      "icon": "🔍"
+    },
+    {
+      "topic": "Frequency Adverbs",
+      "detail": "always, usually, often, sometimes, rarely, never — कितनी बार कुछ होता है।",
+      "icon": "🔄"
+    },
+    {
+      "topic": "100 Essential Action Verbs",
+      "detail": "Roz use होने वाले 100 verbs — V1, V2, V3 forms के साथ। Daily life के लिए essential।",
+      "icon": "⚡"
+    },
+    {
+      "topic": "50 Daily Conversation Sentences",
+      "detail": "Ready-to-use sentences जो आप immediately बोल सकते हैं। Greetings, agreement, disagreement, requests, apologies।",
+      "icon": "💬"
+    },
+    {
+      "topic": "40 Office/Professional Sentences",
+      "detail": "Office, interviews, meetings में use होने वाले sentences।",
+      "icon": "💼"
+    },
+    {
+      "topic": "Thinking in English Strategy",
+      "detail": "Translation से कैसे बचें और directly English में सोचना कैसे शुरू करें।",
+      "icon": "🧠"
+    }
   ],
-  "whyImportant": "Simple Present Tense English का सबसे ज़्यादा use होने वाला tense है। Daily life में, office में, interviews में — हर जगह यही use होता है। अगर आपका foundation strong नहीं है तो advanced grammar भी समझ नहीं आएगी। इसलिए Day 1 को बहुत carefully पढ़ें।",
-  "realLifeUsage": [
-    "Job interview में: 'I work as a software engineer at TCS.'",
-    "New colleague से: 'I usually come to office by metro.'",
-    "Doctor से: 'I don't eat junk food. I exercise daily.'",
-    "Phone call पर: 'He doesn't work on Sundays.'",
-    "WhatsApp message: 'She always replies late.'",
-    "Email writing: 'I write to request your assistance.'",
-    "Shopping: 'How much does this cost?'",
-    "Restaurant: 'Do you have vegetarian options?'",
-    "Travel: 'Where does this train go?'",
-    "School: 'Why does he always come late?'"
+  "whyImportant": {
+    "main": "Day 1 की basics इसलिए critical हैं क्योंकि:",
+    "points": [
+      "English के 60%+ sentences Simple Present Tense में होते हैं — यह सबसे common tense है",
+      "SVO structure समझे बिना कोई भी sentence grammatically correct नहीं बन सकता",
+      "Subject/Object pronouns की गलतियाँ immediately आपको unprofessional show करती हैं",
+      "Articles (a/an/the) की errors beginner English की सबसे common giveaway हैं",
+      "ये 15 topics मिलकर 10,000+ different sentences बनाने की ability देते हैं",
+      "Office में 80% basic communication इन्हीं patterns पर based होती है"
+    ]
+  },
+  "realLifeUsage": {
+    "daily": [
+      "सुबह उठकर: 'I wake up at 6 AM. I brush my teeth. I drink water.'",
+      "Family के साथ: 'My mother cooks food. My father goes to office. We eat together.'",
+      "Shopping: 'I want to buy this. How much does it cost? Do you have a smaller size?'",
+      "Phone call: 'Can I speak to Mr. Sharma? He is not available. Can I leave a message?'"
+    ],
+    "office": [
+      "Meeting: 'I work on this project. When is the deadline? Could you explain this?'",
+      "Email: 'I am writing regarding... Please find attached... I look forward to...'",
+      "Introduction: 'Good morning! I am [name]. I work in the [department]. I have X years of experience.'",
+      "Status update: 'I am currently working on... I will complete this by... There is a small issue.'"
+    ],
+    "interview": [
+      "'My name is... I am from... I have studied...'",
+      "'I can work in a team. I am a hardworking person. I always meet deadlines.'",
+      "'My strength is... My weakness is... I am working on improving...'",
+      "'I want to join your company because... I believe I can contribute...'"
+    ]
+  },
+  "sections": [
+    {
+      "id": "intro",
+      "title": "Why We Study This Topic",
+      "hindiTitle": "यह Topic क्यों पढ़ रहे हैं",
+      "content": "English सीखना शुरू करने के लिए सबसे पहले यह समझना ज़रूरी है कि English और Hindi में fundamental difference क्या है। Hindi में हम कहते हैं: 'राम ने सेब खाया' (Ram + ne + apple + khaya). English में: 'Ram ate an apple.' (Ram + ate + an apple). यह difference — verb का position — सबसे basic और सबसे important difference है। आज हम यही सीखेंगे। इसे समझ लिया तो बाकी सब आसान है।"
+    },
+    {
+      "id": "learn",
+      "title": "What You Will Learn Today",
+      "hindiTitle": "आज आप क्या सीखेंगे",
+      "content": "आज आप 15 core concepts सीखेंगे जो हर English sentence की नींव हैं। हर concept के साथ detailed explanation, formula, 10-15 examples, और common mistakes दी गई हैं। सब कुछ Hindi और English दोनों में है।"
+    },
+    {
+      "id": "why",
+      "title": "Why English is Important for You",
+      "hindiTitle": "आपके लिए English क्यों ज़रूरी है",
+      "content": "2024 में, India में 1.4 करोड़ नई jobs require good English communication. Top companies जैसे Google, Microsoft, Infosys, TCS — सभी English medium में work करती हैं। अगर आप English fluently बोल सकते हैं, तो आपकी salary 50-100% ज़्यादा हो सकती है compared to same qualification with poor English. यह एक investment है — 75 days में आप अपनी life change कर सकते हैं।"
+    },
+    {
+      "id": "grammar",
+      "title": "Grammar Preview — Key Rules",
+      "hindiTitle": "Grammar Preview — मुख्य नियम",
+      "content": "आज के top 5 grammar rules: (1) SVO order: Subject→Verb→Object always. (2) He/She/It + verb+s/es. (3) Questions: Do/Does first. (4) a + consonant, an + vowel. (5) don't vs doesn't — He/She/It = doesn't."
+    }
   ],
   "dailyGoal": {
-    "morning": "Read theory and examples (30 min)",
-    "afternoon": "Practice 100 questions (45 min)",
-    "evening": "Speaking practice — say 20 sentences aloud (20 min)",
-    "night": "Write 10 sentences in your notebook (15 min)",
-    "total": "110 minutes of focused study"
+    "minimum": "Complete Overview + Concept + 100 Practice Questions",
+    "recommended": "Complete all 13 sections with at least 500 Practice Questions",
+    "champion": "Complete everything: all 13 sections + 1400 Practice Questions + 400 Test Questions",
+    "timeEstimate": "4-8 hours for complete day",
+    "breaks": "Take a 10-minute break every 45 minutes. Drink water. Do 2 minutes of stretching."
   },
-  "motivationalQuote": "Every expert was once a beginner. Start today, and Day 75 will be your success story! — 75 Days Hard English",
+  "motivationalQuote": {
+    "english": "Every expert was once a beginner. Every pro was once an amateur. Start now. Start where you are. Use what you have. Do what you can.",
+    "hindi": "हर expert कभी beginner था। हर professional कभी amateur था। अभी शुरू करो। जहाँ हो वहाँ से शुरू करो। जो है उसका use करो। जो कर सको करो।",
+    "author": "Arthur Ashe (adapted)"
+  },
   "keyGrammarRules": [
-    "I → am | He/She/It → is | You/We/They → are",
-    "He/She/It → verb+s/es | Others → base verb",
-    "Question: Do/Does + subject + base verb?",
-    "Negative: Subject + don't/doesn't + base verb",
-    "WH Question: WH word + do/does + subject + base verb?"
+    "SVO: Subject + Verb + Object — यही English का backbone है",
+    "He/She/It → verb+s/es in Simple Present",
+    "I/We/You/They → base verb (no s) in Simple Present",
+    "Negative: don't / doesn't + base verb",
+    "Questions: Do/Does + Subject + base verb + ?",
+    "Articles: a (consonant sound), an (vowel sound), the (specific/unique)",
+    "Pronouns: I/you/he/she/it/we/they (subject) vs me/you/him/her/it/us/them (object)"
   ],
   "practiceTarget": {
-    "minimumQuestions": 100,
-    "targetQuestions": 200,
-    "stretchGoal": 500,
-    "speakingTarget": "20 sentences aloud",
-    "writingTarget": "10 sentences in notebook"
-  }
+    "vocabularyWords": 1000,
+    "practiceQuestions": 1400,
+    "testQuestions": 400,
+    "flashcards": 200,
+    "conversations": 10,
+    "readingPassages": 5,
+    "writingTasks": 3,
+    "listeningExercises": 5
+  },
+  "milestones": [
+    {
+      "xp": 100,
+      "badge": "Grammar Starter",
+      "requirement": "Complete Overview section"
+    },
+    {
+      "xp": 200,
+      "badge": "Concept Master",
+      "requirement": "Complete Concept & Theory section"
+    },
+    {
+      "xp": 300,
+      "badge": "Vocabulary Builder",
+      "requirement": "Learn 500 vocabulary words"
+    },
+    {
+      "xp": 400,
+      "badge": "Practice Champion",
+      "requirement": "Complete 700 practice questions"
+    },
+    {
+      "xp": 500,
+      "badge": "Speaking Star",
+      "requirement": "Complete Speaking section"
+    },
+    {
+      "xp": 600,
+      "badge": "Writer's Guild",
+      "requirement": "Complete Writing section"
+    },
+    {
+      "xp": 700,
+      "badge": "Test Taker",
+      "requirement": "Complete 200 test questions"
+    },
+    {
+      "xp": 1000,
+      "badge": "Day 1 Legend 🏆",
+      "requirement": "Complete all 13 sections 100%"
+    }
+  ]
 }

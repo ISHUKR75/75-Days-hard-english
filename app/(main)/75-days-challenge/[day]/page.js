@@ -738,41 +738,250 @@ function ConceptSection({ topic, content, onComplete }) {
               </button>
 
               {expandedSection === idx && (
-                <div className="px-5 pb-5 space-y-4 border-t border-slate-800 pt-4">
-                  {/* Explanation */}
-                  <p className="text-slate-300 leading-relaxed">{section.explanation}</p>
+                <div className="px-5 pb-6 space-y-5 border-t border-slate-800 pt-5">
+
+                  {/* Main Explanation */}
+                  {section.explanation && (
+                    <div className="bg-slate-900/60 rounded-xl p-4 border border-slate-700/50">
+                      {section.explanation.split('\n').map((line, li) => {
+                        if (!line.trim()) return null;
+                        if (line.startsWith('📌') || line.startsWith('##')) return (
+                          <p key={li} className="font-bold text-indigo-300 mt-3 mb-1 first:mt-0">{line}</p>
+                        );
+                        if (line.startsWith('•') || line.startsWith('-')) return (
+                          <p key={li} className="text-slate-300 text-sm leading-relaxed pl-3 flex gap-2">
+                            <span className="text-emerald-400 shrink-0">•</span><span>{line.replace(/^[•\-]\s*/, '')}</span>
+                          </p>
+                        );
+                        return <p key={li} className="text-slate-300 leading-relaxed text-sm">{line}</p>;
+                      })}
+                    </div>
+                  )}
 
                   {/* Formula */}
                   {section.formula && (
-                    <div className="px-4 py-3 bg-slate-800 rounded-xl border border-slate-700">
-                      <p className="text-xs text-slate-500 mb-1 font-semibold uppercase tracking-wider">📐 Formula</p>
-                      <code className="text-emerald-300 font-mono text-sm">{section.formula}</code>
+                    <div className="px-4 py-3 bg-gradient-to-r from-emerald-900/30 to-teal-900/30 rounded-xl border border-emerald-500/30">
+                      <p className="text-xs text-emerald-400 mb-1 font-bold uppercase tracking-wider">📐 Formula</p>
+                      <code className="text-emerald-200 font-mono text-sm whitespace-pre-wrap">{section.formula}</code>
+                      {section.hindiFormula && (
+                        <p className="text-amber-300/70 text-xs mt-2 hindi-text">{section.hindiFormula}</p>
+                      )}
+                    </div>
+                  )}
+
+                  {/* Why Important */}
+                  {section.whyImportant && (
+                    <div className="bg-amber-500/5 border border-amber-500/20 rounded-xl p-4">
+                      <p className="text-xs text-amber-400 font-bold uppercase tracking-wider mb-2">⭐ Why This Matters</p>
+                      {section.whyImportant.split('\n').filter(Boolean).map((line, li) => (
+                        <p key={li} className="text-amber-100/80 text-sm leading-relaxed">{line}</p>
+                      ))}
+                    </div>
+                  )}
+
+                  {/* Detailed Explanation */}
+                  {section.detailedExplanation && (
+                    <div className="space-y-2">
+                      <p className="text-xs font-bold text-indigo-400 uppercase tracking-wider">🎓 Deep Explanation</p>
+                      <div className="bg-indigo-500/5 border border-indigo-500/15 rounded-xl p-4">
+                        {section.detailedExplanation.split('\n').map((line, li) => {
+                          if (!line.trim()) return null;
+                          if (line.startsWith('📌')) return (
+                            <p key={li} className="font-bold text-indigo-300 mt-3 mb-1 first:mt-0">{line}</p>
+                          );
+                          if (line.startsWith('•') || line.startsWith('-')) return (
+                            <p key={li} className="text-slate-300 text-sm pl-3 flex gap-2 leading-relaxed">
+                              <span className="text-indigo-400 shrink-0">›</span><span>{line.replace(/^[•\-]\s*/, '')}</span>
+                            </p>
+                          );
+                          return <p key={li} className="text-slate-300 text-sm leading-relaxed">{line}</p>;
+                        })}
+                      </div>
                     </div>
                   )}
 
                   {/* Examples */}
                   {section.examples?.length > 0 && (
                     <div className="space-y-2">
-                      <p className="text-sm font-semibold text-slate-400 uppercase tracking-wider">Examples</p>
-                      {section.examples.map((ex, i) => (
-                        <div key={i} className="rounded-xl border border-slate-700 bg-slate-900 p-4">
-                          <div className="flex items-start justify-between gap-3">
-                            <div className="flex-1 space-y-1">
-                              <p className="text-white font-semibold">{ex.english}</p>
-                              <p className="text-amber-300/80 text-sm hindi-text">{ex.hindi}</p>
+                      <p className="text-xs font-bold text-slate-400 uppercase tracking-wider">📝 Examples ({section.examples.length})</p>
+                      <div className="space-y-2">
+                        {section.examples.map((ex, i) => (
+                          <div key={i} className="rounded-xl border border-slate-700 bg-slate-900 p-3 hover:border-slate-600 transition-colors">
+                            <div className="flex items-start justify-between gap-3">
+                              <div className="flex-1 space-y-1.5">
+                                <div className="flex items-center gap-2">
+                                  <span className="text-xs text-slate-600 w-5 shrink-0">{i+1}.</span>
+                                  <p className="text-white font-semibold text-sm">{ex.english}</p>
+                                </div>
+                                <div className="flex items-center gap-2 pl-7">
+                                  <p className="text-amber-300/80 text-xs hindi-text">{ex.hindi}</p>
+                                </div>
+                                {(ex.rule || ex.breakdown) && (
+                                  <div className="pl-7">
+                                    <span className="text-xs text-indigo-400/70 bg-indigo-500/10 px-2 py-0.5 rounded-md">{ex.rule || ex.breakdown}</span>
+                                  </div>
+                                )}
+                              </div>
+                              <button
+                                onClick={(e) => { e.stopPropagation(); speakText(ex.english); }}
+                                className="w-7 h-7 rounded-lg bg-sky-500/10 border border-sky-500/20 flex items-center justify-center shrink-0 hover:bg-sky-500/20 transition-colors mt-0.5"
+                                title="Listen"
+                              >
+                                <Volume2 size={12} className="text-sky-400" />
+                              </button>
                             </div>
-                            <button
-                              onClick={(e) => { e.stopPropagation(); speakText(ex.english); }}
-                              className="w-8 h-8 rounded-lg bg-sky-500/10 border border-sky-500/20 flex items-center justify-center shrink-0 hover:bg-sky-500/20 transition-colors"
-                              title="Listen"
-                            >
-                              <Volume2 size={14} className="text-sky-400" />
-                            </button>
                           </div>
-                        </div>
-                      ))}
+                        ))}
+                      </div>
                     </div>
                   )}
+
+                  {/* Key Rules */}
+                  {section.keyRules?.length > 0 && (
+                    <div className="bg-emerald-500/5 border border-emerald-500/20 rounded-xl p-4">
+                      <p className="text-xs font-bold text-emerald-400 uppercase tracking-wider mb-3">✅ Key Rules ({section.keyRules.length})</p>
+                      <ul className="space-y-2">
+                        {section.keyRules.map((rule, ri) => (
+                          <li key={ri} className="flex items-start gap-2 text-slate-300 text-sm">
+                            <CheckCircle2 size={14} className="text-emerald-400 shrink-0 mt-0.5" />
+                            <span>{rule}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Common Errors */}
+                  {section.commonErrors?.length > 0 && (
+                    <div className="bg-red-500/5 border border-red-500/20 rounded-xl p-4">
+                      <p className="text-xs font-bold text-red-400 uppercase tracking-wider mb-3">❌ Common Errors — Don't Make These!</p>
+                      <div className="space-y-3">
+                        {section.commonErrors.map((err, ei) => (
+                          <div key={ei} className="space-y-1">
+                            <div className="flex items-center gap-2 flex-wrap">
+                              <span className="bg-red-900/40 text-red-300 text-xs px-2 py-1 rounded font-mono line-through">
+                                ✗ {err.wrong || err}
+                              </span>
+                              {err.correct && (
+                                <>
+                                  <span className="text-slate-600 text-xs">→</span>
+                                  <span className="bg-emerald-900/40 text-emerald-300 text-xs px-2 py-1 rounded font-mono">
+                                    ✓ {err.correct}
+                                  </span>
+                                </>
+                              )}
+                            </div>
+                            {err.explanation && (
+                              <p className="text-slate-400 text-xs pl-1">{err.explanation}</p>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Memory Trick */}
+                  {section.memoryTrick && (
+                    <div className="bg-gradient-to-br from-amber-500/10 to-orange-500/10 border border-amber-500/30 rounded-xl p-4">
+                      <p className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2">🧠 Memory Trick</p>
+                      <p className="text-amber-100/90 text-sm font-medium leading-relaxed">{section.memoryTrick}</p>
+                    </div>
+                  )}
+
+                  {/* Speaking Tips */}
+                  {section.speakingTips?.length > 0 && (
+                    <div className="bg-sky-500/5 border border-sky-500/20 rounded-xl p-4">
+                      <p className="text-xs font-bold text-sky-400 uppercase tracking-wider mb-3">🗣️ Speaking Tips</p>
+                      <ul className="space-y-2">
+                        {section.speakingTips.map((tip, ti) => (
+                          <li key={ti} className="flex items-start gap-2 text-slate-300 text-sm">
+                            <span className="text-sky-400 shrink-0 mt-0.5">→</span>
+                            <span>{tip}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+
+                  {/* Verb List (for verb section) */}
+                  {section.verbList?.length > 0 && (
+                    <div className="space-y-2">
+                      <p className="text-xs font-bold text-purple-400 uppercase tracking-wider">📚 Complete Verb List ({section.verbList.length} verbs)</p>
+                      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+                        {section.verbList.map((v, vi) => (
+                          <div key={vi} className="bg-slate-900 border border-slate-800 rounded-lg p-3 flex items-start gap-3">
+                            <div className="shrink-0">
+                              <button
+                                onClick={(e) => { e.stopPropagation(); speakText(v.verb); }}
+                                className="w-7 h-7 rounded bg-purple-500/10 border border-purple-500/20 flex items-center justify-center hover:bg-purple-500/20 transition-colors"
+                              >
+                                <Volume2 size={11} className="text-purple-400" />
+                              </button>
+                            </div>
+                            <div className="flex-1 min-w-0">
+                              <div className="flex items-center gap-2 flex-wrap">
+                                <span className="font-bold text-white text-sm">{v.verb}</span>
+                                <span className="text-amber-300/70 text-xs hindi-text">{v.hindi}</span>
+                              </div>
+                              {v.V2 && (
+                                <p className="text-xs text-slate-500 mt-0.5">V2: {v.V2} | V3: {v.V3}</p>
+                              )}
+                              {v.example && (
+                                <p className="text-xs text-slate-400 mt-1 italic">"{v.example}"</p>
+                              )}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Daily Conversation Sentences (for conversation sections) */}
+                  {section.sentences?.length > 0 && (
+                    <div className="space-y-2">
+                      <p className="text-xs font-bold text-cyan-400 uppercase tracking-wider">💬 Sentences ({section.sentences.length})</p>
+                      <div className="space-y-2">
+                        {section.sentences.map((s, si) => (
+                          <div key={si} className="bg-slate-900 border border-slate-800 rounded-lg p-3">
+                            <div className="flex items-start justify-between gap-2">
+                              <div className="flex-1 min-w-0">
+                                <p className="text-white text-sm font-medium">{s.english}</p>
+                                <p className="text-amber-300/70 text-xs mt-1 hindi-text">{s.hindi}</p>
+                                {s.context && (
+                                  <span className="text-xs text-cyan-400/60 bg-cyan-500/10 px-1.5 py-0.5 rounded mt-1 inline-block">{s.context}</span>
+                                )}
+                              </div>
+                              <button
+                                onClick={(e) => { e.stopPropagation(); speakText(s.english); }}
+                                className="w-7 h-7 rounded bg-sky-500/10 border border-sky-500/20 flex items-center justify-center shrink-0 hover:bg-sky-500/20"
+                              >
+                                <Volume2 size={11} className="text-sky-400" />
+                              </button>
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  {/* Practice Exercises */}
+                  {section.practiceExercises?.length > 0 && (
+                    <div className="bg-violet-500/5 border border-violet-500/20 rounded-xl p-4">
+                      <p className="text-xs font-bold text-violet-400 uppercase tracking-wider mb-3">🎯 Quick Practice</p>
+                      <div className="space-y-2">
+                        {section.practiceExercises.map((ex, pi) => (
+                          <div key={pi} className="flex items-center justify-between gap-3 bg-slate-900 rounded-lg p-3">
+                            <p className="text-amber-300/80 text-sm hindi-text">{ex.hindi}</p>
+                            <details className="shrink-0">
+                              <summary className="text-xs text-violet-400 cursor-pointer hover:text-violet-300 select-none">Show Answer</summary>
+                              <p className="text-emerald-300 text-sm font-mono mt-1">{ex.answer}</p>
+                            </details>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
                 </div>
               )}
             </div>
@@ -823,14 +1032,29 @@ function ConceptSection({ topic, content, onComplete }) {
           <h3 className="text-lg font-bold text-red-400 mb-4 flex items-center gap-2">
             <AlertCircle size={18} /> Common Mistakes to Avoid ({content.mistakes.length})
           </h3>
-          <ul className="space-y-3">
+          <div className="space-y-3">
             {(showAllMistakes ? content.mistakes : content.mistakes.slice(0, 8)).map((mistake, i) => (
-              <li key={i} className="flex items-start gap-3 text-slate-300 text-sm">
-                <XCircle size={16} className="text-red-400 shrink-0 mt-0.5" />
-                <span>{mistake}</span>
-              </li>
+              typeof mistake === 'string' ? (
+                <div key={i} className="flex items-start gap-3 text-slate-300 text-sm">
+                  <XCircle size={16} className="text-red-400 shrink-0 mt-0.5" />
+                  <span>{mistake}</span>
+                </div>
+              ) : (
+                <div key={i} className="space-y-1">
+                  <div className="flex items-center gap-2 flex-wrap">
+                    <span className="bg-red-900/40 text-red-300 text-xs px-2 py-1 rounded font-mono line-through">✗ {mistake.wrong || String(mistake)}</span>
+                    {mistake.correct && (
+                      <>
+                        <span className="text-slate-600 text-xs">→</span>
+                        <span className="bg-emerald-900/40 text-emerald-300 text-xs px-2 py-1 rounded font-mono">✓ {mistake.correct}</span>
+                      </>
+                    )}
+                  </div>
+                  {mistake.explanation && <p className="text-slate-400 text-xs pl-1">{mistake.explanation}</p>}
+                </div>
+              )
             ))}
-          </ul>
+          </div>
           {content.mistakes.length > 8 && (
             <button
               onClick={() => setShowAllMistakes(v => !v)}
@@ -866,7 +1090,7 @@ function VocabularyMassive({ vocabulary, onComplete }) {
   const [cefrFilter, setCefrFilter] = useState('all');
   const [page, setPage] = useState(1);
   const [expandedWord, setExpandedWord] = useState(null);
-  const WORDS_PER_PAGE = 50; // Show 50 words per load — "Show All" button is prominent below
+  const WORDS_PER_PAGE = 200; // Show 200 words per load — keeps performance while showing dense content
 
   // Get all unique CEFR levels
   const cefrLevels = ['all', ...new Set(allWords.map(w => w.cefrLevel).filter(Boolean))];
