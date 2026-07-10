@@ -1,14 +1,272 @@
 {
   "day": 8,
-  "title": "Day 8 Listening Exercise — Will Have",
-  "instructions": "इन sentences को audio/TTS के through सुनें और blanks भरें।",
+  "title": "Day 8 Listening Exercise — Will Have (Future Perfect)",
+  "totalExercises": 15,
+  "instructions": "इन conversation scripts को ध्यान से सुनें (TTS/audio के through)। हर exercise में fill-in-the-blank, comprehension questions, और true/false activities हैं।",
   "exercises": [
-    { "id": 1, "audioText": "By tomorrow, I will have finished the report.", "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।", "fillInBlank": "By tomorrow, I will _____ finished the report.", "answer": ["have"] },
-    { "id": 2, "audioText": "By next year, she will have completed her MBA.", "hindi": "अगले साल तक, वह MBA पूरी कर चुकी होगी।", "fillInBlank": "By next year, she will have _____ her MBA.", "answer": ["completed"] },
-    { "id": 3, "audioText": "By Q4, our company will have reached its revenue target.", "hindi": "Q4 तक, हमारी company revenue target पूरा कर चुकी होगी।", "fillInBlank": "By Q4, our company will have _____ its revenue target.", "answer": ["reached"] }
+    {
+      "id": 1,
+      "title": "Project Planning Meeting",
+      "type": "conversation",
+      "audioText": "Manager: Team, by this Friday, we will have completed the first two phases of the project. Arjun, will you have finished the backend API by Thursday? Arjun: Yes, by Thursday evening, I will have written and tested all the endpoints. Manager: Perfect. And Priya, will the UI be ready? Priya: By Friday morning, I will have finalized all the screens and shared the designs with the team. Manager: Excellent. So by our client call on Monday, we will have delivered a fully working prototype.",
+      "hindi": "Manager: Team, इस Friday तक, हम project के पहले दो phases पूरे कर चुके होंगे। Arjun, क्या Thursday तक backend API तैयार हो जाएगी? Arjun: हाँ, Thursday शाम तक, मैं सभी endpoints लिख और test कर चुका होऊँगा। Manager: Perfect. और Priya, क्या UI तैयार होगी? Priya: Friday सुबह तक, मैं सभी screens finalize करके team के साथ share कर चुकी होऊँगी। Manager: Excellent. तो Monday की client call तक, हम एक fully working prototype deliver कर चुके होंगे।",
+      "fillInBlanks": [
+        {"sentence": "By this Friday, we will have _____ the first two phases.", "answer": "completed"},
+        {"sentence": "By Thursday evening, I will have _____ and _____ all the endpoints.", "answer": ["written", "tested"]},
+        {"sentence": "By Friday morning, I will have _____ all the screens.", "answer": "finalized"},
+        {"sentence": "By Monday, we will have _____ a fully working prototype.", "answer": "delivered"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "When will Arjun finish the backend API?", "options": ["By Wednesday", "By Thursday evening", "By Friday morning", "By Monday"], "answer": "By Thursday evening"},
+        {"q": "What will the team have delivered by Monday's client call?", "options": ["Final product", "Just designs", "A fully working prototype", "Only the backend"], "answer": "A fully working prototype"}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Job Interview — Future Plans",
+      "type": "conversation",
+      "audioText": "Interviewer: Where do you see yourself in 3 years? Candidate: In 3 years, I will have grown into a senior role and will have led at least two major product launches. Interviewer: Will you have completed any additional certifications? Candidate: Yes, by next year, I will have earned my cloud computing certification. Interviewer: What will you have contributed to our team by the end of year one? Candidate: By then, I will have built strong relationships with all stakeholders and will have delivered my first independent project successfully.",
+      "hindi": "Interviewer: आप 3 सालों में खुद को कहाँ देखते हैं? Candidate: 3 सालों में, मैं senior role में grow कर चुका होऊँगा और कम से कम दो major product launches lead कर चुका होऊँगा। Interviewer: क्या आपने additional certifications ली होंगी? Candidate: हाँ, अगले साल तक, मैंने cloud computing certification ले ली होगी। Interviewer: Year one के अंत तक आप team में क्या contribute कर चुके होंगे? Candidate: तब तक, मैंने सभी stakeholders के साथ strong relationships बना ली होंगी और अपना पहला independent project successfully deliver कर दिया होगा।",
+      "fillInBlanks": [
+        {"sentence": "In 3 years, I will have _____ into a senior role.", "answer": "grown"},
+        {"sentence": "By next year, I will have _____ my cloud computing certification.", "answer": "earned"},
+        {"sentence": "By end of year one, I will have _____ strong relationships.", "answer": "built"},
+        {"sentence": "I will have _____ my first independent project successfully.", "answer": "delivered"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "What certification will the candidate have earned by next year?", "options": ["MBA", "Data Science", "Cloud computing", "Project Management"], "answer": "Cloud computing"},
+        {"q": "How many major product launches will the candidate have led in 3 years?", "options": ["One", "At least two", "Three", "Four"], "answer": "At least two"}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Phone Call — Confirming Project Status",
+      "type": "conversation",
+      "audioText": "Rahul: Hi Sneha, just checking in. Will you have sent the updated report to the client by 3 PM? Sneha: Yes, by 2:30 PM, I will have reviewed the data and sent the final version. Rahul: Great. And will the design team have shared the mockups by then too? Sneha: I spoke to Kiran. By 1 PM, he will have uploaded all the mockups to the shared drive. Rahul: Perfect. So by the time the client calls at 4 PM, we will have everything ready. Sneha: Absolutely. I'll make sure everything is in order.",
+      "hindi": "Rahul: Hi Sneha, just checking कर रहा हूँ। क्या 3 PM तक client को updated report भेज दोगी? Sneha: हाँ, 2:30 PM तक, मैं data review करके final version भेज चुकी होऊँगी। Rahul: Great. और design team ने भी तब तक mockups share कर दिए होंगे? Sneha: मैंने Kiran से बात की। 1 PM तक, उसने सभी mockups shared drive पर upload कर दिए होंगे। Rahul: Perfect. तो 4 PM की client call तक, हमारे पास सब कुछ तैयार होगा।",
+      "fillInBlanks": [
+        {"sentence": "By 2:30 PM, I will have _____ the data and sent the final version.", "answer": "reviewed"},
+        {"sentence": "By 1 PM, he will have _____ all the mockups.", "answer": "uploaded"},
+        {"sentence": "By 4 PM, we will have everything _____.", "answer": "ready"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "By what time will Sneha send the final report?", "options": ["By 1 PM", "By 2:30 PM", "By 3 PM", "By 4 PM"], "answer": "By 2:30 PM"},
+        {"q": "Who will upload the mockups?", "options": ["Rahul", "Sneha", "Kiran", "The client"], "answer": "Kiran"}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Family Discussion — Future Goals",
+      "type": "conversation",
+      "audioText": "Father: Beta, by the time you finish your engineering, I will have saved enough for your MBA. Daughter: Really, Papa? And by then, will you have paid off the home loan too? Father: Yes, by next year, we will have cleared the last installment. Mother: And by the time your brother turns 18, I will have started my small business. Daughter: That's wonderful! By 2030, our whole family will have achieved all our dreams. Father: Yes, and by then, you will have become a successful engineer and made us proud.",
+      "hindi": "Father: बेटा, जब तक तुम engineering खत्म करो, मैंने तुम्हारी MBA के लिए पर्याप्त बचा लिया होगा। Daughter: सच में, Papa? और तब तक, क्या home loan भी चुका दिया होगा? Father: हाँ, अगले साल तक, हमने आखिरी installment clear कर ली होगी। Mother: और जब तुम्हारे भाई की उम्र 18 होगी, मैंने अपना छोटा business शुरू कर लिया होगा। Daughter: बहुत अच्छा! 2030 तक, हम सब परिवार ने अपने सपने पूरे कर लिए होंगे।",
+      "fillInBlanks": [
+        {"sentence": "By the time you finish engineering, I will have _____ enough for your MBA.", "answer": "saved"},
+        {"sentence": "By next year, we will have _____ the last installment.", "answer": "cleared"},
+        {"sentence": "By the time your brother turns 18, I will have _____ my small business.", "answer": "started"},
+        {"sentence": "By then, you will have _____ a successful engineer.", "answer": "become"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "What will the father have saved money for?", "options": ["A new car", "The daughter's MBA", "A vacation", "A new house"], "answer": "The daughter's MBA"},
+        {"q": "What will the mother have started?", "options": ["A school", "A small business", "A farm", "A restaurant"], "answer": "A small business"}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "News Announcement — Technology Predictions",
+      "type": "monologue",
+      "audioText": "Good evening. According to a new report by TechFuture Institute, by 2030, artificial intelligence will have transformed over 60% of all industries globally. Experts predict that by 2025, self-driving cars will have become commercially available in over 20 countries. By 2028, renewable energy sources will have replaced coal in most developed nations. Furthermore, by 2035, scientists believe they will have discovered effective treatments for several currently incurable diseases. These predictions paint an optimistic picture of humanity's technological progress.",
+      "hindi": "शुभ संध्या। TechFuture Institute की एक नई report के अनुसार, 2030 तक, artificial intelligence दुनिया के 60% से अधिक industries को transform कर चुकी होगी। Experts का अनुमान है कि 2025 तक, self-driving cars 20 से अधिक देशों में commercially available हो चुकी होंगी। 2028 तक, renewable energy sources अधिकांश developed nations में coal की जगह ले चुके होंगे। इसके अलावा, 2035 तक, scientists का मानना है कि उन्होंने कई currently incurable बीमारियों के effective treatments खोज लिए होंगे।",
+      "fillInBlanks": [
+        {"sentence": "By 2030, AI will have _____ over 60% of all industries.", "answer": "transformed"},
+        {"sentence": "By 2025, self-driving cars will have _____ commercially available.", "answer": "become"},
+        {"sentence": "By 2028, renewable energy will have _____ coal.", "answer": "replaced"},
+        {"sentence": "By 2035, scientists will have _____ treatments for incurable diseases.", "answer": "discovered"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "What percentage of industries will AI have transformed by 2030?", "options": ["40%", "50%", "60%", "80%"], "answer": "60%"},
+        {"q": "By which year will renewable energy have replaced coal?", "options": ["2025", "2028", "2030", "2035"], "answer": "2028"}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Apartment Renovation Discussion",
+      "type": "conversation",
+      "audioText": "Interior Designer: Mr. Gupta, by March, we will have completed the full renovation of your apartment. Mr. Gupta: That's great! Will you have finished the kitchen by February? Designer: Yes, by February 15th, we will have installed the new cabinets and countertops. Mr. Gupta: And the master bedroom? Designer: By end of February, the bedroom will have been painted and all new furniture will have been delivered. Mr. Gupta: Perfect. So by March 1st, we will have moved in? Designer: Absolutely. By then, every room will have been renovated and all finishing work will have been done.",
+      "hindi": "Interior Designer: Mr. Gupta, March तक, हम आपके apartment का पूरा renovation complete कर चुके होंगे। Mr. Gupta: बहुत अच्छा! क्या February तक kitchen तैयार हो जाएगी? Designer: हाँ, February 15 तक, हमने नए cabinets और countertops install कर दिए होंगे। Mr. Gupta: और master bedroom? Designer: February के अंत तक, bedroom paint हो चुकी होगी और सभी नए furniture deliver हो चुके होंगे। Mr. Gupta: Perfect. तो March 1 तक, हम shift हो जाएंगे? Designer: बिल्कुल। तब तक, हर room renovate हो चुका होगा।",
+      "fillInBlanks": [
+        {"sentence": "By March, we will have _____ the full renovation.", "answer": "completed"},
+        {"sentence": "By February 15th, we will have _____ the new cabinets.", "answer": "installed"},
+        {"sentence": "By end of February, the bedroom will have been _____.", "answer": "painted"},
+        {"sentence": "By March 1st, every room will have been _____.", "answer": "renovated"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "By when will the kitchen renovation be complete?", "options": ["By January", "By February 15th", "By March", "By April"], "answer": "By February 15th"},
+        {"q": "What will have happened to the bedroom by end of February?", "options": ["Only painted", "Only furnished", "Painted and furnished", "Neither"], "answer": "Painted and furnished"}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Startup Pitch — Business Projections",
+      "type": "monologue",
+      "audioText": "Hello investors. By the end of Year 1, our startup will have acquired 10,000 active users and will have generated our first 50 lakhs in revenue. By Year 2, we will have expanded to 5 cities and will have hired a team of 30 people. By Year 3, we will have raised our Series A round and will have reached 1 million users on our platform. By the time we complete Year 4, we will have broken into international markets and will have become a profitable company. We believe that by 2028, we will have made a lasting impact on the Indian education sector.",
+      "hindi": "Hello investors। Year 1 के अंत तक, हमारे startup ने 10,000 active users acquire कर लिए होंगे और पहले 50 लाख revenue generate कर लिए होंगे। Year 2 तक, हम 5 शहरों में expand कर चुके होंगे और 30 लोगों की team hire कर चुके होंगे। Year 3 तक, हमने Series A round raise कर लिया होगा और platform पर 1 million users reach कर लिए होंगे। 2028 तक, हमने Indian education sector पर lasting impact बना लिया होगा।",
+      "fillInBlanks": [
+        {"sentence": "By end of Year 1, we will have _____ 10,000 active users.", "answer": "acquired"},
+        {"sentence": "By Year 2, we will have _____ to 5 cities.", "answer": "expanded"},
+        {"sentence": "By Year 3, we will have _____ our Series A round.", "answer": "raised"},
+        {"sentence": "By 2028, we will have _____ a lasting impact.", "answer": "made"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "How many users will the startup have acquired by end of Year 1?", "options": ["1,000", "5,000", "10,000", "1 million"], "answer": "10,000"},
+        {"q": "By which year will the startup have raised Series A funding?", "options": ["Year 1", "Year 2", "Year 3", "Year 4"], "answer": "Year 3"}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Student-Teacher Conversation",
+      "type": "conversation",
+      "audioText": "Teacher: Riya, by the time your exam arrives in March, will you have studied all the chapters? Riya: Yes, ma'am. By February end, I will have covered all 15 chapters and will have solved all the practice papers. Teacher: Good. Will you have revised the difficult topics by then? Riya: Definitely. By February 20th, I will have made notes for all the formula-heavy topics and will have done at least 3 full revisions. Teacher: Excellent. If you study this way, by the time results come, you will have earned the top rank.",
+      "hindi": "Teacher: Riya, March में exam तक, क्या तुमने सभी chapters पढ़ लिए होंगे? Riya: हाँ, ma'am। February के अंत तक, मैं सभी 15 chapters cover करके सभी practice papers solve कर चुकी होऊँगी। Teacher: अच्छा। क्या तब तक difficult topics revise कर ली होंगी? Riya: बिल्कुल। February 20 तक, मैंने सभी formula-heavy topics के notes बना लिए होंगे और कम से कम 3 full revisions कर चुकी होऊँगी। Teacher: अगर तुम इस तरह पढ़ोगी, तो results आने तक, top rank तुम्हारी होगी।",
+      "fillInBlanks": [
+        {"sentence": "By February end, I will have _____ all 15 chapters.", "answer": "covered"},
+        {"sentence": "I will have _____ all the practice papers.", "answer": "solved"},
+        {"sentence": "By February 20th, I will have _____ notes for all topics.", "answer": "made"},
+        {"sentence": "I will have done at least 3 full _____.", "answer": "revisions"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "How many chapters will Riya have covered by end of February?", "options": ["10", "12", "15", "20"], "answer": "15"},
+        {"q": "How many full revisions will Riya have done by February 20th?", "options": ["1", "2", "At least 3", "5"], "answer": "At least 3"}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Doctor and Patient — Health Goals",
+      "type": "conversation",
+      "audioText": "Doctor: Mr. Sharma, by your next checkup in 3 months, you should have lost at least 5 kilos. Mr. Sharma: I understand, doctor. By next month, I will have started going to the gym regularly. Doctor: Good. Will you have changed your diet by then too? Mr. Sharma: Yes. By next week itself, I will have consulted a nutritionist and made a proper meal plan. Doctor: Excellent. If you follow this consistently, by your 6-month checkup, your blood pressure will have normalized completely.",
+      "hindi": "Doctor: Mr. Sharma, 3 महीने में अगले checkup तक, आपको कम से कम 5 किलो कम होने चाहिए। Mr. Sharma: समझ गया, doctor। अगले महीने तक, मैं regularly gym जाना शुरू कर चुका होऊँगा। Doctor: अच्छा। क्या तब तक diet भी बदल ली होगी? Mr. Sharma: हाँ। अगले हफ्ते तक, मैंने nutritionist से consult करके proper meal plan बना लिया होगा। Doctor: अगर consistently follow करें, तो 6-month checkup तक, blood pressure completely normalize हो चुका होगा।",
+      "fillInBlanks": [
+        {"sentence": "By next month, I will have _____ going to the gym regularly.", "answer": "started"},
+        {"sentence": "By next week, I will have _____ a nutritionist.", "answer": "consulted"},
+        {"sentence": "I will have _____ a proper meal plan.", "answer": "made"},
+        {"sentence": "By 6-month checkup, blood pressure will have _____ completely.", "answer": "normalized"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "How much weight should Mr. Sharma lose by the 3-month checkup?", "options": ["2 kilos", "3 kilos", "5 kilos", "8 kilos"], "answer": "5 kilos"},
+        {"q": "Who will Mr. Sharma have consulted by next week?", "options": ["A personal trainer", "A nutritionist", "A specialist doctor", "A therapist"], "answer": "A nutritionist"}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Wedding Planning Conversation",
+      "type": "conversation",
+      "audioText": "Bride: By December, we will have finalized the wedding venue and booked the caterer. Groom: And I will have spoken to the photographer and confirmed the band by November itself. Bride: Will we have sent the invitations by October? Groom: Yes, by mid-October, we will have printed and sent all the invitations. Bride: By the wedding day, we will have planned everything perfectly. Groom: By the time we say our vows, we will have created the most memorable day of our lives.",
+      "hindi": "Bride: December तक, हमने wedding venue finalize करके caterer book कर लिया होगा। Groom: और मैंने November तक photographer से बात करके band confirm कर लिया होगा। Bride: क्या हमने October तक invitations भेज दिए होंगे? Groom: हाँ, mid-October तक, हमने सभी invitations print करके भेज दिए होंगे। Bride: Wedding day तक, हमने सब कुछ perfectly plan कर लिया होगा।",
+      "fillInBlanks": [
+        {"sentence": "By December, we will have _____ the wedding venue.", "answer": "finalized"},
+        {"sentence": "By November, I will have _____ to the photographer.", "answer": "spoken"},
+        {"sentence": "By mid-October, we will have _____ and sent all invitations.", "answer": "printed"},
+        {"sentence": "By the wedding day, we will have _____ everything perfectly.", "answer": "planned"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "By when will the invitations have been sent?", "options": ["By September", "By mid-October", "By November", "By December"], "answer": "By mid-October"},
+        {"q": "By when will the groom have spoken to the photographer?", "options": ["By October", "By November", "By December", "By January"], "answer": "By November"}
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Sports Coach and Athlete",
+      "type": "conversation",
+      "audioText": "Coach: Vikram, by the national championship in May, you will have trained for over 1,000 hours. Vikram: Yes, coach. By April, I will have mastered all the new techniques you taught me. Coach: Will you have improved your timing by the March trials? Vikram: Definitely. By February end, I will have reduced my lap time by at least 3 seconds. Coach: Good. By the time the championship arrives, you will have become the strongest competitor we have ever trained.",
+      "hindi": "Coach: Vikram, May की national championship तक, तुमने 1,000 घंटे से ज़्यादा training कर ली होगी। Vikram: हाँ, coach। April तक, मैंने आपके सिखाई सभी नई techniques master कर ली होंगी। Coach: क्या March trials तक timing improve हो जाएगी? Vikram: बिल्कुल। February के अंत तक, मैंने अपना lap time कम से कम 3 seconds कम कर लिया होगा। Coach: Championship आने तक, तुम सबसे strong competitor बन चुके होगे।",
+      "fillInBlanks": [
+        {"sentence": "By the championship, you will have _____ for over 1,000 hours.", "answer": "trained"},
+        {"sentence": "By April, I will have _____ all the new techniques.", "answer": "mastered"},
+        {"sentence": "By February end, I will have _____ my lap time by 3 seconds.", "answer": "reduced"},
+        {"sentence": "By the championship, you will have _____ the strongest competitor.", "answer": "become"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "How many hours will Vikram have trained by May?", "options": ["500 hours", "800 hours", "Over 1,000 hours", "1,500 hours"], "answer": "Over 1,000 hours"},
+        {"q": "By how many seconds will Vikram reduce his lap time?", "options": ["1 second", "2 seconds", "At least 3 seconds", "5 seconds"], "answer": "At least 3 seconds"}
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Real Estate Agent and Buyer",
+      "type": "conversation",
+      "audioText": "Agent: Mr. Mehta, by next month, the builder will have completed the construction of the third floor. Mr. Mehta: And will they have received the occupancy certificate by then? Agent: The builder assures me that by June, they will have obtained all the necessary clearances. Mr. Mehta: By the time I make full payment, will they have registered the property? Agent: Yes, by the time of your final payment, they will have completed the registration process and handed over the keys.",
+      "hindi": "Agent: Mr. Mehta, अगले महीने तक, builder ने third floor की construction पूरी कर ली होगी। Mr. Mehta: और क्या तब तक occupancy certificate भी मिल चुका होगा? Agent: Builder का assurance है कि June तक, सभी ज़रूरी clearances मिल चुकी होंगी। Mr. Mehta: जब मैं full payment करूँ, तब तक property register हो चुकी होगी? Agent: हाँ, आपकी final payment के समय तक, registration process complete होकर keys hand over हो चुकी होंगी।",
+      "fillInBlanks": [
+        {"sentence": "By next month, the builder will have _____ the construction.", "answer": "completed"},
+        {"sentence": "By June, they will have _____ all the necessary clearances.", "answer": "obtained"},
+        {"sentence": "By the time of your final payment, they will have _____ the registration.", "answer": "completed"},
+        {"sentence": "They will have _____ over the keys.", "answer": "handed"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "By when will the builder have obtained all clearances?", "options": ["By next month", "By April", "By June", "By December"], "answer": "By June"},
+        {"q": "What will the builder have done by the time of Mr. Mehta's final payment?", "options": ["Only registered the property", "Completed registration and handed over keys", "Only handed over keys", "Nothing yet"], "answer": "Completed registration and handed over keys"}
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Two Friends — Travel Planning",
+      "type": "conversation",
+      "audioText": "Ananya: Rohan, by next Friday, I will have booked all the flights and hotels for our Rajasthan trip. Rohan: Amazing! And I will have rented a car and planned the daily itinerary by Thursday. Ananya: Will you have gotten travel insurance by then? Rohan: Yes. By Wednesday, I will have compared all the plans and purchased the best one. Ananya: By the time we leave on Saturday, we will have prepared for everything. Rohan: I know! By the time we return, we will have visited Jaipur, Jodhpur, and Udaipur.",
+      "hindi": "Ananya: Rohan, अगले Friday तक, मैंने हमारी Rajasthan trip की सभी flights और hotels book कर ली होंगी। Rohan: Amazing! और मैंने Thursday तक car rent करके daily itinerary plan कर ली होगी। Ananya: क्या तब तक travel insurance भी ले ली होगी? Rohan: हाँ। Wednesday तक, मैंने सभी plans compare करके best वाला purchase कर लिया होगा। Ananya: Saturday को निकलने तक, हमने सब कुछ के लिए prepare कर लिया होगा। Rohan: हाँ! वापस आने तक, हम Jaipur, Jodhpur, और Udaipur visit कर चुके होंगे।",
+      "fillInBlanks": [
+        {"sentence": "By next Friday, I will have _____ all the flights and hotels.", "answer": "booked"},
+        {"sentence": "By Thursday, I will have _____ a car.", "answer": "rented"},
+        {"sentence": "By Wednesday, I will have _____ all the insurance plans.", "answer": "compared"},
+        {"sentence": "By the time we return, we will have _____ three cities.", "answer": "visited"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "What will Ananya have done by next Friday?", "options": ["Rented a car", "Booked flights and hotels", "Purchased insurance", "Made the itinerary"], "answer": "Booked flights and hotels"},
+        {"q": "How many cities will they have visited by the time they return?", "options": ["1", "2", "3", "4"], "answer": "3"}
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Government Announcement — Infrastructure",
+      "type": "monologue",
+      "audioText": "Ladies and gentlemen, by 2027, the government will have completed the construction of 500 new highways across the country. By 2026, we will have connected all villages to broadband internet. The Smart Cities project has been progressing well — by 2028, we will have developed 100 fully smart cities with advanced infrastructure. In the education sector, by 2025, we will have built 10,000 new digital classrooms in government schools. By 2030, our nation will have achieved 100% literacy, and every child will have received quality education regardless of their background.",
+      "hindi": "Ladies and gentlemen, 2027 तक, सरकार ने देश भर में 500 नए highways का निर्माण पूरा कर लिया होगा। 2026 तक, हमने सभी गाँवों को broadband internet से जोड़ लिया होगा। Smart Cities project अच्छी तरह आगे बढ़ रहा है — 2028 तक, हमने 100 fully smart cities develop कर ली होंगी। Education sector में, 2025 तक, हमने सरकारी स्कूलों में 10,000 नए digital classrooms बनाए होंगे। 2030 तक, हमारे देश ने 100% literacy हासिल कर ली होगी।",
+      "fillInBlanks": [
+        {"sentence": "By 2027, the government will have _____ 500 new highways.", "answer": "completed"},
+        {"sentence": "By 2026, we will have _____ all villages to broadband internet.", "answer": "connected"},
+        {"sentence": "By 2028, we will have _____ 100 smart cities.", "answer": "developed"},
+        {"sentence": "By 2030, our nation will have _____ 100% literacy.", "answer": "achieved"}
+      ],
+      "comprehensionQuestions": [
+        {"q": "How many highways will the government have completed by 2027?", "options": ["100", "200", "500", "1000"], "answer": "500"},
+        {"q": "By which year will 100% literacy have been achieved?", "options": ["2025", "2026", "2028", "2030"], "answer": "2030"}
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Speed Listening — Mixed Future Perfect Sentences",
+      "type": "dictation",
+      "audioText": "Listen carefully and write what you hear: 1. By tomorrow, I will have finished the report. 2. She won't have arrived by 6 PM. 3. Will you have completed the project by Friday? 4. By next year, they will have launched a new product. 5. By the time you read this, I will have already left. 6. In 5 years, I will have become a senior manager. 7. By 2030, the company will have expanded globally. 8. Will she have passed her exam by June? 9. By Monday, we won't have received the approval. 10. By then, he will have saved enough money.",
+      "hindi": "ध्यान से सुनें और लिखें: 10 Future Perfect sentences — positive, negative, और questions।",
+      "dictationSentences": [
+        {"number": 1, "sentence": "By tomorrow, I will have finished the report."},
+        {"number": 2, "sentence": "She won't have arrived by 6 PM."},
+        {"number": 3, "sentence": "Will you have completed the project by Friday?"},
+        {"number": 4, "sentence": "By next year, they will have launched a new product."},
+        {"number": 5, "sentence": "By the time you read this, I will have already left."},
+        {"number": 6, "sentence": "In 5 years, I will have become a senior manager."},
+        {"number": 7, "sentence": "By 2030, the company will have expanded globally."},
+        {"number": 8, "sentence": "Will she have passed her exam by June?"},
+        {"number": 9, "sentence": "By Monday, we won't have received the approval."},
+        {"number": 10, "sentence": "By then, he will have saved enough money."}
+      ],
+      "comprehensionQuestions": [
+        {"q": "Which sentence number is in negative form with 'won't have'?", "options": ["Sentence 1", "Sentence 2", "Sentence 3", "Sentence 4"], "answer": "Sentence 2"},
+        {"q": "Which sentences are questions?", "options": ["3 and 8", "2 and 6", "1 and 5", "4 and 7"], "answer": "3 and 8"}
+      ]
+    }
   ],
   "dictationPassage": {
-    "text": "By the end of this year, I will have achieved several important goals. I will have completed my certification, saved enough money, and improved my English skills significantly.",
-    "hindi": "इस साल के अंत तक, मैंने कई महत्वपूर्ण goals हासिल कर लिए होंगे। मैंने अपना certification पूरा कर लिया होगा, पर्याप्त पैसे बचा लिए होंगे, और अपनी English skills को काफी सुधार लिया होगा।"
+    "text": "By the end of this course, I will have mastered the Future Perfect tense. I will have learned how to use 'will have' with the third form of verbs. I will have practiced speaking, writing, listening, and reading. By the time I complete all 75 days, I will have transformed my English completely. I won't have wasted a single day. By then, I will have become the fluent English speaker I always wanted to be.",
+    "hindi": "इस course के अंत तक, मैंने Future Perfect tense master कर लिया होगा। मैंने सीखा होगा कि 'will have' को verbs के third form के साथ कैसे use करते हैं। मैंने speaking, writing, listening, और reading सब practice किया होगा। जब तक मैं सभी 75 days पूरे करूँ, मैंने अपनी English पूरी तरह transform कर ली होगी। मैंने एक भी दिन बर्बाद नहीं किया होगा। तब तक, मैं वह fluent English speaker बन चुका होऊँगा जो मैं हमेशा बनना चाहता था।"
   }
 }

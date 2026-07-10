@@ -1,21 +1,363 @@
 {
   "day": 8,
   "title": "Day 8 Speaking Drill — Will Have (Future Perfect)",
-  "instructions": "हर sentence को ज़ोर से बोलें। Stress marks पर ध्यान दें।",
+  "totalDrills": 25,
+  "instructions": "हर sentence को ज़ोर से बोलें। Pronunciation tips follow करें। Contractions पर ध्यान दें — I'll have, she'll have, we'll have, they'll have। हर drill को कम से कम 3 बार repeat करें।",
   "drills": [
-    { "id": 1, "type": "repeat", "title": "Basic Future Perfect — Repeat Aloud", "sentences": [
-      { "english": "By tomorrow, I will have finished the report.", "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।", "pronunciation": "By to-MOR-row, I will have FIN-ished the re-PORT." },
-      { "english": "By next year, she will have completed her MBA.", "hindi": "अगले साल तक, वह MBA पूरी कर चुकी होगी।", "pronunciation": "By NEXT year, she will have com-PLET-ed her M-B-A." },
-      { "english": "By 5 PM, we will have left the office.", "hindi": "5 बजे तक, हम office से निकल चुके होंगे।", "pronunciation": "By FIVE P-M, we will have LEFT the OF-fice." }
-    ]},
-    { "id": 2, "type": "office", "title": "Office Deadlines — Speak Naturally", "sentences": [
-      { "english": "By Friday, I will have completed the testing phase.", "hindi": "Friday तक, testing phase पूरा हो चुका होगा।", "pronunciation": "By FRI-day, I will have com-PLET-ed the TEST-ing phase." },
-      { "english": "By our next meeting, we will have finalized the design.", "hindi": "हमारी next meeting तक, design finalize हो चुका होगा।", "pronunciation": "By our NEXT MEET-ing, we will have FI-nal-ized the de-SIGN." },
-      { "english": "By Q4, our company will have reached its revenue target.", "hindi": "Q4 तक, revenue target पूरा हो चुका होगा।", "pronunciation": "By Q-FOUR, our COM-pa-ny will have REACHED its REV-e-nue TAR-get." }
-    ]},
-    { "id": 3, "type": "personal_goals", "title": "Personal Goals — Speak Naturally", "sentences": [
-      { "english": "By December, I will have saved enough for my trip.", "hindi": "December तक, trip के लिए पैसे बचा चुका होऊँगा।", "pronunciation": "By De-CEM-ber, I will have SAVED e-NOUGH for my TRIP." },
-      { "english": "In five years, I will have become a senior manager.", "hindi": "5 सालों में, senior manager बन चुका होऊँगा।", "pronunciation": "In FIVE years, I will have be-COME a SEEN-yor MAN-a-ger." }
-    ]}
+    {
+      "id": 1,
+      "type": "repeat",
+      "title": "Basic Future Perfect — By Tomorrow",
+      "instructions": "इन sentences को ज़ोर से पढ़ें। 'will have' पर stress दें।",
+      "sentences": [
+        {"english": "By tomorrow, I will have finished the report.", "hindi": "कल तक, मैं report खत्म कर चुका होऊँगा।", "pronunciation": "By to-MOR-row, I will have FIN-ished the re-PORT.", "tip": "'Will have' को जल्दी से बोलें — 'wil-uhv'"},
+        {"english": "By tomorrow, she will have cooked dinner.", "hindi": "कल तक, वह खाना बना चुकी होगी।", "pronunciation": "By to-MOR-row, she will have COOKED DIN-ner.", "tip": "COOKED पर stress"},
+        {"english": "By tomorrow, we will have packed our bags.", "hindi": "कल तक, हम अपने bags पैक कर चुके होंगे।", "pronunciation": "By to-MOR-row, we will have PACKED our BAGS.", "tip": "PACKED — past participle"},
+        {"english": "By tomorrow morning, he will have left for the airport.", "hindi": "कल सुबह तक, वह airport के लिए निकल चुका होगा।", "pronunciation": "By to-MOR-row MOR-ning, he will have LEFT for the AIR-port.", "tip": "LEFT = leave का V3"},
+        {"english": "By tomorrow evening, they will have reached Mumbai.", "hindi": "कल शाम तक, वे Mumbai पहुँच चुके होंगे।", "pronunciation": "By to-MOR-row EEV-ning, they will have REACHED Mum-BAI.", "tip": "REACHED पर stress दें"}
+      ],
+      "practiceNotes": "By tomorrow के साथ Future Perfect सबसे common है। Morning/Evening जोड़ने से time specific होता है।"
+    },
+    {
+      "id": 2,
+      "type": "repeat",
+      "title": "Basic Future Perfect — By Tonight / By This Evening",
+      "instructions": "आज रात और शाम के समय के साथ practice करें।",
+      "sentences": [
+        {"english": "By tonight, I will have submitted the assignment.", "hindi": "आज रात तक, मैं assignment submit कर चुका होऊँगा।", "pronunciation": "By to-NIGHT, I will have sub-MIT-ted the a-SIGN-ment.", "tip": "submitted = sub-MIT-ted — 3 syllables"},
+        {"english": "By tonight, she will have called her parents.", "hindi": "आज रात तक, उसने अपने parents को call कर लिया होगा।", "pronunciation": "By to-NIGHT, she will have CALLED her PAR-ents.", "tip": "Simple और natural sentence"},
+        {"english": "By this evening, the doctor will have seen all the patients.", "hindi": "आज शाम तक, doctor सभी patients को देख चुका होगा।", "pronunciation": "By this EEV-ning, the DOC-tor will have SEEN all the PAY-shents.", "tip": "SEEN = see का V3"},
+        {"english": "By tonight, we will have watched the entire series.", "hindi": "आज रात तक, हम पूरी series देख चुके होंगे।", "pronunciation": "By to-NIGHT, we will have WATCHED the en-TIRE SEE-rees.", "tip": "entire = पूरी"},
+        {"english": "By this evening, the chef will have prepared the menu.", "hindi": "आज शाम तक, chef menu तैयार कर चुका होगा।", "pronunciation": "By this EEV-ning, the CHEF will have pre-PAIRED the MEN-you.", "tip": "prepared = pre-PAIRED"}
+      ],
+      "practiceNotes": "Tonight और this evening — daily life में बहुत उपयोगी expressions।"
+    },
+    {
+      "id": 3,
+      "type": "repeat",
+      "title": "Basic Future Perfect — By Next Week / Next Month",
+      "instructions": "Longer time expressions के साथ practice करें।",
+      "sentences": [
+        {"english": "By next week, I will have completed the project.", "hindi": "अगले हफ्ते तक, मैं project पूरा कर चुका होऊँगा।", "pronunciation": "By NEXT week, I will have com-PLEE-ted the PRO-ject.", "tip": "NEXT पर slight stress"},
+        {"english": "By next month, she will have saved enough money.", "hindi": "अगले महीने तक, उसने पर्याप्त पैसे बचा लिए होंगे।", "pronunciation": "By NEXT month, she will have SAVED e-NUFF MU-nee.", "tip": "saved = simple past participle"},
+        {"english": "By next year, he will have learned advanced Excel.", "hindi": "अगले साल तक, उसने advanced Excel सीख लिया होगा।", "pronunciation": "By NEXT year, he will have LURND ad-VANST EX-sel.", "tip": "learned/learnt दोनों correct हैं"},
+        {"english": "By next Monday, the team will have reviewed the proposal.", "hindi": "अगले सोमवार तक, team proposal review कर चुकी होगी।", "pronunciation": "By NEXT MUN-day, the TEEM will have re-VYOOD the pro-POH-zal.", "tip": "reviewed = re-VYOOD"},
+        {"english": "By next quarter, we will have exceeded our sales target.", "hindi": "अगले quarter तक, हम अपना sales target पार कर चुके होंगे।", "pronunciation": "By NEXT KWOR-ter, we will have ex-SEED-ed our SAELZ TAR-get.", "tip": "exceeded = ex-SEED-ed"}
+      ],
+      "practiceNotes": "Next week/month/year — planning conversations में सबसे ज़्यादा use होते हैं।"
+    },
+    {
+      "id": 4,
+      "type": "repeat",
+      "title": "Basic Future Perfect — Specific Times (By 5 PM, By 10 AM)",
+      "instructions": "Clock times के साथ Future Perfect बोलें।",
+      "sentences": [
+        {"english": "By 5 PM, I will have finished all my tasks.", "hindi": "शाम 5 बजे तक, मैं अपने सभी tasks खत्म कर चुका होऊँगा।", "pronunciation": "By FIVE PEE-EM, I will have FIN-isht all my TASKS.", "tip": "5 PM = FIVE PEE EM — letters spell out करें"},
+        {"english": "By 9 AM, the office will have opened.", "hindi": "सुबह 9 बजे तक, office खुल चुका होगा।", "pronunciation": "By NINE AY-EM, the OF-fis will have OH-pend.", "tip": "opened = OH-pend"},
+        {"english": "By 3 o'clock, the meeting will have started.", "hindi": "3 बजे तक, meeting शुरू हो चुकी होगी।", "pronunciation": "By THREE O-clock, the MEET-ing will have STAR-ted.", "tip": "o'clock = O-clock"},
+        {"english": "By midnight, they will have celebrated the new year.", "hindi": "आधी रात तक, उन्होंने New Year celebrate कर लिया होगा।", "pronunciation": "By MID-night, they will have SEL-e-bray-ted the NEW YEAR.", "tip": "celebrated = SEL-e-bray-ted"},
+        {"english": "By noon, she will have delivered the presentation.", "hindi": "दोपहर तक, उसने presentation दे दी होगी।", "pronunciation": "By NOON, she will have de-LIV-erd the prez-en-TAY-shun.", "tip": "delivered = de-LIV-erd, presentation = prez-en-TAY-shun"}
+      ],
+      "practiceNotes": "Specific time expressions professional settings में बहुत important हैं।"
+    },
+    {
+      "id": 5,
+      "type": "repeat",
+      "title": "Negative Future Perfect — Won't Have (Part 1)",
+      "instructions": "Negative sentences बोलें। 'won't have' को smooth बोलें — WONT-uhv।",
+      "sentences": [
+        {"english": "By tomorrow, I won't have finished the book.", "hindi": "कल तक, मैं किताब खत्म नहीं कर पाऊँगा।", "pronunciation": "By to-MOR-row, I WONT have FIN-isht the BOOK.", "tip": "won't = will not का short form"},
+        {"english": "By Friday, she won't have received the package.", "hindi": "शुक्रवार तक, उसे package नहीं मिला होगा।", "pronunciation": "By FRY-day, she WONT have re-SEEVD the PAK-ij.", "tip": "received = re-SEEVD"},
+        {"english": "By next year, he won't have paid off his loan.", "hindi": "अगले साल तक, उसने loan नहीं चुकाया होगा।", "pronunciation": "By NEXT year, he WONT have PAID off his LONE.", "tip": "paid off = एक phrase — together बोलें"},
+        {"english": "By Monday, they won't have made a decision.", "hindi": "सोमवार तक, उन्होंने कोई decision नहीं लिया होगा।", "pronunciation": "By MUN-day, they WONT have MADE a de-SI-zhun.", "tip": "decision = de-SI-zhun"},
+        {"english": "By the deadline, she won't have completed the training.", "hindi": "Deadline तक, उसने training पूरी नहीं की होगी।", "pronunciation": "By the DEED-line, she WONT have com-PLEE-ted the TRAY-ning.", "tip": "deadline = DEED-line"}
+      ],
+      "practiceNotes": "Won't have = will not have। Negative Future Perfect बताता है कि कोई काम future point तक नहीं होगा।"
+    },
+    {
+      "id": 6,
+      "type": "repeat",
+      "title": "Negative Future Perfect — Won't Have (Part 2)",
+      "instructions": "और negative sentences practice करें।",
+      "sentences": [
+        {"english": "By 2025, we won't have launched the new product.", "hindi": "2025 तक, हमने नया product launch नहीं किया होगा।", "pronunciation": "By TWO-thou-zand-TWEN-tee-five, we WONT have LAUNCHD the NEW PRO-dukt.", "tip": "launched = LAUNCHD — one syllable"},
+        {"english": "By the time he arrives, I won't have prepared dinner.", "hindi": "उसके आने तक, मैंने खाना तैयार नहीं किया होगा।", "pronunciation": "By the TIME he ar-RIVE-z, I WONT have pre-PAIRD DIN-ner.", "tip": "'By the time' clause — very important structure"},
+        {"english": "She won't have recovered from the illness by Friday.", "hindi": "शुक्रवार तक वह बीमारी से ठीक नहीं हो पाएगी।", "pronunciation": "She WONT have re-CUV-erd from the IL-nes by FRY-day.", "tip": "recovered = re-CUV-erd"},
+        {"english": "By next month, I won't have saved enough for the trip.", "hindi": "अगले महीने तक, मैंने trip के लिए पर्याप्त नहीं बचाया होगा।", "pronunciation": "By NEXT munth, I WONT have SAVED e-NUFF for the TRIP.", "tip": "enough = e-NUFF"},
+        {"english": "By tonight, he won't have replied to all the emails.", "hindi": "आज रात तक, उसने सभी emails का जवाब नहीं दिया होगा।", "pronunciation": "By to-NIGHT, he WONT have re-PLIED to all the EE-mailz.", "tip": "replied = re-PLIED"}
+      ],
+      "practiceNotes": "Negative Future Perfect का use करके आप clearly बता सकते हैं कि कोई goal achieve नहीं होगा।"
+    },
+    {
+      "id": 7,
+      "type": "repeat",
+      "title": "Question Form — Will You Have? (Part 1)",
+      "instructions": "Questions rising intonation के साथ बोलें — आवाज़ ऊपर जाए।",
+      "sentences": [
+        {"english": "Will you have finished the report by 5 PM?", "hindi": "क्या आप शाम 5 बजे तक report खत्म कर लेंगे?", "pronunciation": "Will you have FIN-isht the re-PORT by FIVE PEE-EM?", "tip": "Question में आवाज़ end में ऊपर जाए ↗"},
+        {"english": "Will she have arrived by the time we start?", "hindi": "क्या जब हम शुरू करें तब तक वह पहुँच जाएगी?", "pronunciation": "Will she have ar-RIVED by the TIME we START?", "tip": "By the time = जब तक"},
+        {"english": "Will they have completed the project by Friday?", "hindi": "क्या वे शुक्रवार तक project पूरा कर लेंगे?", "pronunciation": "Will they have com-PLEE-ted the PRO-ject by FRY-day?", "tip": "completed = com-PLEE-ted"},
+        {"english": "Will he have gotten the promotion by next year?", "hindi": "क्या उसे अगले साल तक promotion मिल जाएगी?", "pronunciation": "Will he have GOT-ten the pro-MOH-shun by NEXT year?", "tip": "gotten = American English; got = British English"},
+        {"english": "Will you have saved enough money by December?", "hindi": "क्या आपने December तक पर्याप्त पैसे बचाए होंगे?", "pronunciation": "Will you have SAVED e-NUFF MU-nee by de-SEM-ber?", "tip": "December = de-SEM-ber"}
+      ],
+      "practiceNotes": "Questions में Will सबसे पहले आता है: Will + Subject + have + V3?"
+    },
+    {
+      "id": 8,
+      "type": "repeat",
+      "title": "Question Form — Will You Have? (Part 2)",
+      "instructions": "More question forms — intonation पर focus करें।",
+      "sentences": [
+        {"english": "Will you have submitted the assignment before the deadline?", "hindi": "क्या आपने deadline से पहले assignment submit कर दी होगी?", "pronunciation": "Will you have sub-MIT-ted the a-SIGN-ment be-FORE the DEED-line?", "tip": "before = be-FORE"},
+        {"english": "Will the team have finalized the design by Wednesday?", "hindi": "क्या team बुधवार तक design finalize कर लेगी?", "pronunciation": "Will the TEEM have FY-nal-ized the de-ZINE by WENZ-day?", "tip": "finalized = FY-nal-ized"},
+        {"english": "Will you have learned to drive by next month?", "hindi": "क्या अगले महीने तक आपने गाड़ी चलाना सीख लिया होगा?", "pronunciation": "Will you have LURND to DRIVE by NEXT munth?", "tip": "learned/learnt दोनों OK"},
+        {"english": "Will she have gotten married by 2026?", "hindi": "क्या 2026 तक उसकी शादी हो जाएगी?", "pronunciation": "Will she have GOT-ten MAR-reed by TWO-O-TWO-SIX?", "tip": "married = MAR-reed"},
+        {"english": "Will they have built the new factory by next year?", "hindi": "क्या अगले साल तक उन्होंने नई factory बना ली होगी?", "pronunciation": "Will they have BILT the NEW FAK-tree by NEXT year?", "tip": "built = BILT (build का V3)"}
+      ],
+      "practiceNotes": "Will + subject + have + V3 — यही Future Perfect question का formula है।"
+    },
+    {
+      "id": 9,
+      "type": "roleplay",
+      "title": "Professional — Committing to a Deadline",
+      "instructions": "Office में किसी को deadline confirm करते हुए बोलें। Confident tone रखें।",
+      "sentences": [
+        {"english": "By Friday, I will have completed the testing phase.", "hindi": "Friday तक, मैं testing phase पूरा कर चुका होऊँगा।", "pronunciation": "By FRY-day, I will have com-PLEE-ted the TEST-ing FAYZ.", "tip": "Confident tone — आप committed हैं"},
+        {"english": "By our next meeting, I will have reviewed all the documents.", "hindi": "हमारी अगली meeting तक, मैं सभी documents review कर चुका होऊँगा।", "pronunciation": "By our NEXT MEET-ing, I will have re-VYOOD all the DOK-yu-ments.", "tip": "Meeting context — professional"},
+        {"english": "By Monday, the team will have implemented all the changes.", "hindi": "Monday तक, team सभी changes implement कर चुकी होगी।", "pronunciation": "By MUN-day, the TEEM will have im-pleh-MENT-ed all the CHANJ-ez.", "tip": "implemented = im-pleh-MENT-ed"},
+        {"english": "By the end of this sprint, we will have fixed all the bugs.", "hindi": "इस sprint के अंत तक, हम सभी bugs fix कर चुके होंगे।", "pronunciation": "By the END of this SPRINT, we will have FIKST all the BUGZ.", "tip": "sprint = agile project cycle"},
+        {"english": "By Q3, our company will have reached the revenue target.", "hindi": "Q3 तक, हमारी company revenue target हासिल कर चुकी होगी।", "pronunciation": "By KYOO-THREE, our KUM-puh-nee will have REECHED the REV-eh-nyoo TAR-get.", "tip": "Q3 = Third Quarter"}
+      ],
+      "practiceNotes": "Office में deadlines commit करते समय Future Perfect use करें। Confidence दिखाता है।"
+    },
+    {
+      "id": 10,
+      "type": "roleplay",
+      "title": "Professional — Project Status Update",
+      "instructions": "Team meeting में project status बताएं।",
+      "sentences": [
+        {"english": "By tomorrow, I will have sent the updated report to the client.", "hindi": "कल तक, मैं client को updated report भेज चुका होऊँगा।", "pronunciation": "By to-MOR-row, I will have SENT the up-DAY-ted re-PORT to the CLI-ent.", "tip": "sent = send का V3"},
+        {"english": "By the deadline, we will have deployed the new version.", "hindi": "Deadline तक, हम नया version deploy कर चुके होंगे।", "pronunciation": "By the DEED-line, we will have de-PLOYD the NEW VUR-zhun.", "tip": "deployed = de-PLOYD"},
+        {"english": "By the time you review this, I will have made the corrections.", "hindi": "जब तक आप इसे review करें, मैं corrections कर चुका होऊँगा।", "pronunciation": "By the TIME you re-VYOO this, I will have MADE the ku-REK-shunz.", "tip": "'By the time you...' — very useful clause"},
+        {"english": "By Thursday, the QA team will have finished testing.", "hindi": "गुरुवार तक, QA team testing खत्म कर चुकी होगी।", "pronunciation": "By THURZ-day, the KYOO-AY TEEM will have FIN-isht TEST-ing.", "tip": "QA = Quality Assurance"},
+        {"english": "By our standup tomorrow, I will have resolved the issue.", "hindi": "कल के standup तक, मैंने issue resolve कर लिया होगा।", "pronunciation": "By our STAN-dup to-MOR-row, I will have re-ZOLVD the ISH-yoo.", "tip": "standup = daily team meeting"}
+      ],
+      "practiceNotes": "Professional status updates में Future Perfect bhi काम आता है।"
+    },
+    {
+      "id": 11,
+      "type": "roleplay",
+      "title": "Interview English — Future Plans (Part 1)",
+      "instructions": "Job interview में future plans बताएं। Confident और professional tone।",
+      "sentences": [
+        {"english": "By the time I join, I will have completed my certification.", "hindi": "Join करने तक, मैं अपना certification पूरा कर चुका होऊँगा।", "pronunciation": "By the TIME I JOIN, I will have com-PLEE-ted my sur-tif-ih-KAY-shun.", "tip": "certification = sur-tif-ih-KAY-shun — 5 syllables"},
+        {"english": "By next year, I will have gained 3 years of experience.", "hindi": "अगले साल तक, मुझे 3 साल का experience हो जाएगा।", "pronunciation": "By NEXT year, I will have GAIND THREE years of ex-PEER-ee-ens.", "tip": "gained = GAIND, experience = ex-PEER-ee-ens"},
+        {"english": "By the end of this course, I will have mastered Python.", "hindi": "इस course के अंत तक, मैंने Python master कर लिया होगा।", "pronunciation": "By the END of this KORSE, I will have MAS-terd PY-thon.", "tip": "mastered = MAS-terd"},
+        {"english": "By the time this project ends, I will have led a team of 10.", "hindi": "इस project के अंत तक, मैं 10 लोगों की team lead कर चुका होऊँगा।", "pronunciation": "By the TIME this PRO-ject ENDZ, I will have LED a TEEM of TEN.", "tip": "led = lead का V3"},
+        {"english": "By 2025, I will have completed my MBA from a top institute.", "hindi": "2025 तक, मैंने top institute से MBA पूरा कर लिया होगा।", "pronunciation": "By TWO-O-TWEN-tee-FIVE, I will have com-PLEE-ted my EM-BEE-AY from a TOP IN-stih-tyoot.", "tip": "institute = IN-stih-tyoot"}
+      ],
+      "practiceNotes": "Interview में Future Perfect से आप दिखाते हैं कि आपने future planning की है।"
+    },
+    {
+      "id": 12,
+      "type": "roleplay",
+      "title": "Interview English — Future Plans (Part 2)",
+      "instructions": "5-year plan questions के जवाब दें।",
+      "sentences": [
+        {"english": "In five years, I will have become a senior software engineer.", "hindi": "5 सालों में, मैं senior software engineer बन चुका होऊँगा।", "pronunciation": "In FIVE years, I will have be-CUM a SEEN-yor SOFT-wair en-jih-NEER.", "tip": "become = be-CUM, engineer = en-jih-NEER"},
+        {"english": "By the time I reach 30, I will have managed large-scale projects.", "hindi": "30 की उम्र तक, मैंने large-scale projects manage कर लिए होंगे।", "pronunciation": "By the TIME I REECH THUR-tee, I will have MAN-ijd LARJ-SKAYL PRO-jekts.", "tip": "managed = MAN-ijd"},
+        {"english": "By the end of this year, I will have earned my AWS certification.", "hindi": "इस साल के अंत तक, मैंने AWS certification हासिल कर ली होगी।", "pronunciation": "By the END of this YEAR, I will have URND my AY-DUB-el-yoo-ESS sur-tif-ih-KAY-shun.", "tip": "AWS = Amazon Web Services"},
+        {"english": "Within 3 years of joining, I will have built a strong professional network.", "hindi": "Join करने के 3 साल के भीतर, मैंने strong professional network बना लिया होगा।", "pronunciation": "With-IN THREE years of JOIN-ing, I will have BILT a STRONG pro-FESH-uh-nul NET-wurk.", "tip": "network = NET-wurk"},
+        {"english": "By then, I will have contributed to at least 5 successful product launches.", "hindi": "तब तक, मैं कम से कम 5 successful product launches में contribute कर चुका होऊँगा।", "pronunciation": "By THEN, I will have kon-TRIB-yoo-tid to at LEEST FIVE suk-SES-ful PRO-dukt LAUN-chez.", "tip": "contributed = kon-TRIB-yoo-tid"}
+      ],
+      "practiceNotes": "5-year plan में Future Perfect बहुत impressive लगता है — preparation और planning दिखाता है।"
+    },
+    {
+      "id": 13,
+      "type": "repeat",
+      "title": "Life Goals — By Age Milestones",
+      "instructions": "Age-based life goals बोलें — dreams और aspirations।",
+      "sentences": [
+        {"english": "By the age of 25, I will have started my own startup.", "hindi": "25 साल की उम्र तक, मैंने अपना startup शुरू कर लिया होगा।", "pronunciation": "By the AYJ of TWEN-tee-FIVE, I will have STAR-tid my OWN START-up.", "tip": "startup = START-up"},
+        {"english": "By the age of 30, I will have bought my dream house.", "hindi": "30 साल की उम्र तक, मैंने अपना dream house खरीद लिया होगा।", "pronunciation": "By the AYJ of THUR-tee, I will have BAWT my DREEM HOWS.", "tip": "bought = BAWT (buy का V3)"},
+        {"english": "By 35, I will have traveled to at least 20 countries.", "hindi": "35 तक, मैं कम से कम 20 देशों में travel कर चुका होऊँगा।", "pronunciation": "By THUR-tee-FIVE, I will have TRAV-eld to at LEEST TWEN-tee KUN-treez.", "tip": "traveled = TRAV-eld"},
+        {"english": "By 40, I will have built a successful business.", "hindi": "40 तक, मैंने एक successful business बना लिया होगा।", "pronunciation": "By FOR-tee, I will have BILT a suk-SES-ful BIZ-nes.", "tip": "successful = suk-SES-ful"},
+        {"english": "By 2030, I will have achieved financial freedom.", "hindi": "2030 तक, मैंने financial freedom हासिल कर ली होगी।", "pronunciation": "By TWO-O-THUR-tee, I will have uh-CHEEVD fy-NAN-shul FREE-dum.", "tip": "achieved = uh-CHEEVD, financial = fy-NAN-shul"}
+      ],
+      "practiceNotes": "Life goals express करने के लिए 'By the age of...' और 'By [year]...' बहुत useful हैं।"
+    },
+    {
+      "id": 14,
+      "type": "repeat",
+      "title": "Life Goals — Long-term Dreams",
+      "instructions": "Long-term future goals बड़े confidence से बोलें।",
+      "sentences": [
+        {"english": "By 2030, I will have written and published my first novel.", "hindi": "2030 तक, मैंने अपना पहला novel लिखकर publish कर दिया होगा।", "pronunciation": "By TWO-O-THUR-tee, I will have RIT-ten and PUB-lishd my FURST NOV-ul.", "tip": "written = RIT-ten (write का V3), published = PUB-lisht"},
+        {"english": "By the time I retire, I will have mentored hundreds of young professionals.", "hindi": "Retire होने तक, मैंने सैकड़ों young professionals को mentor किया होगा।", "pronunciation": "By the TIME I re-TIRE, I will have MEN-tord HUN-dredz of YUNG pro-FESH-uh-nulz.", "tip": "mentored = MEN-tord, retire = re-TIRE"},
+        {"english": "By 2035, our company will have expanded to 10 countries.", "hindi": "2035 तक, हमारी company 10 देशों में expand कर चुकी होगी।", "pronunciation": "By TWO-O-THUR-tee-FIVE, our KUM-puh-nee will have ex-PAN-did to TEN KUN-treez.", "tip": "expanded = ex-PAN-did"},
+        {"english": "By the time my children grow up, I will have set a good example.", "hindi": "मेरे बच्चों के बड़े होने तक, मैंने एक अच्छा example set किया होगा।", "pronunciation": "By the TIME my CHIL-dren GROH up, I will have SET a GOOD ex-AM-pul.", "tip": "'By the time' clause with personal context"},
+        {"english": "By 2040, humanity will have found solutions to climate change.", "hindi": "2040 तक, मानवता climate change के solutions खोज चुकी होगी।", "pronunciation": "By TWO-O-FOR-tee, hyoo-MAN-ih-tee will have FOUND so-LOO-shunz to KLY-mit CHANJ.", "tip": "humanity = hyoo-MAN-ih-tee"}
+      ],
+      "practiceNotes": "बड़े dreams को Future Perfect में express करना आपकी aspirations को clear करता है।"
+    },
+    {
+      "id": 15,
+      "type": "repeat",
+      "title": "Contractions — I'll Have, She'll Have, We'll Have",
+      "instructions": "Contractions को smooth और natural बोलें। I will have → I'll have।",
+      "sentences": [
+        {"english": "I'll have finished by tomorrow.", "hindi": "मैं कल तक खत्म कर चुका होऊँगा।", "pronunciation": "I-ull have FIN-isht by to-MOR-row.", "tip": "I'll have = 'eye-ul-uhv' — very smooth, natural sound"},
+        {"english": "She'll have arrived by then.", "hindi": "वह तब तक पहुँच चुकी होगी।", "pronunciation": "Sheel have ar-RIVED by THEN.", "tip": "She'll = SHEEL — one smooth sound"},
+        {"english": "We'll have completed the work by Monday.", "hindi": "हम सोमवार तक काम पूरा कर चुके होंगे।", "pronunciation": "Weel have com-PLEE-tid the WURK by MUN-day.", "tip": "We'll = WEEL"},
+        {"english": "They'll have left before you arrive.", "hindi": "तुम्हारे आने से पहले वे जा चुके होंगे।", "pronunciation": "Theyl have LEFT be-FORE you ar-RIVE.", "tip": "They'll = THEYL — rhymes with 'nail'"},
+        {"english": "He'll have eaten by the time you reach.", "hindi": "तुम्हारे पहुँचने तक वह खाना खा चुका होगा।", "pronunciation": "Heel have EE-ten by the TIME you REECH.", "tip": "He'll = HEEL — rhymes with 'feel'"}
+      ],
+      "practiceNotes": "Contractions use करने से आप more natural और fluent सुनते हैं। Native speakers हमेशा contractions use करते हैं।"
+    },
+    {
+      "id": 16,
+      "type": "repeat",
+      "title": "Contractions — You'll Have, It'll Have, They'll Have",
+      "instructions": "More contractions practice — especially 'it'll have' and 'you'll have'।",
+      "sentences": [
+        {"english": "You'll have understood by the end of this lesson.", "hindi": "इस lesson के अंत तक आप समझ चुके होंगे।", "pronunciation": "Yool have un-dur-STOOD by the END of this LES-un.", "tip": "You'll = YOOL"},
+        {"english": "It'll have stopped raining by morning.", "hindi": "सुबह तक बारिश रुक चुकी होगी।", "pronunciation": "IT-ul have STOPT RAYN-ing by MOR-ning.", "tip": "It'll = IT-ul — can also say 'it will'"},
+        {"english": "By the time we arrive, they'll have already started.", "hindi": "हमारे पहुँचने तक, वे शुरू कर चुके होंगे।", "pronunciation": "By the TIME we ar-RIVE, theyl have ALL-red-ee STAR-tid.", "tip": "already = ALL-red-ee"},
+        {"english": "You'll have learned so much by the end of this course.", "hindi": "इस course के अंत तक आपने बहुत कुछ सीख लिया होगा।", "pronunciation": "Yool have LURND so MUCH by the END of this KORSE.", "tip": "Encouragement sentence — motivational!"},
+        {"english": "By next year, I'll have moved to a bigger city.", "hindi": "अगले साल तक, मैं एक बड़े शहर में shift हो चुका होऊँगा।", "pronunciation": "By NEXT year, I-ul have MOOVD to a BIG-er SIT-ee.", "tip": "moved = MOOVD (move का V3)"}
+      ],
+      "practiceNotes": "It'll, you'll, they'll — ये contractions daily conversation में बहुत आते हैं।"
+    },
+    {
+      "id": 17,
+      "type": "transformation",
+      "title": "Transformation — Simple Future to Future Perfect",
+      "instructions": "Simple Future (will + V1) को Future Perfect (will have + V3) में बदलें।",
+      "sentences": [
+        {"english": "Simple: I will finish the work. → Future Perfect: By 5 PM, I will have finished the work.", "hindi": "Simple: मैं काम खत्म करूँगा। → FP: शाम 5 बजे तक, मैं काम खत्म कर चुका होऊँगा।", "pronunciation": "By FIVE PEE-EM, I will have FIN-isht the WURK.", "tip": "will finish → will have finished। Time expression add करें।"},
+        {"english": "Simple: She will submit the report. → Future Perfect: By Friday, she will have submitted the report.", "hindi": "Simple: वह report submit करेगी। → FP: Friday तक, उसने report submit कर दी होगी।", "pronunciation": "By FRY-day, she will have sub-MIT-tid the re-PORT.", "tip": "submit → submitted। V3 बनाएं।"},
+        {"english": "Simple: They will complete the project. → Future Perfect: By next month, they will have completed the project.", "hindi": "Simple: वे project complete करेंगे। → FP: अगले महीने तक, वे project complete कर चुके होंगे।", "pronunciation": "By NEXT munth, they will have com-PLEE-tid the PRO-jekt.", "tip": "complete → completed"},
+        {"english": "Simple: He will travel to 5 countries. → Future Perfect: By 2026, he will have traveled to 5 countries.", "hindi": "Simple: वह 5 देशों में travel करेगा। → FP: 2026 तक, वह 5 देशों में travel कर चुका होगा।", "pronunciation": "By TWO-O-TWEN-tee-SIX, he will have TRAV-eld to FIVE KUN-treez.", "tip": "travel → traveled"},
+        {"english": "Simple: We will save money. → Future Perfect: By December, we will have saved enough money.", "hindi": "Simple: हम पैसे बचाएंगे। → FP: December तक, हमने पर्याप्त पैसे बचा लिए होंगे।", "pronunciation": "By de-SEM-ber, we will have SAVED e-NUFF MUN-ee.", "tip": "save → saved। 'Enough' add किया"}
+      ],
+      "practiceNotes": "Simple Future → Future Perfect transformation: will + V1 → will have + V3। Time expression add करना ज़रूरी है।"
+    },
+    {
+      "id": 18,
+      "type": "transformation",
+      "title": "Transformation — Present Perfect to Future Perfect",
+      "instructions": "Present Perfect sentences को Future Perfect में transform करें।",
+      "sentences": [
+        {"english": "Present Perfect: I have completed the course. → Future Perfect: By June, I will have completed the course.", "hindi": "Present Perfect: मैंने course पूरा कर लिया है। → FP: June तक, मैंने course पूरा कर लिया होगा।", "pronunciation": "By JOON, I will have com-PLEE-tid the KORSE.", "tip": "have completed → will have completed। Time shift करें।"},
+        {"english": "Present Perfect: She has written 3 novels. → Future Perfect: By 2030, she will have written 10 novels.", "hindi": "Present Perfect: उसने 3 novels लिखे हैं। → FP: 2030 तक, उसने 10 novels लिख लिए होंगे।", "pronunciation": "By TWO-O-THUR-tee, she will have RIT-ten TEN NOV-ulz.", "tip": "has written → will have written"},
+        {"english": "Present Perfect: They have launched 2 products. → Future Perfect: By Q4, they will have launched 5 products.", "hindi": "Present Perfect: उन्होंने 2 products launch किए हैं। → FP: Q4 तक, उन्होंने 5 products launch किए होंगे।", "pronunciation": "By KYOO-FOR, they will have LAUNCHD FIVE PRO-dukts.", "tip": "have launched → will have launched"},
+        {"english": "Present Perfect: He has saved 50,000 rupees. → Future Perfect: By December, he will have saved 1 lakh rupees.", "hindi": "Present Perfect: उसने 50,000 रुपये बचाए हैं। → FP: December तक, उसने 1 lakh रुपये बचाए होंगे।", "pronunciation": "By de-SEM-ber, he will have SAVED ONE LAKH ROO-peez.", "tip": "has saved → will have saved"},
+        {"english": "Present Perfect: We have hired 5 employees. → Future Perfect: By next year, we will have hired 50 employees.", "hindi": "Present Perfect: हमने 5 employees hire किए हैं। → FP: अगले साल तक, हमने 50 employees hire किए होंगे।", "pronunciation": "By NEXT year, we will have HIRED FIF-tee em-PLOY-eez.", "tip": "have hired → will have hired"}
+      ],
+      "practiceNotes": "Present Perfect और Future Perfect के बीच का difference — time reference बदलता है।"
+    },
+    {
+      "id": 19,
+      "type": "roleplay",
+      "title": "Roleplay — Project Manager Confirms Deadline with Team",
+      "instructions": "PM की role play करें। Team को deadline confirm करें।",
+      "sentences": [
+        {"english": "Team, by Friday, we will have completed all three phases of the project.", "hindi": "Team, Friday तक, हम project के तीनों phases पूरे कर चुके होंगे।", "pronunciation": "TEEM, by FRY-day, we will have com-PLEE-tid ALL THREE FAY-ziz of the PRO-jekt.", "tip": "Leadership confidence — clear और direct"},
+        {"english": "By our Monday standup, I will have reviewed everyone's code.", "hindi": "Monday के standup तक, मैं सभी का code review कर चुका होऊँगा।", "pronunciation": "By our MUN-day STAN-dup, I will have re-VYOOD EV-ree-wunz KOHD.", "tip": "everyone's = EV-ree-wunz"},
+        {"english": "By the time the client calls, we will have prepared the demo.", "hindi": "Client के call करने तक, हम demo तैयार कर चुके होंगे।", "pronunciation": "By the TIME the CLI-ent KAWLZ, we will have pre-PAIRD the DEM-oh.", "tip": "demo = DEM-oh"},
+        {"english": "Will the team have fixed the critical bugs by Wednesday?", "hindi": "क्या team बुधवार तक critical bugs fix कर लेगी?", "pronunciation": "Will the TEEM have FIKST the KRIT-ih-kul BUGZ by WENZ-day?", "tip": "Question form in team meeting"},
+        {"english": "By the deadline, we will have delivered a product that exceeds expectations.", "hindi": "Deadline तक, हम एक ऐसा product deliver करेंगे जो expectations से बेहतर हो।", "pronunciation": "By the DEED-line, we will have de-LIV-erd a PRO-dukt that ex-SEEDZ ex-pek-TAY-shunz.", "tip": "exceeds expectations = professional phrase"}
+      ],
+      "practiceNotes": "Project Manager roleplay — confidence, clarity, और commitment दिखाएं।"
+    },
+    {
+      "id": 20,
+      "type": "roleplay",
+      "title": "Roleplay — Team Member Responds to PM",
+      "instructions": "Team member की role play करें — PM के सवालों का जवाब दें।",
+      "sentences": [
+        {"english": "Yes, by Friday, I will have completed the backend API.", "hindi": "हाँ, Friday तक, मैं backend API पूरी कर चुका होऊँगा।", "pronunciation": "YES, by FRY-day, I will have com-PLEE-tid the BACK-end AY-PEE-EYE.", "tip": "Confident affirmative response"},
+        {"english": "I promise, by Monday, I will have resolved all the issues.", "hindi": "मैं वादा करता हूँ, Monday तक, मैं सभी issues resolve कर दूँगा।", "pronunciation": "I PROM-is, by MUN-day, I will have re-ZOLVD ALL the ISH-yooz.", "tip": "I promise = strong commitment"},
+        {"english": "By the time you need the report, I will have already sent it.", "hindi": "जब आपको report चाहिए होगी, मैं उसे पहले ही भेज चुका होऊँगा।", "pronunciation": "By the TIME you NEED the re-PORT, I will have ALL-red-ee SENT it.", "tip": "already = ALL-red-ee — adds extra confidence"},
+        {"english": "Don't worry. By tomorrow morning, the bug will have been fixed.", "hindi": "चिंता मत करो। कल सुबह तक, bug fix हो चुका होगा।", "pronunciation": "DONT WUR-ee. By to-MOR-row MOR-ning, the BUG will have been FIKST.", "tip": "Passive voice: will have been fixed"},
+        {"english": "By our next sync, I will have updated the documentation.", "hindi": "हमारे अगले sync तक, मैं documentation update कर चुका होऊँगा।", "pronunciation": "By our NEXT SINK, I will have up-DAY-tid the dok-yoo-men-TAY-shun.", "tip": "sync = short meeting/call, documentation = dok-yoo-men-TAY-shun"}
+      ],
+      "practiceNotes": "Team member responses — professional commitment और reliability दिखाएं।"
+    },
+    {
+      "id": 21,
+      "type": "roleplay",
+      "title": "Roleplay — Job Interview (Future Plans)",
+      "instructions": "Interviewer के सवालों का confident जवाब दें।",
+      "sentences": [
+        {"english": "By the time I complete my probation, I will have understood all the processes.", "hindi": "Probation period के अंत तक, मैंने सभी processes समझ ली होंगी।", "pronunciation": "By the TIME I com-PLEET my pro-BAY-shun, I will have un-dur-STOOD ALL the PRO-ses-iz.", "tip": "probation = pro-BAY-shun (joining period)"},
+        {"english": "In 2 years with this company, I will have contributed to multiple successful projects.", "hindi": "इस company में 2 साल में, मैं कई successful projects में contribute कर चुका होऊँगा।", "pronunciation": "In TWO years with this KUM-puh-nee, I will have kon-TRIB-yoo-tid to MUL-tih-pul suk-SES-ful PRO-jekts.", "tip": "multiple = MUL-tih-pul"},
+        {"english": "By the end of this year, I will have earned my cloud computing certification.", "hindi": "इस साल के अंत तक, मैंने cloud computing certification ले ली होगी।", "pronunciation": "By the END of this YEAR, I will have URND my KLOWD kom-PYOO-ting sur-tif-ih-KAY-shun.", "tip": "cloud computing = modern tech skill"},
+        {"english": "By the time I leave this role, I will have trained my successor.", "hindi": "इस role छोड़ने तक, मैंने अपने successor को train कर दिया होगा।", "pronunciation": "By the TIME I LEEV this ROHL, I will have TRAYND my suk-SES-ur.", "tip": "successor = the next person to take your role"},
+        {"english": "In 5 years, I will have grown into a leadership position.", "hindi": "5 सालों में, मैं leadership position तक पहुँच चुका होऊँगा।", "pronunciation": "In FIVE years, I will have GROHN in-too a LEED-ur-ship po-ZI-shun.", "tip": "grown into = पहुँचना, develop होना"}
+      ],
+      "practiceNotes": "Interview में Future Perfect दिखाता है कि आप results-oriented हैं।"
+    },
+    {
+      "id": 22,
+      "type": "roleplay",
+      "title": "Roleplay — Interviewer Asks, You Answer",
+      "instructions": "Interviewer का question सुनें, confident answer दें।",
+      "sentences": [
+        {"english": "Q: Where do you see yourself in 5 years? A: In 5 years, I will have become a product manager.", "hindi": "Q: 5 साल में आप खुद को कहाँ देखते हैं? A: 5 सालों में, मैं product manager बन चुका होऊँगा।", "pronunciation": "In FIVE years, I will have be-CUM a PRO-dukt MAN-ih-jur.", "tip": "Classic interview question — perfect answer"},
+        {"english": "Q: What will you achieve in 3 years? A: By then, I will have led at least 2 major product launches.", "hindi": "Q: 3 सालों में क्या achieve करेंगे? A: तब तक, मैं कम से कम 2 major product launches lead कर चुका होऊँगा।", "pronunciation": "By THEN, I will have LED at LEEST TOO MAY-jur PRO-dukt LAUN-chiz.", "tip": "led = lead का V3"},
+        {"english": "Q: Will you have finished your degree before joining? A: Yes, by June, I will have completed my degree.", "hindi": "Q: Join करने से पहले degree पूरी कर लेंगे? A: हाँ, June तक, मैंने degree पूरी कर ली होगी।", "pronunciation": "YES, by JOON, I will have com-PLEE-tid my de-GREE.", "tip": "Direct confident answer"},
+        {"english": "Q: How long will it take to learn our tech stack? A: Within 3 months, I will have mastered your core technologies.", "hindi": "Q: Tech stack सीखने में कितना समय लगेगा? A: 3 महीनों में, मैंने आपकी core technologies master कर ली होंगी।", "pronunciation": "With-IN THREE munths, I will have MAS-terd your KOR tek-NOL-uh-jeez.", "tip": "tech stack = set of programming technologies"},
+        {"english": "By the end of my first year, I will have built strong relationships with all key stakeholders.", "hindi": "पहले साल के अंत तक, मैंने सभी key stakeholders के साथ strong relationships बना ली होंगी।", "pronunciation": "By the END of my FURST YEAR, I will have BILT STRONG re-LAY-shun-ships with ALL KEE STAYK-hohl-durz.", "tip": "stakeholders = STAYK-hohl-durz"}
+      ],
+      "practiceNotes": "Confident interview answers = clear subject + will have + strong V3 + specific timeframe।"
+    },
+    {
+      "id": 23,
+      "type": "roleplay",
+      "title": "Roleplay — Planning a Trip Together",
+      "instructions": "दो दोस्त trip plan कर रहे हैं। Natural conversation style।",
+      "sentences": [
+        {"english": "By the time we reach Goa, we will have driven for 8 hours.", "hindi": "Goa पहुँचने तक, हम 8 घंटे drive कर चुके होंगे।", "pronunciation": "By the TIME we REECH GOH-uh, we will have DRIV-en for AYT OW-urz.", "tip": "driven = drive का V3"},
+        {"english": "By Monday, I will have booked the hotel and confirmed the flights.", "hindi": "Monday तक, मैंने hotel book कर लिया होगा और flights confirm कर ली होंगी।", "pronunciation": "By MUN-day, I will have BOOKT the hoh-TEL and kon-FURMD the FLYTS.", "tip": "booked and confirmed — two actions"},
+        {"english": "Will you have packed your bags by Sunday evening?", "hindi": "क्या रविवार शाम तक आपने bags pack कर लिए होंगे?", "pronunciation": "Will you have PAKT your BAGZ by SUN-day EEV-ning?", "tip": "Travel question — common conversation"},
+        {"english": "By the time we return, we will have visited 5 different places.", "hindi": "वापस आने तक, हम 5 अलग-अलग जगहें देख चुके होंगे।", "pronunciation": "By the TIME we re-TURN, we will have VIZ-ih-tid FIVE DIF-runt PLAY-siz.", "tip": "visited = VIZ-ih-tid"},
+        {"english": "By next week, I'll have arranged everything for the trip.", "hindi": "अगले हफ्ते तक, मैंने trip के लिए सब कुछ arrange कर लिया होगा।", "pronunciation": "By NEXT week, I-ul have uh-RAINJD EV-ree-thing for the TRIP.", "tip": "Contraction: I'll have — natural tone"}
+      ],
+      "practiceNotes": "Travel conversations में Future Perfect = आप planning और excitement दोनों express कर सकते हैं।"
+    },
+    {
+      "id": 24,
+      "type": "roleplay",
+      "title": "Roleplay — Family Planning Future Goals",
+      "instructions": "Family के साथ future plans discuss करें।",
+      "sentences": [
+        {"english": "By the time my son is 18, I will have saved enough for his education.", "hindi": "मेरे बेटे के 18 साल होने तक, मैंने उसकी education के लिए पर्याप्त बचाया होगा।", "pronunciation": "By the TIME my SUN is AY-teen, I will have SAVED e-NUFF for his ed-yoo-KAY-shun.", "tip": "education = ed-yoo-KAY-shun"},
+        {"english": "By 2027, we will have moved to a bigger house.", "hindi": "2027 तक, हम एक बड़े घर में shift हो चुके होंगे।", "pronunciation": "By TWO-O-TWEN-tee-SEV-en, we will have MOOVD to a BIG-ur HOWS.", "tip": "moved = MOOVD"},
+        {"english": "By the time my parents retire, I will have set up my own business.", "hindi": "मेरे माता-पिता के retire होने तक, मैंने अपना business शुरू कर लिया होगा।", "pronunciation": "By the TIME my PAR-ents re-TIRE, I will have SET up my OWN BIZ-nes.", "tip": "set up = establish करना"},
+        {"english": "Will you have finished your course before the wedding?", "hindi": "क्या शादी से पहले आपने course पूरा कर लिया होगा?", "pronunciation": "Will you have FIN-isht your KORSE be-FORE the WED-ing?", "tip": "Wedding planning = important milestone"},
+        {"english": "By the time we celebrate our anniversary, we will have achieved all our goals.", "hindi": "Anniversary मनाने तक, हमने अपने सभी goals हासिल कर लिए होंगे।", "pronunciation": "By the TIME we SEL-uh-brayt our an-ih-VUR-suh-ree, we will have uh-CHEEVD all our GOHLZ.", "tip": "anniversary = an-ih-VUR-suh-ree"}
+      ],
+      "practiceNotes": "Family context में Future Perfect = long-term commitments और responsibilities।"
+    },
+    {
+      "id": 25,
+      "type": "speedDrill",
+      "title": "Speed Drill — Rapid Fire Future Perfect",
+      "instructions": "जितनी जल्दी हो सके, clearly बोलें। हर sentence के बाद pause करें। Timer: 30 seconds per sentence।",
+      "sentences": [
+        {"english": "By tomorrow, I will have done it.", "hindi": "कल तक, मैं यह कर चुका होऊँगा।", "pronunciation": "By to-MOR-row, I will have DONE it.", "tip": "Shortest form — done = do का V3"},
+        {"english": "By then, she will have left.", "hindi": "तब तक, वह जा चुकी होगी।", "pronunciation": "By THEN, she will have LEFT.", "tip": "Very short — practice speed"},
+        {"english": "By 2030, I will have achieved my goals.", "hindi": "2030 तक, मैंने goals हासिल कर लिए होंगे।", "pronunciation": "By TWO-O-THUR-tee, I will have uh-CHEEVD my GOHLZ.", "tip": "achieved = uh-CHEEVD"},
+        {"english": "Will you have finished by Friday?", "hindi": "क्या शुक्रवार तक खत्म हो जाएगा?", "pronunciation": "Will you have FIN-isht by FRY-day?", "tip": "Short question form"},
+        {"english": "By then, they won't have arrived.", "hindi": "तब तक, वे नहीं पहुँचे होंगे।", "pronunciation": "By THEN, they WONT have ar-RIVED.", "tip": "Short negative form"},
+        {"english": "By the time you read this, I will have left.", "hindi": "जब तक तुम यह पढ़ो, मैं जा चुका होऊँगा।", "pronunciation": "By the TIME you READ this, I will have LEFT.", "tip": "Classic 'by the time' clause"},
+        {"english": "By next year, she'll have become a manager.", "hindi": "अगले साल तक, वह manager बन चुकी होगी।", "pronunciation": "By NEXT year, sheel have be-CUM a MAN-ih-jur.", "tip": "Contraction: she'll"},
+        {"english": "We'll have completed it before the deadline.", "hindi": "Deadline से पहले हम इसे complete कर चुके होंगे।", "pronunciation": "Weel have com-PLEE-tid it be-FORE the DEED-line.", "tip": "Contraction: we'll"},
+        {"english": "By 5 PM, I'll have sent the email.", "hindi": "शाम 5 बजे तक, मैं email भेज चुका होऊँगा।", "pronunciation": "By FIVE PEE-EM, I-ul have SENT the EE-mayl.", "tip": "Contraction: I'll"},
+        {"english": "By 2025, he'll have bought a car.", "hindi": "2025 तक, उसने car खरीद ली होगी।", "pronunciation": "By TWO-O-TWEN-tee-FIVE, heel have BAWT a KAR.", "tip": "he'll = HEEL, bought = BAWT"}
+      ],
+      "practiceNotes": "Speed drill के बाद, फिर से slowly practice करें। Speed comes with consistency! 🔥"
+    }
   ]
 }

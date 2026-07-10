@@ -1,10 +1,322 @@
 {
   "day": 8,
-  "title": "Day 8 Writing Exercise — Will Have",
-  "instructions": "नीचे दिए गए prompts के आधार पर अपने शब्दों में English में लिखें।",
+  "topic": "Will Have — Future Perfect",
+  "totalTasks": 20,
+  "instructions": "नीचे दिए गए prompts के आधार पर अपने शब्दों में English में लिखें। हर task में Future Perfect tense (will have + V3) का उपयोग करें। Sample answers से inspire हों, copy न करें।",
   "tasks": [
-    { "id": 1, "type": "guided", "prompt": "Write 5 sentences about your future goals using 'will have'.", "hindiPrompt": "अपने future goals के बारे में 5 sentences 'will have' का इस्तेमाल करके लिखें।", "sampleAnswer": "By next year, I will have completed my certification. By 2028, I will have started my own business. By 30, I will have bought my own house. By June, I will have learned fluent English. By next month, I will have finished this course.", "wordLimit": 60 },
-    { "id": 2, "type": "guided", "prompt": "Write a short professional email using Future Perfect about a project deadline.", "hindiPrompt": "Future Perfect का इस्तेमाल करते हुए एक project deadline के बारे में professional email लिखें।", "sampleAnswer": "Dear Team, By Friday, we will have completed the testing phase and submitted the final report. Please let me know if you have any concerns before then. Regards.", "wordLimit": 80 },
-    { "id": 3, "type": "free", "prompt": "Write your 5-year career plan using will have.", "hindiPrompt": "अपना 5-साल का career plan 'will have' का इस्तेमाल करते हुए लिखें।", "sampleAnswer": null, "wordLimit": 100 }
+    {
+      "id": 1,
+      "type": "sentence-writing",
+      "title": "10 Basic Future Perfect Sentences",
+      "prompt": "Write 10 basic Future Perfect sentences using 'will have + V3'. Use different subjects (I, he, she, we, they) and different verbs.",
+      "hindiPrompt": "10 basic Future Perfect sentences लिखें जिनमें 'will have + V3' हो। अलग-अलग subjects और verbs use करें।",
+      "sampleAnswer": "1. By tomorrow, I will have finished the assignment.\n2. By next year, she will have graduated.\n3. By Monday, he will have sent the report.\n4. By 2025, we will have moved to a new city.\n5. By Friday, they will have completed the testing.\n6. By next month, I will have read 3 books.\n7. By evening, she will have cooked dinner.\n8. By 5 PM, he will have left the office.\n9. By next week, we will have hired two new employees.\n10. By then, they will have already started the meeting.",
+      "wordLimit": 100,
+      "tips": [
+        "Subject + will have + V3 (past participle)",
+        "V3 examples: finished, completed, written, gone, made, sent, seen, bought",
+        "Time expressions: by tomorrow, by next week, by 5 PM, by then",
+        "Har sentence mein time expression zaroor ho"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "sentence-writing",
+      "title": "10 Sentences with By Tomorrow / By Tonight / By Next Week",
+      "prompt": "Write 10 sentences using time expressions: 'by tomorrow', 'by tonight', 'by next week', 'by next month', 'by next year'. Use a variety of verbs.",
+      "hindiPrompt": "'by tomorrow', 'by tonight', 'by next week', 'by next month', 'by next year' — इन time expressions का use करते हुए 10 sentences लिखें।",
+      "sampleAnswer": "1. By tomorrow, I will have submitted the project proposal.\n2. By tonight, she will have called her parents.\n3. By next week, we will have finalized the budget.\n4. By next month, he will have passed the driving test.\n5. By next year, they will have expanded to 3 new cities.\n6. By tomorrow morning, the team will have reviewed the code.\n7. By tonight, I will have packed my bags for the trip.\n8. By next week, she will have received her results.\n9. By next month, we will have launched the new app.\n10. By next year, I will have achieved my savings goal.",
+      "wordLimit": 120,
+      "tips": [
+        "Each sentence should start with 'By...'",
+        "Use different subjects in each sentence",
+        "Vary your verbs: submitted, called, finalized, passed, expanded, reviewed, packed, received, launched, achieved",
+        "Try to write from real life situations"
+      ]
+    },
+    {
+      "id": 3,
+      "type": "sentence-writing",
+      "title": "10 Negative Future Perfect Sentences",
+      "prompt": "Write 10 negative Future Perfect sentences using 'won't have + V3'. Show situations where something will NOT be completed by a certain time.",
+      "hindiPrompt": "'won't have + V3' use करके 10 negative Future Perfect sentences लिखें। ऐसी situations दिखाएं जहाँ कोई काम एक निश्चित समय तक पूरा नहीं होगा।",
+      "sampleAnswer": "1. By Friday, I won't have finished reading the entire novel.\n2. By next year, she won't have saved enough for a car.\n3. By Monday, they won't have received a reply from the client.\n4. By the deadline, he won't have completed all the modules.\n5. By tomorrow, we won't have decided on a new strategy.\n6. By 2025, I won't have paid off my student loan.\n7. By the time you arrive, she won't have cooked dinner.\n8. By evening, he won't have returned from his business trip.\n9. By next month, they won't have implemented the new system.\n10. By then, we won't have hired enough staff for the expansion.",
+      "wordLimit": 120,
+      "tips": [
+        "won't have = will not have — negative form",
+        "Use realistic situations from daily life or work",
+        "won't have + V3: won't have finished, won't have saved, won't have received",
+        "You can also write: will not have (formal version)"
+      ]
+    },
+    {
+      "id": 4,
+      "type": "sentence-writing",
+      "title": "10 Future Perfect Questions",
+      "prompt": "Write 10 questions in Future Perfect tense using 'Will + subject + have + V3?' format.",
+      "hindiPrompt": "'Will + subject + have + V3?' format use करके 10 Future Perfect questions लिखें।",
+      "sampleAnswer": "1. Will you have submitted the assignment by tomorrow?\n2. Will she have completed her MBA by next year?\n3. Will they have signed the contract by Friday?\n4. Will he have arrived before the meeting starts?\n5. Will we have finished the project before the deadline?\n6. Will you have read the entire report by Monday?\n7. Will the team have deployed the update by 6 PM?\n8. Will she have recovered fully by the time we visit?\n9. Will I have earned enough to start my own business by 30?\n10. Will they have launched the product before the competition?",
+      "wordLimit": 120,
+      "tips": [
+        "Start every question with 'Will'",
+        "Structure: Will + Subject + have + V3 + by [time]?",
+        "Rising intonation at the end when speaking",
+        "Common in interviews, planning meetings, and daily conversations"
+      ]
+    },
+    {
+      "id": 5,
+      "type": "paragraph-writing",
+      "title": "My 5-Year Plan — Future Perfect Paragraph",
+      "prompt": "Write a paragraph of 80-100 words about your 5-year plan using Future Perfect tense. Include at least 5 'will have' sentences about your career, education, personal goals, and finances.",
+      "hindiPrompt": "80-100 words में अपना 5-year plan Future Perfect tense में लिखें। Career, education, personal goals और finances के बारे में कम से कम 5 'will have' sentences हों।",
+      "sampleAnswer": "In the next five years, I will have achieved several important milestones. By 2026, I will have completed my post-graduation and earned a professional certification. By 2027, I will have secured a senior position in my company and led a major project. By 2028, I will have saved enough to buy my own home. By 2029, I will have started a side business and grown my investment portfolio. By 2030, I will have traveled to at least 10 countries and fulfilled my biggest dream of financial independence.",
+      "wordLimit": 100,
+      "tips": [
+        "Use 'By [year]' or 'In [time]' to start sentences",
+        "Cover multiple life areas: career, education, money, travel, personal",
+        "Use connecting words: also, additionally, by then, furthermore",
+        "Be specific — specific goals sound more impressive",
+        "Use contractions to sound natural: I'll have, she'll have"
+      ]
+    },
+    {
+      "id": 6,
+      "type": "email-writing",
+      "title": "Professional Email — Project Deadline Confirmation",
+      "prompt": "Write a professional email (80-100 words) to your manager confirming project deadlines. Use Future Perfect tense to describe what will be completed and when.",
+      "hindiPrompt": "अपने manager को एक professional email (80-100 words) लिखें जिसमें project deadlines confirm करें। Future Perfect tense use करें।",
+      "sampleAnswer": "Subject: Project Milestone Update\n\nDear Priya,\n\nI wanted to provide an update on the current project timeline. By this Friday, I will have completed the requirement analysis and shared the document with the team. By next Wednesday, we will have finalized the design mockups for client review. By the end of this month, the development team will have delivered the first working prototype. Please let me know if you need any adjustments to the schedule.\n\nBest regards,\nRohit",
+      "wordLimit": 100,
+      "tips": [
+        "Include: Subject line, Greeting, Body, Sign-off",
+        "Use formal language: 'I wanted to provide', 'Please let me know'",
+        "Multiple will have sentences: I will have, we will have, the team will have",
+        "Be specific about dates and deliverables",
+        "End with a polite closing"
+      ]
+    },
+    {
+      "id": 7,
+      "type": "translation",
+      "title": "Translate 10 Hindi Future Perfect Sentences",
+      "prompt": "Translate the following 10 Hindi sentences into correct English Future Perfect tense.",
+      "hindiPrompt": "नीचे दिए गए 10 Hindi sentences को English Future Perfect tense में translate करें।",
+      "sampleAnswer": "1. अगले साल तक, वह MBA पूरा कर चुका होगा। → By next year, he will have completed his MBA.\n2. शुक्रवार तक, टीम project submit कर चुकी होगी। → By Friday, the team will have submitted the project.\n3. 2030 तक, मैं अपना घर खरीद चुका होऊँगा। → By 2030, I will have bought my own house.\n4. कल रात तक, वह सो चुकी होगी। → By tonight, she will have gone to sleep.\n5. 5 बजे तक, मीटिंग खत्म हो चुकी होगी। → By 5 PM, the meeting will have ended.\n6. अगले महीने तक, उन्होंने नया office खोल लिया होगा। → By next month, they will have opened a new office.\n7. 2025 तक, कंपनी 1000 employees hire कर चुकी होगी। → By 2025, the company will have hired 1000 employees.\n8. कल सुबह तक, driver निकल चुका होगा। → By tomorrow morning, the driver will have left.\n9. इस साल के अंत तक, उसने 5 certifications ले ली होंगी। → By the end of this year, she will have earned 5 certifications.\n10. Deadline से पहले, मैं सारा काम खत्म कर चुका होऊँगा। → Before the deadline, I will have finished all the work.",
+      "wordLimit": 150,
+      "tips": [
+        "Identify the V3 (past participle) for each verb",
+        "Add correct time expression from the Hindi sentence",
+        "Subject + will have + V3 is the core structure",
+        "Check: finished, completed, bought, hired, earned, opened — V3 forms"
+      ]
+    },
+    {
+      "id": 8,
+      "type": "error-correction",
+      "title": "Correct 10 Wrong Future Perfect Sentences",
+      "prompt": "Find and correct the errors in these 10 wrong Future Perfect sentences. Write the corrected version.",
+      "hindiPrompt": "नीचे दिए गए 10 गलत Future Perfect sentences को पहचानें और सही करें। Corrected version लिखें।",
+      "sampleAnswer": "1. WRONG: By tomorrow, I will finished the work. → CORRECT: By tomorrow, I will have finished the work.\n2. WRONG: By next year, she has completed her MBA. → CORRECT: By next year, she will have completed her MBA.\n3. WRONG: Will you completed the report by Friday? → CORRECT: Will you have completed the report by Friday?\n4. WRONG: By 5 PM, he will have leave. → CORRECT: By 5 PM, he will have left.\n5. WRONG: They won't completed the project by Monday. → CORRECT: They won't have completed the project by Monday.\n6. WRONG: By 2025, we will have buy a new car. → CORRECT: By 2025, we will have bought a new car.\n7. WRONG: By the time you arrive, I will finished cooking. → CORRECT: By the time you arrive, I will have finished cooking.\n8. WRONG: She will has submitted the report by Friday. → CORRECT: She will have submitted the report by Friday.\n9. WRONG: By next month, he will have went to London. → CORRECT: By next month, he will have gone to London.\n10. WRONG: Will they have arrive before the party starts? → CORRECT: Will they have arrived before the party starts?",
+      "wordLimit": 200,
+      "tips": [
+        "Common errors: missing 'have', wrong V3, using V1 instead of V3",
+        "will + have + V3 — all three parts are needed",
+        "Wrong V3: buyed → bought, goed → gone, leaved → left, writed → written",
+        "will has is ALWAYS wrong — will have is correct",
+        "Won't completed → won't have completed (missing 'have')"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "dialogue-writing",
+      "title": "Dialogue — Project Manager and Developer",
+      "prompt": "Write a dialogue (8-10 lines) between a Project Manager (PM) and a Developer about project deadlines. The PM asks about progress, the Developer confirms using Future Perfect tense.",
+      "hindiPrompt": "एक Project Manager (PM) और Developer के बीच project deadlines के बारे में 8-10 lines का dialogue लिखें। PM progress पूछे, Developer Future Perfect tense में confirm करे।",
+      "sampleAnswer": "PM: Rahul, will you have completed the user authentication module by Friday?\nRahul: Yes, by Thursday evening, I will have finished coding and unit testing.\nPM: Good. Will the database team have set up the tables by then too?\nRahul: I spoke to Anil. By Wednesday, he will have created all the necessary tables.\nPM: Perfect. What about the API documentation?\nRahul: By Monday next week, I will have written and uploaded the complete API docs.\nPM: Will you have done a code review with the team before Monday?\nRahul: Absolutely. By this Friday itself, we will have reviewed all the pull requests.\nPM: Excellent. So by next Wednesday, we will have delivered everything the client needs?\nRahul: Yes, sir. We're on track. By Tuesday, everything will have been tested and deployed.",
+      "wordLimit": 150,
+      "tips": [
+        "PM should ask questions using 'Will you have...'",
+        "Developer should confirm using 'By [time], I will have...'",
+        "Include realistic tech project tasks: coding, testing, documentation, deployment",
+        "Show collaboration: 'we will have', 'the team will have'",
+        "End with a positive confirmation"
+      ]
+    },
+    {
+      "id": 10,
+      "type": "sentence-writing",
+      "title": "Interview Answers — Future Plans Using Will Have",
+      "prompt": "Write 5 strong interview answers about your future plans using Future Perfect tense. Each answer should be 2-3 sentences long.",
+      "hindiPrompt": "Future Perfect tense use करके अपने future plans के बारे में 5 strong interview answers लिखें। हर answer 2-3 sentences का हो।",
+      "sampleAnswer": "Q1: Where do you see yourself in 3 years?\nA: In 3 years, I will have grown from a junior developer to a senior engineer. I will have led at least two major product launches and mentored junior team members.\n\nQ2: What will you have achieved by the end of your first year with us?\nA: By the end of my first year, I will have mastered your core tech stack and contributed meaningfully to 2-3 key projects. I will have also built strong relationships with all team members.\n\nQ3: Will you have completed your certification before joining?\nA: Yes, by the time I join, I will have cleared my AWS Solutions Architect certification. I am currently in the final stages of preparation.\n\nQ4: What are your 5-year career goals?\nA: By 2029, I will have moved into a leadership role. I will have built expertise in AI and machine learning, and I will have launched at least one successful side project.\n\nQ5: How quickly do you expect to add value?\nA: Within 3 months of joining, I will have fully understood the systems and will have delivered my first independent feature.",
+      "wordLimit": 200,
+      "tips": [
+        "Use Future Perfect to show planning and ambition",
+        "Specific numbers are impressive: 2 projects, 3 months, 5 certifications",
+        "Combine tenses naturally: 'I will have X' and 'I am currently...'",
+        "Use professional vocabulary: mastered, led, contributed, launched, mentored",
+        "Always link your future to the company's benefit"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "paragraph-writing",
+      "title": "Life Goals Essay — By 2035",
+      "prompt": "Write a short essay (100-120 words) titled 'My Life Goals by 2035' using Future Perfect tense throughout. Include goals related to career, family, health, finances, and personal growth.",
+      "hindiPrompt": "'My Life Goals by 2035' title से 100-120 words का एक short essay Future Perfect tense में लिखें। Career, family, health, finances और personal growth से related goals शामिल करें।",
+      "sampleAnswer": "My Life Goals by 2035\n\nBy 2035, I will have transformed my life in every dimension. In my career, I will have risen to a director-level position and will have launched my own consulting firm. Financially, I will have paid off all my loans, built a solid investment portfolio, and purchased my dream home. For my family, I will have provided the best education for my children and will have taken my parents on an international vacation. Health-wise, I will have run a marathon and maintained a consistent fitness routine for over 10 years. Most importantly, I will have become the best version of myself — disciplined, compassionate, and successful.",
+      "wordLimit": 120,
+      "tips": [
+        "Organize by category: career, finance, family, health, personal",
+        "Use 'By 2035' at the beginning and 'By then' for later sentences",
+        "Add variety: not just 'I will have', also 'my children will have', 'my family will have'",
+        "Make it personal and specific — avoid generic statements",
+        "Conclude with an emotional or inspiring line"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "email-writing",
+      "title": "Business Email — Quarterly Progress Report",
+      "prompt": "Write a formal business email (100 words) to the CEO summarizing what the team will have achieved by end of Q4. Use Future Perfect tense for all achievements.",
+      "hindiPrompt": "CEO को एक formal business email (100 words) लिखें जिसमें Q4 के अंत तक team ने क्या हासिल किया होगा यह summarize करें। सभी achievements के लिए Future Perfect tense use करें।",
+      "sampleAnswer": "Subject: Q4 Achievement Forecast\n\nDear Mr. Sharma,\n\nI am pleased to present our projected achievements for Q4. By December 31st, our team will have launched two new product features, onboarded 500 new enterprise clients, and grown our revenue by 35% compared to last quarter. The engineering team will have resolved all critical technical debt, and our customer support team will have achieved a 95% satisfaction rating. Additionally, we will have completed the integration with three major payment gateways. These milestones reflect our commitment to excellence and growth.\n\nWarm regards,\nSunita Verma\nVP Operations",
+      "wordLimit": 100,
+      "tips": [
+        "Use formal salutation: 'Dear Mr./Ms./Dr.'",
+        "List specific achievements with numbers: 500 clients, 35% growth",
+        "Use department names: engineering team, customer support team",
+        "Close professionally: 'Warm regards', 'Best regards', 'Yours sincerely'",
+        "Keep sentences clear and concise"
+      ]
+    },
+    {
+      "id": 13,
+      "type": "translation",
+      "title": "Advanced Hindi to English Translation — Office Context",
+      "prompt": "Translate these 10 office/professional Hindi Future Perfect sentences into natural English.",
+      "hindiPrompt": "नीचे दिए गए 10 office/professional Hindi sentences को natural English में translate करें।",
+      "sampleAnswer": "1. शुक्रवार की meeting तक, मैंने सभी data points analyze कर लिए होंगे। → By Friday's meeting, I will have analyzed all the data points.\n2. Q3 के अंत तक, हमने नई pricing strategy implement कर ली होगी। → By the end of Q3, we will have implemented the new pricing strategy.\n3. Client presentation से पहले, team ने सभी slides prepare कर ली होंगी। → Before the client presentation, the team will have prepared all the slides.\n4. अगले सोमवार तक, HR ने सभी offer letters भेज दिए होंगे। → By next Monday, HR will have sent all the offer letters.\n5. Sprint के अंत तक, developers ने सभी features code कर लिए होंगे। → By the end of the sprint, the developers will have coded all the features.\n6. Product launch से पहले, QA team ने पूरा testing complete कर लिया होगा। → Before the product launch, the QA team will have completed all the testing.\n7. अगले quarter तक, हमने अपना market share 20% बढ़ा लिया होगा। → By next quarter, we will have grown our market share by 20%.\n8. Year-end तक, finance team ने complete audit कर लिया होगा। → By year-end, the finance team will have completed the full audit.\n9. New system launch से पहले, IT team ने सभी data migrate कर दिया होगा। → Before the new system launch, the IT team will have migrated all the data.\n10. Project closure तक, PM ने सभी stakeholders को update दे दिया होगा। → By project closure, the PM will have updated all stakeholders.",
+      "wordLimit": 200,
+      "tips": [
+        "Professional vocabulary: implement, migrate, analyze, onboard, deploy",
+        "Keep the meaning exact — don't add or remove information",
+        "Use 'By' to start when the Hindi says 'तक'",
+        "Use 'Before' when the Hindi says 'से पहले'"
+      ]
+    },
+    {
+      "id": 14,
+      "type": "dialogue-writing",
+      "title": "Job Interview Dialogue — 5-Year Plan",
+      "prompt": "Write a job interview dialogue (8-10 lines) between an Interviewer (I) and a Candidate (C). The interviewer asks about future plans, the candidate answers using Future Perfect tense.",
+      "hindiPrompt": "एक Interviewer (I) और Candidate (C) के बीच future plans के बारे में 8-10 lines का job interview dialogue लिखें।",
+      "sampleAnswer": "I: So, where do you see yourself in 5 years?\nC: In 5 years, I will have grown into a senior data scientist role. I will have led at least 2 end-to-end machine learning projects.\nI: Will you have completed any additional certifications by then?\nC: Absolutely. By next year, I will have earned my Google Professional Data Engineer certification. By 2027, I will have also completed an advanced AI course.\nI: What will you have contributed to our company specifically?\nC: By the end of year 2, I will have built a recommendation engine that improves user retention. By year 3, I will have trained junior analysts and strengthened the team.\nI: Impressive. Will you have used our current tech stack before?\nC: I will have completed hands-on practice with your stack within the first 3 months of joining.",
+      "wordLimit": 150,
+      "tips": [
+        "Interviewer asks questions: 'Will you have...?', 'Where do you see yourself...?'",
+        "Candidate answers with: 'By [time], I will have...'",
+        "Be specific: name certifications, skills, and concrete achievements",
+        "Show growth: junior → senior, individual → team leader",
+        "Sound confident but not arrogant"
+      ]
+    },
+    {
+      "id": 15,
+      "type": "paragraph-writing",
+      "title": "Company Vision Statement — Future Perfect",
+      "prompt": "You are the founder of a startup. Write a 100-word vision paragraph about where your company will be by 2030, using Future Perfect tense throughout.",
+      "hindiPrompt": "आप एक startup के founder हैं। एक 100-word vision paragraph लिखें कि 2030 तक आपकी company कहाँ होगी। पूरे paragraph में Future Perfect tense use करें।",
+      "sampleAnswer": "By 2030, our company will have transformed the way millions of Indians access quality education. We will have built a platform used by over 10 million learners across 20 states. Our team will have grown from 5 co-founders to over 500 passionate employees. We will have raised Series C funding and will have partnered with 50 top universities. By then, our AI-driven personalization engine will have helped 1 million students improve their performance by at least 40%. We will have won multiple national awards for education innovation. Most importantly, we will have made quality learning accessible to every child, regardless of economic background.",
+      "wordLimit": 100,
+      "tips": [
+        "Use 'We will have' as the primary structure",
+        "Include specific numbers: 10 million users, 500 employees, 50 universities",
+        "Show scale and impact — avoid vague statements",
+        "End with a mission-driven statement",
+        "Can use passive: 'will have been recognized', 'will have been adopted'"
+      ]
+    },
+    {
+      "id": 16,
+      "type": "sentence-writing",
+      "title": "By the Time — Complex Sentences",
+      "prompt": "Write 10 sentences using 'By the time + clause + will have'. These are complex Future Perfect sentences.",
+      "hindiPrompt": "'By the time + clause + will have' structure use करके 10 sentences लिखें।",
+      "sampleAnswer": "1. By the time you wake up, I will have already left for the office.\n2. By the time the guests arrive, we will have decorated the entire house.\n3. By the time she finishes her lunch, the meeting will have already started.\n4. By the time they launch the product, the market will have changed completely.\n5. By the time you read this letter, I will have moved to another city.\n6. By the time the project ends, we will have learned so many new skills.\n7. By the time he realizes his mistake, she will have already forgiven him.\n8. By the time the new employee joins, we will have prepared a complete onboarding plan.\n9. By the time the year ends, the government will have implemented the new tax policy.\n10. By the time I turn 30, I will have achieved everything I had dreamed of.",
+      "wordLimit": 150,
+      "tips": [
+        "Structure: By the time + [Subject + Present Simple], [Subject + will have + V3]",
+        "The 'by the time' clause uses Present Simple (not future)",
+        "The main clause uses Future Perfect",
+        "This structure is very common in advanced English",
+        "Example: By the time you read this (present simple), I will have left (future perfect)"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "paragraph-writing",
+      "title": "Travel Blog — A Planned Future Trip",
+      "prompt": "Write a travel blog entry (100 words) about a trip you plan to take. Describe what you will have done, seen, and experienced by the time you return.",
+      "hindiPrompt": "एक trip के बारे में travel blog entry (100 words) लिखें जो आप लेने वाले हैं। बताएं कि वापस आने तक आपने क्या देखा, किया और experience किया होगा।",
+      "sampleAnswer": "My Dream Europe Trip — What I Will Have Done\n\nBy the time I return from my 3-week Europe trip in December, my life will have changed forever. I will have walked through the streets of Paris and stood beneath the Eiffel Tower. I will have explored the canals of Venice and tasted authentic Italian pasta in Rome. By my last day, I will have visited 7 countries, taken over 2,000 photographs, and met travelers from across the world. I will have spent every euro wisely and will have collected memories that no money can buy. I will have finally lived my biggest travel dream.",
+      "wordLimit": 100,
+      "tips": [
+        "Use 'By the time I return' to frame the story",
+        "Include sensory details: food, sights, experiences",
+        "Use a variety of verbs: walked, explored, tasted, visited, met, taken, spent",
+        "Personal and exciting tone — you're writing for a blog!",
+        "End with an emotional punchline"
+      ]
+    },
+    {
+      "id": 18,
+      "type": "error-correction",
+      "title": "Advanced Error Correction — Mixed Tense Errors",
+      "prompt": "These 10 sentences have errors in Future Perfect usage. Identify the error type and write the corrected sentence.",
+      "hindiPrompt": "इन 10 sentences में Future Perfect के errors हैं। Error का type बताएं और corrected sentence लिखें।",
+      "sampleAnswer": "1. ERROR: By next year, I will have go to London. | TYPE: Wrong V3 (go→gone) | CORRECT: By next year, I will have gone to London.\n2. ERROR: She will have been submitted the report. | TYPE: Wrong passive construction | CORRECT: She will have submitted the report.\n3. ERROR: By 5 PM, we will completed the work. | TYPE: Missing 'have' | CORRECT: By 5 PM, we will have completed the work.\n4. ERROR: Will they finished the project by Friday? | TYPE: Missing 'have' in question | CORRECT: Will they have finished the project by Friday?\n5. ERROR: By tomorrow, he wont had eaten. | TYPE: Wrong auxiliary (had→have) | CORRECT: By tomorrow, he won't have eaten.\n6. ERROR: By the time I arrive, she leaved. | TYPE: Wrong tense (leaved→will have left) | CORRECT: By the time I arrive, she will have left.\n7. ERROR: I will have make a decision by Monday. | TYPE: Wrong V3 (make→made) | CORRECT: I will have made a decision by Monday.\n8. ERROR: They will have been complete the course. | TYPE: Extra 'been' | CORRECT: They will have completed the course.\n9. ERROR: By 2025, she will have became a manager. | TYPE: Wrong V3 (became→become) | CORRECT: By 2025, she will have become a manager.\n10. ERROR: Will you have wrote the report by Friday? | TYPE: Wrong V3 (wrote→written) | CORRECT: Will you have written the report by Friday?",
+      "wordLimit": 200,
+      "tips": [
+        "Common V3 errors: go→gone, become→become, write→written, leave→left, make→made",
+        "Always: will + have + V3 (not will + had, not will + V2)",
+        "Question form: Will + Subject + have + V3? (not Will + Subject + V3?)",
+        "Passive Future Perfect: will have been + V3 (only when needed)",
+        "Won't have (not wont had, not won't has)"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "paragraph-writing",
+      "title": "Letter to My Future Self",
+      "prompt": "Write a letter (100 words) to yourself 10 years from now. Describe everything you will have achieved, experienced, and overcome by then. Use Future Perfect throughout.",
+      "hindiPrompt": "अपने आप को 10 साल बाद के लिए एक letter (100 words) लिखें। बताएं कि तब तक आपने क्या achieve किया, experience किया और overcome किया होगा। पूरे letter में Future Perfect use करें।",
+      "sampleAnswer": "Dear Future Me,\n\nBy the time you read this, you will have come so far. You will have overcome every obstacle that seemed impossible today. You will have built the career of your dreams and will have made your parents proud. By then, you will have traveled to places you only saw in photographs, and you will have found inner peace. I hope you will have stayed true to your values and will have helped many people along the way. You will have grown into the person I always believed you could be. This journey will have been worth every sacrifice.\n\nWith love,\nYour Past Self",
+      "wordLimit": 100,
+      "tips": [
+        "Emotional tone — this is a personal letter",
+        "Mix achievements with emotional growth",
+        "Verbs: overcome, built, made proud, traveled, found, stayed, helped, grown",
+        "Use 'By the time you read this' to open",
+        "End with an inspiring emotional closing"
+      ]
+    },
+    {
+      "id": 20,
+      "type": "dialogue-writing",
+      "title": "Advanced Roleplay — Startup Pitch Using Future Perfect",
+      "prompt": "Write a startup pitch dialogue (10-12 lines) between an Investor (INV) and a Startup Founder (F). The founder explains milestones using Future Perfect tense.",
+      "hindiPrompt": "एक Investor (INV) और Startup Founder (F) के बीच startup pitch dialogue (10-12 lines) लिखें। Founder Future Perfect tense use करके milestones explain करे।",
+      "sampleAnswer": "INV: Tell me about your company's milestones for the next 3 years.\nF: By the end of Year 1, we will have acquired our first 10,000 paying customers and will have launched in 3 major cities.\nINV: Will you have achieved profitability by then?\nF: Not yet. By Year 1, we will have reinvested all revenue into growth. But by end of Year 2, we will have broken even and will have built a team of 50 people.\nINV: What will you have built technologically by Year 2?\nF: By then, we will have developed our proprietary AI recommendation engine and will have patented the core technology.\nINV: Impressive. And Year 3?\nF: By Year 3, we will have expanded to 10 cities, will have raised Series A funding, and will have served over 1 million users.\nINV: Will you have considered international markets?\nF: Absolutely. By Year 3, we will have laid the groundwork for Southeast Asian expansion.",
+      "wordLimit": 180,
+      "tips": [
+        "Investor asks questions: 'Will you have...?', 'What will you have...?'",
+        "Founder answers with specific milestones and numbers",
+        "Include tech, finance, team, and market expansion milestones",
+        "Year 1, Year 2, Year 3 progression shows clear planning",
+        "Use professional startup vocabulary: acquired, patented, expanded, raised funding"
+      ]
+    }
   ]
 }

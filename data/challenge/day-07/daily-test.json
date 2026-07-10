@@ -1,467 +1,307 @@
 {
   "day": 7,
   "topic": "Had",
-  "totalQuestions": 30,
+  "totalQuestions": 300,
   "questions": [
-    {
-      "id": 1,
-      "type": "translate",
-      "hindi": "मेरे पास एक कार है।",
-      "options": [
-        {
-          "english": "The company had 100 employees.",
-          "hindi": "कंपनी के पास 100 कर्मचारी थे।"
-        },
-        {
-          "english": "The company had a large team.",
-          "hindi": "कंपनी के पास एक बड़ी टीम थी।"
-        },
-        {
-          "english": "She had written the report.",
-          "hindi": "उसने रिपोर्ट लिख ली थी।"
-        },
-        "I have a car."
-      ],
-      "answer": "I have a car.",
-      "explanation": "Correct translation: \"मेरे पास एक कार है।\" = \"I have a car.\""
-    },
-    {
-      "id": 2,
-      "type": "fill",
-      "sentence": "I had _____ car.",
-      "options": [
-        "motorcycle",
-        "many",
-        "stopped",
-        "a"
-      ],
-      "answer": "a",
-      "explanation": "The missing word is \"a\" — full sentence: \"I had a car.\""
-    },
-    {
-      "id": 3,
-      "type": "error",
-      "sentence": "He have money.",
-      "options": [
-        "He have money.",
-        "He has money."
-      ],
-      "answer": "He has money.",
-      "explanation": "Correct sentence: \"He has money.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 4,
-      "type": "translate",
-      "hindi": "उसके पास पैसे थे।",
-      "options": [
-        {
-          "english": "We had a big house.",
-          "hindi": "हमारे पास एक बड़ा घर था।"
-        },
-        {
-          "english": "I had no problem.",
-          "hindi": "मेरे पास कोई समस्या नहीं थी।"
-        },
-        {
-          "english": "The meeting had ended.",
-          "hindi": "मीटिंग खत्म हो गई थी।"
-        },
-        "He had money."
-      ],
-      "answer": "He had money.",
-      "explanation": "Correct translation: \"उसके पास पैसे थे।\" = \"He had money.\""
-    },
-    {
-      "id": 5,
-      "type": "fill",
-      "sentence": "They have _____ house.",
-      "options": [
-        "lot",
-        "the",
-        "left",
-        "a"
-      ],
-      "answer": "a",
-      "explanation": "The missing word is \"a\" — full sentence: \"They have a house.\""
-    },
-    {
-      "id": 6,
-      "type": "error",
-      "sentence": "They had a house yesterday.",
-      "options": [
-        "They had a house yesterday.",
-        "They had a house."
-      ],
-      "answer": "They had a house.",
-      "explanation": "Correct sentence: \"They had a house.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 7,
-      "type": "translate",
-      "hindi": "कंपनी के पास 100 कर्मचारी हैं।",
-      "options": [
-        {
-          "english": "I had an old book.",
-          "hindi": "मेरे पास एक पुरानी किताब थी।"
-        },
-        {
-          "english": "We had finished the work.",
-          "hindi": "हमने काम खत्म कर लिया था।"
-        },
-        {
-          "english": "The team had completed the project.",
-          "hindi": "टीम ने प्रोजेक्ट पूरा कर लिया था।"
-        },
-        "The company has 100 employees."
-      ],
-      "answer": "The company has 100 employees.",
-      "explanation": "Correct translation: \"कंपनी के पास 100 कर्मचारी हैं।\" = \"The company has 100 employees.\""
-    },
-    {
-      "id": 8,
-      "type": "fill",
-      "sentence": "The company _____ 100 employees.",
-      "options": [
-        "a",
-        "the",
-        "this",
-        "had"
-      ],
-      "answer": "had",
-      "explanation": "The missing word is \"had\" — full sentence: \"The company had 100 employees.\""
-    },
-    {
-      "id": 9,
-      "type": "error",
-      "sentence": "I had a motorcycle yesterday.",
-      "options": [
-        "I had a motorcycle yesterday.",
-        "I had a motorcycle."
-      ],
-      "answer": "I had a motorcycle.",
-      "explanation": "Correct sentence: \"I had a motorcycle.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 10,
-      "type": "translate",
-      "hindi": "उसके पास एक लैपटॉप था।",
-      "options": [
-        {
-          "english": "She had a good idea.",
-          "hindi": "उसके पास एक अच्छा विचार था।"
-        },
-        {
-          "english": "They had already slept.",
-          "hindi": "वे पहले ही सो गए थे।"
-        },
-        {
-          "english": "I didn't have money.",
-          "hindi": "मेरे पास पैसे नहीं थे।"
-        },
-        "She had a laptop."
-      ],
-      "answer": "She had a laptop.",
-      "explanation": "Correct translation: \"उसके पास एक लैपटॉप था।\" = \"She had a laptop.\""
-    },
-    {
-      "id": 11,
-      "type": "fill",
-      "sentence": "We had _____ big house.",
-      "options": [
-        "problem",
-        "ended",
-        "apologized",
-        "a"
-      ],
-      "answer": "a",
-      "explanation": "The missing word is \"a\" — full sentence: \"We had a big house.\""
-    },
-    {
-      "id": 12,
-      "type": "error",
-      "sentence": "They had a lot of money yesterday.",
-      "options": [
-        "They had a lot of money yesterday.",
-        "They had a lot of money."
-      ],
-      "answer": "They had a lot of money.",
-      "explanation": "Correct sentence: \"They had a lot of money.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 13,
-      "type": "translate",
-      "hindi": "उसके पास एक अच्छा बॉस था।",
-      "options": [
-        {
-          "english": "He had gone.",
-          "hindi": "वह जा चुका था।"
-        },
-        {
-          "english": "He had admitted the mistake.",
-          "hindi": "उसने गलती स्वीकार कर ली थी।"
-        },
-        {
-          "english": "They hadn't eaten.",
-          "hindi": "उन्होंने खाना नहीं खाया था।"
-        },
-        "He had a good boss."
-      ],
-      "answer": "He had a good boss.",
-      "explanation": "Correct translation: \"उसके पास एक अच्छा बॉस था।\" = \"He had a good boss.\""
-    },
-    {
-      "id": 14,
-      "type": "fill",
-      "sentence": "I had _____ old book.",
-      "options": [
-        "the",
-        "completed",
-        "yet",
-        "an"
-      ],
-      "answer": "an",
-      "explanation": "The missing word is \"an\" — full sentence: \"I had an old book.\""
-    },
-    {
-      "id": 15,
-      "type": "error",
-      "sentence": "The company had a large team yesterday.",
-      "options": [
-        "The company had a large team yesterday.",
-        "The company had a large team."
-      ],
-      "answer": "The company had a large team.",
-      "explanation": "Correct sentence: \"The company had a large team.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 16,
-      "type": "translate",
-      "hindi": "बच्चे के पास बहुत खिलौने थे।",
-      "options": [
-        {
-          "english": "The rain had stopped.",
-          "hindi": "बारिश रुक गई थी।"
-        },
-        {
-          "english": "She had never been abroad.",
-          "hindi": "वह कभी विदेश नहीं गई थी।"
-        },
-        {
-          "english": "The team hadn't made the report.",
-          "hindi": "टीम ने रिपोर्ट नहीं बनाई थी।"
-        },
-        "The child had many toys."
-      ],
-      "answer": "The child had many toys.",
-      "explanation": "Correct translation: \"बच्चे के पास बहुत खिलौने थे।\" = \"The child had many toys.\""
-    },
-    {
-      "id": 17,
-      "type": "fill",
-      "sentence": "She had _____ good idea.",
-      "options": [
-        "slept",
-        "money",
-        "any",
-        "a"
-      ],
-      "answer": "a",
-      "explanation": "The missing word is \"a\" — full sentence: \"She had a good idea.\""
-    },
-    {
-      "id": 18,
-      "type": "error",
-      "sentence": "I had no problem yesterday.",
-      "options": [
-        "I had no problem yesterday.",
-        "I had no problem."
-      ],
-      "answer": "I had no problem.",
-      "explanation": "Correct sentence: \"I had no problem.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 19,
-      "type": "translate",
-      "hindi": "मैंने खाना खा लिया था।",
-      "options": [
-        {
-          "english": "The train had left.",
-          "hindi": "ट्रेन निकल चुकी थी।"
-        },
-        {
-          "english": "We didn't have time.",
-          "hindi": "हमारे पास समय नहीं था।"
-        },
-        {
-          "english": "The company didn't have a budget.",
-          "hindi": "कंपनी के पास बजट नहीं था।"
-        },
-        "I had eaten the food."
-      ],
-      "answer": "I had eaten the food.",
-      "explanation": "Correct translation: \"मैंने खाना खा लिया था।\" = \"I had eaten the food.\""
-    },
-    {
-      "id": 20,
-      "type": "fill",
-      "sentence": "He _____ gone.",
-      "options": [
-        "the",
-        "eaten",
-        "a",
-        "had"
-      ],
-      "answer": "had",
-      "explanation": "The missing word is \"had\" — full sentence: \"He had gone.\""
-    },
-    {
-      "id": 21,
-      "type": "error",
-      "sentence": "We had finished the work yesterday.",
-      "options": [
-        "We had finished the work yesterday.",
-        "We had finished the work."
-      ],
-      "answer": "We had finished the work.",
-      "explanation": "Correct sentence: \"We had finished the work.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 22,
-      "type": "translate",
-      "hindi": "उसने रिपोर्ट लिख ली थी।",
-      "options": [
-        {
-          "english": "I had watched this film before.",
-          "hindi": "मैंने यह फिल्म पहले देख ली थी।"
-        },
-        {
-          "english": "I hadn't seen him before.",
-          "hindi": "मैंने उसे पहले नहीं देखा था।"
-        },
-        {
-          "english": "Had you eaten the food?",
-          "hindi": "क्या तुमने खाना खा लिया था?"
-        },
-        "She had written the report."
-      ],
-      "answer": "She had written the report.",
-      "explanation": "Correct translation: \"उसने रिपोर्ट लिख ली थी।\" = \"She had written the report.\""
-    },
-    {
-      "id": 23,
-      "type": "fill",
-      "sentence": "The rain _____ stopped.",
-      "options": [
-        "been",
-        "made",
-        "gone",
-        "had"
-      ],
-      "answer": "had",
-      "explanation": "The missing word is \"had\" — full sentence: \"The rain had stopped.\""
-    },
-    {
-      "id": 24,
-      "type": "error",
-      "sentence": "They had already slept yesterday.",
-      "options": [
-        "They had already slept yesterday.",
-        "They had already slept."
-      ],
-      "answer": "They had already slept.",
-      "explanation": "Correct sentence: \"They had already slept.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 25,
-      "type": "translate",
-      "hindi": "मीटिंग खत्म हो गई थी।",
-      "options": [
-        {
-          "english": "She didn't have a phone.",
-          "hindi": "उसके पास फोन नहीं था।"
-        },
-        {
-          "english": "He hadn't apologized.",
-          "hindi": "उसने माफी नहीं मांगी थी।"
-        },
-        {
-          "english": "Did you have any suggestion?",
-          "hindi": "क्या तुम्हारे पास कोई सुझाव था?"
-        },
-        "The meeting had ended."
-      ],
-      "answer": "The meeting had ended.",
-      "explanation": "Correct translation: \"मीटिंग खत्म हो गई थी।\" = \"The meeting had ended.\""
-    },
-    {
-      "id": 26,
-      "type": "fill",
-      "sentence": "The train _____ left.",
-      "options": [
-        "time",
-        "have",
-        "been",
-        "had"
-      ],
-      "answer": "had",
-      "explanation": "The missing word is \"had\" — full sentence: \"The train had left.\""
-    },
-    {
-      "id": 27,
-      "type": "error",
-      "sentence": "He had admitted the mistake yesterday.",
-      "options": [
-        "He had admitted the mistake yesterday.",
-        "He had admitted the mistake."
-      ],
-      "answer": "He had admitted the mistake.",
-      "explanation": "Correct sentence: \"He had admitted the mistake.\". The version shown had a grammar mistake."
-    },
-    {
-      "id": 28,
-      "type": "translate",
-      "hindi": "टीम ने प्रोजेक्ट पूरा कर लिया था।",
-      "options": [
-        {
-          "english": "She hadn't come yet.",
-          "hindi": "वह अभी तक नहीं आई थी।"
-        },
-        {
-          "english": "Did she have money?",
-          "hindi": "क्या उसके पास पैसे थे?"
-        },
-        {
-          "english": "Did they have a plan?",
-          "hindi": "क्या उनके पास कोई योजना थी?"
-        },
-        "The team had completed the project."
-      ],
-      "answer": "The team had completed the project.",
-      "explanation": "Correct translation: \"टीम ने प्रोजेक्ट पूरा कर लिया था।\" = \"The team had completed the project.\""
-    },
-    {
-      "id": 29,
-      "type": "fill",
-      "sentence": "I had watched _____ film before.",
-      "options": [
-        "him",
-        "the",
-        "completed",
-        "this"
-      ],
-      "answer": "this",
-      "explanation": "The missing word is \"this\" — full sentence: \"I had watched this film before.\""
-    },
-    {
-      "id": 30,
-      "type": "error",
-      "sentence": "She had never been abroad yesterday.",
-      "options": [
-        "She had never been abroad yesterday.",
-        "She had never been abroad."
-      ],
-      "answer": "She had never been abroad.",
-      "explanation": "Correct sentence: \"She had never been abroad.\". The version shown had a grammar mistake."
-    }
+    {"id":1,"type":"translate","hindi":"मेरे पास एक कार है।","options":["I had a car.","I have a car.","I have had a car.","I was having a car."],"answer":"I have a car.","explanation":"Present possession: 'have' = है। 'had' = था (past)।","category":"Past Possession","difficulty":"easy"},
+    {"id":2,"type":"fill","hindi":null,"sentence":"I had _____ car last year.","options":["motorcycle","many","stopped","a"],"answer":"a","explanation":"'a' article चाहिए — I had a car last year।","category":"Past Possession","difficulty":"easy"},
+    {"id":3,"type":"error","hindi":null,"sentence":"He have money yesterday.","options":["He have money yesterday.","He had money yesterday."],"answer":"He had money yesterday.","explanation":"Past tense में 'have' नहीं, 'had' आता है।","category":"Past Possession","difficulty":"easy"},
+    {"id":4,"type":"translate","hindi":"उसके पास पैसे थे।","options":["He has money.","He have money.","He had money.","He is having money."],"answer":"He had money.","explanation":"Past possession: 'had' = था/थे। He had money.","category":"Past Possession","difficulty":"easy"},
+    {"id":5,"type":"fill","hindi":null,"sentence":"They _____ a big house before.","options":["has","have","haved","had"],"answer":"had","explanation":"Past tense में सभी subjects के साथ 'had' आता है।","category":"Past Possession","difficulty":"easy"},
+    {"id":6,"type":"error","hindi":null,"sentence":"She haved a laptop.","options":["She haved a laptop.","She had a laptop."],"answer":"She had a laptop.","explanation":"'Haved' गलत है — past tense में हमेशा 'had' आता है।","category":"Past Possession","difficulty":"easy"},
+    {"id":7,"type":"translate","hindi":"हमारे पास एक बड़ा घर था।","options":["We have a big house.","We had a big house.","We had big houses.","We are having a big house."],"answer":"We had a big house.","explanation":"We + had + adjective + noun = past possession।","category":"Past Possession","difficulty":"easy"},
+    {"id":8,"type":"fill","hindi":null,"sentence":"The company had _____ employees last year.","options":["a","the","100","go"],"answer":"100","explanation":"'100 employees' = पिछले साल company के पास 100 employees थे।","category":"Past Possession","difficulty":"easy"},
+    {"id":9,"type":"error","hindi":null,"sentence":"I had a motorcycle yesterday in 2010.","options":["I had a motorcycle yesterday in 2010.","I had a motorcycle in 2010."],"answer":"I had a motorcycle in 2010.","explanation":"'Yesterday' और 'in 2010' एक साथ नहीं आते — एक time expression पर्याप्त है।","category":"Past Possession","difficulty":"medium"},
+    {"id":10,"type":"translate","hindi":"उनके पास बहुत खिलौने थे।","options":["They have many toys.","They had many toys.","They had a toy.","They had been toys."],"answer":"They had many toys.","explanation":"Plural: 'many toys' के साथ 'had' past possession।","category":"Past Possession","difficulty":"easy"},
+    {"id":11,"type":"fill","hindi":null,"sentence":"She had _____ good job at that time.","options":["an","the","been","have"],"answer":"a","explanation":"'a good job' — 'good' से पहले 'a' article।","category":"Past Possession","difficulty":"easy"},
+    {"id":12,"type":"error","hindi":null,"sentence":"He had a lot of moneys.","options":["He had a lot of moneys.","He had a lot of money."],"answer":"He had a lot of money.","explanation":"'Money' uncountable noun है — plural 'moneys' नहीं।","category":"Past Possession","difficulty":"easy"},
+    {"id":13,"type":"translate","hindi":"उसके पास एक कुत्ता था।","options":["She has a dog.","She have a dog.","She had a dog.","She was having a dog."],"answer":"She had a dog.","explanation":"Past possession: She had + a + noun।","category":"Past Possession","difficulty":"easy"},
+    {"id":14,"type":"fill","hindi":null,"sentence":"I had long _____ when I was young.","options":["have","hair","had","go"],"answer":"hair","explanation":"'Long hair' = लंबे बाल। I had long hair = मेरे लंबे बाल थे।","category":"Past Possession","difficulty":"easy"},
+    {"id":15,"type":"error","hindi":null,"sentence":"We hads a meeting yesterday.","options":["We hads a meeting yesterday.","We had a meeting yesterday."],"answer":"We had a meeting yesterday.","explanation":"'Hads' गलत है — 'had' कभी नहीं बदलता।","category":"Past Possession","difficulty":"easy"},
+    {"id":16,"type":"translate","hindi":"उस समय मेरे पास फोन नहीं था।","options":["I don't have a phone at that time.","I didn't have a phone at that time.","I hadn't a phone at that time.","I not had a phone at that time."],"answer":"I didn't have a phone at that time.","explanation":"Negative past possession: didn't have (have के साथ didn't)।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":17,"type":"fill","hindi":null,"sentence":"She _____ have a car before.","options":["wasn't","didn't","hadn't","not"],"answer":"didn't","explanation":"Negative past possession: didn't + have (not 'hadn't have')।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":18,"type":"error","hindi":null,"sentence":"They hadn't have money.","options":["They hadn't have money.","They didn't have money."],"answer":"They didn't have money.","explanation":"'Hadn't have' गलत — negative possession के लिए 'didn't have' आता है।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":19,"type":"translate","hindi":"क्या उसके पास बाइक थी?","options":["Does she have a bike?","Did she have a bike?","Had she have a bike?","Was she having a bike?"],"answer":"Did she have a bike?","explanation":"Past possession question: Did + subject + have?","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":20,"type":"fill","hindi":null,"sentence":"_____ you have a bicycle when you were young?","options":["Was","Had","Did","Were"],"answer":"Did","explanation":"Past simple question: Did + subject + have? (possession)।","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":21,"type":"error","hindi":null,"sentence":"Did he had a car?","options":["Did he had a car?","Did he have a car?"],"answer":"Did he have a car?","explanation":"'Did' के बाद always base verb 'have' — 'had' नहीं।","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":22,"type":"translate","hindi":"मैंने खाना खा लिया था।","options":["I ate food.","I had eaten food.","I was eating food.","I have eaten food."],"answer":"I had eaten food.","explanation":"Past Perfect: I + had + V3 (eaten)। = मैंने खा लिया था।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":23,"type":"fill","hindi":null,"sentence":"She had _____ the letter before he arrived.","options":["write","writing","wrote","written"],"answer":"written","explanation":"Past Perfect: had + V3 → 'written' (V3 of write)।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":24,"type":"error","hindi":null,"sentence":"He had went home before dinner.","options":["He had went home before dinner.","He had gone home before dinner."],"answer":"He had gone home before dinner.","explanation":"'Went' V2 है — past perfect में V3 'gone' चाहिए।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":25,"type":"translate","hindi":"जब मैं पहुँचा, वह जा चुका था।","options":["When I arrived, he went.","When I arrived, he had gone.","When I arrived, he has gone.","When I arrived, he was going."],"answer":"When I arrived, he had gone.","explanation":"Past Perfect time clause: जो पहले हुआ उसके लिए 'had + V3'।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":26,"type":"fill","hindi":null,"sentence":"By the time she called, I had already _____.","options":["leave","leaving","left","leaves"],"answer":"left","explanation":"Past Perfect: had + V3 → 'left' (V3 of leave)।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":27,"type":"error","hindi":null,"sentence":"Before she came, I have finished.","options":["Before she came, I have finished.","Before she came, I had finished."],"answer":"Before she came, I had finished.","explanation":"Two past actions: earlier action में 'had finished' (past perfect)।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":28,"type":"translate","hindi":"वह पहले ही जा चुकी थी।","options":["She already went.","She has already gone.","She had already gone.","She was already going."],"answer":"She had already gone.","explanation":"'Already' के साथ past perfect: had + already + V3।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":29,"type":"fill","hindi":null,"sentence":"He had _____ arrived when the meeting started.","options":["already","yet","never","always"],"answer":"already","explanation":"'had already arrived' = वह पहले ही आ चुका था।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":30,"type":"error","hindi":null,"sentence":"I had just leave the office.","options":["I had just leave the office.","I had just left the office."],"answer":"I had just left the office.","explanation":"'had + just + V3' → 'left' (V3 of leave), not base verb।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":31,"type":"translate","hindi":"मैंने वह फिल्म पहले कभी नहीं देखी थी।","options":["I never saw that film.","I had never seen that film.","I haven't seen that film.","I didn't see that film ever."],"answer":"I had never seen that film.","explanation":"'Never' के साथ past perfect: had + never + V3।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":32,"type":"fill","hindi":null,"sentence":"She had _____ been to Paris before that trip.","options":["already","never","yet","just"],"answer":"never","explanation":"'had never been' = वह पहले कभी नहीं गई थी।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":33,"type":"error","hindi":null,"sentence":"They had just arrived yet.","options":["They had just arrived yet.","They had just arrived."],"answer":"They had just arrived.","explanation":"'Just' और 'yet' एक साथ नहीं — 'just' positive में, 'yet' negative में।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":34,"type":"translate","hindi":"मैंने रिपोर्ट अभी तक खत्म नहीं की थी।","options":["I didn't finish the report yet.","I hadn't finished the report yet.","I haven't finished the report yet.","I not finished the report yet."],"answer":"I hadn't finished the report yet.","explanation":"Negative past perfect: hadn't + V3 + yet।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":35,"type":"fill","hindi":null,"sentence":"She _____ completed the project when the deadline came.","options":["doesn't","hasn't","hadn't","didn't"],"answer":"hadn't","explanation":"Past perfect negative: hadn't + V3 (completed)।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":36,"type":"error","hindi":null,"sentence":"He didn't had eaten before the meeting.","options":["He didn't had eaten before the meeting.","He hadn't eaten before the meeting."],"answer":"He hadn't eaten before the meeting.","explanation":"Past perfect negative: hadn't + V3, not 'didn't had'।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":37,"type":"translate","hindi":"क्या आपने पहले यह किताब पढ़ी थी?","options":["Did you read this book before?","Have you read this book before?","Had you read this book before?","Were you reading this book before?"],"answer":"Had you read this book before?","explanation":"Past perfect question: Had + subject + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":38,"type":"fill","hindi":null,"sentence":"_____ she finished her work before leaving?","options":["Did","Was","Had","Has"],"answer":"Had","explanation":"Past perfect question: Had + subject + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":39,"type":"error","hindi":null,"sentence":"Had you ate before coming?","options":["Had you ate before coming?","Had you eaten before coming?"],"answer":"Had you eaten before coming?","explanation":"Past perfect: Had + subject + V3 → 'eaten' (V3 of eat), not 'ate' (V2)।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":40,"type":"translate","hindi":"जब तक बॉस आया, टीम काम खत्म कर चुकी थी।","options":["When the boss came, the team finished.","By the time the boss came, the team had finished.","The boss came and the team finished.","When the boss came, the team has finished."],"answer":"By the time the boss came, the team had finished.","explanation":"'By the time' clause: earlier action में past perfect।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":41,"type":"fill","hindi":null,"sentence":"By the time they reached, the train had already _____.","options":["leave","leaving","left","leaves"],"answer":"left","explanation":"had + V3 → 'left'. 'By the time' के साथ past perfect।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":42,"type":"error","hindi":null,"sentence":"By the time I arrived, she has left.","options":["By the time I arrived, she has left.","By the time I arrived, she had left."],"answer":"By the time I arrived, she had left.","explanation":"'By the time + past simple' के साथ 'had + V3' आता है, 'has' नहीं।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":43,"type":"translate","hindi":"हमने project deadline से पहले पूरा कर लिया था।","options":["We completed the project before the deadline.","We had completed the project before the deadline.","We have completed the project before the deadline.","We were completing before the deadline."],"answer":"We had completed the project before the deadline.","explanation":"Professional context: past perfect दिखाता है कि deadline से पहले काम हो गया था।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":44,"type":"fill","hindi":null,"sentence":"She had _____ the report before the manager asked.","options":["submit","submitting","submitted","submits"],"answer":"submitted","explanation":"had + V3 → 'submitted' (V3 of submit)।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":45,"type":"error","hindi":null,"sentence":"The team had complete the project.","options":["The team had complete the project.","The team had completed the project."],"answer":"The team had completed the project.","explanation":"Past perfect: had + V3 → 'completed', not base verb 'complete'।","category":"Past Perfect — Professional","difficulty":"easy"},
+    {"id":46,"type":"translate","hindi":"मेरी पिछले कंपनी में एक अच्छी position थी।","options":["I have a good position at my previous company.","I had a good position at my previous company.","I was having a good position.","I did have a good position."],"answer":"I had a good position at my previous company.","explanation":"Professional: past possession — had + noun।","category":"Past Possession — Professional","difficulty":"medium"},
+    {"id":47,"type":"fill","hindi":null,"sentence":"She had _____ over 50 clients in her previous role.","options":["manage","managing","managed","manages"],"answer":"managed","explanation":"Past perfect: had + V3 → 'managed'।","category":"Past Possession — Professional","difficulty":"medium"},
+    {"id":48,"type":"error","hindi":null,"sentence":"He had a position of manager at his old company before.","options":["He had a position of manager at his old company before.","He had the position of manager at his old company."],"answer":"He had the position of manager at his old company.","explanation":"'The position of manager' — specific title के साथ 'the' article।","category":"Past Possession — Professional","difficulty":"hard"},
+    {"id":49,"type":"translate","hindi":"हमने मीटिंग की थी।","options":["We have a meeting.","We had a meeting.","We did have meeting.","We were having meeting."],"answer":"We had a meeting.","explanation":"Common expression: had a meeting = मीटिंग थी/हुई।","category":"Common Expressions","difficulty":"easy"},
+    {"id":50,"type":"fill","hindi":null,"sentence":"I had _____ at the conference last year.","options":["a great time","great times","the great time","greatly"],"answer":"a great time","explanation":"'had a great time' = बहुत अच्छा समय बिताया।","category":"Common Expressions","difficulty":"easy"},
+    {"id":51,"type":"error","hindi":null,"sentence":"We had dinner together last night, we enjoyed it.","options":["We had dinner together last night, we enjoyed it.","We had dinner together last night and enjoyed it."],"answer":"We had dinner together last night and enjoyed it.","explanation":"दो clauses को 'and' से जोड़ना बेहतर है comma splice से।","category":"Common Expressions","difficulty":"medium"},
+    {"id":52,"type":"translate","hindi":"यदि मुझे पता होता, मैं मदद करता।","options":["If I know, I will help.","If I knew, I would help.","If I had known, I would have helped.","If I would have known, I helped."],"answer":"If I had known, I would have helped.","explanation":"Third conditional: If + had + V3, would + have + V3।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":53,"type":"fill","hindi":null,"sentence":"If she had _____ harder, she would have passed.","options":["study","studying","studied","studies"],"answer":"studied","explanation":"Third conditional: If + had + V3 → 'studied'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":54,"type":"error","hindi":null,"sentence":"If he had knew the answer, he would have told us.","options":["If he had knew the answer, he would have told us.","If he had known the answer, he would have told us."],"answer":"If he had known the answer, he would have told us.","explanation":"'Knew' V2 है — conditional में V3 'known' चाहिए।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":55,"type":"translate","hindi":"उसके पास बचपन में बहुत खिलौने थे।","options":["She has many toys in childhood.","She had many toys in her childhood.","She had many toy in her childhood.","She was having many toys."],"answer":"She had many toys in her childhood.","explanation":"Past possession with time: had + noun + in + time period।","category":"Past Possession","difficulty":"easy"},
+    {"id":56,"type":"fill","hindi":null,"sentence":"He had _____ good friends when he was in school.","options":["much","any","many","a lot"],"answer":"many","explanation":"'Many' countable nouns (friends) के साथ। 'many good friends'।","category":"Past Possession","difficulty":"easy"},
+    {"id":57,"type":"error","hindi":null,"sentence":"I had a old bike.","options":["I had a old bike.","I had an old bike."],"answer":"I had an old bike.","explanation":"'Old' vowel sound से शुरू — 'an old bike' सही है।","category":"Past Possession","difficulty":"easy"},
+    {"id":58,"type":"translate","hindi":"क्या उनके पास एक योजना थी?","options":["Do they have a plan?","Had they a plan?","Did they have a plan?","Were they having a plan?"],"answer":"Did they have a plan?","explanation":"Past possession question: Did + subject + have + noun?","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":59,"type":"fill","hindi":null,"sentence":"_____ they have a strategy for the project?","options":["Was","Had","Did","Were"],"answer":"Did","explanation":"Past simple question with possession: Did + they + have।","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":60,"type":"error","hindi":null,"sentence":"Did she had a problem?","options":["Did she had a problem?","Did she have a problem?"],"answer":"Did she have a problem?","explanation":"Did के बाद base form: 'have' (not 'had')।","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":61,"type":"translate","hindi":"वह पहले ही दफ्तर से निकल चुका था।","options":["He already left the office.","He has already left the office.","He had already left the office.","He was already leaving the office."],"answer":"He had already left the office.","explanation":"'Already' + past perfect: had + already + V3 (left)।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":62,"type":"fill","hindi":null,"sentence":"She had just _____ her lunch when the call came.","options":["finish","finishing","finished","finishes"],"answer":"finished","explanation":"had + just + V3 → 'finished'।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":63,"type":"error","hindi":null,"sentence":"By the time he called, I had already ate.","options":["By the time he called, I had already ate.","By the time he called, I had already eaten."],"answer":"By the time he called, I had already eaten.","explanation":"'Ate' V2 है — past perfect में V3 'eaten' चाहिए।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":64,"type":"translate","hindi":"उन्होंने project शुरू करने से पहले plan बना लिया था।","options":["They made a plan before starting the project.","They had made a plan before starting the project.","They have made a plan before.","They were making a plan before starting."],"answer":"They had made a plan before starting the project.","explanation":"'Before' के साथ earlier action: had + V3।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":65,"type":"fill","hindi":null,"sentence":"After she had _____ the report, she sent it.","options":["write","writing","wrote","written"],"answer":"written","explanation":"After + past perfect: had + V3 → 'written'।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":66,"type":"error","hindi":null,"sentence":"When I reached, they already leave.","options":["When I reached, they already leave.","When I reached, they had already left."],"answer":"When I reached, they had already left.","explanation":"'When + past simple' के बाद earlier action: 'had already left'।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":67,"type":"translate","hindi":"मैंने कभी इतनी मुश्किल situation नहीं देखी थी।","options":["I never saw such a difficult situation.","I had never seen such a difficult situation.","I haven't seen such a difficult situation.","I didn't never see such a situation."],"answer":"I had never seen such a difficult situation.","explanation":"'Never' + past perfect: had + never + V3।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":68,"type":"fill","hindi":null,"sentence":"He had _____ experienced such a problem before.","options":["already","never","yet","just"],"answer":"never","explanation":"'had never experienced' = उसने पहले कभी ऐसा अनुभव नहीं किया था।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":69,"type":"error","hindi":null,"sentence":"She hadn't never told me the truth.","options":["She hadn't never told me the truth.","She had never told me the truth."],"answer":"She had never told me the truth.","explanation":"Double negative गलत — 'hadn't never' → 'had never'।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":70,"type":"translate","hindi":"क्या आप पहले कभी विदेश गए थे?","options":["Did you ever go abroad?","Have you ever been abroad?","Had you ever been abroad?","Were you ever going abroad?"],"answer":"Had you ever been abroad?","explanation":"Past perfect question asking about experience before a past time।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":71,"type":"fill","hindi":null,"sentence":"_____ the team completed the project before the audit?","options":["Did","Was","Had","Has"],"answer":"Had","explanation":"Past perfect question: Had + subject + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":72,"type":"error","hindi":null,"sentence":"Had she finished the work already before he asked?","options":["Had she finished the work already before he asked?","Had she already finished the work before he asked?"],"answer":"Had she already finished the work before he asked?","explanation":"'Already' का सही स्थान: had + already + V3 (before the noun object)।","category":"Past Perfect — Questions","difficulty":"hard"},
+    {"id":73,"type":"translate","hindi":"उसे office में एक अच्छा अनुभव था।","options":["She has a good experience at the office.","She had a good experience at the office.","She was having good experience.","She did have a good experience."],"answer":"She had a good experience at the office.","explanation":"Past possession of experience: had + noun।","category":"Past Possession — Professional","difficulty":"easy"},
+    {"id":74,"type":"fill","hindi":null,"sentence":"The project had a _____ budget of 10 lakhs.","options":["total","totaling","totaled","totals"],"answer":"total","explanation":"'a total budget of' — adjective के रूप में 'total'।","category":"Past Possession — Professional","difficulty":"medium"},
+    {"id":75,"type":"error","hindi":null,"sentence":"I had lead the team for 3 years.","options":["I had lead the team for 3 years.","I had led the team for 3 years."],"answer":"I had led the team for 3 years.","explanation":"'Lead' base/V2 form है — V3 'led' चाहिए past perfect में।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":76,"type":"translate","hindi":"जब client आया, हम proposal तैयार कर चुके थे।","options":["When the client came, we prepared the proposal.","When the client came, we had prepared the proposal.","When the client came, we have prepared the proposal.","We prepared the proposal when the client came."],"answer":"When the client came, we had prepared the proposal.","explanation":"Two past events: earlier action में past perfect।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":77,"type":"fill","hindi":null,"sentence":"She had _____ good feedback from all her managers.","options":["received","receive","receiving","receives"],"answer":"received","explanation":"had + V3 → 'received'. Past perfect।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":78,"type":"error","hindi":null,"sentence":"The manager had gave his approval before leaving.","options":["The manager had gave his approval before leaving.","The manager had given his approval before leaving."],"answer":"The manager had given his approval before leaving.","explanation":"'Gave' V2 — past perfect में V3 'given' चाहिए।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":79,"type":"translate","hindi":"उन्होंने डेडलाइन से पहले project deliver कर दिया था।","options":["They delivered the project before the deadline.","They had delivered the project before the deadline.","They have delivered before the deadline.","They did deliver before deadline."],"answer":"They had delivered the project before the deadline.","explanation":"Professional past perfect: completed action before another past event।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":80,"type":"fill","hindi":null,"sentence":"By the time the review happened, we had _____ all issues.","options":["resolve","resolving","resolved","resolves"],"answer":"resolved","explanation":"had + V3 → 'resolved'। By the time + past perfect।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":81,"type":"error","hindi":null,"sentence":"We had already submitted the report yesterday.","options":["We had already submitted the report yesterday.","We had already submitted the report."],"answer":"We had already submitted the report.","explanation":"Past perfect 'had already' के साथ 'yesterday' redundant है।","category":"Past Perfect — Professional","difficulty":"hard"},
+    {"id":82,"type":"translate","hindi":"उसके पास office में एक अच्छी reputation थी।","options":["She has a good reputation at office.","She had a good reputation at the office.","She was having good reputation.","She did have reputation."],"answer":"She had a good reputation at the office.","explanation":"Past possession of abstract noun: had + a + adjective + noun।","category":"Past Possession — Professional","difficulty":"easy"},
+    {"id":83,"type":"fill","hindi":null,"sentence":"He had _____ the position of Senior Manager.","options":["hold","holding","held","holds"],"answer":"held","explanation":"had + V3 → 'held' (V3 of hold)।","category":"Past Possession — Professional","difficulty":"medium"},
+    {"id":84,"type":"error","hindi":null,"sentence":"I had work in MNC for 5 years.","options":["I had work in MNC for 5 years.","I had worked in an MNC for 5 years."],"answer":"I had worked in an MNC for 5 years.","explanation":"'Work' base verb — past perfect में 'worked' (V3)। Also: 'an MNC' (vowel sound)।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":85,"type":"translate","hindi":"मैंने कभी ऐसी problem solve नहीं की थी।","options":["I never solved such a problem.","I had never solved such a problem.","I haven't ever solved such a problem.","I didn't solve such problem."],"answer":"I had never solved such a problem.","explanation":"had + never + V3 = past perfect with 'never'।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":86,"type":"fill","hindi":null,"sentence":"The manager had _____ reviewed the document already.","options":["never","yet","just","later"],"answer":"never","explanation":"'had never reviewed' = manager ने पहले कभी document review नहीं किया था।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":87,"type":"error","hindi":null,"sentence":"She had just finished her presentation, when they cancelled it.","options":["She had just finished her presentation, when they cancelled it.","She had just finished her presentation when they cancelled it."],"answer":"She had just finished her presentation when they cancelled it.","explanation":"'When' clause से पहले comma की ज़रूरत नहीं — यह restrictive clause है।","category":"Past Perfect — Already/Just/Never","difficulty":"hard"},
+    {"id":88,"type":"translate","hindi":"जब मैं interview के लिए पहुँचा, मैंने सब तैयारी कर ली थी।","options":["When I reached for the interview, I prepared everything.","When I reached for the interview, I had prepared everything.","I had prepared everything and reached for the interview.","I prepared everything when I reached."],"answer":"When I reached for the interview, I had prepared everything.","explanation":"Time clause: जो पहले हुआ उसके लिए past perfect।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":89,"type":"fill","hindi":null,"sentence":"By the time she joined, the team had _____ the project.","options":["complete","completing","completed","completes"],"answer":"completed","explanation":"had + V3 → 'completed'. By the time + past perfect।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":90,"type":"error","hindi":null,"sentence":"By the time she called, I already left.","options":["By the time she called, I already left.","By the time she called, I had already left."],"answer":"By the time she called, I had already left.","explanation":"'By the time + past simple' के साथ past perfect 'had left' चाहिए।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":91,"type":"translate","hindi":"उन्होंने अभी-अभी एक नया product launch किया था।","options":["They just launched a new product.","They had just launched a new product.","They have just launched a new product.","They were just launching a product."],"answer":"They had just launched a new product.","explanation":"'Just' + past perfect: had + just + V3।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":92,"type":"fill","hindi":null,"sentence":"I had a _____ with my supervisor about my performance.","options":["talk","talked","talking","talks"],"answer":"talk","explanation":"'had a talk' = बातचीत की। 'had a + noun' pattern।","category":"Common Expressions","difficulty":"easy"},
+    {"id":93,"type":"error","hindi":null,"sentence":"We had a meeting in yesterday.","options":["We had a meeting in yesterday.","We had a meeting yesterday."],"answer":"We had a meeting yesterday.","explanation":"'Yesterday' के पहले preposition 'in' नहीं आता।","category":"Common Expressions","difficulty":"easy"},
+    {"id":94,"type":"translate","hindi":"मुझे उस दिन बहुत मज़ा आया था।","options":["I had a lot of fun that day.","I was having fun that day.","I have a lot of fun that day.","I had fun on that day."],"answer":"I had a lot of fun that day.","explanation":"'had a lot of fun' = बहुत मज़ा आया था।","category":"Common Expressions","difficulty":"easy"},
+    {"id":95,"type":"fill","hindi":null,"sentence":"She had a _____ with the client yesterday.","options":["conversation","conversate","conversating","conversated"],"answer":"conversation","explanation":"'had a conversation' = बातचीत हुई। 'conversation' noun है।","category":"Common Expressions","difficulty":"easy"},
+    {"id":96,"type":"error","hindi":null,"sentence":"We have a meeting yesterday.","options":["We have a meeting yesterday.","We had a meeting yesterday."],"answer":"We had a meeting yesterday.","explanation":"'Yesterday' past indicator है — 'have' नहीं, 'had' चाहिए।","category":"Common Expressions","difficulty":"easy"},
+    {"id":97,"type":"translate","hindi":"यदि मैं उसे पहले जानता, तो उसे hire करता।","options":["If I know him before, I will hire him.","If I knew him before, I would hire him.","If I had known him before, I would have hired him.","If I known him, I would hire him."],"answer":"If I had known him before, I would have hired him.","explanation":"Third conditional: If + had + V3, would + have + V3।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":98,"type":"fill","hindi":null,"sentence":"If they had _____ earlier, they would have caught the train.","options":["leave","leaving","left","leaves"],"answer":"left","explanation":"Third conditional: If + had + V3 → 'left'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":99,"type":"error","hindi":null,"sentence":"If I had study harder, I would have passed.","options":["If I had study harder, I would have passed.","If I had studied harder, I would have passed."],"answer":"If I had studied harder, I would have passed.","explanation":"If + had + V3 → 'studied', not base verb 'study'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":100,"type":"translate","hindi":"उसके पास उस समय एक अच्छी नौकरी थी।","options":["She has a good job at that time.","She had a good job at that time.","She was having a good job.","She did have a good job."],"answer":"She had a good job at that time.","explanation":"Past possession with time expression: had + noun + at that time।","category":"Past Possession","difficulty":"easy"},
+    {"id":101,"type":"translate","hindi":"उसके पास एक बड़ी संपत्ति थी।","options":["He has large property.","He had a large property.","He have large property.","He is having property."],"answer":"He had a large property.","explanation":"Past possession: had + a + adjective + noun।","category":"Past Possession","difficulty":"easy"},
+    {"id":102,"type":"fill","hindi":null,"sentence":"My grandmother _____ a big house in the village.","options":["has","have","haved","had"],"answer":"had","explanation":"Past tense → 'had'. Grandmother = she → had।","category":"Past Possession","difficulty":"easy"},
+    {"id":103,"type":"error","hindi":null,"sentence":"They had many furnitures in their old house.","options":["They had many furnitures in their old house.","They had a lot of furniture in their old house."],"answer":"They had a lot of furniture in their old house.","explanation":"'Furniture' uncountable है — 'many furnitures' गलत है। 'a lot of furniture' सही।","category":"Past Possession","difficulty":"medium"},
+    {"id":104,"type":"translate","hindi":"उसके पास office में बहुत ज़िम्मेदारी थी।","options":["He has a lot of responsibility at the office.","He had a lot of responsibility at the office.","He had many responsibilities at office.","He was having responsibility."],"answer":"He had a lot of responsibility at the office.","explanation":"'a lot of responsibility' — uncountable noun। Past possession।","category":"Past Possession — Professional","difficulty":"medium"},
+    {"id":105,"type":"fill","hindi":null,"sentence":"She didn't _____ any experience before this job.","options":["had","having","has","have"],"answer":"have","explanation":"Negative past: didn't + base verb → 'have' (not 'had')।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":106,"type":"error","hindi":null,"sentence":"He didn't had permission to enter.","options":["He didn't had permission to enter.","He didn't have permission to enter."],"answer":"He didn't have permission to enter.","explanation":"'didn't' के बाद base verb 'have'। 'had' गलत है।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":107,"type":"translate","hindi":"उस समय हमारे पास इंटरनेट नहीं था।","options":["At that time we don't have internet.","At that time we didn't have internet.","At that time we hadn't internet.","At that time we not had internet."],"answer":"At that time we didn't have internet.","explanation":"Negative past possession: didn't + have।","category":"Past Possession — Negative","difficulty":"easy"},
+    {"id":108,"type":"fill","hindi":null,"sentence":"I _____ have a smartphone until 2015.","options":["wasn't","didn't","hadn't","not"],"answer":"didn't","explanation":"Negative past possession: didn't + have।","category":"Past Possession — Negative","difficulty":"easy"},
+    {"id":109,"type":"error","hindi":null,"sentence":"She did not had access to the files.","options":["She did not had access to the files.","She did not have access to the files."],"answer":"She did not have access to the files.","explanation":"did not + base verb 'have' — 'had' गलत।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":110,"type":"translate","hindi":"क्या तुम्हारे पास उस वक्त पैसे थे?","options":["Do you have money at that time?","Did you have money at that time?","Had you money at that time?","Were you having money?"],"answer":"Did you have money at that time?","explanation":"Past possession question: Did + subject + have?","category":"Past Possession — Questions","difficulty":"easy"},
+    {"id":111,"type":"translate","hindi":"क्या उसके पास laptop था?","options":["Has she a laptop?","Did she have a laptop?","Had she a laptop?","Does she had a laptop?"],"answer":"Did she have a laptop?","explanation":"Past simple question: Did + subject + have + noun?","category":"Past Possession — Questions","difficulty":"easy"},
+    {"id":112,"type":"fill","hindi":null,"sentence":"_____ the company have a branch in Delhi?","options":["Was","Did","Had","Has"],"answer":"Did","explanation":"Past possession question: Did + subject + have?","category":"Past Possession — Questions","difficulty":"easy"},
+    {"id":113,"type":"error","hindi":null,"sentence":"Had they have a good team?","options":["Had they have a good team?","Did they have a good team?"],"answer":"Did they have a good team?","explanation":"Possession का question 'Did + have?' है — 'Had + have' गलत।","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":114,"type":"translate","hindi":"क्या उन्होंने project पहले complete किया था?","options":["Did they complete the project before?","Had they completed the project before?","Have they completed the project?","Were they completing the project?"],"answer":"Had they completed the project before?","explanation":"Past perfect question: Had + subject + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":115,"type":"fill","hindi":null,"sentence":"_____ you met him before you started working here?","options":["Did","Were","Had","Have"],"answer":"Had","explanation":"Past perfect question about a prior experience: Had + you + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":116,"type":"error","hindi":null,"sentence":"Had she submited the form before the deadline?","options":["Had she submited the form before the deadline?","Had she submitted the form before the deadline?"],"answer":"Had she submitted the form before the deadline?","explanation":"'Submited' spelling गलत — 'submitted' (double 't') सही है।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":117,"type":"translate","hindi":"जब मैं घर पहुँचा, खाना बन चुका था।","options":["When I reached home, food was being cooked.","When I reached home, the food had been cooked.","When I reached home, the food was cooked.","When I reached home, food cooked."],"answer":"When I reached home, the food had been cooked.","explanation":"Passive past perfect: had been + V3।","category":"Past Perfect — Time Clauses","difficulty":"hard"},
+    {"id":118,"type":"fill","hindi":null,"sentence":"After she had _____ the book, she returned it.","options":["read","reads","reading","red"],"answer":"read","explanation":"Past perfect: had + V3 → 'read' (V3 of read, pronounced 'red')।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":119,"type":"error","hindi":null,"sentence":"Before I reached, he leave already.","options":["Before I reached, he leave already.","Before I reached, he had already left."],"answer":"Before I reached, he had already left.","explanation":"Earlier past action: 'had already left'. 'Already' पहले V3 से पहले।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":120,"type":"translate","hindi":"वह सोने से पहले खाना खा चुका था।","options":["He ate before sleeping.","He had eaten before sleeping.","He was eating before he slept.","He has eaten before sleeping."],"answer":"He had eaten before sleeping.","explanation":"'Before sleeping' = सोने से पहले। Earlier action: had + V3。","category":"Past Perfect — Time Clauses","difficulty":"easy"},
+    {"id":121,"type":"translate","hindi":"मैंने यह खबर पहले ही सुन ली थी।","options":["I already heard the news.","I had already heard the news.","I have already heard the news.","I was already hearing the news."],"answer":"I had already heard the news.","explanation":"'Already' + past perfect: had + already + V3 (heard)।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":122,"type":"fill","hindi":null,"sentence":"They had _____ signed the contract before the dispute.","options":["never","already","yet","even"],"answer":"already","explanation":"'had already signed' = वे पहले ही sign कर चुके थे।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":123,"type":"error","hindi":null,"sentence":"I had just reached when she leaved.","options":["I had just reached when she leaved.","I had just reached when she left."],"answer":"I had just reached when she left.","explanation":"'Leaved' गलत — 'leave' irregular verb है, V2/V3 = 'left'।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":124,"type":"translate","hindi":"क्या वह जा चुकी थी?","options":["Did she go?","Had she gone?","Has she gone?","Was she gone?"],"answer":"Had she gone?","explanation":"Past perfect question: Had + subject + V3 (gone)?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":125,"type":"fill","hindi":null,"sentence":"She hadn't _____ the project before the review.","options":["complete","completing","completed","completes"],"answer":"completed","explanation":"hadn't + V3 → 'completed'। Negative past perfect।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":126,"type":"error","hindi":null,"sentence":"He hadn't went to college.","options":["He hadn't went to college.","He hadn't gone to college."],"answer":"He hadn't gone to college.","explanation":"'Went' V2 — past perfect negative: hadn't + V3 'gone'।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":127,"type":"translate","hindi":"उन्होंने अभी तक निर्णय नहीं लिया था।","options":["They didn't decide yet.","They hadn't made a decision yet.","They haven't made a decision yet.","They not decided yet."],"answer":"They hadn't made a decision yet.","explanation":"Negative past perfect with 'yet': hadn't + V3 + yet।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":128,"type":"fill","hindi":null,"sentence":"I hadn't _____ the email before the meeting started.","options":["seen","see","saw","seeing"],"answer":"seen","explanation":"hadn't + V3 → 'seen' (V3 of see)।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":129,"type":"error","hindi":null,"sentence":"She hadn't informed the team already.","options":["She hadn't informed the team already.","She hadn't informed the team yet."],"answer":"She hadn't informed the team yet.","explanation":"Negative sentences में 'already' की जगह 'yet' आता है।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":130,"type":"translate","hindi":"जब तक रिपोर्ट submit हुई, manager resign कर चुका था।","options":["When the report was submitted, the manager resigned.","By the time the report was submitted, the manager had resigned.","The manager resigned when the report was submitted.","By the time the report was submitted, the manager resigns."],"answer":"By the time the report was submitted, the manager had resigned.","explanation":"'By the time' + past simple, past perfect।","category":"Past Perfect — By the Time","difficulty":"hard"},
+    {"id":131,"type":"fill","hindi":null,"sentence":"By the time she _____, the party had ended.","options":["arrive","arriving","arrived","arrives"],"answer":"arrived","explanation":"'By the time + past simple (arrived), past perfect'।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":132,"type":"error","hindi":null,"sentence":"By the time I called, she has already slept.","options":["By the time I called, she has already slept.","By the time I called, she had already slept."],"answer":"By the time I called, she had already slept.","explanation":"'By the time' के साथ past perfect 'had slept' — 'has' present perfect है।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":133,"type":"translate","hindi":"मैंने कभी इस तरह का काम नहीं किया था।","options":["I never did this kind of work.","I had never done this kind of work.","I have never done this work.","I didn't ever do this work."],"answer":"I had never done this kind of work.","explanation":"had + never + V3 (done)।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":134,"type":"fill","hindi":null,"sentence":"He had _____ visited this city before that trip.","options":["already","never","yet","often"],"answer":"never","explanation":"'had never visited' — पहले कभी नहीं।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":135,"type":"error","hindi":null,"sentence":"They had never went on a trip together.","options":["They had never went on a trip together.","They had never gone on a trip together."],"answer":"They had never gone on a trip together.","explanation":"had + never + V3 → 'gone' (V3 of go), not V2 'went'।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":136,"type":"translate","hindi":"हमारी टीम के पास पर्याप्त resources नहीं थे।","options":["Our team doesn't have enough resources.","Our team didn't have enough resources.","Our team hadn't enough resources.","Our team not had resources."],"answer":"Our team didn't have enough resources.","explanation":"Negative past possession: didn't + have।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":137,"type":"fill","hindi":null,"sentence":"She _____ have the skills needed for the job.","options":["wasn't","didn't","hadn't","not"],"answer":"didn't","explanation":"Negative possession: didn't + have।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":138,"type":"error","hindi":null,"sentence":"I hadn't any money at that time.","options":["I hadn't any money at that time.","I didn't have any money at that time."],"answer":"I didn't have any money at that time.","explanation":"Possession negative: didn't have (not 'hadn't') — 'hadn't have' गलत।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":139,"type":"translate","hindi":"वह अपनी गलती मान चुका था।","options":["He admitted his mistake.","He had admitted his mistake.","He has admitted his mistake.","He was admitting his mistake."],"answer":"He had admitted his mistake.","explanation":"Past perfect: had + V3 (admitted)।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":140,"type":"fill","hindi":null,"sentence":"The client had _____ the product before placing the order.","options":["test","testing","tested","tests"],"answer":"tested","explanation":"had + V3 → 'tested'।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":141,"type":"error","hindi":null,"sentence":"I had spoke to him before the interview.","options":["I had spoke to him before the interview.","I had spoken to him before the interview."],"answer":"I had spoken to him before the interview.","explanation":"'Spoke' V2 — past perfect: had + V3 'spoken'।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":142,"type":"translate","hindi":"वह पहले ही project submit कर चुकी थी जब boss ने पूछा।","options":["She submitted the project when the boss asked.","She had already submitted the project when the boss asked.","She has already submitted the project.","She was already submitting the project."],"answer":"She had already submitted the project when the boss asked.","explanation":"Past perfect with 'already': had + already + V3।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":143,"type":"fill","hindi":null,"sentence":"Had you _____ this presentation before joining here?","options":["give","giving","gave","given"],"answer":"given","explanation":"Past perfect question: Had + you + V3 → 'given'।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":144,"type":"error","hindi":null,"sentence":"Had you finished your work before he came?","options":["Had you finished your work before he came?","Had you finish your work before he came?"],"answer":"Had you finished your work before he came?","explanation":"Correct: Had + subject + V3 (finished)। यह sentence सही है।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":145,"type":"translate","hindi":"मुझे अफसोस है कि मैंने पहले नहीं पढ़ा।","options":["I regret that I didn't study before.","I wish I had studied more.","I wish I have studied more.","I regret I didn't study more."],"answer":"I wish I had studied more.","explanation":"Wish + past perfect: I wish + had + V3।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":146,"type":"fill","hindi":null,"sentence":"I wish I _____ taken that opportunity.","options":["have","has","had","was"],"answer":"had","explanation":"'I wish + had + V3' = काश मैंने किया होता।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":147,"type":"error","hindi":null,"sentence":"If she would have tried, she would have succeeded.","options":["If she would have tried, she would have succeeded.","If she had tried, she would have succeeded."],"answer":"If she had tried, she would have succeeded.","explanation":"Third conditional: 'If + had + V3' — 'would have' if-clause में नहीं।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":148,"type":"translate","hindi":"वह पहले ही खाना खा चुकी थी।","options":["She ate already.","She had eaten already.","She has eaten already.","She already eats."],"answer":"She had eaten already.","explanation":"Past perfect: had + V3 + already (end position also correct)।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":149,"type":"fill","hindi":null,"sentence":"They had _____ finished building the house when we visited.","options":["just","yet","never","also"],"answer":"just","explanation":"'had just finished' = अभी-अभी खत्म हुआ था।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":150,"type":"error","hindi":null,"sentence":"He had just finished he work.","options":["He had just finished he work.","He had just finished his work."],"answer":"He had just finished his work.","explanation":"Pronoun error: 'he' possessive नहीं — 'his work' सही है।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":151,"type":"translate","hindi":"क्या उसने कभी विदेश में काम किया था?","options":["Did he ever work abroad?","Had he ever worked abroad?","Has he ever worked abroad?","Was he ever working abroad?"],"answer":"Had he ever worked abroad?","explanation":"Past perfect question about past experience: Had + subject + ever + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":152,"type":"fill","hindi":null,"sentence":"Had she _____ the contract before signing?","options":["read","reads","reading","red"],"answer":"read","explanation":"Had + subject + V3 → 'read' (V3 of read)।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":153,"type":"error","hindi":null,"sentence":"Had he gave his best in the interview?","options":["Had he gave his best in the interview?","Had he given his best in the interview?"],"answer":"Had he given his best in the interview?","explanation":"Past perfect question: Had + subject + V3 → 'given', not V2 'gave'।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":154,"type":"translate","hindi":"Company ने deadline से पहले product launch किया था।","options":["The company launched the product before the deadline.","The company had launched the product before the deadline.","The company has launched the product.","The company was launching the product."],"answer":"The company had launched the product before the deadline.","explanation":"Professional: earlier action in past = past perfect।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":155,"type":"fill","hindi":null,"sentence":"The CEO had _____ the strategy before the board meeting.","options":["finalize","finalizing","finalized","finalizes"],"answer":"finalized","explanation":"had + V3 → 'finalized'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":156,"type":"error","hindi":null,"sentence":"The team had organized a great event, they done very well.","options":["The team had organized a great event, they done very well.","The team had organized a great event; they had done very well."],"answer":"The team had organized a great event; they had done very well.","explanation":"'Done' अकेले नहीं आता — 'had done' (past perfect)। Semicolon for two related clauses।","category":"Past Perfect — Professional","difficulty":"hard"},
+    {"id":157,"type":"translate","hindi":"उसने interview से पहले बहुत practice की थी।","options":["She practiced a lot before the interview.","She had practiced a lot before the interview.","She was practicing before the interview.","She has practiced a lot."],"answer":"She had practiced a lot before the interview.","explanation":"Earlier past action: had + V3 (practiced)।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":158,"type":"fill","hindi":null,"sentence":"I had _____ three projects simultaneously in my previous job.","options":["manage","managing","managed","manages"],"answer":"managed","explanation":"Past perfect: had + V3 → 'managed'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":159,"type":"error","hindi":null,"sentence":"By the time she got promoted, she already proves herself.","options":["By the time she got promoted, she already proves herself.","By the time she got promoted, she had already proved herself."],"answer":"By the time she got promoted, she had already proved herself.","explanation":"'By the time + past simple' → past perfect 'had proved'।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":160,"type":"translate","hindi":"मेरे पास उस city में एक छोटा apartment था।","options":["I have a small apartment in that city.","I had a small apartment in that city.","I am having a small apartment.","I did have small apartment."],"answer":"I had a small apartment in that city.","explanation":"Past possession: I had + a + adjective + noun + location।","category":"Past Possession","difficulty":"easy"},
+    {"id":161,"type":"translate","hindi":"उसने पहले कभी plane नहीं पकड़ी थी।","options":["She never caught a plane.","She had never caught a plane.","She hasn't ever caught a plane.","She didn't never catch a plane."],"answer":"She had never caught a plane.","explanation":"Past perfect with 'never': had + never + V3 (caught)।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":162,"type":"fill","hindi":null,"sentence":"He had just _____ the presentation when the power went out.","options":["start","starting","started","starts"],"answer":"started","explanation":"had + just + V3 → 'started'।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":163,"type":"error","hindi":null,"sentence":"She hadn't finished work but she had go home.","options":["She hadn't finished work but she had go home.","She hadn't finished work but she had gone home."],"answer":"She hadn't finished work but she had gone home.","explanation":"'Had go' गलत — 'had gone' (V3 of go)।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":164,"type":"translate","hindi":"जब तक ambulance पहुँची, doctor पहले ही आ गए थे।","options":["When the ambulance arrived, the doctor came.","By the time the ambulance arrived, the doctor had already come.","The doctor came before the ambulance arrived.","By the time ambulance arrived, doctor comes."],"answer":"By the time the ambulance arrived, the doctor had already come.","explanation":"'By the time + past simple', past perfect।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":165,"type":"fill","hindi":null,"sentence":"By the time we _____, the show had started.","options":["arrive","arriving","arrived","arrives"],"answer":"arrived","explanation":"'By the time' + past simple → past perfect।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":166,"type":"error","hindi":null,"sentence":"By the time they call, I had left.","options":["By the time they call, I had left.","By the time they called, I had left."],"answer":"By the time they called, I had left.","explanation":"'By the time' clause में past simple 'called' चाहिए, not present 'call'।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":167,"type":"translate","hindi":"मैंने उस project में team lead की भूमिका निभाई थी।","options":["I play the role of team lead in that project.","I had played the role of team lead in that project.","I was playing the team lead role.","I have played team lead role."],"answer":"I had played the role of team lead in that project.","explanation":"Past perfect for professional history: had + V3।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":168,"type":"fill","hindi":null,"sentence":"The company had _____ the deal before the merger.","options":["close","closing","closed","closes"],"answer":"closed","explanation":"had + V3 → 'closed'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":169,"type":"error","hindi":null,"sentence":"We had a successful project, it was great.","options":["We had a successful project, it was great.","We had a successful project; it was great."],"answer":"We had a successful project; it was great.","explanation":"Two independent clauses — semicolon या 'and' बेहतर।","category":"Past Possession — Professional","difficulty":"hard"},
+    {"id":170,"type":"translate","hindi":"यदि हमने पहले plan किया होता, तो problem नहीं होती।","options":["If we planned earlier, there would be no problem.","If we had planned earlier, there would have been no problem.","If we plan earlier, there is no problem.","If we would have planned, there is no problem."],"answer":"If we had planned earlier, there would have been no problem.","explanation":"Third conditional: If + had + V3, would + have + been।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":171,"type":"fill","hindi":null,"sentence":"If he had _____ the instructions, he wouldn't have made the mistake.","options":["follow","following","followed","follows"],"answer":"followed","explanation":"Third conditional: If + had + V3 → 'followed'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":172,"type":"error","hindi":null,"sentence":"If they had of known the truth, they would have acted differently.","options":["If they had of known the truth, they would have acted differently.","If they had known the truth, they would have acted differently."],"answer":"If they had known the truth, they would have acted differently.","explanation":"'Had of' गलत है — 'had known' (without 'of')।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":173,"type":"translate","hindi":"उसके पास पिछली नौकरी में 5 साल का अनुभव था।","options":["He has 5 years of experience at his last job.","He had 5 years of experience at his last job.","He was having 5 years experience.","He did have 5 years experience."],"answer":"He had 5 years of experience at his last job.","explanation":"Past possession: had + noun phrase। '5 years of experience'।","category":"Past Possession — Professional","difficulty":"easy"},
+    {"id":174,"type":"fill","hindi":null,"sentence":"She had _____ the position of Marketing Head.","options":["hold","holding","held","holds"],"answer":"held","explanation":"had + V3 → 'held' (V3 of hold)।","category":"Past Possession — Professional","difficulty":"medium"},
+    {"id":175,"type":"error","hindi":null,"sentence":"I had lead 10 people in my previous role.","options":["I had lead 10 people in my previous role.","I had led 10 people in my previous role."],"answer":"I had led 10 people in my previous role.","explanation":"'Lead' (base verb) — past perfect: had + V3 'led'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":176,"type":"translate","hindi":"क्या company ने पहले कभी इतना बड़ा project handle किया था?","options":["Did the company handle such a big project?","Had the company ever handled such a big project?","Has the company handled such a project?","Was the company handling a big project?"],"answer":"Had the company ever handled such a big project?","explanation":"Past perfect question with 'ever': Had + subject + ever + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":177,"type":"fill","hindi":null,"sentence":"Had the manager _____ about the issue before it escalated?","options":["know","knowing","knew","known"],"answer":"known","explanation":"Past perfect question: Had + subject + V3 → 'known'।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":178,"type":"error","hindi":null,"sentence":"Had they completed the report after the deadline?","options":["Had they completed the report after the deadline?","Had they completed the report before the deadline?"],"answer":"Had they completed the report before the deadline?","explanation":"'After the deadline' में past perfect का logic गलत — 'before the deadline' सही context।","category":"Past Perfect — Questions","difficulty":"hard"},
+    {"id":179,"type":"translate","hindi":"वह अभी-अभी office छोड़ कर गया था।","options":["He just left the office.","He had just left the office.","He has just left the office.","He was just leaving the office."],"answer":"He had just left the office.","explanation":"'Just' + past perfect: had + just + V3 (left)।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":180,"type":"fill","hindi":null,"sentence":"She had _____ packed her bags when the flight was cancelled.","options":["already","never","yet","still"],"answer":"already","explanation":"'had already packed' = वह पहले ही पैकिंग कर चुकी थी।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":181,"type":"error","hindi":null,"sentence":"He had already went when I called.","options":["He had already went when I called.","He had already gone when I called."],"answer":"He had already gone when I called.","explanation":"'Went' V2 — past perfect: had + V3 'gone'।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":182,"type":"translate","hindi":"मैंने अपनी पिछली company में कभी इस technology का इस्तेमाल नहीं किया था।","options":["I never used this technology in my previous company.","I had never used this technology in my previous company.","I haven't used this technology.","I didn't ever use this technology."],"answer":"I had never used this technology in my previous company.","explanation":"Professional context: had + never + V3।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":183,"type":"fill","hindi":null,"sentence":"The client had _____ complained about the service before this.","options":["already","never","yet","just"],"answer":"never","explanation":"'had never complained' = पहले कभी शिकायत नहीं की थी।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":184,"type":"error","hindi":null,"sentence":"She has never handled such a big team before that role.","options":["She has never handled such a big team before that role.","She had never handled such a big team before that role."],"answer":"She had never handled such a big team before that role.","explanation":"'Before that role' = past reference → past perfect 'had never'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":185,"type":"translate","hindi":"जब CEO ने घोषणा की, team ने plan पहले ही बना लिया था।","options":["When the CEO announced, the team was making the plan.","When the CEO announced, the team had already made the plan.","The team made a plan when the CEO announced.","The CEO announced and the team made the plan."],"answer":"When the CEO announced, the team had already made the plan.","explanation":"Earlier action: had + already + V3 (made)।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":186,"type":"fill","hindi":null,"sentence":"After the team had _____ the product, they celebrated.","options":["launch","launching","launched","launches"],"answer":"launched","explanation":"Past perfect: had + V3 → 'launched'. Then past simple: celebrated।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":187,"type":"error","hindi":null,"sentence":"Before the merger, the two companies has worked together.","options":["Before the merger, the two companies has worked together.","Before the merger, the two companies had worked together."],"answer":"Before the merger, the two companies had worked together.","explanation":"'Before' + past reference = past perfect 'had worked'।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":188,"type":"translate","hindi":"वे project के बारे में पहले ही discuss कर चुके थे।","options":["They discussed the project.","They had already discussed the project.","They have already discussed the project.","They were discussing the project already."],"answer":"They had already discussed the project.","explanation":"'Already' + past perfect: had + already + V3।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":189,"type":"fill","hindi":null,"sentence":"By the time the audit _____, the accounts had been settled.","options":["begin","beginning","began","begins"],"answer":"began","explanation":"'By the time + past simple (began), past perfect (had been settled)'।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":190,"type":"error","hindi":null,"sentence":"By the time results came, every student has left.","options":["By the time results came, every student has left.","By the time results came, every student had left."],"answer":"By the time results came, every student had left.","explanation":"'By the time + past simple' → past perfect 'had left'।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":191,"type":"translate","hindi":"उसके पास office में एक private cabin था।","options":["He has a private cabin at the office.","He had a private cabin at the office.","He was having a private cabin.","He did have private cabin."],"answer":"He had a private cabin at the office.","explanation":"Past possession: had + a + adjective + noun।","category":"Past Possession — Professional","difficulty":"easy"},
+    {"id":192,"type":"fill","hindi":null,"sentence":"The team had _____ excellent results consistently.","options":["deliver","delivering","delivered","delivers"],"answer":"delivered","explanation":"had + V3 → 'delivered'।","category":"Past Possession — Professional","difficulty":"medium"},
+    {"id":193,"type":"error","hindi":null,"sentence":"She had an impressive track records.","options":["She had an impressive track records.","She had an impressive track record."],"answer":"She had an impressive track record.","explanation":"'Track record' → singular (uncountable in this usage)।","category":"Past Possession — Professional","difficulty":"medium"},
+    {"id":194,"type":"translate","hindi":"मेरे पास वह नौकरी नहीं थी जो मुझे चाहिए थी।","options":["I don't have the job I wanted.","I didn't have the job I wanted.","I hadn't the job I wanted.","I not had the job I wanted."],"answer":"I didn't have the job I wanted.","explanation":"Negative past possession: didn't + have।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":195,"type":"fill","hindi":null,"sentence":"We _____ have a proper office when we started.","options":["wasn't","didn't","hadn't","not"],"answer":"didn't","explanation":"Negative possession: didn't have।","category":"Past Possession — Negative","difficulty":"easy"},
+    {"id":196,"type":"error","hindi":null,"sentence":"He hadn't have any clue about the problem.","options":["He hadn't have any clue about the problem.","He didn't have any clue about the problem."],"answer":"He didn't have any clue about the problem.","explanation":"Possession negative: didn't have (not 'hadn't have')।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":197,"type":"translate","hindi":"क्या उसके पास पिछले job में authority थी?","options":["Does she have authority in her last job?","Did she have authority in her last job?","Had she authority in her last job?","Was she having authority?"],"answer":"Did she have authority in her last job?","explanation":"Past possession question: Did + subject + have?","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":198,"type":"fill","hindi":null,"sentence":"_____ the company have a branch in Mumbai at that time?","options":["Was","Did","Had","Has"],"answer":"Did","explanation":"Past possession question: Did + subject + have?","category":"Past Possession — Questions","difficulty":"easy"},
+    {"id":199,"type":"error","hindi":null,"sentence":"Did the team had all the resources they needed?","options":["Did the team had all the resources they needed?","Did the team have all the resources they needed?"],"answer":"Did the team have all the resources they needed?","explanation":"Did + base verb 'have' — 'had' गलत।","category":"Past Possession — Questions","difficulty":"medium"},
+    {"id":200,"type":"translate","hindi":"कल हमारी एक बड़ी meeting थी।","options":["Yesterday we have a big meeting.","Yesterday we had a big meeting.","Yesterday we are having a big meeting.","Yesterday we did have a meeting."],"answer":"Yesterday we had a big meeting.","explanation":"Common expression: had a meeting। 'Yesterday' past indicator।","category":"Common Expressions","difficulty":"easy"},
+    {"id":201,"type":"translate","hindi":"क्या आपने कभी उससे बात की थी?","options":["Did you ever talk to him?","Had you ever talked to him?","Have you ever talked to him?","Were you ever talking to him?"],"answer":"Had you ever talked to him?","explanation":"Past perfect question about experience before a past event।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":202,"type":"fill","hindi":null,"sentence":"I had _____ a conversation with him before the meeting.","options":["short","shortly","having","brief"],"answer":"brief","explanation":"'had a brief conversation' — adjective 'brief' noun से पहले।","category":"Common Expressions","difficulty":"medium"},
+    {"id":203,"type":"error","hindi":null,"sentence":"She had a meetings yesterday.","options":["She had a meetings yesterday.","She had a meeting yesterday."],"answer":"She had a meeting yesterday.","explanation":"'A meetings' गलत — 'a + singular noun': 'a meeting'।","category":"Common Expressions","difficulty":"easy"},
+    {"id":204,"type":"translate","hindi":"उसे पहले कभी किसी ने reject नहीं किया था।","options":["Nobody ever rejected him.","Nobody had ever rejected him.","Nobody has ever rejected him.","Nobody reject him ever."],"answer":"Nobody had ever rejected him.","explanation":"Past perfect with 'ever/never' about an earlier past experience।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":205,"type":"fill","hindi":null,"sentence":"She had already _____ the email before I could remind her.","options":["send","sent","sends","sending"],"answer":"sent","explanation":"had + already + V3 → 'sent'।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":206,"type":"error","hindi":null,"sentence":"By the time he read the message, they already left.","options":["By the time he read the message, they already left.","By the time he read the message, they had already left."],"answer":"By the time he read the message, they had already left.","explanation":"'By the time + past' → past perfect 'had already left'।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":207,"type":"translate","hindi":"यदि उसने पहले बात की होती, तो गलतफहमी नहीं होती।","options":["If she spoke earlier, there would be no misunderstanding.","If she had spoken earlier, there would have been no misunderstanding.","If she speaks earlier, there is no misunderstanding.","If she would have spoken, misunderstanding not happened."],"answer":"If she had spoken earlier, there would have been no misunderstanding.","explanation":"Third conditional: If + had + V3 → would + have + been।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":208,"type":"fill","hindi":null,"sentence":"If they had _____ the contract properly, this wouldn't have happened.","options":["read","reads","reading","red"],"answer":"read","explanation":"Third conditional: If + had + V3 → 'read'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":209,"type":"error","hindi":null,"sentence":"If I had gone earlier, I will be on time.","options":["If I had gone earlier, I will be on time.","If I had gone earlier, I would have been on time."],"answer":"If I had gone earlier, I would have been on time.","explanation":"Third conditional: 'will' नहीं — 'would have + V3'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":210,"type":"translate","hindi":"मुझे उस office की party में बहुत मज़ा आया था।","options":["I had so much fun at the office party.","I was having fun at office party.","I have had fun at the office party.","I did have fun in office party."],"answer":"I had so much fun at the office party.","explanation":"'Had fun' = मज़ा आया। Expression with 'had'।","category":"Common Expressions","difficulty":"easy"},
+    {"id":211,"type":"fill","hindi":null,"sentence":"We had a _____ time at the team outing.","options":["great","greatly","greaten","greatful"],"answer":"great","explanation":"'had a great time' = बहुत अच्छा समय बिताया।","category":"Common Expressions","difficulty":"easy"},
+    {"id":212,"type":"error","hindi":null,"sentence":"He had a word to the manager.","options":["He had a word to the manager.","He had a word with the manager."],"answer":"He had a word with the manager.","explanation":"'Have a word WITH someone' — preposition 'with' आता है।","category":"Common Expressions","difficulty":"medium"},
+    {"id":213,"type":"translate","hindi":"वे पहले ही बहुत काम कर चुके थे।","options":["They worked a lot already.","They had already done a lot of work.","They have already done a lot of work.","They did already a lot of work."],"answer":"They had already done a lot of work.","explanation":"'Already' + past perfect: had + already + V3 (done)।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":214,"type":"fill","hindi":null,"sentence":"By the time she got the offer letter, she had _____ for another company.","options":["decide","deciding","decided","decides"],"answer":"decided","explanation":"Past perfect: had + V3 → 'decided'।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":215,"type":"error","hindi":null,"sentence":"I wish I have taken that job offer.","options":["I wish I have taken that job offer.","I wish I had taken that job offer."],"answer":"I wish I had taken that job offer.","explanation":"'I wish + had + V3' — regret के लिए past perfect।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":216,"type":"translate","hindi":"उसके पास उस office में बहुत अच्छे contacts थे।","options":["She has very good contacts at that office.","She had very good contacts at that office.","She was having good contacts.","She did have good contacts."],"answer":"She had very good contacts at that office.","explanation":"Past possession: had + adjective + noun।","category":"Past Possession","difficulty":"easy"},
+    {"id":217,"type":"fill","hindi":null,"sentence":"The startup didn't _____ enough funding in the beginning.","options":["had","have","haved","having"],"answer":"have","explanation":"Negative past: didn't + base verb 'have'।","category":"Past Possession — Negative","difficulty":"easy"},
+    {"id":218,"type":"error","hindi":null,"sentence":"He had made a great achievement, didn't he?","options":["He had made a great achievement, didn't he?","He had made a great achievement, hadn't he?"],"answer":"He had made a great achievement, hadn't he?","explanation":"Past perfect के साथ question tag: 'hadn't he?' (not 'didn't he?')।","category":"Past Perfect — Basic","difficulty":"hard"},
+    {"id":219,"type":"translate","hindi":"जब project खत्म हुआ, सभी थक चुके थे।","options":["When the project ended, everyone was tired.","When the project ended, everyone had become tired.","When project ended, everyone becomes tired.","When the project ended, everyone had tired."],"answer":"When the project ended, everyone had become tired.","explanation":"Past perfect: had + V3 (become)।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":220,"type":"fill","hindi":null,"sentence":"Before the team _____, the leader had given his speech.","options":["arrive","arriving","arrived","arrives"],"answer":"arrived","explanation":"'Before + past simple, past perfect' → arrived (simple past)।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":221,"type":"translate","hindi":"उसके पास उस company में team lead का role था।","options":["He has the team lead role at that company.","He had the team lead role at that company.","He was having team lead role.","He hold team lead role."],"answer":"He had the team lead role at that company.","explanation":"Past possession of a role: had + the + noun।","category":"Past Possession — Professional","difficulty":"easy"},
+    {"id":222,"type":"fill","hindi":null,"sentence":"She had _____ the team for over two years.","options":["led","lead","leaded","leads"],"answer":"led","explanation":"Past perfect: had + V3 → 'led' (V3 of lead)।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":223,"type":"error","hindi":null,"sentence":"I had managed team of 15 people.","options":["I had managed team of 15 people.","I had managed a team of 15 people."],"answer":"I had managed a team of 15 people.","explanation":"'A team' — article 'a' ज़रूरी है।","category":"Past Perfect — Professional","difficulty":"easy"},
+    {"id":224,"type":"translate","hindi":"क्या तुमने पहले कभी इस तरह का project किया था?","options":["Did you ever do such a project?","Had you ever done such a project?","Have you ever done such a project?","Were you ever doing such a project?"],"answer":"Had you ever done such a project?","explanation":"Past perfect question: Had + you + ever + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":225,"type":"fill","hindi":null,"sentence":"Had she _____ the skill of public speaking before joining?","options":["develop","developing","developed","develops"],"answer":"developed","explanation":"Past perfect question: Had + she + V3 → 'developed'।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":226,"type":"error","hindi":null,"sentence":"Had you gone before they came?","options":["Had you gone before they came?","Had you went before they came?"],"answer":"Had you gone before they came?","explanation":"Correct: Had + subject + V3 (gone). यह sentence सही है।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":227,"type":"translate","hindi":"उसके पास उस समय phone नहीं था।","options":["She doesn't have a phone at that time.","She didn't have a phone at that time.","She hadn't phone at that time.","She not had phone."],"answer":"She didn't have a phone at that time.","explanation":"Negative past possession: didn't + have।","category":"Past Possession — Negative","difficulty":"easy"},
+    {"id":228,"type":"fill","hindi":null,"sentence":"They _____ have any experience in digital marketing.","options":["wasn't","didn't","hadn't","not"],"answer":"didn't","explanation":"Negative past possession: didn't + have।","category":"Past Possession — Negative","difficulty":"easy"},
+    {"id":229,"type":"error","hindi":null,"sentence":"The company hadn't have a social media presence then.","options":["The company hadn't have a social media presence then.","The company didn't have a social media presence then."],"answer":"The company didn't have a social media presence then.","explanation":"Possession negative: didn't have (not 'hadn't have')।","category":"Past Possession — Negative","difficulty":"medium"},
+    {"id":230,"type":"translate","hindi":"उसने project submit करने से पहले दो बार review किया था।","options":["She reviewed the project twice before submitting.","She had reviewed the project twice before submitting.","She has reviewed twice before submitting.","She reviewed twice when submitting."],"answer":"She had reviewed the project twice before submitting.","explanation":"Earlier action before another past event: had + V3।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":231,"type":"fill","hindi":null,"sentence":"He had _____ the deal successfully before I joined the team.","options":["close","closing","closed","closes"],"answer":"closed","explanation":"had + V3 → 'closed'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":232,"type":"error","hindi":null,"sentence":"We had finished the project, but the client denied it.","options":["We had finished the project, but the client denied it.","We had finished the project, but the client rejected it."],"answer":"We had finished the project, but the client rejected it.","explanation":"'Deny' = इनकार करना (खुद का काम)। 'Reject' = अस्वीकार करना (दूसरे का काम) — यहाँ 'rejected' context के हिसाब से सही।","category":"Past Perfect — Professional","difficulty":"hard"},
+    {"id":233,"type":"translate","hindi":"काश मैंने उस opportunity को ज़्यादा seriously लिया होता।","options":["I wish I take that opportunity seriously.","I wish I had taken that opportunity more seriously.","I wish I would take that opportunity seriously.","If I took it seriously, I would succeed."],"answer":"I wish I had taken that opportunity more seriously.","explanation":"Regret: I wish + had + V3।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":234,"type":"fill","hindi":null,"sentence":"If I had _____ him about the issue, he could have fixed it.","options":["tell","telling","told","tells"],"answer":"told","explanation":"Third conditional: If + had + V3 → 'told'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":235,"type":"error","hindi":null,"sentence":"If she would have asked me, I would have helped.","options":["If she would have asked me, I would have helped.","If she had asked me, I would have helped."],"answer":"If she had asked me, I would have helped.","explanation":"Third conditional: 'If + had + V3' — 'would have' if-clause में नहीं।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":236,"type":"translate","hindi":"उनके पास office में एक dedicated cabin था।","options":["They have a dedicated cabin at the office.","They had a dedicated cabin at the office.","They was having dedicated cabin.","They did have cabin."],"answer":"They had a dedicated cabin at the office.","explanation":"Past possession: had + a + adjective + noun।","category":"Past Possession","difficulty":"easy"},
+    {"id":237,"type":"fill","hindi":null,"sentence":"My father had _____ own business before retiring.","options":["her","their","his","its"],"answer":"his","explanation":"Father = male → 'his own business'।","category":"Past Possession","difficulty":"easy"},
+    {"id":238,"type":"error","hindi":null,"sentence":"She had a strong work ethics.","options":["She had a strong work ethics.","She had a strong work ethic."],"answer":"She had a strong work ethic.","explanation":"'Work ethic' singular में — 'ethics' plural है but 'work ethic' phrase singular।","category":"Past Possession","difficulty":"medium"},
+    {"id":239,"type":"translate","hindi":"जब मैंने application submit की, deadline पहले ही निकल चुकी थी।","options":["When I submitted the application, the deadline passed.","When I submitted the application, the deadline had already passed.","The deadline passed when I submitted.","I submitted when the deadline had passed."],"answer":"When I submitted the application, the deadline had already passed.","explanation":"Earlier action: had + already + V3 (passed)।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":240,"type":"fill","hindi":null,"sentence":"After they had _____ the new system, productivity improved.","options":["implement","implementing","implemented","implements"],"answer":"implemented","explanation":"After + past perfect: had + V3 → 'implemented'।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":241,"type":"translate","hindi":"उसने पहले कभी इतना बड़ा team lead नहीं किया था।","options":["She never led such a big team.","She had never led such a big team.","She hasn't led such a big team.","She didn't lead a big team."],"answer":"She had never led such a big team.","explanation":"Past perfect with 'never': had + never + V3 (led)।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":242,"type":"fill","hindi":null,"sentence":"He had _____ in this industry for 10 years before switching.","options":["work","working","worked","works"],"answer":"worked","explanation":"had + V3 → 'worked'।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":243,"type":"error","hindi":null,"sentence":"She had done a great job in her previous company, wasn't she?","options":["She had done a great job in her previous company, wasn't she?","She had done a great job in her previous company, hadn't she?"],"answer":"She had done a great job in her previous company, hadn't she?","explanation":"Past perfect के साथ question tag: 'hadn't she?'।","category":"Past Perfect — Basic","difficulty":"hard"},
+    {"id":244,"type":"translate","hindi":"उस दिन की meeting बहुत productive थी।","options":["That day's meeting is very productive.","That day's meeting was very productive.","That day the meeting had very productive.","That day's meeting be very productive."],"answer":"That day's meeting was very productive.","explanation":"Past simple 'was' for describing a past state।","category":"Past Possession","difficulty":"easy"},
+    {"id":245,"type":"fill","hindi":null,"sentence":"She had _____ a lot of success in her career.","options":["achieve","achieving","achieved","achieves"],"answer":"achieved","explanation":"had + V3 → 'achieved'।","category":"Past Perfect — Professional","difficulty":"easy"},
+    {"id":246,"type":"error","hindi":null,"sentence":"The company had overcame many challenges.","options":["The company had overcame many challenges.","The company had overcome many challenges."],"answer":"The company had overcome many challenges.","explanation":"'Overcame' V2 — past perfect: had + V3 'overcome'।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":247,"type":"translate","hindi":"क्या उनके पास कोई plan था?","options":["Do they have any plan?","Did they have any plan?","Had they any plan?","Were they having a plan?"],"answer":"Did they have any plan?","explanation":"Past possession question: Did + subject + have?","category":"Past Possession — Questions","difficulty":"easy"},
+    {"id":248,"type":"fill","hindi":null,"sentence":"By the time she reached the hospital, the doctor had _____.","options":["leave","leaving","left","leaves"],"answer":"left","explanation":"'By the time + past', past perfect → 'had left'।","category":"Past Perfect — By the Time","difficulty":"easy"},
+    {"id":249,"type":"error","hindi":null,"sentence":"They had a very good team, do they?","options":["They had a very good team, do they?","They had a very good team, didn't they?"],"answer":"They had a very good team, didn't they?","explanation":"'Had' (past simple) के साथ question tag: 'didn't they?'।","category":"Past Possession","difficulty":"hard"},
+    {"id":250,"type":"translate","hindi":"उसने घर जाने से पहले सभी files save कर ली थीं।","options":["She saved all files before going home.","She had saved all files before going home.","She has saved all files before going.","She was saving files before going home."],"answer":"She had saved all files before going home.","explanation":"Earlier action: had + V3 (saved)।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":251,"type":"fill","hindi":null,"sentence":"I had _____ the presentation three times before the big day.","options":["practice","practicing","practiced","practices"],"answer":"practiced","explanation":"had + V3 → 'practiced'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":252,"type":"error","hindi":null,"sentence":"She hadn't finish the assignment on time.","options":["She hadn't finish the assignment on time.","She hadn't finished the assignment on time."],"answer":"She hadn't finished the assignment on time.","explanation":"hadn't + V3 → 'finished', not base verb 'finish'।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":253,"type":"translate","hindi":"उसके पास उस दौर में internet नहीं था।","options":["He doesn't have internet in those days.","He didn't have internet in those days.","He hadn't internet in those days.","He not had internet."],"answer":"He didn't have internet in those days.","explanation":"Negative past possession: didn't + have।","category":"Past Possession — Negative","difficulty":"easy"},
+    {"id":254,"type":"fill","hindi":null,"sentence":"The team hadn't _____ the testing phase before the launch.","options":["complete","completing","completed","completes"],"answer":"completed","explanation":"hadn't + V3 → 'completed'।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":255,"type":"error","hindi":null,"sentence":"We hadn't made any progress until the new manager came.","options":["We hadn't made any progress until the new manager came.","We hadn't make any progress until the new manager came."],"answer":"We hadn't made any progress until the new manager came.","explanation":"Correct: hadn't + V3 (made). यह sentence सही है।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":256,"type":"translate","hindi":"जैसे ही वह office पहुँची, meeting शुरू हो गई थी।","options":["As soon as she arrived at the office, the meeting started.","As soon as she arrived, the meeting had already started.","She arrived at the office and meeting started.","The meeting started when she arrives."],"answer":"As soon as she arrived, the meeting had already started.","explanation":"'As soon as + past simple, past perfect' for earlier action।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":257,"type":"fill","hindi":null,"sentence":"Had they _____ the issue before it became a crisis?","options":["resolve","resolving","resolved","resolves"],"answer":"resolved","explanation":"Past perfect question: Had + they + V3 → 'resolved'।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":258,"type":"error","hindi":null,"sentence":"If he had been more careful, he wouldn't make that mistake.","options":["If he had been more careful, he wouldn't make that mistake.","If he had been more careful, he wouldn't have made that mistake."],"answer":"If he had been more careful, he wouldn't have made that mistake.","explanation":"Third conditional result: would + have + V3।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":259,"type":"translate","hindi":"उसके पास अपना खुद का startup था।","options":["She has her own startup.","She had her own startup.","She was having own startup.","She did have startup."],"answer":"She had her own startup.","explanation":"Past possession: had + possessive + noun।","category":"Past Possession","difficulty":"easy"},
+    {"id":260,"type":"fill","hindi":null,"sentence":"He had a _____ for solving complex problems.","options":["knack","knacked","knacking","knacks"],"answer":"knack","explanation":"'had a knack for + gerund' = एक खास कौशल था।","category":"Common Expressions","difficulty":"medium"},
+    {"id":261,"type":"translate","hindi":"वह पहले ही report print कर चुकी थी।","options":["She already printed the report.","She had already printed the report.","She has already printed the report.","She print report already."],"answer":"She had already printed the report.","explanation":"had + already + V3 (printed)।","category":"Past Perfect — Already/Just/Never","difficulty":"easy"},
+    {"id":262,"type":"fill","hindi":null,"sentence":"By the time the manager arrived, the team had _____ the issue.","options":["resolve","resolving","resolved","resolves"],"answer":"resolved","explanation":"'By the time + past', past perfect: had + V3।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":263,"type":"error","hindi":null,"sentence":"I wish I had went to that conference.","options":["I wish I had went to that conference.","I wish I had gone to that conference."],"answer":"I wish I had gone to that conference.","explanation":"'went' V2 — 'wish + had + V3': 'gone'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":264,"type":"translate","hindi":"क्या उसने पहले कभी HR interview दिया था?","options":["Did she ever give an HR interview?","Had she ever given an HR interview?","Has she given an HR interview?","Was she giving an HR interview?"],"answer":"Had she ever given an HR interview?","explanation":"Past perfect question with 'ever': Had + subject + ever + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":265,"type":"fill","hindi":null,"sentence":"Before joining this company, I had _____ in two other firms.","options":["work","working","worked","works"],"answer":"worked","explanation":"Past perfect: had + V3 → 'worked'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":266,"type":"error","hindi":null,"sentence":"She had accomplished great achievement.","options":["She had accomplished great achievement.","She had accomplished great achievements."],"answer":"She had accomplished great achievements.","explanation":"'Achievement' countable — plural 'achievements' यहाँ natural है।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":267,"type":"translate","hindi":"उस दिन office में बहुत काम था।","options":["There is a lot of work in the office that day.","There was a lot of work in the office that day.","The office had a lot of work that day.","The office was having a lot of work."],"answer":"The office had a lot of work that day.","explanation":"Past possession: had + a lot of + noun।","category":"Past Possession","difficulty":"easy"},
+    {"id":268,"type":"fill","hindi":null,"sentence":"The manager had _____ all team members before the review.","options":["brief","briefing","briefed","briefs"],"answer":"briefed","explanation":"had + V3 → 'briefed'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":269,"type":"error","hindi":null,"sentence":"Before she got the award, she has worked very hard.","options":["Before she got the award, she has worked very hard.","Before she got the award, she had worked very hard."],"answer":"Before she got the award, she had worked very hard.","explanation":"'Before + past simple' → past perfect 'had worked'।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":270,"type":"translate","hindi":"क्या वह उससे पहले मिल चुकी थी?","options":["Did she meet him before?","Had she met him before?","Has she met him before?","Was she meeting him before?"],"answer":"Had she met him before?","explanation":"Past perfect question: Had + subject + V3 (met)?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":271,"type":"translate","hindi":"उसने कभी किसी से माफी नहीं माँगी थी।","options":["He never apologized to anyone.","He had never apologized to anyone.","He hasn't apologized to anyone.","He didn't apologize to anyone."],"answer":"He had never apologized to anyone.","explanation":"Past perfect with 'never': had + never + V3।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":272,"type":"fill","hindi":null,"sentence":"She had _____ all the pending tasks before taking leave.","options":["clear","clearing","cleared","clears"],"answer":"cleared","explanation":"had + V3 → 'cleared'।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":273,"type":"error","hindi":null,"sentence":"I had always wanted to start a business since childhood.","options":["I had always wanted to start a business since childhood.","I had always wanted to start a business from childhood."],"answer":"I had always wanted to start a business from childhood.","explanation":"'Since' specific time के साथ (since 2010), 'from' period के साथ (from childhood)।","category":"Past Possession","difficulty":"hard"},
+    {"id":274,"type":"translate","hindi":"जब हमने office खोला, बिजली पहले ही चली गई थी।","options":["When we opened the office, the power went out.","When we opened the office, the power had already gone out.","The power went out when we opened the office.","When we opened office, power goes out."],"answer":"When we opened the office, the power had already gone out.","explanation":"Earlier action: had + already + V3 (gone out)।","category":"Past Perfect — Time Clauses","difficulty":"medium"},
+    {"id":275,"type":"fill","hindi":null,"sentence":"By the time I woke up, everyone had _____ for the trip.","options":["leave","leaving","left","leaves"],"answer":"left","explanation":"Past perfect: had + V3 → 'left'।","category":"Past Perfect — By the Time","difficulty":"easy"},
+    {"id":276,"type":"error","hindi":null,"sentence":"They hadn't completed the work, but they are asking for payment.","options":["They hadn't completed the work, but they are asking for payment.","They hadn't completed the work, but they were asking for payment."],"answer":"They hadn't completed the work, but they were asking for payment.","explanation":"Past perfect के साथ past simple/continuous use करें — 'are' present है।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":277,"type":"translate","hindi":"मैंने पिछली job में एक बड़ा system develop किया था।","options":["I developed a big system in my last job.","I had developed a big system in my last job.","I have developed a big system.","I was developing a big system."],"answer":"I had developed a big system in my last job.","explanation":"Professional past perfect: had + V3।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":278,"type":"fill","hindi":null,"sentence":"She had always _____ a passion for data analytics.","options":["have","having","had","has"],"answer":"had","explanation":"'had always had' = उसे हमेशा से passion था। (past perfect with 'always')।","category":"Past Possession","difficulty":"hard"},
+    {"id":279,"type":"error","hindi":null,"sentence":"If I had knew the requirements, I would have prepared better.","options":["If I had knew the requirements, I would have prepared better.","If I had known the requirements, I would have prepared better."],"answer":"If I had known the requirements, I would have prepared better.","explanation":"Third conditional: 'knew' (V2) नहीं — 'known' (V3) चाहिए।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":280,"type":"translate","hindi":"क्या तुमने कभी team leader की भूमिका निभाई थी?","options":["Did you ever play the role of team leader?","Had you ever played the role of team leader?","Have you ever played team leader role?","Were you ever playing team leader?"],"answer":"Had you ever played the role of team leader?","explanation":"Past perfect question: Had + you + ever + V3?","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":281,"type":"fill","hindi":null,"sentence":"He had always _____ in giving his best effort.","options":["believe","believed","believing","believes"],"answer":"believed","explanation":"had + always + V3 → 'believed'।","category":"Past Possession","difficulty":"medium"},
+    {"id":282,"type":"error","hindi":null,"sentence":"She had a good reputation among her colleagues, isn't it?","options":["She had a good reputation among her colleagues, isn't it?","She had a good reputation among her colleagues, didn't she?"],"answer":"She had a good reputation among her colleagues, didn't she?","explanation":"'Had' (past) के साथ question tag: 'didn't she?'।","category":"Past Possession","difficulty":"hard"},
+    {"id":283,"type":"translate","hindi":"उन्होंने decision लेने से पहले सब कुछ सोच लिया था।","options":["They thought everything before deciding.","They had thought everything through before deciding.","They think everything before deciding.","They thought through everything after deciding."],"answer":"They had thought everything through before deciding.","explanation":"Earlier action: had + V3 (thought). 'Think through' = अच्छी तरह सोचना।","category":"Past Perfect — Time Clauses","difficulty":"hard"},
+    {"id":284,"type":"fill","hindi":null,"sentence":"By the time the new employee joined, the team had already _____ a solution.","options":["find","finding","found","finds"],"answer":"found","explanation":"Past perfect: had + already + V3 → 'found'।","category":"Past Perfect — By the Time","difficulty":"medium"},
+    {"id":285,"type":"error","hindi":null,"sentence":"She hadn't never worked in a corporate environment.","options":["She hadn't never worked in a corporate environment.","She had never worked in a corporate environment."],"answer":"She had never worked in a corporate environment.","explanation":"Double negative 'hadn't never' गलत — 'had never' सही।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":286,"type":"translate","hindi":"काश उसने पहले help माँगी होती।","options":["I wish she asks for help earlier.","I wish she had asked for help earlier.","I wish she would ask for help.","If she ask for help, it helps."],"answer":"I wish she had asked for help earlier.","explanation":"Regret: I wish + had + V3 (asked)।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":287,"type":"fill","hindi":null,"sentence":"If the team had _____ better, they would have won the award.","options":["coordinate","coordinating","coordinated","coordinates"],"answer":"coordinated","explanation":"Third conditional: If + had + V3 → 'coordinated'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":288,"type":"error","hindi":null,"sentence":"If we had payed more attention, we could have avoided the mistake.","options":["If we had payed more attention, we could have avoided the mistake.","If we had paid more attention, we could have avoided the mistake."],"answer":"If we had paid more attention, we could have avoided the mistake.","explanation":"V3 of 'pay' = 'paid', not 'payed'।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":289,"type":"translate","hindi":"उसके पास पहले बहुत अच्छे communication skills थे।","options":["She has great communication skills.","She had great communication skills.","She is having communication skills.","She did have communication."],"answer":"She had great communication skills.","explanation":"Past possession: had + adjective + noun।","category":"Past Possession","difficulty":"easy"},
+    {"id":290,"type":"fill","hindi":null,"sentence":"The project had been _____ for two months before it was approved.","options":["plan","planning","planned","plans"],"answer":"planned","explanation":"Passive past perfect: had been + V3 → 'planned'।","category":"Past Perfect — Basic","difficulty":"hard"},
+    {"id":291,"type":"error","hindi":null,"sentence":"They already had finished by the time we arrived.","options":["They already had finished by the time we arrived.","They had already finished by the time we arrived."],"answer":"They had already finished by the time we arrived.","explanation":"'Already' का सही position: had + already + V3 (not 'already had + V3')।","category":"Past Perfect — Already/Just/Never","difficulty":"medium"},
+    {"id":292,"type":"translate","hindi":"क्या आपने यह course पहले किया था?","options":["Did you do this course before?","Had you done this course before?","Have you done this course?","Were you doing this course?"],"answer":"Had you done this course before?","explanation":"Past perfect question about prior experience।","category":"Past Perfect — Questions","difficulty":"medium"},
+    {"id":293,"type":"fill","hindi":null,"sentence":"She hadn't _____ such a challenging role before.","options":["handle","handling","handled","handles"],"answer":"handled","explanation":"hadn't + V3 → 'handled'।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":294,"type":"error","hindi":null,"sentence":"Before the final presentation, the team hasn't prepared properly.","options":["Before the final presentation, the team hasn't prepared properly.","Before the final presentation, the team hadn't prepared properly."],"answer":"Before the final presentation, the team hadn't prepared properly.","explanation":"'Before + past event' = past perfect negative 'hadn't prepared'।","category":"Past Perfect — Negative","difficulty":"medium"},
+    {"id":295,"type":"translate","hindi":"उसने शुरुआत में company में काफी मुश्किलें झेली थीं।","options":["She faced many difficulties at the start of the company.","She had faced many difficulties at the start of the company.","She was facing difficulties at company start.","She has faced difficulties at the start."],"answer":"She had faced many difficulties at the start of the company.","explanation":"Past perfect for completed past experience: had + V3 (faced)।","category":"Past Perfect — Basic","difficulty":"medium"},
+    {"id":296,"type":"fill","hindi":null,"sentence":"He had _____ hard work and dedication throughout his career.","options":["showed","showing","show","shown"],"answer":"shown","explanation":"had + V3 → 'shown' (V3 of show)।","category":"Past Perfect — Professional","difficulty":"medium"},
+    {"id":297,"type":"error","hindi":null,"sentence":"If she had gone for the interview, she may have got the job.","options":["If she had gone for the interview, she may have got the job.","If she had gone for the interview, she might have got the job."],"answer":"If she had gone for the interview, she might have got the job.","explanation":"Third conditional result: 'might have' (possibility) or 'would have'. 'May have' less natural with 3rd conditional।","category":"Had in Conditionals","difficulty":"hard"},
+    {"id":298,"type":"translate","hindi":"उस समय हमारे पास एक बड़ा client था।","options":["At that time we have a big client.","At that time we had a big client.","At that time we are having a big client.","At that time we did have big client."],"answer":"At that time we had a big client.","explanation":"Past possession: had + a + adjective + noun।","category":"Past Possession","difficulty":"easy"},
+    {"id":299,"type":"fill","hindi":null,"sentence":"She had a _____ meeting with the board before resigning.","options":["final","finally","finalize","finalized"],"answer":"final","explanation":"'had a final meeting' — adjective 'final' noun से पहले।","category":"Common Expressions","difficulty":"easy"},
+    {"id":300,"type":"error","hindi":null,"sentence":"By the time they realized, the opportunity has gone.","options":["By the time they realized, the opportunity has gone.","By the time they realized, the opportunity had gone."],"answer":"By the time they realized, the opportunity had gone.","explanation":"'By the time + past simple' → past perfect 'had gone'।","category":"Past Perfect — By the Time","difficulty":"medium"}
   ]
 }

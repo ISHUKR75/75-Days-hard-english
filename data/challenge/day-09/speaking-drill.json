@@ -1,183 +1,459 @@
 {
   "day": 9,
   "topic": "Use of There",
-  "totalDrills": 8,
+  "totalDrills": 30,
   "drills": [
     {
       "id": 1,
-      "type": "repeat-and-speak",
-      "title": "Use of There — Speaking Set 1",
+      "type": "repeat",
+      "title": "There IS — Basic Singular Present",
+      "instructions": "इन sentences को ज़ोर से 3 बार repeat करें। 'There is' पर ध्यान दें।",
       "sentences": [
-        {
-          "english": "There is a book on the table.",
-          "hindi": "मेज पर एक किताब है।",
-          "pronunciation": "there is a book on the table"
-        },
-        {
-          "english": "There is a fan in my room.",
-          "hindi": "मेरे कमरे में एक पंखा है।",
-          "pronunciation": "there is a fan in my room"
-        },
-        {
-          "english": "There is a problem in the system.",
-          "hindi": "सिस्टम में एक समस्या है।",
-          "pronunciation": "there is a problem in the system"
-        }
-      ]
+        {"english": "There is a book on the table.", "hindi": "मेज पर एक किताब है।", "pronunciation": "THERE iz uh book ON the TAY-bul"},
+        {"english": "There is a fan in my room.", "hindi": "मेरे कमरे में एक पंखा है।", "pronunciation": "THERE iz uh fan IN my room"},
+        {"english": "There is a problem in the system.", "hindi": "सिस्टम में एक समस्या है।", "pronunciation": "THERE iz uh PROB-lum in the SIS-tum"},
+        {"english": "There is a meeting at 3 pm.", "hindi": "3 बजे एक मीटिंग है।", "pronunciation": "THERE iz uh MEE-ting at THREE pee-em"},
+        {"english": "There is milk in the fridge.", "hindi": "फ्रिज में दूध है।", "pronunciation": "THERE iz milk IN the frij"},
+        {"english": "There is a lot of traffic today.", "hindi": "आज बहुत ट्रैफिक है।", "pronunciation": "THERE iz uh LOT of TRAF-ik tuh-DAY"}
+      ],
+      "tips": ["'There is' को तेज़ बोलते समय 'There's' बोलें", "Noun पर stress दें, 'There is' पर नहीं", "हर sentence के बाद एक पल रुकें"]
     },
     {
       "id": 2,
-      "type": "repeat-and-speak",
-      "title": "Use of There — Speaking Set 2",
+      "type": "repeat",
+      "title": "There ARE — Basic Plural Present",
+      "instructions": "इन plural sentences को 3 बार repeat करें। 'There are' की sound पर ध्यान दें।",
       "sentences": [
-        {
-          "english": "There is a meeting at 3 pm.",
-          "hindi": "3 बजे एक मीटिंग है।",
-          "pronunciation": "there is a meeting at 3 pm"
-        },
-        {
-          "english": "There is a new student in our class.",
-          "hindi": "हमारी कक्षा में एक नया छात्र है।",
-          "pronunciation": "there is a new student in our class"
-        },
-        {
-          "english": "There is a temple near my house.",
-          "hindi": "मेरे घर के पास एक मंदिर है।",
-          "pronunciation": "there is a temple near my house"
-        }
-      ]
+        {"english": "There are many students in the class.", "hindi": "कक्षा में कई छात्र हैं।", "pronunciation": "THERE ar MAY-nee STU-dents in the klaas"},
+        {"english": "There are five rooms in this house.", "hindi": "इस घर में पाँच कमरे हैं।", "pronunciation": "THERE ar FIVE rooms in this house"},
+        {"english": "There are three files on my desk.", "hindi": "मेरी मेज पर तीन फाइलें हैं।", "pronunciation": "THERE ar THREE files ON my desk"},
+        {"english": "There are some apples in the basket.", "hindi": "टोकरी में कुछ सेब हैं।", "pronunciation": "THERE ar SUM AP-ulz in the BAS-kit"},
+        {"english": "There are two ATMs near here.", "hindi": "यहाँ के पास दो ATM हैं।", "pronunciation": "THERE ar TWO ay-tee-ems NEAR here"},
+        {"english": "There are many people waiting outside.", "hindi": "बाहर कई लोग इंतज़ार कर रहे हैं।", "pronunciation": "THERE ar MAY-nee PEE-pul WAY-ting OUT-side"}
+      ],
+      "tips": ["'There are' में 'r' sound link होती है — 'there-r-are' जैसा लगता है", "Plural noun पर ध्यान दें — always ends in s/es or is irregular", "Fast speech में 'there are' → 'there-r'"]
     },
     {
       "id": 3,
-      "type": "repeat-and-speak",
-      "title": "Use of There — Speaking Set 3",
+      "type": "repeat",
+      "title": "There WAS — Singular Past",
+      "instructions": "भूतकाल के ये sentences repeat करें। 'There was' की past feeling महसूस करें।",
       "sentences": [
-        {
-          "english": "There is some water in the glass.",
-          "hindi": "गिलास में थोड़ा पानी है।",
-          "pronunciation": "there is some water in the glass"
-        },
-        {
-          "english": "There is a lot of work today.",
-          "hindi": "आज बहुत काम है।",
-          "pronunciation": "there is a lot of work today"
-        },
-        {
-          "english": "There is a dog outside the door.",
-          "hindi": "दरवाजे के बाहर एक कुत्ता है।",
-          "pronunciation": "there is a dog outside the door"
-        }
-      ]
+        {"english": "There was a problem yesterday.", "hindi": "कल एक समस्या थी।", "pronunciation": "THERE wuz uh PROB-lum YES-ter-day"},
+        {"english": "There was a big party last night.", "hindi": "कल रात एक बड़ी पार्टी थी।", "pronunciation": "THERE wuz uh BIG par-tee LAST night"},
+        {"english": "There was a lot of noise outside.", "hindi": "बाहर बहुत शोर था।", "pronunciation": "THERE wuz uh LOT of NOIZ OUT-side"},
+        {"english": "There was a hospital here before.", "hindi": "यहाँ पहले एक अस्पताल था।", "pronunciation": "THERE wuz uh HOS-pi-tul HERE buh-FOR"},
+        {"english": "There was a mistake in my report.", "hindi": "मेरी रिपोर्ट में एक गलती थी।", "pronunciation": "THERE wuz uh mis-TAKE in my ree-PORT"},
+        {"english": "There was a time when life was simple.", "hindi": "एक समय था जब जिंदगी सरल थी।", "pronunciation": "THERE wuz uh TIME when LIFE wuz SIM-pul"}
+      ],
+      "tips": ["'Was' को /wuz/ बोलते हैं — 'waz' नहीं", "Past time words add करें: yesterday, last night, before, once", "Storytelling में 'There was' से शुरू करने की practice करें"]
     },
     {
       "id": 4,
-      "type": "repeat-and-speak",
-      "title": "Use of There — Speaking Set 4",
+      "type": "repeat",
+      "title": "There WERE — Plural Past",
+      "instructions": "ये plural past sentences repeat करें। History और stories में यह form बहुत useful है।",
       "sentences": [
-        {
-          "english": "There is a bus stop near here.",
-          "hindi": "यहाँ के पास एक बस स्टॉप है।",
-          "pronunciation": "there is a bus stop near here"
-        },
-        {
-          "english": "There is a new movie in the theatre.",
-          "hindi": "थिएटर में एक नई फिल्म है।",
-          "pronunciation": "there is a new movie in the theatre"
-        },
-        {
-          "english": "There is a report due tomorrow.",
-          "hindi": "कल एक रिपोर्ट जमा करनी है।",
-          "pronunciation": "there is a report due tomorrow"
-        }
-      ]
+        {"english": "There were many people at the party.", "hindi": "पार्टी में कई लोग थे।", "pronunciation": "THERE wur MAY-nee PEE-pul at the PAR-tee"},
+        {"english": "There were five people in the meeting.", "hindi": "मीटिंग में पाँच लोग थे।", "pronunciation": "THERE wur FIVE PEE-pul in the MEE-ting"},
+        {"english": "There were no chairs available.", "hindi": "कोई कुर्सी उपलब्ध नहीं थी।", "pronunciation": "THERE wur NO chairs uh-VAY-luh-bul"},
+        {"english": "There were many problems in the old system.", "hindi": "पुराने system में कई समस्याएँ थीं।", "pronunciation": "THERE wur MAY-nee PROB-lumz in the OLD SIS-tum"},
+        {"english": "There were no mobile phones in 1990.", "hindi": "1990 में कोई mobile phone नहीं था।", "pronunciation": "THERE wur NO MO-bile fonz in NINE-teen-ninety"},
+        {"english": "There were days when I felt hopeless.", "hindi": "ऐसे दिन थे जब मैं निराश महसूस करता था।", "pronunciation": "THERE wur DAYZ when I felt HOP-les"}
+      ],
+      "tips": ["'Were' = /wur/ — not 'wear'", "Notice: 'There were no...' is more emphatic than 'There weren't any...'", "Use 'There were times when...' as a storytelling opener"]
     },
     {
       "id": 5,
-      "type": "repeat-and-speak",
-      "title": "Use of There — Speaking Set 5",
+      "type": "repeat",
+      "title": "There WILL BE — Future",
+      "instructions": "Future sentences को confidently repeat करें। यह form singular और plural दोनों के लिए same रहती है।",
       "sentences": [
-        {
-          "english": "There is a chair near the window.",
-          "hindi": "खिड़की के पास एक कुर्सी है।",
-          "pronunciation": "there is a chair near the window"
-        },
-        {
-          "english": "There is a hospital on MG Road.",
-          "hindi": "MG Road पर एक अस्पताल है।",
-          "pronunciation": "there is a hospital on mg road"
-        },
-        {
-          "english": "There is a new teacher today.",
-          "hindi": "आज एक नए शिक्षक हैं।",
-          "pronunciation": "there is a new teacher today"
-        }
-      ]
+        {"english": "There will be a meeting tomorrow.", "hindi": "कल एक मीटिंग होगी।", "pronunciation": "THERE wil BEE uh MEE-ting tuh-MOR-oh"},
+        {"english": "There will be many people at the event.", "hindi": "इस event में कई लोग होंगे।", "pronunciation": "THERE wil BEE MAY-nee PEE-pul at the ee-VENT"},
+        {"english": "There will be a test next week.", "hindi": "अगले हफ्ते एक परीक्षा होगी।", "pronunciation": "THERE wil BEE uh test NEXT week"},
+        {"english": "There will be no classes on Friday.", "hindi": "शुक्रवार को कोई कक्षाएँ नहीं होंगी।", "pronunciation": "THERE wil BEE no KLAS-iz on FRY-day"},
+        {"english": "There will be an announcement soon.", "hindi": "जल्द ही एक घोषणा होगी।", "pronunciation": "THERE wil BEE an uh-NOWNS-ment SOON"},
+        {"english": "There will be heavy rain tomorrow.", "hindi": "कल भारी बारिश होगी।", "pronunciation": "THERE wil BEE HEV-ee RAYN tuh-MOR-oh"}
+      ],
+      "tips": ["'Will be' = भविष्य का formula — singular/plural के लिए same!", "Confidence के साथ बोलें — future announcements confident होनी चाहिए", "'Will' को stress करें जब future certainty express करनी हो"]
     },
     {
       "id": 6,
-      "type": "repeat-and-speak",
-      "title": "Use of There — Speaking Set 6",
+      "type": "repeat",
+      "title": "Negatives — There ISN'T / AREN'T",
+      "instructions": "Present negative sentences को natural contractions के साथ practice करें।",
       "sentences": [
-        {
-          "english": "There is milk in the fridge.",
-          "hindi": "फ्रिज में दूध है।",
-          "pronunciation": "there is milk in the fridge"
-        },
-        {
-          "english": "There is a lot of traffic on this road.",
-          "hindi": "इस सड़क पर बहुत ट्रैफिक है।",
-          "pronunciation": "there is a lot of traffic on this road"
-        },
-        {
-          "english": "There is an email for you.",
-          "hindi": "आपके लिए एक email है।",
-          "pronunciation": "there is an email for you"
-        }
-      ]
+        {"english": "There isn't any milk in the fridge.", "hindi": "फ्रिज में दूध नहीं है।", "pronunciation": "THERE IZ-unt EN-ee milk in the frij"},
+        {"english": "There aren't any chairs in the room.", "hindi": "कमरे में कोई कुर्सियाँ नहीं हैं।", "pronunciation": "THERE AR-unt EN-ee chairz in the room"},
+        {"english": "There isn't enough time.", "hindi": "पर्याप्त समय नहीं है।", "pronunciation": "THERE IZ-unt ih-NUF time"},
+        {"english": "There aren't any good restaurants here.", "hindi": "यहाँ कोई अच्छे restaurants नहीं हैं।", "pronunciation": "THERE AR-unt EN-ee good RES-tuh-ronts HERE"},
+        {"english": "There isn't a single copy available.", "hindi": "एक भी copy उपलब्ध नहीं है।", "pronunciation": "THERE IZ-unt uh SIN-gul KOP-ee uh-VAY-luh-bul"},
+        {"english": "There isn't any Wi-Fi in this area.", "hindi": "इस इलाके में Wi-Fi नहीं है।", "pronunciation": "THERE IZ-unt EN-ee WY-fy in this AIR-ee-uh"}
+      ],
+      "tips": ["'Isn't' और 'aren't' contractions naturally sound करते हैं", "Negative sentences में 'any' use करें, 'some' नहीं", "'There is no...' और 'There isn't any...' दोनों correct हैं"]
     },
     {
       "id": 7,
-      "type": "repeat-and-speak",
-      "title": "Use of There — Speaking Set 7",
+      "type": "repeat",
+      "title": "Negatives — There WASN'T / WEREN'T",
+      "instructions": "Past negative sentences practice करें। ये sentences doubt/denial express करते हैं।",
       "sentences": [
-        {
-          "english": "There is a park near our school.",
-          "hindi": "हमारे स्कूल के पास एक पार्क है।",
-          "pronunciation": "there is a park near our school"
-        },
-        {
-          "english": "There is a good restaurant in this area.",
-          "hindi": "इस इलाके में एक अच्छा रेस्टोरेंट है।",
-          "pronunciation": "there is a good restaurant in this area"
-        },
-        {
-          "english": "There are many students in the class.",
-          "hindi": "कक्षा में कई छात्र हैं।",
-          "pronunciation": "there are many students in the class"
-        }
-      ]
+        {"english": "There wasn't a problem before.", "hindi": "पहले कोई समस्या नहीं थी।", "pronunciation": "THERE WUZ-unt uh PROB-lum buh-FOR"},
+        {"english": "There weren't many people at the meeting.", "hindi": "मीटिंग में ज्यादा लोग नहीं थे।", "pronunciation": "THERE WUR-unt MAY-nee PEE-pul at the MEE-ting"},
+        {"english": "There wasn't any food left.", "hindi": "कोई खाना बचा नहीं था।", "pronunciation": "THERE WUZ-unt EN-ee food LEFT"},
+        {"english": "There weren't any questions from the students.", "hindi": "छात्रों से कोई सवाल नहीं थे।", "pronunciation": "THERE WUR-unt EN-ee KWEST-yunz from the STU-dents"},
+        {"english": "There wasn't enough space.", "hindi": "पर्याप्त जगह नहीं थी।", "pronunciation": "THERE WUZ-unt ih-NUF SPAYS"},
+        {"english": "There weren't any buses after 9 pm.", "hindi": "रात 9 बजे के बाद कोई bus नहीं थी।", "pronunciation": "THERE WUR-unt EN-ee BUS-iz AF-ter NINE pee-em"}
+      ],
+      "tips": ["'Wasn't' = /WUZ-unt/ | 'Weren't' = /WUR-unt/", "Contrast with present: 'There isn't...' vs 'There wasn't...'", "Add time words for clarity: before, then, at that time"]
     },
     {
       "id": 8,
-      "type": "repeat-and-speak",
-      "title": "Use of There — Speaking Set 8",
+      "type": "repeat",
+      "title": "Negatives — There WON'T BE / HASN'T BEEN",
+      "instructions": "Future और present perfect negative forms practice करें।",
       "sentences": [
-        {
-          "english": "There are five rooms in this house.",
-          "hindi": "इस घर में पाँच कमरे हैं।",
-          "pronunciation": "there are five rooms in this house"
-        },
-        {
-          "english": "There are three files on my desk.",
-          "hindi": "मेरी मेज पर तीन फाइलें हैं।",
-          "pronunciation": "there are three files on my desk"
-        },
-        {
-          "english": "There are a lot of problems in this project.",
-          "hindi": "इस project में बहुत सारी समस्याएँ हैं।",
-          "pronunciation": "there are a lot of problems in this project"
-        }
-      ]
+        {"english": "There won't be any classes tomorrow.", "hindi": "कल कोई classes नहीं होंगी।", "pronunciation": "THERE WONT BEE EN-ee KLAS-iz tuh-MOR-oh"},
+        {"english": "There won't be any delay this time.", "hindi": "इस बार कोई देरी नहीं होगी।", "pronunciation": "THERE WONT BEE EN-ee duh-LAY this TIME"},
+        {"english": "There hasn't been any rain this month.", "hindi": "इस महीने कोई बारिश नहीं हुई है।", "pronunciation": "THERE HAZ-unt BIN EN-ee RAYN this munth"},
+        {"english": "There haven't been any complaints so far.", "hindi": "अभी तक कोई शिकायत नहीं आई है।", "pronunciation": "THERE HAV-unt BIN EN-ee kum-PLAYTS so FAR"},
+        {"english": "There won't be a meeting next Monday.", "hindi": "अगले सोमवार कोई मीटिंग नहीं होगी।", "pronunciation": "THERE WONT BEE uh MEE-ting next MUN-day"},
+        {"english": "There hasn't been any progress on this issue.", "hindi": "इस मुद्दे पर कोई progress नहीं हुई है।", "pronunciation": "THERE HAZ-unt BIN EN-ee PROG-res on this ISH-oo"}
+      ],
+      "tips": ["'Won't be' = will not be — future negative", "Notice: 'hasn't been' (singular) vs 'haven't been' (plural)", "These forms are very common in professional communication"]
+    },
+    {
+      "id": 9,
+      "type": "repeat",
+      "title": "Questions — IS THERE? / ARE THERE?",
+      "instructions": "Present tense questions practice करें। Verb को 'there' से पहले रखें। Voice को sentence के end में थोड़ा ऊपर उठाएं।",
+      "sentences": [
+        {"english": "Is there a pen on the table?", "hindi": "क्या मेज पर एक कलम है?", "pronunciation": "IZ there uh PEN on the TAY-bul?"},
+        {"english": "Are there any seats available?", "hindi": "क्या कोई सीटें उपलब्ध हैं?", "pronunciation": "AR there EN-ee SEETS uh-VAY-luh-bul?"},
+        {"english": "Is there any milk in the fridge?", "hindi": "क्या फ्रिज में दूध है?", "pronunciation": "IZ there EN-ee MILK in the frij?"},
+        {"english": "Are there any good doctors here?", "hindi": "क्या यहाँ कोई अच्छे डॉक्टर हैं?", "pronunciation": "AR there EN-ee good DOK-torz HERE?"},
+        {"english": "Is there a bathroom on this floor?", "hindi": "क्या इस floor पर bathroom है?", "pronunciation": "IZ there uh BATH-room on this FLOR?"},
+        {"english": "Are there enough resources for this project?", "hindi": "क्या इस project के लिए पर्याप्त resources हैं?", "pronunciation": "AR there ih-NUF REE-sor-siz for this PROJ-ekt?"}
+      ],
+      "tips": ["Questions में voice end में ऊपर जाती है (rising intonation)", "Short answer practice: 'Yes, there is.' / 'No, there isn't.'", "'Is there anything...?' = बहुत polite question form"]
+    },
+    {
+      "id": 10,
+      "type": "repeat",
+      "title": "Questions — WAS THERE? / WERE THERE? / WILL THERE BE?",
+      "instructions": "Past और future question forms practice करें।",
+      "sentences": [
+        {"english": "Was there a problem in the meeting?", "hindi": "क्या मीटिंग में कोई समस्या थी?", "pronunciation": "WUZ there uh PROB-lum in the MEE-ting?"},
+        {"english": "Were there many people at the event?", "hindi": "क्या event में कई लोग थे?", "pronunciation": "WUR there MAY-nee PEE-pul at the ee-VENT?"},
+        {"english": "Will there be a test tomorrow?", "hindi": "क्या कल परीक्षा होगी?", "pronunciation": "WIL there BEE uh test tuh-MOR-oh?"},
+        {"english": "Was there a train at 7 am?", "hindi": "क्या सुबह 7 बजे ट्रेन थी?", "pronunciation": "WUZ there uh TRAYN at SEV-un ay-em?"},
+        {"english": "Were there any complaints last month?", "hindi": "क्या पिछले महीने कोई शिकायतें थीं?", "pronunciation": "WUR there EN-ee kum-PLAYTS last munth?"},
+        {"english": "Will there be any changes in the plan?", "hindi": "क्या plan में कोई बदलाव होंगे?", "pronunciation": "WIL there BEE EN-ee CHAYN-jiz in the plan?"}
+      ],
+      "tips": ["'Was there?' = एकवचन past question", "'Were there?' = बहुवचन past question", "'Will there be?' = future question — same for singular and plural"]
+    },
+    {
+      "id": 11,
+      "type": "transformation",
+      "title": "Mixed Tense Drill 1 — Present to Past",
+      "instructions": "Present sentence को Past में change करें। Hindi prompt देखें, फिर English बोलें।",
+      "sentences": [
+        {"english": "Present: There is a problem. → Past: There was a problem.", "hindi": "Present → Past: समस्या है। → समस्या थी।", "pronunciation": "THERE wuz uh PROB-lum"},
+        {"english": "Present: There are many people. → Past: There were many people.", "hindi": "Present → Past: कई लोग हैं। → कई लोग थे।", "pronunciation": "THERE wur MAY-nee PEE-pul"},
+        {"english": "Present: There is a meeting. → Past: There was a meeting.", "hindi": "Present → Past: मीटिंग है। → मीटिंग थी।", "pronunciation": "THERE wuz uh MEE-ting"},
+        {"english": "Present: There are 5 files. → Past: There were 5 files.", "hindi": "Present → Past: 5 फाइलें हैं। → 5 फाइलें थीं।", "pronunciation": "THERE wur FIVE fylz"},
+        {"english": "Present: There is noise. → Past: There was noise.", "hindi": "Present → Past: शोर है। → शोर था।", "pronunciation": "THERE wuz NOIZ"},
+        {"english": "Present: There are complaints. → Past: There were complaints.", "hindi": "Present → Past: शिकायतें हैं। → शिकायतें थीं।", "pronunciation": "THERE wur kum-PLAYTS"}
+      ],
+      "tips": ["IS → WAS (singular) | ARE → WERE (plural)", "Past time words add करें: yesterday, last week, before", "Transformation drill = tense change की fastest practice"]
+    },
+    {
+      "id": 12,
+      "type": "transformation",
+      "title": "Mixed Tense Drill 2 — Present to Future",
+      "instructions": "Present sentence को Future में change करें।",
+      "sentences": [
+        {"english": "Present: There is a meeting. → Future: There will be a meeting.", "hindi": "Present → Future: मीटिंग है। → मीटिंग होगी।", "pronunciation": "THERE wil BEE uh MEE-ting"},
+        {"english": "Present: There are many problems. → Future: There will be many problems.", "hindi": "Present → Future: कई समस्याएँ हैं। → कई समस्याएँ होंगी।", "pronunciation": "THERE wil BEE MAY-nee PROB-lumz"},
+        {"english": "Present: There is a party. → Future: There will be a party.", "hindi": "Present → Future: पार्टी है। → पार्टी होगी।", "pronunciation": "THERE wil BEE uh PAR-tee"},
+        {"english": "Present: There are classes. → Future: There will be classes.", "hindi": "Present → Future: कक्षाएँ हैं। → कक्षाएँ होंगी।", "pronunciation": "THERE wil BEE KLAS-iz"},
+        {"english": "Present: There is traffic. → Future: There will be traffic.", "hindi": "Present → Future: ट्रैफिक है। → ट्रैफिक होगा।", "pronunciation": "THERE wil BEE TRAF-ik"},
+        {"english": "Present: There are many options. → Future: There will be many options.", "hindi": "Present → Future: कई विकल्प हैं। → कई विकल्प होंगे।", "pronunciation": "THERE wil BEE MAY-nee OP-shunz"}
+      ],
+      "tips": ["IS/ARE → WILL BE (both singular and plural)", "'Will be' never changes — यही इसकी खूबी है!", "Future time words: tomorrow, next week, soon, later"]
+    },
+    {
+      "id": 13,
+      "type": "repeat",
+      "title": "Quantifier Drill — SOME / ANY / NO",
+      "instructions": "Some, any, no के साथ There sentences practice करें। Context देखकर सही quantifier choose करें।",
+      "sentences": [
+        {"english": "There are some books on the shelf. (positive)", "hindi": "शेल्फ पर कुछ किताबें हैं। (+)", "pronunciation": "THERE ar SUM books ON the shelf"},
+        {"english": "There isn't any water in the bottle. (negative)", "hindi": "बोतल में पानी नहीं है। (−)", "pronunciation": "THERE IZ-unt EN-ee WAW-ter in the BOT-ul"},
+        {"english": "Is there any milk in the fridge? (question)", "hindi": "क्या फ्रिज में दूध है? (?)", "pronunciation": "IZ there EN-ee MILK in the frij?"},
+        {"english": "There is no time to waste. (strong negative)", "hindi": "बर्बाद करने के लिए समय नहीं है। (✗)", "pronunciation": "THERE iz NO TIME to wayst"},
+        {"english": "There are some notifications on your phone. (positive)", "hindi": "आपके phone पर कुछ notifications हैं। (+)", "pronunciation": "THERE ar SUM no-tif-ih-KAY-shunz on YOUR fon"},
+        {"english": "There aren't any vegetarian options here. (negative)", "hindi": "यहाँ कोई vegetarian विकल्प नहीं हैं। (−)", "pronunciation": "THERE AR-unt EN-ee VEJ-ih-TAIR-ee-un OP-shunz HERE"}
+      ],
+      "tips": ["SOME = positive | ANY = negative/question | NO = strong negative", "कभी 'There is no any' मत बोलो — यह wrong है", "Practice: बोलने से पहले सोचें: क्या यह + / − / ? sentence है?"]
+    },
+    {
+      "id": 14,
+      "type": "repeat",
+      "title": "Quantifier Drill — MANY / FEW / A LOT OF / ENOUGH",
+      "instructions": "Advanced quantifiers के साथ There sentences practice करें।",
+      "sentences": [
+        {"english": "There are many challenges in this field.", "hindi": "इस field में कई चुनौतियाँ हैं।", "pronunciation": "THERE ar MAY-nee CHAL-en-jiz in this FEELD"},
+        {"english": "There are a few options available.", "hindi": "कुछ विकल्प उपलब्ध हैं।", "pronunciation": "THERE ar uh FYOO OP-shunz uh-VAY-luh-bul"},
+        {"english": "There is a lot of work to do.", "hindi": "बहुत काम करना है।", "pronunciation": "THERE iz uh LOT uv WURK to doo"},
+        {"english": "There are enough seats for everyone.", "hindi": "सबके लिए पर्याप्त सीटें हैं।", "pronunciation": "THERE ar ih-NUF SEETS for EV-ree-wun"},
+        {"english": "There isn't enough budget for this project.", "hindi": "इस project के लिए पर्याप्त budget नहीं है।", "pronunciation": "THERE IZ-unt ih-NUF BUJ-it for this PROJ-ekt"},
+        {"english": "There are numerous advantages of learning English.", "hindi": "अंग्रेज़ी सीखने के अनेक फायदे हैं।", "pronunciation": "THERE ar NOO-mer-us ad-VAN-tij-iz uv LUR-ning ING-glish"}
+      ],
+      "tips": ["'A lot of' = universal — countable और uncountable दोनों के साथ work करता है", "'Few' (almost none) vs 'a few' (some, positive) — difference याद रखें", "'Enough' = पर्याप्त — very useful in professional contexts"]
+    },
+    {
+      "id": 15,
+      "type": "repeat",
+      "title": "Office Context Drill 1 — Meetings & Tasks",
+      "instructions": "ये professional office sentences हैं। इन्हें confidently बोलें — जैसे आप किसी colleague से बात कर रहे हों।",
+      "sentences": [
+        {"english": "There is a meeting at 10 am tomorrow.", "hindi": "कल सुबह 10 बजे एक मीटिंग है।", "pronunciation": "THERE iz uh MEE-ting at TEN ay-em tuh-MOR-oh"},
+        {"english": "There are five tasks pending for today.", "hindi": "आज के लिए पाँच काम बाकी हैं।", "pronunciation": "THERE ar FIVE tasks PEN-ding for tuh-DAY"},
+        {"english": "There will be a product launch next month.", "hindi": "अगले महीने एक product launch होगा।", "pronunciation": "THERE wil BEE uh PROD-ukt LONCH NEXT munth"},
+        {"english": "There has been a delay in the project.", "hindi": "project में देरी हुई है।", "pronunciation": "THERE haz BIN uh duh-LAY in the PROJ-ekt"},
+        {"english": "There isn't enough budget for this initiative.", "hindi": "इस initiative के लिए पर्याप्त budget नहीं है।", "pronunciation": "THERE IZ-unt ih-NUF BUJ-it for this ih-NISH-ee-ut-iv"},
+        {"english": "There is an urgent email from the client.", "hindi": "client का एक urgent email आया है।", "pronunciation": "THERE iz an UR-junt EE-mayl from the KLY-unt"}
+      ],
+      "tips": ["Office में 'There is/are' = सबसे common professional structure", "'There has been' = professional update देने का तरीका", "Confidence important है — hesitate मत करें"]
+    },
+    {
+      "id": 16,
+      "type": "repeat",
+      "title": "Office Context Drill 2 — Reports & Updates",
+      "instructions": "ये sentences reporting और updates के लिए हैं। Email और presentations में use होते हैं।",
+      "sentences": [
+        {"english": "There have been several complaints from clients.", "hindi": "clients से कई शिकायतें आई हैं।", "pronunciation": "THERE hav BIN SEV-er-ul kum-PLAYTS from KLY-unts"},
+        {"english": "There are three candidates shortlisted for the role.", "hindi": "इस पद के लिए तीन उम्मीदवार shortlist हुए हैं।", "pronunciation": "THERE ar THREE KAN-dih-dayts SHORT-listed for the ROLE"},
+        {"english": "There will be a training session next week.", "hindi": "अगले हफ्ते एक training session होगी।", "pronunciation": "THERE wil BEE uh TRAY-ning SESH-un NEXT week"},
+        {"english": "There is a new policy effective from Monday.", "hindi": "सोमवार से एक नई policy लागू होगी।", "pronunciation": "THERE iz uh NOO POL-ih-see ih-FEK-tiv from MUN-day"},
+        {"english": "There are two ways to solve this issue.", "hindi": "इस समस्या को सुलझाने के दो तरीके हैं।", "pronunciation": "THERE ar TOO WAYZ to SOLV this ISH-oo"},
+        {"english": "There is room for improvement in your report.", "hindi": "आपकी report में सुधार की गुंजाइश है।", "pronunciation": "THERE iz ROOM for im-PROOV-ment in YOR rih-PORT"}
+      ],
+      "tips": ["'There have been complaints' = professional complaint reporting", "'There is room for improvement' = polite feedback phrase — memorise it!", "These sentences work in emails, meetings, and performance reviews"]
+    },
+    {
+      "id": 17,
+      "type": "description",
+      "title": "Travel & Place Description Drill 1 — Describing a City",
+      "instructions": "अपने शहर/गाँव के बारे में ये sentences बोलें। फिर अपने शहर के बारे में खुद 5 sentences बनाएँ।",
+      "sentences": [
+        {"english": "There is a famous fort in this city.", "hindi": "इस शहर में एक प्रसिद्ध किला है।", "pronunciation": "THERE iz uh FAY-mus FORT in this SIT-ee"},
+        {"english": "There are many historical monuments here.", "hindi": "यहाँ कई ऐतिहासिक स्मारक हैं।", "pronunciation": "THERE ar MAY-nee his-TOR-ih-kul MON-yoo-ments HERE"},
+        {"english": "There is a river flowing through the city.", "hindi": "शहर से होकर एक नदी बहती है।", "pronunciation": "THERE iz uh RIV-er FLO-ing THROO the SIT-ee"},
+        {"english": "There are many universities in this area.", "hindi": "इस इलाके में कई विश्वविद्यालय हैं।", "pronunciation": "THERE ar MAY-nee yoo-nih-VUR-sih-teez in this AIR-ee-uh"},
+        {"english": "There isn't much public transport available at night.", "hindi": "रात को ज्यादा public transport उपलब्ध नहीं है।", "pronunciation": "THERE IZ-unt MUCH PUB-lik TRANS-port uh-VAY-luh-bul at NIGHT"},
+        {"english": "There will be a new metro line by 2026.", "hindi": "2026 तक एक नई metro line होगी।", "pronunciation": "THERE wil BEE uh NOO MET-roh LINE by TWO-THOU-zund-TWEN-tee-SIX"}
+      ],
+      "tips": ["Place descriptions में 'There is/are' the most natural structure है", "अपने शहर की खूबियाँ 'There are' से और कमियाँ 'There isn't/aren't' से बताएँ", "This pattern is used in travel blogs, tour guides, and geography essays"]
+    },
+    {
+      "id": 18,
+      "type": "description",
+      "title": "Travel & Place Description Drill 2 — Giving Directions",
+      "instructions": "Directions देते समय 'There is' का प्रयोग करें। ये sentences किसी को रास्ता बताने में काम आते हैं।",
+      "sentences": [
+        {"english": "There is a bank on the right side of the road.", "hindi": "सड़क के दाईं तरफ एक बैंक है।", "pronunciation": "THERE iz uh BANK on the RIGHT side uv the ROAD"},
+        {"english": "There are traffic lights at the next junction.", "hindi": "अगले चौराहे पर traffic lights हैं।", "pronunciation": "THERE ar TRAF-ik LYTS at the NEXT JUNK-shun"},
+        {"english": "There is a petrol pump just 500 meters away.", "hindi": "500 मीटर की दूरी पर एक petrol pump है।", "pronunciation": "THERE iz uh PET-rol PUMP JUST FIVE-HUN-dred MEE-turz uh-WAY"},
+        {"english": "There is a shortcut through the park.", "hindi": "पार्क के रास्ते एक shortcut है।", "pronunciation": "THERE iz uh SHORT-kut THROO the PARK"},
+        {"english": "There are two flyovers before you reach the station.", "hindi": "station पहुँचने से पहले दो flyover हैं।", "pronunciation": "THERE ar TOO FLY-oh-verz buh-FOR you REECH the STAY-shun"},
+        {"english": "There isn't any parking near the hospital.", "hindi": "अस्पताल के पास कोई parking नहीं है।", "pronunciation": "THERE IZ-unt EN-ee PAR-king NEAR the HOS-pi-tul"}
+      ],
+      "tips": ["'There is a ... on the right/left' = standard direction-giving formula", "Location words: on the right, on the left, at the corner, next to, near, opposite", "Practice by giving directions from your home to the nearest market"]
+    },
+    {
+      "id": 19,
+      "type": "roleplay",
+      "title": "Roleplay — Describing Your House",
+      "instructions": "Imagine आप अपने दोस्त को अपने नए घर के बारे में बता रहे हैं। इन sentences को naturally बोलें।",
+      "sentences": [
+        {"english": "There are three bedrooms in my house.", "hindi": "मेरे घर में तीन bedrooms हैं।", "pronunciation": "THERE ar THREE BED-roomz in MY house"},
+        {"english": "There is a big kitchen with a dining area.", "hindi": "एक बड़ी kitchen है जिसमें dining area भी है।", "pronunciation": "THERE iz uh BIG KITCH-un with uh DY-ning AIR-ee-uh"},
+        {"english": "There is a garden at the back of the house.", "hindi": "घर के पीछे एक बगीचा है।", "pronunciation": "THERE iz uh GAR-dun at the BACK uv the HOUSE"},
+        {"english": "There are two bathrooms — one on each floor.", "hindi": "दो bathrooms हैं — हर floor पर एक।", "pronunciation": "THERE ar TOO BATH-roomz — ONE on EACH FLOR"},
+        {"english": "There isn't a lift, but there are stairs.", "hindi": "lift नहीं है, लेकिन सीढ़ियाँ हैं।", "pronunciation": "THERE IZ-unt uh LIFT but THERE ar STAIRZ"},
+        {"english": "There will be a study room once we renovate.", "hindi": "जब हम renovation करेंगे तो एक study room होगा।", "pronunciation": "THERE wil BEE uh STUD-ee ROOM WUNS wee REN-oh-vayt"}
+      ],
+      "tips": ["House description = best 'There is/are' practice!", "आज अपने घर का एक room by room description करें", "Add details: 'There is a window overlooking the street'"]
+    },
+    {
+      "id": 20,
+      "type": "roleplay",
+      "title": "Roleplay — Describing Your Neighbourhood",
+      "instructions": "Imagine आप किसी नए दोस्त को अपने इलाके के बारे में बता रहे हैं।",
+      "sentences": [
+        {"english": "There is a big market just two minutes from my house.", "hindi": "मेरे घर से दो मिनट की दूरी पर एक बड़ा बाज़ार है।", "pronunciation": "THERE iz uh BIG MAR-kit JUST TOO MIN-its from MY house"},
+        {"english": "There are many good schools in this area.", "hindi": "इस इलाके में कई अच्छे स्कूल हैं।", "pronunciation": "THERE ar MAY-nee good SKOOLK in this AIR-ee-uh"},
+        {"english": "There is a park where children play every evening.", "hindi": "एक पार्क है जहाँ बच्चे हर शाम खेलते हैं।", "pronunciation": "THERE iz uh PARK where CHIL-drun PLAY EV-ree EEV-ning"},
+        {"english": "There aren't many parking problems here.", "hindi": "यहाँ parking की ज्यादा समस्या नहीं है।", "pronunciation": "THERE AR-unt MAY-nee PAR-king PROB-lumz HERE"},
+        {"english": "There was a lot of construction here two years ago.", "hindi": "दो साल पहले यहाँ बहुत निर्माण कार्य था।", "pronunciation": "THERE wuz uh LOT uv kun-STRUK-shun HERE TOO YEERZ uh-GO"},
+        {"english": "There will be a new hospital in this area by next year.", "hindi": "अगले साल तक इस इलाके में एक नया अस्पताल होगा।", "pronunciation": "THERE wil BEE uh NOO HOS-pi-tul in this AIR-ee-uh by NEXT YEER"}
+      ],
+      "tips": ["Neighbourhood description में present, past और future सभी mix करें", "Use 'There was...' to talk about old neighbourhood vs 'There is...' for current state", "Great speaking practice: describe your area to yourself in the mirror"]
+    },
+    {
+      "id": 21,
+      "type": "roleplay",
+      "title": "Roleplay — Giving Directions (Bank, Market, Temple)",
+      "instructions": "आप किसी visitor को directions दे रहे हैं। Confidently और clearly बोलें।",
+      "sentences": [
+        {"english": "There is a temple at the end of this road — you can't miss it.", "hindi": "इस सड़क के अंत में एक मंदिर है — आप miss नहीं कर सकते।", "pronunciation": "THERE iz uh TEM-pul at the END uv this ROAD — you KAAN-t MISS it"},
+        {"english": "There is a petrol pump before the signal on the left.", "hindi": "signal से पहले बाईं तरफ एक petrol pump है।", "pronunciation": "THERE iz uh PET-rol PUMP buh-FOR the SIG-nul on the LEFT"},
+        {"english": "There are two hospitals on this street — go to the bigger one.", "hindi": "इस सड़क पर दो अस्पताल हैं — बड़े वाले में जाएँ।", "pronunciation": "THERE ar TOO HOS-pi-tulz on this STREET — GO to the BIG-er WUN"},
+        {"english": "There isn't any direct bus — you'll have to change at the station.", "hindi": "कोई direct bus नहीं है — आपको station पर बदलना होगा।", "pronunciation": "THERE IZ-unt EN-ee di-REKT BUS — yool HAF to CHAYNJ at the STAY-shun"},
+        {"english": "There is an auto stand at the corner — take an auto from there.", "hindi": "कोने पर एक auto stand है — वहाँ से auto लें।", "pronunciation": "THERE iz an AW-to STAND at the KOR-ner — TAYK an AW-to from THERE"},
+        {"english": "There are stairs on the right — the office is on the third floor.", "hindi": "दाईं तरफ सीढ़ियाँ हैं — office तीसरी मंज़िल पर है।", "pronunciation": "THERE ar STAIRZ on the RIGHT — the OF-is iz on the THIRD FLOR"}
+      ],
+      "tips": ["Direction देते समय 'There is a... on the right/left' pattern use करें", "Be specific with locations: before the signal, at the corner, on the left", "Practice by mentally walking from your home to a known landmark"]
+    },
+    {
+      "id": 22,
+      "type": "roleplay",
+      "title": "Roleplay — Giving Directions (School, Station, Market)",
+      "instructions": "Partner के साथ practice करें — एक direction माँगे, दूसरा 'There is/are' से जवाब दे।",
+      "sentences": [
+        {"english": "There is a metro station about 10 minutes' walk from here.", "hindi": "यहाँ से लगभग 10 मिनट की पैदल दूरी पर एक metro station है।", "pronunciation": "THERE iz uh MET-roh STAY-shun uh-BOWT TEN MIN-its WAWK from HERE"},
+        {"english": "There are two gates — enter from the main gate.", "hindi": "दो gates हैं — main gate से अंदर जाएँ।", "pronunciation": "THERE ar TOO GAYTS — EN-ter from the MAYN GAYT"},
+        {"english": "There is a big hoarding outside the school — you'll find it easily.", "hindi": "स्कूल के बाहर एक बड़ा hoarding है — आसानी से मिल जाएगा।", "pronunciation": "THERE iz uh BIG HOR-ding OUT-side the SKOOL — yool FYND it EEZ-uh-lee"},
+        {"english": "There is no direct road — you have to go around the lake.", "hindi": "कोई direct सड़क नहीं है — झील के चारों तरफ जाना होगा।", "pronunciation": "THERE iz NO di-REKT ROAD — you HAF to GO uh-ROWND the LAYK"},
+        {"english": "There are signs all along the way — just follow them.", "hindi": "रास्ते भर signs लगे हैं — बस उनका अनुसरण करें।", "pronunciation": "THERE ar SYNZ AWL uh-LONG the WAY — JUST FOL-oh them"},
+        {"english": "There will be a traffic diversion from 2 pm — avoid this road.", "hindi": "2 बजे से traffic diversion होगा — इस सड़क से बचें।", "pronunciation": "THERE wil BEE uh TRAF-ik dy-VUR-zhun from TWO pee-em — uh-VOID this ROAD"}
+      ],
+      "tips": ["Roleplay with a classmate — one asks 'Excuse me, is there a...?' and other answers", "Useful in real life: shops, hospitals, stations — practice these directions daily", "Add landmarks for clarity: 'There is a bank — it's opposite the post office'"]
+    },
+    {
+      "id": 23,
+      "type": "roleplay",
+      "title": "Roleplay — Office Announcement (There Will Be)",
+      "instructions": "आप एक manager हैं और team को announcement दे रहे हैं। Confident, professional tone maintain करें।",
+      "sentences": [
+        {"english": "There will be a team meeting tomorrow at 9 am sharp.", "hindi": "कल सुबह ठीक 9 बजे एक team meeting होगी।", "pronunciation": "THERE wil BEE uh TEEM MEE-ting tuh-MOR-oh at NINE ay-em SHARP"},
+        {"english": "There will be no work from home next week.", "hindi": "अगले हफ्ते work from home नहीं होगी।", "pronunciation": "THERE wil BEE NO WURK from HOME NEXT week"},
+        {"english": "There will be a training programme on communication skills.", "hindi": "Communication skills पर एक training programme होगा।", "pronunciation": "THERE wil BEE uh TRAY-ning PRO-gram on kuh-MYOO-nih-KAY-shun SKILZ"},
+        {"english": "There will be performance reviews starting Monday.", "hindi": "सोमवार से performance reviews शुरू होंगे।", "pronunciation": "THERE wil BEE per-FORM-uns rih-VYOOZ START-ing MUN-day"},
+        {"english": "There won't be any overtime this month.", "hindi": "इस महीने कोई overtime नहीं होगा।", "pronunciation": "THERE wont BEE EN-ee OH-ver-time this MUNTH"},
+        {"english": "There will be a new system in place from next quarter.", "hindi": "अगली तिमाही से एक नया system लागू होगा।", "pronunciation": "THERE wil BEE uh NOO SIS-tum in PLAYS from NEXT KWOR-ter"}
+      ],
+      "tips": ["Announcements में 'There will be' = authority और clarity का tone", "Practice in front of a mirror — imagine addressing your team", "Professional announcements need confident delivery — don't hesitate"]
+    },
+    {
+      "id": 24,
+      "type": "roleplay",
+      "title": "Roleplay — Office Announcement (Updates & Changes)",
+      "instructions": "आप updates और changes की जानकारी दे रहे हैं। Professional tone के साथ practice करें।",
+      "sentences": [
+        {"english": "There has been a change in the project deadline.", "hindi": "project की deadline में बदलाव हुआ है।", "pronunciation": "THERE haz BIN uh CHAYNJ in the PROJ-ekt DED-lyne"},
+        {"english": "There have been some updates to the company policy.", "hindi": "company policy में कुछ updates हुई हैं।", "pronunciation": "THERE hav BIN SUM UP-dayts to the KUM-puh-nee POL-ih-see"},
+        {"english": "There is a new form that everyone needs to fill.", "hindi": "एक नया form है जो सभी को भरना है।", "pronunciation": "THERE iz uh NOO FORM that EV-ree-wun NEEDZ to FIL"},
+        {"english": "There are three action items from today's meeting.", "hindi": "आज की meeting से तीन action items हैं।", "pronunciation": "THERE ar THREE AK-shun I-tumz from tuh-DAYZ MEE-ting"},
+        {"english": "There isn't enough time to discuss all points today.", "hindi": "आज सभी points discuss करने के लिए पर्याप्त समय नहीं है।", "pronunciation": "THERE IZ-unt ih-NUF TIME to dih-SKUS AWL POYNTS tuh-DAY"},
+        {"english": "There will be a follow-up meeting on Thursday.", "hindi": "गुरुवार को एक follow-up meeting होगी।", "pronunciation": "THERE wil BEE uh FOL-oh-up MEE-ting on THURZ-day"}
+      ],
+      "tips": ["'There has been a change' = professional way to announce a change", "'There are three action items' = structured meeting conclusion", "Write these sentences in your next work email!"]
+    },
+    {
+      "id": 25,
+      "type": "roleplay",
+      "title": "Roleplay — Hotel Receptionist",
+      "instructions": "आप एक hotel receptionist हैं। Guest के सवालों का 'There is/are' से जवाब दें। Polite और professional रहें।",
+      "sentences": [
+        {"english": "There is a room available on the third floor.", "hindi": "तीसरी मंज़िल पर एक room उपलब्ध है।", "pronunciation": "THERE iz uh ROOM uh-VAY-luh-bul on the THIRD FLOR"},
+        {"english": "There are two types of rooms — standard and deluxe.", "hindi": "दो प्रकार के rooms हैं — standard और deluxe।", "pronunciation": "THERE ar TOO TYPS uv ROOMZ — STAN-derd and dih-LUKS"},
+        {"english": "There is complimentary breakfast from 7 to 10 am.", "hindi": "सुबह 7 से 10 बजे तक complimentary breakfast है।", "pronunciation": "THERE iz KOM-pluh-men-tuh-ree BREK-fust from SEV-un to TEN ay-em"},
+        {"english": "There is a swimming pool on the rooftop.", "hindi": "rooftop पर एक swimming pool है।", "pronunciation": "THERE iz uh SWIM-ing POOL on the ROOF-top"},
+        {"english": "There aren't any rooms with a sea view right now.", "hindi": "अभी sea view वाले कोई rooms उपलब्ध नहीं हैं।", "pronunciation": "THERE AR-unt EN-ee ROOMZ with uh SEE VYOO RYT now"},
+        {"english": "There will be room service available until midnight.", "hindi": "आधी रात तक room service उपलब्ध होगी।", "pronunciation": "THERE wil BEE ROOM SUR-vis uh-VAY-luh-bul un-TIL MID-nyt"}
+      ],
+      "tips": ["Hotel receptionist = polite, clear, professional 'There is/are' usage", "Always confirm availability: 'Yes, there is...' or 'I'm sorry, there isn't...'", "Practice this roleplay with a partner — one is guest, one is receptionist"]
+    },
+    {
+      "id": 26,
+      "type": "roleplay",
+      "title": "Roleplay — Checking into a Hotel (Guest Side)",
+      "instructions": "अब आप guest हैं। Hotel की facilities के बारे में पूछने की practice करें।",
+      "sentences": [
+        {"english": "Excuse me, is there a gym in this hotel?", "hindi": "माफ करें, क्या इस hotel में gym है?", "pronunciation": "ek-SKYOOZ mee IZ there uh JIM in this hoh-TEL?"},
+        {"english": "Are there any rooms available for tonight?", "hindi": "क्या आज रात के लिए कोई rooms उपलब्ध हैं?", "pronunciation": "AR there EN-ee ROOMZ uh-VAY-luh-bul for tuh-NYT?"},
+        {"english": "Is there parking available for guests?", "hindi": "क्या guests के लिए parking उपलब्ध है?", "pronunciation": "IZ there PAR-king uh-VAY-luh-bul for GUESTS?"},
+        {"english": "Are there any vegetarian options in the restaurant?", "hindi": "क्या restaurant में vegetarian options हैं?", "pronunciation": "AR there EN-ee VEJ-ih-TAIR-ee-un OP-shunz in the RES-tuh-ront?"},
+        {"english": "Is there a doctor on call in case of emergency?", "hindi": "क्या emergency की स्थिति में एक doctor on call है?", "pronunciation": "IZ there uh DOK-tor on KAWL in KAYS uv ih-MUR-jun-see?"},
+        {"english": "Will there be a checkout reminder in the morning?", "hindi": "क्या सुबह checkout reminder होगा?", "pronunciation": "WIL there BEE uh CHEK-owt rih-MY-nder in the MOR-ning?"}
+      ],
+      "tips": ["As a guest, use 'Is there...? / Are there...?' for all requests", "Always be polite: 'Excuse me, is there...?' or 'Could you tell me if there is...?'", "Practice full conversation: guest asks, receptionist answers"]
+    },
+    {
+      "id": 27,
+      "type": "roleplay",
+      "title": "Roleplay — Reporting a Problem (IT/Technical)",
+      "instructions": "आप IT department या manager को एक technical problem report कर रहे हैं। Professional 'There is/has been' use करें।",
+      "sentences": [
+        {"english": "There is a bug in the system that is affecting all users.", "hindi": "system में एक bug है जो सभी users को affect कर रहा है।", "pronunciation": "THERE iz uh BUG in the SIS-tum that iz uh-FEK-ting AWL YOO-zerz"},
+        {"english": "There has been a server outage since this morning.", "hindi": "आज सुबह से server बंद है।", "pronunciation": "THERE haz BIN uh SUR-ver OWT-ij SINS this MOR-ning"},
+        {"english": "There isn't any internet connection on the second floor.", "hindi": "दूसरी मंज़िल पर internet connection नहीं है।", "pronunciation": "THERE IZ-unt EN-ee IN-ter-net kuh-NEK-shun on the SEK-und FLOR"},
+        {"english": "There have been multiple login failures in the past hour.", "hindi": "पिछले एक घंटे में कई बार login fail हुई है।", "pronunciation": "THERE hav BIN MUL-tih-pul LOG-in FAYL-yerz in the PAST OW-er"},
+        {"english": "There is an error message appearing every time I open the software.", "hindi": "हर बार software खोलने पर एक error message आता है।", "pronunciation": "THERE iz an ER-er MES-ij uh-PEER-ing EV-ree TIME I OH-pun the SOFT-wayr"},
+        {"english": "There won't be any disruption once the update is installed.", "hindi": "update install होने के बाद कोई disruption नहीं होगी।", "pronunciation": "THERE wont BEE EN-ee dis-RUP-shun WUNS the UP-dayt iz in-STAWLD"}
+      ],
+      "tips": ["IT problem reporting = 'There is a bug / There has been an outage'", "Be specific: 'There is a bug in the login module' not just 'There is a problem'", "Resolution: 'There will be no disruption after the fix'"]
+    },
+    {
+      "id": 28,
+      "type": "roleplay",
+      "title": "Roleplay — Reporting a Problem (General/Daily Life)",
+      "instructions": "आप किसी को general problem report कर रहे हैं। 'There is/has been' se problem clearly describe करें।",
+      "sentences": [
+        {"english": "There is a water leakage in the ceiling of my office.", "hindi": "मेरे office की छत में पानी का रिसाव है।", "pronunciation": "THERE iz uh WAW-ter LEEK-ij in the SEE-ling uv MY OF-is"},
+        {"english": "There has been a power cut in our building for two hours.", "hindi": "हमारी building में दो घंटे से बिजली नहीं है।", "pronunciation": "THERE haz BIN uh POW-er KUT in OW-er BIL-ding for TOO OW-erz"},
+        {"english": "There isn't any hot water in the bathroom.", "hindi": "bathroom में गर्म पानी नहीं है।", "pronunciation": "THERE IZ-unt EN-ee HOT WAW-ter in the BATH-room"},
+        {"english": "There were complaints about the noise from the floor above.", "hindi": "ऊपर की मंज़िल से आने वाले शोर के बारे में शिकायतें थीं।", "pronunciation": "THERE wur kum-PLAYTS uh-BOWT the NOIZ from the FLOR uh-BUV"},
+        {"english": "There is a crack in the wall that needs urgent repair.", "hindi": "दीवार में एक दरार है जिसे urgent repair की ज़रूरत है।", "pronunciation": "THERE iz uh KRAK in the WAWL that NEEDZ UR-junt rih-PAIR"},
+        {"english": "There have been several issues with the lift this week.", "hindi": "इस हफ्ते lift में कई बार दिक्कत आई है।", "pronunciation": "THERE hav BIN SEV-er-ul ISH-ooz with the LIFT this WEEK"}
+      ],
+      "tips": ["Problem reporting = 'There is' (current) or 'There has been' (recent)", "Always describe the problem clearly and specifically", "Add urgency: 'There is an urgent issue that needs immediate attention'"]
+    },
+    {
+      "id": 29,
+      "type": "transformation",
+      "title": "Speed Drill — Positive to Negative to Question",
+      "instructions": "हर sentence को तीनों forms में बोलें — positive, negative, question। जितना हो सके fast बोलें।",
+      "sentences": [
+        {"english": "There IS a meeting. → There ISN'T a meeting. → IS THERE a meeting?", "hindi": "मीटिंग है। → मीटिंग नहीं है। → क्या मीटिंग है?", "pronunciation": "THERE-iz / THERE-IZ-unt / IZ-there"},
+        {"english": "There ARE 5 tasks. → There AREN'T 5 tasks. → ARE THERE 5 tasks?", "hindi": "5 काम हैं। → 5 काम नहीं हैं। → क्या 5 काम हैं?", "pronunciation": "THERE-ar / THERE-AR-unt / AR-there"},
+        {"english": "There WAS a problem. → There WASN'T a problem. → WAS THERE a problem?", "hindi": "समस्या थी। → समस्या नहीं थी। → क्या समस्या थी?", "pronunciation": "THERE-wuz / THERE-WUZ-unt / WUZ-there"},
+        {"english": "There WERE complaints. → There WEREN'T complaints. → WERE THERE complaints?", "hindi": "शिकायतें थीं। → शिकायतें नहीं थीं। → क्या शिकायतें थीं?", "pronunciation": "THERE-wur / THERE-WUR-unt / WUR-there"},
+        {"english": "There WILL BE a test. → There WON'T BE a test. → WILL THERE BE a test?", "hindi": "परीक्षा होगी। → परीक्षा नहीं होगी। → क्या परीक्षा होगी?", "pronunciation": "THERE-wil-BEE / THERE-wont-BEE / WIL-there-BEE"},
+        {"english": "There HAS BEEN a change. → There HASN'T BEEN a change. → HAS THERE BEEN a change?", "hindi": "बदलाव हुआ है। → बदलाव नहीं हुआ है। → क्या बदलाव हुआ है?", "pronunciation": "THERE-haz-BIN / THERE-HAZ-unt-BIN / HAZ-there-BIN"}
+      ],
+      "tips": ["Speed drill = automatic fluency build करता है", "Set a timer — try to complete all 6 in 60 seconds", "First slow, then fast — accuracy first, then speed"]
+    },
+    {
+      "id": 30,
+      "type": "transformation",
+      "title": "Ultimate Transformation Drill — Hindi to English",
+      "instructions": "Hindi sentence देखें और तुरंत English में बोलें। Think fast, speak fast!",
+      "sentences": [
+        {"english": "कल सुबह 10 बजे एक मीटिंग होगी। → There will be a meeting at 10 am tomorrow.", "hindi": "कल सुबह 10 बजे एक मीटिंग होगी।", "pronunciation": "THERE wil BEE uh MEE-ting at TEN ay-em tuh-MOR-oh"},
+        {"english": "इस field में कई चुनौतियाँ हैं। → There are many challenges in this field.", "hindi": "इस field में कई चुनौतियाँ हैं।", "pronunciation": "THERE ar MAY-nee CHAL-en-jiz in this FEELD"},
+        {"english": "project में देरी हुई है। → There has been a delay in the project.", "hindi": "project में देरी हुई है।", "pronunciation": "THERE haz BIN uh duh-LAY in the PROJ-ekt"},
+        {"english": "1990 में कोई mobile phone नहीं था। → There were no mobile phones in 1990.", "hindi": "1990 में कोई mobile phone नहीं था।", "pronunciation": "THERE wur NO MO-bile fonz in NINE-teen-NINE-tee"},
+        {"english": "सुधार की हमेशा गुंजाइश होती है। → There is always room for improvement.", "hindi": "सुधार की हमेशा गुंजाइश होती है।", "pronunciation": "THERE iz AWL-wayz ROOM for im-PROOV-ment"},
+        {"english": "क्या यहाँ कोई ATM है? → Is there an ATM near here?", "hindi": "क्या यहाँ कोई ATM है?", "pronunciation": "IZ there an ay-tee-EM NEAR here?"},
+        {"english": "कई बदलाव हुए हैं। → There have been many changes.", "hindi": "कई बदलाव हुए हैं।", "pronunciation": "THERE hav BIN MAY-nee CHAYN-jiz"},
+        {"english": "पर्याप्त समय नहीं है। → There isn't enough time.", "hindi": "पर्याप्त समय नहीं है।", "pronunciation": "THERE IZ-unt ih-NUF TIME"}
+      ],
+      "tips": ["यह drill आपकी Hindi-to-English translation speed बढ़ाएगी", "रोज़ 5 Hindi sentences खुद बनाएँ और उन्हें English में translate करें", "Fluency = thinking and speaking simultaneously — यही target है!"]
     }
   ]
 }
