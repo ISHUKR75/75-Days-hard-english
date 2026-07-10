@@ -3,10 +3,101 @@
   "title": "Day 2 Writing Exercise — Self Introduction",
   "instructions": "नीचे दिए गए prompts के आधार पर अपने शब्दों में English में लिखें। Space में अपना answer लिखें।",
   "tasks": [
-    { "id": 1, "type": "guided", "prompt": "Write a 5-sentence formal self-introduction including your name, city, and profession.", "hindiPrompt": "5 sentences में अपना formal introduction लिखें जिसमें नाम, शहर और profession शामिल हो।", "sampleAnswer": "My name is Aman Verma. I am from Jaipur, Rajasthan. I currently work as a marketing executive at a private firm. I have two years of experience in digital marketing. I am passionate about learning new skills every day.", "wordLimit": 80 },
-    { "id": 2, "type": "guided", "prompt": "Write an informal introduction to a new friend (3-4 sentences).", "hindiPrompt": "एक नए दोस्त को informal तरीके से अपना introduction दें (3-4 sentences)।", "sampleAnswer": "Hi! I'm Neha. I'm from Pune, but I live in Mumbai now. I love traveling and painting. What about you?", "wordLimit": 60 },
-    { "id": 3, "type": "guided", "prompt": "Write your 'Tell me about yourself' interview answer.", "hindiPrompt": "Interview के 'Tell me about yourself' सवाल का जवाब लिखें।", "sampleAnswer": "Good morning. My name is Priya Singh. I completed my B.Tech in Computer Science from Delhi in 2021. I have been working as a software developer for two years at a reputed IT company. My key strength is problem-solving, and I am always eager to learn new technologies. I am looking forward to this opportunity.", "wordLimit": 100 },
-    { "id": 4, "type": "free", "prompt": "Write about your family in 4-5 sentences using at least 3 vocabulary words from today's lesson.", "hindiPrompt": "अपने परिवार के बारे में 4-5 sentences लिखें, आज के lesson के कम से कम 3 words use करें।", "sampleAnswer": null, "wordLimit": 80 },
-    { "id": 5, "type": "free", "prompt": "Write your own 1-minute elevator pitch introducing yourself professionally.", "hindiPrompt": "अपना 1-minute professional elevator pitch लिखें।", "sampleAnswer": null, "wordLimit": 120 }
+    {
+      "id": 1,
+      "type": "guided",
+      "prompt": "Write a 5-sentence formal self-introduction including your name, city, and profession.",
+      "hindiPrompt": "5 sentences में अपना formal introduction लिखें जिसमें नाम, शहर और profession शामिल हो।",
+      "sampleAnswer": "My name is Aman Verma. I am from Jaipur, Rajasthan. I currently work as a marketing executive at a private firm. I have two years of experience in digital marketing. I am passionate about learning new skills every day.",
+      "wordLimit": 80
+    },
+    {
+      "id": 2,
+      "type": "guided",
+      "prompt": "Write an informal introduction to a new friend (3-4 sentences).",
+      "hindiPrompt": "एक नए दोस्त को informal तरीके से अपना introduction दें (3-4 sentences)।",
+      "sampleAnswer": "Hi! I'm Neha. I'm from Pune, but I live in Mumbai now. I love traveling and painting. What about you?",
+      "wordLimit": 60
+    },
+    {
+      "id": 3,
+      "type": "guided",
+      "prompt": "Write your 'Tell me about yourself' interview answer.",
+      "hindiPrompt": "Interview के 'Tell me about yourself' सवाल का जवाब लिखें।",
+      "sampleAnswer": "Good morning. My name is Priya Singh. I completed my B.Tech in Computer Science from Delhi in 2021. I have been working as a software developer for two years at a reputed IT company. My key strength is problem-solving, and I am always eager to learn new technologies. I am looking forward to this opportunity.",
+      "wordLimit": 100
+    },
+    {
+      "id": 4,
+      "type": "free",
+      "prompt": "Write about your family in 4-5 sentences using at least 3 vocabulary words from today's lesson.",
+      "hindiPrompt": "अपने परिवार के बारे में 4-5 sentences लिखें, आज के lesson के कम से कम 3 words use करें।",
+      "sampleAnswer": null,
+      "wordLimit": 80
+    },
+    {
+      "id": 5,
+      "type": "free",
+      "prompt": "Write your own 1-minute elevator pitch introducing yourself professionally.",
+      "hindiPrompt": "अपना 1-minute professional elevator pitch लिखें।",
+      "sampleAnswer": null,
+      "wordLimit": 120
+    },
+    {
+      "id": 6,
+      "type": "guided",
+      "prompt": "Write a phone-call introduction script for calling a client for the first time.",
+      "hindiPrompt": "किसी client को पहली बार call करने के लिए एक phone introduction script लिखें।",
+      "sampleAnswer": "Hello, this is Aman calling from XYZ Pvt Ltd. Am I speaking with Mr. Verma? I'm calling regarding the proposal we sent last week.",
+      "wordLimit": 60
+    },
+    {
+      "id": 7,
+      "type": "guided",
+      "prompt": "Write an introduction message to send in a new WhatsApp/Slack work group.",
+      "hindiPrompt": "एक नए WhatsApp/Slack work group में भेजने के लिए एक introduction message लिखें।",
+      "sampleAnswer": "Hi everyone! I'm Neha, the new UI/UX designer joining the team this week. Looking forward to working with all of you.",
+      "wordLimit": 50
+    },
+    {
+      "id": 8,
+      "type": "guided",
+      "prompt": "Write a LinkedIn \"About\" section introducing yourself professionally.",
+      "hindiPrompt": "अपना LinkedIn \"About\" section professionally लिखें।",
+      "sampleAnswer": "I'm a data analyst with 3 years of experience in the fintech industry, skilled in Python and SQL. Passionate about turning data into actionable insights. Open to new opportunities in analytics.",
+      "wordLimit": 100
+    },
+    {
+      "id": 9,
+      "type": "guided",
+      "prompt": "Write your first-day-of-college introduction to your new classmates.",
+      "hindiPrompt": "College के पहले दिन नए classmates को दिया जाने वाला introduction लिखें।",
+      "sampleAnswer": "Hi everyone, I'm Kartikeya from Kanpur. I completed my schooling from DAV Public School. I'm excited to be here and hope to make many new friends.",
+      "wordLimit": 60
+    },
+    {
+      "id": 10,
+      "type": "free",
+      "prompt": "Write a 30-second group discussion opening introducing yourself and giving one opinion on the topic \"Social Media: Boon or Bane\".",
+      "hindiPrompt": "\"Social Media: Boon or Bane\" topic पर एक 30-second group discussion opening लिखें जिसमें अपना introduction और एक opinion शामिल हो।",
+      "sampleAnswer": null,
+      "wordLimit": 60
+    },
+    {
+      "id": 11,
+      "type": "free",
+      "prompt": "Correct these 5 sentences and rewrite them: \"I am belongs to Pune.\", \"My good name is Kiran.\", \"I have two year experience.\", \"I am fresher.\", \"I am from Delhi city.\"",
+      "hindiPrompt": "इन 5 गलत sentences को सही करके फिर से लिखें।",
+      "sampleAnswer": null,
+      "wordLimit": 60
+    },
+    {
+      "id": 12,
+      "type": "free",
+      "prompt": "Write two versions of your introduction — one formal (for an interview) and one informal (for a new friend).",
+      "hindiPrompt": "अपने introduction के दो versions लिखें — एक formal (interview के लिए) और एक informal (नए दोस्त के लिए)।",
+      "sampleAnswer": null,
+      "wordLimit": 100
+    }
   ]
 }

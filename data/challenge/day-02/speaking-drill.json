@@ -8,11 +8,31 @@
       "type": "repeat",
       "title": "Basic Name & Origin — Repeat Aloud",
       "sentences": [
-        { "english": "My name is Rohan Sharma.", "hindi": "मेरा नाम रोहन शर्मा है।", "pronunciation": "My NAME is RO-han SHAR-ma." },
-        { "english": "I am from Delhi.", "hindi": "मैं दिल्ली से हूँ।", "pronunciation": "I am from DEL-hi." },
-        { "english": "I belong to Lucknow.", "hindi": "मैं लखनऊ से हूँ।", "pronunciation": "I be-LONG to LUCK-now." },
-        { "english": "I currently live in Bangalore.", "hindi": "मैं अभी बेंगलुरु में रहता हूँ।", "pronunciation": "I CUR-rent-ly LIVE in BAN-ga-lore." },
-        { "english": "People call me Vicky.", "hindi": "लोग मुझे विक्की बुलाते हैं।", "pronunciation": "PEO-ple CALL me VIC-ky." }
+        {
+          "english": "My name is Rohan Sharma.",
+          "hindi": "मेरा नाम रोहन शर्मा है।",
+          "pronunciation": "My NAME is RO-han SHAR-ma."
+        },
+        {
+          "english": "I am from Delhi.",
+          "hindi": "मैं दिल्ली से हूँ।",
+          "pronunciation": "I am from DEL-hi."
+        },
+        {
+          "english": "I belong to Lucknow.",
+          "hindi": "मैं लखनऊ से हूँ।",
+          "pronunciation": "I be-LONG to LUCK-now."
+        },
+        {
+          "english": "I currently live in Bangalore.",
+          "hindi": "मैं अभी बेंगलुरु में रहता हूँ।",
+          "pronunciation": "I CUR-rent-ly LIVE in BAN-ga-lore."
+        },
+        {
+          "english": "People call me Vicky.",
+          "hindi": "लोग मुझे विक्की बुलाते हैं।",
+          "pronunciation": "PEO-ple CALL me VIC-ky."
+        }
       ]
     },
     {
@@ -20,10 +40,26 @@
       "type": "profession",
       "title": "Profession — Speak Naturally",
       "sentences": [
-        { "english": "I work as a software engineer.", "hindi": "मैं software engineer के रूप में काम करता हूँ।", "pronunciation": "I WORK as a SOFT-ware en-gi-NEER." },
-        { "english": "I am a teacher by profession.", "hindi": "मैं profession से teacher हूँ।", "pronunciation": "I am a TEA-cher by pro-FESS-ion." },
-        { "english": "I run my own business.", "hindi": "मैं अपना business चलाता हूँ।", "pronunciation": "I RUN my OWN BUS-i-ness." },
-        { "english": "I am a final year student.", "hindi": "मैं final year का student हूँ।", "pronunciation": "I am a FI-nal YEAR STU-dent." }
+        {
+          "english": "I work as a software engineer.",
+          "hindi": "मैं software engineer के रूप में काम करता हूँ।",
+          "pronunciation": "I WORK as a SOFT-ware en-gi-NEER."
+        },
+        {
+          "english": "I am a teacher by profession.",
+          "hindi": "मैं profession से teacher हूँ।",
+          "pronunciation": "I am a TEA-cher by pro-FESS-ion."
+        },
+        {
+          "english": "I run my own business.",
+          "hindi": "मैं अपना business चलाता हूँ।",
+          "pronunciation": "I RUN my OWN BUS-i-ness."
+        },
+        {
+          "english": "I am a final year student.",
+          "hindi": "मैं final year का student हूँ।",
+          "pronunciation": "I am a FI-nal YEAR STU-dent."
+        }
       ]
     },
     {
@@ -31,9 +67,21 @@
       "type": "family",
       "title": "Family Introduction — Speak Naturally",
       "sentences": [
-        { "english": "There are five people in my family.", "hindi": "मेरे परिवार में पाँच लोग हैं।", "pronunciation": "There ARE FIVE PEO-ple in my FAM-i-ly." },
-        { "english": "I have one elder brother and one younger sister.", "hindi": "मेरा एक बड़ा भाई और एक छोटी बहन है।", "pronunciation": "I have ONE EL-der BROTH-er and ONE YOUNG-er SIS-ter." },
-        { "english": "I come from a joint family.", "hindi": "मैं एक joint family से आता हूँ।", "pronunciation": "I COME from a JOINT FAM-i-ly." }
+        {
+          "english": "There are five people in my family.",
+          "hindi": "मेरे परिवार में पाँच लोग हैं।",
+          "pronunciation": "There ARE FIVE PEO-ple in my FAM-i-ly."
+        },
+        {
+          "english": "I have one elder brother and one younger sister.",
+          "hindi": "मेरा एक बड़ा भाई और एक छोटी बहन है।",
+          "pronunciation": "I have ONE EL-der BROTH-er and ONE YOUNG-er SIS-ter."
+        },
+        {
+          "english": "I come from a joint family.",
+          "hindi": "मैं एक joint family से आता हूँ।",
+          "pronunciation": "I COME from a JOINT FAM-i-ly."
+        }
       ]
     },
     {
@@ -41,9 +89,21 @@
       "type": "hobbies",
       "title": "Hobbies — Speak Naturally",
       "sentences": [
-        { "english": "I like reading books.", "hindi": "मुझे किताबें पढ़ना पसंद है।", "pronunciation": "I LIKE READ-ing BOOKS." },
-        { "english": "I love playing cricket.", "hindi": "मुझे cricket खेलना पसंद है।", "pronunciation": "I LOVE PLAY-ing CRIC-ket." },
-        { "english": "I am passionate about photography.", "hindi": "मुझे photography का शौक है।", "pronunciation": "I am PAS-sion-ate a-BOUT pho-TOG-ra-phy." }
+        {
+          "english": "I like reading books.",
+          "hindi": "मुझे किताबें पढ़ना पसंद है।",
+          "pronunciation": "I LIKE READ-ing BOOKS."
+        },
+        {
+          "english": "I love playing cricket.",
+          "hindi": "मुझे cricket खेलना पसंद है।",
+          "pronunciation": "I LOVE PLAY-ing CRIC-ket."
+        },
+        {
+          "english": "I am passionate about photography.",
+          "hindi": "मुझे photography का शौक है।",
+          "pronunciation": "I am PAS-sion-ate a-BOUT pho-TOG-ra-phy."
+        }
       ]
     },
     {
@@ -51,7 +111,111 @@
       "type": "full_intro",
       "title": "Full 1-Minute Introduction — Practice Aloud",
       "sentences": [
-        { "english": "Good morning. My name is Rohan Sharma. I am from Delhi but currently live in Bangalore. I work as a software engineer and have been working in this field for two years. I come from a joint family of five members. In my free time, I enjoy reading books and playing cricket. I am passionate about learning new technologies. It's a pleasure to meet you.", "hindi": "नमस्ते। मेरा नाम रोहन शर्मा है। मैं दिल्ली से हूँ पर अभी बेंगलुरु में रहता हूँ। मैं एक software engineer हूँ और दो साल से इस field में काम कर रहा हूँ। मेरा एक joint family है जिसमें पाँच लोग हैं। खाली समय में मुझे किताबें पढ़ना और cricket खेलना पसंद है। मुझे नई technologies सीखने का शौक है। आपसे मिलकर खुशी हुई।", "pronunciation": "Practice slowly first, then at natural speed." }
+        {
+          "english": "Good morning. My name is Rohan Sharma. I am from Delhi but currently live in Bangalore. I work as a software engineer and have been working in this field for two years. I come from a joint family of five members. In my free time, I enjoy reading books and playing cricket. I am passionate about learning new technologies. It's a pleasure to meet you.",
+          "hindi": "नमस्ते। मेरा नाम रोहन शर्मा है। मैं दिल्ली से हूँ पर अभी बेंगलुरु में रहता हूँ। मैं एक software engineer हूँ और दो साल से इस field में काम कर रहा हूँ। मेरा एक joint family है जिसमें पाँच लोग हैं। खाली समय में मुझे किताबें पढ़ना और cricket खेलना पसंद है। मुझे नई technologies सीखने का शौक है। आपसे मिलकर खुशी हुई।",
+          "pronunciation": "Practice slowly first, then at natural speed."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "type": "phone",
+      "title": "Phone Call Introduction — Speak Naturally",
+      "sentences": [
+        {
+          "english": "Hello, this is Rohan speaking from ABC Solutions.",
+          "hindi": "नमस्ते, मैं रोहन बोल रहा हूँ ABC Solutions से।",
+          "pronunciation": "he-LO, this is RO-han SPEAK-ing."
+        },
+        {
+          "english": "May I know who is calling, please?",
+          "hindi": "क्या मैं जान सकता हूँ कि कौन बोल रहा है?",
+          "pronunciation": "may I KNOW who is CALL-ing, please?"
+        },
+        {
+          "english": "I am returning your call regarding the interview.",
+          "hindi": "मैं interview के बारे में आपका call वापस कर रहा हूँ।",
+          "pronunciation": "I am re-TURN-ing your CALL re-GARD-ing the IN-ter-view."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "type": "online_meeting",
+      "title": "Online Meeting Introduction — Speak Naturally",
+      "sentences": [
+        {
+          "english": "Hi everyone, I'm Neha, I'll be presenting today.",
+          "hindi": "नमस्ते सभी, मैं नेहा हूँ, आज मैं present करूँगी।",
+          "pronunciation": "hi EV-ry-one, I'm NEH-a."
+        },
+        {
+          "english": "Can everyone see my screen?",
+          "hindi": "क्या सभी को मेरी screen दिख रही है?",
+          "pronunciation": "can EV-ry-one see my SCREEN?"
+        },
+        {
+          "english": "I'll quickly introduce myself before we begin.",
+          "hindi": "शुरू करने से पहले मैं जल्दी introduce करता हूँ।",
+          "pronunciation": "I'll QUICK-ly in-tro-DUCE my-SELF."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "type": "group_discussion",
+      "title": "Group Discussion Introduction — Speak Naturally",
+      "sentences": [
+        {
+          "english": "I'm Simran, a B.Com graduate.",
+          "hindi": "मैं सिमरन हूँ, B.Com graduate।",
+          "pronunciation": "I'm sim-RAN, a B COM GRAD-u-ate."
+        },
+        {
+          "english": "I'd like to add a point to what the previous speaker said.",
+          "hindi": "मैं पिछले speaker की बात में एक point जोड़ना चाहूँगा।",
+          "pronunciation": "I'd LIKE to ADD a POINT."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "interview_pitch",
+      "title": "Interview 30-Second Elevator Pitch — Speak Aloud",
+      "sentences": [
+        {
+          "english": "Good morning, sir. My name is Rakesh Gupta, and I have three years of experience in sales.",
+          "hindi": "सुप्रभात सर, मेरा नाम राकेश गुप्ता है, और मुझे sales में तीन साल का अनुभव है।",
+          "pronunciation": "good MORN-ing sir. My NAME is ra-KESH GUP-ta."
+        },
+        {
+          "english": "I am a quick learner and I enjoy working in a team.",
+          "hindi": "मैं जल्दी सीखता हूँ और team में काम करना पसंद करता हूँ।",
+          "pronunciation": "I am a QUICK LEARN-er."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "error_correction_speaking",
+      "title": "Speak the CORRECT Version Aloud (Error Correction Drill)",
+      "sentences": [
+        {
+          "english": "I belong to Mumbai. (not: I am belongs to Mumbai)",
+          "hindi": "सही: मैं मुंबई से हूँ।",
+          "pronunciation": "I be-LONG to MUM-bai."
+        },
+        {
+          "english": "I have three years of experience. (not: I have three year experience)",
+          "hindi": "सही: मुझे तीन साल का अनुभव है।",
+          "pronunciation": "I have THREE YEARS of ex-PEER-i-ence."
+        },
+        {
+          "english": "My name is Sunita. (not: My good name is Sunita)",
+          "hindi": "सही: मेरा नाम सुनीता है।",
+          "pronunciation": "My NAME is su-NEE-ta."
+        }
       ]
     }
   ]

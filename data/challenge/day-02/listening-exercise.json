@@ -3,14 +3,123 @@
   "title": "Day 2 Listening Exercise — Self Introduction",
   "instructions": "इन sentences को text-to-speech या audio के through सुनें और blanks भरें। (Browser TTS का इस्तेमाल हो सकता है।)",
   "exercises": [
-    { "id": 1, "audioText": "My name is Sanjay and I am from Chennai.", "hindi": "मेरा नाम संजय है और मैं चेन्नई से हूँ।", "fillInBlank": "My name is _____ and I am from _____.", "answer": ["Sanjay", "Chennai"] },
-    { "id": 2, "audioText": "I have been working as a marketing manager for four years.", "hindi": "मैं चार साल से marketing manager के रूप में काम कर रहा हूँ।", "fillInBlank": "I have been working as a marketing _____ for four _____.", "answer": ["manager", "years"] },
-    { "id": 3, "audioText": "I come from a joint family of eight members.", "hindi": "मैं आठ सदस्यों वाले joint family से आता हूँ।", "fillInBlank": "I come from a joint _____ of eight _____.", "answer": ["family", "members"] },
-    { "id": 4, "audioText": "I am passionate about photography and traveling.", "hindi": "मुझे photography और travelling का शौक है।", "fillInBlank": "I am _____ about photography and _____.", "answer": ["passionate", "traveling"] },
-    { "id": 5, "audioText": "It's a pleasure to finally meet you.", "hindi": "अंततः आपसे मिलना खुशी की बात है।", "fillInBlank": "It's a _____ to finally _____ you.", "answer": ["pleasure", "meet"] }
+    {
+      "id": 1,
+      "audioText": "My name is Sanjay and I am from Chennai.",
+      "hindi": "मेरा नाम संजय है और मैं चेन्नई से हूँ।",
+      "fillInBlank": "My name is _____ and I am from _____.",
+      "answer": [
+        "Sanjay",
+        "Chennai"
+      ]
+    },
+    {
+      "id": 2,
+      "audioText": "I have been working as a marketing manager for four years.",
+      "hindi": "मैं चार साल से marketing manager के रूप में काम कर रहा हूँ।",
+      "fillInBlank": "I have been working as a marketing _____ for four _____.",
+      "answer": [
+        "manager",
+        "years"
+      ]
+    },
+    {
+      "id": 3,
+      "audioText": "I come from a joint family of eight members.",
+      "hindi": "मैं आठ सदस्यों वाले joint family से आता हूँ।",
+      "fillInBlank": "I come from a joint _____ of eight _____.",
+      "answer": [
+        "family",
+        "members"
+      ]
+    },
+    {
+      "id": 4,
+      "audioText": "I am passionate about photography and traveling.",
+      "hindi": "मुझे photography और travelling का शौक है।",
+      "fillInBlank": "I am _____ about photography and _____.",
+      "answer": [
+        "passionate",
+        "traveling"
+      ]
+    },
+    {
+      "id": 5,
+      "audioText": "It's a pleasure to finally meet you.",
+      "hindi": "अंततः आपसे मिलना खुशी की बात है।",
+      "fillInBlank": "It's a _____ to finally _____ you.",
+      "answer": [
+        "pleasure",
+        "meet"
+      ]
+    },
+    {
+      "id": 6,
+      "audioText": "Hello, this is Rohan speaking from ABC Solutions.",
+      "hindi": "नमस्ते, मैं रोहन बोल रहा हूँ ABC Solutions से।",
+      "fillInBlank": "Hello, this is _____ speaking from ABC _____.",
+      "answer": [
+        "Rohan",
+        "Solutions"
+      ]
+    },
+    {
+      "id": 7,
+      "audioText": "Hi everyone, I'll be presenting the report today.",
+      "hindi": "नमस्ते सभी, आज मैं report present करूँगी।",
+      "fillInBlank": "Hi everyone, I'll be _____ the _____ today.",
+      "answer": [
+        "presenting",
+        "report"
+      ]
+    },
+    {
+      "id": 8,
+      "audioText": "I'm a data analyst with three years of experience.",
+      "hindi": "मैं एक data analyst हूँ, तीन साल का अनुभव है।",
+      "fillInBlank": "I'm a data _____ with three years of _____.",
+      "answer": [
+        "analyst",
+        "experience"
+      ]
+    },
+    {
+      "id": 9,
+      "audioText": "I completed my schooling from DAV Public School.",
+      "hindi": "मैंने अपनी schooling DAV Public School से पूरी की।",
+      "fillInBlank": "I completed my _____ from DAV Public _____.",
+      "answer": [
+        "schooling",
+        "School"
+      ]
+    },
+    {
+      "id": 10,
+      "audioText": "I am a fresher looking for my first job opportunity.",
+      "hindi": "मैं एक fresher हूँ, अपनी पहली job opportunity ढूँढ रहा हूँ।",
+      "fillInBlank": "I am a _____ looking for my first job _____.",
+      "answer": [
+        "fresher",
+        "opportunity"
+      ]
+    }
   ],
   "dictationPassage": {
     "text": "Hello everyone. My name is Kavita Rao. I am from Hyderabad. I work as a content writer for a digital marketing agency. I have two years of experience in this field. I enjoy writing blogs and reading novels in my free time. It is a pleasure to be here today.",
     "hindi": "नमस्ते सभी को। मेरा नाम कविता राव है। मैं हैदराबाद से हूँ। मैं एक digital marketing agency के लिए content writer के रूप में काम करती हूँ। मुझे इस field में दो साल का अनुभव है। मुझे खाली समय में blogs लिखना और novels पढ़ना पसंद है। आज यहाँ होना मेरे लिए खुशी की बात है।"
-  }
+  },
+  "dictationPassages": [
+    {
+      "text": "Hello everyone. My name is Kavita Rao. I am from Hyderabad. I work as a content writer for a digital marketing agency. I have two years of experience in this field. I enjoy writing blogs and reading novels in my free time. It is a pleasure to be here today.",
+      "hindi": "नमस्ते सभी को। मेरा नाम कविता राव है। मैं हैदराबाद से हूँ। मैं एक digital marketing agency के लिए content writer के रूप में काम करती हूँ। मुझे इस field में दो साल का अनुभव है। मुझे खाली समय में blogs लिखना और novels पढ़ना पसंद है। आज यहाँ होना मेरे लिए खुशी की बात है।"
+    },
+    {
+      "text": "Good afternoon everyone. This is Aman speaking, calling from the HR department. I'm reaching out regarding your interview scheduled for next Monday at 10 AM. Please confirm your availability at your earliest convenience. Thank you.",
+      "hindi": "नमस्ते सभी को। मैं अमन बोल रहा हूँ, HR department से। मैं आपके interview के बारे में call कर रहा हूँ जो अगले सोमवार सुबह 10 बजे है। कृपया जल्द से जल्द अपनी availability confirm करें। धन्यवाद।"
+    },
+    {
+      "text": "Hi everyone, I'm Kartikeya from Kanpur. I completed my schooling from DAV Public School and I'm now pursuing a B.Tech in Computer Science. In my free time, I enjoy playing chess and reading science fiction novels. I'm really excited to be part of this college.",
+      "hindi": "नमस्ते सभी, मैं कार्तिकेय हूँ, कानपुर से। मैंने अपनी schooling DAV Public School से पूरी की और अभी Computer Science में B.Tech कर रहा हूँ। खाली समय में मुझे शतरंज खेलना और science fiction novels पढ़ना पसंद है। मैं इस college का हिस्सा बनकर बहुत उत्साहित हूँ।"
+    }
+  ]
 }

@@ -8,7 +8,8 @@ import {
   ArrowLeft, ArrowRight, BookOpen, Target, Mic,
   CheckCircle2, ChevronDown, Star,
   PenTool, Brain, Zap,
-  FileText, Trophy, XCircle
+  FileText, Trophy, XCircle,
+  Headphones, BookOpenCheck, RotateCcw
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -100,6 +101,9 @@ const LESSON_SECTIONS = [
   { id: 'practice',     icon: Target,       label: 'Interactive Practice',       color: 'text-emerald-400', bg: 'bg-emerald-500/10' },
   { id: 'speaking',     icon: Mic,          label: 'Speaking & Pronunciation',   color: 'text-pink-400', bg: 'bg-pink-500/10' },
   { id: 'writing',      icon: PenTool,      label: 'Writing Drills',             color: 'text-rose-400', bg: 'bg-rose-500/10' },
+  { id: 'listening',    icon: Headphones,   label: 'Listening Practice',         color: 'text-sky-400', bg: 'bg-sky-500/10' },
+  { id: 'reading',      icon: BookOpenCheck,label: 'Reading Comprehension',      color: 'text-lime-400', bg: 'bg-lime-500/10' },
+  { id: 'revision',     icon: RotateCcw,    label: 'Revision & Quick Quiz',      color: 'text-orange-400', bg: 'bg-orange-500/10' },
   { id: 'test',         icon: Brain,        label: 'Final Mock Test',            color: 'text-violet-400', bg: 'bg-violet-500/10' },
 ];
 
@@ -267,6 +271,9 @@ export default function DayPage() {
                       {id === 'practice' && <InteractivePractice practiceQs={data?.practice || []} playSound={playSound} onComplete={() => markSectionDone(id)} />}
                       {id === 'speaking' && <SpeakingAdvanced topic={topic} practiceQs={data?.practice || []} onComplete={() => markSectionDone(id)} />}
                       {id === 'writing' && <WritingAdvanced topic={topic} content={content} vocabulary={data?.vocabulary || []} practiceQs={data?.practice || []} onComplete={() => markSectionDone(id)} />}
+                      {id === 'listening' && <ListeningPractice listening={data?.listening} onComplete={() => markSectionDone(id)} />}
+                      {id === 'reading' && <ReadingComprehension reading={data?.reading} onComplete={() => markSectionDone(id)} />}
+                      {id === 'revision' && <RevisionQuiz revision={data?.revision} onComplete={() => markSectionDone(id)} />}
                       {id === 'test' && <MockTestEngine dayNum={dayNum} mockTest={data?.mockTest || []} onComplete={() => markSectionDone(id)} />}
                     </div>
                   </motion.div>
@@ -777,6 +784,334 @@ function MockTestEngine({ dayNum, mockTest, onComplete }) {
         <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 text-center">
           <p className="text-amber-300 font-semibold">Final Score: {score}/{questions.length} ({finalPercentage}%)</p>
           <p className="text-slate-300 text-sm mt-1">{finalPercentage >= 80 ? 'Excellent performance 🎉' : 'Keep practicing and retry for 80%+.'}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ============================================================
+// Listening Practice — fill-in-the-blank + dictation, from
+// listening-exercise.json (served via /api/challenge/[day])
+// ============================================================
+function ListeningPractice({ listening, onComplete }) {
+  const exercises = listening?.exercises || [];
+  const dictationPassages = listening?.dictationPassages || (listening?.dictationPassage ? [listening.dictationPassage] : []);
+  const [index, setIndex] = useState(0);
+  const [answers, setAnswers] = useState({});
+  const [checked, setChecked] = useState({});
+  const [showDictation, setShowDictation] = useState(false);
+  const playSound = useSound();
+
+  if (!exercises.length) {
+    return (
+      <div className="space-y-4 text-center">
+        <p className="text-slate-400">No listening exercises are available for this day yet.</p>
+        <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-sky-600 hover:bg-sky-500 text-white font-bold">
+          Mark as Reviewed
+        </button>
+      </div>
+    );
+  }
+
+  const current = exercises[index];
+  const blankCount = (current.fillInBlank.match(/_____/g) || []).length;
+
+  const speak = (text) => {
+    if (typeof window === 'undefined' || !window.speechSynthesis) return;
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = 'en-US';
+    utterance.rate = 0.85;
+    window.speechSynthesis.speak(utterance);
+  };
+
+  const setBlankValue = (blankIdx, value) => {
+    setAnswers((prev) => ({ ...prev, [`${index}-${blankIdx}`]: value }));
+  };
+
+  const checkAnswers = () => {
+    const isCorrect = current.answer.every((expected, i) =>
+      normalizeAnswerText(answers[`${index}-${i}`] || '') === normalizeAnswerText(expected)
+    );
+    setChecked((prev) => ({ ...prev, [index]: isCorrect }));
+    playSound(isCorrect ? 'correct' : 'wrong');
+  };
+
+  const next = () => {
+    if (index < exercises.length - 1) {
+      setIndex((i) => i + 1);
+    } else {
+      setShowDictation(true);
+      onComplete();
+    }
+  };
+
+  const blankParts = current.fillInBlank.split('_____');
+
+  return (
+    <div className="space-y-6">
+      <div className="flex justify-between items-center text-sm text-slate-400">
+        <span>Listening Exercise {index + 1} / {exercises.length}</span>
+        <span className="text-sky-400 font-semibold">{Object.values(checked).filter(Boolean).length} correct so far</span>
+      </div>
+
+      <div className="rounded-2xl border border-sky-500/30 bg-sky-500/5 p-6 space-y-4">
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => speak(current.audioText)}
+            className="w-12 h-12 rounded-full bg-sky-600 hover:bg-sky-500 text-white flex items-center justify-center shrink-0"
+            title="Listen"
+          >
+            <Headphones size={20} />
+          </button>
+          <p className="text-slate-400 text-sm">Click to hear the sentence, then fill in the blanks below.</p>
+        </div>
+
+        <p className="text-lg text-white leading-relaxed flex flex-wrap items-center gap-2">
+          {blankParts.map((part, i) => (
+            <span key={i} className="flex items-center gap-2">
+              {part}
+              {i < blankCount && (
+                <input
+                  value={answers[`${index}-${i}`] || ''}
+                  onChange={(e) => setBlankValue(i, e.target.value)}
+                  className="w-28 px-2 py-1 rounded-lg bg-slate-800 border border-slate-600 text-white text-center outline-none focus:border-sky-500"
+                />
+              )}
+            </span>
+          ))}
+        </p>
+
+        <p className="text-sm text-amber-200/80 hindi-text">{current.hindi}</p>
+
+        <div className="flex flex-wrap gap-3">
+          <button onClick={checkAnswers} className="px-4 py-2 rounded-lg bg-sky-600 hover:bg-sky-500 text-white font-semibold">
+            Check Answers
+          </button>
+          <button onClick={next} className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold">
+            {index === exercises.length - 1 ? 'Finish & See Dictation' : 'Next Exercise'}
+          </button>
+        </div>
+
+        {checked[index] !== undefined && (
+          <div className={cn("rounded-xl p-3 border", checked[index] ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-300" : "border-red-500/30 bg-red-500/10 text-red-300")}>
+            {checked[index] ? 'Correct! Great listening.' : `Not quite. Correct answer: ${current.answer.join(', ')}`}
+          </div>
+        )}
+      </div>
+
+      {showDictation && dictationPassages.length > 0 && (
+        <div className="rounded-2xl border border-slate-700 bg-slate-900 p-6 space-y-4">
+          <h4 className="text-xl font-bold text-white flex items-center gap-2"><Headphones className="text-sky-400" size={20} /> Dictation Practice</h4>
+          {dictationPassages.map((passage, i) => (
+            <div key={i} className="space-y-2 border-t border-slate-800 pt-4 first:border-t-0 first:pt-0">
+              <button onClick={() => speak(passage.text)} className="text-sm text-sky-400 font-semibold hover:text-sky-300">▶ Listen to full passage {i + 1}</button>
+              <p className="text-slate-300 text-sm leading-relaxed">{passage.text}</p>
+              <p className="text-amber-200/70 text-sm hindi-text">{passage.hindi}</p>
+            </div>
+          ))}
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ============================================================
+// Reading Comprehension — passages + MCQ, from
+// reading-exercise.json (served via /api/challenge/[day])
+// ============================================================
+function ReadingComprehension({ reading, onComplete }) {
+  const passages = reading?.passages || (reading?.passage ? [{ ...reading.passage, comprehensionQuestions: reading.comprehensionQuestions }] : []);
+  const [passageIndex, setPassageIndex] = useState(0);
+  const [showTranslation, setShowTranslation] = useState(false);
+  const [selected, setSelected] = useState({});
+
+  if (!passages.length) {
+    return (
+      <div className="space-y-4 text-center">
+        <p className="text-slate-400">No reading passages are available for this day yet.</p>
+        <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-lime-600 hover:bg-lime-500 text-white font-bold">
+          Mark as Reviewed
+        </button>
+      </div>
+    );
+  }
+
+  const passage = passages[passageIndex];
+  const questions = passage.comprehensionQuestions || [];
+  const answeredAll = questions.length === 0 || questions.every((q) => selected[q.id] !== undefined);
+  const correctCount = questions.filter((q) => selected[q.id] === q.answer).length;
+
+  const selectOption = (qId, option) => {
+    setSelected((prev) => ({ ...prev, [qId]: option }));
+  };
+
+  const nextPassage = () => {
+    if (passageIndex < passages.length - 1) {
+      setPassageIndex((i) => i + 1);
+      setSelected({});
+      setShowTranslation(false);
+    } else {
+      onComplete();
+    }
+  };
+
+  return (
+    <div className="space-y-6">
+      <div className="flex justify-between items-center text-sm text-slate-400">
+        <span>Passage {passageIndex + 1} / {passages.length}</span>
+        <button onClick={() => setShowTranslation((v) => !v)} className="text-lime-400 font-semibold hover:text-lime-300">
+          {showTranslation ? 'Hide Hindi Translation' : 'Show Hindi Translation'}
+        </button>
+      </div>
+
+      <div className="rounded-2xl border border-lime-500/30 bg-lime-500/5 p-6 space-y-4">
+        <h4 className="text-xl font-bold text-white">{passage.title}</h4>
+        <p className="text-slate-300 leading-relaxed">{passage.text}</p>
+        {showTranslation && (
+          <p className="text-amber-200/80 text-sm leading-relaxed hindi-text border-t border-slate-800 pt-3">{passage.hindiTranslation}</p>
+        )}
+      </div>
+
+      <div className="space-y-4">
+        <h5 className="font-bold text-white">Comprehension Questions</h5>
+        {questions.map((q) => (
+          <div key={q.id} className="rounded-xl border border-slate-700 bg-slate-900 p-4 space-y-3">
+            <p className="text-white font-semibold">{q.question}</p>
+            <p className="text-xs text-amber-200/60 hindi-text">{q.hindi}</p>
+            <div className="grid sm:grid-cols-2 gap-2">
+              {q.options.map((opt) => {
+                const isChosen = selected[q.id] === opt;
+                const isRevealed = selected[q.id] !== undefined;
+                const isRight = opt === q.answer;
+                return (
+                  <button
+                    key={opt}
+                    onClick={() => selectOption(q.id, opt)}
+                    disabled={isRevealed}
+                    className={cn(
+                      "px-3 py-2 rounded-lg border text-sm text-left transition-colors",
+                      isRevealed && isRight && "border-emerald-500 bg-emerald-500/10 text-emerald-300",
+                      isRevealed && isChosen && !isRight && "border-red-500 bg-red-500/10 text-red-300",
+                      !isRevealed && "border-slate-700 text-slate-300 hover:border-lime-500/50"
+                    )}
+                  >
+                    {opt}
+                  </button>
+                );
+              })}
+            </div>
+          </div>
+        ))}
+      </div>
+
+      {answeredAll && (
+        <div className="rounded-xl border border-amber-500/30 bg-amber-500/10 p-4 flex items-center justify-between">
+          <p className="text-amber-300 font-semibold">Score: {correctCount}/{questions.length}</p>
+          <button onClick={nextPassage} className="px-4 py-2 rounded-lg bg-lime-600 hover:bg-lime-500 text-white font-semibold">
+            {passageIndex === passages.length - 1 ? 'Finish Reading' : 'Next Passage'}
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
+// ============================================================
+// Revision & Quick Quiz — from revision.json (served via
+// /api/challenge/[day])
+// ============================================================
+function RevisionQuiz({ revision, onComplete }) {
+  const keyPoints = revision?.keyPointsSummary || [];
+  const rules = revision?.mustRememberRules || [];
+  const quiz = revision?.quickQuiz || [];
+  const [quizIndex, setQuizIndex] = useState(0);
+  const [input, setInput] = useState('');
+  const [revealed, setRevealed] = useState(false);
+  const [score, setScore] = useState(0);
+
+  if (!revision) {
+    return <p className="text-slate-400">Revision content is loading...</p>;
+  }
+
+  const currentQ = quiz[quizIndex];
+  const done = quiz.length === 0 || quizIndex >= quiz.length;
+
+  const checkQuiz = () => {
+    if (normalizeAnswerText(input) === normalizeAnswerText(currentQ.answer)) {
+      setScore((s) => s + 1);
+    }
+    setRevealed(true);
+  };
+
+  const nextQuiz = () => {
+    if (quizIndex < quiz.length - 1) {
+      setQuizIndex((i) => i + 1);
+      setInput('');
+      setRevealed(false);
+    } else {
+      setQuizIndex(quiz.length);
+      onComplete();
+    }
+  };
+
+  return (
+    <div className="space-y-8">
+      <div className="grid md:grid-cols-2 gap-6">
+        <div className="rounded-2xl border border-orange-500/30 bg-orange-500/5 p-6">
+          <h4 className="text-lg font-bold text-white mb-3 flex items-center gap-2"><Star className="text-orange-400" size={18} /> Key Points Summary</h4>
+          <ul className="space-y-2 text-sm text-slate-300 list-disc list-inside">
+            {keyPoints.map((kp, i) => <li key={i}>{kp}</li>)}
+          </ul>
+        </div>
+        <div className="rounded-2xl border border-slate-700 bg-slate-900 p-6">
+          <h4 className="text-lg font-bold text-white mb-3 flex items-center gap-2"><Zap className="text-amber-400" size={18} /> Must-Remember Rules</h4>
+          <ul className="space-y-2 text-sm text-slate-300 list-disc list-inside">
+            {rules.map((r, i) => <li key={i}>{r}</li>)}
+          </ul>
+        </div>
+      </div>
+
+      {!done && currentQ && (
+        <div className="rounded-2xl border border-orange-500/30 bg-orange-500/5 p-6 space-y-3">
+          <div className="flex justify-between text-sm text-slate-400">
+            <span>Quick Quiz {quizIndex + 1} / {quiz.length}</span>
+            <span>Score: {score}</span>
+          </div>
+          <p className="text-white font-semibold">{currentQ.question}</p>
+          <input
+            value={input}
+            onChange={(e) => setInput(e.target.value)}
+            disabled={revealed}
+            placeholder="Type your answer..."
+            className="w-full px-3 py-2 rounded-lg bg-slate-800 border border-slate-700 text-white outline-none focus:border-orange-500"
+          />
+          <div className="flex gap-3">
+            {!revealed ? (
+              <button onClick={checkQuiz} className="px-4 py-2 rounded-lg bg-orange-600 hover:bg-orange-500 text-white font-semibold">Check</button>
+            ) : (
+              <button onClick={nextQuiz} className="px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold">
+                {quizIndex === quiz.length - 1 ? 'Finish Revision' : 'Next Question'}
+              </button>
+            )}
+          </div>
+          {revealed && (
+            <p className="text-sm text-emerald-300">Correct answer: {currentQ.answer}</p>
+          )}
+        </div>
+      )}
+
+      {done && (
+        <div className="rounded-xl border border-emerald-500/30 bg-emerald-500/10 p-4 text-center space-y-3">
+          <p className="text-emerald-300 font-semibold">
+            {quiz.length > 0 ? `Revision complete! Final quiz score: ${score}/${quiz.length}` : 'No quick quiz available yet — review the points above.'}
+          </p>
+          {quiz.length === 0 && (
+            <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-orange-600 hover:bg-orange-500 text-white font-bold">
+              Mark Revision as Reviewed
+            </button>
+          )}
         </div>
       )}
     </div>

@@ -9,19 +9,99 @@
     "Family: There are X people in my family / I have X siblings / My family consists of",
     "Hobbies: I like/love/enjoy + verb+ing / I am passionate about / I am interested in",
     "Greetings: Nice to meet you / Pleased to meet you / How do you do?",
-    "Common mistakes: 'I am belongs to' गलत, 'I belong to' सही; 'two year experience' गलत, 'two years of experience' सही"
+    "Common mistakes: 'I am belongs to' गलत, 'I belong to' सही; 'two year experience' गलत, 'two years of experience' सही",
+    "Phone introduction: 'This is [Name] speaking' — very common formal phone opener",
+    "Online meeting introduction: 'Hi everyone, I'm [Name], I'll be [role]'",
+    "LinkedIn/networking introduction focuses on job title + years of experience + interest",
+    "Group discussion introduction must be short (20-30 seconds): name + degree + one opinion",
+    "Formal tone avoids contractions ('I am' not 'I'm'); informal tone allows them",
+    "Avoid unnecessary words: 'good name', 'city' after a proper noun, missing articles before job titles"
   ],
   "quickQuiz": [
-    { "id": 1, "question": "Fix this sentence: 'I am belongs to Mumbai.'", "answer": "I belong to Mumbai." },
-    { "id": 2, "question": "Translate: मुझे किताबें पढ़ना पसंद है।", "answer": "I like reading books." },
-    { "id": 3, "question": "Fill: I have been ______ (work) here for two years.", "answer": "working" },
-    { "id": 4, "question": "Translate: मेरे परिवार में पाँच लोग हैं।", "answer": "There are five people in my family." },
-    { "id": 5, "question": "Correct: 'I have two year experience.'", "answer": "I have two years of experience." }
+    {
+      "id": 1,
+      "question": "Fix this sentence: 'I am belongs to Mumbai.'",
+      "answer": "I belong to Mumbai."
+    },
+    {
+      "id": 2,
+      "question": "Translate: मुझे किताबें पढ़ना पसंद है।",
+      "answer": "I like reading books."
+    },
+    {
+      "id": 3,
+      "question": "Fill: I have been ______ (work) here for two years.",
+      "answer": "working"
+    },
+    {
+      "id": 4,
+      "question": "Translate: मेरे परिवार में पाँच लोग हैं।",
+      "answer": "There are five people in my family."
+    },
+    {
+      "id": 5,
+      "question": "Correct: 'I have two year experience.'",
+      "answer": "I have two years of experience."
+    },
+    {
+      "id": 6,
+      "question": "Fix this sentence: 'My good name is Sunita.'",
+      "answer": "My name is Sunita."
+    },
+    {
+      "id": 7,
+      "question": "Fix this sentence: 'I am doing job in a company.'",
+      "answer": "I work at a company."
+    },
+    {
+      "id": 8,
+      "question": "Translate: मैं जल्दी सीखता हूँ और team में काम करना पसंद करता हूँ।",
+      "answer": "I am a quick learner and I enjoy working in a team."
+    },
+    {
+      "id": 9,
+      "question": "Fix this sentence: 'I am fresher.'",
+      "answer": "I am a fresher."
+    },
+    {
+      "id": 10,
+      "question": "Translate: नमस्ते, मैं रोहन बोल रहा हूँ ABC Solutions से।",
+      "answer": "Hello, this is Rohan speaking from ABC Solutions."
+    },
+    {
+      "id": 11,
+      "question": "Fix this sentence: 'I am from Delhi city.'",
+      "answer": "I am from Delhi."
+    },
+    {
+      "id": 12,
+      "question": "Translate: क्या सभी को मेरी screen दिख रही है?",
+      "answer": "Can everyone see my screen?"
+    },
+    {
+      "id": 13,
+      "question": "What is the correct pattern for stating experience? Fill: I have been ______ (work) here for two years.",
+      "answer": "working"
+    },
+    {
+      "id": 14,
+      "question": "Fix this sentence: 'I have two year experience.'",
+      "answer": "I have two years of experience."
+    },
+    {
+      "id": 15,
+      "question": "Translate: मैं अपना खुद का business चलाता हूँ।",
+      "answer": "I run my own business."
+    }
   ],
   "mustRememberRules": [
     "Job titles से पहले article (a/an) ज़रूरी है — 'a teacher', 'an engineer'",
     "'belong to' के साथ कभी 's' या 'am/is/are' नहीं लगाते जब subject 'I' हो — 'I belong to'",
     "'years of experience' — दोनों words ज़रूरी हैं",
-    "like/love/enjoy के बाद verb में हमेशा -ing लगता है"
+    "like/love/enjoy के बाद verb में हमेशा -ing लगता है",
+    "On the phone, say 'This is [Name] speaking', not 'I am [Name] speaking'",
+    "Never say 'my good name is' — just 'my name is'",
+    "'Fresher' always needs an article: 'a fresher', not 'fresher'",
+    "Don't add 'city' after a place name that's already a city: 'I am from Delhi', not 'Delhi city'"
   ]
 }

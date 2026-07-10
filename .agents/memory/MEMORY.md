@@ -3,3 +3,4 @@
 - [practiceData architecture](practice-data-arch.md) — Days 1-30 in practiceData.js ALL_QUESTIONS map; Days 31-75 in practiceData-days31-75.js EXTENDED_QUESTIONS; getQuestionsForDay() checks both before fallback generator.
 - [Challenge day content generation](challenge-day-content-generation.md) — fill data/challenge/day-XX/*.json via one-off Node generator script from a real sentence-pair pool, not by hand.
 - [Day page hardcoded data bug](day-page-hardcoded-data-bug.md) — practice/vocabulary day pages had own tiny static arrays ignoring the real generated JSON banks; always check pages actually fetch the API.
+- [Day 2 content modules scope](day02-content-modules-scope.md) — each day-page tab (Listening/Reading/Revision etc.) must exist and consume its JSON field, or content growth never appears on the live site.
