@@ -2,10 +2,18 @@
   "day": 13,
   "topic": "Use of Let",
   "keyPointsSummary": [
-    "'Let' means giving permission or allowing someone to do something",
-    "Formula: Let + person + base verb (no 'to')",
-    "Negative: Do not let / Don't let",
-    "'Let me' = mujhe karne do; 'Let him/her' = use karne do"
+    "Formula: Let + object pronoun (me/him/her/us/them/it) + base verb (no 'to', no '-ing')",
+    "'Let me' = मुझे करने दो — polite request or volunteering",
+    "'Let him/her' = उसे करने दो — giving permission to a third person",
+    "'Let us' = हमें करने दो — formal permission for a group",
+    "'Let them' = उन्हें करने दो — allowing a group to do something",
+    "Negative form: 'Don't let' + object + base verb (NOT 'Let not' in modern English)",
+    "Question form: Will/Can/Should + subject + let + object + base verb?",
+    "Object pronouns only: me/him/her/us/them — NOT I/he/she/we/they",
+    "'Let go of' = idiom meaning to release (emotionally or physically)",
+    "'Let alone' = idiom meaning 'not to mention'",
+    "'Let' vs 'Allow': Let is informal; Allow is formal and is followed by 'to + verb'",
+    "'Let' vs 'Make': Let = willing permission; Make = force (unwilling)"
   ],
   "quickQuiz": [
     {
@@ -15,12 +23,12 @@
     },
     {
       "id": 2,
-      "hindi": "उसे जाने दो।",
+      "hindi": "उसे (लड़के को) जाने दो।",
       "answer": "Let him go."
     },
     {
       "id": 3,
-      "hindi": "उसे बोलने दो।",
+      "hindi": "उसे (लड़की को) बोलने दो।",
       "answer": "Let her speak."
     },
     {
@@ -35,34 +43,62 @@
     },
     {
       "id": 6,
-      "hindi": "मुझे सोचने दो।",
-      "answer": "Let me think."
+      "hindi": "उसे (लड़के को) अंदर मत आने दो।",
+      "answer": "Don't let him come inside."
     },
     {
       "id": 7,
-      "hindi": "उसे आराम करने दो।",
-      "answer": "Let him rest."
+      "hindi": "इस मौके को हाथ से मत जाने दो।",
+      "answer": "Don't let this opportunity slip away."
     },
     {
       "id": 8,
-      "hindi": "मुझे यह check करने दो।",
-      "answer": "Let me check this."
+      "hindi": "क्या आप मुझे यह समझाने देंगे?",
+      "answer": "Will you let me explain this?"
     },
     {
       "id": 9,
-      "hindi": "उसे अपना काम करने दो।",
-      "answer": "Let her do her work."
+      "hindi": "अतीत को जाने दो।",
+      "answer": "Let go of the past."
     },
     {
       "id": 10,
-      "hindi": "हमें शुरू करने दो।",
-      "answer": "Let us start."
+      "hindi": "मुझे अपना परिचय देने दो।",
+      "answer": "Let me introduce myself."
+    },
+    {
+      "id": 11,
+      "hindi": "हमें meeting शुरू करने दो।",
+      "answer": "Let us begin the meeting."
+    },
+    {
+      "id": 12,
+      "hindi": "उसे अपना काम खुद करने दो।",
+      "answer": "Let him do his own work."
+    },
+    {
+      "id": 13,
+      "hindi": "बच्चों को बाहर खेलने दो।",
+      "answer": "Let the children play outside."
+    },
+    {
+      "id": 14,
+      "hindi": "उसे team lead करने दो।",
+      "answer": "Let her lead the team."
+    },
+    {
+      "id": 15,
+      "hindi": "मुझे एक example देने दो।",
+      "answer": "Let me give you an example."
     }
   ],
   "mustRememberRules": [
-    "'Let' means giving permission or allowing someone to do something",
-    "Formula: Let + person + base verb (no 'to')",
-    "Negative: Do not let / Don't let",
-    "'Let me' = mujhe karne do; 'Let him/her' = use karne do"
+    "ALWAYS use object pronoun after 'Let': Let me (not Let I), Let him (not Let he), Let her (not Let she), Let us (not Let we), Let them (not Let they)",
+    "NEVER put 'to' after Let + pronoun: Let me go ✅ / Let me to go ❌",
+    "NEVER use '-ing' form after Let + pronoun: Let him go ✅ / Let him going ❌",
+    "Negative = 'Don't let + object + base verb' (NOT 'Let not' in everyday English)",
+    "'Let alone' = idiom for 'not to mention': He can't walk, let alone run.",
+    "'Let go of' = idiom for releasing: Let go of the past.",
+    "'Let' ≠ 'Let's' — 'Let's' is for suggestions (Day 14 topic)"
   ]
 }

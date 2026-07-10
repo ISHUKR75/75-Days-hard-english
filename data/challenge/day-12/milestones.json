@@ -5,35 +5,35 @@
     {
       "id": 1,
       "title": "Lesson Completed",
-      "description": "Finished all lessons on Use of Wanted.",
+      "description": "You finished all 8 sections of the 'Use of Wanted' lesson — from basics to advanced usage.",
       "xp": 20,
       "badge": "lesson-complete"
     },
     {
       "id": 2,
       "title": "Vocabulary Mastered",
-      "description": "Learned new words related to Use of Wanted.",
+      "description": "You learned 100 vocabulary words related to desires, goals, and everyday actions.",
       "xp": 15,
       "badge": "vocab-master"
     },
     {
       "id": 3,
       "title": "Practice Champion",
-      "description": "Completed all practice questions for Day 12.",
+      "description": "You completed all 100 practice questions on 'Use of Wanted' — statements, negatives, and questions.",
       "xp": 25,
       "badge": "practice-champion"
     },
     {
       "id": 4,
       "title": "Test Passed",
-      "description": "Scored well on the Day 12 test.",
+      "description": "You scored well on the 30-question daily test for Day 12.",
       "xp": 30,
       "badge": "test-passed"
     },
     {
       "id": 5,
-      "title": "Speaking Practiced",
-      "description": "Completed speaking drills for Use of Wanted.",
+      "title": "Speaking Star",
+      "description": "You completed all 12 speaking drill sets and practiced 'wanted' sentences aloud.",
       "xp": 20,
       "badge": "speaking-star"
     }

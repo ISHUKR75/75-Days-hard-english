@@ -2,106 +2,130 @@
   "day": 15,
   "topic": "Would Like To",
   "passage": {
-    "title": "A Day with Would Like To",
-    "text": "I would like to know this. I would like to meet you. She would like to ask something. We would like to have a coffee. They would like to travel. Would you like to eat something? I would like to know more about this. He would like to give his opinion. We would like to take this opportunity. Would you like to sit down?",
-    "hindiTranslation": "मैं यह जानना चाहूँगा। मैं आपसे मिलना चाहूँगा। वह कुछ पूछना चाहेगी। हम एक coffee लेना चाहेंगे। वे travel करना चाहेंगे। क्या आप कुछ खाना चाहेंगे? मैं इस बारे में और जानना चाहूँगा। वह अपनी राय देना चाहेगा। हम यह मौका लेना चाहेंगे। क्या आप बैठना चाहेंगे?"
+    "title": "Riya's Job Interview",
+    "text": "Riya is preparing for her first job interview. She would like to make a good impression. She says to herself: 'I would like to introduce myself confidently. I would like to explain my experience clearly. I would not like to be nervous.' At the interview, the HR manager asks, 'Would you like to tell us about your strengths?' Riya answers, 'I would like to describe myself as a quick learner and a good team player. I would like to contribute to your company's goals.' The HR manager then asks, 'Would you like to ask us any questions?' Riya replies, 'Yes, I would. I would like to know more about the growth opportunities here.' The interview ends well. Riya would like to join this company, and she is hopeful. The HR manager thinks, 'We would like to offer her the position.'",
+    "hindiTranslation": "Riya अपने पहले job interview की तैयारी कर रही है। वह एक अच्छा impression बनाना चाहेगी। वह खुद से कहती है: 'मैं confident तरीके से अपना परिचय देना चाहूँगी। मैं अपना अनुभव clearly बताना चाहूँगी। मैं nervous नहीं होना चाहूँगी।' Interview में HR manager पूछती है, 'क्या आप हमें अपनी strengths बताना चाहेंगी?' Riya जवाब देती है, 'मैं खुद को एक quick learner और अच्छी team player बताना चाहूँगी। मैं आपकी company के goals में योगदान देना चाहूँगी।' HR manager फिर पूछती है, 'क्या आप हमसे कोई सवाल पूछना चाहेंगी?' Riya कहती है, 'हाँ, ज़रूर। मैं यहाँ growth opportunities के बारे में जानना चाहूँगी।' Interview अच्छे से समाप्त होता है। Riya इस company में join होना चाहेगी, और वह आशान्वित है। HR manager सोचती है, 'हम उसे यह position offer करना चाहेंगे।'"
   },
   "comprehensionQuestions": [
     {
       "id": 1,
-      "question": "What does the passage say about: \"I would like to...\"?",
+      "question": "Why is Riya preparing carefully for the interview?",
       "options": [
-        "He would like to give his opinion.",
-        "I would like to apologize.",
-        "She would like to give a presentation.",
-        "I would like to know this."
+        "She would like to avoid the interview.",
+        "She would like to make a good impression.",
+        "She would not like to get the job.",
+        "She would like to ask for a higher salary."
       ],
-      "answer": "I would like to know this.",
-      "explanation": "Stated in the passage: \"I would like to know this.\""
+      "answer": "She would like to make a good impression.",
+      "explanation": "The passage says: 'She would like to make a good impression.'"
     },
     {
       "id": 2,
-      "question": "What does the passage say about: \"I would like to...\"?",
+      "question": "What does Riya say she would NOT like during the interview?",
       "options": [
-        "We would like to take this opportunity.",
-        "They would like to discuss this topic.",
-        "We would like to finish this soon.",
-        "I would like to meet you."
+        "She would not like to answer questions.",
+        "She would not like to be nervous.",
+        "She would not like to introduce herself.",
+        "She would not like to meet the manager."
       ],
-      "answer": "I would like to meet you.",
-      "explanation": "Stated in the passage: \"I would like to meet you.\""
+      "answer": "She would not like to be nervous.",
+      "explanation": "Riya says: 'I would not like to be nervous.' — this shows negative form of 'would like to'."
     },
     {
       "id": 3,
-      "question": "What does the passage say about: \"She would like to...\"?",
+      "question": "What did the HR manager ask Riya first?",
       "options": [
-        "Would you like to sit down?",
-        "I would like to ask this question.",
-        "I would like to give a suggestion.",
-        "She would like to ask something."
+        "Would you like to take a break?",
+        "Would you like to tell us about your strengths?",
+        "Would you like to start next Monday?",
+        "Would you like some water?"
       ],
-      "answer": "She would like to ask something.",
-      "explanation": "Stated in the passage: \"She would like to ask something.\""
+      "answer": "Would you like to tell us about your strengths?",
+      "explanation": "The HR manager asked: 'Would you like to tell us about your strengths?' — question form."
     },
     {
       "id": 4,
-      "question": "What does the passage say about: \"We would like to...\"?",
+      "question": "How does Riya describe herself in the interview?",
       "options": [
-        "I would like to say thank you.",
-        "He would like to take a break.",
-        "I would like to know this.",
-        "We would like to have a coffee."
+        "As a slow learner but hardworking.",
+        "As a good manager and leader.",
+        "As a quick learner and a good team player.",
+        "As an experienced engineer."
       ],
-      "answer": "We would like to have a coffee.",
-      "explanation": "Stated in the passage: \"We would like to have a coffee.\""
+      "answer": "As a quick learner and a good team player.",
+      "explanation": "Riya says: 'I would like to describe myself as a quick learner and a good team player.'"
     },
     {
       "id": 5,
-      "question": "What does the passage say about: \"They would like to...\"?",
+      "question": "What does Riya ask about when given the chance to ask questions?",
       "options": [
-        "She would like to share her idea.",
-        "We would like to help you.",
-        "I would like to meet you.",
-        "They would like to travel."
+        "Salary and benefits",
+        "Office location",
+        "Growth opportunities",
+        "Working hours"
       ],
-      "answer": "They would like to travel.",
-      "explanation": "Stated in the passage: \"They would like to travel.\""
+      "answer": "Growth opportunities",
+      "explanation": "Riya says: 'I would like to know more about the growth opportunities here.'"
     },
     {
       "id": 6,
-      "question": "What does the passage say about: \"Would you like to...\"?",
+      "question": "What does the HR manager think at the end?",
       "options": [
-        "We would like to work on this project.",
-        "Would you like to say something?",
-        "She would like to ask something.",
-        "Would you like to eat something?"
+        "She would like to give Riya a second interview.",
+        "She would like to offer Riya the position.",
+        "She would not like to hire Riya.",
+        "She would like to think about it more."
       ],
-      "answer": "Would you like to eat something?",
-      "explanation": "Stated in the passage: \"Would you like to eat something?\""
+      "answer": "She would like to offer Riya the position.",
+      "explanation": "The passage ends: 'We would like to offer her the position.' — positive outcome."
     },
     {
       "id": 7,
-      "question": "What does the passage say about: \"I would like to...\"?",
+      "question": "Which sentence from the passage is in the NEGATIVE form of 'would like to'?",
       "options": [
-        "Would you like to drink something?",
-        "I would like to learn this.",
-        "We would like to have a coffee.",
-        "I would like to know more about this."
+        "She would like to make a good impression.",
+        "I would like to introduce myself confidently.",
+        "I would not like to be nervous.",
+        "We would like to offer her the position."
       ],
-      "answer": "I would like to know more about this.",
-      "explanation": "Stated in the passage: \"I would like to know more about this.\""
+      "answer": "I would not like to be nervous.",
+      "explanation": "'Would not like to' is the negative form. Only this sentence uses the negative."
     },
     {
       "id": 8,
-      "question": "What does the passage say about: \"He would like to...\"?",
+      "question": "What does 'Would you like to tell us about your strengths?' mean in Hindi?",
       "options": [
-        "I would like to apologize.",
-        "She would like to give a presentation.",
-        "They would like to travel.",
-        "He would like to give his opinion."
+        "क्या आप हमें अपनी weaknesses बताना चाहेंगी?",
+        "क्या आप हमें अपनी strengths बताना चाहेंगी?",
+        "आपको अपनी strengths बतानी होंगी।",
+        "क्या आप हमसे सवाल पूछना चाहेंगी?"
       ],
-      "answer": "He would like to give his opinion.",
-      "explanation": "Stated in the passage: \"He would like to give his opinion.\""
+      "answer": "क्या आप हमें अपनी strengths बताना चाहेंगी?",
+      "explanation": "'Would you like to tell us about your strengths?' = 'क्या आप हमें अपनी strengths बताना चाहेंगी?' — question form."
+    },
+    {
+      "id": 9,
+      "question": "Which form of 'would like to' is used for polite invitations/offers?",
+      "options": [
+        "Subject + would not like to + verb",
+        "Would + subject + like to + verb?",
+        "Subject + would like to + verb",
+        "I'd + like to + verb"
+      ],
+      "answer": "Would + subject + like to + verb?",
+      "explanation": "Question/offer form: Would + subject + like to + base verb? — e.g., Would you like to...?"
+    },
+    {
+      "id": 10,
+      "question": "What is the MAIN lesson from Riya's interview passage?",
+      "options": [
+        "'Would like to' is only for restaurants.",
+        "'Would like to' makes speech polite and professional in formal situations.",
+        "'Would like to' is the same as 'must'.",
+        "'Would like to' is used only for negative sentences."
+      ],
+      "answer": "'Would like to' makes speech polite and professional in formal situations.",
+      "explanation": "The passage shows 'would like to' used throughout for polite, formal, and professional communication."
     }
   ]
 }

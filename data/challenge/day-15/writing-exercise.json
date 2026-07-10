@@ -5,42 +5,42 @@
     {
       "id": 1,
       "type": "sentence-writing",
-      "prompt": "Write 5 original English sentences using Would Like To.",
-      "hindiPrompt": "Would Like To का उपयोग करते हुए 5 नए वाक्य लिखिए।",
-      "sampleAnswer": "I would like to know this. I would like to meet you. She would like to ask something. We would like to have a coffee. They would like to travel.",
-      "wordLimit": 60
+      "prompt": "Write 6 original English sentences using 'Would Like To'. Use at least 2 positive statements, 2 questions, and 2 negative sentences.",
+      "hindiPrompt": "'Would Like To' का उपयोग करके 6 original English sentences लिखिए। कम से कम 2 positive statements, 2 questions, और 2 negative sentences शामिल करें।",
+      "sampleAnswer": "1. I would like to improve my public speaking skills. 2. She would like to visit Japan next year. 3. Would you like to join us for dinner? 4. Would he like to take on more responsibilities? 5. I wouldn't like to miss this opportunity. 6. They would not like to change the plan at the last minute.",
+      "wordLimit": 80
     },
     {
       "id": 2,
       "type": "paragraph-writing",
-      "prompt": "Write a short paragraph (5-6 lines) using Would Like To.",
-      "hindiPrompt": "Would Like To का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
-      "sampleAnswer": "Would you like to eat something? I would like to know more about this. He would like to give his opinion. We would like to take this opportunity. Would you like to sit down?",
-      "wordLimit": 80
+      "prompt": "Write a short paragraph (5–6 lines) about your future goals using 'Would Like To'. Describe things you would like to achieve in your career and personal life.",
+      "hindiPrompt": "'Would Like To' का उपयोग करते हुए अपने future goals के बारे में एक छोटा paragraph लिखिए (5–6 lines)। Career और personal life में आप क्या achieve करना चाहेंगे — वो बताइए।",
+      "sampleAnswer": "I have many goals for my future. I would like to improve my English communication skills so that I can speak confidently in meetings. I'd like to get a promotion within the next two years. I would also like to travel to at least three new countries. In my personal life, I would like to spend more quality time with my family. I wouldn't like to let any opportunity pass by without trying my best.",
+      "wordLimit": 100
     },
     {
       "id": 3,
       "type": "translation",
-      "prompt": "Translate into English: \"मैं धन्यवाद कहना चाहूँगा।\"",
-      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
-      "sampleAnswer": "I would like to say thank you.",
-      "wordLimit": 20
+      "prompt": "Translate the following paragraph into English:\n'मैं एक software company में काम करना चाहूँगा। मैं वहाँ एक team lead बनना चाहूँगा। क्या आप भी software field में जाना चाहेंगे? मैं यह भी सुनिश्चित करना चाहूँगा कि मेरी team हमेशा motivated रहे।'",
+      "hindiPrompt": "नीचे दिए गए Hindi paragraph का English में अनुवाद करें।",
+      "sampleAnswer": "I would like to work in a software company. I would like to become a team lead there. Would you also like to go into the software field? I would also like to ensure that my team always remains motivated.",
+      "wordLimit": 60
     },
     {
       "id": 4,
       "type": "correction",
-      "prompt": "Correct this sentence: \"We would like to have a coffee yesterday.\"",
-      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
-      "sampleAnswer": "We would like to have a coffee.",
-      "wordLimit": 20
+      "prompt": "Find and correct the errors in these sentences:\n1. 'I would like eating pizza.'\n2. 'Would she likes to come?'\n3. 'Do you would like to help me?'\n4. 'I would like to went to the party.'",
+      "hindiPrompt": "इन sentences में गलतियाँ ढूँढकर सुधारें।",
+      "sampleAnswer": "1. I would like to eat pizza. (not 'eating' — use 'to + base verb') 2. Would she like to come? (not 'likes' — use base form 'like') 3. Would you like to help me? (not 'Do you would' — use 'Would you') 4. I would like to go to the party. (not 'went' — use base verb 'go')",
+      "wordLimit": 60
     },
     {
       "id": 5,
       "type": "dialogue-writing",
-      "prompt": "Write a short 4-line dialogue using Would Like To.",
-      "hindiPrompt": "Would Like To का उपयोग करते हुए एक संवाद लिखिए।",
-      "sampleAnswer": "We would like to work on this project. Would you like to drink something? I would like to apologize. They would like to discuss this topic.",
-      "wordLimit": 60
+      "prompt": "Write a 6-line dialogue between a job applicant (Priya) and an interviewer (HR Manager) using 'Would Like To' at least 4 times. The dialogue should be about Priya's goals and the interviewer's questions.",
+      "hindiPrompt": "एक job applicant (Priya) और HR Manager के बीच 6 lines का dialogue लिखें। 'Would Like To' कम से कम 4 बार use करें। Priya के goals और HR के questions शामिल करें।",
+      "sampleAnswer": "HR: Priya, would you like to tell us about yourself?\nPriya: I would like to introduce myself as a passionate marketer with 3 years of experience.\nHR: Would you like to explain your biggest achievement?\nPriya: I would like to highlight a campaign that increased sales by 40%.\nHR: Where would you like to see yourself in 5 years?\nPriya: I would like to grow into a leadership role and contribute to your company's vision.",
+      "wordLimit": 100
     }
   ]
 }

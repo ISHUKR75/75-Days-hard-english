@@ -4,111 +4,163 @@
   "exercises": [
     {
       "id": 1,
-      "audioScript": "I would like to say thank you.",
-      "hindiScript": "मैं धन्यवाद कहना चाहूँगा।",
+      "audioScript": "I would like to introduce myself.",
+      "hindiScript": "मैं अपना परिचय देना चाहूँगा।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "He would like to give his opinion.",
-        "I would like to apologize.",
-        "She would like to give a presentation.",
-        "I would like to say thank you."
+        "I want to introduce myself.",
+        "I introduced myself yesterday.",
+        "I would like to introduce myself.",
+        "I am introducing myself."
       ],
-      "answer": "I would like to say thank you."
+      "answer": "I would like to introduce myself."
     },
     {
       "id": 2,
-      "audioScript": "She would like to share her idea.",
-      "hindiScript": "वह अपना विचार साझा करना चाहेगी।",
+      "audioScript": "Would you like to have some water?",
+      "hindiScript": "क्या आप पानी पीना चाहेंगे?",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "We would like to take this opportunity.",
-        "They would like to discuss this topic.",
-        "We would like to finish this soon.",
-        "She would like to share her idea."
+        "Do you want water?",
+        "Would you like to have some water?",
+        "Are you drinking water?",
+        "Did you have water?"
       ],
-      "answer": "She would like to share her idea."
+      "answer": "Would you like to have some water?"
     },
     {
       "id": 3,
-      "audioScript": "We would like to work on this project.",
-      "hindiScript": "हम इस project पर काम करना चाहेंगे।",
+      "audioScript": "She would not like to work overtime.",
+      "hindiScript": "वह overtime काम नहीं करना चाहेगी।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Would you like to sit down?",
-        "I would like to ask this question.",
-        "I would like to give a suggestion.",
-        "We would like to work on this project."
+        "She does not work overtime.",
+        "She should not work overtime.",
+        "She would not like to work overtime.",
+        "She worked overtime."
       ],
-      "answer": "We would like to work on this project."
+      "answer": "She would not like to work overtime."
     },
     {
       "id": 4,
-      "audioScript": "Would you like to drink something?",
-      "hindiScript": "क्या तुम कुछ पीना चाहोगे?",
+      "audioScript": "We would like to offer you this position.",
+      "hindiScript": "हम आपको यह position offer करना चाहेंगे।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "I would like to say thank you.",
-        "He would like to take a break.",
-        "I would like to know this.",
-        "Would you like to drink something?"
+        "We are offering you this position.",
+        "We offered you this position.",
+        "We will offer you a position later.",
+        "We would like to offer you this position."
       ],
-      "answer": "Would you like to drink something?"
+      "answer": "We would like to offer you this position."
     },
     {
       "id": 5,
-      "audioScript": "I would like to apologize.",
-      "hindiScript": "मैं माफी मांगना चाहूँगा।",
+      "audioScript": "I'd like to schedule a meeting with you.",
+      "hindiScript": "मैं आपके साथ एक meeting schedule करना चाहूँगा।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "She would like to share her idea.",
-        "We would like to help you.",
-        "I would like to meet you.",
-        "I would like to apologize."
+        "I'd like to schedule a meeting with you.",
+        "I scheduled a meeting with you.",
+        "I want to schedule a meeting.",
+        "Can we schedule a meeting?"
       ],
-      "answer": "I would like to apologize."
+      "answer": "I'd like to schedule a meeting with you."
     },
     {
       "id": 6,
-      "audioScript": "They would like to discuss this topic.",
-      "hindiScript": "वे इस topic पर चर्चा करना चाहेंगे।",
+      "audioScript": "Would he like to join the project team?",
+      "hindiScript": "क्या वह project team में शामिल होना चाहेगा?",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "We would like to work on this project.",
-        "Would you like to say something?",
-        "She would like to ask something.",
-        "They would like to discuss this topic."
+        "Did he join the project team?",
+        "Would he like to join the project team?",
+        "He joined the project team.",
+        "Is he joining the project team?"
       ],
-      "answer": "They would like to discuss this topic."
+      "answer": "Would he like to join the project team?"
     },
     {
       "id": 7,
-      "audioScript": "I would like to ask this question.",
-      "hindiScript": "मैं यह सवाल पूछना चाहूँगा।",
+      "audioScript": "They wouldn't like to cancel the contract.",
+      "hindiScript": "वे contract cancel नहीं करना चाहेंगे।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Would you like to drink something?",
-        "I would like to learn this.",
-        "We would like to have a coffee.",
-        "I would like to ask this question."
+        "They cancelled the contract.",
+        "They wouldn't like to cancel the contract.",
+        "They cannot cancel the contract.",
+        "They did not cancel the contract."
       ],
-      "answer": "I would like to ask this question."
+      "answer": "They wouldn't like to cancel the contract."
     },
     {
       "id": 8,
-      "audioScript": "He would like to take a break.",
-      "hindiScript": "वह ब्रेक लेना चाहेगा।",
+      "audioScript": "I would like to apply for this job.",
+      "hindiScript": "मैं इस नौकरी के लिए apply करना चाहूँगा।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "I would like to apologize.",
-        "She would like to give a presentation.",
-        "They would like to travel.",
-        "He would like to take a break."
+        "I applied for this job.",
+        "I am applying for a job.",
+        "I would like to apply for this job.",
+        "I want to apply for every job."
       ],
-      "answer": "He would like to take a break."
+      "answer": "I would like to apply for this job."
+    },
+    {
+      "id": 9,
+      "audioScript": "Would you like to see our new product?",
+      "hindiScript": "क्या आप हमारी नई product देखना चाहेंगे?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Do you see our new product?",
+        "Did you see our new product?",
+        "Would you like to see our new product?",
+        "Are you seeing our new product?"
+      ],
+      "answer": "Would you like to see our new product?"
+    },
+    {
+      "id": 10,
+      "audioScript": "He said he would like to meet the director.",
+      "hindiScript": "उसने कहा कि वह director से मिलना चाहेगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He met the director.",
+        "He said he would like to meet the director.",
+        "He wants to meet the director.",
+        "He will meet the director."
+      ],
+      "answer": "He said he would like to meet the director."
+    },
+    {
+      "id": 11,
+      "audioScript": "I would like to improve my communication skills.",
+      "hindiScript": "मैं अपनी communication skills improve करना चाहूँगा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I improved my communication skills.",
+        "I would like to improve my communication skills.",
+        "I am improving my skills.",
+        "I should improve my skills."
+      ],
+      "answer": "I would like to improve my communication skills."
+    },
+    {
+      "id": 12,
+      "audioScript": "Would you like to take a tour of our office?",
+      "hindiScript": "क्या आप हमारे office का tour लेना चाहेंगे?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You should take a tour of the office.",
+        "Did you take a tour of the office?",
+        "Would you like to take a tour of our office?",
+        "Are you taking a tour of the office?"
+      ],
+      "answer": "Would you like to take a tour of our office?"
     }
   ],
   "dictationPassage": {
-    "text": "I would like to say thank you. She would like to share her idea. We would like to work on this project. Would you like to drink something? I would like to apologize.",
-    "hindiTranslation": "मैं धन्यवाद कहना चाहूँगा। वह अपना विचार साझा करना चाहेगी। हम इस project पर काम करना चाहेंगे। क्या तुम कुछ पीना चाहोगे? मैं माफी मांगना चाहूँगा।"
+    "text": "I would like to introduce myself. My name is Ananya and I would like to apply for this position. I would like to work with a professional team. Would you like to tell me more about this role? I wouldn't like to miss this opportunity.",
+    "hindiTranslation": "मैं अपना परिचय देना चाहूँगी। मेरा नाम Ananya है और मैं इस position के लिए apply करना चाहूँगी। मैं एक professional team के साथ काम करना चाहूँगी। क्या आप मुझे इस role के बारे में और बताना चाहेंगे? मैं इस अवसर को खोना नहीं चाहूँगी।"
   }
 }

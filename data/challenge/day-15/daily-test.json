@@ -1,280 +1,559 @@
 {
   "day": 15,
   "topic": "Would Like To",
-  "totalQuestions": 24,
+  "totalQuestions": 35,
   "questions": [
     {
       "id": 1,
       "type": "translate",
-      "hindi": "मैं यह जानना चाहूँगा।",
+      "hindi": "मैं एक कप चाय पीना चाहूँगा।",
       "options": [
-        "He would like to give his opinion.",
-        "I would like to apologize.",
-        "She would like to give a presentation.",
-        "I would like to know this."
+        {
+          "english": "I am drinking tea.",
+          "hindi": "मैं चाय पी रहा हूँ।"
+        },
+        {
+          "english": "I drink tea daily.",
+          "hindi": "मैं रोज़ चाय पीता हूँ।"
+        },
+        {
+          "english": "I drank tea yesterday.",
+          "hindi": "मैंने कल चाय पी।"
+        },
+        "I would like to have a cup of tea."
       ],
-      "answer": "I would like to know this.",
-      "explanation": "Correct translation: \"मैं यह जानना चाहूँगा।\" = \"I would like to know this.\""
+      "answer": "I would like to have a cup of tea.",
+      "explanation": "'Would like to' = polite 'want to'. Subject + would like to + base verb."
     },
     {
       "id": 2,
       "type": "fill",
-      "sentence": "I would like _____ meet you.",
+      "sentence": "Would you _____ to see the menu?",
       "options": [
-        "to"
+        "wants",
+        "want",
+        "like",
+        "liked"
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"I would like to meet you.\""
+      "answer": "like",
+      "explanation": "'Would you like to...' is the correct question form. 'Would' is already there, so 'like' follows."
     },
     {
       "id": 3,
       "type": "error",
-      "sentence": "She would like to ask something yesterday.",
+      "sentence": "She would likes to meet the manager.",
       "options": [
-        "She would like to ask something yesterday.",
-        "She would like to ask something."
+        "She would likes to meet the manager.",
+        "She would like to meet the manager."
       ],
-      "answer": "She would like to ask something.",
-      "explanation": "Correct sentence: \"She would like to ask something.\""
+      "answer": "She would like to meet the manager.",
+      "explanation": "After 'would', we use the base form 'like', not 'likes'. Would + like (not likes)."
     },
     {
       "id": 4,
       "type": "translate",
-      "hindi": "हम एक coffee लेना चाहेंगे।",
+      "hindi": "क्या आप यहाँ बैठना चाहेंगे?",
       "options": [
-        "I would like to say thank you.",
-        "He would like to take a break.",
-        "I would like to know this.",
-        "We would like to have a coffee."
+        {
+          "english": "Do you want to sit here?",
+          "hindi": "क्या तुम यहाँ बैठना चाहते हो?"
+        },
+        {
+          "english": "Are you sitting here?",
+          "hindi": "क्या तुम यहाँ बैठे हो?"
+        },
+        "Would you like to sit here?",
+        {
+          "english": "You should sit here.",
+          "hindi": "तुम्हें यहाँ बैठना चाहिए।"
+        }
       ],
-      "answer": "We would like to have a coffee.",
-      "explanation": "Correct translation: \"हम एक coffee लेना चाहेंगे।\" = \"We would like to have a coffee.\""
+      "answer": "Would you like to sit here.",
+      "explanation": "Question form: Would + subject + like to + base verb?"
     },
     {
       "id": 5,
       "type": "fill",
-      "sentence": "They would _____ to travel.",
+      "sentence": "I would like _____ introduce myself.",
       "options": [
+        "for",
+        "of",
         "to",
-        "like"
+        "on"
       ],
-      "answer": "like",
-      "explanation": "Full sentence: \"They would like to travel.\""
+      "answer": "to",
+      "explanation": "'Would like to' — 'to' is mandatory before the base verb. Would like TO + base verb."
     },
     {
       "id": 6,
-      "type": "error",
-      "sentence": "Would you like to eat something? yesterday.",
+      "type": "translate",
+      "hindi": "वह manager से मिलना नहीं चाहेगी।",
       "options": [
-        "Would you like to eat something? yesterday.",
-        "Would you like to eat something?"
+        "She would not like to meet the manager.",
+        {
+          "english": "She does not meet the manager.",
+          "hindi": "वह manager से नहीं मिलती।"
+        },
+        {
+          "english": "She cannot meet the manager.",
+          "hindi": "वह manager से नहीं मिल सकती।"
+        },
+        {
+          "english": "She did not meet the manager.",
+          "hindi": "वह manager से नहीं मिली।"
+        }
       ],
-      "answer": "Would you like to eat something?",
-      "explanation": "Correct sentence: \"Would you like to eat something?\""
+      "answer": "She would not like to meet the manager.",
+      "explanation": "Negative: Subject + would not like to + base verb. 'Would not' or 'wouldn't' — both correct."
     },
     {
       "id": 7,
-      "type": "translate",
-      "hindi": "मैं इस बारे में और जानना चाहूँगा।",
+      "type": "fill",
+      "sentence": "We would like to _____ this project by Friday.",
       "options": [
-        "Would you like to drink something?",
-        "I would like to learn this.",
-        "We would like to have a coffee.",
-        "I would like to know more about this."
+        "finishing",
+        "finished",
+        "finish",
+        "finishes"
       ],
-      "answer": "I would like to know more about this.",
-      "explanation": "Correct translation: \"मैं इस बारे में और जानना चाहूँगा।\" = \"I would like to know more about this.\""
+      "answer": "finish",
+      "explanation": "After 'would like to', use BASE VERB (infinitive without 'to'). Never use -ing form here."
     },
     {
       "id": 8,
-      "type": "fill",
-      "sentence": "He would like _____ give his opinion.",
+      "type": "error",
+      "sentence": "Would she likes to attend the meeting?",
       "options": [
-        "to"
+        "Would she likes to attend the meeting?",
+        "Would she like to attend the meeting?"
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"He would like to give his opinion.\""
+      "answer": "Would she like to attend the meeting.",
+      "explanation": "In questions with 'would', always use 'like' (base form), not 'likes'. Would + subject + like to..."
     },
     {
       "id": 9,
-      "type": "error",
-      "sentence": "We would like to take this opportunity yesterday.",
+      "type": "translate",
+      "hindi": "हम आपको यह position offer करना चाहेंगे।",
       "options": [
-        "We would like to take this opportunity yesterday.",
-        "We would like to take this opportunity."
+        {
+          "english": "We offered you this position.",
+          "hindi": "हमने आपको यह position दी थी."
+        },
+        {
+          "english": "We are offering you this position.",
+          "hindi": "हम आपको यह position offer कर रहे हैं."
+        },
+        "We would like to offer you this position.",
+        {
+          "english": "We want to give this to you.",
+          "hindi": "हम यह आपको देना चाहते हैं."
+        }
       ],
-      "answer": "We would like to take this opportunity.",
-      "explanation": "Correct sentence: \"We would like to take this opportunity.\""
+      "answer": "We would like to offer you this position.",
+      "explanation": "'Would like to' in business/professional context for making offers politely."
     },
     {
       "id": 10,
-      "type": "translate",
-      "hindi": "क्या आप बैठना चाहेंगे?",
+      "type": "fill",
+      "sentence": "I _____ like to apologize for the delay.",
       "options": [
-        "I would like to ask this question.",
-        "I would like to give a suggestion.",
-        "I would like to know more about this.",
-        "Would you like to sit down?"
+        "am",
+        "will",
+        "would",
+        "should"
       ],
-      "answer": "Would you like to sit down?",
-      "explanation": "Correct translation: \"क्या आप बैठना चाहेंगे?\" = \"Would you like to sit down?\""
+      "answer": "would",
+      "explanation": "'Would like to' is the complete expression. 'Would' is the modal verb used here."
     },
     {
       "id": 11,
-      "type": "fill",
-      "sentence": "I would like _____ say thank you.",
+      "type": "error",
+      "sentence": "I would like to went to the market.",
       "options": [
-        "to"
+        "I would like to went to the market.",
+        "I would like to go to the market."
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"I would like to say thank you.\""
+      "answer": "I would like to go to the market.",
+      "explanation": "After 'would like to', always use BASE VERB. 'Go' not 'went' (past tense)."
     },
     {
       "id": 12,
-      "type": "error",
-      "sentence": "She would like to share her idea yesterday.",
+      "type": "translate",
+      "hindi": "मैं इस company में अपना career build करना चाहूँगा।",
       "options": [
-        "She would like to share her idea yesterday.",
-        "She would like to share her idea."
+        {
+          "english": "I want to build my career here.",
+          "hindi": "मैं यहाँ career बनाना चाहता हूँ."
+        },
+        {
+          "english": "I am building my career here.",
+          "hindi": "मैं यहाँ career बना रहा हूँ."
+        },
+        "I would like to build my career in this company.",
+        {
+          "english": "I built my career here.",
+          "hindi": "मैंने यहाँ career बनाया."
+        }
       ],
-      "answer": "She would like to share her idea.",
-      "explanation": "Correct sentence: \"She would like to share her idea.\""
+      "answer": "I would like to build my career in this company.",
+      "explanation": "'Would like to' for polite/formal expression of desire. Used in interviews."
     },
     {
       "id": 13,
-      "type": "translate",
-      "hindi": "हम इस project पर काम करना चाहेंगे।",
+      "type": "fill",
+      "sentence": "_____ you like to have some coffee?",
       "options": [
-        "Would you like to say something?",
-        "She would like to ask something.",
-        "Would you like to sit down?",
-        "We would like to work on this project."
+        "Do",
+        "Are",
+        "Would",
+        "Should"
       ],
-      "answer": "We would like to work on this project.",
-      "explanation": "Correct translation: \"हम इस project पर काम करना चाहेंगे।\" = \"We would like to work on this project.\""
+      "answer": "Would",
+      "explanation": "Question with 'would like to': Would + subject + like to + base verb?"
     },
     {
       "id": 14,
-      "type": "fill",
-      "sentence": "Would you like _____ drink something?",
+      "type": "error",
+      "sentence": "Do you would like to come to the party?",
       "options": [
-        "to"
+        "Do you would like to come to the party?",
+        "Would you like to come to the party?"
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"Would you like to drink something?\""
+      "answer": "Would you like to come to the party?",
+      "explanation": "Don't use 'Do' with 'would'. Question: Would + subject + like to...? (not Do/Does)"
     },
     {
       "id": 15,
-      "type": "error",
-      "sentence": "I would like to apologize yesterday.",
+      "type": "translate",
+      "hindi": "वे इस meeting को cancel करना नहीं चाहेंगे।",
       "options": [
-        "I would like to apologize yesterday.",
-        "I would like to apologize."
+        "They would not like to cancel this meeting.",
+        {
+          "english": "They did not cancel this meeting.",
+          "hindi": "उन्होंने meeting cancel नहीं की."
+        },
+        {
+          "english": "They cannot cancel this meeting.",
+          "hindi": "वे meeting cancel नहीं कर सकते."
+        },
+        {
+          "english": "They should not cancel this meeting.",
+          "hindi": "उन्हें meeting cancel नहीं करनी चाहिए."
+        }
       ],
-      "answer": "I would like to apologize.",
-      "explanation": "Correct sentence: \"I would like to apologize.\""
+      "answer": "They would not like to cancel this meeting.",
+      "explanation": "Negative: Subject + would not like to + base verb. 'Wouldn't like to' is the contracted form."
     },
     {
       "id": 16,
-      "type": "translate",
-      "hindi": "वे इस topic पर चर्चा करना चाहेंगे।",
+      "type": "fill",
+      "sentence": "She would like to _____ her skills further.",
       "options": [
-        "We would like to finish this soon.",
-        "Would you like to eat something?",
-        "We would like to work on this project.",
-        "They would like to discuss this topic."
+        "developing",
+        "developed",
+        "develops",
+        "develop"
       ],
-      "answer": "They would like to discuss this topic.",
-      "explanation": "Correct translation: \"वे इस topic पर चर्चा करना चाहेंगे।\" = \"They would like to discuss this topic.\""
+      "answer": "develop",
+      "explanation": "BASE VERB after 'would like to'. 'Develop' — no -ing, no -ed, no -s."
     },
     {
       "id": 17,
-      "type": "fill",
-      "sentence": "I would like _____ ask this question.",
+      "type": "translate",
+      "hindi": "क्या आप हमारी नई product try करना चाहेंगे?",
       "options": [
-        "to"
+        {
+          "english": "Do you want to try our product?",
+          "hindi": "क्या आप हमारी product try करना चाहते हैं?"
+        },
+        {
+          "english": "Are you trying our product?",
+          "hindi": "क्या आप हमारी product try कर रहे हैं?"
+        },
+        "Would you like to try our new product?",
+        {
+          "english": "Have you tried our product?",
+          "hindi": "क्या आपने हमारी product try की है?"
+        }
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"I would like to ask this question.\""
+      "answer": "Would you like to try our new product?",
+      "explanation": "Customer service question: Would you like to + base verb?"
     },
     {
       "id": 18,
-      "type": "error",
-      "sentence": "He would like to take a break yesterday.",
+      "type": "fill",
+      "sentence": "I wouldn't like to _____ this opportunity.",
       "options": [
-        "He would like to take a break yesterday.",
-        "He would like to take a break."
+        "missed",
+        "missing",
+        "misses",
+        "miss"
       ],
-      "answer": "He would like to take a break.",
-      "explanation": "Correct sentence: \"He would like to take a break.\""
+      "answer": "miss",
+      "explanation": "After 'wouldn't like to', use BASE VERB. 'Miss' not 'missed/missing/misses'."
     },
     {
       "id": 19,
-      "type": "translate",
-      "hindi": "हम आपकी मदद करना चाहेंगे।",
+      "type": "error",
+      "sentence": "I would like eating pizza for dinner.",
       "options": [
-        "I would like to meet you.",
-        "We would like to take this opportunity.",
-        "They would like to discuss this topic.",
-        "We would like to help you."
+        "I would like eating pizza for dinner.",
+        "I would like to eat pizza for dinner."
       ],
-      "answer": "We would like to help you.",
-      "explanation": "Correct translation: \"हम आपकी मदद करना चाहेंगे।\" = \"We would like to help you.\""
+      "answer": "I would like to eat pizza for dinner.",
+      "explanation": "'Would like to + BASE VERB', not 'would like + gerund (-ing)'. Always 'I would like TO eat.'"
     },
     {
       "id": 20,
-      "type": "fill",
-      "sentence": "Would you like _____ say something?",
+      "type": "translate",
+      "hindi": "मैं अपनी team को motivate करना चाहूँगा।",
       "options": [
-        "to"
+        "I would like to motivate my team.",
+        {
+          "english": "I motivated my team.",
+          "hindi": "मैंने अपनी team को motivate किया."
+        },
+        {
+          "english": "I am motivating my team.",
+          "hindi": "मैं अपनी team को motivate कर रहा हूँ."
+        },
+        {
+          "english": "I must motivate my team.",
+          "hindi": "मुझे अपनी team को motivate करना है."
+        }
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"Would you like to say something?\""
+      "answer": "I would like to motivate my team.",
+      "explanation": "'Would like to' for stating a polite desire/intention."
     },
     {
       "id": 21,
-      "type": "error",
-      "sentence": "I would like to learn this yesterday.",
+      "type": "fill",
+      "sentence": "We would like to _____ you to our annual event.",
       "options": [
-        "I would like to learn this yesterday.",
-        "I would like to learn this."
+        "inviting",
+        "invited",
+        "invites",
+        "invite"
       ],
-      "answer": "I would like to learn this.",
-      "explanation": "Correct sentence: \"I would like to learn this.\""
+      "answer": "invite",
+      "explanation": "BASE VERB after 'would like to'. 'Invite' — base form."
     },
     {
       "id": 22,
-      "type": "translate",
-      "hindi": "वह presentation देना चाहेगी।",
+      "type": "error",
+      "sentence": "Would they likes to join the project?",
       "options": [
-        "They would like to travel.",
-        "She would like to share her idea.",
-        "We would like to help you.",
-        "She would like to give a presentation."
+        "Would they likes to join the project?",
+        "Would they like to join the project?"
       ],
-      "answer": "She would like to give a presentation.",
-      "explanation": "Correct translation: \"वह presentation देना चाहेगी।\" = \"She would like to give a presentation.\""
+      "answer": "Would they like to join the project?",
+      "explanation": "After 'would', always BASE FORM 'like', never 'likes'. Would + subject + like to...?"
     },
     {
       "id": 23,
-      "type": "fill",
-      "sentence": "We would like _____ finish this soon.",
+      "type": "translate",
+      "hindi": "हम आपके business के साथ collaborate करना चाहेंगे।",
       "options": [
-        "to"
+        {
+          "english": "We collaborate with your business.",
+          "hindi": "हम आपके business के साथ collaborate करते हैं."
+        },
+        {
+          "english": "We collaborated with your business.",
+          "hindi": "हमने आपके business के साथ collaborate किया."
+        },
+        "We would like to collaborate with your business.",
+        {
+          "english": "We will collaborate with your business.",
+          "hindi": "हम आपके business के साथ collaborate करेंगे."
+        }
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"We would like to finish this soon.\""
+      "answer": "We would like to collaborate with your business.",
+      "explanation": "Business proposition using polite 'would like to'."
     },
     {
       "id": 24,
-      "type": "error",
-      "sentence": "I would like to give a suggestion yesterday.",
+      "type": "fill",
+      "sentence": "I would like to _____ myself as a quick learner.",
       "options": [
-        "I would like to give a suggestion yesterday.",
-        "I would like to give a suggestion."
+        "describing",
+        "described",
+        "describe",
+        "describes"
       ],
-      "answer": "I would like to give a suggestion.",
-      "explanation": "Correct sentence: \"I would like to give a suggestion.\""
+      "answer": "describe",
+      "explanation": "BASE VERB after 'would like to'. Used in self-introduction during interviews."
+    },
+    {
+      "id": 25,
+      "type": "error",
+      "sentence": "I am liking to go to the conference.",
+      "options": [
+        "I am liking to go to the conference.",
+        "I would like to go to the conference."
+      ],
+      "answer": "I would like to go to the conference.",
+      "explanation": "'Would like to' cannot be expressed as 'am liking to'. It's a fixed modal expression."
+    },
+    {
+      "id": 26,
+      "type": "translate",
+      "hindi": "क्या आप एक नया account खोलना चाहेंगे?",
+      "options": [
+        "Would you like to open a new account?",
+        {
+          "english": "Do you want a new account?",
+          "hindi": "क्या आप नया account चाहते हैं?"
+        },
+        {
+          "english": "Are you opening a new account?",
+          "hindi": "क्या आप नया account खोल रहे हैं?"
+        },
+        {
+          "english": "Did you open a new account?",
+          "hindi": "क्या आपने नया account खोला?"
+        }
+      ],
+      "answer": "Would you like to open a new account?",
+      "explanation": "Formal/customer service question form."
+    },
+    {
+      "id": 27,
+      "type": "fill",
+      "sentence": "He said he would like to _____ the team.",
+      "options": [
+        "leading",
+        "led",
+        "leads",
+        "lead"
+      ],
+      "answer": "lead",
+      "explanation": "Indirect speech: 'would like to + BASE VERB'. 'Lead' — base form."
+    },
+    {
+      "id": 28,
+      "type": "error",
+      "sentence": "She would like to speaks at the conference.",
+      "options": [
+        "She would like to speaks at the conference.",
+        "She would like to speak at the conference."
+      ],
+      "answer": "She would like to speak at the conference.",
+      "explanation": "After 'would like to', use BASE VERB — 'speak', not 'speaks'."
+    },
+    {
+      "id": 29,
+      "type": "translate",
+      "hindi": "मैं अपना परिचय देना चाहूँगा — मेरा नाम अर्जुन है।",
+      "options": [
+        {
+          "english": "Let me introduce — my name is Arjun.",
+          "hindi": "मुझे introduce करने दो — मेरा नाम अर्जुन है."
+        },
+        "I would like to introduce myself — my name is Arjun.",
+        {
+          "english": "I am Arjun and I introduce myself.",
+          "hindi": "मैं अर्जुन हूँ और परिचय देता हूँ."
+        },
+        {
+          "english": "My name is Arjun and I introduced myself.",
+          "hindi": "मेरा नाम अर्जुन है और मैंने खुद को introduce किया."
+        }
+      ],
+      "answer": "I would like to introduce myself — my name is Arjun.",
+      "explanation": "Classic interview opening using 'would like to introduce myself'."
+    },
+    {
+      "id": 30,
+      "type": "fill",
+      "sentence": "Would you like to _____ a tour of our facilities?",
+      "options": [
+        "taking",
+        "takes",
+        "taken",
+        "take"
+      ],
+      "answer": "take",
+      "explanation": "BASE VERB after 'would like to'. 'Take a tour' = standard phrase."
+    },
+    {
+      "id": 31,
+      "type": "error",
+      "sentence": "I would not like to missing this class.",
+      "options": [
+        "I would not like to missing this class.",
+        "I would not like to miss this class."
+      ],
+      "answer": "I would not like to miss this class.",
+      "explanation": "After 'would not like to', use BASE VERB. 'Miss', not 'missing'."
+    },
+    {
+      "id": 32,
+      "type": "translate",
+      "hindi": "वह HR team से बात करना चाहेगा।",
+      "options": [
+        {
+          "english": "He talks to HR.",
+          "hindi": "वह HR से बात करता है."
+        },
+        {
+          "english": "He talked to HR.",
+          "hindi": "वह HR से बात की."
+        },
+        "He would like to speak to the HR team.",
+        {
+          "english": "He will talk to HR.",
+          "hindi": "वह HR से बात करेगा."
+        }
+      ],
+      "answer": "He would like to speak to the HR team.",
+      "explanation": "Polite professional request using 'would like to'."
+    },
+    {
+      "id": 33,
+      "type": "fill",
+      "sentence": "They would like to _____ their business internationally.",
+      "options": [
+        "expands",
+        "expanding",
+        "expanded",
+        "expand"
+      ],
+      "answer": "expand",
+      "explanation": "BASE VERB after 'would like to'. 'Expand' — base form."
+    },
+    {
+      "id": 34,
+      "type": "error",
+      "sentence": "Would you like joining our team?",
+      "options": [
+        "Would you like joining our team?",
+        "Would you like to join our team?"
+      ],
+      "answer": "Would you like to join our team?",
+      "explanation": "'Would you like TO + BASE VERB' — not 'would you like + ing'. Always use 'to' + base verb."
+    },
+    {
+      "id": 35,
+      "type": "translate",
+      "hindi": "मैं इस काम में पूरी तरह प्रतिबद्ध रहना चाहूँगा।",
+      "options": [
+        {
+          "english": "I am committed to this work.",
+          "hindi": "मैं इस काम के प्रति प्रतिबद्ध हूँ."
+        },
+        {
+          "english": "I was committed to this work.",
+          "hindi": "मैं इस काम के प्रति प्रतिबद्ध था."
+        },
+        "I would like to remain fully committed to this work.",
+        {
+          "english": "I should commit to this work.",
+          "hindi": "मुझे इस काम के प्रति प्रतिबद्ध होना चाहिए."
+        }
+      ],
+      "answer": "I would like to remain fully committed to this work.",
+      "explanation": "Advanced use of 'would like to' with an adjective complement — 'remain + adjective'."
     }
   ]
 }

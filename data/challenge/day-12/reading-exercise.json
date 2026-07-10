@@ -2,106 +2,130 @@
   "day": 12,
   "topic": "Use of Wanted",
   "passage": {
-    "title": "A Day with Use of Wanted",
-    "text": "I wanted water. I wanted to go home. He wanted a new car. She wanted to become a doctor. We wanted to take rest. They wanted to finish that work. Did you want tea? I did not want that book. He wanted to talk to me. I wanted some rest.",
-    "hindiTranslation": "मुझे पानी चाहिए था। मैं घर जाना चाहता था। वह एक नई कार चाहता था। वह डॉक्टर बनना चाहती थी। हम आराम करना चाहते थे। वे उस काम को खत्म करना चाहते थे। क्या तुम चाय चाहते थे? मुझे वह किताब नहीं चाहिए थी। वह मुझसे बात करना चाहता था। मुझे कुछ आराम चाहिए था।"
+    "title": "Riya's Big Dream",
+    "text": "Riya always wanted to become a doctor. As a child, she wanted to help sick people and make them healthy again. Her parents wanted her to study hard. Riya did not want to waste any time, so she studied every day. Her brother wanted to become an engineer, but he did not want to work long hours. One day, Riya's father asked, 'Did you want to become a doctor, or did someone pressure you?' Riya smiled and said, 'I just wanted to serve people — that is my true dream.' Her teacher always said she had the focus and dedication needed to succeed. Riya never stopped believing in what she wanted. Today, she is a successful doctor who still remembers what she wanted to achieve.",
+    "hindiTranslation": "Riya हमेशा से doctor बनना चाहती थी। बचपन में, वह बीमार लोगों की मदद करना और उन्हें ठीक करना चाहती थी। उसके माता-पिता चाहते थे कि वह मन लगाकर पढ़े। Riya किसी भी समय को बर्बाद नहीं करना चाहती थी, इसलिए वह रोज़ पढ़ती थी। उसका भाई engineer बनना चाहता था, लेकिन वह लंबे घंटे काम नहीं करना चाहता था। एक दिन Riya के पिता ने पूछा, 'क्या तुम doctor बनना चाहती थी, या किसी ने दबाव डाला?' Riya ने मुस्कुराते हुए कहा, 'मैं बस लोगों की सेवा करना चाहती थी — यही मेरा सच्चा सपना है।' उसकी teacher हमेशा कहती थी कि उसमें सफल होने के लिए ज़रूरी focus और dedication है। Riya ने कभी अपनी चाहत पर भरोसा करना नहीं छोड़ा। आज वह एक सफल doctor है जो अभी भी याद करती है कि वह क्या हासिल करना चाहती थी।"
   },
   "comprehensionQuestions": [
     {
       "id": 1,
-      "question": "What does the passage say about: \"I wanted water....\"?",
+      "question": "What did Riya always want to become?",
       "options": [
-        "I did not want that book.",
-        "They wanted peace.",
-        "I did not want any mistake.",
-        "I wanted water."
+        "An engineer",
+        "A teacher",
+        "A doctor",
+        "A pilot"
       ],
-      "answer": "I wanted water.",
-      "explanation": "Stated in the passage: \"I wanted water.\""
+      "answer": "A doctor",
+      "explanation": "The passage clearly states: 'Riya always wanted to become a doctor.'"
     },
     {
       "id": 2,
-      "question": "What does the passage say about: \"I wanted to go...\"?",
+      "question": "What did Riya want to do for sick people?",
       "options": [
-        "He wanted to talk to me.",
-        "I wanted to finish this work quickly.",
-        "Did you want any help?",
-        "I wanted to go home."
+        "Give them money",
+        "Teach them",
+        "Help them and make them healthy",
+        "Write books for them"
       ],
-      "answer": "I wanted to go home.",
-      "explanation": "Stated in the passage: \"I wanted to go home.\""
+      "answer": "Help them and make them healthy",
+      "explanation": "'She wanted to help sick people and make them healthy again.'"
     },
     {
       "id": 3,
-      "question": "What does the passage say about: \"He wanted a new...\"?",
+      "question": "What did Riya's parents want?",
       "options": [
-        "I wanted some rest.",
-        "He wanted a promotion.",
-        "They wanted success.",
-        "He wanted a new car."
+        "They wanted her to become an engineer.",
+        "They wanted her to study hard.",
+        "They wanted her to take rest.",
+        "They wanted her to travel abroad."
       ],
-      "answer": "He wanted a new car.",
-      "explanation": "Stated in the passage: \"He wanted a new car.\""
+      "answer": "They wanted her to study hard.",
+      "explanation": "'Her parents wanted her to study hard.' — 'wanted + object + to + verb' pattern."
     },
     {
       "id": 4,
-      "question": "What does the passage say about: \"She wanted to become...\"?",
+      "question": "What did Riya NOT want to do?",
       "options": [
-        "Did you want coffee?",
-        "Did you want to go outside?",
-        "I wanted this opportunity.",
-        "She wanted to become a doctor."
+        "Study",
+        "Help people",
+        "Waste time",
+        "Become a doctor"
       ],
-      "answer": "She wanted to become a doctor.",
-      "explanation": "Stated in the passage: \"She wanted to become a doctor.\""
+      "answer": "Waste time",
+      "explanation": "'Riya did not want to waste any time' — past negative form."
     },
     {
       "id": 5,
-      "question": "What does the passage say about: \"We wanted to take...\"?",
+      "question": "What did Riya's brother want to become?",
       "options": [
-        "She wanted to become an engineer.",
-        "We wanted a better future.",
-        "I wanted water.",
-        "We wanted to take rest."
+        "A doctor",
+        "A pilot",
+        "A cricketer",
+        "An engineer"
       ],
-      "answer": "We wanted to take rest.",
-      "explanation": "Stated in the passage: \"We wanted to take rest.\""
+      "answer": "An engineer",
+      "explanation": "'Her brother wanted to become an engineer.'"
     },
     {
       "id": 6,
-      "question": "What does the passage say about: \"They wanted to finish...\"?",
+      "question": "What did Riya's brother NOT want?",
       "options": [
-        "We wanted more information.",
-        "I wanted to know the truth.",
-        "I wanted to go home.",
-        "They wanted to finish that work."
+        "To study",
+        "To work long hours",
+        "To become an engineer",
+        "To meet Riya"
       ],
-      "answer": "They wanted to finish that work.",
-      "explanation": "Stated in the passage: \"They wanted to finish that work.\""
+      "answer": "To work long hours",
+      "explanation": "'He did not want to work long hours.' — negative form of 'wanted to'."
     },
     {
       "id": 7,
-      "question": "What does the passage say about: \"Did you want tea?...\"?",
+      "question": "What question did Riya's father ask her?",
       "options": [
-        "I wanted your help.",
-        "She wanted to start her own business.",
-        "He wanted a new car.",
-        "Did you want tea?"
+        "Did you want to study abroad?",
+        "Did you want to become a doctor, or did someone pressure you?",
+        "Did you want more money?",
+        "Did you want to quit?"
       ],
-      "answer": "Did you want tea?",
-      "explanation": "Stated in the passage: \"Did you want tea?\""
+      "answer": "Did you want to become a doctor, or did someone pressure you?",
+      "explanation": "This is the direct question from the passage showing the question form of 'wanted'."
     },
     {
       "id": 8,
-      "question": "What does the passage say about: \"I did not want...\"?",
+      "question": "What did Riya say she just wanted to do?",
       "options": [
-        "They wanted peace.",
-        "I did not want any mistake.",
-        "She wanted to become a doctor.",
-        "I did not want that book."
+        "Earn money",
+        "Travel the world",
+        "Serve people",
+        "Win an award"
       ],
-      "answer": "I did not want that book.",
-      "explanation": "Stated in the passage: \"I did not want that book.\""
+      "answer": "Serve people",
+      "explanation": "'I just wanted to serve people — that is my true dream.' — polite past expression."
+    },
+    {
+      "id": 9,
+      "question": "Which sentence from the passage uses the 'Subject + wanted + object + to + verb' pattern?",
+      "options": [
+        "Riya wanted to become a doctor.",
+        "Her parents wanted her to study hard.",
+        "She did not want to waste time.",
+        "Did you want to become a doctor?"
+      ],
+      "answer": "Her parents wanted her to study hard.",
+      "explanation": "'Parents wanted HER to study' = Subject + wanted + object + to + verb — advanced pattern."
+    },
+    {
+      "id": 10,
+      "question": "What does the story suggest about Riya's determination?",
+      "options": [
+        "She often gave up on her dreams.",
+        "She never stopped believing in what she wanted.",
+        "She wanted to change her career.",
+        "She wanted someone to help her."
+      ],
+      "answer": "She never stopped believing in what she wanted.",
+      "explanation": "'Riya never stopped believing in what she wanted.' — directly stated in the passage."
     }
   ]
 }

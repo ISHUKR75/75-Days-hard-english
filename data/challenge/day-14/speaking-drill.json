@@ -1,181 +1,269 @@
 {
   "day": 14,
   "topic": "Use of Let's",
-  "totalDrills": 8,
+  "totalDrills": 12,
   "drills": [
     {
       "id": 1,
       "type": "repeat-and-speak",
-      "title": "Use of Let's — Speaking Set 1",
+      "title": "Let's Basic Suggestions — Set 1",
       "sentences": [
         {
-          "english": "Let's start.",
+          "english": "Let's begin.",
           "hindi": "चलो शुरू करते हैं।",
-          "pronunciation": "let's start"
+          "pronunciation": "lets bi-GIN"
+        },
+        {
+          "english": "Let's go to the market.",
+          "hindi": "चलो बाज़ार चलते हैं।",
+          "pronunciation": "lets go to the MAR-kit"
         },
         {
           "english": "Let's eat something.",
           "hindi": "चलो कुछ खाते हैं।",
-          "pronunciation": "let's eat something"
-        },
-        {
-          "english": "Let's go to the park.",
-          "hindi": "चलो पार्क में चलते हैं।",
-          "pronunciation": "let's go to the park"
+          "pronunciation": "lets EET SUM-thing"
         }
       ]
     },
     {
       "id": 2,
       "type": "repeat-and-speak",
-      "title": "Use of Let's — Speaking Set 2",
+      "title": "Let's Daily Life — Set 2",
       "sentences": [
         {
+          "english": "Let's take a break.",
+          "hindi": "चलो थोड़ा आराम करते हैं।",
+          "pronunciation": "lets tayk a brayk"
+        },
+        {
           "english": "Let's watch a movie.",
-          "hindi": "चलो एक फिल्म देखते हैं।",
-          "pronunciation": "let's watch a movie"
+          "hindi": "चलो एक फ़िल्म देखते हैं।",
+          "pronunciation": "lets woch a MOO-vee"
         },
         {
-          "english": "Let's talk about this.",
-          "hindi": "चलो इस पर बात करते हैं।",
-          "pronunciation": "let's talk about this"
-        },
-        {
-          "english": "Let's hurry up.",
-          "hindi": "चलो जल्दी करते हैं।",
-          "pronunciation": "let's hurry up"
+          "english": "Let's study together.",
+          "hindi": "चलो साथ में पढ़ते हैं।",
+          "pronunciation": "lets STUD-ee tuh-GETH-er"
         }
       ]
     },
     {
       "id": 3,
       "type": "repeat-and-speak",
-      "title": "Use of Let's — Speaking Set 3",
+      "title": "Let's Office Phrases — Set 3",
       "sentences": [
         {
-          "english": "Let's not be late.",
-          "hindi": "चलो देर मत करते हैं।",
-          "pronunciation": "let's not be late"
+          "english": "Let's start the meeting.",
+          "hindi": "चलो मीटिंग शुरू करते हैं।",
+          "pronunciation": "lets start the MEE-ting"
         },
         {
-          "english": "Let's study together.",
-          "hindi": "चलो साथ में पढ़ते हैं।",
-          "pronunciation": "let's study together"
+          "english": "Let's look at the data.",
+          "hindi": "चलो data देखते हैं।",
+          "pronunciation": "lets look at the DAY-tuh"
         },
         {
-          "english": "Let's take some rest.",
-          "hindi": "चलो थोड़ा आराम करते हैं।",
-          "pronunciation": "let's take some rest"
+          "english": "Let's set a deadline.",
+          "hindi": "चलो एक deadline तय करते हैं।",
+          "pronunciation": "lets set a DED-lyne"
         }
       ]
     },
     {
       "id": 4,
       "type": "repeat-and-speak",
-      "title": "Use of Let's — Speaking Set 4",
+      "title": "Let's Not — Negative Form — Set 4",
       "sentences": [
         {
-          "english": "Let's start the meeting.",
-          "hindi": "चलो मीटिंग शुरू करते हैं।",
-          "pronunciation": "let's start the meeting"
+          "english": "Let's not waste time.",
+          "hindi": "चलो समय बर्बाद मत करते हैं।",
+          "pronunciation": "lets NOT wayst tym"
         },
         {
-          "english": "Let's work together.",
-          "hindi": "चलो एक साथ काम करते हैं।",
-          "pronunciation": "let's work together"
+          "english": "Let's not argue about this.",
+          "hindi": "चलो इस बारे में बहस मत करते हैं।",
+          "pronunciation": "lets not AR-gyoo uh-BOWT this"
         },
         {
-          "english": "Let's learn something new.",
-          "hindi": "चलो कुछ नया सीखते हैं।",
-          "pronunciation": "let's learn something new"
+          "english": "Let's not miss this opportunity.",
+          "hindi": "चलो इस मौके को जाने मत देते हैं।",
+          "pronunciation": "lets not miss this op-er-TYOO-ni-tee"
         }
       ]
     },
     {
       "id": 5,
       "type": "repeat-and-speak",
-      "title": "Use of Let's — Speaking Set 5",
+      "title": "Formal Let Us — Speeches — Set 5",
       "sentences": [
         {
-          "english": "Let's make a plan.",
-          "hindi": "चलो योजना बनाते हैं।",
-          "pronunciation": "let's make a plan"
+          "english": "Let us build a better tomorrow.",
+          "hindi": "आइए एक बेहतर कल बनाएं।",
+          "pronunciation": "let us bild a BET-er tuh-MOR-oh"
         },
         {
-          "english": "Let's go for a walk.",
-          "hindi": "चलो घूमने चलते हैं।",
-          "pronunciation": "let's go for a walk"
+          "english": "Let us all face this challenge together.",
+          "hindi": "आइए हम सब मिलकर इस चुनौती का सामना करें।",
+          "pronunciation": "let us awl fays this CHAL-inj tuh-GETH-er"
         },
         {
-          "english": "Let's solve this problem.",
-          "hindi": "चलो इस समस्या को हल करते हैं।",
-          "pronunciation": "let's solve this problem"
+          "english": "Let us make this meeting meaningful.",
+          "hindi": "आइए इस बैठक को सार्थक बनाएं।",
+          "pronunciation": "let us mayk this MEE-ting MEEN-ing-ful"
         }
       ]
     },
     {
       "id": 6,
       "type": "repeat-and-speak",
-      "title": "Use of Let's — Speaking Set 6",
+      "title": "Let's Professional — Set 6",
       "sentences": [
         {
-          "english": "Let's meet tomorrow.",
-          "hindi": "चलो कल मिलते हैं।",
-          "pronunciation": "let's meet tomorrow"
+          "english": "Let's collaborate on this project.",
+          "hindi": "चलो इस project पर मिलकर काम करते हैं।",
+          "pronunciation": "lets kuh-LAB-uh-rayt on this PROJ-ekt"
         },
         {
-          "english": "Let's have tea.",
-          "hindi": "चलो चाय पीते हैं।",
-          "pronunciation": "let's have tea"
+          "english": "Let's prioritize our tasks.",
+          "hindi": "चलो अपने tasks को priority दें।",
+          "pronunciation": "lets pry-OR-i-tyz our tasks"
         },
         {
-          "english": "Let's not decide right now.",
-          "hindi": "चलो अभी फैसला ना करें।",
-          "pronunciation": "let's not decide right now"
+          "english": "Let's review our goals.",
+          "hindi": "चलो अपने goals review करते हैं।",
+          "pronunciation": "lets ri-VYOO our golz"
         }
       ]
     },
     {
       "id": 7,
       "type": "repeat-and-speak",
-      "title": "Use of Let's — Speaking Set 7",
+      "title": "Let's Motivational — Set 7",
       "sentences": [
         {
-          "english": "Let's go home.",
-          "hindi": "चलो घर चलते हैं।",
-          "pronunciation": "let's go home"
+          "english": "Let's give it our best shot!",
+          "hindi": "चलो अपनी पूरी कोशिश करते हैं!",
+          "pronunciation": "lets giv it our best shot"
         },
         {
-          "english": "Let's speak the truth.",
-          "hindi": "चलो सच बोलते हैं।",
-          "pronunciation": "let's speak the truth"
+          "english": "Let's make a fresh start.",
+          "hindi": "चलो एक नई शुरुआत करते हैं।",
+          "pronunciation": "lets mayk a fresh start"
         },
         {
-          "english": "Let's not fight now.",
-          "hindi": "चलो अभी झगड़ा ना करें।",
-          "pronunciation": "let's not fight now"
+          "english": "Let's inspire each other.",
+          "hindi": "चलो एक दूसरे को inspire करते हैं।",
+          "pronunciation": "lets in-SPY-er EE-choth-er"
         }
       ]
     },
     {
       "id": 8,
       "type": "repeat-and-speak",
-      "title": "Use of Let's — Speaking Set 8",
+      "title": "Let's Not — More Negatives — Set 8",
       "sentences": [
         {
-          "english": "Let's practice.",
-          "hindi": "चलो practice करते हैं।",
-          "pronunciation": "let's practice"
+          "english": "Let's not rush this decision.",
+          "hindi": "चलो यह decision जल्दबाज़ी में मत करते हैं।",
+          "pronunciation": "lets not rush this di-SI-zhun"
         },
         {
-          "english": "Let's think positive.",
-          "hindi": "चलो positive सोचते हैं।",
-          "pronunciation": "let's think positive"
+          "english": "Let's not ignore this issue.",
+          "hindi": "चलो इस issue को ignore मत करते हैं।",
+          "pronunciation": "lets not ig-NOR this ISH-yoo"
         },
         {
-          "english": "Let's help each other.",
-          "hindi": "चलो एक दूसरे की मदद करते हैं।",
-          "pronunciation": "let's help each other"
+          "english": "Let's not interrupt anyone.",
+          "hindi": "चलो किसी की बात बीच में मत काटते हैं।",
+          "pronunciation": "lets not in-tuh-RUPT EN-ee-wun"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "repeat-and-speak",
+      "title": "Let's Advanced — Set 9",
+      "sentences": [
+        {
+          "english": "Let's wrap up this presentation.",
+          "hindi": "चलो यह प्रेज़ेंटेशन समाप्त करते हैं।",
+          "pronunciation": "lets rap up this prez-en-TAY-shun"
+        },
+        {
+          "english": "Let's adopt a proactive approach.",
+          "hindi": "चलो एक proactive approach अपनाते हैं।",
+          "pronunciation": "lets uh-DOPT a pro-AK-tiv uh-PROCH"
+        },
+        {
+          "english": "Let's maintain transparency and accountability.",
+          "hindi": "चलो transparency और accountability maintain करते हैं।",
+          "pronunciation": "lets mayn-TAYN trans-PAIR-un-see and uh-kown-tuh-BIL-i-tee"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "repeat-and-speak",
+      "title": "Let's Social & Casual — Set 10",
+      "sentences": [
+        {
+          "english": "Let's celebrate together!",
+          "hindi": "चलो साथ में celebrate करते हैं!",
+          "pronunciation": "lets SEL-uh-brayt tuh-GETH-er"
+        },
+        {
+          "english": "Let's catch up soon!",
+          "hindi": "चलो जल्द मिलते हैं!",
+          "pronunciation": "lets kach up soon"
+        },
+        {
+          "english": "Let's have a party tonight.",
+          "hindi": "चलो आज रात पार्टी करते हैं।",
+          "pronunciation": "lets hav a PAR-tee tuh-NYT"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "repeat-and-speak",
+      "title": "Let's vs Let him/her — Contrast — Set 11",
+      "sentences": [
+        {
+          "english": "Let's decide together.",
+          "hindi": "चलो मिलकर decide करते हैं।",
+          "pronunciation": "lets di-SYD tuh-GETH-er"
+        },
+        {
+          "english": "Let him decide on his own.",
+          "hindi": "उसे खुद decide करने दो।",
+          "pronunciation": "let him di-SYD on his own"
+        },
+        {
+          "english": "Let's stay here.",
+          "hindi": "चलो यहाँ रुकते हैं।",
+          "pronunciation": "lets stay heer"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "repeat-and-speak",
+      "title": "Let's Formal Mix — Set 12",
+      "sentences": [
+        {
+          "english": "Let us consider this carefully.",
+          "hindi": "आइए इस पर ध्यान से विचार करें।",
+          "pronunciation": "let us kun-SID-er this KAYR-ful-ee"
+        },
+        {
+          "english": "Let us commit to excellence.",
+          "hindi": "आइए हम उत्कृष्टता के प्रति प्रतिबद्ध हों।",
+          "pronunciation": "let us kuh-MIT to EK-suh-luns"
+        },
+        {
+          "english": "Let us make the most of this opportunity.",
+          "hindi": "आइए इस अवसर का सदुपयोग करें।",
+          "pronunciation": "let us mayk the most of this op-er-TYOO-ni-tee"
         }
       ]
     }

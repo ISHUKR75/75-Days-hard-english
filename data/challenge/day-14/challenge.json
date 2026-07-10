@@ -1,13 +1,15 @@
 {
   "day": 14,
   "topic": "Use of Let's",
-  "challengeTask": "Use at least 10 sentences with Use of Let's in a real conversation or diary entry today.",
-  "hindiTask": "आज Use of Let's का उपयोग करते हुए कम से कम 10 वाक्य किसी असली बातचीत या डायरी में लिखें।",
+  "challengeTask": "Use 'Let's', 'Let's not', and 'Let us' in real conversations today — at home, with friends, or at work. Write down at least 10 sentences you actually said or heard.",
+  "hindiTask": "आज 'Let's', 'Let's not', और 'Let us' का असली बातचीत में उपयोग करें — घर पर, दोस्तों के साथ, या office में। कम से कम 10 sentences लिखें जो आपने बोले या सुने।",
   "successCriteria": [
-    "All 10 sentences are grammatically correct",
-    "Use of Let's rule applied correctly in every sentence",
-    "No spelling mistakes"
+    "At least 5 sentences use 'Let's + base verb' correctly",
+    "At least 2 sentences use 'Let's not + base verb' (negative form)",
+    "At least 1 sentence uses the formal 'Let us'",
+    "No sentence has 'Let's to...', 'Let's don't...', or 'Let's + ing form'",
+    "All sentences are real, natural, contextually appropriate"
   ],
-  "bonusChallenge": "Record yourself speaking 5 of these sentences and check your pronunciation.",
+  "bonusChallenge": "Record yourself speaking 5 of these sentences and share with a study partner. Check if you're using the correct base verb forms.",
   "xpReward": 50
 }

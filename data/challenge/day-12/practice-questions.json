@@ -1,357 +1,1683 @@
 {
   "day": 12,
   "topic": "Use of Wanted",
-  "totalQuestions": 25,
+  "totalQuestions": 93,
+  "instructions": "नीचे दिए गए Hindi sentences को English में translate करें। 'Wanted' के past tense structure को ध्यान से use करें।",
+  "categories": [
+    "Positive Statement",
+    "Noun Object",
+    "Negative",
+    "Question",
+    "Aspiration",
+    "Career",
+    "Office",
+    "Business",
+    "Professional",
+    "Interview",
+    "Unfulfilled Desire",
+    "Indirect Speech",
+    "Polite Expression",
+    "Advanced Pattern",
+    "Complex Sentence",
+    "Conditional",
+    "Idiomatic"
+  ],
   "questions": [
     {
       "id": 1,
-      "hindi": "मुझे पानी चाहिए था।",
-      "english": "I wanted water.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I wanted water.\"",
+      "hindi": "मैं पानी पीना चाहता था।",
+      "english": "I wanted to drink water.",
+      "alternatives": [
+        "i wanted to drink water."
+      ],
+      "hint": "I + wanted + to + base verb",
+      "explanation": "'Wanted' is past tense of 'want'. All subjects use the same form: I wanted.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "statement",
+        "daily-life",
+        "positive"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Positive Statement"
     },
     {
       "id": 2,
-      "hindi": "मैं घर जाना चाहता था।",
-      "english": "I wanted to go home.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I wanted to go home.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "वह घर जाना चाहता था।",
+      "english": "He wanted to go home.",
+      "alternatives": [
+        "he wanted to go home."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "He + wanted + to + go",
+      "explanation": "'He wanted to go' — 'to' is necessary between 'wanted' and the verb.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Positive Statement"
     },
     {
       "id": 3,
-      "hindi": "वह एक नई कार चाहता था।",
-      "english": "He wanted a new car.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"He wanted a new car.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "वह डॉक्टर बनना चाहती थी।",
+      "english": "She wanted to become a doctor.",
+      "alternatives": [
+        "she wanted to become a doctor."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "She + wanted + to + become",
+      "explanation": "'Become' is the base form. She wanted to become = वह बनना चाहती थी।",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "aspiration",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Positive Statement"
     },
     {
       "id": 4,
-      "hindi": "वह डॉक्टर बनना चाहती थी।",
-      "english": "She wanted to become a doctor.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"She wanted to become a doctor.\"",
+      "hindi": "हम बाहर जाना चाहते थे।",
+      "english": "We wanted to go outside.",
+      "alternatives": [
+        "we wanted to go out.",
+        "we wanted to go outdoors."
+      ],
+      "hint": "We + wanted + to + go",
+      "explanation": "'Wanted' is same for We. 'Outside/out/outdoors' are all acceptable.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "statement",
+        "daily-life",
+        "positive"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Positive Statement"
     },
     {
       "id": 5,
-      "hindi": "हम आराम करना चाहते थे।",
-      "english": "We wanted to take rest.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"We wanted to take rest.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "वे खाना खाना चाहते थे।",
+      "english": "They wanted to eat food.",
+      "alternatives": [
+        "they wanted to eat."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "They + wanted + to + eat",
+      "explanation": "'They wanted to eat' — standard structure.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Positive Statement"
     },
     {
       "id": 6,
-      "hindi": "वे उस काम को खत्म करना चाहते थे।",
-      "english": "They wanted to finish that work.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"They wanted to finish that work.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "बच्चा आइसक्रीम चाहता था।",
+      "english": "The child wanted ice cream.",
+      "alternatives": [
+        "the child wanted ice-cream."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "Subject + wanted + noun (no 'to')",
+      "explanation": "'Ice cream' is a noun here, so no 'to + verb'. The child wanted ice cream.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun",
+      "category": "Noun Object"
     },
     {
       "id": 7,
-      "hindi": "क्या तुम चाय चाहते थे?",
-      "english": "Did you want tea?",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"Did you want tea?\"",
+      "hindi": "मुझे आराम चाहिए था।",
+      "english": "I wanted rest.",
+      "alternatives": [
+        "i wanted some rest.",
+        "i wanted a rest."
+      ],
+      "hint": "I + wanted + noun",
+      "explanation": "'Rest' is a noun. No 'to + verb' needed.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "statement",
+        "daily-life",
+        "noun-object"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Subject + wanted + noun",
+      "category": "Noun Object"
     },
     {
       "id": 8,
-      "hindi": "मुझे वह किताब नहीं चाहिए थी।",
-      "english": "I did not want that book.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I did not want that book.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "उसे एक नई किताब चाहिए थी।",
+      "english": "She wanted a new book.",
+      "alternatives": [
+        "she wanted a new book."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "She + wanted + a + adjective + noun",
+      "explanation": "'A new book' is a noun phrase. No verb needed after 'wanted'.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun phrase",
+      "category": "Noun Object"
     },
     {
       "id": 9,
-      "hindi": "वह मुझसे बात करना चाहता था।",
-      "english": "He wanted to talk to me.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"He wanted to talk to me.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "मैं English सीखना चाहता था।",
+      "english": "I wanted to learn English.",
+      "alternatives": [
+        "i wanted to learn english."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "I + wanted + to + learn",
+      "explanation": "'Wanted to learn' — very common structure for skill acquisition desire.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "aspiration",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Positive Statement"
     },
     {
       "id": 10,
-      "hindi": "मुझे कुछ आराम चाहिए था।",
-      "english": "I wanted some rest.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I wanted some rest.\"",
+      "hindi": "वह अपना business शुरू करना चाहता था।",
+      "english": "He wanted to start his own business.",
+      "alternatives": [
+        "he wanted to start his own business."
+      ],
+      "hint": "He + wanted + to + start",
+      "explanation": "'Start his own business' — 'his own' shows possession.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "statement",
+        "business",
+        "positive"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Positive Statement"
     },
     {
       "id": 11,
-      "hindi": "क्या आप कॉफी चाहते थे?",
-      "english": "Did you want coffee?",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"Did you want coffee?\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "आप कुछ कहना चाहते थे।",
+      "english": "You wanted to say something.",
+      "alternatives": [
+        "you wanted to say something."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "You + wanted + to + say",
+      "explanation": "'You wanted' — same form. 'Something' is the object.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Positive Statement"
     },
     {
       "id": 12,
-      "hindi": "वह इंजीनियर बनना चाहती थी।",
-      "english": "She wanted to become an engineer.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"She wanted to become an engineer.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "वे शांति चाहते थे।",
+      "english": "They wanted peace.",
+      "alternatives": [
+        "they wanted peace."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "They + wanted + noun",
+      "explanation": "'Peace' is a noun. Direct object after 'wanted'.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun",
+      "category": "Noun Object"
     },
     {
       "id": 13,
-      "hindi": "हमें और जानकारी चाहिए थी।",
-      "english": "We wanted more information.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"We wanted more information.\"",
+      "hindi": "मुझे तुम्हारी मदद चाहिए थी।",
+      "english": "I wanted your help.",
+      "alternatives": [
+        "i wanted your help.",
+        "i needed your help."
+      ],
+      "hint": "I + wanted + possessive + noun",
+      "explanation": "'Your help' = possessive noun phrase.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "statement",
+        "daily-life",
+        "noun-object"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Subject + wanted + noun",
+      "category": "Noun Object"
     },
     {
       "id": 14,
-      "hindi": "मैं तुम्हारी मदद चाहता था।",
-      "english": "I wanted your help.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I wanted your help.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "वह promotion चाहता था।",
+      "english": "He wanted a promotion.",
+      "alternatives": [
+        "he wanted promotion."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "He + wanted + noun",
+      "explanation": "'A promotion' — article + noun. Both 'a promotion' and 'promotion' are acceptable.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "office",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun",
+      "category": "Noun Object"
     },
     {
       "id": 15,
-      "hindi": "वे शांति चाहते थे।",
-      "english": "They wanted peace.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"They wanted peace.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "हमें और जानकारी चाहिए थी।",
+      "english": "We wanted more information.",
+      "alternatives": [
+        "we wanted more information."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "We + wanted + quantifier + noun",
+      "explanation": "'More information' = quantifier + noun. No article needed for uncountable nouns.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "office",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun",
+      "category": "Noun Object"
     },
     {
       "id": 16,
-      "hindi": "मैं इस काम को जल्दी खत्म करना चाहता था।",
-      "english": "I wanted to finish this work quickly.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I wanted to finish this work quickly.\"",
-      "difficulty": "easy",
-      "tags": [
-        "use"
+      "hindi": "मैं वहाँ नहीं जाना चाहता था।",
+      "english": "I did not want to go there.",
+      "alternatives": [
+        "i didn't want to go there.",
+        "i did not want to go there."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "Subject + did not want + to + verb",
+      "explanation": "Negative: 'did not want' (NOT 'did not wanted').",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
     },
     {
       "id": 17,
-      "hindi": "वह promotion चाहता था।",
-      "english": "He wanted a promotion.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"He wanted a promotion.\"",
+      "hindi": "उसे वह किताब नहीं चाहिए थी।",
+      "english": "She did not want that book.",
+      "alternatives": [
+        "she didn't want that book.",
+        "she did not want that book."
+      ],
+      "hint": "She + did not want + noun",
+      "explanation": "Negative with noun object: 'did not want' + noun.",
       "difficulty": "medium",
       "tags": [
-        "use"
+        "negative",
+        "daily-life"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Subject + did not want + noun",
+      "category": "Negative"
     },
     {
       "id": 18,
-      "hindi": "क्या तुम बाहर जाना चाहते थे?",
-      "english": "Did you want to go outside?",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"Did you want to go outside?\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "हम उस meeting में नहीं जाना चाहते थे।",
+      "english": "We did not want to go to that meeting.",
+      "alternatives": [
+        "we didn't want to go to that meeting."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "We + did not want + to + go",
+      "explanation": "'Did not want to go' = नहीं जाना चाहते थे।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "office"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
     },
     {
       "id": 19,
-      "hindi": "हम बेहतर भविष्य चाहते थे।",
-      "english": "We wanted a better future.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"We wanted a better future.\"",
-      "difficulty": "easy",
-      "tags": [
-        "use"
+      "hindi": "वह उस offer को accept नहीं करना चाहता था।",
+      "english": "He did not want to accept that offer.",
+      "alternatives": [
+        "he didn't want to accept that offer."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "He + did not want + to + accept",
+      "explanation": "'Accept' stays in base form after 'want to'.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "business"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
     },
     {
       "id": 20,
-      "hindi": "मैं सच जानना चाहता था।",
-      "english": "I wanted to know the truth.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I wanted to know the truth.\"",
+      "hindi": "मुझे कोई गलती नहीं चाहिए थी।",
+      "english": "I did not want any mistake.",
+      "alternatives": [
+        "i didn't want any mistake.",
+        "i did not want any mistakes."
+      ],
+      "hint": "I + did not want + any + noun",
+      "explanation": "'Any mistake' is used in negative sentences. Also acceptable: 'any mistakes'.",
       "difficulty": "medium",
       "tags": [
-        "use"
+        "negative",
+        "daily-life"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Subject + did not want + noun",
+      "category": "Negative"
     },
     {
       "id": 21,
-      "hindi": "वह अपना व्यवसाय शुरू करना चाहती थी।",
-      "english": "She wanted to start her own business.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"She wanted to start her own business.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "उसने माफ़ी नहीं माँगनी चाही।",
+      "english": "She did not want to apologize.",
+      "alternatives": [
+        "she didn't want to apologize."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "She + did not want + to + verb",
+      "explanation": "'Apologize' is the base verb. Negative past with 'did not want'.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
     },
     {
       "id": 22,
-      "hindi": "मुझे कोई गलती नहीं चाहिए थी।",
-      "english": "I did not want any mistake.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I did not want any mistake.\"",
-      "difficulty": "easy",
-      "tags": [
-        "use"
+      "hindi": "बच्चे पार्क नहीं जाना चाहते थे।",
+      "english": "The children did not want to go to the park.",
+      "alternatives": [
+        "the children didn't want to go to the park."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "The children + did not want + to + go",
+      "explanation": "'The children' = plural subject. 'Did not want' is same for all.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
     },
     {
       "id": 23,
-      "hindi": "क्या तुम्हें मदद चाहिए थी?",
-      "english": "Did you want any help?",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"Did you want any help?\"",
+      "hindi": "Team को और training नहीं चाहिए थी।",
+      "english": "The team did not want more training.",
+      "alternatives": [
+        "the team didn't want more training."
+      ],
+      "hint": "Subject + did not want + noun phrase",
+      "explanation": "'More training' is a noun phrase used as object.",
       "difficulty": "medium",
       "tags": [
-        "use"
+        "negative",
+        "office"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Subject + did not want + noun",
+      "category": "Negative"
     },
     {
       "id": 24,
-      "hindi": "वे सफलता चाहते थे।",
-      "english": "They wanted success.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"They wanted success.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "मैं उससे उस विषय पर बात नहीं करना चाहता था।",
+      "english": "I did not want to talk to him about that topic.",
+      "alternatives": [
+        "i didn't want to talk to him about that topic."
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "hint": "I + did not want + to + talk + to + him",
+      "explanation": "'Talk to him' = preposition phrase. Long negative sentence.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
     },
     {
       "id": 25,
-      "hindi": "मुझे यह मौका चाहिए था।",
-      "english": "I wanted this opportunity.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "explanation": "Correct sentence: \"I wanted this opportunity.\"",
+      "hindi": "उसे extra time नहीं चाहिए था।",
+      "english": "She did not want extra time.",
+      "alternatives": [
+        "she didn't want extra time."
+      ],
+      "hint": "She + did not want + noun phrase",
+      "explanation": "'Extra time' = adjective + noun. No article needed.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "office"
+      ],
+      "grammarRule": "Subject + did not want + noun",
+      "category": "Negative"
+    },
+    {
+      "id": 26,
+      "hindi": "वे उस project में शामिल नहीं होना चाहते थे।",
+      "english": "They did not want to join that project.",
+      "alternatives": [
+        "they didn't want to join that project."
+      ],
+      "hint": "They + did not want + to + join",
+      "explanation": "'Join' = base verb. Past negative with 'did not want'.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "office"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
+    },
+    {
+      "id": 27,
+      "hindi": "क्या तुम चाय पीना चाहते थे?",
+      "english": "Did you want to drink tea?",
+      "alternatives": [
+        "did you want tea?"
+      ],
+      "hint": "Did + you + want + to + verb?",
+      "explanation": "Question form: 'Did' at start, 'want' in base form (NOT 'wanted').",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 28,
+      "hindi": "क्या उसे मदद चाहिए थी?",
+      "english": "Did she want any help?",
+      "alternatives": [
+        "did she want help?",
+        "did she want some help?"
+      ],
+      "hint": "Did + she + want + noun?",
+      "explanation": "Questions with noun object. 'Any/some/help' all acceptable.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Did + subject + want + noun?",
+      "category": "Question"
+    },
+    {
+      "id": 29,
+      "hindi": "क्या वह वहाँ जाना चाहता था?",
+      "english": "Did he want to go there?",
+      "alternatives": [
+        "did he want to go there?"
+      ],
+      "hint": "Did + he + want + to + go?",
+      "explanation": "'Did he want' — NOT 'did he wanted'. Common mistake to avoid.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 30,
+      "hindi": "क्या आप report submit करना चाहते थे?",
+      "english": "Did you want to submit the report?",
+      "alternatives": [
+        "did you want to submit the report?"
+      ],
+      "hint": "Did + you + want + to + submit?",
+      "explanation": "Professional question using 'Did you want to + verb'.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 31,
+      "hindi": "क्या वे उस party में जाना चाहते थे?",
+      "english": "Did they want to go to that party?",
+      "alternatives": [
+        "did they want to go to the party?"
+      ],
+      "hint": "Did + they + want + to + go?",
+      "explanation": "'They' uses same 'want' form. 'That/the' both acceptable.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 32,
+      "hindi": "क्या manager ने meeting जल्दी खत्म करनी चाही?",
+      "english": "Did the manager want to end the meeting early?",
+      "alternatives": [
+        "did the manager want to finish the meeting early?"
+      ],
+      "hint": "Did + the manager + want + to + end?",
+      "explanation": "'End/finish' both work. Article 'the' needed for manager.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 33,
+      "hindi": "क्या client को पूरी जानकारी चाहिए थी?",
+      "english": "Did the client want complete information?",
+      "alternatives": [
+        "did the client want full information?"
+      ],
+      "hint": "Did + the client + want + noun phrase?",
+      "explanation": "'Complete/full' both acceptable as adjective.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "business"
+      ],
+      "grammarRule": "Did + subject + want + noun?",
+      "category": "Question"
+    },
+    {
+      "id": 34,
+      "hindi": "मैं इस मामले पर आपसे बात करना चाहता था।",
+      "english": "I wanted to discuss this matter with you.",
+      "alternatives": [
+        "i wanted to talk about this matter with you."
+      ],
+      "hint": "I + wanted + to + discuss",
+      "explanation": "'Discuss' = polite professional verb. Also 'talk about' is acceptable.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "office",
+        "professional"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Professional"
+    },
+    {
+      "id": 35,
+      "hindi": "वह हमेशा से pilot बनना चाहता था।",
+      "english": "He always wanted to become a pilot.",
+      "alternatives": [
+        "he had always wanted to become a pilot."
+      ],
+      "hint": "He + always + wanted + to + become",
+      "explanation": "'Always wanted' — 'always' placed before 'wanted' for emphasis.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "aspiration",
+        "positive"
+      ],
+      "grammarRule": "Subject + always + wanted + to + verb",
+      "category": "Aspiration"
+    },
+    {
+      "id": 36,
+      "hindi": "मैं बस शुक्रिया कहना चाहता था।",
+      "english": "I just wanted to say thank you.",
+      "alternatives": [
+        "i just wanted to thank you."
+      ],
+      "hint": "I + just + wanted + to + say",
+      "explanation": "'Just wanted to say' is a very polite spoken/written expression.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "formal",
+        "polite"
+      ],
+      "grammarRule": "Subject + just + wanted + to + verb",
+      "category": "Polite Expression"
+    },
+    {
+      "id": 37,
+      "hindi": "उसने कहा कि वह मुझसे मिलना चाहती थी।",
+      "english": "She said she wanted to meet me.",
+      "alternatives": [
+        "she said that she wanted to meet me."
+      ],
+      "hint": "Indirect speech: She said she wanted to...",
+      "explanation": "Indirect speech: 'wants' becomes 'wanted' in reported speech.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "indirect-speech"
+      ],
+      "grammarRule": "Subject + said + (that) + subject + wanted + to + verb",
+      "category": "Indirect Speech"
+    },
+    {
+      "id": 38,
+      "hindi": "Client एक detailed proposal चाहता था।",
+      "english": "The client wanted a detailed proposal.",
+      "alternatives": [
+        "the client wanted a detailed proposal."
+      ],
+      "hint": "The client + wanted + noun phrase",
+      "explanation": "'A detailed proposal' = article + adjective + noun.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "business",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun phrase",
+      "category": "Business"
+    },
+    {
+      "id": 39,
+      "hindi": "मैं अपनी पुरानी नौकरी छोड़ना चाहता था।",
+      "english": "I wanted to leave my old job.",
+      "alternatives": [
+        "i wanted to quit my old job."
+      ],
+      "hint": "I + wanted + to + leave",
+      "explanation": "'Leave/quit' — both acceptable. 'My old job' = possessive + adjective + noun.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "career",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Career"
+    },
+    {
+      "id": 40,
+      "hindi": "वह एक बेहतर वेतन चाहती थी।",
+      "english": "She wanted a better salary.",
+      "alternatives": [
+        "she wanted a higher salary."
+      ],
+      "hint": "She + wanted + adjective + noun",
+      "explanation": "'Better/higher salary' — both adjectives acceptable.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "office",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun phrase",
+      "category": "Office"
+    },
+    {
+      "id": 41,
+      "hindi": "हम मिलकर इस problem को solve करना चाहते थे।",
+      "english": "We wanted to solve this problem together.",
+      "alternatives": [
+        "we wanted to solve the problem together."
+      ],
+      "hint": "We + wanted + to + solve",
+      "explanation": "'Together' adds emphasis on collaboration.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "office",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Office"
+    },
+    {
+      "id": 42,
+      "hindi": "मैं तुम्हें call करना चाहता था पर busy था।",
+      "english": "I wanted to call you but I was busy.",
+      "alternatives": [
+        "i wanted to call you but was busy."
+      ],
+      "hint": "I + wanted + to + call + but + I + was + busy",
+      "explanation": "'But' connects two past situations. 'Wanted to but couldn't' = unfulfilled desire.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "daily-life",
+        "unfulfilled"
+      ],
+      "grammarRule": "Subject + wanted + to + verb + but + past situation",
+      "category": "Unfulfilled Desire"
+    },
+    {
+      "id": 43,
+      "hindi": "वह उस दिन घर जल्दी जाना चाहती थी।",
+      "english": "She wanted to go home early that day.",
+      "alternatives": [
+        "she wanted to go home early on that day."
+      ],
+      "hint": "She + wanted + to + go + home + early",
+      "explanation": "'That day' indicates a specific past day.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "daily-life",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 44,
+      "hindi": "बचपन में मैं astronaut बनना चाहता था।",
+      "english": "As a child, I wanted to become an astronaut.",
+      "alternatives": [
+        "in childhood, i wanted to become an astronaut."
+      ],
+      "hint": "As a child + I + wanted + to + become",
+      "explanation": "'As a child' = time phrase at beginning. 'An astronaut' uses 'an' before vowel sound.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "aspiration",
+        "positive"
+      ],
+      "grammarRule": "Time phrase + subject + wanted + to + verb",
+      "category": "Aspiration"
+    },
+    {
+      "id": 45,
+      "hindi": "मैं इस field में हमेशा से काम करना चाहता था, इसीलिए मैंने यह course किया।",
+      "english": "I always wanted to work in this field, which is why I did this course.",
+      "alternatives": [
+        "i always wanted to work in this field, so i took this course."
+      ],
+      "hint": "I + always + wanted + to + work + complex sentence",
+      "explanation": "Complex sentence: 'wanted to' + reason clause. 'Which is why' = formal connector.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "complex-sentence",
+        "aspiration"
+      ],
+      "grammarRule": "Subject + always + wanted + to + verb + reason clause",
+      "category": "Complex Sentence"
+    },
+    {
+      "id": 46,
+      "hindi": "यदि मुझे पता होता, तो मैं वहाँ जाना नहीं चाहता था।",
+      "english": "If I had known, I would not have wanted to go there.",
+      "alternatives": [
+        "if i had known, i wouldn't have wanted to go there."
+      ],
+      "hint": "Conditional: If I had known... would not have wanted",
+      "explanation": "Third conditional: 'If had known + would not have wanted to'. This is advanced.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "conditional",
+        "complex"
+      ],
+      "grammarRule": "If + past perfect + would not have wanted + to + verb",
+      "category": "Conditional"
+    },
+    {
+      "id": 47,
+      "hindi": "उन्होंने कहा कि वे project को जल्दी खत्म करना चाहते थे, लेकिन resources नहीं थे।",
+      "english": "They said they wanted to finish the project quickly, but they did not have resources.",
+      "alternatives": [
+        "they said they wanted to complete the project quickly, but they lacked resources."
+      ],
+      "hint": "They said they wanted + but + past problem",
+      "explanation": "Indirect speech + unfulfilled desire. 'Did not have' = past negative of 'have'.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "complex-sentence",
+        "office"
+      ],
+      "grammarRule": "Subject + said + wanted + to + verb + but + obstacle",
+      "category": "Complex Sentence"
+    },
+    {
+      "id": 48,
+      "hindi": "Manager ने पूछा कि क्या हम overtime करना चाहते थे।",
+      "english": "The manager asked if we wanted to do overtime.",
+      "alternatives": [
+        "the manager asked whether we wanted to do overtime."
+      ],
+      "hint": "Indirect question: asked if we wanted to...",
+      "explanation": "Indirect question: 'if/whether we wanted to' — embedded question structure.",
+      "difficulty": "hard",
+      "tags": [
+        "question",
+        "indirect-speech",
+        "office"
+      ],
+      "grammarRule": "Subject + asked + if/whether + subject + wanted + to + verb",
+      "category": "Indirect Speech"
+    },
+    {
+      "id": 49,
+      "hindi": "हम सब चाहते थे कि company नए markets में जाए।",
+      "english": "We all wanted the company to enter new markets.",
+      "alternatives": [
+        "we all wanted the company to expand into new markets."
+      ],
+      "hint": "We + wanted + the company + to + enter",
+      "explanation": "'Wanted someone to do something' = Subject + wanted + object + to + verb. Advanced pattern.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "business",
+        "advanced"
+      ],
+      "grammarRule": "Subject + wanted + object + to + verb",
+      "category": "Advanced Pattern"
+    },
+    {
+      "id": 50,
+      "hindi": "उसे नहीं पता था कि वह क्या चाहती थी।",
+      "english": "She did not know what she wanted.",
+      "alternatives": [
+        "she didn't know what she wanted."
+      ],
+      "hint": "She + did not know + what + she + wanted",
+      "explanation": "Embedded question: 'what she wanted' — no 'to' because 'wanted' is the main verb here.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "complex",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not know + what + subject + wanted",
+      "category": "Complex Sentence"
+    },
+    {
+      "id": 51,
+      "hindi": "क्या आप सच में उस नौकरी को छोड़ना चाहते थे, या सिर्फ break चाहिए था?",
+      "english": "Did you really want to quit that job, or did you just want a break?",
+      "alternatives": [
+        "did you really want to leave that job, or did you just need a break?"
+      ],
+      "hint": "Did + you + really + want + to + quit ... or + did + you + just + want?",
+      "explanation": "Alternative question with 'or'. Two separate 'did you want' structures.",
+      "difficulty": "hard",
+      "tags": [
+        "question",
+        "complex",
+        "career"
+      ],
+      "grammarRule": "Did + subject + want + to + verb + or + did + subject + want + noun?",
+      "category": "Complex Question"
+    },
+    {
+      "id": 52,
+      "hindi": "वे एक ऐसी company में काम करना चाहते थे जहाँ उनकी बात सुनी जाए।",
+      "english": "They wanted to work in a company where their voice was heard.",
+      "alternatives": [
+        "they wanted to work in a company where they were heard."
+      ],
+      "hint": "They + wanted + to + work + in + a company + where + clause",
+      "explanation": "Relative clause with 'where'. 'Voice was heard' = passive voice in relative clause.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "complex",
+        "career",
+        "aspiration"
+      ],
+      "grammarRule": "Subject + wanted + to + verb + relative clause",
+      "category": "Complex Sentence"
+    },
+    {
+      "id": 53,
+      "hindi": "मैं gym जाना चाहता था लेकिन बारिश हो गई।",
+      "english": "I wanted to go to the gym but it rained.",
+      "alternatives": [
+        "i wanted to go to the gym but it was raining."
+      ],
+      "hint": "I + wanted + to + go + but + obstacle",
+      "explanation": "'But' + past event showing why desire was unfulfilled.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "daily-life",
+        "unfulfilled"
+      ],
+      "grammarRule": "Subject + wanted + to + verb + but + past situation",
+      "category": "Unfulfilled Desire"
+    },
+    {
+      "id": 54,
+      "hindi": "क्या तुम gym जाना चाहते थे?",
+      "english": "Did you want to go to the gym?",
+      "alternatives": [
+        "did you want to go to the gym?"
+      ],
+      "hint": "Did + you + want + to + go?",
+      "explanation": "Simple past question. 'Gym' usually used with 'the'.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "question",
+        "daily-life"
       ],
-      "grammarRule": "Use of Wanted",
-      "category": "Use of Wanted practice"
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 55,
+      "hindi": "उसने उस दिन कुछ भी नहीं खाना चाहा।",
+      "english": "She did not want to eat anything that day.",
+      "alternatives": [
+        "she didn't want to eat anything that day."
+      ],
+      "hint": "She + did not want + to + eat + anything",
+      "explanation": "'Anything' used in negative sentences. 'That day' = specific past time.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
+    },
+    {
+      "id": 56,
+      "hindi": "वह हमेशा विदेश जाना चाहता था।",
+      "english": "He always wanted to go abroad.",
+      "alternatives": [
+        "he always wanted to travel abroad."
+      ],
+      "hint": "He + always + wanted + to + go abroad",
+      "explanation": "'Abroad' = to a foreign country. 'Always' shows lifelong desire.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "aspiration",
+        "positive"
+      ],
+      "grammarRule": "Subject + always + wanted + to + verb",
+      "category": "Aspiration"
+    },
+    {
+      "id": 57,
+      "hindi": "मुझे एक नई notebook चाहिए थी।",
+      "english": "I wanted a new notebook.",
+      "alternatives": [
+        "i wanted a new notebook."
+      ],
+      "hint": "I + wanted + article + adjective + noun",
+      "explanation": "'A new notebook' = article + adjective + noun. Simple noun object.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun phrase",
+      "category": "Noun Object"
+    },
+    {
+      "id": 58,
+      "hindi": "हम उस restaurant में खाना चाहते थे।",
+      "english": "We wanted to eat at that restaurant.",
+      "alternatives": [
+        "we wanted to dine at that restaurant."
+      ],
+      "hint": "We + wanted + to + eat + at + that restaurant",
+      "explanation": "'Eat at / dine at + restaurant' = standard phrasing.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 59,
+      "hindi": "क्या उसे coffee चाहिए थी?",
+      "english": "Did she want coffee?",
+      "alternatives": [
+        "did she want a coffee?",
+        "did she want some coffee?"
+      ],
+      "hint": "Did + she + want + noun?",
+      "explanation": "'Coffee' = uncountable. 'A coffee/some coffee' also acceptable in informal context.",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Did + subject + want + noun?",
+      "category": "Question"
+    },
+    {
+      "id": 60,
+      "hindi": "मैं यह बात पहले ही कहना चाहता था।",
+      "english": "I wanted to say this earlier.",
+      "alternatives": [
+        "i wanted to tell you this earlier."
+      ],
+      "hint": "I + wanted + to + say/tell + this + earlier",
+      "explanation": "'Earlier' = comparative adverb for time.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "daily-life",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 61,
+      "hindi": "क्या आप salary बढ़ाने की बात करना चाहते थे?",
+      "english": "Did you want to discuss a salary raise?",
+      "alternatives": [
+        "did you want to talk about a salary increase?"
+      ],
+      "hint": "Did + you + want + to + discuss?",
+      "explanation": "'Discuss/talk about' = both acceptable. 'Salary raise/increase' = both natural.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Office"
+    },
+    {
+      "id": 62,
+      "hindi": "वे एक बेहतर भविष्य चाहते थे।",
+      "english": "They wanted a better future.",
+      "alternatives": [
+        "they wanted a brighter future."
+      ],
+      "hint": "They + wanted + adjective + noun",
+      "explanation": "'Better/brighter future' — adjective + abstract noun.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "aspiration",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun phrase",
+      "category": "Aspiration"
+    },
+    {
+      "id": 63,
+      "hindi": "मैं interview में अच्छा करना चाहता था।",
+      "english": "I wanted to do well in the interview.",
+      "alternatives": [
+        "i wanted to perform well in the interview."
+      ],
+      "hint": "I + wanted + to + do well + in the interview",
+      "explanation": "'Do well' = perform effectively. 'In the interview' = location.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "interview",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb phrase",
+      "category": "Interview"
+    },
+    {
+      "id": 64,
+      "hindi": "उसे खुद को prove करना था।",
+      "english": "She wanted to prove herself.",
+      "alternatives": [
+        "she wanted to prove herself."
+      ],
+      "hint": "She + wanted + to + prove + herself",
+      "explanation": "'Prove herself' = reflexive pronoun showing self-motivation.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "aspiration",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb + reflexive pronoun",
+      "category": "Aspiration"
+    },
+    {
+      "id": 65,
+      "hindi": "क्या team leader ने सभी को training देना चाही?",
+      "english": "Did the team leader want to train everyone?",
+      "alternatives": [
+        "did the team leader want to give training to everyone?"
+      ],
+      "hint": "Did + the team leader + want + to + train?",
+      "explanation": "'Train everyone' = direct object. 'Give training to' also acceptable.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Office"
+    },
+    {
+      "id": 66,
+      "hindi": "मुझे इस job में join होना था।",
+      "english": "I wanted to join this job.",
+      "alternatives": [
+        "i wanted to join this company.",
+        "i wanted to take this job."
+      ],
+      "hint": "I + wanted + to + join + noun",
+      "explanation": "'Join this job/company/organization' = all are natural.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "career",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Career"
+    },
+    {
+      "id": 67,
+      "hindi": "हम सफल होना चाहते थे।",
+      "english": "We wanted to succeed.",
+      "alternatives": [
+        "we wanted to be successful.",
+        "we wanted success."
+      ],
+      "hint": "We + wanted + to + succeed",
+      "explanation": "'Succeed' = base verb. 'Be successful' = adjective form. 'Success' = noun form.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "aspiration",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Aspiration"
+    },
+    {
+      "id": 68,
+      "hindi": "क्या वह अपना खुद का काम शुरू करना चाहता था?",
+      "english": "Did he want to start his own business?",
+      "alternatives": [
+        "did he want to start his own work?",
+        "did he want to start his own venture?"
+      ],
+      "hint": "Did + he + want + to + start?",
+      "explanation": "'Business/work/venture' — all acceptable for 'काम'.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "business",
+        "career"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Business"
+    },
+    {
+      "id": 69,
+      "hindi": "मैं उस दिन जल्दी उठना चाहता था।",
+      "english": "I wanted to wake up early that day.",
+      "alternatives": [
+        "i wanted to get up early that day."
+      ],
+      "hint": "I + wanted + to + wake up + early",
+      "explanation": "'Wake up / get up' — both common phrasal verbs for rising from sleep.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 70,
+      "hindi": "वह class में first आना चाहती थी।",
+      "english": "She wanted to come first in the class.",
+      "alternatives": [
+        "she wanted to rank first in class."
+      ],
+      "hint": "She + wanted + to + come first",
+      "explanation": "'Come first' = rank 1st. 'In the class' = location context.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "aspiration",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb phrase",
+      "category": "Aspiration"
+    },
+    {
+      "id": 71,
+      "hindi": "हम इस project में एक अच्छी team बनाना चाहते थे।",
+      "english": "We wanted to build a good team for this project.",
+      "alternatives": [
+        "we wanted to form a good team for this project."
+      ],
+      "hint": "We + wanted + to + build + a good team",
+      "explanation": "'Build/form a team' = both natural professional expressions.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "office",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Office"
+    },
+    {
+      "id": 72,
+      "hindi": "क्या तुम उस film को देखना चाहते थे?",
+      "english": "Did you want to watch that film?",
+      "alternatives": [
+        "did you want to see that film?",
+        "did you want to watch that movie?"
+      ],
+      "hint": "Did + you + want + to + watch?",
+      "explanation": "'Watch/see a film/movie' = all are correct.",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 73,
+      "hindi": "उसे office में transfer नहीं चाहिए था।",
+      "english": "He did not want a transfer in the office.",
+      "alternatives": [
+        "he didn't want to be transferred.",
+        "he didn't want a transfer."
+      ],
+      "hint": "He + did not want + noun",
+      "explanation": "'A transfer' = noun. Also: 'didn't want to be transferred' = passive form.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "office"
+      ],
+      "grammarRule": "Subject + did not want + noun",
+      "category": "Office"
+    },
+    {
+      "id": 74,
+      "hindi": "मुझे उससे कोई मतलब नहीं था।",
+      "english": "I did not want anything to do with him.",
+      "alternatives": [
+        "i didn't want anything to do with him."
+      ],
+      "hint": "I + did not want + anything + to do with + him",
+      "explanation": "'Didn't want anything to do with' = common idiom showing disinterest.",
+      "difficulty": "hard",
+      "tags": [
+        "negative",
+        "daily-life",
+        "idiom"
+      ],
+      "grammarRule": "Subject + did not want + anything to do with + object",
+      "category": "Idiomatic"
+    },
+    {
+      "id": 75,
+      "hindi": "वह इस बारे में किसी को नहीं बताना चाहता था।",
+      "english": "He did not want to tell anyone about this.",
+      "alternatives": [
+        "he didn't want anyone to know about this."
+      ],
+      "hint": "He + did not want + to + tell + anyone",
+      "explanation": "'Tell anyone about this' = informing someone. 'Anyone' in negative.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not want + to + verb",
+      "category": "Negative"
+    },
+    {
+      "id": 76,
+      "hindi": "क्या वे company छोड़ना चाहते थे?",
+      "english": "Did they want to leave the company?",
+      "alternatives": [
+        "did they want to quit the company?",
+        "did they want to resign?"
+      ],
+      "hint": "Did + they + want + to + leave?",
+      "explanation": "'Leave/quit/resign' = all acceptable in professional context.",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "office",
+        "career"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Career"
+    },
+    {
+      "id": 77,
+      "hindi": "मैं उस trip पर जाना चाहता था लेकिन पैसे नहीं थे।",
+      "english": "I wanted to go on that trip but I did not have money.",
+      "alternatives": [
+        "i wanted to go on that trip but i didn't have money."
+      ],
+      "hint": "I + wanted + to + go + but + obstacle",
+      "explanation": "'Did not have money' = past negative of 'have'.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "daily-life",
+        "unfulfilled"
+      ],
+      "grammarRule": "Subject + wanted + to + verb + but + obstacle",
+      "category": "Unfulfilled Desire"
+    },
+    {
+      "id": 78,
+      "hindi": "उसे इस काम में किसी की मदद नहीं चाहिए थी।",
+      "english": "She did not want anyone's help with this work.",
+      "alternatives": [
+        "she didn't want any help with this work."
+      ],
+      "hint": "She + did not want + anyone's help",
+      "explanation": "'Anyone's help' = possessive. 'Any help' also correct.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not want + possessive + noun",
+      "category": "Negative"
+    },
+    {
+      "id": 79,
+      "hindi": "हम एक नए घर में शिफ्ट होना चाहते थे।",
+      "english": "We wanted to move to a new house.",
+      "alternatives": [
+        "we wanted to shift to a new house."
+      ],
+      "hint": "We + wanted + to + move/shift + to + a new house",
+      "explanation": "'Move to/shift to' = both acceptable in Indian English context.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "daily-life",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 80,
+      "hindi": "क्या आप इस event में participate करना चाहते थे?",
+      "english": "Did you want to participate in this event?",
+      "alternatives": [
+        "did you want to take part in this event?"
+      ],
+      "hint": "Did + you + want + to + participate?",
+      "explanation": "'Participate in / take part in' = same meaning.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office",
+        "daily-life"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 81,
+      "hindi": "वह अपने parents को खुश देखना चाहता था।",
+      "english": "He wanted to see his parents happy.",
+      "alternatives": [
+        "he wanted his parents to be happy."
+      ],
+      "hint": "He + wanted + to + see + noun + adjective",
+      "explanation": "'Wanted to see someone + adjective' = observing desired state. 'Wanted someone to be' = alternative.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "daily-life",
+        "aspiration"
+      ],
+      "grammarRule": "Subject + wanted + to + verb + object + adjective",
+      "category": "Advanced Pattern"
+    },
+    {
+      "id": 82,
+      "hindi": "मैं interview से पहले और practice करना चाहता था।",
+      "english": "I wanted to practice more before the interview.",
+      "alternatives": [
+        "i wanted more practice before the interview."
+      ],
+      "hint": "I + wanted + to + practice + more + before",
+      "explanation": "'Practice more' = verb form. 'More practice' = noun form. Both work.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "interview",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Interview"
+    },
+    {
+      "id": 83,
+      "hindi": "क्या उन्हें उस time पर कुछ खाना चाहिए था?",
+      "english": "Did they want to eat something at that time?",
+      "alternatives": [
+        "did they want something to eat at that time?"
+      ],
+      "hint": "Did + they + want + to + eat + something?",
+      "explanation": "'Want to eat something' or 'want something to eat' — both natural.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Question"
+    },
+    {
+      "id": 84,
+      "hindi": "वह इस company में contribute करना चाहती थी।",
+      "english": "She wanted to contribute to this company.",
+      "alternatives": [
+        "she wanted to contribute to the company."
+      ],
+      "hint": "She + wanted + to + contribute + to",
+      "explanation": "'Contribute to' = phrasal verb with preposition. Always use 'to' after 'contribute'.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "office",
+        "professional"
+      ],
+      "grammarRule": "Subject + wanted + to + contribute + to + noun",
+      "category": "Professional"
+    },
+    {
+      "id": 85,
+      "hindi": "मुझे उस दिन एक अच्छा मौका मिलना चाहिए था।",
+      "english": "I wanted a good opportunity that day.",
+      "alternatives": [
+        "i wanted to get a good opportunity that day."
+      ],
+      "hint": "I + wanted + noun phrase",
+      "explanation": "'A good opportunity' = article + adjective + noun object.",
+      "difficulty": "easy",
+      "tags": [
+        "statement",
+        "aspiration",
+        "noun-object"
+      ],
+      "grammarRule": "Subject + wanted + noun phrase",
+      "category": "Aspiration"
+    },
+    {
+      "id": 86,
+      "hindi": "क्या वह उस project में lead करना चाहता था?",
+      "english": "Did he want to lead that project?",
+      "alternatives": [
+        "did he want to head that project?"
+      ],
+      "hint": "Did + he + want + to + lead?",
+      "explanation": "'Lead/head a project' = both correct professional expressions.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Office"
+    },
+    {
+      "id": 87,
+      "hindi": "हम एक ऐसा solution चाहते थे जो सबके लिए काम करे।",
+      "english": "We wanted a solution that worked for everyone.",
+      "alternatives": [
+        "we wanted a solution that would work for everyone."
+      ],
+      "hint": "We + wanted + noun + relative clause",
+      "explanation": "Relative clause: 'that worked for everyone'. 'Worked/would work' both acceptable.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "complex",
+        "office"
+      ],
+      "grammarRule": "Subject + wanted + noun + relative clause",
+      "category": "Complex Sentence"
+    },
+    {
+      "id": 88,
+      "hindi": "मुझे उस बात की चिंता नहीं करनी थी।",
+      "english": "I did not want to worry about that.",
+      "alternatives": [
+        "i didn't want to worry about it."
+      ],
+      "hint": "I + did not want + to + worry + about",
+      "explanation": "'Worry about' = phrasal verb. 'That/it' both acceptable.",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + did not want + to + verb + about",
+      "category": "Negative"
+    },
+    {
+      "id": 89,
+      "hindi": "वह एक ऐसी ज़िंदगी जीना चाहती थी जिसमें कोई पछतावा न हो।",
+      "english": "She wanted to live a life with no regrets.",
+      "alternatives": [
+        "she wanted to live a life without regrets."
+      ],
+      "hint": "She + wanted + to + live + a life + with no regrets",
+      "explanation": "'With no regrets / without regrets' = both natural.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "aspiration",
+        "complex"
+      ],
+      "grammarRule": "Subject + wanted + to + verb + noun phrase",
+      "category": "Aspiration"
+    },
+    {
+      "id": 90,
+      "hindi": "क्या HR ने employees को नई policy बतानी चाही?",
+      "english": "Did HR want to inform employees about the new policy?",
+      "alternatives": [
+        "did HR want to tell the employees about the new policy?"
+      ],
+      "hint": "Did + HR + want + to + inform?",
+      "explanation": "'Inform/tell about' = both correct. HR is treated as singular.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Did + subject + want + to + verb?",
+      "category": "Office"
+    },
+    {
+      "id": 91,
+      "hindi": "मैं उस दिन घर जल्दी जाना चाहता था क्योंकि मेरे पिताजी आए थे।",
+      "english": "I wanted to go home early that day because my father had come.",
+      "alternatives": [
+        "i wanted to go home early that day as my father had arrived."
+      ],
+      "hint": "I + wanted + to + go home early + because + past perfect",
+      "explanation": "'Because/as' = reason connector. 'Had come/had arrived' = past perfect.",
+      "difficulty": "hard",
+      "tags": [
+        "statement",
+        "complex",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + wanted + to + verb + reason clause",
+      "category": "Complex Sentence"
+    },
+    {
+      "id": 92,
+      "hindi": "वे एक नई technology adopt करना चाहते थे।",
+      "english": "They wanted to adopt a new technology.",
+      "alternatives": [
+        "they wanted to implement a new technology."
+      ],
+      "hint": "They + wanted + to + adopt/implement + noun",
+      "explanation": "'Adopt/implement' = both professional verbs for technology.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "business",
+        "positive"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Business"
+    },
+    {
+      "id": 93,
+      "hindi": "मैं उस conference में present होना चाहता था।",
+      "english": "I wanted to be present at that conference.",
+      "alternatives": [
+        "i wanted to attend that conference."
+      ],
+      "hint": "I + wanted + to + be present at / attend",
+      "explanation": "'Be present at' or 'attend' = both correct formal expressions.",
+      "difficulty": "medium",
+      "tags": [
+        "statement",
+        "office",
+        "professional"
+      ],
+      "grammarRule": "Subject + wanted + to + verb",
+      "category": "Professional"
     }
   ]
 }

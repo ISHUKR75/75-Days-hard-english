@@ -2,106 +2,130 @@
   "day": 14,
   "topic": "Use of Let's",
   "passage": {
-    "title": "A Day with Use of Let's",
-    "text": "Let's start. Let's eat something. Let's go to the park. Let's watch a movie. Let's talk about this. Let's hurry up. Let's not be late. Let's study together. Let's take some rest. Let's start the meeting.",
-    "hindiTranslation": "चलो शुरू करते हैं। चलो कुछ खाते हैं। चलो पार्क में चलते हैं। चलो एक फिल्म देखते हैं। चलो इस पर बात करते हैं। चलो जल्दी करते हैं। चलो देर मत करते हैं। चलो साथ में पढ़ते हैं। चलो थोड़ा आराम करते हैं। चलो मीटिंग शुरू करते हैं।"
+    "title": "A Team Meeting at Sunrise Technologies",
+    "text": "It was Monday morning at Sunrise Technologies. The team gathered in the conference room. The manager said, 'Let's begin the meeting.' She opened her laptop and said, 'Let's look at last week's sales data.' After reviewing the numbers, she continued, 'Let's not be discouraged by the dip in sales. Let us consider it a learning opportunity.' One team member suggested, 'Let's brainstorm new ideas to improve our numbers.' Another added, 'Let's collaborate with the marketing team — they might have fresh ideas.' The manager agreed, 'Let's schedule a joint meeting for Wednesday. And let's not wait until Friday to make decisions.' Everyone nodded. 'Let's make this week better than the last,' she said with a smile. 'Let us commit to our goals and support each other.'",
+    "hindiTranslation": "सोमवार की सुबह Sunrise Technologies में team conference room में इकट्ठा हुई। Manager ने कहा, 'चलो meeting शुरू करते हैं।' उन्होंने laptop खोला और कहा, 'चलो पिछले हफ्ते का sales data देखते हैं।' Numbers देखने के बाद उन्होंने कहा, 'चलो sales में कमी से निराश मत होते हैं। आइए इसे एक सीखने का अवसर मानते हैं।' एक team member ने सुझाया, 'चलो numbers बेहतर करने के लिए नए ideas brainstorm करते हैं।' दूसरे ने जोड़ा, 'चलो marketing team के साथ मिलकर काम करते हैं।' Manager ने agree किया, 'चलो बुधवार के लिए एक joint meeting schedule करते हैं। और चलो Friday तक decisions लेने का इंतज़ार मत करते हैं।' सभी ने सहमति जताई। 'चलो इस हफ्ते को पिछले हफ्ते से बेहतर बनाते हैं।'"
   },
   "comprehensionQuestions": [
     {
       "id": 1,
-      "question": "What does the passage say about: \"Let's start....\"?",
+      "question": "What did the manager say to begin the meeting?",
       "options": [
-        "Let's study together.",
-        "Let's solve this problem.",
-        "Let's practice.",
-        "Let's start."
+        "Let's finish the meeting.",
+        "Let's look at the data.",
+        "Let's begin the meeting.",
+        "Let's go home."
       ],
-      "answer": "Let's start.",
-      "explanation": "Stated in the passage: \"Let's start.\""
+      "answer": "Let's begin the meeting.",
+      "explanation": "The manager opened with 'Let's begin the meeting.' — a direct suggestion."
     },
     {
       "id": 2,
-      "question": "What does the passage say about: \"Let's eat something....\"?",
+      "question": "What did the manager suggest they look at first?",
       "options": [
-        "Let's take some rest.",
-        "Let's meet tomorrow.",
-        "Let's think positive.",
-        "Let's eat something."
+        "The budget",
+        "The new product",
+        "Last week's sales data",
+        "The marketing plan"
       ],
-      "answer": "Let's eat something.",
-      "explanation": "Stated in the passage: \"Let's eat something.\""
+      "answer": "Last week's sales data.",
+      "explanation": "She said, 'Let's look at last week's sales data.'"
     },
     {
       "id": 3,
-      "question": "What does the passage say about: \"Let's go to the...\"?",
+      "question": "How did the manager respond to the dip in sales?",
       "options": [
-        "Let's start the meeting.",
-        "Let's have tea.",
-        "Let's help each other.",
-        "Let's go to the park."
+        "She was angry.",
+        "She blamed the team.",
+        "She said let's not be discouraged.",
+        "She cancelled the meeting."
       ],
-      "answer": "Let's go to the park.",
-      "explanation": "Stated in the passage: \"Let's go to the park.\""
+      "answer": "She said let's not be discouraged.",
+      "explanation": "She used 'Let's not be discouraged' — a positive, forward-looking approach."
     },
     {
       "id": 4,
-      "question": "What does the passage say about: \"Let's watch a movie....\"?",
+      "question": "What formal phrase did the manager use to discuss the sales dip?",
       "options": [
-        "Let's work together.",
-        "Let's not decide right now.",
-        "Let's start.",
-        "Let's watch a movie."
+        "Let's ignore it.",
+        "Let us consider it a learning opportunity.",
+        "Let him handle it.",
+        "Let's not talk about it."
       ],
-      "answer": "Let's watch a movie.",
-      "explanation": "Stated in the passage: \"Let's watch a movie.\""
+      "answer": "Let us consider it a learning opportunity.",
+      "explanation": "'Let us consider' — formal version of Let's, showing thoughtful leadership."
     },
     {
       "id": 5,
-      "question": "What does the passage say about: \"Let's talk about this....\"?",
+      "question": "What did a team member suggest to improve numbers?",
       "options": [
-        "Let's learn something new.",
-        "Let's go home.",
-        "Let's eat something.",
-        "Let's talk about this."
+        "Fire the sales team.",
+        "Let's brainstorm new ideas.",
+        "Let's cancel the targets.",
+        "Let us reduce the price."
       ],
-      "answer": "Let's talk about this.",
-      "explanation": "Stated in the passage: \"Let's talk about this.\""
+      "answer": "Let's brainstorm new ideas.",
+      "explanation": "Brainstorming is a collaborative suggestion — perfectly expressed with Let's."
     },
     {
       "id": 6,
-      "question": "What does the passage say about: \"Let's hurry up....\"?",
+      "question": "Which team did someone suggest collaborating with?",
       "options": [
-        "Let's make a plan.",
-        "Let's speak the truth.",
-        "Let's go to the park.",
-        "Let's hurry up."
+        "HR team",
+        "Finance team",
+        "Marketing team",
+        "IT team"
       ],
-      "answer": "Let's hurry up.",
-      "explanation": "Stated in the passage: \"Let's hurry up.\""
+      "answer": "Marketing team.",
+      "explanation": "'Let's collaborate with the marketing team' — cross-functional suggestion."
     },
     {
       "id": 7,
-      "question": "What does the passage say about: \"Let's not be late....\"?",
+      "question": "When did the manager want to schedule the joint meeting?",
       "options": [
-        "Let's go for a walk.",
-        "Let's not fight now.",
-        "Let's watch a movie.",
-        "Let's not be late."
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Friday"
       ],
-      "answer": "Let's not be late.",
-      "explanation": "Stated in the passage: \"Let's not be late.\""
+      "answer": "Wednesday.",
+      "explanation": "'Let's schedule a joint meeting for Wednesday.'"
     },
     {
       "id": 8,
-      "question": "What does the passage say about: \"Let's study together....\"?",
+      "question": "What did the manager say they should not wait for?",
       "options": [
-        "Let's solve this problem.",
-        "Let's practice.",
-        "Let's talk about this.",
-        "Let's study together."
+        "The new manager",
+        "Friday to make decisions",
+        "The sales report",
+        "The budget approval"
       ],
-      "answer": "Let's study together.",
-      "explanation": "Stated in the passage: \"Let's study together.\""
+      "answer": "Friday to make decisions.",
+      "explanation": "'Let's not wait until Friday to make decisions' — urgency with Let's not."
+    },
+    {
+      "id": 9,
+      "question": "What was the manager's closing sentiment?",
+      "options": [
+        "Let's cancel next week's targets.",
+        "Let's blame the market.",
+        "Let's make this week better than the last.",
+        "Let's reduce team size."
+      ],
+      "answer": "Let's make this week better than the last.",
+      "explanation": "A motivational, forward-looking suggestion to end the meeting."
+    },
+    {
+      "id": 10,
+      "question": "What formal commitment did the manager close with?",
+      "options": [
+        "Let us all resign.",
+        "Let us commit to our goals and support each other.",
+        "Let us work less.",
+        "Let him take over."
+      ],
+      "answer": "Let us commit to our goals and support each other.",
+      "explanation": "'Let us commit' — formal, motivational, inclusive ending to the meeting."
     }
   ]
 }

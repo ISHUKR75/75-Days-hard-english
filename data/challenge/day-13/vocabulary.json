@@ -1,343 +1,3838 @@
 {
   "day": 13,
-  "title": "Use of Let",
-  "totalWords": 24,
+  "title": "Day 13 Vocabulary — Use of Let (100+ Words)",
+  "totalWords": 110,
+  "categories": [
+    "Permission Verbs",
+    "Action Verbs",
+    "Office/Business",
+    "Communication",
+    "Emotions/States",
+    "Prepositions & Connectors"
+  ],
   "words": [
     {
       "id": 1,
-      "word": "you",
-      "hindi": "बताने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let me tell you.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let me tell you.",
-        "office": "Let me tell you.",
-        "interview": "Let me tell you."
+      "word": "allow",
+      "hindi": "अनुमति देना",
+      "simpleMeaning": "to permit someone to do something",
+      "ipa": "/əˈlaʊ/",
+      "verbForms": {
+        "base": "allow",
+        "s3": "allows",
+        "ing": "allowing",
+        "past": "allowed",
+        "pastParticiple": "allowed"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "permit",
+        "let",
+        "authorize"
+      ],
+      "antonyms": [
+        "forbid",
+        "deny",
+        "prevent"
+      ],
+      "sentences": {
+        "daily": "My parents allow me to go out on weekends.",
+        "office": "The manager allows flexible working hours.",
+        "interview": "I allow my team members to take initiative.",
+        "business": "We allow clients to pay in installments.",
+        "formal": "The policy allows employees to work from home twice a week.",
+        "informal": "Will you allow me to sit here?"
+      },
+      "usageNote": "'Allow' is more formal than 'let'. Allow is followed by 'to + verb': allow him to go.",
+      "cefrLevel": "A2",
+      "category": "Permission Verbs"
     },
     {
       "id": 2,
-      "word": "go",
-      "hindi": "जाने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let him go.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let him go.",
-        "office": "Let him go.",
-        "interview": "Let him go."
+      "word": "permit",
+      "hindi": "इजाज़त देना / अनुमति देना",
+      "simpleMeaning": "to officially allow something",
+      "ipa": "/pərˈmɪt/",
+      "verbForms": {
+        "base": "permit",
+        "s3": "permits",
+        "ing": "permitting",
+        "past": "permitted",
+        "pastParticiple": "permitted"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "allow",
+        "authorize",
+        "sanction"
+      ],
+      "antonyms": [
+        "forbid",
+        "ban",
+        "prohibit"
+      ],
+      "sentences": {
+        "daily": "My landlord permits pets in the flat.",
+        "office": "The office permits casual dress on Fridays.",
+        "interview": "I permit my colleagues to use my resources freely.",
+        "business": "The contract permits early termination.",
+        "formal": "Smoking is not permitted on the premises.",
+        "informal": "Will he permit us to leave early?"
+      },
+      "usageNote": "'Permit' is more formal than 'allow'. Followed by 'to + verb'.",
+      "cefrLevel": "B1",
+      "category": "Permission Verbs"
     },
     {
       "id": 3,
-      "word": "speak",
-      "hindi": "बोलने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let her speak.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let her speak.",
-        "office": "Let her speak.",
-        "interview": "Let her speak."
+      "word": "forbid",
+      "hindi": "मना करना / रोकना",
+      "simpleMeaning": "to officially say that something must not be done",
+      "ipa": "/fərˈbɪd/",
+      "verbForms": {
+        "base": "forbid",
+        "s3": "forbids",
+        "ing": "forbidding",
+        "past": "forbade",
+        "pastParticiple": "forbidden"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "ban",
+        "prohibit",
+        "disallow"
+      ],
+      "antonyms": [
+        "allow",
+        "permit",
+        "let"
+      ],
+      "sentences": {
+        "daily": "My mother forbids me from eating junk food.",
+        "office": "Company rules forbid sharing passwords.",
+        "interview": "I never forbid my team from sharing new ideas.",
+        "business": "The agreement forbids sharing client data.",
+        "formal": "It is forbidden to enter without ID.",
+        "informal": "He forbade us from going near the river."
+      },
+      "usageNote": "Irregular: forbid → forbade → forbidden. More formal/literary than 'not allow'.",
+      "cefrLevel": "B1",
+      "category": "Permission Verbs"
     },
     {
       "id": 4,
-      "word": "try",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let us try.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let us try.",
-        "office": "Let us try.",
-        "interview": "Let us try."
+      "word": "prevent",
+      "hindi": "रोकना",
+      "simpleMeaning": "to stop something from happening",
+      "ipa": "/prɪˈvent/",
+      "verbForms": {
+        "base": "prevent",
+        "s3": "prevents",
+        "ing": "preventing",
+        "past": "prevented",
+        "pastParticiple": "prevented"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "stop",
+        "block",
+        "hinder"
+      ],
+      "antonyms": [
+        "allow",
+        "enable",
+        "encourage"
+      ],
+      "sentences": {
+        "daily": "Wear a helmet to prevent head injuries.",
+        "office": "Regular backups prevent data loss.",
+        "interview": "I take steps to prevent miscommunication in the team.",
+        "business": "Quality checks prevent product defects.",
+        "formal": "The medicine prevents infection from spreading.",
+        "informal": "Don't let him prevent you from trying."
+      },
+      "usageNote": "'Prevent from + ing': prevent him from leaving.",
+      "cefrLevel": "A2",
+      "category": "Permission Verbs"
     },
     {
       "id": 5,
-      "word": "play",
-      "hindi": "खेलने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let them play.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let them play.",
-        "office": "Let them play.",
-        "interview": "Let them play."
+      "word": "restrict",
+      "hindi": "सीमित करना / रोकना",
+      "simpleMeaning": "to put a limit on something",
+      "ipa": "/rɪˈstrɪkt/",
+      "verbForms": {
+        "base": "restrict",
+        "s3": "restricts",
+        "ing": "restricting",
+        "past": "restricted",
+        "pastParticiple": "restricted"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "limit",
+        "control",
+        "confine"
+      ],
+      "antonyms": [
+        "free",
+        "allow",
+        "expand"
+      ],
+      "sentences": {
+        "daily": "The doctor restricted my diet after surgery.",
+        "office": "Access to the server room is restricted.",
+        "interview": "I don't restrict my team unnecessarily.",
+        "business": "The government restricted imports.",
+        "formal": "Restricted areas require special clearance.",
+        "informal": "Don't let them restrict your growth."
+      },
+      "usageNote": "'Restrict' implies setting boundaries or limits.",
+      "cefrLevel": "B1",
+      "category": "Permission Verbs"
     },
     {
       "id": 6,
-      "word": "think",
-      "hindi": "सोचने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let me think.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let me think.",
-        "office": "Let me think.",
-        "interview": "Let me think."
+      "word": "decide",
+      "hindi": "फैसला करना",
+      "simpleMeaning": "to make a choice after thinking",
+      "ipa": "/dɪˈsaɪd/",
+      "verbForms": {
+        "base": "decide",
+        "s3": "decides",
+        "ing": "deciding",
+        "past": "decided",
+        "pastParticiple": "decided"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "choose",
+        "determine",
+        "resolve"
+      ],
+      "antonyms": [
+        "hesitate",
+        "delay",
+        "postpone"
+      ],
+      "sentences": {
+        "daily": "Let me decide what to cook today.",
+        "office": "Let the team decide the project timeline.",
+        "interview": "I always let facts decide my actions.",
+        "business": "Let the data decide our strategy.",
+        "formal": "The board will decide on the merger next week.",
+        "informal": "Let him decide — it's his call."
+      },
+      "usageNote": "'Decide on' = to make a final choice. 'Decide to do': I decided to leave.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 7,
-      "word": "rest",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let him rest.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let him rest.",
-        "office": "Let him rest.",
-        "interview": "Let him rest."
+      "word": "explain",
+      "hindi": "समझाना",
+      "simpleMeaning": "to make something clear or easy to understand",
+      "ipa": "/ɪkˈspleɪn/",
+      "verbForms": {
+        "base": "explain",
+        "s3": "explains",
+        "ing": "explaining",
+        "past": "explained",
+        "pastParticiple": "explained"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "clarify",
+        "describe",
+        "elaborate"
+      ],
+      "antonyms": [
+        "confuse",
+        "complicate"
+      ],
+      "sentences": {
+        "daily": "Let me explain how this works.",
+        "office": "Let her explain the new process.",
+        "interview": "Let me explain my experience in detail.",
+        "business": "Let us explain our pricing structure.",
+        "formal": "Please allow me to explain the terms.",
+        "informal": "Let me explain — it wasn't my fault!"
+      },
+      "usageNote": "'Explain to someone': explain this to me (not 'explain me this' in formal English).",
+      "cefrLevel": "A2",
+      "category": "Communication"
     },
     {
       "id": 8,
-      "word": "this",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let me check this.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let me check this.",
-        "office": "Let me check this.",
-        "interview": "Let me check this."
+      "word": "handle",
+      "hindi": "संभालना",
+      "simpleMeaning": "to deal with or manage something",
+      "ipa": "/ˈhændl/",
+      "verbForms": {
+        "base": "handle",
+        "s3": "handles",
+        "ing": "handling",
+        "past": "handled",
+        "pastParticiple": "handled"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "manage",
+        "deal with",
+        "control"
+      ],
+      "antonyms": [
+        "neglect",
+        "mismanage"
+      ],
+      "sentences": {
+        "daily": "Let me handle the shopping today.",
+        "office": "Let him handle the client complaint.",
+        "interview": "I can handle pressure and tight deadlines.",
+        "business": "Let our team handle your logistics.",
+        "formal": "The matter was handled professionally.",
+        "informal": "Let me handle it — don't worry."
+      },
+      "usageNote": "'Handle' implies taking control/responsibility. 'Handle pressure' is a common phrase.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
     },
     {
       "id": 9,
-      "word": "work",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let her do her work.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let her do her work.",
-        "office": "Let her do her work.",
-        "interview": "Let her do her work."
+      "word": "present",
+      "hindi": "प्रस्तुत करना",
+      "simpleMeaning": "to show or introduce something formally",
+      "ipa": "/prɪˈzent/",
+      "verbForms": {
+        "base": "present",
+        "s3": "presents",
+        "ing": "presenting",
+        "past": "presented",
+        "pastParticiple": "presented"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "show",
+        "introduce",
+        "demonstrate"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal"
+      ],
+      "sentences": {
+        "daily": "Let me present my idea to the family.",
+        "office": "Let her present the quarterly report.",
+        "interview": "Let me present my key achievements.",
+        "business": "Let us present our proposal.",
+        "formal": "He was asked to present his findings.",
+        "informal": "Let him present his side of the story."
+      },
+      "usageNote": "'Present' as noun = gift / the current time. As verb = to show formally.",
+      "cefrLevel": "B1",
+      "category": "Communication"
     },
     {
       "id": 10,
-      "word": "start",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let us start.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let us start.",
-        "office": "Let us start.",
-        "interview": "Let us start."
+      "word": "confirm",
+      "hindi": "पुष्टि करना",
+      "simpleMeaning": "to state or show that something is true or certain",
+      "ipa": "/kənˈfɜːrm/",
+      "verbForms": {
+        "base": "confirm",
+        "s3": "confirms",
+        "ing": "confirming",
+        "past": "confirmed",
+        "pastParticiple": "confirmed"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "verify",
+        "validate",
+        "approve"
+      ],
+      "antonyms": [
+        "deny",
+        "reject",
+        "cancel"
+      ],
+      "sentences": {
+        "daily": "Let me confirm the address before we leave.",
+        "office": "Let him confirm the booking.",
+        "interview": "Let me confirm — you're asking about my management experience?",
+        "business": "Let us confirm the order details.",
+        "formal": "Please confirm your attendance by Friday.",
+        "informal": "Let me just confirm with her first."
+      },
+      "usageNote": "'Confirm' implies making something definite or certain.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
     },
     {
       "id": 11,
-      "word": "go",
-      "hindi": "जाने दो।",
-      "simpleMeaning": "Used in the sentence: \"Do not let him go.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Do not let him go.",
-        "office": "Do not let him go.",
-        "interview": "Do not let him go."
+      "word": "complete",
+      "hindi": "पूरा करना",
+      "simpleMeaning": "to finish something",
+      "ipa": "/kəmˈpliːt/",
+      "verbForms": {
+        "base": "complete",
+        "s3": "completes",
+        "ing": "completing",
+        "past": "completed",
+        "pastParticiple": "completed"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "finish",
+        "accomplish",
+        "conclude"
+      ],
+      "antonyms": [
+        "start",
+        "abandon",
+        "leave incomplete"
+      ],
+      "sentences": {
+        "daily": "Let me complete my homework first.",
+        "office": "Let them complete the task by 5 PM.",
+        "interview": "I always complete projects on time.",
+        "business": "Let us complete the formalities.",
+        "formal": "Please complete the form and submit it.",
+        "informal": "Don't let him leave before he completes the job."
+      },
+      "usageNote": "'Complete' is more formal than 'finish'. Can be used as adjective: a complete answer.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 12,
-      "word": "you",
-      "hindi": "समझाने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let me explain to you.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let me explain to you.",
-        "office": "Let me explain to you.",
-        "interview": "Let me explain to you."
+      "word": "enter",
+      "hindi": "अंदर आना / प्रवेश करना",
+      "simpleMeaning": "to go into a place",
+      "ipa": "/ˈentər/",
+      "verbForms": {
+        "base": "enter",
+        "s3": "enters",
+        "ing": "entering",
+        "past": "entered",
+        "pastParticiple": "entered"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "go in",
+        "come in",
+        "access"
+      ],
+      "antonyms": [
+        "exit",
+        "leave",
+        "depart"
+      ],
+      "sentences": {
+        "daily": "Don't let the cat enter the kitchen.",
+        "office": "Please don't let visitors enter without a pass.",
+        "interview": "I entered the company three years ago.",
+        "business": "Enter your PIN to access the account.",
+        "formal": "No one shall enter without authorization.",
+        "informal": "Don't let him enter my room."
+      },
+      "usageNote": "'Enter into' an agreement = formally start a contract. 'Enter' a room = go inside.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 13,
-      "word": "decide",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let them decide.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let them decide.",
-        "office": "Let them decide.",
-        "interview": "Let them decide."
+      "word": "interrupt",
+      "hindi": "बीच में रोकना / बाधा डालना",
+      "simpleMeaning": "to stop someone while they are speaking or working",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "verbForms": {
+        "base": "interrupt",
+        "s3": "interrupts",
+        "ing": "interrupting",
+        "past": "interrupted",
+        "pastParticiple": "interrupted"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "disturb",
+        "cut off",
+        "intrude"
+      ],
+      "antonyms": [
+        "continue",
+        "let speak",
+        "allow"
+      ],
+      "sentences": {
+        "daily": "Don't let him interrupt me while I am studying.",
+        "office": "Let me finish — please don't interrupt.",
+        "interview": "I never interrupt when someone is speaking.",
+        "business": "Don't let small issues interrupt the workflow.",
+        "formal": "Interruptions are not permitted during the presentation.",
+        "informal": "Don't interrupt — let her speak!"
+      },
+      "usageNote": "'Interrupt' is rude in most contexts. 'May I interrupt for a moment?' is polite.",
+      "cefrLevel": "B1",
+      "category": "Communication"
     },
     {
       "id": 14,
-      "word": "time",
-      "hindi": "समय दो।",
-      "simpleMeaning": "Used in the sentence: \"Let me have some time.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let me have some time.",
-        "office": "Let me have some time.",
-        "interview": "Let me have some time."
+      "word": "proceed",
+      "hindi": "आगे बढ़ना",
+      "simpleMeaning": "to continue doing something or to go forward",
+      "ipa": "/prəˈsiːd/",
+      "verbForms": {
+        "base": "proceed",
+        "s3": "proceeds",
+        "ing": "proceeding",
+        "past": "proceeded",
+        "pastParticiple": "proceeded"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "continue",
+        "advance",
+        "go ahead"
+      ],
+      "antonyms": [
+        "stop",
+        "halt",
+        "pause"
+      ],
+      "sentences": {
+        "daily": "Let us proceed with the plan.",
+        "office": "Let the team proceed with the project.",
+        "interview": "Please let me proceed — I will answer all your questions.",
+        "business": "You may proceed once the payment clears.",
+        "formal": "The court allowed the case to proceed.",
+        "informal": "Let him proceed — we'll see what happens."
+      },
+      "usageNote": "'Proceed' is formal. In speech, 'go ahead' is more common.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
     },
     {
       "id": 15,
-      "word": "come",
-      "hindi": "आने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let him come.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let him come.",
-        "office": "Let him come.",
-        "interview": "Let him come."
+      "word": "approve",
+      "hindi": "मंज़ूरी देना",
+      "simpleMeaning": "to officially agree or give permission",
+      "ipa": "/əˈpruːv/",
+      "verbForms": {
+        "base": "approve",
+        "s3": "approves",
+        "ing": "approving",
+        "past": "approved",
+        "pastParticiple": "approved"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "sanction",
+        "authorize",
+        "endorse"
+      ],
+      "antonyms": [
+        "reject",
+        "disapprove",
+        "deny"
+      ],
+      "sentences": {
+        "daily": "Let the senior approve my leave application.",
+        "office": "Let the manager approve the budget first.",
+        "interview": "I can approve decisions within my authority.",
+        "business": "Let the board approve the merger.",
+        "formal": "The committee approved the proposal unanimously.",
+        "informal": "Don't let him approve anything without checking."
+      },
+      "usageNote": "'Approve of' = like/support. 'Approve' = officially permit.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
     },
     {
       "id": 16,
-      "word": "together",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let us work together.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let us work together.",
-        "office": "Let us work together.",
-        "interview": "Let us work together."
+      "word": "escape",
+      "hindi": "भागना / बचना",
+      "simpleMeaning": "to get free from a difficult situation",
+      "ipa": "/ɪˈskeɪp/",
+      "verbForms": {
+        "base": "escape",
+        "s3": "escapes",
+        "ing": "escaping",
+        "past": "escaped",
+        "pastParticiple": "escaped"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "flee",
+        "break free",
+        "avoid"
+      ],
+      "antonyms": [
+        "face",
+        "confront",
+        "stay"
+      ],
+      "sentences": {
+        "daily": "Don't let the bird escape from the cage.",
+        "office": "Don't let errors escape unnoticed.",
+        "interview": "I never let problems escape my attention.",
+        "business": "Don't let any lead escape the pipeline.",
+        "formal": "Security measures prevent unauthorized escape.",
+        "informal": "Don't let the cat escape — close the door!"
+      },
+      "usageNote": "'Escape from' = get out of. 'Escape notice' = not be noticed.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
     },
     {
       "id": 17,
-      "word": "question",
-      "hindi": "पूछने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let me ask this question.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let me ask this question.",
-        "office": "Let me ask this question.",
-        "interview": "Let me ask this question."
+      "word": "reveal",
+      "hindi": "ज़ाहिर करना / उजागर करना",
+      "simpleMeaning": "to show or tell something hidden",
+      "ipa": "/rɪˈviːl/",
+      "verbForms": {
+        "base": "reveal",
+        "s3": "reveals",
+        "ing": "revealing",
+        "past": "revealed",
+        "pastParticiple": "revealed"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "disclose",
+        "expose",
+        "share"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal",
+        "keep secret"
+      ],
+      "sentences": {
+        "daily": "Let me reveal a small secret.",
+        "office": "Don't let confidential data be revealed.",
+        "interview": "Let me reveal what I learned from that challenge.",
+        "business": "Don't let competitors reveal your pricing.",
+        "formal": "The investigation revealed serious lapses.",
+        "informal": "Let him reveal the surprise — it's his idea."
+      },
+      "usageNote": "'Reveal' implies showing something hidden. More dramatic than 'show'.",
+      "cefrLevel": "B1",
+      "category": "Communication"
     },
     {
       "id": 18,
-      "word": "own",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let her decide on her own.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let her decide on her own.",
-        "office": "Let her decide on her own.",
-        "interview": "Let her decide on her own."
+      "word": "settle",
+      "hindi": "तय करना / बसना",
+      "simpleMeaning": "to resolve something or to make a place your home",
+      "ipa": "/ˈsetl/",
+      "verbForms": {
+        "base": "settle",
+        "s3": "settles",
+        "ing": "settling",
+        "past": "settled",
+        "pastParticiple": "settled"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "resolve",
+        "decide",
+        "fix"
+      ],
+      "antonyms": [
+        "disturb",
+        "unsettle",
+        "complicate"
+      ],
+      "sentences": {
+        "daily": "Let me settle this argument once and for all.",
+        "office": "Let them settle the payment terms.",
+        "interview": "Let me settle into the role first.",
+        "business": "Let us settle this dispute out of court.",
+        "formal": "The matter has been settled amicably.",
+        "informal": "Don't let this unsettled issue linger."
+      },
+      "usageNote": "'Settle down' = calm down or establish a stable life. 'Settle for' = accept less than wanted.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
     },
     {
       "id": 19,
-      "word": "outside",
-      "hindi": "खेलने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let the children play outside.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let the children play outside.",
-        "office": "Let the children play outside.",
-        "interview": "Let the children play outside."
+      "word": "ignore",
+      "hindi": "नज़रअंदाज़ करना",
+      "simpleMeaning": "to pay no attention to something",
+      "ipa": "/ɪɡˈnɔːr/",
+      "verbForms": {
+        "base": "ignore",
+        "s3": "ignores",
+        "ing": "ignoring",
+        "past": "ignored",
+        "pastParticiple": "ignored"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "disregard",
+        "overlook",
+        "dismiss"
+      ],
+      "antonyms": [
+        "notice",
+        "acknowledge",
+        "address"
+      ],
+      "sentences": {
+        "daily": "Don't let him ignore his health.",
+        "office": "Don't let small mistakes be ignored.",
+        "interview": "I never ignore feedback from my managers.",
+        "business": "Don't let customer complaints be ignored.",
+        "formal": "The committee urged parties not to ignore the evidence.",
+        "informal": "Let her ignore it — it's not worth it."
+      },
+      "usageNote": "'Ignore' implies a deliberate choice to not pay attention.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 20,
-      "word": "point",
-      "hindi": "कहने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let me say my point.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let me say my point.",
-        "office": "Let me say my point.",
-        "interview": "Let me say my point."
+      "word": "concentrate",
+      "hindi": "ध्यान केंद्रित करना",
+      "simpleMeaning": "to focus your attention on something",
+      "ipa": "/ˈkɒnsntreɪt/",
+      "verbForms": {
+        "base": "concentrate",
+        "s3": "concentrates",
+        "ing": "concentrating",
+        "past": "concentrated",
+        "pastParticiple": "concentrated"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "focus",
+        "pay attention",
+        "attend"
+      ],
+      "antonyms": [
+        "distract",
+        "lose focus",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let me concentrate on this chapter.",
+        "office": "Let him concentrate — don't disturb him.",
+        "interview": "I concentrate on delivering quality results.",
+        "business": "Let us concentrate on the core business.",
+        "formal": "Employees are asked to concentrate on key deliverables.",
+        "informal": "Don't let them distract you — concentrate!"
+      },
+      "usageNote": "'Concentrate on' = focus on. Also used in chemistry (concentrated solution).",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
     },
     {
       "id": 21,
-      "word": "comfortably",
-      "hindi": "बैठने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let them sit comfortably.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let them sit comfortably.",
-        "office": "Let them sit comfortably.",
-        "interview": "Let them sit comfortably."
+      "word": "suggest",
+      "hindi": "सुझाव देना",
+      "simpleMeaning": "to put forward an idea for consideration",
+      "ipa": "/səˈdʒest/",
+      "verbForms": {
+        "base": "suggest",
+        "s3": "suggests",
+        "ing": "suggesting",
+        "past": "suggested",
+        "pastParticiple": "suggested"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "propose",
+        "recommend",
+        "advise"
+      ],
+      "antonyms": [
+        "oppose",
+        "discourage"
+      ],
+      "sentences": {
+        "daily": "Let me suggest a better route.",
+        "office": "Let her suggest improvements in the process.",
+        "interview": "Let me suggest how I can add value here.",
+        "business": "Let us suggest a revised pricing model.",
+        "formal": "May I suggest an alternative approach?",
+        "informal": "Let him suggest whatever he wants."
+      },
+      "usageNote": "'Suggest + ing' or 'suggest + that clause'. NOT 'suggest to do'.",
+      "cefrLevel": "A2",
+      "category": "Communication"
     },
     {
       "id": 22,
-      "word": "this",
-      "hindi": "करने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let me try this.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let me try this.",
-        "office": "Let me try this.",
-        "interview": "Let me try this."
+      "word": "observe",
+      "hindi": "देखना / निरीक्षण करना",
+      "simpleMeaning": "to watch carefully",
+      "ipa": "/əbˈzɜːrv/",
+      "verbForms": {
+        "base": "observe",
+        "s3": "observes",
+        "ing": "observing",
+        "past": "observed",
+        "pastParticiple": "observed"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "watch",
+        "notice",
+        "monitor"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "Let me observe how you do it first.",
+        "office": "Let her observe the process before starting.",
+        "interview": "I observe and learn from experienced colleagues.",
+        "business": "Let us observe market behavior this quarter.",
+        "formal": "The team was asked to observe safety protocols.",
+        "informal": "Let him observe — he's new here."
+      },
+      "usageNote": "'Observe' is more formal than 'watch'. Also means to follow rules: observe rules.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
     },
     {
       "id": 23,
-      "word": "mistake",
-      "hindi": "सुधारने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let him correct his mistake.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let him correct his mistake.",
-        "office": "Let him correct his mistake.",
-        "interview": "Let him correct his mistake."
+      "word": "admit",
+      "hindi": "स्वीकार करना / अंदर आने देना",
+      "simpleMeaning": "to confess or allow entry",
+      "ipa": "/ədˈmɪt/",
+      "verbForms": {
+        "base": "admit",
+        "s3": "admits",
+        "ing": "admitting",
+        "past": "admitted",
+        "pastParticiple": "admitted"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "confess",
+        "acknowledge",
+        "accept"
+      ],
+      "antonyms": [
+        "deny",
+        "refuse",
+        "reject"
+      ],
+      "sentences": {
+        "daily": "Let me admit that I made a mistake.",
+        "office": "Let them admit their error and move on.",
+        "interview": "I readily admit my weaknesses and work on them.",
+        "business": "Don't let a wrong admission hurt the company.",
+        "formal": "He was admitted to the hospital for treatment.",
+        "informal": "Just let him admit it — everyone already knows."
+      },
+      "usageNote": "'Admit to' = confess. 'Be admitted' = allowed to enter (hospital/college).",
+      "cefrLevel": "B1",
+      "category": "Communication"
     },
     {
       "id": 24,
-      "word": "join",
-      "hindi": "होने दो।",
-      "simpleMeaning": "Used in the sentence: \"Let us also join.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let us also join.",
-        "office": "Let us also join.",
-        "interview": "Let us also join."
+      "word": "solve",
+      "hindi": "हल करना",
+      "simpleMeaning": "to find the answer to a problem",
+      "ipa": "/sɒlv/",
+      "verbForms": {
+        "base": "solve",
+        "s3": "solves",
+        "ing": "solving",
+        "past": "solved",
+        "pastParticiple": "solved"
       },
-      "usageNote": "Appears with Use of Let",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "resolve",
+        "fix",
+        "address"
+      ],
+      "antonyms": [
+        "complicate",
+        "create",
+        "worsen"
+      ],
+      "sentences": {
+        "daily": "Let me solve this math problem first.",
+        "office": "Let the experts solve the technical issue.",
+        "interview": "Let me explain how I solve complex problems.",
+        "business": "Let data solve your business challenges.",
+        "formal": "The committee was asked to solve the dispute.",
+        "informal": "Let him solve it — he's good at these things."
+      },
+      "usageNote": "'Solve' is for problems. 'Resolve' is for conflicts. Both are correct in many contexts.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 25,
+      "word": "lead",
+      "hindi": "नेतृत्व करना",
+      "simpleMeaning": "to guide or be in charge of a group",
+      "ipa": "/liːd/",
+      "verbForms": {
+        "base": "lead",
+        "s3": "leads",
+        "ing": "leading",
+        "past": "led",
+        "pastParticiple": "led"
+      },
+      "synonyms": [
+        "guide",
+        "head",
+        "direct"
+      ],
+      "antonyms": [
+        "follow",
+        "lag"
+      ],
+      "sentences": {
+        "daily": "Let me lead the family trip planning.",
+        "office": "Let her lead the new project.",
+        "interview": "Let me lead you through my key achievements.",
+        "business": "Let the expert lead the negotiation.",
+        "formal": "The CEO asked her to lead the restructuring.",
+        "informal": "Let him lead — he knows the way."
+      },
+      "usageNote": "Irregular: lead → led → led. 'Lead' (noun) = the front position. 'Lead' (metal) = /led/.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 26,
+      "word": "organize",
+      "hindi": "व्यवस्थित करना",
+      "simpleMeaning": "to arrange things in an orderly way",
+      "ipa": "/ˈɔːrɡənaɪz/",
+      "verbForms": {
+        "base": "organize",
+        "s3": "organizes",
+        "ing": "organizing",
+        "past": "organized",
+        "pastParticiple": "organized"
+      },
+      "synonyms": [
+        "arrange",
+        "plan",
+        "coordinate"
+      ],
+      "antonyms": [
+        "disorganize",
+        "mess up"
+      ],
+      "sentences": {
+        "daily": "Let me organize my desk before starting.",
+        "office": "Let him organize the farewell party.",
+        "interview": "I let my team organize their own schedules.",
+        "business": "Let us organize a client appreciation event.",
+        "formal": "The event was organized by the HR department.",
+        "informal": "Don't let things get disorganized."
+      },
+      "usageNote": "British spelling: 'organise'. Both are correct.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 27,
+      "word": "manage",
+      "hindi": "प्रबंधन करना",
+      "simpleMeaning": "to be in charge of or to handle successfully",
+      "ipa": "/ˈmænɪdʒ/",
+      "verbForms": {
+        "base": "manage",
+        "s3": "manages",
+        "ing": "managing",
+        "past": "managed",
+        "pastParticiple": "managed"
+      },
+      "synonyms": [
+        "handle",
+        "control",
+        "oversee"
+      ],
+      "antonyms": [
+        "mismanage",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "Let me manage the household budget.",
+        "office": "Let him manage the junior team.",
+        "interview": "I can manage multiple projects simultaneously.",
+        "business": "Let an expert manage your finances.",
+        "formal": "The operations are managed by a senior director.",
+        "informal": "Don't worry — let me manage it."
+      },
+      "usageNote": "'Manage to do' = succeed in doing despite difficulty: I managed to finish on time.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 28,
+      "word": "release",
+      "hindi": "रिलीज़ करना / छोड़ना",
+      "simpleMeaning": "to free from constraint or to make available",
+      "ipa": "/rɪˈliːs/",
+      "verbForms": {
+        "base": "release",
+        "s3": "releases",
+        "ing": "releasing",
+        "past": "released",
+        "pastParticiple": "released"
+      },
+      "synonyms": [
+        "free",
+        "publish",
+        "launch"
+      ],
+      "antonyms": [
+        "hold",
+        "detain",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "Don't let him release the news before the right time.",
+        "office": "Let the team release the update after testing.",
+        "interview": "I helped release a product that served 10,000 users.",
+        "business": "Let us release the product next quarter.",
+        "formal": "The prisoner was released on bail.",
+        "informal": "Let him release his frustration — he needs it."
+      },
+      "usageNote": "'Release' used for software updates, news, emotions, prisoners.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 29,
+      "word": "continue",
+      "hindi": "जारी रखना",
+      "simpleMeaning": "to keep doing something without stopping",
+      "ipa": "/kənˈtɪnjuː/",
+      "verbForms": {
+        "base": "continue",
+        "s3": "continues",
+        "ing": "continuing",
+        "past": "continued",
+        "pastParticiple": "continued"
+      },
+      "synonyms": [
+        "carry on",
+        "proceed",
+        "go on"
+      ],
+      "antonyms": [
+        "stop",
+        "pause",
+        "end"
+      ],
+      "sentences": {
+        "daily": "Let me continue my story.",
+        "office": "Let the work continue despite the holiday.",
+        "interview": "Let me continue — I have more to share.",
+        "business": "Don't let the issue continue unresolved.",
+        "formal": "The project will continue as scheduled.",
+        "informal": "Just let him continue — we'll ask questions later."
+      },
+      "usageNote": "'Continue to do' or 'continue doing' — both correct.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 30,
+      "word": "access",
+      "hindi": "पहुँच / एक्सेस करना",
+      "simpleMeaning": "the right or ability to use or enter something",
+      "ipa": "/ˈækses/",
+      "verbForms": {
+        "base": "access",
+        "s3": "accesses",
+        "ing": "accessing",
+        "past": "accessed",
+        "pastParticiple": "accessed"
+      },
+      "synonyms": [
+        "enter",
+        "use",
+        "retrieve"
+      ],
+      "antonyms": [
+        "block",
+        "deny",
+        "restrict"
+      ],
+      "sentences": {
+        "daily": "Don't let unauthorized people access your phone.",
+        "office": "Let the admin access the shared drive.",
+        "interview": "I have access to several data analytics tools.",
+        "business": "Let clients access the portal 24/7.",
+        "formal": "Access to the building is restricted after 8 PM.",
+        "informal": "Don't let her access your private account."
+      },
+      "usageNote": "As noun: 'access to'. As verb: 'access the file'.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 31,
+      "word": "waste",
+      "hindi": "बर्बाद करना",
+      "simpleMeaning": "to use more of something than is necessary",
+      "ipa": "/weɪst/",
+      "verbForms": {
+        "base": "waste",
+        "s3": "wastes",
+        "ing": "wasting",
+        "past": "wasted",
+        "pastParticiple": "wasted"
+      },
+      "synonyms": [
+        "squander",
+        "misuse",
+        "throw away"
+      ],
+      "antonyms": [
+        "save",
+        "conserve",
+        "use wisely"
+      ],
+      "sentences": {
+        "daily": "Don't let him waste food.",
+        "office": "Don't let meetings waste productive time.",
+        "interview": "I don't let pressure waste my focus.",
+        "business": "Don't let budget overruns waste resources.",
+        "formal": "Unnecessary delays waste valuable time.",
+        "informal": "Don't let him waste your time."
+      },
+      "usageNote": "'Waste of time/money' is a common phrase. 'Waste away' = become weak gradually.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 32,
+      "word": "distract",
+      "hindi": "ध्यान भटकाना",
+      "simpleMeaning": "to take someone's attention away from what they are doing",
+      "ipa": "/dɪˈstrækt/",
+      "verbForms": {
+        "base": "distract",
+        "s3": "distracts",
+        "ing": "distracting",
+        "past": "distracted",
+        "pastParticiple": "distracted"
+      },
+      "synonyms": [
+        "divert",
+        "disturb",
+        "sidetrack"
+      ],
+      "antonyms": [
+        "focus",
+        "concentrate",
+        "engage"
+      ],
+      "sentences": {
+        "daily": "Don't let the noise distract you from studying.",
+        "office": "Don't let them distract the team.",
+        "interview": "I don't let interruptions distract me.",
+        "business": "Don't let small problems distract from the big picture.",
+        "formal": "Irrelevant issues should not distract the committee.",
+        "informal": "Don't let him distract you — keep working."
+      },
+      "usageNote": "'Distracted by' = attention is taken by something.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 33,
+      "word": "involve",
+      "hindi": "शामिल करना",
+      "simpleMeaning": "to include someone in an activity",
+      "ipa": "/ɪnˈvɒlv/",
+      "verbForms": {
+        "base": "involve",
+        "s3": "involves",
+        "ing": "involving",
+        "past": "involved",
+        "pastParticiple": "involved"
+      },
+      "synonyms": [
+        "include",
+        "engage",
+        "incorporate"
+      ],
+      "antonyms": [
+        "exclude",
+        "leave out"
+      ],
+      "sentences": {
+        "daily": "Let me involve my brother in this decision.",
+        "office": "Let us involve all departments in the planning.",
+        "interview": "I always involve stakeholders early.",
+        "business": "Let clients be involved in product development.",
+        "formal": "All relevant parties must be involved.",
+        "informal": "Don't let him be left out — involve him."
+      },
+      "usageNote": "'Involve in' = make someone part of. 'Be involved in' = participate in.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 34,
+      "word": "inform",
+      "hindi": "सूचित करना",
+      "simpleMeaning": "to give someone information about something",
+      "ipa": "/ɪnˈfɔːrm/",
+      "verbForms": {
+        "base": "inform",
+        "s3": "informs",
+        "ing": "informing",
+        "past": "informed",
+        "pastParticiple": "informed"
+      },
+      "synonyms": [
+        "notify",
+        "tell",
+        "update"
+      ],
+      "antonyms": [
+        "withhold",
+        "hide",
+        "conceal"
+      ],
+      "sentences": {
+        "daily": "Let me inform my parents about this.",
+        "office": "Let HR inform the team about the new policy.",
+        "interview": "I kept my team informed at all times.",
+        "business": "Let us inform our clients of the change.",
+        "formal": "All staff must be informed of the new regulation.",
+        "informal": "Don't let him be uninformed — tell him."
+      },
+      "usageNote": "'Inform of/about' = tell someone. 'Informed decision' = based on knowledge.",
+      "cefrLevel": "A2",
+      "category": "Communication"
+    },
+    {
+      "id": 35,
+      "word": "protect",
+      "hindi": "सुरक्षित करना",
+      "simpleMeaning": "to keep someone or something safe from harm",
+      "ipa": "/prəˈtekt/",
+      "verbForms": {
+        "base": "protect",
+        "s3": "protects",
+        "ing": "protecting",
+        "past": "protected",
+        "pastParticiple": "protected"
+      },
+      "synonyms": [
+        "guard",
+        "defend",
+        "safeguard"
+      ],
+      "antonyms": [
+        "harm",
+        "expose",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "Don't let anyone protect a wrongdoer.",
+        "office": "Let the security team protect office assets.",
+        "interview": "I protect the company's data with strong passwords.",
+        "business": "Let us protect our brand reputation.",
+        "formal": "The law is designed to protect consumers.",
+        "informal": "Don't let him protect the bully."
+      },
+      "usageNote": "'Protect from/against': protect children from harm.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 36,
+      "word": "depend",
+      "hindi": "निर्भर होना",
+      "simpleMeaning": "to rely on someone or something",
+      "ipa": "/dɪˈpend/",
+      "verbForms": {
+        "base": "depend",
+        "s3": "depends",
+        "ing": "depending",
+        "past": "depended",
+        "pastParticiple": "depended"
+      },
+      "synonyms": [
+        "rely",
+        "count on",
+        "hinge on"
+      ],
+      "antonyms": [
+        "be independent",
+        "manage alone"
+      ],
+      "sentences": {
+        "daily": "Don't let your happiness depend on others.",
+        "office": "Let the timeline depend on the client's requirements.",
+        "interview": "My success depends on my preparation.",
+        "business": "Let growth depend on customer satisfaction.",
+        "formal": "Results depend on the quality of inputs.",
+        "informal": "Don't let your mood depend on his mood."
+      },
+      "usageNote": "'Depend on' = rely on. 'It depends' = it varies (without 'on' in casual speech).",
+      "cefrLevel": "A2",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 37,
+      "word": "rush",
+      "hindi": "जल्दी करना / भागना",
+      "simpleMeaning": "to do something very quickly",
+      "ipa": "/rʌʃ/",
+      "verbForms": {
+        "base": "rush",
+        "s3": "rushes",
+        "ing": "rushing",
+        "past": "rushed",
+        "pastParticiple": "rushed"
+      },
+      "synonyms": [
+        "hurry",
+        "hasten",
+        "dash"
+      ],
+      "antonyms": [
+        "delay",
+        "slow down",
+        "take time"
+      ],
+      "sentences": {
+        "daily": "Don't let him rush through his meals.",
+        "office": "Don't let the team rush the quality checks.",
+        "interview": "I never rush my answers in an interview.",
+        "business": "Don't let urgency rush a bad decision.",
+        "formal": "Rushed decisions often lead to poor outcomes.",
+        "informal": "Don't rush me — let me think."
+      },
+      "usageNote": "'Rush hour' = peak traffic time. 'In a rush' = in a hurry.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 38,
+      "word": "disappoint",
+      "hindi": "निराश करना",
+      "simpleMeaning": "to fail to meet someone's expectations",
+      "ipa": "/ˌdɪsəˈpɔɪnt/",
+      "verbForms": {
+        "base": "disappoint",
+        "s3": "disappoints",
+        "ing": "disappointing",
+        "past": "disappointed",
+        "pastParticiple": "disappointed"
+      },
+      "synonyms": [
+        "let down",
+        "fail",
+        "disillusion"
+      ],
+      "antonyms": [
+        "satisfy",
+        "please",
+        "fulfill"
+      ],
+      "sentences": {
+        "daily": "Don't let him disappoint his parents.",
+        "office": "Don't let a small mistake disappoint the client.",
+        "interview": "I never let my team down.",
+        "business": "Don't let poor service disappoint customers.",
+        "formal": "The company strives never to disappoint its stakeholders.",
+        "informal": "Don't let her disappoint you again."
+      },
+      "usageNote": "'Disappoint' someone = let them down. 'Be disappointed in/with' someone.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 39,
+      "word": "motivate",
+      "hindi": "प्रेरित करना",
+      "simpleMeaning": "to make someone feel enthusiastic to do something",
+      "ipa": "/ˈmoʊtɪveɪt/",
+      "verbForms": {
+        "base": "motivate",
+        "s3": "motivates",
+        "ing": "motivating",
+        "past": "motivated",
+        "pastParticiple": "motivated"
+      },
+      "synonyms": [
+        "inspire",
+        "encourage",
+        "drive"
+      ],
+      "antonyms": [
+        "discourage",
+        "demotivate"
+      ],
+      "sentences": {
+        "daily": "Let positive stories motivate you.",
+        "office": "Let the manager motivate the team.",
+        "interview": "I am motivated by challenges.",
+        "business": "Let customer feedback motivate product improvements.",
+        "formal": "Leadership must motivate employees to excel.",
+        "informal": "Let him motivate himself — don't force it."
+      },
+      "usageNote": "'Motivated by' = driven by a reason. 'Motivate to do' = encourage to act.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 40,
+      "word": "focus",
+      "hindi": "ध्यान केंद्रित करना / केंद्र बिंदु",
+      "simpleMeaning": "to concentrate on one thing",
+      "ipa": "/ˈfoʊkəs/",
+      "verbForms": {
+        "base": "focus",
+        "s3": "focuses",
+        "ing": "focusing",
+        "past": "focused",
+        "pastParticiple": "focused"
+      },
+      "synonyms": [
+        "concentrate",
+        "center",
+        "attend"
+      ],
+      "antonyms": [
+        "distract",
+        "scatter",
+        "lose focus"
+      ],
+      "sentences": {
+        "daily": "Let me focus on one task at a time.",
+        "office": "Let the team focus on the final delivery.",
+        "interview": "Let me focus on my biggest achievement.",
+        "business": "Let us focus on profitability this quarter.",
+        "formal": "The workshop helps participants focus on priorities.",
+        "informal": "Don't let distractions break your focus."
+      },
+      "usageNote": "'Focus on' = pay attention to. 'In focus / out of focus' (photography).",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 41,
+      "word": "challenge",
+      "hindi": "चुनौती देना / चुनौती",
+      "simpleMeaning": "to question or test something; a difficult task",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "verbForms": {
+        "base": "challenge",
+        "s3": "challenges",
+        "ing": "challenging",
+        "past": "challenged",
+        "pastParticiple": "challenged"
+      },
+      "synonyms": [
+        "contest",
+        "question",
+        "test"
+      ],
+      "antonyms": [
+        "accept",
+        "concede"
+      ],
+      "sentences": {
+        "daily": "Let life's challenges make you stronger.",
+        "office": "Let him challenge the status quo.",
+        "interview": "Don't let a challenge become an excuse.",
+        "business": "Let us challenge our competitors with better quality.",
+        "formal": "The team was challenged to exceed targets.",
+        "informal": "Let me challenge you — can you do 50 questions today?"
+      },
+      "usageNote": "'Challenge' as noun = a difficult task. As verb = to question or dare.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 42,
+      "word": "negotiate",
+      "hindi": "बातचीत / समझौता करना",
+      "simpleMeaning": "to discuss to reach an agreement",
+      "ipa": "/nɪˈɡoʊʃieɪt/",
+      "verbForms": {
+        "base": "negotiate",
+        "s3": "negotiates",
+        "ing": "negotiating",
+        "past": "negotiated",
+        "pastParticiple": "negotiated"
+      },
+      "synonyms": [
+        "bargain",
+        "discuss",
+        "mediate"
+      ],
+      "antonyms": [
+        "force",
+        "dictate",
+        "impose"
+      ],
+      "sentences": {
+        "daily": "Let me negotiate a better price.",
+        "office": "Let the senior manager negotiate the contract.",
+        "interview": "I have negotiated vendor contracts worth ₹50 lakh.",
+        "business": "Let us negotiate the terms before signing.",
+        "formal": "Both parties negotiated in good faith.",
+        "informal": "Don't let them negotiate without you."
+      },
+      "usageNote": "'Negotiate with' someone, 'negotiate for' something.",
+      "cefrLevel": "B2",
+      "category": "Office/Business"
+    },
+    {
+      "id": 43,
+      "word": "delegate",
+      "hindi": "सौंपना / प्रतिनिधि बनाना",
+      "simpleMeaning": "to give part of your work to someone else",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "verbForms": {
+        "base": "delegate",
+        "s3": "delegates",
+        "ing": "delegating",
+        "past": "delegated",
+        "pastParticiple": "delegated"
+      },
+      "synonyms": [
+        "assign",
+        "entrust",
+        "hand over"
+      ],
+      "antonyms": [
+        "micromanage",
+        "retain",
+        "keep"
+      ],
+      "sentences": {
+        "daily": "Let me delegate some tasks to save time.",
+        "office": "Let him delegate work to the junior team.",
+        "interview": "I believe in delegating to build team capability.",
+        "business": "Let the manager delegate routine work.",
+        "formal": "Effective leaders delegate responsibilities wisely.",
+        "informal": "Let her delegate — she can't do everything alone."
+      },
+      "usageNote": "'Delegate to' = assign to. A 'delegate' (noun) = a representative at a conference.",
+      "cefrLevel": "B2",
+      "category": "Office/Business"
+    },
+    {
+      "id": 44,
+      "word": "monitor",
+      "hindi": "निगरानी रखना",
+      "simpleMeaning": "to watch and check something regularly",
+      "ipa": "/ˈmɒnɪtər/",
+      "verbForms": {
+        "base": "monitor",
+        "s3": "monitors",
+        "ing": "monitoring",
+        "past": "monitored",
+        "pastParticiple": "monitored"
+      },
+      "synonyms": [
+        "track",
+        "watch",
+        "supervise"
+      ],
+      "antonyms": [
+        "ignore",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "Let me monitor my child's screen time.",
+        "office": "Let the team lead monitor daily progress.",
+        "interview": "I monitor project metrics regularly.",
+        "business": "Let us monitor sales on a weekly basis.",
+        "formal": "All employees' performance is monitored quarterly.",
+        "informal": "Don't let issues go unmonitored."
+      },
+      "usageNote": "'Monitor' implies ongoing, regular checking.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 45,
+      "word": "evaluate",
+      "hindi": "मूल्यांकन करना",
+      "simpleMeaning": "to assess the quality or value of something",
+      "ipa": "/ɪˈvæljueɪt/",
+      "verbForms": {
+        "base": "evaluate",
+        "s3": "evaluates",
+        "ing": "evaluating",
+        "past": "evaluated",
+        "pastParticiple": "evaluated"
+      },
+      "synonyms": [
+        "assess",
+        "judge",
+        "review"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "Let me evaluate all options before deciding.",
+        "office": "Let the panel evaluate the candidates.",
+        "interview": "Let me evaluate what this role needs.",
+        "business": "Let data evaluate our marketing ROI.",
+        "formal": "Performance is evaluated annually.",
+        "informal": "Let him evaluate it — he has the expertise."
+      },
+      "usageNote": "'Evaluate' is more formal than 'assess'. Both followed by direct object.",
+      "cefrLevel": "B2",
+      "category": "Office/Business"
+    },
+    {
+      "id": 46,
+      "word": "postpone",
+      "hindi": "स्थगित करना",
+      "simpleMeaning": "to change an event to a later time",
+      "ipa": "/poʊstˈpoʊn/",
+      "verbForms": {
+        "base": "postpone",
+        "s3": "postpones",
+        "ing": "postponing",
+        "past": "postponed",
+        "pastParticiple": "postponed"
+      },
+      "synonyms": [
+        "delay",
+        "defer",
+        "put off"
+      ],
+      "antonyms": [
+        "advance",
+        "bring forward",
+        "schedule"
+      ],
+      "sentences": {
+        "daily": "Don't let him postpone his studies.",
+        "office": "Let us postpone the meeting to tomorrow.",
+        "interview": "I never postpone important decisions.",
+        "business": "Don't let the launch be postponed without reason.",
+        "formal": "The hearing was postponed due to unavailability.",
+        "informal": "Don't let them postpone it again."
+      },
+      "usageNote": "'Postpone to' a future date. 'Postpone until' = delay until.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 47,
+      "word": "resign",
+      "hindi": "इस्तीफा देना",
+      "simpleMeaning": "to formally leave a job",
+      "ipa": "/rɪˈzaɪn/",
+      "verbForms": {
+        "base": "resign",
+        "s3": "resigns",
+        "ing": "resigning",
+        "past": "resigned",
+        "pastParticiple": "resigned"
+      },
+      "synonyms": [
+        "quit",
+        "step down",
+        "leave"
+      ],
+      "antonyms": [
+        "join",
+        "accept",
+        "stay"
+      ],
+      "sentences": {
+        "daily": "Don't let frustration push him to resign.",
+        "office": "Let him resign if he wants — that's his right.",
+        "interview": "I resigned to pursue better opportunities.",
+        "business": "Don't let a key employee resign without knowing why.",
+        "formal": "She resigned from her post with one month's notice.",
+        "informal": "Don't let small issues make you resign."
+      },
+      "usageNote": "'Resign from' a position. 'Be resigned to' = accept something unwillingly.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 48,
+      "word": "encourage",
+      "hindi": "प्रोत्साहित करना",
+      "simpleMeaning": "to give someone confidence to do something",
+      "ipa": "/ɪnˈkɜːrɪdʒ/",
+      "verbForms": {
+        "base": "encourage",
+        "s3": "encourages",
+        "ing": "encouraging",
+        "past": "encouraged",
+        "pastParticiple": "encouraged"
+      },
+      "synonyms": [
+        "motivate",
+        "support",
+        "inspire"
+      ],
+      "antonyms": [
+        "discourage",
+        "dissuade",
+        "demotivate"
+      ],
+      "sentences": {
+        "daily": "Let me encourage him to try again.",
+        "office": "Let the manager encourage creative thinking.",
+        "interview": "I believe in encouraging my teammates.",
+        "business": "Let positive reviews encourage more customers.",
+        "formal": "Teachers are encouraged to let students explore.",
+        "informal": "Don't let him give up — encourage him!"
+      },
+      "usageNote": "'Encourage to do': encourage him to speak up.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 49,
+      "word": "accompany",
+      "hindi": "साथ जाना / साथ देना",
+      "simpleMeaning": "to go somewhere with someone",
+      "ipa": "/əˈkʌmpəni/",
+      "verbForms": {
+        "base": "accompany",
+        "s3": "accompanies",
+        "ing": "accompanying",
+        "past": "accompanied",
+        "pastParticiple": "accompanied"
+      },
+      "synonyms": [
+        "escort",
+        "go with",
+        "join"
+      ],
+      "antonyms": [
+        "abandon",
+        "leave",
+        "go alone"
+      ],
+      "sentences": {
+        "daily": "Let me accompany you to the hospital.",
+        "office": "Let her accompany the senior officer.",
+        "interview": "I accompanied my manager to three client meetings.",
+        "business": "Let our representative accompany you on the site visit.",
+        "formal": "Guests were accompanied to their seats.",
+        "informal": "Let him accompany us — he knows the area."
+      },
+      "usageNote": "'Accompany' is more formal than 'go with'.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 50,
+      "word": "express",
+      "hindi": "व्यक्त करना",
+      "simpleMeaning": "to show feelings or thoughts in words",
+      "ipa": "/ɪkˈspres/",
+      "verbForms": {
+        "base": "express",
+        "s3": "expresses",
+        "ing": "expressing",
+        "past": "expressed",
+        "pastParticiple": "expressed"
+      },
+      "synonyms": [
+        "convey",
+        "communicate",
+        "voice"
+      ],
+      "antonyms": [
+        "suppress",
+        "hide",
+        "conceal"
+      ],
+      "sentences": {
+        "daily": "Let me express my gratitude.",
+        "office": "Let him express his opinion in the meeting.",
+        "interview": "Let me express why I am perfect for this role.",
+        "business": "Let your brand express its values clearly.",
+        "formal": "Employees are encouraged to express concerns freely.",
+        "informal": "Don't let your fear stop you from expressing yourself."
+      },
+      "usageNote": "'Express yourself' = communicate who you are. 'Express delivery' = fast shipping.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 51,
+      "word": "achieve",
+      "hindi": "हासिल करना",
+      "simpleMeaning": "to successfully reach a goal",
+      "ipa": "/əˈtʃiːv/",
+      "verbForms": {
+        "base": "achieve",
+        "s3": "achieves",
+        "ing": "achieving",
+        "past": "achieved",
+        "pastParticiple": "achieved"
+      },
+      "synonyms": [
+        "accomplish",
+        "attain",
+        "reach"
+      ],
+      "antonyms": [
+        "fail",
+        "miss",
+        "give up"
+      ],
+      "sentences": {
+        "daily": "Let hard work help you achieve your dreams.",
+        "office": "Let the team achieve their targets.",
+        "interview": "Let me tell you what I have achieved.",
+        "business": "Let results achieve themselves through good process.",
+        "formal": "The project achieved all its milestones.",
+        "informal": "Don't let fear stop you from achieving."
+      },
+      "usageNote": "'Achieve' implies effort. 'Achieve a goal/target/result'.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 52,
+      "word": "hesitate",
+      "hindi": "हिचकिचाना",
+      "simpleMeaning": "to pause because of uncertainty",
+      "ipa": "/ˈhezɪteɪt/",
+      "verbForms": {
+        "base": "hesitate",
+        "s3": "hesitates",
+        "ing": "hesitating",
+        "past": "hesitated",
+        "pastParticiple": "hesitated"
+      },
+      "synonyms": [
+        "pause",
+        "waver",
+        "be uncertain"
+      ],
+      "antonyms": [
+        "decide",
+        "act quickly",
+        "commit"
+      ],
+      "sentences": {
+        "daily": "Don't let him hesitate — the time is now.",
+        "office": "Don't let uncertainty make you hesitate.",
+        "interview": "Please don't hesitate to ask me anything.",
+        "business": "Don't let clients hesitate — give them a clear CTA.",
+        "formal": "She hesitated before signing the document.",
+        "informal": "Don't hesitate — let me know if you need help."
+      },
+      "usageNote": "'Hesitate to do': I don't hesitate to ask questions.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 53,
+      "word": "realize",
+      "hindi": "एहसास होना / जानना",
+      "simpleMeaning": "to become aware of something",
+      "ipa": "/ˈriːəlaɪz/",
+      "verbForms": {
+        "base": "realize",
+        "s3": "realizes",
+        "ing": "realizing",
+        "past": "realized",
+        "pastParticiple": "realized"
+      },
+      "synonyms": [
+        "understand",
+        "discover",
+        "recognize"
+      ],
+      "antonyms": [
+        "miss",
+        "overlook",
+        "be unaware"
+      ],
+      "sentences": {
+        "daily": "Let me realize my own potential.",
+        "office": "Let him realize his mistake on his own.",
+        "interview": "I realized early that communication is key.",
+        "business": "Let the market realize the value of your product.",
+        "formal": "The team realized the gravity of the situation.",
+        "informal": "Don't let it be too late when he realizes."
+      },
+      "usageNote": "British: 'realise'. Both correct. 'Realize + that clause'.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 54,
+      "word": "respond",
+      "hindi": "जवाब देना",
+      "simpleMeaning": "to say or do something in reply",
+      "ipa": "/rɪˈspɒnd/",
+      "verbForms": {
+        "base": "respond",
+        "s3": "responds",
+        "ing": "responding",
+        "past": "responded",
+        "pastParticiple": "responded"
+      },
+      "synonyms": [
+        "reply",
+        "answer",
+        "react"
+      ],
+      "antonyms": [
+        "ignore",
+        "stay silent"
+      ],
+      "sentences": {
+        "daily": "Let me respond to his message.",
+        "office": "Let her respond to client queries.",
+        "interview": "Let me respond to that question with an example.",
+        "business": "Don't let customer emails go without a response.",
+        "formal": "All complaints must be responded to within 48 hours.",
+        "informal": "Let him respond — give him time."
+      },
+      "usageNote": "'Respond to' something. More formal than 'reply'.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 55,
+      "word": "invest",
+      "hindi": "निवेश करना",
+      "simpleMeaning": "to put money or time into something for future benefit",
+      "ipa": "/ɪnˈvest/",
+      "verbForms": {
+        "base": "invest",
+        "s3": "invests",
+        "ing": "investing",
+        "past": "invested",
+        "pastParticiple": "invested"
+      },
+      "synonyms": [
+        "fund",
+        "put in",
+        "commit"
+      ],
+      "antonyms": [
+        "withdraw",
+        "take out",
+        "divest"
+      ],
+      "sentences": {
+        "daily": "Let me invest in my education first.",
+        "office": "Let the company invest in employee training.",
+        "interview": "I invest time in learning new skills.",
+        "business": "Let us invest in digital marketing.",
+        "formal": "Investors are encouraged to invest wisely.",
+        "informal": "Don't let him invest in something risky."
+      },
+      "usageNote": "'Invest in' something. 'Investment' is the noun.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 56,
+      "word": "ignore",
+      "hindi": "नजरअंदाज करना",
+      "simpleMeaning": "to not pay attention to something",
+      "ipa": "/ɪɡˈnɔːr/",
+      "verbForms": {
+        "base": "ignore",
+        "s3": "ignores",
+        "ing": "ignoring",
+        "past": "ignored",
+        "pastParticiple": "ignored"
+      },
+      "synonyms": [
+        "overlook",
+        "disregard",
+        "dismiss"
+      ],
+      "antonyms": [
+        "acknowledge",
+        "notice",
+        "address"
+      ],
+      "sentences": {
+        "daily": "Don't let him ignore his health issues.",
+        "office": "Don't ignore feedback from your team.",
+        "interview": "I never ignore customer pain points.",
+        "business": "Don't let quality issues be ignored.",
+        "formal": "It would be unwise to ignore these findings.",
+        "informal": "Don't let her ignore you — speak up."
+      },
+      "usageNote": "Ignoring is a deliberate action, unlike 'not noticing' which can be unintentional.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 57,
+      "word": "opportunity",
+      "hindi": "अवसर / मौका",
+      "simpleMeaning": "a chance to do something beneficial",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "verbForms": {
+        "base": "N/A",
+        "s3": "N/A",
+        "ing": "N/A",
+        "past": "N/A",
+        "pastParticiple": "N/A"
+      },
+      "synonyms": [
+        "chance",
+        "opening",
+        "occasion"
+      ],
+      "antonyms": [
+        "obstacle",
+        "barrier",
+        "threat"
+      ],
+      "sentences": {
+        "daily": "Don't let this opportunity pass.",
+        "office": "Let every challenge be an opportunity.",
+        "interview": "This role is a great opportunity for me.",
+        "business": "Don't let market opportunities go unexplored.",
+        "formal": "The management presented a unique opportunity.",
+        "informal": "Don't let him miss this opportunity!"
+      },
+      "usageNote": "'Take the opportunity to do' = use the chance. 'Miss an opportunity'.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 58,
+      "word": "permission",
+      "hindi": "अनुमति / इजाज़त",
+      "simpleMeaning": "the right to do something",
+      "ipa": "/pərˈmɪʃn/",
+      "verbForms": {
+        "base": "N/A",
+        "s3": "N/A",
+        "ing": "N/A",
+        "past": "N/A",
+        "pastParticiple": "N/A"
+      },
+      "synonyms": [
+        "approval",
+        "consent",
+        "authorization"
+      ],
+      "antonyms": [
+        "refusal",
+        "denial",
+        "ban"
+      ],
+      "sentences": {
+        "daily": "Let me ask for permission first.",
+        "office": "Let the department head grant permission.",
+        "interview": "I always seek permission before taking major steps.",
+        "business": "Don't let processes work without proper permission.",
+        "formal": "Written permission is required.",
+        "informal": "Did he give you permission to do that?"
+      },
+      "usageNote": "'With/without permission'. 'Grant permission'. 'Ask for permission'.",
+      "cefrLevel": "A2",
+      "category": "Permission Verbs"
+    },
+    {
+      "id": 59,
+      "word": "patience",
+      "hindi": "धैर्य",
+      "simpleMeaning": "the ability to wait calmly",
+      "ipa": "/ˈpeɪʃns/",
+      "verbForms": {
+        "base": "N/A",
+        "s3": "N/A",
+        "ing": "N/A",
+        "past": "N/A",
+        "pastParticiple": "N/A"
+      },
+      "synonyms": [
+        "tolerance",
+        "endurance",
+        "calmness"
+      ],
+      "antonyms": [
+        "impatience",
+        "restlessness"
+      ],
+      "sentences": {
+        "daily": "Let patience guide your actions.",
+        "office": "Don't let impatience ruin the negotiation.",
+        "interview": "Let me demonstrate patience under pressure.",
+        "business": "Don't let urgency kill patience.",
+        "formal": "Patience is a virtue every professional must cultivate.",
+        "informal": "Let him take his time — have some patience."
+      },
+      "usageNote": "'Be patient' = adjective form. 'Patience' is uncountable.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 60,
+      "word": "interrupt",
+      "hindi": "बाधा डालना",
+      "simpleMeaning": "to stop someone in the middle of speaking",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "verbForms": {
+        "base": "interrupt",
+        "s3": "interrupts",
+        "ing": "interrupting",
+        "past": "interrupted",
+        "pastParticiple": "interrupted"
+      },
+      "synonyms": [
+        "cut off",
+        "disturb",
+        "break in"
+      ],
+      "antonyms": [
+        "let speak",
+        "continue",
+        "allow"
+      ],
+      "sentences": {
+        "daily": "Don't let him interrupt others.",
+        "office": "Please let me finish — don't interrupt.",
+        "interview": "I don't let anyone interrupt the meeting flow.",
+        "business": "Don't let minor issues interrupt operations.",
+        "formal": "Interrupting the speaker is considered disrespectful.",
+        "informal": "Don't interrupt — let her finish!"
+      },
+      "usageNote": "'Interrupt' someone. 'Without interruption' = continuously.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 61,
+      "word": "slip",
+      "hindi": "फिसलना / चूकना",
+      "simpleMeaning": "to slide accidentally or to go unnoticed",
+      "ipa": "/slɪp/",
+      "verbForms": {
+        "base": "slip",
+        "s3": "slips",
+        "ing": "slipping",
+        "past": "slipped",
+        "pastParticiple": "slipped"
+      },
+      "synonyms": [
+        "slide",
+        "miss",
+        "escape"
+      ],
+      "antonyms": [
+        "hold",
+        "grasp",
+        "catch"
+      ],
+      "sentences": {
+        "daily": "Don't let the glass slip from your hand.",
+        "office": "Don't let important emails slip through.",
+        "interview": "Don't let a chance slip away.",
+        "business": "Don't let profit margins slip.",
+        "formal": "He let the deadline slip without notice.",
+        "informal": "Don't let it slip — remind him daily."
+      },
+      "usageNote": "'Let it slip' = accidentally reveal. 'Slip away' = go unnoticed.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 62,
+      "word": "burden",
+      "hindi": "बोझ",
+      "simpleMeaning": "a heavy load or responsibility",
+      "ipa": "/ˈbɜːrdn/",
+      "verbForms": {
+        "base": "burden",
+        "s3": "burdens",
+        "ing": "burdening",
+        "past": "burdened",
+        "pastParticiple": "burdened"
+      },
+      "synonyms": [
+        "load",
+        "strain",
+        "weight"
+      ],
+      "antonyms": [
+        "relief",
+        "ease",
+        "lightness"
+      ],
+      "sentences": {
+        "daily": "Don't let worries burden you.",
+        "office": "Don't let one person carry all the burden.",
+        "interview": "I don't let stress burden my performance.",
+        "business": "Don't let debt burden your business.",
+        "formal": "The tax burden must be fairly distributed.",
+        "informal": "Don't let him burden you with his problems."
+      },
+      "usageNote": "'Be burdened with/by' something. 'Burden of proof' = legal term.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 63,
+      "word": "struggle",
+      "hindi": "संघर्ष करना",
+      "simpleMeaning": "to try hard in difficult circumstances",
+      "ipa": "/ˈstrʌɡl/",
+      "verbForms": {
+        "base": "struggle",
+        "s3": "struggles",
+        "ing": "struggling",
+        "past": "struggled",
+        "pastParticiple": "struggled"
+      },
+      "synonyms": [
+        "fight",
+        "strive",
+        "battle"
+      ],
+      "antonyms": [
+        "succeed easily",
+        "give up"
+      ],
+      "sentences": {
+        "daily": "Don't let him struggle alone — help him.",
+        "office": "Let the team identify where they struggle.",
+        "interview": "I struggled initially but adapted quickly.",
+        "business": "Don't let cash flow struggles sink the business.",
+        "formal": "The organization struggled during the economic downturn.",
+        "informal": "Let her struggle a little — it builds strength."
+      },
+      "usageNote": "'Struggle with' a problem. 'Struggle to do' something difficult.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 64,
+      "word": "proceed",
+      "hindi": "आगे बढ़ना",
+      "simpleMeaning": "to go forward or continue",
+      "ipa": "/prəˈsiːd/",
+      "verbForms": {
+        "base": "proceed",
+        "s3": "proceeds",
+        "ing": "proceeding",
+        "past": "proceeded",
+        "pastParticiple": "proceeded"
+      },
+      "synonyms": [
+        "continue",
+        "advance",
+        "move forward"
+      ],
+      "antonyms": [
+        "stop",
+        "pause",
+        "retreat"
+      ],
+      "sentences": {
+        "daily": "Let me proceed with my plan.",
+        "office": "Let the work proceed without interruptions.",
+        "interview": "Please let me proceed — I'll be brief.",
+        "business": "Let the deal proceed to the next stage.",
+        "formal": "The project will proceed as planned.",
+        "informal": "Let him proceed — we'll interrupt if needed."
+      },
+      "usageNote": "'Proceed with/to': proceed with the plan. Formal alternative to 'continue'.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 65,
+      "word": "appoint",
+      "hindi": "नियुक्त करना",
+      "simpleMeaning": "to officially choose someone for a job",
+      "ipa": "/əˈpɔɪnt/",
+      "verbForms": {
+        "base": "appoint",
+        "s3": "appoints",
+        "ing": "appointing",
+        "past": "appointed",
+        "pastParticiple": "appointed"
+      },
+      "synonyms": [
+        "designate",
+        "assign",
+        "name"
+      ],
+      "antonyms": [
+        "dismiss",
+        "fire",
+        "remove"
+      ],
+      "sentences": {
+        "daily": "Let the family appoint a spokesperson.",
+        "office": "Let the board appoint a new director.",
+        "interview": "I was appointed project lead in my previous role.",
+        "business": "Let us appoint an expert consultant.",
+        "formal": "The committee appointed a three-member panel.",
+        "informal": "Let him appoint whoever he trusts."
+      },
+      "usageNote": "'Appoint as': She was appointed as head. 'Appointment' = noun.",
+      "cefrLevel": "B2",
+      "category": "Office/Business"
+    },
+    {
+      "id": 66,
+      "word": "clarify",
+      "hindi": "स्पष्ट करना",
+      "simpleMeaning": "to make something clearer",
+      "ipa": "/ˈklærɪfaɪ/",
+      "verbForms": {
+        "base": "clarify",
+        "s3": "clarifies",
+        "ing": "clarifying",
+        "past": "clarified",
+        "pastParticiple": "clarified"
+      },
+      "synonyms": [
+        "explain",
+        "elaborate",
+        "clear up"
+      ],
+      "antonyms": [
+        "confuse",
+        "complicate",
+        "obscure"
+      ],
+      "sentences": {
+        "daily": "Let me clarify what I mean.",
+        "office": "Let her clarify the instructions before we start.",
+        "interview": "Let me clarify my previous point.",
+        "business": "Let us clarify the scope of work.",
+        "formal": "The speaker clarified the ambiguous points.",
+        "informal": "Let him clarify — he probably didn't mean it that way."
+      },
+      "usageNote": "'Clarify' implies removing confusion. More formal than 'explain'.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 67,
+      "word": "execute",
+      "hindi": "क्रियान्वित करना",
+      "simpleMeaning": "to carry out or perform a task",
+      "ipa": "/ˈeksɪkjuːt/",
+      "verbForms": {
+        "base": "execute",
+        "s3": "executes",
+        "ing": "executing",
+        "past": "executed",
+        "pastParticiple": "executed"
+      },
+      "synonyms": [
+        "carry out",
+        "implement",
+        "perform"
+      ],
+      "antonyms": [
+        "plan only",
+        "abandon",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let me execute this plan step by step.",
+        "office": "Let the team execute the strategy.",
+        "interview": "I execute tasks with full attention to detail.",
+        "business": "Let us execute the launch campaign.",
+        "formal": "The project was executed on time and within budget.",
+        "informal": "Let him execute — he knows what he's doing."
+      },
+      "usageNote": "'Execute a plan/task'. Different from 'execute' meaning death penalty — context matters.",
+      "cefrLevel": "B2",
+      "category": "Office/Business"
+    },
+    {
+      "id": 68,
+      "word": "convince",
+      "hindi": "मनाना / समझाना",
+      "simpleMeaning": "to make someone believe something",
+      "ipa": "/kənˈvɪns/",
+      "verbForms": {
+        "base": "convince",
+        "s3": "convinces",
+        "ing": "convincing",
+        "past": "convinced",
+        "pastParticiple": "convinced"
+      },
+      "synonyms": [
+        "persuade",
+        "win over",
+        "influence"
+      ],
+      "antonyms": [
+        "dissuade",
+        "discourage"
+      ],
+      "sentences": {
+        "daily": "Let me convince you with facts.",
+        "office": "Let the data convince the management.",
+        "interview": "Let me convince you I am the right candidate.",
+        "business": "Let the results convince potential investors.",
+        "formal": "Evidence must convince the jury.",
+        "informal": "Let him convince her — he's better at it."
+      },
+      "usageNote": "'Convince someone to do' = persuade. 'Be convinced' = fully believe.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 69,
+      "word": "assist",
+      "hindi": "सहायता करना",
+      "simpleMeaning": "to help someone",
+      "ipa": "/əˈsɪst/",
+      "verbForms": {
+        "base": "assist",
+        "s3": "assists",
+        "ing": "assisting",
+        "past": "assisted",
+        "pastParticiple": "assisted"
+      },
+      "synonyms": [
+        "help",
+        "support",
+        "aid"
+      ],
+      "antonyms": [
+        "hinder",
+        "obstruct",
+        "impede"
+      ],
+      "sentences": {
+        "daily": "Let me assist you with the luggage.",
+        "office": "Let the intern assist with research.",
+        "interview": "I assist my team in solving complex problems.",
+        "business": "Let our support team assist you.",
+        "formal": "The officer assisted citizens during the crisis.",
+        "informal": "Let her assist — she wants to help."
+      },
+      "usageNote": "'Assist in/with': assist in completing. More formal than 'help'.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 70,
+      "word": "inspect",
+      "hindi": "जाँचना / निरीक्षण करना",
+      "simpleMeaning": "to examine something carefully",
+      "ipa": "/ɪnˈspekt/",
+      "verbForms": {
+        "base": "inspect",
+        "s3": "inspects",
+        "ing": "inspecting",
+        "past": "inspected",
+        "pastParticiple": "inspected"
+      },
+      "synonyms": [
+        "examine",
+        "check",
+        "review"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "Let me inspect the car before buying.",
+        "office": "Let the quality team inspect the product.",
+        "interview": "I inspect my own work before submitting.",
+        "business": "Let an auditor inspect the accounts.",
+        "formal": "The premises were inspected for compliance.",
+        "informal": "Let him inspect it — he'll find any problem."
+      },
+      "usageNote": "'Inspection' = noun. 'Inspect for' issues/defects.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 71,
+      "word": "propose",
+      "hindi": "प्रस्ताव रखना",
+      "simpleMeaning": "to put forward a plan or idea formally",
+      "ipa": "/prəˈpoʊz/",
+      "verbForms": {
+        "base": "propose",
+        "s3": "proposes",
+        "ing": "proposing",
+        "past": "proposed",
+        "pastParticiple": "proposed"
+      },
+      "synonyms": [
+        "suggest",
+        "recommend",
+        "submit"
+      ],
+      "antonyms": [
+        "oppose",
+        "withdraw",
+        "reject"
+      ],
+      "sentences": {
+        "daily": "Let me propose a solution.",
+        "office": "Let her propose the agenda for the meeting.",
+        "interview": "Let me propose how I'd approach this project.",
+        "business": "Let us propose a partnership.",
+        "formal": "The committee proposed a new resolution.",
+        "informal": "Let him propose — it's his idea."
+      },
+      "usageNote": "'Propose to do / propose doing'. 'Propose to someone' = ask them to marry.",
+      "cefrLevel": "B2",
+      "category": "Communication"
+    },
+    {
+      "id": 72,
+      "word": "reject",
+      "hindi": "अस्वीकार करना",
+      "simpleMeaning": "to refuse to accept something",
+      "ipa": "/rɪˈdʒekt/",
+      "verbForms": {
+        "base": "reject",
+        "s3": "rejects",
+        "ing": "rejecting",
+        "past": "rejected",
+        "pastParticiple": "rejected"
+      },
+      "synonyms": [
+        "refuse",
+        "deny",
+        "dismiss"
+      ],
+      "antonyms": [
+        "accept",
+        "approve",
+        "endorse"
+      ],
+      "sentences": {
+        "daily": "Don't let rejection stop you from trying.",
+        "office": "Don't let the manager reject good ideas without hearing them.",
+        "interview": "I learn from every rejection.",
+        "business": "Don't let the client reject the proposal without a counter-offer.",
+        "formal": "The application was rejected due to incomplete documents.",
+        "informal": "Don't let one rejection hurt you."
+      },
+      "usageNote": "'Reject' (verb) vs 'rejection' (noun). 'Reject an idea/proposal'.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 73,
+      "word": "submit",
+      "hindi": "जमा करना / प्रस्तुत करना",
+      "simpleMeaning": "to formally present something",
+      "ipa": "/səbˈmɪt/",
+      "verbForms": {
+        "base": "submit",
+        "s3": "submits",
+        "ing": "submitting",
+        "past": "submitted",
+        "pastParticiple": "submitted"
+      },
+      "synonyms": [
+        "present",
+        "hand in",
+        "file"
+      ],
+      "antonyms": [
+        "withdraw",
+        "hold back"
+      ],
+      "sentences": {
+        "daily": "Let me submit this form online.",
+        "office": "Let him submit the report by end of day.",
+        "interview": "I submitted my resume a week before the deadline.",
+        "business": "Let us submit the bid today.",
+        "formal": "All submissions must be made by noon.",
+        "informal": "Don't let him submit without proofreading."
+      },
+      "usageNote": "'Submit to' an authority. 'Submit for review'.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 74,
+      "word": "improve",
+      "hindi": "सुधारना",
+      "simpleMeaning": "to make or become better",
+      "ipa": "/ɪmˈpruːv/",
+      "verbForms": {
+        "base": "improve",
+        "s3": "improves",
+        "ing": "improving",
+        "past": "improved",
+        "pastParticiple": "improved"
+      },
+      "synonyms": [
+        "enhance",
+        "develop",
+        "upgrade"
+      ],
+      "antonyms": [
+        "worsen",
+        "deteriorate",
+        "decline"
+      ],
+      "sentences": {
+        "daily": "Let me improve my English every day.",
+        "office": "Let the team improve the workflow.",
+        "interview": "Let me tell you how I improved my last project.",
+        "business": "Don't let quality improvement be an afterthought.",
+        "formal": "Processes were continuously improved over the year.",
+        "informal": "Let him improve — give him time."
+      },
+      "usageNote": "'Improve on' = do better than before. 'Improvement' = noun.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 75,
+      "word": "overcome",
+      "hindi": "पार करना / जीतना",
+      "simpleMeaning": "to succeed in dealing with a problem",
+      "ipa": "/ˌoʊvərˈkʌm/",
+      "verbForms": {
+        "base": "overcome",
+        "s3": "overcomes",
+        "ing": "overcoming",
+        "past": "overcame",
+        "pastParticiple": "overcome"
+      },
+      "synonyms": [
+        "conquer",
+        "defeat",
+        "surmount"
+      ],
+      "antonyms": [
+        "succumb",
+        "fail",
+        "yield"
+      ],
+      "sentences": {
+        "daily": "Let me overcome this fear step by step.",
+        "office": "Let the team overcome this obstacle together.",
+        "interview": "Let me tell you how I overcame a major challenge.",
+        "business": "Don't let competition overcome your strengths.",
+        "formal": "The organization overcame the crisis through planning.",
+        "informal": "Let him overcome it himself — it'll build confidence."
+      },
+      "usageNote": "Irregular: overcome → overcame → overcome.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 76,
+      "word": "appreciate",
+      "hindi": "सराहना करना / कदर करना",
+      "simpleMeaning": "to recognize the value of something",
+      "ipa": "/əˈpriːʃieɪt/",
+      "verbForms": {
+        "base": "appreciate",
+        "s3": "appreciates",
+        "ing": "appreciating",
+        "past": "appreciated",
+        "pastParticiple": "appreciated"
+      },
+      "synonyms": [
+        "value",
+        "recognize",
+        "be grateful for"
+      ],
+      "antonyms": [
+        "undervalue",
+        "neglect",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let me appreciate all the small things.",
+        "office": "Let the manager appreciate the team's effort.",
+        "interview": "I appreciate feedback, both positive and critical.",
+        "business": "Let satisfied customers appreciate your brand.",
+        "formal": "The board appreciates the team's dedication.",
+        "informal": "Let him know you appreciate his help."
+      },
+      "usageNote": "'Appreciate' + noun or gerund: I appreciate your help / helping.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 77,
+      "word": "succeed",
+      "hindi": "सफल होना",
+      "simpleMeaning": "to achieve what you were trying to do",
+      "ipa": "/səkˈsiːd/",
+      "verbForms": {
+        "base": "succeed",
+        "s3": "succeeds",
+        "ing": "succeeding",
+        "past": "succeeded",
+        "pastParticiple": "succeeded"
+      },
+      "synonyms": [
+        "achieve",
+        "accomplish",
+        "triumph"
+      ],
+      "antonyms": [
+        "fail",
+        "lose",
+        "give up"
+      ],
+      "sentences": {
+        "daily": "Let hard work help you succeed.",
+        "office": "Let the right strategy help the team succeed.",
+        "interview": "I want to succeed in a role that challenges me.",
+        "business": "Let customer focus help you succeed.",
+        "formal": "The project succeeded due to excellent planning.",
+        "informal": "Let him succeed — he has worked hard."
+      },
+      "usageNote": "'Succeed in doing' = manage to do. 'Succeed someone' = take their place.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 78,
+      "word": "cooperate",
+      "hindi": "सहयोग करना",
+      "simpleMeaning": "to work together toward a common goal",
+      "ipa": "/koʊˈɒpəreɪt/",
+      "verbForms": {
+        "base": "cooperate",
+        "s3": "cooperates",
+        "ing": "cooperating",
+        "past": "cooperated",
+        "pastParticiple": "cooperated"
+      },
+      "synonyms": [
+        "collaborate",
+        "work together",
+        "team up"
+      ],
+      "antonyms": [
+        "compete",
+        "obstruct",
+        "resist"
+      ],
+      "sentences": {
+        "daily": "Let everyone cooperate for the family function.",
+        "office": "Let all departments cooperate on this project.",
+        "interview": "I believe in cooperating across teams.",
+        "business": "Let suppliers and buyers cooperate fairly.",
+        "formal": "Parties agreed to cooperate on the investigation.",
+        "informal": "Don't let pride stop you — cooperate with them."
+      },
+      "usageNote": "'Cooperate with' someone. 'Cooperation' = noun.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 79,
+      "word": "cancel",
+      "hindi": "रद्द करना",
+      "simpleMeaning": "to stop something that was planned",
+      "ipa": "/ˈkænsəl/",
+      "verbForms": {
+        "base": "cancel",
+        "s3": "cancels",
+        "ing": "cancelling",
+        "past": "cancelled",
+        "pastParticiple": "cancelled"
+      },
+      "synonyms": [
+        "call off",
+        "abandon",
+        "withdraw"
+      ],
+      "antonyms": [
+        "confirm",
+        "schedule",
+        "proceed"
+      ],
+      "sentences": {
+        "daily": "Don't let him cancel the plan last minute.",
+        "office": "Let management decide if we should cancel the event.",
+        "interview": "I never cancel scheduled commitments.",
+        "business": "Don't let clients cancel without understanding why.",
+        "formal": "The event was cancelled due to unforeseen circumstances.",
+        "informal": "Don't let her cancel again — this is the third time!"
+      },
+      "usageNote": "British: 'cancelled'. American: 'canceled'. Both correct.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 80,
+      "word": "announce",
+      "hindi": "घोषणा करना",
+      "simpleMeaning": "to make something known publicly",
+      "ipa": "/əˈnaʊns/",
+      "verbForms": {
+        "base": "announce",
+        "s3": "announces",
+        "ing": "announcing",
+        "past": "announced",
+        "pastParticiple": "announced"
+      },
+      "synonyms": [
+        "declare",
+        "proclaim",
+        "inform"
+      ],
+      "antonyms": [
+        "keep secret",
+        "hide",
+        "suppress"
+      ],
+      "sentences": {
+        "daily": "Let me announce the good news.",
+        "office": "Let the CEO announce the new policy.",
+        "interview": "Let me announce my key achievement upfront.",
+        "business": "Let us announce the product launch on Monday.",
+        "formal": "The results were announced at the press conference.",
+        "informal": "Don't let him announce it before I'm ready!"
+      },
+      "usageNote": "'Announce' to a group. 'Tell' is for one-on-one.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 81,
+      "word": "criticize",
+      "hindi": "आलोचना करना",
+      "simpleMeaning": "to say that something has faults",
+      "ipa": "/ˈkrɪtɪsaɪz/",
+      "verbForms": {
+        "base": "criticize",
+        "s3": "criticizes",
+        "ing": "criticizing",
+        "past": "criticized",
+        "pastParticiple": "criticized"
+      },
+      "synonyms": [
+        "condemn",
+        "find fault",
+        "censure"
+      ],
+      "antonyms": [
+        "praise",
+        "appreciate",
+        "commend"
+      ],
+      "sentences": {
+        "daily": "Don't let him criticize others harshly.",
+        "office": "Let constructive criticism improve the team.",
+        "interview": "I welcome criticism as a tool for growth.",
+        "business": "Don't let negativity criticize every idea.",
+        "formal": "The audit report criticized several procedures.",
+        "informal": "Let her criticize — it means she cares."
+      },
+      "usageNote": "'Constructive criticism' = helpful. 'Destructive criticism' = harmful.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 82,
+      "word": "mislead",
+      "hindi": "गुमराह करना",
+      "simpleMeaning": "to cause someone to have a wrong impression",
+      "ipa": "/ˌmɪsˈliːd/",
+      "verbForms": {
+        "base": "mislead",
+        "s3": "misleads",
+        "ing": "misleading",
+        "past": "misled",
+        "pastParticiple": "misled"
+      },
+      "synonyms": [
+        "deceive",
+        "confuse",
+        "misinform"
+      ],
+      "antonyms": [
+        "guide",
+        "inform correctly",
+        "clarify"
+      ],
+      "sentences": {
+        "daily": "Don't let advertisements mislead you.",
+        "office": "Don't let unclear instructions mislead the team.",
+        "interview": "I never let incomplete information mislead my decisions.",
+        "business": "Don't let false data mislead your strategy.",
+        "formal": "Misleading clients is against company policy.",
+        "informal": "Don't let him mislead you — he's not honest."
+      },
+      "usageNote": "Irregular: mislead → misled → misled.",
+      "cefrLevel": "B2",
+      "category": "Communication"
+    },
+    {
+      "id": 83,
+      "word": "assist",
+      "hindi": "मदद करना",
+      "simpleMeaning": "to help someone in a task",
+      "ipa": "/əˈsɪst/",
+      "verbForms": {
+        "base": "assist",
+        "s3": "assists",
+        "ing": "assisting",
+        "past": "assisted",
+        "pastParticiple": "assisted"
+      },
+      "synonyms": [
+        "help",
+        "support",
+        "aid"
+      ],
+      "antonyms": [
+        "hinder",
+        "block",
+        "obstruct"
+      ],
+      "sentences": {
+        "daily": "Let him assist with the cooking.",
+        "office": "Let the new joiner assist the senior analyst.",
+        "interview": "I am happy to assist in any way needed.",
+        "business": "Let our team assist your operations.",
+        "formal": "She was asked to assist the department head.",
+        "informal": "Let her assist — she wants to be useful."
+      },
+      "usageNote": "'Assist with/in' = help with. More formal than 'help'.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 84,
+      "word": "advise",
+      "hindi": "सलाह देना",
+      "simpleMeaning": "to give guidance or recommendations",
+      "ipa": "/ədˈvaɪz/",
+      "verbForms": {
+        "base": "advise",
+        "s3": "advises",
+        "ing": "advising",
+        "past": "advised",
+        "pastParticiple": "advised"
+      },
+      "synonyms": [
+        "counsel",
+        "recommend",
+        "guide"
+      ],
+      "antonyms": [
+        "mislead",
+        "discourage",
+        "confuse"
+      ],
+      "sentences": {
+        "daily": "Let me advise you on this decision.",
+        "office": "Let the legal team advise on the contract.",
+        "interview": "I advise my teammates when they need clarity.",
+        "business": "Let experts advise on your financial planning.",
+        "formal": "The board was advised to delay the decision.",
+        "informal": "Let him advise you — he has experience."
+      },
+      "usageNote": "'Advise someone to do': advise him to wait. 'Give advice' = noun.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 85,
+      "word": "negotiate",
+      "hindi": "समझौता वार्ता करना",
+      "simpleMeaning": "to discuss to reach a mutual agreement",
+      "ipa": "/nɪˈɡoʊʃieɪt/",
+      "verbForms": {
+        "base": "negotiate",
+        "s3": "negotiates",
+        "ing": "negotiating",
+        "past": "negotiated",
+        "pastParticiple": "negotiated"
+      },
+      "synonyms": [
+        "bargain",
+        "discuss terms",
+        "mediate"
+      ],
+      "antonyms": [
+        "force",
+        "impose",
+        "dictate"
+      ],
+      "sentences": {
+        "daily": "Let me negotiate with the shopkeeper.",
+        "office": "Let the sales manager negotiate the price.",
+        "interview": "I negotiated a better salary in my last job.",
+        "business": "Don't let the deal close without negotiating.",
+        "formal": "Both parties negotiated the terms of the contract.",
+        "informal": "Let him negotiate — he's sharp with numbers."
+      },
+      "usageNote": "'Negotiate with' someone. 'Negotiate a deal/contract'.",
+      "cefrLevel": "B2",
+      "category": "Office/Business"
+    },
+    {
+      "id": 86,
+      "word": "tolerate",
+      "hindi": "सहना / बर्दाश्त करना",
+      "simpleMeaning": "to accept something unpleasant without complaint",
+      "ipa": "/ˈtɒləreɪt/",
+      "verbForms": {
+        "base": "tolerate",
+        "s3": "tolerates",
+        "ing": "tolerating",
+        "past": "tolerated",
+        "pastParticiple": "tolerated"
+      },
+      "synonyms": [
+        "bear",
+        "endure",
+        "put up with"
+      ],
+      "antonyms": [
+        "reject",
+        "object",
+        "protest"
+      ],
+      "sentences": {
+        "daily": "Don't let him tolerate bad behavior.",
+        "office": "Don't let the company tolerate misconduct.",
+        "interview": "I tolerate pressure and adapt quickly.",
+        "business": "Don't let poor quality be tolerated.",
+        "formal": "Zero tolerance for harassment is the company policy.",
+        "informal": "Don't tolerate it — let him know it's wrong."
+      },
+      "usageNote": "'Tolerate' implies reluctant acceptance. 'Tolerance' = noun.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 87,
+      "word": "maintain",
+      "hindi": "बनाए रखना",
+      "simpleMeaning": "to keep something in good condition or continue it",
+      "ipa": "/meɪnˈteɪn/",
+      "verbForms": {
+        "base": "maintain",
+        "s3": "maintains",
+        "ing": "maintaining",
+        "past": "maintained",
+        "pastParticiple": "maintained"
+      },
+      "synonyms": [
+        "keep",
+        "sustain",
+        "preserve"
+      ],
+      "antonyms": [
+        "neglect",
+        "abandon",
+        "let go"
+      ],
+      "sentences": {
+        "daily": "Let me maintain my daily routine.",
+        "office": "Let the team maintain quality standards.",
+        "interview": "I maintain professionalism in all situations.",
+        "business": "Let us maintain strong client relationships.",
+        "formal": "Quality must be maintained at every stage.",
+        "informal": "Don't let things fall apart — maintain the effort."
+      },
+      "usageNote": "'Maintain' implies consistent effort. 'Maintenance' = noun.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 88,
+      "word": "demonstrate",
+      "hindi": "दिखाना / प्रदर्शित करना",
+      "simpleMeaning": "to show or prove clearly",
+      "ipa": "/ˈdemənstreɪt/",
+      "verbForms": {
+        "base": "demonstrate",
+        "s3": "demonstrates",
+        "ing": "demonstrating",
+        "past": "demonstrated",
+        "pastParticiple": "demonstrated"
+      },
+      "synonyms": [
+        "show",
+        "prove",
+        "exhibit"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal"
+      ],
+      "sentences": {
+        "daily": "Let me demonstrate how to do it.",
+        "office": "Let the trainer demonstrate the new software.",
+        "interview": "Let me demonstrate my skills through examples.",
+        "business": "Let our product demonstrate its own value.",
+        "formal": "The experiment demonstrated the theory.",
+        "informal": "Let him demonstrate — he knows the process."
+      },
+      "usageNote": "'Demonstrate how to' = show the method. 'Demonstration' = noun.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 89,
+      "word": "recommend",
+      "hindi": "सिफारिश करना",
+      "simpleMeaning": "to suggest something as good or suitable",
+      "ipa": "/ˌrekəˈmend/",
+      "verbForms": {
+        "base": "recommend",
+        "s3": "recommends",
+        "ing": "recommending",
+        "past": "recommended",
+        "pastParticiple": "recommended"
+      },
+      "synonyms": [
+        "suggest",
+        "endorse",
+        "advise"
+      ],
+      "antonyms": [
+        "warn against",
+        "discourage"
+      ],
+      "sentences": {
+        "daily": "Let me recommend a good book.",
+        "office": "Let the senior recommend the best vendor.",
+        "interview": "Let me recommend myself for this position.",
+        "business": "Don't let customers leave without a recommendation.",
+        "formal": "The doctor recommended rest for a week.",
+        "informal": "Let him recommend — he knows the best places."
+      },
+      "usageNote": "'Recommend + ing / that': recommend reading / that he reads.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 90,
+      "word": "hesitate",
+      "hindi": "झिझकना",
+      "simpleMeaning": "to pause before doing something due to uncertainty",
+      "ipa": "/ˈhezɪteɪt/",
+      "verbForms": {
+        "base": "hesitate",
+        "s3": "hesitates",
+        "ing": "hesitating",
+        "past": "hesitated",
+        "pastParticiple": "hesitated"
+      },
+      "synonyms": [
+        "pause",
+        "waver",
+        "be uncertain"
+      ],
+      "antonyms": [
+        "act confidently",
+        "decide",
+        "commit"
+      ],
+      "sentences": {
+        "daily": "Don't let fear make you hesitate.",
+        "office": "Don't hesitate — let him know your opinion.",
+        "interview": "Please don't hesitate to ask me anything.",
+        "business": "Don't let clients hesitate — simplify the decision.",
+        "formal": "Hesitation can lead to missed opportunities.",
+        "informal": "Don't hesitate — just go for it!"
+      },
+      "usageNote": "'Hesitate to do': Don't hesitate to ask.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 91,
+      "word": "prepare",
+      "hindi": "तैयारी करना",
+      "simpleMeaning": "to make ready for something",
+      "ipa": "/prɪˈpeər/",
+      "verbForms": {
+        "base": "prepare",
+        "s3": "prepares",
+        "ing": "preparing",
+        "past": "prepared",
+        "pastParticiple": "prepared"
+      },
+      "synonyms": [
+        "get ready",
+        "arrange",
+        "set up"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore",
+        "improvise carelessly"
+      ],
+      "sentences": {
+        "daily": "Let me prepare dinner for everyone.",
+        "office": "Let the team prepare a presentation.",
+        "interview": "Let me prepare you for the toughest question.",
+        "business": "Let us prepare a detailed proposal.",
+        "formal": "All documents must be prepared before the audit.",
+        "informal": "Don't let him go unprepared — help him."
+      },
+      "usageNote": "'Prepare for' = get ready for. 'Prepare + object': prepare a report.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 92,
+      "word": "forgive",
+      "hindi": "माफ करना",
+      "simpleMeaning": "to stop being angry at someone for something bad",
+      "ipa": "/fərˈɡɪv/",
+      "verbForms": {
+        "base": "forgive",
+        "s3": "forgives",
+        "ing": "forgiving",
+        "past": "forgave",
+        "pastParticiple": "forgiven"
+      },
+      "synonyms": [
+        "pardon",
+        "excuse",
+        "overlook"
+      ],
+      "antonyms": [
+        "blame",
+        "hold a grudge",
+        "resent"
+      ],
+      "sentences": {
+        "daily": "Let me forgive and move on.",
+        "office": "Let the team forgive small mistakes.",
+        "interview": "I forgive quickly and focus on solutions.",
+        "business": "Don't let resentment ruin a business relationship.",
+        "formal": "The court was asked to consider a pardon.",
+        "informal": "Let him forgive her — they're family."
+      },
+      "usageNote": "Irregular: forgive → forgave → forgiven. 'Forgive someone for something'.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 93,
+      "word": "cooperate",
+      "hindi": "मिलकर काम करना",
+      "simpleMeaning": "to work together with others",
+      "ipa": "/koʊˈɒpəreɪt/",
+      "verbForms": {
+        "base": "cooperate",
+        "s3": "cooperates",
+        "ing": "cooperating",
+        "past": "cooperated",
+        "pastParticiple": "cooperated"
+      },
+      "synonyms": [
+        "collaborate",
+        "work together",
+        "join forces"
+      ],
+      "antonyms": [
+        "compete",
+        "obstruct",
+        "refuse"
+      ],
+      "sentences": {
+        "daily": "Let all neighbors cooperate for the event.",
+        "office": "Let departments cooperate for better results.",
+        "interview": "I always cooperate with cross-functional teams.",
+        "business": "Let us cooperate to serve clients better.",
+        "formal": "International parties cooperated on the agreement.",
+        "informal": "Just cooperate — don't make it difficult."
+      },
+      "usageNote": "'Cooperate with' someone on something.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 94,
+      "word": "assist",
+      "hindi": "सहयोग करना",
+      "simpleMeaning": "to provide help in doing something",
+      "ipa": "/əˈsɪst/",
+      "verbForms": {
+        "base": "assist",
+        "s3": "assists",
+        "ing": "assisting",
+        "past": "assisted",
+        "pastParticiple": "assisted"
+      },
+      "synonyms": [
+        "support",
+        "help",
+        "aid"
+      ],
+      "antonyms": [
+        "hinder",
+        "interfere"
+      ],
+      "sentences": {
+        "daily": "Let me assist you with directions.",
+        "office": "Let the team assist the client onsite.",
+        "interview": "I assisted the senior manager on three projects.",
+        "business": "Let our experts assist your team.",
+        "formal": "The officer was asked to assist with crowd management.",
+        "informal": "Don't hesitate — let me assist you."
+      },
+      "usageNote": "Formal synonym of 'help'. 'Assistant' = noun (a person who assists).",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 95,
+      "word": "explore",
+      "hindi": "खोजना / तलाश करना",
+      "simpleMeaning": "to investigate or examine something new",
+      "ipa": "/ɪkˈsplɔːr/",
+      "verbForms": {
+        "base": "explore",
+        "s3": "explores",
+        "ing": "exploring",
+        "past": "explored",
+        "pastParticiple": "explored"
+      },
+      "synonyms": [
+        "investigate",
+        "discover",
+        "examine"
+      ],
+      "antonyms": [
+        "ignore",
+        "avoid",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "Let me explore this new neighborhood.",
+        "office": "Let the team explore creative solutions.",
+        "interview": "Let me explore what this role can offer.",
+        "business": "Let us explore new markets.",
+        "formal": "The committee explored various options.",
+        "informal": "Let him explore — he'll figure it out."
+      },
+      "usageNote": "'Explore options/opportunities'. Also used literally for physical exploration.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 96,
+      "word": "interrupt",
+      "hindi": "रोकना / टोकना",
+      "simpleMeaning": "to break in on a conversation or activity",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "verbForms": {
+        "base": "interrupt",
+        "s3": "interrupts",
+        "ing": "interrupting",
+        "past": "interrupted",
+        "pastParticiple": "interrupted"
+      },
+      "synonyms": [
+        "cut off",
+        "break in",
+        "intrude"
+      ],
+      "antonyms": [
+        "continue",
+        "allow",
+        "let speak"
+      ],
+      "sentences": {
+        "daily": "Don't let him interrupt the storytelling.",
+        "office": "Please don't interrupt — let her finish.",
+        "interview": "I don't let interruptions affect my composure.",
+        "business": "Don't let technical issues interrupt the demo.",
+        "formal": "The session was interrupted by a fire alarm.",
+        "informal": "Stop interrupting — let him speak!"
+      },
+      "usageNote": "Rude without permission. 'Excuse me for interrupting' is polite.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 97,
+      "word": "accompany",
+      "hindi": "साथ जाना",
+      "simpleMeaning": "to travel or go with someone",
+      "ipa": "/əˈkʌmpəni/",
+      "verbForms": {
+        "base": "accompany",
+        "s3": "accompanies",
+        "ing": "accompanying",
+        "past": "accompanied",
+        "pastParticiple": "accompanied"
+      },
+      "synonyms": [
+        "go with",
+        "escort",
+        "join"
+      ],
+      "antonyms": [
+        "leave alone",
+        "abandon",
+        "desert"
+      ],
+      "sentences": {
+        "daily": "Let me accompany my grandmother to the doctor.",
+        "office": "Let the assistant accompany the client.",
+        "interview": "I accompanied my manager on 5 field visits.",
+        "business": "Let our sales rep accompany you to the demo.",
+        "formal": "The minister was accompanied by security.",
+        "informal": "Let him accompany you — he knows the area."
+      },
+      "usageNote": "Formal than 'go with'. Often used in professional and official contexts.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 98,
+      "word": "review",
+      "hindi": "समीक्षा करना",
+      "simpleMeaning": "to examine or assess something carefully",
+      "ipa": "/rɪˈvjuː/",
+      "verbForms": {
+        "base": "review",
+        "s3": "reviews",
+        "ing": "reviewing",
+        "past": "reviewed",
+        "pastParticiple": "reviewed"
+      },
+      "synonyms": [
+        "examine",
+        "assess",
+        "look over"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook",
+        "skip"
+      ],
+      "sentences": {
+        "daily": "Let me review my notes before the exam.",
+        "office": "Let the manager review the report.",
+        "interview": "Let me review my achievements for you.",
+        "business": "Let us review the contract clause by clause.",
+        "formal": "The committee reviewed all submissions.",
+        "informal": "Don't let him sign without reviewing it."
+      },
+      "usageNote": "'Review' as noun = a formal assessment or critique.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 99,
+      "word": "persist",
+      "hindi": "दृढ़ रहना / जिद करना",
+      "simpleMeaning": "to continue doing something despite difficulty",
+      "ipa": "/pərˈsɪst/",
+      "verbForms": {
+        "base": "persist",
+        "s3": "persists",
+        "ing": "persisting",
+        "past": "persisted",
+        "pastParticiple": "persisted"
+      },
+      "synonyms": [
+        "continue",
+        "persevere",
+        "carry on"
+      ],
+      "antonyms": [
+        "give up",
+        "stop",
+        "quit"
+      ],
+      "sentences": {
+        "daily": "Let determination persist when things get hard.",
+        "office": "Don't let problems persist without a solution.",
+        "interview": "I persist until I find the right answer.",
+        "business": "Don't let inefficiencies persist unchecked.",
+        "formal": "The issue persisted for over three months.",
+        "informal": "Don't let him persist — he needs to change."
+      },
+      "usageNote": "'Persist in doing': persist in trying. 'Persistent' = adjective.",
+      "cefrLevel": "B2",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 100,
+      "word": "clarify",
+      "hindi": "साफ़ करना / स्पष्ट करना",
+      "simpleMeaning": "to make something easy to understand",
+      "ipa": "/ˈklærɪfaɪ/",
+      "verbForms": {
+        "base": "clarify",
+        "s3": "clarifies",
+        "ing": "clarifying",
+        "past": "clarified",
+        "pastParticiple": "clarified"
+      },
+      "synonyms": [
+        "explain",
+        "clear up",
+        "elaborate"
+      ],
+      "antonyms": [
+        "confuse",
+        "complicate"
+      ],
+      "sentences": {
+        "daily": "Let me clarify this point once more.",
+        "office": "Let the supervisor clarify the task.",
+        "interview": "Let me clarify my answer.",
+        "business": "Don't let ambiguity persist — clarify now.",
+        "formal": "The spokesperson clarified the official stance.",
+        "informal": "Let her clarify — she was misquoted."
+      },
+      "usageNote": "'Clarify' removes doubt. More precise than 'explain'.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 101,
+      "word": "interrupt",
+      "hindi": "बाधित करना",
+      "simpleMeaning": "to cause a break in continuity",
+      "ipa": "/ˌɪntəˈrʌpt/",
+      "verbForms": {
+        "base": "interrupt",
+        "s3": "interrupts",
+        "ing": "interrupting",
+        "past": "interrupted",
+        "pastParticiple": "interrupted"
+      },
+      "synonyms": [
+        "disrupt",
+        "halt",
+        "break"
+      ],
+      "antonyms": [
+        "continue",
+        "maintain",
+        "sustain"
+      ],
+      "sentences": {
+        "daily": "Don't let power cuts interrupt your study.",
+        "office": "Don't let system errors interrupt work.",
+        "interview": "I make sure nothing interrupts my preparation.",
+        "business": "Don't let supply chain issues interrupt production.",
+        "formal": "Services were not interrupted during the upgrade.",
+        "informal": "Don't let the noise interrupt him."
+      },
+      "usageNote": "In business/tech: 'interruption in service'. In social: 'don't interrupt'.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 102,
+      "word": "grant",
+      "hindi": "देना / मंज़ूरी देना",
+      "simpleMeaning": "to formally give or allow something",
+      "ipa": "/ɡrɑːnt/",
+      "verbForms": {
+        "base": "grant",
+        "s3": "grants",
+        "ing": "granting",
+        "past": "granted",
+        "pastParticiple": "granted"
+      },
+      "synonyms": [
+        "give",
+        "bestow",
+        "allow"
+      ],
+      "antonyms": [
+        "deny",
+        "refuse",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "Don't take your blessings for granted.",
+        "office": "Let the management grant extra leave.",
+        "interview": "I was granted an opportunity to lead a team.",
+        "business": "Let the bank grant the loan.",
+        "formal": "The court granted bail to the accused.",
+        "informal": "Don't let him take you for granted."
+      },
+      "usageNote": "'Take for granted' = not appreciate. 'Be granted' = receive officially.",
+      "cefrLevel": "B1",
+      "category": "Permission Verbs"
+    },
+    {
+      "id": 103,
+      "word": "postpone",
+      "hindi": "टालना",
+      "simpleMeaning": "to arrange for something to happen later than planned",
+      "ipa": "/poʊstˈpoʊn/",
+      "verbForms": {
+        "base": "postpone",
+        "s3": "postpones",
+        "ing": "postponing",
+        "past": "postponed",
+        "pastParticiple": "postponed"
+      },
+      "synonyms": [
+        "delay",
+        "defer",
+        "put off"
+      ],
+      "antonyms": [
+        "advance",
+        "expedite",
+        "bring forward"
+      ],
+      "sentences": {
+        "daily": "Don't let him postpone his health checkup.",
+        "office": "Let us postpone the review to next Monday.",
+        "interview": "I never postpone difficult conversations.",
+        "business": "Don't let launches be postponed unnecessarily.",
+        "formal": "The meeting has been postponed indefinitely.",
+        "informal": "Don't let him postpone again!"
+      },
+      "usageNote": "'Postpone to/until'. Synonyms: put off (informal), defer (formal).",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 104,
+      "word": "admit",
+      "hindi": "मान लेना / दाखिल होना",
+      "simpleMeaning": "to accept or confess something",
+      "ipa": "/ədˈmɪt/",
+      "verbForms": {
+        "base": "admit",
+        "s3": "admits",
+        "ing": "admitting",
+        "past": "admitted",
+        "pastParticiple": "admitted"
+      },
+      "synonyms": [
+        "confess",
+        "accept",
+        "acknowledge"
+      ],
+      "antonyms": [
+        "deny",
+        "refuse"
+      ],
+      "sentences": {
+        "daily": "Let him admit his mistake.",
+        "office": "Let the employee admit the error and fix it.",
+        "interview": "I readily admit what I don't know.",
+        "business": "Don't let pride stop you from admitting a mistake.",
+        "formal": "The defendant admitted to the charges.",
+        "informal": "Let her admit it — everyone already knows."
+      },
+      "usageNote": "'Admit to' + noun/gerund. 'Admission' = noun.",
+      "cefrLevel": "B1",
+      "category": "Communication"
+    },
+    {
+      "id": 105,
+      "word": "surrender",
+      "hindi": "समर्पण करना / हार मानना",
+      "simpleMeaning": "to give up or accept defeat",
+      "ipa": "/səˈrendər/",
+      "verbForms": {
+        "base": "surrender",
+        "s3": "surrenders",
+        "ing": "surrendering",
+        "past": "surrendered",
+        "pastParticiple": "surrendered"
+      },
+      "synonyms": [
+        "give up",
+        "yield",
+        "concede"
+      ],
+      "antonyms": [
+        "resist",
+        "fight",
+        "persist"
+      ],
+      "sentences": {
+        "daily": "Don't let difficulties make you surrender your dreams.",
+        "office": "Don't let setbacks make you surrender.",
+        "interview": "I never surrender to failure — I learn.",
+        "business": "Don't let the market make you surrender.",
+        "formal": "The party surrendered its claim to the property.",
+        "informal": "Don't let him surrender so easily!"
+      },
+      "usageNote": "'Surrender to' something. Can be literal (war) or metaphorical.",
+      "cefrLevel": "B2",
+      "category": "Emotions/States"
+    },
+    {
+      "id": 106,
+      "word": "emphasize",
+      "hindi": "ज़ोर देना",
+      "simpleMeaning": "to give special importance to something",
+      "ipa": "/ˈemfəsaɪz/",
+      "verbForms": {
+        "base": "emphasize",
+        "s3": "emphasizes",
+        "ing": "emphasizing",
+        "past": "emphasized",
+        "pastParticiple": "emphasized"
+      },
+      "synonyms": [
+        "stress",
+        "highlight",
+        "underline"
+      ],
+      "antonyms": [
+        "downplay",
+        "minimize",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let me emphasize how important this is.",
+        "office": "Let the manager emphasize quality over speed.",
+        "interview": "Let me emphasize my communication skills.",
+        "business": "Don't let your USP go unemphasized.",
+        "formal": "The report emphasized the need for urgent action.",
+        "informal": "Let him emphasize the key points."
+      },
+      "usageNote": "British: 'emphasise'. 'Emphasis' = noun. 'Place emphasis on'.",
+      "cefrLevel": "B2",
+      "category": "Communication"
+    },
+    {
+      "id": 107,
+      "word": "establish",
+      "hindi": "स्थापित करना",
+      "simpleMeaning": "to create or set something up",
+      "ipa": "/ɪˈstæblɪʃ/",
+      "verbForms": {
+        "base": "establish",
+        "s3": "establishes",
+        "ing": "establishing",
+        "past": "established",
+        "pastParticiple": "established"
+      },
+      "synonyms": [
+        "create",
+        "found",
+        "set up"
+      ],
+      "antonyms": [
+        "destroy",
+        "abolish",
+        "dissolve"
+      ],
+      "sentences": {
+        "daily": "Let me establish a daily routine.",
+        "office": "Let us establish clear roles and responsibilities.",
+        "interview": "I established a new process that saved 20% time.",
+        "business": "Let your brand establish trust before selling.",
+        "formal": "The committee was established in 2018.",
+        "informal": "Let him establish himself first."
+      },
+      "usageNote": "'Establish' something (an organization, a fact, a routine). More formal than 'start'.",
+      "cefrLevel": "B2",
+      "category": "Office/Business"
+    },
+    {
+      "id": 108,
+      "word": "consult",
+      "hindi": "सलाह लेना / परामर्श करना",
+      "simpleMeaning": "to ask for advice from an expert",
+      "ipa": "/kənˈsʌlt/",
+      "verbForms": {
+        "base": "consult",
+        "s3": "consults",
+        "ing": "consulting",
+        "past": "consulted",
+        "pastParticiple": "consulted"
+      },
+      "synonyms": [
+        "seek advice",
+        "ask",
+        "refer to"
+      ],
+      "antonyms": [
+        "decide alone",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let me consult a doctor first.",
+        "office": "Let the team consult the legal department.",
+        "interview": "I consult stakeholders before major decisions.",
+        "business": "Let clients consult our experts for free.",
+        "formal": "All employees should consult the HR policy.",
+        "informal": "Let him consult his dad — he's wise."
+      },
+      "usageNote": "'Consult with' someone. 'Consultant' = a person who gives expert advice.",
+      "cefrLevel": "B1",
+      "category": "Office/Business"
+    },
+    {
+      "id": 109,
+      "word": "resolve",
+      "hindi": "सुलझाना / तय करना",
+      "simpleMeaning": "to find a solution to a problem",
+      "ipa": "/rɪˈzɒlv/",
+      "verbForms": {
+        "base": "resolve",
+        "s3": "resolves",
+        "ing": "resolving",
+        "past": "resolved",
+        "pastParticiple": "resolved"
+      },
+      "synonyms": [
+        "solve",
+        "settle",
+        "fix"
+      ],
+      "antonyms": [
+        "complicate",
+        "worsen",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let me resolve this issue right now.",
+        "office": "Let the team resolve conflicts quickly.",
+        "interview": "Let me tell you how I resolved a crisis.",
+        "business": "Let us resolve this before the client notices.",
+        "formal": "The dispute was resolved through mediation.",
+        "informal": "Just let them resolve it between themselves."
+      },
+      "usageNote": "'Resolve to do' = make a firm decision. 'Resolve a dispute/issue'.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 110,
+      "word": "inspire",
+      "hindi": "प्रेरित करना",
+      "simpleMeaning": "to fill someone with the urge to do something creative or great",
+      "ipa": "/ɪnˈspaɪər/",
+      "verbForms": {
+        "base": "inspire",
+        "s3": "inspires",
+        "ing": "inspiring",
+        "past": "inspired",
+        "pastParticiple": "inspired"
+      },
+      "synonyms": [
+        "motivate",
+        "encourage",
+        "stimulate"
+      ],
+      "antonyms": [
+        "discourage",
+        "demotivate"
+      ],
+      "sentences": {
+        "daily": "Let his story inspire you to work harder.",
+        "office": "Let the manager inspire the team.",
+        "interview": "Let me share a person who inspired me.",
+        "business": "Let your mission inspire your team.",
+        "formal": "The founder's vision inspired a generation of entrepreneurs.",
+        "informal": "Don't let anyone stop you — let passion inspire you."
+      },
+      "usageNote": "'Inspire someone to do': inspired me to become a teacher.",
+      "cefrLevel": "B1",
+      "category": "Emotions/States"
     }
   ]
 }

@@ -1,136 +1,268 @@
 {
   "day": 14,
-  "topic": "Use of Let's",
+  "title": "Use of Let's",
   "sections": [
     {
-      "id": 1,
-      "title": "Use of Let's — Introduction and Formula",
-      "hindiTitle": "Use of Let's — परिचय और फॉर्मूला",
-      "explanation": "Use of Let's is an essential building block of spoken and written English. Formula: Let's + base verb (used for suggestions, includes the speaker). Rules: 'Let's' is short for 'Let us' and is used to make suggestions | Always followed by the base form of a verb (no 'to') | Negative: Let's not + base verb | Used when the speaker includes themselves in the action",
-      "formula": "Let's + base verb (used for suggestions, includes the speaker)",
+      "id": "introduction-formula",
+      "title": "Introduction & Formula — Use of Let's",
+      "hindiTitle": "परिचय और फॉर्मूला — Let's का प्रयोग",
+      "explanation": "'Let's' = 'Let us' का short form है। यह speaker सहित सभी को suggestion देने के लिए use होता है। Formula: Let's + base verb। यह Imperative का एक special form है जहाँ speaker खुद भी उस action में शामिल होता है। जैसे 'Let's go' में 'हम चलते हैं' — speaker भी साथ जाएगा। यह Day 3 (Imperative) का extension है। Key rules: (1) Let's के बाद हमेशा base verb आती है, to नहीं। (2) Negative form: Let's not + base verb। (3) 'Let us' formal version है — speeches, notices, formal writing में use होता है।",
+      "formula": "Let's + base verb | Let's not + base verb (negative)",
       "examples": [
         {
           "hindi": "चलो शुरू करते हैं।",
-          "english": "Let's start."
+          "english": "Let's begin."
         },
         {
           "hindi": "चलो कुछ खाते हैं।",
           "english": "Let's eat something."
         },
         {
-          "hindi": "चलो पार्क में चलते हैं।",
-          "english": "Let's go to the park."
+          "hindi": "चलो मिलकर काम करते हैं।",
+          "english": "Let's work together."
         },
         {
-          "hindi": "चलो एक फिल्म देखते हैं।",
-          "english": "Let's watch a movie."
+          "hindi": "चलो देर मत करें।",
+          "english": "Let's not be late."
         },
         {
-          "hindi": "चलो इस पर बात करते हैं।",
-          "english": "Let's talk about this."
+          "hindi": "हम सब मिलकर प्रयास करें।",
+          "english": "Let us all make an effort."
         },
         {
-          "hindi": "चलो जल्दी करते हैं।",
-          "english": "Let's hurry up."
+          "hindi": "चलो इस मुद्दे पर विचार करते हैं।",
+          "english": "Let's think about this issue."
         }
       ]
     },
     {
-      "id": 2,
-      "title": "Use of Let's — Daily Life Usage",
-      "hindiTitle": "Use of Let's — रोज़मर्रा के उपयोग",
-      "explanation": "Here are everyday sentences using Use of Let's that you will use in daily conversation, at home, and with friends.",
-      "formula": "Let's + base verb (used for suggestions, includes the speaker)",
+      "id": "daily-life-usage",
+      "title": "Daily Life Usage — Suggestions in Everyday Situations",
+      "hindiTitle": "रोज़मर्रा की ज़िंदगी में Let's का उपयोग",
+      "explanation": "घर पर, दोस्तों के साथ, और family के साथ बात करते समय हम अक्सर Let's का use करते हैं। जैसे बाज़ार जाना, खाना खाना, film देखना — इन सब situations में Let's बहुत natural लगता है। Informal conversation में 'Let's' ज़्यादा common है। याद रखें: Let's = suggestion (हम दोनों/सब करें), जबकि 'Go!' = command (तुम करो)।",
+      "formula": "Let's + base verb (informal, daily suggestions)",
       "examples": [
         {
-          "hindi": "चलो देर मत करते हैं।",
-          "english": "Let's not be late."
+          "hindi": "चलो बाज़ार चलते हैं।",
+          "english": "Let's go to the market."
+        },
+        {
+          "hindi": "चलो आज बाहर खाना खाते हैं।",
+          "english": "Let's eat out today."
+        },
+        {
+          "hindi": "चलो एक फ़िल्म देखते हैं।",
+          "english": "Let's watch a movie."
+        },
+        {
+          "hindi": "चलो थोड़ा आराम करते हैं।",
+          "english": "Let's take a break."
         },
         {
           "hindi": "चलो साथ में पढ़ते हैं।",
           "english": "Let's study together."
         },
         {
-          "hindi": "चलो थोड़ा आराम करते हैं।",
-          "english": "Let's take some rest."
-        },
+          "hindi": "चलो कल सुबह जल्दी उठते हैं।",
+          "english": "Let's wake up early tomorrow morning."
+        }
+      ]
+    },
+    {
+      "id": "office-professional-usage",
+      "title": "Office & Professional Usage — Let's at Work",
+      "hindiTitle": "ऑफिस और Professional जीवन में Let's",
+      "explanation": "Office में Let's बहुत useful है — meetings शुरू करना, decisions लेना, plans बनाना, और colleagues के साथ collaborate करना। Professional context में Let's को confident और inclusive बनाता है — यह show करता है कि आप team का हिस्सा हैं। Meeting में 'Let's move on to the next point' या presentation में 'Let's look at the data' — ये phrases बहुत professional sound करते हैं।",
+      "formula": "Let's + base verb (professional context)",
+      "examples": [
         {
           "hindi": "चलो मीटिंग शुरू करते हैं।",
           "english": "Let's start the meeting."
         },
         {
-          "hindi": "चलो एक साथ काम करते हैं।",
-          "english": "Let's work together."
+          "hindi": "चलो अगले point पर चलते हैं।",
+          "english": "Let's move on to the next point."
         },
         {
-          "hindi": "चलो कुछ नया सीखते हैं।",
-          "english": "Let's learn something new."
+          "hindi": "चलो data देखते हैं।",
+          "english": "Let's look at the data."
+        },
+        {
+          "hindi": "चलो एक deadline तय करते हैं।",
+          "english": "Let's set a deadline."
+        },
+        {
+          "hindi": "चलो इस project पर मिलकर काम करते हैं।",
+          "english": "Let's collaborate on this project."
+        },
+        {
+          "hindi": "चलो client को जल्द reply करते हैं।",
+          "english": "Let's reply to the client soon."
         }
       ]
     },
     {
-      "id": 3,
-      "title": "Use of Let's — Office & Professional Usage",
-      "hindiTitle": "Use of Let's — ऑफिस और पेशेवर उपयोग",
-      "explanation": "Practice Use of Let's in professional and office contexts so you can use it confidently at work.",
-      "formula": "Let's + base verb (used for suggestions, includes the speaker)",
+      "id": "negative-forms",
+      "title": "Negative Forms — Let's Not",
+      "hindiTitle": "नकारात्मक रूप — Let's Not का प्रयोग",
+      "explanation": "Let's का negative form है: Let's not + base verb। इसे 'मत करते हैं' या 'न करें' के sense में use करते हैं। ध्यान रखें: 'Let's don't' WRONG है — यह common mistake है। सही form हमेशा 'Let's not' होगी। Example: 'Let's not waste time.' (✓) | 'Let's don't waste time.' (✗)। Business context में: 'Let's not rush into this decision.'",
+      "formula": "Let's not + base verb (negative suggestion)",
       "examples": [
         {
-          "hindi": "चलो योजना बनाते हैं।",
-          "english": "Let's make a plan."
+          "hindi": "चलो समय बर्बाद मत करते हैं।",
+          "english": "Let's not waste time."
         },
         {
-          "hindi": "चलो घूमने चलते हैं।",
-          "english": "Let's go for a walk."
+          "hindi": "चलो अभी कोई फैसला मत लेते हैं।",
+          "english": "Let's not make any decision right now."
         },
         {
-          "hindi": "चलो इस समस्या को हल करते हैं।",
-          "english": "Let's solve this problem."
+          "hindi": "चलो इस बारे में बहस मत करते हैं।",
+          "english": "Let's not argue about this."
         },
         {
-          "hindi": "चलो कल मिलते हैं।",
-          "english": "Let's meet tomorrow."
+          "hindi": "चलो देर से मत जाते हैं।",
+          "english": "Let's not go late."
         },
         {
-          "hindi": "चलो चाय पीते हैं।",
-          "english": "Let's have tea."
+          "hindi": "चलो उसे परेशान मत करते हैं।",
+          "english": "Let's not disturb him."
         },
         {
-          "hindi": "चलो अभी फैसला ना करें।",
-          "english": "Let's not decide right now."
+          "hindi": "चलो इस मौके को जाने मत देते हैं।",
+          "english": "Let's not miss this opportunity."
         }
       ]
     },
     {
-      "id": 4,
-      "title": "Use of Let's — Negative and Question Forms",
-      "hindiTitle": "Use of Let's — नकारात्मक और प्रश्न रूप",
-      "explanation": "Learn how to make negative sentences and questions using Use of Let's. Common mistakes: forgetting to keep the base verb form, or wrong subject agreement.",
-      "formula": "Let's + base verb (used for suggestions, includes the speaker)",
+      "id": "formal-let-us",
+      "title": "Formal 'Let Us' — In Writing, Speeches & Notices",
+      "hindiTitle": "औपचारिक 'Let Us' — लेखन, भाषण और नोटिस में",
+      "explanation": "'Let us' is the full, formal version of 'Let's'. इसे speeches, formal notices, official letters, और academic writing में use करते हैं। जैसे national leaders कहते हैं 'Let us build a better tomorrow.' या official notice में 'Let us inform you that...'। Classroom में teacher कह सकते हैं 'Let us now turn to chapter 5.' — यह 'Let's' से ज़्यादा formal और respectful लगता है।",
+      "formula": "Let us + base verb (formal/written English)",
       "examples": [
         {
-          "hindi": "चलो घर चलते हैं।",
-          "english": "Let's go home."
+          "hindi": "आइए एक बेहतर कल बनाएं।",
+          "english": "Let us build a better tomorrow."
         },
         {
-          "hindi": "चलो सच बोलते हैं।",
-          "english": "Let's speak the truth."
+          "hindi": "आइए हम सब मिलकर इस चुनौती का सामना करें।",
+          "english": "Let us all face this challenge together."
         },
         {
-          "hindi": "चलो अभी झगड़ा ना करें।",
-          "english": "Let's not fight now."
+          "hindi": "आइए अध्याय 5 पर आते हैं।",
+          "english": "Let us now turn to chapter 5."
         },
         {
-          "hindi": "चलो practice करते हैं।",
-          "english": "Let's practice."
+          "hindi": "आइए इस विषय पर विचार करें।",
+          "english": "Let us consider this matter."
         },
         {
-          "hindi": "चलो positive सोचते हैं।",
-          "english": "Let's think positive."
+          "hindi": "आइए हम सब अपना योगदान दें।",
+          "english": "Let us all contribute our part."
         },
         {
-          "hindi": "चलो एक दूसरे की मदद करते हैं।",
-          "english": "Let's help each other."
+          "hindi": "आइए इस अवसर का सदुपयोग करें।",
+          "english": "Let us make the most of this opportunity."
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "title": "Common Mistakes — What NOT to Say",
+      "hindiTitle": "सामान्य गलतियाँ — क्या न कहें",
+      "explanation": "Hindi speakers अक्सर Let's के साथ ये mistakes करते हैं: (1) 'Let's to go' — WRONG (to नहीं लगता), सही: 'Let's go'। (2) 'Let's don't go' — WRONG, सही: 'Let's not go'। (3) 'Let we go' — WRONG ('we' नहीं लगता), सही: 'Let's go'। (4) 'Lets go' (apostrophe missing) — हमेशा 'Let's' लिखें। (5) 'Let's going' — WRONG (ing form नहीं), सही: 'Let's go'। इन mistakes को avoid करने से आपकी English बहुत improve होगी।",
+      "formula": "Let's + base verb ONLY (no 'to', no '-ing', no 'don't')",
+      "examples": [
+        {
+          "hindi": "❌ Let's to go → ✅ Let's go",
+          "english": "Let's go. (NOT: Let's to go)"
+        },
+        {
+          "hindi": "❌ Let's don't argue → ✅ Let's not argue",
+          "english": "Let's not argue. (NOT: Let's don't argue)"
+        },
+        {
+          "hindi": "❌ Let we start → ✅ Let's start",
+          "english": "Let's start. (NOT: Let we start)"
+        },
+        {
+          "hindi": "❌ Let's going home → ✅ Let's go home",
+          "english": "Let's go home. (NOT: Let's going home)"
+        },
+        {
+          "hindi": "✅ सही — Let's have lunch.",
+          "english": "Let's have lunch. (base verb 'have' — correct!)"
+        },
+        {
+          "hindi": "✅ सही — Let's not hurry.",
+          "english": "Let's not hurry. (correct negative form!)"
+        }
+      ]
+    },
+    {
+      "id": "contrast-with-let-him-her",
+      "title": "Contrast — Let's vs Let him/her/them (Day 13)",
+      "hindiTitle": "तुलना — Let's बनाम Let him/her/them (Day 13)",
+      "explanation": "Day 13 में हमने 'Let him/her/them + base verb' सीखा था — वह third person को permission देना था। आज का 'Let's' speaker सहित suggestion है। Difference: 'Let him go' = उसे जाने दो (permission, 3rd person)। 'Let's go' = हम चलते हैं (suggestion, includes speaker)। 'Let them decide' = उन्हें decide करने दो (permission to others)। 'Let's decide' = हम decide करते हैं (we all decide together)।",
+      "formula": "Let's = speaker included (suggestion) | Let him/her/them = permission to 3rd person",
+      "examples": [
+        {
+          "hindi": "चलो हम decide करते हैं। (speaker included)",
+          "english": "Let's decide. (speaker is included)"
+        },
+        {
+          "hindi": "उसे decide करने दो। (permission to him)",
+          "english": "Let him decide. (permission to a 3rd person)"
+        },
+        {
+          "hindi": "चलो हम यहाँ रुकते हैं।",
+          "english": "Let's stay here."
+        },
+        {
+          "hindi": "उन्हें यहाँ रुकने दो।",
+          "english": "Let them stay here."
+        },
+        {
+          "hindi": "चलो मिलकर plan करते हैं।",
+          "english": "Let's plan together."
+        },
+        {
+          "hindi": "उसे अपना काम खुद करने दो।",
+          "english": "Let her do her own work."
+        }
+      ]
+    },
+    {
+      "id": "advanced-nuanced-usage",
+      "title": "Advanced & Nuanced Usage — Let's in Context",
+      "hindiTitle": "उन्नत प्रयोग — विभिन्न संदर्भों में Let's",
+      "explanation": "Advanced contexts में Let's के कुछ special uses हैं: (1) Rhetorical suggestion: 'Let's be honest here' — honestly कहने के लिए। (2) Sarcastic tone: 'Let's just pretend everything is fine' (irony)। (3) Encouragement: 'Let's give it our best shot!' (motivating)। (4) Transition in speech: 'Let's move on...' or 'Let's recap...' — presentations में। (5) Invitation: 'Let's catch up soon!' — social/informal। इन nuances को समझने से आपकी spoken English बहुत natural लगेगी।",
+      "formula": "Let's + base verb (rhetorical, motivational, transitional, invitational)",
+      "examples": [
+        {
+          "hindi": "चलो ईमानदार रहते हैं।",
+          "english": "Let's be honest here."
+        },
+        {
+          "hindi": "चलो अपनी पूरी कोशिश करते हैं!",
+          "english": "Let's give it our best shot!"
+        },
+        {
+          "hindi": "चलो एक बार फिर से देखते हैं।",
+          "english": "Let's recap once more."
+        },
+        {
+          "hindi": "चलो जल्द मिलते हैं!",
+          "english": "Let's catch up soon!"
+        },
+        {
+          "hindi": "चलो एक नई शुरुआत करते हैं।",
+          "english": "Let's make a fresh start."
+        },
+        {
+          "hindi": "चलो इस विषय को समाप्त करते हैं।",
+          "english": "Let's wrap up this topic."
         }
       ]
     }

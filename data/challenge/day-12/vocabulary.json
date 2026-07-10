@@ -1,357 +1,3241 @@
 {
   "day": 12,
-  "title": "Use of Wanted",
-  "totalWords": 25,
+  "title": "Day 12 Vocabulary — Use of Wanted (100 Words)",
+  "totalWords": 100,
+  "categories": [
+    "Core Verb — Wanted",
+    "Topic Vocabulary"
+  ],
   "words": [
     {
       "id": 1,
-      "word": "water",
-      "hindi": "चाहिए था।",
-      "simpleMeaning": "Used in the sentence: \"I wanted water.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I wanted water.",
-        "office": "I wanted water.",
-        "interview": "I wanted water."
+      "word": "want",
+      "hindi": "चाहना",
+      "simpleMeaning": "to have a desire for something",
+      "ipa": "/wɒnt/",
+      "verbForms": {
+        "base": "want",
+        "s3": "wants",
+        "ing": "wanting",
+        "past": "wanted",
+        "pastParticiple": "wanted"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "desire",
+        "wish",
+        "crave"
+      ],
+      "antonyms": [
+        "reject",
+        "refuse",
+        "dislike"
+      ],
+      "sentences": {
+        "daily": "I want to drink water.",
+        "office": "We want to finalize this deal.",
+        "interview": "I want to grow professionally.",
+        "business": "Clients want fast delivery.",
+        "formal": "He wants to request a meeting.",
+        "informal": "Do you want some food?"
+      },
+      "usageNote": "'Want' is present; 'wanted' is past. Stative verb — avoid continuous form in formal use.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 2,
-      "word": "home",
-      "hindi": "चाहता था।",
-      "simpleMeaning": "Used in the sentence: \"I wanted to go home.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I wanted to go home.",
-        "office": "I wanted to go home.",
-        "interview": "I wanted to go home."
+      "word": "wish",
+      "hindi": "इच्छा करना / चाहना",
+      "simpleMeaning": "to desire something, often unreal or unlikely",
+      "ipa": "/wɪʃ/",
+      "verbForms": {
+        "base": "wish",
+        "s3": "wishes",
+        "ing": "wishing",
+        "past": "wished",
+        "pastParticiple": "wished"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "desire",
+        "hope",
+        "long for"
+      ],
+      "antonyms": [
+        "refuse",
+        "reject"
+      ],
+      "sentences": {
+        "daily": "I wish I had more time.",
+        "office": "I wish the meeting were shorter.",
+        "interview": "I wish to contribute to your team.",
+        "business": "We wish you continued success.",
+        "formal": "He wishes to withdraw his application.",
+        "informal": "I wish you were here."
+      },
+      "usageNote": "'Wish' + past tense expresses unreal desire. 'Wished' = past form, similar to 'wanted'.",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 3,
-      "word": "car",
-      "hindi": "चाहता था।",
-      "simpleMeaning": "Used in the sentence: \"He wanted a new car.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "He wanted a new car.",
-        "office": "He wanted a new car.",
-        "interview": "He wanted a new car."
+      "word": "desire",
+      "hindi": "इच्छा / लालसा",
+      "simpleMeaning": "a strong wish or feeling of wanting something",
+      "ipa": "/dɪˈzaɪər/",
+      "verbForms": {
+        "base": "desire",
+        "s3": "desires",
+        "ing": "desiring",
+        "past": "desired",
+        "pastParticiple": "desired"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "want",
+        "wish",
+        "crave"
+      ],
+      "antonyms": [
+        "apathy",
+        "indifference"
+      ],
+      "sentences": {
+        "daily": "She desired a peaceful life.",
+        "office": "He desired a senior position.",
+        "interview": "I desire to excel in this role.",
+        "business": "The company desired rapid growth.",
+        "formal": "She desired a formal response.",
+        "informal": "He desired more attention."
+      },
+      "usageNote": "'Desire' is more formal and intense than 'want'. Often used in writing.",
+      "cefrLevel": "B1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 4,
-      "word": "doctor",
-      "hindi": "चाहती थी।",
-      "simpleMeaning": "Used in the sentence: \"She wanted to become a doctor.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "She wanted to become a doctor.",
-        "office": "She wanted to become a doctor.",
-        "interview": "She wanted to become a doctor."
+      "word": "hope",
+      "hindi": "उम्मीद करना",
+      "simpleMeaning": "to want something to happen and believe it might",
+      "ipa": "/hoʊp/",
+      "verbForms": {
+        "base": "hope",
+        "s3": "hopes",
+        "ing": "hoping",
+        "past": "hoped",
+        "pastParticiple": "hoped"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "wish",
+        "expect",
+        "aspire"
+      ],
+      "antonyms": [
+        "despair",
+        "doubt"
+      ],
+      "sentences": {
+        "daily": "I hoped for good weather.",
+        "office": "We hoped to close the deal by Friday.",
+        "interview": "I hope to join your team soon.",
+        "business": "They hoped for higher profits.",
+        "formal": "He hoped to receive a positive reply.",
+        "informal": "I hoped you would come."
+      },
+      "usageNote": "'Hope' involves belief it might happen. 'Hoped' is past form.",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 5,
-      "word": "rest",
-      "hindi": "चाहते थे।",
-      "simpleMeaning": "Used in the sentence: \"We wanted to take rest.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "We wanted to take rest.",
-        "office": "We wanted to take rest.",
-        "interview": "We wanted to take rest."
+      "word": "dream",
+      "hindi": "सपना देखना / ख्वाहिश रखना",
+      "simpleMeaning": "to imagine or wish for something ideal",
+      "ipa": "/driːm/",
+      "verbForms": {
+        "base": "dream",
+        "s3": "dreams",
+        "ing": "dreaming",
+        "past": "dreamed",
+        "pastParticiple": "dreamed"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "wish",
+        "imagine",
+        "aspire"
+      ],
+      "antonyms": [
+        "dread",
+        "fear"
+      ],
+      "sentences": {
+        "daily": "I dreamed of visiting Paris.",
+        "office": "She dreamed of running her own firm.",
+        "interview": "I have always dreamed of this opportunity.",
+        "business": "He dreamed of building a successful brand.",
+        "formal": "She dreamed of excelling in academia.",
+        "informal": "We dreamed of going on a road trip."
+      },
+      "usageNote": "Can also use 'dreamt' (British English). Similar to 'wanted to' in meaning.",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 6,
-      "word": "work",
-      "hindi": "चाहते थे।",
-      "simpleMeaning": "Used in the sentence: \"They wanted to finish that work.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "They wanted to finish that work.",
-        "office": "They wanted to finish that work.",
-        "interview": "They wanted to finish that work."
+      "word": "expect",
+      "hindi": "उम्मीद रखना / अपेक्षा करना",
+      "simpleMeaning": "to think that something will happen",
+      "ipa": "/ɪkˈspekt/",
+      "verbForms": {
+        "base": "expect",
+        "s3": "expects",
+        "ing": "expecting",
+        "past": "expected",
+        "pastParticiple": "expected"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "anticipate",
+        "look for",
+        "await"
+      ],
+      "antonyms": [
+        "doubt",
+        "despair"
+      ],
+      "sentences": {
+        "daily": "I expected a call from him.",
+        "office": "We expected the report by Monday.",
+        "interview": "I expected a challenging role.",
+        "business": "Clients expected timely delivery.",
+        "formal": "She expected a formal acknowledgement.",
+        "informal": "I expected you earlier!"
+      },
+      "usageNote": "'Expected' = past tense. 'Expect' is different from 'want' — it implies belief, not just desire.",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 7,
-      "word": "tea",
-      "hindi": "चाहते थे?",
-      "simpleMeaning": "Used in the sentence: \"Did you want tea?\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Did you want tea?",
-        "office": "Did you want tea?",
-        "interview": "Did you want tea?"
+      "word": "plan",
+      "hindi": "योजना बनाना",
+      "simpleMeaning": "to decide and arrange what you will do",
+      "ipa": "/plæn/",
+      "verbForms": {
+        "base": "plan",
+        "s3": "plans",
+        "ing": "planning",
+        "past": "planned",
+        "pastParticiple": "planned"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "intend",
+        "organize",
+        "arrange"
+      ],
+      "antonyms": [
+        "improvise",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I planned to wake up early.",
+        "office": "She planned to present her findings.",
+        "interview": "I planned this career path carefully.",
+        "business": "We planned to launch in Q3.",
+        "formal": "He planned to submit the proposal.",
+        "informal": "We planned to hang out this weekend."
+      },
+      "usageNote": "'Wanted to' + 'planned to' often go together: 'I wanted to but hadn't planned to.'",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 8,
-      "word": "book",
-      "hindi": "चाहिए थी।",
-      "simpleMeaning": "Used in the sentence: \"I did not want that book.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I did not want that book.",
-        "office": "I did not want that book.",
-        "interview": "I did not want that book."
+      "word": "decide",
+      "hindi": "निर्णय लेना / तय करना",
+      "simpleMeaning": "to make a choice about something",
+      "ipa": "/dɪˈsaɪd/",
+      "verbForms": {
+        "base": "decide",
+        "s3": "decides",
+        "ing": "deciding",
+        "past": "decided",
+        "pastParticiple": "decided"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "choose",
+        "resolve",
+        "determine"
+      ],
+      "antonyms": [
+        "hesitate",
+        "waver",
+        "avoid"
+      ],
+      "sentences": {
+        "daily": "I decided to quit social media.",
+        "office": "She decided to delegate the task.",
+        "interview": "I decided to switch careers.",
+        "business": "The board decided to restructure.",
+        "formal": "He decided to escalate the matter.",
+        "informal": "We decided to skip the party."
+      },
+      "usageNote": "'Decided' and 'wanted to' often appear together: 'I wanted to do it but decided not to.'",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 9,
-      "word": "me",
-      "hindi": "चाहता था।",
-      "simpleMeaning": "Used in the sentence: \"He wanted to talk to me.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "He wanted to talk to me.",
-        "office": "He wanted to talk to me.",
-        "interview": "He wanted to talk to me."
+      "word": "try",
+      "hindi": "कोशिश करना",
+      "simpleMeaning": "to make an attempt to do something",
+      "ipa": "/traɪ/",
+      "verbForms": {
+        "base": "try",
+        "s3": "tries",
+        "ing": "trying",
+        "past": "tried",
+        "pastParticiple": "tried"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "attempt",
+        "endeavor",
+        "strive"
+      ],
+      "antonyms": [
+        "give up",
+        "abandon"
+      ],
+      "sentences": {
+        "daily": "I tried to fix it myself.",
+        "office": "She tried to meet the deadline.",
+        "interview": "I tried every opportunity to grow.",
+        "business": "We tried to retain the client.",
+        "formal": "He tried to resolve the conflict.",
+        "informal": "I tried calling you three times."
+      },
+      "usageNote": "'Tried to' = past attempt. Often pairs with 'wanted to': 'I wanted to do it and tried.'",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 10,
-      "word": "rest",
-      "hindi": "चाहिए था।",
-      "simpleMeaning": "Used in the sentence: \"I wanted some rest.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I wanted some rest.",
-        "office": "I wanted some rest.",
-        "interview": "I wanted some rest."
+      "word": "need",
+      "hindi": "ज़रूरत होना / चाहिए होना",
+      "simpleMeaning": "to require something; to lack something necessary",
+      "ipa": "/niːd/",
+      "verbForms": {
+        "base": "need",
+        "s3": "needs",
+        "ing": "needing",
+        "past": "needed",
+        "pastParticiple": "needed"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "require",
+        "demand",
+        "lack"
+      ],
+      "antonyms": [
+        "have",
+        "possess"
+      ],
+      "sentences": {
+        "daily": "I needed more time.",
+        "office": "We needed more staff for the project.",
+        "interview": "I needed a growth-oriented environment.",
+        "business": "The company needed a stronger strategy.",
+        "formal": "He needed additional documentation.",
+        "informal": "I just needed a break."
+      },
+      "usageNote": "'Needed' vs 'wanted' — 'needed' is necessity, 'wanted' is desire. Both are past tense.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 11,
-      "word": "coffee",
-      "hindi": "चाहते थे?",
-      "simpleMeaning": "Used in the sentence: \"Did you want coffee?\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Did you want coffee?",
-        "office": "Did you want coffee?",
-        "interview": "Did you want coffee?"
+      "word": "refuse",
+      "hindi": "मना करना / इनकार करना",
+      "simpleMeaning": "to say no to something; to be unwilling to do it",
+      "ipa": "/rɪˈfjuːz/",
+      "verbForms": {
+        "base": "refuse",
+        "s3": "refuses",
+        "ing": "refusing",
+        "past": "refused",
+        "pastParticiple": "refused"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "decline",
+        "reject",
+        "deny"
+      ],
+      "antonyms": [
+        "accept",
+        "agree",
+        "consent"
+      ],
+      "sentences": {
+        "daily": "He refused to eat vegetables.",
+        "office": "She refused to sign the contract.",
+        "interview": "I never refuse a learning opportunity.",
+        "business": "The client refused the revised offer.",
+        "formal": "He refused to comment on the matter.",
+        "informal": "She refused to come to the party."
+      },
+      "usageNote": "'Refused to' = past refusal. Opposite in meaning to 'wanted to'.",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 12,
-      "word": "engineer",
-      "hindi": "चाहती थी।",
-      "simpleMeaning": "Used in the sentence: \"She wanted to become an engineer.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "She wanted to become an engineer.",
-        "office": "She wanted to become an engineer.",
-        "interview": "She wanted to become an engineer."
+      "word": "agree",
+      "hindi": "सहमत होना / राज़ी होना",
+      "simpleMeaning": "to have the same opinion; to say yes",
+      "ipa": "/əˈɡriː/",
+      "verbForms": {
+        "base": "agree",
+        "s3": "agrees",
+        "ing": "agreeing",
+        "past": "agreed",
+        "pastParticiple": "agreed"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "consent",
+        "accept",
+        "concur"
+      ],
+      "antonyms": [
+        "disagree",
+        "refuse",
+        "oppose"
+      ],
+      "sentences": {
+        "daily": "I agreed to help her.",
+        "office": "We agreed to the new terms.",
+        "interview": "I agreed with the interviewer's approach.",
+        "business": "Both parties agreed on the price.",
+        "formal": "He agreed to sign the MOU.",
+        "informal": "She finally agreed to come."
+      },
+      "usageNote": "'Wanted to agree' = desired to say yes. Common in professional settings.",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 13,
-      "word": "information",
-      "hindi": "चाहिए थी।",
-      "simpleMeaning": "Used in the sentence: \"We wanted more information.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "We wanted more information.",
-        "office": "We wanted more information.",
-        "interview": "We wanted more information."
+      "word": "ask",
+      "hindi": "पूछना / माँगना",
+      "simpleMeaning": "to request something or seek information",
+      "ipa": "/ɑːsk/",
+      "verbForms": {
+        "base": "ask",
+        "s3": "asks",
+        "ing": "asking",
+        "past": "asked",
+        "pastParticiple": "asked"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "inquire",
+        "request",
+        "question"
+      ],
+      "antonyms": [
+        "answer",
+        "respond"
+      ],
+      "sentences": {
+        "daily": "I wanted to ask her for help.",
+        "office": "She asked for a project extension.",
+        "interview": "I wanted to ask about the work culture.",
+        "business": "He asked for a better deal.",
+        "formal": "She asked to be excused from the meeting.",
+        "informal": "I just wanted to ask if you are free."
+      },
+      "usageNote": "'Asked' = past. 'Wanted to ask' is very common polite phrase.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 14,
-      "word": "help",
-      "hindi": "चाहता था।",
-      "simpleMeaning": "Used in the sentence: \"I wanted your help.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I wanted your help.",
-        "office": "I wanted your help.",
-        "interview": "I wanted your help."
+      "word": "tell",
+      "hindi": "बताना / कहना",
+      "simpleMeaning": "to communicate information to someone",
+      "ipa": "/tel/",
+      "verbForms": {
+        "base": "tell",
+        "s3": "tells",
+        "ing": "telling",
+        "past": "told",
+        "pastParticiple": "told"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "say",
+        "inform",
+        "notify"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal"
+      ],
+      "sentences": {
+        "daily": "I wanted to tell you something important.",
+        "office": "She told the manager about the issue.",
+        "interview": "I wanted to tell you about my achievements.",
+        "business": "He told the client about the delay.",
+        "formal": "She wanted to tell the board about the results.",
+        "informal": "I just wanted to tell you — you did great!"
+      },
+      "usageNote": "Irregular: tell → told → told. 'Wanted to tell' is a very natural spoken phrase.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 15,
-      "word": "peace",
-      "hindi": "चाहते थे।",
-      "simpleMeaning": "Used in the sentence: \"They wanted peace.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "They wanted peace.",
-        "office": "They wanted peace.",
-        "interview": "They wanted peace."
+      "word": "meet",
+      "hindi": "मिलना",
+      "simpleMeaning": "to come together with someone",
+      "ipa": "/miːt/",
+      "verbForms": {
+        "base": "meet",
+        "s3": "meets",
+        "ing": "meeting",
+        "past": "met",
+        "pastParticiple": "met"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "encounter",
+        "greet",
+        "see"
+      ],
+      "antonyms": [
+        "avoid",
+        "miss"
+      ],
+      "sentences": {
+        "daily": "I wanted to meet him at the park.",
+        "office": "She wanted to meet the new client.",
+        "interview": "I always wanted to meet people in this industry.",
+        "business": "We wanted to meet before the deal closed.",
+        "formal": "He wanted to meet the CEO personally.",
+        "informal": "I wanted to meet you sooner."
+      },
+      "usageNote": "Irregular: meet → met → met. 'Wanted to meet' is very common in both social and professional contexts.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 16,
-      "word": "quickly",
-      "hindi": "चाहता था।",
-      "simpleMeaning": "Used in the sentence: \"I wanted to finish this work quickly.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I wanted to finish this work quickly.",
-        "office": "I wanted to finish this work quickly.",
-        "interview": "I wanted to finish this work quickly."
+      "word": "visit",
+      "hindi": "मिलने जाना / दौरा करना",
+      "simpleMeaning": "to go to see a person, place or thing",
+      "ipa": "/ˈvɪzɪt/",
+      "verbForms": {
+        "base": "visit",
+        "s3": "visits",
+        "ing": "visiting",
+        "past": "visited",
+        "pastParticiple": "visited"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "go to",
+        "call on",
+        "tour"
+      ],
+      "antonyms": [
+        "avoid",
+        "skip"
+      ],
+      "sentences": {
+        "daily": "I wanted to visit my grandparents.",
+        "office": "We wanted to visit the client's office.",
+        "interview": "I always wanted to visit this company.",
+        "business": "The investor wanted to visit the factory.",
+        "formal": "She wanted to visit the overseas branch.",
+        "informal": "He wanted to visit us last weekend."
+      },
+      "usageNote": "'Wanted to visit' = past desire to go somewhere. Very useful in travel and family contexts.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 17,
-      "word": "promotion",
-      "hindi": "चाहता था।",
-      "simpleMeaning": "Used in the sentence: \"He wanted a promotion.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "He wanted a promotion.",
-        "office": "He wanted a promotion.",
-        "interview": "He wanted a promotion."
+      "word": "learn",
+      "hindi": "सीखना",
+      "simpleMeaning": "to gain knowledge or a skill",
+      "ipa": "/lɜːrn/",
+      "verbForms": {
+        "base": "learn",
+        "s3": "learns",
+        "ing": "learning",
+        "past": "learned",
+        "pastParticiple": "learned"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "study",
+        "understand",
+        "acquire"
+      ],
+      "antonyms": [
+        "forget",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I wanted to learn guitar.",
+        "office": "She wanted to learn a new software.",
+        "interview": "I always wanted to learn from the best.",
+        "business": "He wanted to learn digital marketing.",
+        "formal": "She wanted to learn best practices.",
+        "informal": "I wanted to learn cooking from my mother."
+      },
+      "usageNote": "'Wanted to learn' = past desire to acquire skill. Very common in interviews and academic contexts.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 18,
-      "word": "outside",
-      "hindi": "चाहते थे?",
-      "simpleMeaning": "Used in the sentence: \"Did you want to go outside?\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Did you want to go outside?",
-        "office": "Did you want to go outside?",
-        "interview": "Did you want to go outside?"
+      "word": "achieve",
+      "hindi": "हासिल करना / पाना",
+      "simpleMeaning": "to successfully reach a goal or standard",
+      "ipa": "/əˈtʃiːv/",
+      "verbForms": {
+        "base": "achieve",
+        "s3": "achieves",
+        "ing": "achieving",
+        "past": "achieved",
+        "pastParticiple": "achieved"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "accomplish",
+        "attain",
+        "gain"
+      ],
+      "antonyms": [
+        "fail",
+        "miss",
+        "lose"
+      ],
+      "sentences": {
+        "daily": "I wanted to achieve my fitness goal.",
+        "office": "She wanted to achieve the sales target.",
+        "interview": "I always wanted to achieve something meaningful.",
+        "business": "We wanted to achieve market leadership.",
+        "formal": "He wanted to achieve regulatory compliance.",
+        "informal": "I just wanted to achieve something this year."
+      },
+      "usageNote": "'Wanted to achieve' is a powerful phrase in interviews and goal-setting discussions.",
+      "cefrLevel": "B1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 19,
-      "word": "future",
-      "hindi": "चाहते थे।",
-      "simpleMeaning": "Used in the sentence: \"We wanted a better future.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "We wanted a better future.",
-        "office": "We wanted a better future.",
-        "interview": "We wanted a better future."
+      "word": "change",
+      "hindi": "बदलना",
+      "simpleMeaning": "to make or become different",
+      "ipa": "/tʃeɪndʒ/",
+      "verbForms": {
+        "base": "change",
+        "s3": "changes",
+        "ing": "changing",
+        "past": "changed",
+        "pastParticiple": "changed"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "alter",
+        "modify",
+        "transform"
+      ],
+      "antonyms": [
+        "keep",
+        "maintain",
+        "preserve"
+      ],
+      "sentences": {
+        "daily": "I wanted to change my daily routine.",
+        "office": "She wanted to change the project approach.",
+        "interview": "I wanted to change my career path.",
+        "business": "He wanted to change the pricing model.",
+        "formal": "The board wanted to change the policy.",
+        "informal": "I just wanted to change the plan."
+      },
+      "usageNote": "'Wanted to change' expresses past desire for transformation, very useful in interviews.",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 20,
-      "word": "truth",
-      "hindi": "चाहता था।",
-      "simpleMeaning": "Used in the sentence: \"I wanted to know the truth.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I wanted to know the truth.",
-        "office": "I wanted to know the truth.",
-        "interview": "I wanted to know the truth."
+      "word": "improve",
+      "hindi": "सुधारना / बेहतर करना",
+      "simpleMeaning": "to make something better",
+      "ipa": "/ɪmˈpruːv/",
+      "verbForms": {
+        "base": "improve",
+        "s3": "improves",
+        "ing": "improving",
+        "past": "improved",
+        "pastParticiple": "improved"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "enhance",
+        "upgrade",
+        "better"
+      ],
+      "antonyms": [
+        "worsen",
+        "deteriorate"
+      ],
+      "sentences": {
+        "daily": "I wanted to improve my English.",
+        "office": "She wanted to improve team performance.",
+        "interview": "I always wanted to improve myself.",
+        "business": "We wanted to improve customer satisfaction.",
+        "formal": "He wanted to improve the documentation.",
+        "informal": "I wanted to improve my cooking."
+      },
+      "usageNote": "'Wanted to improve' is extremely common in self-development, interview, and professional contexts.",
+      "cefrLevel": "A2",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 21,
-      "word": "business",
-      "hindi": "चाहती थी।",
-      "simpleMeaning": "Used in the sentence: \"She wanted to start her own business.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "She wanted to start her own business.",
-        "office": "She wanted to start her own business.",
-        "interview": "She wanted to start her own business."
+      "word": "help",
+      "hindi": "मदद करना",
+      "simpleMeaning": "to assist someone or make things easier",
+      "ipa": "/help/",
+      "verbForms": {
+        "base": "help",
+        "s3": "helps",
+        "ing": "helping",
+        "past": "helped",
+        "pastParticiple": "helped"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "assist",
+        "support",
+        "aid"
+      ],
+      "antonyms": [
+        "hinder",
+        "obstruct"
+      ],
+      "sentences": {
+        "daily": "I wanted to help my brother.",
+        "office": "She wanted to help the new employee.",
+        "interview": "I always wanted to help others grow.",
+        "business": "He wanted to help the client solve the issue.",
+        "formal": "She wanted to help with the event arrangements.",
+        "informal": "I just wanted to help you."
+      },
+      "usageNote": "'Wanted to help' is a natural, kind expression used across all contexts.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 22,
-      "word": "mistake",
-      "hindi": "चाहिए थी।",
-      "simpleMeaning": "Used in the sentence: \"I did not want any mistake.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I did not want any mistake.",
-        "office": "I did not want any mistake.",
-        "interview": "I did not want any mistake."
+      "word": "join",
+      "hindi": "जुड़ना / शामिल होना",
+      "simpleMeaning": "to become a member or part of a group",
+      "ipa": "/dʒɔɪn/",
+      "verbForms": {
+        "base": "join",
+        "s3": "joins",
+        "ing": "joining",
+        "past": "joined",
+        "pastParticiple": "joined"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "enter",
+        "enroll",
+        "participate"
+      ],
+      "antonyms": [
+        "leave",
+        "quit",
+        "withdraw"
+      ],
+      "sentences": {
+        "daily": "I wanted to join the yoga class.",
+        "office": "She wanted to join the core team.",
+        "interview": "I always wanted to join this organization.",
+        "business": "He wanted to join the industry association.",
+        "formal": "She wanted to join the advisory board.",
+        "informal": "I wanted to join you all for lunch."
+      },
+      "usageNote": "'Wanted to join' is extremely common in interview answers and social contexts.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 23,
-      "word": "help",
-      "hindi": "चाहिए थी?",
-      "simpleMeaning": "Used in the sentence: \"Did you want any help?\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Did you want any help?",
-        "office": "Did you want any help?",
-        "interview": "Did you want any help?"
+      "word": "start",
+      "hindi": "शुरू करना",
+      "simpleMeaning": "to begin an activity or journey",
+      "ipa": "/stɑːrt/",
+      "verbForms": {
+        "base": "start",
+        "s3": "starts",
+        "ing": "starting",
+        "past": "started",
+        "pastParticiple": "started"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "begin",
+        "launch",
+        "initiate"
+      ],
+      "antonyms": [
+        "stop",
+        "end",
+        "finish"
+      ],
+      "sentences": {
+        "daily": "I wanted to start reading novels.",
+        "office": "She wanted to start a new initiative.",
+        "interview": "I wanted to start my career here.",
+        "business": "He wanted to start his own business.",
+        "formal": "She wanted to start the meeting on time.",
+        "informal": "I wanted to start the day fresh."
+      },
+      "usageNote": "'Wanted to start' is very common in goal-setting, interviews, and business discussions.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 24,
-      "word": "success",
-      "hindi": "चाहते थे।",
-      "simpleMeaning": "Used in the sentence: \"They wanted success.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "They wanted success.",
-        "office": "They wanted success.",
-        "interview": "They wanted success."
+      "word": "finish",
+      "hindi": "खत्म करना / पूरा करना",
+      "simpleMeaning": "to complete something",
+      "ipa": "/ˈfɪnɪʃ/",
+      "verbForms": {
+        "base": "finish",
+        "s3": "finishes",
+        "ing": "finishing",
+        "past": "finished",
+        "pastParticiple": "finished"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "complete",
+        "conclude",
+        "end"
+      ],
+      "antonyms": [
+        "start",
+        "begin",
+        "abandon"
+      ],
+      "sentences": {
+        "daily": "I wanted to finish my homework early.",
+        "office": "She wanted to finish the report by noon.",
+        "interview": "I always wanted to finish what I started.",
+        "business": "We wanted to finish the project on time.",
+        "formal": "He wanted to finish the documentation.",
+        "informal": "I just wanted to finish the game."
+      },
+      "usageNote": "'Wanted to finish' shows past desire for task completion. Very useful in professional conversations.",
+      "cefrLevel": "A1",
+      "category": "Core Verb — Wanted"
     },
     {
       "id": 25,
-      "word": "opportunity",
-      "hindi": "चाहिए था।",
-      "simpleMeaning": "Used in the sentence: \"I wanted this opportunity.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I wanted this opportunity.",
-        "office": "I wanted this opportunity.",
-        "interview": "I wanted this opportunity."
+      "word": "travel",
+      "hindi": "यात्रा करना / घूमना",
+      "simpleMeaning": "to go from one place to another",
+      "ipa": "/ˈtrævl/",
+      "verbForms": {
+        "base": "travel",
+        "s3": "travels",
+        "ing": "travelling",
+        "past": "travelled",
+        "pastParticiple": "travelled"
       },
-      "usageNote": "Appears with Use of Wanted",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "journey",
+        "tour",
+        "explore"
+      ],
+      "antonyms": [
+        "stay",
+        "remain"
+      ],
+      "sentences": {
+        "daily": "I wanted to travel to Shimla.",
+        "office": "She wanted to travel to the client site.",
+        "interview": "I have always wanted to travel and experience cultures.",
+        "business": "He wanted to travel for the product launch.",
+        "formal": "She wanted to travel to the headquarters.",
+        "informal": "We wanted to travel together this summer."
+      },
+      "usageNote": "'Wanted to travel' expresses past desire for exploration. Very common in informal and formal contexts.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 26,
+      "word": "speak",
+      "hindi": "बोलना",
+      "simpleMeaning": "to talk; to use words to communicate",
+      "ipa": "/spiːk/",
+      "verbForms": {
+        "base": "speak",
+        "s3": "speaks",
+        "ing": "speaking",
+        "past": "spoke",
+        "pastParticiple": "spoken"
+      },
+      "synonyms": [
+        "talk",
+        "say",
+        "communicate"
+      ],
+      "antonyms": [
+        "listen",
+        "be silent"
+      ],
+      "sentences": {
+        "daily": "I wanted to speak to my teacher.",
+        "office": "She wanted to speak at the conference.",
+        "interview": "I always wanted to speak fluent English.",
+        "business": "He wanted to speak to the CEO directly.",
+        "formal": "She wanted to speak at the board meeting.",
+        "informal": "I just wanted to speak my mind."
+      },
+      "usageNote": "Irregular: speak → spoke → spoken. 'Wanted to speak' is very natural in daily and professional life.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 27,
+      "word": "write",
+      "hindi": "लिखना",
+      "simpleMeaning": "to form words or text",
+      "ipa": "/raɪt/",
+      "verbForms": {
+        "base": "write",
+        "s3": "writes",
+        "ing": "writing",
+        "past": "wrote",
+        "pastParticiple": "written"
+      },
+      "synonyms": [
+        "compose",
+        "draft",
+        "pen"
+      ],
+      "antonyms": [
+        "read",
+        "erase"
+      ],
+      "sentences": {
+        "daily": "I wanted to write a letter.",
+        "office": "She wanted to write the project summary.",
+        "interview": "I wanted to write about my experience.",
+        "business": "He wanted to write a business proposal.",
+        "formal": "She wanted to write a formal complaint.",
+        "informal": "I wanted to write a poem for you."
+      },
+      "usageNote": "Irregular: write → wrote → written. 'Wanted to write' is common in creative and professional settings.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 28,
+      "word": "read",
+      "hindi": "पढ़ना",
+      "simpleMeaning": "to look at and understand written words",
+      "ipa": "/riːd/",
+      "verbForms": {
+        "base": "read",
+        "s3": "reads",
+        "ing": "reading",
+        "past": "read",
+        "pastParticiple": "read"
+      },
+      "synonyms": [
+        "study",
+        "review",
+        "peruse"
+      ],
+      "antonyms": [
+        "ignore",
+        "write"
+      ],
+      "sentences": {
+        "daily": "I wanted to read that novel.",
+        "office": "She wanted to read the full report.",
+        "interview": "I always wanted to read widely.",
+        "business": "He wanted to read the contract carefully.",
+        "formal": "She wanted to read the policy document.",
+        "informal": "I wanted to read the message but forgot."
+      },
+      "usageNote": "Interesting: 'read' (present) /riːd/ vs 'read' (past) /red/ — same spelling, different pronunciation.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 29,
+      "word": "buy",
+      "hindi": "खरीदना",
+      "simpleMeaning": "to get something by paying money",
+      "ipa": "/baɪ/",
+      "verbForms": {
+        "base": "buy",
+        "s3": "buys",
+        "ing": "buying",
+        "past": "bought",
+        "pastParticiple": "bought"
+      },
+      "synonyms": [
+        "purchase",
+        "acquire",
+        "get"
+      ],
+      "antonyms": [
+        "sell",
+        "give"
+      ],
+      "sentences": {
+        "daily": "I wanted to buy new shoes.",
+        "office": "She wanted to buy new equipment.",
+        "interview": "I wanted to buy books to prepare.",
+        "business": "He wanted to buy the startup.",
+        "formal": "She wanted to buy the office space.",
+        "informal": "I wanted to buy a gift for you."
+      },
+      "usageNote": "Irregular: buy → bought → bought. 'Wanted to buy' is common in daily life and business.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 30,
+      "word": "sell",
+      "hindi": "बेचना",
+      "simpleMeaning": "to exchange for money",
+      "ipa": "/sel/",
+      "verbForms": {
+        "base": "sell",
+        "s3": "sells",
+        "ing": "selling",
+        "past": "sold",
+        "pastParticiple": "sold"
+      },
+      "synonyms": [
+        "trade",
+        "market",
+        "vend"
+      ],
+      "antonyms": [
+        "buy",
+        "purchase"
+      ],
+      "sentences": {
+        "daily": "I wanted to sell my old phone.",
+        "office": "She wanted to sell more units this quarter.",
+        "interview": "I always wanted to sell ideas, not just products.",
+        "business": "He wanted to sell the company to investors.",
+        "formal": "She wanted to sell the property.",
+        "informal": "I wanted to sell my old bike."
+      },
+      "usageNote": "Irregular: sell → sold → sold. 'Wanted to sell' is key in sales, business, and commerce contexts.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 31,
+      "word": "give",
+      "hindi": "देना",
+      "simpleMeaning": "to hand over something to someone",
+      "ipa": "/ɡɪv/",
+      "verbForms": {
+        "base": "give",
+        "s3": "gives",
+        "ing": "giving",
+        "past": "gave",
+        "pastParticiple": "given"
+      },
+      "synonyms": [
+        "provide",
+        "offer",
+        "donate"
+      ],
+      "antonyms": [
+        "take",
+        "receive",
+        "keep"
+      ],
+      "sentences": {
+        "daily": "I wanted to give him a surprise.",
+        "office": "She wanted to give feedback to her team.",
+        "interview": "I wanted to give my best.",
+        "business": "He wanted to give a discount.",
+        "formal": "She wanted to give a formal presentation.",
+        "informal": "I just wanted to give you a hug."
+      },
+      "usageNote": "Irregular: give → gave → given. 'Wanted to give' shows past generosity or intention.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 32,
+      "word": "take",
+      "hindi": "लेना",
+      "simpleMeaning": "to pick up or carry something",
+      "ipa": "/teɪk/",
+      "verbForms": {
+        "base": "take",
+        "s3": "takes",
+        "ing": "taking",
+        "past": "took",
+        "pastParticiple": "taken"
+      },
+      "synonyms": [
+        "grab",
+        "carry",
+        "bring"
+      ],
+      "antonyms": [
+        "give",
+        "drop",
+        "leave"
+      ],
+      "sentences": {
+        "daily": "I wanted to take a break.",
+        "office": "She wanted to take charge of the project.",
+        "interview": "I wanted to take on more responsibility.",
+        "business": "He wanted to take the company public.",
+        "formal": "She wanted to take formal leave.",
+        "informal": "I just wanted to take a nap."
+      },
+      "usageNote": "Irregular: take → took → taken. Many phrasal verbs: take charge, take a break, take over.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 33,
+      "word": "know",
+      "hindi": "जानना",
+      "simpleMeaning": "to have information about something",
+      "ipa": "/noʊ/",
+      "verbForms": {
+        "base": "know",
+        "s3": "knows",
+        "ing": "knowing",
+        "past": "knew",
+        "pastParticiple": "known"
+      },
+      "synonyms": [
+        "understand",
+        "recognize",
+        "realize"
+      ],
+      "antonyms": [
+        "ignore",
+        "not know"
+      ],
+      "sentences": {
+        "daily": "I wanted to know her name.",
+        "office": "She wanted to know the project status.",
+        "interview": "I always wanted to know more about this field.",
+        "business": "He wanted to know the market trend.",
+        "formal": "She wanted to know the audit results.",
+        "informal": "I just wanted to know if you were okay."
+      },
+      "usageNote": "Irregular: know → knew → known. Stative verb — avoid continuous form. 'Wanted to know' is very natural.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 34,
+      "word": "understand",
+      "hindi": "समझना",
+      "simpleMeaning": "to know the meaning of something",
+      "ipa": "/ˌʌndəˈstænd/",
+      "verbForms": {
+        "base": "understand",
+        "s3": "understands",
+        "ing": "understanding",
+        "past": "understood",
+        "pastParticiple": "understood"
+      },
+      "synonyms": [
+        "comprehend",
+        "grasp",
+        "realize"
+      ],
+      "antonyms": [
+        "misunderstand",
+        "confuse"
+      ],
+      "sentences": {
+        "daily": "I wanted to understand the recipe.",
+        "office": "She wanted to understand the new system.",
+        "interview": "I always wanted to understand the business deeply.",
+        "business": "He wanted to understand the client's need.",
+        "formal": "She wanted to understand the legal terms.",
+        "informal": "I just wanted to understand your point."
+      },
+      "usageNote": "Irregular: understand → understood → understood. 'Wanted to understand' shows intellectual curiosity.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 35,
+      "word": "explain",
+      "hindi": "समझाना / बताना",
+      "simpleMeaning": "to make something clear by describing it",
+      "ipa": "/ɪkˈspleɪn/",
+      "verbForms": {
+        "base": "explain",
+        "s3": "explains",
+        "ing": "explaining",
+        "past": "explained",
+        "pastParticiple": "explained"
+      },
+      "synonyms": [
+        "clarify",
+        "describe",
+        "illustrate"
+      ],
+      "antonyms": [
+        "confuse",
+        "complicate"
+      ],
+      "sentences": {
+        "daily": "I wanted to explain my side.",
+        "office": "She wanted to explain the new process.",
+        "interview": "I wanted to explain my experience clearly.",
+        "business": "He wanted to explain the pricing model.",
+        "formal": "She wanted to explain the decision rationale.",
+        "informal": "I just wanted to explain what happened."
+      },
+      "usageNote": "'Wanted to explain' is very common in both apologies and professional discussions.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 36,
+      "word": "apologize",
+      "hindi": "माफ़ी माँगना",
+      "simpleMeaning": "to say sorry for something",
+      "ipa": "/əˈpɒlədʒaɪz/",
+      "verbForms": {
+        "base": "apologize",
+        "s3": "apologizes",
+        "ing": "apologizing",
+        "past": "apologized",
+        "pastParticiple": "apologized"
+      },
+      "synonyms": [
+        "say sorry",
+        "regret",
+        "express remorse"
+      ],
+      "antonyms": [
+        "accuse",
+        "blame"
+      ],
+      "sentences": {
+        "daily": "I wanted to apologize to my friend.",
+        "office": "She wanted to apologize for the delay.",
+        "interview": "I always wanted to apologize and learn from mistakes.",
+        "business": "He wanted to apologize for the miscommunication.",
+        "formal": "She wanted to apologize formally in writing.",
+        "informal": "I just wanted to apologize for being rude."
+      },
+      "usageNote": "'Wanted to apologize' is a very polite and common expression in daily and professional life.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 37,
+      "word": "celebrate",
+      "hindi": "जश्न मनाना / खुशी मनाना",
+      "simpleMeaning": "to do something special for a happy event",
+      "ipa": "/ˈselɪbreɪt/",
+      "verbForms": {
+        "base": "celebrate",
+        "s3": "celebrates",
+        "ing": "celebrating",
+        "past": "celebrated",
+        "pastParticiple": "celebrated"
+      },
+      "synonyms": [
+        "rejoice",
+        "honor",
+        "commemorate"
+      ],
+      "antonyms": [
+        "mourn",
+        "grieve"
+      ],
+      "sentences": {
+        "daily": "I wanted to celebrate my birthday with family.",
+        "office": "She wanted to celebrate the team's success.",
+        "interview": "I always wanted to celebrate milestones.",
+        "business": "He wanted to celebrate closing the deal.",
+        "formal": "She wanted to celebrate the company anniversary.",
+        "informal": "We wanted to celebrate all night!"
+      },
+      "usageNote": "'Wanted to celebrate' expresses past desire for joyous occasion.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 38,
+      "word": "rest",
+      "hindi": "आराम करना",
+      "simpleMeaning": "to stop working and relax",
+      "ipa": "/rest/",
+      "verbForms": {
+        "base": "rest",
+        "s3": "rests",
+        "ing": "resting",
+        "past": "rested",
+        "pastParticiple": "rested"
+      },
+      "synonyms": [
+        "relax",
+        "sleep",
+        "take a break"
+      ],
+      "antonyms": [
+        "work",
+        "exert"
+      ],
+      "sentences": {
+        "daily": "I wanted to rest after a long day.",
+        "office": "She wanted to rest during the lunch break.",
+        "interview": "I wanted rest, which is why I resigned.",
+        "business": "He wanted to rest before the big pitch.",
+        "formal": "She wanted to rest before the ceremony.",
+        "informal": "I just wanted to rest for 10 minutes."
+      },
+      "usageNote": "'Wanted to rest' is very natural in daily conversations about tiredness.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 39,
+      "word": "move",
+      "hindi": "जाना / स्थानांतरित होना",
+      "simpleMeaning": "to change position or place",
+      "ipa": "/muːv/",
+      "verbForms": {
+        "base": "move",
+        "s3": "moves",
+        "ing": "moving",
+        "past": "moved",
+        "pastParticiple": "moved"
+      },
+      "synonyms": [
+        "shift",
+        "transfer",
+        "relocate"
+      ],
+      "antonyms": [
+        "stay",
+        "remain",
+        "stop"
+      ],
+      "sentences": {
+        "daily": "I wanted to move to a bigger house.",
+        "office": "She wanted to move to the new office.",
+        "interview": "I wanted to move to a growth-oriented company.",
+        "business": "He wanted to move the business online.",
+        "formal": "She wanted to move the meeting to Thursday.",
+        "informal": "I wanted to move out of my hometown."
+      },
+      "usageNote": "'Wanted to move' — both literal (location) and figurative (career, life changes).",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 40,
+      "word": "share",
+      "hindi": "साझा करना / बाँटना",
+      "simpleMeaning": "to give a part of something to others",
+      "ipa": "/ʃeər/",
+      "verbForms": {
+        "base": "share",
+        "s3": "shares",
+        "ing": "sharing",
+        "past": "shared",
+        "pastParticiple": "shared"
+      },
+      "synonyms": [
+        "distribute",
+        "divide",
+        "give"
+      ],
+      "antonyms": [
+        "keep",
+        "hoard",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "I wanted to share my food with him.",
+        "office": "She wanted to share the data with the team.",
+        "interview": "I wanted to share my ideas openly.",
+        "business": "He wanted to share the profits fairly.",
+        "formal": "She wanted to share the findings with stakeholders.",
+        "informal": "I just wanted to share something funny."
+      },
+      "usageNote": "'Wanted to share' is very natural in both social and professional settings.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 41,
+      "word": "support",
+      "hindi": "सहारा देना / समर्थन करना",
+      "simpleMeaning": "to give help or encouragement to someone",
+      "ipa": "/səˈpɔːrt/",
+      "verbForms": {
+        "base": "support",
+        "s3": "supports",
+        "ing": "supporting",
+        "past": "supported",
+        "pastParticiple": "supported"
+      },
+      "synonyms": [
+        "help",
+        "back",
+        "assist"
+      ],
+      "antonyms": [
+        "oppose",
+        "undermine"
+      ],
+      "sentences": {
+        "daily": "I wanted to support my parents.",
+        "office": "She wanted to support the junior team members.",
+        "interview": "I always wanted to support organizational growth.",
+        "business": "He wanted to support the new initiative.",
+        "formal": "She wanted to support the CSR program.",
+        "informal": "I just wanted to support you."
+      },
+      "usageNote": "'Wanted to support' is important in interview and volunteer contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 42,
+      "word": "protect",
+      "hindi": "बचाना / सुरक्षित रखना",
+      "simpleMeaning": "to keep someone or something safe from harm",
+      "ipa": "/prəˈtekt/",
+      "verbForms": {
+        "base": "protect",
+        "s3": "protects",
+        "ing": "protecting",
+        "past": "protected",
+        "pastParticiple": "protected"
+      },
+      "synonyms": [
+        "guard",
+        "defend",
+        "shield"
+      ],
+      "antonyms": [
+        "harm",
+        "endanger",
+        "attack"
+      ],
+      "sentences": {
+        "daily": "I wanted to protect my family.",
+        "office": "She wanted to protect the company's data.",
+        "interview": "I always wanted to protect people's interests.",
+        "business": "He wanted to protect the brand reputation.",
+        "formal": "She wanted to protect confidential information.",
+        "informal": "I just wanted to protect you."
+      },
+      "usageNote": "'Wanted to protect' is common in both family and corporate discussions.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 43,
+      "word": "avoid",
+      "hindi": "बचना / टालना",
+      "simpleMeaning": "to stay away from someone or something",
+      "ipa": "/əˈvɔɪd/",
+      "verbForms": {
+        "base": "avoid",
+        "s3": "avoids",
+        "ing": "avoiding",
+        "past": "avoided",
+        "pastParticiple": "avoided"
+      },
+      "synonyms": [
+        "evade",
+        "escape",
+        "shun"
+      ],
+      "antonyms": [
+        "face",
+        "confront",
+        "seek"
+      ],
+      "sentences": {
+        "daily": "I wanted to avoid traffic.",
+        "office": "She wanted to avoid conflict.",
+        "interview": "I always wanted to avoid negativity.",
+        "business": "He wanted to avoid unnecessary costs.",
+        "formal": "She wanted to avoid legal complications.",
+        "informal": "I just wanted to avoid drama."
+      },
+      "usageNote": "'Wanted to avoid' — followed by gerund (ing) or noun. Common in daily speech.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 44,
+      "word": "earn",
+      "hindi": "कमाना",
+      "simpleMeaning": "to receive money for work done",
+      "ipa": "/ɜːrn/",
+      "verbForms": {
+        "base": "earn",
+        "s3": "earns",
+        "ing": "earning",
+        "past": "earned",
+        "pastParticiple": "earned"
+      },
+      "synonyms": [
+        "make",
+        "gain",
+        "receive"
+      ],
+      "antonyms": [
+        "spend",
+        "lose"
+      ],
+      "sentences": {
+        "daily": "I wanted to earn more money.",
+        "office": "She wanted to earn a better salary.",
+        "interview": "I always wanted to earn through my skills.",
+        "business": "He wanted to earn customer trust.",
+        "formal": "She wanted to earn recognition in the industry.",
+        "informal": "I just wanted to earn enough for the trip."
+      },
+      "usageNote": "'Wanted to earn' is very common in career and finance discussions.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 45,
+      "word": "save",
+      "hindi": "बचाना / बचत करना",
+      "simpleMeaning": "to keep something safe or to keep money for later",
+      "ipa": "/seɪv/",
+      "verbForms": {
+        "base": "save",
+        "s3": "saves",
+        "ing": "saving",
+        "past": "saved",
+        "pastParticiple": "saved"
+      },
+      "synonyms": [
+        "preserve",
+        "store",
+        "rescue"
+      ],
+      "antonyms": [
+        "spend",
+        "waste",
+        "lose"
+      ],
+      "sentences": {
+        "daily": "I wanted to save money for a vacation.",
+        "office": "She wanted to save time on paperwork.",
+        "interview": "I always wanted to save people from inefficiency.",
+        "business": "He wanted to save the company from losses.",
+        "formal": "She wanted to save the document before closing.",
+        "informal": "I just wanted to save up for a bike."
+      },
+      "usageNote": "'Wanted to save' — both money (finance) and rescuing someone (literal). Very versatile.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 46,
+      "word": "reduce",
+      "hindi": "कम करना / घटाना",
+      "simpleMeaning": "to make something smaller in size or amount",
+      "ipa": "/rɪˈdjuːs/",
+      "verbForms": {
+        "base": "reduce",
+        "s3": "reduces",
+        "ing": "reducing",
+        "past": "reduced",
+        "pastParticiple": "reduced"
+      },
+      "synonyms": [
+        "decrease",
+        "lower",
+        "cut"
+      ],
+      "antonyms": [
+        "increase",
+        "raise",
+        "expand"
+      ],
+      "sentences": {
+        "daily": "I wanted to reduce sugar in my diet.",
+        "office": "She wanted to reduce the project timeline.",
+        "interview": "I always wanted to reduce waste in processes.",
+        "business": "He wanted to reduce operational costs.",
+        "formal": "She wanted to reduce overhead expenditure.",
+        "informal": "I just wanted to reduce stress."
+      },
+      "usageNote": "'Wanted to reduce' is common in health, business, and efficiency discussions.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 47,
+      "word": "focus",
+      "hindi": "ध्यान देना / फ़ोकस करना",
+      "simpleMeaning": "to concentrate on something",
+      "ipa": "/ˈfoʊkəs/",
+      "verbForms": {
+        "base": "focus",
+        "s3": "focuses",
+        "ing": "focusing",
+        "past": "focused",
+        "pastParticiple": "focused"
+      },
+      "synonyms": [
+        "concentrate",
+        "center",
+        "direct"
+      ],
+      "antonyms": [
+        "distract",
+        "ignore",
+        "scatter"
+      ],
+      "sentences": {
+        "daily": "I wanted to focus on my studies.",
+        "office": "She wanted to focus on key priorities.",
+        "interview": "I always wanted to focus on impact.",
+        "business": "He wanted to focus on core products.",
+        "formal": "She wanted to focus on strategic planning.",
+        "informal": "I just wanted to focus and get it done."
+      },
+      "usageNote": "'Wanted to focus' is very common in academic, personal development, and professional contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 48,
+      "word": "grow",
+      "hindi": "बढ़ना / विकसित होना",
+      "simpleMeaning": "to increase in size, knowledge or ability",
+      "ipa": "/ɡroʊ/",
+      "verbForms": {
+        "base": "grow",
+        "s3": "grows",
+        "ing": "growing",
+        "past": "grew",
+        "pastParticiple": "grown"
+      },
+      "synonyms": [
+        "develop",
+        "expand",
+        "increase"
+      ],
+      "antonyms": [
+        "shrink",
+        "decline",
+        "decrease"
+      ],
+      "sentences": {
+        "daily": "I wanted to grow as a person.",
+        "office": "She wanted to grow within the company.",
+        "interview": "I always wanted to grow in a challenging environment.",
+        "business": "He wanted to grow the brand internationally.",
+        "formal": "She wanted to grow the client portfolio.",
+        "informal": "I just wanted to grow and improve."
+      },
+      "usageNote": "Irregular: grow → grew → grown. 'Wanted to grow' is an extremely common interview phrase.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 49,
+      "word": "build",
+      "hindi": "बनाना / निर्माण करना",
+      "simpleMeaning": "to construct or develop something",
+      "ipa": "/bɪld/",
+      "verbForms": {
+        "base": "build",
+        "s3": "builds",
+        "ing": "building",
+        "past": "built",
+        "pastParticiple": "built"
+      },
+      "synonyms": [
+        "construct",
+        "create",
+        "develop"
+      ],
+      "antonyms": [
+        "destroy",
+        "demolish",
+        "break"
+      ],
+      "sentences": {
+        "daily": "I wanted to build a strong habit.",
+        "office": "She wanted to build a better process.",
+        "interview": "I always wanted to build something from scratch.",
+        "business": "He wanted to build a scalable business.",
+        "formal": "She wanted to build a strategic alliance.",
+        "informal": "I wanted to build a treehouse."
+      },
+      "usageNote": "Irregular: build → built → built. 'Wanted to build' is common in entrepreneurship and interview contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 50,
+      "word": "succeed",
+      "hindi": "सफल होना",
+      "simpleMeaning": "to achieve a desired aim or result",
+      "ipa": "/səkˈsiːd/",
+      "verbForms": {
+        "base": "succeed",
+        "s3": "succeeds",
+        "ing": "succeeding",
+        "past": "succeeded",
+        "pastParticiple": "succeeded"
+      },
+      "synonyms": [
+        "achieve",
+        "win",
+        "prosper"
+      ],
+      "antonyms": [
+        "fail",
+        "lose"
+      ],
+      "sentences": {
+        "daily": "I always wanted to succeed in life.",
+        "office": "She wanted to succeed in her new role.",
+        "interview": "I always wanted to succeed in a competitive environment.",
+        "business": "He wanted to succeed in international markets.",
+        "formal": "She wanted to succeed in the regulatory process.",
+        "informal": "I just wanted to succeed at something I loved."
+      },
+      "usageNote": "'Wanted to succeed' is extremely powerful in interviews and motivational contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 51,
+      "word": "opportunity",
+      "hindi": "मौका / अवसर",
+      "simpleMeaning": "a chance to do something or a favorable situation",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "verbForms": null,
+      "synonyms": [
+        "chance",
+        "opening",
+        "prospect"
+      ],
+      "antonyms": [
+        "obstacle",
+        "threat"
+      ],
+      "sentences": {
+        "daily": "I wanted this opportunity to prove myself.",
+        "office": "She wanted the opportunity to lead.",
+        "interview": "I always wanted an opportunity like this.",
+        "business": "He wanted the opportunity to pitch his idea.",
+        "formal": "She wanted the opportunity to address concerns.",
+        "informal": "I just wanted one opportunity."
+      },
+      "usageNote": "'Opportunity' is a noun. 'Wanted + noun' — no 'to' needed. Very common in interview answers.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 52,
+      "word": "success",
+      "hindi": "सफलता",
+      "simpleMeaning": "the achievement of a desired goal",
+      "ipa": "/səkˈses/",
+      "verbForms": null,
+      "synonyms": [
+        "achievement",
+        "victory",
+        "triumph"
+      ],
+      "antonyms": [
+        "failure",
+        "defeat"
+      ],
+      "sentences": {
+        "daily": "I always wanted success in my career.",
+        "office": "She wanted success for her team.",
+        "interview": "I wanted success through hard work.",
+        "business": "He wanted success in the global market.",
+        "formal": "She wanted success in the project.",
+        "informal": "We just wanted success together."
+      },
+      "usageNote": "'Success' is a noun. 'Wanted success' = past desire for achievement.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 53,
+      "word": "freedom",
+      "hindi": "स्वतंत्रता / आज़ादी",
+      "simpleMeaning": "the power to act without restriction",
+      "ipa": "/ˈfriːdəm/",
+      "verbForms": null,
+      "synonyms": [
+        "liberty",
+        "independence",
+        "autonomy"
+      ],
+      "antonyms": [
+        "captivity",
+        "restriction"
+      ],
+      "sentences": {
+        "daily": "I wanted freedom to make my own choices.",
+        "office": "She wanted freedom to innovate.",
+        "interview": "I wanted freedom and ownership in my role.",
+        "business": "He wanted freedom from micro-management.",
+        "formal": "She wanted freedom of expression.",
+        "informal": "I just wanted freedom."
+      },
+      "usageNote": "'Wanted freedom' — very natural in personal, career, and political contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 54,
+      "word": "peace",
+      "hindi": "शांति",
+      "simpleMeaning": "a state of calm and freedom from disturbance",
+      "ipa": "/piːs/",
+      "verbForms": null,
+      "synonyms": [
+        "calm",
+        "quiet",
+        "harmony"
+      ],
+      "antonyms": [
+        "conflict",
+        "noise",
+        "war"
+      ],
+      "sentences": {
+        "daily": "I wanted peace after the argument.",
+        "office": "She wanted peace in the team.",
+        "interview": "I wanted a peaceful work environment.",
+        "business": "He wanted peace with the competitor.",
+        "formal": "She wanted peace in the negotiations.",
+        "informal": "I just wanted some peace and quiet."
+      },
+      "usageNote": "'Wanted peace' — very common in both personal and professional contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 55,
+      "word": "justice",
+      "hindi": "न्याय / इंसाफ़",
+      "simpleMeaning": "fair treatment and behavior",
+      "ipa": "/ˈdʒʌstɪs/",
+      "verbForms": null,
+      "synonyms": [
+        "fairness",
+        "equity",
+        "righteousness"
+      ],
+      "antonyms": [
+        "injustice",
+        "bias"
+      ],
+      "sentences": {
+        "daily": "She wanted justice for her family.",
+        "office": "He wanted justice in the workplace.",
+        "interview": "I always wanted to work for justice.",
+        "business": "The firm wanted justice in the dispute.",
+        "formal": "She wanted justice through legal channels.",
+        "informal": "They just wanted justice."
+      },
+      "usageNote": "'Wanted justice' is powerful in legal and social discussions.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 56,
+      "word": "attention",
+      "hindi": "ध्यान",
+      "simpleMeaning": "notice or interest given to someone or something",
+      "ipa": "/əˈtenʃn/",
+      "verbForms": null,
+      "synonyms": [
+        "focus",
+        "notice",
+        "care"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignorance"
+      ],
+      "sentences": {
+        "daily": "The child wanted attention.",
+        "office": "She wanted attention on the key issue.",
+        "interview": "I wanted to draw attention to my strengths.",
+        "business": "He wanted attention for the product launch.",
+        "formal": "She wanted attention to detail.",
+        "informal": "He just wanted attention."
+      },
+      "usageNote": "'Wanted attention' is common in social and professional contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 57,
+      "word": "respect",
+      "hindi": "सम्मान / इज़्ज़त",
+      "simpleMeaning": "to admire someone for their qualities",
+      "ipa": "/rɪˈspekt/",
+      "verbForms": {
+        "base": "respect",
+        "s3": "respects",
+        "ing": "respecting",
+        "past": "respected",
+        "pastParticiple": "respected"
+      },
+      "synonyms": [
+        "admire",
+        "honor",
+        "value"
+      ],
+      "antonyms": [
+        "disrespect",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I always wanted respect from my peers.",
+        "office": "She wanted respect in the workplace.",
+        "interview": "I wanted to earn respect through performance.",
+        "business": "He wanted respect from his competitors.",
+        "formal": "She wanted her views to be respected.",
+        "informal": "I just wanted to be respected."
+      },
+      "usageNote": "'Wanted respect' or 'wanted to be respected' — both correct and natural.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 58,
+      "word": "promotion",
+      "hindi": "तरक्की / पदोन्नति",
+      "simpleMeaning": "advancement to a higher position at work",
+      "ipa": "/prəˈmoʊʃn/",
+      "verbForms": null,
+      "synonyms": [
+        "advancement",
+        "raise",
+        "upgrade"
+      ],
+      "antonyms": [
+        "demotion",
+        "reduction"
+      ],
+      "sentences": {
+        "daily": "He wanted a promotion badly.",
+        "office": "She wanted the promotion she deserved.",
+        "interview": "I always wanted a promotion based on merit.",
+        "business": "He wanted promotion of his brand.",
+        "formal": "She wanted a formal promotion letter.",
+        "informal": "He just wanted that promotion!"
+      },
+      "usageNote": "'Wanted a promotion' is extremely common in professional and interview contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 59,
+      "word": "salary",
+      "hindi": "तनख्वाह / वेतन",
+      "simpleMeaning": "money paid regularly to an employee",
+      "ipa": "/ˈsæləri/",
+      "verbForms": null,
+      "synonyms": [
+        "pay",
+        "wages",
+        "income"
+      ],
+      "antonyms": [
+        "debt",
+        "loss"
+      ],
+      "sentences": {
+        "daily": "I wanted a better salary.",
+        "office": "She wanted her salary hike on time.",
+        "interview": "I wanted a salary that matched my skills.",
+        "business": "He wanted competitive salary packages.",
+        "formal": "She wanted a salary revision formally.",
+        "informal": "I just wanted a decent salary."
+      },
+      "usageNote": "'Wanted a salary' — very common in job interview and career contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 60,
+      "word": "confidence",
+      "hindi": "आत्मविश्वास",
+      "simpleMeaning": "belief in one's own abilities",
+      "ipa": "/ˈkɒnfɪdəns/",
+      "verbForms": null,
+      "synonyms": [
+        "self-assurance",
+        "boldness",
+        "certainty"
+      ],
+      "antonyms": [
+        "doubt",
+        "insecurity"
+      ],
+      "sentences": {
+        "daily": "I always wanted more confidence.",
+        "office": "She wanted the confidence to speak up.",
+        "interview": "I wanted confidence in my answers.",
+        "business": "He wanted confidence in his product.",
+        "formal": "She wanted confidence before the presentation.",
+        "informal": "I just wanted to feel confident."
+      },
+      "usageNote": "'Wanted confidence' or 'wanted to feel confident' — both natural. Common in self-development contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 61,
+      "word": "knowledge",
+      "hindi": "ज्ञान",
+      "simpleMeaning": "facts and information acquired through experience",
+      "ipa": "/ˈnɒlɪdʒ/",
+      "verbForms": null,
+      "synonyms": [
+        "understanding",
+        "wisdom",
+        "expertise"
+      ],
+      "antonyms": [
+        "ignorance",
+        "unawareness"
+      ],
+      "sentences": {
+        "daily": "I always wanted more knowledge.",
+        "office": "She wanted knowledge of the new system.",
+        "interview": "I wanted knowledge of industry trends.",
+        "business": "He wanted knowledge of competitor strategies.",
+        "formal": "She wanted in-depth knowledge of the subject.",
+        "informal": "I just wanted to gain more knowledge."
+      },
+      "usageNote": "'Wanted knowledge' = past desire to learn. Very common in academic and professional contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 62,
+      "word": "experience",
+      "hindi": "अनुभव",
+      "simpleMeaning": "knowledge or skill gained over time",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "verbForms": null,
+      "synonyms": [
+        "practice",
+        "exposure",
+        "background"
+      ],
+      "antonyms": [
+        "inexperience",
+        "ignorance"
+      ],
+      "sentences": {
+        "daily": "I wanted experience in cooking.",
+        "office": "She wanted experience in project management.",
+        "interview": "I always wanted experience in this domain.",
+        "business": "He wanted experience of international deals.",
+        "formal": "She wanted experience in research.",
+        "informal": "I just wanted some real-world experience."
+      },
+      "usageNote": "'Wanted experience' is extremely common in interview answers about career choices.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 63,
+      "word": "time",
+      "hindi": "समय / वक्त",
+      "simpleMeaning": "the measured or measurable period",
+      "ipa": "/taɪm/",
+      "verbForms": null,
+      "synonyms": [
+        "period",
+        "moment",
+        "duration"
+      ],
+      "antonyms": [
+        "eternity",
+        "timelessness"
+      ],
+      "sentences": {
+        "daily": "I wanted more time to think.",
+        "office": "She wanted time to review the document.",
+        "interview": "I wanted time to grow in my previous role.",
+        "business": "He wanted time to close the deal.",
+        "formal": "She wanted time to prepare the proposal.",
+        "informal": "I just wanted a little more time."
+      },
+      "usageNote": "'Wanted time' or 'wanted more time' — extremely common in daily and professional speech.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 64,
+      "word": "change",
+      "hindi": "बदलाव / परिवर्तन",
+      "simpleMeaning": "to make or become different",
+      "ipa": "/tʃeɪndʒ/",
+      "verbForms": {
+        "base": "change",
+        "s3": "changes",
+        "ing": "changing",
+        "past": "changed",
+        "pastParticiple": "changed"
+      },
+      "synonyms": [
+        "alter",
+        "transform",
+        "modify"
+      ],
+      "antonyms": [
+        "keep",
+        "maintain"
+      ],
+      "sentences": {
+        "daily": "I wanted a change in my routine.",
+        "office": "She wanted change in the team culture.",
+        "interview": "I wanted a change that challenged me.",
+        "business": "He wanted change in the business model.",
+        "formal": "She wanted a change in policy.",
+        "informal": "I just wanted a change."
+      },
+      "usageNote": "'Wanted a change' is very common in daily life, career switching, and lifestyle discussions.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 65,
+      "word": "answer",
+      "hindi": "जवाब / उत्तर",
+      "simpleMeaning": "a response to a question or solution to a problem",
+      "ipa": "/ˈɑːnsər/",
+      "verbForms": {
+        "base": "answer",
+        "s3": "answers",
+        "ing": "answering",
+        "past": "answered",
+        "pastParticiple": "answered"
+      },
+      "synonyms": [
+        "reply",
+        "response",
+        "solution"
+      ],
+      "antonyms": [
+        "question",
+        "ask"
+      ],
+      "sentences": {
+        "daily": "I wanted an answer quickly.",
+        "office": "She wanted an answer before the meeting.",
+        "interview": "I wanted honest answers to my questions.",
+        "business": "He wanted a clear answer from the vendor.",
+        "formal": "She wanted a formal written answer.",
+        "informal": "I just wanted a straight answer."
+      },
+      "usageNote": "'Wanted an answer' is natural in all situations — daily, professional, legal.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 66,
+      "word": "permission",
+      "hindi": "अनुमति / इजाज़त",
+      "simpleMeaning": "official approval or consent to do something",
+      "ipa": "/pəˈmɪʃn/",
+      "verbForms": null,
+      "synonyms": [
+        "approval",
+        "consent",
+        "authorization"
+      ],
+      "antonyms": [
+        "refusal",
+        "denial"
+      ],
+      "sentences": {
+        "daily": "I wanted permission to go out.",
+        "office": "She wanted permission to work from home.",
+        "interview": "I wanted permission to be innovative.",
+        "business": "He wanted permission to proceed.",
+        "formal": "She wanted written permission.",
+        "informal": "I just wanted permission to try."
+      },
+      "usageNote": "'Wanted permission' is a very natural phrase for social, school, office, and legal contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 67,
+      "word": "information",
+      "hindi": "जानकारी / सूचना",
+      "simpleMeaning": "facts or knowledge provided about something",
+      "ipa": "/ˌɪnfəˈmeɪʃn/",
+      "verbForms": null,
+      "synonyms": [
+        "data",
+        "details",
+        "facts"
+      ],
+      "antonyms": [
+        "ignorance",
+        "misinformation"
+      ],
+      "sentences": {
+        "daily": "I wanted information about the train.",
+        "office": "She wanted more information from the client.",
+        "interview": "I wanted information about the company culture.",
+        "business": "He wanted detailed information before signing.",
+        "formal": "She wanted information in writing.",
+        "informal": "I just wanted some information."
+      },
+      "usageNote": "'Wanted information' is extremely common in daily life, business, and professional settings.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 68,
+      "word": "help",
+      "hindi": "मदद / सहायता",
+      "simpleMeaning": "assistance or support given to someone",
+      "ipa": "/help/",
+      "verbForms": {
+        "base": "help",
+        "s3": "helps",
+        "ing": "helping",
+        "past": "helped",
+        "pastParticiple": "helped"
+      },
+      "synonyms": [
+        "assistance",
+        "support",
+        "aid"
+      ],
+      "antonyms": [
+        "hindrance",
+        "obstacle"
+      ],
+      "sentences": {
+        "daily": "I wanted some help with cooking.",
+        "office": "She wanted help from her colleague.",
+        "interview": "I never wanted help — I preferred to solve problems myself.",
+        "business": "He wanted help to scale the business.",
+        "formal": "She wanted help with the proposal.",
+        "informal": "I just wanted a little help."
+      },
+      "usageNote": "'Wanted help' (noun) vs 'wanted to help' (verb) — both correct, different meanings.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 69,
+      "word": "break",
+      "hindi": "ब्रेक / आराम का समय",
+      "simpleMeaning": "a short rest from work or activity",
+      "ipa": "/breɪk/",
+      "verbForms": {
+        "base": "break",
+        "s3": "breaks",
+        "ing": "breaking",
+        "past": "broke",
+        "pastParticiple": "broken"
+      },
+      "synonyms": [
+        "rest",
+        "pause",
+        "interval"
+      ],
+      "antonyms": [
+        "work",
+        "continue"
+      ],
+      "sentences": {
+        "daily": "I wanted a break after working all morning.",
+        "office": "She wanted a break from the project.",
+        "interview": "I wanted a break before starting my new job.",
+        "business": "He wanted a break to rethink the strategy.",
+        "formal": "She wanted a formal leave as a break.",
+        "informal": "I just wanted a break!"
+      },
+      "usageNote": "'Wanted a break' is very natural in daily life, office, and wellness conversations.",
+      "cefrLevel": "A1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 70,
+      "word": "advice",
+      "hindi": "सलाह",
+      "simpleMeaning": "guidance or recommendation about what to do",
+      "ipa": "/ədˈvaɪs/",
+      "verbForms": null,
+      "synonyms": [
+        "guidance",
+        "suggestion",
+        "recommendation"
+      ],
+      "antonyms": [
+        "order",
+        "command"
+      ],
+      "sentences": {
+        "daily": "I wanted advice from my parents.",
+        "office": "She wanted advice from the senior manager.",
+        "interview": "I always wanted advice on career growth.",
+        "business": "He wanted advice on the new deal.",
+        "formal": "She wanted formal legal advice.",
+        "informal": "I just wanted your advice."
+      },
+      "usageNote": "'Wanted advice' — noun. Compare: 'wanted to advise' — verb. Common in all contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 71,
+      "word": "solution",
+      "hindi": "समाधान / हल",
+      "simpleMeaning": "an answer to a problem or difficult situation",
+      "ipa": "/səˈluːʃn/",
+      "verbForms": null,
+      "synonyms": [
+        "answer",
+        "resolution",
+        "fix"
+      ],
+      "antonyms": [
+        "problem",
+        "issue"
+      ],
+      "sentences": {
+        "daily": "I wanted a quick solution.",
+        "office": "She wanted a long-term solution.",
+        "interview": "I always wanted to find solutions, not excuses.",
+        "business": "He wanted a cost-effective solution.",
+        "formal": "She wanted a documented solution.",
+        "informal": "I just wanted a simple solution."
+      },
+      "usageNote": "'Wanted a solution' is very common in problem-solving, business, and daily life.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 72,
+      "word": "result",
+      "hindi": "परिणाम / नतीजा",
+      "simpleMeaning": "the outcome of an action or process",
+      "ipa": "/rɪˈzʌlt/",
+      "verbForms": null,
+      "synonyms": [
+        "outcome",
+        "effect",
+        "consequence"
+      ],
+      "antonyms": [
+        "cause",
+        "reason"
+      ],
+      "sentences": {
+        "daily": "I wanted good results in my exam.",
+        "office": "She wanted measurable results.",
+        "interview": "I always wanted results-driven work.",
+        "business": "He wanted results in 30 days.",
+        "formal": "She wanted documented results.",
+        "informal": "I just wanted results, not excuses."
+      },
+      "usageNote": "'Wanted results' is very common in business, academics, and performance discussions.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 73,
+      "word": "challenge",
+      "hindi": "चुनौती",
+      "simpleMeaning": "a difficult task that tests your ability",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "verbForms": {
+        "base": "challenge",
+        "s3": "challenges",
+        "ing": "challenging",
+        "past": "challenged",
+        "pastParticiple": "challenged"
+      },
+      "synonyms": [
+        "difficulty",
+        "test",
+        "obstacle"
+      ],
+      "antonyms": [
+        "ease",
+        "comfort"
+      ],
+      "sentences": {
+        "daily": "I always wanted a new challenge.",
+        "office": "She wanted to challenge herself.",
+        "interview": "I wanted a challenging role.",
+        "business": "He wanted to challenge the status quo.",
+        "formal": "She wanted to challenge the decision legally.",
+        "informal": "I wanted a real challenge."
+      },
+      "usageNote": "'Wanted a challenge' or 'wanted to challenge' — both correct. Very popular in interviews.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 74,
+      "word": "feedback",
+      "hindi": "प्रतिक्रिया / राय",
+      "simpleMeaning": "information given about performance or quality",
+      "ipa": "/ˈfiːdbæk/",
+      "verbForms": null,
+      "synonyms": [
+        "response",
+        "evaluation",
+        "review"
+      ],
+      "antonyms": [
+        "silence",
+        "ignorance"
+      ],
+      "sentences": {
+        "daily": "I wanted feedback on my work.",
+        "office": "She wanted honest feedback from her manager.",
+        "interview": "I always wanted constructive feedback.",
+        "business": "He wanted feedback from the client.",
+        "formal": "She wanted written feedback.",
+        "informal": "I just wanted your feedback."
+      },
+      "usageNote": "'Wanted feedback' is very professional and shows growth mindset.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 75,
+      "word": "offer",
+      "hindi": "प्रस्ताव / ऑफर",
+      "simpleMeaning": "a proposal or a deal presented for acceptance",
+      "ipa": "/ˈɒfər/",
+      "verbForms": {
+        "base": "offer",
+        "s3": "offers",
+        "ing": "offering",
+        "past": "offered",
+        "pastParticiple": "offered"
+      },
+      "synonyms": [
+        "proposal",
+        "deal",
+        "bid"
+      ],
+      "antonyms": [
+        "withdrawal",
+        "refusal"
+      ],
+      "sentences": {
+        "daily": "I wanted a better offer.",
+        "office": "She wanted to accept the offer.",
+        "interview": "I wanted a competitive offer.",
+        "business": "He wanted to close the offer.",
+        "formal": "She wanted a formal offer letter.",
+        "informal": "I just wanted a good offer."
+      },
+      "usageNote": "'Wanted an offer' or 'wanted to offer' — both natural in job and business contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 76,
+      "word": "appointment",
+      "hindi": "मुलाकात / नियुक्ति",
+      "simpleMeaning": "a scheduled meeting or arrangement",
+      "ipa": "/əˈpɔɪntmənt/",
+      "verbForms": null,
+      "synonyms": [
+        "meeting",
+        "booking",
+        "schedule"
+      ],
+      "antonyms": [
+        "cancellation"
+      ],
+      "sentences": {
+        "daily": "I wanted an appointment with the doctor.",
+        "office": "She wanted to schedule an appointment.",
+        "interview": "I wanted an appointment with the HR team.",
+        "business": "He wanted an appointment to discuss the contract.",
+        "formal": "She wanted a formal appointment letter.",
+        "informal": "I just wanted an appointment."
+      },
+      "usageNote": "'Wanted an appointment' — very common in healthcare, office, and business contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 77,
+      "word": "opportunity",
+      "hindi": "मौका / अवसर",
+      "simpleMeaning": "a situation that makes something possible",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "verbForms": null,
+      "synonyms": [
+        "chance",
+        "opening",
+        "window"
+      ],
+      "antonyms": [
+        "obstacle",
+        "block"
+      ],
+      "sentences": {
+        "daily": "I always wanted this kind of opportunity.",
+        "office": "She wanted an opportunity to lead the project.",
+        "interview": "I wanted this opportunity since college.",
+        "business": "He wanted an opportunity in the market.",
+        "formal": "She wanted the opportunity to present.",
+        "informal": "I just wanted one good opportunity."
+      },
+      "usageNote": "'Wanted an opportunity' — very powerful in interviews and goal-setting.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 78,
+      "word": "partner",
+      "hindi": "साझेदार / साथी",
+      "simpleMeaning": "a person who shares in an activity or business",
+      "ipa": "/ˈpɑːrtnər/",
+      "verbForms": null,
+      "synonyms": [
+        "associate",
+        "collaborator",
+        "ally"
+      ],
+      "antonyms": [
+        "rival",
+        "competitor"
+      ],
+      "sentences": {
+        "daily": "I wanted a partner for the project.",
+        "office": "She wanted a reliable business partner.",
+        "interview": "I always wanted to work with a strong partner.",
+        "business": "He wanted a funding partner.",
+        "formal": "She wanted an official partnership.",
+        "informal": "I just wanted a partner to work with."
+      },
+      "usageNote": "'Wanted a partner' — both personal and professional use.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 79,
+      "word": "interview",
+      "hindi": "साक्षात्कार / इंटरव्यू",
+      "simpleMeaning": "a formal meeting to assess suitability",
+      "ipa": "/ˈɪntəvjuː/",
+      "verbForms": {
+        "base": "interview",
+        "s3": "interviews",
+        "ing": "interviewing",
+        "past": "interviewed",
+        "pastParticiple": "interviewed"
+      },
+      "synonyms": [
+        "meeting",
+        "assessment",
+        "conversation"
+      ],
+      "antonyms": [
+        "rejection",
+        "dismissal"
+      ],
+      "sentences": {
+        "daily": "I wanted the interview to go well.",
+        "office": "She wanted to interview more candidates.",
+        "interview": "I always wanted to get an interview here.",
+        "business": "He wanted to interview the expert.",
+        "formal": "She wanted a formal interview process.",
+        "informal": "I just wanted one interview."
+      },
+      "usageNote": "'Wanted to give/get an interview' — very natural in job-search discussions.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 80,
+      "word": "career",
+      "hindi": "करियर / पेशा",
+      "simpleMeaning": "a person's professional life and progression",
+      "ipa": "/kəˈrɪər/",
+      "verbForms": null,
+      "synonyms": [
+        "profession",
+        "vocation",
+        "work-life"
+      ],
+      "antonyms": [
+        "hobby",
+        "leisure"
+      ],
+      "sentences": {
+        "daily": "I always wanted a successful career.",
+        "office": "She wanted a career in management.",
+        "interview": "I wanted a career that combined passion and purpose.",
+        "business": "He wanted a career in entrepreneurship.",
+        "formal": "She wanted a career in public policy.",
+        "informal": "I just wanted a good career."
+      },
+      "usageNote": "'Wanted a career in...' is one of the most common interview sentence starters.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 81,
+      "word": "progress",
+      "hindi": "प्रगति / तरक्की",
+      "simpleMeaning": "forward or onward movement toward a goal",
+      "ipa": "/ˈprɒɡres/",
+      "verbForms": null,
+      "synonyms": [
+        "advancement",
+        "development",
+        "improvement"
+      ],
+      "antonyms": [
+        "decline",
+        "regression"
+      ],
+      "sentences": {
+        "daily": "I always wanted to see progress in myself.",
+        "office": "She wanted to track progress on the project.",
+        "interview": "I wanted visible progress in my role.",
+        "business": "He wanted progress reports weekly.",
+        "formal": "She wanted documented progress.",
+        "informal": "I just wanted to see some progress."
+      },
+      "usageNote": "'Wanted progress' — very common in professional and self-improvement contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 82,
+      "word": "reward",
+      "hindi": "इनाम / पुरस्कार",
+      "simpleMeaning": "something given for good work or behavior",
+      "ipa": "/rɪˈwɔːrd/",
+      "verbForms": null,
+      "synonyms": [
+        "prize",
+        "incentive",
+        "bonus"
+      ],
+      "antonyms": [
+        "punishment",
+        "penalty"
+      ],
+      "sentences": {
+        "daily": "I wanted a reward for my hard work.",
+        "office": "She wanted to reward her team.",
+        "interview": "I always wanted a role with rewards for performance.",
+        "business": "He wanted a reward program for loyal clients.",
+        "formal": "She wanted formal recognition as a reward.",
+        "informal": "I just wanted a reward."
+      },
+      "usageNote": "'Wanted a reward' — use in personal motivation, HR, and business contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 83,
+      "word": "vacation",
+      "hindi": "छुट्टी / अवकाश",
+      "simpleMeaning": "a period of rest and travel away from work",
+      "ipa": "/veɪˈkeɪʃn/",
+      "verbForms": null,
+      "synonyms": [
+        "holiday",
+        "break",
+        "leave"
+      ],
+      "antonyms": [
+        "work",
+        "duty"
+      ],
+      "sentences": {
+        "daily": "I wanted a vacation after my exams.",
+        "office": "She wanted a paid vacation.",
+        "interview": "I always wanted to join a company that values vacation.",
+        "business": "He wanted a vacation before the big product launch.",
+        "formal": "She wanted formal leave for vacation.",
+        "informal": "I just wanted a vacation!"
+      },
+      "usageNote": "'Wanted a vacation' is natural in daily life, work-life balance, and office discussions.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 84,
+      "word": "transfer",
+      "hindi": "स्थानांतरण / ट्रांसफर",
+      "simpleMeaning": "the movement of someone or something to a different place",
+      "ipa": "/ˈtrænsfɜːr/",
+      "verbForms": {
+        "base": "transfer",
+        "s3": "transfers",
+        "ing": "transferring",
+        "past": "transferred",
+        "pastParticiple": "transferred"
+      },
+      "synonyms": [
+        "move",
+        "shift",
+        "relocate"
+      ],
+      "antonyms": [
+        "stay",
+        "remain"
+      ],
+      "sentences": {
+        "daily": "I wanted to transfer to a different city.",
+        "office": "She wanted a transfer to the head office.",
+        "interview": "I wanted a transfer for better growth.",
+        "business": "He wanted to transfer the funds.",
+        "formal": "She wanted a formal transfer request.",
+        "informal": "I just wanted a transfer."
+      },
+      "usageNote": "'Wanted a transfer' or 'wanted to transfer' — both common in office and banking.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 85,
+      "word": "contract",
+      "hindi": "अनुबंध / कॉन्ट्रैक्ट",
+      "simpleMeaning": "a legal agreement between two parties",
+      "ipa": "/ˈkɒntrækt/",
+      "verbForms": null,
+      "synonyms": [
+        "agreement",
+        "deal",
+        "document"
+      ],
+      "antonyms": [
+        "disagreement",
+        "breach"
+      ],
+      "sentences": {
+        "daily": "I wanted to read the contract carefully.",
+        "office": "She wanted to sign the contract.",
+        "interview": "I always wanted to work under a fair contract.",
+        "business": "He wanted a long-term contract.",
+        "formal": "She wanted a formal contract.",
+        "informal": "I just wanted to see the contract."
+      },
+      "usageNote": "'Wanted a contract' or 'wanted to sign/read the contract' — very common in business.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 86,
+      "word": "deadline",
+      "hindi": "समय सीमा / आखिरी तारीख",
+      "simpleMeaning": "the latest time by which something must be done",
+      "ipa": "/ˈdedlaɪn/",
+      "verbForms": null,
+      "synonyms": [
+        "due date",
+        "cutoff",
+        "time limit"
+      ],
+      "antonyms": [
+        "extension",
+        "delay"
+      ],
+      "sentences": {
+        "daily": "I wanted to finish before the deadline.",
+        "office": "She wanted to extend the deadline.",
+        "interview": "I always wanted to be known for meeting deadlines.",
+        "business": "He wanted a strict deadline for delivery.",
+        "formal": "She wanted the deadline in writing.",
+        "informal": "I just wanted to beat the deadline."
+      },
+      "usageNote": "'Wanted to meet the deadline' — very common in professional and academic settings.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 87,
+      "word": "meeting",
+      "hindi": "बैठक / मीटिंग",
+      "simpleMeaning": "a gathering of people to discuss something",
+      "ipa": "/ˈmiːtɪŋ/",
+      "verbForms": null,
+      "synonyms": [
+        "conference",
+        "session",
+        "discussion"
+      ],
+      "antonyms": [
+        "cancellation",
+        "dismissal"
+      ],
+      "sentences": {
+        "daily": "I wanted to skip the morning meeting.",
+        "office": "She wanted to schedule a meeting.",
+        "interview": "I wanted a quick introductory meeting.",
+        "business": "He wanted a meeting with the investor.",
+        "formal": "She wanted a formal board meeting.",
+        "informal": "I just wanted a quick meeting."
+      },
+      "usageNote": "'Wanted a meeting' or 'wanted to attend/skip the meeting' — very natural.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 88,
+      "word": "report",
+      "hindi": "रिपोर्ट / प्रतिवेदन",
+      "simpleMeaning": "a written or spoken account of something",
+      "ipa": "/rɪˈpɔːrt/",
+      "verbForms": {
+        "base": "report",
+        "s3": "reports",
+        "ing": "reporting",
+        "past": "reported",
+        "pastParticiple": "reported"
+      },
+      "synonyms": [
+        "document",
+        "account",
+        "summary"
+      ],
+      "antonyms": [
+        "ignore",
+        "hide"
+      ],
+      "sentences": {
+        "daily": "I wanted to read the full report.",
+        "office": "She wanted to submit the report by Monday.",
+        "interview": "I always wanted to write detailed reports.",
+        "business": "He wanted a financial report.",
+        "formal": "She wanted the report in a standard format.",
+        "informal": "I just wanted to check the report."
+      },
+      "usageNote": "'Wanted to submit/read the report' — very common in office and business settings.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 89,
+      "word": "raise",
+      "hindi": "बढ़ोतरी / वेतन वृद्धि",
+      "simpleMeaning": "an increase in salary; to lift or elevate",
+      "ipa": "/reɪz/",
+      "verbForms": {
+        "base": "raise",
+        "s3": "raises",
+        "ing": "raising",
+        "past": "raised",
+        "pastParticiple": "raised"
+      },
+      "synonyms": [
+        "increase",
+        "hike",
+        "promotion"
+      ],
+      "antonyms": [
+        "cut",
+        "reduce"
+      ],
+      "sentences": {
+        "daily": "I wanted a salary raise.",
+        "office": "She wanted to raise the issue in the meeting.",
+        "interview": "I always wanted a raise based on performance.",
+        "business": "He wanted to raise funding for the startup.",
+        "formal": "She wanted a formal salary raise letter.",
+        "informal": "I just wanted a raise!"
+      },
+      "usageNote": "'Wanted a raise' — very common in salary negotiation and performance review contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 90,
+      "word": "bonus",
+      "hindi": "बोनस / अतिरिक्त लाभ",
+      "simpleMeaning": "an extra payment given for good work",
+      "ipa": "/ˈboʊnəs/",
+      "verbForms": null,
+      "synonyms": [
+        "reward",
+        "incentive",
+        "extra pay"
+      ],
+      "antonyms": [
+        "deduction",
+        "penalty"
+      ],
+      "sentences": {
+        "daily": "I wanted a bonus for my extra effort.",
+        "office": "She wanted to give bonuses to the team.",
+        "interview": "I always wanted a performance-based bonus.",
+        "business": "He wanted a bonus clause in the contract.",
+        "formal": "She wanted the bonus in writing.",
+        "informal": "I just wanted that bonus!"
+      },
+      "usageNote": "'Wanted a bonus' — very common in employee motivation and salary discussions.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 91,
+      "word": "confidence",
+      "hindi": "भरोसा / विश्वास",
+      "simpleMeaning": "trust in someone or something",
+      "ipa": "/ˈkɒnfɪdəns/",
+      "verbForms": null,
+      "synonyms": [
+        "trust",
+        "assurance",
+        "faith"
+      ],
+      "antonyms": [
+        "doubt",
+        "suspicion"
+      ],
+      "sentences": {
+        "daily": "I wanted my parents' confidence.",
+        "office": "She wanted her manager's confidence in her work.",
+        "interview": "I wanted to instil confidence in the interviewer.",
+        "business": "He wanted the investor's confidence.",
+        "formal": "She wanted formal confidence in the system.",
+        "informal": "I just wanted your confidence in me."
+      },
+      "usageNote": "'Wanted confidence' — used for both self-confidence and trust from others.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 92,
+      "word": "mentor",
+      "hindi": "मार्गदर्शक / गुरु",
+      "simpleMeaning": "an experienced person who guides a less experienced one",
+      "ipa": "/ˈmentɔːr/",
+      "verbForms": {
+        "base": "mentor",
+        "s3": "mentors",
+        "ing": "mentoring",
+        "past": "mentored",
+        "pastParticiple": "mentored"
+      },
+      "synonyms": [
+        "guide",
+        "advisor",
+        "coach"
+      ],
+      "antonyms": [
+        "student",
+        "learner"
+      ],
+      "sentences": {
+        "daily": "I always wanted a mentor in life.",
+        "office": "She wanted to find a mentor at work.",
+        "interview": "I always wanted a mentor in this field.",
+        "business": "He wanted a business mentor.",
+        "formal": "She wanted a formal mentorship program.",
+        "informal": "I just wanted a good mentor."
+      },
+      "usageNote": "'Wanted a mentor' — common in career, academic, and self-development discussions.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 93,
+      "word": "skill",
+      "hindi": "कौशल / हुनर",
+      "simpleMeaning": "the ability to do something well",
+      "ipa": "/skɪl/",
+      "verbForms": null,
+      "synonyms": [
+        "ability",
+        "talent",
+        "expertise"
+      ],
+      "antonyms": [
+        "inability",
+        "weakness"
+      ],
+      "sentences": {
+        "daily": "I always wanted to develop new skills.",
+        "office": "She wanted better technical skills.",
+        "interview": "I always wanted skills that stood out.",
+        "business": "He wanted skills in digital marketing.",
+        "formal": "She wanted skill development programs.",
+        "informal": "I just wanted to learn a skill."
+      },
+      "usageNote": "'Wanted to develop/learn a skill' — very common in educational and career contexts.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 94,
+      "word": "goal",
+      "hindi": "लक्ष्य / उद्देश्य",
+      "simpleMeaning": "the aim or desired result of one's efforts",
+      "ipa": "/ɡoʊl/",
+      "verbForms": null,
+      "synonyms": [
+        "target",
+        "objective",
+        "aim"
+      ],
+      "antonyms": [
+        "aimlessness",
+        "failure"
+      ],
+      "sentences": {
+        "daily": "I wanted to achieve my personal goal.",
+        "office": "She wanted clear goals for the quarter.",
+        "interview": "I always wanted to set and achieve goals.",
+        "business": "He wanted business goals in writing.",
+        "formal": "She wanted to document all goals.",
+        "informal": "I just wanted to reach my goal."
+      },
+      "usageNote": "'Wanted to achieve a goal' — extremely common in interviews and self-development.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 95,
+      "word": "complain",
+      "hindi": "शिकायत करना",
+      "simpleMeaning": "to express dissatisfaction about something",
+      "ipa": "/kəmˈpleɪn/",
+      "verbForms": {
+        "base": "complain",
+        "s3": "complains",
+        "ing": "complaining",
+        "past": "complained",
+        "pastParticiple": "complained"
+      },
+      "synonyms": [
+        "protest",
+        "grumble",
+        "object"
+      ],
+      "antonyms": [
+        "praise",
+        "appreciate"
+      ],
+      "sentences": {
+        "daily": "I wanted to complain about the noise.",
+        "office": "She wanted to complain to HR.",
+        "interview": "I never wanted to complain — I looked for solutions.",
+        "business": "He wanted to complain about the delay.",
+        "formal": "She wanted to complain in writing.",
+        "informal": "I just wanted to complain a little."
+      },
+      "usageNote": "'Wanted to complain' — contrasts nicely with 'wanted to solve'. Good for interviews.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 96,
+      "word": "quit",
+      "hindi": "छोड़ना / इस्तीफा देना",
+      "simpleMeaning": "to stop doing something or to resign from a job",
+      "ipa": "/kwɪt/",
+      "verbForms": {
+        "base": "quit",
+        "s3": "quits",
+        "ing": "quitting",
+        "past": "quit",
+        "pastParticiple": "quit"
+      },
+      "synonyms": [
+        "leave",
+        "resign",
+        "stop"
+      ],
+      "antonyms": [
+        "stay",
+        "continue",
+        "persist"
+      ],
+      "sentences": {
+        "daily": "I wanted to quit bad habits.",
+        "office": "She wanted to quit the toxic workplace.",
+        "interview": "I never wanted to quit — I wanted to grow.",
+        "business": "He wanted to quit the partnership.",
+        "formal": "She wanted to quit and give formal notice.",
+        "informal": "I just wanted to quit and rest."
+      },
+      "usageNote": "'Wanted to quit' — natural in job change and lifestyle discussions.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 97,
+      "word": "apply",
+      "hindi": "आवेदन करना",
+      "simpleMeaning": "to make a formal request for something",
+      "ipa": "/əˈplaɪ/",
+      "verbForms": {
+        "base": "apply",
+        "s3": "applies",
+        "ing": "applying",
+        "past": "applied",
+        "pastParticiple": "applied"
+      },
+      "synonyms": [
+        "request",
+        "submit",
+        "register"
+      ],
+      "antonyms": [
+        "withdraw",
+        "reject"
+      ],
+      "sentences": {
+        "daily": "I wanted to apply for the scholarship.",
+        "office": "She wanted to apply for the manager role.",
+        "interview": "I always wanted to apply here.",
+        "business": "He wanted to apply for a business loan.",
+        "formal": "She wanted to apply through official channels.",
+        "informal": "I just wanted to apply and see."
+      },
+      "usageNote": "'Wanted to apply' — very common in education, job search, and business.",
+      "cefrLevel": "A2",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 98,
+      "word": "compete",
+      "hindi": "प्रतिस्पर्धा करना",
+      "simpleMeaning": "to try to win something against others",
+      "ipa": "/kəmˈpiːt/",
+      "verbForms": {
+        "base": "compete",
+        "s3": "competes",
+        "ing": "competing",
+        "past": "competed",
+        "pastParticiple": "competed"
+      },
+      "synonyms": [
+        "contest",
+        "rival",
+        "participate"
+      ],
+      "antonyms": [
+        "cooperate",
+        "collaborate"
+      ],
+      "sentences": {
+        "daily": "I always wanted to compete in sports.",
+        "office": "She wanted to compete in the industry.",
+        "interview": "I wanted to compete with the best.",
+        "business": "He wanted to compete globally.",
+        "formal": "She wanted to compete in the tender.",
+        "informal": "I just wanted to compete and win."
+      },
+      "usageNote": "'Wanted to compete' — natural in sports, academic, and business contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 99,
+      "word": "explore",
+      "hindi": "खोज करना / जाँचना",
+      "simpleMeaning": "to investigate or discover something new",
+      "ipa": "/ɪkˈsplɔːr/",
+      "verbForms": {
+        "base": "explore",
+        "s3": "explores",
+        "ing": "exploring",
+        "past": "explored",
+        "pastParticiple": "explored"
+      },
+      "synonyms": [
+        "discover",
+        "investigate",
+        "research"
+      ],
+      "antonyms": [
+        "ignore",
+        "avoid"
+      ],
+      "sentences": {
+        "daily": "I always wanted to explore new places.",
+        "office": "She wanted to explore new markets.",
+        "interview": "I always wanted to explore diverse challenges.",
+        "business": "He wanted to explore investment opportunities.",
+        "formal": "She wanted to explore strategic options.",
+        "informal": "I just wanted to explore a new hobby."
+      },
+      "usageNote": "'Wanted to explore' — excellent in interview, travel, and business contexts.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
+    },
+    {
+      "id": 100,
+      "word": "contribute",
+      "hindi": "योगदान देना",
+      "simpleMeaning": "to give something to a common purpose",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "verbForms": {
+        "base": "contribute",
+        "s3": "contributes",
+        "ing": "contributing",
+        "past": "contributed",
+        "pastParticiple": "contributed"
+      },
+      "synonyms": [
+        "add",
+        "give",
+        "donate"
+      ],
+      "antonyms": [
+        "take",
+        "subtract",
+        "detract"
+      ],
+      "sentences": {
+        "daily": "I always wanted to contribute to my community.",
+        "office": "She wanted to contribute more to the team.",
+        "interview": "I always wanted to contribute meaningfully.",
+        "business": "He wanted to contribute to the startup's growth.",
+        "formal": "She wanted to contribute to the research paper.",
+        "informal": "I just wanted to contribute something."
+      },
+      "usageNote": "'Wanted to contribute' — one of the strongest phrases in interviews and cover letters.",
+      "cefrLevel": "B1",
+      "category": "Topic Vocabulary"
     }
   ]
 }

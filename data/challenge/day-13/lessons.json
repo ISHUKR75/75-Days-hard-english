@@ -1,24 +1,24 @@
 {
   "day": 13,
-  "topic": "Use of Let",
+  "title": "Use of Let",
   "sections": [
     {
-      "id": 1,
-      "title": "Use of Let — Introduction and Formula",
+      "id": "introduction-formula",
+      "title": "Use of Let — Introduction & Formula",
       "hindiTitle": "Use of Let — परिचय और फॉर्मूला",
-      "explanation": "Use of Let is an essential building block of spoken and written English. Formula: Let + object (me/him/her/us/them) + base verb. Rules: 'Let' means giving permission or allowing someone to do something | Formula: Let + person + base verb (no 'to') | Negative: Do not let / Don't let | 'Let me' = mujhe karne do; 'Let him/her' = use karne do",
-      "formula": "Let + object (me/him/her/us/them) + base verb",
+      "explanation": "'Let' का उपयोग English में permission देने, request करने, या suggestion/command के लिए होता है। यह हमेशा 'Let + object pronoun (me/him/her/us/them/it) + base verb' के structure में आता है। Base verb का मतलब है verb की first form — जैसे go, eat, speak, sit आदि। 'Let me' का अर्थ है 'मुझे करने दो', 'Let him/her' का अर्थ है 'उसे करने दो', 'Let them' का अर्थ है 'उन्हें करने दो'। बहुत ज़रूरी बात — 'Let' के बाद 'to' नहीं आता: WRONG: Let me to go. RIGHT: Let me go. Note: 'Let's' (= Let us for suggestion) Day 14 का topic है — इसे यहाँ avoid करें।",
+      "formula": "Let + object pronoun (me/him/her/us/them/it) + base verb",
       "examples": [
         {
           "hindi": "मुझे बताने दो।",
           "english": "Let me tell you."
         },
         {
-          "hindi": "उसे जाने दो।",
+          "hindi": "उसे (लड़के को) जाने दो।",
           "english": "Let him go."
         },
         {
-          "hindi": "उसे बोलने दो।",
+          "hindi": "उसे (लड़की को) बोलने दो।",
           "english": "Let her speak."
         },
         {
@@ -36,101 +36,233 @@
       ]
     },
     {
-      "id": 2,
+      "id": "daily-life-usage",
       "title": "Use of Let — Daily Life Usage",
-      "hindiTitle": "Use of Let — रोज़मर्रा के उपयोग",
-      "explanation": "Here are everyday sentences using Use of Let that you will use in daily conversation, at home, and with friends.",
-      "formula": "Let + object (me/him/her/us/them) + base verb",
+      "hindiTitle": "Use of Let — रोज़मर्रा की ज़िंदगी में उपयोग",
+      "explanation": "घर में, दोस्तों के साथ, बाज़ार में — 'Let' का उपयोग बहुत common है। जब आप किसी को कुछ करने की इजाज़त देते हैं या कोई आपसे permission माँगता है, तब 'Let' use होता है। रोज़ की बातचीत में ये sentences बहुत काम आते हैं — जैसे 'Let me check', 'Let him eat', 'Don't let the dog inside' आदि। इन sentences को बोलते वक़्त tone बहुत important है — 'Let me do it' polite है, जबकि 'Let him do it!' forceful भी हो सकता है।",
+      "formula": "Let + object pronoun + base verb (daily context)",
       "examples": [
         {
-          "hindi": "उसे आराम करने दो।",
-          "english": "Let him rest."
+          "hindi": "मुझे खाना बनाने दो।",
+          "english": "Let me cook the food."
         },
-        {
-          "hindi": "मुझे यह check करने दो।",
-          "english": "Let me check this."
-        },
-        {
-          "hindi": "उसे अपना काम करने दो।",
-          "english": "Let her do her work."
-        },
-        {
-          "hindi": "हमें शुरू करने दो।",
-          "english": "Let us start."
-        },
-        {
-          "hindi": "मत उसे जाने दो।",
-          "english": "Do not let him go."
-        },
-        {
-          "hindi": "मुझे तुम्हें समझाने दो।",
-          "english": "Let me explain to you."
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "title": "Use of Let — Office & Professional Usage",
-      "hindiTitle": "Use of Let — ऑफिस और पेशेवर उपयोग",
-      "explanation": "Practice Use of Let in professional and office contexts so you can use it confidently at work.",
-      "formula": "Let + object (me/him/her/us/them) + base verb",
-      "examples": [
-        {
-          "hindi": "उन्हें फैसला करने दो।",
-          "english": "Let them decide."
-        },
-        {
-          "hindi": "मुझे थोड़ा समय दो।",
-          "english": "Let me have some time."
-        },
-        {
-          "hindi": "उसे आने दो।",
-          "english": "Let him come."
-        },
-        {
-          "hindi": "हमें साथ काम करने दो।",
-          "english": "Let us work together."
-        },
-        {
-          "hindi": "मुझे यह सवाल पूछने दो।",
-          "english": "Let me ask this question."
-        },
-        {
-          "hindi": "उसे खुद decide करने दो।",
-          "english": "Let her decide on her own."
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "title": "Use of Let — Negative and Question Forms",
-      "hindiTitle": "Use of Let — नकारात्मक और प्रश्न रूप",
-      "explanation": "Learn how to make negative sentences and questions using Use of Let. Common mistakes: forgetting to keep the base verb form, or wrong subject agreement.",
-      "formula": "Let + object (me/him/her/us/them) + base verb",
-      "examples": [
         {
           "hindi": "बच्चों को बाहर खेलने दो।",
           "english": "Let the children play outside."
         },
         {
-          "hindi": "मुझे अपनी बात कहने दो।",
-          "english": "Let me say my point."
+          "hindi": "उसे आराम करने दो — वह थका हुआ है।",
+          "english": "Let him rest — he is tired."
         },
         {
-          "hindi": "उन्हें आराम से बैठने दो।",
-          "english": "Let them sit comfortably."
+          "hindi": "कुत्ते को अंदर मत आने दो।",
+          "english": "Don't let the dog come inside."
         },
         {
-          "hindi": "मुझे यह try करने दो।",
-          "english": "Let me try this."
+          "hindi": "मुझे दरवाज़ा खोलने दो।",
+          "english": "Let me open the door."
+        },
+        {
+          "hindi": "उसे अपनी माँ को फ़ोन करने दो।",
+          "english": "Let her call her mother."
+        }
+      ]
+    },
+    {
+      "id": "office-professional-usage",
+      "title": "Use of Let — Office & Professional Usage",
+      "hindiTitle": "Use of Let — ऑफिस और Professional उपयोग",
+      "explanation": "Professional settings में 'Let' बहुत polite और effective तरीके से काम करता है। Meeting में 'Let me clarify' कहना बहुत professional लगता है। 'Let him present his ideas' कहने से आप दूसरों को space देते हैं — यह एक अच्छे leader की quality है। Office में 'Let us review the data', 'Let me handle this', 'Don't let this opportunity slip' जैसे sentences regularly use होते हैं। Interview में 'Let me give you an example' — यह sentence बहुत impressive होता है।",
+      "formula": "Let + object pronoun + base verb (professional context)",
+      "examples": [
+        {
+          "hindi": "मुझे इस project को handle करने दो।",
+          "english": "Let me handle this project."
+        },
+        {
+          "hindi": "उसे अपना presentation देने दो।",
+          "english": "Let him give his presentation."
+        },
+        {
+          "hindi": "हमें data review करने दो।",
+          "english": "Let us review the data."
+        },
+        {
+          "hindi": "मुझे एक example देने दो।",
+          "english": "Let me give you an example."
+        },
+        {
+          "hindi": "इस deadline को miss मत होने दो।",
+          "english": "Don't let this deadline be missed."
+        },
+        {
+          "hindi": "उसे team को lead करने दो।",
+          "english": "Let her lead the team."
+        }
+      ]
+    },
+    {
+      "id": "negative-question-forms",
+      "title": "Use of Let — Negative & Question Forms",
+      "hindiTitle": "Use of Let — नकारात्मक और प्रश्न रूप",
+      "explanation": "'Let' की negative form होती है 'Don't let' या 'Do not let'। जैसे: 'Don't let him leave early' = उसे जल्दी जाने मत दो। Question form में आमतौर पर 'Should I let...?', 'Will you let me...?', 'Can you let me know?' जैसे structures use होते हैं। Indirect questions में भी 'let' आता है — जैसे 'I don't know if I should let him in.' Note: 'Let' की negative के लिए 'Don't let' use करें, कभी 'Let not' नहीं (यह archaic/formal है — जैसे: 'Let no man enter')।",
+      "formula": "Don't let + object pronoun + base verb | Will/Can/Should + subject + let + object + base verb?",
+      "examples": [
+        {
+          "hindi": "उसे इस secret के बारे में मत बताने दो।",
+          "english": "Don't let him know about this secret."
+        },
+        {
+          "hindi": "बच्चों को देर रात तक जागने मत दो।",
+          "english": "Don't let the children stay up late at night."
+        },
+        {
+          "hindi": "क्या आप मुझे यह समझाने देंगे?",
+          "english": "Will you let me explain this?"
+        },
+        {
+          "hindi": "क्या मैं उसे अंदर आने दे सकता हूँ?",
+          "english": "Should I let him come in?"
+        },
+        {
+          "hindi": "इस मौके को हाथ से मत जाने दो।",
+          "english": "Don't let this opportunity slip away."
+        },
+        {
+          "hindi": "क्या वह मुझे जाने देगी?",
+          "english": "Will she let me go?"
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "title": "Use of Let — Common Mistakes",
+      "hindiTitle": "Use of Let — सामान्य गलतियाँ",
+      "explanation": "Hindi speakers 'Let' के साथ सबसे ज़्यादा ये गलतियाँ करते हैं:\n1. 'To' लगाना: WRONG: 'Let me to go.' RIGHT: 'Let me go.'\n2. Wrong pronoun: WRONG: 'Let I try.' RIGHT: 'Let me try.' (Object pronoun use करें — I नहीं, me; he नहीं, him; she नहीं, her; they नहीं, them)\n3. 'Let's' को 'Let us' समझना — 'Let us' formal permission है, 'Let's' suggestion है (Day 14).\n4. Verb के साथ '-ing' लगाना: WRONG: 'Let him going.' RIGHT: 'Let him go.'\n5. 'Don't let' की जगह 'Let not' कहना — यह गलत है आमतौर पर।",
+      "formula": "Let + OBJECT pronoun (NOT subject pronoun) + BASE verb (no 'to', no '-ing')",
+      "examples": [
+        {
+          "hindi": "❌ गलत: Let me to speak. ✅ सही: मुझे बोलने दो।",
+          "english": "✅ Correct: Let me speak."
+        },
+        {
+          "hindi": "❌ गलत: Let he go. ✅ सही: उसे जाने दो।",
+          "english": "✅ Correct: Let him go."
+        },
+        {
+          "hindi": "❌ गलत: Let her going. ✅ सही: उसे जाने दो।",
+          "english": "✅ Correct: Let her go."
+        },
+        {
+          "hindi": "❌ गलत: Let they decide. ✅ सही: उन्हें decide करने दो।",
+          "english": "✅ Correct: Let them decide."
+        },
+        {
+          "hindi": "❌ गलत: Let not him enter. ✅ सही: उसे अंदर मत आने दो।",
+          "english": "✅ Correct: Don't let him enter."
+        },
+        {
+          "hindi": "❌ गलत: Let I try. ✅ सही: मुझे कोशिश करने दो।",
+          "english": "✅ Correct: Let me try."
+        }
+      ]
+    },
+    {
+      "id": "advanced-nuanced-usage",
+      "title": "Use of Let — Advanced & Nuanced Usage",
+      "hindiTitle": "Use of Let — Advanced और Nuanced उपयोग",
+      "explanation": "'Let' के advanced uses में शामिल हैं:\n1. Formal/Literary: 'Let it be known that...' (सबको पता हो कि...)\n2. Emphatic permission: 'Let him do whatever he wants!' (use करो — मुझे परवाह नहीं)\n3. Resigned acceptance: 'Let it happen.' (होने दो जो होना है)\n4. Instructions/Procedures: 'Let the mixture cool for 5 minutes.' (recipe/lab instructions में)\n5. Business/Legal: 'Let the record show...' / 'Let this serve as notice...'\n6. 'Let alone' idiom: 'I can't afford a car, let alone a house.' (कार तो दूर, घर भी नहीं)\n7. 'Let go of' = छोड़ देना (emotionally or physically): 'Let go of the past.'",
+      "formula": "Let + object + base verb (various advanced contexts)",
+      "examples": [
+        {
+          "hindi": "मिश्रण को 10 मिनट के लिए ठंडा होने दो।",
+          "english": "Let the mixture cool for 10 minutes."
+        },
+        {
+          "hindi": "जो होना है होने दो।",
+          "english": "Let it be — whatever happens, happens."
+        },
+        {
+          "hindi": "उसे जो चाहे वो करने दो — मुझे कोई फ़र्क नहीं पड़ता।",
+          "english": "Let him do whatever he wants — I don't care."
+        },
+        {
+          "hindi": "वह basic English भी नहीं जानता, advanced तो दूर की बात है।",
+          "english": "He doesn't know basic English, let alone advanced grammar."
+        },
+        {
+          "hindi": "अतीत को जाने दो और आगे बढ़ो।",
+          "english": "Let go of the past and move forward."
+        },
+        {
+          "hindi": "Record में यह दर्ज हो कि हमने warning दी थी।",
+          "english": "Let the record show that we had warned them."
+        }
+      ]
+    },
+    {
+      "id": "comparison-similar-structures",
+      "title": "Use of Let — Comparison with Similar Structures",
+      "hindiTitle": "Use of Let — समान Structures से तुलना",
+      "explanation": "'Let' को इन structures से confuse न करें:\n1. Let vs Allow: 'Let' ज़्यादा informal है; 'Allow' formal है। 'Let him go' vs 'Allow him to go' — दोनों सही हैं लेकिन 'Allow' के बाद 'to + verb' आता है।\n2. Let vs Make: 'Let' = permission देना (willing). 'Make' = force करना (unwilling). 'Let me speak' vs 'Make me speak'.\n3. Let vs Have (causative): 'Let him fix it' vs 'Have him fix it' — 'Have' professional/authoritative है।\n4. Let vs Get: 'Get him to come' = persuade करना; 'Let him come' = permission देना।\n5. Imperative vs Let: 'Go!' (direct order to you) vs 'Let him go!' (permission/order about third person).",
+      "formula": "Let (informal permission) | Allow + to (formal) | Make (force) | Have (causative authority)",
+      "examples": [
+        {
+          "hindi": "उसे जाने दो। (informal permission)",
+          "english": "Let him go. (informal permission)"
+        },
+        {
+          "hindi": "उसे जाने की अनुमति दो। (formal)",
+          "english": "Allow him to go. (formal permission)"
+        },
+        {
+          "hindi": "उसे बोलने पर मजबूर करो।",
+          "english": "Make him speak."
+        },
+        {
+          "hindi": "उसे report fix करवाओ।",
+          "english": "Have him fix the report."
+        },
+        {
+          "hindi": "उसे आने के लिए मनाओ।",
+          "english": "Get him to come."
+        },
+        {
+          "hindi": "जाओ! (तुम्हें आदेश) vs उसे जाने दो! (तीसरे व्यक्ति के लिए)",
+          "english": "Go! (direct imperative) vs Let him go! (about a third party)"
+        }
+      ]
+    },
+    {
+      "id": "practice-tips",
+      "title": "Use of Let — Practice Tips & Daily Use",
+      "hindiTitle": "Use of Let — Practice Tips और Daily Use",
+      "explanation": "'Let' को अपनी daily life में use करने के लिए ये tips follow करें:\n1. हर बार जब आप किसी को कुछ करने देते हैं, English में कहें: 'Let him/her/them...'.\n2. जब भी खुद कुछ करना चाहें और permission-style में कहना हो: 'Let me...'\n3. Mirror के सामने practice करें: 'Let me introduce myself', 'Let me explain', 'Let me show you.'\n4. Office में अगले हफ़्ते try करें: शुरू में 'Let me...' वाले 3 sentences ज़रूर बोलें।\n5. Negative practice: घर पर, किसी situation में 'Don't let...' sentence बनाएं।\n6. Journal लिखें: रात को 5 sentences लिखें जिनमें 'Let' use हो।",
+      "formula": "Let + me/him/her/us/them/it + base verb — practice daily!",
+      "examples": [
+        {
+          "hindi": "मुझे अपना परिचय देने दो।",
+          "english": "Let me introduce myself."
+        },
+        {
+          "hindi": "मुझे समझाने दो।",
+          "english": "Let me explain."
+        },
+        {
+          "hindi": "उसे अपना काम खुद करने दो।",
+          "english": "Let him do his own work."
+        },
+        {
+          "hindi": "उन्हें शांति से बात करने दो।",
+          "english": "Let them talk in peace."
+        },
+        {
+          "hindi": "मुझे तुम्हारी मदद करने दो।",
+          "english": "Let me help you."
         },
         {
           "hindi": "उसे अपनी गलती सुधारने दो।",
-          "english": "Let him correct his mistake."
-        },
-        {
-          "hindi": "हमें भी शामिल होने दो।",
-          "english": "Let us also join."
+          "english": "Let her correct her mistake."
         }
       ]
     }

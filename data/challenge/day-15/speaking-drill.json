@@ -1,181 +1,269 @@
 {
   "day": 15,
   "topic": "Would Like To",
-  "totalDrills": 8,
+  "totalDrills": 12,
   "drills": [
     {
       "id": 1,
       "type": "repeat-and-speak",
-      "title": "Would Like To — Speaking Set 1",
+      "title": "Would Like To — Basic Polite Statements",
       "sentences": [
         {
-          "english": "I would like to know this.",
-          "hindi": "मैं यह जानना चाहूँगा।",
-          "pronunciation": "i would like to know this"
+          "english": "I would like to have a cup of tea.",
+          "hindi": "मैं एक कप चाय पीना चाहूँगा।",
+          "pronunciation": "i would like to have a cup of tea"
         },
         {
-          "english": "I would like to meet you.",
-          "hindi": "मैं आपसे मिलना चाहूँगा।",
-          "pronunciation": "i would like to meet you"
+          "english": "She would like to meet the manager.",
+          "hindi": "वह manager से मिलना चाहेगी।",
+          "pronunciation": "she would like to meet the manager"
         },
         {
-          "english": "She would like to ask something.",
-          "hindi": "वह कुछ पूछना चाहेगी।",
-          "pronunciation": "she would like to ask something"
+          "english": "We would like to work on this project.",
+          "hindi": "हम इस project पर काम करना चाहेंगे।",
+          "pronunciation": "we would like to work on this project"
         }
       ]
     },
     {
       "id": 2,
       "type": "repeat-and-speak",
-      "title": "Would Like To — Speaking Set 2",
+      "title": "Would Like To — Question Forms",
       "sentences": [
         {
-          "english": "We would like to have a coffee.",
-          "hindi": "हम एक coffee लेना चाहेंगे।",
-          "pronunciation": "we would like to have a coffee"
+          "english": "Would you like to have some water?",
+          "hindi": "क्या आप पानी पीना चाहेंगे?",
+          "pronunciation": "would you like to have some water"
         },
         {
-          "english": "They would like to travel.",
-          "hindi": "वे travel करना चाहेंगे।",
-          "pronunciation": "they would like to travel"
+          "english": "Would he like to join the team?",
+          "hindi": "क्या वह team में शामिल होना चाहेगा?",
+          "pronunciation": "would he like to join the team"
         },
         {
-          "english": "Would you like to eat something?",
-          "hindi": "क्या आप कुछ खाना चाहेंगे?",
-          "pronunciation": "would you like to eat something"
+          "english": "Would they like to attend the meeting?",
+          "hindi": "क्या वे meeting में attend करना चाहेंगे?",
+          "pronunciation": "would they like to attend the meeting"
         }
       ]
     },
     {
       "id": 3,
       "type": "repeat-and-speak",
-      "title": "Would Like To — Speaking Set 3",
+      "title": "Would Like To — Negative Forms",
       "sentences": [
         {
-          "english": "I would like to know more about this.",
-          "hindi": "मैं इस बारे में और जानना चाहूँगा।",
-          "pronunciation": "i would like to know more about this"
+          "english": "I wouldn't like to work overtime.",
+          "hindi": "मैं overtime काम नहीं करना चाहूँगा।",
+          "pronunciation": "i wouldnt like to work overtime"
         },
         {
-          "english": "He would like to give his opinion.",
-          "hindi": "वह अपनी राय देना चाहेगा।",
-          "pronunciation": "he would like to give his opinion"
+          "english": "She would not like to discuss this in public.",
+          "hindi": "वह इसे public में discuss नहीं करना चाहेगी।",
+          "pronunciation": "she would not like to discuss this in public"
         },
         {
-          "english": "We would like to take this opportunity.",
-          "hindi": "हम यह मौका लेना चाहेंगे।",
-          "pronunciation": "we would like to take this opportunity"
+          "english": "They wouldn't like to cancel the deal.",
+          "hindi": "वे deal cancel नहीं करना चाहेंगे।",
+          "pronunciation": "they wouldnt like to cancel the deal"
         }
       ]
     },
     {
       "id": 4,
       "type": "repeat-and-speak",
-      "title": "Would Like To — Speaking Set 4",
+      "title": "Would Like To — Contractions (I'd / She'd / We'd)",
       "sentences": [
         {
-          "english": "Would you like to sit down?",
-          "hindi": "क्या आप बैठना चाहेंगे?",
-          "pronunciation": "would you like to sit down"
+          "english": "I'd like to introduce myself.",
+          "hindi": "मैं अपना परिचय देना चाहूँगा।",
+          "pronunciation": "id like to introduce myself"
         },
         {
-          "english": "I would like to say thank you.",
-          "hindi": "मैं धन्यवाद कहना चाहूँगा।",
-          "pronunciation": "i would like to say thank you"
+          "english": "She'd like to apply for this role.",
+          "hindi": "वह इस role के लिए apply करना चाहेगी।",
+          "pronunciation": "shed like to apply for this role"
         },
         {
-          "english": "She would like to share her idea.",
-          "hindi": "वह अपना विचार साझा करना चाहेगी।",
-          "pronunciation": "she would like to share her idea"
+          "english": "We'd like to offer you this position.",
+          "hindi": "हम आपको यह position offer करना चाहेंगे।",
+          "pronunciation": "wed like to offer you this position"
         }
       ]
     },
     {
       "id": 5,
       "type": "repeat-and-speak",
-      "title": "Would Like To — Speaking Set 5",
+      "title": "Would Like To — Interview Sentences",
       "sentences": [
         {
-          "english": "We would like to work on this project.",
-          "hindi": "हम इस project पर काम करना चाहेंगे।",
-          "pronunciation": "we would like to work on this project"
+          "english": "I would like to contribute to your company's growth.",
+          "hindi": "मैं आपकी company की growth में योगदान देना चाहूँगा।",
+          "pronunciation": "i would like to contribute to your companys growth"
         },
         {
-          "english": "Would you like to drink something?",
-          "hindi": "क्या तुम कुछ पीना चाहोगे?",
-          "pronunciation": "would you like to drink something"
+          "english": "I would like to build a long-term career here.",
+          "hindi": "मैं यहाँ long-term career बनाना चाहूँगा।",
+          "pronunciation": "i would like to build a long term career here"
         },
         {
-          "english": "I would like to apologize.",
-          "hindi": "मैं माफी मांगना चाहूँगा।",
-          "pronunciation": "i would like to apologize"
+          "english": "I would like to learn from this experience.",
+          "hindi": "मैं इस experience से सीखना चाहूँगा।",
+          "pronunciation": "i would like to learn from this experience"
         }
       ]
     },
     {
       "id": 6,
       "type": "repeat-and-speak",
-      "title": "Would Like To — Speaking Set 6",
+      "title": "Would Like To — Customer Service",
       "sentences": [
         {
-          "english": "They would like to discuss this topic.",
-          "hindi": "वे इस topic पर चर्चा करना चाहेंगे।",
-          "pronunciation": "they would like to discuss this topic"
+          "english": "Would you like to see the menu?",
+          "hindi": "क्या आप menu देखना चाहेंगे?",
+          "pronunciation": "would you like to see the menu"
         },
         {
-          "english": "I would like to ask this question.",
-          "hindi": "मैं यह सवाल पूछना चाहूँगा।",
-          "pronunciation": "i would like to ask this question"
+          "english": "I would like to file a complaint.",
+          "hindi": "मैं एक complaint दर्ज करना चाहूँगा।",
+          "pronunciation": "i would like to file a complaint"
         },
         {
-          "english": "He would like to take a break.",
-          "hindi": "वह ब्रेक लेना चाहेगा।",
-          "pronunciation": "he would like to take a break"
+          "english": "Would you like to upgrade your room?",
+          "hindi": "क्या आप अपना room upgrade करना चाहेंगे?",
+          "pronunciation": "would you like to upgrade your room"
         }
       ]
     },
     {
       "id": 7,
       "type": "repeat-and-speak",
-      "title": "Would Like To — Speaking Set 7",
+      "title": "Would Like To — Office & Professional",
       "sentences": [
         {
-          "english": "We would like to help you.",
-          "hindi": "हम आपकी मदद करना चाहेंगे।",
-          "pronunciation": "we would like to help you"
+          "english": "I would like to schedule a meeting with you.",
+          "hindi": "मैं आपके साथ एक meeting schedule करना चाहूँगा।",
+          "pronunciation": "i would like to schedule a meeting with you"
         },
         {
-          "english": "Would you like to say something?",
-          "hindi": "क्या आप कुछ कहना चाहेंगे?",
-          "pronunciation": "would you like to say something"
+          "english": "We would like to discuss the proposal.",
+          "hindi": "हम proposal पर चर्चा करना चाहेंगे।",
+          "pronunciation": "we would like to discuss the proposal"
         },
         {
-          "english": "I would like to learn this.",
-          "hindi": "मैं यह सीखना चाहूँगा।",
-          "pronunciation": "i would like to learn this"
+          "english": "She would like to present her findings.",
+          "hindi": "वह अपने findings present करना चाहेगी।",
+          "pronunciation": "she would like to present her findings"
         }
       ]
     },
     {
       "id": 8,
       "type": "repeat-and-speak",
-      "title": "Would Like To — Speaking Set 8",
+      "title": "Would Like To — Formal Expressions",
       "sentences": [
         {
-          "english": "She would like to give a presentation.",
-          "hindi": "वह presentation देना चाहेगी।",
-          "pronunciation": "she would like to give a presentation"
+          "english": "I would like to bring this to your attention.",
+          "hindi": "मैं यह बात आपके ध्यान में लाना चाहूँगा।",
+          "pronunciation": "i would like to bring this to your attention"
         },
         {
-          "english": "We would like to finish this soon.",
-          "hindi": "हम इसे जल्दी खत्म करना चाहेंगे।",
-          "pronunciation": "we would like to finish this soon"
+          "english": "I would like to formally apologize for the inconvenience.",
+          "hindi": "मैं असुविधा के लिए formally माफी माँगना चाहूँगा।",
+          "pronunciation": "i would like to formally apologize for the inconvenience"
         },
         {
-          "english": "I would like to give a suggestion.",
-          "hindi": "मैं suggestion देना चाहूँगा।",
-          "pronunciation": "i would like to give a suggestion"
+          "english": "We would like to extend our sincere gratitude.",
+          "hindi": "हम अपनी sincere gratitude व्यक्त करना चाहेंगे।",
+          "pronunciation": "we would like to extend our sincere gratitude"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "repeat-and-speak",
+      "title": "Would Like To vs Want To (Contrast)",
+      "sentences": [
+        {
+          "english": "I want to eat. (casual) / I would like to eat. (polite)",
+          "hindi": "मैं खाना चाहता हूँ। (casual) / मैं खाना चाहूँगा। (polite)",
+          "pronunciation": "i want to eat versus i would like to eat"
+        },
+        {
+          "english": "I want to know. (direct) / I'd like to know. (gentle)",
+          "hindi": "मुझे जानना है। / मैं जानना चाहूँगा।",
+          "pronunciation": "i want to know versus id like to know"
+        },
+        {
+          "english": "We want a table. / We would like a table, please.",
+          "hindi": "हमें मेज़ चाहिए। / हम एक मेज़ लेना चाहेंगे।",
+          "pronunciation": "we want a table versus we would like a table please"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "repeat-and-speak",
+      "title": "Would Like To — Daily Life Sentences",
+      "sentences": [
+        {
+          "english": "I would like to visit my parents this weekend.",
+          "hindi": "मैं इस weekend अपने माता-पिता से मिलने जाना चाहूँगा।",
+          "pronunciation": "i would like to visit my parents this weekend"
+        },
+        {
+          "english": "She would like to start a new hobby.",
+          "hindi": "वह एक नई hobby शुरू करना चाहेगी।",
+          "pronunciation": "she would like to start a new hobby"
+        },
+        {
+          "english": "Would you like to come to the party tonight?",
+          "hindi": "क्या आप आज रात party में आना चाहेंगे?",
+          "pronunciation": "would you like to come to the party tonight"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "repeat-and-speak",
+      "title": "Would Like To — Advanced Sentences",
+      "sentences": [
+        {
+          "english": "If possible, I'd like to work from home twice a week.",
+          "hindi": "अगर हो सके, तो मैं हफ्ते में दो बार घर से काम करना चाहूँगा।",
+          "pronunciation": "if possible id like to work from home twice a week"
+        },
+        {
+          "english": "He said he would like to meet the director.",
+          "hindi": "उसने कहा कि वह director से मिलना चाहेगा।",
+          "pronunciation": "he said he would like to meet the director"
+        },
+        {
+          "english": "We would like to inform you that your application has been approved.",
+          "hindi": "हम आपको सूचित करना चाहेंगे कि आपका application approved हो गया है।",
+          "pronunciation": "we would like to inform you that your application has been approved"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "repeat-and-speak",
+      "title": "Would Like To — Short Answers Practice",
+      "sentences": [
+        {
+          "english": "Would you like to come? — Yes, I would. / No, I wouldn't.",
+          "hindi": "क्या आप आना चाहेंगे? — हाँ, चाहूँगा। / नहीं, नहीं चाहूँगा।",
+          "pronunciation": "would you like to come yes i would no i wouldnt"
+        },
+        {
+          "english": "Would she like to join? — Yes, she would.",
+          "hindi": "क्या वह join करना चाहेगी? — हाँ, चाहेगी।",
+          "pronunciation": "would she like to join yes she would"
+        },
+        {
+          "english": "Would they like to help? — No, they wouldn't.",
+          "hindi": "क्या वे मदद करना चाहेंगे? — नहीं, नहीं चाहेंगे।",
+          "pronunciation": "would they like to help no they wouldnt"
         }
       ]
     }

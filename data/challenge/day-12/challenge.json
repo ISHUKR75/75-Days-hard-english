@@ -1,13 +1,16 @@
 {
   "day": 12,
   "topic": "Use of Wanted",
-  "challengeTask": "Use at least 10 sentences with Use of Wanted in a real conversation or diary entry today.",
-  "hindiTask": "आज Use of Wanted का उपयोग करते हुए कम से कम 10 वाक्य किसी असली बातचीत या डायरी में लिखें।",
+  "challengeTask": "Use 'wanted to' or 'wanted' in at least 12 real sentences today — write them in a diary, send them in a WhatsApp message, or speak them during a conversation. Include at least 2 negatives and 2 questions.",
+  "hindiTask": "आज 'wanted to' या 'wanted' का उपयोग करते हुए कम से कम 12 real sentences लिखें — diary में, WhatsApp message में, या किसी conversation में। कम से कम 2 negative और 2 question sentences ज़रूर शामिल करें।",
   "successCriteria": [
-    "All 10 sentences are grammatically correct",
-    "Use of Wanted rule applied correctly in every sentence",
-    "No spelling mistakes"
+    "All 12 sentences are grammatically correct",
+    "'Wanted to + base verb' structure is used correctly (not 'wanted + verb')",
+    "At least 2 negatives use 'did not want' (not 'did not wanted')",
+    "At least 2 questions use 'Did + subject + want' (not 'Did + subject + wanted')",
+    "At least one professional/office sentence is included",
+    "No subject-verb agreement errors (all subjects use same 'wanted' form)"
   ],
-  "bonusChallenge": "Record yourself speaking 5 of these sentences and check your pronunciation.",
+  "bonusChallenge": "Write a short paragraph about your childhood dreams using 'I always wanted to...', 'I did not want to...', and 'Did you ever want to...?' forms. Share it with a friend and ask them to check your grammar.",
   "xpReward": 50
 }

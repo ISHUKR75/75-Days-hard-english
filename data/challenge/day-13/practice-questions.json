@@ -1,343 +1,1728 @@
 {
-  "day": 13,
+  "totalQuestions": 100,
   "topic": "Use of Let",
-  "totalQuestions": 24,
+  "day": 13,
+  "instructions": "नीचे दिए गए Hindi sentences को English में translate करें। सभी sentences 'Let' के pattern पर आधारित हैं।",
+  "categories": [
+    "Let me (statement)",
+    "Let him/her (statement)",
+    "Let us (statement)",
+    "Let them (statement)",
+    "Don't let (negative)",
+    "Questions with Let",
+    "Office/Professional",
+    "Daily Life",
+    "Advanced Use",
+    "Mixed"
+  ],
   "questions": [
     {
       "id": 1,
       "hindi": "मुझे बताने दो।",
       "english": "Let me tell you.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let me tell you.\"",
+      "alternatives": [
+        "Let me tell you.",
+        "let me tell you."
+      ],
+      "hint": "Let + me + base verb",
+      "explanation": "'Let me' = मुझे करने दो। base verb 'tell' — कोई 'to' नहीं।",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "let-me",
+        "statement"
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 2,
-      "hindi": "उसे जाने दो।",
-      "english": "Let him go.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let him go.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "मुझे सोचने दो।",
+      "english": "Let me think.",
+      "alternatives": [
+        "Let me think."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + me + think",
+      "explanation": "Let me = permission for myself. 'think' is the base verb.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 3,
-      "hindi": "उसे बोलने दो।",
-      "english": "Let her speak.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let her speak.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "मुझे कोशिश करने दो।",
+      "english": "Let me try.",
+      "alternatives": [
+        "Let me try."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "try = base verb, no 'to'",
+      "explanation": "Let me try — simple permission statement.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 4,
-      "hindi": "हमें कोशिश करने दो।",
-      "english": "Let us try.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let us try.\"",
+      "hindi": "मुझे समझाने दो।",
+      "english": "Let me explain.",
+      "alternatives": [
+        "Let me explain."
+      ],
+      "hint": "explain = base verb",
+      "explanation": "Common polite phrase used in conversations and meetings.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "let-me",
+        "communication"
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 5,
-      "hindi": "उन्हें खेलने दो।",
-      "english": "Let them play.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let them play.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "मुझे तुम्हारी मदद करने दो।",
+      "english": "Let me help you.",
+      "alternatives": [
+        "Let me help you."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + me + help + you",
+      "explanation": "'help you' — 'you' is the object of 'help'.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 6,
-      "hindi": "मुझे सोचने दो।",
-      "english": "Let me think.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let me think.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "मुझे एक example देने दो।",
+      "english": "Let me give you an example.",
+      "alternatives": [
+        "Let me give an example."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let me + give",
+      "explanation": "'Let me give you an example' — very useful in interviews and presentations.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "interview",
+        "office"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 7,
-      "hindi": "उसे आराम करने दो।",
-      "english": "Let him rest.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let him rest.\"",
+      "hindi": "मुझे यह check करने दो।",
+      "english": "Let me check this.",
+      "alternatives": [
+        "Let me check this.",
+        "Let me check."
+      ],
+      "hint": "check = base verb",
+      "explanation": "Useful in office, daily life. 'check this' = इसे जाँचने दो।",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "let-me",
+        "office"
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 8,
-      "hindi": "मुझे यह check करने दो।",
-      "english": "Let me check this.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let me check this.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "मुझे अपना परिचय देने दो।",
+      "english": "Let me introduce myself.",
+      "alternatives": [
+        "Let me introduce myself."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "introduce = base verb, myself = reflexive",
+      "explanation": "Used at the start of interviews, meetings, etc.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "interview",
+        "introduction"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 9,
-      "hindi": "उसे अपना काम करने दो।",
-      "english": "Let her do her work.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let her do her work.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "मुझे दरवाज़ा खोलने दो।",
+      "english": "Let me open the door.",
+      "alternatives": [
+        "Let me open the door."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "open = base verb",
+      "explanation": "Simple everyday 'Let me' statement.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 10,
-      "hindi": "हमें शुरू करने दो।",
-      "english": "Let us start.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let us start.\"",
-      "difficulty": "easy",
-      "tags": [
-        "use"
+      "hindi": "मुझे ज़रा सोचने का समय दो।",
+      "english": "Let me have some time to think.",
+      "alternatives": [
+        "Let me think for a moment.",
+        "Give me a moment to think."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let me + have some time",
+      "explanation": "Extended 'Let me' with added context.",
+      "difficulty": "medium",
+      "tags": [
+        "let-me",
+        "office"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
     },
     {
       "id": 11,
-      "hindi": "मत उसे जाने दो।",
-      "english": "Do not let him go.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Do not let him go.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "उसे (लड़के को) जाने दो।",
+      "english": "Let him go.",
+      "alternatives": [
+        "Let him go."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + him + go",
+      "explanation": "'him' = object pronoun for male. Base verb 'go'.",
+      "difficulty": "easy",
+      "tags": [
+        "let-him",
+        "statement"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 12,
-      "hindi": "मुझे तुम्हें समझाने दो।",
-      "english": "Let me explain to you.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let me explain to you.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "उसे (लड़की को) बोलने दो।",
+      "english": "Let her speak.",
+      "alternatives": [
+        "Let her speak.",
+        "Let her talk."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + her + speak",
+      "explanation": "'her' = object pronoun for female.",
+      "difficulty": "easy",
+      "tags": [
+        "let-her",
+        "statement"
+      ],
+      "grammarRule": "Let + her + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 13,
-      "hindi": "उन्हें फैसला करने दो।",
-      "english": "Let them decide.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let them decide.\"",
+      "hindi": "उसे आराम करने दो — वह थका हुआ है।",
+      "english": "Let him rest — he is tired.",
+      "alternatives": [
+        "Let him rest, he is tired."
+      ],
+      "hint": "Let him + rest",
+      "explanation": "Two clauses: permission + reason.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "let-him",
+        "daily"
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "grammarRule": "Let + him + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 14,
-      "hindi": "मुझे थोड़ा समय दो।",
-      "english": "Let me have some time.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let me have some time.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "उसे अपना presentation देने दो।",
+      "english": "Let him give his presentation.",
+      "alternatives": [
+        "Let him present.",
+        "Let him give his presentation."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + him + give",
+      "explanation": "Professional context with 'Let him'.",
+      "difficulty": "easy",
+      "tags": [
+        "let-him",
+        "office"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 15,
-      "hindi": "उसे आने दो।",
-      "english": "Let him come.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let him come.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "उसे team को lead करने दो।",
+      "english": "Let her lead the team.",
+      "alternatives": [
+        "Let her lead the team."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + her + lead",
+      "explanation": "'lead' = base verb. Empowering someone.",
+      "difficulty": "easy",
+      "tags": [
+        "let-her",
+        "office"
+      ],
+      "grammarRule": "Let + her + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 16,
-      "hindi": "हमें साथ काम करने दो।",
-      "english": "Let us work together.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let us work together.\"",
+      "hindi": "उसे अपनी माँ को फ़ोन करने दो।",
+      "english": "Let her call her mother.",
+      "alternatives": [
+        "Let her call her mother.",
+        "Let her call her mom."
+      ],
+      "hint": "Let + her + call",
+      "explanation": "Simple daily life use of 'Let her'.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "let-her",
+        "daily"
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "grammarRule": "Let + her + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 17,
-      "hindi": "मुझे यह सवाल पूछने दो।",
-      "english": "Let me ask this question.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let me ask this question.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "उसे अपनी गलती सुधारने दो।",
+      "english": "Let him correct his mistake.",
+      "alternatives": [
+        "Let him fix his mistake.",
+        "Let him correct his error."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + him + correct",
+      "explanation": "Allowing someone to make amends.",
+      "difficulty": "easy",
+      "tags": [
+        "let-him"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 18,
       "hindi": "उसे खुद decide करने दो।",
       "english": "Let her decide on her own.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let her decide on her own.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "alternatives": [
+        "Let her decide herself.",
+        "Let her make her own decision."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + her + decide",
+      "explanation": "'on her own' = खुद / अकेले।",
+      "difficulty": "medium",
+      "tags": [
+        "let-her"
+      ],
+      "grammarRule": "Let + her + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 19,
-      "hindi": "बच्चों को बाहर खेलने दो।",
-      "english": "Let the children play outside.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let the children play outside.\"",
+      "hindi": "उसे क्रिकेट खेलने दो।",
+      "english": "Let him play cricket.",
+      "alternatives": [
+        "Let him play cricket."
+      ],
+      "hint": "Let + him + play",
+      "explanation": "Simple permission for a daily activity.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "let-him",
+        "daily"
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "grammarRule": "Let + him + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 20,
-      "hindi": "मुझे अपनी बात कहने दो।",
-      "english": "Let me say my point.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let me say my point.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "उसे अपना काम खुद करने दो।",
+      "english": "Let her do her own work.",
+      "alternatives": [
+        "Let her do her work herself."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + her + do",
+      "explanation": "Encouraging independence.",
+      "difficulty": "easy",
+      "tags": [
+        "let-her"
+      ],
+      "grammarRule": "Let + her + base verb",
+      "category": "Let him/her (statement)"
     },
     {
       "id": 21,
-      "hindi": "उन्हें आराम से बैठने दो।",
-      "english": "Let them sit comfortably.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let them sit comfortably.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "हमें कोशिश करने दो।",
+      "english": "Let us try.",
+      "alternatives": [
+        "Let us try."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + us + try",
+      "explanation": "'Let us' = formal permission for a group including speaker.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "statement"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Let us (statement)"
     },
     {
       "id": 22,
-      "hindi": "मुझे यह try करने दो।",
-      "english": "Let me try this.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let me try this.\"",
+      "hindi": "हमें साथ काम करने दो।",
+      "english": "Let us work together.",
+      "alternatives": [
+        "Let us work together."
+      ],
+      "hint": "Let + us + work",
+      "explanation": "Collaborative professional statement.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "let-us",
+        "office"
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "grammarRule": "Let + us + base verb",
+      "category": "Let us (statement)"
     },
     {
       "id": 23,
-      "hindi": "उसे अपनी गलती सुधारने दो।",
-      "english": "Let him correct his mistake.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let him correct his mistake.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "हमें data review करने दो।",
+      "english": "Let us review the data.",
+      "alternatives": [
+        "Let us review the data."
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "hint": "Let + us + review",
+      "explanation": "Office/business context.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "office",
+        "business"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Let us (statement)"
     },
     {
       "id": 24,
+      "hindi": "हमें शुरू करने दो।",
+      "english": "Let us start.",
+      "alternatives": [
+        "Let us begin.",
+        "Let us start."
+      ],
+      "hint": "Let + us + start/begin",
+      "explanation": "Permission to begin a task or activity.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Let us (statement)"
+    },
+    {
+      "id": 25,
       "hindi": "हमें भी शामिल होने दो।",
       "english": "Let us also join.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let + object (me/him/her/us/them) + base verb",
-      "explanation": "Correct sentence: \"Let us also join.\"",
+      "alternatives": [
+        "Let us join too.",
+        "Let us also be included."
+      ],
+      "hint": "Let + us + join",
+      "explanation": "Requesting inclusion.",
+      "difficulty": "medium",
+      "tags": [
+        "let-us"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Let us (statement)"
+    },
+    {
+      "id": 26,
+      "hindi": "हमें आगे बढ़ने दो।",
+      "english": "Let us proceed.",
+      "alternatives": [
+        "Let us move forward.",
+        "Let us proceed."
+      ],
+      "hint": "Let + us + proceed",
+      "explanation": "'proceed' = आगे बढ़ना। Formal.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "formal"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Let us (statement)"
+    },
+    {
+      "id": 27,
+      "hindi": "उन्हें खेलने दो।",
+      "english": "Let them play.",
+      "alternatives": [
+        "Let them play."
+      ],
+      "hint": "Let + them + play",
+      "explanation": "'them' = plural object pronoun.",
+      "difficulty": "easy",
+      "tags": [
+        "let-them",
+        "statement"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 28,
+      "hindi": "उन्हें फैसला करने दो।",
+      "english": "Let them decide.",
+      "alternatives": [
+        "Let them decide."
+      ],
+      "hint": "Let + them + decide",
+      "explanation": "Empowering a group to make decisions.",
+      "difficulty": "easy",
+      "tags": [
+        "let-them",
+        "office"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 29,
+      "hindi": "उन्हें शांति से बात करने दो।",
+      "english": "Let them talk in peace.",
+      "alternatives": [
+        "Let them speak peacefully."
+      ],
+      "hint": "Let + them + talk",
+      "explanation": "'in peace' = शांति से — adverbial phrase.",
+      "difficulty": "medium",
+      "tags": [
+        "let-them"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 30,
+      "hindi": "उन्हें आराम से बैठने दो।",
+      "english": "Let them sit comfortably.",
+      "alternatives": [
+        "Let them sit at ease."
+      ],
+      "hint": "Let + them + sit",
+      "explanation": "'comfortably' = आराम से — adverb.",
+      "difficulty": "easy",
+      "tags": [
+        "let-them",
+        "daily"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 31,
+      "hindi": "उन्हें अपना रास्ता खुद चुनने दो।",
+      "english": "Let them choose their own path.",
+      "alternatives": [
+        "Let them make their own choices."
+      ],
+      "hint": "Let + them + choose",
+      "explanation": "Respecting independence.",
+      "difficulty": "medium",
+      "tags": [
+        "let-them"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 32,
+      "hindi": "उन्हें जो चाहे वो करने दो।",
+      "english": "Let them do whatever they want.",
+      "alternatives": [
+        "Let them do as they please."
+      ],
+      "hint": "Let + them + do",
+      "explanation": "Resigned acceptance — figurative use.",
+      "difficulty": "medium",
+      "tags": [
+        "let-them",
+        "advanced"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 33,
+      "hindi": "उसे (लड़के को) अंदर मत आने दो।",
+      "english": "Don't let him come inside.",
+      "alternatives": [
+        "Do not let him come in.",
+        "Don't let him enter."
+      ],
+      "hint": "Don't let + him + base verb",
+      "explanation": "Negative 'Don't let' = मत आने दो।",
+      "difficulty": "easy",
+      "tags": [
+        "dont-let",
+        "negative"
+      ],
+      "grammarRule": "Don't let + object + base verb",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 34,
+      "hindi": "बच्चों को देर रात तक जागने मत दो।",
+      "english": "Don't let the children stay up late at night.",
+      "alternatives": [
+        "Do not let the children stay awake late."
+      ],
+      "hint": "Don't let + the children + stay up",
+      "explanation": "'stay up' = जागते रहना। Phrasal verb used with 'Don't let'.",
+      "difficulty": "medium",
+      "tags": [
+        "dont-let",
+        "daily"
+      ],
+      "grammarRule": "Don't let + object + base verb",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 35,
+      "hindi": "इस मौके को हाथ से मत जाने दो।",
+      "english": "Don't let this opportunity slip away.",
+      "alternatives": [
+        "Don't let this chance go."
+      ],
+      "hint": "Don't let + this opportunity + slip",
+      "explanation": "'slip away' = खिसक जाना — figurative.",
+      "difficulty": "medium",
+      "tags": [
+        "dont-let",
+        "business"
+      ],
+      "grammarRule": "Don't let + object + base verb",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 36,
+      "hindi": "कुत्ते को अंदर मत आने दो।",
+      "english": "Don't let the dog come inside.",
+      "alternatives": [
+        "Do not let the dog in."
+      ],
+      "hint": "Don't let + dog + come inside",
+      "explanation": "Simple daily-life negative permission.",
+      "difficulty": "easy",
+      "tags": [
+        "dont-let",
+        "daily"
+      ],
+      "grammarRule": "Don't let + object + base verb",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 37,
+      "hindi": "उसे इस secret के बारे में मत बताने दो।",
+      "english": "Don't let him know about this secret.",
+      "alternatives": [
+        "Don't tell him the secret."
+      ],
+      "hint": "Don't let + him + know",
+      "explanation": "Preventing someone from learning something.",
+      "difficulty": "medium",
+      "tags": [
+        "dont-let"
+      ],
+      "grammarRule": "Don't let + object + base verb",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 38,
+      "hindi": "इस deadline को miss मत होने दो।",
+      "english": "Don't let this deadline be missed.",
+      "alternatives": [
+        "Don't miss this deadline."
+      ],
+      "hint": "Don't let + deadline + be missed",
+      "explanation": "Passive form with 'Don't let' in professional context.",
       "difficulty": "hard",
       "tags": [
-        "use"
+        "dont-let",
+        "office",
+        "passive"
       ],
-      "grammarRule": "Use of Let",
-      "category": "Use of Let practice"
+      "grammarRule": "Don't let + object + be + past participle",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 39,
+      "hindi": "उन्हें अंधेरे में मत रखो।",
+      "english": "Don't let them be kept in the dark.",
+      "alternatives": [
+        "Don't keep them uninformed."
+      ],
+      "hint": "Don't let + them + be kept",
+      "explanation": "Idiom: 'in the dark' = without information.",
+      "difficulty": "hard",
+      "tags": [
+        "dont-let",
+        "idiom"
+      ],
+      "grammarRule": "Don't let + object + base verb",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 40,
+      "hindi": "मुझे इस बारे में चिंता मत करने दो।",
+      "english": "Don't let me worry about this.",
+      "alternatives": [
+        "Let me not worry about this."
+      ],
+      "hint": "Don't let + me + worry",
+      "explanation": "Requesting someone else to handle it so you don't worry.",
+      "difficulty": "medium",
+      "tags": [
+        "dont-let"
+      ],
+      "grammarRule": "Don't let + me + base verb",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 41,
+      "hindi": "क्या आप मुझे यह समझाने देंगे?",
+      "english": "Will you let me explain this?",
+      "alternatives": [
+        "Can you let me explain?"
+      ],
+      "hint": "Will you + let + me + explain",
+      "explanation": "Question form using 'will you let me'.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "let-me"
+      ],
+      "grammarRule": "Will/Can + subject + let + object + base verb",
+      "category": "Questions with Let"
+    },
+    {
+      "id": 42,
+      "hindi": "क्या वह मुझे जाने देगी?",
+      "english": "Will she let me go?",
+      "alternatives": [
+        "Will she allow me to go?"
+      ],
+      "hint": "Will + she + let + me + go",
+      "explanation": "Question using 'will she let me'.",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Will + subject + let + object + base verb",
+      "category": "Questions with Let"
+    },
+    {
+      "id": 43,
+      "hindi": "क्या मैं उसे अंदर आने दे सकता हूँ?",
+      "english": "Should I let him come in?",
+      "alternatives": [
+        "Can I let him in?"
+      ],
+      "hint": "Should/Can + I + let + him",
+      "explanation": "'Should I let' = permission question to oneself.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "should"
+      ],
+      "grammarRule": "Should/Can + I + let + object + base verb",
+      "category": "Questions with Let"
+    },
+    {
+      "id": 44,
+      "hindi": "क्या तुम मुझे यह try करने दोगे?",
+      "english": "Will you let me try this?",
+      "alternatives": [
+        "Can you let me try this?"
+      ],
+      "hint": "Will + you + let + me + try",
+      "explanation": "Asking for permission from someone.",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "let-me"
+      ],
+      "grammarRule": "Will + you + let + me + base verb",
+      "category": "Questions with Let"
+    },
+    {
+      "id": 45,
+      "hindi": "क्या बॉस मुझे छुट्टी लेने देंगे?",
+      "english": "Will the boss let me take leave?",
+      "alternatives": [
+        "Will my boss allow me to take leave?"
+      ],
+      "hint": "Will + boss + let + me + take",
+      "explanation": "Professional question about permission.",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Will + subject + let + me + base verb",
+      "category": "Questions with Let"
+    },
+    {
+      "id": 46,
+      "hindi": "मुझे इस project को handle करने दो।",
+      "english": "Let me handle this project.",
+      "alternatives": [
+        "Let me manage this project."
+      ],
+      "hint": "Let + me + handle",
+      "explanation": "Volunteering to take charge in office context.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "office"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 47,
+      "hindi": "हमें proposal submit करने दो।",
+      "english": "Let us submit the proposal.",
+      "alternatives": [
+        "Let us submit our proposal."
+      ],
+      "hint": "Let + us + submit",
+      "explanation": "Professional action.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "office",
+        "business"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 48,
+      "hindi": "उसे अपनी team manage करने दो।",
+      "english": "Let him manage his team.",
+      "alternatives": [
+        "Let him lead his team."
+      ],
+      "hint": "Let + him + manage",
+      "explanation": "Giving managerial authority.",
+      "difficulty": "easy",
+      "tags": [
+        "let-him",
+        "office"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 49,
+      "hindi": "हमें meeting शुरू करने दो।",
+      "english": "Let us begin the meeting.",
+      "alternatives": [
+        "Let us start the meeting."
+      ],
+      "hint": "Let + us + begin/start",
+      "explanation": "Professional meeting context.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "office"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 50,
+      "hindi": "मुझे client से बात करने दो।",
+      "english": "Let me talk to the client.",
+      "alternatives": [
+        "Let me speak with the client."
+      ],
+      "hint": "Let + me + talk",
+      "explanation": "Requesting to handle client communication.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "office",
+        "business"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 51,
+      "hindi": "उसे report finalize करने दो।",
+      "english": "Let her finalize the report.",
+      "alternatives": [
+        "Let her complete the report."
+      ],
+      "hint": "Let + her + finalize",
+      "explanation": "Delegating finalization responsibility.",
+      "difficulty": "easy",
+      "tags": [
+        "let-her",
+        "office"
+      ],
+      "grammarRule": "Let + her + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 52,
+      "hindi": "मुझे board को यह plan present करने दो।",
+      "english": "Let me present this plan to the board.",
+      "alternatives": [
+        "Let me show this plan to the board."
+      ],
+      "hint": "Let + me + present",
+      "explanation": "Interview/office: presenting to senior management.",
+      "difficulty": "medium",
+      "tags": [
+        "let-me",
+        "office",
+        "interview"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 53,
+      "hindi": "हमें नई strategy बनाने दो।",
+      "english": "Let us create a new strategy.",
+      "alternatives": [
+        "Let us develop a new strategy."
+      ],
+      "hint": "Let + us + create/develop",
+      "explanation": "Team-level strategic decision.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "business"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 54,
+      "hindi": "उन्हें अपना काम तसल्ली से करने दो।",
+      "english": "Let them do their work peacefully.",
+      "alternatives": [
+        "Let them work without disturbance."
+      ],
+      "hint": "Let + them + do + peacefully",
+      "explanation": "'peacefully' = adverb added for context.",
+      "difficulty": "medium",
+      "tags": [
+        "let-them",
+        "office"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 55,
+      "hindi": "मुझे तुम्हें इस process के बारे में walk through करने दो।",
+      "english": "Let me walk you through this process.",
+      "alternatives": [
+        "Let me explain this process step by step."
+      ],
+      "hint": "Let + me + walk + you + through",
+      "explanation": "'Walk you through' = step-by-step explanation. Professional phrase.",
+      "difficulty": "hard",
+      "tags": [
+        "let-me",
+        "office",
+        "phrasal-verb"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 56,
+      "hindi": "मुझे खाना बनाने दो।",
+      "english": "Let me cook the food.",
+      "alternatives": [
+        "Let me cook dinner.",
+        "Let me prepare the food."
+      ],
+      "hint": "Let + me + cook",
+      "explanation": "Daily life permission at home.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 57,
+      "hindi": "बच्चों को बाहर खेलने दो।",
+      "english": "Let the children play outside.",
+      "alternatives": [
+        "Let the kids play outside."
+      ],
+      "hint": "Let + the children + play",
+      "explanation": "'the children' = object noun (not pronoun).",
+      "difficulty": "easy",
+      "tags": [
+        "daily"
+      ],
+      "grammarRule": "Let + object + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 58,
+      "hindi": "उसे अपनी माँ के साथ जाने दो।",
+      "english": "Let him go with his mother.",
+      "alternatives": [
+        "Let him accompany his mother."
+      ],
+      "hint": "Let + him + go",
+      "explanation": "Simple daily permission for movement.",
+      "difficulty": "easy",
+      "tags": [
+        "let-him",
+        "daily"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 59,
+      "hindi": "मुझे TV देखने दो।",
+      "english": "Let me watch TV.",
+      "alternatives": [
+        "Let me watch television."
+      ],
+      "hint": "Let + me + watch",
+      "explanation": "A simple child-to-parent request.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 60,
+      "hindi": "उन्हें चाय पीने दो।",
+      "english": "Let them have tea.",
+      "alternatives": [
+        "Let them drink tea."
+      ],
+      "hint": "Let + them + have/drink",
+      "explanation": "'have' = eat/drink in informal use.",
+      "difficulty": "easy",
+      "tags": [
+        "let-them",
+        "daily"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 61,
+      "hindi": "मुझे अपना宿題 पूरा करने दो।",
+      "english": "Let me complete my homework.",
+      "alternatives": [
+        "Let me finish my homework."
+      ],
+      "hint": "Let + me + complete",
+      "explanation": "Student's daily request.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 62,
+      "hindi": "उसे अपने कमरे में आराम करने दो।",
+      "english": "Let her rest in her room.",
+      "alternatives": [
+        "Let her relax in her room."
+      ],
+      "hint": "Let + her + rest",
+      "explanation": "Permission for rest/privacy.",
+      "difficulty": "easy",
+      "tags": [
+        "let-her",
+        "daily"
+      ],
+      "grammarRule": "Let + her + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 63,
+      "hindi": "उन्हें अपना खाना खुद order करने दो।",
+      "english": "Let them order their own food.",
+      "alternatives": [
+        "Let them choose their own food."
+      ],
+      "hint": "Let + them + order",
+      "explanation": "Giving independence in choices.",
+      "difficulty": "easy",
+      "tags": [
+        "let-them",
+        "daily"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 64,
+      "hindi": "मिश्रण को 10 मिनट के लिए ठंडा होने दो।",
+      "english": "Let the mixture cool for 10 minutes.",
+      "alternatives": [
+        "Allow the mixture to cool for 10 minutes."
+      ],
+      "hint": "Let + the mixture + cool",
+      "explanation": "Instruction form — used in recipes and labs.",
+      "difficulty": "medium",
+      "tags": [
+        "advanced",
+        "instruction"
+      ],
+      "grammarRule": "Let + object + base verb (instructions)",
+      "category": "Advanced Use"
+    },
+    {
+      "id": 65,
+      "hindi": "जो होना है होने दो।",
+      "english": "Let it be.",
+      "alternatives": [
+        "Let it happen.",
+        "Let things be."
+      ],
+      "hint": "Let + it + be",
+      "explanation": "Acceptance / resignation. Famous expression.",
+      "difficulty": "medium",
+      "tags": [
+        "advanced",
+        "idiom"
+      ],
+      "grammarRule": "Let + it + base verb",
+      "category": "Advanced Use"
+    },
+    {
+      "id": 66,
+      "hindi": "अतीत को जाने दो और आगे बढ़ो।",
+      "english": "Let go of the past and move forward.",
+      "alternatives": [
+        "Let the past go."
+      ],
+      "hint": "Let go of = idiom for releasing",
+      "explanation": "'Let go of' = छोड़ देना — emotional or physical.",
+      "difficulty": "medium",
+      "tags": [
+        "advanced",
+        "idiom",
+        "let-go"
+      ],
+      "grammarRule": "Let go of + noun",
+      "category": "Advanced Use"
+    },
+    {
+      "id": 67,
+      "hindi": "Record में यह दर्ज हो कि हमने warning दी थी।",
+      "english": "Let the record show that we had warned them.",
+      "alternatives": [
+        "Let it be recorded that we warned them."
+      ],
+      "hint": "Let + the record + show",
+      "explanation": "Formal/legal use of 'Let'.",
+      "difficulty": "hard",
+      "tags": [
+        "advanced",
+        "formal",
+        "legal"
+      ],
+      "grammarRule": "Let + object + base verb (formal)",
+      "category": "Advanced Use"
+    },
+    {
+      "id": 68,
+      "hindi": "वह basic English भी नहीं जानता, advanced तो दूर की बात है।",
+      "english": "He doesn't know basic English, let alone advanced grammar.",
+      "alternatives": [
+        "He can't speak basic English, let alone advanced."
+      ],
+      "hint": "let alone = idiom meaning 'not to mention'",
+      "explanation": "'Let alone' is an idiom: not to mention / दूर की बात।",
+      "difficulty": "hard",
+      "tags": [
+        "advanced",
+        "idiom",
+        "let-alone"
+      ],
+      "grammarRule": "let alone (idiom)",
+      "category": "Advanced Use"
+    },
+    {
+      "id": 69,
+      "hindi": "उसे जो चाहे वो करने दो — मुझे कोई फ़र्क नहीं पड़ता।",
+      "english": "Let him do whatever he wants — I don't care.",
+      "alternatives": [
+        "Let him do as he pleases."
+      ],
+      "hint": "Let + him + do + whatever",
+      "explanation": "Resigned permission — emphatic form.",
+      "difficulty": "medium",
+      "tags": [
+        "advanced",
+        "let-him"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Advanced Use"
+    },
+    {
+      "id": 70,
+      "hindi": "सच को सामने आने दो।",
+      "english": "Let the truth come out.",
+      "alternatives": [
+        "Let the truth be revealed."
+      ],
+      "hint": "Let + the truth + come out",
+      "explanation": "Figurative use — allowing something to happen naturally.",
+      "difficulty": "medium",
+      "tags": [
+        "advanced"
+      ],
+      "grammarRule": "Let + object + base verb",
+      "category": "Advanced Use"
+    },
+    {
+      "id": 71,
+      "hindi": "मुझे यह भी बताने दो कि मेरी weakness क्या है।",
+      "english": "Let me also tell you what my weakness is.",
+      "alternatives": [
+        "Let me share my weakness with you."
+      ],
+      "hint": "Let + me + also tell",
+      "explanation": "Interview context — showing self-awareness.",
+      "difficulty": "medium",
+      "tags": [
+        "let-me",
+        "interview"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 72,
+      "hindi": "हमें इस deal को finalize करने दो।",
+      "english": "Let us finalize this deal.",
+      "alternatives": [
+        "Let us close this deal."
+      ],
+      "hint": "Let + us + finalize",
+      "explanation": "Business context — closing a deal.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "business"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 73,
+      "hindi": "मुझे यह सवाल दोबारा पूछने दो।",
+      "english": "Let me ask this question again.",
+      "alternatives": [
+        "Let me repeat my question."
+      ],
+      "hint": "Let + me + ask",
+      "explanation": "Clarification in interview/meeting.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "interview",
+        "office"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 74,
+      "hindi": "उन्हें project की deadline extend करने दो।",
+      "english": "Let them extend the project deadline.",
+      "alternatives": [
+        "Let them push the deadline."
+      ],
+      "hint": "Let + them + extend",
+      "explanation": "Team-level decision on timeline.",
+      "difficulty": "medium",
+      "tags": [
+        "let-them",
+        "office",
+        "business"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 75,
+      "hindi": "हमें customer feedback analyze करने दो।",
+      "english": "Let us analyze the customer feedback.",
+      "alternatives": [
+        "Let us study the customer feedback."
+      ],
+      "hint": "Let + us + analyze",
+      "explanation": "Business analytics context.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "business",
+        "office"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 76,
+      "hindi": "मुझे यह form भरने दो।",
+      "english": "Let me fill this form.",
+      "alternatives": [
+        "Let me complete this form."
+      ],
+      "hint": "Let + me + fill",
+      "explanation": "Daily/official task.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 77,
+      "hindi": "उसे अपना lunch pack करने दो।",
+      "english": "Let her pack her lunch.",
+      "alternatives": [
+        "Let her prepare her lunch box."
+      ],
+      "hint": "Let + her + pack",
+      "explanation": "Simple daily-life action.",
+      "difficulty": "easy",
+      "tags": [
+        "let-her",
+        "daily"
+      ],
+      "grammarRule": "Let + her + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 78,
+      "hindi": "उन्हें मेरा घर देखने दो।",
+      "english": "Let them see my house.",
+      "alternatives": [
+        "Let them visit my house."
+      ],
+      "hint": "Let + them + see",
+      "explanation": "Permission for visitors.",
+      "difficulty": "easy",
+      "tags": [
+        "let-them",
+        "daily"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 79,
+      "hindi": "उसे गाना गाने दो।",
+      "english": "Let him sing.",
+      "alternatives": [
+        "Let him sing a song."
+      ],
+      "hint": "Let + him + sing",
+      "explanation": "Simple permission for an activity.",
+      "difficulty": "easy",
+      "tags": [
+        "let-him",
+        "daily"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 80,
+      "hindi": "मुझे बाज़ार से सब्ज़ियाँ लाने दो।",
+      "english": "Let me bring vegetables from the market.",
+      "alternatives": [
+        "Let me get vegetables from the market."
+      ],
+      "hint": "Let + me + bring",
+      "explanation": "Volunteering for a household task.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 81,
+      "hindi": "उन्हें अपना रास्ता खुद चुनने दो।",
+      "english": "Let them choose their own way.",
+      "alternatives": [
+        "Let them find their own path."
+      ],
+      "hint": "Let + them + choose",
+      "explanation": "Respecting autonomy.",
+      "difficulty": "medium",
+      "tags": [
+        "let-them"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 82,
+      "hindi": "मुझे एक बार और कोशिश करने दो।",
+      "english": "Let me try one more time.",
+      "alternatives": [
+        "Let me try again."
+      ],
+      "hint": "Let + me + try + one more time",
+      "explanation": "Persistence — additional attempt.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
+    },
+    {
+      "id": 83,
+      "hindi": "उसे अपना काम खुद करने की आज़ादी दो।",
+      "english": "Let him work on his own.",
+      "alternatives": [
+        "Let him work independently."
+      ],
+      "hint": "Let + him + work + on his own",
+      "explanation": "Permission with adverbial phrase.",
+      "difficulty": "medium",
+      "tags": [
+        "let-him"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Let him/her (statement)"
+    },
+    {
+      "id": 84,
+      "hindi": "मुझे यह email भेजने दो।",
+      "english": "Let me send this email.",
+      "alternatives": [
+        "Let me mail this."
+      ],
+      "hint": "Let + me + send",
+      "explanation": "Office communication context.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "office"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 85,
+      "hindi": "उन्हें अपनी बात रखने दो।",
+      "english": "Let them have their say.",
+      "alternatives": [
+        "Let them say what they want."
+      ],
+      "hint": "Let + them + have their say",
+      "explanation": "'Have your say' = express your opinion. Common idiom.",
+      "difficulty": "hard",
+      "tags": [
+        "let-them",
+        "idiom"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Advanced Use"
+    },
+    {
+      "id": 86,
+      "hindi": "हमें यह खुद solve करने दो।",
+      "english": "Let us solve this on our own.",
+      "alternatives": [
+        "Let us figure this out ourselves."
+      ],
+      "hint": "Let + us + solve",
+      "explanation": "Independence — solving without outside help.",
+      "difficulty": "medium",
+      "tags": [
+        "let-us"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Let us (statement)"
+    },
+    {
+      "id": 87,
+      "hindi": "उसे अपने बारे में खुद बोलने दो।",
+      "english": "Let her speak for herself.",
+      "alternatives": [
+        "Let her say it in her own words."
+      ],
+      "hint": "Let + her + speak for herself",
+      "explanation": "'speak for herself' = represent herself.",
+      "difficulty": "medium",
+      "tags": [
+        "let-her"
+      ],
+      "grammarRule": "Let + her + base verb",
+      "category": "Let him/her (statement)"
+    },
+    {
+      "id": 88,
+      "hindi": "मुझे उन्हें surprise देने दो।",
+      "english": "Let me give them a surprise.",
+      "alternatives": [
+        "Let me surprise them."
+      ],
+      "hint": "Let + me + give",
+      "explanation": "Planning a surprise for others.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "daily"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 89,
+      "hindi": "उसे पहले खाना खाने दो, फिर बात करते हैं।",
+      "english": "Let him eat first, then we will talk.",
+      "alternatives": [
+        "Let him finish eating, then we can talk."
+      ],
+      "hint": "Let + him + eat + first",
+      "explanation": "Sequential actions with 'first' and 'then'.",
+      "difficulty": "medium",
+      "tags": [
+        "let-him",
+        "daily"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 90,
+      "hindi": "हमें इस विषय पर विस्तार से बात करने दो।",
+      "english": "Let us discuss this topic in detail.",
+      "alternatives": [
+        "Let us talk about this in detail."
+      ],
+      "hint": "Let + us + discuss",
+      "explanation": "Professional/academic discussion request.",
+      "difficulty": "medium",
+      "tags": [
+        "let-us",
+        "office"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 91,
+      "hindi": "उन्हें अपनी problem खुद सुलझाने दो।",
+      "english": "Let them solve their own problem.",
+      "alternatives": [
+        "Let them fix their own issue."
+      ],
+      "hint": "Let + them + solve",
+      "explanation": "Encouraging independence.",
+      "difficulty": "easy",
+      "tags": [
+        "let-them"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 92,
+      "hindi": "मुझे इस गलतफहमी को दूर करने दो।",
+      "english": "Let me clear this misunderstanding.",
+      "alternatives": [
+        "Let me resolve this confusion."
+      ],
+      "hint": "Let + me + clear",
+      "explanation": "'Clear a misunderstanding' = resolve confusion.",
+      "difficulty": "medium",
+      "tags": [
+        "let-me",
+        "communication"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
+    },
+    {
+      "id": 93,
+      "hindi": "उन्हें एक और chance देने दो।",
+      "english": "Let them have one more chance.",
+      "alternatives": [
+        "Give them one more chance.",
+        "Let them try once more."
+      ],
+      "hint": "Let + them + have",
+      "explanation": "Second chance — 'have a chance' = idiom.",
+      "difficulty": "medium",
+      "tags": [
+        "let-them"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 94,
+      "hindi": "हमें यह गलती नहीं दोहराने दो।",
+      "english": "Let us not repeat this mistake.",
+      "alternatives": [
+        "Don't let this mistake be repeated."
+      ],
+      "hint": "Let + us + not + repeat",
+      "explanation": "'Let us not' = negative with 'let us'.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "negative"
+      ],
+      "grammarRule": "Let + us + not + base verb",
+      "category": "Don't let (negative)"
+    },
+    {
+      "id": 95,
+      "hindi": "मुझे पूरी story बताने दो।",
+      "english": "Let me tell you the whole story.",
+      "alternatives": [
+        "Let me explain the full story."
+      ],
+      "hint": "Let + me + tell + you + the whole story",
+      "explanation": "Storytelling or explanation context.",
+      "difficulty": "easy",
+      "tags": [
+        "let-me",
+        "communication"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
+    },
+    {
+      "id": 96,
+      "hindi": "उसे बिना किसी रुकावट के बोलने दो।",
+      "english": "Let him speak without any interruption.",
+      "alternatives": [
+        "Let him talk without being interrupted."
+      ],
+      "hint": "Let + him + speak + without interruption",
+      "explanation": "'without interruption' = adverbial phrase.",
+      "difficulty": "medium",
+      "tags": [
+        "let-him",
+        "communication"
+      ],
+      "grammarRule": "Let + him + base verb",
+      "category": "Let him/her (statement)"
+    },
+    {
+      "id": 97,
+      "hindi": "मुझे यह साबित करने दो कि मैं सही था।",
+      "english": "Let me prove that I was right.",
+      "alternatives": [
+        "Let me show you I was correct."
+      ],
+      "hint": "Let + me + prove",
+      "explanation": "Defending a position.",
+      "difficulty": "medium",
+      "tags": [
+        "let-me"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Let me (statement)"
+    },
+    {
+      "id": 98,
+      "hindi": "उन्हें अपनी पसंद का करियर चुनने दो।",
+      "english": "Let them choose their career of choice.",
+      "alternatives": [
+        "Let them pursue the career they want."
+      ],
+      "hint": "Let + them + choose",
+      "explanation": "Respecting career autonomy.",
+      "difficulty": "medium",
+      "tags": [
+        "let-them"
+      ],
+      "grammarRule": "Let + them + base verb",
+      "category": "Let them (statement)"
+    },
+    {
+      "id": 99,
+      "hindi": "हमें यह project time पर deliver करने दो।",
+      "english": "Let us deliver this project on time.",
+      "alternatives": [
+        "Let us complete this project on time."
+      ],
+      "hint": "Let + us + deliver",
+      "explanation": "Professional commitment to deadline.",
+      "difficulty": "easy",
+      "tags": [
+        "let-us",
+        "office",
+        "business"
+      ],
+      "grammarRule": "Let + us + base verb",
+      "category": "Office/Professional"
+    },
+    {
+      "id": 100,
+      "hindi": "मुझे अपने आप को express करने दो।",
+      "english": "Let me express myself.",
+      "alternatives": [
+        "Let me say what I feel."
+      ],
+      "hint": "Let + me + express + myself",
+      "explanation": "'Express myself' = reflexive. Common in personal/artistic contexts.",
+      "difficulty": "medium",
+      "tags": [
+        "let-me",
+        "advanced"
+      ],
+      "grammarRule": "Let + me + base verb",
+      "category": "Advanced Use"
     }
   ]
 }

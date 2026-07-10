@@ -4,111 +4,163 @@
   "exercises": [
     {
       "id": 1,
-      "audioScript": "Let's work together.",
-      "hindiScript": "चलो एक साथ काम करते हैं।",
-      "question": "What did you hear? Choose the correct sentence.",
+      "audioScript": "Let's start the meeting.",
+      "hindiScript": "चलो मीटिंग शुरू करते हैं।",
+      "question": "What did you hear?",
       "options": [
-        "Let's study together.",
-        "Let's solve this problem.",
-        "Let's practice.",
-        "Let's work together."
+        "Let him start the meeting.",
+        "Let's finish the meeting.",
+        "Let's start the meeting.",
+        "Don't start the meeting."
       ],
-      "answer": "Let's work together."
+      "answer": "Let's start the meeting."
     },
     {
       "id": 2,
-      "audioScript": "Let's learn something new.",
-      "hindiScript": "चलो कुछ नया सीखते हैं।",
-      "question": "What did you hear? Choose the correct sentence.",
+      "audioScript": "Let's not waste time.",
+      "hindiScript": "चलो समय बर्बाद मत करते हैं।",
+      "question": "What did you hear?",
       "options": [
-        "Let's take some rest.",
-        "Let's meet tomorrow.",
-        "Let's think positive.",
-        "Let's learn something new."
+        "Let's waste time.",
+        "Let's not waste time.",
+        "Let's not wait for time.",
+        "Don't waste time."
       ],
-      "answer": "Let's learn something new."
+      "answer": "Let's not waste time."
     },
     {
       "id": 3,
-      "audioScript": "Let's make a plan.",
-      "hindiScript": "चलो योजना बनाते हैं।",
-      "question": "What did you hear? Choose the correct sentence.",
+      "audioScript": "Let us build a better tomorrow.",
+      "hindiScript": "आइए एक बेहतर कल बनाएं।",
+      "question": "What did you hear?",
       "options": [
-        "Let's start the meeting.",
-        "Let's have tea.",
-        "Let's help each other.",
-        "Let's make a plan."
+        "Let's build a better today.",
+        "Let him build a better tomorrow.",
+        "Let us build a better tomorrow.",
+        "Build a better tomorrow."
       ],
-      "answer": "Let's make a plan."
+      "answer": "Let us build a better tomorrow."
     },
     {
       "id": 4,
-      "audioScript": "Let's go for a walk.",
-      "hindiScript": "चलो घूमने चलते हैं।",
-      "question": "What did you hear? Choose the correct sentence.",
+      "audioScript": "Let's look at the data.",
+      "hindiScript": "चलो data देखते हैं।",
+      "question": "What did you hear?",
       "options": [
-        "Let's work together.",
-        "Let's not decide right now.",
-        "Let's start.",
-        "Let's go for a walk."
+        "Let's look at the report.",
+        "Let him look at the data.",
+        "Let's look at the data.",
+        "Look at the data."
       ],
-      "answer": "Let's go for a walk."
+      "answer": "Let's look at the data."
     },
     {
       "id": 5,
-      "audioScript": "Let's solve this problem.",
-      "hindiScript": "चलो इस समस्या को हल करते हैं।",
-      "question": "What did you hear? Choose the correct sentence.",
+      "audioScript": "Let's not argue about this.",
+      "hindiScript": "चलो इस बारे में बहस मत करते हैं।",
+      "question": "What did you hear?",
       "options": [
-        "Let's learn something new.",
-        "Let's go home.",
-        "Let's eat something.",
-        "Let's solve this problem."
+        "Let's argue about this.",
+        "Let's not argue about this.",
+        "Let him argue about this.",
+        "Don't argue about anything."
       ],
-      "answer": "Let's solve this problem."
+      "answer": "Let's not argue about this."
     },
     {
       "id": 6,
-      "audioScript": "Let's meet tomorrow.",
-      "hindiScript": "चलो कल मिलते हैं।",
-      "question": "What did you hear? Choose the correct sentence.",
+      "audioScript": "Let's celebrate together!",
+      "hindiScript": "चलो साथ में celebrate करते हैं!",
+      "question": "What did you hear?",
       "options": [
-        "Let's make a plan.",
-        "Let's speak the truth.",
-        "Let's go to the park.",
-        "Let's meet tomorrow."
+        "Let's celebrate alone.",
+        "Let's celebrate together!",
+        "Let him celebrate.",
+        "Celebrate now."
       ],
-      "answer": "Let's meet tomorrow."
+      "answer": "Let's celebrate together!"
     },
     {
       "id": 7,
-      "audioScript": "Let's have tea.",
-      "hindiScript": "चलो चाय पीते हैं।",
-      "question": "What did you hear? Choose the correct sentence.",
+      "audioScript": "Let's prioritize our tasks.",
+      "hindiScript": "चलो अपने tasks को priority दें।",
+      "question": "What did you hear?",
       "options": [
-        "Let's go for a walk.",
-        "Let's not fight now.",
-        "Let's watch a movie.",
-        "Let's have tea."
+        "Let's prioritize our team.",
+        "Let him prioritize tasks.",
+        "Let's prioritize our tasks.",
+        "Prioritize the tasks."
       ],
-      "answer": "Let's have tea."
+      "answer": "Let's prioritize our tasks."
     },
     {
       "id": 8,
-      "audioScript": "Let's not decide right now.",
-      "hindiScript": "चलो अभी फैसला ना करें।",
-      "question": "What did you hear? Choose the correct sentence.",
+      "audioScript": "Let's not miss this opportunity.",
+      "hindiScript": "चलो इस मौके को जाने मत देते हैं।",
+      "question": "What did you hear?",
       "options": [
-        "Let's solve this problem.",
-        "Let's practice.",
-        "Let's talk about this.",
-        "Let's not decide right now."
+        "Let's not miss this appointment.",
+        "Let's not miss this opportunity.",
+        "Let him miss the opportunity.",
+        "Don't miss any opportunity."
       ],
-      "answer": "Let's not decide right now."
+      "answer": "Let's not miss this opportunity."
+    },
+    {
+      "id": 9,
+      "audioScript": "Let us commit to our goals.",
+      "hindiScript": "आइए हम अपने goals के प्रति प्रतिबद्ध हों।",
+      "question": "What did you hear?",
+      "options": [
+        "Let's commit to our goals.",
+        "Let him commit to the goals.",
+        "Let us commit to our goals.",
+        "Commit to your goals."
+      ],
+      "answer": "Let us commit to our goals."
+    },
+    {
+      "id": 10,
+      "audioScript": "Let's make a fresh start.",
+      "hindiScript": "चलो एक नई शुरुआत करते हैं।",
+      "question": "What did you hear?",
+      "options": [
+        "Let's make a fresh cake.",
+        "Let him make a fresh start.",
+        "Let's make a new plan.",
+        "Let's make a fresh start."
+      ],
+      "answer": "Let's make a fresh start."
+    },
+    {
+      "id": 11,
+      "audioScript": "Let's not rush this decision.",
+      "hindiScript": "चलो यह decision जल्दबाज़ी में मत करते हैं।",
+      "question": "What did you hear?",
+      "options": [
+        "Let's rush this decision.",
+        "Let's not rush this decision.",
+        "Let him rush the decision.",
+        "Don't rush at all."
+      ],
+      "answer": "Let's not rush this decision."
+    },
+    {
+      "id": 12,
+      "audioScript": "Let's collaborate on this project.",
+      "hindiScript": "चलो इस project पर मिलकर काम करते हैं।",
+      "question": "What did you hear?",
+      "options": [
+        "Let's cooperate on this task.",
+        "Let him collaborate on the project.",
+        "Let's collaborate on this project.",
+        "Collaborate with the team."
+      ],
+      "answer": "Let's collaborate on this project."
     }
   ],
   "dictationPassage": {
-    "text": "Let's work together. Let's learn something new. Let's make a plan. Let's go for a walk. Let's solve this problem.",
-    "hindiTranslation": "चलो एक साथ काम करते हैं। चलो कुछ नया सीखते हैं। चलो योजना बनाते हैं। चलो घूमने चलते हैं। चलो इस समस्या को हल करते हैं।"
+    "text": "Let's start the meeting. Let's look at last week's data. Let's not be discouraged. Let us consider this a learning opportunity. Let's brainstorm new ideas together. Let's not wait until Friday to take action.",
+    "hindiTranslation": "चलो मीटिंग शुरू करते हैं। चलो पिछले हफ्ते का data देखते हैं। चलो निराश मत होते हैं। आइए इसे सीखने का अवसर मानते हैं। चलो मिलकर नए ideas brainstorm करते हैं। चलो Friday तक कदम उठाने का इंतज़ार मत करते हैं।"
   }
 }

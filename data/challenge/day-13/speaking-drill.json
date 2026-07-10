@@ -1,34 +1,100 @@
 {
   "day": 13,
   "topic": "Use of Let",
-  "totalDrills": 8,
+  "totalDrills": 12,
   "drills": [
     {
       "id": 1,
       "type": "repeat-and-speak",
-      "title": "Use of Let — Speaking Set 1",
+      "title": "Let Me — Speaking Set 1",
       "sentences": [
         {
           "english": "Let me tell you.",
           "hindi": "मुझे बताने दो।",
-          "pronunciation": "let me tell you"
+          "pronunciation": "let mee tel yoo"
         },
         {
-          "english": "Let him go.",
-          "hindi": "उसे जाने दो।",
-          "pronunciation": "let him go"
+          "english": "Let me explain.",
+          "hindi": "मुझे समझाने दो।",
+          "pronunciation": "let mee ik-splayn"
         },
         {
-          "english": "Let her speak.",
-          "hindi": "उसे बोलने दो।",
-          "pronunciation": "let her speak"
+          "english": "Let me try.",
+          "hindi": "मुझे कोशिश करने दो।",
+          "pronunciation": "let mee try"
         }
       ]
     },
     {
       "id": 2,
       "type": "repeat-and-speak",
-      "title": "Use of Let — Speaking Set 2",
+      "title": "Let Me — Speaking Set 2",
+      "sentences": [
+        {
+          "english": "Let me introduce myself.",
+          "hindi": "मुझे अपना परिचय देने दो।",
+          "pronunciation": "let mee in-truh-DYOOS my-self"
+        },
+        {
+          "english": "Let me help you.",
+          "hindi": "मुझे तुम्हारी मदद करने दो।",
+          "pronunciation": "let mee help yoo"
+        },
+        {
+          "english": "Let me check this.",
+          "hindi": "मुझे यह check करने दो।",
+          "pronunciation": "let mee chek this"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "type": "repeat-and-speak",
+      "title": "Let Him/Her — Speaking Set 3",
+      "sentences": [
+        {
+          "english": "Let him go.",
+          "hindi": "उसे (लड़के को) जाने दो।",
+          "pronunciation": "let him goh"
+        },
+        {
+          "english": "Let her speak.",
+          "hindi": "उसे (लड़की को) बोलने दो।",
+          "pronunciation": "let hur speek"
+        },
+        {
+          "english": "Let him rest — he is tired.",
+          "hindi": "उसे आराम करने दो — वह थका हुआ है।",
+          "pronunciation": "let him rest — hee iz ty-erd"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "type": "repeat-and-speak",
+      "title": "Let Him/Her — Speaking Set 4",
+      "sentences": [
+        {
+          "english": "Let her lead the team.",
+          "hindi": "उसे team को lead करने दो।",
+          "pronunciation": "let hur leed thuh teem"
+        },
+        {
+          "english": "Let him present his ideas.",
+          "hindi": "उसे अपनी ideas present करने दो।",
+          "pronunciation": "let him prih-ZENT hiz eye-dee-uhz"
+        },
+        {
+          "english": "Let her decide on her own.",
+          "hindi": "उसे खुद decide करने दो।",
+          "pronunciation": "let hur dih-SYD on hur ohn"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "repeat-and-speak",
+      "title": "Let Us/Them — Speaking Set 5",
       "sentences": [
         {
           "english": "Let us try.",
@@ -36,146 +102,168 @@
           "pronunciation": "let us try"
         },
         {
+          "english": "Let us review the data.",
+          "hindi": "हमें data review करने दो।",
+          "pronunciation": "let us rih-VYOO thuh DAY-tuh"
+        },
+        {
           "english": "Let them play.",
           "hindi": "उन्हें खेलने दो।",
           "pronunciation": "let them play"
-        },
-        {
-          "english": "Let me think.",
-          "hindi": "मुझे सोचने दो।",
-          "pronunciation": "let me think"
-        }
-      ]
-    },
-    {
-      "id": 3,
-      "type": "repeat-and-speak",
-      "title": "Use of Let — Speaking Set 3",
-      "sentences": [
-        {
-          "english": "Let him rest.",
-          "hindi": "उसे आराम करने दो।",
-          "pronunciation": "let him rest"
-        },
-        {
-          "english": "Let me check this.",
-          "hindi": "मुझे यह check करने दो।",
-          "pronunciation": "let me check this"
-        },
-        {
-          "english": "Let her do her work.",
-          "hindi": "उसे अपना काम करने दो।",
-          "pronunciation": "let her do her work"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "type": "repeat-and-speak",
-      "title": "Use of Let — Speaking Set 4",
-      "sentences": [
-        {
-          "english": "Let us start.",
-          "hindi": "हमें शुरू करने दो।",
-          "pronunciation": "let us start"
-        },
-        {
-          "english": "Do not let him go.",
-          "hindi": "मत उसे जाने दो।",
-          "pronunciation": "do not let him go"
-        },
-        {
-          "english": "Let me explain to you.",
-          "hindi": "मुझे तुम्हें समझाने दो।",
-          "pronunciation": "let me explain to you"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "type": "repeat-and-speak",
-      "title": "Use of Let — Speaking Set 5",
-      "sentences": [
-        {
-          "english": "Let them decide.",
-          "hindi": "उन्हें फैसला करने दो।",
-          "pronunciation": "let them decide"
-        },
-        {
-          "english": "Let me have some time.",
-          "hindi": "मुझे थोड़ा समय दो।",
-          "pronunciation": "let me have some time"
-        },
-        {
-          "english": "Let him come.",
-          "hindi": "उसे आने दो।",
-          "pronunciation": "let him come"
         }
       ]
     },
     {
       "id": 6,
       "type": "repeat-and-speak",
-      "title": "Use of Let — Speaking Set 6",
+      "title": "Let Us/Them — Speaking Set 6",
       "sentences": [
+        {
+          "english": "Let them decide.",
+          "hindi": "उन्हें फैसला करने दो।",
+          "pronunciation": "let them dih-SYD"
+        },
         {
           "english": "Let us work together.",
           "hindi": "हमें साथ काम करने दो।",
-          "pronunciation": "let us work together"
+          "pronunciation": "let us wurk tuh-GETH-ur"
         },
         {
-          "english": "Let me ask this question.",
-          "hindi": "मुझे यह सवाल पूछने दो।",
-          "pronunciation": "let me ask this question"
-        },
-        {
-          "english": "Let her decide on her own.",
-          "hindi": "उसे खुद decide करने दो।",
-          "pronunciation": "let her decide on her own"
+          "english": "Let them sit comfortably.",
+          "hindi": "उन्हें आराम से बैठने दो।",
+          "pronunciation": "let them sit KUM-furt-uh-blee"
         }
       ]
     },
     {
       "id": 7,
       "type": "repeat-and-speak",
-      "title": "Use of Let — Speaking Set 7",
+      "title": "Don't Let — Speaking Set 7",
       "sentences": [
         {
-          "english": "Let the children play outside.",
-          "hindi": "बच्चों को बाहर खेलने दो।",
-          "pronunciation": "let the children play outside"
+          "english": "Don't let him come inside.",
+          "hindi": "उसे अंदर मत आने दो।",
+          "pronunciation": "dohnt let him kum in-SYDE"
         },
         {
-          "english": "Let me say my point.",
-          "hindi": "मुझे अपनी बात कहने दो।",
-          "pronunciation": "let me say my point"
+          "english": "Don't let the children stay up late.",
+          "hindi": "बच्चों को देर रात तक जागने मत दो।",
+          "pronunciation": "dohnt let thuh CHIL-drun stay up layt"
         },
         {
-          "english": "Let them sit comfortably.",
-          "hindi": "उन्हें आराम से बैठने दो।",
-          "pronunciation": "let them sit comfortably"
+          "english": "Don't let this opportunity slip away.",
+          "hindi": "इस मौके को हाथ से मत जाने दो।",
+          "pronunciation": "dohnt let this op-ur-TYOO-nih-tee slip uh-WAY"
         }
       ]
     },
     {
       "id": 8,
       "type": "repeat-and-speak",
-      "title": "Use of Let — Speaking Set 8",
+      "title": "Don't Let — Speaking Set 8",
       "sentences": [
         {
-          "english": "Let me try this.",
-          "hindi": "मुझे यह try करने दो।",
-          "pronunciation": "let me try this"
+          "english": "Don't let the dog come inside.",
+          "hindi": "कुत्ते को अंदर मत आने दो।",
+          "pronunciation": "dohnt let thuh dawg kum in-SYDE"
         },
         {
-          "english": "Let him correct his mistake.",
-          "hindi": "उसे अपनी गलती सुधारने दो।",
-          "pronunciation": "let him correct his mistake"
+          "english": "Don't let this deadline be missed.",
+          "hindi": "इस deadline को miss मत होने दो।",
+          "pronunciation": "dohnt let this DED-lyne bee mist"
         },
         {
-          "english": "Let us also join.",
-          "hindi": "हमें भी शामिल होने दो।",
-          "pronunciation": "let us also join"
+          "english": "Don't let fear stop you.",
+          "hindi": "डर को तुम्हें रोकने मत दो।",
+          "pronunciation": "dohnt let feer stop yoo"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "type": "repeat-and-speak",
+      "title": "Office & Professional — Speaking Set 9",
+      "sentences": [
+        {
+          "english": "Let me handle this project.",
+          "hindi": "मुझे इस project को handle करने दो।",
+          "pronunciation": "let mee HAN-dul this PROJ-ekt"
+        },
+        {
+          "english": "Let me give you an example.",
+          "hindi": "मुझे तुम्हें एक example देने दो।",
+          "pronunciation": "let mee giv yoo an ig-ZAM-pul"
+        },
+        {
+          "english": "Let us finalize this deal.",
+          "hindi": "हमें यह deal finalize करने दो।",
+          "pronunciation": "let us FY-nuh-lyz this deel"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "repeat-and-speak",
+      "title": "Office & Professional — Speaking Set 10",
+      "sentences": [
+        {
+          "english": "Let me walk you through this process.",
+          "hindi": "मुझे तुम्हें इस process के बारे में समझाने दो।",
+          "pronunciation": "let mee wawk yoo throo this PROH-ses"
+        },
+        {
+          "english": "Let her finalize the report.",
+          "hindi": "उसे report finalize करने दो।",
+          "pronunciation": "let hur FY-nuh-lyz thuh rih-PORT"
+        },
+        {
+          "english": "Let us begin the meeting.",
+          "hindi": "हमें meeting शुरू करने दो।",
+          "pronunciation": "let us bih-GIN thuh MEE-ting"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "repeat-and-speak",
+      "title": "Advanced Use — Speaking Set 11",
+      "sentences": [
+        {
+          "english": "Let go of the past and move forward.",
+          "hindi": "अतीत को जाने दो और आगे बढ़ो।",
+          "pronunciation": "let goh uv thuh past and moov FOR-werd"
+        },
+        {
+          "english": "Let it be — whatever happens, happens.",
+          "hindi": "जो होना है होने दो।",
+          "pronunciation": "let it bee — wot-EV-ur HAP-unz HAP-unz"
+        },
+        {
+          "english": "Let the record show that we warned them.",
+          "hindi": "Record में यह दर्ज हो कि हमने उन्हें warning दी थी।",
+          "pronunciation": "let thuh REK-urd shoh that wee warnd them"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "repeat-and-speak",
+      "title": "Mixed Revision — Speaking Set 12",
+      "sentences": [
+        {
+          "english": "Let me express myself clearly.",
+          "hindi": "मुझे खुद को clearly express करने दो।",
+          "pronunciation": "let mee ik-SPRES my-self KLEER-lee"
+        },
+        {
+          "english": "Don't let them be misled.",
+          "hindi": "उन्हें गुमराह मत होने दो।",
+          "pronunciation": "dohnt let them bee mis-LED"
+        },
+        {
+          "english": "Let us not repeat this mistake.",
+          "hindi": "हमें यह गलती दोबारा नहीं करने देनी चाहिए।",
+          "pronunciation": "let us not rih-PEET this mis-TAYK"
         }
       ]
     }

@@ -4,111 +4,163 @@
   "exercises": [
     {
       "id": 1,
-      "audioScript": "Do not let him go.",
-      "hindiScript": "मत उसे जाने दो।",
+      "audioScript": "Let me tell you something important.",
+      "hindiScript": "मुझे तुम्हें कुछ ज़रूरी बात बतानी है।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Let me check this.",
-        "Let him come.",
-        "Let me try this.",
-        "Do not let him go."
+        "Let him tell you something.",
+        "Let me tell you something important.",
+        "Don't let me tell you.",
+        "Let them tell you."
       ],
-      "answer": "Do not let him go."
+      "answer": "Let me tell you something important."
     },
     {
       "id": 2,
-      "audioScript": "Let me explain to you.",
-      "hindiScript": "मुझे तुम्हें समझाने दो।",
+      "audioScript": "Don't let the children play outside now.",
+      "hindiScript": "अभी बच्चों को बाहर खेलने मत दो।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Let her do her work.",
-        "Let us work together.",
-        "Let him correct his mistake.",
-        "Let me explain to you."
+        "Let the children play outside.",
+        "Don't let them play.",
+        "Don't let the children play outside now.",
+        "Let them sit inside."
       ],
-      "answer": "Let me explain to you."
+      "answer": "Don't let the children play outside now."
     },
     {
       "id": 3,
-      "audioScript": "Let them decide.",
-      "hindiScript": "उन्हें फैसला करने दो।",
+      "audioScript": "Let him handle the project.",
+      "hindiScript": "उसे project handle करने दो।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Let us start.",
-        "Let me ask this question.",
-        "Let us also join.",
-        "Let them decide."
+        "Let her handle the project.",
+        "Let them handle it.",
+        "Don't let him handle it.",
+        "Let him handle the project."
       ],
-      "answer": "Let them decide."
+      "answer": "Let him handle the project."
     },
     {
       "id": 4,
-      "audioScript": "Let me have some time.",
-      "hindiScript": "मुझे थोड़ा समय दो।",
+      "audioScript": "Let us review the data before the meeting.",
+      "hindiScript": "Meeting से पहले हमें data review करने दो।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Do not let him go.",
-        "Let her decide on her own.",
-        "Let me tell you.",
-        "Let me have some time."
+        "Let us review the data after the meeting.",
+        "Let them review the data.",
+        "Let me review the data.",
+        "Let us review the data before the meeting."
       ],
-      "answer": "Let me have some time."
+      "answer": "Let us review the data before the meeting."
     },
     {
       "id": 5,
-      "audioScript": "Let him come.",
-      "hindiScript": "उसे आने दो।",
+      "audioScript": "Will you let me explain this?",
+      "hindiScript": "क्या आप मुझे यह समझाने देंगे?",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Let me explain to you.",
-        "Let the children play outside.",
-        "Let him go.",
-        "Let him come."
+        "Will you let him explain?",
+        "Let me explain this.",
+        "Will you let me explain this?",
+        "Don't let me explain."
       ],
-      "answer": "Let him come."
+      "answer": "Will you let me explain this?"
     },
     {
       "id": 6,
-      "audioScript": "Let us work together.",
-      "hindiScript": "हमें साथ काम करने दो।",
+      "audioScript": "Don't let this opportunity slip away.",
+      "hindiScript": "इस मौके को हाथ से मत जाने दो।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Let them decide.",
-        "Let me say my point.",
-        "Let her speak.",
-        "Let us work together."
+        "Let this opportunity come.",
+        "Don't let this opportunity slip away.",
+        "Don't let him slip away.",
+        "Let the opportunity go."
       ],
-      "answer": "Let us work together."
+      "answer": "Don't let this opportunity slip away."
     },
     {
       "id": 7,
-      "audioScript": "Let me ask this question.",
-      "hindiScript": "मुझे यह सवाल पूछने दो।",
+      "audioScript": "Let her lead the team.",
+      "hindiScript": "उसे team lead करने दो।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Let me have some time.",
-        "Let them sit comfortably.",
-        "Let us try.",
-        "Let me ask this question."
+        "Let him lead the team.",
+        "Let her leave the team.",
+        "Don't let her lead.",
+        "Let her lead the team."
       ],
-      "answer": "Let me ask this question."
+      "answer": "Let her lead the team."
     },
     {
       "id": 8,
-      "audioScript": "Let her decide on her own.",
-      "hindiScript": "उसे खुद decide करने दो।",
+      "audioScript": "Let me introduce myself.",
+      "hindiScript": "मुझे अपना परिचय देने दो।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Let him come.",
-        "Let me try this.",
-        "Let them play.",
-        "Let her decide on her own."
+        "Let him introduce himself.",
+        "Let me introduce myself.",
+        "Don't let me introduce.",
+        "Let us introduce."
       ],
-      "answer": "Let her decide on her own."
+      "answer": "Let me introduce myself."
+    },
+    {
+      "id": 9,
+      "audioScript": "Let go of the past and move forward.",
+      "hindiScript": "अतीत को जाने दो और आगे बढ़ो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let the past go away.",
+        "Let go of the future.",
+        "Let go of the past and move forward.",
+        "Don't let the past go."
+      ],
+      "answer": "Let go of the past and move forward."
+    },
+    {
+      "id": 10,
+      "audioScript": "Don't let him make any mistakes.",
+      "hindiScript": "उसे कोई गलती मत करने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let him make mistakes.",
+        "Don't let them make mistakes.",
+        "Don't let him make any mistakes.",
+        "Let me make mistakes."
+      ],
+      "answer": "Don't let him make any mistakes."
+    },
+    {
+      "id": 11,
+      "audioScript": "Let them decide on their own.",
+      "hindiScript": "उन्हें खुद फैसला करने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let him decide on his own.",
+        "Let them decide for you.",
+        "Don't let them decide.",
+        "Let them decide on their own."
+      ],
+      "answer": "Let them decide on their own."
+    },
+    {
+      "id": 12,
+      "audioScript": "Let me walk you through the plan.",
+      "hindiScript": "मुझे तुम्हें plan के बारे में step-by-step बताने दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Let him walk you through the plan.",
+        "Let me walk away from the plan.",
+        "Let me walk you through the plan.",
+        "Let us walk through the plan."
+      ],
+      "answer": "Let me walk you through the plan."
     }
   ],
   "dictationPassage": {
-    "text": "Do not let him go. Let me explain to you. Let them decide. Let me have some time. Let him come.",
-    "hindiTranslation": "मत उसे जाने दो। मुझे तुम्हें समझाने दो। उन्हें फैसला करने दो। मुझे थोड़ा समय दो। उसे आने दो।"
+    "text": "Let me introduce myself. My name is Priya. Let me explain what I do. I work in marketing. Let us begin with a small example. Don't let small problems distract you. Let them pass. Let go of stress and focus on results.",
+    "hindiTranslation": "मुझे अपना परिचय देने दो। मेरा नाम प्रिया है। मुझे बताने दो कि मैं क्या करती हूँ। मैं marketing में काम करती हूँ। हमें एक छोटे example से शुरू करने दो। छोटी problems को तुम्हें distract मत करने दो। उन्हें जाने दो। Stress को जाने दो और results पर focus करो।"
   }
 }

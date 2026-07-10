@@ -1,316 +1,487 @@
 {
   "day": 12,
   "topic": "Use of Wanted",
-  "totalQuestions": 25,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": 1,
       "type": "translate",
-      "hindi": "मुझे पानी चाहिए था।",
+      "hindi": "मैं पानी पीना चाहता था।",
       "options": [
-        "I did not want that book.",
-        "They wanted peace.",
-        "I did not want any mistake.",
-        "I wanted water."
+        {
+          "english": "I want to drink water.",
+          "hindi": "मैं पानी पीना चाहता हूँ।"
+        },
+        {
+          "english": "I will drink water.",
+          "hindi": "मैं पानी पीऊँगा।"
+        },
+        {
+          "english": "I am drinking water.",
+          "hindi": "मैं पानी पी रहा हूँ।"
+        },
+        "I wanted to drink water."
       ],
-      "answer": "I wanted water.",
-      "explanation": "Correct translation: \"मुझे पानी चाहिए था।\" = \"I wanted water.\""
+      "answer": "I wanted to drink water.",
+      "explanation": "'Wanted' = past tense of 'want'. Correct: I wanted to drink water."
     },
     {
       "id": 2,
       "type": "fill",
-      "sentence": "I wanted _____ go home.",
+      "sentence": "She _____ to become a doctor.",
       "options": [
-        "talk",
-        "finish",
-        "any",
-        "to"
+        "wants",
+        "want",
+        "wanting",
+        "wanted"
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"I wanted to go home.\""
+      "answer": "wanted",
+      "explanation": "Past tense: 'She wanted to become a doctor.' All subjects use 'wanted'."
     },
     {
       "id": 3,
       "type": "error",
-      "sentence": "He want a new car.",
+      "sentence": "Did he wanted to go there?",
       "options": [
-        "He want a new car.",
-        "He wanted a new car."
+        "Did he wanted to go there?",
+        "Did he want to go there?",
+        "Did he wants to go there?",
+        "Does he wanted to go there?"
       ],
-      "answer": "He wanted a new car.",
-      "explanation": "Correct sentence: \"He wanted a new car.\""
+      "answer": "Did he want to go there?",
+      "explanation": "In questions with 'Did', the main verb stays in base form: 'want', not 'wanted'."
     },
     {
       "id": 4,
       "type": "translate",
-      "hindi": "वह डॉक्टर बनना चाहती थी।",
+      "hindi": "हम बाहर जाना चाहते थे।",
       "options": [
-        "Did you want coffee?",
-        "Did you want to go outside?",
-        "I wanted this opportunity.",
-        "She wanted to become a doctor."
+        {
+          "english": "We want to go outside.",
+          "hindi": "हम बाहर जाना चाहते हैं।"
+        },
+        {
+          "english": "We are going outside.",
+          "hindi": "हम बाहर जा रहे हैं।"
+        },
+        {
+          "english": "We went outside.",
+          "hindi": "हम बाहर गए।"
+        },
+        "We wanted to go outside."
       ],
-      "answer": "She wanted to become a doctor.",
-      "explanation": "Correct translation: \"वह डॉक्टर बनना चाहती थी।\" = \"She wanted to become a doctor.\""
+      "answer": "We wanted to go outside.",
+      "explanation": "'Wanted' is same for all subjects including 'we'."
     },
     {
       "id": 5,
       "type": "fill",
-      "sentence": "We wanted _____ take rest.",
+      "sentence": "I did not _____ to go to that meeting.",
       "options": [
-        "become",
-        "better",
-        "water",
-        "to"
+        "wanted",
+        "wanting",
+        "wants",
+        "want"
       ],
-      "answer": "to",
-      "explanation": "Full sentence: \"We wanted to take rest.\""
+      "answer": "want",
+      "explanation": "After 'did not', the main verb is always in base form: 'did not want'."
     },
     {
       "id": 6,
       "type": "error",
-      "sentence": "They want to finish that work.",
+      "sentence": "She did not wanted that book.",
       "options": [
-        "They want to finish that work.",
-        "They wanted to finish that work."
+        "She did not wanted that book.",
+        "She did not want that book.",
+        "She does not wanted that book.",
+        "She was not wanting that book."
       ],
-      "answer": "They wanted to finish that work.",
-      "explanation": "Correct sentence: \"They wanted to finish that work.\""
+      "answer": "She did not want that book.",
+      "explanation": "'Did not' is followed by base verb 'want', never 'wanted'."
     },
     {
       "id": 7,
       "type": "translate",
-      "hindi": "क्या तुम चाय चाहते थे?",
+      "hindi": "क्या तुम coffee चाहते थे?",
       "options": [
-        "I wanted your help.",
-        "She wanted to start her own business.",
-        "He wanted a new car.",
-        "Did you want tea?"
+        {
+          "english": "Do you want coffee?",
+          "hindi": "क्या तुम coffee चाहते हो?"
+        },
+        {
+          "english": "Will you want coffee?",
+          "hindi": "क्या तुम coffee चाहोगे?"
+        },
+        {
+          "english": "Are you wanting coffee?",
+          "hindi": "क्या तुम coffee चाहते हो?"
+        },
+        "Did you want coffee?"
       ],
-      "answer": "Did you want tea?",
-      "explanation": "Correct translation: \"क्या तुम चाय चाहते थे?\" = \"Did you want tea?\""
+      "answer": "Did you want coffee?",
+      "explanation": "Past question: 'Did you want...?' — 'did' starts the question, 'want' in base form."
     },
     {
       "id": 8,
       "type": "fill",
-      "sentence": "I did not _____ that book.",
+      "sentence": "He wanted _____ start his own business.",
       "options": [
-        "peace",
-        "become",
-        "coffee",
-        "want"
+        "for",
+        "that",
+        "to",
+        "and"
       ],
-      "answer": "want",
-      "explanation": "Full sentence: \"I did not want that book.\""
+      "answer": "to",
+      "explanation": "'Wanted to + base verb' — 'to' is necessary between 'wanted' and the verb."
     },
     {
       "id": 9,
       "type": "error",
-      "sentence": "He want to talk to me.",
+      "sentence": "I wanted go home early.",
       "options": [
-        "He want to talk to me.",
-        "He wanted to talk to me."
+        "I wanted go home early.",
+        "I wanted to go home early.",
+        "I wanted goes home early.",
+        "I was wanted to go home early."
       ],
-      "answer": "He wanted to talk to me.",
-      "explanation": "Correct sentence: \"He wanted to talk to me.\""
+      "answer": "I wanted to go home early.",
+      "explanation": "'Wanted to go' — 'to' cannot be omitted before the verb."
     },
     {
       "id": 10,
       "type": "translate",
-      "hindi": "मुझे कुछ आराम चाहिए था।",
+      "hindi": "उसे promotion चाहिए था।",
       "options": [
-        "He wanted a promotion.",
-        "They wanted success.",
-        "They wanted to finish that work.",
-        "I wanted some rest."
+        {
+          "english": "He wants a promotion.",
+          "hindi": "उसे promotion चाहिए।"
+        },
+        {
+          "english": "He will want a promotion.",
+          "hindi": "उसे promotion चाहिए होगा।"
+        },
+        {
+          "english": "He is wanting a promotion.",
+          "hindi": "वह promotion चाह रहा है।"
+        },
+        "He wanted a promotion."
       ],
-      "answer": "I wanted some rest.",
-      "explanation": "Correct translation: \"मुझे कुछ आराम चाहिए था।\" = \"I wanted some rest.\""
+      "answer": "He wanted a promotion.",
+      "explanation": "'Wanted + noun' — no 'to + verb' needed when the object is a noun."
     },
     {
       "id": 11,
       "type": "fill",
-      "sentence": "Did you _____ coffee?",
+      "sentence": "_____ they want to attend the conference?",
       "options": [
-        "to",
-        "opportunity",
-        "tea",
-        "want"
+        "Was",
+        "Have",
+        "Are",
+        "Did"
       ],
-      "answer": "want",
-      "explanation": "Full sentence: \"Did you want coffee?\""
+      "answer": "Did",
+      "explanation": "Past tense questions use 'Did'. Present = Do/Does, Past = Did."
     },
     {
       "id": 12,
       "type": "error",
-      "sentence": "She want to become an engineer.",
+      "sentence": "She wanteds to travel abroad.",
       "options": [
-        "She want to become an engineer.",
-        "She wanted to become an engineer."
+        "She wanteds to travel abroad.",
+        "She wanted to travel abroad.",
+        "She is wanting to travel abroad.",
+        "She want to travel abroad."
       ],
-      "answer": "She wanted to become an engineer.",
-      "explanation": "Correct sentence: \"She wanted to become an engineer.\""
+      "answer": "She wanted to travel abroad.",
+      "explanation": "'Wanted' has no 's' — it is the same for all subjects."
     },
     {
       "id": 13,
       "type": "translate",
-      "hindi": "हमें और जानकारी चाहिए थी।",
+      "hindi": "मैं बस शुक्रिया कहना चाहता था।",
       "options": [
-        "I wanted to know the truth.",
-        "I wanted to go home.",
-        "He wanted to talk to me.",
-        "We wanted more information."
+        {
+          "english": "I want to say thank you.",
+          "hindi": "मैं शुक्रिया कहना चाहता हूँ।"
+        },
+        {
+          "english": "I said thank you.",
+          "hindi": "मैंने शुक्रिया कहा।"
+        },
+        {
+          "english": "I will say thank you.",
+          "hindi": "मैं शुक्रिया कहूँगा।"
+        },
+        "I just wanted to say thank you."
       ],
-      "answer": "We wanted more information.",
-      "explanation": "Correct translation: \"हमें और जानकारी चाहिए थी।\" = \"We wanted more information.\""
+      "answer": "I just wanted to say thank you.",
+      "explanation": "'Just wanted to say' is a natural polite phrase. 'Just' adds softness."
     },
     {
       "id": 14,
       "type": "fill",
-      "sentence": "I wanted _____ help.",
+      "sentence": "We wanted _____ information about the product.",
       "options": [
-        "start",
-        "new",
-        "rest",
-        "your"
+        "a",
+        "more",
+        "to",
+        "any"
       ],
-      "answer": "your",
-      "explanation": "Full sentence: \"I wanted your help.\""
+      "answer": "more",
+      "explanation": "'Wanted more information' — 'more' quantifier before uncountable noun."
     },
     {
       "id": 15,
       "type": "error",
-      "sentence": "They want peace.",
+      "sentence": "Did you wanted to join our team?",
       "options": [
-        "They want peace.",
-        "They wanted peace."
+        "Did you wanted to join our team?",
+        "Did you want to join our team?",
+        "Were you wanting to join our team?",
+        "Do you wanted to join our team?"
       ],
-      "answer": "They wanted peace.",
-      "explanation": "Correct sentence: \"They wanted peace.\""
+      "answer": "Did you want to join our team?",
+      "explanation": "'Did + subject + want (base form)' — not 'wanted' in questions with 'Did'."
     },
     {
       "id": 16,
       "type": "translate",
-      "hindi": "मैं इस काम को जल्दी खत्म करना चाहता था।",
+      "hindi": "उसने कहा कि वह मुझसे मिलना चाहती थी।",
       "options": [
-        "Did you want any help?",
-        "We wanted to take rest.",
-        "She wanted to become an engineer.",
-        "I wanted to finish this work quickly."
+        {
+          "english": "She says she wants to meet me.",
+          "hindi": "वह कहती है कि वह मुझसे मिलना चाहती है।"
+        },
+        {
+          "english": "She told me to meet her.",
+          "hindi": "उसने मुझे मिलने को कहा।"
+        },
+        {
+          "english": "She is meeting me.",
+          "hindi": "वह मुझसे मिल रही है।"
+        },
+        "She said she wanted to meet me."
       ],
-      "answer": "I wanted to finish this work quickly.",
-      "explanation": "Correct translation: \"मैं इस काम को जल्दी खत्म करना चाहता था।\" = \"I wanted to finish this work quickly.\""
+      "answer": "She said she wanted to meet me.",
+      "explanation": "Indirect speech: 'wants' changes to 'wanted' in reported speech."
     },
     {
       "id": 17,
       "type": "fill",
-      "sentence": "He wanted _____ promotion.",
+      "sentence": "I always _____ to work in this field.",
       "options": [
-        "success",
-        "finish",
-        "information",
-        "a"
+        "want",
+        "wants",
+        "wanting",
+        "wanted"
       ],
-      "answer": "a",
-      "explanation": "Full sentence: \"He wanted a promotion.\""
+      "answer": "wanted",
+      "explanation": "'Always wanted' = lifelong past desire. Common in interview contexts."
     },
     {
       "id": 18,
       "type": "error",
-      "sentence": "Did you wants to go outside?",
+      "sentence": "They was wanted to finish the project.",
       "options": [
-        "Did you wants to go outside?",
-        "Did you want to go outside?"
+        "They was wanted to finish the project.",
+        "They wanted to finish the project.",
+        "They were wanted to finish the project.",
+        "They did wanted to finish the project."
       ],
-      "answer": "Did you want to go outside?",
-      "explanation": "Correct sentence: \"Did you want to go outside?\""
+      "answer": "They wanted to finish the project.",
+      "explanation": "'Wanted' is simple past. No auxiliary 'was/were' is needed with 'wanted'."
     },
     {
       "id": 19,
       "type": "translate",
-      "hindi": "हम बेहतर भविष्य चाहते थे।",
+      "hindi": "मुझे किसी की मदद नहीं चाहिए थी।",
       "options": [
-        "I wanted water.",
-        "I did not want that book.",
-        "They wanted peace.",
-        "We wanted a better future."
+        {
+          "english": "I don't want any help.",
+          "hindi": "मुझे कोई मदद नहीं चाहिए।"
+        },
+        {
+          "english": "I have no help.",
+          "hindi": "मेरे पास कोई मदद नहीं है।"
+        },
+        {
+          "english": "I will not need help.",
+          "hindi": "मुझे मदद नहीं चाहिए होगी।"
+        },
+        "I did not want any help."
       ],
-      "answer": "We wanted a better future.",
-      "explanation": "Correct translation: \"हम बेहतर भविष्य चाहते थे।\" = \"We wanted a better future.\""
+      "answer": "I did not want any help.",
+      "explanation": "'Did not want any' = past negative. 'Any' is used in negative sentences."
     },
     {
       "id": 20,
       "type": "fill",
-      "sentence": "I wanted to _____ the truth.",
+      "sentence": "She _____ want to apologize to him.",
       "options": [
-        "go",
-        "talk",
-        "finish",
-        "know"
+        "don't",
+        "wasn't",
+        "did not",
+        "has not"
       ],
-      "answer": "know",
-      "explanation": "Full sentence: \"I wanted to know the truth.\""
+      "answer": "did not",
+      "explanation": "Past negative: 'did not want'. 'Don't' = present, 'has not' = perfect."
     },
     {
       "id": 21,
       "type": "error",
-      "sentence": "She want to start her own business.",
+      "sentence": "We want to go outside yesterday.",
       "options": [
-        "She want to start her own business.",
-        "She wanted to start her own business."
+        "We want to go outside yesterday.",
+        "We wanted to go outside yesterday.",
+        "We are going outside yesterday.",
+        "We goes outside yesterday."
       ],
-      "answer": "She wanted to start her own business.",
-      "explanation": "Correct sentence: \"She wanted to start her own business.\""
+      "answer": "We wanted to go outside yesterday.",
+      "explanation": "'Yesterday' indicates past tense. Use 'wanted', not 'want'."
     },
     {
       "id": 22,
       "type": "translate",
-      "hindi": "मुझे कोई गलती नहीं चाहिए थी।",
+      "hindi": "क्या manager meeting जल्दी खत्म करना चाहते थे?",
       "options": [
-        "She wanted to become a doctor.",
-        "Did you want coffee?",
-        "Did you want to go outside?",
-        "I did not want any mistake."
+        {
+          "english": "Does the manager want to end the meeting early?",
+          "hindi": "क्या manager meeting जल्दी खत्म करना चाहते हैं?"
+        },
+        {
+          "english": "Will the manager end the meeting early?",
+          "hindi": "क्या manager meeting जल्दी खत्म करेंगे?"
+        },
+        {
+          "english": "Is the manager ending the meeting early?",
+          "hindi": "क्या manager meeting जल्दी खत्म कर रहे हैं?"
+        },
+        "Did the manager want to end the meeting early?"
       ],
-      "answer": "I did not want any mistake.",
-      "explanation": "Correct translation: \"मुझे कोई गलती नहीं चाहिए थी।\" = \"I did not want any mistake.\""
+      "answer": "Did the manager want to end the meeting early?",
+      "explanation": "Past question: 'Did + subject + want to + base verb?'"
     },
     {
       "id": 23,
       "type": "fill",
-      "sentence": "Did you _____ any help?",
+      "sentence": "He wanted _____ call you but he was busy.",
       "options": [
-        "take",
-        "become",
-        "better",
-        "want"
+        "for",
+        "that",
+        "to",
+        "on"
       ],
-      "answer": "want",
-      "explanation": "Full sentence: \"Did you want any help?\""
+      "answer": "to",
+      "explanation": "'Wanted to call' — 'to' is always needed before the verb after 'wanted'."
     },
     {
       "id": 24,
       "type": "error",
-      "sentence": "They want success.",
+      "sentence": "I wanted to go but I not have money.",
       "options": [
-        "They want success.",
-        "They wanted success."
+        "I wanted to go but I not have money.",
+        "I wanted to go but I did not have money.",
+        "I wanted to go but I not had money.",
+        "I wanted to go but I having no money."
       ],
-      "answer": "They wanted success.",
-      "explanation": "Correct sentence: \"They wanted success.\""
+      "answer": "I wanted to go but I did not have money.",
+      "explanation": "Past negative of 'have': 'did not have', not 'not have' alone."
     },
     {
       "id": 25,
       "type": "translate",
-      "hindi": "मुझे यह मौका चाहिए था।",
+      "hindi": "वह हमेशा विदेश जाना चाहता था।",
       "options": [
-        "Did you want tea?",
-        "I wanted your help.",
-        "She wanted to start her own business.",
-        "I wanted this opportunity."
+        {
+          "english": "He always wants to go abroad.",
+          "hindi": "वह हमेशा विदेश जाना चाहता है।"
+        },
+        {
+          "english": "He went abroad always.",
+          "hindi": "वह हमेशा विदेश जाता था।"
+        },
+        {
+          "english": "He will always go abroad.",
+          "hindi": "वह हमेशा विदेश जाएगा।"
+        },
+        "He always wanted to go abroad."
       ],
-      "answer": "I wanted this opportunity.",
-      "explanation": "Correct translation: \"मुझे यह मौका चाहिए था।\" = \"I wanted this opportunity.\""
+      "answer": "He always wanted to go abroad.",
+      "explanation": "'Always wanted' = consistently held past desire. Very natural expression."
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "sentence": "Did _____ want to submit the report by Monday?",
+      "options": [
+        "them",
+        "she",
+        "her",
+        "their"
+      ],
+      "answer": "she",
+      "explanation": "Subject pronoun after 'Did': 'Did she want...?' — Use subject form 'she', not object 'her'."
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "As a child, she wanted become a teacher.",
+      "options": [
+        "As a child, she wanted become a teacher.",
+        "As a child, she wanted to become a teacher.",
+        "As a child, she was wanting to become a teacher.",
+        "As a child, she want to become a teacher."
+      ],
+      "answer": "As a child, she wanted to become a teacher.",
+      "explanation": "'Wanted to become' — 'to' is mandatory before the verb."
+    },
+    {
+      "id": 28,
+      "type": "translate",
+      "hindi": "हम एक बेहतर भविष्य चाहते थे।",
+      "options": [
+        {
+          "english": "We want a better future.",
+          "hindi": "हम एक बेहतर भविष्य चाहते हैं।"
+        },
+        {
+          "english": "We will have a better future.",
+          "hindi": "हमारा भविष्य बेहतर होगा।"
+        },
+        {
+          "english": "We had a better future.",
+          "hindi": "हमारा भविष्य बेहतर था।"
+        },
+        "We wanted a better future."
+      ],
+      "answer": "We wanted a better future.",
+      "explanation": "'A better future' is a noun phrase. 'Wanted + noun' — no 'to + verb' needed."
+    },
+    {
+      "id": 29,
+      "type": "fill",
+      "sentence": "They didn't want _____ to that meeting.",
+      "options": [
+        "going",
+        "go",
+        "goes",
+        "gone"
+      ],
+      "answer": "go",
+      "explanation": "'Didn't want to go' — after 'want to', always use base verb form."
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "Did she wanted to travel to Paris?",
+      "options": [
+        "Did she wanted to travel to Paris?",
+        "Does she wanted to travel to Paris?",
+        "Did she want to travel to Paris?",
+        "Was she wanting to travel to Paris?"
+      ],
+      "answer": "Did she want to travel to Paris?",
+      "explanation": "'Did + subject + want (NOT wanted)' — this is the most common mistake."
     }
   ]
 }

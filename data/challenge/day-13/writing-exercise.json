@@ -5,42 +5,42 @@
     {
       "id": 1,
       "type": "sentence-writing",
-      "prompt": "Write 5 original English sentences using Use of Let.",
-      "hindiPrompt": "Use of Let का उपयोग करते हुए 5 नए वाक्य लिखिए।",
-      "sampleAnswer": "Let me tell you. Let him go. Let her speak. Let us try. Let them play.",
-      "wordLimit": 60
+      "prompt": "Write 6 original English sentences using 'Let'. Use at least 2 sentences with 'Let me', 2 with 'Let him/her/them', and 2 with 'Don't let'.",
+      "hindiPrompt": "'Let' का उपयोग करते हुए 6 नए वाक्य लिखिए। कम से कम 2 'Let me' से, 2 'Let him/her/them' से, और 2 'Don't let' से।",
+      "sampleAnswer": "1. Let me explain my plan to you. 2. Let me introduce myself before we begin. 3. Let him handle the client call. 4. Let her present her findings. 5. Don't let the children play in the rain. 6. Don't let this opportunity go to waste.",
+      "wordLimit": 80
     },
     {
       "id": 2,
       "type": "paragraph-writing",
-      "prompt": "Write a short paragraph (5-6 lines) using Use of Let.",
-      "hindiPrompt": "Use of Let का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
-      "sampleAnswer": "Let me think. Let him rest. Let me check this. Let her do her work. Let us start.",
-      "wordLimit": 80
+      "prompt": "Write a short paragraph (5-6 sentences) about a day at the office using at least 4 sentences with 'Let' (Let me, Let him/her, Let us, Don't let).",
+      "hindiPrompt": "Office के एक दिन के बारे में 5-6 वाक्यों का पैराग्राफ लिखिए। कम से कम 4 sentences में 'Let' का उपयोग करें।",
+      "sampleAnswer": "It was a busy Monday at the office. Let me start by summarizing what happened. Let us begin the meeting with a quick review of last week's targets. Let her present the sales report — she has worked hard on it. Don't let any important issues go unresolved before end of day. By evening, let me confirm that all tasks have been completed.",
+      "wordLimit": 100
     },
     {
       "id": 3,
       "type": "translation",
-      "prompt": "Translate into English: \"मत उसे जाने दो।\"",
-      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
-      "sampleAnswer": "Do not let him go.",
-      "wordLimit": 20
+      "prompt": "Translate the following into English:\n1. मुझे यह समझाने दो।\n2. उन्हें फैसला करने दो।\n3. बच्चों को बाहर खेलने दो।\n4. इस मौके को हाथ से मत जाने दो।\n5. क्या आप मुझे यह try करने देंगे?",
+      "hindiPrompt": "नीचे दिए गए वाक्यों का English में अनुवाद करें।",
+      "sampleAnswer": "1. Let me explain this. 2. Let them decide. 3. Let the children play outside. 4. Don't let this opportunity slip away. 5. Will you let me try this?",
+      "wordLimit": 60
     },
     {
       "id": 4,
       "type": "correction",
-      "prompt": "Correct this sentence: \"Let us try yesterday.\"",
-      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
-      "sampleAnswer": "Let us try.",
-      "wordLimit": 20
+      "prompt": "Correct the mistakes in these sentences:\n1. Let I try this once more.\n2. Let him to present his report.\n3. Don't let she come inside.\n4. Let them deciding the issue.\n5. Let not him enter the room.",
+      "hindiPrompt": "इन वाक्यों में गलतियाँ ठीक कीजिए।",
+      "sampleAnswer": "1. Let me try this once more. (I → me: object pronoun) 2. Let him present his report. (remove 'to') 3. Don't let her come inside. (she → her: object pronoun) 4. Let them decide the issue. (deciding → decide: base verb) 5. Don't let him enter the room. (Let not him → Don't let him)",
+      "wordLimit": 80
     },
     {
       "id": 5,
       "type": "dialogue-writing",
-      "prompt": "Write a short 4-line dialogue using Use of Let.",
-      "hindiPrompt": "Use of Let का उपयोग करते हुए एक संवाद लिखिए।",
-      "sampleAnswer": "Let them decide. Let me have some time. Let him come. Let us work together.",
-      "wordLimit": 60
+      "prompt": "Write a short 6-line dialogue between a manager and an employee using at least 4 'Let' sentences (including at least one 'Don't let' and one question with 'let').",
+      "hindiPrompt": "एक manager और employee के बीच 6 lines का dialogue लिखिए। कम से कम 4 'Let' sentences हों, जिनमें एक 'Don't let' और एक question भी हो।",
+      "sampleAnswer": "Manager: Let us begin the project review.\nEmployee: Sir, let me share the latest update first.\nManager: Of course, go ahead. Let her also present the client feedback.\nEmployee: Will you let me handle the client meeting tomorrow?\nManager: Yes, let you handle it — but don't let any deadline slip.\nEmployee: Thank you, sir. Let us make this project a success together.",
+      "wordLimit": 100
     }
   ]
 }

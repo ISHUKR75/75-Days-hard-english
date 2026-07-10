@@ -5,42 +5,42 @@
     {
       "id": 1,
       "type": "sentence-writing",
-      "prompt": "Write 5 original English sentences using Use of Wanted.",
-      "hindiPrompt": "Use of Wanted का उपयोग करते हुए 5 नए वाक्य लिखिए।",
-      "sampleAnswer": "I wanted water. I wanted to go home. He wanted a new car. She wanted to become a doctor. We wanted to take rest.",
-      "wordLimit": 60
+      "prompt": "Write 6 original English sentences using 'wanted to + verb' or 'wanted + noun'. Use different subjects (I, he, she, we, they). Include at least one professional and one daily-life sentence.",
+      "hindiPrompt": "'Wanted to + verb' या 'wanted + noun' का उपयोग करते हुए 6 नए वाक्य लिखिए। अलग-अलग subjects (I, he, she, we, they) use करें। कम से कम एक professional और एक daily-life sentence शामिल करें।",
+      "sampleAnswer": "1. I wanted to improve my English skills. 2. She wanted a new laptop for work. 3. He wanted to apply for the manager's position. 4. We wanted to finish the project before the deadline. 5. They wanted a peaceful working environment. 6. The child wanted to play in the park.",
+      "wordLimit": 80
     },
     {
       "id": 2,
       "type": "paragraph-writing",
-      "prompt": "Write a short paragraph (5-6 lines) using Use of Wanted.",
-      "hindiPrompt": "Use of Wanted का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
-      "sampleAnswer": "They wanted to finish that work. Did you want tea? I did not want that book. He wanted to talk to me. I wanted some rest.",
-      "wordLimit": 80
+      "prompt": "Write a short paragraph (5-7 sentences) about your childhood dreams and what you wanted to become when you grew up. Use 'wanted to' and 'wanted' with different subjects. Include at least one negative and one question form.",
+      "hindiPrompt": "अपने बचपन के सपनों के बारे में 5-7 वाक्यों का एक छोटा paragraph लिखें — आप बड़े होकर क्या बनना चाहते थे। 'Wanted to' और 'wanted' का उपयोग करें। कम से कम एक negative और एक question form ज़रूर शामिल करें।",
+      "sampleAnswer": "When I was a child, I wanted to become a pilot. My sister wanted to be a doctor, and my brother wanted to be a cricketer. We all wanted to make our parents proud. I did not want an ordinary life — I wanted adventure and excitement. Did you ever want to be something different from what you are today? Looking back, I am glad I always wanted to aim high.",
+      "wordLimit": 100
     },
     {
       "id": 3,
       "type": "translation",
-      "prompt": "Translate into English: \"क्या आप कॉफी चाहते थे?\"",
-      "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
-      "sampleAnswer": "Did you want coffee?",
-      "wordLimit": 20
+      "prompt": "Translate these sentences into English:\n1. मैं हमेशा से इस company में काम करना चाहता था।\n2. क्या उसे promotion चाहिए था?\n3. हम उस problem को solve करना चाहते थे, पर time नहीं था।\n4. उसने कहा कि वह मुझसे बात करना चाहती थी।",
+      "hindiPrompt": "नीचे दिए गए वाक्यों का अंग्रेज़ी अनुवाद करें।",
+      "sampleAnswer": "1. I always wanted to work in this company. 2. Did he want a promotion? 3. We wanted to solve that problem, but we did not have time. 4. She said she wanted to talk to me.",
+      "wordLimit": 60
     },
     {
       "id": 4,
       "type": "correction",
-      "prompt": "Correct this sentence: \"She want to become a doctor.\"",
-      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
-      "sampleAnswer": "She wanted to become a doctor.",
-      "wordLimit": 20
+      "prompt": "Find and correct the mistakes in these sentences:\n1. She did not wanted to go.\n2. Did he wanted a coffee?\n3. I wanted go home early.\n4. They was wanted to finish the report.\n5. We wants to join last year.",
+      "hindiPrompt": "इन वाक्यों में गलतियाँ ढूँढकर सुधारें।",
+      "sampleAnswer": "1. She did not want to go. (NOT 'wanted' after 'did not') 2. Did he want a coffee? (NOT 'wanted' after 'Did') 3. I wanted to go home early. ('to' is missing before verb) 4. They wanted to finish the report. (No auxiliary verb needed) 5. We wanted to join last year. ('want' should be 'wanted' for past)",
+      "wordLimit": 80
     },
     {
       "id": 5,
       "type": "dialogue-writing",
-      "prompt": "Write a short 4-line dialogue using Use of Wanted.",
-      "hindiPrompt": "Use of Wanted का उपयोग करते हुए एक संवाद लिखिए।",
-      "sampleAnswer": "We wanted more information. I wanted your help. They wanted peace. I wanted to finish this work quickly.",
-      "wordLimit": 60
+      "prompt": "Write a short 6-line dialogue between a job applicant and an HR manager. Use at least 3 'wanted to' sentences — one positive, one negative, and one question. The conversation should sound natural and professional.",
+      "hindiPrompt": "एक job applicant और HR manager के बीच 6 lines का natural और professional dialogue लिखें। कम से कम 3 'wanted to' sentences use करें — एक positive, एक negative, और एक question।",
+      "sampleAnswer": "HR: Why did you want to join our company?\nApplicant: I always wanted to work in a company that values innovation.\nHR: Did you want to stay in your previous role?\nApplicant: No, I did not want to stay because there was no growth opportunity.\nHR: What did you want to achieve in your last job?\nApplicant: I wanted to build strong client relationships and deliver quality results.",
+      "wordLimit": 100
     }
   ]
 }

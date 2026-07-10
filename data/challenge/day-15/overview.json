@@ -1,13 +1,45 @@
 {
   "day": 15,
-  "title": "Would Like To",
-  "tagline": "Polite तरीके से अपनी इच्छा बताना सीखें।",
-  "summary": "'Would like to' want to का polite और formal version है। Interview, office और formal situations में यह बहुत उपयोगी है।",
-  "hindiSummary": "आज आप सीखेंगे कि professional और polite तरीके से अपनी इच्छा कैसे बताई जाती है — Would like to के साथ।",
+  "title": "Would Like To — Polite Wishes & Requests",
+  "tagline": "अपनी बात politely कहें — हर जगह confident दिखें!",
+  "summary": "Day 15 में आप सीखेंगे English का सबसे important polite structure — 'Would Like To'. यह 'want to' का formal और polite version है। Job interview में, office meetings में, restaurant में, या किसी भी formal situation में — 'would like to' आपको professional और educated बनाता है। Formula simple है: Subject + would like to + base verb. आज हम positive, negative, question forms — सब cover करेंगे।",
+  "hindiSummary": "आज का topic है 'Would Like To' — यह English में polite तरीके से अपनी इच्छा, अनुरोध, या offer express करने का structure है। I would like to... / Would you like to...? / I wouldn't like to... — इन तीनों forms को master करने के बाद आप professional English में बहुत confident हो जाएंगे। यह structure interview में, emails में, customer service में, और formal conversations में everyday use होता है।",
   "whatYouWillLearn": [
-    "Would Like To की सही formula और structure",
-    "Would Like To के साथ positive, negative और question sentences",
-    "Would Like To का daily life और office में उपयोग",
-    "Common mistakes जो लोग यहां करते हैं"
-  ]
+    "Would Like To का basic formula और structure (Subject + would like to + base verb)",
+    "Contractions: I'd like to / She'd like to / We'd like to",
+    "Negative form: would not like to / wouldn't like to",
+    "Question form: Would + subject + like to + base verb?",
+    "Short answers: Yes, I would. / No, I wouldn't.",
+    "Daily life, office, interview, customer service में use",
+    "Common mistakes और उन्हें कैसे avoid करें",
+    "Comparison: want to vs would like to vs would love to",
+    "100+ professional vocabulary words related to this topic",
+    "Advanced usage: indirect speech, conditional, formal emails"
+  ],
+  "wouldLikeToCheatSheet": {
+    "formula": "Subject + would like + to + base verb",
+    "contraction": "I'd / You'd / He'd / She'd / We'd / They'd + like to + verb",
+    "negative": "Subject + would not / wouldn't + like to + base verb",
+    "question": "Would + subject + like to + base verb?",
+    "shortAnswer": "Yes, I would. / No, I wouldn't.",
+    "commonMistakes": {
+      "wrong1": "I would like eating. → RIGHT: I would like to eat.",
+      "wrong2": "She would likes to go. → RIGHT: She would like to go.",
+      "wrong3": "Does he would like to come? → RIGHT: Would he like to come?",
+      "wrong4": "I would like to went. → RIGHT: I would like to go."
+    },
+    "politenesScale": "want to (casual) → would like to (polite) → would love to (enthusiastic)",
+    "keyContexts": [
+      "Restaurants: Would you like to order?",
+      "Office: I would like to schedule a meeting.",
+      "Interview: I would like to contribute to your team.",
+      "Customer service: We would like to offer you a discount."
+    ]
+  },
+  "motivationalQuote": "Politeness is the language of confidence. जब आप 'I would like to...' कहते हैं, तो आप सिर्फ English नहीं बोल रहे — आप एक educated, confident professional की तरह communicate कर रहे हैं!",
+  "practiceTarget": {
+    "minimumQuestions": 50,
+    "targetQuestions": 80,
+    "stretchGoal": 100
+  }
 }

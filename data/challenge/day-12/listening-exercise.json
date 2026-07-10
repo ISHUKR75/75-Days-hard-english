@@ -4,111 +4,163 @@
   "exercises": [
     {
       "id": 1,
-      "audioScript": "Did you want coffee?",
-      "hindiScript": "क्या आप कॉफी चाहते थे?",
+      "audioScript": "I wanted to drink water.",
+      "hindiScript": "मैं पानी पीना चाहता था।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "I did not want that book.",
-        "They wanted peace.",
-        "I did not want any mistake.",
-        "Did you want coffee?"
+        "I want to drink water.",
+        "I wanted to drink water.",
+        "I will drink water.",
+        "I am drinking water."
       ],
-      "answer": "Did you want coffee?"
+      "answer": "I wanted to drink water."
     },
     {
       "id": 2,
-      "audioScript": "She wanted to become an engineer.",
-      "hindiScript": "वह इंजीनियर बनना चाहती थी।",
+      "audioScript": "She wanted to become a doctor.",
+      "hindiScript": "वह डॉक्टर बनना चाहती थी।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "He wanted to talk to me.",
-        "I wanted to finish this work quickly.",
-        "Did you want any help?",
-        "She wanted to become an engineer."
+        "She wants to become a doctor.",
+        "She is becoming a doctor.",
+        "She wanted to become a doctor.",
+        "She will become a doctor."
       ],
-      "answer": "She wanted to become an engineer."
+      "answer": "She wanted to become a doctor."
     },
     {
       "id": 3,
-      "audioScript": "We wanted more information.",
-      "hindiScript": "हमें और जानकारी चाहिए थी।",
+      "audioScript": "Did he want to go there?",
+      "hindiScript": "क्या वह वहाँ जाना चाहता था?",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "I wanted some rest.",
-        "He wanted a promotion.",
-        "They wanted success.",
-        "We wanted more information."
+        "Did he wanted to go there?",
+        "Does he want to go there?",
+        "Did he want to go there?",
+        "Was he wanting to go there?"
       ],
-      "answer": "We wanted more information."
+      "answer": "Did he want to go there?"
     },
     {
       "id": 4,
-      "audioScript": "I wanted your help.",
-      "hindiScript": "मैं तुम्हारी मदद चाहता था।",
+      "audioScript": "I did not want to waste any time.",
+      "hindiScript": "मैं कोई भी समय बर्बाद नहीं करना चाहता था।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "Did you want coffee?",
-        "Did you want to go outside?",
-        "I wanted this opportunity.",
-        "I wanted your help."
+        "I do not want to waste time.",
+        "I did not want to waste any time.",
+        "I didn't wanted to waste time.",
+        "I was not wanting to waste time."
       ],
-      "answer": "I wanted your help."
+      "answer": "I did not want to waste any time."
     },
     {
       "id": 5,
-      "audioScript": "They wanted peace.",
-      "hindiScript": "वे शांति चाहते थे।",
+      "audioScript": "We wanted to finish the project before the deadline.",
+      "hindiScript": "हम project को deadline से पहले खत्म करना चाहते थे।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "She wanted to become an engineer.",
-        "We wanted a better future.",
-        "I wanted water.",
-        "They wanted peace."
+        "We want to finish the project.",
+        "We wanted to finish the project before the deadline.",
+        "We are finishing the project.",
+        "We will finish before the deadline."
       ],
-      "answer": "They wanted peace."
+      "answer": "We wanted to finish the project before the deadline."
     },
     {
       "id": 6,
-      "audioScript": "I wanted to finish this work quickly.",
-      "hindiScript": "मैं इस काम को जल्दी खत्म करना चाहता था।",
+      "audioScript": "I just wanted to say thank you.",
+      "hindiScript": "मैं बस शुक्रिया कहना चाहता था।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "We wanted more information.",
-        "I wanted to know the truth.",
-        "I wanted to go home.",
-        "I wanted to finish this work quickly."
+        "I just want to say thank you.",
+        "I just said thank you.",
+        "I just wanted to say thank you.",
+        "I wanted just saying thank you."
       ],
-      "answer": "I wanted to finish this work quickly."
+      "answer": "I just wanted to say thank you."
     },
     {
       "id": 7,
-      "audioScript": "He wanted a promotion.",
-      "hindiScript": "वह promotion चाहता था।",
+      "audioScript": "She said she wanted to meet you.",
+      "hindiScript": "उसने कहा कि वह तुमसे मिलना चाहती थी।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "I wanted your help.",
-        "She wanted to start her own business.",
-        "He wanted a new car.",
-        "He wanted a promotion."
+        "She says she wants to meet you.",
+        "She said she wanted to meet you.",
+        "She told she want to meet you.",
+        "She was wanting to meet you."
       ],
-      "answer": "He wanted a promotion."
+      "answer": "She said she wanted to meet you."
     },
     {
       "id": 8,
-      "audioScript": "Did you want to go outside?",
-      "hindiScript": "क्या तुम बाहर जाना चाहते थे?",
+      "audioScript": "He always wanted to work in this field.",
+      "hindiScript": "वह हमेशा से इस field में काम करना चाहता था।",
       "question": "What did you hear? Choose the correct sentence.",
       "options": [
-        "They wanted peace.",
-        "I did not want any mistake.",
-        "She wanted to become a doctor.",
-        "Did you want to go outside?"
+        "He always wants to work in this field.",
+        "He always worked in this field.",
+        "He always wanted to work in this field.",
+        "He was always wanting to work in this field."
       ],
-      "answer": "Did you want to go outside?"
+      "answer": "He always wanted to work in this field."
+    },
+    {
+      "id": 9,
+      "audioScript": "They wanted a better future.",
+      "hindiScript": "वे एक बेहतर भविष्य चाहते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They want a better future.",
+        "They wanted a better future.",
+        "They will want a better future.",
+        "They are wanting a better future."
+      ],
+      "answer": "They wanted a better future."
+    },
+    {
+      "id": 10,
+      "audioScript": "Did you want to come with us?",
+      "hindiScript": "क्या तुम हमारे साथ आना चाहते थे?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Do you want to come with us?",
+        "Will you come with us?",
+        "Are you wanting to come with us?",
+        "Did you want to come with us?"
+      ],
+      "answer": "Did you want to come with us?"
+    },
+    {
+      "id": 11,
+      "audioScript": "I wanted to call you but I was busy.",
+      "hindiScript": "मैं तुम्हें call करना चाहता था पर busy था।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "I wanted to call you but I am busy.",
+        "I want to call you but I was busy.",
+        "I wanted to call you but I was busy.",
+        "I had wanted to call you."
+      ],
+      "answer": "I wanted to call you but I was busy."
+    },
+    {
+      "id": 12,
+      "audioScript": "The manager wanted to end the meeting early.",
+      "hindiScript": "Manager meeting जल्दी खत्म करना चाहते थे।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The manager wants to end the meeting early.",
+        "The manager ended the meeting early.",
+        "The manager wanted to end the meeting early.",
+        "The manager is wanting to end the meeting early."
+      ],
+      "answer": "The manager wanted to end the meeting early."
     }
   ],
   "dictationPassage": {
-    "text": "Did you want coffee? She wanted to become an engineer. We wanted more information. I wanted your help. They wanted peace.",
-    "hindiTranslation": "क्या आप कॉफी चाहते थे? वह इंजीनियर बनना चाहती थी। हमें और जानकारी चाहिए थी। मैं तुम्हारी मदद चाहता था। वे शांति चाहते थे।"
+    "text": "Riya always wanted to become a doctor. She did not want to waste any time. Her parents wanted her to study hard. Did she want this for herself? Yes — she just wanted to serve people. She wanted a life with purpose and no regrets.",
+    "hindiTranslation": "Riya हमेशा doctor बनना चाहती थी। वह कोई भी समय बर्बाद नहीं करना चाहती थी। उसके माता-पिता चाहते थे कि वह मन लगाकर पढ़े। क्या उसने यह खुद के लिए चाहा? हाँ — वह बस लोगों की सेवा करना चाहती थी। वह एक ऐसी ज़िंदगी चाहती थी जिसमें purpose हो और कोई पछतावा न हो।"
   }
 }

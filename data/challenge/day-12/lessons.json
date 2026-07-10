@@ -1,136 +1,268 @@
 {
   "day": 12,
-  "topic": "Use of Wanted",
+  "title": "Use of Wanted",
   "sections": [
     {
-      "id": 1,
-      "title": "Use of Wanted — Introduction and Formula",
-      "hindiTitle": "Use of Wanted — परिचय और फॉर्मूला",
-      "explanation": "Use of Wanted is an essential building block of spoken and written English. Formula: Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\"). Rules: 'Wanted' is the past tense of 'want' — same form for all subjects (I, he, she, we, they) | Used for desires or wishes in the past | Negative: did not want | Question: Did + subject + want...?",
-      "formula": "Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
+      "id": "introduction-formula",
+      "title": "Introduction & Formula — Use of Wanted",
+      "hindiTitle": "परिचय और फॉर्मूला — Wanted का उपयोग",
+      "explanation": "'Wanted' 'want' का past tense है। यह सभी subjects (I, he, she, we, they, you) के साथ एक ही form में आता है — हमें 'wants' या 'wantted' नहीं लिखना।\n\nदो main patterns हैं:\n1. Subject + wanted + noun (किसी चीज़ की past में इच्छा थी)\n2. Subject + wanted + to + base verb (कोई काम करने की past में इच्छा थी)\n\nNegative: Subject + did not want + to + verb / noun\nQuestion: Did + subject + want + to + verb / noun ?\n\nDay 11 से तुलना: 'want/wants' present tense है — 'I want tea' (अभी चाहिए), जबकि 'wanted' past tense है — 'I wanted tea' (तब चाहिए था)।",
+      "formula": "Subject + wanted + to + verb  |  Subject + wanted + noun",
       "examples": [
         {
-          "hindi": "मुझे पानी चाहिए था।",
-          "english": "I wanted water."
+          "hindi": "मैं पानी पीना चाहता था।",
+          "english": "I wanted to drink water."
         },
         {
-          "hindi": "मैं घर जाना चाहता था।",
-          "english": "I wanted to go home."
+          "hindi": "उसे एक नई किताब चाहिए थी।",
+          "english": "She wanted a new book."
         },
         {
-          "hindi": "वह एक नई कार चाहता था।",
-          "english": "He wanted a new car."
+          "hindi": "हम बाहर जाना चाहते थे।",
+          "english": "We wanted to go outside."
         },
         {
-          "hindi": "वह डॉक्टर बनना चाहती थी।",
-          "english": "She wanted to become a doctor."
+          "hindi": "वह doctor बनना चाहता था।",
+          "english": "He wanted to become a doctor."
         },
         {
-          "hindi": "हम आराम करना चाहते थे।",
-          "english": "We wanted to take rest."
-        },
-        {
-          "hindi": "वे उस काम को खत्म करना चाहते थे।",
-          "english": "They wanted to finish that work."
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "title": "Use of Wanted — Daily Life Usage",
-      "hindiTitle": "Use of Wanted — रोज़मर्रा के उपयोग",
-      "explanation": "Here are everyday sentences using Use of Wanted that you will use in daily conversation, at home, and with friends.",
-      "formula": "Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
-      "examples": [
-        {
-          "hindi": "क्या तुम चाय चाहते थे?",
+          "hindi": "क्या तुम्हें चाय चाहिए थी?",
           "english": "Did you want tea?"
         },
         {
-          "hindi": "मुझे वह किताब नहीं चाहिए थी।",
-          "english": "I did not want that book."
-        },
-        {
-          "hindi": "वह मुझसे बात करना चाहता था।",
-          "english": "He wanted to talk to me."
-        },
-        {
-          "hindi": "मुझे कुछ आराम चाहिए था।",
-          "english": "I wanted some rest."
-        },
-        {
-          "hindi": "क्या आप कॉफी चाहते थे?",
-          "english": "Did you want coffee?"
-        },
-        {
-          "hindi": "वह इंजीनियर बनना चाहती थी।",
-          "english": "She wanted to become an engineer."
+          "hindi": "मुझे कोई परेशानी नहीं चाहिए थी।",
+          "english": "I did not want any trouble."
         }
       ]
     },
     {
-      "id": 3,
-      "title": "Use of Wanted — Office & Professional Usage",
-      "hindiTitle": "Use of Wanted — ऑफिस और पेशेवर उपयोग",
-      "explanation": "Practice Use of Wanted in professional and office contexts so you can use it confidently at work.",
-      "formula": "Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
+      "id": "daily-life-usage",
+      "title": "Daily Life Usage — Use of Wanted",
+      "hindiTitle": "रोज़मर्रा की ज़िंदगी में Wanted का उपयोग",
+      "explanation": "Daily life में 'wanted' का सबसे ज़्यादा use घर, दोस्तों, और रोज़ाना की बातचीत में होता है। जब भी हम किसी past moment की इच्छा बताते हैं — चाहे खाने की, जाने की, या किसी चीज़ की — 'wanted' use करते हैं।\n\nKey tip: Hindi में जब वाक्य में 'चाहता था / चाहती थी / चाहते थे' आए, तो English में 'wanted to + verb' या 'wanted + noun' लगाएं।",
+      "formula": "Subject + wanted + to + verb (daily action)",
       "examples": [
         {
-          "hindi": "हमें और जानकारी चाहिए थी।",
-          "english": "We wanted more information."
+          "hindi": "मैं कल रात जल्दी सोना चाहता था।",
+          "english": "I wanted to sleep early last night."
         },
         {
-          "hindi": "मैं तुम्हारी मदद चाहता था।",
-          "english": "I wanted your help."
+          "hindi": "बच्चा आइसक्रीम चाहता था।",
+          "english": "The child wanted ice cream."
         },
         {
-          "hindi": "वे शांति चाहते थे।",
-          "english": "They wanted peace."
+          "hindi": "वह बाज़ार जाना चाहती थी।",
+          "english": "She wanted to go to the market."
         },
         {
-          "hindi": "मैं इस काम को जल्दी खत्म करना चाहता था।",
-          "english": "I wanted to finish this work quickly."
+          "hindi": "हम मिलकर खाना खाना चाहते थे।",
+          "english": "We wanted to eat together."
         },
         {
-          "hindi": "वह promotion चाहता था।",
-          "english": "He wanted a promotion."
+          "hindi": "क्या तुम movie देखना चाहते थे?",
+          "english": "Did you want to watch a movie?"
         },
         {
-          "hindi": "क्या तुम बाहर जाना चाहते थे?",
-          "english": "Did you want to go outside?"
+          "hindi": "मुझे उससे माफ़ी नहीं माँगनी थी।",
+          "english": "I did not want to apologize to him."
         }
       ]
     },
     {
-      "id": 4,
-      "title": "Use of Wanted — Negative and Question Forms",
-      "hindiTitle": "Use of Wanted — नकारात्मक और प्रश्न रूप",
-      "explanation": "Learn how to make negative sentences and questions using Use of Wanted. Common mistakes: forgetting to keep the base verb form, or wrong subject agreement.",
-      "formula": "Subject + wanted + to + verb / noun (past tense — all subjects use \"wanted\")",
+      "id": "office-professional-usage",
+      "title": "Office & Professional Usage — Use of Wanted",
+      "hindiTitle": "ऑफिस और प्रोफेशनल उपयोग — Wanted",
+      "explanation": "Office और professional settings में 'wanted' का use बहुत common है — meeting में, email में, interview में, और client के साथ बातचीत में। यह polite और clear communication की key है।\n\nजैसे: 'I wanted to discuss this matter with you.' (यह polite way है किसी से बात शुरू करने का।)\n'We wanted to inform you...' — formal emails में standard phrase है।",
+      "formula": "Subject + wanted + to + verb (professional action)",
       "examples": [
         {
-          "hindi": "हम बेहतर भविष्य चाहते थे।",
-          "english": "We wanted a better future."
+          "hindi": "मैं इस मामले पर आपसे बात करना चाहता था।",
+          "english": "I wanted to discuss this matter with you."
         },
         {
-          "hindi": "मैं सच जानना चाहता था।",
-          "english": "I wanted to know the truth."
+          "hindi": "हम आपको project की update देना चाहते थे।",
+          "english": "We wanted to give you an update on the project."
         },
         {
-          "hindi": "वह अपना व्यवसाय शुरू करना चाहती थी।",
-          "english": "She wanted to start her own business."
+          "hindi": "वह promotion के लिए apply करना चाहता था।",
+          "english": "He wanted to apply for a promotion."
         },
         {
-          "hindi": "मुझे कोई गलती नहीं चाहिए थी।",
-          "english": "I did not want any mistake."
+          "hindi": "Manager ने meeting जल्दी खत्म करनी चाही।",
+          "english": "The manager wanted to end the meeting early."
         },
         {
-          "hindi": "क्या तुम्हें मदद चाहिए थी?",
-          "english": "Did you want any help?"
+          "hindi": "क्या आप report कल तक submit करना चाहते थे?",
+          "english": "Did you want to submit the report by tomorrow?"
         },
         {
-          "hindi": "वे सफलता चाहते थे।",
-          "english": "They wanted success."
+          "hindi": "Team को और training नहीं चाहिए थी।",
+          "english": "The team did not want more training."
+        }
+      ]
+    },
+    {
+      "id": "negative-question-forms",
+      "title": "Negative & Question Forms",
+      "hindiTitle": "नकारात्मक और प्रश्नवाचक रूप — Wanted",
+      "explanation": "Negative form: Subject + did not want + to + verb / noun\n→ 'did not' सभी subjects के साथ same रहता है।\n→ Short form: didn't want\n\nQuestion form: Did + subject + want + to + verb / noun ?\n→ 'Did' question की शुरुआत में आता है, और 'want' base form में रहता है (NOT 'wanted')।\n\nCommon mistake ❌: 'Did he wanted to go?' → ✅ 'Did he want to go?'\nCommon mistake ❌: 'He did not wanted it.' → ✅ 'He did not want it.'",
+      "formula": "Did + Subject + want + to + verb? | Subject + did not want + to + verb",
+      "examples": [
+        {
+          "hindi": "क्या वह वहाँ जाना चाहता था?",
+          "english": "Did he want to go there?"
+        },
+        {
+          "hindi": "मुझे यह job नहीं चाहिए थी।",
+          "english": "I did not want this job."
+        },
+        {
+          "hindi": "क्या उन्हें मदद चाहिए थी?",
+          "english": "Did they want any help?"
+        },
+        {
+          "hindi": "उसने उस offer को accept नहीं करना चाहा।",
+          "english": "She did not want to accept that offer."
+        },
+        {
+          "hindi": "क्या बच्चे पार्क जाना चाहते थे?",
+          "english": "Did the children want to go to the park?"
+        },
+        {
+          "hindi": "हम उस topic पर बात नहीं करना चाहते थे।",
+          "english": "We did not want to talk about that topic."
+        }
+      ]
+    },
+    {
+      "id": "common-mistakes",
+      "title": "Common Mistakes with 'Wanted'",
+      "hindiTitle": "Wanted के साथ आम गलतियाँ",
+      "explanation": "गलती 1: 'Wanted' के बाद directly verb base form लगाना — 'to' भूलना।\n❌ 'I wanted go home.' → ✅ 'I wanted to go home.'\n\nगलती 2: Questions में 'wanted' use करना।\n❌ 'Did he wanted tea?' → ✅ 'Did he want tea?'\n\nगलती 3: Negative में 'wanted' use करना।\n❌ 'I didn't wanted it.' → ✅ 'I didn't want it.'\n\nगलती 4: Subject के अनुसार form बदलना।\n❌ 'She wanteds a car.' → ✅ 'She wanted a car.' ('wanted' सब के लिए same है।)\n\nगलती 5: Present want/wants को past context में use करना।\n❌ 'Yesterday, I want to sleep.' → ✅ 'Yesterday, I wanted to sleep.'",
+      "formula": "Did + subject + want (NOT wanted) in questions | didn't want (NOT didn't wanted) in negatives",
+      "examples": [
+        {
+          "hindi": "मैं घर जाना चाहता था।",
+          "english": "I wanted to go home. (✅ 'to' है)"
+        },
+        {
+          "hindi": "क्या उसे पानी चाहिए था?",
+          "english": "Did she want water? (✅ 'want' not 'wanted')"
+        },
+        {
+          "hindi": "उसे वह नहीं चाहिए था।",
+          "english": "He didn't want that. (✅ 'want' not 'wanted')"
+        },
+        {
+          "hindi": "वह teacher बनना चाहती थी।",
+          "english": "She wanted to become a teacher. (✅ no 's' on wanted)"
+        },
+        {
+          "hindi": "कल मैं जल्दी उठना चाहता था।",
+          "english": "Yesterday I wanted to wake up early. (✅ past context)"
+        },
+        {
+          "hindi": "हम उस party में नहीं जाना चाहते थे।",
+          "english": "We didn't want to go to that party. (✅ correct negative)"
+        }
+      ]
+    },
+    {
+      "id": "advanced-nuanced-usage",
+      "title": "Advanced & Nuanced Usage — Wanted",
+      "hindiTitle": "Wanted का Advanced और सूक्ष्म उपयोग",
+      "explanation": "'Wanted' के कुछ advanced uses:\n\n1. Indirect speech: 'She said she wanted to meet you.' (उसने कहा कि वह तुमसे मिलना चाहती थी।)\n2. Polite requests: 'I just wanted to say thank you.' (यह formal/polite tone के लिए।)\n3. Unfulfilled desire: 'I wanted to call you but I was busy.' (चाहा था लेकिन हो नहीं पाया।)\n4. Business context: 'The client wanted a detailed proposal.' (past requirement था।)\n5. Interview context: 'I always wanted to work in this field.' (पुरानी इच्छा बताना।)",
+      "formula": "Subject + wanted + to + verb (but couldn't / didn't) — unfulfilled desire",
+      "examples": [
+        {
+          "hindi": "मैं बस शुक्रिया कहना चाहता था।",
+          "english": "I just wanted to say thank you."
+        },
+        {
+          "hindi": "उसने कहा कि वह तुमसे मिलना चाहती थी।",
+          "english": "She said she wanted to meet you."
+        },
+        {
+          "hindi": "मैं तुम्हें call करना चाहता था पर busy था।",
+          "english": "I wanted to call you but I was busy."
+        },
+        {
+          "hindi": "Client एक detailed proposal चाहता था।",
+          "english": "The client wanted a detailed proposal."
+        },
+        {
+          "hindi": "मैं हमेशा से इस field में काम करना चाहता था।",
+          "english": "I always wanted to work in this field."
+        },
+        {
+          "hindi": "वह उस दिन घर जल्दी जाना चाहती थी।",
+          "english": "She wanted to go home early that day."
+        }
+      ]
+    },
+    {
+      "id": "comparison-want-wanted",
+      "title": "Comparison: Want/Wants vs Wanted",
+      "hindiTitle": "तुलना: Want/Wants (Day 11) बनाम Wanted (Day 12)",
+      "explanation": "Day 11: want / wants → Present tense (अभी की इच्छा)\nDay 12: wanted → Past tense (पहले की इच्छा)\n\nSubject agreement:\n• want: I / you / we / they + want\n• wants: he / she / it + wants  \n• wanted: ALL subjects (I / he / she / we / they) + wanted\n\nExamples:\n→ 'I want tea.' (अभी चाहिए) vs 'I wanted tea.' (तब चाहिए था)\n→ 'She wants to study.' (अभी पढ़ना चाहती है) vs 'She wanted to study.' (तब पढ़ना चाहती थी)\n\nKey rule: Wanted में subject agreement की कोई problem नहीं — सबके लिए 'wanted' same रहता है।",
+      "formula": "want/wants → present | wanted → past (uniform for all subjects)",
+      "examples": [
+        {
+          "hindi": "मैं अभी चाय चाहता हूँ।",
+          "english": "I want tea now."
+        },
+        {
+          "hindi": "मैं कल चाय चाहता था।",
+          "english": "I wanted tea yesterday."
+        },
+        {
+          "hindi": "वह अभी पढ़ना चाहती है।",
+          "english": "She wants to study now."
+        },
+        {
+          "hindi": "वह बचपन में teacher बनना चाहती थी।",
+          "english": "She wanted to become a teacher in childhood."
+        },
+        {
+          "hindi": "हम अभी आराम करना चाहते हैं।",
+          "english": "We want to rest now."
+        },
+        {
+          "hindi": "हम कल आराम करना चाहते थे।",
+          "english": "We wanted to rest yesterday."
+        }
+      ]
+    },
+    {
+      "id": "practice-tips",
+      "title": "Practice Tips — Wanted को जल्दी सीखें",
+      "hindiTitle": "Practice Tips — Wanted सीखने के आसान तरीके",
+      "explanation": "Tip 1: Hindi वाक्य में 'चाहता था / चाहती थी / चाहते थे' देखो → English में 'wanted to + verb' लगाओ।\n\nTip 2: हर रोज़ 5 नए 'wanted' sentences बोलो — अपनी पुरानी इच्छाओं के बारे में।\nजैसे: 'As a child, I wanted to be a pilot.'\n\nTip 3: Negative और question practice के लिए — 'Did you want...?' वाले questions दोस्त से पूछो।\n\nTip 4: Unfulfilled desire pattern सीखो: 'I wanted to... but...' — यह real conversation में बहुत काम आता है।\n\nTip 5: Diary में daily entry लिखो: 'Yesterday, I wanted to...' से शुरू करो।",
+      "formula": "Hindi: चाहता था → English: wanted to + verb",
+      "examples": [
+        {
+          "hindi": "बचपन में मैं pilot बनना चाहता था।",
+          "english": "As a child, I wanted to become a pilot."
+        },
+        {
+          "hindi": "मैं कल gym जाना चाहता था पर बारिश हो गई।",
+          "english": "I wanted to go to the gym yesterday but it rained."
+        },
+        {
+          "hindi": "क्या तुम उससे मिलना चाहते थे?",
+          "english": "Did you want to meet him?"
+        },
+        {
+          "hindi": "उसे extra time नहीं चाहिए था।",
+          "english": "She did not want extra time."
+        },
+        {
+          "hindi": "हम उस restaurant में खाना चाहते थे।",
+          "english": "We wanted to eat at that restaurant."
+        },
+        {
+          "hindi": "मैं यह बात पहले ही बताना चाहता था।",
+          "english": "I wanted to tell you this earlier."
         }
       ]
     }

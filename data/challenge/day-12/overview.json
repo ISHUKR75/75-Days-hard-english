@@ -1,13 +1,38 @@
 {
   "day": 12,
   "title": "Use of Wanted",
-  "tagline": "बीती हुई इच्छाओं को English में बताना सीखें।",
-  "summary": "'Wanted' want का past tense है और सभी subjects के लिए एक जैसा रहता है। आज हम past desires को व्यक्त करना सीखेंगे।",
-  "hindiSummary": "आज आप सीखेंगे कि बीते समय में आपकी या किसी और की इच्छा क्या थी, यह English में कैसे बताया जाए।",
+  "tagline": "Past की इच्छाएँ बताना सीखो — 'Wanted' का master बनो!",
+  "summary": "Day 12 में आप सीखेंगे 'Wanted' का सही उपयोग — यानी past में क्या चाहते थे, यह English में कैसे कहते हैं। 'Wanted' 'want' का past tense है और सभी subjects के साथ एक ही form में use होता है। आप सीखेंगे positive statements (I wanted to go), negative forms (I did not want to go), और questions (Did you want to go?). यह Day 11 के 'want/wants' का natural extension है।",
+  "hindiSummary": "Day 11 में आपने 'want' और 'wants' का present tense सीखा। आज Day 12 में हम उसी structure का past tense सीखेंगे — 'wanted'। Main formula: Subject + wanted + to + verb या Subject + wanted + noun। Negative: Subject + did not want + to + verb। Question: Did + subject + want + to + verb? याद रखें — 'wanted' सभी subjects के लिए same है!",
   "whatYouWillLearn": [
-    "Use of Wanted की सही formula और structure",
-    "Use of Wanted के साथ positive, negative और question sentences",
-    "Use of Wanted का daily life और office में उपयोग",
-    "Common mistakes जो लोग यहां करते हैं"
-  ]
+    "Formula 1: Subject + wanted + to + base verb (किसी काम की past में इच्छा)",
+    "Formula 2: Subject + wanted + noun (किसी चीज़ की past में इच्छा)",
+    "Negative: Subject + did not (didn't) + want + to + verb",
+    "Question: Did + subject + want + to + verb?",
+    "All subjects (I/he/she/we/they/you) use the SAME form 'wanted'",
+    "Common mistake: 'Did + subject + wanted' (WRONG) vs 'Did + subject + want' (RIGHT)",
+    "Polite expression: 'I just wanted to say...' / 'I wanted to inform you...'",
+    "Indirect speech: want → wanted in reported speech",
+    "Unfulfilled desire: 'I wanted to... but...'",
+    "Contrast with Day 11: want/wants (present) vs wanted (past)"
+  ],
+  "wantedCheatSheet": {
+    "positiveStatement": "Subject + wanted + to + verb  |  Subject + wanted + noun",
+    "negativeStatement": "Subject + did not / didn't + want + to + verb  |  did not want + noun",
+    "questionForm": "Did + subject + want + to + verb?  |  Did + subject + want + noun?",
+    "allSubjects": "I wanted / He wanted / She wanted / We wanted / They wanted / You wanted",
+    "commonMistake1": "❌ Did he WANTED? → ✅ Did he WANT?",
+    "commonMistake2": "❌ I didn't WANTED → ✅ I didn't WANT",
+    "commonMistake3": "❌ I wanted GO → ✅ I wanted TO GO",
+    "politeExpression": "I just wanted to say... / I wanted to inform you... / She said she wanted to...",
+    "comparisonWithDay11": "Present: I want tea (अभी) | Past: I wanted tea (तब)"
+  },
+  "motivationalQuote": "Every great achievement started as something someone 'wanted to do'. Now is your time to use 'wanted' with confidence!",
+  "practiceTarget": {
+    "minimumQuestions": 30,
+    "targetQuestions": 70,
+    "stretchGoal": 100,
+    "speakingTarget": "Complete all 12 speaking drill sets",
+    "writingTarget": "Write a diary entry using 'wanted to' with all three forms (positive, negative, question)"
+  }
 }

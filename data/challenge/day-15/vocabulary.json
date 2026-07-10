@@ -1,343 +1,3360 @@
 {
   "day": 15,
-  "title": "Would Like To",
-  "totalWords": 24,
+  "title": "Day 15 Vocabulary — Would Like To (100+ Words)",
+  "totalWords": 105,
+  "categories": [
+    "Polite Requests",
+    "Verbs for Wishes",
+    "Office & Professional",
+    "Daily Life",
+    "Food & Drinks",
+    "Travel & Places",
+    "Adjectives & Descriptions",
+    "Modal Expressions"
+  ],
   "words": [
     {
       "id": 1,
-      "word": "this",
-      "hindi": "जानना चाहूँगा।",
-      "simpleMeaning": "Used in the sentence: \"I would like to know this.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I would like to know this.",
-        "office": "I would like to know this.",
-        "interview": "I would like to know this."
+      "word": "request",
+      "hindi": "अनुरोध करना / अनुरोध",
+      "simpleMeaning": "to politely ask for something",
+      "ipa": "/rɪˈkwest/",
+      "verbForms": {
+        "base": "request",
+        "s3": "requests",
+        "ing": "requesting",
+        "past": "requested",
+        "pastParticiple": "requested"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "ask",
+        "seek",
+        "appeal"
+      ],
+      "antonyms": [
+        "demand",
+        "command",
+        "order"
+      ],
+      "sentences": {
+        "daily": "I would like to request a day off.",
+        "office": "She would like to request an extension on the deadline.",
+        "interview": "I would like to request a moment to think.",
+        "business": "We would like to request a formal quote.",
+        "formal": "I would like to request your kind consideration.",
+        "informal": "Can you request a table for two?"
+      },
+      "usageNote": "'Request' is more formal than 'ask'. Use in emails and official communication.",
+      "cefrLevel": "A2",
+      "category": "Polite Requests"
     },
     {
       "id": 2,
-      "word": "you",
-      "hindi": "मिलना चाहूँगा।",
-      "simpleMeaning": "Used in the sentence: \"I would like to meet you.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I would like to meet you.",
-        "office": "I would like to meet you.",
-        "interview": "I would like to meet you."
+      "word": "arrange",
+      "hindi": "व्यवस्था करना",
+      "simpleMeaning": "to organize or plan something",
+      "ipa": "/əˈreɪndʒ/",
+      "verbForms": {
+        "base": "arrange",
+        "s3": "arranges",
+        "ing": "arranging",
+        "past": "arranged",
+        "pastParticiple": "arranged"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "organize",
+        "plan",
+        "set up"
+      ],
+      "antonyms": [
+        "disorganize",
+        "cancel",
+        "disrupt"
+      ],
+      "sentences": {
+        "daily": "I would like to arrange a family dinner.",
+        "office": "She would like to arrange a team meeting.",
+        "interview": "I would like to arrange a second interview.",
+        "business": "We would like to arrange a product demo.",
+        "formal": "I would like to arrange a formal introduction.",
+        "informal": "Can you arrange a get-together?"
+      },
+      "usageNote": "'Arrange for' means to make preparations so that something happens.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 3,
-      "word": "something",
-      "hindi": "पूछना चाहेगी।",
-      "simpleMeaning": "Used in the sentence: \"She would like to ask something.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "She would like to ask something.",
-        "office": "She would like to ask something.",
-        "interview": "She would like to ask something."
+      "word": "schedule",
+      "hindi": "समय निर्धारित करना / अनुसूची",
+      "simpleMeaning": "to plan something for a specific time",
+      "ipa": "/ˈʃedjuːl/",
+      "verbForms": {
+        "base": "schedule",
+        "s3": "schedules",
+        "ing": "scheduling",
+        "past": "scheduled",
+        "pastParticiple": "scheduled"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "plan",
+        "book",
+        "fix"
+      ],
+      "antonyms": [
+        "cancel",
+        "postpone"
+      ],
+      "sentences": {
+        "daily": "I would like to schedule a doctor's appointment.",
+        "office": "She would like to schedule a performance review.",
+        "interview": "I would like to schedule an interview at your convenience.",
+        "business": "We would like to schedule a site visit.",
+        "formal": "I would like to schedule a board meeting.",
+        "informal": "Let's schedule a coffee chat."
+      },
+      "usageNote": "American English: 'schedule' /ˈskedʒuːl/. British: /ˈʃedjuːl/.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 4,
-      "word": "coffee",
-      "hindi": "लेना चाहेंगे।",
-      "simpleMeaning": "Used in the sentence: \"We would like to have a coffee.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "We would like to have a coffee.",
-        "office": "We would like to have a coffee.",
-        "interview": "We would like to have a coffee."
+      "word": "discuss",
+      "hindi": "चर्चा करना",
+      "simpleMeaning": "to talk about something in detail",
+      "ipa": "/dɪˈskʌs/",
+      "verbForms": {
+        "base": "discuss",
+        "s3": "discusses",
+        "ing": "discussing",
+        "past": "discussed",
+        "pastParticiple": "discussed"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "talk about",
+        "deliberate",
+        "debate"
+      ],
+      "antonyms": [
+        "avoid",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I would like to discuss my weekend plans.",
+        "office": "She would like to discuss the project budget.",
+        "interview": "I would like to discuss my experience.",
+        "business": "We would like to discuss a partnership.",
+        "formal": "I would like to discuss the terms of the agreement.",
+        "informal": "Would you like to discuss it over lunch?"
+      },
+      "usageNote": "'Discuss' is never followed by 'about': discuss the issue (NOT discuss about).",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 5,
-      "word": "travel",
-      "hindi": "करना चाहेंगे।",
-      "simpleMeaning": "Used in the sentence: \"They would like to travel.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "They would like to travel.",
-        "office": "They would like to travel.",
-        "interview": "They would like to travel."
+      "word": "apply",
+      "hindi": "आवेदन करना",
+      "simpleMeaning": "to formally request a job or opportunity",
+      "ipa": "/əˈplaɪ/",
+      "verbForms": {
+        "base": "apply",
+        "s3": "applies",
+        "ing": "applying",
+        "past": "applied",
+        "pastParticiple": "applied"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "submit",
+        "register",
+        "put in for"
+      ],
+      "antonyms": [
+        "withdraw",
+        "reject"
+      ],
+      "sentences": {
+        "daily": "I would like to apply for a library membership.",
+        "office": "She would like to apply for a promotion.",
+        "interview": "I would like to apply for the position of team leader.",
+        "business": "We would like to apply for a business loan.",
+        "formal": "I would like to apply for the grant.",
+        "informal": "Should I apply for that course?"
+      },
+      "usageNote": "'Apply for' = apply for a job/position. 'Apply to' = apply to a place/organization.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 6,
-      "word": "something",
-      "hindi": "खाना चाहेंगे?",
-      "simpleMeaning": "Used in the sentence: \"Would you like to eat something?\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Would you like to eat something?",
-        "office": "Would you like to eat something?",
-        "interview": "Would you like to eat something?"
+      "word": "invite",
+      "hindi": "आमंत्रित करना",
+      "simpleMeaning": "to ask someone to come somewhere",
+      "ipa": "/ɪnˈvaɪt/",
+      "verbForms": {
+        "base": "invite",
+        "s3": "invites",
+        "ing": "inviting",
+        "past": "invited",
+        "pastParticiple": "invited"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "ask",
+        "call",
+        "welcome"
+      ],
+      "antonyms": [
+        "exclude",
+        "uninvite",
+        "dismiss"
+      ],
+      "sentences": {
+        "daily": "I would like to invite you to my birthday party.",
+        "office": "She would like to invite the client to the office.",
+        "interview": "I would like to invite you to a second round.",
+        "business": "We would like to invite you to our annual event.",
+        "formal": "I would like to invite you to address the conference.",
+        "informal": "Would you like to invite him?"
+      },
+      "usageNote": "'Invite someone to something' — always use 'to' after invite.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
     },
     {
       "id": 7,
-      "word": "this",
-      "hindi": "जानना चाहूँगा।",
-      "simpleMeaning": "Used in the sentence: \"I would like to know more about this.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I would like to know more about this.",
-        "office": "I would like to know more about this.",
-        "interview": "I would like to know more about this."
+      "word": "offer",
+      "hindi": "प्रस्ताव देना / पेशकश करना",
+      "simpleMeaning": "to present something for someone to accept",
+      "ipa": "/ˈɒfər/",
+      "verbForms": {
+        "base": "offer",
+        "s3": "offers",
+        "ing": "offering",
+        "past": "offered",
+        "pastParticiple": "offered"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "propose",
+        "present",
+        "extend"
+      ],
+      "antonyms": [
+        "withdraw",
+        "refuse",
+        "decline"
+      ],
+      "sentences": {
+        "daily": "I would like to offer you some tea.",
+        "office": "She would like to offer a solution to the problem.",
+        "interview": "I would like to offer my skills to your company.",
+        "business": "We would like to offer you a special discount.",
+        "formal": "I would like to offer my sincere apologies.",
+        "informal": "Would you like to offer help?"
+      },
+      "usageNote": "'Offer to do' = volunteer to do something. 'Offer someone something' = present something to someone.",
+      "cefrLevel": "A2",
+      "category": "Polite Requests"
     },
     {
       "id": 8,
-      "word": "opinion",
-      "hindi": "देना चाहेगा।",
-      "simpleMeaning": "Used in the sentence: \"He would like to give his opinion.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "He would like to give his opinion.",
-        "office": "He would like to give his opinion.",
-        "interview": "He would like to give his opinion."
+      "word": "suggest",
+      "hindi": "सुझाव देना",
+      "simpleMeaning": "to put forward an idea for consideration",
+      "ipa": "/səˈdʒest/",
+      "verbForms": {
+        "base": "suggest",
+        "s3": "suggests",
+        "ing": "suggesting",
+        "past": "suggested",
+        "pastParticiple": "suggested"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "recommend",
+        "propose",
+        "advise"
+      ],
+      "antonyms": [
+        "oppose",
+        "discourage"
+      ],
+      "sentences": {
+        "daily": "I would like to suggest a restaurant for dinner.",
+        "office": "She would like to suggest a new approach.",
+        "interview": "I would like to suggest ways to improve efficiency.",
+        "business": "We would like to suggest a revised timeline.",
+        "formal": "I would like to suggest that we reconsider this.",
+        "informal": "Would you like to suggest something?"
+      },
+      "usageNote": "'Suggest + gerund' OR 'suggest + that clause': suggest going / suggest that we go.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 9,
-      "word": "opportunity",
-      "hindi": "लेना चाहेंगे।",
-      "simpleMeaning": "Used in the sentence: \"We would like to take this opportunity.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "We would like to take this opportunity.",
-        "office": "We would like to take this opportunity.",
-        "interview": "We would like to take this opportunity."
+      "word": "confirm",
+      "hindi": "पुष्टि करना",
+      "simpleMeaning": "to state that something is definitely true or going to happen",
+      "ipa": "/kənˈfɜːrm/",
+      "verbForms": {
+        "base": "confirm",
+        "s3": "confirms",
+        "ing": "confirming",
+        "past": "confirmed",
+        "pastParticiple": "confirmed"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "verify",
+        "affirm",
+        "validate"
+      ],
+      "antonyms": [
+        "deny",
+        "cancel",
+        "refute"
+      ],
+      "sentences": {
+        "daily": "I would like to confirm my booking.",
+        "office": "She would like to confirm the meeting time.",
+        "interview": "I would like to confirm the interview details.",
+        "business": "We would like to confirm our order.",
+        "formal": "I would like to confirm receipt of your email.",
+        "informal": "Can you confirm the plan?"
+      },
+      "usageNote": "Common in professional emails: 'I would like to confirm...' is very standard.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 10,
-      "word": "down",
-      "hindi": "बैठना चाहेंगे?",
-      "simpleMeaning": "Used in the sentence: \"Would you like to sit down?\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Would you like to sit down?",
-        "office": "Would you like to sit down?",
-        "interview": "Would you like to sit down?"
+      "word": "cancel",
+      "hindi": "रद्द करना",
+      "simpleMeaning": "to decide not to do something already planned",
+      "ipa": "/ˈkænsəl/",
+      "verbForms": {
+        "base": "cancel",
+        "s3": "cancels",
+        "ing": "cancelling",
+        "past": "cancelled",
+        "pastParticiple": "cancelled"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "call off",
+        "abort",
+        "revoke"
+      ],
+      "antonyms": [
+        "confirm",
+        "book",
+        "schedule"
+      ],
+      "sentences": {
+        "daily": "I would not like to cancel our plans.",
+        "office": "She would like to cancel the afternoon meeting.",
+        "interview": "I would like to cancel and reschedule our meeting.",
+        "business": "We would not like to cancel the contract.",
+        "formal": "I would like to formally cancel my subscription.",
+        "informal": "Do you want to cancel?"
+      },
+      "usageNote": "British English: 'cancelled'. American English: 'canceled'. Both are correct.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 11,
-      "word": "you",
-      "hindi": "कहना चाहूँगा।",
-      "simpleMeaning": "Used in the sentence: \"I would like to say thank you.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I would like to say thank you.",
-        "office": "I would like to say thank you.",
-        "interview": "I would like to say thank you."
+      "word": "inform",
+      "hindi": "सूचित करना",
+      "simpleMeaning": "to give someone information about something",
+      "ipa": "/ɪnˈfɔːrm/",
+      "verbForms": {
+        "base": "inform",
+        "s3": "informs",
+        "ing": "informing",
+        "past": "informed",
+        "pastParticiple": "informed"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "notify",
+        "tell",
+        "advise"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "I would like to inform you about the party.",
+        "office": "She would like to inform the team of the changes.",
+        "interview": "I would like to inform you of my availability.",
+        "business": "We would like to inform you of a price change.",
+        "formal": "I would like to inform you that your application was successful.",
+        "informal": "Would you like to inform everyone?"
+      },
+      "usageNote": "Very formal expression. Often used in official letters/emails.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
     },
     {
       "id": 12,
-      "word": "idea",
-      "hindi": "करना चाहेगी।",
-      "simpleMeaning": "Used in the sentence: \"She would like to share her idea.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "She would like to share her idea.",
-        "office": "She would like to share her idea.",
-        "interview": "She would like to share her idea."
+      "word": "order",
+      "hindi": "आदेश देना / ऑर्डर करना",
+      "simpleMeaning": "to ask for food/goods to be brought or made",
+      "ipa": "/ˈɔːrdər/",
+      "verbForms": {
+        "base": "order",
+        "s3": "orders",
+        "ing": "ordering",
+        "past": "ordered",
+        "pastParticiple": "ordered"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "request",
+        "ask for",
+        "book"
+      ],
+      "antonyms": [
+        "cancel",
+        "return"
+      ],
+      "sentences": {
+        "daily": "I would like to order a pizza.",
+        "office": "She would like to order new office supplies.",
+        "interview": "I would like to order my thoughts before answering.",
+        "business": "We would like to order 500 units.",
+        "formal": "I would like to place an order for your services.",
+        "informal": "Would you like to order something?"
+      },
+      "usageNote": "'Order' in a restaurant = ask for food. 'Place an order' = formal business language.",
+      "cefrLevel": "A1",
+      "category": "Food & Drinks"
     },
     {
       "id": 13,
-      "word": "project",
-      "hindi": "करना चाहेंगे।",
-      "simpleMeaning": "Used in the sentence: \"We would like to work on this project.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "We would like to work on this project.",
-        "office": "We would like to work on this project.",
-        "interview": "We would like to work on this project."
+      "word": "reserve",
+      "hindi": "आरक्षित करना / बुक करना",
+      "simpleMeaning": "to book something in advance",
+      "ipa": "/rɪˈzɜːrv/",
+      "verbForms": {
+        "base": "reserve",
+        "s3": "reserves",
+        "ing": "reserving",
+        "past": "reserved",
+        "pastParticiple": "reserved"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "book",
+        "hold",
+        "pre-book"
+      ],
+      "antonyms": [
+        "cancel",
+        "release"
+      ],
+      "sentences": {
+        "daily": "I would like to reserve a table for four.",
+        "office": "She would like to reserve the conference room.",
+        "interview": "I would like to reserve some time to ask questions.",
+        "business": "We would like to reserve a spot at the exhibition.",
+        "formal": "I would like to reserve your services for next month.",
+        "informal": "Can you reserve a seat for me?"
+      },
+      "usageNote": "'Reserve' is slightly more formal than 'book'. Both mean the same.",
+      "cefrLevel": "A2",
+      "category": "Travel & Places"
     },
     {
       "id": 14,
-      "word": "something",
-      "hindi": "पीना चाहोगे?",
-      "simpleMeaning": "Used in the sentence: \"Would you like to drink something?\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Would you like to drink something?",
-        "office": "Would you like to drink something?",
-        "interview": "Would you like to drink something?"
+      "word": "explore",
+      "hindi": "खोजना / जानने की कोशिश करना",
+      "simpleMeaning": "to examine or investigate something",
+      "ipa": "/ɪkˈsplɔːr/",
+      "verbForms": {
+        "base": "explore",
+        "s3": "explores",
+        "ing": "exploring",
+        "past": "explored",
+        "pastParticiple": "explored"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "investigate",
+        "examine",
+        "discover"
+      ],
+      "antonyms": [
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "I would like to explore new hobbies.",
+        "office": "She would like to explore new marketing strategies.",
+        "interview": "I would like to explore opportunities in this company.",
+        "business": "We would like to explore a collaboration.",
+        "formal": "I would like to explore all available options.",
+        "informal": "Would you like to explore the city?"
+      },
+      "usageNote": "'Explore' is often used figuratively in professional settings: explore options/opportunities.",
+      "cefrLevel": "A2",
+      "category": "Travel & Places"
     },
     {
       "id": 15,
-      "word": "apologize",
-      "hindi": "मांगना चाहूँगा।",
-      "simpleMeaning": "Used in the sentence: \"I would like to apologize.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I would like to apologize.",
-        "office": "I would like to apologize.",
-        "interview": "I would like to apologize."
+      "word": "contribute",
+      "hindi": "योगदान देना",
+      "simpleMeaning": "to give or add something to a shared effort",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "verbForms": {
+        "base": "contribute",
+        "s3": "contributes",
+        "ing": "contributing",
+        "past": "contributed",
+        "pastParticiple": "contributed"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "add",
+        "give",
+        "participate"
+      ],
+      "antonyms": [
+        "withhold",
+        "take",
+        "subtract"
+      ],
+      "sentences": {
+        "daily": "I would like to contribute to this community project.",
+        "office": "She would like to contribute ideas in the meeting.",
+        "interview": "I would like to contribute my technical skills.",
+        "business": "We would like to contribute to your growth.",
+        "formal": "I would like to contribute to this academic discussion.",
+        "informal": "Would you like to contribute something?"
+      },
+      "usageNote": "'Contribute to' = add to. Great word for interviews: 'I would like to contribute to...'",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
     },
     {
       "id": 16,
-      "word": "topic",
-      "hindi": "करना चाहेंगे।",
-      "simpleMeaning": "Used in the sentence: \"They would like to discuss this topic.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "They would like to discuss this topic.",
-        "office": "They would like to discuss this topic.",
-        "interview": "They would like to discuss this topic."
+      "word": "improve",
+      "hindi": "सुधारना",
+      "simpleMeaning": "to make something better",
+      "ipa": "/ɪmˈpruːv/",
+      "verbForms": {
+        "base": "improve",
+        "s3": "improves",
+        "ing": "improving",
+        "past": "improved",
+        "pastParticiple": "improved"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "enhance",
+        "upgrade",
+        "develop"
+      ],
+      "antonyms": [
+        "worsen",
+        "damage",
+        "deteriorate"
+      ],
+      "sentences": {
+        "daily": "I would like to improve my communication skills.",
+        "office": "She would like to improve team productivity.",
+        "interview": "I would like to improve my performance consistently.",
+        "business": "We would like to improve our customer satisfaction.",
+        "formal": "I would like to improve the quality of our output.",
+        "informal": "Would you like to improve your English?"
+      },
+      "usageNote": "Very useful in interview context: 'I would like to improve...' shows ambition.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
     },
     {
       "id": 17,
-      "word": "question",
-      "hindi": "पूछना चाहूँगा।",
-      "simpleMeaning": "Used in the sentence: \"I would like to ask this question.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I would like to ask this question.",
-        "office": "I would like to ask this question.",
-        "interview": "I would like to ask this question."
+      "word": "clarify",
+      "hindi": "स्पष्ट करना",
+      "simpleMeaning": "to make something clearer or easier to understand",
+      "ipa": "/ˈklærɪfaɪ/",
+      "verbForms": {
+        "base": "clarify",
+        "s3": "clarifies",
+        "ing": "clarifying",
+        "past": "clarified",
+        "pastParticiple": "clarified"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "explain",
+        "clear up",
+        "simplify"
+      ],
+      "antonyms": [
+        "confuse",
+        "complicate",
+        "obscure"
+      ],
+      "sentences": {
+        "daily": "I would like to clarify my position.",
+        "office": "She would like to clarify the instructions.",
+        "interview": "I would like to clarify one point about my experience.",
+        "business": "We would like to clarify the terms of the deal.",
+        "formal": "I would like to clarify my earlier statement.",
+        "informal": "Can you clarify what you mean?"
+      },
+      "usageNote": "Use in meetings/interviews: 'I would like to clarify...' shows professionalism.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
     },
     {
       "id": 18,
-      "word": "break",
-      "hindi": "लेना चाहेगा।",
-      "simpleMeaning": "Used in the sentence: \"He would like to take a break.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "He would like to take a break.",
-        "office": "He would like to take a break.",
-        "interview": "He would like to take a break."
+      "word": "apologize",
+      "hindi": "माफी माँगना",
+      "simpleMeaning": "to say sorry for something",
+      "ipa": "/əˈpɒlədʒaɪz/",
+      "verbForms": {
+        "base": "apologize",
+        "s3": "apologizes",
+        "ing": "apologizing",
+        "past": "apologized",
+        "pastParticiple": "apologized"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "say sorry",
+        "express regret",
+        "ask forgiveness"
+      ],
+      "antonyms": [
+        "blame",
+        "accuse"
+      ],
+      "sentences": {
+        "daily": "I would like to apologize for being late.",
+        "office": "She would like to apologize for the miscommunication.",
+        "interview": "I would like to apologize for any confusion.",
+        "business": "We would like to apologize for the delay.",
+        "formal": "I would like to sincerely apologize for this error.",
+        "informal": "Would you like to apologize?"
+      },
+      "usageNote": "British spelling: 'apologise'. Both forms are accepted internationally.",
+      "cefrLevel": "A2",
+      "category": "Polite Requests"
     },
     {
       "id": 19,
-      "word": "you",
-      "hindi": "करना चाहेंगे।",
-      "simpleMeaning": "Used in the sentence: \"We would like to help you.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "We would like to help you.",
-        "office": "We would like to help you.",
-        "interview": "We would like to help you."
+      "word": "congratulate",
+      "hindi": "बधाई देना",
+      "simpleMeaning": "to praise someone for an achievement",
+      "ipa": "/kənˈɡrætʃuleɪt/",
+      "verbForms": {
+        "base": "congratulate",
+        "s3": "congratulates",
+        "ing": "congratulating",
+        "past": "congratulated",
+        "pastParticiple": "congratulated"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "praise",
+        "commend",
+        "felicitate"
+      ],
+      "antonyms": [
+        "criticize",
+        "condemn"
+      ],
+      "sentences": {
+        "daily": "I would like to congratulate my sister.",
+        "office": "She would like to congratulate the team.",
+        "interview": "I would like to congratulate you on your success.",
+        "business": "We would like to congratulate our partners.",
+        "formal": "I would like to congratulate you on this achievement.",
+        "informal": "Would you like to congratulate him?"
+      },
+      "usageNote": "'Congratulate on' — always use 'on': congratulate on an achievement.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
     },
     {
       "id": 20,
-      "word": "something",
-      "hindi": "कहना चाहेंगे?",
-      "simpleMeaning": "Used in the sentence: \"Would you like to say something?\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Would you like to say something?",
-        "office": "Would you like to say something?",
-        "interview": "Would you like to say something?"
+      "word": "introduce",
+      "hindi": "परिचय कराना",
+      "simpleMeaning": "to present someone or something for the first time",
+      "ipa": "/ˌɪntrəˈdjuːs/",
+      "verbForms": {
+        "base": "introduce",
+        "s3": "introduces",
+        "ing": "introducing",
+        "past": "introduced",
+        "pastParticiple": "introduced"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "present",
+        "bring in",
+        "acquaint"
+      ],
+      "antonyms": [
+        "conceal",
+        "hide"
+      ],
+      "sentences": {
+        "daily": "I would like to introduce my friend Priya.",
+        "office": "She would like to introduce the new team member.",
+        "interview": "I would like to introduce myself briefly.",
+        "business": "We would like to introduce our new product line.",
+        "formal": "I would like to formally introduce our new CEO.",
+        "informal": "Would you like to introduce yourself?"
+      },
+      "usageNote": "'Introduce someone to someone' — always use 'to'.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
     },
     {
       "id": 21,
-      "word": "this",
-      "hindi": "सीखना चाहूँगा।",
-      "simpleMeaning": "Used in the sentence: \"I would like to learn this.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I would like to learn this.",
-        "office": "I would like to learn this.",
-        "interview": "I would like to learn this."
+      "word": "attend",
+      "hindi": "उपस्थित होना / भाग लेना",
+      "simpleMeaning": "to be present at an event or meeting",
+      "ipa": "/əˈtend/",
+      "verbForms": {
+        "base": "attend",
+        "s3": "attends",
+        "ing": "attending",
+        "past": "attended",
+        "pastParticiple": "attended"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "go to",
+        "participate",
+        "be present"
+      ],
+      "antonyms": [
+        "miss",
+        "skip",
+        "absent"
+      ],
+      "sentences": {
+        "daily": "I would like to attend the cultural festival.",
+        "office": "She would like to attend the leadership workshop.",
+        "interview": "I would like to attend the second interview.",
+        "business": "We would like to attend the trade fair.",
+        "formal": "I would like to attend the annual general meeting.",
+        "informal": "Would you like to attend the party?"
+      },
+      "usageNote": "'Attend' is more formal than 'go to'. Use in professional contexts.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 22,
-      "word": "presentation",
-      "hindi": "देना चाहेगी।",
-      "simpleMeaning": "Used in the sentence: \"She would like to give a presentation.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "She would like to give a presentation.",
-        "office": "She would like to give a presentation.",
-        "interview": "She would like to give a presentation."
+      "word": "present",
+      "hindi": "प्रस्तुत करना / देना",
+      "simpleMeaning": "to show or give something formally",
+      "ipa": "/prɪˈzent/",
+      "verbForms": {
+        "base": "present",
+        "s3": "presents",
+        "ing": "presenting",
+        "past": "presented",
+        "pastParticiple": "presented"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "show",
+        "demonstrate",
+        "deliver"
+      ],
+      "antonyms": [
+        "hide",
+        "conceal",
+        "receive"
+      ],
+      "sentences": {
+        "daily": "I would like to present my idea to the group.",
+        "office": "She would like to present the quarterly report.",
+        "interview": "I would like to present my portfolio.",
+        "business": "We would like to present our proposal.",
+        "formal": "I would like to present my findings.",
+        "informal": "Would you like to present first?"
+      },
+      "usageNote": "'Present' as verb = /prɪˈzent/ (different stress from noun: /ˈprezənt/).",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
     },
     {
       "id": 23,
-      "word": "soon",
-      "hindi": "करना चाहेंगे।",
-      "simpleMeaning": "Used in the sentence: \"We would like to finish this soon.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "We would like to finish this soon.",
-        "office": "We would like to finish this soon.",
-        "interview": "We would like to finish this soon."
+      "word": "recommend",
+      "hindi": "सिफारिश करना",
+      "simpleMeaning": "to suggest something as good or suitable",
+      "ipa": "/ˌrekəˈmend/",
+      "verbForms": {
+        "base": "recommend",
+        "s3": "recommends",
+        "ing": "recommending",
+        "past": "recommended",
+        "pastParticiple": "recommended"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "suggest",
+        "advise",
+        "endorse"
+      ],
+      "antonyms": [
+        "warn against",
+        "discourage"
+      ],
+      "sentences": {
+        "daily": "I would like to recommend this restaurant.",
+        "office": "She would like to recommend a new tool.",
+        "interview": "I would like to recommend myself for this role.",
+        "business": "We would like to recommend our premium service.",
+        "formal": "I would like to recommend this candidate.",
+        "informal": "Would you like to recommend a book?"
+      },
+      "usageNote": "'Recommend + gerund' OR 'recommend + that clause': recommend trying / recommend that you try.",
+      "cefrLevel": "B1",
+      "category": "Daily Life"
     },
     {
       "id": 24,
-      "word": "suggestion",
-      "hindi": "देना चाहूँगा।",
-      "simpleMeaning": "Used in the sentence: \"I would like to give a suggestion.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "I would like to give a suggestion.",
-        "office": "I would like to give a suggestion.",
-        "interview": "I would like to give a suggestion."
+      "word": "join",
+      "hindi": "शामिल होना",
+      "simpleMeaning": "to become a part of a group or activity",
+      "ipa": "/dʒɔɪn/",
+      "verbForms": {
+        "base": "join",
+        "s3": "joins",
+        "ing": "joining",
+        "past": "joined",
+        "pastParticiple": "joined"
       },
-      "usageNote": "Appears with Would Like To",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "participate",
+        "enter",
+        "enroll"
+      ],
+      "antonyms": [
+        "leave",
+        "quit",
+        "exit"
+      ],
+      "sentences": {
+        "daily": "I would like to join the yoga class.",
+        "office": "She would like to join the project team.",
+        "interview": "I would like to join your organization.",
+        "business": "We would like to join the industry association.",
+        "formal": "I would like to join the board of directors.",
+        "informal": "Would you like to join us?"
+      },
+      "usageNote": "'Join' for groups/organizations. 'Join in' = participate in an activity already happening.",
+      "cefrLevel": "A1",
+      "category": "Daily Life"
+    },
+    {
+      "id": 25,
+      "word": "expand",
+      "hindi": "विस्तार करना",
+      "simpleMeaning": "to make or become larger",
+      "ipa": "/ɪkˈspænd/",
+      "verbForms": {
+        "base": "expand",
+        "s3": "expands",
+        "ing": "expanding",
+        "past": "expanded",
+        "pastParticiple": "expanded"
+      },
+      "synonyms": [
+        "grow",
+        "extend",
+        "enlarge"
+      ],
+      "antonyms": [
+        "shrink",
+        "reduce",
+        "contract"
+      ],
+      "sentences": {
+        "daily": "I would like to expand my knowledge.",
+        "office": "She would like to expand the department.",
+        "interview": "I would like to expand my skill set.",
+        "business": "We would like to expand to new markets.",
+        "formal": "I would like to expand on this point.",
+        "informal": "Would you like to expand your horizons?"
+      },
+      "usageNote": "'Expand on' = explain in more detail. Very useful in meetings.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 26,
+      "word": "negotiate",
+      "hindi": "बातचीत करना / सौदा करना",
+      "simpleMeaning": "to discuss something to reach an agreement",
+      "ipa": "/nɪˈɡoʊʃieɪt/",
+      "verbForms": {
+        "base": "negotiate",
+        "s3": "negotiates",
+        "ing": "negotiating",
+        "past": "negotiated",
+        "pastParticiple": "negotiated"
+      },
+      "synonyms": [
+        "bargain",
+        "deal",
+        "discuss"
+      ],
+      "antonyms": [
+        "demand",
+        "refuse"
+      ],
+      "sentences": {
+        "daily": "I would like to negotiate the price.",
+        "office": "She would like to negotiate the contract.",
+        "interview": "I would like to negotiate the salary package.",
+        "business": "We would like to negotiate the terms.",
+        "formal": "I would like to negotiate a mutually beneficial agreement.",
+        "informal": "Would you like to negotiate?"
+      },
+      "usageNote": "'Negotiate with someone about something' — a key business skill.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 27,
+      "word": "visit",
+      "hindi": "मिलने जाना / दौरा करना",
+      "simpleMeaning": "to go to see a person or place",
+      "ipa": "/ˈvɪzɪt/",
+      "verbForms": {
+        "base": "visit",
+        "s3": "visits",
+        "ing": "visiting",
+        "past": "visited",
+        "pastParticiple": "visited"
+      },
+      "synonyms": [
+        "go to",
+        "call on",
+        "stop by"
+      ],
+      "antonyms": [
+        "leave",
+        "avoid"
+      ],
+      "sentences": {
+        "daily": "I would like to visit my grandparents.",
+        "office": "She would like to visit the client's office.",
+        "interview": "I would like to visit your headquarters.",
+        "business": "We would like to visit your factory.",
+        "formal": "I would like to visit the site before making a decision.",
+        "informal": "Would you like to visit the museum?"
+      },
+      "usageNote": "'Visit someone' = go to see someone. 'Pay a visit' = make a formal visit.",
+      "cefrLevel": "A1",
+      "category": "Travel & Places"
+    },
+    {
+      "id": 28,
+      "word": "travel",
+      "hindi": "यात्रा करना",
+      "simpleMeaning": "to go from one place to another",
+      "ipa": "/ˈtrævəl/",
+      "verbForms": {
+        "base": "travel",
+        "s3": "travels",
+        "ing": "travelling",
+        "past": "travelled",
+        "pastParticiple": "travelled"
+      },
+      "synonyms": [
+        "journey",
+        "go",
+        "tour"
+      ],
+      "antonyms": [
+        "stay",
+        "remain"
+      ],
+      "sentences": {
+        "daily": "I would like to travel to Manali.",
+        "office": "She would like to travel for work.",
+        "interview": "I would like to travel internationally for this role.",
+        "business": "We would like to travel to meet our clients.",
+        "formal": "I would like to travel as part of my duties.",
+        "informal": "Would you like to travel abroad?"
+      },
+      "usageNote": "British: 'travelled/travelling'. American: 'traveled/traveling'. Both correct.",
+      "cefrLevel": "A1",
+      "category": "Travel & Places"
+    },
+    {
+      "id": 29,
+      "word": "stay",
+      "hindi": "रुकना / ठहरना",
+      "simpleMeaning": "to remain in a place or continue in a condition",
+      "ipa": "/steɪ/",
+      "verbForms": {
+        "base": "stay",
+        "s3": "stays",
+        "ing": "staying",
+        "past": "stayed",
+        "pastParticiple": "stayed"
+      },
+      "synonyms": [
+        "remain",
+        "lodge",
+        "reside"
+      ],
+      "antonyms": [
+        "leave",
+        "go",
+        "depart"
+      ],
+      "sentences": {
+        "daily": "I would like to stay at home today.",
+        "office": "She would like to stay late to finish the project.",
+        "interview": "I would like to stay with this company long-term.",
+        "business": "We would like to stay competitive.",
+        "formal": "I would like to stay in touch with your team.",
+        "informal": "Would you like to stay for dinner?"
+      },
+      "usageNote": "'Stay in touch' = keep in contact. Very useful phrase.",
+      "cefrLevel": "A1",
+      "category": "Daily Life"
+    },
+    {
+      "id": 30,
+      "word": "meet",
+      "hindi": "मिलना",
+      "simpleMeaning": "to come into contact with someone for the first time or by arrangement",
+      "ipa": "/miːt/",
+      "verbForms": {
+        "base": "meet",
+        "s3": "meets",
+        "ing": "meeting",
+        "past": "met",
+        "pastParticiple": "met"
+      },
+      "synonyms": [
+        "encounter",
+        "see",
+        "gather"
+      ],
+      "antonyms": [
+        "avoid",
+        "miss",
+        "separate"
+      ],
+      "sentences": {
+        "daily": "I would like to meet your family.",
+        "office": "She would like to meet the new clients.",
+        "interview": "I would like to meet the team I'll be working with.",
+        "business": "We would like to meet to discuss the proposal.",
+        "formal": "I would like to meet at your earliest convenience.",
+        "informal": "Would you like to meet for coffee?"
+      },
+      "usageNote": "'Meet with' = have a formal meeting (American English). 'Meet' = encounter or get together.",
+      "cefrLevel": "A1",
+      "category": "Daily Life"
+    },
+    {
+      "id": 31,
+      "word": "polite",
+      "hindi": "विनम्र",
+      "simpleMeaning": "having good manners; showing respect for others",
+      "ipa": "/pəˈlaɪt/",
+      "synonyms": [
+        "courteous",
+        "respectful",
+        "mannerly"
+      ],
+      "antonyms": [
+        "rude",
+        "impolite",
+        "discourteous"
+      ],
+      "sentences": {
+        "daily": "Be polite when talking to elders.",
+        "office": "It is polite to say thank you after a meeting.",
+        "interview": "I would like to be polite and professional.",
+        "business": "Polite communication builds trust.",
+        "formal": "A polite tone is expected in formal emails.",
+        "informal": "He's always so polite."
+      },
+      "usageNote": "'Polite' is an adjective. Adverb: 'politely'.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 32,
+      "word": "formal",
+      "hindi": "औपचारिक",
+      "simpleMeaning": "following official rules and customs; serious in manner",
+      "ipa": "/ˈfɔːrməl/",
+      "synonyms": [
+        "official",
+        "proper",
+        "ceremonial"
+      ],
+      "antonyms": [
+        "informal",
+        "casual",
+        "relaxed"
+      ],
+      "sentences": {
+        "daily": "I need a formal dress for the event.",
+        "office": "Use formal language in official emails.",
+        "interview": "This is a formal interview process.",
+        "business": "A formal contract is required.",
+        "formal": "I would like to make a formal complaint.",
+        "informal": "Keep it formal, not casual."
+      },
+      "usageNote": "'Formal' = following rules. 'Informal' = relaxed/casual. Know the context.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 33,
+      "word": "professional",
+      "hindi": "पेशेवर",
+      "simpleMeaning": "relating to a job or career; skilled and competent",
+      "ipa": "/prəˈfeʃənəl/",
+      "synonyms": [
+        "expert",
+        "skilled",
+        "competent"
+      ],
+      "antonyms": [
+        "amateur",
+        "unskilled",
+        "unprofessional"
+      ],
+      "sentences": {
+        "daily": "Act professional in all situations.",
+        "office": "She has a very professional approach.",
+        "interview": "I would like to maintain a professional attitude.",
+        "business": "Professional behavior is essential.",
+        "formal": "I would like to seek your professional advice.",
+        "informal": "He looks so professional!"
+      },
+      "usageNote": "Used as both adjective and noun: 'He is a professional.' / 'professional behavior'.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 34,
+      "word": "convenient",
+      "hindi": "सुविधाजनक",
+      "simpleMeaning": "suitable and easy to use; not causing difficulty",
+      "ipa": "/kənˈviːniənt/",
+      "synonyms": [
+        "suitable",
+        "handy",
+        "accessible"
+      ],
+      "antonyms": [
+        "inconvenient",
+        "awkward",
+        "difficult"
+      ],
+      "sentences": {
+        "daily": "Is tomorrow convenient for you?",
+        "office": "Let's find a convenient meeting time.",
+        "interview": "I would like to schedule at a convenient time.",
+        "business": "The location is convenient for both parties.",
+        "formal": "I would like to meet at a time convenient for you.",
+        "informal": "Is it convenient?"
+      },
+      "usageNote": "'At your convenience' = whenever is easiest for you. Common in formal emails.",
+      "cefrLevel": "B1",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 35,
+      "word": "appreciate",
+      "hindi": "सराहना करना / आभारी होना",
+      "simpleMeaning": "to recognize the value or quality of something; to be grateful",
+      "ipa": "/əˈpriːʃieɪt/",
+      "verbForms": {
+        "base": "appreciate",
+        "s3": "appreciates",
+        "ing": "appreciating",
+        "past": "appreciated",
+        "pastParticiple": "appreciated"
+      },
+      "synonyms": [
+        "value",
+        "acknowledge",
+        "treasure"
+      ],
+      "antonyms": [
+        "disregard",
+        "belittle",
+        "undervalue"
+      ],
+      "sentences": {
+        "daily": "I would like to appreciate your help.",
+        "office": "She would like to appreciate the team's effort.",
+        "interview": "I appreciate the opportunity to be here.",
+        "business": "We would like to appreciate your partnership.",
+        "formal": "I would like to appreciate your kind gesture.",
+        "informal": "Do you appreciate what he did?"
+      },
+      "usageNote": "'I appreciate it' = I am grateful. Very common and natural in formal English.",
+      "cefrLevel": "A2",
+      "category": "Polite Requests"
+    },
+    {
+      "id": 36,
+      "word": "prefer",
+      "hindi": "प्राथमिकता देना / पसंद करना",
+      "simpleMeaning": "to like one thing better than another",
+      "ipa": "/prɪˈfɜːr/",
+      "verbForms": {
+        "base": "prefer",
+        "s3": "prefers",
+        "ing": "preferring",
+        "past": "preferred",
+        "pastParticiple": "preferred"
+      },
+      "synonyms": [
+        "choose",
+        "favor",
+        "like better"
+      ],
+      "antonyms": [
+        "dislike",
+        "reject"
+      ],
+      "sentences": {
+        "daily": "I would prefer to wake up early.",
+        "office": "She would prefer to work from home.",
+        "interview": "I would prefer a role with more responsibility.",
+        "business": "We would prefer a shorter timeline.",
+        "formal": "I would prefer to address this in writing.",
+        "informal": "Would you prefer tea or coffee?"
+      },
+      "usageNote": "'Prefer + to + infinitive' OR 'prefer + gerund'. Both: prefer to go / prefer going.",
+      "cefrLevel": "A2",
+      "category": "Modal Expressions"
+    },
+    {
+      "id": 37,
+      "word": "respond",
+      "hindi": "जवाब देना / प्रतिक्रिया देना",
+      "simpleMeaning": "to reply or react to something",
+      "ipa": "/rɪˈspɒnd/",
+      "verbForms": {
+        "base": "respond",
+        "s3": "responds",
+        "ing": "responding",
+        "past": "responded",
+        "pastParticiple": "responded"
+      },
+      "synonyms": [
+        "reply",
+        "answer",
+        "react"
+      ],
+      "antonyms": [
+        "ignore",
+        "remain silent"
+      ],
+      "sentences": {
+        "daily": "I would like to respond to your message.",
+        "office": "She would like to respond to the complaint.",
+        "interview": "I would like to respond to your question with an example.",
+        "business": "We would like to respond to your proposal.",
+        "formal": "I would like to respond to your inquiry promptly.",
+        "informal": "Would you like to respond?"
+      },
+      "usageNote": "'Respond to' = reply to. More formal than 'reply'.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 38,
+      "word": "decline",
+      "hindi": "मना करना / इनकार करना",
+      "simpleMeaning": "to politely refuse an offer or invitation",
+      "ipa": "/dɪˈklaɪn/",
+      "verbForms": {
+        "base": "decline",
+        "s3": "declines",
+        "ing": "declining",
+        "past": "declined",
+        "pastParticiple": "declined"
+      },
+      "synonyms": [
+        "refuse",
+        "turn down",
+        "reject"
+      ],
+      "antonyms": [
+        "accept",
+        "agree",
+        "approve"
+      ],
+      "sentences": {
+        "daily": "I would like to decline this invitation politely.",
+        "office": "She would like to decline the offer.",
+        "interview": "I would like to decline and ask for more time.",
+        "business": "We would like to decline the current terms.",
+        "formal": "I would like to respectfully decline.",
+        "informal": "Would you like to decline?"
+      },
+      "usageNote": "'Decline' is more polite and formal than 'refuse'.",
+      "cefrLevel": "B1",
+      "category": "Polite Requests"
+    },
+    {
+      "id": 39,
+      "word": "accept",
+      "hindi": "स्वीकार करना",
+      "simpleMeaning": "to agree to receive or take something",
+      "ipa": "/əkˈsept/",
+      "verbForms": {
+        "base": "accept",
+        "s3": "accepts",
+        "ing": "accepting",
+        "past": "accepted",
+        "pastParticiple": "accepted"
+      },
+      "synonyms": [
+        "receive",
+        "take",
+        "agree to"
+      ],
+      "antonyms": [
+        "reject",
+        "decline",
+        "refuse"
+      ],
+      "sentences": {
+        "daily": "I would like to accept your invitation.",
+        "office": "She would like to accept the new responsibilities.",
+        "interview": "I would like to accept this job offer.",
+        "business": "We would like to accept the terms.",
+        "formal": "I would like to formally accept your proposal.",
+        "informal": "Would you like to accept?"
+      },
+      "usageNote": "'Accept' + noun/gerund. Don't confuse with 'except' (= excluding).",
+      "cefrLevel": "A2",
+      "category": "Polite Requests"
+    },
+    {
+      "id": 40,
+      "word": "assist",
+      "hindi": "मदद करना / सहायता करना",
+      "simpleMeaning": "to help someone do something",
+      "ipa": "/əˈsɪst/",
+      "verbForms": {
+        "base": "assist",
+        "s3": "assists",
+        "ing": "assisting",
+        "past": "assisted",
+        "pastParticiple": "assisted"
+      },
+      "synonyms": [
+        "help",
+        "support",
+        "aid"
+      ],
+      "antonyms": [
+        "hinder",
+        "obstruct"
+      ],
+      "sentences": {
+        "daily": "I would like to assist you with this.",
+        "office": "She would like to assist in the onboarding.",
+        "interview": "I would like to assist the team wherever needed.",
+        "business": "We would like to assist with the implementation.",
+        "formal": "I would like to assist in resolving this matter.",
+        "informal": "Would you like to assist?"
+      },
+      "usageNote": "'Assist' is more formal than 'help'. Use in professional communication.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 41,
+      "word": "achieve",
+      "hindi": "हासिल करना / प्राप्त करना",
+      "simpleMeaning": "to successfully complete or attain something",
+      "ipa": "/əˈtʃiːv/",
+      "verbForms": {
+        "base": "achieve",
+        "s3": "achieves",
+        "ing": "achieving",
+        "past": "achieved",
+        "pastParticiple": "achieved"
+      },
+      "synonyms": [
+        "accomplish",
+        "attain",
+        "reach"
+      ],
+      "antonyms": [
+        "fail",
+        "miss",
+        "lose"
+      ],
+      "sentences": {
+        "daily": "I would like to achieve my fitness goals.",
+        "office": "She would like to achieve the quarterly targets.",
+        "interview": "I would like to achieve excellence in this role.",
+        "business": "We would like to achieve market leadership.",
+        "formal": "I would like to achieve this milestone.",
+        "informal": "What would you like to achieve?"
+      },
+      "usageNote": "'Achieve a goal/target/result'. Common in interview: 'I would like to achieve...'",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 42,
+      "word": "experience",
+      "hindi": "अनुभव करना / अनुभव",
+      "simpleMeaning": "to have or live through something; knowledge gained from practice",
+      "ipa": "/ɪkˈspɪəriəns/",
+      "verbForms": {
+        "base": "experience",
+        "s3": "experiences",
+        "ing": "experiencing",
+        "past": "experienced",
+        "pastParticiple": "experienced"
+      },
+      "synonyms": [
+        "undergo",
+        "encounter",
+        "live through"
+      ],
+      "antonyms": [
+        "miss",
+        "avoid"
+      ],
+      "sentences": {
+        "daily": "I would like to experience different cultures.",
+        "office": "She would like to experience new challenges.",
+        "interview": "I would like to bring my experience to your team.",
+        "business": "We would like to experience your product firsthand.",
+        "formal": "I would like to experience your services.",
+        "informal": "Would you like to experience this?"
+      },
+      "usageNote": "Noun AND verb. As verb: experience something = go through it. Very useful in interviews.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 43,
+      "word": "develop",
+      "hindi": "विकसित करना",
+      "simpleMeaning": "to grow or cause something to grow; to build a skill",
+      "ipa": "/dɪˈveləp/",
+      "verbForms": {
+        "base": "develop",
+        "s3": "develops",
+        "ing": "developing",
+        "past": "developed",
+        "pastParticiple": "developed"
+      },
+      "synonyms": [
+        "grow",
+        "build",
+        "advance"
+      ],
+      "antonyms": [
+        "hinder",
+        "stagnate",
+        "deteriorate"
+      ],
+      "sentences": {
+        "daily": "I would like to develop a new hobby.",
+        "office": "She would like to develop her leadership skills.",
+        "interview": "I would like to develop professionally in this role.",
+        "business": "We would like to develop a new product.",
+        "formal": "I would like to develop a comprehensive strategy.",
+        "informal": "Would you like to develop your talents?"
+      },
+      "usageNote": "'Develop' suggests gradual progress. 'Develop a skill/product/strategy'.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 44,
+      "word": "mention",
+      "hindi": "उल्लेख करना / बताना",
+      "simpleMeaning": "to briefly refer to or state something",
+      "ipa": "/ˈmenʃən/",
+      "verbForms": {
+        "base": "mention",
+        "s3": "mentions",
+        "ing": "mentioning",
+        "past": "mentioned",
+        "pastParticiple": "mentioned"
+      },
+      "synonyms": [
+        "state",
+        "note",
+        "refer to"
+      ],
+      "antonyms": [
+        "omit",
+        "hide",
+        "conceal"
+      ],
+      "sentences": {
+        "daily": "I would like to mention one more thing.",
+        "office": "She would like to mention the new policy.",
+        "interview": "I would like to mention my achievements.",
+        "business": "We would like to mention our success rate.",
+        "formal": "I would like to mention that this is time-sensitive.",
+        "informal": "Would you like to mention anything?"
+      },
+      "usageNote": "'Mention' = briefly note. 'Not to mention' = used for emphasis: It's expensive, not to mention risky.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 45,
+      "word": "extend",
+      "hindi": "बढ़ाना / विस्तार करना",
+      "simpleMeaning": "to make something longer or bigger; to offer something",
+      "ipa": "/ɪkˈstend/",
+      "verbForms": {
+        "base": "extend",
+        "s3": "extends",
+        "ing": "extending",
+        "past": "extended",
+        "pastParticiple": "extended"
+      },
+      "synonyms": [
+        "prolong",
+        "stretch",
+        "enlarge"
+      ],
+      "antonyms": [
+        "shorten",
+        "reduce",
+        "cut"
+      ],
+      "sentences": {
+        "daily": "I would like to extend the lease.",
+        "office": "She would like to extend the project deadline.",
+        "interview": "I would like to extend my gratitude.",
+        "business": "We would like to extend our contract.",
+        "formal": "I would like to extend a warm welcome.",
+        "informal": "Would you like to extend the meeting?"
+      },
+      "usageNote": "'Extend a welcome/invitation/offer' = formal expressions. 'Extend a deadline' = postpone.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 46,
+      "word": "select",
+      "hindi": "चुनना / चयन करना",
+      "simpleMeaning": "to choose from a group",
+      "ipa": "/sɪˈlekt/",
+      "verbForms": {
+        "base": "select",
+        "s3": "selects",
+        "ing": "selecting",
+        "past": "selected",
+        "pastParticiple": "selected"
+      },
+      "synonyms": [
+        "choose",
+        "pick",
+        "opt for"
+      ],
+      "antonyms": [
+        "reject",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I would like to select a birthday gift.",
+        "office": "She would like to select the best candidate.",
+        "interview": "I would like to be selected for this role.",
+        "business": "We would like to select a reliable vendor.",
+        "formal": "I would like to select the most appropriate option.",
+        "informal": "Would you like to select one?"
+      },
+      "usageNote": "'Select' = more formal than 'choose'. Common in formal/professional writing.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 47,
+      "word": "participate",
+      "hindi": "भाग लेना",
+      "simpleMeaning": "to take part in an activity or event",
+      "ipa": "/pɑːrˈtɪsɪpeɪt/",
+      "verbForms": {
+        "base": "participate",
+        "s3": "participates",
+        "ing": "participating",
+        "past": "participated",
+        "pastParticiple": "participated"
+      },
+      "synonyms": [
+        "take part",
+        "join",
+        "engage"
+      ],
+      "antonyms": [
+        "abstain",
+        "withdraw",
+        "skip"
+      ],
+      "sentences": {
+        "daily": "I would like to participate in the quiz.",
+        "office": "She would like to participate in the training.",
+        "interview": "I would like to actively participate in team activities.",
+        "business": "We would like to participate in the tender.",
+        "formal": "I would like to participate in the conference.",
+        "informal": "Would you like to participate?"
+      },
+      "usageNote": "'Participate in' — always followed by 'in'. More formal than 'take part in'.",
+      "cefrLevel": "B1",
+      "category": "Daily Life"
+    },
+    {
+      "id": 48,
+      "word": "grateful",
+      "hindi": "आभारी",
+      "simpleMeaning": "feeling or showing thanks for something done or received",
+      "ipa": "/ˈɡreɪtfəl/",
+      "synonyms": [
+        "thankful",
+        "appreciative",
+        "obliged"
+      ],
+      "antonyms": [
+        "ungrateful",
+        "unappreciative"
+      ],
+      "sentences": {
+        "daily": "I would like to express how grateful I am.",
+        "office": "She is grateful for the opportunity.",
+        "interview": "I am grateful for this interview opportunity.",
+        "business": "We are grateful for your continued support.",
+        "formal": "I would like to say how grateful I am for your assistance.",
+        "informal": "I'm so grateful, thank you!"
+      },
+      "usageNote": "'Grateful for something' / 'grateful to someone'. Common in formal expressions of thanks.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 49,
+      "word": "opportunity",
+      "hindi": "अवसर",
+      "simpleMeaning": "a time when it is possible to do something",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "synonyms": [
+        "chance",
+        "occasion",
+        "opening"
+      ],
+      "antonyms": [
+        "obstacle",
+        "barrier"
+      ],
+      "sentences": {
+        "daily": "I would like to take this opportunity.",
+        "office": "She would like to use every opportunity to learn.",
+        "interview": "I would like to thank you for this opportunity.",
+        "business": "We would like to create new opportunities.",
+        "formal": "I would like to take this opportunity to thank everyone.",
+        "informal": "Don't miss this opportunity!"
+      },
+      "usageNote": "'Take/seize/grab an opportunity'. Often used in speeches: 'I'd like to take this opportunity to...'",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 50,
+      "word": "feedback",
+      "hindi": "प्रतिक्रिया / फीडबैक",
+      "simpleMeaning": "information given in response to a product or performance",
+      "ipa": "/ˈfiːdbæk/",
+      "synonyms": [
+        "response",
+        "review",
+        "evaluation"
+      ],
+      "antonyms": [
+        "silence",
+        "indifference"
+      ],
+      "sentences": {
+        "daily": "I would like to give you my feedback.",
+        "office": "She would like to receive feedback on her work.",
+        "interview": "I would like to ask for feedback after the interview.",
+        "business": "We would like to incorporate your feedback.",
+        "formal": "I would like to formally provide my feedback.",
+        "informal": "Can I give you some feedback?"
+      },
+      "usageNote": "'Feedback' is uncountable — don't say 'a feedback'. Say 'some feedback' or 'feedback'.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 51,
+      "word": "interview",
+      "hindi": "साक्षात्कार / इंटरव्यू",
+      "simpleMeaning": "a formal meeting to assess a candidate for a job",
+      "ipa": "/ˈɪntəvjuː/",
+      "verbForms": {
+        "base": "interview",
+        "s3": "interviews",
+        "ing": "interviewing",
+        "past": "interviewed",
+        "pastParticiple": "interviewed"
+      },
+      "synonyms": [
+        "meeting",
+        "assessment",
+        "discussion"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "I have an interview tomorrow.",
+        "office": "She would like to interview the candidates.",
+        "interview": "I would like to do well in this interview.",
+        "business": "We would like to schedule an interview.",
+        "formal": "I would like to invite you for an interview.",
+        "informal": "How was your interview?"
+      },
+      "usageNote": "As verb: 'interview someone' = ask them questions to assess. As noun: 'attend/have an interview'.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 52,
+      "word": "salary",
+      "hindi": "वेतन",
+      "simpleMeaning": "fixed regular payment for employment",
+      "ipa": "/ˈsæləri/",
+      "synonyms": [
+        "pay",
+        "wages",
+        "income"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "I would like to increase my savings from my salary.",
+        "office": "She would like to discuss her salary.",
+        "interview": "I would like to negotiate the salary package.",
+        "business": "We would like to offer a competitive salary.",
+        "formal": "I would like to inquire about the salary range.",
+        "informal": "What's the salary for this job?"
+      },
+      "usageNote": "'Salary' = monthly payment. 'Wages' = daily/weekly. 'Stipend' = training allowance.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 53,
+      "word": "promotion",
+      "hindi": "पदोन्नति / प्रमोशन",
+      "simpleMeaning": "an advancement to a higher position at work",
+      "ipa": "/prəˈmoʊʃən/",
+      "synonyms": [
+        "advancement",
+        "upgrade",
+        "elevation"
+      ],
+      "antonyms": [
+        "demotion",
+        "downgrade"
+      ],
+      "sentences": {
+        "daily": "I would like to celebrate her promotion.",
+        "office": "She would like to discuss her promotion.",
+        "interview": "I would like to work towards a promotion.",
+        "business": "We would like to announce a promotion.",
+        "formal": "I would like to formally recommend him for a promotion.",
+        "informal": "Did you get the promotion?"
+      },
+      "usageNote": "'Promotion' also means advertising: 'sales promotion'. Context determines meaning.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 54,
+      "word": "support",
+      "hindi": "समर्थन करना / सहायता",
+      "simpleMeaning": "to help or encourage someone",
+      "ipa": "/səˈpɔːrt/",
+      "verbForms": {
+        "base": "support",
+        "s3": "supports",
+        "ing": "supporting",
+        "past": "supported",
+        "pastParticiple": "supported"
+      },
+      "synonyms": [
+        "help",
+        "back",
+        "encourage"
+      ],
+      "antonyms": [
+        "oppose",
+        "hinder",
+        "undermine"
+      ],
+      "sentences": {
+        "daily": "I would like to support my friend's dream.",
+        "office": "She would like to support her team.",
+        "interview": "I would like to support company goals.",
+        "business": "We would like to support our clients.",
+        "formal": "I would like to offer my full support.",
+        "informal": "Would you like to support this cause?"
+      },
+      "usageNote": "'Support' can be noun or verb. 'I need your support' (noun). 'I will support you' (verb).",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 55,
+      "word": "complete",
+      "hindi": "पूरा करना",
+      "simpleMeaning": "to finish doing something",
+      "ipa": "/kəmˈpliːt/",
+      "verbForms": {
+        "base": "complete",
+        "s3": "completes",
+        "ing": "completing",
+        "past": "completed",
+        "pastParticiple": "completed"
+      },
+      "synonyms": [
+        "finish",
+        "conclude",
+        "accomplish"
+      ],
+      "antonyms": [
+        "start",
+        "begin",
+        "abandon"
+      ],
+      "sentences": {
+        "daily": "I would like to complete this course.",
+        "office": "She would like to complete the report by Friday.",
+        "interview": "I would like to complete assignments efficiently.",
+        "business": "We would like to complete the project on time.",
+        "formal": "I would like to complete this formality.",
+        "informal": "Would you like to complete this?"
+      },
+      "usageNote": "'Complete' suggests thoroughness — more formal than 'finish'.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 56,
+      "word": "project",
+      "hindi": "परियोजना / प्रोजेक्ट",
+      "simpleMeaning": "a planned piece of work with a specific goal",
+      "ipa": "/ˈprɒdʒekt/",
+      "synonyms": [
+        "assignment",
+        "task",
+        "initiative"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "I would like to work on a creative project.",
+        "office": "She would like to lead the new project.",
+        "interview": "I would like to share about a project I managed.",
+        "business": "We would like to take on this project.",
+        "formal": "I would like to present the project proposal.",
+        "informal": "How's your project going?"
+      },
+      "usageNote": "'Project' as verb: /prəˈdʒekt/ = to estimate or display on screen. Different stress as noun.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 57,
+      "word": "deadline",
+      "hindi": "अंतिम तिथि / डेडलाइन",
+      "simpleMeaning": "the latest time or date for completing something",
+      "ipa": "/ˈdedlaɪn/",
+      "synonyms": [
+        "due date",
+        "cutoff",
+        "time limit"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "I would like to finish before the deadline.",
+        "office": "She would like to push the deadline slightly.",
+        "interview": "I would like to always meet deadlines.",
+        "business": "We would like to stick to the agreed deadline.",
+        "formal": "I would like to request an extension on the deadline.",
+        "informal": "What's the deadline for this?"
+      },
+      "usageNote": "'Meet a deadline' = finish on time. 'Miss a deadline' = fail to finish on time.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 58,
+      "word": "proposal",
+      "hindi": "प्रस्ताव",
+      "simpleMeaning": "a plan or suggestion, especially in business",
+      "ipa": "/prəˈpoʊzəl/",
+      "synonyms": [
+        "suggestion",
+        "plan",
+        "offer"
+      ],
+      "antonyms": [
+        "rejection",
+        "withdrawal"
+      ],
+      "sentences": {
+        "daily": "I would like to make a proposal.",
+        "office": "She would like to review the proposal.",
+        "interview": "I would like to share a business proposal.",
+        "business": "We would like to present our proposal.",
+        "formal": "I would like to submit a formal proposal.",
+        "informal": "What do you think of my proposal?"
+      },
+      "usageNote": "'Make/put forward/submit a proposal'. 'Proposal' also used for marriage: a marriage proposal.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 59,
+      "word": "agreement",
+      "hindi": "समझौता",
+      "simpleMeaning": "an arrangement or contract between parties",
+      "ipa": "/əˈɡriːmənt/",
+      "synonyms": [
+        "contract",
+        "deal",
+        "understanding"
+      ],
+      "antonyms": [
+        "disagreement",
+        "dispute",
+        "conflict"
+      ],
+      "sentences": {
+        "daily": "I would like to reach an agreement.",
+        "office": "She would like to review the agreement.",
+        "interview": "I would like to work in a team where there is agreement.",
+        "business": "We would like to finalize the agreement.",
+        "formal": "I would like to sign the agreement today.",
+        "informal": "Are we in agreement?"
+      },
+      "usageNote": "'Reach/sign/finalize an agreement'. 'In agreement' = in accord with someone.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 60,
+      "word": "approach",
+      "hindi": "तरीका / नज़दीक जाना",
+      "simpleMeaning": "a way of doing or thinking about something",
+      "ipa": "/əˈproʊtʃ/",
+      "verbForms": {
+        "base": "approach",
+        "s3": "approaches",
+        "ing": "approaching",
+        "past": "approached",
+        "pastParticiple": "approached"
+      },
+      "synonyms": [
+        "method",
+        "way",
+        "strategy"
+      ],
+      "antonyms": [
+        "avoid",
+        "retreat"
+      ],
+      "sentences": {
+        "daily": "I would like to take a new approach.",
+        "office": "She would like to change her approach to the problem.",
+        "interview": "I would like to explain my approach to team management.",
+        "business": "We would like to suggest a different approach.",
+        "formal": "I would like to present a fresh approach.",
+        "informal": "What's your approach?"
+      },
+      "usageNote": "Both noun and verb. 'A hands-on approach' = practical method.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 61,
+      "word": "schedule",
+      "hindi": "कार्यक्रम / अनुसूची",
+      "simpleMeaning": "a plan of when things will happen",
+      "ipa": "/ˈʃedjuːl/",
+      "synonyms": [
+        "timetable",
+        "plan",
+        "agenda"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "I would like to follow a daily schedule.",
+        "office": "She would like to see the project schedule.",
+        "interview": "I would like to work within the given schedule.",
+        "business": "We would like to share our production schedule.",
+        "formal": "I would like to review the revised schedule.",
+        "informal": "What's your schedule today?"
+      },
+      "usageNote": "Same word as verb (id:3). As noun: 'follow a schedule' / 'ahead of schedule'.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 62,
+      "word": "benefit",
+      "hindi": "लाभ / फायदा",
+      "simpleMeaning": "an advantage or profit gained from something",
+      "ipa": "/ˈbenɪfɪt/",
+      "verbForms": {
+        "base": "benefit",
+        "s3": "benefits",
+        "ing": "benefiting",
+        "past": "benefited",
+        "pastParticiple": "benefited"
+      },
+      "synonyms": [
+        "advantage",
+        "gain",
+        "profit"
+      ],
+      "antonyms": [
+        "loss",
+        "disadvantage",
+        "drawback"
+      ],
+      "sentences": {
+        "daily": "I would like to understand the benefits.",
+        "office": "She would like to explain the employee benefits.",
+        "interview": "I would like to benefit the company with my skills.",
+        "business": "We would like to benefit from this collaboration.",
+        "formal": "I would like to highlight the key benefits.",
+        "informal": "What are the benefits?"
+      },
+      "usageNote": "'Benefit from' = gain an advantage. Employee benefits = salary, insurance, leave.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 63,
+      "word": "opportunity",
+      "hindi": "मौका / अवसर",
+      "simpleMeaning": "a situation that makes it possible to do something",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "synonyms": [
+        "chance",
+        "opening",
+        "scope"
+      ],
+      "antonyms": [
+        "obstacle",
+        "barrier"
+      ],
+      "sentences": {
+        "daily": "I would like to grab this opportunity.",
+        "office": "She would like to create new opportunities.",
+        "interview": "I would like to use this opportunity well.",
+        "business": "We would like to identify new opportunities.",
+        "formal": "I would like to thank you for this opportunity.",
+        "informal": "It's a great opportunity!"
+      },
+      "usageNote": "'Take/seize/grab an opportunity'. Already listed at id:49 but included here as it's a key word for this topic.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 64,
+      "word": "willing",
+      "hindi": "तैयार / इच्छुक",
+      "simpleMeaning": "ready or eager to do something",
+      "ipa": "/ˈwɪlɪŋ/",
+      "synonyms": [
+        "ready",
+        "eager",
+        "agreeable"
+      ],
+      "antonyms": [
+        "unwilling",
+        "reluctant",
+        "hesitant"
+      ],
+      "sentences": {
+        "daily": "I am willing to learn new things.",
+        "office": "She is willing to take extra responsibilities.",
+        "interview": "I am willing to relocate if required.",
+        "business": "We are willing to negotiate.",
+        "formal": "I would like to express that I am fully willing.",
+        "informal": "Are you willing to help?"
+      },
+      "usageNote": "'Willing to + infinitive'. 'Willingness' = noun form. Key word in job applications.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 65,
+      "word": "flexible",
+      "hindi": "लचीला / अनुकूल",
+      "simpleMeaning": "able to change or adapt easily",
+      "ipa": "/ˈfleksɪbəl/",
+      "synonyms": [
+        "adaptable",
+        "versatile",
+        "adjustable"
+      ],
+      "antonyms": [
+        "rigid",
+        "inflexible",
+        "fixed"
+      ],
+      "sentences": {
+        "daily": "I would like to have a flexible routine.",
+        "office": "She would like to have flexible working hours.",
+        "interview": "I am flexible about working hours.",
+        "business": "We would like to offer a flexible payment plan.",
+        "formal": "I would like to suggest a more flexible approach.",
+        "informal": "Are you flexible this weekend?"
+      },
+      "usageNote": "'Flexible hours/schedule' = adjustable timing. Great word for job interviews.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 66,
+      "word": "efficient",
+      "hindi": "कुशल / दक्ष",
+      "simpleMeaning": "doing something well without wasting time or effort",
+      "ipa": "/ɪˈfɪʃənt/",
+      "synonyms": [
+        "productive",
+        "effective",
+        "capable"
+      ],
+      "antonyms": [
+        "inefficient",
+        "wasteful",
+        "slow"
+      ],
+      "sentences": {
+        "daily": "I would like to be more efficient in my work.",
+        "office": "She would like to make the process more efficient.",
+        "interview": "I am an efficient and organized worker.",
+        "business": "We would like to ensure efficient operations.",
+        "formal": "I would like to propose a more efficient system.",
+        "informal": "She's so efficient!"
+      },
+      "usageNote": "'Efficient' = doing things with minimum waste. 'Effective' = achieving results. Similar but different.",
+      "cefrLevel": "B1",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 67,
+      "word": "propose",
+      "hindi": "प्रस्ताव रखना / सुझाना",
+      "simpleMeaning": "to formally suggest a plan or course of action",
+      "ipa": "/prəˈpoʊz/",
+      "verbForms": {
+        "base": "propose",
+        "s3": "proposes",
+        "ing": "proposing",
+        "past": "proposed",
+        "pastParticiple": "proposed"
+      },
+      "synonyms": [
+        "suggest",
+        "recommend",
+        "put forward"
+      ],
+      "antonyms": [
+        "oppose",
+        "reject"
+      ],
+      "sentences": {
+        "daily": "I would like to propose a new idea.",
+        "office": "She would like to propose a change in strategy.",
+        "interview": "I would like to propose solutions to problems.",
+        "business": "We would like to propose a joint venture.",
+        "formal": "I would like to formally propose this motion.",
+        "informal": "Would you like to propose a toast?"
+      },
+      "usageNote": "'Propose a toast' = raise a glass. 'Propose to someone' = offer marriage.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 68,
+      "word": "resolve",
+      "hindi": "हल करना / सुलझाना",
+      "simpleMeaning": "to find a solution to a problem",
+      "ipa": "/rɪˈzɒlv/",
+      "verbForms": {
+        "base": "resolve",
+        "s3": "resolves",
+        "ing": "resolving",
+        "past": "resolved",
+        "pastParticiple": "resolved"
+      },
+      "synonyms": [
+        "solve",
+        "settle",
+        "fix"
+      ],
+      "antonyms": [
+        "create",
+        "worsen",
+        "complicate"
+      ],
+      "sentences": {
+        "daily": "I would like to resolve this misunderstanding.",
+        "office": "She would like to resolve the conflict.",
+        "interview": "I would like to help resolve team issues.",
+        "business": "We would like to resolve this matter quickly.",
+        "formal": "I would like to resolve this at the earliest.",
+        "informal": "Would you like to resolve this?"
+      },
+      "usageNote": "'Resolve an issue/problem/conflict'. 'Resolution' = noun form.",
+      "cefrLevel": "B1",
+      "category": "Daily Life"
+    },
+    {
+      "id": 69,
+      "word": "collaborate",
+      "hindi": "मिलकर काम करना / सहयोग करना",
+      "simpleMeaning": "to work jointly with others",
+      "ipa": "/kəˈlæbəreɪt/",
+      "verbForms": {
+        "base": "collaborate",
+        "s3": "collaborates",
+        "ing": "collaborating",
+        "past": "collaborated",
+        "pastParticiple": "collaborated"
+      },
+      "synonyms": [
+        "cooperate",
+        "work together",
+        "partner"
+      ],
+      "antonyms": [
+        "compete",
+        "work alone"
+      ],
+      "sentences": {
+        "daily": "I would like to collaborate on a music project.",
+        "office": "She would like to collaborate with other teams.",
+        "interview": "I would like to collaborate and learn from others.",
+        "business": "We would like to collaborate with your company.",
+        "formal": "I would like to explore a collaborative arrangement.",
+        "informal": "Would you like to collaborate?"
+      },
+      "usageNote": "'Collaborate on something / with someone'. 'Collaboration' = noun. Very valued in workplaces.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 70,
+      "word": "delegate",
+      "hindi": "काम सौंपना / प्रतिनिधि",
+      "simpleMeaning": "to give a task or responsibility to someone else",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "verbForms": {
+        "base": "delegate",
+        "s3": "delegates",
+        "ing": "delegating",
+        "past": "delegated",
+        "pastParticiple": "delegated"
+      },
+      "synonyms": [
+        "assign",
+        "transfer",
+        "entrust"
+      ],
+      "antonyms": [
+        "hoard",
+        "micromanage"
+      ],
+      "sentences": {
+        "daily": "I would like to delegate some tasks.",
+        "office": "She would like to delegate responsibilities.",
+        "interview": "I know how to delegate effectively.",
+        "business": "We would like to delegate this to a specialist.",
+        "formal": "I would like to formally delegate this authority.",
+        "informal": "Would you like to delegate this to someone?"
+      },
+      "usageNote": "'Delegate a task to someone'. Key management skill.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 71,
+      "word": "manage",
+      "hindi": "संभालना / प्रबंधन करना",
+      "simpleMeaning": "to organize or control something",
+      "ipa": "/ˈmænɪdʒ/",
+      "verbForms": {
+        "base": "manage",
+        "s3": "manages",
+        "ing": "managing",
+        "past": "managed",
+        "pastParticiple": "managed"
+      },
+      "synonyms": [
+        "handle",
+        "oversee",
+        "administer"
+      ],
+      "antonyms": [
+        "mismanage",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I would like to manage my time better.",
+        "office": "She would like to manage the new team.",
+        "interview": "I would like to manage a project independently.",
+        "business": "We would like to manage operations smoothly.",
+        "formal": "I would like to manage this initiative.",
+        "informal": "Can you manage this?"
+      },
+      "usageNote": "'Manage to do' = succeed in doing. 'Manage' also means to cope.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 72,
+      "word": "brief",
+      "hindi": "संक्षिप्त करना / संक्षिप्त",
+      "simpleMeaning": "to give someone essential information; short",
+      "ipa": "/briːf/",
+      "verbForms": {
+        "base": "brief",
+        "s3": "briefs",
+        "ing": "briefing",
+        "past": "briefed",
+        "pastParticiple": "briefed"
+      },
+      "synonyms": [
+        "inform",
+        "update",
+        "short"
+      ],
+      "antonyms": [
+        "elaborate",
+        "detailed",
+        "long"
+      ],
+      "sentences": {
+        "daily": "I would like to give you a brief update.",
+        "office": "She would like to brief the team.",
+        "interview": "I would like to give a brief introduction.",
+        "business": "We would like to provide a brief overview.",
+        "formal": "I would like to brief the committee.",
+        "informal": "Can you give me a brief summary?"
+      },
+      "usageNote": "'Brief someone' = give key info. 'In brief' = in summary.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 73,
+      "word": "commit",
+      "hindi": "प्रतिबद्ध होना",
+      "simpleMeaning": "to dedicate yourself to something; to promise",
+      "ipa": "/kəˈmɪt/",
+      "verbForms": {
+        "base": "commit",
+        "s3": "commits",
+        "ing": "committing",
+        "past": "committed",
+        "pastParticiple": "committed"
+      },
+      "synonyms": [
+        "dedicate",
+        "pledge",
+        "promise"
+      ],
+      "antonyms": [
+        "abandon",
+        "withdraw",
+        "quit"
+      ],
+      "sentences": {
+        "daily": "I would like to commit to a healthier lifestyle.",
+        "office": "She would like to commit to the project.",
+        "interview": "I would like to commit fully to this role.",
+        "business": "We would like to commit to quality service.",
+        "formal": "I would like to commit to this partnership.",
+        "informal": "Would you like to commit?"
+      },
+      "usageNote": "'Commit to + gerund/noun'. 'Commitment' = noun. Very powerful in interviews.",
+      "cefrLevel": "B1",
+      "category": "Daily Life"
+    },
+    {
+      "id": 74,
+      "word": "enroll",
+      "hindi": "नामांकन कराना / दाखिला लेना",
+      "simpleMeaning": "to officially join a course or program",
+      "ipa": "/ɪnˈroʊl/",
+      "verbForms": {
+        "base": "enroll",
+        "s3": "enrolls",
+        "ing": "enrolling",
+        "past": "enrolled",
+        "pastParticiple": "enrolled"
+      },
+      "synonyms": [
+        "register",
+        "sign up",
+        "join"
+      ],
+      "antonyms": [
+        "withdraw",
+        "drop out"
+      ],
+      "sentences": {
+        "daily": "I would like to enroll in an English class.",
+        "office": "She would like to enroll in a management course.",
+        "interview": "I enrolled in a certification program.",
+        "business": "We would like to enroll our staff.",
+        "formal": "I would like to enroll in this program.",
+        "informal": "Did you enroll yet?"
+      },
+      "usageNote": "British: 'enrol'. American: 'enroll'. 'Enroll in' — always use 'in'.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 75,
+      "word": "politely",
+      "hindi": "विनम्रता से",
+      "simpleMeaning": "in a polite and respectful manner",
+      "ipa": "/pəˈlaɪtli/",
+      "synonyms": [
+        "courteously",
+        "respectfully",
+        "graciously"
+      ],
+      "antonyms": [
+        "rudely",
+        "harshly",
+        "impolitely"
+      ],
+      "sentences": {
+        "daily": "Please speak politely.",
+        "office": "She always communicates politely.",
+        "interview": "Answer every question politely.",
+        "business": "Always respond politely to clients.",
+        "formal": "I would like to politely decline.",
+        "informal": "Just ask politely!"
+      },
+      "usageNote": "Adverb form of 'polite'. Remember to use politely in all formal communication.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 76,
+      "word": "hesitate",
+      "hindi": "हिचकिचाना",
+      "simpleMeaning": "to pause before doing something because of uncertainty",
+      "ipa": "/ˈhezɪteɪt/",
+      "verbForms": {
+        "base": "hesitate",
+        "s3": "hesitates",
+        "ing": "hesitating",
+        "past": "hesitated",
+        "pastParticiple": "hesitated"
+      },
+      "synonyms": [
+        "pause",
+        "waver",
+        "falter"
+      ],
+      "antonyms": [
+        "rush",
+        "proceed",
+        "decide"
+      ],
+      "sentences": {
+        "daily": "I would not like to hesitate when speaking English.",
+        "office": "Please do not hesitate to contact me.",
+        "interview": "I would not like to hesitate in giving my answers.",
+        "business": "Do not hesitate to reach out.",
+        "formal": "Please do not hesitate to ask if you need anything.",
+        "informal": "Don't hesitate — just go for it!"
+      },
+      "usageNote": "'Do not hesitate to...' = please feel free to. Common in formal emails.",
+      "cefrLevel": "B1",
+      "category": "Daily Life"
+    },
+    {
+      "id": 77,
+      "word": "politely",
+      "hindi": "विनम्रता से",
+      "simpleMeaning": "in a courteous manner",
+      "ipa": "/pəˈlaɪtli/",
+      "synonyms": [
+        "courteously",
+        "respectfully"
+      ],
+      "antonyms": [
+        "rudely"
+      ],
+      "sentences": {
+        "daily": "Ask politely for what you need.",
+        "office": "Communicate politely with all colleagues.",
+        "interview": "Respond politely to all questions.",
+        "business": "Handle complaints politely.",
+        "formal": "I would like to politely request your attention.",
+        "informal": "Can you ask politely please?"
+      },
+      "usageNote": "Adverb of polite. Use widely in professional contexts.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 78,
+      "word": "welcoming",
+      "hindi": "स्वागत करने वाला",
+      "simpleMeaning": "making someone feel at home; friendly and warm",
+      "ipa": "/ˈwelkəmɪŋ/",
+      "synonyms": [
+        "friendly",
+        "hospitable",
+        "warm"
+      ],
+      "antonyms": [
+        "unwelcoming",
+        "cold",
+        "unfriendly"
+      ],
+      "sentences": {
+        "daily": "I would like to create a welcoming environment.",
+        "office": "She has a very welcoming attitude.",
+        "interview": "I would like to be part of a welcoming team.",
+        "business": "We would like to create a welcoming space.",
+        "formal": "I would like to extend a welcoming gesture.",
+        "informal": "The people here are very welcoming!"
+      },
+      "usageNote": "'Welcoming atmosphere/environment'. Also 'welcome' as verb: 'We welcome you.'",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 79,
+      "word": "appropriate",
+      "hindi": "उचित / सही",
+      "simpleMeaning": "suitable for a particular situation",
+      "ipa": "/əˈproʊpriɪt/",
+      "synonyms": [
+        "suitable",
+        "proper",
+        "fitting"
+      ],
+      "antonyms": [
+        "inappropriate",
+        "unsuitable",
+        "improper"
+      ],
+      "sentences": {
+        "daily": "I would like to wear appropriate clothing.",
+        "office": "Please use appropriate language.",
+        "interview": "I would like to give appropriate answers.",
+        "business": "We would like to take appropriate action.",
+        "formal": "I would like to take the appropriate measures.",
+        "informal": "Is this appropriate?"
+      },
+      "usageNote": "'Appropriate for / to'. Opposite: 'inappropriate'. Key word in formal communication.",
+      "cefrLevel": "B1",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 80,
+      "word": "formal request",
+      "hindi": "औपचारिक अनुरोध",
+      "simpleMeaning": "an official and structured way of asking for something",
+      "ipa": "/ˈfɔːrməl rɪˈkwest/",
+      "synonyms": [
+        "official request",
+        "written request"
+      ],
+      "antonyms": [
+        "verbal request",
+        "informal ask"
+      ],
+      "sentences": {
+        "daily": "I would like to make a formal request.",
+        "office": "She submitted a formal request for leave.",
+        "interview": "I would like to formally request more information.",
+        "business": "We would like to put in a formal request.",
+        "formal": "I would like to submit a formal request in writing.",
+        "informal": "Make a formal request if needed."
+      },
+      "usageNote": "'Submit/make/put in a formal request'. Used when informal channels aren't enough.",
+      "cefrLevel": "B1",
+      "category": "Polite Requests"
+    },
+    {
+      "id": 81,
+      "word": "clarification",
+      "hindi": "स्पष्टीकरण",
+      "simpleMeaning": "the act of making something clearer or easier to understand",
+      "ipa": "/ˌklærɪfɪˈkeɪʃən/",
+      "synonyms": [
+        "explanation",
+        "elaboration",
+        "simplification"
+      ],
+      "antonyms": [
+        "confusion",
+        "ambiguity"
+      ],
+      "sentences": {
+        "daily": "I would like to seek clarification.",
+        "office": "She would like to get clarification on the policy.",
+        "interview": "I would like to seek clarification on this question.",
+        "business": "We would like to request clarification on the terms.",
+        "formal": "I would like to seek your clarification on this matter.",
+        "informal": "Can you give me some clarification?"
+      },
+      "usageNote": "'Seek/request/ask for clarification'. Noun of 'clarify'.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 82,
+      "word": "assistance",
+      "hindi": "सहायता",
+      "simpleMeaning": "help or support given to someone",
+      "ipa": "/əˈsɪstəns/",
+      "synonyms": [
+        "help",
+        "support",
+        "aid"
+      ],
+      "antonyms": [
+        "hindrance",
+        "obstacle"
+      ],
+      "sentences": {
+        "daily": "I would like to ask for your assistance.",
+        "office": "She would like to provide assistance.",
+        "interview": "I would like to offer assistance where possible.",
+        "business": "We would like to request your assistance.",
+        "formal": "I would like to request your kind assistance.",
+        "informal": "Can I get some assistance here?"
+      },
+      "usageNote": "'Ask for/provide/need assistance'. Formal version of 'help'.",
+      "cefrLevel": "A2",
+      "category": "Polite Requests"
+    },
+    {
+      "id": 83,
+      "word": "permission",
+      "hindi": "अनुमति",
+      "simpleMeaning": "authorization to do something",
+      "ipa": "/pəˈmɪʃən/",
+      "synonyms": [
+        "authorization",
+        "consent",
+        "approval"
+      ],
+      "antonyms": [
+        "denial",
+        "refusal",
+        "prohibition"
+      ],
+      "sentences": {
+        "daily": "I would like to ask for your permission.",
+        "office": "She would like to get permission to leave early.",
+        "interview": "I would like to ask permission to ask a question.",
+        "business": "We would like to seek permission to use the trademark.",
+        "formal": "I would like to request your permission formally.",
+        "informal": "Do I have your permission?"
+      },
+      "usageNote": "'Ask for/get/grant permission'. 'With your permission...' = formal phrase before doing something.",
+      "cefrLevel": "A2",
+      "category": "Polite Requests"
+    },
+    {
+      "id": 84,
+      "word": "guidance",
+      "hindi": "मार्गदर्शन",
+      "simpleMeaning": "advice or direction given to someone",
+      "ipa": "/ˈɡaɪdəns/",
+      "synonyms": [
+        "advice",
+        "direction",
+        "mentorship"
+      ],
+      "antonyms": [
+        "confusion",
+        "misdirection"
+      ],
+      "sentences": {
+        "daily": "I would like to seek your guidance.",
+        "office": "She would like to provide guidance to the team.",
+        "interview": "I would like to receive guidance from senior colleagues.",
+        "business": "We would like to seek expert guidance.",
+        "formal": "I would like to request your guidance on this issue.",
+        "informal": "Can I get some guidance from you?"
+      },
+      "usageNote": "'Seek/offer/provide guidance'. Great word for professional growth conversations.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 85,
+      "word": "polished",
+      "hindi": "परिष्कृत / निपुण",
+      "simpleMeaning": "refined and professional in manner",
+      "ipa": "/ˈpɒlɪʃt/",
+      "synonyms": [
+        "refined",
+        "sophisticated",
+        "professional"
+      ],
+      "antonyms": [
+        "rough",
+        "unrefined",
+        "clumsy"
+      ],
+      "sentences": {
+        "daily": "I would like to have a more polished appearance.",
+        "office": "She gives polished presentations.",
+        "interview": "I would like to come across as polished.",
+        "business": "We would like to maintain a polished image.",
+        "formal": "I would like to deliver a polished speech.",
+        "informal": "You look so polished today!"
+      },
+      "usageNote": "'Polished presentation/speech/appearance'. Implies effort and refinement.",
+      "cefrLevel": "B1",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 86,
+      "word": "impress",
+      "hindi": "प्रभावित करना",
+      "simpleMeaning": "to make someone feel admiration or respect",
+      "ipa": "/ɪmˈpres/",
+      "verbForms": {
+        "base": "impress",
+        "s3": "impresses",
+        "ing": "impressing",
+        "past": "impressed",
+        "pastParticiple": "impressed"
+      },
+      "synonyms": [
+        "amaze",
+        "awe",
+        "wow"
+      ],
+      "antonyms": [
+        "disappoint",
+        "bore"
+      ],
+      "sentences": {
+        "daily": "I would like to impress my parents.",
+        "office": "She would like to impress the new client.",
+        "interview": "I would like to impress the interviewer.",
+        "business": "We would like to impress our investors.",
+        "formal": "I would like to impress upon you the urgency.",
+        "informal": "I want to impress him!"
+      },
+      "usageNote": "'Impress someone with something'. 'Impressed by/with' — both are correct.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 87,
+      "word": "invest",
+      "hindi": "निवेश करना",
+      "simpleMeaning": "to put money or effort into something for future benefit",
+      "ipa": "/ɪnˈvest/",
+      "verbForms": {
+        "base": "invest",
+        "s3": "invests",
+        "ing": "investing",
+        "past": "invested",
+        "pastParticiple": "invested"
+      },
+      "synonyms": [
+        "put in",
+        "spend",
+        "commit"
+      ],
+      "antonyms": [
+        "withdraw",
+        "divest"
+      ],
+      "sentences": {
+        "daily": "I would like to invest in my education.",
+        "office": "She would like to invest in new technology.",
+        "interview": "I would like to invest my skills in this company.",
+        "business": "We would like to invest in your startup.",
+        "formal": "I would like to invest in this initiative.",
+        "informal": "Would you like to invest in this?"
+      },
+      "usageNote": "'Invest in something/someone'. 'Investment' = noun. Key business/finance word.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 88,
+      "word": "launch",
+      "hindi": "शुरू करना / लॉन्च करना",
+      "simpleMeaning": "to start or introduce something new",
+      "ipa": "/lɔːntʃ/",
+      "verbForms": {
+        "base": "launch",
+        "s3": "launches",
+        "ing": "launching",
+        "past": "launched",
+        "pastParticiple": "launched"
+      },
+      "synonyms": [
+        "start",
+        "introduce",
+        "release"
+      ],
+      "antonyms": [
+        "close",
+        "end",
+        "shut down"
+      ],
+      "sentences": {
+        "daily": "I would like to launch my own blog.",
+        "office": "She would like to launch the new initiative.",
+        "interview": "I would like to help launch new products.",
+        "business": "We would like to launch in Q3.",
+        "formal": "I would like to formally launch this program.",
+        "informal": "When are you going to launch it?"
+      },
+      "usageNote": "'Launch a product/campaign/website'. 'Launch into' = suddenly start speaking/doing.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 89,
+      "word": "concern",
+      "hindi": "चिंता / संबंध रखना",
+      "simpleMeaning": "a worry or matter of interest; to relate to something",
+      "ipa": "/kənˈsɜːrn/",
+      "verbForms": {
+        "base": "concern",
+        "s3": "concerns",
+        "ing": "concerning",
+        "past": "concerned",
+        "pastParticiple": "concerned"
+      },
+      "synonyms": [
+        "worry",
+        "issue",
+        "matter"
+      ],
+      "antonyms": [
+        "indifference",
+        "disregard"
+      ],
+      "sentences": {
+        "daily": "I would like to address a concern.",
+        "office": "She would like to raise a concern.",
+        "interview": "I would like to express my concerns.",
+        "business": "We would like to discuss a concern regarding the project.",
+        "formal": "I would like to bring a concern to your attention.",
+        "informal": "Can I share a concern with you?"
+      },
+      "usageNote": "'Raise/express/address a concern'. 'Concerning' = about (preposition): 'concerning this issue'.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 90,
+      "word": "outcome",
+      "hindi": "परिणाम",
+      "simpleMeaning": "the result or effect of something",
+      "ipa": "/ˈaʊtkʌm/",
+      "synonyms": [
+        "result",
+        "consequence",
+        "effect"
+      ],
+      "antonyms": [
+        "cause",
+        "input"
+      ],
+      "sentences": {
+        "daily": "I would like a positive outcome.",
+        "office": "She would like a successful outcome.",
+        "interview": "I would like to contribute to good outcomes.",
+        "business": "We would like to ensure a positive outcome.",
+        "formal": "I would like to measure the expected outcome.",
+        "informal": "What do you think the outcome will be?"
+      },
+      "usageNote": "'Positive/negative/desired outcome'. Common in project management and business.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 91,
+      "word": "initiative",
+      "hindi": "पहल / पहलकदमी",
+      "simpleMeaning": "the ability to assess and act without being told; a new plan",
+      "ipa": "/ɪˈnɪʃɪətɪv/",
+      "synonyms": [
+        "drive",
+        "enterprise",
+        "plan"
+      ],
+      "antonyms": [
+        "passivity",
+        "reluctance"
+      ],
+      "sentences": {
+        "daily": "I would like to take more initiative.",
+        "office": "She would like to lead a new initiative.",
+        "interview": "I would like to show initiative in this role.",
+        "business": "We would like to launch a green initiative.",
+        "formal": "I would like to introduce a cost-saving initiative.",
+        "informal": "He takes a lot of initiative."
+      },
+      "usageNote": "'Take/show/lead an initiative'. Very valued in workplace contexts.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 92,
+      "word": "satisfy",
+      "hindi": "संतुष्ट करना",
+      "simpleMeaning": "to meet the needs or expectations of someone",
+      "ipa": "/ˈsætɪsfaɪ/",
+      "verbForms": {
+        "base": "satisfy",
+        "s3": "satisfies",
+        "ing": "satisfying",
+        "past": "satisfied",
+        "pastParticiple": "satisfied"
+      },
+      "synonyms": [
+        "please",
+        "fulfill",
+        "meet"
+      ],
+      "antonyms": [
+        "dissatisfy",
+        "disappoint",
+        "frustrate"
+      ],
+      "sentences": {
+        "daily": "I would like to satisfy my family's expectations.",
+        "office": "She would like to satisfy the client's requirements.",
+        "interview": "I would like to satisfy all the job requirements.",
+        "business": "We would like to satisfy every customer.",
+        "formal": "I would like to satisfy the conditions of the contract.",
+        "informal": "Would this satisfy you?"
+      },
+      "usageNote": "'Satisfy a need/requirement/customer'. 'Satisfied with' = happy about.",
+      "cefrLevel": "B1",
+      "category": "Daily Life"
+    },
+    {
+      "id": 93,
+      "word": "ensure",
+      "hindi": "सुनिश्चित करना",
+      "simpleMeaning": "to make certain that something will happen",
+      "ipa": "/ɪnˈʃɔːr/",
+      "verbForms": {
+        "base": "ensure",
+        "s3": "ensures",
+        "ing": "ensuring",
+        "past": "ensured",
+        "pastParticiple": "ensured"
+      },
+      "synonyms": [
+        "guarantee",
+        "make sure",
+        "assure"
+      ],
+      "antonyms": [
+        "neglect",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "I would like to ensure everyone is comfortable.",
+        "office": "She would like to ensure quality standards.",
+        "interview": "I would like to ensure project delivery on time.",
+        "business": "We would like to ensure customer satisfaction.",
+        "formal": "I would like to ensure full compliance.",
+        "informal": "Can you ensure it's done by evening?"
+      },
+      "usageNote": "'Ensure that + clause' OR 'ensure something'. Stronger than 'make sure'.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 94,
+      "word": "patient",
+      "hindi": "धैर्यवान / मरीज़",
+      "simpleMeaning": "able to wait without becoming frustrated",
+      "ipa": "/ˈpeɪʃənt/",
+      "synonyms": [
+        "calm",
+        "tolerant",
+        "persevering"
+      ],
+      "antonyms": [
+        "impatient",
+        "restless",
+        "hasty"
+      ],
+      "sentences": {
+        "daily": "I would like to be more patient.",
+        "office": "She is always patient with new employees.",
+        "interview": "I would like to handle pressure patiently.",
+        "business": "We would like our team to remain patient.",
+        "formal": "I would like to request that you be patient.",
+        "informal": "Just be patient!"
+      },
+      "usageNote": "Adjective: 'patient' /ˈpeɪʃənt/. Noun (person under medical care): same spelling, same pronunciation.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 95,
+      "word": "comfortable",
+      "hindi": "आरामदायक / सहज",
+      "simpleMeaning": "feeling at ease and relaxed",
+      "ipa": "/ˈkʌmftəbəl/",
+      "synonyms": [
+        "at ease",
+        "relaxed",
+        "cozy"
+      ],
+      "antonyms": [
+        "uncomfortable",
+        "nervous",
+        "tense"
+      ],
+      "sentences": {
+        "daily": "I would like to feel comfortable in my new home.",
+        "office": "She would like everyone to feel comfortable.",
+        "interview": "I would like to make you feel comfortable.",
+        "business": "We would like to ensure a comfortable experience.",
+        "formal": "I would like to create a comfortable environment.",
+        "informal": "Are you comfortable?"
+      },
+      "usageNote": "'Feel/make comfortable'. 'Comfortable with something' = at ease with it.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 96,
+      "word": "respond",
+      "hindi": "प्रतिक्रिया देना",
+      "simpleMeaning": "to say or do something in reply",
+      "ipa": "/rɪˈspɒnd/",
+      "verbForms": {
+        "base": "respond",
+        "s3": "responds",
+        "ing": "responding",
+        "past": "responded",
+        "pastParticiple": "responded"
+      },
+      "synonyms": [
+        "reply",
+        "answer",
+        "react"
+      ],
+      "antonyms": [
+        "ignore",
+        "remain silent"
+      ],
+      "sentences": {
+        "daily": "I would like to respond to your message today.",
+        "office": "She responds to emails within an hour.",
+        "interview": "I would like to respond to that with an example.",
+        "business": "We would like to respond to the complaint.",
+        "formal": "I would like to formally respond to your inquiry.",
+        "informal": "Can you respond soon?"
+      },
+      "usageNote": "'Respond to someone/something'. More formal than 'reply'.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 97,
+      "word": "outcome",
+      "hindi": "परिणाम / नतीजा",
+      "simpleMeaning": "the final result of a process",
+      "ipa": "/ˈaʊtkʌm/",
+      "synonyms": [
+        "result",
+        "conclusion",
+        "effect"
+      ],
+      "antonyms": [
+        "cause"
+      ],
+      "sentences": {
+        "daily": "I hope the outcome is positive.",
+        "office": "We need to track the outcome of this meeting.",
+        "interview": "I would like to discuss the outcomes of my previous role.",
+        "business": "The business outcome depends on planning.",
+        "formal": "I would like to report on the expected outcomes.",
+        "informal": "What's the outcome?"
+      },
+      "usageNote": "See id:90. Reinforced here as it's central to business English.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 98,
+      "word": "handle",
+      "hindi": "संभालना",
+      "simpleMeaning": "to manage or deal with something",
+      "ipa": "/ˈhændəl/",
+      "verbForms": {
+        "base": "handle",
+        "s3": "handles",
+        "ing": "handling",
+        "past": "handled",
+        "pastParticiple": "handled"
+      },
+      "synonyms": [
+        "manage",
+        "deal with",
+        "cope with"
+      ],
+      "antonyms": [
+        "mishandle",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I would like to handle this situation myself.",
+        "office": "She handles difficult clients very well.",
+        "interview": "I would like to handle challenging projects.",
+        "business": "We would like to handle this account.",
+        "formal": "I would like to handle this matter personally.",
+        "informal": "Can you handle this?"
+      },
+      "usageNote": "'Handle a situation/problem/client'. Implies competence and control.",
+      "cefrLevel": "A2",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 99,
+      "word": "connect",
+      "hindi": "जोड़ना / संपर्क करना",
+      "simpleMeaning": "to link or get in touch with someone",
+      "ipa": "/kəˈnekt/",
+      "verbForms": {
+        "base": "connect",
+        "s3": "connects",
+        "ing": "connecting",
+        "past": "connected",
+        "pastParticiple": "connected"
+      },
+      "synonyms": [
+        "link",
+        "contact",
+        "network"
+      ],
+      "antonyms": [
+        "disconnect",
+        "separate"
+      ],
+      "sentences": {
+        "daily": "I would like to connect with like-minded people.",
+        "office": "She would like to connect the two departments.",
+        "interview": "I would like to connect with your team.",
+        "business": "We would like to connect with global clients.",
+        "formal": "I would like to connect with you professionally.",
+        "informal": "Let's connect!"
+      },
+      "usageNote": "'Connect with someone' = make contact. Common on LinkedIn.",
+      "cefrLevel": "A2",
+      "category": "Daily Life"
+    },
+    {
+      "id": 100,
+      "word": "respectfully",
+      "hindi": "सम्मानपूर्वक",
+      "simpleMeaning": "in a polite and respectful way",
+      "ipa": "/rɪˈspektfəli/",
+      "synonyms": [
+        "politely",
+        "courteously",
+        "humbly"
+      ],
+      "antonyms": [
+        "disrespectfully",
+        "rudely"
+      ],
+      "sentences": {
+        "daily": "Please speak respectfully to everyone.",
+        "office": "She always communicates respectfully.",
+        "interview": "I would like to respectfully disagree.",
+        "business": "We would like to respectfully decline.",
+        "formal": "I would like to respectfully submit this application.",
+        "informal": "Can you say it more respectfully?"
+      },
+      "usageNote": "'Respectfully disagree/decline/submit' — classic formal phrases.",
+      "cefrLevel": "B1",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 101,
+      "word": "cooperate",
+      "hindi": "सहयोग करना",
+      "simpleMeaning": "to work together toward a shared goal",
+      "ipa": "/koʊˈɒpəreɪt/",
+      "verbForms": {
+        "base": "cooperate",
+        "s3": "cooperates",
+        "ing": "cooperating",
+        "past": "cooperated",
+        "pastParticiple": "cooperated"
+      },
+      "synonyms": [
+        "collaborate",
+        "work together",
+        "coordinate"
+      ],
+      "antonyms": [
+        "oppose",
+        "hinder",
+        "resist"
+      ],
+      "sentences": {
+        "daily": "I would like to cooperate with my neighbors.",
+        "office": "She would like to cooperate with other teams.",
+        "interview": "I would like to cooperate fully with company policies.",
+        "business": "We would like to cooperate on this initiative.",
+        "formal": "I would like to request your cooperation.",
+        "informal": "Please cooperate!"
+      },
+      "usageNote": "'Cooperate with someone'. 'Cooperation' = noun. British: 'co-operate'.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 102,
+      "word": "acknowledge",
+      "hindi": "स्वीकार करना / पहचानना",
+      "simpleMeaning": "to recognize or admit the existence of something",
+      "ipa": "/əkˈnɒlɪdʒ/",
+      "verbForms": {
+        "base": "acknowledge",
+        "s3": "acknowledges",
+        "ing": "acknowledging",
+        "past": "acknowledged",
+        "pastParticiple": "acknowledged"
+      },
+      "synonyms": [
+        "recognize",
+        "admit",
+        "confirm"
+      ],
+      "antonyms": [
+        "deny",
+        "ignore",
+        "overlook"
+      ],
+      "sentences": {
+        "daily": "I would like to acknowledge your hard work.",
+        "office": "She would like to acknowledge the team's success.",
+        "interview": "I would like to acknowledge my area of improvement.",
+        "business": "We would like to acknowledge your contribution.",
+        "formal": "I would like to formally acknowledge this achievement.",
+        "informal": "Can you acknowledge my message?"
+      },
+      "usageNote": "'Acknowledge receipt of' = confirm you received something. Common in emails.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 103,
+      "word": "polished",
+      "hindi": "निखरा हुआ / परिष्कृत",
+      "simpleMeaning": "well-prepared and refined",
+      "ipa": "/ˈpɒlɪʃt/",
+      "synonyms": [
+        "refined",
+        "smooth",
+        "expert"
+      ],
+      "antonyms": [
+        "rough",
+        "unfinished"
+      ],
+      "sentences": {
+        "daily": "I would like to give a polished performance.",
+        "office": "Her reports are always polished.",
+        "interview": "I would like to come across as polished and confident.",
+        "business": "We would like to deliver a polished product.",
+        "formal": "I would like to submit a polished draft.",
+        "informal": "You look so polished!"
+      },
+      "usageNote": "See id:85. 'Polished' in context of language/presentation = professional and smooth.",
+      "cefrLevel": "B1",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 104,
+      "word": "eager",
+      "hindi": "उत्सुक / उत्साही",
+      "simpleMeaning": "very keen or enthusiastic to do or have something",
+      "ipa": "/ˈiːɡər/",
+      "synonyms": [
+        "keen",
+        "enthusiastic",
+        "willing"
+      ],
+      "antonyms": [
+        "reluctant",
+        "indifferent",
+        "unwilling"
+      ],
+      "sentences": {
+        "daily": "I am eager to start this new journey.",
+        "office": "She is eager to learn new skills.",
+        "interview": "I am eager to contribute to your company.",
+        "business": "We are eager to explore this partnership.",
+        "formal": "I would like to express that I am eager.",
+        "informal": "I'm so eager to try this!"
+      },
+      "usageNote": "'Eager to + infinitive'. 'Eagerness' = noun. Key word for showing enthusiasm in interviews.",
+      "cefrLevel": "A2",
+      "category": "Adjectives & Descriptions"
+    },
+    {
+      "id": 105,
+      "word": "initiative",
+      "hindi": "खुद आगे बढ़ना / पहल",
+      "simpleMeaning": "the power or opportunity to act before others do",
+      "ipa": "/ɪˈnɪʃɪətɪv/",
+      "synonyms": [
+        "enterprise",
+        "drive",
+        "ambition"
+      ],
+      "antonyms": [
+        "passivity",
+        "inaction"
+      ],
+      "sentences": {
+        "daily": "I would like to show more initiative.",
+        "office": "Taking initiative is appreciated here.",
+        "interview": "I would like to demonstrate initiative in this role.",
+        "business": "Initiative drives business growth.",
+        "formal": "I would like to take the initiative on this project.",
+        "informal": "Just take initiative!"
+      },
+      "usageNote": "'Take/show/use initiative'. 'On one's own initiative' = without being asked.",
+      "cefrLevel": "B1",
+      "category": "Office & Professional"
     }
   ]
 }

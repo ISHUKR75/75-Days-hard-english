@@ -2,106 +2,130 @@
   "day": 13,
   "topic": "Use of Let",
   "passage": {
-    "title": "A Day with Use of Let",
-    "text": "Let me tell you. Let him go. Let her speak. Let us try. Let them play. Let me think. Let him rest. Let me check this. Let her do her work. Let us start.",
-    "hindiTranslation": "मुझे बताने दो। उसे जाने दो। उसे बोलने दो। हमें कोशिश करने दो। उन्हें खेलने दो। मुझे सोचने दो। उसे आराम करने दो। मुझे यह check करने दो। उसे अपना काम करने दो। हमें शुरू करने दो।"
+    "title": "A Day of Decisions",
+    "text": "It was a busy Monday morning at the office. Rahul walked in and said to his manager, 'Let me handle the client presentation today.' The manager agreed. 'Let him do it,' she told the team. During the meeting, Rahul said, 'Let me give you an example of how our product works.' After the client left, the manager said to the team, 'Let us review what went well.' She also reminded everyone, 'Don't let small mistakes become big problems.' Later that evening, Rahul wrote in his diary: 'Let me always be prepared. Let go of the fear of failure. Don't let one bad day define the journey.' It was a day full of learning and growth.",
+    "hindiTranslation": "सोमवार की सुबह office में बहुत काम था। राहुल अंदर आया और अपने manager से बोला, 'मुझे आज client presentation handle करने दो।' Manager ने हाँ कर दिया। उसने team से कहा, 'उसे करने दो।' Meeting में राहुल ने कहा, 'मुझे आपको एक example देने दो कि हमारा product कैसे काम करता है।' Client के जाने के बाद manager ने team से कहा, 'हमें देखने दो कि क्या अच्छा हुआ।' उसने सबको याद दिलाया, 'छोटी गलतियों को बड़ी समस्या मत बनने दो।' शाम को राहुल ने अपनी diary में लिखा: 'मुझे हमेशा तैयार रहने दो। डर को जाने दो। एक बुरे दिन को पूरे सफर को define मत करने दो।' यह सीखने और बढ़ने का दिन था।"
   },
   "comprehensionQuestions": [
     {
       "id": 1,
-      "question": "What does the passage say about: \"Let me tell you....\"?",
+      "question": "What did Rahul say to his manager at the start of the day?",
       "options": [
-        "Let me check this.",
-        "Let him come.",
-        "Let me try this.",
-        "Let me tell you."
+        "Let us review the meeting.",
+        "Let me handle the client presentation today.",
+        "Don't let me work today.",
+        "Let them do the presentation."
       ],
-      "answer": "Let me tell you.",
-      "explanation": "Stated in the passage: \"Let me tell you.\""
+      "answer": "Let me handle the client presentation today.",
+      "explanation": "Directly stated in the passage: Rahul said 'Let me handle the client presentation today.'"
     },
     {
       "id": 2,
-      "question": "What does the passage say about: \"Let him go....\"?",
+      "question": "What did the manager say to the team about Rahul?",
       "options": [
-        "Let her do her work.",
-        "Let us work together.",
-        "Let him correct his mistake.",
-        "Let him go."
+        "Don't let him do it.",
+        "Let them decide.",
+        "Let him do it.",
+        "Let her handle it."
       ],
-      "answer": "Let him go.",
-      "explanation": "Stated in the passage: \"Let him go.\""
+      "answer": "Let him do it.",
+      "explanation": "The manager said to the team: 'Let him do it.'"
     },
     {
       "id": 3,
-      "question": "What does the passage say about: \"Let her speak....\"?",
+      "question": "How did Rahul explain the product during the meeting?",
       "options": [
-        "Let us start.",
-        "Let me ask this question.",
-        "Let us also join.",
-        "Let her speak."
+        "Let me give you an example of how our product works.",
+        "Don't let the product fail.",
+        "Let us test the product.",
+        "Let them see the product."
       ],
-      "answer": "Let her speak.",
-      "explanation": "Stated in the passage: \"Let her speak.\""
+      "answer": "Let me give you an example of how our product works.",
+      "explanation": "Rahul said: 'Let me give you an example of how our product works.'"
     },
     {
       "id": 4,
-      "question": "What does the passage say about: \"Let us try....\"?",
+      "question": "What did the manager say after the client left?",
       "options": [
-        "Do not let him go.",
-        "Let her decide on her own.",
-        "Let me tell you.",
-        "Let us try."
+        "Don't let the client come back.",
+        "Let them all go home.",
+        "Let us review what went well.",
+        "Let me talk to the client."
       ],
-      "answer": "Let us try.",
-      "explanation": "Stated in the passage: \"Let us try.\""
+      "answer": "Let us review what went well.",
+      "explanation": "The manager said: 'Let us review what went well.'"
     },
     {
       "id": 5,
-      "question": "What does the passage say about: \"Let them play....\"?",
+      "question": "What did the manager remind the team?",
       "options": [
-        "Let me explain to you.",
-        "Let the children play outside.",
-        "Let him go.",
-        "Let them play."
+        "Don't let small mistakes become big problems.",
+        "Let us celebrate.",
+        "Let her handle everything.",
+        "Don't let Rahul present."
       ],
-      "answer": "Let them play.",
-      "explanation": "Stated in the passage: \"Let them play.\""
+      "answer": "Don't let small mistakes become big problems.",
+      "explanation": "Manager reminded: 'Don't let small mistakes become big problems.'"
     },
     {
       "id": 6,
-      "question": "What does the passage say about: \"Let me think....\"?",
+      "question": "What did Rahul write in his diary about fear?",
       "options": [
-        "Let them decide.",
-        "Let me say my point.",
-        "Let her speak.",
-        "Let me think."
+        "Let fear guide you.",
+        "Don't let fear stop him.",
+        "Let go of the fear of failure.",
+        "Let him be afraid."
       ],
-      "answer": "Let me think.",
-      "explanation": "Stated in the passage: \"Let me think.\""
+      "answer": "Let go of the fear of failure.",
+      "explanation": "Rahul wrote: 'Let go of the fear of failure.'"
     },
     {
       "id": 7,
-      "question": "What does the passage say about: \"Let him rest....\"?",
+      "question": "Which 'Don't let' sentence did Rahul use in his diary?",
       "options": [
-        "Let me have some time.",
-        "Let them sit comfortably.",
-        "Let us try.",
-        "Let him rest."
+        "Don't let success spoil you.",
+        "Don't let one bad day define the journey.",
+        "Don't let others decide.",
+        "Don't let work tire you."
       ],
-      "answer": "Let him rest.",
-      "explanation": "Stated in the passage: \"Let him rest.\""
+      "answer": "Don't let one bad day define the journey.",
+      "explanation": "Rahul's diary entry: 'Don't let one bad day define the journey.'"
     },
     {
       "id": 8,
-      "question": "What does the passage say about: \"Let me check this....\"?",
+      "question": "What is the overall theme of this passage?",
       "options": [
-        "Let him come.",
-        "Let me try this.",
-        "Let them play.",
-        "Let me check this."
+        "Using 'Let' in daily greetings",
+        "Using 'Let' for commands only",
+        "Using 'Let' for permission, decisions, and motivation",
+        "Using 'Let's' for suggestions"
       ],
-      "answer": "Let me check this.",
-      "explanation": "Stated in the passage: \"Let me check this.\""
+      "answer": "Using 'Let' for permission, decisions, and motivation",
+      "explanation": "The passage demonstrates Let me, Let him, Let us, Don't let — all covering permission and decisions."
+    },
+    {
+      "id": 9,
+      "question": "Which sentence from the passage uses 'Let' as a self-directed statement?",
+      "options": [
+        "Let him do it.",
+        "Let me always be prepared.",
+        "Don't let small mistakes become problems.",
+        "Let us review."
+      ],
+      "answer": "Let me always be prepared.",
+      "explanation": "'Let me always be prepared' = self-directed motivational use of 'Let me'."
+    },
+    {
+      "id": 10,
+      "question": "What type of 'Let' structure is 'Don't let small mistakes become big problems'?",
+      "options": [
+        "Let me statement",
+        "Let them statement",
+        "Negative Don't let structure",
+        "Question with let"
+      ],
+      "answer": "Negative Don't let structure",
+      "explanation": "'Don't let' + object + base verb = negative form of Let."
     }
   ]
 }

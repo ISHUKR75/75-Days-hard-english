@@ -1,303 +1,479 @@
 {
   "day": 13,
   "topic": "Use of Let",
-  "totalQuestions": 24,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": 1,
       "type": "translate",
       "hindi": "मुझे बताने दो।",
       "options": [
-        "Let me check this.",
-        "Let him come.",
-        "Let me try this.",
+        {
+          "english": "I will tell you.",
+          "hindi": "मैं तुम्हें बताऊँगा।"
+        },
+        {
+          "english": "He told me.",
+          "hindi": "उसने मुझे बताया।"
+        },
+        {
+          "english": "Tell me.",
+          "hindi": "मुझे बताओ।"
+        },
         "Let me tell you."
       ],
       "answer": "Let me tell you.",
-      "explanation": "Correct translation: \"मुझे बताने दो।\" = \"Let me tell you.\""
+      "explanation": "'Let me tell you' = मुझे बताने दो। Formula: Let + me + base verb."
     },
     {
       "id": 2,
       "type": "fill",
-      "sentence": "Let _____ go.",
+      "sentence": "_____ him rest — he is very tired.",
       "options": [
-        "her",
-        "together",
-        "his",
-        "him"
+        "Make",
+        "Do",
+        "Let",
+        "Will"
       ],
-      "answer": "him",
-      "explanation": "Full sentence: \"Let him go.\""
+      "answer": "Let",
+      "explanation": "'Let him rest' = उसे आराम करने दो। 'Let' + object + base verb."
     },
     {
       "id": 3,
       "type": "error",
-      "sentence": "Let her speak yesterday.",
+      "sentence": "Let me to explain this.",
       "options": [
-        "Let her speak yesterday.",
-        "Let her speak."
+        "Let me to explain this.",
+        "Let me explain this."
       ],
-      "answer": "Let her speak.",
-      "explanation": "Correct sentence: \"Let her speak.\""
+      "answer": "Let me explain this.",
+      "explanation": "After 'Let', never use 'to'. Correct: Let me explain (not 'to explain')."
     },
     {
       "id": 4,
       "type": "translate",
-      "hindi": "हमें कोशिश करने दो।",
+      "hindi": "उन्हें फैसला करने दो।",
       "options": [
-        "Do not let him go.",
-        "Let her decide on her own.",
-        "Let me tell you.",
-        "Let us try."
+        {
+          "english": "They decided.",
+          "hindi": "उन्होंने फैसला किया।"
+        },
+        "Let them decide.",
+        {
+          "english": "They will decide.",
+          "hindi": "वे फैसला करेंगे।"
+        },
+        {
+          "english": "Don't decide.",
+          "hindi": "फैसला मत करो।"
+        }
       ],
-      "answer": "Let us try.",
-      "explanation": "Correct translation: \"हमें कोशिश करने दो।\" = \"Let us try.\""
+      "answer": "Let them decide.",
+      "explanation": "'Let them decide' = उन्हें फैसला करने दो।"
     },
     {
       "id": 5,
       "type": "fill",
-      "sentence": "Let _____ play.",
+      "sentence": "Don't _____ the children stay up late.",
       "options": [
-        "to",
-        "play",
-        "go",
-        "them"
+        "make",
+        "let",
+        "allow",
+        "have"
       ],
-      "answer": "them",
-      "explanation": "Full sentence: \"Let them play.\""
+      "answer": "let",
+      "explanation": "Negative form: 'Don't let' + object + base verb."
     },
     {
       "id": 6,
       "type": "error",
-      "sentence": "Let me think yesterday.",
+      "sentence": "Let they decide the matter.",
       "options": [
-        "Let me think yesterday.",
-        "Let me think."
+        "Let they decide the matter.",
+        "Let them decide the matter."
       ],
-      "answer": "Let me think.",
-      "explanation": "Correct sentence: \"Let me think.\""
+      "answer": "Let them decide the matter.",
+      "explanation": "After 'Let', use object pronouns: NOT 'they' but 'them'."
     },
     {
       "id": 7,
       "type": "translate",
-      "hindi": "उसे आराम करने दो।",
+      "hindi": "मुझे अपना परिचय देने दो।",
       "options": [
-        "Let me have some time.",
-        "Let them sit comfortably.",
-        "Let us try.",
-        "Let him rest."
+        "Let me introduce myself.",
+        {
+          "english": "I will introduce myself.",
+          "hindi": "मैं खुद को introduce करूँगा।"
+        },
+        {
+          "english": "Please introduce me.",
+          "hindi": "कृपया मुझे introduce करो।"
+        },
+        {
+          "english": "He introduced himself.",
+          "hindi": "उसने खुद को introduce किया।"
+        }
       ],
-      "answer": "Let him rest.",
-      "explanation": "Correct translation: \"उसे आराम करने दो।\" = \"Let him rest.\""
+      "answer": "Let me introduce myself.",
+      "explanation": "Classic interview opener — Let me + introduce + myself."
     },
     {
       "id": 8,
       "type": "fill",
-      "sentence": "Let me _____ this.",
+      "sentence": "_____ us review the data before the meeting.",
       "options": [
-        "come",
-        "this",
-        "play",
-        "check"
+        "Make",
+        "Do",
+        "Let",
+        "Get"
       ],
-      "answer": "check",
-      "explanation": "Full sentence: \"Let me check this.\""
+      "answer": "Let",
+      "explanation": "'Let us review' = हमें review करने दो। Formal group permission."
     },
     {
       "id": 9,
       "type": "error",
-      "sentence": "Let her do her work yesterday.",
+      "sentence": "Let her going home now.",
       "options": [
-        "Let her do her work yesterday.",
-        "Let her do her work."
+        "Let her going home now.",
+        "Let her go home now."
       ],
-      "answer": "Let her do her work.",
-      "explanation": "Correct sentence: \"Let her do her work.\""
+      "answer": "Let her go home now.",
+      "explanation": "After 'Let + pronoun', use BASE verb — not '-ing' form."
     },
     {
       "id": 10,
       "type": "translate",
-      "hindi": "हमें शुरू करने दो।",
+      "hindi": "हमें data review करने दो।",
       "options": [
-        "Let me ask this question.",
-        "Let us also join.",
-        "Let him rest.",
-        "Let us start."
+        {
+          "english": "We reviewed the data.",
+          "hindi": "हमने data review किया।"
+        },
+        "Let us review the data.",
+        {
+          "english": "Data was reviewed.",
+          "hindi": "Data review हुआ।"
+        },
+        {
+          "english": "Review the data.",
+          "hindi": "Data review करो।"
+        }
       ],
-      "answer": "Let us start.",
-      "explanation": "Correct translation: \"हमें शुरू करने दो।\" = \"Let us start.\""
+      "answer": "Let us review the data.",
+      "explanation": "'Let us review' — group action. 'Let us' is formal."
     },
     {
       "id": 11,
       "type": "fill",
-      "sentence": "Do not _____ him go.",
+      "sentence": "Will you _____ me explain my point?",
       "options": [
-        "on",
-        "you",
-        "this",
-        "let"
+        "allow",
+        "let",
+        "make",
+        "do"
       ],
       "answer": "let",
-      "explanation": "Full sentence: \"Do not let him go.\""
+      "explanation": "'Will you let me explain' = question form with Let.",
+      "difficulty": "medium"
     },
     {
       "id": 12,
       "type": "error",
-      "sentence": "Let me explain to you yesterday.",
+      "sentence": "Don't let she come inside.",
       "options": [
-        "Let me explain to you yesterday.",
-        "Let me explain to you."
+        "Don't let she come inside.",
+        "Don't let her come inside."
       ],
-      "answer": "Let me explain to you.",
-      "explanation": "Correct sentence: \"Let me explain to you.\""
+      "answer": "Don't let her come inside.",
+      "explanation": "'she' = subject pronoun. After 'let', use 'her' (object pronoun)."
     },
     {
       "id": 13,
       "type": "translate",
-      "hindi": "उन्हें फैसला करने दो।",
+      "hindi": "बच्चों को बाहर खेलने दो।",
       "options": [
-        "Let me say my point.",
-        "Let her speak.",
-        "Let us start.",
-        "Let them decide."
+        {
+          "english": "Children are playing outside.",
+          "hindi": "बच्चे बाहर खेल रहे हैं।"
+        },
+        "Let the children play outside.",
+        {
+          "english": "Children should play.",
+          "hindi": "बच्चों को खेलना चाहिए।"
+        },
+        {
+          "english": "Don't let children play.",
+          "hindi": "बच्चों को मत खेलने दो।"
+        }
       ],
-      "answer": "Let them decide.",
-      "explanation": "Correct translation: \"उन्हें फैसला करने दो।\" = \"Let them decide.\""
+      "answer": "Let the children play outside.",
+      "explanation": "'Let + the children + play' — noun object instead of pronoun."
     },
     {
       "id": 14,
       "type": "fill",
-      "sentence": "Let me _____ some time.",
+      "sentence": "Let me _____ you through this process step by step.",
       "options": [
-        "comfortably",
-        "try",
-        "him",
-        "have"
+        "walk",
+        "walking",
+        "walked",
+        "to walk"
       ],
-      "answer": "have",
-      "explanation": "Full sentence: \"Let me have some time.\""
+      "answer": "walk",
+      "explanation": "After 'Let me', use base verb: 'walk you through'. No 'to', no '-ing'."
     },
     {
       "id": 15,
       "type": "error",
-      "sentence": "Let him come yesterday.",
+      "sentence": "Let not him enter the room.",
       "options": [
-        "Let him come yesterday.",
-        "Let him come."
+        "Let not him enter the room.",
+        "Don't let him enter the room."
       ],
-      "answer": "Let him come.",
-      "explanation": "Correct sentence: \"Let him come.\""
+      "answer": "Don't let him enter the room.",
+      "explanation": "In modern English, negative is 'Don't let him', NOT 'Let not him'."
     },
     {
       "id": 16,
       "type": "translate",
-      "hindi": "हमें साथ काम करने दो।",
+      "hindi": "क्या आप मुझे यह समझाने देंगे?",
       "options": [
-        "Let him correct his mistake.",
-        "Let me think.",
-        "Let them decide.",
-        "Let us work together."
+        {
+          "english": "Can I explain?",
+          "hindi": "क्या मैं समझा सकता हूँ?"
+        },
+        {
+          "english": "Let him explain.",
+          "hindi": "उसे समझाने दो."
+        },
+        "Will you let me explain this?",
+        {
+          "english": "Please explain.",
+          "hindi": "कृपया समझाएँ।"
+        }
       ],
-      "answer": "Let us work together.",
-      "explanation": "Correct translation: \"हमें साथ काम करने दो।\" = \"Let us work together.\""
+      "answer": "Will you let me explain this?",
+      "explanation": "Question form: 'Will you let me' + base verb."
     },
     {
       "id": 17,
       "type": "fill",
-      "sentence": "Let me _____ this question.",
+      "sentence": "Don't let this opportunity _____ away.",
       "options": [
-        "join",
-        "rest",
-        "some",
-        "ask"
+        "slip",
+        "slipping",
+        "slipped",
+        "to slip"
       ],
-      "answer": "ask",
-      "explanation": "Full sentence: \"Let me ask this question.\""
+      "answer": "slip",
+      "explanation": "'Don't let + object + base verb': Don't let it slip away."
     },
     {
       "id": 18,
       "type": "error",
-      "sentence": "Let her decide on her own yesterday.",
+      "sentence": "Let I try once more.",
       "options": [
-        "Let her decide on her own yesterday.",
-        "Let her decide on her own."
+        "Let I try once more.",
+        "Let me try once more."
       ],
-      "answer": "Let her decide on her own.",
-      "explanation": "Correct sentence: \"Let her decide on her own.\""
+      "answer": "Let me try once more.",
+      "explanation": "'I' is a subject pronoun. After 'Let', use 'me' (object pronoun)."
     },
     {
       "id": 19,
       "type": "translate",
-      "hindi": "बच्चों को बाहर खेलने दो।",
+      "hindi": "अतीत को जाने दो और आगे बढ़ो।",
       "options": [
-        "Let him go.",
-        "Let her do her work.",
-        "Let us work together.",
-        "Let the children play outside."
+        {
+          "english": "Forget the past.",
+          "hindi": "अतीत को भूल जाओ।"
+        },
+        "Let go of the past and move forward.",
+        {
+          "english": "The past is gone.",
+          "hindi": "अतीत चला गया।"
+        },
+        {
+          "english": "Let the past be.",
+          "hindi": "अतीत को रहने दो।"
+        }
       ],
-      "answer": "Let the children play outside.",
-      "explanation": "Correct translation: \"बच्चों को बाहर खेलने दो।\" = \"Let the children play outside.\""
+      "answer": "Let go of the past and move forward.",
+      "explanation": "'Let go of' = idiom for releasing something emotionally or physically."
     },
     {
       "id": 20,
       "type": "fill",
-      "sentence": "Let me _____ my point.",
+      "sentence": "Let her _____ for herself — she is an adult.",
       "options": [
         "speak",
-        "start",
-        "this",
-        "say"
+        "speaking",
+        "spoken",
+        "to speak"
       ],
-      "answer": "say",
-      "explanation": "Full sentence: \"Let me say my point.\""
+      "answer": "speak",
+      "explanation": "'Let her speak for herself' — base verb after Let + pronoun."
     },
     {
       "id": 21,
-      "type": "error",
-      "sentence": "Let them sit comfortably yesterday.",
+      "type": "translate",
+      "hindi": "उसे (लड़के को) अंदर मत आने दो।",
       "options": [
-        "Let them sit comfortably yesterday.",
-        "Let them sit comfortably."
+        "Don't let him come inside.",
+        {
+          "english": "Let him come inside.",
+          "hindi": "उसे अंदर आने दो।"
+        },
+        {
+          "english": "He came inside.",
+          "hindi": "वह अंदर आ गया।"
+        },
+        {
+          "english": "Don't let her inside.",
+          "hindi": "उसे (लड़की को) अंदर मत आने दो।"
+        }
       ],
-      "answer": "Let them sit comfortably.",
-      "explanation": "Correct sentence: \"Let them sit comfortably.\""
+      "answer": "Don't let him come inside.",
+      "explanation": "Negative: Don't let + him + base verb."
     },
     {
       "id": 22,
-      "type": "translate",
-      "hindi": "मुझे यह try करने दो।",
+      "type": "fill",
+      "sentence": "Let us _____ the meeting on time.",
       "options": [
-        "Let them play.",
-        "Let me explain to you.",
-        "Let the children play outside.",
-        "Let me try this."
+        "starting",
+        "started",
+        "start",
+        "to start"
       ],
-      "answer": "Let me try this.",
-      "explanation": "Correct translation: \"मुझे यह try करने दो।\" = \"Let me try this.\""
+      "answer": "start",
+      "explanation": "'Let us start' — base verb after Let us."
     },
     {
       "id": 23,
-      "type": "fill",
-      "sentence": "Let him _____ his mistake.",
+      "type": "error",
+      "sentence": "Let him to present his ideas.",
       "options": [
-        "think",
-        "decide",
-        "my",
-        "correct"
+        "Let him to present his ideas.",
+        "Let him present his ideas."
       ],
-      "answer": "correct",
-      "explanation": "Full sentence: \"Let him correct his mistake.\""
+      "answer": "Let him present his ideas.",
+      "explanation": "No 'to' after Let + pronoun. BASE verb directly."
     },
     {
       "id": 24,
-      "type": "error",
-      "sentence": "Let us also join yesterday.",
+      "type": "translate",
+      "hindi": "मुझे एक example देने दो।",
       "options": [
-        "Let us also join yesterday.",
-        "Let us also join."
+        {
+          "english": "Give me an example.",
+          "hindi": "मुझे एक example दो।"
+        },
+        "Let me give you an example.",
+        {
+          "english": "I will give an example.",
+          "hindi": "मैं एक example दूँगा।"
+        },
+        {
+          "english": "He gave me an example.",
+          "hindi": "उसने मुझे एक example दिया।"
+        }
       ],
-      "answer": "Let us also join.",
-      "explanation": "Correct sentence: \"Let us also join.\""
+      "answer": "Let me give you an example.",
+      "explanation": "Classic phrase for interviews/meetings: Let me give you an example."
+    },
+    {
+      "id": 25,
+      "type": "fill",
+      "sentence": "Don't _____ him know about the surprise.",
+      "options": [
+        "let",
+        "make",
+        "allow",
+        "have"
+      ],
+      "answer": "let",
+      "explanation": "'Don't let him know' = उसे मत जानने दो।"
+    },
+    {
+      "id": 26,
+      "type": "error",
+      "sentence": "Let them deciding the matter.",
+      "options": [
+        "Let them deciding the matter.",
+        "Let them decide the matter."
+      ],
+      "answer": "Let them decide the matter.",
+      "explanation": "After 'Let + them', use BASE verb (decide), not '-ing' form."
+    },
+    {
+      "id": 27,
+      "type": "translate",
+      "hindi": "मुझे इस project को handle करने दो।",
+      "options": [
+        {
+          "english": "Handle this project.",
+          "hindi": "इस project को handle करो।"
+        },
+        "Let me handle this project.",
+        {
+          "english": "I handled this project.",
+          "hindi": "मैंने इस project को handle किया।"
+        },
+        {
+          "english": "He can handle this project.",
+          "hindi": "वह इस project को handle कर सकता है।"
+        }
+      ],
+      "answer": "Let me handle this project.",
+      "explanation": "'Let me handle' = professional volunteering phrase."
+    },
+    {
+      "id": 28,
+      "type": "fill",
+      "sentence": "Let the truth _____ out eventually.",
+      "options": [
+        "come",
+        "coming",
+        "came",
+        "to come"
+      ],
+      "answer": "come",
+      "explanation": "'Let the truth come out' — abstract 'Let' usage."
+    },
+    {
+      "id": 29,
+      "type": "error",
+      "sentence": "Let us not to repeat this mistake.",
+      "options": [
+        "Let us not to repeat this mistake.",
+        "Let us not repeat this mistake."
+      ],
+      "answer": "Let us not repeat this mistake.",
+      "explanation": "'Let us not' + base verb (no 'to')."
+    },
+    {
+      "id": 30,
+      "type": "translate",
+      "hindi": "उसे (लड़की को) team lead करने दो।",
+      "options": [
+        {
+          "english": "She is leading the team.",
+          "hindi": "वह team lead कर रही है।"
+        },
+        "Let her lead the team.",
+        {
+          "english": "The team is led by her.",
+          "hindi": "Team उसके द्वारा lead होती है।"
+        },
+        {
+          "english": "Don't let her lead.",
+          "hindi": "उसे lead मत करने दो।"
+        }
+      ],
+      "answer": "Let her lead the team.",
+      "explanation": "'Let her lead' — empowering permission statement in professional context."
     }
   ]
 }

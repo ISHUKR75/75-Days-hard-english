@@ -1,343 +1,1704 @@
 {
-  "day": 15,
+  "totalQuestions": 100,
   "topic": "Would Like To",
-  "totalQuestions": 24,
+  "day": 15,
+  "instructions": "नीचे दिए गए Hindi sentences को English में translate करें। 'Would Like To' के सभी forms — positive, negative, question — को cover किया गया है।",
+  "categories": [
+    "Positive Statements",
+    "Negative Statements",
+    "Questions & Offers",
+    "Formal & Office",
+    "Interview Context",
+    "Daily Life",
+    "Customer Service",
+    "Mixed Practice"
+  ],
   "questions": [
     {
       "id": 1,
-      "hindi": "मैं यह जानना चाहूँगा।",
-      "english": "I would like to know this.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"I would like to know this.\"",
+      "hindi": "मैं एक गिलास पानी पीना चाहूँगा।",
+      "english": "I would like to have a glass of water.",
+      "alternatives": [
+        "I'd like to have a glass of water."
+      ],
+      "hint": "I + would like to + base verb",
+      "explanation": "'Would like to' = polite 'want to'. Contraction 'I'd' is equally correct.",
       "difficulty": "easy",
       "tags": [
-        "would"
+        "positive",
+        "daily-life"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
     },
     {
       "id": 2,
-      "hindi": "मैं आपसे मिलना चाहूँगा।",
-      "english": "I would like to meet you.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"I would like to meet you.\"",
-      "difficulty": "medium",
-      "tags": [
-        "would"
+      "hindi": "वह manager से मिलना चाहेगी।",
+      "english": "She would like to meet the manager.",
+      "alternatives": [
+        "She'd like to meet the manager."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "She + would like to + meet",
+      "explanation": "सभी subjects के साथ would like to — She/He/It के लिए भी 'would' नहीं बदलता।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
     },
     {
       "id": 3,
-      "hindi": "वह कुछ पूछना चाहेगी।",
-      "english": "She would like to ask something.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"She would like to ask something.\"",
-      "difficulty": "hard",
-      "tags": [
-        "would"
+      "hindi": "क्या आप कॉफ़ी पीना चाहेंगे?",
+      "english": "Would you like to have a coffee?",
+      "alternatives": [
+        "Would you like a coffee?"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "Would + you + like to + base verb",
+      "explanation": "Question form: Would को subject (you) से पहले रखें।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
     },
     {
       "id": 4,
-      "hindi": "हम एक coffee लेना चाहेंगे।",
-      "english": "We would like to have a coffee.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"We would like to have a coffee.\"",
+      "hindi": "मैं इस नौकरी के लिए apply करना चाहूँगा।",
+      "english": "I would like to apply for this job.",
+      "alternatives": [
+        "I'd like to apply for this job."
+      ],
+      "hint": "I + would like to + apply for",
+      "explanation": "'Apply for' = job/position के लिए अनुरोध करना।",
       "difficulty": "easy",
       "tags": [
-        "would"
+        "positive",
+        "interview"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
     },
     {
       "id": 5,
-      "hindi": "वे travel करना चाहेंगे।",
-      "english": "They would like to travel.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"They would like to travel.\"",
+      "hindi": "हम आपके साथ काम करना नहीं चाहेंगे।",
+      "english": "We would not like to work with you.",
+      "alternatives": [
+        "We wouldn't like to work with you."
+      ],
+      "hint": "We + would not like to + base verb",
+      "explanation": "Negative: would not like to या wouldn't like to।",
       "difficulty": "medium",
       "tags": [
-        "would"
+        "negative"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
     },
     {
       "id": 6,
-      "hindi": "क्या आप कुछ खाना चाहेंगे?",
-      "english": "Would you like to eat something?",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"Would you like to eat something?\"",
-      "difficulty": "hard",
-      "tags": [
-        "would"
+      "hindi": "क्या वह यह presentation देना चाहेगा?",
+      "english": "Would he like to give this presentation?",
+      "alternatives": [
+        "Would he like to present?"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "Would + he + like to",
+      "explanation": "Question form में would पहले आता है।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
     },
     {
       "id": 7,
-      "hindi": "मैं इस बारे में और जानना चाहूँगा।",
-      "english": "I would like to know more about this.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"I would like to know more about this.\"",
+      "hindi": "मैं आपसे माफी माँगना चाहूँगा।",
+      "english": "I would like to apologize to you.",
+      "alternatives": [
+        "I'd like to apologize."
+      ],
+      "hint": "apologize = माफी माँगना",
+      "explanation": "Professional context में 'apologize' use करें, सिर्फ 'sorry' नहीं।",
       "difficulty": "easy",
       "tags": [
-        "would"
+        "positive",
+        "formal"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
     },
     {
       "id": 8,
-      "hindi": "वह अपनी राय देना चाहेगा।",
-      "english": "He would like to give his opinion.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"He would like to give his opinion.\"",
-      "difficulty": "medium",
-      "tags": [
-        "would"
+      "hindi": "वे अगले हफ्ते यात्रा करना चाहेंगे।",
+      "english": "They would like to travel next week.",
+      "alternatives": [
+        "They'd like to travel next week."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "They + would like to + travel",
+      "explanation": "Future plans के लिए would like to का use।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
     },
     {
       "id": 9,
-      "hindi": "हम यह मौका लेना चाहेंगे।",
-      "english": "We would like to take this opportunity.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"We would like to take this opportunity.\"",
-      "difficulty": "hard",
-      "tags": [
-        "would"
+      "hindi": "मैं इस meeting में एक बात add करना चाहूँगा।",
+      "english": "I would like to add a point in this meeting.",
+      "alternatives": [
+        "I'd like to add something to this meeting."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "add = जोड़ना",
+      "explanation": "Office meetings में politely बात करने के लिए।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
     },
     {
       "id": 10,
-      "hindi": "क्या आप बैठना चाहेंगे?",
-      "english": "Would you like to sit down?",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"Would you like to sit down?\"",
+      "hindi": "क्या आप menu देखना चाहेंगे?",
+      "english": "Would you like to see the menu?",
+      "alternatives": [
+        "Would you like to look at the menu?"
+      ],
+      "hint": "Would you like to + see",
+      "explanation": "Restaurant और customer service में यह phrase बहुत common है।",
       "difficulty": "easy",
       "tags": [
-        "would"
+        "question",
+        "customer-service"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
     },
     {
       "id": 11,
-      "hindi": "मैं धन्यवाद कहना चाहूँगा।",
-      "english": "I would like to say thank you.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"I would like to say thank you.\"",
+      "hindi": "वह अपनी salary के बारे में बात करना नहीं चाहेगी।",
+      "english": "She would not like to discuss her salary.",
+      "alternatives": [
+        "She wouldn't like to discuss her salary."
+      ],
+      "hint": "Negative form: wouldn't like to",
+      "explanation": "Negative में 'wouldn't' contraction use कर सकते हैं।",
       "difficulty": "medium",
       "tags": [
-        "would"
+        "negative",
+        "office"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Subject + wouldn't like to + base verb",
+      "category": "Negative Statements"
     },
     {
       "id": 12,
-      "hindi": "वह अपना विचार साझा करना चाहेगी।",
-      "english": "She would like to share her idea.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"She would like to share her idea.\"",
-      "difficulty": "hard",
-      "tags": [
-        "would"
+      "hindi": "मैं आपको धन्यवाद कहना चाहूँगा।",
+      "english": "I would like to thank you.",
+      "alternatives": [
+        "I'd like to express my gratitude."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "thank = धन्यवाद देना",
+      "explanation": "Formal expression of gratitude।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "formal"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
     },
     {
       "id": 13,
-      "hindi": "हम इस project पर काम करना चाहेंगे।",
-      "english": "We would like to work on this project.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"We would like to work on this project.\"",
-      "difficulty": "easy",
-      "tags": [
-        "would"
+      "hindi": "हम एक नया branch खोलना चाहेंगे।",
+      "english": "We would like to open a new branch.",
+      "alternatives": [
+        "We'd like to open a new branch."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "open a branch = शाखा खोलना",
+      "explanation": "Business expansion के लिए use।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
     },
     {
       "id": 14,
-      "hindi": "क्या तुम कुछ पीना चाहोगे?",
-      "english": "Would you like to drink something?",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"Would you like to drink something?\"",
-      "difficulty": "medium",
-      "tags": [
-        "would"
+      "hindi": "क्या तुम मेरे साथ lunch लेना चाहोगे?",
+      "english": "Would you like to have lunch with me?",
+      "alternatives": [
+        "Would you like to join me for lunch?"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "Would you like to + have lunch",
+      "explanation": "Social invitation में would like to।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Daily Life"
     },
     {
       "id": 15,
-      "hindi": "मैं माफी मांगना चाहूँगा।",
-      "english": "I would like to apologize.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"I would like to apologize.\"",
-      "difficulty": "hard",
-      "tags": [
-        "would"
+      "hindi": "वह इस project पर काम नहीं करना चाहेगा।",
+      "english": "He would not like to work on this project.",
+      "alternatives": [
+        "He wouldn't like to work on this project."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "Negative: would not / wouldn't",
+      "explanation": "Negative form में 'not' would और like के बीच आता है।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "office"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
     },
     {
       "id": 16,
-      "hindi": "वे इस topic पर चर्चा करना चाहेंगे।",
-      "english": "They would like to discuss this topic.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"They would like to discuss this topic.\"",
+      "hindi": "मैं इस company में grow करना चाहूँगा।",
+      "english": "I would like to grow in this company.",
+      "alternatives": [
+        "I'd like to grow professionally in this company."
+      ],
+      "hint": "grow = विकास करना",
+      "explanation": "Interview में career growth बताने के लिए।",
       "difficulty": "easy",
       "tags": [
-        "would"
+        "positive",
+        "interview"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
     },
     {
       "id": 17,
-      "hindi": "मैं यह सवाल पूछना चाहूँगा।",
-      "english": "I would like to ask this question.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"I would like to ask this question.\"",
+      "hindi": "क्या आप कुछ और बताना चाहेंगे?",
+      "english": "Would you like to add anything else?",
+      "alternatives": [
+        "Would you like to say anything more?"
+      ],
+      "hint": "add/say anything else",
+      "explanation": "Meetings में दूसरों को invite करने के लिए।",
       "difficulty": "medium",
       "tags": [
-        "would"
+        "question",
+        "office"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
     },
     {
       "id": 18,
-      "hindi": "वह ब्रेक लेना चाहेगा।",
-      "english": "He would like to take a break.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"He would like to take a break.\"",
-      "difficulty": "hard",
-      "tags": [
-        "would"
+      "hindi": "हम आपको यह सेवा offer करना चाहेंगे।",
+      "english": "We would like to offer you this service.",
+      "alternatives": [
+        "We'd like to offer you our service."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "offer = प्रस्ताव देना",
+      "explanation": "Business/customer service में polite offer।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Customer Service"
     },
     {
       "id": 19,
-      "hindi": "हम आपकी मदद करना चाहेंगे।",
-      "english": "We would like to help you.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"We would like to help you.\"",
-      "difficulty": "easy",
-      "tags": [
-        "would"
+      "hindi": "मैं खुद को इस role के लिए suitable मानता हूँ और यहाँ join करना चाहूँगा।",
+      "english": "I believe I am suitable for this role and would like to join your team.",
+      "alternatives": [
+        "I'd like to join your organization as I feel I am the right fit."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "join = शामिल होना",
+      "explanation": "Interview में confidence के साथ interest दिखाने के लिए।",
+      "difficulty": "hard",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
     },
     {
       "id": 20,
-      "hindi": "क्या आप कुछ कहना चाहेंगे?",
-      "english": "Would you like to say something?",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"Would you like to say something?\"",
-      "difficulty": "medium",
-      "tags": [
-        "would"
+      "hindi": "क्या आप पानी लेना चाहेंगे?",
+      "english": "Would you like to have some water?",
+      "alternatives": [
+        "Would you like some water?"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "Would you like to + have",
+      "explanation": "Hospitality में standard polite offer।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "customer-service"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
     },
     {
       "id": 21,
-      "hindi": "मैं यह सीखना चाहूँगा।",
-      "english": "I would like to learn this.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"I would like to learn this.\"",
-      "difficulty": "hard",
-      "tags": [
-        "would"
+      "hindi": "मैं इस मामले को जल्दी हल करना चाहूँगा।",
+      "english": "I would like to resolve this matter quickly.",
+      "alternatives": [
+        "I'd like to sort this out quickly."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "resolve = हल करना",
+      "explanation": "Professional conflict resolution language।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
     },
     {
       "id": 22,
-      "hindi": "वह presentation देना चाहेगी।",
-      "english": "She would like to give a presentation.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"She would like to give a presentation.\"",
-      "difficulty": "easy",
-      "tags": [
-        "would"
+      "hindi": "वे इस समझौते पर हस्ताक्षर नहीं करना चाहेंगे।",
+      "english": "They would not like to sign this agreement.",
+      "alternatives": [
+        "They wouldn't like to sign the agreement."
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "sign = हस्ताक्षर करना",
+      "explanation": "Negative with formal business context।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "business"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
     },
     {
       "id": 23,
-      "hindi": "हम इसे जल्दी खत्म करना चाहेंगे।",
-      "english": "We would like to finish this soon.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"We would like to finish this soon.\"",
-      "difficulty": "medium",
-      "tags": [
-        "would"
+      "hindi": "क्या वह interview के लिए आना चाहेगी?",
+      "english": "Would she like to come for the interview?",
+      "alternatives": [
+        "Would she like to attend the interview?"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "hint": "Would + she + like to",
+      "explanation": "Third person question form — would + she।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "interview"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Interview Context"
     },
     {
       "id": 24,
-      "hindi": "मैं suggestion देना चाहूँगा।",
-      "english": "I would like to give a suggestion.",
-      "alternatives": [],
-      "hint": "Use the pattern: Subject + would like to + base verb (polite way of expressing a wish)",
-      "explanation": "Correct sentence: \"I would like to give a suggestion.\"",
+      "hindi": "मैं नई skills सीखना चाहूँगा।",
+      "english": "I would like to learn new skills.",
+      "alternatives": [
+        "I'd like to acquire new skills."
+      ],
+      "hint": "learn = सीखना",
+      "explanation": "Self-improvement and learning।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 25,
+      "hindi": "हम आपकी शिकायत सुनना चाहेंगे।",
+      "english": "We would like to hear your complaint.",
+      "alternatives": [
+        "We'd like to listen to your concern."
+      ],
+      "hint": "hear a complaint = शिकायत सुनना",
+      "explanation": "Customer service में empathetic response।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "customer-service"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Customer Service"
+    },
+    {
+      "id": 26,
+      "hindi": "मैं अपनी performance review के बारे में बात करना चाहूँगा।",
+      "english": "I would like to discuss my performance review.",
+      "alternatives": [
+        "I'd like to talk about my performance evaluation."
+      ],
+      "hint": "performance review = मूल्यांकन",
+      "explanation": "HR/office conversation में।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 27,
+      "hindi": "क्या आप हमारी नई product देखना चाहेंगे?",
+      "english": "Would you like to see our new product?",
+      "alternatives": [
+        "Would you like to have a look at our new product?"
+      ],
+      "hint": "Would you like to + see",
+      "explanation": "Sales और business presentation में।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "business"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
+    },
+    {
+      "id": 28,
+      "hindi": "वह इस job में interest नहीं लेना चाहेगा।",
+      "english": "He would not like to take interest in this job.",
+      "alternatives": [
+        "He wouldn't like to pursue this job."
+      ],
+      "hint": "Negative: wouldn't like to",
+      "explanation": "Negative statement about interest।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 29,
+      "hindi": "मैं आपको अपने अनुभव के बारे में बताना चाहूँगा।",
+      "english": "I would like to tell you about my experience.",
+      "alternatives": [
+        "I'd like to share my experience with you."
+      ],
+      "hint": "tell/share about experience",
+      "explanation": "Interview में experience बताने के लिए।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 30,
+      "hindi": "हम आपसे personally मिलना चाहेंगे।",
+      "english": "We would like to meet you in person.",
+      "alternatives": [
+        "We'd like to meet you personally."
+      ],
+      "hint": "in person = personally",
+      "explanation": "Business context में face-to-face meeting।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 31,
+      "hindi": "क्या आप यहाँ बैठना चाहेंगे?",
+      "english": "Would you like to sit here?",
+      "alternatives": [
+        "Would you like to take a seat here?"
+      ],
+      "hint": "sit = बैठना",
+      "explanation": "Hospitality में guest को invite करना।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 32,
+      "hindi": "मैं अपना परिचय देना चाहूँगा।",
+      "english": "I would like to introduce myself.",
+      "alternatives": [
+        "I'd like to briefly introduce myself."
+      ],
+      "hint": "introduce = परिचय देना",
+      "explanation": "Meeting/interview शुरू करने का classic phrase।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 33,
+      "hindi": "वह देर तक काम नहीं करना चाहेगी।",
+      "english": "She would not like to work overtime.",
+      "alternatives": [
+        "She wouldn't like to stay late."
+      ],
+      "hint": "overtime/late = देर तक काम करना",
+      "explanation": "Negative preference about work hours।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "office"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 34,
+      "hindi": "क्या वे हमारे साथ dinner करना चाहेंगे?",
+      "english": "Would they like to have dinner with us?",
+      "alternatives": [
+        "Would they like to join us for dinner?"
+      ],
+      "hint": "Would + they + like to",
+      "explanation": "Social invitation।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 35,
+      "hindi": "मैं आपकी company में contribute करना चाहूँगा।",
+      "english": "I would like to contribute to your company.",
+      "alternatives": [
+        "I'd like to add value to your organization."
+      ],
+      "hint": "contribute = योगदान देना",
+      "explanation": "Interview में value addition show करना।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 36,
+      "hindi": "हम इस deal को finalize करना चाहेंगे।",
+      "english": "We would like to finalize this deal.",
+      "alternatives": [
+        "We'd like to close this deal."
+      ],
+      "hint": "finalize = अंतिम रूप देना",
+      "explanation": "Business negotiations में।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 37,
+      "hindi": "क्या आप अपनी problem share करना चाहेंगे?",
+      "english": "Would you like to share your problem?",
+      "alternatives": [
+        "Would you like to tell me what's wrong?"
+      ],
+      "hint": "share = साझा करना",
+      "explanation": "Empathetic question in daily life/office।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 38,
+      "hindi": "मैं इस topic पर एक presentation देना चाहूँगा।",
+      "english": "I would like to give a presentation on this topic.",
+      "alternatives": [
+        "I'd like to present on this topic."
+      ],
+      "hint": "give a presentation = प्रस्तुति देना",
+      "explanation": "Office/academic context।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 39,
+      "hindi": "वह इस offer को accept नहीं करना चाहेगा।",
+      "english": "He would not like to accept this offer.",
+      "alternatives": [
+        "He wouldn't like to accept the offer."
+      ],
+      "hint": "accept = स्वीकार करना",
+      "explanation": "Negative form of accepting an offer।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "business"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 40,
+      "hindi": "मैं घर से काम करना prefer करूँगा।",
+      "english": "I would prefer to work from home.",
+      "alternatives": [
+        "I'd prefer working from home."
+      ],
+      "hint": "prefer = पसंद करना (stronger politeness)",
+      "explanation": "'Would prefer to' = stronger choice than 'would like to'।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would prefer to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 41,
+      "hindi": "क्या आप हमारे office का tour लेना चाहेंगे?",
+      "english": "Would you like to take a tour of our office?",
+      "alternatives": [
+        "Would you like to have a look around our office?"
+      ],
+      "hint": "tour = भ्रमण",
+      "explanation": "Office visit या hospitality context।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
+    },
+    {
+      "id": 42,
+      "hindi": "हम अपने clients को best service देना चाहेंगे।",
+      "english": "We would like to provide the best service to our clients.",
+      "alternatives": [
+        "We'd like to offer top-quality service to our clients."
+      ],
+      "hint": "provide = प्रदान करना",
+      "explanation": "Customer service commitment।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Customer Service"
+    },
+    {
+      "id": 43,
+      "hindi": "मैं इस course में enroll करना चाहूँगा।",
+      "english": "I would like to enroll in this course.",
+      "alternatives": [
+        "I'd like to register for this course."
+      ],
+      "hint": "enroll = दाखिला लेना",
+      "explanation": "Education/training context।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 44,
+      "hindi": "वे इस project को cancel नहीं करना चाहेंगे।",
+      "english": "They would not like to cancel this project.",
+      "alternatives": [
+        "They wouldn't like to cancel the project."
+      ],
+      "hint": "cancel = रद्द करना",
+      "explanation": "Project management में negative preference।",
+      "difficulty": "medium",
+      "tags": [
+        "negative",
+        "office"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 45,
+      "hindi": "क्या आप इस position के लिए interview देना चाहेंगे?",
+      "english": "Would you like to interview for this position?",
+      "alternatives": [
+        "Would you like to apply for this position?"
+      ],
+      "hint": "interview for = interview देना",
+      "explanation": "Inviting someone for interview।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "interview"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Interview Context"
+    },
+    {
+      "id": 46,
+      "hindi": "मैं एक savings account खोलना चाहूँगा।",
+      "english": "I would like to open a savings account.",
+      "alternatives": [
+        "I'd like to open a bank account."
+      ],
+      "hint": "savings account = बचत खाता",
+      "explanation": "Banking/financial context।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "formal"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Customer Service"
+    },
+    {
+      "id": 47,
+      "hindi": "वह team के साथ collaborate करना चाहेगी।",
+      "english": "She would like to collaborate with the team.",
+      "alternatives": [
+        "She'd like to work together with the team."
+      ],
+      "hint": "collaborate = मिलकर काम करना",
+      "explanation": "Teamwork and cooperation context।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 48,
+      "hindi": "मैं यह opportunity नहीं खोना चाहूँगा।",
+      "english": "I would not like to miss this opportunity.",
+      "alternatives": [
+        "I wouldn't like to lose this chance."
+      ],
+      "hint": "miss = खोना, opportunity = अवसर",
+      "explanation": "Expressing that something is important to keep।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 49,
+      "hindi": "क्या वह नई city में shift होना चाहेगा?",
+      "english": "Would he like to move to a new city?",
+      "alternatives": [
+        "Would he like to relocate?"
+      ],
+      "hint": "Would + he + like to + move",
+      "explanation": "Relocation question for job/personal context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 50,
+      "hindi": "हम आपको यह position offer करना चाहेंगे।",
+      "english": "We would like to offer you this position.",
+      "alternatives": [
+        "We'd like to offer you the job."
+      ],
+      "hint": "offer a position = नौकरी देना",
+      "explanation": "Job offer in HR/recruitment context।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 51,
+      "hindi": "मैं अपने boss को अपना idea बताना चाहूँगा।",
+      "english": "I would like to share my idea with my boss.",
+      "alternatives": [
+        "I'd like to present my idea to my boss."
+      ],
+      "hint": "share = साझा करना",
+      "explanation": "Workplace communication।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 52,
+      "hindi": "क्या तुम yoga class join करना चाहोगे?",
+      "english": "Would you like to join the yoga class?",
+      "alternatives": [
+        "Would you like to sign up for yoga?"
+      ],
+      "hint": "join = शामिल होना",
+      "explanation": "Invitation to join an activity।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Daily Life"
+    },
+    {
+      "id": 53,
+      "hindi": "वे इस issue को publicly discuss नहीं करना चाहेंगे।",
+      "english": "They would not like to discuss this issue publicly.",
+      "alternatives": [
+        "They wouldn't like this issue discussed in public."
+      ],
+      "hint": "publicly = सार्वजनिक रूप से",
+      "explanation": "Privacy and professional discretion।",
       "difficulty": "hard",
       "tags": [
-        "would"
+        "negative",
+        "formal"
       ],
-      "grammarRule": "Would Like To",
-      "category": "Would Like To practice"
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 54,
+      "hindi": "मैं आपको हमारी नई service के बारे में inform करना चाहूँगा।",
+      "english": "I would like to inform you about our new service.",
+      "alternatives": [
+        "I'd like to let you know about our new service."
+      ],
+      "hint": "inform = सूचित करना",
+      "explanation": "Formal communication/email language।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Customer Service"
+    },
+    {
+      "id": 55,
+      "hindi": "क्या आप अपनी profile update करना चाहेंगे?",
+      "english": "Would you like to update your profile?",
+      "alternatives": [
+        "Would you like to edit your profile?"
+      ],
+      "hint": "update = अपडेट करना",
+      "explanation": "Tech/app context।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 56,
+      "hindi": "वह नई city में खुद को prove करना चाहेगी।",
+      "english": "She would like to prove herself in the new city.",
+      "alternatives": [
+        "She'd like to show her abilities in the new city."
+      ],
+      "hint": "prove yourself = खुद को साबित करना",
+      "explanation": "Personal ambition statement।",
+      "difficulty": "hard",
+      "tags": [
+        "positive"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 57,
+      "hindi": "मैं अपने घर के पास एक gym खोलना चाहूँगा।",
+      "english": "I would like to open a gym near my home.",
+      "alternatives": [
+        "I'd like to start a gym close to my house."
+      ],
+      "hint": "open a gym = जिम खोलना",
+      "explanation": "Entrepreneurship and daily life।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 58,
+      "hindi": "क्या आप हमारी feedback form fill करना चाहेंगे?",
+      "english": "Would you like to fill in our feedback form?",
+      "alternatives": [
+        "Would you like to complete our feedback form?"
+      ],
+      "hint": "fill in = भरना",
+      "explanation": "Customer service / post-service feedback।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "customer-service"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
+    },
+    {
+      "id": 59,
+      "hindi": "हम deadline से पहले project finish करना चाहेंगे।",
+      "english": "We would like to finish the project before the deadline.",
+      "alternatives": [
+        "We'd like to complete the project ahead of schedule."
+      ],
+      "hint": "before the deadline = समय से पहले",
+      "explanation": "Project management language।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 60,
+      "hindi": "मैं अपनी English communication improve करना चाहूँगा।",
+      "english": "I would like to improve my English communication.",
+      "alternatives": [
+        "I'd like to enhance my English skills."
+      ],
+      "hint": "improve = सुधारना",
+      "explanation": "Self-improvement goal — very common statement.",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 61,
+      "hindi": "क्या आप अपना order place करना चाहेंगे?",
+      "english": "Would you like to place your order?",
+      "alternatives": [
+        "Would you like to order now?"
+      ],
+      "hint": "place an order = order करना",
+      "explanation": "Restaurant/shopping context।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "customer-service"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
+    },
+    {
+      "id": 62,
+      "hindi": "वह अपनी team को recognize करना चाहेगा।",
+      "english": "He would like to recognize his team's efforts.",
+      "alternatives": [
+        "He'd like to appreciate his team."
+      ],
+      "hint": "recognize = पहचानना / सराहना",
+      "explanation": "Leadership and team management।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 63,
+      "hindi": "मैं इस बारे में किसी expert से बात करना चाहूँगा।",
+      "english": "I would like to speak to an expert about this.",
+      "alternatives": [
+        "I'd like to consult an expert on this matter."
+      ],
+      "hint": "speak to an expert = विशेषज्ञ से बात करना",
+      "explanation": "Professional consultation seeking।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "formal"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 64,
+      "hindi": "क्या आप हमारे नए program में participate करना चाहेंगे?",
+      "english": "Would you like to participate in our new program?",
+      "alternatives": [
+        "Would you like to take part in our new program?"
+      ],
+      "hint": "participate = भाग लेना",
+      "explanation": "Invitation to a program/event।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 65,
+      "hindi": "हम आपको एक extra day की छुट्टी देना चाहेंगे।",
+      "english": "We would like to give you an extra day off.",
+      "alternatives": [
+        "We'd like to offer you an additional day of leave."
+      ],
+      "hint": "extra day off = अतिरिक्त छुट्टी",
+      "explanation": "HR/office benefit communication।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 66,
+      "hindi": "मैं अपने career में आगे बढ़ना चाहूँगा।",
+      "english": "I would like to advance in my career.",
+      "alternatives": [
+        "I'd like to move forward in my career."
+      ],
+      "hint": "advance = आगे बढ़ना",
+      "explanation": "Career growth interview statement।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 67,
+      "hindi": "वे इस conference में attend नहीं करना चाहेंगे।",
+      "english": "They would not like to attend this conference.",
+      "alternatives": [
+        "They wouldn't like to go to this conference."
+      ],
+      "hint": "attend = उपस्थित होना",
+      "explanation": "Negative preference about attending.",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 68,
+      "hindi": "क्या आप हमारे hotel में room upgrade लेना चाहेंगे?",
+      "english": "Would you like to upgrade your room in our hotel?",
+      "alternatives": [
+        "Would you like a room upgrade?"
+      ],
+      "hint": "upgrade = बेहतर room",
+      "explanation": "Hotel hospitality — very common phrase।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "customer-service"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
+    },
+    {
+      "id": 69,
+      "hindi": "मैं इस project में lead role लेना चाहूँगा।",
+      "english": "I would like to take a lead role in this project.",
+      "alternatives": [
+        "I'd like to lead this project."
+      ],
+      "hint": "lead role = अगुआई",
+      "explanation": "Leadership interest in interview/office context।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 70,
+      "hindi": "वह अपने mistake से सीखना चाहेगी।",
+      "english": "She would like to learn from her mistakes.",
+      "alternatives": [
+        "She'd like to grow through her mistakes."
+      ],
+      "hint": "learn from mistakes = गलतियों से सीखना",
+      "explanation": "Self-growth mindset statement।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 71,
+      "hindi": "हम एक नई marketing strategy try करना चाहेंगे।",
+      "english": "We would like to try a new marketing strategy.",
+      "alternatives": [
+        "We'd like to implement a new marketing approach."
+      ],
+      "hint": "try = कोशिश करना",
+      "explanation": "Business innovation context।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 72,
+      "hindi": "क्या आप पहले यहाँ काम कर चुके हैं और फिर से join करना चाहेंगे?",
+      "english": "Would you like to rejoin after having worked here before?",
+      "alternatives": [
+        "Would you like to come back to this company?"
+      ],
+      "hint": "rejoin = दोबारा शामिल होना",
+      "explanation": "HR context — rehiring scenario।",
+      "difficulty": "hard",
+      "tags": [
+        "question",
+        "interview"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Interview Context"
+    },
+    {
+      "id": 73,
+      "hindi": "मैं आपकी बात मानना नहीं चाहूँगा।",
+      "english": "I would not like to agree with you on this.",
+      "alternatives": [
+        "I wouldn't like to go along with this."
+      ],
+      "hint": "Negative + agree",
+      "explanation": "Polite disagreement — much softer than 'I don't agree'।",
+      "difficulty": "hard",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 74,
+      "hindi": "क्या वह अपनी पसंदीदा city में relocate करना चाहेगा?",
+      "english": "Would he like to relocate to his favourite city?",
+      "alternatives": [
+        "Would he like to move to his preferred city?"
+      ],
+      "hint": "relocate = स्थानांतरण",
+      "explanation": "Job/personal decision question।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 75,
+      "hindi": "मैं अपनी team को motivate करना चाहूँगा।",
+      "english": "I would like to motivate my team.",
+      "alternatives": [
+        "I'd like to inspire my team."
+      ],
+      "hint": "motivate = प्रेरित करना",
+      "explanation": "Leadership quality statement।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 76,
+      "hindi": "वह public speaking से डरती है और बोलना नहीं चाहेगी।",
+      "english": "She is afraid of public speaking and would not like to speak.",
+      "alternatives": [
+        "She wouldn't like to speak in public."
+      ],
+      "hint": "wouldn't like to + speak",
+      "explanation": "Combining personal feeling with negative preference।",
+      "difficulty": "hard",
+      "tags": [
+        "negative",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 77,
+      "hindi": "हम आपसे personally मिलकर बात करना चाहेंगे।",
+      "english": "We would like to speak with you in person.",
+      "alternatives": [
+        "We'd like to meet you face to face."
+      ],
+      "hint": "in person = face to face",
+      "explanation": "Formal meeting request।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "formal"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 78,
+      "hindi": "क्या आप कोई complaint दर्ज करना चाहेंगे?",
+      "english": "Would you like to file a complaint?",
+      "alternatives": [
+        "Would you like to register a complaint?"
+      ],
+      "hint": "file a complaint = शिकायत दर्ज करना",
+      "explanation": "Customer service formal language।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "customer-service"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
+    },
+    {
+      "id": 79,
+      "hindi": "मैं अपनी strengths और weaknesses के बारे में बताना चाहूँगा।",
+      "english": "I would like to talk about my strengths and weaknesses.",
+      "alternatives": [
+        "I'd like to share my strengths and areas for improvement."
+      ],
+      "hint": "strengths and weaknesses = ताकत और कमज़ोरियाँ",
+      "explanation": "Classic interview question response।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 80,
+      "hindi": "वे अपना business दूसरे देशों में फैलाना चाहेंगे।",
+      "english": "They would like to expand their business to other countries.",
+      "alternatives": [
+        "They'd like to take their business international."
+      ],
+      "hint": "expand = फैलाना",
+      "explanation": "International business expansion।",
+      "difficulty": "hard",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 81,
+      "hindi": "मैं आपके साथ एक छोटी सी meeting schedule करना चाहूँगा।",
+      "english": "I would like to schedule a brief meeting with you.",
+      "alternatives": [
+        "I'd like to set up a short meeting with you."
+      ],
+      "hint": "schedule = समय निर्धारित करना",
+      "explanation": "Professional meeting request।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 82,
+      "hindi": "क्या वे हमारी event में participate करना चाहेंगे?",
+      "english": "Would they like to participate in our event?",
+      "alternatives": [
+        "Would they like to take part in our event?"
+      ],
+      "hint": "Would + they + like to",
+      "explanation": "Event invitation question।",
+      "difficulty": "easy",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 83,
+      "hindi": "मैं किसी NGO के लिए volunteer work करना चाहूँगा।",
+      "english": "I would like to do volunteer work for an NGO.",
+      "alternatives": [
+        "I'd like to volunteer for a non-profit organization."
+      ],
+      "hint": "volunteer = स्वयंसेवा",
+      "explanation": "Social responsibility and personal values।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 84,
+      "hindi": "वह किसी के सामने झूठ बोलना नहीं चाहेगा।",
+      "english": "He would not like to lie in front of anyone.",
+      "alternatives": [
+        "He wouldn't like to be dishonest with anyone."
+      ],
+      "hint": "lie = झूठ बोलना",
+      "explanation": "Integrity and values statement।",
+      "difficulty": "medium",
+      "tags": [
+        "negative"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 85,
+      "hindi": "क्या आप नए employees की training लेना चाहेंगे?",
+      "english": "Would you like to receive training for new employees?",
+      "alternatives": [
+        "Would you like to attend the new employee training?"
+      ],
+      "hint": "training = प्रशिक्षण",
+      "explanation": "HR/onboarding context।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 86,
+      "hindi": "हम आपको एक exclusive offer देना चाहेंगे।",
+      "english": "We would like to give you an exclusive offer.",
+      "alternatives": [
+        "We'd like to present you with a special offer."
+      ],
+      "hint": "exclusive = विशेष",
+      "explanation": "Sales and marketing language।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Customer Service"
+    },
+    {
+      "id": 87,
+      "hindi": "मैं इस challenge को accept करना चाहूँगा।",
+      "english": "I would like to accept this challenge.",
+      "alternatives": [
+        "I'd like to take on this challenge."
+      ],
+      "hint": "accept a challenge = चुनौती स्वीकार करना",
+      "explanation": "Showing confidence and initiative।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 88,
+      "hindi": "क्या तुम कल आना चाहोगे?",
+      "english": "Would you like to come tomorrow?",
+      "alternatives": [
+        "Would you like to visit tomorrow?"
+      ],
+      "hint": "Would you like to + come",
+      "explanation": "Simple daily invitation।",
+      "difficulty": "easy",
+      "tags": [
+        "question",
+        "daily-life"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Daily Life"
+    },
+    {
+      "id": 89,
+      "hindi": "वह किसी भी नई responsibility से बचना नहीं चाहेगी।",
+      "english": "She would not like to avoid any new responsibility.",
+      "alternatives": [
+        "She wouldn't like to shy away from new responsibilities."
+      ],
+      "hint": "avoid = बचना",
+      "explanation": "Showing willingness to take responsibility।",
+      "difficulty": "hard",
+      "tags": [
+        "negative",
+        "office"
+      ],
+      "grammarRule": "Subject + would not like to + base verb",
+      "category": "Negative Statements"
+    },
+    {
+      "id": 90,
+      "hindi": "मैं इस summer में Goa घूमने जाना चाहूँगा।",
+      "english": "I would like to visit Goa this summer.",
+      "alternatives": [
+        "I'd like to travel to Goa during summer."
+      ],
+      "hint": "visit/travel = घूमना",
+      "explanation": "Travel plan using would like to।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 91,
+      "hindi": "हम quarterly reports share करना चाहेंगे।",
+      "english": "We would like to share the quarterly reports.",
+      "alternatives": [
+        "We'd like to distribute the quarterly reports."
+      ],
+      "hint": "quarterly = तिमाही",
+      "explanation": "Business reporting context।",
+      "difficulty": "medium",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 92,
+      "hindi": "क्या आप कोई पुरानी बात clear करना चाहेंगे?",
+      "english": "Would you like to clear up an old misunderstanding?",
+      "alternatives": [
+        "Would you like to resolve a past issue?"
+      ],
+      "hint": "clear up = सुलझाना",
+      "explanation": "Relationship and communication context।",
+      "difficulty": "medium",
+      "tags": [
+        "question"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
+    },
+    {
+      "id": 93,
+      "hindi": "मैं long-term इस organization के साथ जुड़ा रहना चाहूँगा।",
+      "english": "I would like to stay with this organization for the long term.",
+      "alternatives": [
+        "I'd like to build a long-term career here."
+      ],
+      "hint": "long-term = दीर्घकालिक",
+      "explanation": "Interview: showing commitment to company।",
+      "difficulty": "hard",
+      "tags": [
+        "positive",
+        "interview"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Interview Context"
+    },
+    {
+      "id": 94,
+      "hindi": "वह अपना time किसी meaningful काम में लगाना चाहेगी।",
+      "english": "She would like to invest her time in something meaningful.",
+      "alternatives": [
+        "She'd like to spend her time on meaningful work."
+      ],
+      "hint": "invest time = समय लगाना",
+      "explanation": "Personal values and goals।",
+      "difficulty": "hard",
+      "tags": [
+        "positive"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 95,
+      "hindi": "हम आपकी feedback के आधार पर changes करना चाहेंगे।",
+      "english": "We would like to make changes based on your feedback.",
+      "alternatives": [
+        "We'd like to improve based on your feedback."
+      ],
+      "hint": "based on feedback = फीडबैक के आधार पर",
+      "explanation": "Customer-centric improvement statement।",
+      "difficulty": "hard",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Customer Service"
+    },
+    {
+      "id": 96,
+      "hindi": "क्या आप किसी से मिलने से पहले appointment लेना चाहेंगे?",
+      "english": "Would you like to take an appointment before meeting someone?",
+      "alternatives": [
+        "Would you like to book an appointment first?"
+      ],
+      "hint": "appointment = मुलाकात का समय",
+      "explanation": "Professional and formal etiquette।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "formal"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Customer Service"
+    },
+    {
+      "id": 97,
+      "hindi": "मैं आपको एक important update देना चाहूँगा।",
+      "english": "I would like to give you an important update.",
+      "alternatives": [
+        "I'd like to inform you of an important update."
+      ],
+      "hint": "update = अपडेट / जानकारी",
+      "explanation": "Email/meeting communication opener।",
+      "difficulty": "easy",
+      "tags": [
+        "positive",
+        "office"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 98,
+      "hindi": "वह इस topic को और गहराई से समझना चाहेगा।",
+      "english": "He would like to understand this topic more deeply.",
+      "alternatives": [
+        "He'd like to gain a deeper understanding of this topic."
+      ],
+      "hint": "deeply = गहराई से",
+      "explanation": "Self-development and learning enthusiasm।",
+      "difficulty": "hard",
+      "tags": [
+        "positive",
+        "daily-life"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Daily Life"
+    },
+    {
+      "id": 99,
+      "hindi": "हम सभी stakeholders को एक साथ मिलना चाहेंगे।",
+      "english": "We would like to bring all stakeholders together.",
+      "alternatives": [
+        "We'd like to convene all stakeholders."
+      ],
+      "hint": "stakeholders = सभी संबंधित पक्ष",
+      "explanation": "Corporate governance and project management।",
+      "difficulty": "hard",
+      "tags": [
+        "positive",
+        "business"
+      ],
+      "grammarRule": "Subject + would like to + base verb",
+      "category": "Formal & Office"
+    },
+    {
+      "id": 100,
+      "hindi": "क्या वे अपनी नई idea present करना चाहेंगे?",
+      "english": "Would they like to present their new idea?",
+      "alternatives": [
+        "Would they like to share their new idea?"
+      ],
+      "hint": "Would + they + like to + present",
+      "explanation": "Inviting team members to share ideas।",
+      "difficulty": "medium",
+      "tags": [
+        "question",
+        "office"
+      ],
+      "grammarRule": "Would + subject + like to + base verb?",
+      "category": "Questions & Offers"
     }
   ]
 }

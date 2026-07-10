@@ -4,38 +4,38 @@
   "milestones": [
     {
       "id": 1,
-      "title": "Lesson Completed",
-      "description": "Finished all lessons on Use of Let.",
+      "title": "Let Me Beginner",
+      "description": "Successfully formed 10 'Let me' sentences using the correct formula.",
       "xp": 20,
-      "badge": "lesson-complete"
+      "badge": "let-me-beginner"
     },
     {
       "id": 2,
-      "title": "Vocabulary Mastered",
-      "description": "Learned new words related to Use of Let.",
-      "xp": 15,
-      "badge": "vocab-master"
+      "title": "Permission Master",
+      "description": "Correctly used Let him/her/them/us in 20 sentences across daily, office, and formal contexts.",
+      "xp": 25,
+      "badge": "permission-master"
     },
     {
       "id": 3,
-      "title": "Practice Champion",
-      "description": "Completed all practice questions for Day 13.",
-      "xp": 25,
-      "badge": "practice-champion"
+      "title": "Negative Champion",
+      "description": "Mastered 'Don't let' sentences — no more 'Let not' mistakes!",
+      "xp": 20,
+      "badge": "negative-champion"
     },
     {
       "id": 4,
-      "title": "Test Passed",
-      "description": "Scored well on the Day 13 test.",
+      "title": "Let Pro — Practice Complete",
+      "description": "Completed all 100 practice questions on Use of Let.",
       "xp": 30,
-      "badge": "test-passed"
+      "badge": "let-pro"
     },
     {
       "id": 5,
-      "title": "Speaking Practiced",
-      "description": "Completed speaking drills for Use of Let.",
-      "xp": 20,
-      "badge": "speaking-star"
+      "title": "Day 13 Star",
+      "description": "Completed all exercises — lessons, vocab, test, speaking, writing, reading, and listening — for Day 13.",
+      "xp": 50,
+      "badge": "day13-star"
     }
   ]
 }

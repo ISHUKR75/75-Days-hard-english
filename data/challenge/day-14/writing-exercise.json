@@ -5,42 +5,42 @@
     {
       "id": 1,
       "type": "sentence-writing",
-      "prompt": "Write 5 original English sentences using Use of Let's.",
-      "hindiPrompt": "Use of Let's का उपयोग करते हुए 5 नए वाक्य लिखिए।",
-      "sampleAnswer": "Let's start. Let's eat something. Let's go to the park. Let's watch a movie. Let's talk about this.",
-      "wordLimit": 60
+      "prompt": "Write 6 original English sentences using 'Let's' for different situations — home, office, formal, and negative form.",
+      "hindiPrompt": "Let's का उपयोग करते हुए 6 नए वाक्य लिखिए — घर, ऑफिस, औपचारिक और नकारात्मक रूप के लिए।",
+      "sampleAnswer": "1. Let's have dinner together tonight. 2. Let's start the meeting on time. 3. Let us consider all the options. 4. Let's not rush this important decision. 5. Let's celebrate our team's hard work. 6. Let's learn something new every day.",
+      "wordLimit": 80
     },
     {
       "id": 2,
       "type": "paragraph-writing",
-      "prompt": "Write a short paragraph (5-6 lines) using Use of Let's.",
-      "hindiPrompt": "Use of Let's का उपयोग करते हुए एक छोटा पैराग्राफ लिखिए।",
-      "sampleAnswer": "Let's hurry up. Let's not be late. Let's study together. Let's take some rest. Let's start the meeting.",
-      "wordLimit": 80
+      "prompt": "Write a short paragraph (5–6 lines) about planning a team outing using 'Let's' and 'Let's not' sentences.",
+      "hindiPrompt": "Team outing plan करते हुए 'Let's' और 'Let's not' का उपयोग करके 5–6 lines का paragraph लिखिए।",
+      "sampleAnswer": "Let's plan a team outing this Friday. Let's choose a restaurant that everyone enjoys. Let's not go too far from the office since some team members use public transport. Let's invite the new joinees too so they feel welcome. Let's not make it a working lunch — let's keep it purely for fun and bonding. Let's make it a memorable evening for everyone.",
+      "wordLimit": 100
     },
     {
       "id": 3,
       "type": "translation",
-      "prompt": "Translate into English: \"चलो एक साथ काम करते हैं।\"",
+      "prompt": "Translate into English: 'चलो मिलकर इस project की planning करते हैं, लेकिन चलो जल्दबाज़ी में कोई decision मत लेते हैं।'",
       "hindiPrompt": "नीचे दिए गए वाक्य का अंग्रेज़ी अनुवाद करें।",
-      "sampleAnswer": "Let's work together.",
-      "wordLimit": 20
+      "sampleAnswer": "Let's plan this project together, but let's not make any hasty decisions.",
+      "wordLimit": 25
     },
     {
       "id": 4,
       "type": "correction",
-      "prompt": "Correct this sentence: \"Let's watch a movie yesterday.\"",
-      "hindiPrompt": "इस वाक्य में गलती ठीक कीजिए।",
-      "sampleAnswer": "Let's watch a movie.",
-      "wordLimit": 20
+      "prompt": "Correct these sentences: (a) 'Let's to go home.' (b) 'Let's don't waste time.' (c) 'Let we start now.' (d) 'Let's going to the meeting.'",
+      "hindiPrompt": "इन वाक्यों में गलतियाँ ठीक कीजिए।",
+      "sampleAnswer": "(a) Let's go home. (b) Let's not waste time. (c) Let's start now. (d) Let's go to the meeting.",
+      "wordLimit": 30
     },
     {
       "id": 5,
       "type": "dialogue-writing",
-      "prompt": "Write a short 4-line dialogue using Use of Let's.",
-      "hindiPrompt": "Use of Let's का उपयोग करते हुए एक संवाद लिखिए।",
-      "sampleAnswer": "Let's make a plan. Let's go for a walk. Let's solve this problem. Let's meet tomorrow.",
-      "wordLimit": 60
+      "prompt": "Write a 6-line dialogue between a manager and a team member using at least 3 'Let's' sentences and 1 'Let us' (formal) sentence.",
+      "hindiPrompt": "एक manager और team member के बीच 6 lines का dialogue लिखिए जिसमें कम से कम 3 'Let's' sentences और 1 'Let us' (formal) sentence हो।",
+      "sampleAnswer": "Manager: Let's begin our weekly review. \nTeam Member: Sure! Let's first go through last week's targets. \nManager: Let us consider the areas where we fell short. \nTeam Member: Agreed. Let's not make the same mistakes this week. \nManager: Exactly. Let's set clear, achievable goals for everyone. \nTeam Member: Let's also schedule a mid-week check-in to track progress.",
+      "wordLimit": 80
     }
   ]
 }

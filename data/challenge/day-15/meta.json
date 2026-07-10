@@ -4,25 +4,40 @@
   "slug": "15-would-like-to",
   "type": "grammar",
   "difficulty": "beginner",
-  "cefr": "A1-A2",
+  "cefr": "A2",
   "emoji": "🎩",
   "color": "#8b5cf6",
   "topics": [
-    "Would Like To"
+    "Would Like To — Formula & Introduction",
+    "Positive Statements (I would like to...)",
+    "Negative Statements (I wouldn't like to...)",
+    "Question Forms (Would you like to...?)",
+    "Contractions (I'd like to / She'd like to)",
+    "Daily Life Usage",
+    "Office & Professional Usage",
+    "Customer Service & Hospitality",
+    "Interview Language",
+    "Common Mistakes & How to Avoid",
+    "Comparison: Want To vs Would Like To vs Would Love To",
+    "Advanced Usage & Indirect Speech"
   ],
-  "totalQuestions": 25,
-  "totalVocabulary": 25,
-  "estimatedTime": "2-3 hours",
-  "xpReward": 200,
-  "coinsReward": 30,
+  "totalQuestions": 100,
+  "totalVocabulary": 105,
+  "estimatedTime": "3-4 hours",
+  "xpReward": 500,
+  "coinsReward": 60,
   "prerequisites": [
     14
   ],
   "nextDay": 16,
   "tags": [
     "grammar",
-    "would like to"
+    "would-like-to",
+    "polite-requests",
+    "modal-verbs",
+    "professional-english",
+    "interview-english"
   ],
-  "lastUpdated": "2026-07-09",
-  "version": "1.0"
+  "lastUpdated": "2026-07-10",
+  "version": "2.0"
 }

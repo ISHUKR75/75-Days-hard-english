@@ -1,193 +1,269 @@
 {
   "day": 12,
   "topic": "Use of Wanted",
-  "totalDrills": 9,
+  "totalDrills": 12,
   "drills": [
     {
       "id": 1,
       "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 1",
+      "title": "Wanted — Positive Statements Set 1",
       "sentences": [
         {
-          "english": "I wanted water.",
-          "hindi": "मुझे पानी चाहिए था।",
-          "pronunciation": "i wanted water"
+          "english": "I wanted to drink water.",
+          "hindi": "मैं पानी पीना चाहता था।",
+          "pronunciation": "i wanted to drink water"
         },
-        {
-          "english": "I wanted to go home.",
-          "hindi": "मैं घर जाना चाहता था।",
-          "pronunciation": "i wanted to go home"
-        },
-        {
-          "english": "He wanted a new car.",
-          "hindi": "वह एक नई कार चाहता था।",
-          "pronunciation": "he wanted a new car"
-        }
-      ]
-    },
-    {
-      "id": 2,
-      "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 2",
-      "sentences": [
         {
           "english": "She wanted to become a doctor.",
           "hindi": "वह डॉक्टर बनना चाहती थी।",
           "pronunciation": "she wanted to become a doctor"
         },
         {
-          "english": "We wanted to take rest.",
-          "hindi": "हम आराम करना चाहते थे।",
-          "pronunciation": "we wanted to take rest"
+          "english": "He wanted a promotion.",
+          "hindi": "उसे promotion चाहिए था।",
+          "pronunciation": "he wanted a promotion"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "repeat-and-speak",
+      "title": "Wanted — Positive Statements Set 2",
+      "sentences": [
+        {
+          "english": "We wanted to go outside.",
+          "hindi": "हम बाहर जाना चाहते थे।",
+          "pronunciation": "we wanted to go outside"
         },
         {
           "english": "They wanted to finish that work.",
           "hindi": "वे उस काम को खत्म करना चाहते थे।",
           "pronunciation": "they wanted to finish that work"
+        },
+        {
+          "english": "I wanted to learn English.",
+          "hindi": "मैं English सीखना चाहता था।",
+          "pronunciation": "i wanted to learn english"
         }
       ]
     },
     {
       "id": 3,
       "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 3",
+      "title": "Wanted — Negative Sentences Set 1",
       "sentences": [
         {
-          "english": "Did you want tea?",
-          "hindi": "क्या तुम चाय चाहते थे?",
-          "pronunciation": "did you want tea"
+          "english": "I did not want to go there.",
+          "hindi": "मैं वहाँ नहीं जाना चाहता था।",
+          "pronunciation": "i did not want to go there"
         },
         {
-          "english": "I did not want that book.",
-          "hindi": "मुझे वह किताब नहीं चाहिए थी।",
-          "pronunciation": "i did not want that book"
+          "english": "She did not want that book.",
+          "hindi": "उसे वह किताब नहीं चाहिए थी।",
+          "pronunciation": "she did not want that book"
         },
         {
-          "english": "He wanted to talk to me.",
-          "hindi": "वह मुझसे बात करना चाहता था।",
-          "pronunciation": "he wanted to talk to me"
+          "english": "We did not want more training.",
+          "hindi": "हमें और training नहीं चाहिए थी।",
+          "pronunciation": "we did not want more training"
         }
       ]
     },
     {
       "id": 4,
       "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 4",
+      "title": "Wanted — Negative Sentences Set 2",
       "sentences": [
         {
-          "english": "I wanted some rest.",
-          "hindi": "मुझे कुछ आराम चाहिए था।",
-          "pronunciation": "i wanted some rest"
+          "english": "He did not want to accept that offer.",
+          "hindi": "वह उस offer को accept नहीं करना चाहता था।",
+          "pronunciation": "he did not want to accept that offer"
         },
         {
-          "english": "Did you want coffee?",
-          "hindi": "क्या आप कॉफी चाहते थे?",
-          "pronunciation": "did you want coffee"
+          "english": "They did not want to join that project.",
+          "hindi": "वे उस project में शामिल नहीं होना चाहते थे।",
+          "pronunciation": "they did not want to join that project"
         },
         {
-          "english": "She wanted to become an engineer.",
-          "hindi": "वह इंजीनियर बनना चाहती थी।",
-          "pronunciation": "she wanted to become an engineer"
+          "english": "I did not want any trouble.",
+          "hindi": "मुझे कोई परेशानी नहीं चाहिए थी।",
+          "pronunciation": "i did not want any trouble"
         }
       ]
     },
     {
       "id": 5,
       "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 5",
+      "title": "Wanted — Questions Set 1",
       "sentences": [
         {
-          "english": "We wanted more information.",
-          "hindi": "हमें और जानकारी चाहिए थी।",
-          "pronunciation": "we wanted more information"
+          "english": "Did you want tea?",
+          "hindi": "क्या तुम्हें चाय चाहिए थी?",
+          "pronunciation": "did you want tea"
         },
         {
-          "english": "I wanted your help.",
-          "hindi": "मैं तुम्हारी मदद चाहता था।",
-          "pronunciation": "i wanted your help"
+          "english": "Did he want to go there?",
+          "hindi": "क्या वह वहाँ जाना चाहता था?",
+          "pronunciation": "did he want to go there"
         },
         {
-          "english": "They wanted peace.",
-          "hindi": "वे शांति चाहते थे।",
-          "pronunciation": "they wanted peace"
+          "english": "Did they want any help?",
+          "hindi": "क्या उन्हें मदद चाहिए थी?",
+          "pronunciation": "did they want any help"
         }
       ]
     },
     {
       "id": 6,
       "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 6",
+      "title": "Wanted — Questions Set 2",
       "sentences": [
         {
-          "english": "I wanted to finish this work quickly.",
-          "hindi": "मैं इस काम को जल्दी खत्म करना चाहता था।",
-          "pronunciation": "i wanted to finish this work quickly"
+          "english": "Did she want to submit the report?",
+          "hindi": "क्या वह report submit करना चाहती थी?",
+          "pronunciation": "did she want to submit the report"
         },
         {
-          "english": "He wanted a promotion.",
-          "hindi": "वह promotion चाहता था।",
-          "pronunciation": "he wanted a promotion"
+          "english": "Did the manager want to end the meeting early?",
+          "hindi": "क्या manager ने meeting जल्दी खत्म करनी चाही?",
+          "pronunciation": "did the manager want to end the meeting early"
         },
         {
-          "english": "Did you want to go outside?",
-          "hindi": "क्या तुम बाहर जाना चाहते थे?",
-          "pronunciation": "did you want to go outside"
+          "english": "Did you want to watch that film?",
+          "hindi": "क्या तुम उस film को देखना चाहते थे?",
+          "pronunciation": "did you want to watch that film"
         }
       ]
     },
     {
       "id": 7,
       "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 7",
+      "title": "Wanted — Professional Context",
       "sentences": [
         {
-          "english": "We wanted a better future.",
-          "hindi": "हम बेहतर भविष्य चाहते थे।",
-          "pronunciation": "we wanted a better future"
+          "english": "I wanted to discuss this matter with you.",
+          "hindi": "मैं इस मामले पर आपसे बात करना चाहता था।",
+          "pronunciation": "i wanted to discuss this matter with you"
         },
         {
-          "english": "I wanted to know the truth.",
-          "hindi": "मैं सच जानना चाहता था।",
-          "pronunciation": "i wanted to know the truth"
+          "english": "We wanted to give you an update on the project.",
+          "hindi": "हम आपको project की update देना चाहते थे।",
+          "pronunciation": "we wanted to give you an update on the project"
         },
         {
-          "english": "She wanted to start her own business.",
-          "hindi": "वह अपना व्यवसाय शुरू करना चाहती थी।",
-          "pronunciation": "she wanted to start her own business"
+          "english": "The client wanted a detailed proposal.",
+          "hindi": "Client एक detailed proposal चाहता था।",
+          "pronunciation": "the client wanted a detailed proposal"
         }
       ]
     },
     {
       "id": 8,
       "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 8",
+      "title": "Wanted — Aspiration & Career",
       "sentences": [
         {
-          "english": "I did not want any mistake.",
-          "hindi": "मुझे कोई गलती नहीं चाहिए थी।",
-          "pronunciation": "i did not want any mistake"
+          "english": "As a child, I wanted to become a pilot.",
+          "hindi": "बचपन में मैं pilot बनना चाहता था।",
+          "pronunciation": "as a child i wanted to become a pilot"
         },
         {
-          "english": "Did you want any help?",
-          "hindi": "क्या तुम्हें मदद चाहिए थी?",
-          "pronunciation": "did you want any help"
+          "english": "I always wanted to work in this field.",
+          "hindi": "मैं हमेशा से इस field में काम करना चाहता था।",
+          "pronunciation": "i always wanted to work in this field"
         },
         {
-          "english": "They wanted success.",
-          "hindi": "वे सफलता चाहते थे।",
-          "pronunciation": "they wanted success"
+          "english": "She always wanted to grow within the company.",
+          "hindi": "वह हमेशा company में आगे बढ़ना चाहती थी।",
+          "pronunciation": "she always wanted to grow within the company"
         }
       ]
     },
     {
       "id": 9,
       "type": "repeat-and-speak",
-      "title": "Use of Wanted — Speaking Set 9",
+      "title": "Wanted — Unfulfilled Desire",
       "sentences": [
         {
-          "english": "I wanted this opportunity.",
-          "hindi": "मुझे यह मौका चाहिए था।",
-          "pronunciation": "i wanted this opportunity"
+          "english": "I wanted to call you but I was busy.",
+          "hindi": "मैं तुम्हें call करना चाहता था पर busy था।",
+          "pronunciation": "i wanted to call you but i was busy"
+        },
+        {
+          "english": "I wanted to go to the gym but it rained.",
+          "hindi": "मैं gym जाना चाहता था लेकिन बारिश हो गई।",
+          "pronunciation": "i wanted to go to the gym but it rained"
+        },
+        {
+          "english": "We wanted to eat at that restaurant but it was closed.",
+          "hindi": "हम उस restaurant में खाना चाहते थे पर वह बंद था।",
+          "pronunciation": "we wanted to eat at that restaurant but it was closed"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "repeat-and-speak",
+      "title": "Wanted — Polite & Formal Expressions",
+      "sentences": [
+        {
+          "english": "I just wanted to say thank you.",
+          "hindi": "मैं बस शुक्रिया कहना चाहता था।",
+          "pronunciation": "i just wanted to say thank you"
+        },
+        {
+          "english": "She said she wanted to meet you.",
+          "hindi": "उसने कहा कि वह तुमसे मिलना चाहती थी।",
+          "pronunciation": "she said she wanted to meet you"
+        },
+        {
+          "english": "I just wanted to inform you about this.",
+          "hindi": "मैं बस आपको इसके बारे में बताना चाहता था।",
+          "pronunciation": "i just wanted to inform you about this"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "type": "repeat-and-speak",
+      "title": "Wanted vs Want — Present vs Past Comparison",
+      "sentences": [
+        {
+          "english": "I want tea now.",
+          "hindi": "मैं अभी चाय चाहता हूँ।",
+          "pronunciation": "i want tea now"
+        },
+        {
+          "english": "I wanted tea yesterday.",
+          "hindi": "मैं कल चाय चाहता था।",
+          "pronunciation": "i wanted tea yesterday"
+        },
+        {
+          "english": "She wants to study now, but she wanted to play earlier.",
+          "hindi": "वह अभी पढ़ना चाहती है, पहले खेलना चाहती थी।",
+          "pronunciation": "she wants to study now but she wanted to play earlier"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "repeat-and-speak",
+      "title": "Wanted — Daily Life Mix",
+      "sentences": [
+        {
+          "english": "He wanted to move to a bigger house.",
+          "hindi": "वह एक बड़े घर में जाना चाहता था।",
+          "pronunciation": "he wanted to move to a bigger house"
+        },
+        {
+          "english": "They wanted a better future.",
+          "hindi": "वे एक बेहतर भविष्य चाहते थे।",
+          "pronunciation": "they wanted a better future"
+        },
+        {
+          "english": "Did you want to come with us?",
+          "hindi": "क्या तुम हमारे साथ आना चाहते थे?",
+          "pronunciation": "did you want to come with us"
         }
       ]
     }

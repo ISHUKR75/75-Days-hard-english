@@ -1,303 +1,467 @@
 {
   "day": 14,
   "topic": "Use of Let's",
-  "totalQuestions": 24,
+  "totalQuestions": 30,
   "questions": [
     {
       "id": 1,
       "type": "translate",
       "hindi": "चलो शुरू करते हैं।",
       "options": [
-        "Let's study together.",
-        "Let's solve this problem.",
-        "Let's practice.",
-        "Let's start."
+        {
+          "english": "Let's finish.",
+          "hindi": "चलो खत्म करते हैं।"
+        },
+        {
+          "english": "Let him start.",
+          "hindi": "उसे शुरू करने दो।"
+        },
+        {
+          "english": "Don't start.",
+          "hindi": "शुरू मत करो।"
+        },
+        "Let's begin."
       ],
-      "answer": "Let's start.",
-      "explanation": "Correct translation: \"चलो शुरू करते हैं।\" = \"Let's start.\""
+      "answer": "Let's begin.",
+      "explanation": "'Let's begin' = Let us begin — suggestion including the speaker."
     },
     {
       "id": 2,
       "type": "fill",
-      "sentence": "Let's _____ something.",
+      "sentence": "Let's not _____ time.",
       "options": [
-        "rest",
-        "tomorrow",
-        "positive",
-        "eat"
+        "wasting",
+        "to waste",
+        "wasted",
+        "waste"
       ],
-      "answer": "eat",
-      "explanation": "Full sentence: \"Let's eat something.\""
+      "answer": "waste",
+      "explanation": "'Let's not + base verb' — always use base verb (waste), not wasting/to waste."
     },
     {
       "id": 3,
       "type": "error",
-      "sentence": "Let's go to the park yesterday.",
+      "sentence": "Let's going to the market.",
       "options": [
-        "Let's go to the park yesterday.",
-        "Let's go to the park."
+        "Let's going to the market.",
+        "Let's go to the market."
       ],
-      "answer": "Let's go to the park.",
-      "explanation": "Correct sentence: \"Let's go to the park.\""
+      "answer": "Let's go to the market.",
+      "explanation": "Let's + base verb. 'Going' is wrong — should be 'go' (base form)."
     },
     {
       "id": 4,
       "type": "translate",
-      "hindi": "चलो एक फिल्म देखते हैं।",
+      "hindi": "आइए एक बेहतर कल बनाएं।",
       "options": [
-        "Let's work together.",
-        "Let's not decide right now.",
-        "Let's start.",
-        "Let's watch a movie."
+        {
+          "english": "Let's make tomorrow good.",
+          "hindi": "चलो कल अच्छा करते हैं।"
+        },
+        {
+          "english": "Let him build a better tomorrow.",
+          "hindi": "उसे बेहतर कल बनाने दो।"
+        },
+        "Let us build a better tomorrow.",
+        {
+          "english": "Build a better tomorrow.",
+          "hindi": "एक बेहतर कल बनाओ।"
+        }
       ],
-      "answer": "Let's watch a movie.",
-      "explanation": "Correct translation: \"चलो एक फिल्म देखते हैं।\" = \"Let's watch a movie.\""
+      "answer": "Let us build a better tomorrow.",
+      "explanation": "'Let us' is the formal version — used in speeches and formal writing."
     },
     {
       "id": 5,
       "type": "fill",
-      "sentence": "Let's talk _____ this.",
+      "sentence": "Let's _____ the meeting at 10 AM.",
       "options": [
-        "new",
-        "home",
-        "something",
-        "about"
+        "started",
+        "starts",
+        "starting",
+        "start"
       ],
-      "answer": "about",
-      "explanation": "Full sentence: \"Let's talk about this.\""
+      "answer": "start",
+      "explanation": "'Let's start' — always base verb after Let's."
     },
     {
       "id": 6,
       "type": "error",
-      "sentence": "Let's hurry up yesterday.",
+      "sentence": "Let's don't argue about this.",
       "options": [
-        "Let's hurry up yesterday.",
-        "Let's hurry up."
+        "Let's don't argue about this.",
+        "Let's not argue about this."
       ],
-      "answer": "Let's hurry up.",
-      "explanation": "Correct sentence: \"Let's hurry up.\""
+      "answer": "Let's not argue about this.",
+      "explanation": "Correct negative: 'Let's not + base verb'. 'Let's don't' is WRONG."
     },
     {
       "id": 7,
       "type": "translate",
-      "hindi": "चलो देर मत करते हैं।",
+      "hindi": "चलो समय बर्बाद मत करते हैं।",
       "options": [
-        "Let's go for a walk.",
-        "Let's not fight now.",
-        "Let's watch a movie.",
-        "Let's not be late."
+        "Let's not waste time.",
+        {
+          "english": "Let's waste time.",
+          "hindi": "चलो समय बर्बाद करते हैं।"
+        },
+        {
+          "english": "Don't waste time.",
+          "hindi": "समय बर्बाद मत करो।"
+        },
+        {
+          "english": "Let him not waste time.",
+          "hindi": "उसे समय बर्बाद नहीं करने देते।"
+        }
       ],
-      "answer": "Let's not be late.",
-      "explanation": "Correct translation: \"चलो देर मत करते हैं।\" = \"Let's not be late.\""
+      "answer": "Let's not waste time.",
+      "explanation": "Negative suggestion: Let's not + base verb."
     },
     {
       "id": 8,
       "type": "fill",
-      "sentence": "Let's _____ together.",
+      "sentence": "Let _____ consider all the options carefully.",
       "options": [
-        "problem",
-        "practice",
-        "this",
-        "study"
+        "we",
+        "him",
+        "our",
+        "us"
       ],
-      "answer": "study",
-      "explanation": "Full sentence: \"Let's study together.\""
+      "answer": "us",
+      "explanation": "'Let us' = formal Let's. 'Let we' is WRONG — always 'Let us'."
     },
     {
       "id": 9,
       "type": "error",
-      "sentence": "Let's take some rest yesterday.",
+      "sentence": "Let's to plan the project together.",
       "options": [
-        "Let's take some rest yesterday.",
-        "Let's take some rest."
+        "Let's to plan the project together.",
+        "Let's plan the project together."
       ],
-      "answer": "Let's take some rest.",
-      "explanation": "Correct sentence: \"Let's take some rest.\""
+      "answer": "Let's plan the project together.",
+      "explanation": "Never use 'to' after Let's. Let's + base verb (not 'to + verb')."
     },
     {
       "id": 10,
       "type": "translate",
-      "hindi": "चलो मीटिंग शुरू करते हैं।",
+      "hindi": "चलो data देखते हैं।",
       "options": [
-        "Let's have tea.",
-        "Let's help each other.",
-        "Let's not be late.",
-        "Let's start the meeting."
+        {
+          "english": "Let him see the data.",
+          "hindi": "उसे data देखने दो।"
+        },
+        {
+          "english": "Look at the data.",
+          "hindi": "data देखो।"
+        },
+        "Let's look at the data.",
+        {
+          "english": "Let's saw the data.",
+          "hindi": "गलत।"
+        }
       ],
-      "answer": "Let's start the meeting.",
-      "explanation": "Correct translation: \"चलो मीटिंग शुरू करते हैं।\" = \"Let's start the meeting.\""
+      "answer": "Let's look at the data.",
+      "explanation": "'Let's look at' — correct base verb after Let's."
     },
     {
       "id": 11,
       "type": "fill",
-      "sentence": "Let's _____ together.",
+      "sentence": "Let's _____ our goals for this quarter.",
       "options": [
-        "right",
-        "start",
-        "together",
-        "work"
+        "reviewing",
+        "reviewed",
+        "reviews",
+        "review"
       ],
-      "answer": "work",
-      "explanation": "Full sentence: \"Let's work together.\""
+      "answer": "review",
+      "explanation": "Base verb 'review' after Let's."
     },
     {
       "id": 12,
       "type": "error",
-      "sentence": "Let's learn something new yesterday.",
+      "sentence": "Let we go to the office now.",
       "options": [
-        "Let's learn something new yesterday.",
-        "Let's learn something new."
+        "Let we go to the office now.",
+        "Let's go to the office now."
       ],
-      "answer": "Let's learn something new.",
-      "explanation": "Correct sentence: \"Let's learn something new.\""
+      "answer": "Let's go to the office now.",
+      "explanation": "'Let we' is incorrect. Use 'Let's' (Let us)."
     },
     {
       "id": 13,
       "type": "translate",
-      "hindi": "चलो योजना बनाते हैं।",
+      "hindi": "चलो मीटिंग शुरू करते हैं।",
       "options": [
-        "Let's speak the truth.",
-        "Let's go to the park.",
+        {
+          "english": "Meeting is starting.",
+          "hindi": "मीटिंग शुरू हो रही है।"
+        },
+        {
+          "english": "He starts the meeting.",
+          "hindi": "वह मीटिंग शुरू करता है।"
+        },
         "Let's start the meeting.",
-        "Let's make a plan."
+        {
+          "english": "Let him start the meeting.",
+          "hindi": "उसे मीटिंग शुरू करने दो।"
+        }
       ],
-      "answer": "Let's make a plan.",
-      "explanation": "Correct translation: \"चलो योजना बनाते हैं।\" = \"Let's make a plan.\""
+      "answer": "Let's start the meeting.",
+      "explanation": "'Let's start the meeting' — speaker included in the suggestion."
     },
     {
       "id": 14,
       "type": "fill",
-      "sentence": "Let's go _____ a walk.",
+      "sentence": "Let's _____ a plan before we begin.",
       "options": [
-        "now",
-        "movie",
-        "together",
-        "for"
+        "made",
+        "making",
+        "makes",
+        "make"
       ],
-      "answer": "for",
-      "explanation": "Full sentence: \"Let's go for a walk.\""
+      "answer": "make",
+      "explanation": "'Let's make a plan' — base verb 'make'."
     },
     {
       "id": 15,
       "type": "error",
-      "sentence": "Let's solve this problem yesterday.",
+      "sentence": "Let's not to rush this decision.",
       "options": [
-        "Let's solve this problem yesterday.",
-        "Let's solve this problem."
+        "Let's not to rush this decision.",
+        "Let's not rush this decision."
       ],
-      "answer": "Let's solve this problem.",
-      "explanation": "Correct sentence: \"Let's solve this problem.\""
+      "answer": "Let's not rush this decision.",
+      "explanation": "'Let's not rush' — no 'to' after Let's not."
     },
     {
       "id": 16,
       "type": "translate",
-      "hindi": "चलो कल मिलते हैं।",
+      "hindi": "चलो deadline से पहले काम खत्म करते हैं।",
       "options": [
-        "Let's think positive.",
-        "Let's hurry up.",
-        "Let's make a plan.",
-        "Let's meet tomorrow."
+        {
+          "english": "Finish work before deadline.",
+          "hindi": "deadline से पहले काम खत्म करो।"
+        },
+        "Let's finish the work before the deadline.",
+        {
+          "english": "Let him finish before the deadline.",
+          "hindi": "उसे deadline से पहले खत्म करने दो।"
+        },
+        {
+          "english": "We will finish before the deadline.",
+          "hindi": "हम deadline से पहले खत्म करेंगे।"
+        }
       ],
-      "answer": "Let's meet tomorrow.",
-      "explanation": "Correct translation: \"चलो कल मिलते हैं।\" = \"Let's meet tomorrow.\""
+      "answer": "Let's finish the work before the deadline.",
+      "explanation": "'Let's finish' — suggestion to complete the work on time."
     },
     {
       "id": 17,
       "type": "fill",
-      "sentence": "Let's _____ tea.",
+      "sentence": "Let's not _____ any hasty decisions.",
       "options": [
-        "other",
-        "late",
-        "a",
-        "have"
+        "making",
+        "made",
+        "make",
+        "makes"
       ],
-      "answer": "have",
-      "explanation": "Full sentence: \"Let's have tea.\""
+      "answer": "make",
+      "explanation": "'Let's not make' — base verb after 'Let's not'."
     },
     {
       "id": 18,
       "type": "error",
-      "sentence": "Let's not decide right now yesterday.",
+      "sentence": "Lets celebrate this success.",
       "options": [
-        "Let's not decide right now yesterday.",
-        "Let's not decide right now."
+        "Lets celebrate this success.",
+        "Let's celebrate this success."
       ],
-      "answer": "Let's not decide right now.",
-      "explanation": "Correct sentence: \"Let's not decide right now.\""
+      "answer": "Let's celebrate this success.",
+      "explanation": "'Let's' always needs an apostrophe. 'Lets' (no apostrophe) means 'allows/permits'."
     },
     {
       "id": 19,
       "type": "translate",
-      "hindi": "चलो घर चलते हैं।",
+      "hindi": "चलो टीम को motivate करते हैं।",
       "options": [
-        "Let's eat something.",
-        "Let's take some rest.",
-        "Let's meet tomorrow.",
-        "Let's go home."
+        {
+          "english": "Team should be motivated.",
+          "hindi": "टीम को motivated होना चाहिए।"
+        },
+        {
+          "english": "Let him motivate the team.",
+          "hindi": "उसे team motivate करने दो।"
+        },
+        "Let's motivate the team.",
+        {
+          "english": "Motivate the team.",
+          "hindi": "टीम को motivate करो।"
+        }
       ],
-      "answer": "Let's go home.",
-      "explanation": "Correct translation: \"चलो घर चलते हैं।\" = \"Let's go home.\""
+      "answer": "Let's motivate the team.",
+      "explanation": "Inclusive suggestion — speaker also part of motivating the team."
     },
     {
       "id": 20,
       "type": "fill",
-      "sentence": "Let's speak _____ truth.",
+      "sentence": "Let's _____ transparently with our clients.",
       "options": [
-        "meeting",
-        "tea",
-        "other",
-        "the"
+        "communicating",
+        "communicated",
+        "communicates",
+        "communicate"
       ],
-      "answer": "the",
-      "explanation": "Full sentence: \"Let's speak the truth.\""
+      "answer": "communicate",
+      "explanation": "'Let's communicate' — base verb form."
     },
     {
       "id": 21,
       "type": "error",
-      "sentence": "Let's not fight now yesterday.",
+      "sentence": "Let's going home after the meeting.",
       "options": [
-        "Let's not fight now yesterday.",
-        "Let's not fight now."
+        "Let's going home after the meeting.",
+        "Let's go home after the meeting."
       ],
-      "answer": "Let's not fight now.",
-      "explanation": "Correct sentence: \"Let's not fight now.\""
+      "answer": "Let's go home after the meeting.",
+      "explanation": "'Let's go' not 'Let's going'. Base verb, not gerund."
     },
     {
       "id": 22,
       "type": "translate",
-      "hindi": "चलो practice करते हैं।",
+      "hindi": "चलो अभी कोई decision मत लेते हैं।",
       "options": [
-        "Let's talk about this.",
-        "Let's learn something new.",
-        "Let's go home.",
-        "Let's practice."
+        {
+          "english": "Don't take any decision now.",
+          "hindi": "अभी कोई decision मत लो।"
+        },
+        "Let's not make any decision right now.",
+        {
+          "english": "He won't decide now.",
+          "hindi": "वह अभी decide नहीं करेगा।"
+        },
+        {
+          "english": "Let him not decide.",
+          "hindi": "उसे decide न करने दो।"
+        }
       ],
-      "answer": "Let's practice.",
-      "explanation": "Correct translation: \"चलो practice करते हैं।\" = \"Let's practice.\""
+      "answer": "Let's not make any decision right now.",
+      "explanation": "'Let's not make any decision' — negative suggestion including speaker."
     },
     {
       "id": 23,
       "type": "fill",
-      "sentence": "Let's _____ positive.",
+      "sentence": "Let us _____ this matter in the next meeting.",
       "options": [
-        "up",
-        "plan",
-        "truth",
-        "think"
+        "discussed",
+        "discussing",
+        "discusses",
+        "discuss"
       ],
-      "answer": "think",
-      "explanation": "Full sentence: \"Let's think positive.\""
+      "answer": "discuss",
+      "explanation": "'Let us discuss' — formal, base verb."
     },
     {
       "id": 24,
       "type": "error",
-      "sentence": "Let's help each other yesterday.",
+      "sentence": "Let's not to fight about this.",
       "options": [
-        "Let's help each other yesterday.",
-        "Let's help each other."
+        "Let's not to fight about this.",
+        "Let's not fight about this."
       ],
-      "answer": "Let's help each other.",
-      "explanation": "Correct sentence: \"Let's help each other.\""
+      "answer": "Let's not fight about this.",
+      "explanation": "No 'to' after 'Let's not'. Correct: Let's not + base verb."
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "चलो अपनी गलतियों से सीखते हैं।",
+      "options": [
+        {
+          "english": "He learns from his mistakes.",
+          "hindi": "वह अपनी गलतियों से सीखता है।"
+        },
+        {
+          "english": "Learn from mistakes.",
+          "hindi": "गलतियों से सीखो।"
+        },
+        "Let's learn from our mistakes.",
+        {
+          "english": "They learned from their mistakes.",
+          "hindi": "उन्होंने अपनी गलतियों से सीखा।"
+        }
+      ],
+      "answer": "Let's learn from our mistakes.",
+      "explanation": "'Let's learn from our mistakes' — collective improvement suggestion."
+    },
+    {
+      "id": 26,
+      "type": "fill",
+      "sentence": "Let's _____ each other in this difficult time.",
+      "options": [
+        "support",
+        "supports",
+        "supported",
+        "supporting"
+      ],
+      "answer": "support",
+      "explanation": "'Let's support each other' — base verb."
+    },
+    {
+      "id": 27,
+      "type": "error",
+      "sentence": "Let's not missing this opportunity.",
+      "options": [
+        "Let's not missing this opportunity.",
+        "Let's not miss this opportunity."
+      ],
+      "answer": "Let's not miss this opportunity.",
+      "explanation": "'Let's not miss' — base verb, not 'missing'."
+    },
+    {
+      "id": 28,
+      "type": "translate",
+      "hindi": "आइए एकता में विश्वास रखें।",
+      "options": [
+        {
+          "english": "We believe in unity.",
+          "hindi": "हम एकता में विश्वास रखते हैं।"
+        },
+        {
+          "english": "Believe in unity.",
+          "hindi": "एकता में विश्वास रखो।"
+        },
+        "Let us believe in unity.",
+        {
+          "english": "Let him believe in unity.",
+          "hindi": "उसे एकता में विश्वास रखने दो।"
+        }
+      ],
+      "answer": "Let us believe in unity.",
+      "explanation": "'Let us' is the formal version. Used in formal addresses."
+    },
+    {
+      "id": 29,
+      "type": "fill",
+      "sentence": "Let's _____ the presentation with a strong conclusion.",
+      "options": [
+        "ends",
+        "ending",
+        "ended",
+        "end"
+      ],
+      "answer": "end",
+      "explanation": "'Let's end' — base verb."
+    },
+    {
+      "id": 30,
+      "type": "error",
+      "sentence": "Let's celebrates our victory.",
+      "options": [
+        "Let's celebrates our victory.",
+        "Let's celebrate our victory."
+      ],
+      "answer": "Let's celebrate our victory.",
+      "explanation": "'Let's celebrate' — no 's' on verb after Let's. Let's + base verb (no third-person 's')."
     }
   ]
 }

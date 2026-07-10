@@ -1,343 +1,1869 @@
 {
-  "day": 14,
+  "totalQuestions": 100,
   "topic": "Use of Let's",
-  "totalQuestions": 24,
+  "day": 14,
+  "instructions": "नीचे दिए गए Hindi sentences को English में translate करें। Let's / Let us / Let's not — सही form पहचानें और translate करें।",
+  "categories": [
+    "Basic Let's Statements",
+    "Daily Life Suggestions",
+    "Office & Professional",
+    "Negative Form — Let's Not",
+    "Formal Let Us",
+    "Questions with Shall We",
+    "Mixed Advanced"
+  ],
   "questions": [
     {
       "id": 1,
       "hindi": "चलो शुरू करते हैं।",
-      "english": "Let's start.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's start.\"",
+      "english": "Let's begin.",
+      "alternatives": [
+        "Let's start.",
+        "Let us begin."
+      ],
+      "hint": "Let's + base verb",
+      "explanation": "'Let's begin' is a simple suggestion using Let's + base verb.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "lets",
+        "basic",
+        "suggestion"
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "grammarRule": "Let's + base verb",
+      "category": "Basic Let's Statements"
     },
     {
       "id": 2,
-      "hindi": "चलो कुछ खाते हैं।",
-      "english": "Let's eat something.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's eat something.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "चलो बाज़ार चलते हैं।",
+      "english": "Let's go to the market.",
+      "alternatives": [
+        "Let us go to the market."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + go + place",
+      "explanation": "'Let's go to the market' — let's followed by base verb 'go'.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "daily-life",
+        "go"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
     },
     {
       "id": 3,
-      "hindi": "चलो पार्क में चलते हैं।",
-      "english": "Let's go to the park.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's go to the park.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "चलो एक फ़िल्म देखते हैं।",
+      "english": "Let's watch a movie.",
+      "alternatives": [
+        "Let us watch a movie.",
+        "Let's see a movie."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + watch",
+      "explanation": "'Watch a movie' is the correct phrase, not 'see a movie' in standard usage.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "daily-life",
+        "watch"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
     },
     {
       "id": 4,
-      "hindi": "चलो एक फिल्म देखते हैं।",
-      "english": "Let's watch a movie.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's watch a movie.\"",
+      "hindi": "चलो साथ में खाना खाते हैं।",
+      "english": "Let's have lunch together.",
+      "alternatives": [
+        "Let's eat together.",
+        "Let us eat together."
+      ],
+      "hint": "Let's + have/eat",
+      "explanation": "'Have lunch' is natural. 'Eat together' is also correct.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "lets",
+        "daily-life",
+        "food"
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
     },
     {
       "id": 5,
-      "hindi": "चलो इस पर बात करते हैं।",
-      "english": "Let's talk about this.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's talk about this.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "चलो मीटिंग शुरू करते हैं।",
+      "english": "Let's start the meeting.",
+      "alternatives": [
+        "Let us start the meeting.",
+        "Let's begin the meeting."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + start + the meeting",
+      "explanation": "Standard office phrase. 'Let's start the meeting' is very common in professional English.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "meeting"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
     },
     {
       "id": 6,
-      "hindi": "चलो जल्दी करते हैं।",
-      "english": "Let's hurry up.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's hurry up.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "चलो समय बर्बाद मत करते हैं।",
+      "english": "Let's not waste time.",
+      "alternatives": [
+        "Let us not waste time."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's not + base verb",
+      "explanation": "Negative form: Let's not + base verb. 'Let's don't waste' is WRONG.",
+      "difficulty": "easy",
+      "tags": [
+        "lets-not",
+        "negative",
+        "time"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
     },
     {
       "id": 7,
-      "hindi": "चलो देर मत करते हैं।",
-      "english": "Let's not be late.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's not be late.\"",
-      "difficulty": "easy",
-      "tags": [
-        "use"
+      "hindi": "आइए एक बेहतर कल बनाएं।",
+      "english": "Let us build a better tomorrow.",
+      "alternatives": [
+        "Let's build a better tomorrow."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Formal: Let us + base verb",
+      "explanation": "'Let us' is the formal version. Common in speeches and formal writing.",
+      "difficulty": "medium",
+      "tags": [
+        "let-us",
+        "formal",
+        "speech"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
     },
     {
       "id": 8,
-      "hindi": "चलो साथ में पढ़ते हैं।",
-      "english": "Let's study together.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's study together.\"",
+      "hindi": "चलो अगले point पर चलते हैं।",
+      "english": "Let's move on to the next point.",
+      "alternatives": [
+        "Let us proceed to the next point."
+      ],
+      "hint": "Let's + move on",
+      "explanation": "Very common in meetings and presentations.",
       "difficulty": "medium",
       "tags": [
-        "use"
+        "lets",
+        "office",
+        "presentation"
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
     },
     {
       "id": 9,
-      "hindi": "चलो थोड़ा आराम करते हैं।",
-      "english": "Let's take some rest.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's take some rest.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "चलो अभी कोई फैसला मत लेते हैं।",
+      "english": "Let's not make any decision right now.",
+      "alternatives": [
+        "Let's not decide right now.",
+        "Let us not decide now."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's not + make/decide",
+      "explanation": "'Let's not make a decision' or 'Let's not decide' — both are correct.",
+      "difficulty": "medium",
+      "tags": [
+        "lets-not",
+        "decision",
+        "office"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
     },
     {
       "id": 10,
-      "hindi": "चलो मीटिंग शुरू करते हैं।",
-      "english": "Let's start the meeting.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's start the meeting.\"",
+      "hindi": "चलो data देखते हैं।",
+      "english": "Let's look at the data.",
+      "alternatives": [
+        "Let's examine the data.",
+        "Let us review the data."
+      ],
+      "hint": "Let's + look at",
+      "explanation": "'Look at the data' is standard business English.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "lets",
+        "office",
+        "data"
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
     },
     {
       "id": 11,
-      "hindi": "चलो एक साथ काम करते हैं।",
-      "english": "Let's work together.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's work together.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "चलो एक deadline तय करते हैं।",
+      "english": "Let's set a deadline.",
+      "alternatives": [
+        "Let us set a deadline.",
+        "Let's fix a deadline."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + set + a deadline",
+      "explanation": "'Set a deadline' is the standard collocation in English.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "deadline"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
     },
     {
       "id": 12,
-      "hindi": "चलो कुछ नया सीखते हैं।",
-      "english": "Let's learn something new.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's learn something new.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "चलो इस बारे में बहस मत करते हैं।",
+      "english": "Let's not argue about this.",
+      "alternatives": [
+        "Let us not argue about this.",
+        "Let's not fight about this."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's not + argue",
+      "explanation": "'Argue about something' is the correct preposition.",
+      "difficulty": "medium",
+      "tags": [
+        "lets-not",
+        "argument",
+        "daily"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
     },
     {
       "id": 13,
-      "hindi": "चलो योजना बनाते हैं।",
-      "english": "Let's make a plan.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's make a plan.\"",
-      "difficulty": "easy",
-      "tags": [
-        "use"
+      "hindi": "आइए इस विषय पर विचार करें।",
+      "english": "Let us consider this matter.",
+      "alternatives": [
+        "Let us think about this matter."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Formal: Let us + consider",
+      "explanation": "'Let us consider' is formal. Used in meetings, official discussions.",
+      "difficulty": "medium",
+      "tags": [
+        "let-us",
+        "formal",
+        "consider"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
     },
     {
       "id": 14,
-      "hindi": "चलो घूमने चलते हैं।",
-      "english": "Let's go for a walk.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's go for a walk.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "चलो project की planning करते हैं।",
+      "english": "Let's plan the project.",
+      "alternatives": [
+        "Let us plan the project.",
+        "Let's plan out the project."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + plan",
+      "explanation": "'Plan the project' is direct and clear. Professional usage.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "planning"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
     },
     {
       "id": 15,
-      "hindi": "चलो इस समस्या को हल करते हैं।",
-      "english": "Let's solve this problem.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's solve this problem.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "चलो थोड़ा आराम करते हैं।",
+      "english": "Let's take a break.",
+      "alternatives": [
+        "Let's rest for a while.",
+        "Let us take a break."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + take a break",
+      "explanation": "'Take a break' is the standard phrase.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "daily-life",
+        "rest"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
     },
     {
       "id": 16,
-      "hindi": "चलो कल मिलते हैं।",
-      "english": "Let's meet tomorrow.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's meet tomorrow.\"",
-      "difficulty": "easy",
-      "tags": [
-        "use"
+      "hindi": "चलो client को जल्दी reply करते हैं।",
+      "english": "Let's reply to the client soon.",
+      "alternatives": [
+        "Let's respond to the client quickly.",
+        "Let us reply to the client soon."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + reply + to",
+      "explanation": "'Reply to' not 'reply' alone. Always include 'to' with reply.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "client"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
     },
     {
       "id": 17,
-      "hindi": "चलो चाय पीते हैं।",
-      "english": "Let's have tea.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's have tea.\"",
+      "hindi": "चलो एक दूसरे से सीखते हैं।",
+      "english": "Let's learn from each other.",
+      "alternatives": [
+        "Let us learn from one another."
+      ],
+      "hint": "Let's + learn + from",
+      "explanation": "'Learn from each other' expresses mutual learning.",
       "difficulty": "medium",
       "tags": [
-        "use"
+        "lets",
+        "learning",
+        "daily"
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
     },
     {
       "id": 18,
-      "hindi": "चलो अभी फैसला ना करें।",
-      "english": "Let's not decide right now.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's not decide right now.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "चलो उसे परेशान मत करते हैं।",
+      "english": "Let's not disturb him.",
+      "alternatives": [
+        "Let's not bother him.",
+        "Let us not disturb him."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's not + disturb",
+      "explanation": "'Disturb' or 'bother' both work here.",
+      "difficulty": "easy",
+      "tags": [
+        "lets-not",
+        "daily",
+        "disturb"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
     },
     {
       "id": 19,
-      "hindi": "चलो घर चलते हैं।",
-      "english": "Let's go home.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's go home.\"",
+      "hindi": "चलो मिलकर plan करते हैं।",
+      "english": "Let's plan together.",
+      "alternatives": [
+        "Let us plan together."
+      ],
+      "hint": "Let's + plan + together",
+      "explanation": "'Plan together' = collaborative planning. Simple and clear.",
       "difficulty": "easy",
       "tags": [
-        "use"
+        "lets",
+        "daily",
+        "plan"
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
     },
     {
       "id": 20,
-      "hindi": "चलो सच बोलते हैं।",
-      "english": "Let's speak the truth.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's speak the truth.\"",
-      "difficulty": "medium",
-      "tags": [
-        "use"
+      "hindi": "आइए हम सब मिलकर इस चुनौती का सामना करें।",
+      "english": "Let us all face this challenge together.",
+      "alternatives": [
+        "Let's all face this challenge together."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Formal: Let us all + base verb",
+      "explanation": "'Let us all' adds emphasis — all people included. Formal tone.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "formal",
+        "challenge"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
     },
     {
       "id": 21,
-      "hindi": "चलो अभी झगड़ा ना करें।",
-      "english": "Let's not fight now.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's not fight now.\"",
-      "difficulty": "hard",
-      "tags": [
-        "use"
+      "hindi": "चलो कल सुबह जल्दी उठते हैं।",
+      "english": "Let's wake up early tomorrow morning.",
+      "alternatives": [
+        "Let us wake up early tomorrow.",
+        "Let's get up early tomorrow morning."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + wake up + time",
+      "explanation": "'Wake up early' is the correct phrasal verb.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "daily",
+        "morning"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
     },
     {
       "id": 22,
-      "hindi": "चलो practice करते हैं।",
-      "english": "Let's practice.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's practice.\"",
-      "difficulty": "easy",
-      "tags": [
-        "use"
+      "hindi": "चलो अपनी गलतियों से सीखते हैं।",
+      "english": "Let's learn from our mistakes.",
+      "alternatives": [
+        "Let us learn from our mistakes."
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "hint": "Let's + learn + from",
+      "explanation": "Very common motivational phrase in English.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "daily",
+        "learning"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
     },
     {
       "id": 23,
-      "hindi": "चलो positive सोचते हैं।",
-      "english": "Let's think positive.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's think positive.\"",
+      "hindi": "चलो project deadline से पहले काम खत्म करते हैं।",
+      "english": "Let's finish the work before the project deadline.",
+      "alternatives": [
+        "Let's complete the work before the deadline."
+      ],
+      "hint": "Let's + finish + before",
+      "explanation": "'Finish work before the deadline' is a professional phrase.",
       "difficulty": "medium",
       "tags": [
-        "use"
+        "lets",
+        "office",
+        "deadline"
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
     },
     {
       "id": 24,
-      "hindi": "चलो एक दूसरे की मदद करते हैं।",
-      "english": "Let's help each other.",
-      "alternatives": [],
-      "hint": "Use the pattern: Let's + base verb (used for suggestions, includes the speaker)",
-      "explanation": "Correct sentence: \"Let's help each other.\"",
+      "hindi": "चलो इस मौके को जाने मत देते हैं।",
+      "english": "Let's not miss this opportunity.",
+      "alternatives": [
+        "Let us not miss this opportunity.",
+        "Let's not let this opportunity go."
+      ],
+      "hint": "Let's not + miss",
+      "explanation": "'Miss an opportunity' = fail to take advantage of it.",
+      "difficulty": "medium",
+      "tags": [
+        "lets-not",
+        "opportunity"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 25,
+      "hindi": "चलो एक नई शुरुआत करते हैं।",
+      "english": "Let's make a fresh start.",
+      "alternatives": [
+        "Let's start fresh.",
+        "Let us make a new beginning."
+      ],
+      "hint": "Let's + make a fresh start",
+      "explanation": "'Make a fresh start' is an idiomatic expression.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "idiom",
+        "motivation"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 26,
+      "hindi": "चलो सच बोलते हैं।",
+      "english": "Let's speak the truth.",
+      "alternatives": [
+        "Let's be honest.",
+        "Let us speak the truth."
+      ],
+      "hint": "Let's + speak + the truth",
+      "explanation": "'Speak the truth' is more formal; 'be honest' is more informal.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "honesty",
+        "daily"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 27,
+      "hindi": "चलो कल conference call करते हैं।",
+      "english": "Let's have a conference call tomorrow.",
+      "alternatives": [
+        "Let's schedule a conference call for tomorrow."
+      ],
+      "hint": "Let's + have + a call",
+      "explanation": "'Have a conference call' is standard business English.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "call"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 28,
+      "hindi": "चलो product launch की तैयारी करते हैं।",
+      "english": "Let's prepare for the product launch.",
+      "alternatives": [
+        "Let us prepare for the product launch."
+      ],
+      "hint": "Let's + prepare + for",
+      "explanation": "'Prepare for' = get ready for an event.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "launch"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 29,
+      "hindi": "चलो इस समस्या को जड़ से सुलझाते हैं।",
+      "english": "Let's resolve this problem from the root.",
+      "alternatives": [
+        "Let's solve this problem at the root.",
+        "Let's address the root cause."
+      ],
+      "hint": "Let's + resolve + root cause",
+      "explanation": "'Root cause' is the fundamental reason. Advanced professional phrase.",
       "difficulty": "hard",
       "tags": [
-        "use"
+        "lets",
+        "office",
+        "problem-solving"
       ],
-      "grammarRule": "Use of Let's",
-      "category": "Use of Let's practice"
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 30,
+      "hindi": "आइए अपने देश को आगे ले जाएं।",
+      "english": "Let us take our country forward.",
+      "alternatives": [
+        "Let us build our nation together."
+      ],
+      "hint": "Formal: Let us + take/build",
+      "explanation": "Formal, patriotic speech-style usage of 'Let us'.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "formal",
+        "speech"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
+    },
+    {
+      "id": 31,
+      "hindi": "चलो इसे ignore मत करते हैं।",
+      "english": "Let's not ignore this.",
+      "alternatives": [
+        "Let us not ignore this.",
+        "Let's not overlook this."
+      ],
+      "hint": "Let's not + ignore",
+      "explanation": "'Ignore' or 'overlook' both work. 'Overlook' is slightly softer.",
+      "difficulty": "easy",
+      "tags": [
+        "lets-not",
+        "daily",
+        "office"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 32,
+      "hindi": "चलो अपने goals review करते हैं।",
+      "english": "Let's review our goals.",
+      "alternatives": [
+        "Let us review our goals."
+      ],
+      "hint": "Let's + review",
+      "explanation": "'Review goals' is common at the start of a new period (week/month/year).",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "goals"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 33,
+      "hindi": "चलो एक दूसरे की मदद करते हैं।",
+      "english": "Let's help each other.",
+      "alternatives": [
+        "Let us help one another.",
+        "Let's support each other."
+      ],
+      "hint": "Let's + help + each other",
+      "explanation": "'Help each other' or 'help one another' — both are correct.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "daily",
+        "help"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 34,
+      "hindi": "चलो positive सोचते हैं।",
+      "english": "Let's think positively.",
+      "alternatives": [
+        "Let's be positive.",
+        "Let us think positive."
+      ],
+      "hint": "Let's + think + positively",
+      "explanation": "'Think positively' (adverb) or 'be positive' — both natural.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "motivation",
+        "daily"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 35,
+      "hindi": "चलो नए ideas brainstorm करते हैं।",
+      "english": "Let's brainstorm new ideas.",
+      "alternatives": [
+        "Let us brainstorm some new ideas."
+      ],
+      "hint": "Let's + brainstorm",
+      "explanation": "'Brainstorm ideas' — very common in creative and office settings.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "brainstorm"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 36,
+      "hindi": "चलो इस project को time पर deliver करते हैं।",
+      "english": "Let's deliver this project on time.",
+      "alternatives": [
+        "Let us deliver the project on time.",
+        "Let's complete this project on time."
+      ],
+      "hint": "Let's + deliver + on time",
+      "explanation": "'Deliver on time' is a key professional commitment.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "delivery"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 37,
+      "hindi": "चलो रात को जल्दी सो जाते हैं।",
+      "english": "Let's sleep early tonight.",
+      "alternatives": [
+        "Let's go to bed early tonight.",
+        "Let us sleep early tonight."
+      ],
+      "hint": "Let's + sleep early",
+      "explanation": "'Sleep early' or 'go to bed early' — both are natural.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "daily",
+        "health"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 38,
+      "hindi": "चलो किसी की बुराई मत करते हैं।",
+      "english": "Let's not speak ill of anyone.",
+      "alternatives": [
+        "Let's not talk badly about anyone.",
+        "Let us not gossip."
+      ],
+      "hint": "Let's not + speak ill",
+      "explanation": "'Speak ill of someone' is an idiomatic expression meaning to say bad things.",
+      "difficulty": "hard",
+      "tags": [
+        "lets-not",
+        "idiom",
+        "social"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 39,
+      "hindi": "आइए सब मिलकर अपना योगदान दें।",
+      "english": "Let us all contribute our part.",
+      "alternatives": [
+        "Let us each do our part."
+      ],
+      "hint": "Formal: Let us all + contribute",
+      "explanation": "Formal, inclusive language. 'Let us all' = everyone together.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "formal",
+        "contribution"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
+    },
+    {
+      "id": 40,
+      "hindi": "चलो office में meeting room book करते हैं।",
+      "english": "Let's book a meeting room at the office.",
+      "alternatives": [
+        "Let us book the conference room."
+      ],
+      "hint": "Let's + book + room",
+      "explanation": "'Book a room' = reserve a room. Common office task.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "booking"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 41,
+      "hindi": "चलो customer को call करके update दें।",
+      "english": "Let's call the customer and give them an update.",
+      "alternatives": [
+        "Let's update the customer with a call."
+      ],
+      "hint": "Let's + call + give update",
+      "explanation": "Compound action — call and update. Both connected with 'and'.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "customer"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 42,
+      "hindi": "चलो रोज़ exercise करते हैं।",
+      "english": "Let's exercise every day.",
+      "alternatives": [
+        "Let us work out daily.",
+        "Let's work out every day."
+      ],
+      "hint": "Let's + exercise + daily",
+      "explanation": "'Exercise every day' is a healthy suggestion.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "health",
+        "daily"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 43,
+      "hindi": "चलो बिना सोचे कोई comment मत करते हैं।",
+      "english": "Let's not comment without thinking.",
+      "alternatives": [
+        "Let's not speak without thinking.",
+        "Let us not react impulsively."
+      ],
+      "hint": "Let's not + comment/speak",
+      "explanation": "'Comment without thinking' = react impulsively. Good life lesson.",
+      "difficulty": "medium",
+      "tags": [
+        "lets-not",
+        "social",
+        "thinking"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 44,
+      "hindi": "चलो weekend पर trip plan करते हैं।",
+      "english": "Let's plan a trip for the weekend.",
+      "alternatives": [
+        "Let us plan a weekend trip."
+      ],
+      "hint": "Let's + plan + a trip",
+      "explanation": "'Plan a trip' is a common suggestion for leisure time.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "daily",
+        "travel"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 45,
+      "hindi": "चलो team को motivate करते हैं।",
+      "english": "Let's motivate the team.",
+      "alternatives": [
+        "Let us inspire the team.",
+        "Let's encourage the team."
+      ],
+      "hint": "Let's + motivate",
+      "explanation": "'Motivate the team' — essential leadership phrase.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "leadership"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 46,
+      "hindi": "चलो ईमानदार रहते हैं।",
+      "english": "Let's be honest.",
+      "alternatives": [
+        "Let us be honest.",
+        "Let's stay honest."
+      ],
+      "hint": "Let's + be + adjective",
+      "explanation": "'Let's be honest' — Let's + be + adjective is a common pattern.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "honesty",
+        "daily"
+      ],
+      "grammarRule": "Let's + be + adjective",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 47,
+      "hindi": "चलो किसी पर भरोसा करने से पहले जाँच करते हैं।",
+      "english": "Let's verify before trusting anyone.",
+      "alternatives": [
+        "Let's check before trusting someone."
+      ],
+      "hint": "Let's + verify/check + before",
+      "explanation": "'Verify before trusting' — professional and personal wisdom.",
+      "difficulty": "hard",
+      "tags": [
+        "lets",
+        "daily",
+        "trust"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 48,
+      "hindi": "आइए इस बैठक को सार्थक बनाएं।",
+      "english": "Let us make this meeting meaningful.",
+      "alternatives": [
+        "Let's make this meeting productive."
+      ],
+      "hint": "Formal: Let us + make + meaningful",
+      "explanation": "Formal suggestion to make a meeting valuable.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "formal",
+        "meeting"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
+    },
+    {
+      "id": 49,
+      "hindi": "चलो अपनी गलती स्वीकार करते हैं।",
+      "english": "Let's accept our mistake.",
+      "alternatives": [
+        "Let's acknowledge our error.",
+        "Let us accept our mistake."
+      ],
+      "hint": "Let's + accept/acknowledge + mistake",
+      "explanation": "'Accept' or 'acknowledge a mistake' — both professional.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "daily",
+        "honesty"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 50,
+      "hindi": "चलो यह प्रेज़ेंटेशन समाप्त करते हैं।",
+      "english": "Let's wrap up this presentation.",
+      "alternatives": [
+        "Let's finish this presentation.",
+        "Let us conclude the presentation."
+      ],
+      "hint": "Let's + wrap up",
+      "explanation": "'Wrap up' = finish/conclude. Very common in presentation closing.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "presentation"
+      ],
+      "grammarRule": "Let's + base verb (phrasal)",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 51,
+      "hindi": "चलो इसे जल्दबाज़ी में मत करते हैं।",
+      "english": "Let's not rush this.",
+      "alternatives": [
+        "Let's not hurry with this.",
+        "Let us not rush into this."
+      ],
+      "hint": "Let's not + rush",
+      "explanation": "'Rush into' = do hastily. 'Don't rush' and 'Let's not rush' mean the same.",
+      "difficulty": "easy",
+      "tags": [
+        "lets-not",
+        "office",
+        "decision"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 52,
+      "hindi": "चलो नए market में अपना product launch करते हैं।",
+      "english": "Let's launch our product in the new market.",
+      "alternatives": [
+        "Let us introduce our product to the new market."
+      ],
+      "hint": "Let's + launch + in + market",
+      "explanation": "'Launch a product in a market' is standard business phrasing.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "business",
+        "launch"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 53,
+      "hindi": "चलो office party organize करते हैं।",
+      "english": "Let's organize an office party.",
+      "alternatives": [
+        "Let's plan an office party.",
+        "Let us organize a team party."
+      ],
+      "hint": "Let's + organize",
+      "explanation": "'Organize a party' = plan and arrange all details.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "party"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 54,
+      "hindi": "चलो बेकार की बातों पर ध्यान मत देते हैं।",
+      "english": "Let's not pay attention to unnecessary things.",
+      "alternatives": [
+        "Let's not focus on irrelevant matters.",
+        "Let us not bother with useless things."
+      ],
+      "hint": "Let's not + pay attention + to",
+      "explanation": "'Pay attention to' = focus on. Negative: 'Let's not pay attention to.'",
+      "difficulty": "medium",
+      "tags": [
+        "lets-not",
+        "focus",
+        "daily"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 55,
+      "hindi": "चलो यह challenge accept करते हैं।",
+      "english": "Let's accept this challenge.",
+      "alternatives": [
+        "Let us take on this challenge.",
+        "Let's take this challenge."
+      ],
+      "hint": "Let's + accept",
+      "explanation": "'Accept a challenge' = agree to face a difficult task.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "motivation",
+        "challenge"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 56,
+      "hindi": "आइए एक नई शुरुआत करें।",
+      "english": "Let us make a new beginning.",
+      "alternatives": [
+        "Let us start fresh.",
+        "Let's begin anew."
+      ],
+      "hint": "Formal: Let us + make + new beginning",
+      "explanation": "Formal, motivational language. Common in speeches and addresses.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "formal",
+        "motivation"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
+    },
+    {
+      "id": 57,
+      "hindi": "चलो feedback लेते हैं।",
+      "english": "Let's gather feedback.",
+      "alternatives": [
+        "Let's collect feedback.",
+        "Let us take feedback."
+      ],
+      "hint": "Let's + gather/collect + feedback",
+      "explanation": "'Gather feedback' is professional. 'Collect feedback' also works.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "feedback"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 58,
+      "hindi": "चलो अपनी team को train करते हैं।",
+      "english": "Let's train our team.",
+      "alternatives": [
+        "Let us train the team.",
+        "Let's develop our team."
+      ],
+      "hint": "Let's + train",
+      "explanation": "'Train the team' = provide professional development.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "training"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 59,
+      "hindi": "चलो इस issue को ignore मत करते हैं।",
+      "english": "Let's not ignore this issue.",
+      "alternatives": [
+        "Let us not overlook this issue.",
+        "Let's not dismiss this."
+      ],
+      "hint": "Let's not + ignore",
+      "explanation": "'Ignore an issue' = fail to deal with it. Important professional phrase.",
+      "difficulty": "easy",
+      "tags": [
+        "lets-not",
+        "office",
+        "issue"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 60,
+      "hindi": "चलो साथ में celebration करते हैं।",
+      "english": "Let's celebrate together.",
+      "alternatives": [
+        "Let us celebrate together."
+      ],
+      "hint": "Let's + celebrate",
+      "explanation": "'Celebrate together' — inclusive celebration with everyone.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "social",
+        "celebrate"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 61,
+      "hindi": "चलो एक team meeting schedule करते हैं।",
+      "english": "Let's schedule a team meeting.",
+      "alternatives": [
+        "Let us set up a team meeting."
+      ],
+      "hint": "Let's + schedule",
+      "explanation": "'Schedule a meeting' = fix a date and time for it.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "meeting"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 62,
+      "hindi": "चलो हर रात English की practice करते हैं।",
+      "english": "Let's practice English every night.",
+      "alternatives": [
+        "Let us practice English every evening."
+      ],
+      "hint": "Let's + practice + every night",
+      "explanation": "Forming a good habit using Let's suggestion.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "daily",
+        "learning"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 63,
+      "hindi": "चलो कुछ नया सीखने की कोशिश करते हैं।",
+      "english": "Let's try to learn something new.",
+      "alternatives": [
+        "Let us attempt to learn something new."
+      ],
+      "hint": "Let's + try + to + learn",
+      "explanation": "'Try to' = attempt. Combined with 'Let's' to form a suggestion.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "learning",
+        "motivation"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 64,
+      "hindi": "चलो अपना best देते हैं।",
+      "english": "Let's give our best.",
+      "alternatives": [
+        "Let's do our best.",
+        "Let us give our best effort."
+      ],
+      "hint": "Let's + give our best",
+      "explanation": "'Give our best' = make maximum effort. Motivational phrase.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "motivation",
+        "daily"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 65,
+      "hindi": "चलो गलतफहमी दूर करते हैं।",
+      "english": "Let's clear up the misunderstanding.",
+      "alternatives": [
+        "Let's resolve the misunderstanding.",
+        "Let us clarify the misunderstanding."
+      ],
+      "hint": "Let's + clear up",
+      "explanation": "'Clear up a misunderstanding' = explain and fix a confusion.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "daily",
+        "communication"
+      ],
+      "grammarRule": "Let's + base verb (phrasal)",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 66,
+      "hindi": "चलो बात करते हैं।",
+      "english": "Let's talk.",
+      "alternatives": [
+        "Let us talk.",
+        "Let's have a chat."
+      ],
+      "hint": "Let's + talk",
+      "explanation": "Simple, direct suggestion. 'Let's talk' is very common in English.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "communication",
+        "daily"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 67,
+      "hindi": "चलो आज रात पर पार्टी करते हैं।",
+      "english": "Let's have a party tonight.",
+      "alternatives": [
+        "Let's throw a party tonight.",
+        "Let us celebrate tonight."
+      ],
+      "hint": "Let's + have a party",
+      "explanation": "'Have a party' or 'throw a party' — both are natural.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "social",
+        "party"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 68,
+      "hindi": "चलो देर रात तक मत जागते हैं।",
+      "english": "Let's not stay up late at night.",
+      "alternatives": [
+        "Let's not be up too late.",
+        "Let us not stay awake late."
+      ],
+      "hint": "Let's not + stay up late",
+      "explanation": "'Stay up late' = remain awake past normal bedtime.",
+      "difficulty": "medium",
+      "tags": [
+        "lets-not",
+        "daily",
+        "health"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 69,
+      "hindi": "आइए एक बेहतर दुनिया बनाएं।",
+      "english": "Let us create a better world.",
+      "alternatives": [
+        "Let us build a better world."
+      ],
+      "hint": "Formal: Let us + create",
+      "explanation": "Formal, inspirational. Used in speeches, essays, formal writings.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "formal",
+        "inspiration"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
+    },
+    {
+      "id": 70,
+      "hindi": "चलो अपने targets achieve करते हैं।",
+      "english": "Let's achieve our targets.",
+      "alternatives": [
+        "Let's reach our targets.",
+        "Let us achieve our goals."
+      ],
+      "hint": "Let's + achieve",
+      "explanation": "'Achieve targets/goals' is essential professional vocabulary.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "targets"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 71,
+      "hindi": "चलो एक साथ lunch करते हैं।",
+      "english": "Let's have lunch together.",
+      "alternatives": [
+        "Let's eat lunch together.",
+        "Let us lunch together."
+      ],
+      "hint": "Let's + have lunch",
+      "explanation": "'Have lunch together' = eat the midday meal as a group.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "daily",
+        "food"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 72,
+      "hindi": "चलो budget पर फैसला करते हैं।",
+      "english": "Let's decide on the budget.",
+      "alternatives": [
+        "Let us settle the budget.",
+        "Let's finalize the budget."
+      ],
+      "hint": "Let's + decide on",
+      "explanation": "'Decide on' = make a final choice about something.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "business",
+        "budget"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 73,
+      "hindi": "चलो हर meeting में notes लेते हैं।",
+      "english": "Let's take notes in every meeting.",
+      "alternatives": [
+        "Let us make notes during every meeting."
+      ],
+      "hint": "Let's + take notes",
+      "explanation": "'Take notes' = write down important points.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "notes"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 74,
+      "hindi": "चलो इस बात को यहीं खत्म करते हैं।",
+      "english": "Let's end this discussion here.",
+      "alternatives": [
+        "Let's wrap up this conversation.",
+        "Let us close this topic here."
+      ],
+      "hint": "Let's + end/wrap up",
+      "explanation": "'End a discussion here' — used to close an ongoing debate.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "discussion"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 75,
+      "hindi": "चलो पहले plan बनाते हैं, फिर काम शुरू करते हैं।",
+      "english": "Let's first make a plan and then start working.",
+      "alternatives": [
+        "Let us plan first before we begin."
+      ],
+      "hint": "Let's + make a plan + and then + start",
+      "explanation": "Two actions joined with 'and then'. Planning before execution.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "planning"
+      ],
+      "grammarRule": "Let's + base verb (compound)",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 76,
+      "hindi": "चलो इस budget पर सवाल उठाते हैं।",
+      "english": "Let's question this budget.",
+      "alternatives": [
+        "Let us challenge this budget.",
+        "Let's review this budget critically."
+      ],
+      "hint": "Let's + question/challenge",
+      "explanation": "'Question the budget' = scrutinize it critically.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "budget"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 77,
+      "hindi": "चलो एक दूसरे को inspire करते हैं।",
+      "english": "Let's inspire each other.",
+      "alternatives": [
+        "Let us motivate one another."
+      ],
+      "hint": "Let's + inspire + each other",
+      "explanation": "Mutual inspiration — 'inspire each other' or 'inspire one another'.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "motivation",
+        "daily"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 78,
+      "hindi": "चलो सुबह की शुरुआत positive note से करते हैं।",
+      "english": "Let's start the morning on a positive note.",
+      "alternatives": [
+        "Let us begin the day positively."
+      ],
+      "hint": "Let's + start + on a positive note",
+      "explanation": "'Start on a positive note' is an idiom meaning to begin well.",
+      "difficulty": "hard",
+      "tags": [
+        "lets",
+        "morning",
+        "idiom"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 79,
+      "hindi": "चलो अपनी team के साथ transparent रहते हैं।",
+      "english": "Let's be transparent with our team.",
+      "alternatives": [
+        "Let us remain transparent with the team."
+      ],
+      "hint": "Let's + be + transparent + with",
+      "explanation": "'Be transparent with someone' = be open and honest.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "transparency"
+      ],
+      "grammarRule": "Let's + be + adjective",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 80,
+      "hindi": "चलो किसी commitment को तोड़ते नहीं हैं।",
+      "english": "Let's not break any commitment.",
+      "alternatives": [
+        "Let us not go back on our commitments.",
+        "Let's not break our promises."
+      ],
+      "hint": "Let's not + break + commitment",
+      "explanation": "'Break a commitment/promise' = fail to keep it.",
+      "difficulty": "hard",
+      "tags": [
+        "lets-not",
+        "commitment",
+        "daily"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 81,
+      "hindi": "चलो सभी stakeholders को update देते हैं।",
+      "english": "Let's update all the stakeholders.",
+      "alternatives": [
+        "Let us inform all the stakeholders."
+      ],
+      "hint": "Let's + update + stakeholders",
+      "explanation": "'Update stakeholders' is essential in project management.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "stakeholders"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 82,
+      "hindi": "चलो एक sustainable solution खोजते हैं।",
+      "english": "Let's find a sustainable solution.",
+      "alternatives": [
+        "Let us look for a sustainable solution."
+      ],
+      "hint": "Let's + find + sustainable",
+      "explanation": "'Sustainable solution' = long-term, eco-friendly answer.",
+      "difficulty": "hard",
+      "tags": [
+        "lets",
+        "office",
+        "sustainability"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 83,
+      "hindi": "आइए एकता में विश्वास रखें।",
+      "english": "Let us believe in unity.",
+      "alternatives": [
+        "Let us stand together in unity."
+      ],
+      "hint": "Formal: Let us + believe",
+      "explanation": "Formal and motivational. Common in official speeches.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "formal",
+        "unity"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
+    },
+    {
+      "id": 84,
+      "hindi": "चलो किसी की बात बीच में मत काटते हैं।",
+      "english": "Let's not interrupt anyone.",
+      "alternatives": [
+        "Let us not cut someone off while they speak.",
+        "Let's not interject unnecessarily."
+      ],
+      "hint": "Let's not + interrupt",
+      "explanation": "'Interrupt someone' = speak while they are talking. Rude in professional settings.",
+      "difficulty": "medium",
+      "tags": [
+        "lets-not",
+        "etiquette",
+        "office"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 85,
+      "hindi": "चलो company की policy follow करते हैं।",
+      "english": "Let's follow the company policy.",
+      "alternatives": [
+        "Let us adhere to the company policy."
+      ],
+      "hint": "Let's + follow/adhere to",
+      "explanation": "'Follow policy' or 'adhere to policy' — both are professional.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "policy"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 86,
+      "hindi": "चलो तनाव कम करने के लिए yoga करते हैं।",
+      "english": "Let's do yoga to reduce stress.",
+      "alternatives": [
+        "Let us practice yoga to lower stress."
+      ],
+      "hint": "Let's + do yoga + to + purpose",
+      "explanation": "Purpose clause: 'to reduce stress'. Combined suggestion.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "health",
+        "yoga"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 87,
+      "hindi": "चलो एक inclusive workplace बनाते हैं।",
+      "english": "Let's build an inclusive workplace.",
+      "alternatives": [
+        "Let us create an inclusive work environment."
+      ],
+      "hint": "Let's + build + inclusive",
+      "explanation": "'Inclusive workplace' = where everyone feels welcome. DEI term.",
+      "difficulty": "hard",
+      "tags": [
+        "lets",
+        "office",
+        "inclusion"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 88,
+      "hindi": "चलो अभी decide मत करते हैं — सोचते हैं।",
+      "english": "Let's not decide now — let's think about it.",
+      "alternatives": [
+        "Let us not rush; let us think first."
+      ],
+      "hint": "Let's not + decide + Let's + think",
+      "explanation": "Two-part sentence. First negative, then positive suggestion.",
+      "difficulty": "hard",
+      "tags": [
+        "lets-not",
+        "decision",
+        "thinking"
+      ],
+      "grammarRule": "Let's not + base verb; Let's + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 89,
+      "hindi": "चलो एक realistic plan बनाते हैं।",
+      "english": "Let's make a realistic plan.",
+      "alternatives": [
+        "Let us create a practical and achievable plan."
+      ],
+      "hint": "Let's + make + realistic plan",
+      "explanation": "'Realistic plan' = achievable and sensible plan.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "planning"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 90,
+      "hindi": "चलो इस अवसर का फायदा उठाते हैं।",
+      "english": "Let's take advantage of this opportunity.",
+      "alternatives": [
+        "Let's seize this opportunity.",
+        "Let us make the most of this opportunity."
+      ],
+      "hint": "Let's + take advantage of",
+      "explanation": "'Take advantage of an opportunity' = use it wisely.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "opportunity",
+        "business"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 91,
+      "hindi": "चलो अपने budget में रहते हैं।",
+      "english": "Let's stay within our budget.",
+      "alternatives": [
+        "Let us keep to the budget."
+      ],
+      "hint": "Let's + stay within",
+      "explanation": "'Stay within budget' = not exceed the allocated money.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "business",
+        "budget"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 92,
+      "hindi": "चलो customer की बात ध्यान से सुनते हैं।",
+      "english": "Let's listen carefully to the customer.",
+      "alternatives": [
+        "Let us hear the customer out."
+      ],
+      "hint": "Let's + listen + carefully",
+      "explanation": "'Listen carefully' = give full attention. Important customer service skill.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "office",
+        "customer"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 93,
+      "hindi": "आइए अपने nation के विकास में योगदान दें।",
+      "english": "Let us contribute to the development of our nation.",
+      "alternatives": [
+        "Let us play our part in building the nation."
+      ],
+      "hint": "Formal: Let us + contribute + to",
+      "explanation": "Highly formal. Used in speeches, national day addresses.",
+      "difficulty": "hard",
+      "tags": [
+        "let-us",
+        "formal",
+        "nation"
+      ],
+      "grammarRule": "Let us + base verb (formal)",
+      "category": "Formal Let Us"
+    },
+    {
+      "id": 94,
+      "hindi": "चलो problem को negative तरीके से मत देखते हैं।",
+      "english": "Let's not view the problem negatively.",
+      "alternatives": [
+        "Let's not look at this as a problem.",
+        "Let us not approach this with a negative mindset."
+      ],
+      "hint": "Let's not + view + negatively",
+      "explanation": "'View negatively' = see in a bad light. Mindset change phrase.",
+      "difficulty": "hard",
+      "tags": [
+        "lets-not",
+        "mindset",
+        "daily"
+      ],
+      "grammarRule": "Let's not + base verb",
+      "category": "Negative Form — Let's Not"
+    },
+    {
+      "id": 95,
+      "hindi": "चलो feedback के आधार पर improve करते हैं।",
+      "english": "Let's improve based on feedback.",
+      "alternatives": [
+        "Let us grow based on the feedback we receive."
+      ],
+      "hint": "Let's + improve + based on",
+      "explanation": "'Improve based on feedback' = use feedback to get better.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "office",
+        "improvement"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 96,
+      "hindi": "चलो रोज़ एक नया English word सीखते हैं।",
+      "english": "Let's learn one new English word every day.",
+      "alternatives": [
+        "Let us pick one English word to learn daily."
+      ],
+      "hint": "Let's + learn + one word + every day",
+      "explanation": "Great language learning suggestion. Daily habit building.",
+      "difficulty": "medium",
+      "tags": [
+        "lets",
+        "learning",
+        "daily"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 97,
+      "hindi": "चलो transparency और accountability maintain करते हैं।",
+      "english": "Let's maintain transparency and accountability.",
+      "alternatives": [
+        "Let us ensure transparency and accountability."
+      ],
+      "hint": "Let's + maintain + two values",
+      "explanation": "Compound objects: 'transparency and accountability'. Professional values.",
+      "difficulty": "hard",
+      "tags": [
+        "lets",
+        "office",
+        "values"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
+    },
+    {
+      "id": 98,
+      "hindi": "चलो एक दूसरे का सम्मान करते हैं।",
+      "english": "Let's respect each other.",
+      "alternatives": [
+        "Let us show respect to one another."
+      ],
+      "hint": "Let's + respect + each other",
+      "explanation": "'Respect each other' = treat each other with dignity.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "social",
+        "respect"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 99,
+      "hindi": "चलो इस success को celebrate करते हैं।",
+      "english": "Let's celebrate this success.",
+      "alternatives": [
+        "Let us mark this success.",
+        "Let's enjoy this achievement."
+      ],
+      "hint": "Let's + celebrate + success",
+      "explanation": "'Celebrate success' — motivating closure to a completed goal.",
+      "difficulty": "easy",
+      "tags": [
+        "lets",
+        "motivation",
+        "celebrate"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Daily Life Suggestions"
+    },
+    {
+      "id": 100,
+      "hindi": "चलो एक proactive approach अपनाते हैं।",
+      "english": "Let's adopt a proactive approach.",
+      "alternatives": [
+        "Let us take a proactive approach.",
+        "Let's be proactive."
+      ],
+      "hint": "Let's + adopt + proactive approach",
+      "explanation": "'Adopt a proactive approach' — top interview and professional phrase.",
+      "difficulty": "hard",
+      "tags": [
+        "lets",
+        "office",
+        "proactive"
+      ],
+      "grammarRule": "Let's + base verb",
+      "category": "Office & Professional"
     }
   ]
 }

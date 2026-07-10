@@ -1,13 +1,51 @@
 {
   "day": 13,
   "title": "Use of Let",
-  "tagline": "permission देना सीखें — Let me, Let him, Let them।",
-  "summary": "'Let' का उपयोग किसी को permission देने या allow करने के लिए होता है। आज हम Let + person + base verb की formula सीखेंगे।",
-  "hindiSummary": "आज आप सीखेंगे कि किसी को कुछ करने की अनुमति कैसे दी जाती है — Let me, Let him, Let her, Let them के साथ।",
+  "tagline": "दूसरों को करने दो, खुद को करने दो — 'Let' सीखो!",
+  "summary": "Day 13 में आप 'Use of Let' सीखेंगे — English का एक बेहद practical और ज़रूरी grammar structure। 'Let' का उपयोग तब होता है जब आप किसी को कुछ करने की permission देते हैं, या खुद कुछ करने की request करते हैं। Formula है: Let + object pronoun (me/him/her/us/them/it) + base verb। यह structure रोज़मर्रा की बातचीत, office meetings, interviews, और formal writing — सब जगह use होता है।",
+  "hindiSummary": "आज का topic है 'Use of Let' — जिससे आप सीखेंगे: 'Let me' (मुझे करने दो), 'Let him/her' (उसे करने दो), 'Let us' (हमें करने दो), 'Let them' (उन्हें करने दो), और 'Don't let' (मत करने दो)। यह structure simple है लेकिन बहुत powerful है — और इसके साथ सबसे आम गलती है 'to' लगाना (जैसे Let me to go — यह गलत है) या subject pronouns use करना (Let he go — यह भी गलत है)।",
   "whatYouWillLearn": [
-    "Use of Let की सही formula और structure",
-    "Use of Let के साथ positive, negative और question sentences",
-    "Use of Let का daily life और office में उपयोग",
-    "Common mistakes जो लोग यहां करते हैं"
-  ]
+    "Core formula: Let + object pronoun + base verb",
+    "'Let me' — self-directed permission and requests",
+    "'Let him/her' — giving permission to a third person",
+    "'Let us' — formal permission for a group",
+    "'Let them' — allowing a group to act",
+    "Negative form: 'Don't let' + object + base verb",
+    "Question forms: Will you let me...? Should I let him...?",
+    "Common mistakes: using 'to', using subject pronouns, using '-ing' form",
+    "Advanced use: 'Let go of', 'Let alone', 'Let it be'",
+    "Contrast: Let vs Allow vs Make vs Have vs Get"
+  ],
+  "letCheatSheet": {
+    "formula": "Let + object pronoun + base verb",
+    "objectPronouns": "me / him / her / us / them / it",
+    "examples": {
+      "letMe": "Let me explain. / Let me try.",
+      "letHim": "Let him go. / Let him present.",
+      "letHer": "Let her speak. / Let her lead.",
+      "letUs": "Let us begin. / Let us review.",
+      "letThem": "Let them decide. / Let them play.",
+      "dontLet": "Don't let him in. / Don't let it slip.",
+      "questionForm": "Will you let me try? / Should I let him come?"
+    },
+    "commonMistakes": {
+      "wrong1": "Let me to go → Right: Let me go",
+      "wrong2": "Let he go → Right: Let him go",
+      "wrong3": "Let her going → Right: Let her go",
+      "wrong4": "Let not him in → Right: Don't let him in"
+    },
+    "advancedUse": {
+      "letGo": "Let go of the past.",
+      "letAlone": "I can't drive, let alone fly.",
+      "letItBe": "Let it be — don't force it.",
+      "letKnow": "Let me know if you need help.",
+      "letSee": "Let me see what I can do."
+    }
+  },
+  "motivationalQuote": "Permission is the first step to action. Learn to say 'Let me' with confidence, and watch doors open for you!",
+  "practiceTarget": {
+    "minimumQuestions": 50,
+    "targetQuestions": 100,
+    "stretchGoal": 150
+  }
 }

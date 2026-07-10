@@ -1,13 +1,31 @@
 {
   "day": 14,
   "title": "Use of Let's",
-  "tagline": "सुझाव देना सीखें — Let's go, Let's start।",
-  "summary": "'Let's' सुझाव देने के लिए उपयोग होता है, जिसमें बोलने वाला खुद भी शामिल होता है। आज हम suggestion sentences बनाना सीखेंगे।",
-  "hindiSummary": "आज आप सीखेंगे कि किसी काम को साथ में करने का सुझाव कैसे दिया जाता है — Let's start, Let's go जैसे patterns के साथ।",
+  "tagline": "Let's learn 'Let's' — the art of making inclusive suggestions in English!",
+  "summary": "Day 14 is all about 'Let's' — one of the most commonly used patterns in spoken English. 'Let's' = 'Let us' — a suggestion that includes the speaker and listeners both. आज हम सीखेंगे: basic Let's statements, negative form (Let's not), formal version (Let us), common mistakes to avoid, and how Let's differs from Day 13's 'Let him/her/them'. इस topic को master करने से आप office meetings, daily conversations, और formal speeches में बहुत natural sound करेंगे।",
+  "hindiSummary": "Let's का अर्थ है 'हम करते हैं' — यह speaker को भी include करता है। Formula: Let's + base verb। Negative: Let's not + base verb। Formal: Let us + base verb। आज हम सीखेंगे: daily life में Let's (चलो खाते हैं, चलो जाते हैं), office में Let's (Let's start the meeting, Let's review the data), formal speeches में Let us (Let us build a better tomorrow), और common mistakes (Let's to go ❌, Let's don't ❌)।",
   "whatYouWillLearn": [
-    "Use of Let's की सही formula और structure",
-    "Use of Let's के साथ positive, negative और question sentences",
-    "Use of Let's का daily life और office में उपयोग",
-    "Common mistakes जो लोग यहां करते हैं"
-  ]
+    "Formula: Let's + base verb for suggestions including the speaker",
+    "Negative form: Let's not + base verb (how to refuse/discourage collectively)",
+    "Formal form: Let us + base verb (speeches, notices, formal writing)",
+    "Common mistakes: Let's to..., Let's don't..., Let we..., Let's + ing form",
+    "Contrast with Day 13: Let's (us included) vs Let him/her/them (permission to others)",
+    "Office/professional Let's phrases for meetings and presentations",
+    "Motivational and rhetorical uses: Let's give it our best shot!",
+    "100 vocabulary words for professional and everyday communication"
+  ],
+  "letsCheatSheet": {
+    "basic": "Let's + base verb (suggestion including speaker) | Example: Let's go, Let's eat, Let's start",
+    "negative": "Let's not + base verb | Example: Let's not waste time, Let's not argue",
+    "formal": "Let us + base verb | Example: Let us consider, Let us build, Let us commit",
+    "question": "Shall we + base verb? (question form) | Example: Shall we begin? = Let's begin",
+    "wrongForms": "❌ Let's to go | ❌ Let's don't argue | ❌ Let we start | ❌ Let's going | ❌ Lets go (no apostrophe)",
+    "contrast": "Let's decide = we decide together | Let him decide = he decides (permission to 3rd person)"
+  },
+  "motivationalQuote": "Every great collaboration starts with two words: 'Let's go!' Master Let's today and you'll never struggle to make suggestions in English again.",
+  "practiceTarget": {
+    "minimumQuestions": 50,
+    "targetQuestions": 80,
+    "stretchGoal": 100
+  }
 }

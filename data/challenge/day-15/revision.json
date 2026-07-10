@@ -2,67 +2,89 @@
   "day": 15,
   "topic": "Would Like To",
   "keyPointsSummary": [
-    "'Would like to' is a polite, formal way of saying 'want to'",
-    "Same form for all subjects: would like to",
-    "Negative: would not like to / wouldn't like to",
-    "Question: Would + subject + like to...?"
+    "'Would like to' is the polite/formal version of 'want to'. Use it in interviews, office, restaurants, and formal conversations.",
+    "Formula: Subject + would like to + base verb (e.g., I would like to meet you.)",
+    "Contraction: I'd / You'd / He'd / She'd / We'd / They'd + like to + base verb (e.g., I'd like to know more.)",
+    "Negative: Subject + would not like to / wouldn't like to + base verb (e.g., She wouldn't like to work late.)",
+    "Question: Would + subject + like to + base verb? (e.g., Would you like to have coffee?)",
+    "Short answers: Yes, I would. / No, I wouldn't. (NOT: Yes, I would like. / No, I would not like.)",
+    "'Would like to' is NEVER followed by -ing form. WRONG: I would like eating. RIGHT: I would like to eat.",
+    "After 'would', always use BASE FORM 'like' — never 'likes'. WRONG: She would likes. RIGHT: She would like.",
+    "For questions, use 'Would', NOT 'Does/Do'. WRONG: Does she would like to...? RIGHT: Would she like to...?",
+    "Politeness scale: want to (casual) < would like to (polite) < would love to (enthusiastic)",
+    "'Would like + noun' (without 'to') is also possible: I would like a glass of water. (verb 'drink/have' is implied)",
+    "In indirect speech: He said he would like to meet the CEO."
   ],
   "quickQuiz": [
     {
       "id": 1,
-      "hindi": "मैं यह जानना चाहूँगा।",
-      "answer": "I would like to know this."
+      "hindi": "मैं एक कप चाय लेना चाहूँगा।",
+      "answer": "I would like to have a cup of tea."
     },
     {
       "id": 2,
-      "hindi": "मैं आपसे मिलना चाहूँगा।",
-      "answer": "I would like to meet you."
+      "hindi": "क्या आप menu देखना चाहेंगे?",
+      "answer": "Would you like to see the menu?"
     },
     {
       "id": 3,
-      "hindi": "वह कुछ पूछना चाहेगी।",
-      "answer": "She would like to ask something."
+      "hindi": "वह overtime नहीं करना चाहेगी।",
+      "answer": "She would not like to work overtime."
     },
     {
       "id": 4,
-      "hindi": "हम एक coffee लेना चाहेंगे।",
-      "answer": "We would like to have a coffee."
+      "hindi": "हम आपको यह position offer करना चाहेंगे।",
+      "answer": "We would like to offer you this position."
     },
     {
       "id": 5,
-      "hindi": "वे travel करना चाहेंगे।",
-      "answer": "They would like to travel."
+      "hindi": "मैं अपना परिचय देना चाहूँगा।",
+      "answer": "I would like to introduce myself."
     },
     {
       "id": 6,
-      "hindi": "क्या आप कुछ खाना चाहेंगे?",
-      "answer": "Would you like to eat something?"
+      "hindi": "क्या वह इस project में शामिल होना चाहेगा?",
+      "answer": "Would he like to join this project?"
     },
     {
       "id": 7,
-      "hindi": "मैं इस बारे में और जानना चाहूँगा।",
-      "answer": "I would like to know more about this."
+      "hindi": "वे contract cancel नहीं करना चाहेंगे।",
+      "answer": "They would not like to cancel the contract."
     },
     {
       "id": 8,
-      "hindi": "वह अपनी राय देना चाहेगा।",
-      "answer": "He would like to give his opinion."
+      "hindi": "मैं अपनी communication skills improve करना चाहूँगा।",
+      "answer": "I would like to improve my communication skills."
     },
     {
       "id": 9,
-      "hindi": "हम यह मौका लेना चाहेंगे।",
-      "answer": "We would like to take this opportunity."
+      "hindi": "क्या आप हमारे office का tour लेना चाहेंगे?",
+      "answer": "Would you like to take a tour of our office?"
     },
     {
       "id": 10,
-      "hindi": "क्या आप बैठना चाहेंगे?",
-      "answer": "Would you like to sit down?"
+      "hindi": "उसने कहा कि वह director से मिलना चाहेगा।",
+      "answer": "He said he would like to meet the director."
+    },
+    {
+      "id": 11,
+      "hindi": "मैं एक savings account खोलना चाहूँगा।",
+      "answer": "I would like to open a savings account."
+    },
+    {
+      "id": 12,
+      "hindi": "क्या आप कुछ और जानना चाहेंगे?",
+      "answer": "Would you like to know anything else?"
     }
   ],
   "mustRememberRules": [
-    "'Would like to' is a polite, formal way of saying 'want to'",
-    "Same form for all subjects: would like to",
-    "Negative: would not like to / wouldn't like to",
-    "Question: Would + subject + like to...?"
+    "RULE 1: 'Would like to' + BASE VERB (never + ing form). I would like TO EAT (NOT: I would like eating).",
+    "RULE 2: 'Would' does not change for any subject. I/He/She/We/They — all use 'would like to'.",
+    "RULE 3: For questions: Would + subject + like to + base verb? (NOT: Do/Does + subject + would like?)",
+    "RULE 4: For negatives: Subject + would not / wouldn't + like to + base verb.",
+    "RULE 5: Short answers: Yes, I would. / No, I wouldn't. (Keep it short and natural.)",
+    "RULE 6: Contraction 'I'd like to' sounds more natural in speech. Use it confidently.",
+    "RULE 7: After 'would', the verb STAYS in base form — 'like', NOT 'likes' or 'liked'.",
+    "RULE 8: In professional/formal English, always prefer 'would like to' over just 'want to'."
   ]
 }

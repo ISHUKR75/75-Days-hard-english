@@ -1,343 +1,3243 @@
 {
   "day": 14,
-  "title": "Use of Let's",
-  "totalWords": 24,
+  "title": "Day 14 Vocabulary — Use of Let's (100 Words)",
+  "totalWords": 100,
+  "categories": [
+    "Action Verbs",
+    "Suggestion Verbs",
+    "Office/Professional Verbs",
+    "Social/Daily Life Verbs",
+    "Adjectives for Suggestions",
+    "Nouns related to Let's context"
+  ],
   "words": [
     {
       "id": 1,
-      "word": "start",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's start.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's start.",
-        "office": "Let's start.",
-        "interview": "Let's start."
+      "word": "suggest",
+      "hindi": "सुझाव देना",
+      "simpleMeaning": "to propose an idea or plan",
+      "ipa": "/səˈdʒest/",
+      "verbForms": {
+        "base": "suggest",
+        "s3": "suggests",
+        "ing": "suggesting",
+        "past": "suggested",
+        "pastParticiple": "suggested"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "propose",
+        "recommend",
+        "advise"
+      ],
+      "antonyms": [
+        "oppose",
+        "reject",
+        "disagree"
+      ],
+      "sentences": {
+        "daily": "I suggest we go for a walk.",
+        "office": "Let's suggest a new approach to the team.",
+        "interview": "I always suggest improvements politely.",
+        "business": "We suggest meeting the client next week.",
+        "formal": "Let us suggest a more efficient method.",
+        "informal": "Why don't we suggest a movie?"
+      },
+      "usageNote": "'Suggest' is often used with 'Let's' in making proposals: 'I suggest we.../ Let's...'",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 2,
-      "word": "something",
-      "hindi": "खाते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's eat something.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's eat something.",
-        "office": "Let's eat something.",
-        "interview": "Let's eat something."
+      "word": "plan",
+      "hindi": "योजना बनाना / योजना",
+      "simpleMeaning": "to decide in advance what to do",
+      "ipa": "/plæn/",
+      "verbForms": {
+        "base": "plan",
+        "s3": "plans",
+        "ing": "planning",
+        "past": "planned",
+        "pastParticiple": "planned"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "organize",
+        "arrange",
+        "prepare"
+      ],
+      "antonyms": [
+        "improvise",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let's plan our weekend trip.",
+        "office": "Let's plan the project timeline.",
+        "interview": "I always plan my answers before speaking.",
+        "business": "Let's plan our Q3 strategy.",
+        "formal": "Let us plan the annual event carefully.",
+        "informal": "Let's plan something fun for tonight!"
+      },
+      "usageNote": "'Plan' as a noun: 'We have a plan.' As a verb: 'Let's plan together.'",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 3,
-      "word": "park",
-      "hindi": "चलते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's go to the park.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's go to the park.",
-        "office": "Let's go to the park.",
-        "interview": "Let's go to the park."
+      "word": "meet",
+      "hindi": "मिलना",
+      "simpleMeaning": "to come together with someone",
+      "ipa": "/miːt/",
+      "verbForms": {
+        "base": "meet",
+        "s3": "meets",
+        "ing": "meeting",
+        "past": "met",
+        "pastParticiple": "met"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "encounter",
+        "gather",
+        "assemble"
+      ],
+      "antonyms": [
+        "separate",
+        "avoid",
+        "miss"
+      ],
+      "sentences": {
+        "daily": "Let's meet at the coffee shop.",
+        "office": "Let's meet at 10 AM to discuss this.",
+        "interview": "I look forward to meeting you.",
+        "business": "Let's meet the client on Friday.",
+        "formal": "Let us meet and resolve this matter.",
+        "informal": "Let's meet up this weekend!"
+      },
+      "usageNote": "Irregular: meet → met → met. 'Meet up' is informal for casual meetings.",
+      "cefrLevel": "A1",
+      "category": "Action Verbs"
     },
     {
       "id": 4,
-      "word": "movie",
-      "hindi": "देखते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's watch a movie.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's watch a movie.",
-        "office": "Let's watch a movie.",
-        "interview": "Let's watch a movie."
+      "word": "discuss",
+      "hindi": "चर्चा करना",
+      "simpleMeaning": "to talk about something in detail",
+      "ipa": "/dɪˈskʌs/",
+      "verbForms": {
+        "base": "discuss",
+        "s3": "discusses",
+        "ing": "discussing",
+        "past": "discussed",
+        "pastParticiple": "discussed"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "talk about",
+        "debate",
+        "examine"
+      ],
+      "antonyms": [
+        "ignore",
+        "avoid"
+      ],
+      "sentences": {
+        "daily": "Let's discuss this over dinner.",
+        "office": "Let's discuss the project status.",
+        "interview": "I am open to discussing my experience.",
+        "business": "Let's discuss the budget allocation.",
+        "formal": "Let us discuss this matter in detail.",
+        "informal": "Let's discuss it later, okay?"
+      },
+      "usageNote": "'Discuss about' is WRONG. Say 'discuss this' (not 'discuss about this').",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 5,
-      "word": "this",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's talk about this.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's talk about this.",
-        "office": "Let's talk about this.",
-        "interview": "Let's talk about this."
+      "word": "decide",
+      "hindi": "फैसला करना",
+      "simpleMeaning": "to make a choice after thinking",
+      "ipa": "/dɪˈsaɪd/",
+      "verbForms": {
+        "base": "decide",
+        "s3": "decides",
+        "ing": "deciding",
+        "past": "decided",
+        "pastParticiple": "decided"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "choose",
+        "determine",
+        "resolve"
+      ],
+      "antonyms": [
+        "hesitate",
+        "delay",
+        "postpone"
+      ],
+      "sentences": {
+        "daily": "Let's decide where to eat tonight.",
+        "office": "Let's decide on the final design.",
+        "interview": "I can decide quickly under pressure.",
+        "business": "Let's decide the pricing strategy.",
+        "formal": "Let us decide on a course of action.",
+        "informal": "Let's just decide already!"
+      },
+      "usageNote": "'Decide on' = make a specific choice. 'Decide to' = resolve to do something.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 6,
-      "word": "up",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's hurry up.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's hurry up.",
-        "office": "Let's hurry up.",
-        "interview": "Let's hurry up."
+      "word": "celebrate",
+      "hindi": "जश्न मनाना",
+      "simpleMeaning": "to do something enjoyable for a special occasion",
+      "ipa": "/ˈselɪbreɪt/",
+      "verbForms": {
+        "base": "celebrate",
+        "s3": "celebrates",
+        "ing": "celebrating",
+        "past": "celebrated",
+        "pastParticiple": "celebrated"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "enjoy",
+        "commemorate",
+        "cheer"
+      ],
+      "antonyms": [
+        "mourn",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let's celebrate your birthday together.",
+        "office": "Let's celebrate our team's success.",
+        "interview": "I like to celebrate small wins.",
+        "business": "Let's celebrate the contract signing.",
+        "formal": "Let us celebrate this achievement.",
+        "informal": "Let's celebrate tonight!"
+      },
+      "usageNote": "Used for positive occasions. 'Celebrate' is always followed by the event or person.",
+      "cefrLevel": "A2",
+      "category": "Social/Daily Life Verbs"
     },
     {
       "id": 7,
-      "word": "late",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's not be late.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's not be late.",
-        "office": "Let's not be late.",
-        "interview": "Let's not be late."
+      "word": "explore",
+      "hindi": "खोजना / तलाश करना",
+      "simpleMeaning": "to examine or travel to discover new things",
+      "ipa": "/ɪkˈsplɔːr/",
+      "verbForms": {
+        "base": "explore",
+        "s3": "explores",
+        "ing": "exploring",
+        "past": "explored",
+        "pastParticiple": "explored"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "discover",
+        "investigate",
+        "venture"
+      ],
+      "antonyms": [
+        "avoid",
+        "ignore",
+        "stay"
+      ],
+      "sentences": {
+        "daily": "Let's explore the new park nearby.",
+        "office": "Let's explore all possible solutions.",
+        "interview": "I love to explore new ideas.",
+        "business": "Let's explore new markets.",
+        "formal": "Let us explore the available options.",
+        "informal": "Let's explore the old city this Sunday!"
+      },
+      "usageNote": "'Explore' is used for both physical travel and abstract ideas.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
     },
     {
       "id": 8,
-      "word": "together",
-      "hindi": "पढ़ते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's study together.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's study together.",
-        "office": "Let's study together.",
-        "interview": "Let's study together."
+      "word": "collaborate",
+      "hindi": "मिलकर काम करना",
+      "simpleMeaning": "to work jointly with others",
+      "ipa": "/kəˈlæbəreɪt/",
+      "verbForms": {
+        "base": "collaborate",
+        "s3": "collaborates",
+        "ing": "collaborating",
+        "past": "collaborated",
+        "pastParticiple": "collaborated"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "cooperate",
+        "team up",
+        "partner"
+      ],
+      "antonyms": [
+        "compete",
+        "work alone"
+      ],
+      "sentences": {
+        "daily": "Let's collaborate on this school project.",
+        "office": "Let's collaborate across departments.",
+        "interview": "I enjoy collaborating with diverse teams.",
+        "business": "Let's collaborate with the vendor.",
+        "formal": "Let us collaborate to achieve our goals.",
+        "informal": "Let's collaborate — it'll be more fun!"
+      },
+      "usageNote": "More formal than 'work together'. Common in professional/business contexts.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
     },
     {
       "id": 9,
-      "word": "rest",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's take some rest.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's take some rest.",
-        "office": "Let's take some rest.",
-        "interview": "Let's take some rest."
+      "word": "resolve",
+      "hindi": "सुलझाना / हल करना",
+      "simpleMeaning": "to find a solution to a problem",
+      "ipa": "/rɪˈzɒlv/",
+      "verbForms": {
+        "base": "resolve",
+        "s3": "resolves",
+        "ing": "resolving",
+        "past": "resolved",
+        "pastParticiple": "resolved"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "solve",
+        "fix",
+        "settle"
+      ],
+      "antonyms": [
+        "worsen",
+        "complicate",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let's resolve this misunderstanding calmly.",
+        "office": "Let's resolve this issue before the client arrives.",
+        "interview": "I know how to resolve conflicts professionally.",
+        "business": "Let's resolve the billing dispute.",
+        "formal": "Let us resolve this matter amicably.",
+        "informal": "Let's just resolve it and move on."
+      },
+      "usageNote": "'Resolve a conflict/issue/dispute' are very common collocations.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
     },
     {
       "id": 10,
-      "word": "meeting",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's start the meeting.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's start the meeting.",
-        "office": "Let's start the meeting.",
-        "interview": "Let's start the meeting."
+      "word": "organize",
+      "hindi": "व्यवस्थित करना",
+      "simpleMeaning": "to arrange things in an orderly way",
+      "ipa": "/ˈɔːrɡənaɪz/",
+      "verbForms": {
+        "base": "organize",
+        "s3": "organizes",
+        "ing": "organizing",
+        "past": "organized",
+        "pastParticiple": "organized"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "arrange",
+        "plan",
+        "coordinate"
+      ],
+      "antonyms": [
+        "disorganize",
+        "mess up"
+      ],
+      "sentences": {
+        "daily": "Let's organize the kitchen together.",
+        "office": "Let's organize our files properly.",
+        "interview": "I organize my work with a priority list.",
+        "business": "Let's organize a client appreciation event.",
+        "formal": "Let us organize the proceedings systematically.",
+        "informal": "Let's organize a surprise party!"
+      },
+      "usageNote": "British spelling: 'organise'. Both are correct. 'Organize' is most common in professional settings.",
+      "cefrLevel": "A2",
+      "category": "Office/Professional Verbs"
     },
     {
       "id": 11,
-      "word": "together",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's work together.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's work together.",
-        "office": "Let's work together.",
-        "interview": "Let's work together."
+      "word": "improve",
+      "hindi": "सुधार करना",
+      "simpleMeaning": "to make something better",
+      "ipa": "/ɪmˈpruːv/",
+      "verbForms": {
+        "base": "improve",
+        "s3": "improves",
+        "ing": "improving",
+        "past": "improved",
+        "pastParticiple": "improved"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "enhance",
+        "develop",
+        "upgrade"
+      ],
+      "antonyms": [
+        "worsen",
+        "decline",
+        "deteriorate"
+      ],
+      "sentences": {
+        "daily": "Let's improve our daily habits.",
+        "office": "Let's improve our customer response time.",
+        "interview": "I am always looking to improve my skills.",
+        "business": "Let's improve our product quality.",
+        "formal": "Let us improve our processes.",
+        "informal": "Let's improve together!"
+      },
+      "usageNote": "'Improve on' = do better than a previous result. 'Improve' alone = make better.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 12,
-      "word": "new",
-      "hindi": "सीखते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's learn something new.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's learn something new.",
-        "office": "Let's learn something new.",
-        "interview": "Let's learn something new."
+      "word": "focus",
+      "hindi": "ध्यान देना / केंद्रित करना",
+      "simpleMeaning": "to concentrate on something",
+      "ipa": "/ˈfoʊkəs/",
+      "verbForms": {
+        "base": "focus",
+        "s3": "focuses",
+        "ing": "focusing",
+        "past": "focused",
+        "pastParticiple": "focused"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "concentrate",
+        "center",
+        "direct"
+      ],
+      "antonyms": [
+        "distract",
+        "scatter",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let's focus on our goal.",
+        "office": "Let's focus on today's agenda.",
+        "interview": "I can focus well under pressure.",
+        "business": "Let's focus on high-priority clients.",
+        "formal": "Let us focus our efforts on this objective.",
+        "informal": "Let's focus, guys!"
+      },
+      "usageNote": "'Focus on' is the correct preposition. 'Focus at' is incorrect.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 13,
-      "word": "plan",
-      "hindi": "बनाते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's make a plan.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's make a plan.",
-        "office": "Let's make a plan.",
-        "interview": "Let's make a plan."
+      "word": "prepare",
+      "hindi": "तैयारी करना",
+      "simpleMeaning": "to make ready in advance",
+      "ipa": "/prɪˈpeər/",
+      "verbForms": {
+        "base": "prepare",
+        "s3": "prepares",
+        "ing": "preparing",
+        "past": "prepared",
+        "pastParticiple": "prepared"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "ready",
+        "arrange",
+        "plan"
+      ],
+      "antonyms": [
+        "improvise",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "Let's prepare dinner together.",
+        "office": "Let's prepare a presentation for Monday.",
+        "interview": "I always prepare thoroughly for interviews.",
+        "business": "Let's prepare a proposal for the client.",
+        "formal": "Let us prepare a comprehensive report.",
+        "informal": "Let's prepare before it's too late!"
+      },
+      "usageNote": "'Prepare for' = get ready for an event. 'Prepare' someone = to train/ready them.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 14,
-      "word": "walk",
-      "hindi": "चलते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's go for a walk.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's go for a walk.",
-        "office": "Let's go for a walk.",
-        "interview": "Let's go for a walk."
+      "word": "review",
+      "hindi": "समीक्षा करना / दोबारा देखना",
+      "simpleMeaning": "to examine or assess something again",
+      "ipa": "/rɪˈvjuː/",
+      "verbForms": {
+        "base": "review",
+        "s3": "reviews",
+        "ing": "reviewing",
+        "past": "reviewed",
+        "pastParticiple": "reviewed"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "assess",
+        "evaluate",
+        "examine"
+      ],
+      "antonyms": [
+        "ignore",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "Let's review what we learned today.",
+        "office": "Let's review the contract before signing.",
+        "interview": "I review my performance regularly.",
+        "business": "Let's review our sales numbers.",
+        "formal": "Let us review the terms and conditions.",
+        "informal": "Let's review quickly before the test!"
+      },
+      "usageNote": "'Review' as noun: 'a performance review'. As verb: 'Let's review the plan.'",
+      "cefrLevel": "A2",
+      "category": "Office/Professional Verbs"
     },
     {
       "id": 15,
-      "word": "problem",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's solve this problem.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's solve this problem.",
-        "office": "Let's solve this problem.",
-        "interview": "Let's solve this problem."
+      "word": "share",
+      "hindi": "साझा करना",
+      "simpleMeaning": "to give part of something to others",
+      "ipa": "/ʃeər/",
+      "verbForms": {
+        "base": "share",
+        "s3": "shares",
+        "ing": "sharing",
+        "past": "shared",
+        "pastParticiple": "shared"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "distribute",
+        "divide",
+        "exchange"
+      ],
+      "antonyms": [
+        "keep",
+        "hoard",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "Let's share our lunch today.",
+        "office": "Let's share our updates in the standup.",
+        "interview": "I love sharing knowledge with my team.",
+        "business": "Let's share the workload equally.",
+        "formal": "Let us share the responsibilities fairly.",
+        "informal": "Let's share this pizza!"
+      },
+      "usageNote": "'Share with' = give to someone. 'Share' in digital context = to post/forward content.",
+      "cefrLevel": "A1",
+      "category": "Social/Daily Life Verbs"
     },
     {
       "id": 16,
-      "word": "tomorrow",
-      "hindi": "मिलते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's meet tomorrow.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's meet tomorrow.",
-        "office": "Let's meet tomorrow.",
-        "interview": "Let's meet tomorrow."
+      "word": "enjoy",
+      "hindi": "आनंद लेना",
+      "simpleMeaning": "to take pleasure in something",
+      "ipa": "/ɪnˈdʒɔɪ/",
+      "verbForms": {
+        "base": "enjoy",
+        "s3": "enjoys",
+        "ing": "enjoying",
+        "past": "enjoyed",
+        "pastParticiple": "enjoyed"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "relish",
+        "savor",
+        "appreciate"
+      ],
+      "antonyms": [
+        "dislike",
+        "hate",
+        "suffer"
+      ],
+      "sentences": {
+        "daily": "Let's enjoy the evening.",
+        "office": "Let's enjoy our team lunch.",
+        "interview": "I enjoy challenging assignments.",
+        "business": "Let's enjoy this milestone together.",
+        "formal": "Let us enjoy the fruits of our hard work.",
+        "informal": "Let's enjoy ourselves tonight!"
+      },
+      "usageNote": "'Enjoy' is always followed by a noun or gerund (ing), not 'to': Enjoy doing (✓), Enjoy to do (✗).",
+      "cefrLevel": "A1",
+      "category": "Social/Daily Life Verbs"
     },
     {
       "id": 17,
-      "word": "tea",
-      "hindi": "पीते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's have tea.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's have tea.",
-        "office": "Let's have tea.",
-        "interview": "Let's have tea."
+      "word": "relax",
+      "hindi": "आराम करना",
+      "simpleMeaning": "to rest and stop worrying",
+      "ipa": "/rɪˈlæks/",
+      "verbForms": {
+        "base": "relax",
+        "s3": "relaxes",
+        "ing": "relaxing",
+        "past": "relaxed",
+        "pastParticiple": "relaxed"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "rest",
+        "unwind",
+        "calm down"
+      ],
+      "antonyms": [
+        "stress",
+        "tense",
+        "worry"
+      ],
+      "sentences": {
+        "daily": "Let's relax this Sunday.",
+        "office": "Let's relax after the project submission.",
+        "interview": "I know how to relax between tasks.",
+        "business": "Let's relax the rules a little for this event.",
+        "formal": "Let us relax the timeline slightly.",
+        "informal": "Let's relax — it's the weekend!"
+      },
+      "usageNote": "'Relax' is often used informally as advice: 'Relax! Everything will be fine.'",
+      "cefrLevel": "A2",
+      "category": "Social/Daily Life Verbs"
     },
     {
       "id": 18,
-      "word": "now",
-      "hindi": "ना करें।",
-      "simpleMeaning": "Used in the sentence: \"Let's not decide right now.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's not decide right now.",
-        "office": "Let's not decide right now.",
-        "interview": "Let's not decide right now."
+      "word": "assume",
+      "hindi": "मान लेना",
+      "simpleMeaning": "to accept something as true without proof",
+      "ipa": "/əˈsjuːm/",
+      "verbForms": {
+        "base": "assume",
+        "s3": "assumes",
+        "ing": "assuming",
+        "past": "assumed",
+        "pastParticiple": "assumed"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "presume",
+        "suppose",
+        "guess"
+      ],
+      "antonyms": [
+        "verify",
+        "confirm",
+        "check"
+      ],
+      "sentences": {
+        "daily": "Let's not assume the worst.",
+        "office": "Let's not assume what the client wants — let's ask.",
+        "interview": "I never assume; I ask for clarification.",
+        "business": "Let's not assume the deal is closed.",
+        "formal": "Let us not assume without evidence.",
+        "informal": "Let's not assume things!"
+      },
+      "usageNote": "'Assume' = take for granted. 'Assume responsibility' = accept responsibility formally.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
     },
     {
       "id": 19,
-      "word": "home",
-      "hindi": "चलते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's go home.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's go home.",
-        "office": "Let's go home.",
-        "interview": "Let's go home."
+      "word": "confirm",
+      "hindi": "पुष्टि करना",
+      "simpleMeaning": "to make something definite; to verify",
+      "ipa": "/kənˈfɜːrm/",
+      "verbForms": {
+        "base": "confirm",
+        "s3": "confirms",
+        "ing": "confirming",
+        "past": "confirmed",
+        "pastParticiple": "confirmed"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "verify",
+        "validate",
+        "affirm"
+      ],
+      "antonyms": [
+        "deny",
+        "cancel",
+        "doubt"
+      ],
+      "sentences": {
+        "daily": "Let's confirm the time before going.",
+        "office": "Let's confirm the meeting details.",
+        "interview": "I always confirm important details in writing.",
+        "business": "Let's confirm the order with the supplier.",
+        "formal": "Let us confirm the arrangements.",
+        "informal": "Let's confirm the plan tonight."
+      },
+      "usageNote": "'Confirm' in business emails: 'I am writing to confirm...' is very standard.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
     },
     {
       "id": 20,
-      "word": "truth",
-      "hindi": "बोलते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's speak the truth.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's speak the truth.",
-        "office": "Let's speak the truth.",
-        "interview": "Let's speak the truth."
+      "word": "proceed",
+      "hindi": "आगे बढ़ना",
+      "simpleMeaning": "to continue or move forward with an action",
+      "ipa": "/prəˈsiːd/",
+      "verbForms": {
+        "base": "proceed",
+        "s3": "proceeds",
+        "ing": "proceeding",
+        "past": "proceeded",
+        "pastParticiple": "proceeded"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "continue",
+        "advance",
+        "go ahead"
+      ],
+      "antonyms": [
+        "stop",
+        "halt",
+        "pause"
+      ],
+      "sentences": {
+        "daily": "Let's proceed with our plan.",
+        "office": "Let's proceed to the next agenda item.",
+        "interview": "I know when to proceed and when to pause.",
+        "business": "Let's proceed with the contract.",
+        "formal": "Let us proceed in an orderly manner.",
+        "informal": "Let's proceed — no time to waste!"
+      },
+      "usageNote": "Very formal word. In meetings: 'Let's proceed' is professional and polished.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
     },
     {
       "id": 21,
-      "word": "now",
-      "hindi": "ना करें।",
-      "simpleMeaning": "Used in the sentence: \"Let's not fight now.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's not fight now.",
-        "office": "Let's not fight now.",
-        "interview": "Let's not fight now."
+      "word": "finish",
+      "hindi": "समाप्त करना",
+      "simpleMeaning": "to complete a task",
+      "ipa": "/ˈfɪnɪʃ/",
+      "verbForms": {
+        "base": "finish",
+        "s3": "finishes",
+        "ing": "finishing",
+        "past": "finished",
+        "pastParticiple": "finished"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "complete",
+        "conclude",
+        "wrap up"
+      ],
+      "antonyms": [
+        "start",
+        "begin",
+        "abandon"
+      ],
+      "sentences": {
+        "daily": "Let's finish this quickly.",
+        "office": "Let's finish the report before 5 PM.",
+        "interview": "I always finish tasks before deadlines.",
+        "business": "Let's finish the proposal today.",
+        "formal": "Let us finish what we started.",
+        "informal": "Let's finish eating first!"
+      },
+      "usageNote": "'Finish + ing': Let's finish eating. Always gerund after 'finish', not infinitive.",
+      "cefrLevel": "A1",
+      "category": "Action Verbs"
     },
     {
       "id": 22,
-      "word": "practice",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's practice.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's practice.",
-        "office": "Let's practice.",
-        "interview": "Let's practice."
+      "word": "accept",
+      "hindi": "स्वीकार करना",
+      "simpleMeaning": "to agree to receive or do something",
+      "ipa": "/əkˈsept/",
+      "verbForms": {
+        "base": "accept",
+        "s3": "accepts",
+        "ing": "accepting",
+        "past": "accepted",
+        "pastParticiple": "accepted"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "agree",
+        "receive",
+        "welcome"
+      ],
+      "antonyms": [
+        "refuse",
+        "reject",
+        "deny"
+      ],
+      "sentences": {
+        "daily": "Let's accept our mistakes and move on.",
+        "office": "Let's accept the client's feedback.",
+        "interview": "I accept challenges with a positive mindset.",
+        "business": "Let's accept this offer.",
+        "formal": "Let us accept the terms of the agreement.",
+        "informal": "Let's just accept it and move on."
+      },
+      "usageNote": "'Accept' vs 'except': Accept = to receive/agree. Except = excluding. Common confusion!",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 23,
-      "word": "positive",
-      "hindi": "सोचते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's think positive.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's think positive.",
-        "office": "Let's think positive.",
-        "interview": "Let's think positive."
+      "word": "avoid",
+      "hindi": "बचना / टालना",
+      "simpleMeaning": "to stay away from someone or something",
+      "ipa": "/əˈvɔɪd/",
+      "verbForms": {
+        "base": "avoid",
+        "s3": "avoids",
+        "ing": "avoiding",
+        "past": "avoided",
+        "pastParticiple": "avoided"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "evade",
+        "escape",
+        "skip"
+      ],
+      "antonyms": [
+        "face",
+        "confront",
+        "seek"
+      ],
+      "sentences": {
+        "daily": "Let's avoid junk food this week.",
+        "office": "Let's avoid unnecessary meetings.",
+        "interview": "I avoid giving vague answers.",
+        "business": "Let's avoid delays in delivery.",
+        "formal": "Let us avoid any further complications.",
+        "informal": "Let's avoid that topic — it gets heated!"
+      },
+      "usageNote": "'Avoid + ing': Let's avoid wasting time. Always gerund after 'avoid'.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
     },
     {
       "id": 24,
-      "word": "other",
-      "hindi": "करते हैं।",
-      "simpleMeaning": "Used in the sentence: \"Let's help each other.\"",
-      "ipa": "",
-      "sentences": {
-        "daily": "Let's help each other.",
-        "office": "Let's help each other.",
-        "interview": "Let's help each other."
+      "word": "announce",
+      "hindi": "घोषणा करना",
+      "simpleMeaning": "to make something known publicly",
+      "ipa": "/əˈnaʊns/",
+      "verbForms": {
+        "base": "announce",
+        "s3": "announces",
+        "ing": "announcing",
+        "past": "announced",
+        "pastParticiple": "announced"
       },
-      "usageNote": "Appears with Use of Let's",
-      "cefrLevel": "A2-B1"
+      "synonyms": [
+        "declare",
+        "proclaim",
+        "state"
+      ],
+      "antonyms": [
+        "conceal",
+        "hide",
+        "suppress"
+      ],
+      "sentences": {
+        "daily": "Let's announce the good news together.",
+        "office": "Let's announce the new policy tomorrow.",
+        "interview": "I was asked to announce the results.",
+        "business": "Let's announce the product launch date.",
+        "formal": "Let us announce the winners.",
+        "informal": "Let's announce our engagement!"
+      },
+      "usageNote": "Used for formal public statements. 'Announce to' = tell a group. 'Announce that' = introduce a fact.",
+      "cefrLevel": "B1",
+      "category": "Social/Daily Life Verbs"
+    },
+    {
+      "id": 25,
+      "word": "appreciate",
+      "hindi": "सराहना करना",
+      "simpleMeaning": "to recognize the value of something",
+      "ipa": "/əˈpriːʃieɪt/",
+      "verbForms": {
+        "base": "appreciate",
+        "s3": "appreciates",
+        "ing": "appreciating",
+        "past": "appreciated",
+        "pastParticiple": "appreciated"
+      },
+      "synonyms": [
+        "value",
+        "recognize",
+        "acknowledge"
+      ],
+      "antonyms": [
+        "dismiss",
+        "undervalue",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let's appreciate what we have.",
+        "office": "Let's appreciate our team's hard work.",
+        "interview": "I appreciate constructive feedback.",
+        "business": "Let's appreciate our long-term clients.",
+        "formal": "Let us appreciate the efforts of all involved.",
+        "informal": "Let's appreciate each other more!"
+      },
+      "usageNote": "'I appreciate it' is a polite way to say thank you. Very useful in professional English.",
+      "cefrLevel": "B1",
+      "category": "Social/Daily Life Verbs"
+    },
+    {
+      "id": 26,
+      "word": "commit",
+      "hindi": "प्रतिबद्ध होना / वचन देना",
+      "simpleMeaning": "to pledge to do something; to carry out an action",
+      "ipa": "/kəˈmɪt/",
+      "verbForms": {
+        "base": "commit",
+        "s3": "commits",
+        "ing": "committing",
+        "past": "committed",
+        "pastParticiple": "committed"
+      },
+      "synonyms": [
+        "pledge",
+        "dedicate",
+        "promise"
+      ],
+      "antonyms": [
+        "abandon",
+        "withdraw",
+        "quit"
+      ],
+      "sentences": {
+        "daily": "Let's commit to waking up early.",
+        "office": "Let's commit to this deadline.",
+        "interview": "I commit fully to any task assigned.",
+        "business": "Let's commit to this partnership.",
+        "formal": "Let us commit to excellence.",
+        "informal": "Let's commit and not back out this time!"
+      },
+      "usageNote": "'Commit to + noun/gerund': commit to improvement / commit to improving.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 27,
+      "word": "challenge",
+      "hindi": "चुनौती देना / चुनौती",
+      "simpleMeaning": "to question or test something; a difficult task",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "verbForms": {
+        "base": "challenge",
+        "s3": "challenges",
+        "ing": "challenging",
+        "past": "challenged",
+        "pastParticiple": "challenged"
+      },
+      "synonyms": [
+        "test",
+        "question",
+        "defy"
+      ],
+      "antonyms": [
+        "accept",
+        "support",
+        "agree"
+      ],
+      "sentences": {
+        "daily": "Let's challenge ourselves to do better.",
+        "office": "Let's challenge the old way of doing things.",
+        "interview": "I welcome being challenged.",
+        "business": "Let's challenge our competitors.",
+        "formal": "Let us challenge the assumptions.",
+        "informal": "Let's challenge each other — who's faster?"
+      },
+      "usageNote": "'Challenge' as noun: 'It's a big challenge.' As verb: 'Let's challenge our limits.'",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 28,
+      "word": "gather",
+      "hindi": "इकट्ठा होना / जमा करना",
+      "simpleMeaning": "to come together or collect things",
+      "ipa": "/ˈɡæðər/",
+      "verbForms": {
+        "base": "gather",
+        "s3": "gathers",
+        "ing": "gathering",
+        "past": "gathered",
+        "pastParticiple": "gathered"
+      },
+      "synonyms": [
+        "collect",
+        "assemble",
+        "meet"
+      ],
+      "antonyms": [
+        "scatter",
+        "disperse",
+        "separate"
+      ],
+      "sentences": {
+        "daily": "Let's gather at the park.",
+        "office": "Let's gather all the data first.",
+        "interview": "I can gather information quickly.",
+        "business": "Let's gather feedback from customers.",
+        "formal": "Let us gather the necessary documents.",
+        "informal": "Let's gather everyone and start the party!"
+      },
+      "usageNote": "'Gather' is used for both people (assemble) and things (collect).",
+      "cefrLevel": "A2",
+      "category": "Social/Daily Life Verbs"
+    },
+    {
+      "id": 29,
+      "word": "launch",
+      "hindi": "शुरू करना / लॉन्च करना",
+      "simpleMeaning": "to start something new; to introduce a product",
+      "ipa": "/lɔːntʃ/",
+      "verbForms": {
+        "base": "launch",
+        "s3": "launches",
+        "ing": "launching",
+        "past": "launched",
+        "pastParticiple": "launched"
+      },
+      "synonyms": [
+        "introduce",
+        "start",
+        "release"
+      ],
+      "antonyms": [
+        "withdraw",
+        "cancel",
+        "end"
+      ],
+      "sentences": {
+        "daily": "Let's launch the new app today.",
+        "office": "Let's launch the marketing campaign.",
+        "interview": "I have experience in launching new products.",
+        "business": "Let's launch in the metro cities first.",
+        "formal": "Let us launch this initiative officially.",
+        "informal": "Let's launch it — we've been waiting long enough!"
+      },
+      "usageNote": "'Product launch', 'app launch', 'campaign launch' — very common in business English.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 30,
+      "word": "delegate",
+      "hindi": "सौंपना / प्रतिनिधि नियुक्त करना",
+      "simpleMeaning": "to assign a task to someone else",
+      "ipa": "/ˈdelɪɡeɪt/",
+      "verbForms": {
+        "base": "delegate",
+        "s3": "delegates",
+        "ing": "delegating",
+        "past": "delegated",
+        "pastParticiple": "delegated"
+      },
+      "synonyms": [
+        "assign",
+        "entrust",
+        "pass on"
+      ],
+      "antonyms": [
+        "micromanage",
+        "hold",
+        "retain"
+      ],
+      "sentences": {
+        "daily": "Let's delegate the cooking today.",
+        "office": "Let's delegate this task to Priya.",
+        "interview": "I know when to delegate and when to do it myself.",
+        "business": "Let's delegate responsibilities clearly.",
+        "formal": "Let us delegate tasks according to expertise.",
+        "informal": "Let's delegate some work — we're overloaded!"
+      },
+      "usageNote": "Good managers delegate. 'Delegate to' = assign task to someone: 'delegate to the team'.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 31,
+      "word": "motivate",
+      "hindi": "प्रेरित करना",
+      "simpleMeaning": "to give someone a reason to do something",
+      "ipa": "/ˈmoʊtɪveɪt/",
+      "verbForms": {
+        "base": "motivate",
+        "s3": "motivates",
+        "ing": "motivating",
+        "past": "motivated",
+        "pastParticiple": "motivated"
+      },
+      "synonyms": [
+        "inspire",
+        "encourage",
+        "drive"
+      ],
+      "antonyms": [
+        "discourage",
+        "demotivate",
+        "demoralize"
+      ],
+      "sentences": {
+        "daily": "Let's motivate each other.",
+        "office": "Let's motivate our junior staff.",
+        "interview": "I can motivate a team in tough times.",
+        "business": "Let's motivate customers with better offers.",
+        "formal": "Let us motivate our colleagues.",
+        "informal": "Let's motivate ourselves first!"
+      },
+      "usageNote": "'Motivated' (adjective): a motivated employee. 'Motivating' (adjective): a motivating speech.",
+      "cefrLevel": "B1",
+      "category": "Social/Daily Life Verbs"
+    },
+    {
+      "id": 32,
+      "word": "negotiate",
+      "hindi": "बातचीत करना / समझौता करना",
+      "simpleMeaning": "to reach an agreement through discussion",
+      "ipa": "/nɪˈɡoʊʃieɪt/",
+      "verbForms": {
+        "base": "negotiate",
+        "s3": "negotiates",
+        "ing": "negotiating",
+        "past": "negotiated",
+        "pastParticiple": "negotiated"
+      },
+      "synonyms": [
+        "bargain",
+        "discuss",
+        "mediate"
+      ],
+      "antonyms": [
+        "demand",
+        "force",
+        "refuse"
+      ],
+      "sentences": {
+        "daily": "Let's negotiate the price.",
+        "office": "Let's negotiate the terms with the vendor.",
+        "interview": "I am skilled at negotiating.",
+        "business": "Let's negotiate a better deal.",
+        "formal": "Let us negotiate in good faith.",
+        "informal": "Let's negotiate — nobody needs to lose!"
+      },
+      "usageNote": "'Negotiate a deal/contract/price/salary' are common collocations.",
+      "cefrLevel": "B2",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 33,
+      "word": "invite",
+      "hindi": "आमंत्रित करना",
+      "simpleMeaning": "to ask someone to come or participate",
+      "ipa": "/ɪnˈvaɪt/",
+      "verbForms": {
+        "base": "invite",
+        "s3": "invites",
+        "ing": "inviting",
+        "past": "invited",
+        "pastParticiple": "invited"
+      },
+      "synonyms": [
+        "call",
+        "welcome",
+        "ask"
+      ],
+      "antonyms": [
+        "exclude",
+        "reject",
+        "dismiss"
+      ],
+      "sentences": {
+        "daily": "Let's invite our neighbors for dinner.",
+        "office": "Let's invite the new team to the workshop.",
+        "interview": "I was invited to present my ideas.",
+        "business": "Let's invite the client for a demo.",
+        "formal": "Let us invite all stakeholders.",
+        "informal": "Let's invite everyone and make it a party!"
+      },
+      "usageNote": "'Invite to' = invite to an event/place. 'Invite for' = invite for a meal/occasion.",
+      "cefrLevel": "A2",
+      "category": "Social/Daily Life Verbs"
+    },
+    {
+      "id": 34,
+      "word": "volunteer",
+      "hindi": "स्वेच्छा से काम करना",
+      "simpleMeaning": "to offer to do something without being asked",
+      "ipa": "/ˌvɒlənˈtɪər/",
+      "verbForms": {
+        "base": "volunteer",
+        "s3": "volunteers",
+        "ing": "volunteering",
+        "past": "volunteered",
+        "pastParticiple": "volunteered"
+      },
+      "synonyms": [
+        "offer",
+        "contribute",
+        "serve"
+      ],
+      "antonyms": [
+        "refuse",
+        "abstain",
+        "decline"
+      ],
+      "sentences": {
+        "daily": "Let's volunteer at the local charity.",
+        "office": "Let's volunteer for the new project.",
+        "interview": "I always volunteer for challenging assignments.",
+        "business": "Let's volunteer our team for this initiative.",
+        "formal": "Let us volunteer our services.",
+        "informal": "Let's volunteer — it feels good!"
+      },
+      "usageNote": "'Volunteer for' = offer to do a specific task. Noun: a volunteer at an NGO.",
+      "cefrLevel": "B1",
+      "category": "Social/Daily Life Verbs"
+    },
+    {
+      "id": 35,
+      "word": "simplify",
+      "hindi": "सरल बनाना",
+      "simpleMeaning": "to make something easier to understand or do",
+      "ipa": "/ˈsɪmplɪfaɪ/",
+      "verbForms": {
+        "base": "simplify",
+        "s3": "simplifies",
+        "ing": "simplifying",
+        "past": "simplified",
+        "pastParticiple": "simplified"
+      },
+      "synonyms": [
+        "clarify",
+        "streamline",
+        "ease"
+      ],
+      "antonyms": [
+        "complicate",
+        "confuse",
+        "elaborate"
+      ],
+      "sentences": {
+        "daily": "Let's simplify the recipe.",
+        "office": "Let's simplify the approval process.",
+        "interview": "I always simplify complex ideas.",
+        "business": "Let's simplify our pricing structure.",
+        "formal": "Let us simplify the procedure.",
+        "informal": "Let's simplify things — it's getting too complicated!"
+      },
+      "usageNote": "'Simplify' is very useful in office communication. Opposite: 'complicate'.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 36,
+      "word": "reconsider",
+      "hindi": "पुनर्विचार करना",
+      "simpleMeaning": "to think again about a previous decision",
+      "ipa": "/ˌriːkənˈsɪdər/",
+      "verbForms": {
+        "base": "reconsider",
+        "s3": "reconsiders",
+        "ing": "reconsidering",
+        "past": "reconsidered",
+        "pastParticiple": "reconsidered"
+      },
+      "synonyms": [
+        "rethink",
+        "review",
+        "reassess"
+      ],
+      "antonyms": [
+        "confirm",
+        "finalize",
+        "decide"
+      ],
+      "sentences": {
+        "daily": "Let's reconsider our plan.",
+        "office": "Let's reconsider the strategy before presenting.",
+        "interview": "I always reconsider before giving a final answer.",
+        "business": "Let's reconsider the terms of the deal.",
+        "formal": "Let us reconsider our approach.",
+        "informal": "Let's reconsider — I'm not sure it's the best idea."
+      },
+      "usageNote": "'Reconsider' suggests changing your mind. Often used diplomatically in business.",
+      "cefrLevel": "B2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 37,
+      "word": "collaborate",
+      "hindi": "सहयोग करना",
+      "simpleMeaning": "to work jointly with others",
+      "ipa": "/kəˈlæbəreɪt/",
+      "verbForms": {
+        "base": "collaborate",
+        "s3": "collaborates",
+        "ing": "collaborating",
+        "past": "collaborated",
+        "pastParticiple": "collaborated"
+      },
+      "synonyms": [
+        "cooperate",
+        "partner",
+        "team up"
+      ],
+      "antonyms": [
+        "compete",
+        "work alone"
+      ],
+      "sentences": {
+        "daily": "Let's collaborate on this art project.",
+        "office": "Let's collaborate across departments.",
+        "interview": "I thrive when I collaborate.",
+        "business": "Let's collaborate with the agency.",
+        "formal": "Let us collaborate for mutual benefit.",
+        "informal": "Let's collaborate — two heads are better than one!"
+      },
+      "usageNote": "'Collaborate with someone on something.' More formal than 'work together'.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 38,
+      "word": "wrap up",
+      "hindi": "समाप्त करना / लपेटना",
+      "simpleMeaning": "to finish or conclude something",
+      "ipa": "/ræp ʌp/",
+      "verbForms": {
+        "base": "wrap up",
+        "s3": "wraps up",
+        "ing": "wrapping up",
+        "past": "wrapped up",
+        "pastParticiple": "wrapped up"
+      },
+      "synonyms": [
+        "finish",
+        "conclude",
+        "end"
+      ],
+      "antonyms": [
+        "start",
+        "begin",
+        "prolong"
+      ],
+      "sentences": {
+        "daily": "Let's wrap up this discussion.",
+        "office": "Let's wrap up the meeting in 5 minutes.",
+        "interview": "Let me wrap up my answer.",
+        "business": "Let's wrap up the presentation.",
+        "formal": "Let us wrap up the proceedings.",
+        "informal": "Let's wrap up and go eat!"
+      },
+      "usageNote": "'Wrap up' is a phrasal verb. Very common in meetings and presentations.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 39,
+      "word": "rush",
+      "hindi": "जल्दबाजी करना",
+      "simpleMeaning": "to move or do something very quickly",
+      "ipa": "/rʌʃ/",
+      "verbForms": {
+        "base": "rush",
+        "s3": "rushes",
+        "ing": "rushing",
+        "past": "rushed",
+        "pastParticiple": "rushed"
+      },
+      "synonyms": [
+        "hurry",
+        "hasten",
+        "speed"
+      ],
+      "antonyms": [
+        "slow down",
+        "take time",
+        "delay"
+      ],
+      "sentences": {
+        "daily": "Let's not rush — we have time.",
+        "office": "Let's not rush this decision.",
+        "interview": "I don't rush my answers; I think first.",
+        "business": "Let's not rush the client into signing.",
+        "formal": "Let us not rush this process.",
+        "informal": "Let's not rush — quality matters!"
+      },
+      "usageNote": "'Rush into' = do hastily: 'Don't rush into a decision.' 'Rush hour' = peak traffic time.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 40,
+      "word": "prioritize",
+      "hindi": "प्राथमिकता देना",
+      "simpleMeaning": "to put tasks in order of importance",
+      "ipa": "/praɪˈɒrɪtaɪz/",
+      "verbForms": {
+        "base": "prioritize",
+        "s3": "prioritizes",
+        "ing": "prioritizing",
+        "past": "prioritized",
+        "pastParticiple": "prioritized"
+      },
+      "synonyms": [
+        "rank",
+        "order",
+        "focus on"
+      ],
+      "antonyms": [
+        "ignore",
+        "neglect",
+        "sideline"
+      ],
+      "sentences": {
+        "daily": "Let's prioritize our tasks for the day.",
+        "office": "Let's prioritize the urgent client requests.",
+        "interview": "I know how to prioritize effectively.",
+        "business": "Let's prioritize high-value customers.",
+        "formal": "Let us prioritize based on impact.",
+        "informal": "Let's prioritize — we can't do everything at once!"
+      },
+      "usageNote": "'Prioritize' is essential in professional English. 'High-priority task' is a common phrase.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 41,
+      "word": "suggestion",
+      "hindi": "सुझाव",
+      "simpleMeaning": "an idea or proposal put forward for consideration",
+      "ipa": "/səˈdʒestʃən/",
+      "verbForms": null,
+      "synonyms": [
+        "proposal",
+        "recommendation",
+        "idea"
+      ],
+      "antonyms": [
+        "rejection",
+        "refusal"
+      ],
+      "sentences": {
+        "daily": "Let's take everyone's suggestions.",
+        "office": "Do you have any suggestions?",
+        "interview": "I always welcome suggestions.",
+        "business": "Let's evaluate all the suggestions.",
+        "formal": "Please submit your suggestions.",
+        "informal": "Any suggestions for the weekend?"
+      },
+      "usageNote": "'Make a suggestion' is the standard collocation. 'Give a suggestion' is also used.",
+      "cefrLevel": "A2",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 42,
+      "word": "proposal",
+      "hindi": "प्रस्ताव",
+      "simpleMeaning": "a formal plan or suggestion",
+      "ipa": "/prəˈpoʊzəl/",
+      "verbForms": null,
+      "synonyms": [
+        "plan",
+        "offer",
+        "suggestion"
+      ],
+      "antonyms": [
+        "rejection",
+        "refusal",
+        "veto"
+      ],
+      "sentences": {
+        "daily": "Let's think about this proposal.",
+        "office": "Let's submit the proposal by Friday.",
+        "interview": "I prepared a proposal for the new role.",
+        "business": "Let's send the proposal to the client.",
+        "formal": "Let us review the proposal carefully.",
+        "informal": "So what's your proposal?"
+      },
+      "usageNote": "'Business proposal', 'project proposal', 'marriage proposal' — context changes meaning.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 43,
+      "word": "agreement",
+      "hindi": "समझौता / सहमति",
+      "simpleMeaning": "a shared decision or contract between parties",
+      "ipa": "/əˈɡriːmənt/",
+      "verbForms": null,
+      "synonyms": [
+        "deal",
+        "contract",
+        "consensus"
+      ],
+      "antonyms": [
+        "disagreement",
+        "conflict",
+        "dispute"
+      ],
+      "sentences": {
+        "daily": "Let's reach an agreement.",
+        "office": "Let's finalize the agreement.",
+        "interview": "I always ensure mutual agreement.",
+        "business": "Let's sign the agreement today.",
+        "formal": "Let us draw up a formal agreement.",
+        "informal": "Let's find an agreement we're both happy with."
+      },
+      "usageNote": "'Come to an agreement', 'reach an agreement', 'sign an agreement' are all common.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 44,
+      "word": "cooperation",
+      "hindi": "सहयोग",
+      "simpleMeaning": "working together toward a common goal",
+      "ipa": "/koʊˌɒpəˈreɪʃən/",
+      "verbForms": null,
+      "synonyms": [
+        "teamwork",
+        "collaboration",
+        "partnership"
+      ],
+      "antonyms": [
+        "competition",
+        "conflict",
+        "rivalry"
+      ],
+      "sentences": {
+        "daily": "Let's work with full cooperation.",
+        "office": "Thank you for your cooperation.",
+        "interview": "Cooperation is key in my work style.",
+        "business": "Let's strengthen our cooperation.",
+        "formal": "Let us proceed with full cooperation.",
+        "informal": "Let's have some cooperation here, please!"
+      },
+      "usageNote": "'Your cooperation is appreciated' is a very polite, formal phrase.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 45,
+      "word": "efficient",
+      "hindi": "कुशल / दक्ष",
+      "simpleMeaning": "doing something well without wasting time or resources",
+      "ipa": "/ɪˈfɪʃənt/",
+      "verbForms": null,
+      "synonyms": [
+        "effective",
+        "productive",
+        "competent"
+      ],
+      "antonyms": [
+        "inefficient",
+        "wasteful",
+        "slow"
+      ],
+      "sentences": {
+        "daily": "Let's find a more efficient way to do this.",
+        "office": "Let's be more efficient with our time.",
+        "interview": "I am an efficient worker.",
+        "business": "Let's design an efficient workflow.",
+        "formal": "Let us adopt a more efficient process.",
+        "informal": "Let's be efficient — we're running out of time!"
+      },
+      "usageNote": "'Efficient' = good use of resources. 'Effective' = achieves the goal. Both are important.",
+      "cefrLevel": "B1",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 46,
+      "word": "productive",
+      "hindi": "उत्पादक",
+      "simpleMeaning": "achieving a lot in a short time",
+      "ipa": "/prəˈdʌktɪv/",
+      "verbForms": null,
+      "synonyms": [
+        "effective",
+        "fruitful",
+        "useful"
+      ],
+      "antonyms": [
+        "unproductive",
+        "wasteful",
+        "idle"
+      ],
+      "sentences": {
+        "daily": "Let's make today productive.",
+        "office": "Let's have a productive meeting.",
+        "interview": "I am very productive when I have clear goals.",
+        "business": "Let's ensure a productive partnership.",
+        "formal": "Let us make this a productive session.",
+        "informal": "Let's be productive today — no distractions!"
+      },
+      "usageNote": "'Productive' often collocates with 'day', 'meeting', 'session', 'conversation'.",
+      "cefrLevel": "B1",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 47,
+      "word": "honest",
+      "hindi": "ईमानदार",
+      "simpleMeaning": "truthful and sincere",
+      "ipa": "/ˈɒnɪst/",
+      "verbForms": null,
+      "synonyms": [
+        "truthful",
+        "sincere",
+        "frank"
+      ],
+      "antonyms": [
+        "dishonest",
+        "deceitful",
+        "fake"
+      ],
+      "sentences": {
+        "daily": "Let's be honest with each other.",
+        "office": "Let's be honest about the challenges.",
+        "interview": "I am always honest in my work.",
+        "business": "Let's be honest about the risks.",
+        "formal": "Let us be transparent and honest.",
+        "informal": "Let's be honest — that didn't go well!"
+      },
+      "usageNote": "'Honest' is used in 'be honest', 'stay honest', 'honest feedback' — common in professional English.",
+      "cefrLevel": "A2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 48,
+      "word": "practical",
+      "hindi": "व्यावहारिक",
+      "simpleMeaning": "concerned with real situations rather than theories",
+      "ipa": "/ˈpræktɪkəl/",
+      "verbForms": null,
+      "synonyms": [
+        "realistic",
+        "workable",
+        "feasible"
+      ],
+      "antonyms": [
+        "impractical",
+        "theoretical",
+        "unrealistic"
+      ],
+      "sentences": {
+        "daily": "Let's be practical about this.",
+        "office": "Let's take a practical approach.",
+        "interview": "I offer practical solutions.",
+        "business": "Let's think practically.",
+        "formal": "Let us be practical in our planning.",
+        "informal": "Let's be practical — we don't have that budget!"
+      },
+      "usageNote": "'Practical' vs 'practice': practical (adj), practice (noun/verb). Common confusion.",
+      "cefrLevel": "B1",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 49,
+      "word": "creative",
+      "hindi": "रचनात्मक",
+      "simpleMeaning": "having or showing original ideas",
+      "ipa": "/kriˈeɪtɪv/",
+      "verbForms": null,
+      "synonyms": [
+        "innovative",
+        "imaginative",
+        "original"
+      ],
+      "antonyms": [
+        "uncreative",
+        "boring",
+        "conventional"
+      ],
+      "sentences": {
+        "daily": "Let's be more creative with our plans.",
+        "office": "Let's have a creative brainstorming session.",
+        "interview": "I am a creative problem-solver.",
+        "business": "Let's think creatively about marketing.",
+        "formal": "Let us apply creative thinking.",
+        "informal": "Let's get creative with this project!"
+      },
+      "usageNote": "'Creative' collocates with 'thinking', 'solution', 'approach', 'team'.",
+      "cefrLevel": "A2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 50,
+      "word": "transparent",
+      "hindi": "पारदर्शी",
+      "simpleMeaning": "open and honest; easy to understand",
+      "ipa": "/trænsˈpærənt/",
+      "verbForms": null,
+      "synonyms": [
+        "open",
+        "clear",
+        "honest"
+      ],
+      "antonyms": [
+        "secretive",
+        "opaque",
+        "unclear"
+      ],
+      "sentences": {
+        "daily": "Let's be transparent about our plans.",
+        "office": "Let's maintain transparent communication.",
+        "interview": "I believe in transparent work culture.",
+        "business": "Let's keep our pricing transparent.",
+        "formal": "Let us be transparent in our dealings.",
+        "informal": "Let's just be transparent with each other."
+      },
+      "usageNote": "'Transparency' is the noun. 'Transparent communication' is a key phrase in business.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 51,
+      "word": "approach",
+      "hindi": "तरीका / नजदीक जाना",
+      "simpleMeaning": "a way of dealing with something; to move near",
+      "ipa": "/əˈproʊtʃ/",
+      "verbForms": {
+        "base": "approach",
+        "s3": "approaches",
+        "ing": "approaching",
+        "past": "approached",
+        "pastParticiple": "approached"
+      },
+      "synonyms": [
+        "method",
+        "strategy",
+        "tackle"
+      ],
+      "antonyms": [
+        "avoid",
+        "retreat"
+      ],
+      "sentences": {
+        "daily": "Let's approach this differently.",
+        "office": "Let's approach the client carefully.",
+        "interview": "My approach is always methodical.",
+        "business": "Let's approach the problem from a new angle.",
+        "formal": "Let us approach this matter with care.",
+        "informal": "Let's approach it step by step."
+      },
+      "usageNote": "'Approach' as noun: 'a new approach'. As verb: 'approach the problem'.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 52,
+      "word": "acknowledge",
+      "hindi": "स्वीकार करना / मान्यता देना",
+      "simpleMeaning": "to accept or admit the truth of something",
+      "ipa": "/əkˈnɒlɪdʒ/",
+      "verbForms": {
+        "base": "acknowledge",
+        "s3": "acknowledges",
+        "ing": "acknowledging",
+        "past": "acknowledged",
+        "pastParticiple": "acknowledged"
+      },
+      "synonyms": [
+        "recognize",
+        "admit",
+        "confirm"
+      ],
+      "antonyms": [
+        "deny",
+        "ignore",
+        "dismiss"
+      ],
+      "sentences": {
+        "daily": "Let's acknowledge our mistakes.",
+        "office": "Let's acknowledge Priya's hard work.",
+        "interview": "I acknowledge areas where I need to improve.",
+        "business": "Let's acknowledge the customer's complaint.",
+        "formal": "Let us acknowledge the contribution of all.",
+        "informal": "Let's acknowledge the elephant in the room!"
+      },
+      "usageNote": "'Acknowledge' in emails: 'I acknowledge receipt of your message.' Very professional.",
+      "cefrLevel": "B2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 53,
+      "word": "summarize",
+      "hindi": "सारांश बताना",
+      "simpleMeaning": "to state the main points briefly",
+      "ipa": "/ˈsʌməraɪz/",
+      "verbForms": {
+        "base": "summarize",
+        "s3": "summarizes",
+        "ing": "summarizing",
+        "past": "summarized",
+        "pastParticiple": "summarized"
+      },
+      "synonyms": [
+        "recap",
+        "outline",
+        "brief"
+      ],
+      "antonyms": [
+        "expand",
+        "elaborate",
+        "detail"
+      ],
+      "sentences": {
+        "daily": "Let's summarize what we discussed.",
+        "office": "Let's summarize the meeting points.",
+        "interview": "I always summarize my key strengths.",
+        "business": "Let's summarize our offer for the client.",
+        "formal": "Let us summarize the proceedings.",
+        "informal": "Let's summarize quickly and move on."
+      },
+      "usageNote": "'Summarize' at end of meetings: 'Let's summarize action items.' Very useful.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 54,
+      "word": "brainstorm",
+      "hindi": "विचार-मंथन करना",
+      "simpleMeaning": "to think freely and generate many ideas",
+      "ipa": "/ˈbreɪnstɔːrm/",
+      "verbForms": {
+        "base": "brainstorm",
+        "s3": "brainstorms",
+        "ing": "brainstorming",
+        "past": "brainstormed",
+        "pastParticiple": "brainstormed"
+      },
+      "synonyms": [
+        "ideate",
+        "think creatively",
+        "generate ideas"
+      ],
+      "antonyms": [
+        "dismiss",
+        "reject ideas"
+      ],
+      "sentences": {
+        "daily": "Let's brainstorm solutions.",
+        "office": "Let's have a brainstorming session.",
+        "interview": "I love brainstorming new approaches.",
+        "business": "Let's brainstorm the campaign theme.",
+        "formal": "Let us brainstorm possible strategies.",
+        "informal": "Let's brainstorm — all ideas welcome!"
+      },
+      "usageNote": "'Brainstorming session' is very common in workplaces. No idea is bad in brainstorming.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 55,
+      "word": "communicate",
+      "hindi": "संवाद करना",
+      "simpleMeaning": "to share information with others",
+      "ipa": "/kəˈmjuːnɪkeɪt/",
+      "verbForms": {
+        "base": "communicate",
+        "s3": "communicates",
+        "ing": "communicating",
+        "past": "communicated",
+        "pastParticiple": "communicated"
+      },
+      "synonyms": [
+        "convey",
+        "express",
+        "inform"
+      ],
+      "antonyms": [
+        "withhold",
+        "conceal",
+        "isolate"
+      ],
+      "sentences": {
+        "daily": "Let's communicate better.",
+        "office": "Let's communicate the changes to the team.",
+        "interview": "I communicate clearly and professionally.",
+        "business": "Let's communicate our value proposition.",
+        "formal": "Let us communicate this policy change.",
+        "informal": "Let's communicate openly — no secrets!"
+      },
+      "usageNote": "'Communicate with' = speak to. 'Communicate clearly' is a top skill employers look for.",
+      "cefrLevel": "A2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 56,
+      "word": "benefit",
+      "hindi": "लाभ / फायदा उठाना",
+      "simpleMeaning": "to receive an advantage from something",
+      "ipa": "/ˈbenɪfɪt/",
+      "verbForms": {
+        "base": "benefit",
+        "s3": "benefits",
+        "ing": "benefiting",
+        "past": "benefited",
+        "pastParticiple": "benefited"
+      },
+      "synonyms": [
+        "gain",
+        "profit",
+        "advantage"
+      ],
+      "antonyms": [
+        "lose",
+        "suffer",
+        "disadvantage"
+      ],
+      "sentences": {
+        "daily": "Let's benefit from this experience.",
+        "office": "Let's benefit from each other's expertise.",
+        "interview": "My skills will benefit the team.",
+        "business": "Let's find a solution that benefits both parties.",
+        "formal": "Let us benefit from this collaboration.",
+        "informal": "Let's benefit from this — it's a great opportunity!"
+      },
+      "usageNote": "'Benefit from' = gain something from. 'Benefit' as noun: 'the benefits of exercise'.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 57,
+      "word": "achieve",
+      "hindi": "हासिल करना",
+      "simpleMeaning": "to successfully reach a goal",
+      "ipa": "/əˈtʃiːv/",
+      "verbForms": {
+        "base": "achieve",
+        "s3": "achieves",
+        "ing": "achieving",
+        "past": "achieved",
+        "pastParticiple": "achieved"
+      },
+      "synonyms": [
+        "accomplish",
+        "attain",
+        "reach"
+      ],
+      "antonyms": [
+        "fail",
+        "miss",
+        "give up"
+      ],
+      "sentences": {
+        "daily": "Let's achieve our daily targets.",
+        "office": "Let's achieve this quarter's goals.",
+        "interview": "I have a track record of achieving results.",
+        "business": "Let's achieve sustainable growth.",
+        "formal": "Let us achieve our collective objectives.",
+        "informal": "Let's achieve great things together!"
+      },
+      "usageNote": "'Achieve a goal/target/result' are common collocations.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 58,
+      "word": "implement",
+      "hindi": "लागू करना",
+      "simpleMeaning": "to put a plan or decision into action",
+      "ipa": "/ˈɪmplɪment/",
+      "verbForms": {
+        "base": "implement",
+        "s3": "implements",
+        "ing": "implementing",
+        "past": "implemented",
+        "pastParticiple": "implemented"
+      },
+      "synonyms": [
+        "execute",
+        "carry out",
+        "apply"
+      ],
+      "antonyms": [
+        "abandon",
+        "cancel",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "Let's implement the new routine.",
+        "office": "Let's implement the new policy this week.",
+        "interview": "I have experience implementing strategies.",
+        "business": "Let's implement the changes gradually.",
+        "formal": "Let us implement the approved plan.",
+        "informal": "Let's implement it — we've been talking long enough!"
+      },
+      "usageNote": "'Implement a plan/policy/solution/strategy' are core business collocations.",
+      "cefrLevel": "B2",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 59,
+      "word": "update",
+      "hindi": "अपडेट करना / नई जानकारी देना",
+      "simpleMeaning": "to give or receive the latest information",
+      "ipa": "/ˈʌpdeɪt/",
+      "verbForms": {
+        "base": "update",
+        "s3": "updates",
+        "ing": "updating",
+        "past": "updated",
+        "pastParticiple": "updated"
+      },
+      "synonyms": [
+        "inform",
+        "revise",
+        "refresh"
+      ],
+      "antonyms": [
+        "ignore",
+        "withhold"
+      ],
+      "sentences": {
+        "daily": "Let's update our contact list.",
+        "office": "Let's update each other on progress.",
+        "interview": "I regularly update my skills.",
+        "business": "Let's update the client on the timeline.",
+        "formal": "Let us update the records accordingly.",
+        "informal": "Let's update our status on the group chat!"
+      },
+      "usageNote": "'Update someone on something' = inform about the latest. Very common in office English.",
+      "cefrLevel": "A2",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 60,
+      "word": "schedule",
+      "hindi": "अनुसूची / समय तय करना",
+      "simpleMeaning": "to plan something for a specific time",
+      "ipa": "/ˈskedʒuːl/",
+      "verbForms": {
+        "base": "schedule",
+        "s3": "schedules",
+        "ing": "scheduling",
+        "past": "scheduled",
+        "pastParticiple": "scheduled"
+      },
+      "synonyms": [
+        "plan",
+        "arrange",
+        "timetable"
+      ],
+      "antonyms": [
+        "cancel",
+        "postpone"
+      ],
+      "sentences": {
+        "daily": "Let's schedule a meeting for next week.",
+        "office": "Let's schedule the review for Thursday.",
+        "interview": "I always schedule time for preparation.",
+        "business": "Let's schedule a call with the client.",
+        "formal": "Let us schedule the presentation for Friday.",
+        "informal": "Let's schedule something — we keep putting it off!"
+      },
+      "usageNote": "'Schedule' is both verb and noun. 'On schedule' = on time. 'Behind schedule' = late.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 61,
+      "word": "deadline",
+      "hindi": "समय-सीमा",
+      "simpleMeaning": "the latest time by which something must be done",
+      "ipa": "/ˈdedlaɪn/",
+      "verbForms": null,
+      "synonyms": [
+        "due date",
+        "cutoff",
+        "target date"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "Let's not miss the deadline.",
+        "office": "Let's set a realistic deadline.",
+        "interview": "I always meet my deadlines.",
+        "business": "Let's agree on a deadline.",
+        "formal": "Let us adhere to the deadline.",
+        "informal": "The deadline is tomorrow — let's hurry!"
+      },
+      "usageNote": "'Meet a deadline' = finish on time. 'Miss a deadline' = be late. Both are essential phrases.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 62,
+      "word": "teamwork",
+      "hindi": "टीम भावना / सामूहिक कार्य",
+      "simpleMeaning": "cooperative effort by a group",
+      "ipa": "/ˈtiːmwɜːrk/",
+      "verbForms": null,
+      "synonyms": [
+        "cooperation",
+        "collaboration",
+        "joint effort"
+      ],
+      "antonyms": [
+        "solo work",
+        "competition",
+        "isolation"
+      ],
+      "sentences": {
+        "daily": "Let's show some teamwork.",
+        "office": "Let's improve our teamwork.",
+        "interview": "Teamwork is my greatest strength.",
+        "business": "Let's build a culture of teamwork.",
+        "formal": "Let us foster strong teamwork.",
+        "informal": "Let's have better teamwork — we're all in this together!"
+      },
+      "usageNote": "'Teamwork makes the dream work' is a popular office saying. Used as uncountable noun.",
+      "cefrLevel": "A2",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 63,
+      "word": "initiative",
+      "hindi": "पहल / पहल करना",
+      "simpleMeaning": "the ability to start or lead something independently",
+      "ipa": "/ɪˈnɪʃɪətɪv/",
+      "verbForms": null,
+      "synonyms": [
+        "effort",
+        "action",
+        "drive"
+      ],
+      "antonyms": [
+        "passivity",
+        "inaction"
+      ],
+      "sentences": {
+        "daily": "Let's take the initiative.",
+        "office": "Let's launch a new initiative.",
+        "interview": "I always take initiative at work.",
+        "business": "Let's support this initiative.",
+        "formal": "Let us lead this initiative.",
+        "informal": "Let's take initiative — don't wait to be told!"
+      },
+      "usageNote": "'Take the initiative' = act without being asked. Very valued quality in workplaces.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 64,
+      "word": "feedback",
+      "hindi": "प्रतिक्रिया / फीडबैक",
+      "simpleMeaning": "information about performance used to improve",
+      "ipa": "/ˈfiːdbæk/",
+      "verbForms": null,
+      "synonyms": [
+        "response",
+        "review",
+        "evaluation"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "Let's give each other honest feedback.",
+        "office": "Let's gather feedback from the team.",
+        "interview": "I welcome feedback and act on it.",
+        "business": "Let's use customer feedback to improve.",
+        "formal": "Let us collect formal feedback.",
+        "informal": "Let's give feedback — it only helps!"
+      },
+      "usageNote": "'Constructive feedback' = helpful criticism. 'Give feedback', 'receive feedback' are collocations.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 65,
+      "word": "opportunity",
+      "hindi": "अवसर / मौका",
+      "simpleMeaning": "a favorable time or situation for doing something",
+      "ipa": "/ˌɒpəˈtjuːnɪti/",
+      "verbForms": null,
+      "synonyms": [
+        "chance",
+        "opening",
+        "occasion"
+      ],
+      "antonyms": [
+        "obstacle",
+        "setback",
+        "disadvantage"
+      ],
+      "sentences": {
+        "daily": "Let's not miss this opportunity.",
+        "office": "Let's seize the opportunity.",
+        "interview": "I see this role as a great opportunity.",
+        "business": "Let's turn this into a business opportunity.",
+        "formal": "Let us leverage this opportunity.",
+        "informal": "Let's grab the opportunity — it won't come again!"
+      },
+      "usageNote": "'Seize / grab / take an opportunity' are common collocations.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 66,
+      "word": "strategy",
+      "hindi": "रणनीति",
+      "simpleMeaning": "a plan designed to achieve a long-term goal",
+      "ipa": "/ˈstrætɪdʒi/",
+      "verbForms": null,
+      "synonyms": [
+        "plan",
+        "approach",
+        "tactic"
+      ],
+      "antonyms": [
+        "improvisation",
+        "randomness"
+      ],
+      "sentences": {
+        "daily": "Let's stick to our strategy.",
+        "office": "Let's revise our marketing strategy.",
+        "interview": "I develop strategies for complex problems.",
+        "business": "Let's align on strategy before proceeding.",
+        "formal": "Let us formulate a sound strategy.",
+        "informal": "Let's plan a strategy — winging it won't work!"
+      },
+      "usageNote": "'Business strategy', 'marketing strategy', 'exit strategy' are common types.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 67,
+      "word": "challenge",
+      "hindi": "चुनौती",
+      "simpleMeaning": "a difficult task that tests your abilities",
+      "ipa": "/ˈtʃælɪndʒ/",
+      "verbForms": null,
+      "synonyms": [
+        "difficulty",
+        "test",
+        "obstacle"
+      ],
+      "antonyms": [
+        "ease",
+        "simplicity",
+        "comfort"
+      ],
+      "sentences": {
+        "daily": "Let's face this challenge together.",
+        "office": "Let's address the main challenge.",
+        "interview": "I enjoy tackling new challenges.",
+        "business": "Let's turn this challenge into an opportunity.",
+        "formal": "Let us overcome this challenge collectively.",
+        "informal": "Let's face the challenge head-on!"
+      },
+      "usageNote": "'Face a challenge', 'overcome a challenge', 'meet a challenge' — common collocations.",
+      "cefrLevel": "A2",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 68,
+      "word": "compromise",
+      "hindi": "समझौता करना",
+      "simpleMeaning": "to reach agreement by both sides giving something",
+      "ipa": "/ˈkɒmprəmaɪz/",
+      "verbForms": {
+        "base": "compromise",
+        "s3": "compromises",
+        "ing": "compromising",
+        "past": "compromised",
+        "pastParticiple": "compromised"
+      },
+      "synonyms": [
+        "negotiate",
+        "settle",
+        "agree"
+      ],
+      "antonyms": [
+        "stand firm",
+        "refuse",
+        "insist"
+      ],
+      "sentences": {
+        "daily": "Let's compromise on this.",
+        "office": "Let's find a compromise.",
+        "interview": "I know when to compromise professionally.",
+        "business": "Let's compromise to close the deal.",
+        "formal": "Let us reach a fair compromise.",
+        "informal": "Let's compromise — nobody wins if we fight!"
+      },
+      "usageNote": "'Compromise on' = agree on a middle ground. 'Compromise quality' = lower the standard (negative).",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 69,
+      "word": "inspire",
+      "hindi": "प्रेरित करना",
+      "simpleMeaning": "to fill someone with the urge to do something creative",
+      "ipa": "/ɪnˈspaɪər/",
+      "verbForms": {
+        "base": "inspire",
+        "s3": "inspires",
+        "ing": "inspiring",
+        "past": "inspired",
+        "pastParticiple": "inspired"
+      },
+      "synonyms": [
+        "motivate",
+        "encourage",
+        "stimulate"
+      ],
+      "antonyms": [
+        "discourage",
+        "demotivate",
+        "bore"
+      ],
+      "sentences": {
+        "daily": "Let's inspire each other.",
+        "office": "Let's inspire the team with positive energy.",
+        "interview": "I want to inspire others through my work.",
+        "business": "Let's inspire our clients to take action.",
+        "formal": "Let us inspire a new generation.",
+        "informal": "Let's inspire each other — every day!"
+      },
+      "usageNote": "'Inspire' someone to do something: 'Let's inspire them to work harder.'",
+      "cefrLevel": "B1",
+      "category": "Social/Daily Life Verbs"
+    },
+    {
+      "id": 70,
+      "word": "contribute",
+      "hindi": "योगदान देना",
+      "simpleMeaning": "to give something (time, money, ideas) to a shared effort",
+      "ipa": "/kənˈtrɪbjuːt/",
+      "verbForms": {
+        "base": "contribute",
+        "s3": "contributes",
+        "ing": "contributing",
+        "past": "contributed",
+        "pastParticiple": "contributed"
+      },
+      "synonyms": [
+        "give",
+        "add",
+        "donate"
+      ],
+      "antonyms": [
+        "withhold",
+        "take",
+        "subtract"
+      ],
+      "sentences": {
+        "daily": "Let's each contribute something.",
+        "office": "Let's contribute our best ideas.",
+        "interview": "I contribute meaningfully to every project.",
+        "business": "Let's contribute to CSR initiatives.",
+        "formal": "Let us contribute to the common good.",
+        "informal": "Let's all contribute — even a little helps!"
+      },
+      "usageNote": "'Contribute to' = help achieve something. 'Contribution' is the noun.",
+      "cefrLevel": "B1",
+      "category": "Social/Daily Life Verbs"
+    },
+    {
+      "id": 71,
+      "word": "ensure",
+      "hindi": "सुनिश्चित करना",
+      "simpleMeaning": "to make certain that something will happen",
+      "ipa": "/ɪnˈʃʊər/",
+      "verbForms": {
+        "base": "ensure",
+        "s3": "ensures",
+        "ing": "ensuring",
+        "past": "ensured",
+        "pastParticiple": "ensured"
+      },
+      "synonyms": [
+        "guarantee",
+        "confirm",
+        "make sure"
+      ],
+      "antonyms": [
+        "neglect",
+        "ignore",
+        "risk"
+      ],
+      "sentences": {
+        "daily": "Let's ensure everything is in order.",
+        "office": "Let's ensure client satisfaction.",
+        "interview": "I ensure accuracy in all my work.",
+        "business": "Let's ensure timely delivery.",
+        "formal": "Let us ensure compliance at all times.",
+        "informal": "Let's ensure nobody gets left behind."
+      },
+      "usageNote": "'Ensure' vs 'insure': ensure = make sure, insure = take insurance. Common confusion.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 72,
+      "word": "address",
+      "hindi": "संबोधित करना / समाधान करना",
+      "simpleMeaning": "to deal with a problem or speak to a group",
+      "ipa": "/əˈdres/",
+      "verbForms": {
+        "base": "address",
+        "s3": "addresses",
+        "ing": "addressing",
+        "past": "addressed",
+        "pastParticiple": "addressed"
+      },
+      "synonyms": [
+        "handle",
+        "tackle",
+        "speak to"
+      ],
+      "antonyms": [
+        "ignore",
+        "avoid",
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "Let's address the issue now.",
+        "office": "Let's address the concerns raised.",
+        "interview": "I address problems proactively.",
+        "business": "Let's address the gap in the market.",
+        "formal": "Let us address this matter formally.",
+        "informal": "Let's address it before it gets worse."
+      },
+      "usageNote": "'Address a problem/concern/issue' = deal with it formally. Also: 'address the audience'.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 73,
+      "word": "transparent",
+      "hindi": "पारदर्शी",
+      "simpleMeaning": "open, clear, and honest in communication",
+      "ipa": "/trænsˈpærənt/",
+      "verbForms": null,
+      "synonyms": [
+        "open",
+        "clear",
+        "honest"
+      ],
+      "antonyms": [
+        "secretive",
+        "deceptive"
+      ],
+      "sentences": {
+        "daily": "Let's keep things transparent.",
+        "office": "Let's be transparent about the setbacks.",
+        "interview": "I work in a transparent and ethical way.",
+        "business": "Let's maintain transparent records.",
+        "formal": "Let us operate in a transparent manner.",
+        "informal": "Let's just be transparent with each other."
+      },
+      "usageNote": "'Transparency' (noun) is a core business value. 'Maintain transparency' is a common phrase.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 74,
+      "word": "proactive",
+      "hindi": "अग्रसक्रिय / पहले से सोचने वाला",
+      "simpleMeaning": "taking action before problems arise",
+      "ipa": "/ˌproʊˈæktɪv/",
+      "verbForms": null,
+      "synonyms": [
+        "forward-thinking",
+        "initiative-taking",
+        "preventive"
+      ],
+      "antonyms": [
+        "reactive",
+        "passive",
+        "careless"
+      ],
+      "sentences": {
+        "daily": "Let's be proactive about our health.",
+        "office": "Let's be proactive and fix it now.",
+        "interview": "I am a proactive team member.",
+        "business": "Let's adopt a proactive approach.",
+        "formal": "Let us be proactive in addressing risks.",
+        "informal": "Let's be proactive — don't wait for problems!"
+      },
+      "usageNote": "'Proactive' is a key word in professional English. Opposite: reactive.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 75,
+      "word": "consensus",
+      "hindi": "सहमति / सर्वसम्मति",
+      "simpleMeaning": "general agreement among a group",
+      "ipa": "/kənˈsensəs/",
+      "verbForms": null,
+      "synonyms": [
+        "agreement",
+        "accord",
+        "unanimity"
+      ],
+      "antonyms": [
+        "disagreement",
+        "dissent",
+        "conflict"
+      ],
+      "sentences": {
+        "daily": "Let's reach a consensus.",
+        "office": "Let's build consensus before deciding.",
+        "interview": "I know how to build consensus in a team.",
+        "business": "Let's find a consensus on pricing.",
+        "formal": "Let us arrive at a consensus.",
+        "informal": "Let's get a consensus — majority wins!"
+      },
+      "usageNote": "'Reach a consensus', 'build consensus', 'by consensus' are standard phrases.",
+      "cefrLevel": "B2",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 76,
+      "word": "agenda",
+      "hindi": "एजेंडा / कार्यसूची",
+      "simpleMeaning": "a list of items to be discussed at a meeting",
+      "ipa": "/əˈdʒendə/",
+      "verbForms": null,
+      "synonyms": [
+        "schedule",
+        "plan",
+        "programme"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "Let's set an agenda for today.",
+        "office": "Let's follow the meeting agenda.",
+        "interview": "I always come with a clear agenda.",
+        "business": "Let's share the agenda before the meeting.",
+        "formal": "Let us adhere to the agenda.",
+        "informal": "Let's set an agenda — or we'll never finish!"
+      },
+      "usageNote": "'Agenda item' = single point on the agenda. 'Hidden agenda' = secret motive.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 77,
+      "word": "outcome",
+      "hindi": "परिणाम / नतीजा",
+      "simpleMeaning": "the result or effect of an action",
+      "ipa": "/ˈaʊtkʌm/",
+      "verbForms": null,
+      "synonyms": [
+        "result",
+        "consequence",
+        "effect"
+      ],
+      "antonyms": [
+        "cause",
+        "input"
+      ],
+      "sentences": {
+        "daily": "Let's focus on the desired outcome.",
+        "office": "Let's evaluate the outcome of the campaign.",
+        "interview": "I focus on delivering positive outcomes.",
+        "business": "Let's align on expected outcomes.",
+        "formal": "Let us measure outcomes against targets.",
+        "informal": "Let's hope for a good outcome!"
+      },
+      "usageNote": "'Outcome' is result-focused. 'Outcome-based' is a key phrase in education and business.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 78,
+      "word": "milestone",
+      "hindi": "मील का पत्थर / महत्वपूर्ण उपलब्धि",
+      "simpleMeaning": "an important event or stage in a project",
+      "ipa": "/ˈmaɪlstəʊn/",
+      "verbForms": null,
+      "synonyms": [
+        "achievement",
+        "landmark",
+        "checkpoint"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "Let's celebrate this milestone.",
+        "office": "Let's set clear milestones.",
+        "interview": "I achieved key milestones in my last role.",
+        "business": "Let's track our milestones monthly.",
+        "formal": "Let us acknowledge this important milestone.",
+        "informal": "Let's celebrate the milestone — we earned it!"
+      },
+      "usageNote": "'Project milestone', 'hit a milestone', 'celebrate a milestone' are common uses.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 79,
+      "word": "perspective",
+      "hindi": "दृष्टिकोण",
+      "simpleMeaning": "a particular way of thinking about something",
+      "ipa": "/pəˈspektɪv/",
+      "verbForms": null,
+      "synonyms": [
+        "viewpoint",
+        "angle",
+        "outlook"
+      ],
+      "antonyms": [
+        "blindness",
+        "narrow view"
+      ],
+      "sentences": {
+        "daily": "Let's see it from a new perspective.",
+        "office": "Let's get everyone's perspective.",
+        "interview": "I consider different perspectives.",
+        "business": "Let's view this from the customer's perspective.",
+        "formal": "Let us consider all perspectives.",
+        "informal": "Let's get some perspective here!"
+      },
+      "usageNote": "'From a business/customer perspective' is a very common professional phrase.",
+      "cefrLevel": "B2",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 80,
+      "word": "commitment",
+      "hindi": "प्रतिबद्धता",
+      "simpleMeaning": "a promise or obligation to do something",
+      "ipa": "/kəˈmɪtmənt/",
+      "verbForms": null,
+      "synonyms": [
+        "dedication",
+        "pledge",
+        "promise"
+      ],
+      "antonyms": [
+        "negligence",
+        "abandonment",
+        "withdrawal"
+      ],
+      "sentences": {
+        "daily": "Let's show commitment to our goals.",
+        "office": "Let's honor our commitments to clients.",
+        "interview": "My commitment to quality is strong.",
+        "business": "Let's demonstrate our commitment.",
+        "formal": "Let us reaffirm our commitment.",
+        "informal": "Let's show some commitment here, team!"
+      },
+      "usageNote": "'Commitment to' = dedicated to. 'Make a commitment' = promise to do something.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 81,
+      "word": "negotiate",
+      "hindi": "समझौता करना",
+      "simpleMeaning": "to reach agreement through discussion",
+      "ipa": "/nɪˈɡoʊʃieɪt/",
+      "verbForms": {
+        "base": "negotiate",
+        "s3": "negotiates",
+        "ing": "negotiating",
+        "past": "negotiated",
+        "pastParticiple": "negotiated"
+      },
+      "synonyms": [
+        "bargain",
+        "mediate",
+        "discuss"
+      ],
+      "antonyms": [
+        "demand",
+        "refuse"
+      ],
+      "sentences": {
+        "daily": "Let's negotiate a better price.",
+        "office": "Let's negotiate the terms.",
+        "interview": "I am an effective negotiator.",
+        "business": "Let's negotiate in good faith.",
+        "formal": "Let us negotiate a mutually beneficial agreement.",
+        "informal": "Let's negotiate — no need to fight over it!"
+      },
+      "usageNote": "'Negotiate a deal/contract/salary' are key business phrases.",
+      "cefrLevel": "B2",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 82,
+      "word": "allocate",
+      "hindi": "आवंटित करना",
+      "simpleMeaning": "to distribute resources for a specific purpose",
+      "ipa": "/ˈæləkeɪt/",
+      "verbForms": {
+        "base": "allocate",
+        "s3": "allocates",
+        "ing": "allocating",
+        "past": "allocated",
+        "pastParticiple": "allocated"
+      },
+      "synonyms": [
+        "assign",
+        "distribute",
+        "designate"
+      ],
+      "antonyms": [
+        "withhold",
+        "pool"
+      ],
+      "sentences": {
+        "daily": "Let's allocate time for this task.",
+        "office": "Let's allocate resources wisely.",
+        "interview": "I know how to allocate tasks fairly.",
+        "business": "Let's allocate the budget carefully.",
+        "formal": "Let us allocate responsibilities clearly.",
+        "informal": "Let's allocate some time for fun too!"
+      },
+      "usageNote": "'Allocate resources/budget/tasks/time' are common office collocations.",
+      "cefrLevel": "B2",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 83,
+      "word": "utilize",
+      "hindi": "उपयोग करना",
+      "simpleMeaning": "to make practical use of something",
+      "ipa": "/ˈjuːtɪlaɪz/",
+      "verbForms": {
+        "base": "utilize",
+        "s3": "utilizes",
+        "ing": "utilizing",
+        "past": "utilized",
+        "pastParticiple": "utilized"
+      },
+      "synonyms": [
+        "use",
+        "employ",
+        "apply"
+      ],
+      "antonyms": [
+        "waste",
+        "ignore",
+        "misuse"
+      ],
+      "sentences": {
+        "daily": "Let's utilize our time well.",
+        "office": "Let's utilize all available resources.",
+        "interview": "I know how to utilize data effectively.",
+        "business": "Let's fully utilize this partnership.",
+        "formal": "Let us utilize every available opportunity.",
+        "informal": "Let's utilize what we have!"
+      },
+      "usageNote": "'Utilize' is more formal than 'use'. In academic/professional writing, 'utilize' is preferred.",
+      "cefrLevel": "B2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 84,
+      "word": "transparent",
+      "hindi": "पारदर्शी",
+      "simpleMeaning": "clear and honest in communication",
+      "ipa": "/trænsˈpærənt/",
+      "verbForms": null,
+      "synonyms": [
+        "open",
+        "honest",
+        "clear"
+      ],
+      "antonyms": [
+        "secretive",
+        "hidden",
+        "opaque"
+      ],
+      "sentences": {
+        "daily": "Let's be more transparent.",
+        "office": "Let's keep our process transparent.",
+        "interview": "I believe in transparent communication.",
+        "business": "Let's operate transparently.",
+        "formal": "Let us be fully transparent.",
+        "informal": "Let's be transparent — no hidden agendas!"
+      },
+      "usageNote": "Repeated because transparency is central to professional English. Key word.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 85,
+      "word": "adapt",
+      "hindi": "अनुकूलन करना",
+      "simpleMeaning": "to change to fit new conditions",
+      "ipa": "/əˈdæpt/",
+      "verbForms": {
+        "base": "adapt",
+        "s3": "adapts",
+        "ing": "adapting",
+        "past": "adapted",
+        "pastParticiple": "adapted"
+      },
+      "synonyms": [
+        "adjust",
+        "modify",
+        "change"
+      ],
+      "antonyms": [
+        "resist",
+        "remain fixed",
+        "refuse"
+      ],
+      "sentences": {
+        "daily": "Let's adapt to the new routine.",
+        "office": "Let's adapt our approach for this client.",
+        "interview": "I adapt quickly to new environments.",
+        "business": "Let's adapt our strategy.",
+        "formal": "Let us adapt our methods accordingly.",
+        "informal": "Let's adapt — the world is changing!"
+      },
+      "usageNote": "'Adapt to' = adjust to a new situation. 'Adaptable' is the adjective.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 86,
+      "word": "patience",
+      "hindi": "धैर्य",
+      "simpleMeaning": "the ability to wait calmly",
+      "ipa": "/ˈpeɪʃəns/",
+      "verbForms": null,
+      "synonyms": [
+        "tolerance",
+        "endurance",
+        "calm"
+      ],
+      "antonyms": [
+        "impatience",
+        "frustration"
+      ],
+      "sentences": {
+        "daily": "Let's have patience.",
+        "office": "Let's have patience with new employees.",
+        "interview": "Patience is one of my key strengths.",
+        "business": "Let's approach this with patience.",
+        "formal": "Let us exercise patience and diligence.",
+        "informal": "Let's have patience — good things take time!"
+      },
+      "usageNote": "'Have patience', 'lose patience', 'test patience' — common collocations.",
+      "cefrLevel": "A2",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 87,
+      "word": "momentum",
+      "hindi": "गति / प्रेरणा",
+      "simpleMeaning": "the speed and force with which something moves or progresses",
+      "ipa": "/məˈmentəm/",
+      "verbForms": null,
+      "synonyms": [
+        "pace",
+        "progress",
+        "drive"
+      ],
+      "antonyms": [
+        "stagnation",
+        "halt",
+        "slowdown"
+      ],
+      "sentences": {
+        "daily": "Let's keep the momentum going.",
+        "office": "Let's build momentum before the quarter ends.",
+        "interview": "I maintain momentum on long projects.",
+        "business": "Let's create momentum in the market.",
+        "formal": "Let us sustain the current momentum.",
+        "informal": "Let's keep the momentum — we're doing great!"
+      },
+      "usageNote": "'Build momentum', 'maintain momentum', 'lose momentum' are key collocations.",
+      "cefrLevel": "B2",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 88,
+      "word": "clarify",
+      "hindi": "स्पष्ट करना",
+      "simpleMeaning": "to make something clearer or easier to understand",
+      "ipa": "/ˈklærɪfaɪ/",
+      "verbForms": {
+        "base": "clarify",
+        "s3": "clarifies",
+        "ing": "clarifying",
+        "past": "clarified",
+        "pastParticiple": "clarified"
+      },
+      "synonyms": [
+        "explain",
+        "clear up",
+        "elaborate"
+      ],
+      "antonyms": [
+        "confuse",
+        "obscure",
+        "muddle"
+      ],
+      "sentences": {
+        "daily": "Let's clarify the rules first.",
+        "office": "Let's clarify roles and responsibilities.",
+        "interview": "I always clarify expectations at the start.",
+        "business": "Let's clarify the payment terms.",
+        "formal": "Let us clarify the terms of the agreement.",
+        "informal": "Let's clarify this before we start arguing!"
+      },
+      "usageNote": "'Clarify' is essential in professional communication. 'I'd like to clarify...' is very polite.",
+      "cefrLevel": "B1",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 89,
+      "word": "innovate",
+      "hindi": "नवाचार करना",
+      "simpleMeaning": "to introduce new ideas or methods",
+      "ipa": "/ˈɪnəveɪt/",
+      "verbForms": {
+        "base": "innovate",
+        "s3": "innovates",
+        "ing": "innovating",
+        "past": "innovated",
+        "pastParticiple": "innovated"
+      },
+      "synonyms": [
+        "create",
+        "invent",
+        "pioneer"
+      ],
+      "antonyms": [
+        "stagnate",
+        "conform",
+        "copy"
+      ],
+      "sentences": {
+        "daily": "Let's innovate in our daily habits.",
+        "office": "Let's innovate our processes.",
+        "interview": "I constantly look to innovate.",
+        "business": "Let's innovate to stay competitive.",
+        "formal": "Let us continuously innovate.",
+        "informal": "Let's innovate — the old way isn't working!"
+      },
+      "usageNote": "'Innovate' is key in tech and business. 'Innovation' (noun), 'innovative' (adjective).",
+      "cefrLevel": "B2",
+      "category": "Action Verbs"
+    },
+    {
+      "id": 90,
+      "word": "benchmark",
+      "hindi": "मानक / तुलना-मानक",
+      "simpleMeaning": "a standard against which things are measured",
+      "ipa": "/ˈbentʃmɑːrk/",
+      "verbForms": {
+        "base": "benchmark",
+        "s3": "benchmarks",
+        "ing": "benchmarking",
+        "past": "benchmarked",
+        "pastParticiple": "benchmarked"
+      },
+      "synonyms": [
+        "standard",
+        "reference",
+        "yardstick"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "Let's set a benchmark for ourselves.",
+        "office": "Let's benchmark our performance.",
+        "interview": "I benchmark my work against best practices.",
+        "business": "Let's benchmark against industry leaders.",
+        "formal": "Let us establish clear benchmarks.",
+        "informal": "Let's set a benchmark — aim high!"
+      },
+      "usageNote": "'Benchmarking' (process noun) is comparing performance to industry standards.",
+      "cefrLevel": "B2",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 91,
+      "word": "collaborate",
+      "hindi": "सहयोग से काम करना",
+      "simpleMeaning": "to work jointly with others",
+      "ipa": "/kəˈlæbəreɪt/",
+      "verbForms": {
+        "base": "collaborate",
+        "s3": "collaborates",
+        "ing": "collaborating",
+        "past": "collaborated",
+        "pastParticiple": "collaborated"
+      },
+      "synonyms": [
+        "cooperate",
+        "team up"
+      ],
+      "antonyms": [
+        "compete"
+      ],
+      "sentences": {
+        "daily": "Let's collaborate on the art exhibition.",
+        "office": "Let's collaborate with the design team.",
+        "interview": "I love to collaborate across functions.",
+        "business": "Let's collaborate to win more clients.",
+        "formal": "Let us collaborate for shared success.",
+        "informal": "Let's collaborate — it'll be twice as good!"
+      },
+      "usageNote": "'Collaborate with someone on something' is the standard structure.",
+      "cefrLevel": "B1",
+      "category": "Office/Professional Verbs"
+    },
+    {
+      "id": 92,
+      "word": "deadline",
+      "hindi": "अंतिम तिथि",
+      "simpleMeaning": "the last date/time for completing a task",
+      "ipa": "/ˈdedlaɪn/",
+      "verbForms": null,
+      "synonyms": [
+        "cutoff",
+        "due date",
+        "target"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "Let's beat the deadline.",
+        "office": "Let's not let the deadline slip.",
+        "interview": "I never miss a deadline.",
+        "business": "Let's push to meet the deadline.",
+        "formal": "Let us complete this before the deadline.",
+        "informal": "Let's hustle — deadline is tomorrow!"
+      },
+      "usageNote": "'Meet a deadline' (on time) vs 'miss a deadline' (late). Always say 'by the deadline'.",
+      "cefrLevel": "B1",
+      "category": "Nouns related to Let's context"
+    },
+    {
+      "id": 93,
+      "word": "flexible",
+      "hindi": "लचीला",
+      "simpleMeaning": "able to change easily to suit different conditions",
+      "ipa": "/ˈfleksɪbəl/",
+      "verbForms": null,
+      "synonyms": [
+        "adaptable",
+        "versatile",
+        "open"
+      ],
+      "antonyms": [
+        "rigid",
+        "inflexible",
+        "stubborn"
+      ],
+      "sentences": {
+        "daily": "Let's be flexible about timings.",
+        "office": "Let's be flexible with the approach.",
+        "interview": "I am flexible and open to change.",
+        "business": "Let's offer flexible payment options.",
+        "formal": "Let us remain flexible in our approach.",
+        "informal": "Let's be flexible — plans can change!"
+      },
+      "usageNote": "'Flexible working', 'flexible approach', 'remain flexible' are common professional phrases.",
+      "cefrLevel": "B1",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 94,
+      "word": "sustainable",
+      "hindi": "टिकाऊ",
+      "simpleMeaning": "able to continue over a long period without damaging resources",
+      "ipa": "/səˈsteɪnəbəl/",
+      "verbForms": null,
+      "synonyms": [
+        "long-term",
+        "eco-friendly",
+        "viable"
+      ],
+      "antonyms": [
+        "unsustainable",
+        "damaging"
+      ],
+      "sentences": {
+        "daily": "Let's make sustainable choices.",
+        "office": "Let's adopt sustainable practices.",
+        "interview": "I support sustainable business models.",
+        "business": "Let's build a sustainable brand.",
+        "formal": "Let us commit to sustainable development.",
+        "informal": "Let's go sustainable — good for the planet!"
+      },
+      "usageNote": "'Sustainable development/growth/energy' are key 21st-century business terms.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 95,
+      "word": "ambitious",
+      "hindi": "महत्वाकांक्षी",
+      "simpleMeaning": "having a strong desire to achieve great things",
+      "ipa": "/æmˈbɪʃəs/",
+      "verbForms": null,
+      "synonyms": [
+        "driven",
+        "determined",
+        "goal-oriented"
+      ],
+      "antonyms": [
+        "unambitious",
+        "lazy",
+        "complacent"
+      ],
+      "sentences": {
+        "daily": "Let's be ambitious with our goals.",
+        "office": "Let's set ambitious targets.",
+        "interview": "I am ambitious and results-driven.",
+        "business": "Let's think ambitiously.",
+        "formal": "Let us set ambitious yet achievable goals.",
+        "informal": "Let's be ambitious — why aim low?"
+      },
+      "usageNote": "'Ambitious goal/target/plan' — collocates well with goal-related nouns.",
+      "cefrLevel": "B1",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 96,
+      "word": "realistic",
+      "hindi": "यथार्थवादी",
+      "simpleMeaning": "based on what is actually possible",
+      "ipa": "/ˌrɪəˈlɪstɪk/",
+      "verbForms": null,
+      "synonyms": [
+        "practical",
+        "achievable",
+        "sensible"
+      ],
+      "antonyms": [
+        "unrealistic",
+        "idealistic",
+        "impractical"
+      ],
+      "sentences": {
+        "daily": "Let's be realistic about our goals.",
+        "office": "Let's set realistic expectations.",
+        "interview": "I set realistic but challenging goals.",
+        "business": "Let's create a realistic budget.",
+        "formal": "Let us establish realistic timelines.",
+        "informal": "Let's be realistic — we can't do it all!"
+      },
+      "usageNote": "'Realistic expectations', 'realistic goals', 'realistic budget' are very common collocations.",
+      "cefrLevel": "B1",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 97,
+      "word": "inclusive",
+      "hindi": "समावेशी",
+      "simpleMeaning": "including everyone; not excluding any group",
+      "ipa": "/ɪnˈkluːsɪv/",
+      "verbForms": null,
+      "synonyms": [
+        "all-encompassing",
+        "diverse",
+        "welcoming"
+      ],
+      "antonyms": [
+        "exclusive",
+        "discriminatory",
+        "selective"
+      ],
+      "sentences": {
+        "daily": "Let's be more inclusive.",
+        "office": "Let's create an inclusive workplace.",
+        "interview": "I promote inclusive practices.",
+        "business": "Let's reach a more inclusive customer base.",
+        "formal": "Let us build an inclusive organization.",
+        "informal": "Let's be inclusive — everyone matters!"
+      },
+      "usageNote": "'Inclusive' is central to DEI (Diversity, Equity, Inclusion) — important in modern workplaces.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 98,
+      "word": "systematic",
+      "hindi": "व्यवस्थित / क्रमबद्ध",
+      "simpleMeaning": "done according to a fixed plan or system",
+      "ipa": "/ˌsɪstəˈmætɪk/",
+      "verbForms": null,
+      "synonyms": [
+        "organized",
+        "methodical",
+        "structured"
+      ],
+      "antonyms": [
+        "haphazard",
+        "random",
+        "disorganized"
+      ],
+      "sentences": {
+        "daily": "Let's be systematic about this.",
+        "office": "Let's take a systematic approach.",
+        "interview": "I work in a systematic and organized manner.",
+        "business": "Let's implement a systematic process.",
+        "formal": "Let us adopt a systematic methodology.",
+        "informal": "Let's be systematic — no more chaos!"
+      },
+      "usageNote": "'Systematic approach' is a key phrase in interviews and professional communication.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 99,
+      "word": "unanimous",
+      "hindi": "एकमत / सर्वसम्मत",
+      "simpleMeaning": "when everyone in a group agrees",
+      "ipa": "/juˈnænɪməs/",
+      "verbForms": null,
+      "synonyms": [
+        "agreed",
+        "united",
+        "consensual"
+      ],
+      "antonyms": [
+        "divided",
+        "dissenting",
+        "split"
+      ],
+      "sentences": {
+        "daily": "Let's reach a unanimous decision.",
+        "office": "Let's aim for a unanimous vote.",
+        "interview": "I build unanimous support for key decisions.",
+        "business": "Let's get unanimous agreement from the board.",
+        "formal": "Let us make this decision unanimous.",
+        "informal": "Let's be unanimous on this one!"
+      },
+      "usageNote": "'Unanimous decision/vote/agreement' — used when 100% of people agree.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
+    },
+    {
+      "id": 100,
+      "word": "proactive",
+      "hindi": "अग्रसक्रिय",
+      "simpleMeaning": "acting in advance to deal with problems",
+      "ipa": "/ˌproʊˈæktɪv/",
+      "verbForms": null,
+      "synonyms": [
+        "forward-thinking",
+        "preventive",
+        "initiative-taking"
+      ],
+      "antonyms": [
+        "reactive",
+        "passive"
+      ],
+      "sentences": {
+        "daily": "Let's be proactive about our learning.",
+        "office": "Let's proactively address issues.",
+        "interview": "I am a proactive and self-driven employee.",
+        "business": "Let's take a proactive approach to risk.",
+        "formal": "Let us be proactive in our planning.",
+        "informal": "Let's be proactive — don't wait for problems to appear!"
+      },
+      "usageNote": "'Proactive' vs 'reactive' — highly valued in interviews. 'Take a proactive approach' is golden phrase.",
+      "cefrLevel": "B2",
+      "category": "Adjectives for Suggestions"
     }
   ]
 }

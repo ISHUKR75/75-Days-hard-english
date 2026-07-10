@@ -1,13 +1,15 @@
 {
   "day": 13,
   "topic": "Use of Let",
-  "challengeTask": "Use at least 10 sentences with Use of Let in a real conversation or diary entry today.",
-  "hindiTask": "आज Use of Let का उपयोग करते हुए कम से कम 10 वाक्य किसी असली बातचीत या डायरी में लिखें।",
+  "challengeTask": "Use 'Let' in at least 15 real sentences today — at least 5 'Let me', 4 'Let him/her/them', 3 'Don't let', and 3 'Let us' — in real conversations, at home, or in a journal entry.",
+  "hindiTask": "आज 'Let' का उपयोग कम से कम 15 असली वाक्यों में करें — कम से कम 5 'Let me', 4 'Let him/her/them', 3 'Don't let', और 3 'Let us' — असली बातचीत में, घर पर, या diary में।",
   "successCriteria": [
-    "All 10 sentences are grammatically correct",
-    "Use of Let rule applied correctly in every sentence",
-    "No spelling mistakes"
+    "All 15 sentences are grammatically correct (correct object pronoun, base verb, no 'to')",
+    "'Let' formula applied correctly in every sentence",
+    "At least one sentence uses 'Don't let' with a real context",
+    "At least one sentence uses the question form (Will you let me...?)",
+    "No spelling mistakes in written sentences"
   ],
-  "bonusChallenge": "Record yourself speaking 5 of these sentences and check your pronunciation.",
-  "xpReward": 50
+  "bonusChallenge": "Record a 60-second audio of yourself using 5 'Let me' sentences in a self-introduction or a work scenario. Review and correct your own pronunciation.",
+  "xpReward": 75
 }

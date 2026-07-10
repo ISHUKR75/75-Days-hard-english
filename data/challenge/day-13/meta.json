@@ -4,25 +4,53 @@
   "slug": "13-use-of-let",
   "type": "grammar",
   "difficulty": "beginner",
-  "cefr": "A1-A2",
-  "emoji": "🙏",
-  "color": "#10b981",
+  "cefr": "A2",
+  "emoji": "🙌",
+  "color": "#f59e0b",
   "topics": [
-    "Use of Let"
+    "Let me + base verb",
+    "Let him/her + base verb",
+    "Let us + base verb",
+    "Let them + base verb",
+    "Don't let + object + base verb",
+    "Question forms with Let",
+    "Common mistakes with Let",
+    "Let vs Allow vs Make",
+    "Idioms: Let go of, Let alone, Let it be",
+    "Daily life usage of Let",
+    "Office/Professional usage of Let",
+    "Advanced and formal usage of Let"
   ],
-  "totalQuestions": 25,
-  "totalVocabulary": 25,
+  "totalQuestions": 100,
+  "totalVocabulary": 110,
   "estimatedTime": "2-3 hours",
   "xpReward": 200,
-  "coinsReward": 30,
+  "coinsReward": 25,
   "prerequisites": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
     12
   ],
   "nextDay": 14,
   "tags": [
+    "let",
+    "permission",
+    "causative",
     "grammar",
-    "use of let"
+    "spoken-english",
+    "office-english",
+    "let-me",
+    "dont-let"
   ],
-  "lastUpdated": "2026-07-09",
-  "version": "1.0"
+  "lastUpdated": "2026-07-10",
+  "version": "2.0"
 }

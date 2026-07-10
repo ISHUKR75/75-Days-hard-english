@@ -2,26 +2,34 @@
   "day": 12,
   "topic": "Use of Wanted",
   "keyPointsSummary": [
-    "'Wanted' is the past tense of 'want' — same form for all subjects (I, he, she, we, they)",
-    "Used for desires or wishes in the past",
-    "Negative: did not want",
-    "Question: Did + subject + want...?"
+    "'Wanted' is the simple past tense of 'want' — it is used for desires or wishes in the past.",
+    "Formula 1: Subject + wanted + to + base verb (e.g., I wanted to go home.)",
+    "Formula 2: Subject + wanted + noun (e.g., She wanted a new book.)",
+    "'Wanted' is the same for ALL subjects — I, he, she, we, they, you + wanted (no change).",
+    "Negative form: Subject + did not (didn't) + want + to + verb / noun. NOT 'did not wanted'.",
+    "Question form: Did + subject + want + to + verb / noun? NOT 'Did + subject + wanted'.",
+    "Common mistake: Forgetting 'to' before the verb — 'I wanted go' is WRONG. 'I wanted to go' is CORRECT.",
+    "Contrast with Day 11: 'want/wants' = present; 'wanted' = past. Example: 'I want tea' vs 'I wanted tea'.",
+    "'Just wanted to say/tell' is a polite phrase used in formal and informal communication.",
+    "Indirect speech: 'wants' changes to 'wanted' when reporting in past — 'She said she wanted to meet you.'",
+    "Unfulfilled desire: 'I wanted to... but...' is a natural pattern for past desires that could not be fulfilled.",
+    "'Wanted someone to do something' = advanced pattern — e.g., 'We wanted him to join the team.'"
   ],
   "quickQuiz": [
     {
       "id": 1,
-      "hindi": "मुझे पानी चाहिए था।",
-      "answer": "I wanted water."
-    },
-    {
-      "id": 2,
       "hindi": "मैं घर जाना चाहता था।",
       "answer": "I wanted to go home."
     },
     {
+      "id": 2,
+      "hindi": "क्या तुम्हें चाय चाहिए थी?",
+      "answer": "Did you want tea?"
+    },
+    {
       "id": 3,
-      "hindi": "वह एक नई कार चाहता था।",
-      "answer": "He wanted a new car."
+      "hindi": "उसे promotion नहीं चाहिए था।",
+      "answer": "He did not want a promotion."
     },
     {
       "id": 4,
@@ -30,39 +38,52 @@
     },
     {
       "id": 5,
-      "hindi": "हम आराम करना चाहते थे।",
-      "answer": "We wanted to take rest."
+      "hindi": "हम बाहर जाना चाहते थे।",
+      "answer": "We wanted to go outside."
     },
     {
       "id": 6,
-      "hindi": "वे उस काम को खत्म करना चाहते थे।",
-      "answer": "They wanted to finish that work."
+      "hindi": "क्या वह वहाँ जाना चाहता था?",
+      "answer": "Did he want to go there?"
     },
     {
       "id": 7,
-      "hindi": "क्या तुम चाय चाहते थे?",
-      "answer": "Did you want tea?"
+      "hindi": "मैं बस शुक्रिया कहना चाहता था।",
+      "answer": "I just wanted to say thank you."
     },
     {
       "id": 8,
-      "hindi": "मुझे वह किताब नहीं चाहिए थी।",
-      "answer": "I did not want that book."
+      "hindi": "उसने कहा कि वह मुझसे मिलना चाहती थी।",
+      "answer": "She said she wanted to meet me."
     },
     {
       "id": 9,
-      "hindi": "वह मुझसे बात करना चाहता था।",
-      "answer": "He wanted to talk to me."
+      "hindi": "मैं तुम्हें call करना चाहता था पर busy था।",
+      "answer": "I wanted to call you but I was busy."
     },
     {
       "id": 10,
-      "hindi": "मुझे कुछ आराम चाहिए था।",
-      "answer": "I wanted some rest."
+      "hindi": "उन्हें किसी की मदद नहीं चाहिए थी।",
+      "answer": "They did not want any help."
+    },
+    {
+      "id": 11,
+      "hindi": "मैं हमेशा से इस field में काम करना चाहता था।",
+      "answer": "I always wanted to work in this field."
+    },
+    {
+      "id": 12,
+      "hindi": "बचपन में मैं pilot बनना चाहता था।",
+      "answer": "As a child, I wanted to become a pilot."
     }
   ],
   "mustRememberRules": [
-    "'Wanted' is the past tense of 'want' — same form for all subjects (I, he, she, we, they)",
-    "Used for desires or wishes in the past",
-    "Negative: did not want",
-    "Question: Did + subject + want...?"
+    "Rule 1: 'Wanted to' NOT 'wanted' alone — always add 'to' before a verb: I wanted TO go (✅), I wanted go (❌).",
+    "Rule 2: In questions — 'Did + subject + WANT (not wanted)': Did she WANT? (✅), Did she WANTED? (❌).",
+    "Rule 3: In negatives — 'did not WANT (not wanted)': I didn't WANT (✅), I didn't WANTED (❌).",
+    "Rule 4: 'Wanted' is SAME for all subjects — no 's', no change: I/he/she/we/they all use 'wanted'.",
+    "Rule 5: 'Wanted + noun' (no to) vs 'wanted + to + verb' — know which to use based on what follows.",
+    "Rule 6: Past context signal — words like yesterday, last year, as a child, at that time tell you to use 'wanted'.",
+    "Rule 7: Indirect speech — 'She says she wants' → 'She said she wanted' (backshifting in reported speech)."
   ]
 }

@@ -1,28 +1,43 @@
 {
   "day": 14,
   "title": "Use of Let's",
-  "slug": "14-use-of-let-s",
-  "type": "grammar",
+  "slug": "14-use-of-lets",
+  "type": "lesson",
   "difficulty": "beginner",
-  "cefr": "A1-A2",
+  "cefr": "A2",
   "emoji": "🤝",
-  "color": "#06b6d4",
+  "color": "#f59e0b",
   "topics": [
-    "Use of Let's"
+    "Let's + base verb (basic suggestions)",
+    "Let's not + base verb (negative suggestions)",
+    "Let us + base verb (formal version)",
+    "Common mistakes with Let's",
+    "Let's vs Let him/her/them (Day 13 contrast)",
+    "Let's in office and professional contexts",
+    "Let's in daily life and social situations",
+    "Motivational and rhetorical uses of Let's",
+    "Shall we? (question form of Let's)"
   ],
-  "totalQuestions": 25,
-  "totalVocabulary": 25,
+  "totalQuestions": 100,
+  "totalVocabulary": 100,
   "estimatedTime": "2-3 hours",
-  "xpReward": 200,
+  "xpReward": 130,
   "coinsReward": 30,
   "prerequisites": [
     13
   ],
   "nextDay": 15,
   "tags": [
-    "grammar",
-    "use of let's"
+    "lets",
+    "suggestion",
+    "imperative",
+    "inclusive",
+    "let-us",
+    "lets-not",
+    "office",
+    "professional",
+    "daily-life"
   ],
-  "lastUpdated": "2026-07-09",
-  "version": "1.0"
+  "lastUpdated": "2026-07-10",
+  "version": "2.0"
 }
