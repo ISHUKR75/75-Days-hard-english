@@ -105,10 +105,903 @@
         "I need your help."
       ],
       "answer": "I need your help."
+    },
+    {
+      "id": 9,
+      "audioScript": "The dog chases the ball.",
+      "hindiScript": "कुत्ता गेंद का पीछा करता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "A boy rides a bicycle.",
+        "The dog chases the ball.",
+        "She carries a heavy bag.",
+        "He opens the window."
+      ],
+      "answer": "The dog chases the ball."
+    },
+    {
+      "id": 10,
+      "audioScript": "My mother cooks delicious food.",
+      "hindiScript": "मेरी माँ स्वादिष्ट खाना बनाती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My mother cooks delicious food.",
+        "Her sister bakes a cake.",
+        "Our teacher explains the lesson.",
+        "His father fixes the car."
+      ],
+      "answer": "My mother cooks delicious food."
+    },
+    {
+      "id": 11,
+      "audioScript": "Ravi reads the newspaper every morning.",
+      "hindiScript": "रवि हर सुबह अखबार पढ़ता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Sita drinks coffee in the evening.",
+        "The children play in the garden.",
+        "Ravi reads the newspaper every morning.",
+        "My uncle walks to the market."
+      ],
+      "answer": "Ravi reads the newspaper every morning."
+    },
+    {
+      "id": 12,
+      "audioScript": "The teacher writes on the board.",
+      "hindiScript": "शिक्षक बोर्ड पर लिखता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The teacher writes on the board.",
+        "The student reads from the book.",
+        "The principal speaks to parents.",
+        "The librarian arranges the shelves."
+      ],
+      "answer": "The teacher writes on the board."
+    },
+    {
+      "id": 13,
+      "audioScript": "He carries a heavy bag to school.",
+      "hindiScript": "वह स्कूल में एक भारी बैग ले जाता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She brings lunch from home.",
+        "They ride the school bus daily.",
+        "He carries a heavy bag to school.",
+        "We finish homework before dinner."
+      ],
+      "answer": "He carries a heavy bag to school."
+    },
+    {
+      "id": 14,
+      "audioScript": "She wakes up early every day.",
+      "hindiScript": "वह हर दिन जल्दी उठती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She wakes up early every day.",
+        "He sleeps late on weekends.",
+        "They exercise in the morning.",
+        "We eat breakfast together."
+      ],
+      "answer": "She wakes up early every day."
+    },
+    {
+      "id": 15,
+      "audioScript": "I am a student.",
+      "hindiScript": "मैं एक छात्र हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "You are a teacher.",
+        "He is a doctor.",
+        "I am a student.",
+        "She is a nurse."
+      ],
+      "answer": "I am a student."
+    },
+    {
+      "id": 16,
+      "audioScript": "You are my best friend.",
+      "hindiScript": "तुम मेरे सबसे अच्छे दोस्त हो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is my classmate.",
+        "You are my best friend.",
+        "He is my neighbor.",
+        "They are my cousins."
+      ],
+      "answer": "You are my best friend."
+    },
+    {
+      "id": 17,
+      "audioScript": "He is a good cricket player.",
+      "hindiScript": "वह एक अच्छा क्रिकेट खिलाड़ी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is a talented singer.",
+        "We are new students here.",
+        "He is a good cricket player.",
+        "They are professional athletes."
+      ],
+      "answer": "He is a good cricket player."
+    },
+    {
+      "id": 18,
+      "audioScript": "She is a kind and helpful person.",
+      "hindiScript": "वह एक दयालु और मददगार इंसान है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She is a kind and helpful person.",
+        "He is a smart and clever boy.",
+        "We are friendly and cheerful people.",
+        "You are a talented and creative artist."
+      ],
+      "answer": "She is a kind and helpful person."
+    },
+    {
+      "id": 19,
+      "audioScript": "They are happy to meet us.",
+      "hindiScript": "वे हमसे मिलकर खुश हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We are excited to start the journey.",
+        "They are happy to meet us.",
+        "He is ready to give the speech.",
+        "She is eager to learn new things."
+      ],
+      "answer": "They are happy to meet us."
+    },
+    {
+      "id": 20,
+      "audioScript": "We are going to the market.",
+      "hindiScript": "हम बाज़ार जा रहे हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They are coming from the station.",
+        "She is walking to the park.",
+        "He is running in the field.",
+        "We are going to the market."
+      ],
+      "answer": "We are going to the market."
+    },
+    {
+      "id": 21,
+      "audioScript": "He helped me with my homework.",
+      "hindiScript": "उसने मेरे गृहकार्य में मेरी मदद की।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She taught me a new word.",
+        "He helped me with my homework.",
+        "They showed me the way.",
+        "You explained the problem to me."
+      ],
+      "answer": "He helped me with my homework."
+    },
+    {
+      "id": 22,
+      "audioScript": "Can you see her near the gate?",
+      "hindiScript": "क्या तुम उसे गेट के पास देख सकते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Can you see her near the gate?",
+        "Did you meet him at the station?",
+        "Will she find them in the garden?",
+        "Do they know us from before?"
+      ],
+      "answer": "Can you see her near the gate?"
+    },
+    {
+      "id": 23,
+      "audioScript": "The teacher called them to the front.",
+      "hindiScript": "शिक्षक ने उन्हें आगे बुलाया।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The manager sent us an email.",
+        "The teacher called them to the front.",
+        "My friend told me a story.",
+        "The doctor checked him carefully."
+      ],
+      "answer": "The teacher called them to the front."
+    },
+    {
+      "id": 24,
+      "audioScript": "Please give me the pen.",
+      "hindiScript": "कृपया मुझे पेन दे दो।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Please show us the map.",
+        "Kindly bring her the book.",
+        "Please give me the pen.",
+        "Can you pass him the water?"
+      ],
+      "answer": "Please give me the pen."
+    },
+    {
+      "id": 25,
+      "audioScript": "She asked us to wait outside.",
+      "hindiScript": "उसने हमें बाहर इंतज़ार करने को कहा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He told them to sit quietly.",
+        "They invited us to come inside.",
+        "She asked us to wait outside.",
+        "We told him to go home."
+      ],
+      "answer": "She asked us to wait outside."
+    },
+    {
+      "id": 26,
+      "audioScript": "This is my book.",
+      "hindiScript": "यह मेरी किताब है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "That is her notebook.",
+        "These are our pens.",
+        "This is my book.",
+        "Those are their bags."
+      ],
+      "answer": "This is my book."
+    },
+    {
+      "id": 27,
+      "audioScript": "Her dress is very beautiful.",
+      "hindiScript": "उसकी पोशाक बहुत सुंदर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "His shirt is quite expensive.",
+        "Their house is really big.",
+        "Our garden looks very lovely.",
+        "Her dress is very beautiful."
+      ],
+      "answer": "Her dress is very beautiful."
+    },
+    {
+      "id": 28,
+      "audioScript": "Their children play in the park.",
+      "hindiScript": "उनके बच्चे पार्क में खेलते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Our friends visit us on weekends.",
+        "Their children play in the park.",
+        "His parents live in another city.",
+        "My siblings study in the same school."
+      ],
+      "answer": "Their children play in the park."
+    },
+    {
+      "id": 29,
+      "audioScript": "His car is parked outside.",
+      "hindiScript": "उसकी कार बाहर खड़ी है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "His car is parked outside.",
+        "Her scooter is inside the garage.",
+        "Their truck is on the highway.",
+        "Our bicycle is near the wall."
+      ],
+      "answer": "His car is parked outside."
+    },
+    {
+      "id": 30,
+      "audioScript": "Our team won the match today.",
+      "hindiScript": "हमारी टीम ने आज मैच जीता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Your group finished the project.",
+        "Their class performed very well.",
+        "Our team won the match today.",
+        "His side lost the game badly."
+      ],
+      "answer": "Our team won the match today."
+    },
+    {
+      "id": 31,
+      "audioScript": "I have a red umbrella.",
+      "hindiScript": "मेरे पास एक लाल छाता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She owns a blue scooter.",
+        "He carries an old briefcase.",
+        "I have a red umbrella.",
+        "They use a green water bottle."
+      ],
+      "answer": "I have a red umbrella."
+    },
+    {
+      "id": 32,
+      "audioScript": "An elephant is a large animal.",
+      "hindiScript": "हाथी एक बड़ा जानवर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "A lion is a dangerous predator.",
+        "The tiger lives in a forest.",
+        "An elephant is a large animal.",
+        "A parrot is a colorful bird."
+      ],
+      "answer": "An elephant is a large animal."
+    },
+    {
+      "id": 33,
+      "audioScript": "The sun rises in the east.",
+      "hindiScript": "सूरज पूर्व में उगता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The moon shines at night.",
+        "The stars appear after sunset.",
+        "A rainbow forms after rain.",
+        "The sun rises in the east."
+      ],
+      "answer": "The sun rises in the east."
+    },
+    {
+      "id": 34,
+      "audioScript": "She bought an apple from the shop.",
+      "hindiScript": "उसने दुकान से एक सेब खरीदा।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He ate an orange after lunch.",
+        "They picked a mango from the tree.",
+        "She bought an apple from the shop.",
+        "We found a lemon in the kitchen."
+      ],
+      "answer": "She bought an apple from the shop."
+    },
+    {
+      "id": 35,
+      "audioScript": "A doctor works in a hospital.",
+      "hindiScript": "एक डॉक्टर अस्पताल में काम करता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "A doctor works in a hospital.",
+        "An engineer builds a bridge.",
+        "The pilot flies the plane.",
+        "A teacher stands in the classroom."
+      ],
+      "answer": "A doctor works in a hospital."
+    },
+    {
+      "id": 36,
+      "audioScript": "The book is on the table.",
+      "hindiScript": "किताब मेज़ पर है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "A pen is under the chair.",
+        "An eraser is inside the bag.",
+        "The book is on the table.",
+        "Some papers are beside the lamp."
+      ],
+      "answer": "The book is on the table."
+    },
+    {
+      "id": 37,
+      "audioScript": "Do you like mangoes?",
+      "hindiScript": "क्या तुम्हें आम पसंद हैं?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Does she eat oranges?",
+        "Do you like mangoes?",
+        "Did they enjoy the party?",
+        "Will he come tomorrow?"
+      ],
+      "answer": "Do you like mangoes?"
+    },
+    {
+      "id": 38,
+      "audioScript": "Where does she live?",
+      "hindiScript": "वह कहाँ रहती है?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "When do they arrive?",
+        "Why does he shout?",
+        "Where does she live?",
+        "How do we get there?"
+      ],
+      "answer": "Where does she live?"
+    },
+    {
+      "id": 39,
+      "audioScript": "What time does the train leave?",
+      "hindiScript": "ट्रेन किस समय जाती है?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "What time does the train leave?",
+        "How long does the bus take?",
+        "Where does the flight land?",
+        "When does the show begin?"
+      ],
+      "answer": "What time does the train leave?"
+    },
+    {
+      "id": 40,
+      "audioScript": "How many students are in your class?",
+      "hindiScript": "तुम्हारी कक्षा में कितने छात्र हैं?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "How many books do you have?",
+        "How many students are in your class?",
+        "How much water is in the bottle?",
+        "How many fruits did she buy?"
+      ],
+      "answer": "How many students are in your class?"
+    },
+    {
+      "id": 41,
+      "audioScript": "Why does he come late every day?",
+      "hindiScript": "वह हर दिन देर से क्यों आता है?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "When does she finish her work?",
+        "Where do they go on Sundays?",
+        "Why does he come late every day?",
+        "How does it work so well?"
+      ],
+      "answer": "Why does he come late every day?"
+    },
+    {
+      "id": 42,
+      "audioScript": "Can you speak English fluently?",
+      "hindiScript": "क्या तुम अंग्रेज़ी धाराप्रवाह बोल सकते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Do you understand this lesson?",
+        "Can you speak English fluently?",
+        "Will you help me with the exercise?",
+        "Should we start the class now?"
+      ],
+      "answer": "Can you speak English fluently?"
+    },
+    {
+      "id": 43,
+      "audioScript": "I do not eat meat.",
+      "hindiScript": "मैं मांस नहीं खाता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He does not drink coffee.",
+        "She does not watch movies.",
+        "I do not eat meat.",
+        "We do not play cards."
+      ],
+      "answer": "I do not eat meat."
+    },
+    {
+      "id": 44,
+      "audioScript": "She does not live here anymore.",
+      "hindiScript": "वह अब यहाँ नहीं रहती।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He does not work in this office.",
+        "She does not live here anymore.",
+        "They do not travel by train.",
+        "We do not use this room."
+      ],
+      "answer": "She does not live here anymore."
+    },
+    {
+      "id": 45,
+      "audioScript": "They do not understand the question.",
+      "hindiScript": "वे प्रश्न नहीं समझते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "We do not remember the address.",
+        "He does not know the answer.",
+        "They do not understand the question.",
+        "She does not hear the music."
+      ],
+      "answer": "They do not understand the question."
+    },
+    {
+      "id": 46,
+      "audioScript": "He does not have a mobile phone.",
+      "hindiScript": "उसके पास मोबाइल फोन नहीं है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She does not own a bicycle.",
+        "I do not carry an umbrella.",
+        "They do not possess a camera.",
+        "He does not have a mobile phone."
+      ],
+      "answer": "He does not have a mobile phone."
+    },
+    {
+      "id": 47,
+      "audioScript": "We do not go to school on Sunday.",
+      "hindiScript": "हम रविवार को स्कूल नहीं जाते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They do not work on Saturday.",
+        "She does not rest on Monday.",
+        "We do not go to school on Sunday.",
+        "He does not play on Friday."
+      ],
+      "answer": "We do not go to school on Sunday."
+    },
+    {
+      "id": 48,
+      "audioScript": "I do not want to be late.",
+      "hindiScript": "मैं देर नहीं करना चाहता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She does not want to miss the bus.",
+        "I do not want to be late.",
+        "He does not wish to stay back.",
+        "They do not plan to leave early."
+      ],
+      "answer": "I do not want to be late."
+    },
+    {
+      "id": 49,
+      "audioScript": "She opens the door every morning.",
+      "hindiScript": "वह हर सुबह दरवाज़ा खोलती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He locks the gate at night.",
+        "They close the windows in the evening.",
+        "She opens the door every morning.",
+        "We switch off the lights before bed."
+      ],
+      "answer": "She opens the door every morning."
+    },
+    {
+      "id": 50,
+      "audioScript": "He runs five kilometres every day.",
+      "hindiScript": "वह हर दिन पाँच किलोमीटर दौड़ता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He runs five kilometres every day.",
+        "She walks three kilometres each morning.",
+        "They cycle ten kilometres on weekends.",
+        "We swim for thirty minutes daily."
+      ],
+      "answer": "He runs five kilometres every day."
+    },
+    {
+      "id": 51,
+      "audioScript": "We eat lunch at one o'clock.",
+      "hindiScript": "हम एक बजे दोपहर का खाना खाते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "They have dinner at eight o'clock.",
+        "She eats breakfast at seven in the morning.",
+        "We eat lunch at one o'clock.",
+        "He drinks tea at four in the afternoon."
+      ],
+      "answer": "We eat lunch at one o'clock."
+    },
+    {
+      "id": 52,
+      "audioScript": "The birds sing in the trees.",
+      "hindiScript": "पक्षी पेड़ों पर गाते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The fish swim in the river.",
+        "The dogs bark at strangers.",
+        "The birds sing in the trees.",
+        "The cats sleep on the roof."
+      ],
+      "answer": "The birds sing in the trees."
+    },
+    {
+      "id": 53,
+      "audioScript": "She knows how to swim.",
+      "hindiScript": "उसे तैरना आता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He learns how to cook.",
+        "We try to speak clearly.",
+        "She knows how to swim.",
+        "They want to travel abroad."
+      ],
+      "answer": "She knows how to swim."
+    },
+    {
+      "id": 54,
+      "audioScript": "He comes to school by bus.",
+      "hindiScript": "वह बस से स्कूल आता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She goes to work by train.",
+        "He comes to school by bus.",
+        "They travel to the city by car.",
+        "We reach the market on foot."
+      ],
+      "answer": "He comes to school by bus."
+    },
+    {
+      "id": 55,
+      "audioScript": "I drink a glass of water after meals.",
+      "hindiScript": "मैं खाने के बाद एक गिलास पानी पीता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She eats a bowl of rice for lunch.",
+        "They drink juice before exercise.",
+        "I drink a glass of water after meals.",
+        "He takes a cup of tea in the morning."
+      ],
+      "answer": "I drink a glass of water after meals."
+    },
+    {
+      "id": 56,
+      "audioScript": "My father goes to the office by car.",
+      "hindiScript": "मेरे पिताजी कार से दफ़्तर जाते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My brother rides a bicycle to college.",
+        "Her sister walks to the nearby shop.",
+        "My father goes to the office by car.",
+        "Their mother takes a rickshaw daily."
+      ],
+      "answer": "My father goes to the office by car."
+    },
+    {
+      "id": 57,
+      "audioScript": "She cleans the house on Saturdays.",
+      "hindiScript": "वह शनिवार को घर साफ करती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He washes his clothes on Sundays.",
+        "They cook special food on Fridays.",
+        "She cleans the house on Saturdays.",
+        "We visit grandparents on holidays."
+      ],
+      "answer": "She cleans the house on Saturdays."
+    },
+    {
+      "id": 58,
+      "audioScript": "He fixes broken things at home.",
+      "hindiScript": "वह घर में टूटी हुई चीज़ें ठीक करता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She paints the walls in summer.",
+        "They repair old furniture sometimes.",
+        "He fixes broken things at home.",
+        "We arrange books on the shelf."
+      ],
+      "answer": "He fixes broken things at home."
+    },
+    {
+      "id": 59,
+      "audioScript": "The sky looks very clear today.",
+      "hindiScript": "आज आसमान बहुत साफ दिख रहा है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The weather feels quite cold outside.",
+        "The sky looks very clear today.",
+        "The rain falls heavily in July.",
+        "The wind blows strongly in winter."
+      ],
+      "answer": "The sky looks very clear today."
+    },
+    {
+      "id": 60,
+      "audioScript": "I write in my diary every night.",
+      "hindiScript": "मैं हर रात अपनी डायरी में लिखता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She reads her notes every morning.",
+        "He reviews his schedule each evening.",
+        "I write in my diary every night.",
+        "We plan our week on Sundays."
+      ],
+      "answer": "I write in my diary every night."
+    },
+    {
+      "id": 61,
+      "audioScript": "The children play outside after school.",
+      "hindiScript": "बच्चे स्कूल के बाद बाहर खेलते हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The students rest in the library.",
+        "The children play outside after school.",
+        "The teachers meet after class.",
+        "The parents wait at the gate."
+      ],
+      "answer": "The children play outside after school."
+    },
+    {
+      "id": 62,
+      "audioScript": "She sells flowers near the temple.",
+      "hindiScript": "वह मंदिर के पास फूल बेचती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He sells fruits at the market.",
+        "They sell vegetables near the school.",
+        "She sells flowers near the temple.",
+        "We sell books outside the library."
+      ],
+      "answer": "She sells flowers near the temple."
+    },
+    {
+      "id": 63,
+      "audioScript": "I use a dictionary to learn new words.",
+      "hindiScript": "मैं नए शब्द सीखने के लिए शब्दकोश का उपयोग करता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She uses flashcards to remember vocabulary.",
+        "He watches videos to practise grammar.",
+        "They listen to songs to improve English.",
+        "I use a dictionary to learn new words."
+      ],
+      "answer": "I use a dictionary to learn new words."
+    },
+    {
+      "id": 64,
+      "audioScript": "He puts the key on the shelf.",
+      "hindiScript": "वह चाबी शेल्फ पर रखता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She keeps her wallet in the drawer.",
+        "He puts the key on the shelf.",
+        "They place the files on the desk.",
+        "We store our documents in the cupboard."
+      ],
+      "answer": "He puts the key on the shelf."
+    },
+    {
+      "id": 65,
+      "audioScript": "The market opens at nine in the morning.",
+      "hindiScript": "बाज़ार सुबह नौ बजे खुलता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The library closes at five in the evening.",
+        "The school starts at eight in the morning.",
+        "The market opens at nine in the morning.",
+        "The bank shuts at three in the afternoon."
+      ],
+      "answer": "The market opens at nine in the morning."
+    },
+    {
+      "id": 66,
+      "audioScript": "She brings fresh milk every morning.",
+      "hindiScript": "वह हर सुबह ताज़ा दूध लाती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "He delivers newspapers early each day.",
+        "They collect eggs from the farm.",
+        "She brings fresh milk every morning.",
+        "We pick vegetables from the garden."
+      ],
+      "answer": "She brings fresh milk every morning."
+    },
+    {
+      "id": 67,
+      "audioScript": "My sister works in a big company.",
+      "hindiScript": "मेरी बहन एक बड़ी कंपनी में काम करती है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "My brother studies at a good college.",
+        "Her friend teaches in a primary school.",
+        "Our cousin runs a small shop.",
+        "My sister works in a big company."
+      ],
+      "answer": "My sister works in a big company."
+    },
+    {
+      "id": 68,
+      "audioScript": "He does not play football on rainy days.",
+      "hindiScript": "वह बरसात के दिनों में फुटबॉल नहीं खेलता।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She does not cycle when it is cold.",
+        "He does not play football on rainy days.",
+        "They do not go swimming in winter.",
+        "We do not walk when it is too hot."
+      ],
+      "answer": "He does not play football on rainy days."
+    },
+    {
+      "id": 69,
+      "audioScript": "Where do you keep your school bag?",
+      "hindiScript": "तुम अपना स्कूल बैग कहाँ रखते हो?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "How do you carry your lunch box?",
+        "When do you finish your homework?",
+        "Where do you keep your school bag?",
+        "What do you wear to school?"
+      ],
+      "answer": "Where do you keep your school bag?"
+    },
+    {
+      "id": 70,
+      "audioScript": "An honest person always speaks the truth.",
+      "hindiScript": "एक ईमानदार इंसान हमेशा सच बोलता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "A brave soldier fights for the country.",
+        "An honest person always speaks the truth.",
+        "The wise teacher guides the students.",
+        "A kind woman helps the poor children."
+      ],
+      "answer": "An honest person always speaks the truth."
+    },
+    {
+      "id": 71,
+      "audioScript": "The children do not make noise in class.",
+      "hindiScript": "बच्चे कक्षा में शोर नहीं करते।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "The students do not talk during the test.",
+        "The children do not make noise in class.",
+        "The teachers do not shout at anyone.",
+        "The workers do not stop for a break."
+      ],
+      "answer": "The children do not make noise in class."
+    },
+    {
+      "id": 72,
+      "audioScript": "Does your grandfather know English?",
+      "hindiScript": "क्या तुम्हारे दादाजी अंग्रेज़ी जानते हैं?",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "Does your grandmother speak Hindi?",
+        "Does your grandfather know English?",
+        "Did your uncle study abroad?",
+        "Do your parents understand French?"
+      ],
+      "answer": "Does your grandfather know English?"
+    },
+    {
+      "id": 73,
+      "audioScript": "I take a shower before breakfast.",
+      "hindiScript": "मैं नाश्ते से पहले नहाता हूँ।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "She brushes her teeth after dinner.",
+        "He washes his face before sleeping.",
+        "I take a shower before breakfast.",
+        "They comb their hair in the morning."
+      ],
+      "answer": "I take a shower before breakfast."
+    },
+    {
+      "id": 74,
+      "audioScript": "Her bag contains many useful things.",
+      "hindiScript": "उसके बैग में कई उपयोगी चीज़ें हैं।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "His pocket holds some loose change.",
+        "Our cupboard stores old clothes.",
+        "Her bag contains many useful things.",
+        "Their box carries some old papers."
+      ],
+      "answer": "Her bag contains many useful things."
+    },
+    {
+      "id": 75,
+      "audioScript": "The old man sits under the tree.",
+      "hindiScript": "बुज़ुर्ग आदमी पेड़ के नीचे बैठता है।",
+      "question": "What did you hear? Choose the correct sentence.",
+      "options": [
+        "A young girl stands near the fence.",
+        "The old man sits under the tree.",
+        "A small child plays beside the pond.",
+        "The tall woman waits at the door."
+      ],
+      "answer": "The old man sits under the tree."
     }
   ],
   "dictationPassage": {
     "text": "She buys vegetables. I watch TV every night. He plays guitar. They drink tea. We speak Hindi.",
     "hindiTranslation": "वह सब्जियाँ खरीदती है। मैं हर रात TV देखता हूँ। वह गिटार बजाता है। वे चाय पीते हैं। हम हिंदी बोलते हैं।"
-  }
+  },
+  "dictationPassages": [
+    {
+      "text": "She buys vegetables. I watch TV every night. He plays guitar. They drink tea. We speak Hindi.",
+      "hindiTranslation": "वह सब्जियाँ खरीदती है। मैं हर रात TV देखता हूँ। वह गिटार बजाता है। वे चाय पीते हैं। हम हिंदी बोलते हैं।"
+    },
+    {
+      "text": "I wake up at six in the morning. I brush my teeth and wash my face. Then I take a shower and get dressed. My mother cooks breakfast for the family. We eat together before leaving for school and work.",
+      "hindiTranslation": "मैं सुबह छह बजे उठता हूँ। मैं दाँत साफ करता हूँ और अपना चेहरा धोता हूँ। फिर मैं नहाता हूँ और कपड़े पहनता हूँ। मेरी माँ परिवार के लिए नाश्ता बनाती है। स्कूल और काम पर जाने से पहले हम साथ में खाते हैं।"
+    },
+    {
+      "text": "She washes her hands before every meal. She drinks a glass of water in the morning. She brushes her hair and wears clean clothes. She does not eat junk food every day. She sleeps early to stay healthy and fresh.",
+      "hindiTranslation": "वह हर खाने से पहले हाथ धोती है। वह सुबह एक गिलास पानी पीती है। वह अपने बाल काढ़ती है और साफ कपड़े पहनती है। वह हर दिन जंक फूड नहीं खाती। वह स्वस्थ और ताज़ा रहने के लिए जल्दी सोती है।"
+    },
+    {
+      "text": "The sky is clear today. The sun shines brightly in the morning. An umbrella is useful on a rainy day. The clouds appear in the afternoon. A rainbow is a beautiful sight after the rain.",
+      "hindiTranslation": "आज आसमान साफ है। सुबह सूरज चमकदार तरीके से चमकता है। बरसात के दिन छाता उपयोगी होता है। दोपहर को बादल आते हैं। बारिश के बाद इंद्रधनुष एक सुंदर दृश्य होता है।"
+    },
+    {
+      "text": "Do you know how to speak English? I do not understand this word. Where does she go every evening? He does not play outside when it rains. Can you help me with this sentence?",
+      "hindiTranslation": "क्या तुम्हें अंग्रेज़ी बोलना आता है? मैं यह शब्द नहीं समझता। वह हर शाम कहाँ जाती है? जब बारिश होती है तो वह बाहर नहीं खेलता। क्या तुम इस वाक्य में मेरी मदद कर सकते हो?"
+    }
+  ]
 }

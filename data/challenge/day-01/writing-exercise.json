@@ -1,7 +1,7 @@
 {
   "day": 1,
   "topic": "Basics of English",
-  "totalExercises": 25,
+  "totalExercises": 45,
   "exercises": [
     {
       "id": 1,
@@ -227,6 +227,186 @@
       "content": "Write your complete daily routine from morning to night using time expressions (at 6 AM, in the afternoon, at night) and frequency adverbs (always, usually, sometimes, never).",
       "answer": "I always wake up at 6 AM. First, I brush my teeth and take a bath. Then I eat breakfast with my family. I usually have bread, butter, and tea. I go to college at 8:30 AM by metro. I study there until 2 PM. In the afternoon, I eat lunch and rest for 30 minutes. After that, I do my homework and study for the next day. I sometimes play cricket with my friends in the evening. At night, my family eats dinner together at 9 PM. I usually read for 30 minutes before sleeping. I never sleep after midnight.",
       "explanation": "Daily routine describe करने के लिए: time expressions (at 6 AM, in the afternoon), sequence words (first, then, after that), और frequency adverbs (always, usually, sometimes, never) का use करें।"
+    },
+    {
+      "id": 26,
+      "type": "translation",
+      "title": "Hindi से English — Object Pronouns",
+      "instructions": "इन Hindi sentences को English में translate करें। Object pronoun पर ध्यान दें।",
+      "content": ["उसने मुझे एक किताब दी।", "मैं उन्हें रोज़ देखता हूँ।", "क्या तुम उसे जानते हो?", "हमारे teacher हमें हमेशा encourage करते हैं।", "वह उसे पसंद नहीं करती।", "मेरी माँ मुझसे बहुत प्यार करती है।", "क्या तुमने उसे invite किया?", "मैंने उन्हें सच बता दिया।", "उन्होंने हमें airport पर drop किया।", "वह इसे ठीक नहीं कर सकता।"],
+      "answer": ["She gave me a book.", "I see them every day.", "Do you know him?", "Our teacher always encourages us.", "She doesn't like him.", "My mother loves me a lot.", "Did you invite her?", "I told them the truth.", "They dropped us at the airport.", "He cannot fix it."],
+      "explanation": "Object pronouns (me, him, her, us, them, it) verb के बाद आते हैं। Subject pronoun (I, He, She, They) को object position में कभी use नहीं करते।"
+    },
+    {
+      "id": 27,
+      "type": "sentence-correction",
+      "title": "Object Pronoun की गलतियाँ ठीक करें",
+      "instructions": "इन sentences में object pronoun की गलतियाँ ठीक करें।",
+      "content": ["She gave the book to I.", "He likes she a lot.", "Please help we with this.", "I saw they at the market.", "My boss called I for a meeting.", "Between you and I, this is wrong.", "She told the news to he.", "The teacher praised we for our work.", "Can you drop I home?", "I don't know he personally."],
+      "answer": ["She gave the book to me.", "He likes her a lot.", "Please help us with this.", "I saw them at the market.", "My boss called me for a meeting.", "Between you and me, this is wrong.", "She told the news to him.", "The teacher praised us for our work.", "Can you drop me home?", "I don't know him personally."],
+      "explanation": "Preposition और verb के बाद subject pronoun नहीं, object pronoun आता है: I→me, She→her, We→us, They→them, He→him।"
+    },
+    {
+      "id": 28,
+      "type": "translation",
+      "title": "Hindi से English — Possessive Adjectives",
+      "instructions": "इन sentences को English में translate करें। Possessive adjective सही से use करें।",
+      "content": ["मेरा फ़ोन नंबर बदल गया है।", "उसकी नौकरी बहुत अच्छी है।", "उनके बच्चे बहुत शरारती हैं।", "हमारा घर बाज़ार के पास है।", "उसके पिताजी army में हैं।", "मेरी माँ की तबीयत ठीक नहीं है।", "तुम्हारा जवाब बिल्कुल सही है।", "उनकी company बहुत famous है।", "इसका price बहुत ज़्यादा है।", "हमारी team बहुत hardworking है।"],
+      "answer": ["My phone number has changed.", "His/Her job is very good.", "Their children are very naughty.", "Our house is near the market.", "His father is in the army.", "My mother is not well.", "Your answer is absolutely correct.", "Their company is very famous.", "Its price is very high.", "Our team is very hardworking."],
+      "explanation": "Possessive adjectives: my (मेरा/मेरी), your (तुम्हारा/तुम्हारी), his (उसका — male), her (उसकी — female), its (इसका — thing), our (हमारा/हमारी), their (उनका/उनकी)।"
+    },
+    {
+      "id": 29,
+      "type": "fill-in-blank",
+      "title": "Possessive Adjectives vs Object Pronouns",
+      "instructions": "Bracket में दिए गए hint को देखकर सही possessive adjective या object pronoun भरें।",
+      "content": ["___ sister is a nurse. (I)", "He called ___. (I)", "___ bag is on the desk. (she)", "We met ___ at the station. (he)", "___ mother works in a school. (they)", "The teacher helped ___. (we)", "___ dream is to study abroad. (he)", "I respect ___ very much. (she)", "___ office is very big. (we)", "Can you bring ___ some water? (I)"],
+      "answer": ["My", "me", "Her", "him", "Their", "us", "His", "her", "Our", "me"],
+      "explanation": "Noun से पहले possessive adjective (my, his, her, our, their) आता है। Verb या preposition के बाद object pronoun (me, him, her, us, them) आता है।"
+    },
+    {
+      "id": 30,
+      "type": "sentence-correction",
+      "title": "Negative Sentences — Don't / Doesn't गलतियाँ ठीक करें",
+      "instructions": "इन sentences में don't/doesn't की गलतियाँ ठीक करें।",
+      "content": ["He don't go to the gym.", "They doesn't speak English.", "She don't have a car.", "I doesn't understand the question.", "My cat don't drink water.", "We doesn't watch cricket.", "He doesn't going to work today.", "She don't wants to come.", "They doesn't likes spicy food.", "It don't matter to me."],
+      "answer": ["He doesn't go to the gym.", "They don't speak English.", "She doesn't have a car.", "I don't understand the question.", "My cat doesn't drink water.", "We don't watch cricket.", "He doesn't go to work today.", "She doesn't want to come.", "They don't like spicy food.", "It doesn't matter to me."],
+      "explanation": "He/She/It और singular noun के साथ 'doesn't' आता है। I/You/We/They के साथ 'don't' आता है। Don't/doesn't के बाद हमेशा base verb आती है, verb+s या verb+ing नहीं।"
+    },
+    {
+      "id": 31,
+      "type": "translation",
+      "title": "Hindi से English — Negative Sentences",
+      "instructions": "इन Hindi negative sentences को English में translate करें।",
+      "content": ["मैं fast food नहीं खाता।", "वह office देर से नहीं आती।", "हम Sunday को काम नहीं करते।", "वह किसी की बात नहीं सुनता।", "मुझे यह काम पसंद नहीं।", "वे इस city में नहीं रहते।", "मेरा भाई cricket नहीं खेलता।", "वह झूठ नहीं बोलती।", "हम बाहर का खाना कम खाते हैं।", "मेरी दादीजी TV नहीं देखतीं।"],
+      "answer": ["I don't eat fast food.", "She doesn't come late to the office.", "We don't work on Sundays.", "He doesn't listen to anyone.", "I don't like this work.", "They don't live in this city.", "My brother doesn't play cricket.", "She doesn't tell lies.", "We don't eat out much.", "My grandmother doesn't watch TV."],
+      "explanation": "Negative sentences: I/We/You/They + don't + base verb। He/She/It + doesn't + base verb। Doesn't/don't के बाद verb में 's/es' नहीं लगता।"
+    },
+    {
+      "id": 32,
+      "type": "sentence-correction",
+      "title": "Question Formation की गलतियाँ ठीक करें",
+      "instructions": "इन questions में grammar की गलतियाँ ठीक करें।",
+      "content": ["Do she work in a hospital?", "Does they play cricket?", "Where you live?", "What does he wants?", "Does your brother knows English?", "Do the teacher explains well?", "Where does she goes on weekends?", "Who does lives here?", "Does he going to school today?", "What you eat for breakfast?"],
+      "answer": ["Does she work in a hospital?", "Do they play cricket?", "Where do you live?", "What does he want?", "Does your brother know English?", "Does the teacher explain well?", "Where does she go on weekends?", "Who lives here?", "Does he go to school today?", "What do you eat for breakfast?"],
+      "explanation": "He/She/It → Does + subject + base verb। They/You/We/I → Do + subject + base verb। Does/Do के बाद हमेशा base verb आती है। WH questions: WH word + do/does + subject + base verb?"
+    },
+    {
+      "id": 33,
+      "type": "translation",
+      "title": "Hindi से English — Common Verbs",
+      "instructions": "इन sentences को English में translate करें। Common verbs का सही use करें।",
+      "content": ["वह रोज़ gym जाता है।", "मैं हर रात 7 बजे खाना खाता हूँ।", "वह अपने दोस्तों को रोज़ call करती है।", "हम हर Sunday को मंदिर जाते हैं।", "वह बहुत अच्छी guitar बजाती है।", "मेरे पिताजी newspaper ज़रूर पढ़ते हैं।", "वह हर रात diary लिखती है।", "मैं हर morning 2 km walk करता हूँ।", "वे हर साल नई car खरीदते हैं।", "हम एक दूसरे की मदद करते हैं।"],
+      "answer": ["He goes to the gym every day.", "I eat dinner at 7 PM every night.", "She calls her friends every day.", "We go to the temple every Sunday.", "She plays the guitar very well.", "My father always reads the newspaper.", "She writes in her diary every night.", "I walk 2 km every morning.", "They buy a new car every year.", "We help each other."],
+      "explanation": "Common verbs (go, eat, call, play, read, write, walk, buy, help) He/She/It के साथ verb+s/es form लेते हैं। Regular daily actions के लिए simple present tense use करें।"
+    },
+    {
+      "id": 34,
+      "type": "fill-in-blank",
+      "title": "Daily Vocabulary — Fill the Verb",
+      "instructions": "Bracket में दिए गए verb की सही form से blank भरें।",
+      "content": ["She ___ to school by auto. (go)", "They ___ their vegetables from the market. (buy)", "He ___ the dishes after dinner. (wash)", "My mother ___ breakfast at 7 AM. (make)", "The dog ___ loudly at night. (bark)", "She ___ her nails every Sunday. (cut)", "I ___ my clothes on Saturdays. (wash)", "He ___ the bills online. (pay)", "She ___ her hair very long. (keep)", "The postman ___ letters every morning. (deliver)"],
+      "answer": ["goes", "buy", "washes", "makes", "barks", "cuts", "wash", "pays", "keeps", "delivers"],
+      "explanation": "He/She/It: go→goes, wash→washes, make→makes, bark→barks, cut→cuts, pay→pays, keep→keeps, deliver→delivers। I/They: buy, wash (no change needed)।"
+    },
+    {
+      "id": 35,
+      "type": "translation",
+      "title": "Hindi से English — Articles A/An/The",
+      "instructions": "इन sentences को English में translate करें। Articles का सही use करें।",
+      "content": ["वह एक honest इंसान है।", "मुझे एक umbrella चाहिए।", "वह एक university में पढ़ाता है।", "मैं कल एक movie देखूँगा।", "वह movie बहुत अच्छी थी।", "क्या तुम्हारे पास one-rupee coin है?", "वह army में है।", "Taj Mahal एक बहुत सुंदर इमारत है।", "मुझे एक orange चाहिए।", "सूरज पश्चिम में डूबता है।"],
+      "answer": ["He is an honest person.", "I need an umbrella.", "He teaches at a university.", "I will watch a movie tomorrow.", "The movie was very good.", "Do you have a one-rupee coin?", "He is in the army.", "The Taj Mahal is a very beautiful building.", "I want an orange.", "The sun sets in the west."],
+      "explanation": "Vowel sound से शुरू होने वाले शब्दों से पहले 'an' (an honest, an umbrella, an orange)। 'A' से पहले consonant sound (a university — 'yoo' sound)। Specific/known चीज़ से पहले 'the'।"
+    },
+    {
+      "id": 36,
+      "type": "sentence-correction",
+      "title": "Possessive Adjectives vs Possessive Pronouns — गलतियाँ ठीक करें",
+      "instructions": "इन sentences में possessive adjective की गलतियाँ ठीक करें।",
+      "content": ["Her sister and her brother are doctors.", "My and your books are on the table.", "She lost his bag yesterday. (subject: she)", "His children play with their toys (referring to her children).", "The company and it's employees are happy.", "We enjoy our ours holidays together.", "I forgot my mine wallet at home.", "Their house and their car are new.", "She is proud of her her achievement.", "He takes good care of his his health."],
+      "answer": ["Her sister and her brother are doctors.", "My books and your books are on the table.", "She lost her bag yesterday.", "Her children play with their toys.", "The company and its employees are happy.", "We enjoy our holidays together.", "I forgot my wallet at home.", "Their house and their car are new.", "She is proud of her achievement.", "He takes good care of his health."],
+      "explanation": "Possessive adjective (my, your, his, her, its, our, their) noun से पहले एक बार आता है। 'Its' = possessive (no apostrophe); 'it's' = it is। Subject के gender से match करना ज़रूरी है।"
+    },
+    {
+      "id": 37,
+      "type": "translation",
+      "title": "Hindi से English — SVO Structure",
+      "instructions": "इन sentences को English में SVO (Subject-Verb-Object) structure में translate करें।",
+      "content": ["मेरी माँ खाना बनाती है।", "बच्चे cricket खेलते हैं।", "वह हर रात किताब पढ़ती है।", "हमारा driver गाड़ी बहुत अच्छे से चलाता है।", "मैं हर सुबह अखबार पढ़ता हूँ।", "वह English सीख रहा है।", "वे हर साल new year celebrate करते हैं।", "मेरा दोस्त guitar बजाता है।", "वह अपने माता-पिता की देखभाल करती है।", "हम एक साथ lunch खाते हैं।"],
+      "answer": ["My mother cooks food.", "The children play cricket.", "She reads a book every night.", "Our driver drives the car very well.", "I read the newspaper every morning.", "He is learning English.", "They celebrate New Year every year.", "My friend plays the guitar.", "She takes care of her parents.", "We eat lunch together."],
+      "explanation": "English में SVO order follow होता है: Subject पहले, फिर Verb, फिर Object। Hindi में SOV order होता है (Subject-Object-Verb) इसलिए English में translate करते समय verb को object से पहले लाना होता है।"
+    },
+    {
+      "id": 38,
+      "type": "email",
+      "title": "रिश्तेदार को Email — घर की खबर",
+      "instructions": "अपने दूर रहने वाले चाचाजी को English में email लिखें जिसमें घर की खबर हो। 80-100 words।",
+      "content": "Write an email to your uncle who lives in another city. Tell him about your family's health, your studies or work, and invite him to visit you.",
+      "answer": "Subject: Greetings from Home!\n\nDear Uncle,\n\nHope you and Aunty are doing well. We are all fine here. My father goes to work every day and my mother is keeping good health. I am studying hard for my exams. My sister is working in a new company now and she loves her job. Our house is the same, but we miss you a lot. Do you plan to visit us this month? We all want to meet you. Please write back soon.\n\nWith love,\nRohan",
+      "explanation": "Personal email में friendly tone रखें। Simple Present tense का use करें। 'Do you plan to...' question structure का use करें। Closing में 'With love' या 'Warm regards' लिख सकते हैं।"
+    },
+    {
+      "id": 39,
+      "type": "paragraph-writing",
+      "title": "अपने best friend के बारे में लिखें",
+      "instructions": "अपने best friend के बारे में 6-8 sentences लिखें। Name, appearance, nature, what you like about him/her, what you do together शामिल करें।",
+      "content": "Write about your best friend — who they are, what they look like, their nature, why you like them, and what you do together.",
+      "answer": "My best friend's name is Amit. He is tall and has short black hair. He is very funny and always makes me laugh. He studies in the same college as me. We sit together in every class. He never gives up on his work and that inspires me. He always helps me when I don't understand something. We play cricket on weekends and sometimes we go for long walks in the evening. I am very lucky to have him as my friend.",
+      "explanation": "Describe करते समय: physical description (tall, short hair), personality (funny, helpful), shared activities (play, walk)। Possessive adjective 'his/her' सही से use करें। Simple Present tense में write करें।"
+    },
+    {
+      "id": 40,
+      "type": "fill-in-blank",
+      "title": "WH Question Words भरें",
+      "instructions": "सही WH question word (What/Where/When/Who/Why/How) से blank भरें।",
+      "content": ["___ is your favourite colour?", "___ does she go to the market?", "___ does the movie start?", "___ teaches you English?", "___ do you study so hard?", "___ do you come to office — by bus or by metro?", "___ does your brother work?", "___ is your birthday?", "___ helps you at home?", "___ many hours do you sleep?"],
+      "answer": ["What", "Where", "When", "Who", "Why", "How", "Where", "When", "Who", "How"],
+      "explanation": "What = क्या (thing/information), Where = कहाँ (place), When = कब (time), Who = कौन (person), Why = क्यों (reason), How = कैसे (manner), How many = कितने (quantity)।"
+    },
+    {
+      "id": 41,
+      "type": "translation",
+      "title": "Hindi से English — Daily Vocabulary (Market/Shopping)",
+      "instructions": "इन shopping और market से जुड़े sentences को English में translate करें।",
+      "content": ["यह shirt बहुत महँगी है।", "क्या इस पर कोई offer है?", "मुझे medium size चाहिए।", "दुकान 9 बजे खुलती है।", "वह रोज़ सब्ज़ी मंडी जाती है।", "इसका total कितना हुआ?", "क्या आप change दे सकते हैं?", "मैं online shopping करना पसंद करता हूँ।", "वे हर महीने grocery खरीदते हैं।", "यह quality अच्छी नहीं है।"],
+      "answer": ["This shirt is very expensive.", "Is there any offer on this?", "I need a medium size.", "The shop opens at 9 o'clock.", "She goes to the vegetable market every day.", "What is the total amount?", "Can you give me change?", "I like to shop online.", "They buy groceries every month.", "This quality is not good."],
+      "explanation": "Shopping vocabulary: expensive, offer, size, opens, total amount, change, groceries। Is/Are से yes/no questions। Can + base verb से requests/questions। Simple Present tense for regular actions।"
+    },
+    {
+      "id": 42,
+      "type": "sentence-correction",
+      "title": "SVO Order की गलतियाँ ठीक करें",
+      "instructions": "इन sentences में word order की गलतियाँ ठीक करें।",
+      "content": ["Every day I to school go.", "She very well English speaks.", "He the newspaper reads morning every.", "Milk drinks my brother every night.", "They in Mumbai live.", "Books I like reading.", "She never late is.", "Fast runs he.", "A have I question.", "Good very is this food."],
+      "answer": ["I go to school every day.", "She speaks English very well.", "He reads the newspaper every morning.", "My brother drinks milk every night.", "They live in Mumbai.", "I like reading books.", "She is never late.", "He runs fast.", "I have a question.", "This food is very good."],
+      "explanation": "English SVO order: Subject + Verb + Object। Frequency adverbs main verb से पहले लेकिन be verb के बाद। Adjectives noun से पहले। Adverbs verb के बाद आमतौर पर। Subject हमेशा sentence की शुरुआत में।"
+    },
+    {
+      "id": 43,
+      "type": "translation",
+      "title": "Hindi से English — Health and Body Vocabulary",
+      "instructions": "इन health-related sentences को English में translate करें।",
+      "content": ["मुझे बुखार है।", "उसके पेट में दर्द है।", "वह रोज़ yoga करती है।", "क्या तुम्हें नींद नहीं आती?", "डॉक्टर ने उसे आराम करने को कहा।", "वह हर महीने doctor को दिखाता है।", "मुझे खाँसी और ज़ुकाम है।", "उसे अपनी दवाई समय पर लेनी चाहिए।", "वह physically बहुत fit है।", "पानी पीना सेहत के लिए अच्छा है।"],
+      "answer": ["I have a fever.", "He/She has a stomach ache.", "She does yoga every day.", "Don't you sleep well?", "The doctor told him to rest.", "He visits the doctor every month.", "I have a cough and cold.", "She should take her medicine on time.", "He is very physically fit.", "Drinking water is good for health."],
+      "explanation": "Health expressions: have a fever, have a stomach ache, have a cough। Doctor told him to = doctor ने उसे कहा। Should + base verb = चाहिए। Good for = के लिए अच्छा।"
+    },
+    {
+      "id": 44,
+      "type": "fill-in-blank",
+      "title": "Mixed: Subject Pronouns vs Object Pronouns",
+      "instructions": "Bracket में दिए गए hint के अनुसार सही pronoun (subject या object) भरें।",
+      "content": ["___ is my best friend. (he — subject)", "I respect ___. (he — object)", "___ works in a school. (she — subject)", "We all love ___. (she — object)", "___ are going to the market. (they — subject)", "I invited ___ to the party. (they — object)", "___ am learning English. (I — subject)", "Please call ___. (I — object)", "___ is very cold today. (it — subject)", "Did you find ___? (it — object)"],
+      "answer": ["He", "him", "She", "her", "They", "them", "I", "me", "It", "it"],
+      "explanation": "Subject pronouns (I, He, She, They, It, We) sentence में subject की position पर आते हैं। Object pronouns (me, him, her, them, it, us) verb या preposition के बाद आते हैं।"
+    },
+    {
+      "id": 45,
+      "type": "paragraph-writing",
+      "title": "अपने पसंदीदा त्योहार के बारे में लिखें",
+      "instructions": "अपने पसंदीदा Indian festival के बारे में 6-8 sentences लिखें। Name, when it comes, how you celebrate, what you eat, what you like about it शामिल करें।",
+      "content": "Write about your favourite festival — when it is, how your family celebrates it, what you eat, and why you love it.",
+      "answer": "My favourite festival is Diwali. It comes every year in October or November. We clean and decorate our house before Diwali. My mother makes many sweets at home. We wear new clothes and visit our relatives. In the evening, we light diyas and candles everywhere. The sky is full of fireworks and colours. I love Diwali because it brings our whole family together. My grandmother always tells us the story of Lord Rama. It is truly the festival of light and happiness.",
+      "explanation": "Festival describe करते समय: when (October/November), how (clean, decorate, light diyas), what (sweets, new clothes), why (because it brings family together)। Simple Present tense में describe करें। Possessive adjectives और articles सही से use करें।"
     }
   ]
 }
