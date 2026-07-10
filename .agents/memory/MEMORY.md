@@ -2,3 +2,4 @@
 - [lucide-react social icons missing](lucide-social-icons.md) — Github, Twitter, Linkedin icons do not exist in this lucide-react version; use inline SVG components instead.
 - [practiceData architecture](practice-data-arch.md) — Days 1-30 in practiceData.js ALL_QUESTIONS map; Days 31-75 in practiceData-days31-75.js EXTENDED_QUESTIONS; getQuestionsForDay() checks both before fallback generator.
 - [Challenge day content generation](challenge-day-content-generation.md) — fill data/challenge/day-XX/*.json via one-off Node generator script from a real sentence-pair pool, not by hand.
+- [Day page hardcoded data bug](day-page-hardcoded-data-bug.md) — practice/vocabulary day pages had own tiny static arrays ignoring the real generated JSON banks; always check pages actually fetch the API.

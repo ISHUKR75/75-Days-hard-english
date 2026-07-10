@@ -13,8 +13,12 @@ import {
 import confetti from 'canvas-confetti';
 import { useGamificationStore } from '@/store/useGamificationStore';
 
-// Day 2 Practice Questions (500+ Hindi questions for Self Introduction)
-const DAY_2_QUESTIONS = [
+// Fallback Day 2 Practice Questions — used only if the API request below
+// (which serves the full 950-question bank generated in
+// data/challenge/day-02/practice-questions.json) fails for any reason, e.g.
+// offline mode. Kept small on purpose since the real content now lives in
+// the JSON data file and is fetched at runtime.
+const FALLBACK_DAY_2_QUESTIONS = [
   // Self Introduction Basics
   {
     id: 'q1',
@@ -291,6 +295,12 @@ const DAY_2_QUESTIONS = [
 ];
 
 export default function Day2PracticePage() {
+  // Full question bank (950 questions) loaded from the API, which reads
+  // data/challenge/day-02/practice-questions.json. Starts with the small
+  // fallback list so the page is never empty, then upgrades once the fetch
+  // resolves.
+  const [questions, setQuestions] = useState(FALLBACK_DAY_2_QUESTIONS);
+  const [questionsLoaded, setQuestionsLoaded] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState('');
   const [isCorrect, setIsCorrect] = useState(null);
@@ -304,8 +314,34 @@ export default function Day2PracticePage() {
   
   const questionRef = useRef(null);
   const inputRef = useRef(null);
+
+  // Fetch the full 950-question bank for Day 2 on mount
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/challenge/2')
+      .then((res) => res.json())
+      .then((data) => {
+        if (cancelled) return;
+        if (Array.isArray(data?.practice) && data.practice.length > 0) {
+          // Normalize API question shape (id: number) to this page's shape (id: string)
+          const normalized = data.practice.map((q, i) => ({
+            id: q.id != null ? `q${q.id}` : `q${i + 1}`,
+            hindi: q.hindi,
+            english: q.english,
+            alternatives: q.alternatives || [],
+            hint: q.hint || '',
+            explanation: q.explanation || '',
+            difficulty: q.difficulty || 'easy',
+          }));
+          setQuestions(normalized);
+        }
+        if (!cancelled) setQuestionsLoaded(true);
+      })
+      .catch(() => { if (!cancelled) setQuestionsLoaded(true); });
+    return () => { cancelled = true; };
+  }, []);
   
-  const currentQuestion = DAY_2_QUESTIONS[currentQuestionIndex];
+  const currentQuestion = questions[currentQuestionIndex];
   
   // Timer effect
   useEffect(() => {
@@ -397,7 +433,7 @@ export default function Day2PracticePage() {
   };
   
   const nextQuestion = () => {
-    if (currentQuestionIndex < DAY_2_QUESTIONS.length - 1) {
+    if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
     }
   };
@@ -432,7 +468,7 @@ export default function Day2PracticePage() {
   };
   
   // Progress calculation
-  const progressPercentage = Math.round(((currentQuestionIndex + 1) / DAY_2_QUESTIONS.length) * 100);
+  const progressPercentage = Math.round(((currentQuestionIndex + 1) / questions.length) * 100);
   
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-8 px-4">
@@ -525,7 +561,7 @@ export default function Day2PracticePage() {
               </div>
               <div className="text-right">
                 <div className="text-sm opacity-80">Day 2 • Self Introduction</div>
-                <div className="text-xs opacity-70 mt-1">{DAY_2_QUESTIONS.length} total questions</div>
+                <div className="text-xs opacity-70 mt-1">{questionsLoaded ? `${questions.length} total questions` : 'Loading full question bank…'}</div>
               </div>
             </div>
           </div>
@@ -660,7 +696,7 @@ export default function Day2PracticePage() {
               </button>
               <button
                 onClick={nextQuestion}
-                disabled={currentQuestionIndex >= DAY_2_QUESTIONS.length - 1 || isCorrect === null}
+                disabled={currentQuestionIndex >= questions.length - 1 || isCorrect === null}
                 className="px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
                 <ArrowRight className="w-4 h-4" />
@@ -668,7 +704,7 @@ export default function Day2PracticePage() {
             </div>
             
             <div className="text-sm text-gray-600">
-              Question {currentQuestionIndex + 1} of {DAY_2_QUESTIONS.length}
+              Question {currentQuestionIndex + 1} of {questions.length}
             </div>
             
             <button

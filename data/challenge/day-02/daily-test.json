@@ -1,49 +1,4559 @@
 {
   "day": 2,
-  "title": "Day 2 Daily Test — Self Introduction (40 Questions)",
-  "totalQuestions": 40,
-  "timeLimit": 20,
+  "title": "Day 2 Daily Test — Self Introduction",
+  "totalQuestions": 350,
+  "timeLimit": 40,
   "passingScore": 70,
   "questions": [
-    {"id":1,"type":"translate","hindi":"मेरा नाम अनिल है।","options":["My name is Anil.","I name Anil.","My name Anil is.","Anil is my name is."],"answer":"My name is Anil.","explanation":"Standard name introduction pattern."},
-    {"id":2,"type":"translate","hindi":"मैं जयपुर से हूँ।","options":["I from Jaipur.","I am from Jaipur.","I am Jaipur from.","I from am Jaipur."],"answer":"I am from Jaipur.","explanation":"'I am from' + place।"},
-    {"id":3,"type":"translate","hindi":"मैं एक teacher हूँ।","options":["I teacher.","I am teacher.","I am a teacher.","I a teacher am."],"answer":"I am a teacher.","explanation":"Article 'a' teacher से पहले ज़रूरी है।"},
-    {"id":4,"type":"error","sentence":"I am belongs to Delhi.","correct":"I belong to Delhi.","options":["I am belongs to Delhi.","I belong to Delhi.","I belongs to Delhi.","I am belong to Delhi."],"answer":"I belong to Delhi.","explanation":"'belong' के साथ 'am' नहीं लगता, ना ही 's'।"},
-    {"id":5,"type":"translate","hindi":"मेरे परिवार में चार लोग हैं।","options":["There are four people in my family.","My family have four people.","Four people are in my family have.","There four people my family."],"answer":"There are four people in my family.","explanation":"'There are' + number + people in my family।"},
-    {"id":6,"type":"translate","hindi":"मुझे किताबें पढ़ना पसंद है।","options":["I like read books.","I like reading books.","I like to reading books.","I liking read books."],"answer":"I like reading books.","explanation":"like के बाद verb+ing ('reading') आता है।"},
-    {"id":7,"type":"fill","hindi":"आपसे मिलकर _____ हुई।","options":["good","nice","happy","glad"],"answer":"nice","explanation":"'Nice to meet you' standard greeting है।"},
-    {"id":8,"type":"translate","hindi":"मैं दो साल से यहाँ काम कर रहा हूँ।","options":["I work here for two years.","I have been working here for two years.","I am working here since two years.","I had worked here for two years."],"answer":"I have been working here for two years.","explanation":"Present Perfect Continuous: have been + verb+ing + for।"},
-    {"id":9,"type":"error","sentence":"I have two year experience.","correct":"I have two years of experience.","options":["I have two year experience.","I have two years of experience.","I have two years experience is.","I having two year experience."],"answer":"I have two years of experience.","explanation":"'years' plural और 'of' दोनों ज़रूरी हैं।"},
-    {"id":10,"type":"translate","hindi":"मेरा एक बड़ा भाई है।","options":["I have one elder brother.","I have elder one brother.","I one elder brother have.","I am elder brother have."],"answer":"I have one elder brother.","explanation":"Standard sibling introduction structure।"},
-    {"id":11,"type":"translate","hindi":"मैं final year का student हूँ।","options":["I am final year student.","I am a final year student.","I final year student am.","I am the final year student a."],"answer":"I am a final year student.","explanation":"Article 'a' ज़रूरी है।"},
-    {"id":12,"type":"translate","hindi":"मुझे photography का शौक है।","options":["I am passionate about photography.","I passionate about photography.","I am passionate photography.","I am passionate of photography."],"answer":"I am passionate about photography.","explanation":"'passionate about' सही preposition है।"},
-    {"id":13,"type":"translate","hindi":"क्या मैं आपका नाम जान सकता हूँ?","options":["May I know your name?","Can I know you name?","May I your name know?","Do I know your name?"],"answer":"May I know your name?","explanation":"Polite question structure।"},
-    {"id":14,"type":"translate","hindi":"मैं छह महीने से English सीख रहा हूँ।","options":["I learn English for six months.","I have been learning English for six months.","I am learn English since six months.","I had learning English for six months."],"answer":"I have been learning English for six months.","explanation":"Present Perfect Continuous।"},
-    {"id":15,"type":"translate","hindi":"आप क्या काम करते हैं?","options":["What you do?","What do you do?","What are you do?","What you are doing?"],"answer":"What do you do?","explanation":"Present Simple question structure।"},
-    {"id":16,"type":"fill","hindi":"मेरी मातृभाषा _____ है।","options":["Hindi's","Hindi","the Hindi","a Hindi"],"answer":"Hindi","explanation":"Language names के पहले article नहीं लगता।"},
-    {"id":17,"type":"translate","hindi":"मैं अपना खुद का business चलाता हूँ।","options":["I run my own business.","I run own my business.","I running my own business.","I run my business own."],"answer":"I run my own business.","explanation":"Correct word order: my own business।"},
-    {"id":18,"type":"error","sentence":"My name is calling Rohan.","correct":"My name is Rohan.","options":["My name is calling Rohan.","My name is Rohan.","My name calls Rohan.","My name is call Rohan."],"answer":"My name is Rohan.","explanation":"Direct simple structure सही है, 'calling' यहाँ गलत है।"},
-    {"id":19,"type":"translate","hindi":"मैं हिंदी और अंग्रेजी दोनों में धाराप्रवाह हूँ।","options":["I fluent in Hindi and English.","I am fluent in both Hindi and English.","I am fluently Hindi and English.","I am fluent both Hindi and English."],"answer":"I am fluent in both Hindi and English.","explanation":"'fluent in both X and Y' सही structure है।"},
-    {"id":20,"type":"translate","hindi":"मेरे पिता मेरा role model हैं।","options":["My father is my role model.","My father my role model is.","My father are my role model.","My father is role model my."],"answer":"My father is my role model.","explanation":"Standard SVO structure।"},
-    {"id":21,"type":"translate","hindi":"मैं graphic design में स्वयं सीखा हुआ हूँ।","options":["I self-taught in graphic design.","I am self-taught in graphic design.","I am self teach in graphic design.","I self taught graphic design in."],"answer":"I am self-taught in graphic design.","explanation":"'am' ज़रूरी है adjective से पहले।"},
-    {"id":22,"type":"translate","hindi":"मैं digital marketing में विशेषज्ञता रखता हूँ।","options":["I specialize digital marketing.","I specialize in digital marketing.","I am specialize in digital marketing.","I specializing digital marketing."],"answer":"I specialize in digital marketing.","explanation":"'specialize in' + field।"},
-    {"id":23,"type":"translate","hindi":"मैं अभी MBA कर रहा हूँ।","options":["I am pursue an MBA currently.","I am pursuing an MBA currently.","I pursuing MBA currently.","I am pursuing MBA currently a."],"answer":"I am pursuing an MBA currently.","explanation":"Present Continuous: am + verb+ing।"},
-    {"id":24,"type":"fill","hindi":"मेरी सबसे बड़ी शक्ति _____ है।","options":["communication","communicate","communicating","communicated"],"answer":"communication","explanation":"Noun form ज़रूरी है subject complement के रूप में।"},
-    {"id":25,"type":"translate","hindi":"मेरी कमजोरी यह है कि मैं perfectionist हूँ।","options":["My weakness that I am a perfectionist.","My weakness is that I am a perfectionist.","My weakness is I a perfectionist.","My weakness is a perfectionist I am."],"answer":"My weakness is that I am a perfectionist.","explanation":"'is that' clause ज़रूरी है।"},
-    {"id":26,"type":"translate","hindi":"मैं एक टीम खिलाड़ी हूँ।","options":["I consider myself a good team player.","I consider myself good team player.","I am consider a good team player.","I consider self good team player."],"answer":"I consider myself a good team player.","explanation":"Reflexive pronoun 'myself' ज़रूरी है।"},
-    {"id":27,"type":"translate","hindi":"मेरा career लक्ष्य team lead बनना है।","options":["My career goal become a team lead.","My career goal is to become a team lead.","My career goal is become team lead.","My career goal to become a team lead is."],"answer":"My career goal is to become a team lead.","explanation":"'goal is to' + base verb।"},
-    {"id":28,"type":"error","sentence":"I am from since 2010 in Mumbai.","correct":"I have been living in Mumbai since 2010.","options":["I am from since 2010 in Mumbai.","I have been living in Mumbai since 2010.","I live Mumbai since 2010.","I am living since 2010 Mumbai."],"answer":"I have been living in Mumbai since 2010.","explanation":"'since' के साथ Present Perfect Continuous ज़रूरी है।"},
-    {"id":29,"type":"translate","hindi":"मैं आपसे इस अवसर के लिए उत्सुक हूँ।","options":["I am looking forward this opportunity.","I am looking forward to this opportunity.","I look forward this opportunity.","I am look forward to this opportunity."],"answer":"I am looking forward to this opportunity.","explanation":"'looking forward to' fixed phrase है।"},
-    {"id":30,"type":"translate","hindi":"मेरे पास relevant अनुभव है इस role के लिए।","options":["I have relevant experience for this role.","I have relevant experience this role.","I having relevant experience for this role.","I have relevant experience of this role."],"answer":"I have relevant experience for this role.","explanation":"'experience for' सही preposition है।"},
-    {"id":31,"type":"translate","hindi":"मैं समय का पालन करने में बहुत अच्छा हूँ।","options":["I am very punctual and disciplined.","I very punctual and disciplined.","I am very punctual disciplined and.","I am punctual very and disciplined."],"answer":"I am very punctual and disciplined.","explanation":"Adjective order सही रखें।"},
-    {"id":32,"type":"translate","hindi":"मेरा personality outgoing और friendly है।","options":["I have outgoing and friendly personality.","I have an outgoing and friendly personality.","I have a outgoing and friendly personality.","I have outgoing friendly personality and."],"answer":"I have an outgoing and friendly personality.","explanation":"'an' outgoing (vowel sound) से पहले।"},
-    {"id":33,"type":"fill","hindi":"मैं नए लोगों से मिलना _____ हूँ।","options":["enjoy","enjoying","enjoys","enjoyed"],"answer":"enjoy","explanation":"I + base verb (Present Simple)।"},
-    {"id":34,"type":"translate","hindi":"मेरा शौक photography और traveling है।","options":["My hobbies photography and traveling.","My hobbies are photography and traveling.","My hobby is photography and traveling.","My hobbies is photography and traveling."],"answer":"My hobbies are photography and traveling.","explanation":"Plural 'hobbies' के साथ 'are' आता है।"},
-    {"id":35,"type":"translate","hindi":"क्या आप मुझे अपने बारे में बता सकते हैं?","options":["Can you tell me about yourself?","Can you tell about yourself me?","Can you told me about yourself?","Can you tell I about yourself?"],"answer":"Can you tell me about yourself?","explanation":"Standard interview opening question।"},
-    {"id":36,"type":"translate","hindi":"आज मेरे साथ जुड़ने के लिए धन्यवाद।","options":["Thank you for join me today.","Thank you for joining me today.","Thanks you joining me today.","Thank you to join me today."],"answer":"Thank you for joining me today.","explanation":"'Thank you for' + verb+ing।"},
-    {"id":37,"type":"translate","hindi":"मुझे आशा है कि हम अच्छे से काम कर पाएंगे।","options":["I hope we can work well together.","I hope we work well together can.","I hoping we can work well together.","I hope we can working well together."],"answer":"I hope we can work well together.","explanation":"'hope' के बाद clause आता है।"},
-    {"id":38,"type":"translate","hindi":"आपसे बात करके अच्छा लगा।","options":["It was nice talk to you.","It was nice talking to you.","It nice was talking to you.","It was nice to talking you."],"answer":"It was nice talking to you.","explanation":"'nice' के बाद verb+ing आता है।"},
-    {"id":39,"type":"error","sentence":"I am working in software engineer.","correct":"I work as a software engineer.","options":["I am working in software engineer.","I work as a software engineer.","I working software engineer.","I am work as software engineer."],"answer":"I work as a software engineer.","explanation":"Job title के लिए 'work as a/an' + article चाहिए।"},
-    {"id":40,"type":"translate","hindi":"मैं keralaका मूल निवासी हूँ।","options":["I am native of Kerala.","I am a native of Kerala.","I native of Kerala am.","I am a native Kerala of."],"answer":"I am a native of Kerala.","explanation":"'a native of' + place।"}
+    {
+      "id": 1,
+      "type": "translate",
+      "hindi": "मेरा नाम Rohan है।",
+      "options": [
+        "My name is Rohan.",
+        "name My is Rohan.",
+        "My name is Rohan is.",
+        "My name Rohan."
+      ],
+      "answer": "My name is Rohan.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 2,
+      "type": "translate",
+      "hindi": "मैं Delhi से हूँ।",
+      "options": [
+        "I am from Delhi.",
+        "am I from Delhi.",
+        "I from Delhi.",
+        "I am from Delhi is."
+      ],
+      "answer": "I am from Delhi.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 3,
+      "type": "translate",
+      "hindi": "मैं एक शिक्षक हूँ।",
+      "options": [
+        "I am a teacher.",
+        "I am a teacher is.",
+        "am I a teacher.",
+        "I a teacher."
+      ],
+      "answer": "I am a teacher.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 4,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 3 लोग हैं।",
+      "options": [
+        "There 3 people in my family.",
+        "There are 3 people in my family is.",
+        "are There 3 people in my family.",
+        "There are 3 people in my family."
+      ],
+      "answer": "There are 3 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 5,
+      "type": "translate",
+      "hindi": "मेरे एक पिता हैं।",
+      "options": [
+        "I have a father is.",
+        "I a father.",
+        "have I a father.",
+        "I have a father."
+      ],
+      "answer": "I have a father.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 6,
+      "type": "translate",
+      "hindi": "मुझे किताबें पढ़ना पसंद है।",
+      "options": [
+        "I like reading books.",
+        "like I reading books.",
+        "I like reading books is.",
+        "I like reading books.!"
+      ],
+      "answer": "I like reading books.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 7,
+      "type": "translate",
+      "hindi": "मैं 1 सालों से शिक्षक का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a teacher for 1 years is.",
+        "I been working as a teacher for 1 years.",
+        "have I been working as a teacher for 1 years.",
+        "I have been working as a teacher for 1 years."
+      ],
+      "answer": "I have been working as a teacher for 1 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 8,
+      "type": "translate",
+      "hindi": "मैंने Delhi से कंप्यूटर साइंस में बी.टेक पूरा किया।",
+      "options": [
+        "I completed my B.Tech in Computer Science from Delhi.!",
+        "I completed my B.Tech in Computer Science from Delhi is.",
+        "completed I my B.Tech in Computer Science from Delhi.",
+        "I completed my B.Tech in Computer Science from Delhi."
+      ],
+      "answer": "I completed my B.Tech in Computer Science from Delhi.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 9,
+      "type": "translate",
+      "hindi": "मैं सार्वजनिक भाषण में अच्छा हूँ।",
+      "options": [
+        "I good at public speaking.",
+        "I am good at public speaking is.",
+        "am I good at public speaking.",
+        "I am good at public speaking."
+      ],
+      "answer": "I am good at public speaking.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 10,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल शिक्षक बनना है।",
+      "options": [
+        "goal My is to become a successful teacher.",
+        "My goal to become a successful teacher.",
+        "My goal is to become a successful teacher.",
+        "My goal is to become a successful teacher is."
+      ],
+      "answer": "My goal is to become a successful teacher.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 11,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Rohan हूँ।",
+      "options": [
+        "Nice to meet you, I am Rohan.",
+        "Nice to meet you, I Rohan.",
+        "to Nice meet you, I am Rohan.",
+        "Nice to meet you, I am Rohan is."
+      ],
+      "answer": "Nice to meet you, I am Rohan.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 12,
+      "type": "translate",
+      "hindi": "मैं एक शिक्षक की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a teacher.",
+        "I am looking forward to the role of a teacher.",
+        "I am looking forward to the role of a teacher is.",
+        "I looking forward to the role of a teacher."
+      ],
+      "answer": "I am looking forward to the role of a teacher.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 13,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा हिंदी है।",
+      "options": [
+        "My mother tongue is Hindi.",
+        "My mother tongue is Hindi is.",
+        "My mother tongue Hindi.",
+        "mother My tongue is Hindi."
+      ],
+      "answer": "My mother tongue is Hindi.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 14,
+      "type": "translate",
+      "hindi": "मैं एक आत्मविश्वासी व्यक्ति हूँ।",
+      "options": [
+        "I a confident person.",
+        "I am a confident person is.",
+        "am I a confident person.",
+        "I am a confident person."
+      ],
+      "answer": "I am a confident person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 15,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Delhi में रहता हूँ।",
+      "options": [
+        "I currently live in Delhi.!",
+        "currently I live in Delhi.",
+        "I currently live in Delhi.",
+        "I currently live in Delhi is."
+      ],
+      "answer": "I currently live in Delhi.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 16,
+      "type": "translate",
+      "hindi": "मैंने ज़िला स्तर की वाद-विवाद प्रतियोगिता जीती।",
+      "options": [
+        "have I won the district-level debate competition.",
+        "I won the district-level debate competition.",
+        "I have won the district-level debate competition.",
+        "I have won the district-level debate competition is."
+      ],
+      "answer": "I have won the district-level debate competition.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 17,
+      "type": "translate",
+      "hindi": "मेरा नाम Aman है।",
+      "options": [
+        "My name is Aman.",
+        "name My is Aman.",
+        "My name Aman.",
+        "My name is Aman is."
+      ],
+      "answer": "My name is Aman.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 18,
+      "type": "translate",
+      "hindi": "मैं Mumbai से हूँ।",
+      "options": [
+        "am I from Mumbai.",
+        "I am from Mumbai is.",
+        "I am from Mumbai.",
+        "I from Mumbai."
+      ],
+      "answer": "I am from Mumbai.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 19,
+      "type": "translate",
+      "hindi": "मैं एक इंजीनियर हूँ।",
+      "options": [
+        "I am an engineer is.",
+        "am I an engineer.",
+        "I am an engineer.",
+        "I an engineer."
+      ],
+      "answer": "I am an engineer.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 20,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 4 लोग हैं।",
+      "options": [
+        "There are 4 people in my family.",
+        "are There 4 people in my family.",
+        "There are 4 people in my family is.",
+        "There 4 people in my family."
+      ],
+      "answer": "There are 4 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 21,
+      "type": "translate",
+      "hindi": "मेरे एक माता हैं।",
+      "options": [
+        "I have a mother.",
+        "I have a mother is.",
+        "have I a mother.",
+        "I a mother."
+      ],
+      "answer": "I have a mother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 22,
+      "type": "translate",
+      "hindi": "मुझे क्रिकेट खेलना पसंद है।",
+      "options": [
+        "I like playing cricket.!",
+        "I like playing cricket is.",
+        "like I playing cricket.",
+        "I like playing cricket."
+      ],
+      "answer": "I like playing cricket.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 23,
+      "type": "translate",
+      "hindi": "मैं 2 सालों से इंजीनियर का काम कर रहा हूँ।",
+      "options": [
+        "I been working as a engineer for 2 years.",
+        "I have been working as a engineer for 2 years is.",
+        "have I been working as a engineer for 2 years.",
+        "I have been working as a engineer for 2 years."
+      ],
+      "answer": "I have been working as a engineer for 2 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 24,
+      "type": "translate",
+      "hindi": "मैंने Mumbai से अंग्रेज़ी में बी.ए. पूरा किया।",
+      "options": [
+        "I completed my B.A. in English from Mumbai.!",
+        "I completed my B.A. in English from Mumbai.",
+        "completed I my B.A. in English from Mumbai.",
+        "I completed my B.A. in English from Mumbai is."
+      ],
+      "answer": "I completed my B.A. in English from Mumbai.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 25,
+      "type": "translate",
+      "hindi": "मैं समय प्रबंधन में अच्छा हूँ।",
+      "options": [
+        "I am good at time management is.",
+        "I good at time management.",
+        "am I good at time management.",
+        "I am good at time management."
+      ],
+      "answer": "I am good at time management.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 26,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल इंजीनियर बनना है।",
+      "options": [
+        "My goal is to become a successful engineer.",
+        "goal My is to become a successful engineer.",
+        "My goal to become a successful engineer.",
+        "My goal is to become a successful engineer is."
+      ],
+      "answer": "My goal is to become a successful engineer.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 27,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Aman हूँ।",
+      "options": [
+        "Nice to meet you, I am Aman.",
+        "to Nice meet you, I am Aman.",
+        "Nice to meet you, I Aman.",
+        "Nice to meet you, I am Aman is."
+      ],
+      "answer": "Nice to meet you, I am Aman.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 28,
+      "type": "translate",
+      "hindi": "मैं एक इंजीनियर की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a engineer.",
+        "I am looking forward to the role of a engineer.",
+        "I am looking forward to the role of a engineer is.",
+        "I looking forward to the role of a engineer."
+      ],
+      "answer": "I am looking forward to the role of a engineer.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 29,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा अंग्रेज़ी है।",
+      "options": [
+        "My mother tongue is English.",
+        "mother My tongue is English.",
+        "My mother tongue English.",
+        "My mother tongue is English is."
+      ],
+      "answer": "My mother tongue is English.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 30,
+      "type": "translate",
+      "hindi": "मैं एक मेहनती व्यक्ति हूँ।",
+      "options": [
+        "I a hardworking person.",
+        "am I a hardworking person.",
+        "I am a hardworking person is.",
+        "I am a hardworking person."
+      ],
+      "answer": "I am a hardworking person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 31,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Mumbai में रहता हूँ।",
+      "options": [
+        "I currently live in Mumbai.!",
+        "I currently live in Mumbai is.",
+        "currently I live in Mumbai.",
+        "I currently live in Mumbai."
+      ],
+      "answer": "I currently live in Mumbai.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 32,
+      "type": "translate",
+      "hindi": "मैंने डिजिटल मार्केटिंग में सर्टिफिकेशन पूरा किया।",
+      "options": [
+        "I have completed a certification in digital marketing.",
+        "have I completed a certification in digital marketing.",
+        "I completed a certification in digital marketing.",
+        "I have completed a certification in digital marketing is."
+      ],
+      "answer": "I have completed a certification in digital marketing.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 33,
+      "type": "translate",
+      "hindi": "मेरा नाम Raj है।",
+      "options": [
+        "My name Raj.",
+        "name My is Raj.",
+        "My name is Raj is.",
+        "My name is Raj."
+      ],
+      "answer": "My name is Raj.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 34,
+      "type": "translate",
+      "hindi": "मैं Jaipur से हूँ।",
+      "options": [
+        "I am from Jaipur.",
+        "am I from Jaipur.",
+        "I am from Jaipur is.",
+        "I from Jaipur."
+      ],
+      "answer": "I am from Jaipur.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 35,
+      "type": "translate",
+      "hindi": "मैं एक डॉक्टर हूँ।",
+      "options": [
+        "I a doctor.",
+        "I am a doctor.",
+        "I am a doctor is.",
+        "am I a doctor."
+      ],
+      "answer": "I am a doctor.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 36,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 5 लोग हैं।",
+      "options": [
+        "There are 5 people in my family is.",
+        "are There 5 people in my family.",
+        "There 5 people in my family.",
+        "There are 5 people in my family."
+      ],
+      "answer": "There are 5 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 37,
+      "type": "translate",
+      "hindi": "मेरे एक भाई हैं।",
+      "options": [
+        "I have a brother is.",
+        "I a brother.",
+        "have I a brother.",
+        "I have a brother."
+      ],
+      "answer": "I have a brother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 38,
+      "type": "translate",
+      "hindi": "मुझे गाना गाना पसंद है।",
+      "options": [
+        "I like singing.!",
+        "like I singing.",
+        "I like singing.",
+        "I like singing is."
+      ],
+      "answer": "I like singing.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 39,
+      "type": "translate",
+      "hindi": "मैं 3 सालों से डॉक्टर का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a doctor for 3 years.",
+        "have I been working as a doctor for 3 years.",
+        "I been working as a doctor for 3 years.",
+        "I have been working as a doctor for 3 years is."
+      ],
+      "answer": "I have been working as a doctor for 3 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 40,
+      "type": "translate",
+      "hindi": "मैंने Jaipur से बी.कॉम पूरा किया।",
+      "options": [
+        "completed I my B.Com from Jaipur.",
+        "I completed my B.Com from Jaipur is.",
+        "I completed my B.Com from Jaipur.!",
+        "I completed my B.Com from Jaipur."
+      ],
+      "answer": "I completed my B.Com from Jaipur.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 41,
+      "type": "translate",
+      "hindi": "मैं समस्या समाधान में अच्छा हूँ।",
+      "options": [
+        "I am good at problem solving is.",
+        "I good at problem solving.",
+        "am I good at problem solving.",
+        "I am good at problem solving."
+      ],
+      "answer": "I am good at problem solving.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 42,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल डॉक्टर बनना है।",
+      "options": [
+        "My goal is to become a successful doctor.",
+        "goal My is to become a successful doctor.",
+        "My goal is to become a successful doctor is.",
+        "My goal to become a successful doctor."
+      ],
+      "answer": "My goal is to become a successful doctor.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 43,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Raj हूँ।",
+      "options": [
+        "Nice to meet you, I Raj.",
+        "to Nice meet you, I am Raj.",
+        "Nice to meet you, I am Raj.",
+        "Nice to meet you, I am Raj is."
+      ],
+      "answer": "Nice to meet you, I am Raj.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 44,
+      "type": "translate",
+      "hindi": "मैं एक डॉक्टर की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a doctor.",
+        "I looking forward to the role of a doctor.",
+        "I am looking forward to the role of a doctor is.",
+        "I am looking forward to the role of a doctor."
+      ],
+      "answer": "I am looking forward to the role of a doctor.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 45,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा पंजाबी है।",
+      "options": [
+        "mother My tongue is Punjabi.",
+        "My mother tongue is Punjabi is.",
+        "My mother tongue is Punjabi.",
+        "My mother tongue Punjabi."
+      ],
+      "answer": "My mother tongue is Punjabi.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 46,
+      "type": "translate",
+      "hindi": "मैं एक मित्रवत व्यक्ति हूँ।",
+      "options": [
+        "I am a friendly person is.",
+        "I a friendly person.",
+        "am I a friendly person.",
+        "I am a friendly person."
+      ],
+      "answer": "I am a friendly person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 47,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Jaipur में रहता हूँ।",
+      "options": [
+        "I currently live in Jaipur.!",
+        "I currently live in Jaipur is.",
+        "currently I live in Jaipur.",
+        "I currently live in Jaipur."
+      ],
+      "answer": "I currently live in Jaipur.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 48,
+      "type": "translate",
+      "hindi": "मैंने एम्प्लॉई ऑफ द मंथ का अवार्ड मिला।",
+      "options": [
+        "I have was awarded Employee of the Month is.",
+        "I was awarded Employee of the Month.",
+        "have I was awarded Employee of the Month.",
+        "I have was awarded Employee of the Month."
+      ],
+      "answer": "I have was awarded Employee of the Month.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 49,
+      "type": "translate",
+      "hindi": "मेरा नाम Vicky है।",
+      "options": [
+        "My name is Vicky.",
+        "My name Vicky.",
+        "My name is Vicky is.",
+        "name My is Vicky."
+      ],
+      "answer": "My name is Vicky.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 50,
+      "type": "translate",
+      "hindi": "मैं Lucknow से हूँ।",
+      "options": [
+        "I am from Lucknow is.",
+        "I from Lucknow.",
+        "am I from Lucknow.",
+        "I am from Lucknow."
+      ],
+      "answer": "I am from Lucknow.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 51,
+      "type": "translate",
+      "hindi": "मैं एक अकाउंटेंट हूँ।",
+      "options": [
+        "I an accountant.",
+        "am I an accountant.",
+        "I am an accountant is.",
+        "I am an accountant."
+      ],
+      "answer": "I am an accountant.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 52,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 6 लोग हैं।",
+      "options": [
+        "are There 6 people in my family.",
+        "There are 6 people in my family.",
+        "There are 6 people in my family is.",
+        "There 6 people in my family."
+      ],
+      "answer": "There are 6 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 53,
+      "type": "translate",
+      "hindi": "मेरे एक बहन हैं।",
+      "options": [
+        "I a sister.",
+        "I have a sister.",
+        "I have a sister is.",
+        "have I a sister."
+      ],
+      "answer": "I have a sister.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 54,
+      "type": "translate",
+      "hindi": "मुझे नाचना पसंद है।",
+      "options": [
+        "I like dancing.",
+        "I like dancing is.",
+        "I like dancing.!",
+        "like I dancing."
+      ],
+      "answer": "I like dancing.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 55,
+      "type": "translate",
+      "hindi": "मैं 4 सालों से अकाउंटेंट का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a accountant for 4 years.",
+        "have I been working as a accountant for 4 years.",
+        "I been working as a accountant for 4 years.",
+        "I have been working as a accountant for 4 years is."
+      ],
+      "answer": "I have been working as a accountant for 4 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 56,
+      "type": "translate",
+      "hindi": "मैंने Lucknow से मार्केटिंग में एमबीए पूरा किया।",
+      "options": [
+        "I completed my MBA in Marketing from Lucknow is.",
+        "I completed my MBA in Marketing from Lucknow.!",
+        "completed I my MBA in Marketing from Lucknow.",
+        "I completed my MBA in Marketing from Lucknow."
+      ],
+      "answer": "I completed my MBA in Marketing from Lucknow.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 57,
+      "type": "translate",
+      "hindi": "मैं टीम वर्क में अच्छा हूँ।",
+      "options": [
+        "am I good at team work.",
+        "I am good at team work.",
+        "I am good at team work is.",
+        "I good at team work."
+      ],
+      "answer": "I am good at team work.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 58,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल अकाउंटेंट बनना है।",
+      "options": [
+        "My goal to become a successful accountant.",
+        "goal My is to become a successful accountant.",
+        "My goal is to become a successful accountant.",
+        "My goal is to become a successful accountant is."
+      ],
+      "answer": "My goal is to become a successful accountant.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 59,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Vicky हूँ।",
+      "options": [
+        "Nice to meet you, I Vicky.",
+        "Nice to meet you, I am Vicky is.",
+        "to Nice meet you, I am Vicky.",
+        "Nice to meet you, I am Vicky."
+      ],
+      "answer": "Nice to meet you, I am Vicky.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 60,
+      "type": "translate",
+      "hindi": "मैं एक अकाउंटेंट की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I looking forward to the role of a accountant.",
+        "I am looking forward to the role of a accountant.",
+        "I am looking forward to the role of a accountant is.",
+        "am I looking forward to the role of a accountant."
+      ],
+      "answer": "I am looking forward to the role of a accountant.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 61,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा बंगाली है।",
+      "options": [
+        "My mother tongue is Bengali is.",
+        "My mother tongue Bengali.",
+        "mother My tongue is Bengali.",
+        "My mother tongue is Bengali."
+      ],
+      "answer": "My mother tongue is Bengali.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 62,
+      "type": "translate",
+      "hindi": "मैं एक ईमानदार व्यक्ति हूँ।",
+      "options": [
+        "I am a honest person is.",
+        "I a honest person.",
+        "am I a honest person.",
+        "I am a honest person."
+      ],
+      "answer": "I am a honest person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 63,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Lucknow में रहता हूँ।",
+      "options": [
+        "I currently live in Lucknow.!",
+        "I currently live in Lucknow is.",
+        "currently I live in Lucknow.",
+        "I currently live in Lucknow."
+      ],
+      "answer": "I currently live in Lucknow.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 64,
+      "type": "translate",
+      "hindi": "मैंने यूनिवर्सिटी में पहला स्थान हासिल किया।",
+      "options": [
+        "I secured first rank in the university.",
+        "have I secured first rank in the university.",
+        "I have secured first rank in the university.",
+        "I have secured first rank in the university is."
+      ],
+      "answer": "I have secured first rank in the university.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 65,
+      "type": "translate",
+      "hindi": "मेरा नाम Sunil है।",
+      "options": [
+        "My name is Sunil.",
+        "name My is Sunil.",
+        "My name Sunil.",
+        "My name is Sunil is."
+      ],
+      "answer": "My name is Sunil.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 66,
+      "type": "translate",
+      "hindi": "मैं Patna से हूँ।",
+      "options": [
+        "am I from Patna.",
+        "I am from Patna is.",
+        "I am from Patna.",
+        "I from Patna."
+      ],
+      "answer": "I am from Patna.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 67,
+      "type": "translate",
+      "hindi": "मैं एक सेल्समैन हूँ।",
+      "options": [
+        "I am a salesman is.",
+        "I a salesman.",
+        "am I a salesman.",
+        "I am a salesman."
+      ],
+      "answer": "I am a salesman.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 68,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 7 लोग हैं।",
+      "options": [
+        "There are 7 people in my family is.",
+        "are There 7 people in my family.",
+        "There are 7 people in my family.",
+        "There 7 people in my family."
+      ],
+      "answer": "There are 7 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 69,
+      "type": "translate",
+      "hindi": "मेरे एक दादा हैं।",
+      "options": [
+        "I have a grandfather is.",
+        "I have a grandfather.",
+        "have I a grandfather.",
+        "I a grandfather."
+      ],
+      "answer": "I have a grandfather.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 70,
+      "type": "translate",
+      "hindi": "मुझे चित्रकारी करना पसंद है।",
+      "options": [
+        "I like painting.",
+        "like I painting.",
+        "I like painting is.",
+        "I like painting.!"
+      ],
+      "answer": "I like painting.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 71,
+      "type": "translate",
+      "hindi": "मैं 5 सालों से सेल्समैन का काम कर रहा हूँ।",
+      "options": [
+        "have I been working as a salesman for 5 years.",
+        "I been working as a salesman for 5 years.",
+        "I have been working as a salesman for 5 years.",
+        "I have been working as a salesman for 5 years is."
+      ],
+      "answer": "I have been working as a salesman for 5 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 72,
+      "type": "translate",
+      "hindi": "मैंने Patna से गणित में बी.एससी पूरा किया।",
+      "options": [
+        "I completed my B.Sc in Mathematics from Patna.!",
+        "I completed my B.Sc in Mathematics from Patna.",
+        "completed I my B.Sc in Mathematics from Patna.",
+        "I completed my B.Sc in Mathematics from Patna is."
+      ],
+      "answer": "I completed my B.Sc in Mathematics from Patna.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 73,
+      "type": "translate",
+      "hindi": "मैं संवाद में अच्छा हूँ।",
+      "options": [
+        "I good at communication.",
+        "am I good at communication.",
+        "I am good at communication is.",
+        "I am good at communication."
+      ],
+      "answer": "I am good at communication.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 74,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल सेल्समैन बनना है।",
+      "options": [
+        "My goal is to become a successful salesman.",
+        "goal My is to become a successful salesman.",
+        "My goal to become a successful salesman.",
+        "My goal is to become a successful salesman is."
+      ],
+      "answer": "My goal is to become a successful salesman.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 75,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Sunil हूँ।",
+      "options": [
+        "Nice to meet you, I Sunil.",
+        "to Nice meet you, I am Sunil.",
+        "Nice to meet you, I am Sunil is.",
+        "Nice to meet you, I am Sunil."
+      ],
+      "answer": "Nice to meet you, I am Sunil.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 76,
+      "type": "translate",
+      "hindi": "मैं एक सेल्समैन की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a salesman.",
+        "am I looking forward to the role of a salesman.",
+        "I looking forward to the role of a salesman.",
+        "I am looking forward to the role of a salesman is."
+      ],
+      "answer": "I am looking forward to the role of a salesman.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 77,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा मराठी है।",
+      "options": [
+        "My mother tongue Marathi.",
+        "My mother tongue is Marathi is.",
+        "mother My tongue is Marathi.",
+        "My mother tongue is Marathi."
+      ],
+      "answer": "My mother tongue is Marathi.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 78,
+      "type": "translate",
+      "hindi": "मैं एक समय का पालन करने वाला व्यक्ति हूँ।",
+      "options": [
+        "I a punctual person.",
+        "am I a punctual person.",
+        "I am a punctual person is.",
+        "I am a punctual person."
+      ],
+      "answer": "I am a punctual person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 79,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Patna में रहता हूँ।",
+      "options": [
+        "I currently live in Patna.",
+        "currently I live in Patna.",
+        "I currently live in Patna is.",
+        "I currently live in Patna.!"
+      ],
+      "answer": "I currently live in Patna.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 80,
+      "type": "translate",
+      "hindi": "मैंने एक शोध पत्र प्रकाशित किया।",
+      "options": [
+        "I have published a research paper.",
+        "have I published a research paper.",
+        "I published a research paper.",
+        "I have published a research paper is."
+      ],
+      "answer": "I have published a research paper.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 81,
+      "type": "translate",
+      "hindi": "मेरा नाम Anita है।",
+      "options": [
+        "My name is Anita is.",
+        "My name Anita.",
+        "name My is Anita.",
+        "My name is Anita."
+      ],
+      "answer": "My name is Anita.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 82,
+      "type": "translate",
+      "hindi": "मैं Bhopal से हूँ।",
+      "options": [
+        "am I from Bhopal.",
+        "I am from Bhopal.",
+        "I am from Bhopal is.",
+        "I from Bhopal."
+      ],
+      "answer": "I am from Bhopal.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 83,
+      "type": "translate",
+      "hindi": "मैं एक मैनेजर हूँ।",
+      "options": [
+        "I am a manager is.",
+        "am I a manager.",
+        "I a manager.",
+        "I am a manager."
+      ],
+      "answer": "I am a manager.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 84,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 3 लोग हैं।",
+      "options": [
+        "There are 3 people in my family.",
+        "There are 3 people in my family is.",
+        "are There 3 people in my family.",
+        "There 3 people in my family."
+      ],
+      "answer": "There are 3 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 85,
+      "type": "translate",
+      "hindi": "मेरे एक दादी हैं।",
+      "options": [
+        "I have a grandmother.",
+        "have I a grandmother.",
+        "I a grandmother.",
+        "I have a grandmother is."
+      ],
+      "answer": "I have a grandmother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 86,
+      "type": "translate",
+      "hindi": "मुझे खाना बनाना पसंद है।",
+      "options": [
+        "I like cooking.",
+        "like I cooking.",
+        "I like cooking is.",
+        "I like cooking.!"
+      ],
+      "answer": "I like cooking.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 87,
+      "type": "translate",
+      "hindi": "मैं 6 सालों से मैनेजर का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a manager for 6 years is.",
+        "I have been working as a manager for 6 years.",
+        "have I been working as a manager for 6 years.",
+        "I been working as a manager for 6 years."
+      ],
+      "answer": "I have been working as a manager for 6 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 88,
+      "type": "translate",
+      "hindi": "मैंने Bhopal से मैकेनिकल इंजीनियरिंग में डिप्लोमा पूरा किया।",
+      "options": [
+        "I completed my Diploma in Mechanical Engineering from Bhopal is.",
+        "I completed my Diploma in Mechanical Engineering from Bhopal.!",
+        "completed I my Diploma in Mechanical Engineering from Bhopal.",
+        "I completed my Diploma in Mechanical Engineering from Bhopal."
+      ],
+      "answer": "I completed my Diploma in Mechanical Engineering from Bhopal.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 89,
+      "type": "translate",
+      "hindi": "मैं नेतृत्व में अच्छा हूँ।",
+      "options": [
+        "I am good at leadership.",
+        "am I good at leadership.",
+        "I good at leadership.",
+        "I am good at leadership is."
+      ],
+      "answer": "I am good at leadership.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 90,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल मैनेजर बनना है।",
+      "options": [
+        "goal My is to become a successful manager.",
+        "My goal is to become a successful manager is.",
+        "My goal to become a successful manager.",
+        "My goal is to become a successful manager."
+      ],
+      "answer": "My goal is to become a successful manager.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 91,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Anita हूँ।",
+      "options": [
+        "to Nice meet you, I am Anita.",
+        "Nice to meet you, I am Anita.",
+        "Nice to meet you, I Anita.",
+        "Nice to meet you, I am Anita is."
+      ],
+      "answer": "Nice to meet you, I am Anita.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 92,
+      "type": "translate",
+      "hindi": "मैं एक मैनेजर की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a manager.",
+        "I am looking forward to the role of a manager is.",
+        "I looking forward to the role of a manager.",
+        "I am looking forward to the role of a manager."
+      ],
+      "answer": "I am looking forward to the role of a manager.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 93,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा गुजराती है।",
+      "options": [
+        "My mother tongue is Gujarati is.",
+        "My mother tongue Gujarati.",
+        "mother My tongue is Gujarati.",
+        "My mother tongue is Gujarati."
+      ],
+      "answer": "My mother tongue is Gujarati.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 94,
+      "type": "translate",
+      "hindi": "मैं एक रचनात्मक व्यक्ति हूँ।",
+      "options": [
+        "I am a creative person is.",
+        "I a creative person.",
+        "am I a creative person.",
+        "I am a creative person."
+      ],
+      "answer": "I am a creative person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 95,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Bhopal में रहता हूँ।",
+      "options": [
+        "I currently live in Bhopal.",
+        "I currently live in Bhopal is.",
+        "I currently live in Bhopal.!",
+        "currently I live in Bhopal."
+      ],
+      "answer": "I currently live in Bhopal.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 96,
+      "type": "translate",
+      "hindi": "मैंने दस लोगों की टीम का नेतृत्व किया।",
+      "options": [
+        "I have led a team of ten people.",
+        "I have led a team of ten people is.",
+        "have I led a team of ten people.",
+        "I led a team of ten people."
+      ],
+      "answer": "I have led a team of ten people.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 97,
+      "type": "translate",
+      "hindi": "मेरा नाम Priya है।",
+      "options": [
+        "My name is Priya is.",
+        "name My is Priya.",
+        "My name Priya.",
+        "My name is Priya."
+      ],
+      "answer": "My name is Priya.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 98,
+      "type": "translate",
+      "hindi": "मैं Chandigarh से हूँ।",
+      "options": [
+        "I am from Chandigarh is.",
+        "I from Chandigarh.",
+        "am I from Chandigarh.",
+        "I am from Chandigarh."
+      ],
+      "answer": "I am from Chandigarh.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 99,
+      "type": "translate",
+      "hindi": "मैं एक क्लर्क हूँ।",
+      "options": [
+        "I am a clerk is.",
+        "I am a clerk.",
+        "am I a clerk.",
+        "I a clerk."
+      ],
+      "answer": "I am a clerk.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 100,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 4 लोग हैं।",
+      "options": [
+        "There are 4 people in my family is.",
+        "There 4 people in my family.",
+        "are There 4 people in my family.",
+        "There are 4 people in my family."
+      ],
+      "answer": "There are 4 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 101,
+      "type": "translate",
+      "hindi": "मेरे एक पिता हैं।",
+      "options": [
+        "have I a father.",
+        "I have a father.",
+        "I a father.",
+        "I have a father is."
+      ],
+      "answer": "I have a father.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 102,
+      "type": "translate",
+      "hindi": "मुझे यात्रा करना पसंद है।",
+      "options": [
+        "I like travelling.!",
+        "I like travelling is.",
+        "like I travelling.",
+        "I like travelling."
+      ],
+      "answer": "I like travelling.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 103,
+      "type": "translate",
+      "hindi": "मैं 7 सालों से क्लर्क का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a clerk for 7 years.",
+        "have I been working as a clerk for 7 years.",
+        "I have been working as a clerk for 7 years is.",
+        "I been working as a clerk for 7 years."
+      ],
+      "answer": "I have been working as a clerk for 7 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 104,
+      "type": "translate",
+      "hindi": "मैंने Chandigarh से इलेक्ट्रॉनिक्स में एम.टेक पूरा किया।",
+      "options": [
+        "I completed my M.Tech in Electronics from Chandigarh.!",
+        "I completed my M.Tech in Electronics from Chandigarh.",
+        "completed I my M.Tech in Electronics from Chandigarh.",
+        "I completed my M.Tech in Electronics from Chandigarh is."
+      ],
+      "answer": "I completed my M.Tech in Electronics from Chandigarh.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 105,
+      "type": "translate",
+      "hindi": "मैं कंप्यूटर स्किल्स में अच्छा हूँ।",
+      "options": [
+        "am I good at computer skills.",
+        "I good at computer skills.",
+        "I am good at computer skills.",
+        "I am good at computer skills is."
+      ],
+      "answer": "I am good at computer skills.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 106,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल क्लर्क बनना है।",
+      "options": [
+        "goal My is to become a successful clerk.",
+        "My goal is to become a successful clerk.",
+        "My goal is to become a successful clerk is.",
+        "My goal to become a successful clerk."
+      ],
+      "answer": "My goal is to become a successful clerk.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 107,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Priya हूँ।",
+      "options": [
+        "Nice to meet you, I Priya.",
+        "Nice to meet you, I am Priya.",
+        "to Nice meet you, I am Priya.",
+        "Nice to meet you, I am Priya is."
+      ],
+      "answer": "Nice to meet you, I am Priya.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 108,
+      "type": "translate",
+      "hindi": "मैं एक क्लर्क की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a clerk.",
+        "I am looking forward to the role of a clerk is.",
+        "I looking forward to the role of a clerk.",
+        "I am looking forward to the role of a clerk."
+      ],
+      "answer": "I am looking forward to the role of a clerk.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 109,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा तमिल है।",
+      "options": [
+        "My mother tongue is Tamil.",
+        "My mother tongue is Tamil is.",
+        "My mother tongue Tamil.",
+        "mother My tongue is Tamil."
+      ],
+      "answer": "My mother tongue is Tamil.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 110,
+      "type": "translate",
+      "hindi": "मैं एक अनुशासित व्यक्ति हूँ।",
+      "options": [
+        "I am a disciplined person is.",
+        "I a disciplined person.",
+        "am I a disciplined person.",
+        "I am a disciplined person."
+      ],
+      "answer": "I am a disciplined person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 111,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Chandigarh में रहता हूँ।",
+      "options": [
+        "I currently live in Chandigarh is.",
+        "I currently live in Chandigarh.!",
+        "I currently live in Chandigarh.",
+        "currently I live in Chandigarh."
+      ],
+      "answer": "I currently live in Chandigarh.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 112,
+      "type": "translate",
+      "hindi": "मैंने कॉलेज कल्चरल फेस्ट आयोजित किया।",
+      "options": [
+        "I have organized a college cultural fest is.",
+        "I organized a college cultural fest.",
+        "I have organized a college cultural fest.",
+        "have I organized a college cultural fest."
+      ],
+      "answer": "I have organized a college cultural fest.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 113,
+      "type": "translate",
+      "hindi": "मेरा नाम Kartikeya है।",
+      "options": [
+        "name My is Kartikeya.",
+        "My name is Kartikeya is.",
+        "My name is Kartikeya.",
+        "My name Kartikeya."
+      ],
+      "answer": "My name is Kartikeya.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 114,
+      "type": "translate",
+      "hindi": "मैं Kanpur से हूँ।",
+      "options": [
+        "am I from Kanpur.",
+        "I am from Kanpur.",
+        "I from Kanpur.",
+        "I am from Kanpur is."
+      ],
+      "answer": "I am from Kanpur.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 115,
+      "type": "translate",
+      "hindi": "मैं एक डिज़ाइनर हूँ।",
+      "options": [
+        "I am a designer is.",
+        "I am a designer.",
+        "I a designer.",
+        "am I a designer."
+      ],
+      "answer": "I am a designer.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 116,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 5 लोग हैं।",
+      "options": [
+        "There 5 people in my family.",
+        "are There 5 people in my family.",
+        "There are 5 people in my family is.",
+        "There are 5 people in my family."
+      ],
+      "answer": "There are 5 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 117,
+      "type": "translate",
+      "hindi": "मेरे एक माता हैं।",
+      "options": [
+        "I have a mother.",
+        "I have a mother is.",
+        "have I a mother.",
+        "I a mother."
+      ],
+      "answer": "I have a mother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 118,
+      "type": "translate",
+      "hindi": "मुझे बागबानी करना पसंद है।",
+      "options": [
+        "like I gardening.",
+        "I like gardening.!",
+        "I like gardening is.",
+        "I like gardening."
+      ],
+      "answer": "I like gardening.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 119,
+      "type": "translate",
+      "hindi": "मैं 8 सालों से डिज़ाइनर का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a designer for 8 years.",
+        "I have been working as a designer for 8 years is.",
+        "I been working as a designer for 8 years.",
+        "have I been working as a designer for 8 years."
+      ],
+      "answer": "I have been working as a designer for 8 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 120,
+      "type": "translate",
+      "hindi": "मैंने Kanpur से भौतिकी में बी.एससी पूरा किया।",
+      "options": [
+        "I completed my B.Sc in Physics from Kanpur.",
+        "I completed my B.Sc in Physics from Kanpur.!",
+        "completed I my B.Sc in Physics from Kanpur.",
+        "I completed my B.Sc in Physics from Kanpur is."
+      ],
+      "answer": "I completed my B.Sc in Physics from Kanpur.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 121,
+      "type": "translate",
+      "hindi": "मैं डेटा विश्लेषण में अच्छा हूँ।",
+      "options": [
+        "I am good at data analysis is.",
+        "I good at data analysis.",
+        "am I good at data analysis.",
+        "I am good at data analysis."
+      ],
+      "answer": "I am good at data analysis.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 122,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल डिज़ाइनर बनना है।",
+      "options": [
+        "My goal is to become a successful designer is.",
+        "My goal to become a successful designer.",
+        "goal My is to become a successful designer.",
+        "My goal is to become a successful designer."
+      ],
+      "answer": "My goal is to become a successful designer.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 123,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Kartikeya हूँ।",
+      "options": [
+        "Nice to meet you, I am Kartikeya is.",
+        "Nice to meet you, I Kartikeya.",
+        "to Nice meet you, I am Kartikeya.",
+        "Nice to meet you, I am Kartikeya."
+      ],
+      "answer": "Nice to meet you, I am Kartikeya.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 124,
+      "type": "translate",
+      "hindi": "मैं एक डिज़ाइनर की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a designer.",
+        "I am looking forward to the role of a designer is.",
+        "I looking forward to the role of a designer.",
+        "I am looking forward to the role of a designer."
+      ],
+      "answer": "I am looking forward to the role of a designer.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 125,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा तेलुगु है।",
+      "options": [
+        "My mother tongue is Telugu.",
+        "My mother tongue is Telugu is.",
+        "mother My tongue is Telugu.",
+        "My mother tongue Telugu."
+      ],
+      "answer": "My mother tongue is Telugu.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 126,
+      "type": "translate",
+      "hindi": "मैं एक महत्वाकांक्षी व्यक्ति हूँ।",
+      "options": [
+        "I a ambitious person.",
+        "I am a ambitious person is.",
+        "am I a ambitious person.",
+        "I am a ambitious person."
+      ],
+      "answer": "I am a ambitious person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 127,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Kanpur में रहता हूँ।",
+      "options": [
+        "I currently live in Kanpur is.",
+        "currently I live in Kanpur.",
+        "I currently live in Kanpur.!",
+        "I currently live in Kanpur."
+      ],
+      "answer": "I currently live in Kanpur.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 128,
+      "type": "translate",
+      "hindi": "मैंने शैक्षणिक उत्कृष्टता के लिए स्कॉलरशिप प्राप्त की।",
+      "options": [
+        "I have received a scholarship for academic excellence is.",
+        "I received a scholarship for academic excellence.",
+        "have I received a scholarship for academic excellence.",
+        "I have received a scholarship for academic excellence."
+      ],
+      "answer": "I have received a scholarship for academic excellence.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 129,
+      "type": "translate",
+      "hindi": "मेरा नाम Neha है।",
+      "options": [
+        "name My is Neha.",
+        "My name is Neha is.",
+        "My name is Neha.",
+        "My name Neha."
+      ],
+      "answer": "My name is Neha.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 130,
+      "type": "translate",
+      "hindi": "मैं Indore से हूँ।",
+      "options": [
+        "I am from Indore is.",
+        "am I from Indore.",
+        "I am from Indore.",
+        "I from Indore."
+      ],
+      "answer": "I am from Indore.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 131,
+      "type": "translate",
+      "hindi": "मैं एक डेवलपर हूँ।",
+      "options": [
+        "am I a developer.",
+        "I am a developer.",
+        "I am a developer is.",
+        "I a developer."
+      ],
+      "answer": "I am a developer.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 132,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 6 लोग हैं।",
+      "options": [
+        "There are 6 people in my family.",
+        "are There 6 people in my family.",
+        "There 6 people in my family.",
+        "There are 6 people in my family is."
+      ],
+      "answer": "There are 6 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 133,
+      "type": "translate",
+      "hindi": "मेरे एक भाई हैं।",
+      "options": [
+        "I have a brother is.",
+        "I a brother.",
+        "have I a brother.",
+        "I have a brother."
+      ],
+      "answer": "I have a brother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 134,
+      "type": "translate",
+      "hindi": "मुझे फ़ोटोग्राफ़ी करना पसंद है।",
+      "options": [
+        "like I photography.",
+        "I like photography.!",
+        "I like photography is.",
+        "I like photography."
+      ],
+      "answer": "I like photography.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 135,
+      "type": "translate",
+      "hindi": "मैं 10 सालों से डेवलपर का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a developer for 10 years.",
+        "I been working as a developer for 10 years.",
+        "I have been working as a developer for 10 years is.",
+        "have I been working as a developer for 10 years."
+      ],
+      "answer": "I have been working as a developer for 10 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 136,
+      "type": "translate",
+      "hindi": "मैंने Indore से इतिहास में एम.ए. पूरा किया।",
+      "options": [
+        "I completed my M.A. in History from Indore.!",
+        "I completed my M.A. in History from Indore.",
+        "completed I my M.A. in History from Indore.",
+        "I completed my M.A. in History from Indore is."
+      ],
+      "answer": "I completed my M.A. in History from Indore.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 137,
+      "type": "translate",
+      "hindi": "मैं बातचीत करने की क्षमता में अच्छा हूँ।",
+      "options": [
+        "I am good at negotiation.",
+        "am I good at negotiation.",
+        "I am good at negotiation is.",
+        "I good at negotiation."
+      ],
+      "answer": "I am good at negotiation.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 138,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल डेवलपर बनना है।",
+      "options": [
+        "goal My is to become a successful developer.",
+        "My goal is to become a successful developer is.",
+        "My goal is to become a successful developer.",
+        "My goal to become a successful developer."
+      ],
+      "answer": "My goal is to become a successful developer.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 139,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Neha हूँ।",
+      "options": [
+        "to Nice meet you, I am Neha.",
+        "Nice to meet you, I am Neha is.",
+        "Nice to meet you, I am Neha.",
+        "Nice to meet you, I Neha."
+      ],
+      "answer": "Nice to meet you, I am Neha.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 140,
+      "type": "translate",
+      "hindi": "मैं एक डेवलपर की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a developer.",
+        "am I looking forward to the role of a developer.",
+        "I looking forward to the role of a developer.",
+        "I am looking forward to the role of a developer is."
+      ],
+      "answer": "I am looking forward to the role of a developer.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 141,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा कन्नड़ है।",
+      "options": [
+        "My mother tongue Kannada.",
+        "My mother tongue is Kannada is.",
+        "My mother tongue is Kannada.",
+        "mother My tongue is Kannada."
+      ],
+      "answer": "My mother tongue is Kannada.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 142,
+      "type": "translate",
+      "hindi": "मैं एक सहनशील व्यक्ति हूँ।",
+      "options": [
+        "am I a patient person.",
+        "I a patient person.",
+        "I am a patient person.",
+        "I am a patient person is."
+      ],
+      "answer": "I am a patient person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 143,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Indore में रहता हूँ।",
+      "options": [
+        "I currently live in Indore.",
+        "currently I live in Indore.",
+        "I currently live in Indore.!",
+        "I currently live in Indore is."
+      ],
+      "answer": "I currently live in Indore.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 144,
+      "type": "translate",
+      "hindi": "मैंने एक साइड प्रोजेक्ट के तौर पर मोबाइल एप्लिकेशन बनाया।",
+      "options": [
+        "I have built a mobile application as a side project.",
+        "have I built a mobile application as a side project.",
+        "I built a mobile application as a side project.",
+        "I have built a mobile application as a side project is."
+      ],
+      "answer": "I have built a mobile application as a side project.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 145,
+      "type": "translate",
+      "hindi": "मेरा नाम Sanjay है।",
+      "options": [
+        "My name Sanjay.",
+        "My name is Sanjay.",
+        "My name is Sanjay is.",
+        "name My is Sanjay."
+      ],
+      "answer": "My name is Sanjay.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 146,
+      "type": "translate",
+      "hindi": "मैं Ranchi से हूँ।",
+      "options": [
+        "I am from Ranchi is.",
+        "I am from Ranchi.",
+        "am I from Ranchi.",
+        "I from Ranchi."
+      ],
+      "answer": "I am from Ranchi.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 147,
+      "type": "translate",
+      "hindi": "मैं एक नर्स हूँ।",
+      "options": [
+        "I a nurse.",
+        "I am a nurse.",
+        "I am a nurse is.",
+        "am I a nurse."
+      ],
+      "answer": "I am a nurse.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 148,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 7 लोग हैं।",
+      "options": [
+        "There 7 people in my family.",
+        "There are 7 people in my family is.",
+        "are There 7 people in my family.",
+        "There are 7 people in my family."
+      ],
+      "answer": "There are 7 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 149,
+      "type": "translate",
+      "hindi": "मेरे एक बहन हैं।",
+      "options": [
+        "I have a sister.",
+        "I have a sister is.",
+        "have I a sister.",
+        "I a sister."
+      ],
+      "answer": "I have a sister.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 150,
+      "type": "translate",
+      "hindi": "मुझे शतरंज खेलना पसंद है।",
+      "options": [
+        "I like playing chess.!",
+        "I like playing chess is.",
+        "like I playing chess.",
+        "I like playing chess."
+      ],
+      "answer": "I like playing chess.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 151,
+      "type": "translate",
+      "hindi": "मैं 1 सालों से नर्स का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a nurse for 1 years is.",
+        "I been working as a nurse for 1 years.",
+        "have I been working as a nurse for 1 years.",
+        "I have been working as a nurse for 1 years."
+      ],
+      "answer": "I have been working as a nurse for 1 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 152,
+      "type": "translate",
+      "hindi": "मैंने Ranchi से बी.एड पूरा किया।",
+      "options": [
+        "I completed my B.Ed from Ranchi is.",
+        "I completed my B.Ed from Ranchi.",
+        "I completed my B.Ed from Ranchi.!",
+        "completed I my B.Ed from Ranchi."
+      ],
+      "answer": "I completed my B.Ed from Ranchi.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 153,
+      "type": "translate",
+      "hindi": "मैं विवेचनात्मक चिंतन में अच्छा हूँ।",
+      "options": [
+        "I good at critical thinking.",
+        "am I good at critical thinking.",
+        "I am good at critical thinking is.",
+        "I am good at critical thinking."
+      ],
+      "answer": "I am good at critical thinking.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 154,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल नर्स बनना है।",
+      "options": [
+        "My goal is to become a successful nurse.",
+        "My goal is to become a successful nurse is.",
+        "goal My is to become a successful nurse.",
+        "My goal to become a successful nurse."
+      ],
+      "answer": "My goal is to become a successful nurse.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 155,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Sanjay हूँ।",
+      "options": [
+        "to Nice meet you, I am Sanjay.",
+        "Nice to meet you, I am Sanjay.",
+        "Nice to meet you, I am Sanjay is.",
+        "Nice to meet you, I Sanjay."
+      ],
+      "answer": "Nice to meet you, I am Sanjay.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 156,
+      "type": "translate",
+      "hindi": "मैं एक नर्स की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a nurse.",
+        "I am looking forward to the role of a nurse.",
+        "I looking forward to the role of a nurse.",
+        "I am looking forward to the role of a nurse is."
+      ],
+      "answer": "I am looking forward to the role of a nurse.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 157,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा मलयालम है।",
+      "options": [
+        "My mother tongue is Malayalam.",
+        "mother My tongue is Malayalam.",
+        "My mother tongue is Malayalam is.",
+        "My mother tongue Malayalam."
+      ],
+      "answer": "My mother tongue is Malayalam.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 158,
+      "type": "translate",
+      "hindi": "मैं एक विनम्र व्यक्ति हूँ।",
+      "options": [
+        "I a polite person.",
+        "am I a polite person.",
+        "I am a polite person.",
+        "I am a polite person is."
+      ],
+      "answer": "I am a polite person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 159,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Ranchi में रहता हूँ।",
+      "options": [
+        "I currently live in Ranchi.",
+        "currently I live in Ranchi.",
+        "I currently live in Ranchi is.",
+        "I currently live in Ranchi.!"
+      ],
+      "answer": "I currently live in Ranchi.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 160,
+      "type": "translate",
+      "hindi": "मैंने एक सामुदायिक सेवा कार्यक्रम में स्वयंसेवा की।",
+      "options": [
+        "have I volunteered for a community service program.",
+        "I have volunteered for a community service program is.",
+        "I volunteered for a community service program.",
+        "I have volunteered for a community service program."
+      ],
+      "answer": "I have volunteered for a community service program.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 161,
+      "type": "translate",
+      "hindi": "मेरा नाम Pooja है।",
+      "options": [
+        "My name Pooja.",
+        "name My is Pooja.",
+        "My name is Pooja.",
+        "My name is Pooja is."
+      ],
+      "answer": "My name is Pooja.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 162,
+      "type": "translate",
+      "hindi": "मैं Pune से हूँ।",
+      "options": [
+        "I am from Pune is.",
+        "I from Pune.",
+        "am I from Pune.",
+        "I am from Pune."
+      ],
+      "answer": "I am from Pune.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 163,
+      "type": "translate",
+      "hindi": "मैं एक वकील हूँ।",
+      "options": [
+        "I am a lawyer is.",
+        "am I a lawyer.",
+        "I a lawyer.",
+        "I am a lawyer."
+      ],
+      "answer": "I am a lawyer.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 164,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 3 लोग हैं।",
+      "options": [
+        "are There 3 people in my family.",
+        "There 3 people in my family.",
+        "There are 3 people in my family is.",
+        "There are 3 people in my family."
+      ],
+      "answer": "There are 3 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 165,
+      "type": "translate",
+      "hindi": "मेरे एक दादा हैं।",
+      "options": [
+        "I have a grandfather is.",
+        "I have a grandfather.",
+        "have I a grandfather.",
+        "I a grandfather."
+      ],
+      "answer": "I have a grandfather.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 166,
+      "type": "translate",
+      "hindi": "मुझे फ़िल्में देखना पसंद है।",
+      "options": [
+        "like I watching movies.",
+        "I like watching movies is.",
+        "I like watching movies.!",
+        "I like watching movies."
+      ],
+      "answer": "I like watching movies.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 167,
+      "type": "translate",
+      "hindi": "मैं 2 सालों से वकील का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a lawyer for 2 years is.",
+        "I been working as a lawyer for 2 years.",
+        "have I been working as a lawyer for 2 years.",
+        "I have been working as a lawyer for 2 years."
+      ],
+      "answer": "I have been working as a lawyer for 2 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 168,
+      "type": "translate",
+      "hindi": "मैंने Pune से एलएलबी पूरा किया।",
+      "options": [
+        "I completed my LLB from Pune.",
+        "I completed my LLB from Pune.!",
+        "completed I my LLB from Pune.",
+        "I completed my LLB from Pune is."
+      ],
+      "answer": "I completed my LLB from Pune.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 169,
+      "type": "translate",
+      "hindi": "मैं निर्णय लेने की क्षमता में अच्छा हूँ।",
+      "options": [
+        "I am good at decision making is.",
+        "I am good at decision making.",
+        "I good at decision making.",
+        "am I good at decision making."
+      ],
+      "answer": "I am good at decision making.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 170,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल वकील बनना है।",
+      "options": [
+        "My goal is to become a successful lawyer.",
+        "My goal is to become a successful lawyer is.",
+        "My goal to become a successful lawyer.",
+        "goal My is to become a successful lawyer."
+      ],
+      "answer": "My goal is to become a successful lawyer.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 171,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Pooja हूँ।",
+      "options": [
+        "Nice to meet you, I am Pooja is.",
+        "Nice to meet you, I am Pooja.",
+        "to Nice meet you, I am Pooja.",
+        "Nice to meet you, I Pooja."
+      ],
+      "answer": "Nice to meet you, I am Pooja.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 172,
+      "type": "translate",
+      "hindi": "मैं एक वकील की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a lawyer.",
+        "I am looking forward to the role of a lawyer is.",
+        "I looking forward to the role of a lawyer.",
+        "am I looking forward to the role of a lawyer."
+      ],
+      "answer": "I am looking forward to the role of a lawyer.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 173,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा ओड़िया है।",
+      "options": [
+        "My mother tongue is Odia is.",
+        "My mother tongue Odia.",
+        "My mother tongue is Odia.",
+        "mother My tongue is Odia."
+      ],
+      "answer": "My mother tongue is Odia.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 174,
+      "type": "translate",
+      "hindi": "मैं एक विनीत व्यक्ति हूँ।",
+      "options": [
+        "I am a humble person.",
+        "am I a humble person.",
+        "I a humble person.",
+        "I am a humble person is."
+      ],
+      "answer": "I am a humble person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 175,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Pune में रहता हूँ।",
+      "options": [
+        "I currently live in Pune.!",
+        "I currently live in Pune is.",
+        "currently I live in Pune.",
+        "I currently live in Pune."
+      ],
+      "answer": "I currently live in Pune.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 176,
+      "type": "translate",
+      "hindi": "मैंने ज़िला स्तर की वाद-विवाद प्रतियोगिता जीती।",
+      "options": [
+        "I have won the district-level debate competition.",
+        "I have won the district-level debate competition is.",
+        "have I won the district-level debate competition.",
+        "I won the district-level debate competition."
+      ],
+      "answer": "I have won the district-level debate competition.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 177,
+      "type": "translate",
+      "hindi": "मेरा नाम Vikas है।",
+      "options": [
+        "name My is Vikas.",
+        "My name is Vikas.",
+        "My name is Vikas is.",
+        "My name Vikas."
+      ],
+      "answer": "My name is Vikas.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 178,
+      "type": "translate",
+      "hindi": "मैं Surat से हूँ।",
+      "options": [
+        "am I from Surat.",
+        "I am from Surat.",
+        "I am from Surat is.",
+        "I from Surat."
+      ],
+      "answer": "I am from Surat.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 179,
+      "type": "translate",
+      "hindi": "मैं एक किसान हूँ।",
+      "options": [
+        "I am a farmer is.",
+        "I a farmer.",
+        "am I a farmer.",
+        "I am a farmer."
+      ],
+      "answer": "I am a farmer.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 180,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 4 लोग हैं।",
+      "options": [
+        "There are 4 people in my family is.",
+        "There 4 people in my family.",
+        "are There 4 people in my family.",
+        "There are 4 people in my family."
+      ],
+      "answer": "There are 4 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 181,
+      "type": "translate",
+      "hindi": "मेरे एक दादी हैं।",
+      "options": [
+        "I have a grandmother.",
+        "have I a grandmother.",
+        "I have a grandmother is.",
+        "I a grandmother."
+      ],
+      "answer": "I have a grandmother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 182,
+      "type": "translate",
+      "hindi": "मुझे कविता लिखना पसंद है।",
+      "options": [
+        "I like writing poems.",
+        "like I writing poems.",
+        "I like writing poems is.",
+        "I like writing poems.!"
+      ],
+      "answer": "I like writing poems.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 183,
+      "type": "translate",
+      "hindi": "मैं 3 सालों से किसान का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a farmer for 3 years is.",
+        "I have been working as a farmer for 3 years.",
+        "have I been working as a farmer for 3 years.",
+        "I been working as a farmer for 3 years."
+      ],
+      "answer": "I have been working as a farmer for 3 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 184,
+      "type": "translate",
+      "hindi": "मैंने Surat से एमबीबीएस पूरा किया।",
+      "options": [
+        "I completed my MBBS from Surat.",
+        "completed I my MBBS from Surat.",
+        "I completed my MBBS from Surat is.",
+        "I completed my MBBS from Surat.!"
+      ],
+      "answer": "I completed my MBBS from Surat.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 185,
+      "type": "translate",
+      "hindi": "मैं बहु-कार्य क्षमता में अच्छा हूँ।",
+      "options": [
+        "I am good at multitasking.",
+        "am I good at multitasking.",
+        "I am good at multitasking is.",
+        "I good at multitasking."
+      ],
+      "answer": "I am good at multitasking.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 186,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल किसान बनना है।",
+      "options": [
+        "My goal is to become a successful farmer is.",
+        "My goal to become a successful farmer.",
+        "My goal is to become a successful farmer.",
+        "goal My is to become a successful farmer."
+      ],
+      "answer": "My goal is to become a successful farmer.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 187,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Vikas हूँ।",
+      "options": [
+        "Nice to meet you, I am Vikas.",
+        "Nice to meet you, I am Vikas is.",
+        "to Nice meet you, I am Vikas.",
+        "Nice to meet you, I Vikas."
+      ],
+      "answer": "Nice to meet you, I am Vikas.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 188,
+      "type": "translate",
+      "hindi": "मैं एक किसान की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a farmer.",
+        "am I looking forward to the role of a farmer.",
+        "I looking forward to the role of a farmer.",
+        "I am looking forward to the role of a farmer is."
+      ],
+      "answer": "I am looking forward to the role of a farmer.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 189,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा असमिया है।",
+      "options": [
+        "My mother tongue is Assamese is.",
+        "My mother tongue Assamese.",
+        "My mother tongue is Assamese.",
+        "mother My tongue is Assamese."
+      ],
+      "answer": "My mother tongue is Assamese.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 190,
+      "type": "translate",
+      "hindi": "मैं एक आशावादी व्यक्ति हूँ।",
+      "options": [
+        "I a optimistic person.",
+        "am I a optimistic person.",
+        "I am a optimistic person is.",
+        "I am a optimistic person."
+      ],
+      "answer": "I am a optimistic person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 191,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Surat में रहता हूँ।",
+      "options": [
+        "I currently live in Surat.",
+        "I currently live in Surat.!",
+        "currently I live in Surat.",
+        "I currently live in Surat is."
+      ],
+      "answer": "I currently live in Surat.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 192,
+      "type": "translate",
+      "hindi": "मैंने डिजिटल मार्केटिंग में सर्टिफिकेशन पूरा किया।",
+      "options": [
+        "I completed a certification in digital marketing.",
+        "have I completed a certification in digital marketing.",
+        "I have completed a certification in digital marketing is.",
+        "I have completed a certification in digital marketing."
+      ],
+      "answer": "I have completed a certification in digital marketing.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 193,
+      "type": "translate",
+      "hindi": "मेरा नाम Ritu है।",
+      "options": [
+        "My name is Ritu is.",
+        "My name Ritu.",
+        "name My is Ritu.",
+        "My name is Ritu."
+      ],
+      "answer": "My name is Ritu.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 194,
+      "type": "translate",
+      "hindi": "मैं Nagpur से हूँ।",
+      "options": [
+        "I am from Nagpur is.",
+        "am I from Nagpur.",
+        "I from Nagpur.",
+        "I am from Nagpur."
+      ],
+      "answer": "I am from Nagpur.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 195,
+      "type": "translate",
+      "hindi": "मैं एक दुकानदार हूँ।",
+      "options": [
+        "I a shopkeeper.",
+        "am I a shopkeeper.",
+        "I am a shopkeeper.",
+        "I am a shopkeeper is."
+      ],
+      "answer": "I am a shopkeeper.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 196,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 5 लोग हैं।",
+      "options": [
+        "are There 5 people in my family.",
+        "There are 5 people in my family.",
+        "There are 5 people in my family is.",
+        "There 5 people in my family."
+      ],
+      "answer": "There are 5 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 197,
+      "type": "translate",
+      "hindi": "मेरे एक पिता हैं।",
+      "options": [
+        "I have a father.",
+        "I have a father is.",
+        "have I a father.",
+        "I a father."
+      ],
+      "answer": "I have a father.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 198,
+      "type": "translate",
+      "hindi": "मुझे फुटबॉल खेलना पसंद है।",
+      "options": [
+        "I like playing football.",
+        "I like playing football.!",
+        "I like playing football is.",
+        "like I playing football."
+      ],
+      "answer": "I like playing football.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 199,
+      "type": "translate",
+      "hindi": "मैं 4 सालों से दुकानदार का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a shopkeeper for 4 years.",
+        "have I been working as a shopkeeper for 4 years.",
+        "I been working as a shopkeeper for 4 years.",
+        "I have been working as a shopkeeper for 4 years is."
+      ],
+      "answer": "I have been working as a shopkeeper for 4 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 200,
+      "type": "translate",
+      "hindi": "मैंने Nagpur से बी.फार्म पूरा किया।",
+      "options": [
+        "completed I my B.Pharm from Nagpur.",
+        "I completed my B.Pharm from Nagpur is.",
+        "I completed my B.Pharm from Nagpur.",
+        "I completed my B.Pharm from Nagpur.!"
+      ],
+      "answer": "I completed my B.Pharm from Nagpur.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 201,
+      "type": "translate",
+      "hindi": "मैं अनुकूलनशीलता में अच्छा हूँ।",
+      "options": [
+        "I am good at adaptability.",
+        "am I good at adaptability.",
+        "I am good at adaptability is.",
+        "I good at adaptability."
+      ],
+      "answer": "I am good at adaptability.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 202,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल दुकानदार बनना है।",
+      "options": [
+        "My goal is to become a successful shopkeeper is.",
+        "My goal is to become a successful shopkeeper.",
+        "goal My is to become a successful shopkeeper.",
+        "My goal to become a successful shopkeeper."
+      ],
+      "answer": "My goal is to become a successful shopkeeper.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 203,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Ritu हूँ।",
+      "options": [
+        "Nice to meet you, I am Ritu.",
+        "to Nice meet you, I am Ritu.",
+        "Nice to meet you, I Ritu.",
+        "Nice to meet you, I am Ritu is."
+      ],
+      "answer": "Nice to meet you, I am Ritu.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 204,
+      "type": "translate",
+      "hindi": "मैं एक दुकानदार की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a shopkeeper.",
+        "am I looking forward to the role of a shopkeeper.",
+        "I looking forward to the role of a shopkeeper.",
+        "I am looking forward to the role of a shopkeeper is."
+      ],
+      "answer": "I am looking forward to the role of a shopkeeper.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 205,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा उर्दू है।",
+      "options": [
+        "mother My tongue is Urdu.",
+        "My mother tongue is Urdu.",
+        "My mother tongue is Urdu is.",
+        "My mother tongue Urdu."
+      ],
+      "answer": "My mother tongue is Urdu.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 206,
+      "type": "translate",
+      "hindi": "मैं एक निष्ठावान व्यक्ति हूँ।",
+      "options": [
+        "I am a sincere person is.",
+        "I a sincere person.",
+        "am I a sincere person.",
+        "I am a sincere person."
+      ],
+      "answer": "I am a sincere person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 207,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Nagpur में रहता हूँ।",
+      "options": [
+        "I currently live in Nagpur.!",
+        "I currently live in Nagpur is.",
+        "currently I live in Nagpur.",
+        "I currently live in Nagpur."
+      ],
+      "answer": "I currently live in Nagpur.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 208,
+      "type": "translate",
+      "hindi": "मैंने एम्प्लॉई ऑफ द मंथ का अवार्ड मिला।",
+      "options": [
+        "I have was awarded Employee of the Month is.",
+        "have I was awarded Employee of the Month.",
+        "I have was awarded Employee of the Month.",
+        "I was awarded Employee of the Month."
+      ],
+      "answer": "I have was awarded Employee of the Month.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 209,
+      "type": "translate",
+      "hindi": "मेरा नाम Aditya है।",
+      "options": [
+        "My name is Aditya is.",
+        "My name Aditya.",
+        "name My is Aditya.",
+        "My name is Aditya."
+      ],
+      "answer": "My name is Aditya.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 210,
+      "type": "translate",
+      "hindi": "मैं Agra से हूँ।",
+      "options": [
+        "am I from Agra.",
+        "I am from Agra.",
+        "I am from Agra is.",
+        "I from Agra."
+      ],
+      "answer": "I am from Agra.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 211,
+      "type": "translate",
+      "hindi": "मैं एक ड्राइवर हूँ।",
+      "options": [
+        "I am a driver is.",
+        "I a driver.",
+        "am I a driver.",
+        "I am a driver."
+      ],
+      "answer": "I am a driver.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 212,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 6 लोग हैं।",
+      "options": [
+        "There are 6 people in my family.",
+        "are There 6 people in my family.",
+        "There 6 people in my family.",
+        "There are 6 people in my family is."
+      ],
+      "answer": "There are 6 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 213,
+      "type": "translate",
+      "hindi": "मेरे एक माता हैं।",
+      "options": [
+        "have I a mother.",
+        "I a mother.",
+        "I have a mother is.",
+        "I have a mother."
+      ],
+      "answer": "I have a mother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 214,
+      "type": "translate",
+      "hindi": "मुझे बैडमिंटन खेलना पसंद है।",
+      "options": [
+        "I like playing badminton is.",
+        "I like playing badminton.!",
+        "like I playing badminton.",
+        "I like playing badminton."
+      ],
+      "answer": "I like playing badminton.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 215,
+      "type": "translate",
+      "hindi": "मैं 5 सालों से ड्राइवर का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a driver for 5 years.",
+        "have I been working as a driver for 5 years.",
+        "I been working as a driver for 5 years.",
+        "I have been working as a driver for 5 years is."
+      ],
+      "answer": "I have been working as a driver for 5 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 216,
+      "type": "translate",
+      "hindi": "मैंने Agra से फैशन डिज़ाइन में डिप्लोमा पूरा किया।",
+      "options": [
+        "I completed my Diploma in Fashion Design from Agra.",
+        "completed I my Diploma in Fashion Design from Agra.",
+        "I completed my Diploma in Fashion Design from Agra is.",
+        "I completed my Diploma in Fashion Design from Agra.!"
+      ],
+      "answer": "I completed my Diploma in Fashion Design from Agra.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 217,
+      "type": "translate",
+      "hindi": "मैं रचनात्मकता में अच्छा हूँ।",
+      "options": [
+        "I am good at creativity is.",
+        "I good at creativity.",
+        "am I good at creativity.",
+        "I am good at creativity."
+      ],
+      "answer": "I am good at creativity.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 218,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल ड्राइवर बनना है।",
+      "options": [
+        "My goal to become a successful driver.",
+        "goal My is to become a successful driver.",
+        "My goal is to become a successful driver.",
+        "My goal is to become a successful driver is."
+      ],
+      "answer": "My goal is to become a successful driver.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 219,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Aditya हूँ।",
+      "options": [
+        "Nice to meet you, I am Aditya is.",
+        "to Nice meet you, I am Aditya.",
+        "Nice to meet you, I am Aditya.",
+        "Nice to meet you, I Aditya."
+      ],
+      "answer": "Nice to meet you, I am Aditya.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 220,
+      "type": "translate",
+      "hindi": "मैं एक ड्राइवर की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a driver.",
+        "am I looking forward to the role of a driver.",
+        "I looking forward to the role of a driver.",
+        "I am looking forward to the role of a driver is."
+      ],
+      "answer": "I am looking forward to the role of a driver.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 221,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा संस्कृत है।",
+      "options": [
+        "My mother tongue is Sanskrit is.",
+        "My mother tongue is Sanskrit.",
+        "mother My tongue is Sanskrit.",
+        "My mother tongue Sanskrit."
+      ],
+      "answer": "My mother tongue is Sanskrit.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 222,
+      "type": "translate",
+      "hindi": "मैं एक हर्षित व्यक्ति हूँ।",
+      "options": [
+        "I am a cheerful person is.",
+        "I a cheerful person.",
+        "am I a cheerful person.",
+        "I am a cheerful person."
+      ],
+      "answer": "I am a cheerful person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 223,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Agra में रहता हूँ।",
+      "options": [
+        "I currently live in Agra.!",
+        "currently I live in Agra.",
+        "I currently live in Agra is.",
+        "I currently live in Agra."
+      ],
+      "answer": "I currently live in Agra.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 224,
+      "type": "translate",
+      "hindi": "मैंने यूनिवर्सिटी में पहला स्थान हासिल किया।",
+      "options": [
+        "I secured first rank in the university.",
+        "I have secured first rank in the university.",
+        "have I secured first rank in the university.",
+        "I have secured first rank in the university is."
+      ],
+      "answer": "I have secured first rank in the university.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 225,
+      "type": "translate",
+      "hindi": "मेरा नाम Kavita है।",
+      "options": [
+        "My name is Kavita is.",
+        "My name is Kavita.",
+        "name My is Kavita.",
+        "My name Kavita."
+      ],
+      "answer": "My name is Kavita.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 226,
+      "type": "translate",
+      "hindi": "मैं Varanasi से हूँ।",
+      "options": [
+        "I am from Varanasi.",
+        "I from Varanasi.",
+        "I am from Varanasi is.",
+        "am I from Varanasi."
+      ],
+      "answer": "I am from Varanasi.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 227,
+      "type": "translate",
+      "hindi": "मैं एक छात्र हूँ।",
+      "options": [
+        "I am a student is.",
+        "I a student.",
+        "am I a student.",
+        "I am a student."
+      ],
+      "answer": "I am a student.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 228,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 7 लोग हैं।",
+      "options": [
+        "There 7 people in my family.",
+        "are There 7 people in my family.",
+        "There are 7 people in my family.",
+        "There are 7 people in my family is."
+      ],
+      "answer": "There are 7 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 229,
+      "type": "translate",
+      "hindi": "मेरे एक भाई हैं।",
+      "options": [
+        "I have a brother.",
+        "I have a brother is.",
+        "I a brother.",
+        "have I a brother."
+      ],
+      "answer": "I have a brother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 230,
+      "type": "translate",
+      "hindi": "मुझे तैरना पसंद है।",
+      "options": [
+        "like I swimming.",
+        "I like swimming.",
+        "I like swimming.!",
+        "I like swimming is."
+      ],
+      "answer": "I like swimming.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 231,
+      "type": "translate",
+      "hindi": "मैं 6 सालों से छात्र का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a student for 6 years is.",
+        "I been working as a student for 6 years.",
+        "have I been working as a student for 6 years.",
+        "I have been working as a student for 6 years."
+      ],
+      "answer": "I have been working as a student for 6 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 232,
+      "type": "translate",
+      "hindi": "मैंने Varanasi से कृषि में बी.एससी पूरा किया।",
+      "options": [
+        "I completed my B.Sc in Agriculture from Varanasi.!",
+        "I completed my B.Sc in Agriculture from Varanasi.",
+        "completed I my B.Sc in Agriculture from Varanasi.",
+        "I completed my B.Sc in Agriculture from Varanasi is."
+      ],
+      "answer": "I completed my B.Sc in Agriculture from Varanasi.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 233,
+      "type": "translate",
+      "hindi": "मैं प्रोजेक्ट प्रबंधन में अच्छा हूँ।",
+      "options": [
+        "I am good at project management.",
+        "am I good at project management.",
+        "I good at project management.",
+        "I am good at project management is."
+      ],
+      "answer": "I am good at project management.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 234,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल छात्र बनना है।",
+      "options": [
+        "My goal is to become a successful student.",
+        "My goal is to become a successful student is.",
+        "My goal to become a successful student.",
+        "goal My is to become a successful student."
+      ],
+      "answer": "My goal is to become a successful student.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 235,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Kavita हूँ।",
+      "options": [
+        "to Nice meet you, I am Kavita.",
+        "Nice to meet you, I am Kavita.",
+        "Nice to meet you, I Kavita.",
+        "Nice to meet you, I am Kavita is."
+      ],
+      "answer": "Nice to meet you, I am Kavita.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 236,
+      "type": "translate",
+      "hindi": "मैं एक छात्र की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I looking forward to the role of a student.",
+        "am I looking forward to the role of a student.",
+        "I am looking forward to the role of a student.",
+        "I am looking forward to the role of a student is."
+      ],
+      "answer": "I am looking forward to the role of a student.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 237,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा फ़्रेंच है।",
+      "options": [
+        "My mother tongue is French is.",
+        "My mother tongue is French.",
+        "mother My tongue is French.",
+        "My mother tongue French."
+      ],
+      "answer": "My mother tongue is French.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 238,
+      "type": "translate",
+      "hindi": "मैं एक जिज्ञासु व्यक्ति हूँ।",
+      "options": [
+        "I am a curious person is.",
+        "I a curious person.",
+        "am I a curious person.",
+        "I am a curious person."
+      ],
+      "answer": "I am a curious person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 239,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Varanasi में रहता हूँ।",
+      "options": [
+        "I currently live in Varanasi.!",
+        "I currently live in Varanasi is.",
+        "I currently live in Varanasi.",
+        "currently I live in Varanasi."
+      ],
+      "answer": "I currently live in Varanasi.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 240,
+      "type": "translate",
+      "hindi": "मैंने एक शोध पत्र प्रकाशित किया।",
+      "options": [
+        "I published a research paper.",
+        "I have published a research paper.",
+        "have I published a research paper.",
+        "I have published a research paper is."
+      ],
+      "answer": "I have published a research paper.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 241,
+      "type": "translate",
+      "hindi": "मेरा नाम Manish है।",
+      "options": [
+        "My name is Manish.",
+        "name My is Manish.",
+        "My name Manish.",
+        "My name is Manish is."
+      ],
+      "answer": "My name is Manish.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 242,
+      "type": "translate",
+      "hindi": "मैं Amritsar से हूँ।",
+      "options": [
+        "I from Amritsar.",
+        "am I from Amritsar.",
+        "I am from Amritsar is.",
+        "I am from Amritsar."
+      ],
+      "answer": "I am from Amritsar.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 243,
+      "type": "translate",
+      "hindi": "मैं एक फार्मासिस्ट हूँ।",
+      "options": [
+        "I am a pharmacist is.",
+        "I am a pharmacist.",
+        "am I a pharmacist.",
+        "I a pharmacist."
+      ],
+      "answer": "I am a pharmacist.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 244,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 3 लोग हैं।",
+      "options": [
+        "are There 3 people in my family.",
+        "There are 3 people in my family.",
+        "There 3 people in my family.",
+        "There are 3 people in my family is."
+      ],
+      "answer": "There are 3 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 245,
+      "type": "translate",
+      "hindi": "मेरे एक बहन हैं।",
+      "options": [
+        "I have a sister.",
+        "have I a sister.",
+        "I have a sister is.",
+        "I a sister."
+      ],
+      "answer": "I have a sister.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 246,
+      "type": "translate",
+      "hindi": "मुझे साइकिल चलाना पसंद है।",
+      "options": [
+        "I like cycling.",
+        "like I cycling.",
+        "I like cycling is.",
+        "I like cycling.!"
+      ],
+      "answer": "I like cycling.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 247,
+      "type": "translate",
+      "hindi": "मैं 7 सालों से फार्मासिस्ट का काम कर रहा हूँ।",
+      "options": [
+        "I been working as a pharmacist for 7 years.",
+        "I have been working as a pharmacist for 7 years is.",
+        "have I been working as a pharmacist for 7 years.",
+        "I have been working as a pharmacist for 7 years."
+      ],
+      "answer": "I have been working as a pharmacist for 7 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 248,
+      "type": "translate",
+      "hindi": "मैंने Amritsar से एम.कॉम पूरा किया।",
+      "options": [
+        "I completed my M.Com from Amritsar.",
+        "completed I my M.Com from Amritsar.",
+        "I completed my M.Com from Amritsar is.",
+        "I completed my M.Com from Amritsar.!"
+      ],
+      "answer": "I completed my M.Com from Amritsar.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 249,
+      "type": "translate",
+      "hindi": "मैं ग्राहक सेवा में अच्छा हूँ।",
+      "options": [
+        "am I good at customer service.",
+        "I am good at customer service is.",
+        "I good at customer service.",
+        "I am good at customer service."
+      ],
+      "answer": "I am good at customer service.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 250,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल फार्मासिस्ट बनना है।",
+      "options": [
+        "My goal to become a successful pharmacist.",
+        "goal My is to become a successful pharmacist.",
+        "My goal is to become a successful pharmacist.",
+        "My goal is to become a successful pharmacist is."
+      ],
+      "answer": "My goal is to become a successful pharmacist.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 251,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Manish हूँ।",
+      "options": [
+        "Nice to meet you, I Manish.",
+        "to Nice meet you, I am Manish.",
+        "Nice to meet you, I am Manish.",
+        "Nice to meet you, I am Manish is."
+      ],
+      "answer": "Nice to meet you, I am Manish.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 252,
+      "type": "translate",
+      "hindi": "मैं एक फार्मासिस्ट की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a pharmacist.",
+        "I am looking forward to the role of a pharmacist is.",
+        "am I looking forward to the role of a pharmacist.",
+        "I looking forward to the role of a pharmacist."
+      ],
+      "answer": "I am looking forward to the role of a pharmacist.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 253,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा जर्मन है।",
+      "options": [
+        "My mother tongue German.",
+        "mother My tongue is German.",
+        "My mother tongue is German is.",
+        "My mother tongue is German."
+      ],
+      "answer": "My mother tongue is German.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 254,
+      "type": "translate",
+      "hindi": "मैं एक स्वतंत्र व्यक्ति हूँ।",
+      "options": [
+        "I am a independent person.",
+        "am I a independent person.",
+        "I a independent person.",
+        "I am a independent person is."
+      ],
+      "answer": "I am a independent person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 255,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Amritsar में रहता हूँ।",
+      "options": [
+        "currently I live in Amritsar.",
+        "I currently live in Amritsar.",
+        "I currently live in Amritsar is.",
+        "I currently live in Amritsar.!"
+      ],
+      "answer": "I currently live in Amritsar.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 256,
+      "type": "translate",
+      "hindi": "मैंने दस लोगों की टीम का नेतृत्व किया।",
+      "options": [
+        "I have led a team of ten people.",
+        "have I led a team of ten people.",
+        "I have led a team of ten people is.",
+        "I led a team of ten people."
+      ],
+      "answer": "I have led a team of ten people.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 257,
+      "type": "translate",
+      "hindi": "मेरा नाम Shreya है।",
+      "options": [
+        "My name is Shreya is.",
+        "My name is Shreya.",
+        "name My is Shreya.",
+        "My name Shreya."
+      ],
+      "answer": "My name is Shreya.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 258,
+      "type": "translate",
+      "hindi": "मैं Guwahati से हूँ।",
+      "options": [
+        "I am from Guwahati is.",
+        "I from Guwahati.",
+        "am I from Guwahati.",
+        "I am from Guwahati."
+      ],
+      "answer": "I am from Guwahati.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 259,
+      "type": "translate",
+      "hindi": "मैं एक वास्तुकार हूँ।",
+      "options": [
+        "I am an architect is.",
+        "I an architect.",
+        "am I an architect.",
+        "I am an architect."
+      ],
+      "answer": "I am an architect.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 260,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 4 लोग हैं।",
+      "options": [
+        "There are 4 people in my family.",
+        "are There 4 people in my family.",
+        "There 4 people in my family.",
+        "There are 4 people in my family is."
+      ],
+      "answer": "There are 4 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 261,
+      "type": "translate",
+      "hindi": "मेरे एक दादा हैं।",
+      "options": [
+        "I have a grandfather is.",
+        "have I a grandfather.",
+        "I have a grandfather.",
+        "I a grandfather."
+      ],
+      "answer": "I have a grandfather.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 262,
+      "type": "translate",
+      "hindi": "मुझे ट्रैकिंग करना पसंद है।",
+      "options": [
+        "I like trekking.",
+        "like I trekking.",
+        "I like trekking is.",
+        "I like trekking.!"
+      ],
+      "answer": "I like trekking.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 263,
+      "type": "translate",
+      "hindi": "मैं 8 सालों से वास्तुकार का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a architect for 8 years is.",
+        "I been working as a architect for 8 years.",
+        "have I been working as a architect for 8 years.",
+        "I have been working as a architect for 8 years."
+      ],
+      "answer": "I have been working as a architect for 8 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 264,
+      "type": "translate",
+      "hindi": "मैंने Guwahati से बीसीए पूरा किया।",
+      "options": [
+        "I completed my BCA from Guwahati.",
+        "completed I my BCA from Guwahati.",
+        "I completed my BCA from Guwahati.!",
+        "I completed my BCA from Guwahati is."
+      ],
+      "answer": "I completed my BCA from Guwahati.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 265,
+      "type": "translate",
+      "hindi": "मैं प्रस्तुति कौशल में अच्छा हूँ।",
+      "options": [
+        "I am good at presentation skills.",
+        "I good at presentation skills.",
+        "I am good at presentation skills is.",
+        "am I good at presentation skills."
+      ],
+      "answer": "I am good at presentation skills.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 266,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल वास्तुकार बनना है।",
+      "options": [
+        "My goal is to become a successful architect is.",
+        "My goal is to become a successful architect.",
+        "goal My is to become a successful architect.",
+        "My goal to become a successful architect."
+      ],
+      "answer": "My goal is to become a successful architect.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 267,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Shreya हूँ।",
+      "options": [
+        "Nice to meet you, I am Shreya is.",
+        "Nice to meet you, I Shreya.",
+        "to Nice meet you, I am Shreya.",
+        "Nice to meet you, I am Shreya."
+      ],
+      "answer": "Nice to meet you, I am Shreya.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 268,
+      "type": "translate",
+      "hindi": "मैं एक वास्तुकार की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a architect.",
+        "I am looking forward to the role of a architect is.",
+        "I am looking forward to the role of a architect.",
+        "I looking forward to the role of a architect."
+      ],
+      "answer": "I am looking forward to the role of a architect.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 269,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा स्पेनिश है।",
+      "options": [
+        "mother My tongue is Spanish.",
+        "My mother tongue is Spanish is.",
+        "My mother tongue Spanish.",
+        "My mother tongue is Spanish."
+      ],
+      "answer": "My mother tongue is Spanish.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 270,
+      "type": "translate",
+      "hindi": "मैं एक लचीला व्यक्ति हूँ।",
+      "options": [
+        "I am a flexible person.",
+        "I am a flexible person is.",
+        "am I a flexible person.",
+        "I a flexible person."
+      ],
+      "answer": "I am a flexible person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 271,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Guwahati में रहता हूँ।",
+      "options": [
+        "currently I live in Guwahati.",
+        "I currently live in Guwahati.!",
+        "I currently live in Guwahati is.",
+        "I currently live in Guwahati."
+      ],
+      "answer": "I currently live in Guwahati.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 272,
+      "type": "translate",
+      "hindi": "मैंने कॉलेज कल्चरल फेस्ट आयोजित किया।",
+      "options": [
+        "I have organized a college cultural fest is.",
+        "I organized a college cultural fest.",
+        "have I organized a college cultural fest.",
+        "I have organized a college cultural fest."
+      ],
+      "answer": "I have organized a college cultural fest.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 273,
+      "type": "translate",
+      "hindi": "मेरा नाम Deepak है।",
+      "options": [
+        "My name is Deepak.",
+        "name My is Deepak.",
+        "My name is Deepak is.",
+        "My name Deepak."
+      ],
+      "answer": "My name is Deepak.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 274,
+      "type": "translate",
+      "hindi": "मैं Bhubaneswar से हूँ।",
+      "options": [
+        "I am from Bhubaneswar.",
+        "am I from Bhubaneswar.",
+        "I from Bhubaneswar.",
+        "I am from Bhubaneswar is."
+      ],
+      "answer": "I am from Bhubaneswar.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 275,
+      "type": "translate",
+      "hindi": "मैं एक इलेक्ट्रीशियन हूँ।",
+      "options": [
+        "I am an electrician.",
+        "am I an electrician.",
+        "I am an electrician is.",
+        "I an electrician."
+      ],
+      "answer": "I am an electrician.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 276,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 5 लोग हैं।",
+      "options": [
+        "There are 5 people in my family.",
+        "are There 5 people in my family.",
+        "There 5 people in my family.",
+        "There are 5 people in my family is."
+      ],
+      "answer": "There are 5 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 277,
+      "type": "translate",
+      "hindi": "मेरे एक दादी हैं।",
+      "options": [
+        "I a grandmother.",
+        "I have a grandmother.",
+        "I have a grandmother is.",
+        "have I a grandmother."
+      ],
+      "answer": "I have a grandmother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 278,
+      "type": "translate",
+      "hindi": "मुझे योग करना पसंद है।",
+      "options": [
+        "I like yoga.!",
+        "I like yoga is.",
+        "like I yoga.",
+        "I like yoga."
+      ],
+      "answer": "I like yoga.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 279,
+      "type": "translate",
+      "hindi": "मैं 10 सालों से इलेक्ट्रीशियन का काम कर रहा हूँ।",
+      "options": [
+        "have I been working as a electrician for 10 years.",
+        "I have been working as a electrician for 10 years.",
+        "I been working as a electrician for 10 years.",
+        "I have been working as a electrician for 10 years is."
+      ],
+      "answer": "I have been working as a electrician for 10 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 280,
+      "type": "translate",
+      "hindi": "मैंने Bhubaneswar से एमसीए पूरा किया।",
+      "options": [
+        "completed I my MCA from Bhubaneswar.",
+        "I completed my MCA from Bhubaneswar.",
+        "I completed my MCA from Bhubaneswar is.",
+        "I completed my MCA from Bhubaneswar.!"
+      ],
+      "answer": "I completed my MCA from Bhubaneswar.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 281,
+      "type": "translate",
+      "hindi": "मैं विश्लेषणात्मक सोच में अच्छा हूँ।",
+      "options": [
+        "I am good at analytical thinking is.",
+        "I good at analytical thinking.",
+        "am I good at analytical thinking.",
+        "I am good at analytical thinking."
+      ],
+      "answer": "I am good at analytical thinking.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 282,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल इलेक्ट्रीशियन बनना है।",
+      "options": [
+        "My goal to become a successful electrician.",
+        "My goal is to become a successful electrician.",
+        "goal My is to become a successful electrician.",
+        "My goal is to become a successful electrician is."
+      ],
+      "answer": "My goal is to become a successful electrician.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 283,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Deepak हूँ।",
+      "options": [
+        "Nice to meet you, I am Deepak is.",
+        "Nice to meet you, I Deepak.",
+        "to Nice meet you, I am Deepak.",
+        "Nice to meet you, I am Deepak."
+      ],
+      "answer": "Nice to meet you, I am Deepak.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 284,
+      "type": "translate",
+      "hindi": "मैं एक इलेक्ट्रीशियन की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a electrician is.",
+        "I looking forward to the role of a electrician.",
+        "am I looking forward to the role of a electrician.",
+        "I am looking forward to the role of a electrician."
+      ],
+      "answer": "I am looking forward to the role of a electrician.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 285,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा जापानी है।",
+      "options": [
+        "My mother tongue is Japanese is.",
+        "My mother tongue Japanese.",
+        "mother My tongue is Japanese.",
+        "My mother tongue is Japanese."
+      ],
+      "answer": "My mother tongue is Japanese.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 286,
+      "type": "translate",
+      "hindi": "मैं एक उदार व्यक्ति हूँ।",
+      "options": [
+        "I am a generous person.",
+        "am I a generous person.",
+        "I a generous person.",
+        "I am a generous person is."
+      ],
+      "answer": "I am a generous person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 287,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Bhubaneswar में रहता हूँ।",
+      "options": [
+        "I currently live in Bhubaneswar.!",
+        "I currently live in Bhubaneswar.",
+        "currently I live in Bhubaneswar.",
+        "I currently live in Bhubaneswar is."
+      ],
+      "answer": "I currently live in Bhubaneswar.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 288,
+      "type": "translate",
+      "hindi": "मैंने शैक्षणिक उत्कृष्टता के लिए स्कॉलरशिप प्राप्त की।",
+      "options": [
+        "I have received a scholarship for academic excellence is.",
+        "I received a scholarship for academic excellence.",
+        "have I received a scholarship for academic excellence.",
+        "I have received a scholarship for academic excellence."
+      ],
+      "answer": "I have received a scholarship for academic excellence.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 289,
+      "type": "translate",
+      "hindi": "मेरा नाम Anjali है।",
+      "options": [
+        "My name is Anjali is.",
+        "My name Anjali.",
+        "name My is Anjali.",
+        "My name is Anjali."
+      ],
+      "answer": "My name is Anjali.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 290,
+      "type": "translate",
+      "hindi": "मैं Kota से हूँ।",
+      "options": [
+        "I am from Kota.",
+        "am I from Kota.",
+        "I am from Kota is.",
+        "I from Kota."
+      ],
+      "answer": "I am from Kota.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 291,
+      "type": "translate",
+      "hindi": "मैं एक प्लंबर हूँ।",
+      "options": [
+        "am I a plumber.",
+        "I am a plumber is.",
+        "I am a plumber.",
+        "I a plumber."
+      ],
+      "answer": "I am a plumber.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 292,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 6 लोग हैं।",
+      "options": [
+        "are There 6 people in my family.",
+        "There are 6 people in my family is.",
+        "There are 6 people in my family.",
+        "There 6 people in my family."
+      ],
+      "answer": "There are 6 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 293,
+      "type": "translate",
+      "hindi": "मेरे एक पिता हैं।",
+      "options": [
+        "I have a father.",
+        "have I a father.",
+        "I a father.",
+        "I have a father is."
+      ],
+      "answer": "I have a father.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 294,
+      "type": "translate",
+      "hindi": "मुझे ध्यान करना पसंद है।",
+      "options": [
+        "I like meditation.!",
+        "I like meditation is.",
+        "like I meditation.",
+        "I like meditation."
+      ],
+      "answer": "I like meditation.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 295,
+      "type": "translate",
+      "hindi": "मैं 1 सालों से प्लंबर का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a plumber for 1 years is.",
+        "I been working as a plumber for 1 years.",
+        "have I been working as a plumber for 1 years.",
+        "I have been working as a plumber for 1 years."
+      ],
+      "answer": "I have been working as a plumber for 1 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 296,
+      "type": "translate",
+      "hindi": "मैंने Kota से बी.आर्क पूरा किया।",
+      "options": [
+        "I completed my B.Arch from Kota.",
+        "completed I my B.Arch from Kota.",
+        "I completed my B.Arch from Kota is.",
+        "I completed my B.Arch from Kota.!"
+      ],
+      "answer": "I completed my B.Arch from Kota.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 297,
+      "type": "translate",
+      "hindi": "मैं संघर्ष समाधान में अच्छा हूँ।",
+      "options": [
+        "I good at conflict resolution.",
+        "I am good at conflict resolution is.",
+        "I am good at conflict resolution.",
+        "am I good at conflict resolution."
+      ],
+      "answer": "I am good at conflict resolution.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 298,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल प्लंबर बनना है।",
+      "options": [
+        "goal My is to become a successful plumber.",
+        "My goal is to become a successful plumber is.",
+        "My goal is to become a successful plumber.",
+        "My goal to become a successful plumber."
+      ],
+      "answer": "My goal is to become a successful plumber.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 299,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Anjali हूँ।",
+      "options": [
+        "Nice to meet you, I am Anjali is.",
+        "Nice to meet you, I Anjali.",
+        "to Nice meet you, I am Anjali.",
+        "Nice to meet you, I am Anjali."
+      ],
+      "answer": "Nice to meet you, I am Anjali.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 300,
+      "type": "translate",
+      "hindi": "मैं एक प्लंबर की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a plumber is.",
+        "I am looking forward to the role of a plumber.",
+        "am I looking forward to the role of a plumber.",
+        "I looking forward to the role of a plumber."
+      ],
+      "answer": "I am looking forward to the role of a plumber.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 301,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा चीनी है।",
+      "options": [
+        "My mother tongue is Chinese is.",
+        "My mother tongue is Chinese.",
+        "mother My tongue is Chinese.",
+        "My mother tongue Chinese."
+      ],
+      "answer": "My mother tongue is Chinese.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 302,
+      "type": "translate",
+      "hindi": "मैं एक शांत व्यक्ति हूँ।",
+      "options": [
+        "I am a calm person is.",
+        "I am a calm person.",
+        "am I a calm person.",
+        "I a calm person."
+      ],
+      "answer": "I am a calm person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 303,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Kota में रहता हूँ।",
+      "options": [
+        "I currently live in Kota.!",
+        "I currently live in Kota is.",
+        "currently I live in Kota.",
+        "I currently live in Kota."
+      ],
+      "answer": "I currently live in Kota.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 304,
+      "type": "translate",
+      "hindi": "मैंने एक साइड प्रोजेक्ट के तौर पर मोबाइल एप्लिकेशन बनाया।",
+      "options": [
+        "I have built a mobile application as a side project.",
+        "have I built a mobile application as a side project.",
+        "I built a mobile application as a side project.",
+        "I have built a mobile application as a side project is."
+      ],
+      "answer": "I have built a mobile application as a side project.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 305,
+      "type": "translate",
+      "hindi": "मेरा नाम Rahul है।",
+      "options": [
+        "My name Rahul.",
+        "My name is Rahul is.",
+        "My name is Rahul.",
+        "name My is Rahul."
+      ],
+      "answer": "My name is Rahul.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 306,
+      "type": "translate",
+      "hindi": "मैं Meerut से हूँ।",
+      "options": [
+        "am I from Meerut.",
+        "I from Meerut.",
+        "I am from Meerut.",
+        "I am from Meerut is."
+      ],
+      "answer": "I am from Meerut.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 307,
+      "type": "translate",
+      "hindi": "मैं एक शेफ हूँ।",
+      "options": [
+        "I am a chef.",
+        "am I a chef.",
+        "I a chef.",
+        "I am a chef is."
+      ],
+      "answer": "I am a chef.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 308,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 7 लोग हैं।",
+      "options": [
+        "There are 7 people in my family is.",
+        "There are 7 people in my family.",
+        "are There 7 people in my family.",
+        "There 7 people in my family."
+      ],
+      "answer": "There are 7 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 309,
+      "type": "translate",
+      "hindi": "मेरे एक माता हैं।",
+      "options": [
+        "I have a mother is.",
+        "I a mother.",
+        "have I a mother.",
+        "I have a mother."
+      ],
+      "answer": "I have a mother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 310,
+      "type": "translate",
+      "hindi": "मुझे ब्लॉग लिखना पसंद है।",
+      "options": [
+        "I like blogging.",
+        "like I blogging.",
+        "I like blogging is.",
+        "I like blogging.!"
+      ],
+      "answer": "I like blogging.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 311,
+      "type": "translate",
+      "hindi": "मैं 2 सालों से शेफ का काम कर रहा हूँ।",
+      "options": [
+        "I been working as a chef for 2 years.",
+        "I have been working as a chef for 2 years is.",
+        "have I been working as a chef for 2 years.",
+        "I have been working as a chef for 2 years."
+      ],
+      "answer": "I have been working as a chef for 2 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 312,
+      "type": "translate",
+      "hindi": "मैंने Meerut से रसायन विज्ञान में पीएचडी पूरा किया।",
+      "options": [
+        "I completed my PhD in Chemistry from Meerut.",
+        "completed I my PhD in Chemistry from Meerut.",
+        "I completed my PhD in Chemistry from Meerut is.",
+        "I completed my PhD in Chemistry from Meerut.!"
+      ],
+      "answer": "I completed my PhD in Chemistry from Meerut.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 313,
+      "type": "translate",
+      "hindi": "मैं भावनात्मक बुद्धिमत्ता में अच्छा हूँ।",
+      "options": [
+        "I am good at emotional intelligence.",
+        "am I good at emotional intelligence.",
+        "I am good at emotional intelligence is.",
+        "I good at emotional intelligence."
+      ],
+      "answer": "I am good at emotional intelligence.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 314,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल शेफ बनना है।",
+      "options": [
+        "goal My is to become a successful chef.",
+        "My goal is to become a successful chef is.",
+        "My goal is to become a successful chef.",
+        "My goal to become a successful chef."
+      ],
+      "answer": "My goal is to become a successful chef.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 315,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Rahul हूँ।",
+      "options": [
+        "to Nice meet you, I am Rahul.",
+        "Nice to meet you, I am Rahul.",
+        "Nice to meet you, I Rahul.",
+        "Nice to meet you, I am Rahul is."
+      ],
+      "answer": "Nice to meet you, I am Rahul.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 316,
+      "type": "translate",
+      "hindi": "मैं एक शेफ की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a chef is.",
+        "I am looking forward to the role of a chef.",
+        "I looking forward to the role of a chef.",
+        "am I looking forward to the role of a chef."
+      ],
+      "answer": "I am looking forward to the role of a chef.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 317,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा अरबी है।",
+      "options": [
+        "My mother tongue is Arabic is.",
+        "My mother tongue is Arabic.",
+        "My mother tongue Arabic.",
+        "mother My tongue is Arabic."
+      ],
+      "answer": "My mother tongue is Arabic.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 318,
+      "type": "translate",
+      "hindi": "मैं एक ऊर्जावान व्यक्ति हूँ।",
+      "options": [
+        "I a energetic person.",
+        "am I a energetic person.",
+        "I am a energetic person.",
+        "I am a energetic person is."
+      ],
+      "answer": "I am a energetic person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 319,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Meerut में रहता हूँ।",
+      "options": [
+        "I currently live in Meerut.",
+        "currently I live in Meerut.",
+        "I currently live in Meerut is.",
+        "I currently live in Meerut.!"
+      ],
+      "answer": "I currently live in Meerut.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 320,
+      "type": "translate",
+      "hindi": "मैंने एक सामुदायिक सेवा कार्यक्रम में स्वयंसेवा की।",
+      "options": [
+        "have I volunteered for a community service program.",
+        "I have volunteered for a community service program.",
+        "I have volunteered for a community service program is.",
+        "I volunteered for a community service program."
+      ],
+      "answer": "I have volunteered for a community service program.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 321,
+      "type": "translate",
+      "hindi": "मेरा नाम Suman है।",
+      "options": [
+        "My name Suman.",
+        "My name is Suman is.",
+        "name My is Suman.",
+        "My name is Suman."
+      ],
+      "answer": "My name is Suman.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 322,
+      "type": "translate",
+      "hindi": "मैं Bangalore से हूँ।",
+      "options": [
+        "I from Bangalore.",
+        "am I from Bangalore.",
+        "I am from Bangalore.",
+        "I am from Bangalore is."
+      ],
+      "answer": "I am from Bangalore.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 323,
+      "type": "translate",
+      "hindi": "मैं एक वेटर हूँ।",
+      "options": [
+        "I am a waiter.",
+        "I am a waiter is.",
+        "I a waiter.",
+        "am I a waiter."
+      ],
+      "answer": "I am a waiter.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 324,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 3 लोग हैं।",
+      "options": [
+        "There are 3 people in my family is.",
+        "There 3 people in my family.",
+        "are There 3 people in my family.",
+        "There are 3 people in my family."
+      ],
+      "answer": "There are 3 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 325,
+      "type": "translate",
+      "hindi": "मेरे एक भाई हैं।",
+      "options": [
+        "I a brother.",
+        "have I a brother.",
+        "I have a brother is.",
+        "I have a brother."
+      ],
+      "answer": "I have a brother.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 326,
+      "type": "translate",
+      "hindi": "मुझे कोडिंग करना पसंद है।",
+      "options": [
+        "I like coding.!",
+        "I like coding.",
+        "like I coding.",
+        "I like coding is."
+      ],
+      "answer": "I like coding.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 327,
+      "type": "translate",
+      "hindi": "मैं 3 सालों से वेटर का काम कर रहा हूँ।",
+      "options": [
+        "I have been working as a waiter for 3 years.",
+        "have I been working as a waiter for 3 years.",
+        "I have been working as a waiter for 3 years is.",
+        "I been working as a waiter for 3 years."
+      ],
+      "answer": "I have been working as a waiter for 3 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 328,
+      "type": "translate",
+      "hindi": "मैंने Bangalore से कंप्यूटर साइंस में बी.टेक पूरा किया।",
+      "options": [
+        "I completed my B.Tech in Computer Science from Bangalore.",
+        "completed I my B.Tech in Computer Science from Bangalore.",
+        "I completed my B.Tech in Computer Science from Bangalore is.",
+        "I completed my B.Tech in Computer Science from Bangalore.!"
+      ],
+      "answer": "I completed my B.Tech in Computer Science from Bangalore.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 329,
+      "type": "translate",
+      "hindi": "मैं रणनीतिक योजना में अच्छा हूँ।",
+      "options": [
+        "I am good at strategic planning is.",
+        "I am good at strategic planning.",
+        "I good at strategic planning.",
+        "am I good at strategic planning."
+      ],
+      "answer": "I am good at strategic planning.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 330,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल वेटर बनना है।",
+      "options": [
+        "My goal is to become a successful waiter is.",
+        "goal My is to become a successful waiter.",
+        "My goal is to become a successful waiter.",
+        "My goal to become a successful waiter."
+      ],
+      "answer": "My goal is to become a successful waiter.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 331,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Suman हूँ।",
+      "options": [
+        "Nice to meet you, I am Suman.",
+        "to Nice meet you, I am Suman.",
+        "Nice to meet you, I Suman.",
+        "Nice to meet you, I am Suman is."
+      ],
+      "answer": "Nice to meet you, I am Suman.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 332,
+      "type": "translate",
+      "hindi": "मैं एक वेटर की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "am I looking forward to the role of a waiter.",
+        "I am looking forward to the role of a waiter.",
+        "I am looking forward to the role of a waiter is.",
+        "I looking forward to the role of a waiter."
+      ],
+      "answer": "I am looking forward to the role of a waiter.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 333,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा रूसी है।",
+      "options": [
+        "mother My tongue is Russian.",
+        "My mother tongue Russian.",
+        "My mother tongue is Russian.",
+        "My mother tongue is Russian is."
+      ],
+      "answer": "My mother tongue is Russian.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 334,
+      "type": "translate",
+      "hindi": "मैं एक वफ़ादार व्यक्ति हूँ।",
+      "options": [
+        "I am a loyal person is.",
+        "I am a loyal person.",
+        "am I a loyal person.",
+        "I a loyal person."
+      ],
+      "answer": "I am a loyal person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    },
+    {
+      "id": 335,
+      "type": "translate",
+      "hindi": "मैं फ़िलहाल Bangalore में रहता हूँ।",
+      "options": [
+        "I currently live in Bangalore.",
+        "I currently live in Bangalore.!",
+        "currently I live in Bangalore.",
+        "I currently live in Bangalore is."
+      ],
+      "answer": "I currently live in Bangalore.",
+      "explanation": "Present residence बताने के लिए Present Simple 'I live in' या 'I am based in' इस्तेमाल होता है।"
+    },
+    {
+      "id": 336,
+      "type": "translate",
+      "hindi": "मैंने ज़िला स्तर की वाद-विवाद प्रतियोगिता जीती।",
+      "options": [
+        "I have won the district-level debate competition.",
+        "have I won the district-level debate competition.",
+        "I won the district-level debate competition.",
+        "I have won the district-level debate competition is."
+      ],
+      "answer": "I have won the district-level debate competition.",
+      "explanation": "Achievement बताने के लिए Present Perfect 'I have' + past participle इस्तेमाल होता है क्योंकि result अभी भी relevant है।"
+    },
+    {
+      "id": 337,
+      "type": "translate",
+      "hindi": "मेरा नाम Nikhil है।",
+      "options": [
+        "My name is Nikhil is.",
+        "My name Nikhil.",
+        "name My is Nikhil.",
+        "My name is Nikhil."
+      ],
+      "answer": "My name is Nikhil.",
+      "explanation": "'My name is' सबसे common self-introduction pattern है, हर नाम के साथ इस्तेमाल होता है।"
+    },
+    {
+      "id": 338,
+      "type": "translate",
+      "hindi": "मैं Hyderabad से हूँ।",
+      "options": [
+        "I am from Hyderabad.",
+        "I am from Hyderabad is.",
+        "am I from Hyderabad.",
+        "I from Hyderabad."
+      ],
+      "answer": "I am from Hyderabad.",
+      "explanation": "जन्म स्थान या रहने की जगह बताने के लिए 'I am from' + city/country इस्तेमाल होता है।"
+    },
+    {
+      "id": 339,
+      "type": "translate",
+      "hindi": "मैं एक रिसेप्शनिस्ट हूँ।",
+      "options": [
+        "I am a receptionist.",
+        "am I a receptionist.",
+        "I am a receptionist is.",
+        "I a receptionist."
+      ],
+      "answer": "I am a receptionist.",
+      "explanation": "Profession बताने के लिए 'I am a/an' + job title इस्तेमाल होता है; article a/an vowel sound पर depend करता है।"
+    },
+    {
+      "id": 340,
+      "type": "translate",
+      "hindi": "मेरे परिवार में 4 लोग हैं।",
+      "options": [
+        "There are 4 people in my family is.",
+        "There 4 people in my family.",
+        "are There 4 people in my family.",
+        "There are 4 people in my family."
+      ],
+      "answer": "There are 4 people in my family.",
+      "explanation": "Family size बताने के लिए 'There are + number + people' structure इस्तेमाल होता है।"
+    },
+    {
+      "id": 341,
+      "type": "translate",
+      "hindi": "मेरे एक बहन हैं।",
+      "options": [
+        "I have a sister is.",
+        "I have a sister.",
+        "have I a sister.",
+        "I a sister."
+      ],
+      "answer": "I have a sister.",
+      "explanation": "किसी relative के होने की बात करने के लिए 'I have a/an' + relation इस्तेमाल होता है।"
+    },
+    {
+      "id": 342,
+      "type": "translate",
+      "hindi": "मुझे गिटार बजाना पसंद है।",
+      "options": [
+        "I like playing guitar.!",
+        "I like playing guitar is.",
+        "like I playing guitar.",
+        "I like playing guitar."
+      ],
+      "answer": "I like playing guitar.",
+      "explanation": "Hobby बताने के लिए gerund (verb+ing) form का इस्तेमाल 'like/love/enjoy' के बाद होता है, base verb नहीं।"
+    },
+    {
+      "id": 343,
+      "type": "translate",
+      "hindi": "मैं 4 सालों से रिसेप्शनिस्ट का काम कर रहा हूँ।",
+      "options": [
+        "have I been working as a receptionist for 4 years.",
+        "I have been working as a receptionist for 4 years.",
+        "I been working as a receptionist for 4 years.",
+        "I have been working as a receptionist for 4 years is."
+      ],
+      "answer": "I have been working as a receptionist for 4 years.",
+      "explanation": "Present Perfect Continuous ('have been + verb+ing') किसी काम की duration बताने के लिए इस्तेमाल होता है जो अभी भी जारी है।"
+    },
+    {
+      "id": 344,
+      "type": "translate",
+      "hindi": "मैंने Hyderabad से अंग्रेज़ी में बी.ए. पूरा किया।",
+      "options": [
+        "completed I my B.A. in English from Hyderabad.",
+        "I completed my B.A. in English from Hyderabad.",
+        "I completed my B.A. in English from Hyderabad is.",
+        "I completed my B.A. in English from Hyderabad.!"
+      ],
+      "answer": "I completed my B.A. in English from Hyderabad.",
+      "explanation": "Educational background बताने के लिए 'I completed/studied/graduated' + degree + 'from' + place का पैटर्न इस्तेमाल होता है।"
+    },
+    {
+      "id": 345,
+      "type": "translate",
+      "hindi": "मैं कोडिंग में अच्छा हूँ।",
+      "options": [
+        "I am good at coding is.",
+        "I good at coding.",
+        "am I good at coding.",
+        "I am good at coding."
+      ],
+      "answer": "I am good at coding.",
+      "explanation": "Skill बताने के लिए 'I am good at' + skill (noun/gerund form) इस्तेमाल होता है, base verb नहीं।"
+    },
+    {
+      "id": 346,
+      "type": "translate",
+      "hindi": "मेरा लक्ष्य एक सफल रिसेप्शनिस्ट बनना है।",
+      "options": [
+        "My goal to become a successful receptionist.",
+        "My goal is to become a successful receptionist is.",
+        "goal My is to become a successful receptionist.",
+        "My goal is to become a successful receptionist."
+      ],
+      "answer": "My goal is to become a successful receptionist.",
+      "explanation": "Future goal बताने के लिए 'My goal/aim is to' + base verb (infinitive) इस्तेमाल होता है।"
+    },
+    {
+      "id": 347,
+      "type": "translate",
+      "hindi": "आपसे मिलकर खुशी हुई, मैं Nikhil हूँ।",
+      "options": [
+        "Nice to meet you, I Nikhil.",
+        "Nice to meet you, I am Nikhil is.",
+        "Nice to meet you, I am Nikhil.",
+        "to Nice meet you, I am Nikhil."
+      ],
+      "answer": "Nice to meet you, I am Nikhil.",
+      "explanation": "पहली मुलाक़ात में greeting के साथ नाम बताना polite और professional तरीका है।"
+    },
+    {
+      "id": 348,
+      "type": "translate",
+      "hindi": "मैं एक रिसेप्शनिस्ट की भूमिका के लिए तत्पर हूँ।",
+      "options": [
+        "I am looking forward to the role of a receptionist.",
+        "am I looking forward to the role of a receptionist.",
+        "I looking forward to the role of a receptionist.",
+        "I am looking forward to the role of a receptionist is."
+      ],
+      "answer": "I am looking forward to the role of a receptionist.",
+      "explanation": "Interview में enthusiasm दिखाने के लिए 'I am looking forward to' + role/opportunity इस्तेमाल होता है।"
+    },
+    {
+      "id": 349,
+      "type": "translate",
+      "hindi": "मेरी मातृभाषा कोरियाई है।",
+      "options": [
+        "My mother tongue is Korean is.",
+        "My mother tongue Korean.",
+        "mother My tongue is Korean.",
+        "My mother tongue is Korean."
+      ],
+      "answer": "My mother tongue is Korean.",
+      "explanation": "Native language बताने के लिए 'My mother tongue/native language is' + language इस्तेमाल होता है।"
+    },
+    {
+      "id": 350,
+      "type": "translate",
+      "hindi": "मैं एक सहयोगी व्यक्ति हूँ।",
+      "options": [
+        "I am a cooperative person is.",
+        "am I a cooperative person.",
+        "I a cooperative person.",
+        "I am a cooperative person."
+      ],
+      "answer": "I am a cooperative person.",
+      "explanation": "Personality trait बताने के लिए 'I am a/an' + adjective + 'person' इस्तेमाल होता है।"
+    }
   ]
 }

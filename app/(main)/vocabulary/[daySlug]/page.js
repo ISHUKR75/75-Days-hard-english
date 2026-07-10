@@ -2,7 +2,7 @@
 // Vocabulary Day Page — Interactive flashcard session for a specific day's vocabulary
 // Features: flippable cards, TTS text-to-speech pronunciation, mastered state tracking, confetti
 
-import { useState, useMemo } from 'react';
+import { useState, useMemo, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import Link from 'next/link';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -97,8 +97,41 @@ export default function VocabularyDayPage() {
   const dayNum  = parseInt(String(params?.daySlug || 'day-1').replace(/^day-/, '') || '1', 10);
   const topic   = getTopicByDay(dayNum);
   
-  const words = useMemo(() => getVocabForDay(dayNum), [dayNum]);
+  const fallbackWords = useMemo(() => getVocabForDay(dayNum), [dayNum]);
+  const [words, setWords] = useState(fallbackWords);
   const [index, setIndex] = useState(0);
+
+  // Fetch the full vocabulary bank for this day from the API, which reads
+  // data/challenge/day-XX/vocabulary.json (500-1000 words per day). Falls
+  // back to the small hardcoded list above if the fetch fails or the day
+  // has no generated file yet.
+  useEffect(() => {
+    let cancelled = false;
+    setWords(fallbackWords);
+    setIndex(0);
+    fetch(`/api/challenge/${dayNum}`)
+      .then((res) => res.json())
+      .then((data) => {
+        if (cancelled) return;
+        if (Array.isArray(data?.vocabulary) && data.vocabulary.length > 0) {
+          // Normalize the richer API word shape to this page's simple shape
+          const normalized = data.vocabulary.map((w) => ({
+            word: w.word,
+            hindi: w.hindi,
+            ipa: w.ipa || '',
+            meaning: w.simpleMeaning || w.meaning || '',
+            example: w.sentences?.daily || w.example || '',
+            officeEx: w.sentences?.office || w.officeEx || '',
+            category: w.category || 'Vocabulary',
+            day: dayNum,
+            difficulty: w.difficulty || 'medium',
+          }));
+          setWords(normalized);
+        }
+      })
+      .catch(() => {});
+    return () => { cancelled = true; };
+  }, [dayNum, fallbackWords]);
   const [flipped, setFlipped] = useState(false);
   const [mastered, setMastered] = useState({});
   const [sessionDone, setSessionDone] = useState(false);
