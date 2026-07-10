@@ -328,6 +328,6 @@ export async function GET(request, { params }) {
 
   // Cache for 60 seconds in browser, 5 minutes on CDN/edge — large JSON benefits from caching
   const response = NextResponse.json(responseData);
-  response.headers.set('Cache-Control', 'public, s-maxage=300, stale-while-revalidate=60');
+  response.headers.set('Cache-Control', 'public, max-age=60, s-maxage=300, stale-while-revalidate=60');
   return response;
 }

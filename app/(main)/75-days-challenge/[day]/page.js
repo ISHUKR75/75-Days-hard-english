@@ -161,15 +161,14 @@ function getCorrectOptionText(question) {
   if (!question) return '';
   const opts = question.options || [];
 
-  // Format 1: correct is a single letter A/B/C/D
+  // Format 1: correct is a single letter A/B/C/D (normalize for safety: trim + uppercase)
+  const normalizedCorrect = (question.correct || '').trim().toUpperCase();
   if (
-    question.correct &&
-    typeof question.correct === 'string' &&
-    question.correct.length === 1 &&
-    question.correct >= 'A' &&
-    question.correct <= 'Z'
+    normalizedCorrect.length === 1 &&
+    normalizedCorrect >= 'A' &&
+    normalizedCorrect <= 'Z'
   ) {
-    const idx = question.correct.charCodeAt(0) - 65; // A=0, B=1, C=2, D=3
+    const idx = normalizedCorrect.charCodeAt(0) - 65; // A=0, B=1, C=2, D=3
     if (opts[idx] !== undefined) return opts[idx];
   }
 
