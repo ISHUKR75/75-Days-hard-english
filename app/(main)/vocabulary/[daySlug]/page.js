@@ -16,21 +16,19 @@ export default function VocabularyDayPage() {
   const params  = useParams();
   const dayNum  = parseInt(String(params?.daySlug || 'day-1').replace(/^day-/, '') || '1', 10);
   const topic   = getTopicByDay(dayNum);
-  
-<<<<<<< HEAD
+
   // Real handcrafted words (when authored for this day) always come first,
   // topped up with generated words to a rich 500-word bank for every day.
-  const words = useMemo(() => getVocabularyForDay(dayNum, 500), [dayNum]);
-=======
-  const fallbackWords = useMemo(() => getVocabForDay(dayNum), [dayNum]);
+  // This is the initial/fallback bank shown instantly on mount.
+  const fallbackWords = useMemo(() => getVocabularyForDay(dayNum, 500), [dayNum]);
   const [words, setWords] = useState(fallbackWords);
->>>>>>> origin/main
   const [index, setIndex] = useState(0);
 
   // Fetch the full vocabulary bank for this day from the API, which reads
   // data/challenge/day-XX/vocabulary.json (500-1000 words per day). Falls
-  // back to the small hardcoded list above if the fetch fails or the day
-  // has no generated file yet.
+  // back to the fallback bank above if the fetch fails or the day
+  // has no generated file yet — whichever bank is bigger, so the learner
+  // never sees fewer words than what was actually generated for this day.
   useEffect(() => {
     let cancelled = false;
     setWords(fallbackWords);
@@ -52,7 +50,8 @@ export default function VocabularyDayPage() {
             day: dayNum,
             difficulty: w.difficulty || 'medium',
           }));
-          setWords(normalized);
+          // Use whichever source has more real words for this day.
+          setWords(normalized.length > fallbackWords.length ? normalized : fallbackWords);
         }
       })
       .catch(() => {});

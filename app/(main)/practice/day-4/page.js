@@ -135,10 +135,11 @@ export default function Day4PracticePage() {
         questions={DAY_4_QUESTIONS} // Pass all 200+ questions
         title="Day 4: Be Verb Practice" // Quiz title
         backHref="/75-days-challenge/4" // Back button destination
-        questionsPerSession={50} // Show 50 questions per session
+        questionsPerSession={DAY_4_QUESTIONS.length} // Full bank; percent picker controls actual session size
         shuffleMode={true} // Randomize question order
         showProgress={true} // Show progress bar
         showScore={true} // Show score at top
+        allowPercentSelect={true} // Let learner pick 20/40/60/80/100% of the bank
       />
 
     </div>

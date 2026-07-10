@@ -6,3 +6,5 @@
 - [Day 2 content modules scope](day02-content-modules-scope.md) — each day-page tab (Listening/Reading/Revision etc.) must exist and consume its JSON field, or content growth never appears on the live site.
 - [Day page MCQ prompt fallback](day-page-mcq-prompt-fallback.md) — daily-test.json items have mixed formats: translate uses `hindi`, fill/error use `sentence` or `question`; always render `currentQ.hindi || currentQ.sentence || currentQ.question`.
 - [React Hooks before early returns](react-hooks-early-return.md) — useEffect/useState must be declared before any conditional return; put timer cleanup useEffect at top of component body, not after empty-data guard.
+- [Session-length percent selector](session-length-percent-selector.md) — never hardcode practice/test session size; use full bank + persisted 20/40/60/80/100% picker, clamped to that set.
+- [Unresolved merge conflict markers](unresolved-merge-conflict-markers.md) — imported project had literal git conflict markers causing 500s; grep for them early when content "seems missing".

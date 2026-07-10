@@ -91,9 +91,10 @@ export default function TestDayPage() {
         questions={questions}
         title={`Day ${dayNum} Exam: ${topic.title}`}
         backHref={`/75-days-challenge/${dayNum}`}
-        questionsPerSession={Math.min(40, questions.length)}
+        questionsPerSession={questions.length}
         shuffleMode={true}
         isTest={true}
+        allowPercentSelect={true}
       />
     </div>
   );
