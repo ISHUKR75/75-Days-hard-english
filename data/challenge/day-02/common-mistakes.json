@@ -1,0 +1,661 @@
+{
+  "day": 2,
+  "topic": "Self Introduction",
+  "title": "Common Mistakes in Self Introduction — Complete Error Analysis",
+  "description": "100+ common mistakes that Indian English learners make during self-introduction, with corrections and detailed explanations.",
+  "totalMistakes": 120,
+  "categories": [
+    {
+      "id": "cat1",
+      "title": "Name Introduction Mistakes",
+      "hindiTitle": "नाम बताने में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 1,
+          "wrong": "Myself Rahul Sharma.",
+          "correct": "My name is Rahul Sharma. / I am Rahul Sharma.",
+          "hindi": "❌ खुद Rahul Sharma। → ✅ मेरा नाम Rahul Sharma है।",
+          "explanation": "'Myself' is a reflexive pronoun. It cannot be used to introduce yourself directly. 'Myself Rahul' is a very common Indian English mistake. Always use 'My name is' or 'I am' or 'I'm'.",
+          "hindiExplanation": "'Myself' एक reflexive pronoun है। इसे directly introduction के लिए use नहीं किया जा सकता। 'Myself Rahul' बहुत common Indian English mistake है।",
+          "tip": "Never start with 'Myself'. Always say 'My name is' or 'I am'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 2,
+          "wrong": "I am called Rahul.",
+          "correct": "My name is Rahul. / People call me Rahul.",
+          "hindi": "❌ मुझे Rahul कहा जाता है। → ✅ मेरा नाम Rahul है।",
+          "explanation": "'I am called' is passive and unnatural in self-introduction. Use 'My name is' for formal settings or 'People call me' for nicknames.",
+          "hindiExplanation": "'I am called' passive है और self-introduction में unnatural लगता है।",
+          "tip": "Use 'I am called' only when reporting what others call you. For direct introduction, use 'My name is'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 3,
+          "wrong": "I am having name Priya.",
+          "correct": "My name is Priya.",
+          "hindi": "❌ मेरा नाम Priya है। (Incorrect usage of 'having') → ✅ My name is Priya.",
+          "explanation": "'Have' is a stative verb and should not be used in continuous tense for possession. 'I am having' is incorrect — use simple present 'I have' or 'My name is'.",
+          "hindiExplanation": "'Have' stative verb है — इसका continuous form 'am having' possession के लिए गलत है।",
+          "tip": "Never use 'am having' for possession — use 'have' or 'My name is'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 4,
+          "wrong": "My good name is Suresh.",
+          "correct": "My name is Suresh.",
+          "hindi": "❌ मेरा अच्छा नाम Suresh है। → ✅ My name is Suresh.",
+          "explanation": "'Good name' is an Indian English expression directly translated from Hindi 'aapka shubh naam'. In standard English, it is simply 'My name is'.",
+          "hindiExplanation": "'Good name' Hindi के 'शुभ नाम' का direct translation है। Standard English में सिर्फ 'My name is' use होता है।",
+          "tip": "There is no concept of 'good name' in English. Just say 'My name is'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 5,
+          "wrong": "I belong to name Arun.",
+          "correct": "My name is Arun.",
+          "hindi": "❌ मैं नाम Arun से संबंध रखता हूँ। → ✅ My name is Arun.",
+          "explanation": "'Belong to' is used for origin/place, not for names. You 'belong to Delhi', not 'belong to a name'.",
+          "hindiExplanation": "'Belong to' place के लिए use होता है, नाम के लिए नहीं।",
+          "tip": "Use 'belong to' only for place or organization, not for name.",
+          "difficulty": "easy",
+          "frequency": "occasional"
+        }
+      ]
+    },
+    {
+      "id": "cat2",
+      "title": "Origin / Place Mistakes",
+      "hindiTitle": "जन्म स्थान बताने में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 6,
+          "wrong": "I am belong to Delhi.",
+          "correct": "I belong to Delhi. / I am from Delhi.",
+          "hindi": "❌ मैं दिल्ली से संबंध हूँ। → ✅ I belong to Delhi / I am from Delhi.",
+          "explanation": "'Belong' is a main verb here — do not add 'am' before it. 'I am belong' is incorrect grammar. Say 'I belong to' or 'I am from'.",
+          "hindiExplanation": "'Belong' यहाँ main verb है — इससे पहले 'am' नहीं लगाते। 'I am belong' grammatically गलत है।",
+          "tip": "Never say 'I am belong to'. Say 'I belong to' or 'I am from'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 7,
+          "wrong": "I am from the Delhi.",
+          "correct": "I am from Delhi.",
+          "hindi": "❌ मैं the दिल्ली से हूँ। → ✅ I am from Delhi.",
+          "explanation": "Do not use 'the' before city names. Cities, towns, and countries generally do not take 'the'. Exception: 'the USA', 'the UK', 'the Netherlands'.",
+          "hindiExplanation": "City names के पहले 'the' नहीं लगाते। Cities generally 'the' नहीं लेती।",
+          "tip": "No 'the' before city names: Delhi, Mumbai, London, New York.",
+          "difficulty": "easy",
+          "frequency": "common"
+        },
+        {
+          "id": 8,
+          "wrong": "I am stay in Mumbai.",
+          "correct": "I live in Mumbai. / I stay in Mumbai.",
+          "hindi": "❌ मैं Mumbai में stay हूँ। → ✅ I live in Mumbai / I stay in Mumbai.",
+          "explanation": "'I am stay' is grammatically wrong — 'stay' is a verb that needs to be in correct form. Say 'I stay' or better 'I live in' for permanent residence.",
+          "hindiExplanation": "'I am stay' grammatically गलत है। 'stay' verb को correct form चाहिए। Permanent residence के लिए 'I live in' बेहतर है।",
+          "tip": "'I live in' for permanent residence. 'I stay in' also acceptable but slightly informal.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 9,
+          "wrong": "I am hailing from Kolkata.",
+          "correct": "I hail from Kolkata. / I am from Kolkata.",
+          "hindi": "❌ मैं Kolkata से hailing हूँ। → ✅ I hail from Kolkata.",
+          "explanation": "'Hail' as a stative verb of origin should not be in continuous form. Say 'I hail from' not 'I am hailing from'.",
+          "hindiExplanation": "'Hail from' origin के लिए use होता है — इसका continuous form गलत है।",
+          "tip": "Use 'I hail from' (not 'I am hailing from') in formal contexts.",
+          "difficulty": "medium",
+          "frequency": "occasional"
+        },
+        {
+          "id": 10,
+          "wrong": "I am born in Pune.",
+          "correct": "I was born in Pune.",
+          "hindi": "❌ मैं Pune में पैदा हूँ। → ✅ I was born in Pune.",
+          "explanation": "Birth is a completed event that happened in the past. Use Past Simple: 'I WAS born'. Not 'I am born'.",
+          "hindiExplanation": "जन्म एक completed past event है। इसलिए Past Tense 'I was born' use होता है।",
+          "tip": "Always use 'I WAS born in' — never 'I am born in'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        }
+      ]
+    },
+    {
+      "id": "cat3",
+      "title": "Education and Profession Mistakes",
+      "hindiTitle": "शिक्षा और पेशे में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 11,
+          "wrong": "I am done my B.Tech.",
+          "correct": "I have completed my B.Tech. / I completed my B.Tech.",
+          "hindi": "❌ मैं B.Tech done हूँ। → ✅ I have completed / I completed my B.Tech.",
+          "explanation": "'I am done' is very informal and not grammatically correct as an introduction. Use 'I have completed' (Present Perfect) or 'I completed' (Past Simple).",
+          "hindiExplanation": "'I am done' informal और grammatically गलत है formal introduction में। 'I have completed' या 'I completed' use करें।",
+          "tip": "For education: 'I completed my degree from...' or 'I have completed my degree from...'",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 12,
+          "wrong": "I am doing job in TCS.",
+          "correct": "I work at TCS. / I am working at TCS.",
+          "hindi": "❌ मैं TCS में job कर रहा हूँ। → ✅ I work at TCS / I am working at TCS.",
+          "explanation": "'Doing job' is not correct English. The correct phrases are 'I work at', 'I am employed at', 'I work with', or 'I am working at'.",
+          "hindiExplanation": "'Doing job' correct English नहीं है। 'I work at' या 'I am working at' use करें।",
+          "tip": "Never say 'doing job'. Say 'I work at' or 'I am employed at'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 13,
+          "wrong": "I am a software.",
+          "correct": "I am a software engineer. / I work in software.",
+          "hindi": "❌ मैं एक software हूँ। → ✅ I am a software engineer.",
+          "explanation": "You are a person, not a technology. Always include the profession title: 'software engineer', 'software developer', 'software analyst'.",
+          "hindiExplanation": "आप एक person हैं, technology नहीं। हमेशा full profession title use करें।",
+          "tip": "Complete the sentence: 'software engineer', 'software developer', 'software analyst'.",
+          "difficulty": "easy",
+          "frequency": "occasional"
+        },
+        {
+          "id": 14,
+          "wrong": "I have done engineering from Delhi.",
+          "correct": "I completed my engineering degree from Delhi University. / I studied engineering at Delhi University.",
+          "hindi": "❌ मैंने दिल्ली से engineering done है। → ✅ I completed my engineering degree from Delhi University.",
+          "explanation": "Specify the type of degree and full institution name. 'Done engineering from Delhi' is too vague and grammatically informal.",
+          "hindiExplanation": "Degree type और पूरे institution name को specify करें।",
+          "tip": "Always say: 'I completed my + [degree type] from + [full institution name] in + [year]'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 15,
+          "wrong": "I am working since 3 years.",
+          "correct": "I have been working for 3 years.",
+          "hindi": "❌ मैं 3 साल से working हूँ। → ✅ I have been working for 3 years.",
+          "explanation": "For duration from past to now, use Present Perfect Continuous: 'I have been + verb+ing + for + time period'. Use 'for' (not 'since') with a period of time (3 years). Use 'since' with a point in time (since 2020).",
+          "hindiExplanation": "Past से present तक की duration के लिए Present Perfect Continuous use होता है। 'Since' specific time के साथ, 'for' duration के साथ।",
+          "tip": "FOR + duration: 'for 3 years', 'for a month'. SINCE + point: 'since 2020', 'since January'.",
+          "difficulty": "medium",
+          "frequency": "very common"
+        },
+        {
+          "id": 16,
+          "wrong": "I am working from past 2 years.",
+          "correct": "I have been working for the past 2 years.",
+          "hindi": "❌ मैं past 2 years से working हूँ। → ✅ I have been working for the past 2 years.",
+          "explanation": "Same issue as above: 'working from' is wrong. Use 'have been working for' + the word 'past' before the number.",
+          "hindiExplanation": "'Working from' गलत है। 'Have been working for the past 2 years' सही है।",
+          "tip": "Pattern: I have been + verb+ing + for the past + [number] + [time unit]",
+          "difficulty": "medium",
+          "frequency": "very common"
+        },
+        {
+          "id": 17,
+          "wrong": "My qualification is B.Com.",
+          "correct": "I hold a Bachelor of Commerce degree. / I completed my B.Com from XYZ College.",
+          "hindi": "❌ मेरी qualification B.Com है। → ✅ I hold a Bachelor of Commerce degree.",
+          "explanation": "'My qualification is' is technically not wrong, but it sounds unnatural in spoken introduction. More natural phrases are 'I hold a degree in' or 'I completed my B.Com from'.",
+          "hindiExplanation": "'My qualification is' technically गलत नहीं है, लेकिन spoken introduction में unnatural लगता है।",
+          "tip": "More natural: 'I hold a degree in' or 'I completed my B.Com from + [College] in + [Year]'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        }
+      ]
+    },
+    {
+      "id": "cat4",
+      "title": "Hobby and Interest Mistakes",
+      "hindiTitle": "Hobby और रुचि बताने में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 18,
+          "wrong": "My hobby are reading and cooking.",
+          "correct": "My hobbies are reading and cooking. / My hobby is reading.",
+          "hindi": "❌ मेरे hobby reading और cooking हैं। → ✅ My hobbies are reading and cooking.",
+          "explanation": "Subject-verb agreement: When there are two hobbies, use plural 'My hobbies ARE'. When there is one, use 'My hobby IS'.",
+          "hindiExplanation": "Subject-verb agreement: दो hobbies = 'My hobbies ARE'. एक hobby = 'My hobby IS'.",
+          "tip": "One hobby: 'My hobby is playing cricket'. Multiple hobbies: 'My hobbies are playing cricket and reading'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 19,
+          "wrong": "I like to play cricket and to read books.",
+          "correct": "I like playing cricket and reading books.",
+          "hindi": "❌ मुझे cricket खेलना और books पढ़ना पसंद है (infinitive) → ✅ I like playing cricket and reading books (gerund).",
+          "explanation": "After 'like', 'love', 'enjoy', 'prefer' (when expressing habits), use Gerund (-ing form), not infinitive. Both are actually acceptable, but gerund sounds more natural for hobbies.",
+          "hindiExplanation": "'Like', 'love', 'enjoy' के बाद gerund (-ing) ज्यादा natural लगती है।",
+          "tip": "I love/enjoy/like + verb+ing: 'I enjoy reading', 'I love playing', 'I like cooking'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 20,
+          "wrong": "I am fond of to travel.",
+          "correct": "I am fond of travelling. / I love travelling.",
+          "hindi": "❌ मुझे travel करना पसंद है (preposition + infinitive) → ✅ I am fond of travelling.",
+          "explanation": "After preposition 'of', always use Gerund (-ing): 'fond of travelling', 'interested in reading', 'good at cooking'.",
+          "hindiExplanation": "Preposition 'of' के बाद हमेशा Gerund (-ing) आती है।",
+          "tip": "Preposition + Gerund rule: 'fond OF travel-LING', 'interested IN read-ING', 'good AT cook-ING'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 21,
+          "wrong": "I am interested to music.",
+          "correct": "I am interested in music. / I have an interest in music.",
+          "hindi": "❌ मुझे music में interested हूँ (wrong preposition) → ✅ I am interested IN music.",
+          "explanation": "The correct preposition after 'interested' is 'IN', not 'to'. 'I am interested in + noun/gerund'.",
+          "hindiExplanation": "'Interested' के बाद preposition 'IN' आती है, 'TO' नहीं।",
+          "tip": "Always: 'interested IN + noun/gerund'. Never: 'interested TO'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 22,
+          "wrong": "I have interest in singing.",
+          "correct": "I have an interest in singing. / I am interested in singing.",
+          "hindi": "❌ मुझे singing में interest है (article missing) → ✅ I have AN interest in singing.",
+          "explanation": "When using 'interest' as a noun, it needs the article 'an': 'have an interest in'. Alternatively, use the adjective form: 'I am interested in'.",
+          "hindiExplanation": "Noun 'interest' के पहले article 'an' जरूरी है। या adjective form 'interested in' use करें।",
+          "tip": "Noun form: 'I have AN interest in' | Adjective form: 'I am interested in'",
+          "difficulty": "easy",
+          "frequency": "common"
+        }
+      ]
+    },
+    {
+      "id": "cat5",
+      "title": "Family Introduction Mistakes",
+      "hindiTitle": "परिवार बताने में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 23,
+          "wrong": "My family is of 4 members.",
+          "correct": "My family has 4 members. / There are 4 members in my family.",
+          "hindi": "❌ मेरा परिवार 4 members का है। → ✅ My family has 4 members.",
+          "explanation": "Two correct ways: (1) 'My family has + number + members' using 'have' for possession. (2) 'There are + number + members in my family' using existential 'there'.",
+          "hindiExplanation": "दो सही तरीके: (1) 'My family has + number + members' (2) 'There are + number + members in my family'",
+          "tip": "Most natural: 'My family has 4 members' or 'There are 4 of us in the family'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 24,
+          "wrong": "My father is doing a job in bank.",
+          "correct": "My father works at a bank. / My father is a bank employee.",
+          "hindi": "❌ मेरे पिता bank में job करते हैं। → ✅ My father works at a bank.",
+          "explanation": "'Doing a job' is not natural English. Use 'works at/in' for place of work. Also, use the article 'a' before 'bank'.",
+          "hindiExplanation": "'Doing a job' natural English नहीं है। 'Works at/in' use करें।",
+          "tip": "Never 'doing job'. Use 'works at', 'works for', 'is employed at'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 25,
+          "wrong": "My brother is engineer.",
+          "correct": "My brother is an engineer.",
+          "hindi": "❌ मेरे भाई engineer हैं। (article missing) → ✅ My brother is AN engineer.",
+          "explanation": "Before singular countable nouns starting with a vowel sound, use 'an'. Engineer starts with vowel sound 'e', so 'an engineer' is correct.",
+          "hindiExplanation": "Vowel sound से शुरू होने वाले singular countable nouns के पहले 'an' लगता है।",
+          "tip": "A/An rule: 'a doctor', 'an engineer', 'a teacher', 'an architect', 'an accountant'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 26,
+          "wrong": "I am married since 3 years.",
+          "correct": "I have been married for 3 years.",
+          "hindi": "❌ मैं 3 साल से married हूँ (wrong tense + wrong preposition) → ✅ I have been married for 3 years.",
+          "explanation": "For ongoing states from past to present, use Present Perfect or Present Perfect Continuous. Use 'for' + duration. 'I have been married for 3 years' is correct.",
+          "hindiExplanation": "Past से present तक की ongoing state के लिए Present Perfect use करें। 'For' + duration।",
+          "tip": "State ongoing since past: 'I have been married for' / 'I have been living here for'",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 27,
+          "wrong": "I am having a wife and two childrens.",
+          "correct": "I have a wife and two children.",
+          "hindi": "❌ मेरी wife और दो children हैं (wrong continuous + wrong plural) → ✅ I have a wife and two children.",
+          "explanation": "Two errors: (1) 'Am having' for possession is wrong — use 'I have'. (2) 'Childrens' is wrong — 'children' is already plural. Correct: 'I have a wife and two children.'",
+          "hindiExplanation": "दो errors: (1) Possession के लिए 'I have' use करें, 'am having' नहीं। (2) 'Children' already plural है — 'childrens' गलत है।",
+          "tip": "Irregular plural: child → children (NOT childrens). Also: man→men, woman→women, mouse→mice.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        }
+      ]
+    },
+    {
+      "id": "cat6",
+      "title": "Greeting and Politeness Mistakes",
+      "hindiTitle": "Greeting और Politeness में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 28,
+          "wrong": "I am very much glad to meet you.",
+          "correct": "I am very glad to meet you. / I am so glad to meet you.",
+          "hindi": "❌ मुझे आपसे बहुत much खुशी है। → ✅ I am very glad to meet you.",
+          "explanation": "Do not use 'very much' before an adjective. Use 'very' or 'so' before adjectives. 'Very much' is used before verbs: 'I very much appreciate it.'",
+          "hindiExplanation": "Adjective से पहले 'very much' नहीं लगाते। 'Very' या 'so' लगाते हैं। 'Very much' verbs के साथ use होता है।",
+          "tip": "Before adjectives: 'very glad', 'so happy'. Before verbs: 'very much appreciate', 'very much enjoy'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 29,
+          "wrong": "Nice to meet to you.",
+          "correct": "Nice to meet you.",
+          "hindi": "❌ Nice to meet to you. → ✅ Nice to meet you.",
+          "explanation": "The phrase is simply 'Nice to meet YOU'. There is no 'to' before 'you'. Common error caused by Hindi thinking pattern.",
+          "hindiExplanation": "Correct phrase: 'Nice to meet YOU'. 'You' से पहले 'to' नहीं आता।",
+          "tip": "Memorize: 'Nice to meet YOU' — no extra 'to'.",
+          "difficulty": "easy",
+          "frequency": "common"
+        },
+        {
+          "id": 30,
+          "wrong": "How are you? I am fine, thank you.",
+          "correct": "I am doing well, thank you. / I am great, thank you! / Pretty good, thanks!",
+          "hindi": "❌ I am fine, thank you (too formal/old-fashioned) → ✅ I am doing well / I am great",
+          "explanation": "'I am fine' is technically not wrong, but it sounds old-fashioned and emotionless in modern English. More natural responses: 'I am doing well', 'I am great', 'Pretty good, thanks', 'Not bad, thanks!'",
+          "hindiExplanation": "'I am fine' technically गलत नहीं है, लेकिन modern English में old-fashioned और emotionless लगता है।",
+          "tip": "Better responses: 'Doing great!', 'Really well, thanks!', 'Pretty good, and you?'",
+          "difficulty": "medium",
+          "frequency": "common"
+        }
+      ]
+    },
+    {
+      "id": "cat7",
+      "title": "Article Mistakes (A/An/The)",
+      "hindiTitle": "Articles की गलतियाँ",
+      "mistakes": [
+        {
+          "id": 31,
+          "wrong": "I am a IT professional.",
+          "correct": "I am an IT professional.",
+          "hindi": "❌ I am a IT professional. → ✅ I am AN IT professional.",
+          "explanation": "Before words starting with vowel SOUNDS, use 'an'. 'IT' is pronounced 'Eye-Tee' — starts with vowel sound 'I'. So: 'an IT professional', 'an MBA degree', 'an HR manager'.",
+          "hindiExplanation": "Vowel sound से शुरू होने वाले words के पहले 'an' use होता है। 'IT' = 'Eye-Tee' — vowel sound 'I' से शुरू।",
+          "tip": "Sound rule, not spelling rule: 'an hour', 'a university', 'an MBA', 'an HR', 'a European'.",
+          "difficulty": "medium",
+          "frequency": "very common"
+        },
+        {
+          "id": 32,
+          "wrong": "I am working at the TCS.",
+          "correct": "I am working at TCS.",
+          "hindi": "❌ I work at the TCS. → ✅ I work at TCS.",
+          "explanation": "Do not use 'the' before company names when they are used as proper nouns. Exception: 'The Times of India', 'The Guardian' (newspapers often use 'the').",
+          "hindiExplanation": "Company names के पहले 'the' नहीं लगाते (generally).",
+          "tip": "No 'the' before: TCS, Infosys, Google, Microsoft, Amazon, Flipkart.",
+          "difficulty": "easy",
+          "frequency": "common"
+        },
+        {
+          "id": 33,
+          "wrong": "I am an engineer at an MNC company.",
+          "correct": "I am an engineer at an MNC.",
+          "hindi": "❌ MNC company (redundant) → ✅ MNC only",
+          "explanation": "'MNC' stands for 'Multi-National Company' — 'C' already means 'Company'. Saying 'MNC company' is redundant (like saying 'ATM machine' or 'PIN number').",
+          "hindiExplanation": "MNC = Multi-National Company — 'C' already 'Company' है। 'MNC company' redundant है।",
+          "tip": "Avoid redundancy: 'MNC' (not 'MNC company'), 'ATM' (not 'ATM machine'), 'PIN' (not 'PIN number').",
+          "difficulty": "medium",
+          "frequency": "common"
+        }
+      ]
+    },
+    {
+      "id": "cat8",
+      "title": "Pronunciation and Speaking Mistakes",
+      "hindiTitle": "Pronunciation और Speaking में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 34,
+          "wrong": "I am a 'soff-tware' engineer.",
+          "correct": "I am a 'SOFT-ware' engineer.",
+          "hindi": "❌ soff-tware (wrong pronunciation) → ✅ SOFT-ware (correct stress)",
+          "explanation": "Correct pronunciation: 'SOFTWARE' — stress on 'SOFT'. Not 'soff-ware'. The 't' in 'soft' should be clearly pronounced.",
+          "hindiExplanation": "Correct: 'SOFT-ware' — stress 'SOFT' पर। 't' clearly pronounce करें।",
+          "tip": "Software: SOFT-ware (t sound) | Hardware: HARD-ware | Firmware: FIRM-ware",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 35,
+          "wrong": "Speaking too fast without pauses.",
+          "correct": "Speak at a moderate pace. Use pauses after key points.",
+          "hindi": "❌ बहुत जल्दी-जल्दी बोलना → ✅ Moderate pace से बोलना, key points के बाद pause लेना",
+          "explanation": "Many students rush through their introduction out of nervousness. Pauses are powerful — they make you look confident and give listeners time to absorb information.",
+          "hindiExplanation": "Nervousness से बहुत जल्दी बोलना common mistake है। Pauses confidence दिखाती हैं।",
+          "tip": "Pause rule: After your name, pause. After your city, pause. Gives authority to your words.",
+          "difficulty": "medium",
+          "frequency": "very common"
+        },
+        {
+          "id": 36,
+          "wrong": "Um... err... so... basically... actually...",
+          "correct": "Smooth, filler-free introduction with deliberate pauses.",
+          "hindi": "❌ Um, err, so, basically, actually का ज्यादा use → ✅ Clean, filler-free speech",
+          "explanation": "Fillers (um, err, so, basically, actually) used excessively make you appear unprepared. Practice until your introduction flows naturally without fillers.",
+          "hindiExplanation": "बहुत ज्यादा fillers (um, err, basically) आपको unprepared दिखाते हैं।",
+          "tip": "Replace fillers with deliberate pauses. Practice until the words come naturally.",
+          "difficulty": "hard",
+          "frequency": "very common"
+        },
+        {
+          "id": 37,
+          "wrong": "Not making eye contact, looking at floor/ceiling.",
+          "correct": "Maintain warm eye contact — look at the person or camera.",
+          "hindi": "❌ नीचे/ऊपर देखते हुए बोलना → ✅ Eye contact बनाए रखना",
+          "explanation": "Eye contact is crucial for confidence. When speaking to one person, maintain soft eye contact. In a group, make eye contact with different people in the room.",
+          "hindiExplanation": "Eye contact confidence के लिए crucial है। One person — soft eye contact। Group — अलग-अलग लोगों के साथ eye contact।",
+          "tip": "For camera/screen: look AT the camera lens, not at your own face on screen.",
+          "difficulty": "hard",
+          "frequency": "very common"
+        }
+      ]
+    },
+    {
+      "id": "cat9",
+      "title": "Tense and Structure Mistakes",
+      "hindiTitle": "Tense और Structure में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 38,
+          "wrong": "I am liking this company.",
+          "correct": "I like this company.",
+          "hindi": "❌ मुझे यह company like हो रही है। → ✅ I like this company.",
+          "explanation": "Stative verbs (like, love, hate, know, believe, understand, want, need, prefer) do NOT use continuous form. 'I am liking' is incorrect. Use simple form: 'I like'.",
+          "hindiExplanation": "Stative verbs (like, love, hate, know) का continuous form use नहीं होता। 'I am liking' गलत है।",
+          "tip": "Stative verbs — NO continuous: like, love, hate, know, believe, understand, want, need, seem, appear.",
+          "difficulty": "medium",
+          "frequency": "very common"
+        },
+        {
+          "id": 39,
+          "wrong": "I am knowing many people here.",
+          "correct": "I know many people here.",
+          "hindi": "❌ मैं यहाँ बहुत लोगों को knowing हूँ। → ✅ I know many people here.",
+          "explanation": "'Know' is a stative verb — it does not use continuous form. Say 'I know' not 'I am knowing'.",
+          "hindiExplanation": "'Know' stative verb है — 'I am knowing' गलत है। 'I know' correct है।",
+          "tip": "'Know' = stative verb. Always simple tense: 'I know', 'I knew', 'I will know'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 40,
+          "wrong": "I have joined this company 2 years back.",
+          "correct": "I joined this company 2 years ago.",
+          "hindi": "❌ 2 years back (wrong phrase) → ✅ 2 years AGO",
+          "explanation": "'Back' is not the correct word for past time in formal English. Use 'AGO': '2 years ago', '3 months ago', 'a week ago'.",
+          "hindiExplanation": "'Back' past time के लिए formal English में use नहीं होता। 'AGO' correct है।",
+          "tip": "Always: '2 years AGO', '3 months AGO'. Not 'back'.",
+          "difficulty": "easy",
+          "frequency": "very common"
+        },
+        {
+          "id": 41,
+          "wrong": "I have joined this company in 2022.",
+          "correct": "I joined this company in 2022.",
+          "hindi": "❌ I have joined in 2022. → ✅ I joined in 2022.",
+          "explanation": "When a specific past time (year, date) is mentioned, use Simple Past NOT Present Perfect. 'I joined in 2022' (simple past). Present Perfect is used for unspecified past: 'I have joined recently'.",
+          "hindiExplanation": "Specific past time (year) के साथ Simple Past use होता है, Present Perfect नहीं।",
+          "tip": "With time words (in 2022, last year, yesterday): use Simple Past. Without time: can use Present Perfect.",
+          "difficulty": "medium",
+          "frequency": "very common"
+        }
+      ]
+    },
+    {
+      "id": "cat10",
+      "title": "Preposition Mistakes",
+      "hindiTitle": "Preposition में गलतियाँ",
+      "mistakes": [
+        {
+          "id": 42,
+          "wrong": "I am working in Google.",
+          "correct": "I am working at Google. / I work for Google.",
+          "hindi": "❌ I work in Google. → ✅ I work AT Google / I work FOR Google.",
+          "explanation": "For specific companies and organizations, use 'at' (physical location) or 'for' (employment relationship). 'In' is used for industries/sectors: 'I work in IT', 'I work in finance'.",
+          "hindiExplanation": "Specific company: 'at' (location) या 'for' (employment)। Industry/sector: 'in IT', 'in finance'.",
+          "tip": "Company/organization: work AT/FOR. Industry/sector: work IN. 'I work AT TCS' | 'I work IN the IT sector'.",
+          "difficulty": "medium",
+          "frequency": "very common"
+        },
+        {
+          "id": 43,
+          "wrong": "I am from Rajasthan state.",
+          "correct": "I am from Rajasthan.",
+          "hindi": "❌ Rajasthan state (state redundant) → ✅ I am from Rajasthan.",
+          "explanation": "When you say the name of the state/city/country, you do not need to add the category word (state, city, country) after it. 'Rajasthan' is already the name of a state — no need to say 'Rajasthan state'.",
+          "hindiExplanation": "State/city का नाम लेने के बाद 'state', 'city', 'country' add करने की जरूरत नहीं।",
+          "tip": "Just 'Rajasthan', not 'Rajasthan state'. Just 'Delhi', not 'Delhi city'. Just 'India', not 'India country'.",
+          "difficulty": "easy",
+          "frequency": "common"
+        },
+        {
+          "id": 44,
+          "wrong": "I passed out from IIT in 2021.",
+          "correct": "I graduated from IIT in 2021.",
+          "hindi": "❌ passed out (Indian English) → ✅ graduated from",
+          "explanation": "'Passed out' in Indian English means 'graduated', but in standard English, 'passed out' means 'lost consciousness' (fainted). Always use 'graduated from' to avoid confusion.",
+          "hindiExplanation": "Indian English में 'passed out' = graduated है। लेकिन standard English में 'passed out' = बेहोश होना। हमेशा 'graduated from' use करें।",
+          "tip": "Indian English 'passed out' can cause confusion. Always use 'graduated from'.",
+          "difficulty": "medium",
+          "frequency": "very common"
+        }
+      ]
+    },
+    {
+      "id": "cat11",
+      "title": "Common Indian English Expressions to Avoid",
+      "hindiTitle": "Common Indian English Expressions — जो Avoid करनी चाहिए",
+      "mistakes": [
+        {
+          "id": 45,
+          "wrong": "I am doing the job of manager.",
+          "correct": "I work as a manager. / I am a manager.",
+          "hindi": "❌ मैं manager का job कर रहा हूँ। → ✅ I work as a manager.",
+          "explanation": "Direct translation from Hindi 'mai manager ka kaam karta hun' results in 'I am doing the job of manager' — unnatural in English. Use 'I work as' or 'I am a'.",
+          "hindiExplanation": "Hindi ka direct translation — unnatural English banta hai.",
+          "tip": "Professional role: 'I work AS a manager' / 'I AM a manager'.",
+          "difficulty": "easy",
+          "frequency": "common"
+        },
+        {
+          "id": 46,
+          "wrong": "I am in a government job.",
+          "correct": "I work for the government. / I am a government employee.",
+          "hindi": "❌ I am in government job. → ✅ I work for the government.",
+          "explanation": "'In a government job' is acceptable in Indian English, but more standard is 'I work for the government' or 'I am a government employee'.",
+          "hindiExplanation": "'Work for the government' ya 'government employee' zyada standard hai.",
+          "tip": "More standard: 'I work for the government' or 'I am employed in the public sector'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 47,
+          "wrong": "I am the topper of my class.",
+          "correct": "I was the top student in my class. / I ranked first in my class.",
+          "hindi": "❌ I am the topper (Indian English). → ✅ I was the top student in my class.",
+          "explanation": "'Topper' is pure Indian English. In standard English, say 'I was the top student', 'I ranked first', 'I received the highest marks', 'I graduated with distinction'.",
+          "hindiExplanation": "'Topper' pure Indian English है। Standard English: 'top student', 'ranked first'.",
+          "tip": "'Topper' = Indian English. Standard English: 'top student', 'ranked first', 'highest scorer'.",
+          "difficulty": "medium",
+          "frequency": "common"
+        },
+        {
+          "id": 48,
+          "wrong": "I am very much excited.",
+          "correct": "I am very excited. / I am so excited.",
+          "hindi": "❌ very much excited → ✅ very excited / so excited",
+          "explanation": "'Very much' is used before verbs and verb phrases, not before adjectives. 'I appreciate it very much' (verb). 'I am very excited' (adjective — no 'much').",
+          "hindiExplanation": "'Very much' adjectives के पहले use नहीं होता — verbs के पहले होता है।",
+          "tip": "Before adjectives: 'very excited', 'so happy'. NOT 'very much excited'. Before verbs: 'very much appreciate'.",
+          "difficulty": "medium",
+          "frequency": "very common"
+        },
+        {
+          "id": 49,
+          "wrong": "I will revert to you.",
+          "correct": "I will get back to you. / I will respond to you.",
+          "hindi": "❌ revert (Indian English for 'respond') → ✅ get back to you / respond",
+          "explanation": "'Revert' in Indian business English is used to mean 'respond/reply', but in standard English, 'revert' means 'to return to a previous state'. Use 'get back to you' or 'respond'.",
+          "hindiExplanation": "Indian business English में 'revert' = respond/reply, लेकिन standard English में 'revert' = previous state पर वापस जाना।",
+          "tip": "'I will revert' = Indian English. Standard: 'I will get back to you', 'I will respond', 'I will reply'.",
+          "difficulty": "hard",
+          "frequency": "common"
+        },
+        {
+          "id": 50,
+          "wrong": "Prepone the meeting.",
+          "correct": "Move the meeting earlier. / Reschedule the meeting to an earlier time.",
+          "hindi": "❌ prepone (Indian English) → ✅ move earlier / reschedule to an earlier time",
+          "explanation": "'Prepone' does not exist in standard English dictionaries. The opposite of 'postpone' is 'move earlier' or 'bring forward' (British English).",
+          "hindiExplanation": "'Prepone' standard English में exist नहीं करता। 'Postpone' का opposite 'move earlier' या 'bring forward' है।",
+          "tip": "Postpone = delay, push back. 'Prepone' = NOT a word. Use: 'move earlier', 'bring forward', 'reschedule to an earlier time'.",
+          "difficulty": "hard",
+          "frequency": "common"
+        }
+      ]
+    }
+  ],
+  "quickRevisionList": {
+    "title": "Top 20 Mistakes to Remember",
+    "list": [
+      "❌ Myself Rahul → ✅ My name is Rahul",
+      "❌ My good name is → ✅ My name is",
+      "❌ I am born in → ✅ I was born in",
+      "❌ I am belong to → ✅ I belong to / I am from",
+      "❌ I am doing job → ✅ I work at",
+      "❌ I am working since 3 years → ✅ I have been working for 3 years",
+      "❌ My hobby are → ✅ My hobbies are",
+      "❌ interested to music → ✅ interested IN music",
+      "❌ I am having a wife → ✅ I have a wife",
+      "❌ two childrens → ✅ two children",
+      "❌ I am liking → ✅ I like",
+      "❌ 2 years back → ✅ 2 years ago",
+      "❌ passed out from → ✅ graduated from",
+      "❌ I work in Google → ✅ I work AT Google",
+      "❌ a IT professional → ✅ an IT professional",
+      "❌ very much excited → ✅ very excited",
+      "❌ I am done my B.Tech → ✅ I completed my B.Tech",
+      "❌ I am stay in Mumbai → ✅ I live in Mumbai",
+      "❌ I have joined in 2022 → ✅ I joined in 2022",
+      "❌ Nice to meet to you → ✅ Nice to meet you"
+    ]
+  }
+}

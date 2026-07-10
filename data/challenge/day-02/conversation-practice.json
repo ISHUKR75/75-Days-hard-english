@@ -1,0 +1,340 @@
+{
+  "day": 2,
+  "topic": "Self Introduction",
+  "title": "Conversation Practice — Self Introduction (Day 2)",
+  "description": "20 real-life conversation scenarios for practicing self-introduction. Each scenario has guided scripts, key phrases, and practice tasks.",
+  "totalScenarios": 20,
+  "howToUse": [
+    "Har scenario padhein",
+    "Apne baare mein same situation ka response prepare karein",
+    "Mirror ya partner ke saath practice karein",
+    "Record karein aur improve karein"
+  ],
+  "scenarios": [
+    {
+      "id": 1,
+      "title": "Job Interview Opener",
+      "context": "HR asks: 'Please introduce yourself'",
+      "difficulty": "Medium",
+      "timeLimit": "90 seconds",
+      "keyStructure": ["Greeting", "Name + City", "Education", "Work Experience", "Strength", "Goal", "Thank you"],
+      "sampleResponse": "Good morning! My name is [Your Name]. I am from [City]. I completed my [Degree] from [College] in [Year] with [Score]. I have [X] years of experience in [Field]. My biggest strength is [Strength]. My goal is to [Goal]. I believe this role at your company is the perfect opportunity for me. Thank you for having me today.",
+      "practicePrompts": [
+        "मेरा नाम ___ है।",
+        "मैं ___ से हूँ।",
+        "मैंने ___ में ___ से ___ degree ली।",
+        "मुझे ___ साल का अनुभव है।",
+        "मेरी सबसे बड़ी strength ___ है।"
+      ],
+      "tips": ["2 minutes se zyada mat bolein", "Confident body language", "Eye contact zaroor rakhein"]
+    },
+    {
+      "id": 2,
+      "title": "First Day Office Team Meeting",
+      "context": "Your manager says: 'Everyone, meet our new team member!'",
+      "difficulty": "Easy",
+      "timeLimit": "45 seconds",
+      "keyStructure": ["Warm greeting", "Name", "Role", "Brief experience", "One hobby", "Looking forward"],
+      "sampleResponse": "Hello everyone! I am [Name], joining as [Role]. I have [X] years of experience in [Field]. Outside of work, I enjoy [Hobby]. I am really excited to be part of this amazing team and I look forward to working with all of you!",
+      "practicePrompts": [
+        "मैं ___ के रूप में join कर रहा/रही हूँ।",
+        "मुझे ___ में ___ साल का अनुभव है।",
+        "मुझे ___ करना पसंद है।"
+      ],
+      "tips": ["Smile karein", "Short rakhen", "Enthusiasm dikhayein"]
+    },
+    {
+      "id": 3,
+      "title": "College First Day Introduction",
+      "context": "Professor says: 'Please introduce yourself to the class'",
+      "difficulty": "Easy",
+      "timeLimit": "30 seconds",
+      "keyStructure": ["Hi/Hello", "Name", "City/State", "12th score/stream", "Hobbies", "Career goal"],
+      "sampleResponse": "Hi everyone! I am [Name] from [City]. I completed my 12th with [%] in [Stream]. I love [Hobby1] and [Hobby2]. I want to become [Career] in the future. Nice to meet you all!",
+      "practicePrompts": [
+        "मैं ___ से हूँ।",
+        "मैंने 12th में ___ % marks लाए।",
+        "मेरा dream ___ बनना है।"
+      ],
+      "tips": ["Friendly tone", "Brief rakhen", "End positive note pe"]
+    },
+    {
+      "id": 4,
+      "title": "LinkedIn Connection Message",
+      "context": "You're sending a connection request with a note",
+      "difficulty": "Medium",
+      "timeLimit": "Written — 50 words",
+      "keyStructure": ["Greeting", "Name + Role", "Why connecting", "Common interest", "Call to action"],
+      "sampleResponse": "Hi [Name]! I am [Your Name], a [Role] at [Company] with [X] years in [Industry]. I came across your profile and was really impressed by your work on [Topic]. I would love to connect and learn from your experience. Looking forward to connecting!",
+      "practicePrompts": [
+        "मैं ___ हूँ और ___ में काम करता/करती हूँ।",
+        "मुझे आपके काम से बहुत inspiration मिलती है।",
+        "Connect करना चाहूंगा/चाहूंगी।"
+      ],
+      "tips": ["Personalize the message", "Don't be generic", "Mention why you want to connect specifically"]
+    },
+    {
+      "id": 5,
+      "title": "Video Call with International Client",
+      "context": "First Zoom call with a client from the US or UK",
+      "difficulty": "Hard",
+      "timeLimit": "60 seconds",
+      "keyStructure": ["Time-appropriate greeting", "Name + Designation + Company + Location", "Experience summary", "Relevant achievement", "Excitement"],
+      "sampleResponse": "Good morning/afternoon from [City]! I am [Name], [Designation] at [Company]. I have [X] years of experience managing international projects in [Industry]. I successfully [achievement]. I am really looking forward to working with [Client Company] on this exciting project.",
+      "practicePrompts": [
+        "मैं ___ में based हूँ।",
+        "मुझे international projects का अनुभव है।",
+        "मैं इस project के लिए excited हूँ।"
+      ],
+      "tips": ["Time zone ke hisab se greeting", "Be specific about location", "Professional and brief"]
+    },
+    {
+      "id": 6,
+      "title": "Family Wedding — Meeting Relatives",
+      "context": "A relative you've never met asks: 'Tum kaun ho beta?'",
+      "difficulty": "Easy",
+      "timeLimit": "30 seconds",
+      "keyStructure": ["Namaste/Hello", "Name + Relation to family", "Age", "Profession/Studies", "Warmth"],
+      "sampleResponse": "Namaste, [Uncle/Aunty]! I am [Name], [Relation]'s son/daughter. I am [age] years old. I am currently [working as/studying] at [Company/College]. It is wonderful to meet you!",
+      "practicePrompts": [
+        "मैं ___ का/की बेटा/बेटी हूँ।",
+        "मैं ___ में काम करता/करती हूँ।",
+        "आपसे मिलकर अच्छा लगा।"
+      ],
+      "tips": ["Respectful tone", "Family context dena", "Hindi-English mix acceptable"]
+    },
+    {
+      "id": 7,
+      "title": "Networking Event Business Card Exchange",
+      "context": "You meet someone and exchange business cards",
+      "difficulty": "Medium",
+      "timeLimit": "45 seconds",
+      "keyStructure": ["Name", "Designation + Company", "What you do (1 sentence)", "What you're looking for/interested in"],
+      "sampleResponse": "Hi! I am [Name]. Here's my card. I am the [Designation] at [Company]. We [what your company does in one sentence]. I am particularly interested in [relevant interest/challenge]. What do you do?",
+      "practicePrompts": [
+        "यह मेरा card है।",
+        "हम ___ के लिए work करते हैं।",
+        "आप क्या करते हैं?"
+      ],
+      "tips": ["Always ask about them too", "One interesting fact about your work", "Be curious"]
+    },
+    {
+      "id": 8,
+      "title": "WhatsApp Group Introduction",
+      "context": "You join a new professional community or study group",
+      "difficulty": "Easy",
+      "timeLimit": "Written — 80 words",
+      "keyStructure": ["Greeting with emoji", "Name + City", "Work/Study", "Why joined", "Fun fact", "Looking forward"],
+      "sampleResponse": "Hello everyone! 👋\n\nI am [Name] from [City]. I work as [Role] at [Company] / I am currently pursuing [Degree].\n\nI joined this group because [reason — e.g., to improve English, to connect with professionals].\n\nFun fact: [Something interesting about you — e.g., 'I have visited 12 states in India!']\n\nLooking forward to learning and growing with all of you! 😊",
+      "practicePrompts": [
+        "मैं इस group में join हुआ/हुई क्योंकि ___।",
+        "Fun fact: मैं ___।",
+        "सबसे मिलकर अच्छा लगेगा।"
+      ],
+      "tips": ["Emojis use kar sakte hain", "Personal and warm tone", "Mention why you joined — it builds connection"]
+    },
+    {
+      "id": 9,
+      "title": "English Class First Day",
+      "context": "Teacher asks everyone to introduce themselves",
+      "difficulty": "Easy",
+      "timeLimit": "45 seconds",
+      "keyStructure": ["Name", "Where you're from", "What you do", "Why learning English", "One goal"],
+      "sampleResponse": "Good [time], everyone! My name is [Name]. I am from [City]. I [work as/am studying]. I am learning English because [reason]. My goal is to [specific English-related goal]. I hope to improve a lot with all your help!",
+      "practicePrompts": [
+        "मैं English इसलिए सीख रहा/रही हूँ क्योंकि ___।",
+        "मेरा English सीखने का goal ___ है।",
+        "मुझे hope है कि मैं जल्दी improve करूंगा/करूंगी।"
+      ],
+      "tips": ["Honest reason batana — it's relatable", "Be specific about your English goal", "Positive ending"]
+    },
+    {
+      "id": 10,
+      "title": "Doctor / Hospital Introduction",
+      "context": "You are registering at a new clinic for the first time",
+      "difficulty": "Easy",
+      "timeLimit": "30 seconds",
+      "keyStructure": ["Name", "Date of birth", "Permanent address", "Occupation", "Reason for visit"],
+      "sampleResponse": "Good morning, Doctor. My name is [Name]. My date of birth is [date]. I am from [City]. I currently work as [Occupation]. I am here because [reason — e.g., I have been experiencing back pain for 2 weeks].",
+      "practicePrompts": [
+        "मेरी date of birth ___ है।",
+        "मैं पिछले ___ से ___ का सामना कर रहा/रही हूँ।",
+        "मेरा permanent address ___ है।"
+      ],
+      "tips": ["Be specific about symptoms", "Mention how long you've had the issue", "Professional but natural tone"]
+    },
+    {
+      "id": 11,
+      "title": "University Admission Interview",
+      "context": "Panel of professors asks you to introduce yourself",
+      "difficulty": "Hard",
+      "timeLimit": "2 minutes",
+      "keyStructure": ["Greeting", "Name + City", "Academic background (percentage, rank)", "Interests relevant to the course", "Future goals", "Why this university"],
+      "sampleResponse": "Good morning, respected faculty! My name is [Name]. I am from [City]. I scored [%] in my 12th and [CGPA] in my graduation from [College]. I have always been deeply interested in [Subject] because [reason]. My goal is to [career goal]. I am applying to [University] because of its exceptional [faculty/research/ranking/opportunities]. I believe this program will shape my future in the best way possible. Thank you for this opportunity.",
+      "practicePrompts": [
+        "मुझे ___ subject में गहरी रुचि है क्योंकि ___।",
+        "इस university में apply करने का मेरा कारण ___ है।",
+        "मेरा goal है ___ बनना।"
+      ],
+      "tips": ["Research the university specifically", "Connect your interests to the course", "Be specific, not generic"]
+    },
+    {
+      "id": 12,
+      "title": "Bank Account Opening",
+      "context": "Bank officer asks for your details",
+      "difficulty": "Easy",
+      "timeLimit": "45 seconds",
+      "keyStructure": ["Full name", "Date of birth", "Permanent address", "Current address (if different)", "Occupation", "Source of income"],
+      "sampleResponse": "My name is [Full Name]. My date of birth is [date]. My permanent address is [full address]. I currently reside in [current city] due to work. I am a [occupation] at [company]. My income is from my salary / business / profession.",
+      "practicePrompts": [
+        "मेरा permanent address ___ है।",
+        "मैं currently ___ में रहता/रहती हूँ।",
+        "मेरी income [salary/business/profession] से है।"
+      ],
+      "tips": ["All documents ready rakhein", "Clear aur slow bolein", "Formal language use karein"]
+    },
+    {
+      "id": 13,
+      "title": "Conference Panel Introduction",
+      "context": "You are a speaker at an industry conference",
+      "difficulty": "Hard",
+      "timeLimit": "90 seconds",
+      "keyStructure": ["Formal greeting", "Name + Designation + Organization", "Brief career journey (2-3 sentences)", "Expertise relevant to the topic", "Connect to the session's theme"],
+      "sampleResponse": "Good morning, ladies and gentlemen! I am honoured to be here today. My name is [Name], and I serve as the [Designation] at [Organization], based in [City].\n\nOver the past [X] years, I have dedicated my career to [field/mission]. I started as [early role] and progressed to [current role], gaining deep expertise in [areas].\n\nToday, I will be speaking about [topic], a subject I am deeply passionate about. I hope my experience and insights will be valuable to each one of you. Let us begin!",
+      "practicePrompts": [
+        "मुझे यहाँ आने का honor मिला है।",
+        "मैंने पिछले ___ सालों में ___ में काम किया है।",
+        "आज मैं ___ के बारे में बात करूंगा/करूंगी।"
+      ],
+      "tips": ["Formal language", "Connect yourself to the topic", "Make audience feel you are credible and relevant"]
+    },
+    {
+      "id": 14,
+      "title": "Social Media Live Stream Start",
+      "context": "Starting your first Instagram/YouTube Live",
+      "difficulty": "Medium",
+      "timeLimit": "2 minutes",
+      "keyStructure": ["Energetic opener", "Name", "What this channel/page is about", "Why you started", "What to expect today", "Call to action"],
+      "sampleResponse": "Hey hey hey! We are LIVE! Oh wow, this is exciting! For those of you who are new here — hi! I am [Name] from [City]. This page is all about [topic — e.g., English learning / technology / cooking].\n\nI started this because [personal reason]. Today, we are going to [today's topic]. It will be fun, practical, and easy to understand.\n\nIf you are new, please follow and hit the notification bell! And drop your name in the comments — I want to say hi to everyone!",
+      "practicePrompts": [
+        "आज हम ___ के बारे में बात करेंगे।",
+        "मैंने यह page/channel इसलिए शुरू किया क्योंकि ___।",
+        "Comments में अपना नाम likho!"
+      ],
+      "tips": ["High energy", "Ask audience to interact", "Be genuine — people connect with real people"]
+    },
+    {
+      "id": 15,
+      "title": "Client Proposal Meeting — First Meeting",
+      "context": "You meet a potential client for the first time in a formal business meeting",
+      "difficulty": "Hard",
+      "timeLimit": "2 minutes",
+      "keyStructure": ["Formal greeting", "Name + Company + Role", "Company overview (what you do, for whom)", "Why you are the right choice", "Relevant project example", "Openness to collaborate"],
+      "sampleResponse": "Good morning, Mr./Ms. [Client Name]. Thank you for taking the time to meet with us today. My name is [Name], and I am the [Designation] at [Your Company]. We are a [type of company] that specializes in [services/products] for [target clients]. Our team has [X] years of combined experience, and we have successfully delivered [specific projects or results]. We recently helped [a similar client] achieve [specific outcome], and I believe we can do something similar for your organization. I am excited about the possibility of working together and I look forward to understanding your needs better today.",
+      "practicePrompts": [
+        "हम एक ___ company हैं जो ___ में specialize करती है।",
+        "हमने recently ___ client के लिए ___ achieve किया।",
+        "मैं आपकी needs को समझना चाहता/चाहती हूँ।"
+      ],
+      "tips": ["Research the client before the meeting", "Mention a relevant success story", "End with openness to listen"]
+    },
+    {
+      "id": 16,
+      "title": "Phone Call to Potential Employer",
+      "context": "You are calling to inquire about a job opening",
+      "difficulty": "Medium",
+      "timeLimit": "60 seconds",
+      "keyStructure": ["Confirm you have the right person", "Your name + why you are calling", "Brief introduction (role + experience)", "How you found out about the opening", "Request for next step"],
+      "sampleResponse": "Good morning! Am I speaking with [HR Manager's name] from [Company]? My name is [Your Name]. I am calling regarding the [Job Title] opening I found on [Job Portal/LinkedIn]. I am a [Designation] with [X] years of experience in [Field]. I am very interested in this opportunity and would love to know more about the position. Would it be possible to schedule a brief conversation at your convenience?",
+      "practicePrompts": [
+        "क्या मैं ___ से बात कर रहा/रही हूँ?",
+        "मैं ___ job opening के बारे में call कर रहा/रही हूँ।",
+        "क्या हम एक brief conversation schedule कर सकते हैं?"
+      ],
+      "tips": ["Prepared raho — answers ke liye ready raho", "Professional but warm", "Always ask for a next step"]
+    },
+    {
+      "id": 17,
+      "title": "Government Office / Formal Inquiry",
+      "context": "You visit a government or official office for the first time",
+      "difficulty": "Easy",
+      "timeLimit": "30 seconds",
+      "keyStructure": ["Polite greeting", "Full name + ID", "Purpose of visit", "Relevant details"],
+      "sampleResponse": "Good morning, sir/ma'am. My name is [Full Name]. My Aadhaar number is [XXXX]. I am here for [purpose — e.g., passport verification, certificate attestation]. I have all the required documents with me. Could you please guide me on the process?",
+      "practicePrompts": [
+        "मैं ___ के लिए यहाँ आया/आई हूँ।",
+        "मेरे पास सभी documents हैं।",
+        "क्या आप मुझे process बता सकते हैं?"
+      ],
+      "tips": ["Formal tone", "Documents ready rakhein", "Respectful language"]
+    },
+    {
+      "id": 18,
+      "title": "Introducing Yourself in an Email",
+      "context": "You are reaching out cold to a professional you admire",
+      "difficulty": "Hard",
+      "timeLimit": "Written — 100 words",
+      "keyStructure": ["Subject line", "How you found them", "Who you are (brief)", "Why you are reaching out", "Specific ask"],
+      "sampleResponse": "Subject: Introduction + Quick Question — [Your Name]\n\nDear [Name],\n\nI hope this email finds you well. My name is [Your Name], a [Role] at [Company/College]. I came across your [article/LinkedIn post/interview] on [Topic] and found it truly insightful.\n\nI have been working in [Field] for [X] years and am currently focused on [specific challenge]. I believe your experience in [their area] could offer invaluable perspective.\n\nWould you be open to a 15-minute call or email exchange at your convenience? I would be truly grateful for any guidance.\n\nWarm regards,\n[Name]",
+      "practicePrompts": [
+        "मैंने आपका [article/interview] पढ़ा और बहुत inspire हुआ/हुई।",
+        "मैं currently ___ पर काम कर रहा/रही हूँ।",
+        "क्या आप 15 minutes के लिए available होंगे?"
+      ],
+      "tips": ["Subject line clear rakhein", "Mention specifically why you are reaching out to THEM", "Keep the ask small"]
+    },
+    {
+      "id": 19,
+      "title": "Sports / Hobby Club Introduction",
+      "context": "First day at a new hobby class — cooking, yoga, cricket, or art",
+      "difficulty": "Easy",
+      "timeLimit": "30 seconds",
+      "keyStructure": ["Name", "City/Background", "Experience level", "Why joined", "One fun fact"],
+      "sampleResponse": "Hi everyone! I am [Name] from [City]. I am a complete beginner / I have [X] months of experience in [hobby]. I joined because [reason]. One fun thing — [interesting fact about yourself related to the hobby]. Looking forward to learning with all of you!",
+      "practicePrompts": [
+        "मैं इस class में join हुआ/हुई क्योंकि ___।",
+        "मुझे ___ में ___ महीने/साल का अनुभव है।",
+        "एक fun fact: ___।"
+      ],
+      "tips": ["Relaxed tone", "Be honest about your skill level", "Show enthusiasm for learning"]
+    },
+    {
+      "id": 20,
+      "title": "Self Introduction for a School/College Project",
+      "context": "You start a group project and introduce yourself to your group members",
+      "difficulty": "Easy",
+      "timeLimit": "30 seconds",
+      "keyStructure": ["Name", "Stream/Branch", "Skills relevant to the project", "Role you can take", "Enthusiasm"],
+      "sampleResponse": "Hey guys! I am [Name] from [Branch/Stream]. For this project, I can contribute to [specific areas — e.g., research, presentation, coding]. I am particularly good at [skill]. I am really excited about this project because [reason]. Let us do great work together!",
+      "practicePrompts": [
+        "इस project में मैं ___ में contribute कर सकता/सकती हूँ।",
+        "मुझे ___ में अच्छा experience है।",
+        "मैं इस project के लिए excited हूँ क्योंकि ___।"
+      ],
+      "tips": ["Show what value you bring", "Offer a specific role", "Be collaborative in your language"]
+    }
+  ],
+  "practiceSchedule": {
+    "week1": {
+      "day1": "Scenarios 1-5: Job interview + office + college",
+      "day2": "Scenarios 6-10: Family + networking + online",
+      "day3": "Scenarios 11-15: University + bank + conference + social media + client",
+      "day4": "Scenarios 16-20: Phone + government + email + hobby + project",
+      "day5": "Repeat weakest 5 scenarios",
+      "day6": "Full round — all 20 scenarios in 60 minutes",
+      "day7": "Record yourself for scenarios 1, 5, 13, 20 and review"
+    }
+  },
+  "keyPhrasesSummary": [
+    "My name is ___ and I am from ___.",
+    "I have [X] years of experience in ___.",
+    "I completed my [degree] from [college] in [year].",
+    "I specialize in ___.",
+    "I am passionate about ___.",
+    "My goal is to ___.",
+    "I look forward to working with you.",
+    "It is a pleasure to meet you.",
+    "I am excited about this opportunity.",
+    "Thank you for having me today."
+  ]
+}

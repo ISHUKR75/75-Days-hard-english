@@ -1,0 +1,263 @@
+{
+  "day": 2,
+  "topic": "Self Introduction",
+  "title": "Essay Collection — Self Introduction (Day 2)",
+  "description": "5 complete essays on self-introduction — formal, informal, interview, academic, and creative styles. Each essay uses only Day 2 grammar and vocabulary.",
+  "totalEssays": 5,
+  "howToUse": "Pehle har essay padhen. Phir key phrases underline karein. Phir apne baare mein usi style mein likhen.",
+  "essays": [
+    {
+      "id": 1,
+      "title": "A Formal Self-Introduction Essay",
+      "hindiTitle": "Formal Self-Introduction Essay",
+      "type": "formal",
+      "level": "Beginner",
+      "wordCount": 280,
+      "essay": "# Introduction\n\nMy name is Ananya Sharma. I am twenty-three years old. I was born and brought up in Bhopal, the capital city of Madhya Pradesh. Currently, I am residing in Pune, Maharashtra, where I have been living for the past two years for professional reasons.\n\n# Educational Background\n\nI completed my secondary education from Kendriya Vidyalaya, Bhopal, where I scored 92% in my board examinations. After that, I pursued a Bachelor of Commerce degree from Barkatullah University, Bhopal, graduating with first class distinction in 2022. During my academic years, I was consistently among the top five students in my class and received the Best Student Award in my final year.\n\n# Professional Background\n\nAfter completing my graduation, I joined a leading accounting firm in Pune as a junior accountant. I have been working there for eight months now. In this short time, I have gained valuable experience in financial reporting, tax preparation, and client management. I am passionate about numbers and believe that accuracy is the foundation of good accounting.\n\n# Personal Interests\n\nOutside of my professional life, I enjoy several activities. I am a passionate reader and love books on personal development and business. I also enjoy painting — particularly watercolors — which I find to be a relaxing and creative outlet. Additionally, I enjoy yoga and practise it every morning for thirty minutes.\n\n# Goals and Aspirations\n\nMy short-term goal is to clear the Chartered Accountancy examination within the next three years. My long-term goal is to establish my own consulting firm that helps small businesses manage their finances more effectively. I believe that with dedication, consistent hard work, and the right opportunities, I can achieve these goals.\n\n# Conclusion\n\nIn summary, I am a dedicated, hardworking, and ambitious individual with a strong educational foundation and a clear vision for my future. I am always eager to learn, grow, and contribute meaningfully to any team or organization I am a part of. Thank you.",
+      "keyPhrasesUsed": [
+        "I was born and brought up in + [City]",
+        "I have been living for the past + [time]",
+        "I completed my + [education] from + [institution]",
+        "I scored + [marks] in + [exam]",
+        "I pursued a + [degree] in + [subject]",
+        "graduating with + [distinction/CGPA]",
+        "I have been working there for + [time]",
+        "I am passionate about + [noun]",
+        "I believe that + [clause]",
+        "My short-term/long-term goal is to + [infinitive]"
+      ],
+      "grammarPoints": [
+        "Passive: I was born and brought up",
+        "Present Perfect Continuous: I have been living / working",
+        "Past Simple for completed events: I completed, I scored",
+        "Gerund as object: I enjoy reading, painting",
+        "Infinitive for goals: goal is to clear, to establish"
+      ],
+      "practiceTask": {
+        "instructions": "Isi format mein apna formal essay likhein (5 paragraphs):",
+        "outline": [
+          "Para 1: Basic Introduction (name, age, city, current location)",
+          "Para 2: Educational Background (school, college, marks, awards)",
+          "Para 3: Professional Background (company, role, experience, what you learned)",
+          "Para 4: Personal Interests (hobbies, daily routine, what you enjoy)",
+          "Para 5: Goals and Conclusion (short-term goal, long-term goal, closing statement)"
+        ],
+        "wordTarget": "250-300 words"
+      }
+    },
+    {
+      "id": 2,
+      "title": "The Story of My Journey — A Personal Essay",
+      "hindiTitle": "मेरी यात्रा की कहानी — एक Personal Essay",
+      "type": "narrative",
+      "level": "Intermediate",
+      "wordCount": 320,
+      "essay": "# Who Am I?\n\nIf someone asked me to describe myself in one sentence, I would say: 'I am a small-town boy with big-city dreams.' My name is Karan Mehta. I grew up in Muzaffarpur, a small city in Bihar, in a middle-class family where my father works as a school teacher and my mother is a homemaker. I have one younger sister who is currently studying in Class 10.\n\n# Where I Come From\n\nGrowing up in Muzaffarpur taught me the value of hard work and simplicity. We did not have many luxuries, but we had something more important — a strong family bond and a deep belief that education is the greatest gift. My father always said, 'Beta, education will open every door for you.' Those words shaped my journey.\n\n# The Journey\n\nAfter completing my 12th with 84% in the Science stream, I took the JEE examination and qualified for a government engineering college in Patna. I completed my B.Tech in Electronics and Communication Engineering in 2023. College life was challenging — I was away from home for the first time, managing studies, finances, and life all at once. But those four years made me resilient, independent, and confident.\n\n# Where I Am Now\n\nAfter graduating, I moved to Bengaluru to pursue my career in embedded systems. I currently work as a junior engineer at a semiconductor company. I have been working there for seven months and I have already learned more in these seven months than I did in four years of theory. The real world, I have discovered, is the best classroom.\n\n# Where I Am Going\n\nMy goal is to specialize in IoT (Internet of Things) technology and eventually contribute to India's growing tech ecosystem. I want to prove that talent from small towns can compete with anyone in the world.\n\nEvery day, I remind myself of my father's words. Education has opened doors for me — but the doors I walk through will be the doors I build myself.",
+      "keyPhrasesUsed": [
+        "I grew up in + [place]",
+        "My father works as + [job]",
+        "Growing up in + [place] taught me + [lesson]",
+        "After completing my + [education], I + [action]",
+        "I have been working for + [time]",
+        "My goal is to + [infinitive]"
+      ],
+      "grammarPoints": [
+        "Narrative structure: past → present → future",
+        "Gerund as subject: Growing up taught me",
+        "Conditional: If someone asked me, I would say",
+        "Present Perfect: I have already learned",
+        "Contrast: 'We did not have luxuries, but we had...'"
+      ],
+      "practiceTask": {
+        "instructions": "Apni life ki story-style essay likhein. In points ko cover karein:",
+        "outline": [
+          "Your city/background and how it shaped you",
+          "A lesson your parent/teacher taught you",
+          "Your education journey (highs and lows)",
+          "Where you are now and what you learned",
+          "Your dream/goal"
+        ],
+        "wordTarget": "280-320 words"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Tell Me About Yourself — The Perfect Interview Answer (Essay Format)",
+      "hindiTitle": "Tell Me About Yourself — Interview के लिए Perfect Answer",
+      "type": "interview",
+      "level": "Intermediate",
+      "wordCount": 260,
+      "essay": "Good morning. Thank you for this wonderful opportunity. Let me take a few moments to introduce myself.\n\nMy name is Divya Nair. I am a twenty-six-year-old marketing professional from Kochi, Kerala. I completed my Bachelor of Business Administration from Christ University, Bangalore, in 2020, specializing in Marketing and Branding. I was among the top ten students in my batch and received a merit scholarship for three consecutive years.\n\nAfter graduation, I joined a digital marketing agency in Bangalore as an executive. Over the next four years, I progressed to the role of Senior Marketing Strategist. During this period, I managed campaigns for over twenty clients across the e-commerce, FMCG, and real estate sectors. My most notable achievement was leading a social media campaign that generated three million impressions and increased the client's sales by 35% in just one quarter.\n\nMy core strengths are creative problem-solving, data-driven decision making, and the ability to translate complex analytics into simple, actionable strategies. My colleagues often describe me as someone who brings energy and structure to every project.\n\nOn a personal note, I am deeply passionate about sustainable living. I love reading books on environmental economics and urban planning. I also practice Bharatanatyam dance, which has taught me discipline, perseverance, and the art of expression.\n\nI am drawn to this opportunity at your company because of your reputation for innovation and your commitment to making marketing meaningful. I am confident that my skills, experience, and passion align perfectly with the vision of your team. I am excited to bring my best to this role and grow with your organization.\n\nThank you.",
+      "keyPhrasesUsed": [
+        "Let me take a few moments to introduce myself.",
+        "I am a + [age] + [profession] from + [city].",
+        "I completed my + [degree] from + [college] in + [year], specializing in + [field].",
+        "I progressed to the role of + [designation].",
+        "My most notable achievement was + verb+ing.",
+        "My core strengths are + [list].",
+        "I am deeply passionate about + [noun].",
+        "I am confident that my + [skills] align perfectly with + [vision].",
+        "I am excited to bring my best to this role."
+      ],
+      "grammarPoints": [
+        "Formal register throughout",
+        "Passive: I was described as",
+        "Gerund phrase: leading a campaign",
+        "Relative clause: a campaign that generated",
+        "Concessive clause: which has taught me"
+      ],
+      "practiceTask": {
+        "instructions": "Interview ke liye 'Tell me about yourself' answer taiyar karein (2-3 minutes ka spoken answer, 200-250 words):",
+        "structure": [
+          "Opening: Greeting + 'Let me take a moment to introduce myself'",
+          "Background: Name + age + city + current role",
+          "Education: Degree + college + year + achievement",
+          "Work: Company + role + years + key achievement",
+          "Strengths: 2-3 key strengths",
+          "Personal: 1 hobby (brief)",
+          "Why this company: Specific reason + excitement",
+          "Closing: Thank you"
+        ],
+        "tips": [
+          "2 minutes se zyada mat bolein",
+          "Numbers aur specific achievements use karein",
+          "Script yaad mat karein — points yaad karein",
+          "Slow aur confident bolein",
+          "Eye contact zaroor rakhen"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "My Introduction — A Reflective Essay",
+      "hindiTitle": "मेरा परिचय — एक Reflective Essay",
+      "type": "reflective",
+      "level": "Intermediate",
+      "wordCount": 300,
+      "essay": "# Who Am I, Really?\n\nIntroducing oneself is, at its core, an act of courage. Every time I say my name out loud in a room full of strangers, I am offering a piece of myself to the world — hoping that what I present is worthy of respect and connection.\n\nMy name is Sneha Kulkarni. I am from Nagpur, the orange city of Maharashtra. But cities are not identities — people and experiences are. So let me tell you not just where I am from, but who I am.\n\n# My Roots\n\nI am the daughter of two teachers. My mother teaches mathematics at a local school and my father teaches literature. Growing up in a household of books and ideas meant that curiosity was never something I needed to be taught — it was simply part of the air I breathed. I completed my schooling with a 94% score and then pursued a degree in Psychology from Pune University.\n\n# My Present\n\nToday, I work as a Human Resources executive at a private company in Pune. I have been in this role for one and a half years. My work involves understanding people — their motivations, their fears, their potential. In many ways, it is the perfect extension of my psychology background. Every conversation I have at work feels like a small but meaningful contribution to someone's professional journey.\n\n# My Inner World\n\nOutside of work, I am a writer. I maintain a blog about human behavior and mental wellness. I have been writing consistently for three years and have gathered a small but loyal readership. Writing, for me, is how I process the world. I also love hiking — there is something deeply humbling about standing on a mountain and realizing how small you are in the vastness of nature.\n\n# My Direction\n\nI am working towards becoming a certified organizational psychologist. I want to build workplaces where people feel seen, valued, and inspired — not just productive. I believe that when people are truly happy at work, they change the world in ways they cannot even imagine.\n\nThat is who I am. Not just a name, a city, or a job title — but a person in progress, always learning, always growing.",
+      "keyPhrasesUsed": [
+        "Introducing oneself is an act of + [noun].",
+        "I am the daughter/son of + [description].",
+        "Growing up in a + [setting] meant that + [result].",
+        "I have been in this role for + [time].",
+        "My work involves + verb+ing.",
+        "In many ways, it is + [description].",
+        "I have been + verb+ing consistently for + [time].",
+        "I am working towards + verb+ing / [noun].",
+        "I believe that when + [clause], + [result]."
+      ],
+      "grammarPoints": [
+        "Gerund as subject: Introducing oneself is...",
+        "Gerund phrase: Growing up in + setting",
+        "Present Perfect Continuous: I have been in this role / writing for three years",
+        "Relative clause: cities, which are not identities",
+        "Conditional: when people are happy, they change..."
+      ],
+      "practiceTask": {
+        "instructions": "Ek reflective self-introduction essay likhein jisme aap sirf facts nahi, apni feelings aur philosophy bhi share karein:",
+        "prompts": [
+          "Who are you beyond your name and job?",
+          "What did your childhood teach you?",
+          "What does your current work mean to you emotionally?",
+          "What do you create/do outside work?",
+          "What kind of world do you want to build?"
+        ],
+        "wordTarget": "280-320 words",
+        "note": "This style is good for college SOP, scholarship essays, and deep networking conversations."
+      }
+    },
+    {
+      "id": 5,
+      "title": "My Introduction for the World — A LinkedIn-Style Essay",
+      "hindiTitle": "दुनिया के लिए मेरा परिचय — LinkedIn Style Essay",
+      "type": "professional-online",
+      "level": "Advanced",
+      "wordCount": 290,
+      "essay": "Hi, I am Arjun Patel. 👋\n\nI am a product manager based in Hyderabad, India, with five years of experience building digital products that solve real human problems.\n\n# What I Do\n\nI lead product development at GrowthBase, a Series B funded SaaS startup. My team and I are responsible for defining the product vision, building the roadmap, and working closely with engineering, design, and sales to deliver features that our users love. Over the past five years, I have shipped more than forty product features that have collectively served over two million users.\n\nBefore GrowthBase, I spent two years at Flipkart's mobile team, where I learned what it means to build products at scale. The experience of seeing a single feature touch the lives of tens of millions of people — that is something that permanently changed how I think about product decisions.\n\n# Why I Do It\n\nI got into product management because I am fundamentally obsessed with one question: why do people do what they do? Understanding human behavior, uncovering hidden pain points, and turning complex problems into elegant, simple solutions — that is what gets me out of bed every morning.\n\n# Who I Am Beyond Work\n\nOutside of work, I am an amateur photographer. I love capturing cities at night — the way artificial light transforms ordinary spaces into something magical. I also coach college students on product management and career transitions on weekends.\n\n# Let us Connect\n\nI am always excited to meet builders, thinkers, and curious minds. Whether you want to talk about product strategy, career in tech, or just exchange ideas — my DMs are always open.\n\nIf my work resonates with you, let us connect! I look forward to building meaningful conversations and, who knows, maybe even meaningful products together.",
+      "keyPhrasesUsed": [
+        "I am a + [profession] based in + [City] with + [X] years of experience + verb+ing.",
+        "I lead + [function] at + [Company].",
+        "I have shipped more than + [number] + [noun].",
+        "I spent + [time] at + [Company], where I learned + [what].",
+        "I got into + [field] because I am fundamentally + [adjective] with + [noun].",
+        "Whether you want to + [verb] or + [verb], my DMs are open.",
+        "If + [clause], let us connect!"
+      ],
+      "grammarPoints": [
+        "Present Perfect: I have shipped, I have served",
+        "Past Simple: I spent, I learned",
+        "Gerund: building, capturing, coaching",
+        "Infinitive of purpose: to build, to turn complex problems into",
+        "Conditional: If my work resonates..."
+      ],
+      "practiceTask": {
+        "instructions": "Apna LinkedIn 'About' section likhein (200-250 words). Include:",
+        "structure": [
+          "Opening hook (1-2 sentences that grab attention)",
+          "What you do (role, company, impact in numbers)",
+          "Your journey (previous role, key lesson)",
+          "Why you do it (your core motivation/passion)",
+          "Who you are outside work (1 hobby briefly)",
+          "Call to action (let's connect!)"
+        ],
+        "tips": [
+          "Emojis sparingly use karein",
+          "Numbers use karein (40 features, 2M users)",
+          "Casual-professional tone rakhen",
+          "Avoid jargon",
+          "End with an invitation to connect"
+        ]
+      }
+    }
+  ],
+  "essayWritingTips": {
+    "general": [
+      "Har paragraph ek idea pe focus kare",
+      "Transition words use karein: However, Moreover, Additionally, In contrast, Therefore",
+      "Specific numbers aur examples se essays powerful bante hain",
+      "Conclusion mein future goal zaroor mention karein",
+      "Proofreading zaroor karein — grammar aur spelling check karein"
+    ],
+    "formalEssay": [
+      "Contractions avoid karein (don't → do not, I'm → I am)",
+      "First person appropriate hai self-introduction mein",
+      "Formal vocabulary use karein",
+      "Passive voice where appropriate"
+    ],
+    "personalEssay": [
+      "Contractions allowed (I'm, I've, I'd)",
+      "Personal anecdotes share karein",
+      "Emotions aur opinions freely express karein",
+      "Conversational but polished tone"
+    ]
+  },
+  "writingExercises": [
+    {
+      "id": 1,
+      "type": "paragraph-completion",
+      "instruction": "Niche diye blanks fill karein:",
+      "template": "My name is ___. I am from ___, but I currently live in ___ for ___. I completed my ___ from ___ with ___. I have been working as ___ for the past ___. My core strength is ___. In my free time, I enjoy ___. My goal is to ___.",
+      "difficulty": "easy"
+    },
+    {
+      "id": 2,
+      "type": "sentence-expansion",
+      "instruction": "Har simple sentence ko expand karein (2-3 sentences mein):",
+      "sentences": [
+        "My name is Rahul. (expand: add city, nickname, context)",
+        "I work at TCS. (expand: role, years, what you do)",
+        "I love cricket. (expand: since when, achievements, what you love about it)",
+        "I want to become an engineer. (expand: type, why, goal)"
+      ],
+      "difficulty": "medium"
+    },
+    {
+      "id": 3,
+      "type": "full-essay",
+      "instruction": "Niche diye topic par 250-word essay likhein:",
+      "topic": "The most important thing that defines me as a person",
+      "hints": ["Family? Education? A challenge you overcame? A belief? A skill?"],
+      "difficulty": "hard"
+    }
+  ]
+}
