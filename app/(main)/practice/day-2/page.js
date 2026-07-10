@@ -12,7 +12,16 @@ import {
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { useGamificationStore } from '@/store/useGamificationStore';
+import { getQuestionsForDay } from '@/lib/practiceData';
 
+<<<<<<< HEAD
+// Day 2 Practice Questions (500+ Hindi questions for Self Introduction)
+// Real practice questions for Day 2 are sourced from lib/practiceData.js, which prefers
+// handcrafted/real per-day banks and tops up to 950+ with the generated content engine —
+// this keeps this static route's content identical to the dynamic /practice/[daySlug] route
+// instead of the small placeholder array (only 30 questions) that used to live here.
+const DAY_2_QUESTIONS = getQuestionsForDay(2);
+=======
 // Fallback Day 2 Practice Questions — used only if the API request below
 // (which serves the full 950-question bank generated in
 // data/challenge/day-02/practice-questions.json) fails for any reason, e.g.
@@ -293,6 +302,7 @@ const FALLBACK_DAY_2_QUESTIONS = [
   // Additional questions to reach 500+ (truncated for file size, but would continue with 470 more questions)
   // In the complete implementation, this array would contain 500-600 questions following the same pattern
 ];
+>>>>>>> origin/main
 
 export default function Day2PracticePage() {
   // Full question bank (950 questions) loaded from the API, which reads
