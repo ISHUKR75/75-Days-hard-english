@@ -38,7 +38,22 @@
     { "rule": "usually/often + main verb से पहले", "example": "He usually wakes up early.", "hindi": "वह आमतौर पर जल्दी उठता है।" },
     { "rule": "What + is/are + subject?", "example": "What is your name?", "hindi": "तुम्हारा नाम क्या है?" },
     { "rule": "Where + do/does + subject + base verb?", "example": "Where does she work?", "hindi": "वह कहाँ काम करती है?" },
-    { "rule": "Why + don't/doesn't + subject + base verb?", "example": "Why doesn't he study?", "hindi": "वह पढ़ता क्यों नहीं?" }
+    { "rule": "Why + don't/doesn't + subject + base verb?", "example": "Why doesn't he study?", "hindi": "वह पढ़ता क्यों नहीं?" },
+    { "rule": "Object pronoun: verb के बाद 'me'", "example": "Please help me.", "hindi": "कृपया मेरी मदद करें।" },
+    { "rule": "Object pronoun: verb के बाद 'him'", "example": "She likes him.", "hindi": "वह उसे (male) पसंद करती है।" },
+    { "rule": "Object pronoun: verb के बाद 'her'", "example": "We called her.", "hindi": "हमने उसे (female) call किया।" },
+    { "rule": "Object pronoun: verb के बाद 'us'", "example": "The teacher helps us.", "hindi": "शिक्षक हमारी मदद करते हैं।" },
+    { "rule": "Object pronoun: verb के बाद 'them'", "example": "I know them well.", "hindi": "मैं उन्हें अच्छी तरह जानता हूँ।" },
+    { "rule": "Possessive adjective: his = male का/की", "example": "His car is new.", "hindi": "उसकी (male) कार नई है।" },
+    { "rule": "Possessive adjective: her = female का/की", "example": "Her book is on the table.", "hindi": "उसकी (female) किताब मेज़ पर है।" },
+    { "rule": "Possessive adjective: its = thing/animal का/की", "example": "The cat hurt its leg.", "hindi": "बिल्ली ने अपनी टाँग चोट लगाई।" },
+    { "rule": "Negative: doesn't + base verb (not verb+s)", "example": "She doesn't go (not goes).", "hindi": "वह नहीं जाती।" },
+    { "rule": "SVO structure — हमेशा", "example": "She reads books. (S+V+O)", "hindi": "वह किताबें पढ़ती है।" },
+    { "rule": "Common verbs He/She/It: go→goes, do→does, have→has", "example": "He has a car. She does the work.", "hindi": "उसके पास कार है। वह काम करती है।" },
+    { "rule": "WH question: How many + plural noun", "example": "How many books do you have?", "hindi": "तुम्हारे पास कितनी किताबें हैं?" },
+    { "rule": "WH question: How much + uncountable noun", "example": "How much water do you drink?", "hindi": "तुम कितना पानी पीते हो?" },
+    { "rule": "Sports/games: no article", "example": "I play cricket. She plays tennis.", "hindi": "मैं cricket खेलता हूँ। वह tennis खेलती है।" },
+    { "rule": "Unique nouns always take 'the'", "example": "the sun, the moon, the sky, the earth", "hindi": "सूरज, चाँद, आसमान, धरती" }
   ],
   "commonMistakes": [
     { "wrong": "She go to school every day.", "correct": "She goes to school every day.", "why": "He/She/It के साथ verb में 's' जोड़ते हैं: go → goes।" },
@@ -55,7 +70,18 @@
     { "wrong": "Their is a problem.", "correct": "There is a problem.", "why": "'Their' = possessive adjective (उनका)। 'There is' = existence (वहाँ है)। Different words।" },
     { "wrong": "He is agree with me.", "correct": "He agrees with me.", "why": "'Agree' main verb है, be verb के बाद नहीं आता। He agrees (simple present)।" },
     { "wrong": "I am having a car.", "correct": "I have a car.", "hindi": "'Have' stative verb है — possession के लिए continuous form नहीं।" },
-    { "wrong": "Our company provide good service.", "correct": "Our company provides good service.", "why": "'Our company' singular unit → provides।" }
+    { "wrong": "Our company provide good service.", "correct": "Our company provides good service.", "why": "'Our company' singular unit → provides।" },
+    { "wrong": "She gave the book to I.", "correct": "She gave the book to me.", "why": "Preposition (to) के बाद object pronoun 'me' आता है, subject pronoun 'I' नहीं।" },
+    { "wrong": "I saw he at the market.", "correct": "I saw him at the market.", "why": "Verb (saw) के बाद object pronoun 'him' आता है, subject pronoun 'he' नहीं।" },
+    { "wrong": "Her bag and her books. (referring to his things)", "correct": "His bag and his books.", "why": "Possessive adjective subject के gender से match होनी चाहिए — male के लिए 'his'।" },
+    { "wrong": "The it's color is red. / It's tail is long.", "correct": "Its color is red. / Its tail is long.", "why": "'Its' (possessive) में apostrophe नहीं होता। 'It's' = 'it is' का short form है।" },
+    { "wrong": "He doesn't goes to school.", "correct": "He doesn't go to school.", "why": "Doesn't के बाद हमेशा base verb आती है — 'go', 'goes' नहीं।" },
+    { "wrong": "What he does?", "correct": "What does he do?", "why": "Question बनाते समय auxiliary (does) subject से पहले आता है: What does + subject + base verb?।" },
+    { "wrong": "Who does lives here?", "correct": "Who lives here?", "why": "जब 'who' खुद subject हो, तो 'do/does' की ज़रूरत नहीं: Who + verb?।" },
+    { "wrong": "I am not knowing the answer.", "correct": "I don't know the answer.", "why": "'Know' stative verb है — negative में 'don't/doesn't know' use होता है, continuous नहीं।" },
+    { "wrong": "He have two sisters.", "correct": "He has two sisters.", "why": "He/She/It के साथ 'have' → 'has' हो जाता है।" },
+    { "wrong": "I buyed a new phone.", "correct": "I bought a new phone.", "why": "'Buy' irregular verb है — past tense: bought।" },
+    { "wrong": "This is a useful information.", "correct": "This is useful information.", "why": "'Information' uncountable noun है — इसके साथ 'a/an' नहीं लगता।" }
   ],
   "memoryTricks": [
     "🎯 Am-Is-Are trick: 'A for Am (I), I for Is (He/She/It), Are for the Rest (You/We/They)'",
@@ -67,7 +93,17 @@
     "🏏 Sports rule: Cricket, football, tennis — इनके साथ कभी article नहीं। 'I play cricket' नहीं 'I play the cricket'",
     "🔄 SVO order याद करो: 'Sita Visits Oldenburg' = Subject + Verb + Object",
     "✅ Stative verbs trick: LIKE, LOVE, HATE, KNOW, WANT, NEED, HAVE (possession) — इन्हें कभी '-ing' form में use नहीं करते",
-    "🎵 Singular-Plural song: One person = verb+s (She goes), Many people = base verb (They go)"
+    "🎵 Singular-Plural song: One person = verb+s (She goes), Many people = base verb (They go)",
+    "🔀 Subject vs Object pronoun trick: Subject = काम करने वाला (I, He, She, They), Object = जिस पर काम हो (me, him, her, them). 'He hit me' — He did it, me received it.",
+    "👫 Pronoun pairs चार्ट: I↔me | He↔him | She↔her | We↔us | They↔them | You↔you | It↔it. Left = subject, Right = object",
+    "🏠 Possessive adjective = noun का 'owner tag': my bag, his car, her book — adjective noun से चिपका रहता है",
+    "❌ Negative trick — 'Does' चुराता है 's': She goes → She doesn't GO (not goes). Does ने 's' चुरा ली!",
+    "❓ Question trick — 'Does' आगे आता है, verb वापस base form: She works → Does she WORK? (not works)",
+    "🔑 'Its' vs 'It's' shortcut: apostrophe = missing letter. It's = It IS. Its = ownership (no missing letter)",
+    "📦 Object pronoun याद रखो: verb/preposition के बाद हमेशा 'me/him/her/us/them'. Rule = 'GAME' position में object pronoun",
+    "🌍 'The' = पहचाना हुआ: पहली बार 'a dog', दूसरी बार 'the dog'. जैसे पहली मुलाक़ात = 'a', दोस्त बन जाए = 'the'",
+    "⚙️ Common irregular verbs याद करो: go→goes, do→does, have→has — सिर्फ़ He/She/It के साथ ये special forms",
+    "💬 WH question formula: WH + does/do + S + base verb? याद रखो 'WDSB' = Where Does She Buy?"
   ],
   "practiceChallenge": {
     "title": "Day 1 Final Challenge — 20 sentences खुद बनाओ!",

@@ -103,5 +103,934 @@
       "answer": "My mother cooks food.",
       "explanation": "This is directly stated in the passage: \"My mother cooks food.\""
     }
+  ],
+  "passages": [
+    {
+      "title": "A Day with Basics of English",
+      "text": "I eat rice. She drinks water. He reads books. We play cricket. They watch movies. You write letters. The dog eats food. My mother cooks food. Ravi drives a car. The teacher teaches English.",
+      "hindiTranslation": "मैं चावल खाता हूँ। वह पानी पीती है। वह किताबें पढ़ता है। हम क्रिकेट खेलते हैं। वे फिल्में देखते हैं। तुम पत्र लिखते हो। कुत्ता खाना खाता है। मेरी माँ खाना बनाती है। रवि कार चलाता है। अध्यापक अंग्रेजी पढ़ाते हैं।",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "What does the passage say about: \"I eat rice....\"?",
+          "options": [
+            "My mother cooks food.",
+            "We speak Hindi.",
+            "She teaches mathematics.",
+            "I eat rice."
+          ],
+          "answer": "I eat rice.",
+          "explanation": "This is directly stated in the passage: \"I eat rice.\""
+        },
+        {
+          "id": 2,
+          "question": "What does the passage say about: \"She drinks water....\"?",
+          "options": [
+            "Ravi drives a car.",
+            "The students study hard.",
+            "I like mangoes.",
+            "She drinks water."
+          ],
+          "answer": "She drinks water.",
+          "explanation": "This is directly stated in the passage: \"She drinks water.\""
+        },
+        {
+          "id": 3,
+          "question": "What does the passage say about: \"He reads books....\"?",
+          "options": [
+            "The teacher teaches English.",
+            "She loves her job.",
+            "He wears glasses.",
+            "He reads books."
+          ],
+          "answer": "He reads books.",
+          "explanation": "This is directly stated in the passage: \"He reads books.\""
+        },
+        {
+          "id": 4,
+          "question": "What does the passage say about: \"We play cricket....\"?",
+          "options": [
+            "She buys vegetables.",
+            "I need your help.",
+            "We clean our house.",
+            "We play cricket."
+          ],
+          "answer": "We play cricket.",
+          "explanation": "This is directly stated in the passage: \"We play cricket.\""
+        },
+        {
+          "id": 5,
+          "question": "What does the passage say about: \"They watch movies....\"?",
+          "options": [
+            "I watch TV every night.",
+            "He knows the answer.",
+            "She sings songs.",
+            "They watch movies."
+          ],
+          "answer": "They watch movies.",
+          "explanation": "This is directly stated in the passage: \"They watch movies.\""
+        },
+        {
+          "id": 6,
+          "question": "What does the passage say about: \"You write letters....\"?",
+          "options": [
+            "He plays guitar.",
+            "They use computers.",
+            "They sell fruits.",
+            "You write letters."
+          ],
+          "answer": "You write letters.",
+          "explanation": "This is directly stated in the passage: \"You write letters.\""
+        },
+        {
+          "id": 7,
+          "question": "What does the passage say about: \"The dog eats food....\"?",
+          "options": [
+            "They drink tea.",
+            "My father runs a business.",
+            "I take the bus.",
+            "The dog eats food."
+          ],
+          "answer": "The dog eats food.",
+          "explanation": "This is directly stated in the passage: \"The dog eats food.\""
+        },
+        {
+          "id": 8,
+          "question": "What does the passage say about: \"My mother cooks food....\"?",
+          "options": [
+            "We speak Hindi.",
+            "She teaches mathematics.",
+            "He fixes computers.",
+            "My mother cooks food."
+          ],
+          "answer": "My mother cooks food.",
+          "explanation": "This is directly stated in the passage: \"My mother cooks food.\""
+        }
+      ]
+    },
+    {
+      "title": "My Morning Routine",
+      "text": "I wake up at six o'clock every morning. I brush my teeth and wash my face. Then I drink a glass of water. I eat breakfast with my family. My father reads the newspaper. My mother makes tea. I put on my school uniform and pack my bag. I walk to school with my friend Arjun. We reach school at eight o'clock. The teacher starts the class on time. I study hard and listen carefully.",
+      "hindiTranslation": "मैं हर सुबह छह बजे उठता हूँ। मैं अपने दाँत साफ करता हूँ और मुँह धोता हूँ। फिर मैं एक गिलास पानी पीता हूँ। मैं अपने परिवार के साथ नाश्ता करता हूँ। मेरे पिताजी अखबार पढ़ते हैं। मेरी माँ चाय बनाती है। मैं अपनी स्कूल की वर्दी पहनता हूँ और अपना बैग पैक करता हूँ। मैं अपने दोस्त अर्जुन के साथ स्कूल पैदल जाता हूँ। हम आठ बजे स्कूल पहुँचते हैं। अध्यापक समय पर कक्षा शुरू करते हैं। मैं मेहनत से पढ़ता हूँ और ध्यान से सुनता हूँ।",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "What time does the narrator wake up?",
+          "options": [
+            "Seven o'clock",
+            "Five o'clock",
+            "Six o'clock",
+            "Eight o'clock"
+          ],
+          "answer": "Six o'clock",
+          "explanation": "The passage says: \"I wake up at six o'clock every morning.\""
+        },
+        {
+          "id": 2,
+          "question": "What does the narrator drink first in the morning?",
+          "options": [
+            "A cup of tea",
+            "A glass of water",
+            "A glass of milk",
+            "Orange juice"
+          ],
+          "answer": "A glass of water",
+          "explanation": "The passage states: \"I drink a glass of water.\""
+        },
+        {
+          "id": 3,
+          "question": "What does the narrator's father do in the morning?",
+          "options": [
+            "He makes tea.",
+            "He reads the newspaper.",
+            "He drives to work.",
+            "He cooks breakfast."
+          ],
+          "answer": "He reads the newspaper.",
+          "explanation": "The passage says: \"My father reads the newspaper.\""
+        },
+        {
+          "id": 4,
+          "question": "Who makes tea in the morning?",
+          "options": [
+            "The narrator",
+            "The father",
+            "The mother",
+            "Arjun"
+          ],
+          "answer": "The mother",
+          "explanation": "The passage says: \"My mother makes tea.\""
+        },
+        {
+          "id": 5,
+          "question": "How does the narrator go to school?",
+          "options": [
+            "By bus",
+            "By bicycle",
+            "By car",
+            "On foot"
+          ],
+          "answer": "On foot",
+          "explanation": "The passage says: \"I walk to school with my friend Arjun.\""
+        },
+        {
+          "id": 6,
+          "question": "What time do they reach school?",
+          "options": [
+            "Seven o'clock",
+            "Nine o'clock",
+            "Eight o'clock",
+            "Six o'clock"
+          ],
+          "answer": "Eight o'clock",
+          "explanation": "The passage states: \"We reach school at eight o'clock.\""
+        },
+        {
+          "id": 7,
+          "question": "Who goes to school with the narrator?",
+          "options": [
+            "His father",
+            "His mother",
+            "His friend Arjun",
+            "His teacher"
+          ],
+          "answer": "His friend Arjun",
+          "explanation": "The passage says: \"I walk to school with my friend Arjun.\""
+        },
+        {
+          "id": 8,
+          "question": "Which sentence uses the Subject-Verb-Object pattern correctly from the passage?",
+          "options": [
+            "Reads father newspaper the.",
+            "My father reads the newspaper.",
+            "Newspaper my father reads.",
+            "The newspaper father reads my."
+          ],
+          "answer": "My father reads the newspaper.",
+          "explanation": "In SVO order: Subject (My father) + Verb (reads) + Object (the newspaper)."
+        }
+      ]
+    },
+    {
+      "title": "Things I Do Not Do",
+      "text": "I do not eat junk food every day. I do not wake up late on school days. My brother does not watch television in the afternoon. He does not play video games during study time. My sister does not forget her homework. She does not talk in class. We do not waste water at home. Our parents do not allow us to sleep very late. My mother does not cook oily food often. We do not skip our morning exercise.",
+      "hindiTranslation": "मैं हर रोज़ जंक फूड नहीं खाता। मैं स्कूल के दिनों में देर से नहीं उठता। मेरा भाई दोपहर में टेलीविजन नहीं देखता। वह पढ़ाई के समय वीडियो गेम नहीं खेलता। मेरी बहन अपना गृहकार्य नहीं भूलती। वह कक्षा में बात नहीं करती। हम घर पर पानी बर्बाद नहीं करते। हमारे माता-पिता हमें बहुत देर से सोने नहीं देते। मेरी माँ अक्सर तेलीय खाना नहीं बनाती। हम अपना सुबह का व्यायाम नहीं छोड़ते।",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "Does the narrator eat junk food every day?",
+          "options": [
+            "Yes, every day.",
+            "No, he does not eat junk food every day.",
+            "Yes, but only on weekends.",
+            "The passage does not say."
+          ],
+          "answer": "No, he does not eat junk food every day.",
+          "explanation": "The passage says: \"I do not eat junk food every day.\""
+        },
+        {
+          "id": 2,
+          "question": "What does the narrator's brother NOT do in the afternoon?",
+          "options": [
+            "He does not study.",
+            "He does not eat.",
+            "He does not watch television.",
+            "He does not sleep."
+          ],
+          "answer": "He does not watch television.",
+          "explanation": "The passage says: \"My brother does not watch television in the afternoon.\""
+        },
+        {
+          "id": 3,
+          "question": "Which negative form is used for third-person singular (he/she)?",
+          "options": [
+            "do not",
+            "not does",
+            "does not",
+            "did not"
+          ],
+          "answer": "does not",
+          "explanation": "For he/she/it, we use \"does not\" to make a negative sentence."
+        },
+        {
+          "id": 4,
+          "question": "What does the sister NOT do in class?",
+          "options": [
+            "She does not write.",
+            "She does not listen.",
+            "She does not talk.",
+            "She does not sit."
+          ],
+          "answer": "She does not talk.",
+          "explanation": "The passage says: \"She does not talk in class.\""
+        },
+        {
+          "id": 5,
+          "question": "What do the family members NOT waste at home?",
+          "options": [
+            "Food",
+            "Time",
+            "Water",
+            "Money"
+          ],
+          "answer": "Water",
+          "explanation": "The passage says: \"We do not waste water at home.\""
+        },
+        {
+          "id": 6,
+          "question": "What do the parents NOT allow?",
+          "options": [
+            "Playing outside",
+            "Watching movies",
+            "Eating sweets",
+            "Sleeping very late"
+          ],
+          "answer": "Sleeping very late",
+          "explanation": "The passage says: \"Our parents do not allow us to sleep very late.\""
+        },
+        {
+          "id": 7,
+          "question": "Which sentence is a correct negative sentence in simple present?",
+          "options": [
+            "She not does forget her homework.",
+            "She does not forget her homework.",
+            "She do not forgets her homework.",
+            "She not forget her homework."
+          ],
+          "answer": "She does not forget her homework.",
+          "explanation": "The correct form for third-person singular negative is: Subject + does not + base verb."
+        },
+        {
+          "id": 8,
+          "question": "What do they NOT skip in the morning?",
+          "options": [
+            "Breakfast",
+            "Morning exercise",
+            "Brushing teeth",
+            "Reading"
+          ],
+          "answer": "Morning exercise",
+          "explanation": "The passage says: \"We do not skip our morning exercise.\""
+        }
+      ]
+    },
+    {
+      "title": "Priya Asks About Your Day",
+      "text": "Priya meets her new classmate, Rohan, at school. She wants to know about his daily life. She asks him many questions. \"Do you live near the school?\" Rohan says, \"Yes, I do.\" She asks, \"Does your mother work?\" He replies, \"Yes, she does. She teaches at a college.\" Priya asks, \"What do you eat for breakfast?\" Rohan answers, \"I eat bread and eggs.\" She also asks, \"Where do you play in the evening?\" He says, \"I play in the park near my house.\" Priya smiles and says, \"We have a lot in common!\"",
+      "hindiTranslation": "प्रिया स्कूल में अपने नए सहपाठी रोहन से मिलती है। वह उसकी दिनचर्या के बारे में जानना चाहती है। वह उससे कई सवाल पूछती है। \"क्या तुम स्कूल के पास रहते हो?\" रोहन कहता है, \"हाँ, मैं रहता हूँ।\" वह पूछती है, \"क्या तुम्हारी माँ काम करती हैं?\" वह जवाब देता है, \"हाँ, करती हैं। वह एक कॉलेज में पढ़ाती हैं।\" प्रिया पूछती है, \"तुम नाश्ते में क्या खाते हो?\" रोहन जवाब देता है, \"मैं ब्रेड और अंडे खाता हूँ।\" वह यह भी पूछती है, \"शाम को तुम कहाँ खेलते हो?\" वह कहता है, \"मैं अपने घर के पास पार्क में खेलता हूँ।\" प्रिया मुस्कुराती है और कहती है, \"हम दोनों में बहुत कुछ एक जैसा है!\"",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "Where does Priya meet Rohan?",
+          "options": [
+            "At a park",
+            "At a market",
+            "At school",
+            "At home"
+          ],
+          "answer": "At school",
+          "explanation": "The passage says: \"Priya meets her new classmate, Rohan, at school.\""
+        },
+        {
+          "id": 2,
+          "question": "Which question word asks about a place?",
+          "options": [
+            "What",
+            "Does",
+            "Where",
+            "Do"
+          ],
+          "answer": "Where",
+          "explanation": "\"Where\" is used to ask about a place. Example: \"Where do you play?\""
+        },
+        {
+          "id": 3,
+          "question": "What does Rohan eat for breakfast?",
+          "options": [
+            "Rice and dal",
+            "Bread and eggs",
+            "Fruits and juice",
+            "Idli and sambar"
+          ],
+          "answer": "Bread and eggs",
+          "explanation": "Rohan says: \"I eat bread and eggs.\""
+        },
+        {
+          "id": 4,
+          "question": "Which question form is used for he/she/it in Yes/No questions?",
+          "options": [
+            "Do + subject + verb",
+            "Does + subject + base verb",
+            "Is + subject + verb",
+            "Did + subject + verb"
+          ],
+          "answer": "Does + subject + base verb",
+          "explanation": "For third-person singular, we use \"Does\" to form Yes/No questions, e.g., \"Does your mother work?\""
+        },
+        {
+          "id": 5,
+          "question": "Where does Rohan play in the evening?",
+          "options": [
+            "In the school ground",
+            "In his house",
+            "In the park near his house",
+            "On the street"
+          ],
+          "answer": "In the park near his house",
+          "explanation": "Rohan says: \"I play in the park near my house.\""
+        },
+        {
+          "id": 6,
+          "question": "What does Rohan's mother do?",
+          "options": [
+            "She works in a hospital.",
+            "She teaches at a college.",
+            "She runs a shop.",
+            "She works at a bank."
+          ],
+          "answer": "She teaches at a college.",
+          "explanation": "Rohan says: \"She teaches at a college.\""
+        },
+        {
+          "id": 7,
+          "question": "Which sentence is a correct Yes/No question in simple present?",
+          "options": [
+            "You do live near the school?",
+            "Live you near the school?",
+            "Do you live near the school?",
+            "Does you live near the school?"
+          ],
+          "answer": "Do you live near the school?",
+          "explanation": "For I/you/we/they, we use \"Do\" at the start to form a Yes/No question."
+        },
+        {
+          "id": 8,
+          "question": "What does Priya say at the end?",
+          "options": [
+            "\"I do not know you.\"",
+            "\"We have a lot in common!\"",
+            "\"You are very different from me.\"",
+            "\"Let us go home now.\""
+          ],
+          "answer": "\"We have a lot in common!\"",
+          "explanation": "The passage says: \"Priya smiles and says, 'We have a lot in common!'\""
+        }
+      ]
+    },
+    {
+      "title": "My Family",
+      "text": "My name is Kavya. I have a small family. My father is a doctor. I love him very much. He loves me too. My mother is a teacher. She helps me with my homework. I help her in the kitchen sometimes. My brother Aryan is ten years old. He is younger than me. I look after him when our parents are busy. Our grandmother lives with us. We all love her. She tells us wonderful stories every night. My family is my biggest strength.",
+      "hindiTranslation": "मेरा नाम काव्या है। मेरा एक छोटा परिवार है। मेरे पिताजी एक डॉक्टर हैं। मैं उन्हें बहुत प्यार करती हूँ। वे भी मुझसे प्यार करते हैं। मेरी माँ एक शिक्षिका हैं। वह मेरे गृहकार्य में मेरी मदद करती हैं। मैं कभी-कभी रसोई में उनकी मदद करती हूँ। मेरा भाई आर्यन दस साल का है। वह मुझसे छोटा है। जब हमारे माता-पिता व्यस्त होते हैं तो मैं उसकी देखभाल करती हूँ। हमारी दादी हमारे साथ रहती हैं। हम सब उन्हें प्यार करते हैं। वह हर रात हमें सुंदर कहानियाँ सुनाती हैं। मेरा परिवार मेरी सबसे बड़ी शक्ति है।",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "What is the narrator's name?",
+          "options": [
+            "Priya",
+            "Aryan",
+            "Kavya",
+            "Rohan"
+          ],
+          "answer": "Kavya",
+          "explanation": "The passage begins: \"My name is Kavya.\""
+        },
+        {
+          "id": 2,
+          "question": "What does Kavya's father do?",
+          "options": [
+            "He is a teacher.",
+            "He is a doctor.",
+            "He is an engineer.",
+            "He is a lawyer."
+          ],
+          "answer": "He is a doctor.",
+          "explanation": "The passage says: \"My father is a doctor.\""
+        },
+        {
+          "id": 3,
+          "question": "Which object pronoun replaces \"my father\" when he is the object?",
+          "options": [
+            "He",
+            "His",
+            "Him",
+            "Himself"
+          ],
+          "answer": "Him",
+          "explanation": "\"Him\" is the object pronoun for a male person. Example: \"I love him very much.\""
+        },
+        {
+          "id": 4,
+          "question": "Who helps Kavya with homework?",
+          "options": [
+            "Her father",
+            "Her grandmother",
+            "Her brother",
+            "Her mother"
+          ],
+          "answer": "Her mother",
+          "explanation": "The passage says: \"My mother is a teacher. She helps me with my homework.\""
+        },
+        {
+          "id": 5,
+          "question": "Which possessive adjective is used to show something belongs to Kavya?",
+          "options": [
+            "Her",
+            "His",
+            "My",
+            "Our"
+          ],
+          "answer": "My",
+          "explanation": "Kavya uses \"my\" throughout as a possessive adjective, e.g., \"My name is Kavya.\""
+        },
+        {
+          "id": 6,
+          "question": "What does the grandmother do every night?",
+          "options": [
+            "She cooks dinner.",
+            "She tells wonderful stories.",
+            "She sings songs.",
+            "She watches television."
+          ],
+          "answer": "She tells wonderful stories.",
+          "explanation": "The passage says: \"She tells us wonderful stories every night.\""
+        },
+        {
+          "id": 7,
+          "question": "Which subject pronoun is used for the grandmother in the passage?",
+          "options": [
+            "He",
+            "They",
+            "It",
+            "She"
+          ],
+          "answer": "She",
+          "explanation": "The grandmother is referred to as \"She\", the subject pronoun for a female person."
+        },
+        {
+          "id": 8,
+          "question": "Which sentence uses a possessive adjective correctly?",
+          "options": [
+            "Our grandmother lives with us.",
+            "Us grandmother lives with our.",
+            "We grandmother lives with ours.",
+            "Their grandmother lives with them we."
+          ],
+          "answer": "Our grandmother lives with us.",
+          "explanation": "\"Our\" is the possessive adjective for \"we\". It correctly modifies the noun \"grandmother\"."
+        }
+      ]
+    },
+    {
+      "title": "A Trip to the Market",
+      "text": "On Saturday, my mother takes me to the market. She wants to buy vegetables and fruit. First, we go to a vegetable stall. The stall has a big basket of tomatoes. She buys a kilo of tomatoes. Then we walk to a fruit shop. I see an orange, an apple, and a banana on the counter. My mother buys an umbrella from a shop nearby because the sky looks cloudy. The market is always busy on weekends. An old man sells fresh flowers at the entrance. I enjoy the visit to the market every week.",
+      "hindiTranslation": "शनिवार को, मेरी माँ मुझे बाजार ले जाती हैं। वह सब्जियाँ और फल खरीदना चाहती हैं। पहले, हम एक सब्जी की दुकान पर जाते हैं। दुकान पर टमाटर की एक बड़ी टोकरी है। वह एक किलो टमाटर खरीदती है। फिर हम एक फलों की दुकान पर चलते हैं। मैं काउंटर पर एक संतरा, एक सेब और एक केला देखता हूँ। मेरी माँ पास की एक दुकान से एक छाता खरीदती हैं क्योंकि आसमान में बादल छाए हैं। बाजार हमेशा सप्ताहांत पर व्यस्त रहता है। एक बुजुर्ग आदमी प्रवेश द्वार पर ताजे फूल बेचता है। मुझे हर हफ्ते बाजार जाना अच्छा लगता है।",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "When does the mother take the narrator to the market?",
+          "options": [
+            "On Sunday",
+            "On Friday",
+            "On Saturday",
+            "On Monday"
+          ],
+          "answer": "On Saturday",
+          "explanation": "The passage says: \"On Saturday, my mother takes me to the market.\""
+        },
+        {
+          "id": 2,
+          "question": "Which article is used before the word \"umbrella\"?",
+          "options": [
+            "A",
+            "An",
+            "The",
+            "No article"
+          ],
+          "answer": "An",
+          "explanation": "\"An\" is used before words that start with a vowel sound. \"Umbrella\" starts with a vowel sound /ʌ/."
+        },
+        {
+          "id": 3,
+          "question": "What does the narrator see on the counter at the fruit shop?",
+          "options": [
+            "A mango, a guava, and a pear",
+            "An orange, an apple, and a banana",
+            "A melon, an avocado, and grapes",
+            "Tomatoes, onions, and potatoes"
+          ],
+          "answer": "An orange, an apple, and a banana",
+          "explanation": "The passage says: \"I see an orange, an apple, and a banana on the counter.\""
+        },
+        {
+          "id": 4,
+          "question": "Which article is used to refer to something specific and already mentioned?",
+          "options": [
+            "A",
+            "An",
+            "The",
+            "Some"
+          ],
+          "answer": "The",
+          "explanation": "\"The\" is the definite article and refers to a specific, known noun. E.g., \"the stall\", \"the market\"."
+        },
+        {
+          "id": 5,
+          "question": "Why does the mother buy an umbrella?",
+          "options": [
+            "Because it is raining.",
+            "Because the sky looks cloudy.",
+            "Because she lost her old one.",
+            "Because it is on sale."
+          ],
+          "answer": "Because the sky looks cloudy.",
+          "explanation": "The passage says she buys an umbrella \"because the sky looks cloudy.\""
+        },
+        {
+          "id": 6,
+          "question": "Who sells fresh flowers at the entrance?",
+          "options": [
+            "A young boy",
+            "The mother",
+            "An old man",
+            "A woman"
+          ],
+          "answer": "An old man",
+          "explanation": "The passage says: \"An old man sells fresh flowers at the entrance.\""
+        },
+        {
+          "id": 7,
+          "question": "Which sentence uses articles correctly?",
+          "options": [
+            "She buys a kilo of the tomatoes from an stall.",
+            "She buys a kilo of tomatoes.",
+            "She buys an kilo of tomatoes.",
+            "She buys the kilo of a tomatoes."
+          ],
+          "answer": "She buys a kilo of tomatoes.",
+          "explanation": "\"A\" is used with singular countable nouns starting with a consonant sound. \"A kilo\" is correct."
+        },
+        {
+          "id": 8,
+          "question": "What does the vegetable stall have?",
+          "options": [
+            "A big basket of onions",
+            "A small box of potatoes",
+            "A big basket of tomatoes",
+            "A bag of spinach"
+          ],
+          "answer": "A big basket of tomatoes",
+          "explanation": "The passage says: \"The stall has a big basket of tomatoes.\""
+        }
+      ]
+    },
+    {
+      "title": "A Busy Family",
+      "text": "The Sharma family is very busy every day. Mr Sharma works at an office. He writes reports and reads emails. Mrs Sharma cooks breakfast in the morning. She also teaches children at a nearby school. Their son Rajan studies in class seven. He reads his textbooks and writes notes every evening. Their daughter Meena plays the piano and paints pictures. The family eats dinner together at eight o'clock. After dinner, Mr Sharma reads a book. Mrs Sharma listens to music. Rajan plays chess with his father on weekends. Meena helps her mother clean the kitchen. They all work hard and stay happy.",
+      "hindiTranslation": "शर्मा परिवार हर दिन बहुत व्यस्त रहता है। श्री शर्मा एक दफ्तर में काम करते हैं। वह रिपोर्ट लिखते हैं और ईमेल पढ़ते हैं। श्रीमती शर्मा सुबह नाश्ता बनाती हैं। वह पास के एक स्कूल में बच्चों को भी पढ़ाती हैं। उनका बेटा राजन सातवीं कक्षा में पढ़ता है। वह हर शाम अपनी पाठ्यपुस्तकें पढ़ता है और नोट्स लिखता है। उनकी बेटी मीना पियानो बजाती है और तस्वीरें बनाती है। परिवार आठ बजे एक साथ रात का खाना खाता है। रात के खाने के बाद, श्री शर्मा एक किताब पढ़ते हैं। श्रीमती शर्मा संगीत सुनती हैं। राजन सप्ताहांत पर अपने पिता के साथ शतरंज खेलता है। मीना रसोई साफ करने में अपनी माँ की मदद करती है। वे सब मेहनत करते हैं और खुश रहते हैं।",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "Where does Mr Sharma work?",
+          "options": [
+            "At a hospital",
+            "At a school",
+            "At an office",
+            "At a market"
+          ],
+          "answer": "At an office",
+          "explanation": "The passage says: \"Mr Sharma works at an office.\""
+        },
+        {
+          "id": 2,
+          "question": "What does Rajan do every evening?",
+          "options": [
+            "He plays the piano.",
+            "He reads textbooks and writes notes.",
+            "He plays chess.",
+            "He paints pictures."
+          ],
+          "answer": "He reads textbooks and writes notes.",
+          "explanation": "The passage says: \"He reads his textbooks and writes notes every evening.\""
+        },
+        {
+          "id": 3,
+          "question": "Which common verb describes what Mrs Sharma does in the morning?",
+          "options": [
+            "She reads.",
+            "She plays.",
+            "She cooks.",
+            "She writes."
+          ],
+          "answer": "She cooks.",
+          "explanation": "The passage says: \"Mrs Sharma cooks breakfast in the morning.\""
+        },
+        {
+          "id": 4,
+          "question": "What does Meena do? (Choose all that apply — pick the best answer)",
+          "options": [
+            "She studies and reads.",
+            "She plays the piano and paints pictures.",
+            "She cooks and cleans.",
+            "She writes and works."
+          ],
+          "answer": "She plays the piano and paints pictures.",
+          "explanation": "The passage says: \"Their daughter Meena plays the piano and paints pictures.\""
+        },
+        {
+          "id": 5,
+          "question": "What does Mr Sharma do after dinner?",
+          "options": [
+            "He plays chess.",
+            "He watches television.",
+            "He reads a book.",
+            "He listens to music."
+          ],
+          "answer": "He reads a book.",
+          "explanation": "The passage says: \"After dinner, Mr Sharma reads a book.\""
+        },
+        {
+          "id": 6,
+          "question": "Which verb from the passage means to prepare food?",
+          "options": [
+            "reads",
+            "writes",
+            "plays",
+            "cooks"
+          ],
+          "answer": "cooks",
+          "explanation": "\"Cooks\" means to prepare food by heating. Mrs Sharma cooks breakfast."
+        },
+        {
+          "id": 7,
+          "question": "When does Rajan play chess with his father?",
+          "options": [
+            "Every evening",
+            "After dinner",
+            "In the morning",
+            "On weekends"
+          ],
+          "answer": "On weekends",
+          "explanation": "The passage says: \"Rajan plays chess with his father on weekends.\""
+        },
+        {
+          "id": 8,
+          "question": "Which sentence correctly uses the verb 'study' in simple present for Rajan?",
+          "options": [
+            "Rajan study in class seven.",
+            "Rajan studies in class seven.",
+            "Rajan studying in class seven.",
+            "Rajan is study in class seven."
+          ],
+          "answer": "Rajan studies in class seven.",
+          "explanation": "For third-person singular, we add -es to verbs ending in a consonant+y pattern: study → studies."
+        }
+      ]
+    },
+    {
+      "title": "A Normal Day",
+      "text": "Today is Monday. The weather is cool and pleasant. The sky is clear and blue. It is seven o'clock in the morning. Suman wakes up and looks out of the window. She sees a park, a school, and a market from her window. She eats idli for breakfast. Then she takes the bus to her office in the city. At lunchtime, she eats rice and dal at a restaurant near her office. In the evening, the weather becomes windy. She buys some apples and milk on her way home. She cooks a simple dinner and sits on the balcony. It is a normal but happy day for her.",
+      "hindiTranslation": "आज सोमवार है। मौसम ठंडा और सुहावना है। आकाश साफ और नीला है। सुबह के सात बज रहे हैं। सुमन उठती है और खिड़की से बाहर देखती है। वह अपनी खिड़की से एक पार्क, एक स्कूल और एक बाजार देखती है। वह नाश्ते में इडली खाती है। फिर वह शहर में अपने दफ्तर जाने के लिए बस लेती है। दोपहर के खाने के समय, वह अपने दफ्तर के पास एक रेस्तरां में चावल और दाल खाती है। शाम को, मौसम हवादार हो जाता है। वह घर जाते हुए कुछ सेब और दूध खरीदती है। वह एक साधारण रात का खाना बनाती है और बालकनी पर बैठती है। उसके लिए यह एक सामान्य लेकिन खुशहाल दिन है।",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "What day is it in the passage?",
+          "options": [
+            "Tuesday",
+            "Sunday",
+            "Friday",
+            "Monday"
+          ],
+          "answer": "Monday",
+          "explanation": "The passage begins: \"Today is Monday.\""
+        },
+        {
+          "id": 2,
+          "question": "How is the weather in the morning?",
+          "options": [
+            "Hot and humid",
+            "Rainy and cold",
+            "Cool and pleasant",
+            "Windy and cloudy"
+          ],
+          "answer": "Cool and pleasant",
+          "explanation": "The passage says: \"The weather is cool and pleasant.\""
+        },
+        {
+          "id": 3,
+          "question": "What does Suman eat for breakfast?",
+          "options": [
+            "Rice and dal",
+            "Bread and eggs",
+            "Idli",
+            "Fruits"
+          ],
+          "answer": "Idli",
+          "explanation": "The passage says: \"She eats idli for breakfast.\""
+        },
+        {
+          "id": 4,
+          "question": "How does Suman travel to her office?",
+          "options": [
+            "By car",
+            "By train",
+            "On foot",
+            "By bus"
+          ],
+          "answer": "By bus",
+          "explanation": "The passage says: \"She takes the bus to her office in the city.\""
+        },
+        {
+          "id": 5,
+          "question": "Where does Suman eat lunch?",
+          "options": [
+            "At home",
+            "At her office desk",
+            "At a restaurant near her office",
+            "At a friend's house"
+          ],
+          "answer": "At a restaurant near her office",
+          "explanation": "The passage says: \"she eats rice and dal at a restaurant near her office.\""
+        },
+        {
+          "id": 6,
+          "question": "What is the weather like in the evening?",
+          "options": [
+            "Cool and sunny",
+            "Hot and dry",
+            "Windy",
+            "Rainy"
+          ],
+          "answer": "Windy",
+          "explanation": "The passage says: \"In the evening, the weather becomes windy.\""
+        },
+        {
+          "id": 7,
+          "question": "What does Suman buy on her way home?",
+          "options": [
+            "Bread and butter",
+            "Apples and milk",
+            "Vegetables and rice",
+            "Tea and biscuits"
+          ],
+          "answer": "Apples and milk",
+          "explanation": "The passage says: \"She buys some apples and milk on her way home.\""
+        },
+        {
+          "id": 8,
+          "question": "Which word in the passage describes a place where you can eat?",
+          "options": [
+            "Balcony",
+            "Office",
+            "Market",
+            "Restaurant"
+          ],
+          "answer": "Restaurant",
+          "explanation": "A \"restaurant\" is a place where you go to eat food. Suman eats lunch at a restaurant."
+        }
+      ]
+    },
+    {
+      "title": "English Basics: A Quick Review",
+      "text": "Rahul is a student. He studies English every day. He does not find it difficult. He reads sentences like: \"I eat an apple.\" and \"She drinks the milk.\" He knows that \"I, he, she, we, they\" are subject pronouns. He also knows that \"me, him, her, us, them\" are object pronouns. His teacher tells him, \"My book is on the table. Your pen is here.\" Rahul asks, \"Does she teach grammar?\" The teacher says, \"Yes, she does.\" He does not skip his practice. He writes new words in his notebook and reads them aloud. Every day he learns something new.",
+      "hindiTranslation": "राहुल एक छात्र है। वह हर दिन अंग्रेजी पढ़ता है। उसे यह मुश्किल नहीं लगती। वह इस तरह के वाक्य पढ़ता है: \"मैं एक सेब खाता हूँ।\" और \"वह दूध पीती है।\" वह जानता है कि \"I, he, she, we, they\" कर्ता सर्वनाम हैं। वह यह भी जानता है कि \"me, him, her, us, them\" कर्म सर्वनाम हैं। उसके अध्यापक उसे बताते हैं, \"मेरी किताब मेज पर है। तुम्हारी कलम यहाँ है।\" राहुल पूछता है, \"क्या वह व्याकरण पढ़ाती हैं?\" अध्यापक कहते हैं, \"हाँ, पढ़ाती हैं।\" वह अपना अभ्यास नहीं छोड़ता। वह अपनी नोटबुक में नए शब्द लिखता है और उन्हें जोर से पढ़ता है। हर दिन वह कुछ नया सीखता है।",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "What subject does Rahul study every day?",
+          "options": [
+            "Hindi",
+            "Mathematics",
+            "Science",
+            "English"
+          ],
+          "answer": "English",
+          "explanation": "The passage says: \"He studies English every day.\""
+        },
+        {
+          "id": 2,
+          "question": "Which of the following is a subject pronoun?",
+          "options": [
+            "Him",
+            "Her",
+            "Them",
+            "She"
+          ],
+          "answer": "She",
+          "explanation": "\"She\" is a subject pronoun. \"Him\", \"her\" (object), and \"them\" are object pronouns."
+        },
+        {
+          "id": 3,
+          "question": "Which of the following is an object pronoun?",
+          "options": [
+            "I",
+            "We",
+            "They",
+            "Us"
+          ],
+          "answer": "Us",
+          "explanation": "\"Us\" is the object pronoun for \"we\". I, We, They are subject pronouns."
+        },
+        {
+          "id": 4,
+          "question": "Which article is correctly used in \"I eat an apple\"?",
+          "options": [
+            "A — because apple is countable",
+            "An — because apple starts with a vowel sound",
+            "The — because apple is specific",
+            "No article is needed"
+          ],
+          "answer": "An — because apple starts with a vowel sound",
+          "explanation": "\"An\" is used before words starting with a vowel sound. \"Apple\" starts with the vowel sound /æ/."
+        },
+        {
+          "id": 5,
+          "question": "What question does Rahul ask his teacher?",
+          "options": [
+            "\"Do you teach grammar?\"",
+            "\"Does she teach grammar?\"",
+            "\"Is she teaching grammar?\"",
+            "\"Did she teach grammar?\""
+          ],
+          "answer": "\"Does she teach grammar?\"",
+          "explanation": "Rahul asks: \"Does she teach grammar?\" — a Yes/No question using \"does\" for third-person singular."
+        },
+        {
+          "id": 6,
+          "question": "Which is a possessive adjective in the passage?",
+          "options": [
+            "He",
+            "My",
+            "Us",
+            "She"
+          ],
+          "answer": "My",
+          "explanation": "\"My\" is a possessive adjective. It shows ownership. Example: \"My book is on the table.\""
+        },
+        {
+          "id": 7,
+          "question": "What does Rahul write in his notebook?",
+          "options": [
+            "Grammar rules",
+            "Stories",
+            "New words",
+            "Sentences"
+          ],
+          "answer": "New words",
+          "explanation": "The passage says: \"He writes new words in his notebook.\""
+        },
+        {
+          "id": 8,
+          "question": "Which sentence is a correct negative sentence from the passage?",
+          "options": [
+            "He not does find it difficult.",
+            "He does not find it difficult.",
+            "He do not finds it difficult.",
+            "He not find it difficult."
+          ],
+          "answer": "He does not find it difficult.",
+          "explanation": "The correct negative form for third-person singular is: Subject + does not + base verb."
+        }
+      ]
+    }
   ]
 }

@@ -540,6 +540,11 @@ export default function DayPage() {
 // ============================================================
 function ConceptSection({ topic, content, onComplete }) {
   const [expandedSection, setExpandedSection] = useState(0);
+  // Show-more toggles — Concept tab used to hard-cap Key Rules/Mistakes at
+  // 10/8 items, hiding real content once a day's data grew past that. Now
+  // everything is visible by default with an optional collapse for long lists.
+  const [showAllRules, setShowAllRules] = useState(false);
+  const [showAllMistakes, setShowAllMistakes] = useState(false);
 
   // Helper: renders **bold** markdown in text
   const renderBold = (text) => {
@@ -683,16 +688,25 @@ function ConceptSection({ topic, content, onComplete }) {
         {content?.rules?.length > 0 && (
           <div className="bg-slate-800/50 p-6 rounded-2xl border border-slate-700">
             <h3 className="text-lg font-bold text-white mb-4 flex items-center gap-2">
-              <Star size={18} className="text-amber-400" /> Key Rules
+              <Star size={18} className="text-amber-400" /> Key Rules ({content.rules.length})
             </h3>
             <ul className="space-y-3">
-              {content.rules.slice(0, 10).map((rule, i) => (
+              {(showAllRules ? content.rules : content.rules.slice(0, 10)).map((rule, i) => (
                 <li key={i} className="flex items-start gap-3 text-slate-300 text-sm">
                   <CheckCircle2 size={16} className="text-emerald-400 shrink-0 mt-0.5" />
                   <span>{rule}</span>
                 </li>
               ))}
             </ul>
+            {content.rules.length > 10 && (
+              <button
+                onClick={() => setShowAllRules(v => !v)}
+                className="mt-4 text-sm font-semibold text-amber-400 hover:text-amber-300 flex items-center gap-1"
+              >
+                {showAllRules ? 'Show less' : `Show all ${content.rules.length} rules`}
+                <ChevronDown size={14} className={cn('transition-transform', showAllRules && 'rotate-180')} />
+              </button>
+            )}
           </div>
         )}
 
@@ -710,16 +724,25 @@ function ConceptSection({ topic, content, onComplete }) {
       {content?.mistakes?.length > 0 && (
         <div className="bg-red-500/5 border border-red-500/20 rounded-2xl p-6">
           <h3 className="text-lg font-bold text-red-400 mb-4 flex items-center gap-2">
-            <AlertCircle size={18} /> Common Mistakes to Avoid
+            <AlertCircle size={18} /> Common Mistakes to Avoid ({content.mistakes.length})
           </h3>
           <ul className="space-y-3">
-            {content.mistakes.slice(0, 8).map((mistake, i) => (
+            {(showAllMistakes ? content.mistakes : content.mistakes.slice(0, 8)).map((mistake, i) => (
               <li key={i} className="flex items-start gap-3 text-slate-300 text-sm">
                 <XCircle size={16} className="text-red-400 shrink-0 mt-0.5" />
                 <span>{mistake}</span>
               </li>
             ))}
           </ul>
+          {content.mistakes.length > 8 && (
+            <button
+              onClick={() => setShowAllMistakes(v => !v)}
+              className="mt-4 text-sm font-semibold text-red-400 hover:text-red-300 flex items-center gap-1"
+            >
+              {showAllMistakes ? 'Show less' : `Show all ${content.mistakes.length} mistakes`}
+              <ChevronDown size={14} className={cn('transition-transform', showAllMistakes && 'rotate-180')} />
+            </button>
+          )}
         </div>
       )}
 
