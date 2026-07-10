@@ -173,8 +173,9 @@ export default function Day3PracticePage() {
         questions={DAY_3_QUESTIONS}
         title="Day 3: Imperative Sentences"
         backHref="/75-days-challenge/3"
-        questionsPerSession={Math.min(50, DAY_3_QUESTIONS.length)}
+        questionsPerSession={DAY_3_QUESTIONS.length}
         shuffleMode={true}
+        allowPercentSelect={true}
       />
     </div>
   );

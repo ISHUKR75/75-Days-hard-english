@@ -22,7 +22,8 @@ import {
   Search, Filter, Volume2, Eye, EyeOff,
   ChevronLeft, ChevronRight, BarChart3,
   AlertCircle, Lightbulb, Clock, Award,
-  MessageSquare, BookMarked, Layers, Hash
+  MessageSquare, BookMarked, Layers, Hash,
+  Flag, Sparkles, Play
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -169,6 +170,7 @@ function speakText(text, rate = 0.85) {
 // Each section covers a different skill area
 // ============================================================
 const LESSON_SECTIONS = [
+  { id: 'overview',   icon: Lightbulb,     label: 'Overview & Why It Matters', color: 'text-amber-400',  bg: 'bg-amber-500/10',  border: 'border-amber-500/30'   },
   { id: 'concept',    icon: BookOpen,      label: 'Concept & Theory',         color: 'text-indigo-400',  bg: 'bg-indigo-500/10',  border: 'border-indigo-500/30'  },
   { id: 'vocabulary', icon: FileText,      label: 'Vocabulary',               color: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/30'    },
   { id: 'practice',   icon: Target,        label: 'Interactive Practice',     color: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/30' },
@@ -176,8 +178,11 @@ const LESSON_SECTIONS = [
   { id: 'writing',    icon: PenTool,       label: 'Writing Drills',           color: 'text-rose-400',    bg: 'bg-rose-500/10',    border: 'border-rose-500/30'    },
   { id: 'listening',  icon: Headphones,    label: 'Listening Practice',       color: 'text-sky-400',     bg: 'bg-sky-500/10',     border: 'border-sky-500/30'     },
   { id: 'reading',    icon: BookOpenCheck, label: 'Reading Comprehension',    color: 'text-lime-400',    bg: 'bg-lime-500/10',    border: 'border-lime-500/30'    },
+  { id: 'studyPlan',  icon: Clock,         label: 'Daily Study Plan',         color: 'text-teal-400',    bg: 'bg-teal-500/10',    border: 'border-teal-500/30'    },
   { id: 'revision',   icon: RotateCcw,     label: 'Revision & Quick Quiz',    color: 'text-orange-400',  bg: 'bg-orange-500/10',  border: 'border-orange-500/30'  },
   { id: 'test',       icon: Brain,         label: 'Final Mock Test',          color: 'text-violet-400',  bg: 'bg-violet-500/10',  border: 'border-violet-500/30'  },
+  { id: 'milestones', icon: Award,         label: 'Milestones & Badges',      color: 'text-fuchsia-400', bg: 'bg-fuchsia-500/10', border: 'border-fuchsia-500/30' },
+  { id: 'challenge',  icon: Flag,          label: "Today's Challenge Task",   color: 'text-red-400',     bg: 'bg-red-500/10',     border: 'border-red-500/30'     },
 ];
 
 // ============================================================
@@ -431,6 +436,12 @@ export default function DayPage() {
                     className="overflow-hidden"
                   >
                     <div className="px-6 pb-8 border-t border-slate-800 pt-6">
+                      {id === 'overview' && (
+                        <OverviewSection
+                          overview={data?.overview}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
                       {id === 'concept' && (
                         <ConceptSection
                           topic={topic}
@@ -481,6 +492,12 @@ export default function DayPage() {
                           onComplete={() => markSectionDone(id)}
                         />
                       )}
+                      {id === 'studyPlan' && (
+                        <StudyPlanSection
+                          morningRoutine={data?.morningRoutine}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
                       {id === 'revision' && (
                         <RevisionQuiz
                           revision={data?.revision}
@@ -492,6 +509,19 @@ export default function DayPage() {
                         <MockTestMCQ
                           dayNum={dayNum}
                           mockTest={data?.mockTest || []}
+                          playSound={playSound}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'milestones' && (
+                        <MilestonesSection
+                          milestones={data?.milestones}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'challenge' && (
+                        <ChallengeTaskSection
+                          challenge={data?.challenge}
                           playSound={playSound}
                           onComplete={() => markSectionDone(id)}
                         />
@@ -769,7 +799,7 @@ function VocabularyMassive({ vocabulary, onComplete }) {
   const [cefrFilter, setCefrFilter] = useState('all');
   const [page, setPage] = useState(1);
   const [expandedWord, setExpandedWord] = useState(null);
-  const WORDS_PER_PAGE = 50; // Show 50 words per load
+  const WORDS_PER_PAGE = 100; // Show 100 words per load
 
   // Get all unique CEFR levels
   const cefrLevels = ['all', ...new Set(allWords.map(w => w.cefrLevel).filter(Boolean))];
@@ -1015,24 +1045,55 @@ function VocabularyMassive({ vocabulary, onComplete }) {
 // stats tracking, hint system, and grammar rule display
 // ============================================================
 function InteractivePractice({ practiceQs, playSound, onComplete }) {
+  // ── All available questions from this day's practice JSON ──────────────
   const allQs = practiceQs.length > 0 ? practiceQs : [];
-  const [categoryFilter, setCategoryFilter] = useState('all');
+
+  // ── Session management — controls the pre-start screen & % selector ─────
+  const [sessionStarted, setSessionStarted] = useState(false);
+  const [sessionPercent, setSessionPercent] = useState(100);
+  const [sessionQs, setSessionQs]           = useState([]);
+
+  // ── Per-question UI state ──────────────────────────────────────────────
+  const [categoryFilter, setCategoryFilter]     = useState('all');
   const [difficultyFilter, setDifficultyFilter] = useState('all');
-  const [currentIndex, setCurrentIndex] = useState(0);
-  const [userInput, setUserInput] = useState('');
-  const [status, setStatus] = useState('idle'); // idle | correct | wrong | revealed
-  const [score, setScore] = useState(0);
-  const [wrongCount, setWrongCount] = useState(0);
-  const [showHint, setShowHint] = useState(false);
-  const [sessionComplete, setSessionComplete] = useState(false);
+  const [currentIndex, setCurrentIndex]         = useState(0);
+  const [userInput, setUserInput]               = useState('');
+  const [status, setStatus]                     = useState('idle'); // idle | correct | wrong | revealed
+  const [score, setScore]                       = useState(0);
+  const [wrongCount, setWrongCount]             = useState(0);
+  const [showHint, setShowHint]                 = useState(false);
+  const [sessionComplete, setSessionComplete]   = useState(false);
   const inputRef = useRef(null);
 
-  // Get unique categories and difficulties — no truncation, show all
-  const categories = ['all', ...new Set(allQs.map(q => q.category).filter(Boolean))];
+  // Valid % options
+  const PERCENT_OPTIONS = [20, 40, 60, 80, 100];
+
+  // ── Start session: shuffle & slice by chosen % ─────────────────────────
+  const startSession = useCallback(() => {
+    const shuffled = [...allQs].sort(() => Math.random() - 0.5);
+    const count = Math.max(1, Math.round((allQs.length * sessionPercent) / 100));
+    const picked = shuffled.slice(0, count);
+    setSessionQs(picked);
+    setCurrentIndex(0);
+    setScore(0);
+    setWrongCount(0);
+    setStatus('idle');
+    setUserInput('');
+    setShowHint(false);
+    setSessionComplete(false);
+    setSessionStarted(true);
+    setTimeout(() => inputRef.current?.focus(), 100);
+  }, [allQs, sessionPercent]);
+
+  // ── Active question set: session subset when running, else full bank ───
+  const activeQs = sessionStarted ? sessionQs : allQs;
+
+  // Get unique categories and difficulties from active set
+  const categories = ['all', ...new Set(activeQs.map(q => q.category).filter(Boolean))];
   const difficulties = ['all', 'easy', 'medium', 'hard'];
 
-  // Filter questions
-  const filtered = allQs.filter((q) => {
+  // Category / difficulty filter applies within active session
+  const filtered = activeQs.filter((q) => {
     const matchesCat = categoryFilter === 'all' || q.category === categoryFilter;
     const matchesDiff = difficultyFilter === 'all' || q.difficulty === difficultyFilter;
     return matchesCat && matchesDiff;
@@ -1082,6 +1143,92 @@ function InteractivePractice({ practiceQs, playSound, onComplete }) {
       else nextQuestion();
     }
   };
+
+  // ── PRE-START SCREEN ──────────────────────────────────────────────────────
+  if (!sessionStarted) {
+    const sessionCount = Math.max(1, Math.round((allQs.length * sessionPercent) / 100));
+    return (
+      <motion.div
+        initial={{ opacity: 0, scale: 0.96 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="space-y-5"
+      >
+        {/* Hero card */}
+        <div className="card p-8 text-center">
+          <motion.div
+            animate={{ rotate: [0, -8, 8, -8, 0], scale: [1, 1.06, 1] }}
+            transition={{ delay: 0.3, duration: 0.7 }}
+            className="w-20 h-20 rounded-3xl bg-gradient-to-br from-emerald-500 to-cyan-500 flex items-center justify-center text-4xl mx-auto mb-5 shadow-lg shadow-emerald-500/30"
+          >
+            🎯
+          </motion.div>
+          <h2 className="text-2xl font-black text-white mb-2">Interactive Practice</h2>
+          <p className="text-slate-400 text-sm mb-1">Hindi sentences padhkar unka English translation type karo</p>
+          <p className="text-slate-500 text-sm">
+            {allQs.length.toLocaleString()} practice questions available • Instant feedback • +10 XP per correct
+          </p>
+        </div>
+
+        {/* Session length picker */}
+        <div className="card p-6 space-y-4">
+          <div>
+            <p className="font-bold text-white mb-1">Session Length</p>
+            <p className="text-sm text-slate-400">
+              Kitne questions ke saath practice karna chahte ho?
+            </p>
+          </div>
+          <div className="grid grid-cols-5 gap-2">
+            {PERCENT_OPTIONS.map((pct) => {
+              const count = Math.max(1, Math.round((allQs.length * pct) / 100));
+              const active = sessionPercent === pct;
+              return (
+                <button
+                  key={pct}
+                  onClick={() => setSessionPercent(pct)}
+                  className={`py-3 rounded-xl text-center transition-all border ${
+                    active
+                      ? 'border-emerald-400 bg-emerald-500/20 text-white shadow-md shadow-emerald-500/10'
+                      : 'border-white/10 bg-white/5 text-slate-400 hover:border-white/25'
+                  }`}
+                >
+                  <div className="font-bold text-sm">{pct}%</div>
+                  <div className="text-[10px] opacity-75">{count} Qs</div>
+                </button>
+              );
+            })}
+          </div>
+          <div className="flex items-center gap-2 text-sm text-slate-400 bg-white/3 rounded-xl p-3">
+            <Zap size={14} className="text-emerald-400 shrink-0" />
+            <span>
+              {sessionCount} questions practice karenge — har sahi jawab par <span className="text-emerald-400 font-semibold">+10 XP</span> milega
+            </span>
+          </div>
+        </div>
+
+        {/* Feature highlights */}
+        <div className="grid grid-cols-3 gap-3">
+          {[['💡','Hint System','Stuck? Get a hint'],['⚡','Earn XP','+10 per correct'],['🔊','Sound FX','Instant audio']].map(([emoji,label,sub]) => (
+            <div key={label} className="card p-4 text-center">
+              <div className="text-2xl mb-2">{emoji}</div>
+              <p className="text-sm font-bold text-white">{label}</p>
+              <p className="text-xs text-slate-500">{sub}</p>
+            </div>
+          ))}
+        </div>
+
+        {/* Start button */}
+        <motion.button
+          whileHover={{ scale: 1.03, y: -2 }}
+          whileTap={{ scale: 0.97 }}
+          onClick={startSession}
+          className="w-full py-4 rounded-2xl bg-gradient-to-r from-emerald-600 to-cyan-600 hover:from-emerald-500 hover:to-cyan-500 text-white font-bold text-lg flex items-center justify-center gap-2 shadow-xl shadow-emerald-500/25 transition-all"
+        >
+          <Play size={20} fill="currentColor" />
+          Start Practice — {sessionCount} Questions
+        </motion.button>
+      </motion.div>
+    );
+  }
 
   if (sessionComplete) {
     return (
@@ -2403,8 +2550,11 @@ function MockTestMCQ({ dayNum, mockTest, playSound, onComplete }) {
   const allQuestions = mockTest || [];
 
   // Test configuration state
+  const MOCK_PCT_OPTIONS = [20, 40, 60, 80, 100];
   const [started, setStarted] = useState(false);
-  const [questionCount, setQuestionCount] = useState(20);
+  const [testPercent, setTestPercent] = useState(20);
+  // questionCount is derived from testPercent — always up-to-date
+  const questionCount = Math.max(5, Math.round((allQuestions.length * testPercent) / 100));
   const [questions, setQuestions] = useState([]);
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
@@ -2510,38 +2660,50 @@ function MockTestMCQ({ dayNum, mockTest, playSound, onComplete }) {
 
         {/* Test configuration */}
         <div className="rounded-2xl border border-violet-500/30 bg-violet-500/5 p-6 space-y-5">
-          <h4 className="font-bold text-white">Select Number of Questions</h4>
-          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3">
-            {/* De-duplicate so we never render the same count twice */}
-            {[...new Set([10, 20, 50, 100].filter(n => n <= allQuestions.length).concat(allQuestions.length <= 10 ? [allQuestions.length] : []))].map(n => (
-              <button
-                key={n}
-                onClick={() => setQuestionCount(n)}
-                className={cn(
-                  "py-3 rounded-xl border font-bold transition-all",
-                  questionCount === n
-                    ? "bg-violet-500/20 border-violet-500/40 text-violet-300"
-                    : "bg-slate-800 border-slate-700 text-slate-400 hover:border-violet-500/30"
-                )}
-              >
-                {n} Q&apos;s
-              </button>
-            ))}
+          <div>
+            <h4 className="font-bold text-white mb-1">Select Session Size</h4>
+            <p className="text-sm text-slate-400">
+              {allQuestions.length} questions available — kitna % attempt karna chahte ho?
+            </p>
           </div>
-          <div className="flex items-center gap-3 text-sm text-slate-400">
-            <Clock size={16} className="text-violet-400" />
-            <span>Time: ~{Math.round((questionCount / 10) * 1.5)} minutes</span>
-            <span>·</span>
-            <span>Pass: 70% ({Math.ceil(questionCount * 0.7)} correct)</span>
+          <div className="grid grid-cols-5 gap-2">
+            {MOCK_PCT_OPTIONS.map(pct => {
+              const count = Math.max(5, Math.round((allQuestions.length * pct) / 100));
+              const active = testPercent === pct;
+              return (
+                <button
+                  key={pct}
+                  onClick={() => setTestPercent(pct)}
+                  className={cn(
+                    "py-3 rounded-xl border text-center transition-all",
+                    active
+                      ? "bg-violet-500/20 border-violet-500/40 text-white shadow-md shadow-violet-500/10"
+                      : "bg-slate-800 border-slate-700 text-slate-400 hover:border-violet-500/30"
+                  )}
+                >
+                  <div className="font-bold text-sm">{pct}%</div>
+                  <div className="text-[10px] opacity-75">{count} Qs</div>
+                </button>
+              );
+            })}
+          </div>
+          <div className="flex items-center gap-3 text-sm text-slate-400 bg-white/3 rounded-xl p-3">
+            <Clock size={15} className="text-violet-400 shrink-0" />
+            <span>
+              {questionCount} questions • ~{Math.round((questionCount / 10) * 1.5)} min •{' '}
+              Pass: 70% = {Math.ceil(questionCount * 0.7)} correct
+            </span>
           </div>
         </div>
 
-        <button
+        <motion.button
+          whileHover={{ scale: 1.02, y: -2 }}
+          whileTap={{ scale: 0.97 }}
           onClick={startTest}
           className="w-full py-5 rounded-xl bg-gradient-to-r from-violet-600 to-purple-500 hover:from-violet-500 hover:to-purple-400 text-white font-bold text-xl transition-all shadow-xl shadow-violet-500/25 flex items-center justify-center gap-2"
         >
-          <Brain size={22} /> Start {questionCount}-Question Mock Test
-        </button>
+          <Brain size={22} /> Start Mock Test — {questionCount} Questions ({testPercent}%)
+        </motion.button>
       </div>
     );
   }

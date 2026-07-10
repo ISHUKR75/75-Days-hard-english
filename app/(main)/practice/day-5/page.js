@@ -100,10 +100,11 @@ export default function Day5PracticePage() {
         questions={DAY_5_QUESTIONS}
         title="Day 5: Demonstrative Pronouns Practice"
         backHref="/75-days-challenge/5"
-        questionsPerSession={50}
+        questionsPerSession={DAY_5_QUESTIONS.length}
         shuffleMode={true}
         showProgress={true}
         showScore={true}
+        allowPercentSelect={true}
       />
 
     </div>

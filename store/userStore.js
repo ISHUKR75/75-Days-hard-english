@@ -53,6 +53,9 @@ const INITIAL_STATE = {
     darkMode: true,
     language: 'hi', // hi = Hindi, en = English
     reminderTime: '20:00',
+    // How much of the full question bank to use per practice/test session.
+    // User picks 20/40/60/80/100% — remembered across days via persisted settings.
+    sessionQuestionPercent: 100,
   },
 };
 

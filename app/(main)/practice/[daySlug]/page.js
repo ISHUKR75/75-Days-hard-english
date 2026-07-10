@@ -93,8 +93,9 @@ export default function PracticeDayPage() {
         questions={questions}
         title={`Day ${dayNum}: ${topic.title}`}
         backHref={`/75-days-challenge/${dayNum}`}
-        questionsPerSession={Math.min(50, questions.length)}
+        questionsPerSession={questions.length}
         shuffleMode={true}
+        allowPercentSelect={true}
       />
     </div>
   );

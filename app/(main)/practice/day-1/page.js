@@ -56,8 +56,9 @@ export default function Day1PracticePage() {
         questions={DAY_1_QUESTIONS}
         title="Day 1: Basics of English"
         backHref="/75-days-challenge/1"
-        questionsPerSession={Math.min(50, DAY_1_QUESTIONS.length)}
+        questionsPerSession={DAY_1_QUESTIONS.length}
         shuffleMode={true}
+        allowPercentSelect={true}
       />
     </div>
   );

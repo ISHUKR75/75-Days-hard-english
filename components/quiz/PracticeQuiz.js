@@ -60,6 +60,11 @@ export default function PracticeQuiz({
   questionsPerSession = 20,
   shuffleMode = true,
   isTest = false,
+  // When true, shows a 20/40/60/80/100% picker on the Ready screen so the
+  // learner controls how much of the FULL question bank this session uses,
+  // instead of a hardcoded fixed count. Choice is remembered (persisted
+  // in userStore settings) across every day/practice/test page.
+  allowPercentSelect = false,
 }) {
   const [sessionState, setSessionState] = useState(STATES.READY);
   const [sessionQs,    setSessionQs]    = useState([]);
@@ -81,9 +86,26 @@ export default function PracticeQuiz({
   const timerRef     = useRef(null);
   const startTimeRef = useRef(null);
 
-  const { addXP, addCoins, recordAnswer, settings, spendCoins, coins } = useUserStore();
+  const { addXP, addCoins, recordAnswer, settings, spendCoins, coins, updateSettings } = useUserStore();
   const { playCorrect, playWrong, playPerfect, playLevelUp, playComplete, playClick } = useSound();
   const soundEnabled = settings?.soundEnabled !== false;
+
+  // ── Session size (% of full question bank) ──────────────────
+  // sessionPercent is persisted globally so the learner's choice (e.g. "I
+  // always want 60% of the bank") carries over from Day 1 to Day 75.
+  // Only 20/40/60/80/100 are valid — clamp any malformed/legacy persisted
+  // value back to 100 rather than letting it silently break session sizing.
+  const VALID_PERCENTS = [20, 40, 60, 80, 100];
+  const rawPercent = settings?.sessionQuestionPercent;
+  const sessionPercent = allowPercentSelect
+    ? (VALID_PERCENTS.includes(rawPercent) ? rawPercent : 100)
+    : 100;
+  const effectiveTarget = allowPercentSelect
+    ? Math.max(1, Math.round((questions.length * sessionPercent) / 100))
+    : Math.min(questionsPerSession, questions.length);
+  const setSessionPercent = useCallback((pct) => {
+    if (VALID_PERCENTS.includes(pct)) updateSettings({ sessionQuestionPercent: pct });
+  }, [updateSettings]);
 
   const currentQ     = sessionQs[qIndex];
   const totalQ       = sessionQs.length;
@@ -121,7 +143,7 @@ export default function PracticeQuiz({
   const startSession = useCallback(() => {
     let qs = [...questions];
     if (shuffleMode) qs = qs.sort(() => Math.random() - 0.5);
-    qs = qs.slice(0, Math.min(questionsPerSession, qs.length));
+    qs = qs.slice(0, Math.min(effectiveTarget, qs.length));
     setSessionQs(qs);
     setQIndex(0);
     setResults([]);
@@ -138,7 +160,7 @@ export default function PracticeQuiz({
     setSessionState(STATES.ACTIVE);
     startTimer();
     setTimeout(() => inputRef.current?.focus(), 150);
-  }, [questions, questionsPerSession, shuffleMode, isTest, startTimer]);
+  }, [questions, effectiveTarget, shuffleMode, isTest, startTimer]);
 
   // ── Use hint ──────────────────────────────────────────────
   const handleHint = useCallback(() => {
@@ -260,9 +282,13 @@ export default function PracticeQuiz({
     return (
       <ReadyScreen
         title={title}
-        totalQ={Math.min(questionsPerSession, questions.length)}
+        totalQ={Math.min(effectiveTarget, questions.length)}
+        totalBank={questions.length}
         onStart={startSession}
         isTest={isTest}
+        allowPercentSelect={allowPercentSelect}
+        sessionPercent={sessionPercent}
+        onChangePercent={setSessionPercent}
       />
     );
   }
@@ -385,7 +411,11 @@ export default function PracticeQuiz({
 // ============================================================
 // READY SCREEN
 // ============================================================
-function ReadyScreen({ title, totalQ, onStart, isTest }) {
+function ReadyScreen({
+  title, totalQ, totalBank, onStart, isTest,
+  allowPercentSelect = false, sessionPercent = 100, onChangePercent,
+}) {
+  const PERCENT_OPTIONS = [20, 40, 60, 80, 100];
   return (
     <motion.div variants={scaleIn} initial="hidden" animate="visible" className="card p-8 text-center">
       <motion.div
@@ -405,6 +435,38 @@ function ReadyScreen({ title, totalQ, onStart, isTest }) {
       <p className="text-slate-500 text-sm mb-8">
         {totalQ} questions • {isTest ? '30s per question' : 'Instant feedback + hints'} • +{XP_RULES.CORRECT_ANSWER} XP per correct
       </p>
+
+      {/* ── Session length picker ─────────────────────────────
+          Lets the learner pick what % of the FULL question bank
+          (totalBank) to use this round. Saved globally so it applies
+          the same way on every day's practice/test page. */}
+      {allowPercentSelect && totalBank > 0 && (
+        <div className="mb-8 p-4 rounded-2xl bg-white/4 border border-white/8 text-left">
+          <p className="text-xs font-semibold text-slate-400 uppercase tracking-wide mb-3">
+            {isTest ? 'Test length' : 'Practice length'} — {totalBank} {isTest ? 'test' : 'practice'} questions available
+          </p>
+          <div className="grid grid-cols-5 gap-2">
+            {PERCENT_OPTIONS.map((pct) => {
+              const count = Math.max(1, Math.round((totalBank * pct) / 100));
+              const active = sessionPercent === pct;
+              return (
+                <button
+                  key={pct}
+                  onClick={() => onChangePercent?.(pct)}
+                  className={`py-2.5 rounded-xl text-center transition-all border ${
+                    active
+                      ? 'border-primary-400 bg-primary-500/20 text-white shadow-md shadow-primary-500/10'
+                      : 'border-white/10 bg-white/5 text-slate-400 hover:border-white/25 hover:bg-white/8'
+                  }`}
+                >
+                  <div className="font-bold text-sm">{pct}%</div>
+                  <div className="text-[10px] opacity-75">{count} Qs</div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      )}
 
       <div className="grid grid-cols-3 gap-3 mb-8">
         {(isTest
@@ -433,15 +495,21 @@ function ReadyScreen({ title, totalQ, onStart, isTest }) {
         ))}
       </div>
 
-      <motion.button
-        whileHover={{ scale: 1.03, y: -2 }}
-        whileTap={{ scale: 0.97 }}
-        onClick={onStart}
-        className="btn-gradient w-full py-4 text-lg font-bold rounded-2xl flex items-center justify-center gap-2 shadow-lg"
-      >
-        <Play size={20} fill="currentColor" />
-        {isTest ? 'Start Test' : 'Start Practice'}
-      </motion.button>
+      {totalQ === 0 ? (
+        <div className="w-full py-4 rounded-2xl bg-rose-500/10 border border-rose-500/20 text-rose-300 text-sm font-semibold">
+          No questions available for this session yet — please check back later.
+        </div>
+      ) : (
+        <motion.button
+          whileHover={{ scale: 1.03, y: -2 }}
+          whileTap={{ scale: 0.97 }}
+          onClick={onStart}
+          className="btn-gradient w-full py-4 text-lg font-bold rounded-2xl flex items-center justify-center gap-2 shadow-lg"
+        >
+          <Play size={20} fill="currentColor" />
+          {isTest ? 'Start Test' : 'Start Practice'}
+        </motion.button>
+      )}
 
       <p className="text-xs text-slate-600 mt-4">
         Press{' '}
