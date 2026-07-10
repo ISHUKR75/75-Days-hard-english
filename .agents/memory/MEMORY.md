@@ -4,3 +4,5 @@
 - [Challenge day content generation](challenge-day-content-generation.md) — fill data/challenge/day-XX/*.json via one-off Node generator script from a real sentence-pair pool, not by hand.
 - [Day page hardcoded data bug](day-page-hardcoded-data-bug.md) — practice/vocabulary day pages had own tiny static arrays ignoring the real generated JSON banks; always check pages actually fetch the API.
 - [Day 2 content modules scope](day02-content-modules-scope.md) — each day-page tab (Listening/Reading/Revision etc.) must exist and consume its JSON field, or content growth never appears on the live site.
+- [Day page MCQ prompt fallback](day-page-mcq-prompt-fallback.md) — daily-test.json items have mixed formats: translate uses `hindi`, fill/error use `sentence` or `question`; always render `currentQ.hindi || currentQ.sentence || currentQ.question`.
+- [React Hooks before early returns](react-hooks-early-return.md) — useEffect/useState must be declared before any conditional return; put timer cleanup useEffect at top of component body, not after empty-data guard.
