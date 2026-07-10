@@ -1,183 +1,738 @@
 {
   "day": 2,
   "title": "Day 2 Listening Exercise — Self Introduction",
-  "instructions": "इन sentences को text-to-speech या audio के through सुनें और blanks भरें। (Browser TTS का इस्तेमाल हो सकता है।)",
+  "instructions": "हर sentence को ध्यान से सुनें (Listen बटन दबाएं), फिर blanks भरें। Speed को 0.75x पर set करें अगर जल्दी लग रहा हो।",
+  "totalExercises": 100,
   "exercises": [
     {
       "id": 1,
       "audioText": "My name is Sanjay and I am from Chennai.",
       "hindi": "मेरा नाम संजय है और मैं चेन्नई से हूँ।",
       "fillInBlank": "My name is _____ and I am from _____.",
-      "answer": [
-        "Sanjay",
-        "Chennai"
-      ]
+      "answer": ["Sanjay", "Chennai"]
     },
     {
       "id": 2,
       "audioText": "I have been working as a marketing manager for four years.",
       "hindi": "मैं चार साल से marketing manager के रूप में काम कर रहा हूँ।",
       "fillInBlank": "I have been working as a marketing _____ for four _____.",
-      "answer": [
-        "manager",
-        "years"
-      ]
+      "answer": ["manager", "years"]
     },
     {
       "id": 3,
       "audioText": "I come from a joint family of eight members.",
       "hindi": "मैं आठ सदस्यों वाले joint family से आता हूँ।",
       "fillInBlank": "I come from a joint _____ of eight _____.",
-      "answer": [
-        "family",
-        "members"
-      ]
+      "answer": ["family", "members"]
     },
     {
       "id": 4,
       "audioText": "I am passionate about photography and traveling.",
       "hindi": "मुझे photography और travelling का शौक है।",
       "fillInBlank": "I am _____ about photography and _____.",
-      "answer": [
-        "passionate",
-        "traveling"
-      ]
+      "answer": ["passionate", "traveling"]
     },
     {
       "id": 5,
-      "audioText": "It's a pleasure to finally meet you.",
+      "audioText": "It is a pleasure to finally meet you.",
       "hindi": "अंततः आपसे मिलना खुशी की बात है।",
-      "fillInBlank": "It's a _____ to finally _____ you.",
-      "answer": [
-        "pleasure",
-        "meet"
-      ]
+      "fillInBlank": "It is a _____ to finally _____ you.",
+      "answer": ["pleasure", "meet"]
     },
     {
       "id": 6,
       "audioText": "Hello, this is Rohan speaking from ABC Solutions.",
       "hindi": "नमस्ते, मैं रोहन बोल रहा हूँ ABC Solutions से।",
       "fillInBlank": "Hello, this is _____ speaking from ABC _____.",
-      "answer": [
-        "Rohan",
-        "Solutions"
-      ]
+      "answer": ["Rohan", "Solutions"]
     },
     {
       "id": 7,
-      "audioText": "Hi everyone, I'll be presenting the report today.",
+      "audioText": "Hi everyone, I will be presenting the report today.",
       "hindi": "नमस्ते सभी, आज मैं report present करूँगी।",
-      "fillInBlank": "Hi everyone, I'll be _____ the _____ today.",
-      "answer": [
-        "presenting",
-        "report"
-      ]
+      "fillInBlank": "Hi everyone, I will be _____ the _____ today.",
+      "answer": ["presenting", "report"]
     },
     {
       "id": 8,
-      "audioText": "I'm a data analyst with three years of experience.",
+      "audioText": "I am a data analyst with three years of experience.",
       "hindi": "मैं एक data analyst हूँ, तीन साल का अनुभव है।",
-      "fillInBlank": "I'm a data _____ with three years of _____.",
-      "answer": [
-        "analyst",
-        "experience"
-      ]
+      "fillInBlank": "I am a data _____ with three years of _____.",
+      "answer": ["analyst", "experience"]
     },
     {
       "id": 9,
       "audioText": "I completed my schooling from DAV Public School.",
       "hindi": "मैंने अपनी schooling DAV Public School से पूरी की।",
       "fillInBlank": "I completed my _____ from DAV Public _____.",
-      "answer": [
-        "schooling",
-        "School"
-      ]
+      "answer": ["schooling", "School"]
     },
     {
       "id": 10,
       "audioText": "I am a fresher looking for my first job opportunity.",
       "hindi": "मैं एक fresher हूँ, अपनी पहली job opportunity ढूँढ रहा हूँ।",
       "fillInBlank": "I am a _____ looking for my first job _____.",
-      "answer": [
-        "fresher",
-        "opportunity"
-      ]
+      "answer": ["fresher", "opportunity"]
     },
     {
       "id": 11,
       "audioText": "Dear Mr. Sharma, my name is Aditya Verma.",
       "hindi": "प्रिय श्री शर्मा, मेरा नाम आदित्य वर्मा है।",
       "fillInBlank": "Dear Mr. Sharma, my _____ is Aditya _____.",
-      "answer": [
-        "name",
-        "Verma"
-      ]
+      "answer": ["name", "Verma"]
     },
     {
       "id": 12,
       "audioText": "Thank you for calling QuickFix Support.",
       "hindi": "QuickFix Support को call करने के लिए धन्यवाद।",
       "fillInBlank": "Thank you for _____ QuickFix _____.",
-      "answer": [
-        "calling",
-        "Support"
-      ]
+      "answer": ["calling", "Support"]
     },
     {
       "id": 13,
       "audioText": "I have been teaching for over eight years.",
       "hindi": "मैं आठ सालों से पढ़ा रही हूँ।",
       "fillInBlank": "I have been _____ for over eight _____.",
-      "answer": [
-        "teaching",
-        "years"
-      ]
+      "answer": ["teaching", "years"]
     },
     {
       "id": 14,
-      "audioText": "We're here to discuss the new partnership.",
+      "audioText": "We are here to discuss the new partnership.",
       "hindi": "हम नए partnership पर चर्चा करने आए हैं।",
-      "fillInBlank": "We're here to _____ the new _____.",
-      "answer": [
-        "discuss",
-        "partnership"
-      ]
+      "fillInBlank": "We are here to _____ the new _____.",
+      "answer": ["discuss", "partnership"]
     },
     {
       "id": 15,
       "audioText": "I live in Delhi with my family.",
       "hindi": "मैं अपने परिवार के साथ दिल्ली में रहता हूँ।",
       "fillInBlank": "I _____ in Delhi with my _____.",
-      "answer": [
-        "live",
-        "family"
-      ]
+      "answer": ["live", "family"]
+    },
+    {
+      "id": 16,
+      "audioText": "My name is Priya and I work as a software developer.",
+      "hindi": "मेरा नाम प्रिया है और मैं software developer हूँ।",
+      "fillInBlank": "My name is _____ and I work as a software _____.",
+      "answer": ["Priya", "developer"]
+    },
+    {
+      "id": 17,
+      "audioText": "I belong to a small town in Rajasthan.",
+      "hindi": "मैं राजस्थान के एक छोटे शहर से हूँ।",
+      "fillInBlank": "I _____ to a small _____ in Rajasthan.",
+      "answer": ["belong", "town"]
+    },
+    {
+      "id": 18,
+      "audioText": "I enjoy playing cricket and reading novels.",
+      "hindi": "मुझे cricket खेलना और novels पढ़ना पसंद है।",
+      "fillInBlank": "I enjoy playing _____ and reading _____.",
+      "answer": ["cricket", "novels"]
+    },
+    {
+      "id": 19,
+      "audioText": "I have two sisters and one younger brother.",
+      "hindi": "मेरी दो बहनें और एक छोटा भाई है।",
+      "fillInBlank": "I have two _____ and one younger _____.",
+      "answer": ["sisters", "brother"]
+    },
+    {
+      "id": 20,
+      "audioText": "Nice to meet you. I am Kavita from Hyderabad.",
+      "hindi": "आपसे मिलकर खुशी हुई। मैं हैदराबाद से कविता हूँ।",
+      "fillInBlank": "Nice to _____ you. I am Kavita from _____.",
+      "answer": ["meet", "Hyderabad"]
+    },
+    {
+      "id": 21,
+      "audioText": "I am currently pursuing my B.Tech in Computer Science.",
+      "hindi": "मैं अभी Computer Science में B.Tech कर रहा हूँ।",
+      "fillInBlank": "I am currently pursuing my B.Tech in Computer _____.",
+      "answer": ["Science"]
+    },
+    {
+      "id": 22,
+      "audioText": "I have five years of experience in the banking sector.",
+      "hindi": "मुझे banking sector में पाँच साल का अनुभव है।",
+      "fillInBlank": "I have five years of experience in the banking _____.",
+      "answer": ["sector"]
+    },
+    {
+      "id": 23,
+      "audioText": "My hobbies include cooking, painting, and gardening.",
+      "hindi": "मेरे शौक में खाना बनाना, पेंटिंग और बागबानी शामिल हैं।",
+      "fillInBlank": "My hobbies include _____, painting, and _____.",
+      "answer": ["cooking", "gardening"]
+    },
+    {
+      "id": 24,
+      "audioText": "I was born in Mumbai but I currently live in Pune.",
+      "hindi": "मेरा जन्म मुंबई में हुआ पर मैं अभी पुणे में रहता हूँ।",
+      "fillInBlank": "I was born in _____ but I currently live in _____.",
+      "answer": ["Mumbai", "Pune"]
+    },
+    {
+      "id": 25,
+      "audioText": "People call me Raj but my full name is Rajendra.",
+      "hindi": "लोग मुझे राज बुलाते हैं पर मेरा पूरा नाम राजेंद्र है।",
+      "fillInBlank": "People call me _____ but my full name is _____.",
+      "answer": ["Raj", "Rajendra"]
+    },
+    {
+      "id": 26,
+      "audioText": "I am interested in learning new languages and cultures.",
+      "hindi": "मुझे नई भाषाएँ और संस्कृतियाँ सीखने में रुचि है।",
+      "fillInBlank": "I am interested in learning new _____ and _____.",
+      "answer": ["languages", "cultures"]
+    },
+    {
+      "id": 27,
+      "audioText": "I work as a civil engineer at a construction company.",
+      "hindi": "मैं एक construction company में civil engineer के रूप में काम करता हूँ।",
+      "fillInBlank": "I work as a civil _____ at a construction _____.",
+      "answer": ["engineer", "company"]
+    },
+    {
+      "id": 28,
+      "audioText": "Good morning, sir. I am here for the job interview.",
+      "hindi": "सुप्रभात सर। मैं job interview के लिए यहाँ हूँ।",
+      "fillInBlank": "Good morning, sir. I am here for the job _____.",
+      "answer": ["interview"]
+    },
+    {
+      "id": 29,
+      "audioText": "I have been living in Bangalore since two thousand and nineteen.",
+      "hindi": "मैं 2019 से बेंगलुरु में रह रहा हूँ।",
+      "fillInBlank": "I have been _____ in Bangalore since two thousand and nineteen.",
+      "answer": ["living"]
+    },
+    {
+      "id": 30,
+      "audioText": "My father is a doctor and my mother is a teacher.",
+      "hindi": "मेरे पिता doctor हैं और मेरी माँ teacher हैं।",
+      "fillInBlank": "My father is a _____ and my mother is a _____.",
+      "answer": ["doctor", "teacher"]
+    },
+    {
+      "id": 31,
+      "audioText": "I am a quick learner and I adapt to new environments easily.",
+      "hindi": "मैं जल्दी सीखता हूँ और आसानी से नए माहौल में ढल जाता हूँ।",
+      "fillInBlank": "I am a quick _____ and I adapt to new _____ easily.",
+      "answer": ["learner", "environments"]
+    },
+    {
+      "id": 32,
+      "audioText": "My strength is my ability to work well in a team.",
+      "hindi": "मेरी ताकत team में अच्छे से काम करने की मेरी क्षमता है।",
+      "fillInBlank": "My _____ is my ability to work well in a _____.",
+      "answer": ["strength", "team"]
+    },
+    {
+      "id": 33,
+      "audioText": "I graduated from Delhi University in the year two thousand and twenty.",
+      "hindi": "मैंने 2020 में Delhi University से graduation किया।",
+      "fillInBlank": "I graduated from Delhi _____ in the year two thousand and twenty.",
+      "answer": ["University"]
+    },
+    {
+      "id": 34,
+      "audioText": "I speak Hindi, English, and a little bit of French.",
+      "hindi": "मैं Hindi, English, और थोड़ी French बोलता हूँ।",
+      "fillInBlank": "I speak Hindi, _____, and a little bit of _____.",
+      "answer": ["English", "French"]
+    },
+    {
+      "id": 35,
+      "audioText": "I am currently exploring new opportunities in the field of artificial intelligence.",
+      "hindi": "मैं अभी artificial intelligence के क्षेत्र में नए अवसर तलाश रहा हूँ।",
+      "fillInBlank": "I am currently exploring new _____ in the field of artificial _____.",
+      "answer": ["opportunities", "intelligence"]
+    },
+    {
+      "id": 36,
+      "audioText": "Let me briefly introduce myself before we begin the meeting.",
+      "hindi": "Meeting शुरू करने से पहले मैं संक्षेप में अपना परिचय दे देता हूँ।",
+      "fillInBlank": "Let me briefly _____ myself before we begin the _____.",
+      "answer": ["introduce", "meeting"]
+    },
+    {
+      "id": 37,
+      "audioText": "I consider myself a dedicated and hardworking professional.",
+      "hindi": "मैं खुद को एक dedicated और hardworking professional मानता हूँ।",
+      "fillInBlank": "I consider myself a dedicated and _____ _____.",
+      "answer": ["hardworking", "professional"]
+    },
+    {
+      "id": 38,
+      "audioText": "I completed my Masters degree in Business Administration last year.",
+      "hindi": "मैंने पिछले साल Business Administration में Masters degree पूरी की।",
+      "fillInBlank": "I completed my Masters degree in Business _____ last _____.",
+      "answer": ["Administration", "year"]
+    },
+    {
+      "id": 39,
+      "audioText": "I am originally from Jaipur but I moved to Hyderabad for work.",
+      "hindi": "मैं मूल रूप से जयपुर का हूँ पर काम के लिए हैदराबाद आ गया।",
+      "fillInBlank": "I am originally from _____ but I moved to _____ for work.",
+      "answer": ["Jaipur", "Hyderabad"]
+    },
+    {
+      "id": 40,
+      "audioText": "I look forward to working with your team on this exciting project.",
+      "hindi": "मैं इस exciting project पर आपकी team के साथ काम करने का इंतज़ार करता हूँ।",
+      "fillInBlank": "I look forward to working with your _____ on this exciting _____.",
+      "answer": ["team", "project"]
+    },
+    {
+      "id": 41,
+      "audioText": "My name is Amit Sharma and I am a software engineer.",
+      "hindi": "मेरा नाम अमित शर्मा है और मैं software engineer हूँ।",
+      "fillInBlank": "My name is Amit _____ and I am a software _____.",
+      "answer": ["Sharma", "engineer"]
+    },
+    {
+      "id": 42,
+      "audioText": "I have three years of experience in web development.",
+      "hindi": "मुझे web development में तीन साल का अनुभव है।",
+      "fillInBlank": "I have three years of experience in web _____.",
+      "answer": ["development"]
+    },
+    {
+      "id": 43,
+      "audioText": "I am responsible for managing the sales team in North India.",
+      "hindi": "मैं North India में sales team को manage करने का जिम्मेदार हूँ।",
+      "fillInBlank": "I am responsible for managing the _____ team in North _____.",
+      "answer": ["sales", "India"]
+    },
+    {
+      "id": 44,
+      "audioText": "Please feel free to contact me if you need any assistance.",
+      "hindi": "अगर आपको कोई सहायता चाहिए तो बेझिझक मुझसे संपर्क करें।",
+      "fillInBlank": "Please feel free to _____ me if you need any _____.",
+      "answer": ["contact", "assistance"]
+    },
+    {
+      "id": 45,
+      "audioText": "I am fluent in English and have strong communication skills.",
+      "hindi": "मैं English में fluent हूँ और मेरी communication skills अच्छी हैं।",
+      "fillInBlank": "I am fluent in _____ and have strong _____ skills.",
+      "answer": ["English", "communication"]
+    },
+    {
+      "id": 46,
+      "audioText": "I run my own startup in the field of education technology.",
+      "hindi": "मैं education technology के क्षेत्र में अपना खुद का startup चलाता हूँ।",
+      "fillInBlank": "I run my own _____ in the field of education _____.",
+      "answer": ["startup", "technology"]
+    },
+    {
+      "id": 47,
+      "audioText": "I am excited to join your team and contribute my skills.",
+      "hindi": "मैं आपकी team में शामिल होने और अपने skills contribute करने के लिए उत्साहित हूँ।",
+      "fillInBlank": "I am excited to _____ your team and contribute my _____.",
+      "answer": ["join", "skills"]
+    },
+    {
+      "id": 48,
+      "audioText": "My goal is to become a certified project management professional.",
+      "hindi": "मेरा लक्ष्य एक certified project management professional बनना है।",
+      "fillInBlank": "My _____ is to become a certified project management _____.",
+      "answer": ["goal", "professional"]
+    },
+    {
+      "id": 49,
+      "audioText": "I am the eldest child in my family with two younger siblings.",
+      "hindi": "मैं अपने परिवार में सबसे बड़ा बच्चा हूँ, दो छोटे siblings हैं।",
+      "fillInBlank": "I am the eldest _____ in my family with two younger _____.",
+      "answer": ["child", "siblings"]
+    },
+    {
+      "id": 50,
+      "audioText": "I believe in continuous learning and self improvement.",
+      "hindi": "मैं continuous learning और self-improvement में विश्वास रखता हूँ।",
+      "fillInBlank": "I believe in continuous _____ and self _____.",
+      "answer": ["learning", "improvement"]
+    },
+    {
+      "id": 51,
+      "audioText": "I completed my internship at a multinational company last summer.",
+      "hindi": "मैंने पिछली गर्मियों में एक multinational company में internship पूरी की।",
+      "fillInBlank": "I completed my _____ at a multinational _____ last summer.",
+      "answer": ["internship", "company"]
+    },
+    {
+      "id": 52,
+      "audioText": "I am passionate about using technology to solve real world problems.",
+      "hindi": "मुझे technology का उपयोग करके real world problems solve करने का शौक है।",
+      "fillInBlank": "I am passionate about using _____ to solve real world _____.",
+      "answer": ["technology", "problems"]
+    },
+    {
+      "id": 53,
+      "audioText": "Good afternoon. My name is Sunita and I am here for the orientation.",
+      "hindi": "नमस्ते। मेरा नाम सुनीता है और मैं orientation के लिए यहाँ हूँ।",
+      "fillInBlank": "Good afternoon. My name is Sunita and I am here for the _____.",
+      "answer": ["orientation"]
+    },
+    {
+      "id": 54,
+      "audioText": "I spent two years working abroad before returning to India.",
+      "hindi": "मैंने India वापस आने से पहले दो साल विदेश में काम किया।",
+      "fillInBlank": "I spent two years working _____ before returning to _____.",
+      "answer": ["abroad", "India"]
+    },
+    {
+      "id": 55,
+      "audioText": "I am a team player who enjoys collaborative work environments.",
+      "hindi": "मैं एक team player हूँ जो collaborative work environments में काम करना पसंद करता है।",
+      "fillInBlank": "I am a team _____ who enjoys collaborative work _____.",
+      "answer": ["player", "environments"]
+    },
+    {
+      "id": 56,
+      "audioText": "My name is Vikram Singh and I represent the sales department.",
+      "hindi": "मेरा नाम विक्रम सिंह है और मैं sales department का प्रतिनिधि हूँ।",
+      "fillInBlank": "My name is Vikram _____ and I represent the _____ department.",
+      "answer": ["Singh", "sales"]
+    },
+    {
+      "id": 57,
+      "audioText": "I have been working in the healthcare industry for six years.",
+      "hindi": "मैं छह सालों से healthcare industry में काम कर रहा हूँ।",
+      "fillInBlank": "I have been working in the _____ industry for six _____.",
+      "answer": ["healthcare", "years"]
+    },
+    {
+      "id": 58,
+      "audioText": "I am looking for a challenging role where I can grow professionally.",
+      "hindi": "मैं एक ऐसी challenging भूमिका की तलाश में हूँ जहाँ मैं professionally grow कर सकूँ।",
+      "fillInBlank": "I am looking for a challenging _____ where I can grow _____.",
+      "answer": ["role", "professionally"]
+    },
+    {
+      "id": 59,
+      "audioText": "I started my career as a junior accountant ten years ago.",
+      "hindi": "मैंने दस साल पहले junior accountant के रूप में अपना career शुरू किया।",
+      "fillInBlank": "I started my career as a junior _____ ten years _____.",
+      "answer": ["accountant", "ago"]
+    },
+    {
+      "id": 60,
+      "audioText": "I hold a degree in electrical engineering from IIT Delhi.",
+      "hindi": "मेरे पास IIT Delhi से electrical engineering की degree है।",
+      "fillInBlank": "I hold a degree in electrical _____ from IIT _____.",
+      "answer": ["engineering", "Delhi"]
+    },
+    {
+      "id": 61,
+      "audioText": "I am currently working as a product manager at a tech startup.",
+      "hindi": "मैं अभी एक tech startup में product manager के रूप में काम कर रहा हूँ।",
+      "fillInBlank": "I am currently working as a product _____ at a tech _____.",
+      "answer": ["manager", "startup"]
+    },
+    {
+      "id": 62,
+      "audioText": "My wife and I have been married for five years.",
+      "hindi": "मेरी पत्नी और मैं पाँच सालों से शादीशुदा हैं।",
+      "fillInBlank": "My wife and I have been _____ for five _____.",
+      "answer": ["married", "years"]
+    },
+    {
+      "id": 63,
+      "audioText": "I spend my weekends volunteering at a local nonprofit organization.",
+      "hindi": "मैं अपने weekends एक local nonprofit organization में volunteering करते हुए बिताता हूँ।",
+      "fillInBlank": "I spend my weekends _____ at a local nonprofit _____.",
+      "answer": ["volunteering", "organization"]
+    },
+    {
+      "id": 64,
+      "audioText": "I was selected as the best employee of the year.",
+      "hindi": "मुझे साल का best employee चुना गया।",
+      "fillInBlank": "I was selected as the best _____ of the _____.",
+      "answer": ["employee", "year"]
+    },
+    {
+      "id": 65,
+      "audioText": "I am confident that I can contribute significantly to your organization.",
+      "hindi": "मुझे विश्वास है कि मैं आपकी organization में महत्वपूर्ण योगदान दे सकता हूँ।",
+      "fillInBlank": "I am confident that I can contribute significantly to your _____.",
+      "answer": ["organization"]
+    },
+    {
+      "id": 66,
+      "audioText": "My long term goal is to start my own business in five years.",
+      "hindi": "मेरा long-term goal पाँच साल में अपना खुद का business शुरू करना है।",
+      "fillInBlank": "My long term goal is to start my own _____ in five _____.",
+      "answer": ["business", "years"]
+    },
+    {
+      "id": 67,
+      "audioText": "I enjoy reading books on history and science in my spare time.",
+      "hindi": "मुझे खाली समय में history और science की किताबें पढ़ना पसंद है।",
+      "fillInBlank": "I enjoy reading books on _____ and _____ in my spare time.",
+      "answer": ["history", "science"]
+    },
+    {
+      "id": 68,
+      "audioText": "I am from a middle class family and I value hard work.",
+      "hindi": "मैं एक middle class family से हूँ और मैं hard work को महत्व देता हूँ।",
+      "fillInBlank": "I am from a middle class _____ and I value hard _____.",
+      "answer": ["family", "work"]
+    },
+    {
+      "id": 69,
+      "audioText": "I hold a certification in digital marketing from Google.",
+      "hindi": "मेरे पास Google से digital marketing की certification है।",
+      "fillInBlank": "I hold a certification in digital _____ from _____.",
+      "answer": ["marketing", "Google"]
+    },
+    {
+      "id": 70,
+      "audioText": "I am a self motivated individual who never gives up.",
+      "hindi": "मैं एक self-motivated व्यक्ति हूँ जो कभी हार नहीं मानता।",
+      "fillInBlank": "I am a self motivated _____ who never gives _____.",
+      "answer": ["individual", "up"]
+    },
+    {
+      "id": 71,
+      "audioText": "I love my country and I dream of contributing to its development.",
+      "hindi": "मुझे अपने देश से प्यार है और मैं इसके विकास में योगदान देने का सपना देखता हूँ।",
+      "fillInBlank": "I love my _____ and I dream of contributing to its _____.",
+      "answer": ["country", "development"]
+    },
+    {
+      "id": 72,
+      "audioText": "I have successfully led a team of fifteen people on multiple projects.",
+      "hindi": "मैंने multiple projects पर पंद्रह लोगों की team को सफलतापूर्वक lead किया है।",
+      "fillInBlank": "I have successfully led a team of fifteen _____ on multiple _____.",
+      "answer": ["people", "projects"]
+    },
+    {
+      "id": 73,
+      "audioText": "I specialize in data analysis and machine learning.",
+      "hindi": "मैं data analysis और machine learning में विशेषज्ञ हूँ।",
+      "fillInBlank": "I specialize in data _____ and machine _____.",
+      "answer": ["analysis", "learning"]
+    },
+    {
+      "id": 74,
+      "audioText": "I have worked with multinational clients from the United States and Europe.",
+      "hindi": "मैंने United States और Europe के multinational clients के साथ काम किया है।",
+      "fillInBlank": "I have worked with multinational clients from the United _____ and _____.",
+      "answer": ["States", "Europe"]
+    },
+    {
+      "id": 75,
+      "audioText": "I completed my higher education from Pune University in two thousand and eighteen.",
+      "hindi": "मैंने 2018 में Pune University से higher education पूरी की।",
+      "fillInBlank": "I completed my higher _____ from Pune _____ in two thousand and eighteen.",
+      "answer": ["education", "University"]
+    },
+    {
+      "id": 76,
+      "audioText": "I am always willing to take on new challenges and responsibilities.",
+      "hindi": "मैं हमेशा नई challenges और responsibilities लेने के लिए तैयार रहता हूँ।",
+      "fillInBlank": "I am always willing to take on new _____ and _____.",
+      "answer": ["challenges", "responsibilities"]
+    },
+    {
+      "id": 77,
+      "audioText": "My parents have always supported my dreams and ambitions.",
+      "hindi": "मेरे माता-पिता ने हमेशा मेरे सपनों और महत्वाकांक्षाओं का समर्थन किया है।",
+      "fillInBlank": "My parents have always supported my _____ and _____.",
+      "answer": ["dreams", "ambitions"]
+    },
+    {
+      "id": 78,
+      "audioText": "I believe that communication is the key to success in any profession.",
+      "hindi": "मेरा मानना है कि communication किसी भी profession में सफलता की कुंजी है।",
+      "fillInBlank": "I believe that _____ is the key to _____ in any profession.",
+      "answer": ["communication", "success"]
+    },
+    {
+      "id": 79,
+      "audioText": "I have received training in conflict resolution and leadership.",
+      "hindi": "मैंने conflict resolution और leadership में training प्राप्त की है।",
+      "fillInBlank": "I have received training in conflict _____ and _____.",
+      "answer": ["resolution", "leadership"]
+    },
+    {
+      "id": 80,
+      "audioText": "I am open to relocating anywhere in India for the right opportunity.",
+      "hindi": "मैं सही opportunity के लिए India में कहीं भी relocate करने के लिए तैयार हूँ।",
+      "fillInBlank": "I am open to relocating anywhere in _____ for the right _____.",
+      "answer": ["India", "opportunity"]
+    },
+    {
+      "id": 81,
+      "audioText": "I have published two research papers in international journals.",
+      "hindi": "मैंने international journals में दो research papers publish किए हैं।",
+      "fillInBlank": "I have published two research _____ in international _____.",
+      "answer": ["papers", "journals"]
+    },
+    {
+      "id": 82,
+      "audioText": "I am a certified yoga instructor with five years of teaching experience.",
+      "hindi": "मैं एक certified yoga instructor हूँ, पाँच साल का teaching experience है।",
+      "fillInBlank": "I am a certified yoga _____ with five years of teaching _____.",
+      "answer": ["instructor", "experience"]
+    },
+    {
+      "id": 83,
+      "audioText": "I believe in building strong professional relationships with my colleagues.",
+      "hindi": "मेरा मानना है कि colleagues के साथ strong professional relationships बनानी चाहिए।",
+      "fillInBlank": "I believe in building strong professional _____ with my _____.",
+      "answer": ["relationships", "colleagues"]
+    },
+    {
+      "id": 84,
+      "audioText": "I enjoy mentoring junior team members and helping them grow.",
+      "hindi": "मुझे junior team members को mentor करना और उनकी growth में मदद करना पसंद है।",
+      "fillInBlank": "I enjoy _____ junior team members and helping them _____.",
+      "answer": ["mentoring", "grow"]
+    },
+    {
+      "id": 85,
+      "audioText": "I have been learning Spanish as a second foreign language for two years.",
+      "hindi": "मैं दो सालों से second foreign language के रूप में Spanish सीख रहा हूँ।",
+      "fillInBlank": "I have been learning _____ as a second foreign language for two _____.",
+      "answer": ["Spanish", "years"]
+    },
+    {
+      "id": 86,
+      "audioText": "I am currently based in Noida but I am originally from Lucknow.",
+      "hindi": "मैं अभी Noida में हूँ पर मूल रूप से Lucknow का हूँ।",
+      "fillInBlank": "I am currently based in Noida but I am originally from _____.",
+      "answer": ["Lucknow"]
+    },
+    {
+      "id": 87,
+      "audioText": "I take pride in my ability to meet deadlines and deliver quality work.",
+      "hindi": "मुझे deadlines पूरी करने और quality work deliver करने की अपनी ability पर गर्व है।",
+      "fillInBlank": "I take pride in my ability to meet _____ and deliver quality _____.",
+      "answer": ["deadlines", "work"]
+    },
+    {
+      "id": 88,
+      "audioText": "I have a strong background in financial planning and analysis.",
+      "hindi": "मेरी financial planning और analysis में strong background है।",
+      "fillInBlank": "I have a strong background in financial _____ and _____.",
+      "answer": ["planning", "analysis"]
+    },
+    {
+      "id": 89,
+      "audioText": "I am deeply interested in the intersection of technology and healthcare.",
+      "hindi": "मुझे technology और healthcare के intersection में गहरी रुचि है।",
+      "fillInBlank": "I am deeply interested in the intersection of _____ and _____.",
+      "answer": ["technology", "healthcare"]
+    },
+    {
+      "id": 90,
+      "audioText": "I have won several awards for my academic performance during college.",
+      "hindi": "मैंने college के दौरान अपनी academic performance के लिए कई awards जीते हैं।",
+      "fillInBlank": "I have won several _____ for my academic _____ during college.",
+      "answer": ["awards", "performance"]
+    },
+    {
+      "id": 91,
+      "audioText": "My greatest achievement is building a mobile app with fifty thousand users.",
+      "hindi": "मेरी सबसे बड़ी उपलब्धि 50,000 users वाला mobile app बनाना है।",
+      "fillInBlank": "My greatest _____ is building a mobile app with fifty thousand _____.",
+      "answer": ["achievement", "users"]
+    },
+    {
+      "id": 92,
+      "audioText": "I thrive in fast paced environments and enjoy problem solving.",
+      "hindi": "मैं fast-paced environments में अच्छा perform करता हूँ और problem-solving पसंद करता हूँ।",
+      "fillInBlank": "I thrive in fast paced _____ and enjoy problem _____.",
+      "answer": ["environments", "solving"]
+    },
+    {
+      "id": 93,
+      "audioText": "I have worked on projects in fifteen different countries around the world.",
+      "hindi": "मैंने दुनिया के पंद्रह अलग-अलग देशों में projects पर काम किया है।",
+      "fillInBlank": "I have worked on projects in fifteen different _____ around the _____.",
+      "answer": ["countries", "world"]
+    },
+    {
+      "id": 94,
+      "audioText": "I am a strong advocate for work life balance and mental health.",
+      "hindi": "मैं work-life balance और mental health का प्रबल समर्थक हूँ।",
+      "fillInBlank": "I am a strong advocate for work life _____ and mental _____.",
+      "answer": ["balance", "health"]
+    },
+    {
+      "id": 95,
+      "audioText": "I have a passion for public speaking and have delivered talks at conferences.",
+      "hindi": "मुझे public speaking का शौक है और मैंने conferences में talks दिए हैं।",
+      "fillInBlank": "I have a passion for public _____ and have delivered talks at _____.",
+      "answer": ["speaking", "conferences"]
+    },
+    {
+      "id": 96,
+      "audioText": "I consider ethical conduct and transparency to be my core values.",
+      "hindi": "मैं ethical conduct और transparency को अपने core values मानता हूँ।",
+      "fillInBlank": "I consider ethical _____ and _____ to be my core values.",
+      "answer": ["conduct", "transparency"]
+    },
+    {
+      "id": 97,
+      "audioText": "I enjoy photography and I have exhibited my work at local galleries.",
+      "hindi": "मुझे photography पसंद है और मैंने local galleries में अपना काम exhibit किया है।",
+      "fillInBlank": "I enjoy _____ and I have exhibited my work at local _____.",
+      "answer": ["photography", "galleries"]
+    },
+    {
+      "id": 98,
+      "audioText": "I am committed to lifelong learning and professional development.",
+      "hindi": "मैं lifelong learning और professional development के प्रति committed हूँ।",
+      "fillInBlank": "I am committed to lifelong _____ and professional _____.",
+      "answer": ["learning", "development"]
+    },
+    {
+      "id": 99,
+      "audioText": "I have a proven track record of increasing revenue by thirty percent.",
+      "hindi": "मेरे पास revenue को 30% बढ़ाने का proven track record है।",
+      "fillInBlank": "I have a proven track _____ of increasing revenue by thirty _____.",
+      "answer": ["record", "percent"]
+    },
+    {
+      "id": 100,
+      "audioText": "I am here today to introduce myself and to learn from all of you.",
+      "hindi": "मैं आज यहाँ अपना परिचय देने और आप सभी से सीखने के लिए हूँ।",
+      "fillInBlank": "I am here today to _____ myself and to learn from all of _____.",
+      "answer": ["introduce", "you"]
     }
   ],
-  "dictationPassage": {
-    "text": "Hello everyone. My name is Kavita Rao. I am from Hyderabad. I work as a content writer for a digital marketing agency. I have two years of experience in this field. I enjoy writing blogs and reading novels in my free time. It is a pleasure to be here today.",
-    "hindi": "नमस्ते सभी को। मेरा नाम कविता राव है। मैं हैदराबाद से हूँ। मैं एक digital marketing agency के लिए content writer के रूप में काम करती हूँ। मुझे इस field में दो साल का अनुभव है। मुझे खाली समय में blogs लिखना और novels पढ़ना पसंद है। आज यहाँ होना मेरे लिए खुशी की बात है।"
-  },
   "dictationPassages": [
     {
       "text": "Hello everyone. My name is Kavita Rao. I am from Hyderabad. I work as a content writer for a digital marketing agency. I have two years of experience in this field. I enjoy writing blogs and reading novels in my free time. It is a pleasure to be here today.",
       "hindi": "नमस्ते सभी को। मेरा नाम कविता राव है। मैं हैदराबाद से हूँ। मैं एक digital marketing agency के लिए content writer के रूप में काम करती हूँ। मुझे इस field में दो साल का अनुभव है। मुझे खाली समय में blogs लिखना और novels पढ़ना पसंद है। आज यहाँ होना मेरे लिए खुशी की बात है।"
     },
     {
-      "text": "Good afternoon everyone. This is Aman speaking, calling from the HR department. I'm reaching out regarding your interview scheduled for next Monday at 10 AM. Please confirm your availability at your earliest convenience. Thank you.",
+      "text": "Good afternoon everyone. This is Aman speaking, calling from the HR department. I am reaching out regarding your interview scheduled for next Monday at ten AM. Please confirm your availability at your earliest convenience. Thank you.",
       "hindi": "नमस्ते सभी को। मैं अमन बोल रहा हूँ, HR department से। मैं आपके interview के बारे में call कर रहा हूँ जो अगले सोमवार सुबह 10 बजे है। कृपया जल्द से जल्द अपनी availability confirm करें। धन्यवाद।"
     },
     {
-      "text": "Hi everyone, I'm Kartikeya from Kanpur. I completed my schooling from DAV Public School and I'm now pursuing a B.Tech in Computer Science. In my free time, I enjoy playing chess and reading science fiction novels. I'm really excited to be part of this college.",
+      "text": "Hi everyone, I am Kartikeya from Kanpur. I completed my schooling from DAV Public School and I am now pursuing a B.Tech in Computer Science. In my free time, I enjoy playing chess and reading science fiction novels. I am really excited to be part of this college.",
       "hindi": "नमस्ते सभी, मैं कार्तिकेय हूँ, कानपुर से। मैंने अपनी schooling DAV Public School से पूरी की और अभी Computer Science में B.Tech कर रहा हूँ। खाली समय में मुझे शतरंज खेलना और science fiction novels पढ़ना पसंद है। मैं इस college का हिस्सा बनकर बहुत उत्साहित हूँ।"
     },
     {
-      "text": "Good morning class. I'm Mrs. Kavita Rao, and I'll be your English teacher this year. I have been teaching for over eight years, and I love making grammar fun. I hope we'll have a great year of learning together.",
+      "text": "Good morning class. I am Mrs. Kavita Rao, and I will be your English teacher this year. I have been teaching for over eight years, and I love making grammar fun. I hope we will have a great year of learning together.",
       "hindi": "सुप्रभात class। मैं श्रीमती कविता राव हूँ, और इस साल मैं आपकी English teacher रहूँगी। मैं आठ सालों से पढ़ा रही हूँ, और मुझे grammar को मज़ेदार बनाना पसंद है। मुझे उम्मीद है हम साथ में एक बढ़िया साल सीखने में बिताएँगे।"
     },
     {
-      "text": "Good morning everyone, I'm Rakesh Gupta, Sales Head at ABC Textiles. On behalf of my team, I'd like to thank you for this opportunity. We're here to discuss the new partnership and explore how we can work together going forward.",
+      "text": "Good morning everyone, I am Rakesh Gupta, Sales Head at ABC Textiles. On behalf of my team, I would like to thank you for this opportunity. We are here to discuss the new partnership and explore how we can work together going forward.",
       "hindi": "सुप्रभात सभी, मैं राकेश गुप्ता हूँ, ABC Textiles में Sales Head। अपनी team की तरफ से, मैं इस अवसर के लिए धन्यवाद देना चाहूँगा। हम नए partnership पर चर्चा करने और आगे साथ मिलकर काम करने के तरीके तलाशने आए हैं।"
+    },
+    {
+      "text": "Hello, my name is Meera Nair. I am originally from Kerala but I have been living in Bangalore for the past seven years. I work as a data scientist at a leading technology company. In my spare time, I enjoy cooking traditional recipes and practicing yoga every morning.",
+      "hindi": "नमस्ते, मेरा नाम मीरा नायर है। मैं मूल रूप से केरल से हूँ पर पिछले सात सालों से बेंगलुरु में रह रही हूँ। मैं एक leading technology company में data scientist के रूप में काम करती हूँ। खाली समय में मुझे traditional recipes बनाना और हर सुबह yoga करना पसंद है।"
+    },
+    {
+      "text": "My name is Arjun Mehta and I am a civil engineer with ten years of experience. I have worked on infrastructure projects across multiple states in India. I believe that every engineer has a responsibility to contribute to nation building. I am passionate about sustainable construction and green architecture.",
+      "hindi": "मेरा नाम अर्जुन मेहता है और मैं दस साल के अनुभव वाला civil engineer हूँ। मैंने India के कई राज्यों में infrastructure projects पर काम किया है। मेरा मानना है कि हर engineer की जिम्मेदारी है कि वो राष्ट्र निर्माण में योगदान दे। मुझे sustainable construction और green architecture का शौक है।"
     }
   ]
 }
