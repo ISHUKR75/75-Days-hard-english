@@ -152,6 +152,41 @@ function isAnswerCorrect(userInput, question) {
 }
 
 // ============================================================
+// getCorrectOptionText — resolves MCQ answer to actual option text.
+// daily-test.json stores "correct": "B" (letter A/B/C/D).
+// This converts the letter to the matching option string so we
+// can highlight the right option and score correctly.
+// ============================================================
+function getCorrectOptionText(question) {
+  if (!question) return '';
+  const opts = question.options || [];
+
+  // Format 1: correct is a single letter A/B/C/D
+  if (
+    question.correct &&
+    typeof question.correct === 'string' &&
+    question.correct.length === 1 &&
+    question.correct >= 'A' &&
+    question.correct <= 'Z'
+  ) {
+    const idx = question.correct.charCodeAt(0) - 65; // A=0, B=1, C=2, D=3
+    if (opts[idx] !== undefined) return opts[idx];
+  }
+
+  // Format 2: correct/answer is already the full option text
+  if (question.correct && typeof question.correct === 'string' && question.correct.length > 1) {
+    return question.correct;
+  }
+
+  // Format 3: answer field contains full text
+  if (question.answer && typeof question.answer === 'string') {
+    return question.answer;
+  }
+
+  return '';
+}
+
+// ============================================================
 // Text-to-Speech utility — uses browser Speech Synthesis API
 // Speaks English sentences aloud for listening practice
 // ============================================================
@@ -799,7 +834,7 @@ function VocabularyMassive({ vocabulary, onComplete }) {
   const [cefrFilter, setCefrFilter] = useState('all');
   const [page, setPage] = useState(1);
   const [expandedWord, setExpandedWord] = useState(null);
-  const WORDS_PER_PAGE = 100; // Show 100 words per load
+  const WORDS_PER_PAGE = 200; // Show 200 words per load for denser learning
 
   // Get all unique CEFR levels
   const cefrLevels = ['all', ...new Set(allWords.map(w => w.cefrLevel).filter(Boolean))];
@@ -2620,7 +2655,9 @@ function MockTestMCQ({ dayNum, mockTest, playSound, onComplete }) {
 
   const submitAnswer = () => {
     if (!selected || submitted) return;
-    const isRight = selected === currentQ.answer;
+    // Use getCorrectOptionText to resolve letter-code answers (A/B/C/D → actual text)
+    const correctText = getCorrectOptionText(currentQ);
+    const isRight = selected === correctText;
     if (isRight) {
       setScore(s => s + 1);
       if (playSound) playSound('correct');
@@ -2764,7 +2801,7 @@ function MockTestMCQ({ dayNum, mockTest, playSound, onComplete }) {
                 <p className="text-white text-sm hindi-text font-semibold">{item.question.hindi}</p>
                 <div className="flex gap-3 text-xs">
                   <span className="text-red-400">✗ You: {item.userAnswer}</span>
-                  <span className="text-emerald-400">✓ Correct: {item.question.answer}</span>
+                  <span className="text-emerald-400">✓ Correct: {getCorrectOptionText(item.question)}</span>
                 </div>
                 {item.question.explanation && (
                   <p className="text-xs text-slate-500 hindi-text">{item.question.explanation}</p>
@@ -2853,7 +2890,9 @@ function MockTestMCQ({ dayNum, mockTest, playSound, onComplete }) {
           {(currentQ.options || []).map((opt, i) => {
             const isChosen = selected === opt;
             const isRevealed = submitted;
-            const isRight = opt === currentQ.answer;
+            // Resolve letter-code answer (A/B/C/D) to actual option text for comparison
+            const correctText = getCorrectOptionText(currentQ);
+            const isRight = opt === correctText;
             return (
               <button
                 key={i}
