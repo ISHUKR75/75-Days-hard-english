@@ -257,6 +257,116 @@
           "answer": "Two years"
         }
       ]
+    },
+    {
+      "title": "A New Teacher on the First Day",
+      "text": "Mrs. Kavita Rao walked into the classroom, feeling both nervous and excited on her first day at the new school. 'Good morning class,' she said with a warm smile, 'I'm Mrs. Kavita Rao, and I'll be your English teacher this year.' The students looked at her curiously. She continued, 'I have been teaching for over eight years, and I love making grammar fun through games and stories.' One student, Rohit, raised his hand and asked, 'Ma'am, what is your favourite book?' Mrs. Rao laughed and replied, 'That's a great question to start with! My favourite book is Pride and Prejudice.' By the end of the class, the students were already looking forward to her next lesson.",
+      "hindiTranslation": "श्रीमती कविता राव अपने नए school में पहले दिन कक्षा में गईं, घबराई हुई और उत्साहित दोनों। 'सुप्रभात class,' उन्होंने गर्मजोशी से मुस्कुराते हुए कहा, 'मैं श्रीमती कविता राव हूँ, और इस साल मैं आपकी English teacher रहूँगी।' छात्रों ने उत्सुकता से उन्हें देखा। उन्होंने आगे कहा, 'मैं आठ सालों से पढ़ा रही हूँ, और मुझे games और stories के ज़रिए grammar को मज़ेदार बनाना पसंद है।' एक छात्र, रोहित, ने हाथ उठाकर पूछा, 'मैडम, आपकी पसंदीदा किताब कौन सी है?' श्रीमती राव हँसीं और बोलीं, 'शुरुआत के लिए यह बढ़िया सवाल है! मेरी पसंदीदा किताब Pride and Prejudice है।' कक्षा के अंत तक, छात्र पहले से ही उनकी अगली lesson का इंतज़ार करने लगे थे।",
+      "comprehensionQuestions": [
+        {
+          "id": 15,
+          "question": "What subject does Mrs. Kavita Rao teach?",
+          "hindi": "श्रीमती कविता राव कौन सा subject पढ़ाती हैं?",
+          "options": [
+            "Maths",
+            "English",
+            "Science",
+            "History"
+          ],
+          "answer": "English"
+        },
+        {
+          "id": 16,
+          "question": "How many years of teaching experience does she have?",
+          "hindi": "उनके पास कितने साल का teaching experience है?",
+          "options": [
+            "Five years",
+            "Six years",
+            "Over eight years",
+            "Ten years"
+          ],
+          "answer": "Over eight years"
+        },
+        {
+          "id": 17,
+          "question": "Who asked about her favourite book?",
+          "hindi": "उनकी पसंदीदा किताब के बारे में किसने पूछा?",
+          "options": [
+            "Mrs. Rao",
+            "Rohit",
+            "The principal",
+            "No one"
+          ],
+          "answer": "Rohit"
+        },
+        {
+          "id": 18,
+          "question": "What is Mrs. Rao's favourite book?",
+          "hindi": "श्रीमती राव की पसंदीदा किताब कौन सी है?",
+          "options": [
+            "War and Peace",
+            "Pride and Prejudice",
+            "Harry Potter",
+            "1984"
+          ],
+          "answer": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "title": "Introducing a New Business Partner",
+      "text": "The conference room was full as Rakesh Gupta stood up to speak. 'Good morning everyone, I'm Rakesh Gupta, Sales Head at ABC Textiles,' he began confidently. 'On behalf of my team, I'd like to thank you for this opportunity. We're here to discuss the new partnership between our companies.' The clients nodded, impressed by his clear and confident introduction. After the meeting, one of the clients, Mr. Iyer, approached him and said, 'Your introduction was very professional, Mr. Gupta. I look forward to working with you.' Rakesh smiled and replied, 'Thank you, Mr. Iyer. I'm looking forward to a successful partnership as well.'",
+      "hindiTranslation": "Conference room भरा हुआ था जब राकेश गुप्ता बोलने के लिए खड़े हुए। 'सुप्रभात सभी, मैं राकेश गुप्ता हूँ, ABC Textiles में Sales Head,' उन्होंने आत्मविश्वास के साथ शुरुआत की। 'अपनी team की तरफ से, मैं इस अवसर के लिए धन्यवाद देना चाहूँगा। हम अपनी companies के बीच नए partnership पर चर्चा करने आए हैं।' clients ने उनके स्पष्ट और आत्मविश्वासी introduction से प्रभावित होकर सिर हिलाया। meeting के बाद, एक client, श्री अय्यर, ने उनके पास आकर कहा, 'आपका introduction बहुत professional था, श्री गुप्ता। मैं आपके साथ काम करने का इंतज़ार कर रहा हूँ।' राकेश मुस्कुराए और बोले, 'धन्यवाद, श्री अय्यर। मैं भी एक सफल partnership का इंतज़ार कर रहा हूँ।'",
+      "comprehensionQuestions": [
+        {
+          "id": 19,
+          "question": "What is Rakesh Gupta's designation?",
+          "hindi": "राकेश गुप्ता की designation क्या है?",
+          "options": [
+            "Marketing Head",
+            "Sales Head",
+            "CEO",
+            "HR Manager"
+          ],
+          "answer": "Sales Head"
+        },
+        {
+          "id": 20,
+          "question": "Which company does Rakesh work for?",
+          "hindi": "राकेश किस company के लिए काम करते हैं?",
+          "options": [
+            "ABC Textiles",
+            "XYZ Solutions",
+            "QuickFix Support",
+            "DEF Traders"
+          ],
+          "answer": "ABC Textiles"
+        },
+        {
+          "id": 21,
+          "question": "What was the purpose of the meeting?",
+          "hindi": "meeting का purpose क्या था?",
+          "options": [
+            "Hiring",
+            "New partnership",
+            "Product launch",
+            "Salary discussion"
+          ],
+          "answer": "New partnership"
+        },
+        {
+          "id": 22,
+          "question": "How did the client, Mr. Iyer, describe Rakesh's introduction?",
+          "hindi": "client, श्री अय्यर ने राकेश के introduction को कैसे describe किया?",
+          "options": [
+            "Boring",
+            "Confusing",
+            "Very professional",
+            "Too long"
+          ],
+          "answer": "Very professional"
+        }
+      ]
     }
   ]
 }

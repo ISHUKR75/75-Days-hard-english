@@ -98,6 +98,46 @@
       "hindiPrompt": "अपने introduction के दो versions लिखें — एक formal (interview के लिए) और एक informal (नए दोस्त के लिए)।",
       "sampleAnswer": null,
       "wordLimit": 100
+    },
+    {
+      "id": 13,
+      "type": "guided",
+      "prompt": "Write a professional email introducing yourself as a new project coordinator.",
+      "hindiPrompt": "एक नए project coordinator के रूप में अपना professional email introduction लिखें।",
+      "sampleAnswer": "Dear Team, My name is Aditya Verma, and I am writing to introduce myself as the new project coordinator. I look forward to working closely with all of you. Best regards, Aditya",
+      "wordLimit": 80
+    },
+    {
+      "id": 14,
+      "type": "guided",
+      "prompt": "Write a short introduction you would give at a friend's birthday party where you know no one.",
+      "hindiPrompt": "एक दोस्त की birthday party में अपना short introduction लिखें जहाँ आप किसी को नहीं जानते।",
+      "sampleAnswer": "Hi, I'm Isha. I'm a friend of Rohan's from college. Nice to meet you all!",
+      "wordLimit": 40
+    },
+    {
+      "id": 15,
+      "type": "guided",
+      "prompt": "Write a customer-service style opening line for answering a support call.",
+      "hindiPrompt": "Support call उठाने के लिए एक customer-service style opening line लिखें।",
+      "sampleAnswer": "Thank you for calling QuickFix Support, my name is Deepak. How may I help you today?",
+      "wordLimit": 40
+    },
+    {
+      "id": 16,
+      "type": "free",
+      "prompt": "Write your own version of a teacher's Day-1 introduction to a new class, including your subject and one fun fact.",
+      "hindiPrompt": "एक teacher की Day-1 introduction अपने शब्दों में लिखें, subject और एक fun fact के साथ।",
+      "sampleAnswer": null,
+      "wordLimit": 60
+    },
+    {
+      "id": 17,
+      "type": "free",
+      "prompt": "Write a business-meeting introduction including your designation, company name, and meeting purpose.",
+      "hindiPrompt": "अपना designation, company का नाम और meeting का purpose शामिल करते हुए एक business-meeting introduction लिखें।",
+      "sampleAnswer": null,
+      "wordLimit": 60
     }
   ]
 }

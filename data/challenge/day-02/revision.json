@@ -15,7 +15,13 @@
     "LinkedIn/networking introduction focuses on job title + years of experience + interest",
     "Group discussion introduction must be short (20-30 seconds): name + degree + one opinion",
     "Formal tone avoids contractions ('I am' not 'I'm'); informal tone allows them",
-    "Avoid unnecessary words: 'good name', 'city' after a proper noun, missing articles before job titles"
+    "Avoid unnecessary words: 'good name', 'city' after a proper noun, missing articles before job titles",
+    "Email introduction: state your name and reason for writing in the first line",
+    "Social gathering introduction should be light — name + connection to host, not too much detail",
+    "Customer service introduction: name + company + how you can help",
+    "Business meeting introduction: name + designation + company + purpose of meeting",
+    "Use present perfect ('have been') for states continuing from past to present (married, teaching, friends)",
+    "Indian introductions often include family/native place; Western/professional style focuses on role and achievement"
   ],
   "quickQuiz": [
     {
@@ -92,6 +98,46 @@
       "id": 15,
       "question": "Translate: मैं अपना खुद का business चलाता हूँ।",
       "answer": "I run my own business."
+    },
+    {
+      "id": 16,
+      "question": "Fix this sentence: 'I am agree with this format.'",
+      "answer": "I agree with this format."
+    },
+    {
+      "id": 17,
+      "question": "Translate: प्रिय श्री शर्मा, मेरा नाम आदित्य वर्मा है।",
+      "answer": "Dear Mr. Sharma, my name is Aditya Verma."
+    },
+    {
+      "id": 18,
+      "question": "Fix this sentence: 'I am staying in Delhi' (for a permanent home).",
+      "answer": "I live in Delhi."
+    },
+    {
+      "id": 19,
+      "question": "Translate: मैं आठ सालों से पढ़ा रही हूँ।",
+      "answer": "I have been teaching for over eight years."
+    },
+    {
+      "id": 20,
+      "question": "Fix this sentence: 'I am married since 2020.'",
+      "answer": "I have been married since 2020."
+    },
+    {
+      "id": 21,
+      "question": "Translate: हम नए partnership पर चर्चा करने आए हैं।",
+      "answer": "We're here to discuss the new partnership."
+    },
+    {
+      "id": 22,
+      "question": "What should you avoid saying in an introduction to prevent a negative impression? (one phrase)",
+      "answer": "I am not good at English"
+    },
+    {
+      "id": 23,
+      "question": "Translate: मैं अपने परिवार के साथ दिल्ली में रहता हूँ।",
+      "answer": "I live in Delhi with my family."
     }
   ],
   "mustRememberRules": [
@@ -102,6 +148,9 @@
     "On the phone, say 'This is [Name] speaking', not 'I am [Name] speaking'",
     "Never say 'my good name is' — just 'my name is'",
     "'Fresher' always needs an article: 'a fresher', not 'fresher'",
-    "Don't add 'city' after a place name that's already a city: 'I am from Delhi', not 'Delhi city'"
+    "Don't add 'city' after a place name that's already a city: 'I am from Delhi', not 'Delhi city'",
+    "'I live in Delhi' is for permanent residence; 'I am staying in Delhi' implies something temporary",
+    "'I agree' is already a complete verb — never say 'I am agree'",
+    "Use 'have been' + verb-ing/adjective for ongoing states: 'I have been teaching', 'I have been married'"
   ]
 }

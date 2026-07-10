@@ -102,6 +102,56 @@
         "fresher",
         "opportunity"
       ]
+    },
+    {
+      "id": 11,
+      "audioText": "Dear Mr. Sharma, my name is Aditya Verma.",
+      "hindi": "प्रिय श्री शर्मा, मेरा नाम आदित्य वर्मा है।",
+      "fillInBlank": "Dear Mr. Sharma, my _____ is Aditya _____.",
+      "answer": [
+        "name",
+        "Verma"
+      ]
+    },
+    {
+      "id": 12,
+      "audioText": "Thank you for calling QuickFix Support.",
+      "hindi": "QuickFix Support को call करने के लिए धन्यवाद।",
+      "fillInBlank": "Thank you for _____ QuickFix _____.",
+      "answer": [
+        "calling",
+        "Support"
+      ]
+    },
+    {
+      "id": 13,
+      "audioText": "I have been teaching for over eight years.",
+      "hindi": "मैं आठ सालों से पढ़ा रही हूँ।",
+      "fillInBlank": "I have been _____ for over eight _____.",
+      "answer": [
+        "teaching",
+        "years"
+      ]
+    },
+    {
+      "id": 14,
+      "audioText": "We're here to discuss the new partnership.",
+      "hindi": "हम नए partnership पर चर्चा करने आए हैं।",
+      "fillInBlank": "We're here to _____ the new _____.",
+      "answer": [
+        "discuss",
+        "partnership"
+      ]
+    },
+    {
+      "id": 15,
+      "audioText": "I live in Delhi with my family.",
+      "hindi": "मैं अपने परिवार के साथ दिल्ली में रहता हूँ।",
+      "fillInBlank": "I _____ in Delhi with my _____.",
+      "answer": [
+        "live",
+        "family"
+      ]
     }
   ],
   "dictationPassage": {
@@ -120,6 +170,14 @@
     {
       "text": "Hi everyone, I'm Kartikeya from Kanpur. I completed my schooling from DAV Public School and I'm now pursuing a B.Tech in Computer Science. In my free time, I enjoy playing chess and reading science fiction novels. I'm really excited to be part of this college.",
       "hindi": "नमस्ते सभी, मैं कार्तिकेय हूँ, कानपुर से। मैंने अपनी schooling DAV Public School से पूरी की और अभी Computer Science में B.Tech कर रहा हूँ। खाली समय में मुझे शतरंज खेलना और science fiction novels पढ़ना पसंद है। मैं इस college का हिस्सा बनकर बहुत उत्साहित हूँ।"
+    },
+    {
+      "text": "Good morning class. I'm Mrs. Kavita Rao, and I'll be your English teacher this year. I have been teaching for over eight years, and I love making grammar fun. I hope we'll have a great year of learning together.",
+      "hindi": "सुप्रभात class। मैं श्रीमती कविता राव हूँ, और इस साल मैं आपकी English teacher रहूँगी। मैं आठ सालों से पढ़ा रही हूँ, और मुझे grammar को मज़ेदार बनाना पसंद है। मुझे उम्मीद है हम साथ में एक बढ़िया साल सीखने में बिताएँगे।"
+    },
+    {
+      "text": "Good morning everyone, I'm Rakesh Gupta, Sales Head at ABC Textiles. On behalf of my team, I'd like to thank you for this opportunity. We're here to discuss the new partnership and explore how we can work together going forward.",
+      "hindi": "सुप्रभात सभी, मैं राकेश गुप्ता हूँ, ABC Textiles में Sales Head। अपनी team की तरफ से, मैं इस अवसर के लिए धन्यवाद देना चाहूँगा। हम नए partnership पर चर्चा करने और आगे साथ मिलकर काम करने के तरीके तलाशने आए हैं।"
     }
   ]
 }

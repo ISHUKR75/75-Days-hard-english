@@ -217,6 +217,91 @@
           "pronunciation": "My NAME is su-NEE-ta."
         }
       ]
+    },
+    {
+      "id": 11,
+      "type": "email_reading_aloud",
+      "title": "Read Aloud: Email Introduction",
+      "sentences": [
+        {
+          "english": "Dear Mr. Sharma, my name is Aditya Verma.",
+          "hindi": "प्रिय श्री शर्मा, मेरा नाम आदित्य वर्मा है।",
+          "pronunciation": "dear MIS-ter SHAR-ma, my NAME is a-DIT-ya VER-ma."
+        },
+        {
+          "english": "I look forward to working closely with your team.",
+          "hindi": "मैं आपकी team के साथ काम करने का इंतज़ार कर रहा हूँ।",
+          "pronunciation": "I look FOR-ward to WORK-ing CLOSE-ly."
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "party_intro",
+      "title": "Speak Naturally: Party / Social Gathering",
+      "sentences": [
+        {
+          "english": "Hi, I'm Isha. I'm a friend of Rohan's from college.",
+          "hindi": "नमस्ते, मैं ईशा हूँ। मैं रोहन की कॉलेज की दोस्त हूँ।",
+          "pronunciation": "hi, I'm EE-sha."
+        },
+        {
+          "english": "Nice to meet you! I don't think we've met before.",
+          "hindi": "आपसे मिलकर अच्छा लगा!",
+          "pronunciation": "nice to MEET you!"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "customer_service",
+      "title": "Speak Naturally: Customer Service Introduction",
+      "sentences": [
+        {
+          "english": "Thank you for calling QuickFix Support. My name is Deepak.",
+          "hindi": "QuickFix Support को call करने के लिए धन्यवाद। मेरा नाम दीपक है।",
+          "pronunciation": "thank you for CALL-ing QUICK-fix sup-PORT."
+        },
+        {
+          "english": "How may I help you today?",
+          "hindi": "मैं आपकी कैसे मदद कर सकता हूँ?",
+          "pronunciation": "how MAY I help you to-DAY?"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "teacher_intro",
+      "title": "Speak Naturally: Teacher / Trainer Introduction",
+      "sentences": [
+        {
+          "english": "Good morning class, I'm Mrs. Kavita Rao.",
+          "hindi": "सुप्रभात class, मैं श्रीमती कविता राव हूँ।",
+          "pronunciation": "good MORN-ing class."
+        },
+        {
+          "english": "I have been teaching for over eight years.",
+          "hindi": "मैं आठ सालों से पढ़ा रही हूँ।",
+          "pronunciation": "I have BEEN TEACH-ing for O-ver eight years."
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "type": "business_meeting",
+      "title": "Speak Naturally: Business Meeting Introduction",
+      "sentences": [
+        {
+          "english": "I'm Rakesh Gupta, Sales Head at ABC Textiles.",
+          "hindi": "मैं राकेश गुप्ता हूँ, ABC Textiles में Sales Head।",
+          "pronunciation": "I'm ra-KESH GUP-ta, SALES head."
+        },
+        {
+          "english": "We're here to discuss the new partnership.",
+          "hindi": "हम नए partnership पर चर्चा करने आए हैं।",
+          "pronunciation": "we're HERE to dis-CUSS the new PART-ner-ship."
+        }
+      ]
     }
   ]
 }

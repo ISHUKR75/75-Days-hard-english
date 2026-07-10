@@ -393,6 +393,154 @@
           "hindi": "Informal: हे, मैं राकेश हूँ! आपसे मिलकर अच्छा लगा।"
         }
       ]
+    },
+    {
+      "id": "email-intro",
+      "title": "Introducing Yourself in a Professional Email",
+      "hindiTitle": "Professional Email mein Introduction",
+      "explanation": "Email introduction likhte samay pehli line mein hi apna naam aur reason for writing batana chahiye. Subject line clear honi chahiye. Closing mein 'Best regards' ya 'Warm regards' jaisa professional sign-off use karein.",
+      "formula": "Dear [Name], My name is [Your Name], and I am writing to [reason].",
+      "examples": [
+        {
+          "english": "Dear Mr. Sharma, My name is Aditya Verma, and I am writing to introduce myself as the new project coordinator.",
+          "hindi": "प्रिय श्री शर्मा, मेरा नाम आदित्य वर्मा है, और मैं नए project coordinator के रूप में अपना परिचय देने के लिए लिख रहा हूँ।"
+        },
+        {
+          "english": "I look forward to working closely with your team in the coming months.",
+          "hindi": "मैं आने वाले महीनों में आपकी team के साथ मिलकर काम करने का इंतज़ार कर रहा हूँ।"
+        },
+        {
+          "english": "Please feel free to reach out if you have any questions.",
+          "hindi": "अगर कोई सवाल हो तो बेझिझक संपर्क करें।"
+        }
+      ]
+    },
+    {
+      "id": "social-gathering-intro",
+      "title": "Introducing Yourself at a Social Gathering / Party",
+      "hindiTitle": "Party ya Social Gathering mein Introduction",
+      "explanation": "Social gatherings mein introduction light aur friendly hota hai. Naam ke baad aap kaise jaante hain host ko, ya kya kaam karte hain, halka sa bata sakte hain — lekin bahut zyada detail dena zaroori nahi.",
+      "formula": "Hi, I'm [Name]. I'm a friend of [Host's name] / I work with [Host's name].",
+      "examples": [
+        {
+          "english": "Hi, I'm Isha. I'm a friend of Rohan's from college.",
+          "hindi": "नमस्ते, मैं ईशा हूँ। मैं रोहन की college की दोस्त हूँ।"
+        },
+        {
+          "english": "Nice to meet you! I don't think we've met before.",
+          "hindi": "आपसे मिलकर अच्छा लगा! मुझे नहीं लगता हम पहले मिले हैं।"
+        },
+        {
+          "english": "I work with Rohan at the same company.",
+          "hindi": "मैं रोहन के साथ उसी company में काम करता हूँ।"
+        }
+      ]
+    },
+    {
+      "id": "customer-service-intro",
+      "title": "Introducing Yourself as a Customer Service Representative",
+      "hindiTitle": "Customer Service Representative ke roop mein Introduction",
+      "explanation": "Customer service calls mein introduction short aur clear hona chahiye — naam, company, aur kaise madad kar sakte hain. Polite tone bahut zaroori hai.",
+      "formula": "Thank you for calling [Company]. My name is [Name]. How may I help you today?",
+      "examples": [
+        {
+          "english": "Thank you for calling QuickFix Support. My name is Deepak. How may I help you today?",
+          "hindi": "QuickFix Support को call करने के लिए धन्यवाद। मेरा नाम दीपक है। मैं आपकी कैसे मदद कर सकता हूँ?"
+        },
+        {
+          "english": "My name is Anjali, and I'll be assisting you with your query.",
+          "hindi": "मेरा नाम अंजलि है, और मैं आपके सवाल में मदद करूँगी।"
+        }
+      ]
+    },
+    {
+      "id": "teacher-intro",
+      "title": "Introducing Yourself as a Teacher/Trainer on Day One",
+      "hindiTitle": "Teacher/Trainer ke roop mein pehle din Introduction",
+      "explanation": "Teacher ya trainer apna introduction dete waqt apni qualification, subject aur teaching style ke baare mein bataate hain taaki students comfortable feel karein.",
+      "formula": "Good morning, class. I'm [Name], and I'll be your [subject] teacher this year.",
+      "examples": [
+        {
+          "english": "Good morning class, I'm Mrs. Kavita Rao, and I'll be your English teacher this year.",
+          "hindi": "सुप्रभात class, मैं श्रीमती कविता राव हूँ, और इस साल मैं आपकी English teacher रहूँगी।"
+        },
+        {
+          "english": "I have been teaching for over eight years and I love making grammar fun.",
+          "hindi": "मैं आठ सालों से ज़्यादा समय से पढ़ा रही हूँ और मुझे grammar को मज़ेदार बनाना पसंद है।"
+        }
+      ]
+    },
+    {
+      "id": "business-meeting-intro",
+      "title": "Introducing Yourself and Your Company in a Business Meeting",
+      "hindiTitle": "Business Meeting mein Apna aur Company ka Introduction",
+      "explanation": "Business meetings mein introduction mein apna designation, company ka naam aur meeting ka purpose short mein cover karna chahiye.",
+      "formula": "Good morning everyone, I'm [Name], [designation] at [Company]. We're here to discuss [purpose].",
+      "examples": [
+        {
+          "english": "Good morning everyone, I'm Rakesh Gupta, Sales Head at ABC Textiles. We're here to discuss the new partnership.",
+          "hindi": "सुप्रभात सभी, मैं राकेश गुप्ता हूँ, ABC Textiles में Sales Head। हम नए partnership पर चर्चा करने आए हैं।"
+        },
+        {
+          "english": "On behalf of my team, I'd like to thank you for this opportunity.",
+          "hindi": "अपनी team की तरफ से, मैं इस अवसर के लिए धन्यवाद देना चाहूँगा।"
+        }
+      ]
+    },
+    {
+      "id": "introduction-mistakes-part3",
+      "title": "Even More Common Mistakes in Self Introduction",
+      "hindiTitle": "Self Introduction ki Aur Bhi Common Galtiyan",
+      "explanation": "11) 'I am married since 2020' ❌ → 'I have been married since 2020' ✅. 12) 'I am staying in Delhi' (for permanent residence) ❌ → 'I live in Delhi' ✅ ('staying' temporary ke liye use hota hai). 13) 'I am agree with introduction format' ❌ → 'I agree with the introduction format' ✅ ('agree' verb hai, 'am' ki zaroorat nahi). 14) 'She is my best friend since childhood' ❌ → 'She has been my best friend since childhood' ✅.",
+      "formula": "Use present perfect ('have been') for actions/states continuing from the past to now",
+      "examples": [
+        {
+          "english": "I have been married since 2020.",
+          "hindi": "गलत: I am married since 2020."
+        },
+        {
+          "english": "I live in Delhi.",
+          "hindi": "गलत (permanent ke liye): I am staying in Delhi."
+        },
+        {
+          "english": "I agree with this.",
+          "hindi": "गलत: I am agree with this."
+        }
+      ]
+    },
+    {
+      "id": "introduction-do-dont",
+      "title": "Do's and Don'ts Checklist for a Strong Self Introduction",
+      "hindiTitle": "Strong Self Introduction ke liye Do's and Don'ts",
+      "explanation": "DO: Naam clearly bolein, eye contact rakhein, positive tone rakhein, situation ke hisaab se tone adjust karein. DON'T: Bahut lamba introduction na dein, negative baatein na karein (jaise 'I am not good at English'), fillers jaise 'um', 'like' bahut zyada use na karein.",
+      "formula": "DO: Clear + Confident + Concise | DON'T: Long + Negative + Filled with 'um/like'",
+      "examples": [
+        {
+          "english": "Do: Keep your introduction under 30-60 seconds unless asked for more detail.",
+          "hindi": "करें: अपना introduction 30-60 seconds के अंदर रखें जब तक ज़्यादा detail न माँगी जाए।"
+        },
+        {
+          "english": "Don't: Avoid saying 'I am not good at English' — it creates a negative impression.",
+          "hindi": "न करें: 'I am not good at English' कहने से बचें — यह negative impression बनाता है।"
+        }
+      ]
+    },
+    {
+      "id": "cultural-notes",
+      "title": "Cultural Notes: Indian vs Western Introduction Styles",
+      "hindiTitle": "Cultural Notes: Indian aur Western Introduction Styles mein Farak",
+      "explanation": "India mein introduction mein family background aur native place batana common hai, jabki Western context mein professional achievements aur hobbies par zyada focus hota hai. Interview jaise formal settings mein Western style (professional-focused) follow karna behtar hota hai.",
+      "formula": "Indian style: Name + Family + Native place | Western/professional style: Name + Role + Achievement",
+      "examples": [
+        {
+          "english": "Indian style: I am Rohan Sharma, from a small town called Rewa, and I come from a family of teachers.",
+          "hindi": "Indian style: मैं रोहन शर्मा हूँ, रीवा नाम के एक छोटे शहर से, और मैं शिक्षकों के परिवार से हूँ।"
+        },
+        {
+          "english": "Western/professional style: I'm Rohan Sharma, a software engineer with expertise in cloud computing.",
+          "hindi": "Western/professional style: मैं रोहन शर्मा हूँ, cloud computing में expertise रखने वाला software engineer।"
+        }
+      ]
     }
   ]
 }
