@@ -1053,14 +1053,23 @@ function VocabularyMassive({ vocabulary, onComplete }) {
         </div>
       )}
 
-      {/* Load More */}
+      {/* Load More + Show All row */}
       {page < totalPages && (
-        <button
-          onClick={() => setPage(p => p + 1)}
-          className="w-full py-4 rounded-xl border-2 border-dashed border-slate-700 text-slate-300 font-bold hover:border-cyan-500 hover:text-cyan-400 transition-all"
-        >
-          Load More Words — Showing {visibleWords.length} of {filtered.length}
-        </button>
+        <div className="flex gap-3">
+          <button
+            onClick={() => setPage(p => p + 1)}
+            className="flex-1 py-4 rounded-xl border-2 border-dashed border-slate-700 text-slate-300 font-bold hover:border-cyan-500 hover:text-cyan-400 transition-all"
+          >
+            Load More (+{Math.min(WORDS_PER_PAGE, filtered.length - visibleWords.length)} words) — {visibleWords.length}/{filtered.length}
+          </button>
+          {/* Show All button — loads every word at once */}
+          <button
+            onClick={() => setPage(totalPages)}
+            className="px-5 py-4 rounded-xl border-2 border-cyan-500/40 bg-cyan-500/10 text-cyan-300 font-bold hover:bg-cyan-500/20 transition-all whitespace-nowrap text-sm"
+          >
+            Show All {filtered.length}
+          </button>
+        </div>
       )}
 
       {/* Complete button */}
