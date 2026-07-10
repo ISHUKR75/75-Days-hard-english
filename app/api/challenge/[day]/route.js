@@ -262,6 +262,16 @@ export async function GET(request, { params }) {
   const challengeData    = readJSON(path.join(dirPath, 'challenge.json'));
   const metaData         = readJSON(path.join(dirPath, 'meta.json'));
 
+  // ── New extended Day 2 content files ──────────────────────────────────────
+  const grammarTheoryData    = readJSON(path.join(dirPath, 'grammar-theory.json'));
+  const storyData            = readJSON(path.join(dirPath, 'story.json'));
+  const essayData            = readJSON(path.join(dirPath, 'essay.json'));
+  const dialogueData         = readJSON(path.join(dirPath, 'dialogue.json'));
+  const flashcardsData       = readJSON(path.join(dirPath, 'flashcards.json'));
+  const conversationData     = readJSON(path.join(dirPath, 'conversation-practice.json'));
+  const commonMistakesData   = readJSON(path.join(dirPath, 'common-mistakes.json'));
+  const memoryTricksData     = readJSON(path.join(dirPath, 'memory-tricks.json'));
+
   // Build the combined response
   const responseData = {
     // Topic info (from static map + meta override)
@@ -294,11 +304,24 @@ export async function GET(request, { params }) {
     challenge:     challengeData,
     meta:          metaData,
 
+    // Extended content modules (Day 2+)
+    grammarTheory:     grammarTheoryData,
+    stories:           storyData,
+    essays:            essayData,
+    dialogues:         dialogueData,
+    flashcards:        flashcardsData,
+    conversationPractice: conversationData,
+    commonMistakes:    commonMistakesData,
+    memoryTricks:      memoryTricksData,
+
     // Stats for the UI
     stats: {
       practiceCount:    extractPractice(practiceData).length,
       vocabularyCount:  extractVocabulary(vocabData).length,
       mockTestCount:    extractMockTest(testData).length,
+      storiesCount:     storyData?.stories?.length || 0,
+      flashcardsCount:  flashcardsData?.flashcards?.length || 0,
+      dialoguesCount:   dialogueData?.dialogues?.length || 0,
       dayNum,
     },
   };
