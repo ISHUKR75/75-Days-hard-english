@@ -1,0 +1,630 @@
+{
+  "day": 2,
+  "topic": "Self Introduction",
+  "title": "Complete Dialogue Collection — Self Introduction (Day 2)",
+  "description": "15 real-life dialogues — job interview, office, college, online, casual, formal. Har dialogue mein vocabulary, grammar points, aur practice tasks hain.",
+  "totalDialogues": 15,
+  "instructions": "Har dialogue ko 2-3 baar padhen. Phir ek role choose karein aur mirror ke saamne practice karein.",
+  "dialogues": [
+    {
+      "id": 1,
+      "title": "Job Interview — Tell Me About Yourself",
+      "hindiTitle": "Job Interview — Tell Me About Yourself",
+      "level": "Beginner",
+      "situation": "Rahul is attending a job interview at an IT company. The interviewer asks him to introduce himself.",
+      "hindiSituation": "राहुल एक IT company में job interview दे रहा है। Interviewer उससे अपना परिचय देने के लिए कह रहे हैं।",
+      "participants": [
+        { "role": "Interviewer", "gender": "Male", "emoji": "👨‍💼" },
+        { "role": "Rahul (Candidate)", "gender": "Male", "emoji": "👦" }
+      ],
+      "dialogue": [
+        { "speaker": "Interviewer", "text": "Good morning, Rahul. Please have a seat.", "hindi": "शुभ प्रभात, राहुल। कृपया बैठिए।" },
+        { "speaker": "Rahul", "text": "Good morning, sir. Thank you.", "hindi": "शुभ प्रभात, सर। धन्यवाद।" },
+        { "speaker": "Interviewer", "text": "So, Rahul, please tell me about yourself.", "hindi": "तो, राहुल, कृपया अपने बारे में बताइए।" },
+        { "speaker": "Rahul", "text": "Sure, sir. My name is Rahul Sharma. I am from Delhi. I completed my B.Tech in Computer Science from Delhi Technological University in 2023 with 8.5 CGPA.", "hindi": "बिल्कुल, सर। मेरा नाम राहुल शर्मा है। मैं दिल्ली से हूँ। मैंने 2023 में Delhi Technological University से Computer Science में B.Tech 8.5 CGPA के साथ पूरी की।" },
+        { "speaker": "Interviewer", "text": "Good. What did you do after graduation?", "hindi": "अच्छा। Graduation के बाद आपने क्या किया?" },
+        { "speaker": "Rahul", "text": "After graduation, I completed a six-month internship at a startup where I worked on web development using React and Node.js. Then I joined a mid-size software company as a junior developer.", "hindi": "Graduation के बाद, मैंने एक startup में छह महीने की internship पूरी की जहाँ मैंने React और Node.js का use करके web development पर काम किया। फिर मैं एक mid-size software company में junior developer के रूप में join किया।" },
+        { "speaker": "Interviewer", "text": "How long have you been working as a developer?", "hindi": "आप कितने समय से developer के रूप में काम कर रहे हैं?" },
+        { "speaker": "Rahul", "text": "I have been working as a developer for one year now. I have experience in building web applications, API integration, and database management.", "hindi": "मैं अभी एक साल से developer के रूप में काम कर रहा हूँ। मुझे web applications बनाने, API integration और database management का अनुभव है।" },
+        { "speaker": "Interviewer", "text": "What are your strengths?", "hindi": "आपकी ताकत क्या है?" },
+        { "speaker": "Rahul", "text": "My biggest strength is problem-solving. I love taking complex challenges and finding simple solutions. I am also a quick learner. When I joined my current company, I learned three new technologies in just two months.", "hindi": "मेरी सबसे बड़ी ताकत problem-solving है। मुझे complex challenges लेना और simple solutions ढूंढना पसंद है। मैं एक quick learner भी हूँ। जब मैं अपनी current company में join हुआ, तो मैंने सिर्फ दो महीनों में तीन नई technologies सीखीं।" },
+        { "speaker": "Interviewer", "text": "What are your hobbies outside work?", "hindi": "काम के बाहर आपके hobbies क्या हैं?" },
+        { "speaker": "Rahul", "text": "I love reading technology blogs and watching coding tutorials on YouTube. I also enjoy playing cricket with friends on weekends. These hobbies keep me energized and motivated.", "hindi": "मुझे technology blogs पढ़ना और YouTube पर coding tutorials देखना पसंद है। मुझे weekends पर दोस्तों के साथ cricket खेलना भी पसंद है। ये hobbies मुझे energized और motivated रखती हैं।" },
+        { "speaker": "Interviewer", "text": "Why do you want to join our company?", "hindi": "आप हमारी company में क्यों join करना चाहते हैं?" },
+        { "speaker": "Rahul", "text": "I have researched your company thoroughly. Your company is known for innovation and for giving young engineers excellent growth opportunities. I want to work in a challenging environment where I can learn and contribute. I believe this role aligns perfectly with my skills and career goals.", "hindi": "मैंने आपकी company के बारे में अच्छी तरह से research किया है। आपकी company innovation के लिए और young engineers को excellent growth opportunities देने के लिए जानी जाती है। मैं एक challenging environment में काम करना चाहता हूँ जहाँ मैं सीख सकूं और contribute कर सकूं।" },
+        { "speaker": "Interviewer", "text": "That was an excellent introduction, Rahul. You are very well-prepared.", "hindi": "यह एक excellent introduction था, राहुल। आप बहुत अच्छी तरह से तैयार हैं।" },
+        { "speaker": "Rahul", "text": "Thank you, sir. I prepared for this interview very carefully because I really want this opportunity.", "hindi": "धन्यवाद, सर। मैंने इस interview के लिए बहुत सावधानी से तैयारी की क्योंकि मैं वास्तव में इस opportunity को चाहता हूँ।" }
+      ],
+      "keyPhrases": [
+        "Please tell me about yourself.",
+        "My name is + [Name]. I am from + [City].",
+        "I completed my + [Degree] from + [University] in + [Year] with + [CGPA/percentage].",
+        "I have been working as a + [role] for + [time].",
+        "My biggest strength is + [noun].",
+        "I believe this role aligns perfectly with my skills."
+      ],
+      "grammarFocus": [
+        "Present Perfect Continuous: I have been working for...",
+        "Gerund after prepositions: After graduation, ...",
+        "Present Simple for facts: I love..., I enjoy...",
+        "Complex sentences with 'when': When I joined..., I learned..."
+      ],
+      "practiceTask": "Is dialogue mein Rahul ki jagah apna naam aur details use karein aur aloud practice karein. Mirror ke saamne karein."
+    },
+    {
+      "id": 2,
+      "title": "First Day at a New Office — Meeting Colleagues",
+      "hindiTitle": "नए ऑफिस में पहला दिन — Colleagues से मिलना",
+      "level": "Beginner",
+      "situation": "Priya joins a new company. She meets her team for the first time in a team meeting.",
+      "hindiSituation": "प्रिया एक नई company join करती है। वो team meeting में पहली बार अपनी team से मिलती है।",
+      "participants": [
+        { "role": "Manager (Mr. Kapoor)", "gender": "Male", "emoji": "👨‍💼" },
+        { "role": "Priya (New Employee)", "gender": "Female", "emoji": "👩" },
+        { "role": "Ankit (Colleague)", "gender": "Male", "emoji": "👦" },
+        { "role": "Simran (Colleague)", "gender": "Female", "emoji": "👩‍💻" }
+      ],
+      "dialogue": [
+        { "speaker": "Mr. Kapoor", "text": "Good morning everyone! Today we have a new team member joining us. Priya, please introduce yourself to the team.", "hindi": "शुभ प्रभात सभी को! आज हमारे team में एक नया member join कर रहा है। प्रिया, कृपया team को अपना परिचय दें।" },
+        { "speaker": "Priya", "text": "Good morning everyone! I am so happy to be here. My name is Priya Malhotra. I am from Chandigarh, but I have been living in Bangalore for the past three years.", "hindi": "शुभ प्रभात सभी को! मैं यहाँ आकर बहुत खुश हूँ। मेरा नाम प्रिया मल्होत्रा है। मैं चंडीगढ़ से हूँ, लेकिन पिछले तीन सालों से Bangalore में रह रही हूँ।" },
+        { "speaker": "Ankit", "text": "Hi Priya! Welcome! I am Ankit. I am in the development team. Which team will you be joining?", "hindi": "नमस्ते प्रिया! स्वागत है! मैं अंकित हूँ। मैं development team में हूँ। आप किस team में join करेंगी?" },
+        { "speaker": "Priya", "text": "Thank you, Ankit! I will be joining the UI/UX design team. I have four years of experience in product design. I worked at a startup in Bangalore before joining here.", "hindi": "धन्यवाद, अंकित! मैं UI/UX design team में join करूंगी। मुझे product design में चार साल का अनुभव है। मैं यहाँ join करने से पहले Bangalore में एक startup में काम करती थी।" },
+        { "speaker": "Simran", "text": "Oh, product design! I love UI design. I am Simran. I work in frontend development. We will definitely work together a lot!", "hindi": "ओह, product design! मुझे UI design बहुत पसंद है। मैं सिमरन हूँ। मैं frontend development में काम करती हूँ। हम निश्चित रूप से बहुत मिलकर काम करेंगे!" },
+        { "speaker": "Priya", "text": "That sounds wonderful, Simran! I believe good design and good development always go hand in hand. I look forward to collaborating with you!", "hindi": "यह बहुत अच्छा लगता है, सिमरन! मेरा मानना है कि अच्छा design और अच्छा development हमेशा साथ-साथ चलते हैं। मैं आपके साथ collaborate करने का इंतजार कर रही हूँ!" },
+        { "speaker": "Mr. Kapoor", "text": "Wonderful! Priya, outside of work, what are your interests?", "hindi": "बहुत अच्छा! प्रिया, काम के अलावा, आपकी क्या रुचि है?" },
+        { "speaker": "Priya", "text": "I love painting! I paint watercolors in my free time. I find it very relaxing and it also helps my design thinking. I also love trekking on weekends. Bangalore has some beautiful trails nearby!", "hindi": "मुझे painting बहुत पसंद है! मैं अपने free time में watercolors से paint करती हूँ। मुझे यह बहुत relaxing लगता है और यह मेरी design thinking में भी मदद करता है। मुझे weekends पर trekking भी पसंद है।" },
+        { "speaker": "Ankit", "text": "Oh, trekking! I go trekking every month! We should go together sometime!", "hindi": "ओह, trekking! मैं हर महीने trekking जाता हूँ! हमें कभी साथ जाना चाहिए!" },
+        { "speaker": "Priya", "text": "That would be amazing! I am really looking forward to getting to know all of you better and contributing to this wonderful team.", "hindi": "यह बहुत अच्छा होगा! मैं वास्तव में आप सभी को बेहतर तरीके से जानने और इस wonderful team में contribute करने का इंतजार कर रही हूँ।" },
+        { "speaker": "Mr. Kapoor", "text": "Welcome once again, Priya. I am sure you will be a great addition to our team.", "hindi": "एक बार फिर स्वागत है, प्रिया। मुझे यकीन है कि आप हमारी team के लिए एक बेहतरीन addition साबित होंगी।" }
+      ],
+      "keyPhrases": [
+        "I am so happy to be here.",
+        "I have been living in + [City] for the past + [time].",
+        "I worked at + [Company] before joining here.",
+        "I believe good X and good Y always go hand in hand.",
+        "I look forward to collaborating with you.",
+        "I am really looking forward to getting to know all of you."
+      ],
+      "grammarFocus": [
+        "Present Perfect Continuous: I have been living for...",
+        "Past Simple: I worked at... before...",
+        "Gerund: I love painting/trekking",
+        "'It' as subject: I find it very relaxing"
+      ],
+      "practiceTask": "Priya ka role play karein. Apne real details use karein — apni city, job experience, aur hobbies."
+    },
+    {
+      "id": 3,
+      "title": "College Orientation — Meeting New Classmates",
+      "hindiTitle": "College Orientation — नए Classmates से मिलना",
+      "level": "Beginner",
+      "situation": "It is the first day of college. Students introduce themselves to each other during orientation.",
+      "hindiSituation": "College का पहला दिन है। Orientation के दौरान students एक-दूसरे से परिचय करते हैं।",
+      "participants": [
+        { "role": "Aman", "gender": "Male", "emoji": "👦" },
+        { "role": "Riya", "gender": "Female", "emoji": "👩" },
+        { "role": "Harsh", "gender": "Male", "emoji": "🧑" }
+      ],
+      "dialogue": [
+        { "speaker": "Aman", "text": "Hi! I am Aman. Are you also a first year student?", "hindi": "नमस्ते! मैं अमन हूँ। क्या आप भी first year student हैं?" },
+        { "speaker": "Riya", "text": "Yes! Hi Aman, I am Riya. I am from Jaipur. Which branch are you in?", "hindi": "हाँ! नमस्ते अमन, मैं रिया हूँ। मैं जयपुर से हूँ। आप किस branch में हैं?" },
+        { "speaker": "Aman", "text": "I am in Computer Science. I am from Lucknow. What about you?", "hindi": "मैं Computer Science में हूँ। मैं लखनऊ से हूँ। आप?" },
+        { "speaker": "Riya", "text": "I am also in Computer Science! This is great! We will be classmates. What is your hobby?", "hindi": "मैं भी Computer Science में हूँ! यह बहुत अच्छा है! हम classmates होंगे। आपका hobby क्या है?" },
+        { "speaker": "Aman", "text": "I love playing chess and coding. I also play guitar sometimes. What about you, Riya?", "hindi": "मुझे chess खेलना और coding पसंद है। मैं कभी-कभी guitar भी बजाता हूँ। आपका क्या, रिया?" },
+        { "speaker": "Riya", "text": "I enjoy reading books and painting. I also like watching science documentaries. Oh, someone is coming!", "hindi": "मुझे books पढ़ना और painting करना पसंद है। मुझे science documentaries देखना भी पसंद है। ओह, कोई आ रहा है!" },
+        { "speaker": "Harsh", "text": "Hi guys! Can I sit with you? I am Harsh from Mumbai. Are you both first year?", "hindi": "नमस्ते! क्या मैं आपके साथ बैठ सकता हूँ? मैं मुंबई से हर्ष हूँ। क्या आप दोनों first year हैं?" },
+        { "speaker": "Aman", "text": "Yes! Welcome! I am Aman from Lucknow, Computer Science. And this is Riya from Jaipur, also Computer Science.", "hindi": "हाँ! स्वागत है! मैं अमन हूँ लखनऊ से, Computer Science। और यह रिया है जयपुर से, भी Computer Science।" },
+        { "speaker": "Harsh", "text": "Oh nice! I am in Mechanical Engineering. But I love tech! I am passionate about robotics and artificial intelligence.", "hindi": "ओह अच्छा! मैं Mechanical Engineering में हूँ। लेकिन मुझे tech बहुत पसंद है! मुझे robotics और artificial intelligence में बहुत रुचि है।" },
+        { "speaker": "Riya", "text": "That is interesting! We can definitely collaborate on some tech projects together!", "hindi": "यह interesting है! हम निश्चित रूप से कुछ tech projects पर साथ collaborate कर सकते हैं!" },
+        { "speaker": "Harsh", "text": "I would love that! By the way, I am also very interested in cricket. I play for my school team. Do you guys play cricket?", "hindi": "मुझे यह बहुत पसंद आएगा! वैसे, मुझे cricket में भी बहुत रुचि है। मैं अपनी school team के लिए खेलता था। क्या आप लोग cricket खेलते हैं?" },
+        { "speaker": "Aman", "text": "I love cricket! I watch every match! Let us exchange numbers. I think we are going to be great friends!", "hindi": "मुझे cricket बहुत पसंद है! मैं हर match देखता हूँ! चलो numbers exchange करते हैं। मुझे लगता है हम बहुत अच्छे दोस्त बनने वाले हैं!" }
+      ],
+      "keyPhrases": [
+        "Are you also a first year student?",
+        "I am from + [City]. Which branch are you in?",
+        "I love/enjoy + verb+ing and verb+ing.",
+        "I am passionate about + [noun].",
+        "Can I sit with you?",
+        "Let us exchange numbers."
+      ],
+      "grammarFocus": [
+        "Questions with 'are': Are you also...?",
+        "Gerund as object: I love playing chess, I enjoy reading",
+        "Expressing enthusiasm: 'This is great!', 'That is interesting!'",
+        "Future Simple: We will be classmates."
+      ],
+      "practiceTask": "Teen students ka group banao aur ye dialogue apne names aur real details ke sath practice karo."
+    },
+    {
+      "id": 4,
+      "title": "Meeting at a Networking Event",
+      "hindiTitle": "Networking Event में मुलाकात",
+      "level": "Intermediate",
+      "situation": "Two professionals meet at a business networking event in Delhi.",
+      "hindiSituation": "Delhi में एक business networking event में दो professionals मिलते हैं।",
+      "participants": [
+        { "role": "Neha (Marketing Professional)", "gender": "Female", "emoji": "👩‍💼" },
+        { "role": "Vikram (Entrepreneur)", "gender": "Male", "emoji": "👨‍💻" }
+      ],
+      "dialogue": [
+        { "speaker": "Neha", "text": "Hi! I do not think we have met before. I am Neha Sharma.", "hindi": "नमस्ते! मुझे नहीं लगता हम पहले मिले हैं। मैं नेहा शर्मा हूँ।" },
+        { "speaker": "Vikram", "text": "Hi Neha! I am Vikram Malhotra. Nice to meet you! This is a great event, isn't it?", "hindi": "नमस्ते नेहा! मैं विक्रम मल्होत्रा हूँ। मिलकर अच्छा लगा! यह एक बहुत अच्छा event है, है ना?" },
+        { "speaker": "Neha", "text": "Absolutely! There are so many interesting people here. What do you do, Vikram?", "hindi": "बिल्कुल! यहाँ बहुत सारे interesting लोग हैं। आप क्या करते हैं, विक्रम?" },
+        { "speaker": "Vikram", "text": "I am the founder and CEO of a fintech startup called MoneyWise. We are building an AI-powered personal finance app. We launched six months ago and already have 50,000 users. What about you?", "hindi": "मैं MoneyWise नाम की एक fintech startup का founder और CEO हूँ। हम एक AI-powered personal finance app बना रहे हैं। हमने छह महीने पहले launch किया और पहले से ही 50,000 users हैं। आप?" },
+        { "speaker": "Neha", "text": "Wow, that is impressive! I am the Head of Marketing at a digital agency called CreativeMinds. We specialize in growth marketing for startups and tech companies. I have been in the marketing industry for eight years.", "hindi": "वाह, यह impressive है! मैं CreativeMinds नाम की एक digital agency में Head of Marketing हूँ। हम startups और tech companies के लिए growth marketing में specialize करते हैं। मैं आठ सालों से marketing industry में हूँ।" },
+        { "speaker": "Vikram", "text": "Oh interesting! Growth marketing for startups — that is exactly what we need right now. What kind of companies have you worked with?", "hindi": "ओह interesting! Startups के लिए growth marketing — यह exactly वही है जो हमें अभी चाहिए। आपने किस तरह की companies के साथ काम किया है?" },
+        { "speaker": "Neha", "text": "I have worked with over thirty startups across fintech, edtech, and healthtech sectors. Some of my notable clients include Razorpay's early marketing push and several Series A funded companies.", "hindi": "मैंने fintech, edtech, और healthtech sectors में तीस से अधिक startups के साथ काम किया है। मेरे notable clients में Razorpay की early marketing push और कई Series A funded companies शामिल हैं।" },
+        { "speaker": "Vikram", "text": "That is exactly the experience we are looking for! We are currently planning our marketing strategy for the next phase of growth. Would you be interested in a conversation about this?", "hindi": "यह exactly वह experience है जिसकी हम तलाश कर रहे हैं! हम अभी growth के अगले phase के लिए अपनी marketing strategy plan कर रहे हैं। क्या आप इस बारे में एक conversation में interested होंगी?" },
+        { "speaker": "Neha", "text": "I would be happy to! Here is my card. Let us schedule a proper meeting next week. I am genuinely excited about the fintech space right now.", "hindi": "मुझे खुशी होगी! यह मेरा card है। चलो अगले हफ्ते एक proper meeting schedule करते हैं। मैं अभी fintech space के बारे में genuinely excited हूँ।" },
+        { "speaker": "Vikram", "text": "Perfect! I will email you tomorrow. By the way, are you on LinkedIn? I would love to connect.", "hindi": "Perfect! मैं कल आपको email करूंगा। वैसे, क्या आप LinkedIn पर हैं? मैं connect करना चाहूंगा।" },
+        { "speaker": "Neha", "text": "Yes, absolutely! Just search Neha Sharma, Head of Marketing. Great meeting you, Vikram. I look forward to our conversation!", "hindi": "हाँ, बिल्कुल! बस Neha Sharma, Head of Marketing search करें। आपसे मिलकर अच्छा लगा, विक्रम। हमारी conversation का इंतजार करूंगी!" },
+        { "speaker": "Vikram", "text": "Same here, Neha! Enjoy the rest of the event!", "hindi": "मुझे भी, नेहा! बाकी event enjoy करें!" }
+      ],
+      "keyPhrases": [
+        "I do not think we have met before.",
+        "What do you do?",
+        "I am the + [position] at + [company].",
+        "We specialize in + [noun/gerund] for + [clients].",
+        "I have been in the + [industry] for + [time].",
+        "I have worked with over + [number] + [noun].",
+        "Would you be interested in + [noun/gerund]?",
+        "Let us schedule a proper meeting."
+      ],
+      "grammarFocus": [
+        "Present Perfect for experience: I have worked with...",
+        "Present Perfect Continuous: I have been in the industry for...",
+        "Present Continuous for plans: We are planning...",
+        "Conditional politeness: Would you be interested in...?"
+      ],
+      "practiceTask": "Networking event mein apna professional introduction taiyar karein. Include: designation, company, specialization, notable achievement, and openness to connect."
+    },
+    {
+      "id": 5,
+      "title": "Online Zoom Meeting Introduction",
+      "hindiTitle": "Online Zoom Meeting में परिचय",
+      "level": "Intermediate",
+      "situation": "A new project kickoff meeting on Zoom. Team members from different cities introduce themselves.",
+      "hindiSituation": "Zoom पर एक नए project का kickoff meeting। अलग-अलग शहरों से team members अपना परिचय देते हैं।",
+      "participants": [
+        { "role": "Pooja (Project Manager)", "gender": "Female", "emoji": "👩‍💼" },
+        { "role": "Dev (Developer, Mumbai)", "gender": "Male", "emoji": "👨‍💻" },
+        { "role": "Tanvi (Designer, Pune)", "gender": "Female", "emoji": "👩‍🎨" },
+        { "role": "Rohit (Tester, Hyderabad)", "gender": "Male", "emoji": "🧑‍🔬" }
+      ],
+      "dialogue": [
+        { "speaker": "Pooja", "text": "Good afternoon everyone! Welcome to our project kickoff meeting. I can see everyone is connected. Let us start with introductions since this is our first meeting together. I am Pooja Arora, the Project Manager for this project. I am based in Delhi. I have been managing software projects for seven years. I am very excited about this project!", "hindi": "शुभ अपराह्न सभी को! हमारे project kickoff meeting में स्वागत है। मैं देख सकती हूँ कि सभी connect हो गए हैं। चलो introductions से शुरू करते हैं क्योंकि यह हमारी पहली meeting है।" },
+        { "speaker": "Dev", "text": "Hi everyone! I am Dev Sharma, Full Stack Developer from Mumbai. I will be leading the backend development for this project. I have five years of experience in Java and Spring Boot. Looking forward to working with everyone!", "hindi": "नमस्ते सभी! मैं Dev Sharma हूँ, Full Stack Developer, मुंबई से। मैं इस project के लिए backend development lead करूंगा। मुझे Java और Spring Boot में पाँच साल का अनुभव है।" },
+        { "speaker": "Tanvi", "text": "Hello everyone! I am Tanvi from Pune. I am a UI/UX Designer. I have been designing digital products for four years. I specialize in creating user-friendly interfaces. I am very excited to see how this project comes together visually!", "hindi": "नमस्ते सभी! मैं Pune से Tanvi हूँ। मैं एक UI/UX Designer हूँ। मैं चार सालों से digital products design कर रही हूँ।" },
+        { "speaker": "Rohit", "text": "Hi team! I am Rohit from Hyderabad. I work as a QA Engineer. My job is to make sure the product is bug-free and meets all quality standards. I have been in software testing for six years. I am a big believer in quality first!", "hindi": "नमस्ते team! मैं Hyderabad से रोहित हूँ। मैं QA Engineer के रूप में काम करता हूँ। मेरा काम यह सुनिश्चित करना है कि product bug-free हो।" },
+        { "speaker": "Pooja", "text": "Wonderful! What a great team we have! I can already feel that this project is going to be a great success. Now let us dive into the project details. But first — does anyone have any quick questions for the team?", "hindi": "बहुत अच्छा! क्या शानदार team है हमारे पास! मुझे पहले से ही लग रहा है कि यह project एक बड़ी सफलता होने वाली है।" },
+        { "speaker": "Dev", "text": "Just a quick one — Tanvi, have you worked with a React-based frontend before? I want to make sure our tech stacks are compatible.", "hindi": "बस एक quick question — Tanvi, क्या आपने पहले React-based frontend के साथ काम किया है? मैं यह सुनिश्चित करना चाहता हूँ कि हमारे tech stacks compatible हों।" },
+        { "speaker": "Tanvi", "text": "Yes, Dev! I have extensive experience with React-based designs. I always design with the developer's implementation in mind. We will work very smoothly together!", "hindi": "हाँ, Dev! मुझे React-based designs का extensive अनुभव है। मैं हमेशा developer के implementation को ध्यान में रखते हुए design करती हूँ।" },
+        { "speaker": "Pooja", "text": "Excellent! I love the collaboration spirit already. Alright, let us move to the project agenda. We have a lot to cover today!", "hindi": "बहुत अच्छा! मुझे पहले से ही collaboration की भावना बहुत पसंद है। ठीक है, चलो project agenda पर move करते हैं।" }
+      ],
+      "keyPhrases": [
+        "I am based in + [City].",
+        "I have been managing/developing/designing for + [time].",
+        "I will be leading the + [function] for this project.",
+        "I specialize in + [area].",
+        "I am a big believer in + [concept].",
+        "I have extensive experience with + [technology/field]."
+      ],
+      "grammarFocus": [
+        "Future Simple for plans: I will be leading...",
+        "Present Perfect Continuous: I have been managing for...",
+        "Present Simple for facts: I specialize in...",
+        "Tag question informal: This project is going to be great, isn't it?"
+      ],
+      "practiceTask": "Online meeting introduction practice karein. Apna role, company, experience, aur specialization clearly state karein."
+    },
+    {
+      "id": 6,
+      "title": "Introduction at a Family Function",
+      "hindiTitle": "पारिवारिक समारोह में परिचय",
+      "level": "Beginner",
+      "situation": "Rohan introduces himself to a distant relative at a family wedding.",
+      "hindiSituation": "रोहन एक family wedding में किसी दूर के रिश्तेदार से परिचय करता है।",
+      "participants": [
+        { "role": "Uncle Suresh", "gender": "Male", "emoji": "👴" },
+        { "role": "Rohan", "gender": "Male", "emoji": "👦" }
+      ],
+      "dialogue": [
+        { "speaker": "Uncle Suresh", "text": "Beta, I do not think we have met properly. Who are you?", "hindi": "बेटा, मुझे नहीं लगता हम ठीक से मिले हैं। तुम कौन हो?" },
+        { "speaker": "Rohan", "text": "Namaste, Uncle! I am Rohan. I am Ravi uncle's son. You know, Ravi uncle who lives in Bangalore?", "hindi": "नमस्ते, अंकल! मैं रोहन हूँ। मैं रवि अंकल का बेटा हूँ। वो रवि अंकल जो Bangalore में रहते हैं?" },
+        { "speaker": "Uncle Suresh", "text": "Oh! Ravi's son! My goodness, you have grown so tall! Last time I saw you, you were this small!", "hindi": "ओह! रवि के बेटे! अरे, तुम इतने लंबे हो गए! पिछली बार जब मैंने तुम्हें देखा था, तुम इतने छोटे थे!" },
+        { "speaker": "Rohan", "text": "Yes Uncle! Time flies! I am now 23 years old. I recently completed my engineering and now I am working.", "hindi": "हाँ अंकल! Time कितना जल्दी बीत जाता है! मैं अब 23 साल का हूँ। मैंने हाल ही में engineering पूरी की और अब मैं काम कर रहा हूँ।" },
+        { "speaker": "Uncle Suresh", "text": "Very good! What kind of work do you do?", "hindi": "बहुत अच्छा! तुम क्या काम करते हो?" },
+        { "speaker": "Rohan", "text": "I work as a software developer at an IT company in Pune. I have been working there for eight months. I really enjoy my work.", "hindi": "मैं Pune में एक IT company में software developer के रूप में काम करता हूँ। मैं वहाँ आठ महीनों से काम कर रहा हूँ। मुझे अपना काम सच में पसंद है।" },
+        { "speaker": "Uncle Suresh", "text": "Software developer! Very good! Your father must be very proud of you!", "hindi": "Software developer! बहुत अच्छा! तुम्हारे पिता को तुम पर बहुत गर्व होगा!" },
+        { "speaker": "Rohan", "text": "I hope so, Uncle! He always wanted me to do well in life. He worked very hard to give me a good education. I want to make him proud.", "hindi": "मुझे उम्मीद है, अंकल! वो हमेशा चाहते थे कि मैं जिंदगी में अच्छा करूं। उन्होंने मुझे अच्छी education देने के लिए बहुत मेहनत की। मैं उन्हें proud करना चाहता हूँ।" },
+        { "speaker": "Uncle Suresh", "text": "That is a very good attitude, beta. Always respect your parents. All the best for your career!", "hindi": "यह बहुत अच्छी सोच है, बेटा। हमेशा अपने माता-पिता का सम्मान करो। अपने career के लिए बहुत-बहुत शुभकामनाएं!" },
+        { "speaker": "Rohan", "text": "Thank you so much, Uncle! It was wonderful talking to you. I hope we meet again soon.", "hindi": "बहुत-बहुत धन्यवाद, अंकल! आपसे बात करके बहुत अच्छा लगा। उम्मीद है हम जल्द फिर मिलेंगे।" }
+      ],
+      "keyPhrases": [
+        "I am + [Name]. I am + [Relation].",
+        "I recently completed my + [Degree].",
+        "I have been working there for + [time].",
+        "I really enjoy my work.",
+        "I want to + [infinitive].",
+        "It was wonderful talking to you."
+      ],
+      "grammarFocus": [
+        "Past Simple for completed events: I completed...",
+        "Present Perfect Continuous: I have been working for...",
+        "Expressing emotions: I really enjoy..., I hope...",
+        "Respectful language in family settings"
+      ],
+      "practiceTask": "Apne kisi bade relative se milne ka scenario practice karein. Apna name, age, education, aur job briefly explain karein."
+    },
+    {
+      "id": 7,
+      "title": "Introduction at a Doctor's Reception",
+      "hindiTitle": "Doctor के Reception पर परिचय",
+      "level": "Beginner",
+      "situation": "Riya visits a new doctor for the first time and introduces herself.",
+      "hindiSituation": "रिया पहली बार एक नए doctor के पास जाती है और अपना परिचय देती है।",
+      "participants": [
+        { "role": "Receptionist", "gender": "Female", "emoji": "👩‍⚕️" },
+        { "role": "Dr. Patel", "gender": "Male", "emoji": "👨‍⚕️" },
+        { "role": "Riya (Patient)", "gender": "Female", "emoji": "👩" }
+      ],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Good morning! How can I help you?", "hindi": "शुभ प्रभात! मैं आपकी कैसे मदद कर सकती हूँ?" },
+        { "speaker": "Riya", "text": "Good morning! I have an appointment with Dr. Patel at 11 o'clock. My name is Riya Sharma.", "hindi": "शुभ प्रभात! डॉ. पटेल के साथ मेरी 11 बजे appointment है। मेरा नाम रिया शर्मा है।" },
+        { "speaker": "Receptionist", "text": "Yes, Ms. Sharma. Please fill in this form. It is your first visit, so we need some basic information.", "hindi": "हाँ, श्रीमती शर्मा। कृपया यह form भरें। यह आपकी पहली visit है, इसलिए हमें कुछ basic information चाहिए।" },
+        { "speaker": "Riya", "text": "Of course. Should I fill in my complete address?", "hindi": "बिल्कुल। क्या मुझे अपना complete address भरना चाहिए?" },
+        { "speaker": "Receptionist", "text": "Yes please. Name, age, address, and emergency contact.", "hindi": "हाँ कृपया। नाम, उम्र, पता, और emergency contact।" },
+        { "speaker": "Dr. Patel", "text": "Riya Sharma? Please come in. Have a seat. I see from the form you are 28 years old and from Powai. Is this your first time seeing me?", "hindi": "रिया शर्मा? कृपया आइए। बैठिए। मैं form से देख रहा हूँ कि आप 28 साल की हैं और Powai से हैं। क्या यह मेरे पास आपकी पहली बार है?" },
+        { "speaker": "Riya", "text": "Yes, Doctor. I recently moved to Mumbai from Pune. I was seeing Dr. Mehta in Pune for the past three years. But since I moved here, I needed to find a new doctor.", "hindi": "हाँ, Doctor। मैं हाल ही में Pune से Mumbai आई हूँ। मैं पिछले तीन सालों से Pune में Dr. Mehta के पास जाती थी। लेकिन यहाँ move करने के बाद, मुझे नया doctor ढूंढना था।" },
+        { "speaker": "Dr. Patel", "text": "I understand. What do you do for work, Riya?", "hindi": "मैं समझता हूँ। रिया, आप काम में क्या करती हैं?" },
+        { "speaker": "Riya", "text": "I am a content writer. I work from home mostly. I spend a lot of time sitting in front of my laptop, which I think is causing my back pain.", "hindi": "मैं content writer हूँ। मैं mostly घर से काम करती हूँ। मैं अपने laptop के सामने बहुत time बैठती हूँ, जिससे मुझे लगता है मेरी पीठ में दर्द हो रहा है।" }
+      ],
+      "keyPhrases": [
+        "I have an appointment with + [Person] at + [Time].",
+        "My name is + [Name].",
+        "I recently moved to + [City] from + [City].",
+        "I was seeing + [Doctor] for the past + [time].",
+        "I am a + [profession]. I work + [from home/at office].",
+        "I spend a lot of time + verb+ing."
+      ],
+      "grammarFocus": [
+        "Present Perfect for recent events: I have moved...",
+        "Past Continuous for ongoing past: I was seeing Dr. Mehta...",
+        "Gerund: spending time sitting...",
+        "Cause-effect: which is causing..."
+      ],
+      "practiceTask": "Doctor ke reception mein apna introduction dein — name, age, profession, aur reason for visit."
+    },
+    {
+      "id": 8,
+      "title": "Group Discussion — First Impressions",
+      "hindiTitle": "Group Discussion — पहली बार मिलना",
+      "level": "Intermediate",
+      "situation": "MBA students practice group discussion. They introduce themselves with personal opinions.",
+      "hindiSituation": "MBA students group discussion practice करते हैं। वो apni personal opinions ke saath introduction dete hain.",
+      "participants": [
+        { "role": "Moderator", "gender": "Male", "emoji": "👨‍🏫" },
+        { "role": "Aditi", "gender": "Female", "emoji": "👩" },
+        { "role": "Saurabh", "gender": "Male", "emoji": "👦" },
+        { "role": "Kavya", "gender": "Female", "emoji": "👩‍💼" }
+      ],
+      "dialogue": [
+        { "speaker": "Moderator", "text": "Good afternoon, candidates. Welcome to the Group Discussion round. Please introduce yourselves briefly. You have 30 seconds each.", "hindi": "शुभ अपराह्न, candidates। Group Discussion round में स्वागत है। कृपया संक्षेप में अपना परिचय दें। आपके पास 30 seconds हैं।" },
+        { "speaker": "Aditi", "text": "Good afternoon! I am Aditi Joshi from Nashik. I completed my Bachelor's in Economics from Fergusson College, Pune, in 2021. I then worked for two years at a leading FMCG company in brand management. I am passionate about consumer insights and I believe that understanding the consumer is the foundation of good business.", "hindi": "शुभ अपराह्न! मैं Nashik से अदिति जोशी हूँ। मैंने 2021 में Pune के Fergusson College से Economics में Bachelor's पूरी की।" },
+        { "speaker": "Saurabh", "text": "Hello everyone! I am Saurabh Nair from Kochi. My background is in engineering — I completed my B.Tech from NIT Calicut. After that, I worked in supply chain management for three years. I am specifically interested in operations and strategy. I believe that operational excellence is what separates successful companies from ordinary ones.", "hindi": "नमस्ते सभी! मैं Kochi से सौरभ नायर हूँ। मेरी background engineering में है।" },
+        { "speaker": "Kavya", "text": "Hi! I am Kavya Reddy from Hyderabad. I studied Computer Science at BITS Pilani. I then joined a tech startup where I led the product team for two years. I am deeply interested in the intersection of technology and business strategy. I believe that in today's world, every business decision must be data-driven.", "hindi": "नमस्ते! मैं Hyderabad से काव्या रेड्डी हूँ। मैंने BITS Pilani में Computer Science पढ़ी।" },
+        { "speaker": "Moderator", "text": "Excellent introductions! All three of you demonstrated clarity of thought and confidence. Aditi, you mentioned consumer insights — could you tell us more about why you believe that?", "hindi": "बेहतरीन introductions! आप तीनों ने सोच की स्पष्टता और confidence दिखाया। अदिति, आपने consumer insights का उल्लेख किया — क्या आप हमें बता सकती हैं कि आप ऐसा क्यों सोचती हैं?" },
+        { "speaker": "Aditi", "text": "Certainly! In my experience at the FMCG company, I saw that brands which deeply understood their customers outperformed those that did not — by significant margins. Data and consumer research were at the heart of every successful campaign we ran.", "hindi": "बिल्कुल! अपने FMCG company के अनुभव में, मैंने देखा कि जो brands अपने customers को deeply समझती थीं, वो उन brands से बेहतर perform करती थीं जो नहीं समझती थीं।" }
+      ],
+      "keyPhrases": [
+        "My background is in + [field].",
+        "I am specifically interested in + [area].",
+        "I believe that + [clause].",
+        "I demonstrated + [quality].",
+        "In my experience at + [Company], I saw that..."
+      ],
+      "grammarFocus": [
+        "Subordinate clauses: I believe that...",
+        "Past Simple for experience: I saw that...",
+        "Compound sentences: I studied... and then joined...",
+        "Reporting language: 'I believe', 'I am deeply interested'"
+      ],
+      "practiceTask": "Group discussion ke liye 30-second introduction taiyar karein: name, city, education, work experience, aur one strong belief about your field."
+    },
+    {
+      "id": 9,
+      "title": "Hotel Check-in Introduction",
+      "hindiTitle": "Hotel Check-in पर परिचय",
+      "level": "Beginner",
+      "situation": "Anil checks into a hotel and introduces himself to the receptionist.",
+      "hindiSituation": "अनिल hotel में check-in करता है और receptionist को अपना परिचय देता है।",
+      "participants": [
+        { "role": "Hotel Receptionist", "gender": "Male", "emoji": "👨‍💼" },
+        { "role": "Anil (Guest)", "gender": "Male", "emoji": "👦" }
+      ],
+      "dialogue": [
+        { "speaker": "Receptionist", "text": "Good evening, sir! Welcome to The Grand Hotel. How may I assist you?", "hindi": "शुभ संध्या, सर! The Grand Hotel में आपका स्वागत है। मैं आपकी कैसे सहायता कर सकता हूँ?" },
+        { "speaker": "Anil", "text": "Good evening! I have a reservation. My name is Anil Kumar. I booked a deluxe room for two nights.", "hindi": "शुभ संध्या! मेरी एक reservation है। मेरा नाम अनिल कुमार है। मैंने दो रात के लिए एक deluxe room book किया है।" },
+        { "speaker": "Receptionist", "text": "Of course, Mr. Kumar. May I have your ID proof please?", "hindi": "बिल्कुल, श्री कुमार। कृपया आपका ID proof दे सकते हैं?" },
+        { "speaker": "Anil", "text": "Yes, here is my Aadhaar card. I am from Bhopal, Madhya Pradesh. I am here for a business conference.", "hindi": "हाँ, यह मेरा Aadhaar card है। मैं मध्य प्रदेश के भोपाल से हूँ। मैं यहाँ एक business conference के लिए आया हूँ।" },
+        { "speaker": "Receptionist", "text": "Thank you, Mr. Kumar. And what do you do, may I ask?", "hindi": "धन्यवाद, श्री कुमार। और आप क्या करते हैं, अगर मैं पूछ सकता हूँ?" },
+        { "speaker": "Anil", "text": "I am a pharmaceutical sales manager. Our company is organizing a regional conference here this week for our sales team.", "hindi": "मैं एक pharmaceutical sales manager हूँ। हमारी company इस हफ्ते हमारी sales team के लिए यहाँ एक regional conference organize कर रही है।" },
+        { "speaker": "Receptionist", "text": "Wonderful! We have several rooms booked for your company's team. You are in Room 502, sir. It has a city view and a beautiful sunrise view. I hope you enjoy your stay with us.", "hindi": "बहुत अच्छा! हमारे पास आपकी company की team के लिए कई rooms book हैं। आप Room 502 में हैं, सर। इसमें city view और beautiful sunrise view है।" },
+        { "speaker": "Anil", "text": "That sounds wonderful! Is there a gym and swimming pool available?", "hindi": "यह बहुत अच्छा लगता है! क्या gym और swimming pool available है?" },
+        { "speaker": "Receptionist", "text": "Yes, sir. The gym is open from 5 AM to 10 PM and the pool from 6 AM to 9 PM. Breakfast is included in your package from 7 AM to 10:30 AM.", "hindi": "हाँ, सर। Gym सुबह 5 बजे से रात 10 बजे तक open है और pool सुबह 6 बजे से रात 9 बजे तक।" },
+        { "speaker": "Anil", "text": "Perfect! Thank you for all the information. I look forward to a comfortable stay.", "hindi": "Perfect! सभी information के लिए धन्यवाद। मैं एक comfortable stay का इंतजार करूंगा।" }
+      ],
+      "keyPhrases": [
+        "I have a reservation. My name is + [Name].",
+        "I booked a + [room type] for + [nights].",
+        "I am from + [City, State].",
+        "I am here for + [purpose].",
+        "I am a + [profession].",
+        "I look forward to a comfortable stay."
+      ],
+      "grammarFocus": [
+        "Past Simple for completed bookings: I booked...",
+        "Purpose clause: I am here for...",
+        "Present Continuous for ongoing plans: Our company is organizing..."
+      ],
+      "practiceTask": "Hotel reception par apna introduction dein — naam, city, occupation, aur purpose of visit."
+    },
+    {
+      "id": 10,
+      "title": "Phone Call Introduction to a New Client",
+      "hindiTitle": "नए Client को Phone Call Introduction",
+      "level": "Intermediate",
+      "situation": "Salesperson Tanya calls a new potential client to introduce herself and her company.",
+      "hindiSituation": "Salesperson Tanya एक नए potential client को call करके अपना और अपनी company का परिचय देती है।",
+      "participants": [
+        { "role": "Tanya (Sales Executive)", "gender": "Female", "emoji": "👩‍💼" },
+        { "role": "Mr. Bose (Client)", "gender": "Male", "emoji": "👨‍💼" }
+      ],
+      "dialogue": [
+        { "speaker": "Tanya", "text": "Good morning! Am I speaking with Mr. Bose?", "hindi": "शुभ प्रभात! क्या मैं श्री बोस से बात कर रही हूँ?" },
+        { "speaker": "Mr. Bose", "text": "Yes, this is Bose speaking. Who am I speaking with?", "hindi": "हाँ, मैं बोस बोल रहा हूँ। मैं किससे बात कर रहा हूँ?" },
+        { "speaker": "Tanya", "text": "Good morning, Mr. Bose! My name is Tanya Mehra. I am calling from SoftSolutions, an IT solutions company based in Bangalore. I hope this is a convenient time to speak?", "hindi": "शुभ प्रभात, श्री बोस! मेरा नाम Tanya Mehra है। मैं Bangalore में स्थित एक IT solutions company, SoftSolutions से call कर रही हूँ। मुझे उम्मीद है यह बात करने का सुविधाजनक समय है?" },
+        { "speaker": "Mr. Bose", "text": "Yes, I have a few minutes. What is this about, Tanya?", "hindi": "हाँ, मेरे पास कुछ minutes हैं। Tanya, यह किस बारे में है?" },
+        { "speaker": "Tanya", "text": "Thank you, Mr. Bose. I am reaching out because one of our mutual connections, Mr. Sharma from TechPark, mentioned that your company might be looking for a reliable IT partner. I wanted to introduce myself and our company briefly.", "hindi": "धन्यवाद, श्री बोस। मैं इसलिए reach out कर रही हूँ क्योंकि हमारे एक mutual connection, TechPark के श्री शर्मा ने बताया कि आपकी company एक reliable IT partner की तलाश में हो सकती है।" },
+        { "speaker": "Mr. Bose", "text": "Oh yes, Sharma did mention your company. Please go ahead.", "hindi": "ओह हाँ, शर्मा ने आपकी company का उल्लेख किया था। कृपया आगे बताएं।" },
+        { "speaker": "Tanya", "text": "Thank you! SoftSolutions has been providing IT services for the past twelve years. We specialize in cloud solutions, custom software development, and cybersecurity. Our client list includes more than two hundred companies across India, including several Fortune 500 companies.", "hindi": "धन्यवाद! SoftSolutions पिछले बारह सालों से IT services provide कर रही है। हम cloud solutions, custom software development, और cybersecurity में specialize करते हैं।" },
+        { "speaker": "Mr. Bose", "text": "Interesting. What makes you different from other IT companies?", "hindi": "Interesting। आप अन्य IT companies से अलग क्या करते हैं?" },
+        { "speaker": "Tanya", "text": "Great question! Our biggest differentiator is our 24/7 support commitment and our average response time of under 15 minutes for critical issues. Also, we offer a money-back guarantee for the first three months if you are not satisfied.", "hindi": "बहुत अच्छा सवाल! हमारा सबसे बड़ा differentiator हमारी 24/7 support commitment है और critical issues के लिए 15 minutes से कम का average response time है।" },
+        { "speaker": "Mr. Bose", "text": "That is impressive. Can we schedule a proper meeting to discuss this in detail?", "hindi": "यह impressive है। क्या हम इसे detail में discuss करने के लिए एक proper meeting schedule कर सकते हैं?" },
+        { "speaker": "Tanya", "text": "Absolutely, Mr. Bose! I would love to schedule a meeting at your convenience. I can send you a calendar invite — would Thursday or Friday work better for you?", "hindi": "बिल्कुल, श्री बोस! मुझे आपकी convenience पर एक meeting schedule करना अच्छा लगेगा। मैं आपको calendar invite भेज सकती हूँ — क्या Thursday या Friday आपके लिए better रहेगा?" }
+      ],
+      "keyPhrases": [
+        "Am I speaking with + [Name]?",
+        "My name is + [Name]. I am calling from + [Company].",
+        "I hope this is a convenient time to speak?",
+        "I am reaching out because + [reason].",
+        "[Company] has been providing + [service] for the past + [time].",
+        "Our biggest differentiator is + [noun].",
+        "I would love to schedule a meeting at your convenience."
+      ],
+      "grammarFocus": [
+        "Present Perfect for company history: has been providing for...",
+        "Indirect questions: I wanted to introduce...",
+        "Conditional politeness: Would Thursday work?",
+        "Comparative: better for you"
+      ],
+      "practiceTask": "Phone call introduction practice karein. Apna naam, company, purpose, aur key value proposition clearly state karein."
+    },
+    {
+      "id": 11,
+      "title": "Introduction at a Sports Club",
+      "hindiTitle": "Sports Club में परिचय",
+      "level": "Beginner",
+      "situation": "Rohan joins a local cricket club and introduces himself to the team.",
+      "hindiSituation": "रोहन एक local cricket club join करता है और team को अपना परिचय देता है।",
+      "participants": [
+        { "role": "Club Captain (Raj)", "gender": "Male", "emoji": "🏏" },
+        { "role": "Rohan (New Member)", "gender": "Male", "emoji": "👦" },
+        { "role": "Team Member (Akash)", "gender": "Male", "emoji": "🧑‍🤝‍🧑" }
+      ],
+      "dialogue": [
+        { "speaker": "Raj", "text": "Hey everyone! We have a new member joining our team today. Rohan, please introduce yourself!", "hindi": "सुनो सबको! आज हमारे team में एक नया member join कर रहा है। रोहन, अपना परिचय दो!" },
+        { "speaker": "Rohan", "text": "Hi everyone! I am Rohan Verma. I am 25 years old. I am from Agra originally, but I am currently living in Noida. I have been playing cricket since I was 8 years old.", "hindi": "नमस्ते सभी! मैं रोहन वर्मा हूँ। मैं 25 साल का हूँ। मैं originally Agra से हूँ, लेकिन अभी Noida में रह रहा हूँ। मैं 8 साल की उम्र से cricket खेल रहा हूँ।" },
+        { "speaker": "Akash", "text": "Nice! What is your batting position?", "hindi": "अच्छा! आपकी batting position क्या है?" },
+        { "speaker": "Rohan", "text": "I am an opening batsman. I am also a medium-pace bowler. In my school days, I captained my school team and we won the district championship two years in a row.", "hindi": "मैं opening batsman हूँ। मैं medium-pace bowler भी हूँ। अपने school के दिनों में, मैंने अपनी school team की captaincy की और हमने लगातार दो साल district championship जीता।" },
+        { "speaker": "Raj", "text": "Excellent! We definitely need a good opening batsman. Do you have any experience playing at club level?", "hindi": "बहुत अच्छा! हमें definitely एक अच्छे opening batsman की जरूरत है। क्या आपको club level पर खेलने का कोई अनुभव है?" },
+        { "speaker": "Rohan", "text": "Yes! I played for Agra Cricket Club for two seasons. We reached the semi-finals of the state club championship. I also played university cricket for Agra University.", "hindi": "हाँ! मैंने दो seasons के लिए Agra Cricket Club के लिए खेला। हम state club championship के semi-finals तक पहुँचे। मैंने Agra University के लिए university cricket भी खेला।" },
+        { "speaker": "Akash", "text": "That is impressive! I love your passion for the game. What do you do professionally?", "hindi": "यह impressive है! मुझे खेल के प्रति आपका passion पसंद है। आप professionally क्या करते हैं?" },
+        { "speaker": "Rohan", "text": "I am a civil engineer. I work with a construction company in Noida. My weekends are completely free, so I will be available for all matches and practice sessions!", "hindi": "मैं civil engineer हूँ। मैं Noida में एक construction company के साथ काम करता हूँ। मेरे weekends completely free हैं, इसलिए मैं सभी matches और practice sessions के लिए available रहूंगा!" },
+        { "speaker": "Raj", "text": "Perfect! Welcome to the team, Rohan! I think you will be a great asset. Let us start with some practice today!", "hindi": "Perfect! Team में स्वागत है, रोहन! मुझे लगता है तुम team के लिए एक बेहतरीन asset साबित होगे। चलो आज कुछ practice से शुरू करते हैं!" }
+      ],
+      "keyPhrases": [
+        "I am originally from + [City], but I am currently living in + [City].",
+        "I have been playing + [sport] since I was + [age] years old.",
+        "I am a + [position/role].",
+        "I captained my team and we won + [achievement].",
+        "I am available for all + [events]."
+      ],
+      "grammarFocus": [
+        "Present Perfect Continuous: I have been playing since...",
+        "Past Simple for achievements: We won..., We reached...",
+        "Future Simple for commitments: I will be available...",
+        "Compound adjectives: medium-pace"
+      ],
+      "practiceTask": "Sports club ya hobby group ke liye introduction dein — apna naam, background, kab se khel rahe hain, achievements, aur availability."
+    },
+    {
+      "id": 12,
+      "title": "Introduction in English Class",
+      "hindiTitle": "English Class में परिचय",
+      "level": "Beginner",
+      "situation": "Students introduce themselves on the first day of an English speaking class.",
+      "hindiSituation": "Students English speaking class के पहले दिन अपना परिचय देते हैं।",
+      "participants": [
+        { "role": "Teacher (Ms. Patel)", "gender": "Female", "emoji": "👩‍🏫" },
+        { "role": "Mohan (Student)", "gender": "Male", "emoji": "👦" },
+        { "role": "Seema (Student)", "gender": "Female", "emoji": "👩" }
+      ],
+      "dialogue": [
+        { "speaker": "Ms. Patel", "text": "Good evening, class! Welcome to our Spoken English course. Today is our first class and I want everyone to introduce themselves. Please say your name, what you do, why you joined this class, and one thing about yourself that nobody knows. Mohan, let us start with you!", "hindi": "शुभ संध्या, class! हमारे Spoken English course में स्वागत है। आज हमारी पहली class है और मैं चाहती हूँ कि सभी अपना परिचय दें।" },
+        { "speaker": "Mohan", "text": "Good evening, ma'am and classmates! My name is Mohan Das. I am from Patna, but I work in Gurgaon as an accountant. I joined this class because my company is expanding internationally and I need to communicate confidently with foreign clients. One thing that nobody knows — I can cook 50 different types of dishes!", "hindi": "शुभ संध्या, ma'am और classmates! मेरा नाम मोहन दास है। मैं पटना से हूँ, लेकिन Gurgaon में accountant के रूप में काम करता हूँ।" },
+        { "speaker": "Ms. Patel", "text": "Wonderful, Mohan! International communication — that is a very practical goal. Seema, your turn!", "hindi": "बहुत अच्छा, मोहन! International communication — यह एक बहुत practical goal है। सीमा, आपकी बारी!" },
+        { "speaker": "Seema", "text": "Good evening everyone! My name is Seema Rao. I am a housewife from Bangalore. I have two children — a daughter of 8 and a son of 5. I joined this class because I want to help my children with their English homework, and I also want to speak confidently at parent-teacher meetings. My secret — I love writing poetry in Kannada!", "hindi": "शुभ संध्या सभी को! मेरा नाम सीमा राव है। मैं Bangalore से housewife हूँ। मेरे दो बच्चे हैं — 8 साल की बेटी और 5 साल का बेटा।" },
+        { "speaker": "Ms. Patel", "text": "Beautiful! Seema, poetry writing is a wonderful skill! And your goal of helping your children — that is the most selfless reason to learn English. You are all very inspiring. I am confident that by the end of this course, all of you will achieve your goals!", "hindi": "बहुत सुंदर! सीमा, कविता लिखना एक wonderful skill है! और अपने बच्चों की मदद करने का लक्ष्य — यह English सीखने का सबसे निःस्वार्थ कारण है।" }
+      ],
+      "keyPhrases": [
+        "I am from + [City], but I work in + [City].",
+        "I joined this class because + [reason].",
+        "I need to + [infinitive].",
+        "I want to help + [person] + [infinitive].",
+        "One thing that nobody knows — [fun fact]."
+      ],
+      "grammarFocus": [
+        "Gerund as subject: Cooking, writing, speaking...",
+        "Purpose clause: I joined because..., I want to...",
+        "Compound sentences with 'and': I joined... and I also...",
+        "Relative clause: A daughter of 8 (parenthetical)"
+      ],
+      "practiceTask": "English class mein apna introduction dein — naam, job/background, English seekhne ka reason, aur ek secret/fun fact."
+    },
+    {
+      "id": 13,
+      "title": "Introduction at a Government Office",
+      "hindiTitle": "Government Office में परिचय",
+      "level": "Beginner",
+      "situation": "Ramesh visits a government office for document verification and introduces himself.",
+      "hindiSituation": "रमेश document verification के लिए government office जाता है।",
+      "participants": [
+        { "role": "Officer", "gender": "Male", "emoji": "👨‍💼" },
+        { "role": "Ramesh (Applicant)", "gender": "Male", "emoji": "👦" }
+      ],
+      "dialogue": [
+        { "speaker": "Officer", "text": "Please come in. Take a seat. What is your name?", "hindi": "कृपया आइए। बैठिए। आपका नाम क्या है?" },
+        { "speaker": "Ramesh", "text": "Good morning, sir. My name is Ramesh Tiwari. I am here for the document verification for my passport application.", "hindi": "शुभ प्रभात, सर। मेरा नाम रमेश तिवारी है। मैं अपने passport application के document verification के लिए यहाँ आया हूँ।" },
+        { "speaker": "Officer", "text": "What is your date of birth and address?", "hindi": "आपकी जन्म तिथि और पता क्या है?" },
+        { "speaker": "Ramesh", "text": "My date of birth is 15th March 1990. I am 35 years old. My permanent address is 42, Ram Nagar, Varanasi, Uttar Pradesh. I currently reside in Mumbai for work purposes.", "hindi": "मेरी जन्म तिथि 15 मार्च 1990 है। मैं 35 साल का हूँ। मेरा permanent address है 42, राम नगर, वाराणसी, उत्तर प्रदेश। मैं वर्तमान में काम के लिए Mumbai में रहता हूँ।" },
+        { "speaker": "Officer", "text": "What do you do for a living?", "hindi": "आप जीविका के लिए क्या करते हैं?" },
+        { "speaker": "Ramesh", "text": "I am a sales executive at a pharmaceutical company in Mumbai. I have been working there for five years. My purpose of applying for a passport is for an official business trip to Singapore next month.", "hindi": "मैं Mumbai में एक pharmaceutical company में sales executive हूँ। मैं वहाँ पाँच सालों से काम कर रहा हूँ। Passport के लिए apply करने का मेरा उद्देश्य अगले महीने Singapore की एक official business trip है।" },
+        { "speaker": "Officer", "text": "Do you have all the required documents?", "hindi": "क्या आपके पास सभी required documents हैं?" },
+        { "speaker": "Ramesh", "text": "Yes, sir. I have brought my Aadhaar card, PAN card, address proof, employment letter from my company, and bank statement. I have also brought the original and three photocopies of each document.", "hindi": "हाँ, सर। मैं अपना Aadhaar card, PAN card, address proof, company का employment letter, और bank statement लाया हूँ।" }
+      ],
+      "keyPhrases": [
+        "My name is + [Name]. I am here for + [purpose].",
+        "My date of birth is + [date].",
+        "My permanent address is + [full address].",
+        "I currently reside in + [City] for + [purpose] purposes.",
+        "I am a + [profession] at + [Company].",
+        "My purpose of + verb+ing + [is + infinitive]."
+      ],
+      "grammarFocus": [
+        "Present Simple for facts: I am, I reside",
+        "Formal language in official settings",
+        "Compound noun phrases: employment letter, bank statement",
+        "Purpose clauses: for work purposes, for an official trip"
+      ],
+      "practiceTask": "Government office ya formal setting mein apna formal introduction dein — naam, date of birth, permanent address, current city, occupation, purpose of visit."
+    },
+    {
+      "id": 14,
+      "title": "Social Media Live Introduction",
+      "hindiTitle": "Social Media Live पर परिचय",
+      "level": "Intermediate",
+      "situation": "Shruti starts her first Instagram Live session and introduces herself to her audience.",
+      "hindiSituation": "श्रुति अपना पहला Instagram Live session शुरू करती है और अपने audience को अपना परिचय देती है।",
+      "participants": [
+        { "role": "Shruti (Content Creator)", "gender": "Female", "emoji": "👩‍🎤" }
+      ],
+      "dialogue": [
+        { "speaker": "Shruti", "text": "Hey hey hey! We are live! Oh my goodness, I am so nervous! This is my very first Instagram Live. Okay, let me take a breath... Hello everyone watching! Thank you so much for joining me today.", "hindi": "हे हे हे! हम live हैं! ओह my goodness, मैं इतनी nervous हूँ! यह मेरा पहला Instagram Live है।" },
+        { "speaker": "Shruti", "text": "For those of you who do not know me yet — hi! I am Shruti! I am 26 years old. I am from Indore, but I currently live in Mumbai. I am a UX designer by profession, which means I design websites and apps that are easy to use.", "hindi": "जो लोग मुझे अभी नहीं जानते — नमस्ते! मैं श्रुति हूँ! मैं 26 साल की हूँ। मैं Indore से हूँ, लेकिन अभी Mumbai में रहती हूँ।" },
+        { "speaker": "Shruti", "text": "I started this Instagram page three months ago because I wanted to share my journey of learning English. You see, even though I work in a tech company and I am good at my job, I always felt a lack of confidence when speaking English in professional settings. So I decided — let me document my journey and maybe help others like me.", "hindi": "मैंने तीन महीने पहले यह Instagram page शुरू किया क्योंकि मैं English सीखने की अपनी journey share करना चाहती थी।" },
+        { "speaker": "Shruti", "text": "Some things about me that you might not know: I am obsessed with coffee. I have tried coffees from more than forty countries — just the packaged ones, I have not traveled that much yet! I am also a terrible singer, but I love singing anyway. And I am a big Coldplay fan. If you are too, comment 'yellow' right now!", "hindi": "मेरे बारे में कुछ बातें जो आप शायद नहीं जानते: मैं coffee की दीवानी हूँ।" },
+        { "speaker": "Shruti", "text": "In this Live, I want to share five tips for introducing yourself confidently in English — whether it is at a job interview, in a meeting, or just meeting someone new. Because I spent years struggling with exactly this, and I finally cracked the code. Ready? Let us go!", "hindi": "इस Live में, मैं English में confidently खुद का परिचय देने के पाँच tips share करना चाहती हूँ। क्योंकि मैंने सालों इसी बात से संघर्ष किया, और अंत में मैंने इसे crack किया।" }
+      ],
+      "keyPhrases": [
+        "For those of you who do not know me yet — hi! I am + [Name].",
+        "I am a + [profession] by profession, which means I + [explanation].",
+        "I started this [platform] + [time] ago because I wanted to + [infinitive].",
+        "Even though I + [clause], I always felt + [emotion].",
+        "I am obsessed with + [noun].",
+        "I finally cracked the code!"
+      ],
+      "grammarFocus": [
+        "'Which means' for explanation: I am a designer, which means I...",
+        "Because/since for reason: I started this because...",
+        "Even though for contrast: Even though I am good at my job...",
+        "Informal contractions and enthusiasm"
+      ],
+      "practiceTask": "Social media ke liye 60-second introduction record karein (ya likhein) — naam, city, profession, page/channel ka purpose, ek fun fact, aur aaj ke topic ka preview."
+    },
+    {
+      "id": 15,
+      "title": "Self Introduction at a Conference",
+      "hindiTitle": "Conference में Self Introduction",
+      "level": "Advanced",
+      "situation": "Dr. Ananya introduces herself at an international education conference in New Delhi.",
+      "hindiSituation": "Dr. अनन्या New Delhi में एक international education conference में अपना परिचय देती हैं।",
+      "participants": [
+        { "role": "Conference Host", "gender": "Male", "emoji": "🎙️" },
+        { "role": "Dr. Ananya Krishnan", "gender": "Female", "emoji": "👩‍🔬" }
+      ],
+      "dialogue": [
+        { "speaker": "Conference Host", "text": "Distinguished guests, ladies and gentlemen, it is my great pleasure to introduce our next keynote speaker. Dr. Ananya, the floor is yours.", "hindi": "विशिष्ट अतिथि गण, देवियों और सज्जनों, मुझे हमारे अगले keynote speaker का परिचय देते हुए अत्यंत प्रसन्नता है।" },
+        { "speaker": "Dr. Ananya", "text": "Good afternoon, distinguished guests, esteemed colleagues, and everyone joining us virtually from across the globe. I am deeply honoured to be invited to address this magnificent gathering.", "hindi": "शुभ अपराह्न, विशिष्ट अतिथि गण, सम्मानित सहयोगियों, और दुनिया भर से virtually जुड़ रहे सभी लोगों को।" },
+        { "speaker": "Dr. Ananya", "text": "Allow me to briefly introduce myself. My name is Dr. Ananya Krishnan. I am a Professor of Educational Psychology at IIT Bombay, where I have been teaching and conducting research for the past fifteen years.", "hindi": "मुझे संक्षेप में अपना परिचय देने की अनुमति दें। मेरा नाम Dr. अनन्या कृष्णन है। मैं IIT Bombay में Educational Psychology की Professor हूँ।" },
+        { "speaker": "Dr. Ananya", "text": "My research focuses on three interconnected areas: how young learners acquire language, the role of emotional intelligence in academic achievement, and the application of neuroscience findings to classroom teaching. Over the past decade, my team and I have worked with more than five thousand students across twelve states in India.", "hindi": "मेरा research तीन आपस में जुड़े areas पर केंद्रित है: young learners कैसे भाषा सीखते हैं, academic achievement में emotional intelligence की भूमिका, और classroom teaching में neuroscience findings का application।" },
+        { "speaker": "Dr. Ananya", "text": "I hold a PhD from Cambridge University and a post-doctoral fellowship from Stanford. I have authored four books on language acquisition and educational psychology, and I have published over sixty research papers in peer-reviewed international journals.", "hindi": "मेरे पास Cambridge University से PhD और Stanford से post-doctoral fellowship है। मैंने language acquisition और educational psychology पर चार books लिखी हैं।" },
+        { "speaker": "Dr. Ananya", "text": "But beyond all these titles and numbers, I am, at heart, a teacher who believes that every child has the capacity to learn — given the right environment, the right teacher, and the right method. That is the message I want to leave with you today, and that is what I will be speaking about in the next forty-five minutes.", "hindi": "लेकिन इन सभी titles और numbers से परे, मैं दिल से एक teacher हूँ जो मानती है कि हर बच्चे में सीखने की क्षमता है — सही environment, सही teacher, और सही method दिया जाए।" },
+        { "speaker": "Dr. Ananya", "text": "I invite you to join me on this intellectual journey. I promise — it will be worth your time. Thank you.", "hindi": "मैं आपको इस intellectual journey में शामिल होने के लिए आमंत्रित करती हूँ। मैं वादा करती हूँ — यह आपके समय के लायक होगा। धन्यवाद।" },
+        { "speaker": "Conference Host", "text": "Thank you, Dr. Ananya! What a remarkable introduction. Ladies and gentlemen, please join me in welcoming Dr. Ananya Krishnan to the stage!", "hindi": "धन्यवाद, Dr. अनन्या! क्या शानदार introduction था।" }
+      ],
+      "keyPhrases": [
+        "I am deeply honoured to be invited to address this gathering.",
+        "Allow me to briefly introduce myself.",
+        "I am a + [Designation] at + [Institution], where I have been + verb+ing for the past + [time].",
+        "My research focuses on + [areas].",
+        "I hold a PhD from + [University].",
+        "I have authored + [number] books on + [topic].",
+        "But beyond all these titles, I am, at heart, a + [simple identity].",
+        "I invite you to join me on this + [type] journey."
+      ],
+      "grammarFocus": [
+        "Passive constructions: I have been invited",
+        "Relative clause: where I have been teaching",
+        "Parallel structure: how X, the role of Y, and the application of Z",
+        "Concession with 'beyond': Beyond all these titles...",
+        "Gerund phrase: given the right environment"
+      ],
+      "practiceTask": "Conference ya public speaking ke liye formal introduction likhein. Include: greeting, name/designation, institution, research/work focus, key achievements, aur the core message/belief."
+    }
+  ],
+  "summaryOfKeyPhrases": {
+    "formal": [
+      "Good morning/afternoon/evening.",
+      "My name is + [Full Name].",
+      "I am from + [City, State].",
+      "I completed my + [Degree] from + [Institution] in + [Year].",
+      "I have + [X] years of experience in + [field].",
+      "I am passionate about + [noun/gerund].",
+      "My goal is to + [infinitive].",
+      "It is a pleasure to meet you.",
+      "I look forward to + [noun/gerund].",
+      "Thank you for this opportunity."
+    ],
+    "informal": [
+      "Hi! I am + [Name].",
+      "I am from + [City].",
+      "I love + [verb+ing].",
+      "I work as + [job].",
+      "Nice to meet you!",
+      "What about you?",
+      "Let us exchange numbers.",
+      "I hope we will + [future action]."
+    ],
+    "professional": [
+      "I am the + [designation] at + [Company].",
+      "I specialize in + [area].",
+      "I have been + verb+ing for + [time].",
+      "My biggest strength is + [noun].",
+      "I believe that + [clause].",
+      "I would love to schedule a meeting.",
+      "I am open to + verb+ing.",
+      "I bring + [X] years of experience to the table."
+    ]
+  }
+}

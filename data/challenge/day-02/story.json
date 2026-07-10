@@ -1,0 +1,571 @@
+{
+  "day": 2,
+  "topic": "Self Introduction",
+  "title": "Story Collection — Self Introduction (Day 2)",
+  "description": "Ye stories sirf Day 2 ke grammar aur vocabulary se bani hain. Padhne ke baad questions answer karein.",
+  "totalStories": 8,
+  "stories": [
+    {
+      "id": 1,
+      "title": "Rahul's First Day at Office",
+      "hindiTitle": "राहुल का ऑफिस में पहला दिन",
+      "level": "Beginner",
+      "cefr": "A1",
+      "wordCount": 180,
+      "theme": "Office Introduction",
+      "story": "My name is Rahul Sharma. I am from Delhi. Today is my first day at my new office. I am a software engineer. I work at a big IT company in Noida.\n\nI walk into the office. There are many people. I feel nervous. My manager, Mr. Singh, sees me. He smiles and says, 'Good morning, Rahul! Welcome to our team.'\n\nMr. Singh takes me to meet my colleagues. He says, 'Everyone, please meet Rahul. He is our new software engineer.'\n\nI smile and say, 'Good morning everyone! My name is Rahul Sharma. I am from Delhi. I completed my B.Tech from Delhi University in 2022. I have one year of experience in web development. I love coding and solving problems. I hope we will work well together.'\n\nEveryone claps. A girl named Priya says, 'Welcome, Rahul! I am Priya. I am also a software engineer. Nice to meet you!'\n\nI feel happy. I think, 'This is a good team. I will enjoy working here.'\n\nI take my seat. I look around. The office is big and modern. I think, 'This is a new beginning. I will give my best here.'",
+      "hindiTranslation": "मेरा नाम राहुल शर्मा है। मैं दिल्ली से हूँ। आज मेरे नए ऑफिस का पहला दिन है। मैं एक सॉफ्टवेयर इंजीनियर हूँ। मैं नोएडा की एक बड़ी आईटी कंपनी में काम करता हूँ।\n\nमैं ऑफिस में चलकर आता हूँ। वहाँ बहुत सारे लोग हैं। मैं नर्वस महसूस करता हूँ। मेरे मैनेजर, श्री सिंह, मुझे देखते हैं। वो मुस्कुराते हैं और कहते हैं, 'गुड मॉर्निंग, राहुल! हमारी टीम में आपका स्वागत है।'\n\nश्री सिंह मुझे मेरे colleagues से मिलाने ले जाते हैं।",
+      "vocabulary": [
+        { "word": "nervous", "meaning": "घबराया हुआ / anxious", "usage": "I feel nervous on the first day." },
+        { "word": "colleague", "meaning": "सहकर्मी / co-worker", "usage": "My colleagues are very friendly." },
+        { "word": "experience", "meaning": "अनुभव / work knowledge", "usage": "I have one year of experience." },
+        { "word": "beginning", "meaning": "शुरुआत / start", "usage": "This is a new beginning." },
+        { "word": "modern", "meaning": "आधुनिक / up-to-date", "usage": "The office is big and modern." }
+      ],
+      "grammarPoints": [
+        "My name is + [Name] — नाम बताने का तरीका",
+        "I am from + [City] — शहर बताने का तरीका",
+        "I work at + [Company] — काम की जगह बताना",
+        "I completed + [Degree] from + [College] in + [Year]",
+        "I have + [Time] of experience in + [Field]",
+        "I love + verb+ing — पसंद बताना"
+      ],
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "Where is Rahul from?",
+          "options": ["Mumbai", "Delhi", "Noida", "Lucknow"],
+          "correct": "Delhi",
+          "hindi": "राहुल कहाँ से है?",
+          "explanation": "The story says 'I am from Delhi.'"
+        },
+        {
+          "id": 2,
+          "question": "What is Rahul's profession?",
+          "options": ["Doctor", "Teacher", "Software Engineer", "Manager"],
+          "correct": "Software Engineer",
+          "hindi": "राहुल का पेशा क्या है?",
+          "explanation": "The story says 'I am a software engineer.'"
+        },
+        {
+          "id": 3,
+          "question": "From which university did Rahul complete his B.Tech?",
+          "options": ["IIT Delhi", "Delhi University", "BITS", "Noida University"],
+          "correct": "Delhi University",
+          "hindi": "राहुल ने B.Tech कहाँ से पूरी की?",
+          "explanation": "The story says 'I completed my B.Tech from Delhi University in 2022.'"
+        },
+        {
+          "id": 4,
+          "question": "How many years of experience does Rahul have?",
+          "options": ["Two years", "Three years", "One year", "Five years"],
+          "correct": "One year",
+          "hindi": "राहुल के पास कितने साल का अनुभव है?",
+          "explanation": "The story says 'I have one year of experience in web development.'"
+        },
+        {
+          "id": 5,
+          "question": "What does Rahul love doing?",
+          "options": ["Dancing", "Cooking", "Coding and solving problems", "Traveling"],
+          "correct": "Coding and solving problems",
+          "hindi": "राहुल को क्या करना पसंद है?",
+          "explanation": "The story says 'I love coding and solving problems.'"
+        }
+      ],
+      "practiceTask": {
+        "hindi": "अब Rahul की तरह आप भी अपना office introduction तैयार करें। नीचे दिए template को use करें:",
+        "template": "Good morning everyone! My name is ___. I am from ___. I completed my ___ from ___ in ___. I have ___ of experience in ___. I love ___ and ___. I hope we will work well together.",
+        "tips": [
+          "अपना असली नाम और शहर use करें",
+          "अपनी actual qualification लिखें",
+          "Real hobby और interest mention करें",
+          "Confident tone रखें"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "title": "Priya's Interview Day",
+      "hindiTitle": "प्रिया का Interview वाला दिन",
+      "level": "Beginner",
+      "cefr": "A1",
+      "wordCount": 200,
+      "theme": "Interview Introduction",
+      "story": "My name is Priya Gupta. I am from Jaipur, Rajasthan. I am 24 years old. I completed my MBA from JECRC University in 2023. I have a keen interest in human resources.\n\nToday, I have a job interview at a big company in Bangalore. I am very excited and a little nervous. I prepare my introduction carefully.\n\nI enter the interview room. Three people are sitting there. They look at me. I take a deep breath and smile.\n\nThe interviewer says, 'Please introduce yourself.'\n\nI stand straight and say clearly, 'Good morning. Thank you for this opportunity. My name is Priya Gupta. I am from Jaipur, Rajasthan. I completed my MBA in Human Resource Management from JECRC University with 8.2 CGPA. During my studies, I completed an internship at a leading FMCG company for six months. I am passionate about people development and organizational culture. My goal is to become an HR professional who makes a real difference in employees' lives. I believe that happy employees make a successful company.'\n\nThe interviewer smiles and says, 'Excellent introduction, Priya!'\n\nPriya feels confident. She thinks, 'Practice makes perfect. I am ready for this.'",
+      "hindiTranslation": "मेरा नाम प्रिया गुप्ता है। मैं जयपुर, राजस्थान से हूँ। मेरी उम्र 24 साल है। मैंने 2023 में JECRC University से MBA किया है। मुझे human resources में गहरी रुचि है।\n\nआज मेरा Bangalore की एक बड़ी कंपनी में interview है। मैं बहुत excited हूँ और थोड़ी nervous भी।",
+      "vocabulary": [
+        { "word": "keen interest", "meaning": "गहरी रुचि / deep enthusiasm", "usage": "I have a keen interest in HR." },
+        { "word": "opportunity", "meaning": "अवसर / chance", "usage": "Thank you for this opportunity." },
+        { "word": "internship", "meaning": "प्रशिक्षण / on-the-job training", "usage": "I completed an internship for six months." },
+        { "word": "passionate", "meaning": "उत्साही / deeply interested", "usage": "I am passionate about people development." },
+        { "word": "organizational culture", "meaning": "संगठनात्मक संस्कृति / company values and work style", "usage": "She is interested in organizational culture." },
+        { "word": "confident", "meaning": "आत्मविश्वासी / sure of oneself", "usage": "Priya feels confident after the introduction." }
+      ],
+      "grammarPoints": [
+        "I am from + [City, State] — formal way with state",
+        "I am + [age] years old — age bataana",
+        "I completed my + [Degree] from + [University] in + [Year]",
+        "I have a keen interest in + [Field]",
+        "I am passionate about + [Noun/Gerund]",
+        "My goal is to + [Infinitive]",
+        "I believe that + [Clause]"
+      ],
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "Where is Priya from?",
+          "options": ["Mumbai", "Delhi", "Jaipur", "Bangalore"],
+          "correct": "Jaipur",
+          "hindi": "प्रिया कहाँ से है?",
+          "explanation": "'I am from Jaipur, Rajasthan.'"
+        },
+        {
+          "id": 2,
+          "question": "What degree did Priya complete?",
+          "options": ["B.Tech", "MBA", "MBBS", "M.Tech"],
+          "correct": "MBA",
+          "hindi": "प्रिया ने कौन सी degree पूरी की?",
+          "explanation": "'I completed my MBA from JECRC University.'"
+        },
+        {
+          "id": 3,
+          "question": "What was Priya's CGPA?",
+          "options": ["7.5", "8.2", "9.0", "6.8"],
+          "correct": "8.2",
+          "hindi": "प्रिया का CGPA कितना था?",
+          "explanation": "'completed my MBA with 8.2 CGPA'"
+        },
+        {
+          "id": 4,
+          "question": "How long was Priya's internship?",
+          "options": ["Three months", "One year", "Six months", "Two months"],
+          "correct": "Six months",
+          "hindi": "प्रिया की internship कितने समय के लिए थी?",
+          "explanation": "'internship at a leading FMCG company for six months'"
+        },
+        {
+          "id": 5,
+          "question": "What is Priya's goal?",
+          "options": ["To become a doctor", "To become an HR professional", "To start a business", "To study abroad"],
+          "correct": "To become an HR professional",
+          "hindi": "प्रिया का लक्ष्य क्या है?",
+          "explanation": "'My goal is to become an HR professional who makes a real difference.'"
+        }
+      ],
+      "practiceTask": {
+        "hindi": "Interview-style introduction तैयार करें जिसमें ये सब शामिल हो:",
+        "template": "Good morning. Thank you for this opportunity. My name is ___. I am from ___. I completed my ___ from ___ with ___. During my studies, I ___. I am passionate about ___. My goal is to ___. I believe that ___.",
+        "tips": [
+          "Formal tone रखें — 'Good morning' से शुरू करें",
+          "CGPA/percentage mention करें",
+          "Internship या project mention करें",
+          "Passion और goal clearly बताएं",
+          "Positive attitude दिखाएं"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "title": "Vikram Meets His New Classmates",
+      "hindiTitle": "विक्रम अपने नए Classmates से मिलता है",
+      "level": "Beginner",
+      "cefr": "A1",
+      "wordCount": 170,
+      "theme": "College Introduction",
+      "story": "My name is Vikram Patel. I am 18 years old. I am from Ahmedabad, Gujarat. I just joined Engineering College in Pune. Today is my first day.\n\nThe professor says, 'Please introduce yourselves, one by one.'\n\nI am sitting in the second row. I feel shy. But I remember — confidence is the key.\n\nFinally, it is my turn. I stand up and say, 'Hi everyone! My name is Vikram Patel. My friends call me Vicky. I am from Ahmedabad, Gujarat. I love cricket, coding, and watching tech videos on YouTube. I completed my 12th with 87% in Science stream. I want to become a computer engineer in the future. I enjoy making new friends. I hope we will have a great time together in this college!'\n\nEveryone smiles. A boy named Arjun says, 'Hey Vicky! I love cricket too! Let's be friends!'\n\nVikram feels happy and relaxed. He thinks, 'A good introduction opens many doors!'",
+      "hindiTranslation": "मेरा नाम विक्रम पटेल है। मैं 18 साल का हूँ। मैं अहमदाबाद, गुजरात से हूँ। मैंने अभी Pune के Engineering College में admission लिया है। आज मेरा पहला दिन है।\n\nProfessor कहते हैं, 'कृपया एक-एक करके अपना परिचय दें।'\n\nमैं दूसरी row में बैठा हूँ। मुझे शर्म आ रही है। लेकिन मुझे याद है — confidence ही key है।",
+      "vocabulary": [
+        { "word": "shy", "meaning": "शर्मीला / hesitant", "usage": "I feel shy on the first day." },
+        { "word": "confidence", "meaning": "आत्मविश्वास / self-assurance", "usage": "Confidence is the key to success." },
+        { "word": "stream", "meaning": "विभाग / branch of study", "usage": "I completed 12th in Science stream." },
+        { "word": "relaxed", "meaning": "शांत / calm", "usage": "He feels happy and relaxed." },
+        { "word": "finally", "meaning": "अंत में / at last", "usage": "Finally, it is my turn." }
+      ],
+      "grammarPoints": [
+        "My friends call me + [Nickname] — nickname bataana",
+        "I love + noun/gerund, noun, and noun — comma se list banana",
+        "I completed my + [Class] with + [Percentage] in + [Stream]",
+        "I want to become a + [Profession] in the future",
+        "I enjoy + verb+ing — enjoy karna",
+        "I hope we will + [Future action]"
+      ],
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "What is Vikram's nickname?",
+          "options": ["Vik", "Victor", "Vicky", "Vikky"],
+          "correct": "Vicky",
+          "hindi": "विक्रम का nickname क्या है?",
+          "explanation": "'My friends call me Vicky.'"
+        },
+        {
+          "id": 2,
+          "question": "What percentage did Vikram score in 12th?",
+          "options": ["80%", "87%", "90%", "85%"],
+          "correct": "87%",
+          "hindi": "विक्रम ने 12वीं में कितने प्रतिशत marks लाए?",
+          "explanation": "'I completed my 12th with 87% in Science stream.'"
+        },
+        {
+          "id": 3,
+          "question": "What does Vikram want to become?",
+          "options": ["Doctor", "Cricketer", "Computer Engineer", "YouTuber"],
+          "correct": "Computer Engineer",
+          "hindi": "विक्रम क्या बनना चाहता है?",
+          "explanation": "'I want to become a computer engineer in the future.'"
+        }
+      ],
+      "practiceTask": {
+        "hindi": "College के पहले दिन के लिए introduction तैयार करें:",
+        "template": "Hi everyone! My name is ___. My friends call me ___. I am from ___. I love ___, ___, and ___. I completed my 12th with ___% in ___ stream. I want to become a ___ in the future. I hope we will have a great time together!",
+        "tips": [
+          "Friendly aur energetic tone rakhen",
+          "Nickname mention karna optional hai",
+          "3 hobbies zaroor bataen",
+          "Future goal bataen"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "title": "Sunita's LinkedIn Introduction",
+      "hindiTitle": "सुनीता का LinkedIn परिचय",
+      "level": "Intermediate",
+      "cefr": "A2",
+      "wordCount": 220,
+      "theme": "Professional Online Introduction",
+      "story": "My name is Sunita Rao. I am a digital marketing professional based in Hyderabad. I have five years of experience in the field of digital marketing and content creation.\n\nI grew up in a small town called Tirupati in Andhra Pradesh. I completed my Bachelor of Commerce from Osmania University in 2017. After my graduation, I started working as a content writer at a startup.\n\nOver the years, I have worked with more than twenty companies. I specialize in social media marketing, SEO, and email marketing. I have helped businesses grow their online presence by 300% through strategic digital campaigns.\n\nIn my free time, I enjoy reading books about psychology and business. I am also a yoga enthusiast. I believe that a healthy mind creates a healthy business.\n\nMy goal is to become a Chief Marketing Officer by the age of 35. I am passionate about helping brands tell their stories in the most compelling way possible.\n\nI am always open to collaborating with like-minded professionals. If you are interested in working together, please feel free to send me a message. I look forward to connecting with you!",
+      "hindiTranslation": "मेरा नाम सुनीता राव है। मैं हैदराबाद में रहने वाली एक digital marketing professional हूँ। मुझे digital marketing और content creation के क्षेत्र में पाँच साल का अनुभव है।\n\nमैं आंध्र प्रदेश के एक छोटे शहर तिरुपति में पली-बढ़ी हूँ। मैंने 2017 में Osmania University से B.Com किया।",
+      "vocabulary": [
+        { "word": "professional", "meaning": "पेशेवर / expert in a field", "usage": "She is a digital marketing professional." },
+        { "word": "specialize", "meaning": "विशेषज्ञता रखना / to focus on", "usage": "I specialize in social media marketing." },
+        { "word": "strategic", "meaning": "रणनीतिक / planned carefully", "usage": "Strategic digital campaigns help businesses." },
+        { "word": "enthusiast", "meaning": "उत्साही / someone who loves something", "usage": "I am a yoga enthusiast." },
+        { "word": "compelling", "meaning": "प्रभावशाली / very interesting/convincing", "usage": "Stories told in a compelling way." },
+        { "word": "collaborating", "meaning": "सहयोग करना / working together", "usage": "I am open to collaborating with professionals." },
+        { "word": "like-minded", "meaning": "समान विचारधारा वाले / having similar goals", "usage": "I connect with like-minded professionals." }
+      ],
+      "grammarPoints": [
+        "I am a + [profession] based in + [City] — location ke saath profession",
+        "I have + [number] years of experience in + [field]",
+        "I grew up in + [place] — childhood place bataana",
+        "I specialize in + [noun], [noun], and [noun]",
+        "I have helped + [object] + [verb] + by + [percentage]",
+        "My goal is to become + [position] by the age of + [age]",
+        "I am open to + verb+ing"
+      ],
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "How many years of experience does Sunita have?",
+          "options": ["3 years", "4 years", "5 years", "6 years"],
+          "correct": "5 years",
+          "hindi": "सुनीता के पास कितने साल का अनुभव है?",
+          "explanation": "'I have five years of experience.'"
+        },
+        {
+          "id": 2,
+          "question": "Where did Sunita grow up?",
+          "options": ["Hyderabad", "Mumbai", "Tirupati", "Chennai"],
+          "correct": "Tirupati",
+          "hindi": "सुनीता कहाँ पली-बढ़ी?",
+          "explanation": "'I grew up in a small town called Tirupati.'"
+        },
+        {
+          "id": 3,
+          "question": "By how much did Sunita help businesses grow?",
+          "options": ["100%", "200%", "300%", "400%"],
+          "correct": "300%",
+          "hindi": "सुनीता ने businesses को कितने प्रतिशत तक grow करने में help की?",
+          "explanation": "'I have helped businesses grow their online presence by 300%.'"
+        },
+        {
+          "id": 4,
+          "question": "What is Sunita's career goal?",
+          "options": ["CEO", "CFO", "Chief Marketing Officer", "Content Manager"],
+          "correct": "Chief Marketing Officer",
+          "hindi": "सुनीता का career goal क्या है?",
+          "explanation": "'My goal is to become a Chief Marketing Officer by the age of 35.'"
+        }
+      ],
+      "practiceTask": {
+        "hindi": "LinkedIn-style professional introduction लिखें (150-200 words):",
+        "checklist": [
+          "Professional identity clearly state करें",
+          "Years of experience mention करें",
+          "Specialization बताएं",
+          "Achievement mention करें",
+          "Hobby briefly mention करें",
+          "Career goal बताएं",
+          "Collaboration ke liye invite karein"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "title": "Amit's WhatsApp Group Introduction",
+      "hindiTitle": "अमित का WhatsApp Group Introduction",
+      "level": "Beginner",
+      "cefr": "A1",
+      "wordCount": 150,
+      "theme": "Casual Online Introduction",
+      "story": "Amit just joined a new online English learning WhatsApp group. The group admin sends a message: 'Please introduce yourself to the group members!'\n\nAmit types his introduction:\n\n'Hello everyone! 👋\n\nI am Amit Kumar from Patna, Bihar. I am 27 years old. I work as a bank clerk at State Bank of India. I have been working there for three years.\n\nI am learning English because I want to improve my communication skills. My dream is to get promoted to a higher position where English is very important.\n\nIn my free time, I love listening to music and watching cricket matches. My favorite cricketer is Virat Kohli. 🏏\n\nI am very happy to join this group. I hope to learn a lot from all of you. Please feel free to correct me if I make any mistakes. I want to improve!\n\nNice to meet you all! Let's learn together! 😊'\n\nMany group members reply: 'Welcome Amit!' and 'Nice to meet you too!'",
+      "hindiTranslation": "अमित ने एक नए Online English learning WhatsApp group join किया है। Group admin ने message भेजा: 'कृपया group members को अपना परिचय दें!'\n\nअमित ने अपना introduction type किया:\n'Hello everyone! मैं बिहार के पटना से Amit Kumar हूँ...'",
+      "vocabulary": [
+        { "word": "admin", "meaning": "समूह संचालक / group manager", "usage": "The group admin sent a message." },
+        { "word": "promoted", "meaning": "पदोन्नत / moved to a higher position", "usage": "I want to get promoted." },
+        { "word": "communication skills", "meaning": "संवाद कौशल / ability to speak/write well", "usage": "I want to improve my communication skills." },
+        { "word": "favorite", "meaning": "पसंदीदा / most liked", "usage": "My favorite cricketer is Virat Kohli." }
+      ],
+      "grammarPoints": [
+        "I am learning English because + [reason clause]",
+        "My dream is to + [infinitive]",
+        "I have been working there for + [time period]",
+        "Please feel free to + [verb]",
+        "I want to + [infinitive]"
+      ],
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "Where is Amit from?",
+          "options": ["Delhi", "Patna", "Mumbai", "Kolkata"],
+          "correct": "Patna",
+          "hindi": "अमित कहाँ से है?",
+          "explanation": "'I am Amit Kumar from Patna, Bihar.'"
+        },
+        {
+          "id": 2,
+          "question": "Why is Amit learning English?",
+          "options": ["To travel abroad", "To improve communication skills", "To watch movies", "For fun"],
+          "correct": "To improve communication skills",
+          "hindi": "अमित English क्यों सीख रहा है?",
+          "explanation": "'I am learning English because I want to improve my communication skills.'"
+        }
+      ],
+      "practiceTask": {
+        "hindi": "WhatsApp group ke liye casual introduction likhein:",
+        "template": "Hello everyone! 👋\n\nI am ___ from ___. I am ___ years old. I work as ___.\n\nI am learning English because ___. My dream is to ___.\n\nIn my free time, I love ___. My favorite ___ is ___.\n\nNice to meet you all! Let's learn together! 😊",
+        "tips": [
+          "Emojis use kar sakte hain",
+          "Casual tone rakhen",
+          "Short aur friendly likhein",
+          "Personal details share karein"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "title": "Meera's Video Call Introduction",
+      "hindiTitle": "मीरा का Video Call Introduction",
+      "level": "Intermediate",
+      "cefr": "A2",
+      "wordCount": 190,
+      "theme": "Online Meeting Introduction",
+      "story": "My name is Meera Nair. I am a project manager at a software company in Kochi, Kerala. Today, I have a video call with a new international client from the United States.\n\nI am sitting at my desk. My background is clean and professional. I am wearing formal clothes. I am ready.\n\nThe call begins. The client, Mr. John Williams, says, 'Good evening from New York! I am John Williams, Head of Operations at TechGlobal Inc.'\n\nMeera replies with a confident smile, 'Good morning from Kochi! I am Meera Nair, Project Manager at Infosys Kerala. It is a pleasure to meet you virtually, Mr. Williams. I have been looking forward to this call.'\n\nMr. Williams says, 'Please tell me a bit more about yourself and your experience.'\n\nMeera says, 'Certainly! I have been working as a project manager for eight years. I specialize in handling large-scale software projects for international clients. I have successfully delivered more than fifty projects across Europe, the USA, and Australia. I am very excited to work with TechGlobal on this new project.'\n\nMr. Williams says, 'Impressive! I am confident we will do great work together.'",
+      "hindiTranslation": "मेरा नाम मीरा नायर है। मैं केरल के कोच्चि में एक software company में project manager हूँ। आज मेरी एक नए international client से video call है जो United States से हैं।",
+      "vocabulary": [
+        { "word": "virtually", "meaning": "ऑनलाइन / via internet", "usage": "Nice to meet you virtually." },
+        { "word": "certainly", "meaning": "बिल्कुल / of course", "usage": "'Certainly!' Meera replied." },
+        { "word": "specialize in", "meaning": "विशेषज्ञता रखना / to be expert at", "usage": "I specialize in large-scale projects." },
+        { "word": "delivered", "meaning": "पूरे किए / completed and handed over", "usage": "I have delivered fifty projects." },
+        { "word": "impressive", "meaning": "प्रभावशाली / very good", "usage": "'Impressive!' said Mr. Williams." }
+      ],
+      "grammarPoints": [
+        "It is a pleasure to meet you + [adverb] — formal greeting",
+        "I have been looking forward to + [noun/gerund]",
+        "I have been working as + [profession] for + [time]",
+        "I have successfully delivered more than + [number] + [noun]",
+        "I am very excited to work with + [company/person] on + [project]"
+      ],
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "Where does Meera work?",
+          "options": ["Mumbai", "Bangalore", "Kochi", "Delhi"],
+          "correct": "Kochi",
+          "hindi": "मीरा कहाँ काम करती है?",
+          "explanation": "'I am a project manager at a software company in Kochi.'"
+        },
+        {
+          "id": 2,
+          "question": "How many years of experience does Meera have?",
+          "options": ["5 years", "6 years", "8 years", "10 years"],
+          "correct": "8 years",
+          "hindi": "मीरा के पास कितने साल का अनुभव है?",
+          "explanation": "'I have been working as a project manager for eight years.'"
+        },
+        {
+          "id": 3,
+          "question": "How many projects has Meera delivered?",
+          "options": ["More than 30", "More than 50", "More than 100", "More than 20"],
+          "correct": "More than 50",
+          "hindi": "मीरा ने कितने projects deliver किए हैं?",
+          "explanation": "'I have successfully delivered more than fifty projects.'"
+        }
+      ],
+      "practiceTask": {
+        "hindi": "International video call ke liye formal introduction prepare karein:",
+        "checklist": [
+          "Time zone aware greeting (Good morning/evening depending on client's location)",
+          "Full name and designation",
+          "Company name aur location",
+          "'It is a pleasure to meet you virtually'",
+          "Years of experience",
+          "Key specialization",
+          "Notable achievements",
+          "Excitement about the project"
+        ]
+      }
+    },
+    {
+      "id": 7,
+      "title": "Karan's Class Presentation Introduction",
+      "hindiTitle": "करण की Class Presentation शुरुआत",
+      "level": "Intermediate",
+      "cefr": "A2",
+      "wordCount": 160,
+      "theme": "Presentation Introduction",
+      "story": "Karan is a B.Tech third year student. Today, he has to give a presentation on 'Artificial Intelligence in Healthcare' in front of his class.\n\nKaran stands at the front of the class. He takes a deep breath. He opens his presentation slides on the projector.\n\nHe begins, 'Good morning, Professor Sharma and my dear classmates! I am Karan Mehta. I am currently studying Computer Science in the third year.\n\nBefore I begin my presentation, I would like to take a moment to introduce myself and tell you why I chose this topic.\n\nI am deeply interested in the intersection of technology and healthcare. During my summer internship at Apollo Hospital's IT department, I saw firsthand how AI is changing patient care. That experience inspired me to research this topic deeply.\n\nToday, I will present my findings on how Artificial Intelligence is revolutionizing healthcare. The presentation covers five main areas: diagnosis, treatment planning, drug discovery, patient monitoring, and administrative efficiency.\n\nI request everyone to please hold your questions till the end. I look forward to a productive discussion. Thank you.'\n\nThe class is impressed by Karan's confident and well-structured introduction.",
+      "hindiTranslation": "करण B.Tech तीसरे साल का student है। आज उसे class के सामने 'Healthcare में Artificial Intelligence' पर presentation देनी है।\n\nकरण class के सामने खड़ा होता है।",
+      "vocabulary": [
+        { "word": "presentation", "meaning": "प्रस्तुति / formal talk with slides", "usage": "I will give a presentation today." },
+        { "word": "intersection", "meaning": "मिलन बिंदु / meeting point of two things", "usage": "Intersection of technology and healthcare." },
+        { "word": "firsthand", "meaning": "प्रत्यक्ष / directly experienced", "usage": "I saw firsthand how AI is changing things." },
+        { "word": "revolutionizing", "meaning": "क्रांति लाना / completely changing", "usage": "AI is revolutionizing healthcare." },
+        { "word": "productive", "meaning": "उत्पादक / useful and effective", "usage": "I look forward to a productive discussion." }
+      ],
+      "grammarPoints": [
+        "I would like to take a moment to + [infinitive] — formal request for time",
+        "I am deeply interested in + [noun phrase]",
+        "That experience inspired me to + [infinitive]",
+        "I request everyone to please + [base verb]",
+        "I look forward to + [noun/gerund]"
+      ],
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "What year is Karan in?",
+          "options": ["First year", "Second year", "Third year", "Fourth year"],
+          "correct": "Third year",
+          "hindi": "करण किस साल में है?",
+          "explanation": "'I am currently studying Computer Science in the third year.'"
+        },
+        {
+          "id": 2,
+          "question": "Where did Karan do his internship?",
+          "options": ["AIIMS", "Fortis Hospital", "Apollo Hospital", "Max Hospital"],
+          "correct": "Apollo Hospital",
+          "hindi": "करण ने internship कहाँ की?",
+          "explanation": "'During my summer internship at Apollo Hospital's IT department.'"
+        }
+      ],
+      "practiceTask": {
+        "hindi": "Class presentation ke liye introduction prepare karein:",
+        "template": "Good morning, Professor ___ and my dear classmates! I am ___. I am currently studying ___ in the ___ year.\n\nBefore I begin, I would like to tell you why I chose this topic.\n\nI am deeply interested in ___. [Brief personal connection to topic].\n\nToday, I will present [topic]. The presentation covers: ___.\n\nI request everyone to hold questions till the end. Thank you.",
+        "tips": [
+          "Formal tone zaroor rakhen",
+          "Topic chunne ka reason bataen",
+          "Personal connection mention karein",
+          "Structure clearly outline karein"
+        ]
+      }
+    },
+    {
+      "id": 8,
+      "title": "Deepa's Email Introduction to New Team",
+      "hindiTitle": "दीपा का नई Team को Email Introduction",
+      "level": "Intermediate",
+      "cefr": "A2",
+      "wordCount": 200,
+      "theme": "Email Introduction",
+      "story": "Deepa Singh has just joined a new company as a Senior Marketing Analyst. Her manager asks her to send an introduction email to her new team.\n\nDeepа opens her laptop and writes:\n\n---\nSubject: Introduction — Deepa Singh, Senior Marketing Analyst\n\nDear Team,\n\nI hope this email finds you well. My name is Deepa Singh, and I am excited to introduce myself as the newest member of the Marketing Analytics team.\n\nI bring with me six years of experience in data-driven marketing. In my previous role at Hindustan Unilever, I led a team of five analysts and was responsible for analyzing consumer behavior data for three major product lines. I successfully increased campaign ROI by 45% through targeted data analysis.\n\nI completed my Master's in Business Analytics from IIM Ahmedabad in 2018. I am proficient in tools like Python, SQL, Google Analytics, and Tableau.\n\nOutside of work, I am passionate about dancing — particularly Kathak — and enjoy cooking experimental recipes on weekends.\n\nI believe that great data tells great stories, and I am looking forward to telling some powerful stories with all of you!\n\nI would love to schedule individual introductory calls with each of you in the coming week. Please feel free to reach out to set up a time that works for you.\n\nWarm regards,\nDeepa Singh\nSenior Marketing Analyst\n---\n\nThe team loves Deepa's introduction email. Several colleagues reply immediately to schedule introductory calls.",
+      "hindiTranslation": "दीपा सिंह ने एक नई company में Senior Marketing Analyst के रूप में join किया है। उनके manager ने उन्हें नई team को introduction email भेजने के लिए कहा।",
+      "vocabulary": [
+        { "word": "proficient", "meaning": "कुशल / skilled in", "usage": "I am proficient in Python and SQL." },
+        { "word": "ROI", "meaning": "Return on Investment / निवेश पर लाभ", "usage": "I increased campaign ROI by 45%." },
+        { "word": "consumer behavior", "meaning": "उपभोक्ता व्यवहार / how customers act", "usage": "Analyzing consumer behavior data." },
+        { "word": "introductory", "meaning": "परिचयात्मक / for getting to know each other", "usage": "Introductory calls with the team." },
+        { "word": "experimental", "meaning": "प्रयोगात्मक / trying new things", "usage": "I enjoy cooking experimental recipes." }
+      ],
+      "grammarPoints": [
+        "I bring with me + [time period] of experience in + [field]",
+        "I led a team of + [number] + [noun]",
+        "I was responsible for + verb+ing",
+        "I completed my + [Degree] from + [Institution] in + [Year]",
+        "I am proficient in + [tools/skills]",
+        "I would love to + [infinitive]",
+        "Please feel free to + [infinitive]"
+      ],
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "What is Deepa's designation?",
+          "options": ["Marketing Manager", "Senior Marketing Analyst", "Data Scientist", "Content Writer"],
+          "correct": "Senior Marketing Analyst",
+          "hindi": "दीपा का designation क्या है?",
+          "explanation": "'I am the newest member of the Marketing Analytics team. Senior Marketing Analyst.'"
+        },
+        {
+          "id": 2,
+          "question": "Where did Deepa do her Masters?",
+          "options": ["IIM Bangalore", "IIM Calcutta", "IIM Ahmedabad", "IIT Delhi"],
+          "correct": "IIM Ahmedabad",
+          "hindi": "दीपा ने Masters कहाँ से किया?",
+          "explanation": "'I completed my Master's in Business Analytics from IIM Ahmedabad.'"
+        },
+        {
+          "id": 3,
+          "question": "By how much did Deepa increase campaign ROI?",
+          "options": ["25%", "35%", "40%", "45%"],
+          "correct": "45%",
+          "hindi": "दीपा ने campaign ROI कितने प्रतिशत बढ़ाया?",
+          "explanation": "'I successfully increased campaign ROI by 45%.'"
+        }
+      ],
+      "practiceTask": {
+        "hindi": "Naye team ke liye professional email introduction likhein. In cheezoen ko zaroor include karein:",
+        "emailTemplate": "Subject: Introduction — [Your Name], [Your Designation]\n\nDear Team,\n\nI hope this email finds you well. My name is ___, and I am excited to introduce myself as the newest member of the ___ team.\n\nI bring with me ___ years of experience in ___. In my previous role at ___, I ___. I successfully ___.\n\nI completed my ___ from ___ in ___. I am proficient in ___.\n\nOutside of work, I am passionate about ___.\n\nI believe that ___, and I am looking forward to ___!\n\nI would love to schedule introductory calls with each of you. Please feel free to reach out.\n\nWarm regards,\n[Your Name]\n[Your Designation]",
+        "tips": [
+          "Professional subject line likhein",
+          "'Dear Team' se shuru karein",
+          "Experience clearly state karein",
+          "Achievement mention karein (numbers ke saath)",
+          "Education briefly mention karein",
+          "Hobby briefly mention karein — personable dikhta hai",
+          "Call-to-action zaroor rakhein",
+          "'Warm regards' se close karein"
+        ]
+      }
+    }
+  ],
+  "readingChallenges": [
+    {
+      "id": "rc1",
+      "type": "speed-reading",
+      "instruction": "Story 1 ko 2 minute mein padhen aur comprehension questions answer karein",
+      "targetWPM": 120,
+      "timeLimit": 120
+    },
+    {
+      "id": "rc2",
+      "type": "translation",
+      "instruction": "Story 2 ka Hindi summary apne shabdon mein likhein",
+      "wordLimit": 100
+    },
+    {
+      "id": "rc3",
+      "type": "retelling",
+      "instruction": "Story 3 apne words mein oral ya written form mein sunao/likhao",
+      "timeLimit": 60
+    }
+  ],
+  "overallPractice": {
+    "writingTask": "In teen stories se inspired hokar apni khud ki life ki ek short story likhein (100-150 words) jo aapka introduction karti ho.",
+    "speakingTask": "Story 1 aur Story 2 ko aloud padhen. Timer lagaen — target hai 2 minutes mein Story 1 complete karein.",
+    "discussionTopics": [
+      "Kyun first impression itna important hai?",
+      "Aap apna introduction kaise improve kar sakte hain?",
+      "Professional aur casual introduction mein kya fark hota hai?"
+    ]
+  }
+}
