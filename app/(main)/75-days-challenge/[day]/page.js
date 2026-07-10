@@ -205,19 +205,32 @@ function speakText(text, rate = 0.85) {
 // Each section covers a different skill area
 // ============================================================
 const LESSON_SECTIONS = [
-  { id: 'overview',   icon: Lightbulb,     label: 'Overview & Why It Matters', color: 'text-amber-400',  bg: 'bg-amber-500/10',  border: 'border-amber-500/30'   },
-  { id: 'concept',    icon: BookOpen,      label: 'Concept & Theory',         color: 'text-indigo-400',  bg: 'bg-indigo-500/10',  border: 'border-indigo-500/30'  },
-  { id: 'vocabulary', icon: FileText,      label: 'Vocabulary',               color: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/30'    },
-  { id: 'practice',   icon: Target,        label: 'Interactive Practice',     color: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/30' },
-  { id: 'speaking',   icon: Mic,           label: 'Speaking & Pronunciation', color: 'text-pink-400',    bg: 'bg-pink-500/10',    border: 'border-pink-500/30'    },
-  { id: 'writing',    icon: PenTool,       label: 'Writing Drills',           color: 'text-rose-400',    bg: 'bg-rose-500/10',    border: 'border-rose-500/30'    },
-  { id: 'listening',  icon: Headphones,    label: 'Listening Practice',       color: 'text-sky-400',     bg: 'bg-sky-500/10',     border: 'border-sky-500/30'     },
-  { id: 'reading',    icon: BookOpenCheck, label: 'Reading Comprehension',    color: 'text-lime-400',    bg: 'bg-lime-500/10',    border: 'border-lime-500/30'    },
-  { id: 'studyPlan',  icon: Clock,         label: 'Daily Study Plan',         color: 'text-teal-400',    bg: 'bg-teal-500/10',    border: 'border-teal-500/30'    },
-  { id: 'revision',   icon: RotateCcw,     label: 'Revision & Quick Quiz',    color: 'text-orange-400',  bg: 'bg-orange-500/10',  border: 'border-orange-500/30'  },
-  { id: 'test',       icon: Brain,         label: 'Final Mock Test',          color: 'text-violet-400',  bg: 'bg-violet-500/10',  border: 'border-violet-500/30'  },
-  { id: 'milestones', icon: Award,         label: 'Milestones & Badges',      color: 'text-fuchsia-400', bg: 'bg-fuchsia-500/10', border: 'border-fuchsia-500/30' },
-  { id: 'challenge',  icon: Flag,          label: "Today's Challenge Task",   color: 'text-red-400',     bg: 'bg-red-500/10',     border: 'border-red-500/30'     },
+  // ── Core Learning Sections ───────────────────────────────────────────────
+  { id: 'overview',        icon: Lightbulb,     label: 'Overview & Why It Matters',     color: 'text-amber-400',   bg: 'bg-amber-500/10',   border: 'border-amber-500/30'   },
+  { id: 'concept',         icon: BookOpen,      label: 'Concept & Theory',               color: 'text-indigo-400',  bg: 'bg-indigo-500/10',  border: 'border-indigo-500/30'  },
+  { id: 'common_mistakes', icon: AlertCircle,   label: 'Common Mistakes & Error Fix',   color: 'text-red-400',     bg: 'bg-red-500/10',     border: 'border-red-500/30'     },
+  { id: 'memory_tricks',   icon: Sparkles,      label: 'Memory Tricks & Mnemonics',     color: 'text-yellow-400',  bg: 'bg-yellow-500/10',  border: 'border-yellow-500/30'  },
+  // ── Vocabulary & Words ───────────────────────────────────────────────────
+  { id: 'vocabulary',      icon: FileText,      label: 'Vocabulary — 1000 Words',        color: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/30'    },
+  { id: 'flashcards',      icon: Layers,        label: 'Flashcards — Spaced Repetition', color: 'text-purple-400',  bg: 'bg-purple-500/10',  border: 'border-purple-500/30'  },
+  // ── Practice Sections ───────────────────────────────────────────────────
+  { id: 'practice',        icon: Target,        label: 'Interactive Practice (Hindi→English)', color: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/30' },
+  { id: 'dialogue',        icon: MessageSquare, label: 'Dialogue Practice',               color: 'text-blue-400',    bg: 'bg-blue-500/10',    border: 'border-blue-500/30'    },
+  { id: 'conversation',    icon: MessageSquare, label: 'Daily & Office Conversation',     color: 'text-orange-400',  bg: 'bg-orange-500/10',  border: 'border-orange-500/30'  },
+  // ── Skills Sections ─────────────────────────────────────────────────────
+  { id: 'speaking',        icon: Mic,           label: 'Speaking & Pronunciation',        color: 'text-pink-400',    bg: 'bg-pink-500/10',    border: 'border-pink-500/30'    },
+  { id: 'writing',         icon: PenTool,       label: 'Writing Drills',                  color: 'text-rose-400',    bg: 'bg-rose-500/10',    border: 'border-rose-500/30'    },
+  { id: 'listening',       icon: Headphones,    label: 'Listening Practice',              color: 'text-sky-400',     bg: 'bg-sky-500/10',     border: 'border-sky-500/30'     },
+  { id: 'reading',         icon: BookOpenCheck, label: 'Reading Comprehension',           color: 'text-lime-400',    bg: 'bg-lime-500/10',    border: 'border-lime-500/30'    },
+  // ── Stories & Writing ───────────────────────────────────────────────────
+  { id: 'story',           icon: BookMarked,    label: 'Story & Comprehension',           color: 'text-green-400',   bg: 'bg-green-500/10',   border: 'border-green-500/30'   },
+  { id: 'essay',           icon: Hash,          label: 'Essay Writing',                   color: 'text-pink-400',    bg: 'bg-pink-500/10',    border: 'border-pink-500/30'    },
+  // ── Review & Assessment ─────────────────────────────────────────────────
+  { id: 'studyPlan',       icon: Clock,         label: 'Daily Study Plan',                color: 'text-teal-400',    bg: 'bg-teal-500/10',    border: 'border-teal-500/30'    },
+  { id: 'revision',        icon: RotateCcw,     label: 'Revision & Quick Quiz',           color: 'text-orange-400',  bg: 'bg-orange-500/10',  border: 'border-orange-500/30'  },
+  { id: 'test',            icon: Brain,         label: 'Final Mock Test',                 color: 'text-violet-400',  bg: 'bg-violet-500/10',  border: 'border-violet-500/30'  },
+  { id: 'milestones',      icon: Award,         label: 'Milestones & Badges',             color: 'text-fuchsia-400', bg: 'bg-fuchsia-500/10', border: 'border-fuchsia-500/30' },
+  { id: 'challenge',       icon: Flag,          label: "Today's Challenge Task",          color: 'text-red-400',     bg: 'bg-red-500/10',     border: 'border-red-500/30'     },
 ];
 
 // ============================================================
@@ -388,18 +401,36 @@ export default function DayPage() {
 
         {/* Stats row */}
         {stats.practiceCount > 0 && (
-          <div className="relative z-10 mt-6 grid grid-cols-3 gap-4 pt-6 border-t border-slate-800">
-            <div className="text-center">
-              <p className="text-2xl font-black text-cyan-400">{stats.vocabularyCount || 0}</p>
-              <p className="text-xs text-slate-500 font-semibold uppercase tracking-wider">Words</p>
+          <div className="relative z-10 mt-6 grid grid-cols-3 sm:grid-cols-6 gap-3 pt-6 border-t border-slate-800">
+            {/* Words */}
+            <div className="text-center bg-cyan-500/5 border border-cyan-500/15 rounded-xl py-3">
+              <p className="text-2xl font-black text-cyan-400">{(stats.vocabularyCount || 0).toLocaleString()}</p>
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Words</p>
             </div>
-            <div className="text-center">
-              <p className="text-2xl font-black text-emerald-400">{stats.practiceCount || 0}</p>
-              <p className="text-xs text-slate-500 font-semibold uppercase tracking-wider">Practice Q&apos;s</p>
+            {/* Practice Qs */}
+            <div className="text-center bg-emerald-500/5 border border-emerald-500/15 rounded-xl py-3">
+              <p className="text-2xl font-black text-emerald-400">{(stats.practiceCount || 0).toLocaleString()}</p>
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Practice Q&apos;s</p>
             </div>
-            <div className="text-center">
-              <p className="text-2xl font-black text-violet-400">{stats.mockTestCount || 0}</p>
-              <p className="text-xs text-slate-500 font-semibold uppercase tracking-wider">Test Q&apos;s</p>
+            {/* Test Qs */}
+            <div className="text-center bg-violet-500/5 border border-violet-500/15 rounded-xl py-3">
+              <p className="text-2xl font-black text-violet-400">{(stats.mockTestCount || 0).toLocaleString()}</p>
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Test Q&apos;s</p>
+            </div>
+            {/* Flashcards */}
+            <div className="text-center bg-purple-500/5 border border-purple-500/15 rounded-xl py-3">
+              <p className="text-2xl font-black text-purple-400">{(stats.flashcardsCount || 500).toLocaleString()}</p>
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Flashcards</p>
+            </div>
+            {/* Dialogues */}
+            <div className="text-center bg-blue-500/5 border border-blue-500/15 rounded-xl py-3">
+              <p className="text-2xl font-black text-blue-400">{(stats.dialoguesCount || 10).toLocaleString()}</p>
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Dialogues</p>
+            </div>
+            {/* Sections */}
+            <div className="text-center bg-amber-500/5 border border-amber-500/15 rounded-xl py-3">
+              <p className="text-2xl font-black text-amber-400">{LESSON_SECTIONS.length}</p>
+              <p className="text-[10px] text-slate-500 font-bold uppercase tracking-wider">Sections</p>
             </div>
           </div>
         )}
@@ -437,12 +468,19 @@ export default function DayPage() {
             : id === 'vocabulary'  ? (stats.vocabularyCount > 0  ? `${stats.vocabularyCount.toLocaleString()} words · CEFR A0–B2 · Search, filter & listen to every word`  : 'Vocabulary bank — loading…')
             : id === 'practice'    ? (stats.practiceCount > 0    ? `${stats.practiceCount.toLocaleString()} Hindi→English questions · 20 / 40 / 60 / 80 / 100 % session picker` : 'Practice questions — loading…')
             : id === 'test'        ? (stats.mockTestCount > 0    ? `${stats.mockTestCount.toLocaleString()} MCQ questions · Timed · Auto-graded · 20 / 40 / 60 / 80 / 100 %`  : 'Mock test — loading…')
-            : id === 'speaking'    ? 'Speaking drills · Text-to-speech · Pronunciation guide'
-            : id === 'listening'   ? 'Listening exercises · Comprehension · Dictation'
-            : id === 'reading'     ? 'Reading passages · Comprehension questions · Speed tips'
-            : id === 'writing'     ? 'Writing drills · Templates · Grammar correction'
-            : id === 'revision'    ? 'Quick revision · Flash quiz · Key rules recap'
-            : id === 'milestones'  ? 'Badges · XP milestones · Challenge achievements'
+            : id === 'common_mistakes' ? '50 common errors · Wrong→Correct pairs · Grammar rules · Correction quiz'
+            : id === 'memory_tricks'  ? '30+ mnemonics · Acronyms · Visual tricks · Pin your favorites'
+            : id === 'flashcards'     ? '500 flashcards · Flip cards · 20/40/60/80/100% session · Known/Unknown tracker'
+            : id === 'dialogue'       ? '10 real dialogues · Role-play mode · Hindi translation · Vocab list'
+            : id === 'conversation'   ? '4 daily situations · Meeting someone, Office, Phone, Interview'
+            : id === 'story'          ? 'Story with Hindi support · Grammar highlights · Comprehension MCQ'
+            : id === 'essay'          ? 'Model essay · Essay structure · Template · Write your own essay'
+            : id === 'speaking'       ? 'Speaking drills · Text-to-speech · Pronunciation guide'
+            : id === 'listening'      ? 'Listening exercises · Comprehension · Dictation'
+            : id === 'reading'        ? 'Reading passages · Comprehension questions · Speed tips'
+            : id === 'writing'        ? 'Writing drills · Templates · Grammar correction'
+            : id === 'revision'       ? 'Quick revision · Flash quiz · Key rules recap'
+            : id === 'milestones'     ? 'Badges · XP milestones · Challenge achievements'
             : 'Click to expand and start learning';
 
           return (
@@ -590,6 +628,56 @@ export default function DayPage() {
                         <ChallengeTaskSection
                           challenge={data?.challenge}
                           dayNum={dayNum}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {/* ── New Rich Sections ─────────────────────────── */}
+                      {id === 'common_mistakes' && (
+                        <CommonMistakesSection
+                          commonMistakes={data?.commonMistakes}
+                          topic={topic}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'memory_tricks' && (
+                        <MemoryTricksSection
+                          memoryTricks={data?.memoryTricks}
+                          topic={topic}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'flashcards' && (
+                        <FlashcardsSection
+                          flashcards={data?.flashcards}
+                          playSound={playSound}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'dialogue' && (
+                        <DialogueSection
+                          dialogues={data?.dialogues}
+                          topic={topic}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'conversation' && (
+                        <ConversationSection
+                          conversationPractice={data?.conversationPractice}
+                          topic={topic}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'story' && (
+                        <StorySection
+                          stories={data?.stories}
+                          playSound={playSound}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'essay' && (
+                        <EssaySection
+                          essays={data?.essays}
+                          topic={topic}
                           onComplete={() => markSectionDone(id)}
                         />
                       )}
@@ -4119,6 +4207,2065 @@ function ChallengeTaskSection({ challenge, dayNum, onComplete }) {
         className="w-full py-4 rounded-xl bg-gradient-to-r from-rose-600 to-orange-500 hover:from-rose-500 hover:to-orange-400 text-white font-black text-lg transition-all shadow-xl shadow-rose-500/25 flex items-center justify-center gap-2"
       >
         <Trophy size={20} /> Challenge Complete — +{challenge.xpReward || 200} XP
+      </motion.button>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION: Common Mistakes & Error Detection
+// Shows wrong → correct pairs, grammar rules, categories
+// Helps user identify and avoid the most frequent errors
+// ============================================================
+function CommonMistakesSection({ commonMistakes, topic, onComplete }) {
+  // State: which mistake card is expanded (shows full explanation)
+  const [expanded, setExpanded] = useState(null);
+  // State: which category filter is active — 'all' shows everything
+  const [activeCategory, setActiveCategory] = useState('all');
+  // State: quiz mode — tests user on correcting sentences
+  const [quizMode, setQuizMode] = useState(false);
+  const [quizIndex, setQuizIndex] = useState(0);
+  const [userInput, setUserInput] = useState('');
+  const [quizStatus, setQuizStatus] = useState('idle'); // idle | correct | wrong
+  const [quizScore, setQuizScore] = useState(0);
+  const [quizDone, setQuizDone] = useState(false);
+
+  // Extract mistakes array — supports both {mistakes:[]} and flat array formats
+  const mistakes = Array.isArray(commonMistakes)
+    ? commonMistakes
+    : (commonMistakes?.mistakes || []);
+
+  // Get unique categories for filter tabs
+  const categories = ['all', ...new Set(mistakes.map(m => m.category).filter(Boolean))];
+
+  // Filter mistakes by selected category
+  const filtered = activeCategory === 'all'
+    ? mistakes
+    : mistakes.filter(m => m.category === activeCategory);
+
+  // ── QUIZ MODE ──────────────────────────────────────────────────────────
+  const currentQuizQ = filtered[quizIndex];
+
+  const checkQuizAnswer = () => {
+    if (!userInput.trim()) return;
+    // Case-insensitive comparison — remove trailing punctuation for fairness
+    const norm = s => s.trim().toLowerCase().replace(/[.!?]+$/, '');
+    if (norm(userInput) === norm(currentQuizQ?.correct || '')) {
+      setQuizStatus('correct');
+      setQuizScore(s => s + 1);
+    } else {
+      setQuizStatus('wrong');
+    }
+  };
+
+  const nextQuiz = () => {
+    if (quizIndex >= filtered.length - 1) {
+      setQuizDone(true);
+    } else {
+      setQuizIndex(i => i + 1);
+      setUserInput('');
+      setQuizStatus('idle');
+    }
+  };
+
+  // ── EMPTY STATE ────────────────────────────────────────────────────────
+  if (!mistakes.length) {
+    return (
+      <div className="text-center py-12 space-y-4">
+        <AlertCircle size={44} className="text-red-400 mx-auto opacity-40" />
+        <p className="text-slate-400">Common mistakes content loading...</p>
+        <button
+          onClick={onComplete}
+          className="px-6 py-3 rounded-xl bg-red-600 text-white font-bold hover:bg-red-500 transition-all"
+        >
+          Mark Complete
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="rounded-3xl bg-gradient-to-br from-red-600/20 via-rose-600/10 to-orange-600/15 border border-red-500/30 p-6"
+      >
+        <div className="flex items-start gap-4">
+          <div className="w-14 h-14 rounded-2xl bg-red-500/20 border border-red-500/30 flex items-center justify-center text-2xl shrink-0">
+            ⚠️
+          </div>
+          <div>
+            <h2 className="text-2xl font-black text-white mb-1">Common Mistakes & Error Fix</h2>
+            <p className="text-red-300/80 text-sm leading-relaxed">
+              Jo mistakes log sabse jyada karte hain — unhe pehle jaano, phir hamesha ke liye avoid karo.
+              Har galti ke saath correct version aur grammar rule diya hai.
+            </p>
+            <div className="flex items-center gap-4 mt-3">
+              <span className="text-xs font-bold text-red-400 bg-red-500/10 border border-red-500/20 px-3 py-1 rounded-full">
+                {mistakes.length} Common Mistakes
+              </span>
+              <span className="text-xs font-bold text-orange-400 bg-orange-500/10 border border-orange-500/20 px-3 py-1 rounded-full">
+                {categories.length - 1} Categories
+              </span>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Teacher note — WHY errors happen (cognitive) */}
+      <div className="rounded-2xl border border-amber-500/20 bg-amber-500/5 p-5">
+        <p className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-2 flex items-center gap-1.5">
+          <Lightbulb size={12} /> Teacher Says
+        </p>
+        <p className="text-amber-100/90 text-sm leading-relaxed">
+          English mein mistakes tab hoti hain jab hum Hindi grammar ko directly English mein translate karte hain.
+          Hindi mein "Woh school jata hai" → English mein log likhte hain "He go school" — lekin sahi hai "He <strong className="text-white">goes</strong> to school."
+          Is section mein hum yehi pattern todenge — ek ek mistake ko samjhenge aur fix karenge.
+        </p>
+      </div>
+
+      {/* Mode Toggle — Browse vs Quiz */}
+      <div className="flex gap-2 p-1 bg-slate-800 rounded-xl">
+        <button
+          onClick={() => { setQuizMode(false); setQuizIndex(0); setQuizDone(false); }}
+          className={cn(
+            "flex-1 py-2.5 rounded-lg text-sm font-bold transition-all",
+            !quizMode ? "bg-red-600 text-white" : "text-slate-400 hover:text-white"
+          )}
+        >
+          📚 Browse Mistakes ({filtered.length})
+        </button>
+        <button
+          onClick={() => { setQuizMode(true); setQuizIndex(0); setUserInput(''); setQuizStatus('idle'); setQuizScore(0); setQuizDone(false); }}
+          className={cn(
+            "flex-1 py-2.5 rounded-lg text-sm font-bold transition-all",
+            quizMode ? "bg-red-600 text-white" : "text-slate-400 hover:text-white"
+          )}
+        >
+          🧩 Correction Quiz
+        </button>
+      </div>
+
+      {/* Category Filters */}
+      <div className="flex flex-wrap gap-2">
+        {categories.map(cat => (
+          <button
+            key={cat}
+            onClick={() => { setActiveCategory(cat); setExpanded(null); setQuizIndex(0); }}
+            className={cn(
+              "px-3 py-1.5 rounded-lg text-xs font-bold transition-all border",
+              activeCategory === cat
+                ? "border-red-500/50 bg-red-500/15 text-red-300"
+                : "border-slate-700 bg-slate-800 text-slate-400 hover:border-slate-600"
+            )}
+          >
+            {cat === 'all' ? `All (${mistakes.length})` : cat}
+          </button>
+        ))}
+      </div>
+
+      {/* ── QUIZ MODE ───────────────────────────────────────────────────── */}
+      {quizMode && (
+        <div className="space-y-5">
+          {quizDone ? (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.96 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="text-center p-8 rounded-2xl border border-emerald-500/30 bg-emerald-500/8 space-y-4"
+            >
+              <div className="text-5xl">🏆</div>
+              <h3 className="text-2xl font-black text-white">Quiz Complete!</h3>
+              <p className="text-emerald-300 text-lg font-bold">
+                {quizScore} / {filtered.length} Correct
+              </p>
+              <p className="text-slate-400 text-sm">
+                {quizScore === filtered.length
+                  ? 'Perfect! Sab mistakes fix ho gayi!'
+                  : `${filtered.length - quizScore} mistakes dobara practice karo.`}
+              </p>
+              <button
+                onClick={() => { setQuizIndex(0); setQuizScore(0); setUserInput(''); setQuizStatus('idle'); setQuizDone(false); }}
+                className="px-6 py-3 rounded-xl bg-red-600 text-white font-bold hover:bg-red-500 transition-all"
+              >
+                Try Again
+              </button>
+            </motion.div>
+          ) : (
+            <motion.div
+              key={quizIndex}
+              initial={{ opacity: 0, x: 20 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="space-y-4"
+            >
+              {/* Progress */}
+              <div className="flex justify-between text-xs text-slate-400 mb-1">
+                <span>Question {quizIndex + 1} of {filtered.length}</span>
+                <span className="text-emerald-400 font-bold">{quizScore} correct</span>
+              </div>
+              <div className="h-2 bg-slate-800 rounded-full overflow-hidden">
+                <motion.div
+                  className="h-full bg-red-500"
+                  style={{ width: `${((quizIndex + 1) / filtered.length) * 100}%` }}
+                  transition={{ duration: 0.4 }}
+                />
+              </div>
+
+              {/* Wrong sentence shown */}
+              <div className="rounded-2xl border border-red-500/30 bg-red-500/8 p-5 text-center">
+                <p className="text-xs font-bold text-red-400 uppercase tracking-wider mb-2">❌ Wrong — Fix it!</p>
+                <p className="text-xl font-bold text-white">"{currentQuizQ?.wrong}"</p>
+                {currentQuizQ?.category && (
+                  <span className="mt-2 inline-block text-xs bg-slate-800 text-slate-400 px-2 py-1 rounded-full">
+                    {currentQuizQ.category}
+                  </span>
+                )}
+              </div>
+
+              <input
+                value={userInput}
+                onChange={e => setUserInput(e.target.value)}
+                onKeyDown={e => { if (e.key === 'Enter' && quizStatus === 'idle') checkQuizAnswer(); }}
+                disabled={quizStatus !== 'idle'}
+                placeholder="Write the correct sentence..."
+                className="w-full px-4 py-3 rounded-xl bg-slate-800 border-2 border-slate-700 text-white outline-none focus:border-red-500 transition-all"
+              />
+
+              <AnimatePresence mode="wait">
+                {quizStatus !== 'idle' && (
+                  <motion.div
+                    initial={{ opacity: 0, y: -6 }}
+                    animate={{ opacity: 1, y: 0 }}
+                    exit={{ opacity: 0 }}
+                    className={cn(
+                      "rounded-xl p-4 border space-y-2",
+                      quizStatus === 'correct'
+                        ? "border-emerald-500/40 bg-emerald-500/10"
+                        : "border-red-500/40 bg-red-500/10"
+                    )}
+                  >
+                    {quizStatus === 'correct'
+                      ? <p className="text-emerald-300 font-bold">✅ Correct! Well done.</p>
+                      : <>
+                          <p className="text-red-300 font-bold">❌ Incorrect</p>
+                          <p className="text-white text-sm">
+                            <span className="text-slate-400">Correct: </span>
+                            <strong className="text-emerald-300">{currentQuizQ?.correct}</strong>
+                          </p>
+                        </>
+                    }
+                    {currentQuizQ?.rule && (
+                      <p className="text-amber-300/80 text-xs border-t border-white/10 pt-2">
+                        📌 Rule: {currentQuizQ.rule}
+                      </p>
+                    )}
+                  </motion.div>
+                )}
+              </AnimatePresence>
+
+              <div className="flex gap-3">
+                {quizStatus === 'idle' ? (
+                  <button
+                    onClick={checkQuizAnswer}
+                    className="flex-1 py-3 rounded-xl bg-red-600 hover:bg-red-500 text-white font-bold transition-all"
+                  >
+                    Check Answer
+                  </button>
+                ) : (
+                  <button
+                    onClick={nextQuiz}
+                    className="flex-1 py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold transition-all flex items-center justify-center gap-2"
+                  >
+                    Next <ArrowRight size={16} />
+                  </button>
+                )}
+              </div>
+            </motion.div>
+          )}
+        </div>
+      )}
+
+      {/* ── BROWSE MODE ─────────────────────────────────────────────────── */}
+      {!quizMode && (
+        <div className="space-y-3">
+          {filtered.map((mistake, idx) => (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: Math.min(idx * 0.03, 0.5) }}
+              className={cn(
+                "rounded-2xl border transition-all cursor-pointer",
+                expanded === idx
+                  ? "border-red-500/40 bg-red-500/5"
+                  : "border-slate-800 bg-slate-900/50 hover:border-slate-700"
+              )}
+              onClick={() => setExpanded(expanded === idx ? null : idx)}
+            >
+              <div className="p-4 flex items-start gap-4">
+                {/* Index number */}
+                <div className="w-7 h-7 rounded-lg bg-red-500/15 border border-red-500/20 flex items-center justify-center shrink-0 mt-0.5">
+                  <span className="text-red-400 text-xs font-black">{idx + 1}</span>
+                </div>
+
+                <div className="flex-1 min-w-0">
+                  {/* Wrong / Correct pair */}
+                  <div className="flex flex-col sm:flex-row sm:items-center gap-2">
+                    <div className="flex items-center gap-2 flex-1 min-w-0">
+                      <span className="text-red-400 text-lg shrink-0">✗</span>
+                      <span className="text-slate-300 text-sm font-medium line-through decoration-red-400/50 truncate">
+                        {mistake.wrong}
+                      </span>
+                    </div>
+                    <ArrowRight size={14} className="text-slate-600 shrink-0 hidden sm:block" />
+                    <div className="flex items-center gap-2 flex-1 min-w-0">
+                      <span className="text-emerald-400 text-lg shrink-0">✓</span>
+                      <span className="text-emerald-300 text-sm font-bold truncate">
+                        {mistake.correct}
+                      </span>
+                    </div>
+                  </div>
+
+                  {/* Category tag */}
+                  {mistake.category && (
+                    <span className="mt-1.5 inline-block text-xs bg-slate-800 text-slate-400 px-2 py-0.5 rounded-full">
+                      {mistake.category}
+                    </span>
+                  )}
+                </div>
+
+                <ChevronDown
+                  size={16}
+                  className={cn(
+                    "text-slate-500 shrink-0 transition-transform mt-1",
+                    expanded === idx && "rotate-180"
+                  )}
+                />
+              </div>
+
+              {/* Expanded rule explanation */}
+              {expanded === idx && mistake.rule && (
+                <motion.div
+                  initial={{ opacity: 0, height: 0 }}
+                  animate={{ opacity: 1, height: 'auto' }}
+                  exit={{ opacity: 0, height: 0 }}
+                  className="px-5 pb-5 pt-0 border-t border-slate-800"
+                >
+                  <div className="mt-4 rounded-xl border border-amber-500/20 bg-amber-500/5 p-4">
+                    <p className="text-xs font-bold text-amber-400 uppercase tracking-wider mb-1.5">
+                      📌 Grammar Rule
+                    </p>
+                    <p className="text-amber-100/90 text-sm leading-relaxed">{mistake.rule}</p>
+                  </div>
+
+                  {/* Memory hint */}
+                  <div className="mt-3 rounded-xl border border-emerald-500/15 bg-emerald-500/5 p-3">
+                    <p className="text-xs text-emerald-400 font-semibold">
+                      💡 Trick: Wrong mein "{mistake.wrong?.split(' ')[1] || '...'}" use kiya —
+                      sahi hai "{mistake.correct?.split(' ')[1] || '...'}" kyunki {mistake.rule?.split('.')[0]}.
+                    </p>
+                  </div>
+                </motion.div>
+              )}
+            </motion.div>
+          ))}
+        </div>
+      )}
+
+      {/* Complete Button */}
+      <motion.button
+        whileHover={{ scale: 1.01, y: -2 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-red-600 to-rose-500 hover:from-red-500 hover:to-rose-400 text-white font-black text-lg transition-all shadow-lg shadow-red-500/25 flex items-center justify-center gap-2"
+      >
+        <CheckCircle2 size={20} /> Mistakes Reviewed — +100 XP
+      </motion.button>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION: Memory Tricks & Mnemonics
+// 30+ memory tricks using visual metaphors, rhymes,
+// acronyms, and pattern recognition to cement grammar rules
+// ============================================================
+function MemoryTricksSection({ memoryTricks, topic, onComplete }) {
+  // State: track which trick cards are "pinned" (favorites)
+  const [pinned, setPinned] = useState(new Set());
+  // State: active category filter
+  const [activeFilter, setActiveFilter] = useState('all');
+  // State: expand individual trick for detail
+  const [expanded, setExpanded] = useState(0);
+
+  // Extract tricks array
+  const tricks = Array.isArray(memoryTricks)
+    ? memoryTricks
+    : (memoryTricks?.tricks || []);
+
+  // Get unique categories
+  const categories = ['all', ...new Set(tricks.map(t => t.category || t.topic?.split(' ')[0]).filter(Boolean))];
+
+  // Filter tricks
+  const filtered = activeFilter === 'all'
+    ? tricks
+    : tricks.filter(t => (t.category || t.topic || '').includes(activeFilter));
+
+  // Toggle pin state
+  const togglePin = (idx) => {
+    setPinned(prev => {
+      const next = new Set(prev);
+      if (next.has(idx)) next.delete(idx);
+      else next.add(idx);
+      return next;
+    });
+  };
+
+  // Beautiful pastel color system for trick cards
+  const CARD_COLORS = [
+    { bg: 'from-violet-500/15 to-purple-500/10', border: 'border-violet-500/30', badge: 'text-violet-300 bg-violet-500/15' },
+    { bg: 'from-cyan-500/15 to-sky-500/10', border: 'border-cyan-500/30', badge: 'text-cyan-300 bg-cyan-500/15' },
+    { bg: 'from-emerald-500/15 to-teal-500/10', border: 'border-emerald-500/30', badge: 'text-emerald-300 bg-emerald-500/15' },
+    { bg: 'from-amber-500/15 to-yellow-500/10', border: 'border-amber-500/30', badge: 'text-amber-300 bg-amber-500/15' },
+    { bg: 'from-pink-500/15 to-rose-500/10', border: 'border-pink-500/30', badge: 'text-pink-300 bg-pink-500/15' },
+    { bg: 'from-indigo-500/15 to-blue-500/10', border: 'border-indigo-500/30', badge: 'text-indigo-300 bg-indigo-500/15' },
+  ];
+
+  if (!tricks.length) {
+    return (
+      <div className="text-center py-12 space-y-4">
+        <Sparkles size={44} className="text-yellow-400 mx-auto opacity-40" />
+        <p className="text-slate-400">Memory tricks loading...</p>
+        <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-yellow-600 text-white font-bold">
+          Mark Complete
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="rounded-3xl bg-gradient-to-br from-yellow-600/20 via-amber-600/10 to-orange-600/15 border border-yellow-500/30 p-6"
+      >
+        <div className="flex items-start gap-4">
+          <div className="w-14 h-14 rounded-2xl bg-yellow-500/20 border border-yellow-500/30 flex items-center justify-center text-3xl shrink-0">
+            🧠
+          </div>
+          <div>
+            <h2 className="text-2xl font-black text-white mb-1">Memory Tricks & Mnemonics</h2>
+            <p className="text-yellow-300/80 text-sm leading-relaxed">
+              Har grammar rule ko yaad karne ka ek shortcut hota hai — yahan woh sab tricks hain.
+              In tricks ko use karo aur rules hamesha ke liye yaad ho jaenge.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-3">
+              <span className="text-xs font-bold text-yellow-400 bg-yellow-500/10 border border-yellow-500/20 px-3 py-1 rounded-full">
+                🎯 {tricks.length} Tricks
+              </span>
+              <span className="text-xs font-bold text-amber-400 bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-full">
+                🔥 Spaced Learning
+              </span>
+              <span className="text-xs font-bold text-orange-400 bg-orange-500/10 border border-orange-500/20 px-3 py-1 rounded-full">
+                ⚡ Instant Recall
+              </span>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Science tip — how mnemonics work */}
+      <div className="grid sm:grid-cols-3 gap-3">
+        {[
+          { icon: '🔁', title: 'Spaced Repetition', desc: 'Ek trick ko 3 baar 3 alag din padho — yaad ho jaayegi.' },
+          { icon: '🎨', title: 'Visual Hook', desc: 'Har trick ek image se linked hai — brain pictures jyada remember karta hai.' },
+          { icon: '🗣️', title: 'Say It Loud', desc: 'Trick ko zor se bolo — voice memory stronger hoti hai.' },
+        ].map((tip, i) => (
+          <div key={i} className="rounded-xl border border-slate-700 bg-slate-800/60 p-4">
+            <div className="text-2xl mb-2">{tip.icon}</div>
+            <p className="text-white text-sm font-bold mb-1">{tip.title}</p>
+            <p className="text-slate-400 text-xs leading-relaxed">{tip.desc}</p>
+          </div>
+        ))}
+      </div>
+
+      {/* Trick cards — expandable */}
+      <div className="space-y-3">
+        {filtered.map((trick, idx) => {
+          const colorSet = CARD_COLORS[idx % CARD_COLORS.length];
+          const isPinned = pinned.has(idx);
+          const isExpanded = expanded === idx;
+
+          return (
+            <motion.div
+              key={idx}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: Math.min(idx * 0.04, 0.6) }}
+              className={cn(
+                "rounded-2xl border bg-gradient-to-br transition-all cursor-pointer",
+                colorSet.bg, colorSet.border,
+                isExpanded && "shadow-lg"
+              )}
+              onClick={() => setExpanded(isExpanded ? null : idx)}
+            >
+              <div className="p-5 flex items-start gap-4">
+                {/* Number */}
+                <div className={cn(
+                  "w-8 h-8 rounded-xl flex items-center justify-center text-xs font-black shrink-0",
+                  colorSet.badge
+                )}>
+                  {idx + 1}
+                </div>
+
+                <div className="flex-1 min-w-0">
+                  {/* Topic label */}
+                  {trick.topic && (
+                    <p className={cn("text-xs font-black uppercase tracking-wider mb-1.5", colorSet.badge.split(' ')[0])}>
+                      {trick.topic}
+                    </p>
+                  )}
+                  {/* The actual trick */}
+                  <p className="text-white font-semibold text-sm leading-relaxed">
+                    {trick.trick}
+                  </p>
+                  {/* Visual shorthand */}
+                  {trick.visual && !isExpanded && (
+                    <p className="text-slate-400 text-xs mt-1 font-mono">{trick.visual}</p>
+                  )}
+                </div>
+
+                {/* Pin + expand buttons */}
+                <div className="flex items-center gap-2 shrink-0" onClick={e => e.stopPropagation()}>
+                  <button
+                    onClick={() => togglePin(idx)}
+                    className={cn(
+                      "w-7 h-7 rounded-lg flex items-center justify-center text-sm transition-all",
+                      isPinned ? "bg-amber-500/25 text-amber-300" : "bg-slate-700 text-slate-400 hover:text-amber-300"
+                    )}
+                    title={isPinned ? "Unpin" : "Pin trick"}
+                  >
+                    {isPinned ? '📌' : '📍'}
+                  </button>
+                </div>
+                <ChevronDown
+                  size={16}
+                  className={cn(
+                    "text-slate-500 shrink-0 transition-transform self-start mt-1",
+                    isExpanded && "rotate-180"
+                  )}
+                />
+              </div>
+
+              {/* Expanded detail — example and deeper explanation */}
+              {isExpanded && (
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  className="px-5 pb-5 border-t border-white/10 pt-4 space-y-4"
+                >
+                  {/* Example sentences */}
+                  {trick.example && (
+                    <div className="rounded-xl bg-slate-900/60 border border-slate-700 p-4">
+                      <p className="text-xs font-bold text-slate-400 uppercase tracking-wider mb-2">
+                        📝 Example
+                      </p>
+                      <p className="text-white text-sm font-medium leading-relaxed">{trick.example}</p>
+                    </div>
+                  )}
+                  {/* Visual shorthand (larger) */}
+                  {trick.visual && (
+                    <div className={cn(
+                      "rounded-xl border p-4 text-center",
+                      colorSet.border, colorSet.badge.split(' ')[1]
+                    )}>
+                      <p className={cn("text-2xl font-black font-mono tracking-widest", colorSet.badge.split(' ')[0])}>
+                        {trick.visual}
+                      </p>
+                      <p className="text-slate-400 text-xs mt-1">Visual Shorthand — yaad karo!</p>
+                    </div>
+                  )}
+                </motion.div>
+              )}
+            </motion.div>
+          );
+        })}
+      </div>
+
+      {/* Pinned summary */}
+      {pinned.size > 0 && (
+        <div className="rounded-2xl border border-amber-500/20 bg-amber-500/5 p-4">
+          <p className="text-amber-300 font-bold text-sm mb-2">📌 Your Pinned Tricks ({pinned.size})</p>
+          <div className="space-y-1">
+            {[...pinned].map(i => tricks[i]).filter(Boolean).map((t, i) => (
+              <p key={i} className="text-slate-300 text-sm">• {t.trick}</p>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Complete Button */}
+      <motion.button
+        whileHover={{ scale: 1.01, y: -2 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-yellow-600 to-amber-500 hover:from-yellow-500 hover:to-amber-400 text-white font-black text-lg transition-all shadow-lg shadow-yellow-500/25 flex items-center justify-center gap-2"
+      >
+        <CheckCircle2 size={20} /> Tricks Learned — +100 XP
+      </motion.button>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION: Flashcards — Spaced Repetition System
+// 500 flashcards with flip animation, category filters,
+// difficulty tracking, and session management
+// ============================================================
+function FlashcardsSection({ flashcards: flashcardData, playSound, onComplete }) {
+  // Extract flashcards array from various formats
+  const allCards = flashcardData?.flashcards || flashcardData?.cards
+    || (Array.isArray(flashcardData) ? flashcardData : []);
+
+  // State: current card index
+  const [index, setIndex]             = useState(0);
+  // State: whether card is flipped (showing back)
+  const [flipped, setFlipped]         = useState(false);
+  // State: cards marked as known / unknown
+  const [known, setKnown]             = useState(new Set());
+  const [unknown, setUnknown]         = useState(new Set());
+  // State: category filter
+  const [activeCategory, setCategory] = useState('all');
+  // State: session started
+  const [sessionStarted, setSession]  = useState(false);
+  const [sessionPercent, setPercent]  = useState(20);
+  const [sessionCards, setCards]      = useState([]);
+  const [sessionDone, setDone]        = useState(false);
+
+  const PERCENT_OPTIONS = [20, 40, 60, 80, 100];
+
+  // Get categories from cards
+  const categories = ['all', ...new Set(allCards.map(c => c.category || c.type).filter(Boolean))];
+
+  // Filter by category
+  const filteredAll = activeCategory === 'all'
+    ? allCards
+    : allCards.filter(c => (c.category || c.type) === activeCategory);
+
+  // Start a session
+  const startSession = () => {
+    const shuffled = [...filteredAll].sort(() => Math.random() - 0.5);
+    const count = Math.max(5, Math.round((filteredAll.length * sessionPercent) / 100));
+    setCards(shuffled.slice(0, count));
+    setIndex(0);
+    setFlipped(false);
+    setKnown(new Set());
+    setUnknown(new Set());
+    setDone(false);
+    setSession(true);
+  };
+
+  const active = sessionStarted ? sessionCards : filteredAll;
+  const currentCard = active[index];
+
+  // Flip the card
+  const flip = () => {
+    setFlipped(f => !f);
+    if (!flipped && playSound) playSound('reveal');
+  };
+
+  // Mark card as known/unknown and advance
+  const markKnown = () => {
+    setKnown(s => new Set([...s, index]));
+    if (playSound) playSound('correct');
+    advance();
+  };
+
+  const markUnknown = () => {
+    setUnknown(s => new Set([...s, index]));
+    if (playSound) playSound('wrong');
+    advance();
+  };
+
+  const advance = () => {
+    if (index >= active.length - 1) {
+      setDone(true);
+    } else {
+      setIndex(i => i + 1);
+      setFlipped(false);
+    }
+  };
+
+  // ── PRE-START SCREEN ──────────────────────────────────────────────────
+  if (!sessionStarted) {
+    return (
+      <motion.div
+        initial={{ opacity: 0, scale: 0.97 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="space-y-6"
+      >
+        {/* Hero */}
+        <div className="rounded-3xl bg-gradient-to-br from-purple-600/20 via-violet-600/10 to-fuchsia-600/15 border border-purple-500/30 p-6 text-center">
+          <div className="text-5xl mb-3">🃏</div>
+          <h2 className="text-2xl font-black text-white mb-2">Flashcard Practice</h2>
+          <p className="text-purple-300/80 text-sm">
+            {allCards.length.toLocaleString()} flashcards available — ek ek word yaad karo flip karke!
+          </p>
+        </div>
+
+        {/* Science info */}
+        <div className="grid sm:grid-cols-2 gap-3">
+          <div className="rounded-xl border border-slate-700 bg-slate-800/60 p-4">
+            <p className="text-purple-300 font-bold text-sm mb-1">🔬 Spaced Repetition</p>
+            <p className="text-slate-400 text-xs leading-relaxed">
+              "Unknown" cards repeat more — ya exactly spaced repetition kaam karta hai.
+              Brain ko yahi chahiye hota hai.
+            </p>
+          </div>
+          <div className="rounded-xl border border-slate-700 bg-slate-800/60 p-4">
+            <p className="text-fuchsia-300 font-bold text-sm mb-1">⚡ Active Recall</p>
+            <p className="text-slate-400 text-xs leading-relaxed">
+              Pehle front dekho, try karo yaad karo, phir flip karo — ye method 3x faster learning deta hai.
+            </p>
+          </div>
+        </div>
+
+        {/* Session length picker */}
+        <div className="rounded-2xl border border-slate-700 bg-slate-800/50 p-5 space-y-4">
+          <div>
+            <p className="font-bold text-white mb-1">Session Size</p>
+            <p className="text-sm text-slate-400">Kitne cards review karne hain?</p>
+          </div>
+          <div className="grid grid-cols-5 gap-2">
+            {PERCENT_OPTIONS.map(pct => {
+              const count = Math.max(5, Math.round((filteredAll.length * pct) / 100));
+              return (
+                <button
+                  key={pct}
+                  onClick={() => setPercent(pct)}
+                  className={cn(
+                    "py-3 rounded-xl text-center transition-all border",
+                    sessionPercent === pct
+                      ? "border-purple-400 bg-purple-500/20 text-white"
+                      : "border-white/10 bg-white/5 text-slate-400 hover:border-purple-500/30"
+                  )}
+                >
+                  <div className="font-bold text-sm">{pct}%</div>
+                  <div className="text-[10px] opacity-75">{count}</div>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+
+        {/* Category filter */}
+        <div>
+          <p className="text-sm text-slate-400 mb-2">Filter by Category:</p>
+          <div className="flex flex-wrap gap-2">
+            {categories.slice(0, 8).map(cat => (
+              <button
+                key={cat}
+                onClick={() => setCategory(cat)}
+                className={cn(
+                  "px-3 py-1.5 rounded-lg text-xs font-bold transition-all border",
+                  activeCategory === cat
+                    ? "border-purple-500/50 bg-purple-500/15 text-purple-300"
+                    : "border-slate-700 bg-slate-800 text-slate-400 hover:border-slate-600"
+                )}
+              >
+                {cat === 'all' ? `All (${allCards.length})` : cat}
+              </button>
+            ))}
+          </div>
+        </div>
+
+        <button
+          onClick={startSession}
+          className="w-full py-4 rounded-xl bg-gradient-to-r from-purple-600 to-violet-500 hover:from-purple-500 hover:to-violet-400 text-white font-black text-lg transition-all shadow-lg shadow-purple-500/25 flex items-center justify-center gap-3"
+        >
+          <Layers size={22} /> Start Session —{' '}
+          {Math.max(5, Math.round((filteredAll.length * sessionPercent) / 100))} Cards
+        </button>
+      </motion.div>
+    );
+  }
+
+  // ── SESSION DONE ──────────────────────────────────────────────────────
+  if (sessionDone) {
+    const accuracy = Math.round((known.size / (known.size + unknown.size)) * 100) || 0;
+    return (
+      <motion.div
+        initial={{ opacity: 0, scale: 0.96 }}
+        animate={{ opacity: 1, scale: 1 }}
+        className="text-center space-y-6 py-8"
+      >
+        <div className="text-6xl mb-2">
+          {accuracy >= 80 ? '🏆' : accuracy >= 50 ? '👍' : '💪'}
+        </div>
+        <h3 className="text-3xl font-black text-white">Session Complete!</h3>
+        <div className="grid grid-cols-3 gap-4 max-w-xs mx-auto">
+          <div className="rounded-xl bg-emerald-500/10 border border-emerald-500/20 p-3">
+            <p className="text-2xl font-black text-emerald-400">{known.size}</p>
+            <p className="text-xs text-slate-400">Known ✓</p>
+          </div>
+          <div className="rounded-xl bg-red-500/10 border border-red-500/20 p-3">
+            <p className="text-2xl font-black text-red-400">{unknown.size}</p>
+            <p className="text-xs text-slate-400">Review ✗</p>
+          </div>
+          <div className="rounded-xl bg-purple-500/10 border border-purple-500/20 p-3">
+            <p className="text-2xl font-black text-purple-400">{accuracy}%</p>
+            <p className="text-xs text-slate-400">Score</p>
+          </div>
+        </div>
+        <p className="text-slate-400 text-sm">
+          {accuracy >= 80
+            ? 'Excellent! Aaj ke words yaad ho gaye!'
+            : `${unknown.size} cards dobara review karo kal.`}
+        </p>
+        <div className="flex gap-3 justify-center">
+          <button
+            onClick={() => { setSession(false); setDone(false); }}
+            className="px-6 py-3 rounded-xl bg-slate-700 text-white font-bold hover:bg-slate-600 transition-all"
+          >
+            Change Session
+          </button>
+          <button
+            onClick={() => onComplete()}
+            className="px-6 py-3 rounded-xl bg-purple-600 text-white font-bold hover:bg-purple-500 transition-all"
+          >
+            Done +100 XP
+          </button>
+        </div>
+      </motion.div>
+    );
+  }
+
+  // ── ACTIVE FLASHCARD ──────────────────────────────────────────────────
+  return (
+    <div className="space-y-5">
+      {/* Progress bar */}
+      <div className="flex items-center gap-3">
+        <div className="flex-1 h-2 bg-slate-800 rounded-full overflow-hidden">
+          <motion.div
+            className="h-full bg-gradient-to-r from-purple-500 to-violet-400"
+            style={{ width: `${((index + 1) / active.length) * 100}%` }}
+            transition={{ duration: 0.4 }}
+          />
+        </div>
+        <span className="text-xs text-slate-400 font-semibold shrink-0">
+          {index + 1} / {active.length}
+        </span>
+      </div>
+
+      {/* Stats row */}
+      <div className="flex gap-3 justify-center">
+        <span className="text-xs font-bold text-emerald-400 bg-emerald-500/10 px-3 py-1 rounded-full border border-emerald-500/20">
+          ✓ {known.size} known
+        </span>
+        <span className="text-xs font-bold text-red-400 bg-red-500/10 px-3 py-1 rounded-full border border-red-500/20">
+          ✗ {unknown.size} need review
+        </span>
+      </div>
+
+      {/* Flashcard — 3D flip effect via CSS transform */}
+      <motion.div
+        key={index}
+        initial={{ opacity: 0, x: 20 }}
+        animate={{ opacity: 1, x: 0 }}
+        transition={{ duration: 0.3 }}
+        className="cursor-pointer"
+        onClick={flip}
+        style={{ perspective: '1000px' }}
+      >
+        <motion.div
+          animate={{ rotateY: flipped ? 180 : 0 }}
+          transition={{ duration: 0.5, ease: 'easeInOut' }}
+          style={{ transformStyle: 'preserve-3d', position: 'relative', minHeight: '240px' }}
+        >
+          {/* Front — Hindi/question */}
+          <div
+            style={{ backfaceVisibility: 'hidden', position: 'absolute', inset: 0 }}
+            className="rounded-3xl border border-purple-500/30 bg-gradient-to-br from-purple-600/15 via-violet-600/10 to-fuchsia-600/10 flex flex-col items-center justify-center p-8 text-center"
+          >
+            {currentCard?.type && (
+              <span className="text-xs font-bold text-purple-400 bg-purple-500/15 px-3 py-1 rounded-full mb-4">
+                {currentCard.type}
+              </span>
+            )}
+            <p className="text-4xl font-black text-white hindi-text mb-3 leading-relaxed">
+              {currentCard?.front || currentCard?.hindi || '?'}
+            </p>
+            {currentCard?.category && (
+              <p className="text-purple-300/70 text-sm">{currentCard.category}</p>
+            )}
+            <p className="text-slate-500 text-sm mt-6">👆 Tap to see answer</p>
+          </div>
+
+          {/* Back — English answer */}
+          <div
+            style={{ backfaceVisibility: 'hidden', transform: 'rotateY(180deg)', position: 'absolute', inset: 0 }}
+            className="rounded-3xl border border-emerald-500/30 bg-gradient-to-br from-emerald-600/15 via-teal-600/10 to-cyan-600/10 flex flex-col items-center justify-center p-8 text-center"
+          >
+            <p className="text-4xl font-black text-white mb-3">
+              {currentCard?.back || currentCard?.english || '—'}
+            </p>
+            {currentCard?.example && (
+              <p className="text-emerald-300/80 text-sm italic">"{currentCard.example}"</p>
+            )}
+            {currentCard?.exampleHindi && (
+              <p className="text-slate-400 text-xs mt-1 hindi-text">{currentCard.exampleHindi}</p>
+            )}
+          </div>
+        </motion.div>
+      </motion.div>
+
+      {/* Action buttons (shown only after flip) */}
+      <AnimatePresence>
+        {flipped && (
+          <motion.div
+            initial={{ opacity: 0, y: 8 }}
+            animate={{ opacity: 1, y: 0 }}
+            exit={{ opacity: 0 }}
+            className="grid grid-cols-2 gap-3"
+          >
+            <button
+              onClick={markUnknown}
+              className="py-4 rounded-2xl border border-red-500/40 bg-red-500/10 text-red-300 font-black text-lg hover:bg-red-500/20 transition-all"
+            >
+              ✗ Need Review
+            </button>
+            <button
+              onClick={markKnown}
+              className="py-4 rounded-2xl border border-emerald-500/40 bg-emerald-500/10 text-emerald-300 font-black text-lg hover:bg-emerald-500/20 transition-all"
+            >
+              ✓ Got It!
+            </button>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {!flipped && (
+        <button
+          onClick={flip}
+          className="w-full py-3 rounded-xl border border-slate-700 bg-slate-800 text-slate-400 font-semibold hover:border-purple-500/30 hover:text-purple-300 transition-all text-sm"
+        >
+          Show Answer 👇
+        </button>
+      )}
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION: Dialogue Practice
+// Real-life dialogues with speaker roles, Hindi translation,
+// role-play mode, and comprehension questions
+// ============================================================
+function DialogueSection({ dialogues: dialogueData, topic, onComplete }) {
+  // Extract dialogues array
+  const dialogues = dialogueData?.dialogues || (Array.isArray(dialogueData) ? dialogueData : []);
+
+  // State: which dialogue is active
+  const [activeIdx, setActiveIdx]   = useState(0);
+  // State: show Hindi translations alongside English
+  const [showHindi, setShowHindi]   = useState(false);
+  // State: role-play mode — user picks a speaker role
+  const [rolePlay, setRolePlay]     = useState(null);
+  // State: reading progress per dialogue
+  const [lineRead, setLineRead]     = useState(0);
+  // State: expanded vocab words
+  const [vocabOpen, setVocabOpen]   = useState(false);
+
+  const currentDialogue = dialogues[activeIdx];
+
+  if (!dialogues.length || !currentDialogue) {
+    return (
+      <div className="text-center py-12 space-y-4">
+        <MessageSquare size={44} className="text-blue-400 mx-auto opacity-40" />
+        <p className="text-slate-400">Dialogue content loading...</p>
+        <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-blue-600 text-white font-bold">
+          Mark Complete
+        </button>
+      </div>
+    );
+  }
+
+  // Get unique speakers in this dialogue
+  const speakers = [...new Set((currentDialogue.conversation || []).map(l => l.speaker))];
+  const speakerColors = {
+    [speakers[0]]: 'from-blue-600/20 border-blue-500/30 text-blue-300',
+    [speakers[1]]: 'from-emerald-600/20 border-emerald-500/30 text-emerald-300',
+    [speakers[2]]: 'from-purple-600/20 border-purple-500/30 text-purple-300',
+  };
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="rounded-3xl bg-gradient-to-br from-blue-600/20 via-sky-600/10 to-cyan-600/15 border border-blue-500/30 p-6"
+      >
+        <div className="flex items-start gap-4">
+          <div className="w-14 h-14 rounded-2xl bg-blue-500/20 border border-blue-500/30 flex items-center justify-center text-3xl shrink-0">
+            💬
+          </div>
+          <div>
+            <h2 className="text-2xl font-black text-white mb-1">Dialogue Practice</h2>
+            <p className="text-blue-300/80 text-sm leading-relaxed">
+              Real conversations padho — different situations mein English kaise bolte hain ye seekho.
+              Role-play mode mein ek character ban ke practice karo.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-3">
+              <span className="text-xs font-bold text-blue-400 bg-blue-500/10 border border-blue-500/20 px-3 py-1 rounded-full">
+                {dialogues.length} Dialogues
+              </span>
+              <span className="text-xs font-bold text-sky-400 bg-sky-500/10 border border-sky-500/20 px-3 py-1 rounded-full">
+                Real Situations
+              </span>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Dialogue selector tabs */}
+      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-2">
+        {dialogues.slice(0, 8).map((d, i) => (
+          <button
+            key={i}
+            onClick={() => { setActiveIdx(i); setLineRead(0); setRolePlay(null); }}
+            className={cn(
+              "py-2.5 px-3 rounded-xl text-xs font-bold text-left transition-all border",
+              activeIdx === i
+                ? "border-blue-500/50 bg-blue-500/15 text-blue-300"
+                : "border-slate-700 bg-slate-800/60 text-slate-400 hover:border-slate-600"
+            )}
+          >
+            {i + 1}. {d.situation || d.title || `Dialogue ${i + 1}`}
+          </button>
+        ))}
+      </div>
+
+      {/* Current dialogue info */}
+      <div className="rounded-2xl border border-blue-500/20 bg-blue-500/5 p-4">
+        <div className="flex items-center justify-between flex-wrap gap-3 mb-3">
+          <div>
+            <h3 className="font-black text-white text-lg">{currentDialogue.situation || currentDialogue.title}</h3>
+            {currentDialogue.level && (
+              <span className="text-xs text-blue-400 font-semibold">{currentDialogue.level}</span>
+            )}
+          </div>
+          <div className="flex gap-2">
+            {/* Hindi toggle */}
+            <button
+              onClick={() => setShowHindi(h => !h)}
+              className={cn(
+                "px-3 py-1.5 rounded-lg text-xs font-bold border transition-all",
+                showHindi
+                  ? "border-amber-500/40 bg-amber-500/15 text-amber-300"
+                  : "border-slate-700 bg-slate-800 text-slate-400"
+              )}
+            >
+              🇮🇳 {showHindi ? 'Hide Hindi' : 'Show Hindi'}
+            </button>
+            {/* Role-play mode */}
+            {speakers[0] && (
+              <button
+                onClick={() => setRolePlay(rolePlay ? null : speakers[0])}
+                className={cn(
+                  "px-3 py-1.5 rounded-lg text-xs font-bold border transition-all",
+                  rolePlay
+                    ? "border-emerald-500/40 bg-emerald-500/15 text-emerald-300"
+                    : "border-slate-700 bg-slate-800 text-slate-400"
+                )}
+              >
+                🎭 {rolePlay ? `Playing: ${rolePlay}` : 'Role-Play'}
+              </button>
+            )}
+          </div>
+        </div>
+
+        {/* Vocab words for this dialogue */}
+        {currentDialogue.vocab?.length > 0 && (
+          <div>
+            <button
+              onClick={() => setVocabOpen(v => !v)}
+              className="text-xs text-blue-400 font-bold flex items-center gap-1 mb-2"
+            >
+              📚 Key Words ({currentDialogue.vocab.length})
+              <ChevronDown size={12} className={cn("transition-transform", vocabOpen && "rotate-180")} />
+            </button>
+            {vocabOpen && (
+              <div className="flex flex-wrap gap-1.5 mb-3">
+                {currentDialogue.vocab.map((word, wi) => (
+                  <span key={wi} className="text-xs bg-slate-800 border border-slate-700 text-slate-300 px-2 py-0.5 rounded-full">
+                    {word}
+                  </span>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
+      </div>
+
+      {/* Role-play selector */}
+      {rolePlay && (
+        <div className="rounded-xl border border-emerald-500/20 bg-emerald-500/5 p-3">
+          <p className="text-emerald-300 text-sm font-semibold mb-2">
+            🎭 You are playing: <strong>{rolePlay}</strong>
+          </p>
+          <div className="flex gap-2">
+            {speakers.map(sp => (
+              <button
+                key={sp}
+                onClick={() => setRolePlay(sp)}
+                className={cn(
+                  "px-3 py-1.5 rounded-lg text-xs font-bold border transition-all",
+                  rolePlay === sp
+                    ? "border-emerald-500/40 bg-emerald-500/15 text-emerald-300"
+                    : "border-slate-700 bg-slate-800 text-slate-400"
+                )}
+              >
+                {sp}
+              </button>
+            ))}
+          </div>
+        </div>
+      )}
+
+      {/* Dialogue lines */}
+      <div className="space-y-3">
+        {(currentDialogue.conversation || []).map((line, li) => {
+          const isUser = rolePlay === line.speaker;
+          const colorClass = speakerColors[line.speaker] || 'from-slate-600/20 border-slate-500/30 text-slate-300';
+          return (
+            <motion.div
+              key={li}
+              initial={{ opacity: 0, x: li % 2 === 0 ? -10 : 10 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ delay: li * 0.05 }}
+              className={cn(
+                "rounded-2xl border bg-gradient-to-br p-4",
+                colorClass,
+                isUser && "ring-2 ring-emerald-500/30"
+              )}
+            >
+              <div className="flex items-center gap-2 mb-2">
+                <span className="text-xs font-black uppercase tracking-wider">{line.speaker}</span>
+                {isUser && (
+                  <span className="text-xs bg-emerald-500/20 text-emerald-300 px-1.5 py-0.5 rounded-full font-bold">
+                    YOU
+                  </span>
+                )}
+              </div>
+              <p className="text-white font-semibold text-sm leading-relaxed">
+                {isUser ? (
+                  <span className="flex items-center gap-2">
+                    {line.text}
+                    <Mic size={12} className="text-emerald-400 opacity-60 shrink-0" />
+                  </span>
+                ) : line.text}
+              </p>
+              {showHindi && line.hindi && (
+                <p className="text-slate-400 text-xs mt-1 hindi-text italic">{line.hindi}</p>
+              )}
+            </motion.div>
+          );
+        })}
+      </div>
+
+      {/* Comprehension questions if available */}
+      {currentDialogue.comprehensionQuestions?.length > 0 && (
+        <div className="rounded-2xl border border-slate-700 bg-slate-800/50 p-5 space-y-3">
+          <h4 className="font-bold text-white text-base flex items-center gap-2">
+            <BookOpen size={16} className="text-blue-400" /> Comprehension Questions
+          </h4>
+          {currentDialogue.comprehensionQuestions.map((q, qi) => (
+            <div key={qi} className="flex gap-3">
+              <span className="text-blue-400 font-black text-sm shrink-0">Q{qi + 1}.</span>
+              <p className="text-slate-300 text-sm">{q}</p>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {/* Complete Button */}
+      <motion.button
+        whileHover={{ scale: 1.01, y: -2 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-blue-600 to-sky-500 hover:from-blue-500 hover:to-sky-400 text-white font-black text-lg transition-all shadow-lg shadow-blue-500/25 flex items-center justify-center gap-2"
+      >
+        <CheckCircle2 size={20} /> Dialogues Done — +100 XP
+      </motion.button>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION: Daily & Office Conversation
+// Real-life scenarios: at home, office, interviews, phone calls
+// Teaches context-aware English for professional use
+// ============================================================
+function ConversationSection({ conversationPractice, topic, onComplete }) {
+  // Extract scenarios — key may be 'scenarios' or 'conversations'
+  const scenarios = conversationPractice?.scenarios
+    || conversationPractice?.conversations
+    || (Array.isArray(conversationPractice) ? conversationPractice : []);
+
+  // State: active scenario index
+  const [activeIdx, setActiveIdx]   = useState(0);
+  // State: active tab inside scenario (situation / phrases / practice)
+  const [tab, setTab]               = useState('situation');
+  // State: show Hindi
+  const [showHindi, setShowHindi]   = useState(false);
+  // State: practice quiz for phrases
+  const [practiceMode, setPractice] = useState(false);
+
+  const current = scenarios[activeIdx];
+
+  // Fallback content when API data is missing — Day 1 daily situations
+  const FALLBACK_SCENARIOS = [
+    {
+      id: 1,
+      situation: 'Meeting Someone New',
+      context: 'Jab aap kisi nayi jagah jaate ho — job, college, neighborhood — aur kisi se milte ho',
+      category: 'Daily Life',
+      difficulty: 'Beginner',
+      phrases: [
+        { english: 'Hello! My name is Rohan. Nice to meet you.', hindi: 'Namaste! Mera naam Rohan hai. Aapse milkar khushi hui.', context: 'Formal/Casual greeting' },
+        { english: 'Where are you from?', hindi: 'Aap kahan se hain?', context: 'Getting to know someone' },
+        { english: 'I am from Delhi. I am new here.', hindi: 'Main Delhi se hoon. Main yahan naya hoon.', context: 'Introducing yourself' },
+        { english: 'What do you do?', hindi: 'Aap kya karte ho?', context: 'Professional context' },
+        { english: 'I am a software engineer. I work at a tech company.', hindi: 'Main software engineer hoon. Main ek tech company mein kaam karta hoon.', context: 'Job introduction' },
+        { english: 'It was great meeting you!', hindi: 'Aapse milkar bahut accha laga!', context: 'Closing conversation' },
+      ],
+      tips: [
+        'Always make eye contact when greeting someone.',
+        '"Nice to meet you" is always polite — formal ya casual dono jagah use kar sakte ho.',
+        'Job ya profession poochna normal hai India mein — isse awkward mat samjho.',
+      ]
+    },
+    {
+      id: 2,
+      situation: 'At the Office — First Day',
+      context: 'Job ke pehle din — apne manager aur colleagues se milna',
+      category: 'Professional',
+      difficulty: 'Beginner',
+      phrases: [
+        { english: 'Good morning! I am joining today as a developer.', hindi: 'Subah ki shuruaat! Main aaj developer ke roop mein join kar raha hoon.', context: 'Introducing yourself to HR' },
+        { english: 'Could you please show me where I will be sitting?', hindi: 'Kya aap mujhe bata sakte hain meri seat kahan hai?', context: 'Asking for help politely' },
+        { english: 'I am excited to be part of this team.', hindi: 'Main is team ka hissa hone mein excited hoon.', context: 'Showing enthusiasm' },
+        { english: 'Could you please help me set up my system?', hindi: 'Kya aap mujhe system setup karne mein help kar sakte hain?', context: 'Asking for technical help' },
+        { english: 'Thank you so much for your help!', hindi: 'Bahut shukriya aapki madad ke liye!', context: 'Expressing gratitude' },
+      ],
+      tips: [
+        'Use "Could you please...?" instead of "Can you...?" — it sounds more professional.',
+        '"I am excited to..." shows positive attitude — managers love this.',
+        'Always say thank you when someone helps you at work.',
+      ]
+    },
+    {
+      id: 3,
+      situation: 'Making a Phone Call',
+      context: 'English mein phone call karna — ek common situation jo bahut log avoid karte hain',
+      category: 'Daily Life',
+      difficulty: 'Beginner',
+      phrases: [
+        { english: 'Hello, may I speak to Mr. Sharma please?', hindi: 'Hello, kya main Mr. Sharma se baat kar sakta hoon?', context: 'Asking for someone on phone' },
+        { english: 'This is Rohan calling from ABC Company.', hindi: 'Main ABC Company se Rohan bol raha hoon.', context: 'Introducing yourself on call' },
+        { english: 'Could you please hold for a moment?', hindi: 'Kya aap ek minute ruk sakte hain?', context: 'Asking caller to wait' },
+        { english: 'I am calling to confirm my appointment.', hindi: 'Main apni appointment confirm karne ke liye call kar raha hoon.', context: 'Purpose of call' },
+        { english: 'Thank you for your time. Have a good day!', hindi: 'Aapke time ke liye shukriya. Aapka din accha jaaye!', context: 'Ending a call professionally' },
+      ],
+      tips: [
+        'Pehle apna naam batao — "This is [name] calling" — caller ID pe depend mat karo.',
+        'Phone calls mein clear aur slow bolna zaroori hai — jaldi baat karna confusion create karta hai.',
+        '"May I speak to...?" zyada polite hai "I want to talk to..." se.',
+      ]
+    },
+    {
+      id: 4,
+      situation: 'Job Interview',
+      context: 'English medium interview — HR se lekar technical round tak',
+      category: 'Professional',
+      difficulty: 'Beginner-Intermediate',
+      phrases: [
+        { english: 'Good morning! Thank you for this opportunity.', hindi: 'Subah ki shuruaat! Is mauke ke liye shukriya.', context: 'Starting the interview' },
+        { english: 'I have 3 years of experience in software development.', hindi: 'Mere paas software development mein 3 saal ka anubhav hai.', context: 'Mentioning experience' },
+        { english: 'I am a quick learner and a team player.', hindi: 'Main jaldi seekhta hoon aur team ke saath accha kaam karta hoon.', context: 'Highlighting strengths' },
+        { english: 'My greatest strength is problem solving.', hindi: 'Meri sabse badi khoobiyon mein se ek hai problem solving.', context: "Strengths question" },
+        { english: 'I see myself growing with this organization.', hindi: 'Main khud ko is organization ke saath badhta hua dekhta hoon.', context: '5-year plan question' },
+        { english: 'I have a question — what does a typical day look like in this role?', hindi: 'Mera ek sawaal hai — is role mein ek normal din kaisa hota hai?', context: 'Asking questions at the end' },
+      ],
+      tips: [
+        'Start with "Good morning/afternoon" — always. It sets a professional tone.',
+        'Numbers make you sound credible: "3 years", "5 projects", "10 team members".',
+        'Prepare 2-3 questions to ask the interviewer — "no questions" = low interest.',
+      ]
+    },
+  ];
+
+  // Use API scenarios if available, else fallback
+  const displayScenarios = scenarios.length > 0 ? scenarios : FALLBACK_SCENARIOS;
+  const displayCurrent = displayScenarios[activeIdx];
+
+  if (!displayCurrent) {
+    return (
+      <div className="text-center py-12 space-y-4">
+        <MessageSquare size={44} className="text-orange-400 mx-auto opacity-40" />
+        <p className="text-slate-400">Loading conversation content...</p>
+        <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-orange-600 text-white font-bold">
+          Mark Complete
+        </button>
+      </div>
+    );
+  }
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="rounded-3xl bg-gradient-to-br from-orange-600/20 via-amber-600/10 to-yellow-600/15 border border-orange-500/30 p-6"
+      >
+        <div className="flex items-start gap-4">
+          <div className="w-14 h-14 rounded-2xl bg-orange-500/20 border border-orange-500/30 flex items-center justify-center text-3xl shrink-0">
+            🗣️
+          </div>
+          <div>
+            <h2 className="text-2xl font-black text-white mb-1">Daily & Office Conversation</h2>
+            <p className="text-orange-300/80 text-sm leading-relaxed">
+              Real situations mein English — meeting someone, phone calls, interviews, office conversations.
+              Har situation ke liye ready phrases aur tips with Hindi support.
+            </p>
+            <div className="flex flex-wrap gap-2 mt-3">
+              <span className="text-xs font-bold text-orange-400 bg-orange-500/10 border border-orange-500/20 px-3 py-1 rounded-full">
+                {displayScenarios.length} Real Situations
+              </span>
+              <span className="text-xs font-bold text-amber-400 bg-amber-500/10 border border-amber-500/20 px-3 py-1 rounded-full">
+                Professional Ready
+              </span>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Scenario selector */}
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+        {displayScenarios.slice(0, 6).map((s, i) => (
+          <button
+            key={i}
+            onClick={() => { setActiveIdx(i); setTab('situation'); }}
+            className={cn(
+              "py-3 px-4 rounded-xl text-sm font-semibold text-left transition-all border",
+              activeIdx === i
+                ? "border-orange-500/50 bg-orange-500/15 text-orange-300"
+                : "border-slate-700 bg-slate-800/60 text-slate-400 hover:border-slate-600"
+            )}
+          >
+            <span className="block font-bold text-xs text-slate-500 mb-0.5">
+              {s.category || 'Conversation'}
+            </span>
+            {s.situation || s.title || `Scenario ${i + 1}`}
+          </button>
+        ))}
+      </div>
+
+      {/* Tab navigation */}
+      <div className="flex gap-1 bg-slate-800/80 p-1 rounded-xl">
+        {['situation', 'phrases', 'tips'].map(t => (
+          <button
+            key={t}
+            onClick={() => setTab(t)}
+            className={cn(
+              "flex-1 py-2 rounded-lg text-xs font-bold capitalize transition-all",
+              tab === t ? "bg-orange-600 text-white" : "text-slate-400 hover:text-white"
+            )}
+          >
+            {t === 'situation' ? '📍 Situation' : t === 'phrases' ? '💬 Phrases' : '💡 Tips'}
+          </button>
+        ))}
+      </div>
+
+      {/* Tab content */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={tab}
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -8 }}
+        >
+          {/* SITUATION TAB */}
+          {tab === 'situation' && (
+            <div className="space-y-4">
+              <div className="rounded-2xl border border-orange-500/20 bg-orange-500/5 p-5">
+                <h3 className="text-xl font-black text-white mb-2">{displayCurrent.situation || displayCurrent.title}</h3>
+                {displayCurrent.context && (
+                  <p className="text-orange-200/80 text-sm leading-relaxed hindi-text">{displayCurrent.context}</p>
+                )}
+                {displayCurrent.difficulty && (
+                  <span className="mt-3 inline-block text-xs font-bold text-amber-300 bg-amber-500/10 border border-amber-500/20 px-2 py-1 rounded-full">
+                    {displayCurrent.difficulty}
+                  </span>
+                )}
+              </div>
+              <div className="rounded-xl border border-slate-700 bg-slate-800/50 p-4">
+                <p className="text-slate-300 text-sm leading-relaxed">
+                  Is situation mein <strong className="text-white">kya bolna chahiye?</strong> Yahan ek ek phrase diya gaya hai
+                  jo is exact situation mein use hota hai — in phrases ko yaad kar lo aur next tab mein practice karo.
+                </p>
+              </div>
+            </div>
+          )}
+
+          {/* PHRASES TAB */}
+          {tab === 'phrases' && (
+            <div className="space-y-3">
+              <div className="flex justify-between items-center">
+                <p className="text-slate-400 text-sm">{(displayCurrent.phrases || []).length} useful phrases</p>
+                <button
+                  onClick={() => setShowHindi(h => !h)}
+                  className={cn(
+                    "px-3 py-1.5 rounded-lg text-xs font-bold border transition-all",
+                    showHindi
+                      ? "border-amber-500/40 bg-amber-500/15 text-amber-300"
+                      : "border-slate-700 text-slate-400"
+                  )}
+                >
+                  🇮🇳 {showHindi ? 'Hide Hindi' : 'Show Hindi'}
+                </button>
+              </div>
+              {(displayCurrent.phrases || []).map((phrase, pi) => (
+                <motion.div
+                  key={pi}
+                  initial={{ opacity: 0, x: -8 }}
+                  animate={{ opacity: 1, x: 0 }}
+                  transition={{ delay: pi * 0.05 }}
+                  className="rounded-xl border border-slate-700 bg-slate-800/60 p-4"
+                >
+                  <div className="flex items-start gap-3">
+                    <span className="w-6 h-6 rounded-md bg-orange-500/15 text-orange-300 text-xs font-black flex items-center justify-center shrink-0 mt-0.5">
+                      {pi + 1}
+                    </span>
+                    <div className="flex-1 min-w-0">
+                      <p className="text-white font-semibold text-sm leading-relaxed">
+                        "{phrase.english}"
+                      </p>
+                      {showHindi && phrase.hindi && (
+                        <p className="text-amber-300/70 text-xs mt-1 hindi-text">{phrase.hindi}</p>
+                      )}
+                      {phrase.context && (
+                        <p className="text-slate-500 text-xs mt-1">• {phrase.context}</p>
+                      )}
+                    </div>
+                    {/* Speaker volume icon — for TTS if available */}
+                    <button
+                      onClick={() => {
+                        if ('speechSynthesis' in window) {
+                          const u = new SpeechSynthesisUtterance(phrase.english);
+                          u.rate = 0.85;
+                          window.speechSynthesis.speak(u);
+                        }
+                      }}
+                      className="w-8 h-8 rounded-lg bg-slate-700 flex items-center justify-center text-slate-400 hover:text-orange-300 hover:bg-orange-500/10 transition-all shrink-0"
+                      title="Listen"
+                    >
+                      <Volume2 size={14} />
+                    </button>
+                  </div>
+                </motion.div>
+              ))}
+            </div>
+          )}
+
+          {/* TIPS TAB */}
+          {tab === 'tips' && (
+            <div className="space-y-3">
+              {(displayCurrent.tips || []).map((tip, ti) => (
+                <div
+                  key={ti}
+                  className="rounded-xl border border-amber-500/20 bg-amber-500/5 p-4 flex gap-3"
+                >
+                  <span className="text-amber-400 text-lg shrink-0">💡</span>
+                  <p className="text-amber-100/90 text-sm leading-relaxed">{tip}</p>
+                </div>
+              ))}
+              {!(displayCurrent.tips?.length) && (
+                <div className="rounded-xl border border-slate-700 bg-slate-800/50 p-4">
+                  <p className="text-slate-400 text-sm">
+                    Pro tip: Har situation mein POWER phrases yaad karo — 3-5 phrases jinhe aap automatically bol sako.
+                    Fluency practice aur repetition se aati hai, perfection se nahi.
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
+        </motion.div>
+      </AnimatePresence>
+
+      {/* Complete Button */}
+      <motion.button
+        whileHover={{ scale: 1.01, y: -2 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-orange-600 to-amber-500 hover:from-orange-500 hover:to-amber-400 text-white font-black text-lg transition-all shadow-lg shadow-orange-500/25 flex items-center justify-center gap-2"
+      >
+        <CheckCircle2 size={20} /> Conversations Done — +100 XP
+      </motion.button>
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION: Story & Comprehension
+// Story with paragraph-by-paragraph reading, Hindi support,
+// grammar point highlights, and comprehension MCQs
+// ============================================================
+function StorySection({ stories: storyData, playSound, onComplete }) {
+  // storyData comes from story.json — has {story:{paragraphs:[]}} shape
+  const storyObj = storyData?.story || storyData;
+  const paragraphs = storyObj?.paragraphs
+    || (Array.isArray(storyData?.stories) ? storyData.stories : []);
+
+  // State: show Hindi translations
+  const [showHindi, setShowHindi]       = useState(false);
+  // State: current reading paragraph index
+  const [readProgress, setReadProgress] = useState(0);
+  // State: comprehension quiz
+  const [quizMode, setQuizMode]         = useState(false);
+  const [quizIndex, setQuizIndex]       = useState(0);
+  const [selected, setSelected]         = useState(null);
+  const [revealed, setRevealed]         = useState(false);
+  const [quizScore, setQuizScore]       = useState(0);
+  const [quizDone, setQuizDone]         = useState(false);
+
+  const compQs = storyData?.comprehensionQuestions || [];
+  const grammarPoints = storyData?.grammarPointsUsed || [];
+
+  if (!paragraphs.length && !storyData) {
+    return (
+      <div className="text-center py-12 space-y-4">
+        <BookMarked size={44} className="text-green-400 mx-auto opacity-40" />
+        <p className="text-slate-400">Story content loading...</p>
+        <button onClick={onComplete} className="px-6 py-3 rounded-xl bg-green-600 text-white font-bold">
+          Mark Complete
+        </button>
+      </div>
+    );
+  }
+
+  const currentQ = compQs[quizIndex];
+
+  const handleQuizSelect = (opt) => {
+    if (revealed) return;
+    setSelected(opt);
+  };
+
+  const submitQuiz = () => {
+    if (!selected || revealed) return;
+    setRevealed(true);
+    if (selected === currentQ?.answer) {
+      setQuizScore(s => s + 1);
+      if (playSound) playSound('correct');
+    } else {
+      if (playSound) playSound('wrong');
+    }
+  };
+
+  const nextQuiz = () => {
+    if (quizIndex >= compQs.length - 1) {
+      setQuizDone(true);
+    } else {
+      setQuizIndex(i => i + 1);
+      setSelected(null);
+      setRevealed(false);
+    }
+  };
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="rounded-3xl bg-gradient-to-br from-green-600/20 via-emerald-600/10 to-teal-600/15 border border-green-500/30 p-6"
+      >
+        <div className="flex items-start gap-4">
+          <div className="w-14 h-14 rounded-2xl bg-green-500/20 border border-green-500/30 flex items-center justify-center text-3xl shrink-0">
+            📖
+          </div>
+          <div>
+            <h2 className="text-2xl font-black text-white mb-1">
+              {storyData?.title || 'Story & Comprehension'}
+            </h2>
+            <p className="text-green-300/80 text-sm leading-relaxed">
+              {storyData?.teacherNote || 'Is story mein aaj ke grammar rules real life mein kaise use hote hain ye dikhaya gaya hai.'}
+            </p>
+            <div className="flex flex-wrap gap-2 mt-3">
+              <span className="text-xs font-bold text-green-400 bg-green-500/10 border border-green-500/20 px-3 py-1 rounded-full">
+                {storyData?.level || 'Beginner A0/A1'}
+              </span>
+              {grammarPoints.length > 0 && (
+                <span className="text-xs font-bold text-teal-400 bg-teal-500/10 border border-teal-500/20 px-3 py-1 rounded-full">
+                  {grammarPoints.length} Grammar Points Used
+                </span>
+              )}
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Teacher guide */}
+      <div className="rounded-xl border border-amber-500/20 bg-amber-500/5 p-4 flex gap-3">
+        <Lightbulb size={18} className="text-amber-400 shrink-0 mt-0.5" />
+        <div>
+          <p className="text-amber-300 font-bold text-sm mb-1">Kaise padhen ye story?</p>
+          <p className="text-amber-100/80 text-xs leading-relaxed">
+            Pehle poori story ek baar padho bina rukke. Phir dubara padho aur har sentence mein grammar identify karo.
+            Hindi translations enable karo agar kuch samajh na aaye. Ant mein comprehension questions solve karo.
+          </p>
+        </div>
+      </div>
+
+      {/* Grammar points used */}
+      {grammarPoints.length > 0 && (
+        <div className="flex flex-wrap gap-1.5">
+          <span className="text-xs text-slate-500 mr-1 self-center">Grammar used:</span>
+          {grammarPoints.map((gp, gi) => (
+            <span key={gi} className="text-xs bg-slate-800 border border-slate-700 text-slate-300 px-2 py-0.5 rounded-full">
+              {gp}
+            </span>
+          ))}
+        </div>
+      )}
+
+      {/* Controls */}
+      <div className="flex gap-3 items-center">
+        <button
+          onClick={() => setShowHindi(h => !h)}
+          className={cn(
+            "px-4 py-2 rounded-lg text-xs font-bold border transition-all flex items-center gap-1.5",
+            showHindi
+              ? "border-amber-500/40 bg-amber-500/15 text-amber-300"
+              : "border-slate-700 bg-slate-800 text-slate-400"
+          )}
+        >
+          🇮🇳 {showHindi ? 'Hide Hindi' : 'Show Hindi'}
+        </button>
+        {!quizMode && compQs.length > 0 && readProgress >= Math.floor(paragraphs.length / 2) && (
+          <button
+            onClick={() => { setQuizMode(true); setQuizIndex(0); setSelected(null); setRevealed(false); setQuizScore(0); setQuizDone(false); }}
+            className="px-4 py-2 rounded-lg text-xs font-bold border border-green-500/40 bg-green-500/15 text-green-300 transition-all"
+          >
+            📝 Take Comprehension Quiz
+          </button>
+        )}
+      </div>
+
+      {/* ── STORY PARAGRAPHS ─────────────────────────────────────────── */}
+      {!quizMode && (
+        <div className="space-y-4">
+          {paragraphs.map((para, pi) => (
+            <motion.div
+              key={pi}
+              initial={{ opacity: 0, y: 8 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ delay: pi * 0.06 }}
+              onClick={() => setReadProgress(Math.max(readProgress, pi + 1))}
+              className={cn(
+                "rounded-2xl border p-5 cursor-pointer transition-all",
+                readProgress > pi
+                  ? "border-green-500/25 bg-green-500/5"
+                  : "border-slate-700 bg-slate-800/50 hover:border-slate-600"
+              )}
+            >
+              {/* Paragraph number */}
+              <div className="flex items-center gap-2 mb-3">
+                <span className={cn(
+                  "text-xs font-black px-2 py-0.5 rounded-full",
+                  readProgress > pi
+                    ? "bg-green-500/20 text-green-400"
+                    : "bg-slate-700 text-slate-400"
+                )}>
+                  {readProgress > pi ? '✓' : pi + 1}
+                </span>
+                {para.id && pi === 0 && (
+                  <span className="text-xs text-slate-500">Para {para.id}</span>
+                )}
+              </div>
+
+              {/* English text */}
+              <p className="text-white text-sm leading-relaxed font-medium">
+                {para.english || para.text || para}
+              </p>
+
+              {/* Hindi translation (optional) */}
+              {showHindi && (para.hindi || para.hindiTranslation) && (
+                <p className="text-amber-300/70 text-xs mt-2 leading-relaxed hindi-text italic border-t border-amber-500/10 pt-2">
+                  {para.hindi || para.hindiTranslation}
+                </p>
+              )}
+
+              {/* Grammar note if available */}
+              {para.grammarNote && (
+                <div className="mt-3 rounded-lg bg-indigo-500/8 border border-indigo-500/15 px-3 py-2">
+                  <p className="text-indigo-300/80 text-xs">
+                    📌 Grammar: {para.grammarNote}
+                  </p>
+                </div>
+              )}
+            </motion.div>
+          ))}
+        </div>
+      )}
+
+      {/* ── COMPREHENSION QUIZ ──────────────────────────────────────── */}
+      {quizMode && (
+        <div className="space-y-5">
+          {quizDone ? (
+            <motion.div
+              initial={{ opacity: 0, scale: 0.96 }}
+              animate={{ opacity: 1, scale: 1 }}
+              className="text-center p-8 rounded-2xl border border-green-500/30 bg-green-500/8 space-y-4"
+            >
+              <div className="text-5xl">🎉</div>
+              <h3 className="text-2xl font-black text-white">Quiz Complete!</h3>
+              <p className="text-green-300 text-xl font-bold">
+                {quizScore} / {compQs.length} Correct
+              </p>
+              <div className="flex gap-3 justify-center">
+                <button onClick={() => setQuizMode(false)} className="px-5 py-2.5 rounded-xl bg-slate-700 text-white font-bold hover:bg-slate-600 transition-all">
+                  Re-Read Story
+                </button>
+                <button onClick={onComplete} className="px-5 py-2.5 rounded-xl bg-green-600 text-white font-bold hover:bg-green-500 transition-all">
+                  Done +100 XP
+                </button>
+              </div>
+            </motion.div>
+          ) : currentQ ? (
+            <motion.div
+              key={quizIndex}
+              initial={{ opacity: 0, x: 15 }}
+              animate={{ opacity: 1, x: 0 }}
+              className="space-y-4"
+            >
+              <div className="flex justify-between text-xs text-slate-400">
+                <span>Q {quizIndex + 1} of {compQs.length}</span>
+                <span className="text-green-400 font-bold">{quizScore} correct</span>
+              </div>
+              <div className="h-1.5 bg-slate-800 rounded-full overflow-hidden">
+                <div className="h-full bg-green-500" style={{ width: `${((quizIndex) / compQs.length) * 100}%` }} />
+              </div>
+              <div className="rounded-2xl border border-green-500/20 bg-green-500/5 p-5">
+                <p className="text-white font-semibold text-base">{currentQ.question}</p>
+              </div>
+              <div className="space-y-2">
+                {(currentQ.options || []).map((opt, oi) => (
+                  <button
+                    key={oi}
+                    onClick={() => handleQuizSelect(opt)}
+                    disabled={revealed}
+                    className={cn(
+                      "w-full p-3.5 rounded-xl border text-left text-sm font-medium transition-all",
+                      revealed && opt === currentQ.answer && "border-emerald-500 bg-emerald-500/15 text-emerald-300",
+                      revealed && selected === opt && opt !== currentQ.answer && "border-red-500 bg-red-500/15 text-red-300",
+                      !revealed && selected === opt && "border-green-500/50 bg-green-500/15 text-green-300",
+                      !revealed && selected !== opt && "border-slate-700 bg-slate-800/60 text-slate-300 hover:border-slate-600"
+                    )}
+                  >
+                    {opt}
+                  </button>
+                ))}
+              </div>
+              {!revealed
+                ? <button onClick={submitQuiz} disabled={!selected} className="w-full py-3 rounded-xl bg-green-600 hover:bg-green-500 text-white font-bold transition-all disabled:opacity-40">
+                    Submit Answer
+                  </button>
+                : <button onClick={nextQuiz} className="w-full py-3 rounded-xl bg-emerald-600 hover:bg-emerald-500 text-white font-bold transition-all flex items-center justify-center gap-2">
+                    {quizIndex === compQs.length - 1 ? 'Finish Quiz' : 'Next Question'} <ArrowRight size={16} />
+                  </button>
+              }
+            </motion.div>
+          ) : null}
+        </div>
+      )}
+
+      {/* Complete Button */}
+      {!quizMode && (
+        <motion.button
+          whileHover={{ scale: 1.01, y: -2 }}
+          whileTap={{ scale: 0.98 }}
+          onClick={onComplete}
+          className="w-full py-4 rounded-xl bg-gradient-to-r from-green-600 to-emerald-500 hover:from-green-500 hover:to-emerald-400 text-white font-black text-lg transition-all shadow-lg shadow-green-500/25 flex items-center justify-center gap-2"
+        >
+          <CheckCircle2 size={20} /> Story Complete — +100 XP
+        </motion.button>
+      )}
+    </div>
+  );
+}
+
+// ============================================================
+// SECTION: Essay Writing
+// Shows a model essay, highlights grammar used, teaches
+// structure (intro, body, conclusion), and provides templates
+// ============================================================
+function EssaySection({ essays: essayData, topic, onComplete }) {
+  // Extract essay content — essay.json has {essay:{paragraphs:[]}} shape
+  const essayObj = essayData?.essay || essayData;
+  const paragraphs = essayObj?.paragraphs
+    || (Array.isArray(essayData?.essays) ? essayData.essays : []);
+
+  // State: active tab (read / structure / template / your essay)
+  const [tab, setTab]             = useState('read');
+  // State: user's own essay text
+  const [userEssay, setUserEssay] = useState('');
+  // State: show Hindi
+  const [showHindi, setShowHindi] = useState(false);
+  // State: word count
+  const wordCount = userEssay.trim().split(/\s+/).filter(Boolean).length;
+
+  // Essay structure template for reference
+  const ESSAY_STRUCTURE = [
+    {
+      part: 'Introduction (Para 1)',
+      emoji: '📌',
+      purpose: 'Topic introduce karo aur main idea batao',
+      template: 'English is... / In this essay, I will... / Many people believe that...',
+      tips: ['Short rakho — 2-3 sentences kaafi hain', 'Main point clearly state karo', 'Hook se start karo — ek interesting fact ya statement']
+    },
+    {
+      part: 'Body Paragraph 1 (Para 2)',
+      emoji: '📝',
+      purpose: 'Pehla main point explain karo with example',
+      template: 'First of all, ... / The most important reason is... / For example,...',
+      tips: ['Ek paragraph = ek main idea', 'Example zaroor dena', '"This shows that..." se conclusion draw karo']
+    },
+    {
+      part: 'Body Paragraph 2 (Para 3)',
+      emoji: '📝',
+      purpose: 'Doosra main point add karo',
+      template: 'Furthermore, ... / Another important point is... / In addition,...',
+      tips: ['Pehle point se connect karo', 'Different angle lo', 'Statistics ya facts use karo agar yaad ho']
+    },
+    {
+      part: 'Conclusion (Para 4)',
+      emoji: '🎯',
+      purpose: 'Sab summarize karo aur final thought do',
+      template: 'In conclusion, ... / To sum up, ... / Therefore, it is clear that...',
+      tips: ['Naya point mat add karo', 'Main idea repeat karo (different words mein)', 'Strong final sentence lo']
+    },
+  ];
+
+  return (
+    <div className="space-y-6">
+      {/* Header */}
+      <motion.div
+        initial={{ opacity: 0, y: 12 }}
+        animate={{ opacity: 1, y: 0 }}
+        className="rounded-3xl bg-gradient-to-br from-pink-600/20 via-rose-600/10 to-fuchsia-600/15 border border-pink-500/30 p-6"
+      >
+        <div className="flex items-start gap-4">
+          <div className="w-14 h-14 rounded-2xl bg-pink-500/20 border border-pink-500/30 flex items-center justify-center text-3xl shrink-0">
+            ✍️
+          </div>
+          <div>
+            <h2 className="text-2xl font-black text-white mb-1">
+              {essayData?.title || 'Essay Writing'}
+            </h2>
+            <p className="text-pink-300/80 text-sm leading-relaxed">
+              {essayData?.teacherNote || 'Aaj ke grammar rules se banaya gaya essay — padho, structure samjho, phir khud likho.'}
+            </p>
+            <div className="flex flex-wrap gap-2 mt-3">
+              <span className="text-xs font-bold text-pink-400 bg-pink-500/10 border border-pink-500/20 px-3 py-1 rounded-full">
+                {essayData?.level || 'Simple English'}
+              </span>
+              <span className="text-xs font-bold text-fuchsia-400 bg-fuchsia-500/10 border border-fuchsia-500/20 px-3 py-1 rounded-full">
+                {paragraphs.length} Paragraphs
+              </span>
+            </div>
+          </div>
+        </div>
+      </motion.div>
+
+      {/* Tab navigation */}
+      <div className="grid grid-cols-4 gap-1 bg-slate-800 p-1 rounded-xl">
+        {[
+          { id: 'read', label: '📖 Read Essay' },
+          { id: 'structure', label: '🏗️ Structure' },
+          { id: 'template', label: '📋 Template' },
+          { id: 'write', label: '✍️ Your Essay' },
+        ].map(t => (
+          <button
+            key={t.id}
+            onClick={() => setTab(t.id)}
+            className={cn(
+              "py-2 rounded-lg text-[11px] font-bold transition-all",
+              tab === t.id ? "bg-pink-600 text-white" : "text-slate-400 hover:text-white"
+            )}
+          >
+            {t.label}
+          </button>
+        ))}
+      </div>
+
+      {/* Tab content */}
+      <AnimatePresence mode="wait">
+        <motion.div
+          key={tab}
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0 }}
+        >
+          {/* READ TAB — model essay */}
+          {tab === 'read' && (
+            <div className="space-y-4">
+              <div className="flex justify-end">
+                <button
+                  onClick={() => setShowHindi(h => !h)}
+                  className={cn(
+                    "px-3 py-1.5 rounded-lg text-xs font-bold border transition-all",
+                    showHindi
+                      ? "border-amber-500/40 bg-amber-500/15 text-amber-300"
+                      : "border-slate-700 text-slate-400"
+                  )}
+                >
+                  🇮🇳 {showHindi ? 'Hide Hindi' : 'Show Hindi'}
+                </button>
+              </div>
+              {paragraphs.length > 0 ? (
+                paragraphs.map((para, pi) => (
+                  <div key={pi} className="rounded-2xl border border-slate-700 bg-slate-800/50 p-5">
+                    {para.title && (
+                      <p className="text-pink-400 text-xs font-black uppercase tracking-wider mb-2">{para.title}</p>
+                    )}
+                    <p className="text-white text-sm leading-relaxed">{para.content || para.english || para}</p>
+                    {showHindi && (para.hindi || para.hindiTranslation) && (
+                      <p className="text-amber-300/70 text-xs mt-2 hindi-text italic border-t border-amber-500/10 pt-2">
+                        {para.hindi || para.hindiTranslation}
+                      </p>
+                    )}
+                  </div>
+                ))
+              ) : (
+                <div className="rounded-2xl border border-slate-700 bg-slate-800/50 p-6">
+                  <p className="text-slate-300 text-sm leading-relaxed">
+                    English is a global language. People all over the world use English to communicate.
+                    In India, English is very important for education, jobs, and business.
+                    If we know English, we can get better jobs and talk to people from other countries.
+                    English helps us read books, watch movies, and understand the internet better.
+                    That is why learning English is very important for our life and future.
+                  </p>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* STRUCTURE TAB */}
+          {tab === 'structure' && (
+            <div className="space-y-4">
+              <div className="rounded-xl border border-pink-500/20 bg-pink-500/5 p-4">
+                <p className="text-pink-300 text-sm font-semibold mb-1">✨ Essay Formula</p>
+                <p className="text-slate-400 text-xs">Har essay ka ek structure hota hai — yahi structure grade improve karta hai.</p>
+              </div>
+              {ESSAY_STRUCTURE.map((part, pi) => (
+                <div key={pi} className="rounded-2xl border border-slate-700 bg-slate-800/50 p-5 space-y-3">
+                  <div className="flex items-center gap-3">
+                    <span className="text-2xl">{part.emoji}</span>
+                    <div>
+                      <h4 className="font-bold text-white text-sm">{part.part}</h4>
+                      <p className="text-slate-400 text-xs">{part.purpose}</p>
+                    </div>
+                  </div>
+                  <div className="rounded-xl bg-indigo-500/8 border border-indigo-500/15 p-3">
+                    <p className="text-xs text-indigo-400 font-bold mb-1">📌 Useful phrases:</p>
+                    <p className="text-slate-300 text-xs font-mono">{part.template}</p>
+                  </div>
+                  <div className="space-y-1">
+                    {part.tips.map((tip, ti) => (
+                      <p key={ti} className="text-slate-400 text-xs flex gap-1.5">
+                        <span className="text-pink-400 shrink-0">›</span>{tip}
+                      </p>
+                    ))}
+                  </div>
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* TEMPLATE TAB */}
+          {tab === 'template' && (
+            <div className="space-y-4">
+              <div className="rounded-2xl border border-pink-500/20 bg-pink-500/5 p-5">
+                <p className="text-pink-300 font-bold mb-3">Copy this template and fill in the blanks:</p>
+                {[
+                  'English is ________ . Many people believe that ________.',
+                  'First of all, ________ . For example, ________ . This shows that ________.',
+                  'Furthermore, ________ . In addition, ________ . Therefore, ________.',
+                  'In conclusion, ________ . To sum up, English is important because ________.',
+                ].map((template, ti) => (
+                  <div key={ti} className="mb-3 p-3 rounded-xl bg-slate-900/60 border border-slate-700">
+                    <p className="text-xs text-pink-400 font-bold mb-1">Para {ti + 1}</p>
+                    <p className="text-slate-300 text-sm leading-relaxed italic">{template}</p>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* WRITE TAB */}
+          {tab === 'write' && (
+            <div className="space-y-4">
+              <div className="rounded-xl border border-pink-500/20 bg-pink-500/5 p-4">
+                <p className="text-pink-300 text-sm font-semibold">✍️ Write your own essay below</p>
+                <p className="text-slate-400 text-xs mt-1">Topic: "Why English is important for me" | Target: 100-150 words</p>
+              </div>
+              <textarea
+                value={userEssay}
+                onChange={e => setUserEssay(e.target.value)}
+                placeholder="Start writing your essay here... (Use the structure and template from other tabs as guide)"
+                rows={12}
+                className="w-full px-4 py-4 rounded-2xl bg-slate-800 border-2 border-slate-700 text-white outline-none focus:border-pink-500 focus:ring-1 focus:ring-pink-500/30 transition-all resize-y text-sm leading-relaxed placeholder-slate-500"
+              />
+              <div className="flex items-center justify-between">
+                <span className={cn(
+                  "text-sm font-bold",
+                  wordCount < 80 ? "text-red-400" : wordCount < 120 ? "text-amber-400" : "text-emerald-400"
+                )}>
+                  {wordCount} / 100+ words
+                  {wordCount >= 100 && ' ✓'}
+                </span>
+                <button
+                  onClick={() => {
+                    if ('speechSynthesis' in window && userEssay.trim()) {
+                      const u = new SpeechSynthesisUtterance(userEssay);
+                      u.rate = 0.85;
+                      window.speechSynthesis.speak(u);
+                    }
+                  }}
+                  className="px-3 py-1.5 rounded-lg bg-slate-700 text-slate-300 text-xs font-bold hover:bg-slate-600 transition-all flex items-center gap-1.5"
+                >
+                  <Volume2 size={12} /> Listen to your essay
+                </button>
+              </div>
+            </div>
+          )}
+        </motion.div>
+      </AnimatePresence>
+
+      {/* Complete Button */}
+      <motion.button
+        whileHover={{ scale: 1.01, y: -2 }}
+        whileTap={{ scale: 0.98 }}
+        onClick={onComplete}
+        className="w-full py-4 rounded-xl bg-gradient-to-r from-pink-600 to-fuchsia-500 hover:from-pink-500 hover:to-fuchsia-400 text-white font-black text-lg transition-all shadow-lg shadow-pink-500/25 flex items-center justify-center gap-2"
+      >
+        <CheckCircle2 size={20} /> Essay Mastered — +100 XP
       </motion.button>
     </div>
   );
