@@ -9,7 +9,8 @@
 // Author: 75 Days Hard English Platform
 // ============================================================
 
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
+import useGamificationStore from '@/store/useGamificationStore';
 import Link from 'next/link';
 import { useParams } from 'next/navigation';
 import { motion, AnimatePresence } from 'framer-motion';
@@ -239,20 +240,39 @@ export default function DayPage() {
     explanation: '', rules: [], memoryTrick: '', sections: []
   };
 
-  // Session state — which sections the user has completed today
-  const [activeSection, setActiveSection] = useState('concept');
+  // ── Real gamification store — XP is persisted and shown in navbar ──────
+  const addXP     = useGamificationStore(s => s.addXP);
+  const xpTotal   = useGamificationStore(s => s.xp ?? 0);
+
+  // ── Multi-section accordion — vocabulary & practice open by default ──────
+  // Set instead of single string so multiple sections can be open at once
+  const [openSections, setOpenSections] = useState(
+    () => new Set(['concept', 'vocabulary', 'practice'])
+  );
   const [sectionsDone, setSectionsDone] = useState({});
-  const [xpTotal, setXpTotal] = useState(0);
   const playSound = useSound();
 
-  // Mark a section as done and award XP
+  // Toggle a section open/closed — allows multiple open simultaneously
+  const toggleSection = useCallback((id) => {
+    setOpenSections(prev => {
+      const next = new Set(prev);
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next;
+    });
+  }, []);
+
+  // Mark a section as done and award real XP to the gamification store
   const markSectionDone = useCallback((id) => {
     if (!sectionsDone[id]) {
       setSectionsDone((prev) => ({ ...prev, [id]: true }));
-      setXpTotal((prev) => prev + 100);
+      // Award 100 XP to the persistent gamification store (shown in navbar)
+      if (typeof addXP === 'function') {
+        addXP(100, { source: 'lesson_section', dayNum, sectionId: id });
+      }
       playSound('levelup');
     }
-  }, [sectionsDone, playSound]);
+  }, [sectionsDone, addXP, dayNum, playSound]);
 
   const prevDay = dayNum > 1 ? dayNum - 1 : null;
   const nextDay = dayNum < 75 ? dayNum + 1 : null;
@@ -408,8 +428,22 @@ export default function DayPage() {
       {/* ── Lesson Sections ───────────────────────────────────── */}
       <div className="space-y-4">
         {LESSON_SECTIONS.map(({ id, icon: Icon, label, color, bg, border }, index) => {
-          const isDone = sectionsDone[id];
-          const isActive = activeSection === id;
+          const isDone    = sectionsDone[id];
+          const isActive  = openSections.has(id);
+
+          // Rich subtitle shows content counts so users know what's inside ──────
+          const subtitle = isDone
+            ? '✨ Completed — +100 XP earned'
+            : id === 'vocabulary'  ? (stats.vocabularyCount > 0  ? `${stats.vocabularyCount.toLocaleString()} words · CEFR A0–B2 · Search, filter & listen to every word`  : 'Vocabulary bank — loading…')
+            : id === 'practice'    ? (stats.practiceCount > 0    ? `${stats.practiceCount.toLocaleString()} Hindi→English questions · 20 / 40 / 60 / 80 / 100 % session picker` : 'Practice questions — loading…')
+            : id === 'test'        ? (stats.mockTestCount > 0    ? `${stats.mockTestCount.toLocaleString()} MCQ questions · Timed · Auto-graded · 20 / 40 / 60 / 80 / 100 %`  : 'Mock test — loading…')
+            : id === 'speaking'    ? 'Speaking drills · Text-to-speech · Pronunciation guide'
+            : id === 'listening'   ? 'Listening exercises · Comprehension · Dictation'
+            : id === 'reading'     ? 'Reading passages · Comprehension questions · Speed tips'
+            : id === 'writing'     ? 'Writing drills · Templates · Grammar correction'
+            : id === 'revision'    ? 'Quick revision · Flash quiz · Key rules recap'
+            : id === 'milestones'  ? 'Badges · XP milestones · Challenge achievements'
+            : 'Click to expand and start learning';
 
           return (
             <motion.div
@@ -426,7 +460,7 @@ export default function DayPage() {
             >
               {/* Section Header Button */}
               <button
-                onClick={() => setActiveSection(isActive ? null : id)}
+                onClick={() => toggleSection(id)}
                 className="w-full flex items-center gap-5 p-6 text-left group"
               >
                 <div className={cn(
@@ -440,11 +474,8 @@ export default function DayPage() {
                 </div>
                 <div className="flex-1 min-w-0">
                   <h3 className="font-bold text-white text-xl">{label}</h3>
-                  <p className="text-sm text-slate-400 mt-0.5 truncate">
-                    {isDone
-                      ? <span className="text-emerald-400 font-semibold">✨ Completed — +100 XP earned</span>
-                      : 'Click to expand and start learning'
-                    }
+                  <p className={cn("text-sm mt-0.5 truncate", isDone ? 'text-emerald-400 font-semibold' : 'text-slate-400')}>
+                    {subtitle}
                   </p>
                 </div>
                 <div className="flex items-center gap-3 shrink-0">

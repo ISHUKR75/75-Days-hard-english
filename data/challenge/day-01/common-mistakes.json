@@ -1,0 +1,529 @@
+{
+  "day": 1,
+  "title": "Common Mistakes — Basics of English",
+  "subtitle": "Hindi speakers ki sabse common English galtiyan — aur unke sahi solutions",
+  "totalMistakes": 63,
+  "description": "Ye sab mistakes Hindi speakers karte hain. Har ek ko dhyan se padho aur yaad rakho. Practice mein inhe avoid karo.",
+  "categories": [
+    "Subject-Verb Agreement",
+    "Pronoun Errors",
+    "Article Errors",
+    "Tense Errors",
+    "Word Order Errors",
+    "Preposition Errors",
+    "Common Hindi Speaker Mistakes"
+  ],
+  "mistakes": [
+    {
+      "wrong": "He don't know.",
+      "correct": "He doesn't know.",
+      "explanation": "He/She/It ke saath 'doesn't' use hota hai, 'don't' nahi",
+      "category": "SVA",
+      "difficulty": "beginner",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "She don't like it.",
+      "correct": "She doesn't like it.",
+      "explanation": "She ke saath 'doesn't'",
+      "category": "SVA",
+      "difficulty": "beginner",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "He go to school.",
+      "correct": "He goes to school.",
+      "explanation": "He ke saath verb+s lagata hai (goes)",
+      "category": "SVA",
+      "difficulty": "beginner",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "She have a car.",
+      "correct": "She has a car.",
+      "explanation": "She ke saath 'has' (have ka special form)",
+      "category": "SVA",
+      "difficulty": "beginner",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "He don't eats.",
+      "correct": "He doesn't eat.",
+      "explanation": "Doesn't ke baad base verb (eat, not eats)",
+      "category": "SVA",
+      "difficulty": "beginner",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "They comes late.",
+      "correct": "They come late.",
+      "explanation": "They ke saath verb mein 's' NAHI lagata",
+      "category": "SVA",
+      "difficulty": "beginner",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "We goes to market.",
+      "correct": "We go to market.",
+      "explanation": "We ke saath base verb",
+      "category": "SVA",
+      "difficulty": "beginner",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "I am working here since 5 years.",
+      "correct": "I have been working here for 5 years.",
+      "explanation": "Duration ke liye 'for', point of time ke liye 'since'. Present Perfect Continuous use hota hai.",
+      "category": "SVA",
+      "difficulty": "intermediate",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "The team are playing well.",
+      "correct": "The team is playing well.",
+      "explanation": "Collective nouns (team, group, family) ke saath singular verb",
+      "category": "SVA",
+      "difficulty": "intermediate",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "Each students has to submit.",
+      "correct": "Each student has to submit.",
+      "explanation": "Each/Every ke saath singular noun",
+      "category": "SVA",
+      "difficulty": "intermediate",
+      "mainCategory": "Subject-Verb Agreement"
+    },
+    {
+      "wrong": "Me and Ram went to market.",
+      "correct": "Ram and I went to market.",
+      "explanation": "Subject position mein 'I' use karo, 'Me' nahi. Aur pehle doosre ka naam lo!",
+      "category": "Pronouns",
+      "difficulty": "beginner",
+      "mainCategory": "Pronoun Errors"
+    },
+    {
+      "wrong": "Him and her went to school.",
+      "correct": "He and she went to school.",
+      "explanation": "Subject position mein subject pronouns (He, She)",
+      "category": "Pronouns",
+      "difficulty": "beginner",
+      "mainCategory": "Pronoun Errors"
+    },
+    {
+      "wrong": "Between you and I.",
+      "correct": "Between you and me.",
+      "explanation": "Preposition ke baad object pronoun use hota hai (me, not I)",
+      "category": "Pronouns",
+      "difficulty": "intermediate",
+      "mainCategory": "Pronoun Errors"
+    },
+    {
+      "wrong": "I is fine.",
+      "correct": "I am fine.",
+      "explanation": "I ke saath hamesha 'am' use hota hai, 'is' nahi",
+      "category": "Pronouns",
+      "difficulty": "beginner",
+      "mainCategory": "Pronoun Errors"
+    },
+    {
+      "wrong": "This is his bag. I like it's color.",
+      "correct": "This is his bag. I like its color.",
+      "explanation": "'Its' = possession (kisi cheez ka). 'It's' = it is (short form)",
+      "category": "Pronouns",
+      "difficulty": "intermediate",
+      "mainCategory": "Pronoun Errors"
+    },
+    {
+      "wrong": "The teacher told we students.",
+      "correct": "The teacher told us students.",
+      "explanation": "Verb ke baad object pronoun (us, not we)",
+      "category": "Pronouns",
+      "difficulty": "intermediate",
+      "mainCategory": "Pronoun Errors"
+    },
+    {
+      "wrong": "I am engineer.",
+      "correct": "I am an engineer.",
+      "explanation": "Profession ke pehle 'a' ya 'an' zaroor lagao. 'engineer' vowel se shuru = 'an'",
+      "category": "Articles",
+      "difficulty": "beginner",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "She is teacher.",
+      "correct": "She is a teacher.",
+      "explanation": "Singular countable noun ke pehle article zaroor lagao",
+      "category": "Articles",
+      "difficulty": "beginner",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "I went to hospital.",
+      "correct": "I went to the hospital.",
+      "explanation": "Specific well-known places ke pehle 'the' lagao",
+      "category": "Articles",
+      "difficulty": "beginner",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "The water is important for health.",
+      "correct": "Water is important for health.",
+      "explanation": "General statements mein uncountable nouns ke pehle 'the' nahi lagata",
+      "category": "Articles",
+      "difficulty": "intermediate",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "He plays the cricket.",
+      "correct": "He plays cricket.",
+      "explanation": "Sports ke pehle article nahi lagata",
+      "category": "Articles",
+      "difficulty": "beginner",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "She speaks the Hindi.",
+      "correct": "She speaks Hindi.",
+      "explanation": "Languages ke pehle 'the' nahi lagata",
+      "category": "Articles",
+      "difficulty": "beginner",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "I am feeling happy. The happiness is important.",
+      "correct": "Happiness is important.",
+      "explanation": "General/abstract nouns (general meaning mein) ke pehle 'the' nahi",
+      "category": "Articles",
+      "difficulty": "intermediate",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "He is best player.",
+      "correct": "He is the best player.",
+      "explanation": "Superlative adjectives ke pehle 'the' zaroori hai",
+      "category": "Articles",
+      "difficulty": "intermediate",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "Can I borrow pen?",
+      "correct": "Can I borrow a pen?",
+      "explanation": "Singular countable noun = 'a' or 'an' zaroori",
+      "category": "Articles",
+      "difficulty": "beginner",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "An university offers courses.",
+      "correct": "A university offers courses.",
+      "explanation": "'University' = 'yu' sound se shuru hota hai (consonant sound) = 'a' use karo",
+      "category": "Articles",
+      "difficulty": "intermediate",
+      "mainCategory": "Article Errors"
+    },
+    {
+      "wrong": "I am here since morning.",
+      "correct": "I have been here since morning.",
+      "explanation": "'Since' ke saath Perfect tense use hota hai",
+      "category": "Tense",
+      "difficulty": "intermediate",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "He is tired since yesterday.",
+      "correct": "He has been tired since yesterday.",
+      "explanation": "'Since' ke saath Present Perfect ya Perfect Continuous",
+      "category": "Tense",
+      "difficulty": "intermediate",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "I am knowing him for 5 years.",
+      "correct": "I have known him for 5 years.",
+      "explanation": "'Know', 'love', 'like', 'understand' — ye stative verbs hain, inhe '-ing' form mein use nahi karte",
+      "category": "Tense",
+      "difficulty": "intermediate",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "She is having a car.",
+      "correct": "She has a car.",
+      "explanation": "'Have' = possession ke liye — continuous form mein nahi",
+      "category": "Tense",
+      "difficulty": "intermediate",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "I am wanting coffee.",
+      "correct": "I want coffee.",
+      "explanation": "Stative verb 'want' — continuous form nahi",
+      "category": "Tense",
+      "difficulty": "intermediate",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "Yesterday I go to market.",
+      "correct": "Yesterday I went to market.",
+      "explanation": "Yesterday ke saath past tense (V2 form)",
+      "category": "Tense",
+      "difficulty": "beginner",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "I am study English.",
+      "correct": "I am studying English.",
+      "explanation": "Am/Is/Are ke baad V4 (-ing) form use karo",
+      "category": "Tense",
+      "difficulty": "beginner",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "He is work hard.",
+      "correct": "He is working hard.",
+      "explanation": "Is/Am/Are ke baad verb+-ing form use karo",
+      "category": "Tense",
+      "difficulty": "beginner",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "She goed to school.",
+      "correct": "She went to school.",
+      "explanation": "'Go' ka past tense 'went' hai (irregular verb)",
+      "category": "Tense",
+      "difficulty": "beginner",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "I have ate lunch.",
+      "correct": "I have eaten lunch.",
+      "explanation": "'Have/Has' ke baad V3 (Past Participle) form — 'eaten' not 'ate'",
+      "category": "Tense",
+      "difficulty": "intermediate",
+      "mainCategory": "Tense Errors"
+    },
+    {
+      "wrong": "I daily go to gym.",
+      "correct": "I go to gym daily.",
+      "explanation": "'Daily', 'always', 'usually' jaise adverbs ki position dhyan se rakho",
+      "category": "WordOrder",
+      "difficulty": "beginner",
+      "mainCategory": "Word Order Errors"
+    },
+    {
+      "wrong": "She beautiful is.",
+      "correct": "She is beautiful.",
+      "explanation": "English mein SVO order — verb pehle, adjective baad mein with 'is'",
+      "category": "WordOrder",
+      "difficulty": "beginner",
+      "mainCategory": "Word Order Errors"
+    },
+    {
+      "wrong": "Red big car.",
+      "correct": "Big red car.",
+      "explanation": "Adjectives ka order: Size → Color → Noun",
+      "category": "WordOrder",
+      "difficulty": "intermediate",
+      "mainCategory": "Word Order Errors"
+    },
+    {
+      "wrong": "I want that you come.",
+      "correct": "I want you to come.",
+      "explanation": "English mein 'want someone to do' pattern use hota hai",
+      "category": "WordOrder",
+      "difficulty": "intermediate",
+      "mainCategory": "Word Order Errors"
+    },
+    {
+      "wrong": "What you want?",
+      "correct": "What do you want?",
+      "explanation": "Question mein Do/Does zaroor lagao",
+      "category": "WordOrder",
+      "difficulty": "beginner",
+      "mainCategory": "Word Order Errors"
+    },
+    {
+      "wrong": "Where she lives?",
+      "correct": "Where does she live?",
+      "explanation": "WH question mein does + base verb ka order",
+      "category": "WordOrder",
+      "difficulty": "beginner",
+      "mainCategory": "Word Order Errors"
+    },
+    {
+      "wrong": "He always is late.",
+      "correct": "He is always late.",
+      "explanation": "Frequency adverbs 'is/am/are' ke BAAD aate hain",
+      "category": "WordOrder",
+      "difficulty": "intermediate",
+      "mainCategory": "Word Order Errors"
+    },
+    {
+      "wrong": "I am married with her.",
+      "correct": "I am married to her.",
+      "explanation": "'Married to' — 'with' nahi",
+      "category": "Prepositions",
+      "difficulty": "intermediate",
+      "mainCategory": "Preposition Errors"
+    },
+    {
+      "wrong": "He is good in English.",
+      "correct": "He is good at English.",
+      "explanation": "Skills ke liye 'good at'",
+      "category": "Prepositions",
+      "difficulty": "intermediate",
+      "mainCategory": "Preposition Errors"
+    },
+    {
+      "wrong": "She is afraid from dogs.",
+      "correct": "She is afraid of dogs.",
+      "explanation": "'Afraid of' — 'from' nahi",
+      "category": "Prepositions",
+      "difficulty": "intermediate",
+      "mainCategory": "Preposition Errors"
+    },
+    {
+      "wrong": "I am bored of this work.",
+      "correct": "I am bored with this work.",
+      "explanation": "'Bored with' ya 'bored by' — 'of' nahi (British English mein 'of' chalti hai but 'with' better hai)",
+      "category": "Prepositions",
+      "difficulty": "intermediate",
+      "mainCategory": "Preposition Errors"
+    },
+    {
+      "wrong": "He is interested in to learn English.",
+      "correct": "He is interested in learning English.",
+      "explanation": "Preposition ke baad V4 (-ing) form",
+      "category": "Prepositions",
+      "difficulty": "intermediate",
+      "mainCategory": "Preposition Errors"
+    },
+    {
+      "wrong": "Discuss about the topic.",
+      "correct": "Discuss the topic.",
+      "explanation": "'Discuss' already 'about' ka meaning contain karta hai — 'about' mat lagao",
+      "category": "Prepositions",
+      "difficulty": "intermediate",
+      "mainCategory": "Preposition Errors"
+    },
+    {
+      "wrong": "I reached to the station.",
+      "correct": "I reached the station.",
+      "explanation": "'Reach' ke baad 'to' nahi lagata (direct object)",
+      "category": "Prepositions",
+      "difficulty": "intermediate",
+      "mainCategory": "Preposition Errors"
+    },
+    {
+      "wrong": "I am having fever.",
+      "correct": "I have a fever.",
+      "explanation": "'Have a fever' = standard English. 'Having' yahan use nahi hota",
+      "category": "HindiInfluence",
+      "difficulty": "beginner",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "My name is Ram. What is your good name?",
+      "correct": "My name is Ram. What is your name?",
+      "explanation": "Hindi mein 'shubh naam' bolte hain but English mein simply 'name' — 'good name' sirf Indian English mein",
+      "category": "HindiInfluence",
+      "difficulty": "beginner",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "She is my cousin sister.",
+      "correct": "She is my cousin.",
+      "explanation": "'Cousin' already brother ya sister include karta hai — 'sister' ya 'brother' extra mat lagao",
+      "category": "HindiInfluence",
+      "difficulty": "beginner",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "I will call you on your number.",
+      "correct": "I will call you.",
+      "explanation": "'Call' ka matlab hi phone karna hai — 'on your number' extra hai",
+      "category": "HindiInfluence",
+      "difficulty": "beginner",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "Do one thing.",
+      "correct": "Let me suggest something. / Here is an idea.",
+      "explanation": "'Do one thing' direct Hindi translation hai — English mein aise nahi bolte",
+      "category": "HindiInfluence",
+      "difficulty": "intermediate",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "Myself Ram Kumar.",
+      "correct": "I am Ram Kumar. / My name is Ram Kumar.",
+      "explanation": "'Myself' = apna introduction ka yeh tarika Hinglish hai — formal English mein 'I am' use karo",
+      "category": "HindiInfluence",
+      "difficulty": "beginner",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "I am from Delhi only.",
+      "correct": "I am from Delhi.",
+      "explanation": "Hindi mein 'hi' lagaate hain (sirf Delhi se hi hoon) but English mein 'only' yahan fit nahi hota",
+      "category": "HindiInfluence",
+      "difficulty": "beginner",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "He was not present because he was ill from yesterday.",
+      "correct": "He was not present because he had been ill since yesterday.",
+      "explanation": "'Since' ke saath perfect tense, aur 'ill from yesterday' nahi bolte",
+      "category": "HindiInfluence",
+      "difficulty": "intermediate",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "I am here only.",
+      "correct": "I am right here.",
+      "explanation": "'Only' ka Hinglish influence — 'right here' better hai",
+      "category": "HindiInfluence",
+      "difficulty": "beginner",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "Today's newspaper is come.",
+      "correct": "Today's newspaper has come.",
+      "explanation": "Hindi passive (aa gaya) ko English mein present perfect active se express karo",
+      "category": "HindiInfluence",
+      "difficulty": "intermediate",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "I am facing problem.",
+      "correct": "I am facing a problem.",
+      "explanation": "Countable noun ke pehle article zaroor lagao",
+      "category": "HindiInfluence",
+      "difficulty": "beginner",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "He is out of station.",
+      "correct": "He is out of town. / He is traveling.",
+      "explanation": "'Out of station' sirf Indian English mein — standard mein 'out of town' ya 'traveling' bolte hain",
+      "category": "HindiInfluence",
+      "difficulty": "intermediate",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    },
+    {
+      "wrong": "I will revert back to you.",
+      "correct": "I will get back to you.",
+      "explanation": "'Revert' already 'back' include karta hai — 'revert back' redundant hai",
+      "category": "HindiInfluence",
+      "difficulty": "intermediate",
+      "mainCategory": "Common Hindi Speaker Mistakes"
+    }
+  ],
+  "topPriority": [
+    "He/She/It ke saath ALWAYS use doesn't (not don't)",
+    "Subject position mein 'I' (not 'Me') — Ram and I went (not me and Ram)",
+    "Profession ke pehle article: I am AN engineer",
+    "Stative verbs (know, want, love, have) ko continuous mein mat use karo",
+    "Sports, languages, meals ke pehle 'the' mat lagao"
+  ]
+}

@@ -1,0 +1,1916 @@
+{
+  "day": 1,
+  "title": "Basics of English — Complete Grammar Theory",
+  "topic": "SVO Structure + Simple Present Tense + Articles + Pronouns",
+  "description": "Day 1 ki puri grammar theory — 500+ examples with Hindi explanations, verb tables, question patterns, and real-life usage.",
+  "sections": [
+    {
+      "id": "pronouns",
+      "title": "Subject Pronouns",
+      "table": [
+        {
+          "pronoun": "I",
+          "hindi": "मैं",
+          "v5rule": "eat (no s)",
+          "example": "I eat food.",
+          "exHindi": "मैं खाना खाता हूँ।"
+        },
+        {
+          "pronoun": "You",
+          "hindi": "तुम/आप",
+          "v5rule": "eat (no s)",
+          "example": "You read books.",
+          "exHindi": "तुम किताबें पढ़ते हो।"
+        },
+        {
+          "pronoun": "He",
+          "hindi": "वह (पुरुष)",
+          "v5rule": "eats (+s)",
+          "example": "He works hard.",
+          "exHindi": "वह मेहनत करता है।"
+        },
+        {
+          "pronoun": "She",
+          "hindi": "वह (महिला)",
+          "v5rule": "works (+s)",
+          "example": "She teaches English.",
+          "exHindi": "वह अंग्रेजी पढ़ाती है।"
+        },
+        {
+          "pronoun": "It",
+          "hindi": "यह (वस्तु)",
+          "v5rule": "runs (+s)",
+          "example": "It barks loudly.",
+          "exHindi": "यह ज़ोर से भौंकता है।"
+        },
+        {
+          "pronoun": "We",
+          "hindi": "हम",
+          "v5rule": "play (no s)",
+          "example": "We study together.",
+          "exHindi": "हम मिलकर पढ़ते हैं।"
+        },
+        {
+          "pronoun": "They",
+          "hindi": "वे/वो",
+          "v5rule": "work (no s)",
+          "example": "They come on time.",
+          "exHindi": "वे समय पर आते हैं।"
+        }
+      ],
+      "memoryTrick": "He/She/It → always add s/es to verb! (He eats, She works, It runs)"
+    },
+    {
+      "id": "svo",
+      "title": "SVO Structure — English ka Magic Formula",
+      "formula": "Subject + Verb + Object",
+      "goldenRule": "Hindi mein SOV (Main khana khata hoon) → English mein SVO (I eat food). VERB hamesha BICH mein!",
+      "examples": [
+        {
+          "english": "I eat rice.",
+          "hindi": "मैं चावल खाता हूँ।"
+        },
+        {
+          "english": "She drinks water.",
+          "hindi": "वह पानी पीती है।"
+        },
+        {
+          "english": "He reads books.",
+          "hindi": "वह किताबें पढ़ता है।"
+        },
+        {
+          "english": "We play cricket.",
+          "hindi": "हम क्रिकेट खेलते हैं।"
+        },
+        {
+          "english": "They watch movies.",
+          "hindi": "वे फिल्में देखते हैं।"
+        },
+        {
+          "english": "You write letters.",
+          "hindi": "तुम पत्र लिखते हो।"
+        },
+        {
+          "english": "The dog eats food.",
+          "hindi": "कुत्ता खाना खाता है।"
+        },
+        {
+          "english": "My mother cooks food.",
+          "hindi": "मेरी माँ खाना बनाती है।"
+        },
+        {
+          "english": "Ravi drives a car.",
+          "hindi": "रवि कार चलाता है।"
+        },
+        {
+          "english": "The teacher teaches English.",
+          "hindi": "अध्यापक अंग्रेजी पढ़ाते हैं।"
+        },
+        {
+          "english": "She buys vegetables.",
+          "hindi": "वह सब्जियाँ खरीदती है।"
+        },
+        {
+          "english": "I watch TV every night.",
+          "hindi": "मैं हर रात TV देखता हूँ।"
+        },
+        {
+          "english": "He plays guitar.",
+          "hindi": "वह गिटार बजाता है।"
+        },
+        {
+          "english": "They drink tea.",
+          "hindi": "वे चाय पीते हैं।"
+        },
+        {
+          "english": "We speak Hindi.",
+          "hindi": "हम हिंदी बोलते हैं।"
+        },
+        {
+          "english": "The students study hard.",
+          "hindi": "छात्र मेहनत से पढ़ते हैं।"
+        },
+        {
+          "english": "She loves her job.",
+          "hindi": "वह अपनी नौकरी से प्यार करती है।"
+        },
+        {
+          "english": "I need your help.",
+          "hindi": "मुझे तुम्हारी मदद चाहिए।"
+        },
+        {
+          "english": "He knows the answer.",
+          "hindi": "उसे जवाब पता है।"
+        },
+        {
+          "english": "I drink coffee.",
+          "hindi": "मैं कॉफ़ी पीता हूँ।"
+        },
+        {
+          "english": "She runs every morning.",
+          "hindi": "वह हर सुबह दौड़ती है।"
+        },
+        {
+          "english": "He lives in Delhi.",
+          "hindi": "वह दिल्ली में रहता है।"
+        },
+        {
+          "english": "We eat lunch together.",
+          "hindi": "हम एक साथ दोपहर का खाना खाते हैं।"
+        },
+        {
+          "english": "They go to school.",
+          "hindi": "वे स्कूल जाते हैं।"
+        },
+        {
+          "english": "I speak English.",
+          "hindi": "मैं अंग्रेजी बोलता हूँ।"
+        },
+        {
+          "english": "She makes tea.",
+          "hindi": "वह चाय बनाती है।"
+        },
+        {
+          "english": "He sends emails.",
+          "hindi": "वह emails भेजता है।"
+        },
+        {
+          "english": "We attend meetings.",
+          "hindi": "हम meetings attend करते हैं।"
+        },
+        {
+          "english": "They submit reports.",
+          "hindi": "वे reports submit करते हैं।"
+        },
+        {
+          "english": "I help colleagues.",
+          "hindi": "मैं colleagues की मदद करता हूँ।"
+        },
+        {
+          "english": "She takes notes.",
+          "hindi": "वह notes लेती है।"
+        },
+        {
+          "english": "He gives presentations.",
+          "hindi": "वह presentations देता है।"
+        },
+        {
+          "english": "We complete tasks.",
+          "hindi": "हम tasks पूरे करते हैं।"
+        },
+        {
+          "english": "They solve problems.",
+          "hindi": "वे problems solve करते हैं।"
+        },
+        {
+          "english": "I read newspapers.",
+          "hindi": "मैं अखबार पढ़ता हूँ।"
+        },
+        {
+          "english": "She writes letters.",
+          "hindi": "वह पत्र लिखती है।"
+        },
+        {
+          "english": "He checks emails.",
+          "hindi": "वह emails check करता है।"
+        },
+        {
+          "english": "We discuss plans.",
+          "hindi": "हम plans discuss करते हैं।"
+        },
+        {
+          "english": "They execute projects.",
+          "hindi": "वे projects execute करते हैं।"
+        },
+        {
+          "english": "I call clients.",
+          "hindi": "मैं clients को call करता हूँ।"
+        },
+        {
+          "english": "She manages teams.",
+          "hindi": "वह teams manage करती है।"
+        },
+        {
+          "english": "He analyzes data.",
+          "hindi": "वह data analyze करता है।"
+        },
+        {
+          "english": "We plan strategies.",
+          "hindi": "हम strategies plan करते हैं।"
+        },
+        {
+          "english": "They deliver results.",
+          "hindi": "वे results deliver करते हैं।"
+        },
+        {
+          "english": "I meet deadlines.",
+          "hindi": "मैं deadlines meet करता हूँ।"
+        },
+        {
+          "english": "She trains employees.",
+          "hindi": "वह employees train करती है।"
+        },
+        {
+          "english": "He coordinates tasks.",
+          "hindi": "वह tasks coordinate करता है।"
+        },
+        {
+          "english": "We review progress.",
+          "hindi": "हम progress review करते हैं।"
+        },
+        {
+          "english": "They achieve targets.",
+          "hindi": "वे targets achieve करते हैं।"
+        },
+        {
+          "english": "I improve skills.",
+          "hindi": "मैं skills improve करता हूँ।"
+        }
+      ]
+    },
+    {
+      "id": "positive",
+      "title": "Positive Sentences — V1/V5",
+      "rules": [
+        "I/You/We/They + base verb",
+        "He/She/It + verb+s (normal words)",
+        "He/She/It + verb+es (s/sh/ch/x/o endings)",
+        "He/She/It + ies (consonant+y endings)",
+        "IRREGULAR: have→has, be→is"
+      ],
+      "v5Table": [
+        {
+          "base": "eat",
+          "v5": "eats"
+        },
+        {
+          "base": "go",
+          "v5": "goes"
+        },
+        {
+          "base": "do",
+          "v5": "does"
+        },
+        {
+          "base": "work",
+          "v5": "works"
+        },
+        {
+          "base": "play",
+          "v5": "plays"
+        },
+        {
+          "base": "study",
+          "v5": "studies"
+        },
+        {
+          "base": "carry",
+          "v5": "carries"
+        },
+        {
+          "base": "fly",
+          "v5": "flies"
+        },
+        {
+          "base": "watch",
+          "v5": "watches"
+        },
+        {
+          "base": "teach",
+          "v5": "teaches"
+        },
+        {
+          "base": "catch",
+          "v5": "catches"
+        },
+        {
+          "base": "fix",
+          "v5": "fixes"
+        },
+        {
+          "base": "wash",
+          "v5": "washes"
+        },
+        {
+          "base": "pass",
+          "v5": "passes"
+        },
+        {
+          "base": "have",
+          "v5": "has (irregular)"
+        },
+        {
+          "base": "speak",
+          "v5": "speaks"
+        },
+        {
+          "base": "read",
+          "v5": "reads"
+        },
+        {
+          "base": "write",
+          "v5": "writes"
+        },
+        {
+          "base": "drink",
+          "v5": "drinks"
+        },
+        {
+          "base": "know",
+          "v5": "knows"
+        },
+        {
+          "base": "live",
+          "v5": "lives"
+        },
+        {
+          "base": "love",
+          "v5": "loves"
+        },
+        {
+          "base": "come",
+          "v5": "comes"
+        },
+        {
+          "base": "run",
+          "v5": "runs"
+        },
+        {
+          "base": "sleep",
+          "v5": "sleeps"
+        },
+        {
+          "base": "buy",
+          "v5": "buys"
+        },
+        {
+          "base": "sell",
+          "v5": "sells"
+        },
+        {
+          "base": "help",
+          "v5": "helps"
+        },
+        {
+          "base": "call",
+          "v5": "calls"
+        },
+        {
+          "base": "drive",
+          "v5": "drives"
+        }
+      ],
+      "examples": [
+        {
+          "english": "I eat rice every day.",
+          "hindi": "मैं रोज़ चावल खाता हूँ।"
+        },
+        {
+          "english": "She goes to school by bus.",
+          "hindi": "वह बस से स्कूल जाती है।"
+        },
+        {
+          "english": "He works in a bank.",
+          "hindi": "वह बैंक में काम करता है।"
+        },
+        {
+          "english": "We play cricket on Sunday.",
+          "hindi": "हम रविवार को क्रिकेट खेलते हैं।"
+        },
+        {
+          "english": "They study at night.",
+          "hindi": "वे रात को पढ़ते हैं।"
+        },
+        {
+          "english": "She teaches Mathematics.",
+          "hindi": "वह गणित पढ़ाती है।"
+        },
+        {
+          "english": "He drives to office.",
+          "hindi": "वह office कार से जाता है।"
+        },
+        {
+          "english": "I always wake up at 6 AM.",
+          "hindi": "मैं हमेशा सुबह 6 बजे उठता हूँ।"
+        },
+        {
+          "english": "She usually comes on time.",
+          "hindi": "वह आमतौर पर समय पर आती है।"
+        },
+        {
+          "english": "He sometimes eats junk food.",
+          "hindi": "वह कभी-कभी junk food खाता है।"
+        },
+        {
+          "english": "They never drink alcohol.",
+          "hindi": "वे कभी शराब नहीं पीते।"
+        },
+        {
+          "english": "We often go for a walk.",
+          "hindi": "हम अक्सर टहलने जाते हैं।"
+        },
+        {
+          "english": "She studies English daily.",
+          "hindi": "वह रोज़ अंग्रेजी पढ़ती है।"
+        },
+        {
+          "english": "I have a car.",
+          "hindi": "मेरे पास कार है।"
+        },
+        {
+          "english": "He has a laptop.",
+          "hindi": "उसके पास laptop है।"
+        },
+        {
+          "english": "She carries her bag to work.",
+          "hindi": "वह काम पर अपना bag लेकर जाती है।"
+        },
+        {
+          "english": "It flies high in the sky.",
+          "hindi": "यह आसमान में ऊँचा उड़ता है।"
+        },
+        {
+          "english": "They try their best.",
+          "hindi": "वे अपना best करते हैं।"
+        },
+        {
+          "english": "He applies for many jobs.",
+          "hindi": "वह कई नौकरियों के लिए apply करता है।"
+        },
+        {
+          "english": "I need your help.",
+          "hindi": "मुझे तुम्हारी मदद चाहिए।"
+        },
+        {
+          "english": "I eat rice every day.",
+          "hindi": "मैं रोज़ चावल खाता हूँ।"
+        },
+        {
+          "english": "She goes to school by bus.",
+          "hindi": "वह बस से स्कूल जाती है।"
+        },
+        {
+          "english": "He works in a bank.",
+          "hindi": "वह बैंक में काम करता है।"
+        },
+        {
+          "english": "We play cricket on Sunday.",
+          "hindi": "हम रविवार को क्रिकेट खेलते हैं।"
+        },
+        {
+          "english": "They study at night.",
+          "hindi": "वे रात को पढ़ते हैं।"
+        },
+        {
+          "english": "She teaches Mathematics.",
+          "hindi": "वह गणित पढ़ाती है।"
+        },
+        {
+          "english": "He drives to office.",
+          "hindi": "वह office कार से जाता है।"
+        },
+        {
+          "english": "I always wake up at 6 AM.",
+          "hindi": "मैं हमेशा सुबह 6 बजे उठता हूँ।"
+        },
+        {
+          "english": "She usually comes on time.",
+          "hindi": "वह आमतौर पर समय पर आती है।"
+        },
+        {
+          "english": "He sometimes eats junk food.",
+          "hindi": "वह कभी-कभी junk food खाता है।"
+        },
+        {
+          "english": "They never drink alcohol.",
+          "hindi": "वे कभी शराब नहीं पीते।"
+        },
+        {
+          "english": "We often go for a walk.",
+          "hindi": "हम अक्सर टहलने जाते हैं।"
+        },
+        {
+          "english": "She studies English daily.",
+          "hindi": "वह रोज़ अंग्रेजी पढ़ती है।"
+        },
+        {
+          "english": "I have a car.",
+          "hindi": "मेरे पास कार है।"
+        },
+        {
+          "english": "He has a laptop.",
+          "hindi": "उसके पास laptop है।"
+        },
+        {
+          "english": "She carries her bag to work.",
+          "hindi": "वह काम पर अपना bag लेकर जाती है।"
+        },
+        {
+          "english": "It flies high in the sky.",
+          "hindi": "यह आसमान में ऊँचा उड़ता है।"
+        },
+        {
+          "english": "They try their best.",
+          "hindi": "वे अपना best करते हैं।"
+        },
+        {
+          "english": "He applies for many jobs.",
+          "hindi": "वह कई नौकरियों के लिए apply करता है।"
+        },
+        {
+          "english": "I need your help.",
+          "hindi": "मुझे तुम्हारी मदद चाहिए।"
+        },
+        {
+          "english": "I eat rice every day.",
+          "hindi": "मैं रोज़ चावल खाता हूँ।"
+        },
+        {
+          "english": "She goes to school by bus.",
+          "hindi": "वह बस से स्कूल जाती है।"
+        },
+        {
+          "english": "He works in a bank.",
+          "hindi": "वह बैंक में काम करता है।"
+        },
+        {
+          "english": "We play cricket on Sunday.",
+          "hindi": "हम रविवार को क्रिकेट खेलते हैं।"
+        },
+        {
+          "english": "They study at night.",
+          "hindi": "वे रात को पढ़ते हैं।"
+        },
+        {
+          "english": "She teaches Mathematics.",
+          "hindi": "वह गणित पढ़ाती है।"
+        },
+        {
+          "english": "He drives to office.",
+          "hindi": "वह office कार से जाता है।"
+        },
+        {
+          "english": "I always wake up at 6 AM.",
+          "hindi": "मैं हमेशा सुबह 6 बजे उठता हूँ।"
+        },
+        {
+          "english": "She usually comes on time.",
+          "hindi": "वह आमतौर पर समय पर आती है।"
+        },
+        {
+          "english": "He sometimes eats junk food.",
+          "hindi": "वह कभी-कभी junk food खाता है।"
+        },
+        {
+          "english": "They never drink alcohol.",
+          "hindi": "वे कभी शराब नहीं पीते।"
+        },
+        {
+          "english": "We often go for a walk.",
+          "hindi": "हम अक्सर टहलने जाते हैं।"
+        },
+        {
+          "english": "She studies English daily.",
+          "hindi": "वह रोज़ अंग्रेजी पढ़ती है।"
+        },
+        {
+          "english": "I have a car.",
+          "hindi": "मेरे पास कार है।"
+        },
+        {
+          "english": "He has a laptop.",
+          "hindi": "उसके पास laptop है।"
+        },
+        {
+          "english": "She carries her bag to work.",
+          "hindi": "वह काम पर अपना bag लेकर जाती है।"
+        },
+        {
+          "english": "It flies high in the sky.",
+          "hindi": "यह आसमान में ऊँचा उड़ता है।"
+        },
+        {
+          "english": "They try their best.",
+          "hindi": "वे अपना best करते हैं।"
+        },
+        {
+          "english": "He applies for many jobs.",
+          "hindi": "वह कई नौकरियों के लिए apply करता है।"
+        },
+        {
+          "english": "I need your help.",
+          "hindi": "मुझे तुम्हारी मदद चाहिए।"
+        }
+      ]
+    },
+    {
+      "id": "negative",
+      "title": "Negative Sentences — don't/doesn't",
+      "formula": "I/You/We/They + don't + V1 | He/She/It + doesn't + V1",
+      "warning": "⚠️ doesn't ke saath verb mein 's' NAHI lagata! He doesn't EAT (not eats)",
+      "examples": [
+        {
+          "english": "I don't eat meat.",
+          "hindi": "मैं मांस नहीं खाता।"
+        },
+        {
+          "english": "She doesn't come late.",
+          "hindi": "वह देर से नहीं आती।"
+        },
+        {
+          "english": "He doesn't watch TV.",
+          "hindi": "वह TV नहीं देखता।"
+        },
+        {
+          "english": "We don't play games at work.",
+          "hindi": "हम काम पर games नहीं खेलते।"
+        },
+        {
+          "english": "They don't speak English.",
+          "hindi": "वे अंग्रेजी नहीं बोलते।"
+        },
+        {
+          "english": "She doesn't know the answer.",
+          "hindi": "उसे जवाब नहीं पता।"
+        },
+        {
+          "english": "I don't have time.",
+          "hindi": "मेरे पास समय नहीं है।"
+        },
+        {
+          "english": "He doesn't drive a car.",
+          "hindi": "वह कार नहीं चलाता।"
+        },
+        {
+          "english": "We don't go on Sunday.",
+          "hindi": "हम रविवार को नहीं जाते।"
+        },
+        {
+          "english": "It doesn't rain in December.",
+          "hindi": "दिसंबर में बारिश नहीं होती।"
+        },
+        {
+          "english": "I don't drink coffee.",
+          "hindi": "मैं कॉफ़ी नहीं पीता।"
+        },
+        {
+          "english": "She doesn't live here.",
+          "hindi": "वह यहाँ नहीं रहती।"
+        },
+        {
+          "english": "He doesn't like spicy food.",
+          "hindi": "उसे तीखा खाना पसंद नहीं।"
+        },
+        {
+          "english": "They don't understand Hindi.",
+          "hindi": "वे हिंदी नहीं समझते।"
+        },
+        {
+          "english": "You don't need to worry.",
+          "hindi": "तुम्हें चिंता करने की ज़रूरत नहीं।"
+        },
+        {
+          "english": "I don't know his name.",
+          "hindi": "मुझे उसका नाम नहीं पता।"
+        },
+        {
+          "english": "We don't waste time.",
+          "hindi": "हम समय बर्बाद नहीं करते।"
+        },
+        {
+          "english": "She doesn't smoke.",
+          "hindi": "वह धूम्रपान नहीं करती।"
+        },
+        {
+          "english": "He doesn't lie.",
+          "hindi": "वह झूठ नहीं बोलता।"
+        },
+        {
+          "english": "They don't come on time.",
+          "hindi": "वे समय पर नहीं आते।"
+        },
+        {
+          "english": "I don't eat meat.",
+          "hindi": "मैं मांस नहीं खाता।"
+        },
+        {
+          "english": "She doesn't come late.",
+          "hindi": "वह देर से नहीं आती।"
+        },
+        {
+          "english": "He doesn't watch TV.",
+          "hindi": "वह TV नहीं देखता।"
+        },
+        {
+          "english": "We don't play games at work.",
+          "hindi": "हम काम पर games नहीं खेलते।"
+        },
+        {
+          "english": "They don't speak English.",
+          "hindi": "वे अंग्रेजी नहीं बोलते।"
+        },
+        {
+          "english": "She doesn't know the answer.",
+          "hindi": "उसे जवाब नहीं पता।"
+        },
+        {
+          "english": "I don't have time.",
+          "hindi": "मेरे पास समय नहीं है।"
+        },
+        {
+          "english": "He doesn't drive a car.",
+          "hindi": "वह कार नहीं चलाता।"
+        },
+        {
+          "english": "We don't go on Sunday.",
+          "hindi": "हम रविवार को नहीं जाते।"
+        },
+        {
+          "english": "It doesn't rain in December.",
+          "hindi": "दिसंबर में बारिश नहीं होती।"
+        },
+        {
+          "english": "I don't drink coffee.",
+          "hindi": "मैं कॉफ़ी नहीं पीता।"
+        },
+        {
+          "english": "She doesn't live here.",
+          "hindi": "वह यहाँ नहीं रहती।"
+        },
+        {
+          "english": "He doesn't like spicy food.",
+          "hindi": "उसे तीखा खाना पसंद नहीं।"
+        },
+        {
+          "english": "They don't understand Hindi.",
+          "hindi": "वे हिंदी नहीं समझते।"
+        },
+        {
+          "english": "You don't need to worry.",
+          "hindi": "तुम्हें चिंता करने की ज़रूरत नहीं।"
+        },
+        {
+          "english": "I don't know his name.",
+          "hindi": "मुझे उसका नाम नहीं पता।"
+        },
+        {
+          "english": "We don't waste time.",
+          "hindi": "हम समय बर्बाद नहीं करते।"
+        },
+        {
+          "english": "She doesn't smoke.",
+          "hindi": "वह धूम्रपान नहीं करती।"
+        },
+        {
+          "english": "He doesn't lie.",
+          "hindi": "वह झूठ नहीं बोलता।"
+        },
+        {
+          "english": "They don't come on time.",
+          "hindi": "वे समय पर नहीं आते।"
+        },
+        {
+          "english": "I don't eat meat.",
+          "hindi": "मैं मांस नहीं खाता।"
+        },
+        {
+          "english": "She doesn't come late.",
+          "hindi": "वह देर से नहीं आती।"
+        },
+        {
+          "english": "He doesn't watch TV.",
+          "hindi": "वह TV नहीं देखता।"
+        },
+        {
+          "english": "We don't play games at work.",
+          "hindi": "हम काम पर games नहीं खेलते।"
+        },
+        {
+          "english": "They don't speak English.",
+          "hindi": "वे अंग्रेजी नहीं बोलते।"
+        },
+        {
+          "english": "She doesn't know the answer.",
+          "hindi": "उसे जवाब नहीं पता।"
+        },
+        {
+          "english": "I don't have time.",
+          "hindi": "मेरे पास समय नहीं है।"
+        },
+        {
+          "english": "He doesn't drive a car.",
+          "hindi": "वह कार नहीं चलाता।"
+        },
+        {
+          "english": "We don't go on Sunday.",
+          "hindi": "हम रविवार को नहीं जाते।"
+        },
+        {
+          "english": "It doesn't rain in December.",
+          "hindi": "दिसंबर में बारिश नहीं होती।"
+        }
+      ]
+    },
+    {
+      "id": "questions",
+      "title": "Yes/No Questions — Do/Does",
+      "formula": "Do + I/You/We/They + V1? | Does + He/She/It + V1?",
+      "shortAnswers": "Yes, I do. / No, I don't. | Yes, he does. / No, he doesn't.",
+      "examples": [
+        {
+          "q": "Do you speak English?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम अंग्रेजी बोलते हो?"
+        },
+        {
+          "q": "Does she work here?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह यहाँ काम करती है?"
+        },
+        {
+          "q": "Do they play cricket?",
+          "ya": "Yes, they do.",
+          "na": "No, they don't.",
+          "h": "क्या वे क्रिकेट खेलते हैं?"
+        },
+        {
+          "q": "Does he drive a car?",
+          "ya": "Yes, he does.",
+          "na": "No, he doesn't.",
+          "h": "क्या वह कार चलाता है?"
+        },
+        {
+          "q": "Do you have a laptop?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम्हारे पास laptop है?"
+        },
+        {
+          "q": "Does she teach English?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह अंग्रेजी पढ़ाती है?"
+        },
+        {
+          "q": "Do we need help?",
+          "ya": "Yes, we do.",
+          "na": "No, we don't.",
+          "h": "क्या हमें मदद चाहिए?"
+        },
+        {
+          "q": "Does it rain here?",
+          "ya": "Yes, it does.",
+          "na": "No, it doesn't.",
+          "h": "क्या यहाँ बारिश होती है?"
+        },
+        {
+          "q": "Do you speak English?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम अंग्रेजी बोलते हो?"
+        },
+        {
+          "q": "Does she work here?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह यहाँ काम करती है?"
+        },
+        {
+          "q": "Do they play cricket?",
+          "ya": "Yes, they do.",
+          "na": "No, they don't.",
+          "h": "क्या वे क्रिकेट खेलते हैं?"
+        },
+        {
+          "q": "Does he drive a car?",
+          "ya": "Yes, he does.",
+          "na": "No, he doesn't.",
+          "h": "क्या वह कार चलाता है?"
+        },
+        {
+          "q": "Do you have a laptop?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम्हारे पास laptop है?"
+        },
+        {
+          "q": "Does she teach English?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह अंग्रेजी पढ़ाती है?"
+        },
+        {
+          "q": "Do we need help?",
+          "ya": "Yes, we do.",
+          "na": "No, we don't.",
+          "h": "क्या हमें मदद चाहिए?"
+        },
+        {
+          "q": "Does it rain here?",
+          "ya": "Yes, it does.",
+          "na": "No, it doesn't.",
+          "h": "क्या यहाँ बारिश होती है?"
+        },
+        {
+          "q": "Do you speak English?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम अंग्रेजी बोलते हो?"
+        },
+        {
+          "q": "Does she work here?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह यहाँ काम करती है?"
+        },
+        {
+          "q": "Do they play cricket?",
+          "ya": "Yes, they do.",
+          "na": "No, they don't.",
+          "h": "क्या वे क्रिकेट खेलते हैं?"
+        },
+        {
+          "q": "Does he drive a car?",
+          "ya": "Yes, he does.",
+          "na": "No, he doesn't.",
+          "h": "क्या वह कार चलाता है?"
+        },
+        {
+          "q": "Do you have a laptop?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम्हारे पास laptop है?"
+        },
+        {
+          "q": "Does she teach English?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह अंग्रेजी पढ़ाती है?"
+        },
+        {
+          "q": "Do we need help?",
+          "ya": "Yes, we do.",
+          "na": "No, we don't.",
+          "h": "क्या हमें मदद चाहिए?"
+        },
+        {
+          "q": "Does it rain here?",
+          "ya": "Yes, it does.",
+          "na": "No, it doesn't.",
+          "h": "क्या यहाँ बारिश होती है?"
+        },
+        {
+          "q": "Do you speak English?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम अंग्रेजी बोलते हो?"
+        },
+        {
+          "q": "Does she work here?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह यहाँ काम करती है?"
+        },
+        {
+          "q": "Do they play cricket?",
+          "ya": "Yes, they do.",
+          "na": "No, they don't.",
+          "h": "क्या वे क्रिकेट खेलते हैं?"
+        },
+        {
+          "q": "Does he drive a car?",
+          "ya": "Yes, he does.",
+          "na": "No, he doesn't.",
+          "h": "क्या वह कार चलाता है?"
+        },
+        {
+          "q": "Do you have a laptop?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम्हारे पास laptop है?"
+        },
+        {
+          "q": "Does she teach English?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह अंग्रेजी पढ़ाती है?"
+        },
+        {
+          "q": "Do we need help?",
+          "ya": "Yes, we do.",
+          "na": "No, we don't.",
+          "h": "क्या हमें मदद चाहिए?"
+        },
+        {
+          "q": "Does it rain here?",
+          "ya": "Yes, it does.",
+          "na": "No, it doesn't.",
+          "h": "क्या यहाँ बारिश होती है?"
+        },
+        {
+          "q": "Do you speak English?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम अंग्रेजी बोलते हो?"
+        },
+        {
+          "q": "Does she work here?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह यहाँ काम करती है?"
+        },
+        {
+          "q": "Do they play cricket?",
+          "ya": "Yes, they do.",
+          "na": "No, they don't.",
+          "h": "क्या वे क्रिकेट खेलते हैं?"
+        },
+        {
+          "q": "Does he drive a car?",
+          "ya": "Yes, he does.",
+          "na": "No, he doesn't.",
+          "h": "क्या वह कार चलाता है?"
+        },
+        {
+          "q": "Do you have a laptop?",
+          "ya": "Yes, I do.",
+          "na": "No, I don't.",
+          "h": "क्या तुम्हारे पास laptop है?"
+        },
+        {
+          "q": "Does she teach English?",
+          "ya": "Yes, she does.",
+          "na": "No, she doesn't.",
+          "h": "क्या वह अंग्रेजी पढ़ाती है?"
+        },
+        {
+          "q": "Do we need help?",
+          "ya": "Yes, we do.",
+          "na": "No, we don't.",
+          "h": "क्या हमें मदद चाहिए?"
+        },
+        {
+          "q": "Does it rain here?",
+          "ya": "Yes, it does.",
+          "na": "No, it doesn't.",
+          "h": "क्या यहाँ बारिश होती है?"
+        }
+      ]
+    },
+    {
+      "id": "wh-questions",
+      "title": "WH Questions — What Where When Who Why How",
+      "whWords": [
+        {
+          "word": "What",
+          "hindi": "क्या",
+          "ex": "What do you eat?",
+          "ans": "I eat rice.",
+          "exH": "तुम क्या खाते हो?"
+        },
+        {
+          "word": "Where",
+          "hindi": "कहाँ",
+          "ex": "Where does she work?",
+          "ans": "She works in Delhi.",
+          "exH": "वह कहाँ काम करती है?"
+        },
+        {
+          "word": "When",
+          "hindi": "कब",
+          "ex": "When do they come?",
+          "ans": "They come at 9 AM.",
+          "exH": "वे कब आते हैं?"
+        },
+        {
+          "word": "Who",
+          "hindi": "कौन",
+          "ex": "Who teaches English?",
+          "ans": "Mr. Sharma teaches.",
+          "exH": "अंग्रेजी कौन पढ़ाता है?"
+        },
+        {
+          "word": "Why",
+          "hindi": "क्यों",
+          "ex": "Why do you study English?",
+          "ans": "I study for my job.",
+          "exH": "तुम अंग्रेजी क्यों पढ़ते हो?"
+        },
+        {
+          "word": "How",
+          "hindi": "कैसे",
+          "ex": "How does he go to office?",
+          "ans": "He goes by metro.",
+          "exH": "वह office कैसे जाता है?"
+        },
+        {
+          "word": "How much",
+          "hindi": "कितना",
+          "ex": "How much water do you drink?",
+          "ans": "I drink 8 glasses.",
+          "exH": "तुम कितना पानी पीते हो?"
+        },
+        {
+          "word": "How many",
+          "hindi": "कितने",
+          "ex": "How many books do you read?",
+          "ans": "I read 2 books.",
+          "exH": "तुम कितनी किताबें पढ़ते हो?"
+        }
+      ]
+    },
+    {
+      "id": "articles",
+      "title": "Articles — A, An, The",
+      "rules": [
+        {
+          "article": "A",
+          "use": "Consonant sound se shuru hone wale singular nouns ke pehle",
+          "examples": [
+            "a book",
+            "a car",
+            "a table",
+            "a dog",
+            "a student",
+            "a teacher",
+            "a university (yu=consonant)"
+          ],
+          "hindi": "Hindi mein 'ek' ke jaisa"
+        },
+        {
+          "article": "An",
+          "use": "Vowel sound (a,e,i,o,u) se shuru hone wale singular nouns ke pehle",
+          "examples": [
+            "an apple",
+            "an egg",
+            "an umbrella",
+            "an orange",
+            "an hour (h silent)",
+            "an honest man",
+            "an engineer",
+            "an Indian"
+          ],
+          "hindi": "'an hour' — h silent hai!"
+        },
+        {
+          "article": "The",
+          "use": "Specific cheez ke liye — jab dono ko pata ho",
+          "examples": [
+            "The sun rises in the east.",
+            "The Taj Mahal is in Agra.",
+            "Close the door.",
+            "The book on the table is mine."
+          ],
+          "hindi": "woh specific wali cheez"
+        }
+      ],
+      "noArticle": [
+        "Proper nouns: Ram is a good boy.",
+        "Languages: I speak Hindi.",
+        "Meals: I eat lunch at 1 PM.",
+        "Sports: He plays cricket.",
+        "Subjects: She studies Mathematics."
+      ],
+      "examples": [
+        {
+          "e": "I saw a dog in the park.",
+          "h": "मैंने पार्क में एक कुत्ता देखा।",
+          "exp": "a dog = koi bhi kutta"
+        },
+        {
+          "e": "The dog barked at me.",
+          "h": "वह कुत्ता मुझ पर भौंका।",
+          "exp": "The dog = wahi specific kutta"
+        },
+        {
+          "e": "She is an engineer.",
+          "h": "वह एक इंजीनियर है।",
+          "exp": "an = 'engineer' vowel se shuru"
+        },
+        {
+          "e": "The sun sets in the west.",
+          "h": "सूरज पश्चिम में अस्त होता है।",
+          "exp": "The sun = ek hi sun hai"
+        },
+        {
+          "e": "He has a car.",
+          "h": "उसके पास एक कार है।",
+          "exp": "a = koi bhi car"
+        },
+        {
+          "e": "She is an honest person.",
+          "h": "वह एक ईमानदार इंसान है।",
+          "exp": "an honest — h silent hai"
+        },
+        {
+          "e": "I saw a dog in the park.",
+          "h": "मैंने पार्क में एक कुत्ता देखा।",
+          "exp": "a dog = koi bhi kutta"
+        },
+        {
+          "e": "The dog barked at me.",
+          "h": "वह कुत्ता मुझ पर भौंका।",
+          "exp": "The dog = wahi specific kutta"
+        },
+        {
+          "e": "She is an engineer.",
+          "h": "वह एक इंजीनियर है।",
+          "exp": "an = 'engineer' vowel se shuru"
+        },
+        {
+          "e": "The sun sets in the west.",
+          "h": "सूरज पश्चिम में अस्त होता है।",
+          "exp": "The sun = ek hi sun hai"
+        },
+        {
+          "e": "He has a car.",
+          "h": "उसके पास एक कार है।",
+          "exp": "a = koi bhi car"
+        },
+        {
+          "e": "She is an honest person.",
+          "h": "वह एक ईमानदार इंसान है।",
+          "exp": "an honest — h silent hai"
+        },
+        {
+          "e": "I saw a dog in the park.",
+          "h": "मैंने पार्क में एक कुत्ता देखा।",
+          "exp": "a dog = koi bhi kutta"
+        },
+        {
+          "e": "The dog barked at me.",
+          "h": "वह कुत्ता मुझ पर भौंका।",
+          "exp": "The dog = wahi specific kutta"
+        },
+        {
+          "e": "She is an engineer.",
+          "h": "वह एक इंजीनियर है।",
+          "exp": "an = 'engineer' vowel se shuru"
+        },
+        {
+          "e": "The sun sets in the west.",
+          "h": "सूरज पश्चिम में अस्त होता है।",
+          "exp": "The sun = ek hi sun hai"
+        },
+        {
+          "e": "He has a car.",
+          "h": "उसके पास एक कार है।",
+          "exp": "a = koi bhi car"
+        },
+        {
+          "e": "She is an honest person.",
+          "h": "वह एक ईमानदार इंसान है।",
+          "exp": "an honest — h silent hai"
+        },
+        {
+          "e": "I saw a dog in the park.",
+          "h": "मैंने पार्क में एक कुत्ता देखा।",
+          "exp": "a dog = koi bhi kutta"
+        },
+        {
+          "e": "The dog barked at me.",
+          "h": "वह कुत्ता मुझ पर भौंका।",
+          "exp": "The dog = wahi specific kutta"
+        },
+        {
+          "e": "She is an engineer.",
+          "h": "वह एक इंजीनियर है।",
+          "exp": "an = 'engineer' vowel se shuru"
+        },
+        {
+          "e": "The sun sets in the west.",
+          "h": "सूरज पश्चिम में अस्त होता है।",
+          "exp": "The sun = ek hi sun hai"
+        },
+        {
+          "e": "He has a car.",
+          "h": "उसके पास एक कार है।",
+          "exp": "a = koi bhi car"
+        },
+        {
+          "e": "She is an honest person.",
+          "h": "वह एक ईमानदार इंसान है।",
+          "exp": "an honest — h silent hai"
+        },
+        {
+          "e": "I saw a dog in the park.",
+          "h": "मैंने पार्क में एक कुत्ता देखा।",
+          "exp": "a dog = koi bhi kutta"
+        },
+        {
+          "e": "The dog barked at me.",
+          "h": "वह कुत्ता मुझ पर भौंका।",
+          "exp": "The dog = wahi specific kutta"
+        },
+        {
+          "e": "She is an engineer.",
+          "h": "वह एक इंजीनियर है।",
+          "exp": "an = 'engineer' vowel se shuru"
+        },
+        {
+          "e": "The sun sets in the west.",
+          "h": "सूरज पश्चिम में अस्त होता है।",
+          "exp": "The sun = ek hi sun hai"
+        },
+        {
+          "e": "He has a car.",
+          "h": "उसके पास एक कार है।",
+          "exp": "a = koi bhi car"
+        },
+        {
+          "e": "She is an honest person.",
+          "h": "वह एक ईमानदार इंसान है।",
+          "exp": "an honest — h silent hai"
+        }
+      ]
+    },
+    {
+      "id": "frequency",
+      "title": "Frequency Adverbs — Always to Never",
+      "scale": [
+        {
+          "word": "Always",
+          "pct": "100%",
+          "hindi": "हमेशा",
+          "ex": "I always brush my teeth.",
+          "exH": "मैं हमेशा दाँत साफ करता हूँ।"
+        },
+        {
+          "word": "Usually",
+          "pct": "80-90%",
+          "hindi": "आमतौर पर",
+          "ex": "She usually comes on time.",
+          "exH": "वह आमतौर पर समय पर आती है।"
+        },
+        {
+          "word": "Often",
+          "pct": "60-70%",
+          "hindi": "अक्सर",
+          "ex": "He often goes to gym.",
+          "exH": "वह अक्सर gym जाता है।"
+        },
+        {
+          "word": "Sometimes",
+          "pct": "40-50%",
+          "hindi": "कभी-कभी",
+          "ex": "We sometimes eat outside.",
+          "exH": "हम कभी-कभी बाहर खाते हैं।"
+        },
+        {
+          "word": "Rarely",
+          "pct": "10%",
+          "hindi": "बहुत कम",
+          "ex": "She rarely drinks coffee.",
+          "exH": "वह बहुत कम coffee पीती है।"
+        },
+        {
+          "word": "Never",
+          "pct": "0%",
+          "hindi": "कभी नहीं",
+          "ex": "He never comes late.",
+          "exH": "वह कभी देर से नहीं आता।"
+        }
+      ],
+      "positionRules": [
+        {
+          "correct": "I always eat breakfast.",
+          "wrong": "I eat always breakfast.",
+          "note": "always BEFORE main verb"
+        },
+        {
+          "correct": "She is always late.",
+          "wrong": "She always is late.",
+          "note": "always AFTER is/am/are"
+        },
+        {
+          "correct": "He never lies.",
+          "wrong": "He lies never.",
+          "note": "never BEFORE main verb"
+        }
+      ]
+    },
+    {
+      "id": "possessives",
+      "title": "Possessives — My Your His Her Its Our Their",
+      "table": [
+        {
+          "subject": "I",
+          "adj": "My",
+          "pron": "Mine",
+          "ex": "My book is new.",
+          "exH": "मेरी किताब नई है।"
+        },
+        {
+          "subject": "You",
+          "adj": "Your",
+          "pron": "Yours",
+          "ex": "Your car is red.",
+          "exH": "तुम्हारी कार लाल है।"
+        },
+        {
+          "subject": "He",
+          "adj": "His",
+          "pron": "His",
+          "ex": "His phone is expensive.",
+          "exH": "उसका फ़ोन महंगा है।"
+        },
+        {
+          "subject": "She",
+          "adj": "Her",
+          "pron": "Hers",
+          "ex": "Her dress is beautiful.",
+          "exH": "उसकी ड्रेस सुंदर है।"
+        },
+        {
+          "subject": "It",
+          "adj": "Its",
+          "pron": "Its",
+          "ex": "The dog loves its owner.",
+          "exH": "कुत्ता अपने मालिक से प्यार करता है।"
+        },
+        {
+          "subject": "We",
+          "adj": "Our",
+          "pron": "Ours",
+          "ex": "Our team won the match.",
+          "exH": "हमारी team ने match जीता।"
+        },
+        {
+          "subject": "They",
+          "adj": "Their",
+          "pron": "Theirs",
+          "ex": "Their house is big.",
+          "exH": "उनका घर बड़ा है।"
+        }
+      ]
+    },
+    {
+      "id": "verbForms",
+      "title": "50 Important Verbs — All 5 Forms",
+      "columns": [
+        "V1 (Base)",
+        "V2 (Past)",
+        "V3 (Past Participle)",
+        "V4 (-ing)",
+        "V5 (+s/es)",
+        "Meaning"
+      ],
+      "table": [
+        [
+          "eat",
+          "ate",
+          "eaten",
+          "eating",
+          "eats",
+          "खाना"
+        ],
+        [
+          "go",
+          "went",
+          "gone",
+          "going",
+          "goes",
+          "जाना"
+        ],
+        [
+          "come",
+          "came",
+          "come",
+          "coming",
+          "comes",
+          "आना"
+        ],
+        [
+          "drink",
+          "drank",
+          "drunk",
+          "drinking",
+          "drinks",
+          "पीना"
+        ],
+        [
+          "work",
+          "worked",
+          "worked",
+          "working",
+          "works",
+          "काम करना"
+        ],
+        [
+          "study",
+          "studied",
+          "studied",
+          "studying",
+          "studies",
+          "पढ़ना"
+        ],
+        [
+          "play",
+          "played",
+          "played",
+          "playing",
+          "plays",
+          "खेलना"
+        ],
+        [
+          "read",
+          "read",
+          "read",
+          "reading",
+          "reads",
+          "पढ़ना"
+        ],
+        [
+          "write",
+          "wrote",
+          "written",
+          "writing",
+          "writes",
+          "लिखना"
+        ],
+        [
+          "speak",
+          "spoke",
+          "spoken",
+          "speaking",
+          "speaks",
+          "बोलना"
+        ],
+        [
+          "sleep",
+          "slept",
+          "slept",
+          "sleeping",
+          "sleeps",
+          "सोना"
+        ],
+        [
+          "run",
+          "ran",
+          "run",
+          "running",
+          "runs",
+          "दौड़ना"
+        ],
+        [
+          "know",
+          "knew",
+          "known",
+          "knowing",
+          "knows",
+          "जानना"
+        ],
+        [
+          "have",
+          "had",
+          "had",
+          "having",
+          "has",
+          "होना/रखना"
+        ],
+        [
+          "give",
+          "gave",
+          "given",
+          "giving",
+          "gives",
+          "देना"
+        ],
+        [
+          "take",
+          "took",
+          "taken",
+          "taking",
+          "takes",
+          "लेना"
+        ],
+        [
+          "make",
+          "made",
+          "made",
+          "making",
+          "makes",
+          "बनाना"
+        ],
+        [
+          "see",
+          "saw",
+          "seen",
+          "seeing",
+          "sees",
+          "देखना"
+        ],
+        [
+          "hear",
+          "heard",
+          "heard",
+          "hearing",
+          "hears",
+          "सुनना"
+        ],
+        [
+          "think",
+          "thought",
+          "thought",
+          "thinking",
+          "thinks",
+          "सोचना"
+        ],
+        [
+          "want",
+          "wanted",
+          "wanted",
+          "wanting",
+          "wants",
+          "चाहना"
+        ],
+        [
+          "need",
+          "needed",
+          "needed",
+          "needing",
+          "needs",
+          "ज़रूरत"
+        ],
+        [
+          "love",
+          "loved",
+          "loved",
+          "loving",
+          "loves",
+          "प्यार करना"
+        ],
+        [
+          "like",
+          "liked",
+          "liked",
+          "liking",
+          "likes",
+          "पसंद करना"
+        ],
+        [
+          "live",
+          "lived",
+          "lived",
+          "living",
+          "lives",
+          "रहना"
+        ],
+        [
+          "buy",
+          "bought",
+          "bought",
+          "buying",
+          "buys",
+          "खरीदना"
+        ],
+        [
+          "sell",
+          "sold",
+          "sold",
+          "selling",
+          "sells",
+          "बेचना"
+        ],
+        [
+          "teach",
+          "taught",
+          "taught",
+          "teaching",
+          "teaches",
+          "पढ़ाना"
+        ],
+        [
+          "help",
+          "helped",
+          "helped",
+          "helping",
+          "helps",
+          "मदद करना"
+        ],
+        [
+          "call",
+          "called",
+          "called",
+          "calling",
+          "calls",
+          "बुलाना"
+        ],
+        [
+          "drive",
+          "drove",
+          "driven",
+          "driving",
+          "drives",
+          "चलाना"
+        ],
+        [
+          "open",
+          "opened",
+          "opened",
+          "opening",
+          "opens",
+          "खोलना"
+        ],
+        [
+          "close",
+          "closed",
+          "closed",
+          "closing",
+          "closes",
+          "बंद करना"
+        ],
+        [
+          "send",
+          "sent",
+          "sent",
+          "sending",
+          "sends",
+          "भेजना"
+        ],
+        [
+          "pay",
+          "paid",
+          "paid",
+          "paying",
+          "pays",
+          "भुगतान करना"
+        ],
+        [
+          "find",
+          "found",
+          "found",
+          "finding",
+          "finds",
+          "ढूंढना"
+        ],
+        [
+          "keep",
+          "kept",
+          "kept",
+          "keeping",
+          "keeps",
+          "रखना"
+        ],
+        [
+          "leave",
+          "left",
+          "left",
+          "leaving",
+          "leaves",
+          "छोड़ना"
+        ],
+        [
+          "meet",
+          "met",
+          "met",
+          "meeting",
+          "meets",
+          "मिलना"
+        ],
+        [
+          "put",
+          "put",
+          "put",
+          "putting",
+          "puts",
+          "रखना"
+        ],
+        [
+          "stand",
+          "stood",
+          "stood",
+          "standing",
+          "stands",
+          "खड़े होना"
+        ],
+        [
+          "sit",
+          "sat",
+          "sat",
+          "sitting",
+          "sits",
+          "बैठना"
+        ],
+        [
+          "walk",
+          "walked",
+          "walked",
+          "walking",
+          "walks",
+          "चलना"
+        ],
+        [
+          "talk",
+          "talked",
+          "talked",
+          "talking",
+          "talks",
+          "बात करना"
+        ],
+        [
+          "listen",
+          "listened",
+          "listened",
+          "listening",
+          "listens",
+          "सुनना"
+        ],
+        [
+          "ask",
+          "asked",
+          "asked",
+          "asking",
+          "asks",
+          "पूछना"
+        ],
+        [
+          "answer",
+          "answered",
+          "answered",
+          "answering",
+          "answers",
+          "जवाब देना"
+        ],
+        [
+          "try",
+          "tried",
+          "tried",
+          "trying",
+          "tries",
+          "कोशिश करना"
+        ],
+        [
+          "use",
+          "used",
+          "used",
+          "using",
+          "uses",
+          "उपयोग करना"
+        ],
+        [
+          "start",
+          "started",
+          "started",
+          "starting",
+          "starts",
+          "शुरू करना"
+        ]
+      ]
+    }
+  ],
+  "goldenRules": [
+    "SVO: Subject + Verb + Object — NEVER change this order in English",
+    "He/She/It ke saath ALWAYS verb+s/es (not for I/You/We/They)",
+    "Questions mein Do/Does ko pehle laao — verb base form mein rahega",
+    "Negative mein don't/doesn't use karo — verb NEVER gets 's' after doesn't",
+    "Articles: 'a' (consonant sound), 'an' (vowel sound), 'the' (specific)",
+    "Frequency adverbs main verb se PEHLE aate hain (AFTER is/am/are)",
+    "Possessives noun se PEHLE aate hain — My book, His car, Their house",
+    "Object pronouns verb ke BAAD: She calls ME (not I)",
+    "WH word + do/does + subject + V1 — exact word order mat bhoolna",
+    "Never say 'Me go' or 'He don't' — common Hindi speaker errors!"
+  ]
+}

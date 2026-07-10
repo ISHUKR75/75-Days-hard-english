@@ -1,0 +1,4919 @@
+{
+  "day": 1,
+  "title": "Flashcards — Basics of English",
+  "subtitle": "500 Hindi-English flashcards for Day 1 vocabulary and grammar",
+  "totalCards": 500,
+  "categories": [
+    "Verbs",
+    "Nouns",
+    "Adjectives",
+    "Grammar Rules",
+    "Sentences",
+    "Frequency",
+    "Questions",
+    "Negatives"
+  ],
+  "description": "Ye 500 flashcards aapki Day 1 vocabulary aur grammar solid banane mein madad karengi. Roz 50 cards practice karo — 10 din mein sab yaad ho jaenge!",
+  "flashcards": [
+    {
+      "id": 1,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 2,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 3,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 4,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 5,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 6,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 7,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 8,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 9,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 10,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 11,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 12,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 13,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 14,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 15,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 16,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 17,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 18,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 19,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 20,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 21,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 22,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 23,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 24,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 25,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 26,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 27,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 28,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 29,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 30,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 31,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "किताब",
+      "back": "book",
+      "example": "I read a book.",
+      "exampleHindi": "मैं एक किताब पढ़ता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 32,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "कार",
+      "back": "car",
+      "example": "He drives a car.",
+      "exampleHindi": "वह कार चलाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 33,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "घर",
+      "back": "house/home",
+      "example": "We live in a house.",
+      "exampleHindi": "हम एक घर में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 34,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "स्कूल",
+      "back": "school",
+      "example": "She goes to school.",
+      "exampleHindi": "वह स्कूल जाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 35,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "ऑफिस",
+      "back": "office",
+      "example": "I work in an office.",
+      "exampleHindi": "मैं एक office में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 36,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "अस्पताल",
+      "back": "hospital",
+      "example": "He goes to the hospital.",
+      "exampleHindi": "वह अस्पताल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 37,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "बाज़ार",
+      "back": "market",
+      "example": "They go to the market.",
+      "exampleHindi": "वे बाज़ार जाते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 38,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "पानी",
+      "back": "water",
+      "example": "Water is important.",
+      "exampleHindi": "पानी ज़रूरी है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 39,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "खाना",
+      "back": "food",
+      "example": "I eat food.",
+      "exampleHindi": "मैं खाना खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 40,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "दूध",
+      "back": "milk",
+      "example": "She drinks milk.",
+      "exampleHindi": "वह दूध पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 41,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "चाय",
+      "back": "tea",
+      "example": "He drinks tea.",
+      "exampleHindi": "वह चाय पीता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 42,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "कॉफ़ी",
+      "back": "coffee",
+      "example": "I drink coffee.",
+      "exampleHindi": "मैं कॉफ़ी पीता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 43,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "परिवार",
+      "back": "family",
+      "example": "We love our family.",
+      "exampleHindi": "हम अपने परिवार से प्यार करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 44,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "दोस्त",
+      "back": "friend",
+      "example": "She is my friend.",
+      "exampleHindi": "वह मेरी दोस्त है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 45,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "नौकरी",
+      "back": "job",
+      "example": "He has a good job.",
+      "exampleHindi": "उसके पास अच्छी नौकरी है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 46,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "पैसा",
+      "back": "money",
+      "example": "I save money.",
+      "exampleHindi": "मैं पैसे बचाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 47,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "समय",
+      "back": "time",
+      "example": "Time is precious.",
+      "exampleHindi": "समय बेशकीमती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 48,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "काम",
+      "back": "work",
+      "example": "I complete my work.",
+      "exampleHindi": "मैं अपना काम पूरा करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 49,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "जवाब",
+      "back": "answer",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 50,
+      "type": "vocabulary",
+      "category": "Nouns",
+      "front": "सवाल",
+      "back": "question",
+      "example": "She asks a question.",
+      "exampleHindi": "वह एक सवाल पूछती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 51,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "अच्छा",
+      "back": "good",
+      "example": "She is a good student.",
+      "exampleHindi": "वह एक अच्छी छात्र है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 52,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "बुरा",
+      "back": "bad",
+      "example": "This is a bad idea.",
+      "exampleHindi": "यह एक बुरा विचार है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 53,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "बड़ा",
+      "back": "big/large",
+      "example": "He has a big house.",
+      "exampleHindi": "उसके पास बड़ा घर है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 54,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "छोटा",
+      "back": "small/little",
+      "example": "I have a small car.",
+      "exampleHindi": "मेरे पास छोटी कार है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 55,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "नया",
+      "back": "new",
+      "example": "She buys a new phone.",
+      "exampleHindi": "वह नया phone खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 56,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "पुराना",
+      "back": "old",
+      "example": "He drives an old car.",
+      "exampleHindi": "वह पुरानी कार चलाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 57,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "महंगा",
+      "back": "expensive",
+      "example": "This is expensive.",
+      "exampleHindi": "यह महंगा है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 58,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "सस्ता",
+      "back": "cheap",
+      "example": "That is cheap.",
+      "exampleHindi": "वह सस्ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 59,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "तेज़",
+      "back": "fast/quick",
+      "example": "She runs fast.",
+      "exampleHindi": "वह तेज़ दौड़ती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 60,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "धीमा",
+      "back": "slow",
+      "example": "He walks slowly.",
+      "exampleHindi": "वह धीरे चलता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 61,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "खुश",
+      "back": "happy",
+      "example": "I am happy today.",
+      "exampleHindi": "मैं आज खुश हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 62,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "दुखी",
+      "back": "sad",
+      "example": "She looks sad.",
+      "exampleHindi": "वह दुखी लगती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 63,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "थका हुआ",
+      "back": "tired",
+      "example": "I am tired.",
+      "exampleHindi": "मैं थका हुआ हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 64,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "स्वस्थ",
+      "back": "healthy",
+      "example": "He is healthy.",
+      "exampleHindi": "वह स्वस्थ है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 65,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "बीमार",
+      "back": "sick/ill",
+      "example": "She is sick today.",
+      "exampleHindi": "वह आज बीमार है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 66,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "मेहनती",
+      "back": "hardworking",
+      "example": "They are hardworking.",
+      "exampleHindi": "वे मेहनती हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 67,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "होशियार",
+      "back": "smart/intelligent",
+      "example": "He is very smart.",
+      "exampleHindi": "वह बहुत होशियार है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 68,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "ईमानदार",
+      "back": "honest",
+      "example": "She is honest.",
+      "exampleHindi": "वह ईमानदार है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 69,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "दयालु",
+      "back": "kind",
+      "example": "He is very kind.",
+      "exampleHindi": "वह बहुत दयालु है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 70,
+      "type": "vocabulary",
+      "category": "Adjectives",
+      "front": "सुंदर",
+      "back": "beautiful/handsome",
+      "example": "She is beautiful.",
+      "exampleHindi": "वह सुंदर है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 71,
+      "front": "Rule: He/She/It ke saath kya lagaate hain?",
+      "back": "He/She/It ke saath verb mein +s ya +es lagaate hain. He eats. She works. It runs.",
+      "type": "grammar",
+      "category": "SVA",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 72,
+      "front": "Rule: Negative sentence ka formula kya hai?",
+      "back": "I/You/We/They + don't + V1 | He/She/It + doesn't + V1. (doesn't ke baad 's' nahi!)",
+      "type": "grammar",
+      "category": "Negation",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 73,
+      "front": "Rule: Yes/No question ka formula kya hai?",
+      "back": "Do + I/You/We/They + V1? | Does + He/She/It + V1?",
+      "type": "grammar",
+      "category": "Questions",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 74,
+      "front": "Rule: 'A' kab use karte hain?",
+      "back": "A = consonant sound se shuru hone wale singular nouns ke pehle. a book, a car, a university (yu=consonant)",
+      "type": "grammar",
+      "category": "Articles",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 75,
+      "front": "Rule: 'An' kab use karte hain?",
+      "back": "An = vowel sound (a,e,i,o,u) se shuru hone wale singular nouns ke pehle. an apple, an hour (h silent), an engineer",
+      "type": "grammar",
+      "category": "Articles",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 76,
+      "front": "Rule: 'The' kab use karte hain?",
+      "back": "The = specific cheez ke liye jab dono ko pata ho hum kis cheez ki baat kar rahe hain. The sun, the book on the table.",
+      "type": "grammar",
+      "category": "Articles",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 77,
+      "front": "'have' ya 'has' — 'I' ke saath kaunsa?",
+      "back": "I HAVE. (have for I/You/We/They, has for He/She/It)",
+      "type": "grammar",
+      "category": "SVA",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 78,
+      "front": "'have' ya 'has' — 'She' ke saath kaunsa?",
+      "back": "She HAS. (has is special for He/She/It)",
+      "type": "grammar",
+      "category": "SVA",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 79,
+      "front": "Frequency adverbs ki position kahan hoti hai?",
+      "back": "Main verb se PEHLE: I always eat breakfast. | is/am/are ke BAAD: She is always happy.",
+      "type": "grammar",
+      "category": "Adverbs",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 80,
+      "front": "Stative verbs kya hote hain? Example do.",
+      "back": "Jo verbs continuous (-ing) form mein use nahi hote: know, love, like, want, need, have(possession), understand. I know him. ✅ | I am knowing him. ❌",
+      "type": "grammar",
+      "category": "Verbs",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 81,
+      "front": "Possessives mein 'His' ya 'Her' — kab kaunsa?",
+      "back": "His = He ka (male ke liye): His book. | Her = She ka (female ke liye): Her dress.",
+      "type": "grammar",
+      "category": "Possessives",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 82,
+      "front": "Object pronouns kya hain?",
+      "back": "Me, You, Him, Her, It, Us, Them — verb ke BAAD aate hain. She calls ME. I know HIM.",
+      "type": "grammar",
+      "category": "Pronouns",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 83,
+      "front": "WH question ka word order kya hai?",
+      "back": "WH word + do/does + Subject + base verb? | What do you eat? | Where does she live?",
+      "type": "grammar",
+      "category": "Questions",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 84,
+      "front": "'Do' ya 'Does' — 'He' ke liye kaunsa?",
+      "back": "Does — He/She/It ke liye ALWAYS 'Does'. Does he work here?",
+      "type": "grammar",
+      "category": "Questions",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 85,
+      "front": "Sports ke pehle article lagata hai?",
+      "back": "NAHI! Sports ke pehle article nahi lagata. He plays cricket. ✅ | He plays the cricket. ❌",
+      "type": "grammar",
+      "category": "Articles",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 86,
+      "front": "मैं रोज़ सुबह exercise करता हूँ।",
+      "back": "I exercise every morning.",
+      "type": "sentence",
+      "category": "Daily Routine",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 87,
+      "front": "वह Bank में काम करती है।",
+      "back": "She works in a bank.",
+      "type": "sentence",
+      "category": "Work",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 88,
+      "front": "हम cricket खेलते हैं।",
+      "back": "We play cricket.",
+      "type": "sentence",
+      "category": "Sports",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 89,
+      "front": "वे हिंदी नहीं बोलते।",
+      "back": "They don't speak Hindi.",
+      "type": "sentence",
+      "category": "Negative",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 90,
+      "front": "क्या तुम अंग्रेजी बोलते हो?",
+      "back": "Do you speak English?",
+      "type": "sentence",
+      "category": "Question",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 91,
+      "front": "वह कार नहीं चलाती।",
+      "back": "She doesn't drive a car.",
+      "type": "sentence",
+      "category": "Negative",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 92,
+      "front": "तुम कहाँ काम करते हो?",
+      "back": "Where do you work?",
+      "type": "sentence",
+      "category": "WH Question",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 93,
+      "front": "वह क्या खाता है?",
+      "back": "What does he eat?",
+      "type": "sentence",
+      "category": "WH Question",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 94,
+      "front": "मैं हमेशा जल्दी उठता हूँ।",
+      "back": "I always wake up early.",
+      "type": "sentence",
+      "category": "Frequency",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 95,
+      "front": "वह कभी झूठ नहीं बोलता।",
+      "back": "He never lies.",
+      "type": "sentence",
+      "category": "Frequency",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 96,
+      "front": "हम कभी-कभी बाहर खाते हैं।",
+      "back": "We sometimes eat outside.",
+      "type": "sentence",
+      "category": "Frequency",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 97,
+      "front": "उसके पास laptop है।",
+      "back": "He has a laptop.",
+      "type": "sentence",
+      "category": "Possession",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 98,
+      "front": "मेरे पास कार नहीं है।",
+      "back": "I don't have a car.",
+      "type": "sentence",
+      "category": "Negative",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 99,
+      "front": "क्या उसके पास phone है?",
+      "back": "Does she have a phone?",
+      "type": "sentence",
+      "category": "Question",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 100,
+      "front": "सूरज पूर्व में उगता है।",
+      "back": "The sun rises in the east.",
+      "type": "sentence",
+      "category": "Facts",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 101,
+      "front": "पानी ज़रूरी है।",
+      "back": "Water is important.",
+      "type": "sentence",
+      "category": "Facts",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 102,
+      "front": "मुझे तुम्हारी मदद चाहिए।",
+      "back": "I need your help.",
+      "type": "sentence",
+      "category": "Needs",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 103,
+      "front": "वह doctor बनना चाहती है।",
+      "back": "She wants to become a doctor.",
+      "type": "sentence",
+      "category": "Wants",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 104,
+      "front": "मैं खुश हूँ।",
+      "back": "I am happy.",
+      "type": "sentence",
+      "category": "Feelings",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 105,
+      "front": "वह थका हुआ है।",
+      "back": "He is tired.",
+      "type": "sentence",
+      "category": "Feelings",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 106,
+      "type": "sentence",
+      "category": "Question",
+      "front": "क्या तुम्हें कॉफ़ी पसंद है?",
+      "back": "Do you like coffee?",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 107,
+      "type": "sentence",
+      "category": "Positive",
+      "front": "वह बहुत मेहनत करती है।",
+      "back": "She works very hard.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 108,
+      "type": "sentence",
+      "category": "Negative",
+      "front": "हम Monday को office नहीं जाते।",
+      "back": "We don't go to office on Monday.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 109,
+      "type": "sentence",
+      "category": "WH Question",
+      "front": "तुम क्यों रो रहे हो?",
+      "back": "Why are you crying?",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 110,
+      "type": "sentence",
+      "category": "Positive",
+      "front": "उसे संगीत पसंद है।",
+      "back": "She likes music.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 111,
+      "type": "sentence",
+      "category": "WH Question",
+      "front": "वह कहाँ रहता है?",
+      "back": "Where does he live?",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 112,
+      "type": "sentence",
+      "category": "Identity",
+      "front": "मैं doctor हूँ।",
+      "back": "I am a doctor.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 113,
+      "type": "sentence",
+      "category": "Identity",
+      "front": "वह एक engineer है।",
+      "back": "She is an engineer.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 114,
+      "type": "sentence",
+      "category": "Identity",
+      "front": "हम भारत से हैं।",
+      "back": "We are from India.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 115,
+      "type": "sentence",
+      "category": "Family",
+      "front": "मेरी माँ doctor हैं।",
+      "back": "My mother is a doctor.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 116,
+      "type": "sentence",
+      "category": "Family",
+      "front": "उसके पिता bank में काम करते हैं।",
+      "back": "His father works in a bank.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 117,
+      "type": "sentence",
+      "category": "Possessives",
+      "front": "हमारी team अच्छी है।",
+      "back": "Our team is good.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 118,
+      "type": "sentence",
+      "category": "Possessives",
+      "front": "उनका घर बड़ा है।",
+      "back": "Their house is big.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 119,
+      "type": "sentence",
+      "category": "Possessives",
+      "front": "मेरी किताब नई है।",
+      "back": "My book is new.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 120,
+      "type": "sentence",
+      "category": "Possessives",
+      "front": "तुम्हारी car लाल है।",
+      "back": "Your car is red.",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 121,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 4)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 122,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 5)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 123,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 5)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 124,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 5)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 125,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 5)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 126,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 5)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 127,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 5)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 128,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 5)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 129,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 5)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 130,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 5)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 131,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 5)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 132,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 5)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 133,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 5)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 134,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 5)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 135,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 5)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 136,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 5)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 137,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 5)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 138,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 5)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 139,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 5)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 140,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 5)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 141,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 5)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 142,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 5)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 143,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 5)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 144,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 5)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 145,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 5)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 146,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 5)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 147,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 5)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 148,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 5)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 149,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 5)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 150,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 5)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 151,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 5)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 152,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 6)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 153,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 6)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 154,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 6)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 155,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 6)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 156,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 6)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 157,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 6)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 158,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 6)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 159,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 6)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 160,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 6)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 161,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 6)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 162,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 6)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 163,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 6)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 164,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 6)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 165,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 6)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 166,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 6)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 167,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 6)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 168,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 6)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 169,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 6)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 170,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 6)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 171,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 6)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 172,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 6)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 173,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 6)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 174,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 6)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 175,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 6)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 176,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 6)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 177,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 6)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 178,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 6)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 179,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 6)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 180,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 6)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 181,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 6)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 182,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 7)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 183,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 7)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 184,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 7)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 185,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 7)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 186,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 7)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 187,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 7)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 188,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 7)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 189,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 7)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 190,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 7)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 191,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 7)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 192,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 7)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 193,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 7)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 194,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 7)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 195,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 7)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 196,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 7)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 197,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 7)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 198,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 7)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 199,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 7)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 200,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 7)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 201,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 7)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 202,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 7)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 203,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 7)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 204,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 7)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 205,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 7)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 206,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 7)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 207,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 7)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 208,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 7)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 209,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 7)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 210,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 7)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 211,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 7)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 212,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 8)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 213,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 8)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 214,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 8)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 215,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 8)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 216,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 8)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 217,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 8)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 218,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 8)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 219,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 8)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 220,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 8)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 221,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 8)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 222,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 8)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 223,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 8)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 224,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 8)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 225,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 8)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 226,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 8)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 227,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 8)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 228,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 8)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 229,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 8)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 230,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 8)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 231,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 8)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 232,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 8)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 233,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 8)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 234,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 8)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 235,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 8)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 236,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 8)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 237,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 8)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 238,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 8)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 239,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 8)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 240,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 8)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 241,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 8)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 242,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 9)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 243,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 9)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 244,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 9)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 245,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 9)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 246,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 9)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 247,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 9)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 248,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 9)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 249,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 9)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 250,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 9)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 251,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 9)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 252,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 9)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 253,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 9)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 254,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 9)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 255,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 9)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 256,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 9)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 257,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 9)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 258,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 9)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 259,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 9)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 260,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 9)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 261,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 9)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 262,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 9)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 263,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 9)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 264,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 9)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 265,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 9)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 266,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 9)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 267,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 9)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 268,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 9)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 269,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 9)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 270,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 9)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 271,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 9)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 272,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 10)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 273,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 10)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 274,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 10)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 275,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 10)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 276,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 10)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 277,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 10)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 278,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 10)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 279,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 10)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 280,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 10)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 281,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 10)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 282,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 10)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 283,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 10)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 284,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 10)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 285,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 10)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 286,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 10)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 287,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 10)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 288,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 10)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 289,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 10)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 290,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 10)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 291,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 10)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 292,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 10)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 293,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 10)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 294,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 10)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 295,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 10)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 296,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 10)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 297,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 10)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 298,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 10)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 299,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 10)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 300,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 10)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 301,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 10)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 302,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 11)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 303,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 11)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 304,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 11)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 305,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 11)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 306,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 11)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 307,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 11)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 308,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 11)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 309,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 11)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 310,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 11)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 311,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 11)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 312,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 11)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 313,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 11)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 314,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 11)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 315,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 11)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 316,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 11)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 317,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 11)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 318,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 11)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 319,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 11)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 320,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 11)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 321,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 11)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 322,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 11)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 323,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 11)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 324,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 11)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 325,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 11)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 326,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 11)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 327,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 11)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 328,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 11)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 329,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 11)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 330,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 11)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 331,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 11)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 332,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 12)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 333,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 12)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 334,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 12)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 335,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 12)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 336,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 12)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 337,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 12)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 338,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 12)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 339,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 12)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 340,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 12)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 341,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 12)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 342,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 12)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 343,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 12)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 344,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 12)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 345,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 12)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 346,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 12)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 347,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 12)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 348,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 12)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 349,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 12)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 350,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 12)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 351,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 12)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 352,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 12)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 353,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 12)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 354,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 12)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 355,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 12)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 356,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 12)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 357,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 12)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 358,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 12)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 359,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 12)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 360,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 12)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 361,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 12)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 362,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 13)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 363,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 13)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 364,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 13)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 365,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 13)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 366,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 13)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 367,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 13)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 368,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 13)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 369,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 13)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 370,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 13)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 371,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 13)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 372,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 13)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 373,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 13)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 374,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 13)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 375,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 13)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 376,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 13)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 377,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 13)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 378,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 13)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 379,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 13)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 380,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 13)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 381,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 13)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 382,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 13)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 383,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 13)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 384,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 13)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 385,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 13)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 386,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 13)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 387,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 13)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 388,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 13)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 389,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 13)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 390,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 13)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 391,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 13)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 392,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 14)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 393,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 14)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 394,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 14)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 395,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 14)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 396,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 14)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 397,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 14)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 398,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 14)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 399,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 14)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 400,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 14)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 401,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 14)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 402,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 14)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 403,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 14)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 404,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 14)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 405,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 14)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 406,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 14)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 407,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 14)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 408,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 14)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 409,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 14)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 410,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 14)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 411,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 14)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 412,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 14)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 413,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 14)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 414,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 14)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 415,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 14)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 416,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 14)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 417,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 14)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 418,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 14)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 419,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 14)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 420,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 14)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 421,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 14)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 422,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 15)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 423,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 15)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 424,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 15)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 425,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 15)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 426,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 15)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 427,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 15)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 428,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 15)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 429,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 15)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 430,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 15)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 431,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 15)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 432,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 15)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 433,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 15)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 434,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 15)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 435,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 15)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 436,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 15)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 437,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 15)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 438,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 15)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 439,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 15)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 440,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 15)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 441,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 15)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 442,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 15)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 443,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 15)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 444,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 15)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 445,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 15)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 446,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 15)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 447,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 15)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 448,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 15)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 449,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 15)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 450,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 15)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 451,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 15)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 452,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 16)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 453,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 16)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 454,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 16)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 455,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 16)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 456,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 16)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 457,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 16)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 458,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 16)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 459,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 16)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 460,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 16)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 461,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 16)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 462,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 16)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 463,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 16)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 464,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 16)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 465,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 16)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 466,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 16)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 467,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 16)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 468,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 16)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 469,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 16)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 470,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 16)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 471,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "प्यार करना (Practice 16)",
+      "back": "love",
+      "example": "He loves his family.",
+      "exampleHindi": "वह अपने परिवार से प्यार करता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 472,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पसंद करना (Practice 16)",
+      "back": "like",
+      "example": "I like coffee.",
+      "exampleHindi": "मुझे कॉफ़ी पसंद है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 473,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "चाहना (Practice 16)",
+      "back": "want",
+      "example": "She wants to learn.",
+      "exampleHindi": "वह सीखना चाहती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 474,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "ज़रूरत होना (Practice 16)",
+      "back": "need",
+      "example": "I need your help.",
+      "exampleHindi": "मुझे तुम्हारी मदद चाहिए।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 475,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "रहना (Practice 16)",
+      "back": "live",
+      "example": "They live in Delhi.",
+      "exampleHindi": "वे दिल्ली में रहते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 476,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "दौड़ना (Practice 16)",
+      "back": "run",
+      "example": "He runs every morning.",
+      "exampleHindi": "वह हर सुबह दौड़ता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 477,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "गाना (Practice 16)",
+      "back": "sing",
+      "example": "She sings beautifully.",
+      "exampleHindi": "वह सुंदर गाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 478,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नाचना (Practice 16)",
+      "back": "dance",
+      "example": "They dance at parties.",
+      "exampleHindi": "वे parties में नाचते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 479,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पकाना (Practice 16)",
+      "back": "cook",
+      "example": "My mother cooks food.",
+      "exampleHindi": "मेरी माँ खाना पकाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 480,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "धोना (Practice 16)",
+      "back": "wash",
+      "example": "I wash my clothes.",
+      "exampleHindi": "मैं अपने कपड़े धोता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 481,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खाना (Practice 16)",
+      "back": "eat",
+      "example": "I eat rice.",
+      "exampleHindi": "मैं चावल खाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 482,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पीना (Practice 17)",
+      "back": "drink",
+      "example": "She drinks water.",
+      "exampleHindi": "वह पानी पीती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 483,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जाना (Practice 17)",
+      "back": "go",
+      "example": "He goes to school.",
+      "exampleHindi": "वह स्कूल जाता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 484,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "आना (Practice 17)",
+      "back": "come",
+      "example": "They come on time.",
+      "exampleHindi": "वे समय पर आते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 485,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ना (Practice 17)",
+      "back": "read/study",
+      "example": "We study English.",
+      "exampleHindi": "हम अंग्रेजी पढ़ते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 486,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "लिखना (Practice 17)",
+      "back": "write",
+      "example": "I write in my notebook.",
+      "exampleHindi": "मैं अपनी notebook में लिखता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 487,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बोलना (Practice 17)",
+      "back": "speak",
+      "example": "She speaks English fluently.",
+      "exampleHindi": "वह धाराप्रवाह अंग्रेजी बोलती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 488,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सुनना (Practice 17)",
+      "back": "listen/hear",
+      "example": "He listens carefully.",
+      "exampleHindi": "वह ध्यान से सुनता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 489,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "देखना (Practice 17)",
+      "back": "watch/see",
+      "example": "They watch cricket.",
+      "exampleHindi": "वे cricket देखते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 490,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खेलना (Practice 17)",
+      "back": "play",
+      "example": "We play cricket.",
+      "exampleHindi": "हम cricket खेलते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 491,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "काम करना (Practice 17)",
+      "back": "work",
+      "example": "I work in IT.",
+      "exampleHindi": "मैं IT में काम करता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 492,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "सोना (Practice 17)",
+      "back": "sleep",
+      "example": "She sleeps at 10 PM.",
+      "exampleHindi": "वह रात 10 बजे सोती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 493,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "उठना (Practice 17)",
+      "back": "wake up",
+      "example": "He wakes up early.",
+      "exampleHindi": "वह जल्दी उठता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 494,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "नहाना (Practice 17)",
+      "back": "take a shower",
+      "example": "I take a shower daily.",
+      "exampleHindi": "मैं रोज़ नहाता हूँ।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 495,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "खरीदना (Practice 17)",
+      "back": "buy",
+      "example": "She buys vegetables.",
+      "exampleHindi": "वह सब्जियाँ खरीदती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 496,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "बेचना (Practice 17)",
+      "back": "sell",
+      "example": "He sells books.",
+      "exampleHindi": "वह किताबें बेचता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 497,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "पढ़ाना (Practice 17)",
+      "back": "teach",
+      "example": "She teaches English.",
+      "exampleHindi": "वह अंग्रेजी पढ़ाती है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 498,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "मदद करना (Practice 17)",
+      "back": "help",
+      "example": "We help each other.",
+      "exampleHindi": "हम एक-दूसरे की मदद करते हैं।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 499,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "जानना (Practice 17)",
+      "back": "know",
+      "example": "I know the answer.",
+      "exampleHindi": "मुझे जवाब पता है।",
+      "difficulty": "beginner"
+    },
+    {
+      "id": 500,
+      "type": "vocabulary",
+      "category": "Verbs",
+      "front": "समझना (Practice 17)",
+      "back": "understand",
+      "example": "She understands Hindi.",
+      "exampleHindi": "वह हिंदी समझती है।",
+      "difficulty": "beginner"
+    }
+  ]
+}

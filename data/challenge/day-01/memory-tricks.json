@@ -1,0 +1,261 @@
+{
+  "day": 1,
+  "title": "Memory Tricks & Mnemonics — Basics of English",
+  "subtitle": "Smart shortcuts to never forget grammar rules",
+  "totalTricks": 30,
+  "description": "Ye memory tricks aapko grammar rules hamesha yaad rakhne mein madad karengi. Simple, fun, aur effective!",
+  "tricks": [
+    {
+      "id": 1,
+      "topic": "He/She/It + verb+s",
+      "trick": "3 लोग हैं जो 'S' माँगते हैं — He, She, It. याद रखो: HSI = He She It = Always add S!",
+      "example": "He eat❌ → He eats✅ | She go❌ → She goes✅",
+      "visual": "H-S-I → +S Always!",
+      "category": "Subject-Verb Agreement"
+    },
+    {
+      "id": 2,
+      "topic": "don't vs doesn't",
+      "trick": "Don't = D for 'Double' (I, You, We, They = 4 subjects). Doesn't = D for '3rd Person' (He, She, It = 3 subjects, special ones!)",
+      "example": "I don't eat. He doesn't eat. (NOT 'He don't eat')",
+      "visual": "I/You/We/They → don't | He/She/It → doesn't",
+      "category": "Negation"
+    },
+    {
+      "id": 3,
+      "topic": "a vs an",
+      "trick": "Kaan se suno! 'A' ya 'An' letter dekh kar nahi, SOUND dekh kar decide hota hai. Vowel SOUND = An. Consonant SOUND = A.",
+      "example": "An hour (h silent = vowel sound) | A university (yu = consonant sound)",
+      "visual": "SOUND pehle, spelling baad mein!",
+      "category": "Articles"
+    },
+    {
+      "id": 4,
+      "topic": "Do vs Does in questions",
+      "trick": "'Does' mein 'es' hai — yahi 'es' He/She/It ke liye verb mein bhi lagata tha! Ab question mein 'Does' ne le liya wo 'es' — isliye verb mein 's' nahi lagata! 'Do' has no 'es' → I/You/We/They",
+      "example": "Does he EAT? (not eats) | Does she WORK? (not works)",
+      "visual": "Does = He/She/It ka 's' le gaya!",
+      "category": "Questions"
+    },
+    {
+      "id": 5,
+      "topic": "SVO Word Order",
+      "trick": "English mein Hero, Heroine, Villain yaad rakho! Hero (Subject) → Action (Verb) → Villain (Object). Hero hamesha pehle action karta hai!",
+      "example": "I (Hero) eat (action) food (object). NOT 'Food I eat.'",
+      "visual": "Subject → Verb → Object (always!)",
+      "category": "Word Order"
+    },
+    {
+      "id": 6,
+      "topic": "Frequency Adverb Position",
+      "trick": "Always, Usually, Often, Sometimes, Rarely, Never — ye sab 'shy' hain — hamesha main verb se CHHUP ke (pehle) rehte hain! Lekin 'is/am/are' ke saath ye verb ke PEECHE chale jaate hain!",
+      "example": "I always EAT breakfast. (before eat) | She IS always happy. (after is)",
+      "visual": "Before main verb, After is/am/are",
+      "category": "Adverbs"
+    },
+    {
+      "id": 7,
+      "topic": "I vs Me",
+      "trick": "Subject = Performer = 'I'. Object = Receiver = 'Me'. Yaad karo: 'I' = main kaam karta hoon. 'Me' = mujh par kaam hota hai.",
+      "example": "I went to market. (main gaya) | She called me. (mujhe bulaya)",
+      "visual": "I = doing | Me = receiving",
+      "category": "Pronouns"
+    },
+    {
+      "id": 8,
+      "topic": "His/Her/Its vs He/She/It",
+      "trick": "'His/Her/Its' = 's' wala = belonging (kisi ka kuch). 'He/She/It' = action karne wala. Jab kuch 'ka/ki' ho to 'His/Her/Its' use karo!",
+      "example": "His book (uski kitaab) | He reads the book (woh kitaab padta hai)",
+      "visual": "'s' = something belongs",
+      "category": "Possessives"
+    },
+    {
+      "id": 9,
+      "topic": "the vs no article (General statements)",
+      "trick": "Kuch SABKE baare mein bol rahe ho? No 'the'! Kisi EK SPECIFIC cheez ke baare mein? 'The' lagao!",
+      "example": "Water is important. (sabka paani) | The water in this bottle is cold. (ye specific paani)",
+      "visual": "General = no 'the' | Specific = 'the'",
+      "category": "Articles"
+    },
+    {
+      "id": 10,
+      "topic": "Subject Pronoun Chart",
+      "trick": "I You He She It We They — 7 subjects. Yaad karo IYHS-IWT: 'Iyi Humari Sabka Irada Waqt Theek Karo!'",
+      "example": "I work. You work. He works. She works. It works. We work. They work.",
+      "visual": "1st person: I/We | 2nd person: You | 3rd person: He/She/It/They",
+      "category": "Pronouns"
+    },
+    {
+      "id": 11,
+      "topic": "'has' vs 'have'",
+      "trick": "'Has' mein 'S' hai — He/She/It ke liye. 'Have' = baaki sab ke liye (I/You/We/They). 'S' wale pronoun ko 'S' wala verb!",
+      "example": "I have. You have. He HAS. She HAS. It HAS. We have. They have.",
+      "visual": "He/She/It + HAS | Others + HAVE",
+      "category": "Subject-Verb Agreement"
+    },
+    {
+      "id": 12,
+      "topic": "WH Question word order",
+      "trick": "WH question mein ALWAYS: WH + Helper (do/does) + Subject + BASE verb. 'Helper' pahle, 'Subject' baad mein!",
+      "example": "What DO you eat? | Where DOES she live? | Why DO they study?",
+      "visual": "WH + DO/DOES + Subject + V1?",
+      "category": "Questions"
+    },
+    {
+      "id": 13,
+      "topic": "Stative verbs (no -ing form)",
+      "trick": "Kuch verbs 'hamesha present' hote hain — ye change nahi hote. KNOW LOVE LIKE WANT NEED HAVE (possession) UNDERSTAND BELIEVE — inhe kabhi 'ing' mat lagao!",
+      "example": "I know him. ✅ | I am knowing him. ❌",
+      "visual": "KNOW LOVE LIKE WANT NEED = No -ing!",
+      "category": "Verbs"
+    },
+    {
+      "id": 14,
+      "topic": "Since vs For",
+      "trick": "SINCE = specific starting point (ek jagah se). FOR = duration (kitne time ke liye). Time pe 'since', Duration pe 'for'!",
+      "example": "Since morning (ek jagah se — morning se). For 5 hours (duration — 5 ghante tak)",
+      "visual": "SINCE + point of time | FOR + duration",
+      "category": "Prepositions"
+    },
+    {
+      "id": 15,
+      "topic": "'been' in Present Perfect",
+      "trick": "I HAVE + BEEN = tu/main/hum ne kuch tha/the. He/She HAS + BEEN = woh kuch tha/thi. 'Been' hamesha 'have/has' ke saath!",
+      "example": "I have been here for an hour. | She has been sick since yesterday.",
+      "visual": "Have/Has + BEEN + ...",
+      "category": "Tense"
+    },
+    {
+      "id": 16,
+      "topic": "Plural nouns — regular vs irregular",
+      "trick": "Zyaadatar nouns mein 's' lagao. Lekin kuch cheating karte hain: Man→Men, Woman→Women, Child→Children, Mouse→Mice, Foot→Feet, Tooth→Teeth.",
+      "example": "1 man → 2 men | 1 child → 5 children | 1 tooth → many teeth",
+      "visual": "Regular: +s | Irregular: completely different!",
+      "category": "Nouns"
+    },
+    {
+      "id": 17,
+      "topic": "'at' vs 'on' vs 'in' for time",
+      "trick": "AT = exact time (AT 6 PM) | ON = day/date (ON Monday, ON 15th) | IN = month/year/season (IN January, IN 2024). Remember: A-O-I = Exact-Day-Long!",
+      "example": "At 9 AM | On Monday | In December | In 2024",
+      "visual": "AT=exact | ON=day | IN=long period",
+      "category": "Prepositions"
+    },
+    {
+      "id": 18,
+      "topic": "'at' vs 'on' vs 'in' for place",
+      "trick": "IN = kisi cheez ke ANDAR (in box, in room). ON = kisi cheez ke UPAR (on table, on wall). AT = kisi jagah KE PAAS ya specific location (at school, at the corner).",
+      "example": "in the box | on the table | at the school",
+      "visual": "IN=inside | ON=surface | AT=location",
+      "category": "Prepositions"
+    },
+    {
+      "id": 19,
+      "topic": "Countable vs Uncountable nouns",
+      "trick": "Gino to countable. Nahi gina ja sakta to uncountable. Water, sugar, rice, information, advice, money — ye gine nahi ja sakte = uncountable = no 'a/an', no plural 's'!",
+      "example": "a water❌ → water✅ | waters❌ → water✅ | an information❌ → information✅",
+      "visual": "Can you COUNT it? Yes=Countable | No=Uncountable",
+      "category": "Nouns"
+    },
+    {
+      "id": 20,
+      "topic": "Apostrophe: 's vs s'",
+      "trick": "Ram's book = RAM KI KITAAB (ek Ram ka). Rams' books = multiple Rams ki kitaabein. Singular noun + 's = possession. Plural noun + ' (no extra s) = plural possession.",
+      "example": "The boy's pen (ek ladke ki pen) | The boys' pen (sabhi ladkon ki pen)",
+      "visual": "ONE's | MANY' (without extra s)",
+      "category": "Grammar"
+    },
+    {
+      "id": 21,
+      "topic": "Question tags",
+      "trick": "Positive sentence → Negative tag. Negative sentence → Positive tag. It's like a see-saw! And hamesha same subject pronoun use karo.",
+      "example": "He is nice, ISN'T HE? | You don't work, DO YOU?",
+      "visual": "Positive → Negative tag | Negative → Positive tag",
+      "category": "Questions"
+    },
+    {
+      "id": 22,
+      "topic": "'Either' and 'Neither' — agreement",
+      "trick": "'Either...or' = ek ya doosra. 'Neither...nor' = na ek na doosra. Verb us subject ke saath agree karta hai jo verb ke PAAS hai!",
+      "example": "Either Ram or his friends ARE coming. | Neither the boys nor Ram IS here.",
+      "visual": "CLOSEST subject determines verb form",
+      "category": "Grammar"
+    },
+    {
+      "id": 23,
+      "topic": "'Some' vs 'Any'",
+      "trick": "SOME = positive sentences mein (I have some money). ANY = negative/question sentences mein (I don't have any money | Do you have any money?). Offering questions mein SOME (Would you like some tea?).",
+      "example": "I have some time. | I don't have any time. | Do you have any questions?",
+      "visual": "Some=positive | Any=negative/question",
+      "category": "Determiners"
+    },
+    {
+      "id": 24,
+      "topic": "Much vs Many vs A lot of",
+      "trick": "MANY + countable nouns (many books, many people). MUCH + uncountable nouns (much water, much time). A LOT OF works for both! In questions/negatives: much/many. In positive: a lot of (informal).",
+      "example": "Many students | Much time | A lot of work | I don't have much time.",
+      "visual": "MANY=count | MUCH=uncount | A LOT OF=both",
+      "category": "Quantifiers"
+    },
+    {
+      "id": 25,
+      "topic": "'Good' vs 'Well'",
+      "trick": "GOOD = adjective — noun ya subject describe karta hai (Good food, She is good). WELL = adverb — verb describe karta hai (She speaks well, He works well).",
+      "example": "She is a good singer. (adjective) | She sings well. (adverb)",
+      "visual": "Good=describing noun | Well=describing verb",
+      "category": "Adjectives/Adverbs"
+    },
+    {
+      "id": 26,
+      "topic": "Comparative adjectives",
+      "trick": "Short adjectives (1-2 syllables): add -er (taller, bigger, nicer). Long adjectives (3+ syllables): more + adj (more beautiful, more interesting). NEVER 'more taller'!",
+      "example": "Tall → taller | Beautiful → more beautiful | Good → better (irregular!)",
+      "visual": "Short+er | Long=more+adj | Good/Bad/Far=irregular",
+      "category": "Adjectives"
+    },
+    {
+      "id": 27,
+      "topic": "'I am from' vs 'I belong to'",
+      "trick": "Both are correct! 'I am from Delhi' (informal, common). 'I belong to Delhi' (slightly more formal). Avoid: 'I am belonging to Delhi' (stative verb!)",
+      "example": "I am from Mumbai. | I belong to Rajasthan.",
+      "visual": "Both correct, no -ing form!",
+      "category": "Phrases"
+    },
+    {
+      "id": 28,
+      "topic": "'Used to' vs 'Use to'",
+      "trick": "USED TO = past habit (I USED TO play cricket = pehle khelta tha ab nahi). Question/Negative mein 'use to' (Did you USE TO play?). Never 'use to' in positive statements.",
+      "example": "I used to eat meat. (past habit) | Did you use to go there?",
+      "visual": "Positive=USED TO | Q/Neg=USE TO",
+      "category": "Tense"
+    },
+    {
+      "id": 29,
+      "topic": "'Would' for past habits",
+      "trick": "'Would' bhi past habits ke liye use hota hai (like 'used to') lekin only for ACTIONS, not states! 'I would eat' ✅ but 'I would be a child' ❌",
+      "example": "When I was young, I would play cricket every day. (habit) | NOT: I would be a student.",
+      "visual": "Would=past action habit | Used to=past action+state",
+      "category": "Modal Verbs"
+    },
+    {
+      "id": 30,
+      "topic": "Avoiding 'Hinglish' phrases",
+      "trick": "Hindi mein 'karke dekho' nahi translate karo English mein. Pura sentence English mein sochne ki koshish karo! Common trap: 'Do one thing' = Hinglish. Say 'Here is what you can do' instead.",
+      "example": "Do one thing ❌ → Here is an idea ✅ | Myself Ram ❌ → I am Ram ✅",
+      "visual": "Think in English, not translate from Hindi!",
+      "category": "Communication"
+    }
+  ],
+  "topTricks": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ]
+}

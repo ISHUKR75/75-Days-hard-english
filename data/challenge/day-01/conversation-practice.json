@@ -1,0 +1,631 @@
+{
+  "day": 1,
+  "title": "Conversation Practice — Basics of English",
+  "subtitle": "25 real-life conversation scenarios with prompts and model answers",
+  "totalScenarios": 25,
+  "description": "Har scenario mein Hindi cue hai aur model answers hain. Practice karo: pehle khud try karo, phir model answer dekho. Isse speaking confidence badhegi!",
+  "howToUse": [
+    "Hindi cue padho aur samjho ki kya bolna hai",
+    "Pehle apne aap se English mein bolne ki koshish karo",
+    "Prompts follow karo ek-ek karke",
+    "Phir model answers dekho aur compare karo",
+    "Partner ke saath role-play karo ya khud record karo"
+  ],
+  "tipOfTheDay": "Roz ek scenario practice karo — 25 din mein conversation confident ho jayega!",
+  "scenarios": [
+    {
+      "id": 1,
+      "scenario": "Self Introduction at a Party",
+      "level": "A1",
+      "cue": "Aap ek party mein hain. Koi naya aadmi aaya hai. Apna parichay do.",
+      "prompts": [
+        "Tell your name and where you are from",
+        "Tell what you do (job/student)",
+        "Tell one hobby"
+      ],
+      "modelAnswers": [
+        "Hello! My name is Rahul. I am from Lucknow.",
+        "I work as a software engineer at TCS in Noida.",
+        "I love playing cricket and reading books."
+      ],
+      "usefulPhrases": [
+        "My name is...",
+        "I am from...",
+        "I work as...",
+        "I study at...",
+        "I love / I like...",
+        "Nice to meet you!"
+      ],
+      "grammarFocus": "Simple Present Tense + I am / I work / I study"
+    },
+    {
+      "id": 2,
+      "scenario": "Ordering at a Coffee Shop",
+      "level": "A1",
+      "cue": "Aap ek coffee shop mein hain. Waiter se coffee order karna hai.",
+      "prompts": [
+        "Ask for the menu",
+        "Order a coffee (specify type)",
+        "Ask about the price"
+      ],
+      "modelAnswers": [
+        "Can I have the menu, please?",
+        "I would like a cappuccino, please. Medium size.",
+        "How much does it cost?"
+      ],
+      "usefulPhrases": [
+        "Can I have...?",
+        "I would like...",
+        "How much does... cost?",
+        "Do you have...?",
+        "What do you recommend?"
+      ],
+      "grammarFocus": "Do/Does questions + Would like (polite request)"
+    },
+    {
+      "id": 3,
+      "scenario": "Talking About Your Family",
+      "level": "A1",
+      "cue": "Ek doosrhe se apne parivaar ke baare mein batao.",
+      "prompts": [
+        "How many people are in your family?",
+        "Tell about your parents",
+        "Tell about siblings (brother/sister)"
+      ],
+      "modelAnswers": [
+        "There are four people in my family.",
+        "My father is a teacher and my mother is a homemaker.",
+        "I have one brother. He studies in Class 10."
+      ],
+      "usefulPhrases": [
+        "There are... people",
+        "My father/mother is a...",
+        "I have a brother/sister",
+        "He/She studies/works at..."
+      ],
+      "grammarFocus": "He/She + verb+s + My/His/Her possessives"
+    },
+    {
+      "id": 4,
+      "scenario": "Describing Your City",
+      "level": "A1",
+      "cue": "Apne shahar ke baare mein batao — kya khaas hai.",
+      "prompts": [
+        "Name your city and what it is famous for",
+        "Describe the weather",
+        "Tell one thing you like about it"
+      ],
+      "modelAnswers": [
+        "I live in Jaipur. It is famous for its pink buildings and forts.",
+        "The weather is hot in summer and cool in winter.",
+        "I love the street food here. The dal baati churma is delicious!"
+      ],
+      "usefulPhrases": [
+        "It is famous for...",
+        "The weather is...",
+        "I love / I like...",
+        "It has...",
+        "People here are..."
+      ],
+      "grammarFocus": "Simple Present for facts + adjectives"
+    },
+    {
+      "id": 5,
+      "scenario": "Your Daily Routine",
+      "level": "A1",
+      "cue": "Apni daily routine baatao — subah se raat tak.",
+      "prompts": [
+        "Morning routine (wake up, breakfast)",
+        "Work/Study routine",
+        "Evening/Night routine"
+      ],
+      "modelAnswers": [
+        "I wake up at 6 AM. I brush my teeth, take a shower, and eat breakfast.",
+        "I go to college from 9 to 4. I study English in the evening.",
+        "I eat dinner at 8 PM and sleep at 10:30 PM."
+      ],
+      "usefulPhrases": [
+        "I wake up at...",
+        "I eat... for breakfast",
+        "I go to... by...",
+        "I study / work from... to...",
+        "I sleep at..."
+      ],
+      "grammarFocus": "Simple Present for habits + Time expressions"
+    },
+    {
+      "id": 6,
+      "scenario": "Your Hobbies and Interests",
+      "level": "A1",
+      "cue": "Apne hobbies ke baare mein batao.",
+      "prompts": [
+        "Name your main hobby",
+        "Describe how often you do it",
+        "Say why you like it"
+      ],
+      "modelAnswers": [
+        "My main hobby is reading books. I love fiction and self-help books.",
+        "I read for about 30 minutes every night before sleeping.",
+        "I like reading because it improves my vocabulary and relaxes my mind."
+      ],
+      "usefulPhrases": [
+        "My hobby is...",
+        "I love / I like...",
+        "I do it every...",
+        "I practice... for... minutes",
+        "It helps me...",
+        "Because it..."
+      ],
+      "grammarFocus": "Simple Present + Frequency adverbs + Because clauses"
+    },
+    {
+      "id": 7,
+      "scenario": "Talking About Your Work/Studies",
+      "level": "A2",
+      "cue": "Apne kaam ya studies ke baare mein batao.",
+      "prompts": [
+        "What do you do?",
+        "Where do you work/study?",
+        "What do you like about your work/studies?"
+      ],
+      "modelAnswers": [
+        "I am a second-year BCA student.",
+        "I study at DU (Delhi University). I attend online and offline classes.",
+        "I like computer programming. I find it challenging and creative."
+      ],
+      "usefulPhrases": [
+        "I am a/an...",
+        "I study at / I work at...",
+        "I like... because...",
+        "My favorite part is...",
+        "I find it..."
+      ],
+      "grammarFocus": "I am + profession/student + I find + adjective"
+    },
+    {
+      "id": 8,
+      "scenario": "Asking for Help",
+      "level": "A1",
+      "cue": "Tumhe kisi se madad maangni hai — politely.",
+      "prompts": [
+        "Ask for help finding a place",
+        "Ask someone to repeat something",
+        "Thank someone for helping"
+      ],
+      "modelAnswers": [
+        "Excuse me, can you help me? I am looking for the nearest pharmacy.",
+        "Sorry, could you say that again, please? I don't understand.",
+        "Thank you so much! You are very helpful. I really appreciate it."
+      ],
+      "usefulPhrases": [
+        "Excuse me...",
+        "Can you help me?",
+        "I am looking for...",
+        "Could you say that again?",
+        "Thank you so much!",
+        "I appreciate it."
+      ],
+      "grammarFocus": "Can/Could for polite requests + I am looking for + I don't understand"
+    },
+    {
+      "id": 9,
+      "scenario": "Making Plans with a Friend",
+      "level": "A2",
+      "cue": "Dost ke saath weekend ke plan banana.",
+      "prompts": [
+        "Suggest what to do",
+        "Ask about their preference",
+        "Agree on a time and place"
+      ],
+      "modelAnswers": [
+        "Hey! Do you want to go to the movies this Saturday?",
+        "Which movie do you want to watch? I like action movies.",
+        "Let's meet at the mall at 4 PM. I'll book the tickets online."
+      ],
+      "usefulPhrases": [
+        "Do you want to...?",
+        "What do you prefer?",
+        "Let's...",
+        "How about...?",
+        "Shall we...?",
+        "I'll book / I'll call..."
+      ],
+      "grammarFocus": "Do you want to + V1 | Let's + V1 | Which + noun"
+    },
+    {
+      "id": 10,
+      "scenario": "Talking About Food Preferences",
+      "level": "A1",
+      "cue": "Apni food preferences ke baare mein batao.",
+      "prompts": [
+        "What do you like to eat?",
+        "What don't you eat?",
+        "What is your favorite restaurant?"
+      ],
+      "modelAnswers": [
+        "I love North Indian food — dal makhani, butter chicken, and naan.",
+        "I don't eat junk food much. I try to eat healthy.",
+        "My favorite restaurant is Bikanervala. It has delicious vegetarian food at good prices."
+      ],
+      "usefulPhrases": [
+        "I love / I like...",
+        "My favorite food is...",
+        "I don't eat...",
+        "I try to...",
+        "It has...",
+        "At good prices"
+      ],
+      "grammarFocus": "I love/like + noun | I don't eat + noun | It has + noun"
+    },
+    {
+      "id": 11,
+      "scenario": "Describing a Person",
+      "level": "A2",
+      "cue": "Apne best friend ya family member ko describe karo.",
+      "prompts": [
+        "Physical description",
+        "Personality",
+        "What they do (job/study)"
+      ],
+      "modelAnswers": [
+        "My best friend Aarav is tall and slim. He has short black hair and brown eyes.",
+        "He is very funny and kind. He always makes me laugh. He never gets angry.",
+        "He works as a graphic designer at a startup in Hyderabad."
+      ],
+      "usefulPhrases": [
+        "He/She is... (height, build)",
+        "He/She has... (hair, eyes)",
+        "He/She is very... (personality)",
+        "He/She always...",
+        "He/She works as / studies at..."
+      ],
+      "grammarFocus": "He/She + is/has + adjective | He/She + verb+s | He always/never + verb+s"
+    },
+    {
+      "id": 12,
+      "scenario": "Talking About Health and Exercise",
+      "level": "A2",
+      "cue": "Apni health aur exercise habits ke baare mein batao.",
+      "prompts": [
+        "What exercise do you do?",
+        "How often do you do it?",
+        "What do you eat to stay healthy?"
+      ],
+      "modelAnswers": [
+        "I go for a run every morning. I also do yoga three times a week.",
+        "I run for about 30 minutes. After running, I do stretching exercises.",
+        "I eat healthy food — vegetables, fruits, and protein. I avoid oily and fried food."
+      ],
+      "usefulPhrases": [
+        "I go for a run / walk",
+        "I do yoga / gym",
+        "Three times a week / every day",
+        "I eat...",
+        "I avoid...",
+        "I try to..."
+      ],
+      "grammarFocus": "Frequency expressions + I try to + V1 | Simple Present for habits"
+    },
+    {
+      "id": 13,
+      "scenario": "Shopping for Clothes",
+      "level": "A1",
+      "cue": "Clothes ki dukaan mein — koi shirt khareedni hai.",
+      "prompts": [
+        "Ask if they have what you want",
+        "Ask about size and price",
+        "Decide to buy or not"
+      ],
+      "modelAnswers": [
+        "Do you have formal shirts in white or blue?",
+        "I usually wear a medium size. How much does this one cost?",
+        "I like this one. It is good quality and the price is reasonable. I'll take it."
+      ],
+      "usefulPhrases": [
+        "Do you have...?",
+        "I wear size...",
+        "How much does it cost?",
+        "I'll take it.",
+        "It is too expensive.",
+        "Do you have a discount?"
+      ],
+      "grammarFocus": "Do you have + noun? | How much + does + it/this + cost?"
+    },
+    {
+      "id": 14,
+      "scenario": "At the Doctor",
+      "level": "A2",
+      "cue": "Doctor ke paas jaana hai — apni problem batao.",
+      "prompts": [
+        "Describe your symptoms",
+        "Tell how long you have had the problem",
+        "Ask what medicine to take"
+      ],
+      "modelAnswers": [
+        "Doctor, I have a fever, a sore throat, and a headache.",
+        "I have had this fever since yesterday morning. My throat hurts a lot.",
+        "What medicine do you recommend? Do I need to take antibiotics?"
+      ],
+      "usefulPhrases": [
+        "I have a...",
+        "I feel...",
+        "It hurts...",
+        "Since yesterday / for two days",
+        "What do you recommend?",
+        "Do I need...?"
+      ],
+      "grammarFocus": "I have + a/an + symptom | Since/For + duration | Simple Present for facts"
+    },
+    {
+      "id": 15,
+      "scenario": "Talking About Your Hometown",
+      "level": "A2",
+      "cue": "Apne hometown ke baare mein detail mein batao.",
+      "prompts": [
+        "Where is it? What is it known for?",
+        "Describe the people and culture",
+        "Compare it to where you live now"
+      ],
+      "modelAnswers": [
+        "My hometown is Varanasi. It is one of the oldest cities in the world. It is famous for the Ganga river, the ghats, and its temples.",
+        "The people are very traditional and religious. The culture is rich in music, dance, and festivals. The food is also amazing — especially the chaat and lassi.",
+        "I live in Delhi now. Delhi is bigger and more modern. But Varanasi has a unique spiritual atmosphere that Delhi doesn't have."
+      ],
+      "usefulPhrases": [
+        "It is known for / famous for...",
+        "The people are...",
+        "The culture is rich in...",
+        "Compared to...",
+        "It has a unique...",
+        "I miss..."
+      ],
+      "grammarFocus": "Simple Present for facts + Comparatives (bigger, more modern) + It has"
+    },
+    {
+      "id": 16,
+      "scenario": "Explaining a Problem",
+      "level": "A2",
+      "cue": "Kisi problem ko explain karna — clearly aur politely.",
+      "prompts": [
+        "Describe the problem clearly",
+        "Explain the impact",
+        "Ask for a solution"
+      ],
+      "modelAnswers": [
+        "I have a problem with my internet connection. It disconnects every few minutes.",
+        "This is very frustrating because I work from home. I attend online meetings and need a stable connection.",
+        "Can you please check the connection? Is there a technical issue in my area?"
+      ],
+      "usefulPhrases": [
+        "I have a problem with...",
+        "It doesn't work...",
+        "This is frustrating because...",
+        "Can you please...?",
+        "Is there a way to...?"
+      ],
+      "grammarFocus": "I have + a problem | Because + reason | Can you + V1?"
+    },
+    {
+      "id": 17,
+      "scenario": "Talking About Books/Movies",
+      "level": "A2",
+      "cue": "Apni favorite book ya movie ke baare mein batao.",
+      "prompts": [
+        "Name the book/movie and the genre",
+        "What is it about? (brief plot)",
+        "Why do you recommend it?"
+      ],
+      "modelAnswers": [
+        "My favorite book is 'The Alchemist' by Paulo Coelho. It is a fiction novel about following your dreams.",
+        "It is about a young shepherd who travels across the world to find treasure. But in the end, he discovers the real treasure is within himself.",
+        "I recommend it because it is inspiring and teaches you to follow your dreams. The language is simple and beautiful."
+      ],
+      "usefulPhrases": [
+        "My favorite book/movie is...",
+        "It is a... (genre)",
+        "It is about...",
+        "In the end...",
+        "I recommend it because...",
+        "The story teaches us..."
+      ],
+      "grammarFocus": "Simple Present for plot summaries + Because + reason"
+    },
+    {
+      "id": 18,
+      "scenario": "Your Future Plans",
+      "level": "A2",
+      "cue": "Apne future plans ke baare mein batao (use Simple Present for near future plans).",
+      "prompts": [
+        "What do you plan to do after college?",
+        "Where do you want to work?",
+        "What is your 5-year goal?"
+      ],
+      "modelAnswers": [
+        "After college, I plan to work in a tech company as a software developer.",
+        "I want to work at Google or Microsoft. I know it is competitive, but I work hard every day to improve my skills.",
+        "In 5 years, I want to be a senior developer and lead a team. I also want to complete my MBA."
+      ],
+      "usefulPhrases": [
+        "I plan to...",
+        "I want to...",
+        "After... I...",
+        "My goal is...",
+        "In X years...",
+        "I work on... every day to..."
+      ],
+      "grammarFocus": "I plan to/want to + V1 | Simple Present for ongoing habits that support future"
+    },
+    {
+      "id": 19,
+      "scenario": "Discussing Current Events (Simple)",
+      "level": "A2",
+      "cue": "Current events ke baare mein simple conversation.",
+      "prompts": [
+        "Name a current event you know",
+        "Share your opinion on it",
+        "Ask the other person's opinion"
+      ],
+      "modelAnswers": [
+        "India wins the cricket World Cup! It is a great achievement for the entire country.",
+        "I think it is wonderful. The players work so hard. They deserve this success. Cricket brings India together.",
+        "What do you think? Do you follow cricket?"
+      ],
+      "usefulPhrases": [
+        "I think...",
+        "In my opinion...",
+        "I believe...",
+        "It is great/wonderful/sad because...",
+        "What do you think?",
+        "Do you follow...?"
+      ],
+      "grammarFocus": "I think + sentence | Do you + V1? | Simple Present for opinions"
+    },
+    {
+      "id": 20,
+      "scenario": "Giving Directions",
+      "level": "A1",
+      "cue": "Kisi ko directions batao — apne ghar se nearest market tak.",
+      "prompts": [
+        "Tell them to go straight / turn",
+        "Mention a landmark",
+        "Tell them the distance/time"
+      ],
+      "modelAnswers": [
+        "Go straight on this road for about 200 meters.",
+        "When you see a big temple on your left, turn right. There is a McDonald's on the corner — you can't miss it.",
+        "The market is just 5 minutes walk from there. It is a blue building with a red sign."
+      ],
+      "usefulPhrases": [
+        "Go straight...",
+        "Turn left/right at...",
+        "You will see...",
+        "It is on your left/right",
+        "It takes about... minutes",
+        "You can't miss it."
+      ],
+      "grammarFocus": "Imperative sentences (Go, Turn, Walk) + Simple Present for landmarks"
+    },
+    {
+      "id": 21,
+      "scenario": "Apologizing and Making Amends",
+      "level": "A2",
+      "cue": "Kisi se galti ho gayi — apologize karna hai sincerely.",
+      "prompts": [
+        "Express the apology clearly",
+        "Explain what happened",
+        "Offer to make it right"
+      ],
+      "modelAnswers": [
+        "I am so sorry. I am really sorry for missing our meeting yesterday.",
+        "I had an urgent issue at home. I try to always be on time, but yesterday it was impossible.",
+        "I understand if you are upset. Can we reschedule? I make sure it doesn't happen again."
+      ],
+      "usefulPhrases": [
+        "I am so sorry...",
+        "I apologize for...",
+        "It was my fault.",
+        "I understand if...",
+        "Can we...?",
+        "I make sure..."
+      ],
+      "grammarFocus": "Simple Present for commitments + I understand if + clause"
+    },
+    {
+      "id": 22,
+      "scenario": "Talking About Technology",
+      "level": "A2",
+      "cue": "Technology ke baare mein apni thoughts share karo.",
+      "prompts": [
+        "What technology do you use daily?",
+        "How does it help you?",
+        "What is one downside?"
+      ],
+      "modelAnswers": [
+        "I use my smartphone every day for almost everything — communication, work, entertainment, and learning.",
+        "It helps me stay connected with family and friends. I also use apps to learn English and manage my time.",
+        "But one downside is that people spend too much time on social media. It distracts them from real work and relationships."
+      ],
+      "usefulPhrases": [
+        "I use... every day",
+        "It helps me...",
+        "One downside is...",
+        "People spend too much...",
+        "It distracts..."
+      ],
+      "grammarFocus": "Simple Present for habits + It helps me + V1 | One downside is + that clause"
+    },
+    {
+      "id": 23,
+      "scenario": "Talking About Indian Festivals",
+      "level": "A1",
+      "cue": "Apna favorite Indian festival describe karo.",
+      "prompts": [
+        "Name the festival",
+        "When does it happen and what is it about?",
+        "What do people do?"
+      ],
+      "modelAnswers": [
+        "My favorite festival is Diwali. It is the festival of lights.",
+        "It happens every year in October or November. It celebrates the return of Lord Rama to Ayodhya after 14 years of exile.",
+        "People clean their homes, buy new clothes, light diyas, burst crackers, and eat sweets. They also give gifts to family and friends."
+      ],
+      "usefulPhrases": [
+        "My favorite festival is...",
+        "It happens every...",
+        "It celebrates...",
+        "People... (verb)",
+        "We eat / wear / light..."
+      ],
+      "grammarFocus": "Simple Present for facts + People + V1 (plural no 's') + It happens"
+    },
+    {
+      "id": 24,
+      "scenario": "Discussing Education System",
+      "level": "A2",
+      "cue": "Indian education system ke baare mein thoughts share karo.",
+      "prompts": [
+        "What do you like about the Indian education system?",
+        "What needs to improve?",
+        "What changes do you suggest?"
+      ],
+      "modelAnswers": [
+        "India has very good engineering and medical colleges. IITs and AIIMS are world-class institutions. Many Indian students succeed globally.",
+        "But I think there is too much focus on marks and exams. Students memorize, but they don't always understand deeply. Creative thinking is sometimes ignored.",
+        "Schools need more practical learning. Teachers need to encourage questions and discussion. Students need to learn how to think, not just what to think."
+      ],
+      "usefulPhrases": [
+        "I think...",
+        "There is too much...",
+        "Students need...",
+        "Schools need to...",
+        "It would help if..."
+      ],
+      "grammarFocus": "I think + sentence | Too much + uncountable noun | Need to + V1"
+    },
+    {
+      "id": 25,
+      "scenario": "Workplace Conversation",
+      "level": "A2",
+      "cue": "Office mein kisi colleague se kaam ke baare mein baat karo.",
+      "prompts": [
+        "Ask about their current project",
+        "Offer help",
+        "Discuss deadline"
+      ],
+      "modelAnswers": [
+        "Hey Priya! What project do you work on currently?",
+        "I see you look busy. Do you need any help? I complete my tasks early today.",
+        "When is your deadline? I think we can finish this together if we divide the work."
+      ],
+      "usefulPhrases": [
+        "What project do you work on?",
+        "Do you need help?",
+        "I finish... early",
+        "When is the deadline?",
+        "We can... together",
+        "Let's divide the work"
+      ],
+      "grammarFocus": "Do you + V1? | Simple Present for current status | I think + we can"
+    }
+  ]
+}

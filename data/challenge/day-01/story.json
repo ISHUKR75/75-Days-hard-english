@@ -1,0 +1,307 @@
+{
+  "day": 1,
+  "title": "Stories — Basics of English",
+  "subtitle": "5 engaging short stories using Day 1 grammar patterns",
+  "totalStories": 5,
+  "totalWords": 1287,
+  "description": "Ye stories Simple Present Tense, SVO structure, articles, aur pronouns ka natural use dikhati hain. Padhne ke baad comprehension questions zaroor karo!",
+  "howToRead": [
+    "Pehle silently padho",
+    "Hindi translation check karo agar koi word nahi samajh aaya",
+    "Phir bina help ke dobara padho",
+    "Comprehension questions answer karo",
+    "Loud voice mein padhne ki koshish karo"
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "title": "Raju's First Day at Work",
+      "level": "A1",
+      "topic": "Daily Routine + Simple Present",
+      "hindi_title": "राजू का काम पर पहला दिन",
+      "vocabulary": [
+        "wake up",
+        "breakfast",
+        "metro",
+        "meeting",
+        "colleague",
+        "manager",
+        "report",
+        "deadline"
+      ],
+      "text": "Raju is a new software engineer. He works at TechCorp in Bangalore. Today is his first day at work.\n\nRaju wakes up at 6 AM. He brushes his teeth and takes a shower. He eats breakfast — two parathas and a glass of milk. He gets ready in his formal shirt and trousers.\n\nHe leaves home at 8 AM. He goes to office by metro. The metro is crowded, but Raju likes it. He reads an English newspaper during the journey. This is his daily habit.\n\nHe reaches office at 9 AM. The receptionist smiles and says, \"Good morning!\" Raju says, \"Good morning! I am Raju. Today is my first day.\"\n\nHis manager, Mr. Mehta, meets him. Mr. Mehta is friendly. He introduces Raju to the team. \"This is Raju. He joins us today as a software engineer,\" says Mr. Mehta.\n\nRaju meets his colleagues. They are helpful and kind. One colleague, Priya, shows him his desk. \"This is your desk. Your computer is already set up,\" she says.\n\nRaju works hard all day. He attends a team meeting at 11 AM. He listens carefully and takes notes. His manager speaks in English, so Raju pays attention.\n\nAt 1 PM, he eats lunch with his team. He eats dal rice and salad. During lunch, he talks to his colleagues. He learns their names and what they do.\n\nIn the afternoon, Raju completes a small task. His manager reviews it and says, \"Good work, Raju!\" Raju feels happy.\n\nAt 6 PM, Raju leaves office. He goes home by metro. He is tired but happy. He calls his mother and says, \"Maa, my first day goes very well!\"\n\nHis mother is happy. She says, \"I am proud of you, Raju!\"",
+      "hindi_text": "राजू एक नया software engineer है। वह Bangalore में TechCorp में काम करता है। आज उसका काम पर पहला दिन है।\n\nराजू सुबह 6 बजे उठता है। वह दाँत साफ करता है और नहाता है। वह नाश्ता खाता है — दो पराठे और एक गिलास दूध। वह formal shirt और trousers में तैयार होता है।\n\nवह सुबह 8 बजे घर से निकलता है। वह metro से office जाता है। Metro भीड़ से भरी है, लेकिन राजू को यह पसंद है। वह यात्रा के दौरान एक अंग्रेजी अखबार पढ़ता है। यह उसकी daily habit है।\n\nवह 9 बजे office पहुँचता है। Receptionist मुस्कुराती है और कहती है, \"Good morning!\" राजू कहता है, \"Good morning! मैं राजू हूँ। आज मेरा पहला दिन है।\"",
+      "comprehension": [
+        {
+          "q": "What time does Raju wake up?",
+          "a": "He wakes up at 6 AM.",
+          "type": "factual"
+        },
+        {
+          "q": "How does Raju go to office?",
+          "a": "He goes to office by metro.",
+          "type": "factual"
+        },
+        {
+          "q": "What does Raju do during the metro journey?",
+          "a": "He reads an English newspaper.",
+          "type": "factual"
+        },
+        {
+          "q": "What does Mr. Mehta say about Raju?",
+          "a": "He says 'He joins us today as a software engineer.'",
+          "type": "detail"
+        },
+        {
+          "q": "How does Raju feel at the end of the day?",
+          "a": "He feels tired but happy.",
+          "type": "inference"
+        },
+        {
+          "q": "What does Raju eat for lunch?",
+          "a": "He eats dal rice and salad.",
+          "type": "factual"
+        },
+        {
+          "q": "What does his manager say about his work?",
+          "a": "He says 'Good work, Raju!'",
+          "type": "factual"
+        }
+      ],
+      "grammarPoints": [
+        "Simple Present Tense throughout",
+        "He/She/It + verb+s (wakes, brushes, eats, goes, reaches)",
+        "Frequency adverb: daily (his daily habit)",
+        "Articles: a shower, a newspaper, the receptionist, the metro"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Meena Learns English",
+      "level": "A1",
+      "topic": "Learning + Motivation",
+      "hindi_title": "मीना अंग्रेजी सीखती है",
+      "vocabulary": [
+        "practice",
+        "confidence",
+        "mistake",
+        "correct",
+        "improve",
+        "dictionary",
+        "grammar",
+        "fluent"
+      ],
+      "text": "Meena lives in a small town in Rajasthan. She is 24 years old. She wants to become a bank manager. But she has a big problem — she doesn't speak English well.\n\nEvery day, Meena wakes up at 5 AM. She studies English for two hours before breakfast. She reads English books, listens to English songs, and watches English movies with subtitles.\n\nMeena has an English teacher, Mr. Joshi. He teaches her every evening. He is strict but kind. He always says, \"Practice makes perfect, Meena!\" She believes him.\n\nAt first, Meena feels afraid to speak English. She makes many mistakes. But Mr. Joshi encourages her. \"Every mistake teaches you something new,\" he says.\n\nOne day, Meena goes to a bank. A foreign customer is there. He doesn't understand Hindi. The bank staff looks confused. Meena steps forward.\n\n\"Excuse me, can I help you?\" she says to the customer. She speaks slowly but correctly. The customer smiles and says, \"Yes, please!\"\n\nMeena helps him complete his work. The bank manager watches everything. He is impressed. After the customer leaves, the manager says, \"Meena, your English is excellent! Do you want a job here?\"\n\nMeena can't believe it. Her hard work pays off. She says, \"Yes, I do! Thank you so much!\"\n\nNow Meena works as a customer service executive at the bank. She speaks English every day. She still makes mistakes sometimes, but she never gives up.\n\nShe always tells young people: \"Don't fear mistakes. Learn from them. Practice every day. Success comes to those who never stop!\"",
+      "hindi_text": "मीना राजस्थान के एक छोटे कस्बे में रहती है। वह 24 साल की है। वह bank manager बनना चाहती है। लेकिन उसे एक बड़ी समस्या है — वह अंग्रेजी अच्छी तरह नहीं बोलती।\n\nहर रोज़, मीना सुबह 5 बजे उठती है। वह नाश्ते से पहले दो घंटे अंग्रेजी पढ़ती है।",
+      "comprehension": [
+        {
+          "q": "Where does Meena live?",
+          "a": "She lives in a small town in Rajasthan.",
+          "type": "factual"
+        },
+        {
+          "q": "What does Meena want to become?",
+          "a": "She wants to become a bank manager.",
+          "type": "factual"
+        },
+        {
+          "q": "What time does she wake up?",
+          "a": "She wakes up at 5 AM.",
+          "type": "factual"
+        },
+        {
+          "q": "What does Mr. Joshi say about mistakes?",
+          "a": "He says 'Every mistake teaches you something new.'",
+          "type": "detail"
+        },
+        {
+          "q": "How does Meena feel about speaking English at first?",
+          "a": "She feels afraid.",
+          "type": "inference"
+        },
+        {
+          "q": "What job does the bank manager offer her?",
+          "a": "He offers her a job (customer service executive).",
+          "type": "detail"
+        },
+        {
+          "q": "What advice does Meena give to young people?",
+          "a": "Don't fear mistakes. Learn from them. Practice every day. Never stop.",
+          "type": "detail"
+        }
+      ],
+      "grammarPoints": [
+        "Simple Present throughout",
+        "Want to + V1 (wants to become)",
+        "Does/Doesn't for facts (doesn't speak)",
+        "Adverb of frequency: every day, still, sometimes, always, never"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "The Honest Shopkeeper",
+      "level": "A1",
+      "topic": "Values + Simple Present",
+      "hindi_title": "ईमानदार दुकानदार",
+      "vocabulary": [
+        "shopkeeper",
+        "honest",
+        "customer",
+        "change",
+        "expensive",
+        "trust",
+        "reputation",
+        "business"
+      ],
+      "text": "Ramesh is a fruit shopkeeper in Delhi. He sells fruits every day at his small shop near the metro station. He works from 7 AM to 9 PM — 14 hours every day.\n\nRamesh is famous in his area. But not because he sells the best fruits. He is famous because he is honest.\n\nMany shopkeepers cheat their customers. They give less weight. They sell old fruits at the price of fresh ones. But Ramesh never does this.\n\nEvery morning, Ramesh wakes up at 5 AM. He goes to the wholesale market to buy fresh fruits. He checks every fruit carefully. He only buys the best ones.\n\nWhen a customer comes, Ramesh weighs the fruits correctly. He never adds extra weight to the scale. He always gives the correct change.\n\nOne day, a customer gives Ramesh a 500-rupee note. He buys fruits worth 180 rupees. Ramesh gives him 320 rupees back. But later, Ramesh realizes the note is a 1000-rupee note, not 500.\n\nRamesh could keep the extra money. But he doesn't. He asks his assistant to watch the shop. He runs after the customer.\n\n\"Sir! Sir!\" Ramesh calls. The customer stops and turns around. Ramesh explains the mistake and gives him the extra 500 rupees.\n\nThe customer is surprised. \"Thank you! You are a very honest man,\" he says.\n\nWord spreads in the neighborhood. More and more customers come to Ramesh's shop. They trust him completely.\n\nNow Ramesh has three shops in Delhi. His business grows because of his honesty. He always says: \"Honesty is the best business plan.\"",
+      "hindi_text": "रमेश दिल्ली में एक फल बेचने वाला है। वह हर रोज़ metro station के पास अपनी छोटी दुकान पर फल बेचता है। वह सुबह 7 बजे से रात 9 बजे तक काम करता है।",
+      "comprehension": [
+        {
+          "q": "What does Ramesh sell?",
+          "a": "He sells fruits.",
+          "type": "factual"
+        },
+        {
+          "q": "Why is Ramesh famous?",
+          "a": "He is famous because he is honest.",
+          "type": "factual"
+        },
+        {
+          "q": "What time does Ramesh wake up?",
+          "a": "He wakes up at 5 AM.",
+          "type": "factual"
+        },
+        {
+          "q": "How much change should the customer receive?",
+          "a": "He should receive 820 rupees (1000-180=820, but Ramesh initially gives 320 — then gives 500 more).",
+          "type": "inference"
+        },
+        {
+          "q": "What does Ramesh say about honesty?",
+          "a": "He says 'Honesty is the best business plan.'",
+          "type": "detail"
+        },
+        {
+          "q": "How does Ramesh's business grow?",
+          "a": "More customers come because they trust him.",
+          "type": "inference"
+        }
+      ],
+      "grammarPoints": [
+        "Simple Present for daily habits",
+        "He/She/It + verb+s throughout",
+        "Adverbs: never, always, correctly",
+        "Frequency: every morning, every day"
+      ]
+    },
+    {
+      "id": 4,
+      "title": "A Day at the Farm",
+      "level": "A1",
+      "topic": "Nature + Routine",
+      "hindi_title": "खेत पर एक दिन",
+      "vocabulary": [
+        "farmer",
+        "crop",
+        "harvest",
+        "irrigation",
+        "season",
+        "market",
+        "seed",
+        "soil"
+      ],
+      "text": "Suresh is a farmer. He lives in a village in Uttar Pradesh with his family. He has 5 acres of land. He grows wheat, rice, and vegetables.\n\nSuresh starts his day very early. He wakes up at 4:30 AM. He prays for 30 minutes. Then he goes to his farm with his tools.\n\nThe farm is about 2 kilometers from his home. He walks there every morning. He likes the fresh air and the peaceful morning.\n\nOn the farm, Suresh checks his crops. He looks at the color of the leaves. He checks the soil. He knows by experience what his plants need.\n\nIn summer, the sun rises early. Suresh works from 5 AM to 9 AM before it gets too hot. Then he goes home, eats breakfast, and rests for 2 hours.\n\nIn the afternoon, he goes back to the farm. He waters the plants. He removes the weeds. He checks if any plants need extra care.\n\nHis wife, Savita, helps him sometimes. She brings lunch to the farm. She also helps during harvest season. Their two children help on weekends.\n\nSuresh sells his vegetables at the local market every Tuesday and Friday. He wakes up at 3 AM on those days. He loads the vegetables on his tractor and drives to the market.\n\nHe knows all the other farmers and traders there. They greet each other warmly. They discuss the weather, the crops, and the prices.\n\nSuresh earns enough to provide for his family. He educates his children well. He is proud of his work. He often says: \"A farmer feeds the nation. We do the most important job.\"",
+      "hindi_text": "सुरेश एक किसान है। वह अपने परिवार के साथ उत्तर प्रदेश के एक गाँव में रहता है। उसके पास 5 एकड़ ज़मीन है।",
+      "comprehension": [
+        {
+          "q": "What crops does Suresh grow?",
+          "a": "He grows wheat, rice, and vegetables.",
+          "type": "factual"
+        },
+        {
+          "q": "How far is the farm from his home?",
+          "a": "It is about 2 kilometers.",
+          "type": "factual"
+        },
+        {
+          "q": "What does Suresh do when it gets hot?",
+          "a": "He goes home, eats breakfast, and rests.",
+          "type": "factual"
+        },
+        {
+          "q": "When does Suresh go to the market?",
+          "a": "Every Tuesday and Friday.",
+          "type": "factual"
+        },
+        {
+          "q": "What does Suresh say about farmers?",
+          "a": "He says 'A farmer feeds the nation. We do the most important job.'",
+          "type": "detail"
+        }
+      ],
+      "grammarPoints": [
+        "Simple Present for routine",
+        "Frequency adverbs: sometimes, every, always",
+        "Time expressions: every morning, in summer, in the afternoon",
+        "He/She/It + verb+s consistently"
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Friends Forever",
+      "level": "A1",
+      "topic": "Friendship + Values",
+      "hindi_title": "हमेशा के दोस्त",
+      "vocabulary": [
+        "friendship",
+        "trust",
+        "support",
+        "memory",
+        "childhood",
+        "distance",
+        "contact",
+        "reunion"
+      ],
+      "text": "Arjun and Kiran are best friends. They know each other since school. They are now 28 years old. They live in different cities — Arjun lives in Mumbai and Kiran lives in Chennai.\n\nArjun works as a marketing manager at a big company. He is busy, but he always finds time for his best friend. Kiran is a doctor. She works long hours at a hospital.\n\nEvery Sunday, Arjun and Kiran video call each other. They talk for at least one hour. They share their week's stories, their problems, and their dreams.\n\nArjun speaks to Kiran in English because it is their \"friendship language\" — they decide this in school. \"Let's always speak in English,\" young Kiran says one day. \"It is good practice!\" Arjun agrees.\n\nThey both love cricket. They follow Indian cricket matches together on video call — even from different cities. They cheer for the same team. They get excited and shout together!\n\nOnce a year, they visit each other. This year, Arjun visits Chennai. Kiran takes leave from work. They go to Marina Beach, eat seafood, and visit temples.\n\nOn the last evening, they sit on the beach. The sun sets beautifully. Kiran says, \"You know what I like about our friendship? We never judge each other. We always support each other.\"\n\nArjun smiles and says, \"True friends don't need to live in the same city. They live in each other's heart.\"\n\nThey hug and say goodbye. But they know — they always stay connected. That is the power of true friendship.",
+      "hindi_text": "अर्जुन और किरण सबसे अच्छे दोस्त हैं। वे एक-दूसरे को स्कूल से जानते हैं। वे अब 28 साल के हैं। वे अलग-अलग शहरों में रहते हैं।",
+      "comprehension": [
+        {
+          "q": "Where does Arjun live?",
+          "a": "He lives in Mumbai.",
+          "type": "factual"
+        },
+        {
+          "q": "What is Kiran's profession?",
+          "a": "She is a doctor.",
+          "type": "factual"
+        },
+        {
+          "q": "When do they video call each other?",
+          "a": "Every Sunday.",
+          "type": "factual"
+        },
+        {
+          "q": "Why do they speak in English?",
+          "a": "It is their 'friendship language' — they decided this in school for practice.",
+          "type": "detail"
+        },
+        {
+          "q": "What does Kiran say she likes about their friendship?",
+          "a": "They never judge each other and always support each other.",
+          "type": "detail"
+        },
+        {
+          "q": "What does Arjun say about true friends?",
+          "a": "True friends don't need to live in the same city — they live in each other's heart.",
+          "type": "detail"
+        }
+      ],
+      "grammarPoints": [
+        "Simple Present throughout",
+        "Frequency: every Sunday, once a year, always, never",
+        "Works as + profession",
+        "They know each other (reciprocal pronoun)"
+      ]
+    }
+  ]
+}
