@@ -7,4 +7,6 @@
 - [Day page MCQ prompt fallback](day-page-mcq-prompt-fallback.md) — daily-test.json items have mixed formats: translate uses `hindi`, fill/error use `sentence` or `question`; always render `currentQ.hindi || currentQ.sentence || currentQ.question`.
 - [React Hooks before early returns](react-hooks-early-return.md) — useEffect/useState must be declared before any conditional return; put timer cleanup useEffect at top of component body, not after empty-data guard.
 - [Session-length percent selector](session-length-percent-selector.md) — never hardcode practice/test session size; use full bank + persisted 20/40/60/80/100% picker, clamped to that set.
+- [Challenge page URL format](challenge-url-format.md) — challenge day pages use numeric slugs: /75-days-challenge/1 (not /day-1); parseInt(params.day) on "day-1" gives NaN.
+- [Vocabulary JSON metadata sync](vocab-json-metadata.md) — after adding words to vocabulary.json, always update totalWords, categories array, and description fields in the same file to avoid display inconsistency.
 - [Unresolved merge conflict markers](unresolved-merge-conflict-markers.md) — imported project had literal git conflict markers causing 500s; grep for them early when content "seems missing".
