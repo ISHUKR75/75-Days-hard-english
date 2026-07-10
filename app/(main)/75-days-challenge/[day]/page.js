@@ -22,7 +22,8 @@ import {
   Search, Filter, Volume2, Eye, EyeOff,
   ChevronLeft, ChevronRight, BarChart3,
   AlertCircle, Lightbulb, Clock, Award,
-  MessageSquare, BookMarked, Layers, Hash
+  MessageSquare, BookMarked, Layers, Hash,
+  Flag, Sparkles
 } from 'lucide-react';
 import { cn } from '@/lib/utils';
 
@@ -169,6 +170,7 @@ function speakText(text, rate = 0.85) {
 // Each section covers a different skill area
 // ============================================================
 const LESSON_SECTIONS = [
+  { id: 'overview',   icon: Lightbulb,     label: 'Overview & Why It Matters', color: 'text-amber-400',  bg: 'bg-amber-500/10',  border: 'border-amber-500/30'   },
   { id: 'concept',    icon: BookOpen,      label: 'Concept & Theory',         color: 'text-indigo-400',  bg: 'bg-indigo-500/10',  border: 'border-indigo-500/30'  },
   { id: 'vocabulary', icon: FileText,      label: 'Vocabulary',               color: 'text-cyan-400',    bg: 'bg-cyan-500/10',    border: 'border-cyan-500/30'    },
   { id: 'practice',   icon: Target,        label: 'Interactive Practice',     color: 'text-emerald-400', bg: 'bg-emerald-500/10', border: 'border-emerald-500/30' },
@@ -176,8 +178,11 @@ const LESSON_SECTIONS = [
   { id: 'writing',    icon: PenTool,       label: 'Writing Drills',           color: 'text-rose-400',    bg: 'bg-rose-500/10',    border: 'border-rose-500/30'    },
   { id: 'listening',  icon: Headphones,    label: 'Listening Practice',       color: 'text-sky-400',     bg: 'bg-sky-500/10',     border: 'border-sky-500/30'     },
   { id: 'reading',    icon: BookOpenCheck, label: 'Reading Comprehension',    color: 'text-lime-400',    bg: 'bg-lime-500/10',    border: 'border-lime-500/30'    },
+  { id: 'studyPlan',  icon: Clock,         label: 'Daily Study Plan',         color: 'text-teal-400',    bg: 'bg-teal-500/10',    border: 'border-teal-500/30'    },
   { id: 'revision',   icon: RotateCcw,     label: 'Revision & Quick Quiz',    color: 'text-orange-400',  bg: 'bg-orange-500/10',  border: 'border-orange-500/30'  },
   { id: 'test',       icon: Brain,         label: 'Final Mock Test',          color: 'text-violet-400',  bg: 'bg-violet-500/10',  border: 'border-violet-500/30'  },
+  { id: 'milestones', icon: Award,         label: 'Milestones & Badges',      color: 'text-fuchsia-400', bg: 'bg-fuchsia-500/10', border: 'border-fuchsia-500/30' },
+  { id: 'challenge',  icon: Flag,          label: "Today's Challenge Task",   color: 'text-red-400',     bg: 'bg-red-500/10',     border: 'border-red-500/30'     },
 ];
 
 // ============================================================
@@ -431,6 +436,12 @@ export default function DayPage() {
                     className="overflow-hidden"
                   >
                     <div className="px-6 pb-8 border-t border-slate-800 pt-6">
+                      {id === 'overview' && (
+                        <OverviewSection
+                          overview={data?.overview}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
                       {id === 'concept' && (
                         <ConceptSection
                           topic={topic}
@@ -481,6 +492,12 @@ export default function DayPage() {
                           onComplete={() => markSectionDone(id)}
                         />
                       )}
+                      {id === 'studyPlan' && (
+                        <StudyPlanSection
+                          morningRoutine={data?.morningRoutine}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
                       {id === 'revision' && (
                         <RevisionQuiz
                           revision={data?.revision}
@@ -492,6 +509,19 @@ export default function DayPage() {
                         <MockTestMCQ
                           dayNum={dayNum}
                           mockTest={data?.mockTest || []}
+                          playSound={playSound}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'milestones' && (
+                        <MilestonesSection
+                          milestones={data?.milestones}
+                          onComplete={() => markSectionDone(id)}
+                        />
+                      )}
+                      {id === 'challenge' && (
+                        <ChallengeTaskSection
+                          challenge={data?.challenge}
                           playSound={playSound}
                           onComplete={() => markSectionDone(id)}
                         />
