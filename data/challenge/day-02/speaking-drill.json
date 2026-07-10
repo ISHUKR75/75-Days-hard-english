@@ -1,58 +1,1193 @@
 {
   "day": 2,
-  "title": "Day 2 Speaking Drill — Self Introduction",
-  "instructions": "हर sentence को ज़ोर से बोलें, अगर हो सके तो record करें। Stress marks पर ध्यान दें।",
+  "topic": "Self Introduction",
+  "title": "Complete Speaking Drill System — Self Introduction (20 Drills)",
+  "totalDrills": 20,
+  "instructions": "हर drill को कम से कम 3 बार ज़ोर से बोलें। Record करें, सुनें, और improve करें।",
   "drills": [
     {
       "id": 1,
-      "type": "repeat",
-      "title": "Basic Name & Origin — Repeat Aloud",
+      "type": "basic-repeat",
+      "title": "Drill 1: Basic Name Introduction — 5 Ways",
+      "level": "Beginner",
+      "objective": "Master 5 ways to introduce your name",
       "sentences": [
-        { "english": "My name is Rohan Sharma.", "hindi": "मेरा नाम रोहन शर्मा है।", "pronunciation": "My NAME is RO-han SHAR-ma." },
-        { "english": "I am from Delhi.", "hindi": "मैं दिल्ली से हूँ।", "pronunciation": "I am from DEL-hi." },
-        { "english": "I belong to Lucknow.", "hindi": "मैं लखनऊ से हूँ।", "pronunciation": "I be-LONG to LUCK-now." },
-        { "english": "I currently live in Bangalore.", "hindi": "मैं अभी बेंगलुरु में रहता हूँ।", "pronunciation": "I CUR-rent-ly LIVE in BAN-ga-lore." },
-        { "english": "People call me Vicky.", "hindi": "लोग मुझे विक्की बुलाते हैं।", "pronunciation": "PEO-ple CALL me VIC-ky." }
-      ]
+        {
+          "english": "My name is Rohan Sharma.",
+          "hindi": "मेरा नाम रोहन शर्मा है।",
+          "pronunciation": "My NAME is RO-han SHAR-ma.",
+          "stress": [
+            "NAME",
+            "RO",
+            "SHAR"
+          ]
+        },
+        {
+          "english": "I am Priya.",
+          "hindi": "मैं प्रिया हूँ।",
+          "pronunciation": "I AM Pri-ya.",
+          "stress": [
+            "AM",
+            "PRI"
+          ]
+        },
+        {
+          "english": "I'm Vikram, nice to meet you.",
+          "hindi": "मैं विक्रम हूँ, आपसे मिलकर खुशी हुई।",
+          "pronunciation": "I'm VIK-ram, NICE to MEET you.",
+          "stress": [
+            "VIK",
+            "NICE",
+            "MEET"
+          ]
+        },
+        {
+          "english": "You can call me Raj.",
+          "hindi": "आप मुझे राज बुला सकते हैं।",
+          "pronunciation": "You can CALL me RAJ.",
+          "stress": [
+            "CALL",
+            "RAJ"
+          ]
+        },
+        {
+          "english": "People know me as Dev.",
+          "hindi": "लोग मुझे देव के नाम से जानते हैं।",
+          "pronunciation": "PEO-ple KNOW me as DEV.",
+          "stress": [
+            "PEO",
+            "KNOW",
+            "DEV"
+          ]
+        }
+      ],
+      "tip": "Always say your name with confidence and slightly louder than the rest of the sentence."
     },
     {
       "id": 2,
-      "type": "profession",
-      "title": "Profession — Speak Naturally",
+      "type": "origin-drill",
+      "title": "Drill 2: Origin and Location — 8 Ways",
+      "level": "Beginner",
+      "objective": "Master expressing where you are from",
       "sentences": [
-        { "english": "I work as a software engineer.", "hindi": "मैं software engineer के रूप में काम करता हूँ।", "pronunciation": "I WORK as a SOFT-ware en-gi-NEER." },
-        { "english": "I am a teacher by profession.", "hindi": "मैं profession से teacher हूँ।", "pronunciation": "I am a TEA-cher by pro-FESS-ion." },
-        { "english": "I run my own business.", "hindi": "मैं अपना business चलाता हूँ।", "pronunciation": "I RUN my OWN BUS-i-ness." },
-        { "english": "I am a final year student.", "hindi": "मैं final year का student हूँ।", "pronunciation": "I am a FI-nal YEAR STU-dent." }
-      ]
+        {
+          "english": "I am from Delhi.",
+          "hindi": "मैं दिल्ली से हूँ।",
+          "pronunciation": "I am FROM DEL-hi.",
+          "stress": [
+            "FROM",
+            "DEL"
+          ]
+        },
+        {
+          "english": "I belong to Lucknow.",
+          "hindi": "मैं लखनऊ से संबंधित हूँ।",
+          "pronunciation": "I be-LONG to LUCK-now.",
+          "stress": [
+            "LONG",
+            "LUCK"
+          ]
+        },
+        {
+          "english": "I come from a small town in UP.",
+          "hindi": "मैं UP के एक छोटे से शहर से आता हूँ।",
+          "pronunciation": "I COME from a SMALL TOWN in U.P.",
+          "stress": [
+            "COME",
+            "SMALL",
+            "TOWN"
+          ]
+        },
+        {
+          "english": "I hail from Jaipur, Rajasthan.",
+          "hindi": "मैं राजस्थान के जयपुर से हूँ।",
+          "pronunciation": "I HAIL from JAI-pur, Ra-JAS-than.",
+          "stress": [
+            "HAIL",
+            "JAI",
+            "JAS"
+          ]
+        },
+        {
+          "english": "I was born in Mumbai but raised in Pune.",
+          "hindi": "मेरा जन्म मुंबई में हुआ पर मैं पुणे में बड़ा हुआ।",
+          "pronunciation": "I was BORN in MUM-bai but RAISED in PU-ne.",
+          "stress": [
+            "BORN",
+            "MUM",
+            "RAISED",
+            "PU"
+          ]
+        },
+        {
+          "english": "My hometown is Varanasi.",
+          "hindi": "मेरा गृहनगर वाराणसी है।",
+          "pronunciation": "My HOME-town is Va-RA-na-si.",
+          "stress": [
+            "HOME",
+            "RA"
+          ]
+        },
+        {
+          "english": "I currently live in Bangalore.",
+          "hindi": "मैं अभी बेंगलुरु में रहता हूँ।",
+          "pronunciation": "I CUR-rent-ly LIVE in BAN-ga-lore.",
+          "stress": [
+            "CUR",
+            "LIVE",
+            "BAN"
+          ]
+        },
+        {
+          "english": "I am originally from Chennai but based in Hyderabad.",
+          "hindi": "मैं मूल रूप से चेन्नई से हूँ पर हैदराबाद में रहता हूँ।",
+          "pronunciation": "I am o-RIG-i-nal-ly from CHEN-nai but BASED in HY-der-a-bad.",
+          "stress": [
+            "RIG",
+            "CHEN",
+            "BASED",
+            "HY"
+          ]
+        }
+      ],
+      "tip": "The word \"from\" should be slightly stressed to emphasize your origin."
     },
     {
       "id": 3,
-      "type": "family",
-      "title": "Family Introduction — Speak Naturally",
+      "type": "profession-drill",
+      "title": "Drill 3: Professional Introduction — 10 Ways",
+      "level": "Elementary",
+      "objective": "Master introducing your profession confidently",
       "sentences": [
-        { "english": "There are five people in my family.", "hindi": "मेरे परिवार में पाँच लोग हैं।", "pronunciation": "There ARE FIVE PEO-ple in my FAM-i-ly." },
-        { "english": "I have one elder brother and one younger sister.", "hindi": "मेरा एक बड़ा भाई और एक छोटी बहन है।", "pronunciation": "I have ONE EL-der BROTH-er and ONE YOUNG-er SIS-ter." },
-        { "english": "I come from a joint family.", "hindi": "मैं एक joint family से आता हूँ।", "pronunciation": "I COME from a JOINT FAM-i-ly." }
-      ]
+        {
+          "english": "I work as a software engineer at TCS.",
+          "hindi": "मैं TCS में software engineer के रूप में काम करता हूँ।",
+          "pronunciation": "I WORK as a SOFT-ware en-gi-NEER at TCS.",
+          "stress": [
+            "WORK",
+            "SOFT",
+            "NEER"
+          ]
+        },
+        {
+          "english": "I am a teacher by profession.",
+          "hindi": "मैं पेशे से teacher हूँ।",
+          "pronunciation": "I am a TEA-cher by pro-FESS-ion.",
+          "stress": [
+            "TEA",
+            "FESS"
+          ]
+        },
+        {
+          "english": "I am currently employed at an IT company.",
+          "hindi": "मैं अभी एक IT कंपनी में employed हूँ।",
+          "pronunciation": "I am CUR-rent-ly em-PLOYED at an I.T. COM-pa-ny.",
+          "stress": [
+            "CUR",
+            "PLOYED",
+            "COM"
+          ]
+        },
+        {
+          "english": "I manage a team of 15 people.",
+          "hindi": "मैं 15 लोगों की team manage करता हूँ।",
+          "pronunciation": "I ma-NAGE a TEAM of FIF-teen PEO-ple.",
+          "stress": [
+            "NAGE",
+            "TEAM",
+            "FIF",
+            "PEO"
+          ]
+        },
+        {
+          "english": "I run my own digital marketing agency.",
+          "hindi": "मैं अपनी digital marketing agency चलाता हूँ।",
+          "pronunciation": "I RUN my OWN di-gi-tal mar-KE-ting A-gen-cy.",
+          "stress": [
+            "RUN",
+            "OWN",
+            "KE",
+            "A"
+          ]
+        },
+        {
+          "english": "I specialize in financial consulting.",
+          "hindi": "मेरी विशेषज्ञता financial consulting में है।",
+          "pronunciation": "I spe-CIA-lize in fi-NAN-cial CON-sul-ting.",
+          "stress": [
+            "CIA",
+            "NAN",
+            "CON"
+          ]
+        },
+        {
+          "english": "I am a freelance graphic designer.",
+          "hindi": "मैं एक freelance graphic designer हूँ।",
+          "pronunciation": "I am a FREE-lance GRAPH-ic de-SIG-ner.",
+          "stress": [
+            "FREE",
+            "GRAPH",
+            "SIG"
+          ]
+        },
+        {
+          "english": "I am pursuing my career in healthcare.",
+          "hindi": "मैं healthcare में अपना career बना रहा हूँ।",
+          "pronunciation": "I am pur-SUE-ing my ca-REER in HEALTH-care.",
+          "stress": [
+            "SUE",
+            "REER",
+            "HEALTH"
+          ]
+        },
+        {
+          "english": "I have been working in sales for 4 years.",
+          "hindi": "मैं 4 साल से sales में काम कर रहा हूँ।",
+          "pronunciation": "I have been WOR-king in SALES for FOUR years.",
+          "stress": [
+            "WOR",
+            "SALES",
+            "FOUR"
+          ]
+        },
+        {
+          "english": "I am the head of the operations department.",
+          "hindi": "मैं operations department का head हूँ।",
+          "pronunciation": "I am the HEAD of the OP-er-a-tions de-PART-ment.",
+          "stress": [
+            "HEAD",
+            "OP",
+            "PART"
+          ]
+        }
+      ],
+      "tip": "Emphasize the job title and company name — these are the most important facts."
     },
     {
       "id": 4,
-      "type": "hobbies",
-      "title": "Hobbies — Speak Naturally",
+      "type": "education-drill",
+      "title": "Drill 4: Educational Background — 8 Sentences",
+      "level": "Elementary",
+      "objective": "Talk about your academic background clearly",
       "sentences": [
-        { "english": "I like reading books.", "hindi": "मुझे किताबें पढ़ना पसंद है।", "pronunciation": "I LIKE READ-ing BOOKS." },
-        { "english": "I love playing cricket.", "hindi": "मुझे cricket खेलना पसंद है।", "pronunciation": "I LOVE PLAY-ing CRIC-ket." },
-        { "english": "I am passionate about photography.", "hindi": "मुझे photography का शौक है।", "pronunciation": "I am PAS-sion-ate a-BOUT pho-TOG-ra-phy." }
-      ]
+        {
+          "english": "I am pursuing a Bachelor's degree in Computer Science.",
+          "hindi": "मैं Computer Science में Bachelor's degree कर रहा हूँ।",
+          "pronunciation": "I am pur-SUE-ing a BACH-e-lor's DE-gree in COM-pu-ter SCI-ence.",
+          "stress": [
+            "SUE",
+            "BACH",
+            "DE",
+            "COM",
+            "SCI"
+          ]
+        },
+        {
+          "english": "I graduated from Delhi University in 2022.",
+          "hindi": "मैंने 2022 में Delhi University से graduate किया।",
+          "pronunciation": "I GRAD-u-a-ted from DEL-hi U-ni-VER-si-ty in TWEN-ty TWEN-ty-two.",
+          "stress": [
+            "GRAD",
+            "DEL",
+            "VER",
+            "TWEN"
+          ]
+        },
+        {
+          "english": "I am a final year student of MBA.",
+          "hindi": "मैं MBA का final year student हूँ।",
+          "pronunciation": "I am a FI-nal YEAR STU-dent of M.B.A.",
+          "stress": [
+            "FI",
+            "YEAR",
+            "STU"
+          ]
+        },
+        {
+          "english": "I completed my schooling from Kendriya Vidyalaya.",
+          "hindi": "मैंने Kendriya Vidyalaya से अपनी schooling complete की।",
+          "pronunciation": "I com-PLE-ted my SCHOOL-ing from KEN-dri-ya VI-dya-la-ya.",
+          "stress": [
+            "PLE",
+            "SCHOOL",
+            "KEN",
+            "VI"
+          ]
+        },
+        {
+          "english": "I am a gold medalist in my engineering degree.",
+          "hindi": "मैं engineering degree में gold medalist हूँ।",
+          "pronunciation": "I am a GOLD ME-dal-ist in my en-gi-NEER-ing DE-gree.",
+          "stress": [
+            "GOLD",
+            "ME",
+            "NEER",
+            "DE"
+          ]
+        },
+        {
+          "english": "I am certified in Project Management from PMI.",
+          "hindi": "मैं PMI से Project Management में certified हूँ।",
+          "pronunciation": "I am CER-ti-fied in PRO-ject ma-NAGE-ment from P.M.I.",
+          "stress": [
+            "CER",
+            "PRO",
+            "NAGE"
+          ]
+        },
+        {
+          "english": "I completed an internship at Google last summer.",
+          "hindi": "मैंने पिछली गर्मियों में Google में internship complete की।",
+          "pronunciation": "I com-PLE-ted an IN-tern-ship at GOO-gle LAST SUM-mer.",
+          "stress": [
+            "PLE",
+            "IN",
+            "GOO",
+            "LAST",
+            "SUM"
+          ]
+        },
+        {
+          "english": "I hold a postgraduate degree in Economics.",
+          "hindi": "मेरे पास Economics में postgraduate degree है।",
+          "pronunciation": "I HOLD a POST-grad-u-ate DE-gree in e-co-NOM-ics.",
+          "stress": [
+            "HOLD",
+            "POST",
+            "DE",
+            "NOM"
+          ]
+        }
+      ],
+      "tip": "Speak academic credentials clearly and with pride. Emphasize the institution name."
     },
     {
       "id": 5,
-      "type": "full_intro",
-      "title": "Full 1-Minute Introduction — Practice Aloud",
+      "type": "hobbies-drill",
+      "title": "Drill 5: Hobbies and Interests — 10 Sentences",
+      "level": "Elementary",
+      "objective": "Express your hobbies naturally and enthusiastically",
       "sentences": [
-        { "english": "Good morning. My name is Rohan Sharma. I am from Delhi but currently live in Bangalore. I work as a software engineer and have been working in this field for two years. I come from a joint family of five members. In my free time, I enjoy reading books and playing cricket. I am passionate about learning new technologies. It's a pleasure to meet you.", "hindi": "नमस्ते। मेरा नाम रोहन शर्मा है। मैं दिल्ली से हूँ पर अभी बेंगलुरु में रहता हूँ। मैं एक software engineer हूँ और दो साल से इस field में काम कर रहा हूँ। मेरा एक joint family है जिसमें पाँच लोग हैं। खाली समय में मुझे किताबें पढ़ना और cricket खेलना पसंद है। मुझे नई technologies सीखने का शौक है। आपसे मिलकर खुशी हुई।", "pronunciation": "Practice slowly first, then at natural speed." }
+        {
+          "english": "In my free time, I love reading books.",
+          "hindi": "खाली समय में, मुझे किताबें पढ़ना बहुत पसंद है।",
+          "pronunciation": "In my FREE TIME, I LOVE REA-ding BOOKS.",
+          "stress": [
+            "FREE",
+            "TIME",
+            "LOVE",
+            "REA",
+            "BOOKS"
+          ]
+        },
+        {
+          "english": "I am passionate about photography.",
+          "hindi": "मैं photography के प्रति passionate हूँ।",
+          "pronunciation": "I am PASS-ion-ate a-BOUT pho-TOG-ra-phy.",
+          "stress": [
+            "PASS",
+            "BOUT",
+            "TOG"
+          ]
+        },
+        {
+          "english": "I enjoy playing cricket on weekends.",
+          "hindi": "मुझे weekends पर cricket खेलना अच्छा लगता है।",
+          "pronunciation": "I en-JOY PLAY-ing CRIC-ket on WEEK-ends.",
+          "stress": [
+            "JOY",
+            "PLAY",
+            "CRIC",
+            "WEEK"
+          ]
+        },
+        {
+          "english": "I am an avid traveler — I have visited 12 states.",
+          "hindi": "मैं एक avid traveler हूँ — मैंने 12 राज्य घूमे हैं।",
+          "pronunciation": "I am an A-vid TRA-vel-er — I have VI-si-ted TWELVE STATES.",
+          "stress": [
+            "A",
+            "TRA",
+            "VI",
+            "TWELVE",
+            "STATES"
+          ]
+        },
+        {
+          "english": "Music is my greatest passion.",
+          "hindi": "Music मेरा सबसे बड़ा जुनून है।",
+          "pronunciation": "MU-sic is my GREAT-est PASS-ion.",
+          "stress": [
+            "MU",
+            "GREAT",
+            "PASS"
+          ]
+        },
+        {
+          "english": "I practice yoga and meditation every morning.",
+          "hindi": "मैं हर सुबह yoga और meditation करता हूँ।",
+          "pronunciation": "I PRAC-tice YO-ga and med-i-TA-tion EV-ery MOR-ning.",
+          "stress": [
+            "PRAC",
+            "YO",
+            "TA",
+            "EV",
+            "MOR"
+          ]
+        },
+        {
+          "english": "I love cooking, especially South Indian dishes.",
+          "hindi": "मुझे cooking बहुत पसंद है, खासकर South Indian dishes।",
+          "pronunciation": "I LOVE COOK-ing, ES-pe-cial-ly SOUTH IN-dian DI-shes.",
+          "stress": [
+            "LOVE",
+            "COOK",
+            "ES",
+            "SOUTH",
+            "IN",
+            "DI"
+          ]
+        },
+        {
+          "english": "I write a technology blog in my spare time.",
+          "hindi": "मैं spare time में technology blog लिखता हूँ।",
+          "pronunciation": "I WRITE a tech-NOL-o-gy BLOG in my SPARE TIME.",
+          "stress": [
+            "WRITE",
+            "NOL",
+            "BLOG",
+            "SPARE",
+            "TIME"
+          ]
+        },
+        {
+          "english": "I volunteer at a local NGO on weekends.",
+          "hindi": "मैं weekends पर local NGO में volunteer करता हूँ।",
+          "pronunciation": "I VOL-un-teer at a LO-cal N.G.O. on WEEK-ends.",
+          "stress": [
+            "VOL",
+            "LO",
+            "WEEK"
+          ]
+        },
+        {
+          "english": "I am currently learning Spanish online.",
+          "hindi": "मैं अभी online Spanish सीख रहा हूँ।",
+          "pronunciation": "I am CUR-rent-ly LEAR-ning SPA-nish ON-line.",
+          "stress": [
+            "CUR",
+            "LEAR",
+            "SPA",
+            "ON"
+          ]
+        }
+      ],
+      "tip": "Say hobbies with enthusiasm — your tone should match your passion for the activity."
+    },
+    {
+      "id": 6,
+      "type": "goals-drill",
+      "title": "Drill 6: Goals and Ambitions — 10 Sentences",
+      "level": "Intermediate",
+      "objective": "Express your goals powerfully and clearly",
+      "sentences": [
+        {
+          "english": "My goal is to become a senior developer within two years.",
+          "hindi": "मेरा लक्ष्य दो साल में senior developer बनना है।",
+          "pronunciation": "My GOAL is to be-COME a SE-nior de-VE-lo-per with-IN TWO YEARS.",
+          "stress": [
+            "GOAL",
+            "COME",
+            "SE",
+            "VE",
+            "TWO",
+            "YEARS"
+          ]
+        },
+        {
+          "english": "I aspire to lead my own startup one day.",
+          "hindi": "मैं एक दिन अपना startup lead करने की आकांक्षा रखता हूँ।",
+          "pronunciation": "I as-PIRE to LEAD my OWN START-up ONE DAY.",
+          "stress": [
+            "PIRE",
+            "LEAD",
+            "OWN",
+            "START",
+            "ONE",
+            "DAY"
+          ]
+        },
+        {
+          "english": "I am looking forward to contributing to this organization.",
+          "hindi": "मैं इस organization में योगदान देने के लिए उत्साहित हूँ।",
+          "pronunciation": "I am LOOK-ing for-WARD to con-TRIB-u-ting to this or-GA-ni-ZA-tion.",
+          "stress": [
+            "LOOK",
+            "WARD",
+            "TRIB",
+            "GA",
+            "ZA"
+          ]
+        },
+        {
+          "english": "My short-term goal is to clear the IELTS exam.",
+          "hindi": "मेरा short-term goal IELTS exam clear करना है।",
+          "pronunciation": "My SHORT-term GOAL is to CLEAR the I-EL-TS EXAM.",
+          "stress": [
+            "SHORT",
+            "GOAL",
+            "CLEAR",
+            "EL",
+            "EXAM"
+          ]
+        },
+        {
+          "english": "In the next 5 years, I see myself in a leadership role.",
+          "hindi": "अगले 5 साल में मैं खुद को leadership role में देखता हूँ।",
+          "pronunciation": "In the NEXT FIVE YEARS, I SEE my-SELF in a LEAD-er-SHIP ROLE.",
+          "stress": [
+            "NEXT",
+            "FIVE",
+            "YEARS",
+            "SEE",
+            "LEAD",
+            "SHIP",
+            "ROLE"
+          ]
+        },
+        {
+          "english": "I want to make a meaningful impact in education technology.",
+          "hindi": "मैं education technology में meaningful impact बनाना चाहता हूँ।",
+          "pronunciation": "I WANT to make a MEAN-ing-ful IM-pact in ed-u-CA-tion TECH-no-lo-gy.",
+          "stress": [
+            "WANT",
+            "MEAN",
+            "IM",
+            "CA",
+            "TECH"
+          ]
+        },
+        {
+          "english": "I am committed to continuous learning and self-improvement.",
+          "hindi": "मैं continuous learning और self-improvement के प्रति committed हूँ।",
+          "pronunciation": "I am com-MIT-ted to CON-ti-nuous LEARN-ing and SELF-im-PROVE-ment.",
+          "stress": [
+            "MIT",
+            "CON",
+            "LEARN",
+            "SELF",
+            "PROVE"
+          ]
+        },
+        {
+          "english": "I plan to complete my MBA and enter the consulting field.",
+          "hindi": "मैं MBA complete करके consulting field में जाने का plan करता हूँ।",
+          "pronunciation": "I PLAN to com-PLETE my M.B.A. and EN-ter the con-SUL-ting FIELD.",
+          "stress": [
+            "PLAN",
+            "PLETE",
+            "EN",
+            "SUL",
+            "FIELD"
+          ]
+        },
+        {
+          "english": "I am passionate about creating solutions that help people.",
+          "hindi": "मैं ऐसे solutions बनाने के बारे में passionate हूँ जो लोगों की मदद करें।",
+          "pronunciation": "I am PASS-ion-ate a-BOUT cre-A-ting so-LU-tions that HELP PEO-ple.",
+          "stress": [
+            "PASS",
+            "BOUT",
+            "A",
+            "LU",
+            "HELP",
+            "PEO"
+          ]
+        },
+        {
+          "english": "I am excited about the opportunity to grow with this company.",
+          "hindi": "इस company के साथ grow करने के अवसर के बारे में मैं excited हूँ।",
+          "pronunciation": "I am ex-CI-ted a-BOUT the op-por-TU-ni-ty to GROW with this COM-pa-ny.",
+          "stress": [
+            "CI",
+            "BOUT",
+            "TU",
+            "GROW",
+            "COM"
+          ]
+        }
+      ],
+      "tip": "Say your goals with genuine enthusiasm — it shows motivation and ambition."
+    },
+    {
+      "id": 7,
+      "type": "interview-introduction",
+      "title": "Drill 7: Complete Interview Introduction — Step by Step",
+      "level": "Intermediate",
+      "objective": "Give a perfect 2-minute interview introduction",
+      "fullScript": {
+        "text": "Good morning! I am Rohan Sharma. I come from Jaipur, Rajasthan, though I currently live in Bangalore. I hold a Bachelor's degree in Computer Science from Rajasthan Technical University, where I graduated with distinction in 2020. After graduation, I joined Infosys as a Junior Developer, and over three years, I grew into a Senior Associate role where I led a team of 8 developers on cloud migration projects. I specialize in full-stack development with expertise in React, Node.js, and AWS. Outside of work, I am passionate about open-source contributions and technical blogging. My goal is to leverage my skills to build scalable, user-focused products in a dynamic organization like yours. Thank you for this opportunity.",
+        "hindi": "सुप्रभात! मैं रोहन शर्मा हूँ। मैं राजस्थान के जयपुर से हूँ, हालांकि मैं अभी बेंगलुरु में रहता हूँ। मेरे पास राजस्थान टेक्निकल यूनिवर्सिटी से Computer Science में Bachelor's degree है, जहाँ मैंने 2020 में distinction के साथ graduate किया। Graduation के बाद, मैं Infosys में Junior Developer के रूप में joined हुआ, और तीन साल में Senior Associate के रूप में बढ़ा जहाँ मैंने cloud migration projects पर 8 developers की team lead की। मेरी specialization full-stack development में है जिसमें React, Node.js और AWS की expertise है। काम के बाहर, मैं open-source contributions और technical blogging के बारे में passionate हूँ। मेरा लक्ष्य आपके जैसे dynamic organization में scalable, user-focused products बनाने के लिए अपने skills का उपयोग करना है। इस अवसर के लिए धन्यवाद।",
+        "duration": "90-120 seconds",
+        "tips": [
+          "Pause after your name for effect",
+          "Speak chronologically — past to present to future",
+          "Include specific numbers and achievements",
+          "End with enthusiasm"
+        ]
+      },
+      "practiceVariants": [
+        {
+          "context": "Fresh Graduate",
+          "script": "Good morning! I am Priya Mehta from Chennai. I recently completed my B.Tech in Information Technology from Anna University with 8.5 CGPA. During my studies, I interned at Zoho Corporation for 3 months, where I worked on their CRM product's UI improvements. I am proficient in Python, Java, and SQL. I am passionate about data science and have completed two Coursera certifications in machine learning. I am eager to begin my professional career and contribute to innovative projects. Thank you."
+        },
+        {
+          "context": "Career Change",
+          "script": "Hello! I'm Amit Patel. After 3 years in banking as a relationship manager, I have made a strategic transition into data analytics — because data is the language of modern business. I have completed certifications in Power BI, Tableau, and SQL. My banking background gives me a unique perspective on financial data analytics. I am excited to bring this combination of business acumen and technical skill to your data team."
+        }
       ]
+    },
+    {
+      "id": 8,
+      "type": "shadow-reading",
+      "title": "Drill 8: Shadow Reading — Repeat After Each Phrase",
+      "level": "Beginner",
+      "objective": "Improve pronunciation and rhythm through shadowing",
+      "instructions": "Read each phrase slowly, then at normal speed, then confidently.",
+      "phrases": [
+        "Good morning / everyone / my name is / Rohan Sharma",
+        "I am from / Jaipur / in Rajasthan",
+        "I work as / a software engineer / at TCS",
+        "I have / five years / of experience / in web development",
+        "I am passionate / about technology / and innovation",
+        "In my free time / I enjoy / reading books / and traveling",
+        "My goal / is to become / a tech lead / within two years",
+        "I am excited / about this opportunity / to join your team",
+        "Thank you / for listening / to my introduction",
+        "I look forward / to working with / all of you"
+      ]
+    },
+    {
+      "id": 9,
+      "type": "roleplay",
+      "title": "Drill 9: Roleplay — Introduction in 5 Different Situations",
+      "level": "Intermediate",
+      "objective": "Adapt your introduction to different real-life situations",
+      "situations": [
+        {
+          "situation": "First Day at a New Job",
+          "setting": "Company meeting room with new team",
+          "yourRole": "New employee",
+          "dialogue": "Good morning everyone! I'm Shreya Nair, the new Business Analyst. I've just joined from Deloitte where I spent 2 years in the financial advisory team. I'm really excited to be part of this innovative team. I'd love to connect with each of you — please don't hesitate to reach out. I'm looking forward to contributing and learning here!"
+        },
+        {
+          "situation": "Job Interview",
+          "setting": "HR interview at a tech company",
+          "yourRole": "Candidate",
+          "dialogue": "Good afternoon. I am Karan Verma. I hold a Master's in Data Science from IIT Bombay. I have 3 years of experience as a Data Scientist at Flipkart, where I developed recommendation systems that increased sales by 18%. My key strengths are machine learning, Python, and storytelling with data. I am eager to bring this expertise to your organization and drive data-led growth."
+        },
+        {
+          "situation": "Networking Event",
+          "setting": "Industry conference in Mumbai",
+          "yourRole": "Professional attendee",
+          "dialogue": "Hi! I'm Isha. I lead digital marketing at a fintech startup. We've grown from 0 to 50K users in 18 months through content and community marketing. I'm always excited to connect with like-minded professionals. What brings you here today?"
+        },
+        {
+          "situation": "Online Meeting — First Time",
+          "setting": "Zoom call with new project team",
+          "yourRole": "New team member",
+          "dialogue": "Hello everyone, can you hear me? Great! I'm Aryan from Bengaluru. I'm a DevOps engineer with expertise in Kubernetes and CI/CD pipelines. I've been working in the cloud infrastructure space for 4 years. Happy to be part of this team and excited to contribute. Looking forward to working with all of you!"
+        },
+        {
+          "situation": "College Event",
+          "setting": "Orientation day introduction",
+          "yourRole": "New student",
+          "dialogue": "Hello! I'm Divya from Nagpur. I've joined the MBA Marketing batch. I completed my graduation in Commerce from Mumbai University with 78%. I am passionate about brand building and consumer psychology. I also run a small lifestyle page on Instagram with 3,000 followers! I am excited to be here and looking forward to learning from all of you."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "type": "one-minute-challenge",
+      "title": "Drill 10: 60-Second Introduction Challenge",
+      "level": "Intermediate",
+      "objective": "Deliver a complete, confident introduction in exactly 60 seconds",
+      "template": [
+        {
+          "timeSlot": "0-10 seconds",
+          "content": "Greeting + Name",
+          "example": "Good morning! I'm Rahul Gupta."
+        },
+        {
+          "timeSlot": "10-25 seconds",
+          "content": "Origin + Current Location",
+          "example": "I'm originally from Patna, Bihar, but I've been living in Bengaluru for the past 4 years."
+        },
+        {
+          "timeSlot": "25-40 seconds",
+          "content": "Education + Experience",
+          "example": "I completed my B.Tech from NIT Patna and have 4 years of experience in full-stack development."
+        },
+        {
+          "timeSlot": "40-50 seconds",
+          "content": "Key Skill or Achievement",
+          "example": "I specialize in React and have led 3 major product launches."
+        },
+        {
+          "timeSlot": "50-60 seconds",
+          "content": "Goal + Closing",
+          "example": "I am excited about contributing to your innovative team. Thank you for having me!"
+        }
+      ],
+      "practice": "Time yourself with a stopwatch. Practice until you can consistently deliver in 55-65 seconds."
+    },
+    {
+      "id": 11,
+      "type": "confidence-builder",
+      "title": "Drill 11: Confidence-Building Power Phrases",
+      "level": "Beginner",
+      "objective": "Build confidence by repeating powerful, positive self-statements",
+      "phrases": [
+        {
+          "phrase": "I am confident and capable.",
+          "hindi": "मैं आत्मविश्वासी और सक्षम हूँ।",
+          "repeat": 5
+        },
+        {
+          "phrase": "I speak English with clarity and confidence.",
+          "hindi": "मैं स्पष्टता और आत्मविश्वास के साथ English बोलता हूँ।",
+          "repeat": 5
+        },
+        {
+          "phrase": "My introduction is powerful and memorable.",
+          "hindi": "मेरा परिचय powerful और यादगार है।",
+          "repeat": 5
+        },
+        {
+          "phrase": "I communicate my ideas clearly and effectively.",
+          "hindi": "मैं अपने विचारों को स्पष्ट और प्रभावी ढंग से communicate करता हूँ।",
+          "repeat": 5
+        },
+        {
+          "phrase": "I am well-prepared for this introduction.",
+          "hindi": "मैं इस परिचय के लिए अच्छी तरह से तैयार हूँ।",
+          "repeat": 5
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "type": "mistake-correction",
+      "title": "Drill 12: Mistake Correction Drill — Say the Right Way",
+      "level": "Intermediate",
+      "objective": "Identify and correct common errors instantly",
+      "exercises": [
+        {
+          "wrong": "Me name is Rohan.",
+          "correct": "My name is Rohan.",
+          "explanation": "Use \"My\" — possessive pronoun for name."
+        },
+        {
+          "wrong": "I am interest in coding.",
+          "correct": "I am interested in coding.",
+          "explanation": "Use \"interested\" — past participle as adjective."
+        },
+        {
+          "wrong": "I works at TCS.",
+          "correct": "I work at TCS.",
+          "explanation": "First person pronoun \"I\" does not take -s on the verb."
+        },
+        {
+          "wrong": "I am from at Delhi.",
+          "correct": "I am from Delhi.",
+          "explanation": "Never use two prepositions — just \"from\"."
+        },
+        {
+          "wrong": "I am a engineer.",
+          "correct": "I am an engineer.",
+          "explanation": "Before vowel sounds, use \"an\" not \"a\"."
+        },
+        {
+          "wrong": "I have 25 years old.",
+          "correct": "I am 25 years old.",
+          "explanation": "Use \"I am\" for age, not \"I have\"."
+        },
+        {
+          "wrong": "I love to playing cricket.",
+          "correct": "I love playing cricket.",
+          "explanation": "After \"love\", use -ing form, not \"to + -ing\"."
+        },
+        {
+          "wrong": "I done my MBA.",
+          "correct": "I have done my MBA.",
+          "explanation": "Use present perfect \"have done\" for completed education."
+        },
+        {
+          "wrong": "My hobby reading books.",
+          "correct": "My hobby is reading books.",
+          "explanation": "Do not forget the verb \"is\"."
+        },
+        {
+          "wrong": "I interest about data science.",
+          "correct": "I am interested in data science.",
+          "explanation": "\"Interested IN\" — correct preposition."
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "type": "accent-practice",
+      "title": "Drill 13: Accent and Pronunciation Practice",
+      "level": "Advanced",
+      "objective": "Improve clarity and reduce common Indian English pronunciation errors",
+      "exercises": [
+        {
+          "word": "Introduction",
+          "ipa": "/ˌɪntrəˈdʌkʃən/",
+          "common_error": "introDUCKtion",
+          "correct": "intro-DUC-tion",
+          "tip": "Stress on third syllable: intro-DUC-tion"
+        },
+        {
+          "word": "Professional",
+          "ipa": "/prəˈfeʃənl/",
+          "common_error": "pro-FESS-ional",
+          "correct": "pro-FESH-en-al",
+          "tip": "The \"tio\" sounds like \"sh\" in British English"
+        },
+        {
+          "word": "Experience",
+          "ipa": "/ɪkˈspɪəriəns/",
+          "common_error": "ex-PER-ience",
+          "correct": "ex-PEER-ience",
+          "tip": "The second syllable rhymes with \"peer\""
+        },
+        {
+          "word": "Qualification",
+          "ipa": "/ˌkwɒlɪfɪˈkeɪʃən/",
+          "common_error": "kwali-fi-CA-tion",
+          "correct": "kwali-fi-KAY-shen",
+          "tip": "The \"tion\" sounds like \"shen\""
+        },
+        {
+          "word": "Enthusiastic",
+          "ipa": "/ɪnˌθjuːziˈæstɪk/",
+          "common_error": "en-TOO-zee-as-tic",
+          "correct": "en-THYOO-zee-AS-tic",
+          "tip": "The \"th\" is not a \"t\" — put tongue between teeth"
+        },
+        {
+          "word": "Achievement",
+          "ipa": "/əˈtʃiːvmənt/",
+          "common_error": "a-CHIVE-ment",
+          "correct": "a-CHEEV-ment",
+          "tip": "\"ie\" sounds like \"ee\" — long vowel sound"
+        },
+        {
+          "word": "Communication",
+          "ipa": "/kəˌmjuːnɪˈkeɪʃən/",
+          "common_error": "commu-ni-CA-tion",
+          "correct": "ke-myoo-ni-KAY-shen",
+          "tip": "Never pronounce the \"t\" in \"tion\" as a hard \"t\""
+        },
+        {
+          "word": "Responsibility",
+          "ipa": "/rɪˌspɒnsɪˈbɪlɪti/",
+          "common_error": "re-spon-si-BIL-ity",
+          "correct": "re-spon-si-BIL-i-tee",
+          "tip": "Five syllables — re-SPON-si-BIL-i-ty"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "type": "speed-drill",
+      "title": "Drill 14: Speed Reading Practice",
+      "level": "Advanced",
+      "objective": "Build speaking speed and fluency without losing clarity",
+      "rounds": [
+        {
+          "round": 1,
+          "speed": "Very Slow (0.5x)",
+          "instruction": "Read each sentence very slowly, focusing on each word."
+        },
+        {
+          "round": 2,
+          "speed": "Slow (0.75x)",
+          "instruction": "Read at half normal speed with clear pronunciation."
+        },
+        {
+          "round": 3,
+          "speed": "Normal (1x)",
+          "instruction": "Read at normal speaking speed."
+        },
+        {
+          "round": 4,
+          "speed": "Fast (1.25x)",
+          "instruction": "Read slightly faster than normal."
+        },
+        {
+          "round": 5,
+          "speed": "Very Fast (1.5x)",
+          "instruction": "Read as fast as possible while staying clear."
+        }
+      ],
+      "sentences": [
+        "My name is Rohan and I am from Delhi.",
+        "I work as a software engineer with 5 years of experience.",
+        "My passion is technology and I love solving complex problems.",
+        "I graduated from IIT Delhi with a Computer Science degree.",
+        "In my free time I enjoy reading and photography."
+      ]
+    },
+    {
+      "id": 15,
+      "type": "formal-vs-informal",
+      "title": "Drill 15: Formal vs Informal — Same Information, Different Style",
+      "level": "Intermediate",
+      "objective": "Learn to switch between formal and informal language",
+      "comparisons": [
+        {
+          "aspect": "Greeting",
+          "formal": "Good morning! It is a pleasure to meet you.",
+          "informal": "Hey! Great to meet you!"
+        },
+        {
+          "aspect": "Name",
+          "formal": "My name is Rohan Sharma.",
+          "informal": "I'm Rohan."
+        },
+        {
+          "aspect": "Origin",
+          "formal": "I hail from Jaipur, Rajasthan.",
+          "informal": "I'm from Jaipur."
+        },
+        {
+          "aspect": "Profession",
+          "formal": "I am currently employed as a Software Engineer at TCS.",
+          "informal": "I work at TCS as a developer."
+        },
+        {
+          "aspect": "Education",
+          "formal": "I hold a Bachelor's degree in Computer Science from NIT Jaipur.",
+          "informal": "I did my B.Tech in CS."
+        },
+        {
+          "aspect": "Experience",
+          "formal": "I have 5 years of professional experience in full-stack development.",
+          "informal": "I've been coding for about 5 years."
+        },
+        {
+          "aspect": "Hobbies",
+          "formal": "In my leisure time, I pursue photography and literature.",
+          "informal": "I love photography and reading!"
+        },
+        {
+          "aspect": "Goal",
+          "formal": "My professional objective is to advance into a leadership role within the next 2 years.",
+          "informal": "I want to become a team lead soon."
+        },
+        {
+          "aspect": "Closing",
+          "formal": "Thank you for your time and attention.",
+          "informal": "Thanks for listening! Let's connect!"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "type": "connecting-words",
+      "title": "Drill 16: Using Connectors Naturally in Introduction",
+      "level": "Intermediate",
+      "objective": "Make your introduction flow smoothly using connecting words",
+      "connectors": [
+        {
+          "connector": "In addition to that",
+          "usage": "Adding more information",
+          "example": "In addition to my engineering degree, I also have a certification in data science."
+        },
+        {
+          "connector": "Furthermore",
+          "usage": "Adding another strong point",
+          "example": "Furthermore, I have led teams of up to 15 people."
+        },
+        {
+          "connector": "Not only that, but also",
+          "usage": "Emphasizing extra quality",
+          "example": "Not only am I experienced in Python, but I also have strong React skills."
+        },
+        {
+          "connector": "Apart from that",
+          "usage": "Mentioning something besides the main point",
+          "example": "Apart from my technical skills, I am a strong communicator."
+        },
+        {
+          "connector": "In terms of",
+          "usage": "Introducing a specific area",
+          "example": "In terms of education, I hold an MBA from IIM Calcutta."
+        },
+        {
+          "connector": "More importantly",
+          "usage": "Highlighting the most significant point",
+          "example": "More importantly, I am passionate about making a real impact."
+        },
+        {
+          "connector": "Moving on to",
+          "usage": "Transitioning to the next topic",
+          "example": "Moving on to my professional experience..."
+        },
+        {
+          "connector": "To sum up",
+          "usage": "Concluding the introduction",
+          "example": "To sum up, I am a dedicated, innovative professional ready to contribute."
+        }
+      ],
+      "practiceScript": "My name is Vikram Joshi. In terms of my education, I completed my Master's from IIT Delhi. Not only do I have strong technical skills, but I also have 4 years of industry experience. In addition to that, I have led cross-functional teams of 20 people. Apart from work, I am passionate about mentoring junior developers. More importantly, I am committed to continuous learning. To sum up, I am a results-driven professional who is excited about this opportunity."
+    },
+    {
+      "id": 17,
+      "type": "storytelling",
+      "title": "Drill 17: Tell Your Story — Not Just Facts",
+      "level": "Advanced",
+      "objective": "Make your introduction memorable through storytelling",
+      "structure": [
+        {
+          "step": 1,
+          "name": "The Hook",
+          "example": "\"Ever since I was 10 years old and wrote my first line of code, I knew technology was my destiny.\""
+        },
+        {
+          "step": 2,
+          "name": "The Journey",
+          "example": "\"That curiosity led me to study Computer Science, then to work at two startups, and finally to specialize in AI.\""
+        },
+        {
+          "step": 3,
+          "name": "The Achievement",
+          "example": "\"In my last role, I led a team that built an AI-powered recommendation engine that increased revenue by 25%.\""
+        },
+        {
+          "step": 4,
+          "name": "The Mission",
+          "example": "\"Today, I am here because I believe your company is where I can make my biggest impact yet.\""
+        }
+      ],
+      "examples": [
+        {
+          "profile": "Teacher",
+          "story": "\"I became a teacher because I had one teacher who changed my life with a single encouraging word. Today, I want to be that teacher for every student I meet. I have been teaching English for 8 years, and I've seen over 500 students go from hesitant speakers to confident communicators. That is what drives me every single day.\""
+        },
+        {
+          "profile": "Engineer",
+          "story": "\"My love for engineering started when I dismantled my first toy car at age 7 — just to see how it worked. That curiosity never left me. Today, as a mechanical engineer with 6 years of experience in automotive design, I get to apply that childhood wonder to real-world problems every day.\""
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "type": "linkedin-bio",
+      "title": "Drill 18: Write and Speak Your LinkedIn Summary",
+      "level": "Advanced",
+      "objective": "Create a professional LinkedIn-style self-introduction",
+      "template": "🚀 [Job Title] | [Industry] Professional | [Key Skill 1] • [Key Skill 2] • [Key Skill 3] \n\nWith [X] years of experience in [field], I specialize in [area of expertise]. I am passionate about [interest] and committed to [value/goal].\n\n✅ [Achievement 1] \n✅ [Achievement 2] \n✅ [Achievement 3]\n\n📩 Always open to [collaboration/opportunities/networking].",
+      "examples": [
+        "🚀 Full-Stack Developer | Tech Startup Professional | React • Node.js • AWS\n\nWith 4 years in tech startups, I specialize in building scalable web applications. Passionate about clean code and great UX.\n\n✅ Led team of 8 in migrating 3 apps to cloud\n✅ Reduced page load time by 60%\n✅ Open source contributor with 200+ GitHub stars\n\n📩 Open to exciting startup opportunities!"
+      ]
+    },
+    {
+      "id": 19,
+      "type": "question-answer",
+      "title": "Drill 19: Q&A After Introduction",
+      "level": "Intermediate",
+      "objective": "Prepare confident answers to follow-up questions",
+      "questions": [
+        {
+          "question": "Can you tell me more about yourself?",
+          "answer": "Certainly! Beyond what I mentioned, I am deeply passionate about continuous learning. I dedicate at least 30 minutes daily to reading industry articles and developing new skills. I believe in the philosophy of always being a student, regardless of experience level."
+        },
+        {
+          "question": "Why did you choose this career?",
+          "answer": "I chose technology because it is the fastest-evolving field, which means there is always something new to learn. I am someone who thrives on challenge and growth, and technology gives me exactly that every day."
+        },
+        {
+          "question": "Where do you see yourself in 5 years?",
+          "answer": "In 5 years, I see myself in a senior leadership role, ideally as a CTO or VP of Engineering. I want to have built a team, launched products, and made a measurable impact on the business."
+        },
+        {
+          "question": "What is your greatest strength?",
+          "answer": "My greatest strength is my ability to translate complex technical concepts into simple, actionable business solutions. This skill helps me bridge the gap between technical and non-technical stakeholders."
+        },
+        {
+          "question": "Why should we hire you?",
+          "answer": "You should hire me because I bring a rare combination of technical expertise, leadership experience, and genuine passion for this industry. I do not just fill a role — I elevate the team around me."
+        },
+        {
+          "question": "Tell me about a challenge you overcame.",
+          "answer": "In my last role, we had a critical system failure 2 days before a major launch. I organized an emergency response team, coordinated round-the-clock debugging sessions, and we launched successfully — 6 hours ahead of the revised deadline. It taught me that clear communication and calm leadership are the most powerful tools in a crisis."
+        },
+        {
+          "question": "What do you know about our company?",
+          "answer": "I have researched your company thoroughly. I know that you were founded in [year] and specialize in [field]. I am particularly impressed by your commitment to [specific initiative or value]. Your recent [achievement or product] demonstrates exactly the kind of innovation I want to be part of."
+        },
+        {
+          "question": "Do you have any questions for us?",
+          "answer": "Yes! I would love to know more about the biggest challenges your team is currently facing, and how you measure success in this role. Also, what does the growth path look like for someone in this position?"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "type": "final-performance",
+      "title": "Drill 20: Final Performance — Record and Evaluate",
+      "level": "All Levels",
+      "objective": "Give your best introduction and evaluate yourself",
+      "steps": [
+        "Set up your phone camera or webcam.",
+        "Stand or sit in a professional position.",
+        "Take three deep breaths.",
+        "Give your complete self-introduction (1-2 minutes).",
+        "Watch the recording and evaluate.",
+        "Practice again — improve one thing each time."
+      ],
+      "evaluationCriteria": [
+        {
+          "criterion": "Content",
+          "checkpoints": [
+            "Name and origin mentioned?",
+            "Education/profession covered?",
+            "Hobbies or interests mentioned?",
+            "Goals stated clearly?"
+          ]
+        },
+        {
+          "criterion": "Language",
+          "checkpoints": [
+            "Grammar correct?",
+            "Vocabulary appropriate?",
+            "Sentences complete?",
+            "Connectors used?"
+          ]
+        },
+        {
+          "criterion": "Delivery",
+          "checkpoints": [
+            "Clear pronunciation?",
+            "Good pace?",
+            "Confident tone?",
+            "Natural flow?"
+          ]
+        },
+        {
+          "criterion": "Body Language",
+          "checkpoints": [
+            "Eye contact maintained?",
+            "Good posture?",
+            "Natural gestures?",
+            "Confident smile?"
+          ]
+        }
+      ],
+      "scoring": "Rate each criterion out of 10. Total: 40. 35-40: Excellent | 28-34: Good | 20-27: Needs Practice | Below 20: Keep Practicing!"
     }
   ]
 }

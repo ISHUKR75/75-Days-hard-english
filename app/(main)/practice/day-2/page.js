@@ -14,14 +14,303 @@ import confetti from 'canvas-confetti';
 import { useGamificationStore } from '@/store/useGamificationStore';
 import { getQuestionsForDay } from '@/lib/practiceData';
 
+<<<<<<< HEAD
 // Day 2 Practice Questions (500+ Hindi questions for Self Introduction)
 // Real practice questions for Day 2 are sourced from lib/practiceData.js, which prefers
 // handcrafted/real per-day banks and tops up to 950+ with the generated content engine —
 // this keeps this static route's content identical to the dynamic /practice/[daySlug] route
 // instead of the small placeholder array (only 30 questions) that used to live here.
 const DAY_2_QUESTIONS = getQuestionsForDay(2);
+=======
+// Fallback Day 2 Practice Questions — used only if the API request below
+// (which serves the full 950-question bank generated in
+// data/challenge/day-02/practice-questions.json) fails for any reason, e.g.
+// offline mode. Kept small on purpose since the real content now lives in
+// the JSON data file and is fetched at runtime.
+const FALLBACK_DAY_2_QUESTIONS = [
+  // Self Introduction Basics
+  {
+    id: 'q1',
+    hindi: 'मेरा नाम राहुल है।',
+    english: 'My name is Rahul.',
+    alternatives: ['I am Rahul.'],
+    hint: 'Use "My name is" for formal introductions',
+    explanation: '"My name is" is the standard formal way to introduce yourself in English. It shows respect and professionalism.',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q2',
+    hindi: 'मैं दिल्ली से हूँ।',
+    english: 'I am from Delhi.',
+    alternatives: ['I come from Delhi.'],
+    hint: 'Use "I am from" for place of origin',
+    explanation: 'When introducing where you are from, use "I am from" followed by the city or country name.',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q3',
+    hindi: 'मैं एक छात्र हूँ।',
+    english: 'I am a student.',
+    alternatives: ['I\'m a student.'],
+    hint: 'Use "I am" with occupation',
+    explanation: 'For occupations, use "I am" + article + noun (a student, an engineer, a doctor).',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q4',
+    hindi: 'मेरी उम्र 22 साल है।',
+    english: 'I am 22 years old.',
+    alternatives: ['I\'m 22 years old.'],
+    hint: 'Age expression: "I am" + number + "years old"',
+    explanation: 'To state your age, use "I am" followed by the number and "years old".',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q5',
+    hindi: 'मैं एक सॉफ्टवेयर इंजीनियर हूँ।',
+    english: 'I am a software engineer.',
+    alternatives: ['I\'m a software engineer.'],
+    hint: 'Professional title introduction',
+    explanation: 'When introducing your profession, use "I am" + article + job title. This is professional and clear.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q6',
+    hindi: 'मेरे परिवार में 4 लोग हैं।',
+    english: 'There are 4 people in my family.',
+    alternatives: ['My family has 4 members.'],
+    hint: 'Family size: "There are" + number + "in my family"',
+    explanation: 'To talk about family size, use "There are" followed by the number and "people in my family".',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q7',
+    hindi: 'मुझे क्रिकेट खेलना पसंद है।',
+    english: 'I like playing cricket.',
+    alternatives: ['I love playing cricket.', 'I enjoy playing cricket.'],
+    hint: 'Hobbies: "I like/love/enjoy" + verb+ing',
+    explanation: 'For hobbies and interests, use "I like/love/enjoy" followed by the verb ending in "-ing".',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q8',
+    hindi: 'मेरी माँ गृहिणी हैं।',
+    english: 'My mother is a housewife.',
+    alternatives: ['My mom is a housewife.'],
+    hint: 'Family members: "My [relation] is a" + profession',
+    explanation: 'When describing family members\' professions, use "My [relation] is a" + job title.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q9',
+    hindi: 'मेरे पिता एक डॉक्टर हैं।',
+    english: 'My father is a doctor.',
+    alternatives: ['My dad is a doctor.'],
+    hint: 'Father\'s profession',
+    explanation: 'For father\'s profession, use "My father is a" + job title. This is respectful and formal.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q10',
+    hindi: 'मैं पिछले 2 साल से इंग्लिश सीख रहा हूँ।',
+    english: 'I have been learning English for 2 years.',
+    alternatives: ['I am learning English since 2 years.'],
+    hint: 'Duration of learning: "I have been" + verb+ing + "for"',
+    explanation: 'To express how long you\'ve been doing something, use present perfect continuous tense: "I have been" + verb+ing + "for" + time period.',
+    difficulty: 'hard'
+  },
+  {
+    id: 'q11',
+    hindi: 'आपसे मिलकर बहुत खुशी हुई।',
+    english: 'Nice to meet you.',
+    alternatives: ['Pleased to meet you.', 'It is nice to meet you.'],
+    hint: 'Common greeting phrase',
+    explanation: '"Nice to meet you" is the most common and appropriate phrase when meeting someone for the first time.',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q12',
+    hindi: 'मेरे दो भाई-बहन हैं।',
+    english: 'I have two siblings.',
+    alternatives: ['I have 2 siblings.', 'I have a brother and a sister.'],
+    hint: 'Siblings count: "I have" + number + "siblings"',
+    explanation: 'To state how many brothers and sisters you have, use "I have" + number + "siblings". This is natural and commonly used.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q13',
+    hindi: 'मैं मुंबई में रहता हूँ।',
+    english: 'I live in Mumbai.',
+    alternatives: ['I stay in Mumbai.'],
+    hint: 'Residence: "I live in" + city',
+    explanation: 'For where you currently reside, use "I live in" followed by the city name. "Live" is more natural than "stay" for permanent residence.',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q14',
+    hindi: 'मेरी रुचि संगीत में है।',
+    english: 'My hobby is music.',
+    alternatives: ['I am interested in music.', 'I love music.'],
+    hint: 'Hobby expression: "My hobby is" + noun',
+    explanation: 'To state your main hobby, use "My hobby is" followed by the noun. This is simple and direct.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q15',
+    hindi: 'मैं एक साल से इस कंपनी में काम कर रहा हूँ।',
+    english: 'I have been working in this company for one year.',
+    alternatives: ['I am working here for 1 year.'],
+    hint: 'Work duration: "I have been" + verb+ing + "for"',
+    explanation: 'To express how long you\'ve been employed somewhere, use present perfect continuous tense: "I have been" + verb+ing + "for" + time period.',
+    difficulty: 'hard'
+  },
+  {
+    id: 'q16',
+    hindi: 'क्या आप मुझे अपना परिचय दे सकते हैं?',
+    english: 'Can you introduce yourself?',
+    alternatives: ['Could you introduce yourself?', 'Would you please introduce yourself?'],
+    hint: 'Request for introduction: "Can you" + verb + "yourself?"',
+    explanation: 'When asking someone to introduce themselves, use "Can you" + verb + "yourself?" This is polite and common in interviews and meetings.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q17',
+    hindi: 'मैं एक बिज़नेस एनालिस्ट के रूप में काम करता हूँ।',
+    english: 'I work as a business analyst.',
+    alternatives: ['I am working as a business analyst.'],
+    hint: 'Job description: "I work as a" + job title',
+    explanation: 'To describe your role, use "I work as a" + job title. This emphasizes your function rather than just your title.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q18',
+    hindi: 'मेरा जन्म पटना में हुआ था।',
+    english: 'I was born in Patna.',
+    alternatives: ['I am born in Patna.'],
+    hint: 'Birthplace: "I was born in" + city',
+    explanation: 'For birthplace, use past tense "I was born in" because birth is a completed event in the past.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q19',
+    hindi: 'मुझे यात्रा करना पसंद है।',
+    english: 'I love travelling.',
+    alternatives: ['I like travelling.', 'I enjoy travelling.'],
+    hint: 'Travel interest: "I love/like/enjoy" + verb+ing',
+    explanation: 'To express strong interest in traveling, use "I love" + verb+ing. For milder interest, use "like" or "enjoy".',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q20',
+    hindi: 'मेरा लक्ष्य एक अच्छी नौकरी पाना है।',
+    english: 'My goal is to get a good job.',
+    alternatives: ['My aim is to get a good job.'],
+    hint: 'Goal expression: "My goal is to" + verb',
+    explanation: 'To state your objective, use "My goal is to" followed by the infinitive verb. This shows purpose and direction.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q21',
+    hindi: 'मुझे किताबें पढ़ना बहुत अच्छा लगता है।',
+    english: 'I enjoy reading books very much.',
+    alternatives: ['I love reading books.'],
+    hint: 'Reading enjoyment: "I enjoy/love" + verb+ing',
+    explanation: 'To express enjoyment of reading, use "I enjoy/love" + verb+ing. "Enjoy" is slightly more formal than "love".',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q22',
+    hindi: 'मैं अपने परिवार के साथ रहता हूँ।',
+    english: 'I live with my family.',
+    alternatives: ['I stay with my family.'],
+    hint: 'Living arrangement: "I live with" + noun',
+    explanation: 'To describe who you live with, use "I live with" followed by the person/group. "Live" is more natural than "stay" for permanent arrangements.',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q23',
+    hindi: 'मेरे बॉस बहुत सहयोगी हैं।',
+    english: 'My boss is very supportive.',
+    alternatives: ['My manager is very supportive.'],
+    hint: 'Boss quality: "My boss is" + adjective',
+    explanation: 'To describe qualities of your boss, use "My boss is" + adjective. This shows positive workplace relationships.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q24',
+    hindi: 'मैं हिंदी और अंग्रेज़ी दोनों बोल सकता हूँ।',
+    english: 'I can speak both Hindi and English.',
+    alternatives: ['I speak both Hindi and English.'],
+    hint: 'Language ability: "I can speak" + languages',
+    explanation: 'To express language proficiency, use "I can speak" followed by the languages. "Can" emphasizes ability.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q25',
+    hindi: 'मुझे खाना बनाना पसंद नहीं है।',
+    english: 'I do not like cooking.',
+    alternatives: ["I don't like cooking.", 'I dislike cooking.'],
+    hint: 'Negative preference: "I do not like" + verb+ing',
+    explanation: 'To express dislike, use "I do not like" or the contraction "I don\'t like" followed by the verb ending in "-ing".',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q26',
+    hindi: 'मेरी उम्र 25 से 30 के बीच है।',
+    english: 'I am between 25 and 30 years old.',
+    alternatives: ['I am in my late twenties.'],
+    hint: 'Age range: "I am between" + age + "and" + age',
+    explanation: 'To give an age range, use "I am between" + lower age + "and" + upper age + "years old".',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q27',
+    hindi: 'आपसे मिलना अच्छा लगा।',
+    english: 'It was nice meeting you.',
+    alternatives: ['It was great meeting you.'],
+    hint: 'Meeting conclusion: "It was nice" + verb+ing',
+    explanation: 'When concluding a meeting, use "It was nice meeting you" to express appreciation for the interaction.',
+    difficulty: 'easy'
+  },
+  {
+    id: 'q28',
+    hindi: 'मेरी पत्नी/पति बहुत समझदार हैं।',
+    english: 'My spouse is very understanding.',
+    alternatives: ['My wife is very understanding.', 'My husband is very understanding.'],
+    hint: 'Spouse quality: "My spouse is" + adjective',
+    explanation: 'To describe your spouse\'s qualities, use "My spouse is" + adjective. This is respectful and inclusive.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q29',
+    hindi: 'मैं अपने काम में सर्वश्रेष्ठ देता हूँ।',
+    english: 'I give my best in my work.',
+    alternatives: ['I always give my best.', 'I put in my best effort.'],
+    hint: 'Work commitment: "I give my best in" + noun',
+    explanation: 'To express dedication to work, use "I give my best in" followed by the area. This shows professionalism and commitment.',
+    difficulty: 'medium'
+  },
+  {
+    id: 'q30',
+    hindi: 'मुझे आशा है कि हम आगे मिलते रहेंगे।',
+    english: 'I hope we will meet again.',
+    alternatives: ['I hope to see you again.'],
+    hint: 'Future meeting: "I hope" + future tense',
+    explanation: 'To express desire for future interaction, use "I hope" followed by the future tense clause.',
+    difficulty: 'medium'
+  },
+  // Additional questions to reach 500+ (truncated for file size, but would continue with 470 more questions)
+  // In the complete implementation, this array would contain 500-600 questions following the same pattern
+];
+>>>>>>> origin/main
 
 export default function Day2PracticePage() {
+  // Full question bank (950 questions) loaded from the API, which reads
+  // data/challenge/day-02/practice-questions.json. Starts with the small
+  // fallback list so the page is never empty, then upgrades once the fetch
+  // resolves.
+  const [questions, setQuestions] = useState(FALLBACK_DAY_2_QUESTIONS);
+  const [questionsLoaded, setQuestionsLoaded] = useState(false);
   const [currentQuestionIndex, setCurrentQuestionIndex] = useState(0);
   const [userAnswer, setUserAnswer] = useState('');
   const [isCorrect, setIsCorrect] = useState(null);
@@ -35,8 +324,34 @@ export default function Day2PracticePage() {
   
   const questionRef = useRef(null);
   const inputRef = useRef(null);
+
+  // Fetch the full 950-question bank for Day 2 on mount
+  useEffect(() => {
+    let cancelled = false;
+    fetch('/api/challenge/2')
+      .then((res) => res.json())
+      .then((data) => {
+        if (cancelled) return;
+        if (Array.isArray(data?.practice) && data.practice.length > 0) {
+          // Normalize API question shape (id: number) to this page's shape (id: string)
+          const normalized = data.practice.map((q, i) => ({
+            id: q.id != null ? `q${q.id}` : `q${i + 1}`,
+            hindi: q.hindi,
+            english: q.english,
+            alternatives: q.alternatives || [],
+            hint: q.hint || '',
+            explanation: q.explanation || '',
+            difficulty: q.difficulty || 'easy',
+          }));
+          setQuestions(normalized);
+        }
+        if (!cancelled) setQuestionsLoaded(true);
+      })
+      .catch(() => { if (!cancelled) setQuestionsLoaded(true); });
+    return () => { cancelled = true; };
+  }, []);
   
-  const currentQuestion = DAY_2_QUESTIONS[currentQuestionIndex];
+  const currentQuestion = questions[currentQuestionIndex];
   
   // Timer effect
   useEffect(() => {
@@ -128,7 +443,7 @@ export default function Day2PracticePage() {
   };
   
   const nextQuestion = () => {
-    if (currentQuestionIndex < DAY_2_QUESTIONS.length - 1) {
+    if (currentQuestionIndex < questions.length - 1) {
       setCurrentQuestionIndex(prev => prev + 1);
     }
   };
@@ -163,7 +478,7 @@ export default function Day2PracticePage() {
   };
   
   // Progress calculation
-  const progressPercentage = Math.round(((currentQuestionIndex + 1) / DAY_2_QUESTIONS.length) * 100);
+  const progressPercentage = Math.round(((currentQuestionIndex + 1) / questions.length) * 100);
   
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-8 px-4">
@@ -256,7 +571,7 @@ export default function Day2PracticePage() {
               </div>
               <div className="text-right">
                 <div className="text-sm opacity-80">Day 2 • Self Introduction</div>
-                <div className="text-xs opacity-70 mt-1">{DAY_2_QUESTIONS.length} total questions</div>
+                <div className="text-xs opacity-70 mt-1">{questionsLoaded ? `${questions.length} total questions` : 'Loading full question bank…'}</div>
               </div>
             </div>
           </div>
@@ -391,7 +706,7 @@ export default function Day2PracticePage() {
               </button>
               <button
                 onClick={nextQuestion}
-                disabled={currentQuestionIndex >= DAY_2_QUESTIONS.length - 1 || isCorrect === null}
+                disabled={currentQuestionIndex >= questions.length - 1 || isCorrect === null}
                 className="px-4 py-2 rounded-lg text-gray-600 hover:bg-gray-200 disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
               >
                 <ArrowRight className="w-4 h-4" />
@@ -399,7 +714,7 @@ export default function Day2PracticePage() {
             </div>
             
             <div className="text-sm text-gray-600">
-              Question {currentQuestionIndex + 1} of {DAY_2_QUESTIONS.length}
+              Question {currentQuestionIndex + 1} of {questions.length}
             </div>
             
             <button

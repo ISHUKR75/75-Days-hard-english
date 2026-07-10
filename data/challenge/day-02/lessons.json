@@ -9,11 +9,26 @@
       "explanation": "English में अपना नाम बताने के कई तरीके हैं। 'My name is' सबसे formal है। 'I am' और 'I'm' rोज़मर्रा की बातचीत में इस्तेमाल होते हैं। सही तरीका चुनना situation पर depend करता है — interview में formal, दोस्तों के साथ informal.",
       "formula": "My name is / I am / I'm + [Name]",
       "examples": [
-        { "english": "My name is Rohan Sharma.", "hindi": "मेरा नाम रोहन शर्मा है।" },
-        { "english": "I am Priya.", "hindi": "मैं प्रिया हूँ।" },
-        { "english": "I'm Aman, nice to meet you.", "hindi": "मैं अमन हूँ, आपसे मिलकर खुशी हुई।" },
-        { "english": "People call me Vicky.", "hindi": "लोग मुझे विक्की बुलाते हैं।" },
-        { "english": "You can call me Raj.", "hindi": "आप मुझे राज बुला सकते हैं।" }
+        {
+          "english": "My name is Rohan Sharma.",
+          "hindi": "मेरा नाम रोहन शर्मा है।"
+        },
+        {
+          "english": "I am Priya.",
+          "hindi": "मैं प्रिया हूँ।"
+        },
+        {
+          "english": "I'm Aman, nice to meet you.",
+          "hindi": "मैं अमन हूँ, आपसे मिलकर खुशी हुई।"
+        },
+        {
+          "english": "People call me Vicky.",
+          "hindi": "लोग मुझे विक्की बुलाते हैं।"
+        },
+        {
+          "english": "You can call me Raj.",
+          "hindi": "आप मुझे राज बुला सकते हैं।"
+        }
       ]
     },
     {
@@ -23,11 +38,26 @@
       "explanation": "अपना शहर/origin बताने के लिए 'I am from', 'I belong to', 'I come from', 'I was born in', 'I hail from' का इस्तेमाल होता है। ये सभी सही हैं, बस formality का level अलग है।",
       "formula": "I am from / I belong to / I come from + [City/State]",
       "examples": [
-        { "english": "I am from Delhi.", "hindi": "मैं दिल्ली से हूँ।" },
-        { "english": "I belong to Lucknow.", "hindi": "मैं लखनऊ से संबंध रखता हूँ।" },
-        { "english": "I come from a small town in Bihar.", "hindi": "मैं बिहार के एक छोटे शहर से आता हूँ।" },
-        { "english": "I was born in Mumbai but raised in Pune.", "hindi": "मेरा जन्म मुंबई में हुआ पर मैं पुणे में बड़ा हुआ।" },
-        { "english": "I currently live in Bangalore.", "hindi": "मैं अभी बेंगलुरु में रहता हूँ।" }
+        {
+          "english": "I am from Delhi.",
+          "hindi": "मैं दिल्ली से हूँ।"
+        },
+        {
+          "english": "I belong to Lucknow.",
+          "hindi": "मैं लखनऊ से संबंध रखता हूँ।"
+        },
+        {
+          "english": "I come from a small town in Bihar.",
+          "hindi": "मैं बिहार के एक छोटे शहर से आता हूँ।"
+        },
+        {
+          "english": "I was born in Mumbai but raised in Pune.",
+          "hindi": "मेरा जन्म मुंबई में हुआ पर मैं पुणे में बड़ा हुआ।"
+        },
+        {
+          "english": "I currently live in Bangalore.",
+          "hindi": "मैं अभी बेंगलुरु में रहता हूँ।"
+        }
       ]
     },
     {
@@ -37,11 +67,26 @@
       "explanation": "Profession बताने के लिए 'I work as', 'I am a', 'I am working at', 'I am currently employed as', 'My profession is' का उपयोग होता है। Job title से पहले article (a/an) लगाना ज़रूरी है।",
       "formula": "I work as / I am a/an + [job title]",
       "examples": [
-        { "english": "I work as a software engineer.", "hindi": "मैं एक software engineer के रूप में काम करता हूँ।" },
-        { "english": "I am a teacher by profession.", "hindi": "मैं profession से एक teacher हूँ।" },
-        { "english": "I am currently working at an IT company.", "hindi": "मैं अभी एक IT company में काम कर रहा हूँ।" },
-        { "english": "I am a final year student.", "hindi": "मैं final year का student हूँ।" },
-        { "english": "I run my own business.", "hindi": "मैं अपना खुद का business चलाता हूँ।" }
+        {
+          "english": "I work as a software engineer.",
+          "hindi": "मैं एक software engineer के रूप में काम करता हूँ।"
+        },
+        {
+          "english": "I am a teacher by profession.",
+          "hindi": "मैं profession से एक teacher हूँ।"
+        },
+        {
+          "english": "I am currently working at an IT company.",
+          "hindi": "मैं अभी एक IT company में काम कर रहा हूँ।"
+        },
+        {
+          "english": "I am a final year student.",
+          "hindi": "मैं final year का student हूँ।"
+        },
+        {
+          "english": "I run my own business.",
+          "hindi": "मैं अपना खुद का business चलाता हूँ।"
+        }
       ]
     },
     {
@@ -51,10 +96,22 @@
       "explanation": "'I have been [doing something] for [time]' pattern experience बताने के लिए इस्तेमाल होता है। यह Present Perfect Continuous tense है जो बताता है कि कोई काम कब से चल रहा है।",
       "formula": "I have been + [verb+ing] + for + [time period]",
       "examples": [
-        { "english": "I have been working here for two years.", "hindi": "मैं यहाँ दो साल से काम कर रहा हूँ।" },
-        { "english": "I have been learning English for six months.", "hindi": "मैं छह महीने से English सीख रहा हूँ।" },
-        { "english": "I have been living in this city since 2020.", "hindi": "मैं 2020 से इस शहर में रह रहा हूँ।" },
-        { "english": "I have been studying computer science for three years.", "hindi": "मैं तीन साल से computer science पढ़ रहा हूँ।" }
+        {
+          "english": "I have been working here for two years.",
+          "hindi": "मैं यहाँ दो साल से काम कर रहा हूँ।"
+        },
+        {
+          "english": "I have been learning English for six months.",
+          "hindi": "मैं छह महीने से English सीख रहा हूँ।"
+        },
+        {
+          "english": "I have been living in this city since 2020.",
+          "hindi": "मैं 2020 से इस शहर में रह रहा हूँ।"
+        },
+        {
+          "english": "I have been studying computer science for three years.",
+          "hindi": "मैं तीन साल से computer science पढ़ रहा हूँ।"
+        }
       ]
     },
     {
@@ -64,10 +121,22 @@
       "explanation": "Family बताने के लिए 'My family has', 'There are X people in my family', 'I have X siblings' का इस्तेमाल होता है।",
       "formula": "There are + [number] + people in my family",
       "examples": [
-        { "english": "There are five people in my family.", "hindi": "मेरे परिवार में पाँच लोग हैं।" },
-        { "english": "I have one elder brother and one younger sister.", "hindi": "मेरा एक बड़ा भाई और एक छोटी बहन है।" },
-        { "english": "My family consists of my parents and me.", "hindi": "मेरे परिवार में मेरे माता-पिता और मैं हूँ।" },
-        { "english": "I come from a joint family.", "hindi": "मैं एक joint family से आता हूँ।" }
+        {
+          "english": "There are five people in my family.",
+          "hindi": "मेरे परिवार में पाँच लोग हैं।"
+        },
+        {
+          "english": "I have one elder brother and one younger sister.",
+          "hindi": "मेरा एक बड़ा भाई और एक छोटी बहन है।"
+        },
+        {
+          "english": "My family consists of my parents and me.",
+          "hindi": "मेरे परिवार में मेरे माता-पिता और मैं हूँ।"
+        },
+        {
+          "english": "I come from a joint family.",
+          "hindi": "मैं एक joint family से आता हूँ।"
+        }
       ]
     },
     {
@@ -77,11 +146,26 @@
       "explanation": "'I like/love/enjoy + verb+ing' pattern hobbies बताने के लिए इस्तेमाल होता है। like/love/enjoy के बाद verb में हमेशा -ing लगता है।",
       "formula": "I like/love/enjoy + [verb+ing]",
       "examples": [
-        { "english": "I like reading books.", "hindi": "मुझे किताबें पढ़ना पसंद है।" },
-        { "english": "I love playing cricket.", "hindi": "मुझे cricket खेलना बहुत पसंद है।" },
-        { "english": "I enjoy watching movies on weekends.", "hindi": "मुझे weekend पर movies देखना पसंद है।" },
-        { "english": "I am passionate about photography.", "hindi": "मुझे photography का शौक है।" },
-        { "english": "I am interested in learning new languages.", "hindi": "मुझे नई भाषाएँ सीखने में रुचि है।" }
+        {
+          "english": "I like reading books.",
+          "hindi": "मुझे किताबें पढ़ना पसंद है।"
+        },
+        {
+          "english": "I love playing cricket.",
+          "hindi": "मुझे cricket खेलना बहुत पसंद है।"
+        },
+        {
+          "english": "I enjoy watching movies on weekends.",
+          "hindi": "मुझे weekend पर movies देखना पसंद है।"
+        },
+        {
+          "english": "I am passionate about photography.",
+          "hindi": "मुझे photography का शौक है।"
+        },
+        {
+          "english": "I am interested in learning new languages.",
+          "hindi": "मुझे नई भाषाएँ सीखने में रुचि है।"
+        }
       ]
     },
     {
@@ -91,11 +175,26 @@
       "explanation": "किसी से पहली बार मिलने पर 'Nice to meet you', 'Pleased to meet you', 'How do you do?' का इस्तेमाल होता है। 'How do you do?' का जवाब भी 'How do you do?' ही होता है — यह बहुत formal है।",
       "formula": "Nice to meet you / Pleased to meet you",
       "examples": [
-        { "english": "Nice to meet you, Mr. Sharma.", "hindi": "आपसे मिलकर खुशी हुई, श्री शर्मा।" },
-        { "english": "Pleased to meet you too.", "hindi": "मुझे भी आपसे मिलकर खुशी हुई।" },
-        { "english": "It's a pleasure to finally meet you.", "hindi": "अंततः आपसे मिलना एक खुशी की बात है।" },
-        { "english": "May I know your name, please?", "hindi": "क्या मैं आपका नाम जान सकता हूँ?" },
-        { "english": "What do you do for a living?", "hindi": "आप क्या काम करते हैं?" }
+        {
+          "english": "Nice to meet you, Mr. Sharma.",
+          "hindi": "आपसे मिलकर खुशी हुई, श्री शर्मा।"
+        },
+        {
+          "english": "Pleased to meet you too.",
+          "hindi": "मुझे भी आपसे मिलकर खुशी हुई।"
+        },
+        {
+          "english": "It's a pleasure to finally meet you.",
+          "hindi": "अंततः आपसे मिलना एक खुशी की बात है।"
+        },
+        {
+          "english": "May I know your name, please?",
+          "hindi": "क्या मैं आपका नाम जान सकता हूँ?"
+        },
+        {
+          "english": "What do you do for a living?",
+          "hindi": "आप क्या काम करते हैं?"
+        }
       ]
     },
     {
@@ -105,9 +204,342 @@
       "explanation": "1) 'I am belongs to Delhi' ❌ → 'I belong to Delhi' ✅ (belong को s नहीं लगाना). 2) 'My name is calling Rohan' ❌ → 'My name is Rohan' या 'People call me Rohan' ✅. 3) 'I am working in software engineer' ❌ → 'I work as a software engineer' ✅ (job title से पहले article). 4) 'I have two year experience' ❌ → 'I have two years of experience' ✅ (years plural + 'of'). 5) 'I am from since 2010 in Mumbai' ❌ → 'I have been living in Mumbai since 2010' ✅.",
       "formula": "Avoid literal Hindi-to-English translation of grammar",
       "examples": [
-        { "english": "I belong to Delhi.", "hindi": "गलत: I am belongs to Delhi." },
-        { "english": "People call me Rohan.", "hindi": "गलत: My name is calling Rohan." },
-        { "english": "I have three years of experience.", "hindi": "गलत: I have three year experience." }
+        {
+          "english": "I belong to Delhi.",
+          "hindi": "गलत: I am belongs to Delhi."
+        },
+        {
+          "english": "People call me Rohan.",
+          "hindi": "गलत: My name is calling Rohan."
+        },
+        {
+          "english": "I have three years of experience.",
+          "hindi": "गलत: I have three year experience."
+        }
+      ]
+    },
+    {
+      "id": "phone-intro",
+      "title": "Introducing Yourself on a Phone Call",
+      "hindiTitle": "Phone Call पर अपना Introduction देना",
+      "explanation": "Phone पर introduction देते समय आवाज़ ही आपकी पहचान होती है, इसलिए साफ़ और धीरे बोलना ज़रूरी है। सबसे पहले greeting, फिर अपना नाम, फिर काम की वजह बताएं। 'This is [Name] speaking' एक बहुत common formal तरीका है phone पर अपना परिचय देने का।",
+      "formula": "Hello, this is [Name] speaking / Hi, [Name] here, calling from [Company]",
+      "examples": [
+        {
+          "english": "Hello, this is Rohan speaking from ABC Solutions.",
+          "hindi": "नमस्ते, मैं रोहन बोल रहा हूँ ABC Solutions से।"
+        },
+        {
+          "english": "Hi, this is Priya calling regarding the job interview.",
+          "hindi": "नमस्ते, मैं प्रिया बोल रही हूँ, job interview के बारे में call कर रही हूँ।"
+        },
+        {
+          "english": "Good afternoon, this is Aman from the HR department.",
+          "hindi": "नमस्ते, मैं अमन हूँ HR department से।"
+        },
+        {
+          "english": "May I know who is calling, please?",
+          "hindi": "क्या मैं जान सकता हूँ कि कौन बोल रहा है?"
+        },
+        {
+          "english": "I'm returning your call regarding the project update.",
+          "hindi": "मैं project update के बारे में आपका call वापस कर रहा हूँ।"
+        }
+      ]
+    },
+    {
+      "id": "online-meeting-intro",
+      "title": "Introducing Yourself in an Online Meeting (Zoom/Google Meet)",
+      "hindiTitle": "Online Meeting में Introduction देना",
+      "explanation": "आजकल ज़्यादातर meetings online होती हैं। Video call join करते ही mic on करके एक छोटा introduction देना professional माना जाता है, खासकर तब जब meeting में नए लोग हों।",
+      "formula": "Hi everyone, I'm [Name], I'll be [role] for this project/meeting.",
+      "examples": [
+        {
+          "english": "Hi everyone, I'm Neha, I'll be presenting the sales report today.",
+          "hindi": "नमस्ते सभी, मैं नेहा हूँ, आज मैं sales report present करूँगी।"
+        },
+        {
+          "english": "Good morning team, this is Vikas joining from the Pune office.",
+          "hindi": "सुप्रभात team, मैं विकास हूँ, पुणे office से जुड़ रहा हूँ।"
+        },
+        {
+          "english": "Can everyone see my screen? I'm going to share the presentation now.",
+          "hindi": "क्या सभी को मेरी screen दिख रही है? मैं presentation share करने जा रहा हूँ।"
+        },
+        {
+          "english": "I'll quickly introduce myself before we begin.",
+          "hindi": "शुरू करने से पहले मैं जल्दी से अपना परिचय दे देता हूँ।"
+        }
+      ]
+    },
+    {
+      "id": "linkedin-intro",
+      "title": "Introducing Yourself on LinkedIn / Professional Networking",
+      "hindiTitle": "LinkedIn पर Professional Introduction",
+      "explanation": "LinkedIn जैसी professional networking sites पर introduction थोड़ा achievement-focused होता है। अपना current role, key skills और क्या search कर रहे हैं (job, connections, opportunities) बताना चाहिए।",
+      "formula": "I'm a [job title] with [X years] experience in [field], passionate about [interest].",
+      "examples": [
+        {
+          "english": "I'm a data analyst with three years of experience in the fintech industry.",
+          "hindi": "मैं एक data analyst हूँ, fintech industry में तीन साल का अनुभव है।"
+        },
+        {
+          "english": "Currently exploring new opportunities in product management.",
+          "hindi": "अभी मैं product management में नए अवसर तलाश रहा हूँ।"
+        },
+        {
+          "english": "Let's connect if you're working in digital marketing too!",
+          "hindi": "अगर आप भी digital marketing में काम करते हैं तो चलिए जुड़ते हैं!"
+        }
+      ]
+    },
+    {
+      "id": "college-intro",
+      "title": "Introducing Yourself on the First Day of College",
+      "hindiTitle": "College के पहले दिन Introduction",
+      "explanation": "College के पहले दिन classmates और teachers के सामने अपना introduction देना होता है। इसमें अपना नाम, school/city और interest बताना काफी है — यह informal-formal mix होता है।",
+      "formula": "Hi, I'm [Name] from [city]. I completed my schooling from [school].",
+      "examples": [
+        {
+          "english": "Hi everyone, I'm Kartikeya from Kanpur. I completed my schooling from DAV Public School.",
+          "hindi": "नमस्ते सभी, मैं कार्तिकेय हूँ, कानपुर से। मैंने अपनी schooling DAV Public School से पूरी की।"
+        },
+        {
+          "english": "I'm excited to be part of this college and look forward to making new friends.",
+          "hindi": "मैं इस college का हिस्सा बनकर उत्साहित हूँ और नए दोस्त बनाने का इंतज़ार कर रहा हूँ।"
+        },
+        {
+          "english": "My favourite subject is Mathematics and I hope to join the debate club.",
+          "hindi": "मेरा पसंदीदा विषय Mathematics है और मैं debate club join करने की उम्मीद रखता हूँ।"
+        }
+      ]
+    },
+    {
+      "id": "group-discussion-intro",
+      "title": "Introducing Yourself in a Group Discussion",
+      "hindiTitle": "Group Discussion में Introduction",
+      "explanation": "Group discussion (GD) में हर participant को 20-30 seconds में खुद को introduce करना होता है — नाम, education, और topic पर एक line की राय एक साथ। संक्षिप्त और confident होना ज़रूरी है।",
+      "formula": "I'm [Name], a [degree] graduate, and I believe [one-line opinion on topic].",
+      "examples": [
+        {
+          "english": "I'm Simran, a B.Com graduate, and I believe technology has made communication easier but also more distracting.",
+          "hindi": "मैं सिमरन हूँ, B.Com graduate, और मेरा मानना है कि technology ने communication आसान बना दिया है पर distraction भी बढ़ाया है।"
+        },
+        {
+          "english": "I'm Gaurav, an engineering student, and I'd like to add a point to what the previous speaker said.",
+          "hindi": "मैं गौरव हूँ, engineering का student, और मैं पिछले speaker की बात में एक point जोड़ना चाहूँगा।"
+        }
+      ]
+    },
+    {
+      "id": "confidence-body-language",
+      "title": "Confidence & Body Language Tips While Introducing Yourself",
+      "hindiTitle": "Introduction देते समय Confidence और Body Language",
+      "explanation": "सिर्फ सही sentences बोलना काफी नहीं है — eye contact रखना, सीधे खड़े होना, हल्की मुस्कान और firm handshake आपकी introduction को और प्रभावी बनाते हैं। बहुत तेज़ या बहुत धीरे बोलने से बचें, natural pace रखें।",
+      "formula": "Eye contact + Smile + Steady pace + Firm handshake = Confident introduction",
+      "examples": [
+        {
+          "english": "Maintain eye contact while saying your name — it shows confidence.",
+          "hindi": "अपना नाम बोलते समय eye contact रखें — यह confidence दिखाता है।"
+        },
+        {
+          "english": "Take a deep breath before you start speaking to avoid sounding nervous.",
+          "hindi": "बोलना शुरू करने से पहले गहरी साँस लें ताकि नर्वस न लगें।"
+        },
+        {
+          "english": "A genuine smile makes your introduction more memorable.",
+          "hindi": "एक असली मुस्कान आपकी introduction को यादगार बनाती है।"
+        }
+      ]
+    },
+    {
+      "id": "introduction-mistakes-part2",
+      "title": "More Common Mistakes in Self Introduction",
+      "hindiTitle": "Self Introduction में और भी सामान्य गलतियां",
+      "explanation": "6) 'I am doing job in a company' ❌ → 'I work at a company' या 'I am working at a company' ✅. 7) 'My good name is' ❌ → 'My name is' ✅ ('good name' Hindi का direct translation है, English में unnecessary है). 8) 'I am from Delhi city' ❌ → 'I am from Delhi' ✅ (city शब्द जोड़ने की ज़रूरत नहीं). 9) 'I am fresher' ❌ → 'I am a fresher' ✅ (article ज़रूरी है). 10) 'I have family of 5 members' ❌ → 'I have a family of 5 members' या 'There are 5 members in my family' ✅.",
+      "formula": "Never add unnecessary words like 'good name' or 'city' after a proper noun",
+      "examples": [
+        {
+          "english": "I work at a company.",
+          "hindi": "गलत: I am doing job in a company."
+        },
+        {
+          "english": "My name is Sunita.",
+          "hindi": "गलत: My good name is Sunita."
+        },
+        {
+          "english": "I am from Delhi.",
+          "hindi": "गलत: I am from Delhi city."
+        },
+        {
+          "english": "I am a fresher.",
+          "hindi": "गलत: I am fresher."
+        }
+      ]
+    },
+    {
+      "id": "formal-vs-informal",
+      "title": "Formal vs Informal Introduction — Choosing the Right Tone",
+      "hindiTitle": "Formal और Informal Introduction में फर्क",
+      "explanation": "Situation के हिसाब से tone बदलना ज़रूरी है। Interview/business meeting में formal English (contractions जैसे 'I'm' से बचें, पूरा 'I am' इस्तेमाल करें) और दोस्तों/social situations में informal English (contractions ठीक हैं) इस्तेमाल होती है।",
+      "formula": "Formal: 'I am...' | Informal: 'I'm...'",
+      "examples": [
+        {
+          "english": "Formal: Good morning, sir. I am Rakesh Gupta, and I represent the sales team.",
+          "hindi": "Formal: सुप्रभात सर, मैं राकेश गुप्ता हूँ और मैं sales team का representative हूँ।"
+        },
+        {
+          "english": "Informal: Hey, I'm Rakesh! Nice to meet you.",
+          "hindi": "Informal: हे, मैं राकेश हूँ! आपसे मिलकर अच्छा लगा।"
+        }
+      ]
+    },
+    {
+      "id": "email-intro",
+      "title": "Introducing Yourself in a Professional Email",
+      "hindiTitle": "Professional Email mein Introduction",
+      "explanation": "Email introduction likhte samay pehli line mein hi apna naam aur reason for writing batana chahiye. Subject line clear honi chahiye. Closing mein 'Best regards' ya 'Warm regards' jaisa professional sign-off use karein.",
+      "formula": "Dear [Name], My name is [Your Name], and I am writing to [reason].",
+      "examples": [
+        {
+          "english": "Dear Mr. Sharma, My name is Aditya Verma, and I am writing to introduce myself as the new project coordinator.",
+          "hindi": "प्रिय श्री शर्मा, मेरा नाम आदित्य वर्मा है, और मैं नए project coordinator के रूप में अपना परिचय देने के लिए लिख रहा हूँ।"
+        },
+        {
+          "english": "I look forward to working closely with your team in the coming months.",
+          "hindi": "मैं आने वाले महीनों में आपकी team के साथ मिलकर काम करने का इंतज़ार कर रहा हूँ।"
+        },
+        {
+          "english": "Please feel free to reach out if you have any questions.",
+          "hindi": "अगर कोई सवाल हो तो बेझिझक संपर्क करें।"
+        }
+      ]
+    },
+    {
+      "id": "social-gathering-intro",
+      "title": "Introducing Yourself at a Social Gathering / Party",
+      "hindiTitle": "Party ya Social Gathering mein Introduction",
+      "explanation": "Social gatherings mein introduction light aur friendly hota hai. Naam ke baad aap kaise jaante hain host ko, ya kya kaam karte hain, halka sa bata sakte hain — lekin bahut zyada detail dena zaroori nahi.",
+      "formula": "Hi, I'm [Name]. I'm a friend of [Host's name] / I work with [Host's name].",
+      "examples": [
+        {
+          "english": "Hi, I'm Isha. I'm a friend of Rohan's from college.",
+          "hindi": "नमस्ते, मैं ईशा हूँ। मैं रोहन की college की दोस्त हूँ।"
+        },
+        {
+          "english": "Nice to meet you! I don't think we've met before.",
+          "hindi": "आपसे मिलकर अच्छा लगा! मुझे नहीं लगता हम पहले मिले हैं।"
+        },
+        {
+          "english": "I work with Rohan at the same company.",
+          "hindi": "मैं रोहन के साथ उसी company में काम करता हूँ।"
+        }
+      ]
+    },
+    {
+      "id": "customer-service-intro",
+      "title": "Introducing Yourself as a Customer Service Representative",
+      "hindiTitle": "Customer Service Representative ke roop mein Introduction",
+      "explanation": "Customer service calls mein introduction short aur clear hona chahiye — naam, company, aur kaise madad kar sakte hain. Polite tone bahut zaroori hai.",
+      "formula": "Thank you for calling [Company]. My name is [Name]. How may I help you today?",
+      "examples": [
+        {
+          "english": "Thank you for calling QuickFix Support. My name is Deepak. How may I help you today?",
+          "hindi": "QuickFix Support को call करने के लिए धन्यवाद। मेरा नाम दीपक है। मैं आपकी कैसे मदद कर सकता हूँ?"
+        },
+        {
+          "english": "My name is Anjali, and I'll be assisting you with your query.",
+          "hindi": "मेरा नाम अंजलि है, और मैं आपके सवाल में मदद करूँगी।"
+        }
+      ]
+    },
+    {
+      "id": "teacher-intro",
+      "title": "Introducing Yourself as a Teacher/Trainer on Day One",
+      "hindiTitle": "Teacher/Trainer ke roop mein pehle din Introduction",
+      "explanation": "Teacher ya trainer apna introduction dete waqt apni qualification, subject aur teaching style ke baare mein bataate hain taaki students comfortable feel karein.",
+      "formula": "Good morning, class. I'm [Name], and I'll be your [subject] teacher this year.",
+      "examples": [
+        {
+          "english": "Good morning class, I'm Mrs. Kavita Rao, and I'll be your English teacher this year.",
+          "hindi": "सुप्रभात class, मैं श्रीमती कविता राव हूँ, और इस साल मैं आपकी English teacher रहूँगी।"
+        },
+        {
+          "english": "I have been teaching for over eight years and I love making grammar fun.",
+          "hindi": "मैं आठ सालों से ज़्यादा समय से पढ़ा रही हूँ और मुझे grammar को मज़ेदार बनाना पसंद है।"
+        }
+      ]
+    },
+    {
+      "id": "business-meeting-intro",
+      "title": "Introducing Yourself and Your Company in a Business Meeting",
+      "hindiTitle": "Business Meeting mein Apna aur Company ka Introduction",
+      "explanation": "Business meetings mein introduction mein apna designation, company ka naam aur meeting ka purpose short mein cover karna chahiye.",
+      "formula": "Good morning everyone, I'm [Name], [designation] at [Company]. We're here to discuss [purpose].",
+      "examples": [
+        {
+          "english": "Good morning everyone, I'm Rakesh Gupta, Sales Head at ABC Textiles. We're here to discuss the new partnership.",
+          "hindi": "सुप्रभात सभी, मैं राकेश गुप्ता हूँ, ABC Textiles में Sales Head। हम नए partnership पर चर्चा करने आए हैं।"
+        },
+        {
+          "english": "On behalf of my team, I'd like to thank you for this opportunity.",
+          "hindi": "अपनी team की तरफ से, मैं इस अवसर के लिए धन्यवाद देना चाहूँगा।"
+        }
+      ]
+    },
+    {
+      "id": "introduction-mistakes-part3",
+      "title": "Even More Common Mistakes in Self Introduction",
+      "hindiTitle": "Self Introduction ki Aur Bhi Common Galtiyan",
+      "explanation": "11) 'I am married since 2020' ❌ → 'I have been married since 2020' ✅. 12) 'I am staying in Delhi' (for permanent residence) ❌ → 'I live in Delhi' ✅ ('staying' temporary ke liye use hota hai). 13) 'I am agree with introduction format' ❌ → 'I agree with the introduction format' ✅ ('agree' verb hai, 'am' ki zaroorat nahi). 14) 'She is my best friend since childhood' ❌ → 'She has been my best friend since childhood' ✅.",
+      "formula": "Use present perfect ('have been') for actions/states continuing from the past to now",
+      "examples": [
+        {
+          "english": "I have been married since 2020.",
+          "hindi": "गलत: I am married since 2020."
+        },
+        {
+          "english": "I live in Delhi.",
+          "hindi": "गलत (permanent ke liye): I am staying in Delhi."
+        },
+        {
+          "english": "I agree with this.",
+          "hindi": "गलत: I am agree with this."
+        }
+      ]
+    },
+    {
+      "id": "introduction-do-dont",
+      "title": "Do's and Don'ts Checklist for a Strong Self Introduction",
+      "hindiTitle": "Strong Self Introduction ke liye Do's and Don'ts",
+      "explanation": "DO: Naam clearly bolein, eye contact rakhein, positive tone rakhein, situation ke hisaab se tone adjust karein. DON'T: Bahut lamba introduction na dein, negative baatein na karein (jaise 'I am not good at English'), fillers jaise 'um', 'like' bahut zyada use na karein.",
+      "formula": "DO: Clear + Confident + Concise | DON'T: Long + Negative + Filled with 'um/like'",
+      "examples": [
+        {
+          "english": "Do: Keep your introduction under 30-60 seconds unless asked for more detail.",
+          "hindi": "करें: अपना introduction 30-60 seconds के अंदर रखें जब तक ज़्यादा detail न माँगी जाए।"
+        },
+        {
+          "english": "Don't: Avoid saying 'I am not good at English' — it creates a negative impression.",
+          "hindi": "न करें: 'I am not good at English' कहने से बचें — यह negative impression बनाता है।"
+        }
+      ]
+    },
+    {
+      "id": "cultural-notes",
+      "title": "Cultural Notes: Indian vs Western Introduction Styles",
+      "hindiTitle": "Cultural Notes: Indian aur Western Introduction Styles mein Farak",
+      "explanation": "India mein introduction mein family background aur native place batana common hai, jabki Western context mein professional achievements aur hobbies par zyada focus hota hai. Interview jaise formal settings mein Western style (professional-focused) follow karna behtar hota hai.",
+      "formula": "Indian style: Name + Family + Native place | Western/professional style: Name + Role + Achievement",
+      "examples": [
+        {
+          "english": "Indian style: I am Rohan Sharma, from a small town called Rewa, and I come from a family of teachers.",
+          "hindi": "Indian style: मैं रोहन शर्मा हूँ, रीवा नाम के एक छोटे शहर से, और मैं शिक्षकों के परिवार से हूँ।"
+        },
+        {
+          "english": "Western/professional style: I'm Rohan Sharma, a software engineer with expertise in cloud computing.",
+          "hindi": "Western/professional style: मैं रोहन शर्मा हूँ, cloud computing में expertise रखने वाला software engineer।"
+        }
       ]
     }
   ]

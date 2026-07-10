@@ -1,0 +1,444 @@
+{
+  "day": 2,
+  "topic": "Self Introduction",
+  "title": "Memory Tricks, Mnemonics & Tips — Self Introduction (Day 2)",
+  "description": "Creative memory tricks, mnemonics, and tips to never forget the key phrases of Self Introduction.",
+  "totalTricks": 40,
+  "sections": [
+    {
+      "id": "s1",
+      "title": "The PERFECT Introduction Formula — Mnemonic: PEFHGL",
+      "hindiTitle": "Perfect Introduction का Formula",
+      "description": "Remember the 6 parts of a perfect introduction using the word 'PEFHGL' — think of it as 'People Enjoy Friendly, Honest, Goal-oriented Learners'",
+      "mnemonic": "P-E-F-H-G-L",
+      "breakdown": [
+        { "letter": "P", "stands_for": "Personal — Name + Age + City", "example": "My name is Rahul. I am 25. I am from Delhi.", "trick": "P = Personal — ye cheez sabse personal hai" },
+        { "letter": "E", "stands_for": "Education — Degree + College + Year + Score", "example": "I completed my B.Tech from DTU in 2022 with 8.5 CGPA.", "trick": "E = Education — school/college ki baat" },
+        { "letter": "F", "stands_for": "Field — Job/Profession + Company + Duration", "example": "I work as a developer at TCS. I have been there for 2 years.", "trick": "F = Field — apka kaam/profession" },
+        { "letter": "H", "stands_for": "Hobbies — 2-3 interests briefly", "example": "I love reading books and playing cricket.", "trick": "H = Hobbies — aap kya karte hain free time mein" },
+        { "letter": "G", "stands_for": "Goals — Short-term or Long-term", "example": "My goal is to become a senior developer in 3 years.", "trick": "G = Goals — aap kahan jaana chahte hain" },
+        { "letter": "L", "stands_for": "Looking Forward — Closing statement", "example": "I look forward to working with your team.", "trick": "L = Looking Forward — professionally close karein" }
+      ],
+      "quickTest": "Can you say all 6 parts without looking? Try now!"
+    },
+    {
+      "id": "s2",
+      "title": "Never Say 'Myself Rahul' — The MNIFC Rule",
+      "hindiTitle": "'Myself Rahul' कभी मत कहो",
+      "description": "Remember what NOT to say and WHAT TO SAY instead.",
+      "tricks": [
+        {
+          "id": 1,
+          "wrong": "Myself Rahul",
+          "correct": "My name is Rahul",
+          "trick": "Think of 'MY' in 'My name is' — MY belongs to ME. Myself belongs to reflection, not introduction.",
+          "memory_image": "Imagine looking in a mirror and saying 'Myself Rahul' — mirrors are for 'myself'. When meeting people, face them and say 'My name is Rahul'.",
+          "hindi_trick": "Aaina = myself. Log = My name is. Jab log milte hain, mirror ki zaroorat nahi!"
+        },
+        {
+          "id": 2,
+          "wrong": "My good name is...",
+          "correct": "My name is...",
+          "trick": "In English, names are not 'good' or 'bad'. Only in Hindi do we say 'aapka shubh naam'. In English, a name is just a name.",
+          "memory_image": "Imagine 'good name' has an X through it in English — the word 'good' is not needed before 'name' in English.",
+          "hindi_trick": "'Shubh naam' = Hindi concept. English mein naam = naam. Simple."
+        },
+        {
+          "id": 3,
+          "wrong": "I am born in Delhi",
+          "correct": "I was born in Delhi",
+          "trick": "Birth happened in the PAST — use PAST tense. You cannot be 'being born' right now! Use 'I WAS born'.",
+          "memory_image": "Think of a baby being born. That happened YEARS ago. Past event = past tense. 'I WAS born'.",
+          "hindi_trick": "Janm = past mein hua tha. Past event = WAS. 'I WAS born in Delhi.'"
+        }
+      ]
+    },
+    {
+      "id": "s3",
+      "title": "FOR vs SINCE — Never Confuse Again",
+      "hindiTitle": "FOR vs SINCE — कभी Confuse मत होना",
+      "description": "The most common tense mistake in introductions — using FOR vs SINCE incorrectly.",
+      "mainRule": "FOR + DURATION (period of time) | SINCE + POINT IN TIME (specific moment)",
+      "tricks": [
+        {
+          "id": 4,
+          "concept": "FOR = Duration",
+          "trick": "FOR has 4 letters. FOUR letters = a NUMBER (duration). Think: FOR = 4 = number = duration.",
+          "examples": ["for 3 years", "for 6 months", "for a week", "for a long time"],
+          "hindi_trick": "FOR = कितने समय के लिए (duration/period)",
+          "memory_sentence": "I have been studying FOR three years."
+        },
+        {
+          "id": 5,
+          "concept": "SINCE = Point in Time",
+          "trick": "SINCE = Since a SPECIFIC moment. Both SINCE and SPECIFIC start with 'S'!",
+          "examples": ["since 2020", "since January", "since last Monday", "since I was 10"],
+          "hindi_trick": "SINCE = कब से (specific time point)",
+          "memory_sentence": "I have been studying SINCE 2020."
+        },
+        {
+          "id": 6,
+          "concept": "Quick Test",
+          "trick": "Can you say 'the year/date'? Then use SINCE. Can you say 'a period'? Use FOR.",
+          "examples": [
+            "I have been here ___ 3 years. (FOR — 3 years is a period)",
+            "I have been here ___ 2021. (SINCE — 2021 is a point)",
+            "I have been here ___ last Monday. (SINCE — last Monday is a point)",
+            "I have been here ___ a long time. (FOR — a long time is a period)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s4",
+      "title": "A vs AN — The Sound Rule (Not Spelling Rule)",
+      "hindiTitle": "A vs AN — आवाज़ का नियम (Spelling का नहीं)",
+      "description": "The most misunderstood grammar rule in India — a/an is about SOUND not SPELLING.",
+      "mainRule": "Use A before consonant SOUNDS. Use AN before vowel SOUNDS. Sound = pronunciation, NOT spelling.",
+      "tricks": [
+        {
+          "id": 7,
+          "concept": "The Sound Rule",
+          "trick": "Say the word aloud. Does your mouth open with a vowel sound (A, E, I, O, U sound)? Then AN. Consonant sound? Then A.",
+          "tricky_examples": [
+            { "word": "IT professional", "sound": "Eye-Tee → 'I' sound (vowel)", "correct": "AN IT professional" },
+            { "word": "MBA", "sound": "Em-Bee-Ay → 'E' sound (vowel)", "correct": "AN MBA" },
+            { "word": "HR manager", "sound": "Aitch-Arr → 'A/Ay' sound (vowel)", "correct": "AN HR manager" },
+            { "word": "university", "sound": "'You'-niversity → 'Y' sound (consonant)", "correct": "A university" },
+            { "word": "European", "sound": "'You'-ropean → 'Y' sound (consonant)", "correct": "A European" },
+            { "word": "hour", "sound": "'Ow'-r → 'O' sound (vowel, silent H)", "correct": "AN hour" }
+          ],
+          "hindi_trick": "A/AN ka rule spelling pe nahi, bolne ki awaaz pe hai!"
+        },
+        {
+          "id": 8,
+          "concept": "Job Title Quick Guide",
+          "trick": "A/AN before professions — memorize these common ones:",
+          "list": [
+            "a DOCTOR (D = consonant sound)",
+            "a TEACHER (T = consonant sound)",
+            "a MANAGER (M = consonant sound)",
+            "a SOFTWARE ENGINEER (S = consonant sound)",
+            "an ENGINEER (E = vowel sound)",
+            "an ACCOUNTANT (A = vowel sound)",
+            "an ARCHITECT (A = vowel sound)",
+            "an ACTOR (A = vowel sound)",
+            "an OFFICER (O = vowel sound)",
+            "an MBA graduate (M = 'Em' = vowel sound)",
+            "an IT professional (I = 'Eye' = vowel sound)",
+            "an HR executive (H = 'Aitch' = vowel sound)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s5",
+      "title": "Stative Verbs — Never Use -ING With These",
+      "hindiTitle": "Stative Verbs — इनके साथ -ING कभी नहीं",
+      "description": "The most common grammar error in India — using continuous tense with stative verbs.",
+      "mainRule": "Stative verbs describe STATES (not actions). States don't have -ING form.",
+      "tricks": [
+        {
+          "id": 9,
+          "concept": "The LIKES KNOW HAVE rule",
+          "trick": "Memorize: LIKES KNOW HAVE — these three never use -ING for states.",
+          "mnemonic": "LKH = Like, Know, Have — these three stative verbs are very common mistakes.",
+          "wrong_right": [
+            { "wrong": "I am liking this company", "right": "I like this company" },
+            { "wrong": "I am knowing many people", "right": "I know many people" },
+            { "wrong": "I am having a sister", "right": "I have a sister" },
+            { "wrong": "I am wanting to work here", "right": "I want to work here" },
+            { "wrong": "I am needing help", "right": "I need help" },
+            { "wrong": "I am understanding the concept", "right": "I understand the concept" }
+          ]
+        },
+        {
+          "id": 10,
+          "concept": "The action vs state test",
+          "trick": "Ask: Is this something you can 'do' right now and stop? Action → can use -ING. Is this a state of being? State → NO -ING.",
+          "examples": [
+            "Running — you can start and stop running. Action → I am running. ✓",
+            "Loving — you cannot 'start and stop' loving. State → I love (not I am loving). ✗",
+            "Knowing — you cannot 'do knowing'. State → I know (not I am knowing). ✗",
+            "Working — you can start and stop working. Action → I am working. ✓"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s6",
+      "title": "Preposition Memory Tricks — AT/IN/FOR/FROM",
+      "hindiTitle": "Preposition Memory Tricks",
+      "description": "Remember which preposition to use in introductions.",
+      "tricks": [
+        {
+          "id": 11,
+          "concept": "Work AT/FOR companies | Work IN industries",
+          "trick": "Think of a dartboard: you aim AT a specific target (company). You work IN a big area (industry/sector).",
+          "examples": [
+            { "context": "Specific company", "preposition": "AT or FOR", "example": "I work AT Google / I work FOR Google" },
+            { "context": "Industry/sector", "preposition": "IN", "example": "I work IN the IT sector / I work IN finance" }
+          ],
+          "hindi_trick": "Company ka naam = AT/FOR. Industry/sector = IN."
+        },
+        {
+          "id": 12,
+          "concept": "I am FROM [city] | I live IN [city]",
+          "trick": "FROM = origin (where you came from, past). IN = current location (where you are now, present).",
+          "examples": [
+            "I am FROM Delhi (but I don't live there now)",
+            "I live IN Mumbai (where I am right now)",
+            "I am FROM Delhi but I currently live IN Mumbai."
+          ],
+          "hindi_trick": "FROM = aap kahan se aaye (origin). IN = aap abhi kahan hain (current)."
+        },
+        {
+          "id": 13,
+          "concept": "I GRADUATED FROM | I COMPLETED my degree FROM",
+          "trick": "FROM = source. Education comes FROM a college. So you graduate/complete FROM a college.",
+          "examples": [
+            "I graduated FROM IIT Delhi. ✓",
+            "I completed my degree FROM IIT Delhi. ✓",
+            "I studied AT IIT Delhi. ✓ (AT = the place)",
+            "I studied IN IIT Delhi. ✗ (IN is wrong here)"
+          ]
+        },
+        {
+          "id": 14,
+          "concept": "Interested IN | Fond OF | Good AT",
+          "trick": "Remember: I-IN, F-OF, G-AT → IINFOGAT",
+          "examples": [
+            "Interested IN music (I = interested, IN = the preposition after)",
+            "Fond OF reading (F = fond, OF = the preposition after)",
+            "Good AT cricket (G = good, AT = the preposition after)",
+            "Passionate ABOUT technology (P = passionate, ABOUT)",
+            "Excited ABOUT the role (ABOUT for excitement)"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s7",
+      "title": "Template-Based Memory — 6 Ready Templates",
+      "hindiTitle": "Template-Based Memory — 6 Ready Templates",
+      "description": "Memorize these 6 templates and you can introduce yourself in any situation.",
+      "templates": [
+        {
+          "id": 15,
+          "situation": "Job Interview",
+          "template": "Good [time]. My name is [Name]. I am from [City]. I completed my [Degree] from [College] in [Year] with [Score]. I have been working as [Role] at [Company] for [Duration]. My key strength is [Strength]. I am passionate about [Field]. My goal is to [Goal]. Thank you for this opportunity.",
+          "trick": "Memorize as 9 slots: Greeting → Name → City → Education → Job → Strength → Passion → Goal → Thanks"
+        },
+        {
+          "id": 16,
+          "situation": "College Introduction",
+          "template": "Hi everyone! My name is [Name]. My friends call me [Nickname]. I am from [City]. I completed 12th with [%] in [Stream]. I love [Hobby1], [Hobby2], and [Hobby3]. My dream is to become [Career]. Nice to meet you all!",
+          "trick": "Memorize as: Name → Nickname → City → 12th → 3 Hobbies → Dream → Greeting"
+        },
+        {
+          "id": 17,
+          "situation": "New Office Introduction",
+          "template": "Good [time] everyone! My name is [Name]. I am joining as [Role]. I have [X] years of experience in [Field]. In my free time, I enjoy [Hobby]. I look forward to working with all of you!",
+          "trick": "Short and professional: Name → Role → Experience → Hobby → Looking Forward"
+        },
+        {
+          "id": 18,
+          "situation": "Online Meeting",
+          "template": "Hello everyone! I am [Name], [Role] at [Company], joining from [City]. I have been in [Field] for [Duration]. Excited to be on this call! Let's get started.",
+          "trick": "For online meetings: brief and action-oriented. Name → Role → Company → City → Experience → Excitement"
+        },
+        {
+          "id": 19,
+          "situation": "WhatsApp Group",
+          "template": "Hi all! I am [Name] from [City]. I [work as/am studying]. I joined this group because [reason]. Looking forward to learning with everyone! 😊",
+          "trick": "Casual: Name → City → What you do → Why you joined → Positive close"
+        },
+        {
+          "id": 20,
+          "situation": "Phone Call (First Contact)",
+          "template": "Good [time]! Am I speaking with [Name]? This is [Your Name] calling from [Company]. I am [Role]. The reason for my call is [purpose]. Do you have a few minutes?",
+          "trick": "Phone: Confirm receiver → Identify yourself → Company → Role → Purpose → Ask for time"
+        }
+      ]
+    },
+    {
+      "id": "s8",
+      "title": "Word Association Tricks — Remember Key Vocabulary",
+      "hindiTitle": "Word Association Tricks — Vocabulary याद रखने के तरीके",
+      "description": "Creative word associations to remember important vocabulary for self-introduction.",
+      "tricks": [
+        {
+          "id": 21,
+          "word": "passionate",
+          "meaning": "deeply interested/enthusiastic",
+          "association": "Imagine a fire 🔥 inside your chest. Passion = that fire. When you are PASSIONATE about something, it burns like a fire inside you.",
+          "sentence": "I am passionate about English learning."
+        },
+        {
+          "id": 22,
+          "word": "specialize",
+          "meaning": "to be an expert in one area",
+          "association": "SPECIAL + ize. When you SPECIALIZE, you become SPECIAL in one area. A specialist is someone special in their field.",
+          "sentence": "I specialize in digital marketing."
+        },
+        {
+          "id": 23,
+          "word": "enthusiastic",
+          "meaning": "very excited and interested",
+          "association": "Think EN-THUSI-ASTIC. 'Thusi' sounds like 'khushi' in Hindi. Being enthusiastic = being khushi (happy) about something!",
+          "sentence": "I am enthusiastic about this opportunity."
+        },
+        {
+          "id": 24,
+          "word": "versatile",
+          "meaning": "able to do many things well",
+          "association": "Verse-atile. A verse can be in many forms (poem, song, rap). Versatile = capable in many forms.",
+          "sentence": "I am a versatile professional with skills in marketing, design, and content."
+        },
+        {
+          "id": 25,
+          "word": "proficient",
+          "meaning": "skilled and competent in something",
+          "association": "PROFI-CIENT sounds like 'profit' + 'efficient'. A proficient person is efficient AND profitable in their skill.",
+          "sentence": "I am proficient in Python and SQL."
+        },
+        {
+          "id": 26,
+          "word": "collaborate",
+          "meaning": "to work together",
+          "association": "CO + LABOR + ATE. CO = together, LABOR = work. To collaborate = to work together.",
+          "sentence": "I enjoy collaborating with cross-functional teams."
+        },
+        {
+          "id": 27,
+          "word": "resilient",
+          "meaning": "able to recover from difficulties",
+          "association": "Think of rubber. Rubber BOUNCES BACK when you press it. A resilient person bounces back from problems — just like rubber!",
+          "sentence": "I am resilient and can perform well under pressure."
+        },
+        {
+          "id": 28,
+          "word": "diligent",
+          "meaning": "hardworking and careful",
+          "association": "DILI = Delhi (capital of India, very busy and hardworking). GENT = gentleman. A diligent person is a hardworking gentleman!",
+          "sentence": "I am a diligent worker who always meets deadlines."
+        }
+      ]
+    },
+    {
+      "id": "s9",
+      "title": "Rhythm and Rhyme Tricks",
+      "hindiTitle": "Rhythm और Rhyme Tricks",
+      "description": "Catchy rhymes and rhythms to remember grammar rules.",
+      "tricks": [
+        {
+          "id": 29,
+          "rule": "Use PAST tense for completed education",
+          "rhyme": "Yesterday I learned, today I earn — use PAST tense when the study is done!",
+          "application": "I COMPLETED (past) my B.Tech in 2022. Now I WORK (present)."
+        },
+        {
+          "id": 30,
+          "rule": "Prepositions for PLACE",
+          "rhyme": "AT a point, IN a space, FROM the origin — remember your place!",
+          "application": "Work AT Google | Live IN Delhi | Come FROM Patna"
+        },
+        {
+          "id": 31,
+          "rule": "The -ING Stative Rule",
+          "rhyme": "LOVE, LIKE, and KNOW — they do not FLOW with -ING, just so!",
+          "application": "I LIKE this company (not 'I am liking') | I KNOW the answer (not 'I am knowing')"
+        },
+        {
+          "id": 32,
+          "rule": "FOR vs SINCE",
+          "rhyme": "FOR a period, SINCE a date — know the difference, don't be late!",
+          "application": "I have worked FOR 3 years | I have worked SINCE 2021"
+        }
+      ]
+    },
+    {
+      "id": "s10",
+      "title": "Visualization Techniques — See It, Remember It",
+      "hindiTitle": "Visualization Techniques",
+      "description": "Create mental images to remember grammar rules permanently.",
+      "tricks": [
+        {
+          "id": 33,
+          "rule": "My name is (not 'Myself')",
+          "visualization": "Imagine yourself at a party. You walk up to someone with a name tag that says 'My name is [Name]'. You point at the name tag and say 'My name is'. You don't say 'Myself' — that's not on the name tag!",
+          "anchor": "NAME TAG = My name is"
+        },
+        {
+          "id": 34,
+          "rule": "I was born (not 'I am born')",
+          "visualization": "See a sepia photograph of yourself as a newborn baby. Old photos = past. 'I WAS born' — same old photo energy, same past tense.",
+          "anchor": "OLD PHOTO = WAS (past)"
+        },
+        {
+          "id": 35,
+          "rule": "I have BEEN working FOR 3 years (not 'I am working since 3 years')",
+          "visualization": "Imagine a timeline. There's a dot for '3 years ago' (when you started). There's a dot for 'today'. A line connects them. The line = 'have been'. The total length = FOR 3 years.",
+          "anchor": "TIMELINE LINE = have been | LENGTH = for [duration]"
+        },
+        {
+          "id": 36,
+          "rule": "AN before vowel sounds",
+          "visualization": "Imagine an open mouth (O shape) before vowel sounds. When the sound opens your mouth (A, E, I, O, U sounds) — use AN.",
+          "anchor": "OPEN MOUTH SOUND = AN"
+        }
+      ]
+    },
+    {
+      "id": "s11",
+      "title": "Daily Practice Memory Tricks",
+      "hindiTitle": "Daily Practice Memory Tricks",
+      "description": "Habits and practices to make self-introduction second nature.",
+      "habits": [
+        {
+          "id": 37,
+          "habit": "Mirror Practice",
+          "description": "Har subah mirror ke saamne apna introduction do. Pehle hafte: formal template. Doosre hafte: apne words mein. Teesre hafte: bina soche seedha bolo.",
+          "goal": "30 days mein — no thinking required. Just speak!",
+          "timeRequired": "5 minutes daily"
+        },
+        {
+          "id": 38,
+          "habit": "Recording Technique",
+          "description": "Phone mein apna introduction record karo. Suno. Notice karo kahan 'um', 'err', 'basically' zyada hai. Phir improve karo.",
+          "goal": "Weekly recording karke improve track karo",
+          "timeRequired": "10 minutes weekly"
+        },
+        {
+          "id": 39,
+          "habit": "Shadow Native Speakers",
+          "description": "YouTube par TED Talks ya job interview videos dekho. Jab koi apna introduction deta hai — pause karo, uski exact lines repeat karo. Uski pace, tone, pauses sab copy karo.",
+          "goal": "Absorb natural rhythm and confidence",
+          "timeRequired": "15 minutes, 3x per week"
+        },
+        {
+          "id": 40,
+          "habit": "Random Introduction Challenge",
+          "description": "Har naye person se milte waqt — chahe auto driver ho, shop owner ho, ya koi bhi — mentally apna English introduction rehearse karo. Imagine kar rahe ho tum interview mein ho.",
+          "goal": "Keep the introduction always ready in your mind",
+          "timeRequired": "Mental exercise — no extra time needed"
+        }
+      ]
+    }
+  ],
+  "masterSummary": {
+    "title": "The 10 Rules to Never Forget",
+    "rules": [
+      "1. NEVER say 'Myself Rahul' — always 'My name is Rahul'",
+      "2. NEVER say 'My good name' — just 'My name'",
+      "3. ALWAYS say 'I WAS born' (not 'I am born') — birth is past",
+      "4. NEVER say 'I am working since 3 years' — say 'for 3 years'",
+      "5. NEVER say 'I am liking/knowing/having' — use simple present",
+      "6. ALWAYS say 'I work AT Google' (not 'in Google') for companies",
+      "7. NEVER say 'I am belong to' — say 'I belong to' or 'I am from'",
+      "8. ALWAYS check A/AN by the SOUND, not the spelling",
+      "9. NEVER say 'passed out from college' — say 'graduated from'",
+      "10. ALWAYS end with 'I look forward to' or 'Thank you for this opportunity'"
+    ]
+  }
+}

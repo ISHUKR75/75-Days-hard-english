@@ -7,10 +7,366 @@
     "hindiTranslation": "रवि आत्मविश्वास के साथ interview room में गया। Interviewer ने मुस्कुराते हुए कहा, 'सुप्रभात। कृपया अपने बारे में बताएं।' रवि ने जवाब दिया, 'सुप्रभात, मैडम। मेरा नाम रवि कुमार है। मैं नागपुर से हूँ पर अभी पुणे में रहता हूँ। मैंने 2020 में Mechanical Engineering से graduation किया और तब से design engineer के रूप में तीन साल से काम कर रहा हूँ। मुझे innovative product design का शौक है और team में काम करना पसंद है। खाली समय में मुझे technical journals पढ़ना और badminton खेलना पसंद है। मुझे आपकी संस्था में योगदान देने का इंतज़ार है।' Interviewer ने सिर हिलाकर कहा, 'यह एक अच्छी तरह से structured introduction था। चलिए next सवाल पर चलते हैं।'"
   },
   "comprehensionQuestions": [
-    { "id": 1, "question": "Where is Ravi currently living?", "hindi": "रवि अभी कहाँ रहता है?", "options": ["Nagpur", "Pune", "Delhi", "Mumbai"], "answer": "Pune" },
-    { "id": 2, "question": "What is Ravi's profession?", "hindi": "रवि का profession क्या है?", "options": ["Software Engineer", "Design Engineer", "Teacher", "Doctor"], "answer": "Design Engineer" },
-    { "id": 3, "question": "How many years of experience does Ravi have?", "hindi": "रवि के पास कितने साल का अनुभव है?", "options": ["One year", "Two years", "Three years", "Four years"], "answer": "Three years" },
-    { "id": 4, "question": "What are Ravi's hobbies?", "hindi": "रवि के शौक क्या हैं?", "options": ["Painting and singing", "Reading and badminton", "Cooking and dancing", "Swimming and cycling"], "answer": "Reading and badminton" },
-    { "id": 5, "question": "What did the interviewer say about Ravi's introduction?", "hindi": "Interviewer ने रवि के introduction के बारे में क्या कहा?", "options": ["It was too long", "It was confusing", "It was well-structured", "It was incomplete"], "answer": "It was well-structured" }
+    {
+      "id": 1,
+      "question": "Where is Ravi currently living?",
+      "hindi": "रवि अभी कहाँ रहता है?",
+      "options": [
+        "Nagpur",
+        "Pune",
+        "Delhi",
+        "Mumbai"
+      ],
+      "answer": "Pune"
+    },
+    {
+      "id": 2,
+      "question": "What is Ravi's profession?",
+      "hindi": "रवि का profession क्या है?",
+      "options": [
+        "Software Engineer",
+        "Design Engineer",
+        "Teacher",
+        "Doctor"
+      ],
+      "answer": "Design Engineer"
+    },
+    {
+      "id": 3,
+      "question": "How many years of experience does Ravi have?",
+      "hindi": "रवि के पास कितने साल का अनुभव है?",
+      "options": [
+        "One year",
+        "Two years",
+        "Three years",
+        "Four years"
+      ],
+      "answer": "Three years"
+    },
+    {
+      "id": 4,
+      "question": "What are Ravi's hobbies?",
+      "hindi": "रवि के शौक क्या हैं?",
+      "options": [
+        "Painting and singing",
+        "Reading and badminton",
+        "Cooking and dancing",
+        "Swimming and cycling"
+      ],
+      "answer": "Reading and badminton"
+    },
+    {
+      "id": 5,
+      "question": "What did the interviewer say about Ravi's introduction?",
+      "hindi": "Interviewer ने रवि के introduction के बारे में क्या कहा?",
+      "options": [
+        "It was too long",
+        "It was confusing",
+        "It was well-structured",
+        "It was incomplete"
+      ],
+      "answer": "It was well-structured"
+    }
+  ],
+  "passages": [
+    {
+      "title": "A Successful Job Interview",
+      "text": "Ravi walked into the interview room with confidence. The interviewer smiled and said, 'Good morning. Please, tell me about yourself.' Ravi replied, 'Good morning, ma'am. My name is Ravi Kumar. I am from Nagpur, but I currently live in Pune. I graduated in Mechanical Engineering in 2020, and since then, I have been working as a design engineer for three years. I am passionate about innovative product design and enjoy working in a team environment. In my free time, I like reading technical journals and playing badminton. I am looking forward to contributing my skills to your esteemed organization.' The interviewer nodded and said, 'That was a well-structured introduction. Let's move to the next question.'",
+      "hindiTranslation": "रवि आत्मविश्वास के साथ interview room में गया। Interviewer ने मुस्कुराते हुए कहा, 'सुप्रभात। कृपया अपने बारे में बताएं।' रवि ने जवाब दिया, 'सुप्रभात, मैडम। मेरा नाम रवि कुमार है। मैं नागपुर से हूँ पर अभी पुणे में रहता हूँ। मैंने 2020 में Mechanical Engineering से graduation किया और तब से design engineer के रूप में तीन साल से काम कर रहा हूँ। मुझे innovative product design का शौक है और team में काम करना पसंद है। खाली समय में मुझे technical journals पढ़ना और badminton खेलना पसंद है। मुझे आपकी संस्था में योगदान देने का इंतज़ार है।' Interviewer ने सिर हिलाकर कहा, 'यह एक अच्छी तरह से structured introduction था। चलिए next सवाल पर चलते हैं।'",
+      "comprehensionQuestions": [
+        {
+          "id": 1,
+          "question": "Where is Ravi currently living?",
+          "hindi": "रवि अभी कहाँ रहता है?",
+          "options": [
+            "Nagpur",
+            "Pune",
+            "Delhi",
+            "Mumbai"
+          ],
+          "answer": "Pune"
+        },
+        {
+          "id": 2,
+          "question": "What is Ravi's profession?",
+          "hindi": "रवि का profession क्या है?",
+          "options": [
+            "Software Engineer",
+            "Design Engineer",
+            "Teacher",
+            "Doctor"
+          ],
+          "answer": "Design Engineer"
+        },
+        {
+          "id": 3,
+          "question": "How many years of experience does Ravi have?",
+          "hindi": "रवि के पास कितने साल का अनुभव है?",
+          "options": [
+            "One year",
+            "Two years",
+            "Three years",
+            "Four years"
+          ],
+          "answer": "Three years"
+        },
+        {
+          "id": 4,
+          "question": "What are Ravi's hobbies?",
+          "hindi": "रवि के शौक क्या हैं?",
+          "options": [
+            "Painting and singing",
+            "Reading and badminton",
+            "Cooking and dancing",
+            "Swimming and cycling"
+          ],
+          "answer": "Reading and badminton"
+        },
+        {
+          "id": 5,
+          "question": "What did the interviewer say about Ravi's introduction?",
+          "hindi": "Interviewer ने रवि के introduction के बारे में क्या कहा?",
+          "options": [
+            "It was too long",
+            "It was confusing",
+            "It was well-structured",
+            "It was incomplete"
+          ],
+          "answer": "It was well-structured"
+        }
+      ]
+    },
+    {
+      "title": "A First Day at a New Office",
+      "text": "Neha walked into her new office feeling both nervous and excited. Her manager, Mr. Kapoor, greeted her warmly. 'Welcome aboard! Let's introduce you to the team.' Neha stood up and said, 'Hi everyone, I'm Neha Sharma, the new marketing executive. I graduated from Pune University with a degree in Business Administration. Before joining here, I worked as a marketing intern for one year. I'm really excited to be part of this team and I look forward to learning from all of you.' Her colleague, Rohit, smiled and said, 'Great to have you, Neha! If you have any questions, feel free to ask me anytime.' By the end of the day, Neha felt much more comfortable in her new workplace.",
+      "hindiTranslation": "नेहा अपने नए office में घबराई हुई और उत्साहित दोनों feel कर रही थी। उसके manager, श्री कपूर ने उसका गर्मजोशी से स्वागत किया। 'स्वागत है! चलिए आपको team से मिलवाते हैं।' नेहा खड़ी हुई और बोली, 'नमस्ते सभी, मैं नेहा शर्मा हूँ, नई marketing executive। मैंने Pune University से Business Administration में डिग्री ली है। यहाँ join करने से पहले मैंने एक साल marketing intern के रूप में काम किया। मैं इस team का हिस्सा बनकर बहुत उत्साहित हूँ और आप सभी से सीखने का इंतज़ार कर रही हूँ।' उसके colleague, रोहित ने मुस्कुराते हुए कहा, 'आपका स्वागत है नेहा! अगर कोई सवाल हो तो कभी भी पूछ सकती हो।' दिन के अंत तक नेहा अपने नए workplace में काफी comfortable महसूस करने लगी।",
+      "comprehensionQuestions": [
+        {
+          "id": 6,
+          "question": "What is Neha's new job title?",
+          "hindi": "नेहा की नई job title क्या है?",
+          "options": [
+            "HR Executive",
+            "Marketing Executive",
+            "Software Engineer",
+            "Accountant"
+          ],
+          "answer": "Marketing Executive"
+        },
+        {
+          "id": 7,
+          "question": "Which university did Neha graduate from?",
+          "hindi": "नेहा ने किस university से graduation किया?",
+          "options": [
+            "Delhi University",
+            "Pune University",
+            "Mumbai University",
+            "Chennai University"
+          ],
+          "answer": "Pune University"
+        },
+        {
+          "id": 8,
+          "question": "What was Neha doing before joining this company?",
+          "hindi": "नेहा इस company में join करने से पहले क्या कर रही थी?",
+          "options": [
+            "Studying",
+            "Marketing Intern",
+            "Teaching",
+            "Freelancing"
+          ],
+          "answer": "Marketing Intern"
+        },
+        {
+          "id": 9,
+          "question": "How did Neha feel by the end of the day?",
+          "hindi": "दिन के अंत तक नेहा कैसा feel कर रही थी?",
+          "options": [
+            "Nervous",
+            "Angry",
+            "Comfortable",
+            "Confused"
+          ],
+          "answer": "Comfortable"
+        },
+        {
+          "id": 10,
+          "question": "Who welcomed Neha to the team?",
+          "hindi": "नेहा का team में किसने स्वागत किया?",
+          "options": [
+            "Mr. Kapoor",
+            "Rohit",
+            "Both Mr. Kapoor and Rohit",
+            "No one"
+          ],
+          "answer": "Both Mr. Kapoor and Rohit"
+        }
+      ]
+    },
+    {
+      "title": "Meeting an Old Friend Online",
+      "text": "Vikas logged into the video call, and there was Simran, a friend he hadn't seen in years. 'Vikas! Is that really you?' Simran exclaimed. 'Yes, it's me!' Vikas laughed. 'Let me properly introduce myself again — I'm Vikas Malhotra, currently working as a project manager in Bangalore. I got married last year and I have a two-year-old daughter now.' Simran smiled, 'Wow, so much has changed! I'm still in Jaipur, running my own boutique. Life has been good.' They spent the next hour catching up on old memories and sharing their new lives.",
+      "hindiTranslation": "विकास video call में login हुआ और वहाँ सिमरन थी, एक दोस्त जिसे उसने सालों से नहीं देखा था। 'विकास! क्या यह सच में तुम हो?' सिमरन ने कहा। 'हाँ, यह मैं हूँ!' विकास हँसा। 'चलो मैं फिर से अपना परिचय देता हूँ — मैं विकास मल्होत्रा हूँ, अभी बैंगलोर में project manager के रूप में काम कर रहा हूँ। पिछले साल मेरी शादी हुई और अब मेरी दो साल की बेटी है।' सिमरन मुस्कुराई, 'वाह, कितना कुछ बदल गया है! मैं अभी भी जयपुर में हूँ, अपनी boutique चला रही हूँ। ज़िंदगी अच्छी रही है।' उन्होंने अगला एक घंटा पुरानी यादों और अपनी नई ज़िंदगी के बारे में बात करते हुए बिताया।",
+      "comprehensionQuestions": [
+        {
+          "id": 11,
+          "question": "Where does Vikas currently work?",
+          "hindi": "विकास अभी कहाँ काम करता है?",
+          "options": [
+            "Jaipur",
+            "Bangalore",
+            "Delhi",
+            "Pune"
+          ],
+          "answer": "Bangalore"
+        },
+        {
+          "id": 12,
+          "question": "What is Vikas's job title?",
+          "hindi": "विकास की job title क्या है?",
+          "options": [
+            "Software Engineer",
+            "Project Manager",
+            "Teacher",
+            "Doctor"
+          ],
+          "answer": "Project Manager"
+        },
+        {
+          "id": 13,
+          "question": "What does Simran run in Jaipur?",
+          "hindi": "सिमरन जयपुर में क्या चलाती है?",
+          "options": [
+            "A restaurant",
+            "A boutique",
+            "A school",
+            "A hospital"
+          ],
+          "answer": "A boutique"
+        },
+        {
+          "id": 14,
+          "question": "How old is Vikas's daughter?",
+          "hindi": "विकास की बेटी कितने साल की है?",
+          "options": [
+            "One year",
+            "Two years",
+            "Three years",
+            "Four years"
+          ],
+          "answer": "Two years"
+        }
+      ]
+    },
+    {
+      "title": "A New Teacher on the First Day",
+      "text": "Mrs. Kavita Rao walked into the classroom, feeling both nervous and excited on her first day at the new school. 'Good morning class,' she said with a warm smile, 'I'm Mrs. Kavita Rao, and I'll be your English teacher this year.' The students looked at her curiously. She continued, 'I have been teaching for over eight years, and I love making grammar fun through games and stories.' One student, Rohit, raised his hand and asked, 'Ma'am, what is your favourite book?' Mrs. Rao laughed and replied, 'That's a great question to start with! My favourite book is Pride and Prejudice.' By the end of the class, the students were already looking forward to her next lesson.",
+      "hindiTranslation": "श्रीमती कविता राव अपने नए school में पहले दिन कक्षा में गईं, घबराई हुई और उत्साहित दोनों। 'सुप्रभात class,' उन्होंने गर्मजोशी से मुस्कुराते हुए कहा, 'मैं श्रीमती कविता राव हूँ, और इस साल मैं आपकी English teacher रहूँगी।' छात्रों ने उत्सुकता से उन्हें देखा। उन्होंने आगे कहा, 'मैं आठ सालों से पढ़ा रही हूँ, और मुझे games और stories के ज़रिए grammar को मज़ेदार बनाना पसंद है।' एक छात्र, रोहित, ने हाथ उठाकर पूछा, 'मैडम, आपकी पसंदीदा किताब कौन सी है?' श्रीमती राव हँसीं और बोलीं, 'शुरुआत के लिए यह बढ़िया सवाल है! मेरी पसंदीदा किताब Pride and Prejudice है।' कक्षा के अंत तक, छात्र पहले से ही उनकी अगली lesson का इंतज़ार करने लगे थे।",
+      "comprehensionQuestions": [
+        {
+          "id": 15,
+          "question": "What subject does Mrs. Kavita Rao teach?",
+          "hindi": "श्रीमती कविता राव कौन सा subject पढ़ाती हैं?",
+          "options": [
+            "Maths",
+            "English",
+            "Science",
+            "History"
+          ],
+          "answer": "English"
+        },
+        {
+          "id": 16,
+          "question": "How many years of teaching experience does she have?",
+          "hindi": "उनके पास कितने साल का teaching experience है?",
+          "options": [
+            "Five years",
+            "Six years",
+            "Over eight years",
+            "Ten years"
+          ],
+          "answer": "Over eight years"
+        },
+        {
+          "id": 17,
+          "question": "Who asked about her favourite book?",
+          "hindi": "उनकी पसंदीदा किताब के बारे में किसने पूछा?",
+          "options": [
+            "Mrs. Rao",
+            "Rohit",
+            "The principal",
+            "No one"
+          ],
+          "answer": "Rohit"
+        },
+        {
+          "id": 18,
+          "question": "What is Mrs. Rao's favourite book?",
+          "hindi": "श्रीमती राव की पसंदीदा किताब कौन सी है?",
+          "options": [
+            "War and Peace",
+            "Pride and Prejudice",
+            "Harry Potter",
+            "1984"
+          ],
+          "answer": "Pride and Prejudice"
+        }
+      ]
+    },
+    {
+      "title": "Introducing a New Business Partner",
+      "text": "The conference room was full as Rakesh Gupta stood up to speak. 'Good morning everyone, I'm Rakesh Gupta, Sales Head at ABC Textiles,' he began confidently. 'On behalf of my team, I'd like to thank you for this opportunity. We're here to discuss the new partnership between our companies.' The clients nodded, impressed by his clear and confident introduction. After the meeting, one of the clients, Mr. Iyer, approached him and said, 'Your introduction was very professional, Mr. Gupta. I look forward to working with you.' Rakesh smiled and replied, 'Thank you, Mr. Iyer. I'm looking forward to a successful partnership as well.'",
+      "hindiTranslation": "Conference room भरा हुआ था जब राकेश गुप्ता बोलने के लिए खड़े हुए। 'सुप्रभात सभी, मैं राकेश गुप्ता हूँ, ABC Textiles में Sales Head,' उन्होंने आत्मविश्वास के साथ शुरुआत की। 'अपनी team की तरफ से, मैं इस अवसर के लिए धन्यवाद देना चाहूँगा। हम अपनी companies के बीच नए partnership पर चर्चा करने आए हैं।' clients ने उनके स्पष्ट और आत्मविश्वासी introduction से प्रभावित होकर सिर हिलाया। meeting के बाद, एक client, श्री अय्यर, ने उनके पास आकर कहा, 'आपका introduction बहुत professional था, श्री गुप्ता। मैं आपके साथ काम करने का इंतज़ार कर रहा हूँ।' राकेश मुस्कुराए और बोले, 'धन्यवाद, श्री अय्यर। मैं भी एक सफल partnership का इंतज़ार कर रहा हूँ।'",
+      "comprehensionQuestions": [
+        {
+          "id": 19,
+          "question": "What is Rakesh Gupta's designation?",
+          "hindi": "राकेश गुप्ता की designation क्या है?",
+          "options": [
+            "Marketing Head",
+            "Sales Head",
+            "CEO",
+            "HR Manager"
+          ],
+          "answer": "Sales Head"
+        },
+        {
+          "id": 20,
+          "question": "Which company does Rakesh work for?",
+          "hindi": "राकेश किस company के लिए काम करते हैं?",
+          "options": [
+            "ABC Textiles",
+            "XYZ Solutions",
+            "QuickFix Support",
+            "DEF Traders"
+          ],
+          "answer": "ABC Textiles"
+        },
+        {
+          "id": 21,
+          "question": "What was the purpose of the meeting?",
+          "hindi": "meeting का purpose क्या था?",
+          "options": [
+            "Hiring",
+            "New partnership",
+            "Product launch",
+            "Salary discussion"
+          ],
+          "answer": "New partnership"
+        },
+        {
+          "id": 22,
+          "question": "How did the client, Mr. Iyer, describe Rakesh's introduction?",
+          "hindi": "client, श्री अय्यर ने राकेश के introduction को कैसे describe किया?",
+          "options": [
+            "Boring",
+            "Confusing",
+            "Very professional",
+            "Too long"
+          ],
+          "answer": "Very professional"
+        }
+      ]
+    }
   ]
 }
