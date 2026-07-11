@@ -386,11 +386,12 @@ export default function DayOverviewPage() {
   }, [dayNum, retryKey]);
 
   // ─── Derived: which sections are completed ────────────────
+  // SectionLayout stores completions with key: "day-{dayNum}-section-{sectionId}"
+  // (no "-complete" suffix — that was a bug)
   const completedSectionIds = useMemo(() => {
-    // Each completed section is stored with key: "day-{dayNum}-section-{sectionId}-complete"
     const completed = new Set();
     SECTIONS.forEach((section) => {
-      const key = `day-${dayNum}-section-${section.id}-complete`;
+      const key = `day-${dayNum}-section-${section.id}`;
       if (lessons?.[key]?.completed) {
         completed.add(section.id);
       }

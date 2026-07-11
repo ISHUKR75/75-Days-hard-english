@@ -401,16 +401,14 @@ export default function VocabularySection({ data, dayNum }) {
   );
 
   // ── Toggle mastered ────────────────────────────────────────
+  // Compute new value BEFORE calling setMastered so we can run
+  // side-effects (store writes, XP) safely outside the updater.
   const handleToggleMastered = useCallback((wordId) => {
-    setMastered((prev) => {
-      const nowMastered = !prev[wordId];
-      // Persist to progress store
-      markWordLearned(wordId, nowMastered);
-      // Award XP for newly mastered
-      if (nowMastered) addXP(5, { reason: 'vocabulary_mastered' });
-      return { ...prev, [wordId]: nowMastered };
-    });
-  }, [markWordLearned, addXP]);
+    const nowMastered = !mastered[wordId];
+    setMastered((prev) => ({ ...prev, [wordId]: nowMastered }));
+    markWordLearned(wordId, nowMastered);
+    if (nowMastered) addXP(5, { reason: 'vocabulary_mastered' });
+  }, [mastered, markWordLearned, addXP]);
 
   // ── Mastery stats ──────────────────────────────────────────
   const masteredCount = useMemo(() => Object.values(mastered).filter(Boolean).length, [mastered]);

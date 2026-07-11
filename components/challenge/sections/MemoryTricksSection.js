@@ -220,7 +220,7 @@ export default function MemoryTricksSection({ data, dayNum }) {
   };
 
   return (
-    <div className="min-h-screen bg-[#0a0a0f] px-4 py-8">
+    <div className="px-4 md:px-8 py-6">
       {/* Animated background blobs */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none -z-10">
         <motion.div

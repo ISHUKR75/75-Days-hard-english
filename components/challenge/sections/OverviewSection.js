@@ -68,11 +68,14 @@ export default function OverviewSection({ data, dayNum }) {
     whatYouWillLearn = [],
   } = overview;
 
-  const topic = data?.topic || 'English Lesson';
+  // data.topic may be a string OR an object {title, emoji, cefr, difficulty, type}
+  const rawTopic = data?.topic;
+  const topicObj = rawTopic && typeof rawTopic === 'object' ? rawTopic : {};
+  const topic = topicObj.title || (typeof rawTopic === 'string' ? rawTopic : 'English Lesson');
   const title = data?.title || topic;
-  const emoji = data?.emoji || '📚';
-  const cefr = data?.cefr || 'B1';
-  const difficulty = data?.difficulty || 'Intermediate';
+  const emoji = topicObj.emoji || data?.emoji || '📚';
+  const cefr = topicObj.cefr || data?.cefr || 'A1';
+  const difficulty = topicObj.difficulty || data?.difficulty || 'Beginner';
   const stats = data?.stats || {};
 
   // XP potential = sum of all activities

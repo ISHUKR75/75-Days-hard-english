@@ -231,7 +231,7 @@ export default function TestSection({ data, dayNum }) {
   // RENDER: START SCREEN
   // ──────────────────────────────────────────────────────────
   if (screen === 'start') return (
-    <div className="min-h-screen bg-[#0a0a0f] px-4 py-8">
+    <div className="px-4 md:px-8 py-6">
       {/* Header */}
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-10">
         <div className="text-6xl mb-4">📊</div>
@@ -304,7 +304,7 @@ export default function TestSection({ data, dayNum }) {
     const timerColor = timerPct > 50 ? 'bg-emerald-500' : timerPct > 20 ? 'bg-orange-500' : 'bg-red-500';
 
     return (
-      <div className="min-h-screen bg-[#0a0a0f] px-4 py-6">
+      <div className="px-4 md:px-8 py-6">
         {/* Top bar */}
         <div className="max-w-2xl mx-auto mb-6">
           <div className="flex items-center justify-between mb-3">
@@ -434,7 +434,7 @@ export default function TestSection({ data, dayNum }) {
     .filter(x => x.ans && !x.ans.correct);
 
   return (
-    <div className="min-h-screen bg-[#0a0a0f] px-4 py-8">
+    <div className="px-4 md:px-8 py-6">
       <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl mx-auto">
         {/* Score card */}
         <div className="bg-white/5 border border-white/10 rounded-2xl p-8 mb-6 text-center">

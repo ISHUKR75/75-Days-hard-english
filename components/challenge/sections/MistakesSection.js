@@ -219,7 +219,7 @@ export default function MistakesSection({ data, dayNum }) {
   const quizCard = quizDeck[quizIndex % Math.max(1, quizDeck.length)];
 
   return (
-    <div className="min-h-screen bg-[#0a0a0f] px-4 py-8">
+    <div className="px-4 md:px-8 py-6">
       {/* Header */}
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="max-w-2xl mx-auto text-center mb-8">
         <div className="text-5xl mb-3">🚫</div>

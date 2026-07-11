@@ -159,18 +159,22 @@ export default function FlashcardsSection({ data, dayNum }) {
   const toggleMastered = () => {
     const card = deck[current];
     if (!card) return;
+    const alreadyMastered = mastered.has(card.id);
     setMastered(prev => {
       const n = new Set(prev);
-      if (n.has(card.id)) {
+      if (alreadyMastered) {
         n.delete(card.id);
       } else {
         n.add(card.id);
-        addXP(5);
-        setStreak(s => s + 1);
-        recordQuestionResult?.(card.id, true);
       }
       return n;
     });
+    // Side-effects outside the updater to avoid setState-during-render
+    if (!alreadyMastered) {
+      addXP(5);
+      setStreak(s => s + 1);
+      recordQuestionResult?.(card.id, true);
+    }
   };
 
   const card = deck[current];
@@ -178,7 +182,7 @@ export default function FlashcardsSection({ data, dayNum }) {
   const masteredPct = deck.length ? Math.round((masteredCount / deck.length) * 100) : 0;
 
   return (
-    <div className="min-h-screen bg-[#0a0a0f] px-4 py-8">
+    <div className="px-4 md:px-8 py-6">
       {/* Header */}
       <motion.div initial={{ opacity: 0, y: -20 }} animate={{ opacity: 1, y: 0 }} className="text-center mb-8">
         <div className="text-5xl mb-3">🃏</div>

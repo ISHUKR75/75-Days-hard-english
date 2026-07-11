@@ -4,7 +4,10 @@
  * SectionLayout — Shared wrapper for all 20 section pages
  * =========================================================
  * Provides the full chrome: sticky header, desktop sidebar,
- * mobile bottom bar, completion logic, confetti, and XP awards. 🎉
+ * mobile bottom bar, completion logic, confetti, and XP awards.
+ *
+ * UPGRADED: More Gen Z, more immersive, better animations,
+ * friendlier tone, and section-specific color theming.
  *
  * Props:
  *   children     – The actual section component content
@@ -15,8 +18,8 @@
  *   sections     – Full SECTIONS array (passed from page)
  */
 
-import { useState, useEffect, useCallback } from 'react';
-import { motion, AnimatePresence } from 'framer-motion';
+import { useState, useEffect, useCallback, useRef } from 'react';
+import { motion, AnimatePresence, useScroll, useTransform } from 'framer-motion';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
 import useProgressStore from '@/store/progressStore';
@@ -30,6 +33,14 @@ import {
   Zap,
   Lock,
   BookOpen,
+  Menu,
+  X,
+  Flame,
+  Trophy,
+  Sparkles,
+  Clock,
+  Target,
+  Play,
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { cn } from '@/lib/utils';
@@ -40,87 +51,129 @@ import { cn } from '@/lib/utils';
 
 /** Fire a celebratory confetti burst 🎊 */
 function fireConfetti() {
-  // First burst — wide spread
+  // Main burst
   confetti({
-    particleCount: 120,
-    spread: 80,
+    particleCount: 150,
+    spread: 90,
     origin: { y: 0.6 },
-    colors: ['#8b5cf6', '#a855f7', '#06b6d4', '#10b981', '#f59e0b'],
+    colors: ['#8b5cf6', '#a855f7', '#06b6d4', '#10b981', '#f59e0b', '#ec4899'],
+    scalar: 1.2,
   });
-
-  // Second burst — from left
+  // Left side burst
   setTimeout(() => {
     confetti({
-      particleCount: 60,
+      particleCount: 80,
       angle: 60,
-      spread: 55,
+      spread: 70,
       origin: { x: 0, y: 0.65 },
       colors: ['#8b5cf6', '#ec4899', '#06b6d4'],
     });
-  }, 200);
-
-  // Third burst — from right
+  }, 150);
+  // Right side burst
   setTimeout(() => {
     confetti({
-      particleCount: 60,
+      particleCount: 80,
       angle: 120,
-      spread: 55,
+      spread: 70,
       origin: { x: 1, y: 0.65 },
       colors: ['#f59e0b', '#10b981', '#a855f7'],
     });
-  }, 350);
+  }, 300);
+  // Stars burst
+  setTimeout(() => {
+    confetti({
+      particleCount: 40,
+      spread: 360,
+      origin: { x: 0.5, y: 0.4 },
+      shapes: ['star'],
+      colors: ['#f59e0b', '#fbbf24', '#fcd34d'],
+      scalar: 1.5,
+    });
+  }, 500);
+}
+
+/** Play a completion sound using Web Audio API */
+function playCompletionSound() {
+  try {
+    const ctx = new (window.AudioContext || window.webkitAudioContext)();
+    // Chord: C major + octave
+    const freqs = [523.25, 659.25, 783.99, 1046.5];
+    freqs.forEach((freq, i) => {
+      const osc = ctx.createOscillator();
+      const gain = ctx.createGain();
+      osc.connect(gain);
+      gain.connect(ctx.destination);
+      osc.type = 'sine';
+      osc.frequency.value = freq;
+      gain.gain.setValueAtTime(0, ctx.currentTime + i * 0.08);
+      gain.gain.linearRampToValueAtTime(0.07, ctx.currentTime + i * 0.08 + 0.05);
+      gain.gain.exponentialRampToValueAtTime(0.001, ctx.currentTime + i * 0.08 + 0.8);
+      osc.start(ctx.currentTime + i * 0.08);
+      osc.stop(ctx.currentTime + i * 0.08 + 0.8);
+    });
+  } catch (_) {
+    // AudioContext blocked — silently skip
+  }
 }
 
 // ============================================================
 // SIDEBAR SECTION ITEM
 // ============================================================
-function SidebarItem({ section, isActive, isCompleted, dayNum }) {
+function SidebarItem({ section, isActive, isCompleted, dayNum, index }) {
   return (
-    <Link
-      href={`/75-days-challenge/${dayNum}/${section.id}`}
-      className={cn(
-        'group flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all duration-200',
-        isActive
-          ? `bg-gradient-to-r ${section.color} shadow-lg shadow-violet-500/20`
-          : isCompleted
-          ? 'bg-white/5 hover:bg-white/10 border border-emerald-500/20'
-          : 'hover:bg-white/5 border border-transparent',
-      )}
+    <motion.div
+      initial={{ opacity: 0, x: -16 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ delay: index * 0.035, duration: 0.3 }}
     >
-      {/* Section icon */}
-      <span className="text-lg flex-shrink-0 w-7 text-center leading-none">
-        {section.icon}
-      </span>
+      <Link
+        href={`/75-days-challenge/${dayNum}/${section.id}`}
+        className={cn(
+          'group flex items-center gap-3 px-3 py-2.5 rounded-xl transition-all duration-200',
+          isActive
+            ? `bg-gradient-to-r ${section.color} shadow-lg`
+            : isCompleted
+            ? 'bg-emerald-500/10 hover:bg-emerald-500/15 border border-emerald-500/20'
+            : 'hover:bg-white/6 border border-transparent hover:border-white/10',
+        )}
+      >
+        {/* Section icon */}
+        <span className="text-lg flex-shrink-0 w-7 text-center leading-none transition-transform group-hover:scale-110">
+          {isCompleted && !isActive ? '✅' : section.icon}
+        </span>
 
-      {/* Text */}
-      <div className="flex-1 min-w-0">
-        <p
-          className={cn(
-            'text-sm font-medium truncate',
-            isActive ? 'text-white' : 'text-gray-300',
-          )}
-        >
-          {section.title}
-        </p>
-        <p className="text-xs text-gray-500 truncate group-hover:text-gray-400 transition-colors">
-          {section.time} · {section.xp} XP
-        </p>
-      </div>
+        {/* Text */}
+        <div className="flex-1 min-w-0">
+          <p className={cn(
+            'text-sm font-semibold truncate leading-tight',
+            isActive ? 'text-white' : isCompleted ? 'text-emerald-300' : 'text-gray-300',
+          )}>
+            {section.title}
+          </p>
+          <p className="text-[11px] text-gray-500 truncate mt-0.5 group-hover:text-gray-400 transition-colors">
+            {section.time} · +{section.xp} XP
+          </p>
+        </div>
 
-      {/* Status badge */}
-      <div className="flex-shrink-0">
-        {isCompleted ? (
-          <CheckCircle2 className="w-4 h-4 text-emerald-400" />
-        ) : isActive ? (
-          <div className="w-2 h-2 rounded-full bg-white animate-pulse" />
-        ) : null}
-      </div>
-    </Link>
+        {/* Status */}
+        <div className="flex-shrink-0 w-5">
+          {isCompleted && !isActive ? (
+            <CheckCircle2 className="w-4 h-4 text-emerald-400" />
+          ) : isActive ? (
+            <motion.div
+              className="w-2 h-2 rounded-full bg-white"
+              animate={{ opacity: [1, 0.4, 1] }}
+              transition={{ duration: 1.2, repeat: Infinity }}
+            />
+          ) : null}
+        </div>
+      </Link>
+    </motion.div>
   );
 }
 
 // ============================================================
-// SUCCESS TOAST
+// SUCCESS TOAST — fires when section is marked complete
 // ============================================================
 function SuccessToast({ xp, sectionTitle, visible }) {
   return (
@@ -128,24 +181,41 @@ function SuccessToast({ xp, sectionTitle, visible }) {
       {visible && (
         <motion.div
           key="success-toast"
-          initial={{ opacity: 0, y: 50, scale: 0.9 }}
+          initial={{ opacity: 0, y: 60, scale: 0.85 }}
           animate={{ opacity: 1, y: 0, scale: 1 }}
-          exit={{ opacity: 0, y: 30, scale: 0.95 }}
-          transition={{ type: 'spring', damping: 18, stiffness: 300 }}
-          className="fixed bottom-24 left-1/2 -translate-x-1/2 z-[9999]
-                     bg-emerald-500/20 backdrop-blur-xl border border-emerald-500/40
+          exit={{ opacity: 0, y: 20, scale: 0.9 }}
+          transition={{ type: 'spring', damping: 16, stiffness: 280 }}
+          className="fixed bottom-28 left-1/2 -translate-x-1/2 z-[9999]
+                     bg-[#0f0f1a]/95 backdrop-blur-2xl border border-emerald-500/40
                      rounded-2xl px-6 py-4 shadow-2xl shadow-emerald-500/20
-                     flex items-center gap-4 min-w-[280px] max-w-sm"
+                     flex items-center gap-4 min-w-[300px] max-w-sm"
         >
-          <div className="text-3xl">🎉</div>
-          <div>
-            <p className="text-emerald-400 font-bold text-sm">Section Complete!</p>
-            <p className="text-white font-medium text-xs">{sectionTitle}</p>
+          {/* Animated check */}
+          <div className="w-11 h-11 rounded-full bg-emerald-500/20 border border-emerald-500/40 flex items-center justify-center flex-shrink-0">
+            <motion.div
+              initial={{ scale: 0 }}
+              animate={{ scale: 1 }}
+              transition={{ type: 'spring', delay: 0.1 }}
+            >
+              <CheckCircle2 className="w-5 h-5 text-emerald-400" />
+            </motion.div>
           </div>
-          <div className="ml-auto flex items-center gap-1 bg-yellow-500/20 border border-yellow-500/30 rounded-xl px-3 py-1.5">
-            <Zap className="w-3.5 h-3.5 text-yellow-400" />
-            <span className="text-yellow-400 font-bold text-sm">+{xp} XP</span>
+
+          <div className="flex-1 min-w-0">
+            <p className="text-emerald-400 font-bold text-sm">Section crushed! 🔥</p>
+            <p className="text-gray-300 text-xs truncate mt-0.5">{sectionTitle}</p>
           </div>
+
+          {/* XP badge */}
+          <motion.div
+            initial={{ scale: 0, rotate: -12 }}
+            animate={{ scale: 1, rotate: 0 }}
+            transition={{ type: 'spring', delay: 0.2 }}
+            className="flex items-center gap-1.5 bg-yellow-500/15 border border-yellow-500/30 rounded-xl px-3 py-2 flex-shrink-0"
+          >
+            <Zap className="w-4 h-4 text-yellow-400" />
+            <span className="text-yellow-300 font-black text-base">+{xp}</span>
+          </motion.div>
         </motion.div>
       )}
     </AnimatePresence>
@@ -155,83 +225,96 @@ function SuccessToast({ xp, sectionTitle, visible }) {
 // ============================================================
 // MOBILE BOTTOM NAV BAR
 // ============================================================
-function MobileBottomBar({
-  prevSection,
-  nextSection,
-  dayNum,
-  isCompleted,
-  onComplete,
-  isCompleting,
-}) {
+function MobileBottomBar({ prevSection, nextSection, dayNum, isCompleted, onComplete, isCompleting }) {
   return (
-    <div
-      className="fixed bottom-0 left-0 right-0 z-50 lg:hidden
-                    bg-[#0a0a0f]/80 backdrop-blur-xl border-t border-white/10
-                    flex items-center gap-2 px-4 py-3 safe-area-bottom"
-    >
-      {/* Prev */}
+    <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden
+                    bg-[#080810]/90 backdrop-blur-2xl border-t border-white/10
+                    flex items-center gap-2 px-3 py-3">
+      {/* Previous */}
       {prevSection ? (
         <Link
           href={`/75-days-challenge/${dayNum}/${prevSection.id}`}
           className="flex items-center gap-1.5 px-3 py-2.5 rounded-xl bg-white/5 hover:bg-white/10
-                     transition-colors text-gray-400 hover:text-white text-sm font-medium"
+                     transition-all text-gray-400 hover:text-white text-sm font-medium border border-white/5"
         >
           <ChevronLeft className="w-4 h-4" />
-          <span className="hidden xs:inline truncate max-w-[80px]">
+          <span className="hidden xs:inline text-xs truncate max-w-[70px]">
             {prevSection.title}
           </span>
         </Link>
       ) : (
-        <div className="w-12" />
+        <div className="w-10" />
       )}
 
-      {/* Mark Complete (center) */}
-      <button
+      {/* Complete button */}
+      <motion.button
         onClick={onComplete}
         disabled={isCompleted || isCompleting}
+        whileTap={{ scale: isCompleted ? 1 : 0.96 }}
         className={cn(
           'flex-1 flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl',
-          'font-semibold text-sm transition-all duration-300',
+          'font-bold text-sm transition-all duration-300',
           isCompleted
-            ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 cursor-default'
+            ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 cursor-default'
             : isCompleting
-            ? 'bg-violet-600/50 text-white/70 cursor-wait'
-            : 'bg-gradient-to-r from-violet-600 to-purple-500 text-white hover:shadow-lg hover:shadow-violet-500/25 active:scale-95',
+            ? 'bg-violet-600/40 text-white/60 cursor-wait'
+            : 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white shadow-lg shadow-violet-500/30 active:scale-95',
         )}
       >
         {isCompleted ? (
-          <>
-            <CheckCircle2 className="w-4 h-4" />
-            Done!
-          </>
+          <><CheckCircle2 className="w-4 h-4" /> Done ✅</>
         ) : isCompleting ? (
-          <>
-            <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-            Saving…
-          </>
+          <><div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" /> Saving…</>
         ) : (
-          <>
-            <CheckCircle2 className="w-4 h-4" />
-            Complete ✅
-          </>
+          <><Sparkles className="w-4 h-4" /> Mark Done 🎯</>
         )}
-      </button>
+      </motion.button>
 
       {/* Next */}
       {nextSection ? (
         <Link
           href={`/75-days-challenge/${dayNum}/${nextSection.id}`}
           className="flex items-center gap-1.5 px-3 py-2.5 rounded-xl bg-white/5 hover:bg-white/10
-                     transition-colors text-gray-400 hover:text-white text-sm font-medium"
+                     transition-all text-gray-400 hover:text-white text-sm font-medium border border-white/5"
         >
-          <span className="hidden xs:inline truncate max-w-[80px]">
+          <span className="hidden xs:inline text-xs truncate max-w-[70px]">
             {nextSection.title}
           </span>
           <ChevronRight className="w-4 h-4" />
         </Link>
       ) : (
-        <div className="w-12" />
+        <div className="w-10" />
       )}
+    </div>
+  );
+}
+
+// ============================================================
+// ANIMATED PROGRESS RING — shows day completion %
+// ============================================================
+function MiniProgressRing({ percent, size = 44 }) {
+  const r = (size - 8) / 2;
+  const circ = 2 * Math.PI * r;
+  const offset = circ - (percent / 100) * circ;
+  return (
+    <div className="relative flex-shrink-0" style={{ width: size, height: size }}>
+      <svg width={size} height={size} className="-rotate-90">
+        <circle cx={size / 2} cy={size / 2} r={r} fill="none" stroke="rgba(255,255,255,0.08)" strokeWidth="4" />
+        <motion.circle
+          cx={size / 2} cy={size / 2} r={r}
+          fill="none"
+          stroke="#8b5cf6"
+          strokeWidth="4"
+          strokeLinecap="round"
+          strokeDasharray={circ}
+          initial={{ strokeDashoffset: circ }}
+          animate={{ strokeDashoffset: offset }}
+          transition={{ duration: 1, ease: 'easeOut' }}
+        />
+      </svg>
+      <div className="absolute inset-0 flex items-center justify-center">
+        <span className="text-[10px] font-black text-violet-300">{percent}%</span>
+      </div>
     </div>
   );
 }
@@ -250,294 +333,268 @@ export default function SectionLayout({
 }) {
   const router = useRouter();
 
-  // ── Stores ───────────────────────────────────────────────
+  // ── Stores ────────────────────────────────────────────────
   const completeLesson = useProgressStore((s) => s.completeLesson);
   const lessons = useProgressStore((s) => s.lessons);
   const addXP = useGamificationStore((s) => s.addXP);
 
-  // ── Derived state ────────────────────────────────────────
+  // ── Derived state ─────────────────────────────────────────
   const lessonKey = `day-${dayNum}-section-${sectionId}`;
   const isCompleted = Boolean(lessons?.[lessonKey]?.completed);
 
-  // Current section index
   const currentIndex = sections.findIndex((s) => s.id === sectionId);
   const prevSection = currentIndex > 0 ? sections[currentIndex - 1] : null;
-  const nextSection =
-    currentIndex < sections.length - 1 ? sections[currentIndex + 1] : null;
+  const nextSection = currentIndex < sections.length - 1 ? sections[currentIndex + 1] : null;
 
-  // ── Local UI state ───────────────────────────────────────
-  const [isCompleting, setIsCompleting] = useState(false);
-  const [showToast, setShowToast] = useState(false);
-  const [sidebarOpen, setSidebarOpen] = useState(false); // mobile sidebar toggle
-
-  // Count completed sections for progress ring
   const completedCount = sections.filter(
     (s) => lessons?.[`day-${dayNum}-section-${s.id}`]?.completed,
   ).length;
-  const progressPercent =
-    sections.length > 0
-      ? Math.round((completedCount / sections.length) * 100)
-      : 0;
+  const progressPercent = sections.length > 0
+    ? Math.round((completedCount / sections.length) * 100)
+    : 0;
 
-  // ── Complete handler ─────────────────────────────────────
+  // ── Local UI state ────────────────────────────────────────
+  const [isCompleting, setIsCompleting] = useState(false);
+  const [showToast, setShowToast] = useState(false);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
+
+  // ── Complete handler ──────────────────────────────────────
   const handleComplete = useCallback(async () => {
     if (isCompleted || isCompleting) return;
-
     setIsCompleting(true);
-
     try {
-      // 1. Record in progress store
       completeLesson(lessonKey, 100);
-
-      // 2. Award XP via gamification store
       addXP(sectionMeta.xp, {
         source: `challenge_section_${sectionId}`,
         label: sectionMeta.title,
       });
-
-      // 3. Fire confetti 🎉
       fireConfetti();
-
-      // 4. Show success toast
+      playCompletionSound();
       setShowToast(true);
-
-      // 5. Call external callback if provided
       if (externalOnComplete) {
         externalOnComplete({ sectionId, sectionMeta, dayNum });
       }
-
-      // 6. After 1.5s auto-navigate to next section
       setTimeout(() => {
         setShowToast(false);
         if (nextSection) {
           router.push(`/75-days-challenge/${dayNum}/${nextSection.id}`);
         } else {
-          // Last section — go back to day overview
           router.push(`/75-days-challenge/${dayNum}`);
         }
-      }, 1500);
+      }, 1800);
     } catch (err) {
       console.error('[SectionLayout] Complete error:', err);
     } finally {
       setIsCompleting(false);
     }
-  }, [
-    isCompleted,
-    isCompleting,
-    completeLesson,
-    lessonKey,
-    addXP,
-    sectionMeta,
-    sectionId,
-    externalOnComplete,
-    dayNum,
-    nextSection,
-    router,
-  ]);
+  }, [isCompleted, isCompleting, completeLesson, lessonKey, addXP, sectionMeta, sectionId, externalOnComplete, dayNum, nextSection, router]);
 
-  // ── Close mobile sidebar on route change ────────────────
-  useEffect(() => {
-    setSidebarOpen(false);
-  }, [sectionId]);
+  // ── Close mobile sidebar on section change ────────────────
+  useEffect(() => { setSidebarOpen(false); }, [sectionId]);
 
-  // ── Keyboard shortcut: Ctrl+Enter = complete ────────────
+  // ── Keyboard shortcut: Ctrl+Enter = complete ─────────────
   useEffect(() => {
-    function handleKey(e) {
-      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
-        handleComplete();
-      }
-    }
+    const handleKey = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') handleComplete();
+    };
     window.addEventListener('keydown', handleKey);
     return () => window.removeEventListener('keydown', handleKey);
   }, [handleComplete]);
+
+  // ── Extract gradient colors for the section theme ─────────
+  const sectionColor = sectionMeta?.color || 'from-violet-500 to-purple-600';
+  const dayTopic = dayData?.topic?.title || dayData?.title || `Day ${dayNum}`;
 
   // ============================================================
   // RENDER
   // ============================================================
   return (
-    <div className="min-h-screen bg-[#0a0a0f] text-white flex flex-col">
+    <div className="min-h-screen bg-[#07070f] text-white flex flex-col">
 
-      {/* ── Ambient background blobs ───────────────────────── */}
+      {/* ── Ambient background — section-specific color ─────── */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-        <div
+        {/* Top-right blob based on section color */}
+        <motion.div
+          key={sectionId}
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8 }}
           className={cn(
-            'absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full opacity-[0.06] blur-3xl',
-            `bg-gradient-to-br ${sectionMeta?.color || 'from-violet-500 to-purple-600'}`,
+            'absolute -top-60 -right-60 w-[700px] h-[700px] rounded-full blur-3xl',
+            `bg-gradient-to-br ${sectionColor}`,
           )}
+          style={{ opacity: 0.07 }}
         />
-        <div className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full opacity-[0.05] blur-3xl bg-gradient-to-br from-cyan-500 to-blue-600" />
+        {/* Bottom-left blob */}
+        <div
+          className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full blur-3xl bg-gradient-to-br from-cyan-500 to-blue-600"
+          style={{ opacity: 0.04 }}
+        />
+        {/* Subtle grid pattern */}
+        <div
+          className="absolute inset-0"
+          style={{
+            backgroundImage: `radial-gradient(circle at 1px 1px, rgba(255,255,255,0.03) 1px, transparent 0)`,
+            backgroundSize: '32px 32px',
+          }}
+        />
       </div>
 
-      {/* ═══════════════════════════════════════════════════════
+      {/* ════════════════════════════════════════════════════════
           STICKY HEADER
       ══════════════════════════════════════════════════════════ */}
-      <header
-        className="sticky top-0 z-50 bg-[#0a0a0f]/80 backdrop-blur-xl
-                      border-b border-white/10 flex items-center gap-3 px-4 md:px-6 h-16"
-      >
-        {/* Back button */}
+      <header className="sticky top-0 z-50 bg-[#07070f]/85 backdrop-blur-2xl
+                          border-b border-white/8 flex items-center gap-3 px-4 md:px-6 h-15 py-2.5">
+
+        {/* Back to day overview */}
         <Link
           href={`/75-days-challenge/${dayNum}`}
-          className="flex-shrink-0 w-9 h-9 flex items-center justify-center
-                     rounded-xl bg-white/5 hover:bg-white/10 transition-colors
-                     text-gray-400 hover:text-white"
+          className="flex-shrink-0 flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl
+                     bg-white/5 hover:bg-white/10 border border-white/8 hover:border-white/15
+                     transition-all text-gray-400 hover:text-white group"
           title="Back to Day overview"
         >
-          <ArrowLeft className="w-4 h-4" />
+          <ArrowLeft className="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" />
+          <span className="text-xs font-medium hidden sm:block">Day {dayNum}</span>
         </Link>
 
-        {/* Breadcrumb */}
-        <div className="flex-1 min-w-0 hidden sm:block">
-          <nav className="flex items-center gap-1.5 text-xs text-gray-500">
-            <Link
-              href="/75-days-challenge"
-              className="hover:text-gray-300 transition-colors truncate"
-            >
-              75 Days
-            </Link>
-            <ChevronRight className="w-3 h-3 flex-shrink-0" />
-            <Link
-              href={`/75-days-challenge/${dayNum}`}
-              className="hover:text-gray-300 transition-colors"
-            >
-              Day {dayNum}
-            </Link>
-            <ChevronRight className="w-3 h-3 flex-shrink-0" />
-            <span className="text-white font-medium truncate">
-              {sectionMeta?.title}
-            </span>
-          </nav>
+        {/* Breadcrumb — desktop only */}
+        <div className="flex-1 min-w-0 hidden md:flex items-center gap-1.5 text-xs text-gray-500">
+          <Link href="/75-days-challenge" className="hover:text-gray-300 transition-colors">
+            75 Days
+          </Link>
+          <ChevronRight className="w-3 h-3 flex-shrink-0 text-gray-700" />
+          <Link href={`/75-days-challenge/${dayNum}`} className="hover:text-gray-300 transition-colors truncate max-w-[120px]">
+            {dayTopic}
+          </Link>
+          <ChevronRight className="w-3 h-3 flex-shrink-0 text-gray-700" />
+          <span className="text-white font-semibold truncate">
+            {sectionMeta?.icon} {sectionMeta?.title}
+          </span>
         </div>
 
-        {/* Mobile: section title only */}
-        <div className="flex-1 min-w-0 sm:hidden">
-          <p className="text-sm font-semibold text-white truncate">
+        {/* Mobile: section title */}
+        <div className="flex-1 min-w-0 md:hidden">
+          <p className="text-sm font-bold text-white truncate">
             {sectionMeta?.icon} {sectionMeta?.title}
           </p>
         </div>
 
-        {/* Progress indicator */}
-        <div className="hidden md:flex items-center gap-2 text-xs text-gray-500 flex-shrink-0">
-          <BookOpen className="w-3.5 h-3.5" />
-          <span>
-            Section{' '}
-            <span className="text-white font-bold">{sectionMeta?.num}</span>/20
-          </span>
-          {/* Mini progress bar */}
-          <div className="w-20 h-1.5 rounded-full bg-white/10 overflow-hidden">
-            <div
-              className={cn(
-                'h-full rounded-full transition-all duration-500',
-                `bg-gradient-to-r ${sectionMeta?.color || 'from-violet-500 to-purple-600'}`,
-              )}
-              style={{ width: `${progressPercent}%` }}
-            />
+        {/* Section progress indicator */}
+        <div className="hidden lg:flex items-center gap-2.5 flex-shrink-0">
+          <div className="flex items-center gap-1.5 text-xs text-gray-500 bg-white/5 rounded-xl px-3 py-1.5 border border-white/8">
+            <Target className="w-3.5 h-3.5 text-gray-500" />
+            <span>
+              <span className="text-white font-bold">{sectionMeta?.num}</span>
+              <span className="text-gray-600">/20</span>
+            </span>
+            {/* Mini progress bar */}
+            <div className="w-16 h-1.5 rounded-full bg-white/10 overflow-hidden ml-1">
+              <motion.div
+                className={cn('h-full rounded-full bg-gradient-to-r', sectionColor)}
+                initial={{ width: 0 }}
+                animate={{ width: `${(sectionMeta?.num / 20) * 100}%` }}
+                transition={{ duration: 0.6 }}
+              />
+            </div>
           </div>
-          <span className="text-gray-600">{progressPercent}%</span>
         </div>
 
         {/* XP badge */}
-        <div
-          className="flex-shrink-0 flex items-center gap-1 bg-yellow-500/10
-                        border border-yellow-500/20 rounded-xl px-2.5 py-1.5"
+        <motion.div
+          initial={{ scale: 0.8, opacity: 0 }}
+          animate={{ scale: 1, opacity: 1 }}
+          className="flex-shrink-0 flex items-center gap-1.5 bg-amber-500/10
+                        border border-amber-500/20 rounded-xl px-2.5 py-1.5"
         >
-          <Zap className="w-3.5 h-3.5 text-yellow-400" />
-          <span className="text-yellow-400 font-bold text-xs">
-            +{sectionMeta?.xp} XP
-          </span>
-        </div>
+          <Zap className="w-3.5 h-3.5 text-amber-400" />
+          <span className="text-amber-300 font-black text-xs">+{sectionMeta?.xp}</span>
+          <span className="text-amber-500 text-[10px] font-medium hidden sm:block">XP</span>
+        </motion.div>
 
-        {/* Mark Complete button (desktop) */}
-        <button
+        {/* Mark Complete button — desktop */}
+        <motion.button
           onClick={handleComplete}
           disabled={isCompleted || isCompleting}
+          whileHover={!isCompleted ? { scale: 1.03 } : {}}
+          whileTap={!isCompleted ? { scale: 0.97 } : {}}
           className={cn(
             'hidden md:flex flex-shrink-0 items-center gap-2',
-            'px-4 py-2 rounded-xl text-sm font-semibold transition-all duration-300',
+            'px-4 py-2 rounded-xl text-sm font-bold transition-all duration-300',
             isCompleted
-              ? 'bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 cursor-default'
+              ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 cursor-default'
               : isCompleting
-              ? 'bg-violet-600/50 text-white/70 cursor-wait'
-              : 'bg-gradient-to-r from-violet-600 to-purple-500 text-white hover:shadow-lg hover:shadow-violet-500/30 active:scale-95',
+              ? 'bg-violet-600/40 text-white/60 cursor-wait'
+              : 'bg-gradient-to-r from-violet-600 to-fuchsia-600 text-white shadow-lg shadow-violet-500/25 hover:shadow-violet-500/40',
           )}
           title="Mark section as complete (Ctrl+Enter)"
         >
           {isCompleted ? (
-            <>
-              <CheckCircle2 className="w-4 h-4" />
-              Completed ✅
-            </>
+            <><CheckCircle2 className="w-4 h-4" /> Done ✅</>
           ) : isCompleting ? (
-            <>
-              <div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" />
-              Saving…
-            </>
+            <><div className="w-4 h-4 border-2 border-white/30 border-t-white rounded-full animate-spin" /> Saving…</>
           ) : (
-            <>
-              <CheckCircle2 className="w-4 h-4" />
-              Mark Complete
-            </>
+            <><Sparkles className="w-4 h-4" /> Mark Done</>
           )}
-        </button>
+        </motion.button>
 
-        {/* Mobile hamburger for sidebar */}
+        {/* Mobile hamburger */}
         <button
           onClick={() => setSidebarOpen((v) => !v)}
           className="lg:hidden flex-shrink-0 w-9 h-9 flex items-center justify-center
-                     rounded-xl bg-white/5 hover:bg-white/10 transition-colors text-gray-400"
+                     rounded-xl bg-white/5 hover:bg-white/10 border border-white/8 transition-all text-gray-400 hover:text-white"
           title="Toggle sections menu"
         >
-          <span className="text-base">☰</span>
+          <Menu className="w-4 h-4" />
         </button>
       </header>
 
-      {/* ═══════════════════════════════════════════════════════
-          BODY (sidebar + main content)
+      {/* ════════════════════════════════════════════════════════
+          BODY — sidebar + main content
       ══════════════════════════════════════════════════════════ */}
       <div className="flex flex-1 relative z-10">
 
-        {/* ── DESKTOP SIDEBAR ─────────────────────────────── */}
-        <aside
-          className="hidden lg:flex flex-col w-72 flex-shrink-0
-                        min-h-[calc(100vh-4rem)] border-r border-white/10
-                        bg-[#0a0a0f]/50 sticky top-16 h-[calc(100vh-4rem)]
-                        overflow-y-auto"
-        >
+        {/* ── DESKTOP SIDEBAR ─────────────────────────────────── */}
+        <aside className="hidden lg:flex flex-col w-[268px] flex-shrink-0
+                          min-h-[calc(100vh-60px)] border-r border-white/8
+                          bg-[#07070f]/60 sticky top-[60px] h-[calc(100vh-60px)]
+                          overflow-y-auto scrollbar-thin scrollbar-track-transparent scrollbar-thumb-white/10">
+
           {/* Sidebar header */}
-          <div className="p-4 border-b border-white/10">
+          <div className="p-4 border-b border-white/8">
             <div className="flex items-center justify-between mb-3">
-              <p className="text-xs font-semibold text-gray-500 uppercase tracking-wider">
-                Day {dayNum} Sections
+              <p className="text-[11px] font-black text-gray-500 uppercase tracking-widest">
+                Day {dayNum} Journey
               </p>
-              <div className="flex items-center gap-1 text-xs text-gray-600">
-                <CheckCircle2 className="w-3 h-3 text-emerald-500" />
-                {completedCount}/{sections.length}
-              </div>
+              <MiniProgressRing percent={progressPercent} />
             </div>
             {/* Progress bar */}
-            <div className="w-full h-1.5 rounded-full bg-white/10 overflow-hidden">
+            <div className="w-full h-1.5 rounded-full bg-white/8 overflow-hidden">
               <motion.div
-                className={cn(
-                  'h-full rounded-full',
-                  `bg-gradient-to-r ${sectionMeta?.color || 'from-violet-500 to-purple-600'}`,
-                )}
+                className={cn('h-full rounded-full bg-gradient-to-r', sectionColor)}
                 initial={{ width: 0 }}
                 animate={{ width: `${progressPercent}%` }}
                 transition={{ duration: 0.8, ease: 'easeOut' }}
               />
             </div>
-            <p className="text-xs text-gray-600 mt-1.5">
-              {progressPercent}% of Day {dayNum} done
-            </p>
+            <div className="flex items-center justify-between mt-1.5">
+              <p className="text-[11px] text-gray-600">
+                {completedCount}/{sections.length} sections done
+              </p>
+              {completedCount > 0 && (
+                <span className="text-[11px] text-emerald-500 font-semibold">
+                  🔥 Keep going!
+                </span>
+              )}
+            </div>
           </div>
 
           {/* Section list */}
-          <nav className="p-3 flex flex-col gap-1 flex-1">
-            {sections.map((section) => {
+          <nav className="p-2 flex flex-col gap-0.5 flex-1">
+            {sections.map((section, idx) => {
               const key = `day-${dayNum}-section-${section.id}`;
               const done = Boolean(lessons?.[key]?.completed);
               const active = section.id === sectionId;
-
               return (
                 <SidebarItem
                   key={section.id}
@@ -545,79 +602,107 @@ export default function SectionLayout({
                   isActive={active}
                   isCompleted={done}
                   dayNum={dayNum}
+                  index={idx}
                 />
               );
             })}
           </nav>
 
-          {/* Sidebar footer — stats */}
-          <div className="p-4 border-t border-white/10">
-            <div className="bg-white/5 rounded-xl p-3 flex items-center justify-between">
-              <div>
-                <p className="text-xs text-gray-500">Total XP available</p>
-                <p className="text-sm font-bold text-yellow-400 flex items-center gap-1 mt-0.5">
-                  <Zap className="w-3.5 h-3.5" />
-                  {sections.reduce((acc, s) => acc + s.xp, 0)} XP
-                </p>
+          {/* Sidebar footer */}
+          <div className="p-3 border-t border-white/8">
+            <div className="bg-white/4 rounded-xl p-3 border border-white/8">
+              <div className="flex items-center justify-between mb-2">
+                <div>
+                  <p className="text-[10px] text-gray-600 uppercase tracking-wider font-semibold">
+                    Total XP Available
+                  </p>
+                  <p className="text-sm font-black text-amber-400 flex items-center gap-1 mt-0.5">
+                    <Zap className="w-3.5 h-3.5" />
+                    {sections.reduce((acc, s) => acc + s.xp, 0)} XP
+                  </p>
+                </div>
+                <div className="text-right">
+                  <p className="text-[10px] text-gray-600 uppercase tracking-wider font-semibold">
+                    Est. Time
+                  </p>
+                  <p className="text-sm font-black text-cyan-400 mt-0.5 flex items-center gap-1 justify-end">
+                    <Clock className="w-3.5 h-3.5" />
+                    ~{sections.reduce((acc, s) => acc + parseInt(s.time), 0)} min
+                  </p>
+                </div>
               </div>
-              <div>
-                <p className="text-xs text-gray-500">Est. time</p>
-                <p className="text-sm font-bold text-cyan-400 mt-0.5">
-                  ~{sections.reduce((acc, s) => acc + parseInt(s.time), 0)} min
-                </p>
-              </div>
+              {/* Today's XP earned */}
+              {completedCount > 0 && (
+                <div className="mt-2 pt-2 border-t border-white/8">
+                  <p className="text-[10px] text-gray-500">
+                    XP earned so far:{' '}
+                    <span className="text-amber-400 font-black">
+                      +{sections
+                        .filter((s) => lessons?.[`day-${dayNum}-section-${s.id}`]?.completed)
+                        .reduce((acc, s) => acc + s.xp, 0)} XP
+                    </span>
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </aside>
 
-        {/* ── MOBILE SLIDE-IN SIDEBAR ──────────────────────── */}
+        {/* ── MOBILE SLIDE-IN SIDEBAR ───────────────────────── */}
         <AnimatePresence>
           {sidebarOpen && (
             <>
-              {/* Backdrop */}
               <motion.div
                 key="backdrop"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 exit={{ opacity: 0 }}
                 onClick={() => setSidebarOpen(false)}
-                className="fixed inset-0 z-40 bg-black/60 backdrop-blur-sm lg:hidden"
+                className="fixed inset-0 z-40 bg-black/70 backdrop-blur-sm lg:hidden"
               />
-
-              {/* Sidebar panel */}
               <motion.aside
                 key="mobile-sidebar"
                 initial={{ x: '-100%' }}
                 animate={{ x: 0 }}
                 exit={{ x: '-100%' }}
-                transition={{ type: 'spring', damping: 25, stiffness: 300 }}
-                className="fixed left-0 top-0 bottom-0 z-50 w-72 flex flex-col
-                             bg-[#0a0a0f] border-r border-white/10 overflow-y-auto lg:hidden"
+                transition={{ type: 'spring', damping: 28, stiffness: 300 }}
+                className="fixed left-0 top-0 bottom-0 z-50 w-[280px] flex flex-col
+                             bg-[#07070f] border-r border-white/10 overflow-y-auto lg:hidden"
               >
-                {/* Mobile sidebar header */}
-                <div className="p-4 border-b border-white/10 flex items-center justify-between mt-safe">
+                {/* Mobile header */}
+                <div className="p-4 border-b border-white/10 flex items-center justify-between pt-safe">
                   <div>
-                    <p className="text-sm font-bold text-white">Day {dayNum} Sections</p>
-                    <p className="text-xs text-gray-500">
-                      {completedCount}/{sections.length} completed
+                    <p className="text-sm font-black text-white">Day {dayNum} Sections</p>
+                    <p className="text-xs text-gray-500 mt-0.5">
+                      {completedCount}/{sections.length} completed · {progressPercent}%
                     </p>
                   </div>
                   <button
                     onClick={() => setSidebarOpen(false)}
-                    className="w-8 h-8 flex items-center justify-center rounded-lg
-                               bg-white/5 hover:bg-white/10 text-gray-400 transition-colors"
+                    className="w-8 h-8 flex items-center justify-center rounded-xl
+                               bg-white/5 hover:bg-white/10 text-gray-400 transition-colors border border-white/8"
                   >
-                    ✕
+                    <X className="w-4 h-4" />
                   </button>
                 </div>
 
+                {/* Progress bar */}
+                <div className="px-4 py-3 border-b border-white/8">
+                  <div className="w-full h-2 rounded-full bg-white/8 overflow-hidden">
+                    <motion.div
+                      className={cn('h-full rounded-full bg-gradient-to-r', sectionColor)}
+                      animate={{ width: `${progressPercent}%` }}
+                      transition={{ duration: 0.6 }}
+                    />
+                  </div>
+                </div>
+
                 {/* Section list */}
-                <nav className="p-3 flex flex-col gap-1 flex-1">
-                  {sections.map((section) => {
+                <nav className="p-2 flex flex-col gap-0.5 flex-1">
+                  {sections.map((section, idx) => {
                     const key = `day-${dayNum}-section-${section.id}`;
                     const done = Boolean(lessons?.[key]?.completed);
                     const active = section.id === sectionId;
-
                     return (
                       <SidebarItem
                         key={section.id}
@@ -625,6 +710,7 @@ export default function SectionLayout({
                         isActive={active}
                         isCompleted={done}
                         dayNum={dayNum}
+                        index={idx}
                       />
                     );
                   })}
@@ -634,138 +720,163 @@ export default function SectionLayout({
           )}
         </AnimatePresence>
 
-        {/* ── MAIN CONTENT ────────────────────────────────── */}
-        <main className="flex-1 min-w-0 overflow-x-hidden pb-24 lg:pb-10">
-          {/* Section hero strip */}
-          <div
-            className={cn(
-              'w-full px-4 md:px-8 py-6 border-b border-white/5',
-              'bg-gradient-to-r opacity-90',
-              sectionMeta?.color,
-            )}
-            style={{ backgroundSize: '200% 200%' }}
-          >
+        {/* ── MAIN CONTENT AREA ─────────────────────────────── */}
+        <main className="flex-1 min-w-0 overflow-x-hidden pb-28 lg:pb-12">
+
+          {/* ── SECTION HERO BANNER ────────────────────────── */}
+          <div className={cn(
+            'relative w-full overflow-hidden',
+            'border-b border-white/8',
+          )}>
+            {/* Gradient background */}
+            <div className={cn(
+              'absolute inset-0 bg-gradient-to-r opacity-15',
+              sectionColor,
+            )} />
+            {/* Mesh overlay */}
+            <div
+              className="absolute inset-0 opacity-30"
+              style={{
+                backgroundImage: `radial-gradient(circle at 70% 50%, rgba(255,255,255,0.06) 0%, transparent 60%)`,
+              }}
+            />
+
             <motion.div
-              initial={{ opacity: 0, y: -10 }}
+              key={sectionId}
+              initial={{ opacity: 0, y: -12 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4 }}
-              className="max-w-4xl mx-auto flex items-center gap-4"
+              className="relative z-10 max-w-5xl mx-auto px-4 md:px-8 py-5 flex items-center gap-5"
             >
-              <span className="text-4xl md:text-5xl">{sectionMeta?.icon}</span>
-              <div>
-                <div className="flex items-center gap-2 mb-1">
-                  <span className="text-white/60 text-xs font-medium uppercase tracking-wider">
+              {/* Large section emoji */}
+              <motion.div
+                initial={{ scale: 0.5, opacity: 0 }}
+                animate={{ scale: 1, opacity: 1 }}
+                transition={{ type: 'spring', delay: 0.1 }}
+                className={cn(
+                  'w-14 h-14 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0',
+                  `bg-gradient-to-br ${sectionColor}`,
+                  'shadow-lg',
+                )}
+              >
+                {sectionMeta?.icon}
+              </motion.div>
+
+              <div className="flex-1 min-w-0">
+                <div className="flex items-center gap-2 mb-1 flex-wrap">
+                  <span className="text-white/50 text-[11px] font-bold uppercase tracking-widest">
                     Section {sectionMeta?.num} of {sections.length}
                   </span>
                   {isCompleted && (
-                    <span className="flex items-center gap-1 text-xs bg-emerald-500/30 text-emerald-300 border border-emerald-500/40 rounded-full px-2 py-0.5 font-medium">
-                      <CheckCircle2 className="w-3 h-3" />
-                      Done
+                    <span className="flex items-center gap-1 text-[11px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 rounded-full px-2 py-0.5 font-bold">
+                      <CheckCircle2 className="w-3 h-3" /> Completed
                     </span>
                   )}
+                  <span className="text-[11px] text-white/30">
+                    {sectionMeta?.time} · +{sectionMeta?.xp} XP
+                  </span>
                 </div>
-                <h1 className="text-xl md:text-2xl font-bold text-white leading-tight">
+                <h1 className="text-xl md:text-2xl font-black text-white leading-tight">
                   {sectionMeta?.title}
                 </h1>
-                <p className="text-white/70 text-sm mt-0.5">{sectionMeta?.subtitle}</p>
+                <p className="text-white/50 text-sm mt-0.5">
+                  {sectionMeta?.subtitle}
+                </p>
               </div>
 
-              {/* Meta pills */}
-              <div className="ml-auto hidden sm:flex flex-col items-end gap-1.5">
-                <div className="flex items-center gap-1.5 bg-white/20 rounded-full px-3 py-1 text-white text-xs font-medium">
-                  <Star className="w-3 h-3" />
-                  {sectionMeta?.time}
-                </div>
-                <div className="flex items-center gap-1.5 bg-white/20 rounded-full px-3 py-1 text-white text-xs font-medium">
-                  <Zap className="w-3 h-3" />
-                  +{sectionMeta?.xp} XP
-                </div>
+              {/* Desktop nav arrows */}
+              <div className="hidden lg:flex items-center gap-2 flex-shrink-0">
+                {prevSection && (
+                  <Link
+                    href={`/75-days-challenge/${dayNum}/${prevSection.id}`}
+                    className="w-9 h-9 flex items-center justify-center rounded-xl
+                               bg-white/8 hover:bg-white/15 border border-white/10 transition-all
+                               text-gray-400 hover:text-white group"
+                    title={`Previous: ${prevSection.title}`}
+                  >
+                    <ChevronLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
+                  </Link>
+                )}
+                {nextSection && (
+                  <Link
+                    href={`/75-days-challenge/${dayNum}/${nextSection.id}`}
+                    className="w-9 h-9 flex items-center justify-center rounded-xl
+                               bg-white/8 hover:bg-white/15 border border-white/10 transition-all
+                               text-gray-400 hover:text-white group"
+                    title={`Next: ${nextSection.title}`}
+                  >
+                    <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
+                  </Link>
+                )}
               </div>
             </motion.div>
           </div>
 
-          {/* Actual section content */}
-          <motion.div
-            key={sectionId}
-            initial={{ opacity: 0, y: 16 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, ease: 'easeOut', delay: 0.05 }}
-            className="max-w-4xl mx-auto px-4 md:px-8 py-8"
-          >
-            {children}
-          </motion.div>
+          {/* ── SECTION CONTENT ─────────────────────────────── */}
+          <AnimatePresence mode="wait">
+            <motion.div
+              key={sectionId}
+              initial={{ opacity: 0, y: 16 }}
+              animate={{ opacity: 1, y: 0 }}
+              exit={{ opacity: 0, y: -8 }}
+              transition={{ duration: 0.35, ease: 'easeOut' }}
+              className="relative"
+            >
+              {children}
+            </motion.div>
+          </AnimatePresence>
 
-          {/* Desktop prev/next navigation */}
-          <div className="hidden lg:flex max-w-4xl mx-auto px-4 md:px-8 pb-8">
-            <div className="flex items-center justify-between w-full gap-4">
-              {prevSection ? (
-                <Link
-                  href={`/75-days-challenge/${dayNum}/${prevSection.id}`}
-                  className="flex items-center gap-2 px-5 py-3 rounded-xl bg-white/5
-                             hover:bg-white/10 border border-white/10 transition-all
-                             text-gray-300 hover:text-white group"
-                >
-                  <ChevronLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
-                  <div className="text-left">
-                    <p className="text-xs text-gray-500">Previous</p>
-                    <p className="text-sm font-medium">
-                      {prevSection.icon} {prevSection.title}
-                    </p>
-                  </div>
-                </Link>
-              ) : (
-                <Link
-                  href={`/75-days-challenge/${dayNum}`}
-                  className="flex items-center gap-2 px-5 py-3 rounded-xl bg-white/5
-                             hover:bg-white/10 border border-white/10 transition-all
-                             text-gray-400 hover:text-white"
-                >
-                  <ArrowLeft className="w-4 h-4" />
-                  <div>
-                    <p className="text-xs text-gray-500">Back to</p>
-                    <p className="text-sm font-medium">Day {dayNum} Overview</p>
-                  </div>
-                </Link>
+          {/* ── BOTTOM COMPLETE BUTTON (desktop) ─────────────── */}
+          <div className="hidden lg:flex justify-center items-center gap-4 px-8 py-8">
+            {prevSection && (
+              <Link
+                href={`/75-days-challenge/${dayNum}/${prevSection.id}`}
+                className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10
+                           border border-white/10 transition-all text-gray-400 hover:text-white text-sm font-medium"
+              >
+                <ChevronLeft className="w-4 h-4" />
+                {prevSection.title}
+              </Link>
+            )}
+            <motion.button
+              onClick={handleComplete}
+              disabled={isCompleted || isCompleting}
+              whileHover={!isCompleted ? { scale: 1.04, y: -1 } : {}}
+              whileTap={!isCompleted ? { scale: 0.97 } : {}}
+              className={cn(
+                'flex items-center gap-2.5 px-7 py-3 rounded-2xl text-base font-black',
+                'transition-all duration-300 shadow-lg',
+                isCompleted
+                  ? 'bg-emerald-500/15 text-emerald-400 border border-emerald-500/30 cursor-default shadow-emerald-500/10'
+                  : isCompleting
+                  ? 'bg-violet-600/40 text-white/60 cursor-wait'
+                  : `bg-gradient-to-r ${sectionColor} text-white shadow-violet-500/30 hover:shadow-xl hover:shadow-violet-500/40`,
               )}
-
-              {nextSection ? (
-                <Link
-                  href={`/75-days-challenge/${dayNum}/${nextSection.id}`}
-                  className="flex items-center gap-2 px-5 py-3 rounded-xl bg-white/5
-                             hover:bg-white/10 border border-white/10 transition-all
-                             text-gray-300 hover:text-white group ml-auto"
-                >
-                  <div className="text-right">
-                    <p className="text-xs text-gray-500">Next</p>
-                    <p className="text-sm font-medium">
-                      {nextSection.icon} {nextSection.title}
-                    </p>
-                  </div>
-                  <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-                </Link>
+              title="Mark section as complete (Ctrl+Enter)"
+            >
+              {isCompleted ? (
+                <><CheckCircle2 className="w-5 h-5" /> Section Done! 🎉</>
+              ) : isCompleting ? (
+                <><div className="w-5 h-5 border-2 border-white/30 border-t-white rounded-full animate-spin" /> Saving…</>
               ) : (
-                <Link
-                  href={`/75-days-challenge/${dayNum}`}
-                  className="flex items-center gap-2 px-5 py-3 rounded-xl
-                             bg-gradient-to-r from-emerald-600 to-teal-600
-                             hover:shadow-lg hover:shadow-emerald-500/25
-                             transition-all text-white font-medium ml-auto"
-                >
-                  <CheckCircle2 className="w-4 h-4" />
-                  <div className="text-right">
-                    <p className="text-xs text-white/70">All done!</p>
-                    <p className="text-sm font-medium">Finish Day {dayNum}</p>
-                  </div>
-                </Link>
+                <><Sparkles className="w-5 h-5" /> Mark This Section Done 🎯</>
               )}
-            </div>
+            </motion.button>
+            {nextSection && (
+              <Link
+                href={`/75-days-challenge/${dayNum}/${nextSection.id}`}
+                className="flex items-center gap-2 px-4 py-2.5 rounded-xl bg-white/5 hover:bg-white/10
+                           border border-white/10 transition-all text-gray-400 hover:text-white text-sm font-medium"
+              >
+                {nextSection.title}
+                <ChevronRight className="w-4 h-4" />
+              </Link>
+            )}
           </div>
         </main>
       </div>
 
-      {/* ═══════════════════════════════════════════════════════
-          MOBILE BOTTOM BAR
-      ══════════════════════════════════════════════════════════ */}
+      {/* ── MOBILE BOTTOM BAR ─────────────────────────────────── */}
       <MobileBottomBar
         prevSection={prevSection}
         nextSection={nextSection}
@@ -775,12 +886,10 @@ export default function SectionLayout({
         isCompleting={isCompleting}
       />
 
-      {/* ═══════════════════════════════════════════════════════
-          SUCCESS TOAST
-      ══════════════════════════════════════════════════════════ */}
+      {/* ── SUCCESS TOAST ─────────────────────────────────────── */}
       <SuccessToast
-        xp={sectionMeta?.xp}
-        sectionTitle={sectionMeta?.title}
+        xp={sectionMeta?.xp || 0}
+        sectionTitle={sectionMeta?.title || ''}
         visible={showToast}
       />
     </div>

@@ -474,6 +474,12 @@ export default function PracticeSection({ data, dayNum }) {
   // ── Last score for start screen display ───────────────────
   const [lastScore, setLastScore] = useState(null);
 
+  // ── Streak counter (consecutive correct answers) ───────────
+  const [streak, setStreak] = useState(0);
+
+  // ── Combo popup text (shown on milestone streaks) ──────────
+  const [comboPopup, setComboPopup] = useState(null);
+
   // ── Input ref for auto-focus ──────────────────────────────
   const inputRef = useRef(null);
 
@@ -554,8 +560,20 @@ export default function PracticeSection({ data, dayNum }) {
       addXP(xpGained, { reason: 'practice_correct' });
       setSessionXP((x) => x + xpGained);
       playSound('correct');
+
+      // Increment streak and show combo milestone popup
+      setStreak((prev) => {
+        const newStreak = prev + 1;
+        const milestones = { 3: '🔥 3 in a row!', 5: '⚡ 5 Combo!', 10: '💥 10 Streak!!', 15: '🌟 Unstoppable!', 20: '👑 Legendary!!' };
+        if (milestones[newStreak]) {
+          setComboPopup(milestones[newStreak]);
+          setTimeout(() => setComboPopup(null), 1800);
+        }
+        return newStreak;
+      });
     } else {
       playSound('wrong');
+      setStreak(0); // reset streak on wrong
     }
 
     const result = {
@@ -586,12 +604,14 @@ export default function PracticeSection({ data, dayNum }) {
     };
     setResults((prev) => [...prev, result]);
     setFeedback('skipped');
+    setStreak(0); // skip resets streak
   }, [currentQ, feedback]);
 
   // ── Reveal answer ──────────────────────────────────────────
   const handleReveal = useCallback(() => {
     if (feedback !== null) return;
     setShowAnswer(true);
+    setStreak(0); // reveal resets streak
     // Counts as wrong/skip if they had to reveal
     const result = {
       id: currentQ.id,
@@ -674,7 +694,7 @@ export default function PracticeSection({ data, dayNum }) {
   // RENDER
   // ============================================================
   return (
-    <div className="pb-8">
+    <div className="px-4 md:px-8 py-6 pb-8">
       <AnimatePresence mode="wait">
         {/* ── START SCREEN ──────────────────────────────────── */}
         {screen === 'start' && (
@@ -697,6 +717,24 @@ export default function PracticeSection({ data, dayNum }) {
             transition={{ duration: 0.3 }}
             className="max-w-2xl mx-auto space-y-4"
           >
+            {/* ── Combo popup (milestone streak notification) ── */}
+            <AnimatePresence>
+              {comboPopup && (
+                <motion.div
+                  key={comboPopup}
+                  initial={{ opacity: 0, y: -30, scale: 0.7 }}
+                  animate={{ opacity: 1, y: 0, scale: 1 }}
+                  exit={{ opacity: 0, y: -20, scale: 0.8 }}
+                  transition={{ type: 'spring', stiffness: 400, damping: 20 }}
+                  className="fixed top-20 left-1/2 -translate-x-1/2 z-50 pointer-events-none"
+                >
+                  <div className="bg-gradient-to-r from-orange-500 to-yellow-400 text-black font-black text-xl px-8 py-3 rounded-full shadow-2xl shadow-orange-500/50">
+                    {comboPopup}
+                  </div>
+                </motion.div>
+              )}
+            </AnimatePresence>
+
             {/* ── Top progress bar ─────────────────────────── */}
             <div className="space-y-1">
               <div className="flex justify-between text-xs text-gray-500">
@@ -713,7 +751,7 @@ export default function PracticeSection({ data, dayNum }) {
             </div>
 
             {/* ── Stats bar ─────────────────────────────────── */}
-            <div className="grid grid-cols-4 gap-2">
+            <div className="grid grid-cols-5 gap-2">
               {[
                 { icon: '✅', label: 'Correct', value: stats.correct, color: 'text-emerald-400' },
                 { icon: '❌', label: 'Wrong', value: stats.wrong, color: 'text-red-400' },
@@ -721,11 +759,30 @@ export default function PracticeSection({ data, dayNum }) {
                 { icon: '🎯', label: 'Accuracy', value: `${stats.accuracy}%`, color: 'text-violet-400' },
               ].map((s) => (
                 <div key={s.label} className="bg-white/5 border border-white/10 rounded-xl p-2 text-center">
-                  <p className="text-lg">{s.icon}</p>
-                  <p className={`font-black text-lg ${s.color}`}>{s.value}</p>
+                  <p className="text-base">{s.icon}</p>
+                  <p className={`font-black text-base ${s.color}`}>{s.value}</p>
                   <p className="text-gray-500 text-xs">{s.label}</p>
                 </div>
               ))}
+              {/* Streak card — lights up when on a streak */}
+              <motion.div
+                key={streak}
+                animate={streak > 0 ? { scale: [1, 1.12, 1] } : {}}
+                transition={{ duration: 0.3 }}
+                className={`rounded-xl p-2 text-center border transition-all ${
+                  streak >= 5
+                    ? 'bg-orange-500/20 border-orange-400/50 shadow-orange-500/30 shadow-md'
+                    : streak >= 3
+                    ? 'bg-yellow-500/15 border-yellow-500/40'
+                    : 'bg-white/5 border-white/10'
+                }`}
+              >
+                <p className="text-base">{streak >= 5 ? '🔥' : streak >= 3 ? '⚡' : '💧'}</p>
+                <p className={`font-black text-base ${streak >= 5 ? 'text-orange-400' : streak >= 3 ? 'text-yellow-400' : 'text-gray-500'}`}>
+                  {streak}
+                </p>
+                <p className="text-gray-500 text-xs">Streak</p>
+              </motion.div>
             </div>
 
             {/* ── Timer + XP ───────────────────────────────── */}
