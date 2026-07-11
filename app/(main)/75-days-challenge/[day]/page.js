@@ -3460,18 +3460,30 @@ function OverviewSection({ overview, onComplete }) {
         <div className="absolute -bottom-8 -left-8 w-36 h-36 rounded-full bg-cyan-500/10 blur-2xl pointer-events-none" />
 
         <div className="relative z-10 space-y-4">
-          {/* Day badge */}
-          <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/20 border border-violet-500/30 text-violet-300 text-sm font-bold">
-            <Sparkles size={14} /> Day {overview.day} — Topic Overview
-          </div>
+          <div className="flex flex-col-reverse md:flex-row md:items-center gap-5">
+            <div className="flex-1 space-y-4">
+              {/* Day badge */}
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-violet-500/20 border border-violet-500/30 text-violet-300 text-sm font-bold">
+                <Sparkles size={14} /> Day {overview.day} — Topic Overview
+              </div>
 
-          <div>
-            <h2 className="text-3xl md:text-4xl font-black text-white leading-tight">
-              {overview.title}
-            </h2>
-            <p className="text-lg text-violet-300 font-semibold mt-1 hindi-text">
-              {overview.tagline}
-            </p>
+              <div>
+                <h2 className="text-3xl md:text-4xl font-black text-white leading-tight">
+                  {overview.title}
+                </h2>
+                <p className="text-lg text-violet-300 font-semibold mt-1 hindi-text">
+                  {overview.tagline}
+                </p>
+              </div>
+            </div>
+
+            {/* Topic hero illustration */}
+            <img
+              src={`/images/day-topics/day-${String(overview.day).padStart(2, '0')}-hero.png`}
+              alt={`${overview.title} illustration`}
+              className="w-full md:w-56 lg:w-64 rounded-2xl border border-white/10 shadow-xl shadow-violet-950/40 object-cover aspect-[16/10] shrink-0"
+              onError={(e) => { e.currentTarget.style.display = 'none'; }}
+            />
           </div>
 
           {/* Summary */}
@@ -3941,6 +3953,7 @@ function MilestonesSection({ milestones: milestonesData, dayNum, completedSectio
 
   const BADGE_EMOJIS = {
     'lesson-complete': '📖',
+    'concept-master': '🧠',
     'vocab-master': '📝',
     'practice-champion': '🏋️',
     'test-passed': '🎓',
@@ -3948,6 +3961,7 @@ function MilestonesSection({ milestones: milestonesData, dayNum, completedSectio
     'writing-wizard': '✍️',
     'listening-legend': '🎧',
     'reading-rockstar': '📚',
+    'day-legend': '🏆',
   };
 
   const BADGE_COLORS = [

@@ -1,13 +1,25 @@
 {
   "day": 1,
   "topic": "Basics of English",
-  "challengeTask": "Use at least 10 sentences with Basics of English in a real conversation or diary entry today.",
-  "hindiTask": "आज Basics of English का उपयोग करते हुए कम से कम 10 वाक्य किसी असली बातचीत या डायरी में लिखें।",
+  "challengeTask": "Use at least 10 sentences with Basics of English (SVO order, Simple Present, Pronouns, Articles) in a real conversation or diary entry today.",
+  "hindiTask": "आज Basics of English (SVO order, Simple Present, Pronouns, Articles) का उपयोग करते हुए कम से कम 10 वाक्य किसी असली बातचीत या डायरी में लिखें।",
   "successCriteria": [
-    "All 10 sentences are grammatically correct",
+    "All 10 sentences are grammatically correct (SVO order followed)",
     "Basics of English rule applied correctly in every sentence",
-    "No spelling mistakes"
+    "At least 3 sentences use He/She/It + verb+s (Simple Present positive)",
+    "At least 2 sentences use don't/doesn't (Simple Present negative)",
+    "At least 1 sentence is a Do/Does question",
+    "At least 2 sentences correctly use a/an/the (Articles)",
+    "At least 1 sentence uses a possessive adjective (my/your/his/her/our/their)",
+    "No spelling mistakes",
+    "Sentences were spoken aloud at least once, not just written"
   ],
-  "bonusChallenge": "Record yourself speaking 5 of these sentences and check your pronunciation.",
+  "bonusChallenge": "Record yourself speaking 5 of these sentences on your phone, play it back, and check your pronunciation and confidence. Then say them again — this time trying to sound 20% more confident than the first take.",
+  "stretchChallenge": "Teach today's SVO rule and one Simple Present example to a friend or family member in under 2 minutes, using only English + simple Hindi support. If you can explain it, you have truly learned it.",
+  "reflectionPrompts": [
+    "Aaj sabse mushkil kaunsa sentence banana laga aur kyun?",
+    "Kaunsa grammar rule sabse zyada naya/interesting laga?",
+    "Kal isi topic ko revise karne ke liye ek 2-line reminder likho."
+  ],
   "xpReward": 50
 }
