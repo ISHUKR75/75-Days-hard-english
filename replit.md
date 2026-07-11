@@ -74,8 +74,14 @@ Each day has a dedicated local branch for its team member:
 - **Never delete or remove any existing files/folders** — only add new ones.
 - Full site content for all 75 days needed incrementally (Day 1 is the reference).
 - `npm install --legacy-peer-deps` always (not pnpm, not yarn).
-- All pages must be fully responsive (mobile → desktop).
-- Modern, animated, professional UI throughout.
-- Real data everywhere — no mocked/placeholder data in live sections.
-- 20/40/60/80/100% session-size picker for both practice and test sections.
-- Comments on every file and key logic blocks.
+- All pages must be fully responsive (mobile → desktop, every device size).
+- Modern, animated, professional UI throughout — target audience is Gen Z, so visuals/tone should feel current, not corporate.
+- Course narration/copy tone must be friendly and encouraging, never robotic/dry.
+- Real data everywhere — no mocked/placeholder data in live sections (dashboard, XP, progress must reflect actual user activity).
+- 20/40/60/80/100% session-size picker for both practice and test sections, applied against the full question bank.
+- Comments on every file and key logic blocks, written in simple English.
+- Content quantity target is **per topic/subtopic**, not per day: ~900-1000 practice questions and ~300-400 test questions for each individual topic/subtopic (Hindi prompt, English answer, reveal-answer + case-insensitive auto-check).
+- Each topic/subtopic should get its own explanation page (why it matters, concept, common errors, examples) taught before drills, plus a wrap-up "essay-style" recap page per topic.
+- Preference for dedicated pages per section (not just tabs) with per-section progress tracking.
+- Team workflow: 75 contributors, one per day, each pushing to their own `day-XX` branch, merged into `main` later — avoid changes that would create merge conflicts across unrelated day folders.
+- File size: keep files organized/componentized per existing repo conventions — do not literally inflate single files to arbitrary huge line counts; prioritize completeness and correctness of content/features over line count.
