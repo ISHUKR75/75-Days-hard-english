@@ -19,15 +19,20 @@
     "Common Verbs",
     "Daily Vocabulary"
   ],
-  "totalQuestions": 500,
-  "totalVocabulary": 150,
-  "estimatedTime": "3-4 hours",
-  "xpReward": 500,
-  "coinsReward": 50,
+  "totalQuestions": 1800,
+  "totalPracticeQuestions": 1400,
+  "totalTestQuestions": 400,
+  "totalVocabulary": 1000,
+  "totalFlashcards": 500,
+  "totalDialogues": 10,
+  "totalSections": 20,
+  "estimatedTime": "4-8 hours",
+  "xpReward": 1250,
+  "coinsReward": 125,
   "prerequisites": [],
   "nextDay": 2,
   "tags": ["basics", "grammar", "beginner", "sentence-structure", "svo", "pronouns", "articles"],
   "instructor": "75 Days Hard English Team",
-  "lastUpdated": "2026-07-08",
-  "version": "2.0"
+  "lastUpdated": "2026-07-11",
+  "version": "2.1"
 }

@@ -5,37 +5,58 @@
     {
       "id": 1,
       "title": "Lesson Completed",
-      "description": "Finished all lessons on Basics of English.",
-      "xp": 20,
+      "description": "Finished the full Overview & Why It Matters section on Basics of English.",
+      "xp": 100,
       "badge": "lesson-complete"
     },
     {
       "id": 2,
-      "title": "Vocabulary Mastered",
-      "description": "Learned new words related to Basics of English.",
-      "xp": 15,
-      "badge": "vocab-master"
+      "title": "Concept Master",
+      "description": "Completed the Concept & Grammar Theory section — SVO, Simple Present, Pronouns, Articles.",
+      "xp": 200,
+      "badge": "concept-master"
     },
     {
       "id": 3,
-      "title": "Practice Champion",
-      "description": "Completed all practice questions for Day 1.",
-      "xp": 25,
-      "badge": "practice-champion"
+      "title": "Vocabulary Builder",
+      "description": "Learned at least 500 of the 1,000 Day 1 vocabulary words.",
+      "xp": 150,
+      "badge": "vocab-master"
     },
     {
       "id": 4,
-      "title": "Test Passed",
-      "description": "Scored well on the Day 1 test.",
-      "xp": 30,
-      "badge": "test-passed"
+      "title": "Practice Champion",
+      "description": "Completed 700+ of the 1,400 practice questions on Basics of English.",
+      "xp": 200,
+      "badge": "practice-champion"
     },
     {
       "id": 5,
-      "title": "Speaking Practiced",
-      "description": "Completed speaking drills for Basics of English.",
-      "xp": 20,
+      "title": "Speaking Star",
+      "description": "Completed the Speaking Drill section, including recording playback.",
+      "xp": 100,
       "badge": "speaking-star"
+    },
+    {
+      "id": 6,
+      "title": "Writer's Guild",
+      "description": "Completed the Writing section including today's mini essay.",
+      "xp": 100,
+      "badge": "writing-wizard"
+    },
+    {
+      "id": 7,
+      "title": "Test Taker",
+      "description": "Attempted at least 200 of the 400 Day 1 mock test questions.",
+      "xp": 150,
+      "badge": "test-passed"
+    },
+    {
+      "id": 8,
+      "title": "Day 1 Legend",
+      "description": "Completed all 20 sections of Day 1 at 100% — foundation fully locked in.",
+      "xp": 300,
+      "badge": "day-legend"
     }
   ]
 }
