@@ -18,9 +18,11 @@ challenge, overview, meta.
 
 **Why:** Hand-authoring 14 files × many days individually is too slow; a generator keeps output
 consistent with the established schema (see day-02/06/08 as clean reference examples) while still
-using real, topic-correct sentences instead of lorem/placeholder text. User explicitly rejected literal
-500-1000 questions/file or 50,000-line files as unrealistic — ~20-25 real sentences per topic, expanded
-across 9-12 derived files, is the agreed realistic volume per day.
+using real, topic-correct sentences instead of lorem/placeholder text.
 
 **How to apply:** When resuming work on remaining days (31-75 as of 2026-07-09), follow the same
-script pattern, batching ~10 days per script run to stay efficient.
+script pattern, batching ~10 days per script run to stay efficient. Note: replit.md's current stated
+target for Day 1 practice/test is ~900-1000 practice questions and ~300-400 test questions PER
+topic/subtopic (not per whole file) — confirmed and reached for Day 1 as of 2026-07-11. For that scale,
+see [combinatorial booster scripts](combinatorial-booster-scripts.md) instead of the small hand-written
+pool approach described above (which still applies to the other 12 lighter files per day).

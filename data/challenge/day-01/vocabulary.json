@@ -3106,38 +3106,38 @@
     },
     {
       "id": 86,
-      "word": "learn",
-      "hindi": "सीखना",
-      "simpleMeaning": "to gain knowledge or skill — revisit for professional collocations",
-      "ipa": "/lɜːrn/",
+      "word": "oversee",
+      "hindi": "देखरेख करना",
+      "simpleMeaning": "to supervise or manage a process or people",
+      "ipa": "/oʊvərˈsiː/",
       "category": "Professional Verbs",
       "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "cefrLevel": "B2",
       "synonyms": [
-        "master",
-        "acquire",
-        "absorb"
+        "supervise",
+        "manage",
+        "monitor"
       ],
       "antonyms": [
-        "forget",
-        "unlearn",
-        "ignore"
+        "neglect",
+        "ignore",
+        "abandon"
       ],
       "sentences": {
-        "daily": "I learn one new English word every day.",
-        "office": "We learn from every project we complete.",
-        "interview": "I am always learning to stay relevant.",
-        "business": "Learning is embedded in our company culture.",
-        "formal": "Learn from the past to build a better future.",
-        "informal": "I'm always learning — even from failures!"
+        "daily": "My uncle oversees the family shop every morning.",
+        "office": "She oversees the entire onboarding process for new hires.",
+        "interview": "In my last role, I oversaw a team of six engineers.",
+        "business": "The CFO oversees all financial reporting for the company.",
+        "formal": "The director will oversee the merger proceedings personally.",
+        "informal": "Can you oversee this for me while I'm on leave?"
       },
-      "usageNote": null,
+      "usageNote": "'Oversee' means to supervise from a position of responsibility, not to do the work yourself.",
       "verbForms": {
-        "base": "learn",
-        "s3": "learns",
-        "ing": "learning",
-        "past": "learned",
-        "pp": "learned"
+        "base": "oversee",
+        "s3": "oversees",
+        "ing": "overseeing",
+        "past": "oversaw",
+        "pp": "overseen"
       }
     },
     {
@@ -3502,38 +3502,38 @@
     },
     {
       "id": 97,
-      "word": "decide",
-      "hindi": "निर्णय लेना",
-      "simpleMeaning": "to choose after thinking about possibilities",
-      "ipa": "/dɪˈsaɪd/",
+      "word": "authorize",
+      "hindi": "अधिकृत करना / मंजूरी देना",
+      "simpleMeaning": "to give official permission for something",
+      "ipa": "/ˈɔːθəraɪz/",
       "category": "Professional Verbs",
       "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "cefrLevel": "B2",
       "synonyms": [
-        "choose",
-        "determine",
-        "resolve"
+        "approve",
+        "sanction",
+        "permit"
       ],
       "antonyms": [
-        "doubt",
-        "delay",
-        "hesitate"
+        "forbid",
+        "deny",
+        "reject"
       ],
       "sentences": {
-        "daily": "Decide what you want — then go get it.",
-        "office": "The board will decide by next Friday.",
-        "interview": "I decided to take the promotion in Bangalore.",
-        "business": "We decide based on data — not gut feelings.",
-        "formal": "Let the people decide who leads them.",
-        "informal": "Just decide — you've been thinking for 2 hours!"
+        "daily": "My father authorized me to use his car this weekend.",
+        "office": "Only the manager can authorize expenses above ₹10,000.",
+        "interview": "I was authorized to sign contracts on behalf of the company.",
+        "business": "The board authorized the new investment plan.",
+        "formal": "This document is authorized by the head of department.",
+        "informal": "Boss finally authorized my leave — vacation time!"
       },
       "usageNote": null,
       "verbForms": {
-        "base": "decide",
-        "s3": "decides",
-        "ing": "deciding",
-        "past": "decided",
-        "pp": "decided"
+        "base": "authorize",
+        "s3": "authorizes",
+        "ing": "authorizing",
+        "past": "authorized",
+        "pp": "authorized"
       }
     },
     {
@@ -4565,61 +4565,74 @@
     },
     {
       "id": 128,
-      "word": "look",
-      "hindi": "दिखना (adjective के साथ)",
-      "simpleMeaning": "to have a particular appearance",
-      "ipa": "/lʊk/",
+      "word": "remain",
+      "hindi": "बने रहना / रहना",
+      "simpleMeaning": "to continue to be in a particular state",
+      "ipa": "/rɪˈmeɪn/",
       "category": "Linking Verbs",
       "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "appear",
-        "seem",
-        "feel"
+        "stay",
+        "continue",
+        "persist"
       ],
       "antonyms": [
-        "be",
-        "hide",
-        "conceal"
+        "change",
+        "leave",
+        "depart"
       ],
       "sentences": {
-        "daily": "You look great in that formal shirt!",
-        "office": "The project looks on track.",
-        "interview": "I look confident — even when I'm not.",
-        "business": "This quarter looks very promising.",
-        "formal": "Things look better in the morning.",
-        "informal": "You look like you need a vacation!"
+        "daily": "The weather remains hot even in the evening.",
+        "office": "Please remain seated until the meeting ends.",
+        "interview": "I remained calm even under pressure.",
+        "business": "Sales remained steady throughout the quarter.",
+        "formal": "The situation remains uncertain at this time.",
+        "informal": "Whatever happens, we remain friends, okay?"
       },
-      "usageNote": null
+      "usageNote": "As a linking verb, 'remain' connects the subject to a state or condition, like 'is' or 'stays'.",
+      "verbForms": {
+        "base": "remain",
+        "s3": "remains",
+        "ing": "remaining",
+        "past": "remained",
+        "pp": "remained"
+      }
     },
     {
       "id": 129,
-      "word": "feel",
-      "hindi": "महसूस होना (linking)",
-      "simpleMeaning": "to seem or be perceived a certain way",
-      "ipa": "/fiːl/",
+      "word": "turn",
+      "hindi": "बदल जाना / हो जाना",
+      "simpleMeaning": "to become a different state",
+      "ipa": "/tɜːrn/",
       "category": "Linking Verbs",
       "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "cefrLevel": "A2",
       "synonyms": [
-        "seem",
-        "appear",
-        "sense"
+        "become",
+        "grow",
+        "change"
       ],
       "antonyms": [
-        "think",
-        "know",
-        "ignore"
+        "stay",
+        "remain"
       ],
       "sentences": {
-        "daily": "I feel confident about tomorrow.",
-        "office": "The office feels warm and welcoming.",
-        "interview": "I felt ready for every question asked.",
-        "business": "The brand feels premium and trustworthy.",
-        "formal": "Freedom feels like breathing fresh air.",
-        "informal": "I feel like a superhero today!"
+        "daily": "The milk turned sour overnight.",
+        "office": "The meeting turned tense after the announcement.",
+        "interview": "My nervousness turned into confidence as I spoke.",
+        "business": "The market turned bullish after the announcement.",
+        "formal": "The weather turned cold rather suddenly.",
+        "informal": "Things turned awkward real quick, lol."
       },
-      "usageNote": null
+      "usageNote": "As a linking verb, 'turn' describes a change of state, like 'the leaves turned brown.'",
+      "verbForms": {
+        "base": "turn",
+        "s3": "turns",
+        "ing": "turning",
+        "past": "turned",
+        "pp": "turned"
+      }
     },
     {
       "id": 130,
@@ -6641,30 +6654,26 @@
     },
     {
       "id": 200,
-      "word": "answer",
-      "hindi": "जवाब / उत्तर",
-      "simpleMeaning": "a response to a question",
-      "ipa": "/ˈæn.sər/",
+      "word": "curtain",
+      "hindi": "पर्दा",
+      "simpleMeaning": "a piece of cloth hung to cover a window",
+      "ipa": "/ˈkɜːrtn/",
       "category": "Common Nouns",
       "partOfSpeech": "noun",
       "cefrLevel": "A1",
       "synonyms": [
-        "response",
-        "reply",
-        "solution"
+        "drape",
+        "blind",
+        "screen"
       ],
-      "antonyms": [
-        "question",
-        "query",
-        "problem"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "The answer is: practice every single day.",
-        "office": "What is the answer to this problem?",
-        "interview": "My answer impressed the panel greatly.",
-        "business": "The answer to every business problem is data.",
-        "formal": "Citizens deserve honest answers from leaders.",
-        "informal": "The answer was right there all along!"
+        "daily": "Please close the curtain, the sun is too bright.",
+        "office": "The office curtains keep the glare off the screens.",
+        "interview": "She pulled back the curtain to check the weather before leaving for the interview.",
+        "business": "The showroom uses heavy curtains to control lighting for displays.",
+        "formal": "The curtain was drawn to begin the ceremony.",
+        "informal": "Ugh, open the curtain, it's so dark in here!"
       },
       "usageNote": null
     },
@@ -7540,30 +7549,30 @@
     },
     {
       "id": 231,
-      "word": "clean",
-      "hindi": "साफ़ / स्वच्छ",
-      "simpleMeaning": "free from dirt",
-      "ipa": "/kliːn/",
+      "word": "wise",
+      "hindi": "बुद्धिमान / समझदार",
+      "simpleMeaning": "having good judgment based on experience",
+      "ipa": "/waɪz/",
       "category": "Adjectives",
       "partOfSpeech": "adjective",
-      "cefrLevel": "A1",
+      "cefrLevel": "A2",
       "synonyms": [
-        "tidy",
-        "neat",
-        "spotless"
+        "sensible",
+        "prudent",
+        "intelligent"
       ],
       "antonyms": [
-        "dirty",
-        "messy",
-        "filthy"
+        "foolish",
+        "unwise",
+        "silly"
       ],
       "sentences": {
-        "daily": "Keep your language clean and professional.",
-        "office": "A clean workspace improves focus.",
-        "interview": "Give clean and precise answers in interviews.",
-        "business": "We maintain clean data in our systems.",
-        "formal": "A clean environment is every citizen's right.",
-        "informal": "A clean room = a clean mind!"
+        "daily": "My grandmother always gives wise advice.",
+        "office": "It was a wise decision to save that report before the system crashed.",
+        "interview": "Choosing this career was the wisest decision I've made.",
+        "business": "Investing early was a wise financial move.",
+        "formal": "The committee made a wise choice in selecting the candidate.",
+        "informal": "Be wise, don't spend your whole salary on day one!"
       },
       "usageNote": null
     },
@@ -7656,30 +7665,30 @@
     },
     {
       "id": 235,
-      "word": "open",
-      "hindi": "खुला",
-      "simpleMeaning": "not closed or blocked",
-      "ipa": "/ˈoʊ.pən/",
+      "word": "modern",
+      "hindi": "आधुनिक",
+      "simpleMeaning": "relating to the present time; up to date",
+      "ipa": "/ˈmɒdərn/",
       "category": "Adjectives",
       "partOfSpeech": "adjective",
-      "cefrLevel": "A1",
+      "cefrLevel": "A2",
       "synonyms": [
-        "accessible",
-        "available",
-        "unlocked"
+        "contemporary",
+        "current",
+        "up-to-date"
       ],
       "antonyms": [
-        "closed",
-        "shut",
-        "blocked"
+        "outdated",
+        "old-fashioned",
+        "ancient"
       ],
       "sentences": {
-        "daily": "I keep an open mind about everything.",
-        "office": "My manager has an open-door policy.",
-        "interview": "Be open about your strengths and weaknesses.",
-        "business": "We are open to strategic partnerships.",
-        "formal": "An open society lets citizens speak freely.",
-        "informal": "I'm an open book — ask me anything!"
+        "daily": "We live in a modern apartment with all facilities.",
+        "office": "The office has a modern, open-plan design.",
+        "interview": "I'm comfortable using modern collaboration tools.",
+        "business": "The brand adopted a modern marketing strategy.",
+        "formal": "Modern technology has transformed the workplace.",
+        "informal": "This café has such a modern vibe, I love it!"
       },
       "usageNote": null
     },
@@ -10409,30 +10418,28 @@
     },
     {
       "id": 331,
-      "word": "when",
-      "hindi": "जब",
-      "simpleMeaning": "at the time that",
-      "ipa": "/wɛn/",
+      "word": "unless",
+      "hindi": "जब तक न",
+      "simpleMeaning": "except if; only if not",
+      "ipa": "/ənˈlɛs/",
       "category": "Conjunctions",
       "partOfSpeech": "conjunction",
-      "cefrLevel": "A1",
+      "cefrLevel": "A2",
       "synonyms": [
-        "as",
-        "at the time",
-        "during the time"
+        "except if",
+        "if not"
       ],
       "antonyms": [
-        "before",
-        "after",
-        "until"
+        "if",
+        "provided that"
       ],
       "sentences": {
-        "daily": "When I practice daily, my English improves.",
-        "office": "Call me when you are available.",
-        "interview": "When I entered, the panel was already present.",
-        "business": "When sales drop, we analyze and act.",
-        "formal": "When citizens unite, change happens.",
-        "informal": "When you're ready — I'll be here waiting!"
+        "daily": "I won't go out unless it stops raining.",
+        "office": "Unless you finish the report, you can't leave early.",
+        "interview": "Unless there are questions, I'll conclude my presentation here.",
+        "business": "Unless sales improve, we'll have to cut the budget.",
+        "formal": "Unless otherwise stated, the terms remain unchanged.",
+        "informal": "I'm not coming unless you pay for the tickets!"
       },
       "usageNote": null
     },
@@ -10988,30 +10995,30 @@
     },
     {
       "id": 351,
-      "word": "sleep",
-      "hindi": "नींद",
-      "simpleMeaning": "the state of rest when your eyes are closed",
-      "ipa": "/sliːp/",
+      "word": "stamina",
+      "hindi": "सहनशक्ति",
+      "simpleMeaning": "the physical or mental strength to keep doing something for a long time",
+      "ipa": "/ˈstæmɪnə/",
       "category": "Body & Health",
       "partOfSpeech": "noun",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "rest",
-        "nap",
-        "slumber"
+        "endurance",
+        "energy",
+        "resilience"
       ],
       "antonyms": [
-        "wakefulness",
-        "activity",
-        "alertness"
+        "exhaustion",
+        "fatigue",
+        "weakness"
       ],
       "sentences": {
-        "daily": "Sleep is essential for language learning.",
-        "office": "Don't lose sleep over small issues.",
-        "interview": "I slept well the night before the interview.",
-        "business": "A rested team performs 40% better.",
-        "formal": "Sleep is a basic human need.",
-        "informal": "Sleep is my best friend after English practice!"
+        "daily": "Running every morning has improved my stamina.",
+        "office": "Long work hours test your mental stamina.",
+        "interview": "This job requires stamina to handle back-to-back client calls.",
+        "business": "The startup team showed real stamina during the crunch period.",
+        "formal": "Athletes train for years to build such stamina.",
+        "informal": "Bro, where do you get this stamina to work 12 hours straight?!"
       },
       "usageNote": null
     },
@@ -11075,30 +11082,29 @@
     },
     {
       "id": 354,
-      "word": "strong",
-      "hindi": "मज़बूत (स्वास्थ्य में)",
-      "simpleMeaning": "physically or mentally powerful",
-      "ipa": "/strɒŋ/",
+      "word": "immunity",
+      "hindi": "प्रतिरोधक क्षमता",
+      "simpleMeaning": "the body's ability to resist illness",
+      "ipa": "/ɪˈmjuːnəti/",
       "category": "Body & Health",
-      "partOfSpeech": "adjective",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "fit",
-        "healthy",
-        "powerful"
+        "resistance",
+        "protection",
+        "defense"
       ],
       "antonyms": [
-        "weak",
-        "frail",
-        "fragile"
+        "vulnerability",
+        "susceptibility"
       ],
       "sentences": {
-        "daily": "Stay strong — English fluency is coming!",
-        "office": "A strong body and a strong mind = a strong person.",
-        "interview": "I came into the interview strong and confident.",
-        "business": "We build a strong company culture for strength.",
-        "formal": "Build strong communities.",
-        "informal": "You're stronger than yesterday — keep that energy!"
+        "daily": "Eating fruits daily boosts your immunity.",
+        "office": "Take vitamin C to keep your immunity strong during flu season.",
+        "interview": "Staying healthy gave me the immunity to power through exam season without falling sick.",
+        "business": "The wellness program aims to strengthen employee immunity.",
+        "formal": "A balanced diet is essential for building immunity.",
+        "informal": "My immunity is zero, I catch every cold going around!"
       },
       "usageNote": null
     },
@@ -11162,30 +11168,26 @@
     },
     {
       "id": 357,
-      "word": "walk",
-      "hindi": "चलना / टहलना",
-      "simpleMeaning": "the act of moving on foot",
-      "ipa": "/wɔːk/",
+      "word": "posture",
+      "hindi": "मुद्रा / शारीरिक स्थिति",
+      "simpleMeaning": "the way a person holds their body",
+      "ipa": "/ˈpɒstʃər/",
       "category": "Body & Health",
       "partOfSpeech": "noun",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "stroll",
-        "march",
-        "hike"
+        "stance",
+        "position",
+        "bearing"
       ],
-      "antonyms": [
-        "run",
-        "drive",
-        "ride"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "A 30-minute walk clears my mind for study.",
-        "office": "Walk the talk — do what you say you will.",
-        "interview": "I walked into the interview room with confidence.",
-        "business": "Walk before you run — in business and in learning.",
-        "formal": "Walk toward a better future for all citizens.",
-        "informal": "My morning walk + English podcast = perfect combo!"
+        "daily": "Sitting all day has ruined my posture.",
+        "office": "Use an ergonomic chair to maintain good posture at your desk.",
+        "interview": "Good posture during an interview shows confidence.",
+        "business": "The company provided standing desks to improve employee posture.",
+        "formal": "Maintain an upright posture during the presentation.",
+        "informal": "Fix your posture, you're slouching again!"
       },
       "usageNote": null
     },
@@ -11335,29 +11337,29 @@
     },
     {
       "id": 363,
-      "word": "water",
-      "hindi": "पानी",
-      "simpleMeaning": "the transparent liquid essential for life",
-      "ipa": "/ˈwɔː.tər/",
+      "word": "snack",
+      "hindi": "नाश्ता / हल्का भोजन",
+      "simpleMeaning": "a small amount of food eaten between meals",
+      "ipa": "/snæk/",
       "category": "Food & Drinks",
       "partOfSpeech": "noun",
       "cefrLevel": "A1",
       "synonyms": [
-        "liquid",
-        "H2O"
+        "bite",
+        "treat",
+        "munchies"
       ],
       "antonyms": [
-        "juice",
-        "tea",
-        "coffee"
+        "feast",
+        "meal"
       ],
       "sentences": {
-        "daily": "Drink 8 glasses of water every day.",
-        "office": "There is fresh water in the conference room.",
-        "interview": "Stay hydrated — water helps with concentration.",
-        "business": "Water is the most crucial resource we manage.",
-        "formal": "Water is life — don't waste a single drop.",
-        "informal": "Water + discipline = unstoppable me!"
+        "daily": "I always keep a snack in my bag.",
+        "office": "We ordered snacks for the afternoon meeting.",
+        "interview": "I grabbed a quick snack before rushing to the interview.",
+        "business": "The company launched a new healthy snack line.",
+        "formal": "Light snacks were served during the conference break.",
+        "informal": "Got any snacks? I'm starving!"
       },
       "usageNote": null
     },
@@ -13038,30 +13040,29 @@
     },
     {
       "id": 422,
-      "word": "report",
-      "hindi": "रिपोर्ट",
-      "simpleMeaning": "a document describing facts or events",
-      "ipa": "/rɪˈpɔːrt/",
+      "word": "recognition",
+      "hindi": "मान्यता / सराहना",
+      "simpleMeaning": "acknowledgment or appreciation for achievement",
+      "ipa": "/ˌrɛkəɡˈnɪʃən/",
       "category": "Professional",
       "partOfSpeech": "noun",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "document",
-        "analysis",
-        "summary"
+        "appreciation",
+        "acknowledgment",
+        "credit"
       ],
       "antonyms": [
-        "verbal",
-        "spoken",
-        "informal"
+        "neglect",
+        "disregard"
       ],
       "sentences": {
-        "daily": "I write a daily progress report.",
-        "office": "The Q3 report shows record-breaking results.",
-        "interview": "I prepared a report on my preparation activities.",
-        "business": "Submit the client report by Friday at 5 PM.",
-        "formal": "Journalists report the truth — a democracy depends on it.",
-        "informal": "My report: I'm getting better every single day!"
+        "daily": "She got recognition for organizing the community event.",
+        "office": "Employee recognition boosts morale at work.",
+        "interview": "I received recognition for exceeding my sales target.",
+        "business": "The company introduced a recognition program for top performers.",
+        "formal": "The award is in recognition of years of dedicated service.",
+        "informal": "Finally got some recognition for that project — feels good!"
       },
       "usageNote": null
     },
@@ -14450,30 +14451,29 @@
     },
     {
       "id": 471,
-      "word": "water",
-      "hindi": "पानी (प्राकृतिक संसाधन)",
-      "simpleMeaning": "the natural liquid essential for life",
-      "ipa": "/ˈwɔː.tər/",
+      "word": "valley",
+      "hindi": "घाटी",
+      "simpleMeaning": "low land between hills or mountains",
+      "ipa": "/ˈvæli/",
       "category": "Nature",
       "partOfSpeech": "noun",
-      "cefrLevel": "A1",
+      "cefrLevel": "A2",
       "synonyms": [
-        "river",
-        "lake",
-        "ocean"
+        "dale",
+        "glen",
+        "ravine"
       ],
       "antonyms": [
-        "fire",
-        "desert",
-        "dry"
+        "peak",
+        "mountain"
       ],
       "sentences": {
-        "daily": "Water your mind daily with new knowledge.",
-        "office": "Water is our most precious resource — protect it.",
-        "interview": "I drank water to stay calm during the exam.",
-        "business": "Water conservation saves money and the planet.",
-        "formal": "Clean water is every citizen's birthright.",
-        "informal": "Water is life. Protect it like your dreams!"
+        "daily": "We hiked through a beautiful valley last weekend.",
+        "office": "The company retreat was held in a quiet valley resort.",
+        "interview": "I mentioned my love for trekking in the valley during small talk.",
+        "business": "The valley region attracts a lot of tourism revenue.",
+        "formal": "The valley is home to several rare plant species.",
+        "informal": "That valley view from the hotel was unreal!"
       },
       "usageNote": null
     },
@@ -15112,30 +15112,26 @@
     },
     {
       "id": 494,
-      "word": "beautiful",
-      "hindi": "सुंदर (वर्णन)",
-      "simpleMeaning": "pleasing aesthetics or qualities",
-      "ipa": "/ˈbjuː.tɪ.fəl/",
+      "word": "amber",
+      "hindi": "अंबर रंग / पीला-नारंगी",
+      "simpleMeaning": "an orange-yellow color, like the traffic light",
+      "ipa": "/ˈæmbər/",
       "category": "Colors",
       "partOfSpeech": "adjective",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "gorgeous",
-        "attractive",
-        "lovely"
+        "golden",
+        "honey-colored",
+        "tawny"
       ],
-      "antonyms": [
-        "ugly",
-        "plain",
-        "dull"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "English is a beautiful language — love it.",
-        "office": "Beautiful results come from beautiful effort.",
-        "interview": "What a beautiful opening in the interview — you crushed it!",
-        "business": "Beautiful brand design attracts customers instantly.",
-        "formal": "A beautiful society is built on justice and kindness.",
-        "informal": "You're beautiful — inside, outside, and in your accent!"
+        "daily": "The sunset turned the sky amber.",
+        "office": "The warning light on the machine glowed amber.",
+        "interview": "I noticed the amber signal and slowed down before the interview.",
+        "business": "The new logo uses an amber and white color scheme.",
+        "formal": "The amber traffic signal indicates caution.",
+        "informal": "That amber jacket looks so good on you!"
       },
       "usageNote": null
     },
@@ -15170,30 +15166,30 @@
     },
     {
       "id": 496,
-      "word": "short",
-      "hindi": "छोटा (ऊँचाई में)",
-      "simpleMeaning": "not tall; of small height or length",
-      "ipa": "/ʃɔːrt/",
+      "word": "elegant",
+      "hindi": "सुरुचिपूर्ण / शालीन",
+      "simpleMeaning": "graceful and stylish in appearance or manner",
+      "ipa": "/ˈɛlɪɡənt/",
       "category": "Descriptors",
       "partOfSpeech": "adjective",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "small",
-        "brief",
-        "compact"
+        "graceful",
+        "refined",
+        "stylish"
       ],
       "antonyms": [
-        "tall",
-        "long",
-        "high"
+        "clumsy",
+        "shabby",
+        "tacky"
       ],
       "sentences": {
-        "daily": "Short sentences can be more powerful than long ones.",
-        "office": "Let me give you a short answer: YES.",
-        "interview": "Be short and precise in interview answers.",
-        "business": "Short meetings save time and improve focus.",
-        "formal": "Short-term pain for long-term gain.",
-        "informal": "Short answer: I'm getting better every day!"
+        "daily": "She wore an elegant saree to the wedding.",
+        "office": "The new office lobby looks elegant and welcoming.",
+        "interview": "An elegant, simple answer often works better than a long one.",
+        "business": "The brand is known for its elegant packaging.",
+        "formal": "The venue was decorated in an elegant, minimalist style.",
+        "informal": "That dress is so elegant, where did you get it?"
       },
       "usageNote": null
     },
@@ -15257,59 +15253,59 @@
     },
     {
       "id": 499,
-      "word": "hot",
-      "hindi": "गर्म (तापमान)",
-      "simpleMeaning": "having a high temperature",
-      "ipa": "/hɒt/",
+      "word": "rigid",
+      "hindi": "कठोर / अटल",
+      "simpleMeaning": "not able to bend or change; strict",
+      "ipa": "/ˈrɪdʒɪd/",
       "category": "Descriptors",
       "partOfSpeech": "adjective",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "warm",
-        "burning",
-        "blazing"
+        "strict",
+        "inflexible",
+        "stiff"
       ],
       "antonyms": [
-        "cold",
-        "cool",
-        "icy"
+        "flexible",
+        "adaptable",
+        "lenient"
       ],
       "sentences": {
-        "daily": "Hot summer? Perfect to study indoors.",
-        "office": "This job is hot — everyone wants it.",
-        "interview": "I stayed cool when the questions got hot.",
-        "business": "Hot takes in a cold market = competitive advantage.",
-        "formal": "Protect workers in hot working conditions.",
-        "informal": "I'm on a hot streak with English — don't stop now!"
+        "daily": "My father has rigid rules about bedtime.",
+        "office": "The company has a rigid dress code.",
+        "interview": "I can adapt to rigid schedules when needed.",
+        "business": "Rigid policies can slow down decision-making.",
+        "formal": "The rules must not be applied too rigidly.",
+        "informal": "My boss is so rigid, no flexibility at all!"
       },
       "usageNote": null
     },
     {
       "id": 500,
-      "word": "cold",
-      "hindi": "ठंडा (तापमान)",
-      "simpleMeaning": "having a low temperature",
-      "ipa": "/koʊld/",
+      "word": "vivid",
+      "hindi": "स्पष्ट / जीवंत",
+      "simpleMeaning": "producing powerful, clear images in the mind; bright",
+      "ipa": "/ˈvɪvɪd/",
       "category": "Descriptors",
       "partOfSpeech": "adjective",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "cool",
-        "chilly",
-        "freezing"
+        "bright",
+        "vibrant",
+        "clear"
       ],
       "antonyms": [
-        "warm",
-        "hot",
-        "burning"
+        "dull",
+        "faded",
+        "vague"
       ],
       "sentences": {
-        "daily": "Don't give clients a cold shoulder — warmth builds loyalty.",
-        "office": "Cold calling requires confidence and clear English.",
-        "interview": "Cold mornings, warm motivation — I still studied.",
-        "business": "Cold storage is a ₹15,000 crore opportunity in India.",
-        "formal": "Don't leave the cold and vulnerable behind.",
-        "informal": "Cold weather, warm determination — unstoppable combo!"
+        "daily": "I had a vivid dream last night.",
+        "office": "She gave a vivid description of the client's requirements.",
+        "interview": "I still have vivid memories of my first job.",
+        "business": "The advertisement used vivid colors to grab attention.",
+        "formal": "The report paints a vivid picture of market trends.",
+        "informal": "That story was so vivid, I felt like I was there!"
       },
       "usageNote": null
     },
@@ -15688,30 +15684,29 @@
     },
     {
       "id": 514,
-      "word": "goal",
-      "hindi": "उद्देश्य / इरादा (जीवन में)",
-      "simpleMeaning": "a purpose or aim you work toward",
-      "ipa": "/ɡoʊl/",
+      "word": "purpose",
+      "hindi": "उद्देश्य / लक्ष्य",
+      "simpleMeaning": "the reason for doing something; a sense of meaning",
+      "ipa": "/ˈpɜːrpəs/",
       "category": "Lifestyle",
       "partOfSpeech": "noun",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
+        "goal",
         "aim",
-        "purpose",
-        "ambition"
+        "intention"
       ],
       "antonyms": [
-        "distraction",
         "aimlessness",
-        "apathy"
+        "meaninglessness"
       ],
       "sentences": {
-        "daily": "My goal: speak English fluently in 75 days.",
-        "office": "Set a goal — then make a plan. Then execute.",
-        "interview": "I stated my career goals confidently in the interview.",
-        "business": "Clear goals align teams and drive performance.",
-        "formal": "Shared national goals build a united people.",
-        "informal": "Goal is set. Mind is focused. Work begins. Now!"
+        "daily": "Waking up early gives my day a sense of purpose.",
+        "office": "Every project should have a clear purpose.",
+        "interview": "I want a career with real purpose, not just a paycheck.",
+        "business": "The company's purpose is to make education affordable.",
+        "formal": "The meeting's purpose was to finalize the budget.",
+        "informal": "Find your purpose, then the hustle feels worth it."
       },
       "usageNote": null
     },
@@ -15746,30 +15741,29 @@
     },
     {
       "id": 516,
-      "word": "hope",
-      "hindi": "उम्मीद / आशा",
-      "simpleMeaning": "a feeling that something good will happen",
-      "ipa": "/hoʊp/",
+      "word": "wellbeing",
+      "hindi": "स्वास्थ्य और खुशहाली",
+      "simpleMeaning": "the state of being healthy, happy, and comfortable",
+      "ipa": "/ˌwɛlˈbiːɪŋ/",
       "category": "Lifestyle",
       "partOfSpeech": "noun",
-      "cefrLevel": "A1",
+      "cefrLevel": "B1",
       "synonyms": [
-        "optimism",
-        "expectation",
-        "aspiration"
+        "welfare",
+        "health",
+        "happiness"
       ],
       "antonyms": [
-        "despair",
-        "doubt",
-        "hopelessness"
+        "distress",
+        "illness"
       ],
       "sentences": {
-        "daily": "I hope to become fluent within 75 days.",
-        "office": "Hope is not a strategy — action is.",
-        "interview": "I hoped for the best — and prepared for everything.",
-        "business": "We hope to be the most trusted brand in India.",
-        "formal": "Hope is the heartbeat of democracy.",
-        "informal": "Hope + hard work = inevitable success!"
+        "daily": "Sleeping well is important for my wellbeing.",
+        "office": "The company launched a wellbeing program for employees.",
+        "interview": "I make time for my mental wellbeing every day.",
+        "business": "Employee wellbeing directly affects productivity.",
+        "formal": "The policy focuses on the wellbeing of all staff.",
+        "informal": "Self-care Sunday — all about my wellbeing today!"
       },
       "usageNote": null
     },
@@ -16007,30 +16001,29 @@
     },
     {
       "id": 525,
-      "word": "confidence",
-      "hindi": "आत्मविश्वास (दोहराव — उपयोग संदर्भ)",
-      "simpleMeaning": "firm trust in yourself or others",
-      "ipa": "/ˈkɒn.fɪ.dəns/",
+      "word": "mindfulness",
+      "hindi": "सजगता / ध्यान",
+      "simpleMeaning": "the practice of being fully present and aware",
+      "ipa": "/ˈmaɪndfʊlnəs/",
       "category": "Lifestyle",
       "partOfSpeech": "noun",
-      "cefrLevel": "A1",
+      "cefrLevel": "B2",
       "synonyms": [
-        "self-belief",
-        "assurance",
-        "boldness"
+        "awareness",
+        "presence",
+        "attentiveness"
       ],
       "antonyms": [
-        "doubt",
-        "fear",
-        "hesitation"
+        "distraction",
+        "carelessness"
       ],
       "sentences": {
-        "daily": "Confidence in English comes from daily practice.",
-        "office": "Speak with confidence — even when unsure.",
-        "interview": "My confidence grew with every mock interview.",
-        "business": "Confidence turns a good pitch into a winning one.",
-        "formal": "Confident citizens protect their democracy.",
-        "informal": "CONFIDENCE: earned, not given. I earn mine daily!"
+        "daily": "I practice mindfulness for ten minutes every morning.",
+        "office": "The company offers mindfulness sessions to reduce stress.",
+        "interview": "Mindfulness helps me stay calm under pressure.",
+        "business": "Mindfulness training improved employee focus by 20%.",
+        "formal": "Mindfulness is increasingly recognized in workplace wellness.",
+        "informal": "Trying this mindfulness app, it's actually helping!"
       },
       "usageNote": null
     },
@@ -16094,115 +16087,115 @@
     },
     {
       "id": 528,
-      "word": "improve",
-      "hindi": "सुधारना (जीवनशैली में)",
-      "simpleMeaning": "to make or become better",
-      "ipa": "/ɪmˈpruːv/",
+      "word": "contentment",
+      "hindi": "संतोष",
+      "simpleMeaning": "a state of peaceful satisfaction",
+      "ipa": "/kənˈtɛntmənt/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B2",
       "synonyms": [
-        "enhance",
-        "develop",
-        "upgrade"
+        "satisfaction",
+        "peace",
+        "fulfillment"
       ],
       "antonyms": [
-        "worsen",
-        "decline",
-        "deteriorate"
+        "discontent",
+        "dissatisfaction"
       ],
       "sentences": {
-        "daily": "I improve a little every single day.",
-        "office": "Improve your weaknesses — they become strengths.",
-        "interview": "I improved my vocabulary by 200 words in 2 weeks.",
-        "business": "Improving customer experience = improving retention.",
-        "formal": "Improve governance — citizens are watching.",
-        "informal": "I improve every day — and I love it!"
-      }
+        "daily": "A simple walk in the park brings me contentment.",
+        "office": "Job contentment matters more to me than a big title.",
+        "interview": "I find contentment in solving difficult problems.",
+        "business": "Customer contentment leads to long-term loyalty.",
+        "formal": "True contentment comes from within, not possessions.",
+        "informal": "Honestly, chai and a good book — pure contentment."
+      },
+      "usageNote": null
     },
     {
       "id": 529,
-      "word": "grow",
-      "hindi": "बढ़ना (व्यक्तिगत विकास)",
-      "simpleMeaning": "to develop physically, mentally, or professionally",
-      "ipa": "/ɡroʊ/",
+      "word": "fulfillment",
+      "hindi": "पूर्णता / संतुष्टि",
+      "simpleMeaning": "a feeling of satisfaction from achieving something meaningful",
+      "ipa": "/fʊlˈfɪlmənt/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B2",
       "synonyms": [
-        "develop",
-        "progress",
-        "advance"
+        "satisfaction",
+        "achievement",
+        "gratification"
       ],
       "antonyms": [
-        "stagnate",
-        "decline",
-        "shrink"
+        "emptiness",
+        "dissatisfaction"
       ],
       "sentences": {
-        "daily": "I grow a little each day with this program.",
-        "office": "Grow through what you go through.",
-        "interview": "I have grown so much since I started this journey.",
-        "business": "Companies that don't grow eventually die.",
-        "formal": "A growing nation invests in its people.",
-        "informal": "Growing every day — and loving every moment!"
-      }
+        "daily": "Helping others gives me a deep sense of fulfillment.",
+        "office": "She finds fulfillment in mentoring junior staff.",
+        "interview": "This role would give me great career fulfillment.",
+        "business": "Order fulfillment speed affects customer satisfaction.",
+        "formal": "The organization values employee fulfillment over output alone.",
+        "informal": "Finished the marathon — total fulfillment right now!"
+      },
+      "usageNote": "'Fulfillment' can mean emotional satisfaction OR completing an order (as in 'order fulfillment')."
     },
     {
       "id": 530,
-      "word": "believe",
-      "hindi": "विश्वास रखना (खुद में)",
-      "simpleMeaning": "to trust in yourself or a possibility",
-      "ipa": "/bɪˈliːv/",
+      "word": "optimism",
+      "hindi": "आशावाद",
+      "simpleMeaning": "hopefulness about the future",
+      "ipa": "/ˈɒptɪmɪzəm/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "trust",
-        "have faith",
-        "think"
+        "hopefulness",
+        "positivity",
+        "confidence"
       ],
       "antonyms": [
-        "doubt",
-        "question",
-        "disbelieve"
+        "pessimism",
+        "despair"
       ],
       "sentences": {
-        "daily": "I believe I can speak English fluently.",
-        "office": "Believe in yourself — others will follow.",
-        "interview": "I believed I could — and I did.",
-        "business": "We believe in the power of our product and team.",
-        "formal": "Believe in the power of democracy.",
-        "informal": "I BELIEVE — and belief makes it real!"
-      }
+        "daily": "I try to face every day with optimism.",
+        "office": "Her optimism keeps the team motivated during tough projects.",
+        "interview": "I bring optimism and energy to every team I join.",
+        "business": "Market optimism pushed stock prices higher this week.",
+        "formal": "The report expresses cautious optimism about growth.",
+        "informal": "Stay positive, a little optimism goes a long way!"
+      },
+      "usageNote": null
     },
     {
       "id": 531,
-      "word": "share",
-      "hindi": "साझा करना (अनुभव)",
-      "simpleMeaning": "to give part of something or tell someone",
-      "ipa": "/ʃɛr/",
+      "word": "positivity",
+      "hindi": "सकारात्मकता",
+      "simpleMeaning": "the practice of being hopeful and confident",
+      "ipa": "/ˌpɒzɪˈtɪvɪti/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "give",
-        "tell",
-        "distribute"
+        "optimism",
+        "cheerfulness",
+        "hopefulness"
       ],
       "antonyms": [
-        "keep",
-        "hide",
-        "hoard"
+        "negativity",
+        "pessimism"
       ],
       "sentences": {
-        "daily": "Share your English progress with friends.",
-        "office": "Share your ideas — they deserve to be heard.",
-        "interview": "I shared a personal story in the interview — it connected.",
-        "business": "Share resources — it builds team trust.",
-        "formal": "Share power with the people — that's true democracy.",
-        "informal": "Share your knowledge — it multiplies when you give it away!"
-      }
+        "daily": "Starting the day with positivity changes everything.",
+        "office": "Her positivity is contagious in team meetings.",
+        "interview": "I try to bring positivity even during stressful deadlines.",
+        "business": "Customer positivity toward the brand increased after the campaign.",
+        "formal": "Positivity in leadership improves overall team morale.",
+        "informal": "Big positivity vibes only today!"
+      },
+      "usageNote": null
     },
     {
       "id": 532,
@@ -16374,31 +16367,31 @@
     },
     {
       "id": 538,
-      "word": "listen",
-      "hindi": "ध्यान से सुनना (जीवन में)",
-      "simpleMeaning": "to pay attention to what someone says",
-      "ipa": "/ˈlɪs.ən/",
+      "word": "consistency",
+      "hindi": "निरंतरता / नियमितता",
+      "simpleMeaning": "acting the same way over time; being reliable",
+      "ipa": "/kənˈsɪstənsi/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "hear",
-        "attend",
-        "pay attention"
+        "reliability",
+        "regularity",
+        "steadiness"
       ],
       "antonyms": [
-        "ignore",
-        "speak",
-        "interrupt"
+        "inconsistency",
+        "unpredictability"
       ],
       "sentences": {
-        "daily": "Listen more than you speak — you'll learn more.",
-        "office": "Listen to your clients — they tell you what they need.",
-        "interview": "Listen carefully in interviews — every word counts.",
-        "business": "Listening leaders build listening cultures.",
-        "formal": "Leaders who listen build trust with citizens.",
-        "informal": "Listen to learn. Learn to lead!"
-      }
+        "daily": "Consistency is the key to learning a new language.",
+        "office": "Consistency in your reports builds trust with your manager.",
+        "interview": "I've maintained consistency in my grades throughout college.",
+        "business": "Brand consistency helps customers recognize your products.",
+        "formal": "The results show a lack of consistency across teams.",
+        "informal": "Bro just needs consistency, not motivation!"
+      },
+      "usageNote": null
     },
     {
       "id": 539,
@@ -16430,31 +16423,31 @@
     },
     {
       "id": 540,
-      "word": "challenge",
-      "hindi": "चुनौती देना / लेना (जीवन में)",
-      "simpleMeaning": "to call someone or something into question; a test",
-      "ipa": "/ˈtʃæl.ɪndʒ/",
+      "word": "willpower",
+      "hindi": "इच्छाशक्ति",
+      "simpleMeaning": "the strength to control your own actions and decisions",
+      "ipa": "/ˈwɪlpaʊər/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "test",
-        "question",
-        "push"
+        "determination",
+        "self-control",
+        "discipline"
       ],
       "antonyms": [
-        "accept",
-        "agree",
-        "yield"
+        "weakness",
+        "laziness"
       ],
       "sentences": {
-        "daily": "I challenge myself with harder words every week.",
-        "office": "Challenge assumptions — find better solutions.",
-        "interview": "The hardest interview question was my best challenge.",
-        "business": "Challenge the status quo — innovation follows.",
-        "formal": "Challenge the system — through legal, peaceful means.",
-        "informal": "I challenge myself daily — it's how I grow!"
-      }
+        "daily": "It takes willpower to wake up early every day.",
+        "office": "It took real willpower to stay focused during the noisy renovation.",
+        "interview": "My willpower helped me finish the certification while working full-time.",
+        "business": "Willpower alone won't fix a broken process — systems matter too.",
+        "formal": "Success requires both willpower and planning.",
+        "informal": "Zero willpower today, ordered pizza again!"
+      },
+      "usageNote": null
     },
     {
       "id": 541,
@@ -16514,59 +16507,59 @@
     },
     {
       "id": 543,
-      "word": "achieve",
-      "hindi": "हासिल करना (जीवन में)",
-      "simpleMeaning": "to succeed in reaching a goal",
-      "ipa": "/əˈtʃiːv/",
+      "word": "perseverance",
+      "hindi": "दृढ़ता / लगन",
+      "simpleMeaning": "continued effort despite difficulty",
+      "ipa": "/ˌpɜːrsɪˈvɪərəns/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B2",
       "synonyms": [
-        "accomplish",
-        "attain",
-        "reach"
+        "persistence",
+        "determination",
+        "tenacity"
       ],
       "antonyms": [
-        "fail",
-        "miss",
-        "give up"
+        "giving up",
+        "quitting"
       ],
       "sentences": {
-        "daily": "I will achieve fluency — one word at a time.",
-        "office": "Achieve small goals to build toward big ones.",
-        "interview": "I achieved my personal best in this interview.",
-        "business": "Together, this team can achieve the impossible.",
-        "formal": "Citizens who strive can achieve great things.",
-        "informal": "I WILL achieve this — not if, but when!"
-      }
+        "daily": "Learning English needs daily perseverance.",
+        "office": "His perseverance through the failed launch impressed everyone.",
+        "interview": "Perseverance is the quality I'm most proud of.",
+        "business": "Perseverance through the recession kept the company alive.",
+        "formal": "Perseverance, more than talent, determines long-term success.",
+        "informal": "Keep going, perseverance always pays off eventually!"
+      },
+      "usageNote": null
     },
     {
       "id": 544,
-      "word": "decide",
-      "hindi": "निर्णय लेना (जीवन में)",
-      "simpleMeaning": "to make a choice from two or more options",
-      "ipa": "/dɪˈsaɪd/",
+      "word": "self-care",
+      "hindi": "स्व-देखभाल",
+      "simpleMeaning": "taking action to protect your own physical and mental health",
+      "ipa": "/sɛlf kɛər/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "choose",
-        "determine",
-        "resolve"
+        "self-love",
+        "self-maintenance",
+        "wellness"
       ],
       "antonyms": [
-        "hesitate",
-        "waver",
-        "delay"
+        "neglect",
+        "self-neglect"
       ],
       "sentences": {
-        "daily": "I decided today: English fluency is my top priority.",
-        "office": "Decide your priorities — then protect them.",
-        "interview": "I decided my career path in the interview room.",
-        "business": "Decide with data — execute with passion.",
-        "formal": "Citizens decide their future at the ballot box.",
-        "informal": "Decision made. Path chosen. Let's GO!"
-      }
+        "daily": "Sunday is my self-care day — no work, just rest.",
+        "office": "Taking short breaks is a form of self-care at work.",
+        "interview": "I've learned that self-care isn't selfish, it makes me a better teammate.",
+        "business": "The self-care industry has grown rapidly in recent years.",
+        "formal": "Employees are encouraged to prioritize self-care.",
+        "informal": "Face mask, chai, and a nap — self-care mode on!"
+      },
+      "usageNote": null
     },
     {
       "id": 545,
@@ -16598,115 +16591,115 @@
     },
     {
       "id": 546,
-      "word": "finish",
-      "hindi": "समाप्त करना (जीवन में)",
-      "simpleMeaning": "to bring to a conclusion",
-      "ipa": "/ˈfɪn.ɪʃ/",
+      "word": "reflection",
+      "hindi": "आत्म-चिंतन",
+      "simpleMeaning": "serious thought about one's experiences or actions",
+      "ipa": "/rɪˈflɛkʃən/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "complete",
-        "conclude",
-        "end"
+        "introspection",
+        "contemplation",
+        "thought"
       ],
       "antonyms": [
-        "start",
-        "begin",
-        "abandon"
+        "impulsiveness",
+        "thoughtlessness"
       ],
       "sentences": {
-        "daily": "Finish what you start — always.",
-        "office": "I finished all 1000 practice questions in one month.",
-        "interview": "I finished the interview strong — with a smile.",
-        "business": "Finish your project before the deadline — every time.",
-        "formal": "Finish your duties as a citizen — vote!",
-        "informal": "Day 1: FINISHED. Day 2: bring it on!"
-      }
+        "daily": "I journal every night for a bit of reflection.",
+        "office": "Weekly reflection helps me improve how I plan my tasks.",
+        "interview": "On reflection, that failure taught me the most.",
+        "business": "The team held a reflection session after the product launch.",
+        "formal": "The report includes a reflection on last year's performance.",
+        "informal": "Some quiet reflection time, that's what I need right now."
+      },
+      "usageNote": null
     },
     {
       "id": 547,
-      "word": "remember",
-      "hindi": "याद रखना (जीवन में)",
-      "simpleMeaning": "to keep something in your mind",
-      "ipa": "/rɪˈmɛm.bər/",
+      "word": "clarity",
+      "hindi": "स्पष्टता",
+      "simpleMeaning": "the quality of being clear and easy to understand",
+      "ipa": "/ˈklærɪti/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "recall",
-        "retain",
-        "not forget"
+        "clearness",
+        "transparency",
+        "precision"
       ],
       "antonyms": [
-        "forget",
-        "lose",
-        "miss"
+        "confusion",
+        "vagueness"
       ],
       "sentences": {
-        "daily": "Remember: practice beats talent every time.",
-        "office": "Remember to follow up after the interview.",
-        "interview": "Remember every rule — they compound into fluency.",
-        "business": "Remember: client satisfaction drives repeat business.",
-        "formal": "Remember your duties — they are as important as your rights.",
-        "informal": "I remember why I started — it keeps me going!"
-      }
+        "daily": "Writing things down gives me more clarity.",
+        "office": "Please add more clarity to the project instructions.",
+        "interview": "I ask questions to gain clarity before starting any task.",
+        "business": "Clear communication brings clarity across departments.",
+        "formal": "The policy was rewritten for greater clarity.",
+        "informal": "Okay, that explanation gave me so much clarity, thanks!"
+      },
+      "usageNote": null
     },
     {
       "id": 548,
-      "word": "understand",
-      "hindi": "समझना (गहरी समझ)",
-      "simpleMeaning": "to know the meaning or reason behind something",
-      "ipa": "/ˌʌndərˈstænd/",
+      "word": "authenticity",
+      "hindi": "प्रामाणिकता / वास्तविकता",
+      "simpleMeaning": "being genuine and true to oneself",
+      "ipa": "/ˌɔːθɛnˈtɪsɪti/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B2",
       "synonyms": [
-        "comprehend",
-        "grasp",
-        "know"
+        "genuineness",
+        "sincerity",
+        "honesty"
       ],
       "antonyms": [
-        "misunderstand",
-        "confuse",
-        "miss"
+        "fakeness",
+        "dishonesty"
       ],
       "sentences": {
-        "daily": "I understand grammar better every day.",
-        "office": "Seek to understand before being understood.",
-        "interview": "I made sure I understood every question before answering.",
-        "business": "Understand your customer before building your product.",
-        "formal": "Understand citizens before making laws for them.",
-        "informal": "I understand more every day — and that's beautiful!"
-      }
+        "daily": "I value authenticity more than perfection.",
+        "office": "Authenticity in leadership builds real trust with the team.",
+        "interview": "Authenticity matters more to me than trying to impress people.",
+        "business": "Customers respond well to brand authenticity.",
+        "formal": "The award recognizes authenticity in creative work.",
+        "informal": "Love her authenticity, she never fakes it."
+      },
+      "usageNote": null
     },
     {
       "id": 549,
-      "word": "enjoy",
-      "hindi": "आनंद लेना (जीवन में)",
-      "simpleMeaning": "to take pleasure in",
-      "ipa": "/ɪnˈdʒɔɪ/",
+      "word": "simplicity",
+      "hindi": "सरलता",
+      "simpleMeaning": "the quality of being easy to understand or uncomplicated",
+      "ipa": "/sɪmˈplɪsɪti/",
       "category": "Lifestyle",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "like",
-        "love",
-        "relish"
+        "ease",
+        "plainness",
+        "clarity"
       ],
       "antonyms": [
-        "dislike",
-        "hate",
-        "dread"
+        "complexity",
+        "complication"
       ],
       "sentences": {
-        "daily": "I genuinely enjoy learning English every day.",
-        "office": "Enjoy the process — not just the destination.",
-        "interview": "I enjoyed every moment of the interview.",
-        "business": "Create a product experience customers enjoy.",
-        "formal": "Citizens enjoy freedom when it is protected.",
-        "informal": "I ENJOY this journey — every beautiful, hard step!"
-      }
+        "daily": "I love the simplicity of a home-cooked meal.",
+        "office": "Simplicity in design makes the app easier to use.",
+        "interview": "I aim for simplicity when I explain complex topics.",
+        "business": "Simplicity in pricing builds customer trust.",
+        "formal": "The proposal favors simplicity over unnecessary complexity.",
+        "informal": "Keep it simple, simplicity wins every time!"
+      },
+      "usageNote": null
     },
     {
       "id": 550,
@@ -16941,30 +16934,31 @@
     },
     {
       "id": 558,
-      "word": "network",
-      "hindi": "नेटवर्क बनाना (professional)",
-      "simpleMeaning": "to build relationships with other professionals",
-      "ipa": "/ˈnɛt.wɜːrk/",
+      "word": "workload",
+      "hindi": "कार्यभार",
+      "simpleMeaning": "the amount of work assigned to a person",
+      "ipa": "/ˈwɜːrkloʊd/",
       "category": "Professional",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "connect",
-        "build relationships",
-        "link"
+        "burden",
+        "tasks",
+        "responsibilities"
       ],
       "antonyms": [
-        "isolate",
-        "disconnect"
+        "idleness",
+        "rest"
       ],
       "sentences": {
-        "daily": "Network with professionals who are where you want to be.",
-        "office": "Network online on LinkedIn — in English!",
-        "interview": "I networked effectively at the industry conference.",
-        "business": "Network before you need something — it's too late after.",
-        "formal": "Networked communities are stronger communities.",
-        "informal": "I network daily — and my circle grows every day!"
-      }
+        "daily": "My workload is heavier this week because of the festival rush.",
+        "office": "The manager redistributed the workload across the team.",
+        "interview": "I manage a heavy workload by prioritizing tasks daily.",
+        "business": "The new software reduced the manual workload significantly.",
+        "formal": "Employees reported an unsustainable workload.",
+        "informal": "My workload is insane this week, send help!"
+      },
+      "usageNote": null
     },
     {
       "id": 559,
@@ -18005,31 +17999,30 @@
     },
     {
       "id": 596,
-      "word": "inspire",
-      "hindi": "प्रेरणा देना (professional)",
-      "simpleMeaning": "to fill someone with enthusiasm or creative ideas",
-      "ipa": "/ɪnˈspaɪər/",
+      "word": "punctuality",
+      "hindi": "समयनिष्ठता / समय की पाबंदी",
+      "simpleMeaning": "the quality of being on time",
+      "ipa": "/ˌpʌŋktʃuˈæləti/",
       "category": "Professional",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "motivate",
-        "energize",
-        "encourage"
+        "promptness",
+        "timeliness"
       ],
       "antonyms": [
-        "discourage",
-        "demotivate",
-        "depress"
+        "lateness",
+        "tardiness"
       ],
       "sentences": {
-        "daily": "I want to inspire others with my English journey.",
-        "office": "Our leader inspires by example — not just words.",
-        "interview": "The interviewer's career story inspired me greatly.",
-        "business": "Inspired teams outperform commanded ones every time.",
-        "formal": "Inspire citizens — give them a vision for the future.",
-        "informal": "I am inspired — and that energy is CONTAGIOUS!"
-      }
+        "daily": "Punctuality is something my parents always stressed.",
+        "office": "Punctuality is expected for all client meetings.",
+        "interview": "Punctuality reflects respect for other people's time.",
+        "business": "The company values punctuality in deliveries.",
+        "formal": "Punctuality is a key part of professional conduct.",
+        "informal": "Punctuality, please! We can't wait around all day."
+      },
+      "usageNote": null
     },
     {
       "id": 597,
@@ -18149,73 +18142,54 @@
     },
     {
       "id": 601,
-      "word": "achieve",
-      "hindi": "प्राप्त करना / हासिल करना",
-      "simpleMeaning": "to successfully reach a goal",
-      "ipa": "/əˈtʃiːv/",
+      "word": "shareholder",
+      "hindi": "शेयरधारक",
+      "simpleMeaning": "a person who owns shares in a company",
+      "ipa": "/ˈʃɛərhoʊldər/",
       "category": "Business & Finance",
-      "partOfSpeech": "verb",
-      "cefrLevel": "A2",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B2",
       "synonyms": [
-        "accomplish",
-        "attain",
-        "reach"
+        "stockholder",
+        "investor",
+        "owner"
       ],
-      "antonyms": [
-        "fail",
-        "miss"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "I want to achieve my fitness goal this month.",
-        "office": "We achieved all our quarterly targets.",
-        "interview": "I achieved the highest sales in my previous role.",
-        "business": "The company achieved 30% growth in one year.",
-        "formal": "The team achieved exceptional results within budget.",
-        "informal": "Yes! We finally achieved what we wanted!"
+        "daily": "My uncle became a shareholder in a small startup.",
+        "office": "The shareholder meeting is scheduled for next Friday.",
+        "interview": "I understand how shareholder value drives strategic decisions.",
+        "business": "Shareholders approved the merger by a large majority.",
+        "formal": "The report was presented to all shareholders.",
+        "informal": "Being a shareholder means you actually own a piece of the company!"
       },
-      "usageNote": "Always used with positive outcomes — a goal, dream, or target. Never use for bad results.",
-      "verbForms": {
-        "base": "achieve",
-        "s3": "achieves",
-        "ing": "achieving",
-        "past": "achieved",
-        "pp": "achieved"
-      }
+      "usageNote": null
     },
     {
       "id": 602,
-      "word": "budget",
-      "hindi": "बजट / धन-योजना",
-      "simpleMeaning": "a plan for managing money",
-      "ipa": "/ˈbʌdʒɪt/",
+      "word": "cash flow",
+      "hindi": "नकदी प्रवाह",
+      "simpleMeaning": "the movement of money in and out of a business",
+      "ipa": "/kæʃ floʊ/",
       "category": "Business & Finance",
-      "partOfSpeech": "noun/verb",
-      "cefrLevel": "B1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B2",
       "synonyms": [
-        "plan",
-        "allocation",
-        "estimate"
+        "liquidity",
+        "revenue flow"
       ],
       "antonyms": [
-        "overspend",
-        "waste"
+        "cash shortage"
       ],
       "sentences": {
-        "daily": "I always plan a monthly budget for expenses.",
-        "office": "The marketing budget was increased by 20%.",
-        "interview": "I managed a project budget of ₹10 lakhs.",
-        "business": "We must review the annual budget before Q4.",
-        "formal": "The committee approved the revised budget proposal.",
-        "informal": "That trip is out of my budget!"
+        "daily": "Managing cash flow is important even for a small family business.",
+        "office": "The finance team tracks cash flow every month.",
+        "interview": "I helped improve cash flow by renegotiating supplier terms.",
+        "business": "Poor cash flow can sink even a profitable company.",
+        "formal": "The statement outlines the company's cash flow position.",
+        "informal": "Cash flow is tight this month, let's cut back."
       },
-      "usageNote": "As a verb: 'I budget carefully.' As a noun: 'What is our budget?' Both forms are common in business.",
-      "verbForms": {
-        "base": "budget",
-        "s3": "budgets",
-        "ing": "budgeting",
-        "past": "budgeted",
-        "pp": "budgeted"
-      }
+      "usageNote": null
     },
     {
       "id": 603,
@@ -18310,94 +18284,84 @@
     },
     {
       "id": 606,
-      "word": "negotiate",
-      "hindi": "बातचीत करना / सौदेबाज़ी करना",
-      "simpleMeaning": "to discuss to reach an agreement",
-      "ipa": "/nɪˈɡoʊʃɪeɪt/",
+      "word": "solvency",
+      "hindi": "शोधन क्षमता",
+      "simpleMeaning": "the ability of a company to pay its debts",
+      "ipa": "/ˈsɒlvənsi/",
       "category": "Business & Finance",
-      "partOfSpeech": "verb",
-      "cefrLevel": "B2",
+      "partOfSpeech": "noun",
+      "cefrLevel": "C1",
       "synonyms": [
-        "bargain",
-        "discuss",
-        "mediate"
+        "financial stability",
+        "creditworthiness"
       ],
       "antonyms": [
-        "demand",
-        "dictate"
+        "insolvency",
+        "bankruptcy"
       ],
       "sentences": {
-        "daily": "I negotiated a better rent with my landlord.",
-        "office": "We negotiated a three-year contract with the supplier.",
-        "interview": "Can you negotiate your salary? Always try politely.",
-        "business": "The two companies negotiated for weeks before signing.",
-        "formal": "Representatives negotiated terms acceptable to all parties.",
-        "informal": "I negotiated the price down by ₹5,000!"
+        "daily": "He studies company solvency before investing his savings.",
+        "office": "The audit confirmed the company's solvency.",
+        "interview": "I analyzed solvency ratios as part of my finance internship.",
+        "business": "Maintaining solvency is critical during a downturn.",
+        "formal": "The report questions the firm's long-term solvency.",
+        "informal": "Solvency sounds fancy but it just means 'can you pay your bills.'"
       },
-      "usageNote": "Negotiate WITH someone; negotiate FOR something: 'We negotiated with the vendor for a discount.'",
-      "verbForms": {
-        "base": "negotiate",
-        "s3": "negotiates",
-        "ing": "negotiating",
-        "past": "negotiated",
-        "pp": "negotiated"
-      }
+      "usageNote": null
     },
     {
       "id": 607,
-      "word": "contract",
-      "hindi": "अनुबंध / समझौता",
-      "simpleMeaning": "a formal written legal agreement",
-      "ipa": "/ˈkɒntrækt/",
+      "word": "liquidity",
+      "hindi": "तरलता",
+      "simpleMeaning": "how easily assets can be converted to cash",
+      "ipa": "/lɪˈkwɪdɪti/",
+      "category": "Business & Finance",
+      "partOfSpeech": "noun",
+      "cefrLevel": "C1",
+      "synonyms": [
+        "cash availability",
+        "solvency"
+      ],
+      "antonyms": [
+        "illiquidity"
+      ],
+      "sentences": {
+        "daily": "Gold is popular in India partly because of its liquidity.",
+        "office": "The company maintains liquidity to handle emergencies.",
+        "interview": "I monitored liquidity levels during my finance internship.",
+        "business": "The bank increased liquidity ahead of the festive season.",
+        "formal": "Liquidity concerns were raised during the shareholder meeting.",
+        "informal": "Basically, liquidity means how fast you can turn stuff into cash."
+      },
+      "usageNote": null
+    },
+    {
+      "id": 608,
+      "word": "capital",
+      "hindi": "पूंजी",
+      "simpleMeaning": "money or assets used to start or grow a business",
+      "ipa": "/ˈkæpɪtl/",
       "category": "Business & Finance",
       "partOfSpeech": "noun",
       "cefrLevel": "B2",
       "synonyms": [
-        "agreement",
-        "deal",
-        "pact"
+        "funds",
+        "investment",
+        "assets"
       ],
       "antonyms": [
-        "disagreement",
-        "dissolution"
+        "debt",
+        "liability"
       ],
       "sentences": {
-        "daily": "Sign a contract before starting any freelance work.",
-        "office": "The employment contract was signed by both parties.",
-        "interview": "Always read the contract carefully before signing.",
-        "business": "We offer a one-year renewable contract for all suppliers.",
-        "formal": "The contract stipulates a 30-day notice period.",
-        "informal": "Never sign a contract without reading it!"
+        "daily": "They used their savings as capital to start the shop.",
+        "office": "The startup raised capital from angel investors.",
+        "interview": "I helped the company raise working capital last year.",
+        "business": "The firm needs more capital to expand overseas.",
+        "formal": "Capital was allocated toward research and development.",
+        "informal": "No capital, no business — that's the harsh truth."
       },
-      "usageNote": "As a noun: 'Sign the contract.' As a verb: 'The company contracted a new agency.'"
-    },
-    {
-      "id": 608,
-      "word": "deadline",
-      "hindi": "अंतिम तिथि / समय-सीमा",
-      "simpleMeaning": "the final date by which something must be done",
-      "ipa": "/ˈdɛdlaɪn/",
-      "category": "Business & Finance",
-      "partOfSpeech": "noun",
-      "cefrLevel": "B1",
-      "synonyms": [
-        "due date",
-        "cutoff",
-        "target date"
-      ],
-      "antonyms": [
-        "extension",
-        "delay"
-      ],
-      "sentences": {
-        "daily": "The assignment deadline is Friday at midnight.",
-        "office": "We must submit the report before the client deadline.",
-        "interview": "I never miss a deadline — it's my work ethic.",
-        "business": "Missing the deadline may result in penalty charges.",
-        "formal": "The project deadline was extended by two weeks.",
-        "informal": "I forgot the deadline and had to work all night!"
-      },
-      "usageNote": "'Meet a deadline' (complete on time) and 'miss a deadline' (fail to complete) are key collocations."
+      "usageNote": null
     },
     {
       "id": 609,
@@ -18457,31 +18421,38 @@
     },
     {
       "id": 611,
-      "word": "strategy",
-      "hindi": "रणनीति / कार्य-योजना",
-      "simpleMeaning": "a careful plan to achieve a goal",
-      "ipa": "/ˈstræt̬ɪdʒi/",
+      "word": "diversify",
+      "hindi": "विविधता लाना",
+      "simpleMeaning": "to expand into new areas to reduce risk",
+      "ipa": "/daɪˈvɜːrsɪfaɪ/",
       "category": "Business & Finance",
-      "partOfSpeech": "noun",
+      "partOfSpeech": "verb",
       "cefrLevel": "B2",
       "synonyms": [
-        "plan",
-        "approach",
-        "tactic"
+        "expand",
+        "branch out",
+        "vary"
       ],
       "antonyms": [
-        "improvisation",
-        "impulse"
+        "specialize",
+        "concentrate"
       ],
       "sentences": {
-        "daily": "My study strategy helped me top the exam.",
-        "office": "The company's pricing strategy attracted new customers.",
-        "interview": "Tell me about a strategy you used to solve a problem.",
-        "business": "A strong digital marketing strategy drove 3× website traffic.",
-        "formal": "The board approved a five-year expansion strategy.",
-        "informal": "My strategy for traffic? Leave 30 minutes early!"
+        "daily": "My mother diversified our family's income with a small business.",
+        "office": "The team diversified its client base this year.",
+        "interview": "I helped the company diversify its product line.",
+        "business": "Investors are told to diversify their portfolios.",
+        "formal": "The firm plans to diversify into new markets.",
+        "informal": "Don't put all your money in one place, diversify!"
       },
-      "usageNote": "Strategy is the big-picture PLAN. Tactics are the specific steps to carry out the strategy."
+      "usageNote": null,
+      "verbForms": {
+        "base": "diversify",
+        "s3": "diversifies",
+        "ing": "diversifying",
+        "past": "diversified",
+        "pp": "diversified"
+      }
     },
     {
       "id": 612,
@@ -18540,38 +18511,28 @@
     },
     {
       "id": 614,
-      "word": "launch",
-      "hindi": "शुरू करना / लॉन्च करना",
-      "simpleMeaning": "to officially start or introduce something new",
-      "ipa": "/lɔːntʃ/",
+      "word": "commodity",
+      "hindi": "जिंस / वस्तु",
+      "simpleMeaning": "a raw material or product that can be bought or sold",
+      "ipa": "/kəˈmɒdɪti/",
       "category": "Business & Finance",
-      "partOfSpeech": "verb",
-      "cefrLevel": "B1",
+      "partOfSpeech": "noun",
+      "cefrLevel": "C1",
       "synonyms": [
-        "introduce",
-        "debut",
-        "release"
+        "goods",
+        "product",
+        "resource"
       ],
-      "antonyms": [
-        "discontinue",
-        "cancel"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "We launched a new product line last week.",
-        "office": "The startup launched its app with a free trial offer.",
-        "interview": "I launched my freelance career during the pandemic.",
-        "business": "The brand launched a nationwide advertising campaign.",
-        "formal": "The company officially launched operations in Southeast Asia.",
-        "informal": "They launched the party and everyone showed up!"
+        "daily": "Onions are treated like a political commodity in India!",
+        "office": "The report tracks commodity prices monthly.",
+        "interview": "I studied commodity markets during my finance course.",
+        "business": "Oil is one of the world's most traded commodities.",
+        "formal": "Commodity prices rose sharply this quarter.",
+        "informal": "Water is becoming a scarce commodity in some cities."
       },
-      "usageNote": "'Launch' suggests something BIG starting officially — a product, campaign, career, or project.",
-      "verbForms": {
-        "base": "launch",
-        "s3": "launches",
-        "ing": "launching",
-        "past": "launched",
-        "pp": "launched"
-      }
+      "usageNote": null
     },
     {
       "id": 615,
@@ -18764,37 +18725,37 @@
     },
     {
       "id": 621,
-      "word": "target",
-      "hindi": "लक्ष्य / निशाना",
-      "simpleMeaning": "a goal or objective you aim to achieve",
-      "ipa": "/ˈtɑːrɡɪt/",
+      "word": "hedge",
+      "hindi": "जोखिम से बचाव करना",
+      "simpleMeaning": "to protect against financial loss or risk",
+      "ipa": "/hɛdʒ/",
       "category": "Business & Finance",
-      "partOfSpeech": "noun/verb",
-      "cefrLevel": "A2",
+      "partOfSpeech": "verb",
+      "cefrLevel": "C1",
       "synonyms": [
-        "goal",
-        "aim",
-        "objective"
+        "protect",
+        "safeguard",
+        "offset"
       ],
       "antonyms": [
-        "miss",
-        "fail"
+        "risk",
+        "expose"
       ],
       "sentences": {
-        "daily": "My daily target is to read 20 pages.",
-        "office": "We hit our sales target two weeks early!",
-        "interview": "I always set clear targets before starting a project.",
-        "business": "The marketing team exceeded the acquisition target.",
-        "formal": "The annual target was set at ₹1 crore in revenue.",
-        "informal": "Target: finish assignment by 9 PM. Status: failed!"
+        "daily": "He bought gold to hedge against inflation.",
+        "office": "The company hedges its currency risk every quarter.",
+        "interview": "I explained how we hedge against supply chain risk.",
+        "business": "Investors hedge their portfolios during market volatility.",
+        "formal": "The fund uses derivatives to hedge its positions.",
+        "informal": "Basically, hedging is like buying insurance for your money."
       },
-      "usageNote": "'Hit/reach/meet a target' (success) vs 'miss a target' (failure). Always be specific when setting targets.",
+      "usageNote": null,
       "verbForms": {
-        "base": "target",
-        "s3": "targets",
-        "ing": "targeting",
-        "past": "targeted",
-        "pp": "targeted"
+        "base": "hedge",
+        "s3": "hedges",
+        "ing": "hedging",
+        "past": "hedged",
+        "pp": "hedged"
       }
     },
     {
@@ -19244,30 +19205,27 @@
     },
     {
       "id": 637,
-      "word": "stakeholder",
-      "hindi": "हितधारक",
-      "simpleMeaning": "a person with interest in or affected by a business",
-      "ipa": "/ˈsteɪkhoʊldər/",
+      "word": "arbitrage",
+      "hindi": "अंतरपणन / मध्यस्थता व्यापार",
+      "simpleMeaning": "profiting from price differences between markets",
+      "ipa": "/ˈɑːrbɪtrɑːʒ/",
       "category": "Business & Finance",
       "partOfSpeech": "noun",
       "cefrLevel": "C1",
       "synonyms": [
-        "shareholder",
-        "partner",
-        "investor"
+        "price trading",
+        "spread trading"
       ],
-      "antonyms": [
-        "outsider"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "Customers are the most important stakeholders.",
-        "office": "All stakeholders attended the quarterly review meeting.",
-        "interview": "I presented the business plan to key stakeholders.",
-        "business": "Stakeholder buy-in is critical before any major change.",
-        "formal": "Each stakeholder was briefed on their roles.",
-        "informal": "Even my mom is a stakeholder in my exam results!"
+        "daily": "He explained arbitrage to me using two different vegetable markets as an example.",
+        "office": "The trading desk specializes in currency arbitrage.",
+        "interview": "I learned about arbitrage strategies during my internship.",
+        "business": "Arbitrage opportunities disappear quickly in efficient markets.",
+        "formal": "The firm's profits partly came from arbitrage trading.",
+        "informal": "Arbitrage is basically buying low here, selling high there."
       },
-      "usageNote": "Internal stakeholders: employees, management. External: customers, government, investors. Both matter."
+      "usageNote": null
     },
     {
       "id": 638,
@@ -19327,29 +19285,27 @@
     },
     {
       "id": 640,
-      "word": "dividend",
-      "hindi": "लाभांश",
-      "simpleMeaning": "profit share paid to shareholders",
-      "ipa": "/ˈdɪvɪdɛnd/",
+      "word": "amortization",
+      "hindi": "परिशोधन",
+      "simpleMeaning": "gradually paying off a debt or spreading a cost over time",
+      "ipa": "/əˌmɔːrtɪˈzeɪʃən/",
       "category": "Business & Finance",
       "partOfSpeech": "noun",
       "cefrLevel": "C1",
       "synonyms": [
-        "return",
-        "payout"
+        "repayment",
+        "debt reduction"
       ],
-      "antonyms": [
-        "loss"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "Hard work always pays a dividend eventually.",
-        "office": "The company declared a dividend of ₹5 per share.",
-        "interview": "Investors choose dividend stocks for steady income.",
-        "business": "The dividend yield was 3.5% — attractive for investors.",
-        "formal": "Dividends were paid quarterly to all registered shareholders.",
-        "informal": "Good habits pay dividends for life — try it!"
+        "daily": "Our home loan amortization schedule shows the interest drops every year.",
+        "office": "The accountant explained the loan's amortization schedule.",
+        "interview": "I calculated amortization schedules as part of my finance role.",
+        "business": "Amortization affects the company's reported profits.",
+        "formal": "The amortization period was extended to fifteen years.",
+        "informal": "Amortization just means paying off your loan bit by bit."
       },
-      "usageNote": "Financial dividend = money paid to shareholders. Broader use: 'the dividend of hard work = success.'"
+      "usageNote": null
     },
     {
       "id": 641,
@@ -19526,30 +19482,29 @@
     },
     {
       "id": 647,
-      "word": "portfolio",
-      "hindi": "पोर्टफोलियो / कार्य-संग्रह",
-      "simpleMeaning": "a collection of investments or work samples",
-      "ipa": "/pɔːrtˈfoʊlioʊ/",
+      "word": "quarterly",
+      "hindi": "त्रैमासिक",
+      "simpleMeaning": "happening once every three months",
+      "ipa": "/ˈkwɔːrtərli/",
       "category": "Business & Finance",
-      "partOfSpeech": "noun",
-      "cefrLevel": "B2",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "B1",
       "synonyms": [
-        "collection",
-        "showcase",
-        "holdings"
+        "three-monthly"
       ],
       "antonyms": [
-        "single asset"
+        "annual",
+        "monthly"
       ],
       "sentences": {
-        "daily": "My investment portfolio includes stocks, gold, and funds.",
-        "office": "Please share your design portfolio before the interview.",
-        "interview": "A diversified portfolio protects against market volatility.",
-        "business": "The portfolio manager reallocated assets based on market trends.",
-        "formal": "The client reviewed the portfolio before approving the campaign.",
-        "informal": "My Netflix watchlist is my entertainment portfolio!"
+        "daily": "We pay our society maintenance quarterly.",
+        "office": "The quarterly report is due next Monday.",
+        "interview": "I prepared the quarterly performance review for my team.",
+        "business": "Quarterly earnings beat analyst expectations.",
+        "formal": "The board meets on a quarterly basis.",
+        "informal": "Ugh, quarterly targets again already?"
       },
-      "usageNote": "Investment portfolio = all your financial assets. Professional portfolio = samples of your work. Same word, two uses."
+      "usageNote": null
     },
     {
       "id": 648,
@@ -19689,143 +19644,115 @@
     },
     {
       "id": 653,
-      "word": "delegate",
-      "hindi": "सौंपना / प्रतिनिधि",
-      "simpleMeaning": "to assign tasks to others; or a representative",
-      "ipa": "/ˈdɛlɪɡeɪt/",
+      "word": "circle back",
+      "hindi": "बाद में फिर से चर्चा करना",
+      "simpleMeaning": "to return to a topic or person later",
+      "ipa": "/ˈsɜːrkəl bæk/",
       "category": "Office Communication",
-      "partOfSpeech": "verb/noun",
+      "partOfSpeech": "phrasal verb",
       "cefrLevel": "B2",
       "synonyms": [
-        "assign",
-        "hand over",
-        "entrust"
+        "follow up",
+        "revisit",
+        "return to"
       ],
       "antonyms": [
-        "micromanage",
-        "hoard"
-      ],
-      "sentences": {
-        "daily": "Good managers know when to delegate tasks.",
-        "office": "I delegated the report to my junior and reviewed it.",
-        "interview": "Effective leaders delegate without losing accountability.",
-        "business": "The project manager delegated research tasks to the team.",
-        "formal": "Each delegate at the conference represented a different region.",
-        "informal": "I delegated cooking to my sister — she over-salted it!"
-      },
-      "usageNote": "Delegate tasks DOWN (to junior staff). Escalate issues UP (to managers). Both are important skills.",
-      "verbForms": {
-        "base": "delegate",
-        "s3": "delegates",
-        "ing": "delegating",
-        "past": "delegated",
-        "pp": "delegated"
-      }
-    },
-    {
-      "id": 654,
-      "word": "collaborate",
-      "hindi": "सहयोग करना / मिलकर काम करना",
-      "simpleMeaning": "to work together with others",
-      "ipa": "/kəˈlæbəreɪt/",
-      "category": "Office Communication",
-      "partOfSpeech": "verb",
-      "cefrLevel": "B2",
-      "synonyms": [
-        "cooperate",
-        "partner",
-        "team up"
-      ],
-      "antonyms": [
-        "compete",
-        "work alone"
-      ],
-      "sentences": {
-        "daily": "I love to collaborate with creative people.",
-        "office": "Our teams collaborated across three different cities.",
-        "interview": "I collaborated with designers to build the app.",
-        "business": "Cross-functional collaboration led to faster product delivery.",
-        "formal": "The two firms collaborated on a joint sustainability initiative.",
-        "informal": "I collaborated with my neighbour to complain about the noise!"
-      },
-      "usageNote": "Collaborate WITH someone ON something: 'We collaborated with the design team on the new interface.'",
-      "verbForms": {
-        "base": "collaborate",
-        "s3": "collaborates",
-        "ing": "collaborating",
-        "past": "collaborated",
-        "pp": "collaborated"
-      }
-    },
-    {
-      "id": 655,
-      "word": "implement",
-      "hindi": "लागू करना / कार्यान्वित करना",
-      "simpleMeaning": "to put a plan or decision into action",
-      "ipa": "/ˈɪmplɪmɛnt/",
-      "category": "Office Communication",
-      "partOfSpeech": "verb",
-      "cefrLevel": "B2",
-      "synonyms": [
-        "execute",
-        "apply",
-        "carry out"
-      ],
-      "antonyms": [
-        "ignore",
+        "drop",
         "abandon"
       ],
       "sentences": {
-        "daily": "We implemented the new policy across all departments.",
-        "office": "It's time to implement the feedback we received.",
-        "interview": "I implemented a new filing system that saved 2 hours daily.",
-        "business": "The team implemented the changes within the agreed timeline.",
-        "formal": "The policy was implemented after board-level approval.",
-        "informal": "We implemented a 'no meetings before 10 AM' rule — paradise!"
+        "daily": "Let's circle back to this after dinner.",
+        "office": "Let's circle back to this point after lunch.",
+        "interview": "I'll circle back with you once I have the final numbers.",
+        "business": "We need to circle back with the client on pricing.",
+        "formal": "The committee will circle back to this issue next session.",
+        "informal": "Can we circle back later? I'm swamped right now."
       },
-      "usageNote": "Implement comes AFTER planning. You plan first, then implement. Don't skip the planning step.",
-      "verbForms": {
-        "base": "implement",
-        "s3": "implements",
-        "ing": "implementing",
-        "past": "implemented",
-        "pp": "implemented"
-      }
+      "usageNote": "Very common in meetings and emails to postpone a discussion politely."
     },
     {
-      "id": 656,
-      "word": "prioritize",
-      "hindi": "प्राथमिकता देना",
-      "simpleMeaning": "to decide which tasks are most important and do them first",
-      "ipa": "/praɪˈɒrɪtaɪz/",
+      "id": 654,
+      "word": "flag",
+      "hindi": "ध्यान दिलाना / चिन्हित करना",
+      "simpleMeaning": "to point out an issue so others notice it",
+      "ipa": "/flæɡ/",
       "category": "Office Communication",
       "partOfSpeech": "verb",
       "cefrLevel": "B2",
       "synonyms": [
-        "rank",
-        "order",
-        "sequence"
+        "highlight",
+        "point out",
+        "note"
       ],
       "antonyms": [
-        "procrastinate",
-        "postpone"
+        "ignore",
+        "overlook"
       ],
       "sentences": {
-        "daily": "I prioritize my top three tasks every morning.",
-        "office": "Can you prioritize this request? It's urgent.",
-        "interview": "Successful people prioritize health, family, and work — in that order.",
-        "business": "We need to prioritize customer feedback over internal reports.",
-        "formal": "Please prioritize the deliverables based on client urgency.",
-        "informal": "I prioritize sleep — everything else can wait till morning!"
+        "daily": "I flagged the mistake in the group chat before we submitted.",
+        "office": "Please flag any errors in the document before we send it.",
+        "interview": "I flagged a risk in the project timeline early on.",
+        "business": "The auditor flagged several discrepancies in the accounts.",
+        "formal": "This issue was flagged for management's attention.",
+        "informal": "Just flagging — the client call moved to 4 PM."
       },
-      "usageNote": "'Prioritize' = decide what matters MOST right now. Use urgency + importance grid (Eisenhower Matrix).",
-      "verbForms": {
-        "base": "prioritize",
-        "s3": "prioritizes",
-        "ing": "prioritizing",
-        "past": "prioritized",
-        "pp": "prioritized"
-      }
+      "usageNote": "In offices, 'flag' means to bring attention to something, not the object 'flag' (jhanda)."
+    },
+    {
+      "id": 655,
+      "word": "table this",
+      "hindi": "चर्चा को टालना / रोकना",
+      "simpleMeaning": "to postpone discussion of a topic",
+      "ipa": "/ˈteɪbəl ðɪs/",
+      "category": "Office Communication",
+      "partOfSpeech": "phrase",
+      "cefrLevel": "B2",
+      "synonyms": [
+        "postpone",
+        "defer",
+        "shelve"
+      ],
+      "antonyms": [
+        "proceed",
+        "discuss now"
+      ],
+      "sentences": {
+        "daily": "Let's table this and talk about it after the holidays.",
+        "office": "Let's table this discussion until next week's meeting.",
+        "interview": "We decided to table the proposal until more data was available.",
+        "business": "The board chose to table the acquisition for now.",
+        "formal": "The motion to table this item was approved.",
+        "informal": "Can we table this? I need more time to think."
+      },
+      "usageNote": "Note: in American English 'table' = postpone; in British English it can mean the opposite (bring up for discussion)."
+    },
+    {
+      "id": 656,
+      "word": "close the loop",
+      "hindi": "बात पूरी तरह से खत्म करना / अंतिम जवाब देना",
+      "simpleMeaning": "to finish a discussion by giving a final update to everyone involved",
+      "ipa": "/kloʊz ðə luːp/",
+      "category": "Office Communication",
+      "partOfSpeech": "phrase",
+      "cefrLevel": "B2",
+      "synonyms": [
+        "finalize",
+        "follow up",
+        "wrap up"
+      ],
+      "antonyms": [
+        "leave open",
+        "ignore"
+      ],
+      "sentences": {
+        "daily": "I texted her back just to close the loop on our plan.",
+        "office": "Please close the loop with the client once the issue is fixed.",
+        "interview": "I always close the loop with stakeholders after a project.",
+        "business": "We closed the loop with the vendor about the delayed shipment.",
+        "formal": "Kindly close the loop on this request by Friday.",
+        "informal": "Closing the loop — all done, thanks everyone!"
+      },
+      "usageNote": null
     },
     {
       "id": 657,
@@ -20186,38 +20113,30 @@
     },
     {
       "id": 668,
-      "word": "clarify",
-      "hindi": "स्पष्ट करना",
-      "simpleMeaning": "to make something clearer or easier to understand",
-      "ipa": "/ˈklærɪfaɪ/",
+      "word": "put in writing",
+      "hindi": "लिखित रूप में देना",
+      "simpleMeaning": "to document something formally instead of just saying it",
+      "ipa": "/pʊt ɪn ˈraɪtɪŋ/",
       "category": "Office Communication",
-      "partOfSpeech": "verb",
-      "cefrLevel": "B2",
+      "partOfSpeech": "phrase",
+      "cefrLevel": "B1",
       "synonyms": [
-        "explain",
-        "clear up",
-        "elaborate"
+        "document",
+        "write down",
+        "record"
       ],
       "antonyms": [
-        "confuse",
-        "obscure"
+        "say verbally"
       ],
       "sentences": {
-        "daily": "Please clarify the deadline — is it Friday or Monday?",
-        "office": "I asked the client to clarify their requirements.",
-        "interview": "Can you clarify what you mean by 'urgent'?",
-        "business": "The project scope was clarified in writing to avoid confusion.",
-        "formal": "The HR team clarified the leave policy for all employees.",
-        "informal": "Can you clarify? I zoned out for the last 10 minutes."
+        "daily": "Always put important promises in writing.",
+        "office": "Please put your request in writing so I can forward it to HR.",
+        "interview": "I always put key decisions in writing to avoid confusion.",
+        "business": "The agreement must be put in writing before signing.",
+        "formal": "Kindly put this in writing for our records.",
+        "informal": "Just put it in writing so there's no confusion later."
       },
-      "usageNote": "'Clarify' vs 'Confirm': clarify = make unclear things clear. Confirm = verify something already said.",
-      "verbForms": {
-        "base": "clarify",
-        "s3": "clarifies",
-        "ing": "clarifying",
-        "past": "clarified",
-        "pp": "clarified"
-      }
+      "usageNote": null
     },
     {
       "id": 669,
@@ -20284,30 +20203,31 @@
     },
     {
       "id": 671,
-      "word": "minutes",
-      "hindi": "कार्यवृत्त",
-      "simpleMeaning": "official written record of what was decided in a meeting",
-      "ipa": "/ˈmɪnɪts/",
+      "word": "chase up",
+      "hindi": "याद दिलाना / पीछे पड़ना",
+      "simpleMeaning": "to remind someone to do something they haven't done yet",
+      "ipa": "/tʃeɪs ʌp/",
       "category": "Office Communication",
-      "partOfSpeech": "noun",
-      "cefrLevel": "B1",
+      "partOfSpeech": "phrasal verb",
+      "cefrLevel": "B2",
       "synonyms": [
-        "record",
-        "notes",
-        "log"
+        "follow up",
+        "remind",
+        "pursue"
       ],
       "antonyms": [
-        "agenda"
+        "ignore",
+        "forget"
       ],
       "sentences": {
-        "daily": "The meeting minutes were shared within 30 minutes.",
-        "office": "Could you take the minutes today?",
-        "interview": "Refer to last week's minutes for the action items.",
-        "business": "Minutes should capture decisions, owners, and deadlines.",
-        "formal": "The company secretary maintained minutes for all board meetings.",
-        "informal": "I missed the meeting — at least I can read the minutes!"
+        "daily": "I need to chase up my friend about the tickets.",
+        "office": "I'll chase up the vendor about the delayed invoice.",
+        "interview": "I chased up the client twice before getting a response.",
+        "business": "Please chase up the pending approvals before Friday.",
+        "formal": "The team was asked to chase up outstanding payments.",
+        "informal": "Gonna chase up that guy, he's ghosting me!"
       },
-      "usageNote": "'Take minutes' = write them. 'Read/review minutes' = look at past records. Not the same as 'agenda'."
+      "usageNote": null
     },
     {
       "id": 672,
@@ -20627,29 +20547,30 @@
     },
     {
       "id": 683,
-      "word": "bandwidth",
-      "hindi": "उपलब्धता / क्षमता",
-      "simpleMeaning": "capacity to take on more work",
-      "ipa": "/ˈbændwɪdθ/",
+      "word": "run it by",
+      "hindi": "किसी से पूछना / राय लेना",
+      "simpleMeaning": "to ask someone for their opinion or approval before proceeding",
+      "ipa": "/rʌn ɪt baɪ/",
       "category": "Office Communication",
-      "partOfSpeech": "noun",
+      "partOfSpeech": "phrase",
       "cefrLevel": "B2",
       "synonyms": [
-        "capacity",
-        "availability"
+        "consult",
+        "check with",
+        "ask"
       ],
       "antonyms": [
-        "overload"
+        "decide alone"
       ],
       "sentences": {
-        "daily": "Sorry, I don't have bandwidth for this right now.",
-        "office": "Let's check team bandwidth before adding tasks.",
-        "interview": "The team's bandwidth is fully used this sprint.",
-        "business": "I'll have more bandwidth after Tuesday's deadline.",
-        "formal": "Bandwidth is tight with three parallel projects running.",
-        "informal": "Zero bandwidth — my brain is full!"
+        "daily": "Let me run it by my parents before I confirm.",
+        "office": "I'll run it by my manager before sending the final draft.",
+        "interview": "I always run big decisions by my mentor first.",
+        "business": "Run the pricing change by legal before we announce it.",
+        "formal": "Please run this by the compliance team first.",
+        "informal": "Lemme run it by the group chat real quick."
       },
-      "usageNote": "In modern offices, 'bandwidth' is commonly used to mean AVAILABLE TIME AND ENERGY, not internet speed."
+      "usageNote": null
     },
     {
       "id": 684,
@@ -20849,31 +20770,28 @@
     },
     {
       "id": 691,
-      "word": "sign off",
-      "hindi": "कार्य पूर्ण करना",
-      "simpleMeaning": "to formally finish and approve something",
-      "ipa": "/saɪn ɒf/",
+      "word": "action point",
+      "hindi": "कार्य बिंदु / अगला कदम",
+      "simpleMeaning": "a specific task assigned during a meeting",
+      "ipa": "/ˈækʃən pɔɪnt/",
       "category": "Office Communication",
-      "partOfSpeech": "phrasal verb",
-      "cefrLevel": "B2",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
       "synonyms": [
-        "approve",
-        "authorize",
-        "close"
+        "action item",
+        "task",
+        "next step"
       ],
-      "antonyms": [
-        "reject",
-        "reopen"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "Please sign off on these timesheets by end of day.",
-        "office": "The manager signed off on the campaign creative.",
-        "interview": "We can't go live until the legal team signs off.",
-        "business": "Final sign-off requires C-suite authorization.",
-        "formal": "The client signed off on the final deliverable yesterday.",
-        "informal": "Boss signed off — we're going home early!"
+        "daily": "We made a list of action points for the family trip planning.",
+        "office": "Each action point has an owner and a deadline.",
+        "interview": "I always send action points after every client call.",
+        "business": "The minutes listed five action points from the meeting.",
+        "formal": "Please review the attached action points before Monday.",
+        "informal": "Quick recap of action points from today's call!"
       },
-      "usageNote": "'Sign off' = final approval that closes a task or project. Nothing proceeds until sign-off."
+      "usageNote": null
     },
     {
       "id": 692,
@@ -20961,31 +20879,29 @@
     },
     {
       "id": 695,
-      "word": "bandwidth",
-      "hindi": "समय की उपलब्धता",
-      "simpleMeaning": "availability of time and mental energy for tasks",
-      "ipa": "/ˈbændwɪdθ/",
+      "word": "read the room",
+      "hindi": "माहौल भांपना",
+      "simpleMeaning": "to sense the mood or feelings of people in a situation",
+      "ipa": "/riːd ðə ruːm/",
       "category": "Office Communication",
-      "partOfSpeech": "noun",
-      "cefrLevel": "C1",
+      "partOfSpeech": "phrase",
+      "cefrLevel": "B2",
       "synonyms": [
-        "capacity",
-        "time",
-        "energy"
+        "sense the mood",
+        "gauge reactions"
       ],
       "antonyms": [
-        "overload",
-        "burnout"
+        "ignore the mood"
       ],
       "sentences": {
-        "daily": "My bandwidth this week is very limited.",
-        "office": "Before assigning work, check the person's bandwidth.",
-        "interview": "The team is at full bandwidth with existing projects.",
-        "business": "With limited bandwidth, we must prioritize ruthlessly.",
-        "formal": "The manager assessed team bandwidth before adding deliverables.",
-        "informal": "Zero bandwidth — even breathing is scheduled!"
+        "daily": "He didn't read the room and kept joking during the sad news.",
+        "office": "Good managers know how to read the room during layoffs.",
+        "interview": "Reading the room helped me adjust my tone during the panel.",
+        "business": "The presenter read the room and shortened the pitch.",
+        "formal": "Leaders must read the room before making announcements.",
+        "informal": "Bro, read the room, this isn't the time for jokes!"
       },
-      "usageNote": "A person's bandwidth is not infinite. Respecting it = respecting them. Overloading leads to burnout and errors."
+      "usageNote": null
     },
     {
       "id": 696,
@@ -21087,31 +21003,30 @@
     },
     {
       "id": 699,
-      "word": "feedback",
-      "hindi": "प्रतिक्रिया / सुझाव",
-      "simpleMeaning": "information about how well something has been done",
-      "ipa": "/ˈfiːdbæk/",
+      "word": "get up to speed",
+      "hindi": "जानकारी पूरी करना / तालमेल बिठाना",
+      "simpleMeaning": "to become familiar with the current situation",
+      "ipa": "/ɡɛt ʌp tuː spiːd/",
       "category": "Office Communication",
-      "partOfSpeech": "noun",
-      "cefrLevel": "A2",
+      "partOfSpeech": "phrase",
+      "cefrLevel": "B1",
       "synonyms": [
-        "comments",
-        "response",
-        "review"
+        "catch up",
+        "familiarize",
+        "update oneself"
       ],
       "antonyms": [
-        "silence",
-        "ignorance"
+        "fall behind"
       ],
       "sentences": {
-        "daily": "I always welcome constructive feedback on my work.",
-        "office": "The manager gave feedback after the presentation.",
-        "interview": "Feedback should be specific, timely, and actionable.",
-        "business": "Customer feedback helped us improve the product significantly.",
-        "formal": "360-degree feedback was collected from all team members.",
-        "informal": "Feedback received: 'Your cooking needs improvement.' Feedback ignored."
+        "daily": "It took me a week to get up to speed on the new phone.",
+        "office": "New hires need a few days to get up to speed.",
+        "interview": "I get up to speed quickly on new tools and processes.",
+        "business": "The consultant got up to speed on our operations within days.",
+        "formal": "Please get up to speed before the next status meeting.",
+        "informal": "Still getting up to speed, give me a day!"
       },
-      "usageNote": "'Give/receive/seek feedback.' 'Constructive feedback' = helpful criticism. 'Positive feedback' = praise."
+      "usageNote": null
     },
     {
       "id": 700,
@@ -21199,31 +21114,27 @@
     },
     {
       "id": 703,
-      "word": "initiative",
-      "hindi": "पहल करना",
-      "simpleMeaning": "acting without being asked; a new plan or programme",
-      "ipa": "/ɪˈnɪʃɪətɪv/",
+      "word": "referral",
+      "hindi": "अनुशंसा / सिफारिश",
+      "simpleMeaning": "a recommendation of someone for a job or service",
+      "ipa": "/rɪˈfɜːrəl/",
       "category": "Career & Interview",
       "partOfSpeech": "noun",
-      "cefrLevel": "B2",
+      "cefrLevel": "B1",
       "synonyms": [
-        "drive",
-        "proactivity",
-        "enterprise"
+        "recommendation",
+        "endorsement"
       ],
-      "antonyms": [
-        "passivity",
-        "inaction"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "I launched a peer mentoring initiative at my last job.",
-        "office": "Always take initiative — don't wait to be told.",
-        "interview": "Tell me about an initiative you led successfully.",
-        "business": "The employee-led wellness initiative improved team morale.",
-        "formal": "The company launched a digital literacy initiative for staff.",
-        "informal": "Initiative: setting 10 alarms and still waking up at 9."
+        "daily": "I got a doctor's referral for the specialist.",
+        "office": "Employee referrals are a great way to hire good talent.",
+        "interview": "I got this interview through a referral from a former colleague.",
+        "business": "The company offers a referral bonus for successful hires.",
+        "formal": "Please submit your referral through the internal portal.",
+        "informal": "Got a referral for that job, fingers crossed!"
       },
-      "usageNote": "Interviewers love: 'I took the initiative to...' Use it with a specific example and quantified result."
+      "usageNote": null
     },
     {
       "id": 704,
@@ -22198,65 +22109,53 @@
     },
     {
       "id": 738,
-      "word": "mentor",
-      "hindi": "गुरु / मार्गदर्शक",
-      "simpleMeaning": "an experienced person who guides and advises someone",
-      "ipa": "/ˈmɛntər/",
+      "word": "cover letter",
+      "hindi": "आवेदन पत्र",
+      "simpleMeaning": "a letter sent with a resume explaining your interest in a job",
+      "ipa": "/ˈkʌvər ˈlɛtər/",
+      "category": "Career & Interview",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "application letter",
+        "motivation letter"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "I spent all evening writing my cover letter.",
+        "office": "HR asked for an updated resume and cover letter.",
+        "interview": "My cover letter highlighted my leadership experience.",
+        "business": "A strong cover letter can set you apart from other candidates.",
+        "formal": "Please attach a cover letter with your application.",
+        "informal": "Ugh, writing a cover letter is the worst part of job hunting!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 739,
+      "word": "career pivot",
+      "hindi": "करियर में बदलाव",
+      "simpleMeaning": "a significant change in one's career direction",
+      "ipa": "/kəˈrɪər ˈpɪvət/",
       "category": "Career & Interview",
       "partOfSpeech": "noun",
       "cefrLevel": "B2",
       "synonyms": [
-        "guide",
-        "advisor",
-        "coach"
+        "career change",
+        "career shift"
       ],
       "antonyms": [
-        "student",
-        "mentee"
+        "career continuity"
       ],
       "sentences": {
-        "daily": "Find a mentor in your first job — it makes all the difference.",
-        "office": "My mentor helped me navigate office politics early on.",
-        "interview": "A good mentor gives honest feedback, not just praise.",
-        "business": "I mentor two junior developers every week.",
-        "formal": "The mentoring relationship lasted 5 years and shaped her career.",
-        "informal": "My mentor told me to speak up. Still working on it!"
+        "daily": "She made a career pivot from teaching to tech.",
+        "office": "My career pivot into data analytics was the best decision I made.",
+        "interview": "Let me explain the reasoning behind my career pivot.",
+        "business": "Career pivots have become common after the pandemic.",
+        "formal": "The panel discussed strategies for a successful career pivot.",
+        "informal": "Thinking about a career pivot, any advice?"
       },
-      "usageNote": "'Mentor' = guides with wisdom and experience. 'Coach' = helps you improve specific skills. Both are valuable."
-    },
-    {
-      "id": 739,
-      "word": "network",
-      "hindi": "नेटवर्क / संपर्क जाल",
-      "simpleMeaning": "a group of professional contacts you build over time",
-      "ipa": "/ˈnɛtwɜːrk/",
-      "category": "Career & Interview",
-      "partOfSpeech": "noun/verb",
-      "cefrLevel": "B2",
-      "synonyms": [
-        "contacts",
-        "connections",
-        "relationships"
-      ],
-      "antonyms": [
-        "isolation"
-      ],
-      "sentences": {
-        "daily": "My professional network helped me find this role.",
-        "office": "Networking is not about collecting business cards — it's about relationships.",
-        "interview": "I network at conferences and on LinkedIn.",
-        "business": "A strong network opens doors that skills alone cannot.",
-        "formal": "She built a network of 500 professionals in her first year.",
-        "informal": "Networking event: I spoke to the appetizers mostly."
-      },
-      "usageNote": "'Network' as verb: 'I regularly network in my industry.' LinkedIn, alumni meets, and conferences are best places.",
-      "verbForms": {
-        "base": "network",
-        "s3": "networks",
-        "ing": "networking",
-        "past": "networked",
-        "pp": "networked"
-      }
+      "usageNote": null
     },
     {
       "id": 740,
@@ -23457,57 +23356,51 @@
     },
     {
       "id": 781,
-      "word": "deadline",
-      "hindi": "अंतिम तिथि",
-      "simpleMeaning": "the last date or time by which something must be done",
-      "ipa": "/ˈdɛdlaɪn/",
+      "word": "coursework",
+      "hindi": "पाठ्यक्रम कार्य",
+      "simpleMeaning": "work done as part of a course of study",
+      "ipa": "/ˈkɔːrswɜːrk/",
+      "category": "Academic & Study",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "assignments",
+        "study work"
+      ],
+      "antonyms": [],
+      "sentences": {
+        "daily": "I spent the whole weekend finishing my coursework.",
+        "office": "She completed her MBA coursework while working full-time.",
+        "interview": "My coursework included several real-world case studies.",
+        "business": "The training program includes coursework and practical projects.",
+        "formal": "All coursework must be submitted before the semester ends.",
+        "informal": "So much coursework this week, I'm drowning!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 782,
+      "word": "syllabus",
+      "hindi": "पाठ्यक्रम विवरण",
+      "simpleMeaning": "an outline of topics covered in a course",
+      "ipa": "/ˈsɪləbəs/",
       "category": "Academic & Study",
       "partOfSpeech": "noun",
       "cefrLevel": "A2",
       "synonyms": [
-        "due date",
-        "cutoff",
-        "submission date"
+        "curriculum",
+        "course outline"
       ],
-      "antonyms": [
-        "extension",
-        "grace period"
-      ],
+      "antonyms": [],
       "sentences": {
-        "daily": "My assignment deadline is tomorrow night at 11:59 PM.",
-        "office": "Always start before the deadline — never at it.",
-        "interview": "Missing deadlines has academic and professional consequences.",
-        "business": "The student requested an extension to the submission deadline.",
-        "formal": "All project deadlines were tracked on the shared calendar.",
-        "informal": "Deadline: 11:59 PM. Started: 11:30 PM. Finished: 11:58 PM. Warrior."
+        "daily": "I checked the syllabus before buying my textbooks.",
+        "office": "The trainer shared the syllabus before the workshop began.",
+        "interview": "I reviewed the syllabus to prepare for my viva.",
+        "business": "The institute updated its syllabus to include AI tools.",
+        "formal": "The syllabus outlines all topics for the semester.",
+        "informal": "Did you even read the syllabus? Exam's on chapter 5!"
       },
-      "usageNote": "Missing academic deadlines = grade penalties. Missing professional deadlines = reputation damage. Respect both!"
-    },
-    {
-      "id": 782,
-      "word": "rubric",
-      "hindi": "श्रेणीकरण मानदंड",
-      "simpleMeaning": "grading criteria with clear descriptions of performance levels",
-      "ipa": "/ˈruːbrɪk/",
-      "category": "Academic & Study",
-      "partOfSpeech": "noun",
-      "cefrLevel": "C1",
-      "synonyms": [
-        "marking scheme",
-        "grading guide"
-      ],
-      "antonyms": [
-        "random grading"
-      ],
-      "sentences": {
-        "daily": "I designed a rubric for the oral presentation assessment.",
-        "office": "Always read the rubric — it tells you exactly how you'll be graded.",
-        "interview": "The rubric had four levels: excellent, good, satisfactory, and failing.",
-        "business": "The rubric was shared a week before the assignment was due.",
-        "formal": "Rubric-based grading gave students clear feedback on improvement.",
-        "informal": "Finally read the rubric. Turns out content was only 30%. Formatting was 70%. Oops."
-      },
-      "usageNote": "Rubric = a table showing what you need to do to earn each grade. It's your roadmap to a top score."
+      "usageNote": null
     },
     {
       "id": 783,
@@ -24861,31 +24754,32 @@
     },
     {
       "id": 831,
-      "word": "pragmatic",
-      "hindi": "व्यावहारिक / यथार्थवादी",
-      "simpleMeaning": "practical rather than idealistic",
-      "ipa": "/præɡˈmætɪk/",
+      "word": "audacious",
+      "hindi": "साहसी / दुस्साहसी",
+      "simpleMeaning": "showing a willingness to take bold risks",
+      "ipa": "/ɔːˈdeɪʃəs/",
       "category": "Advanced Adjectives",
       "partOfSpeech": "adjective",
       "cefrLevel": "C1",
       "synonyms": [
-        "practical",
-        "realistic",
-        "sensible"
+        "bold",
+        "daring",
+        "fearless"
       ],
       "antonyms": [
-        "idealistic",
-        "theoretical"
+        "timid",
+        "cautious",
+        "meek"
       ],
       "sentences": {
-        "daily": "We need a pragmatic plan, not a perfect one.",
-        "office": "She took a pragmatic approach to fixing the broken process.",
-        "interview": "Pragmatic problem-solvers move faster than idealists.",
-        "business": "The pragmatic compromise satisfied both parties.",
-        "formal": "A pragmatic leader delivers results despite imperfect conditions.",
-        "informal": "Pragmatic decision: order in. Idealistic plan: cook from scratch."
+        "daily": "It was an audacious decision to quit his job and travel.",
+        "office": "The team pitched an audacious plan to double revenue.",
+        "interview": "I set audacious goals for myself every year.",
+        "business": "The startup's audacious expansion plan surprised investors.",
+        "formal": "The proposal was seen as audacious but achievable.",
+        "informal": "That's such an audacious idea, I love it!"
       },
-      "usageNote": "Pragmatic = focused on WHAT WORKS rather than what's ideal or perfect. Essential quality in fast-moving environments."
+      "usageNote": null
     },
     {
       "id": 832,
@@ -25083,31 +24977,32 @@
     },
     {
       "id": 839,
-      "word": "candid",
-      "hindi": "स्पष्टवादी / खुलकर बोलने वाला",
-      "simpleMeaning": "honest, direct, and open",
-      "ipa": "/ˈkændɪd/",
+      "word": "circumspect",
+      "hindi": "सतर्क / सावधान",
+      "simpleMeaning": "careful to consider consequences before acting",
+      "ipa": "/ˈsɜːrkəmspɛkt/",
       "category": "Advanced Adjectives",
       "partOfSpeech": "adjective",
       "cefrLevel": "C1",
       "synonyms": [
-        "frank",
-        "open",
-        "truthful"
+        "cautious",
+        "prudent",
+        "careful"
       ],
       "antonyms": [
-        "evasive",
-        "dishonest"
+        "reckless",
+        "careless",
+        "rash"
       ],
       "sentences": {
-        "daily": "I prefer candid feedback to empty praise.",
-        "office": "Be candid in your interview — authenticity is valued.",
-        "interview": "The candid discussion helped resolve the team conflict.",
-        "business": "The CEO was refreshingly candid about the company's struggles.",
-        "formal": "A candid self-evaluation helps you grow faster.",
-        "informal": "Candid review: 'You speak well in your native language.' Working on English!"
+        "daily": "Be circumspect before sharing personal details online.",
+        "office": "She remained circumspect during the sensitive negotiation.",
+        "interview": "I try to be circumspect when discussing past employers.",
+        "business": "The board was circumspect about the risky investment.",
+        "formal": "It is wise to be circumspect in such matters.",
+        "informal": "Stay circumspect, don't say too much just yet."
       },
-      "usageNote": "Candid ≠ rude. Candid = honest but respectful. 'Candid conversation' is a professional term for a frank discussion."
+      "usageNote": null
     },
     {
       "id": 840,
@@ -25487,36 +25382,38 @@
     },
     {
       "id": 853,
-      "word": "evaluate",
-      "hindi": "मूल्यांकन करना",
-      "simpleMeaning": "to assess or judge the quality or value of something",
-      "ipa": "/ɪˈvæljueɪt/",
+      "word": "expedite",
+      "hindi": "जल्दी पूरा करना / तेज करना",
+      "simpleMeaning": "to make a process happen faster",
+      "ipa": "/ˈɛkspɪdaɪt/",
       "category": "Advanced Verbs",
       "partOfSpeech": "verb",
-      "cefrLevel": "B2",
+      "cefrLevel": "C1",
       "synonyms": [
-        "assess",
-        "judge",
-        "analyse"
+        "speed up",
+        "accelerate",
+        "hasten"
       ],
       "antonyms": [
-        "ignore",
-        "assume"
+        "delay",
+        "slow down",
+        "hinder"
       ],
       "sentences": {
-        "daily": "Evaluate each option before making a final decision.",
-        "office": "We evaluated the ROI of every marketing channel.",
-        "interview": "Teachers evaluate students through exams and assignments.",
-        "business": "The committee evaluated 50 proposals and chose five.",
-        "formal": "The software was evaluated by the QA team before launch.",
-        "informal": "I evaluate movie options for 30 minutes and still pick the wrong one."
+        "daily": "We paid extra to expedite the delivery.",
+        "office": "Please expedite the approval process for this request.",
+        "interview": "I expedited the onboarding process by automating paperwork.",
+        "business": "The factory expedited production to meet holiday demand.",
+        "formal": "Kindly expedite this matter at the earliest.",
+        "informal": "Can you expedite this? We're really short on time."
       },
-      "usageNote": {
-        "base": "evaluate",
-        "s3": "evaluates",
-        "ing": "evaluating",
-        "past": "evaluated",
-        "pp": "evaluated"
+      "usageNote": null,
+      "verbForms": {
+        "base": "expedite",
+        "s3": "expedites",
+        "ing": "expediting",
+        "past": "expedited",
+        "pp": "expedited"
       }
     },
     {
@@ -25861,70 +25758,72 @@
     },
     {
       "id": 864,
-      "word": "quantify",
-      "hindi": "मात्रा में बताना",
-      "simpleMeaning": "to express something in numbers or amounts",
-      "ipa": "/ˈkwɒntɪfaɪ/",
+      "word": "galvanize",
+      "hindi": "प्रेरित करना / उत्साहित करना",
+      "simpleMeaning": "to shock or excite someone into action",
+      "ipa": "/ˈɡælvənaɪz/",
       "category": "Advanced Verbs",
       "partOfSpeech": "verb",
       "cefrLevel": "C1",
       "synonyms": [
-        "measure",
-        "calculate",
-        "assess"
+        "motivate",
+        "energize",
+        "inspire"
       ],
       "antonyms": [
-        "estimate",
-        "guess"
+        "discourage",
+        "demotivate"
       ],
       "sentences": {
-        "daily": "Quantify your achievements on your resume.",
-        "office": "It's hard to quantify the value of employee morale.",
-        "interview": "The report quantified the financial impact of the delay.",
-        "business": "Can you quantify the improvement in customer satisfaction?",
-        "formal": "The risk was quantified at ₹20 lakh per event.",
-        "informal": "Quantifying my love of chai: infinite. Units: cups per day."
+        "daily": "The coach's speech galvanized the whole team.",
+        "office": "Her presentation galvanized the department into action.",
+        "interview": "I galvanized my team to hit the deadline despite setbacks.",
+        "business": "The CEO's announcement galvanized investor confidence.",
+        "formal": "The crisis galvanized the organization into swift reform.",
+        "informal": "That speech totally galvanized everyone, so much energy!"
       },
-      "usageNote": {
-        "base": "quantify",
-        "s3": "quantifies",
-        "ing": "quantifying",
-        "past": "quantified",
-        "pp": "quantified"
+      "usageNote": null,
+      "verbForms": {
+        "base": "galvanize",
+        "s3": "galvanizes",
+        "ing": "galvanizing",
+        "past": "galvanized",
+        "pp": "galvanized"
       }
     },
     {
       "id": 865,
-      "word": "clarify",
-      "hindi": "स्पष्ट करना",
-      "simpleMeaning": "to make something easier to understand",
-      "ipa": "/ˈklærɪfaɪ/",
+      "word": "underpin",
+      "hindi": "आधार प्रदान करना / समर्थन देना",
+      "simpleMeaning": "to support or form the basis of something",
+      "ipa": "/ˌʌndərˈpɪn/",
       "category": "Advanced Verbs",
       "partOfSpeech": "verb",
-      "cefrLevel": "B2",
+      "cefrLevel": "C1",
       "synonyms": [
-        "explain",
-        "clear up",
-        "define"
+        "support",
+        "sustain",
+        "reinforce"
       ],
       "antonyms": [
-        "confuse",
-        "obscure"
+        "undermine",
+        "weaken"
       ],
       "sentences": {
-        "daily": "Clarify the scope before the project begins.",
-        "office": "I asked the client to clarify their deadline.",
-        "interview": "The email clarified the policy changes effectively.",
-        "business": "Always clarify ambiguity in instructions before acting.",
-        "formal": "The manager clarified expectations to avoid confusion.",
-        "informal": "Clarifying question: 'What do you mean by done?' Always worth asking."
+        "daily": "Trust underpins every strong relationship.",
+        "office": "Clear communication underpins good teamwork.",
+        "interview": "Strong data underpins every recommendation I make.",
+        "business": "Solid financials underpin the company's expansion plans.",
+        "formal": "These principles underpin our entire strategy.",
+        "informal": "Honestly, good habits underpin everything else."
       },
-      "usageNote": {
-        "base": "clarify",
-        "s3": "clarifies",
-        "ing": "clarifying",
-        "past": "clarified",
-        "pp": "clarified"
+      "usageNote": null,
+      "verbForms": {
+        "base": "underpin",
+        "s3": "underpins",
+        "ing": "underpinning",
+        "past": "underpinned",
+        "pp": "underpinned"
       }
     },
     {
@@ -26269,36 +26168,37 @@
     },
     {
       "id": 876,
-      "word": "collaborate",
-      "hindi": "सहयोग करना",
-      "simpleMeaning": "to work with others toward a shared goal",
-      "ipa": "/kəˈlæbəreɪt/",
+      "word": "corroborate",
+      "hindi": "पुष्टि करना",
+      "simpleMeaning": "to confirm or support with evidence",
+      "ipa": "/kəˈrɒbəreɪt/",
       "category": "Advanced Verbs",
       "partOfSpeech": "verb",
-      "cefrLevel": "B2",
+      "cefrLevel": "C1",
       "synonyms": [
-        "cooperate",
-        "partner",
-        "team up"
+        "confirm",
+        "verify",
+        "support"
       ],
       "antonyms": [
-        "compete",
-        "work alone"
+        "contradict",
+        "refute"
       ],
       "sentences": {
-        "daily": "We collaborated with three agencies on the campaign.",
-        "office": "Great things happen when smart people collaborate freely.",
-        "interview": "I collaborated with the data team to build the dashboard.",
-        "business": "The two companies collaborated to develop a joint product.",
-        "formal": "Staff from 10 countries collaborated on the global report.",
-        "informal": "Collaborating on where to eat: always the hardest team exercise."
+        "daily": "Her story was corroborated by two other witnesses.",
+        "office": "The audit corroborated the finance team's figures.",
+        "interview": "I corroborated my findings with additional data before presenting.",
+        "business": "Independent research corroborated our market analysis.",
+        "formal": "The evidence corroborates the initial report.",
+        "informal": "Can you corroborate that? I need a second source."
       },
-      "usageNote": {
-        "base": "collaborate",
-        "s3": "collaborates",
-        "ing": "collaborating",
-        "past": "collaborated",
-        "pp": "collaborated"
+      "usageNote": null,
+      "verbForms": {
+        "base": "corroborate",
+        "s3": "corroborates",
+        "ing": "corroborating",
+        "past": "corroborated",
+        "pp": "corroborated"
       }
     },
     {
@@ -26609,36 +26509,37 @@
     },
     {
       "id": 886,
-      "word": "benchmark",
-      "hindi": "मानदंड स्थापित करना",
-      "simpleMeaning": "to set a standard for comparison",
-      "ipa": "/ˈbɛntʃmɑːrk/",
+      "word": "circumvent",
+      "hindi": "बचकर निकलना / टालना",
+      "simpleMeaning": "to find a way around an obstacle or rule",
+      "ipa": "/ˌsɜːrkəmˈvɛnt/",
       "category": "Advanced Verbs",
       "partOfSpeech": "verb",
       "cefrLevel": "C1",
       "synonyms": [
-        "measure",
-        "compare",
-        "standardise"
+        "avoid",
+        "bypass",
+        "evade"
       ],
       "antonyms": [
-        "guess",
-        "assume"
+        "comply",
+        "follow"
       ],
       "sentences": {
-        "daily": "Benchmark your performance against industry standards.",
-        "office": "We benchmarked the new process against global best practices.",
-        "interview": "HR benchmarked salaries using market data from five surveys.",
-        "business": "The analyst benchmarked the startup against 10 comparable firms.",
-        "formal": "The service level was benchmarked quarterly for consistency.",
-        "informal": "I benchmarked my productivity against my colleague. Big mistake."
+        "daily": "We took a side road to circumvent the traffic jam.",
+        "office": "The team found a way to circumvent the approval delay.",
+        "interview": "I circumvented the technical issue by using a backup system.",
+        "business": "The company circumvented import taxes through local manufacturing.",
+        "formal": "Such practices are designed to circumvent regulations.",
+        "informal": "Found a way to circumvent the whole mess, finally!"
       },
-      "usageNote": {
-        "base": "benchmark",
-        "s3": "benchmarks",
-        "ing": "benchmarking",
-        "past": "benchmarked",
-        "pp": "benchmarked"
+      "usageNote": null,
+      "verbForms": {
+        "base": "circumvent",
+        "s3": "circumvents",
+        "ing": "circumventing",
+        "past": "circumvented",
+        "pp": "circumvented"
       }
     },
     {
@@ -27563,31 +27464,31 @@
     },
     {
       "id": 919,
-      "word": "reach out",
-      "hindi": "संपर्क करना",
-      "simpleMeaning": "to make contact with someone",
-      "ipa": "/riːtʃ aʊt/",
+      "word": "iron out",
+      "hindi": "समस्याओं को सुलझाना",
+      "simpleMeaning": "to resolve difficulties or differences through discussion",
+      "ipa": "/ˈaɪərn aʊt/",
       "category": "Phrasal Expressions",
       "partOfSpeech": "phrasal verb",
-      "cefrLevel": "A2",
+      "cefrLevel": "B2",
       "synonyms": [
-        "contact",
-        "connect",
-        "approach"
+        "resolve",
+        "sort out",
+        "settle"
       ],
       "antonyms": [
-        "ignore",
-        "avoid"
+        "create",
+        "complicate"
       ],
       "sentences": {
-        "daily": "Reach out if you have any questions.",
-        "office": "I reached out to three mentors for career advice.",
-        "interview": "The company reaches out to customers with personalised emails.",
-        "business": "She reached out to reconnect after five years.",
-        "formal": "Feel free to reach out anytime — I'm here to help.",
-        "informal": "Reached out to an old friend. Took 3 weeks to reply. Worth it."
+        "daily": "We ironed out our differences over coffee.",
+        "office": "Let's iron out the details before the client call.",
+        "interview": "I ironed out the scheduling conflict with both teams.",
+        "business": "The two companies ironed out the contract terms.",
+        "formal": "The disagreement was ironed out during negotiations.",
+        "informal": "We'll iron it out, don't worry!"
       },
-      "usageNote": "'Reach out to someone' = initiate contact. Very common in professional emails and LinkedIn messages."
+      "usageNote": null
     },
     {
       "id": 920,
@@ -28241,31 +28142,30 @@
     },
     {
       "id": 943,
-      "word": "bandwidth",
-      "hindi": "बैंडविड्थ / डेटा गति",
-      "simpleMeaning": "the rate at which data is transferred over a network",
-      "ipa": "/ˈbændwɪdθ/",
+      "word": "serverless",
+      "hindi": "सर्वरलेस / बिना सर्वर के",
+      "simpleMeaning": "a cloud computing model where the provider manages server infrastructure",
+      "ipa": "/ˈsɜːrvərlɛs/",
       "category": "Technology & Digital",
-      "partOfSpeech": "noun",
-      "cefrLevel": "B2",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "C1",
       "synonyms": [
-        "data speed",
-        "throughput",
-        "capacity"
+        "cloud-native",
+        "managed infrastructure"
       ],
       "antonyms": [
-        "latency",
-        "slowness"
+        "on-premise",
+        "self-hosted"
       ],
       "sentences": {
-        "daily": "High bandwidth allows smooth video streaming.",
-        "office": "The server's bandwidth was maxed out during the product launch.",
-        "interview": "Upgrade your internet bandwidth for video conferencing.",
-        "business": "Low bandwidth causes video calls to freeze and stutter.",
-        "formal": "The app uses minimal bandwidth for users in low-connectivity areas.",
-        "informal": "Bandwidth fine. My phone's battery: not so fine."
+        "daily": "My cousin explained serverless computing over dinner, still confusing!",
+        "office": "We migrated the app to a serverless architecture.",
+        "interview": "I have experience building serverless applications with AWS Lambda.",
+        "business": "Serverless computing reduced our infrastructure costs by 40%.",
+        "formal": "The system was redesigned using a serverless approach.",
+        "informal": "Serverless just means you don't manage the servers yourself."
       },
-      "usageNote": "Tech: bandwidth = data transmission speed. Work context: 'I don't have bandwidth' = no capacity. Same word, two uses."
+      "usageNote": null
     },
     {
       "id": 944,

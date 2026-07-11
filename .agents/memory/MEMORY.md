@@ -13,3 +13,4 @@
 - [MCQ answer letter-code format](mcq-answer-letter-format.md) — daily-test.json uses correct:"B" letter codes, not option text; always use getCorrectOptionText() to resolve before comparing.
 - [Section page data prop contract](section-page-data-prop-contract.md) — section components read `data.<key>` on the FULL dayData object; never pre-slice it client-side or every section silently shows 0 items.
 - [Challenge API payload size](challenge-api-payload-size.md) — /api/challenge/[day] merges all per-day JSON; gate huge vocab/practice/test arrays behind `?dataKey=` or fetches fail once content scales up.
+- [Combinatorial booster scripts](combinatorial-booster-scripts.md) — divmod template generators cap out at pool_A×pool_B×pool_C; enlarge the open vocab pool, not just the target number, or output silently plateaus.
