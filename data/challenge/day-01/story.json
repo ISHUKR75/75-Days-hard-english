@@ -1,0 +1,104 @@
+{
+  "day": 1,
+  "title": "Ravi's First English Day — एक हिंदी Story with English Learning",
+  "level": "Beginner A0/A1",
+  "teacherNote": "यह story इसलिए लिखी गई है ताकि आप देख सकें कि आज सीखे grammar rules real life में कैसे use होते हैं। हर English sentence के नीचे Hindi translation है।",
+  "story": {
+    "paragraphs": [
+      {
+        "id": 1,
+        "english": "Ravi is a young man from a small town in Rajasthan. He is 22 years old. He wants to get a good job in a big city. His English is not very good, but he is determined to improve.",
+        "hindi": "Ravi राजस्थान के एक छोटे शहर का नौजवान है। वो 22 साल का है। वो एक बड़े शहर में अच्छी नौकरी चाहता है। उसकी English बहुत अच्छी नहीं है, लेकिन वो सुधार करने के लिए दृढ़ निश्चयी है।",
+        "grammarPoints": [
+          "Is — be verb with He",
+          "Wants — He + verb+s",
+          "Is not — negative with be verb"
+        ]
+      },
+      {
+        "id": 2,
+        "english": "Every morning, Ravi wakes up at 6 AM. He brushes his teeth, drinks a glass of water, and does some exercise. Then he sits down with his English book.",
+        "hindi": "हर सुबह, Ravi 6 बजे उठता है। वो अपने दाँत brush करता है, एक गिलास पानी पीता है, और थोड़ी exercise करता है। फिर वो अपनी English की किताब लेकर बैठ जाता है।",
+        "grammarPoints": [
+          "Simple Present with He — wakes, brushes, drinks, does, sits",
+          "Every morning — frequency adverb phrase",
+          "SVO structure in each sentence"
+        ]
+      },
+      {
+        "id": 3,
+        "english": "Today is different. Ravi's friend Arjun calls him. 'Come with me,' Arjun says. 'I know a place where people practice English every day. The teacher is very good.'",
+        "hindi": "आज अलग है। Ravi का दोस्त Arjun उसे call करता है। 'मेरे साथ चलो,' Arjun कहता है। 'मुझे एक जगह पता है जहाँ लोग रोज़ English practice करते हैं। Teacher बहुत अच्छे हैं।'",
+        "grammarPoints": [
+          "Direct speech — quotation marks",
+          "Imperative — Come with me",
+          "Is, know — stative verbs in Simple Present"
+        ]
+      },
+      {
+        "id": 4,
+        "english": "Ravi and Arjun arrive at the English center. There are twenty students in the room. The teacher, Mr. Kumar, is a friendly man. He speaks slowly and clearly. He says, 'Good morning, everyone! Welcome to the basics of English!'",
+        "hindi": "Ravi और Arjun English center पहुँचते हैं। कमरे में बीस students हैं। Teacher, Mr. Kumar, एक friendly इंसान हैं। वो slowly और clearly बोलते हैं। वो कहते हैं, 'Good morning, everyone! English की basics में आपका स्वागत है!'",
+        "grammarPoints": [
+          "There are — existence",
+          "Is — describing person",
+          "Speaks, says — He + verb+s",
+          "Exclamatory + Imperative sentences"
+        ]
+      },
+      {
+        "id": 5,
+        "english": "Mr. Kumar writes on the board: 'I + Verb = Sentence.' He explains, 'In English, the subject always comes first. The verb comes second. This is the most important rule.' Ravi understands immediately.",
+        "hindi": "Mr. Kumar board पर लिखते हैं: 'I + Verb = Sentence.' वो explain करते हैं, 'English में, subject हमेशा पहले आता है। Verb दूसरा आता है। यही सबसे important rule है।' Ravi तुरंत समझ जाता है।",
+        "grammarPoints": [
+          "Writes, explains, understands — He/She + verb+s",
+          "Quoted/Direct speech",
+          "SVO rule explained in story"
+        ]
+      },
+      {
+        "id": 6,
+        "english": "After the class, Ravi feels happy and confident. He thinks, 'I can learn English. I will practice every day. I will not give up.' He smiles and goes home with his new notebook full of English sentences.",
+        "hindi": "Class के बाद, Ravi खुश और confident feel करता है। वो सोचता है, 'मैं English सीख सकता हूँ। मैं रोज़ practice करूँगा। मैं हार नहीं मानूँगा।' वो मुस्कुराता है और English sentences से भरी नई notebook लेकर घर जाता है।",
+        "grammarPoints": [
+          "Feels, thinks, smiles, goes — verb+s with He",
+          "Modal verbs: can, will",
+          "Negative: will not (won't)",
+          "Inner thoughts in direct speech"
+        ]
+      }
+    ]
+  },
+  "comprehensionQuestions": [
+    {
+      "question": "Where is Ravi from?",
+      "answer": "Ravi is from a small town in Rajasthan."
+    },
+    {
+      "question": "What does Ravi do every morning?",
+      "answer": "He wakes up at 6 AM, brushes his teeth, drinks water, and exercises."
+    },
+    {
+      "question": "What is the most important English rule according to Mr. Kumar?",
+      "answer": "The subject always comes first and the verb comes second (SVO order)."
+    },
+    {
+      "question": "How does Ravi feel after the class?",
+      "answer": "He feels happy and confident."
+    },
+    {
+      "question": "What does Ravi decide to do?",
+      "answer": "He decides to practice English every day and not give up."
+    }
+  ],
+  "grammarPointsUsed": [
+    "Simple Present Tense (positive, negative, question)",
+    "Be Verb (is, are)",
+    "Modal Verbs (can, will)",
+    "SVO Sentence Structure",
+    "He/She/It + verb+s rule",
+    "Frequency adverbs (every morning, every day)",
+    "There is/are",
+    "Direct Speech"
+  ]
+}

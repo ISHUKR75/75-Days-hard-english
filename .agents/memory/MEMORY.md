@@ -10,3 +10,4 @@
 - [Challenge page URL format](challenge-url-format.md) — challenge day pages use numeric slugs: /75-days-challenge/1 (not /day-1); parseInt(params.day) on "day-1" gives NaN.
 - [Vocabulary JSON metadata sync](vocab-json-metadata.md) — after adding words to vocabulary.json, always update totalWords, categories array, and description fields in the same file to avoid display inconsistency.
 - [Unresolved merge conflict markers](unresolved-merge-conflict-markers.md) — imported project had literal git conflict markers causing 500s; grep for them early when content "seems missing".
+- [MCQ answer letter-code format](mcq-answer-letter-format.md) — daily-test.json uses correct:"B" letter codes, not option text; always use getCorrectOptionText() to resolve before comparing.

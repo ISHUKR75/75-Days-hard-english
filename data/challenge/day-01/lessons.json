@@ -1,1007 +1,2368 @@
 {
   "day": 1,
-  "title": "Basics of English — Complete Lesson",
+  "title": "Basics of English — Complete Masterclass",
+  "hindiTitle": "English की नींव — सम्पूर्ण मास्टरक्लास",
+  "teacherNote": "यह Day 1 का Complete Masterclass है। हर section को ध्यान से पढ़ें। जैसे एक अच्छा teacher पहले foundation बनाता है, वैसे ही यह lessons आपकी English की नींव को rock-solid बनाएंगे।",
   "sections": [
     {
       "id": "svo-structure",
-      "title": "SVO Structure — English का Magic Formula",
-      "hindiTitle": "Subject + Verb + Object — अंग्रेजी का जादुई फॉर्मूला",
-      "explanation": "English में हर sentence तीन parts से बना होता है: Subject (कौन काम कर रहा है) + Verb (क्या काम हो रहा है) + Object (किस पर काम हो रहा है). जैसे Hindi में 'राम खाना खाता है' उसी तरह English में 'Ram eats food.' याद रखो: Subject पहले, Verb बीच में, Object बाद में।",
+      "title": "Section 1: SVO Structure — English का Magic Formula",
+      "hindiTitle": "Section 1: SVO Structure — English की जादुई Formula",
+      "explanation": "English में हर sentence एक fixed pattern follow करता है: Subject + Verb + Object (SVO). यह pattern English की सबसे बड़ी strength है। जैसे Math में 2+2=4 हमेशा same होता है, वैसे ही English में SVO pattern हमेशा same रहता है।\n\nSubject: वो person या thing जो कुछ करता है।\nVerb: वो action जो Subject करता है।\nObject: वो person या thing जिस पर action होती है।\n\nमान लो आपको Hindi में कहना है: 'राम एक सेब खाता है।'\nEnglish में: 'Ram eats an apple.'\nSubject = Ram (जो काम कर रहा है)\nVerb = eats (जो काम हो रहा है)\nObject = an apple (जिस पर काम हो रहा है)\n\nयही है SVO formula। एक बार यह समझ गए तो आप 10,000+ sentences बना सकते हैं।",
       "formula": "Subject + Verb + Object",
+      "hindiFormula": "कर्ता + क्रिया + कर्म",
+      "detailedExplanation": "SVO structure को और deeply समझते हैं:\n\n1. Subject कौन होता है?\n   - Personal pronouns: I, You, He, She, It, We, They\n   - Nouns: Ram, Sita, The teacher, My mother\n   - Noun phrases: The tall man, My best friend\n\n2. Verb क्या होती है?\n   - Action verbs: eat, drink, go, come, write, read, speak\n   - State verbs: know, love, hate, understand, believe\n   - Helping verbs: is, am, are, do, does, did\n\n3. Object क्या होता है?\n   - Direct object: Ram eats AN APPLE (apple = direct object)\n   - Indirect object: I give HIM the book (him = indirect object)\n   - No object: He sleeps. (कोई object नहीं — यह intransitive verb है)\n\nYaad rakho: Hindi में word order flexible होती है लेकिन English में SVO FIXED है। यही सबसे बड़ा difference है।",
+      "whyImportant": "SVO structure इसलिए critical है क्योंकि:\n1. यह English grammar का backbone है\n2. इसके बिना कोई भी sentence grammatically correct नहीं होगा\n3. सभी tenses इसी structure पर based हैं\n4. यह spoken और written दोनों English में same apply होता है",
       "examples": [
-        { "english": "I eat rice.", "hindi": "मैं चावल खाता हूँ।", "subject": "I", "verb": "eat", "object": "rice" },
-        { "english": "She drinks water.", "hindi": "वह पानी पीती है।", "subject": "She", "verb": "drinks", "object": "water" },
-        { "english": "He reads books.", "hindi": "वह किताबें पढ़ता है।", "subject": "He", "verb": "reads", "object": "books" },
-        { "english": "We play cricket.", "hindi": "हम क्रिकेट खेलते हैं।", "subject": "We", "verb": "play", "object": "cricket" },
-        { "english": "They watch movies.", "hindi": "वे फिल्में देखते हैं।", "subject": "They", "verb": "watch", "object": "movies" },
-        { "english": "You write letters.", "hindi": "तुम पत्र लिखते हो।", "subject": "You", "verb": "write", "object": "letters" },
-        { "english": "The dog eats food.", "hindi": "कुत्ता खाना खाता है।", "subject": "The dog", "verb": "eats", "object": "food" },
-        { "english": "My mother cooks food.", "hindi": "मेरी माँ खाना बनाती है।", "subject": "My mother", "verb": "cooks", "object": "food" },
-        { "english": "Ravi drives a car.", "hindi": "रवि कार चलाता है।", "subject": "Ravi", "verb": "drives", "object": "a car" },
-        { "english": "The teacher teaches English.", "hindi": "अध्यापक अंग्रेजी पढ़ाते हैं।", "subject": "The teacher", "verb": "teaches", "object": "English" },
-        { "english": "She buys vegetables.", "hindi": "वह सब्जियाँ खरीदती है।", "subject": "She", "verb": "buys", "object": "vegetables" },
-        { "english": "I watch TV every night.", "hindi": "मैं हर रात TV देखता हूँ।", "subject": "I", "verb": "watch", "object": "TV" },
-        { "english": "He plays guitar.", "hindi": "वह गिटार बजाता है।", "subject": "He", "verb": "plays", "object": "guitar" },
-        { "english": "They drink tea.", "hindi": "वे चाय पीते हैं।", "subject": "They", "verb": "drink", "object": "tea" },
-        { "english": "We speak Hindi.", "hindi": "हम हिंदी बोलते हैं।", "subject": "We", "verb": "speak", "object": "Hindi" },
-        { "english": "The students study hard.", "hindi": "छात्र मेहनत से पढ़ते हैं।", "subject": "The students", "verb": "study", "object": "hard" },
-        { "english": "She loves her job.", "hindi": "वह अपनी नौकरी से प्यार करती है।", "subject": "She", "verb": "loves", "object": "her job" },
-        { "english": "I need your help.", "hindi": "मुझे तुम्हारी मदद चाहिए।", "subject": "I", "verb": "need", "object": "your help" },
-        { "english": "He knows the answer.", "hindi": "उसे जवाब पता है।", "subject": "He", "verb": "knows", "object": "the answer" },
-        { "english": "They use computers.", "hindi": "वे कंप्यूटर का उपयोग करते हैं।", "subject": "They", "verb": "use", "object": "computers" },
-        { "english": "My father runs a business.", "hindi": "मेरे पिता एक व्यवसाय चलाते हैं।", "subject": "My father", "verb": "runs", "object": "a business" },
-        { "english": "She teaches mathematics.", "hindi": "वह गणित पढ़ाती है।", "subject": "She", "verb": "teaches", "object": "mathematics" },
-        { "english": "I like mangoes.", "hindi": "मुझे आम पसंद हैं।", "subject": "I", "verb": "like", "object": "mangoes" },
-        { "english": "He wears glasses.", "hindi": "वह चश्मा पहनता है।", "subject": "He", "verb": "wears", "object": "glasses" },
-        { "english": "We clean our house.", "hindi": "हम अपना घर साफ करते हैं।", "subject": "We", "verb": "clean", "object": "our house" },
-        { "english": "She sings songs.", "hindi": "वह गाने गाती है।", "subject": "She", "verb": "sings", "object": "songs" },
-        { "english": "They sell fruits.", "hindi": "वे फल बेचते हैं।", "subject": "They", "verb": "sell", "object": "fruits" },
-        { "english": "I take the bus.", "hindi": "मैं बस लेता हूँ।", "subject": "I", "verb": "take", "object": "the bus" },
-        { "english": "He fixes computers.", "hindi": "वह कंप्यूटर ठीक करता है।", "subject": "He", "verb": "fixes", "object": "computers" },
-        { "english": "The company hires engineers.", "hindi": "कंपनी इंजीनियरों को नौकरी देती है।", "subject": "The company", "verb": "hires", "object": "engineers" }
+        {
+          "hindi": "मैं चाय पीता हूँ।",
+          "english": "I drink tea.",
+          "breakdown": "I(Subject) + drink(Verb) + tea(Object)",
+          "type": "Simple"
+        },
+        {
+          "hindi": "वह किताब पढ़ता है।",
+          "english": "He reads a book.",
+          "breakdown": "He(Subject) + reads(Verb) + a book(Object)",
+          "type": "Simple"
+        },
+        {
+          "hindi": "हम cricket खेलते हैं।",
+          "english": "We play cricket.",
+          "breakdown": "We(Subject) + play(Verb) + cricket(Object)",
+          "type": "Simple"
+        },
+        {
+          "hindi": "तुम English सीख रहे हो।",
+          "english": "You are learning English.",
+          "breakdown": "You(Subject) + are learning(Verb) + English(Object)",
+          "type": "Progressive"
+        },
+        {
+          "hindi": "मेरी माँ खाना बनाती हैं।",
+          "english": "My mother cooks food.",
+          "breakdown": "My mother(Subject) + cooks(Verb) + food(Object)",
+          "type": "Simple"
+        },
+        {
+          "hindi": "वो teacher स्कूल जाती हैं।",
+          "english": "She goes to school.",
+          "breakdown": "She(Subject) + goes(Verb) + to school(Prepositional phrase)",
+          "type": "Simple"
+        },
+        {
+          "hindi": "बच्चे शोर मचाते हैं।",
+          "english": "Children make noise.",
+          "breakdown": "Children(Subject) + make(Verb) + noise(Object)",
+          "type": "Simple"
+        },
+        {
+          "hindi": "मेरा दोस्त movie देखता है।",
+          "english": "My friend watches movies.",
+          "breakdown": "My friend(Subject) + watches(Verb) + movies(Object)",
+          "type": "Simple"
+        },
+        {
+          "hindi": "वो doctor बनना चाहता है।",
+          "english": "He wants to become a doctor.",
+          "breakdown": "He(Subject) + wants(Verb) + to become a doctor(Object)",
+          "type": "Infinitive"
+        },
+        {
+          "hindi": "हम रोज़ workout करते हैं।",
+          "english": "We exercise every day.",
+          "breakdown": "We(Subject) + exercise(Verb) + every day(Adverb)",
+          "type": "With Adverb"
+        }
       ],
       "keyRules": [
-        "Subject हमेशा sentence में सबसे पहले आता है — Subject + Verb + Object",
-        "Verb के बाद Object आता है; Hindi की तरह Object को अंत में नहीं रखते",
-        "He/She/It (Singular 3rd person) + verb+s/es: He eats, She goes, It works",
-        "I/You/We/They के साथ verb की base form: I eat, We go, They run",
-        "Verb ending in -ch/-sh/-s/-x/-z/-o → add 'es': teaches, watches, goes, fixes",
-        "Verb ending in consonant+y → y को i में बदलकर 'es' लगाओ: study→studies, fly→flies",
-        "Subject कोई भी हो सकता है: noun (Ram), pronoun (He), phrase (My mother)",
-        "Object हमेशा verb के बाद आता है, कभी पहले नहीं",
-        "Sentence में verb ज़रूरी है — बिना verb के sentence अधूरा है",
-        "Time expression (every day, at night) आमतौर पर sentence के अंत में आती है",
-        "Subject और Verb के बीच कोई और word नहीं आता (आम Hindi गलती है बीच में 'to' डालना)",
-        "Hindi SOV order है (Subject-Object-Verb), English SVO है — यह सबसे बड़ा फर्क है"
+        "Subject हमेशा पहले आता है English में",
+        "Verb Subject के according change होती है (He eats, They eat)",
+        "Object Verb के बाद आता है",
+        "Hindi की तरह verb को end में नहीं रखते",
+        "Hindi: 'मैं school जाता हूँ' → English: 'I go to school' (verb middle में)"
       ],
       "commonErrors": [
-        "❌ Rice I eat. — ✅ I eat rice. — कारण: Hindi में Object पहले आता है लेकिन English में Subject पहले आता है",
-        "❌ She go to market. — ✅ She goes to market. — कारण: She/He/It के साथ verb में 's/es' लगाना ज़रूरी है",
-        "❌ He eats not food. — ✅ He does not eat food. — कारण: Negative बनाने के लिए 'does not' use होता है, verb के बाद 'not' नहीं",
-        "❌ They plays football. — ✅ They play football. — कारण: They plural है, इसलिए base verb use होगी",
-        "❌ My mother daily food cooks. — ✅ My mother cooks food daily. — कारण: Verb Object के पहले आती है, बाद में नहीं",
-        "❌ I am go to school. — ✅ I go to school. — कारण: Simple present में 'am/is/are' + verb नहीं लगाते",
-        "❌ He work in a office. — ✅ He works in an office. — कारण: He के साथ 'works' और 'office' vowel sound से शुरू होता है इसलिए 'an'",
-        "❌ The dog food eats. — ✅ The dog eats food. — कारण: Verb Object से पहले आती है",
-        "❌ She teaching English. — ✅ She teaches English. — कारण: Simple present में 'teaching' नहीं, 'teaches' use होता है",
-        "❌ I to school go every day. — ✅ I go to school every day. — कारण: 'to school' verb के बाद आता है, पहले नहीं",
-        "❌ We are play cricket. — ✅ We play cricket. — कारण: Simple present में 'are' + verb नहीं, सीधे base verb",
-        "❌ Ravi a car drives. — ✅ Ravi drives a car. — कारण: Object verb के बाद आता है"
+        {
+          "wrong": "I to school go.",
+          "correct": "I go to school.",
+          "explanation": "English में verb हमेशा subject के बाद और object से पहले आती है"
+        },
+        {
+          "wrong": "He cricket plays.",
+          "correct": "He plays cricket.",
+          "explanation": "Hindi word order English में नहीं चलता"
+        },
+        {
+          "wrong": "She beautiful is.",
+          "correct": "She is beautiful.",
+          "explanation": "Verb (is/am/are) subject के बाद immediately आती है"
+        },
+        {
+          "wrong": "They hard work.",
+          "correct": "They work hard.",
+          "explanation": "Adverb (hard) verb के बाद आता है, verb से पहले नहीं"
+        }
       ],
-      "memoryTrick": "याद रखो SVO = 'Subject पहले Villain (Verb) बीच में Object आखिर में' — जैसे एक फिल्म में Hero (Subject) पहले आता है, Action (Verb) होता है, फिर Result (Object)!",
+      "memoryTrick": "🎯 याद करो: S-V-O = 'Sentence Very Organized' है English में! जैसे Traffic light में Red-Yellow-Green order होती है, वैसे English में S-V-O order होती है।",
       "speakingTips": [
-        "Verb पर stress दो — 'I EAT rice' सुनने में ज़्यादा natural लगता है बजाय 'I eat RICE'",
-        "Subject और Verb को एक साथ practice करो pairs में: I eat, She eats, He plays, They play",
-        "बोलते समय Subject skip मत करो — Hindi में 'जाता हूँ' चलता है पर English में 'I go' ज़रूरी है",
-        "Object के बाद pause लो ताकि listener समझ सके sentence कहाँ खत्म हुई",
-        "Short sentences से शुरू करो: 'I eat.' → 'I eat rice.' → 'I eat rice daily.' — धीरे-धीरे बढ़ाओ",
-        "रोज़ 5 नए SVO sentences बनाओ अपनी life के बारे में — जो देखो उसका sentence बनाओ"
+        "हर Hindi sentence को पहले Subject identify करो",
+        "फिर Verb को middle में रखो",
+        "Object को last में रखो",
+        "Practice: रोज़ 10 Hindi sentences लो और SVO formula apply करो"
       ],
-      "vocabulary": [
-        { "word": "subject", "hindi": "कर्ता (काम करने वाला)", "type": "noun" },
-        { "word": "verb", "hindi": "क्रिया (काम)", "type": "noun" },
-        { "word": "object", "hindi": "कर्म (जिस पर काम हो)", "type": "noun" },
-        { "word": "sentence", "hindi": "वाक्य", "type": "noun" },
-        { "word": "structure", "hindi": "ढाँचा/संरचना", "type": "noun" },
-        { "word": "formula", "hindi": "सूत्र/फॉर्मूला", "type": "noun" },
-        { "word": "singular", "hindi": "एकवचन", "type": "adjective" },
-        { "word": "plural", "hindi": "बहुवचन", "type": "adjective" },
-        { "word": "base form", "hindi": "मूल रूप (क्रिया का)", "type": "noun" },
-        { "word": "agreement", "hindi": "मेल/सहमति", "type": "noun" },
-        { "word": "order", "hindi": "क्रम/ترتيب", "type": "noun" },
-        { "word": "position", "hindi": "स्थान/जगह", "type": "noun" },
-        { "word": "daily", "hindi": "रोज़ाना", "type": "adverb" }
+      "practiceExercises": [
+        {
+          "hindi": "तुम office जाते हो।",
+          "answer": "You go to office."
+        },
+        {
+          "hindi": "वो mobile use करती है।",
+          "answer": "She uses mobile."
+        },
+        {
+          "hindi": "हम pizza खाते हैं।",
+          "answer": "We eat pizza."
+        },
+        {
+          "hindi": "मैं English पढ़ता हूँ।",
+          "answer": "I read English."
+        },
+        {
+          "hindi": "वो gym जाता है।",
+          "answer": "He goes to gym."
+        }
       ]
     },
     {
       "id": "simple-present-positive",
-      "title": "Simple Present Tense — Positive Sentences",
-      "hindiTitle": "सामान्य वर्तमान काल — सकारात्मक वाक्य",
-      "explanation": "Simple Present Tense का उपयोग daily routines, habits, facts, और general truths के लिए होता है। Structure: Subject + Verb (s/es for he/she/it) + Object.",
-      "formula": "I/You/We/They + Base Verb | He/She/It + Verb+s/es",
-      "verbRules": [
-        { "rule": "Most verbs: add 's'", "examples": ["work → works", "play → plays", "eat → eats", "read → reads"] },
-        { "rule": "Verbs ending in -ch, -sh, -s, -x, -z, -o: add 'es'", "examples": ["teach → teaches", "watch → watches", "go → goes", "fix → fixes"] },
-        { "rule": "Verbs ending in consonant+y: change y to i, add 'es'", "examples": ["study → studies", "carry → carries", "fly → flies"] },
-        { "rule": "Verbs ending in vowel+y: add 's'", "examples": ["play → plays", "say → says", "buy → buys"] }
-      ],
+      "title": "Section 2: Simple Present Tense — Positive Sentences",
+      "hindiTitle": "Section 2: Simple Present Tense — सकारात्मक वाक्य",
+      "explanation": "Simple Present Tense का use हम तब करते हैं जब:\n1. कोई काम routinely होता हो (I eat lunch every day.)\n2. कोई fact सच हो (Sun rises in the east.)\n3. कोई feeling या state हो (I love my family.)\n4. General truth हो (Water boils at 100°C.)\n\nयह tense English का सबसे basic और सबसे ज़्यादा use होने वाला tense है। Daily life में, office में, interviews में — हर जगह यही use होता है।",
+      "formula": "I/We/You/They + V1 (base verb)\nHe/She/It + V1 + s/es",
+      "hindiFormula": "I/We/You/They + verb का मूल रूप\nHe/She/It + verb + s/es",
+      "detailedExplanation": "Simple Present Rules in Detail:\n\n📌 Rule 1: I, We, You, They के साथ base verb\nExamples:\n• I work in an office.\n• We study English.\n• You speak Hindi.\n• They play football.\n\n📌 Rule 2: He, She, It के साथ verb + s/es\nExamples:\n• He works in Mumbai.\n• She studies medicine.\n• It rains in July.\n\n📌 Rule 3: कब लगाएं 's' और कब 'es'?\n• Normal verbs: + s → work→works, eat→eats, sleep→sleeps\n• Verbs ending in -sh, -ch, -x, -z, -o, -ss: + es → wash→washes, teach→teaches, go→goes, mix→mixes\n• Verbs ending in consonant + y: y→ies → study→studies, carry→carries, fly→flies\n• Verbs ending in vowel + y: + s → play→plays, say→says\n\n📌 Special: 'have' → He has (not 'haves')\n📌 Special: 'be' → I am, You/We/They are, He/She/It is",
+      "whyImportant": "Simple Present Tense इसलिए critical है क्योंकि यह English का सबसे commonly used tense है। 60% से ज़्यादा English sentences इसी tense में होते हैं। बिना इसके आप daily conversation नहीं कर सकते।",
       "examples": [
-        { "english": "I go to school every day.", "hindi": "मैं हर दिन स्कूल जाता हूँ।" },
-        { "english": "She works in a hospital.", "hindi": "वह एक अस्पताल में काम करती है।" },
-        { "english": "He studies engineering.", "hindi": "वह इंजीनियरिंग पढ़ता है।" },
-        { "english": "They live in Delhi.", "hindi": "वे दिल्ली में रहते हैं।" },
-        { "english": "We go to the gym every morning.", "hindi": "हम हर सुबह जिम जाते हैं।" },
-        { "english": "My sister teaches in a school.", "hindi": "मेरी बहन एक स्कूल में पढ़ाती है।" },
-        { "english": "The sun rises in the east.", "hindi": "सूरज पूर्व में उगता है।" },
-        { "english": "She watches news every morning.", "hindi": "वह हर सुबह खबरें देखती है।" },
-        { "english": "He carries his bag to office.", "hindi": "वह अपना बैग ऑफिस ले जाता है।" },
-        { "english": "I take medicine twice a day.", "hindi": "मैं दिन में दो बार दवा लेता हूँ।" },
-        { "english": "The train arrives at 8 AM.", "hindi": "ट्रेन सुबह 8 बजे पहुँचती है।" },
-        { "english": "My boss holds a meeting every Friday.", "hindi": "मेरे बॉस हर शुक्रवार को मीटिंग करते हैं।" },
-        { "english": "She cooks dinner for her family.", "hindi": "वह अपने परिवार के लिए रात का खाना बनाती है।" },
-        { "english": "I write in my diary every night.", "hindi": "मैं हर रात अपनी डायरी में लिखता हूँ।" },
-        { "english": "He wakes up at 5 AM daily.", "hindi": "वह रोज़ सुबह 5 बजे उठता है।" },
-        { "english": "Water boils at 100 degrees Celsius.", "hindi": "पानी 100 डिग्री सेल्सियस पर उबलता है।" },
-        { "english": "They play football on Sundays.", "hindi": "वे रविवार को फुटबॉल खेलते हैं।" },
-        { "english": "She buys groceries from the local market.", "hindi": "वह स्थानीय बाजार से किराना सामान खरीदती है।" },
-        { "english": "I speak three languages.", "hindi": "मैं तीन भाषाएँ बोलता हूँ।" },
-        { "english": "The manager reviews the report daily.", "hindi": "मैनेजर रोज़ रिपोर्ट की समीक्षा करता है।" },
-        { "english": "My dog loves to run in the park.", "hindi": "मेरा कुत्ता पार्क में दौड़ना पसंद करता है।" },
-        { "english": "She studies for two hours every day.", "hindi": "वह हर दिन दो घंटे पढ़ती है।" },
-        { "english": "He earns good money.", "hindi": "वह अच्छा पैसा कमाता है।" },
-        { "english": "They live near the railway station.", "hindi": "वे रेलवे स्टेशन के पास रहते हैं।" },
-        { "english": "I exercise in the morning.", "hindi": "मैं सुबह व्यायाम करता हूँ।" },
-        { "english": "She reads Hindi newspapers.", "hindi": "वह हिंदी अखबार पढ़ती है।" },
-        { "english": "He drives his car to work.", "hindi": "वह काम पर अपनी गाड़ी चलाकर जाता है।" },
-        { "english": "We celebrate festivals together.", "hindi": "हम मिलकर त्योहार मनाते हैं।" },
-        { "english": "The Earth revolves around the Sun.", "hindi": "पृथ्वी सूर्य के चारों ओर घूमती है।" },
-        { "english": "My company provides free lunch.", "hindi": "मेरी कंपनी मुफ्त दोपहर का खाना देती है।" }
+        {
+          "hindi": "मैं Mumbai में रहता हूँ।",
+          "english": "I live in Mumbai.",
+          "rule": "I + base verb"
+        },
+        {
+          "hindi": "वो हर रोज़ gym जाता है।",
+          "english": "He goes to the gym every day.",
+          "rule": "He + goes (go+es)"
+        },
+        {
+          "hindi": "मेरी बहन doctor है।",
+          "english": "My sister is a doctor.",
+          "rule": "She + is"
+        },
+        {
+          "hindi": "हम English सीखते हैं।",
+          "english": "We learn English.",
+          "rule": "We + base verb"
+        },
+        {
+          "hindi": "वो बच्चों को पढ़ाती है।",
+          "english": "She teaches children.",
+          "rule": "She + teaches (teach+es)"
+        },
+        {
+          "hindi": "मेरे parents office में काम करते हैं।",
+          "english": "My parents work in an office.",
+          "rule": "They + base verb"
+        },
+        {
+          "hindi": "यह train Delhi जाती है।",
+          "english": "This train goes to Delhi.",
+          "rule": "It + goes"
+        },
+        {
+          "hindi": "तुम बहुत अच्छा गाते हो।",
+          "english": "You sing very well.",
+          "rule": "You + base verb"
+        },
+        {
+          "hindi": "सूरज पूर्व में उगता है।",
+          "english": "The sun rises in the east.",
+          "rule": "It + rises (rise+s) — General truth"
+        },
+        {
+          "hindi": "वो हर Sunday temple जाती है।",
+          "english": "She visits the temple every Sunday.",
+          "rule": "She + visits (visit+s)"
+        },
+        {
+          "hindi": "कुत्ते भौंकते हैं।",
+          "english": "Dogs bark.",
+          "rule": "They (plural) + base verb"
+        },
+        {
+          "hindi": "मेरा भाई cricket खेलता है।",
+          "english": "My brother plays cricket.",
+          "rule": "He + plays (play+s — vowel+y)"
+        },
+        {
+          "hindi": "वो interview के लिए prepare करती है।",
+          "english": "She prepares for the interview.",
+          "rule": "She + prepares"
+        },
+        {
+          "hindi": "हम रोज़ meeting attend करते हैं।",
+          "english": "We attend the meeting daily.",
+          "rule": "We + base verb"
+        },
+        {
+          "hindi": "यह company अच्छा product बनाती है।",
+          "english": "This company makes good products.",
+          "rule": "It + makes"
+        }
       ],
       "keyRules": [
-        "Simple Present Tense daily habits, routines और general facts के लिए use होता है",
-        "I/You/We/They + verb (base form): I work, You play, We eat, They run",
-        "He/She/It + verb+s: He works, She plays, It runs",
-        "He/She/It + verb ending -ch/-sh/-s/-x/-o + es: teaches, watches, goes, fixes",
-        "Consonant+y वाली verb में y→i+es: study→studies, carry→carries, try→tries",
-        "Vowel+y वाली verb में सिर्फ 's': play→plays, say→says, buy→buys",
-        "Have का He/She/It form है 'has' (irregular): He has, She has",
-        "Do का He/She/It form है 'does' (irregular): She does her homework",
-        "Time expressions जैसे 'every day', 'always', 'usually' Simple Present के साथ आते हैं",
-        "General truths और scientific facts के लिए Simple Present: The sun rises in the east",
-        "Scheduled future events के लिए भी Simple Present: The train leaves at 9 AM",
-        "Frequency adverbs (always, usually, often, sometimes, rarely, never) verb से पहले आते हैं: She always wakes up early"
+        "He/She/It के साथ हमेशा verb में s/es लगाओ",
+        "I/We/You/They के साथ base verb use करो",
+        "Frequency adverbs: always, usually, often, sometimes, rarely, never",
+        "Time expressions: every day, once a week, on Mondays",
+        "Stative verbs (know, love, have, understand) Simple Present में ही use होते हैं, not Continuous"
       ],
       "commonErrors": [
-        "❌ He work in a bank. — ✅ He works in a bank. — कारण: He/She/It के साथ verb में 's' ज़रूरी है",
-        "❌ She studys every night. — ✅ She studies every night. — कारण: Consonant+y → y हटाकर 'ies' लगाओ",
-        "❌ He don't eat meat. — ✅ He doesn't eat meat. — कारण: He/She/It के साथ 'doesn't' use होता है, 'don't' नहीं",
-        "❌ I am go to office daily. — ✅ I go to office daily. — कारण: Simple Present में 'am/is/are' + base verb नहीं लगाते",
-        "❌ She is knowing him. — ✅ She knows him. — कारण: Mental verbs (know, like, want) Simple Present में आते हैं, continuous में नहीं",
-        "❌ He gos to market. — ✅ He goes to market. — कारण: 'go' ending -o है, इसलिए 'goes' (not 'gos')",
-        "❌ The sun rised in the east. — ✅ The sun rises in the east. — कारण: General truth के लिए Simple Present, past tense नहीं",
-        "❌ She teach English. — ✅ She teaches English. — कारण: She के साथ 'teach' नहीं, 'teaches' लगाते हैं",
-        "❌ I am liking cricket. — ✅ I like cricket. — कारण: 'Like' stative verb है, continuous form में use नहीं होती",
-        "❌ He carrys a bag. — ✅ He carries a bag. — कारण: Consonant+y → y हटाकर 'ies': carry→carries",
-        "❌ Water are boiling at 100 degrees. — ✅ Water boils at 100 degrees. — कारण: Scientific fact के लिए Simple Present + water singular है",
-        "❌ They works in the same office. — ✅ They work in the same office. — कारण: They plural है, base form use होगी"
+        {
+          "wrong": "He go to school.",
+          "correct": "He goes to school.",
+          "explanation": "He/She/It के साथ 's/es' लगाना mandatory है"
+        },
+        {
+          "wrong": "She don't understand.",
+          "correct": "She doesn't understand.",
+          "explanation": "She/He/It के साथ 'doesn't' use होता है, 'don't' नहीं"
+        },
+        {
+          "wrong": "I am knowing the answer.",
+          "correct": "I know the answer.",
+          "explanation": "'know' stative verb है — Simple Present में use होती है, Continuous में नहीं"
+        },
+        {
+          "wrong": "He have a car.",
+          "correct": "He has a car.",
+          "explanation": "'have' का He/She/It form 'has' है"
+        },
+        {
+          "wrong": "We are play cricket.",
+          "correct": "We play cricket.",
+          "explanation": "Simple Present में 'are' + V1 नहीं लगाते"
+        }
       ],
-      "memoryTrick": "'He/She/It को S चाहिए — बाकियों को नहीं!' — बस याद रखो जब subject के नाम के साथ 'वह' (He/She/It) हो तो verb को 'S की gift' दो!",
+      "memoryTrick": "🎯 He/She/It → Add 'S' — याद करो: 'He/She/It = S लगाओ, warna teacher चिल्लाओ!' Rhyme: When He/She/It — S you must commit!",
       "speakingTips": [
-        "Verb+s को clearly pronounce करो — 'works' में 's' sound सुनाई देनी चाहिए, 'work' और 'works' का फर्क practice करो",
-        "'Studies', 'carries' जैसे words में 'iz' sound आता है — 'stud-eez', 'car-eez' — यह naturally ज़्यादा fluent लगता है",
-        "Frequency adverbs (always, usually, often) को verb से पहले बोलो: 'I always eat' — pause मत लो",
-        "Sentence की शुरुआत में time phrase बोलने से confidence आती है: 'Every morning, I exercise.' — यह pattern बहुत common है",
-        "Routine sentences practice करो mirror के सामने — 'I wake up at 7. I brush my teeth. I have tea.' — यह fluency बनाता है",
-        "Third person 's' भूल जाना सबसे common mistake है — बोलते समय consciously check करो: subject He/She/It है? तो verb में 's' लगाओ"
-      ],
-      "vocabulary": [
-        { "word": "routine", "hindi": "दिनचर्या", "type": "noun" },
-        { "word": "habit", "hindi": "आदत", "type": "noun" },
-        { "word": "daily", "hindi": "रोज़ाना", "type": "adverb" },
-        { "word": "fact", "hindi": "तथ्य", "type": "noun" },
-        { "word": "schedule", "hindi": "कार्यक्रम/समय-सारणी", "type": "noun" },
-        { "word": "always", "hindi": "हमेशा", "type": "adverb" },
-        { "word": "usually", "hindi": "आमतौर पर", "type": "adverb" },
-        { "word": "often", "hindi": "अक्सर", "type": "adverb" },
-        { "word": "sometimes", "hindi": "कभी-कभी", "type": "adverb" },
-        { "word": "rarely", "hindi": "बहुत कम", "type": "adverb" },
-        { "word": "never", "hindi": "कभी नहीं", "type": "adverb" },
-        { "word": "frequency", "hindi": "बारंबारता", "type": "noun" },
-        { "word": "irregular", "hindi": "अनियमित", "type": "adjective" },
-        { "word": "tense", "hindi": "काल", "type": "noun" }
+        "Verbs practice करो: I eat, He eats; I go, She goes; We study, He studies",
+        "Roz mirror के सामने खड़े होकर 10 Simple Present sentences बोलो",
+        "News देखते वक्त anchor की sentences notice करो — mostly Simple Present होंगी",
+        "Daily routine को English में describe करने की practice करो"
       ]
     },
     {
       "id": "simple-present-negative",
-      "title": "Simple Present Tense — Negative Sentences",
-      "hindiTitle": "सामान्य वर्तमान काल — नकारात्मक वाक्य",
-      "explanation": "Negative sentences बनाने के लिए 'do not' (don't) या 'does not' (doesn't) का use करते हैं। I/You/We/They के साथ 'do not', He/She/It के साथ 'does not'. ध्यान रखो: 'does not' के बाद verb की base form आती है (कोई 's' नहीं)।",
-      "formula": "I/You/We/They + do not + Base Verb | He/She/It + does not + Base Verb",
-      "commonMistake": "❌ She does not eats rice. ✅ She does not eat rice. (does not के बाद 's' नहीं लगाते)",
+      "title": "Section 3: Simple Present Tense — Negative Sentences",
+      "hindiTitle": "Section 3: Simple Present Tense — नकारात्मक वाक्य",
+      "explanation": "Negative sentences बनाने के लिए 'do not (don't)' या 'does not (doesn't)' use होता है।\n\nRule:\n• I/We/You/They → do not / don't + base verb\n• He/She/It → does not / doesn't + base verb\n\nImportant: जब 'does not' use करते हैं, तो main verb में से 's/es' हटा देते हैं।\nकारण: 'does' already He/She/It को indicate कर देता है।",
+      "formula": "I/We/You/They + don't + V1\nHe/She/It + doesn't + V1",
+      "detailedExplanation": "Negative Sentences Deep Dive:\n\n📌 Step-by-Step Process:\n1. पहले Positive sentence बनाओ: He works here.\n2. 'does not' add करो: He does not work here.\n3. Main verb से 's/es' हटा दो: works → work\n\nWhy? क्योंकि 'does' already He/She/It के लिए काम कर रहा है।\n\nShort forms (Contractions):\n• do not → don't (more natural in speaking)\n• does not → doesn't (more natural in speaking)\n\nFormal writing में full form use करो।\nInformal speaking में contraction use करो।\n\n📌 Common Negative Sentences in Daily Life:\n• I don't eat meat. (मैं मांस नहीं खाता।)\n• She doesn't like spicy food. (उसे तीखा खाना पसंद नहीं।)\n• They don't understand English well. (वो English अच्छे से नहीं समझते।)\n• He doesn't go to office on Sundays. (वो Sunday को office नहीं जाता।)\n• We don't watch television. (हम TV नहीं देखते।)",
       "examples": [
-        { "english": "I do not eat non-vegetarian food.", "hindi": "मैं मांसाहारी खाना नहीं खाता।" },
-        { "english": "She does not drink coffee.", "hindi": "वह कॉफी नहीं पीती।" },
-        { "english": "He does not speak English fluently.", "hindi": "वह धाराप्रवाह अंग्रेजी नहीं बोलता।" },
-        { "english": "They do not live in this city.", "hindi": "वे इस शहर में नहीं रहते।" },
-        { "english": "We do not go to the office on Sundays.", "hindi": "हम रविवार को ऑफिस नहीं जाते।" },
-        { "english": "My brother does not like vegetables.", "hindi": "मेरे भाई को सब्जियाँ पसंद नहीं हैं।" },
-        { "english": "I do not understand this problem.", "hindi": "मैं यह समस्या नहीं समझता।" },
-        { "english": "She does not know the answer.", "hindi": "उसे जवाब नहीं पता।" },
-        { "english": "He does not have a car.", "hindi": "उसके पास कार नहीं है।" },
-        { "english": "They do not speak Hindi.", "hindi": "वे हिंदी नहीं बोलते।" },
-        { "english": "I do not remember his name.", "hindi": "मुझे उसका नाम याद नहीं है।" },
-        { "english": "She does not use social media.", "hindi": "वह सोशल मीडिया नहीं चलाती।" },
-        { "english": "The manager does not allow late entry.", "hindi": "मैनेजर देर से आने की अनुमति नहीं देता।" },
-        { "english": "We do not waste time.", "hindi": "हम समय बर्बाद नहीं करते।" },
-        { "english": "He does not trust easily.", "hindi": "वह आसानी से भरोसा नहीं करता।" },
-        { "english": "I do not have time for this.", "hindi": "मेरे पास इसके लिए समय नहीं है।" },
-        { "english": "She does not wake up late.", "hindi": "वह देर से नहीं उठती।" },
-        { "english": "They do not play video games.", "hindi": "वे वीडियो गेम नहीं खेलते।" },
-        { "english": "My company does not pay overtime.", "hindi": "मेरी कंपनी ओवरटाइम का भुगतान नहीं करती।" },
-        { "english": "I do not like to argue.", "hindi": "मुझे बहस करना पसंद नहीं है।" },
-        { "english": "He does not follow instructions.", "hindi": "वह निर्देशों का पालन नहीं करता।" },
-        { "english": "We do not celebrate birthdays.", "hindi": "हम जन्मदिन नहीं मनाते।" },
-        { "english": "She does not read fiction books.", "hindi": "वह कल्पना किताबें नहीं पढ़ती।" },
-        { "english": "The children do not sleep early.", "hindi": "बच्चे जल्दी नहीं सोते।" },
-        { "english": "I do not smoke.", "hindi": "मैं धूम्रपान नहीं करता।" },
-        { "english": "He does not earn enough.", "hindi": "वह पर्याप्त नहीं कमाता।" },
-        { "english": "They do not accept cash payments.", "hindi": "वे नकद भुगतान स्वीकार नहीं करते।" },
-        { "english": "She does not complain about anything.", "hindi": "वह किसी चीज़ के बारे में शिकायत नहीं करती।" },
-        { "english": "I do not watch horror movies.", "hindi": "मैं डरावनी फिल्में नहीं देखता।" },
-        { "english": "We do not disturb others while working.", "hindi": "हम काम करते समय दूसरों को परेशान नहीं करते।" }
+        {
+          "hindi": "मैं coffee नहीं पीता।",
+          "english": "I don't drink coffee.",
+          "rule": "I + don't + base verb"
+        },
+        {
+          "hindi": "वो झूठ नहीं बोलता।",
+          "english": "He doesn't tell lies.",
+          "rule": "He + doesn't + base verb (tell, not tells)"
+        },
+        {
+          "hindi": "हम late नहीं आते।",
+          "english": "We don't come late.",
+          "rule": "We + don't + base verb"
+        },
+        {
+          "hindi": "वो TV नहीं देखती।",
+          "english": "She doesn't watch TV.",
+          "rule": "She + doesn't + watch (not watches)"
+        },
+        {
+          "hindi": "मेरे बच्चे junk food नहीं खाते।",
+          "english": "My children don't eat junk food.",
+          "rule": "They + don't + base verb"
+        },
+        {
+          "hindi": "यह phone अच्छे से काम नहीं करता।",
+          "english": "This phone doesn't work well.",
+          "rule": "It + doesn't + work (not works)"
+        },
+        {
+          "hindi": "मैं smoking नहीं करता।",
+          "english": "I don't smoke.",
+          "rule": "I + don't + base verb"
+        },
+        {
+          "hindi": "वो Sunday को gym नहीं जाता।",
+          "english": "He doesn't go to the gym on Sundays.",
+          "rule": "He + doesn't + go (not goes)"
+        },
+        {
+          "hindi": "हम इस बात से agree नहीं करते।",
+          "english": "We don't agree with this.",
+          "rule": "We + don't + base verb"
+        },
+        {
+          "hindi": "मेरी sister मुझे समझ नहीं आती।",
+          "english": "My sister doesn't understand me.",
+          "rule": "She + doesn't + understand"
+        }
       ],
       "keyRules": [
-        "I/You/We/They + do not + base verb: I do not eat, They do not work",
-        "He/She/It + does not + base verb: He does not eat, She does not work",
-        "Does not के बाद verb में 's' नहीं लगाते — She does not eats ❌ → She does not eat ✅",
-        "Short form: do not = don't, does not = doesn't — बोलचाल में short form ज़्यादा natural लगती है",
-        "Negative sentence में 'not' को verb से पहले नहीं लगाते — 'She not eats' ❌",
-        "Negative sentence में verb की base form आती है चाहे subject कोई भी हो",
-        "Double negative (not + never) गलत है: I do not never smoke ❌ → I never smoke ✅",
-        "'No' से sentence start करना informal है — formal में 'do not' use करो",
-        "Never, rarely जैसे adverbs negative का काम करते हैं — इनके साथ 'do not' की ज़रूरत नहीं",
-        "Auxiliary verb 'do/does' negative में भी helping verb की तरह काम करता है",
-        "He/She/It के साथ 'don't' गलत है — 'He don't know' ❌ → 'He doesn't know' ✅",
-        "Negative sentence में time expressions sentence के अंत में आती हैं: I do not wake up late on weekdays."
+        "He/She/It → doesn't + base verb (verb से s/es हटाओ)",
+        "I/We/You/They → don't + base verb",
+        "Contraction: don't = do not, doesn't = does not",
+        "Formal writing में full form (do not / does not) use करो",
+        "'Never' use करो जब complete negation हो: I never smoke."
       ],
       "commonErrors": [
-        "❌ She does not eats rice. — ✅ She does not eat rice. — कारण: does not के बाद हमेशा base form आती है, 's' नहीं",
-        "❌ He don't like mangoes. — ✅ He doesn't like mangoes. — कारण: He के साथ 'don't' नहीं, 'doesn't' use होता है",
-        "❌ I not eat meat. — ✅ I do not eat meat. — कारण: English में 'not' अकेला नहीं आता, 'do not' ज़रूरी है",
-        "❌ She is not eats breakfast. — ✅ She does not eat breakfast. — कारण: Simple Present negative में 'is not' नहीं, 'does not' use होता है",
-        "❌ They does not play chess. — ✅ They do not play chess. — कारण: They के साथ 'does not' नहीं, 'do not' use होता है",
-        "❌ He does not knows the way. — ✅ He does not know the way. — कारण: does not के बाद base verb आती है, 'knows' नहीं",
-        "❌ I do not to go there. — ✅ I do not go there. — कारण: do not के बाद 'to' नहीं लगाते, सीधे base verb",
-        "❌ We do not went yesterday. — ✅ We did not go yesterday. — कारण: Past के लिए 'did not' use होता है, 'do not' नहीं",
-        "❌ She not drink tea. — ✅ She does not drink tea. — कारण: 'does not' के बिना negative sentence अधूरा है",
-        "❌ He doesn't goes to gym. — ✅ He doesn't go to gym. — कारण: doesn't के बाद base form, 'goes' नहीं",
-        "❌ I do not no understand. — ✅ I do not understand. — कारण: Double negative गलत है — 'not' और 'no' एक साथ नहीं आते",
-        "❌ My father does not comes home early. — ✅ My father does not come home early. — कारण: does not के बाद base verb 'come', 'comes' नहीं"
+        {
+          "wrong": "He don't go to school.",
+          "correct": "He doesn't go to school.",
+          "explanation": "He/She/It के साथ 'don't' नहीं, 'doesn't' use होता है"
+        },
+        {
+          "wrong": "She doesn't goes to office.",
+          "correct": "She doesn't go to office.",
+          "explanation": "Doesn't के बाद base verb use करो — 'goes' नहीं, 'go' use होगा"
+        },
+        {
+          "wrong": "I not like this.",
+          "correct": "I don't like this.",
+          "explanation": "Negative के लिए सिर्फ 'not' काफ़ी नहीं — 'do not' या 'don't' use करना ज़रूरी है"
+        },
+        {
+          "wrong": "He doesn't wants to come.",
+          "correct": "He doesn't want to come.",
+          "explanation": "Doesn't के बाद ALWAYS base verb (want, not wants)"
+        }
       ],
-      "memoryTrick": "'Does not = Double S हटाओ' — He works → He does NOT work (verb से 's' चली गई क्योंकि 's' does में shift हो गई!) यह याद रखो!",
+      "memoryTrick": "🎯 याद रखो: He/She/It = DOES NOT, बाकी सब = DO NOT. 'Does लेगा S, Does देगा S लेकिन verb को छोड़ेगा S' → Does not + verb without S!",
       "speakingTips": [
-        "Spoken English में 'don't' और 'doesn't' use करो — 'do not' और 'does not' ज़्यादा formal और slow लगता है",
-        "'Doesn't' को 'duz-nt' बोलो, 'does-not' नहीं — natural speed पर यही sound आती है",
-        "Stress 'don't' और 'doesn't' पर डालो जब आप clearly मना कर रहे हों: 'I DON'T eat meat' — यह strong refusal दिखाता है",
-        "Negative sentences में verb को clearly pronounce करो ताकि listener समझे 'क्या नहीं होता': 'She doesn't DRINK coffee' — drink को highlight करो",
-        "Informal बातचीत में 'I don't know' और 'She doesn't care' बहुत common phrases हैं — इन्हें fluently practice करो",
-        "बोलते समय 'He/She does not' के बाद base verb automatically आनी चाहिए — यह habit बनाओ: 'He doesn't...' सुनते ही अगला word base form होगी"
-      ],
-      "vocabulary": [
-        { "word": "negative", "hindi": "नकारात्मक", "type": "adjective" },
-        { "word": "deny", "hindi": "इनकार करना", "type": "verb" },
-        { "word": "refuse", "hindi": "मना करना", "type": "verb" },
-        { "word": "avoid", "hindi": "बचना", "type": "verb" },
-        { "word": "hardly", "hindi": "मुश्किल से", "type": "adverb" },
-        { "word": "never", "hindi": "कभी नहीं", "type": "adverb" },
-        { "word": "rarely", "hindi": "बहुत कम", "type": "adverb" },
-        { "word": "smoke", "hindi": "धूम्रपान करना", "type": "verb" },
-        { "word": "complain", "hindi": "शिकायत करना", "type": "verb" },
-        { "word": "disturb", "hindi": "परेशान करना", "type": "verb" },
-        { "word": "waste", "hindi": "बर्बाद करना", "type": "verb" },
-        { "word": "trust", "hindi": "भरोसा करना", "type": "verb" },
-        { "word": "accept", "hindi": "स्वीकार करना", "type": "verb" }
+        "Roz 5 negative sentences बनाओ अपनी daily life के बारे में",
+        "Practice: I don't... because...; He doesn't... because...",
+        "Contractions use करो speaking में: don't, doesn't (not do not, does not)",
+        "Mirror practice: खुद के बारे में 10 negative sentences बोलो"
       ]
     },
     {
-      "id": "simple-present-questions",
-      "title": "Simple Present Tense — Questions",
-      "hindiTitle": "सामान्य वर्तमान काल — प्रश्नवाचक वाक्य",
-      "explanation": "Yes/No questions बनाने के लिए 'Do' या 'Does' sentence की शुरुआत में आते हैं। WH-questions (What, Where, When, Who, Why, How) के लिए WH-word पहले, फिर do/does, फिर subject, फिर verb।",
-      "formula": "Do/Does + Subject + Base Verb + ? | WH-word + do/does + Subject + Base Verb + ?",
+      "id": "simple-present-question",
+      "title": "Section 4: Simple Present Tense — Question Formation",
+      "hindiTitle": "Section 4: Simple Present Tense — प्रश्नवाचक वाक्य",
+      "explanation": "Questions बनाने के दो तरीके हैं Simple Present में:\n\n1. Yes/No Questions: Do/Does से शुरू होते हैं — जवाब Yes या No में आता है\n2. WH Questions: What/Where/When/Who/Why/How से शुरू होते हैं — detailed जवाब आता है\n\nQuestion बनाने के rules जानना बहुत ज़रूरी है क्योंकि बिना question करने की ability के आप conversation को आगे नहीं बढ़ा सकते।",
+      "formula": "Yes/No: Do/Does + Subject + V1 + Object?\nWH: WH word + Do/Does + Subject + V1 + Object?",
+      "detailedExplanation": "Question Formation — Complete Guide:\n\n📌 Type 1: Yes/No Questions\n• Do I/we/you/they + V1?\n• Does he/she/it + V1?\n\nProcess:\n1. Positive: He works in Delhi.\n2. Question: Does he work in Delhi?\n(Subject-Verb order पलट जाती है, 'does' sentence में आ जाता है)\n\n📌 Type 2: WH Questions\nWH word पहले आता है, बाकी Yes/No question की तरह\n\nWH Words और उनका use:\n• What — क्या (thing/action के लिए): What do you eat?\n• Where — कहाँ (place के लिए): Where does he live?\n• When — कब (time के लिए): When do they arrive?\n• Who — कौन (person के लिए): Who teaches you English?\n• Why — क्यों (reason के लिए): Why does she cry?\n• How — कैसे (manner के लिए): How do you travel?\n• Which — कौनसा (choice के लिए): Which book do you prefer?\n• Whose — किसका (possession के लिए): Whose pen is this?\n• Whom — किसे (object के लिए): Whom do you love?\n\n📌 Special Rule: 'Who' subject position में\nWhen 'who' is the subject, no auxiliary verb needed:\n• Who teaches you? (Not: Who does teach you?)\n• Who lives here? (Not: Who does live here?)",
       "examples": [
-        { "english": "Do you speak English?", "hindi": "क्या आप अंग्रेजी बोलते हैं?" },
-        { "english": "Does she work here?", "hindi": "क्या वह यहाँ काम करती है?" },
-        { "english": "Do they live in Mumbai?", "hindi": "क्या वे मुंबई में रहते हैं?" },
-        { "english": "Does he know you?", "hindi": "क्या वह तुम्हें जानता है?" },
-        { "english": "Do we have a meeting today?", "hindi": "क्या आज हमारी मीटिंग है?" },
-        { "english": "Where do you work?", "hindi": "आप कहाँ काम करते हैं?" },
-        { "english": "What does she do?", "hindi": "वह क्या करती है?" },
-        { "english": "When does the shop open?", "hindi": "दुकान कब खुलती है?" },
-        { "english": "Who does the cooking in your house?", "hindi": "आपके घर में खाना कौन बनाता है?" },
-        { "english": "Why do you study English?", "hindi": "आप अंग्रेजी क्यों पढ़ते हैं?" },
-        { "english": "How does this machine work?", "hindi": "यह मशीन कैसे काम करती है?" },
-        { "english": "Does your company provide training?", "hindi": "क्या आपकी कंपनी training देती है?" },
-        { "english": "Do you have any questions?", "hindi": "क्या आपके कोई सवाल हैं?" },
-        { "english": "How much does it cost?", "hindi": "इसकी कीमत कितनी है?" },
-        { "english": "Where does he stay?", "hindi": "वह कहाँ रहता है?" },
-        { "english": "Do they accept online payments?", "hindi": "क्या वे ऑनलाइन भुगतान स्वीकार करते हैं?" },
-        { "english": "Does she teach at this college?", "hindi": "क्या वह इस कॉलेज में पढ़ाती है?" },
-        { "english": "What do you do in your free time?", "hindi": "आप अपने खाली समय में क्या करते हैं?" },
-        { "english": "How often do you exercise?", "hindi": "आप कितनी बार व्यायाम करते हैं?" },
-        { "english": "Does this bus go to the station?", "hindi": "क्या यह बस स्टेशन जाती है?" },
-        { "english": "Do you understand what I am saying?", "hindi": "क्या आप समझते हैं मैं क्या कह रहा हूँ?" },
-        { "english": "Does he need any help?", "hindi": "क्या उसे किसी मदद की ज़रूरत है?" },
-        { "english": "What time do you wake up?", "hindi": "आप किस समय उठते हैं?" },
-        { "english": "Why does she always arrive late?", "hindi": "वह हमेशा देर से क्यों आती है?" },
-        { "english": "How do you spell your name?", "hindi": "आप अपना नाम कैसे spell करते हैं?" },
-        { "english": "Do you have any experience in sales?", "hindi": "क्या आपको sales में कोई अनुभव है?" },
-        { "english": "Does this medicine have side effects?", "hindi": "क्या इस दवा के कोई side effects हैं?" },
-        { "english": "Where do they manufacture this product?", "hindi": "वे इस उत्पाद को कहाँ बनाते हैं?" },
-        { "english": "How many people does your team have?", "hindi": "आपकी टीम में कितने लोग हैं?" },
-        { "english": "Do you prefer tea or coffee?", "hindi": "आप चाय पसंद करते हैं या कॉफी?" }
+        {
+          "hindi": "क्या तुम English बोलते हो?",
+          "english": "Do you speak English?",
+          "rule": "Do + you + base verb?",
+          "answer": "Yes, I do. / No, I don't."
+        },
+        {
+          "hindi": "क्या वो office जाता है?",
+          "english": "Does he go to office?",
+          "rule": "Does + he + base verb?",
+          "answer": "Yes, he does. / No, he doesn't."
+        },
+        {
+          "hindi": "तुम कहाँ रहते हो?",
+          "english": "Where do you live?",
+          "rule": "Where + do + you + base verb?"
+        },
+        {
+          "hindi": "वो क्या काम करती है?",
+          "english": "What does she do?",
+          "rule": "What + does + she + do?"
+        },
+        {
+          "hindi": "वो office कब जाता है?",
+          "english": "When does he go to office?",
+          "rule": "When + does + he + base verb?"
+        },
+        {
+          "hindi": "तुम English क्यों सीखते हो?",
+          "english": "Why do you learn English?",
+          "rule": "Why + do + you + base verb?"
+        },
+        {
+          "hindi": "तुम यहाँ कैसे आते हो?",
+          "english": "How do you come here?",
+          "rule": "How + do + you + base verb?"
+        },
+        {
+          "hindi": "तुम्हें कौनसी movie पसंद है?",
+          "english": "Which movie do you like?",
+          "rule": "Which + noun + do + you + base verb?"
+        },
+        {
+          "hindi": "वो यहाँ क्यों नहीं आता?",
+          "english": "Why doesn't he come here?",
+          "rule": "Why + doesn't + he + base verb?"
+        },
+        {
+          "hindi": "तुम्हारा नाम क्या है?",
+          "english": "What is your name?",
+          "rule": "What + is + subject? (be verb के साथ)"
+        }
       ],
       "keyRules": [
-        "Yes/No question: Do/Does sentence के शुरुआत में आता है — Do you know? Does he work?",
-        "I/You/We/They → Do से question शुरू होता है; He/She/It → Does से",
-        "Do/Does के बाद हमेशा base verb आती है — Does she eats? ❌ → Does she eat? ✅",
-        "WH-questions: WH-word + do/does + Subject + base verb + ?",
-        "WH-words: What (क्या), Where (कहाँ), When (कब), Who (कौन), Why (क्यों), How (कैसे)",
-        "Short answers में Do/Does use होता है: 'Yes, I do.' / 'No, she doesn't.'",
-        "Question mark (?) sentence के अंत में ज़रूरी है",
-        "How much, How many, How often, How long — ये सब WH-questions के variations हैं",
-        "Whose + noun से possession पूछते हैं: Whose bag is this? Whose pen do you use?",
-        "Which + noun से specific choice पूछते हैं: Which bus do you take?",
-        "Question बनाते समय verb की base form को subject से पहले नहीं रखते — Hindi से यह ज़रूर अलग है",
-        "Indirect questions में word order statement जैसा होता है: Can you tell me where he lives? (do/does नहीं)"
+        "Yes/No questions: Do/Does sentence में पहले आता है",
+        "WH questions: WH word सबसे पहले, फिर Do/Does",
+        "Does का use He/She/It के साथ — verb में s/es नहीं लगता",
+        "Be verb (is/am/are) के साथ Do/Does नहीं लगाते",
+        "Who subject position में हो तो Do/Does नहीं चाहिए"
       ],
       "commonErrors": [
-        "❌ Does she eats rice? — ✅ Does she eat rice? — कारण: Does के बाद हमेशा base form आती है",
-        "❌ Do he work here? — ✅ Does he work here? — कारण: He/She/It के साथ 'Does' use होता है, 'Do' नहीं",
-        "❌ Where you work? — ✅ Where do you work? — कारण: WH-question में 'do/does' ज़रूरी है, बिना do/does question अधूरा है",
-        "❌ What she does? — ✅ What does she do? — कारण: WH-word के बाद does/do आता है, फिर subject, फिर verb",
-        "❌ Does your brother works in Delhi? — ✅ Does your brother work in Delhi? — कारण: Does के बाद base verb, 'works' नहीं",
-        "❌ You speak English? — ✅ Do you speak English? — कारण: Yes/No question में 'Do' शुरुआत में ज़रूरी है",
-        "❌ How she goes to office? — ✅ How does she go to office? — कारण: How के बाद does + subject + base verb का order है",
-        "❌ Do they lives near here? — ✅ Do they live near here? — कारण: Do के बाद base verb, 'lives' नहीं",
-        "❌ Why does he comes late? — ✅ Why does he come late? — कारण: Does के बाद 'come', 'comes' नहीं",
-        "❌ Does he has a bike? — ✅ Does he have a bike? — कारण: Does के बाद 'have' (base form), 'has' नहीं",
-        "❌ When she arrives? — ✅ When does she arrive? — कारण: WH-questions में do/does हमेशा लगाते हैं",
-        "❌ How much it costs? — ✅ How much does it cost? — कारण: It के साथ 'does' + base verb 'cost'"
+        {
+          "wrong": "Do he speaks English?",
+          "correct": "Does he speak English?",
+          "explanation": "He/She/It के साथ 'Does' use होता है और verb में s नहीं लगता"
+        },
+        {
+          "wrong": "Where you live?",
+          "correct": "Where do you live?",
+          "explanation": "WH questions में Do/Does ज़रूरी है"
+        },
+        {
+          "wrong": "Why he doesn't comes?",
+          "correct": "Why doesn't he come?",
+          "explanation": "Doesn't के बाद base verb आती है, और subject-verb का order change होता है"
+        },
+        {
+          "wrong": "What do you are doing?",
+          "correct": "What are you doing?",
+          "explanation": "Be verb (is/am/are) के साथ Do/Does नहीं use होता"
+        }
       ],
-      "memoryTrick": "Question बनाने का trick: 'Do/Does को उठाओ और आगे लाओ!' — 'She works here' → उठाओ 'does' को → 'Does she work here?' — verb की 's' भी does में चली जाती है!",
+      "memoryTrick": "🎯 Questions बनाने का trick: DASH Formula — D=Do/Does first, A=After Subject, S=Same base verb, H=Help! याद करो: जब question बनाओ तो 'Do/Does को पहले भेज दो, verb से S हटा लो!'",
       "speakingTips": [
-        "Yes/No questions में आवाज़ ऊपर उठाओ (rising intonation) — 'Do you LIVE here↑?' — यह question tone है",
-        "WH-questions में आवाज़ नीचे आती है (falling intonation) — 'WHERE do you live↓?' — यह statement-like tone है",
-        "Short answers practice करो — 'Yes, I do.' / 'No, she doesn't.' — full sentence नहीं बोलना पड़ता",
-        "Quick questions में 'Do you' अक्सर 'd'ya' जैसा sound करता है — 'D'ya know him?' — यह natural spoken English है",
-        "'What do you do?' एक बहुत common question है जो profession पूछने के लिए use होता है — इसे confidently answer करना practice करो",
-        "WH-word को slightly stress करो — 'WHAT does she do?' — listener को पता चलेगा कि आप किस type की information चाहते हैं"
-      ],
-      "vocabulary": [
-        { "word": "question", "hindi": "सवाल/प्रश्न", "type": "noun" },
-        { "word": "answer", "hindi": "जवाब/उत्तर", "type": "noun" },
-        { "word": "intonation", "hindi": "आवाज़ का उतार-चढ़ाव", "type": "noun" },
-        { "word": "information", "hindi": "जानकारी", "type": "noun" },
-        { "word": "experience", "hindi": "अनुभव", "type": "noun" },
-        { "word": "prefer", "hindi": "प्राथमिकता देना", "type": "verb" },
-        { "word": "manufacture", "hindi": "बनाना/निर्माण करना", "type": "verb" },
-        { "word": "confirm", "hindi": "पुष्टि करना", "type": "verb" },
-        { "word": "specific", "hindi": "विशिष्ट", "type": "adjective" },
-        { "word": "indirect", "hindi": "अप्रत्यक्ष", "type": "adjective" },
-        { "word": "clarify", "hindi": "स्पष्ट करना", "type": "verb" },
-        { "word": "frequently", "hindi": "अक्सर/बार-बार", "type": "adverb" }
+        "Practice: रोज़ 5 Yes/No questions और 5 WH questions बनाओ",
+        "Games: खुद से questions पूछो और answer दो",
+        "News देखकर questions बनाओ: What happened? Where did this happen? Who is involved?",
+        "Conversation में WH questions use करो — better conversation skills बनती हैं"
       ]
     },
     {
-      "id": "pronouns",
-      "title": "Pronouns — Subject, Object, and Possessive",
-      "hindiTitle": "सर्वनाम — कर्ता, कर्म और अधिकारवाचक",
-      "explanation": "English में Pronouns तीन प्रकार के होते हैं: 1) Subject Pronouns (I, you, he, she, it, we, they) — ये sentence का subject बनते हैं। 2) Object Pronouns (me, you, him, her, it, us, them) — ये verb के बाद आते हैं। 3) Possessive Adjectives (my, your, his, her, its, our, their) — ये nouns से पहले आते हैं।",
-      "pronounTable": [
-        { "person": "1st Singular", "subject": "I (मैं)", "object": "me (मुझे)", "possessive": "my (मेरा/मेरी)" },
-        { "person": "2nd Singular/Plural", "subject": "you (तुम/आप)", "object": "you (तुम्हें/आपको)", "possessive": "your (तुम्हारा/आपका)" },
-        { "person": "3rd Singular Male", "subject": "he (वह - पुरुष)", "object": "him (उसे - पुरुष)", "possessive": "his (उसका - पुरुष)" },
-        { "person": "3rd Singular Female", "subject": "she (वह - महिला)", "object": "her (उसे - महिला)", "possessive": "her (उसका - महिला)" },
-        { "person": "3rd Singular Thing", "subject": "it (यह/वह - वस्तु)", "object": "it (इसे/उसे)", "possessive": "its (इसका/उसका)" },
-        { "person": "1st Plural", "subject": "we (हम)", "object": "us (हमें)", "possessive": "our (हमारा/हमारी)" },
-        { "person": "3rd Plural", "subject": "they (वे/वो)", "object": "them (उन्हें)", "possessive": "their (उनका/उनकी)" }
-      ],
+      "id": "subject-pronouns",
+      "title": "Section 5: Subject Pronouns — I, You, He, She, It, We, They",
+      "hindiTitle": "Section 5: Subject Pronouns — कर्ता सर्वनाम",
+      "explanation": "Pronouns वो words हैं जो Nouns की जगह लेते हैं। Subject Pronouns sentence में Subject की position पर आते हैं — यानी वो word जो action करता है।\n\nEnglish pronouns:\n• 1st Person: I (मैं), We (हम)\n• 2nd Person: You (तुम/आप)\n• 3rd Person: He (वो - male), She (वो - female), It (यह/वो - non-human), They (वो - plural)\n\nEnglish में आपको pronoun gender-neutral रखना पड़ता है non-humans के लिए (It), जो Hindi में नहीं होता।",
       "examples": [
-        { "english": "I love my country.", "hindi": "मैं अपने देश से प्यार करता हूँ।", "note": "I = subject, my = possessive" },
-        { "english": "She gave me her phone number.", "hindi": "उसने मुझे अपना फोन नंबर दिया।", "note": "She = subject, me = object, her = possessive" },
-        { "english": "He told him about his problem.", "hindi": "उसने उसे अपनी समस्या बताई।", "note": "He = subject, him = object, his = possessive" },
-        { "english": "We submitted our report on time.", "hindi": "हमने समय पर अपनी रिपोर्ट जमा की।", "note": "We = subject, our = possessive" },
-        { "english": "They invited us to their wedding.", "hindi": "उन्होंने हमें अपनी शादी में बुलाया।", "note": "They = subject, us = object, their = possessive" },
-        { "english": "The dog wagged its tail.", "hindi": "कुत्ते ने अपनी पूँछ हिलाई।", "note": "it = subject, its = possessive for animals/things" },
-        { "english": "Can you help me with this?", "hindi": "क्या आप इसमें मेरी मदद कर सकते हैं?", "note": "you = subject, me = object" },
-        { "english": "Her bag is on my desk.", "hindi": "उसका बैग मेरी मेज़ पर है।", "note": "Her = possessive, my = possessive" },
-        { "english": "They told us their decision.", "hindi": "उन्होंने हमें अपना फैसला बताया।", "note": "They = subject, us = object, their = possessive" },
-        { "english": "I can see him from here.", "hindi": "मैं उसे यहाँ से देख सकता हूँ।", "note": "I = subject, him = object" },
-        { "english": "Our team won the match.", "hindi": "हमारी टीम ने मैच जीता।", "note": "Our = possessive" },
-        { "english": "She spoke to him directly.", "hindi": "उसने उससे सीधे बात की।", "note": "She = subject, him = object" },
-        { "english": "It has its own advantages.", "hindi": "इसके अपने फायदे हैं।", "note": "It = subject, its = possessive" },
-        { "english": "They called her for the interview.", "hindi": "उन्होंने उसे interview के लिए बुलाया।", "note": "They = subject, her = object" },
-        { "english": "We showed them our presentation.", "hindi": "हमने उन्हें अपनी presentation दिखाई।", "note": "We = subject, them = object, our = possessive" },
-        { "english": "My boss gave me a promotion.", "hindi": "मेरे बॉस ने मुझे प्रमोशन दी।", "note": "My = possessive, me = object" },
-        { "english": "He finished his work before the deadline.", "hindi": "उसने deadline से पहले अपना काम पूरा कर लिया।", "note": "He = subject, his = possessive" },
-        { "english": "You should trust your instincts.", "hindi": "आपको अपनी प्रवृत्ति पर भरोसा करना चाहिए।", "note": "You = subject, your = possessive" },
-        { "english": "She always carries her ID card.", "hindi": "वह हमेशा अपना ID card रखती है।", "note": "She = subject, her = possessive" },
-        { "english": "We need to improve our communication skills.", "hindi": "हमें अपने communication skills सुधारने होंगे।", "note": "We = subject, our = possessive" }
+        {
+          "hindi": "मैं एक student हूँ।",
+          "english": "I am a student.",
+          "pronoun": "I — 1st person singular"
+        },
+        {
+          "hindi": "तुम बहुत hardworking हो।",
+          "english": "You are very hardworking.",
+          "pronoun": "You — 2nd person"
+        },
+        {
+          "hindi": "वो (लड़का) doctor है।",
+          "english": "He is a doctor.",
+          "pronoun": "He — 3rd person singular male"
+        },
+        {
+          "hindi": "वो (लड़की) teacher है।",
+          "english": "She is a teacher.",
+          "pronoun": "She — 3rd person singular female"
+        },
+        {
+          "hindi": "यह कुत्ता बहुत cute है।",
+          "english": "It is a very cute dog.",
+          "pronoun": "It — 3rd person singular non-human"
+        },
+        {
+          "hindi": "हम Delhi में रहते हैं।",
+          "english": "We live in Delhi.",
+          "pronoun": "We — 1st person plural"
+        },
+        {
+          "hindi": "वो लोग cricket खेलते हैं।",
+          "english": "They play cricket.",
+          "pronoun": "They — 3rd person plural"
+        },
+        {
+          "hindi": "आप बहुत अच्छा काम करते हैं।",
+          "english": "You do very good work.",
+          "pronoun": "You — formal 2nd person (same as informal)"
+        },
+        {
+          "hindi": "यह मेरी book है।",
+          "english": "It is my book.",
+          "pronoun": "It — for things"
+        },
+        {
+          "hindi": "हम सब दोस्त हैं।",
+          "english": "We are all friends.",
+          "pronoun": "We — inclusive 1st person plural"
+        }
       ],
       "keyRules": [
-        "Subject Pronouns sentence का subject बनते हैं: I, you, he, she, it, we, they",
-        "Object Pronouns verb के बाद आते हैं: me, you, him, her, it, us, them",
-        "Possessive Adjectives noun से पहले आते हैं: my, your, his, her, its, our, their",
-        "Hindi में 'वह' पुरुष और महिला दोनों के लिए है — English में He (पुरुष) और She (महिला) अलग हैं",
-        "It का use वस्तुओं, जानवरों और ideas के लिए होता है — इसके लिए his/her नहीं, 'its' use होता है",
-        "English में 'आप' और 'तुम' दोनों के लिए 'you' है — formal/informal फर्क नहीं होता pronoun में",
-        "Verb के बाद object pronoun आता है — 'She called I' ❌ → 'She called me' ✅",
-        "Preposition के बाद object pronoun आता है: with him, for her, to us, from them",
-        "Possessive Pronoun (mine, yours, his, hers, ours, theirs) noun के बिना आता है: This pen is mine",
-        "Reflexive Pronouns (myself, yourself, himself, herself): He hurt himself",
-        "Hindi में 'उसे/उसको' दोनों he और she के लिए है — English में him (he) और her (she) अलग हैं",
-        "Compound subjects में pronouns: He and I went. / She and I work here. — 'I' हमेशा बाद में आता है"
+        "'I' हमेशा Capital Letter में लिखते हैं",
+        "You का singular और plural form same है: 'You are here' (1 person ya many)",
+        "He/She gender के लिए, It non-human/thing के लिए",
+        "They अब singular के लिए भी use होता है (gender-neutral)",
+        "Hindi में 'आप' और 'तुम' दोनों = English में You"
       ],
       "commonErrors": [
-        "❌ Me and my friend went to market. — ✅ My friend and I went to market. — कारण: Subject position में 'I' use होता है, 'me' नहीं; और 'I' हमेशा बाद में",
-        "❌ She called I on the phone. — ✅ She called me on the phone. — कारण: Verb के बाद object pronoun 'me' आता है, 'I' नहीं",
-        "❌ His bag is on the table. He forgot her. — ✅ His bag is on the table. He forgot it. — कारण: Bag (वस्तु) के लिए 'it' use होता है, 'her' नहीं",
-        "❌ This is my friend. His name is Priya. — ✅ This is my friend. Her name is Priya. — कारण: Priya महिला है, इसलिए 'Her'",
-        "❌ The dog lost it's bone. — ✅ The dog lost its bone. — कारण: Possessive में 'its' (no apostrophe); 'it's' = 'it is' का short form है",
-        "❌ Between you and I, this is wrong. — ✅ Between you and me, this is wrong. — कारण: Preposition के बाद object pronoun 'me' आता है",
-        "❌ They gave the book to my friend and I. — ✅ They gave the book to my friend and me. — कारण: 'to' preposition के बाद 'me' आता है",
-        "❌ Her and him went to the market. — ✅ She and he went to the market. — कारण: Subject position में subject pronouns आते हैं",
-        "❌ My mother she cooks well. — ✅ My mother cooks well. / She cooks well. — कारण: Subject और pronoun दोनों एक साथ नहीं आते",
-        "❌ I have lost my phone. Can you help I? — ✅ I have lost my phone. Can you help me? — कारण: 'help' verb के बाद object 'me' आता है",
-        "❌ We and our team worked hard. — ✅ Our team and we worked hard. / We and our team worked hard. — कारण: यह technically grammatically valid है पर 'Our team worked hard' ज़्यादा natural है",
-        "❌ Tell him that I need his help, isn't it? — ✅ Tell him that I need his help, will you? — कारण: Imperative के बाद 'isn't it' नहीं, 'will you?' आता है"
+        {
+          "wrong": "i am a student.",
+          "correct": "I am a student.",
+          "explanation": "'I' को हमेशा Capital में लिखते हैं"
+        },
+        {
+          "wrong": "He and me are friends.",
+          "correct": "He and I are friends.",
+          "explanation": "Subject position में 'me' नहीं, 'I' use होता है"
+        },
+        {
+          "wrong": "It is him who came.",
+          "correct": "It is he who came.",
+          "explanation": "Subject complement में 'him' नहीं, 'he' use होता है (formal English)"
+        }
       ],
-      "memoryTrick": "Subject = 'काम करने वाला' (I, He, She) | Object = 'काम पाने वाला' (me, him, her) | Possessive = 'मालिक बताने वाला' (my, his, her) — एक family: I love my brother; He helps me with his homework!",
-      "speakingTips": [
-        "'I' को 'आय' बोलो — हिंदी में अक्सर लोग 'ई' या 'अई' बोलते हैं जो गलत sounds करता है",
-        "He/She का correct use करो — English speakers को गलत gender pronoun बहुत odd लगता है, इसलिए ध्यान से use करो",
-        "'Him' और 'Her' को verb के बाद confidently place करो: 'I saw him', 'I called her' — यह natural flow है",
-        "Possessives को noun से जोड़कर एक unit की तरह बोलो: 'MY bag', 'HER phone', 'OUR team' — possessive पर slight stress दो",
-        "'Its' (possessive) और 'it's' (it is) का फर्क spoken में sound से नहीं पता चलता — लेकिन meaning से context clear होता है",
-        "Quick conversation में pronouns substitute करके sentences छोटी करो: 'My boss called. He wants a report.' — यह natural और efficient communication है"
+      "memoryTrick": "🎯 Pronouns याद करने का trick: 'I Yell Under His Shiny Ivory We Thatch' = I, You, Under(He?), His(She), It, We, They! बेहतर trick: 1st-2nd-3rd persons में याद करो: I/We, You, He/She/It/They"
+    },
+    {
+      "id": "object-pronouns",
+      "title": "Section 6: Object Pronouns — me, you, him, her, it, us, them",
+      "hindiTitle": "Section 6: Object Pronouns — कर्म सर्वनाम",
+      "explanation": "Object Pronouns वो Pronouns हैं जो sentence में Object की position पर आते हैं — यानी जिस पर action हो रही है।\n\nComparison:\nSubject → Object\nI → me\nYou → you\nHe → him\nShe → her\nIt → it\nWe → us\nThey → them\n\nEnglish में subject aur object pronouns DIFFERENT होते हैं। Hindi में यह difference इतना clear नहीं है।",
+      "examples": [
+        {
+          "hindi": "मुझे यह पसंद है।",
+          "english": "I like it. (It appeals to me.)",
+          "rule": "me — object of preposition/verb"
+        },
+        {
+          "hindi": "उसे (male) बुलाओ।",
+          "english": "Call him.",
+          "rule": "him — object form of he"
+        },
+        {
+          "hindi": "उसे (female) help करो।",
+          "english": "Help her.",
+          "rule": "her — object form of she"
+        },
+        {
+          "hindi": "हमें बताओ।",
+          "english": "Tell us.",
+          "rule": "us — object form of we"
+        },
+        {
+          "hindi": "उन्हें invite करो।",
+          "english": "Invite them.",
+          "rule": "them — object form of they"
+        },
+        {
+          "hindi": "वो मुझे जानता है।",
+          "english": "He knows me.",
+          "rule": "me — direct object"
+        },
+        {
+          "hindi": "Teacher ने उसे (female) पढ़ाया।",
+          "english": "The teacher taught her.",
+          "rule": "her — direct object"
+        },
+        {
+          "hindi": "Manager ने हमें promote किया।",
+          "english": "The manager promoted us.",
+          "rule": "us — direct object"
+        },
+        {
+          "hindi": "मैं उन्हें email करूँगा।",
+          "english": "I will email them.",
+          "rule": "them — indirect object"
+        },
+        {
+          "hindi": "क्या तुम मुझे याद करते हो?",
+          "english": "Do you remember me?",
+          "rule": "me — object of verb"
+        }
       ],
-      "vocabulary": [
-        { "word": "pronoun", "hindi": "सर्वनाम", "type": "noun" },
-        { "word": "subject", "hindi": "कर्ता", "type": "noun" },
-        { "word": "object", "hindi": "कर्म", "type": "noun" },
-        { "word": "possessive", "hindi": "अधिकारवाचक", "type": "adjective" },
-        { "word": "reflexive", "hindi": "निज/स्वयं के लिए", "type": "adjective" },
-        { "word": "gender", "hindi": "लिंग", "type": "noun" },
-        { "word": "singular", "hindi": "एकवचन", "type": "adjective" },
-        { "word": "plural", "hindi": "बहुवचन", "type": "adjective" },
-        { "word": "refer", "hindi": "उल्लेख करना", "type": "verb" },
-        { "word": "replace", "hindi": "बदलना", "type": "verb" },
-        { "word": "instinct", "hindi": "प्रवृत्ति/सहज ज्ञान", "type": "noun" },
-        { "word": "decision", "hindi": "फैसला", "type": "noun" },
-        { "word": "deadline", "hindi": "समय सीमा", "type": "noun" },
-        { "word": "presentation", "hindi": "प्रस्तुति", "type": "noun" }
+      "keyRules": [
+        "Verb के बाद → Object pronoun use करो (not subject pronoun)",
+        "Preposition के बाद → Object pronoun use करो",
+        "Between/with/to/for के बाद → Object pronoun",
+        "'It's me' → informal English में acceptable (not 'It is I')",
+        "Test: 'He gave I the book' (wrong) vs 'He gave me the book' (correct)"
+      ],
+      "commonErrors": [
+        {
+          "wrong": "She gave I a gift.",
+          "correct": "She gave me a gift.",
+          "explanation": "Verb के बाद object pronoun — 'me' not 'I'"
+        },
+        {
+          "wrong": "Between you and I",
+          "correct": "Between you and me",
+          "explanation": "Preposition (between) के बाद object pronoun — 'me' not 'I'"
+        },
+        {
+          "wrong": "He knows she.",
+          "correct": "He knows her.",
+          "explanation": "Verb के बाद object form — 'her' not 'she'"
+        }
+      ]
+    },
+    {
+      "id": "possessive-adjectives",
+      "title": "Section 7: Possessive Adjectives — my, your, his, her, its, our, their",
+      "hindiTitle": "Section 7: Possessive Adjectives — अधिकारवाचक विशेषण",
+      "explanation": "Possessive Adjectives से हम ownership या relationship show करते हैं। ये हमेशा noun से पहले आते हैं।\n\nSubject → Possessive Adjective:\nI → my\nYou → your\nHe → his\nShe → her\nIt → its\nWe → our\nThey → their\n\nयह adjectives noun के साथ आते हैं: my book, your phone, his car, her dress, its tail, our house, their country\n\nNote: 'it's' (it is) aur 'its' (possession) में बड़ा फर्क है!",
+      "examples": [
+        {
+          "hindi": "यह मेरी किताब है।",
+          "english": "This is my book.",
+          "rule": "my — possession of I"
+        },
+        {
+          "hindi": "तुम्हारा phone कहाँ है?",
+          "english": "Where is your phone?",
+          "rule": "your — possession of you"
+        },
+        {
+          "hindi": "उसका (male) घर बड़ा है।",
+          "english": "His house is big.",
+          "rule": "his — possession of he"
+        },
+        {
+          "hindi": "उसकी (female) आवाज़ मधुर है।",
+          "english": "Her voice is sweet.",
+          "rule": "her — possession of she"
+        },
+        {
+          "hindi": "कुत्ते की पूँछ लंबी है।",
+          "english": "The dog's tail is long. / Its tail is long.",
+          "rule": "its — possession of it"
+        },
+        {
+          "hindi": "हमारा देश India है।",
+          "english": "Our country is India.",
+          "rule": "our — possession of we"
+        },
+        {
+          "hindi": "उनका काम अच्छा है।",
+          "english": "Their work is good.",
+          "rule": "their — possession of they"
+        },
+        {
+          "hindi": "मेरे माता-पिता teachers हैं।",
+          "english": "My parents are teachers.",
+          "rule": "my — used with plural noun too"
+        },
+        {
+          "hindi": "आपकी company बहुत अच्छी है।",
+          "english": "Your company is very good.",
+          "rule": "your — formal context"
+        },
+        {
+          "hindi": "उनका business successful है।",
+          "english": "Their business is successful.",
+          "rule": "their — formal/plural context"
+        }
+      ],
+      "keyRules": [
+        "Possessive adjectives always noun से पहले आते हैं",
+        "'Its' (possession) ≠ 'It's' (it is) — apostrophe का difference",
+        "Your ≠ You're: Your (possession) vs You're (you are)",
+        "Their ≠ There ≠ They're — यह तीन common confusions",
+        "Possessive adjective किसी की भी 'belonging' को दर्शाता है"
+      ],
+      "commonErrors": [
+        {
+          "wrong": "It's tail is wagging.",
+          "correct": "Its tail is wagging.",
+          "explanation": "'Its' possession के लिए, 'It's' 'it is' का short form है"
+        },
+        {
+          "wrong": "There car is red.",
+          "correct": "Their car is red.",
+          "explanation": "'Their' possession के लिए, 'There' location के लिए"
+        },
+        {
+          "wrong": "Your are my friend.",
+          "correct": "You are my friend.",
+          "explanation": "'Your' adjective है noun से पहले आता है, not alone as verb subject"
+        },
+        {
+          "wrong": "This is my's book.",
+          "correct": "This is my book.",
+          "explanation": "Possessive adjective के बाद apostrophe नहीं लगता — 'my' not 'my's'"
+        }
       ]
     },
     {
       "id": "articles",
-      "title": "Articles — A, An, The",
-      "hindiTitle": "आर्टिकल — A, An, The",
-      "explanation": "Articles noun के साथ आते हैं। English में तीन articles हैं: 'a', 'an', और 'the'. 'A' और 'An' Indefinite Articles हैं (किसी एक अनजान चीज़ के लिए). 'The' Definite Article है (किसी खास चीज़ के लिए). Rule: Vowel sound (a, e, i, o, u sounds) से पहले 'an', बाकी सब के साथ 'a'. 'The' तब use करते हैं जब दोनों को पता हो हम किस चीज़ की बात कर रहे हैं।",
-      "rules": [
+      "title": "Section 8: Articles — a, an, the",
+      "hindiTitle": "Section 8: Articles — अनुच्छेद शब्द",
+      "explanation": "Articles वो small words हैं जो nouns से पहले आते हैं। English में 3 articles हैं:\n\n1. 'a' — किसी एक चीज़ का पहली बार mention (consonant sound से शुरू होने वाले words के पहले)\n2. 'an' — किसी एक चीज़ का पहली बार mention (vowel sound से शुरू होने वाले words के पहले)\n3. 'the' — specific/particular चीज़ का mention\n\nHindi में articles नहीं होते, इसलिए Hindi speakers को यह सबसे confusing लगता है। लेकिन एक बार rule समझ गए तो यह automatic हो जाता है।\n\nVowel sounds: a, e, i, o, u (but sound पर depend करता है, spelling पर नहीं!)\n• 'an hour' — 'h' silent है, 'o' sound से शुरू होता है\n• 'a university' — 'u' vowel है but 'yu' sound से शुरू होता है (consonant sound)",
+      "formula": "a + Consonant sound word\nan + Vowel sound word\nthe + Specific/particular noun",
+      "detailedExplanation": "Articles — Complete Rules:\n\n📌 'a' — Indefinite article, consonant sound\nUse when:\n• First time किसी चीज़ का mention हो\n• Non-specific किसी चीज़ को refer करो\n• Profession बताओ: I am a doctor.\n• किसी चीज़ को count करो: a book, a chair\nExamples: a dog, a book, a university, a one-way street\n\n📌 'an' — Indefinite article, vowel sound\nExamples: an apple, an elephant, an hour, an honest person, an MBA\n\n📌 'the' — Definite article\nUse when:\n• पहले mention हो चुकी specific thing: I have a dog. The dog is friendly.\n• दोनों जानते हों किस चीज़ की बात हो: Pass me the salt.\n• Unique things: the sun, the moon, the earth\n• Superlatives: the best, the fastest\n• Rivers, oceans, ranges: the Ganga, the Pacific, the Himalayas\n• Countries (plural/official names): the USA, the Netherlands\n\n📌 No Article:\n• Plural generic: Dogs are loyal. (Not 'The dogs are loyal' for general statement)\n• Languages: She speaks English.\n• Sports: He plays cricket.\n• Meals: We have lunch at 1 PM.\n• Names: Ram is my friend. (Not 'the Ram')",
+      "examples": [
         {
-          "rule": "A — Consonant Sound से शुरू होने वाले nouns से पहले",
-          "examples": ["a book", "a car", "a university (yu sound)", "a one-rupee coin (w sound)", "a European country"],
-          "hindi": "एक किताब, एक कार, एक विश्वविद्यालय"
+          "hindi": "वो doctor है।",
+          "english": "He is a doctor.",
+          "rule": "a + profession (first mention, non-specific)"
         },
         {
-          "rule": "An — Vowel Sound से शुरू होने वाले nouns से पहले",
-          "examples": ["an apple", "an elephant", "an hour (h silent)", "an honest person", "an MBA degree"],
-          "hindi": "एक सेब, एक हाथी, एक घंटा, एक ईमानदार व्यक्ति"
+          "hindi": "उसने एक apple खाया।",
+          "english": "He ate an apple.",
+          "rule": "an + vowel sound (a-)"
         },
         {
-          "rule": "The — Specific या Known nouns से पहले",
-          "examples": ["the sun", "the moon", "the Prime Minister of India", "the book you gave me", "the first time"],
-          "hindi": "सूरज, चाँद, भारत के प्रधानमंत्री, वो किताब जो तुमने दी"
+          "hindi": "Sun हर सुबह उगता है।",
+          "english": "The sun rises every morning.",
+          "rule": "the + unique/only one thing"
+        },
+        {
+          "hindi": "मैंने एक dog देखा। Dog friendly था।",
+          "english": "I saw a dog. The dog was friendly.",
+          "rule": "a (first mention) → the (second mention)"
+        },
+        {
+          "hindi": "क्या तुम university में पढ़ते हो?",
+          "english": "Do you study at a university?",
+          "rule": "a + 'university' (yu sound = consonant sound)"
+        },
+        {
+          "hindi": "Ganga India की पवित्र नदी है।",
+          "english": "The Ganga is a holy river in India.",
+          "rule": "the + river names"
+        },
+        {
+          "hindi": "वो MBA कर रहा है।",
+          "english": "He is doing an MBA.",
+          "rule": "an + M sounds like 'em' (vowel sound)"
+        },
+        {
+          "hindi": "यह world की सबसे ऊँची building है।",
+          "english": "It is the tallest building in the world.",
+          "rule": "the + superlative"
+        },
+        {
+          "hindi": "मैं English सीखता हूँ।",
+          "english": "I learn English.",
+          "rule": "No article with language names"
+        },
+        {
+          "hindi": "वो office जाती है।",
+          "english": "She goes to office.",
+          "rule": "No article with 'office' in fixed phrases"
         }
       ],
-      "whenNotToUse": [
-        "Proper nouns के साथ: India, Delhi, Rahul (कोई article नहीं)",
-        "Languages के साथ: Hindi, English (कोई article नहीं)",
-        "Sports के साथ: cricket, football (कोई article नहीं)",
-        "Plural general nouns के साथ: Books are useful. (general truth)"
-      ],
-      "examples": [
-        { "english": "I saw a dog in the park.", "hindi": "मैंने पार्क में एक कुत्ता देखा।", "note": "a dog = first mention, the park = specific park" },
-        { "english": "She is an engineer.", "hindi": "वह एक इंजीनियर है।", "note": "an engineer = occupation, vowel sound" },
-        { "english": "The teacher explained the lesson.", "hindi": "अध्यापक ने पाठ समझाया।", "note": "the teacher = specific teacher, the lesson = specific lesson" },
-        { "english": "He bought a new phone.", "hindi": "उसने एक नया फोन खरीदा।", "note": "a new phone = any new phone, first mention" },
-        { "english": "The phone he bought is very expensive.", "hindi": "उसने जो फोन खरीदा वह बहुत महँगा है।", "note": "the phone = now specific, we know which one" },
-        { "english": "India is an amazing country.", "hindi": "भारत एक अद्भुत देश है।", "note": "India = no article, an amazing = vowel sound" },
-        { "english": "She is reading an interesting book.", "hindi": "वह एक रोचक किताब पढ़ रही है।", "note": "an interesting = vowel sound" },
-        { "english": "The sun rises in the east.", "hindi": "सूरज पूर्व में उगता है।", "note": "the sun = unique, the east = unique direction" },
-        { "english": "He wants to become an IAS officer.", "hindi": "वह एक IAS अधिकारी बनना चाहता है।", "note": "an IAS = vowel sound (I)" },
-        { "english": "I have a meeting at 10 AM.", "hindi": "मेरी सुबह 10 बजे एक मीटिंग है।", "note": "a meeting = one meeting, not specific yet" },
-        { "english": "The meeting was cancelled.", "hindi": "मीटिंग रद्द हो गई।", "note": "the meeting = now specific, we know which" },
-        { "english": "Can I use the bathroom?", "hindi": "क्या मैं बाथरूम का उपयोग कर सकता हूँ?", "note": "the bathroom = specific one in this building" },
-        { "english": "She is an honest employee.", "hindi": "वह एक ईमानदार कर्मचारी है।", "note": "an honest = h is silent, vowel sound" },
-        { "english": "He is a one-man army.", "hindi": "वह अकेला पूरी सेना के बराबर है।", "note": "a one = w sound, so 'a' not 'an'" },
-        { "english": "The Amazon is the largest river.", "hindi": "अमेज़न सबसे बड़ी नदी है।", "note": "The Amazon = unique, the largest = superlative" },
-        { "english": "I need an umbrella.", "hindi": "मुझे एक छाता चाहिए।", "note": "an umbrella = vowel sound" },
-        { "english": "She plays the piano beautifully.", "hindi": "वह बहुत सुंदर piano बजाती है।", "note": "the piano = musical instruments use 'the'" },
-        { "english": "He is a university student.", "hindi": "वह एक विश्वविद्यालय का छात्र है।", "note": "a university = 'yu' sound, consonant sound" },
-        { "english": "We visited the Taj Mahal.", "hindi": "हमने ताज महल देखा।", "note": "the Taj Mahal = unique monument" },
-        { "english": "She got an MBA from IIM.", "hindi": "उसने IIM से MBA की।", "note": "an MBA = vowel sound (em)" }
-      ],
       "keyRules": [
-        "A = consonant sound वाले nouns से पहले; An = vowel sound (a/e/i/o/u) वाले nouns से पहले",
-        "Sound देखो, spelling नहीं — 'a university' (yu-sound), 'an hour' (silent h, o-sound)",
-        "The = specific या already known चीज़ के लिए — जब listener को पता हो कौनसी specific चीज़",
-        "First mention = a/an; Second mention onwards = the: 'I saw a cat. The cat was black.'",
-        "Unique चीज़ों के साथ 'the': the sun, the moon, the earth, the sky, the President",
-        "Superlatives के साथ हमेशा 'the': the best, the largest, the most expensive",
-        "Proper nouns (names) के साथ article नहीं: Ram, Delhi, India — लेकिन rivers/mountains/newspapers के साथ 'the': the Ganga, the Himalayas, the Times of India",
-        "Languages और subjects के साथ article नहीं: I study Hindi. He teaches science.",
-        "Meals के साथ article नहीं (general): I eat breakfast at 8. — लेकिन specific meal के लिए 'the': The breakfast I had today was great.",
-        "Musical instruments के साथ 'the': She plays the guitar, he plays the flute",
-        "Ranks/titles + name के साथ article नहीं: President Biden, Prime Minister Modi",
-        "'A' और 'An' only singular countable nouns के साथ आते हैं — uncountable nouns (water, rice, advice) के साथ नहीं"
+        "Sound पर depend करता है, spelling पर नहीं: an hour, a university",
+        "First mention = a/an, Second mention = the",
+        "Unique things: the sun, the moon, the earth",
+        "General statements में no article: Dogs are loyal animals",
+        "Never article with: proper nouns, languages, sports, meals, months, days"
       ],
       "commonErrors": [
-        "❌ I am a honest person. — ✅ I am an honest person. — कारण: 'honest' का 'h' silent है, vowel sound 'o' से शुरू होता है",
-        "❌ She is a engineer. — ✅ She is an engineer. — कारण: 'engineer' vowel sound (e) से शुरू होता है, इसलिए 'an'",
-        "❌ He goes to the school every day. — ✅ He goes to school every day. — कारण: General/regular activity के लिए school/college/work के साथ article नहीं",
-        "❌ I love the India. — ✅ I love India. — कारण: देशों के नाम के साथ 'the' नहीं लगाते (कुछ exceptions: the USA, the UK)",
-        "❌ He is an university professor. — ✅ He is a university professor. — कारण: 'university' की शुरुआत 'yu' sound से है, consonant sound है",
-        "❌ She plays a piano. — ✅ She plays the piano. — कारण: Musical instruments के साथ 'the' use होता है",
-        "❌ The honesty is the best policy. — ✅ Honesty is the best policy. — कारण: Abstract nouns (general sense में) के साथ article नहीं",
-        "❌ I need a advice. — ✅ I need advice. — कारण: 'Advice' uncountable noun है, 'a' नहीं लगाते",
-        "❌ He is best student in class. — ✅ He is the best student in class. — कारण: Superlative से पहले हमेशा 'the' आता है",
-        "❌ Can you pass a salt? — ✅ Can you pass the salt? — कारण: Table पर specific salt है जो दोनों देख सकते हैं, इसलिए 'the'",
-        "❌ I saw an one-rupee coin. — ✅ I saw a one-rupee coin. — कारण: 'one' की शुरुआत 'w' sound से है, इसलिए 'a'",
-        "❌ She is the doctor at a clinic. — ✅ She is a doctor at the clinic. — कारण: 'a doctor' = one of many doctors; 'the clinic' = specific clinic"
+        {
+          "wrong": "She is an doctor.",
+          "correct": "She is a doctor.",
+          "explanation": "'doctor' consonant 'd' sound से शुरू होता है, इसलिए 'a'"
+        },
+        {
+          "wrong": "I saw the elephant in forest.",
+          "correct": "I saw an elephant in the forest.",
+          "explanation": "First mention 'an elephant', 'forest' specific है तो 'the'"
+        },
+        {
+          "wrong": "He plays a cricket.",
+          "correct": "He plays cricket.",
+          "explanation": "Sports के नाम से पहले article नहीं आता"
+        },
+        {
+          "wrong": "The English is difficult.",
+          "correct": "English is difficult.",
+          "explanation": "Languages के नाम से पहले article नहीं"
+        }
       ],
-      "memoryTrick": "A/An = 'अनजान मेहमान' (पहली बार मिले), The = 'जाना-पहचाना दोस्त' (जिसे दोनों जानते हैं) — 'I met a man. The man was kind.' पहली बार = 'a man', फिर = 'the man'!",
-      "speakingTips": [
-        "'A' को 'अ' बोलो (unstressed) और 'An' को 'अन' — stressed होने पर 'A' = 'एय' और 'An' = 'एन' होता है",
-        "'The' को vowel से पहले 'थी' बोलते हैं (the apple = 'थी apple') और consonant से पहले 'थ' बोलते हैं (the book = 'थ book')",
-        "Fast speech में articles को skip मत करो — 'I am doctor' सुनने में odd लगता है; 'I am a doctor' natural है",
-        "Articles को nouns के साथ एक unit की तरह practice करो: 'a book', 'an apple', 'the sun' — अलग-अलग नहीं बोलते",
-        "Hindi में articles नहीं होते इसलिए naturally यह miss होते हैं — reading करते समय हर noun के पहले check करो कि article चाहिए या नहीं",
-        "Common phrases याद करो as chunks: 'in the morning', 'at the office', 'on the phone', 'by the way' — इन्हें whole unit की तरह याद करो"
+      "memoryTrick": "🎯 Articles trick: SOUP = Specific=the, Old mention=the, Unique=the, Previous mention=the. New/First/General = a/an. Sound check: Vowel sound? → an; Consonant sound? → a"
+    },
+    {
+      "id": "do-does",
+      "title": "Section 9: Do/Does — Question & Negative Helper Verbs",
+      "hindiTitle": "Section 9: Do/Does — प्रश्न और नकारात्मक सहायक क्रियाएँ",
+      "explanation": "Do और Does Simple Present Tense में auxiliary (helping) verbs के रूप में use होते हैं।\n\nDo के uses:\n1. Questions बनाने के लिए (I/You/We/They)\n2. Negatives बनाने के लिए (do not/don't)\n3. Emphasis के लिए (I DO understand!)\n\nDoes के uses:\n1. Questions बनाने के लिए (He/She/It)\n2. Negatives बनाने के लिए (does not/doesn't)\n3. Emphasis के लिए (He DOES care!)\n\nImportant: जब do/does use होते हैं, main verb हमेशा base form में होती है।",
+      "examples": [
+        {
+          "hindi": "क्या तुम yoga करते हो?",
+          "english": "Do you do yoga?",
+          "rule": "Do + you + base verb (first 'do' auxiliary, second 'do' main verb)"
+        },
+        {
+          "hindi": "क्या वो Hindi जानती है?",
+          "english": "Does she know Hindi?",
+          "rule": "Does + she + base verb"
+        },
+        {
+          "hindi": "मैं समझता हूँ।",
+          "english": "I do understand. (emphasis)",
+          "rule": "Do for emphasis in disagreement"
+        },
+        {
+          "hindi": "वो actually care करता है।",
+          "english": "He does care about you.",
+          "rule": "Does for strong emphasis"
+        },
+        {
+          "hindi": "क्या तुम coffee पीते हो?",
+          "english": "Do you drink coffee?",
+          "rule": "Do + you + base verb?"
+        },
+        {
+          "hindi": "वो किसके साथ काम करती है?",
+          "english": "Who does she work with?",
+          "rule": "WH + does + she + base verb"
+        },
+        {
+          "hindi": "क्या यह मशीन काम करती है?",
+          "english": "Does this machine work?",
+          "rule": "Does + it/this + base verb?"
+        },
+        {
+          "hindi": "वो कहाँ रहते हैं?",
+          "english": "Where do they live?",
+          "rule": "Where + do + they + base verb?"
+        },
+        {
+          "hindi": "तुम क्या काम करते हो?",
+          "english": "What do you do?",
+          "rule": "What + do + you + do? (profession question)"
+        },
+        {
+          "hindi": "वो company इतनी slow क्यों काम करती है?",
+          "english": "Why does the company work so slowly?",
+          "rule": "Why + does + singular subject + base verb?"
+        }
       ],
-      "vocabulary": [
-        { "word": "article", "hindi": "परिच्छेद/आर्टिकल", "type": "noun" },
-        { "word": "definite", "hindi": "निश्चित", "type": "adjective" },
-        { "word": "indefinite", "hindi": "अनिश्चित", "type": "adjective" },
-        { "word": "countable", "hindi": "गणनीय", "type": "adjective" },
-        { "word": "uncountable", "hindi": "अगणनीय", "type": "adjective" },
-        { "word": "specific", "hindi": "विशिष्ट", "type": "adjective" },
-        { "word": "unique", "hindi": "अनूठा/एकमात्र", "type": "adjective" },
-        { "word": "monument", "hindi": "स्मारक", "type": "noun" },
-        { "word": "superlative", "hindi": "उत्कृष्टता दर्शाने वाला", "type": "adjective" },
-        { "word": "abstract", "hindi": "अमूर्त", "type": "adjective" },
-        { "word": "occupation", "hindi": "पेशा/व्यवसाय", "type": "noun" },
-        { "word": "mention", "hindi": "उल्लेख", "type": "noun" },
-        { "word": "instrument", "hindi": "वाद्य यंत्र", "type": "noun" }
+      "keyRules": [
+        "Do = I/You/We/They के साथ; Does = He/She/It के साथ",
+        "Do/Does के बाद ALWAYS base verb (no s/es, no -ing)",
+        "Emphasis: 'I DO love you' = Strong/defensive statement",
+        "Main verb 'do' और auxiliary 'do' में confusion: 'What do you DO?'",
+        "Short answers: Yes, I do. / No, he doesn't. (not 'Yes, I do work.' just 'Yes, I do.')"
       ]
     },
     {
-      "id": "common-verbs",
-      "title": "Common English Verbs — Daily Use",
-      "hindiTitle": "रोज़ाना काम आने वाली क्रियाएँ",
-      "explanation": "ये 50 verbs English में सबसे ज़्यादा use होती हैं। इन्हें याद करो और रोज़ sentences बनाने की practice करो।",
-      "verbCategories": [
+      "id": "wh-questions",
+      "title": "Section 10: WH Questions — What, Where, When, Who, Why, How",
+      "hindiTitle": "Section 10: WH Questions — प्रश्नवाचक शब्द",
+      "explanation": "WH Questions conversation का backbone हैं। एक अच्छा English speaker जानता है कि सही WH word कब use करना है।\n\n6 Core WH words:\n• WHAT — क्या (things, information, actions)\n• WHERE — कहाँ (place, location)\n• WHEN — कब (time)\n• WHO — कौन (person as subject)\n• WHY — क्यों (reason)\n• HOW — कैसे (manner, method)\n\nPlus Extended WH words:\n• WHICH — कौनसा (choice between options)\n• WHOSE — किसका (ownership)\n• WHOM — किसे (person as object)\n• HOW MANY — कितने (countable)\n• HOW MUCH — कितना (uncountable)\n• HOW LONG — कितने समय से\n• HOW OFTEN — कितनी बार\n• HOW FAR — कितनी दूर",
+      "examples": [
         {
-          "category": "Action Verbs (काम करने वाली क्रियाएँ)",
-          "verbs": [
-            { "verb": "go", "hindi": "जाना", "example": "I go to office.", "he_form": "goes" },
-            { "verb": "come", "hindi": "आना", "example": "She comes home early.", "he_form": "comes" },
-            { "verb": "eat", "hindi": "खाना", "example": "He eats lunch at 1 PM.", "he_form": "eats" },
-            { "verb": "drink", "hindi": "पीना", "example": "I drink 8 glasses of water.", "he_form": "drinks" },
-            { "verb": "sleep", "hindi": "सोना", "example": "She sleeps at 10 PM.", "he_form": "sleeps" },
-            { "verb": "wake", "hindi": "जागना", "example": "He wakes up at 6 AM.", "he_form": "wakes" },
-            { "verb": "read", "hindi": "पढ़ना", "example": "I read books.", "he_form": "reads" },
-            { "verb": "write", "hindi": "लिखना", "example": "She writes reports.", "he_form": "writes" },
-            { "verb": "speak", "hindi": "बोलना", "example": "He speaks clearly.", "he_form": "speaks" },
-            { "verb": "listen", "hindi": "सुनना", "example": "I listen to music.", "he_form": "listens" },
-            { "verb": "watch", "hindi": "देखना", "example": "She watches movies.", "he_form": "watches" },
-            { "verb": "run", "hindi": "दौड़ना", "example": "He runs every morning.", "he_form": "runs" },
-            { "verb": "walk", "hindi": "चलना", "example": "I walk to the station.", "he_form": "walks" },
-            { "verb": "work", "hindi": "काम करना", "example": "She works hard.", "he_form": "works" },
-            { "verb": "study", "hindi": "पढ़ाई करना", "example": "He studies at night.", "he_form": "studies" }
-          ]
+          "hindi": "तुम्हारा नाम क्या है?",
+          "english": "What is your name?",
+          "wh": "What — information"
         },
         {
-          "category": "Communication Verbs (संवाद क्रियाएँ)",
-          "verbs": [
-            { "verb": "say", "hindi": "कहना", "example": "She says hello.", "he_form": "says" },
-            { "verb": "tell", "hindi": "बताना", "example": "He tells stories.", "he_form": "tells" },
-            { "verb": "ask", "hindi": "पूछना", "example": "I ask questions.", "he_form": "asks" },
-            { "verb": "answer", "hindi": "जवाब देना", "example": "She answers emails.", "he_form": "answers" },
-            { "verb": "call", "hindi": "फोन करना/बुलाना", "example": "He calls daily.", "he_form": "calls" },
-            { "verb": "reply", "hindi": "जवाब देना", "example": "I reply to messages.", "he_form": "replies" },
-            { "verb": "explain", "hindi": "समझाना", "example": "She explains clearly.", "he_form": "explains" },
-            { "verb": "discuss", "hindi": "चर्चा करना", "example": "We discuss problems.", "he_form": "discusses" },
-            { "verb": "present", "hindi": "प्रस्तुत करना", "example": "He presents ideas.", "he_form": "presents" },
-            { "verb": "report", "hindi": "रिपोर्ट करना", "example": "She reports to the manager.", "he_form": "reports" }
-          ]
+          "hindi": "तुम कहाँ से हो?",
+          "english": "Where are you from?",
+          "wh": "Where — location/origin"
         },
         {
-          "category": "Mental Verbs (मानसिक क्रियाएँ)",
-          "verbs": [
-            { "verb": "know", "hindi": "जानना", "example": "I know the answer.", "he_form": "knows" },
-            { "verb": "think", "hindi": "सोचना", "example": "She thinks carefully.", "he_form": "thinks" },
-            { "verb": "understand", "hindi": "समझना", "example": "He understands well.", "he_form": "understands" },
-            { "verb": "remember", "hindi": "याद रखना", "example": "I remember everything.", "he_form": "remembers" },
-            { "verb": "forget", "hindi": "भूलना", "example": "She forgets nothing.", "he_form": "forgets" },
-            { "verb": "believe", "hindi": "विश्वास करना", "example": "He believes in hard work.", "he_form": "believes" },
-            { "verb": "want", "hindi": "चाहना", "example": "I want a good job.", "he_form": "wants" },
-            { "verb": "need", "hindi": "ज़रूरत होना", "example": "She needs help.", "he_form": "needs" },
-            { "verb": "like", "hindi": "पसंद करना", "example": "He likes cricket.", "he_form": "likes" },
-            { "verb": "love", "hindi": "प्यार करना/बहुत पसंद करना", "example": "I love my family.", "he_form": "loves" }
-          ]
+          "hindi": "तुम्हारी birthday कब है?",
+          "english": "When is your birthday?",
+          "wh": "When — time"
+        },
+        {
+          "hindi": "वहाँ कौन था?",
+          "english": "Who was there?",
+          "wh": "Who — person (subject)"
+        },
+        {
+          "hindi": "तुम यहाँ क्यों आए?",
+          "english": "Why did you come here?",
+          "wh": "Why — reason"
+        },
+        {
+          "hindi": "तुमने यह कैसे किया?",
+          "english": "How did you do this?",
+          "wh": "How — method"
+        },
+        {
+          "hindi": "तुम कौनसी language बोलते हो?",
+          "english": "Which language do you speak?",
+          "wh": "Which — choice"
+        },
+        {
+          "hindi": "यह bag किसका है?",
+          "english": "Whose bag is this?",
+          "wh": "Whose — ownership"
+        },
+        {
+          "hindi": "तुम्हारे पास कितने books हैं?",
+          "english": "How many books do you have?",
+          "wh": "How many — countable quantity"
+        },
+        {
+          "hindi": "तुमने कितना time यहाँ बिताया?",
+          "english": "How much time did you spend here?",
+          "wh": "How much — uncountable quantity"
+        },
+        {
+          "hindi": "तुम कितने time से English सीख रहे हो?",
+          "english": "How long have you been learning English?",
+          "wh": "How long — duration"
+        },
+        {
+          "hindi": "तुम gym कितनी बार जाते हो?",
+          "english": "How often do you go to the gym?",
+          "wh": "How often — frequency"
+        },
+        {
+          "hindi": "तुम्हारा घर यहाँ से कितनी दूर है?",
+          "english": "How far is your house from here?",
+          "wh": "How far — distance"
+        },
+        {
+          "hindi": "तुम किसको पसंद करते हो?",
+          "english": "Whom do you like?",
+          "wh": "Whom — person (object)"
+        },
+        {
+          "hindi": "कौनसी company तुम्हें hire करना चाहती है?",
+          "english": "Which company wants to hire you?",
+          "wh": "Which — specific choice"
         }
       ],
-      "sentenceExamples": [
-        { "english": "I go to office by metro.", "hindi": "मैं मेट्रो से ऑफिस जाता हूँ।" },
-        { "english": "She comes home at 6 PM.", "hindi": "वह शाम 6 बजे घर आती है।" },
-        { "english": "He eats lunch in the canteen.", "hindi": "वह कैंटीन में दोपहर का खाना खाता है।" },
-        { "english": "We drink tea in the morning.", "hindi": "हम सुबह चाय पीते हैं।" },
-        { "english": "They sleep early on weekdays.", "hindi": "वे weekdays पर जल्दी सो जाते हैं।" },
-        { "english": "I read the newspaper every morning.", "hindi": "मैं हर सुबह अखबार पढ़ता हूँ।" },
-        { "english": "She writes very well.", "hindi": "वह बहुत अच्छा लिखती है।" },
-        { "english": "He speaks English confidently.", "hindi": "वह आत्मविश्वास से अंग्रेजी बोलता है।" },
-        { "english": "I know how to drive.", "hindi": "मुझे गाड़ी चलानी आती है।" },
-        { "english": "She thinks before she speaks.", "hindi": "वह बोलने से पहले सोचती है।" },
-        { "english": "He understands every concept.", "hindi": "वह हर concept समझता है।" },
-        { "english": "I want to learn programming.", "hindi": "मैं programming सीखना चाहता हूँ।" },
-        { "english": "She needs a new laptop.", "hindi": "उसे एक नए laptop की ज़रूरत है।" },
-        { "english": "He likes to play chess.", "hindi": "उसे शतरंज खेलना पसंद है।" },
-        { "english": "We love our country.", "hindi": "हम अपने देश से प्यार करते हैं।" }
-      ],
-      "examples": [
-        { "english": "I go to office by metro every day.", "hindi": "मैं हर दिन मेट्रो से ऑफिस जाता हूँ।" },
-        { "english": "She comes home at 6 PM.", "hindi": "वह शाम 6 बजे घर आती है।" },
-        { "english": "He eats lunch in the canteen.", "hindi": "वह कैंटीन में दोपहर का खाना खाता है।" },
-        { "english": "We drink tea in the morning.", "hindi": "हम सुबह चाय पीते हैं।" },
-        { "english": "They sleep early on weekdays.", "hindi": "वे weekdays पर जल्दी सो जाते हैं।" },
-        { "english": "I read the newspaper every morning.", "hindi": "मैं हर सुबह अखबार पढ़ता हूँ।" },
-        { "english": "She writes reports for her manager.", "hindi": "वह अपने मैनेजर के लिए रिपोर्ट लिखती है।" },
-        { "english": "He speaks English at work.", "hindi": "वह काम पर अंग्रेजी बोलता है।" },
-        { "english": "I listen to podcasts while commuting.", "hindi": "मैं यात्रा के दौरान podcasts सुनता हूँ।" },
-        { "english": "She watches educational videos online.", "hindi": "वह online educational videos देखती है।" },
-        { "english": "He runs five kilometres every morning.", "hindi": "वह हर सुबह पाँच किलोमीटर दौड़ता है।" },
-        { "english": "I walk to the nearby market.", "hindi": "मैं पास के बाज़ार तक चलकर जाता हूँ।" },
-        { "english": "She works in a software company.", "hindi": "वह एक software कंपनी में काम करती है।" },
-        { "english": "He studies at night for two hours.", "hindi": "वह रात को दो घंटे पढ़ाई करता है।" },
-        { "english": "She says good morning to everyone.", "hindi": "वह सबको good morning कहती है।" },
-        { "english": "He tells his team about new updates.", "hindi": "वह अपनी टीम को नए updates बताता है।" },
-        { "english": "I ask my teacher when I am confused.", "hindi": "जब मैं confuse होता हूँ तो अपने teacher से पूछता हूँ।" },
-        { "english": "She answers customer calls politely.", "hindi": "वह customer calls विनम्रता से answer करती है।" },
-        { "english": "He calls his parents every evening.", "hindi": "वह हर शाम अपने माता-पिता को फोन करता है।" },
-        { "english": "I know the way to the station.", "hindi": "मुझे station का रास्ता पता है।" },
-        { "english": "She thinks about her future plans.", "hindi": "वह अपने भविष्य की योजनाओं के बारे में सोचती है।" },
-        { "english": "He believes in continuous learning.", "hindi": "वह लगातार सीखते रहने में विश्वास करता है।" },
-        { "english": "I want a better opportunity.", "hindi": "मुझे एक बेहतर अवसर चाहिए।" },
-        { "english": "She loves working with her team.", "hindi": "उसे अपनी टीम के साथ काम करना पसंद है।" }
-      ],
       "keyRules": [
-        "Action verbs शारीरिक काम बताते हैं: go, come, eat, drink, run, walk, write",
-        "Communication verbs बातचीत बताते हैं: say, tell, ask, answer, call, explain",
-        "Mental/Stative verbs मन की अवस्था बताते हैं: know, think, believe, want, like, love",
-        "Stative verbs (know, like, want, need, love) Simple Present में use होते हैं — continuous में नहीं",
-        "'Say' और 'Tell' में फर्क: say = बात कहना (She said hello); tell = किसी को बताना (He told me a story)",
-        "'Listen' के साथ 'to' आता है: I listen to music — 'I listen music' गलत है",
-        "'Watch' और 'See' का फर्क: watch = ध्यान से देखना (TV, match); see = अचानक नज़र पड़ना (I see a bird)",
-        "He/She/It के साथ: goes, comes, eats, runs, watches, studies, thinks, knows",
-        "'Wake up', 'look at', 'listen to' जैसे phrasal verbs एक unit हैं — बीच में कुछ नहीं आता",
-        "Verb + object: eat food, drink water, read books, write reports — हर verb के साथ specific objects होते हैं",
-        "'Run a business', 'run a meeting' — 'run' का use abstract sense में भी होता है",
-        "नई verbs सीखते समय उनका he/she/it form भी साथ याद करो — irregular forms को extra ध्यान दो"
+        "Who (subject) → No auxiliary: Who called you?",
+        "Whom (object) → Auxiliary present: Whom did you call?",
+        "How + adjective/adverb: How tall? How fast? How many? How much?",
+        "Indirect questions: I wonder what time it is. (No inversion)",
+        "Polite questions: Could you tell me where the station is?"
       ],
       "commonErrors": [
-        "❌ I am knowing the answer. — ✅ I know the answer. — कारण: 'Know' stative verb है, continuous form में नहीं आती",
-        "❌ She is wanting a job. — ✅ She wants a job. — कारण: 'Want' stative verb है, Simple Present use होता है",
-        "❌ I listen music every day. — ✅ I listen to music every day. — कारण: 'Listen' के बाद हमेशा 'to' आता है",
-        "❌ He go to market daily. — ✅ He goes to market daily. — कारण: He के साथ 'goes' (action verb + s)",
-        "❌ She say hello to me. — ✅ She says hello to me. — कारण: She के साथ 'says' लगाना ज़रूरी है",
-        "❌ I am needing your help. — ✅ I need your help. — कारण: 'Need' stative verb है, Simple Present use होता है",
-        "❌ He tells that he is tired. — ✅ He says that he is tired. — कारण: 'Tell' के बाद person ज़रूरी है (He tells me); बिना person के 'say' use होता है",
-        "❌ She watches to TV. — ✅ She watches TV. — कारण: 'Watch' के बाद 'to' नहीं लगाते",
-        "❌ I am believing in God. — ✅ I believe in God. — कारण: 'Believe' stative verb है, continuous नहीं",
-        "❌ He runned every morning. — ✅ He runs every morning. — कारण: Present tense में 'runned' नहीं होता, Simple Present 'runs' है",
-        "❌ She is liking her new job. — ✅ She likes her new job. — कारण: 'Like' stative verb है, progressive form नहीं",
-        "❌ I am understanding now. — ✅ I understand now. — कारण: 'Understand' stative verb है, Simple Present use होती है"
-      ],
-      "memoryTrick": "Stative Verbs याद करो KLUW — Know, Like/Love, Understand, Want/Need — ये verbs कभी '-ing' नहीं लगातीं! बस Simple Present: 'I know, I like, I understand, I want'",
-      "speakingTips": [
-        "Action verbs को energy के साथ बोलो — 'He RUNS every morning' — verb पर stress दो और listener को energy feel होगी",
-        "'Listen to', 'look at', 'wait for' जैसे verb+preposition pairs को एक unit की तरह practice करो — preposition हमेशा साथ रहती है",
-        "Mental verbs को clearly और calmly बोलो — 'I THINK', 'I KNOW', 'I UNDERSTAND' — ये confident assertions हैं",
-        "Conversation में verbs को vary करो — 'said' की जगह 'mentioned', 'told', 'explained' use करो — यह vocabulary बढ़ाता है",
-        "Common verb collocations याद करो as phrases: 'make a decision', 'take a break', 'give a call', 'run a business'",
-        "बोलते समय verb के he/she/it form पर ध्यान दो — यह सुनने में automatically fluency दिखाता है: 'She works', 'He thinks', 'It costs'"
-      ],
-      "vocabulary": [
-        { "word": "action", "hindi": "क्रिया/काम", "type": "noun" },
-        { "word": "communication", "hindi": "संचार/बातचीत", "type": "noun" },
-        { "word": "stative", "hindi": "अवस्था बताने वाला", "type": "adjective" },
-        { "word": "canteen", "hindi": "कैंटीन/भोजनालय", "type": "noun" },
-        { "word": "commute", "hindi": "आना-जाना (रोज़ाना)", "type": "verb" },
-        { "word": "politely", "hindi": "विनम्रता से", "type": "adverb" },
-        { "word": "concept", "hindi": "अवधारणा/विचार", "type": "noun" },
-        { "word": "opportunity", "hindi": "अवसर/मौका", "type": "noun" },
-        { "word": "continuous", "hindi": "लगातार", "type": "adjective" },
-        { "word": "phrasal verb", "hindi": "वाक्यांश क्रिया", "type": "noun" },
-        { "word": "update", "hindi": "नई जानकारी/अपडेट", "type": "noun" },
-        { "word": "educational", "hindi": "शैक्षणिक", "type": "adjective" },
-        { "word": "podcast", "hindi": "पॉडकास्ट (ऑडियो कार्यक्रम)", "type": "noun" }
+        {
+          "wrong": "What is your name? Where you live?",
+          "correct": "Where do you live?",
+          "explanation": "WH questions में auxiliary (do/does/is/are) ज़रूरी है जब WH word subject नहीं है"
+        },
+        {
+          "wrong": "Who did called you?",
+          "correct": "Who called you?",
+          "explanation": "Who subject है → auxiliary (did) नहीं चाहिए"
+        },
+        {
+          "wrong": "How much friends do you have?",
+          "correct": "How many friends do you have?",
+          "explanation": "'Friends' countable है → 'How many', not 'How much'"
+        }
       ]
     },
     {
-      "id": "daily-sentences",
-      "title": "Daily Life Sentences — Most Used",
-      "hindiTitle": "रोज़ाना जीवन के वाक्य",
-      "explanation": "ये sentences रोज़ की life में सबसे ज़्यादा काम आते हैं। इन्हें याद कर लो और naturally use करने की practice करो।",
-      "categories": [
+      "id": "frequency-adverbs",
+      "title": "Section 11: Frequency Adverbs — always, usually, often, sometimes, rarely, never",
+      "hindiTitle": "Section 11: Frequency Adverbs — आवृत्ति क्रिया-विशेषण",
+      "explanation": "Frequency Adverbs बताते हैं कि कोई काम कितनी बार होता है। Simple Present Tense में ये बहुत commonly use होते हैं।\n\nFrequency Scale (सबसे ज़्यादा से सबसे कम):\n100% → always (हमेशा)\n90% → usually (usually/आमतौर पर)\n80% → normally/generally (generally)\n70% → often (अक्सर)\n50% → sometimes (कभी-कभी)\n30% → occasionally (कभी-कभार)\n10% → rarely/seldom (कभी-कभार/शायद ही कभी)\n5% → hardly ever (मुश्किल से)\n0% → never (कभी नहीं)\n\nPosition in sentence:\n• Be verb के बाद: She is always punctual.\n• Main verb से पहले: I always wake up early.\n• Sentence के end में: I go to the gym sometimes.",
+      "examples": [
         {
-          "category": "Morning Routine",
-          "sentences": [
-            { "english": "Good morning! How are you?", "hindi": "सुप्रभात! आप कैसे हैं?" },
-            { "english": "I wake up at 6 every morning.", "hindi": "मैं हर सुबह 6 बजे उठता हूँ।" },
-            { "english": "I brush my teeth twice a day.", "hindi": "मैं दिन में दो बार दाँत साफ करता हूँ।" },
-            { "english": "I have breakfast before going to office.", "hindi": "ऑफिस जाने से पहले मैं नाश्ता करता हूँ।" },
-            { "english": "The traffic is heavy in the morning.", "hindi": "सुबह के समय ट्रैफिक बहुत होता है।" }
-          ]
+          "hindi": "मैं हमेशा breakfast खाता हूँ।",
+          "english": "I always eat breakfast.",
+          "adverb": "always — 100%"
         },
         {
-          "category": "Office / Work",
-          "sentences": [
-            { "english": "I start work at 9 AM.", "hindi": "मैं सुबह 9 बजे काम शुरू करता हूँ।" },
-            { "english": "I have a lot of work today.", "hindi": "आज मेरे पास बहुत काम है।" },
-            { "english": "The meeting starts in 10 minutes.", "hindi": "मीटिंग 10 मिनट में शुरू होती है।" },
-            { "english": "Can you send me that file?", "hindi": "क्या आप मुझे वो file भेज सकते हैं?" },
-            { "english": "I need to submit this report today.", "hindi": "मुझे आज यह रिपोर्ट जमा करनी है।" },
-            { "english": "My colleague helps me a lot.", "hindi": "मेरे सहयोगी मेरी बहुत मदद करते हैं।" }
-          ]
+          "hindi": "वो usually office पैदल जाती है।",
+          "english": "She usually walks to office.",
+          "adverb": "usually — 90%"
         },
         {
-          "category": "Shopping / Market",
-          "sentences": [
-            { "english": "How much does this cost?", "hindi": "इसकी कीमत क्या है?" },
-            { "english": "Do you have this in a smaller size?", "hindi": "क्या आपके पास यह छोटे आकार में है?" },
-            { "english": "I need two kilos of tomatoes.", "hindi": "मुझे दो किलो टमाटर चाहिए।" },
-            { "english": "Do you accept UPI payments?", "hindi": "क्या आप UPI payment स्वीकार करते हैं?" },
-            { "english": "Can I get a discount?", "hindi": "क्या मुझे कोई छूट मिलेगी?" }
-          ]
+          "hindi": "हम अक्सर movies देखते हैं।",
+          "english": "We often watch movies.",
+          "adverb": "often — 70%"
         },
         {
-          "category": "Social Interaction",
-          "sentences": [
-            { "english": "Nice to meet you.", "hindi": "आपसे मिलकर अच्छा लगा।" },
-            { "english": "How is your family?", "hindi": "आपका परिवार कैसा है?" },
-            { "english": "Please come home sometime.", "hindi": "कभी घर आइए।" },
-            { "english": "Thank you for your help.", "hindi": "आपकी मदद के लिए धन्यवाद।" },
-            { "english": "I am sorry for the delay.", "hindi": "देरी के लिए मुझे खेद है।" },
-            { "english": "Congratulations on your promotion!", "hindi": "आपकी प्रमोशन पर बधाई!" }
-          ]
+          "hindi": "वो कभी-कभी late आता है।",
+          "english": "He sometimes comes late.",
+          "adverb": "sometimes — 50%"
+        },
+        {
+          "hindi": "मैं rarely junk food खाता हूँ।",
+          "english": "I rarely eat junk food.",
+          "adverb": "rarely — 10%"
+        },
+        {
+          "hindi": "वो कभी झूठ नहीं बोलती।",
+          "english": "She never tells lies.",
+          "adverb": "never — 0%"
+        },
+        {
+          "hindi": "वो हमेशा punctual है।",
+          "english": "He is always punctual.",
+          "adverb": "always after 'is'"
+        },
+        {
+          "hindi": "हम usually meeting पर attend करते हैं।",
+          "english": "We usually attend the meeting.",
+          "adverb": "usually before main verb"
+        },
+        {
+          "hindi": "मैं कभी-कभी office से घर जल्दी आता हूँ।",
+          "english": "I sometimes come home early from office.",
+          "adverb": "sometimes before main verb"
+        },
+        {
+          "hindi": "वो कभी late नहीं होती।",
+          "english": "She is never late.",
+          "adverb": "never after is/am/are"
         }
       ],
-      "examples": [
-        { "english": "Good morning! How are you?", "hindi": "सुप्रभात! आप कैसे हैं?" },
-        { "english": "I wake up at 6 every morning.", "hindi": "मैं हर सुबह 6 बजे उठता हूँ।" },
-        { "english": "I brush my teeth twice a day.", "hindi": "मैं दिन में दो बार दाँत साफ करता हूँ।" },
-        { "english": "I have breakfast before going to office.", "hindi": "ऑफिस जाने से पहले मैं नाश्ता करता हूँ।" },
-        { "english": "The traffic is heavy in the morning.", "hindi": "सुबह के समय ट्रैफिक बहुत होता है।" },
-        { "english": "I start work at 9 AM.", "hindi": "मैं सुबह 9 बजे काम शुरू करता हूँ।" },
-        { "english": "I have a lot of work today.", "hindi": "आज मेरे पास बहुत काम है।" },
-        { "english": "The meeting starts in 10 minutes.", "hindi": "मीटिंग 10 मिनट में शुरू होती है।" },
-        { "english": "Can you send me that file?", "hindi": "क्या आप मुझे वो file भेज सकते हैं?" },
-        { "english": "I need to submit this report today.", "hindi": "मुझे आज यह रिपोर्ट जमा करनी है।" },
-        { "english": "My colleague helps me a lot.", "hindi": "मेरे सहयोगी मेरी बहुत मदद करते हैं।" },
-        { "english": "How much does this cost?", "hindi": "इसकी कीमत क्या है?" },
-        { "english": "Do you have this in a smaller size?", "hindi": "क्या आपके पास यह छोटे आकार में है?" },
-        { "english": "I need two kilos of tomatoes.", "hindi": "मुझे दो किलो टमाटर चाहिए।" },
-        { "english": "Do you accept UPI payments?", "hindi": "क्या आप UPI payment स्वीकार करते हैं?" },
-        { "english": "Can I get a discount?", "hindi": "क्या मुझे कोई छूट मिलेगी?" },
-        { "english": "Nice to meet you.", "hindi": "आपसे मिलकर अच्छा लगा।" },
-        { "english": "How is your family?", "hindi": "आपका परिवार कैसा है?" },
-        { "english": "Please come home sometime.", "hindi": "कभी घर आइए।" },
-        { "english": "Thank you for your help.", "hindi": "आपकी मदद के लिए धन्यवाद।" },
-        { "english": "I am sorry for the delay.", "hindi": "देरी के लिए मुझे खेद है।" },
-        { "english": "Congratulations on your promotion!", "hindi": "आपकी प्रमोशन पर बधाई!" },
-        { "english": "Could you repeat that, please?", "hindi": "क्या आप इसे फिर से कह सकते हैं?" },
-        { "english": "I will be there in five minutes.", "hindi": "मैं पाँच मिनट में वहाँ पहुँच जाऊँगा।" },
-        { "english": "Please give me a moment.", "hindi": "कृपया मुझे एक पल दें।" }
-      ],
       "keyRules": [
-        "Greetings situation के अनुसार बदलते हैं: Good morning (सुबह), Good afternoon (दोपहर), Good evening (शाम), Good night (रात को जाते समय)",
-        "Office में formal language use करो: 'Could you please...?' ज़्यादा polite है 'Can you...?' से",
-        "Apologies के लिए: informal = 'Sorry', formal = 'I apologize' / 'I am sorry for the inconvenience'",
-        "Requests के लिए 'please' से sentence polite बनता है: 'Send me the file.' → 'Please send me the file.'",
-        "Shopping में price पूछने के natural ways: 'How much is this?', 'What is the price?', 'How much does it cost?'",
-        "Social situations में gratitude: 'Thank you' (simple), 'Thank you so much' (more grateful), 'I really appreciate it' (most formal)",
-        "Daily conversation में contractions natural हैं: I'm, you're, it's, we're, they're, can't, don't, won't",
-        "Confirmation माँगते समय: 'Is that right?', 'Do you understand?', 'Are we clear?' — यह professional communication में important है",
-        "'Nice to meet you' पहली बार मिलने पर; 'Nice to see you again' दोबारा मिलने पर — यह common mistake है",
-        "समय के बारे में बात करते समय: 'at' specific time के लिए (at 9 AM), 'in' longer periods के लिए (in the morning)",
-        "Work-related requests में 'by when?' (कब तक) पूछना professional है: 'Can you send this by 5 PM?'",
-        "Farewell expressions: 'See you tomorrow', 'Have a nice day', 'Take care', 'Have a good weekend' — situation के अनुसार use करो"
+        "Be verb (is/am/are) के बाद frequency adverb",
+        "Main verb से पहले frequency adverb",
+        "Negative sentences में 'never' = 'don't/doesn't ever': I never go = I don't ever go",
+        "'Always' के साथ positive meaning, 'never' के साथ negative meaning",
+        "Sometimes sentence के start या end में भी aa sakta hai: Sometimes I go to gym."
       ],
       "commonErrors": [
-        "❌ Good morning sir, how you are? — ✅ Good morning, sir. How are you? — कारण: 'How are you?' = Do + Subject + Verb structure; 'how you are' question नहीं बनता",
-        "❌ I am having lot of work today. — ✅ I have a lot of work today. — कारण: 'Have' stative sense में Simple Present; 'a lot of' के पहले 'a' ज़रूरी है",
-        "❌ Please do the needful. — ✅ Please take care of this. / Please handle this. — कारण: 'Do the needful' Indian English है, global English में यह unusual लगता है",
-        "❌ I will come after sometime. — ✅ I will come after some time. — कारण: 'Sometime' = किसी दिन; 'some time' = कुछ समय बाद — दोनों अलग हैं",
-        "❌ She told me that she is coming tomorrow. — ✅ She told me that she would come tomorrow. — कारण: Reported speech में tense shift होती है",
-        "❌ Nice to meet you too. (जब कोई 'Goodbye' कह रहा हो) — ✅ Nice meeting you. — कारण: 'Nice to meet you' = पहली बार मिलने पर; जाते समय 'Nice meeting you' या 'It was nice meeting you'",
-        "❌ Can you please repeat again? — ✅ Could you please repeat that? — कारण: 'Repeat' का मतलब ही दोबारा कहना है, 'again' redundant है",
-        "❌ I am waiting since one hour. — ✅ I have been waiting for one hour. — कारण: Duration के लिए 'for', specific start point के लिए 'since'",
-        "❌ The traffic was very much today. — ✅ The traffic was very heavy today. — कारण: Traffic के साथ 'heavy' use होता है, 'very much' नहीं",
-        "❌ Myself Rahul. — ✅ I am Rahul. / My name is Rahul. — कारण: Introduction में 'myself' grammatically incorrect है; 'I am' या 'My name is' use करो",
-        "❌ I need to discuss about this matter. — ✅ I need to discuss this matter. — कारण: 'Discuss' के बाद सीधे object आता है, 'about' नहीं",
-        "❌ She congratulated me for my promotion. — ✅ She congratulated me on my promotion. — कारण: 'Congratulate' के साथ 'on' preposition आती है, 'for' नहीं"
+        {
+          "wrong": "I eat always breakfast.",
+          "correct": "I always eat breakfast.",
+          "explanation": "Main verb से पहले frequency adverb"
+        },
+        {
+          "wrong": "She is usually late always.",
+          "correct": "She is usually late.",
+          "explanation": "एक sentence में दो frequency adverbs normally नहीं लगाते"
+        },
+        {
+          "wrong": "He doesn't never smoke.",
+          "correct": "He never smokes. / He doesn't smoke.",
+          "explanation": "Double negative — 'doesn't' और 'never' साथ नहीं लगाते"
+        }
+      ]
+    },
+    {
+      "id": "common-action-verbs",
+      "title": "Section 12: 100 Essential Action Verbs for Daily Life",
+      "hindiTitle": "Section 12: 100 आवश्यक क्रियाएँ — रोज़मर्रा की ज़िंदगी के लिए",
+      "explanation": "यह 100 verbs की master list है। इन्हें memorize करना ज़रूरी है क्योंकि ये daily life, office, और conversation में सबसे ज़्यादा use होती हैं।\n\nHow to learn:\n1. List को 10-10 groups में divide करो\n2. हर group को एक दिन practice करो\n3. Sentences बनाओ हर verb के साथ\n4. Mirror के सामने practice करो",
+      "verbList": [
+        {
+          "verb": "go",
+          "hindi": "जाना",
+          "V2": "went",
+          "V3": "gone",
+          "example": "I go to office every day."
+        },
+        {
+          "verb": "come",
+          "hindi": "आना",
+          "V2": "came",
+          "V3": "come",
+          "example": "She comes here regularly."
+        },
+        {
+          "verb": "eat",
+          "hindi": "खाना",
+          "V2": "ate",
+          "V3": "eaten",
+          "example": "We eat together."
+        },
+        {
+          "verb": "drink",
+          "hindi": "पीना",
+          "V2": "drank",
+          "V3": "drunk",
+          "example": "He drinks coffee every morning."
+        },
+        {
+          "verb": "sleep",
+          "hindi": "सोना",
+          "V2": "slept",
+          "V3": "slept",
+          "example": "I sleep at 10 PM."
+        },
+        {
+          "verb": "wake",
+          "hindi": "जागना",
+          "V2": "woke",
+          "V3": "woken",
+          "example": "She wakes up early."
+        },
+        {
+          "verb": "work",
+          "hindi": "काम करना",
+          "V2": "worked",
+          "V3": "worked",
+          "example": "They work hard."
+        },
+        {
+          "verb": "study",
+          "hindi": "पढ़ना",
+          "V2": "studied",
+          "V3": "studied",
+          "example": "He studies every night."
+        },
+        {
+          "verb": "read",
+          "hindi": "पढ़ना",
+          "V2": "read",
+          "V3": "read",
+          "example": "I read the newspaper."
+        },
+        {
+          "verb": "write",
+          "hindi": "लिखना",
+          "V2": "wrote",
+          "V3": "written",
+          "example": "She writes emails."
+        },
+        {
+          "verb": "speak",
+          "hindi": "बोलना",
+          "V2": "spoke",
+          "V3": "spoken",
+          "example": "He speaks English."
+        },
+        {
+          "verb": "listen",
+          "hindi": "सुनना",
+          "V2": "listened",
+          "V3": "listened",
+          "example": "Please listen carefully."
+        },
+        {
+          "verb": "understand",
+          "hindi": "समझना",
+          "V2": "understood",
+          "V3": "understood",
+          "example": "I understand the rule."
+        },
+        {
+          "verb": "know",
+          "hindi": "जानना",
+          "V2": "knew",
+          "V3": "known",
+          "example": "She knows the answer."
+        },
+        {
+          "verb": "learn",
+          "hindi": "सीखना",
+          "V2": "learned",
+          "V3": "learned",
+          "example": "We learn English daily."
+        },
+        {
+          "verb": "teach",
+          "hindi": "पढ़ाना",
+          "V2": "taught",
+          "V3": "taught",
+          "example": "She teaches mathematics."
+        },
+        {
+          "verb": "play",
+          "hindi": "खेलना",
+          "V2": "played",
+          "V3": "played",
+          "example": "Children play outside."
+        },
+        {
+          "verb": "run",
+          "hindi": "दौड़ना",
+          "V2": "ran",
+          "V3": "run",
+          "example": "He runs every morning."
+        },
+        {
+          "verb": "walk",
+          "hindi": "चलना",
+          "V2": "walked",
+          "V3": "walked",
+          "example": "I walk to the station."
+        },
+        {
+          "verb": "sit",
+          "hindi": "बैठना",
+          "V2": "sat",
+          "V3": "sat",
+          "example": "Please sit down."
+        },
+        {
+          "verb": "stand",
+          "hindi": "खड़े होना",
+          "V2": "stood",
+          "V3": "stood",
+          "example": "He stands near the door."
+        },
+        {
+          "verb": "give",
+          "hindi": "देना",
+          "V2": "gave",
+          "V3": "given",
+          "example": "I give my best."
+        },
+        {
+          "verb": "take",
+          "hindi": "लेना",
+          "V2": "took",
+          "V3": "taken",
+          "example": "She takes notes."
+        },
+        {
+          "verb": "make",
+          "hindi": "बनाना",
+          "V2": "made",
+          "V3": "made",
+          "example": "He makes tea."
+        },
+        {
+          "verb": "buy",
+          "hindi": "खरीदना",
+          "V2": "bought",
+          "V3": "bought",
+          "example": "We buy groceries weekly."
+        },
+        {
+          "verb": "sell",
+          "hindi": "बेचना",
+          "V2": "sold",
+          "V3": "sold",
+          "example": "The shop sells books."
+        },
+        {
+          "verb": "bring",
+          "hindi": "लाना",
+          "V2": "brought",
+          "V3": "brought",
+          "example": "Please bring water."
+        },
+        {
+          "verb": "send",
+          "hindi": "भेजना",
+          "V2": "sent",
+          "V3": "sent",
+          "example": "I send emails daily."
+        },
+        {
+          "verb": "receive",
+          "hindi": "पाना/मिलना",
+          "V2": "received",
+          "V3": "received",
+          "example": "She receives many calls."
+        },
+        {
+          "verb": "meet",
+          "hindi": "मिलना",
+          "V2": "met",
+          "V3": "met",
+          "example": "We meet every Monday."
+        },
+        {
+          "verb": "call",
+          "hindi": "बुलाना/फ़ोन करना",
+          "V2": "called",
+          "V3": "called",
+          "example": "He calls me often."
+        },
+        {
+          "verb": "talk",
+          "hindi": "बात करना",
+          "V2": "talked",
+          "V3": "talked",
+          "example": "They talk for hours."
+        },
+        {
+          "verb": "ask",
+          "hindi": "पूछना",
+          "V2": "asked",
+          "V3": "asked",
+          "example": "I ask questions."
+        },
+        {
+          "verb": "answer",
+          "hindi": "जवाब देना",
+          "V2": "answered",
+          "V3": "answered",
+          "example": "She answers confidently."
+        },
+        {
+          "verb": "help",
+          "hindi": "मदद करना",
+          "V2": "helped",
+          "V3": "helped",
+          "example": "Please help me."
+        },
+        {
+          "verb": "use",
+          "hindi": "इस्तेमाल करना",
+          "V2": "used",
+          "V3": "used",
+          "example": "I use English daily."
+        },
+        {
+          "verb": "open",
+          "hindi": "खोलना",
+          "V2": "opened",
+          "V3": "opened",
+          "example": "Please open the window."
+        },
+        {
+          "verb": "close",
+          "hindi": "बंद करना",
+          "V2": "closed",
+          "V3": "closed",
+          "example": "Close the door."
+        },
+        {
+          "verb": "start",
+          "hindi": "शुरू करना",
+          "V2": "started",
+          "V3": "started",
+          "example": "We start work at 9."
+        },
+        {
+          "verb": "finish",
+          "hindi": "खत्म करना",
+          "V2": "finished",
+          "V3": "finished",
+          "example": "He finishes early."
+        },
+        {
+          "verb": "think",
+          "hindi": "सोचना",
+          "V2": "thought",
+          "V3": "thought",
+          "example": "I think positively."
+        },
+        {
+          "verb": "feel",
+          "hindi": "महसूस करना",
+          "V2": "felt",
+          "V3": "felt",
+          "example": "She feels happy."
+        },
+        {
+          "verb": "see",
+          "hindi": "देखना",
+          "V2": "saw",
+          "V3": "seen",
+          "example": "I see the point."
+        },
+        {
+          "verb": "look",
+          "hindi": "देखना",
+          "V2": "looked",
+          "V3": "looked",
+          "example": "Look at this!"
+        },
+        {
+          "verb": "watch",
+          "hindi": "देखना (ध्यान से)",
+          "V2": "watched",
+          "V3": "watched",
+          "example": "He watches movies."
+        },
+        {
+          "verb": "want",
+          "hindi": "चाहना",
+          "V2": "wanted",
+          "V3": "wanted",
+          "example": "I want to improve."
+        },
+        {
+          "verb": "need",
+          "hindi": "ज़रूरत होना",
+          "V2": "needed",
+          "V3": "needed",
+          "example": "We need more time."
+        },
+        {
+          "verb": "like",
+          "hindi": "पसंद करना",
+          "V2": "liked",
+          "V3": "liked",
+          "example": "She likes English."
+        },
+        {
+          "verb": "love",
+          "hindi": "प्यार करना",
+          "V2": "loved",
+          "V3": "loved",
+          "example": "I love learning."
+        },
+        {
+          "verb": "hate",
+          "hindi": "नफ़रत करना",
+          "V2": "hated",
+          "V3": "hated",
+          "example": "He hates waiting."
+        },
+        {
+          "verb": "try",
+          "hindi": "कोशिश करना",
+          "V2": "tried",
+          "V3": "tried",
+          "example": "Always try your best."
+        },
+        {
+          "verb": "keep",
+          "hindi": "रखना",
+          "V2": "kept",
+          "V3": "kept",
+          "example": "Keep this secret."
+        },
+        {
+          "verb": "put",
+          "hindi": "रखना",
+          "V2": "put",
+          "V3": "put",
+          "example": "Put it here."
+        },
+        {
+          "verb": "show",
+          "hindi": "दिखाना",
+          "V2": "showed",
+          "V3": "shown",
+          "example": "Show me the way."
+        },
+        {
+          "verb": "tell",
+          "hindi": "बताना",
+          "V2": "told",
+          "V3": "told",
+          "example": "Tell me the truth."
+        },
+        {
+          "verb": "say",
+          "hindi": "कहना",
+          "V2": "said",
+          "V3": "said",
+          "example": "What did you say?"
+        },
+        {
+          "verb": "believe",
+          "hindi": "विश्वास करना",
+          "V2": "believed",
+          "V3": "believed",
+          "example": "I believe in you."
+        },
+        {
+          "verb": "remember",
+          "hindi": "याद करना",
+          "V2": "remembered",
+          "V3": "remembered",
+          "example": "I remember everything."
+        },
+        {
+          "verb": "forget",
+          "hindi": "भूल जाना",
+          "V2": "forgot",
+          "V3": "forgotten",
+          "example": "Don't forget the time."
+        },
+        {
+          "verb": "hope",
+          "hindi": "उम्मीद करना",
+          "V2": "hoped",
+          "V3": "hoped",
+          "example": "I hope for the best."
+        },
+        {
+          "verb": "plan",
+          "hindi": "plan करना",
+          "V2": "planned",
+          "V3": "planned",
+          "example": "She plans carefully."
+        },
+        {
+          "verb": "decide",
+          "hindi": "फ़ैसला करना",
+          "V2": "decided",
+          "V3": "decided",
+          "example": "I decide quickly."
+        },
+        {
+          "verb": "agree",
+          "hindi": "सहमत होना",
+          "V2": "agreed",
+          "V3": "agreed",
+          "example": "We all agree."
+        },
+        {
+          "verb": "disagree",
+          "hindi": "असहमत होना",
+          "V2": "disagreed",
+          "V3": "disagreed",
+          "example": "I respectfully disagree."
+        },
+        {
+          "verb": "suggest",
+          "hindi": "सुझाव देना",
+          "V2": "suggested",
+          "V3": "suggested",
+          "example": "I suggest this approach."
+        },
+        {
+          "verb": "recommend",
+          "hindi": "recommend करना",
+          "V2": "recommended",
+          "V3": "recommended",
+          "example": "She recommends this book."
+        },
+        {
+          "verb": "explain",
+          "hindi": "समझाना",
+          "V2": "explained",
+          "V3": "explained",
+          "example": "Please explain clearly."
+        },
+        {
+          "verb": "describe",
+          "hindi": "वर्णन करना",
+          "V2": "described",
+          "V3": "described",
+          "example": "Describe your experience."
+        },
+        {
+          "verb": "discuss",
+          "hindi": "चर्चा करना",
+          "V2": "discussed",
+          "V3": "discussed",
+          "example": "Let's discuss the plan."
+        },
+        {
+          "verb": "prepare",
+          "hindi": "तैयारी करना",
+          "V2": "prepared",
+          "V3": "prepared",
+          "example": "I prepare for interviews."
+        },
+        {
+          "verb": "practice",
+          "hindi": "अभ्यास करना",
+          "V2": "practiced",
+          "V3": "practiced",
+          "example": "Practice makes perfect."
+        },
+        {
+          "verb": "improve",
+          "hindi": "सुधारना",
+          "V2": "improved",
+          "V3": "improved",
+          "example": "I improve every day."
+        },
+        {
+          "verb": "achieve",
+          "hindi": "हासिल करना",
+          "V2": "achieved",
+          "V3": "achieved",
+          "example": "Set goals and achieve them."
+        },
+        {
+          "verb": "succeed",
+          "hindi": "सफल होना",
+          "V2": "succeeded",
+          "V3": "succeeded",
+          "example": "Hard work helps you succeed."
+        },
+        {
+          "verb": "fail",
+          "hindi": "असफल होना",
+          "V2": "failed",
+          "V3": "failed",
+          "example": "Don't fear to fail."
+        },
+        {
+          "verb": "create",
+          "hindi": "बनाना",
+          "V2": "created",
+          "V3": "created",
+          "example": "She creates beautiful art."
+        },
+        {
+          "verb": "build",
+          "hindi": "बनाना/construct करना",
+          "V2": "built",
+          "V3": "built",
+          "example": "We build relationships."
+        },
+        {
+          "verb": "develop",
+          "hindi": "develop करना",
+          "V2": "developed",
+          "V3": "developed",
+          "example": "I develop my skills."
+        },
+        {
+          "verb": "grow",
+          "hindi": "बढ़ना",
+          "V2": "grew",
+          "V3": "grown",
+          "example": "We grow together."
+        },
+        {
+          "verb": "change",
+          "hindi": "बदलना",
+          "V2": "changed",
+          "V3": "changed",
+          "example": "Change your habits."
+        },
+        {
+          "verb": "manage",
+          "hindi": "manage करना",
+          "V2": "managed",
+          "V3": "managed",
+          "example": "She manages the team."
+        },
+        {
+          "verb": "handle",
+          "hindi": "संभालना",
+          "V2": "handled",
+          "V3": "handled",
+          "example": "He handles pressure well."
+        },
+        {
+          "verb": "solve",
+          "hindi": "हल करना",
+          "V2": "solved",
+          "V3": "solved",
+          "example": "I solve problems quickly."
+        },
+        {
+          "verb": "check",
+          "hindi": "check करना",
+          "V2": "checked",
+          "V3": "checked",
+          "example": "Please check your work."
+        },
+        {
+          "verb": "test",
+          "hindi": "test करना",
+          "V2": "tested",
+          "V3": "tested",
+          "example": "They test the product."
+        },
+        {
+          "verb": "review",
+          "hindi": "review करना",
+          "V2": "reviewed",
+          "V3": "reviewed",
+          "example": "She reviews documents."
+        },
+        {
+          "verb": "update",
+          "hindi": "update करना",
+          "V2": "updated",
+          "V3": "updated",
+          "example": "Please update the file."
+        },
+        {
+          "verb": "save",
+          "hindi": "बचाना/save करना",
+          "V2": "saved",
+          "V3": "saved",
+          "example": "Save your progress."
+        },
+        {
+          "verb": "share",
+          "hindi": "share करना",
+          "V2": "shared",
+          "V3": "shared",
+          "example": "Share your ideas."
+        },
+        {
+          "verb": "join",
+          "hindi": "join करना",
+          "V2": "joined",
+          "V3": "joined",
+          "example": "Please join the meeting."
+        },
+        {
+          "verb": "leave",
+          "hindi": "छोड़ना/जाना",
+          "V2": "left",
+          "V3": "left",
+          "example": "I leave at 6 PM."
+        },
+        {
+          "verb": "return",
+          "hindi": "वापस आना",
+          "V2": "returned",
+          "V3": "returned",
+          "example": "She returns by evening."
+        },
+        {
+          "verb": "visit",
+          "hindi": "मिलने जाना",
+          "V2": "visited",
+          "V3": "visited",
+          "example": "We visit clients weekly."
+        },
+        {
+          "verb": "travel",
+          "hindi": "यात्रा करना",
+          "V2": "traveled",
+          "V3": "traveled",
+          "example": "I travel for work."
+        },
+        {
+          "verb": "drive",
+          "hindi": "drive करना",
+          "V2": "drove",
+          "V3": "driven",
+          "example": "He drives to work."
+        },
+        {
+          "verb": "live",
+          "hindi": "रहना",
+          "V2": "lived",
+          "V3": "lived",
+          "example": "I live in Delhi."
+        },
+        {
+          "verb": "stay",
+          "hindi": "रुकना",
+          "V2": "stayed",
+          "V3": "stayed",
+          "example": "She stays focused."
+        },
+        {
+          "verb": "move",
+          "hindi": "हटना/shift होना",
+          "V2": "moved",
+          "V3": "moved",
+          "example": "He moved to Mumbai."
+        },
+        {
+          "verb": "wait",
+          "hindi": "प्रतीक्षा करना",
+          "V2": "waited",
+          "V3": "waited",
+          "example": "Please wait a moment."
+        },
+        {
+          "verb": "hurry",
+          "hindi": "जल्दी करना",
+          "V2": "hurried",
+          "V3": "hurried",
+          "example": "Don't hurry — be careful."
+        }
       ],
-      "memoryTrick": "Daily sentences को 4 buckets में याद करो: 🌅 Morning (Good morning → Breakfast) | 💼 Office (Meeting → Report) | 🛒 Shopping (Price → Discount) | 🤝 Social (Nice to meet → Thank you) — हर situation का एक sentence bucket!",
-      "speakingTips": [
-        "Daily sentences को chunks में याद करो — 'Thank you for your help' को word by word नहीं, एक unit की तरह बोलो",
-        "Polite requests में 'Could you...?' को smooth बोलो — 'Cud-ya...' जैसा sound naturally आता है in fast speech",
-        "Greetings को confident tone से बोलो — 'Good morning!' में eye contact करो और slightly smile करो — यह professional impression बनाता है",
-        "Apologies में sincere tone रखो: 'I'm SORRY for the delay' — 'sorry' को slightly stress करो ताकि genuine लगे",
-        "Office में fillers naturally use करो: 'Sure', 'Absolutely', 'Of course', 'No problem' — ये simple responses हैं जो बहुत काम आते हैं",
-        "Ending conversations gracefully: 'Take care', 'See you around', 'Have a good day' — इन्हें warmly और briefly बोलो, long goodbye मत करो"
+      "keyRules": [
+        "Regular verbs: +ed for past forms (work→worked, play→played)",
+        "Irregular verbs: completely different past forms (go→went, eat→ate)",
+        "He/She/It के साथ: goes, eats, sleeps, works (add s/es)",
+        "Irregular verbs की list याद करना ज़रूरी है",
+        "Stative verbs (know, love, understand) → Simple, not Continuous"
+      ]
+    },
+    {
+      "id": "daily-conversation-sentences",
+      "title": "Section 13: 50 Daily Conversation Sentences — Ready to Use",
+      "hindiTitle": "Section 13: 50 रोज़मर्रा की बातचीत के वाक्य",
+      "explanation": "यह 50 sentences की master list है जो आप daily life में immediately use कर सकते हैं। इन्हें memorize करो और naturally use करना शुरू करो। यही है English speaking का real shortcut!",
+      "sentences": [
+        {
+          "hindi": "मैं ठीक हूँ, धन्यवाद।",
+          "english": "I am fine, thank you.",
+          "context": "Greeting response"
+        },
+        {
+          "hindi": "क्या मैं आपसे मिल सकता हूँ?",
+          "english": "Can I meet you?",
+          "context": "Requesting a meeting"
+        },
+        {
+          "hindi": "मुझे यह समझ नहीं आया।",
+          "english": "I didn't understand this.",
+          "context": "Asking for clarification"
+        },
+        {
+          "hindi": "क्या आप फिर से बोल सकते हैं?",
+          "english": "Could you please repeat that?",
+          "context": "Polite request"
+        },
+        {
+          "hindi": "मुझे खेद है, मैं late हो गया।",
+          "english": "I am sorry, I am late.",
+          "context": "Apologizing"
+        },
+        {
+          "hindi": "मुझे English में बात करना practice करना है।",
+          "english": "I need to practice speaking in English.",
+          "context": "Self-expression"
+        },
+        {
+          "hindi": "आपका phone number क्या है?",
+          "english": "What is your phone number?",
+          "context": "Information exchange"
+        },
+        {
+          "hindi": "मैं आपसे agree करता हूँ।",
+          "english": "I agree with you.",
+          "context": "Agreement"
+        },
+        {
+          "hindi": "मैं आपसे agree नहीं करता।",
+          "english": "I disagree with you.",
+          "context": "Respectful disagreement"
+        },
+        {
+          "hindi": "यह एक अच्छा suggestion है।",
+          "english": "That is a good suggestion.",
+          "context": "Appreciation"
+        },
+        {
+          "hindi": "मुझे एक moment दो।",
+          "english": "Give me a moment.",
+          "context": "Buying time"
+        },
+        {
+          "hindi": "क्या यह सही है?",
+          "english": "Is this correct?",
+          "context": "Seeking confirmation"
+        },
+        {
+          "hindi": "मुझे यकीन नहीं है।",
+          "english": "I am not sure.",
+          "context": "Expressing uncertainty"
+        },
+        {
+          "hindi": "मैं इस पर सोचूँगा।",
+          "english": "I will think about it.",
+          "context": "Delaying decision"
+        },
+        {
+          "hindi": "यह बढ़िया idea है।",
+          "english": "That is a great idea.",
+          "context": "Positive response"
+        },
+        {
+          "hindi": "मुझे आपकी मदद चाहिए।",
+          "english": "I need your help.",
+          "context": "Requesting help"
+        },
+        {
+          "hindi": "कोई बात नहीं।",
+          "english": "No problem. / Never mind.",
+          "context": "Reassurance"
+        },
+        {
+          "hindi": "आपका स्वागत है।",
+          "english": "You are welcome.",
+          "context": "Response to 'thank you'"
+        },
+        {
+          "hindi": "क्या आप busy हैं?",
+          "english": "Are you busy?",
+          "context": "Checking availability"
+        },
+        {
+          "hindi": "मैं अभी meeting में हूँ।",
+          "english": "I am in a meeting right now.",
+          "context": "Explaining unavailability"
+        },
+        {
+          "hindi": "मैं थोड़ी देर में call करता हूँ।",
+          "english": "I will call you in a while.",
+          "context": "Promising callback"
+        },
+        {
+          "hindi": "आप कैसा feel कर रहे हैं?",
+          "english": "How are you feeling?",
+          "context": "Showing concern"
+        },
+        {
+          "hindi": "सब कुछ ठीक हो जाएगा।",
+          "english": "Everything will be fine.",
+          "context": "Encouragement"
+        },
+        {
+          "hindi": "मैं आपकी बात समझता हूँ।",
+          "english": "I understand what you mean.",
+          "context": "Showing comprehension"
+        },
+        {
+          "hindi": "क्या आप मुझे बता सकते हैं कि...?",
+          "english": "Could you tell me...?",
+          "context": "Polite inquiry"
+        },
+        {
+          "hindi": "शुभकामनाएँ!",
+          "english": "Best of luck! / Good luck!",
+          "context": "Wishing well"
+        },
+        {
+          "hindi": "बहुत अच्छा किया!",
+          "english": "Well done!",
+          "context": "Appreciation/Praise"
+        },
+        {
+          "hindi": "आगे बढ़ते रहो।",
+          "english": "Keep it up! / Keep going!",
+          "context": "Motivation"
+        },
+        {
+          "hindi": "मैं आपकी जगह होता तो...?",
+          "english": "If I were in your place, I would...",
+          "context": "Giving advice"
+        },
+        {
+          "hindi": "मेरी राय में...",
+          "english": "In my opinion...",
+          "context": "Expressing view"
+        },
+        {
+          "hindi": "मैं honestly बोलूँ तो...",
+          "english": "To be honest...",
+          "context": "Honest expression"
+        },
+        {
+          "hindi": "वैसे, एक बात बताऊँ?",
+          "english": "By the way, let me tell you something.",
+          "context": "Adding information"
+        },
+        {
+          "hindi": "वैसे तो..., लेकिन...",
+          "english": "Actually, ... but ...",
+          "context": "Contrast expression"
+        },
+        {
+          "hindi": "यह मेरे लिए नया है।",
+          "english": "This is new to me.",
+          "context": "Learning context"
+        },
+        {
+          "hindi": "मैं अभी try करता हूँ।",
+          "english": "Let me try now.",
+          "context": "Initiative"
+        },
+        {
+          "hindi": "यह मेरी गलती थी।",
+          "english": "That was my mistake.",
+          "context": "Taking responsibility"
+        },
+        {
+          "hindi": "Please मुझे माफ़ करें।",
+          "english": "Please forgive me.",
+          "context": "Sincere apology"
+        },
+        {
+          "hindi": "आगे से ध्यान रखूँगा।",
+          "english": "I will be careful next time.",
+          "context": "Promising improvement"
+        },
+        {
+          "hindi": "क्या आप मेरे साथ चलेंगे?",
+          "english": "Will you come with me?",
+          "context": "Invitation"
+        },
+        {
+          "hindi": "यह बिल्कुल सही है।",
+          "english": "This is absolutely correct.",
+          "context": "Strong agreement"
+        },
+        {
+          "hindi": "मैं इस पर agree नहीं कर सकता।",
+          "english": "I cannot agree on this.",
+          "context": "Strong disagreement"
+        },
+        {
+          "hindi": "Please थोड़ा slowly बोलें।",
+          "english": "Please speak a little slowly.",
+          "context": "Requesting slower speech"
+        },
+        {
+          "hindi": "मुझे English में बहुत improvement की ज़रूरत है।",
+          "english": "I need a lot of improvement in English.",
+          "context": "Self-awareness"
+        },
+        {
+          "hindi": "आप बहुत अच्छा English बोलते हैं।",
+          "english": "You speak very good English.",
+          "context": "Compliment"
+        },
+        {
+          "hindi": "क्या हम इसे कल discuss कर सकते हैं?",
+          "english": "Can we discuss this tomorrow?",
+          "context": "Rescheduling"
+        },
+        {
+          "hindi": "इसमें कुछ time लगेगा।",
+          "english": "This will take some time.",
+          "context": "Managing expectations"
+        },
+        {
+          "hindi": "मैं इस matter को seriously लेता हूँ।",
+          "english": "I take this matter seriously.",
+          "context": "Professional"
+        },
+        {
+          "hindi": "मुझे इस बारे में और information चाहिए।",
+          "english": "I need more information about this.",
+          "context": "Professional inquiry"
+        },
+        {
+          "hindi": "यह decision मैं अकेले नहीं ले सकता।",
+          "english": "I cannot take this decision alone.",
+          "context": "Collaborative"
+        },
+        {
+          "hindi": "हम मिलकर इसे solve करेंगे।",
+          "english": "We will solve this together.",
+          "context": "Teamwork"
+        }
+      ]
+    },
+    {
+      "id": "office-professional-sentences",
+      "title": "Section 14: Office & Professional English — 40 Must-Know Sentences",
+      "hindiTitle": "Section 14: Office और Professional English",
+      "explanation": "Office और professional settings में English use करना बहुत ज़रूरी है। यह 40 sentences आपकी professional life को transform कर देंगे। Interview से लेकर daily work तक — इन्हें memorize करो।",
+      "sentences": [
+        {
+          "hindi": "मैं इस project पर काम कर रहा हूँ।",
+          "english": "I am working on this project.",
+          "context": "Describing current task"
+        },
+        {
+          "hindi": "Meeting कब है?",
+          "english": "When is the meeting?",
+          "context": "Schedule inquiry"
+        },
+        {
+          "hindi": "क्या आप report submit कर सकते हैं?",
+          "english": "Could you submit the report?",
+          "context": "Professional request"
+        },
+        {
+          "hindi": "यह deadline क्या है?",
+          "english": "What is the deadline for this?",
+          "context": "Time management"
+        },
+        {
+          "hindi": "मुझे इसमें थोड़ा और time चाहिए।",
+          "english": "I need a little more time for this.",
+          "context": "Requesting extension"
+        },
+        {
+          "hindi": "मैं इसे आज तक पूरा कर दूँगा।",
+          "english": "I will complete this by today.",
+          "context": "Commitment"
+        },
+        {
+          "hindi": "यह task किसे assign किया गया है?",
+          "english": "Who is this task assigned to?",
+          "context": "Responsibility clarification"
+        },
+        {
+          "hindi": "Please इसे priority पर रखें।",
+          "english": "Please keep this on priority.",
+          "context": "Priority setting"
+        },
+        {
+          "hindi": "मैं आपको update करता रहूँगा।",
+          "english": "I will keep you updated.",
+          "context": "Communication"
+        },
+        {
+          "hindi": "कोई भी problem आए तो बताइए।",
+          "english": "Let me know if there is any problem.",
+          "context": "Supportive statement"
+        },
+        {
+          "hindi": "इस project की progress क्या है?",
+          "english": "What is the progress of this project?",
+          "context": "Status inquiry"
+        },
+        {
+          "hindi": "क्या हम इसे reschedule कर सकते हैं?",
+          "english": "Can we reschedule this?",
+          "context": "Meeting change"
+        },
+        {
+          "hindi": "मैं आपके साथ agree करता हूँ।",
+          "english": "I agree with your point.",
+          "context": "Meeting discussion"
+        },
+        {
+          "hindi": "एक different perspective यह है...",
+          "english": "A different perspective is...",
+          "context": "Constructive discussion"
+        },
+        {
+          "hindi": "क्या हम एक quick call कर सकते हैं?",
+          "english": "Can we have a quick call?",
+          "context": "Communication request"
+        },
+        {
+          "hindi": "मुझे एक important email भेजनी है।",
+          "english": "I need to send an important email.",
+          "context": "Work task"
+        },
+        {
+          "hindi": "यह document review करने की ज़रूरत है।",
+          "english": "This document needs to be reviewed.",
+          "context": "Task delegation"
+        },
+        {
+          "hindi": "क्या आप इस पर feedback दे सकते हैं?",
+          "english": "Could you give feedback on this?",
+          "context": "Feedback request"
+        },
+        {
+          "hindi": "आपकी बात note कर ली है।",
+          "english": "I have noted your point.",
+          "context": "Acknowledgment"
+        },
+        {
+          "hindi": "मुझे इस विषय पर आपकी राय चाहिए।",
+          "english": "I would like your opinion on this.",
+          "context": "Seeking input"
+        },
+        {
+          "hindi": "यह proposal approved हो गई।",
+          "english": "This proposal has been approved.",
+          "context": "Good news"
+        },
+        {
+          "hindi": "हमें इस पर फिर से सोचना होगा।",
+          "english": "We need to rethink this.",
+          "context": "Course correction"
+        },
+        {
+          "hindi": "यह budget के अंदर है।",
+          "english": "This is within the budget.",
+          "context": "Financial context"
+        },
+        {
+          "hindi": "इस project का scope क्या है?",
+          "english": "What is the scope of this project?",
+          "context": "Project planning"
+        },
+        {
+          "hindi": "क्या यह strategy effective है?",
+          "english": "Is this strategy effective?",
+          "context": "Evaluation"
+        },
+        {
+          "hindi": "हमें अपने goals को define करना होगा।",
+          "english": "We need to define our goals.",
+          "context": "Planning"
+        },
+        {
+          "hindi": "Performance review कब होगी?",
+          "english": "When will the performance review be?",
+          "context": "HR context"
+        },
+        {
+          "hindi": "मैं अपने experience के बारे में बताना चाहता हूँ।",
+          "english": "I would like to share about my experience.",
+          "context": "Interview/Meeting"
+        },
+        {
+          "hindi": "मेरी strength यह है कि मैं team player हूँ।",
+          "english": "My strength is that I am a team player.",
+          "context": "Interview"
+        },
+        {
+          "hindi": "मैं हमेशा deadline के अंदर काम deliver करता हूँ।",
+          "english": "I always deliver work within the deadline.",
+          "context": "Professional claim"
+        },
+        {
+          "hindi": "क्या आप मुझे इस role के बारे में बता सकते हैं?",
+          "english": "Could you tell me more about this role?",
+          "context": "Interview question"
+        },
+        {
+          "hindi": "मुझे इस company में join करने में बहुत खुशी होगी।",
+          "english": "I would be very happy to join this company.",
+          "context": "Interview closing"
+        },
+        {
+          "hindi": "मेरे पास X साल का experience है।",
+          "english": "I have X years of experience.",
+          "context": "Resume/Interview"
+        },
+        {
+          "hindi": "मैंने अपनी previous company में यह achieve किया।",
+          "english": "I achieved this in my previous company.",
+          "context": "Achievement statement"
+        },
+        {
+          "hindi": "मैं इस opportunity के लिए grateful हूँ।",
+          "english": "I am grateful for this opportunity.",
+          "context": "Gratitude"
+        },
+        {
+          "hindi": "इस meeting को किसने organize किया?",
+          "english": "Who organized this meeting?",
+          "context": "Meeting context"
+        },
+        {
+          "hindi": "Please action items list करें।",
+          "english": "Please list the action items.",
+          "context": "Meeting close"
+        },
+        {
+          "hindi": "Next meeting कब होगी?",
+          "english": "When will the next meeting be?",
+          "context": "Follow-up"
+        },
+        {
+          "hindi": "यह सब minutes में note करो।",
+          "english": "Note all of this in the minutes.",
+          "context": "Documentation"
+        },
+        {
+          "hindi": "Thank you for your time.",
+          "english": "Thank you for your time.",
+          "context": "Professional courtesy"
+        }
+      ]
+    },
+    {
+      "id": "thinking-in-english",
+      "title": "Section 15: Think in English — Not Translate!",
+      "hindiTitle": "Section 15: English में सोचो — Translate मत करो!",
+      "explanation": "यह सबसे important lesson है। Most Indians English में सोचते नहीं, वो Hindi में सोचकर English में translate करते हैं। यही सबसे बड़ी mistake है।\n\nTranslation mode से जो होता है:\n1. आप slow हो जाते हो\n2. Sentences unnatural लगते हैं\n3. Hindi grammar English में आ जाती है\n4. Confidence drop होता है\n\nThinking in English का method:\n1. Start with simple things — objects around you को English में name करो\n2. Daily routine को English में सोचो: 'I am waking up. I will brush my teeth. I will drink water.'\n3. Emotions को English में express करो: 'I feel tired today.'\n4. Problems को English में analyze करो\n5. Dreams में English आने लगे तो समझो — fluency आ रही है!",
+      "commonHindiThoughtPatterns": [
+        {
+          "hindiThought": "मुझे bhook lagi hai",
+          "wrongTranslation": "Hunger has attached to me.",
+          "correctEnglish": "I am hungry.",
+          "lesson": "Hindi mental model vs English mental model"
+        },
+        {
+          "hindiThought": "Mujhe cold laga",
+          "wrongTranslation": "Cold touched me.",
+          "correctEnglish": "I caught a cold. / I have a cold.",
+          "lesson": "Body sensations are expressed differently"
+        },
+        {
+          "hindiThought": "Mera naam Ram hai",
+          "wrongTranslation": "My name is Ram.",
+          "correctEnglish": "My name is Ram. ✓ (This one is fine!)",
+          "lesson": "SVO matches here"
+        },
+        {
+          "hindiThought": "Main jaunga (future)",
+          "wrongTranslation": "I will going.",
+          "correctEnglish": "I will go.",
+          "lesson": "Will + base verb — not 'will going'"
+        },
+        {
+          "hindiThought": "Usse kya problem hai?",
+          "wrongTranslation": "Him what problem is?",
+          "correctEnglish": "What problem does he have? / What is his problem?",
+          "lesson": "Question formation is completely different"
+        }
       ],
-      "vocabulary": [
-        { "word": "colleague", "hindi": "सहकर्मी", "type": "noun" },
-        { "word": "submit", "hindi": "जमा करना", "type": "verb" },
-        { "word": "discount", "hindi": "छूट", "type": "noun" },
-        { "word": "traffic", "hindi": "यातायात", "type": "noun" },
-        { "word": "congratulations", "hindi": "बधाई", "type": "noun" },
-        { "word": "apologize", "hindi": "माफी माँगना", "type": "verb" },
-        { "word": "schedule", "hindi": "कार्यक्रम", "type": "noun" },
-        { "word": "polite", "hindi": "विनम्र", "type": "adjective" },
-        { "word": "formal", "hindi": "औपचारिक", "type": "adjective" },
-        { "word": "informal", "hindi": "अनौपचारिक", "type": "adjective" },
-        { "word": "routine", "hindi": "दिनचर्या", "type": "noun" },
-        { "word": "appreciate", "hindi": "सराहना करना", "type": "verb" },
-        { "word": "interaction", "hindi": "बातचीत/संवाद", "type": "noun" }
+      "dailyPracticePlan": [
+        {
+          "time": "Morning",
+          "activity": "Wake up aur 5 English sentences bolte hue uthho: 'Good morning. Today is a new day. I feel great. I will learn English today. Nothing can stop me.'"
+        },
+        {
+          "time": "During commute",
+          "activity": "Objects aur scenes ko English mein describe karo: 'That is a red bus. The road is crowded. The weather is cloudy.'"
+        },
+        {
+          "time": "At lunch",
+          "activity": "Food ko English mein describe karo: 'I am having rice and dal. It tastes delicious. I feel satisfied.'"
+        },
+        {
+          "time": "Evening",
+          "activity": "Din bhar ki activities ko English mein narate karo: 'Today I worked on...I met...I completed...'"
+        },
+        {
+          "time": "Night",
+          "activity": "Kal ka plan English mein banao: 'Tomorrow I will...I need to...I plan to...'"
+        }
+      ],
+      "keyRules": [
+        "Translation se bachho — direct English thinking practice karo",
+        "Simple sentences se shuru karo — complex baad mein aayegi",
+        "Galat bolna theek hai — rukhna galat hai",
+        "English movies/shows subtitles ke saath dekho",
+        "Roz ek English paragraph apni diary mein likho"
       ]
     }
   ],
   "grammarRules": [
-    {
-      "rule": "Subject-Verb Agreement (SVO Structure)",
-      "explanation": "Singular subject के साथ singular verb, Plural subject के साथ plural verb. English में Subject + Verb + Object का order होता है — Hindi (SOV) से अलग।",
-      "correct": ["He works hard.", "They work hard.", "Ram eats food."],
-      "incorrect": ["He work hard.", "They works hard.", "Food Ram eats."]
-    },
-    {
-      "rule": "Simple Present — Third Person Singular (He/She/It + s/es)",
-      "explanation": "He/She/It के साथ verb में 's' या 'es' जोड़ते हैं। -ch/-sh/-s/-x/-o ending → 'es'; consonant+y → y to i+'es'",
-      "correct": ["She works.", "He watches TV.", "It goes well.", "She studies hard."],
-      "incorrect": ["She work.", "He watch TV.", "She studys hard."]
-    },
-    {
-      "rule": "Do/Does in Questions",
-      "explanation": "I/You/We/They के साथ 'Do', He/She/It के साथ 'Does' — verb की base form use होती है। Does के बाद 's' नहीं।",
-      "correct": ["Do you know?", "Does she know?", "What does he do?"],
-      "incorrect": ["Does you know?", "Do she knows?", "What does he does?"]
-    },
-    {
-      "rule": "Do Not / Does Not for Negatives",
-      "explanation": "I/You/We/They + do not + base verb; He/She/It + does not + base verb. Does not के बाद base form — 's' नहीं।",
-      "correct": ["I do not eat meat.", "She does not drink coffee.", "He doesn't know."],
-      "incorrect": ["I not eat meat.", "She does not eats.", "He don't know."]
-    },
-    {
-      "rule": "WH-Question Word Order",
-      "explanation": "WH-word + do/does + Subject + base verb + ? WH-questions में do/does ज़रूरी है; बिना auxiliary question नहीं बनता।",
-      "correct": ["Where do you work?", "What does she do?", "How does it work?"],
-      "incorrect": ["Where you work?", "What she does?", "How it works?"]
-    },
-    {
-      "rule": "Subject Pronouns vs Object Pronouns",
-      "explanation": "Subject position: I, he, she, we, they. Object position (verb/preposition के बाद): me, him, her, us, them.",
-      "correct": ["She called me.", "He and I went.", "They invited us."],
-      "incorrect": ["She called I.", "Me and him went.", "They invited we."]
-    },
-    {
-      "rule": "Possessive Adjectives Before Nouns",
-      "explanation": "my, your, his, her, its, our, their — ये हमेशा noun से पहले आते हैं। 'Its' में apostrophe नहीं। 'It's' = It is।",
-      "correct": ["My bag is here.", "His name is Ram.", "The dog wagged its tail."],
-      "incorrect": ["Mine bag is here.", "The dog wagged it's tail."]
-    },
-    {
-      "rule": "Article A vs An",
-      "explanation": "Sound देखो, spelling नहीं। Consonant sound → 'a'; Vowel sound (a/e/i/o/u) → 'an'. 'a university' (yu-sound), 'an hour' (silent h).",
-      "correct": ["a book", "an apple", "an hour", "a university", "an MBA"],
-      "incorrect": ["an book", "a apple", "a hour", "an university"]
-    },
-    {
-      "rule": "Article The — Definite Reference",
-      "explanation": "'The' specific या already-known nouns से पहले आता है। Unique चीज़ें (sun, moon), superlatives, second mention के लिए।",
-      "correct": ["The sun rises in the east.", "He is the best student.", "I saw a cat. The cat was black."],
-      "incorrect": ["I love the India.", "He goes to the school daily.", "The honesty is important."]
-    },
-    {
-      "rule": "No Article with Proper Nouns, Languages, Sports",
-      "explanation": "देशों, शहरों, नामों, भाषाओं, और खेलों के साथ article नहीं आता। Exception: rivers, mountain ranges, newspapers with 'the'.",
-      "correct": ["I love India.", "She speaks Hindi.", "He plays cricket.", "The Ganga is holy."],
-      "incorrect": ["I love the India.", "She speaks the Hindi.", "He plays the cricket."]
-    },
-    {
-      "rule": "Stative Verbs — No Continuous Form",
-      "explanation": "Know, like, love, want, need, understand, believe, remember, prefer — ये Simple Present में आते हैं, never 'am/is/are + verb+ing'।",
-      "correct": ["I know him.", "She wants tea.", "He likes cricket.", "I understand."],
-      "incorrect": ["I am knowing him.", "She is wanting tea.", "I am understanding."]
-    },
-    {
-      "rule": "Simple Present for General Truths and Scientific Facts",
-      "explanation": "Permanent facts, scientific truths, और universal realities के लिए हमेशा Simple Present use होता है।",
-      "correct": ["Water boils at 100°C.", "The Earth revolves around the Sun.", "Cats eat fish."],
-      "incorrect": ["Water boiled at 100°C.", "The Earth is revolving around the Sun. (as a fact)"]
-    },
-    {
-      "rule": "Frequency Adverbs — Position in Sentence",
-      "explanation": "Always, usually, often, sometimes, rarely, never — ये main verb से पहले आते हैं, लेकिन 'be' verb के बाद।",
-      "correct": ["I always eat breakfast.", "She is always late.", "He never smokes."],
-      "incorrect": ["I eat always breakfast.", "Always she is late.", "He smokes never."]
-    },
-    {
-      "rule": "Have vs Has — Possession",
-      "explanation": "I/You/We/They + have; He/She/It + has. Possession के लिए Simple Present, 'am/is/are having' नहीं।",
-      "correct": ["I have a car.", "She has a laptop.", "They have two children."],
-      "incorrect": ["I am having a car.", "She have a laptop.", "He have two children."]
-    },
-    {
-      "rule": "Prepositions of Time — At, In, On",
-      "explanation": "At: specific time (at 9 AM, at noon); In: longer periods (in the morning, in January, in 2024); On: days and dates (on Monday, on 15th August).",
-      "correct": ["at 5 PM", "in the morning", "on Monday", "in 2024", "on 15th August"],
-      "incorrect": ["in 5 PM", "at the morning", "at Monday", "on 2024"]
-    },
-    {
-      "rule": "Countable vs Uncountable Nouns with Articles",
-      "explanation": "Countable nouns (singular) के साथ a/an: a book, a chair. Uncountable nouns के साथ a/an नहीं: water, advice, information, rice.",
-      "correct": ["I need advice.", "He drinks water.", "She gave me information."],
-      "incorrect": ["I need an advice.", "He drinks a water.", "She gave me an information."]
-    },
-    {
-      "rule": "Question Tags in Simple Present",
-      "explanation": "Positive statement → negative tag; Negative statement → positive tag. I → am I? / aren't I? He/She → doesn't he/she?",
-      "correct": ["She works here, doesn't she?", "They don't like it, do they?", "You know him, don't you?"],
-      "incorrect": ["She works here, isn't it?", "He doesn't know, doesn't he?"]
-    },
-    {
-      "rule": "Verb Collocation — Correct Prepositions with Verbs",
-      "explanation": "Listen to (not 'listen music'), talk to/with, wait for, think about, believe in, look at, agree with — each verb has its fixed preposition.",
-      "correct": ["I listen to music.", "She thinks about the problem.", "I believe in you."],
-      "incorrect": ["I listen music.", "She thinks the problem.", "I believe you. (meaning = I trust what you say, not I believe IN you)"]
-    },
-    {
-      "rule": "Discuss — No Preposition After It",
-      "explanation": "'Discuss' verb के बाद directly object आता है — 'discuss about' गलत है। Similarly: 'mention', 'reach', 'enter'।",
-      "correct": ["We discussed the plan.", "Let us discuss this issue.", "She mentioned the problem."],
-      "incorrect": ["We discussed about the plan.", "Let us discuss about this.", "She mentioned about the problem."]
-    },
-    {
-      "rule": "Since vs For with Time Duration",
-      "explanation": "'Since' = specific start point तक से (since 2020, since Monday); 'For' = duration/अवधि (for two hours, for three years).",
-      "correct": ["I have lived here for ten years.", "She has worked here since 2019.", "I waited for one hour."],
-      "incorrect": ["I have lived here since ten years.", "She has worked here for 2019.", "I waited since one hour."]
-    },
-    {
-      "rule": "Congratulate On / Apologize For / Insist On",
-      "explanation": "कुछ verbs की fixed prepositions होती हैं: congratulate on, apologize for, insist on, depend on, agree with, object to.",
-      "correct": ["I congratulate you on your success.", "She apologized for her mistake.", "He insists on punctuality."],
-      "incorrect": ["I congratulate you for your success.", "She apologized about her mistake.", "He insists for punctuality."]
-    }
+    "Simple Present = routine, facts, general truths",
+    "He/She/It ke saath verb mein s/es lagao",
+    "Do/Does ka use questions aur negatives ke liye",
+    "Articles: a (consonant sound), an (vowel sound), the (specific)",
+    "SVO word order — subject pehle, verb beech mein, object baad mein",
+    "Frequency adverbs: always/usually verb se pehle, be-verb ke baad",
+    "Subject pronouns: I/You/He/She/It/We/They",
+    "Object pronouns: me/you/him/her/it/us/them",
+    "Possessive adjectives: my/your/his/her/its/our/their",
+    "WH questions: WH word + Do/Does + Subject + V1?"
   ],
   "commonMistakes": [
-    { "wrong": "She go to school.", "right": "She goes to school.", "explanation": "She/He/It के साथ verb में 's' या 'es' ज़रूरी है" },
-    { "wrong": "He don't know.", "right": "He doesn't know.", "explanation": "He/She/It के साथ 'doesn't' use होता है, 'don't' नहीं" },
-    { "wrong": "Does she eats rice?", "right": "Does she eat rice?", "explanation": "Does/Do के बाद हमेशा base form आती है" },
-    { "wrong": "I am having a car.", "right": "I have a car.", "explanation": "Possession के लिए simple present, not continuous" },
-    { "wrong": "She is knowing him.", "right": "She knows him.", "explanation": "Mental states के लिए simple present, continuous नहीं" },
-    { "wrong": "Rice I eat daily.", "right": "I eat rice daily.", "explanation": "English SVO order है — Subject पहले, Object बाद में; Hindi की तरह Object को शुरू में नहीं रखते" },
-    { "wrong": "I am go to market.", "right": "I go to market.", "explanation": "Simple Present में 'am/is/are + base verb' नहीं होता — सीधे base verb use करो" },
-    { "wrong": "Where you work?", "right": "Where do you work?", "explanation": "WH-questions में 'do/does' ज़रूरी है; बिना auxiliary verb के question नहीं बनता" },
-    { "wrong": "She called I.", "right": "She called me.", "explanation": "Verb के बाद object pronoun आता है — 'me', 'him', 'her', 'us', 'them' — subject pronoun नहीं" },
-    { "wrong": "Me and Rahul went.", "right": "Rahul and I went.", "explanation": "Subject position में 'I' use होता है; 'me' नहीं। और 'I' हमेशा दूसरों के बाद लिखते हैं।" },
-    { "wrong": "I am a honest man.", "right": "I am an honest man.", "explanation": "'Honest' में 'h' silent है, vowel sound 'o' से शुरू होता है — इसलिए 'an'" },
-    { "wrong": "He is an university student.", "right": "He is a university student.", "explanation": "'University' की शुरुआत 'yu' sound से है — consonant sound, इसलिए 'a'" },
-    { "wrong": "I love the India.", "right": "I love India.", "explanation": "देशों के नाम (proper nouns) के साथ article नहीं लगाते" },
-    { "wrong": "She plays the cricket.", "right": "She plays cricket.", "explanation": "खेलों के नाम के साथ 'the' नहीं लगाते" },
-    { "wrong": "I need an advice.", "right": "I need advice.", "explanation": "'Advice' uncountable noun है — a/an नहीं लगाते" },
-    { "wrong": "I listen music.", "right": "I listen to music.", "explanation": "'Listen' के बाद 'to' ज़रूरी है — 'listen to' एक fixed collocation है" },
-    { "wrong": "We discussed about the plan.", "right": "We discussed the plan.", "explanation": "'Discuss' के बाद 'about' नहीं लगाते — directly object आता है" },
-    { "wrong": "Myself Rahul.", "right": "I am Rahul. / My name is Rahul.", "explanation": "Introduction में 'myself' grammatically incorrect है — 'I am' या 'My name is' use करो" },
-    { "wrong": "I congratulate you for your promotion.", "right": "I congratulate you on your promotion.", "explanation": "'Congratulate' के बाद 'on' आता है, 'for' नहीं" },
-    { "wrong": "He studys every night.", "right": "He studies every night.", "explanation": "Consonant + y → y हटाकर 'ies' लगाते हैं: study → studies, carry → carries" },
-    { "wrong": "She is always late, isn't it?", "right": "She is always late, isn't she?", "explanation": "Question tag में subject का pronoun repeat होता है — 'she' के लिए 'isn't she?' न कि 'isn't it?'" },
-    { "wrong": "I have been here since three years.", "right": "I have been here for three years.", "explanation": "Duration (अवधि) के लिए 'for' use होता है; 'since' specific start point के लिए होता है" },
-    { "wrong": "The dog lost it's bone.", "right": "The dog lost its bone.", "explanation": "Possessive 'its' में apostrophe नहीं होता; 'it's' = 'it is' का short form है" },
-    { "wrong": "How she goes to office?", "right": "How does she go to office?", "explanation": "WH-question में 'does + subject + base verb' का order है — 'goes' नहीं, 'go' base form" },
-    { "wrong": "Please do the needful.", "right": "Please take care of this.", "explanation": "'Do the needful' Indian English है; standard English में 'please take care of this' या 'please handle this' use करो" }
+    {
+      "mistake": "He go to school",
+      "correction": "He goes to school",
+      "tip": "He/She/It ke saath hamesha s/es lagao"
+    },
+    {
+      "mistake": "I am knowing",
+      "correction": "I know",
+      "tip": "Stative verbs Simple Present mein use hoti hain"
+    },
+    {
+      "mistake": "She don't understand",
+      "correction": "She doesn't understand",
+      "tip": "She ke saath doesn't"
+    },
+    {
+      "mistake": "What you want?",
+      "correction": "What do you want?",
+      "tip": "Questions mein Do/Does zaroor lagao"
+    },
+    {
+      "mistake": "He is go to market",
+      "correction": "He goes to market",
+      "tip": "Is + V1 = Present Continuous (galat hai yahan)"
+    },
+    {
+      "mistake": "I have went there",
+      "correction": "I have gone there",
+      "tip": "Have/Has ke saath V3 (past participle) lagao"
+    },
+    {
+      "mistake": "She told to me",
+      "correction": "She told me",
+      "tip": "'Tell' ke baad 'to' nahi lagta"
+    },
+    {
+      "mistake": "Please give me informations",
+      "correction": "Please give me information",
+      "tip": "'Information' uncountable hai — plural form nahi hoti"
+    },
+    {
+      "mistake": "I am agree",
+      "correction": "I agree",
+      "tip": "'Agree' ke saath 'am/is/are' nahi lagta"
+    },
+    {
+      "mistake": "My English is weak",
+      "correction": "My English needs improvement",
+      "tip": "Professional way of saying it"
+    }
   ]
 }

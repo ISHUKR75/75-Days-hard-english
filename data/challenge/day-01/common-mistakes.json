@@ -1,0 +1,357 @@
+{
+  "day": 1,
+  "title": "Top 50 Common English Mistakes Hindi Speakers Make",
+  "teacherNote": "यह mistakes EVERY Hindi speaker करता है। इन्हें अच्छे से पढ़ो और याद रखो। अगर तुम इन 50 mistakes से बचना सीख गए, तो tumhari English 70% improve हो जाएगी।",
+  "mistakes": [
+    {
+      "id": 1,
+      "wrong": "He go to school.",
+      "correct": "He goes to school.",
+      "rule": "He/She/It + verb+s/es",
+      "category": "Subject-Verb Agreement"
+    },
+    {
+      "id": 2,
+      "wrong": "She don't understand.",
+      "correct": "She doesn't understand.",
+      "rule": "She/He/It → doesn't, not don't",
+      "category": "Negation"
+    },
+    {
+      "id": 3,
+      "wrong": "I am knowing the answer.",
+      "correct": "I know the answer.",
+      "rule": "Know = stative verb → Simple Present only",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 4,
+      "wrong": "He have a car.",
+      "correct": "He has a car.",
+      "rule": "Have → Has with He/She/It",
+      "category": "Have/Has"
+    },
+    {
+      "id": 5,
+      "wrong": "She told to me.",
+      "correct": "She told me.",
+      "rule": "Tell + object (no 'to': tell someone, NOT tell to someone)",
+      "category": "Preposition Error"
+    },
+    {
+      "id": 6,
+      "wrong": "I am agree with you.",
+      "correct": "I agree with you.",
+      "rule": "'Agree' is a verb, not adjective — no 'am' before it",
+      "category": "Be Verb Misuse"
+    },
+    {
+      "id": 7,
+      "wrong": "Please give me informations.",
+      "correct": "Please give me information.",
+      "rule": "Information = uncountable — no plural",
+      "category": "Uncountable Nouns"
+    },
+    {
+      "id": 8,
+      "wrong": "She is more taller than me.",
+      "correct": "She is taller than me.",
+      "rule": "Don't use 'more' with -er comparatives — double comparative error",
+      "category": "Comparison"
+    },
+    {
+      "id": 9,
+      "wrong": "What you want?",
+      "correct": "What do you want?",
+      "rule": "WH Questions need Do/Does",
+      "category": "Question Formation"
+    },
+    {
+      "id": 10,
+      "wrong": "I have 25 years.",
+      "correct": "I am 25 years old.",
+      "rule": "Age uses 'am/is/are ... old', NOT 'have'",
+      "category": "Age Expression"
+    },
+    {
+      "id": 11,
+      "wrong": "He is very much intelligent.",
+      "correct": "He is very intelligent.",
+      "rule": "'Very much' is used with verbs/nouns; 'very' with adjectives",
+      "category": "Adverb Misuse"
+    },
+    {
+      "id": 12,
+      "wrong": "She explained me the topic.",
+      "correct": "She explained the topic to me.",
+      "rule": "'Explain' needs 'to': explain something to someone",
+      "category": "Preposition Error"
+    },
+    {
+      "id": 13,
+      "wrong": "My mother is cooking the food since morning.",
+      "correct": "My mother has been cooking since morning.",
+      "rule": "'Since' needs Present Perfect (Continuous)",
+      "category": "Tense Error"
+    },
+    {
+      "id": 14,
+      "wrong": "She is my cousin sister.",
+      "correct": "She is my cousin.",
+      "rule": "'Cousin' already means male/female — no need to add 'sister/brother'",
+      "category": "Redundancy"
+    },
+    {
+      "id": 15,
+      "wrong": "I didn't went there.",
+      "correct": "I didn't go there.",
+      "rule": "Didn't + base verb (not past form)",
+      "category": "Past Tense"
+    },
+    {
+      "id": 16,
+      "wrong": "He is working in this office from 2020.",
+      "correct": "He has been working in this office since 2020.",
+      "rule": "Continuous action since a point → Present Perfect Continuous + since",
+      "category": "Tense Error"
+    },
+    {
+      "id": 17,
+      "wrong": "I want to tell you a doubt.",
+      "correct": "I want to ask you a question. / I have a doubt.",
+      "rule": "'Tell a doubt' is wrong — you ask questions or have doubts",
+      "category": "Vocabulary Misuse"
+    },
+    {
+      "id": 18,
+      "wrong": "She cut the vegetables with a knife.",
+      "correct": "She cut the vegetables with a knife. ✓",
+      "rule": "This is actually correct! 'With' for instrument/tool",
+      "category": "Correct (Don't change)"
+    },
+    {
+      "id": 19,
+      "wrong": "Do you know where is the station?",
+      "correct": "Do you know where the station is?",
+      "rule": "Indirect questions: normal word order (no inversion)",
+      "category": "Indirect Questions"
+    },
+    {
+      "id": 20,
+      "wrong": "Yesterday I have seen that movie.",
+      "correct": "Yesterday I saw that movie.",
+      "rule": "Past time marker (yesterday) → Simple Past (not Present Perfect)",
+      "category": "Tense Error"
+    },
+    {
+      "id": 21,
+      "wrong": "He is more smarter than her.",
+      "correct": "He is smarter than her.",
+      "rule": "Double comparative error — 'more smarter' wrong",
+      "category": "Comparison"
+    },
+    {
+      "id": 22,
+      "wrong": "I will go at the market.",
+      "correct": "I will go to the market.",
+      "rule": "Movement direction uses 'to' (not 'at')",
+      "category": "Preposition"
+    },
+    {
+      "id": 23,
+      "wrong": "She is very beautiful looking.",
+      "correct": "She looks very beautiful.",
+      "rule": "'Beautiful looking' is redundant — use 'looks beautiful' or 'very beautiful'",
+      "category": "Redundancy"
+    },
+    {
+      "id": 24,
+      "wrong": "I reached to the station.",
+      "correct": "I reached the station.",
+      "rule": "'Reach' doesn't need 'to' — reach = arrive at",
+      "category": "Preposition Error"
+    },
+    {
+      "id": 25,
+      "wrong": "They discussed about the problem.",
+      "correct": "They discussed the problem.",
+      "rule": "'Discuss' doesn't need 'about'",
+      "category": "Preposition Error"
+    },
+    {
+      "id": 26,
+      "wrong": "She is knowing Hindi.",
+      "correct": "She knows Hindi.",
+      "rule": "Stative verbs (know/love/have/understand) → Simple Present only",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 27,
+      "wrong": "I am not understand.",
+      "correct": "I don't understand.",
+      "rule": "'Understand' needs do/don't for negation — not am/isn't",
+      "category": "Negation"
+    },
+    {
+      "id": 28,
+      "wrong": "Open the door, isn't it?",
+      "correct": "Open the door, will you?",
+      "rule": "Imperative question tag = 'will you?' or 'won't you?'",
+      "category": "Question Tags"
+    },
+    {
+      "id": 29,
+      "wrong": "The scenery of this place are beautiful.",
+      "correct": "The scenery of this place is beautiful.",
+      "rule": "'Scenery' is uncountable → singular verb 'is'",
+      "category": "Subject-Verb Agreement"
+    },
+    {
+      "id": 30,
+      "wrong": "He is very much hungry.",
+      "correct": "He is very hungry.",
+      "rule": "'Very much' before adjectives is wrong — use 'very'",
+      "category": "Adverb"
+    },
+    {
+      "id": 31,
+      "wrong": "Both are not coming.",
+      "correct": "Neither of them is coming.",
+      "rule": "'Both...not' is wrong — use 'neither'",
+      "category": "Both/Neither"
+    },
+    {
+      "id": 32,
+      "wrong": "He said me that he was tired.",
+      "correct": "He told me that he was tired.",
+      "rule": "'Say to someone' OR 'tell someone' (NOT 'say me')",
+      "category": "Say vs Tell"
+    },
+    {
+      "id": 33,
+      "wrong": "I like very much English.",
+      "correct": "I like English very much.",
+      "rule": "'Very much' goes at the end of sentence",
+      "category": "Word Order"
+    },
+    {
+      "id": 34,
+      "wrong": "She is my real sister.",
+      "correct": "She is my sister.",
+      "rule": "'Real sister' is redundant in most contexts",
+      "category": "Redundancy"
+    },
+    {
+      "id": 35,
+      "wrong": "I have a doubt on this topic.",
+      "correct": "I have a question about this topic.",
+      "rule": "'Doubt about' not 'doubt on'; better: have a question",
+      "category": "Preposition"
+    },
+    {
+      "id": 36,
+      "wrong": "He is eldest than me.",
+      "correct": "He is older than me.",
+      "rule": "'Eldest' is superlative (used with 'the'); 'older' for comparison",
+      "category": "Comparison"
+    },
+    {
+      "id": 37,
+      "wrong": "Can you able to come?",
+      "correct": "Are you able to come? / Can you come?",
+      "rule": "'Can' and 'able to' both mean same — use one",
+      "category": "Modal Misuse"
+    },
+    {
+      "id": 38,
+      "wrong": "She has fair complexion.",
+      "correct": "She has a fair complexion.",
+      "rule": "Countable noun needs article",
+      "category": "Articles"
+    },
+    {
+      "id": 39,
+      "wrong": "I am having headache.",
+      "correct": "I have a headache.",
+      "rule": "'Have' for possession/state → Simple Present; no continuous",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 40,
+      "wrong": "They are resembling each other.",
+      "correct": "They resemble each other.",
+      "rule": "'Resemble' is stative → Simple Present",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 41,
+      "wrong": "She is belonging to this club.",
+      "correct": "She belongs to this club.",
+      "rule": "'Belong' is stative → Simple Present",
+      "category": "Stative Verbs"
+    },
+    {
+      "id": 42,
+      "wrong": "Its raining outside.",
+      "correct": "It's raining outside.",
+      "rule": "It's = It is; Its = possession. Different meaning!",
+      "category": "Its vs It's"
+    },
+    {
+      "id": 43,
+      "wrong": "I will revert back to you.",
+      "correct": "I will revert to you.",
+      "rule": "'Revert' already means 'to come back' — 'back' is redundant",
+      "category": "Redundancy"
+    },
+    {
+      "id": 44,
+      "wrong": "Please do the needful.",
+      "correct": "Please do what is required. / Please take necessary action.",
+      "rule": "'Do the needful' is an outdated Indian English expression — avoid in professional contexts",
+      "category": "Indian English"
+    },
+    {
+      "id": 45,
+      "wrong": "I am out of station.",
+      "correct": "I am out of town. / I am traveling.",
+      "rule": "'Out of station' is Indian English — international English uses 'out of town'",
+      "category": "Indian English"
+    },
+    {
+      "id": 46,
+      "wrong": "Myself John.",
+      "correct": "I am John. / My name is John.",
+      "rule": "'Myself' used alone as subject is wrong — very common Indian English error",
+      "category": "Pronoun Misuse"
+    },
+    {
+      "id": 47,
+      "wrong": "He is very genius.",
+      "correct": "He is a genius.",
+      "rule": "'Genius' is a noun, not adjective — cannot use 'very' with it directly",
+      "category": "Parts of Speech"
+    },
+    {
+      "id": 48,
+      "wrong": "She has lot of knowledge.",
+      "correct": "She has a lot of knowledge.",
+      "rule": "'A lot of' not 'lot of' — article 'a' is required",
+      "category": "Articles"
+    },
+    {
+      "id": 49,
+      "wrong": "I need your valuable advices.",
+      "correct": "I need your valuable advice.",
+      "rule": "'Advice' is uncountable — no plural form",
+      "category": "Uncountable Nouns"
+    },
+    {
+      "id": 50,
+      "wrong": "The students were discussed the topic.",
+      "correct": "The students discussed the topic.",
+      "rule": "Active voice doesn't need 'were' before main verb",
+      "category": "Active/Passive Confusion"
+    }
+  ]
+}

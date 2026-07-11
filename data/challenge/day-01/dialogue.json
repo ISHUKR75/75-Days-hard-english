@@ -1,0 +1,649 @@
+{
+  "day": 1,
+  "title": "Dialogues & Conversations — Basics of English",
+  "subtitle": "10 real-life conversations using Day 1 grammar patterns",
+  "totalDialogues": 10,
+  "description": "Ye dialogues real-life situations mein Day 1 grammar ka use dikhate hain. Inhe padhkar, sunakar, aur practice karke apni speaking skills improve karo.",
+  "howToUse": [
+    "Pehle silently padho aur Hindi translation dekho",
+    "Phir bina Hindi dekhe padho",
+    "Phir apne aap mein bolne ki koshish karo",
+    "Partner ke saath role-play karo"
+  ],
+  "dialogues": [
+    {
+      "id": 1,
+      "situation": "First Day at New Job",
+      "level": "A1",
+      "vocab": [
+        "introduce",
+        "colleague",
+        "department",
+        "office",
+        "report"
+      ],
+      "conversation": [
+        {
+          "speaker": "Rohan",
+          "text": "Good morning! I am Rohan. I am new here. Today is my first day.",
+          "hindi": "Good morning! मैं रोहन हूँ। मैं यहाँ नया हूँ। आज मेरा पहला दिन है।"
+        },
+        {
+          "speaker": "Priya",
+          "text": "Good morning, Rohan! I am Priya. I work in the HR department. Welcome to our team!",
+          "hindi": "Good morning, Rohan! मैं प्रिया हूँ। मैं HR department में काम करती हूँ। हमारी team में आपका स्वागत है!"
+        },
+        {
+          "speaker": "Rohan",
+          "text": "Thank you, Priya. Which department do you work in?",
+          "hindi": "धन्यवाद, प्रिया। आप किस department में काम करती हैं?"
+        },
+        {
+          "speaker": "Priya",
+          "text": "I work in HR. And you? Which department do you join?",
+          "hindi": "मैं HR में काम करती हूँ। और आप? आप किस department में join कर रहे हैं?"
+        },
+        {
+          "speaker": "Rohan",
+          "text": "I join the IT department. I am a software engineer.",
+          "hindi": "मैं IT department में join कर रहा हूँ। मैं एक software engineer हूँ।"
+        },
+        {
+          "speaker": "Priya",
+          "text": "That is great! Do you know our team lead, Mr. Sharma?",
+          "hindi": "यह बहुत अच्छा है! क्या आप हमारे team lead, Mr. Sharma को जानते हैं?"
+        },
+        {
+          "speaker": "Rohan",
+          "text": "No, I don't know him yet. Where does he sit?",
+          "hindi": "नहीं, मैं उन्हें अभी नहीं जानता। वह कहाँ बैठते हैं?"
+        },
+        {
+          "speaker": "Priya",
+          "text": "He sits in the cabin at the end of this floor. Let me introduce you to him.",
+          "hindi": "वह इस floor के अंत में cabin में बैठते हैं। मैं आपका उनसे परिचय कराती हूँ।"
+        }
+      ],
+      "grammarFocus": "Simple Present Tense — introducing yourself and asking about others",
+      "practiceQuestions": [
+        {
+          "q": "How does Rohan describe his day?",
+          "a": "He says 'Today is my first day.'"
+        },
+        {
+          "q": "What does Priya do?",
+          "a": "She works in the HR department."
+        },
+        {
+          "q": "What question does Rohan ask about Mr. Sharma?",
+          "a": "He asks 'Where does he sit?'"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "situation": "At a Restaurant — Ordering Food",
+      "level": "A1",
+      "vocab": [
+        "menu",
+        "order",
+        "recommend",
+        "vegetarian",
+        "dessert"
+      ],
+      "conversation": [
+        {
+          "speaker": "Waiter",
+          "text": "Good evening! Welcome to Spice Garden. Do you have a reservation?",
+          "hindi": "Good evening! Spice Garden में आपका स्वागत है। क्या आपके पास reservation है?"
+        },
+        {
+          "speaker": "Kavita",
+          "text": "No, we don't have a reservation. Do you have a table for two?",
+          "hindi": "नहीं, हमारे पास reservation नहीं है। क्या आपके पास दो लोगों के लिए table है?"
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Yes, we do. Please follow me. Here is your table and here is the menu.",
+          "hindi": "हाँ, है। कृपया मेरे पीछे आइए। यह रहा आपका table और यह रहा menu।"
+        },
+        {
+          "speaker": "Kavita",
+          "text": "Thank you. Do you have vegetarian options?",
+          "hindi": "धन्यवाद। क्या आपके पास vegetarian options हैं?"
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Yes, we have many vegetarian dishes. What do you usually prefer — North Indian or South Indian?",
+          "hindi": "हाँ, हमारे पास कई vegetarian dishes हैं। आप आमतौर पर क्या पसंद करते हैं — North Indian या South Indian?"
+        },
+        {
+          "speaker": "Kavita",
+          "text": "We prefer North Indian food. What do you recommend?",
+          "hindi": "हम North Indian खाना पसंद करते हैं। आप क्या recommend करते हैं?"
+        },
+        {
+          "speaker": "Waiter",
+          "text": "Our Dal Makhani is very popular. Many customers love it. It comes with naan and rice.",
+          "hindi": "हमारी Dal Makhani बहुत popular है। कई customers इसे पसंद करते हैं। यह naan और rice के साथ आती है।"
+        },
+        {
+          "speaker": "Kavita",
+          "text": "That sounds great! We will take two Dal Makhani sets. Does it come with a dessert?",
+          "hindi": "यह अच्छा लगता है! हम दो Dal Makhani sets लेंगे। क्या इसके साथ dessert आता है?"
+        },
+        {
+          "speaker": "Waiter",
+          "text": "No, the dessert is separate. Do you want to order something?",
+          "hindi": "नहीं, dessert अलग है। क्या आप कुछ order करना चाहते हैं?"
+        },
+        {
+          "speaker": "Kavita",
+          "text": "Yes, please. What desserts do you have?",
+          "hindi": "हाँ, कृपया। आपके पास कौन-कौन से desserts हैं?"
+        }
+      ],
+      "grammarFocus": "Do/Does questions + Simple Present for expressing preferences",
+      "practiceQuestions": [
+        {
+          "q": "Why do they need a table for two?",
+          "a": "Because two people are eating."
+        },
+        {
+          "q": "What does the waiter recommend?",
+          "a": "He recommends Dal Makhani."
+        },
+        {
+          "q": "Does dessert come with the Dal Makhani set?",
+          "a": "No, it doesn't. It is separate."
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "situation": "Doctor's Appointment",
+      "level": "A1",
+      "vocab": [
+        "appointment",
+        "symptoms",
+        "prescription",
+        "medicine",
+        "fever"
+      ],
+      "conversation": [
+        {
+          "speaker": "Receptionist",
+          "text": "Good morning! Do you have an appointment?",
+          "hindi": "Good morning! क्या आपके पास appointment है?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No, I don't have an appointment. But I need to see a doctor. I have a fever.",
+          "hindi": "नहीं, मेरे पास appointment नहीं है। लेकिन मुझे doctor से मिलना है। मुझे बुखार है।"
+        },
+        {
+          "speaker": "Receptionist",
+          "text": "I understand. How long do you have the fever?",
+          "hindi": "मैं समझती हूँ। आपको कब से बुखार है?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I have the fever since yesterday morning. My throat also hurts.",
+          "hindi": "मुझे कल सुबह से बुखार है। मेरा गला भी दर्द करता है।"
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Hello. Please sit down. What are your symptoms?",
+          "hindi": "Hello। कृपया बैठिए। आपके क्या लक्षण हैं?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "I have a fever, a sore throat, and a headache. I don't feel well.",
+          "hindi": "मुझे बुखार है, गले में दर्द है, और सिरदर्द है। मैं ठीक नहीं हूँ।"
+        },
+        {
+          "speaker": "Doctor",
+          "text": "Do you have a cough?",
+          "hindi": "क्या आपको खाँसी है?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "Yes, I do. I cough a lot at night.",
+          "hindi": "हाँ, है। मैं रात में बहुत खाँसता हूँ।"
+        },
+        {
+          "speaker": "Doctor",
+          "text": "I see. Do you take any medicine regularly?",
+          "hindi": "मैं समझा। क्या आप नियमित रूप से कोई दवाई लेते हैं?"
+        },
+        {
+          "speaker": "Patient",
+          "text": "No, I don't take any medicine regularly. I am generally healthy.",
+          "hindi": "नहीं, मैं नियमित रूप से कोई दवाई नहीं लेता। मैं आमतौर पर स्वस्थ रहता हूँ।"
+        }
+      ],
+      "grammarFocus": "Do/Does questions + 'since' for duration",
+      "practiceQuestions": [
+        {
+          "q": "How long has the patient had a fever?",
+          "a": "Since yesterday morning."
+        },
+        {
+          "q": "What are the patient's symptoms?",
+          "a": "Fever, sore throat, and headache."
+        },
+        {
+          "q": "Does the patient take medicine regularly?",
+          "a": "No, he doesn't."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "situation": "At a Bank",
+      "level": "A2",
+      "vocab": [
+        "account",
+        "deposit",
+        "withdraw",
+        "balance",
+        "transaction"
+      ],
+      "conversation": [
+        {
+          "speaker": "Banker",
+          "text": "Good morning! How can I help you today?",
+          "hindi": "Good morning! आज मैं आपकी कैसे मदद कर सकता हूँ?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Good morning. I want to open a savings account. What documents do I need?",
+          "hindi": "Good morning। मैं एक savings account खोलना चाहता हूँ। मुझे कौन से documents चाहिए?"
+        },
+        {
+          "speaker": "Banker",
+          "text": "You need an Aadhaar card, a PAN card, and two passport-size photos. Do you have these?",
+          "hindi": "आपको Aadhaar card, PAN card, और दो passport-size photos चाहिए। क्या आपके पास ये हैं?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, I have all of these. How long does it take to open the account?",
+          "hindi": "हाँ, मेरे पास ये सब हैं। Account खोलने में कितना समय लगता है?"
+        },
+        {
+          "speaker": "Banker",
+          "text": "It usually takes about 30 minutes. You also need to deposit a minimum amount. Do you know the minimum balance?",
+          "hindi": "इसमें आमतौर पर लगभग 30 मिनट लगते हैं। आपको एक minimum amount भी deposit करना होगा। क्या आप minimum balance जानते हैं?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "No, I don't know. How much do I need to deposit?",
+          "hindi": "नहीं, मैं नहीं जानता। मुझे कितना deposit करना होगा?"
+        }
+      ],
+      "grammarFocus": "Want to + V1 | How long does it take? | Do you know?",
+      "practiceQuestions": [
+        {
+          "q": "What does the customer want to do?",
+          "a": "He wants to open a savings account."
+        },
+        {
+          "q": "What documents does he need?",
+          "a": "Aadhaar card, PAN card, and two photos."
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "situation": "Meeting a New Neighbor",
+      "level": "A1",
+      "vocab": [
+        "neighbor",
+        "moved",
+        "area",
+        "building",
+        "floor"
+      ],
+      "conversation": [
+        {
+          "speaker": "Anita",
+          "text": "Hello! Are you the new neighbor? I am Anita. I live in flat 302.",
+          "hindi": "Hello! क्या आप नए पड़ोसी हैं? मैं अनिता हूँ। मैं flat 302 में रहती हूँ।"
+        },
+        {
+          "speaker": "Vikram",
+          "text": "Yes! I am Vikram. I just moved here last week. Nice to meet you!",
+          "hindi": "हाँ! मैं विक्रम हूँ। मैं पिछले हफ्ते यहाँ shift हुआ। आपसे मिलकर अच्छा लगा!"
+        },
+        {
+          "speaker": "Anita",
+          "text": "Nice to meet you too! Where do you come from originally?",
+          "hindi": "मुझे भी अच्छा लगा! आप मूल रूप से कहाँ से हैं?"
+        },
+        {
+          "speaker": "Vikram",
+          "text": "I come from Jaipur. But I work in Bangalore now. What about you?",
+          "hindi": "मैं जयपुर से हूँ। लेकिन अब मैं Bangalore में काम करता हूँ। आपके बारे में?"
+        },
+        {
+          "speaker": "Anita",
+          "text": "I am from Pune. I have lived here for three years. Do you like this area?",
+          "hindi": "मैं पुणे से हूँ। मैं यहाँ तीन साल से रहती हूँ। क्या आपको यह area पसंद है?"
+        },
+        {
+          "speaker": "Vikram",
+          "text": "Yes, I like it a lot. The area is very clean and the people are friendly. Do you know any good restaurants nearby?",
+          "hindi": "हाँ, मुझे बहुत पसंद है। यह area बहुत साफ है और लोग मिलनसार हैं। क्या आप पास में कोई अच्छा restaurant जानती हैं?"
+        }
+      ],
+      "grammarFocus": "Simple Present for facts + 'come from' + asking about preferences",
+      "practiceQuestions": [
+        {
+          "q": "Where is Vikram from?",
+          "a": "He is from Jaipur."
+        },
+        {
+          "q": "How long has Anita lived there?",
+          "a": "She has lived there for three years."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "situation": "Job Interview",
+      "level": "A2",
+      "vocab": [
+        "experience",
+        "qualification",
+        "salary",
+        "position",
+        "apply"
+      ],
+      "conversation": [
+        {
+          "speaker": "Interviewer",
+          "text": "Good morning, Mr. Kumar. Please have a seat. Tell me something about yourself.",
+          "hindi": "Good morning, Mr. Kumar. कृपया बैठिए। मुझे अपने बारे में कुछ बताइए।"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "Good morning. Thank you for this opportunity. My name is Arjun Kumar. I am a software engineer with 3 years of experience. I work at Infosys currently.",
+          "hindi": "Good morning। इस अवसर के लिए धन्यवाद। मेरा नाम अर्जुन कुमार है। मैं 3 साल के experience के साथ एक software engineer हूँ। मैं वर्तमान में Infosys में काम करता हूँ।"
+        },
+        {
+          "speaker": "Interviewer",
+          "text": "That's impressive. Why do you want to leave your current company?",
+          "hindi": "यह प्रभावशाली है। आप अपनी current company क्यों छोड़ना चाहते हैं?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "I respect my current company. But I want to grow in my career. This position offers me better opportunities to learn and lead.",
+          "hindi": "मैं अपनी current company का सम्मान करता हूँ। लेकिन मैं अपने career में आगे बढ़ना चाहता हूँ। यह position मुझे सीखने और lead करने के बेहतर अवसर देती है।"
+        },
+        {
+          "speaker": "Interviewer",
+          "text": "Good. What are your strengths?",
+          "hindi": "अच्छा। आपकी strengths क्या हैं?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "I am a quick learner. I work well in a team. I am also good at solving technical problems. I always meet my deadlines.",
+          "hindi": "मैं जल्दी सीखता हूँ। मैं team में अच्छा काम करता हूँ। Technical problems solve करने में भी अच्छा हूँ। मैं हमेशा अपनी deadlines पूरी करता हूँ।"
+        },
+        {
+          "speaker": "Interviewer",
+          "text": "Do you have experience with Python?",
+          "hindi": "क्या आपको Python का experience है?"
+        },
+        {
+          "speaker": "Candidate",
+          "text": "Yes, I do. I use Python daily in my current role. I also know Java and JavaScript.",
+          "hindi": "हाँ, है। मैं अपनी current role में रोज़ Python use करता हूँ। मुझे Java और JavaScript भी आती है।"
+        }
+      ],
+      "grammarFocus": "Simple Present for habits + strengths + 'I am good at'",
+      "practiceQuestions": [
+        {
+          "q": "How much experience does Arjun have?",
+          "a": "He has 3 years of experience."
+        },
+        {
+          "q": "Why does he want to leave his current job?",
+          "a": "He wants better opportunities to learn and lead."
+        },
+        {
+          "q": "What languages does he know?",
+          "a": "He knows Python, Java, and JavaScript."
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "situation": "Shopping at a Mall",
+      "level": "A1",
+      "vocab": [
+        "price",
+        "discount",
+        "size",
+        "color",
+        "fitting room"
+      ],
+      "conversation": [
+        {
+          "speaker": "Salesperson",
+          "text": "Good afternoon! Can I help you?",
+          "hindi": "Good afternoon! क्या मैं आपकी मदद कर सकता हूँ?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, please. I am looking for a formal shirt. Do you have white shirts?",
+          "hindi": "हाँ, कृपया। मैं एक formal shirt ढूंढ रहा हूँ। क्या आपके पास white shirts हैं?"
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Yes, we do. What size do you wear?",
+          "hindi": "हाँ, हैं। आप कौन सा size पहनते हैं?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "I usually wear medium. But sometimes I need large. Can I try both?",
+          "hindi": "मैं आमतौर पर medium पहनता हूँ। लेकिन कभी-कभी मुझे large चाहिए। क्या मैं दोनों try कर सकता हूँ?"
+        },
+        {
+          "speaker": "Salesperson",
+          "text": "Of course! The fitting room is on your right. How much do you want to spend?",
+          "hindi": "बिल्कुल! Fitting room आपके दाईं ओर है। आप कितना खर्च करना चाहते हैं?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "I don't want to spend more than 1000 rupees. Do you have any discounts today?",
+          "hindi": "मैं 1000 रुपये से ज़्यादा खर्च नहीं करना चाहता। क्या आज कोई discounts हैं?"
+        }
+      ],
+      "grammarFocus": "Do you have + noun | How much | Want to + V1",
+      "practiceQuestions": [
+        {
+          "q": "What is the customer looking for?",
+          "a": "A formal white shirt."
+        },
+        {
+          "q": "What size does he usually wear?",
+          "a": "He usually wears medium."
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "situation": "Asking for Directions",
+      "level": "A1",
+      "vocab": [
+        "straight",
+        "turn",
+        "left",
+        "right",
+        "landmark"
+      ],
+      "conversation": [
+        {
+          "speaker": "Tourist",
+          "text": "Excuse me! I am looking for the railway station. Do you know where it is?",
+          "hindi": "Excuse me! मैं railway station ढूंढ रहा हूँ। क्या आप जानते हैं यह कहाँ है?"
+        },
+        {
+          "speaker": "Local",
+          "text": "Yes, I do. It is not far from here. Do you go by walk or by auto?",
+          "hindi": "हाँ, जानता हूँ। यहाँ से ज़्यादा दूर नहीं है। क्या आप पैदल जाते हैं या auto से?"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "I prefer to walk. How far is it?",
+          "hindi": "मैं पैदल जाना पसंद करता हूँ। यह कितना दूर है?"
+        },
+        {
+          "speaker": "Local",
+          "text": "It is about 10 minutes by walk. Go straight on this road. Then turn left at the big temple. The station is right there.",
+          "hindi": "पैदल लगभग 10 मिनट है। इस सड़क पर सीधे जाइए। फिर बड़े मंदिर पर बाईं ओर मुड़िए। Station वहीं है।"
+        },
+        {
+          "speaker": "Tourist",
+          "text": "Turn left at the temple, right? Is there any other landmark?",
+          "hindi": "मंदिर पर बाईं ओर मुड़ना है, सही? कोई और landmark है?"
+        },
+        {
+          "speaker": "Local",
+          "text": "Yes. You also see a McDonald's on your right just before the station. You can't miss it.",
+          "hindi": "हाँ। Station से ठीक पहले दाईं ओर आपको McDonald's भी दिखेगा। आप इसे miss नहीं कर सकते।"
+        }
+      ],
+      "grammarFocus": "How far | Turn left/right | Go straight | Landmark descriptions",
+      "practiceQuestions": [
+        {
+          "q": "How far is the station by walk?",
+          "a": "About 10 minutes."
+        },
+        {
+          "q": "Which direction should the tourist turn at the temple?",
+          "a": "Left."
+        },
+        {
+          "q": "What landmark is near the station?",
+          "a": "A McDonald's on the right."
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "situation": "Phone Call — Customer Service",
+      "level": "A2",
+      "vocab": [
+        "complaint",
+        "refund",
+        "order",
+        "delivery",
+        "track"
+      ],
+      "conversation": [
+        {
+          "speaker": "Agent",
+          "text": "Thank you for calling XYZ Customer Care. I am Riya. How can I help you?",
+          "hindi": "XYZ Customer Care में call करने के लिए धन्यवाद। मैं रिया हूँ। मैं आपकी कैसे मदद कर सकती हूँ?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Hello Riya. I placed an order 5 days ago but I still don't have my package. Can you help me track it?",
+          "hindi": "Hello Riya। मैंने 5 दिन पहले order किया था लेकिन अभी तक मुझे package नहीं मिला। क्या आप इसे track करने में मेरी मदद कर सकती हैं?"
+        },
+        {
+          "speaker": "Agent",
+          "text": "I'm sorry to hear that. Can I have your order number?",
+          "hindi": "यह सुनकर खेद है। क्या आप अपना order number दे सकते हैं?"
+        },
+        {
+          "speaker": "Customer",
+          "text": "Yes, my order number is 12345. I also have the tracking ID.",
+          "hindi": "हाँ, मेरा order number 12345 है। मेरे पास tracking ID भी है।"
+        },
+        {
+          "speaker": "Agent",
+          "text": "Thank you. Let me check. I see your order. It usually takes 3 to 5 days for delivery. But I see a delay in the system. I am sorry about that.",
+          "hindi": "धन्यवाद। मैं check करती हूँ। मुझे आपका order दिख रहा है। Delivery में आमतौर पर 3 से 5 दिन लगते हैं। लेकिन मुझे system में delay दिख रहा है। मुझे खेद है।"
+        },
+        {
+          "speaker": "Customer",
+          "text": "When does it arrive? I need it urgently.",
+          "hindi": "यह कब आएगा? मुझे इसकी तुरंत ज़रूरत है।"
+        }
+      ],
+      "grammarFocus": "Simple Present for policies + past tense for complaints",
+      "practiceQuestions": [
+        {
+          "q": "When did the customer place the order?",
+          "a": "5 days ago."
+        },
+        {
+          "q": "How long does delivery usually take?",
+          "a": "3 to 5 days."
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "situation": "College Admission Inquiry",
+      "level": "A2",
+      "vocab": [
+        "admission",
+        "course",
+        "fee",
+        "scholarship",
+        "deadline"
+      ],
+      "conversation": [
+        {
+          "speaker": "Student",
+          "text": "Good morning. I want to know about admissions for the MBA program.",
+          "hindi": "Good morning। मैं MBA program के admission के बारे में जानना चाहता हूँ।"
+        },
+        {
+          "speaker": "Counselor",
+          "text": "Good morning! Of course. What year do you complete your graduation?",
+          "hindi": "Good morning! बिल्कुल। आप किस year में graduation पूरी करते हैं?"
+        },
+        {
+          "speaker": "Student",
+          "text": "I complete my graduation this year in June. I have 72% marks in B.Com.",
+          "hindi": "मैं इस साल जून में graduation पूरी करता हूँ। मेरे B.Com में 72% marks हैं।"
+        },
+        {
+          "speaker": "Counselor",
+          "text": "Good. You qualify for our MBA program. Do you know about our entrance exam?",
+          "hindi": "अच्छा। आप हमारे MBA program के लिए qualify करते हैं। क्या आप हमारी entrance exam के बारे में जानते हैं?"
+        },
+        {
+          "speaker": "Student",
+          "text": "No, I don't know the details. When does the exam take place?",
+          "hindi": "नहीं, मुझे details नहीं पता। Exam कब होती है?"
+        },
+        {
+          "speaker": "Counselor",
+          "text": "The exam takes place in August. The registration deadline is July 15th. Do you want to register today?",
+          "hindi": "Exam अगस्त में होती है। Registration की deadline 15 जुलाई है। क्या आप आज register करना चाहते हैं?"
+        }
+      ],
+      "grammarFocus": "Want to + V1 | When does | Simple Present for facts and schedules",
+      "practiceQuestions": [
+        {
+          "q": "When does the student graduate?",
+          "a": "This year in June."
+        },
+        {
+          "q": "When is the entrance exam?",
+          "a": "In August."
+        },
+        {
+          "q": "What is the registration deadline?",
+          "a": "July 15th."
+        }
+      ]
+    }
+  ]
+}

@@ -101,9 +101,13 @@ module.exports = {
       },
 
       // Custom font families
+      // 'var(--font-inter)' comes from next/font/google in app/layout.js —
+      // this self-hosts Inter at build time (no external network request,
+      // no <head> hydration mismatch) and exposes it as a CSS variable.
+      // Falls back to system-ui if the variable is ever missing.
       fontFamily: {
-        sans:    ['Inter', 'system-ui', 'sans-serif'],
-        display: ['Cal Sans', 'Inter', 'system-ui', 'sans-serif'],
+        sans:    ['var(--font-inter)', 'Inter', 'system-ui', 'sans-serif'],
+        display: ['var(--font-inter)', 'Cal Sans', 'Inter', 'system-ui', 'sans-serif'],
         mono:    ['JetBrains Mono', 'Fira Code', 'monospace'],
       },
 
