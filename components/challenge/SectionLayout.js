@@ -723,91 +723,149 @@ export default function SectionLayout({
         {/* ── MAIN CONTENT AREA ─────────────────────────────── */}
         <main className="flex-1 min-w-0 overflow-x-hidden pb-28 lg:pb-12">
 
-          {/* ── SECTION HERO BANNER ────────────────────────── */}
-          <div className={cn(
-            'relative w-full overflow-hidden',
-            'border-b border-white/8',
-          )}>
-            {/* Gradient background */}
-            <div className={cn(
-              'absolute inset-0 bg-gradient-to-r opacity-15',
-              sectionColor,
-            )} />
-            {/* Mesh overlay */}
+          {/* ── SECTION HERO BANNER — Full-width, dramatic, distinct per section ── */}
+          <div className="relative w-full overflow-hidden border-b border-white/8">
+
+            {/* Deep gradient background — unique per section */}
             <div
-              className="absolute inset-0 opacity-30"
+              className={cn('absolute inset-0 bg-gradient-to-br opacity-25', sectionColor)}
+            />
+            {/* Radial glow center-right */}
+            <div
+              className="absolute inset-0"
               style={{
-                backgroundImage: `radial-gradient(circle at 70% 50%, rgba(255,255,255,0.06) 0%, transparent 60%)`,
+                background: 'radial-gradient(ellipse at 75% 50%, rgba(255,255,255,0.07) 0%, transparent 55%)',
               }}
             />
+            {/* Dot grid pattern */}
+            <div
+              className="absolute inset-0 opacity-20"
+              style={{
+                backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.15) 1px, transparent 0)',
+                backgroundSize: '22px 22px',
+              }}
+            />
+            {/* Bottom fade to body */}
+            <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-[#07070f] to-transparent" />
 
             <motion.div
               key={sectionId}
-              initial={{ opacity: 0, y: -12 }}
+              initial={{ opacity: 0, y: -16 }}
               animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4 }}
-              className="relative z-10 max-w-5xl mx-auto px-4 md:px-8 py-5 flex items-center gap-5"
+              transition={{ duration: 0.45, ease: [0.22, 1, 0.36, 1] }}
+              className="relative z-10 max-w-5xl mx-auto px-4 md:px-8 py-8 md:py-10"
             >
-              {/* Large section emoji */}
-              <motion.div
-                initial={{ scale: 0.5, opacity: 0 }}
-                animate={{ scale: 1, opacity: 1 }}
-                transition={{ type: 'spring', delay: 0.1 }}
-                className={cn(
-                  'w-14 h-14 rounded-2xl flex items-center justify-center text-3xl flex-shrink-0',
-                  `bg-gradient-to-br ${sectionColor}`,
-                  'shadow-lg',
-                )}
-              >
-                {sectionMeta?.icon}
-              </motion.div>
-
-              <div className="flex-1 min-w-0">
-                <div className="flex items-center gap-2 mb-1 flex-wrap">
-                  <span className="text-white/50 text-[11px] font-bold uppercase tracking-widest">
-                    Section {sectionMeta?.num} of {sections.length}
-                  </span>
-                  {isCompleted && (
-                    <span className="flex items-center gap-1 text-[11px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 rounded-full px-2 py-0.5 font-bold">
-                      <CheckCircle2 className="w-3 h-3" /> Completed
-                    </span>
-                  )}
-                  <span className="text-[11px] text-white/30">
-                    {sectionMeta?.time} · +{sectionMeta?.xp} XP
-                  </span>
+              {/* Top row: breadcrumb + nav arrows */}
+              <div className="flex items-center justify-between mb-5">
+                <div className="flex items-center gap-1.5 text-xs text-white/30 flex-wrap">
+                  <Link href="/75-days-challenge" className="hover:text-white/60 transition-colors">75 Days</Link>
+                  <ChevronRight className="w-3 h-3" />
+                  <Link href={`/75-days-challenge/${dayNum}`} className="hover:text-white/60 transition-colors">Day {dayNum}</Link>
+                  <ChevronRight className="w-3 h-3" />
+                  <span className="text-white/60 font-medium">{sectionMeta?.title}</span>
                 </div>
-                <h1 className="text-xl md:text-2xl font-black text-white leading-tight">
-                  {sectionMeta?.title}
-                </h1>
-                <p className="text-white/50 text-sm mt-0.5">
-                  {sectionMeta?.subtitle}
-                </p>
+                <div className="flex items-center gap-2">
+                  {prevSection && (
+                    <Link
+                      href={`/75-days-challenge/${dayNum}/${prevSection.id}`}
+                      className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-white/8 hover:bg-white/15 border border-white/10 transition-all text-gray-300 hover:text-white text-xs font-medium group"
+                      title={prevSection.title}
+                    >
+                      <ChevronLeft className="w-3.5 h-3.5 group-hover:-translate-x-0.5 transition-transform" />
+                      <span className="hidden sm:inline truncate max-w-[80px]">Prev</span>
+                    </Link>
+                  )}
+                  {nextSection && (
+                    <Link
+                      href={`/75-days-challenge/${dayNum}/${nextSection.id}`}
+                      className="flex items-center gap-1.5 px-2.5 py-1.5 rounded-xl bg-white/8 hover:bg-white/15 border border-white/10 transition-all text-gray-300 hover:text-white text-xs font-medium group"
+                      title={nextSection.title}
+                    >
+                      <span className="hidden sm:inline truncate max-w-[80px]">Next</span>
+                      <ChevronRight className="w-3.5 h-3.5 group-hover:translate-x-0.5 transition-transform" />
+                    </Link>
+                  )}
+                </div>
               </div>
 
-              {/* Desktop nav arrows */}
-              <div className="hidden lg:flex items-center gap-2 flex-shrink-0">
-                {prevSection && (
-                  <Link
-                    href={`/75-days-challenge/${dayNum}/${prevSection.id}`}
-                    className="w-9 h-9 flex items-center justify-center rounded-xl
-                               bg-white/8 hover:bg-white/15 border border-white/10 transition-all
-                               text-gray-400 hover:text-white group"
-                    title={`Previous: ${prevSection.title}`}
+              {/* Main hero content */}
+              <div className="flex items-start gap-5">
+                {/* Big emoji badge */}
+                <motion.div
+                  initial={{ scale: 0.4, opacity: 0, rotate: -10 }}
+                  animate={{ scale: 1, opacity: 1, rotate: 0 }}
+                  transition={{ type: 'spring', stiffness: 200, damping: 18, delay: 0.08 }}
+                  className={cn(
+                    'w-16 h-16 md:w-20 md:h-20 rounded-2xl md:rounded-3xl flex items-center justify-center flex-shrink-0',
+                    'text-3xl md:text-4xl shadow-2xl border border-white/20',
+                    `bg-gradient-to-br ${sectionColor}`,
+                  )}
+                  style={{ boxShadow: '0 8px 32px rgba(0,0,0,0.4)' }}
+                >
+                  {sectionMeta?.icon}
+                </motion.div>
+
+                <div className="flex-1 min-w-0">
+                  {/* Section number badge */}
+                  <div className="flex items-center gap-2 mb-2 flex-wrap">
+                    <span className="inline-flex items-center gap-1 text-[11px] font-black uppercase tracking-widest text-white/40">
+                      <span className="w-5 h-5 rounded-md bg-white/10 flex items-center justify-center text-white/60 text-[10px] font-black">{sectionMeta?.num}</span>
+                      Section {sectionMeta?.num} of {sections.length}
+                    </span>
+                    {isCompleted && (
+                      <motion.span
+                        initial={{ scale: 0 }}
+                        animate={{ scale: 1 }}
+                        className="flex items-center gap-1 text-[11px] bg-emerald-500/20 text-emerald-300 border border-emerald-500/30 rounded-full px-2.5 py-0.5 font-bold"
+                      >
+                        <CheckCircle2 className="w-3 h-3" /> Completed ✅
+                      </motion.span>
+                    )}
+                  </div>
+
+                  {/* Title — big and bold */}
+                  <motion.h1
+                    initial={{ opacity: 0, x: -12 }}
+                    animate={{ opacity: 1, x: 0 }}
+                    transition={{ duration: 0.4, delay: 0.1 }}
+                    className="text-2xl md:text-3xl lg:text-4xl font-black text-white leading-tight mb-1.5"
                   >
-                    <ChevronLeft className="w-4 h-4 group-hover:-translate-x-0.5 transition-transform" />
-                  </Link>
-                )}
-                {nextSection && (
-                  <Link
-                    href={`/75-days-challenge/${dayNum}/${nextSection.id}`}
-                    className="w-9 h-9 flex items-center justify-center rounded-xl
-                               bg-white/8 hover:bg-white/15 border border-white/10 transition-all
-                               text-gray-400 hover:text-white group"
-                    title={`Next: ${nextSection.title}`}
-                  >
-                    <ChevronRight className="w-4 h-4 group-hover:translate-x-0.5 transition-transform" />
-                  </Link>
-                )}
+                    {sectionMeta?.title}
+                  </motion.h1>
+
+                  {/* Subtitle */}
+                  <p className="text-white/50 text-sm md:text-base">
+                    {sectionMeta?.subtitle}
+                  </p>
+
+                  {/* Meta pills: time + XP + day */}
+                  <div className="flex items-center gap-2 flex-wrap mt-3">
+                    <span className="flex items-center gap-1 text-xs text-white/40 bg-white/5 border border-white/10 rounded-full px-2.5 py-1">
+                      <Clock className="w-3 h-3" /> {sectionMeta?.time}
+                    </span>
+                    <span className="flex items-center gap-1 text-xs text-amber-300 bg-amber-500/10 border border-amber-500/20 rounded-full px-2.5 py-1 font-semibold">
+                      <Zap className="w-3 h-3" /> +{sectionMeta?.xp} XP
+                    </span>
+                    <span className="text-xs text-white/30 bg-white/5 border border-white/10 rounded-full px-2.5 py-1">
+                      Day {dayNum} · 75 Days Hard English
+                    </span>
+                  </div>
+                </div>
+              </div>
+
+              {/* Section progress strip */}
+              <div className="mt-6 flex items-center gap-2">
+                <div className="flex-1 h-1.5 rounded-full bg-white/8 overflow-hidden">
+                  <motion.div
+                    className={cn('h-full rounded-full bg-gradient-to-r', sectionColor)}
+                    initial={{ width: 0 }}
+                    animate={{ width: `${(sectionMeta?.num / sections.length) * 100}%` }}
+                    transition={{ duration: 0.8, ease: 'easeOut', delay: 0.3 }}
+                  />
+                </div>
+                <span className="text-[11px] text-white/30 flex-shrink-0">
+                  {Math.round((sectionMeta?.num / sections.length) * 100)}% through today
+                </span>
               </div>
             </motion.div>
           </div>
