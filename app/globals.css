@@ -731,6 +731,27 @@ a:hover { color: var(--color-primary-light); }
 }
 
 /* ============================================================
+   Ambient Background Mesh (premium SaaS-style animated blobs)
+   ============================================================ */
+@keyframes meshDrift1 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  33%      { transform: translate(4%, 6%) scale(1.08); }
+  66%      { transform: translate(-3%, 3%) scale(0.96); }
+}
+@keyframes meshDrift2 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  50%      { transform: translate(-6%, 5%) scale(1.1); }
+}
+@keyframes meshDrift3 {
+  0%, 100% { transform: translate(0, 0) scale(1); }
+  40%      { transform: translate(5%, -4%) scale(1.05); }
+  75%      { transform: translate(-4%, -2%) scale(0.94); }
+}
+.animate-mesh-drift-1 { animation: meshDrift1 22s ease-in-out infinite; }
+.animate-mesh-drift-2 { animation: meshDrift2 26s ease-in-out infinite; }
+.animate-mesh-drift-3 { animation: meshDrift3 30s ease-in-out infinite; }
+
+/* ============================================================
    Reduced Motion
    ============================================================ */
 @media (prefers-reduced-motion: reduce) {
