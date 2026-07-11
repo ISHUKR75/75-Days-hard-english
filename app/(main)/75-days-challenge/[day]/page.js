@@ -620,7 +620,7 @@ export default function DayPage() {
                         <MilestonesSection
                           milestones={data?.milestones}
                           dayNum={dayNum}
-                          completedSections={completedSections}
+                          completedSections={sectionsDone}
                           onComplete={() => markSectionDone(id)}
                         />
                       )}
