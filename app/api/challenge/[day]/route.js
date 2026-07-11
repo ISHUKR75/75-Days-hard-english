@@ -205,6 +205,16 @@ export async function GET(request, { params }) {
   const dayRaw = resolvedParams.day;
   const dayNum = parseInt(dayRaw, 10);
 
+  // Which single heavy bank (if any) the caller actually needs this request.
+  // The vocabulary/practice/mockTest banks can run into the thousands of rows
+  // (multiple MB of JSON) — sending all three on every section view (e.g. the
+  // "Theory" tab, which needs none of them) makes the response huge for no
+  // reason. Callers pass `?dataKey=<sectionDataKey>` so we only attach the
+  // one bank that section actually renders; everything else still gets an
+  // accurate `stats` count without the full array.
+  const { searchParams } = new URL(request.url);
+  const requestedDataKey = searchParams.get('dataKey');
+
   if (!dayNum || dayNum < 1 || dayNum > 75) {
     return NextResponse.json(
       { error: `Invalid day: ${dayRaw}. Must be 1-75.` },
@@ -246,6 +256,14 @@ export async function GET(request, { params }) {
     });
   }
 
+  // These banks can run into the thousands of rows (multiple MB of JSON).
+  // We still read+parse them server-side so `stats` counts stay accurate
+  // (that's cheap), but we only *ship* the full array back to the browser
+  // when the caller actually asked for it via `?dataKey=`.
+  const needVocab    = requestedDataKey === 'vocabulary';
+  const needPractice = requestedDataKey === 'practice';
+  const needTest     = requestedDataKey === 'mockTest';
+
   // Read all data files for this day
   const lessonsData      = readJSON(path.join(dirPath, 'lessons.json'));
   const vocabData        = readJSON(path.join(dirPath, 'vocabulary.json'));
@@ -283,14 +301,14 @@ export async function GET(request, { params }) {
     // Grammar content built from lessons.json
     content: buildContent(lessonsData),
 
-    // Vocabulary words array
-    vocabulary: extractVocabulary(vocabData),
+    // Vocabulary words array — only shipped when the vocabulary section asked for it
+    vocabulary: needVocab ? extractVocabulary(vocabData) : [],
 
-    // Practice questions for translation quiz
-    practice: extractPractice(practiceData),
+    // Practice questions for translation quiz — only shipped when the practice section asked for it
+    practice: needPractice ? extractPractice(practiceData) : [],
 
-    // Mock test MCQ questions
-    mockTest: extractMockTest(testData),
+    // Mock test MCQ questions — only shipped when the test section asked for it
+    mockTest: needTest ? extractMockTest(testData) : [],
 
     // Additional modules
     speaking:      speakingData,

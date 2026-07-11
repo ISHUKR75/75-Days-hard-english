@@ -69,7 +69,7 @@ export const SECTIONS = [
     id: 'vocabulary',
     num: 5,
     icon: '📝',
-    title: 'Vocabulary — 1000 Words',
+    title: 'Vocabulary',
     subtitle: 'Full word bank with Hindi meanings + IPA',
     time: '30 min',
     xp: 100,
@@ -92,7 +92,7 @@ export const SECTIONS = [
     num: 7,
     icon: '✍️',
     title: 'Practice (Hindi→English)',
-    subtitle: '1400 translation questions',
+    subtitle: 'Translation questions',
     time: '45 min',
     xp: 200,
     color: 'from-violet-600 to-indigo-700',
@@ -213,7 +213,7 @@ export const SECTIONS = [
     num: 18,
     icon: '📊',
     title: 'Final Mock Test',
-    subtitle: '400 MCQs — Timed + Graded',
+    subtitle: 'MCQs — Timed + Graded',
     time: '30 min',
     xp: 150,
     color: 'from-red-500 to-rose-600',
@@ -258,87 +258,86 @@ const SectionLoadingFallback = () => (
   </div>
 );
 
-const dynamicOpts = { loading: SectionLoadingFallback, ssr: false };
 
 const OverviewSection = dynamic(
   () => import('@/components/challenge/sections/OverviewSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const TheorySection = dynamic(
   () => import('@/components/challenge/sections/TheorySection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const MistakesSection = dynamic(
   () => import('@/components/challenge/sections/MistakesSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const MemoryTricksSection = dynamic(
   () => import('@/components/challenge/sections/MemoryTricksSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const VocabularySection = dynamic(
   () => import('@/components/challenge/sections/VocabularySection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const FlashcardsSection = dynamic(
   () => import('@/components/challenge/sections/FlashcardsSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const PracticeSection = dynamic(
   () => import('@/components/challenge/sections/PracticeSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const DialogueSection = dynamic(
   () => import('@/components/challenge/sections/DialogueSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const ConversationSection = dynamic(
   () => import('@/components/challenge/sections/ConversationSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const SpeakingSection = dynamic(
   () => import('@/components/challenge/sections/SpeakingSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const WritingSection = dynamic(
   () => import('@/components/challenge/sections/WritingSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const ListeningSection = dynamic(
   () => import('@/components/challenge/sections/ListeningSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const ReadingSection = dynamic(
   () => import('@/components/challenge/sections/ReadingSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const StorySection = dynamic(
   () => import('@/components/challenge/sections/StorySection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const EssaySection = dynamic(
   () => import('@/components/challenge/sections/EssaySection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const StudyPlanSection = dynamic(
   () => import('@/components/challenge/sections/StudyPlanSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const RevisionSection = dynamic(
   () => import('@/components/challenge/sections/RevisionSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const TestSection = dynamic(
   () => import('@/components/challenge/sections/TestSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const MilestonesSection = dynamic(
   () => import('@/components/challenge/sections/MilestonesSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 const ChallengeTaskSection = dynamic(
   () => import('@/components/challenge/sections/ChallengeTaskSection'),
-  dynamicOpts,
+  { loading: SectionLoadingFallback, ssr: false },
 );
 
 // ============================================================
@@ -520,7 +519,11 @@ export default function SectionPage({ params }) {
 
     async function fetchDayData() {
       try {
-        const res = await fetch(`/api/challenge/${dayNum}`, {
+        // Only ask the API to include the heavy array this section actually
+        // needs (vocabulary/practice/mockTest banks can be thousands of rows) —
+        // every other section just needs its own lightweight JSON blob.
+        const dataKeyParam = sectionMeta?.dataKey ? `?dataKey=${sectionMeta.dataKey}` : '';
+        const res = await fetch(`/api/challenge/${dayNum}${dataKeyParam}`, {
           // Cache for 60s — data won't change within a session
           next: { revalidate: 60 },
         });
@@ -547,7 +550,7 @@ export default function SectionPage({ params }) {
     return () => {
       cancelled = true;
     };
-  }, [dayNum]);
+  }, [dayNum, sectionMeta?.dataKey]);
 
   // ── Loading state ────────────────────────────────────────
   if (loading) return <PageSkeleton />;
@@ -599,12 +602,14 @@ export default function SectionPage({ params }) {
       dayData={dayData}
       sections={SECTIONS}
     >
-      {/* Render the actual section component, passing all the data it might need */}
+      {/* Every section component reads its own field off the full dayData
+          object (data.overview, data.grammarTheory, data.vocabulary, ...),
+          so pass the whole thing — the API already trims out whichever heavy
+          bank this section didn't request via `?dataKey=`. */}
       <SectionComponent
         dayNum={dayNum}
         sectionMeta={sectionMeta}
-        // Pass only the relevant slice of dayData based on the section's dataKey
-        data={dayData?.[sectionMeta.dataKey] ?? null}
+        data={dayData}
         dayData={dayData}
       />
     </SectionLayout>

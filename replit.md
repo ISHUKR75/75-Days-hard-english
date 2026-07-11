@@ -27,9 +27,9 @@ npm run start                    # production server on port 5000
 ## Day 1 — Fully Complete (reference implementation)
 
 `data/challenge/day-01/` contains all content files:
-- `vocabulary.json` — **1,000 words** (IPA, Hindi, synonyms, 6 example sentences each)
-- `practice-questions.json` — **1,400 Hindi→English questions** (easy/medium/hard, categorised)
-- `daily-test.json` — **400 MCQ test questions** (timed, auto-graded)
+- `vocabulary.json` — **1,184 words** across 36 categories (IPA, Hindi, synonyms, 6 example sentences each). Closed word classes (Numbers, Colors, Prepositions, Conjunctions, Pronouns, Question Words, Linking Verbs, Grammar) are grown to their realistic full inventory, not padded further — see "Vocabulary quantity targets" below.
+- `practice-questions.json` — **9,896 Hindi→English questions** across 14 categories (easy/medium/hard, categorised per grammar topic)
+- `daily-test.json` — **5,144 MCQ/true-false test questions** (timed, auto-graded; legacy 400 stay uncategorised, newer ones carry a `category` field aligned to practice categories)
 - `flashcards.json` — **500 flashcards** (spaced-repetition flip cards)
 - `dialogue.json` — **10 real dialogues** (role-play, Hindi toggle, comprehension Qs)
 - `story.json` — story with grammar highlights + comprehension MCQ
@@ -45,7 +45,7 @@ npm run start                    # production server on port 5000
 2. Concept & Theory
 3. **Common Mistakes & Error Fix** ← new
 4. **Memory Tricks & Mnemonics** ← new
-5. Vocabulary — 1000 Words
+5. Vocabulary — 1,184 Words
 6. **Flashcards — Spaced Repetition** ← new
 7. Interactive Practice (Hindi→English)
 8. **Dialogue Practice** ← new
@@ -85,3 +85,9 @@ Each day has a dedicated local branch for its team member:
 - Preference for dedicated pages per section (not just tabs) with per-section progress tracking.
 - Team workflow: 75 contributors, one per day, each pushing to their own `day-XX` branch, merged into `main` later — avoid changes that would create merge conflicts across unrelated day folders.
 - File size: keep files organized/componentized per existing repo conventions — do not literally inflate single files to arbitrary huge line counts; prioritize completeness and correctness of content/features over line count.
+
+## Vocabulary Quantity Targets — Closed vs. Open Word Classes
+
+The aspirational "500-1000 words per category" target is only realistic for **open** word classes (Action Verbs, Common Nouns, Abstract Nouns, Descriptors, topic vocab like Business/Technology/Career, etc.) — English keeps coining new nouns/verbs/adjectives, so these can keep growing toward the target over time.
+
+It is **not** linguistically possible for **closed** classes: Numbers, Colors, Prepositions, Conjunctions, Pronouns, Question Words, Linking Verbs, and core Grammar terms have a small, fixed, real inventory in English (e.g. there are only ~9 question words, ~7 subject pronouns). These categories in Day 1 are grown to their realistic complete inventory instead of being force-padded with fake/incorrect words. Days 2-75 and further growth of the open-class categories remain future work.

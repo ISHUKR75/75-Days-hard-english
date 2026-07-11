@@ -264,4 +264,5 @@ const useProgressStore = create(
   )
 );
 
+export { useProgressStore };
 export default useProgressStore;

@@ -1,47 +1,47 @@
 {
   "day": 1,
   "title": "Day 1 Vocabulary — 600+ Essential English Words for Basics of English",
-  "description": "Comprehensive 1000-word vocabulary bank covering everyday English, business, office communication, career, academic, advanced adjectives/verbs, phrasal expressions, and technology & digital — all with IPA, Hindi meanings, 6-context sentences, synonyms, antonyms, and usage notes.",
+  "description": "Comprehensive 1184-word vocabulary bank covering everyday English, business, office communication, career, academic, advanced adjectives/verbs, phrasal expressions, and technology & digital — all with IPA, Hindi meanings, 6-context sentences, synonyms, antonyms, and usage notes.",
   "topic": "Basics of English",
   "cefrLevel": "A0-A1",
-  "totalWords": 1000,
+  "totalWords": 1184,
   "categories": [
-    "Abstract Nouns",
-    "Academic & Study",
     "Action Verbs",
-    "Adjectives",
-    "Advanced Adjectives",
-    "Advanced Verbs",
-    "Adverbs",
-    "Body & Health",
-    "Business & Finance",
-    "Career & Interview",
-    "Character",
-    "Colors",
-    "Common Nouns",
-    "Common Verbs",
-    "Conjunctions",
-    "Descriptors",
-    "Emotions",
-    "Food & Drinks",
-    "Grammar",
-    "Lifestyle",
-    "Linking Verbs",
-    "Nature",
-    "Numbers",
-    "Objects",
-    "Office Communication",
-    "People",
-    "Phrasal Expressions",
-    "Places",
-    "Prepositions",
-    "Professional",
     "Professional Verbs",
+    "Linking Verbs",
+    "People",
+    "Objects",
+    "Places",
+    "Abstract Nouns",
+    "Time Words",
+    "Numbers",
+    "Common Nouns",
+    "Adjectives",
+    "Adverbs",
     "Pronouns",
     "Question Words",
+    "Conjunctions",
+    "Prepositions",
+    "Body & Health",
+    "Food & Drinks",
+    "Emotions",
+    "Character",
+    "Professional",
     "Technology",
-    "Technology & Digital",
-    "Time Words"
+    "Nature",
+    "Colors",
+    "Descriptors",
+    "Grammar",
+    "Lifestyle",
+    "Common Verbs",
+    "Business & Finance",
+    "Office Communication",
+    "Career & Interview",
+    "Academic & Study",
+    "Advanced Adjectives",
+    "Advanced Verbs",
+    "Phrasal Expressions",
+    "Technology & Digital"
   ],
   "words": [
     {
@@ -29825,6 +29825,4742 @@
         "informal": "Prompt engineering: asking the AI politely and specifically. Works for humans too."
       },
       "usageNote": "Prompt engineering = designing clear, specific instructions for AI. Better prompts = better outputs. 'Garbage in, garbage out.'"
+    },
+    {
+      "id": 1001,
+      "word": "four",
+      "hindi": "चार",
+      "simpleMeaning": "a number or quantity word — \"four\"",
+      "ipa": "/fɔːr/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "quartet"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A four matters a lot in my everyday life.",
+        "office": "We discussed a four during today's meeting.",
+        "interview": "I mentioned a four as one of my key strengths.",
+        "business": "Our strategy is built around a four that customers value.",
+        "formal": "A four deserves careful consideration.",
+        "informal": "Honestly, a four is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1002,
+      "word": "six",
+      "hindi": "छह",
+      "simpleMeaning": "a number or quantity word — \"six\"",
+      "ipa": "/sɪks/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "half dozen"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A six matters a lot in my everyday life.",
+        "office": "We discussed a six during today's meeting.",
+        "interview": "I mentioned a six as one of my key strengths.",
+        "business": "Our strategy is built around a six that customers value.",
+        "formal": "A six deserves careful consideration.",
+        "informal": "Honestly, a six is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1003,
+      "word": "seven",
+      "hindi": "सात",
+      "simpleMeaning": "a number or quantity word — \"seven\"",
+      "ipa": "/ˈsev.ən/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A seven matters a lot in my everyday life.",
+        "office": "We discussed a seven during today's meeting.",
+        "interview": "I mentioned a seven as one of my key strengths.",
+        "business": "Our strategy is built around a seven that customers value.",
+        "formal": "A seven deserves careful consideration.",
+        "informal": "Honestly, a seven is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1004,
+      "word": "eight",
+      "hindi": "आठ",
+      "simpleMeaning": "a number or quantity word — \"eight\"",
+      "ipa": "/eɪt/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "An eight matters a lot in my everyday life.",
+        "office": "We discussed an eight during today's meeting.",
+        "interview": "I mentioned an eight as one of my key strengths.",
+        "business": "Our strategy is built around an eight that customers value.",
+        "formal": "An eight deserves careful consideration.",
+        "informal": "Honestly, an eight is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1005,
+      "word": "nine",
+      "hindi": "नौ",
+      "simpleMeaning": "a number or quantity word — \"nine\"",
+      "ipa": "/naɪn/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A nine matters a lot in my everyday life.",
+        "office": "We discussed a nine during today's meeting.",
+        "interview": "I mentioned a nine as one of my key strengths.",
+        "business": "Our strategy is built around a nine that customers value.",
+        "formal": "A nine deserves careful consideration.",
+        "informal": "Honestly, a nine is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1006,
+      "word": "eleven",
+      "hindi": "ग्यारह",
+      "simpleMeaning": "a number or quantity word — \"eleven\"",
+      "ipa": "/ɪˈlev.ən/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "An eleven matters a lot in my everyday life.",
+        "office": "We discussed an eleven during today's meeting.",
+        "interview": "I mentioned an eleven as one of my key strengths.",
+        "business": "Our strategy is built around an eleven that customers value.",
+        "formal": "An eleven deserves careful consideration.",
+        "informal": "Honestly, an eleven is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1007,
+      "word": "twelve",
+      "hindi": "बारह",
+      "simpleMeaning": "a number or quantity word — \"twelve\"",
+      "ipa": "/twelv/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "dozen"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A twelve matters a lot in my everyday life.",
+        "office": "We discussed a twelve during today's meeting.",
+        "interview": "I mentioned a twelve as one of my key strengths.",
+        "business": "Our strategy is built around a twelve that customers value.",
+        "formal": "A twelve deserves careful consideration.",
+        "informal": "Honestly, a twelve is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1008,
+      "word": "twenty",
+      "hindi": "बीस",
+      "simpleMeaning": "a number or quantity word — \"twenty\"",
+      "ipa": "/ˈtwen.ti/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "score"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A twenty matters a lot in my everyday life.",
+        "office": "We discussed a twenty during today's meeting.",
+        "interview": "I mentioned a twenty as one of my key strengths.",
+        "business": "Our strategy is built around a twenty that customers value.",
+        "formal": "A twenty deserves careful consideration.",
+        "informal": "Honestly, a twenty is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1009,
+      "word": "thirty",
+      "hindi": "तीस",
+      "simpleMeaning": "a number or quantity word — \"thirty\"",
+      "ipa": "/ˈθɜː.ti/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A thirty matters a lot in my everyday life.",
+        "office": "We discussed a thirty during today's meeting.",
+        "interview": "I mentioned a thirty as one of my key strengths.",
+        "business": "Our strategy is built around a thirty that customers value.",
+        "formal": "A thirty deserves careful consideration.",
+        "informal": "Honestly, a thirty is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1010,
+      "word": "forty",
+      "hindi": "चालीस",
+      "simpleMeaning": "a number or quantity word — \"forty\"",
+      "ipa": "/ˈfɔː.ti/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A forty matters a lot in my everyday life.",
+        "office": "We discussed a forty during today's meeting.",
+        "interview": "I mentioned a forty as one of my key strengths.",
+        "business": "Our strategy is built around a forty that customers value.",
+        "formal": "A forty deserves careful consideration.",
+        "informal": "Honestly, a forty is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1011,
+      "word": "fifty",
+      "hindi": "पचास",
+      "simpleMeaning": "a number or quantity word — \"fifty\"",
+      "ipa": "/ˈfɪf.ti/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A fifty matters a lot in my everyday life.",
+        "office": "We discussed a fifty during today's meeting.",
+        "interview": "I mentioned a fifty as one of my key strengths.",
+        "business": "Our strategy is built around a fifty that customers value.",
+        "formal": "A fifty deserves careful consideration.",
+        "informal": "Honestly, a fifty is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1012,
+      "word": "million",
+      "hindi": "दस लाख",
+      "simpleMeaning": "a number or quantity word — \"million\"",
+      "ipa": "/ˈmɪl.jən/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A million matters a lot in my everyday life.",
+        "office": "We discussed a million during today's meeting.",
+        "interview": "I mentioned a million as one of my key strengths.",
+        "business": "Our strategy is built around a million that customers value.",
+        "formal": "A million deserves careful consideration.",
+        "informal": "Honestly, a million is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1013,
+      "word": "billion",
+      "hindi": "अरब",
+      "simpleMeaning": "a number or quantity word — \"billion\"",
+      "ipa": "/ˈbɪl.jən/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A billion matters a lot in my everyday life.",
+        "office": "We discussed a billion during today's meeting.",
+        "interview": "I mentioned a billion as one of my key strengths.",
+        "business": "Our strategy is built around a billion that customers value.",
+        "formal": "A billion deserves careful consideration.",
+        "informal": "Honestly, a billion is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1014,
+      "word": "zero",
+      "hindi": "शून्य",
+      "simpleMeaning": "a number or quantity word — \"zero\"",
+      "ipa": "/ˈzɪə.roʊ/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "nil",
+        "nought"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A zero matters a lot in my everyday life.",
+        "office": "We discussed a zero during today's meeting.",
+        "interview": "I mentioned a zero as one of my key strengths.",
+        "business": "Our strategy is built around a zero that customers value.",
+        "formal": "A zero deserves careful consideration.",
+        "informal": "Honestly, a zero is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1015,
+      "word": "first",
+      "hindi": "पहला",
+      "simpleMeaning": "a number or quantity word — \"first\"",
+      "ipa": "/fɜːrst/",
+      "category": "Numbers",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "last"
+      ],
+      "sentences": {
+        "daily": "A first matters a lot in my everyday life.",
+        "office": "We discussed a first during today's meeting.",
+        "interview": "I mentioned a first as one of my key strengths.",
+        "business": "Our strategy is built around a first that customers value.",
+        "formal": "A first deserves careful consideration.",
+        "informal": "Honestly, a first is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1016,
+      "word": "second",
+      "hindi": "दूसरा",
+      "simpleMeaning": "a number or quantity word — \"second\"",
+      "ipa": "/ˈsek.ənd/",
+      "category": "Numbers",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A second matters a lot in my everyday life.",
+        "office": "We discussed a second during today's meeting.",
+        "interview": "I mentioned a second as one of my key strengths.",
+        "business": "Our strategy is built around a second that customers value.",
+        "formal": "A second deserves careful consideration.",
+        "informal": "Honestly, a second is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1017,
+      "word": "third",
+      "hindi": "तीसरा",
+      "simpleMeaning": "a number or quantity word — \"third\"",
+      "ipa": "/θɜːrd/",
+      "category": "Numbers",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A third matters a lot in my everyday life.",
+        "office": "We discussed a third during today's meeting.",
+        "interview": "I mentioned a third as one of my key strengths.",
+        "business": "Our strategy is built around a third that customers value.",
+        "formal": "A third deserves careful consideration.",
+        "informal": "Honestly, a third is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1018,
+      "word": "last",
+      "hindi": "आख़िरी",
+      "simpleMeaning": "a number or quantity word — \"last\"",
+      "ipa": "/læst/",
+      "category": "Numbers",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "final"
+      ],
+      "antonyms": [
+        "first"
+      ],
+      "sentences": {
+        "daily": "A last matters a lot in my everyday life.",
+        "office": "We discussed a last during today's meeting.",
+        "interview": "I mentioned a last as one of my key strengths.",
+        "business": "Our strategy is built around a last that customers value.",
+        "formal": "A last deserves careful consideration.",
+        "informal": "Honestly, a last is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1019,
+      "word": "half",
+      "hindi": "आधा",
+      "simpleMeaning": "a number or quantity word — \"half\"",
+      "ipa": "/hæf/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "fifty percent"
+      ],
+      "antonyms": [
+        "whole"
+      ],
+      "sentences": {
+        "daily": "A half matters a lot in my everyday life.",
+        "office": "We discussed a half during today's meeting.",
+        "interview": "I mentioned a half as one of my key strengths.",
+        "business": "Our strategy is built around a half that customers value.",
+        "formal": "A half deserves careful consideration.",
+        "informal": "Honestly, a half is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1020,
+      "word": "quarter",
+      "hindi": "एक चौथाई",
+      "simpleMeaning": "a number or quantity word — \"quarter\"",
+      "ipa": "/ˈkwɔːr.tər/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "fourth part"
+      ],
+      "antonyms": [
+        "whole"
+      ],
+      "sentences": {
+        "daily": "A quarter matters a lot in my everyday life.",
+        "office": "We discussed a quarter during today's meeting.",
+        "interview": "I mentioned a quarter as one of my key strengths.",
+        "business": "Our strategy is built around a quarter that customers value.",
+        "formal": "A quarter deserves careful consideration.",
+        "informal": "Honestly, a quarter is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1021,
+      "word": "dozen",
+      "hindi": "दर्जन",
+      "simpleMeaning": "a number or quantity word — \"dozen\"",
+      "ipa": "/ˈdʌz.ən/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "twelve"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A dozen matters a lot in my everyday life.",
+        "office": "We discussed a dozen during today's meeting.",
+        "interview": "I mentioned a dozen as one of my key strengths.",
+        "business": "Our strategy is built around a dozen that customers value.",
+        "formal": "A dozen deserves careful consideration.",
+        "informal": "Honestly, a dozen is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1022,
+      "word": "pair",
+      "hindi": "जोड़ा",
+      "simpleMeaning": "a number or quantity word — \"pair\"",
+      "ipa": "/per/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "couple",
+        "duo"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A pair matters a lot in my everyday life.",
+        "office": "We discussed a pair during today's meeting.",
+        "interview": "I mentioned a pair as one of my key strengths.",
+        "business": "Our strategy is built around a pair that customers value.",
+        "formal": "A pair deserves careful consideration.",
+        "informal": "Honestly, a pair is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1023,
+      "word": "few",
+      "hindi": "कुछ",
+      "simpleMeaning": "a number or quantity word — \"few\"",
+      "ipa": "/fjuː/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "some",
+        "a handful"
+      ],
+      "antonyms": [
+        "many"
+      ],
+      "sentences": {
+        "daily": "A few matters a lot in my everyday life.",
+        "office": "We discussed a few during today's meeting.",
+        "interview": "I mentioned a few as one of my key strengths.",
+        "business": "Our strategy is built around a few that customers value.",
+        "formal": "A few deserves careful consideration.",
+        "informal": "Honestly, a few is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1024,
+      "word": "several",
+      "hindi": "कई",
+      "simpleMeaning": "a number or quantity word — \"several\"",
+      "ipa": "/ˈsev.ər.əl/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "many",
+        "various"
+      ],
+      "antonyms": [
+        "few"
+      ],
+      "sentences": {
+        "daily": "A several matters a lot in my everyday life.",
+        "office": "We discussed a several during today's meeting.",
+        "interview": "I mentioned a several as one of my key strengths.",
+        "business": "Our strategy is built around a several that customers value.",
+        "formal": "A several deserves careful consideration.",
+        "informal": "Honestly, a several is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1025,
+      "word": "many",
+      "hindi": "बहुत",
+      "simpleMeaning": "a number or quantity word — \"many\"",
+      "ipa": "/ˈmen.i/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "numerous",
+        "plenty"
+      ],
+      "antonyms": [
+        "few"
+      ],
+      "sentences": {
+        "daily": "A many matters a lot in my everyday life.",
+        "office": "We discussed a many during today's meeting.",
+        "interview": "I mentioned a many as one of my key strengths.",
+        "business": "Our strategy is built around a many that customers value.",
+        "formal": "A many deserves careful consideration.",
+        "informal": "Honestly, a many is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1026,
+      "word": "couple",
+      "hindi": "दो/जोड़ा",
+      "simpleMeaning": "a number or quantity word — \"couple\"",
+      "ipa": "/ˈkʌp.əl/",
+      "category": "Numbers",
+      "partOfSpeech": "noun/adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "pair",
+        "two"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A couple matters a lot in my everyday life.",
+        "office": "We discussed a couple during today's meeting.",
+        "interview": "I mentioned a couple as one of my key strengths.",
+        "business": "Our strategy is built around a couple that customers value.",
+        "formal": "A couple deserves careful consideration.",
+        "informal": "Honestly, a couple is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1027,
+      "word": "orange",
+      "hindi": "नारंगी",
+      "simpleMeaning": "a colour — \"orange\"",
+      "ipa": "/ˈɔːr.ɪndʒ/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "tangerine"
+      ],
+      "antonyms": [
+        "blue"
+      ],
+      "sentences": {
+        "daily": "I really like the orange shirt you are wearing.",
+        "office": "Please use the orange folder for urgent files.",
+        "interview": "My favourite colour is orange; it feels calm to me.",
+        "business": "Our new logo uses a orange colour scheme.",
+        "formal": "The report cover shall be printed in orange.",
+        "informal": "That orange bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1028,
+      "word": "purple",
+      "hindi": "बैंगनी",
+      "simpleMeaning": "a colour — \"purple\"",
+      "ipa": "/ˈpɜːr.pəl/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "violet"
+      ],
+      "antonyms": [
+        "yellow"
+      ],
+      "sentences": {
+        "daily": "I really like the purple shirt you are wearing.",
+        "office": "Please use the purple folder for urgent files.",
+        "interview": "My favourite colour is purple; it feels calm to me.",
+        "business": "Our new logo uses a purple colour scheme.",
+        "formal": "The report cover shall be printed in purple.",
+        "informal": "That purple bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1029,
+      "word": "pink",
+      "hindi": "गुलाबी",
+      "simpleMeaning": "a colour — \"pink\"",
+      "ipa": "/pɪŋk/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "rose"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the pink shirt you are wearing.",
+        "office": "Please use the pink folder for urgent files.",
+        "interview": "My favourite colour is pink; it feels calm to me.",
+        "business": "Our new logo uses a pink colour scheme.",
+        "formal": "The report cover shall be printed in pink.",
+        "informal": "That pink bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1030,
+      "word": "brown",
+      "hindi": "भूरा",
+      "simpleMeaning": "a colour — \"brown\"",
+      "ipa": "/braʊn/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "tan",
+        "chestnut"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the brown shirt you are wearing.",
+        "office": "Please use the brown folder for urgent files.",
+        "interview": "My favourite colour is brown; it feels calm to me.",
+        "business": "Our new logo uses a brown colour scheme.",
+        "formal": "The report cover shall be printed in brown.",
+        "informal": "That brown bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1031,
+      "word": "grey",
+      "hindi": "स्लेटी",
+      "simpleMeaning": "a colour — \"grey\"",
+      "ipa": "/ɡreɪ/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "gray",
+        "ash"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the grey shirt you are wearing.",
+        "office": "Please use the grey folder for urgent files.",
+        "interview": "My favourite colour is grey; it feels calm to me.",
+        "business": "Our new logo uses a grey colour scheme.",
+        "formal": "The report cover shall be printed in grey.",
+        "informal": "That grey bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1032,
+      "word": "gold",
+      "hindi": "सुनहरा",
+      "simpleMeaning": "a colour — \"gold\"",
+      "ipa": "/ɡoʊld/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "golden"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the gold shirt you are wearing.",
+        "office": "Please use the gold folder for urgent files.",
+        "interview": "My favourite colour is gold; it feels calm to me.",
+        "business": "Our new logo uses a gold colour scheme.",
+        "formal": "The report cover shall be printed in gold.",
+        "informal": "That gold bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1033,
+      "word": "silver",
+      "hindi": "चांदी जैसा",
+      "simpleMeaning": "a colour — \"silver\"",
+      "ipa": "/ˈsɪl.vər/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "grey-white"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the silver shirt you are wearing.",
+        "office": "Please use the silver folder for urgent files.",
+        "interview": "My favourite colour is silver; it feels calm to me.",
+        "business": "Our new logo uses a silver colour scheme.",
+        "formal": "The report cover shall be printed in silver.",
+        "informal": "That silver bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1034,
+      "word": "maroon",
+      "hindi": "गहरा लाल",
+      "simpleMeaning": "a colour — \"maroon\"",
+      "ipa": "/məˈruːn/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "dark red"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the maroon shirt you are wearing.",
+        "office": "Please use the maroon folder for urgent files.",
+        "interview": "My favourite colour is maroon; it feels calm to me.",
+        "business": "Our new logo uses a maroon colour scheme.",
+        "formal": "The report cover shall be printed in maroon.",
+        "informal": "That maroon bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1035,
+      "word": "navy",
+      "hindi": "गहरा नीला",
+      "simpleMeaning": "a colour — \"navy\"",
+      "ipa": "/ˈneɪ.vi/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "dark blue"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the navy shirt you are wearing.",
+        "office": "Please use the navy folder for urgent files.",
+        "interview": "My favourite colour is navy; it feels calm to me.",
+        "business": "Our new logo uses a navy colour scheme.",
+        "formal": "The report cover shall be printed in navy.",
+        "informal": "That navy bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1036,
+      "word": "turquoise",
+      "hindi": "फ़िरोज़ी",
+      "simpleMeaning": "a colour — \"turquoise\"",
+      "ipa": "/ˈtɜːr.kwɔɪz/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "cyan"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the turquoise shirt you are wearing.",
+        "office": "Please use the turquoise folder for urgent files.",
+        "interview": "My favourite colour is turquoise; it feels calm to me.",
+        "business": "Our new logo uses a turquoise colour scheme.",
+        "formal": "The report cover shall be printed in turquoise.",
+        "informal": "That turquoise bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1037,
+      "word": "beige",
+      "hindi": "हल्का भूरा",
+      "simpleMeaning": "a colour — \"beige\"",
+      "ipa": "/beɪʒ/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "cream"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the beige shirt you are wearing.",
+        "office": "Please use the beige folder for urgent files.",
+        "interview": "My favourite colour is beige; it feels calm to me.",
+        "business": "Our new logo uses a beige colour scheme.",
+        "formal": "The report cover shall be printed in beige.",
+        "informal": "That beige bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1038,
+      "word": "violet",
+      "hindi": "बैंगनी (हल्का)",
+      "simpleMeaning": "a colour — \"violet\"",
+      "ipa": "/ˈvaɪ.ə.lət/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "purple"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the violet shirt you are wearing.",
+        "office": "Please use the violet folder for urgent files.",
+        "interview": "My favourite colour is violet; it feels calm to me.",
+        "business": "Our new logo uses a violet colour scheme.",
+        "formal": "The report cover shall be printed in violet.",
+        "informal": "That violet bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1039,
+      "word": "cream",
+      "hindi": "मलाई रंग",
+      "simpleMeaning": "a colour — \"cream\"",
+      "ipa": "/kriːm/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "off-white"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the cream shirt you are wearing.",
+        "office": "Please use the cream folder for urgent files.",
+        "interview": "My favourite colour is cream; it feels calm to me.",
+        "business": "Our new logo uses a cream colour scheme.",
+        "formal": "The report cover shall be printed in cream.",
+        "informal": "That cream bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1040,
+      "word": "magenta",
+      "hindi": "गुलाबी-बैंगनी",
+      "simpleMeaning": "a colour — \"magenta\"",
+      "ipa": "/məˈdʒen.tə/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "pink-purple"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the magenta shirt you are wearing.",
+        "office": "Please use the magenta folder for urgent files.",
+        "interview": "My favourite colour is magenta; it feels calm to me.",
+        "business": "Our new logo uses a magenta colour scheme.",
+        "formal": "The report cover shall be printed in magenta.",
+        "informal": "That magenta bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1041,
+      "word": "indigo",
+      "hindi": "नील रंग",
+      "simpleMeaning": "a colour — \"indigo\"",
+      "ipa": "/ˈɪn.dɪ.ɡoʊ/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "deep blue"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the indigo shirt you are wearing.",
+        "office": "Please use the indigo folder for urgent files.",
+        "interview": "My favourite colour is indigo; it feels calm to me.",
+        "business": "Our new logo uses a indigo colour scheme.",
+        "formal": "The report cover shall be printed in indigo.",
+        "informal": "That indigo bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1042,
+      "word": "lavender",
+      "hindi": "हल्का बैंगनी",
+      "simpleMeaning": "a colour — \"lavender\"",
+      "ipa": "/ˈlæv.ən.dər/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "pale purple"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the lavender shirt you are wearing.",
+        "office": "Please use the lavender folder for urgent files.",
+        "interview": "My favourite colour is lavender; it feels calm to me.",
+        "business": "Our new logo uses a lavender colour scheme.",
+        "formal": "The report cover shall be printed in lavender.",
+        "informal": "That lavender bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1043,
+      "word": "olive",
+      "hindi": "जैतूनी",
+      "simpleMeaning": "a colour — \"olive\"",
+      "ipa": "/ˈɒl.ɪv/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "dull green"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the olive shirt you are wearing.",
+        "office": "Please use the olive folder for urgent files.",
+        "interview": "My favourite colour is olive; it feels calm to me.",
+        "business": "Our new logo uses a olive colour scheme.",
+        "formal": "The report cover shall be printed in olive.",
+        "informal": "That olive bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1044,
+      "word": "teal",
+      "hindi": "गहरा फ़िरोज़ी",
+      "simpleMeaning": "a colour — \"teal\"",
+      "ipa": "/tiːl/",
+      "category": "Colors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "blue-green"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I really like the teal shirt you are wearing.",
+        "office": "Please use the teal folder for urgent files.",
+        "interview": "My favourite colour is teal; it feels calm to me.",
+        "business": "Our new logo uses a teal colour scheme.",
+        "formal": "The report cover shall be printed in teal.",
+        "informal": "That teal bag looks amazing on you!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1045,
+      "word": "ocean",
+      "hindi": "महासागर",
+      "simpleMeaning": "an everyday noun — \"ocean\"",
+      "ipa": "/ˈoʊ.ʃən/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "sea"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The ocean matters a lot in my everyday life.",
+        "office": "We discussed the ocean during today's meeting.",
+        "interview": "I mentioned the ocean as one of my key strengths.",
+        "business": "Our strategy is built around the ocean that customers value.",
+        "formal": "The ocean deserves careful consideration.",
+        "informal": "Honestly, the ocean is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1046,
+      "word": "forest",
+      "hindi": "जंगल",
+      "simpleMeaning": "an everyday noun — \"forest\"",
+      "ipa": "/ˈfɒr.ɪst/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "woods"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The forest matters a lot in my everyday life.",
+        "office": "We discussed the forest during today's meeting.",
+        "interview": "I mentioned the forest as one of my key strengths.",
+        "business": "Our strategy is built around the forest that customers value.",
+        "formal": "The forest deserves careful consideration.",
+        "informal": "Honestly, the forest is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1047,
+      "word": "garden",
+      "hindi": "बगीचा",
+      "simpleMeaning": "an everyday noun — \"garden\"",
+      "ipa": "/ˈɡɑːr.dən/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "yard"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The garden matters a lot in my everyday life.",
+        "office": "We discussed the garden during today's meeting.",
+        "interview": "I mentioned the garden as one of my key strengths.",
+        "business": "Our strategy is built around the garden that customers value.",
+        "formal": "The garden deserves careful consideration.",
+        "informal": "Honestly, the garden is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1048,
+      "word": "bank",
+      "hindi": "बैंक",
+      "simpleMeaning": "an everyday noun — \"bank\"",
+      "ipa": "/bæŋk/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The bank matters a lot in my everyday life.",
+        "office": "We discussed the bank during today's meeting.",
+        "interview": "I mentioned the bank as one of my key strengths.",
+        "business": "Our strategy is built around the bank that customers value.",
+        "formal": "The bank deserves careful consideration.",
+        "informal": "Honestly, the bank is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1049,
+      "word": "station",
+      "hindi": "स्टेशन",
+      "simpleMeaning": "an everyday noun — \"station\"",
+      "ipa": "/ˈsteɪ.ʃən/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The station matters a lot in my everyday life.",
+        "office": "We discussed the station during today's meeting.",
+        "interview": "I mentioned the station as one of my key strengths.",
+        "business": "Our strategy is built around the station that customers value.",
+        "formal": "The station deserves careful consideration.",
+        "informal": "Honestly, the station is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1050,
+      "word": "airport",
+      "hindi": "एयरपोर्ट",
+      "simpleMeaning": "an everyday noun — \"airport\"",
+      "ipa": "/ˈer.pɔːrt/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The airport matters a lot in my everyday life.",
+        "office": "We discussed the airport during today's meeting.",
+        "interview": "I mentioned the airport as one of my key strengths.",
+        "business": "Our strategy is built around the airport that customers value.",
+        "formal": "The airport deserves careful consideration.",
+        "informal": "Honestly, the airport is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1051,
+      "word": "hotel",
+      "hindi": "होटल",
+      "simpleMeaning": "an everyday noun — \"hotel\"",
+      "ipa": "/hoʊˈtel/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The hotel matters a lot in my everyday life.",
+        "office": "We discussed the hotel during today's meeting.",
+        "interview": "I mentioned the hotel as one of my key strengths.",
+        "business": "Our strategy is built around the hotel that customers value.",
+        "formal": "The hotel deserves careful consideration.",
+        "informal": "Honestly, the hotel is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1052,
+      "word": "restaurant",
+      "hindi": "रेस्टोरेंट",
+      "simpleMeaning": "an everyday noun — \"restaurant\"",
+      "ipa": "/ˈres.tər.ɒnt/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "eatery"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The restaurant matters a lot in my everyday life.",
+        "office": "We discussed the restaurant during today's meeting.",
+        "interview": "I mentioned the restaurant as one of my key strengths.",
+        "business": "Our strategy is built around the restaurant that customers value.",
+        "formal": "The restaurant deserves careful consideration.",
+        "informal": "Honestly, the restaurant is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1053,
+      "word": "kitchen",
+      "hindi": "रसोई",
+      "simpleMeaning": "an everyday noun — \"kitchen\"",
+      "ipa": "/ˈkɪtʃ.ən/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The kitchen matters a lot in my everyday life.",
+        "office": "We discussed the kitchen during today's meeting.",
+        "interview": "I mentioned the kitchen as one of my key strengths.",
+        "business": "Our strategy is built around the kitchen that customers value.",
+        "formal": "The kitchen deserves careful consideration.",
+        "informal": "Honestly, the kitchen is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1054,
+      "word": "bathroom",
+      "hindi": "बाथरूम",
+      "simpleMeaning": "an everyday noun — \"bathroom\"",
+      "ipa": "/ˈbæθ.ruːm/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The bathroom matters a lot in my everyday life.",
+        "office": "We discussed the bathroom during today's meeting.",
+        "interview": "I mentioned the bathroom as one of my key strengths.",
+        "business": "Our strategy is built around the bathroom that customers value.",
+        "formal": "The bathroom deserves careful consideration.",
+        "informal": "Honestly, the bathroom is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1055,
+      "word": "bedroom",
+      "hindi": "शयनकक्ष",
+      "simpleMeaning": "an everyday noun — \"bedroom\"",
+      "ipa": "/ˈbed.ruːm/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The bedroom matters a lot in my everyday life.",
+        "office": "We discussed the bedroom during today's meeting.",
+        "interview": "I mentioned the bedroom as one of my key strengths.",
+        "business": "Our strategy is built around the bedroom that customers value.",
+        "formal": "The bedroom deserves careful consideration.",
+        "informal": "Honestly, the bedroom is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1056,
+      "word": "roof",
+      "hindi": "छत",
+      "simpleMeaning": "an everyday noun — \"roof\"",
+      "ipa": "/ruːf/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "floor"
+      ],
+      "sentences": {
+        "daily": "The roof matters a lot in my everyday life.",
+        "office": "We discussed the roof during today's meeting.",
+        "interview": "I mentioned the roof as one of my key strengths.",
+        "business": "Our strategy is built around the roof that customers value.",
+        "formal": "The roof deserves careful consideration.",
+        "informal": "Honestly, the roof is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1057,
+      "word": "floor",
+      "hindi": "फ़र्श",
+      "simpleMeaning": "an everyday noun — \"floor\"",
+      "ipa": "/flɔːr/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "ground"
+      ],
+      "antonyms": [
+        "roof"
+      ],
+      "sentences": {
+        "daily": "The floor matters a lot in my everyday life.",
+        "office": "We discussed the floor during today's meeting.",
+        "interview": "I mentioned the floor as one of my key strengths.",
+        "business": "Our strategy is built around the floor that customers value.",
+        "formal": "The floor deserves careful consideration.",
+        "informal": "Honestly, the floor is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1058,
+      "word": "ceiling",
+      "hindi": "छत (अंदर की)",
+      "simpleMeaning": "an everyday noun — \"ceiling\"",
+      "ipa": "/ˈsiː.lɪŋ/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "floor"
+      ],
+      "sentences": {
+        "daily": "The ceiling matters a lot in my everyday life.",
+        "office": "We discussed the ceiling during today's meeting.",
+        "interview": "I mentioned the ceiling as one of my key strengths.",
+        "business": "Our strategy is built around the ceiling that customers value.",
+        "formal": "The ceiling deserves careful consideration.",
+        "informal": "Honestly, the ceiling is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1059,
+      "word": "key",
+      "hindi": "चाबी",
+      "simpleMeaning": "an everyday noun — \"key\"",
+      "ipa": "/kiː/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The key matters a lot in my everyday life.",
+        "office": "We discussed the key during today's meeting.",
+        "interview": "I mentioned the key as one of my key strengths.",
+        "business": "Our strategy is built around the key that customers value.",
+        "formal": "The key deserves careful consideration.",
+        "informal": "Honestly, the key is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1060,
+      "word": "lock",
+      "hindi": "ताला",
+      "simpleMeaning": "an everyday noun — \"lock\"",
+      "ipa": "/lɒk/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "key"
+      ],
+      "sentences": {
+        "daily": "The lock matters a lot in my everyday life.",
+        "office": "We discussed the lock during today's meeting.",
+        "interview": "I mentioned the lock as one of my key strengths.",
+        "business": "Our strategy is built around the lock that customers value.",
+        "formal": "The lock deserves careful consideration.",
+        "informal": "Honestly, the lock is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1061,
+      "word": "box",
+      "hindi": "डिब्बा",
+      "simpleMeaning": "an everyday noun — \"box\"",
+      "ipa": "/bɒks/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "carton"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The box matters a lot in my everyday life.",
+        "office": "We discussed the box during today's meeting.",
+        "interview": "I mentioned the box as one of my key strengths.",
+        "business": "Our strategy is built around the box that customers value.",
+        "formal": "The box deserves careful consideration.",
+        "informal": "Honestly, the box is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1062,
+      "word": "bottle",
+      "hindi": "बोतल",
+      "simpleMeaning": "an everyday noun — \"bottle\"",
+      "ipa": "/ˈbɒt.əl/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The bottle matters a lot in my everyday life.",
+        "office": "We discussed the bottle during today's meeting.",
+        "interview": "I mentioned the bottle as one of my key strengths.",
+        "business": "Our strategy is built around the bottle that customers value.",
+        "formal": "The bottle deserves careful consideration.",
+        "informal": "Honestly, the bottle is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1063,
+      "word": "cup",
+      "hindi": "कप",
+      "simpleMeaning": "an everyday noun — \"cup\"",
+      "ipa": "/kʌp/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "mug"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The cup matters a lot in my everyday life.",
+        "office": "We discussed the cup during today's meeting.",
+        "interview": "I mentioned the cup as one of my key strengths.",
+        "business": "Our strategy is built around the cup that customers value.",
+        "formal": "The cup deserves careful consideration.",
+        "informal": "Honestly, the cup is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1064,
+      "word": "plate",
+      "hindi": "प्लेट",
+      "simpleMeaning": "an everyday noun — \"plate\"",
+      "ipa": "/pleɪt/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "dish"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The plate matters a lot in my everyday life.",
+        "office": "We discussed the plate during today's meeting.",
+        "interview": "I mentioned the plate as one of my key strengths.",
+        "business": "Our strategy is built around the plate that customers value.",
+        "formal": "The plate deserves careful consideration.",
+        "informal": "Honestly, the plate is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1065,
+      "word": "spoon",
+      "hindi": "चम्मच",
+      "simpleMeaning": "an everyday noun — \"spoon\"",
+      "ipa": "/spuːn/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The spoon matters a lot in my everyday life.",
+        "office": "We discussed the spoon during today's meeting.",
+        "interview": "I mentioned the spoon as one of my key strengths.",
+        "business": "Our strategy is built around the spoon that customers value.",
+        "formal": "The spoon deserves careful consideration.",
+        "informal": "Honestly, the spoon is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1066,
+      "word": "fork",
+      "hindi": "काँटा",
+      "simpleMeaning": "an everyday noun — \"fork\"",
+      "ipa": "/fɔːrk/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The fork matters a lot in my everyday life.",
+        "office": "We discussed the fork during today's meeting.",
+        "interview": "I mentioned the fork as one of my key strengths.",
+        "business": "Our strategy is built around the fork that customers value.",
+        "formal": "The fork deserves careful consideration.",
+        "informal": "Honestly, the fork is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1067,
+      "word": "knife",
+      "hindi": "चाकू",
+      "simpleMeaning": "an everyday noun — \"knife\"",
+      "ipa": "/naɪf/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "blade"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The knife matters a lot in my everyday life.",
+        "office": "We discussed the knife during today's meeting.",
+        "interview": "I mentioned the knife as one of my key strengths.",
+        "business": "Our strategy is built around the knife that customers value.",
+        "formal": "The knife deserves careful consideration.",
+        "informal": "Honestly, the knife is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1068,
+      "word": "pencil",
+      "hindi": "पेंसिल",
+      "simpleMeaning": "an everyday noun — \"pencil\"",
+      "ipa": "/ˈpen.səl/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The pencil matters a lot in my everyday life.",
+        "office": "We discussed the pencil during today's meeting.",
+        "interview": "I mentioned the pencil as one of my key strengths.",
+        "business": "Our strategy is built around the pencil that customers value.",
+        "formal": "The pencil deserves careful consideration.",
+        "informal": "Honestly, the pencil is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1069,
+      "word": "paper",
+      "hindi": "कागज़",
+      "simpleMeaning": "an everyday noun — \"paper\"",
+      "ipa": "/ˈpeɪ.pər/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The paper matters a lot in my everyday life.",
+        "office": "We discussed the paper during today's meeting.",
+        "interview": "I mentioned the paper as one of my key strengths.",
+        "business": "Our strategy is built around the paper that customers value.",
+        "formal": "The paper deserves careful consideration.",
+        "informal": "Honestly, the paper is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1070,
+      "word": "letter",
+      "hindi": "चिट्ठी",
+      "simpleMeaning": "an everyday noun — \"letter\"",
+      "ipa": "/ˈlet.ər/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "note"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The letter matters a lot in my everyday life.",
+        "office": "We discussed the letter during today's meeting.",
+        "interview": "I mentioned the letter as one of my key strengths.",
+        "business": "Our strategy is built around the letter that customers value.",
+        "formal": "The letter deserves careful consideration.",
+        "informal": "Honestly, the letter is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1071,
+      "word": "newspaper",
+      "hindi": "अख़बार",
+      "simpleMeaning": "an everyday noun — \"newspaper\"",
+      "ipa": "/ˈnuːzˌpeɪ.pər/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The newspaper matters a lot in my everyday life.",
+        "office": "We discussed the newspaper during today's meeting.",
+        "interview": "I mentioned the newspaper as one of my key strengths.",
+        "business": "Our strategy is built around the newspaper that customers value.",
+        "formal": "The newspaper deserves careful consideration.",
+        "informal": "Honestly, the newspaper is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1072,
+      "word": "television",
+      "hindi": "टेलीविज़न",
+      "simpleMeaning": "an everyday noun — \"television\"",
+      "ipa": "/ˈtel.ɪˌvɪʒ.ən/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "TV"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The television matters a lot in my everyday life.",
+        "office": "We discussed the television during today's meeting.",
+        "interview": "I mentioned the television as one of my key strengths.",
+        "business": "Our strategy is built around the television that customers value.",
+        "formal": "The television deserves careful consideration.",
+        "informal": "Honestly, the television is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1073,
+      "word": "camera",
+      "hindi": "कैमरा",
+      "simpleMeaning": "an everyday noun — \"camera\"",
+      "ipa": "/ˈkæm.rə/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The camera matters a lot in my everyday life.",
+        "office": "We discussed the camera during today's meeting.",
+        "interview": "I mentioned the camera as one of my key strengths.",
+        "business": "Our strategy is built around the camera that customers value.",
+        "formal": "The camera deserves careful consideration.",
+        "informal": "Honestly, the camera is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1074,
+      "word": "clock",
+      "hindi": "घड़ी (दीवार)",
+      "simpleMeaning": "an everyday noun — \"clock\"",
+      "ipa": "/klɒk/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The clock matters a lot in my everyday life.",
+        "office": "We discussed the clock during today's meeting.",
+        "interview": "I mentioned the clock as one of my key strengths.",
+        "business": "Our strategy is built around the clock that customers value.",
+        "formal": "The clock deserves careful consideration.",
+        "informal": "Honestly, the clock is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1075,
+      "word": "mirror",
+      "hindi": "शीशा",
+      "simpleMeaning": "an everyday noun — \"mirror\"",
+      "ipa": "/ˈmɪr.ər/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The mirror matters a lot in my everyday life.",
+        "office": "We discussed the mirror during today's meeting.",
+        "interview": "I mentioned the mirror as one of my key strengths.",
+        "business": "Our strategy is built around the mirror that customers value.",
+        "formal": "The mirror deserves careful consideration.",
+        "informal": "Honestly, the mirror is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1076,
+      "word": "lamp",
+      "hindi": "लैंप",
+      "simpleMeaning": "an everyday noun — \"lamp\"",
+      "ipa": "/læmp/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "light"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The lamp matters a lot in my everyday life.",
+        "office": "We discussed the lamp during today's meeting.",
+        "interview": "I mentioned the lamp as one of my key strengths.",
+        "business": "Our strategy is built around the lamp that customers value.",
+        "formal": "The lamp deserves careful consideration.",
+        "informal": "Honestly, the lamp is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1077,
+      "word": "fan",
+      "hindi": "पंखा",
+      "simpleMeaning": "an everyday noun — \"fan\"",
+      "ipa": "/fæn/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The fan matters a lot in my everyday life.",
+        "office": "We discussed the fan during today's meeting.",
+        "interview": "I mentioned the fan as one of my key strengths.",
+        "business": "Our strategy is built around the fan that customers value.",
+        "formal": "The fan deserves careful consideration.",
+        "informal": "Honestly, the fan is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1078,
+      "word": "ladder",
+      "hindi": "सीढ़ी",
+      "simpleMeaning": "an everyday noun — \"ladder\"",
+      "ipa": "/ˈlæd.ər/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The ladder matters a lot in my everyday life.",
+        "office": "We discussed the ladder during today's meeting.",
+        "interview": "I mentioned the ladder as one of my key strengths.",
+        "business": "Our strategy is built around the ladder that customers value.",
+        "formal": "The ladder deserves careful consideration.",
+        "informal": "Honestly, the ladder is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1079,
+      "word": "bridge",
+      "hindi": "पुल",
+      "simpleMeaning": "an everyday noun — \"bridge\"",
+      "ipa": "/brɪdʒ/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The bridge matters a lot in my everyday life.",
+        "office": "We discussed the bridge during today's meeting.",
+        "interview": "I mentioned the bridge as one of my key strengths.",
+        "business": "Our strategy is built around the bridge that customers value.",
+        "formal": "The bridge deserves careful consideration.",
+        "informal": "Honestly, the bridge is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1080,
+      "word": "wall",
+      "hindi": "दीवार",
+      "simpleMeaning": "an everyday noun — \"wall\"",
+      "ipa": "/wɔːl/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The wall matters a lot in my everyday life.",
+        "office": "We discussed the wall during today's meeting.",
+        "interview": "I mentioned the wall as one of my key strengths.",
+        "business": "Our strategy is built around the wall that customers value.",
+        "formal": "The wall deserves careful consideration.",
+        "informal": "Honestly, the wall is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1081,
+      "word": "gate",
+      "hindi": "गेट",
+      "simpleMeaning": "an everyday noun — \"gate\"",
+      "ipa": "/ɡeɪt/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "door"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The gate matters a lot in my everyday life.",
+        "office": "We discussed the gate during today's meeting.",
+        "interview": "I mentioned the gate as one of my key strengths.",
+        "business": "Our strategy is built around the gate that customers value.",
+        "formal": "The gate deserves careful consideration.",
+        "informal": "Honestly, the gate is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1082,
+      "word": "field",
+      "hindi": "खेत/मैदान",
+      "simpleMeaning": "an everyday noun — \"field\"",
+      "ipa": "/fiːld/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "ground"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The field matters a lot in my everyday life.",
+        "office": "We discussed the field during today's meeting.",
+        "interview": "I mentioned the field as one of my key strengths.",
+        "business": "Our strategy is built around the field that customers value.",
+        "formal": "The field deserves careful consideration.",
+        "informal": "Honestly, the field is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1083,
+      "word": "sand",
+      "hindi": "रेत",
+      "simpleMeaning": "an everyday noun — \"sand\"",
+      "ipa": "/sænd/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The sand matters a lot in my everyday life.",
+        "office": "We discussed the sand during today's meeting.",
+        "interview": "I mentioned the sand as one of my key strengths.",
+        "business": "Our strategy is built around the sand that customers value.",
+        "formal": "The sand deserves careful consideration.",
+        "informal": "Honestly, the sand is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1084,
+      "word": "stone",
+      "hindi": "पत्थर",
+      "simpleMeaning": "an everyday noun — \"stone\"",
+      "ipa": "/stoʊn/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "rock"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The stone matters a lot in my everyday life.",
+        "office": "We discussed the stone during today's meeting.",
+        "interview": "I mentioned the stone as one of my key strengths.",
+        "business": "Our strategy is built around the stone that customers value.",
+        "formal": "The stone deserves careful consideration.",
+        "informal": "Honestly, the stone is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1085,
+      "word": "wind",
+      "hindi": "हवा",
+      "simpleMeaning": "an everyday noun — \"wind\"",
+      "ipa": "/wɪnd/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "breeze"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The wind matters a lot in my everyday life.",
+        "office": "We discussed the wind during today's meeting.",
+        "interview": "I mentioned the wind as one of my key strengths.",
+        "business": "Our strategy is built around the wind that customers value.",
+        "formal": "The wind deserves careful consideration.",
+        "informal": "Honestly, the wind is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1086,
+      "word": "snow",
+      "hindi": "बर्फ़",
+      "simpleMeaning": "an everyday noun — \"snow\"",
+      "ipa": "/snoʊ/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The snow matters a lot in my everyday life.",
+        "office": "We discussed the snow during today's meeting.",
+        "interview": "I mentioned the snow as one of my key strengths.",
+        "business": "Our strategy is built around the snow that customers value.",
+        "formal": "The snow deserves careful consideration.",
+        "informal": "Honestly, the snow is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1087,
+      "word": "coin",
+      "hindi": "सिक्का",
+      "simpleMeaning": "an everyday noun — \"coin\"",
+      "ipa": "/kɔɪn/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The coin matters a lot in my everyday life.",
+        "office": "We discussed the coin during today's meeting.",
+        "interview": "I mentioned the coin as one of my key strengths.",
+        "business": "Our strategy is built around the coin that customers value.",
+        "formal": "The coin deserves careful consideration.",
+        "informal": "Honestly, the coin is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1088,
+      "word": "wallet",
+      "hindi": "बटुआ",
+      "simpleMeaning": "an everyday noun — \"wallet\"",
+      "ipa": "/ˈwɒl.ɪt/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "purse"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The wallet matters a lot in my everyday life.",
+        "office": "We discussed the wallet during today's meeting.",
+        "interview": "I mentioned the wallet as one of my key strengths.",
+        "business": "Our strategy is built around the wallet that customers value.",
+        "formal": "The wallet deserves careful consideration.",
+        "informal": "Honestly, the wallet is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1089,
+      "word": "ticket",
+      "hindi": "टिकट",
+      "simpleMeaning": "an everyday noun — \"ticket\"",
+      "ipa": "/ˈtɪk.ɪt/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The ticket matters a lot in my everyday life.",
+        "office": "We discussed the ticket during today's meeting.",
+        "interview": "I mentioned the ticket as one of my key strengths.",
+        "business": "Our strategy is built around the ticket that customers value.",
+        "formal": "The ticket deserves careful consideration.",
+        "informal": "Honestly, the ticket is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1090,
+      "word": "machine",
+      "hindi": "मशीन",
+      "simpleMeaning": "an everyday noun — \"machine\"",
+      "ipa": "/məˈʃiːn/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "device"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The machine matters a lot in my everyday life.",
+        "office": "We discussed the machine during today's meeting.",
+        "interview": "I mentioned the machine as one of my key strengths.",
+        "business": "Our strategy is built around the machine that customers value.",
+        "formal": "The machine deserves careful consideration.",
+        "informal": "Honestly, the machine is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1091,
+      "word": "engine",
+      "hindi": "इंजन",
+      "simpleMeaning": "an everyday noun — \"engine\"",
+      "ipa": "/ˈen.dʒɪn/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "motor"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The engine matters a lot in my everyday life.",
+        "office": "We discussed the engine during today's meeting.",
+        "interview": "I mentioned the engine as one of my key strengths.",
+        "business": "Our strategy is built around the engine that customers value.",
+        "formal": "The engine deserves careful consideration.",
+        "informal": "Honestly, the engine is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1092,
+      "word": "factory",
+      "hindi": "फ़ैक्ट्री",
+      "simpleMeaning": "an everyday noun — \"factory\"",
+      "ipa": "/ˈfæk.tər.i/",
+      "category": "Common Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "A1",
+      "synonyms": [
+        "plant"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "The factory matters a lot in my everyday life.",
+        "office": "We discussed the factory during today's meeting.",
+        "interview": "I mentioned the factory as one of my key strengths.",
+        "business": "Our strategy is built around the factory that customers value.",
+        "formal": "The factory deserves careful consideration.",
+        "informal": "Honestly, the factory is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1093,
+      "word": "bright",
+      "hindi": "चमकीला",
+      "simpleMeaning": "a descriptive adjective — \"bright\"",
+      "ipa": "/braɪt/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "shining",
+        "vivid"
+      ],
+      "antonyms": [
+        "dull"
+      ],
+      "sentences": {
+        "daily": "My friend is very bright, and I admire that about her.",
+        "office": "The new hire seems quite bright in team discussions.",
+        "interview": "I would describe myself as bright and dependable.",
+        "business": "Being bright helps our team deliver better results.",
+        "formal": "A bright approach is expected from every employee.",
+        "informal": "Wow, you're so bright today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1094,
+      "word": "dull",
+      "hindi": "फीका",
+      "simpleMeaning": "a descriptive adjective — \"dull\"",
+      "ipa": "/dʌl/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "dim"
+      ],
+      "antonyms": [
+        "bright"
+      ],
+      "sentences": {
+        "daily": "My friend is very dull, and I admire that about her.",
+        "office": "The new hire seems quite dull in team discussions.",
+        "interview": "I would describe myself as dull and dependable.",
+        "business": "Being dull helps our team deliver better results.",
+        "formal": "A dull approach is expected from every employee.",
+        "informal": "Wow, you're so dull today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1095,
+      "word": "smooth",
+      "hindi": "चिकना",
+      "simpleMeaning": "a descriptive adjective — \"smooth\"",
+      "ipa": "/smuːð/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "even"
+      ],
+      "antonyms": [
+        "rough"
+      ],
+      "sentences": {
+        "daily": "My friend is very smooth, and I admire that about her.",
+        "office": "The new hire seems quite smooth in team discussions.",
+        "interview": "I would describe myself as smooth and dependable.",
+        "business": "Being smooth helps our team deliver better results.",
+        "formal": "A smooth approach is expected from every employee.",
+        "informal": "Wow, you're so smooth today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1096,
+      "word": "rough",
+      "hindi": "खुरदरा",
+      "simpleMeaning": "a descriptive adjective — \"rough\"",
+      "ipa": "/rʌf/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "coarse"
+      ],
+      "antonyms": [
+        "smooth"
+      ],
+      "sentences": {
+        "daily": "My friend is very rough, and I admire that about her.",
+        "office": "The new hire seems quite rough in team discussions.",
+        "interview": "I would describe myself as rough and dependable.",
+        "business": "Being rough helps our team deliver better results.",
+        "formal": "A rough approach is expected from every employee.",
+        "informal": "Wow, you're so rough today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1097,
+      "word": "sharp",
+      "hindi": "तेज़ (धार वाला)",
+      "simpleMeaning": "a descriptive adjective — \"sharp\"",
+      "ipa": "/ʃɑːrp/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "keen"
+      ],
+      "antonyms": [
+        "blunt"
+      ],
+      "sentences": {
+        "daily": "My friend is very sharp, and I admire that about her.",
+        "office": "The new hire seems quite sharp in team discussions.",
+        "interview": "I would describe myself as sharp and dependable.",
+        "business": "Being sharp helps our team deliver better results.",
+        "formal": "A sharp approach is expected from every employee.",
+        "informal": "Wow, you're so sharp today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1098,
+      "word": "blunt",
+      "hindi": "भोथरा",
+      "simpleMeaning": "a descriptive adjective — \"blunt\"",
+      "ipa": "/blʌnt/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "dull"
+      ],
+      "antonyms": [
+        "sharp"
+      ],
+      "sentences": {
+        "daily": "My friend is very blunt, and I admire that about her.",
+        "office": "The new hire seems quite blunt in team discussions.",
+        "interview": "I would describe myself as blunt and dependable.",
+        "business": "Being blunt helps our team deliver better results.",
+        "formal": "A blunt approach is expected from every employee.",
+        "informal": "Wow, you're so blunt today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1099,
+      "word": "loud",
+      "hindi": "तेज़ आवाज़ वाला",
+      "simpleMeaning": "a descriptive adjective — \"loud\"",
+      "ipa": "/laʊd/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "noisy"
+      ],
+      "antonyms": [
+        "quiet"
+      ],
+      "sentences": {
+        "daily": "My friend is very loud, and I admire that about her.",
+        "office": "The new hire seems quite loud in team discussions.",
+        "interview": "I would describe myself as loud and dependable.",
+        "business": "Being loud helps our team deliver better results.",
+        "formal": "A loud approach is expected from every employee.",
+        "informal": "Wow, you're so loud today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1100,
+      "word": "quiet",
+      "hindi": "शांत",
+      "simpleMeaning": "a descriptive adjective — \"quiet\"",
+      "ipa": "/ˈkwaɪ.ət/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "silent"
+      ],
+      "antonyms": [
+        "loud"
+      ],
+      "sentences": {
+        "daily": "My friend is very quiet, and I admire that about her.",
+        "office": "The new hire seems quite quiet in team discussions.",
+        "interview": "I would describe myself as quiet and dependable.",
+        "business": "Being quiet helps our team deliver better results.",
+        "formal": "A quiet approach is expected from every employee.",
+        "informal": "Wow, you're so quiet today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1101,
+      "word": "wide",
+      "hindi": "चौड़ा",
+      "simpleMeaning": "a descriptive adjective — \"wide\"",
+      "ipa": "/waɪd/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "broad"
+      ],
+      "antonyms": [
+        "narrow"
+      ],
+      "sentences": {
+        "daily": "My friend is very wide, and I admire that about her.",
+        "office": "The new hire seems quite wide in team discussions.",
+        "interview": "I would describe myself as wide and dependable.",
+        "business": "Being wide helps our team deliver better results.",
+        "formal": "A wide approach is expected from every employee.",
+        "informal": "Wow, you're so wide today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1102,
+      "word": "narrow",
+      "hindi": "तंग",
+      "simpleMeaning": "a descriptive adjective — \"narrow\"",
+      "ipa": "/ˈnær.oʊ/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "thin"
+      ],
+      "antonyms": [
+        "wide"
+      ],
+      "sentences": {
+        "daily": "My friend is very narrow, and I admire that about her.",
+        "office": "The new hire seems quite narrow in team discussions.",
+        "interview": "I would describe myself as narrow and dependable.",
+        "business": "Being narrow helps our team deliver better results.",
+        "formal": "A narrow approach is expected from every employee.",
+        "informal": "Wow, you're so narrow today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1103,
+      "word": "deep",
+      "hindi": "गहरा",
+      "simpleMeaning": "a descriptive adjective — \"deep\"",
+      "ipa": "/diːp/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "profound"
+      ],
+      "antonyms": [
+        "shallow"
+      ],
+      "sentences": {
+        "daily": "My friend is very deep, and I admire that about her.",
+        "office": "The new hire seems quite deep in team discussions.",
+        "interview": "I would describe myself as deep and dependable.",
+        "business": "Being deep helps our team deliver better results.",
+        "formal": "A deep approach is expected from every employee.",
+        "informal": "Wow, you're so deep today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1104,
+      "word": "shallow",
+      "hindi": "कम गहरा",
+      "simpleMeaning": "a descriptive adjective — \"shallow\"",
+      "ipa": "/ˈʃæl.oʊ/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "not deep"
+      ],
+      "antonyms": [
+        "deep"
+      ],
+      "sentences": {
+        "daily": "My friend is very shallow, and I admire that about her.",
+        "office": "The new hire seems quite shallow in team discussions.",
+        "interview": "I would describe myself as shallow and dependable.",
+        "business": "Being shallow helps our team deliver better results.",
+        "formal": "A shallow approach is expected from every employee.",
+        "informal": "Wow, you're so shallow today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1105,
+      "word": "thick",
+      "hindi": "मोटा (मोटाई)",
+      "simpleMeaning": "a descriptive adjective — \"thick\"",
+      "ipa": "/θɪk/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "dense"
+      ],
+      "antonyms": [
+        "thin"
+      ],
+      "sentences": {
+        "daily": "My friend is very thick, and I admire that about her.",
+        "office": "The new hire seems quite thick in team discussions.",
+        "interview": "I would describe myself as thick and dependable.",
+        "business": "Being thick helps our team deliver better results.",
+        "formal": "A thick approach is expected from every employee.",
+        "informal": "Wow, you're so thick today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1106,
+      "word": "thin",
+      "hindi": "पतला",
+      "simpleMeaning": "a descriptive adjective — \"thin\"",
+      "ipa": "/θɪn/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "slim"
+      ],
+      "antonyms": [
+        "thick"
+      ],
+      "sentences": {
+        "daily": "My friend is very thin, and I admire that about her.",
+        "office": "The new hire seems quite thin in team discussions.",
+        "interview": "I would describe myself as thin and dependable.",
+        "business": "Being thin helps our team deliver better results.",
+        "formal": "A thin approach is expected from every employee.",
+        "informal": "Wow, you're so thin today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1107,
+      "word": "dry",
+      "hindi": "सूखा",
+      "simpleMeaning": "a descriptive adjective — \"dry\"",
+      "ipa": "/draɪ/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "arid"
+      ],
+      "antonyms": [
+        "wet"
+      ],
+      "sentences": {
+        "daily": "My friend is very dry, and I admire that about her.",
+        "office": "The new hire seems quite dry in team discussions.",
+        "interview": "I would describe myself as dry and dependable.",
+        "business": "Being dry helps our team deliver better results.",
+        "formal": "A dry approach is expected from every employee.",
+        "informal": "Wow, you're so dry today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1108,
+      "word": "wet",
+      "hindi": "गीला",
+      "simpleMeaning": "a descriptive adjective — \"wet\"",
+      "ipa": "/wet/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "damp"
+      ],
+      "antonyms": [
+        "dry"
+      ],
+      "sentences": {
+        "daily": "My friend is very wet, and I admire that about her.",
+        "office": "The new hire seems quite wet in team discussions.",
+        "interview": "I would describe myself as wet and dependable.",
+        "business": "Being wet helps our team deliver better results.",
+        "formal": "A wet approach is expected from every employee.",
+        "informal": "Wow, you're so wet today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1109,
+      "word": "soft",
+      "hindi": "मुलायम",
+      "simpleMeaning": "a descriptive adjective — \"soft\"",
+      "ipa": "/sɒft/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "tender"
+      ],
+      "antonyms": [
+        "hard"
+      ],
+      "sentences": {
+        "daily": "My friend is very soft, and I admire that about her.",
+        "office": "The new hire seems quite soft in team discussions.",
+        "interview": "I would describe myself as soft and dependable.",
+        "business": "Being soft helps our team deliver better results.",
+        "formal": "A soft approach is expected from every employee.",
+        "informal": "Wow, you're so soft today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1110,
+      "word": "fresh",
+      "hindi": "ताज़ा",
+      "simpleMeaning": "a descriptive adjective — \"fresh\"",
+      "ipa": "/freʃ/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "new"
+      ],
+      "antonyms": [
+        "stale"
+      ],
+      "sentences": {
+        "daily": "My friend is very fresh, and I admire that about her.",
+        "office": "The new hire seems quite fresh in team discussions.",
+        "interview": "I would describe myself as fresh and dependable.",
+        "business": "Being fresh helps our team deliver better results.",
+        "formal": "A fresh approach is expected from every employee.",
+        "informal": "Wow, you're so fresh today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1111,
+      "word": "stale",
+      "hindi": "बासी",
+      "simpleMeaning": "a descriptive adjective — \"stale\"",
+      "ipa": "/steɪl/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "old"
+      ],
+      "antonyms": [
+        "fresh"
+      ],
+      "sentences": {
+        "daily": "My friend is very stale, and I admire that about her.",
+        "office": "The new hire seems quite stale in team discussions.",
+        "interview": "I would describe myself as stale and dependable.",
+        "business": "Being stale helps our team deliver better results.",
+        "formal": "A stale approach is expected from every employee.",
+        "informal": "Wow, you're so stale today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1112,
+      "word": "plain",
+      "hindi": "सादा",
+      "simpleMeaning": "a descriptive adjective — \"plain\"",
+      "ipa": "/pleɪn/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "simple"
+      ],
+      "antonyms": [
+        "fancy"
+      ],
+      "sentences": {
+        "daily": "My friend is very plain, and I admire that about her.",
+        "office": "The new hire seems quite plain in team discussions.",
+        "interview": "I would describe myself as plain and dependable.",
+        "business": "Being plain helps our team deliver better results.",
+        "formal": "A plain approach is expected from every employee.",
+        "informal": "Wow, you're so plain today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1113,
+      "word": "fancy",
+      "hindi": "सजावटी",
+      "simpleMeaning": "a descriptive adjective — \"fancy\"",
+      "ipa": "/ˈfæn.si/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "decorative"
+      ],
+      "antonyms": [
+        "plain"
+      ],
+      "sentences": {
+        "daily": "My friend is very fancy, and I admire that about her.",
+        "office": "The new hire seems quite fancy in team discussions.",
+        "interview": "I would describe myself as fancy and dependable.",
+        "business": "Being fancy helps our team deliver better results.",
+        "formal": "A fancy approach is expected from every employee.",
+        "informal": "Wow, you're so fancy today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1114,
+      "word": "tidy",
+      "hindi": "साफ़-सुथरा",
+      "simpleMeaning": "a descriptive adjective — \"tidy\"",
+      "ipa": "/ˈtaɪ.di/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "neat"
+      ],
+      "antonyms": [
+        "messy"
+      ],
+      "sentences": {
+        "daily": "My friend is very tidy, and I admire that about her.",
+        "office": "The new hire seems quite tidy in team discussions.",
+        "interview": "I would describe myself as tidy and dependable.",
+        "business": "Being tidy helps our team deliver better results.",
+        "formal": "A tidy approach is expected from every employee.",
+        "informal": "Wow, you're so tidy today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1115,
+      "word": "messy",
+      "hindi": "अव्यवस्थित",
+      "simpleMeaning": "a descriptive adjective — \"messy\"",
+      "ipa": "/ˈmes.i/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "untidy"
+      ],
+      "antonyms": [
+        "tidy"
+      ],
+      "sentences": {
+        "daily": "My friend is very messy, and I admire that about her.",
+        "office": "The new hire seems quite messy in team discussions.",
+        "interview": "I would describe myself as messy and dependable.",
+        "business": "Being messy helps our team deliver better results.",
+        "formal": "A messy approach is expected from every employee.",
+        "informal": "Wow, you're so messy today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1116,
+      "word": "anxious",
+      "hindi": "चिंतित",
+      "simpleMeaning": "a descriptive adjective — \"anxious\"",
+      "ipa": "/ˈæŋk.ʃəs/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "worried"
+      ],
+      "antonyms": [
+        "calm"
+      ],
+      "sentences": {
+        "daily": "My friend is very anxious, and I admire that about her.",
+        "office": "The new hire seems quite anxious in team discussions.",
+        "interview": "I would describe myself as anxious and dependable.",
+        "business": "Being anxious helps our team deliver better results.",
+        "formal": "A anxious approach is expected from every employee.",
+        "informal": "Wow, you're so anxious today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1117,
+      "word": "shy",
+      "hindi": "शर्मीला",
+      "simpleMeaning": "a descriptive adjective — \"shy\"",
+      "ipa": "/ʃaɪ/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "timid"
+      ],
+      "antonyms": [
+        "bold"
+      ],
+      "sentences": {
+        "daily": "My friend is very shy, and I admire that about her.",
+        "office": "The new hire seems quite shy in team discussions.",
+        "interview": "I would describe myself as shy and dependable.",
+        "business": "Being shy helps our team deliver better results.",
+        "formal": "A shy approach is expected from every employee.",
+        "informal": "Wow, you're so shy today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1118,
+      "word": "bold",
+      "hindi": "निडर",
+      "simpleMeaning": "a descriptive adjective — \"bold\"",
+      "ipa": "/boʊld/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "daring"
+      ],
+      "antonyms": [
+        "shy"
+      ],
+      "sentences": {
+        "daily": "My friend is very bold, and I admire that about her.",
+        "office": "The new hire seems quite bold in team discussions.",
+        "interview": "I would describe myself as bold and dependable.",
+        "business": "Being bold helps our team deliver better results.",
+        "formal": "A bold approach is expected from every employee.",
+        "informal": "Wow, you're so bold today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1119,
+      "word": "gentle",
+      "hindi": "कोमल",
+      "simpleMeaning": "a descriptive adjective — \"gentle\"",
+      "ipa": "/ˈdʒen.təl/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "mild"
+      ],
+      "antonyms": [
+        "harsh"
+      ],
+      "sentences": {
+        "daily": "My friend is very gentle, and I admire that about her.",
+        "office": "The new hire seems quite gentle in team discussions.",
+        "interview": "I would describe myself as gentle and dependable.",
+        "business": "Being gentle helps our team deliver better results.",
+        "formal": "A gentle approach is expected from every employee.",
+        "informal": "Wow, you're so gentle today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1120,
+      "word": "harsh",
+      "hindi": "कठोर",
+      "simpleMeaning": "a descriptive adjective — \"harsh\"",
+      "ipa": "/hɑːrʃ/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "severe"
+      ],
+      "antonyms": [
+        "gentle"
+      ],
+      "sentences": {
+        "daily": "My friend is very harsh, and I admire that about her.",
+        "office": "The new hire seems quite harsh in team discussions.",
+        "interview": "I would describe myself as harsh and dependable.",
+        "business": "Being harsh helps our team deliver better results.",
+        "formal": "A harsh approach is expected from every employee.",
+        "informal": "Wow, you're so harsh today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1121,
+      "word": "humble",
+      "hindi": "विनम्र (साधारण)",
+      "simpleMeaning": "a descriptive adjective — \"humble\"",
+      "ipa": "/ˈhʌm.bəl/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "modest"
+      ],
+      "antonyms": [
+        "proud"
+      ],
+      "sentences": {
+        "daily": "My friend is very humble, and I admire that about her.",
+        "office": "The new hire seems quite humble in team discussions.",
+        "interview": "I would describe myself as humble and dependable.",
+        "business": "Being humble helps our team deliver better results.",
+        "formal": "A humble approach is expected from every employee.",
+        "informal": "Wow, you're so humble today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1122,
+      "word": "clever",
+      "hindi": "चालाक/बुद्धिमान",
+      "simpleMeaning": "a descriptive adjective — \"clever\"",
+      "ipa": "/ˈklev.ər/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "smart"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "My friend is very clever, and I admire that about her.",
+        "office": "The new hire seems quite clever in team discussions.",
+        "interview": "I would describe myself as clever and dependable.",
+        "business": "Being clever helps our team deliver better results.",
+        "formal": "A clever approach is expected from every employee.",
+        "informal": "Wow, you're so clever today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1123,
+      "word": "careless",
+      "hindi": "लापरवाह",
+      "simpleMeaning": "a descriptive adjective — \"careless\"",
+      "ipa": "/ˈker.ləs/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "negligent"
+      ],
+      "antonyms": [
+        "careful"
+      ],
+      "sentences": {
+        "daily": "My friend is very careless, and I admire that about her.",
+        "office": "The new hire seems quite careless in team discussions.",
+        "interview": "I would describe myself as careless and dependable.",
+        "business": "Being careless helps our team deliver better results.",
+        "formal": "A careless approach is expected from every employee.",
+        "informal": "Wow, you're so careless today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1124,
+      "word": "careful",
+      "hindi": "सावधान",
+      "simpleMeaning": "a descriptive adjective — \"careful\"",
+      "ipa": "/ˈker.fəl/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "cautious"
+      ],
+      "antonyms": [
+        "careless"
+      ],
+      "sentences": {
+        "daily": "My friend is very careful, and I admire that about her.",
+        "office": "The new hire seems quite careful in team discussions.",
+        "interview": "I would describe myself as careful and dependable.",
+        "business": "Being careful helps our team deliver better results.",
+        "formal": "A careful approach is expected from every employee.",
+        "informal": "Wow, you're so careful today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1125,
+      "word": "generous",
+      "hindi": "उदार",
+      "simpleMeaning": "a descriptive adjective — \"generous\"",
+      "ipa": "/ˈdʒen.ər.əs/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "giving"
+      ],
+      "antonyms": [
+        "stingy"
+      ],
+      "sentences": {
+        "daily": "My friend is very generous, and I admire that about her.",
+        "office": "The new hire seems quite generous in team discussions.",
+        "interview": "I would describe myself as generous and dependable.",
+        "business": "Being generous helps our team deliver better results.",
+        "formal": "A generous approach is expected from every employee.",
+        "informal": "Wow, you're so generous today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1126,
+      "word": "stingy",
+      "hindi": "कंजूस",
+      "simpleMeaning": "a descriptive adjective — \"stingy\"",
+      "ipa": "/ˈstɪn.dʒi/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "miserly"
+      ],
+      "antonyms": [
+        "generous"
+      ],
+      "sentences": {
+        "daily": "My friend is very stingy, and I admire that about her.",
+        "office": "The new hire seems quite stingy in team discussions.",
+        "interview": "I would describe myself as stingy and dependable.",
+        "business": "Being stingy helps our team deliver better results.",
+        "formal": "A stingy approach is expected from every employee.",
+        "informal": "Wow, you're so stingy today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1127,
+      "word": "punctual",
+      "hindi": "समय का पालन करने वाला",
+      "simpleMeaning": "a descriptive adjective — \"punctual\"",
+      "ipa": "/ˈpʌŋk.tʃu.əl/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "on time"
+      ],
+      "antonyms": [
+        "late"
+      ],
+      "sentences": {
+        "daily": "My friend is very punctual, and I admire that about her.",
+        "office": "The new hire seems quite punctual in team discussions.",
+        "interview": "I would describe myself as punctual and dependable.",
+        "business": "Being punctual helps our team deliver better results.",
+        "formal": "A punctual approach is expected from every employee.",
+        "informal": "Wow, you're so punctual today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1128,
+      "word": "stubborn",
+      "hindi": "ज़िद्दी",
+      "simpleMeaning": "a descriptive adjective — \"stubborn\"",
+      "ipa": "/ˈstʌb.ərn/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "obstinate"
+      ],
+      "antonyms": [
+        "flexible"
+      ],
+      "sentences": {
+        "daily": "My friend is very stubborn, and I admire that about her.",
+        "office": "The new hire seems quite stubborn in team discussions.",
+        "interview": "I would describe myself as stubborn and dependable.",
+        "business": "Being stubborn helps our team deliver better results.",
+        "formal": "A stubborn approach is expected from every employee.",
+        "informal": "Wow, you're so stubborn today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1129,
+      "word": "cheerful",
+      "hindi": "खुशमिज़ाज",
+      "simpleMeaning": "a descriptive adjective — \"cheerful\"",
+      "ipa": "/ˈtʃɪr.fəl/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "happy"
+      ],
+      "antonyms": [
+        "gloomy"
+      ],
+      "sentences": {
+        "daily": "My friend is very cheerful, and I admire that about her.",
+        "office": "The new hire seems quite cheerful in team discussions.",
+        "interview": "I would describe myself as cheerful and dependable.",
+        "business": "Being cheerful helps our team deliver better results.",
+        "formal": "A cheerful approach is expected from every employee.",
+        "informal": "Wow, you're so cheerful today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1130,
+      "word": "gloomy",
+      "hindi": "उदास (माहौल)",
+      "simpleMeaning": "a descriptive adjective — \"gloomy\"",
+      "ipa": "/ˈɡluː.mi/",
+      "category": "Descriptors",
+      "partOfSpeech": "adjective",
+      "cefrLevel": "A2",
+      "synonyms": [
+        "depressing"
+      ],
+      "antonyms": [
+        "cheerful"
+      ],
+      "sentences": {
+        "daily": "My friend is very gloomy, and I admire that about her.",
+        "office": "The new hire seems quite gloomy in team discussions.",
+        "interview": "I would describe myself as gloomy and dependable.",
+        "business": "Being gloomy helps our team deliver better results.",
+        "formal": "A gloomy approach is expected from every employee.",
+        "informal": "Wow, you're so gloomy today!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1131,
+      "word": "supervise",
+      "hindi": "निगरानी करना",
+      "simpleMeaning": "a professional/workplace verb — \"supervise\"",
+      "ipa": "/ˈsuː.pər.vaɪz/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "oversee"
+      ],
+      "antonyms": [
+        "neglect"
+      ],
+      "sentences": {
+        "daily": "I try to supervise a little every day.",
+        "office": "Please supervise this task before the deadline.",
+        "interview": "I always supervise my work carefully before submitting it.",
+        "business": "Our manager wants us to supervise the new process next week.",
+        "formal": "It is important to supervise such matters with full attention.",
+        "informal": "Come on, let's supervise it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "supervise",
+        "past": "supervised",
+        "pastParticiple": "supervised",
+        "presentParticiple": "supervising",
+        "thirdPerson": "supervises"
+      }
+    },
+    {
+      "id": 1132,
+      "word": "communicate",
+      "hindi": "संवाद करना",
+      "simpleMeaning": "a professional/workplace verb — \"communicate\"",
+      "ipa": "/kəˈmjuː.nɪ.keɪt/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "convey"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to communicate a little every day.",
+        "office": "Please communicate this task before the deadline.",
+        "interview": "I always communicate my work carefully before submitting it.",
+        "business": "Our manager wants us to communicate the new process next week.",
+        "formal": "It is important to communicate such matters with full attention.",
+        "informal": "Come on, let's communicate it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "communicate",
+        "past": "communicated",
+        "pastParticiple": "communicated",
+        "presentParticiple": "communicating",
+        "thirdPerson": "communicates"
+      }
+    },
+    {
+      "id": 1133,
+      "word": "brainstorm",
+      "hindi": "विचार-मंथन करना",
+      "simpleMeaning": "a professional/workplace verb — \"brainstorm\"",
+      "ipa": "/ˈbreɪnˌstɔːrm/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "generate ideas"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to brainstorm a little every day.",
+        "office": "Please brainstorm this task before the deadline.",
+        "interview": "I always brainstorm my work carefully before submitting it.",
+        "business": "Our manager wants us to brainstorm the new process next week.",
+        "formal": "It is important to brainstorm such matters with full attention.",
+        "informal": "Come on, let's brainstorm it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "brainstorm",
+        "past": "brainstormed",
+        "pastParticiple": "brainstormed",
+        "presentParticiple": "brainstorming",
+        "thirdPerson": "brainstorms"
+      }
+    },
+    {
+      "id": 1134,
+      "word": "finalize",
+      "hindi": "अंतिम रूप देना",
+      "simpleMeaning": "a professional/workplace verb — \"finalize\"",
+      "ipa": "/ˈfaɪ.nə.laɪz/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "complete"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to finalize a little every day.",
+        "office": "Please finalize this task before the deadline.",
+        "interview": "I always finalize my work carefully before submitting it.",
+        "business": "Our manager wants us to finalize the new process next week.",
+        "formal": "It is important to finalize such matters with full attention.",
+        "informal": "Come on, let's finalize it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "finalize",
+        "past": "finalized",
+        "pastParticiple": "finalized",
+        "presentParticiple": "finalizing",
+        "thirdPerson": "finalizes"
+      }
+    },
+    {
+      "id": 1135,
+      "word": "draft",
+      "hindi": "मसौदा तैयार करना",
+      "simpleMeaning": "a professional/workplace verb — \"draft\"",
+      "ipa": "/dræft/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "write",
+        "sketch"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to draft a little every day.",
+        "office": "Please draft this task before the deadline.",
+        "interview": "I always draft my work carefully before submitting it.",
+        "business": "Our manager wants us to draft the new process next week.",
+        "formal": "It is important to draft such matters with full attention.",
+        "informal": "Come on, let's draft it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "draft",
+        "past": "drafted",
+        "pastParticiple": "drafted",
+        "presentParticiple": "drafting",
+        "thirdPerson": "drafts"
+      }
+    },
+    {
+      "id": 1136,
+      "word": "forward",
+      "hindi": "आगे भेजना",
+      "simpleMeaning": "a professional/workplace verb — \"forward\"",
+      "ipa": "/ˈfɔːr.wərd/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "pass on"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to forward a little every day.",
+        "office": "Please forward this task before the deadline.",
+        "interview": "I always forward my work carefully before submitting it.",
+        "business": "Our manager wants us to forward the new process next week.",
+        "formal": "It is important to forward such matters with full attention.",
+        "informal": "Come on, let's forward it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "forward",
+        "past": "forwarded",
+        "pastParticiple": "forwarded",
+        "presentParticiple": "forwarding",
+        "thirdPerson": "forwards"
+      }
+    },
+    {
+      "id": 1137,
+      "word": "onboard",
+      "hindi": "नए कर्मचारी को शामिल करना",
+      "simpleMeaning": "a professional/workplace verb — \"onboard\"",
+      "ipa": "/ˈɒn.bɔːrd/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "induct"
+      ],
+      "antonyms": [
+        "offboard"
+      ],
+      "sentences": {
+        "daily": "I try to onboard a little every day.",
+        "office": "Please onboard this task before the deadline.",
+        "interview": "I always onboard my work carefully before submitting it.",
+        "business": "Our manager wants us to onboard the new process next week.",
+        "formal": "It is important to onboard such matters with full attention.",
+        "informal": "Come on, let's onboard it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "onboard",
+        "past": "onboarded",
+        "pastParticiple": "onboarded",
+        "presentParticiple": "onboarding",
+        "thirdPerson": "onboards"
+      }
+    },
+    {
+      "id": 1138,
+      "word": "recruit",
+      "hindi": "भर्ती करना",
+      "simpleMeaning": "a professional/workplace verb — \"recruit\"",
+      "ipa": "/rɪˈkruːt/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "hire"
+      ],
+      "antonyms": [
+        "dismiss"
+      ],
+      "sentences": {
+        "daily": "I try to recruit a little every day.",
+        "office": "Please recruit this task before the deadline.",
+        "interview": "I always recruit my work carefully before submitting it.",
+        "business": "Our manager wants us to recruit the new process next week.",
+        "formal": "It is important to recruit such matters with full attention.",
+        "informal": "Come on, let's recruit it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "recruit",
+        "past": "recruited",
+        "pastParticiple": "recruited",
+        "presentParticiple": "recruiting",
+        "thirdPerson": "recruits"
+      }
+    },
+    {
+      "id": 1139,
+      "word": "promote",
+      "hindi": "पदोन्नत करना",
+      "simpleMeaning": "a professional/workplace verb — \"promote\"",
+      "ipa": "/prəˈmoʊt/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "demote"
+      ],
+      "sentences": {
+        "daily": "I try to promote a little every day.",
+        "office": "Please promote this task before the deadline.",
+        "interview": "I always promote my work carefully before submitting it.",
+        "business": "Our manager wants us to promote the new process next week.",
+        "formal": "It is important to promote such matters with full attention.",
+        "informal": "Come on, let's promote it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "promote",
+        "past": "promoted",
+        "pastParticiple": "promoted",
+        "presentParticiple": "promoting",
+        "thirdPerson": "promotes"
+      }
+    },
+    {
+      "id": 1140,
+      "word": "restructure",
+      "hindi": "पुनर्गठन करना",
+      "simpleMeaning": "a professional/workplace verb — \"restructure\"",
+      "ipa": "/riːˈstrʌk.tʃər/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "reorganize"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to restructure a little every day.",
+        "office": "Please restructure this task before the deadline.",
+        "interview": "I always restructure my work carefully before submitting it.",
+        "business": "Our manager wants us to restructure the new process next week.",
+        "formal": "It is important to restructure such matters with full attention.",
+        "informal": "Come on, let's restructure it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "restructure",
+        "past": "restructured",
+        "pastParticiple": "restructured",
+        "presentParticiple": "restructuring",
+        "thirdPerson": "restructures"
+      }
+    },
+    {
+      "id": 1141,
+      "word": "merge",
+      "hindi": "विलय करना",
+      "simpleMeaning": "a professional/workplace verb — \"merge\"",
+      "ipa": "/mɜːrdʒ/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "combine"
+      ],
+      "antonyms": [
+        "separate"
+      ],
+      "sentences": {
+        "daily": "I try to merge a little every day.",
+        "office": "Please merge this task before the deadline.",
+        "interview": "I always merge my work carefully before submitting it.",
+        "business": "Our manager wants us to merge the new process next week.",
+        "formal": "It is important to merge such matters with full attention.",
+        "informal": "Come on, let's merge it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "merge",
+        "past": "merged",
+        "pastParticiple": "merged",
+        "presentParticiple": "merging",
+        "thirdPerson": "merges"
+      }
+    },
+    {
+      "id": 1142,
+      "word": "pitch",
+      "hindi": "प्रस्ताव पेश करना",
+      "simpleMeaning": "a professional/workplace verb — \"pitch\"",
+      "ipa": "/pɪtʃ/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "propose"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to pitch a little every day.",
+        "office": "Please pitch this task before the deadline.",
+        "interview": "I always pitch my work carefully before submitting it.",
+        "business": "Our manager wants us to pitch the new process next week.",
+        "formal": "It is important to pitch such matters with full attention.",
+        "informal": "Come on, let's pitch it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "pitch",
+        "past": "pitched",
+        "pastParticiple": "pitched",
+        "presentParticiple": "pitching",
+        "thirdPerson": "pitches"
+      }
+    },
+    {
+      "id": 1143,
+      "word": "audit",
+      "hindi": "लेखा परीक्षण करना",
+      "simpleMeaning": "a professional/workplace verb — \"audit\"",
+      "ipa": "/ˈɔː.dɪt/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "inspect"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to audit a little every day.",
+        "office": "Please audit this task before the deadline.",
+        "interview": "I always audit my work carefully before submitting it.",
+        "business": "Our manager wants us to audit the new process next week.",
+        "formal": "It is important to audit such matters with full attention.",
+        "informal": "Come on, let's audit it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "audit",
+        "past": "audited",
+        "pastParticiple": "audited",
+        "presentParticiple": "auditing",
+        "thirdPerson": "audits"
+      }
+    },
+    {
+      "id": 1144,
+      "word": "liaise",
+      "hindi": "संपर्क बनाए रखना",
+      "simpleMeaning": "a professional/workplace verb — \"liaise\"",
+      "ipa": "/liˈeɪz/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "coordinate"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to liaise a little every day.",
+        "office": "Please liaise this task before the deadline.",
+        "interview": "I always liaise my work carefully before submitting it.",
+        "business": "Our manager wants us to liaise the new process next week.",
+        "formal": "It is important to liaise such matters with full attention.",
+        "informal": "Come on, let's liaise it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "liaise",
+        "past": "liaised",
+        "pastParticiple": "liaised",
+        "presentParticiple": "liaising",
+        "thirdPerson": "liaises"
+      }
+    },
+    {
+      "id": 1145,
+      "word": "spearhead",
+      "hindi": "नेतृत्व करना",
+      "simpleMeaning": "a professional/workplace verb — \"spearhead\"",
+      "ipa": "/ˈspɪr.hed/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "lead"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to spearhead a little every day.",
+        "office": "Please spearhead this task before the deadline.",
+        "interview": "I always spearhead my work carefully before submitting it.",
+        "business": "Our manager wants us to spearhead the new process next week.",
+        "formal": "It is important to spearhead such matters with full attention.",
+        "informal": "Come on, let's spearhead it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "spearhead",
+        "past": "spearheaded",
+        "pastParticiple": "spearheaded",
+        "presentParticiple": "spearheading",
+        "thirdPerson": "spearheads"
+      }
+    },
+    {
+      "id": 1146,
+      "word": "automate",
+      "hindi": "स्वचालित बनाना",
+      "simpleMeaning": "a professional/workplace verb — \"automate\"",
+      "ipa": "/ˈɔː.tə.meɪt/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "mechanize"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to automate a little every day.",
+        "office": "Please automate this task before the deadline.",
+        "interview": "I always automate my work carefully before submitting it.",
+        "business": "Our manager wants us to automate the new process next week.",
+        "formal": "It is important to automate such matters with full attention.",
+        "informal": "Come on, let's automate it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "automate",
+        "past": "automated",
+        "pastParticiple": "automated",
+        "presentParticiple": "automating",
+        "thirdPerson": "automates"
+      }
+    },
+    {
+      "id": 1147,
+      "word": "digitize",
+      "hindi": "डिजिटल बनाना",
+      "simpleMeaning": "a professional/workplace verb — \"digitize\"",
+      "ipa": "/ˈdɪdʒ.ɪ.taɪz/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "computerize"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to digitize a little every day.",
+        "office": "Please digitize this task before the deadline.",
+        "interview": "I always digitize my work carefully before submitting it.",
+        "business": "Our manager wants us to digitize the new process next week.",
+        "formal": "It is important to digitize such matters with full attention.",
+        "informal": "Come on, let's digitize it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "digitize",
+        "past": "digitized",
+        "pastParticiple": "digitized",
+        "presentParticiple": "digitizing",
+        "thirdPerson": "digitizes"
+      }
+    },
+    {
+      "id": 1148,
+      "word": "strategize",
+      "hindi": "रणनीति बनाना",
+      "simpleMeaning": "a professional/workplace verb — \"strategize\"",
+      "ipa": "/ˈstræt.ə.dʒaɪz/",
+      "category": "Professional Verbs",
+      "partOfSpeech": "verb",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "plan"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "I try to strategize a little every day.",
+        "office": "Please strategize this task before the deadline.",
+        "interview": "I always strategize my work carefully before submitting it.",
+        "business": "Our manager wants us to strategize the new process next week.",
+        "formal": "It is important to strategize such matters with full attention.",
+        "informal": "Come on, let's strategize it right now!"
+      },
+      "usageNote": null,
+      "verbForms": {
+        "base": "strategize",
+        "past": "strategized",
+        "pastParticiple": "strategized",
+        "presentParticiple": "strategizing",
+        "thirdPerson": "strategizes"
+      }
+    },
+    {
+      "id": 1149,
+      "word": "freedom",
+      "hindi": "आज़ादी",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"freedom\"",
+      "ipa": "/ˈfriː.dəm/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "liberty"
+      ],
+      "antonyms": [
+        "bondage"
+      ],
+      "sentences": {
+        "daily": "A freedom matters a lot in my everyday life.",
+        "office": "We discussed a freedom during today's meeting.",
+        "interview": "I mentioned a freedom as one of my key strengths.",
+        "business": "Our strategy is built around a freedom that customers value.",
+        "formal": "A freedom deserves careful consideration.",
+        "informal": "Honestly, a freedom is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1150,
+      "word": "happiness",
+      "hindi": "खुशी",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"happiness\"",
+      "ipa": "/ˈhæp.i.nəs/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "joy"
+      ],
+      "antonyms": [
+        "sadness"
+      ],
+      "sentences": {
+        "daily": "A happiness matters a lot in my everyday life.",
+        "office": "We discussed a happiness during today's meeting.",
+        "interview": "I mentioned a happiness as one of my key strengths.",
+        "business": "Our strategy is built around a happiness that customers value.",
+        "formal": "A happiness deserves careful consideration.",
+        "informal": "Honestly, a happiness is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1151,
+      "word": "sadness",
+      "hindi": "उदासी",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"sadness\"",
+      "ipa": "/ˈsæd.nəs/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "sorrow"
+      ],
+      "antonyms": [
+        "happiness"
+      ],
+      "sentences": {
+        "daily": "A sadness matters a lot in my everyday life.",
+        "office": "We discussed a sadness during today's meeting.",
+        "interview": "I mentioned a sadness as one of my key strengths.",
+        "business": "Our strategy is built around a sadness that customers value.",
+        "formal": "A sadness deserves careful consideration.",
+        "informal": "Honestly, a sadness is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1152,
+      "word": "anger",
+      "hindi": "गुस्सा",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"anger\"",
+      "ipa": "/ˈæŋ.ɡər/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "fury"
+      ],
+      "antonyms": [
+        "calmness"
+      ],
+      "sentences": {
+        "daily": "An anger matters a lot in my everyday life.",
+        "office": "We discussed an anger during today's meeting.",
+        "interview": "I mentioned an anger as one of my key strengths.",
+        "business": "Our strategy is built around an anger that customers value.",
+        "formal": "An anger deserves careful consideration.",
+        "informal": "Honestly, an anger is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1153,
+      "word": "courage",
+      "hindi": "हिम्मत",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"courage\"",
+      "ipa": "/ˈkɜːr.ɪdʒ/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "bravery"
+      ],
+      "antonyms": [
+        "fear"
+      ],
+      "sentences": {
+        "daily": "A courage matters a lot in my everyday life.",
+        "office": "We discussed a courage during today's meeting.",
+        "interview": "I mentioned a courage as one of my key strengths.",
+        "business": "Our strategy is built around a courage that customers value.",
+        "formal": "A courage deserves careful consideration.",
+        "informal": "Honestly, a courage is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1154,
+      "word": "honesty",
+      "hindi": "ईमानदारी",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"honesty\"",
+      "ipa": "/ˈɒn.ə.sti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "integrity"
+      ],
+      "antonyms": [
+        "dishonesty"
+      ],
+      "sentences": {
+        "daily": "A honesty matters a lot in my everyday life.",
+        "office": "We discussed a honesty during today's meeting.",
+        "interview": "I mentioned a honesty as one of my key strengths.",
+        "business": "Our strategy is built around a honesty that customers value.",
+        "formal": "A honesty deserves careful consideration.",
+        "informal": "Honestly, a honesty is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1155,
+      "word": "loyalty",
+      "hindi": "वफ़ादारी",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"loyalty\"",
+      "ipa": "/ˈlɔɪ.əl.ti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "faithfulness"
+      ],
+      "antonyms": [
+        "betrayal"
+      ],
+      "sentences": {
+        "daily": "A loyalty matters a lot in my everyday life.",
+        "office": "We discussed a loyalty during today's meeting.",
+        "interview": "I mentioned a loyalty as one of my key strengths.",
+        "business": "Our strategy is built around a loyalty that customers value.",
+        "formal": "A loyalty deserves careful consideration.",
+        "informal": "Honestly, a loyalty is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1156,
+      "word": "wisdom",
+      "hindi": "बुद्धिमत्ता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"wisdom\"",
+      "ipa": "/ˈwɪz.dəm/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "knowledge"
+      ],
+      "antonyms": [
+        "foolishness"
+      ],
+      "sentences": {
+        "daily": "A wisdom matters a lot in my everyday life.",
+        "office": "We discussed a wisdom during today's meeting.",
+        "interview": "I mentioned a wisdom as one of my key strengths.",
+        "business": "Our strategy is built around a wisdom that customers value.",
+        "formal": "A wisdom deserves careful consideration.",
+        "informal": "Honestly, a wisdom is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1157,
+      "word": "truth",
+      "hindi": "सच्चाई",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"truth\"",
+      "ipa": "/truːθ/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "fact"
+      ],
+      "antonyms": [
+        "lie"
+      ],
+      "sentences": {
+        "daily": "A truth matters a lot in my everyday life.",
+        "office": "We discussed a truth during today's meeting.",
+        "interview": "I mentioned a truth as one of my key strengths.",
+        "business": "Our strategy is built around a truth that customers value.",
+        "formal": "A truth deserves careful consideration.",
+        "informal": "Honestly, a truth is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1158,
+      "word": "justice",
+      "hindi": "न्याय",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"justice\"",
+      "ipa": "/ˈdʒʌs.tɪs/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "fairness"
+      ],
+      "antonyms": [
+        "injustice"
+      ],
+      "sentences": {
+        "daily": "A justice matters a lot in my everyday life.",
+        "office": "We discussed a justice during today's meeting.",
+        "interview": "I mentioned a justice as one of my key strengths.",
+        "business": "Our strategy is built around a justice that customers value.",
+        "formal": "A justice deserves careful consideration.",
+        "informal": "Honestly, a justice is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1159,
+      "word": "peace",
+      "hindi": "शांति",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"peace\"",
+      "ipa": "/piːs/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "calm"
+      ],
+      "antonyms": [
+        "war"
+      ],
+      "sentences": {
+        "daily": "A peace matters a lot in my everyday life.",
+        "office": "We discussed a peace during today's meeting.",
+        "interview": "I mentioned a peace as one of my key strengths.",
+        "business": "Our strategy is built around a peace that customers value.",
+        "formal": "A peace deserves careful consideration.",
+        "informal": "Honestly, a peace is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1160,
+      "word": "failure",
+      "hindi": "असफलता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"failure\"",
+      "ipa": "/ˈfeɪl.jər/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "defeat"
+      ],
+      "antonyms": [
+        "success"
+      ],
+      "sentences": {
+        "daily": "A failure matters a lot in my everyday life.",
+        "office": "We discussed a failure during today's meeting.",
+        "interview": "I mentioned a failure as one of my key strengths.",
+        "business": "Our strategy is built around a failure that customers value.",
+        "formal": "A failure deserves careful consideration.",
+        "informal": "Honestly, a failure is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1161,
+      "word": "ambition",
+      "hindi": "महत्वाकांक्षा",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"ambition\"",
+      "ipa": "/æmˈbɪʃ.ən/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "aspiration"
+      ],
+      "antonyms": [
+        "indifference"
+      ],
+      "sentences": {
+        "daily": "An ambition matters a lot in my everyday life.",
+        "office": "We discussed an ambition during today's meeting.",
+        "interview": "I mentioned an ambition as one of my key strengths.",
+        "business": "Our strategy is built around an ambition that customers value.",
+        "formal": "An ambition deserves careful consideration.",
+        "informal": "Honestly, an ambition is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1162,
+      "word": "creativity",
+      "hindi": "रचनात्मकता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"creativity\"",
+      "ipa": "/ˌkriː.eɪˈtɪv.ə.ti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "imagination"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A creativity matters a lot in my everyday life.",
+        "office": "We discussed a creativity during today's meeting.",
+        "interview": "I mentioned a creativity as one of my key strengths.",
+        "business": "Our strategy is built around a creativity that customers value.",
+        "formal": "A creativity deserves careful consideration.",
+        "informal": "Honestly, a creativity is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1163,
+      "word": "curiosity",
+      "hindi": "जिज्ञासा",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"curiosity\"",
+      "ipa": "/ˌkjʊr.iˈɒs.ə.ti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "inquisitiveness"
+      ],
+      "antonyms": [
+        "indifference"
+      ],
+      "sentences": {
+        "daily": "A curiosity matters a lot in my everyday life.",
+        "office": "We discussed a curiosity during today's meeting.",
+        "interview": "I mentioned a curiosity as one of my key strengths.",
+        "business": "Our strategy is built around a curiosity that customers value.",
+        "formal": "A curiosity deserves careful consideration.",
+        "informal": "Honestly, a curiosity is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1164,
+      "word": "gratitude",
+      "hindi": "कृतज्ञता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"gratitude\"",
+      "ipa": "/ˈɡræt.ɪ.tuːd/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "thankfulness"
+      ],
+      "antonyms": [
+        "ingratitude"
+      ],
+      "sentences": {
+        "daily": "A gratitude matters a lot in my everyday life.",
+        "office": "We discussed a gratitude during today's meeting.",
+        "interview": "I mentioned a gratitude as one of my key strengths.",
+        "business": "Our strategy is built around a gratitude that customers value.",
+        "formal": "A gratitude deserves careful consideration.",
+        "informal": "Honestly, a gratitude is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1165,
+      "word": "kindness",
+      "hindi": "दयालुता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"kindness\"",
+      "ipa": "/ˈkaɪnd.nəs/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "compassion"
+      ],
+      "antonyms": [
+        "cruelty"
+      ],
+      "sentences": {
+        "daily": "A kindness matters a lot in my everyday life.",
+        "office": "We discussed a kindness during today's meeting.",
+        "interview": "I mentioned a kindness as one of my key strengths.",
+        "business": "Our strategy is built around a kindness that customers value.",
+        "formal": "A kindness deserves careful consideration.",
+        "informal": "Honestly, a kindness is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1166,
+      "word": "generosity",
+      "hindi": "उदारता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"generosity\"",
+      "ipa": "/ˌdʒen.əˈrɒs.ə.ti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "charity"
+      ],
+      "antonyms": [
+        "stinginess"
+      ],
+      "sentences": {
+        "daily": "A generosity matters a lot in my everyday life.",
+        "office": "We discussed a generosity during today's meeting.",
+        "interview": "I mentioned a generosity as one of my key strengths.",
+        "business": "Our strategy is built around a generosity that customers value.",
+        "formal": "A generosity deserves careful consideration.",
+        "informal": "Honestly, a generosity is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1167,
+      "word": "humility",
+      "hindi": "विनम्रता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"humility\"",
+      "ipa": "/hjuːˈmɪl.ə.ti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "modesty"
+      ],
+      "antonyms": [
+        "arrogance"
+      ],
+      "sentences": {
+        "daily": "A humility matters a lot in my everyday life.",
+        "office": "We discussed a humility during today's meeting.",
+        "interview": "I mentioned a humility as one of my key strengths.",
+        "business": "Our strategy is built around a humility that customers value.",
+        "formal": "A humility deserves careful consideration.",
+        "informal": "Honestly, a humility is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1168,
+      "word": "integrity",
+      "hindi": "निष्ठा/ईमानदारी",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"integrity\"",
+      "ipa": "/ɪnˈteɡ.rə.ti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "honesty"
+      ],
+      "antonyms": [
+        "corruption"
+      ],
+      "sentences": {
+        "daily": "An integrity matters a lot in my everyday life.",
+        "office": "We discussed an integrity during today's meeting.",
+        "interview": "I mentioned an integrity as one of my key strengths.",
+        "business": "Our strategy is built around an integrity that customers value.",
+        "formal": "An integrity deserves careful consideration.",
+        "informal": "Honestly, an integrity is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1169,
+      "word": "determination",
+      "hindi": "दृढ़ संकल्प",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"determination\"",
+      "ipa": "/dɪˌtɜːr.mɪˈneɪ.ʃən/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "resolve"
+      ],
+      "antonyms": [
+        "hesitation"
+      ],
+      "sentences": {
+        "daily": "A determination matters a lot in my everyday life.",
+        "office": "We discussed a determination during today's meeting.",
+        "interview": "I mentioned a determination as one of my key strengths.",
+        "business": "Our strategy is built around a determination that customers value.",
+        "formal": "A determination deserves careful consideration.",
+        "informal": "Honestly, a determination is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1170,
+      "word": "responsibility",
+      "hindi": "ज़िम्मेदारी",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"responsibility\"",
+      "ipa": "/rɪˌspɒn.səˈbɪl.ə.ti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "duty"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A responsibility matters a lot in my everyday life.",
+        "office": "We discussed a responsibility during today's meeting.",
+        "interview": "I mentioned a responsibility as one of my key strengths.",
+        "business": "Our strategy is built around a responsibility that customers value.",
+        "formal": "A responsibility deserves careful consideration.",
+        "informal": "Honestly, a responsibility is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1171,
+      "word": "balance",
+      "hindi": "संतुलन",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"balance\"",
+      "ipa": "/ˈbæl.əns/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "equilibrium"
+      ],
+      "antonyms": [
+        "imbalance"
+      ],
+      "sentences": {
+        "daily": "A balance matters a lot in my everyday life.",
+        "office": "We discussed a balance during today's meeting.",
+        "interview": "I mentioned a balance as one of my key strengths.",
+        "business": "Our strategy is built around a balance that customers value.",
+        "formal": "A balance deserves careful consideration.",
+        "informal": "Honestly, a balance is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1172,
+      "word": "harmony",
+      "hindi": "सामंजस्य",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"harmony\"",
+      "ipa": "/ˈhɑːr.mə.ni/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "unity"
+      ],
+      "antonyms": [
+        "conflict"
+      ],
+      "sentences": {
+        "daily": "A harmony matters a lot in my everyday life.",
+        "office": "We discussed a harmony during today's meeting.",
+        "interview": "I mentioned a harmony as one of my key strengths.",
+        "business": "Our strategy is built around a harmony that customers value.",
+        "formal": "A harmony deserves careful consideration.",
+        "informal": "Honestly, a harmony is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1173,
+      "word": "faith",
+      "hindi": "विश्वास",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"faith\"",
+      "ipa": "/feɪθ/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "belief"
+      ],
+      "antonyms": [
+        "doubt"
+      ],
+      "sentences": {
+        "daily": "A faith matters a lot in my everyday life.",
+        "office": "We discussed a faith during today's meeting.",
+        "interview": "I mentioned a faith as one of my key strengths.",
+        "business": "Our strategy is built around a faith that customers value.",
+        "formal": "A faith deserves careful consideration.",
+        "informal": "Honestly, a faith is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1174,
+      "word": "doubt",
+      "hindi": "संदेह",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"doubt\"",
+      "ipa": "/daʊt/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "uncertainty"
+      ],
+      "antonyms": [
+        "certainty"
+      ],
+      "sentences": {
+        "daily": "A doubt matters a lot in my everyday life.",
+        "office": "We discussed a doubt during today's meeting.",
+        "interview": "I mentioned a doubt as one of my key strengths.",
+        "business": "Our strategy is built around a doubt that customers value.",
+        "formal": "A doubt deserves careful consideration.",
+        "informal": "Honestly, a doubt is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1175,
+      "word": "stress",
+      "hindi": "तनाव",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"stress\"",
+      "ipa": "/stres/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "pressure"
+      ],
+      "antonyms": [
+        "relaxation"
+      ],
+      "sentences": {
+        "daily": "A stress matters a lot in my everyday life.",
+        "office": "We discussed a stress during today's meeting.",
+        "interview": "I mentioned a stress as one of my key strengths.",
+        "business": "Our strategy is built around a stress that customers value.",
+        "formal": "A stress deserves careful consideration.",
+        "informal": "Honestly, a stress is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1176,
+      "word": "relief",
+      "hindi": "राहत",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"relief\"",
+      "ipa": "/rɪˈliːf/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "comfort"
+      ],
+      "antonyms": [
+        "distress"
+      ],
+      "sentences": {
+        "daily": "A relief matters a lot in my everyday life.",
+        "office": "We discussed a relief during today's meeting.",
+        "interview": "I mentioned a relief as one of my key strengths.",
+        "business": "Our strategy is built around a relief that customers value.",
+        "formal": "A relief deserves careful consideration.",
+        "informal": "Honestly, a relief is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1177,
+      "word": "joy",
+      "hindi": "हर्ष",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"joy\"",
+      "ipa": "/dʒɔɪ/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "delight"
+      ],
+      "antonyms": [
+        "sorrow"
+      ],
+      "sentences": {
+        "daily": "A joy matters a lot in my everyday life.",
+        "office": "We discussed a joy during today's meeting.",
+        "interview": "I mentioned a joy as one of my key strengths.",
+        "business": "Our strategy is built around a joy that customers value.",
+        "formal": "A joy deserves careful consideration.",
+        "informal": "Honestly, a joy is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1178,
+      "word": "pride",
+      "hindi": "गर्व",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"pride\"",
+      "ipa": "/praɪd/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "none"
+      ],
+      "antonyms": [
+        "shame"
+      ],
+      "sentences": {
+        "daily": "A pride matters a lot in my everyday life.",
+        "office": "We discussed a pride during today's meeting.",
+        "interview": "I mentioned a pride as one of my key strengths.",
+        "business": "Our strategy is built around a pride that customers value.",
+        "formal": "A pride deserves careful consideration.",
+        "informal": "Honestly, a pride is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1179,
+      "word": "shame",
+      "hindi": "शर्म",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"shame\"",
+      "ipa": "/ʃeɪm/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "embarrassment"
+      ],
+      "antonyms": [
+        "pride"
+      ],
+      "sentences": {
+        "daily": "A shame matters a lot in my everyday life.",
+        "office": "We discussed a shame during today's meeting.",
+        "interview": "I mentioned a shame as one of my key strengths.",
+        "business": "Our strategy is built around a shame that customers value.",
+        "formal": "A shame deserves careful consideration.",
+        "informal": "Honestly, a shame is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1180,
+      "word": "forgiveness",
+      "hindi": "क्षमा",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"forgiveness\"",
+      "ipa": "/fərˈɡɪv.nəs/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "pardon"
+      ],
+      "antonyms": [
+        "resentment"
+      ],
+      "sentences": {
+        "daily": "A forgiveness matters a lot in my everyday life.",
+        "office": "We discussed a forgiveness during today's meeting.",
+        "interview": "I mentioned a forgiveness as one of my key strengths.",
+        "business": "Our strategy is built around a forgiveness that customers value.",
+        "formal": "A forgiveness deserves careful consideration.",
+        "informal": "Honestly, a forgiveness is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1181,
+      "word": "friendship",
+      "hindi": "मित्रता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"friendship\"",
+      "ipa": "/ˈfrend.ʃɪp/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "companionship"
+      ],
+      "antonyms": [
+        "enmity"
+      ],
+      "sentences": {
+        "daily": "A friendship matters a lot in my everyday life.",
+        "office": "We discussed a friendship during today's meeting.",
+        "interview": "I mentioned a friendship as one of my key strengths.",
+        "business": "Our strategy is built around a friendship that customers value.",
+        "formal": "A friendship deserves careful consideration.",
+        "informal": "Honestly, a friendship is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1182,
+      "word": "teamwork",
+      "hindi": "टीम वर्क",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"teamwork\"",
+      "ipa": "/ˈtiːm.wɜːrk/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "collaboration"
+      ],
+      "antonyms": [
+        "none"
+      ],
+      "sentences": {
+        "daily": "A teamwork matters a lot in my everyday life.",
+        "office": "We discussed a teamwork during today's meeting.",
+        "interview": "I mentioned a teamwork as one of my key strengths.",
+        "business": "Our strategy is built around a teamwork that customers value.",
+        "formal": "A teamwork deserves careful consideration.",
+        "informal": "Honestly, a teamwork is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1183,
+      "word": "productivity",
+      "hindi": "उत्पादकता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"productivity\"",
+      "ipa": "/ˌproʊ.dʌkˈtɪv.ə.ti/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "efficiency"
+      ],
+      "antonyms": [
+        "idleness"
+      ],
+      "sentences": {
+        "daily": "A productivity matters a lot in my everyday life.",
+        "office": "We discussed a productivity during today's meeting.",
+        "interview": "I mentioned a productivity as one of my key strengths.",
+        "business": "Our strategy is built around a productivity that customers value.",
+        "formal": "A productivity deserves careful consideration.",
+        "informal": "Honestly, a productivity is what makes the difference!"
+      },
+      "usageNote": null
+    },
+    {
+      "id": 1184,
+      "word": "efficiency",
+      "hindi": "दक्षता",
+      "simpleMeaning": "an abstract noun (a feeling, value or concept) — \"efficiency\"",
+      "ipa": "/ɪˈfɪʃ.ən.si/",
+      "category": "Abstract Nouns",
+      "partOfSpeech": "noun",
+      "cefrLevel": "B1",
+      "synonyms": [
+        "effectiveness"
+      ],
+      "antonyms": [
+        "inefficiency"
+      ],
+      "sentences": {
+        "daily": "An efficiency matters a lot in my everyday life.",
+        "office": "We discussed an efficiency during today's meeting.",
+        "interview": "I mentioned an efficiency as one of my key strengths.",
+        "business": "Our strategy is built around an efficiency that customers value.",
+        "formal": "An efficiency deserves careful consideration.",
+        "informal": "Honestly, an efficiency is what makes the difference!"
+      },
+      "usageNote": null
     }
   ]
 }

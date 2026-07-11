@@ -19,10 +19,10 @@
     "Common Verbs",
     "Daily Vocabulary"
   ],
-  "totalQuestions": 1800,
-  "totalPracticeQuestions": 1400,
-  "totalTestQuestions": 400,
-  "totalVocabulary": 1000,
+  "totalQuestions": 15040,
+  "totalPracticeQuestions": 9896,
+  "totalTestQuestions": 5144,
+  "totalVocabulary": 1184,
   "totalFlashcards": 500,
   "totalDialogues": 10,
   "totalSections": 20,
@@ -31,7 +31,15 @@
   "coinsReward": 125,
   "prerequisites": [],
   "nextDay": 2,
-  "tags": ["basics", "grammar", "beginner", "sentence-structure", "svo", "pronouns", "articles"],
+  "tags": [
+    "basics",
+    "grammar",
+    "beginner",
+    "sentence-structure",
+    "svo",
+    "pronouns",
+    "articles"
+  ],
   "instructor": "75 Days Hard English Team",
   "lastUpdated": "2026-07-11",
   "version": "2.1"
