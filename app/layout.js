@@ -1,5 +1,22 @@
 import './globals.css';
 import Providers from '@/providers/Providers';
+import { Inter } from 'next/font/google';
+
+// ── Font loading via next/font ───────────────────────────────────────────
+// Using next/font instead of a manual <link> tag in <head> because manual
+// <link> tags get inserted after hydration starts and collide with scripts
+// Replit's dev-tools proxy injects into <head>, which was throwing a
+// "Hydration failed" error on every single page load. next/font downloads
+// the font at build time, self-hosts it, and injects a stable className +
+// CSS variable — no external network request, no runtime <head> mutation,
+// no hydration mismatch, and it's faster for users too (no Google Fonts
+// round-trip on first paint).
+const inter = Inter({
+  subsets: ['latin'],
+  weight: ['300', '400', '500', '600', '700', '800', '900'],
+  variable: '--font-inter',
+  display: 'swap',
+});
 
 export const metadata = {
   title: {
@@ -43,15 +60,11 @@ export const viewport = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" className="dark" suppressHydrationWarning>
-      <head>
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
-          rel="stylesheet"
-        />
-      </head>
+    <html lang="en" className={`dark ${inter.variable}`} suppressHydrationWarning>
+      {/* No manual <head> font links here — next/font (above) already
+          injects everything needed at build time. Keeping <head> empty
+          of custom tags means the server-rendered head and the
+          client-hydrated head always match exactly. */}
       <body className="font-sans antialiased bg-surface-950 text-slate-100 min-h-screen" suppressHydrationWarning>
         <Providers>
           {children}

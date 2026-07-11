@@ -3352,16 +3352,66 @@ function OverviewSection({ overview, onComplete }) {
   const [activeTab, setActiveTab] = useState('intro');
   const [revealedRules, setRevealedRules] = useState({});
 
-  const whyList = overview?.whyImportant
-    ? overview.whyImportant.split('।').map(s => s.trim()).filter(Boolean)
-    : [];
-  const usageList = overview?.realLifeUsage
-    ? (Array.isArray(overview.realLifeUsage)
-        ? overview.realLifeUsage
-        : overview.realLifeUsage.split('।').map(s => s.trim()).filter(Boolean))
-    : [];
+  // ── Schema-safe extraction ────────────────────────────────────────────
+  // overview.json stores "whyImportant" as { main: string, points: [string] }
+  // and "realLifeUsage" as { daily: [string], office: [string], interview: [string] }
+  // (categorised by situation) rather than a single string. Some older/future
+  // day files might still ship a plain string or a flat array, so every branch
+  // below defends against all three shapes instead of assuming one.
+  const whyImportant = overview?.whyImportant;
+  const whyMain  = typeof whyImportant === 'string' ? '' : (whyImportant?.main || '');
+  const whyList  = typeof whyImportant === 'string'
+    ? whyImportant.split('।').map(s => s.trim()).filter(Boolean)
+    : Array.isArray(whyImportant?.points)
+      ? whyImportant.points
+      : [];
+
+  const realLifeUsage = overview?.realLifeUsage;
+  // usageGroups turns { daily: [...], office: [...], interview: [...] } into
+  // [{ label: 'Daily Life', items: [...] }, ...] so the UI can show each
+  // situation as its own labelled card instead of one flat, uncategorised list.
+  const USAGE_LABELS = {
+    daily:      { label: 'Daily Life',        icon: '🏠' },
+    office:     { label: 'Office / Work',     icon: '💼' },
+    interview:  { label: 'Interview',         icon: '🎯' },
+    business:   { label: 'Business',          icon: '📈' },
+    email:      { label: 'Email Writing',     icon: '✉️' },
+    speaking:   { label: 'Speaking',          icon: '🗣️' },
+  };
+  const usageGroups = Array.isArray(realLifeUsage)
+    ? [{ label: 'Real-Life Examples', icon: '💬', items: realLifeUsage }]
+    : realLifeUsage && typeof realLifeUsage === 'object'
+      ? Object.entries(realLifeUsage)
+          .filter(([, items]) => Array.isArray(items) && items.length > 0)
+          .map(([key, items]) => ({
+            label: USAGE_LABELS[key]?.label || key,
+            icon:  USAGE_LABELS[key]?.icon || '💬',
+            items,
+          }))
+      : [];
+  // Flat list kept for a quick "any usage examples at all?" check.
+  const usageList = usageGroups.flatMap(g => g.items);
+
   const whatList = overview?.whatYouWillLearn || [];
   const grammarRules = overview?.keyGrammarRules || [];
+
+  // motivationalQuote is { english, hindi, author } in the real data — never
+  // a bare string — so we destructure it defensively here once, instead of
+  // trying to render the raw object as JSX text (which throws in React).
+  const motivationalQuote = overview?.motivationalQuote;
+  const quoteEnglish = typeof motivationalQuote === 'string' ? motivationalQuote : motivationalQuote?.english || '';
+  const quoteHindi   = typeof motivationalQuote === 'string' ? '' : motivationalQuote?.hindi || '';
+  const quoteAuthor  = typeof motivationalQuote === 'string' ? '' : motivationalQuote?.author || '';
+
+  // practiceTarget is a breakdown object { practiceQuestions, testQuestions,
+  // vocabularyWords, flashcards, ... } — pull out just the practice-question
+  // count for the "Practice Target" stat tile, with a safe string fallback.
+  const practiceTarget = overview?.practiceTarget;
+  const practiceTargetLabel = typeof practiceTarget === 'string'
+    ? practiceTarget
+    : practiceTarget?.practiceQuestions
+      ? `${practiceTarget.practiceQuestions} Qs`
+      : '400 Qs';
 
   const ICON_COLORS = [
     'text-violet-400', 'text-cyan-400', 'text-emerald-400', 'text-amber-400',
