@@ -411,30 +411,18 @@ export default function SectionLayout({
   return (
     <div className="min-h-screen bg-[#07070f] text-white flex flex-col">
 
-      {/* ── Ambient background — section-specific color ─────── */}
+      {/* ── Ambient background — very subtle, dark, minimal ─────── */}
       <div className="fixed inset-0 pointer-events-none overflow-hidden z-0">
-        {/* Top-right blob based on section color */}
-        <motion.div
-          key={sectionId}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.8 }}
-          className={cn(
-            'absolute -top-60 -right-60 w-[700px] h-[700px] rounded-full blur-3xl',
-            `bg-gradient-to-br ${sectionColor}`,
-          )}
-          style={{ opacity: 0.07 }}
-        />
-        {/* Bottom-left blob */}
+        {/* Barely-visible top-right accent */}
         <div
-          className="absolute -bottom-40 -left-40 w-[500px] h-[500px] rounded-full blur-3xl bg-gradient-to-br from-cyan-500 to-blue-600"
-          style={{ opacity: 0.04 }}
+          className="absolute -top-96 -right-96 w-[600px] h-[600px] rounded-full blur-3xl bg-white/5"
+          style={{ opacity: 0.015 }}
         />
-        {/* Subtle grid pattern */}
+        {/* Subtle dot grid */}
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `radial-gradient(circle at 1px 1px, rgba(255,255,255,0.03) 1px, transparent 0)`,
+            backgroundImage: `radial-gradient(circle at 1px 1px, rgba(255,255,255,0.025) 1px, transparent 0)`,
             backgroundSize: '32px 32px',
           }}
         />
@@ -726,27 +714,22 @@ export default function SectionLayout({
           {/* ── SECTION HERO BANNER — Full-width, dramatic, distinct per section ── */}
           <div className="relative w-full overflow-hidden border-b border-white/8">
 
-            {/* Deep gradient background — unique per section */}
+            {/* Hero background — dark with very subtle left accent stripe */}
+            <div className="absolute inset-0 bg-[#0a0a15]" />
+            {/* Subtle left accent line using section color */}
             <div
-              className={cn('absolute inset-0 bg-gradient-to-br opacity-25', sectionColor)}
+              className={cn('absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b opacity-60', sectionColor)}
             />
-            {/* Radial glow center-right */}
+            {/* Very faint dot grid */}
             <div
-              className="absolute inset-0"
+              className="absolute inset-0 opacity-10"
               style={{
-                background: 'radial-gradient(ellipse at 75% 50%, rgba(255,255,255,0.07) 0%, transparent 55%)',
-              }}
-            />
-            {/* Dot grid pattern */}
-            <div
-              className="absolute inset-0 opacity-20"
-              style={{
-                backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.15) 1px, transparent 0)',
-                backgroundSize: '22px 22px',
+                backgroundImage: 'radial-gradient(circle at 1px 1px, rgba(255,255,255,0.12) 1px, transparent 0)',
+                backgroundSize: '24px 24px',
               }}
             />
             {/* Bottom fade to body */}
-            <div className="absolute bottom-0 left-0 right-0 h-8 bg-gradient-to-t from-[#07070f] to-transparent" />
+            <div className="absolute bottom-0 left-0 right-0 h-6 bg-gradient-to-t from-[#07070f] to-transparent" />
 
             <motion.div
               key={sectionId}

@@ -220,6 +220,48 @@ function StatPill({ icon, label, value, color }) {
 }
 
 // ============================================================
+// SECTION GROUPS — organize 20 sections into meaningful clusters
+// ============================================================
+const SECTION_GROUPS = [
+  {
+    label: '🧠 Foundation',
+    color: 'from-violet-500/20 to-purple-500/20',
+    border: 'border-violet-500/20',
+    ids: ['overview', 'theory', 'mistakes', 'memory-tricks'],
+  },
+  {
+    label: '📚 Vocabulary & Cards',
+    color: 'from-emerald-500/20 to-teal-500/20',
+    border: 'border-emerald-500/20',
+    ids: ['vocabulary', 'flashcards'],
+  },
+  {
+    label: '✍️ Core Practice',
+    color: 'from-blue-500/20 to-indigo-500/20',
+    border: 'border-blue-500/20',
+    ids: ['practice', 'dialogue', 'conversation'],
+  },
+  {
+    label: '🎙️ Skills Drills',
+    color: 'from-cyan-500/20 to-sky-500/20',
+    border: 'border-cyan-500/20',
+    ids: ['speaking', 'writing', 'listening', 'reading'],
+  },
+  {
+    label: '✨ Creative Zone',
+    color: 'from-fuchsia-500/20 to-pink-500/20',
+    border: 'border-fuchsia-500/20',
+    ids: ['story', 'essay'],
+  },
+  {
+    label: '📊 Assessment & Wrap-up',
+    color: 'from-orange-500/20 to-red-500/20',
+    border: 'border-orange-500/20',
+    ids: ['study-plan', 'revision', 'test', 'milestones', 'challenge-task'],
+  },
+];
+
+// ============================================================
 // SECTION CARD COMPONENT
 // ============================================================
 function SectionCard({ section, dayNum, isCompleted, index }) {
@@ -228,110 +270,104 @@ function SectionCard({ section, dayNum, isCompleted, index }) {
   return (
     <motion.div
       variants={cardVariants}
-      whileHover={{ scale: 1.03, y: -4 }}
+      whileHover={{ scale: 1.02, y: -5 }}
       whileTap={{ scale: 0.97 }}
       className="group relative"
     >
-      <Link href={href} className="block h-full">
-        {/* Card container — glassmorphism */}
+      <Link href={href} target="_blank" rel="noopener noreferrer" className="block h-full">
+        {/* Card container — glassmorphism + gradient border on hover */}
         <div
           className={`
             relative h-full overflow-hidden
-            bg-white/5 backdrop-blur-xl
+            bg-[#0e0e18] backdrop-blur-xl
             border rounded-2xl
             transition-all duration-300
             ${isCompleted
-              ? 'border-emerald-500/40 shadow-emerald-500/10 shadow-lg'
-              : 'border-white/10 group-hover:border-white/25 group-hover:shadow-xl group-hover:shadow-violet-500/10'
+              ? 'border-emerald-500/50 shadow-lg shadow-emerald-500/15'
+              : 'border-white/8 group-hover:border-white/25 group-hover:shadow-2xl group-hover:shadow-violet-500/15'
             }
           `}
         >
-          {/* Gradient tint overlay at 15% opacity */}
+          {/* Gradient tint overlay */}
           <div
-            className={`absolute inset-0 bg-gradient-to-br ${section.color} opacity-[0.12] group-hover:opacity-[0.2] transition-opacity duration-300 rounded-2xl`}
+            className={`absolute inset-0 bg-gradient-to-br ${section.color} opacity-[0.10] group-hover:opacity-[0.22] transition-opacity duration-400 rounded-2xl`}
           />
 
-          {/* Completed overlay shimmer */}
+          {/* Top accent bar */}
+          <div className={`absolute top-0 left-0 right-0 h-0.5 bg-gradient-to-r ${section.color} opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-t-2xl`} />
+
+          {/* Completed glow */}
           {isCompleted && (
             <div className="absolute inset-0 bg-emerald-500/5 rounded-2xl" />
           )}
 
           {/* Content */}
-          <div className="relative z-10 p-4 flex flex-col gap-3 h-full">
+          <div className="relative z-10 p-4 flex flex-col gap-3 h-full min-h-[160px]">
 
-            {/* Top row: emoji circle + section number + completed badge */}
-            <div className="flex items-start justify-between">
-              {/* Gradient emoji circle */}
+            {/* Top row: emoji icon + section num + new-tab icon */}
+            <div className="flex items-start justify-between gap-2">
+              {/* Icon circle with gradient */}
               <div
                 className={`
-                  w-11 h-11 rounded-xl flex items-center justify-center text-xl
-                  bg-gradient-to-br ${section.color} bg-opacity-80
-                  shadow-lg
+                  w-12 h-12 rounded-xl flex items-center justify-center text-2xl flex-shrink-0
+                  bg-gradient-to-br ${section.color}
+                  shadow-lg shadow-black/30
                 `}
               >
                 {section.icon}
               </div>
 
-              {/* Right side: completed check OR section number */}
-              <div className="flex flex-col items-end gap-1">
+              {/* Right badges */}
+              <div className="flex flex-col items-end gap-1.5">
                 {isCompleted ? (
                   <motion.div
                     initial={{ scale: 0 }}
                     animate={{ scale: 1 }}
-                    transition={{ type: 'spring', stiffness: 300, damping: 20 }}
-                    className="flex items-center gap-1 text-emerald-400"
+                    transition={{ type: 'spring', stiffness: 300, damping: 18 }}
+                    className="flex items-center gap-1 text-emerald-400 bg-emerald-400/10 border border-emerald-400/30 rounded-lg px-2 py-0.5"
                   >
-                    <CheckCircle2 size={18} />
+                    <CheckCircle2 size={12} />
+                    <span className="text-xs font-bold">Done</span>
                   </motion.div>
                 ) : (
-                  <span className="text-xs font-bold text-gray-500 bg-white/5 border border-white/10 rounded-lg px-2 py-0.5">
+                  <span className="text-xs font-bold text-gray-600 bg-white/5 border border-white/8 rounded-lg px-2 py-0.5">
                     #{section.num}
                   </span>
                 )}
+                {/* New tab indicator */}
+                <span className="text-gray-600 text-xs opacity-0 group-hover:opacity-100 transition-opacity duration-200 flex items-center gap-0.5">
+                  ↗ new tab
+                </span>
               </div>
             </div>
 
             {/* Title + subtitle */}
             <div className="flex-1">
-              <h3 className={`font-bold text-sm leading-tight ${isCompleted ? 'text-emerald-300' : 'text-white'}`}>
+              <h3 className={`font-bold text-sm leading-tight ${isCompleted ? 'text-emerald-300' : 'text-white group-hover:text-violet-200 transition-colors duration-200'}`}>
                 {section.title}
               </h3>
-              <p className="text-xs text-gray-400 mt-1 leading-relaxed line-clamp-2">
+              <p className="text-xs text-gray-500 mt-1 leading-relaxed line-clamp-2 group-hover:text-gray-400 transition-colors duration-200">
                 {section.subtitle}
               </p>
             </div>
 
-            {/* Bottom row: time badge + XP badge */}
+            {/* Bottom row */}
             <div className="flex items-center justify-between gap-2">
-              {/* Time */}
-              <div className="flex items-center gap-1 text-gray-400">
-                <Clock size={11} />
+              <div className="flex items-center gap-1 text-gray-600 group-hover:text-gray-400 transition-colors">
+                <Clock size={10} />
                 <span className="text-xs">{section.time}</span>
               </div>
-
-              {/* XP */}
-              <div className="flex items-center gap-1 text-amber-400 bg-amber-400/10 border border-amber-400/20 rounded-lg px-2 py-0.5">
+              <div className={`flex items-center gap-1 text-amber-400 bg-amber-400/10 border border-amber-400/20 rounded-lg px-2 py-0.5`}>
                 <Zap size={10} />
                 <span className="text-xs font-bold">+{section.xp} XP</span>
               </div>
             </div>
 
-            {/* Completed text */}
-            {isCompleted && (
-              <div className="text-xs text-emerald-400 font-semibold flex items-center gap-1">
-                <CheckCircle2 size={12} />
-                Completed! ✅
-              </div>
-            )}
-
           </div>
 
-          {/* Hover glow border effect */}
+          {/* Glow border on hover */}
           <div
-            className={`
-              absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300
-              bg-gradient-to-br ${section.color}
-            `}
+            className={`absolute inset-0 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-400 bg-gradient-to-br ${section.color}`}
             style={{ padding: '1px', WebkitMask: 'linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0)', WebkitMaskComposite: 'xor', maskComposite: 'exclude' }}
           />
 
@@ -625,15 +661,17 @@ export default function DayOverviewPage() {
           initial={{ opacity: 0, x: -20 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.4, delay: 0.25 }}
-          className="flex items-center justify-between mb-5 flex-wrap gap-2"
+          className="flex items-center justify-between mb-6 flex-wrap gap-2"
         >
           <div>
-            <h2 className="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
-              <BookOpen size={20} className="text-violet-400" />
+            <h2 className="text-xl sm:text-2xl font-black text-white flex items-center gap-2">
+              <BookOpen size={22} className="text-violet-400" />
               All 20 Sections
             </h2>
-            <p className="text-gray-500 text-xs mt-0.5">
-              Click any card to jump right in 👇
+            <p className="text-gray-500 text-sm mt-1 flex items-center gap-1.5">
+              Each card opens in a new tab ↗
+              <span className="text-violet-400">•</span>
+              Click any to start
             </p>
           </div>
 
@@ -641,32 +679,64 @@ export default function DayOverviewPage() {
           {completedCount > 0 && (
             <div className="flex items-center gap-1.5 text-emerald-400 bg-emerald-400/10 border border-emerald-400/20 rounded-xl px-3 py-1.5">
               <CheckCircle2 size={14} />
-              <span className="text-xs font-semibold">{completedCount} completed</span>
+              <span className="text-sm font-semibold">{completedCount}/{SECTIONS.length} done</span>
             </div>
           )}
         </motion.div>
 
         {/* ===================================================
-            SECTIONS GRID
-            4 cols desktop, 2 cols tablet, 1 col mobile
-            staggerChildren animation
+            SECTIONS GROUPED BY CATEGORY
+            Each group has a header label + cards grid
             =================================================== */}
-        <motion.div
-          variants={containerVariants}
-          initial="initial"
-          animate="animate"
-          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-10"
-        >
-          {SECTIONS.map((section, index) => (
-            <SectionCard
-              key={section.id}
-              section={section}
-              dayNum={dayNum}
-              isCompleted={completedSectionIds.has(section.id)}
-              index={index}
-            />
-          ))}
-        </motion.div>
+        <div className="space-y-8 mb-10">
+          {SECTION_GROUPS.map((group, groupIdx) => {
+            const groupSections = SECTIONS.filter((s) => group.ids.includes(s.id));
+            const groupCompleted = groupSections.filter((s) => completedSectionIds.has(s.id)).length;
+            const groupTotal = groupSections.length;
+            return (
+              <motion.div
+                key={group.label}
+                initial={{ opacity: 0, y: 20 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{ duration: 0.4, delay: 0.05 * groupIdx + 0.25 }}
+              >
+                {/* Group header */}
+                <div className="flex items-center justify-between mb-3">
+                  <div className="flex items-center gap-2">
+                    <div className={`h-5 w-1 rounded-full bg-gradient-to-b ${group.color.replace('/20', '')}`} />
+                    <h3 className="text-sm font-bold text-gray-300 uppercase tracking-wider">
+                      {group.label}
+                    </h3>
+                  </div>
+                  <span className="text-xs text-gray-600">
+                    {groupCompleted}/{groupTotal}
+                    {groupCompleted === groupTotal && groupTotal > 0 && (
+                      <span className="text-emerald-400 ml-1">✓ all done!</span>
+                    )}
+                  </span>
+                </div>
+
+                {/* Section cards grid */}
+                <motion.div
+                  variants={containerVariants}
+                  initial="initial"
+                  animate="animate"
+                  className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-3"
+                >
+                  {groupSections.map((section, index) => (
+                    <SectionCard
+                      key={section.id}
+                      section={section}
+                      dayNum={dayNum}
+                      isCompleted={completedSectionIds.has(section.id)}
+                      index={index}
+                    />
+                  ))}
+                </motion.div>
+              </motion.div>
+            );
+          })}
+        </div>
 
         {/* ===================================================
             WHAT YOU'LL LEARN — from overview.whatYouWillLearn
@@ -762,7 +832,7 @@ export default function DayOverviewPage() {
             {SECTIONS.map((section) => {
               const done = completedSectionIds.has(section.id);
               return (
-                <Link key={section.id} href={`/75-days-challenge/${dayNum}/${section.id}`} title={section.title}>
+                <Link key={section.id} href={`/75-days-challenge/${dayNum}/${section.id}`} target="_blank" rel="noopener noreferrer" title={section.title}>
                   <motion.div
                     whileHover={{ scale: 1.3 }}
                     className={`
@@ -809,7 +879,7 @@ export default function DayOverviewPage() {
           </div>
 
           {/* CTA button */}
-          <Link href={`/75-days-challenge/${dayNum}/${firstIncompleteSection.id}`} className="flex-1">
+          <Link href={`/75-days-challenge/${dayNum}/${firstIncompleteSection.id}`} target="_blank" rel="noopener noreferrer" className="flex-1">
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.97 }}
