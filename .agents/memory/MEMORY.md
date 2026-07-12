@@ -14,3 +14,5 @@
 - [Section page data prop contract](section-page-data-prop-contract.md) — section components read `data.<key>` on the FULL dayData object; never pre-slice it client-side or every section silently shows 0 items.
 - [Challenge API payload size](challenge-api-payload-size.md) — /api/challenge/[day] merges all per-day JSON; gate huge vocab/practice/test arrays behind `?dataKey=` or fetches fail once content scales up.
 - [Combinatorial booster scripts](combinatorial-booster-scripts.md) — divmod template generators cap out at pool_A×pool_B×pool_C; enlarge the open vocab pool, not just the target number, or output silently plateaus.
+- [Day 2 section-page architecture](day02-section-page-architecture.md) — `/75-days-challenge/[day]/[section]` route + session-size picker already exist; screenshot it before rebuilding "per-section pages".
+- [Generic sentence templates need word-type branching](generic-sentence-template-word-type.md) — one verb-slot template applied to nouns/adjectives/gerunds produces broken sentences; branch by part of speech.

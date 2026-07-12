@@ -16,6 +16,28 @@ const path = require('path');
 const OUT = 'data/challenge/day-02';
 
 // ----------------------------------------------------------------------------
+// CROSS-DAY VOCAB DEDUP
+// The user's rule: a vocabulary word taught on one day must not be re-taught
+// as "new" vocabulary on another day, so learners keep discovering genuinely
+// new words as they progress through the 75 days. Load every other day's
+// vocabulary.json already on disk and build a case-insensitive exclusion set;
+// any word already introduced elsewhere is skipped when building Day 2's list.
+const OTHER_DAYS_ROOT = 'data/challenge';
+const usedElsewhere = new Set();
+if (fs.existsSync(OTHER_DAYS_ROOT)) {
+  for (const dir of fs.readdirSync(OTHER_DAYS_ROOT)) {
+    if (dir === 'day-02') continue; // don't exclude against ourselves
+    const vocabPath = path.join(OTHER_DAYS_ROOT, dir, 'vocabulary.json');
+    if (!fs.existsSync(vocabPath)) continue;
+    try {
+      const data = JSON.parse(fs.readFileSync(vocabPath, 'utf8'));
+      for (const w of data.words || []) usedElsewhere.add(String(w.word).toLowerCase());
+    } catch (e) { /* ignore unreadable/partial files from other in-progress days */ }
+  }
+}
+console.log(`Cross-day dedup: ${usedElsewhere.size} words already used on other days will be skipped.`);
+
+// ----------------------------------------------------------------------------
 // DATA POOLS — real, varied building blocks used to generate combinatorial
 // sentence pairs. Using real Indian names / cities / jobs / hobbies keeps the
 // output natural instead of "Lorem ipsum"-style filler.
@@ -517,6 +539,99 @@ function sentenceSet(word) {
   };
 }
 
+// Noun/phrase-safe sentence sets — used for jobs, hobbies, languages, cities,
+// adjectives, skills, degrees, achievements, family relations, and
+// adjective+job phrases, none of which are verbs. sentenceSet() above wraps
+// its word in verb slots ("I try to teacher every day") which is broken
+// grammar for a noun; each variant below places the noun/phrase in the
+// correct grammatical slot for its word type instead.
+
+// "a/an + noun" role words: jobs, degrees, adjective+job phrases, family members
+function roleNounSentenceSet(phrase, article) {
+  const art = article || (/^[aeiou]/i.test(phrase) ? 'an' : 'a');
+  return {
+    daily: `In my daily introduction, I usually mention that I am ${art} ${phrase}.`,
+    office: `At work, people know me as ${art} ${phrase}.`,
+    interview: `In the interview, I explained that I am ${art} ${phrase}.`,
+    business: `For this role, being ${art} ${phrase} is a big advantage.`,
+    formal: `I would like to mention that I am ${art} ${phrase}.`,
+    informal: `Just so you know, I'm ${art} ${phrase}.`
+  };
+}
+
+// Plain adjectives ("confident", "hardworking") — no article before them.
+function adjectiveSentenceSet(word) {
+  return {
+    daily: `In my daily introduction, I usually mention that I am ${word}.`,
+    office: `At work, people know me as someone who is ${word}.`,
+    interview: `In the interview, I explained that I am ${word}.`,
+    business: `For this role, being ${word} is a big advantage.`,
+    formal: `I would like to mention that I am ${word}.`,
+    informal: `Just so you know, I'm pretty ${word}.`
+  };
+}
+
+// Gerund hobbies ("reading", "playing cricket") — used after "enjoy/like".
+function gerundSentenceSet(phrase) {
+  return {
+    daily: `In my daily introduction, I usually mention that I enjoy ${phrase}.`,
+    office: `After work, I like ${phrase} to relax.`,
+    interview: `In the interview, I mentioned that I enjoy ${phrase} in my free time.`,
+    business: `Even with a busy schedule, I make time for ${phrase}.`,
+    formal: `I would like to mention that I enjoy ${phrase}.`,
+    informal: `Just so you know, I love ${phrase}!`
+  };
+}
+
+// Languages ("Hindi", "English") — used after "speak/understand".
+function languageSentenceSet(lang) {
+  return {
+    daily: `In my daily introduction, I usually mention that I can speak ${lang}.`,
+    office: `At work, I sometimes use ${lang} to communicate.`,
+    interview: `In the interview, I explained that I can speak ${lang} fluently.`,
+    business: `Knowing ${lang} helps me a lot in this business.`,
+    formal: `I would like to mention that I am fluent in ${lang}.`,
+    informal: `Just so you know, I can speak ${lang} too!`
+  };
+}
+
+// Places ("Delhi", "Mumbai") — used after "from/live in".
+function placeSentenceSet(place) {
+  return {
+    daily: `In my daily introduction, I usually mention that I am from ${place}.`,
+    office: `At work, people know I originally belong to ${place}.`,
+    interview: `In the interview, I explained that I come from ${place}.`,
+    business: `Our office also has a branch in ${place}.`,
+    formal: `I would like to mention that my hometown is ${place}.`,
+    informal: `Just so you know, I'm from ${place}!`
+  };
+}
+
+// Skills ("public speaking", "time management") — used after "good at".
+function skillSentenceSet(skill) {
+  return {
+    daily: `In my daily introduction, I usually mention that I am good at ${skill}.`,
+    office: `At work, my ${skill} helps me a lot.`,
+    interview: `In the interview, I explained that I am skilled in ${skill}.`,
+    business: `This role requires strong ${skill}, which I have.`,
+    formal: `I would like to mention that I have developed my ${skill} over the years.`,
+    informal: `Just so you know, I'm pretty good at ${skill}!`
+  };
+}
+
+// Achievements — already full clauses like "won the district-level debate
+// competition", so they slot in after "I have".
+function achievementSentenceSet(clause) {
+  return {
+    daily: `In my daily introduction, I usually mention that I have ${clause}.`,
+    office: `At work, everyone knows that I have ${clause}.`,
+    interview: `In the interview, I explained that I have ${clause}.`,
+    business: `For this role, I proudly share that I have ${clause}.`,
+    formal: `I would like to mention that I have ${clause}.`,
+    informal: `Just so you know, I have ${clause}!`
+  };
+}
+
 // Duplicate the curated bank across small suffix variations (word forms /
 // contexts) to responsibly reach 500-1000 words without inventing fake
 // vocabulary — every base word is real; we attach distinct, real derived
@@ -543,16 +658,19 @@ const derivedForms = {
 let vocabWords = [];
 let vid = 1;
 for (const [word, hindi, simpleMeaning, ipa, verbForms, synonyms, antonyms, cefr] of vocabWordBank) {
-  vocabWords.push({
-    id: vid++, word, hindi, simpleMeaning, ipa,
-    verbForms: verbForms || undefined,
-    synonyms, antonyms,
-    sentences: sentenceSet(word.replace(/-/g, ' ')),
-    usageNote: verbForms ? `Regular verb — past & past participle both end in '-ed'.` : `Commonly used in self-introduction and interview contexts.`,
-    cefrLevel: cefr
-  });
+  if (!usedElsewhere.has(word.toLowerCase())) {
+    vocabWords.push({
+      id: vid++, word, hindi, simpleMeaning, ipa,
+      verbForms: verbForms || undefined,
+      synonyms, antonyms,
+      sentences: sentenceSet(word.replace(/-/g, ' ')),
+      usageNote: verbForms ? `Regular verb — past & past participle both end in '-ed'.` : `Commonly used in self-introduction and interview contexts.`,
+      cefrLevel: cefr
+    });
+  }
   if (derivedForms[word]) {
     for (const [dw, dh, dm, dipa, dcefr] of derivedForms[word]) {
+      if (usedElsewhere.has(dw.toLowerCase())) continue;
       vocabWords.push({
         id: vid++, word: dw, hindi: dh, simpleMeaning: dm, ipa: dipa,
         synonyms: [], antonyms: [],
@@ -574,25 +692,26 @@ vocabWords = vocabWords.map((w) => {
 // languages, cities used as "vocabulary in context" entries) until we reach
 // the 500-1000 target band. These reuse the same real-world pools already
 // defined above, each becoming a genuine standalone vocabulary entry.
-function pushSimpleWord(word, hindi, simpleMeaning, cefr) {
+function pushSimpleWord(word, hindi, simpleMeaning, cefr, sentences, usageNote) {
+  if (usedElsewhere.has(word.toLowerCase())) return; // already taught on another day — skip
   vocabWords.push({
     id: vid++, word, hindi, simpleMeaning,
     ipa: '/–/',
     synonyms: [], antonyms: [],
-    sentences: sentenceSet(word),
-    usageNote: `Useful noun for describing yourself, your work, or your background.`,
+    sentences,
+    usageNote: usageNote || `Useful noun for describing yourself, your work, or your background.`,
     cefrLevel: cefr
   });
 }
-for (const j of jobs) pushSimpleWord(j.en, j.hi, `a person whose job is ${j.en}`, 'A2');
-for (const h of hobbies) pushSimpleWord(h.en.split(' ')[0], h.hi, `an activity: ${h.en}`, 'A2');
-for (const l of languages) pushSimpleWord(l.en, l.hi, `a language spoken in India`, 'A1');
-for (const c of cities) pushSimpleWord(c, c, `a city in India, used when talking about origin/residence`, 'A1');
-for (const a of adjectives) pushSimpleWord(a.en, a.hi, `a personality trait`, 'A2');
-for (const s of skills) pushSimpleWord(s.en, s.hi, `a professional skill`, 'B1');
-for (const d of degrees) pushSimpleWord(d.en, d.hi, `an academic qualification`, 'B1');
-for (const a of achievements) pushSimpleWord(a.en, a.hi, `an accomplishment worth mentioning in an introduction`, 'B1');
-for (const f of familyMembers) pushSimpleWord(f.en, f.hi, `a family relation`, 'A1');
+for (const j of jobs) pushSimpleWord(j.en, j.hi, `a person whose job is ${j.en}`, 'A2', roleNounSentenceSet(j.en), 'Profession noun — used after "I am a/an".');
+for (const h of hobbies) pushSimpleWord(h.en, h.hi, `an activity: ${h.en}`, 'A2', gerundSentenceSet(h.en), 'Gerund/activity phrase — used after "I enjoy/like".');
+for (const l of languages) pushSimpleWord(l.en, l.hi, `a language spoken in India`, 'A1', languageSentenceSet(l.en), 'Language name — used after "I can speak".');
+for (const c of cities) pushSimpleWord(c, c, `a city in India, used when talking about origin/residence`, 'A1', placeSentenceSet(c), 'Place name — used after "I am from" / "I live in".');
+for (const a of adjectives) pushSimpleWord(a.en, a.hi, `a personality trait`, 'A2', adjectiveSentenceSet(a.en), 'Adjective — used after "I am", no article needed.');
+for (const s of skills) pushSimpleWord(s.en, s.hi, `a professional skill`, 'B1', skillSentenceSet(s.en), 'Skill noun — used after "I am good at".');
+for (const d of degrees) pushSimpleWord(d.en, d.hi, `an academic qualification`, 'B1', roleNounSentenceSet(d.en), 'Degree noun — used after "I have a/an".');
+for (const a of achievements) pushSimpleWord(a.en, a.hi, `an accomplishment worth mentioning in an introduction`, 'B1', achievementSentenceSet(a.en), 'Achievement clause — used after "I have".');
+for (const f of familyMembers) pushSimpleWord(f.en, f.hi, `a family relation`, 'A1', roleNounSentenceSet(f.en), 'Family relation noun — used after "I have a/an".');
 
 // Descriptive "personality + profession" phrase entries — real, natural
 // collocations (e.g. "confident engineer", "creative designer") that
@@ -600,14 +719,26 @@ for (const f of familyMembers) pushSimpleWord(f.en, f.hi, `a family relation`, '
 // introduction. Generated combinatorially from the adjective and job pools
 // above, capped so the total vocabulary lands inside the 500-1000 target
 // band without needless repetition.
-const TARGET_VOCAB = 620;
+const TARGET_VOCAB = 1000;
 outer:
 for (const a of adjectives) {
   for (const j of jobs) {
     if (vocabWords.length >= TARGET_VOCAB) break outer;
-    pushSimpleWord(`${a.en} ${j.en}`, `${a.hi} ${j.hi}`, `a descriptive phrase combining a personality trait with a profession, e.g. used in "I am a(n) ${a.en} ${j.en}."`, 'B1');
+    const phrase = `${a.en} ${j.en}`;
+    pushSimpleWord(phrase, `${a.hi} ${j.hi}`, `a descriptive phrase combining a personality trait with a profession, e.g. used in "I am a(n) ${phrase}."`, 'B1', roleNounSentenceSet(phrase), 'Adjective + profession phrase — used after "I am a/an".');
   }
 }
+
+// De-dup by word (case-insensitive) — a few base adjectives/skills overlap
+// with derivedForms entries (e.g. "creative" appears both directly and as
+// the root of "creativity"/"creatively"); keep the first occurrence only.
+const seenWords = new Set();
+vocabWords = vocabWords.filter((w) => {
+  const key = w.word.toLowerCase();
+  if (seenWords.has(key)) return false;
+  seenWords.add(key);
+  return true;
+});
 
 const TARGET_VOCAB_MIN = 500;
 if (vocabWords.length < TARGET_VOCAB_MIN) {

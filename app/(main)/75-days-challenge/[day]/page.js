@@ -274,7 +274,7 @@ function SectionCard({ section, dayNum, isCompleted, index }) {
       whileTap={{ scale: 0.97 }}
       className="group relative"
     >
-      <Link href={href} target="_blank" rel="noopener noreferrer" className="block h-full">
+      <Link href={href} className="block h-full">
         {/* Card container — glassmorphism + gradient border on hover */}
         <div
           className={`
@@ -832,7 +832,7 @@ export default function DayOverviewPage() {
             {SECTIONS.map((section) => {
               const done = completedSectionIds.has(section.id);
               return (
-                <Link key={section.id} href={`/75-days-challenge/${dayNum}/${section.id}`} target="_blank" rel="noopener noreferrer" title={section.title}>
+                <Link key={section.id} href={`/75-days-challenge/${dayNum}/${section.id}`} title={section.title}>
                   <motion.div
                     whileHover={{ scale: 1.3 }}
                     className={`
@@ -879,7 +879,7 @@ export default function DayOverviewPage() {
           </div>
 
           {/* CTA button */}
-          <Link href={`/75-days-challenge/${dayNum}/${firstIncompleteSection.id}`} target="_blank" rel="noopener noreferrer" className="flex-1">
+          <Link href={`/75-days-challenge/${dayNum}/${firstIncompleteSection.id}`} className="flex-1">
             <motion.div
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.97 }}

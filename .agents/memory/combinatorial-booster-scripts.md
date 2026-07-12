@@ -29,3 +29,11 @@ nothing. Re-running the same script with an enlarged pool is safe (existing sent
 but note the combo-index-to-tuple mapping shifts when a pool's length changes, so it won't cleanly
 "resume" the old sequence — it just explores a different (still fully deduped) enumeration of the larger
 space, which is fine in practice.
+
+**Per-category target with multiple templates:** when a category combines N sentence templates over one
+pool (or two pools multiplied together), instrument the raw pool size before running the full generation
+(temporarily log `pool.length` right after building each category's candidate array) and compare against
+`target`. If `pool.length < target`, either add more templates or enlarge the pool — do not let the
+generator "cycle" through the same pool multiple passes with only a relabeled difficulty tag, since that
+produces literal duplicate question text under different metadata. Always run a final dedup check
+(`Set` of the rendered sentence per category) after generation, not just a raw count check.
